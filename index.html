@@ -182,7 +182,7 @@ details.refmore>summary{cursor:pointer;font-weight:800;min-height:36px;display:f
  <li><b>Pick your course</b>, then a mode.</li>
  <li><b>⏱️ Boss Battle</b> is a timed practice final. Answers show at the end.</li>
  <li><b>🎯 Topic Training</b> and <b>⚡ Quick 10</b> give hints and step-by-step help.</li>
- <li><b>🩹 Weak Spots</b> brings back what you missed.</li></ul></details>
+ <li><b>🩹 Weak Spots</b> brings back what you missed. <b>💥 Blitz</b> races the clock.</li></ul></details>
 <nav class="modes" id="modes" aria-label="Choose a mode"></nav>
 <div class="main">
 <section class="card" id="practice">
@@ -223,7 +223,8 @@ const MODES=[
  {id:'boss',title:'Boss Battle',short:'Timed practice final',icon:'⏱️',mb:'#ffe9e5',ma:'#e0675a'},
  {id:'topic',title:'Topic Training',short:'Pick a topic • hints on',icon:'🎯',mb:'#e6f2ff',ma:'#5b9fd3'},
  {id:'weak',title:'Weak Spots',short:'Redo what you missed',icon:'🩹',mb:'#f2ecfc',ma:'#9a7fc9'},
- {id:'quick',title:'Quick 10',short:'10 mixed questions',icon:'⚡',mb:'#e7f6e9',ma:'#5fae78'}];
+ {id:'quick',title:'Quick 10',short:'10 mixed questions',icon:'⚡',mb:'#e7f6e9',ma:'#5fae78'},
+ {id:'blitz',title:'Blitz',short:'Beat the clock • 3 lives',icon:'💥',mb:'#fff0d9',ma:'#e8973a'}];
 /* matched videos: [id, start s, title]; key "course:topic" or "topic" */
 const VIDEO_FOR={
  '3A:measure':['c3m2L5Ni3wk',0,'Significant Figures'],'1A:measure':['gVI0NWuv9VU',0,'Dimensional Analysis: Practice Problems'],
@@ -277,11 +278,11 @@ const bossKey=(c,e)=>COURSES[c].exams?c+':'+e:c;
 function toast(t){const e=$('toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('on'),2600)}
 function confetti(n=50){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;const c=['#ff7d73','#70b7e8','#8fd8c8','#f7c968','#b9a3e6'];for(let i=0;i<n;i++){const p=document.createElement('i');p.className='confetti';p.style.left=Math.random()*100+'vw';p.style.background=c[i%5];p.style.animationDelay=Math.random()*.5+'s';document.body.appendChild(p);setTimeout(()=>p.remove(),3600)}}
 /* ---------- journey ---------- */
-const jBlank=()=>({xp:0,correct:0,best:0,modes:{},badges:{},boss:{},perfectQuick:0});let J=Object.assign(jBlank(),LS.get('-journey',{}));
+const jBlank=()=>({xp:0,correct:0,best:0,modes:{},badges:{},boss:{},perfectQuick:0,blitz:{}});let J=Object.assign(jBlank(),LS.get('-journey',{}));
 const saveJ=()=>LS.set('-journey',J);
 const BADGES=[['first','🌱 First Answer','Answer a question',j=>j.correct>=1],['ten','🔟 Ten Correct','10 on your own',j=>j.correct>=10],['fifty','🏅 Fifty Correct','50 on your own',j=>j.correct>=50],['hundred','💯 Century','100 on your own',j=>j.correct>=100],
  ['s5','🔥 Hot Streak','5 in a row',j=>j.best>=5],['s10','⚡ On Fire','10 in a row',j=>j.best>=10],['battle','⚔️ Brave','Finish a Boss Battle',j=>Object.values(j.boss).some(b=>b.n)],
- ['slayer','🏆 Boss Slayer','70%+ on a full Boss Battle',j=>Object.values(j.boss).some(b=>b.fullBest>=70)],['quick','⚡ Perfect 10','10/10 on Quick 10',j=>j.perfectQuick>0],['all','🧭 Explorer','Try every mode',j=>MODES.every(m=>j.modes[m.id])]];
+ ['slayer','🏆 Boss Slayer','70%+ on a full Boss Battle',j=>Object.values(j.boss).some(b=>b.fullBest>=70)],['quick','⚡ Perfect 10','10/10 on Quick 10',j=>j.perfectQuick>0],['blitz','💥 Blitz Master','2,000+ in Blitz',j=>Object.values(j.blitz||{}).some(v=>v>=2000)],['all','🧭 Explorer','Try every mode',j=>MODES.every(m=>j.modes[m.id])]];
 function checkBadges(){BADGES.forEach(([id,t,,ok])=>{if(!J.badges[id]&&ok(J)){J.badges[id]=1;toast('Badge earned: '+t)}});saveJ();renderJ()}
 function renderJ(){const l=Math.floor(J.xp/100)+1,i=J.xp%100;$('jChip').textContent=`Level ${l} • ${J.xp} XP`;$('lvl').textContent='Level '+l;$('xpFill').style.width=i+'%';$('xpTxt').textContent=i+' / 100 XP';
  $('badges').innerHTML=BADGES.map(([id,t,d])=>`<div class="bdg ${J.badges[id]?'got':''}"><b>${t}</b>${d}</div>`).join('');renderIntel()}
@@ -301,8 +302,9 @@ function buildModes(){$('modes').innerHTML=MODES.map(m=>`<button class="mode ${m
 function stats(){[['nCorrect',state.correct],['nStreak',state.streak],['nAssist',state.assist]].forEach(([id,v])=>{const e=$(id);if(e.textContent!==String(v)){e.textContent=v;const p=e.parentElement;p.classList.remove('pop');void p.offsetWidth;p.classList.add('pop')}})}
 function fb(k,h){$('fb').className='fb '+k;$('fb').innerHTML=h}
 function practiceChrome(on){$('statRow').classList.toggle('hidden',!on);$('btnRow').classList.toggle('hidden',!on);if(!on){$('hintBox').className='hintbox';fb('','')}}
-function start(){clearInterval(boss.tick);document.body.classList.remove('examday');$('topicRow').innerHTML='';const m=MODES.find(x=>x.id===state.mode);$('modeTitle').textContent=m.icon+' '+m.title;
+function start(){clearInterval(boss.tick);clearInterval(blitz.tick);document.body.classList.remove('examday');$('topicRow').innerHTML='';const m=MODES.find(x=>x.id===state.mode);$('modeTitle').textContent=m.icon+' '+m.title;
  if(state.mode==='boss'){practiceChrome(false);bossStart();return}
+ if(state.mode==='blitz'){practiceChrome(false);blitzSetup();return}
  practiceChrome(true);$('newBtn').textContent='New Question ↻';
  if(state.mode==='topic')topicChips();
  if(state.mode==='quick'){state.quick={list:shuf(BANK[state.course]).slice(0,10),i:0,score:0,res:[]}}
@@ -430,10 +432,51 @@ function bossResult(ex){clearInterval(boss.tick);document.body.classList.remove(
   <div class="btnrow" style="grid-template-columns:1fr 1fr"><button class="btn coral" id="again">⚔️ New Boss Battle</button><button class="btn plain" id="toWeak">🩹 Practice my misses</button></div>`;
  $('qArea').querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{boss.view=b.dataset.v;bossResult(ex)});
  $('again').onclick=()=>bossSetup(ex);$('toWeak').onclick=()=>goMode('weak');renderIntel()}
+
+/* ---------- blitz ---------- */
+const blitz={tick:null,sec:LS.get('-bsec',90),g:null};
+const hearts=n=>'❤️'.repeat(n)+'🤍'.repeat(3-n);
+const mult=st=>Math.min(3,1+Math.floor(st/3)*0.5);
+function blitzSetup(){clearInterval(blitz.tick);const c=state.course,best=J.blitz||{};video();
+ $('qArea').innerHTML=`<p class="prompt" style="margin-bottom:4px">💥 Blitz: beat the clock!</p>
+ <ul class="rules"><li>Answer before the timer runs out. <b>Tap a choice to lock it in</b>: no Check button.</li><li>You have <b>3 lives</b> ❤️❤️❤️. A wrong answer or a timeout costs one.</li><li>Fast answers score bonus points. Every 3 in a row raises your <b>multiplier</b> (up to ×3).</li></ul>
+ <p class="tip" style="font-weight:900;margin:12px 0 0">Seconds per question?</p>
+ <div class="setup" style="grid-template-columns:repeat(3,1fr);margin-top:6px">${[[90,'Exam pace','🙂'],[60,'Fast','😤'],[30,'Insane','🤯']].map(([t,l,ic])=>`<button class="lenbtn bsec ${blitz.sec===t?'on':''}" data-t="${t}"><b>${ic} ${t} s</b><span>${l}${best[c+':'+t]?` • best ${best[c+':'+t].toLocaleString()}`:''}</span></button>`).join('')}</div>
+ <div class="btnrow" style="grid-template-columns:1fr"><button class="btn coral" id="blitzGo" style="font-size:19px">💥 Start Blitz</button></div>`;
+ $('qArea').querySelectorAll('.bsec').forEach(b=>b.onclick=()=>{blitz.sec=+b.dataset.t;LS.set('-bsec',blitz.sec);blitzSetup()});
+ $('blitzGo').onclick=()=>{blitz.g={lives:3,score:0,streak:0,bestStreak:0,n:0,right:0,res:[],deck:shuf(BANK[state.course].map(q=>q.id))};J.modes.blitz=1;saveJ();blitzNext()}}
+function blitzNext(){const g=blitz.g;if(!g.deck.length)g.deck=shuf(BANK[state.course].map(q=>q.id));
+ g.q=BYID[g.deck.pop()];g.order=shuf([0,1,2,3]);g.left=blitz.sec*1000;g.locked=false;blitzRender();
+ clearInterval(blitz.tick);let last=Date.now();
+ blitz.tick=setInterval(()=>{const now=Date.now(),dt=now-last;last=now;if(document.visibilityState!=='visible'||dt>3000||g.locked)return;g.left-=dt;
+  const f=$('bfill'),t=$('btime');if(f){f.style.width=Math.max(0,g.left/(blitz.sec*1000)*100)+'%';f.style.background=g.left<10000?'#e0675a':g.left<blitz.sec*400?'#f2c35b':'#5fae78'}if(t)t.textContent=Math.max(0,Math.ceil(g.left/1000))+'s';
+  if(g.left<=0)blitzAnswer(null)},100)}
+function blitzRender(){const g=blitz.g,q=g.q;
+ $('qArea').innerHTML=`<div class="ebar"><span class="qcount" style="font-size:20px">${hearts(g.lives)}</span><span class="qcount">⭐ ${g.score.toLocaleString()}</span><span class="qcount">🔥 ${g.streak} <small style="color:#c0645a">×${mult(g.streak)}</small></span><span class="timer" id="btime">${blitz.sec}s</span></div>
+  <div class="hpbar" style="margin-top:8px;height:12px"><div class="hpfill" id="bfill" style="width:100%;background:#5fae78;transition:none"></div></div>
+  <div class="meta"><span class="chip">${topicIcon(q.course,q.t)} ${esc(topicName(q.course,q.t))}</span>${q.k?'<span class="chip calc">🧮 Calculator</span>':''}<span class="chip">#${g.n+1}</span></div>
+  <p class="prompt">${q.q}</p><div class="options">${g.order.map((k,i)=>`<button class="opt" data-k="${k}"><span class="L">${'ABCD'[i]}</span><span>${q.c[k]}</span></button>`).join('')}</div><div id="bfb"></div>
+  <div class="btnrow" style="grid-template-columns:1fr"><button class="btn plain" id="bQuit" style="min-height:44px;font-size:15px">✖ End Blitz</button></div>`;
+ $('qArea').querySelectorAll('.opt').forEach(b=>b.onclick=()=>blitzAnswer(+b.dataset.k));
+ $('bQuit').onclick=()=>{if(!blitz.quitArm){blitz.quitArm=1;$('bQuit').textContent='Tap again to end';setTimeout(()=>{blitz.quitArm=0;if($('bQuit'))$('bQuit').textContent='✖ End Blitz'},3000);return}blitz.quitArm=0;blitzOver()}}
+function blitzAnswer(k){const g=blitz.g;if(g.locked)return;g.locked=true;clearInterval(blitz.tick);const q=g.q,ok=k===0;g.n++;record(q,ok);
+ $('qArea').querySelectorAll('.opt').forEach(b=>{b.disabled=true;if(+b.dataset.k===0)b.classList.add('right');if(k!=null&&+b.dataset.k===k&&!ok)b.classList.add('wrong')});
+ let msg;
+ if(ok){g.streak++;g.right++;g.bestStreak=Math.max(g.bestStreak,g.streak);const bonus=Math.round(100*Math.max(0,g.left)/(blitz.sec*1000)),pts=Math.round((100+bonus)*mult(g.streak));g.score+=pts;
+  msg=`<div class="fb good">✅ +${pts} (speed bonus ${bonus}, ×${mult(g.streak)})</div>`;if(g.streak%5===0){toast(`🔥 ${g.streak} in a row!`);confetti(40)}}
+ else{g.lives--;g.streak=0;g.res.push(q.id);msg=`<div class="fb bad">${k==null?'⏰ Time!':'❌ Not quite.'} Answer: <b>${q.c[0]}</b></div>`}
+ $('bfb').innerHTML=msg;setTimeout(()=>{if(state.mode!=='blitz'||blitz.g!==g)return;g.lives<=0?blitzOver():blitzNext()},ok?900:2200)}
+function blitzOver(){clearInterval(blitz.tick);const g=blitz.g;if(!g)return;const key=state.course+':'+blitz.sec;J.blitz=J.blitz||{};const prev=J.blitz[key]||0,isBest=g.score>prev;if(isBest)J.blitz[key]=g.score;
+ J.correct+=g.right;addXP(Math.round(g.score/50));checkBadges();if(isBest&&g.score>0)confetti(90);blitz.g=null;
+ $('qArea').innerHTML=`<div class="result"><div style="font-size:54px">💥</div><div class="big">${g.score.toLocaleString()}</div><div class="sub">${g.right} correct of ${g.n} • best streak ${g.bestStreak} • ${blitz.sec} s per question</div>
+  <p style="font-weight:900;font-size:20px;margin:10px 0 4px">${isBest&&g.score>0?'🏆 New high score!':`High score: ${Math.max(prev,g.score).toLocaleString()}`}</p></div>
+  ${g.res.length?`<div class="h3">🔍 What got you</div>`+g.res.map(id=>{const q=BYID[id];return `<details class="rev"><summary>❌ ${esc(topicName(q.course,q.t))}</summary><div class="rb"><p>${q.q}</p><p class="correct">✔ ${q.c[0]}</p><p>${q.w}</p></div></details>`}).join(''):''}
+  <div class="btnrow" style="grid-template-columns:1fr 1fr"><button class="btn coral" id="bAgain">💥 Play again</button><button class="btn plain" id="bWeak">🩹 Fix my misses</button></div>`;
+ $('bAgain').onclick=blitzSetup;$('bWeak').onclick=()=>goMode('weak');renderIntel()}
 /* ---------- matched video ---------- */
 const mmss=t=>Math.floor(t/60)+':'+String(t%60).padStart(2,'0');
 function vidFor(q){return q?(VIDEO_FOR[q.course+':'+q.t]||VIDEO_FOR[q.t]):null}
-function video(q){q=q||(state.mode==='boss'?null:state.q);const v=vidFor(q)||COURSE_VIDEO[state.course];const src=`https://www.youtube.com/embed/${v[0]}?start=${v[1]}&rel=0`;
+function video(q){q=q||(state.mode==='boss'||state.mode==='blitz'?null:state.q);const v=vidFor(q)||COURSE_VIDEO[state.course];const src=`https://www.youtube.com/embed/${v[0]}?start=${v[1]}&rel=0`;
  $('vidCard').innerHTML=`<small>${vidFor(q)?'🎯 Matched to this topic':'📺 Start here'}</small><b>${esc(v[2])}</b><div class="tip"><a href="https://www.youtube.com/@itsdrdan" target="_blank" rel="noopener">More on the ItsDrDan channel ↗</a></div>`;
  $('player').dataset.want=src;if($('videoPanel').open&&$('player').src!==src&&state.mode!=='boss')$('player').src=src}
 function openVideo(){$('videoPanel').open=true;$('player').src=$('player').dataset.want;$('videoPanel').scrollIntoView({behavior:'smooth',block:'center'})}

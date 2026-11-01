@@ -8,7 +8,8 @@ Practice for standardized multiple-choice chemistry finals in **CHEM 3A, 3B, 1A 
 - 🎯 **Topic Training:** pick a topic; hints and step-by-step explanations.
 - 🩹 **Weak Spots:** brings back what you missed.
 - ⚡ **Quick 10:** ten mixed questions.
+- 💥 **Blitz:** beat the clock (90, 60 or 30 s per question), 3 lives, speed bonus and streak multiplier.
 
 All questions are original. Not affiliated with or endorsed by any exam publisher.
 
-Current version: v8
+Current version: v9
