@@ -11,4 +11,4 @@ Practice for standardized multiple-choice chemistry finals in **CHEM 3A, 3B, 1A 
 
 All questions are original. Not affiliated with or endorsed by any exam publisher.
 
-Current version: v5
+Current version: v6
