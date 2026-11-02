@@ -21,7 +21,7 @@ button,input,select{font:inherit;color:inherit}.hidden{display:none!important}
 .fbcap{font-size:11.5px;font-weight:900;color:#5c6a75;margin-top:2px;white-space:nowrap;font-variant-numeric:tabular-nums}
 .fbInst svg *{transform-box:fill-box;transform-origin:center}
 .fbBody{animation:fbBreathe 3.4s ease-in-out infinite}
-.fbWave{animation:fbSlosh 2.8s linear infinite}
+.fbWave{animation:fbSlosh 2.8s linear infinite;transition:fill .8s}
 .fbLiq{transition:transform .6s cubic-bezier(.3,1.4,.5,1)}
 .fbHp{transition:width .5s ease,fill .5s}
 .fN .eyes{animation:fbBlink 4.6s ease-in-out infinite}
@@ -898,6 +898,8 @@ const fbSVG=k=>`<svg viewBox="0 0 110 110" aria-hidden="true">
 $('fbLogo').className='logo fbInst';$('fbLogo').dataset.face='n';$('fbLogo').innerHTML=fbSVG('A');$('fbMini').innerHTML=fbSVG('B');
 const FB=(()=>{const els=[$('fbLogo'),$('fbMini')];
  const maxFor=p=>Math.min(30,8+2*p);
+ const LIQ=[['#ad8cce','permanganate purple'],['#5fb0ea','copper sulfate blue'],['#f48fb1','phenolphthalein pink'],['#5ec89a','nickel green'],['#f6c84c','chromate yellow'],['#f29a4b','dichromate orange'],['#e2735f','rust-red iron(III)'],['#4f6fd8','cobalt blue'],['#b8763f','bromine brown'],['#3f4a7a','iodine–starch blue-black'],['#3fa34d','chlorophyll green'],['#38b6b0','bromothymol teal']];
+ const liqOf=ph=>LIQ[((ph||1)-1)%LIQ.length];
  const st=()=>{if(!J.fb||!J.fb.max)J.fb={ph:1,hp:10,max:10,ko:0};return J.fb};
  let bt=null,busy=0,faceT=null;const cur=()=>bt||st();
  function baseFace(){const c=cur(),f=c.max?c.hp/c.max:1;return f>0&&f<=.3?'low':'n'}
@@ -905,13 +907,13 @@ const FB=(()=>{const els=[$('fbLogo'),$('fbMini')];
  function face(k,ms){clearTimeout(faceT);setFace(k);if(ms)faceT=setTimeout(()=>setFace(baseFace()),ms)}
  function draw(){const c=cur(),f=Math.max(0,Math.min(1,c.max?c.hp/c.max:1));
   els.forEach(e=>{const hp=e.querySelector('.fbHp');hp.setAttribute('width',(63*f).toFixed(1));hp.setAttribute('fill',f>.5?'#e0675a':f>.25?'#ef9f3c':'#d93b2b');
-   e.querySelector('.fbLiq').style.transform=`translateY(${(50+(1-f)*54).toFixed(1)}px)`;
+   e.querySelector('.fbWave').setAttribute('fill',liqOf(st().ph)[0]);e.title='Boss '+st().ph+' • '+liqOf(st().ph)[1];e.querySelector('.fbLiq').style.transform=`translateY(${(50+(1-f)*54).toFixed(1)}px)`;
    e.querySelector('.fbcap').innerHTML=bt?`⚔️ HP ${c.hp}/${c.max}<br><span>Boss Battle</span>`:`👾 HP ${c.hp}/${c.max}<br><span>Boss ${c.ph}</span>`});
   if(!busy&&(getFace()==='n'||getFace()==='low'))setFace(baseFace())}
  function flash(cls,ms){els.forEach(e=>{e.classList.remove(cls);void e.offsetWidth;e.classList.add(cls)});setTimeout(()=>els.forEach(e=>e.classList.remove(cls)),ms)}
  function dmg(txt,color){els.forEach(e=>{const t=e.querySelector('.fbDmg');t.textContent=txt;t.setAttribute('fill',color||'#c0473b')});flash('fb-dmg',1000)}
  function ko(){busy=1;face('ko');els.forEach(e=>e.classList.add('fb-ko'));dmg('K.O.!','#e0675a');
-  setTimeout(()=>{els.forEach(e=>e.classList.remove('fb-ko'));busy=0;if(!bt){const s=st();s.ko=(s.ko||0)+1;s.ph++;s.max=maxFor(s.ph);s.hp=s.max;saveJ();toast(`👾 Boss ${s.ph-1} is down! Boss ${s.ph} rises with ${s.max} HP.`);checkBadges()}
+  setTimeout(()=>{els.forEach(e=>e.classList.remove('fb-ko'));busy=0;if(!bt){const s=st();s.ko=(s.ko||0)+1;s.ph++;s.max=maxFor(s.ph);s.hp=s.max;saveJ();toast(`👾 Boss ${s.ph-1} is down! Boss ${s.ph} rises with ${s.max} HP of ${liqOf(s.ph)[1]}.`);checkBadges()}
    flash('fb-spawn',700);face(baseFace());draw()},1900)}
  return{draw,
   hit(n=1){if(busy||bt)return;const s=st();s.hp=Math.max(0,s.hp-n);saveJ();flash('fb-hit',600);face('hit',650);dmg('-'+n);draw();if(s.hp<=0){confetti(70);setTimeout(ko,350)}},
