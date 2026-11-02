@@ -20,6 +20,7 @@ button,input,select{font:inherit;color:inherit}.hidden{display:none!important}
 .course button{min-height:44px;padding:6px 16px;border-radius:999px;border:2px solid #cfdbe6;background:#fff;font-weight:900;cursor:pointer}
 .course button.on{background:#263840;color:#fff;border-color:#263840}
 .examline{margin-top:8px;font-size:14px;font-weight:700;color:#3d5260}
+.daily{display:flex;align-items:center;gap:10px;margin:12px 0 0;padding:10px 12px;border:2px solid #f0c4d3;border-radius:16px;background:linear-gradient(135deg,#fff0f5,#fff)}.daily .dt{flex:1;min-width:0;font-size:14px;color:#3d5260}.daily .dt b{display:block;font-size:15px;color:#2d3f4b}.daily button{min-height:44px;padding:0 16px;border-radius:14px;border:0;background:#d9668e;color:#fff;font-weight:900;font-size:15px;cursor:pointer}.daily button:disabled{background:#c9d6e0;cursor:default}
 .examline b{color:#c0645a}
 details.howto{margin:10px 0;border:2px solid #9fb6e8;border-bottom-width:5px;border-radius:18px;background:linear-gradient(120deg,#f7f3ff,#eef7ff)}
 details.howto>summary{list-style:none;cursor:pointer;padding:12px 18px;font-weight:900;font-size:18px;min-height:48px;display:flex;justify-content:space-between;align-items:center}
@@ -182,6 +183,7 @@ details.refmore>summary{cursor:pointer;font-weight:800;min-height:36px;display:f
  <circle cx="36" cy="72" r="3" fill="#ffb3a8" opacity=".7"/><circle cx="74" cy="72" r="3" fill="#ffb3a8" opacity=".7"/>
 </svg></div>
 </section>
+<div class="daily" id="daily"></div>
 <details class="howto"><summary>📘 How to use this game</summary><ul>
  <li><b>Pick your course</b>, then a mode.</li>
  <li><b>⏱️ Boss Battle</b> is a timed practice final. Answers show at the end.</li>
@@ -274,7 +276,7 @@ const state={mode:MODES.some(m=>m.id===ui.mode)?ui.mode:'boss',course:COURSES[ur
  q:null,order:null,sel:null,done:false,tries:0,correct:0,streak:0,assist:0,topic:ui.topic||'all',quick:null,deck:{},lastId:null};
 /* per-question record: R[id]={r,w,last} (first-try results) */
 let R=LS.get('-rec',{});const saveR=()=>LS.set('-rec',R);
-function record(q,ok){const s=R[q.id]||(R[q.id]={r:0,w:0,last:0});ok?s.r++:s.w++;s.last=ok?1:0;saveR();
+function record(q,ok){const s=R[q.id]||(R[q.id]={r:0,w:0,last:0});ok?s.r++:s.w++;s.last=ok?1:0;s.t=Date.now();saveR();
  try{window.ddTrack&&ddTrack({game:'finalboss',course:'CHEM '+q.course,mode:MODES.find(m=>m.id===state.mode)?.title||state.mode,topic:topicName(q.course,q.t),correct:ok})}catch(e){}}
 const topicName=(c,t)=>(COURSES[c].topics.find(x=>x[0]===t)||[t,t])[1];
 const topicIcon=(c,t)=>(COURSES[c].topics.find(x=>x[0]===t)||[0,0,'📘'])[2];
@@ -286,11 +288,30 @@ const bossKey=(c,e)=>COURSES[c].exams?c+':'+e:c;
 function toast(t){const e=$('toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('on'),2600)}
 function confetti(n=50){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;const c=['#ff7d73','#70b7e8','#8fd8c8','#f7c968','#b9a3e6'];for(let i=0;i<n;i++){const p=document.createElement('i');p.className='confetti';p.style.left=Math.random()*100+'vw';p.style.background=c[i%5];p.style.animationDelay=Math.random()*.5+'s';document.body.appendChild(p);setTimeout(()=>p.remove(),3600)}}
 /* ---------- journey ---------- */
-const jBlank=()=>({xp:0,correct:0,best:0,modes:{},badges:{},boss:{},perfectQuick:0,blitz:{}});let J=Object.assign(jBlank(),LS.get('-journey',{}));
+/* ---------- Daily 5: five questions a day on what you missed or haven't seen lately, with a day streak ---------- */
+const dayKey=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const today=()=>dayKey(new Date()),yesterday=()=>{const d=new Date();d.setDate(d.getDate()-1);return dayKey(d)};
+let DAILY=Object.assign({date:'',sets:{},done:{},dayStreak:0,lastDone:''},LS.get('-daily',{}));const saveDaily=()=>LS.set('-daily',DAILY);
+function dailyPick(c){const now=Date.now(),day=864e5,used={},picked=[];
+ let scored=BANK[c].map(q=>{const r=R[q.id];let s=1;if(!r)s+=3;else{if(r.last===0)s+=4;const d=r.t?(now-r.t)/day:30;if(d>7)s+=2;else if(d<.5)s-=.6}if(q.lo)s-=.5;return [q,Math.max(.2,s)]});
+ while(picked.length<5&&scored.length){const tot=scored.reduce((n,[,v])=>n+v,0);let r=Math.random()*tot,i=0;for(;i<scored.length;i++){r-=scored[i][1];if(r<=0)break}i=Math.min(i,scored.length-1);const q=scored[i][0];picked.push(q.id);used[q.t]=1;scored.splice(i,1);
+  if(picked.length<5&&scored.some(([x])=>!used[x.t]))scored=scored.filter(([x])=>!used[x.t])}/* spread the five over different topics when possible */
+ return picked}
+function dailyRefresh(){if(DAILY.date!==today()){DAILY.date=today();DAILY.sets={};DAILY.done={};if(DAILY.lastDone&&DAILY.lastDone!==today()&&DAILY.lastDone!==yesterday())DAILY.dayStreak=0;saveDaily()}
+ const c=state.course;if(!DAILY.sets[c]||!DAILY.sets[c].every(id=>BYID[id])){DAILY.sets[c]=dailyPick(c);DAILY.done[c]=0;saveDaily()}}
+const dailyDone=()=>DAILY.date===today()&&(DAILY.done[state.course]||0)>=5;
+function renderDaily(){dailyRefresh();const c=C(),n=DAILY.done[state.course]||0,st=DAILY.dayStreak?` 🔥 ${DAILY.dayStreak}-day streak`:'';
+ $('daily').innerHTML=dailyDone()?`<span class="dt"><b>🗓️ Daily 5: done for today ✓${st}</b>Come back tomorrow for five more ${c.name} questions.</span><button disabled>Done</button>`
+ :`<span class="dt"><b>🗓️ Daily 5${st}</b>${n?`${n} of 5 done today.`:`Five quick ${c.name} questions on what you missed or haven't seen lately.`}</span><button id="dailyGo">${n?'Continue':'Start'} ▸</button>`;
+ const b=$('dailyGo');if(b)b.onclick=()=>{state.mode='quick';state.dailyReq=1;ui.mode='quick';saveUI();buildModes();start();if(innerWidth<1000)$('practice').scrollIntoView({behavior:'smooth',block:'start'})}}
+function dailyFinish(ok){const c=state.course;dailyRefresh();DAILY.done[c]=Math.min(5,(DAILY.done[c]||0)+1);let bonus=0;
+ if(DAILY.done[c]===5&&DAILY.lastDone!==today()){DAILY.dayStreak=DAILY.lastDone===yesterday()?DAILY.dayStreak+1:1;DAILY.lastDone=today();bonus=25;addXP(bonus);J.dailyBest=Math.max(J.dailyBest||0,DAILY.dayStreak)}
+ saveDaily();renderDaily();return bonus}
+const jBlank=()=>({xp:0,correct:0,best:0,modes:{},badges:{},boss:{},perfectQuick:0,blitz:{},dailyBest:0});let J=Object.assign(jBlank(),LS.get('-journey',{}));
 const saveJ=()=>LS.set('-journey',J);
 const BADGES=[['first','🌱 First Answer','Answer a question',j=>j.correct>=1],['ten','🔟 Ten Correct','10 on your own',j=>j.correct>=10],['fifty','🏅 Fifty Correct','50 on your own',j=>j.correct>=50],['hundred','💯 Century','100 on your own',j=>j.correct>=100],
  ['s5','🔥 Hot Streak','5 in a row',j=>j.best>=5],['s10','⚡ On Fire','10 in a row',j=>j.best>=10],['battle','⚔️ Brave','Finish a Boss Battle',j=>Object.values(j.boss).some(b=>b.n)],
- ['slayer','🏆 Boss Slayer','70%+ on a full Boss Battle',j=>Object.values(j.boss).some(b=>b.fullBest>=70)],['quick','⚡ Perfect 10','10/10 on Quick 10',j=>j.perfectQuick>0],['blitz','💥 Blitz Master','2,000+ in Blitz',j=>Object.values(j.blitz||{}).some(v=>v>=2000)],['all','🧭 Explorer','Try every mode',j=>MODES.every(m=>j.modes[m.id])]];
+ ['slayer','🏆 Boss Slayer','70%+ on a full Boss Battle',j=>Object.values(j.boss).some(b=>b.fullBest>=70)],['quick','⚡ Perfect 10','10/10 on Quick 10',j=>j.perfectQuick>0],['daily','🗓️ Daily Habit','3-day Daily 5 streak',j=>(j.dailyBest||0)>=3],['blitz','💥 Blitz Master','2,000+ in Blitz',j=>Object.values(j.blitz||{}).some(v=>v>=2000)],['all','🧭 Explorer','Try every mode',j=>MODES.every(m=>j.modes[m.id])]];
 function checkBadges(){BADGES.forEach(([id,t,,ok])=>{if(!J.badges[id]&&ok(J)){J.badges[id]=1;toast('Badge earned: '+t)}});saveJ();renderJ()}
 function renderJ(){const l=Math.floor(J.xp/100)+1,i=J.xp%100;$('jChip').textContent=`Level ${l} • ${J.xp} XP`;$('lvl').textContent='Level '+l;$('xpFill').style.width=i+'%';$('xpTxt').textContent=i+' / 100 XP';
  $('badges').innerHTML=BADGES.map(([id,t,d])=>`<div class="bdg ${J.badges[id]?'got':''}"><b>${t}</b>${d}</div>`).join('');renderIntel()}
@@ -303,7 +324,7 @@ function renderIntel(){const c=state.course;const rows=C().topics.map(([t,name])
 /* ---------- course / modes ---------- */
 function buildCourses(){$('coursePick').innerHTML=COURSE_ORDER.map(c=>`<button class="${c===state.course?'on':''}" data-c="${c}">${COURSES[c].name}</button>`).join('');
  $('coursePick').querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.dataset.c===state.course)return;state.course=b.dataset.c;ui.course=state.course;state.topic='all';ui.topic='all';saveUI();buildCourses();refs();renderIntel();start()});
- const c=C();$('examLine').innerHTML=c.exams?`🎯 ${c.name}: organic midterm + biochem final • <b>${c.n} questions • ${c.min} min</b> each • ${c.given}`:`🎯 ${c.name} final: <b>${c.n} questions • ${c.min} min</b> • ${c.given}`}
+ const c=C();renderDaily();$('examLine').innerHTML=c.exams?`🎯 ${c.name}: organic midterm + biochem final • <b>${c.n} questions • ${c.min} min</b> each • ${c.given}`:`🎯 ${c.name} final: <b>${c.n} questions • ${c.min} min</b> • ${c.given}`}
 const saveUI=()=>LS.set('-ui',ui);
 function buildModes(){$('modes').innerHTML=MODES.map(m=>`<button class="mode ${m.id===state.mode?'on':''}" data-m="${m.id}" style="--mb:${m.mb};--ma:${m.ma}"><span class="ic">${m.icon}</span><b>${m.title}</b><small>${m.short}</small></button>`).join('');
  $('modes').querySelectorAll('.mode').forEach(b=>b.onclick=()=>{state.mode=b.dataset.m;ui.mode=state.mode;saveUI();buildModes();start();if(innerWidth<1000)$('practice').scrollIntoView({behavior:'smooth',block:'start'})})}
@@ -315,7 +336,8 @@ function start(){clearInterval(boss.tick);clearInterval(blitz.tick);document.bod
  if(state.mode==='blitz'){practiceChrome(false);blitzSetup();return}
  practiceChrome(true);$('newBtn').textContent='New Question ↻';
  if(state.mode==='topic')topicChips();
- if(state.mode==='quick'){state.quick={list:shuf(examPool(state.course)).slice(0,10),i:0,score:0,res:[]};if(C().exams){$('topicRow').innerHTML=examPick('qex');$('topicRow').querySelectorAll('.qex').forEach(b=>b.onclick=()=>{setExam(b.dataset.e);state.quick=null;start()})}}
+ if(state.mode==='quick'&&state.dailyReq){state.dailyReq=0;dailyRefresh();const c=state.course,done=DAILY.done[c]||0;const ids=DAILY.sets[c].slice(done);state.quick={list:ids.map(id=>BYID[id]),i:0,score:0,res:[],daily:1,n:5,off:done};$('modeTitle').textContent='🗓️ Daily 5';if(!ids.length){renderDaily();practiceChrome(false);$('qArea').innerHTML=`<div class="fb info" style="margin-top:14px">🗓️ <b>Daily 5 is done for today.</b> Come back tomorrow!</div>`;return}}
+ else if(state.mode==='quick'){state.quick={list:shuf(examPool(state.course)).slice(0,10),i:0,score:0,res:[]};if(C().exams){$('topicRow').innerHTML=examPick('qex');$('topicRow').querySelectorAll('.qex').forEach(b=>b.onclick=()=>{setExam(b.dataset.e);state.quick=null;start()})}}
  next()}
 /* ---------- topic chips ---------- */
 function topicChips(){const c=state.course,cfg=C(),valid=['all',...cfg.topics.map(t=>t[0]),...(cfg.exams||[]).map(e=>'grp:'+e.id)];if(!valid.includes(state.topic))state.topic='all';
@@ -626,7 +648,7 @@ function figBlock(fs){if(!fs)return '';return `<span class="figs">${fs.map(f=>{t
 const qHTML=q=>q.q+structBlock(q.s)+figBlock(q.f);
 const optHTML=(q,k)=>(String(q.c[k]).startsWith('§')?'':q.c[k])+(q.cs&&q.cs[k]?`<span class="optmol">${molSVG(q.cs[k],0.8)}</span>`:'');
 function qMeta(q,extra=''){return `<div class="meta">${extra}<span class="chip">${topicIcon(q.course,q.t)} ${esc(topicName(q.course,q.t))}</span>${q.k?'<span class="chip calc">🧮 Calculator</span>':'<span class="chip">💭 Concept</span>'}<span class="chip lvl">${['','● Easy','●● Medium','●●● Hard'][q.d]||''}</span></div>`}
-function renderQ(){const q=state.q;const quick=state.mode==='quick'?`<span class="chip" style="background:#e5f6ea;border-color:#bfe2c8">⚡ ${state.quick.i+1} of 10 • score ${state.quick.score}</span>`:'';
+function renderQ(){const q=state.q;const quick=state.mode==='quick'?(state.quick.daily?`<span class="chip" style="background:#fff0f5;border-color:#f0c4d3">🗓️ Daily 5 • ${state.quick.off+state.quick.i+1} of 5</span>`:`<span class="chip" style="background:#e5f6ea;border-color:#bfe2c8">⚡ ${state.quick.i+1} of 10 • score ${state.quick.score}</span>`):'';
  $('qArea').innerHTML=qMeta(q,quick)+`<p class="prompt">${qHTML(q)}</p><div class="options">${state.order.map((k,i)=>`<button class="opt" data-k="${k}"><span class="L">${'ABCD'[i]}</span><span>${optHTML(q,k)}</span></button>`).join('')}</div>`;
  ['checkBtn','hintBtn','showBtn'].forEach(id=>$(id).disabled=false);
  $('qArea').querySelectorAll('.opt').forEach(b=>b.onclick=()=>{if(state.done)return;state.sel=+b.dataset.k;$('qArea').querySelectorAll('.opt').forEach(x=>{x.classList.toggle('sel',x===b)})})}
@@ -635,7 +657,7 @@ function finish(revealed){state.done=true;['checkBtn','hintBtn','showBtn'].forEa
  const vb=vidFor(q)?` <button class="linkbtn" onclick="openVideo()">🎥 Review with Dr. Dan</button>`:'';
  if(revealed){state.assist++;state.streak=0;if(state.tries===0)record(q,false);fb('good',`👀 ${q.w}<br><small>Assisted: no point this time.${vb}</small>`);award(true)}
  else{const first=state.tries===0;state.correct++;state.streak=first?state.streak+1:0;if(first)record(q,true);if(first)confetti();fb('good',(first?'✅ Correct! ':'✅ Got it on a retry. ')+q.w+(first?'':`<br><small>Retries don't count as first-try correct.${vb}</small>`));award(!first)}
- if(state.mode==='quick'){const Q=state.quick;const ok=!revealed&&state.tries===0;if(ok)Q.score++;Q.res.push([q.id,ok]);Q.i++;$('newBtn').textContent=Q.i>=10?'See Results 🏁':'Next ▸'}
+ if(state.mode==='quick'){const Q=state.quick;const ok=!revealed&&state.tries===0;if(ok)Q.score++;Q.res.push([q.id,ok]);Q.i++;if(Q.daily)dailyFinish(ok);$('newBtn').textContent=Q.i>=Q.list.length?'See Results 🏁':'Next ▸'}
  else $('newBtn').textContent='Next Question ▸';
  stats();renderIntel();if(state.mode==='topic')topicChips()}
 function check(){if(state.done)return;const q=state.q;if(state.sel==null)return fb('bad','Choose an answer first.');
@@ -644,12 +666,16 @@ function check(){if(state.done)return;const q=state.q;if(state.sel==null)return 
  finish(false)}
 function hint(){if(state.done)return;const v=vidFor(state.q);$('hintBox').innerHTML='💡 '+state.q.h+(v?` <button class="linkbtn" onclick="openVideo()">🎥 Watch Dr. Dan explain it</button>`:'');$('hintBox').className='hintbox on'}
 function quickEnd(){const Q=state.quick;practiceChrome(false);$('statRow').classList.remove('hidden');$('newBtn').textContent='Play Again ↻';
+ if(Q.daily){J.modes.quick=1;checkBadges();if(dailyDone())confetti(70);const st=DAILY.dayStreak?` 🔥 ${DAILY.dayStreak}-day streak`:'';
+  $('qArea').innerHTML=`<div class="result"><div style="font-size:54px">🗓️</div><div class="big">${Q.score} / ${Q.list.length}</div><div class="sub">${dailyDone()?'Daily 5 complete! +25 XP'+st:'Daily 5 paused'}</div></div>`+
+   `<div class="h3">Today's five</div>`+Q.res.map(([id,ok],i)=>{const q=BYID[id];return `<details class="rev"><summary>${ok?'✅':'❌'} ${Q.off+i+1}. ${esc(topicName(q.course,q.t))}</summary><div class="rb"><p>${qHTML(q)}</p><p class="correct">✔ ${optHTML(q,0)}</p><p>${q.w}</p></div></details>`}).join('')+
+   `<div class="btnrow" style="grid-template-columns:1fr 1fr"><button class="btn coral" onclick="state.quick=null;start()">⚡ Quick 10</button><button class="btn plain" onclick="goMode('weak')">🩹 Fix my misses</button></div>`;$('newBtn').onclick=()=>{$('newBtn').onclick=newBtn;state.quick=null;start()};return}
  if(Q.score===10){J.perfectQuick++;confetti(90)}J.modes.quick=1;checkBadges();
  $('qArea').innerHTML=`<div class="result"><div class="big">${Q.score} / 10</div><div class="sub">${Q.score>=9?'Boss-level! 🏆':Q.score>=7?'Strong work! 💪':Q.score>=5?'Getting there. Keep training! 🎯':'Train your weak spots and try again. 🩹'}</div></div>`+
   `<div class="h3">Your 10</div>`+Q.res.map(([id,ok],i)=>{const q=BYID[id];return `<details class="rev"><summary>${ok?'✅':'❌'} ${i+1}. ${esc(topicName(q.course,q.t))}</summary><div class="rb"><p>${qHTML(q)}</p><p class="correct">✔ ${optHTML(q,0)}</p><p>${q.w}</p></div></details>`}).join('')+
   `<div class="btnrow" style="grid-template-columns:1fr 1fr"><button class="btn coral" onclick="state.quick=null;start()">⚡ New Quick 10</button><button class="btn plain" onclick="goMode('weak')">🩹 Fix my misses</button></div>`;
  $('newBtn').onclick=()=>{$('newBtn').onclick=newBtn;start()}}
-function newBtn(){if(state.mode==='quick'){const Q=state.quick;if(!state.done){Q.res.push([state.q.id,false]);Q.i++}if(Q.i>=Q.list.length)return quickEnd()}next()}
+function newBtn(){if(state.mode==='quick'){const Q=state.quick;if(!state.done){Q.res.push([state.q.id,false]);Q.i++;if(Q.daily)dailyFinish(false)}if(Q.i>=Q.list.length)return quickEnd()}next()}
 function goMode(m){state.mode=m;ui.mode=m;saveUI();buildModes();start();$('practice').scrollIntoView({behavior:'smooth',block:'start'})}
 /* ---------- boss battle (timed mock final) ---------- */
 const boss={tick:null,strict:LS.get('-strict',false),len:LS.get('-len','full'),confirm:0,view:'missed',exam:LS.get('-examsel',{})};
@@ -792,7 +818,7 @@ function refs(){const c=state.course,one=c[0]==='1';
  <button class="btn check ptbtn" id="ptOpen">🧪 Open periodic table</button>
  ${one?`<div class="refcard ds"><b>Constants & conversions (on the data sheet)</b><ul>${CONSTANTS.map(x=>`<li>${x}</li>`).join('')}</ul><div class="tip">Not listed, so memorize: F = 96,485 C/mol and K<sub>w</sub> = 1.0×10⁻¹⁴. </div></div><div class="refcard ds"><b>Equations printed on the data sheet</b><ul>${(GIVEN[c]||[]).map(x=>`<li>${x}</li>`).join('')}</ul></div>`:''}
  <div class="refcard"><details class="refmore"><summary>${c==='3B'?'🔁 Reactions to know':'✍️ Formulas to memorize'}</summary><ul>${FORMULAS[c].map(x=>`<li>${x}</li>`).join('')}</ul></details></div>
- <div class="refcard"><details class="refmore"><summary>🎮 Test-taking moves</summary><ul><li>On a keyboard: press <b>1–4</b> (or A–D) to pick, <b>Enter</b> to check and to move on.</li><li>About 1 minute per question. Long one? Flag it and come back.</li><li>Cross out choices you know are wrong first.</li><li>Check units and sig figs in the choices: they give hints.</li><li>Answer every question before time runs out.</li></ul></details></div>`;
+ <div class="refcard"><details class="refmore"><summary>🎮 Test-taking moves</summary><ul><li><b>Daily 5:</b> five quick questions a day, picked from what you missed or haven’t seen lately. Finish all five for +25 XP and a day streak.</li><li>On a keyboard: press <b>1–4</b> (or A–D) to pick, <b>Enter</b> to check and to move on.</li><li>About 1 minute per question. Long one? Flag it and come back.</li><li>Cross out choices you know are wrong first.</li><li>Check units and sig figs in the choices: they give hints.</li><li>Answer every question before time runs out.</li></ul></details></div>`;
  $('ptOpen').onclick=openPT}
 function buildPT(){const pos=z=>{if(z===1)return[1,1];if(z===2)return[1,18];if(z<=10)return[2,z<=4?z-2:z+8];if(z<=18)return[3,z<=12?z-10:z];if(z<=36)return[4,z-18];if(z<=54)return[5,z-36];
   if(z<=56)return[6,z-54];if(z===57)return[6,3];if(z<=71)return[9,z-54];if(z<=86)return[6,z-68];if(z<=88)return[7,z-86];if(z===89)return[7,3];if(z<=103)return[10,z-86];return[7,z-100]};
