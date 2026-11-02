@@ -532,6 +532,8 @@ function hwDraw(R,ox,oy,b,skip){const P0=HW_GEO[R.size],W=P0.reduce((m,p)=>Math.
  const ends={},mid=H*.2,z=R.fz;
  R.subs.forEach((s,i)=>{const p=P[i+1],pos=p[1]-cy>mid?1:p[1]-cy<-mid?-1:0;['up','down'].forEach((d,k)=>{const t=s[k],dir=k?1:-1,inside=(pos>0&&dir<0)||(pos<0&&dir>0),L=(inside?20:26)*(z>1?1.12:1),ex=p[0],ey=p[1]+dir*L;ends[i+'_'+d]=[ex,ey];if(skip&&skip[i+'_'+d])return;if(!t||(R.noH&&t==='H'))return;o+=fbL(p[0],p[1],ex,ey);
    const ly=ey+dir*(inside?8.5:10)*z,lr=p[0]>cx+4?1:p[0]<cx-4?-1:0,side=t==='H'||!lr?0:inside?-lr:lr,lt=side<0?(HW_REV[t]||t):t,w=fbW(lt,9.8*z),lx=side>0?ex-5*z:side<0?ex+5*z:ex;
+   const cm=t!=='H'&&(side>0&&/^C/.test(lt)?['',lt.slice(1)]:side<0&&lt.match(/^(.*)C((?:H(?:<sub>\d<\/sub>)?)?)$/)?lt.match(/^(.*)C((?:H(?:<sub>\d<\/sub>)?)?)$/).slice(1):null);
+   if(cm){const hc=5.6*z,fs=`font-size="${16*z}"`;o+=fbT(ex,ly+5.5*z,'C',fs+' text-anchor="middle"');if(cm[0])o+=fbT(ex-hc,ly+5.5*z,cm[0],fs+' text-anchor="end"').replace(/fill="[^"]*"/,`fill="${fbCol(lt)}"`);if(cm[1])o+=fbT(ex+hc,ly+5.5*z,cm[1],fs+' text-anchor="start"').replace(/fill="[^"]*"/,`fill="${fbCol(lt)}"`);b.add(ex-hc-fbW(cm[0],9.8*z),ly-10*z);b.add(ex+hc+fbW(cm[1],9.8*z),ly+10*z);return}
    o+=fbT(lx,ly+5.5*z,lt,`font-size="${16*z}" text-anchor="${side>0?'start':side<0?'end':'middle'}"`);const xa=side>0?lx:side<0?lx-w:lx-w/2;b.add(xa,ly-10*z);b.add(xa+w,ly+10*z)})});
  const out=(p,r)=>{const sx=p[0]>=cx?1:-1,pos=p[1]-cy>mid?1:p[1]-cy<-mid?-1:0;return [p[0]+sx*r,p[1]+pos*r*.75]};
  if(R.nums)R.nums.forEach((nm,i)=>{const q=out(P[i+1],12);o+=fbNum(q[0],q[1]+4,nm)});
