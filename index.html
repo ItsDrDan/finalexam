@@ -358,7 +358,7 @@ const saveUI=()=>LS.set('-ui',ui);
 function buildModes(){$('modes').innerHTML=MODES.map(m=>`<button class="mode ${m.id===state.mode?'on':''}" data-m="${m.id}" style="--mb:${m.mb};--ma:${m.ma}"><span class="ic">${m.icon}</span><b>${m.title}</b><small>${m.short}</small></button>`).join('');
  $('modes').querySelectorAll('.mode').forEach(b=>b.onclick=()=>{state.mode=b.dataset.m;ui.mode=state.mode;saveUI();buildModes();start();if(innerWidth<1000)$('practice').scrollIntoView({behavior:'smooth',block:'start'})})}
 function stats(){[['nCorrect',state.correct],['nStreak',state.streak],['nAssist',state.assist]].forEach(([id,v])=>{const e=$(id);if(e.textContent!==String(v)){e.textContent=v;const p=e.parentElement;p.classList.remove('pop');void p.offsetWidth;p.classList.add('pop')}})}
-function fb(k,h){$('fb').className='fb '+k;$('fb').innerHTML=h}
+function fb(k,h){$('fb').className='fb '+k;$('fb').innerHTML=noWrapChem(h)}
 function practiceChrome(on){$('statRow').classList.toggle('hidden',!on);$('btnRow').classList.toggle('hidden',!on);if(!on){$('hintBox').className='hintbox';fb('','')}}
 function start(){clearInterval(boss.tick);clearInterval(blitz.tick);document.body.classList.remove('examday');$('topicRow').innerHTML='';const m=MODES.find(x=>x.id===state.mode);$('modeTitle').textContent=m.icon+' '+m.title;
  if(state.mode==='boss'){practiceChrome(false);bossStart();return}
@@ -674,8 +674,10 @@ function fEnzyme(f){const P=f.panels||[{kind:f.kind,cap:f.cap}],W=150,H=148;cons
  return `<div class="fwrap">${panels.join('')}</div>`}
 const FIG={cycle:fCycle,path:fPath,table:fTable,eq:fEq,plot:fPlot,mo:fMO,modiag:fMODiag,particles:fParticles,cylinder:fScale,buret:fScale,ruler:fScale,balance:fScale,targets:fTargets,fischer:fFischer,haworth:fHaworth,orbitals:fOrbitals,ptgrid:fPtGrid,cell:fCell,spectrum:fSpectrum,enzyme:fEnzyme};
 function figBlock(fs){if(!fs)return '';return `<span class="figs">${fs.map(f=>{try{return `<span class="fig">${FIG[f.type](f)}</span>`}catch(e){return ''}}).join('')}</span>`}
-const qHTML=q=>q.q+structBlock(q.s)+figBlock(q.f);
-const optHTML=(q,k)=>(String(q.c[k]).startsWith('§')?'':q.c[k])+(q.cs&&q.cs[k]?`<span class="optmol">${molSVG(q.cs[k],0.8)}</span>`:'');
+/* keep condensed formulas like HC≡C–CH=CH2 or CH3–CH2–OH on one line */
+const noWrapChem=h=>typeof h==='string'?h.replace(/<span class="nw">[\s\S]*?<\/span>|<[^>]+>|(?:[A-Za-z0-9()\[\]]|<\/?su[bp]>)+(?:[–−—=≡-](?:[A-Za-z0-9()\[\]]|<\/?su[bp]>)+)+/g,m=>m.startsWith('<')||!/[A-Za-z]/.test(m.replace(/<[^>]+>/g,''))?m:`<span class="nw">${m}</span>`):h;
+const qHTML=q=>noWrapChem(q.q)+structBlock(q.s)+figBlock(q.f);
+const optHTML=(q,k)=>(String(q.c[k]).startsWith('§')?'':noWrapChem(q.c[k]))+(q.cs&&q.cs[k]?`<span class="optmol">${molSVG(q.cs[k],0.8)}</span>`:'');
 function qMeta(q,extra=''){return `<div class="meta">${extra}<span class="chip">${topicIcon(q.course,q.t)} ${esc(topicName(q.course,q.t))}</span>${q.k?'<span class="chip calc">🧮 Calculator</span>':'<span class="chip">💭 Concept</span>'}<span class="chip lvl">${['','● Easy','●● Medium','●●● Hard'][q.d]||''}</span></div>`}
 function renderQ(){const q=state.q;const quick=state.mode==='quick'?(state.quick.daily?`<span class="chip" style="background:#fff0f5;border-color:#f0c4d3">🗓️ Daily 5 • ${state.quick.off+state.quick.i+1} of 5</span>`:`<span class="chip" style="background:#e5f6ea;border-color:#bfe2c8">⚡ ${state.quick.i+1} of 10 • score ${state.quick.score}</span>`):'';
  $('qArea').innerHTML=qMeta(q,quick)+`<p class="prompt">${qHTML(q)}</p><div class="options">${state.order.map((k,i)=>`<button class="opt" data-k="${k}"><span class="L">${'ABCD'[i]}</span><span>${optHTML(q,k)}</span></button>`).join('')}</div>`;
