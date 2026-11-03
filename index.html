@@ -19,7 +19,7 @@ button,input,select{font:inherit;color:inherit}.hidden{display:none!important}
 /* ---- living boss logo ---- */
 .logo{text-align:center}.fbInst svg{overflow:visible;display:block;width:100%;height:auto}
 .fbcap{font-size:11.5px;font-weight:900;color:#5c6a75;margin-top:2px;white-space:nowrap;font-variant-numeric:tabular-nums}
-.fbInst svg *{transform-box:fill-box;transform-origin:center}.fbInst svg .fbPos{transform-box:view-box;transform-origin:0 0}
+.fbInst .fbBody,.fbInst .fbCrown,.fbInst .eyes,.fbInst .fbSweat,.fbInst .fbDmg,.fbInst .fbWave{transform-box:fill-box;transform-origin:center}
 .fbBody{animation:fbBreathe 3.4s ease-in-out infinite}
 .fbWave{animation:fbSlosh 2.8s linear infinite;transition:fill .8s}
 .fbLiq{transition:transform .6s cubic-bezier(.3,1.4,.5,1)}
@@ -1173,8 +1173,8 @@ const fbSVG=(k,vi)=>{const v=VESSELS[vi%VESSELS.length],g=vesselGeo(v);return `<
   <image href="${v.img}" x="${g.ix.toFixed(1)}" y="${g.iy.toFixed(1)}" width="${g.iw.toFixed(1)}" height="${g.ih.toFixed(1)}" preserveAspectRatio="xMidYMid meet"/>
   <g clip-path="url(#fbBulb${k})"><g class="fbLiq" style="transform:translateY(${g.full.toFixed(1)}px)"><path class="fbWave" fill="#ad8cce" opacity=".82" d="M-60 0q13.75-5 27.5 0t27.5 0 27.5 0 27.5 0 27.5 0 27.5 0 27.5 0 27.5 0V130H-60z"/>
    <circle cx="40" cy="38" r="3" fill="#fff" opacity=".8"/><circle cx="70" cy="40" r="2.2" fill="#fff" opacity=".8"/><circle cx="56" cy="45" r="1.8" fill="#fff" opacity=".8"/><circle cx="48" cy="20" r="1.6" fill="#fff" opacity=".6"/><circle cx="64" cy="14" r="2" fill="#fff" opacity=".6"/></g></g>
-  <g class="fbPos" transform="translate(${g.cx} ${g.cy.toFixed(1)}) scale(${g.cs.toFixed(2)})"><g class="fbCrown"><path d="M-13 0l4-9 9 7 9-7 4 9z" fill="#f7c968" stroke="#d9a531" stroke-width="2" stroke-linejoin="round"/><circle cx="-9" cy="-9" r="2.2" fill="#e0675a"/><circle cx="0" cy="-3" r="2.2" fill="#43b6a8"/><circle cx="9" cy="-9" r="2.2" fill="#2f8fd0"/></g></g>
-  <g class="fbPos" transform="translate(${g.fx} ${g.fy.toFixed(1)}) scale(${g.fs.toFixed(2)}) translate(-55 -70)">
+  <svg x="${(g.cx-15*g.cs).toFixed(1)}" y="${(g.cy-12*g.cs).toFixed(1)}" width="${(30*g.cs).toFixed(1)}" height="${(14*g.cs).toFixed(1)}" viewBox="-15 -12 30 14" overflow="visible"><g class="fbCrown"><path d="M-13 0l4-9 9 7 9-7 4 9z" fill="#f7c968" stroke="#d9a531" stroke-width="2" stroke-linejoin="round"/><circle cx="-9" cy="-9" r="2.2" fill="#e0675a"/><circle cx="0" cy="-3" r="2.2" fill="#43b6a8"/><circle cx="9" cy="-9" r="2.2" fill="#2f8fd0"/></g></svg>
+  <svg x="${(g.fx-27*g.fs).toFixed(1)}" y="${(g.fy-20*g.fs).toFixed(1)}" width="${(54*g.fs).toFixed(1)}" height="${(40*g.fs).toFixed(1)}" viewBox="28 50 54 40" overflow="visible">
   <g class="fbCracks" stroke="#3f94c9" stroke-width="1.6" fill="none" stroke-linecap="round"><path d="M30 62l5 4-3 5 4 3"/><path d="M82 80l-4 3 2 5-4 3"/><path d="M50 100l3-4-2-4"/></g>
   <circle cx="36" cy="72" r="3" fill="#ffb3a8" opacity=".7"/><circle cx="74" cy="72" r="3" fill="#ffb3a8" opacity=".7"/>
   <g class="face fN"><path d="M38 56l9 4M72 56l-9 4" stroke="#22313b" stroke-width="3" stroke-linecap="round"/>
@@ -1192,7 +1192,7 @@ const fbSVG=(k,vi)=>{const v=VESSELS[vi%VESSELS.length],g=vesselGeo(v);return `<
   <g class="face fK"><path d="M40 61l8 8M48 61l-8 8M62 61l8 8M70 61l-8 8" stroke="#22313b" stroke-width="3" stroke-linecap="round"/>
    <path d="M46 81q4-4 8 0t8 0" fill="none" stroke="#22313b" stroke-width="3" stroke-linecap="round"/></g>
   <path class="fbSweat" d="M80 52q3 4 0 7t-3-3q0-2 3-4z" fill="#8ecbff"/>
-  </g>
+  </svg>
  </g>
  <text class="fbDmg" x="92" y="40" text-anchor="middle" fill="#c0473b">-1</text>
 </svg><div class="fbcap">👾 HP 10/10</div>`};
