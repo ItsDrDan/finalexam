@@ -4,7 +4,7 @@ Practice for standardized multiple-choice chemistry finals in **CHEM 3A, 3B, 1A 
 
 **Play:** https://itsdrdan.github.io/finalexam/ (add `?course=3A`, `3B`, `1A` or `1B`)
 
-- 👾 **Living boss logo:** the flask boss takes a hit and loses HP on every correct answer, taunts on misses, gets worried when low, and KOs then respawns stronger.
+- 👾 **Living boss logo:** eight pieces of glassware (flask, beaker, test tube, Erlenmeyer, cylinder, volumetric flask, sep funnel, buret) with 12 rotating liquids; the boss takes a hit and loses HP on every correct answer, taunts on misses, gets worried when low, and KOs then respawns stronger.
 - ⏱️ **Boss Battle:** timed practice exam. Practice style (Boss HP, pace meter) or 🎓 Exam Day style (directions, bubble sheet, data sheet only).
 - 🎯 **Topic Training:** pick a topic; hints and step-by-step explanations.
 - 🩹 **Weak Spots:** brings back what you missed.
@@ -13,4 +13,4 @@ Practice for standardized multiple-choice chemistry finals in **CHEM 3A, 3B, 1A 
 
 All questions are original. Not affiliated with or endorsed by any exam publisher.
 
-Current version: v27
+Current version: v28
