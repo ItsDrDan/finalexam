@@ -1199,7 +1199,7 @@ const fbSVG=(k,vi)=>{const v=VESSELS[vi%VESSELS.length],g=vesselGeo(v);return `<
 $('fbLogo').className='logo fbInst';$('fbLogo').dataset.face='n';
 const FB=(()=>{const els=[$('fbLogo'),$('fbMini')];
  const maxFor=p=>Math.min(30,8+2*p);
- const LIQ=[['#ad8cce','permanganate purple'],['#5fb0ea','copper sulfate blue'],['#f48fb1','phenolphthalein pink'],['#5ec89a','nickel green'],['#f6c84c','chromate yellow'],['#f29a4b','dichromate orange'],['#e2735f','rust-red iron(III)'],['#4f6fd8','cobalt blue'],['#b8763f','bromine brown'],['#3f4a7a','iodine–starch blue-black'],['#3fa34d','chlorophyll green'],['#38b6b0','bromothymol teal']];
+ const LIQ=[['#ad8cce','permanganate purple'],['#5fb0ea','copper sulfate blue'],['#f48fb1','phenolphthalein pink'],['#5ec89a','nickel green'],['#f6c84c','chromate yellow'],['#f29a4b','dichromate orange'],['#e2735f','rust-red iron(III)'],['#4f6fd8','cobalt blue'],['#9ed24e','fluorescein green'],['#3f4a7a','iodine–starch blue-black'],['#3fa34d','chlorophyll green'],['#38b6b0','bromothymol teal']];
  const liqOf=ph=>LIQ[((ph||1)-1)%LIQ.length];const vesOf=ph=>((ph||1)-1)%VESSELS.length;let builtV=-1;
  function build(){const vi=vesOf(st().ph);if(vi===builtV)return;builtV=vi;$('fbLogo').innerHTML=fbSVG('A',vi);$('fbMini').innerHTML=fbSVG('B',vi)}
  const st=()=>{if(!J.fb||!J.fb.max)J.fb={ph:1,hp:10,max:10,ko:0};return J.fb};
