@@ -111,7 +111,7 @@ details.howto ul{margin:0 18px 14px;padding-left:22px;line-height:1.6}
 .tpick{display:flex;align-items:center;gap:10px;margin-top:12px;font-weight:900}.tpick select{flex:1;min-width:0;min-height:48px;font-size:16px;font-weight:800;border:2px solid #9fc3e0;border-radius:14px;padding:8px 12px;background:#fff}
 .figs{display:flex;flex-direction:column;align-items:center;gap:10px;margin:10px 0 2px}.fig{display:block;max-width:100%;overflow-x:auto}.fsvg{max-width:100%;height:auto;display:block;margin:0 auto}.feq{white-space:pre-wrap;text-align:center;font-size:20px;font-weight:700;padding:10px 14px;background:#fff;border:2px solid #e1ebf3;border-radius:14px;line-height:1.5}.ftab{border-collapse:collapse;margin:0 auto;font-size:16px;font-weight:600;background:#fff}.ftab caption{font-weight:900;padding-bottom:4px}.ftab th,.ftab td{border:1.5px solid #9fb6c8;padding:5px 12px;text-align:center}.ftab th{background:#eef5fb;font-weight:900}.fwrap{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 10px}.fwrap .fpart svg{max-width:40vw}@media(min-width:701px){.fwrap .fpart svg{max-width:230px}}
 .fpart{display:flex;flex-direction:column;align-items:center;gap:4px}.flegend{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;font-size:15px;font-weight:700}.flegend span{display:inline-flex;align-items:center;gap:4px}
-.optmol{display:block;margin-top:4px}.optmol svg{max-height:150px;width:auto;max-width:100%}
+.optmol{display:block;margin-top:4px}.condensed{font-weight:800;font-size:18px;white-space:nowrap}.mols .condensed{font-size:20px;padding:6px 4px}.optmol svg{max-height:150px;width:auto;max-width:100%}
 .mols{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px 14px;margin:10px 0 2px;padding:8px;background:#fff;border:2px solid #e1ebf3;border-radius:16px}.mrx{display:inline-flex;flex-direction:column;align-items:center;min-width:92px;max-width:170px;padding:0 4px}.mrxt{font-size:14px;font-weight:800;line-height:1.25;text-align:center;color:#2d3f4b}.mrxa{position:relative;width:100%;height:2.5px;background:#2d3f4b;margin:5px 0}.mrxa::after{content:'';position:absolute;right:-2px;top:-5.5px;border-left:11px solid #2d3f4b;border-top:6.75px solid transparent;border-bottom:6.75px solid transparent}.mol{display:inline-flex;flex-direction:column;align-items:center}.mcap{font-size:15px;margin-top:2px}.mop{font-size:26px;font-weight:700;color:#2d3f4b}
 .nw{white-space:nowrap}.ss{display:inline-flex;flex-direction:column;align-items:flex-start;vertical-align:.32em;line-height:1;margin-right:1px}.ss.pre{align-items:flex-end;margin:0 1px 0 0}.ss sup,.ss sub{font-size:.68em;line-height:1.05;vertical-align:baseline;position:static}
 .topics{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
@@ -299,6 +299,175 @@ const rnd=n=>Math.floor(Math.random()*n),shuf=a=>{a=a.slice();for(let i=a.length
 const LS={get(k,d){try{const v=localStorage.getItem(GAME_KEY+k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(GAME_KEY+k,JSON.stringify(v))}catch(e){}},del(k){try{localStorage.removeItem(GAME_KEY+k)}catch(e){}}};
 Object.keys(BANK).forEach(c=>BANK[c].forEach((q,i)=>{q.id=c+'-'+i;q.course=c}));
 const BYID={};Object.values(BANK).flat().forEach(q=>BYID[q.id]=q);
+/* ---------- drawn structures/reactions added under CHEM 3B questions (SMILES, drawn by the Bond Voyage engine) ---------- */
+const EXTRA_S=(()=>{
+ const M=(smi,cap,st)=>({smi,cap,st}),A=t=>({arrow:t}),Q='?';
+ const opts=(...smis)=>smis.map(x=>typeof x==='string'?{smi:x}:x);
+ return {
+ /* structure */
+ '3B-1':{s:[M('CC','ethane','expanded')]},
+ '3B-2':{s:[M('C=C','ethene','expanded')]},
+ '3B-3':{cs:opts('CO','ClC(Cl)(Cl)Cl','CCC','O=C=O')},
+ '3B-5':{s:[M('CCOCC')]},
+ '3B-6':{s:[M('CCC(=O)OC')]},
+ '3B-7':{s:[M('CC(=O)N')]},
+ '3B-10':{s:[M('CCCO')]},
+ '3B-12':{s:[M('CN(C)C','trimethylamine','expanded')]},
+ '3B-13':{s:[M('CCCC(C(C)C)CCC')]},
+ '3B-14':{s:[M('CC(C)(C)CC(C)C','2,2,4-trimethylpentane')]},
+ '3B-15':{s:[M('CCCCCC','hexane')],cs:opts('CCC(C)(C)C','C1CCCCC1','CCCCC(C)C','CC(C)(C)C')},
+ '3B-16':{cs:opts('CCC=CC','C=CCCC','CC(C)=CC','CC(C)=C')},
+ '3B-18':{cs:opts('CCCCCC','CCC(C)(C)C','CCCCC','CCC(C)C')},
+ '3B-20':{s:[M('C','methane','expanded'),'+',M('ClCl','Cl₂','expanded'),A('light'),Q]},
+ '3B-21':{s:[M('CC=CC','2-butene'),A('H₂, Pt'),Q]},
+ '3B-22':{s:[M('CC=C','propene'),A('H₂O, H⁺'),Q]},
+ '3B-23':{s:[M('CC(C)=C','2-methylpropene'),A('HBr'),Q]},
+ '3B-25':{cs:opts('C=CCl','C=C','C=CC','FC(F)=C(F)F')},
+ '3B-26':{s:[M('C#CC=C'),'+','? H₂',A('Pt'),Q]},
+ '3B-27':{cs:opts('C1=CCCCC1','C1CCCCC1','C=CCCCC','CCCCCC')},
+ '3B-28':{s:[M('CCC=CC')]},
+ /* aromatic */
+ '3B-29':{s:[M('C1=CC=CC=C1','benzene')]},
+ '3B-30':{s:[M('CC1=CC=CC=C1Cl')]},
+ '3B-32':{s:[M('CCC(CC)C1=CC=CC=C1')]},
+ '3B-34':{s:[M('C1=CC=CC=C1','benzene'),'+',M('ClCl','Cl₂','expanded'),A('FeCl₃'),Q]},
+ '3B-35':{s:[M('NC1=CC=CC=C1')]},
+ /* alcohols, ethers, thiols */
+ '3B-36':{s:[M('CC(C)(C)O')]},
+ '3B-37':{cs:opts('CCC(C)O','CC(C)(C)O','CCCCO','CC(C)CO')},
+ '3B-38':{s:[M('COCCC')]},
+ '3B-39':{s:[M('CCS')]},
+ '3B-42':{cs:opts('CCCO','CCOC','CCCC','CCC')},
+ '3B-43':{cs:opts('CCCCCCO','CO','CCO','CCCO')},
+ '3B-44':{s:[M('CCC(C)O','2-butanol'),A('H₂SO₄, heat'),Q,'+',M('O','water','expanded')]},
+ '3B-45':{s:[M('CC(C)O','2-propanol'),A('K₂Cr₂O₇'),Q]},
+ '3B-46':{cs:opts('CC(C)(C)O','CC(C)CO','CC(C)O','CCCCO')},
+ '3B-47':{s:[M('CCO','ethanol'),A('[O], liver enzyme'),Q]},
+ '3B-48':{s:[M('CCS','thiol'),'+',M('CCS','thiol'),A('[O]'),Q]},
+ /* aldehydes & ketones */
+ '3B-49':{s:[M('CCCC=O')]},
+ '3B-50':{s:[M('CCC(C)=O')]},
+ '3B-51':{s:[M('CCC(=O)CCC')]},
+ '3B-52':{s:[M('CC(C)=O','acetone')]},
+ '3B-53':{s:[Q,A('[O], mild'),M('CCC(=O)O','propanoic acid')]},
+ '3B-54':{cs:opts('CCC=O','CC(C)=O','CC(C)O','COC')},
+ '3B-56':{s:[M('CCC(C)=O','butanone'),A('H₂, Ni'),Q]},
+ '3B-58':{s:[M('CC=O','ethanal'),'+','2',M('CO','methanol','expanded'),A('H⁺'),Q]},
+ '3B-60':{cs:opts('CCC(C)O','CC(C)O','CCC(O)CC','CC(C)(C)O')},
+ '3B-61':{s:[M('OCC(O)C(O)C(O)C(O)C=O','glucose (open chain)','condensed')]},
+ '3B-65':{s:[M('O=CC(O)CO','glyceraldehyde','condensed')]},
+ /* acids & esters */
+ '3B-68':{s:[M('CCCC(=O)O')]},
+ '3B-69':{s:[M('CC(=O)OCC')]},
+ '3B-70':{s:[M('CCC(=O)O','propanoic acid'),'+',M('CO','methanol','expanded'),A('H⁺, heat'),Q,'+',M('O','water','expanded')]},
+ '3B-71':{s:[M('CC(=O)O','acetic acid')]},
+ '3B-72':{s:[M('CC(=O)O','acetic acid'),'+','NaOH',A(''),Q]},
+ '3B-74':{s:[M('CC(=O)OCCC','propyl ethanoate'),'+',M('O','water','expanded'),A('H⁺, heat'),Q]},
+ '3B-75':{s:[M('CCCC(=O)OC','methyl butanoate'),'+','NaOH',A('heat'),Q]},
+ '3B-76':{cs:opts('CCC(=O)O','CCCCO','CC(=O)OC','CCOCC')},
+ '3B-78':{s:[M('CC(O)C(=O)O','lactic acid')]},
+ /* amines & amides */
+ '3B-79':{s:[M('CNC','dimethylamine','expanded')]},
+ '3B-80':{s:[M('CCC(C)N')]},
+ '3B-81':{s:[M('CCCN')]},
+ '3B-82':{cs:opts('CC(C)(C)N','CCC(C)N','CCCCN','CC(C)CN')},
+ '3B-83':{s:[M('CN','methylamine','expanded'),'+',M('O','water','expanded'),A(''),Q]},
+ '3B-85':{cs:opts('CN(C)C','CCCN','CCNC','CC(C)N')},
+ '3B-86':{s:[M('CCC(=O)O','propanoic acid'),'+',M('CN','methylamine','expanded'),A('heat'),Q,'+',M('O','water','expanded')]},
+ '3B-87':{s:[M('CC(=O)NCC','N-ethylethanamide'),'+','NaOH',A('heat'),Q]},
+ /* isomers */
+ '3B-214':{s:[M('CCCC','butane'),'vs',M('CC(C)C','2-methylpropane')]},
+ '3B-215':{s:[M('CCC(C)C'),'vs',M('CC(C)CC')]},
+ '3B-217':{s:[M('CC=CC','2-butene'),'vs',M('CCCC','butane')]},
+ '3B-218':{cs:opts('ClC=CCl','C=C(Cl)Cl','C=CCl','ClC(Cl)=C(Cl)Cl')},
+ '3B-219':{s:[M('CCO','ethanol')],cs:opts('COC','CCOC','CC=O','CO')},
+ '3B-220':{s:[M('CCC=O','propanal')],cs:opts('CC(C)=O','CCCO','CCC(=O)O','CC=O')},
+ '3B-221':{s:[M('CCC(=O)O','propanoic acid')],cs:opts('CC(=O)OC','CCC(=O)OC','CC(=O)OCCC','O=COC')},
+ /* properties */
+ '3B-222':{cs:opts('CCN','COC','CN(C)C','CCF')},
+ '3B-223':{cs:opts('CCOCC','CCCCO','CCCCC','CCC(=O)O')},
+ '3B-224':{cs:opts('CC(C)(C)C','CCC(C)C','CCCCC','CCCCCC')},
+ '3B-227':{cs:opts('OCCO','CCCCO','CCOCC','CCCCC')},
+ '3B-228':{s:[M('COC','dimethyl ether','expanded')]},
+ '3B-229':{s:[M('CC(C)=O','acetone','expanded')]},
+ '3B-230':{cs:opts('ClC(Cl)(Cl)Cl','ClCCl','ClC(Cl)Cl','CCl')},
+ '3B-235':{s:[M('CC(O)C(=O)O','lactic acid')]},
+ /* hydrocarbon reactions (set 2) */
+ '3B-237':{s:[M('CCBr','bromoethane'),A('KOH, heat'),Q]},
+ '3B-238':{s:[Q,A('Zn'),M('CC=C','propene')]},
+ '3B-240':{cs:opts('CC(C)C','CCC(C)','CC(C)(C)','CCCC')},
+ '3B-241':{s:[M('CCC(C)Cl')]},
+ '3B-242':{s:[M('CC=C','propene'),'+',M('BrBr','Br₂','expanded'),A(''),Q]},
+ '3B-243':{cs:opts('CC(C)(O)OC','CC(O)OC','CC(C)(OC)OC','CC(OC)OC')},
+ '3B-245':{s:[Q,A('H₂, Ni'),M('CC(O)CCC','2-pentanol')]},
+ '3B-246':{s:[M('CCC(=O)O','propanoic acid'),A('[H], partial'),Q]},
+ '3B-248':{s:[M('CC(O)C(N)CC')]},
+ '3B-249':{s:[M('CC(C)C(O)CC(C)C')]},
+ '3B-250':{cs:opts('CCCS','CCSC','CCCO','CSSC')},
+ '3B-251':{s:[M('CC(=O)O','acetic acid'),'+',M('CCS','ethanethiol'),A('−H₂O'),Q]},
+ '3B-253':{s:[M('CC(=O)NC1=CC=C(O)C=C1','acetaminophen')]},
+ '3B-254':{s:[M('OCCCC(=O)O')]},
+ '3B-255':{s:[M('CC(=O)CCO')]},
+ '3B-256':{s:[M('CCC(CCC)CC')]},
+ /* applied sets */
+ '3B-345':{cs:opts('C=CCCC','C=C(C)CC','CC(C)=CC','CC(C)C=C')},
+ '3B-346':{s:[M('C=CCC','1-butene'),'+',M('BrBr','Br₂','expanded'),A(''),Q]},
+ '3B-347':{s:[M('CC(C)=CC','2-methyl-2-butene'),A('H₂O, H⁺'),Q]},
+ '3B-348':{s:[M('CCC=C','1-butene'),'+','HI',A(''),M('CCC(C)I','2-iodobutane')]},
+ '3B-349':{s:[M('CCC#CC(C)C')]},
+ '3B-350':{s:[M('CC(C)CC(CC)CC')]},
+ '3B-351':{s:[M('C1CCCCC1','cyclohexane'),'+',M('BrBr','Br₂','expanded'),A('light'),Q]},
+ '3B-353':{s:[M('CC=CCCC')]},
+ '3B-355':{s:[M('CC(C)CO','isobutyl alcohol')]},
+ '3B-356':{s:[M('CCC(O)CC','3-pentanol'),A('K₂Cr₂O₇'),Q]},
+ '3B-357':{s:[M('CCCCO','1-butanol'),A('excess K₂Cr₂O₇'),Q]},
+ '3B-358':{cs:opts('CC(C)(C)O','CCC(C)O','CC(C)CO','CCCCO')},
+ '3B-359':{s:[M('OC1CCCCC1','cyclohexanol'),A('H₂SO₄, heat'),M('C1=CCCCC1','cyclohexene'),'+',M('O','water','expanded')]},
+ '3B-360':{s:[M('CC(C)(O)CCC','2-methyl-2-pentanol'),A('H₂SO₄, heat'),Q]},
+ '3B-361':{s:[M('CC(C)CCS')]},
+ '3B-362':{s:[M('CCOC(C)C')]},
+ '3B-363':{s:[M('CC(C)CC(C)O')]},
+ '3B-364':{s:[M('CC(C)CC=O')]},
+ '3B-365':{s:[M('CC(=O)CCCC')]},
+ '3B-366':{s:[M('CCCCC=O','pentanal'),A('H₂, Ni'),Q]},
+ '3B-367':{s:[M('CC(C)C(C)=O','3-methyl-2-butanone'),A('H₂, Pt'),Q]},
+ '3B-368':{cs:opts('CC(O)OCC','CC(OC)OC','CC(=O)OCC','CCOCCO')},
+ '3B-369':{s:[Q,'+','2 ?',A('H⁺'),M('CC(OC)(OC)CC','ketal')]},
+ '3B-371':{cs:opts('CCC(C)=O','CCCC=O','CC(=O)OCC','CCOCC')},
+ '3B-373':{s:[M('CCC(=O)OCCC')]},
+ '3B-374':{s:[M('CCCC(=O)O','butanoic acid'),'+',M('CCO','ethanol'),A('H⁺, heat'),Q]},
+ '3B-375':{s:[Q,'+',Q,A('H⁺, heat'),M('CC(=O)OCCC(C)C','isopentyl acetate')]},
+ '3B-376':{s:[M('O=COCC(C)C','isobutyl formate'),'+',M('O','water','expanded'),A('H⁺'),Q]},
+ '3B-377':{s:[M('CCC(=O)OCC','ethyl propanoate'),'+','NaOH',A('heat'),Q]},
+ '3B-378':{s:[M('CC(C)CCC(=O)O')]},
+ '3B-380':{s:[M('CC(=O)OC1=CC=CC=C1C(=O)O','aspirin'),'+',M('O','water','expanded'),A('enzyme'),Q]},
+ '3B-381':{s:[M('COC(=O)CC','ester'),'+',M('O','water','expanded'),A('H⁺'),Q]},
+ '3B-382':{s:[M('C[N+](C)(C)C','tetramethylammonium ion','expanded'),'Cl⁻']},
+ '3B-383':{s:[M('CNC(C)CC1=CC=CC=C1','methamphetamine')]},
+ '3B-384':{s:[M('CNCC','ethylmethylamine')]},
+ '3B-385':{s:[M('CNC','dimethylamine','expanded'),'+',M('CC(=O)O','acetic acid'),A('heat, −H₂O'),Q]},
+ '3B-386':{s:[M('CCN','ethylamine'),'+','HCl',A(''),Q]},
+ '3B-387':{s:[M('CCC(=O)N','propanamide'),'+',M('O','water','expanded'),A('HCl, heat'),Q]},
+ '3B-388':{s:[M('CCCCC(=O)NC')]},
+ '3B-389':{cs:opts('CN(C)C','CNC','CN','N')},
+ '3B-392':{s:[M('CCCC=O','butanal'),'vs',M('CCC(C)=O','butanone')]},
+ '3B-393':{s:[M('CCC(C)O'),'vs',M('CC(O)CC')]},
+ '3B-394':{s:[M('C1CCCCC1','cyclohexane')],cs:opts('C=CCCCC','CCCCCC','C1=CCCCC1','C1=CC=CC=C1')},
+ '3B-397':{cs:opts('CC(Br)CC','CCC(Br)CC','BrCCC','CC(C)(Br)C')},
+ '3B-398':{s:[M('CC(O)C(N)C(=O)O','threonine')]},
+ '3B-401':{s:[M('CC(C)CC1=CC=C(C=C1)C(C)C(=O)O','ibuprofen')]},
+ '3B-403':{s:[M('COC1=C(O)C=CC(C=O)=C1','vanillin')]},
+ '3B-405':{s:[M('CC(C)CC(=O)OC')]},
+ '3B-406':{s:[M('CC#C','propyne','expanded')]},
+ '3B-407':{s:[M('CCN(CC)CC(=O)NC1=C(C)C=CC=C1C','lidocaine')]},
+ '3B-411':{cs:opts('CCCCC','CCOCC','CCCC=O','CCCN')},
+ '3B-412':{s:[M('ClC1=CC=C(Cl)C=C1','1,4-dichlorobenzene')]},
+ '3B-413':{s:[M('OC1=CC=C(C=C1)[N+](=O)[O-]')]},
+ '3B-414':{s:[M('C1=CC=CC=C1','benzene'),'+','HNO₃',A('H₂SO₄'),Q]},
+ '3B-921':{s:[M('ClC=CCl','C₂H₂Cl₂ (one arrangement)')]},
+ '3B-925':{s:[M('CC(=O)OCC','ester'),'vs',M('CC(=O)SCC','thioester')]},
+ }})();
+Object.entries(EXTRA_S).forEach(([id,x])=>{const q=BYID[id];if(!q)return;if(x.s&&!q.s)q.s=x.s;if(x.cs&&!q.cs)q.cs=x.cs});
 let ui=LS.get('-ui',{});
 const urlC=(new URLSearchParams(location.search).get('course')||'').toUpperCase().replace('CHEM','').trim();
 const state={mode:MODES.some(m=>m.id===ui.mode)?ui.mode:'boss',course:COURSES[urlC]?urlC:(COURSES[ui.course]?ui.course:DEFAULT_COURSE),
@@ -438,8 +607,128 @@ function skelSVG(m,sc){const U=(sc||1)*30,A=m.a.map(a=>({t:a[0],x:a[1]*U,y:a[2]*
   o+=`<circle cx="${tx.toFixed(1)}" cy="${ty.toFixed(1)}" r="9" fill="#fff3e0" stroke="#e8973a" stroke-width="1.6"/><text x="${tx.toFixed(1)}" y="${(ty+4.6).toFixed(1)}" text-anchor="middle" font-size="13" font-weight="900" font-style="italic" fill="#b4640f" font-family="${'Inter,Helvetica,Arial,sans-serif'}">${a.lab}</text>`});
  let x0=minx,y0=miny,x1=minx+W,y1=miny+H;tg.concat(cg).forEach(([x,y])=>{x0=Math.min(x0,x-12);y0=Math.min(y0,y-12);x1=Math.max(x1,x+12);y1=Math.max(y1,y+12)});const vb=[x0,y0,x1-x0,y1-y0];
  return `<svg viewBox="${vb.map(v=>v.toFixed(1)).join(' ')}" width="${vb[2].toFixed(0)}" height="${vb[3].toFixed(0)}" style="max-width:100%;height:auto" role="img" aria-label="skeletal structure">${o}</svg>`}
+/* ---------- SMILES → structure engine (ported from Bond Voyage / organicreactions) ---------- */
+const deg=Math.PI/180,cosd=a=>Math.cos(a*deg),sind=a=>Math.sin(a*deg);
+const VAL={C:4,N:3,O:2,S:2,F:1,Cl:1,Br:1,I:1};
+const valence=(el,ch)=>el==='N'?3+(ch||0):el==='O'||el==='S'?2+(ch||0):VAL[el];
+function parseSmi(s){const atoms=[],bonds=[],stack=[],rings={};let i=0,prev=null,ord=1;
+ while(i<s.length){const ch=s[i];
+  if(ch==='('){stack.push(prev);i++;continue}
+  if(ch===')'){prev=stack.pop();i++;continue}
+  if(ch==='='){ord=2;i++;continue}
+  if(ch==='#'){ord=3;i++;continue}
+  if(/\d/.test(ch)){if(rings[ch]){bonds.push({a:rings[ch].at,b:prev,o:Math.max(rings[ch].o,ord)});delete rings[ch]}else rings[ch]={at:prev,o:ord};ord=1;i++;continue}
+  let el,charge=0;
+  if(ch==='['){const j=s.indexOf(']',i),m=s.slice(i+1,j).match(/^(Cl|Br|[CNOSFI])(H\d?)?([+-])?$/);el=m[1];charge=m[3]==='+'?1:m[3]==='-'?-1:0;i=j+1}
+  else if(s.startsWith('Cl',i)){el='Cl';i+=2}else if(s.startsWith('Br',i)){el='Br';i+=2}else{el=ch;i++}
+  const id=atoms.length;atoms.push({el,charge});if(prev!==null)bonds.push({a:prev,b:id,o:ord});ord=1;prev=id}
+ return {atoms,bonds}}
+function adjOf(g){const adj=g.atoms.map(()=>[]);g.bonds.forEach(b=>{adj[b.a].push({n:b.b,o:b.o});adj[b.b].push({n:b.a,o:b.o})});return adj}
+const hCount=(g,adj,i)=>valence(g.atoms[i].el,g.atoms[i].charge)-adj[i].reduce((s,x)=>s+x.o,0);
+function comps(g){const n=g.atoms.length,adj=adjOf(g),cid=new Array(n).fill(-1),out=[];
+ for(let s=0;s<n;s++){if(cid[s]>=0)continue;const k=out.length,list=[],q=[s];cid[s]=k;while(q.length){const x=q.shift();list.push(x);adj[x].forEach(({n:y})=>{if(cid[y]<0){cid[y]=k;q.push(y)}})}
+  list.sort((a,b)=>a-b);const map={};list.forEach((x,j)=>map[x]=j);
+  out.push({atoms:list.map(x=>g.atoms[x]),bonds:g.bonds.filter(b=>cid[b.a]===k).map(b=>({a:map[b.a],b:map[b.b],o:b.o})),orig:list})}
+ return out}
+function chainPath(g,adj){const n=g.atoms.length;if(n===1)return [0];
+ const leaves=[...Array(n).keys()].filter(i=>adj[i].length<=1);let best=null,bs=-1e9;
+ for(const s of leaves){const par=new Array(n).fill(-2);par[s]=-1;const q=[s];while(q.length){const x=q.shift();adj[x].forEach(({n:y})=>{if(par[y]===-2){par[y]=x;q.push(y)}})}
+  for(const t of leaves){if(t===s||par[t]===-2)continue;const p=[];let c=t;while(c!==-1){p.push(c);c=par[c]}p.reverse();
+   const endD=[p[0],p[p.length-1]].filter(e=>g.atoms[e].el!=='C'&&adj[e][0]&&adj[e][0].o>1).length;
+   const sc=p.length*100-endD*60+p.filter(i=>g.atoms[i].el==='C').length*5;if(sc>bs){bs=sc;best=p}}}
+ const het=i=>g.atoms[i].el!=='C'||adj[i].some(x=>g.atoms[x.n].el!=='C')?1:0;
+ if(het(best[0])>het(best[best.length-1]))best.reverse();
+ return best}
+function ringOf(g,adj){const n=g.atoms.length,alive=new Array(n).fill(true);let ch=true;
+ while(ch){ch=false;for(let i=0;i<n;i++)if(alive[i]&&adj[i].filter(x=>alive[x.n]).length<=1){alive[i]=false;ch=true}}
+ const R=[...Array(n).keys()].filter(i=>alive[i]);if(!R.length)return null;
+ const order=[R[0]];let prev=-1,cur=R[0];while(true){const nx=adj[cur].find(x=>alive[x.n]&&x.n!==prev&&(order.length<2||x.n!==order[order.length-2]));if(!nx||nx.n===R[0])break;prev=cur;cur=nx.n;if(order.includes(cur))break;order.push(cur)}
+ return order}
+function layoutComp(g){const n=g.atoms.length,adj=adjOf(g),pos=new Array(n),placed=new Array(n).fill(false);
+ if(n===1){pos[0]={x:0,y:0};return pos}
+ const P=(i,x,y)=>{pos[i]={x,y};placed[i]=true};
+ const bo=(i,j)=>{const e=adj[i].find(x=>x.n===j);return e?e.o:0};
+ const turnAt=(a,b,c)=>{const o1=bo(a,b),o2=bo(b,c);return (o1===3||o2===3)?0:180-((o1===2||o2===2)?120:109.5)};
+ function grow(c,par,dir,sign){P(c,pos[par].x+cosd(dir),pos[par].y+sind(dir));const kids=adj[c].filter(x=>!placed[x.n]);
+  if(kids.length===1){const t=turnAt(par,c,kids[0].n);grow(kids[0].n,c,dir+sign*t,t?-sign:sign)}
+  else if(kids.length===2){grow(kids[0].n,c,dir-60,1);grow(kids[1].n,c,dir+60,-1)}
+  else kids.forEach((k,i)=>grow(k.n,c,dir-90+90*i,1))}
+ const ring=ringOf(g,adj);
+ if(ring){const k=ring.length,R=1/(2*Math.sin(Math.PI/k));ring.forEach((r,j)=>{const a=-90+360*j/k;P(r,R*cosd(a),R*sind(a))});
+  ring.forEach((r,j)=>{const a=-90+360*j/k,subs=adj[r].filter(x=>!placed[x.n]);if(subs.length===1)grow(subs[0].n,r,a,1);else subs.forEach((s,m)=>grow(s.n,r,a+(m?35:-35),m?-1:1))})}
+ else{const p=chainPath(g,adj);const t1=p.length>2?turnAt(p[0],p[1],p[2]):0;let d=-t1/2,sign=1;P(p[0],0,0);
+  for(let k=1;k<p.length;k++){if(k>=2){const t=turnAt(p[k-2],p[k-1],p[k]);d+=sign*t;if(t)sign=-sign}P(p[k],pos[p[k-1]].x+cosd(d),pos[p[k-1]].y+sind(d))}
+  p.forEach((c,k)=>{const subs=adj[c].filter(x=>!placed[x.n]);if(!subs.length)return;
+   let ox=0,oy=0;[p[k-1],p[k+1]].forEach(nb=>{if(nb===undefined)return;const dx=pos[nb].x-pos[c].x,dy=pos[nb].y-pos[c].y,l=Math.hypot(dx,dy);ox-=dx/l;oy-=dy/l});
+   let out=Math.hypot(ox,oy)<1e-6?-90:Math.atan2(oy,ox)/deg;
+   if(subs.length===1)grow(subs[0].n,c,out,1);else subs.forEach((s,m)=>grow(s.n,c,out+(m?40:-40),m?-1:1))})}
+ return pos}
+function layoutGraph(g){const cs=comps(g),pos=new Array(g.atoms.length);let x0=0;
+ cs.forEach(c=>{const p=layoutComp(c),xs=p.map(q=>q.x),ys=p.map(q=>q.y),mx=Math.min(...xs),Mx=Math.max(...xs),cy=(Math.min(...ys)+Math.max(...ys))/2;
+  c.orig.forEach((o,j)=>pos[o]={x:p[j].x-mx+x0,y:p[j].y-cy});x0+=Mx-mx+1.9});
+ return pos}
+
+const ECOL={O:'#c0392b',N:'#2f5fc4',Cl:'#2e8b57',Br:'#8a5a1c',F:'#2e8b57',C:'#2d3f4b'};
+const EW={C:12,O:14,N:14,S:12,F:11,Cl:20,Br:22,I:6};
+function atomLabel(g,adj,pos,i,force){const a=g.atoms[i];if(a.el==='C'&&!force&&adj[i].length)return '';
+ const h=hCount(g,adj,i),x=pos[i].x,y=pos[i].y,col=ECOL[a.el]||'#2d3f4b',w=EW[a.el]||13;
+ const T=(tx,anchor,xx,extra)=>`<text x="${xx.toFixed(1)}" y="${(y+6.5).toFixed(1)}" text-anchor="${anchor}" fill="${col}" font-size="19" font-weight="800" font-family="Inter,Helvetica,Arial,sans-serif" stroke="#fff" stroke-width="5" stroke-linejoin="round" paint-order="stroke" ${extra||''}>${tx}</text>`;
+ const hs=h>0?'H'+(h>1?`<tspan dy="5" font-size="13">${h}</tspan>`:''):'';
+ const left=adj[i].length===1&&pos[adj[i][0].n].x>x+.1&&h>0;
+ let s=T(a.el,'middle',x);
+ if(hs){s+=left?T(hs,'end',x-w/2-1):T(hs,'start',x+w/2+1)}
+ if(a.charge){const cx=left||!hs?x+w/2+1:x+w/2+(h>1?22:14);s+=`<text x="${cx.toFixed(1)}" y="${(y-5).toFixed(1)}" fill="${col}" font-size="15" font-weight="900" font-family="Inter,Helvetica,Arial,sans-serif" stroke="#fff" stroke-width="4" paint-order="stroke">${a.charge>0?'+':'−'}</text>`}
+ return s}
+function bondsSVG(g,pos,lab,col){let s='';g.bonds.forEach(b=>{let x1=pos[b.a].x,y1=pos[b.a].y,x2=pos[b.b].x,y2=pos[b.b].y;const dx=x2-x1,dy=y2-y1,l=Math.hypot(dx,dy)||1,ux=dx/l,uy=dy/l,px=-uy,py=ux;
+  if(lab[b.a]){x1+=ux*11;y1+=uy*11}if(lab[b.b]){x2-=ux*11;y2-=uy*11}
+  const offs=b.o===1?[0]:b.o===2?[-3,3]:[-4.6,0,4.6];offs.forEach(o=>s+=`<line x1="${(x1+px*o).toFixed(1)}" y1="${(y1+py*o).toFixed(1)}" x2="${(x2+px*o).toFixed(1)}" y2="${(y2+py*o).toFixed(1)}" stroke="${col||'#2d3f4b'}" stroke-width="2.4" stroke-linecap="round"/>`)});return s}
+function smiSVG(g,o){o=o||{};const BL=o.bl||36,raw=layoutGraph(g),pos=raw.map(p=>({x:p.x*BL,y:p.y*BL})),adj=adjOf(g);
+ const small=new Set();comps(g).forEach(c=>{if(c.atoms.length<=2)c.orig.forEach(o=>small.add(o))});
+ const lab=g.atoms.map((a,i)=>a.el!=='C'||!adj[i].length||small.has(i));
+ const body=bondsSVG(g,pos,lab)+g.atoms.map((_,i)=>atomLabel(g,adj,pos,i,small.has(i))).join('');
+ const xs=pos.map(p=>p.x),ys=pos.map(p=>p.y),pad=o.pad||22;const x0=Math.min(...xs)-pad-14,x1=Math.max(...xs)+pad+20,y0=Math.min(...ys)-pad,y1=Math.max(...ys)+pad;
+ const w=x1-x0,h=y1-y0,sc=o.scale||1;
+ return `<svg class="mol" viewBox="${x0.toFixed(0)} ${y0.toFixed(0)} ${w.toFixed(0)} ${h.toFixed(0)}" width="${(w*sc).toFixed(0)}" height="${(h*sc).toFixed(0)}" role="img" aria-label="${esc(o.alt||'Skeletal structure')}" xmlns="http://www.w3.org/2000/svg">${body}</svg>`}
+function condensedStr(g){const adj=adjOf(g);if(ringOf(g,adj))return null;
+ const txt=(i,first,more)=>{const a=g.atoms[i],h=hCount(g,adj,i),hs=h?'H'+(h>1?h:''):'';const q=a.charge>0?'⁺':a.charge<0?'⁻':'';
+  if(a.el==='C')return 'C'+hs;if(first&&more&&h)return hs+a.el+q;return a.el+hs+q};
+ const bs=o=>o===2?'=':o===3?'≡':'';
+ function seg(path,parent){let s='';path.forEach((c,k)=>{if(k>0)s+=bs(adj[c].find(x=>x.n===path[k-1]).o);
+   s+=txt(c,k===0&&parent===undefined,path.length>1);
+   adj[c].filter(x=>x.n!==path[k-1]&&x.n!==path[k+1]&&x.n!==parent).forEach(x=>{s+='('+bs(x.o)+seg(branchPath(x.n,c),c)+')'})});return s}
+ function branchPath(start,from){const p=[start];let cur=start,prv=from;while(true){const nx=adj[cur].filter(x=>x.n!==prv);if(nx.length!==1)break;
+   const depth=nx.map(x=>x.n);prv=cur;cur=depth[0];p.push(cur)}return p}
+ let s=seg(chainPath(g,adj));
+ s=s.replace(/CH\(=O\)OH/g,'HCOOH').replace(/CH\(=O\)O/g,'HCOO').replace(/C\(=O\)OH/g,'COOH').replace(/C\(=O\)O⁻/g,'COO⁻').replace(/C\(=O\)O/g,'COO').replace(/C\(=O\)N/g,'CON').replace(/C\(=O\)/g,'CO').replace(/CH=O$/,'CHO').replace(/CH2=O$/,'HCHO');
+ const rv=t=>(t.match(/CH\d?|C/g)||[]).reverse().join('');
+ s=s.replace(/^O=CHOH$/,'HCOOH').replace(/^O=CHO⁻$/,'HCOO⁻').replace(/^O=CHO(.+)$/,'HCOO$1').replace(/^O=CHNH(.*)$/,'HCONH$1').replace(/^O=CH(.+)$/,'HCO$1').replace(/^(C[CH\d]*)OCHO$/,(m,a)=>'HCOO'+rv(a)).replace(/^(C[CH\d]*)NHCHO$/,(m,a)=>'HCONH'+rv(a));
+ return s}
+const condHTML=s=>esc(s).replace(/([A-Za-z\)])(\d+)/g,'$1<sub>$2</sub>').replace(/([⁺⁻])/g,'<sup>$1</sup>').replace(/⁺/g,'+').replace(/⁻/g,'−');
+function expandedSVG(g,o){o=o||{};const adj=adjOf(g);if(ringOf(g,adj)||comps(g).length>1)return null;
+ const n=g.atoms.length,path=chainPath(g,adj),onP=new Set(path),pos=new Array(n),occ=new Map(),Hs=[];let ok=true;
+ const K=(x,y)=>x+','+y;const put=(i,x,y)=>{if(occ.has(K(x,y))){ok=false;return false}occ.set(K(x,y),i);pos[i]={x,y};return true};
+ const putH=(i,x,y)=>{if(occ.has(K(x,y))){ok=false;return}occ.set(K(x,y),'H');Hs.push({x,y,i})};
+ const hb=i=>adj[i].some(e=>!onP.has(e.n));let x=0;
+ path.forEach((c,k)=>{if(k)x+=(hb(path[k-1])||hb(c))?2:1;put(c,x,0)});
+ function grow(i,par,dx,dy){const kids=adj[i].filter(e=>e.n!==par&&!pos[e.n]);const dirs=[[dx,dy],[dy,dx],[-dy,-dx]];const used=[];
+  kids.forEach((e,j)=>{const d=dirs[j];if(!d){ok=false;return}used.push(j);if(put(e.n,pos[i].x+d[0],pos[i].y+d[1]))grow(e.n,i,d[0],d[1])});
+  let h=hCount(g,adj,i);dirs.forEach((d,j)=>{if(h>0&&!used.includes(j)){putH(i,pos[i].x+d[0],pos[i].y+d[1]);h--}});if(h>0)ok=false}
+ path.forEach((c,k)=>{const last=k===path.length-1;const slots=[[0,-1],[0,1]];const ends=[];if(k===0)ends.push([-1,0]);if(last)ends.push([1,0]);
+  const br=adj[c].filter(e=>!onP.has(e.n));br.forEach((e,j)=>{const d=slots[j]||ends[j-2];if(!d){ok=false;return}if(put(e.n,pos[c].x+d[0],d[1]))grow(e.n,c,d[0],d[1])});
+  const free=(g.atoms[c].el==='C'?[...slots.slice(br.length),...ends]:[...ends,...slots.slice(br.length)]);let h=hCount(g,adj,c);
+  free.forEach(d=>{if(h>0){putH(c,pos[c].x+d[0],pos[c].y+d[1]);h--}});if(h>0)ok=false});
+ if(!ok)return null;
+ const U=o.u||40,P=q=>({x:q.x*U,y:q.y*U});const line=(a,b,ord)=>{const A=P(a),B=P(b);const dx=B.x-A.x,dy=B.y-A.y,l=Math.hypot(dx,dy),ux=dx/l,uy=dy/l,px=-uy,py=ux;const s1=11,x1=A.x+ux*s1,y1=A.y+uy*s1,x2=B.x-ux*s1,y2=B.y-uy*s1;
+  return (ord===1?[0]:ord===2?[-3.2,3.2]:[-4.8,0,4.8]).map(f=>`<line x1="${(x1+px*f).toFixed(1)}" y1="${(y1+py*f).toFixed(1)}" x2="${(x2+px*f).toFixed(1)}" y2="${(y2+py*f).toFixed(1)}" stroke="#2d3f4b" stroke-width="2.2" stroke-linecap="round"/>`).join('')};
+ let body='';g.bonds.forEach(b=>body+=line(pos[b.a],pos[b.b],b.o));Hs.forEach(h=>body+=line(pos[h.i],h,1));
+ const T=(q,t,col,ch)=>{const c=P(q);return `<text x="${c.x}" y="${c.y+6.5}" text-anchor="middle" font-size="19" font-weight="800" font-family="Inter,Helvetica,Arial,sans-serif" fill="${col}">${t}</text>`+(ch?`<text x="${c.x+9}" y="${c.y-5}" font-size="14" font-weight="900" fill="${col}">${ch>0?'+':'−'}</text>`:'')};
+ g.atoms.forEach((a,i)=>body+=T(pos[i],a.el,ECOL[a.el]||'#2d3f4b',a.charge));Hs.forEach(h=>body+=T(h,'H','#55687a'));
+ const all=[...pos,...Hs].map(P),xs=all.map(q=>q.x),ys=all.map(q=>q.y),pad=18;const x0=Math.min(...xs)-pad,y0=Math.min(...ys)-pad,w=Math.max(...xs)-x0+pad+6,h=Math.max(...ys)-y0+pad;const sc=o.scale||.85;
+ return `<svg class="mol" viewBox="${x0} ${y0} ${w} ${h}" width="${(w*sc).toFixed(0)}" height="${(h*sc).toFixed(0)}" role="img" aria-label="Expanded structural formula" xmlns="http://www.w3.org/2000/svg">${body}</svg>`}
+function smiHTML(smi,style,scale){const g=parseSmi(smi);if(!style&&g.atoms.length<=2)style='expanded';if(style==='expanded'){const e=expandedSVG(g,{scale:scale||.8});if(e)return e}if(style==='condensed'){const c=condensedStr(g);if(c)return `<span class="condensed">${condHTML(c)}</span>`}return smiSVG(g,{scale:scale||.9})}
+
 const rxLab=t=>esc(t).replace(/&lt;(\/?)(sub|sup)&gt;/g,'<$1$2>');
-function structBlock(sp){if(!sp)return '';return `<span class="mols">${sp.map(p=>typeof p==='string'?`<span class="mop">${esc(p)}</span>`:p.arrow!=null?`<span class="mrx"><span class="mrxt">${rxLab(p.arrow)}</span><span class="mrxa"></span>${p.below?`<span class="mrxt">${rxLab(p.below)}</span>`:''}</span>`:`<span class="mol">${molSVG(p)}${p.cap?`<b class="mcap">${esc(p.cap)}</b>`:''}</span>`).join('')}</span>`}
+function structBlock(sp){if(!sp)return '';return `<span class="mols">${sp.map(p=>typeof p==='string'?`<span class="mop">${esc(p)}</span>`:p.smi?`<span class="mol">${smiHTML(p.smi,p.st,p.sc)}${p.cap?`<b class="mcap">${esc(p.cap)}</b>`:''}</span>`:p.arrow!=null?`<span class="mrx"><span class="mrxt">${rxLab(p.arrow)}</span><span class="mrxa"></span>${p.below?`<span class="mrxt">${rxLab(p.below)}</span>`:''}</span>`:`<span class="mol">${molSVG(p)}${p.cap?`<b class="mcap">${esc(p.cap)}</b>`:''}</span>`).join('')}</span>`}
 /* ---------- figures (field q.f = [fig, ...]) ---------- */
 const FS='#2d3f4b',FF='Inter,Helvetica,Arial,sans-serif';
 const svgSub=t=>String(t).replace(/<sub>(.*?)<\/sub>/g,'<tspan baseline-shift="sub" font-size="75%">$1</tspan>').replace(/<sup>(.*?)<\/sup>/g,'<tspan baseline-shift="super" font-size="75%">$1</tspan>');
@@ -677,7 +966,7 @@ function figBlock(fs){if(!fs)return '';return `<span class="figs">${fs.map(f=>{t
 /* keep condensed formulas like HC≡C–CH=CH2 or CH3–CH2–OH on one line */
 const noWrapChem=h=>typeof h==='string'?h.replace(/<span class="nw">[\s\S]*?<\/span>|<[^>]+>|(?:[A-Za-z0-9()\[\]]|<\/?su[bp]>)+(?:[–−—=≡-](?:[A-Za-z0-9()\[\]]|<\/?su[bp]>)+)+/g,m=>m.startsWith('<')||!/[A-Za-z]/.test(m.replace(/<[^>]+>/g,''))?m:`<span class="nw">${m}</span>`):h;
 const qHTML=q=>noWrapChem(q.q)+structBlock(q.s)+figBlock(q.f);
-const optHTML=(q,k)=>(String(q.c[k]).startsWith('§')?'':noWrapChem(q.c[k]))+(q.cs&&q.cs[k]?`<span class="optmol">${molSVG(q.cs[k],0.8)}</span>`:'');
+const optHTML=(q,k)=>(String(q.c[k]).startsWith('§')?'':noWrapChem(q.c[k]))+(q.cs&&q.cs[k]?`<span class="optmol">${q.cs[k].smi?smiHTML(q.cs[k].smi,q.cs[k].st,0.75):molSVG(q.cs[k],0.8)}</span>`:'');
 function qMeta(q,extra=''){return `<div class="meta">${extra}<span class="chip">${topicIcon(q.course,q.t)} ${esc(topicName(q.course,q.t))}</span>${q.k?'<span class="chip calc">🧮 Calculator</span>':'<span class="chip">💭 Concept</span>'}<span class="chip lvl">${['','● Easy','●● Medium','●●● Hard'][q.d]||''}</span></div>`}
 function renderQ(){const q=state.q;const quick=state.mode==='quick'?(state.quick.daily?`<span class="chip" style="background:#fff0f5;border-color:#f0c4d3">🗓️ Daily 5 • ${state.quick.off+state.quick.i+1} of 5</span>`:`<span class="chip" style="background:#e5f6ea;border-color:#bfe2c8">⚡ ${state.quick.i+1} of 10 • score ${state.quick.score}</span>`):'';
  $('qArea').innerHTML=qMeta(q,quick)+`<p class="prompt">${qHTML(q)}</p><div class="options">${state.order.map((k,i)=>`<button class="opt" data-k="${k}"><span class="L">${'ABCD'[i]}</span><span>${optHTML(q,k)}</span></button>`).join('')}</div>`;
