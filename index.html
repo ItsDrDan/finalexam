@@ -584,7 +584,7 @@ function molSVG(m,sc){if(m.skel)return skelSVG(m,sc);const A=m.a.map(a=>({el:a[0
  return `<svg viewBox="${minx.toFixed(1)} ${miny.toFixed(1)} ${W.toFixed(1)} ${H.toFixed(1)}" width="${W.toFixed(0)}" height="${H.toFixed(0)}" style="max-width:100%;height:auto" role="img" aria-label="Lewis structure">${o}</svg>`}
 
 function skelSVG(m,sc){const U=(sc||1)*30,A=m.a.map(a=>({t:a[0],x:a[1]*U,y:a[2]*U,ch:a[4]||0,lab:a[5]||''})),S='#2d3f4b';
- const xs=A.map(a=>a.x),ys=A.map(a=>a.y),pad=22,minx=Math.min(...xs)-pad,miny=Math.min(...ys)-pad,W=Math.max(...xs)-minx+pad,H=Math.max(...ys)-miny+pad;let o='';
+ const xs=A.map(a=>a.x),ys=A.map(a=>a.y),pad=22+(A.some(a=>a.t!=='C'&&a.t.replace(/\d/g,'').length>1)?16:0),minx=Math.min(...xs)-pad,miny=Math.min(...ys)-pad,W=Math.max(...xs)-minx+pad,H=Math.max(...ys)-miny+pad;let o='';
  const cg=[];const show=a=>a.t!=='C';const cen=[xs.reduce((p,c)=>p+c,0)/A.length,ys.reduce((p,c)=>p+c,0)/A.length];const adj=A.map(()=>[]);(m.b||[]).forEach(([i,j,od])=>{if(od){adj[i].push(j);adj[j].push(i)}});
  const ringCen=(s0,t0)=>{const prev={[s0]:-1},q=[s0];while(q.length){const u=q.shift();for(const v of adj[u]){if(u===s0&&v===t0)continue;if(v in prev)continue;prev[v]=u;if(v===t0){const path=[];let w=t0;while(w!==-1){path.push(w);w=prev[w]}if(path.length>8)return null;return [path.reduce((p,k)=>p+A[k].x,0)/path.length,path.reduce((p,k)=>p+A[k].y,0)/path.length]}q.push(v)}}return null};
  const supDir=i=>{const an=[];(m.b||[]).forEach(([p,q,od])=>{if(od===0)return;const n=p===i?A[q]:q===i?A[p]:null;if(n)an.push(Math.atan2(n.y-A[i].y,n.x-A[i].x))});let best=-0.55,bs=-1;[-0.55,-Math.PI+0.55,0.55,Math.PI-0.55].forEach((c,k)=>{const d=an.length?Math.min(...an.map(x=>{let t=Math.abs(x-c)%(2*Math.PI);return t>Math.PI?2*Math.PI-t:t})):9;const sc=Math.min(d,1.2)-k*0.01;if(sc>bs+1e-9){bs=sc;best=c}});return best};
@@ -599,9 +599,19 @@ function skelSVG(m,sc){const U=(sc||1)*30,A=m.a.map(a=>({t:a[0],x:a[1]*U,y:a[2]*
   else if(ord===3)[-4.4,0,4.4].forEach(f=>{o+=ln(x1+px*f,y1+py*f,x2+px*f,y2+py*f)});
   else{const mx=(a.x+b.x)/2,my=(a.y+b.y)/2,rc=ringCen(i,j)||cen;if((rc[0]-mx)*px+(rc[1]-my)*py<0){px=-px;py=-py}const inner=!show(a)&&!show(b)&&A.length>3;
    if(inner){o+=ln(x1,y1,x2,y2);const s=0.16;o+=ln(x1+px*6+ux*l*s,y1+py*6+uy*l*s,x2+px*6-ux*l*s,y2+py*6-uy*l*s)}else[-3,3].forEach(f=>{o+=ln(x1+px*f,y1+py*f,x2+px*f,y2+py*f)})}});
- A.forEach(a=>{if(!show(a))return;const t=a.t.replace(/(\d)/g,'<tspan dy="4" font-size="12">$1</tspan><tspan dy="-4"></tspan>');
-  o+=`<text x="${a.x.toFixed(1)}" y="${(a.y+6.3).toFixed(1)}" text-anchor="middle" font-size="17" font-weight="800" font-family="Nunito,Inter,Helvetica,Arial,sans-serif" fill="${/^C(H\d?|\u200b)?$/.test(a.t)?S:'#c0473b'}" stroke="#fff" stroke-width="5" stroke-linejoin="round" paint-order="stroke">${t}</text>`;
-  if(a.ch){const g=a.t==='C'?gapDir(A.indexOf(a)):supDir(A.indexOf(a)),lw=a.t==='C'?0:a.t.replace(/\d/g,'').length*10.5,rr=11+lw/2*Math.abs(Math.cos(g))+(a.t==='C'?6:4)*Math.abs(Math.sin(g)),cx=a.x+Math.cos(g)*rr,cy=a.y+Math.sin(g)*rr;cg.push([cx,cy]);o+=`<text x="${cx.toFixed(1)}" y="${(cy+5).toFixed(1)}" text-anchor="middle" font-size="14" font-weight="900" fill="${S}" font-family="Inter,Helvetica,Arial,sans-serif">${a.ch>0?'+':'−'}</text>`}});
+ A.forEach(a=>{if(!show(a))return;
+  /* place multi-letter labels so the bonded atom (O of OH, N of NH2, C of CH2OH) sits on the bond, and write them right-to-left (HO, H2N) when the bond comes from the right */
+  let lt=a.t,anc='middle',lx=a.x;const ii=A.indexOf(a);let nx=0;(m.b||[]).forEach(([p,q,od])=>{if(od===0)return;const n=p===ii?A[q]:q===ii?A[p]:null;if(n){const d=Math.hypot(n.x-a.x,n.y-a.y)||1;nx+=(n.x-a.x)/d}});
+  const GW=c=>/[OQ]/.test(c)?13.2:/[NCHD]/.test(c)?12.3:/[S]/.test(c)?11.4:/[0-9]/.test(c)?6.7:/[a-z]/.test(c)?9.5:11.5;
+  if(/^[A-Z][a-z]?H\d?$/.test(lt)&&nx>0.35)lt='H'+lt.slice(lt.indexOf('H')+1)+lt.slice(0,lt.indexOf('H'));
+  else if(/^H\d?[A-Z][a-z]?$/.test(lt)&&nx<-0.35){const k=lt.search(/[A-GI-Z]/);lt=lt.slice(k)+lt.slice(0,k)}
+  else if(lt==='HOCH2'&&nx<-0.35)lt='CH2OH';else if(lt==='CH2OH'&&nx>0.35)lt='HOCH2';
+  if(lt.length>1&&/^[A-Z]/.test(lt)&&!/^[A-Z][a-z]?$/.test(lt)&&/^[A-Za-z0-9]+$/.test(lt)){
+   if(lt[0]!=='H'){anc='start';lx=a.x-GW(lt[0])/2}
+   else{const ch=[...lt],hv=ch.map((c,k)=>/[A-GI-Z]/.test(c)?k:-1).filter(k=>k>=0),k=hv[hv.length-1];if(k!=null&&k>=0){anc='end';lx=a.x+GW(lt[k])/2+ch.slice(k+1).reduce((w,c)=>w+GW(c),0)}}}
+  const t=lt.replace(/(\d)/g,'<tspan dy="4" font-size="12">$1</tspan><tspan dy="-4"></tspan>');
+  o+=`<text x="${lx.toFixed(1)}" y="${(a.y+6.3).toFixed(1)}" text-anchor="${anc}" font-size="17" font-weight="800" font-family="Nunito,Inter,Helvetica,Arial,sans-serif" fill="${/^C(H\d?|\u200b)?$/.test(a.t)?S:'#c0473b'}" stroke="#fff" stroke-width="5" stroke-linejoin="round" paint-order="stroke">${t}</text>`;
+  if(a.ch){const g=a.t==='C'?gapDir(A.indexOf(a)):supDir(A.indexOf(a)),lw=a.t==='C'?0:a.t.replace(/\d/g,'').length*10.5,ext=anc==='middle'?lw/2:(anc==='start')===(Math.cos(g)>=0)?lw-6:6,rr=11+ext*Math.abs(Math.cos(g))+(a.t==='C'?6:4)*Math.abs(Math.sin(g))+(Math.sin(g)>0.3&&/\d/.test(lt)?4:0),cx=a.x+Math.cos(g)*rr,cy=a.y+Math.sin(g)*rr;cg.push([cx,cy]);o+=`<text x="${cx.toFixed(1)}" y="${(cy+5).toFixed(1)}" text-anchor="middle" font-size="14" font-weight="900" fill="${S}" font-family="Inter,Helvetica,Arial,sans-serif">${a.ch>0?'+':'−'}</text>`}});
  const ringsOf=i=>{const out=[];const nb=adj[i];for(let u=0;u<nb.length;u++)for(let v=u+1;v<nb.length;v++){const prev={[nb[u]]:i},q=[nb[u]];let found=null;while(q.length&&!found){const x=q.shift();for(const y of adj[x]){if(y===i&&x!==nb[u]&&x===nb[v]){found=x;break}if(y===i||y in prev)continue;prev[y]=x;q.push(y)}}if(found!=null){const path=[i];let w=found;while(w!==i){path.push(w);w=prev[w]}if(path.length<=8)out.push(path.map(k=>[A[k].x,A[k].y]))}}return out};
  const inPoly=(x,y,P)=>{let c=false;for(let i=0,j=P.length-1;i<P.length;j=i++){if(((P[i][1]>y)!==(P[j][1]>y))&&(x<(P[j][0]-P[i][0])*(y-P[i][1])/(P[j][1]-P[i][1])+P[i][0]))c=!c}return c};
  const tg=[];A.forEach((a,i)=>{if(!a.lab)return;const an=[];(m.b||[]).forEach(([p,q,od])=>{if(od===0)return;const n=p===i?A[q]:q===i?A[p]:null;if(n)an.push(Math.atan2(n.y-a.y,n.x-a.x))});an.sort((x,y)=>x-y);const r=show(a)?23:19,rings=ringsOf(i);let cands=[];if(an.length===0)cands=[-Math.PI/2];else if(an.length===1)cands=[an[0]+Math.PI];else an.forEach((x,k)=>{const y=k+1<an.length?an[k+1]:an[0]+2*Math.PI;cands.push([y-x,x+(y-x)/2])});
@@ -881,8 +891,11 @@ function hwDraw(R,ox,oy,b,skip){const P0=HW_GEO[R.size],W=P0.reduce((m,p)=>Math.
  o+=fbT(P[0][0],P[0][1]+6*R.fz,'O',`font-size="${17*R.fz}" text-anchor="middle"`);
  const ends={},mid=H*.2,z=R.fz;
  R.subs.forEach((s,i)=>{const p=P[i+1],pos=p[1]-cy>mid?1:p[1]-cy<-mid?-1:0;['up','down'].forEach((d,k)=>{const t=s[k],dir=k?1:-1,inside=(pos>0&&dir<0)||(pos<0&&dir>0),L=(inside?20:26)*(z>1?1.12:1),ex=p[0],ey=p[1]+dir*L;ends[i+'_'+d]=[ex,ey];if(skip&&skip[i+'_'+d])return;if(!t||(R.noH&&t==='H'))return;o+=fbL(p[0],p[1],ex,ey);
-   const ly=ey+dir*(inside?8.5:10)*z,lr=p[0]>cx+4?1:p[0]<cx-4?-1:0,side=t==='H'||!lr?0:inside?-lr:lr,lt=side<0?(HW_REV[t]||t):t,w=fbW(lt,9.8*z),lx=side>0?ex-5*z:side<0?ex+5*z:ex;
-   o+=fbT(lx,ly+5.5*z,lt,`font-size="${16*z}" text-anchor="${side>0?'start':side<0?'end':'middle'}"`);const xa=side>0?lx:side<0?lx-w:lx-w/2;b.add(xa,ly-10*z);b.add(xa+w,ly+10*z)})});
+   const ly=ey+dir*(inside?8.5:10)*z,lr=p[0]>cx+4?1:p[0]<cx-4?-1:0,side=t==='H'||!lr?0:inside?-lr:lr,lt=side<0?(HW_REV[t]||t):t,w=fbW(lt,9.8*z);
+   /* the bonded atom (O of OH, C of CH2OH) sits directly on the vertical bond; the rest of the label reads away from it */
+   const pl=String(lt).replace(/<su[bp]>(.*?)<\/su[bp]>/g,(m,a)=>a.replace(/./g,'\u2080')).replace(/<[^>]+>/g,''),gw=c=>(c==='\u2080'?6.4:/[OQ]/.test(c)?12.5:/[A-Z]/.test(c)?11.6:/[a-z]/.test(c)?9:6.4)*z;
+   let anc='middle',lx=ex;if(pl.length>1&&t!=='H'){if(side<0){const hv=[...pl].map((c,k)=>/[A-GI-Z]/.test(c)?k:-1).filter(k=>k>=0),k=hv.length?hv[hv.length-1]:pl.length-1;anc='end';lx=ex+gw(pl[k])/2+[...pl].slice(k+1).reduce((a,c)=>a+gw(c),0)}else{const k=Math.max(0,[...pl].findIndex(c=>/[A-GI-Z]/.test(c)));anc='start';lx=ex-gw(pl[k])/2-[...pl].slice(0,k).reduce((a,c)=>a+gw(c),0)}}
+   o+=fbT(lx,ly+5.5*z,lt,`font-size="${16*z}" text-anchor="${anc}"`);const xa=anc==='start'?lx:anc==='end'?lx-w:lx-w/2;b.add(xa,ly-10*z);b.add(xa+w,ly+10*z)})});
  const out=(p,r)=>{const sx=p[0]>=cx?1:-1,pos=p[1]-cy>mid?1:p[1]-cy<-mid?-1:0;return [p[0]+sx*r,p[1]+pos*r*.75]};
  if(R.nums)R.nums.forEach((nm,i)=>{const q=out(P[i+1],12);o+=fbNum(q[0],q[1]+4,nm)});
  Object.entries(R.tags).forEach(([k,l])=>{const q=k==='O'?[P[0][0],P[0][1]+(R.flip?22:-22)*R.fz]:out(P[+k+1],20*R.fz);o+=fbTag(q[0],q[1],l,R.fz);b.add(q[0]-10*R.fz,q[1]-10*R.fz);b.add(q[0]+10*R.fz,q[1]+10*R.fz)});
