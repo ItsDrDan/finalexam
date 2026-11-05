@@ -184,6 +184,10 @@ details.refmore>summary{cursor:pointer;font-weight:800;min-height:36px;display:f
 .vwrap{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#222}.vwrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,30px);opacity:0;background:#fff8e6;border:3px solid #f0cf86;border-radius:16px;padding:12px 18px;font-weight:800;pointer-events:none;transition:.3s;z-index:50}.toast.on{opacity:1;transform:translate(-50%,0)}
 .confetti{position:fixed;top:-20px;width:10px;height:14px;border-radius:2px;animation:fall 3s linear forwards;z-index:40;pointer-events:none}@keyframes fall{to{transform:translateY(105vh) rotate(720deg)}}
+/* In Canvas (embed.js): the frame grows to the whole game, so "fixed" and "vh" mean the whole page. Pop-ups are parked near the last tap instead. */
+html.dd-embedded body{min-height:0}
+html.dd-autosize .toast{position:absolute;bottom:auto}
+html.dd-autosize .confetti{position:absolute;animation-name:fallE}@keyframes fallE{to{transform:translateY(680px) rotate(720deg)}}
 /* periodic table modal */
 .modal{position:fixed;inset:0;background:#1d2a3366;z-index:60;display:flex;align-items:flex-start;justify-content:center;padding:16px;overflow:auto}
 .mbox{background:#fff;border-radius:20px;max-width:1100px;width:100%;padding:14px;box-shadow:0 20px 50px #0004}
@@ -202,6 +206,7 @@ details.refmore>summary{cursor:pointer;font-weight:800;min-height:36px;display:f
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 <script src="https://itsdrdan.github.io/games/track.js" defer></script>
+<script src="https://itsdrdan.github.io/games/brand/embed.js" defer></script>
 </head><body>
 <div class="toast" id="toast" role="status"></div>
 <div class="app">
@@ -485,8 +490,12 @@ const C=()=>COURSES[state.course];
 const examsOf=c=>COURSES[c].exams||[{id:'final',name:'Final',short:'',icon:'🏆',topics:COURSES[c].topics.map(t=>t[0])}];
 const examDef=(c,id)=>examsOf(c).find(e=>e.id===id)||examsOf(c)[0];
 const bossKey=(c,e)=>COURSES[c].exams?c+':'+e:c;
-function toast(t){const e=$('toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('on'),2600)}
-function confetti(n=50){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;const c=['#ff7d73','#70b7e8','#8fd8c8','#f7c968','#b9a3e6'];for(let i=0;i<n;i++){const p=document.createElement('i');p.className='confetti';p.style.left=Math.random()*100+'vw';p.style.background=c[i%5];p.style.animationDelay=Math.random()*.5+'s';document.body.appendChild(p);setTimeout(()=>p.remove(),3600)}}
+/* where the student is on the page (only used when embedded in Canvas) */
+const EMB=()=>document.documentElement.classList.contains('dd-autosize');let tapY=0;
+addEventListener('pointerdown',e=>{tapY=e.pageY},true);addEventListener('focusin',e=>{const t=e.target;if(t&&t.getBoundingClientRect&&!(t.closest&&t.closest('.modal')))tapY=t.getBoundingClientRect().top+scrollY},true);
+function nearTap(box,off=0){const h=document.body.getBoundingClientRect().height;return Math.max(8,Math.min(tapY+off-box/2,h-box-8))}
+function toast(t){const e=$('toast');if(EMB())e.style.top=nearTap(60,-90)+'px';e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('on'),2600)}
+function confetti(n=50){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;const c=['#ff7d73','#70b7e8','#8fd8c8','#f7c968','#b9a3e6'];for(let i=0;i<n;i++){const p=document.createElement('i');p.className='confetti';p.style.left=Math.random()*100+'vw';p.style.background=c[i%5];p.style.animationDelay=Math.random()*.5+'s';if(EMB())p.style.top=Math.max(0,tapY-380)+'px';document.body.appendChild(p);setTimeout(()=>p.remove(),3600)}}
 /* ---------- journey ---------- */
 /* ---------- Daily 5: five questions a day on what you missed or haven't seen lately, with a day streak ---------- */
 const dayKey=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
@@ -1161,7 +1170,7 @@ function buildPT(){const pos=z=>{if(z===1)return[1,1];if(z===2)return[1,18];if(z
  let h='';PT.forEach(([z,s,m])=>{const [r,c]=pos(z);h+=`<div class="el" style="grid-row:${r};grid-column:${c}"><div class="z">${z}</div><b>${s}</b>${m||'&nbsp;'}</div>`});
  h+=`<div class="el gap" style="grid-row:8;grid-column:1;height:8px"></div>`;
  $('ptGrid').innerHTML=h}
-function openPT(){if(!$('ptGrid').innerHTML)buildPT();$('ptModal').classList.remove('hidden');$('ptClose').focus()}
+function openPT(){if(!$('ptGrid').innerHTML)buildPT();const m=$('ptModal');m.classList.remove('hidden');if(EMB()){const b=m.querySelector('.mbox');m.style.paddingTop=nearTap(b.offsetHeight)+'px';b.scrollIntoView({block:'nearest'})}$('ptClose').focus()}
 $('ptClose').onclick=()=>$('ptModal').classList.add('hidden');$('ptModal').onclick=e=>{if(e.target===$('ptModal'))$('ptModal').classList.add('hidden')};
 addEventListener('keydown',e=>{if(e.key==='Escape')$('ptModal').classList.add('hidden')});
 /* ---------- wire up ---------- */
@@ -1253,10 +1262,5 @@ const FB=(()=>{const els=[$('fbLogo'),$('fbMini')];
 BADGES.push(['flask','👾 Flask Breaker','KO the boss logo',j=>(j.fb&&j.fb.ko||0)>=1],['flask3','🔥 Boss Rush','KO the boss logo 3 times',j=>(j.fb&&j.fb.ko||0)>=3]);
 if(!matchMedia('(max-width:1000px)').matches){$('journey').open=true;$('videoPanel').open=true}
 buildModes();buildCourses();refs();renderJ();start();
-</script>
-<script id="canvasAutoResize">/* keeps the Canvas iframe the right height — keep as is */
-(function(){if(window.parent===window)return;const c=document.querySelector('.app');if(!c)return;let last=0,p=false;
- const sync=()=>{p=false;const h=Math.ceil(c.getBoundingClientRect().height+40);if(Math.abs(h-last)<2)return;last=h;window.parent.postMessage({subject:'lti.frameResize',height:h},'*')};
- const s=()=>{if(!p){p=true;requestAnimationFrame(sync)}};new ResizeObserver(s).observe(c);new MutationObserver(s).observe(c,{childList:true,subtree:true,attributes:true});addEventListener('resize',s);c.addEventListener('toggle',s,true);s()})();
 </script>
 </body></html>
