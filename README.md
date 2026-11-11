@@ -15,8 +15,6 @@ Practice for standardized multiple-choice chemistry finals in **CHEM 3A, 3B, 1A 
 
 **Courses:** 3A = intro chem · 3B = organic midterm + biochem final · 1A = gen chem I · 1B = gen chem II. About 2,450 questions in all.
 
-**For instructors:** free to play and link or embed in Canvas (it auto-resizes). Reusing or adapting it needs permission (see LICENSE).
-
 All questions are original. Not affiliated with or endorsed by any exam publisher.
 
-Current version: v33
+Current version: v34
