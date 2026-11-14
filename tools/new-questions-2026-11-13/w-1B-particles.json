@@ -1,0 +1,1578 @@
+[
+ {
+  "t": "kinetics",
+  "q": "The isomerization A → B is first order. The boxes show the reaction mixture at t = 0 and at t = 20 s. How many A molecules will be left at t = 60 s?",
+  "c": [
+   "2 A and 14 B",
+   "0 A and 16 B",
+   "4 A and 12 B",
+   "1 A and 15 B"
+  ],
+  "h": "For a first-order reaction the half-life does not depend on how much A is left. Read the half-life from the two boxes.",
+  "w": "Half of the 16 A molecules reacted in 20 s, so t<sub>1/2</sub> = 20 s. 60 s is three half-lives: 16 → 8 → 4 → 2, leaving <b>2 A and 14 B</b>. Losing 8 A every 20 s (a constant rate) would be zero order and give 0 A; 4 A is only two half-lives.",
+  "x": [
+   "",
+   "This assumes A is used up at a constant rate, which is zero order. A first-order reaction slows as A runs low.",
+   "This counts only two half-lives. Divide 60 s by the half-life again.",
+   "This counts four half-lives. Check how long one half-life is from the boxes."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 31,
+    "arrow": true,
+    "key": {
+     "A": {
+      "c": "#e0675a",
+      "n": "A"
+     },
+     "B": {
+      "c": "#3b82b4",
+      "n": "B"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "t = 0",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ]
+      ]
+     },
+     {
+      "cap": "t = 20 s",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "kinetics",
+  "q": "The reaction 2 AB(g) → A<sub>2</sub>(g) + B<sub>2</sub>(g) runs in a 1.0 L flask. Each molecule drawn represents 0.010 mol. What is the average rate of formation of A<sub>2</sub> over the first 5.0 s?",
+  "c": [
+   "6.0×10<sup>−3</sup> M s<sup>−1</sup>",
+   "1.2×10<sup>−2</sup> M s<sup>−1</sup>",
+   "3.0×10<sup>−3</sup> M s<sup>−1</sup>",
+   "3.0×10<sup>−2</sup> M s<sup>−1</sup>"
+  ],
+  "h": "Count the A<sub>2</sub> molecules that appear, turn that into a change in molarity, then divide by the time.",
+  "w": "Three A<sub>2</sub> molecules form, so Δ[A<sub>2</sub>] = 3 × 0.010 mol / 1.0 L = 0.030 M. Rate = 0.030 M / 5.0 s = <b>6.0×10<sup>−3</sup> M s<sup>−1</sup></b>. 1.2×10<sup>−2</sup> M s<sup>−1</sup> is the rate at which AB disappears (6 AB used); 3.0×10<sup>−2</sup> is Δ[A<sub>2</sub>] without dividing by time.",
+  "x": [
+   "",
+   "Six AB molecules were used, but only three A₂ formed. This is the rate of loss of AB.",
+   "Three A₂ molecules formed. There is no need to divide by the coefficient 2 here.",
+   "0.030 M is the change in concentration. A rate also needs the time."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 44,
+    "arrow": true,
+    "key": {
+     "A": {
+      "c": "#e0675a",
+      "n": "A"
+     },
+     "B": {
+      "c": "#3b82b4",
+      "n": "B"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "t = 0",
+      "mols": [
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ]
+      ]
+     },
+     {
+      "cap": "t = 5.0 s",
+      "mols": [
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "B",
+        "B"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "kinetics",
+  "q": "The overall reaction A<sub>2</sub> + 2 B → 2 AB occurs in two steps. The boxes show the mixture at the start, midway, and at the end. Based on the boxes, which species is a reaction intermediate?",
+  "c": [
+   "A",
+   "A<sub>2</sub>",
+   "AB",
+   "B"
+  ],
+  "h": "An intermediate is made in one step and used up in a later step, so it is not part of the overall equation.",
+  "w": "Single <b>A atoms</b> are absent at the start, appear midway, and are gone at the end, so they are made in one step and used up in the next: they are the intermediate. A<sub>2</sub> and B are reactants that are only used up, and AB is the product that only builds up.",
+  "x": [
+   "",
+   "A₂ is present at the start and is only used up. That makes it a reactant.",
+   "AB keeps building up and is in the overall equation as the product.",
+   "B is present at the start and is only used up. That makes it a reactant."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 57,
+    "arrow": true,
+    "key": {
+     "A": {
+      "c": "#e0675a",
+      "n": "A"
+     },
+     "B": {
+      "c": "#3b82b4",
+      "n": "B"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Start",
+      "mols": [
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ]
+      ]
+     },
+     {
+      "cap": "Midway",
+      "mols": [
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ]
+      ]
+     },
+     {
+      "cap": "End",
+      "mols": [
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "equilibrium",
+  "q": "The box shows the equilibrium mixture for 2 A(g) ⇌ A<sub>2</sub>(g) in a 1.0 L flask; each particle represents 0.10 mol. The volume is suddenly cut to 0.50 L at constant temperature. Which statement describes the mixture right after the change?",
+  "c": [
+   "Q<sub>c</sub> = 0.42; the reaction shifts right, forming more A<sub>2</sub>.",
+   "Q<sub>c</sub> = 0.83; there is no shift, since no particles were added.",
+   "Q<sub>c</sub> = 1.7; the reaction shifts left, forming more A.",
+   "Q<sub>c</sub> = 0.42; the reaction shifts left, forming more A."
+  ],
+  "h": "Find K<sub>c</sub> from the box first. Halving the volume doubles every concentration; recompute Q<sub>c</sub> = [A<sub>2</sub>]/[A]<sup>2</sup>.",
+  "w": "At 1.0 L, [A] = 0.60 M and [A<sub>2</sub>] = 0.30 M, so K<sub>c</sub> = 0.30/(0.60)<sup>2</sup> = 0.83. At 0.50 L, [A] = 1.20 M and [A<sub>2</sub>] = 0.60 M, so Q<sub>c</sub> = 0.60/(1.20)<sup>2</sup> = 0.42. Q &lt; K, so <b>the reaction shifts right toward A<sub>2</sub></b>, the side with fewer gas particles. The counts are the same, but the concentrations are not.",
+  "x": [
+   "",
+   "The particle counts did not change, but the concentrations doubled. Q depends on concentration.",
+   "Doubling the concentrations does not double Q here, because [A] is squared in the denominator.",
+   "Q is right, but compare it with K again. When Q is smaller than K, products must form."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 A(g) ⇌ A<sub>2</sub>(g)"
+   },
+   {
+    "type": "particles",
+    "seed": 63,
+    "key": {
+     "A": {
+      "c": "#9b7fd1",
+      "n": "A"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "At equilibrium",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "equilibrium",
+  "q": "The box shows an equilibrium mixture for A(g) + B(g) ⇌ AB(g) in a 1.0 L flask; each particle represents 0.10 mol. Three more B atoms are added at constant volume and temperature. Which set of counts represents the mixture after equilibrium is re-established?",
+  "c": [
+   "3 A, 5 B, 5 AB",
+   "4 A, 6 B, 4 AB",
+   "5 A, 7 B, 3 AB",
+   "1 A, 3 B, 7 AB"
+  ],
+  "h": "Get K<sub>c</sub> from the box. Then check which set of counts conserves atoms and gives the same K<sub>c</sub>.",
+  "w": "From the box, K<sub>c</sub> = 0.40/(0.40 × 0.30) = 3.3. Adding B makes Q &lt; K, so some A and B combine. With one more AB formed, the counts are <b>3 A, 5 B, 5 AB</b>: K<sub>c</sub> = 0.50/(0.30 × 0.50) = 3.3. The unchanged mixture (4 A, 6 B, 4 AB) has Q = 1.7, and having all three added B react overshoots (Q = 23).",
+  "x": [
+   "",
+   "This is the mixture before any shift. Q is now smaller than K, so it cannot stay this way.",
+   "Adding a reactant does not push the reaction toward the reactants.",
+   "Not all of the added B reacts. Check Q for these counts against K."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 71,
+    "key": {
+     "A": {
+      "c": "#e0675a",
+      "n": "A"
+     },
+     "B": {
+      "c": "#3b82b4",
+      "n": "B"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "At equilibrium",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "acidbase",
+  "q": "The box shows a solution of the weak acid HA at equilibrium (water molecules omitted). What is the percent ionization of HA?",
+  "c": [
+   "20%",
+   "25%",
+   "40%",
+   "80%"
+  ],
+  "h": "Percent ionization compares the HA that ionized with ALL the HA that was put in, ionized or not.",
+  "w": "Two HA ionized (2 A<sup>−</sup> and 2 H<sub>3</sub>O<sup>+</sup>), and 8 HA remain, so 10 HA were present at first. Percent ionization = 2/10 × 100% = <b>20%</b>. 25% divides by only the 8 un-ionized HA, and 80% is the fraction that did not ionize.",
+  "x": [
+   "",
+   "This divides by the HA left over. Use the HA that was present before ionizing.",
+   "Each ionized HA makes one A⁻ and one H₃O⁺. Count the acid molecules, not all the ions.",
+   "This is the part of the acid that did not ionize."
+  ],
+  "k": 1,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 82,
+    "key": {
+     "X": {
+      "c": "#5aa469",
+      "n": "A (in HA)"
+     },
+     "Z": {
+      "c": "#5aa469",
+      "n": "A⁻",
+      "q": "−"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O (in H₃O⁺)",
+      "q": "+"
+     }
+    },
+    "boxes": [
+     {
+      "water": true,
+      "mols": [
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "acidbase",
+  "q": "H<sub>2</sub>A is a weak diprotic acid with K<sub>a1</sub> = 1×10<sup>−4</sup> and K<sub>a2</sub> = 1×10<sup>−9</sup>. Each box has the same amount of acid (water omitted, and the amount of ionization is exaggerated so it can be seen). Which box best represents an aqueous solution of H<sub>2</sub>A at equilibrium?",
+  "c": [
+   "box I",
+   "box II",
+   "box III",
+   "box IV"
+  ],
+  "h": "K<sub>a1</sub> is small, so most H<sub>2</sub>A stays intact. K<sub>a2</sub> is far smaller still: how much A<sup>2−</sup> should you expect?",
+  "w": "Because K<sub>a1</sub> is small, most of the acid stays as H<sub>2</sub>A, with a little HA<sup>−</sup> and an equal amount of H<sub>3</sub>O<sup>+</sup>. K<sub>a2</sub> is 10<sup>5</sup> times smaller, so essentially no A<sup>2−</sup> forms: <b>box I</b>. Box III treats the first step as strong, box II gives the second step a large share, and box IV removes both protons at once while skipping HA<sup>−</sup>.",
+  "x": [
+   "",
+   "Box II has a lot of A²⁻. With Ka2 = 1×10⁻⁹ the second ionization is tiny.",
+   "Box III has no H₂A left, as if the first ionization were strong. Ka1 = 1×10⁻⁴ is a weak acid.",
+   "Protons come off one at a time, so A²⁻ can only form from HA⁻. Box IV has A²⁻ but no HA⁻."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 91,
+    "key": {
+     "X": {
+      "c": "#5aa469",
+      "n": "A (in H₂A)"
+     },
+     "M": {
+      "c": "#3b82b4",
+      "n": "A (in HA⁻)",
+      "q": "−"
+     },
+     "D": {
+      "c": "#9b7fd1",
+      "n": "A²⁻ ion"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O (in H₃O⁺)",
+      "q": "+"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "water": true,
+      "mols": [
+       [
+        "X",
+        "H",
+        "H"
+       ],
+       [
+        "X",
+        "H",
+        "H"
+       ],
+       [
+        "X",
+        "H",
+        "H"
+       ],
+       [
+        "X",
+        "H",
+        "H"
+       ],
+       [
+        "M",
+        "H"
+       ],
+       [
+        "M",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "water": true,
+      "mols": [
+       [
+        "X",
+        "H",
+        "H"
+       ],
+       [
+        "X",
+        "H",
+        "H"
+       ],
+       [
+        "M",
+        "H"
+       ],
+       [
+        "M",
+        "H"
+       ],
+       [
+        "D"
+       ],
+       [
+        "D"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "water": true,
+      "mols": [
+       [
+        "M",
+        "H"
+       ],
+       [
+        "M",
+        "H"
+       ],
+       [
+        "M",
+        "H"
+       ],
+       [
+        "M",
+        "H"
+       ],
+       [
+        "M",
+        "H"
+       ],
+       [
+        "M",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "water": true,
+      "mols": [
+       [
+        "X",
+        "H",
+        "H"
+       ],
+       [
+        "X",
+        "H",
+        "H"
+       ],
+       [
+        "X",
+        "H",
+        "H"
+       ],
+       [
+        "X",
+        "H",
+        "H"
+       ],
+       [
+        "X",
+        "H",
+        "H"
+       ],
+       [
+        "D"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H",
+        "H"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "buffers",
+  "q": "Each box shows a buffer made from the weak acid HA (pK<sub>a</sub> = 4.74) and its conjugate base A<sup>−</sup>, in equal volumes (water and Na<sup>+</sup> omitted). Which buffer has a pH closest to 5.2?",
+  "c": [
+   "box III",
+   "box I",
+   "box II",
+   "box IV"
+  ],
+  "h": "Use pH = pK<sub>a</sub> + log([A<sup>−</sup>]/[HA]). A pH above the pK<sub>a</sub> needs more of which species?",
+  "w": "pH = 4.74 + log(A<sup>−</sup>/HA). Box I: 4.74 + log(2/6) = 4.26. Box II: 4.74 + log(4/4) = 4.74. <b>Box III</b>: 4.74 + log(6/2) = 5.22. Box IV: 4.74 + log(7/1) = 5.59. Box I has the ratio upside down.",
+  "x": [
+   "",
+   "Box I has more HA than A⁻, so its pH is below the pKa.",
+   "Box II has equal HA and A⁻, so its pH equals the pKa.",
+   "Box IV has too high a ratio of A⁻ to HA. Its pH is near 5.6."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 101,
+    "key": {
+     "X": {
+      "c": "#f2c14e",
+      "n": "A (in HA)"
+     },
+     "Z": {
+      "c": "#3b82b4",
+      "n": "A⁻",
+      "q": "−"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "water": true,
+      "mols": [
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "water": true,
+      "mols": [
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "water": true,
+      "mols": [
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "water": true,
+      "mols": [
+       [
+        "X",
+        "H"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "solubility",
+  "q": "Solutions are mixed to give the M<sup>2+</sup> and X<sup>2−</sup> ions shown (spectator ions and water omitted). Each ion represents 1.0×10<sup>−5</sup> M, and K<sub>sp</sub> of MX = 3.0×10<sup>−10</sup>. After precipitation reaches equilibrium, which ions remain dissolved?",
+  "c": [
+   "3 M<sup>2+</sup> and 1 X<sup>2−</sup>",
+   "2 M<sup>2+</sup> and 0 X<sup>2−</sup>",
+   "6 M<sup>2+</sup> and 4 X<sup>2−</sup>",
+   "4 M<sup>2+</sup> and 2 X<sup>2−</sup>"
+  ],
+  "h": "First compare Q with K<sub>sp</sub>. Each MX that precipitates removes one M<sup>2+</sup> and one X<sup>2−</sup>; stop when the ion product equals K<sub>sp</sub>.",
+  "w": "Q = (6×10<sup>−5</sup>)(4×10<sup>−5</sup>) = 2.4×10<sup>−9</sup> &gt; K<sub>sp</sub>, so MX precipitates. Removing 3 of each ion leaves (3×10<sup>−5</sup>)(1×10<sup>−5</sup>) = 3.0×10<sup>−10</sup> = K<sub>sp</sub>, so <b>3 M<sup>2+</sup> and 1 X<sup>2−</sup></b> remain. A slightly soluble salt never removes every X<sup>2−</sup>, and stopping at 4 and 2 leaves Q = 8.0×10<sup>−10</sup>, still above K<sub>sp</sub>.",
+  "x": [
+   "",
+   "A precipitate is in equilibrium with its ions, so some X²⁻ stays dissolved.",
+   "Q for these ions is larger than Ksp, so some MX must precipitate.",
+   "For these counts the ion product is still larger than Ksp, so more MX precipitates."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 113,
+    "key": {
+     "M": {
+      "c": "#9b7fd1",
+      "n": "M²⁺",
+      "q": "+"
+     },
+     "X": {
+      "c": "#f2c14e",
+      "n": "X²⁻",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Just after mixing",
+      "water": true,
+      "mols": [
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "solubility",
+  "q": "Pure solid silver chromate, Ag<sub>2</sub>CrO<sub>4</sub>, is shaken with pure water until the solution is saturated. Which box best represents the dissolved ions (water and undissolved solid omitted)?",
+  "c": [
+   "box I",
+   "box II",
+   "box III",
+   "box IV"
+  ],
+  "h": "Write the dissolution equation. How many Ag<sup>+</sup> ions enter the solution for each CrO<sub>4</sub><sup>2−</sup> ion?",
+  "w": "Ag<sub>2</sub>CrO<sub>4</sub>(s) ⇌ 2 Ag<sup>+</sup>(aq) + CrO<sub>4</sub><sup>2−</sup>(aq), so dissolving the pure solid gives twice as many Ag<sup>+</sup> as CrO<sub>4</sub><sup>2−</sup>: <b>box I</b> (4 Ag<sup>+</sup>, 2 CrO<sub>4</sub><sup>2−</sup>), which is also electrically neutral. Box II shows a 1 : 1 ratio, box III the ratio reversed, and box IV a 3 : 1 ratio.",
+  "x": [
+   "",
+   "A 1 to 1 ratio ignores the subscript 2 on Ag. Check the charges too.",
+   "This reverses the ratio. Look at which ion has the subscript 2 in the formula.",
+   "This has too many Ag⁺ ions for the CrO₄²⁻ present, so the charges do not balance."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 121,
+    "key": {
+     "G": {
+      "c": "#555",
+      "n": "Ag⁺",
+      "q": "+",
+      "r": 9
+     },
+     "C": {
+      "c": "#f2c14e",
+      "n": "CrO₄²⁻ ion",
+      "r": 13
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "water": true,
+      "mols": [
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "water": true,
+      "mols": [
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "water": true,
+      "mols": [
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "water": true,
+      "mols": [
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "thermo",
+  "q": "The boxes show a gas-phase reaction in a rigid container at constant temperature. The reaction is exothermic because bonds form. Which statement is correct?",
+  "c": [
+   "ΔS &lt; 0; it is spontaneous only at low temperature.",
+   "ΔS &gt; 0; it is spontaneous at all temperatures.",
+   "ΔS &lt; 0; it is spontaneous only at high temperature.",
+   "ΔS &gt; 0; it is spontaneous only at high temperature."
+  ],
+  "h": "Compare the number of independent gas particles before and after. Then use ΔG = ΔH − TΔS with ΔH &lt; 0.",
+  "w": "Eight gas atoms become four molecules, so there are fewer independent gas particles and ΔS &lt; 0. With ΔH &lt; 0 and ΔS &lt; 0, ΔG = ΔH − TΔS is negative only when T is small enough: <b>ΔS &lt; 0; spontaneous only at low temperature</b>. At high T the −TΔS term (now positive) wins and ΔG becomes positive.",
+  "x": [
+   "",
+   "Fewer gas particles means fewer ways to arrange the system, so entropy goes down.",
+   "With ΔS negative, −TΔS is positive and grows as T rises, so high T works against this reaction.",
+   "Count the gas particles in each box. Going from eight separate atoms to four molecules lowers the entropy."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 133,
+    "arrow": true,
+    "key": {
+     "A": {
+      "c": "#3b82b4",
+      "n": "A"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Before",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ]
+      ]
+     },
+     {
+      "cap": "After",
+      "mols": [
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "electro",
+  "q": "A strip of metal M is placed in a silver nitrate solution. The boxes show the cations in solution before and some time later (NO<sub>3</sub><sup>−</sup> ions and water omitted). How many Ag atoms plated out, and how many electrons were transferred in all?",
+  "c": [
+   "6 Ag atoms; 6 electrons",
+   "6 Ag atoms; 12 electrons",
+   "3 Ag atoms; 6 electrons",
+   "2 Ag atoms; 2 electrons"
+  ],
+  "h": "Each Ag<sup>+</sup> that leaves the solution gains one electron. Each M atom that dissolves becomes M<sup>2+</sup>.",
+  "w": "The Ag<sup>+</sup> count drops from 8 to 2, so 6 Ag<sup>+</sup> were reduced to Ag atoms, gaining one electron each: <b>6 Ag atoms; 6 electrons</b>. These 6 electrons came from 3 M atoms, each losing 2 to become M<sup>2+</sup>, which keeps the solution's positive charge at 8+. Counting 2 electrons per Ag doubles the total, and the 2 Ag<sup>+</sup> left are still in solution.",
+  "x": [
+   "",
+   "Each Ag⁺ needs only one electron to become Ag. The 2 electrons per atom belong to M.",
+   "Three M²⁺ ions formed, but count the Ag⁺ ions that disappeared.",
+   "The 2 Ag⁺ ions shown are still dissolved. Count how many were removed."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 141,
+    "arrow": true,
+    "key": {
+     "S": {
+      "c": "#555",
+      "n": "Ag⁺",
+      "q": "+",
+      "r": 9
+     },
+     "M": {
+      "c": "#5aa469",
+      "n": "M²⁺",
+      "q": "+"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Before",
+      "water": true,
+      "mols": [
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ]
+      ]
+     },
+     {
+      "cap": "Later",
+      "water": true,
+      "mols": [
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ }
+]

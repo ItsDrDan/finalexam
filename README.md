@@ -13,8 +13,8 @@ Practice for standardized multiple-choice chemistry finals in **CHEM 3A, 3B, 1A 
 - 🧮 **Practice calculator:** TI-36X Pro style, for practicing the keystrokes you'll use on exam day.
 - 💬 **Every wrong answer explained:** pick a wrong choice and see why it's wrong, plus a list of why the other choices are wrong.
 
-**Courses:** 3A = intro chem · 3B = organic midterm + biochem final · 1A = gen chem I · 1B = gen chem II. About 2,500 questions in all.
+**Courses:** 3A = intro chem · 3B = organic midterm + biochem final · 1A = gen chem I · 1B = gen chem II. About 2,600 questions in all.
 
 All questions are original. Not affiliated with or endorsed by any exam publisher.
 
-Current version: v47
+Current version: v48

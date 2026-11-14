@@ -1,0 +1,358 @@
+[
+ {
+  "t": "gases",
+  "q": "A sealed, rigid steel container of an ideal gas is heated from 300 K to 600 K. Which statements are true?<br>I. The pressure of the gas doubles.<br>II. The root-mean-square speed of the molecules doubles.<br>III. The average kinetic energy of the molecules doubles.",
+  "c": [
+   "I and III only",
+   "I, II and III",
+   "I only",
+   "II and III only"
+  ],
+  "h": "In a rigid container n and V stay fixed. Compare how pressure, average kinetic energy and molecular speed each depend on the Kelvin temperature.",
+  "w": "At constant n and V, P is proportional to T, so doubling the Kelvin temperature doubles P (I true). Average kinetic energy is proportional to T, so it also doubles (III true). The rms speed is √(3RT/M), so it rises only by √2, about 1.41 times (II false). The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement II is false: rms speed depends on √T, so doubling T raises the speed by only about 1.41 times.",
+   "Statement III is also true: average kinetic energy is directly proportional to the Kelvin temperature.",
+   "Statement I is true: with n and V fixed, pressure is directly proportional to Kelvin temperature."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "gases",
+  "q": "The rigid flask shown holds a mixture of N<sub>2</sub> and H<sub>2</sub> at a total pressure of 4.0 atm. Which statements are true?<br>I. The partial pressure of H<sub>2</sub> is 3.0 atm.<br>II. If helium is pumped into the flask at constant temperature, the partial pressure of N<sub>2</sub> does not change.<br>III. The N<sub>2</sub> molecules have a greater average kinetic energy than the H<sub>2</sub> molecules.",
+  "c": [
+   "I and II only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "h": "Count molecules to get mole fractions. A gas's partial pressure depends only on its own moles, the volume and the temperature.",
+  "w": "The flask holds 6 H<sub>2</sub> and 2 N<sub>2</sub> molecules, so χ(H<sub>2</sub>) = 6/8 and P(H<sub>2</sub>) = 0.75 × 4.0 atm = 3.0 atm (I true). Adding He raises the total pressure, but n(N<sub>2</sub>), V and T are unchanged, so P(N<sub>2</sub>) = n(N<sub>2</sub>)RT/V stays 1.0 atm (II true). At the same temperature all gases have the same average kinetic energy; the heavier N<sub>2</sub> simply moves more slowly (III false). The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is true: P(N₂) = n(N₂)RT/V, and none of those change when helium is added to a rigid flask.",
+   "Statement III is false: at the same temperature every gas has the same average kinetic energy. Heavier molecules just move slower.",
+   "Statement I is true: 6 of the 8 molecules are H₂, and 6/8 of 4.0 atm is 3.0 atm."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 7,
+    "key": {
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     }
+    },
+    "boxes": [
+     {
+      "cap": "4.0 atm",
+      "mols": [
+       [
+        "N",
+        "N"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "H",
+        "H"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "bonding",
+  "q": "Which comparisons of lattice energy (in magnitude) are correct?<br>I. MgO has a larger lattice energy than NaF.<br>II. NaCl has a larger lattice energy than NaI.<br>III. CaO has a larger lattice energy than KCl.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "I only",
+   "II and III only"
+  ],
+  "h": "Lattice energy grows with the product of the ion charges and shrinks as the distance between ion centers grows. Charge matters most.",
+  "w": "MgO (2+, 2−) beats NaF (1+, 1−) because of its larger ion charges (I correct). Cl<sup>−</sup> is smaller than I<sup>−</sup>, so the ions in NaCl are closer together and attract more strongly than in NaI (II correct). CaO has 2+ and 2− ions while KCl has 1+ and 1− ions, so CaO has the larger lattice energy (III correct). The answer is <b>I, II and III</b>.",
+  "x": [
+   "",
+   "Statement III is also correct: Ca²⁺ and O²⁻ carry double charges, while K⁺ and Cl⁻ carry single charges.",
+   "Statement II is also correct: Cl⁻ is smaller than I⁻, so the ions in NaCl sit closer together.",
+   "Statement I is correct: Mg²⁺ and O²⁻ have twice the charges of Na⁺ and F⁻, which outweighs small size differences."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "bonding",
+  "q": "The nitrate ion, NO<sub>3</sub><sup>−</sup>, is described by three equivalent resonance structures, each with one N=O double bond and two N–O single bonds. Which statements about nitrate are true?<br>I. The ion switches rapidly back and forth among the three structures.<br>II. All three nitrogen–oxygen bonds in the real ion have the same length.<br>III. In each of the three structures, the nitrogen atom has a formal charge of +1.",
+  "c": [
+   "II and III only",
+   "II only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "Resonance structures are not real molecules that take turns existing. For formal charge, count the nitrogen's bonds and lone pairs in one structure.",
+  "w": "The real ion is a single blend (hybrid) of the three structures; it does not flip between them (I false). Because every N–O bond is the same blend of one double and two single bonds, all three have the same length, with bond order 1⅓ (II true). In each structure N has four bonds and no lone pairs, so its formal charge is 5 − 0 − 4 = +1 (III true). The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement III is true: nitrogen has 5 valence electrons and in each structure it has 4 bonds and no lone pairs, giving 5 − 4 = +1.",
+   "Statement I is false: resonance structures do not take turns. The real ion is one hybrid structure all the time.",
+   "Statement I is false: the ion does not flip between structures. It is a single average of all three."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "periodic",
+  "q": "Which statements describe trends across period 3 from sodium to chlorine?<br>I. Atomic radius decreases.<br>II. The effective nuclear charge felt by the valence electrons increases.<br>III. Metallic character increases.",
+  "c": [
+   "I and II only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "h": "Across a period, protons are added while the valence electrons stay in the same shell.",
+  "w": "Moving from Na to Cl, each element adds a proton, but the added electron goes into the same n = 3 shell and shields poorly, so Z<sub>eff</sub> rises (II true). The valence electrons are pulled in more tightly, so atoms get smaller (I true). Holding electrons more tightly makes atoms less likely to lose them, so metallic character decreases: Na is a metal, Cl a nonmetal (III false). The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is also true: each step adds a proton while the new electron enters the same shell, so the pull on valence electrons grows.",
+   "Statement III is false: the period starts with the metal sodium and ends with the nonmetal chlorine, so metallic character falls.",
+   "Statement I is true: the stronger pull from the nucleus draws the n = 3 electrons closer, so atoms shrink across the period."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "periodic",
+  "q": "Which statements about ionization energies are true?<br>I. The first ionization energy of Mg is greater than that of Al.<br>II. The first ionization energy of S is greater than that of P.<br>III. The second ionization energy of Na is greater than that of Mg.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "h": "Ask which electron is removed in each case: from a filled s subshell, from a p subshell, from a paired orbital, or from a noble-gas core.",
+  "w": "Al's outermost electron is a lone 3p electron, higher in energy than Mg's 3s electrons, so Mg has the larger IE<sub>1</sub> (I true). In S the fourth 3p electron is paired in an orbital, and the electron repulsion makes it easier to remove than any of P's unpaired 3p electrons, so S has the smaller IE<sub>1</sub> (II false). Na's second electron comes from the 2p core, while Mg's second electron is still a 3s valence electron, so Na's IE<sub>2</sub> is far larger (III true). The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true: removing a second electron from Na means breaking into the neon core, which takes much more energy.",
+   "Statement II is false: sulfur's paired 3p electron is pushed by its partner, so it comes off more easily than phosphorus's unpaired 3p electrons.",
+   "Statement I is true: aluminum's single 3p electron is higher in energy and easier to remove than magnesium's 3s electrons."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "quantum",
+  "q": "Light shining on a clean metal surface ejects electrons. Which statements about this photoelectric effect are true?<br>I. Making the light brighter, at the same frequency, raises the maximum kinetic energy of the ejected electrons.<br>II. Light of any frequency will eject electrons if it is bright enough.<br>III. Using light of a higher frequency raises the maximum kinetic energy of the ejected electrons.",
+  "c": [
+   "III only",
+   "I and III only",
+   "II only",
+   "I, II and III"
+  ],
+  "h": "Each electron is ejected by one photon. Brightness sets the number of photons, while frequency sets the energy of each photon.",
+  "w": "The energy of one photon is E = hν, and the maximum kinetic energy of an ejected electron is hν minus the work function, so a higher frequency gives faster electrons (III true). Brighter light means more photons of the same energy, so more electrons come off but none of them faster (I false). Below the threshold frequency each photon has too little energy, and no brightness can make up for it (II false). The answer is <b>III only</b>.",
+  "x": [
+   "",
+   "Statement I is false: brighter light gives more electrons, but each photon still has the same energy, so the electrons are not faster.",
+   "Statement II is false: below the threshold frequency no electrons come off, however bright the light is.",
+   "Statement II is false: a photon below the threshold frequency cannot free an electron, and adding more such photons does not help."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "thermo",
+  "q": "Natural gas burns in a furnace, an exothermic reaction at constant pressure. Taking the reacting chemicals as the system, which statements are true?<br>I. The products have a greater enthalpy than the reactants.<br>II. q for the system is negative.<br>III. The surroundings become colder.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Exothermic means heat leaves the system. Think about where that heat goes.",
+  "w": "In an exothermic reaction heat flows out of the system, so q (and ΔH) for the system is negative (II true). Since heat is released, the products have LESS enthalpy than the reactants (I false). The released heat goes into the surroundings, which get warmer, not colder (III false). The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Statement I is false: in an exothermic reaction the products end up lower in enthalpy, because energy has left as heat.",
+   "Statement III is false: the heat released by the system flows into the surroundings and warms them.",
+   "Statement III is false: heat leaves the system and enters the surroundings, so they warm up."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "thermo",
+  "q": "The enthalpy change for the reaction shown is ΔH° = −572 kJ. Which statements are true?<br>I. For H<sub>2</sub>(g) + ½ O<sub>2</sub>(g) → H<sub>2</sub>O(l), ΔH° = −286 kJ.<br>II. For 2 H<sub>2</sub>O(l) → 2 H<sub>2</sub>(g) + O<sub>2</sub>(g), ΔH° = +572 kJ.<br>III. For 2 H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2 H<sub>2</sub>O(g), ΔH° = −572 kJ.",
+  "c": [
+   "I and II only",
+   "II only",
+   "I, II and III",
+   "I and III only"
+  ],
+  "h": "ΔH scales with the coefficients and changes sign when the equation is reversed. Also check the physical state of each product.",
+  "w": "Halving every coefficient halves ΔH, giving −286 kJ (I true). Reversing the equation reverses the sign, giving +572 kJ (II true). Making water vapor instead of liquid water releases less heat, because the heat of condensation is not given off, so ΔH° for that reaction is less negative than −572 kJ (III false). The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement I is true: ΔH is an extensive quantity, so cutting all coefficients in half cuts ΔH in half.",
+   "Statement III is false: forming H₂O(g) instead of H₂O(l) skips the condensation step, so less heat is released.",
+   "Statement II is true and statement III is false: reversing a reaction flips the sign of ΔH, and the state of the product matters."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2 H<sub>2</sub>O(l)    ΔH° = −572 kJ"
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "liquids",
+  "q": "A closed flask holds liquid water in equilibrium with its vapor at 25 °C. Which changes would increase the equilibrium vapor pressure of the water?<br>I. Raising the temperature to 35 °C.<br>II. Adding more liquid water to the flask.<br>III. Moving the water to a larger closed flask, with some liquid still present.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Equilibrium vapor pressure is a property of the liquid at a given temperature. It does not depend on how much liquid or space there is.",
+  "w": "Vapor pressure depends only on the substance and its temperature. At a higher temperature more molecules have enough energy to escape, so the vapor pressure rises (I true). Adding liquid or giving the vapor more room changes how much liquid or vapor there is, but once equilibrium returns the pressure of the vapor is the same as before (II and III false). The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false: extra liquid does not change how easily molecules escape from the surface, so the equilibrium vapor pressure stays the same.",
+   "Statement III is false: in a larger flask more liquid evaporates until the vapor pressure returns to the same value at 25 °C.",
+   "Statement II is false: the amount of liquid does not matter, only the temperature sets the equilibrium vapor pressure."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "liquids",
+  "q": "Which statements about phase diagrams are true?<br>I. At the triple point, the solid, liquid and gas phases can all exist together at equilibrium.<br>II. Above its critical temperature, a substance cannot be turned into a liquid by raising the pressure.<br>III. Because the solid–liquid line of water slopes to the left, squeezing ice that is just below 0 °C can melt it.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "I only",
+   "I and III only"
+  ],
+  "h": "Recall what the triple point and the critical point mark, and which unusual feature water's phase diagram has.",
+  "w": "The triple point is the one temperature and pressure where all three phases coexist (I true). Above the critical temperature the liquid and gas can no longer be told apart, so no pressure produces a separate liquid (II true). Water's melting line has a negative slope because liquid water is denser than ice, so higher pressure lowers the melting point and can melt ice just below 0 °C (III true). The answer is <b>I, II and III</b>.",
+  "x": [
+   "",
+   "Statement III is also true: liquid water is denser than ice, so pressure favors the liquid and lowers the melting point.",
+   "Statement II is also true: beyond the critical point, raising the pressure never produces a separate liquid phase.",
+   "Statement II is also true: above the critical temperature the gas and liquid merge, so pressure alone cannot form a separate liquid."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "solutions",
+  "q": "Two aqueous solutions are compared at the same temperature: 0.10 <i>m</i> CaCl<sub>2</sub> and 0.10 <i>m</i> glucose (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>). Assume CaCl<sub>2</sub> dissociates completely. Which statements are true?<br>I. The CaCl<sub>2</sub> solution has the lower freezing point.<br>II. The CaCl<sub>2</sub> solution has the lower boiling point.<br>III. The glucose solution has the higher vapor pressure.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "h": "Colligative effects depend on the number of dissolved particles. Count the particles that one formula unit of each solute gives.",
+  "w": "Each CaCl<sub>2</sub> gives 3 ions (i = 3), so its solution has 0.30 <i>m</i> of particles versus 0.10 <i>m</i> for glucose. More particles lower the freezing point more (I true) and lower the vapor pressure more, so the glucose solution has the higher vapor pressure (III true). More particles RAISE the boiling point more, so the CaCl<sub>2</sub> solution has the higher boiling point, not the lower one (II false). The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true: the glucose solution has fewer dissolved particles, so its vapor pressure is lowered less.",
+   "Statement II is false: dissolved particles raise the boiling point, and CaCl₂ gives three times as many particles.",
+   "Statement II is false: more dissolved particles mean a higher boiling point, not a lower one."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "reactions",
+  "q": "Equal volumes of 0.10 M aqueous solutions are mixed in each of these pairs. Which mixtures form a precipitate?<br>I. KNO<sub>3</sub> and Na<sub>2</sub>SO<sub>4</sub><br>II. AgNO<sub>3</sub> and NaBr<br>III. Pb(NO<sub>3</sub>)<sub>2</sub> and KI",
+  "c": [
+   "II and III only",
+   "II only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "Swap partners in each pair and use the solubility rules to check whether either new combination is insoluble.",
+  "w": "Silver halides other than AgF are insoluble, so AgNO<sub>3</sub> and NaBr form solid AgBr (II yes). Lead(II) iodide is insoluble, so Pb(NO<sub>3</sub>)<sub>2</sub> and KI form yellow PbI<sub>2</sub> (III yes). In pair I the possible new products are K<sub>2</sub>SO<sub>4</sub> and NaNO<sub>3</sub>, and all nitrates and all alkali metal salts are soluble, so nothing forms (I no). The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement III also gives a solid: lead(II) iodide is one of the insoluble iodides.",
+   "Statement II also gives a solid: silver bromide is insoluble, like silver chloride.",
+   "Mixture I gives no solid: every possible product is a nitrate or a sodium or potassium salt, and all of those dissolve."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "advanced",
+  "q": "Which statements are correct according to molecular orbital theory?<br>I. N<sub>2</sub><sup>+</sup> has a higher bond order than N<sub>2</sub>.<br>II. He<sub>2</sub> has a bond order of ½.<br>III. O<sub>2</sub><sup>+</sup> has a shorter bond than O<sub>2</sub>.",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Bond order = ½(bonding electrons − antibonding electrons). Note whether each removed electron comes from a bonding or an antibonding orbital.",
+  "w": "N<sub>2</sub> has bond order 3; removing an electron takes it from the bonding σ<sub>2p</sub> orbital, so N<sub>2</sub><sup>+</sup> has bond order 2.5, which is lower (I false). He<sub>2</sub> has 2 bonding and 2 antibonding electrons, so its bond order is 0 (II false; ½ is the value for He<sub>2</sub><sup>+</sup>). O<sub>2</sub> has bond order 2; removing an electron from a π* antibonding orbital raises the bond order of O<sub>2</sub><sup>+</sup> to 2.5, so its bond is shorter (III correct). The answer is <b>III only</b>.",
+  "x": [
+   "",
+   "Statement I is incorrect: the electron removed from N₂ comes from a bonding orbital, so the bond order drops from 3 to 2.5.",
+   "Statement II is incorrect: He₂ has two bonding and two antibonding electrons, so its bond order is zero. The value ½ belongs to He₂⁺.",
+   "Statement II is incorrect: count the electrons in He₂. Equal numbers of bonding and antibonding electrons give no bond."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ }
+]

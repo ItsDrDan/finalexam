@@ -1,0 +1,3 @@
+#1: hint stated outright that KE goes as T and speed as √T, which settles statements II and III for the student → rewrote the hint to ask how pressure, average KE and speed each depend on Kelvin temperature.
+#9: explanation gave "about −484 kJ" for 2 H₂O(g), a value the student cannot check because no data are given → removed the side note. The explanation now says only that the value is less negative than −572 kJ.
+#10: x line for "I and II only" said that adding liquid "adds surface", which is not true in the same flask → rewrote it: extra liquid does not change how easily molecules escape, so the equilibrium vapor pressure stays the same.

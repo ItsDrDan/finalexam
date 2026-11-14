@@ -1,0 +1,1730 @@
+[
+ {
+  "t": "composition",
+  "q": "Two molecules of a compound of nitrogen and oxygen are broken down completely into N<sub>2</sub> and O<sub>2</sub>. The box shows ALL of the molecules that form. What are the molecular formula and the empirical formula of the compound?",
+  "c": [
+   "molecular N<sub>2</sub>O<sub>4</sub>; empirical NO<sub>2</sub>",
+   "molecular NO<sub>2</sub>; empirical N<sub>2</sub>O<sub>4</sub>",
+   "molecular N<sub>4</sub>O<sub>8</sub>; empirical N<sub>2</sub>O<sub>4</sub>",
+   "molecular NO<sub>2</sub>; empirical NO<sub>2</sub>"
+  ],
+  "h": "Count the N and O atoms in the box and share them equally between the two original molecules. The empirical formula is the smallest whole-number ratio of the atoms.",
+  "w": "The box holds 2 N<sub>2</sub> and 4 O<sub>2</sub>, which is 4 N atoms and 8 O atoms. These came from 2 molecules, so each molecule had 2 N and 4 O: the molecular formula is N<sub>2</sub>O<sub>4</sub>. The ratio 2 : 4 reduces to 1 : 2, so the empirical formula is NO<sub>2</sub>. The answer is <b>molecular N<sub>2</sub>O<sub>4</sub>; empirical NO<sub>2</sub></b>. N<sub>4</sub>O<sub>8</sub> puts every atom in the box into one molecule, and NO<sub>2</sub> as the molecular formula ignores that only two molecules were broken down.",
+  "x": [
+   "",
+   "These two are swapped. The empirical formula is the reduced ratio, so it can never have larger subscripts than the molecular formula.",
+   "This puts all the atoms in the box into one molecule, but the box came from two molecules. Also, an empirical formula must be fully reduced.",
+   "NO₂ is the reduced ratio, but the box came from only two molecules. Count how many N atoms each one must have held."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 31,
+    "key": {
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ]
+      ],
+      "cap": "Products"
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "composition",
+  "q": "A sample of a hydrocarbon burns completely in excess O<sub>2</sub>. The box shows ALL of the CO<sub>2</sub> and H<sub>2</sub>O molecules that formed (leftover O<sub>2</sub> is not shown). What is the empirical formula of the hydrocarbon?",
+  "c": [
+   "C<sub>2</sub>H<sub>5</sub>",
+   "C<sub>4</sub>H<sub>5</sub>",
+   "C<sub>4</sub>H<sub>10</sub>",
+   "C<sub>2</sub>H<sub>5</sub>O"
+  ],
+  "h": "Every C atom in the CO<sub>2</sub> and every H atom in the H<sub>2</sub>O came from the hydrocarbon. Count atoms, not molecules, then reduce the ratio.",
+  "w": "There are 4 CO<sub>2</sub> (4 C atoms) and 5 H<sub>2</sub>O (10 H atoms), so C : H = 4 : 10 = 2 : 5, giving <b>C<sub>2</sub>H<sub>5</sub></b>. C<sub>4</sub>H<sub>5</sub> counts one H per water molecule instead of two; C<sub>4</sub>H<sub>10</sub> has the right ratio but is not reduced to an empirical formula. The O in the products came from O<sub>2</sub>, not from the hydrocarbon.",
+  "x": [
+   "",
+   "Each H₂O molecule carries two H atoms. Count H atoms, not water molecules.",
+   "This ratio is right, but an empirical formula must be reduced to the smallest whole numbers.",
+   "A hydrocarbon contains only C and H. The O atoms in the products came from the O₂."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 47,
+    "key": {
+     "C": {
+      "c": "#555",
+      "n": "C",
+      "lin": true
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ]
+      ],
+      "cap": "Products"
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "reactions",
+  "q": "Methane burns according to the equation shown. The Before box shows the reaction mixture. Which box (I–IV) shows the contents after the reaction goes to completion?",
+  "c": [
+   "III",
+   "I",
+   "II",
+   "IV"
+  ],
+  "h": "Find the limiting reactant first: each CH<sub>4</sub> needs 2 O<sub>2</sub>. Then check that every kind of atom is conserved.",
+  "w": "Before: 3 CH<sub>4</sub> and 4 O<sub>2</sub>. The 4 O<sub>2</sub> can burn only 2 CH<sub>4</sub>, so O<sub>2</sub> is limiting: 2 CO<sub>2</sub> and 4 H<sub>2</sub>O form and 1 CH<sub>4</sub> is left over, as in box <b>III</b>. Box I burns all 3 CH<sub>4</sub>, which needs 6 O<sub>2</sub> (it has more O atoms than the Before box). Box II leaves O<sub>2</sub> over even though O<sub>2</sub> runs out first (and it has lost a C atom), and box IV loses H and O atoms.",
+  "x": [
+   "",
+   "Count O atoms in box I and in the Before box. Burning all the CH₄ would need more O₂ than is there.",
+   "Box II has O₂ left over, but compare how much O₂ each CH₄ needs with how much is present.",
+   "Count H atoms in box IV and in the Before box. Atoms must be conserved."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "CH<sub>4</sub>(g) + 2 O<sub>2</sub>(g) → CO<sub>2</sub>(g) + 2 H<sub>2</sub>O(g)"
+   },
+   {
+    "type": "particles",
+    "seed": 58,
+    "key": {
+     "C": {
+      "c": "#555",
+      "n": "C",
+      "lin": true
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ]
+      ],
+      "cap": "Before"
+     }
+    ]
+   },
+   {
+    "type": "particles",
+    "seed": 63,
+    "key": {
+     "C": {
+      "c": "#555",
+      "lin": true
+     },
+     "O": {
+      "c": "#e0675a"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "r": 7
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ]
+      ],
+      "cap": "I"
+     },
+     {
+      "mols": [
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "O"
+       ]
+      ],
+      "cap": "II"
+     },
+     {
+      "mols": [
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ]
+      ],
+      "cap": "III"
+     },
+     {
+      "mols": [
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ]
+      ],
+      "cap": "IV"
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "reactions",
+  "q": "The two solutions shown, CaCl<sub>2</sub>(aq) and Na<sub>3</sub>PO<sub>4</sub>(aq), are mixed, and Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>(s) precipitates until one of its ions is used up. Which ions are still dissolved after the reaction is complete?",
+  "c": [
+   "1 Ca<sup>2+</sup>, 6 Na<sup>+</sup> and 8 Cl<sup>−</sup>",
+   "6 Na<sup>+</sup> and 8 Cl<sup>−</sup> only",
+   "2 Ca<sup>2+</sup>, 6 Na<sup>+</sup> and 8 Cl<sup>−</sup>",
+   "1 Ca<sup>2+</sup> only"
+  ],
+  "h": "Each formula unit of Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> uses 3 Ca<sup>2+</sup> and 2 PO<sub>4</sub><sup>3−</sup>. Which ion runs out first, and which ions never react?",
+  "w": "The boxes hold 4 Ca<sup>2+</sup>, 8 Cl<sup>−</sup>, 6 Na<sup>+</sup> and 2 PO<sub>4</sub><sup>3−</sup>. The 2 PO<sub>4</sub><sup>3−</sup> take 3 Ca<sup>2+</sup> to make one Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>, so 1 Ca<sup>2+</sup> is left, and the spectators Na<sup>+</sup> and Cl<sup>−</sup> all stay dissolved: <b>1 Ca<sup>2+</sup>, 6 Na<sup>+</sup> and 8 Cl<sup>−</sup></b> (charges balance: 2 + 6 = 8). Using a 1 : 1 ratio leaves 2 Ca<sup>2+</sup>, which does not balance the charge.",
+  "x": [
+   "",
+   "Phosphate runs out before all the calcium can react. Check how many Ca²⁺ ions 2 PO₄³⁻ can take.",
+   "This uses a 1 : 1 ratio of Ca²⁺ to PO₄³⁻. The solid's formula has 3 Ca for every 2 PO₄. Also check that the charges balance.",
+   "Na⁺ and Cl⁻ are spectator ions. They do not go into the solid."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 74,
+    "key": {
+     "Ca": {
+      "c": "#5aa469",
+      "n": "Ca²⁺",
+      "q": "+"
+     },
+     "Cl": {
+      "c": "#f2c14e",
+      "n": "Cl⁻",
+      "q": "−",
+      "r": 9
+     },
+     "Na": {
+      "c": "#9b7fd1",
+      "n": "Na⁺",
+      "q": "+",
+      "r": 9
+     },
+     "P": {
+      "c": "#555",
+      "n": "P"
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O",
+      "r": 8
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "Ca"
+       ],
+       [
+        "Ca"
+       ],
+       [
+        "Ca"
+       ],
+       [
+        "Ca"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ]
+      ],
+      "cap": "CaCl₂(aq)",
+      "water": true
+     },
+     {
+      "mols": [
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "P",
+        "O",
+        "O",
+        "O",
+        "O"
+       ],
+       [
+        "P",
+        "O",
+        "O",
+        "O",
+        "O"
+       ]
+      ],
+      "cap": "Na₃PO₄(aq)",
+      "water": true
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "gases",
+  "q": "Four rigid containers have the SAME volume. Each holds the gas shown at the temperature in its caption. Which container has the HIGHEST pressure?",
+  "c": [
+   "III",
+   "I",
+   "II",
+   "IV"
+  ],
+  "h": "For an ideal gas at fixed volume, P is proportional to n × T. Count molecules (not atoms) and use kelvin temperatures.",
+  "w": "P ∝ nT. I: 9 × 200 = 1800; II: 4 × 300 = 1200; III: 5 × 400 = 2000; IV: 3 × 600 = 1800. Container <b>III</b> is highest. Container I has the most particles and IV the highest temperature, but neither product is the largest. Counting atoms instead of molecules would wrongly favor IV (9 atoms in 3 CO<sub>2</sub>).",
+  "x": [
+   "",
+   "Container I has the most particles, but its temperature is the lowest. Multiply molecules by temperature.",
+   "Container II has few molecules at a moderate temperature. Compare n × T for every container.",
+   "Count molecules, not atoms. Three CO₂ molecules are only 3 gas particles, even at 600 K."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 85,
+    "key": {
+     "He": {
+      "c": "#f2c14e",
+      "n": "He",
+      "r": 9
+     },
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     },
+     "C": {
+      "c": "#555",
+      "n": "C",
+      "lin": true
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "He"
+       ],
+       [
+        "He"
+       ],
+       [
+        "He"
+       ],
+       [
+        "He"
+       ],
+       [
+        "He"
+       ],
+       [
+        "He"
+       ],
+       [
+        "He"
+       ],
+       [
+        "He"
+       ],
+       [
+        "He"
+       ]
+      ],
+      "cap": "I: 200 K"
+     },
+     {
+      "mols": [
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ]
+      ],
+      "cap": "II: 300 K"
+     },
+     {
+      "mols": [
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ]
+      ],
+      "cap": "III: 400 K"
+     },
+     {
+      "mols": [
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ]
+      ],
+      "cap": "IV: 600 K"
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "gases",
+  "q": "The rigid container shown holds N<sub>2</sub> and H<sub>2</sub> at a total pressure of 1.80 atm. The gases react completely by the equation shown, and the container is returned to the original temperature. What is the total pressure afterward?",
+  "c": [
+   "1.00 atm",
+   "1.80 atm",
+   "0.800 atm",
+   "1.20 atm"
+  ],
+  "h": "At constant V and T, total pressure is proportional to the total number of gas molecules. Find the limiting reactant and count every molecule left, including leftover reactant.",
+  "w": "Before: 3 N<sub>2</sub> + 6 H<sub>2</sub> = 9 molecules. The 6 H<sub>2</sub> react with 2 N<sub>2</sub> to give 4 NH<sub>3</sub>, leaving 1 N<sub>2</sub>: 5 molecules. P = (5/9)(1.80 atm) = <b>1.00 atm</b>. 0.800 atm counts only the NH<sub>3</sub>, 1.20 atm assumes all 3 N<sub>2</sub> react, and 1.80 atm assumes the pressure cannot change because mass is conserved.",
+  "x": [
+   "",
+   "Mass is conserved, but the number of gas molecules changes. Pressure depends on the number of molecules.",
+   "This counts only the NH₃. Leftover reactant also pushes on the walls.",
+   "This assumes all the N₂ reacts. Check whether there is enough H₂ for that."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "N<sub>2</sub>(g) + 3 H<sub>2</sub>(g) → 2 NH<sub>3</sub>(g)"
+   },
+   {
+    "type": "particles",
+    "seed": 96,
+    "key": {
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "H",
+        "H"
+       ]
+      ],
+      "cap": "Before"
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "liquids",
+  "q": "Three sealed flasks at the SAME temperature each contain a different pure liquid, A, B or C, in equilibrium with its vapor. Each box shows the vapor molecules in an equal volume of the space above the liquid. Which ranks the liquids from WEAKEST to STRONGEST intermolecular forces?",
+  "c": [
+   "A &lt; C &lt; B",
+   "B &lt; C &lt; A",
+   "A &lt; B &lt; C",
+   "C &lt; A &lt; B"
+  ],
+  "h": "More molecules in the same volume of vapor means a higher vapor pressure. How does vapor pressure depend on the forces holding molecules in the liquid?",
+  "w": "The vapor boxes hold 8 (A), 3 (B) and 5 (C) molecules, so vapor pressure is A &gt; C &gt; B. Molecules escape most easily from the liquid with the weakest attractions, so the IMF order is <b>A &lt; C &lt; B</b>. Reversing this treats a high vapor pressure as a sign of strong forces.",
+  "x": [
+   "",
+   "This is reversed. Many molecules in the vapor means the liquid holds its molecules weakly.",
+   "Recount the vapor molecules above B and C.",
+   "Recount the vapor molecules above A and C."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 107,
+    "key": {
+     "A": {
+      "c": "#e0675a",
+      "n": "A molecule"
+     },
+     "B": {
+      "c": "#3b82b4",
+      "n": "B molecule"
+     },
+     "C": {
+      "c": "#5aa469",
+      "n": "C molecule"
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ]
+      ],
+      "cap": "Vapor above A"
+     },
+     {
+      "mols": [
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ]
+      ],
+      "cap": "Vapor above B"
+     },
+     {
+      "mols": [
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ]
+      ],
+      "cap": "Vapor above C"
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "liquids",
+  "q": "Pure water is boiling at 100 °C. Which box best represents the contents of a bubble that forms inside the boiling water?",
+  "c": [
+   "II",
+   "I",
+   "III",
+   "IV"
+  ],
+  "h": "Boiling is a physical change. Are any bonds inside the water molecules broken?",
+  "w": "Boiling separates whole H<sub>2</sub>O molecules from one another, so the bubble is filled with water vapor, box <b>II</b>. Box I (H<sub>2</sub> and O<sub>2</sub>) and box III (separate H and O atoms) would require breaking O–H bonds, which is a chemical change such as electrolysis. Box IV is air, but the bubbles form from the water itself.",
+  "x": [
+   "",
+   "H₂ and O₂ form only if water decomposes, which is a chemical change. Boiling is physical.",
+   "Breaking water into separate atoms takes far more energy than boiling supplies.",
+   "Dissolved air can make a few bubbles in warm water, but the bubbles in boiling water come from the water itself."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 118,
+    "key": {
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     },
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "H",
+        "H"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ]
+      ],
+      "cap": "I"
+     },
+     {
+      "mols": [
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ]
+      ],
+      "cap": "II"
+     },
+     {
+      "mols": [
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "O"
+       ],
+       [
+        "O"
+       ],
+       [
+        "O"
+       ],
+       [
+        "O"
+       ]
+      ],
+      "cap": "III"
+     },
+     {
+      "mols": [
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "O",
+        "O"
+       ]
+      ],
+      "cap": "IV"
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "solutions",
+  "q": "Boxes X and Y each show the sugar molecules in 1.0 mL of a sugar solution (water not shown). Equal volumes of X and Y are mixed. Which box (I–IV) best represents 1.0 mL of the mixture?",
+  "c": [
+   "III",
+   "I",
+   "II",
+   "IV"
+  ],
+  "h": "Suppose you mix 1.0 mL of each. How many sugar molecules are present, and in what total volume?",
+  "w": "1.0 mL of X (8 molecules) plus 1.0 mL of Y (4 molecules) gives 12 molecules in 2.0 mL, or 6 molecules per 1.0 mL: box <b>III</b>. Box I adds the molecules but forgets that the volume also doubled. Boxes II and IV keep the concentration of one of the original solutions, but the mixture must lie between them.",
+  "x": [
+   "",
+   "This adds the molecules but forgets the volume doubled too.",
+   "This is solution Y unchanged. Mixing with the more concentrated X must raise the concentration.",
+   "This is solution X unchanged. Mixing with the more dilute Y must lower the concentration."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 129,
+    "key": {
+     "S": {
+      "c": "#f2c14e",
+      "n": "sugar molecule"
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ]
+      ],
+      "cap": "X (1.0 mL)",
+      "water": true
+     },
+     {
+      "mols": [
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ]
+      ],
+      "cap": "Y (1.0 mL)",
+      "water": true
+     }
+    ]
+   },
+   {
+    "type": "particles",
+    "seed": 131,
+    "key": {
+     "S": {
+      "c": "#f2c14e"
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ]
+      ],
+      "cap": "I",
+      "water": true
+     },
+     {
+      "mols": [
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ]
+      ],
+      "cap": "II",
+      "water": true
+     },
+     {
+      "mols": [
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ]
+      ],
+      "cap": "III",
+      "water": true
+     },
+     {
+      "mols": [
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ]
+      ],
+      "cap": "IV",
+      "water": true
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "solutions",
+  "q": "Each box shows the solute particles dissolved in the same mass of water in four different dilute solutions (water not shown). The ionic solutes dissociate completely. Which solution has the LOWEST freezing point?",
+  "c": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "h": "Freezing-point depression depends on the total number of dissolved particles, not on what kind of particles they are.",
+  "w": "Count every dissolved particle: I has 10 glucose molecules; II has 3 Na<sup>+</sup> + 3 Cl<sup>−</sup> = 6; III has 3 Mg<sup>2+</sup> + 6 Cl<sup>−</sup> = 9; IV has 4 K<sup>+</sup> + 4 Cl<sup>−</sup> = 8. The most particles give the largest depression, so <b>I</b> freezes lowest. MgCl<sub>2</sub> gives the most ions per formula unit, but box III still holds fewer particles than box I.",
+  "x": [
+   "",
+   "Count all the dissolved particles in each box, not just whether the solute is ionic.",
+   "MgCl₂ gives the most ions per formula unit, but count the total particles in each box.",
+   "Count the total particles in each box and compare."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 142,
+    "key": {
+     "G": {
+      "c": "#9b7fd1",
+      "n": "glucose molecule",
+      "r": 12
+     },
+     "Na": {
+      "c": "#3b82b4",
+      "n": "Na⁺",
+      "q": "+",
+      "r": 9
+     },
+     "Mg": {
+      "c": "#5aa469",
+      "n": "Mg²⁺",
+      "q": "+",
+      "r": 9
+     },
+     "K": {
+      "c": "#e0675a",
+      "n": "K⁺",
+      "q": "+"
+     },
+     "Cl": {
+      "c": "#f2c14e",
+      "n": "Cl⁻",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ]
+      ],
+      "cap": "I",
+      "water": true
+     },
+     {
+      "mols": [
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ]
+      ],
+      "cap": "II",
+      "water": true
+     },
+     {
+      "mols": [
+       [
+        "Mg"
+       ],
+       [
+        "Mg"
+       ],
+       [
+        "Mg"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ]
+      ],
+      "cap": "III",
+      "water": true
+     },
+     {
+      "mols": [
+       [
+        "K"
+       ],
+       [
+        "K"
+       ],
+       [
+        "K"
+       ],
+       [
+        "K"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ]
+      ],
+      "cap": "IV",
+      "water": true
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "measure",
+  "q": "Boxes I–IV show particle views of four samples made of two kinds of atoms, A and B. Which box represents a mixture of an element and a compound?",
+  "c": [
+   "III",
+   "I",
+   "II",
+   "IV"
+  ],
+  "h": "An element's molecules contain only one kind of atom. A compound's molecules contain two or more kinds bonded together.",
+  "w": "Box <b>III</b> holds A<sub>2</sub> molecules (an element) mixed with AB molecules (a compound). Box I is a mixture of two elements (A<sub>2</sub> and B<sub>2</sub>), box II is a single pure compound (AB), and box IV is a mixture of two compounds (AB and AB<sub>2</sub>).",
+  "x": [
+   "",
+   "Both kinds of molecules in box I contain only one kind of atom, so both are elements.",
+   "Box II has only one kind of molecule, so it is a pure substance, not a mixture.",
+   "Every molecule in box IV contains both A and B, so all of them are compounds."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 153,
+    "key": {
+     "A": {
+      "c": "#e0675a",
+      "n": "A atom"
+     },
+     "B": {
+      "c": "#3b82b4",
+      "n": "B atom"
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "B",
+        "B"
+       ]
+      ],
+      "cap": "I"
+     },
+     {
+      "mols": [
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ]
+      ],
+      "cap": "II"
+     },
+     {
+      "mols": [
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ]
+      ],
+      "cap": "III"
+     },
+     {
+      "mols": [
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B",
+        "B"
+       ],
+       [
+        "A",
+        "B",
+        "B"
+       ],
+       [
+        "A",
+        "B",
+        "B"
+       ]
+      ],
+      "cap": "IV"
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "atoms",
+  "q": "The box shows a representative sample of Cl<sub>2</sub> molecules made from the two natural isotopes of chlorine, <sup>35</sup>Cl (34.97 u) and <sup>37</sup>Cl (36.97 u). Based on this sample, what is the average atomic mass of chlorine?",
+  "c": [
+   "35.47 u",
+   "35.97 u",
+   "36.47 u",
+   "70.94 u"
+  ],
+  "h": "Count the individual atoms of each isotope (not the molecules), find each isotope's fraction, and take a weighted average.",
+  "w": "The 10 molecules contain 20 atoms: 15 <sup>35</sup>Cl and 5 <sup>37</sup>Cl, so the fractions are 0.75 and 0.25. Average = 0.75(34.97) + 0.25(36.97) = <b>35.47 u</b>. 35.97 u is a simple average that ignores abundance, 36.47 u swaps the fractions, and 70.94 u is the average mass of a Cl<sub>2</sub> molecule, not a Cl atom.",
+  "x": [
+   "",
+   "This is a simple average. The two isotopes are not equally common in the box.",
+   "This gives the larger weight to the rarer isotope. Recount which isotope is more common.",
+   "This is the average mass of a Cl₂ molecule. The question asks for one Cl atom."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 164,
+    "key": {
+     "L": {
+      "c": "#5aa469",
+      "n": "³⁵Cl"
+     },
+     "M": {
+      "c": "#f2c14e",
+      "n": "³⁷Cl",
+      "r": 12
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "L",
+        "L"
+       ],
+       [
+        "L",
+        "L"
+       ],
+       [
+        "L",
+        "L"
+       ],
+       [
+        "L",
+        "L"
+       ],
+       [
+        "L",
+        "L"
+       ],
+       [
+        "L",
+        "L"
+       ],
+       [
+        "L",
+        "M"
+       ],
+       [
+        "L",
+        "M"
+       ],
+       [
+        "L",
+        "M"
+       ],
+       [
+        "M",
+        "M"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ }
+]

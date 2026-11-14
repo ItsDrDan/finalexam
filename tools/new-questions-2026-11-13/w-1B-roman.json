@@ -1,0 +1,325 @@
+[
+ {
+  "t": "kinetics",
+  "q": "The experimentally determined rate law for the reaction 2 A + B → C is rate = k[A]<sup>2</sup>[B]. Which statements are true?<br>I. Doubling [A] while [B] is held constant makes the rate four times as fast.<br>II. The reaction must occur in a single step in which two A molecules and one B molecule collide.<br>III. If concentrations are in M and time is in s, the units of k are M<sup>−2</sup> s<sup>−1</sup>.",
+  "c": [
+   "I and III only",
+   "II and III only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "A rate law is found by experiment and tells how the rate depends on each concentration. Ask whether matching the coefficients proves the mechanism.",
+  "w": "<b>I and III only.</b> The rate is second order in A, so doubling [A] multiplies the rate by 2<sup>2</sup> = 4 (I true). The reaction is third order overall, so k has units M s<sup>−1</sup>/M<sup>3</sup> = M<sup>−2</sup> s<sup>−1</sup> (III true). A rate law that matches the coefficients is consistent with a one-step mechanism but does not prove it, since a multistep mechanism can give the same rate law (II false).",
+  "x": [
+   "",
+   "Statement I is misjudged. The rate is second order in A, so the rate depends on the square of [A].",
+   "Statement II is false. A rate law that matches the balanced equation does not prove the reaction is one elementary step, because other mechanisms can give the same rate law.",
+   "Statement II is false. Experiments give the rate law, but they cannot prove that the reaction happens in one step."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "kinetics",
+  "q": "A piece of zinc reacts with hydrochloric acid:<br>Zn(s) + 2 HCl(aq) → ZnCl<sub>2</sub>(aq) + H<sub>2</sub>(g)<br>Which changes would increase the initial rate of H<sub>2</sub> production?<br>I. Using powdered zinc instead of a single lump of the same mass<br>II. Using 2.0 M HCl instead of 1.0 M HCl<br>III. Using a larger volume of the same 1.0 M HCl",
+  "c": [
+   "I and II only",
+   "II and III only",
+   "II only",
+   "I, II and III"
+  ],
+  "h": "The rate depends on how often H<sup>+</sup> ions hit the zinc surface. Think about what each change does to the surface area and to the concentration of acid.",
+  "w": "<b>I and II only.</b> Powdered zinc has much more surface area, so more collisions with H<sup>+</sup> happen each second (I true). Doubling [HCl] doubles the concentration of H<sup>+</sup> at the surface (II true). Adding more acid of the same concentration does not change the concentration at the zinc surface, so the initial rate stays the same (III false).",
+  "x": [
+   "",
+   "Statement I is misjudged. Powdered zinc exposes much more surface to the acid, so more collisions happen each second.",
+   "Statement I is also true. Breaking the zinc into powder exposes much more surface for collisions.",
+   "Statement III is false. More acid at the same concentration lasts longer but does not make the reaction faster at the start."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "equilibrium",
+  "q": "The system shown is at equilibrium in a closed container. Which changes would increase the amount of NH<sub>3</sub> present once equilibrium is re-established?<br>I. Lowering the temperature<br>II. Adding a catalyst<br>III. Adding He(g) while keeping the volume constant",
+  "f": [
+   {
+    "type": "eq",
+    "text": "N<sub>2</sub>(g) + 3 H<sub>2</sub>(g) ⇌ 2 NH<sub>3</sub>(g)    ΔH° = −92 kJ"
+   }
+  ],
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Use Le Châtelier's principle. Treat heat as a product of an exothermic reaction, and ask whether a change alters Q or K at all.",
+  "w": "<b>I only.</b> The forward reaction is exothermic, so lowering the temperature increases K and shifts the equilibrium toward NH<sub>3</sub> (I true). A catalyst speeds up the forward and reverse reactions equally, so it does not change the equilibrium amounts (II false). Adding He at constant volume does not change the partial pressures of N<sub>2</sub>, H<sub>2</sub> or NH<sub>3</sub>, so Q still equals K and nothing shifts (III false).",
+  "x": [
+   "",
+   "Statement II is false. A catalyst helps the system reach equilibrium faster but does not change where equilibrium lies.",
+   "Statement III is false. At constant volume an inert gas does not change the partial pressures of the reacting gases, so Q is unchanged.",
+   "Statement II is false. A catalyst speeds up the forward and reverse reactions equally, so the equilibrium amounts do not change."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "equilibrium",
+  "q": "For the reaction 2 SO<sub>2</sub>(g) + O<sub>2</sub>(g) ⇌ 2 SO<sub>3</sub>(g), the equilibrium constant is K<sub>c</sub>. Which statements are true at the same temperature?<br>I. For SO<sub>3</sub>(g) ⇌ SO<sub>2</sub>(g) + ½ O<sub>2</sub>(g), the equilibrium constant is 1/(2K<sub>c</sub>).<br>II. For 4 SO<sub>2</sub>(g) + 2 O<sub>2</sub>(g) ⇌ 4 SO<sub>3</sub>(g), the equilibrium constant is K<sub>c</sub><sup>2</sup>.<br>III. K<sub>p</sub> = K<sub>c</sub> for the original reaction.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "Reversing an equation inverts K, and multiplying it by a factor raises K to that power. K<sub>p</sub> and K<sub>c</sub> are equal only when the moles of gas do not change.",
+  "w": "<b>II only.</b> Doubling the coefficients squares the equilibrium constant, so the new constant is K<sub>c</sub><sup>2</sup> (II true). Reversing the reaction and halving it gives (1/K<sub>c</sub>)<sup>1/2</sup>, not 1/(2K<sub>c</sub>) (I false). Here Δn<sub>gas</sub> = 2 − 3 = −1, so K<sub>p</sub> = K<sub>c</sub>(RT)<sup>−1</sup>, which is not equal to K<sub>c</sub> (III false).",
+  "x": [
+   "",
+   "Statement I is false. Halving the coefficients takes the square root of K. It does not divide K by 2.",
+   "Statement III is false. The moles of gas drop from 3 to 2, so Kp and Kc differ by a factor of (RT)⁻¹.",
+   "Statement I is false. Multiplying an equation by ½ means taking the square root of K, and reversing it means taking the reciprocal."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "acidbase",
+  "q": "Consider 25.0 mL of 0.10 M HCl and 25.0 mL of 0.10 M CH<sub>3</sub>COOH. Which statements are true?<br>I. Both acids are completely ionized in water.<br>II. Neutralizing each sample requires the same volume of 0.10 M NaOH.<br>III. The CH<sub>3</sub>COOH solution has the higher pH.",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "Separate how strong an acid is (how much it ionizes) from how much acid there is (moles available to react with base).",
+  "w": "<b>II and III only.</b> Both samples contain 0.0025 mol of acid, and each reacts 1:1 with OH<sup>−</sup>, so each needs 25.0 mL of 0.10 M NaOH (II true). Acetic acid is a weak acid that ionizes only slightly, so its [H<sub>3</sub>O<sup>+</sup>] is much lower and its pH is higher (III true). HCl ionizes completely, but CH<sub>3</sub>COOH does not (I false).",
+  "x": [
+   "",
+   "Statement I is false. Acetic acid is a weak acid, so only a small fraction of its molecules ionize.",
+   "Statement II is also true. As base is added, the weak acid keeps ionizing, so the same moles of acid need the same moles of OH⁻.",
+   "Statement I is false. HCl is strong, but CH₃COOH is weak and mostly stays as molecules in water."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "acidbase",
+  "q": "Each salt is dissolved in pure water to make a 0.10 M solution. Which solutions are basic (pH &gt; 7)?<br>I. NH<sub>4</sub>Cl<br>II. KNO<sub>3</sub><br>III. NaClO",
+  "c": [
+   "III only",
+   "I only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "For each salt, ask whether the cation is a weak acid and the anion a weak base. Ions from strong acids and strong bases do not react with water.",
+  "w": "<b>III only.</b> ClO<sup>−</sup> is the conjugate base of the weak acid HClO, so it takes H<sup>+</sup> from water and makes OH<sup>−</sup>; Na<sup>+</sup> does not react (III basic). NH<sub>4</sub><sup>+</sup> is the conjugate acid of the weak base NH<sub>3</sub>, so NH<sub>4</sub>Cl is acidic (I). K<sup>+</sup> and NO<sub>3</sub><sup>−</sup> come from a strong base and a strong acid, so KNO<sub>3</sub> is neutral (II).",
+  "x": [
+   "",
+   "Statement I is misjudged. NH₄⁺ donates a proton to water, so NH₄Cl makes the solution acidic, not basic.",
+   "Statement I is misjudged. NH₄⁺ is a weak acid, so its solution has pH below 7.",
+   "Statement II is misjudged. K⁺ and NO₃⁻ come from KOH and HNO₃, which are strong, so neither ion changes the pH."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "buffers",
+  "q": "Each mixture is dissolved in water to make 1.0 L of solution. Which solutions are buffers?<br>I. 0.10 mol CH<sub>3</sub>COOH and 0.10 mol NaCH<sub>3</sub>COO<br>II. 0.10 mol HCl and 0.10 mol NaCl<br>III. 0.20 mol NH<sub>3</sub> and 0.10 mol HCl",
+  "c": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "h": "A buffer needs a weak acid and its conjugate base (or a weak base and its conjugate acid) both present in large amounts after any reaction between the mixed substances.",
+  "w": "<b>I and III only.</b> Mixture I contains a weak acid and its conjugate base in equal amounts (buffer). In mixture III, HCl converts 0.10 mol NH<sub>3</sub> into 0.10 mol NH<sub>4</sub><sup>+</sup>, leaving 0.10 mol NH<sub>3</sub>, so a weak base and its conjugate acid are both present (buffer). In mixture II, HCl is a strong acid and Cl<sup>−</sup> is too weak a base to remove added H<sup>+</sup>, so it is not a buffer.",
+  "x": [
+   "",
+   "Mixture III is also a buffer. HCl turns only half of the NH₃ into NH₄⁺, so both NH₃ and NH₄⁺ remain in large amounts.",
+   "Mixture II is not a buffer. HCl is a strong acid, and Cl⁻ is too weak a base to take up added H⁺.",
+   "Mixture II is not a buffer. A strong acid with its own salt cannot absorb added acid, since Cl⁻ is not a useful base."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "buffers",
+  "q": "A 0.100 M solution of a weak monoprotic acid HA is titrated with 0.100 M NaOH. Which statements are true?<br>I. The volume of NaOH needed to reach the equivalence point depends on the K<sub>a</sub> of HA.<br>II. At the half-equivalence point, pH = pK<sub>a</sub> of HA.<br>III. The solution at the equivalence point is basic.",
+  "c": [
+   "II and III only",
+   "III only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "The equivalence point is set by moles of acid and moles of base. Think about which species are present halfway there and at the equivalence point.",
+  "w": "<b>II and III only.</b> Halfway to equivalence, [HA] = [A<sup>−</sup>], so the Henderson–Hasselbalch equation gives pH = pK<sub>a</sub> (II true). At equivalence the solution contains A<sup>−</sup>, a weak base, so the pH is above 7 (III true). The equivalence volume depends only on the moles of HA and the NaOH concentration, not on how strong the acid is (I false).",
+  "x": [
+   "",
+   "Statement II is also true. When half the acid has been neutralized, [HA] equals [A⁻], and the log term in the Henderson–Hasselbalch equation is zero.",
+   "Statement I is false. Equivalence means moles of OH⁻ equal moles of HA, and that does not depend on Ka.",
+   "Statement I is false. A weak acid and a strong acid with the same moles need the same volume of base."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "solubility",
+  "q": "A saturated solution of AgCl (K<sub>sp</sub> = 1.8×10<sup>−10</sup>) is in contact with solid AgCl. Which substances, when added, would decrease the molar solubility of AgCl?<br>I. NaCl(s)<br>II. AgNO<sub>3</sub>(s)<br>III. NH<sub>3</sub>(aq)",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Think about the common-ion effect, and about what NH<sub>3</sub> does to Ag<sup>+</sup> ions in solution.",
+  "w": "<b>I and II only.</b> NaCl adds Cl<sup>−</sup> and AgNO<sub>3</sub> adds Ag<sup>+</sup>; either common ion shifts AgCl(s) ⇌ Ag<sup>+</sup> + Cl<sup>−</sup> to the left and lowers the solubility (I and II true). NH<sub>3</sub> binds Ag<sup>+</sup> to form the complex ion [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup>, which removes Ag<sup>+</sup> and makes more AgCl dissolve (III false).",
+  "x": [
+   "",
+   "Statement II is also true. Ag⁺ is a common ion too, so adding AgNO₃ pushes the dissolving equilibrium back toward the solid.",
+   "Statement III is false. NH₃ forms a complex ion with Ag⁺, which pulls the dissolving equilibrium forward.",
+   "Statement III is false. Removing Ag⁺ by forming [Ag(NH₃)₂]⁺ makes AgCl more soluble, not less."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "thermo",
+  "q": "For which processes is ΔS of the system positive?<br>I. H<sub>2</sub>O(l) → H<sub>2</sub>O(g)<br>II. CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g)<br>III. 2 NH<sub>3</sub>(g) → N<sub>2</sub>(g) + 3 H<sub>2</sub>(g)",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "I only",
+   "II and III only"
+  ],
+  "h": "Entropy increases when particles gain freedom to move, for example when a gas forms from a liquid or solid, or when the number of gas molecules increases.",
+  "w": "<b>I, II and III.</b> Vaporization turns a liquid into a much more disordered gas (I). Decomposing CaCO<sub>3</sub> forms a gas from a solid (II). In III, 2 mol of gas becomes 4 mol of gas, so the number of gas molecules doubles (III). All three have ΔS &gt; 0.",
+  "x": [
+   "",
+   "Statement III is also positive. Count the moles of gas on each side: 2 mol of gas becomes 4 mol of gas.",
+   "Statement II is also positive. A gas is produced from a solid, which greatly increases the entropy.",
+   "Statement I is also positive. A gas has far more possible arrangements than a liquid."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "thermo",
+  "q": "A reaction has ΔH° = +50.0 kJ and ΔS° = +100. J K<sup>−1</sup>. Assume both are independent of temperature. Which statements are true?<br>I. The reaction is spontaneous under standard conditions at 298 K.<br>II. The reaction is spontaneous under standard conditions above 500 K.<br>III. At 298 K, the equilibrium constant K is less than 1.",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "II only",
+   "I and III only"
+  ],
+  "h": "Use ΔG° = ΔH° − TΔS° with consistent units, and remember that a positive ΔG° means K &lt; 1.",
+  "w": "<b>II and III only.</b> At 298 K, ΔG° = 50.0 kJ − (298 K)(0.100 kJ K<sup>−1</sup>) = +20.2 kJ, so the reaction is not spontaneous (I false), and a positive ΔG° means K &lt; 1 (III true). ΔG° becomes negative when T &gt; ΔH°/ΔS° = 50.0/0.100 = 500 K (II true).",
+  "x": [
+   "",
+   "Statement I is false. At 298 K the TΔS° term is only 29.8 kJ, which is smaller than ΔH°, so ΔG° is positive.",
+   "Statement III is also true. A positive ΔG° at 298 K means products are not favored, so K is less than 1.",
+   "Statement I is false. Check the units: ΔS° must be 0.100 kJ K⁻¹, which makes ΔG° positive at 298 K."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "electro",
+  "q": "Use the standard reduction potentials in the table. Which reactions are spontaneous under standard conditions?<br>I. Cu(s) + Zn<sup>2+</sup>(aq) → Cu<sup>2+</sup>(aq) + Zn(s)<br>II. Cu(s) + 2 Ag<sup>+</sup>(aq) → Cu<sup>2+</sup>(aq) + 2 Ag(s)<br>III. 2 Ag(s) + Zn<sup>2+</sup>(aq) → 2 Ag<sup>+</sup>(aq) + Zn(s)",
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Half-reaction",
+     "E° (V)"
+    ],
+    "rows": [
+     [
+      "Ag<sup>+</sup> + e<sup>−</sup> → Ag",
+      "+0.80"
+     ],
+     [
+      "Cu<sup>2+</sup> + 2 e<sup>−</sup> → Cu",
+      "+0.34"
+     ],
+     [
+      "Zn<sup>2+</sup> + 2 e<sup>−</sup> → Zn",
+      "−0.76"
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "II only",
+   "I and II only",
+   "I only",
+   "II and III only"
+  ],
+  "h": "For each reaction, find E°<sub>cell</sub> = E°<sub>cathode</sub> − E°<sub>anode</sub>, where the cathode is the species being reduced. A positive E°<sub>cell</sub> means spontaneous.",
+  "w": "<b>II only.</b> In II, Ag<sup>+</sup> is reduced and Cu is oxidized: E° = 0.80 − 0.34 = +0.46 V, so it is spontaneous. In I, Zn<sup>2+</sup> would be reduced by Cu: E° = −0.76 − 0.34 = −1.10 V (nonspontaneous). In III, Zn<sup>2+</sup> would be reduced by Ag: E° = −0.76 − 0.80 = −1.56 V (nonspontaneous).",
+  "x": [
+   "",
+   "Statement I is not spontaneous. Zn²⁺ is the hardest of these ions to reduce, so Cu cannot reduce it.",
+   "Statement I is not spontaneous. That reaction is the reverse of the familiar Zn + Cu²⁺ reaction, so its E° is negative.",
+   "Statement III is not spontaneous. Silver metal is a poor reducing agent and cannot reduce Zn²⁺."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "coordination",
+  "q": "Consider the octahedral coordination compound [Cr(H<sub>2</sub>O)<sub>4</sub>Cl<sub>2</sub>]Cl. Which statements are true?<br>I. The coordination number of chromium is 6.<br>II. The oxidation state of chromium is +3.<br>III. The complex ion can exist as cis and trans isomers.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "I and III only",
+   "II only"
+  ],
+  "h": "Only the ligands inside the brackets are bonded to the metal. The outer Cl<sup>−</sup> balances the charge of the complex ion.",
+  "w": "<b>I, II and III.</b> Four H<sub>2</sub>O and two Cl<sup>−</sup> are bonded to Cr, giving coordination number 6 (I). The complex ion is [Cr(H<sub>2</sub>O)<sub>4</sub>Cl<sub>2</sub>]<sup>+</sup>, so Cr + 0 + 2(−1) = +1 and Cr is +3 (II). In an octahedral MA<sub>4</sub>B<sub>2</sub> ion, the two Cl<sup>−</sup> can be next to each other (cis) or opposite each other (trans) (III).",
+  "x": [
+   "",
+   "Statement III is also true. The two Cl ligands in an octahedron can be 90° apart or 180° apart, which gives two geometric isomers.",
+   "Statement II is also true. The complex ion has a 1+ charge, and with two Cl⁻ ligands the chromium must be +3.",
+   "Statement I is also true. Count the ligands inside the brackets: four H₂O plus two Cl⁻."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "nuclear",
+  "q": "Which statements about alpha (α) decay are true?<br>I. An alpha particle is the same as a helium-4 nucleus.<br>II. Alpha decay lowers the atomic number of the nucleus by 4.<br>III. Alpha particles penetrate matter more deeply than beta particles or gamma rays.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Write the alpha particle as <sup>4</sup><sub>2</sub>He and compare its mass number with its atomic number. Heavy, highly charged particles are stopped quickly.",
+  "w": "<b>I only.</b> An alpha particle is <sup>4</sup><sub>2</sub>He, a helium-4 nucleus (I true). Losing it lowers the mass number by 4 but the atomic number by only 2 (II false). Alpha particles are the least penetrating of the three and are stopped by a sheet of paper or the outer layer of skin (III false).",
+  "x": [
+   "",
+   "Statement II is false. The 4 is the drop in mass number. The atomic number drops by 2, the number of protons in ⁴₂He.",
+   "Statement III is false. Alpha particles are large and doubly charged, so they lose energy fast and are the least penetrating.",
+   "Statement II is false. Losing ⁴₂He takes away 2 protons, so the atomic number drops by 2."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ }
+]

@@ -1,0 +1,872 @@
+[
+ {
+  "t": "imf",
+  "q": "Which statements about London dispersion forces are true?<br>I. They act between all molecules, polar and nonpolar alike.<br>II. They grow stronger as the number of electrons in a molecule increases.<br>III. They are present only between nonpolar molecules.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Dispersion forces come from temporary dipoles in electron clouds. Does a molecule need to be nonpolar to have an electron cloud?",
+  "w": "Every molecule has electrons that can shift for an instant, so dispersion forces act between <b>all</b> molecules, and larger electron clouds are more polarizable, so they get stronger with more electrons. That makes <b>I and II only</b> true. Statement III is false: polar molecules such as HCl and H<sub>2</sub>O also have dispersion forces, in addition to their dipole forces.",
+  "x": [
+   "",
+   "Statement II is also true. More electrons make a cloud easier to distort, so the temporary dipoles are larger.",
+   "Statement III is false. Polar molecules have electron clouds too, so they also feel dispersion forces.",
+   "Statement III is false. Dispersion forces are not limited to nonpolar molecules."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "A liquid sits in a sealed flask with its vapor at equilibrium. Which changes would INCREASE the vapor pressure of the liquid?<br>I. Raising the temperature.<br>II. Pouring the same liquid into a wider flask so its surface area is larger.<br>III. Adding more of the same liquid to the flask.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Vapor pressure is an equilibrium property. Ask which change alters the fraction of molecules with enough energy to escape, not just how many can try.",
+  "w": "Raising the temperature gives more molecules enough kinetic energy to escape, so the vapor pressure rises: <b>I only</b>. A larger surface area speeds both evaporation and condensation equally, and adding more liquid changes neither rate per unit area, so neither II nor III changes the equilibrium vapor pressure.",
+  "x": [
+   "",
+   "Statement II is false. A larger surface speeds condensation as much as evaporation, so the equilibrium pressure is unchanged.",
+   "Statement III is false. Vapor pressure does not depend on how much liquid is present.",
+   "Statement III is false. At a fixed temperature, a bigger amount of the same liquid gives the same vapor pressure."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Which statements about the phase diagram of water are true? (Triple point: 0.0060 atm and 0.01 °C.)<br>I. The solid–liquid line slopes to the right, toward higher temperature, as pressure rises.<br>II. At a pressure of 0.0030 atm, ice that is warmed turns directly into vapor.<br>III. Squeezing ice that is just below 0 °C hard enough can melt it.",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "I and III only",
+   "II only"
+  ],
+  "h": "Ice is less dense than liquid water. Which phase does higher pressure favor, and what does that do to the direction of the melting line?",
+  "w": "Because ice is less dense than liquid water, higher pressure favors the liquid, so water's solid–liquid line slopes to the LEFT and squeezing ice just below 0 °C can melt it (III true). Below the triple-point pressure no liquid can exist, so ice sublimes when warmed (II true). Statement I describes most other substances, such as CO<sub>2</sub>, not water. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement I is false for water. Its melting line tilts the other way because ice is less dense than the liquid.",
+   "Statement I is false for water. A right leaning melting line belongs to substances whose solid is denser than the liquid.",
+   "Statement III is also true. Pressure favors the denser phase, which for water is the liquid."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "A sample of ice at −20 °C is heated at a constant rate until it is steam at 120 °C. Which statements about its heating curve (temperature vs. time) are true? (Specific heats: ice 2.09, liquid water 4.18, steam 2.01 J g<sup>−1</sup> °C<sup>−1</sup>.)<br>I. During the flat segment at 100 °C, the average kinetic energy of the molecules stays the same.<br>II. The flat segment at 100 °C lasts longer than the flat segment at 0 °C.<br>III. While the sample is all steam, its temperature rises more degrees per minute than while it is all liquid water.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "I only",
+   "II and III only"
+  ],
+  "h": "On a flat segment the heat goes into separating molecules. On a sloped segment, a smaller specific heat means the temperature climbs faster.",
+  "w": "On a plateau the temperature, and so the average kinetic energy, is constant (I true). Boiling needs ΔH<sub>vap</sub> = 40.7 kJ mol<sup>−1</sup> versus ΔH<sub>fus</sub> = 6.01 kJ mol<sup>−1</sup> for melting, because vaporizing separates the molecules completely, so the 100 °C plateau is longer (II true). Heat goes in at a constant rate, and steam's specific heat is about half that of liquid water, so the steam warms about twice as many degrees per minute (III true). All three: <b>I, II and III</b>.",
+  "x": [
+   "",
+   "Statement III is also true. Steam has a smaller specific heat than liquid water, so the same heat per minute raises its temperature more.",
+   "Statements II and III are also true. Compare ΔHvap with ΔHfus, and compare the specific heats of steam and liquid water.",
+   "Statement I is also true. Temperature measures average kinetic energy, and it does not change on a plateau."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Which statements about solubility are true?<br>I. In a KI solution, each dissolved K<sup>+</sup> and I<sup>−</sup> ion is surrounded by water molecules held by ion–dipole attractions.<br>II. CCl<sub>4</sub> mixes with water in all proportions because its C–Cl bonds are polar.<br>III. Iodine, I<sub>2</sub>, is more soluble in CCl<sub>4</sub> than in water.",
+  "c": [
+   "I and III only",
+   "I and II only",
+   "I only",
+   "II and III only"
+  ],
+  "h": "Think about whole-molecule polarity, not just bond polarity. A molecule with polar bonds can still be nonpolar if the dipoles cancel.",
+  "w": "Water molecules turn their partial charges toward K<sup>+</sup> and I<sup>−</sup> and cluster around each ion through ion–dipole attractions (I true). Nonpolar I<sub>2</sub> dissolves better in nonpolar CCl<sub>4</sub>, like dissolves like (III true). Statement II is false: the four C–Cl dipoles of tetrahedral CCl<sub>4</sub> cancel, so the molecule is nonpolar and does not mix with water. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement II is false. Tetrahedral CCl₄ is nonpolar overall because its bond dipoles cancel, so it does not mix with water.",
+   "Statement III is also true. Nonpolar I₂ dissolves better in a nonpolar solvent.",
+   "Statement I is also true. Water molecules cluster around each dissolved ion because of ion–dipole attractions."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Each box shows molecules of a different halogen, drawn to the same scale. Which box shows the substance with the HIGHEST normal boiling point?",
+  "c": [
+   "box II",
+   "box III",
+   "box IV",
+   "box I"
+  ],
+  "h": "All four are nonpolar diatomic molecules, so only one kind of attraction acts. Which molecule has the most electrons?",
+  "w": "Halogen molecules are nonpolar, so only London dispersion forces hold them together, and these grow with the number of electrons (polarizability). Box II holds I<sub>2</sub>, the largest, most polarizable molecule, so it has the strongest dispersion forces and the highest boiling point: <b>box II</b> (I<sub>2</sub> is actually a solid at room temperature). F<sub>2</sub> in box III has the weakest attractions.",
+  "x": [
+   "",
+   "F₂ has the fewest electrons, so its dispersion forces are the weakest of the four.",
+   "Cl₂ has fewer electrons than two of the other molecules drawn, so its dispersion forces are not the strongest.",
+   "Compare the electron count of Br₂ with the other molecules drawn. Dispersion forces grow with electron count."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 21,
+    "key": {
+     "F": {
+      "c": "#f2c14e",
+      "n": "F",
+      "r": 8
+     },
+     "Cl": {
+      "c": "#5aa469",
+      "n": "Cl",
+      "r": 10
+     },
+     "Br": {
+      "c": "#e0675a",
+      "n": "Br",
+      "r": 11
+     },
+     "I": {
+      "c": "#9b7fd1",
+      "n": "I",
+      "r": 13
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "Br",
+        "Br"
+       ],
+       [
+        "Br",
+        "Br"
+       ],
+       [
+        "Br",
+        "Br"
+       ],
+       [
+        "Br",
+        "Br"
+       ],
+       [
+        "Br",
+        "Br"
+       ],
+       [
+        "Br",
+        "Br"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "I",
+        "I"
+       ],
+       [
+        "I",
+        "I"
+       ],
+       [
+        "I",
+        "I"
+       ],
+       [
+        "I",
+        "I"
+       ],
+       [
+        "I",
+        "I"
+       ],
+       [
+        "I",
+        "I"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "mols": [
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "mols": [
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Each box shows molecules of a different pure substance. In which box can neighboring molecules form hydrogen bonds with one another?",
+  "c": [
+   "box III",
+   "box I",
+   "box II",
+   "box IV"
+  ],
+  "h": "A hydrogen bond needs an H atom bonded directly to N, O or F on one molecule, and a lone pair on N, O or F of a neighbor.",
+  "w": "Box I is CH<sub>4</sub>, box II is H<sub>2</sub>S, box III is NH<sub>3</sub> and box IV is CH<sub>3</sub>F. Only NH<sub>3</sub> has H atoms bonded directly to N, so only <b>box III</b> forms hydrogen bonds between its own molecules. CH<sub>3</sub>F contains F, but its H atoms are bonded to C, so it has only dipole–dipole and dispersion forces. S is not electronegative enough for H<sub>2</sub>S to hydrogen-bond.",
+  "x": [
+   "",
+   "Every H in this molecule is bonded to carbon, and the molecule is nonpolar, so only dispersion forces act.",
+   "Sulfur is not electronegative enough. S–H bonds are only weakly polar, so this substance has dipole–dipole forces instead.",
+   "This molecule contains F, but its H atoms are all bonded to carbon. A hydrogen bond needs H attached directly to N, O or F."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 34,
+    "key": {
+     "C": {
+      "c": "#555",
+      "n": "C"
+     },
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     },
+     "S": {
+      "c": "#f2c14e",
+      "n": "S"
+     },
+     "F": {
+      "c": "#5aa469",
+      "n": "F",
+      "r": 10
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "H"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "S",
+        "H",
+        "H"
+       ],
+       [
+        "S",
+        "H",
+        "H"
+       ],
+       [
+        "S",
+        "H",
+        "H"
+       ],
+       [
+        "S",
+        "H",
+        "H"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "mols": [
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "mols": [
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "F"
+       ],
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "F"
+       ],
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "F"
+       ],
+       [
+        "C",
+        "H",
+        "H",
+        "H",
+        "F"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Three different liquids, X, Y and Z, are each placed in a sealed container at 25 °C. Each box shows the same volume of the vapor above one liquid after equilibrium is reached. Which lists the liquids in order of INCREASING normal boiling point?",
+  "c": [
+   "X &lt; Z &lt; Y",
+   "Y &lt; Z &lt; X",
+   "Z &lt; X &lt; Y",
+   "X = Y = Z, because the temperature is the same"
+  ],
+  "h": "More molecules in the same volume of vapor means a higher vapor pressure. Does a high vapor pressure go with weak or strong attractions?",
+  "w": "Counting molecules: X has 9, Z has 6 and Y has 3 in the same volume at the same temperature, so the vapor pressures rank X &gt; Z &gt; Y. A high vapor pressure means weak intermolecular forces and a low boiling point, so the boiling points rank <b>X &lt; Z &lt; Y</b>. The reversed order mistakes many vapor molecules for strong attractions.",
+  "x": [
+   "",
+   "This is upside down. Many molecules in the vapor means they escape easily, so the attractions in that liquid are weak.",
+   "Recount the molecules in each box. The order of boiling points should follow the order of vapor pressures, reversed.",
+   "At the same temperature, liquids with different attractions have different vapor pressures, and the boxes show different numbers of molecules."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 47,
+    "key": {
+     "X": {
+      "c": "#e0675a",
+      "n": "X molecule"
+     },
+     "Y": {
+      "c": "#3b82b4",
+      "n": "Y molecule"
+     },
+     "Z": {
+      "c": "#5aa469",
+      "n": "Z molecule"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Vapor above X",
+      "mols": [
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     },
+     {
+      "cap": "Vapor above Y",
+      "mols": [
+       [
+        "Y"
+       ],
+       [
+        "Y"
+       ],
+       [
+        "Y"
+       ]
+      ]
+     },
+     {
+      "cap": "Vapor above Z",
+      "mols": [
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ],
+       [
+        "Z"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "The box shows the particles in a tiny region of a solution made by dissolving KCl in water (the drawing does not show how the molecules are oriented). Which attraction mainly holds the separated ions in solution, and which end of a water molecule points toward a Cl<sup>−</sup> ion?",
+  "c": [
+   "Ion–dipole attraction; the H end",
+   "Ion–dipole attraction; the O end",
+   "Dipole–dipole attraction; the H end",
+   "London dispersion; no particular end"
+  ],
+  "h": "Cl<sup>−</sup> is negative. Which atom of a water molecule carries a partial positive charge?",
+  "w": "The attraction between a charged ion and a polar water molecule is an <b>ion–dipole attraction</b>. The negative Cl<sup>−</sup> attracts the partially positive H atoms, so <b>the H end</b> of each nearby water molecule points toward it, while the partially negative O end faces K<sup>+</sup>. Dipole–dipole forces are between two neutral polar molecules, and dispersion forces are far weaker than ion–dipole attractions.",
+  "x": [
+   "",
+   "The O atom carries the partial negative charge, so it would be repelled by a negative ion. It faces the positive ions instead.",
+   "Cl⁻ is an ion with a full charge, not a neutral polar molecule, so the attraction is not dipole–dipole.",
+   "Dispersion forces are present but far too weak to explain why KCl dissolves. A charged ion strongly orients nearby polar molecules."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 58,
+    "key": {
+     "K": {
+      "c": "#9b7fd1",
+      "n": "K⁺",
+      "q": "+"
+     },
+     "Cl": {
+      "c": "#5aa469",
+      "n": "Cl⁻",
+      "q": "−"
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     }
+    },
+    "boxes": [
+     {
+      "cap": "KCl(aq)",
+      "water": true,
+      "mols": [
+       [
+        "K"
+       ],
+       [
+        "K"
+       ],
+       [
+        "K"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Ethanol boils at 78.4 °C at 1.00 atm, and its ΔH<sub>vap</sub> is 38.6 kJ mol<sup>−1</sup>. Using ln(P<sub>2</sub>/P<sub>1</sub>) = −(ΔH<sub>vap</sub>/R)(1/T<sub>2</sub> − 1/T<sub>1</sub>) with R = 8.314 J mol<sup>−1</sup> K<sup>−1</sup>, what is the vapor pressure of ethanol at 50.0 °C?",
+  "c": [
+   "0.313 atm",
+   "3.19 atm",
+   "0.999 atm",
+   "0.638 atm"
+  ],
+  "h": "Convert both temperatures to kelvin and ΔH<sub>vap</sub> to J mol<sup>−1</sup>. Should the vapor pressure at a lower temperature be above or below 1 atm?",
+  "w": "With T<sub>1</sub> = 351.55 K, P<sub>1</sub> = 1.00 atm and T<sub>2</sub> = 323.15 K: ln(P<sub>2</sub>/1.00) = −(38 600/8.314)(1/323.15 − 1/351.55) = −1.161, so P<sub>2</sub> = <b>0.313 atm</b>. 3.19 atm comes from a sign error and is impossible below the boiling point; 0.999 atm comes from leaving ΔH<sub>vap</sub> in kJ.",
+  "x": [
+   "",
+   "A sign was dropped. Below its normal boiling point a liquid's vapor pressure must be less than 1 atm.",
+   "This comes from leaving ΔHvap in kJ while R is in J. Convert 38.6 kJ to 38 600 J.",
+   "Vapor pressure is not proportional to the Celsius temperature. Use the equation with kelvin temperatures."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "At a high-altitude camp the air pressure is 0.60 atm. Water's normal boiling point is 100.0 °C and its ΔH<sub>vap</sub> is 40.7 kJ mol<sup>−1</sup>. Using the Clausius–Clapeyron equation with R = 8.314 J mol<sup>−1</sup> K<sup>−1</sup>, at about what temperature does water boil at the camp?",
+  "c": [
+   "86 °C",
+   "115 °C",
+   "94 °C",
+   "60 °C"
+  ],
+  "h": "Water boils when its vapor pressure equals the outside pressure. Solve ln(P<sub>2</sub>/P<sub>1</sub>) = −(ΔH<sub>vap</sub>/R)(1/T<sub>2</sub> − 1/T<sub>1</sub>) for T<sub>2</sub>.",
+  "w": "Set P<sub>2</sub> = 0.60 atm, P<sub>1</sub> = 1.00 atm, T<sub>1</sub> = 373.15 K: 1/T<sub>2</sub> = 1/373.15 − (8.314/40 700) ln 0.60 = 0.0027843 K<sup>−1</sup>, so T<sub>2</sub> = 359 K = <b>86 °C</b>. A lower outside pressure must lower the boiling point, so 115 °C (a sign error) cannot be right; 94 °C comes from using log<sub>10</sub> instead of ln.",
+  "x": [
+   "",
+   "Lower outside pressure lowers the boiling point. Check the sign when you solve for 1/T₂.",
+   "The Clausius–Clapeyron equation uses the natural log, not log base 10.",
+   "The boiling point does not scale in proportion to pressure. Use the equation with kelvin temperatures."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "For which pair is the strongest attraction BETWEEN the two components an ion–dipole force?",
+  "c": [
+   "KBr dissolved in water",
+   "CH<sub>3</sub>OH dissolved in water",
+   "I<sub>2</sub> dissolved in CCl<sub>4</sub>",
+   "HCl dissolved in CHCl<sub>3</sub>"
+  ],
+  "h": "An ion–dipole force needs one component that is made of ions and another made of polar molecules.",
+  "w": "KBr breaks into K<sup>+</sup> and Br<sup>−</sup> ions, which attract the polar water molecules: <b>KBr in water</b> shows ion–dipole forces. Methanol and water are both neutral molecules that hydrogen-bond, I<sub>2</sub> and CCl<sub>4</sub> are both nonpolar (dispersion only), and HCl and CHCl<sub>3</sub> are both neutral polar molecules (dipole–dipole).",
+  "x": [
+   "",
+   "Methanol is a neutral molecule, not an ion. Its strongest attraction to water is a different kind of force.",
+   "Both of these substances are nonpolar molecules, and neither contains ions.",
+   "Without water to ionize it, HCl stays as neutral molecules in CHCl₃, so there are no ions in this pair."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "At 25 °C, which liquid has the HIGHEST viscosity?",
+  "c": [
+   "glycerol, HOCH<sub>2</sub>CH(OH)CH<sub>2</sub>OH",
+   "ethanol, CH<sub>3</sub>CH<sub>2</sub>OH",
+   "hexane, CH<sub>3</sub>(CH<sub>2</sub>)<sub>4</sub>CH<sub>3</sub>",
+   "diethyl ether, CH<sub>3</sub>CH<sub>2</sub>OCH<sub>2</sub>CH<sub>3</sub>"
+  ],
+  "h": "Viscosity is resistance to flow. Molecules that cling to many neighbors at once slide past each other slowly.",
+  "w": "<b>Glycerol</b> has three O–H groups per molecule, so each molecule hydrogen-bonds to many neighbors and the liquid is thick and syrupy (about 1000 times as viscous as water). Ethanol has only one O–H group, and hexane and diethyl ether cannot hydrogen-bond to each other, so they flow easily.",
+  "x": [
+   "",
+   "Ethanol does hydrogen-bond, but with only one O–H group per molecule it flows easily.",
+   "Hexane is nonpolar and held together only by dispersion forces, so its molecules slide past one another easily.",
+   "Diethyl ether has no O–H hydrogen, so its molecules cannot hydrogen-bond to each other and it flows very easily."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Which lists water, ethanol and hexane in order of INCREASING surface tension at 20 °C?",
+  "c": [
+   "hexane &lt; ethanol &lt; water",
+   "water &lt; ethanol &lt; hexane",
+   "ethanol &lt; hexane &lt; water",
+   "hexane &lt; water &lt; ethanol"
+  ],
+  "h": "Surface tension is larger when molecules at the surface are pulled inward more strongly by their neighbors.",
+  "w": "Surface tension follows the strength of intermolecular attractions. Hexane has only dispersion forces, ethanol has one O–H group for hydrogen bonding, and water forms an extensive hydrogen-bond network, so the order is <b>hexane &lt; ethanol &lt; water</b> (about 18, 22 and 73 mN m<sup>−1</sup>).",
+  "x": [
+   "",
+   "This order is reversed. Stronger attractions pull surface molecules inward more, which raises surface tension.",
+   "Ethanol can hydrogen-bond, while hexane has only dispersion forces, so ethanol is not the lowest.",
+   "Ethanol has only one O–H group per molecule, while each water molecule can take part in up to four hydrogen bonds."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Carbon dioxide has a critical point at 31 °C and 73 atm. A sample of CO<sub>2</sub> gas at 40 °C is compressed slowly from 1 atm to 150 atm. What is observed?",
+  "c": [
+   "No liquid forms; the CO<sub>2</sub> becomes a supercritical fluid",
+   "It condenses to a liquid once the pressure reaches about 73 atm",
+   "It condenses to a liquid once the pressure reaches about 5 atm",
+   "It freezes directly to solid dry ice as the pressure rises"
+  ],
+  "h": "Above the critical temperature, the molecules have too much kinetic energy to be held together as a separate liquid phase, no matter the pressure.",
+  "w": "Because 40 °C is above the critical temperature, no pressure can make a distinct liquid phase with a surface; the CO<sub>2</sub> just gets denser and becomes a <b>supercritical fluid</b>. Condensation at 73 atm would happen only at or below 31 °C, and 5 atm is the triple-point pressure, which matters only near −57 °C.",
+  "x": [
+   "",
+   "Condensation by pressure alone works only at or below the critical temperature, and this sample is warmer than that.",
+   "That pressure is near the triple point, which applies only at much lower temperatures.",
+   "Solid CO₂ forms only at low temperatures. At 40 °C the solid region of the phase diagram is never reached."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Which ion attracts the surrounding water molecules most strongly (has the most negative enthalpy of hydration)?",
+  "c": [
+   "Mg<sup>2+</sup>",
+   "Na<sup>+</sup>",
+   "K<sup>+</sup>",
+   "Cs<sup>+</sup>"
+  ],
+  "h": "Ion–dipole attraction grows with the ion's charge and with how close water can get to it.",
+  "w": "Ion–dipole strength increases with larger charge and smaller radius. <b>Mg<sup>2+</sup></b> has twice the charge of the alkali ions and is also small (about 72 pm), so it holds water most strongly. Among Na<sup>+</sup>, K<sup>+</sup> and Cs<sup>+</sup>, the attraction weakens as the ion gets bigger.",
+  "x": [
+   "",
+   "Na⁺ is the smallest of the 1+ ions here, but ion–dipole strength depends on charge as well as size.",
+   "K⁺ is larger than Na⁺ and has only a 1+ charge, so water cannot get as close.",
+   "Cs⁺ is the largest ion here, so water sits farthest from its charge. Bigger ions attract water more weakly."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Methanol, CH<sub>3</sub>OH, mixes with water in all proportions, but only about 0.6 g of 1-hexanol, CH<sub>3</sub>(CH<sub>2</sub>)<sub>5</sub>OH, dissolves in 100 g of water. What best explains the difference?",
+  "c": [
+   "Its long nonpolar chain cannot hydrogen-bond and disrupts water's network",
+   "Its O–H group is less polar, so it cannot hydrogen-bond with water at all",
+   "Its larger molar mass makes it less soluble, as heavier molecules always are",
+   "It reacts with water to form a new compound, while methanol does not"
+  ],
+  "h": "Both alcohols have the same O–H group. Look at what else is attached to it.",
+  "w": "Each alcohol has one O–H group that hydrogen-bonds with water. In 1-hexanol, that group is attached to a six-carbon chain that is nonpolar; water must break some of its own hydrogen bonds to make room for the chain and gets little back, so solubility falls as the chain grows. The answer is that <b>the long nonpolar chain cannot hydrogen-bond and disrupts water's network</b>. The O–H group is about equally polar in both, and mass alone does not set solubility (sucrose is heavy and very soluble).",
+  "x": [
+   "",
+   "The O–H group is about equally polar in both alcohols, and both can hydrogen-bond with water.",
+   "Molar mass alone does not decide solubility. Sucrose is much heavier than hexanol and dissolves very well.",
+   "Neither alcohol reacts with water. The difference comes from the attractions between molecules."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Coastal cities have smaller daily and seasonal temperature changes than inland cities, because water has a large specific heat capacity (4.18 J g<sup>−1</sup> °C<sup>−1</sup>). At the molecular level, why is water's specific heat so large?",
+  "c": [
+   "Much of the heat goes into breaking hydrogen bonds, not into molecular motion",
+   "Water molecules are very heavy, so they need much more energy to move faster",
+   "Water has almost no attractions between its molecules to absorb energy",
+   "Absorbed heat breaks the covalent O–H bonds inside water molecules"
+  ],
+  "h": "Heat added to a liquid can either raise the molecules' kinetic energy or go into loosening the attractions between them.",
+  "w": "In liquid water, part of the absorbed energy is used to stretch and break the extensive network of hydrogen bonds between molecules, so less goes into raising their kinetic energy and the temperature rises slowly. The answer is that <b>much of the heat goes into breaking hydrogen bonds, not into molecular motion</b>. Water molecules are light (18 g mol<sup>−1</sup>), and warming liquid water does not break covalent O–H bonds.",
+  "x": [
+   "",
+   "Water molecules are actually light, at 18 g/mol. Mass is not the reason for the large specific heat.",
+   "Water has very strong attractions between its molecules. Those attractions are the key to its large specific heat.",
+   "Warming water does not break the covalent bonds inside its molecules. The energy acts on attractions between molecules."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ }
+]
