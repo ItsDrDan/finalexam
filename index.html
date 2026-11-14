@@ -54,7 +54,7 @@ button,input,select{font:inherit;color:inherit}.hidden{display:none!important}
 .fbmini{flex:0 0 124px;width:124px;text-align:center;padding-top:2px}.fbmini.hidden{display:none}.fbrow.empty{margin-top:14px}
 @media(max-width:700px){.fbmini{flex-basis:92px;width:92px}.fbrow{gap:8px}}
 @media(max-width:480px){.fbrow{flex-direction:column;align-items:stretch}.fbmini{flex:0 0 auto;width:auto;display:flex;align-items:center;gap:10px;text-align:left;padding-top:0}.fbmini svg{flex:0 0 60px;width:60px}.fb .nw,.hintbox .nw{white-space:normal}}
-.fb,.hintbox{overflow-wrap:break-word}.opt>span:last-child{min-width:0;overflow-wrap:anywhere}
+.fb,.hintbox{overflow-wrap:break-word}.fbnext{margin-top:14px}.fbnext .btn{width:100%}.opt>span:last-child{min-width:0;overflow-wrap:anywhere}
 @media(max-width:360px){.ftab{display:block;max-width:100%;overflow-x:auto}.prompt .nw,.opt .nw{white-space:normal}}body.calc-open .ddfb-float{display:none!important}
 .course{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
 .course button{min-height:44px;padding:6px 16px;border-radius:999px;border:2px solid #cfdbe6;background:#fff;font-weight:900;cursor:pointer}
@@ -1300,7 +1300,9 @@ function finish(revealed){state.done=true;const mine=state.fwId===state.q.id?sta
  else{const first=state.tries===0;state.correct++;state.streak=first?state.streak+1:0;if(first)record(q,true);if(first)confetti(18,true);fb('good',(first?'✅ Correct! ':'✅ Got it on a retry. ')+q.w+whyHTML(q,mine)+(first?'':`<br><small>Retries don't count as first-try correct.${vb}</small>`));award(!first)}
  if(state.mode==='quick'){const Q=state.quick;const ok=!revealed&&state.tries===0;if(ok)Q.score++;Q.res.push([q.id,ok]);Q.i++;if(Q.daily)dailyFinish(ok);$('newBtn').textContent=Q.i>=Q.list.length?'See Results 🏁':'Next ▸'}
  else $('newBtn').textContent='Next Question ▸';
+ $('fb').insertAdjacentHTML('beforeend',`<div class="fbnext"><button class="btn ${$('newBtn').className.replace(/\bbtn\b/,'').trim()}" type="button" onclick="fbNext()">${esc($('newBtn').textContent)}</button></div>`);
  stats();renderIntel();if(state.mode==='topic')topicChips()}
+function fbNext(){$('newBtn').click();const t=$('practice');if(t.getBoundingClientRect().top<0)t.scrollIntoView({block:'start'})}
 function check(){if(state.done)return;const q=state.q;if(state.sel==null)return fb('bad','Choose an answer first.');
  if(state.sel!==0){if(state.tries===0)record(q,false);state.tries++;state.streak=0;stats();$('qArea').querySelector(`.opt[data-k="${state.sel}"]`)?.classList.add('wrong');const why=q.x&&q.x[state.sel];if(state.fwId!==q.id){state.fwId=q.id;state.fwK=state.sel}state.sel=null;
   return fb('bad','🔎 Not quite. '+(why?why+'<br><small>💡 '+q.h+'</small>':q.h)+(state.tries>=2?' <br><small>Stuck? Press 👀 Show Answer to see the steps.</small>':''))}
