@@ -15,7 +15,7 @@ const TOPICS = {
   '3A': ['measure','atoms','electrons','matter','naming','moles','bonding','energy','gases','solutions','reactions','stoich','acids','equilibrium','nuclear'],
   '3B': ['structure','hydrocarbons','isomers','properties','aromatic','alcohols','carbonyls','chirality','acids_esters','amines','carbs','lipids','proteins','enzymes','nucleic','metabolism'],
   '1A': ['measure','atoms','composition','reactions','thermo','quantum','periodic','bonding','advanced','gases','liquids','solutions'],
-  '1B': ['kinetics','equilibrium','acidbase','buffers','solubility','thermo','electro','coordination','imf','nuclear'] };
+  '1B': ['kinetics','equilibrium','acidbase','buffers','solubility','thermo','electro','coordination','imf','colligative','nuclear'] };
 const FIG = ['table','eq','plot','mo','modiag','particles','cylinder','buret','ruler','balance','targets','cycle','path','fischer','haworth','orbitals','ptgrid','cell','spectrum','enzyme'];
 const TAG_OK = /^<\/?(b|i|sub|sup|br|em|strong|u|small)>$|^<span class="(nw|ss|ss pre)">$|^<\/span>$/;
 const MASS = {H:1.008,He:4.003,Li:6.941,Be:9.012,B:10.81,C:12.01,N:14.01,O:16.00,F:19.00,Ne:20.18,Na:22.99,Mg:24.31,Al:26.98,Si:28.09,P:30.97,S:32.07,Cl:35.45,Ar:39.95,K:39.10,Ca:40.08,Sc:44.96,Ti:47.88,V:50.94,Cr:52.00,Mn:54.94,Fe:55.85,Co:58.93,Ni:58.69,Cu:63.55,Zn:65.39,Ga:69.72,Ge:72.61,As:74.92,Se:78.96,Br:79.90,Kr:83.80,Rb:85.47,Sr:87.62,Zr:91.22,Mo:95.94,Ag:107.9,Cd:112.4,Sn:118.7,Sb:121.8,Te:127.6,I:126.9,Xe:131.3,Cs:132.9,Ba:137.3,W:183.8,Pt:195.1,Au:197.0,Hg:200.6,Pb:207.2,Bi:209.0,U:238.0};

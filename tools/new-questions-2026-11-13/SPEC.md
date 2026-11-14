@@ -18,7 +18,7 @@ Write a JSON array to the file named in your task. One object per question, thes
 {"t":"equilibrium","q":"...","c":["KEY","wrong 1","wrong 2","wrong 3"],"h":"...","w":"...","x":["","feedback for c[1]","feedback for c[2]","feedback for c[3]"],"k":0,"d":2,"f":[...optional figures...],"src":"acs-style"}
 ```
 
-- `t`: topic key. 1A: measure, atoms, composition, reactions, thermo, quantum, periodic, bonding, advanced, gases, liquids, solutions. 1B: kinetics, equilibrium, acidbase, buffers, solubility, thermo, electro, coordination, imf, nuclear.
+- `t`: topic key. 1A: measure, atoms, composition, reactions, thermo, quantum, periodic, bonding, advanced, gases, liquids, solutions. 1B: kinetics, equilibrium, acidbase, buffers, solubility, thermo, electro, coordination, imf, colligative, nuclear.
 - `q`: the stem. HTML allowed: `<sub>`, `<sup>`, `<b>`, `<br>`. Formulas as H<sub>2</sub>O, charges as SO<sub>4</sub><sup>2−</sup>, use the real minus sign − and arrow →, ⇌.
 - `c`: exactly 4 choices, **c[0] is always the correct answer** (the game shuffles them). Similar length and style; the key must not be the longest or most detailed choice. No "all of the above"/"none of the above". Never refer to positions or letters ("choice A", "the first answer"), because choices are shuffled.
 - `h`: hint shown before answering: one or two sentences, true, points to the idea, does not state the answer.

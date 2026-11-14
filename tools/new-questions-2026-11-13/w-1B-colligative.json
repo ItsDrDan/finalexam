@@ -1,0 +1,779 @@
+[
+ {
+  "t": "colligative",
+  "q": "A solution is 20.0% ethanol (C<sub>2</sub>H<sub>5</sub>OH, 46.07 g mol<sup>−1</sup>) by mass in water. What is the mole fraction of ethanol?",
+  "c": [
+   "0.0891",
+   "0.0978",
+   "0.200",
+   "0.911"
+  ],
+  "h": "Take 100.0 g of solution and convert each mass to moles. Mole fraction divides by the moles of everything in the solution.",
+  "w": "In 100.0 g there are 20.0 g ethanol (0.434 mol) and 80.0 g water (4.44 mol). X<sub>ethanol</sub> = 0.434/(0.434 + 4.44) = <b>0.0891</b>. 0.0978 divides by moles of water only, 0.200 is the mass fraction, and 0.911 is the mole fraction of water.",
+  "x": [
+   "",
+   "This divides ethanol moles by water moles only. The denominator must be the total moles of both substances.",
+   "This is the mass fraction. Mole fraction needs both masses changed to moles first.",
+   "This is the mole fraction of water, not of ethanol."
+  ],
+  "k": 1,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "A 250.0 g sample of well water contains 1.25 mg of arsenic. What is the arsenic concentration in parts per million (ppm) by mass?",
+  "c": [
+   "5.00 ppm",
+   "5.00×10<sup>3</sup> ppm",
+   "5.00×10<sup>−6</sup> ppm",
+   "5.00×10<sup>−3</sup> ppm"
+  ],
+  "h": "ppm = (mass of solute ÷ mass of sample) × 10<sup>6</sup>, with both masses in the same unit.",
+  "w": "1.25 mg = 1.25×10<sup>−3</sup> g, so (1.25×10<sup>−3</sup> g / 250.0 g) × 10<sup>6</sup> = <b>5.00 ppm</b>. 5.00×10<sup>3</sup> leaves the arsenic in mg while the water is in g, 5.00×10<sup>−6</sup> never multiplies by 10<sup>6</sup>, and 5.00×10<sup>−3</sup> uses 1 mg = 10<sup>−6</sup> g instead of 10<sup>−3</sup> g.",
+  "x": [
+   "",
+   "The arsenic mass was left in milligrams while the water is in grams. Put both in the same unit.",
+   "This is the mass fraction. Parts per million multiplies that fraction by one million.",
+   "This converts 1.25 mg as if 1 mg were 10⁻⁶ g. One milligram is 10⁻³ g."
+  ],
+  "k": 1,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "An antifreeze solution is 4.50 M ethylene glycol (C<sub>2</sub>H<sub>6</sub>O<sub>2</sub>, 62.07 g mol<sup>−1</sup>, a nonelectrolyte) in water and has a density of 1.05 g mL<sup>−1</sup>. What is its freezing point? (K<sub>f</sub> for water = 1.86 °C kg mol<sup>−1</sup>)",
+  "c": [
+   "−10.9 °C",
+   "−8.37 °C",
+   "−7.97 °C",
+   "−11.6 °C"
+  ],
+  "h": "ΔT<sub>f</sub> uses molality, not molarity. Use 1.000 L of solution, its density and the solute mass to find the kilograms of water.",
+  "w": "1.000 L of solution has mass 1050 g and holds 4.50 mol × 62.07 = 279 g glycol, so the water is 1050 − 279 = 771 g. Molality = 4.50/0.771 = 5.84 m and ΔT<sub>f</sub> = 1.86 × 5.84 = 10.9 °C, so the freezing point is <b>−10.9 °C</b>. −8.37 °C uses the molarity as if it were molality, −7.97 °C divides by the mass of the whole solution, and −11.6 °C subtracts the glycol from 1000 g instead of 1050 g.",
+  "x": [
+   "",
+   "This treats 4.50 M as 4.50 m. Molality needs kilograms of water, which is not the same as liters of solution.",
+   "This divides by the kilograms of the whole solution. Molality uses only the kilograms of solvent.",
+   "The solution mass is 1.000 L × 1.05 g/mL. Subtract the glycol from that mass, not from 1000 g."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "Benzene and toluene form a nearly ideal solution. At 25 °C the vapor pressure of pure benzene is 95.1 torr and that of pure toluene is 28.4 torr. A solution has a benzene mole fraction of 0.400. What is the mole fraction of benzene in the vapor above it?",
+  "c": [
+   "0.691",
+   "0.400",
+   "0.834",
+   "0.770"
+  ],
+  "h": "Use Raoult's law for each liquid, P<sub>i</sub> = X<sub>i</sub>P°<sub>i</sub>. The vapor mole fraction is each partial pressure divided by the total.",
+  "w": "P<sub>benzene</sub> = 0.400 × 95.1 = 38.0 torr and P<sub>toluene</sub> = 0.600 × 28.4 = 17.0 torr, total 55.1 torr. Y<sub>benzene</sub> = 38.0/55.1 = <b>0.691</b>. The vapor is richer than the liquid in the more volatile benzene, so 0.400 is wrong. 0.834 swaps the two liquid mole fractions, and 0.770 uses the pure vapor pressures without the composition.",
+  "x": [
+   "",
+   "The vapor does not have the same makeup as the liquid. The more volatile liquid is enriched in the vapor.",
+   "The 0.400 belongs to benzene and the 0.600 to toluene. Check which mole fraction goes with which pure vapor pressure.",
+   "This compares the pure vapor pressures only. Each must first be multiplied by its mole fraction in the liquid."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "25.0 g of Na<sub>2</sub>SO<sub>4</sub> (142.04 g mol<sup>−1</sup>) is dissolved in 400. g of water. Assuming complete dissociation, what is the normal boiling point of the solution? (K<sub>b</sub> for water = 0.512 °C kg mol<sup>−1</sup>)",
+  "c": [
+   "100.68 °C",
+   "100.23 °C",
+   "102.46 °C",
+   "99.32 °C"
+  ],
+  "h": "Find the molality, then use ΔT<sub>b</sub> = iK<sub>b</sub>m. How many ions does one Na<sub>2</sub>SO<sub>4</sub> release?",
+  "w": "Moles = 25.0/142.04 = 0.176 mol, so m = 0.176/0.400 kg = 0.440 m. With i = 3 (2 Na<sup>+</sup> + SO<sub>4</sub><sup>2−</sup>), ΔT<sub>b</sub> = 3 × 0.512 × 0.440 = 0.676 °C and the boiling point is <b>100.68 °C</b>. 100.23 °C leaves out i, 102.46 °C uses K<sub>f</sub> instead of K<sub>b</sub>, and 99.32 °C subtracts the change as if boiling point went down.",
+  "x": [
+   "",
+   "This uses i = 1. Sodium sulfate breaks into three ions per formula unit.",
+   "This uses the freezing point constant 1.86. Boiling point elevation uses Kb = 0.512.",
+   "A solute raises the boiling point. The change should be added to 100 °C."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "1.50 g of an unknown nonelectrolyte is dissolved in 25.0 g of benzene. Pure benzene freezes at 5.50 °C and the solution freezes at 3.85 °C. What is the molar mass of the solute? (K<sub>f</sub> for benzene = 5.12 °C kg mol<sup>−1</sup>)",
+  "c": [
+   "186 g mol<sup>−1</sup>",
+   "79.8 g mol<sup>−1</sup>",
+   "0.186 g mol<sup>−1</sup>",
+   "67.6 g mol<sup>−1</sup>"
+  ],
+  "h": "ΔT<sub>f</sub> is the difference between the two freezing points. From it get the molality, then moles = molality × kg of solvent.",
+  "w": "ΔT<sub>f</sub> = 5.50 − 3.85 = 1.65 °C, so m = 1.65/5.12 = 0.322 m. Moles = 0.322 × 0.0250 kg = 8.06×10<sup>−3</sup> mol, and M = 1.50 g / 8.06×10<sup>−3</sup> mol = <b>186 g mol<sup>−1</sup></b>. 79.8 uses 3.85 °C as ΔT<sub>f</sub>, 0.186 uses 25.0 instead of 0.0250 kg, and 67.6 uses K<sub>f</sub> of water.",
+  "x": [
+   "",
+   "3.85 °C is the freezing point of the solution, not the change. Subtract it from the freezing point of pure benzene.",
+   "Molality is per kilogram, so 25.0 g of benzene is 0.0250 kg.",
+   "The solvent is benzene, so use the Kf given for benzene, not the value for water."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "A 0.500 g sample of a nonelectrolyte polymer is dissolved in water to make 25.0 mL of solution. At 27 °C the osmotic pressure is 0.0410 atm. What is the molar mass of the polymer? (R = 0.08206 L atm mol<sup>−1</sup> K<sup>−1</sup>)",
+  "c": [
+   "1.20×10<sup>4</sup> g mol<sup>−1</sup>",
+   "1.08×10<sup>3</sup> g mol<sup>−1</sup>",
+   "12.0 g mol<sup>−1</sup>",
+   "3.00×10<sup>2</sup> g mol<sup>−1</sup>"
+  ],
+  "h": "Π = MRT gives the molarity. Multiply by the volume in liters to get moles, and remember T must be in kelvins.",
+  "w": "M = Π/RT = 0.0410/(0.08206 × 300.15) = 1.66×10<sup>−3</sup> mol L<sup>−1</sup>. Moles = 1.66×10<sup>−3</sup> × 0.0250 L = 4.16×10<sup>−5</sup> mol, so molar mass = 0.500/4.16×10<sup>−5</sup> = <b>1.20×10<sup>4</sup> g mol<sup>−1</sup></b>. 1.08×10<sup>3</sup> uses 27 instead of 300 K, 12.0 uses 25.0 L, and 3.00×10<sup>2</sup> treats the molarity as moles without the volume.",
+  "x": [
+   "",
+   "The temperature in the gas constant must be in kelvins, not degrees Celsius.",
+   "The volume must be in liters. 25.0 mL is 0.0250 L.",
+   "Π/RT gives moles per liter. Multiply by the solution volume before dividing it into the mass."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "A nonvolatile, nonelectrolyte solute is dissolved in water. Which statements are true?<br>I. The vapor pressure of the solution is lower than that of pure water at the same temperature.<br>II. The amount of vapor pressure lowering depends on the chemical identity of the solute, not just how many solute particles there are.<br>III. The vapor pressure of the solution is proportional to the mole fraction of water.",
+  "c": [
+   "I and III only",
+   "II and III only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "Colligative properties depend on the number of solute particles. Raoult's law is P<sub>solution</sub> = X<sub>solvent</sub>P°<sub>solvent</sub>.",
+  "w": "Solute particles lower the fraction of water molecules, so the vapor pressure drops (I true), and Raoult's law makes it proportional to X<sub>water</sub> (III true). Vapor pressure lowering is colligative, so it depends on the number of particles, not their identity (II false). The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement I is true. A dissolved solute always lowers the vapor pressure of the solvent.",
+   "Statement II is false. Vapor pressure lowering is colligative, so it depends on how many particles there are, not what they are.",
+   "Statement II is false. A colligative property does not depend on the identity of the solute."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "Which statements about osmosis are true?<br>I. A red blood cell placed in pure water swells because water moves into the cell.<br>II. At the same temperature, the osmotic pressure of 0.10 M NaCl is about twice that of 0.10 M glucose.<br>III. The osmotic pressure of a given solution increases as its temperature increases.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "I and III only",
+   "II only"
+  ],
+  "h": "Water moves across a membrane toward the side with more solute particles. Look at every term in Π = iMRT.",
+  "w": "The inside of a red blood cell has more dissolved particles than pure water, so water flows in and the cell swells (I true). NaCl gives i ≈ 2 and glucose i = 1, so Π is about twice as large (II true). Π = iMRT grows with T (III true). The answer is <b>I, II and III</b>.",
+  "x": [
+   "",
+   "Statement III is also true. T appears in Π = iMRT, so a warmer solution has a higher osmotic pressure.",
+   "Statement II is also true. NaCl releases two ions per formula unit, glucose stays as one molecule.",
+   "Statement I is also true. Pure water has no solute, so water moves into the more concentrated cell."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "The ideal van 't Hoff factor for NaCl is 2. Which statements about real NaCl solutions are true?<br>I. The measured van 't Hoff factor of 0.10 m NaCl is slightly less than 2.<br>II. Ion pairing is more extensive in more concentrated solutions.<br>III. Measured van 't Hoff factors are larger than the ideal values because water molecules also count as solute particles.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I and III only"
+  ],
+  "h": "In a real solution some cations and anions stay close together and move as one particle. When are ions closer to each other?",
+  "w": "Some Na<sup>+</sup> and Cl<sup>−</sup> ions are held together as ion pairs, so the solution acts as if it has fewer particles and the measured i is a little under 2 (I true). Ions are closer together in concentrated solutions, so pairing increases with concentration (II true). Statement III is false: solvent molecules are not solute particles, and measured i values are smaller than ideal, not larger. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is also true. In a more concentrated solution the ions are closer together and pair up more often.",
+   "Statement III is false. Water is the solvent and is not counted, and ion pairing makes measured i smaller than ideal.",
+   "Statement III is false. Ion pairing lowers the number of particles, so measured i falls below the ideal value."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "Which concentration units have values that do NOT change when the temperature of a solution changes?<br>I. Molality<br>II. Molarity<br>III. Mole fraction",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Mass and moles do not change with temperature, but the volume of a liquid does.",
+  "w": "Molality (mol solute per kg solvent) and mole fraction (mol per total mol) use only moles and masses, so they do not change with temperature. Molarity uses the volume of solution, which expands when heated, so molarity drops. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also temperature independent. Mole fraction uses only moles, which do not change with temperature.",
+   "Statement II is false. Molarity uses solution volume, and a liquid expands when it is warmed.",
+   "Statement II is false. Molarity depends on volume, and volume changes with temperature."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "The box shows a solution of a volatile solvent (red) and a nonvolatile, nonelectrolyte solute (blue). At this temperature the vapor pressure of the pure solvent is 80.0 torr. Assuming ideal behavior, what is the vapor pressure of the solution?",
+  "c": [
+   "64.0 torr",
+   "16.0 torr",
+   "60.0 torr",
+   "80.0 torr"
+  ],
+  "h": "Count both kinds of particles and find the mole fraction of the solvent. Then use Raoult's law.",
+  "w": "There are 16 solvent and 4 solute molecules, so X<sub>solvent</sub> = 16/20 = 0.800 and P = 0.800 × 80.0 torr = <b>64.0 torr</b>. 16.0 torr uses the solute's mole fraction, 60.0 torr uses the ratio 4/16 instead of a mole fraction, and 80.0 torr ignores the solute.",
+  "x": [
+   "",
+   "This uses the solute mole fraction. Raoult's law uses the mole fraction of the solvent.",
+   "4/16 is a ratio of solute to solvent, not a mole fraction. A mole fraction divides by the total count.",
+   "A nonvolatile solute still lowers the solvent's vapor pressure."
+  ],
+  "k": 1,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 21,
+    "key": {
+     "A": {
+      "c": "#e0675a",
+      "n": "solvent molecule"
+     },
+     "B": {
+      "c": "#3b82b4",
+      "n": "solute molecule",
+      "r": 13
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Solution",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "Six formula units of MgSO<sub>4</sub> are dissolved in water. The box shows the result: some ions are free and some are held together as ion pairs (drawn touching). Based on the drawing, what van 't Hoff factor would this solution show?",
+  "c": [
+   "1.67",
+   "2.00",
+   "1.33",
+   "0.833"
+  ],
+  "h": "Every separate particle counts, and an ion pair moves as one particle. Divide the number of particles by the formula units dissolved.",
+  "w": "The box has 4 free Mg<sup>2+</sup>, 4 free SO<sub>4</sub><sup>2−</sup> and 2 ion pairs, so 10 particles came from 6 formula units: i = 10/6 = <b>1.67</b>. 2.00 is the ideal value that counts each paired ion separately, 1.33 leaves out the ion pairs, and 0.833 divides particles by the number of ions instead of formula units.",
+  "x": [
+   "",
+   "This counts each ion in a pair as its own particle. An ion pair moves through the solution as one particle.",
+   "The ion pairs are still dissolved particles and must be counted too.",
+   "The van 't Hoff factor divides particles by formula units dissolved, not by the number of ions."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 34,
+    "key": {
+     "Mg": {
+      "c": "#9b7fd1",
+      "n": "Mg²⁺",
+      "q": "+"
+     },
+     "S": {
+      "c": "#f2c14e",
+      "n": "SO₄²⁻",
+      "q": "−",
+      "r": 13
+     }
+    },
+    "boxes": [
+     {
+      "cap": "MgSO₄(aq)",
+      "water": true,
+      "mols": [
+       [
+        "Mg"
+       ],
+       [
+        "S"
+       ],
+       [
+        "Mg"
+       ],
+       [
+        "S",
+        "Mg"
+       ],
+       [
+        "S"
+       ],
+       [
+        "Mg"
+       ],
+       [
+        "S"
+       ],
+       [
+        "Mg"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S",
+        "Mg"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "Each box shows all the solute particles dissolved in the same mass of water (water not shown). Box I holds the salt MX, box II holds the molecular compound RY, and box III holds the salt CX<sub>2</sub>. Which lists the solutions in order of INCREASING boiling point?",
+  "c": [
+   "I &lt; II &lt; III",
+   "I = III &lt; II",
+   "I &lt; III &lt; II",
+   "III &lt; II &lt; I"
+  ],
+  "h": "Boiling point elevation depends on the number of separate dissolved particles. A molecule that stays together is one particle.",
+  "w": "Box I has 4 M<sup>+</sup> + 4 X<sup>−</sup> = 8 particles, box II has 9 RY molecules = 9 particles, and box III has 4 C<sup>2+</sup> + 8 X<sup>−</sup> = 12 particles. More particles give a higher boiling point, so <b>I &lt; II &lt; III</b>. I = III &lt; II counts formula units instead of particles, I &lt; III &lt; II counts each atom of RY as a particle, and III &lt; II &lt; I has the trend backward.",
+  "x": [
+   "",
+   "This counts formula units. The salts break into separate ions, and each ion is its own particle.",
+   "Each RY molecule moves as one particle. Its two atoms stay bonded together.",
+   "More dissolved particles raise the boiling point, not lower it."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 47,
+    "key": {
+     "M": {
+      "c": "#9b7fd1",
+      "n": "M⁺",
+      "q": "+"
+     },
+     "X": {
+      "c": "#5aa469",
+      "n": "X⁻",
+      "q": "−"
+     },
+     "C": {
+      "c": "#f2c14e",
+      "n": "C²⁺",
+      "q": "+"
+     },
+     "R": {
+      "c": "#e0675a",
+      "n": "R"
+     },
+     "Y": {
+      "c": "#3b82b4",
+      "n": "Y"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "water": true,
+      "mols": [
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "M"
+       ],
+       [
+        "X"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "water": true,
+      "mols": [
+       [
+        "R",
+        "Y"
+       ],
+       [
+        "R",
+        "Y"
+       ],
+       [
+        "R",
+        "Y"
+       ],
+       [
+        "R",
+        "Y"
+       ],
+       [
+        "R",
+        "Y"
+       ],
+       [
+        "R",
+        "Y"
+       ],
+       [
+        "R",
+        "Y"
+       ],
+       [
+        "R",
+        "Y"
+       ],
+       [
+        "R",
+        "Y"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "water": true,
+      "mols": [
+       [
+        "C"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "C"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "C"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "C"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "Two aqueous solutions of equal volume are separated by a membrane that lets only water pass. The boxes show all the solute particles on each side (water not shown), and both sides have the same volume. What happens?",
+  "c": [
+   "Water moves from side A into side B.",
+   "Water moves from side B into side A.",
+   "No water moves, because the volumes are equal.",
+   "Na<sup>+</sup> and Cl<sup>−</sup> ions move from side B into side A."
+  ],
+  "h": "Count separate dissolved particles on each side. Water moves toward the side with more of them.",
+  "w": "Side A has 4 glucose molecules and side B has 3 Na<sup>+</sup> + 3 Cl<sup>−</sup> = 6 particles. Water moves toward the higher particle concentration, so <b>water moves from side A into side B</b>. Counting only 3 NaCl units would reverse the direction, equal volumes do not mean equal concentrations, and the membrane does not let ions through.",
+  "x": [
+   "",
+   "This counts 3 NaCl units. Each NaCl gives two separate ions, so count the ions.",
+   "Equal volumes do not stop osmosis. The two sides have different numbers of solute particles.",
+   "The membrane lets only water pass, so the ions cannot cross."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 58,
+    "key": {
+     "G": {
+      "c": "#f2c14e",
+      "n": "glucose",
+      "r": 13
+     },
+     "Na": {
+      "c": "#9b7fd1",
+      "n": "Na⁺",
+      "q": "+"
+     },
+     "Cl": {
+      "c": "#5aa469",
+      "n": "Cl⁻",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Side A (volume V)",
+      "water": true,
+      "mols": [
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ]
+      ]
+     },
+     {
+      "cap": "Side B (volume V)",
+      "water": true,
+      "mols": [
+       [
+        "Na"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Cl"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "Assume the ionic solutes dissociate completely. Which lists these aqueous solutions in order of INCREASING boiling point?<br>0.15 m CaCl<sub>2</sub> &nbsp; 0.25 m NaCl &nbsp; 0.40 m sucrose",
+  "c": [
+   "sucrose &lt; CaCl<sub>2</sub> &lt; NaCl",
+   "CaCl<sub>2</sub> &lt; NaCl &lt; sucrose",
+   "NaCl &lt; CaCl<sub>2</sub> &lt; sucrose",
+   "CaCl<sub>2</sub> &lt; sucrose &lt; NaCl"
+  ],
+  "h": "Multiply each molality by its van 't Hoff factor i to get the total molality of particles.",
+  "w": "Particle molalities: CaCl<sub>2</sub> 3 × 0.15 = 0.45 m, NaCl 2 × 0.25 = 0.50 m, sucrose 1 × 0.40 = 0.40 m. The boiling point rises with particle molality, so <b>sucrose &lt; CaCl<sub>2</sub> &lt; NaCl</b>. Ranking by the molalities alone gives CaCl<sub>2</sub> &lt; NaCl &lt; sucrose, and using i = 2 for CaCl<sub>2</sub> puts it lowest.",
+  "x": [
+   "",
+   "This ranks by molality alone and ignores the ions each salt releases.",
+   "This has the trend backward. More particles raise the boiling point.",
+   "CaCl₂ gives one Ca²⁺ and two Cl⁻, which is three particles per formula unit."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "The measured van 't Hoff factor of 0.050 m MgSO<sub>4</sub> is about 1.3, while that of 0.050 m NaCl is about 1.9. What best explains why MgSO<sub>4</sub> falls so much further below its ideal value of 2?",
+  "c": [
+   "The 2+ and 2− ions attract more strongly, so more of them form ion pairs.",
+   "MgSO<sub>4</sub> is a molecular compound, so most of it dissolves as whole molecules without forming ions.",
+   "Each SO<sub>4</sub><sup>2−</sup> ion splits into separate S and O particles in water.",
+   "Mg<sup>2+</sup> ions are larger than Na<sup>+</sup> ions, so they move more slowly through the water."
+  ],
+  "h": "The attraction between two ions grows with the size of their charges. How would stronger attraction change the number of separate particles?",
+  "w": "The 2+ and 2− ions attract each other much more strongly than 1+ and 1− ions (the attraction grows with the product of the charges), so many more of them stay together as ion pairs. Each pair counts as one particle, so <b>the larger charges cause more ion pairing</b> and a smaller measured i. MgSO<sub>4</sub> is ionic, sulfate stays intact in water, and the speed of the ions does not change how many particles there are.",
+  "x": [
+   "",
+   "MgSO₄ is an ionic compound made of Mg²⁺ and SO₄²⁻ ions.",
+   "Sulfate is a polyatomic ion held together by covalent bonds, and it stays intact in water.",
+   "Colligative properties depend on how many particles there are, not how fast they move. Mg²⁺ is also smaller than Na⁺."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "A mixture of acetone and chloroform has a lower vapor pressure than Raoult's law predicts for an ideal solution. What does this tell you about the intermolecular attractions?",
+  "c": [
+   "Acetone–chloroform attractions are stronger than those within either pure liquid.",
+   "Acetone–chloroform attractions are weaker than those within either pure liquid.",
+   "All three kinds of attraction are equal, as in an ideal solution.",
+   "The two liquids react to form a nonvolatile product, so the deviation is not caused by attractions."
+  ],
+  "h": "Molecules escape into the vapor more easily when they are held less tightly. What makes them escape less than predicted?",
+  "w": "A vapor pressure below the Raoult's law value means molecules escape less easily in the mixture than in the pure liquids, so the <b>acetone–chloroform attractions are stronger</b> than the attractions in the pure liquids (a hydrogen-bond-like attraction forms between the two kinds of molecules). Weaker mixed attractions would raise the vapor pressure above the ideal value, and equal attractions give ideal behavior with no deviation.",
+  "x": [
+   "",
+   "Weaker attractions in the mixture would let molecules escape more easily, giving a vapor pressure above the Raoult's law value.",
+   "Equal attractions describe an ideal solution, which would follow Raoult's law with no deviation.",
+   "Acetone and chloroform mix without reacting. The deviation comes from the forces between their molecules."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "A nonvolatile solute is dissolved in water. On the phase diagram of the solution compared with pure water, how do the liquid–vapor and solid–liquid lines shift at 1 atm?",
+  "c": [
+   "The liquid–vapor line shifts to higher temperature and the solid–liquid line shifts to lower temperature.",
+   "Both lines shift to higher temperature.",
+   "Both lines shift to lower temperature.",
+   "The liquid–vapor line shifts to lower temperature and the solid–liquid line shifts to higher temperature."
+  ],
+  "h": "A solute lowers the vapor pressure of the liquid. Think about what that does to the boiling point and to the freezing point.",
+  "w": "With a lower vapor pressure, the solution must be heated to a higher temperature to reach 1 atm, so the boiling point rises. The liquid is also stabilized relative to the solid, so the freezing point falls. The <b>liquid–vapor line moves to higher temperature and the solid–liquid line moves to lower temperature</b>, widening the liquid range.",
+  "x": [
+   "",
+   "A solute does not move both lines in the same direction. Think about the boiling point and the freezing point separately.",
+   "A solute does not move both lines in the same direction. Does a lower vapor pressure make boiling easier or harder?",
+   "Check the boiling point first. With a lower vapor pressure, does the solution need more or less heating to reach 1 atm?"
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "Blood plasma behaves as if it holds about 0.30 mol of dissolved particles per liter. Assume that every ionic solute breaks apart completely into its ions, and that glucose stays as whole molecules. Which IV (intravenous) solution is isotonic with blood, meaning it has the same total concentration of dissolved particles?",
+  "c": [
+   "0.15 M NaCl",
+   "0.30 M NaCl",
+   "0.15 M glucose",
+   "0.30 M CaCl<sub>2</sub>"
+  ],
+  "h": "Isotonic solutions have the same total concentration of dissolved particles. Multiply each molarity by its van 't Hoff factor.",
+  "w": "NaCl gives 2 ions, so 0.15 M NaCl has 2 × 0.15 = 0.30 M particles: <b>0.15 M NaCl</b> is isotonic. 0.30 M NaCl has 0.60 M particles, 0.15 M glucose has only 0.15 M, and 0.30 M CaCl<sub>2</sub> has 0.90 M particles.",
+  "x": [
+   "",
+   "NaCl releases two ions per formula unit, so this solution has twice the particle concentration of blood.",
+   "Glucose does not dissociate, so this solution has only half the particle concentration of blood.",
+   "CaCl₂ releases three ions per formula unit, which makes this solution far more concentrated in particles than blood."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ }
+]
