@@ -1,0 +1,810 @@
+[
+ {
+  "id": "3A-9",
+  "field": "x[3]",
+  "old": "The digits are right, but kelvins are never negative. Check your sign when you add 273.",
+  "new": "This drops the negative sign and computes 196 − 273. Kelvin temperatures are never negative.",
+  "why": "'The digits are right' tells the student the answer is 77 K. The value −77 comes from 196 − 273 (sign dropped, then subtracting the wrong way).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-22",
+  "field": "x[3]",
+  "old": "This divides one mass by the other. Set up a weighted average: 10.01x + 11.01(1 − x) = 10.81.",
+  "new": "This divides the boron-10 mass by the average atomic mass. Set up a weighted average: 10.01x + 11.01(1 − x) = 10.81.",
+  "why": "92.6% is 10.01/10.81 = 0.926 (boron-10 mass divided by the average atomic mass), not one isotope mass divided by the other (10.01/11.01 = 0.909, 10.81/11.01 = 0.982).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-56",
+  "field": "x[3]",
+  "old": "12 is the O per formula unit, but you still need to multiply by 0.500 mol.",
+  "new": "12 is the O per formula unit, not the moles of O in this sample. Account for how much compound you have.",
+  "why": "Feedback gives the final calculation (12 × 0.500 mol = 6.00 mol).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-63",
+  "field": "x[3]",
+  "old": "This multiplies by 2 instead of 0.5. 3.01×10²³ is half of Avogadro's number.",
+  "new": "This multiplies by 2 instead of dividing by Avogadro's number. Compare 3.01×10²³ with 6.022×10²³.",
+  "why": "Feedback gives the final calculation (0.5 × 44.0 g = 22.0 g).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-64",
+  "field": "x[3]",
+  "old": "0.757 is the moles of N. Multiply by 14.01 g/mol to get grams.",
+  "new": "0.757 is the moles of N, not the mass. Convert moles of N to grams.",
+  "why": "Feedback gives the final calculation (0.757 × 14.01 = 10.6 g).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-80",
+  "field": "x[2]",
+  "old": "5.0 °C is only the change in temperature. Add it to the starting temperature.",
+  "new": "5.0 °C is only the change in temperature, not the final temperature. Use the starting temperature too.",
+  "why": "Feedback gives the final calculation (20.0 + 5.0 = 25.0 °C).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-92",
+  "field": "x[2]",
+  "old": "Halving the pressure doubles the volume, and the temperature rise adds more. Redo it with kelvins.",
+  "new": "This flips the temperature ratio. A temperature rise makes the volume larger, not smaller.",
+  "why": "3.00 L comes from flipping the temperature ratio: 2.00 × 2 × (300.15/400.15) = 3.00. Using Celsius gives 2.00 × 2 × 127/27 = 18.8 L, so 'Redo it with kelvins' misstates the mistake.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-108",
+  "field": "x[2]",
+  "old": "150 is only M₂V₂. You still need to divide by 12.0 M.",
+  "new": "150 is only M₂V₂, which is not a volume yet. Finish solving M₁V₁ = M₂V₂ for V₁.",
+  "why": "Feedback gives the final calculation (150 ÷ 12.0 = 12.5 mL).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-237",
+  "field": "x[3]",
+  "old": "This fraction doesn't match the O₂ molecules. Use O₂ molecules ÷ total molecules.",
+  "new": "450. mmHg uses the 6 N₂ molecules. Count only the O₂ molecules over the total.",
+  "why": "Feedback for 450. mmHg names no mistake. 450 = (6/10)(750), the N2 share (6 of 10 molecules).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-279",
+  "field": "x[3]",
+  "old": "This uses only calcium's mass (40.08 g/mol). Use the molar mass of the whole CaCO₃.",
+  "new": "This uses only calcium's mass (40.08 g/mol) and stops at formula units. Use the molar mass of the whole CaCO₃ and count 3 O atoms per unit.",
+  "why": "Using only Ca's mass (1.25/40.08 × 6.022×10²³ × 3) gives 5.63×10²²; 1.88×10²² comes from Ca's mass AND skipping the ×3 for O atoms (1.25/40.08 × 6.022×10²³ = 1.878×10²²).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-356",
+  "field": "x[2]",
+  "old": "This is four half-lives. 330 min is three.",
+  "new": "2.50 mg is four half-lives. Recount how many 110 min half-lives fit in 5.5 h.",
+  "why": "Feedback for 2.50 mg says '330 min is three', which hands over the half-life count that solves the problem.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-361",
+  "field": "x[2]",
+  "old": "Count the particles again. Box II has 3 times as many.",
+  "new": "Count the particles in each box again and compare the two counts.",
+  "why": "Feedback for 0.60 M says 'Box II has 3 times as many', which gives the factor that yields the keyed 0.30 M.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-364",
+  "field": "x[1]",
+  "old": "This flips the volume ratio. Dilution lowers the concentration.",
+  "new": "This puts V₂ over M₁V₁, which is upside down. Solve M₁V₁ = M₂V₂ for M₂ again.",
+  "why": "Flipping the volume ratio gives (12.0)(240.)/(10.0) = 288 M, not 2.00 M. 2.00 M is the reciprocal of the whole expression: V2/(M1V1) = 240./(12.0 × 10.0) = 2.00.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-364",
+  "field": "w",
+  "old": "M<sub>2</sub> = M<sub>1</sub>V<sub>1</sub>/V<sub>2</sub> = (12.0 M)(10.0 mL)/(240. mL) = <b>0.500 M</b>. Inverting the volume ratio gives 2.00 M; 0.522 M comes from using 230 mL (subtracting the acid volume) as the final volume, but 240. mL is already the total.",
+  "new": "M<sub>2</sub> = M<sub>1</sub>V<sub>1</sub>/V<sub>2</sub> = (12.0 M)(10.0 mL)/(240. mL) = <b>0.500 M</b>. Putting V2 over M1V1 (upside down) gives 2.00 M; 0.522 M comes from using 230 mL (subtracting the acid volume) as the final volume, but 240. mL is already the total.",
+  "why": "Inverting the volume ratio gives 288 M; 2.00 M comes from V2/(M1V1).",
+  "cat": "explanation"
+ },
+ {
+  "id": "3A-371",
+  "field": "w",
+  "old": "P<sub>CO<sub>2</sub></sub> = 760 − 573 − 100 − 47 = <b>40 mmHg</b>. Forgetting to subtract the water vapor gives 87 mmHg; 720 mmHg is the total minus only the CO<sub>2</sub> answer and makes no physical sense for a minor gas.",
+  "new": "P<sub>CO<sub>2</sub></sub> = 760 − 573 − 100 − 47 = <b>40 mmHg</b>. Forgetting to subtract the water vapor gives 87 mmHg; 720 mmHg is the sum of the known gases, not what is left of the total.",
+  "why": "720 mmHg is more plausibly explained as the sum of the known gases (573 + 100 + 47 = 720) than as 'the total minus the CO2 answer', which a student could not compute without the answer.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3A-372",
+  "field": "x[3]",
+  "old": "1000 times is for 3 pH units. These differ by 4.",
+  "new": "1000 times would mean the pH values differ by 3. Recheck the difference between the two bars.",
+  "why": "Feedback for 1000 times says 'These differ by 4', which gives the exponent of the keyed answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-380",
+  "field": "c[1]",
+  "old": "6.66 g",
+  "new": "6.65 g",
+  "why": "Using the 26.6% oxygen bar gives 25.0 × 0.266 = 6.65 g, not 6.66 g (6.66 only comes from the true 26.64%, which the graph does not show).",
+  "cat": "value"
+ },
+ {
+  "id": "3A-380",
+  "field": "w",
+  "old": "Nitrogen is 46.7 % of urea by mass: (25.0 g)(0.467) = <b>11.7 g</b>. 6.66 g uses the oxygen bar, 5.00 g the carbon bar, and 46.7 g reports the percent as if it were grams.",
+  "new": "Nitrogen is 46.7 % of urea by mass: (25.0 g)(0.467) = <b>11.7 g</b>. 6.65 g uses the oxygen bar, 5.00 g the carbon bar, and 46.7 g reports the percent as if it were grams.",
+  "why": "Same value in the explanation: the 26.6% bar gives 6.65 g.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-177",
+  "field": "w",
+  "old": "16 C → 8 acetyl CoA from 7 cycles. 8 × 10 = 80; 7 NADH × 2.5 = 17.5; 7 FADH<sub>2</sub> × 1.5 = 10.5; activation −2. Net = 80 + 17.5 + 10.5 − 2 = <b>106 ATP</b>. 108 forgets the activation cost; 110 uses 8 cycles instead of 7; 129 uses the older values of 3 ATP per NADH and 2 per FADH<sub>2</sub>.",
+  "new": "16 C → 8 acetyl CoA from 7 cycles. 8 × 10 = 80; 7 NADH × 2.5 = 17.5; 7 FADH<sub>2</sub> × 1.5 = 10.5; activation −2. Net = 80 + 17.5 + 10.5 − 2 = <b>106 ATP</b>. 108 forgets the activation cost; 110 uses 8 cycles instead of 7; 129 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH<sub>2</sub>.",
+  "why": "129 requires 12 ATP per acetyl CoA as well: 8(12) + 7(3) + 7(2) − 2 = 129. With only 3 per NADH and 2 per FADH2 (acetyl CoA at 10) the total is 113. Feedback 3 states it correctly; the explanation omits the 12.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-317",
+  "field": "w",
+  "old": "24 C → 12 acetyl CoA × 10 = 120 ATP. Cycles = 11 → 11 NADH × 2.5 + 11 FADH<sub>2</sub> × 1.5 = 44 ATP. Total = 120 + 44 − 2 = <b>162 ATP</b>. 164 forgets the activation cost; 166 uses 12 cycles instead of 11; 197 uses the older values of 3 ATP per NADH and 2 per FADH<sub>2</sub>.",
+  "new": "24 C → 12 acetyl CoA × 10 = 120 ATP. Cycles = 11 → 11 NADH × 2.5 + 11 FADH<sub>2</sub> × 1.5 = 44 ATP. Total = 120 + 44 − 2 = <b>162 ATP</b>. 164 forgets the activation cost; 166 uses 12 cycles instead of 11; 197 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH<sub>2</sub>.",
+  "why": "197 requires 12 ATP per acetyl CoA as well: 12(12) + 11(3) + 11(2) − 2 = 197. With acetyl CoA at 10 the older NADH/FADH2 values give 173. Feedback 3 states it correctly; the explanation omits the 12.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-417",
+  "field": "x[2]",
+  "old": "The chiral count is right, but stereoisomers = 2<sup>n</sup>, not 2 × n. Recalculate 2<sup>3</sup>.",
+  "new": "The chiral count is right, but the number of stereoisomers is 2 raised to the power n, not 2 × n.",
+  "why": "'Recalculate 2^3' states the final calculation for the keyed answer, and uses ^.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-426",
+  "field": "x[3]",
+  "old": "9.00 g is half the expected amount, as if only half a glucose formed per sucrose. Check the 1 : 1 ratio in the hydrolysis equation.",
+  "new": "9.00 g assumes only half a glucose forms per sucrose. Check the 1 : 1 ratio in the hydrolysis equation.",
+  "why": "Feedback for 9.00 g says it 'is half the expected amount', which tells how far the pick is from the keyed value.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-467",
+  "field": "x[2]",
+  "old": "36 is an older total based on 3 ATP per NADH and 2 per FADH<sub>2</sub>. Use 2.5 and 1.5 from the table.",
+  "new": "36 is an older total that uses 3 ATP per NADH and 2 per FADH2 but counts each glycolysis NADH as only 2 ATP. Use 2.5 and 1.5 from the table for every carrier.",
+  "why": "Using 3 ATP per NADH and 2 per FADH2 gives 10×3 + 2×2 + 4 = 38, not 36. 36 comes from those older values with the two glycolysis NADH counted at only 2 ATP each (2×2 + 8×3 + 4 + 4 = 36). Feedbacks 2 and 3 now give the same reason for two different numbers.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-467",
+  "field": "w",
+  "old": "NADH: 2 + 2 + 6 = 10 × 2.5 = 25; FADH<sub>2</sub>: 2 × 1.5 = 3; ATP + GTP made directly: 2 + 2 = 4. Total = <b>32 ATP</b>. 34 counts the 4 ATP made in glycolysis without subtracting the 2 invested; 36 and 38 come from the older 3 ATP/NADH and 2 ATP/FADH<sub>2</sub> values.",
+  "new": "NADH: 2 + 2 + 6 = 10 × 2.5 = 25; FADH<sub>2</sub>: 2 × 1.5 = 3; ATP + GTP made directly: 2 + 2 = 4. Total = <b>32 ATP</b>. 34 counts the 4 ATP made in glycolysis without subtracting the 2 invested; 38 comes from the older 3 ATP/NADH and 2 ATP/FADH<sub>2</sub> values, and 36 uses those values but counts each glycolysis NADH as only 2 ATP.",
+  "why": "The older 3/2 values give 38; 36 also needs the glycolysis NADH at 2 ATP each.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-475",
+  "field": "x[3]",
+  "old": "One turn makes only 1 FADH<sub>2</sub> and 1 GTP, so two turns give 2 of each.",
+  "new": "Count again how many FADH₂ and GTP the wheel releases in a single turn before doubling for two turns.",
+  "why": "Distractor 3 already shows 6 NADH and 4 CO2, so saying two turns give 2 FADH2 and 2 GTP hands over the whole keyed answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-482",
+  "field": "x[3]",
+  "old": "3 ATP is the net yield for only 1.5 glucose. Multiply the net per-glucose yield by 3.",
+  "new": "3 ATP uses a net of only 1 ATP per glucose. Recount the ATP made and spent in the pathway for one glucose, then multiply by 3.",
+  "why": "'Net yield for only 1.5 glucose' is arithmetically true (1.5 × 2 = 3) but names no mistake a student makes and hints the per-glucose value. The likely slip is a net of 1 ATP per glucose (3 × 1 = 3).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-488",
+  "field": "x[3]",
+  "old": "95 uses the older values of 3 ATP per NADH and 2 per FADH<sub>2</sub>. Use the values in the table.",
+  "new": "95 uses the older values throughout: 3 ATP per NADH, 2 per FADH₂ and 12 per acetyl CoA. Use the values in the table.",
+  "why": "Using 3 ATP per NADH and 2 per FADH2 with the table's 10 ATP per acetyl CoA gives 60 + 15 + 10 − 2 = 83, not 95. 95 needs the older values throughout, including 12 ATP per acetyl CoA: 72 + 15 + 10 − 2 = 95.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-488",
+  "field": "w",
+  "old": "6 acetyl CoA × 10 = 60; 5 turns → 5 NADH × 2.5 = 12.5 and 5 FADH<sub>2</sub> × 1.5 = 7.5. Total 60 + 12.5 + 7.5 − 2 = <b>78 ATP</b>. 80 forgets the 2-ATP activation cost; 82 uses 6 turns instead of 5; 95 uses the older values of 3 ATP per NADH and 2 per FADH<sub>2</sub>.",
+  "new": "6 acetyl CoA × 10 = 60; 5 turns → 5 NADH × 2.5 = 12.5 and 5 FADH<sub>2</sub> × 1.5 = 7.5. Total 60 + 12.5 + 7.5 − 2 = <b>78 ATP</b>. 80 forgets the 2-ATP activation cost; 82 uses 6 turns instead of 5; 95 uses the older values throughout (3 ATP per NADH, 2 per FADH<sub>2</sub> and 12 per acetyl CoA).",
+  "why": "The 3/2 values alone give 83; 95 also needs 12 ATP per acetyl CoA.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-896",
+  "field": "x[2]",
+  "old": "160.21 counts too many H atoms (16). Each ring corner holds just one H, and the CH<sub>3</sub> and OH add four more.",
+  "new": "160.21 counts too many H atoms. Recount: each ring corner with no group carries one H, then add the H atoms on the methyl and hydroxyl groups.",
+  "why": "'Each ring corner holds just one H, and the CH3 and OH add four more' lets the student add 4 + 4 = 8 H, giving away the H count of the keyed formula.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-7",
+  "field": "x[2]",
+  "old": "20.0 ÷ 8.00 = 2.5, not 2.",
+  "new": "2 : 1 rounds the oxygen ratio to the nearest whole number. Find the smallest whole numbers that express the ratio exactly.",
+  "why": "States the final calculation and its value (20.0 ÷ 8.00 = 2.5).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-7",
+  "field": "x[3]",
+  "old": "Compare the oxygen masses for the same nitrogen mass: 20.0 ÷ 8.00.",
+  "new": "4 : 1 does not match the data. Compare the masses of oxygen that combine with the same 7.00 g of nitrogen.",
+  "why": "Gives the final calculation (20.0 ÷ 8.00) and names no mistake that yields 4 : 1.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-13",
+  "field": "x[3]",
+  "old": "This doesn't weight each mass by its abundance.",
+  "new": "64.00 averages the mass numbers 63 and 65. Use each isotope's actual mass from the table, weighted by its abundance.",
+  "why": "Not weighting by abundance gives the simple average 63.93, which is distractor 1. 64.00 is the average of the mass numbers 63 and 65.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-30",
+  "field": "x[1]",
+  "old": "0.287 M is the K₂SO₄ concentration. Each unit gives 2 K⁺.",
+  "new": "0.287 M is the K₂SO₄ concentration. Count how many K⁺ ions each formula unit releases.",
+  "why": "Feedback names 0.287 M as the salt concentration and says each unit gives 2 K+, which hands over the final step (0.287 × 2).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-50",
+  "field": "x[3]",
+  "old": "Recheck how much O₂ the Mg actually consumes, using the 2 : 1 mole ratio of Mg to O₂, before finding what is left.",
+  "new": "Recheck the molar mass you used for the leftover oxygen. Each O₂ molecule is 32.00 g/mol, not 16.00.",
+  "why": "0.68 g does not come from a Mg:O2 ratio error (a 1:1 ratio needs more O2 than is present; a 4:1 ratio leaves 2.68 g). It comes from the correct leftover moles of O2 (0.125 − 0.0823 = 0.0427 mol) multiplied by 16.00 g/mol, the mass of O atoms rather than O2 molecules (0.684 g).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-51",
+  "field": "x[2]",
+  "old": "This flips the volume ratio.",
+  "new": "This flips the volume ratio and also skips the 2 : 1 mole ratio. Find moles of NaOH from its own volume first.",
+  "why": "0.07716 M = 0.1000 × 25.00/32.40, which flips the volume ratio AND skips the 2:1 ratio; flipping the volumes alone with the ½ gives 0.03858 M.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-51",
+  "field": "w",
+  "old": "mol NaOH = 0.03240 L × 0.1000 M = 0.003240; mol H₂SO₄ = ½ × that = 0.001620; ÷ 0.02500 L = <b>0.06480 M</b>. Ignoring the 2 : 1 ratio gives 0.1296 M. 0.2592 M multiplies by 2 instead of dividing; 0.07716 M inverts the volume ratio.",
+  "new": "mol NaOH = 0.03240 L × 0.1000 M = 0.003240; mol H₂SO₄ = ½ × that = 0.001620; ÷ 0.02500 L = <b>0.06480 M</b>. Ignoring the 2 : 1 ratio gives 0.1296 M. 0.2592 M multiplies by 2 instead of dividing; 0.07716 M inverts the volume ratio and also ignores the 2 : 1 ratio.",
+  "why": "Explanation named the wrong mistake for a distractor.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-57",
+  "field": "x[3]",
+  "old": "Recheck ΔT: 85.0 − 22.0 = 63.0 °C.",
+  "new": "This leaves out the specific heat of water. q = mcΔT needs all three factors.",
+  "why": "Feedback implies a ΔT error, but no natural ΔT slip gives 15.7 kJ (it would need ΔT = 15.0 °C). The likely mistake is leaving out the specific heat: 250.0 × 63.0 = 15,750 J = 15.75 kJ (which rounds to 15.8, so the choice c[3] could also be changed to 15.8 kJ). Also the current line states ΔT outrigh",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-60",
+  "field": "x[3]",
+  "old": "−2.79 kJ is the total heat. Divide by 0.0500 mol of water.",
+  "new": "−2.79 kJ is the total heat released. ΔH is reported per mole of water formed.",
+  "why": "Feedback gives the total heat and tells the student to divide it by 0.0500 mol, which is the final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-61",
+  "field": "x[2]",
+  "old": "22.7 kJ is the total heat. Divide by the mass to get per gram.",
+  "new": "This is the total heat from the whole sample. The question asks for energy per gram.",
+  "why": "Feedback states the total heat and says divide by the mass, giving the final step (22.7 ÷ 0.500).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-70",
+  "field": "x[2]",
+  "old": "This treats 10.0 g as 10.0 mol.",
+  "new": "This treats 10.0 g as 10.0 mol and also uses 483.6 kJ per mol of H₂. Convert grams to moles and note ΔH is per 2 mol.",
+  "why": "Treating 10.0 g as 10.0 mol alone gives 10.0 × 241.8 = 2.42e3 kJ; 4.84e3 kJ also uses 483.6 kJ per mol of H₂ (10.0 × 483.6).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-70",
+  "field": "x[3]",
+  "old": "10.0 g is 4.96 mol of H₂, and the ΔH is per 2 mol. Recheck the math.",
+  "new": "Recheck how many times you divided by 2. The 483.6 kJ goes with 2 mol of H₂, so divide by 2 only once.",
+  "why": "600 kJ (4.96 × 483.6 ÷ 4) is not explained, and the line gives both the moles and the per-2-mol basis, which together are the whole calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-75",
+  "field": "x[2]",
+  "old": "4.97×10⁻¹⁹ J is the photon energy. Subtract the work function.",
+  "new": "This is the photon energy. Part of that energy is used to free the electron from the metal.",
+  "why": "Feedback states the photon energy and tells the student to subtract the work function, which is the final calculation (4.97 − 3.68).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-79",
+  "field": "x[2]",
+  "old": "This mixes up m and nm.",
+  "new": "This mixes up picometers and nanometers. 1 nm = 10⁻⁹ m.",
+  "why": "2.91e-10 m is 291 pm, so 291 nm comes from a pm/nm mix-up (converting m to pm with 10¹² but labeling it nm), not an m/nm slip.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-79",
+  "field": "w",
+  "old": "λ = 6.626×10⁻³⁴ ÷ (9.109×10⁻³¹ kg × 2.5×10⁶ m s⁻¹) = 2.9×10<sup>−10</sup> m = <b>0.29 nm</b>, about the size of an atom—why electrons diffract from crystals. 7.3×10<sup>5</sup> nm leaves the speed out (h ÷ m); 291 nm is a m ↔ nm slip.",
+  "new": "λ = 6.626×10⁻³⁴ ÷ (9.109×10⁻³¹ kg × 2.5×10⁶ m s⁻¹) = 2.9×10<sup>−10</sup> m = <b>0.29 nm</b>, about the size of an atom—why electrons diffract from crystals. 7.3×10<sup>5</sup> nm leaves the speed out (h ÷ m); 291 nm is a pm ↔ nm slip.",
+  "why": "Explanation named the wrong mistake for a distractor.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-160",
+  "field": "x[2]",
+  "old": "A factor of 2 is missing. Recheck moles of solute = (ΔT ÷ K_b) × kg of solvent.",
+  "new": "Recheck the moles of solute: molality × kg of benzene, using 50.0 g = 0.0500 kg.",
+  "why": "'A factor of 2 is missing' tells the student the pick is exactly half the right value and names no mistake. 97.5 = 2.50 ÷ (0.2565 × 0.100), i.e. twice the solvent mass or twice the moles; no single natural slip is evident.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-160",
+  "field": "x[3]",
+  "old": "Recompute the moles: (0.649 ÷ 2.53) × 0.0500 kg.",
+  "new": "This multiplies ΔT_b by K_b. Molality is ΔT_b ÷ K_b.",
+  "why": "30.5 g/mol comes from multiplying ΔT by K_b instead of dividing: 2.50 ÷ (0.649 × 2.53 × 0.0500) = 30.45. The feedback names no mistake and spells out the moles calculation.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-214",
+  "field": "x[3]",
+  "old": "This doesn't weight each mass by its abundance.",
+  "new": "Multiply each isotope's mass by its own fractional abundance (percent ÷ 100), then add all three products.",
+  "why": "Feedback says 20.66 u comes from not weighting by abundance, but the unweighted average of the three masses is 20.99 u (distractor 1). No permutation of the abundances gives 20.66 either (results 20.09 to 21.89); 20.66 equals (2×19.992 + 21.991)/3, which matches no natural slip.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-221",
+  "field": "x[2]",
+  "old": "This uses the percents directly. Convert to moles first.",
+  "new": "This uses the mole amounts as subscripts. Divide each by the smallest mole value first.",
+  "why": "C3H16N3 does not come from using the percents directly (38.67 : 16.22 : 45.11 gives about 2.4 : 1 : 2.8). It comes from using the mole amounts 3.220 : 16.09 : 3.220 as subscripts without dividing by the smallest.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-239",
+  "field": "x[3]",
+  "old": "Multiply the energy per photon by Avogadro's number.",
+  "new": "This leaves λ in nm. Convert 310 nm to meters before using E = hc/λ.",
+  "why": "Feedback implies the student skipped Avogadro's number, but skipping it gives 6.41×10⁻²² kJ/mol (distractor 1). 3.86×10⁻⁷ kJ/mol comes from leaving λ in nm: hc/310 × 6.022×10²³ ÷ 1000 = 3.86×10⁻⁷.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-266",
+  "field": "x[2]",
+  "old": "This multiplies ΔH_vap by the grams of steam. ΔH_vap is per mole, so convert 10.0 g to moles first.",
+  "new": "This multiplies ΔH_vap by the grams of steam and also drops the cooling step. ΔH_vap is per mole, so convert 10.0 g to moles first.",
+  "why": "Multiplying ΔH_vap by 10.0 g while keeping the cooling step gives (407.0 + 2.636) ÷ 2.636 = 155 times, not 154. 154 needs that slip plus leaving out the steam's cooling step (407.0 ÷ 2.636 = 154.4). Either change the distractor to 155 times or use this feedback.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-266",
+  "field": "w",
+  "old": "Water: 10.0 g × 4.184 × 63.0 °C = 2.636 kJ. Steam: (10.0/18.02 mol) × 40.70 kJ mol⁻¹ = 22.59 kJ to condense + 2.636 kJ to cool = 25.22 kJ. Ratio = 25.22 ÷ 2.636 = <b>9.57</b>, which is why steam burns are so severe. 8.57 leaves out the steam's cooling step; 154 multiplies ΔH_vap by the 10.0 g without converting grams to moles.",
+  "new": "Water: 10.0 g × 4.184 × 63.0 °C = 2.636 kJ. Steam: (10.0/18.02 mol) × 40.70 kJ mol⁻¹ = 22.59 kJ to condense + 2.636 kJ to cool = 25.22 kJ. Ratio = 25.22 ÷ 2.636 = <b>9.57</b>, which is why steam burns are so severe. 8.57 leaves out the steam's cooling step; 154 multiplies ΔH_vap by the 10.0 g without converting grams to moles and leaves out the cooling step.",
+  "why": "Same origin problem as c[2]: the stated slip alone gives 155, not 154.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-271",
+  "field": "x[3]",
+  "old": "This is about half. Recheck: 1410 g × 0.700 ÷ 63.02.",
+  "new": "This divides by the density. Mass of solution = volume × density.",
+  "why": "'This is about half' tells the student how far off the pick is, and the line spells out the full keyed calculation (1410 g × 0.700 ÷ 63.02). 7.88 M actually comes from dividing by the density: 700 g ÷ 1.41 ÷ 63.02 = 7.88.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-295",
+  "field": "x[3]",
+  "old": "This is too negative. Count the lone-pair electrons on this carbon again: it has only one lone pair.",
+  "new": "This is too negative. One lone pair counts as 2 electrons, and the triple bond counts as 3 bonds.",
+  "why": "Feedback implies −2 comes from counting two lone pairs, but two lone pairs give 4 − 4 − 3 = −3, not −2.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-324",
+  "field": "x[2]",
+  "old": "This forgets to subtract the σ*₂s electrons.",
+  "new": "This counts the σ*₂s electrons as bonding. Antibonding electrons are subtracted, not added.",
+  "why": "Forgetting to subtract the σ*2s electrons gives ½(6) = 3, not 4. Bond order 4 comes from counting the σ*2s electrons as bonding: ½(6 + 2) = 4.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-324",
+  "field": "w",
+  "old": "Bonding: σ<sub>2s</sub> (2) + π<sub>2p</sub> (4) = 6; antibonding: σ*<sub>2s</sub> (2). Bond order = ½(6 − 2) = <b>2</b>, and the π<sub>2p</sub> set is completely filled, so all electrons are paired: <b>diamagnetic</b>. Bond order 4 comes from forgetting to subtract the σ*<sub>2s</sub> electrons.",
+  "new": "Bonding: σ<sub>2s</sub> (2) + π<sub>2p</sub> (4) = 6; antibonding: σ*<sub>2s</sub> (2). Bond order = ½(6 − 2) = <b>2</b>, and the π<sub>2p</sub> set is completely filled, so all electrons are paired: <b>diamagnetic</b>. Bond order 4 comes from adding the σ*<sub>2s</sub> electrons to the bonding count instead of subtracting them.",
+  "why": "Same false account of the bond order 4 distractor: ignoring σ*2s gives 3, adding it gives 4.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-387",
+  "field": "x[3]",
+  "old": "This is half the right wavelength. λ = hc ÷ E.",
+  "new": "Recheck the energy of one photon: E is for a single bond, and λ = hc ÷ E.",
+  "why": "Feedback says 247 nm is half the right wavelength, which tells the student how far the pick is from the key (494 nm).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-391",
+  "field": "x[1]",
+  "old": "91.2 nm is the energy to remove the electron from n = 1.",
+  "new": "91.2 nm is the wavelength that removes the electron from n = 1 completely. Here the electron moves between two levels.",
+  "why": "91.2 nm is a wavelength, not an energy; the feedback calls it 'the energy to remove the electron'.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-497",
+  "field": "x[3]",
+  "old": "Measure the boiling plateau: 5.0 → 13.0 kJ.",
+  "new": "This uses the heat where boiling starts. Use the width of the boiling plateau, its end minus its start.",
+  "why": "Feedback gives the plateau endpoints (5.0 → 13.0 kJ), which hands over the keyed calculation. 0.50 kJ/g is 5.0 kJ ÷ 10.0 g, the heat at the start of boiling.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-511",
+  "field": "x[3]",
+  "old": "This is too many. 0.205 ÷ 0.051 ≈ 4.",
+  "new": "This is too many ions. Compare X only with sucrose, which has i = 1.",
+  "why": "Feedback states the keyed value (≈ 4) and the full calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-511",
+  "field": "x[2]",
+  "old": "Compare with sucrose: 0.205 ÷ 0.051.",
+  "new": "Compare X's elevation with sucrose's, since sucrose has i = 1.",
+  "why": "Feedback gives the final calculation (0.205 ÷ 0.051).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-519",
+  "field": "x[1]",
+  "old": "This uses the mass ratio. Use the mole ratio.",
+  "new": "FeO would be only 22.3% O. Convert each mass percent to moles before comparing.",
+  "why": "Using the mass ratio (69.9 : 30.1 ≈ 2.3 : 1) would give about Fe2O, not FeO, so the feedback does not explain the pick. FeO would be 22.3% O.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-525",
+  "field": "w",
+  "old": "48.113 g − 35.60 g = 12.513 g, but 35.60 g is known only to the hundredths place, so the result is rounded to <b>12.51 g</b>. 12.513 g keeps a digit that is not justified; 12.5 g and 13 g wrongly apply a significant-figure count (3 or 2) to a subtraction.",
+  "new": "48.113 g − 35.60 g = 12.513 g, but 35.60 g is known only to the hundredths place, so the result is rounded to <b>12.51 g</b>. 12.513 g keeps a digit that is not justified; 12.5 g and 13 g round off digits that the hundredths-place data justify.",
+  "why": "No measurement has 3 or 2 significant figures (48.113 g has 5, 35.60 g has 4). Applying the fewest-sig-fig rule gives 4 sig figs, which is 12.51 g, not 12.5 g or 13 g, so the stated origin of these distractors is false.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-525",
+  "field": "x[2]",
+  "old": "For subtraction, keep decimal places, not a sig-fig count.",
+  "new": "This rounds to the tenths place, but both masses are known at least to the hundredths place.",
+  "why": "A sig-fig count from the data (4) would give 12.51 g, so 12.5 g does not come from applying a sig-fig count; it drops the hundredths place (as if 35.60 were 35.6).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-525",
+  "field": "x[3]",
+  "old": "For subtraction, keep decimal places, not a sig-fig count.",
+  "new": "This rounds to whole grams, but both masses are known at least to the hundredths place.",
+  "why": "A sig-fig count from the data (4) would give 12.51 g, so 13 g does not come from applying a sig-fig count; it rounds to whole grams.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-548",
+  "field": "x[1]",
+  "old": "A factor of 2 is missing. Multiply the mass of one molecule by Avogadro's number.",
+  "new": "Recheck the conversion: the molar mass is the mass of one molecule times the number of molecules in a mole.",
+  "why": "'A factor of 2 is missing' tells the student the pick is half the right value.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-548",
+  "field": "x[2]",
+  "old": "A factor of 2 slipped in. Multiply the mass of one molecule by Avogadro's number, once.",
+  "new": "Recheck the conversion: multiply the mass of one molecule by Avogadro's number, and nothing else.",
+  "why": "'A factor of 2 slipped in' tells the student the pick is double the right value.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-11",
+  "field": "x[3]",
+  "old": "A factor of 2 is missing. Recheck ln(k₂/k₁) and the difference of the reciprocal temperatures.",
+  "new": "Recheck the setup: ln(k₂/k₁) is ln 2, and the temperatures must be 298.15 K and 308.15 K.",
+  "why": "'A factor of 2 is missing' tells the student the pick (26.5) is half the right value (52.9).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-31",
+  "field": "x[3]",
+  "old": "Use the equilibrium amounts: 1.00 − 0.78 = 0.22 M.",
+  "new": "HI has a coefficient of 2, so square [HI] in the numerator as well as using 0.22 M for each reactant.",
+  "why": "The feedback implies the wrong reactant concentrations were used, but 32.2 comes from 1.56/(0.22)² = 32.2, i.e. squaring the reactant terms but not [HI]. Using 0.22 M correctly in the denominator is exactly what produced 32.2.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-52",
+  "field": "x[1]",
+  "old": "Recheck: [H₃O⁺] = √(Ka × 0.25), then ÷ 0.25 × 100.",
+  "new": "This leaves the 0.25 M concentration out of the square root. Find [H₃O⁺] from both Ka and the concentration first.",
+  "why": "Feedback spells out the whole keyed calculation (√(Ka × 0.25), ÷ 0.25 × 100). 1.3% comes from √Ka × 100 = 1.34% (concentration left out of the root), equivalently dividing by 0.50.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-52",
+  "field": "x[2]",
+  "old": "This doesn't take the square root.",
+  "new": "This uses Ka itself as [H₃O⁺]. Solve x² = Ka × C for [H₃O⁺] first.",
+  "why": "Skipping the square root gives (Ka × 0.25)/0.25 × 100 = 0.018%, not 0.072%. 0.072% is Ka/0.25 × 100, i.e. using Ka itself as [H₃O⁺].",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-70",
+  "field": "x[3]",
+  "old": "This is close to the pOH. Find pH = pKa + log(base/acid).",
+  "new": "This puts pKb into Henderson–Hasselbalch. Convert it to the pKa of NH₄⁺ first.",
+  "why": "4.52 is not especially close to the pOH (4.97); it is pKb + log(0.15/0.25) = 4.745 − 0.222 = 4.52, i.e. pKb used in Henderson–Hasselbalch in place of pKa.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-74",
+  "field": "x[3]",
+  "old": "The ratio is 10^0.26, not close to 1.",
+  "new": "This divides pH by pKa. Subtract pKa from pH to get the log of the ratio, then undo the log.",
+  "why": "Feedback gives the keyed final step (ratio = 10^0.26). 1.05 comes from pH ÷ pKa = 5.00/4.74 = 1.055.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-101",
+  "field": "x[2]",
+  "old": "Use [SO₄²⁻] = 0.015 M, then Ksp = (0.030)²(0.015).",
+  "new": "This forgets to square [Ag⁺]. Its coefficient in the formula is 2.",
+  "why": "Feedback states the full keyed calculation, Ksp = (0.030)²(0.015). 4.5×10⁻⁴ comes from (0.030)(0.015), forgetting to square [Ag⁺].",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-112",
+  "field": "x[3]",
+  "old": "Recompute: ΔG° = −RT ln Ka, with R in J.",
+  "new": "Check the temperature. It must be in kelvins, not degrees Celsius.",
+  "why": "Feedback points to R units, but 0.08206 for R gives 0.267 kJ. +2.27 kJ comes from using T = 25 (°C) instead of 298 K: −(8.314)(25)ln(1.8×10⁻⁵) = 2271 J.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-133",
+  "field": "x[2]",
+  "old": "Recompute: log K = (2)(0.46)/0.0592.",
+  "new": "This raises e to the power. The equation gives log K, so undo it with 10 to that power.",
+  "why": "Feedback writes out the keyed calculation, log K = (2)(0.46)/0.0592. 5.6×10⁶ comes from e^15.54 (antilog taken as e^x instead of 10^x).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-252",
+  "field": "x[3]",
+  "old": "This is half the answer.",
+  "new": "This is ΔS° per mole of H₂O formed. The equation as written makes 2 mol H₂O.",
+  "why": "Feedback 'This is half the answer' states how far the pick is from the keyed value (-163.3 = -326.6/2).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-273",
+  "field": "x[3]",
+  "old": "This counts 6 half-lives. 24 h is about 4.",
+  "new": "This counts 6 half-lives. Divide the 24 h elapsed by the 6.01 h half-life.",
+  "why": "Feedback '24 h is about 4' gives away the key step (24.0/6.01 = 3.99 half-lives).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-276",
+  "field": "x[3]",
+  "old": "Recheck: t½ is 30 min, so k = 0.693 ÷ 30.",
+  "new": "This doubles k, as if t½ were 15 min. Read the time for [H₂O₂] to fall from 0.80 M to 0.40 M.",
+  "why": "Feedback states the final calculation (t½ = 30 min, k = 0.693 ÷ 30). 0.046 min⁻¹ = 0.693/15, i.e. a half-life read as 15 min.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-281",
+  "field": "x[2]",
+  "old": "Recheck the orders: rate = k[NO]²[Cl₂].",
+  "new": "This uses one order too many. Compare runs where only one concentration changes to find each order.",
+  "why": "Feedback hands over the full rate law rate = k[NO]²[Cl₂], which is the main thing the question asks the student to determine. 1.2e4 corresponds to one extra order (e.g. third order in NO).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-306",
+  "field": "x[1]",
+  "old": "This adds the two values. Subtract.",
+  "new": "This adds the two values, 0.80 + (−2.37), and drops the minus sign. Subtract the anode E° from the cathode E°.",
+  "why": "Adding the two values gives 0.80 + (−2.37) = −1.57 V, not +1.57 V; the positive value needs the sign dropped (or 2.37 − 0.80, subtracting magnitudes).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-306",
+  "field": "w",
+  "old": "The largest difference pairs Ag<sup>+</sup>/Ag (cathode, +0.80 V) with Mg<sup>2+</sup>/Mg (anode, −2.37 V): E°<sub>cell</sub> = 0.80 − (−2.37) = <b>3.17 V</b>. 1.57 V adds the two values instead of subtracting; 3.97 V wrongly doubles the Ag E° for the 2 Ag<sup>+</sup> in the balanced equation (E° is intensive).",
+  "new": "The largest difference pairs Ag<sup>+</sup>/Ag (cathode, +0.80 V) with Mg<sup>2+</sup>/Mg (anode, −2.37 V): E°<sub>cell</sub> = 0.80 − (−2.37) = <b>3.17 V</b>. 1.57 V adds the two values, 0.80 + (−2.37), and drops the sign instead of subtracting; 3.97 V wrongly doubles the Ag E° for the 2 Ag<sup>+</sup> in the balanced equation (E° is intensive).",
+  "why": "Adding the two values gives −1.57 V; +1.57 V also requires dropping the sign.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1B-319",
+  "field": "x[1]",
+  "old": "This uses n = 2. Four electrons transfer.",
+  "new": "This uses n = 2, the electrons per H₂O formed. Count the electrons for the whole equation as written.",
+  "why": "Feedback states n = 4, the key intermediate the student must find.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-319",
+  "field": "x[2]",
+  "old": "Recount the electrons. n = 4.",
+  "new": "This uses n = 1. Count the electrons for the whole equation as written.",
+  "why": "Feedback states n = 4 outright; −119 kJ is n = 1 (−118.7 kJ).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-320",
+  "field": "x[3]",
+  "old": "Recheck: 0.62 = 0.34 − E°(M).",
+  "new": "This adds 0.62 and 0.34 and makes the sum negative. Solve E°cell = E°cathode − E°anode for the anode.",
+  "why": "Feedback gives the final equation to solve (0.62 = 0.34 − E°M). −0.96 V is −(0.62 + 0.34).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-343",
+  "field": "x[3]",
+  "old": "Recheck: 24 mass units ÷ 4 = 6 α.",
+  "new": "This has too many alphas. Each alpha removes 4 mass units; see how many fit the mass drop.",
+  "why": "Feedback 'Recheck: 24 mass units ÷ 4 = 6 α' gives away half the keyed answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-348",
+  "field": "x[2]",
+  "old": "Recheck: 40 h is 5 half-lives.",
+  "new": "This stops after 3 half-lives (24 h). Read the half-life, then count how many fit in 40 h.",
+  "why": "Feedback 'Recheck: 40 h is 5 half-lives' gives away the key step. 100 counts/min is 3 half-lives (24 h).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-360",
+  "field": "x[2]",
+  "old": "Recheck: pKb = 14.00 − 9.25.",
+  "new": "This reads the pH at the equivalence point (25.0 mL), not at the marked half-equivalence point.",
+  "why": "Feedback 'pKb = 14.00 − 9.25' is essentially the whole calculation (gives the answer away). 5.3e-6 = 10^−5.28, i.e. using the pH at the equivalence point (25.0 mL, pH 5.278) as pKb.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-360",
+  "field": "x[3]",
+  "old": "Recheck: pKb = 14.00 − 9.25.",
+  "new": "This starts from the pH at the equivalence point instead of the marked half-equivalence point.",
+  "why": "Same give-away line as x[2]. 1.9e-9 = 10^−(14 − 5.28): using the equivalence point pH (5.278) as pKa and converting.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-366",
+  "field": "x[3]",
+  "old": "One pH unit above pKa gives 10, not 100.",
+  "new": "100 would need the pH to be two units above the pKa.",
+  "why": "Feedback states the keyed value ('gives 10, not 100').",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-381",
+  "field": "x[3]",
+  "old": "Recheck: 0.46 = 0.34 − E°(M).",
+  "new": "Recheck the setup: E°cell = E°(cathode) − E°(anode), with M as the anode.",
+  "why": "Feedback '0.46 = 0.34 − E°(M)' is the final equation; solving it gives the key directly. −0.80 V = −(0.34 + 0.46).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-400",
+  "field": "w",
+  "old": "pH 9.00 → pOH 5.00 → [OH<sup>−</sup>] = 1.0×10<sup>−5</sup> M, so Q = (0.010)(1.0×10<sup>−5</sup>)<sup>2</sup> = 1.0×10<sup>−12</sup> for every metal. Only <b>Mn(OH)<sub>2</sub></b> (K<sub>sp</sub> = 1.9×10<sup>−13</sup>) has K<sub>sp</sub> &lt; Q and precipitates. Mg(OH)<sub>2</sub> (5.6×10<sup>−12</sup>) is the near miss: Q is still below its K<sub>sp</sub>. Forgetting to square [OH<sup>−</sup>] gives Q = 1.0×10<sup>−7</sup>, which would wrongly precipitate three of them.",
+  "new": "pH 9.00 → pOH 5.00 → [OH<sup>−</sup>] = 1.0×10<sup>−5</sup> M, so Q = (0.010)(1.0×10<sup>−5</sup>)<sup>2</sup> = 1.0×10<sup>−12</sup> for every metal. Only <b>Mn(OH)<sub>2</sub></b> (K<sub>sp</sub> = 1.9×10<sup>−13</sup>) has K<sub>sp</sub> &lt; Q and precipitates. Mg(OH)<sub>2</sub> (5.6×10<sup>−12</sup>) is the near miss: Q is still below its K<sub>sp</sub>. Forgetting to square [OH<sup>−</sup>] gives Q = 1.0×10<sup>−7</sup>, which would wrongly precipitate Mg(OH)2 as well.",
+  "why": "Without squaring, Q = 1.0e-7 exceeds only the Ksp of Mg(OH)2 (5.6e-12) and Mn(OH)2 (1.9e-13); Ca(OH)2 (5.0e-6) and Ba(OH)2 (2.6e-4) still exceed Q. So two would precipitate, only one wrongly, not three.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-977",
+  "field": "c[0]",
+  "old": "Phenols are weak acids: more acidic than alcohols, but less acidic than carboxylic acids",
+  "new": "Phenols are more acidic than alcohols but less acidic than carboxylic acids",
+  "why": "The right answer was much longer than every wrong choice, which lets a test-wise student guess it.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-978",
+  "field": "c[0]",
+  "old": "a chemical messenger released by a nerve cell that crosses a synapse and binds to receptors on the next cell",
+  "new": "a chemical messenger that carries a signal from a nerve cell across a synapse",
+  "why": "The right answer was much longer than every wrong choice, which lets a test-wise student guess it.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-980",
+  "field": "c[0]",
+  "old": "Serotonin stays in the synapse longer, so its signal to the next cell lasts longer",
+  "new": "Serotonin stays in the synapse longer, so its signal lasts longer",
+  "why": "The right answer was much longer than every wrong choice, which lets a test-wise student guess it.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-985",
+  "field": "c[0]",
+  "old": "It is a very small molecule, and it cannot hydrogen bond to other formaldehyde molecules because it has no O–H",
+  "new": "It is small and has no O–H, so it cannot hydrogen bond to itself",
+  "why": "The right answer was much longer than every wrong choice, which lets a test-wise student guess it.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-990",
+  "field": "c[0]",
+  "old": "Glucose stays attached to hemoglobin for the life of the red blood cell, about 120 days",
+  "new": "Glucose stays attached to hemoglobin for the life of the red blood cell",
+  "why": "The right answer was much longer than every wrong choice, which lets a test-wise student guess it.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-998",
+  "field": "c[0]",
+  "old": "It binds the fungal enzyme much more tightly than the matching human enzyme, because the enzymes' shapes differ",
+  "new": "It binds the fungal enzyme far more tightly than the matching human enzyme",
+  "why": "The right answer was much longer than every wrong choice, which lets a test-wise student guess it.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-1011",
+  "field": "c[0]",
+  "old": "arachidonic acid, a 20-carbon polyunsaturated fatty acid released from membrane phospholipids",
+  "new": "arachidonic acid, a 20-carbon fatty acid",
+  "why": "The right answer was much longer than every wrong choice, which lets a test-wise student guess it.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-1013",
+  "field": "c[0]",
+  "old": "hydrolysis of the ester bonds of the triacylglycerols, catalyzed by lipases from microbes",
+  "new": "hydrolysis of the ester bonds of triacylglycerols",
+  "why": "The right answer was much longer than every wrong choice, which lets a test-wise student guess it.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-1036",
+  "field": "c[0]",
+  "old": "The longer proteins stay that hot, the more enzymes unfold and clump together, and many cannot fold back",
+  "new": "The longer proteins stay that hot, the more enzymes unfold, and many cannot fold back",
+  "why": "The right answer was much longer than every wrong choice, which lets a test-wise student guess it.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "1A-576",
+  "field": "w",
+  "old": "<b>C(graphite) + 2 H<sub>2</sub> + ½ O<sub>2</sub> → CH<sub>3</sub>OH(l)</b> makes one mole from the elements as they exist at 25 °C. CO is a compound, not an element; isolated gaseous atoms are not the standard states of the elements; the last equation forms 2 mol, so its ΔH is 2ΔH°<sub>f</sub>.",
+  "new": "<b>C(graphite) + 2 H<sub>2</sub> + ½ O<sub>2</sub> → CH<sub>3</sub>OH(l)</b> makes one mole from the elements as they exist at 25 °C. CO is a compound, not an element; isolated gaseous atoms are not the standard states of the elements; the equation that forms 2 mol of CH<sub>3</sub>OH has that coefficient, so its ΔH is 2ΔH°<sub>f</sub>.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ }
+]

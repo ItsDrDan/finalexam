@@ -1,0 +1,1707 @@
+[
+ {
+  "packet": "3A_01",
+  "id": "3A-206",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "med",
+  "text": "Divisions of 0.2 mL: estimating one digit past the division gives 6.30; some instructors accept 6.3 (uncertainty ~0.1 for 0.2 divisions). Mildly ambiguous but 6.30 is the standard convention."
+ },
+ {
+  "packet": "3A_01",
+  "id": "3A-334",
+  "kind": "p1-note",
+  "pick": "B",
+  "key": "B",
+  "conf": "high",
+  "text": "Uses integer peak masses, giving 107.96 rather than the real 107.87; fine given the stem says 'using the peak masses'."
+ },
+ {
+  "packet": "3A_01",
+  "id": "3A-209",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation says the tablet 'ends four marks past 1.8 cm, a little less than halfway to the next mark'. Four 0.1 cm marks past 1.8 would be 2.2 cm; the reading 1.84 cm means the end lies between the 1.8 and 1.9 cm marks, about four-tenths of the way. The sentence contradicts itself and could confuse students about the estimated digit.",
+  "fix": "The tablet ends between the 1.8 cm and 1.9 cm marks, a little less than halfway (about four-tenths of the way) to 1.9 cm, so the reading is estimated to hundredths: 1.84 cm.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "3A_02",
+  "id": "3A-31",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for B ('Radio waves have the lowest frequency of these, so they come before microwaves') and for D ('Radio waves ... have the lowest frequency, and ultraviolet has the highest') each identify the answer: A is the only choice that starts with radio waves (and ends with ultraviolet). Shown before a retry, this hands over the key.",
+  "fix": "B: 'Check which of these has the longest wavelength; longest wavelength means lowest frequency.' D: 'Infrared does not have the lowest frequency of these. Compare the wavelengths again.'",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "3A_02",
+  "id": "3A-328",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation says Q and X (halogens) are 'the smallest atoms of their periods'. The noble gases in group 18 are smaller still; the halogens are among the smallest, as the feedback lines correctly say.",
+  "fix": "Change to 'Q and X are halogens, among the smallest atoms of their periods.'",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "3A_03",
+  "id": "3A-192",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "high",
+  "text": "Computed 342.17 g/mol with the game masses (2x26.98 + 3x32.07 + 12x16.00); choice A says 342.14, off by 0.03 (looks like S = 32.06 was used)."
+ },
+ {
+  "packet": "3A_03",
+  "id": "3A-192",
+  "kind": "p2-choices",
+  "sev": "minor",
+  "text": "Explanation and choices use S = 32.06, but the game's atomic mass is S 32.07. With 32.07: 2(26.98) + 3(32.07) + 12(16.00) = 342.17 g/mol, not 342.14. Distractors shift too: 315.19, 278.03, 150.03.",
+  "fix": "Choice A: 342.17 g mol⁻¹; explanation: 2(26.98) + 3(32.07) + 12(16.00) = 53.96 + 96.21 + 192.00 = 342.17 g mol⁻¹; distractors 315.19, 278.03, 150.03.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "3A_03",
+  "id": "3A-280",
+  "kind": "p2-choices",
+  "sev": "minor",
+  "text": "Uses S = 32.06 (molar mass 151.91). With the game's S 32.07, FeSO4 = 151.92 g/mol and %Fe = 36.76%, not 36.77%; the sulfate-only distractor becomes 58.13%, and 'everything except iron' becomes 63.24%.",
+  "fix": "Molar mass 151.92 g mol⁻¹; choice B 36.76%; A 58.13%; D 63.24%.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "3A_03",
+  "id": "3A-62",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation gives CuSO4 = 159.61 and hydrate = 249.69 (S = 32.06). With the game's S 32.07 they are 159.62 and 249.70 g/mol. The final 36.08% does not change.",
+  "fix": "CuSO4 = 159.62 g; hydrate = 249.70 g mol⁻¹; %H2O = 90.08/249.70 × 100 = 36.08%.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "3A_03",
+  "id": "3A-64",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation gives M = 132.14 g/mol (S = 32.06). With the game's masses (NH4)2SO4 = 132.15 g/mol. The answer 10.6 g does not change.",
+  "fix": "M = 132.15 g mol⁻¹.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "3A_03",
+  "id": "3A-279",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Distractor A (1.88×10^22) does not come from leaving out the ×3. Dividing 1.25 g by Ca's mass alone (40.08) gives 1.878×10^22; leaving out the ×3 gives 7.52×10^21, which is choice D. So feedback A ('Multiply the formula units by 3') describes the wrong error.",
+  "fix": "Feedback A: 'This uses only calcium's mass (40.08 g/mol). Use the molar mass of the whole CaCO₃.'",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "3A_04",
+  "id": "3A-68",
+  "kind": "p1-note",
+  "pick": "C",
+  "key": "C",
+  "conf": "high",
+  "text": "Actual H-C-H angle in formaldehyde is ~116-117 deg; 120 is the VSEPR approximation, acceptable since stem says approximate."
+ },
+ {
+  "packet": "3A_04",
+  "id": "3A-271",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "high",
+  "text": "Computed 46.6 C, rounds to 47 C."
+ },
+ {
+  "packet": "3A_04",
+  "id": "3A-272",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for B (\"Heat flows into the sweat... evaporation absorbs heat\") and for D (\"Heat flows into the sweat, so the skin cools\") together state every part of choice A, so they hand over the answer before the retry.",
+  "fix": "B: \"Does evaporation need energy or give it off? Decide which way heat must flow.\" D: \"Check the direction of heat flow for an endothermic process, and what that does to the skin.\"",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "3A_04",
+  "id": "3A-273",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for A says \"Endothermic means the system absorbs heat, so q is positive,\" which is exactly choice B, the key.",
+  "fix": "A: \"You have the process type right. What sign does q have when the system gains heat?\"",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "3A_04",
+  "id": "3A-273",
+  "kind": "p2-hint",
+  "sev": "minor",
+  "text": "Stem places the cold pack on an athlete's knee, but the hint (\"Your hand feels cold\") and explanation (\"from your hand\") talk about a hand.",
+  "fix": "Hint: \"The knee feels cold because heat leaves it...\"; explanation: \"Heat flows from the knee into the dissolving mixture...\"",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "3A_05",
+  "id": "3A-237",
+  "kind": "p1-note",
+  "pick": "D",
+  "key": "D",
+  "conf": "high",
+  "text": "Correct value 225 mmHg (3 O2 of 10 molecules); choice D lacks the trailing decimal used in the other choices (225 vs 225.), minor sig-fig inconsistency."
+ },
+ {
+  "packet": "3A_05",
+  "id": "3A-112",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "high",
+  "text": "Computed 0.154 M; 0.15 M is correct to 2 sig figs."
+ },
+ {
+  "packet": "3A_07",
+  "id": "3A-309",
+  "kind": "p1-note",
+  "pick": "C",
+  "key": "C",
+  "conf": "high",
+  "text": "Plotted peak sample is 119.24 kJ; read as ~120 kJ, Ea = 80 kJ."
+ },
+ {
+  "packet": "3A_07",
+  "id": "3A-310",
+  "kind": "p1-note",
+  "pick": "D",
+  "key": "D",
+  "conf": "high",
+  "text": "Stem says 'It' without naming the catalyst explicitly as subject, but context (curve 2 = catalyzed) makes it clear."
+ },
+ {
+  "packet": "3B_02",
+  "id": "3B-886",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation says 'Only the first structure has N bonded to a C=O carbon', but the game shuffles the choices, so the amide is not necessarily shown first; a student may look at the wrong drawing.",
+  "fix": "Only the structure CH3CH2C(=O)NHCH3 has N bonded to a C=O carbon: it is N-methylpropanamide.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "3B_03",
+  "id": "3B-905",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "The explanation refers to the reactions by position ('In the first reaction a Br atom replaces...', 'The second and fourth reactions add to a C=C', 'the third removes water'). The game shuffles choices, so these ordinals do not match what the student sees (in this packet the substitution is D, dehydration is B, and the additions are A and C). A student could be told that the dehydration is an addition.",
+  "fix": "Refer to reactions by content: 'In CH3CH3 + Br2 → CH3CH2Br + HBr, a Br atom replaces an H atom on ethane and HBr is released: halogenation of an alkane, a substitution. Hydrogenation (H2/Pt) and HBr addition add to a C=C (addition), and the ethanol reaction removes water to form a C=C (elimination, dehydration).'",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "3B_04",
+  "id": "3B-910",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation says 'Only the first structure has an –SH group', but the game shuffles choices, so the thiol (CCCCS, 1-butanethiol) is not reliably first (it is D in this packet). A student may look at the wrong drawing.",
+  "fix": "Only 1-butanethiol (CH3CH2CH2CH2SH) has an –SH group (a skunk-like odorant). The –OH compound is an alcohol; the C–S–C compound is a sulfide (thioether); the S–S compound is a disulfide, the product of oxidizing two thiols.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "3B_04",
+  "id": "3B-361",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for A (3-methyl-1-pentanethiol) and the explanation say this name 'counts the CH3 branch into the chain'. Counting the branch into a pentane chain would give 1-pentanethiol with no methyl; 3-methyl-1-pentanethiol actually has 6 carbons, one more than the molecule's 5 (C5H12S), so the diagnosis is off.",
+  "fix": "Feedback A: '3-Methyl-1-pentanethiol has six carbons in all, but this molecule has only five. Count the longest chain holding the –SH, then count the branch separately.' Explanation: replace 'and \"pentane\" counts the branch into the chain' with 'and 3-methyl-1-pentanethiol would need six carbons'.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "3B_06",
+  "id": "3B-647",
+  "kind": "p1-mismatch",
+  "pick": "C",
+  "key": "B",
+  "conf": "med",
+  "text": "Atom tags assumed 1-based (C5 = ring CH bearing isopropenyl = carbon b); if tags are 0-based the chiral carbon would be carbon c."
+ },
+ {
+  "packet": "3B_06",
+  "id": "3B-647",
+  "kind": "p2-mismatch-resolved",
+  "sev": "none",
+  "text": "My blind pick C assumed the atom tags were 1-based. They are 0-based: carbon c is the ring CH that carries the isopropenyl group, which is the chiral carbon. The key, explanation and feedback all match the drawing.",
+  "fix": "",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "3B_06",
+  "id": "3B-650",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "The feedback for B says glycine's 'only sp^3 carbon'. 3B does not teach hybridization, so the term is outside the course.",
+  "fix": "This is glycine. Its only carbon without a double bond is a CH2 with two identical H atoms, so it is not chiral.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "3B_08",
+  "id": "3B-707",
+  "kind": "p1-note",
+  "pick": "D",
+  "key": "D",
+  "conf": "med",
+  "text": "Choice A (acetic acid + neutral aniline) is the textbook-simplified answer; with HCl present the amine is protonated, so D is the best answer, but A could be argued at a looser level."
+ },
+ {
+  "packet": "3B_08",
+  "id": "3B-91",
+  "kind": "p2-hint",
+  "sev": "minor",
+  "text": "The hint states the rule ('alpha is trans, beta is cis' relative to CH2OH), and choices B and C are phrased as 'same side as' / 'opposite' the CH2OH, so the hint hands over the answer for a pure-recall question.",
+  "fix": "Hint: 'In a D-sugar Haworth projection the CH2OH on C5 points up. Recall how the alpha and beta anomers differ at C1.'",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "3B_09",
+  "id": "3B-735",
+  "kind": "p1-note",
+  "pick": "B",
+  "key": "B",
+  "conf": "med",
+  "text": "Assumed tag index 0 = C1."
+ },
+ {
+  "packet": "3B_09",
+  "id": "3B-736",
+  "kind": "p1-note",
+  "pick": "D",
+  "key": "D",
+  "conf": "low",
+  "text": "Tag index convention for fructose ring is not visible in the text figure; assumed tag 0 = anomeric ring carbon C2 (as index 0 = C1 for glucose). If index 0 is C1 (CH2OH), anomeric would be b."
+ },
+ {
+  "packet": "3B_09",
+  "id": "3B-923",
+  "kind": "p2-feedback",
+  "sev": "error",
+  "text": "Feedback lines name structures by letter, but the letters are wrong and the game shuffles choices. The line shown for picking the lactic acid structure says 'C is lactic acid', and the line for picking the glycerol structure says 'B is glycerol', so the letters are swapped. 'D is alanine' and the explanation's 'Structure A is glyceraldehyde' are only right by chance. The letters will not match what the student sees.",
+  "fix": "Drop the letter references. Lactic acid line: 'This is lactic acid. Its C=O is part of a carboxylic acid (–COOH), not an aldehyde or ketone.' Glycerol line: 'This is glycerol: three –OH groups but no C=O...' Alanine line: 'This is alanine, an amino acid...' Explanation: 'The aldehyde structure (O=CH–CH(OH)–CH2OH) is glyceraldehyde...'",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "3B_09",
+  "id": "3B-107",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for 4 says it 'counts the two linoleic acids correctly but leaves out the oleic acid's double bond, or vice versa.' The 'vice versa' case (oleic counted, linoleic left out) gives 1 or 3, not 4, so the phrase is wrong.",
+  "fix": "4 counts the two linoleic acids (2 + 2) but leaves out the oleic acid's double bond. Add up all three chains.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "3B_10",
+  "id": "3B-761",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "med",
+  "text": "Drawing contains two unbonded stray 'C' atoms (SMILES '.C.C', at (-2,-1.299) and (3.6,1.299)) next to the condensed-chain labels; may render as stray C letters. Geometry is trans."
+ },
+ {
+  "packet": "3B_10",
+  "id": "3B-764",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "med",
+  "text": "Drawn chains are only 8 carbons each (oct-5-enoyl), not typical long dietary fatty acids; answer still A (cis bonds, liquid)."
+ },
+ {
+  "packet": "3B_10",
+  "id": "3B-766",
+  "kind": "p2-feedback",
+  "sev": "error",
+  "text": "Feedback lines name drawings by letter from a different order: feedback for A (the prostaglandin) says 'C is a prostaglandin', for B (the fatty acid) says 'D is a straight-chain fatty acid', for C (retinol) says 'B is retinol'. The game shuffles choices, so these letters point at the wrong drawings for students.",
+  "fix": "Remove letters: A -> 'This is a prostaglandin: one five-membered ring with two side chains, made from a 20-carbon fatty acid.' B -> 'This is a straight-chain fatty acid (12 carbons) with no ring at all.' C -> 'This is retinol (vitamin A): one six-membered ring with a long chain of alternating double bonds, not four fused rings.'",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "3B_10",
+  "id": "3B-846",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation says 'so the second choice reverses the trend', but choices are shuffled; the choice that reverses the saturated-chain trend is 'For saturated acids, a longer chain gives a lower melting point', which will not reliably be second.",
+  "fix": "'...so the claim that a longer saturated chain melts lower reverses the trend.'",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "3B_10",
+  "id": "3B-759",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for omega-3 says 'Omega-3 is one carbon too close to the CH3 end'; omega-3 vs the correct omega-6 differs by three carbons, not one.",
+  "fix": "'Omega-3 puts the double bond too close to the CH3 end. Count again, starting with CH3 as carbon 1.'",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "3B_10",
+  "id": "3B-761",
+  "kind": "p2-stem",
+  "sev": "minor",
+  "text": "The drawing data contains two unbonded 'C' atoms (SMILES '.C.C', atoms at (-2,-1.299) and (3.6,1.299)) beside the condensed labels CH3(CH2)7 and (CH2)7COOH; if rendered they appear as stray C letters next to the chain labels.",
+  "fix": "Delete the two unbonded C atoms from the drawing (or confirm they are invisible spacers).",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "3B_11",
+  "id": "3B-1016",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Says 'Except for one –OH, vitamin E is a large hydrocarbon', but alpha-tocopherol also has a ring ether oxygen in its chromanol ring (C29H50O2, two O atoms).",
+  "fix": "Except for a ring containing an –OH group and an ether oxygen, vitamin E is a large hydrocarbon, so it is fat soluble.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "3B_12",
+  "id": "3B-861",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "high",
+  "text": "Curve: 97.75% at 100 mmHg, ~75.8% at 40 mmHg; ~22 points unloaded (22.5% of loaded sites) -> about 20%."
+ },
+ {
+  "packet": "3B_12",
+  "id": "3B-924",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation says 'Structure A is alanine' with a hard-coded letter, while the feedback lines use § placeholders that are remapped after shuffling. Since the game shuffles choices, 'A' will often point to a wrong structure (in this audit order alanine is D).",
+  "fix": "Write 'The correct structure is alanine: ...' (no letter), or use the §-placeholder for the alanine choice.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "3B_12",
+  "id": "3B-1030",
+  "kind": "p2-hint",
+  "sev": "minor",
+  "text": "Hint 'M = methionine, A = alanine, C = cysteine' hands over the answer outright; the student only has to match names to Met–Ala–Cys.",
+  "fix": "Hint: 'One-letter codes are not always the first letter of the name. Which amino acid is A, and which three-letter codes start with A?'",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "3B_12",
+  "id": "3B-857",
+  "kind": "p2-hint",
+  "sev": "minor",
+  "text": "Hint identifies coil = helix, strands = sheet, and says both are backbone H-bond patterns at the same level, which leaves only choice C once a student knows backbone H bonds are secondary; nearly a give-away.",
+  "fix": "Hint: 'Which level of structure is held by hydrogen bonds between backbone C=O and N–H groups?'",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "3B_12",
+  "id": "3B-940",
+  "kind": "p2-hint",
+  "sev": "minor",
+  "text": "Hint states that at high pH both the –COOH and the –NH3+ lose H+, which directly describes the keyed structure (COO−, NH2).",
+  "fix": "Hint: 'Far above the pI, OH− removes H+ from acidic groups. Which groups on alanine can give up an H+?'",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "3B_12",
+  "id": "3B-1032",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for 'on the right' says 'On the right is the D form', which tells the student the L form is on the left before the retry.",
+  "fix": "'The side on which –NH3+ appears decides D or L, just as the –OH does for sugars. Recall which side goes with L.'",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "3B_13",
+  "id": "3B-820",
+  "kind": "p1-note",
+  "pick": "C",
+  "key": "C",
+  "conf": "high",
+  "text": "Drawn sample peaks are 87.41 and 53.92 (diff 33.5); the smooth curve peaks at ~90 and ~55 (Ea 60 vs 25), so 35."
+ },
+ {
+  "packet": "3B_13",
+  "id": "3B-869",
+  "kind": "p1-note",
+  "pick": "B",
+  "key": "B",
+  "conf": "low",
+  "text": "Both panel I (nofit: wrong shape cannot bind) and panel II (fit: complementary shape) could be read as illustrating specificity; picked the nofit panel as it shows the exclusion directly."
+ },
+ {
+  "packet": "3B_13",
+  "id": "3B-881",
+  "kind": "p2-stem",
+  "sev": "minor",
+  "text": "Curve 2 (the uncatalyzed reaction per the key) rises above the enzyme curve 1 at high substrate (92 vs 78.3 at the right edge). Showing an uncatalyzed reaction faster than the catalyzed one contradicts the course point that enzymes speed reactions enormously, and it invites choice D (larger maximum rate).",
+  "fix": "Lower the slope of curve 2 so it stays below curve 1 across the plotted range (e.g. 2.5 rate units per substrate unit, reaching about 50 at x = 20).",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "3B_14",
+  "id": "3B-769",
+  "kind": "p1-note",
+  "pick": "C",
+  "key": "C",
+  "conf": "med",
+  "text": "Assumes tag index 0 = C1', so b = C2'; depends on how the Haworth tags are drawn."
+ },
+ {
+  "packet": "3B_14",
+  "id": "3B-335",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for D says 'The sample choice is fine, but the reason is not.' Only A and D pick X, so this tells the student the answer is A before the retry.",
+  "fix": "Base pairs between strands are held by hydrogen bonds, not covalent bonds. Compare how many hydrogen bonds each type of pair has."
+ },
+ {
+  "packet": "3B_14",
+  "id": "3B-837",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for D says 'The sample is right, but the reason is not.' Only B and D pick sample 2, so this gives away B.",
+  "fix": "The two strands are held by hydrogen bonds between bases, not covalent bonds. Compare hydrogen bonds per pair, and check which curve reaches 50% at the higher temperature."
+ },
+ {
+  "packet": "3B_14",
+  "id": "3B-771",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for A says 'The partner is right... Recount its hydrogen bonds.' Only A and D name guanine, so this gives away D.",
+  "fix": "Recount the hydrogen bonds in the pair this base forms, and recall which pair in DNA is held by more of them."
+ },
+ {
+  "packet": "3B_14",
+  "id": "3B-772",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for B says 'The partner is right, but this pair is the weaker one... Three hydrogen bonds are found in the G–C pair.' This gives away A (adenine, 2).",
+  "fix": "Three hydrogen bonds hold the G–C pair. Recount the hydrogen bonds in the pair this base forms."
+ },
+ {
+  "packet": "3B_14",
+  "id": "3B-836",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for A says 'The step is right, but not the location.' Only A and B name step 2, so this gives away B.",
+  "fix": "Splicing happens before the mRNA is exported. Think about where the pre-mRNA is when introns are cut out."
+ },
+ {
+  "packet": "3B_15",
+  "id": "3B-301",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "high",
+  "text": "Computed 108/260 = 41.5%, rounds to 42%."
+ },
+ {
+  "packet": "3B_15",
+  "id": "3B-177",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Explanation and feedback B say 129 comes from using 3 ATP/NADH and 2 ATP/FADH2. With the table value of 10 ATP per acetyl CoA, those older values give 80+21+14-2 = 113, not 129; 129 also requires the older 12 ATP per acetyl CoA (96+21+14-2).",
+  "fix": "Feedback B: \"129 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH2. Use the values in the table.\" Change the explanation the same way.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "3B_15",
+  "id": "3B-317",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Explanation and feedback C say 197 comes from using 3 ATP/NADH and 2 ATP/FADH2. With 10 ATP per acetyl CoA that gives 120+55-2 = 173; 197 also needs the older 12 ATP per acetyl CoA (144+55-2).",
+  "fix": "Feedback C: \"197 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH2. Use the values in the table.\" Change the explanation the same way.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "3B_16",
+  "id": "3B-323",
+  "kind": "p1-note",
+  "pick": "B",
+  "key": "B",
+  "conf": "high",
+  "text": "0.50 x 7.3 = 3.65 kcal; choice 3.7 is the rounded value (3.65 rounds to 3.6 or 3.7 depending on convention)."
+ },
+ {
+  "packet": "3B_16",
+  "id": "3B-324",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "The explanation refers to 'the last choice', but the game shuffles choices, so position words do not identify a choice for the student.",
+  "fix": "Name the choice by its content instead of its position."
+ },
+ {
+  "packet": "3B_16",
+  "id": "3B-965",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for '4 ATP' says ATP → AMP breaks two high-energy bonds and each counts as one ATP, which hands over the answer (2 ATP) before the retry.",
+  "fix": "Point to the bond count without stating the total."
+ },
+ {
+  "packet": "3B_18",
+  "id": "3B-603",
+  "kind": "p2-hint",
+  "sev": "minor",
+  "text": "The hint asks 'Do they have to be on different molecules?' The donor and acceptor in any intermolecular hydrogen bond are always on different molecules, so the honest answer is yes, which does not point at the real issue (whether each molecule must have both a donor and an acceptor). It can confuse a student.",
+  "fix": "Ask whether both molecules must be able to donate."
+ },
+ {
+  "packet": "1A_01",
+  "id": "1A-524",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Forgetting the W to mW step gives 0.60 x (1/100) = 0.0060, not 60. The value 60 comes from multiplying by 100 instead of dividing (with no W to mW step), or from using 1 m = 10 cm. The feedback names the wrong mistake.",
+  "fix": "Replace the D feedback line."
+ },
+ {
+  "packet": "1A_01",
+  "id": "1A-524",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation says 60 forgets the W to mW step; forgetting it gives 0.0060. 60 = 0.60 x 100 (skips mW and multiplies by 100) or 0.60 x 1000 / 10.",
+  "fix": "Correct the description of the 60 distractor."
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-539",
+  "kind": "p2-feedback",
+  "sev": "error",
+  "text": "M2(PO4)3 does not need M3+: two M must balance 3 × (−3) = −9, which would require a charge of +4.5 per M, impossible. Saying it 'would need M³⁺' is false (M³⁺ gives MPO₄).",
+  "fix": "Replace the feedback line.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-539",
+  "kind": "p2-explanation",
+  "sev": "error",
+  "text": "States that M2(PO4)3 'also needs M^3+'. It would need +4.5 per M (2M = +9); M³⁺ gives MPO₄.",
+  "fix": "Correct the M₂(PO₄)₃ clause.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-547",
+  "kind": "p2-feedback",
+  "sev": "error",
+  "text": "8.0 mol = 2.0 × 4 uses only the subscript 4 INSIDE the parentheses (SO4), not the outer subscript (3). The line tells a student the wrong thing about their error and duplicates the description that belongs to choice A.",
+  "fix": "Replace the feedback line.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-547",
+  "kind": "p2-explanation",
+  "sev": "error",
+  "text": "Calls the 4 in (SO4)3 the 'outer subscript' and the 3 the 'inner' one; it is the reverse (4 is inside the parentheses, 3 is outside).",
+  "fix": "Swap inner/outer.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-221",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for CH4N states the corrected H ratio ('= 5, not 4'), which hands over CH5N before the retry.",
+  "fix": "Remove the result.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-544",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback states the full correct statement ('so there are 2.00 mol of atoms'), giving away choice B before the retry.",
+  "fix": "Remove the result.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-522",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback gives the exact final calculation (2.84 ÷ 0.405), which yields x = 7 directly.",
+  "fix": "Give the method without the numbers.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-522",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback gives the exact final calculation (2.84 ÷ 0.405), which yields x = 7 directly.",
+  "fix": "Give the method without the numbers.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-37",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback lays out the complete final calculation (0.902 ÷ 18.02 over 1.598 ÷ 159.61), handing over x before the retry.",
+  "fix": "Give the method without the numbers.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-348",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback gives the final calculation 32.06 ÷ 80.06, i.e. the answer.",
+  "fix": "Point to the method only.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-521",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback states the moles (0.500 mol), from which the answer is read straight off the H2O row of the table.",
+  "fix": "Point to the method only.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-25",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback spells out the entire correct calculation (÷100.09, ×6.022×10²³, ×3). 1.33×10²³ comes from a molar mass that omits two O atoms (68 g/mol), so the line should point at the molar mass.",
+  "fix": "Point at the molar mass error.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-220",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback gives the exact final calculation (10 × 18.016 out of 286.15).",
+  "fix": "Point to the method only.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-39",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback states the balanced products (8 CO₂ and 10 H₂O hold 26 O), which hands over 13 O₂.",
+  "fix": "Point to the method only.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1A_02",
+  "id": "1A-536",
+  "kind": "p2-hint",
+  "sev": "minor",
+  "text": "The hint lists all seven diatomic elements including N2, so it hands over the answer outright.",
+  "fix": "Describe the rule without listing nitrogen.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-52",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "med",
+  "text": "With game masses AgCl = 143.35 g/mol, 0.00750 mol gives 1.0751 g, which rounds to 1.08 g, not 1.07 g (1.07 only with 143.32)."
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-338",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "high",
+  "text": "Choice D is the particle-count equation including unreacted O2; A is the properly reduced equation, so A is best."
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-41",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation says 'The last choice is the molecular equation', but choices are shuffled in the game, so the position reference is wrong for most students.",
+  "fix": "Replace the position reference with the equation itself.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-447",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation refers to 'the last choice', but choices are shuffled, so the position reference is wrong for most students.",
+  "fix": "Name the equation instead of its position.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-52",
+  "kind": "p2-choices",
+  "sev": "minor",
+  "text": "With the game's atomic masses (Ag 107.9, Cl 35.45) AgCl = 143.35 g/mol, and 0.00750 mol × 143.35 = 1.0751 g, which rounds to 1.08 g. The explanation uses 143.32 to get 1.07 g, inconsistent with the stated mass table.",
+  "fix": "Change the correct choice to 1.08 g (and the B distractor to 1.08×10³ g, D to 2.15 g unchanged), and use 143.35 g mol⁻¹ in the explanation.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-49",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback gives the theoretical yield value (34.0 g), which hands the student the final calculation (25.5/34.0).",
+  "fix": "Replace the feedback line.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-50",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback spells out the exact final subtraction (4.00 g minus 2.63 g), giving away the answer.",
+  "fix": "Replace the feedback line.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-174",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback states that 1 O₂ is left over, which directly identifies the correct choice (6 SO₃ and 1 O₂).",
+  "fix": "Replace the feedback line.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-339",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback states that 2 O₂ are left, which is the correct choice outright.",
+  "fix": "Replace the feedback line.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-344",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback states that all 6 K⁺ and 6 NO₃⁻ stay dissolved, which is the correct choice outright.",
+  "fix": "Replace the feedback line.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-345",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback states the composition of the correct box (1 Ba²⁺ plus all spectators), giving away the answer.",
+  "fix": "Replace the feedback line.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-426",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "'The sign is wrong' tells the student the answer is −1 directly.",
+  "fix": "Replace the feedback line.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_03",
+  "id": "1A-440",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback says six H⁺ neutralize six OH⁻, which gives the number of H₂O (6) outright.",
+  "fix": "Replace the feedback line.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_04",
+  "id": "1A-180",
+  "kind": "p1-note",
+  "pick": "D",
+  "key": "D",
+  "conf": "high",
+  "text": "Uses solution mass 52.0 g (water + NaOH) -> -43.5 kJ/mol; using 50.0 g water only gives -41.8 (choice A). Stem says c for the solution, so D."
+ },
+ {
+  "packet": "1A_04",
+  "id": "1A-64",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for D states both correct signs (q > 0 and w > 0), which is the keyed answer A, shown before the retry.",
+  "fix": "D: \"Endothermic means heat flows into the system. Check the sign of q again.\"",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_04",
+  "id": "1A-66",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for C gives the full procedure with the numbers, (180.6 − 114.2) then halve, which yields the keyed +33.2 kJ directly.",
+  "fix": "C: \"This subtracts the second equation instead of adding it. Add the equations as written, then scale.\"",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1A_04",
+  "id": "1A-564",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for B gives the final computation (0.00400 mol ÷ 0.150 M = 26.7 mL), handing over the keyed answer.",
+  "fix": "B: \"This divides by 2 twice. Apply the 2:1 ratio only once.\"",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_04",
+  "id": "1A-62",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for B writes out ΔU = 250 + (−400), which is the keyed −150 J computation.",
+  "fix": "B: \"Recheck the sign convention: heat absorbed is +, work done by the system is −.\"",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_04",
+  "id": "1A-573",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "All three distractor feedback lines (B, C, D) say \"so ΔT stays the same\", which is the keyed answer A, shown before a retry.",
+  "fix": "B/C/D: \"Halving the volumes halves the heat released, but what else is halved?\"",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_04",
+  "id": "1A-559",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for B and for D both state \"O₂ runs out first\", naming the keyed answer C before a retry.",
+  "fix": "B: \"Compare moles ÷ coefficient for each reactant; CH4 is not the one that runs out.\" D: \"Equal moles do not mean equal consumption; check the coefficients.\"",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_05",
+  "id": "1A-579",
+  "kind": "p2-feedback",
+  "sev": "error",
+  "text": "Choice C (−395.7 kJ) is what you get by doubling equation 1 but adding equation 2 without reversing it: 2(−296.8) + 197.8 = −395.8 kJ. Forgetting to double equation 1 gives −296.8 − 197.8 = −494.6 kJ, not −395.7. The feedback names the wrong mistake.",
+  "fix": "Replace the feedback line for C.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1A_05",
+  "id": "1A-579",
+  "kind": "p2-explanation",
+  "sev": "error",
+  "text": "The explanation says '−395.7 forgets to double equation 1', but that slip gives −494.6 kJ. −395.7 (correctly −395.8) comes from doubling equation 1 and not reversing equation 2.",
+  "fix": "Correct the distractor description.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1A_05",
+  "id": "1A-579",
+  "kind": "p2-choices",
+  "sev": "minor",
+  "text": "Distractor C is −395.7 kJ, but the intended slip (2 × −296.8 + 197.8) gives −395.8 kJ.",
+  "fix": "Change choice C to −395.8 kJ.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1A_05",
+  "id": "1A-466",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "The explanation says III (Hund violation) and IV (Pauli violation) are 'not legal states, excited or otherwise'. A Hund's-rule violation is a real, allowed higher-energy state (1A-465 itself says so); only the Pauli violation is impossible. This contradicts 1A-465.",
+  "fix": "Distinguish Hund violation (allowed but excluded by the question) from Pauli violation (impossible).",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1A_06",
+  "id": "1A-421",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "The explanation refers to 'the second choice' and 'the third choice', but the game shuffles choices, so these ordinal references point to random options for students.",
+  "fix": "Name the choices by content instead of position."
+ },
+ {
+  "packet": "1A_06",
+  "id": "1A-478",
+  "kind": "p2-hint",
+  "sev": "minor",
+  "text": "The hint states that the 486 nm photon connects n = 2 and n = 4, which does the level-identification half of a difficulty-3 question for the student, leaving only the direction choice.",
+  "fix": "Have the student find the levels from the Balmer series instead of stating them."
+ },
+ {
+  "packet": "1A_06",
+  "id": "1A-246",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for +8 says 'Subtract the 10 core electrons from 16', which spells out the full calculation (16 − 10) before the retry.",
+  "fix": "Point to the core count without giving the arithmetic."
+ },
+ {
+  "packet": "1A_07",
+  "id": "1A-298",
+  "kind": "p1-note",
+  "pick": "C",
+  "key": "C",
+  "conf": "med",
+  "text": "Assumed a = CH2, b = CH, c = CH3 (a–b is the C=C)."
+ },
+ {
+  "packet": "1A_07",
+  "id": "1A-304",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "med",
+  "text": "Which O is 'far right' cannot be confirmed from SMILES alone (no raw coordinates); assumed the O− with 3 lone pairs."
+ },
+ {
+  "packet": "1A_07",
+  "id": "1A-294",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Retry feedback for +2 states the correct result outright ('5 − 0 − 4 gives +1').",
+  "fix": "Remove the computed result.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1A_07",
+  "id": "1A-295",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Retry feedback for −2 states the correct calculation and result ('4 − 2 − 3 = −1').",
+  "fix": "Remove the arithmetic and result.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_07",
+  "id": "1A-304",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Retry feedback for choice D (N +1, O 0) gives the oxygen's full calculation '6 − 6 − 1 = −1'; since D already has N +1, this hands over the keyed pair.",
+  "fix": "Remove the computed result.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_07",
+  "id": "1A-102",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Retry feedback for 0/0 writes out both full formal-charge expressions, 4 − (2 + 3) and 6 − (2 + 3), so the student only has to subtract.",
+  "fix": "Point to the method without the filled-in expressions.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_07",
+  "id": "1A-191",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Retry feedback for 0 gives the full expression '5 − 0 − 4', which is the answer one subtraction away.",
+  "fix": "Remove the filled-in expression.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_07",
+  "id": "1A-249",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Retry feedback for +4 gives the full expression '6 − 0 − 4', which is the answer one subtraction away.",
+  "fix": "Remove the filled-in expression.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_07",
+  "id": "1A-276",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Retry feedback for 6 says 'only 2 oxygens, each with 2 lone pairs', which states the answer (4).",
+  "fix": "Say only where the extra pairs were wrongly counted.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1A_08",
+  "id": "1A-383",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "med",
+  "text": "D ([S-]C#N) is also a major contributor in reality; A is the formal-charge (negative on more electronegative N) textbook answer."
+ },
+ {
+  "packet": "1A_08",
+  "id": "1A-384",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "med",
+  "text": "C (N-=N+=O) is also a significant contributor; A is preferred because the -1 charge sits on O."
+ },
+ {
+  "packet": "1A_08",
+  "id": "1A-284",
+  "kind": "p1-note",
+  "pick": "B",
+  "key": "B",
+  "conf": "med",
+  "text": "Assumed a = CH3 carbon, b = CH alkene carbon, c = nitrile carbon (tag indices are drawing indices); if c were the other alkene carbon, A would be right."
+ },
+ {
+  "packet": "1A_08",
+  "id": "1A-383",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "The shared feedback line says the choice has 'larger formal charges or the wrong skeleton', but D (S–C≡N with −1 on S) has the correct S–C–N skeleton and only a single −1 charge, the same size as the best structure. The line is false for D.",
+  "fix": "Give D its own line pointing to where the −1 sits.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_08",
+  "id": "1A-384",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "The shared feedback line says the choice has 'larger formal charges or the wrong atom order', but C (N=N=O with −1 on the end N, +1 on the middle N) has the correct N–N–O order and charges of the same size (+1, −1) as the best structure. The line is false for C.",
+  "fix": "Give C its own line pointing to which atom bears the −1 charge.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_08",
+  "id": "1A-285",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "The D feedback 'Count all 11 connections between the 12 atoms' gives away the σ count of the keyed answer (11 σ). The student only has to pick the choice with 11 σ and 2 π.",
+  "fix": "Point to the missed bonds without stating the total.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_08",
+  "id": "1A-324",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "The C feedback '8 electrons give a bond order of 2, and they're all paired' states both parts of the keyed answer (bond order 2, diamagnetic) before the retry.",
+  "fix": "Point to the step without stating the result.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_09",
+  "id": "1A-128",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Choice A (0.00485 mol) is not the flipped equation; RT/PV gives 2.04 (choice D). 0.00485 = (2.50)(5.00)/[(8.314)(310.15)], i.e. R = 8.314 J/(mol K) used with atm and L. The feedback misdiagnoses the slip.",
+  "fix": "Attribute A to the wrong value of R.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_09",
+  "id": "1A-128",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation names only the 4.12 mol slip; the A distractor (0.00485, from R = 8.314) is otherwise unexplained, and the A feedback blames a flipped equation that actually gives D.",
+  "fix": "Add a sentence on R = 8.314.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1A_09",
+  "id": "1A-126",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "531 mL = 500 × (740/760) × (298.15/273.15): the student did use kelvins but inverted the temperature ratio, so 'Redo it with kelvins' points at the wrong slip.",
+  "fix": "Say the temperature ratio is upside down.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1A_10",
+  "id": "1A-203",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "med",
+  "text": "NF3 is only weakly polar (about 0.2 D); dipole-dipole is the textbook answer but dispersion actually dominates its cohesion. Acceptable at course level."
+ },
+ {
+  "packet": "1A_10",
+  "id": "1A-492",
+  "kind": "p1-note",
+  "pick": "B",
+  "key": "B",
+  "conf": "med",
+  "text": "Figure puts water's normal melting point near -5 C and normal boiling point near 88-89 C on the 1 atm line, and the triple point at 0.06 atm; labeled not to scale, but a student reading the 1 atm line gets wrong values."
+ },
+ {
+  "packet": "1A_10",
+  "id": "1A-501",
+  "kind": "p1-note",
+  "pick": "B",
+  "key": "B",
+  "conf": "med",
+  "text": "Stem says 60 g is stirred in 'until no more dissolves', which implies saturation, but solubility at 50 C is 85 g so all 60 g dissolves and the solution is unsaturated; the phrase contradicts the intended answer."
+ },
+ {
+  "packet": "1A_10",
+  "id": "1A-266",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "154 comes from 10.0 × 40.70 kJ ÷ 2.636 kJ = 154, i.e. treating ΔHvap as kJ per gram and multiplying by the grams of steam. The explanation says it 'uses ΔH_vap per mole instead of per 10.0 g', which misdescribes the error (using one mole would give 15.4).",
+  "fix": "Describe the 154 distractor as treating ΔHvap as per gram."
+ },
+ {
+  "packet": "1A_10",
+  "id": "1A-266",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "154 = 10.0 × 40.70 ÷ 2.636: the student multiplied ΔHvap by the grams of steam (treated it as per gram). The line 'uses ΔH_vap per mole instead of for 10.0 g' does not describe that error.",
+  "fix": "Point to the gram-to-mole conversion."
+ },
+ {
+  "packet": "1A_10",
+  "id": "1A-207",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Choice B shows Cl^−2 (a 2− charge), but the feedback writes Cl₂⁻ (a subscript 2, a different species), so it does not match the choice it corrects.",
+  "fix": "Write the charge as a superscript."
+ },
+ {
+  "packet": "1A_10",
+  "id": "1A-501",
+  "kind": "p2-stem",
+  "sev": "error",
+  "text": "The stem says 60 g KNO3 is stirred into 100 g water at 50 °C 'until no more dissolves', which literally describes a saturated solution (choice A). The curve reads 85 g at 50 °C, so all 60 g dissolves and the keyed answer is unsaturated. A careful reader of the stem can be mis-graded.",
+  "fix": "Using the solubility curves, classify a solution made by stirring 60 g of KNO3 into 100 g of water at 50 °C until all of the solid has dissolved."
+ },
+ {
+  "packet": "1A_10",
+  "id": "1A-492",
+  "kind": "p2-stem",
+  "sev": "minor",
+  "text": "The sketch places the 1 atm line so that ice melts near −5.8 °C and water boils near 88.6 °C (vapor curve hits 1 atm between 87 and 90 °C), with the triple point at 0 °C and 0.06 atm. Even labeled 'not to scale', a student reading the drawn 1 atm line gets wrong normal melting and boiling points for water. The key is unaffected.",
+  "fix": "Redraw so the melting line crosses 1 atm at 0 °C and the vapor curve crosses 1 atm at 100 °C (e.g. triple point at about 0.01 °C and a low pressure), or drop the 1 atm line."
+ },
+ {
+  "packet": "1B_01",
+  "id": "1B-386",
+  "kind": "p1-mismatch",
+  "pick": "D",
+  "key": "B",
+  "conf": "med",
+  "text": "Step barriers read from plot: step 1 about 54-55 kJ (0 to ~55), step 2 about 39-40 kJ (30 to ~69), step 3 about 17 kJ. Step 2 has the highest transition state, but step 1 has the largest individual Ea; if the course rule is \"largest Ea\" then B (step 1) is right. Ambiguous between B and D."
+ },
+ {
+  "packet": "1B_01",
+  "id": "1B-386",
+  "kind": "p2-key",
+  "sev": "error",
+  "text": "Choices B (step 1) and D (step 2) are both defensible. Step 1 has the largest single barrier (figure: 0 to about 55 kJ), but step 2 has the highest transition state on the diagram (about 69 kJ by the figure, 80 kJ by the explanation). Many texts, and this same bank's 1B-162 hint ('The step with the highest peak controls the rate'), teach the highest-peak rule, which gives D. A student following the bank's own rule is marked wrong.",
+  "fix": "Redraw the diagram so step 1 has both the largest barrier and the highest transition state (e.g. peaks at 80, 60, 40 kJ with valleys at 30 and 20), or replace choice D with a distractor that is unambiguously wrong (e.g. '3 intermediates; step 1').",
+  "pick": "B/D",
+  "key": "B"
+ },
+ {
+  "packet": "1B_01",
+  "id": "1B-386",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "The explanation's energies do not match the plotted points. Peaks are plotted at about 54, 69 and 37 kJ (points (1.586, 54.35), (3.886, 68.7), (6.186, 36.82)), but the explanation says 60, 80 and 50 kJ, so the stated barriers 60, 50, 30 kJ do not match what students read (about 55, 39, 17 kJ).",
+  "fix": "Either regenerate the figure so its peaks are at 60, 80 and 50 kJ, or rewrite the numbers to match the figure."
+ },
+ {
+  "packet": "1B_01",
+  "id": "1B-386",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "States step 3's barrier is 30 kJ; the plotted step 3 climbs from 20 to about 37 kJ (about 17 kJ).",
+  "fix": "Remove the specific number or match the figure."
+ },
+ {
+  "packet": "1B_01",
+  "id": "1B-386",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "States step 2's barrier is 50 kJ; the plotted step 2 climbs from 30 to about 69 kJ (about 39 kJ).",
+  "fix": "Remove the specific number or match the figure."
+ },
+ {
+  "packet": "1B_01",
+  "id": "1B-162",
+  "kind": "p2-hint",
+  "sev": "minor",
+  "text": "The hint teaches 'the step with the highest peak controls the rate', while the 1B-386 hint teaches the opposite ('not the highest peak overall'). Here both rules agree, but the bank gives students contradictory rules.",
+  "fix": "Make the rule consistent across the bank."
+ },
+ {
+  "packet": "1B_01",
+  "id": "1B-9",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "The feedback for D names the right answer ('fits second order') before a retry.",
+  "fix": "Explain why third order fails without naming the answer."
+ },
+ {
+  "packet": "1B_01",
+  "id": "1B-279",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Point e is the products (a minimum), not a transition state of any step; the line 'isn't step 1's transition state' also points the student to step 1's peak.",
+  "fix": "Say what e is."
+ },
+ {
+  "packet": "1B_01",
+  "id": "1B-384",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "44 s does not come from the initial rate: the initial rate is k(0.80) = 0.0222 M/s, giving 0.70/0.0222 = 31.5 s. 44 s comes from the average rate over the first half-life (0.40 M per 25 s = 0.016 M/s; 0.70/0.016 = 43.75 s).",
+  "fix": "Describe the distractor correctly."
+ },
+ {
+  "packet": "1B_02",
+  "id": "1B-170",
+  "kind": "p1-note",
+  "pick": "D",
+  "key": "D",
+  "conf": "high",
+  "text": "Approximation gives [H2]=4.3e-3 M; exact cubic gives 4.25e-3 (rounds to 4.2e-3). Approximation within 5%, so D acceptable."
+ },
+ {
+  "packet": "1B_02",
+  "id": "1B-286",
+  "kind": "p1-note",
+  "pick": "B",
+  "key": "B",
+  "conf": "high",
+  "text": "Box IV has 14 A atoms vs 12 before; only box I conserves atoms and shifts toward A."
+ },
+ {
+  "packet": "1B_02",
+  "id": "1B-416",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation says the error 'gives the second choice'; choices are shuffled in the game, so 'second choice' points at a random option.",
+  "fix": "Name the choice by content instead of position.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1B_02",
+  "id": "1B-417",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation calls the keyed mechanism 'the first mechanism'; choices are shuffled, and in this packet the first listed mechanism is the slow 2 NO step, which is wrong. A student could read it as endorsing that one.",
+  "fix": "Identify the mechanism by its features.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1B_02",
+  "id": "1B-39",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for D (0.114 = 0.16/1.40) states the full final calculation Kp = (0.40)(0.40)/0.60, handing over the answer before the retry.",
+  "fix": "Point to the error (dividing by the total pressure) without the final setup.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1B_02",
+  "id": "1B-287",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for D (1.2, which is just [B]) gives the full calculation K = [B]²/[A] with [A] = 0.40 M and [B] = 1.20 M, handing over the answer.",
+  "fix": "Say what the student did wrong without the numbers.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1B_02",
+  "id": "1B-42",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for A gives the complete final calculation [NO] = √(K × 0.80 × 0.20), so the retry is just a button press.",
+  "fix": "Point at the setup without the plugged-in formula.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1B_02",
+  "id": "1B-30",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for D states the final calculation x = √(K × 0.100), giving the answer away before the retry.",
+  "fix": "Hint at the error without the full formula.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1B_03",
+  "id": "1B-54",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback says 2.0×10^9 comes from dividing Ka by Kw, but Ka/Kw = 4.9×10^4. 2.0×10^9 is 1/Ka (Kw left out).",
+  "fix": "Describe the actual error: 1/Ka with Kw omitted.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1B_03",
+  "id": "1B-63",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback 'pOH = 14.00 − 3.60.' hands over the final calculation (10.40) before the retry.",
+  "fix": "Point the student to recheck the pH without giving the subtraction.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1B_03",
+  "id": "1B-63",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback 'pOH = 14.00 − 3.60.' hands over the final calculation (10.40) before the retry.",
+  "fix": "Point to the method without the numbers.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1B_03",
+  "id": "1B-64",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Calling HNO2 a 'strong-ish acid' is misleading; HNO2 (Ka 4.5×10^−4) is a weak acid.",
+  "fix": "Describe it as one of the stronger weak acids in the table.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1B_03",
+  "id": "1B-234",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback gives the solved x = 0.0098 M, from which the pH (0.96) follows immediately.",
+  "fix": "Remove the value of x.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1B_04",
+  "id": "1B-82",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for D states the correct answer outright (pKa = 9.0, which is keyed choice A), and it is shown before a retry.",
+  "fix": "Remove the computed value from the line.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1B_04",
+  "id": "1B-365",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for B ends with the full final calculation (Ka = 10^(−3.75)), handing over the keyed answer before a retry.",
+  "fix": "Drop the final calculation.",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1B_04",
+  "id": "1B-432",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for D gives the final calculation ([OH⁻] = 10^(−3.50)), which is the keyed answer, before a retry.",
+  "fix": "Drop the final calculation.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1B_04",
+  "id": "1B-78",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for C gives the final calculation (Ka = 10^(−4.20)), which is the keyed answer, before a retry.",
+  "fix": "Drop the final calculation.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1B_05",
+  "id": "1B-91",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for D (2.8x10^-4 M) says 'This is half the right value', which lets the student double it and read off 5.6x10^-4 M (A) before the retry.",
+  "fix": "D feedback: 'This divides by 2 somewhere it doesn't belong. Use s = Ksp ÷ [OH⁻]² with [OH⁻] from the pOH.'",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1B_05",
+  "id": "1B-183",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for B (1.1x10^-5) says 'This is twice the right value', handing over 5.6x10^-6 (D).",
+  "fix": "B feedback: '[Ca²⁺] is half of [OH⁻], not equal to it.'",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1B_05",
+  "id": "1B-97",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for D says 'This is 100 times too large' (6.9x10^-14 / 100 = 6.9x10^-16 = B), and feedback for A gives the complete formula 0.010 ÷ (Kf × 0.96⁴); either one hands over the answer.",
+  "fix": "D feedback: 'Check the power of ten when dividing by Kf.' A feedback: 'Assume nearly all Cu²⁺ is complexed, then solve Kf for [Cu²⁺] using the free NH₃ left over.'",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1B_05",
+  "id": "1B-93",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "B and C share Q = 2.5x10^-5; B's feedback 'Q is less than Ksp, so no precipitate forms' identifies C outright.",
+  "fix": "B feedback: 'Your Q is right. Compare it with Ksp again.'",
+  "pick": "C",
+  "key": "C"
+ },
+ {
+  "packet": "1B_05",
+  "id": "1B-301",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "B and D share Q = 1.2x10^-8; D's feedback 'Q is greater than Ksp, so it precipitates' identifies B outright.",
+  "fix": "D feedback: 'Your Q is right. Compare 1.2×10⁻⁸ with 9.8×10⁻⁹ again.'",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1B_05",
+  "id": "1B-445",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for C ('F⁻ runs out first') and D ('Ca²⁺ is in excess') each state the leftover ion, which identifies B.",
+  "fix": "C feedback: 'Check the 1:2 ratio: how many mmol of Ca²⁺ can 0.40 mmol F⁻ remove?' D feedback: 'The ions are not consumed 1:1 and did not start 1:2. Work out which one is left over.'",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1B_07",
+  "id": "1B-198",
+  "kind": "p2-hint",
+  "sev": "error",
+  "text": "The hint gives E = (0.0592/n) log([H+]cathode/[H+]anode) with the ratio unsquared. With n = 2 (the n the explanation uses) this gives E = 0.0296 pH, so pH = 0.237/0.0296 = 8.01, which is distractor D. The hint leads students to a wrong answer.",
+  "fix": "Square the concentration ratio (or use n = 1 with the unsquared ratio).",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1B_07",
+  "id": "1B-126",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "The line says '2 H⁺ are neutralized', which tells the student the OH⁻ count (2). Together with the D line ('OH⁻ ends up on the product side') it gives away the answer before a retry.",
+  "fix": "Point to the step without stating the count.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1B_07",
+  "id": "1B-126",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Same line as B: 'Count again: 2 H⁺ are neutralized' states the OH⁻ coefficient outright.",
+  "fix": "Point to the step without stating the count.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1B_07",
+  "id": "1B-136",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "'This is half the right mass' tells the student to double 0.741 g, which gives the answer (1.48 g) directly, and does not say what error produces it.",
+  "fix": "Point to the likely error instead.",
+  "pick": "A",
+  "key": "A"
+ },
+ {
+  "packet": "1B_08",
+  "id": "1B-408",
+  "kind": "p1-note",
+  "pick": "A",
+  "key": "A",
+  "conf": "high",
+  "text": "Table lists both 580-595 (yellow) and 595-650 (orange) as observed blue; harmless here, but yellow absorbed should give blue-violet/violet-blue."
+ },
+ {
+  "packet": "1B_08",
+  "id": "1B-375",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Feedback for A states the full answer (electrons go from A to B), which is shown before a retry.",
+  "fix": "Point the student to identifying the anode instead of stating the direction.",
+  "pick": "B",
+  "key": "B"
+ },
+ {
+  "packet": "1B_08",
+  "id": "1B-376",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "'Cations, not anions, move toward B' tells the student anions go toward A; the only remaining 'toward A' choice is the key, so the retry is given away.",
+  "fix": "Ask the student to find which compartment gains positive charge.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1B_08",
+  "id": "1B-376",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "'Ions move toward B ... but those are cations' likewise implies anions go to A, giving away the key on retry.",
+  "fix": "Remove the implication of direction for anions.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1B_08",
+  "id": "1B-471",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "'No current flows at all' restates the keyed choice D ('no current flows') before the retry.",
+  "fix": "Correct the electron-flow statement without describing this cell's outcome.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1B_08",
+  "id": "1B-332",
+  "kind": "p2-explanation",
+  "sev": "minor",
+  "text": "Explanation says 'the first pair are linkage isomers', but choices are shuffled, so the nitro/nitrito pair is not necessarily first; a student may look at the wrong pair.",
+  "fix": "Name the pair instead of its position.",
+  "pick": "D",
+  "key": "D"
+ },
+ {
+  "packet": "1B_09",
+  "id": "1B-478",
+  "kind": "p1-note",
+  "pick": "B",
+  "key": "B",
+  "conf": "med",
+  "text": "Choice A has no raw drawing; its SMILES [H]O[H]O([H])[H] suggests an H drawn with solid bonds to two O atoms, so it cannot be a correct H-bond picture. B is the only linear O-H...O dotted contact."
+ },
+ {
+  "packet": "1B_09",
+  "id": "1B-157",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Choice A (2.01×10³ yr) is 0.350 × 5730 = 2006 yr, i.e. t½ multiplied by the fraction remaining, not a linear-decay error. The linear-decay distractor is D: (0.650/0.500) × 5730 = 7449 yr = 7.45×10³ yr. So the line attached to A describes D's mistake.",
+  "fix": "Swap the descriptions between A and D."
+ },
+ {
+  "packet": "1B_09",
+  "id": "1B-157",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Choice D (7.45×10³ yr) is the linear-decay answer (0.650 lost at 0.500 per half-life × 5730 yr = 7449 yr); the generic line does not name that mistake while A's line wrongly does.",
+  "fix": "Name the linear-decay error on D."
+ },
+ {
+  "packet": "1B_09",
+  "id": "1B-395",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Choice C (0.1480 u) is 16(1.00866) − 15.99052 = 0.14804 u, i.e. the neutron mass used for all 16 nucleons. The current line spells out the full setup of the correct calculation, which nearly hands over the answer before a retry, and does not name the error.",
+  "fix": "Name the actual error."
+ },
+ {
+  "packet": "1B_09",
+  "id": "1B-485",
+  "kind": "p2-feedback",
+  "sev": "minor",
+  "text": "Choice C (3.69 kJ) is 150 ÷ 40.7 = 3.686, i.e. grams divided by ΔHvap with no mole conversion at all; the line says only that it divides instead of multiplying (8.32 ÷ 40.7 would be 0.204). The explanation's matching sentence has the same gap.",
+  "fix": "Mention both errors."
+ }
+]

@@ -1,0 +1,1514 @@
+[
+ {
+  "id": "3A-31",
+  "field": "x[2]",
+  "old": "Radio waves have the lowest frequency of these, so they come before microwaves.",
+  "new": "Check which of these has the longest wavelength; longest wavelength means lowest frequency.",
+  "why": "Feedback for B ('Radio waves have the lowest frequency of these, so they come before microwaves') and for D ('Radio waves ... have the lowest frequency, and ultraviolet has the highest') each identify",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-31",
+  "field": "x[3]",
+  "old": "Radio waves, not infrared, have the lowest frequency, and ultraviolet has the highest.",
+  "new": "Infrared does not have the lowest frequency of these. Compare the wavelengths again.",
+  "why": "Feedback for B ('Radio waves have the lowest frequency of these, so they come before microwaves') and for D ('Radio waves ... have the lowest frequency, and ultraviolet has the highest') each identify",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-279",
+  "field": "x[3]",
+  "old": "Each CaCO₃ has exactly 3 O atoms. Multiply the formula units by 3.",
+  "new": "This uses only calcium's mass (40.08 g/mol). Use the molar mass of the whole CaCO₃.",
+  "why": "Distractor A (1.88×10^22) does not come from leaving out the ×3. Dividing 1.25 g by Ca's mass alone (40.08) gives 1.878×10^22; leaving out the ×3 gives 7.52×10^21, which is choice D. So feedback A ('M",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-272",
+  "field": "x[1]",
+  "old": "Heat flows into the sweat, not out of it, and evaporation absorbs heat.",
+  "new": "Does evaporation need energy or give it off? Decide which way heat must flow.",
+  "why": "Feedback for B (\"Heat flows into the sweat... evaporation absorbs heat\") and for D (\"Heat flows into the sweat, so the skin cools\") together state every part of choice A, so they hand over the answer ",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-272",
+  "field": "x[2]",
+  "old": "Heat flows into the sweat, so the skin cools.",
+  "new": "Check the direction of heat flow for an endothermic process, and what that does to the skin.",
+  "why": "Feedback for B (\"Heat flows into the sweat... evaporation absorbs heat\") and for D (\"Heat flows into the sweat, so the skin cools\") together state every part of choice A, so they hand over the answer ",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-361",
+  "field": "x[3]",
+  "old": "Pentane counts the CH<sub>3</sub> branch as part of the main chain. The longest chain that holds the –SH has fewer carbons.",
+  "new": "3-Methyl-1-pentanethiol has six carbons in all, but this molecule has only five. Count the longest chain holding the –SH, then count the branch separately.",
+  "why": "Feedback for A (3-methyl-1-pentanethiol) and the explanation say this name 'counts the CH3 branch into the chain'. Counting the branch into a pentane chain would give 1-pentanethiol with no methyl; 3-",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-766",
+  "field": "x[2]",
+  "old": "C is a prostaglandin: one five-membered ring with two side chains, made from a 20-carbon fatty acid.",
+  "new": "This is a prostaglandin: one five-membered ring with two side chains, made from a 20-carbon fatty acid.",
+  "why": "Feedback lines name drawings by letter from a different order: feedback for A (the prostaglandin) says 'C is a prostaglandin', for B (the fatty acid) says 'D is a straight-chain fatty acid', for C (re",
+  "cat": "position"
+ },
+ {
+  "id": "3B-766",
+  "field": "x[3]",
+  "old": "D is a straight-chain fatty acid (12 carbons) with no ring at all.",
+  "new": "This is a straight-chain fatty acid (12 carbons) with no ring at all.",
+  "why": "Feedback lines name drawings by letter from a different order: feedback for A (the prostaglandin) says 'C is a prostaglandin', for B (the fatty acid) says 'D is a straight-chain fatty acid', for C (re",
+  "cat": "position"
+ },
+ {
+  "id": "3B-766",
+  "field": "x[1]",
+  "old": "B is retinol (vitamin A): one six-membered ring with a long chain of alternating double bonds, not four fused rings.",
+  "new": "This is retinol (vitamin A): one six-membered ring with a long chain of alternating double bonds, not four fused rings.",
+  "why": "Feedback lines name drawings by letter from a different order: feedback for A (the prostaglandin) says 'C is a prostaglandin', for B (the fatty acid) says 'D is a straight-chain fatty acid', for C (re",
+  "cat": "position"
+ },
+ {
+  "id": "3B-177",
+  "field": "x[3]",
+  "old": "129 uses the older values of 3 ATP per NADH and 2 per FADH<sub>2</sub>. Use the values in the table.",
+  "new": "129 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH2. Use the values in the table.",
+  "why": "Explanation and feedback B say 129 comes from using 3 ATP/NADH and 2 ATP/FADH2. With the table value of 10 ATP per acetyl CoA, those older values give 80+21+14-2 = 113, not 129; 129 also requires the ",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-317",
+  "field": "x[3]",
+  "old": "197 uses the older values of 3 ATP per NADH and 2 per FADH<sub>2</sub>. Use the values in the table.",
+  "new": "197 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH2. Use the values in the table.",
+  "why": "Explanation and feedback C say 197 comes from using 3 ATP/NADH and 2 ATP/FADH2. With 10 ATP per acetyl CoA that gives 120+55-2 = 173; 197 also needs the older 12 ATP per acetyl CoA (144+55-2).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-965",
+  "field": "x[2]",
+  "old": "This double-counts. ATP → AMP breaks two high-energy phosphate bonds, and each bond is counted as one ATP.",
+  "new": "This double-counts. Check how many high-energy phosphate bonds are actually broken when one ATP becomes AMP; it is fewer than four.",
+  "why": "Feedback for '4 ATP' says ATP → AMP breaks two high-energy bonds and each counts as one ATP, which hands over the answer (2 ATP) before the retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-524",
+  "field": "x[3]",
+  "old": "This forgets to change W to mW.",
+  "new": "Check both factors: W to mW multiplies by 1000, and since m is in the denominator, 1 m = 100 cm divides by 100.",
+  "why": "Forgetting the W to mW step gives 0.60 x (1/100) = 0.0060, not 60. The value 60 comes from multiplying by 100 instead of dividing (with no W to mW step), or from using 1 m = 10 cm. The feedback names ",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-539",
+  "field": "x[2]",
+  "old": "M₂(PO₄)₃ would need M³⁺.",
+  "new": "In M₂(PO₄)₃, two M ions would have to balance a 9− charge, which no whole-number charge can do. Find the charge on M from MO first.",
+  "why": "M2(PO4)3 does not need M3+: two M must balance 3 × (−3) = −9, which would require a charge of +4.5 per M, impossible. Saying it 'would need M³⁺' is false (M³⁺ gives MPO₄).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-547",
+  "field": "x[2]",
+  "old": "This uses only the outer subscript.",
+  "new": "This uses only the 4 inside the parentheses. The 3 outside multiplies every atom in SO₄.",
+  "why": "8.0 mol = 2.0 × 4 uses only the subscript 4 INSIDE the parentheses (SO4), not the outer subscript (3). The line tells a student the wrong thing about their error and duplicates the description that be",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-221",
+  "field": "x[1]",
+  "old": "Recheck H: 16.09 ÷ 3.220 = 5, not 4.",
+  "new": "Recheck the hydrogen: divide its moles by the smallest mole value carefully.",
+  "why": "Feedback for CH4N states the corrected H ratio ('= 5, not 4'), which hands over CH5N before the retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-544",
+  "field": "x[1]",
+  "old": "Each O₂ molecule has 2 atoms, so there are 2.00 mol of atoms.",
+  "new": "Each O₂ molecule contains two oxygen atoms. Recount the moles of atoms.",
+  "why": "Feedback states the full correct statement ('so there are 2.00 mol of atoms'), giving away choice B before the retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-522",
+  "field": "x[2]",
+  "old": "Divide moles of water by moles of MgSO₄: 2.84 ÷ 0.405.",
+  "new": "Convert both the MgSO₄ mass and the water mass to moles, then recheck the ratio of water to MgSO₄.",
+  "why": "Feedback gives the exact final calculation (2.84 ÷ 0.405), which yields x = 7 directly.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-522",
+  "field": "x[3]",
+  "old": "Divide moles of water by moles of MgSO₄: 2.84 ÷ 0.405.",
+  "new": "Recheck the mole ratio of water to MgSO₄; 6 is not what the percentages give.",
+  "why": "Feedback gives the exact final calculation (2.84 ÷ 0.405), which yields x = 7 directly.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-37",
+  "field": "x[1]",
+  "old": "Divide moles of water (0.902 g ÷ 18.02) by moles of CuSO₄ (1.598 g ÷ 159.61).",
+  "new": "Recheck the mole ratio of water to CuSO₄; the mass lost on heating is the water.",
+  "why": "Feedback lays out the complete final calculation (0.902 ÷ 18.02 over 1.598 ÷ 159.61), handing over x before the retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-348",
+  "field": "x[3]",
+  "old": "Mass percent uses masses: 32.06 ÷ 80.06.",
+  "new": "66.7% is not a mass percent. Use the molar mass of S and of the whole molecule.",
+  "why": "Feedback gives the final calculation 32.06 ÷ 80.06, i.e. the answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-521",
+  "field": "x[3]",
+  "old": "This uses too few moles. 8.52 ÷ 17.03 = 0.500 mol.",
+  "new": "Recheck the moles of NH₃ using its molar mass, 17.03 g/mol.",
+  "why": "Feedback states the moles (0.500 mol), from which the answer is read straight off the H2O row of the table.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-25",
+  "field": "x[3]",
+  "old": "Convert grams to moles (100.09 g/mol), then × 6.022×10²³ × 3.",
+  "new": "Recheck the molar mass of CaCO₃: it has three O atoms per formula unit.",
+  "why": "Feedback spells out the entire correct calculation (÷100.09, ×6.022×10²³, ×3). 1.33×10²³ comes from a molar mass that omits two O atoms (68 g/mol), so the line should point at the molar mass.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-220",
+  "field": "x[2]",
+  "old": "Water's share is 10 × 18.016 g out of 286.15 g.",
+  "new": "Recheck which mass you divided: the water share must include all ten H₂O molecules in the formula.",
+  "why": "Feedback gives the exact final calculation (10 × 18.016 out of 286.15).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-39",
+  "field": "x[1]",
+  "old": "Count the O atoms on the right: 8 CO₂ and 10 H₂O hold 26 O.",
+  "new": "Recount the O atoms on the product side after balancing C and H, and remember each O₂ carries two.",
+  "why": "Feedback states the balanced products (8 CO₂ and 10 H₂O hold 26 O), which hands over 13 O₂.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-49",
+  "field": "x[3]",
+  "old": "The theoretical yield must come from the limiting reactant, N₂ (34.0 g).",
+  "new": "Recheck the theoretical yield. Use the limiting reactant and apply the N₂ to NH₃ mole ratio only once.",
+  "why": "Feedback gives the theoretical yield value (34.0 g), which hands the student the final calculation (25.5/34.0).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-50",
+  "field": "x[3]",
+  "old": "Subtract the O₂ used (2.63 g) from the 4.00 g you started with.",
+  "new": "Recheck how much O₂ the Mg actually consumes, using the 2 : 1 mole ratio of Mg to O₂, before finding what is left.",
+  "why": "Feedback spells out the exact final subtraction (4.00 g minus 2.63 g), giving away the answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-174",
+  "field": "x[3]",
+  "old": "6 SO₂ need only 3 O₂, so only 1 O₂ is left over.",
+  "new": "Recount the O₂ consumed using the 2 : 1 ratio of SO₂ to O₂. Atoms must be conserved.",
+  "why": "Feedback states that 1 O₂ is left over, which directly identifies the correct choice (6 SO₃ and 1 O₂).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-339",
+  "field": "x[2]",
+  "old": "6 H₂ use 3 of the 5 O₂, so only 2 are left.",
+  "new": "H₂ is limiting, but recount how many O₂ the 6 H₂ consume using the 2 : 1 ratio.",
+  "why": "Feedback states that 2 O₂ are left, which is the correct choice outright.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-344",
+  "field": "x[3]",
+  "old": "All 6 K⁺ and 6 NO₃⁻ stay dissolved.",
+  "new": "Spectator ions are not used up. Recount the K⁺ and NO₃⁻ in the two starting boxes.",
+  "why": "Feedback states that all 6 K⁺ and 6 NO₃⁻ stay dissolved, which is the correct choice outright.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-345",
+  "field": "x[3]",
+  "old": "SO₄²⁻ is limiting, leaving 1 Ba²⁺ plus all the spectators.",
+  "new": "Box IV keeps a sulfate ion and has lost some Cl⁻. Recheck which of Ba²⁺ and SO₄²⁻ runs out first, and keep every spectator ion.",
+  "why": "Feedback states the composition of the correct box (1 Ba²⁺ plus all spectators), giving away the answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-426",
+  "field": "x[2]",
+  "old": "The sign is wrong.",
+  "new": "Oxygen is more electronegative than sodium, so it cannot have a positive oxidation number here.",
+  "why": "'The sign is wrong' tells the student the answer is −1 directly.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-440",
+  "field": "x[3]",
+  "old": "Balance it fully. Six H⁺ neutralize six OH⁻.",
+  "new": "Balance it fully. Count the H⁺ supplied by all the acid molecules and match each with one OH⁻.",
+  "why": "Feedback says six H⁺ neutralize six OH⁻, which gives the number of H₂O (6) outright.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-66",
+  "field": "x[2]",
+  "old": "Add the two equations (180.6 − 114.2), then halve.",
+  "new": "This subtracts the second equation instead of adding it. Add the equations as written, then scale.",
+  "why": "Feedback for C gives the full procedure with the numbers, (180.6 − 114.2) then halve, which yields the keyed +33.2 kJ directly.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-564",
+  "field": "x[3]",
+  "old": "This halves too much. 0.00400 mol ÷ 0.150 M.",
+  "new": "This divides by 2 twice. Apply the 2:1 ratio only once.",
+  "why": "Feedback for B gives the final computation (0.00400 mol ÷ 0.150 M = 26.7 mL), handing over the keyed answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-62",
+  "field": "x[2]",
+  "old": "This subtracts the wrong way. ΔU = q + w = 250 + (−400).",
+  "new": "Recheck the sign convention: heat absorbed is +, work done by the system is −.",
+  "why": "Feedback for B writes out ΔU = 250 + (−400), which is the keyed −150 J computation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-573",
+  "field": "x[3]",
+  "old": "Half the heat warms half the mass, so ΔT stays the same.",
+  "new": "Halving the volumes halves the heat released, but what else is halved?",
+  "why": "All three distractor feedback lines (B, C, D) say \"so ΔT stays the same\", which is the keyed answer A, shown before a retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-573",
+  "field": "x[1]",
+  "old": "Half the heat warms half the mass, so ΔT stays the same.",
+  "new": "Halving the volumes halves the heat released, but what else is halved?",
+  "why": "All three distractor feedback lines (B, C, D) say \"so ΔT stays the same\", which is the keyed answer A, shown before a retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-573",
+  "field": "x[2]",
+  "old": "Half the heat warms half the mass, so ΔT stays the same.",
+  "new": "Halving the volumes halves the heat released, but what else is halved?",
+  "why": "All three distractor feedback lines (B, C, D) say \"so ΔT stays the same\", which is the keyed answer A, shown before a retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-559",
+  "field": "x[3]",
+  "old": "With equal moles, O₂ runs out first (each CH₄ needs 2 O₂).",
+  "new": "Equal moles do not mean equal consumption; check the coefficients.",
+  "why": "Feedback for B and for D both state \"O₂ runs out first\", naming the keyed answer C before a retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-579",
+  "field": "x[1]",
+  "old": "This forgets to double equation 1.",
+  "new": "This adds equation 2 as written. Equation 2 must be reversed so SO₂ cancels, and reversing it changes the sign of its ΔH°.",
+  "why": "Choice C (−395.7 kJ) is what you get by doubling equation 1 but adding equation 2 without reversing it: 2(−296.8) + 197.8 = −395.8 kJ. Forgetting to double equation 1 gives −296.8 − 197.8 = −494.6 kJ,",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-246",
+  "field": "x[3]",
+  "old": "Subtract the 10 core electrons from 16.",
+  "new": "Recount the core electrons: sulfur's core is the whole [Ne] configuration, not 8 electrons.",
+  "why": "Feedback for +8 says 'Subtract the 10 core electrons from 16', which spells out the full calculation (16 − 10) before the retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-294",
+  "field": "x[3]",
+  "old": "5 − 0 − 4 gives +1, not +2.",
+  "new": "Recount: N has no lone pairs, and each bond counts once toward N. How many bonds does N actually have?",
+  "why": "Retry feedback for +2 states the correct result outright ('5 − 0 − 4 gives +1').",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-295",
+  "field": "x[3]",
+  "old": "This is too negative. 4 − 2 − 3 = −1.",
+  "new": "This is too negative. Count the lone-pair electrons on this carbon again: it has only one lone pair.",
+  "why": "Retry feedback for −2 states the correct calculation and result ('4 − 2 − 3 = −1').",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-304",
+  "field": "x[3]",
+  "old": "The right O has 3 lone pairs and 1 bond: 6 − 6 − 1 = −1.",
+  "new": "Recheck the right-hand O: count its lone pairs and its bonds, and compare with a neutral O, which has 2 lone pairs and 2 bonds.",
+  "why": "Retry feedback for choice D (N +1, O 0) gives the oxygen's full calculation '6 − 6 − 1 = −1'; since D already has N +1, this hands over the keyed pair.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-102",
+  "field": "x[1]",
+  "old": "Work it out: C has 4 − (2 + 3) and O has 6 − (2 + 3). Neither is zero.",
+  "new": "Apply the formal-charge formula to each atom, counting the lone pair and all three bonds. Neither atom comes out zero.",
+  "why": "Retry feedback for 0/0 writes out both full formal-charge expressions, 4 − (2 + 3) and 6 − (2 + 3), so the student only has to subtract.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-191",
+  "field": "x[1]",
+  "old": "N has 4 bonds and no lone pairs, so the formula gives 5 − 0 − 4.",
+  "new": "N has 4 bonds and no lone pairs here. Apply the formal-charge formula with those numbers instead of assuming N is neutral.",
+  "why": "Retry feedback for 0 gives the full expression '5 − 0 − 4', which is the answer one subtraction away.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-249",
+  "field": "x[3]",
+  "old": "S has 4 bonds and no lone pairs: 6 − 0 − 4.",
+  "new": "Each bond counts only once toward sulfur (half of its 2 electrons). Recount using 4 bonds and no lone pairs.",
+  "why": "Retry feedback for +4 gives the full expression '6 − 0 − 4', which is the answer one subtraction away.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-276",
+  "field": "x[2]",
+  "old": "Acetic acid has only 2 oxygens, each with 2 lone pairs.",
+  "new": "Only the oxygens carry lone pairs here. Carbon and hydrogen have none in acetic acid.",
+  "why": "Retry feedback for 6 says 'only 2 oxygens, each with 2 lone pairs', which states the answer (4).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-285",
+  "field": "x[3]",
+  "old": "Count all 11 connections between the 12 atoms.",
+  "new": "Some bonds were missed. Count every line in the drawing, including each C–H bond.",
+  "why": "The D feedback 'Count all 11 connections between the 12 atoms' gives away the σ count of the keyed answer (11 σ). The student only has to pick the choice with 11 σ and 2 π.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-324",
+  "field": "x[3]",
+  "old": "8 electrons give a bond order of 2, and they're all paired.",
+  "new": "Subtract the antibonding electrons before halving, then check whether the π₂p set is full or only half full.",
+  "why": "The C feedback '8 electrons give a bond order of 2, and they're all paired' states both parts of the keyed answer (bond order 2, diamagnetic) before the retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-128",
+  "field": "x[2]",
+  "old": "This flips the equation. n = PV ÷ RT.",
+  "new": "Check your value of R. With pressure in atm and volume in liters, R must be 0.08206 L·atm mol⁻¹ K⁻¹, not 8.314.",
+  "why": "Choice A (0.00485 mol) is not the flipped equation; RT/PV gives 2.04 (choice D). 0.00485 = (2.50)(5.00)/[(8.314)(310.15)], i.e. R = 8.314 J/(mol K) used with atm and L. The feedback misdiagnoses the s",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-126",
+  "field": "x[3]",
+  "old": "Lower T and higher P both shrink the gas, so V must be less than 500 mL. Redo it with kelvins.",
+  "new": "Cooling to 0 °C shrinks the gas, so V must come out below the pressure-corrected value. Check which way you set up the kelvin temperature ratio.",
+  "why": "531 mL = 500 × (740/760) × (298.15/273.15): the student did use kelvins but inverted the temperature ratio, so 'Redo it with kelvins' points at the wrong slip.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-266",
+  "field": "x[2]",
+  "old": "This uses ΔH_vap per mole instead of for 10.0 g.",
+  "new": "This multiplies ΔH_vap by the grams of steam. ΔH_vap is per mole, so convert 10.0 g to moles first.",
+  "why": "154 = 10.0 × 40.70 ÷ 2.636: the student multiplied ΔHvap by the grams of steam (treated it as per gram). The line 'uses ΔH_vap per mole instead of for 10.0 g' does not describe that error.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-9",
+  "field": "x[3]",
+  "old": "This pattern (t½ ∝ 1/[A]₀) fits second order.",
+  "new": "For third order, t½ ∝ 1/[A]₀², so halving [A]₀ would make the half-life four times longer, not twice.",
+  "why": "The feedback for D names the right answer ('fits second order') before a retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-39",
+  "field": "x[3]",
+  "old": "Recheck: x = 0.40 atm, then Kp = (0.40)(0.40)/0.60.",
+  "new": "The denominator should be the equilibrium pressure of PCl₅, not the total pressure.",
+  "why": "Feedback for D (0.114 = 0.16/1.40) states the full final calculation Kp = (0.40)(0.40)/0.60, handing over the answer before the retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-287",
+  "field": "x[3]",
+  "old": "Recheck: K = [B]² ÷ [A], with [A] = 0.40 M and [B] = 1.20 M.",
+  "new": "1.2 M is just the equilibrium [B]. Write the full Kc expression from the balanced equation and include both species.",
+  "why": "Feedback for D (1.2, which is just [B]) gives the full calculation K = [B]²/[A] with [A] = 0.40 M and [B] = 1.20 M, handing over the answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-42",
+  "field": "x[3]",
+  "old": "[NO] = √(K × 0.80 × 0.20).",
+  "new": "Recheck the algebra: Kc contains [NO]², so isolate [NO]² first and then take the square root.",
+  "why": "Feedback for A gives the complete final calculation [NO] = √(K × 0.80 × 0.20), so the retry is just a button press.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-30",
+  "field": "x[3]",
+  "old": "This is about half the right value. Recheck x = √(K × 0.100).",
+  "new": "This is about half the right value. Recheck your ICE table: [CO] and [Cl₂] are both x, so K ≈ x² divided by the starting [COCl₂].",
+  "why": "Feedback for D states the final calculation x = √(K × 0.100), giving the answer away before the retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-54",
+  "field": "x[2]",
+  "old": "This divides Ka by Kw (upside down).",
+  "new": "This is 1/Ka; Kw was left out of the calculation.",
+  "why": "Feedback says 2.0×10^9 comes from dividing Ka by Kw, but Ka/Kw = 4.9×10^4. 2.0×10^9 is 1/Ka (Kw left out).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-63",
+  "field": "x[2]",
+  "old": "pOH = 14.00 − 3.60.",
+  "new": "Find the pH from [H₃O⁺] first and check it carefully; −log(2.5×10⁻⁴) is not 3.40.",
+  "why": "Feedback 'pOH = 14.00 − 3.60.' hands over the final calculation (10.40) before the retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-63",
+  "field": "x[3]",
+  "old": "pOH = 14.00 − 3.60.",
+  "new": "Calculate the pH from [H₃O⁺] first, then use pH + pOH = 14.00.",
+  "why": "Feedback 'pOH = 14.00 − 3.60.' hands over the final calculation (10.40) before the retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-64",
+  "field": "x[2]",
+  "old": "HNO₂ is a strong-ish acid, so NO₂⁻ is a weak base.",
+  "new": "HNO₂ has one of the larger Ka values in the table, so NO₂⁻ is a relatively weak base.",
+  "why": "Calling HNO2 a 'strong-ish acid' is misleading; HNO2 (Ka 4.5×10^−4) is a weak acid.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-234",
+  "field": "x[3]",
+  "old": "Recheck with the quadratic: x = 0.0098 M.",
+  "new": "Recheck the ICE table for HSO₄⁻: both [H⁺] and [HSO₄⁻] start at 0.10 M, and x is not small, so use the quadratic.",
+  "why": "Feedback gives the solved x = 0.0098 M, from which the pH (0.96) follows immediately.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-82",
+  "field": "x[3]",
+  "old": "pKa = −log(1.0×10⁻⁹) = 9.0.",
+  "new": "pH 1.0 is not tied to this indicator. Take −log of Ka to find where [HIn] = [In⁻].",
+  "why": "Feedback for D states the correct answer outright (pKa = 9.0, which is keyed choice A), and it is shown before a retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-365",
+  "field": "x[2]",
+  "old": "This reuses the digits of the pKa. Ka = 10^(−3.75).",
+  "new": "This reuses the digits of the pKa. Ka is found by taking the antilog of −pKa, not by copying its digits.",
+  "why": "Feedback for B ends with the full final calculation (Ka = 10^(−3.75)), handing over the keyed answer before a retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-432",
+  "field": "x[3]",
+  "old": "Recheck: pOH = 3.50, so [OH⁻] = 10^(−3.50).",
+  "new": "Recheck the pOH: subtract the pH from 14.00 carefully, then take the antilog of −pOH.",
+  "why": "Feedback for D gives the final calculation ([OH⁻] = 10^(−3.50)), which is the keyed answer, before a retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-78",
+  "field": "x[3]",
+  "old": "This is about half the right value. Ka = 10^(−4.20).",
+  "new": "This is about half the right value. At half-equivalence pH = pKa; take the antilog of −pKa.",
+  "why": "Feedback for C gives the final calculation (Ka = 10^(−4.20)), which is the keyed answer, before a retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-91",
+  "field": "x[3]",
+  "old": "This is half the right value.",
+  "new": "This divides by 2 somewhere it doesn't belong. Use s = Ksp ÷ [OH⁻]² with [OH⁻] from the pOH.",
+  "why": "Feedback for D (2.8x10^-4 M) says 'This is half the right value', which lets the student double it and read off 5.6x10^-4 M (A) before the retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-183",
+  "field": "x[2]",
+  "old": "This is twice the right value.",
+  "new": "[Ca²⁺] is half of [OH⁻], not equal to it.",
+  "why": "Feedback for B (1.1x10^-5) says 'This is twice the right value', handing over 5.6x10^-6 (D).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-97",
+  "field": "x[1]",
+  "old": "This is 100 times too large.",
+  "new": "Check the power of ten when dividing by Kf.",
+  "why": "Feedback for D says 'This is 100 times too large' (6.9x10^-14 / 100 = 6.9x10^-16 = B), and feedback for A gives the complete formula 0.010 ÷ (Kf × 0.96⁴); either one hands over the answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-97",
+  "field": "x[3]",
+  "old": "Recompute: [Cu²⁺] = 0.010 ÷ (Kf × 0.96⁴).",
+  "new": "Assume nearly all Cu²⁺ is complexed, then solve Kf for [Cu²⁺] using the free NH₃ left over.",
+  "why": "Feedback for D says 'This is 100 times too large' (6.9x10^-14 / 100 = 6.9x10^-16 = B), and feedback for A gives the complete formula 0.010 ÷ (Kf × 0.96⁴); either one hands over the answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-445",
+  "field": "x[1]",
+  "old": "Each Ca²⁺ needs two F⁻, so F⁻ runs out first.",
+  "new": "Check the 1:2 ratio: how many mmol of Ca²⁺ can 0.40 mmol F⁻ remove?",
+  "why": "Feedback for C ('F⁻ runs out first') and D ('Ca²⁺ is in excess') each state the leftover ion, which identifies B.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-445",
+  "field": "x[3]",
+  "old": "The leftover isn't 1:1. Ca²⁺ is in excess.",
+  "new": "The ions are not consumed 1:1 and did not start 1:2. Work out which one is left over.",
+  "why": "Feedback for C ('F⁻ runs out first') and D ('Ca²⁺ is in excess') each state the leftover ion, which identifies B.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-126",
+  "field": "x[3]",
+  "old": "Count again: 2 H⁺ are neutralized.",
+  "new": "Balance in acid first, then count how many H⁺ must be neutralized by adding OH⁻ to both sides.",
+  "why": "The line says '2 H⁺ are neutralized', which tells the student the OH⁻ count (2). Together with the D line ('OH⁻ ends up on the product side') it gives away the answer before a retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-126",
+  "field": "x[2]",
+  "old": "Count again: 2 H⁺ are neutralized.",
+  "new": "Recheck the H⁺ count in the acid-balanced equation, then add only that many OH⁻ to each side and cancel water.",
+  "why": "Same line as B: 'Count again: 2 H⁺ are neutralized' states the OH⁻ coefficient outright.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-136",
+  "field": "x[3]",
+  "old": "This is half the right mass.",
+  "new": "Recheck the electron count: Cu²⁺ + 2 e⁻ → Cu means you divide mol e⁻ by 2 once, not twice.",
+  "why": "'This is half the right mass' tells the student to double 0.741 g, which gives the answer (1.48 g) directly, and does not say what error produces it.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-375",
+  "field": "x[1]",
+  "old": "Electrons flow from the anode (A) to the cathode (B).",
+  "new": "Electrons leave the electrode that is oxidized. Compare the two E° values to find which metal that is.",
+  "why": "Feedback for A states the full answer (electrons go from A to B), which is shown before a retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-376",
+  "field": "x[1]",
+  "old": "Cations, not anions, move toward B.",
+  "new": "Removing Sn²⁺ at B leaves extra negative charge there. Anions move to cancel a buildup of positive charge.",
+  "why": "'Cations, not anions, move toward B' tells the student anions go toward A; the only remaining 'toward A' choice is the key, so the retry is given away.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-376",
+  "field": "x[2]",
+  "old": "Ions move toward B to replace lost charge, but those are cations.",
+  "new": "Electrons arrive through the wire, not the salt bridge. Ask which compartment is gaining positive ions.",
+  "why": "'Ions move toward B ... but those are cations' likewise implies anions go to A, giving away the key on retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-471",
+  "field": "x[2]",
+  "old": "No current flows at all.",
+  "new": "In any operating cell, electrons leave the anode and travel to the cathode.",
+  "why": "'No current flows at all' restates the keyed choice D ('no current flows') before the retry.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-157",
+  "field": "x[2]",
+  "old": "Decay isn't linear. Use t = ln(100/35.0) ÷ k.",
+  "new": "This multiplies t½ by the fraction remaining. Decay is first order: use t = ln(100/35.0) ÷ k.",
+  "why": "Choice A (2.01×10³ yr) is 0.350 × 5730 = 2006 yr, i.e. t½ multiplied by the fraction remaining, not a linear-decay error. The linear-decay distractor is D: (0.650/0.500) × 5730 = 7449 yr = 7.45×10³ yr",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-157",
+  "field": "x[3]",
+  "old": "Recheck: t = ln(100/35.0) ÷ k.",
+  "new": "This assumes the activity falls by a fixed amount each half-life. Decay isn't linear: use t = ln(100/35.0) ÷ k.",
+  "why": "Choice D (7.45×10³ yr) is the linear-decay answer (0.650 lost at 0.500 per half-life × 5730 yr = 7449 yr); the generic line does not name that mistake while A's line wrongly does.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-395",
+  "field": "x[3]",
+  "old": "Recheck: 8(1.00728) + 8(1.00866) − 15.99052.",
+  "new": "This uses the neutron mass for all 16 nucleons. Oxygen-16 has 8 protons and 8 neutrons.",
+  "why": "Choice C (0.1480 u) is 16(1.00866) − 15.99052 = 0.14804 u, i.e. the neutron mass used for all 16 nucleons. The current line spells out the full setup of the correct calculation, which nearly hands ove",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-485",
+  "field": "x[2]",
+  "old": "This divides by ΔH_vap instead of multiplying.",
+  "new": "This divides the mass in grams by ΔHvap. Convert grams to moles, then multiply by ΔHvap.",
+  "why": "Choice C (3.69 kJ) is 150 ÷ 40.7 = 3.686, i.e. grams divided by ΔHvap with no mole conversion at all; the line says only that it divides instead of multiplying (8.32 ÷ 40.7 would be 0.204). The explan",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-383",
+  "field": "x[1]",
+  "old": "This has larger formal charges or the wrong skeleton. The best structure has a single −1 charge, on the most electronegative atom.",
+  "new": "Check the formal charge on every atom. When two structures have equally small charges, which atom should carry the negative charge?",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-384",
+  "field": "x[1]",
+  "old": "This has larger formal charges or the wrong atom order. The best structure keeps charges small and puts the −1 on O.",
+  "new": "Check the formal charge on every atom. When two structures have equally small charges, which atom should carry the negative charge?",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-207",
+  "field": "x[3]",
+  "old": "Chloride is Cl⁻, never Cl₂⁻, and the ratio is 1:2.",
+  "new": "Chloride is Cl⁻, never Cl₂⁻. How many chloride ions does one CaCl₂ release?",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-273",
+  "field": "x[2]",
+  "old": "Endothermic means the system absorbs heat, so q is positive.",
+  "new": "What sign does q have when the system gains heat?",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-93",
+  "field": "x[2]",
+  "old": "Q is less than Ksp, so no precipitate forms.",
+  "new": "Compare your Q with Ksp again. A precipitate forms only when Q is larger than Ksp.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-301",
+  "field": "x[2]",
+  "old": "Q is greater than Ksp, so it precipitates.",
+  "new": "Compare 1.2×10⁻⁸ with 9.8×10⁻⁹ again. Which is larger?",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-64",
+  "field": "x[3]",
+  "old": "Endothermic means q > 0, and a shrinking volume means w > 0.",
+  "new": "Endothermic means heat flows into the system. Check the sign of q, then ask who does work when the volume shrinks.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-559",
+  "field": "x[1]",
+  "old": "CH₄ is left over. O₂ runs out first.",
+  "new": "Compare moles ÷ coefficient for each reactant. CH₄ is not the one that runs out.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-112",
+  "field": "x[3]",
+  "old": "This is off by a factor of 10. 0.90 g per 100 mL is 9.0 g per liter.",
+  "new": "Check the volume: 0.90 g per 100 mL is 9.0 g per liter.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-133",
+  "field": "x[3]",
+  "old": "This is off by a factor of 100. 0.0375 L = 37.5 mL.",
+  "new": "Check your unit conversion from liters to milliliters.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-364",
+  "field": "x[2]",
+  "old": "This is off by a factor of 10. Recompute (12.0 × 10.0) ÷ 240.",
+  "new": "Check the decimal place in M₁V₁ ÷ V₂.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-74",
+  "field": "x[1]",
+  "old": "Ultraviolet photons have less energy than X-rays.",
+  "new": "Ultraviolet photons carry more energy than visible light, but another choice has an even shorter wavelength.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-74",
+  "field": "x[2]",
+  "old": "Visible light photons have less energy than X-rays.",
+  "new": "Visible light sits in the middle of the spectrum. Look for the shortest wavelength.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-79",
+  "field": "x[1]",
+  "old": "This is off by a factor of 10. Check the exponent.",
+  "new": "Check the exponent when you convert meters to nanometers.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-160",
+  "field": "x[2]",
+  "old": "This is half the right value. Check ΔT ÷ K_b × kg of solvent.",
+  "new": "A factor of 2 is missing. Recheck moles of solute = (ΔT ÷ K_b) × kg of solvent.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-238",
+  "field": "x[2]",
+  "old": "This is off by a factor of 10. 12.2 cm = 0.122 m.",
+  "new": "Check the unit conversion: 12.2 cm = 0.122 m.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-499",
+  "field": "x[3]",
+  "old": "This is double the right value.",
+  "new": "A factor of 2 slipped in. Recheck ln(P₂/P₁) and the difference of the reciprocal temperatures.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-548",
+  "field": "x[1]",
+  "old": "This is half the right value.",
+  "new": "A factor of 2 is missing. Multiply the mass of one molecule by Avogadro's number.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-548",
+  "field": "x[2]",
+  "old": "This is double the right value.",
+  "new": "A factor of 2 slipped in. Multiply the mass of one molecule by Avogadro's number, once.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-11",
+  "field": "x[3]",
+  "old": "This is about half the right value. Use ln 2 = 0.693.",
+  "new": "A factor of 2 is missing. Recheck ln(k₂/k₁) and the difference of the reciprocal temperatures.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-24",
+  "field": "x[2]",
+  "old": "This is off by a factor of 100. Recheck (0.08206 × 1000)⁻¹.",
+  "new": "Check the power of ten in (RT) raised to Δn.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-42",
+  "field": "x[2]",
+  "old": "This is about half the right value.",
+  "new": "Recheck the last step: take the square root of [NO]² carefully.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-364",
+  "field": "x[2]",
+  "old": "Check the pKa values. Chloroacetic acid's is smallest.",
+  "new": "Check the pKa values. A smaller pKa means a stronger acid.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-364",
+  "field": "x[3]",
+  "old": "Benzoic acid's pKa is larger than chloroacetic acid's.",
+  "new": "Benzoic acid's pKa is not the smallest in the table.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-344",
+  "field": "h",
+  "old": "Carbonate and hydrogen carbonate (bicarbonate) differ by one H<sup>+</sup>; adding H<sup>+</sup> makes the charge less negative by one.",
+  "new": "Some ions come in pairs that differ by one H<sup>+</sup>; adding H<sup>+</sup> makes the charge less negative by one.",
+  "why": "Hint named the answer (carbonate).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-650",
+  "field": "x[1]",
+  "old": "This is glycine. Its only sp<sup>3</sup> carbon is a CH<sub>2</sub> with two identical H atoms, so it is not chiral.",
+  "new": "This is glycine. Its only carbon without a double bond is a CH<sub>2</sub> with two identical H atoms, so it is not chiral.",
+  "why": "Hybridization is not taught in CHEM 3B.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-923",
+  "field": "x[1]",
+  "old": "B is glycerol: three –OH groups but no C=O. Without an aldehyde or ketone it is a sugar alcohol, not a sugar.",
+  "new": "This is glycerol: three –OH groups but no C=O. Without an aldehyde or ketone it is a sugar alcohol, not a sugar.",
+  "why": "Feedback named drawings by letter; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-923",
+  "field": "x[2]",
+  "old": "C is lactic acid. Its C=O is part of a carboxylic acid (–COOH), not an aldehyde or ketone.",
+  "new": "This is lactic acid. Its C=O is part of a carboxylic acid (–COOH), not an aldehyde or ketone.",
+  "why": "Feedback named drawings by letter; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-923",
+  "field": "x[3]",
+  "old": "D is alanine, an amino acid: it has an –NH<sub>2</sub> group and a –COOH group, and no polyhydroxy chain.",
+  "new": "This is alanine, an amino acid: it has an –NH<sub>2</sub> group and a –COOH group, and no polyhydroxy chain.",
+  "why": "Feedback named drawings by letter; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-923",
+  "field": "w",
+  "old": "Structure A is glyceraldehyde: an aldehyde carbon (–CHO) and an –OH on each remaining carbon, so it is an <b>aldotriose</b>. Glycerol has three –OH groups but no carbonyl (it is a sugar alcohol, not a sugar); lactic acid has a carboxylic acid, not an aldehyde or ketone; alanine has an amino group and a carboxyl group, so it is an amino acid.",
+  "new": "The correct structure is glyceraldehyde: an aldehyde carbon (–CHO) and an –OH on each remaining carbon, so it is an <b>aldotriose</b>. Glycerol has three –OH groups but no carbonyl (it is a sugar alcohol, not a sugar); lactic acid has a carboxylic acid, not an aldehyde or ketone; alanine has an amino group and a carboxyl group, so it is an amino acid.",
+  "why": "Explanation named a drawing by letter; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-924",
+  "field": "w",
+  "old": "Structure A is alanine: an –NH<sub>2</sub> and a –COOH are both bonded to the same carbon, the α carbon, which also carries the side chain –CH<sub>3</sub>. Lactic acid has –OH and –COOH (a hydroxy acid, no nitrogen); 2-aminoethanol has an amine and an alcohol but no carboxyl group; propanamide contains an amide group but no free amine or carboxylic acid.",
+  "new": "The correct structure is alanine: an –NH<sub>2</sub> and a –COOH are both bonded to the same carbon, the α carbon, which also carries the side chain –CH<sub>3</sub>. Lactic acid has –OH and –COOH (a hydroxy acid, no nitrogen); 2-aminoethanol has an amine and an alcohol but no carboxyl group; propanamide contains an amide group but no free amine or carboxylic acid.",
+  "why": "Explanation named a drawing by letter; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-269",
+  "field": "w",
+  "old": "Prostaglandins are made from arachidonic acid (20 C) and contain <b>a five-membered ring within the 20-carbon fatty acid chain</b>. Four fused rings describes a steroid; glycerol + 3 fatty acids is a triacylglycerol; the last choice is sphingomyelin.",
+  "new": "Prostaglandins are made from arachidonic acid (20 C) and contain <b>a five-membered ring within the 20-carbon fatty acid chain</b>. Four fused rings describes a steroid; glycerol + 3 fatty acids is a triacylglycerol; sphingosine with a fatty acid, phosphate and choline is sphingomyelin.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-324",
+  "field": "w",
+  "old": "Lipogenesis is anabolic: in the <b>cytosol</b>, 2-carbon units from malonyl CoA are added on the acyl carrier protein and reduced by <b>NADPH</b>. β-Oxidation is catabolic: in the <b>mitochondrial matrix</b>, FAD and NAD<sup>+</sup> remove H as 2-carbon units leave as acetyl CoA. The last choice reverses the two pathways.",
+  "new": "Lipogenesis is anabolic: in the <b>cytosol</b>, 2-carbon units from malonyl CoA are added on the acyl carrier protein and reduced by <b>NADPH</b>. β-Oxidation is catabolic: in the <b>mitochondrial matrix</b>, FAD and NAD<sup>+</sup> remove H as 2-carbon units leave as acetyl CoA. The choice that has lipogenesis removing 2-carbon units reverses the two pathways.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-368",
+  "field": "w",
+  "old": "In <b>CH<sub>3</sub>CH(OH)OCH<sub>2</sub>CH<sub>3</sub></b> one carbon holds –OH, –OCH<sub>2</sub>CH<sub>3</sub> and an H (it came from an aldehyde plus one ethanol), so it is a hemiacetal. Two –OR groups = acetal; CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub> has C=O and –OR on one carbon, so it is an ester; the last choice has –OH and –OR on different carbons.",
+  "new": "In <b>CH<sub>3</sub>CH(OH)OCH<sub>2</sub>CH<sub>3</sub></b> one carbon holds –OH, –OCH<sub>2</sub>CH<sub>3</sub> and an H (it came from an aldehyde plus one ethanol), so it is a hemiacetal. Two –OR groups = acetal; CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub> has C=O and –OR on one carbon, so it is an ester; the remaining structure has –OH and –OR on different carbons.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-516",
+  "field": "w",
+  "old": "The ethoxy group adds to the carbonyl carbon and the C=O becomes C–OH: a <b>hemiketal</b> (C bonded to OH, OCH<sub>2</sub>CH<sub>3</sub> and two CH<sub>3</sub>). Two ethoxy groups (ketal) need a second ethanol; the ether has lost an oxygen; the last choice puts the groups on two different carbons.",
+  "new": "The ethoxy group adds to the carbonyl carbon and the C=O becomes C–OH: a <b>hemiketal</b> (C bonded to OH, OCH<sub>2</sub>CH<sub>3</sub> and two CH<sub>3</sub>). Two ethoxy groups (ketal) need a second ethanol; the ether has lost an oxygen; the remaining structure puts the groups on two different carbons.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-521",
+  "field": "w",
+  "old": "The ester splits at the C–O bond next to the C=O: the benzoyl part becomes <b>sodium benzoate</b> and the –OCH<sub>3</sub> part becomes <b>methanol</b>. Benzoic acid + methanol form in acid, not base; the last choice puts the C=O on the wrong side of the ester oxygen (acetate + phenol).",
+  "new": "The ester splits at the C–O bond next to the C=O: the benzoyl part becomes <b>sodium benzoate</b> and the –OCH<sub>3</sub> part becomes <b>methanol</b>. Benzoic acid + methanol form in acid, not base; the remaining choice puts the C=O on the wrong side of the ester oxygen (acetate + phenol).",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-551",
+  "field": "w",
+  "old": "The O is bonded to a CH<sub>2</sub> on one side and a CH<sub>3</sub> on the other, with no H on O: an ether, <b>ethyl methyl ether</b>. 1-Propanol and 2-propanol have the same formula (C<sub>3</sub>H<sub>8</sub>O) but contain O–H; the last drawing has an extra CH<sub>2</sub>.",
+  "new": "The O is bonded to a CH<sub>2</sub> on one side and a CH<sub>3</sub> on the other, with no H on O: an ether, <b>ethyl methyl ether</b>. 1-Propanol and 2-propanol have the same formula (C<sub>3</sub>H<sub>8</sub>O) but contain O–H; the remaining drawing has an extra CH<sub>2</sub>.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-687",
+  "field": "w",
+  "old": "The carbonyl O leaves in H<sub>2</sub>O and the former C=O carbon ends up with two –OCH<sub>3</sub> groups: the <b>acetal</b> 1,1-dimethoxybutane. The structure with one OH and one OCH<sub>3</sub> is the hemiacetal that forms first. Methyl butanoate is an ester, and the last choice puts the two –OCH<sub>3</sub> groups on different carbons.",
+  "new": "The carbonyl O leaves in H<sub>2</sub>O and the former C=O carbon ends up with two –OCH<sub>3</sub> groups: the <b>acetal</b> 1,1-dimethoxybutane. The structure with one OH and one OCH<sub>3</sub> is the hemiacetal that forms first. Methyl butanoate is an ester, and the remaining structure puts the two –OCH<sub>3</sub> groups on different carbons.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-846",
+  "field": "w",
+  "old": "Among the 18-carbon acids, melting point drops from 70 °C (0 C=C) to 13 °C (1 cis C=C) to −5 °C (2 cis C=C): <b>each cis double bond lowers the melting point</b> because the kinks weaken packing. Among saturated acids, a longer chain melts <i>higher</i> (44 → 63 → 70 °C), so the second choice reverses the trend.",
+  "new": "Among the 18-carbon acids, melting point drops from 70 °C (0 C=C) to 13 °C (1 cis C=C) to −5 °C (2 cis C=C): <b>each cis double bond lowers the melting point</b> because the kinks weaken packing. Among saturated acids, a longer chain melts <i>higher</i> (44 → 63 → 70 °C), so the claim that a longer saturated chain melts lower reverses the trend.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-886",
+  "field": "w",
+  "old": "Only the first structure has <b>N bonded to a C=O carbon</b>: it is N-methylpropanamide. The compound with N but no C=O is an amine; the one with –O– next to C=O is an ester; the C=O flanked by two carbons is a ketone.",
+  "new": "Only one structure has <b>N bonded to a C=O carbon</b>: it is N-methylpropanamide. The compound with N but no C=O is an amine; the one with –O– next to C=O is an ester; the C=O flanked by two carbons is a ketone.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-910",
+  "field": "w",
+  "old": "Only the first structure has an <b>–SH group</b> (1-butanethiol, a skunk-like odorant). The –OH compound is an alcohol; the C–S–C compound is a sulfide (thioether); the S–S compound is a disulfide, the product of oxidizing two thiols.",
+  "new": "Only one structure has an <b>–SH group</b> (1-butanethiol, a skunk-like odorant). The –OH compound is an alcohol; the C–S–C compound is a sulfide (thioether); the S–S compound is a disulfide, the product of oxidizing two thiols.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-905",
+  "field": "w",
+  "old": "In the first reaction a Br atom <b>replaces an H atom</b> on ethane and HBr is released: the halogenation of an alkane, a substitution. The second and fourth reactions add to a C=C (addition), and the third removes water to form a C=C (elimination, dehydration).",
+  "new": "In the reaction of ethane with Br<sub>2</sub>, a Br atom <b>replaces an H atom</b> on ethane and HBr is released: the halogenation of an alkane, a substitution. The HBr and H<sub>2</sub> reactions add to a C=C (addition), and the ethanol reaction removes water to form a C=C (elimination, dehydration).",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "1A-41",
+  "field": "w",
+  "old": "K⁺ and NO₃⁻ are spectators (KNO₃ is soluble). Net: <b>Pb²⁺(aq) + 2 I⁻(aq) → PbI₂(s)</b>. The last choice is the molecular equation, not the net ionic.",
+  "new": "K⁺ and NO₃⁻ are spectators (KNO₃ is soluble). Net: <b>Pb²⁺(aq) + 2 I⁻(aq) → PbI₂(s)</b>. The equation that shows Pb(NO₃)₂ and KI as whole formulas is the molecular equation, not the net ionic.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "1A-407",
+  "field": "w",
+  "old": "In many-electron atoms the 2s electron <b>penetrates</b> the 1s core more than 2p, feels a larger Z<sub>eff</sub>, and is lower in energy. 2s has zero angular nodes and 2p has one, so the last choice is backwards.",
+  "new": "In many-electron atoms the 2s electron <b>penetrates</b> the 1s core more than 2p, feels a larger Z<sub>eff</sub>, and is lower in energy. 2s has zero angular nodes and 2p has one, so the choice about angular nodes is backwards.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "1A-421",
+  "field": "w",
+  "old": "<b>Electronegativity</b> (Pauling scale, unitless) compares how strongly a bonded atom attracts shared electrons; <b>electron affinity</b> is a measured energy (kJ mol⁻¹) for X(g) + e<sup>−</sup> → X<sup>−</sup>(g). The second choice swaps the units; the third swaps the definitions.",
+  "new": "<b>Electronegativity</b> (Pauling scale, unitless) compares how strongly a bonded atom attracts shared electrons; <b>electron affinity</b> is a measured energy (kJ mol⁻¹) for X(g) + e<sup>−</sup> → X<sup>−</sup>(g). One wrong choice swaps the units; another swaps the definitions.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "1A-447",
+  "field": "w",
+  "old": "HCl ionizes completely and Cl<sup>−</sup> is a spectator; NH<sub>3</sub> (mostly un-ionized) takes the H<sup>+</sup>: <b>NH<sub>3</sub> + H<sup>+</sup> → <span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span></span></b>. H<sup>+</sup> + OH<sup>−</sup> treats ammonia as a source of free OH<sup>−</sup>; NH<sub>4</sub>Cl is soluble; the last choice leaves HCl un-ionized.",
+  "new": "HCl ionizes completely and Cl<sup>−</sup> is a spectator; NH<sub>3</sub> (mostly un-ionized) takes the H<sup>+</sup>: <b>NH<sub>3</sub> + H<sup>+</sup> → <span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>4</sub></span></span></b>. H<sup>+</sup> + OH<sup>−</sup> treats ammonia as a source of free OH<sup>−</sup>; NH<sub>4</sub>Cl is soluble; the equation that shows HCl(aq) leaves HCl un-ionized.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "1A-492",
+  "field": "w",
+  "old": "The solid–liquid line leans to the LEFT (negative slope), so starting in the solid at −2 °C and increasing the pressure crosses into the liquid region: <b>pressure melts ice</b>. That slope exists because ice is LESS dense than liquid water (the opposite of the second choice). At 1.0 atm, well above the triple-point pressure, ice melts rather than sublimes, and the triple point is where all three phases coexist.",
+  "new": "The solid–liquid line leans to the LEFT (negative slope), so starting in the solid at −2 °C and increasing the pressure crosses into the liquid region: <b>pressure melts ice</b>. That slope exists because ice is LESS dense than liquid water (the opposite of the choice that calls ice denser). At 1.0 atm, well above the triple-point pressure, ice melts rather than sublimes, and the triple point is where all three phases coexist.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "1B-356",
+  "field": "w",
+  "old": "HF is a WEAK acid, so it stays mostly un-ionized and is written as HF; K<sup>+</sup> is a spectator and KF is soluble: <b>HF + OH<sup>−</sup> → F<sup>−</sup> + H<sub>2</sub>O</b>. H<sup>+</sup> + OH<sup>−</sup> → H<sub>2</sub>O is correct only for strong acids; the last choice is the hydrolysis of fluoride.",
+  "new": "HF is a WEAK acid, so it stays mostly un-ionized and is written as HF; K<sup>+</sup> is a spectator and KF is soluble: <b>HF + OH<sup>−</sup> → F<sup>−</sup> + H<sub>2</sub>O</b>. H<sup>+</sup> + OH<sup>−</sup> → H<sub>2</sub>O is correct only for strong acids; the equation with F<sup>−</sup> and H<sub>2</sub>O as reactants is the hydrolysis of fluoride.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "1B-416",
+  "field": "w",
+  "old": "Halving the volume doubles [N<sub>2</sub>] and [H<sub>2</sub>], so rate = k[N<sub>2</sub>]<sup>x</sup>[H<sub>2</sub>]<sup>y</sup> increases. The higher pressure also shifts the equilibrium toward the side with fewer gas molecules (4 mol → 2 mol), so <b>more NH<sub>3</sub> forms</b>. K itself is unchanged, but the equilibrium position (the yield) is not; confusing \"K unchanged\" with \"yield unchanged\" gives the second choice.",
+  "new": "Halving the volume doubles [N<sub>2</sub>] and [H<sub>2</sub>], so rate = k[N<sub>2</sub>]<sup>x</sup>[H<sub>2</sub>]<sup>y</sup> increases. The higher pressure also shifts the equilibrium toward the side with fewer gas molecules (4 mol → 2 mol), so <b>more NH<sub>3</sub> forms</b>. K itself is unchanged, but the equilibrium position (the yield) is not; confusing \"K unchanged\" with \"yield unchanged\" gives the choice that says the amount of NH<sub>3</sub> is unchanged.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "1B-417",
+  "field": "w",
+  "old": "For the first mechanism the slow step gives rate = k<sub>2</sub>[N<sub>2</sub>O<sub>2</sub>][O<sub>2</sub>]; the fast equilibrium gives [N<sub>2</sub>O<sub>2</sub>] = K<sub>1</sub>[NO]<sup>2</sup>, so <b>rate = k[NO]<sup>2</sup>[O<sub>2</sub>]</b>. A slow first step of 2 NO predicts rate = k[NO]<sup>2</sup> with no O<sub>2</sub> dependence; the NO<sub>3</sub> route predicts k[NO][O<sub>2</sub>]; and a slow O<sub>2</sub> split predicts k[O<sub>2</sub>]. The overall equation never gives the rate law directly.",
+  "new": "For the mechanism with a fast equilibrium followed by a slow step, the slow step gives rate = k<sub>2</sub>[N<sub>2</sub>O<sub>2</sub>][O<sub>2</sub>]; the fast equilibrium gives [N<sub>2</sub>O<sub>2</sub>] = K<sub>1</sub>[NO]<sup>2</sup>, so <b>rate = k[NO]<sup>2</sup>[O<sub>2</sub>]</b>. A slow first step of 2 NO predicts rate = k[NO]<sup>2</sup> with no O<sub>2</sub> dependence; the NO<sub>3</sub> route predicts k[NO][O<sub>2</sub>]; and a slow O<sub>2</sub> split predicts k[O<sub>2</sub>]. The overall equation never gives the rate law directly.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "1B-332",
+  "field": "w",
+  "old": "Nitrite can bind through N (nitro, –NO<sub>2</sub>) or through O (nitrito, –ONO), so the first pair are <b>linkage isomers</b>. The Br/SO<sub>4</sub> pair are ionization isomers, cis/trans are geometric isomers, and swapping metals between the cation and anion gives coordination isomers.",
+  "new": "Nitrite can bind through N (nitro, –NO<sub>2</sub>) or through O (nitrito, –ONO), so the nitro/nitrito pair are <b>linkage isomers</b>. The Br/SO<sub>4</sub> pair are ionization isomers, cis/trans are geometric isomers, and swapping metals between the cation and anion gives coordination isomers.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "1B-479",
+  "field": "w",
+  "old": "Water's O–H hydrogen points at a lone pair on acetone's <b>carbonyl oxygen</b>: water is the donor, acetone the acceptor. Acetone's hydrogens are all on carbon; a C–H bond is nearly nonpolar, so its H is not δ+ enough to hydrogen-bond (this also means acetone molecules cannot hydrogen-bond to each other, the last picture). A dotted line joining the two oxygens connects two δ− atoms, which repel rather than attract.",
+  "new": "Water's O–H hydrogen points at a lone pair on acetone's <b>carbonyl oxygen</b>: water is the donor, acetone the acceptor. Acetone's hydrogens are all on carbon; a C–H bond is nearly nonpolar, so its H is not δ+ enough to hydrogen-bond (this also means acetone molecules cannot hydrogen-bond to each other, one of the wrong pictures). A dotted line joining the two oxygens connects two δ− atoms, which repel rather than attract.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "1B-480",
+  "field": "w",
+  "old": "Only the drawing with acetic acid's <b>O–H hydrogen pointing at water's oxygen</b> makes acetic acid the donor. The tempting second picture is also a real hydrogen bond (water's H to the acid's C=O oxygen), but there acetic acid is the ACCEPTOR. The methyl C–H hydrogens are not polar enough to donate, and a line ending on water's H points at a δ+ atom with no lone pair.",
+  "new": "Only the drawing with acetic acid's <b>O–H hydrogen pointing at water's oxygen</b> makes acetic acid the donor. One tempting picture is also a real hydrogen bond (water's H to the acid's C=O oxygen), but there acetic acid is the ACCEPTOR. The methyl C–H hydrogens are not polar enough to donate, and a line ending on water's H points at a δ+ atom with no lone pair.",
+  "why": "Explanation pointed to a choice by its position; choices are shuffled.",
+  "cat": "position"
+ },
+ {
+  "id": "3B-107",
+  "field": "x[2]",
+  "old": "4 counts the two linoleic acids correctly but leaves out the oleic acid's double bond, or vice versa. Add up all three chains.",
+  "new": "4 counts the two linoleic acids correctly but leaves out the oleic acid's double bond. Add up all three chains.",
+  "why": "\"Or vice versa\" does not give 4.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-759",
+  "field": "x[2]",
+  "old": "Omega-3 is one carbon too close to the CH<sub>3</sub> end. Count again, starting with CH<sub>3</sub> as carbon 1.",
+  "new": "Omega-3 is too close to the CH<sub>3</sub> end. Count again, starting with CH<sub>3</sub> as carbon 1.",
+  "why": "Omega-3 and omega-6 differ by three carbons, not one.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-1032",
+  "field": "x[1]",
+  "old": "On the right is the D form, which is rare in human proteins.",
+  "new": "The side on which –NH<sub>3</sub><sup>+</sup> appears decides D or L, just as the –OH does for sugars. Recall which side goes with L.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-335",
+  "field": "x[1]",
+  "old": "Base pairs between strands are held by hydrogen bonds, not covalent bonds. The sample choice is fine, but the reason is not.",
+  "new": "Base pairs between strands are held by hydrogen bonds, not covalent bonds. Compare how many hydrogen bonds each type of pair has.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-837",
+  "field": "x[3]",
+  "old": "The two strands are held by hydrogen bonds between bases, not covalent bonds. The sample is right, but the reason is not.",
+  "new": "The two strands are held by hydrogen bonds between bases, not covalent bonds. Compare hydrogen bonds per pair, and check which curve reaches 50% at the higher temperature.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-771",
+  "field": "x[1]",
+  "old": "The partner is right, but this pair is the stronger one in DNA. Recount its hydrogen bonds.",
+  "new": "Recount the hydrogen bonds in the pair this base forms, and recall which pair in DNA is held by more of them.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-772",
+  "field": "x[1]",
+  "old": "The partner is right, but this pair is the weaker one in DNA. Three hydrogen bonds are found in the G–C pair.",
+  "new": "Three hydrogen bonds hold the G–C pair. Recount the hydrogen bonds in the pair this base forms.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-836",
+  "field": "x[3]",
+  "old": "The step is right, but not the location. Introns are removed before the mRNA leaves the nucleus.",
+  "new": "Splicing happens before the mRNA is exported. Think about where the pre-mRNA is when introns are cut out.",
+  "why": "Feedback shown before the retry stated the answer or its final calculation.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-209",
+  "field": "w",
+  "old": "The tablet ends four marks past 1.8 cm, a little less than halfway to the next mark, so the reading is estimated to hundredths: <b>1.84 cm</b>. \"1.8 cm\" and \"1.9 cm\" drop the estimated digit; \"1.840 cm\" adds a digit the ruler cannot give.",
+  "new": "The tablet ends between the 1.8 cm and 1.9 cm marks, a little less than halfway (about four-tenths of the way), so the reading is estimated to hundredths: <b>1.84 cm</b>. \"1.8 cm\" and \"1.9 cm\" drop the estimated digit; \"1.840 cm\" adds a digit the ruler cannot give.",
+  "why": "\"Four marks past 1.8 cm\" would be 2.2 cm.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3A-328",
+  "field": "w",
+  "old": "<b>R</b> is in period 4, group 1: the most shells and the fewest protons pulling on them, so it is the largest atom (it is potassium). J (lithium) is small because it has only two shells; Q and X are halogens, the smallest atoms of their periods.",
+  "new": "<b>R</b> is in period 4, group 1: the most shells and the fewest protons pulling on them, so it is the largest atom (it is potassium). J (lithium) is small because it has only two shells; Q and X are halogens, among the smallest atoms of their periods.",
+  "why": "Noble gases are smaller than halogens.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3A-273",
+  "field": "h",
+  "old": "Your hand feels cold because heat leaves it. Where does that heat go, and what sign does q have when a system gains heat?",
+  "new": "The knee feels cold because heat leaves it. Where does that heat go, and what sign does q have when a system gains heat?",
+  "why": "Stem says knee; hint said hand.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3A-273",
+  "field": "w",
+  "old": "Heat flows from your hand into the dissolving mixture, so the system absorbs heat: <b>endothermic, q &gt; 0</b>. A common mistake is to call it exothermic because \"cold\" is leaving the pack; cold is not a form of energy.",
+  "new": "Heat flows from the knee into the dissolving mixture, so the system absorbs heat: <b>endothermic, q &gt; 0</b>. A common mistake is to call it exothermic because \"cold\" is leaving the pack; cold is not a form of energy.",
+  "why": "Stem says knee; explanation said hand.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3A-192",
+  "field": "c[0]",
+  "old": "342.14 g mol⁻¹",
+  "new": "342.17 g mol⁻¹",
+  "why": "Sulfur taken as 32.06; the game's periodic table gives 32.07, so a student using it got a value that was not among the choices.",
+  "cat": "value"
+ },
+ {
+  "id": "3A-192",
+  "field": "c[1]",
+  "old": "150.02 g mol⁻¹",
+  "new": "150.03 g mol⁻¹",
+  "why": "Sulfur taken as 32.06; the game's periodic table gives 32.07, so a student using it got a value that was not among the choices.",
+  "cat": "value"
+ },
+ {
+  "id": "3A-192",
+  "field": "c[2]",
+  "old": "278.02 g mol⁻¹",
+  "new": "278.03 g mol⁻¹",
+  "why": "Sulfur taken as 32.06; the game's periodic table gives 32.07, so a student using it got a value that was not among the choices.",
+  "cat": "value"
+ },
+ {
+  "id": "3A-192",
+  "field": "c[3]",
+  "old": "315.16 g mol⁻¹",
+  "new": "315.19 g mol⁻¹",
+  "why": "Sulfur taken as 32.06; the game's periodic table gives 32.07, so a student using it got a value that was not among the choices.",
+  "cat": "value"
+ },
+ {
+  "id": "3A-192",
+  "field": "w",
+  "old": "2 Al + 3 S + 12 O = 2(26.98) + 3(32.06) + 12(16.00) = 53.96 + 96.18 + 192.00 = <b>342.14 g mol⁻¹</b>. 278.02 g mol⁻¹ multiplies only the O by 3 (counting one S), and 150.02 g mol⁻¹ ignores the parentheses completely.",
+  "new": "2 Al + 3 S + 12 O = 2(26.98) + 3(32.07) + 12(16.00) = 53.96 + 96.21 + 192.00 = <b>342.17 g mol⁻¹</b>. 278.03 g mol⁻¹ multiplies only the O by 3 (counting one S), and 150.03 g mol⁻¹ ignores the parentheses completely.",
+  "why": "Sulfur taken as 32.06; the game's periodic table gives 32.07, so a student using it got a value that was not among the choices.",
+  "cat": "value"
+ },
+ {
+  "id": "3A-280",
+  "field": "c[0]",
+  "old": "36.77%",
+  "new": "36.76%",
+  "why": "Sulfur taken as 32.06; the game's periodic table gives 32.07, so a student using it got a value that was not among the choices.",
+  "cat": "value"
+ },
+ {
+  "id": "3A-280",
+  "field": "c[1]",
+  "old": "63.23%",
+  "new": "63.24%",
+  "why": "Sulfur taken as 32.06; the game's periodic table gives 32.07, so a student using it got a value that was not among the choices.",
+  "cat": "value"
+ },
+ {
+  "id": "3A-280",
+  "field": "c[2]",
+  "old": "58.14%",
+  "new": "58.13%",
+  "why": "Sulfur taken as 32.06; the game's periodic table gives 32.07, so a student using it got a value that was not among the choices.",
+  "cat": "value"
+ },
+ {
+  "id": "3A-280",
+  "field": "w",
+  "old": "Molar mass = 55.85 + 32.06 + 4(16.00) = 151.91 g mol⁻¹; 55.85 ÷ 151.91 × 100 = <b>36.77%</b>. 58.14% divides by the mass of sulfate only, and 16.67% (1 of 6 atoms) counts atoms instead of mass.",
+  "new": "Molar mass = 55.85 + 32.07 + 4(16.00) = 151.92 g mol⁻¹; 55.85 ÷ 151.92 × 100 = <b>36.76%</b>. 58.13% divides by the mass of sulfate only, and 16.67% (1 of 6 atoms) counts atoms instead of mass.",
+  "why": "Sulfur taken as 32.06; the game's periodic table gives 32.07, so a student using it got a value that was not among the choices.",
+  "cat": "value"
+ },
+ {
+  "id": "3A-62",
+  "field": "w",
+  "old": "5 H<sub>2</sub>O = 5(18.016) = 90.08 g; CuSO<sub>4</sub> = 159.61 g; hydrate = 249.69 g mol⁻¹. %H<sub>2</sub>O = 90.08/249.69 × 100 = <b>36.08%</b>. 56.44% divides by the anhydrous mass only.",
+  "new": "5 H<sub>2</sub>O = 5(18.016) = 90.08 g; CuSO<sub>4</sub> = 159.62 g; hydrate = 249.70 g mol⁻¹. %H<sub>2</sub>O = 90.08/249.70 × 100 = <b>36.08%</b>. 56.44% divides by the anhydrous mass only.",
+  "why": "Sulfur taken as 32.06; the game's periodic table gives 32.07, so a student using it got a value that was not among the choices.",
+  "cat": "value"
+ },
+ {
+  "id": "3A-64",
+  "field": "w",
+  "old": "M = 132.14 g mol⁻¹, with 2 × 14.01 = 28.02 g N per mole. 50.0 g × (28.02/132.14) = <b>10.6 g N</b>. 5.30 g counts only one N; 6.14 g drops the subscript 2 outside the parentheses (uses NH<sub>4</sub>SO<sub>4</sub>, 114.12 g mol⁻¹); 0.757 g is moles of N, not grams.",
+  "new": "M = 132.15 g mol⁻¹, with 2 × 14.01 = 28.02 g N per mole. 50.0 g × (28.02/132.15) = <b>10.6 g N</b>. 5.30 g counts only one N; 6.14 g drops the subscript 2 outside the parentheses (uses NH<sub>4</sub>SO<sub>4</sub>, 114.12 g mol⁻¹); 0.757 g is moles of N, not grams.",
+  "why": "Sulfur taken as 32.06; the game's periodic table gives 32.07, so a student using it got a value that was not among the choices.",
+  "cat": "value"
+ },
+ {
+  "id": "1A-52",
+  "field": "c[0]",
+  "old": "1.07 g",
+  "new": "1.08 g",
+  "why": "With the game's atomic masses AgCl is 143.35 g/mol and the mass is 1.075 g, which rounds to 1.08 g.",
+  "cat": "value"
+ },
+ {
+  "id": "1A-52",
+  "field": "c[2]",
+  "old": "1.07×10<sup>3</sup> g",
+  "new": "1.08×10<sup>3</sup> g",
+  "why": "Matches the corrected answer.",
+  "cat": "value"
+ },
+ {
+  "id": "1A-52",
+  "field": "w",
+  "old": "0.0500 L × 0.150 M = 0.00750 mol Ag⁺ → 0.00750 mol AgCl × 143.32 g mol⁻¹ = <b>1.07 g</b>. 1.27 g is the mass of AgNO₃ used, not AgCl formed. 1.07×10<sup>3</sup> g forgets to convert 50.0 mL to liters.",
+  "new": "0.0500 L × 0.150 M = 0.00750 mol Ag⁺ → 0.00750 mol AgCl × 143.35 g mol⁻¹ = <b>1.08 g</b>. 1.27 g is the mass of AgNO₃ used, not AgCl formed. 1.08×10<sup>3</sup> g forgets to convert 50.0 mL to liters.",
+  "why": "With the game's atomic masses AgCl is 143.35 g/mol.",
+  "cat": "value"
+ },
+ {
+  "id": "3B-1016",
+  "field": "w",
+  "old": "Except for one –OH, vitamin E is a large hydrocarbon, so it is fat soluble. Its <b>nonpolar tail dissolves among the fatty acid chains</b> of the bilayer, right next to the polyunsaturated chains it protects.",
+  "new": "Except for a ring that holds an –OH and an ether oxygen, vitamin E is a large hydrocarbon, so it is fat soluble. Its <b>nonpolar tail dissolves among the fatty acid chains</b> of the bilayer, right next to the polyunsaturated chains it protects.",
+  "why": "Vitamin E has two oxygens.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-91",
+  "field": "h",
+  "old": "Compare the anomeric –OH to the CH<sub>2</sub>OH on carbon 5: α is “trans,” β is “cis.”",
+  "new": "In a D-sugar Haworth projection the CH<sub>2</sub>OH on C5 points up. Recall how the α and β anomers differ at C1.",
+  "why": "Hint stated the answer in the same words as the choices.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-1030",
+  "field": "h",
+  "old": "M = methionine, A = alanine, C = cysteine.",
+  "new": "One-letter codes are not always the first letter of the name. Which amino acid is A, and which three-letter codes start with A?",
+  "why": "Hint listed all three amino acids.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-940",
+  "field": "h",
+  "old": "At high pH, OH<sup>−</sup> removes every acidic proton: the –COOH loses H<sup>+</sup>, and so does the –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>.</span>",
+  "new": "Far above the pI, OH<sup>−</sup> removes H<sup>+</sup> from acidic groups. Which groups on alanine can give up an H<sup>+</sup>?",
+  "why": "Hint described the keyed structure.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-603",
+  "field": "h",
+  "old": "A hydrogen bond needs a donor (H on N, O or F) and an acceptor (lone pair on N, O or F). Do they have to be on different molecules?",
+  "new": "A hydrogen bond needs a donor (H on N, O or F) and an acceptor (a lone pair on N, O or F). Must both molecules be able to donate?",
+  "why": "Hint asked a question whose honest answer pointed the wrong way.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-524",
+  "field": "w",
+  "old": "0.60 W m<sup>−1</sup> × (1000 mW / 1 W) × (1 m / 100 cm) = <b>6.0 mW cm<sup>−1</sup> K<sup>−1</sup></b>. 0.060 inverts both factors (÷1000, ×100); 6.0×10<sup>4</sup> multiplies by 100 instead of dividing because the meter is in the denominator; 60 forgets the W → mW step.",
+  "new": "0.60 W m<sup>−1</sup> × (1000 mW / 1 W) × (1 m / 100 cm) = <b>6.0 mW cm<sup>−1</sup> K<sup>−1</sup></b>. 0.060 inverts both factors (÷1000, ×100); 6.0×10<sup>4</sup> multiplies by 100 instead of dividing because the meter is in the denominator; 60 is off by a factor of 10 (1 m is 100 cm, not 10 cm).",
+  "why": "Skipping W → mW gives 0.0060, not 60.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-539",
+  "field": "w",
+  "old": "In MO one O<sup>2−</sup> is balanced by one M, so M is M<sup>2+</sup>. Three M<sup>2+</sup> (+6) balance two <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>4</sub></span></span> (−6): <b>M<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub></b>. MPO<sub>4</sub> would need M<sup>3+</sup>; M<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub> also needs M<sup>3+</sup> and copies the 2 : 3 pattern of an oxide.",
+  "new": "In MO one O<sup>2−</sup> is balanced by one M, so M is M<sup>2+</sup>. Three M<sup>2+</sup> (+6) balance two <span class=\"nw\">PO<span class=\"ss\"><sup>3−</sup><sub>4</sub></span></span> (−6): <b>M<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub></b>. MPO<sub>4</sub> would need M<sup>3+</sup>; M<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub> cannot balance at all (two M would have to supply +9); it copies the 2 : 3 pattern of an oxide such as M<sub>2</sub>O<sub>3</sub>.",
+  "why": "M2(PO4)3 would need +4.5 per M, not M3+.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-547",
+  "field": "w",
+  "old": "Each Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> has 3 × 4 = 12 O atoms, so 2.0 mol × 12 = <b>24 mol O</b>. 12 mol is the count for one mole; 8.0 mol multiplies only the outer subscript (4 × 2); 6.0 mol uses the inner 3 only.",
+  "new": "Each Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> has 3 × 4 = 12 O atoms, so 2.0 mol × 12 = <b>24 mol O</b>. 12 mol is the count for one mole; 8.0 mol uses only the 4 inside the parentheses (4 × 2.0); 6.0 mol uses only the 3 outside (3 × 2.0).",
+  "why": "Inner and outer subscripts were swapped.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-579",
+  "field": "c[1]",
+  "old": "−395.7 kJ",
+  "new": "−395.8 kJ",
+  "why": "The slip this distractor models (not reversing equation 2) gives −395.8 kJ.",
+  "cat": "value"
+ },
+ {
+  "id": "1A-579",
+  "field": "w",
+  "old": "2 × (−296.8) = −593.6 kJ for 2 S + 2 O<sub>2</sub> → 2 SO<sub>2</sub>; reversing equation 2 gives 2 SO<sub>2</sub> + O<sub>2</sub> → 2 SO<sub>3</sub>, −197.8 kJ. Sum: <b>−791.4 kJ</b>. −395.7 forgets to double equation 1; −99.0 neither doubles nor reverses; −593.6 ignores equation 2.",
+  "new": "2 × (−296.8) = −593.6 kJ for 2 S + 2 O<sub>2</sub> → 2 SO<sub>2</sub>; reversing equation 2 gives 2 SO<sub>2</sub> + O<sub>2</sub> → 2 SO<sub>3</sub>, −197.8 kJ. Sum: <b>−791.4 kJ</b>. −395.8 doubles equation 1 but adds equation 2 without reversing it; −99.0 neither doubles nor reverses; −593.6 ignores equation 2.",
+  "why": "Forgetting to double equation 1 gives −494.6 kJ, not −395.7.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-466",
+  "field": "w",
+  "old": "Diagram <b>I</b> has promoted a 2s electron into 2p (higher energy than the ground state II), yet every box holds at most two opposite-spin electrons and the 2p electrons are spread out with parallel spins. III violates Hund's rule (pairing in 2p while two 2p boxes are empty) and IV violates Pauli (two same-spin electrons in 2s), so those are not legal states, excited or otherwise.",
+  "new": "Diagram <b>I</b> has promoted a 2s electron into 2p (higher energy than the ground state II), yet every box holds at most two opposite-spin electrons and the 2p electrons are spread out with parallel spins. III violates Hund's rule (pairing in 2p while two 2p boxes are empty) and IV violates Pauli (two same-spin electrons in 2s), so neither fits: III is an allowed but higher-energy arrangement that breaks Hund's rule, and IV cannot exist at all.",
+  "why": "A Hund's-rule violation is an allowed excited state; only the Pauli violation is impossible.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-128",
+  "field": "w",
+  "old": "n = (2.50 atm)(5.00 L) ÷ [(0.08206)(310.15 K)] = <b>0.491 mol</b>. Using 37 instead of 310 K gives 4.12 mol.",
+  "new": "n = (2.50 atm)(5.00 L) ÷ [(0.08206)(310.15 K)] = <b>0.491 mol</b>. Using 37 instead of 310 K gives 4.12 mol; using R = 8.314 with atm and L gives 0.00485 mol.",
+  "why": "One distractor was unexplained and its feedback named the wrong slip.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-266",
+  "field": "w",
+  "old": "Water: 10.0 g × 4.184 × 63.0 °C = 2.636 kJ. Steam: (10.0/18.02 mol) × 40.70 kJ mol⁻¹ = 22.59 kJ to condense + 2.636 kJ to cool = 25.22 kJ. Ratio = 25.22 ÷ 2.636 = <b>9.57</b>, which is why steam burns are so severe. 8.57 leaves out the steam's cooling step; 154 uses ΔH_vap per mole instead of per 10.0 g.",
+  "new": "Water: 10.0 g × 4.184 × 63.0 °C = 2.636 kJ. Steam: (10.0/18.02 mol) × 40.70 kJ mol⁻¹ = 22.59 kJ to condense + 2.636 kJ to cool = 25.22 kJ. Ratio = 25.22 ÷ 2.636 = <b>9.57</b>, which is why steam burns are so severe. 8.57 leaves out the steam's cooling step; 154 multiplies ΔH_vap by the 10.0 g without converting grams to moles.",
+  "why": "Misdescribed the slip behind 154.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-501",
+  "field": "q",
+  "old": "Using the solubility curves, classify a solution made by stirring 60 g of KNO<sub>3</sub> into 100 g of water at 50 °C until no more dissolves.",
+  "new": "Using the solubility curves, classify a solution made by stirring 60 g of KNO<sub>3</sub> into 100 g of water at 50 °C until all of the solid has dissolved.",
+  "why": "\"Until no more dissolves\" describes a saturated solution, but the key is unsaturated.",
+  "cat": "stem"
+ },
+ {
+  "id": "1B-384",
+  "field": "w",
+  "old": "[A] falls from 0.80 to 0.40 M in 25 s, so t<sub>1/2</sub> = 25 s (and it stays 25 s: 0.40 → 0.20 M at 50 s). 0.80 → 0.40 → 0.20 → 0.10 M is three half-lives, 3 × 25 s = <b>75 s</b> (k = 0.693/25 = 0.0277 s<sup>−1</sup> gives the same answer from ln(0.10/0.80) = −kt). 50 s is two half-lives (0.20 M left); 44 s assumes the initial rate stays constant, which only a zero-order reaction does.",
+  "new": "[A] falls from 0.80 to 0.40 M in 25 s, so t<sub>1/2</sub> = 25 s (and it stays 25 s: 0.40 → 0.20 M at 50 s). 0.80 → 0.40 → 0.20 → 0.10 M is three half-lives, 3 × 25 s = <b>75 s</b> (k = 0.693/25 = 0.0277 s<sup>−1</sup> gives the same answer from ln(0.10/0.80) = −kt). 50 s is two half-lives (0.20 M left); 44 s assumes the average rate over the first half-life stays constant, which only a zero-order reaction does.",
+  "why": "Initial rate gives 32 s; 44 s comes from the first-half-life average rate.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1B-384",
+  "field": "x[3]",
+  "old": "This assumes the rate stays constant.",
+  "new": "This assumes the rate over the first half-life stays constant. A first-order rate keeps falling.",
+  "why": "Clarified which rate.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1B-198",
+  "field": "h",
+  "old": "This is a concentration cell in H<sup>+</sup>: E = (0.0592/n) log([H<sup>+</sup>]<sub>cathode</sub>/[H<sup>+</sup>]<sub>anode</sub>), with [H<sup>+</sup>]<sub>cathode</sub> = 1 M.",
+  "new": "This is a concentration cell in H<sup>+</sup>: E = 0.0592 log([H<sup>+</sup>]<sub>cathode</sub>/[H<sup>+</sup>]<sub>anode</sub>), with [H<sup>+</sup>]<sub>cathode</sub> = 1 M.",
+  "why": "With n = 2 the hint's unsquared ratio led straight to the distractor 8.01.",
+  "cat": "hint-wrong"
+ },
+ {
+  "id": "1A-536",
+  "field": "h",
+  "old": "Seven elements are diatomic: H<sub>2</sub>, N<sub>2</sub>, O<sub>2</sub>, F<sub>2</sub>, Cl<sub>2</sub>, Br<sub>2</sub>, I<sub>2</sub>.",
+  "new": "Seven elements exist as diatomic molecules: hydrogen, the halogens and two gases that make up most of air. Noble gases are monatomic.",
+  "why": "Hint listed the answer by name. Old hint: Seven elements are diatomic: H2, N2, O2, F2, Cl2, Br2, I2.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-478",
+  "field": "h",
+  "old": "Dark lines are ABSORPTION: electrons jump UP by taking in photons. The 486 nm photon connects n = 2 with n = 4 either way.",
+  "new": "Dark lines are ABSORPTION: electrons jump UP by taking in photons. The visible lines of hydrogen all involve n = 2.",
+  "why": "Hint named both energy levels.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-386",
+  "field": "h",
+  "old": "Intermediates are the valleys between peaks. The slowest step has the largest climb from its own starting valley to its own peak, not the highest peak overall.",
+  "new": "Intermediates are the valleys between peaks. For the slow step, compare each step's climb from its own starting valley to its own peak.",
+  "why": "The keyed step had the largest single barrier, but another step had the highest transition state, which is the step that limits the rate when the intermediate can fall back. The diagram is redrawn so step 1 has both, and the answer no longer depends on which rule a student was taught.",
+  "cat": "key"
+ },
+ {
+  "id": "1B-386",
+  "field": "w",
+  "old": "There are three peaks (three steps) and two valleys between them, so <b>2 intermediates</b>. The barriers are 60 kJ (0 → 60), 50 kJ (30 → 80) and 30 kJ (20 → 50); the largest is <b>step 1</b>, which is rate-determining. Step 2 has the highest transition state on the diagram (80 kJ), but it starts from an intermediate at 30 kJ, so its own barrier is only 50 kJ.",
+  "new": "There are three peaks (three steps) and two valleys between them, so <b>2 intermediates</b>. The barriers are 80 kJ (0 → 80), 25 kJ (40 → 65) and 30 kJ (20 → 50); the largest is <b>step 1</b>, which also has the highest transition state on the diagram, so it is rate-determining.",
+  "why": "The keyed step had the largest single barrier, but another step had the highest transition state, which is the step that limits the rate when the intermediate can fall back. The diagram is redrawn so step 1 has both, and the answer no longer depends on which rule a student was taught.",
+  "cat": "key"
+ },
+ {
+  "id": "1B-386",
+  "field": "x[1]",
+  "old": "Step 2's own barrier is only 50 kJ.",
+  "new": "Measure step 2's barrier from its own starting valley, not from zero, and compare it with the other steps.",
+  "why": "The keyed step had the largest single barrier, but another step had the highest transition state, which is the step that limits the rate when the intermediate can fall back. The diagram is redrawn so step 1 has both, and the answer no longer depends on which rule a student was taught.",
+  "cat": "key"
+ },
+ {
+  "id": "1B-386",
+  "field": "x[3]",
+  "old": "Step 3's barrier is only 30 kJ.",
+  "new": "Measure step 3's barrier from its own starting valley, then compare it with the other steps.",
+  "why": "The keyed step had the largest single barrier, but another step had the highest transition state, which is the step that limits the rate when the intermediate can fall back. The diagram is redrawn so step 1 has both, and the answer no longer depends on which rule a student was taught.",
+  "cat": "key"
+ },
+ {
+  "id": "1B-386",
+  "field": "raw",
+  "old": "[[0.0,0],[0.1,0],[0.2,0],[0.3,0],[0.371,0.75],[0.443,2.97],[0.514,6.55],[0.586,11.3],[0.657,16.98],[0.729,23.32],[0.8,30.0],[0.871,36.68],[0.943,43.02],[1.014,48.7],[1.086,53.45],[1.157,57.03],[1.229,59.25],[1.371,59.62],[1.443,58.51],[1.514,56.73],[1.586,54.35],[1.657,51.51],[1.729,48.34],[1.8,45.0],[1.871,41.66],[1.943,38.49],[2.014,35.65],[2.086,33.27],[2.157,31.49],[2.229,30.38],[2.3,30],[2.4,30],[2.5,30],[2.6,30],[2.671,30.63],[2.743,32.48],[2.814,35.45],[2.886,39.41],[2.957,44.15],[3.029,49.44],[3.1,55.0],[3.171,60.56],[3.243,65.85],[3.314,70.59],[3.386,74.55],[3.457,77.52],[3.529,79.37],[3.671,79.25],[3.743,77.03],[3.814,73.45],[3.886,68.7],[3.957,63.02],[4.029,56.68],[4.1,50.0],[4.171,43.32],[4.243,36.98],[4.314,31.3],[4.386,26.55],[4.457,22.97],[4.529,20.75],[4.6,20],[4.7,20],[4.8,20],[4.9,20],[4.971,20.38],[5.043,21.49],[5.114,23.27],[5.186,25.65],[5.257,28.49],[5.329,31.66],[5.4,35.0],[5.471,38.34],[5.543,41.51],[5.614,44.35],[5.686,46.73],[5.757,48.51],[5.829,49.62],[5.971,49.12],[6.043,46.53],[6.114,42.36],[6.186,36.82],[6.257,30.19],[6.329,22.79],[6.4,15.0],[6.471,7.21],[6.543,-0.19],[6.614,-6.82],[6.686,-12.36],[6.757,-16.53],[6.829,-19.12],[6.9,-20],[7.0,-20],[7.1,-20],[7.2,-20]]",
+  "new": "[[0,0],[0.1,0],[0.2,0],[0.3,0],[0.371,0.99],[0.443,3.97],[0.514,8.7],[0.586,15.09],[0.657,22.63],[0.729,31.15],[0.8,40],[0.871,48.85],[0.943,57.37],[1.014,64.91],[1.086,71.3],[1.157,76.03],[1.229,79.01],[1.3,80],[1.371,79.5],[1.443,78.02],[1.514,75.65],[1.586,72.46],[1.657,68.69],[1.729,64.42],[1.8,60],[1.871,55.58],[1.943,51.31],[2.014,47.54],[2.086,44.35],[2.157,41.98],[2.229,40.5],[2.3,40],[2.4,40],[2.5,40],[2.6,40],[2.671,40.31],[2.743,41.24],[2.814,42.72],[2.886,44.72],[2.957,47.07],[3.029,49.73],[3.1,52.5],[3.171,55.27],[3.243,57.93],[3.314,60.28],[3.386,62.28],[3.457,63.76],[3.529,64.69],[3.6,65],[3.671,64.44],[3.743,62.77],[3.814,60.1],[3.886,56.51],[3.957,52.27],[4.029,47.48],[4.1,42.5],[4.171,37.52],[4.243,32.73],[4.314,28.49],[4.386,24.9],[4.457,22.23],[4.529,20.56],[4.6,20],[4.7,20],[4.8,20],[4.9,20],[4.971,20.37],[5.043,21.49],[5.114,23.26],[5.186,25.66],[5.257,28.49],[5.329,31.68],[5.4,35],[5.471,38.32],[5.543,41.51],[5.614,44.34],[5.686,46.74],[5.757,48.51],[5.829,49.63],[5.9,50],[5.971,49.13],[6.043,46.53],[6.114,42.38],[6.186,36.8],[6.257,30.2],[6.329,22.74],[6.4,15],[6.471,7.26],[6.543,-0.2],[6.614,-6.8],[6.686,-12.38],[6.757,-16.53],[6.829,-19.13],[6.9,-20],[7,-20],[7.1,-20],[7.2,-20]]",
+  "why": "The keyed step had the largest single barrier, but another step had the highest transition state, which is the step that limits the rate when the intermediate can fall back. The diagram is redrawn so step 1 has both, and the answer no longer depends on which rule a student was taught. New energies: peaks 80, 65, 50 kJ; valleys 40, 20 kJ; products −20 kJ.",
+  "cat": "key"
+ },
+ {
+  "id": "3B-881",
+  "field": "raw",
+  "old": "[[0.0,0.0],[0.5,2.3],[1.0,4.6],[1.5,6.9],[2.0,9.2],[2.5,11.5],[3.0,13.8],[3.5,16.1],[4.0,18.4],[4.5,20.7],[5.0,23.0],[5.5,25.3],[6.0,27.6],[6.5,29.9],[7.0,32.2],[7.5,34.5],[8.0,36.8],[8.5,39.1],[9.0,41.4],[9.5,43.7],[10.0,46.0],[10.5,48.3],[11.0,50.6],[11.5,52.9],[12.0,55.2],[12.5,57.5],[13.0,59.8],[13.5,62.1],[14.0,64.4],[14.5,66.7],[15.0,69.0],[15.5,71.3],[16.0,73.6],[16.5,75.9],[17.0,78.2],[17.5,80.5],[18.0,82.8],[18.5,85.1],[19.0,87.4],[19.5,89.7],[20.0,92.0]]",
+  "new": "[[0,0],[0.5,1.25],[1,2.5],[1.5,3.75],[2,5],[2.5,6.25],[3,7.5],[3.5,8.75],[4,10],[4.5,11.25],[5,12.5],[5.5,13.75],[6,15],[6.5,16.25],[7,17.5],[7.5,18.75],[8,20],[8.5,21.25],[9,22.5],[9.5,23.75],[10,25],[10.5,26.25],[11,27.5],[11.5,28.75],[12,30],[12.5,31.25],[13,32.5],[13.5,33.75],[14,35],[14.5,36.25],[15,37.5],[15.5,38.75],[16,40],[16.5,41.25],[17,42.5],[17.5,43.75],[18,45],[18.5,46.25],[19,47.5],[19.5,48.75],[20,50]]",
+  "why": "The uncatalyzed line rose above the enzyme curve at high substrate, which contradicts \"enzymes speed reactions\" and made a wrong choice attractive. Its slope is lowered so it stays below the enzyme curve.",
+  "cat": "figure"
+ }
+]
