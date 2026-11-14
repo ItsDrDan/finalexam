@@ -53,6 +53,9 @@ button,input,select{font:inherit;color:inherit}.hidden{display:none!important}
 .fbrow{display:flex;gap:12px;align-items:flex-start;margin-top:10px}.fbrow .fbcol{flex:1;min-width:0}.fbrow .fbcol .hintbox,.fbrow .fbcol .fb{margin-top:0}.fbrow .fbcol .hintbox+.fb:not(:empty){margin-top:8px}
 .fbmini{flex:0 0 124px;width:124px;text-align:center;padding-top:2px}.fbmini.hidden{display:none}.fbrow.empty{margin-top:14px}
 @media(max-width:700px){.fbmini{flex-basis:92px;width:92px}.fbrow{gap:8px}}
+@media(max-width:480px){.fbrow{flex-direction:column;align-items:stretch}.fbmini{flex:0 0 auto;width:auto;display:flex;align-items:center;gap:10px;text-align:left;padding-top:0}.fbmini svg{flex:0 0 60px;width:60px}.fb .nw,.hintbox .nw{white-space:normal}}
+.fb,.hintbox{overflow-wrap:break-word}.opt>span:last-child{min-width:0;overflow-wrap:anywhere}
+@media(max-width:360px){.ftab{display:block;max-width:100%;overflow-x:auto}.prompt .nw,.opt .nw{white-space:normal}}body.calc-open .ddfb-float{display:none!important}
 .course{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
 .course button{min-height:44px;padding:6px 16px;border-radius:999px;border:2px solid #cfdbe6;background:#fff;font-weight:900;cursor:pointer}
 .course button.on{background:#263840;color:#fff;border-color:#263840}
