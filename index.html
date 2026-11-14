@@ -54,7 +54,8 @@ button,input,select{font:inherit;color:inherit}.hidden{display:none!important}
 .fbmini{flex:0 0 124px;width:124px;text-align:center;padding-top:2px}.fbmini.hidden{display:none}.fbrow.empty{margin-top:14px}
 @media(max-width:700px){.fbmini{flex-basis:92px;width:92px}.fbrow{gap:8px}}
 @media(max-width:480px){.fbrow{flex-direction:column;align-items:stretch}.fbmini{flex:0 0 auto;width:auto;display:flex;align-items:center;gap:10px;text-align:left;padding-top:0}.fbmini svg{flex:0 0 60px;width:60px}.fb .nw,.hintbox .nw{white-space:normal}}
-.fb,.hintbox{overflow-wrap:break-word}.fbnext{margin-top:14px}.fbnext .btn{width:100%}.opt>span:last-child{min-width:0;overflow-wrap:anywhere}
+.fb,.hintbox{overflow-wrap:break-word}.fbnext{margin-top:14px}.fbnext .btn{width:100%}
+@media(max-width:560px){.ddfb-float{width:42px!important;height:42px!important;opacity:.6}.ddfb-float svg{width:19px;height:19px}body.fb-reading .ddfb-float{opacity:0!important;pointer-events:none!important}}.opt>span:last-child{min-width:0;overflow-wrap:anywhere}
 @media(max-width:360px){.ftab{display:block;max-width:100%;overflow-x:auto}.prompt .nw,.opt .nw{white-space:normal}}body.calc-open .ddfb-float{display:none!important}
 .course{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
 .course button{min-height:44px;padding:6px 16px;border-radius:999px;border:2px solid #cfdbe6;background:#fff;font-weight:900;cursor:pointer}
@@ -1302,6 +1303,11 @@ function finish(revealed){state.done=true;const mine=state.fwId===state.q.id?sta
  else $('newBtn').textContent='Next Question ▸';
  $('fb').insertAdjacentHTML('beforeend',`<div class="fbnext"><button class="btn ${$('newBtn').className.replace(/\bbtn\b/,'').trim()}" type="button" onclick="fbNext()">${esc($('newBtn').textContent)}</button></div>`);
  stats();renderIntel();if(state.mode==='topic')topicChips()}
+/* Phones: keep figure labels at least 10 px on screen, and hide the floating feedback button while an explanation is on screen. */
+function fitSvgText(root){const small=innerWidth<=700;(root||document).querySelectorAll('svg[viewBox]').forEach(sv=>{const vb=sv.viewBox.baseVal,w=sv.getBoundingClientRect().width;if(!vb||!vb.width||!w)return;const sc=w/vb.width;sv.querySelectorAll('text').forEach(t=>{if(t.dataset.fs0===undefined){if(!small)return;t.dataset.fs0=t.style.fontSize||''}t.style.fontSize=t.dataset.fs0;if(!small)return;const fs=parseFloat(getComputedStyle(t).fontSize);if(fs*sc<10)t.style.fontSize=(10/sc).toFixed(2)+'px'})})}
+let fitQueued=false;function fitSoon(){if(fitQueued)return;fitQueued=true;requestAnimationFrame(()=>{fitQueued=false;fitSvgText(document);fbReading()})}
+function fbReading(){const f=$('fb');if(!f)return;const r=f.getBoundingClientRect();document.body.classList.toggle('fb-reading',!!f.textContent.trim()&&r.height>0&&r.bottom>0&&r.top<innerHeight)}
+new MutationObserver(fitSoon).observe(document.body,{childList:true,subtree:true});addEventListener('resize',fitSoon);document.addEventListener('toggle',fitSoon,true);addEventListener('scroll',()=>requestAnimationFrame(fbReading),{passive:true});
 function fbNext(){$('newBtn').click();const t=$('practice');if(t.getBoundingClientRect().top<0)t.scrollIntoView({block:'start'})}
 function check(){if(state.done)return;const q=state.q;if(state.sel==null)return fb('bad','Choose an answer first.');
  if(state.sel!==0){if(state.tries===0)record(q,false);state.tries++;state.streak=0;stats();$('qArea').querySelector(`.opt[data-k="${state.sel}"]`)?.classList.add('wrong');const why=q.x&&q.x[state.sel];if(state.fwId!==q.id){state.fwId=q.id;state.fwK=state.sel}state.sel=null;
