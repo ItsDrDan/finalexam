@@ -1,0 +1,1314 @@
+[
+ {
+  "id": "1A-216",
+  "field": "x[1]",
+  "old": "This swaps the numbers the wrong way.",
+  "new": "Cr₃(SO₃)₂ gives +9 and −4, so the charges don’t balance. Cross the charges: the 3 from Cr³⁺ goes on sulfite.",
+  "why": "\"Swaps the numbers the wrong way\" is vague and does not show the student why Cr3(SO3)2 fails.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "1A-516",
+  "field": "x[3]",
+  "old": "Conservation of mass isn't what these compounds show.",
+  "new": "Conservation of mass is about a reaction keeping its total mass. Here two compounds are compared, and they do not have the same O per N.",
+  "why": "Says only that conservation of mass is not shown; does not say why the law is wrong or address the 1 : 1 ratio.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "1A-341",
+  "field": "x[3]",
+  "old": "Box IV has the wrong ratio.",
+  "new": "Box IV has more SO₄²⁻ than Na⁺, so its charges do not balance. Each Na₂SO₄ gives 2 Na⁺ for every SO₄²⁻.",
+  "why": "Line says only that the ratio is wrong; unlike feedback 1 it gives no rule or reason the student can use.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-436",
+  "field": "x[2]",
+  "old": "No O₂ forms here.",
+  "new": "A carbonate and an acid do not make O₂. The bubbles come from H₂CO₃ breaking apart.",
+  "why": "'No O₂ forms here' is true but does not tell the student why.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "1A-437",
+  "field": "x[3]",
+  "old": "No Cl₂ forms.",
+  "new": "Cl⁻ stays dissolved as a spectator ion. Making Cl₂ would need an oxidizing agent, and none is present.",
+  "why": "'No Cl₂ forms' is true but gives no reason.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-68",
+  "field": "x[1]",
+  "old": "O₃ isn't oxygen's standard state. O₂ is.",
+  "new": "O₃ is a less stable form of oxygen, so it is not the element's standard state.",
+  "why": "Feedback states the keyed answer outright ('O₂ is').",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-581",
+  "field": "x[1]",
+  "old": "−576.6 releases more heat than −411.2. It's more, not less.",
+  "new": "A more negative ΔH°f means more heat is released per mole formed. Compare −576.6 with −411.2 again.",
+  "why": "'It's more, not less' states the keyed answer outright.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-581",
+  "field": "w",
+  "old": "Both reactions release heat (negative ΔH°<sub>f</sub>); −576.6 kJ releases more than −411.2 kJ, so NaF formation is <b>more exothermic</b>. 'Less exothermic' reads −576.6 as the smaller number; neither process is endothermic.",
+  "new": "Both reactions release heat (negative ΔH°<sub>f</sub>); −576.6 kJ releases more than −411.2 kJ, so NaF formation is <b>more exothermic</b>. 'Less exothermic' treats the smaller (more negative) number as less heat released; neither process is endothermic.",
+  "why": "−576.6 really is the smaller number, so saying the wrong choice 'reads −576.6 as the smaller number' misdescribes the error; the mistake is equating the smaller (more negative) value with less heat released.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-74",
+  "field": "x[1]",
+  "old": "Ultraviolet photons carry more energy than visible light, but another choice has an even shorter wavelength.",
+  "new": "Ultraviolet photons carry more energy than visible light, but UV is not the shortest wavelength region of the spectrum.",
+  "why": "'Another choice has an even shorter wavelength' than UV leaves only X-rays among the choices.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-76",
+  "field": "x[3]",
+  "old": "No electrons are ejected at all.",
+  "new": "Brighter light does not raise the energy of each photon, so it cannot make a photon strong enough to free an electron.",
+  "why": "'No electrons are ejected at all' states the keyed answer outright.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-240",
+  "field": "x[3]",
+  "old": "This swaps n and l, and 3f can't exist.",
+  "new": "3f uses the l value 3 as the shell number. The shell here is n = 5, and 3f cannot exist because l must be less than n.",
+  "why": "3f does not swap n and l (a swap would give n = 3, l = 5). It puts the l value 3 in the shell position and keeps the f letter.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-240",
+  "field": "w",
+  "old": "n gives the shell (5) and l = 3 is an f subshell: <b>5f</b>. 5d would be l = 2; '3f' swaps n and l (and cannot exist).",
+  "new": "n gives the shell (5) and l = 3 is an f subshell: <b>5f</b>. 5d would be l = 2; '3f' puts the l value in place of n (and cannot exist).",
+  "why": "Same loose claim that 3f swaps n and l.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-477",
+  "field": "x[1]",
+  "old": "Helium shares only one line. All lines must match.",
+  "new": "Some helium lines sit close to the unknown's lines, but none of them line up exactly. Every line must match.",
+  "why": "Helium shares no line with the unknown: its 447 nm and 588 nm lines are about 10 nm from the unknown's 436 nm and 579 nm lines, so 'shares only one line' is not accurate.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-477",
+  "field": "w",
+  "old": "The unknown's lines at about 405, 436, 546 and 579 nm match <b>mercury</b> exactly. Helium shares a line near 447 nm and sodium has one near 589 nm, but one coincidence is not a match — all lines must line up.",
+  "new": "The unknown's lines at about 405, 436, 546 and 579 nm match <b>mercury</b> exactly. Helium (447 nm) and sodium (589 nm) each have a line close to one of the unknown's lines, but a near miss is not a match — all lines must line up.",
+  "why": "The unknown has no line at 447 nm or 589 nm, so helium and sodium do not actually share a line with it; they only have lines about 10 nm away.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-542",
+  "field": "h",
+  "old": "An ORBITAL (not a subshell) holds at most two electrons with opposite spins.",
+  "new": "Think about what the Pauli exclusion principle says about the spins of electrons that share one orbital.",
+  "why": "Hint states the answer outright (an orbital holds at most two electrons), and the stem asks exactly that.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-542",
+  "field": "x[3]",
+  "old": "Any single orbital holds at most 2 electrons.",
+  "new": "No single orbital holds 4 electrons. Ask how many different spin directions two electrons in one orbital can have.",
+  "why": "Feedback states the keyed answer (at most 2) instead of addressing why 4 is wrong.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-95",
+  "field": "h",
+  "old": "Electronegativity increases up a group and across a period; fluorine is highest, and oxygen is second.",
+  "new": "Electronegativity increases up a group and to the right across a period. A period 2 element can beat a period 3 element that sits farther right.",
+  "why": "Hint says oxygen is second only to fluorine; with no F among the choices this names the keyed answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-489",
+  "field": "w",
+  "old": "The ions are isoelectronic (10 electrons each), so size is set by nuclear charge: Mg<sup>2+</sup> (12 protons) pulls hardest and is the SMALLEST, bar <b>II</b> (72 pm). Bar III (140 pm) is O<sup>2−</sup>, I is F<sup>−</sup> and IV is Na<sup>+</sup>. Choosing the largest bar confuses Mg's large ATOMIC radius with its ionic radius.",
+  "new": "The ions are isoelectronic (10 electrons each), so size is set by nuclear charge: Mg<sup>2+</sup> (12 protons) pulls hardest and is the SMALLEST, bar <b>II</b> (72 pm). Bar III (140 pm) is O<sup>2−</sup>, I is F<sup>−</sup> and IV is Na<sup>+</sup>. Choosing a large bar confuses Mg's large ATOMIC radius with its much smaller ionic radius.",
+  "why": "Last sentence says picking the largest bar confuses Mg's large atomic radius with its ionic radius, but among the parent atoms Na (186 pm) is larger than Mg (160 pm), so atomic radii would not make Mg the largest. The rationale is shaky.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-104",
+  "field": "x[3]",
+  "old": "There aren't enough electrons for three double bonds.",
+  "new": "Three double bonds would put 10 electrons around N. A period 2 atom like N cannot hold more than 8.",
+  "why": "False: nitrate has 24 valence electrons, and three N=O bonds with two lone pairs on each O uses exactly 24. The real problem is that N would hold 10 electrons, breaking the octet.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-361",
+  "field": "x[2]",
+  "old": "90° is just the drawing grid.",
+  "new": "Bent is right, but 90° is too small. Four domains start near 109.5°, and the two lone pairs squeeze the angle only a little below that.",
+  "why": "The drawing shows the two H atoms on opposite sides of O (180°), not at 90°, so saying 90° is the drawing grid is false and does not explain the mistake.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-582",
+  "field": "w",
+  "old": "The 2+/2− oxides far exceed the 1+/1− salts. Among the 1+/1− pair, the smaller Cl<sup>−</sup> gives KCl a larger lattice energy than KBr; among the oxides, the smaller Mg<sup>2+</sup> puts MgO above CaO: <b>KBr &lt; KCl &lt; CaO &lt; MgO</b>. Ordering by molar mass or putting MgO below CaO reverses the size effect.",
+  "new": "The 2+/2− oxides far exceed the 1+/1− salts. Among the 1+/1− pair, the smaller Cl<sup>−</sup> gives KCl a larger lattice energy than KBr; among the oxides, the smaller Mg<sup>2+</sup> puts MgO above CaO: <b>KBr &lt; KCl &lt; CaO &lt; MgO</b>. Putting KCl below KBr or MgO below CaO reverses the size effect, and the fully reversed list ranks strongest first.",
+  "why": "Ordering by increasing molar mass gives the fully reversed list (distractor 3), which reverses the charge effect too, not just the size effect; the KCl < KBr choice is not addressed here.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-125",
+  "field": "x[3]",
+  "old": "There aren't enough electrons for 3 unpaired.",
+  "new": "The π* level has only two orbitals, so its three electrons cannot all be unpaired.",
+  "why": "O2- has 13 valence electrons, so electron count is not the limit; the limit is that the three pi* electrons share only two pi* orbitals.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-257",
+  "field": "x[3]",
+  "old": "This adds an electron instead of removing it.",
+  "new": "3.5 would mean removing an antibonding electron. The highest electron in N₂ is in a bonding orbital.",
+  "why": "Adding an electron to N2 puts it in a pi* orbital and gives bond order 2.5, not 3.5. A bond order of 3.5 would come from removing an antibonding electron.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-257",
+  "field": "w",
+  "old": "N₂ (10 valence e⁻): ½(8 bonding − 2 antibonding) = 3. N₂⁺ loses one electron from the bonding σ2p orbital: ½(7 − 2) = <b>2.5</b>. Choosing 3.5 adds the electron instead of removing it.",
+  "new": "N₂ (10 valence e⁻): ½(8 bonding − 2 antibonding) = 3. N₂⁺ loses one electron from the bonding σ2p orbital: ½(7 − 2) = <b>2.5</b>. Choosing 3.5 takes the electron from an antibonding orbital, but N₂ loses it from the bonding σ2p orbital.",
+  "why": "Same false claim: adding an electron to N2 gives 2.5, not 3.5.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-283",
+  "field": "w",
+  "old": "Left to right: CH<sub>2</sub>= and =CH– each have 3 domains (sp<sup>2</sup>); the CH<sub>2</sub> with 4 single bonds is sp<sup>3</sup>; the C≡N carbon has 2 domains (sp). <b>sp<sup>3</sup>: 1, sp<sup>2</sup>: 2, sp: 1</b>. Calling the C≡N carbon sp<sup>2</sup> or sp<sup>3</sup> counts each line of the triple bond as a domain.",
+  "new": "Left to right: CH<sub>2</sub>= and =CH– each have 3 domains (sp<sup>2</sup>); the CH<sub>2</sub> with 4 single bonds is sp<sup>3</sup>; the C≡N carbon has 2 domains (sp). <b>sp<sup>3</sup>: 1, sp<sup>2</sup>: 2, sp: 1</b>. Calling the CH<sub>2</sub> with 4 single bonds sp<sup>2</sup>, or calling a C=C carbon sp<sup>3</sup> or sp, miscounts its domains.",
+  "why": "No distractor calls the C≡N carbon sp^2 or sp^3 (all keep at least one sp), and counting each line of a triple bond as a domain would give 4 domains (sp^3), not sp^2. The real errors are the sp^3 CH2 called sp^2, or a C=C carbon called sp^3 or sp.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-285",
+  "field": "x[3]",
+  "old": "Some bonds were missed. Count every line in the drawing, including each C–H bond.",
+  "new": "Some bonds were missed. Every pair of bonded atoms, including each C–H pair, is joined by exactly one σ bond.",
+  "why": "'Count every line in the drawing' would count both lines of each double bond, which leads to 13 σ rather than 11.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-288",
+  "field": "x[3]",
+  "old": "This is reversed.",
+  "new": "Atom a has three domains (one C=C and two C–H), so it cannot be sp. Count the domains on b as well.",
+  "why": "'This is reversed' with no reason simply points to the keyed answer.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-290",
+  "field": "w",
+  "old": "The CH<sub>3</sub> carbon has 4 single bonds (sp<sup>3</sup>). The middle carbon and the right carbon each have one C=O and two single bonds → sp<sup>2</sup>. Answer: <b>2</b>. Answering 3 assumes all carbons next to oxygen are sp<sup>2</sup>.",
+  "new": "The CH<sub>3</sub> carbon has 4 single bonds (sp<sup>3</sup>). The middle carbon and the right carbon each have one C=O and two single bonds → sp<sup>2</sup>. Answer: <b>2</b>. Answering 3 also counts the CH<sub>3</sub> carbon, which has only single bonds.",
+  "why": "The CH3 carbon is bonded only to C and H, not to oxygen, so the stated reasoning for answering 3 does not fit.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-456",
+  "field": "x[2]",
+  "old": "H₂ has the weakest attractions of these.",
+  "new": "H₂ has only 2 electrons, so its dispersion forces are very weak and its a value is small.",
+  "why": "By tabulated van der Waals a, Ne (about 0.21 L²·atm/mol²) is slightly smaller than H2 (about 0.25), so 'weakest attractions of these' is doubtful in a question about a.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-141",
+  "field": "x[3]",
+  "old": "This is reversed. It goes from highest to lowest.",
+  "new": "NaCl is held together by ionic bonds in a lattice, so it has the highest boiling point, not the lowest.",
+  "why": "Saying the order is simply reversed hands the student the keyed order.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1A-202",
+  "field": "x[1]",
+  "old": "A liquid can exist only above the triple-point pressure (0.40 atm).",
+  "new": "At −30 °C, below the triple-point temperature of −20 °C, the solid region does not border the liquid region, so no melting can occur.",
+  "why": "Feedback cites the triple-point pressure, but the path starts at 1.0 atm (above 0.40 atm); the real reason no liquid forms is that −30 °C is below the triple-point temperature, so the line does not explain the student's mistake.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1A-495",
+  "field": "w",
+  "old": "Curve C crosses the 500 torr line at about <b>88 °C</b>, so water boils below 100 °C at reduced pressure (Clausius–Clapeyron gives 88.5 °C). 100 °C is its NORMAL boiling point (760 torr); 66 °C comes from the false proportion (500/760) × 100 °C; boiling above 100 °C would need a pressure above 760 torr.",
+  "new": "Curve C crosses the 500 torr line at about <b>88 °C</b>, so liquid C boils below its normal boiling point of 100 °C at reduced pressure (Clausius–Clapeyron gives 88.5 °C). 100 °C is its NORMAL boiling point (760 torr); 66 °C comes from the false proportion (500/760) × 100 °C; boiling above 100 °C would need a pressure above 760 torr.",
+  "why": "Explanation calls liquid C 'water', but neither the stem nor the figure identifies C as water.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1A-508",
+  "field": "w",
+  "old": "Box I has every unit dissociated into ions (strong electrolyte); box III has mostly intact molecules with one dissociated pair (weak electrolyte); box II has only neutral molecules (nonelectrolyte — no ions, no current). So <b>I &gt; III &gt; II</b>. Counting total particles instead of ions gives the wrong idea that II conducts, since it has as many particles as III.",
+  "new": "Box I has every unit dissociated into ions (strong electrolyte); box III has mostly intact molecules with one dissociated pair (weak electrolyte); box II has only neutral molecules (nonelectrolyte — no ions, no current). So <b>I &gt; III &gt; II</b>. Counting total particles instead of ions gives the wrong idea that II conducts, since it has nearly as many particles as III.",
+  "why": "Box II has 6 particles (6 molecules) and box III has 7 (5 molecules + 2 ions), so II does not have 'as many particles as III'.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1B-13",
+  "field": "w",
+  "old": "A catalyst offers a lower-energy pathway, so <b>E<sub>a</sub> drops for both directions</b> by the same amount. ΔH and K are state functions of reactants and products and are unchanged; a catalyst is regenerated.",
+  "new": "A catalyst offers a lower-energy pathway, so <b>E<sub>a</sub> drops for both directions</b> by the same amount. ΔH and K depend only on the reactants and products, so they are unchanged; a catalyst is regenerated.",
+  "why": "Calls K a state function. K depends only on the reactants and products (through ΔG°), but it is not itself a state function; loose wording rather than a clear error.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1B-279",
+  "field": "x[3]",
+  "old": "Point e isn't step 1's transition state.",
+  "new": "Point e is the products at the end of the curve. A transition state is a peak, not an end point.",
+  "why": "Feedback only says e is not the transition state; it does not tell the student what point e is.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "1B-225",
+  "field": "x[1]",
+  "old": "Both act as acids here, from different pairs.",
+  "new": "HSO₄⁻ gives up H⁺ and HS⁻ takes it, so they come from two different pairs. Partners differ by exactly one H⁺.",
+  "why": "Feedback says HSO4- and HS- both act as acids, but HS- accepts H+ here, so it acts as a base.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-369",
+  "field": "x[2]",
+  "old": "Some H₃PO₄ has been neutralized at P.",
+  "new": "At P the moles of OH⁻ added equal the moles of H₃PO₄, so nearly every H₃PO₄ has already lost one H⁺.",
+  "why": "\"Some H3PO4 has been neutralized\" understates the point: at P one full equivalent of base has been added, so almost none is left, and the line does not tell the student why H3PO4 cannot still predominate.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "1B-361",
+  "field": "x[1]",
+  "old": "Phenolphthalein would change far past equivalence.",
+  "new": "The pH falls as acid is added, so phenolphthalein (8.2–10.0) would change color well before the equivalence point.",
+  "why": "The pH falls as HCl is added to the weak base, so phenolphthalein (8.2–10.0) changes color before the equivalence point, not past it.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-361",
+  "field": "w",
+  "old": "The steep section is centered near pH 5.2 (the solution is the weak acid BH<sup>+</sup> at equivalence), which lies inside the <b>methyl red</b> range (4.4–6.2). Phenolphthalein (8.2–10.0) is the reflex choice but would change color far past equivalence; bromothymol blue assumes equivalence is at pH 7, which is true only for strong acid–strong base titrations.",
+  "new": "The steep section is centered near pH 5.2 (the solution is the weak acid BH<sup>+</sup> at equivalence), which lies inside the <b>methyl red</b> range (4.4–6.2). Phenolphthalein (8.2–10.0) is the reflex choice but would change color well before equivalence; bromothymol blue assumes equivalence is at pH 7, which is true only for strong acid–strong base titrations.",
+  "why": "Same error: phenolphthalein changes before equivalence in a base-with-acid titration, not past it.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1B-363",
+  "field": "x[3]",
+  "old": "Read the pH at half-equivalence (10.0 mL).",
+  "new": "3.53 is the pH at 5.0 mL, only a quarter of the way to equivalence. pKa equals the pH when exactly half the acid has been neutralized.",
+  "why": "Pointing to the 10.0 mL row leaves only one possible choice (4.00).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-443",
+  "field": "w",
+  "old": "Dissolution = (reaction 1) + (reverse of reaction 2): the 4 OH<sup>−</sup> on the right of the reversed formation cancel 2 of the OH<sup>−</sup> on the left of reaction 1, leaving Zn(OH)<sub>2</sub>(s) ⇌ Zn<sup>2+</sup> + 2 OH<sup>−</sup>. Constants multiply: K<sub>sp</sub> = K × (1/K<sub>f</sub>) = <b>K / K<sub>f</sub></b>. Multiplying forgets the reversal; subtracting is never how constants combine.",
+  "new": "Dissolution = (reaction 1) + (reverse of reaction 2): the 2 OH<sup>−</sup> on the left of reaction 1 cancel 2 of the 4 OH<sup>−</sup> on the right of the reversed formation, leaving Zn(OH)<sub>2</sub>(s) ⇌ Zn<sup>2+</sup> + 2 OH<sup>−</sup>. Constants multiply: K<sub>sp</sub> = K × (1/K<sub>f</sub>) = <b>K / K<sub>f</sub></b>. Multiplying forgets the reversal; subtracting is never how constants combine.",
+  "why": "The cancellation is described backwards: reaction 1 has only 2 OH⁻ on the left, and they cancel 2 of the 4 OH⁻ on the right of the reversed formation reaction.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1B-191",
+  "field": "c[2]",
+  "old": "CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g), ΔH° = +192 kJ",
+  "new": "CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g), ΔH° = +178 kJ",
+  "why": "ΔH° for CaCO3(s) → CaO(s) + CO2(g) from standard ΔH°f tables (OpenStax Appendix G: −1206.9, −634.9, −393.5) is about +178 kJ, not +192 kJ. Only the sign matters for the question, and the sign is right.",
+  "cat": "value"
+ },
+ {
+  "id": "1B-460",
+  "field": "x[2]",
+  "old": "ΔH doesn't change at equilibrium.",
+  "new": "Reaching equilibrium does not make ΔH zero. ΔH is the heat of the reaction, and it has the same value whether or not the mixture is at equilibrium.",
+  "why": "\"ΔH doesn't change at equilibrium\" does not say why ΔH is not zero, and a student could read it as agreeing with the choice.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "1B-307",
+  "field": "x[3]",
+  "old": "Recheck the cancellation of H⁺.",
+  "new": "12 is the H⁺ made by the oxidation half. That H⁺ cancels against the 28 H⁺ used by the dichromate half.",
+  "why": "Feedback is a generic recheck; 12 is the H⁺ produced by the three ethanol half-reactions, which the line does not say.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "1B-309",
+  "field": "x[1]",
+  "old": "OH⁻ goes where it cancels H⁺, the reactant side.",
+  "new": "In the acid form the H⁺ are products. After you add OH⁻ to both sides, the H⁺ become water and the leftover OH⁻ sits on the side opposite the H⁺.",
+  "why": "Says OH⁻ goes 'where it cancels H⁺, the reactant side', but the H⁺ in the acid form are on the product side; OH⁻ cancels them there and the leftover OH⁻ ends up on the opposite (reactant) side. The line misstates where H⁺ is.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-309",
+  "field": "w",
+  "old": "Acid form: 2 Cr(OH)<sub>3</sub> + <span class=\"nw\">ClO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> → 2 <span class=\"nw\">CrO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> + Cl<sup>−</sup> + 4 H<sup>+</sup> + H<sub>2</sub>O. Adding 4 OH<sup>−</sup> to each side turns the 4 H<sup>+</sup> into water: 2 Cr(OH)<sub>3</sub> + <span class=\"nw\">ClO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> + <b>4 OH<sup>−</sup></b> → 2 <span class=\"nw\">CrO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> + Cl<sup>−</sup> + 5 H<sub>2</sub>O. OH<sup>−</sup> ends up where it cancels H<sup>+</sup>, the reactant side; 10 is the H<sup>+</sup> count of the Cr half-reaction before combining.",
+  "new": "Acid form: 2 Cr(OH)<sub>3</sub> + <span class=\"nw\">ClO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> → 2 <span class=\"nw\">CrO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> + Cl<sup>−</sup> + 4 H<sup>+</sup> + H<sub>2</sub>O. Adding 4 OH<sup>−</sup> to each side turns the 4 H<sup>+</sup> into water: 2 Cr(OH)<sub>3</sub> + <span class=\"nw\">ClO<span class=\"ss\"><sup>−</sup><sub>3</sub></span></span> + <b>4 OH<sup>−</sup></b> → 2 <span class=\"nw\">CrO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span></span> + Cl<sup>−</sup> + 5 H<sub>2</sub>O. The leftover OH<sup>−</sup> ends up on the side opposite the H<sup>+</sup>, the reactant side; 10 is the H<sup>+</sup> count of the Cr half-reaction before combining.",
+  "why": "Same misstatement: the H⁺ in the acid form are on the product side, so the remaining OH⁻ is on the side opposite them, not 'where it cancels H⁺'.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1B-310",
+  "field": "x[2]",
+  "old": "Recheck after adding OH⁻ to both sides.",
+  "new": "4 H₂O is the water made by the two permanganate half-reactions alone. Add the iodide half and cancel water before switching to base.",
+  "why": "Generic recheck; 4 H₂O is the water made by the two permanganate half-reactions before combining, which the line does not identify.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "1B-310",
+  "field": "x[3]",
+  "old": "Recheck after cancelling water on both sides.",
+  "new": "3 H₂O is the water used by the iodide half-reaction alone. Combine both halves and cancel water on both sides.",
+  "why": "Generic recheck; 3 H₂O is the water used by the iodide half-reaction alone.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "1B-464",
+  "field": "h",
+  "old": "Use E = E° − (0.0592/n) log Q. E reaches zero when the log term equals E°, that is, when log Q = log K.",
+  "new": "Use E = E° − (0.0592/n) log Q and recall that E° = (0.0592/n) log K. What must be true about Q for E to be zero?",
+  "why": "Hint ends 'that is, when log Q = log K', which states the keyed answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-471",
+  "field": "x[3]",
+  "old": "Equal concentrations give 0 V.",
+  "new": "A cell with the same metal on both sides has a voltage only when the two concentrations differ. Compare the two compartments here.",
+  "why": "'Equal concentrations give 0 V' states the keyed answer outright.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-150",
+  "field": "x[2]",
+  "old": "Only two arrangements are possible.",
+  "new": "Some arrangements you counted are the same isomer turned in space. Sort them by whether the three Cl share one face or lie in a plane through the metal.",
+  "why": "'Only two arrangements are possible' states the keyed number.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-150",
+  "field": "x[3]",
+  "old": "Only two arrangements are possible.",
+  "new": "Many placements of the three Cl are the same isomer rotated. Sort them by whether the three Cl share one face or lie in a plane through the metal.",
+  "why": "'Only two arrangements are possible' states the keyed number.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-204",
+  "field": "x[1]",
+  "old": "Judge by the color absorbed, not the color seen.",
+  "new": "Longer wavelength light carries less energy, not more. Compare the energies of 430 nm and 600 nm light.",
+  "why": "Distractor 1 does not mention the color seen; a student picking it most likely thought the longer wavelength (600 nm) means more energy. The line repeats the feedback for distractor 2.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "1B-333",
+  "field": "x[3]",
+  "old": "Recheck: Ni²⁺ is d⁸.",
+  "new": "Ni has 28 electrons, [Ar]4s²3d⁸. Remove two electrons for Ni²⁺, taking the 4s electrons first, and count what is left in 3d.",
+  "why": "Feedback states the keyed answer outright (Ni2+ is d8).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-339",
+  "field": "x[2]",
+  "old": "EDTA doesn't reduce lead.",
+  "new": "EDTA binds Pb²⁺ as a complex ion without changing its charge. Lead stored in bone is still harmful, so the goal is to remove it from the body.",
+  "why": "Feedback only denies reduction and does not address the false claim that lead stored in bone is safe.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "1B-405",
+  "field": "x[3]",
+  "old": "The two Cl⁻ ligands give −2, so Pt is +2.",
+  "new": "The chloride ligands carry a charge. Add up the ligand charges and give Pt the charge that cancels them.",
+  "why": "Feedback states that Pt is +2; since this distractor already has coordination number 4, it leaves only the keyed choice.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-340",
+  "field": "x[3]",
+  "old": "Recheck the mass: 226 − 4 = 222.",
+  "new": "224 subtracts only 2 from the mass number. An alpha particle has a mass number of 4.",
+  "why": "Feedback gives the mass number 222; with Z = 86 already in this choice, it states the keyed answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-392",
+  "field": "c[0]",
+  "old": "fission of nuclide D into two nuclei near B",
+  "new": "fission of nuclide D into two nuclei near C",
+  "why": "Keyed choice text is impossible: D (A about 238) cannot split into two nuclei near B (A about 56), since mass number must be conserved; the two fragments would each have A about 119, near C. The choice is still the only energy-releasing option once corrected.",
+  "cat": "value"
+ },
+ {
+  "id": "1B-392",
+  "field": "w",
+  "old": "<b>D</b> (A ≈ 238) sits at about 7.6 MeV per nucleon; splitting it into two nuclei near <b>B</b> (A ≈ 56, the peak at ≈ 8.8 MeV) moves every nucleon to a more tightly bound state, releasing the difference. Fission of B, or fusing two B or two D nuclei, would produce nuclei farther from the peak, which costs energy. The tempting mistake is to assume fission always releases energy.",
+  "new": "<b>D</b> (A ≈ 238) sits at about 7.6 MeV per nucleon; splitting it into two nuclei near <b>C</b> (A ≈ 120, about 8.5 MeV per nucleon, closer to the peak at B) moves every nucleon to a more tightly bound state, releasing the difference. Fission of B, or fusing two B or two D nuclei, would produce nuclei farther from the peak, which costs energy. The tempting mistake is to assume fission always releases energy.",
+  "why": "Explanation repeats the impossible claim that D splits into two nuclei near B (A about 56); two such nuclei hold only about 112 nucleons, not 238.",
+  "cat": "explanation"
+ },
+ {
+  "id": "1B-397",
+  "field": "h",
+  "old": "Light stable nuclides have N ≈ Z; by Z ≈ 50 the stable N/Z ratio is about 1.4, and no nuclide with Z &gt; 83 is stable.",
+  "new": "Light stable nuclides have N about equal to Z, but heavier stable nuclides need noticeably more neutrons than protons. No nuclide with Z above 83 is stable.",
+  "why": "Hint supplies the stable N/Z of 1.4 at Z = 50, which is exactly nuclide II (70/50), so the question becomes a one-step division.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "1B-488",
+  "field": "x[3]",
+  "old": "Acetone can't hydrogen-bond, so it boils lowest.",
+  "new": "Acetone has no O–H hydrogen, so its molecules can't hydrogen-bond to each other. Compare that with the forces between water molecules.",
+  "why": "Saying acetone boils lowest leaves only the keyed order (the only choice starting with II). Also 'can't hydrogen-bond' is loose, since acetone accepts hydrogen bonds from water (as 1B-479 teaches).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-20",
+  "field": "h",
+  "old": "Metalloids sit along the zigzag line between metals and nonmetals, such as B, Si, Ge, As, Sb, Te.",
+  "new": "Metalloids sit along the zigzag staircase line between metals and nonmetals and have properties of both. Find each choice on the periodic table.",
+  "why": "The hint lists the metalloids by symbol, including Si, and none of the other choices is on the list, so it leaves only one possible answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-29",
+  "field": "w",
+  "old": "All are in period 3; ionization energy rises left to right: <b>Na &lt; Mg &lt; S &lt; Cl</b>. The reversed list is the order of atomic radius (largest to smallest).",
+  "new": "All are in period 3; ionization energy rises left to right: <b>Na &lt; Mg &lt; S &lt; Cl</b>. The reversed list is the order of atomic radius (smallest to largest).",
+  "why": "The reversed list (Cl < S < Mg < Na) is the order of atomic radius from smallest to largest, not largest to smallest.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3A-173",
+  "field": "x[3]",
+  "old": "This skips 3s², and it has the wrong number of electrons.",
+  "new": "This has the right total of 15 electrons, but it skips 3s². The 3s orbital fills before 3p, so two of these electrons belong in 3s.",
+  "why": "[Ne] 3p5 has 10 + 5 = 15 electrons, the correct count for P, so 'it has the wrong number of electrons' is false. The only error is skipping 3s.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-332",
+  "field": "x[2]",
+  "old": "Line III has a longer wavelength than another line.",
+  "new": "Line III does not have the shortest wavelength. A longer wavelength means less energy in each photon.",
+  "why": "'has a longer wavelength than another line' is true but does not link wavelength to photon energy, so it does not show the student the mistake.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "3A-332",
+  "field": "x[3]",
+  "old": "Line II has a longer wavelength than another line.",
+  "new": "Line II does not have the shortest wavelength. A longer wavelength means less energy in each photon.",
+  "why": "'has a longer wavelength than another line' is true but does not link wavelength to photon energy, so it does not show the student the mistake.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "3A-47",
+  "field": "x[3]",
+  "old": "Sulfur trioxide is the gas SO₃. This is not how acids are named.",
+  "new": "SO₃ is sulfur trioxide, a different compound. An acid made from an oxyanion is named from its anion, not with Greek prefixes.",
+  "why": "Calls SO₃ \"the gas SO₃\". At room temperature SO₃ is a liquid or solid (bp about 45 °C), so this may be inaccurate.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-250",
+  "field": "x[1]",
+  "old": "In the real ion, all three bonds are the same.",
+  "new": "One shorter bond would be true only if a single drawing were the real ion. The double bond can be drawn to any of the three oxygens, so think about each bond on average.",
+  "why": "Feedback states the keyed answer outright (all three bonds the same).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-269",
+  "field": "x[2]",
+  "old": "Aluminum's specific heat is larger than one of the others.",
+  "new": "Aluminum's specific heat is larger than those of iron and gold. A larger specific heat means a smaller temperature rise.",
+  "why": "Says aluminum's specific heat is larger than 'one of the others' when it is larger than two of them; the line understates the comparison and does not connect c to ΔT.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-369",
+  "field": "x[2]",
+  "old": "Molecules never all move at the same speed.",
+  "new": "Curve I does have a narrow peak, but it sits at slow speeds. A narrow peak at low speed marks the colder gas, because heating spreads speeds out toward faster values.",
+  "why": "Distractor says MOST molecules move at NEARLY the same speed; the feedback rebuts 'all at the same speed', which is distractor 3's claim. The student's real error (a narrow peak means hotter) is not addressed.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-360",
+  "field": "x[2]",
+  "old": "KCl's solubility roughly doubles.",
+  "new": "KCl's solubility rises from about 28 g to 48 g, a big change compared with NaCl.",
+  "why": "The KCl curve goes from 28 to 48 g per 100 g water (about 1.7 times), so 'roughly doubles' overstates it. NH4Cl (29 to 60 g) really does about double.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-373",
+  "field": "x[3]",
+  "old": "Stomach fluid's pH is about 2.",
+  "new": "Stomach fluid's pH is about 1.5, which means far more H₃O⁺ than 10⁻⁸ M.",
+  "why": "The bar shows stomach pH 1.5; 'about 2' is loose and does not say why it is wrong.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "3A-194",
+  "field": "x[3]",
+  "old": "Cold doesn't break molecules apart.",
+  "new": "Cooling takes energy away from molecules, so it cannot supply the energy needed to break bonds. It only slows the molecules down.",
+  "why": "Only denies the choice; does not say why cold cannot break molecules apart.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "3A-305",
+  "field": "x[3]",
+  "old": "The equilibrium does shift when [O₂] goes up.",
+  "new": "O₂ does not react with CO here. It competes with CO for hemoglobin, and adding O₂, a reactant, does shift the equilibrium.",
+  "why": "Does not address the idea in the distractor (O2 reacting with CO directly); only restates that the equilibrium shifts.",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "3A-351",
+  "field": "x[2]",
+  "old": "Q is just outside the band (below it).",
+  "new": "Q lies below the band, with too few neutrons for its protons, so it is radioactive.",
+  "why": "Q (Z = 55, N = 52) is about 15 neutrons below the lower edge of the band, not 'just outside' it; the explanation repeats 'just outside'. Harmless to the answer.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-352",
+  "field": "x[1]",
+  "old": "Read where each curve hits 50%: 4 h and 12 h.",
+  "new": "Read the time where each curve crosses 50%, then divide the longer half-life by the shorter one.",
+  "why": "Gives both half-lives (4 h and 12 h), which leaves only the trivial division to reach the key.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3A-225",
+  "field": "x[3]",
+  "old": "H₂ is limiting, but it uses 3 of the 4 O₂, not none of them.",
+  "new": "H₂ is limiting, but it still reacts with some of the O₂. Use the 2 to 1 ratio to find how many O₂ it uses.",
+  "why": "Student already chose H2 as limiting; saying it uses 3 of the 4 O2 states that 1 O2 is left, the keyed answer.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-228",
+  "field": "x[3]",
+  "old": "Use the ratio: 2 O₂ × (2 SO₃ / 1 O₂).",
+  "new": "3 does not match either reactant. Find how many SO₃ each reactant could make on its own and take the smaller number.",
+  "why": "Writes out the full calculation 2 O2 x (2 SO3 / 1 O2), which gives the keyed answer of 4.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-560",
+  "field": "w",
+  "old": "N a has three bonds (two C and one H) plus one lone pair: four groups, pointing toward the corners of a tetrahedron, so the angle is <b>about 109.5°</b> (slightly less) and the shape around N is pyramidal. 120° trusts the zig-zag drawing and ignores the hidden H and the lone pair.",
+  "new": "N a has three bonds (two C and one H) plus one lone pair: four groups, pointing toward the corners of a tetrahedron, so the angle is <b>about 109.5°</b> and the shape around N is pyramidal. 120° trusts the zig-zag drawing and ignores the hidden H and the lone pair.",
+  "why": "\"about 109.5° (slightly less)\" : the lone pair squeezes H–N–H in NH₃ to about 107°, but measured C–N–C angles in secondary and tertiary amines are slightly larger than 109.5° (dimethylamine about 112°, trimethylamine about 111°). Consider dropping \"(slightly less)\".",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-888",
+  "field": "x[3]",
+  "old": "This numbers from the wrong end. The –CHO carbon must be C1, so count from the aldehyde end.",
+  "new": "4-Hydroxybutanal has the OH on the last carbon of the chain, the far end from the –CHO. Here the OH is on the carbon next to the CH3, not on the end carbon.",
+  "why": "No numbering of this chain puts the OH on C4. Numbering from the wrong (CH3) end gives the OH on C2, so 4-hydroxybutanal is not a wrong-end error; it is a different compound with the OH on the end carbon.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-888",
+  "field": "w",
+  "old": "The –CHO carbon must be C1 (an aldehyde is always at the chain end). Counting from it, the OH is on C3: <b>3-hydroxybutanal</b>. \"2-hydroxy\" and \"4-hydroxy\" count from the wrong carbon; \"butanone\" would need a ketone C=O in the middle of the chain.",
+  "new": "The –CHO carbon must be C1 (an aldehyde is always at the chain end). Counting from it, the OH is on C3: <b>3-hydroxybutanal</b>. \"2-hydroxy\" counts from the CH3 end, \"4-hydroxy\" would put the OH on the end carbon, \"butanone\" would need a ketone C=O in the middle of the chain.",
+  "why": "Says 4-hydroxy counts from the wrong carbon. Counting from the CH3 end gives 2-hydroxy, never 4-hydroxy; 4-hydroxy would put the OH on the end carbon.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-655",
+  "field": "w",
+  "old": "One Br adds to <i>each</i> carbon of the C=C, giving <b>1,2-dibromocyclohexane</b> (the color disappears because Br<sub>2</sub> is used up). Bromocyclohexane has only one Br, which is what HBr would give. In the 1,1- and 1,3-isomers a Br sits on a carbon that was never part of the double bond.",
+  "new": "One Br adds to <i>each</i> carbon of the C=C, giving <b>1,2-dibromocyclohexane</b> (the color disappears because Br<sub>2</sub> is used up). Bromocyclohexane has only one Br, which is what HBr would give. The 1,1-isomer puts both Br on one carbon, and in the 1,3-isomer a Br sits on a carbon that was never part of the double bond.",
+  "why": "The 1,1-isomer can have both Br on a former C=C carbon, so it is not true that a Br in it sits on a carbon never part of the double bond.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-55",
+  "field": "h",
+  "old": "The aldehyde is oxidized, so the copper ion is reduced. Copper(II) becomes copper(I).",
+  "new": "The sugar is oxidized, so the copper(II) ion in the blue reagent is reduced. Work out the charge on copper in each copper compound.",
+  "why": "Saying copper(II) becomes copper(I) leaves only one choice, since Cu2O is the only copper(I) compound offered.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-58",
+  "field": "x[3]",
+  "old": "CH<sub>3</sub>CH<sub>2</sub>OCH<sub>3</sub> has only one oxygen and has lost the original carbonyl oxygen. Alcohols add oxygen groups to the carbonyl carbon.",
+  "new": "CH3CH2OCH3 has only one oxygen, but two methanol molecules were used. Each methanol adds its own –OCH3 group to the former carbonyl carbon.",
+  "why": "Says the ether is wrong because it 'has lost the original carbonyl oxygen', but the keyed acetal also loses the carbonyl oxygen (it leaves as H2O). This teaches a wrong idea about acetal formation.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-59",
+  "field": "h",
+  "old": "The “form-” prefix means one carbon. Formalin is an aldehyde solution.",
+  "new": "The “form-” prefix means one carbon, which rules out one choice. Then think about which one-carbon compound is used to preserve tissue.",
+  "why": "'Formalin is an aldehyde solution' leaves only methanal, the only aldehyde among the choices.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-985",
+  "field": "x[2]",
+  "old": "The C=O bond is polar, so formaldehyde does have a dipole. Its low boiling point comes from its small size and the lack of hydrogen bonding.",
+  "new": "The C=O bond is polar, so formaldehyde does have a dipole. Look at how big the molecule is and at what its H atoms are bonded to.",
+  "why": "Second sentence restates the keyed answer (small size and no hydrogen bonding).",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-62",
+  "field": "h",
+  "old": "Enantiomers are mirror images; most physical properties are identical. What is the one optical difference?",
+  "new": "Enantiomers are mirror images made of the same atoms joined by the same bonds. Which properties could still differ between them?",
+  "why": "\"What is the one optical difference?\" points straight at the only choice about light, leaving one possible answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-653",
+  "field": "x[1]",
+  "old": "Diastereomers are stereoisomers that are NOT mirror images, which requires at least two chiral carbons. Alanine has only one.",
+  "new": "Diastereomers are stereoisomers that are NOT mirror images. Alanine has only one chiral carbon, so its two forms are mirror images of each other.",
+  "why": "Says being a diastereomer requires at least two chiral carbons. Cis and trans isomers are diastereomers with no chiral carbon, so the rule is false as stated (the explanation qualifies it, the feedback does not).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-802",
+  "field": "h",
+  "old": "I and II are enantiomers. Which properties depend on \"handedness\"? Only interactions with something chiral, or with polarized light, can tell them apart.",
+  "new": "I and II are enantiomers. Which properties depend only on the atoms and bonds, and which need something with handedness to detect?",
+  "why": "The hint names polarized light, and only the keyed choice mentions it, so the hint leaves one possible answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-808",
+  "field": "x[2]",
+  "old": "Plain lines lie in the plane of the page. Wedges and dashes are used for bonds that point out of the page.",
+  "new": "Plain lines lie in the plane of the page. Wedges and dashes are used for bonds that leave the plane, toward you or away from you.",
+  "why": "Says wedges and dashes point 'out of the page', but the keyed answer uses 'out of the page' to mean toward the viewer; a dash points behind the page, so this can confuse.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-809",
+  "field": "x[1]",
+  "old": "Diastereomers need at least two chiral carbons. 2-Bromobutane has only one.",
+  "new": "For a molecule like this, a diastereomer needs at least two chiral carbons. 2-Bromobutane has only one.",
+  "why": "'Diastereomers need at least two chiral carbons' is not strictly true: cis and trans alkenes are diastereomers with no chiral carbon. The explanation repeats the claim. Fine in a chiral-carbon context, but could be tightened.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-77",
+  "field": "h",
+  "old": "Aspirin is made by acetylating the phenol –OH of salicylic acid; the –COOH stays.",
+  "new": "Aspirin is made by reacting the phenol –OH of salicylic acid with an acetyl group. What group forms when an acid joins an –OH?",
+  "why": "Saying the –COOH stays names the carboxylic acid group, and only the keyed choice contains a carboxylic acid, so the hint leaves one possible choice.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-375",
+  "field": "x[2]",
+  "old": "In 2-methyl-1-butanol the branch is next to the –CH<sub>2</sub>OH carbon. In this ester the branch is two carbons further from the O.",
+  "new": "In 2-methyl-1-butanol the branch is on C2, right next to the CH2OH carbon. In this ester two CH2 groups sit between the O and the branch.",
+  "why": "The branch in the ester (C3 of the alcohol part) is one carbon further from the O than in 2-methyl-1-butanol (C2), not two carbons further.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-775",
+  "field": "x[2]",
+  "old": "Only the two oxygens of –COO<sup>−</sup> can share the double bond. The CH<sub>3</sub> carbon has no double bond or lone pair to move.",
+  "new": "The CH3 carbon has no double bond or lone pair to move, so it cannot hold the double bond. Count only the atoms that can.",
+  "why": "'Only the two oxygens of –COO− can share the double bond' states the count of 2 outright.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-383",
+  "field": "x[1]",
+  "old": "That comes from counting carbons on the neighboring carbon, the alcohol rule. For amines, count carbons bonded directly to N: here CH and CH<sub>3</sub>.",
+  "new": "A primary amine has only one carbon on N, as in an –NH₂ group. Here the N is bonded to two carbons, the CH and the CH₃, and keeps one H.",
+  "why": "False: the alcohol rule applied to the CH carbon holding the N (bonded to CH2 and CH3) gives 2°, not 1°, so this does not explain the 1° choice.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-706",
+  "field": "h",
+  "old": "NH<sub>3</sub> replaces the –OH of the carboxylic acid group. The ring is unchanged.",
+  "new": "Heating with water removed is a condensation, not a simple proton transfer. Which new bond forms, and what stays the same?",
+  "why": "Saying NH₃ replaces the –OH describes the product directly; only the keyed drawing fits.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-708",
+  "field": "h",
+  "old": "Base hydrolysis breaks the C–N bond next to the C=O. In base, the acid part is a salt and the amine is neutral.",
+  "new": "Base hydrolysis breaks the C–N bond next to the C=O. Think about which acid and base forms can last in NaOH.",
+  "why": "\"The acid part is a salt and the amine is neutral\" describes the keyed pair exactly; no other choice fits.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-709",
+  "field": "h",
+  "old": "In acid, the carbonyl side becomes a carboxylic acid and the nitrogen side picks up H<sup>+</sup>.",
+  "new": "Hydrolysis breaks the C–N bond next to the C=O. Look at the reagent: what does HCl do to each piece?",
+  "why": "Hint states both products' forms (carboxylic acid plus protonated N), which matches only the key.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-710",
+  "field": "h",
+  "old": "Amines are bases. Only the N changes: –NH<sub>2</sub> picks up H<sup>+</sup> and becomes –<span class=\"nw\">NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span>.</span>",
+  "new": "Amines are bases. What does the lone pair on N do with the H⁺ from HCl?",
+  "why": "Hint says –NH₂ becomes –NH₃⁺, which is the keyed drawing outright.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-714",
+  "field": "h",
+  "old": "Base hydrolysis: the carbonyl side becomes a carboxylate salt and the nitrogen comes off as NH<sub>3</sub>.",
+  "new": "Base hydrolysis breaks the C–N bond next to the C=O. Can a neutral acid or an NH₄⁺ ion last in strong base?",
+  "why": "Hint names both products (carboxylate salt and NH₃), leaving only the key.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-93",
+  "field": "x[2]",
+  "old": "Glucose and galactose do not differ at carbon 3. Compare the Fischer projections one carbon lower down the chain.",
+  "new": "Glucose and galactose have the same –OH position on carbon 3. Compare their Fischer projections carbon by carbon to find the one that differs.",
+  "why": "'one carbon lower down the chain' from C3 points straight to C4, leaving only the keyed choice.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-95",
+  "field": "x[3]",
+  "old": "Fructose is not part of lactose. Only one of these two sugars is in milk sugar; the other partner is glucose.",
+  "new": "Fructose is not part of lactose. It comes from sucrose (table sugar). Recall the two units that make up milk sugar.",
+  "why": "Saying one of galactose/fructose is in milk sugar and the other partner is glucose states the keyed pair outright.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-97",
+  "field": "x[1]",
+  "old": "α(1→4) joins C1 of one glucose to C4 of another, as in maltose. In sucrose the bond involves the anomeric carbon of fructose, which is C2.",
+  "new": "α(1→4) joins C1 of one glucose to C4 of another, as in maltose. In sucrose the bond must use the anomeric carbon of fructose, so ask which carbon held fructose's C=O.",
+  "why": "Stating that the bond uses fructose's anomeric carbon, C2, leaves only one choice with a 2 in it.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-968",
+  "field": "x[1]",
+  "old": "A β(1→4) glucose pair is cellobiose, from cellulose. Maltase does not break β bonds, and humans cannot digest them.",
+  "new": "A β(1→4) glucose pair is cellobiose, from cellulose. Maltase does not break this β bond, and humans cannot digest cellulose.",
+  "why": "\"Maltase does not break β bonds, and humans cannot digest them\" reads as a claim about all β bonds, but humans digest the β(1→4) bond of lactose with lactase.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-760",
+  "field": "x[3]",
+  "old": "Count the C=C bonds again; there are more than two. The omega number also changes when you count from the CH<sub>3</sub> end.",
+  "new": "Count the C=C bonds again: there are more than two. Then count from the CH3 carbon as 1 to the first carbon of the nearest C=C.",
+  "why": "Second sentence implies omega-6 comes from counting from the wrong end. The omega number is always counted from the CH3 end, and counting from the COOH end gives 9, not 6, so the line misleads.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-841",
+  "field": "q",
+  "old": "Pancreatic lipase breaks every ester bond in the triacylglycerol drawn below. What forms?",
+  "new": "Complete hydrolysis breaks every ester bond in the triacylglycerol drawn below. What forms?",
+  "why": "Real pancreatic lipase removes only the fatty acids at C1 and C3, leaving a 2-monoacylglycerol. For this molecule (butanoyl at C1 and C3, hexanoyl at C2) that is exactly distractor 3, so a student who knows the textbook fact is pulled toward it. The stem's 'every ester bond' keeps the key correct, b",
+  "cat": "stem"
+ },
+ {
+  "id": "3B-841",
+  "field": "x[3]",
+  "old": "Lipase breaks every ester bond here, so no acyl group is left on glycerol. Also, the three chains are not all identical.",
+  "new": "Every ester bond breaks here, so no acyl group stays on glycerol. Glycerol is released free, along with all three fatty acids.",
+  "why": "'Also, the three chains are not all identical' does not answer this distractor, which claims two identical fatty acids (true here: two butanoic acids).",
+  "cat": "feedback-vague"
+ },
+ {
+  "id": "3B-857",
+  "field": "h",
+  "old": "The coil is the helix; the side-by-side strands are the sheet. Both are backbone hydrogen-bond patterns, so they belong to the same structural level.",
+  "new": "Match each shape to its name. Then ask what holds each pattern together: backbone C=O and N–H groups, or side chains?",
+  "why": "The hint names which pattern is the helix and which is the sheet and says both belong to the same level, ruling out two of the three distractors and pointing straight at the definition of secondary structure.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-1032",
+  "field": "h",
+  "old": "In D/L notation, the group on the chiral carbon points right for D and left for L.",
+  "new": "Amino acids use the same D/L rule as sugars, where the side of the –OH on the last chiral carbon decides D or L. Recall which side goes with L.",
+  "why": "Hint says the group points left for L, which states the keyed answer outright.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-136",
+  "field": "h",
+  "old": "A covalent bond to the active site permanently inactivates the enzyme.",
+  "new": "Ask whether adding more substrate could push out a poison that is covalently bonded to the active site.",
+  "why": "Hint says the covalent bond permanently inactivates the enzyme, which leaves only the irreversible choice.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-286",
+  "field": "h",
+  "old": "Recall: A helps the eyes, D helps the bones, K is used for clotting (“K” for the German word Koagulation).",
+  "new": "Recall which fat-soluble vitamin is needed for vision, which helps build bones, and which helps blood form clots.",
+  "why": "Hint states that K is used for clotting, which is the keyed answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-879",
+  "field": "w",
+  "old": "The steep fall above about 45 °C is <b>denaturation</b>: the heat breaks the weak bonds that hold the active site's shape, and for most enzymes this unfolding is not reversed by cooling, so the sample stays nearly inactive at 37 °C. The tempting wrong answer treats the drop like the slow rates at <i>low</i> temperature, which are reversible because the enzyme is still folded. Enzymes do not store heat energy.",
+  "new": "The steep fall above about 40 °C is <b>denaturation</b>: the heat breaks the weak bonds that hold the active site's shape, and for most enzymes this unfolding is not reversed by cooling, so the sample stays nearly inactive at 37 °C. The tempting wrong answer treats the drop like the slow rates at <i>low</i> temperature, which are reversible because the enzyme is still folded. Enzymes do not store heat energy.",
+  "why": "The graph peaks near 36 to 37 °C and has already fallen to about 17% of maximum by 45 °C, so the steep fall begins above about 40 °C, not above 45 °C.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-329",
+  "field": "x[1]",
+  "old": "This sequence pairs base-by-base with the coding strand, so it matches the template strand. The mRNA has the coding strand's sequence instead.",
+  "new": "These letters are the complement of the coding strand, but the 5′ and 3′ ends are not reversed. The mRNA has the same sequence and direction as the coding strand, with U in place of T.",
+  "why": "5′-UACGGAUC-3′ does not actually pair with the coding strand (pairing is antiparallel), and it is not the template sequence either (the template is 3′-TACGGATC-5′). The line says it pairs base by base and matches the template, which blurs the direction point the question tests.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-462",
+  "field": "x[3]",
+  "old": "The vaccine mRNA does not enter DNA or replace genes. Human cells lack the enzyme that would turn RNA into DNA.",
+  "new": "The vaccine mRNA stays in the cytoplasm and never enters the nucleus, so it cannot replace a gene. It is translated and then broken down.",
+  "why": "'Human cells lack the enzyme that would turn RNA into DNA' is an overstatement: human cells do make reverse transcriptase activity (telomerase, LINE-1 elements). The safer, still correct reason is that the vaccine mRNA stays in the cytoplasm and is broken down.",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-462",
+  "field": "w",
+  "old": "mRNA is <b>translated by ribosomes in the cytoplasm</b> into protein. Human cells have no reverse transcriptase to copy it into DNA (retroviruses carry that), and DNA polymerase cannot use an RNA template, so the cell's DNA is unchanged.",
+  "new": "mRNA is <b>translated by ribosomes in the cytoplasm</b> into protein. The mRNA stays in the cytoplasm and is broken down after use; it does not enter the nucleus, and DNA polymerase cannot use an RNA template, so the cell's DNA is unchanged.",
+  "why": "Same overstatement in the explanation: 'Human cells have no reverse transcriptase' is not strictly true (telomerase is a reverse transcriptase). Suggest grounding the claim in the mRNA staying in the cytoplasm.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-313",
+  "field": "h",
+  "old": "Find GTP on the wheel. It forms at the step where the high-energy thioester of succinyl CoA is hydrolyzed.",
+  "new": "Find GTP on the wheel. It forms at the step where a high-energy thioester bond is broken.",
+  "why": "Hint names the high-energy thioester of succinyl CoA being broken, which identifies the keyed step (succinyl CoA to succinate) outright.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-468",
+  "field": "h",
+  "old": "Catabolic pathways break large molecules into smaller ones and release energy. Anabolic pathways build molecules and use energy. Latin: genesis = making, lysis = splitting.",
+  "new": "Catabolic pathways break large molecules into smaller ones and release energy. Anabolic pathways build molecules and use energy. In these names, genesis means making and lysis means splitting.",
+  "why": "The hint calls genesis and lysis Latin; both are Greek word parts.",
+  "cat": "hint-wrong"
+ },
+ {
+  "id": "3B-478",
+  "field": "x[3]",
+  "old": "A C=C does form here, but that type of oxidation does not use NAD<sup>+</sup>.",
+  "new": "NAD⁺ is used when a C–OH group becomes a C=O, as in malate → oxaloacetate. Check whether that is the kind of change from succinate to fumarate.",
+  "why": "Confirming that a C=C forms and that NAD+ is not used leaves only the keyed choice.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-957",
+  "field": "q",
+  "old": "Fat cells attach a phosphate group to glycerol, as drawn, before building triacylglycerols. Which coenzyme change goes along with this phosphorylation?",
+  "new": "Liver cells attach a phosphate group to glycerol, as drawn, before building triacylglycerols. Which coenzyme change goes along with this phosphorylation?",
+  "why": "Fat cells (adipocytes) have very little glycerol kinase; glycerol is phosphorylated by ATP mainly in the liver (adipose makes glycerol 3-phosphate from DHAP). The answer is unchanged if the stem names liver cells.",
+  "cat": "stem"
+ },
+ {
+  "id": "3B-1023",
+  "field": "x[2]",
+  "old": "Healthy kidneys do not excrete amino acids. The nitrogen leaves as urea.",
+  "new": "Healthy kidneys excrete very few amino acids. Extra nitrogen leaves the body as urea.",
+  "why": "Healthy kidneys do excrete small amounts of amino acids; the absolute wording also conflicts with 3B-1022 feedback ('very few').",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3B-220",
+  "field": "h",
+  "old": "Propanal is C<sub>3</sub>H<sub>6</sub>O. Aldehydes and ketones with the same number of carbons are often isomers.",
+  "new": "Propanal is C₃H₆O. Write the molecular formula of each choice and find the one that matches exactly.",
+  "why": "The hint says aldehydes and ketones with the same carbons are isomers; only one choice is a 3-carbon ketone, so it leaves a single possible answer.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-232",
+  "field": "h",
+  "old": "Water is amphoteric. It acts as an acid when it gives H<sup>+</sup> away, leaving OH<sup>−</sup>.",
+  "new": "Water can act as an acid or a base. In each reaction, decide whether water gains an H⁺ or loses one.",
+  "why": "Only one choice produces OH⁻, so saying water as an acid leaves OH⁻ points straight to the key.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-232",
+  "field": "x[2]",
+  "old": "Water gains H<sup>+</sup> from HCl to form H<sub>3</sub>O<sup>+</sup>, so here it is a base. Look for a reaction that produces OH<sup>−</sup>.",
+  "new": "Water gains H⁺ from HCl to form H₃O⁺, so here it is a base. An acid gives H⁺ away.",
+  "why": "'Look for a reaction that produces OH⁻' leaves only the keyed reaction.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-233",
+  "field": "h",
+  "old": "Strong acids include HCl, HBr, HI, HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>, HClO<sub>4</sub>; strong bases are group 1 hydroxides. Organic acids and amines are weak.",
+  "new": "A strong acid or strong base ionizes completely in water. Decide which of these compounds ionize only partly.",
+  "why": "The hint lists HCl and group 1 hydroxides as strong and organic acids and amines as weak, so only one pair can fit.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-410",
+  "field": "h",
+  "old": "Strong bases ionize completely in water. Group 1 hydroxides are the classic examples.",
+  "new": "Strong bases ionize completely in water. Decide which choices accept H⁺ from water only partly.",
+  "why": "KOH is the only group 1 hydroxide among the choices, so the hint names the answer's category directly.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-411",
+  "field": "h",
+  "old": "Molecules with O or N are generally polar. Which choice contains only C and H?",
+  "new": "Molecules with O or N are generally polar. Check each choice for polar bonds and for an H on N or O.",
+  "why": "'Which choice contains only C and H?' leaves only pentane.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-615",
+  "field": "w",
+  "old": "Replacing the O–H hydrogen with CH<sub>3</sub> removes the hydrogen-bond donor, so anisole molecules <b>cannot hydrogen bond to each other</b> and anisole boils lower. Molar mass points the other way (anisole 108.13 g mol⁻¹ vs phenol 94.11 g mol⁻¹). Anisole is still polar (dipole–dipole), and both compounds have a benzene ring.",
+  "new": "Replacing the O–H hydrogen with CH<sub>3</sub> removes the hydrogen-bond donor, so anisole molecules <b>cannot hydrogen bond to each other</b> and anisole boils lower. Molar mass points the other way (anisole 108.14 g mol⁻¹ vs phenol 94.11 g mol⁻¹). Anisole is still polar (dipole–dipole), and both compounds have a benzene ring.",
+  "why": "Anisole C7H8O is 108.14 g/mol (7×12.011 + 8×1.008 + 15.999 = 108.140), not 108.13.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-893",
+  "field": "w",
+  "old": "<b>HBr</b> (like HCl, HI, HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>, HClO<sub>4</sub>) ionizes essentially 100% in water, so it is strong. Propanoic acid and benzoic acid are carboxylic acids: organic acids are weak. HF is the tempting one: it is a hydrogen halide, but it is a <i>weak</i> acid, unlike HCl, HBr and HI.",
+  "new": "<b>HBr</b> (like HCl, HI, HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>, HClO<sub>4</sub>) ionizes essentially 100% in water, so it is strong. Propanoic acid and benzoic acid are carboxylic acids: carboxylic acids are weak. HF is the tempting one: it is a hydrogen halide, but it is a <i>weak</i> acid, unlike HCl, HBr and HI.",
+  "why": "'Organic acids are weak' is overbroad: sulfonic acids (e.g. benzenesulfonic acid, made by sulfonation in COR 3.5) are strong organic acids. The claim should be limited to carboxylic acids.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-895",
+  "field": "x[2]",
+  "old": "Hexanal has a polar C=O but no O–H, so its molecules cannot hydrogen bond to each other; only dipole–dipole forces act.",
+  "new": "Hexanal has a polar C=O but no O–H, so its molecules cannot hydrogen bond to each other. It adds dipole–dipole forces to dispersion, which is weaker than hydrogen bonding.",
+  "why": "Says 'only dipole–dipole forces act' for hexanal, but dispersion forces also act (the stem itself says all four have about equal dispersion forces).",
+  "cat": "feedback-wrong"
+ },
+ {
+  "id": "3A-360",
+  "field": "w",
+  "old": "The <b>NaCl</b> curve is almost flat (about 36 to 38 g per 100 g water), so heating barely changes its solubility. KNO<sub>3</sub> changes the most; it is the salt whose solubility is most sensitive to temperature, not least. KCl and NH<sub>4</sub>Cl roughly double.",
+  "new": "The <b>NaCl</b> curve is almost flat (about 36 to 38 g per 100 g water), so heating barely changes its solubility. KNO<sub>3</sub> changes the most; it is the salt whose solubility is most sensitive to temperature, not least. NH<sub>4</sub>Cl roughly doubles and KCl rises by about 20 g.",
+  "why": "KCl goes from 28 to 48 g, about 1.7 times, not double.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-906",
+  "field": "w",
+  "old": "In <b>sec-butyl</b> the attachment carbon is \"secondary\": it carries one methyl and one ethyl group, –CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub>. The straight four-carbon chain is butyl; the Y-shaped group attached through a CH<sub>2</sub> is isobutyl; the carbon bearing three methyls is tert-butyl.",
+  "new": "In <b>sec-butyl</b> the ring attaches to an inner carbon of the butyl chain (a secondary carbon in butane), so that carbon carries one methyl and one ethyl group, –CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub>. The straight four-carbon chain is butyl; the Y-shaped group attached through a CH<sub>2</sub> is isobutyl; the carbon bearing three methyls is tert-butyl.",
+  "why": "In sec-butylcyclohexane the attachment carbon is bonded to three carbons, so calling it secondary conflicts with the counting rule taught elsewhere.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-41",
+  "field": "w",
+  "old": "Phenol partly ionizes to phenoxide and H<sub>3</sub>O<sup>+</sup>, so <b>phenol is a weak acid</b>; ethanol does not ionize appreciably. This mild acidity is part of why phenols act as antiseptics.",
+  "new": "Phenol partly ionizes to phenoxide and H<sub>3</sub>O<sup>+</sup>, so <b>phenol is a weak acid</b>; ethanol does not ionize appreciably.",
+  "why": "Phenols act as antiseptics mainly by denaturing proteins, not because they are acidic.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-383",
+  "field": "w",
+  "old": "The N is bonded to two carbons (the CH and the CH<sub>3</sub>) and one H: <b>secondary (2°)</b>. Calling it 1° comes from using the alcohol rule (looking at the carbon) instead of counting carbons on N.",
+  "new": "The N is bonded to two carbons (the CH and the CH<sub>3</sub>) and one H: <b>secondary (2°)</b>. A 1° answer misses one of the two carbons on N; 3° or quaternary would need three or four carbons on N.",
+  "why": "The alcohol rule also gives 2° here, so it does not explain a 1° answer.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-814",
+  "field": "w",
+  "old": "At point c the enzyme is <b>saturated</b>: essentially every active site is occupied, so the curve has leveled off and the rate no longer depends on [substrate]. Only <b>more enzyme</b> (more active sites) raises the rate there. Adding substrate would only help at point a, where the curve is still rising steeply.",
+  "new": "At point c the enzyme is <b>saturated</b>: essentially every active site is occupied, so the curve has leveled off and the rate no longer depends on [substrate]. Only <b>more enzyme</b> (more active sites) raises the rate there. Adding substrate helps only where the curve is still rising, as at points a and b.",
+  "why": "The curve is still rising at point b too.",
+  "cat": "explanation"
+ },
+ {
+  "id": "3B-24",
+  "field": "h",
+  "old": "Remember the phrase: “the rich get richer.”",
+  "new": "Markovnikov's rule is sometimes called “the rich get richer.” Compare how many H atoms are already on each of the two double-bond carbons.",
+  "why": "The hint was only an English idiom, which gives no help to a student who does not know the phrase.",
+  "cat": "plain-language"
+ },
+ {
+  "id": "3A-219",
+  "field": "x[3]",
+  "old": "Only H₂O and CO₂ are compounds. Count the elements again.",
+  "new": "Not every molecule here is an element. A compound has two or more different kinds of atoms, so check each kind of molecule again.",
+  "why": "Feedback fixed the compound count at 2, leaving only the keyed choice.",
+  "cat": "giveaway"
+ },
+ {
+  "id": "3B-998",
+  "field": "c[1]",
+  "old": "Human cells have no membranes",
+  "new": "Human cells have no membranes for the drug to attack",
+  "why": "Right answer was far longer than every wrong choice.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-998",
+  "field": "c[2]",
+  "old": "It denatures every protein it touches",
+  "new": "It denatures every protein it touches, fungal or human",
+  "why": "Right answer was far longer than every wrong choice.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-998",
+  "field": "c[3]",
+  "old": "Humans need ergosterol in their diet",
+  "new": "Humans need ergosterol in their diet, so the drug is harmless",
+  "why": "Right answer was far longer than every wrong choice.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-1013",
+  "field": "c[1]",
+  "old": "hydrogenation of the C=C bonds",
+  "new": "hydrogenation of the C=C bonds in the fat",
+  "why": "Right answer was far longer than every wrong choice.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-1013",
+  "field": "c[2]",
+  "old": "saponification with NaOH",
+  "new": "saponification of the fat with NaOH",
+  "why": "Right answer was far longer than every wrong choice.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-1013",
+  "field": "c[3]",
+  "old": "dehydration of glycerol",
+  "new": "dehydration of the glycerol backbone",
+  "why": "Right answer was far longer than every wrong choice.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-977",
+  "field": "c[1]",
+  "old": "Phenols are bases that react with NaOH",
+  "new": "Phenols are bases, which is why they react with NaOH",
+  "why": "Right answer was far longer than every wrong choice.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-977",
+  "field": "c[2]",
+  "old": "Phenols are more acidic than carboxylic acids",
+  "new": "Phenols are more acidic than carboxylic acids such as acetic acid",
+  "why": "Right answer was far longer than every wrong choice.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3B-977",
+  "field": "c[3]",
+  "old": "1-Hexanol is more acidic than 4-methylphenol",
+  "new": "1-Hexanol is more acidic than 4-methylphenol, so it stays undissolved",
+  "why": "Right answer was far longer than every wrong choice.",
+  "cat": "length-cue"
+ },
+ {
+  "id": "3A-26",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":2,\"lo\":1",
+  "why": "Borderline to the course outline: transition-metal configuration (outline lists main-group atoms and ions). Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3A-327",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":2,\"lo\":1",
+  "why": "Borderline to the course outline: diamagnetic and paramagnetic are 1A terms. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3A-369",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":2,\"lo\":1",
+  "why": "Borderline to the course outline: molecular speed distribution curves. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-13",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":2,\"lo\":1",
+  "why": "Borderline to the course outline: branched alkyl substituent name. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-240",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":2,\"lo\":1",
+  "why": "Borderline to the course outline: branched alkyl substituent names. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-241",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":2,\"lo\":1",
+  "why": "Borderline to the course outline: branched alkyl substituent names. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-906",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":2,\"lo\":1",
+  "why": "Borderline to the course outline: branched alkyl substituent names. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-907",
+  "field": "raw",
+  "old": "\"d\":1",
+  "new": "\"d\":1,\"lo\":1",
+  "why": "Borderline to the course outline: branched alkyl substituent names. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-534",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":2,\"lo\":1",
+  "why": "Borderline to the course outline: branched alkyl substituent name. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-82",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":2,\"lo\":1",
+  "why": "Borderline to the course outline: branched alkyl substituent names. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-803",
+  "field": "raw",
+  "old": "\"d\":1",
+  "new": "\"d\":1,\"lo\":1",
+  "why": "Borderline to the course outline: optical rotation is not listed in COR 6. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-806",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":2,\"lo\":1",
+  "why": "Borderline to the course outline: optical rotation is not listed in COR 6. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-775",
+  "field": "raw",
+  "old": "\"d\":1",
+  "new": "\"d\":1,\"lo\":1",
+  "why": "Borderline to the course outline: carboxylate resonance is not listed. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-776",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":2,\"lo\":1",
+  "why": "Borderline to the course outline: carboxylate resonance is not listed. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-88",
+  "field": "raw",
+  "old": "\"d\":1",
+  "new": "\"d\":1,\"lo\":1",
+  "why": "Borderline to the course outline: alkaloid is not an outline term. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-186",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":2,\"lo\":1",
+  "why": "Borderline to the course outline: lipoproteins are not listed. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-433",
+  "field": "raw",
+  "old": "\"d\":1",
+  "new": "\"d\":1,\"lo\":1",
+  "why": "Borderline to the course outline: lipoproteins are not listed. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-847",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":3,\"lo\":1",
+  "why": "Borderline to the course outline: lipoproteins are not listed. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ },
+ {
+  "id": "3B-860",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":3,\"lo\":1",
+  "why": "Borderline to the course outline: Bohr effect and oxygen-binding curve are not listed. Still in Topic Training; drawn at most once per mock final.",
+  "cat": "scope"
+ }
+]

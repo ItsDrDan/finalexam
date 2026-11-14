@@ -15,7 +15,7 @@ Free for any instructor to share with students. Add `?course=3A`, `3B`, `1A` or 
 
 ## What's in it
 
-- About 2,450 original multiple-choice questions written in the style of standardized chemistry finals. Not affiliated with or endorsed by any exam publisher.
+- About 2,500 original multiple-choice questions written in the style of standardized chemistry finals. Not affiliated with or endorsed by any exam publisher.
 - Every wrong answer explains why it's wrong, and every question has a hint and a step-by-step explanation.
 - Modes: Boss Battle (timed practice final, Practice or Exam Day style), Topic Training, Weak Spots, Quick 10, Blitz, and a Daily 5.
 - Built-in periodic table, data sheet and a TI-36X Pro style practice calculator.
