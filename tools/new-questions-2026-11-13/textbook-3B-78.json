@@ -1,0 +1,1640 @@
+[
+ {
+  "t": "structure",
+  "q": "How many valence electrons must appear in the Lewis structure of the ammonium ion, NH<sub>4</sub><sup>+</sup>?",
+  "c": [
+   "8",
+   "9",
+   "10",
+   "11"
+  ],
+  "h": "Add the valence electrons of every atom from the group numbers, then adjust for the charge. Does a positive charge mean an electron was gained or lost?",
+  "w": "N brings 5 and the four H atoms bring 4, for 9. A 1+ charge means one electron has been lost, so the structure uses <b>8 electrons</b>: four N–H bonds and no lone pairs.",
+  "x": [
+   null,
+   "9 is the count for the neutral atoms (5 + 4). For a cation you must subtract one electron for each positive charge.",
+   "10 comes from adding an electron for the charge. Electrons are added for negative charges; a positive charge means one electron is missing.",
+   "11 uses nitrogen's atomic number (7) instead of its valence electrons. Only the outer-shell electrons count: 5 for N, a Group 5A element."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "structure",
+  "q": "In the correct Lewis structure of carbon dioxide, O=C=O, how many lone pairs are there in the whole molecule?",
+  "c": [
+   "4",
+   "2",
+   "8",
+   "0"
+  ],
+  "h": "CO<sub>2</sub> has 16 valence electrons. Work out how many are used in the two double bonds, then see what is left over and which atoms still need them.",
+  "w": "The two double bonds use 8 of the 16 valence electrons. The other 8 are nonbonding: two lone pairs on each oxygen, <b>4 lone pairs</b> in all. Carbon has none, because its four bonds already give it an octet.",
+  "x": [
+   null,
+   "2 would be one lone pair on each oxygen. Each O has only 4 bonding electrons from its double bond, so it needs two lone pairs to reach 8.",
+   "8 is the number of nonbonding electrons, not pairs. A lone pair is two electrons, so 8 electrons make 4 lone pairs.",
+   "Carbon has no lone pairs, but each oxygen does. With only the two double bonds drawn, the structure would use 8 of the 16 valence electrons and each O would have just 4."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "structure",
+  "q": "Which of these molecules needs a <b>triple</b> bond so that every atom (other than H) has an octet?",
+  "c": [
+   "N<sub>2</sub>",
+   "O<sub>2</sub>",
+   "C<sub>2</sub>H<sub>4</sub>",
+   "NH<sub>3</sub>"
+  ],
+  "h": "Count the valence electrons for each molecule and try single bonds first. How many extra shared pairs does each one need to finish its octets?",
+  "w": "N<sub>2</sub> has only 10 valence electrons. Each N needs three shared pairs to reach eight, which gives <b>:N≡N:</b> with one lone pair on each nitrogen.",
+  "x": [
+   null,
+   "O<sub>2</sub> has 12 valence electrons. Two shared pairs (a double bond) plus two lone pairs on each O already give both atoms an octet.",
+   "C<sub>2</sub>H<sub>4</sub> has 12 valence electrons. Four C–H bonds and a C=C double bond give each carbon four bonds, which is an octet.",
+   "NH<sub>3</sub> has 8 valence electrons. Three N–H single bonds and one lone pair on N complete the octet with no multiple bond."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "structure",
+  "q": "In the Lewis structure of hydrogen cyanide, H–C≡N:, how many electrons are bonding and how many are nonbonding?",
+  "c": [
+   "8 bonding, 2 nonbonding",
+   "4 bonding, 6 nonbonding",
+   "6 bonding, 4 nonbonding",
+   "10 bonding, 0 nonbonding"
+  ],
+  "h": "Each line in a structure is one shared pair. A triple bond counts as three lines.",
+  "w": "The H–C bond is one shared pair and the C≡N triple bond is three, so 4 pairs = 8 bonding electrons. The remaining 2 of the 10 valence electrons are the lone pair on N: <b>8 bonding, 2 nonbonding</b>.",
+  "x": [
+   null,
+   "This is the structure before step 5, with only single bonds and three lone pairs on N. Carbon would have just 4 electrons, so two of those lone pairs must become shared pairs.",
+   "This describes H–C=N with two lone pairs on N. Carbon would have only three bonds (6 electrons), so it would not have an octet.",
+   "This forgets the lone pair on nitrogen. N has three bonds (6 electrons) and needs one lone pair to reach eight."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "structure",
+  "q": "Four students describe a Lewis structure for O<sub>2</sub>. Which description is correct?",
+  "c": [
+   "a double bond between the O atoms, with two lone pairs on each O",
+   "a single bond between the O atoms, with three lone pairs on each O",
+   "a triple bond between the O atoms, with one lone pair on each O",
+   "a double bond between the O atoms, with three lone pairs on each O"
+  ],
+  "h": "Count first, draw second: how many valence electrons do two oxygen atoms have? The right structure uses exactly that many and gives each O eight.",
+  "w": "Two O atoms have 2 × 6 = 12 valence electrons. A double bond (4 electrons) plus two lone pairs on each O (8 electrons) uses <b>exactly 12</b> and puts eight electrons around each oxygen.",
+  "x": [
+   null,
+   "Each O would have an octet, but count the electrons: 2 + 12 = 14. O<sub>2</sub> has only 12 valence electrons, so this structure has two too many.",
+   "Each O would have an octet, but the structure uses only 6 + 4 = 10 electrons. O<sub>2</sub> has 12, so two electrons have been left out.",
+   "This uses 4 + 12 = 16 electrons, four more than O<sub>2</sub> has. It would also put 10 electrons around each oxygen, which breaks the octet rule."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "textbook"
+ },
+ {
+  "t": "structure",
+  "q": "In the Lewis structure of formaldehyde, CH<sub>2</sub>O, which atom is the central atom, and why?",
+  "c": [
+   "carbon, because H can form only one bond and C is less electronegative than O",
+   "oxygen, because it has the most valence electrons of the three elements",
+   "hydrogen, because there are more H atoms than any other kind of atom",
+   "oxygen, because the most electronegative atom goes in the center"
+  ],
+  "h": "Which atoms can never be in the middle because they form only one bond? Of the atoms that are left, compare electronegativity.",
+  "w": "Hydrogen forms one bond, so it is always on the outside. Of C and O, the <b>less electronegative atom, carbon</b>, goes in the center, bonded to both H atoms and double-bonded to O.",
+  "x": [
+   null,
+   "The number of valence electrons does not decide the center. Carbon forms four bonds and is less electronegative than oxygen, so it holds the other atoms together.",
+   "Hydrogen can share only one pair of electrons (the duet rule), so it can never connect two other atoms. It is always on the outside.",
+   "The rule is the reverse: the least electronegative atom (other than H) goes in the center. Oxygen ends up on the outside with two lone pairs."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "structure",
+  "q": "A student draws ethylene, C<sub>2</sub>H<sub>4</sub>, with a C–C single bond, two H atoms on each carbon and no lone pairs. What is wrong with this structure?",
+  "c": [
+   "It uses only 10 of the 12 valence electrons, and each carbon has only six electrons; a C=C double bond is needed.",
+   "Nothing is wrong, because C<sub>2</sub>H<sub>4</sub> has 10 valence electrons and all 10 are used.",
+   "It has too many electrons, so one of the C–H bonds should be removed.",
+   "The hydrogen atoms do not have octets, so each H needs three lone pairs."
+  ],
+  "h": "Count the valence electrons of two C and four H, then count the electrons in the drawing. Next check the number of electrons around each carbon.",
+  "w": "C<sub>2</sub>H<sub>4</sub> has 2(4) + 4(1) = 12 valence electrons, but five single bonds use only 10, and each carbon has three bonds (six electrons). Sharing the last two electrons between the carbons gives <b>H<sub>2</sub>C=CH<sub>2</sub></b>, with an octet on each carbon.",
+  "x": [
+   null,
+   "The total is 2(4) + 4(1) = 12, not 10. Each carbon in the drawing has only three bonds, so neither has an octet.",
+   "The drawing has too few electrons, not too many: 10 used out of 12. Removing a bond would leave a carbon even further from an octet.",
+   "Hydrogen follows the duet rule: one bond (two electrons) fills its shell. It never carries lone pairs in these structures."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "structure",
+  "q": "In the Lewis structure of the hydroxide ion, OH<sup>−</sup>, how many lone pairs are on the oxygen atom?",
+  "c": [
+   "3",
+   "2",
+   "4",
+   "1"
+  ],
+  "h": "Count the valence electrons, remembering the charge. One pair is used for the O–H bond; where do the rest go?",
+  "w": "O has 6 valence electrons, H has 1 and the 1− charge adds 1, for 8. The O–H bond uses 2 and the other 6 sit on oxygen as <b>3 lone pairs</b>, giving O an octet.",
+  "x": [
+   null,
+   "Two lone pairs is the pattern for neutral oxygen with two bonds, as in H<sub>2</sub>O. Here O has only one bond, and the extra electron from the 1− charge makes a third lone pair.",
+   "Four lone pairs would put all 8 valence electrons on oxygen and leave none for the O–H bond. One pair has to be shared with hydrogen.",
+   "One lone pair plus one bond puts only four electrons around oxygen. The ion has 8 valence electrons, and the six that are not in the bond belong on O."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "textbook"
+ },
+ {
+  "t": "hydrocarbons",
+  "q": "Which condensed formula is 2-hexene (hex-2-ene)?",
+  "c": [
+   "CH<sub>3</sub>CH=CHCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH<sub>2</sub>CH=CHCH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH=CHCH<sub>2</sub>CH<sub>3</sub>"
+  ],
+  "h": "The stem gives the number of carbons in the chain. The number tells you which carbon the double bond starts on.",
+  "w": "Hex- means a six-carbon chain and 2- means the double bond starts at carbon 2, between C2 and C3: <b>CH<sub>3</sub>CH=CHCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></b>.",
+  "x": [
+   null,
+   "Here the double bond starts at the first carbon of the chain, so this is 1-hexene.",
+   "Here the double bond is between C3 and C4, in the middle of the chain, so this is 3-hexene.",
+   "The double bond is in the right place, but count the carbons: there are only five. This is 2-pentene."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "hydrocarbons",
+  "q": "What is the IUPAC name of CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH=CHCH<sub>3</sub>?",
+  "c": [
+   "2-heptene",
+   "5-heptene",
+   "2-hexene",
+   "2-heptyne"
+  ],
+  "h": "Count the carbons in the chain, then number from the end that reaches the double bond first.",
+  "w": "The chain has seven carbons (hept-). Numbering from the right end reaches the double bond at carbon 2, the lowest possible number, so the name is <b>2-heptene</b> (hept-2-ene).",
+  "x": [
+   null,
+   "This numbers the chain from the left end. The chain must be numbered from the end nearer the double bond, which gives 2 instead of 5.",
+   "Count again: there are seven carbons, including both CH carbons of the double bond. Hex- would mean six.",
+   "The ending -yne is for a C≡C triple bond. This compound has a C=C double bond, so the ending is -ene."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "hydrocarbons",
+  "q": "What is the IUPAC name of CH<sub>3</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH=CH<sub>2</sub>?",
+  "c": [
+   "4-methyl-1-pentene",
+   "2-methyl-4-pentene",
+   "1-hexene",
+   "2-methylpentane"
+  ],
+  "h": "When a chain has both a double bond and a branch, which one decides the direction of numbering?",
+  "w": "The longest chain containing the double bond has five carbons. The double bond has priority, so number from the right: the double bond is at C1 and the methyl group lands on C4, giving <b>4-methyl-1-pentene</b> (4-methylpent-1-ene).",
+  "x": [
+   null,
+   "This numbers from the left to give the methyl group the lower number. The double bond gets the lowest number, even if that gives the branch a higher one.",
+   "1-Hexene is an unbranched six-carbon chain. Here the longest chain is five carbons, and the sixth carbon is a methyl branch.",
+   "The ending -ane is for a compound with only single bonds. The C=C must appear in the name as -ene, and it also sets the numbering."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "hydrocarbons",
+  "q": "Which condensed formula is 3-methyl-1-butene (3-methylbut-1-ene)?",
+  "c": [
+   "CH<sub>2</sub>=CHCH(CH<sub>3</sub>)CH<sub>3</sub>",
+   "CH<sub>2</sub>=C(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH=C(CH<sub>3</sub>)CH<sub>3</sub>",
+   "CH<sub>2</sub>=CHCH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub>"
+  ],
+  "h": "Write a four-carbon chain, put the double bond where the name says, then number from that end to place the methyl group.",
+  "w": "But-1-ene is a four-carbon chain with the double bond between C1 and C2. A methyl group on C3 gives <b>CH<sub>2</sub>=CHCH(CH<sub>3</sub>)CH<sub>3</sub></b>.",
+  "x": [
+   null,
+   "Here the methyl group is on C2, one of the double-bond carbons. This is 2-methyl-1-butene.",
+   "Here the double bond is between C2 and C3 and the methyl group is on C2. This is 2-methyl-2-butene.",
+   "The double bond and the methyl group are at the right numbers, but the chain has five carbons. This is 3-methyl-1-pentene."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "hydrocarbons",
+  "q": "A hydrocarbon is a ring of five carbon atoms with one C=C double bond in the ring and no branches. What is its name?",
+  "c": [
+   "cyclopentene",
+   "cyclopentane",
+   "1-pentene",
+   "cyclohexene"
+  ],
+  "h": "Build the name from three parts: one for the ring, one for the number of carbons and one for the double bond.",
+  "w": "Cyclo- means a ring, pent- means five carbons and -ene means a C=C double bond: <b>cyclopentene</b>, C<sub>5</sub>H<sub>8</sub>.",
+  "x": [
+   null,
+   "Cyclopentane is the five-carbon ring with only single bonds. The double bond changes the ending from -ane to -ene.",
+   "1-Pentene is an open chain of five carbons with a double bond. A ring needs the prefix cyclo-.",
+   "Hex- means six carbons. This ring has five, so the stem is pent-."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "hydrocarbons",
+  "q": "Which condensed formula is 2-pentyne (pent-2-yne)?",
+  "c": [
+   "CH<sub>3</sub>C≡CCH<sub>2</sub>CH<sub>3</sub>",
+   "HC≡CCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH=CHCH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>C≡CCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>"
+  ],
+  "h": "The ending tells you the kind of multiple bond, the stem tells you the chain length and the number tells you where the multiple bond starts.",
+  "w": "Pent- is five carbons, -yne is a C≡C triple bond and 2- puts it between C2 and C3: <b>CH<sub>3</sub>C≡CCH<sub>2</sub>CH<sub>3</sub></b>. The triple-bond carbons carry no hydrogens here because each already has four bonds.",
+  "x": [
+   null,
+   "Here the triple bond starts at the first carbon of the chain, so this is 1-pentyne.",
+   "This has a C=C double bond, so it is 2-pentene. The ending -yne means a triple bond.",
+   "The triple bond is at C2, but the chain has six carbons. This is 2-hexyne."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "The three ketone bodies are acetoacetate, CH<sub>3</sub>–CO–CH<sub>2</sub>–COO<sup>−</sup>, β-hydroxybutyrate, CH<sub>3</sub>–CH(OH)–CH<sub>2</sub>–COO<sup>−</sup>, and acetone, CH<sub>3</sub>–CO–CH<sub>3</sub>. Which statement about their functional groups is correct?",
+  "c": [
+   "β-Hydroxybutyrate has a hydroxyl group and a carboxylate group but no ketone group.",
+   "Acetone has a carboxylic acid group as well as a ketone group.",
+   "Acetoacetate has a hydroxyl group and a carboxylate group but no ketone group.",
+   "All three have a ketone C=O between two carbons, which is why they are called ketone bodies."
+  ],
+  "h": "A ketone is a C=O with a carbon on each side. Check each formula for that group, for –OH and for –COO<sup>−</sup>.",
+  "w": "β-Hydroxybutyrate has an –OH on its β carbon where acetoacetate has a C=O, so it is <b>a \"ketone body\" that is not a ketone</b>. Acetoacetate is a ketone and a carboxylate; acetone is only a ketone.",
+  "x": [
+   null,
+   "Acetone is CH<sub>3</sub>–CO–CH<sub>3</sub>: a ketone and nothing else. With no –COOH group, it is the one ketone body that is not an acid.",
+   "That describes β-hydroxybutyrate. Acetoacetate keeps the ketone C=O on its β carbon; reducing that C=O is what makes the hydroxyl compound.",
+   "The name is traditional, not exact. β-Hydroxybutyrate has an alcohol carbon, CH(OH), where the ketone carbon would be."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "During a long fast, why does the liver turn much of its acetyl CoA into ketone bodies instead of oxidizing it in the citric acid cycle?",
+  "c": [
+   "Oxaloacetate is being used to make glucose, so the cycle cannot accept all the acetyl CoA from β-oxidation.",
+   "Oxaloacetate builds up and blocks the cycle, so the acetyl CoA from glycolysis has nowhere to go.",
+   "The liver has no mitochondria, so it cannot run the citric acid cycle at all.",
+   "Insulin is high during a fast, and insulin switches on ketone body formation."
+  ],
+  "h": "Acetyl CoA enters the citric acid cycle by joining a four-carbon acceptor. What else is the liver using that acceptor for when no carbohydrate is coming in?",
+  "w": "In a fast, fatty acid oxidation floods the liver with acetyl CoA while oxaloacetate is diverted to glucose synthesis. With <b>too little oxaloacetate to accept it</b>, the extra acetyl CoA is joined into acetoacetate, which gives β-hydroxybutyrate and acetone.",
+  "x": [
+   null,
+   "It is the other way around: oxaloacetate runs low because it is pulled out for glucose synthesis. In a fast the acetyl CoA also comes mainly from fatty acids, not from glycolysis.",
+   "Liver cells have many mitochondria, and both β-oxidation and ketone body formation take place there. The cycle still runs; it is just short of oxaloacetate.",
+   "Insulin is low during a fast. Low insulin lets fat cells release fatty acids, and that is the source of the extra acetyl CoA."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "How does ketoacidosis differ from ketosis?",
+  "c": [
+   "In ketosis ketone bodies build up in the blood and urine; in ketoacidosis they overwhelm the blood buffers and blood pH falls.",
+   "In ketosis blood pH falls; in ketoacidosis the blood buffers hold the pH at its normal value.",
+   "In ketosis only acetone is made; in ketoacidosis the liver makes glucose instead of ketone bodies.",
+   "In ketosis blood pH falls below 7.4; in ketoacidosis blood pH rises above 7.4."
+  ],
+  "h": "Both words begin with keto-. What does the extra part, \"acidosis\", say about the blood?",
+  "w": "Ketosis means ketone bodies are accumulating in the blood and urine while the pH is still buffered. When the acidic ketone bodies exceed what the buffers can handle, <b>blood pH drops</b> (to 7.30 or lower in DKA), and the condition is ketoacidosis.",
+  "x": [
+   null,
+   "This reverses the two terms. The word \"acidosis\" marks the condition in which the pH has actually dropped.",
+   "All three ketone bodies are made in both conditions, and the liver is making glucose in both. The difference is whether blood pH has fallen.",
+   "Acidosis means the blood has become more acidic, so the pH goes down, not up. In ketosis alone the buffers are still holding the pH."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "A patient in diabetic ketoacidosis has fruity-smelling breath. Which ketone body causes the odor, and does it lower blood pH?",
+  "c": [
+   "acetone; it is volatile and is breathed out, and with no carboxylic acid group it does not release H<sup>+</sup>",
+   "acetone; it is breathed out, and it is the strongest acid of the three ketone bodies",
+   "acetoacetate; it is a volatile acid that is breathed out and also releases H<sup>+</sup>",
+   "β-hydroxybutyrate; its –OH group makes it evaporate easily, and it does not release H<sup>+</sup>"
+  ],
+  "h": "One ketone body is a small molecule with only a ketone group. Think about which functional group releases H<sup>+</sup> and which molecule evaporates most easily.",
+  "w": "<b>Acetone</b>, CH<sub>3</sub>–CO–CH<sub>3</sub>, is small and volatile, so it leaves the blood in the lungs and is smelled on the breath. It has no carboxylic acid group, so the drop in pH comes from the other two, acetoacetate and β-hydroxybutyrate.",
+  "x": [
+   null,
+   "Acetone is the right compound, but it is not an acid: it has no –COOH group to release H<sup>+</sup>. The two acidic ketone bodies are the ones that lower the pH.",
+   "Acetoacetate does release H<sup>+</sup>, but at blood pH it is an ion, and ions do not evaporate into the breath. The odor comes from the neutral, volatile ketone.",
+   "β-Hydroxybutyrate has a carboxylic acid group, so it does release H<sup>+</sup>. Its –OH and –COO<sup>−</sup> groups hold it in the blood, so it is not breathed out."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "isomers",
+  "q": "Three of these condensed formulas are the same compound written in different ways. Which one is a <b>different</b> compound, a constitutional isomer of the other three?",
+  "c": [
+   "CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
+   "(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>3</sub>"
+  ],
+  "h": "For each formula, find the longest chain and count how far the branch is from the nearer end of the chain.",
+  "w": "All four are C<sub>6</sub>H<sub>14</sub> with a five-carbon chain and one CH<sub>3</sub> branch. In three of them the branch is on the second carbon from an end; in <b>CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub></b> it is on the middle (third) carbon, so the atoms are connected in a different order.",
+  "x": [
+   null,
+   "Here the branch is on the second carbon from the left end. That is the same connection as a branch on the second carbon from the right end, so this is one of the three matching formulas.",
+   "(CH<sub>3</sub>)<sub>2</sub>CH– is a short way to write CH<sub>3</sub>CH(CH<sub>3</sub>)–. The branch is still on the second carbon of a five-carbon chain, so this is one of the three matching formulas.",
+   "Read this one from the right: the branch is on the second carbon from that end. Flipping a formula left to right does not make a new compound."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "isomers",
+  "q": "Pentane, C<sub>5</sub>H<sub>12</sub>, has three constitutional isomers. How many of them have a longest continuous chain of exactly <b>four</b> carbons?",
+  "c": [
+   "1",
+   "2",
+   "3",
+   "0"
+  ],
+  "h": "Take a four-carbon chain and decide where the fifth carbon can go without making the chain longer. Then check whether any of your drawings are the same compound flipped over.",
+  "w": "The fifth carbon must go on an inner carbon of the four-carbon chain. The two inner carbons are equivalent (one is the other read from the opposite end), so there is only <b>one</b> such isomer, CH<sub>3</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub>. The other two isomers have chains of five and three carbons.",
+  "x": [
+   null,
+   "Putting the CH<sub>3</sub> on the second carbon or on the third carbon of a four-carbon chain gives the same compound; turn one around and it matches the other. They count once.",
+   "Three is the total number of C<sub>5</sub>H<sub>12</sub> isomers. One of them is the straight five-carbon chain and one has a three-carbon chain with two branches, so they do not have a longest chain of four.",
+   "A four-carbon chain with one CH<sub>3</sub> branch on an inner carbon is a real isomer of pentane: CH<sub>3</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub> has five carbons and twelve hydrogens."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "isomers",
+  "q": "Which compound is a constitutional isomer of pentane, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>?",
+  "c": [
+   "C(CH<sub>3</sub>)<sub>4</sub>",
+   "CH<sub>3</sub>(CH<sub>2</sub>)<sub>3</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>"
+  ],
+  "h": "An isomer must pass two tests: the same molecular formula, and a different order of connection. Count the carbons and hydrogens in each choice first.",
+  "w": "<b>C(CH<sub>3</sub>)<sub>4</sub></b> has five carbons and twelve hydrogens, the same formula as pentane, but its central carbon is bonded to four other carbons. Same formula with a different connection order makes it a constitutional isomer.",
+  "x": [
+   null,
+   "CH<sub>3</sub>(CH<sub>2</sub>)<sub>3</sub>CH<sub>3</sub> is pentane itself. The parentheses only mean three CH<sub>2</sub> groups in a row, so this is the same compound, not an isomer.",
+   "Count the carbons: this compound has six (C<sub>6</sub>H<sub>14</sub>). Isomers must have the same molecular formula, and pentane is C<sub>5</sub>H<sub>12</sub>.",
+   "This is hexane, C<sub>6</sub>H<sub>14</sub>. A longer chain has a different molecular formula, so it cannot be an isomer of pentane."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "isomers",
+  "q": "A student writes CH<sub>2</sub>(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> and calls it a branched isomer of pentane. What is this compound really?",
+  "c": [
+   "pentane itself, because a CH<sub>3</sub> on an end carbon only makes the chain longer",
+   "a branched isomer of pentane, because one CH<sub>3</sub> is written in parentheses",
+   "butane, because the longest chain has four carbons",
+   "a branched isomer of hexane, C<sub>6</sub>H<sub>14</sub>"
+  ],
+  "h": "Trace the longest path of carbons from end to end. Does the CH<sub>3</sub> in parentheses hang off the middle of that path, or start it?",
+  "w": "The CH<sub>3</sub> in parentheses is attached to the first carbon, so it is simply the new end of the chain. Tracing through it gives five carbons in a row with no branch: <b>pentane, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></b>.",
+  "x": [
+   null,
+   "Parentheses in a formula do not make a branch. A group is a branch only when it is attached to a carbon inside the chain, and this CH<sub>3</sub> is on the end carbon.",
+   "The longest chain must include the CH<sub>3</sub> in parentheses. Counting through it gives five carbons, and the molecule has five carbons in all, so it cannot be butane.",
+   "Count the atoms: there are five carbons and twelve hydrogens, C<sub>5</sub>H<sub>12</sub>, not six carbons. And the chain has no branch."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "isomers",
+  "q": "Which is the smallest alkane that has a constitutional isomer?",
+  "c": [
+   "butane, C<sub>4</sub>H<sub>10</sub>",
+   "ethane, C<sub>2</sub>H<sub>6</sub>",
+   "propane, C<sub>3</sub>H<sub>8</sub>",
+   "pentane, C<sub>5</sub>H<sub>12</sub>"
+  ],
+  "h": "Try to connect the carbons of each alkane in a second way. A new compound needs a carbon attached to the middle of a chain, not to its end.",
+  "w": "Four carbons can be joined in a row (butane) or as three in a row with the fourth on the middle carbon (isobutane, 2-methylpropane). <b>Butane, C<sub>4</sub>H<sub>10</sub></b>, is the first alkane with two different connection orders.",
+  "x": [
+   null,
+   "Two carbons can only be joined to each other. There is one way to build C<sub>2</sub>H<sub>6</sub>.",
+   "Three carbons can only be joined in a row. Drawing the chain bent, or putting the third carbon above the second, is still the same three-carbon chain.",
+   "Pentane does have isomers (three in all), but it is not the smallest. Check the alkane with one carbon fewer."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "hydrocarbons",
+  "q": "What is the IUPAC name of CH<sub>3</sub>CH<sub>2</sub>C(CH<sub>3</sub>)<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>?",
+  "c": [
+   "3,3-dimethylhexane",
+   "4,4-dimethylhexane",
+   "3-dimethylhexane",
+   "2-ethyl-2-methylpentane"
+  ],
+  "h": "Find the longest continuous chain, number it from the end nearer the branches, and give each branch its own number.",
+  "w": "The longest chain has six carbons (hexane). Numbering from the left puts both CH<sub>3</sub> groups on carbon 3, and each one needs a number: <b>3,3-dimethylhexane</b>.",
+  "x": [
+   null,
+   "This numbers the chain from the right end. Numbering from the left reaches the branches sooner (carbon 3 instead of carbon 4), and the lower number is used.",
+   "Each substituent needs its own number, even when two are on the same carbon. Two methyl groups on carbon 3 are written 3,3-dimethyl.",
+   "This uses a five-carbon chain and treats two chain carbons as an ethyl branch. The longest continuous chain has six carbons, so the parent is hexane."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "hydrocarbons",
+  "q": "Which condensed formula is 2,3-dimethylpentane?",
+  "c": [
+   "CH<sub>3</sub>CH(CH<sub>3</sub>)CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>3</sub>",
+   "CH<sub>3</sub>C(CH<sub>3</sub>)<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH(CH<sub>3</sub>)CH(CH<sub>3</sub>)CH<sub>3</sub>"
+  ],
+  "h": "Write the parent chain from the last part of the name, number it, then hang one group on each numbered carbon.",
+  "w": "Pentane is a five-carbon chain. One CH<sub>3</sub> goes on carbon 2 and one on carbon 3, which gives <b>CH<sub>3</sub>CH(CH<sub>3</sub>)CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub></b>.",
+  "x": [
+   null,
+   "Here the methyl groups are on carbons 2 and 4 of the five-carbon chain. This is 2,4-dimethylpentane.",
+   "Here both methyl groups are on carbon 2. This is 2,2-dimethylpentane; the name asked for has one on carbon 2 and one on carbon 3.",
+   "The branches are on carbons 2 and 3, but the chain has only four carbons. This is 2,3-dimethylbutane."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "hydrocarbons",
+  "q": "What is the IUPAC name of CH<sub>3</sub>CH(CH<sub>3</sub>)CH(CH<sub>3</sub>)CH(CH<sub>2</sub>CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>?",
+  "c": [
+   "4-ethyl-2,3-dimethylheptane",
+   "2,3-dimethyl-4-ethylheptane",
+   "4-ethyl-5,6-dimethylheptane",
+   "4-ethyl-2,3-methylheptane"
+  ],
+  "h": "After you number the chain, put the substituent names in alphabetical order. Do prefixes such as di- and tri- count when you alphabetize?",
+  "w": "The longest chain has seven carbons. Numbering from the left gives branches at 2, 3 and 4. Ethyl comes before methyl in the alphabet (the di- is ignored), so the name is <b>4-ethyl-2,3-dimethylheptane</b>.",
+  "x": [
+   null,
+   "The numbers are right, but substituents are listed in alphabetical order, not number order. The prefix di- is ignored, so ethyl (e) comes before methyl (m).",
+   "This numbers the chain from the right end. Numbering from the left gives 2, 3, 4, which is lower than 4, 5, 6.",
+   "Two methyl groups need the prefix di-. Two numbers followed by plain \"methyl\" is not a complete name."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "textbook"
+ },
+ {
+  "t": "hydrocarbons",
+  "q": "What is the IUPAC name of CH<sub>3</sub>CH(CH<sub>2</sub>CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>?",
+  "c": [
+   "3-methylhexane",
+   "2-ethylpentane",
+   "4-methylhexane",
+   "2-propylbutane"
+  ],
+  "h": "The longest chain does not have to be the one written in a straight line. Try counting through the group in parentheses.",
+  "w": "The longest chain runs through the CH<sub>2</sub>CH<sub>3</sub> group: two carbons, the CH, then three more, for six carbons (hexane). The leftover CH<sub>3</sub> is on carbon 3, so the name is <b>3-methylhexane</b>.",
+  "x": [
+   null,
+   "This takes the chain as written (five carbons) and calls the CH<sub>2</sub>CH<sub>3</sub> a branch. Counting through that group gives a longer, six-carbon chain, and the longest chain must be the parent.",
+   "The parent chain is right, but it is numbered from the wrong end. Start from the end nearer the branch, which puts the methyl group on carbon 3.",
+   "This picks a four-carbon chain and calls the rest a propyl branch. The parent must be the longest continuous chain, which has six carbons."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "hydrocarbons",
+  "q": "What is the molecular formula of 3-ethyl-2-methylpentane?",
+  "c": [
+   "C<sub>8</sub>H<sub>18</sub>",
+   "C<sub>5</sub>H<sub>12</sub>",
+   "C<sub>7</sub>H<sub>16</sub>",
+   "C<sub>8</sub>H<sub>16</sub>"
+  ],
+  "h": "Add the carbons in the parent chain to the carbons in each substituent. Then use the general formula for an alkane to get the hydrogens.",
+  "w": "Pentane gives 5 carbons, the ethyl group 2 and the methyl group 1, for 8 carbons. An alkane is C<sub>n</sub>H<sub>2n+2</sub>, so the formula is <b>C<sub>8</sub>H<sub>18</sub></b>.",
+  "x": [
+   null,
+   "C<sub>5</sub>H<sub>12</sub> counts only the parent chain, pentane. The carbons in the ethyl and methyl branches are part of the molecule as well.",
+   "C<sub>7</sub>H<sub>16</sub> counts each branch as one carbon. An ethyl group has two carbons, so the total is 5 + 2 + 1 = 8.",
+   "Eight carbons is right, but a branched alkane still follows C<sub>n</sub>H<sub>2n+2</sub>. Branching does not remove hydrogens, so there are 18."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "alcohols",
+  "q": "What is the IUPAC name of CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>?",
+  "c": [
+   "3-hexanol",
+   "4-hexanol",
+   "3-pentanol",
+   "1-ethyl-1-butanol"
+  ],
+  "h": "Use the longest chain that contains the carbon bearing the OH, and number from the end nearer the OH.",
+  "w": "The chain has six carbons, so the parent is hexane and the ending is -ol. Numbering from the left puts the OH on carbon 3: <b>3-hexanol</b> (hexan-3-ol).",
+  "x": [
+   null,
+   "This numbers the chain from the right end. The chain is numbered from the end nearer the OH group, which gives 3, not 4.",
+   "Count the carbons again, including the one that carries the OH. There are six, so the parent is hexane, not pentane.",
+   "This uses a four-carbon chain and calls the other two carbons an ethyl branch. The parent must be the longest chain containing the OH carbon, which has six carbons."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "alcohols",
+  "q": "Which of these is a <b>tertiary (3°)</b> alcohol?",
+  "c": [
+   "2-methyl-2-butanol, CH<sub>3</sub>C(CH<sub>3</sub>)(OH)CH<sub>2</sub>CH<sub>3</sub>",
+   "3-methyl-2-butanol, CH<sub>3</sub>CH(OH)CH(CH<sub>3</sub>)<sub>2</sub>",
+   "2-methyl-1-butanol, HOCH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub>",
+   "3-pentanol, CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub>"
+  ],
+  "h": "Find the carbon that holds the OH group and count how many other carbons are bonded directly to that carbon.",
+  "w": "In <b>2-methyl-2-butanol</b> the OH carbon is bonded to three other carbons (two CH<sub>3</sub> groups and a CH<sub>2</sub>) and has no H. Three carbons on the OH carbon makes the alcohol tertiary.",
+  "x": [
+   null,
+   "The OH carbon here is bonded to two carbons and one H, so this alcohol is secondary. The branch is on the next carbon over, which does not count.",
+   "The OH is on a CH<sub>2</sub> at the end of the chain, bonded to only one other carbon. This alcohol is primary, even though the molecule is branched.",
+   "The OH carbon is in the middle of the chain with one carbon on each side and one H. Two carbon neighbors makes it secondary."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "alcohols",
+  "q": "Cyclohexanol is a six-carbon ring with one OH group on a ring carbon. How is this alcohol classified?",
+  "c": [
+   "secondary (2°)",
+   "primary (1°)",
+   "tertiary (3°)",
+   "it cannot be classified, because the OH carbon is part of a ring"
+  ],
+  "h": "The rule is the same for rings and chains: count the carbons bonded directly to the carbon that holds the OH.",
+  "w": "The OH carbon is bonded to its two neighbors in the ring and to one H. Two carbon neighbors makes cyclohexanol a <b>secondary (2°)</b> alcohol.",
+  "x": [
+   null,
+   "Primary does not mean \"one OH group.\" It means the OH carbon is bonded to only one other carbon, and a ring carbon always has two ring neighbors.",
+   "A tertiary alcohol has three carbons on the OH carbon and no H on it. This ring carbon has only two carbon neighbors plus one H.",
+   "Ring alcohols are classified the same way as chain alcohols. Count the carbons attached to the OH carbon."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "alcohols",
+  "q": "Which condensed formula is 3-methyl-1-butanol (3-methylbutan-1-ol)?",
+  "c": [
+   "(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>2</sub>OH",
+   "CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>OH",
+   "(CH<sub>3</sub>)<sub>2</sub>CHCH(OH)CH<sub>3</sub>",
+   "(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH"
+  ],
+  "h": "Number the parent chain starting at the carbon that the name gives to the OH, then place the methyl group.",
+  "w": "Butanol means a four-carbon chain; the OH is on carbon 1 and the CH<sub>3</sub> is on carbon 3. That gives <b>(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>2</sub>OH</b>.",
+  "x": [
+   null,
+   "Numbering from the OH carbon, the methyl group here is on carbon 2. This is 2-methyl-1-butanol.",
+   "Here the OH is on the second carbon of the chain, not on the end. This is 3-methyl-2-butanol.",
+   "The chain that contains the OH has five carbons here, with the methyl group on carbon 4. This is 4-methyl-1-pentanol."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "alcohols",
+  "q": "Rubbing alcohol is isopropyl alcohol, (CH<sub>3</sub>)<sub>2</sub>CHOH. Which choice gives its IUPAC name and its classification?",
+  "c": [
+   "2-propanol; secondary (2°)",
+   "2-propanol; tertiary (3°)",
+   "1-propanol; primary (1°)",
+   "2-methylethanol; primary (1°)"
+  ],
+  "h": "Count the carbons in the longest chain, find which one holds the OH, and count the carbons attached to that carbon.",
+  "w": "The chain has three carbons with the OH on the middle one, so the name is <b>2-propanol</b> (propan-2-ol). The OH carbon is bonded to two CH<sub>3</sub> groups and one H, which makes it <b>secondary</b>.",
+  "x": [
+   null,
+   "The name is right, but the OH carbon is bonded to only two carbons. It also carries one H, so the alcohol is secondary, not tertiary.",
+   "1-Propanol is CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH, with the OH on an end carbon. In isopropyl alcohol the OH is on the middle carbon.",
+   "This treats one CH<sub>3</sub> as a branch on a two-carbon chain. The three carbons form one continuous chain, so the parent is propane."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "alcohols",
+  "q": "What is the IUPAC name of CH<sub>3</sub>CH(SH)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>?",
+  "c": [
+   "2-pentanethiol",
+   "4-pentanethiol",
+   "2-pentanthiol",
+   "2-pentanol"
+  ],
+  "h": "Name it as you would an alcohol, with two changes: the suffix, and what happens to the final -e of the alkane name.",
+  "w": "The chain has five carbons and the SH is on carbon 2 when numbered from the nearer end. Thiol names keep the whole alkane name and add -thiol: <b>2-pentanethiol</b>.",
+  "x": [
+   null,
+   "This numbers the chain from the far end. Number from the end nearer the SH group, which gives 2 instead of 4.",
+   "The -e of the alkane name is kept in a thiol name: pentane + thiol. Dropping the -e is done for alcohols (pentan + ol), not for thiols.",
+   "The ending -ol is for an OH group. This compound has an SH group, so the ending is -thiol."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "alcohols",
+  "q": "Two molecules of ethanethiol, CH<sub>3</sub>CH<sub>2</sub>SH, undergo mild oxidation [O]. What is the organic product?",
+  "c": [
+   "CH<sub>3</sub>CH<sub>2</sub>–S–S–CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH<sub>2</sub>–S–CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>SH",
+   "CH<sub>3</sub>CH<sub>2</sub>OH"
+  ],
+  "h": "Each thiol loses the hydrogen from its S–H group. What can the two sulfur atoms do next?",
+  "w": "Each thiol loses its S–H hydrogen and the two sulfur atoms bond to each other. The product is the disulfide <b>CH<sub>3</sub>CH<sub>2</sub>–S–S–CH<sub>2</sub>CH<sub>3</sub></b>, and both sulfur atoms are still there.",
+  "x": [
+   null,
+   "This compound has only one sulfur between the two ethyl groups (a thioether). Oxidation of two thiols keeps both sulfur atoms and joins them as S–S.",
+   "The carbon chains do not join. The new bond forms between the two sulfur atoms, and the product has no S–H left.",
+   "Mild oxidation does not swap sulfur for oxygen. The [O] removes the S–H hydrogens, and the sulfur atoms stay in the product."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "alcohols",
+  "q": "The disulfide CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>–S–S–CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> is treated with a reducing agent [H]. What forms?",
+  "c": [
+   "two molecules of 1-propanethiol, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>SH",
+   "one molecule of 1-hexanethiol, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>SH",
+   "two molecules of 1-propanol, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH",
+   "two molecules of propane, CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub>"
+  ],
+  "h": "Reduction is the reverse of the reaction that made the disulfide. Which bond was formed in that oxidation?",
+  "w": "Reduction breaks the S–S bond and puts an H on each sulfur. Each half becomes a thiol, so the product is <b>two molecules of CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>SH</b>.",
+  "x": [
+   null,
+   "The two halves separate when the S–S bond breaks. Nothing joins the carbon chains into one six-carbon chain.",
+   "Reduction adds hydrogen to each sulfur; it does not replace sulfur with oxygen. The products are thiols, not alcohols.",
+   "Only the S–S bond breaks. Each C–S bond stays, so each product still contains sulfur as an SH group."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "alcohols",
+  "q": "Ethanethiol, CH<sub>3</sub>CH<sub>2</sub>SH (62 g/mol), boils at 35 °C. Ethanol, CH<sub>3</sub>CH<sub>2</sub>OH (46 g/mol), boils at 78 °C. What is the best explanation?",
+  "c": [
+   "The S–H bond is barely polar, so thiol molecules cannot hydrogen bond with each other.",
+   "Ethanethiol has the lower molar mass, so its dispersion forces are weaker.",
+   "The S–H bond breaks more easily than the O–H bond when the liquid boils.",
+   "Thiol molecules hydrogen bond more strongly than alcohols, which pushes them into the gas phase."
+  ],
+  "h": "Boiling separates molecules from each other. Compare the strongest intermolecular force each compound can use.",
+  "w": "Ethanol molecules hold on to each other with O–H···O hydrogen bonds. An S–H bond is barely polar, so <b>thiols cannot hydrogen bond</b>, and ethanethiol boils lower even though it is the heavier molecule.",
+  "x": [
+   null,
+   "Check the molar masses: ethanethiol is the heavier one, 62 against 46 g/mol. Mass alone would predict the opposite order, so another force must explain it.",
+   "Boiling does not break covalent bonds inside the molecule. It only overcomes the attractions between molecules.",
+   "Stronger attractions hold molecules in the liquid and raise the boiling point. Thiols boil lower because their attractions are weaker."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "alcohols",
+  "q": "Which compound is a <b>disulfide</b>?",
+  "c": [
+   "CH<sub>3</sub>–S–S–CH<sub>3</sub>",
+   "CH<sub>3</sub>–S–CH<sub>3</sub>",
+   "HSCH<sub>2</sub>CH<sub>2</sub>SH",
+   "CH<sub>3</sub>CH<sub>2</sub>SH"
+  ],
+  "h": "A disulfide is what forms when two thiols are oxidized. Look for the bond that joins the two halves.",
+  "w": "A disulfide has two sulfur atoms bonded to each other, R–S–S–R. Only <b>CH<sub>3</sub>–S–S–CH<sub>3</sub></b> has an S–S bond.",
+  "x": [
+   null,
+   "One sulfur between two carbons is a thioether, the sulfur relative of an ether. A disulfide needs two sulfur atoms joined together.",
+   "This molecule has two sulfur atoms, but they are not bonded to each other. Each is an SH group, so the compound has two thiol groups.",
+   "An SH group on a carbon chain is a thiol. It becomes a disulfide only after oxidation joins two of them."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "acids_esters",
+  "q": "What is the IUPAC name of CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)COOH?",
+  "c": [
+   "2-methylbutanoic acid",
+   "3-methylbutanoic acid",
+   "2-methylpentanoic acid",
+   "1-methylpropanoic acid"
+  ],
+  "h": "The carboxyl carbon is part of the parent chain. Which number does it always get?",
+  "w": "The longest chain that includes the COOH carbon has four carbons (butanoic acid). The COOH carbon is carbon 1, so the CH<sub>3</sub> branch is on carbon 2: <b>2-methylbutanoic acid</b>.",
+  "x": [
+   null,
+   "This numbers the chain from the CH<sub>3</sub> end. In a carboxylic acid, numbering always starts at the COOH carbon, which puts the branch on carbon 2.",
+   "This counts the branch carbon as part of the chain. The longest chain has four carbons; the fifth carbon is the methyl substituent.",
+   "This leaves the COOH carbon out of the chain. The carboxyl carbon is counted and is carbon 1, so the parent has four carbons and the branch is on carbon 2."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "acids_esters",
+  "q": "The ketone body 3-hydroxybutanoic acid (β-hydroxybutyric acid) builds up in the blood in uncontrolled diabetes. Which condensed formula is this compound?",
+  "c": [
+   "CH<sub>3</sub>CH(OH)CH<sub>2</sub>COOH",
+   "CH<sub>3</sub>CH<sub>2</sub>CH(OH)COOH",
+   "HOCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>COOH",
+   "CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>2</sub>COOH"
+  ],
+  "h": "Start numbering at the carboxyl carbon. That carbon is also counted in the four carbons of \"butanoic.\"",
+  "w": "Butanoic acid has four carbons, with the COOH carbon as carbon 1. The OH belongs on carbon 3, two carbons away from the COOH carbon: <b>CH<sub>3</sub>CH(OH)CH<sub>2</sub>COOH</b>.",
+  "x": [
+   null,
+   "Here the OH is on the carbon next to the COOH, which is carbon 2. This is 2-hydroxybutanoic acid.",
+   "Here the OH is on the far end of the chain, carbon 4. This is 4-hydroxybutanoic acid.",
+   "The OH is three carbons from the COOH carbon and the chain has five carbons. This is 4-hydroxypentanoic acid; it comes from not counting the COOH carbon as carbon 1."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "acids_esters",
+  "q": "Formic acid and acetic acid are the common names of the two smallest carboxylic acids. What are their condensed formulas, in that order?",
+  "c": [
+   "HCOOH and CH<sub>3</sub>COOH",
+   "CH<sub>3</sub>COOH and CH<sub>3</sub>CH<sub>2</sub>COOH",
+   "CH<sub>3</sub>COOH and HCOOH",
+   "HCOOH and CH<sub>3</sub>CH<sub>2</sub>COOH"
+  ],
+  "h": "Their IUPAC names are methanoic acid and ethanoic acid. The stem counts every carbon, including the carboxyl carbon.",
+  "w": "Formic acid (methanoic acid) has one carbon, the COOH carbon itself: HCOOH. Acetic acid (ethanoic acid) has two: <b>HCOOH and CH<sub>3</sub>COOH</b>.",
+  "x": [
+   null,
+   "This adds one carbon too many to each acid. \"Meth-\" in methanoic acid counts the COOH carbon, so formic acid has no CH<sub>3</sub> group at all.",
+   "These are the right two acids in the wrong order. Formic acid, from ant stings, is the one-carbon acid; acetic acid, in vinegar, has two carbons.",
+   "HCOOH is right for formic acid, but CH<sub>3</sub>CH<sub>2</sub>COOH has three carbons and is propanoic acid. Acetic acid has two carbons in all."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "acids_esters",
+  "q": "The name 3-methylpentanoic acid gives a number for the methyl group but none for the carboxyl group. Why is no number needed?",
+  "c": [
+   "The carboxyl carbon is always at the end of the parent chain and is always carbon 1.",
+   "The carboxyl carbon is a substituent and is not counted as part of the parent chain.",
+   "The carboxyl group can be on any carbon, so its position is left out of the name.",
+   "Positions in carboxylic acids are given only with Greek letters, never with numbers."
+  ],
+  "h": "A carboxyl carbon already has three bonds to oxygen. How many bonds does it have left for the carbon chain?",
+  "w": "A COOH carbon has only one bond left for the chain, so it must be at the end. Numbering starts there, so <b>the carboxyl carbon is always carbon 1</b> and writing the 1 would add nothing.",
+  "x": [
+   null,
+   "The carboxyl carbon is counted in the parent chain. Pentanoic acid has five carbons including the COOH carbon.",
+   "A carboxyl carbon cannot be in the middle of a chain, because it has only one bond left for carbon. It is always at the end.",
+   "Greek letters are used in common names. IUPAC names use numbers, as the 3 in 3-methylpentanoic acid does."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "acids_esters",
+  "q": "Which compound is a carboxylic acid?",
+  "c": [
+   "CH<sub>3</sub>CH<sub>2</sub>COOH",
+   "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH",
+   "CH<sub>3</sub>COCH<sub>3</sub>",
+   "HOCH<sub>2</sub>COCH<sub>3</sub>"
+  ],
+  "h": "A carboxyl group needs a C=O and an O–H. Where must they be in relation to each other?",
+  "w": "A carboxylic acid has a C=O and an OH on the <b>same</b> carbon, written –COOH. Only <b>CH<sub>3</sub>CH<sub>2</sub>COOH</b> has that group.",
+  "x": [
+   null,
+   "This compound has an OH group but no C=O. It is an alcohol, 1-propanol.",
+   "This compound has a C=O between two carbons and no OH. It is a ketone, propanone (acetone).",
+   "This molecule has both an OH and a C=O, but they are on different carbons. It is an alcohol and a ketone, not a carboxylic acid."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "acids_esters",
+  "q": "Which condensed formula is methyl propanoate?",
+  "c": [
+   "CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>3</sub>",
+   "CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOCH<sub>3</sub>",
+   "CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>2</sub>CH<sub>3</sub>"
+  ],
+  "h": "The first word of an ester name is the group on the single-bonded oxygen. The second word is the acid part, and its carbon count includes the C=O carbon.",
+  "w": "Propanoate is the three-carbon acid part, CH<sub>3</sub>CH<sub>2</sub>CO–, counting the C=O carbon. Methyl is the CH<sub>3</sub> on the oxygen. Together: <b>CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>3</sub></b>.",
+  "x": [
+   null,
+   "This has the two parts swapped: a two-carbon acid part and a propyl group on the oxygen. It is propyl ethanoate.",
+   "The acid part here has four carbons when the C=O carbon is counted. This is methyl butanoate.",
+   "The acid part is right, but the group on the oxygen has two carbons. This is ethyl propanoate."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "acids_esters",
+  "q": "Pentyl ethanoate (pentyl acetate), CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>, has a pear-like odor. Which acid and which alcohol do the two parts of this ester come from?",
+  "c": [
+   "ethanoic acid and 1-pentanol",
+   "pentanoic acid and ethanol",
+   "ethanoic acid and pentanoic acid",
+   "1-pentanol and ethanol"
+  ],
+  "h": "In an ester name, the word ending in -yl and the word ending in -ate come from different parents. Which ending came from an -ic acid?",
+  "w": "The -ate word comes from the acid: ethanoate from <b>ethanoic acid</b> (the CH<sub>3</sub>CO– part). The -yl word is the group on the oxygen, which comes from the alcohol: pentyl from <b>1-pentanol</b>.",
+  "x": [
+   null,
+   "This swaps the two parts. Pentyl is the alkyl group on the oxygen, so the five carbons come from the alcohol; the acid part has only two carbons.",
+   "An ester has one part from an acid and one part from an alcohol. The pentyl group has no C=O, so it cannot be the acid part.",
+   "Two alcohols would not give the C=O in the ester. The carbonyl part, ethanoate, comes from a carboxylic acid."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "acids_esters",
+  "q": "What is the IUPAC name of HCOOCH<sub>2</sub>CH<sub>3</sub>?",
+  "c": [
+   "ethyl methanoate",
+   "methyl ethanoate",
+   "ethyl ethanoate",
+   "propanoic acid"
+  ],
+  "h": "Find the C=O carbon. Count the carbons on that side (including it) for the -ate word, and name the group on the other oxygen as the -yl word.",
+  "w": "The acid part is HCO–, one carbon, so it is methanoate. The group on the single-bonded oxygen is CH<sub>2</sub>CH<sub>3</sub>, ethyl. The name is <b>ethyl methanoate</b> (ethyl formate).",
+  "x": [
+   null,
+   "This swaps the parts. Methyl ethanoate is CH<sub>3</sub>COOCH<sub>3</sub>, with two carbons in the acid part and one on the oxygen.",
+   "Ethyl ethanoate is CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub>. Here the C=O carbon carries an H, not a CH<sub>3</sub>, so the acid part has only one carbon.",
+   "Propanoic acid, CH<sub>3</sub>CH<sub>2</sub>COOH, has the same molecular formula, but it has an O–H. In this compound the oxygen is bonded to an ethyl group, so it is an ester."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "acids_esters",
+  "q": "Which compound is an ester?",
+  "c": [
+   "CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>COOH",
+   "CH<sub>3</sub>CH<sub>2</sub>OCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>COCH<sub>2</sub>OCH<sub>2</sub>CH<sub>3</sub>"
+  ],
+  "h": "An ester is RCOOR′. Look for a C=O carbon that is also bonded to an oxygen carrying a carbon group, not an H.",
+  "w": "In <b>CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>2</sub>CH<sub>3</sub></b> the C=O carbon is bonded to a second oxygen, and that oxygen is bonded to an ethyl group. That –COO–C pattern is an ester (ethyl propanoate).",
+  "x": [
+   null,
+   "Here the second oxygen on the C=O carbon carries an H. A –COOH group is a carboxylic acid; replacing that H with a carbon group would make an ester.",
+   "This compound has an oxygen between two carbon groups but no C=O. It is an ether.",
+   "This molecule has a C=O and a C–O–C, but they are on different carbons. It is a ketone and an ether; in an ester, the single-bonded oxygen is attached to the C=O carbon itself."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "acids_esters",
+  "q": "In propyl ethanoate, CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>, how many carbon atoms belong to the acid part and how many to the alcohol part?",
+  "c": [
+   "2 in the acid part, 3 in the alcohol part",
+   "3 in the acid part, 2 in the alcohol part",
+   "1 in the acid part, 4 in the alcohol part",
+   "1 in the acid part and 3 in the alcohol part; the C=O carbon belongs to neither"
+  ],
+  "h": "Split the molecule at the single-bonded oxygen. The side that has the C=O is the acid part.",
+  "w": "The acid part is CH<sub>3</sub>CO–, which has <b>2 carbons</b> counting the C=O carbon (ethanoate). The alcohol part is the propyl group on the oxygen, with <b>3 carbons</b>.",
+  "x": [
+   null,
+   "This swaps the parts. The three-carbon propyl group is on the single-bonded oxygen, so it is the alcohol part.",
+   "The C=O carbon is not part of the alcohol side. It is bonded to the CH<sub>3</sub> and belongs to the acid part, which makes that part two carbons.",
+   "The C=O carbon does belong to the acid part. It was the carboxyl carbon of ethanoic acid, which is why \"eth-\" counts two carbons."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "carbs",
+  "q": "Fructose is a ketose, with no aldehyde group, yet it gives a positive Benedict's test. Why?",
+  "c": [
+   "In the basic test solution fructose rearranges into an aldose, and the aldose is oxidized",
+   "The ketone group of fructose is oxidized directly to a carboxylic acid",
+   "Benedict's reagent first hydrolyzes fructose into two smaller aldehydes",
+   "Fructose is a nonreducing sugar, and nonreducing sugars turn the reagent red"
+  ],
+  "h": "Benedict's reagent is a basic solution. What can a ketose turn into in base?",
+  "w": "Benedict's reagent is basic, and in base a ketose is in equilibrium with an aldose. <b>The aldose form has an aldehyde that is oxidized</b>, so fructose reduces Cu<sup>2+</sup> and counts as a reducing sugar.",
+  "x": [
+   null,
+   "Ketones are not oxidized by mild oxidizing agents (Chapter 5). The ketose has to rearrange into an aldose before anything reacts.",
+   "Fructose is a monosaccharide, so there is no glycosidic bond to hydrolyze. It rearranges; it is not split.",
+   "A positive test is what defines a reducing sugar. Fructose is a reducing sugar; a nonreducing sugar such as sucrose leaves the solution blue."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "carbs",
+  "q": "A glucose solution is heated with blue Benedict's reagent and a brick-red solid forms. Which statement describes the redox change?",
+  "c": [
+   "Glucose is oxidized and Cu<sup>2+</sup> is reduced to Cu<sub>2</sub>O",
+   "Glucose is reduced and Cu<sup>2+</sup> is oxidized to Cu<sub>2</sub>O",
+   "Glucose is oxidized and Cu<sup>+</sup> is oxidized to Cu<sup>2+</sup>",
+   "Glucose is reduced to sorbitol and the copper is unchanged"
+  ],
+  "h": "The sugar is called a <b>reducing</b> sugar. What does a reducing agent do to the other reactant, and what happens to the reducing agent itself?",
+  "w": "The aldehyde of glucose is oxidized to a carboxylic acid (gluconic acid). The electrons go to copper: <b>blue Cu<sup>2+</sup> is reduced to copper(I) in brick-red Cu<sub>2</sub>O</b>. Glucose is the reducing agent.",
+  "x": [
+   null,
+   "This has the two roles reversed. Going from Cu<sup>2+</sup> to the Cu<sup>+</sup> in Cu<sub>2</sub>O is a gain of electrons, which is reduction, so the sugar must be the one oxidized.",
+   "Two things cannot both be oxidized; one must be reduced. The reagent starts as Cu<sup>2+</sup> (blue) and ends as copper(I).",
+   "Sorbitol comes from reducing glucose with H<sub>2</sub> and a metal catalyst. The red solid is proof that the copper did change."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "carbs",
+  "q": "A student heats four solutions with Benedict's reagent: glucose, fructose, maltose and xylitol (the sweetener in sugar-free gum). Which solution stays blue?",
+  "c": [
+   "xylitol",
+   "glucose",
+   "fructose",
+   "maltose"
+  ],
+  "h": "A positive test needs a ring that can open to a carbonyl group. Which of these four has no carbonyl carbon at all?",
+  "w": "Xylitol is a sugar alcohol: the C=O of xylose has been reduced to one more –OH carbon. <b>With no carbonyl and no hemiacetal there is nothing to oxidize</b>, so the test is negative and the solution stays blue.",
+  "x": [
+   null,
+   "Glucose is an aldose. Its ring opens to a free aldehyde, which is oxidized, so a brick-red solid forms.",
+   "Fructose is a ketose, but in the basic test solution it rearranges into an aldose and reacts, so it is positive.",
+   "Maltose still has one free hemiacetal (anomeric OH) on one glucose unit, so that ring can open and the test is positive."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "carbs",
+  "q": "Mannitol is made from the aldohexose mannose by reaction with H<sub>2</sub> and a metal catalyst. What change takes place?",
+  "c": [
+   "The –CHO group at C1 is reduced to –CH<sub>2</sub>OH, giving a sugar alcohol",
+   "The –CHO group at C1 is oxidized to –COOH, giving an aldonic acid",
+   "The –CH<sub>2</sub>OH group at C6 is oxidized to –COOH, giving a uronic acid",
+   "Both ends of the chain are oxidized to –COOH, giving an aldaric acid"
+  ],
+  "h": "Look at the name ending -itol and at the reagent. Is H<sub>2</sub> with a metal catalyst an oxidation or a reduction?",
+  "w": "H<sub>2</sub> with a metal catalyst is a reduction. It turns the aldehyde C=O into an alcohol, so <b>mannose becomes mannitol, a sugar alcohol (alditol)</b> with an –OH on every carbon.",
+  "x": [
+   null,
+   "Oxidizing C1 would give mannonic acid (ending -onic). That needs a mild oxidizing agent such as Benedict's reagent, not H<sub>2</sub>.",
+   "Oxidizing only C6 gives a uronic acid (ending -uronic). The ending -itol marks a reduction product.",
+   "Oxidizing both ends needs a strong oxidizing agent and gives an aldaric acid (ending -aric). Adding H<sub>2</sub> never makes a –COOH group."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "carbs",
+  "q": "Glucose is warmed with Tollens' reagent, which contains Ag<sup>+</sup>. What is seen, and what does the glucose become?",
+  "c": [
+   "A silver mirror forms; glucose becomes gluconic acid",
+   "A silver mirror forms; glucose becomes sorbitol",
+   "A brick-red solid forms; glucose becomes glucaric acid",
+   "Nothing happens, because only ketoses react with Tollens' reagent"
+  ],
+  "h": "Tollens' reagent is a mild oxidizing agent. Which carbon of an aldose is the easiest to oxidize, and what happens to the silver ion?",
+  "w": "Tollens' reagent oxidizes only the aldehyde at C1, so glucose becomes <b>gluconic acid</b> (an aldonic acid). The Ag<sup>+</sup> is reduced to silver metal, which coats the glass as a <b>silver mirror</b>.",
+  "x": [
+   null,
+   "The silver mirror is right, but sorbitol is the reduction product of glucose. If Ag<sup>+</sup> is reduced, the sugar has to be oxidized.",
+   "A brick-red solid (Cu<sub>2</sub>O) is the result of Benedict's test, and glucaric acid needs a strong oxidizing agent that attacks both ends.",
+   "Aldoses are the sugars that react directly, because they have the aldehyde. Ketoses react only after rearranging into an aldose in the basic solution."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "carbs",
+  "q": "A drop of iodine solution turns deep blue-violet on a slice of potato. Which polysaccharide causes this color, and why?",
+  "c": [
+   "Amylose, because its coiled chain traps iodine inside the helix",
+   "Cellulose, because its straight chains pack around iodine",
+   "Glycogen, because its many branches trap iodine",
+   "Amylopectin, because iodine breaks its α(1→6) branch points"
+  ],
+  "h": "Which glucose polymer in a plant coils like a spring, with room in the middle of the coil?",
+  "w": "Amylose is an unbranched α(1→4) chain that coils into a helix with six glucose units per turn. <b>Iodine fits inside the amylose helix</b>, and that complex is deep blue-violet.",
+  "x": [
+   null,
+   "Cellulose has β(1→4) links and extended straight chains, not a helix, so it gives no color with iodine. It is also the cell wall, not the stored starch.",
+   "Glycogen is the animal storage form, so it is not in a potato, and its branching disrupts the helix: it gives only a reddish brown color.",
+   "Iodine does not break glycosidic bonds; the test is a complex, not a hydrolysis. Branched amylopectin gives a weaker reddish brown color."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "carbs",
+  "q": "Glycogen has α(1→6) branch points about every 8–12 glucose units, more often than amylopectin. How does the extra branching help an animal?",
+  "c": [
+   "A branched molecule has many chain ends, so enzymes can release glucose from many places at once",
+   "The branch points are β links, which makes glycogen resistant to digestion",
+   "Branching lets glycogen store fructose and galactose as well as glucose",
+   "Branching lets the chains line up side by side into strong fibers"
+  ],
+  "h": "The enzyme that breaks glycogen down removes glucose units from the ends of chains. How does branching change the number of ends?",
+  "w": "Glycogen phosphorylase removes glucose units from chain ends. <b>More branches mean more ends</b>, so glucose can be released quickly between meals or during exercise.",
+  "x": [
+   null,
+   "The branch points are α(1→6) links, not β. Glycogen is easily broken down; cellulose is the one with β links.",
+   "Glycogen is a homopolymer: complete hydrolysis gives only glucose, however much it branches.",
+   "Packing into fibers is what the straight, unbranched chains of cellulose do. Branches get in the way of close packing."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "carbs",
+  "q": "Cotton is about 95% cellulose. It is strong and does not dissolve in water, even though every glucose unit has several –OH groups. What explains this?",
+  "c": [
+   "The straight β(1→4) chains lie side by side and hydrogen bond to each other, forming tightly packed fibers",
+   "Cellulose is highly branched, and the branches tangle together",
+   "The –OH groups of glucose are lost when the glycosidic bonds form, so cellulose is nonpolar",
+   "The chains coil into helices that hide the –OH groups from water"
+  ],
+  "h": "Think about what the –OH groups on one chain can do with the –OH groups on the chain next to it when the chains are perfectly straight.",
+  "w": "The β(1→4) links make cellulose an extended, linear chain. <b>Neighboring chains hydrogen bond to each other</b> and pack into fibers, so the –OH groups are used up holding the chains together instead of interacting with water.",
+  "x": [
+   null,
+   "Cellulose is unbranched. The branched glucose polymers are amylopectin and glycogen.",
+   "Only the –OH groups used in the links are changed; each glucose unit keeps several –OH groups. Cellulose is polar; it is insoluble because of chain-to-chain hydrogen bonding.",
+   "The helix belongs to amylose, with α(1→4) links. Cellulose does not form a helix, which is also why it gives no color with iodine."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "carbs",
+  "q": "Which statement about plant starch is correct?",
+  "c": [
+   "It is a mixture of amylose (unbranched) and amylopectin (branched), with more amylopectin",
+   "It is a mixture of amylose (branched) and amylopectin (unbranched), with more amylose",
+   "It is a mixture of amylose and cellulose",
+   "It is a single branched polymer that is identical to glycogen"
+  ],
+  "h": "Starch is not one compound. Name its two glucose polymers, then decide which one has the α(1→6) branch points.",
+  "w": "Starch is about 20% amylose, a linear α(1→4) chain, and about 80% <b>amylopectin, which has α(1→6) branch points</b>. Both give only glucose on complete hydrolysis.",
+  "x": [
+   null,
+   "This reverses both facts. Amylose is the unbranched polymer, and amylopectin is the larger share (about 80%).",
+   "Cellulose is the structural polymer of the plant cell wall, with β(1→4) links. It is not part of starch.",
+   "Amylopectin resembles glycogen, but glycogen is the animal storage form and is more highly branched. Starch also contains unbranched amylose."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "carbs",
+  "q": "A cow gets glucose from the cellulose in grass, but a person cannot. What is the reason?",
+  "c": [
+   "Microorganisms in the cow's digestive tract make cellulase, which hydrolyzes β(1→4) links",
+   "The cow's own amylase hydrolyzes β(1→4) links more slowly than α(1→4) links",
+   "Cellulose in grass is made of a different monosaccharide than cellulose in human food",
+   "Stomach acid in a cow is strong enough to change the β links into α links"
+  ],
+  "h": "Human digestive enzymes fit α links only. Which enzyme is needed for a β(1→4) link, and which organisms make it?",
+  "w": "Animals do not make an enzyme for the β(1→4) links of cellulose. <b>Microorganisms living in the cow's gut make cellulase</b>, which hydrolyzes cellulose to glucose; humans have no such help, so cellulose passes through as fiber.",
+  "x": [
+   null,
+   "Amylase fits only α(1→4) links, in cows and in humans. It does not act on β links at all, slowly or otherwise.",
+   "All cellulose is a polymer of glucose. The difference between the cow and the person is the enzyme, not the monomer.",
+   "Acid does not convert one kind of link into the other. An enzyme with the right shape for the β link is required."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "proteins",
+  "q": "Glycine is the only one of the 20 common amino acids that is <b>not</b> chiral. What is the reason?",
+  "c": [
+   "Its side chain is an H atom, so the α-carbon is bonded to two identical H atoms",
+   "It has no amino group on the α-carbon, so only three groups are attached",
+   "Its side chain is a ring that loops back to include the nitrogen atom",
+   "It has no α-carbon, because its side chain is too small to need one"
+  ],
+  "h": "A chiral carbon needs four different groups. List the four groups on the α-carbon of glycine, whose R group is –H.",
+  "w": "The α-carbon of an amino acid holds –NH<sub>3</sub><sup>+</sup>, –COO<sup>−</sup>, –H and the R group. In glycine R is also H, so <b>two of the four groups are the same and the carbon is not chiral</b>.",
+  "x": [
+   null,
+   "Glycine has the same amino group and carboxyl group on the α-carbon as every other amino acid. Only the R group differs.",
+   "That describes proline, whose side chain loops back onto the nitrogen. Proline is still chiral.",
+   "Every amino acid has an α-carbon: it is the carbon between the amino group and the carboxyl group. In glycine it is a CH<sub>2</sub>."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "proteins",
+  "q": "The side chain of glutamine is –CH<sub>2</sub>CH<sub>2</sub>–CONH<sub>2</sub>. How is glutamine classified at pH 7.4?",
+  "c": [
+   "polar neutral",
+   "basic",
+   "acidic",
+   "nonpolar"
+  ],
+  "h": "Name the functional group at the end of this side chain. Does the nitrogen of that group pick up H<sup>+</sup> the way an amine nitrogen does?",
+  "w": "–CONH<sub>2</sub> is an amide. It hydrogen bonds with water, but an amide nitrogen does not pick up H<sup>+</sup> and there is no –COOH to lose one, so the side chain is <b>polar and uncharged (polar neutral)</b>.",
+  "x": [
+   null,
+   "A nitrogen atom alone does not make a side chain basic. Amide nitrogens do not pick up H<sup>+</sup>; only His, Lys and Arg are basic.",
+   "The C=O here belongs to an amide, not a carboxylic acid. Glutamate, with –COO<sup>−</sup>, is the acidic one; glutamine is its amide.",
+   "A nonpolar side chain has only C and H (or a thioether S). The amide group has N–H and C=O and hydrogen bonds with water."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "proteins",
+  "q": "Which pair of amino acids has side chains that carry a <b>negative</b> charge at pH 7.4?",
+  "c": [
+   "aspartate and glutamate",
+   "lysine and arginine",
+   "asparagine and glutamine",
+   "serine and tyrosine"
+  ],
+  "h": "A negative charge at body pH comes from a functional group that has given up H<sup>+</sup>. Which side chains end in a carboxyl group?",
+  "w": "Aspartate and glutamate are the two acidic amino acids. Their side chains end in a carboxyl group, which at pH 7.4 has lost H<sup>+</sup> and is <b>–COO<sup>−</sup>, a −1 charge</b>.",
+  "x": [
+   null,
+   "Lysine and arginine are basic. Their side-chain nitrogens have picked up H<sup>+</sup>, so they are +1 at pH 7.4.",
+   "These are amides. An amide (–CONH<sub>2</sub>) is polar but has no charge; the similar names are the trap.",
+   "Serine and tyrosine have –OH groups. Alcohols and phenols stay neutral at body pH, so these side chains are polar neutral."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "proteins",
+  "q": "Ten of the 20 amino acids are called <b>essential</b>. What does this term mean?",
+  "c": [
+   "The body cannot make them, so they must come from food",
+   "They are the only amino acids used to build human proteins",
+   "They are the amino acids with charged side chains",
+   "The body makes them, so they are not needed in the diet"
+  ],
+  "h": "Essential here does not mean 'more important'. Think about where the body gets an amino acid that it has no way to build.",
+  "w": "All 20 amino acids are needed to build proteins. <b>An essential amino acid is one the body cannot synthesize, so the diet has to supply it</b> (PVT TIM HALL lists the ten).",
+  "x": [
+   null,
+   "Human proteins use all 20 amino acids. The nonessential ten are just as necessary; the body makes them itself.",
+   "Essential is about diet, not charge. Valine and leucine are essential and nonpolar, while aspartate and glutamate are charged and nonessential.",
+   "This is the definition of a nonessential amino acid, the reverse of what essential means."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "proteins",
+  "q": "Methionine has the side chain –CH<sub>2</sub>CH<sub>2</sub>–S–CH<sub>3</sub> and cysteine has –CH<sub>2</sub>–SH. How are the two side chains classified?",
+  "c": [
+   "Methionine is nonpolar; cysteine is polar neutral",
+   "Both are polar neutral, because both contain sulfur",
+   "Methionine is polar neutral; cysteine is nonpolar",
+   "Both are acidic, because sulfur side chains are charged at pH 7.4"
+  ],
+  "h": "Sulfur alone does not decide the class. Which of the two side chains has an S–H group, the sulfur relative of an alcohol's O–H?",
+  "w": "Methionine has a thioether (C–S–C) with no S–H, so it behaves like a hydrocarbon and is <b>nonpolar</b>. Cysteine has a thiol, –SH, which puts it in the <b>polar neutral</b> class and lets it form disulfide bonds.",
+  "x": [
+   null,
+   "Classify by the functional group, not by the element. A thioether has no S–H, so methionine is grouped with the hydrophobic side chains.",
+   "This has the two reversed. The –SH group is on cysteine; methionine's sulfur sits between two carbons.",
+   "The only acidic side chains are those of aspartate and glutamate, which have –COO<sup>−</sup>. Neither sulfur side chain is in the charged classes at pH 7.4."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "Starch digestion starts in the mouth but pauses while food is in the stomach. Why?",
+  "c": [
+   "Stomach acid denatures salivary amylase, so the enzyme stops working",
+   "Pepsin in the stomach converts starch into amino acids instead",
+   "The starch has already been completely hydrolyzed to glucose in the mouth",
+   "The stomach has no water, and hydrolysis needs water"
+  ],
+  "h": "Amylase is a protein that works near neutral pH. What does a pH of 1–2 do to the shape of an enzyme?",
+  "w": "Salivary amylase is swallowed with the food, but <b>the low pH of the stomach denatures it</b>. Starch digestion resumes in the small intestine, where the pH is raised again and pancreatic amylase takes over.",
+  "x": [
+   null,
+   "Pepsin hydrolyzes peptide bonds in proteins. It cannot act on the glycosidic bonds of starch, and starch contains no amino acids.",
+   "Food is in the mouth only briefly. Salivary amylase makes shorter chains (dextrins) and some maltose; most starch is digested in the small intestine.",
+   "Stomach contents are mostly water. The limit is the enzyme: no active amylase is present at that pH."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "Stage I of catabolism (digestion) breaks each food into its building blocks. Which pairing is correct?",
+  "c": [
+   "proteins → amino acids",
+   "triacylglycerols → monosaccharides",
+   "starch → fatty acids and glycerol",
+   "proteins → acetyl CoA"
+  ],
+  "h": "Think about which monomers each large food molecule was built from. Hydrolysis gives those monomers back.",
+  "w": "Digestion is hydrolysis back to monomers: carbohydrates give monosaccharides, fats give fatty acids and glycerol, and <b>proteins give amino acids</b>.",
+  "x": [
+   null,
+   "Triacylglycerols are esters of glycerol and three fatty acids, so hydrolysis gives fatty acids and glycerol. Monosaccharides come from carbohydrates.",
+   "Starch is a polymer of glucose, so its hydrolysis gives glucose. Fatty acids and glycerol come from fats.",
+   "Acetyl CoA is made in Stage II, inside cells. Digestion stops at the building blocks, which for proteins are amino acids."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "A bite of bread is swallowed and digested. In what order does its starch meet the carbohydrate-digesting enzymes?",
+  "c": [
+   "salivary amylase (mouth) → pancreatic amylase (small intestine) → maltase (brush border)",
+   "maltase (mouth) → salivary amylase (stomach) → pancreatic amylase (small intestine)",
+   "salivary amylase (mouth) → pepsin (stomach) → maltase (brush border)",
+   "pancreatic amylase (mouth) → salivary amylase (small intestine) → lactase (brush border)"
+  ],
+  "h": "Amylases shorten the long chain first. The enzyme that splits the disaccharide comes last, at the surface where the products are absorbed.",
+  "w": "Salivary amylase begins breaking α(1→4) bonds in the mouth, pancreatic amylase finishes cutting the starch to maltose in the small intestine, and <b>maltase on the brush border splits maltose into two glucose</b>.",
+  "x": [
+   null,
+   "Maltase works last, on the brush border of the small intestine, and salivary amylase is inactive in the acid of the stomach.",
+   "Pepsin is a protein-digesting enzyme. Between the two ends of this list the starch needs pancreatic amylase.",
+   "The names give the sources: salivary amylase is in saliva and pancreatic amylase enters the small intestine. Lactase acts on lactose, not on the maltose made from starch."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "How much ATP does the body capture when starch is hydrolyzed to glucose during digestion (Stage I)?",
+  "c": [
+   "None; the small amount of energy released by hydrolysis is lost as heat",
+   "2 ATP per glucose, the same as glycolysis",
+   "10 ATP per glucose, the same as one acetyl CoA",
+   "None, because hydrolysis of starch needs ATP to be put in"
+  ],
+  "h": "Digestion only breaks glycosidic bonds with water. Where is the energy of the food after that step?",
+  "w": "Digestion is hydrolysis by hydrolase enzymes. <b>No ATP is made or spent in Stage I</b>: the energy of the food is still stored in the glucose and is captured later, in Stages II and III.",
+  "x": [
+   null,
+   "The 2 ATP belong to glycolysis, a Stage II pathway that happens inside cells after glucose is absorbed.",
+   "10 ATP per acetyl CoA is the Stage III yield of the citric acid cycle and the electron transport chain. Nothing like that happens in the gut.",
+   "The answer 'none' is right, but the reason is wrong. Hydrolysis of a glycosidic bond releases a little energy and needs no ATP."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "After sucrase, lactase and maltase finish their work, what happens to the glucose, fructose and galactose?",
+  "c": [
+   "They are absorbed through the wall of the small intestine into the blood and go to the liver first",
+   "They are absorbed through the stomach wall and go directly to the muscles",
+   "They pass on to the large intestine and leave the body as fiber",
+   "They are joined into glycogen on the brush border before being absorbed"
+  ],
+  "h": "The three disaccharidases sit on the brush border. Where is that, and which organ receives the blood that leaves it?",
+  "w": "The brush border enzymes release monosaccharides right where they are absorbed. <b>They cross the wall of the small intestine into the blood (the portal vein) and reach the liver first</b>, where fructose and galactose are converted into glycolysis intermediates.",
+  "x": [
+   null,
+   "Absorption of sugars happens in the small intestine, not the stomach, and the blood from the intestine goes to the liver before any other organ.",
+   "That is the fate of cellulose, which cannot be hydrolyzed. Free monosaccharides are absorbed.",
+   "Glycogen is built inside liver and muscle cells from glucose that has already been absorbed. Only monosaccharides cross the intestinal wall."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "Activating one palmitic acid (16 carbons) to palmitoyl CoA costs the equivalent of 2 ATP. What does it cost to activate one stearic acid (18 carbons)?",
+  "c": [
+   "2 ATP, because activation is done once per fatty acid whatever its length",
+   "4 ATP, because a longer chain needs a second activation",
+   "9 ATP, one for each acetyl CoA that will be formed",
+   "16 ATP, two for each turn of β-oxidation"
+  ],
+  "h": "Activation attaches one coenzyme A to one –COOH group. How many –COOH groups does a fatty acid have, long or short?",
+  "w": "A fatty acid has one carboxyl group, and activation joins it to one CoA using one ATP that is split to AMP. <b>The cost is 2 ATP-equivalents per fatty acid, no matter how long the chain is.</b>",
+  "x": [
+   null,
+   "Chain length does not change the number of carboxyl groups. Only one CoA is attached, so only one activation is paid for.",
+   "Activation is not repeated for each two-carbon piece. The CoA for the later acetyl CoA units is added during β-oxidation without spending ATP.",
+   "The turns of β-oxidation produce FADH<sub>2</sub> and NADH; they do not use up ATP. The only ATP cost is the single activation step."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "In fatty acid activation, R–COO<sup>−</sup> reacts with CoA–SH to give fatty acyl CoA, R–CO–S–CoA. Which functional group joins the fatty acid to coenzyme A?",
+  "c": [
+   "a thioester",
+   "an ester",
+   "an amide",
+   "a disulfide"
+  ],
+  "h": "Look at the atom between the C=O carbon and the CoA. Which element is it, and what is the oxygen version of this group called?",
+  "w": "Coenzyme A ends in a thiol, –SH. Joining it to the acyl group gives C(=O)–S–, <b>a thioester</b>, which is an energy-rich form of the fatty acid ready for oxidation.",
+  "x": [
+   null,
+   "An ester has C(=O)–O–C. Here sulfur takes the place of that oxygen, which is what the prefix thio- means.",
+   "An amide has C(=O)–N. The fatty acid is bonded to the sulfur of CoA, not to a nitrogen.",
+   "A disulfide is an S–S bond, as between two cysteine side chains. Fatty acyl CoA has a single sulfur bonded to a carbonyl carbon."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "Why does a long-chain fatty acyl CoA need the carnitine shuttle?",
+  "c": [
+   "Fatty acyl CoA cannot cross the inner mitochondrial membrane to reach the matrix",
+   "Carnitine supplies the ATP that is used to attach coenzyme A to the fatty acid",
+   "Carnitine carries fatty acids through the blood from fat cells to muscle",
+   "Carnitine oxidizes the fatty acid to acetyl CoA in the cytosol"
+  ],
+  "h": "Compare where the fatty acid is activated with where it will be oxidized. What lies between those two places?",
+  "w": "Activation happens at the outer mitochondrial membrane, but β-oxidation happens in the matrix. <b>Acyl CoA is too large to cross the inner membrane</b>, so the acyl group is moved onto carnitine, carried across, and handed back to CoA inside.",
+  "x": [
+   null,
+   "Carnitine is a carrier, not an energy source. ATP itself (split to AMP) pays for attaching CoA, and that happens before the shuttle.",
+   "Transport in the blood is a different job, done by blood proteins and lipoproteins. Carnitine works at the mitochondrial membrane inside the cell.",
+   "Carnitine only carries the acyl group; it does not oxidize anything. β-Oxidation happens in the mitochondrial matrix, not the cytosol."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "Where in the cell do fatty acid activation and β-oxidation take place?",
+  "c": [
+   "Activation at the outer mitochondrial membrane; β-oxidation in the mitochondrial matrix",
+   "Activation in the mitochondrial matrix; β-oxidation at the outer mitochondrial membrane",
+   "Both in the mitochondrial matrix, so no transport is needed",
+   "Activation in the nucleus; β-oxidation in the mitochondrial matrix"
+  ],
+  "h": "The carnitine shuttle sits between these two steps. Which step has to come before the shuttle, and which after?",
+  "w": "Acyl CoA synthetase on the outer mitochondrial membrane activates the fatty acid first. The carnitine shuttle then carries the acyl group through the inner membrane, and <b>β-oxidation takes place in the matrix</b>.",
+  "x": [
+   null,
+   "This reverses the two places. The fatty acid is activated outside, then carried in; oxidation is the inside step.",
+   "If both happened in the matrix there would be no need for carnitine. Long-chain fatty acids are activated before they cross the inner membrane.",
+   "The nucleus holds DNA and plays no part in fuel breakdown. Activation happens at the outer mitochondrial membrane."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "Carnitine acyltransferase moves a fatty acyl group from coenzyme A onto carnitine. To which enzyme class does it belong?",
+  "c": [
+   "transferase",
+   "ligase",
+   "hydrolase",
+   "oxidoreductase"
+  ],
+  "h": "The enzyme's name tells you what it does. Is a group being moved from one molecule to another, joined with the help of ATP, split with water, or oxidized?",
+  "w": "The acyl group is passed from one carrier (CoA) to another (carnitine) with no ATP, no water and no change in oxidation state. <b>An enzyme that moves a group between molecules is a transferase.</b>",
+  "x": [
+   null,
+   "A ligase joins two molecules using the energy of ATP. That describes acyl CoA synthetase in the activation step, not the shuttle enzyme.",
+   "A hydrolase breaks a bond with water. Here the acyl group goes to carnitine, not to water, so no free fatty acid is released.",
+   "An oxidoreductase needs a coenzyme such as NAD<sup>+</sup> or FAD and changes the oxidation state. Oxidation of the fatty acid starts later, in β-oxidation."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "Why does the body convert the nitrogen from amino acids into urea instead of letting ammonia build up?",
+  "c": [
+   "Ammonia is a toxic base, while urea is neutral, relatively nontoxic and very soluble in water",
+   "Urea is insoluble in water, so it is easy to store in the liver",
+   "Making urea from ammonia produces ATP for the liver",
+   "Ammonia cannot dissolve in blood, so it could never reach the kidneys"
+  ],
+  "h": "Compare the two molecules as waste products: which one is harmful to cells, and which one can be carried safely in the blood and excreted in urine?",
+  "w": "Ammonia (and NH<sub>4</sub><sup>+</sup>) is extremely toxic, especially to the brain. The urea cycle turns it into <b>urea, a small, neutral, water-soluble and relatively nontoxic molecule</b> that the blood carries to the kidneys.",
+  "x": [
+   null,
+   "Urea is very soluble in water, which is exactly why it can travel in the blood and leave in urine. It is not stored.",
+   "The urea cycle uses energy: the equivalent of 3 ATP is spent for each urea. The body pays this to get rid of a poison.",
+   "Ammonia dissolves readily in water as NH<sub>4</sub><sup>+</sup>. The problem is its toxicity, not its solubility."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "In a liver cell, where do the reactions of the urea cycle take place?",
+  "c": [
+   "The entry step and step 1 in the mitochondrial matrix; steps 2–4 in the cytosol",
+   "Every step is in the mitochondrial matrix",
+   "Every step is in the cytosol",
+   "The entry step and step 1 in the cytosol; steps 2–4 in the mitochondrial matrix"
+  ],
+  "h": "Citrulline is made in one compartment and then transported to another. Where is carbamoyl phosphate made?",
+  "w": "Carbamoyl phosphate is made in the mitochondrial matrix and added to ornithine there to give citrulline. <b>Citrulline then moves to the cytosol for steps 2–4</b>, and ornithine returns to the mitochondrion.",
+  "x": [
+   null,
+   "The citric acid cycle and β-oxidation are entirely in the matrix, but the urea cycle is split between two compartments.",
+   "Glycolysis is entirely in the cytosol, but the urea cycle begins inside the mitochondrion, where carbamoyl phosphate is made.",
+   "This reverses the compartments. The cycle starts in the matrix, and urea is released in the cytosol by arginase."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "Urea, H<sub>2</sub>N–CO–NH<sub>2</sub>, has one carbon atom. Where does that carbon come from?",
+  "c": [
+   "CO<sub>2</sub>, as bicarbonate (HCO<sub>3</sub><sup>−</sup>)",
+   "the carbon chain of aspartate",
+   "the carbon chain of ornithine",
+   "the acetyl group of acetyl CoA"
+  ],
+  "h": "Look at what is combined with NH<sub>4</sub><sup>+</sup> in the entry step to make carbamoyl phosphate.",
+  "w": "In the entry step NH<sub>4</sub><sup>+</sup> and HCO<sub>3</sub><sup>−</sup> are joined, using 2 ATP, to make carbamoyl phosphate. <b>The C=O of urea is that bicarbonate carbon</b>, so the cycle disposes of CO<sub>2</sub> as well as nitrogen.",
+  "x": [
+   null,
+   "Aspartate gives only its amino nitrogen. Its four carbons leave the cycle as fumarate.",
+   "Ornithine is a carrier that is regenerated unchanged at the end of every turn, so none of its atoms end up in urea.",
+   "Acetyl CoA is the fuel of the citric acid cycle. It does not enter the urea cycle."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "Making one urea costs the equivalent of 3 ATP. Where is that ATP spent?",
+  "c": [
+   "2 ATP to make carbamoyl phosphate (entry step) and 1 ATP when citrulline joins aspartate (step 2)",
+   "1 ATP in each of the last three steps of the cycle",
+   "3 ATP in the final step, when arginine is hydrolyzed to urea and ornithine",
+   "1 ATP to make carbamoyl phosphate and 2 ATP to split argininosuccinate"
+  ],
+  "h": "ATP is needed where two molecules are joined (ligase steps). Which two steps of the cycle bring in a nitrogen atom?",
+  "w": "Both nitrogen-adding steps are ligase reactions that need ATP: <b>2 ATP at the entry step</b> (NH<sub>4</sub><sup>+</sup> + HCO<sub>3</sub><sup>−</sup> → carbamoyl phosphate) and <b>1 ATP, split to AMP, at step 2</b> (citrulline + aspartate).",
+  "x": [
+   null,
+   "Steps 3 and 4 use no ATP. Step 3 is a cleavage by a lyase and step 4 is a hydrolysis.",
+   "The arginase step is a hydrolysis; water does the splitting and no ATP is used.",
+   "The numbers are placed on the wrong steps. Carbamoyl phosphate takes 2 ATP, and splitting argininosuccinate into arginine and fumarate takes none."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "textbook"
+ },
+ {
+  "t": "metabolism",
+  "q": "Patient A has a high blood urea nitrogen (BUN) and normal blood ammonia. Patient B has a normal BUN and high blood ammonia. What do these results mean chemically?",
+  "c": [
+   "A: urea is being made but not excreted. B: NH<sub>4</sub><sup>+</sup> is not being converted to urea",
+   "A: NH<sub>4</sub><sup>+</sup> is not being converted to urea. B: urea is being made but not excreted",
+   "A and B: urea is being made but not excreted",
+   "A: urea is being broken back down to NH<sub>4</sub><sup>+</sup>. B: too much urea is being made"
+  ],
+  "h": "Follow the nitrogen: NH<sub>4</sub><sup>+</sup> → urea in the liver, then urea → urine through the kidneys. Which substance piles up when each step is blocked?",
+  "w": "Whatever sits just before a blocked step accumulates. <b>High urea with normal ammonia means the urea cycle works but urea is not being removed (kidneys); high ammonia with normal urea means the urea cycle itself is failing (liver)</b>.",
+  "x": [
+   null,
+   "This reverses the two. If NH<sub>4</sub><sup>+</sup> were not being converted, ammonia would be high, which is Patient B's result.",
+   "The two patients have different substances elevated, so the blocked step cannot be the same. Patient B's urea level is normal.",
+   "Neither result fits. Breaking urea down would raise ammonia in Patient A, and making too much urea would raise BUN in Patient B."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "textbook"
+ }
+]
