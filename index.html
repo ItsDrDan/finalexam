@@ -670,8 +670,9 @@ const state={mode:MODES.some(m=>m.id===ui.mode)?ui.mode:'boss',course:COURSES[ur
  q:null,order:null,sel:null,done:false,tries:0,correct:0,streak:0,assist:0,topic:ui.topic||'all',quick:null,deck:{},lastId:null};
 /* per-question record: R[id]={r,w,last} (first-try results) */
 let R=LS.get('-rec',{})||{};let holdSave=0;const saveR=()=>{if(!holdSave)LS.set('-rec',R)};
-function record(q,ok){const s=R[q.id]||(R[q.id]={r:0,w:0,last:0});ok?s.r++:s.w++;s.last=ok?1:0;s.t=Date.now();saveR();
- try{window.ddTrack&&ddTrack({game:'finalboss',course:'CHEM '+q.course,mode:MODES.find(m=>m.id===state.mode)?.title||state.mode,topic:topicName(q.course,q.t),correct:ok})}catch(e){}}
+function qver(q){let h=2166136261>>>0;const t=String(q.q)+'|'+q.c.join('|');for(const ch of t){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)>>>0}return h.toString(36)}
+function record(q,ok,pick){const s=R[q.id]||(R[q.id]={r:0,w:0,last:0});ok?s.r++:s.w++;s.last=ok?1:0;s.t=Date.now();saveR();
+ try{window.ddTrack&&ddTrack({game:'finalboss',course:'CHEM '+q.course,mode:MODES.find(m=>m.id===state.mode)?.title||state.mode,topic:topicName(q.course,q.t),correct:ok,item:q.id,pick:pick==null?'':pick,key:0,ver:qver(q)})}catch(e){}}
 const topicName=(c,t)=>(COURSES[c].topics.find(x=>x[0]===t)||[t,t])[1];
 const topicIcon=(c,t)=>(COURSES[c].topics.find(x=>x[0]===t)||[0,0,'📘'])[2];
 function topicAcc(c,t){let r=0,n=0;BANK[c].forEach(q=>{if(q.t!==t)return;const s=R[q.id];if(s){r+=s.r;n+=s.r+s.w}});return {r,n,p:n?r/n:null}}
@@ -1298,7 +1299,7 @@ function finish(revealed){state.done=true;const mine=state.fwId===state.q.id?sta
  $('qArea').querySelectorAll('.opt').forEach(b=>{b.disabled=true;if(+b.dataset.k===0)b.classList.add('right')});
  const vb=vidFor(q)?` <button class="linkbtn" onclick="openVideo()">🎥 Review with Dr. Dan</button>`:'';
  if(revealed){state.assist++;state.streak=0;if(state.tries===0)record(q,false);fb('good',`👀 ${q.w}${whyHTML(q,mine)}<br><small>Assisted: no point this time.${vb}</small>`);award(true)}
- else{const first=state.tries===0;state.correct++;state.streak=first?state.streak+1:0;if(first)record(q,true);if(first)confetti(18,true);fb('good',(first?'✅ Correct! ':'✅ Got it on a retry. ')+q.w+whyHTML(q,mine)+(first?'':`<br><small>Retries don't count as first-try correct.${vb}</small>`));award(!first)}
+ else{const first=state.tries===0;state.correct++;state.streak=first?state.streak+1:0;if(first)record(q,true,0);if(first)confetti(18,true);fb('good',(first?'✅ Correct! ':'✅ Got it on a retry. ')+q.w+whyHTML(q,mine)+(first?'':`<br><small>Retries don't count as first-try correct.${vb}</small>`));award(!first)}
  if(state.mode==='quick'){const Q=state.quick;const ok=!revealed&&state.tries===0;if(ok)Q.score++;Q.res.push([q.id,ok]);Q.i++;if(Q.daily)dailyFinish(ok);$('newBtn').textContent=Q.i>=Q.list.length?'See Results 🏁':'Next ▸'}
  else $('newBtn').textContent='Next Question ▸';
  $('fb').insertAdjacentHTML('beforeend',`<div class="fbnext"><button class="btn ${$('newBtn').className.replace(/\bbtn\b/,'').trim()}" type="button" onclick="fbNext()">${esc($('newBtn').textContent)}</button></div>`);
@@ -1310,7 +1311,7 @@ function fbReading(){const f=$('fb');if(!f)return;const r=f.getBoundingClientRec
 new MutationObserver(fitSoon).observe(document.body,{childList:true,subtree:true});addEventListener('resize',fitSoon);document.addEventListener('toggle',fitSoon,true);addEventListener('scroll',()=>requestAnimationFrame(fbReading),{passive:true});
 function fbNext(){$('newBtn').click();const t=$('practice');if(t.getBoundingClientRect().top<0)t.scrollIntoView({block:'start'})}
 function check(){if(state.done)return;const q=state.q;if(state.sel==null)return fb('bad','Choose an answer first.');
- if(state.sel!==0){if(state.tries===0)record(q,false);state.tries++;state.streak=0;stats();$('qArea').querySelector(`.opt[data-k="${state.sel}"]`)?.classList.add('wrong');const why=q.x&&q.x[state.sel];if(state.fwId!==q.id){state.fwId=q.id;state.fwK=state.sel}state.sel=null;
+ if(state.sel!==0){if(state.tries===0)record(q,false,state.sel);state.tries++;state.streak=0;stats();$('qArea').querySelector(`.opt[data-k="${state.sel}"]`)?.classList.add('wrong');const why=q.x&&q.x[state.sel];if(state.fwId!==q.id){state.fwId=q.id;state.fwK=state.sel}state.sel=null;
   return fb('bad','🔎 Not quite. '+(why?why+'<br><small>💡 '+q.h+'</small>':q.h)+(state.tries>=2?' <br><small>Stuck? Press 👀 Show Answer to see the steps.</small>':''))}
  finish(false)}
 function hint(){if(state.done)return;const v=vidFor(state.q);$('hintBox').innerHTML='💡 '+state.q.h+(v?` <button class="linkbtn" onclick="openVideo()">🎥 Watch Dr. Dan explain it</button>`:'');$('hintBox').className='hintbox on'}
@@ -1394,7 +1395,7 @@ function bossRender(){const ex=boss.ex,id=ex.qids[ex.i],q=BYID[id],n=ex.qids.len
 function sheetStyle(n){const w=($('qArea')&&$('qArea').clientWidth)||700,cols=Math.max(1,Math.min(4,Math.floor((w-24)/192)));return `grid-template-columns:repeat(${cols},max-content);grid-template-rows:repeat(${Math.ceil(n/cols)},auto);grid-auto-flow:column;justify-content:space-around`}
 function scoreOf(ex){const r=ex.qids.filter(id=>ex.ans[id]===0).length;return {r,n:ex.qids.length,pct:Math.round(r/ex.qids.length*100)}}
 function bossSubmit(timeUp){const ex=boss.ex;clearInterval(boss.tick);if(ex.done)return;ex.done=true;ex.timeUp=timeUp;LS.set(EK(),ex);
- holdSave=1;try{ex.qids.forEach(id=>record(BYID[id],ex.ans[id]===0))}finally{holdSave=0}saveR();saveJ();
+ holdSave=1;try{ex.qids.forEach(id=>record(BYID[id],ex.ans[id]===0,ex.ans[id]))}finally{holdSave=0}saveR();saveJ();
  const s=scoreOf(ex),c=bossKey(ex.course,ex.exam),b=J.boss[c]||(J.boss[c]={n:0,fullBest:null,halfBest:null,last:0});b.n++;b.last=s.pct;
  if(ex.len==='full')b.fullBest=Math.max(b.fullBest||0,s.pct);else b.halfBest=Math.max(b.halfBest||0,s.pct);
  J.correct+=s.r;addXP(s.r*5+25);checkBadges();if(s.pct>=70)confetti(110);bossResult(ex)}
@@ -1441,7 +1442,7 @@ function blitzRender(){const g=blitz.g,q=g.q;
   <div class="btnrow" style="grid-template-columns:1fr"><button class="btn plain" id="bQuit" style="min-height:44px;font-size:15px">✖ End Blitz</button></div>`;
  $('qArea').querySelectorAll('.opt').forEach(b=>b.onclick=()=>blitzAnswer(+b.dataset.k));
  $('bQuit').onclick=()=>{if(!blitz.quitArm){blitz.quitArm=1;$('bQuit').textContent='Tap again to end';setTimeout(()=>{blitz.quitArm=0;if($('bQuit'))$('bQuit').textContent='✖ End Blitz'},3000);return}blitz.quitArm=0;blitzOver()}}
-function blitzAnswer(k){const g=blitz.g;if(g.locked)return;g.locked=true;clearInterval(blitz.tick);const q=g.q,ok=k===0;g.n++;record(q,ok);
+function blitzAnswer(k){const g=blitz.g;if(g.locked)return;g.locked=true;clearInterval(blitz.tick);const q=g.q,ok=k===0;g.n++;record(q,ok,k);
  $('qArea').querySelectorAll('.opt').forEach(b=>{b.disabled=true;if(+b.dataset.k===0)b.classList.add('right');if(k!=null&&+b.dataset.k===k&&!ok)b.classList.add('wrong')});
  let msg;
  if(ok){g.streak++;g.right++;g.bestStreak=Math.max(g.bestStreak,g.streak);const bonus=Math.round(100*Math.max(0,g.left)/(blitz.sec*1000)),pts=Math.round((100+bonus)*mult(g.streak));g.score+=pts;
@@ -1564,7 +1565,7 @@ const FB=(()=>{const els=[$('fbLogo'),$('fbMini')];
    if(prev!=null&&bt.hp<prev){flash('fb-hit',600);face('hit',650);dmg('-1')}draw()},
   leave(){if(bt){bt=null;draw()}},
   battleEnd(pct){if(busy){bt=null;return}if(pct>=70){bt={hp:0,max:1};draw();ko();setTimeout(()=>{bt=null;draw()},2000)}else{bt=null;this.taunt();draw()}}}})();
-{const _record=record;record=function(q,ok){_record(q,ok);ok?FB.hit(1):FB.taunt()};
+{const _record=record;record=function(q,ok,p){_record(q,ok,p);ok?FB.hit(1):FB.taunt()};
  const _finish=finish;finish=function(revealed){const retry=!revealed&&state.tries>0;_finish(revealed);if(revealed)FB.dodge();else if(retry)FB.graze()};
  const _bossRender=bossRender;bossRender=function(){_bossRender();FB.sync(boss.ex)};
  const _bossSubmit=bossSubmit;bossSubmit=function(t){const ex=boss.ex,was=ex&&!ex.done;_bossSubmit(t);if(was&&ex&&!ex.strict)FB.battleEnd(scoreOf(ex).pct);else FB.leave()};
