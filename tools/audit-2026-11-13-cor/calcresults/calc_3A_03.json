@@ -1,0 +1,441 @@
+[
+ {
+  "id": "3A-94",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-95",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-96",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-97",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-98",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-183",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-184",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-237",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "unclear",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "w",
+    "severity": "check",
+    "problem": "Explanation contains raw HTML subscript tags, which may show as literal text.",
+    "replace": "PO<sub>2</sub>",
+    "with": "PO₂"
+   }
+  ]
+ },
+ {
+  "id": "3A-368",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-370",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-371",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "unclear",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "w",
+    "severity": "check",
+    "problem": "Explanation contains raw HTML subscript tags, which may show as literal text.",
+    "replace": "PCO<sub>2</sub>",
+    "with": "PCO₂"
+   },
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "Feedback is vague; it does not say what mistake gives 720 mmHg (the sum of the known gases).",
+    "new_text": "720 mmHg is the sum of the known gases. Subtract that sum from the total pressure."
+   }
+  ]
+ },
+ {
+  "id": "3A-103",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-104",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-105",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-106",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-107",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-108",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "giveaway"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "Saying 488 mL is the water added lets the student get the answer by subtracting from 500 mL.",
+    "new_text": "This is not the volume of concentrated acid. A concentrated stock is used in a small amount, so solve M₁V₁ = M₂V₂ for V₁."
+   }
+  ]
+ },
+ {
+  "id": "3A-109",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-110",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-112",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-197",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-198",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "giveaway"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "Saying 185 mL is the water added lets the student get the answer by adding 15.0 mL.",
+    "new_text": "This is not the final volume of the solution. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution."
+   }
+  ]
+ },
+ {
+  "id": "3A-199",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-232",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-359",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-361",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-364",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-365",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-126",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-127",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-128",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ }
+]

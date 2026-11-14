@@ -1,0 +1,447 @@
+[
+ {
+  "id": "1B-515",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-154",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-156",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-157",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-158",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-202",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-273",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-274",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "Feedback does not name the mistake; 'an extra factor of 1000' does not tell the student which step went wrong.",
+    "new_text": "This converts the mass defect from g to kg twice. Divide by 1000 only once."
+   }
+  ]
+ },
+ {
+  "id": "1B-343",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-346",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-347",
+  "wording": "flag",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "q",
+    "severity": "check",
+    "problem": "The measured activity 3.8 has two significant figures, but the keyed answer and distractors are given to three.",
+    "replace": "activity of 3.8 disintegrations",
+    "with": "activity of 3.80 disintegrations"
+   }
+  ]
+ },
+ {
+  "id": "1B-348",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-349",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-393",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-394",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-395",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-472",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-476",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-338",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "vague",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "check",
+    "problem": "3.99×10⁻¹⁹ is the energy of one photon in J, so this choice skips Avogadro's number and also the J to kJ step. The feedback names only the first.",
+    "new_text": "This is the energy of one photon in joules. A mole of ions needs Avogadro's number, and the answer must be in kJ."
+   }
+  ]
+ },
+ {
+  "id": "1B-409",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-485",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-525",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-526",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-534",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-535",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-536",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-537",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-538",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-539",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-540",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "vague",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[1]",
+    "severity": "minor",
+    "problem": "Temperature is not part of the gas constant; the wording could confuse a student.",
+    "new_text": "The temperature in Π = MRT must be in kelvins, not degrees Celsius."
+   }
+  ]
+ },
+ {
+  "id": "1B-545",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-546",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ }
+]

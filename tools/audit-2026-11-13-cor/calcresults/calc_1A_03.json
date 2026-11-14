@@ -1,0 +1,445 @@
+[
+ {
+  "id": "1A-615",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-48",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-49",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-50",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-51",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-52",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-56",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-227",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-228",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-229",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "vague",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "check",
+    "problem": "42.2% does not match an obvious single error (it is 105.5 mg, about 1.05 mmol CaCO₃), and the feedback only restates the method instead of naming this pick's mistake.",
+    "new_text": "Recheck how much HCl reacted with the sample. Only the HCl that was not neutralized by NaOH reacted with CaCO₃, and each CaCO₃ uses 2 HCl."
+   },
+   {
+    "field": "x[2]",
+    "severity": "check",
+    "problem": "Feedback 2 is word for word the same as feedback 1, so it does not point to this pick's extra step (it also halves the NaOH moles).",
+    "new_text": "The NaOH measures the HCl left over, not the carbonate. Find the HCl that reacted with the sample first."
+   }
+  ]
+ },
+ {
+  "id": "1A-555",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-556",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-557",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-558",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-564",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-57",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-58",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-60",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-61",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-62",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "h",
+    "severity": "check",
+    "problem": "Hint contains the HTML entity '&lt;'. If the game shows hints as plain text, students will see '&lt;' instead of '<'.",
+    "new_text": "ΔU = q + w. Heat absorbed means q is positive. Work done BY the system means w is negative."
+   }
+  ]
+ },
+ {
+  "id": "1A-63",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-65",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-66",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-67",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-69",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "giveaway",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "Feedback lists every bond broken and formed, which is the whole setup, and does not name the actual slip (the H–H bond was left out of bonds broken).",
+    "new_text": "This leaves out one bond that breaks. The H₂ molecule must also be pulled apart."
+   }
+  ]
+ },
+ {
+  "id": "1A-70",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-179",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-180",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-231",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-232",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-233",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-234",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ }
+]

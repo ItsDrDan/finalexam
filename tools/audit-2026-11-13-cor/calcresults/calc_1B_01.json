@@ -1,0 +1,53 @@
+[
+{"id":"1B-0","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-1","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-3","wording":"ok","hint":"ok","fb":{"1":"giveaway","2":"ok","3":"vague"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[1]","severity":"minor","problem":"Feedback states both orders and the overall order (most of the solution) instead of naming the mistake: 0.25 M⁻¹ s⁻¹ comes from leaving [O₂] out of the rate law.","new_text":"This leaves [O₂] out of the rate law. Compare experiments 1 and 3 to see how the rate depends on [O₂]."},
+ {"field":"x[3]","severity":"minor","problem":"Feedback gives the full setup and does not name the error: 2.5×10³ M⁻³ s⁻¹ comes from squaring [O₂] as well (fourth order).","new_text":"This treats the reaction as second order in O₂. Doubling [O₂] only doubles the rate."}]},
+{"id":"1B-5","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-6","wording":"ok","hint":"ok","fb":{"1":"ok","2":"vague","3":"ok"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[2]","severity":"minor","problem":"Feedback only restates the formula; 0.385 M comes from using the second-order integrated law (1/[A] = 1/[A]₀ + kt).","new_text":"This uses the second-order equation. The units of k (min⁻¹) show the reaction is first order."}]},
+{"id":"1B-7","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-11","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-12","wording":"ok","hint":"ok","fb":{"1":"ok","2":"giveaway","3":"ok"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[2]","severity":"minor","problem":"Feedback gives the key ratio k₂/k₁ ≈ 15, which hands over the answer; 1.3×10⁻¹ s⁻¹ comes from undoing ln with 10ˣ instead of eˣ.","new_text":"This undoes the natural log with 10ˣ. The equation uses ln, so undo it with eˣ."}]},
+{"id":"1B-17","wording":"ok","hint":"ok","fb":{"1":"ok","2":"giveaway","3":"giveaway"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[2]","severity":"minor","problem":"Feedback gives the full working formula and does not name the error: 115 kJ mol⁻¹ includes an extra factor of 2.303, as if the plot used log k.","new_text":"This multiplies by 2.303 as if the plot used log k. The plot uses ln k, so no conversion factor is needed."},
+ {"field":"x[3]","severity":"minor","problem":"Feedback gives the full setup; 0.49 kJ mol⁻¹ comes from using R = 0.08206 L atm mol⁻¹ K⁻¹.","new_text":"This uses R = 0.08206 L atm mol⁻¹ K⁻¹. For an energy in joules, use R in J mol⁻¹ K⁻¹."}]},
+{"id":"1B-18","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"giveaway"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[3]","severity":"minor","problem":"Feedback gives the full setup (t = 3600 s, then e^(−kt)) without naming the error; 0.0506 comes from 10^(−kt) instead of e^(−kt).","new_text":"This raises 10 to the −kt power. The first-order law uses the natural log, so undo it with e."}]},
+{"id":"1B-19","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-20","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"giveaway"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[3]","severity":"minor","problem":"Feedback gives the solving formula t = [A]₀ ÷ k and does not name the error: 2.2×10³ s is the second-order half-life 1/(k[A]₀).","new_text":"This uses the second-order half-life formula. The units of k (M s⁻¹) show the reaction is zero order."}]},
+{"id":"1B-21","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"giveaway"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[3]","severity":"minor","problem":"Feedback spells out the complete calculation (0.693 × 45.0 ÷ ln(100/20)).","new_text":"This uses 45.0 min as if it were 1/k. First find k from the fraction that remains, then use t½ = 0.693/k."}]},
+{"id":"1B-161","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-163","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-164","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-207","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-208","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-210","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-213","wording":"ok","hint":"ok","fb":{"1":"ok","2":"giveaway","3":"ok"},"expl":"ok","scope":"borderline","findings":[
+ {"field":"x[2]","severity":"minor","problem":"Feedback states k′ = 0.50 s⁻¹, after which the answer is one step away; 0.69 s comes from using k′ = k[B]₀² = 1.0 s⁻¹.","new_text":"This squares [B]₀. The rate law is first order in B, so multiply k by [B]₀ just once."},
+ {"field":"scope","severity":"minor","problem":"Pseudo-first-order kinetics is not listed in the 1B kinetics outline; answerable from rate laws and first-order half-life, and the stem and hint explain the approach."}]},
+{"id":"1B-275","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-276","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"giveaway"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[3]","severity":"minor","problem":"Feedback says the pick doubles k, which tells the student how far off it is (keyed value is half).","new_text":"This would need a half-life of 15 min. Read the time for [H₂O₂] to fall from 0.80 M to 0.40 M on the graph."}]},
+{"id":"1B-278","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-281","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-355","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-382","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"giveaway"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[3]","severity":"minor","problem":"Feedback states k = 0.0231 min⁻¹, leaving only 0.693/k to reach the keyed answer.","new_text":"Recheck k. Find the slope from two points far apart on the line, then use t½ = 0.693/k."}]},
+{"id":"1B-383","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-384","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-387","wording":"ok","hint":"ok","fb":{"1":"ok","2":"giveaway","3":"giveaway"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[2]","severity":"minor","problem":"Feedback gives the full rate law and k (identical to feedback 3) and does not name the error: 1.8×10⁻³ M s⁻¹ keeps [B] at 0.10 M instead of 0.20 M.","new_text":"This scales the rate only for the change in [A]. [B] also changes from trial 1, from 0.10 M to 0.20 M."},
+ {"field":"x[3]","severity":"minor","problem":"Feedback gives the full rate law and k and does not name the error: 7.2×10⁻³ M s⁻¹ treats the reaction as second order in B.","new_text":"This treats B as second order. In trials 1 and 3, doubling [B] only doubles the rate."}]},
+{"id":"1B-388","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-504","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-505","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"giveaway"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[3]","severity":"minor","problem":"Feedback states Δ[A₂] = 0.030 M, leaving only the division by 5.0 s.","new_text":"This is a change in concentration only. A rate is the change in concentration divided by the time it took."}]},
+{"id":"1B-24","wording":"ok","hint":"ok","fb":{"1":"ok","2":"vague","3":"ok"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[2]","severity":"minor","problem":"3.4×10⁻² comes from using R = 8.314 (280 ÷ 8314), but the feedback points vaguely at the power of ten instead of the wrong R.","new_text":"This uses R = 8.314 J mol⁻¹ K⁻¹. Kp uses pressures in atm, so use R = 0.08206 L atm mol⁻¹ K⁻¹."}]},
+{"id":"1B-25","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]}
+]

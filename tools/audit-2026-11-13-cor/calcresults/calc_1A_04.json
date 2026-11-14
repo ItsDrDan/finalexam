@@ -1,0 +1,507 @@
+[
+ {
+  "id": "1A-236",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-305",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "+264 kJ comes from 611 − 347 (only the carbon–carbon change). The feedback restates the whole setup instead of naming the mistake.",
+    "new_text": "This counts only the change from C=C to C–C. The Cl–Cl bond broken and the two C–Cl bonds formed also count."
+   }
+  ]
+ },
+ {
+  "id": "1A-306",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "−527 kJ comes from 243 − 770 (the broken C–H is left out). The feedback restates the setup instead of naming the mistake.",
+    "new_text": "This forgets that one C–H bond in methane is broken so the Cl can attach."
+   }
+  ]
+ },
+ {
+  "id": "1A-307",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-308",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "check",
+    "problem": "Adding the two sums gives +1541 kJ, but the distractor is −1541 kJ, so the feedback does not quite describe how the pick arises.",
+    "new_text": "This adds the bonds broken and the bonds formed together. The bonds formed must be subtracted from the bonds broken."
+   }
+  ]
+ },
+ {
+  "id": "1A-309",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "+922 kJ comes from 1856 − (436 + 498), forming only one H–H. The feedback restates the setup instead of naming the mistake.",
+    "new_text": "This forms only one H–H bond. The reaction makes two H₂ molecules, so two H–H bonds form."
+   }
+  ]
+ },
+ {
+  "id": "1A-310",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-311",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-571",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-574",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-575",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-579",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-580",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "vague",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "\"The sign is wrong.\" does not help the student see where the sign slipped.",
+    "new_text": "Check the rearrangement. The products together are more negative than ΔH°rxn, so ethanol's ΔH°f must come out negative."
+   }
+  ]
+ },
+ {
+  "id": "1A-72",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-73",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "4.91×10⁻³⁶ J comes from h ÷ (cλ). The feedback only restates the formula and does not name the slip.",
+    "new_text": "This divides h by both c and λ. The speed of light goes on top, multiplied by h."
+   }
+  ]
+ },
+ {
+  "id": "1A-75",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-77",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-79",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-183",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "vague",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "4.73×10²⁸ comes from using hc × λ as the photon energy. The student did divide by an energy per photon, so the second sentence does not point at the real slip.",
+    "new_text": "This multiplies hc by λ when finding the photon energy. The energy of one photon is hc divided by λ."
+   }
+  ]
+ },
+ {
+  "id": "1A-237",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-238",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-239",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-386",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "1.77×10² s⁻¹ comes from c × λ. The feedback restates the formula without naming the slip.",
+    "new_text": "This multiplies c by λ. Frequency comes from dividing c by λ."
+   }
+  ]
+ },
+ {
+  "id": "1A-387",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "check",
+    "problem": "247 nm is half the keyed wavelength, so it comes from twice the energy per bond. The feedback does not name that slip.",
+    "new_text": "This uses twice the energy needed. One photon only has to break one Cl–Cl bond, so do not double the bond energy."
+   }
+  ]
+ },
+ {
+  "id": "1A-391",
+  "wording": "ok",
+  "hint": "giveaway",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "h",
+    "severity": "minor",
+    "problem": "The hint gives the full setup with the numbers plugged in (2.179×10⁻¹⁸ J × (1/1² − 1/3²)).",
+    "new_text": "Find the energy difference between the n = 3 and n = 1 levels from the En equation. Then use λ = hc/ΔE."
+   }
+  ]
+ },
+ {
+  "id": "1A-392",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-408",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "giveaway",
+   "2": "giveaway",
+   "3": "giveaway"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[1]",
+    "severity": "minor",
+    "problem": "Stating the 288 nm threshold gives away the answer, since only one choice is shorter than 288 nm.",
+    "new_text": "312 nm is longer than the threshold wavelength, so its photons carry too little energy. Find the threshold wavelength from c ÷ ν."
+   },
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "Stating the 288 nm threshold gives away the answer, since only one choice is shorter than 288 nm.",
+    "new_text": "365 nm is longer than the threshold wavelength, so its photons carry too little energy. Find the threshold wavelength from c ÷ ν."
+   },
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "Stating the 288 nm threshold gives away the answer, since only one choice is shorter than 288 nm.",
+    "new_text": "405 nm is longer than the threshold wavelength, so its photons carry too little energy. Find the threshold wavelength from c ÷ ν."
+   }
+  ]
+ },
+ {
+  "id": "1A-409",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-474",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-126",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-127",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-128",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ }
+]

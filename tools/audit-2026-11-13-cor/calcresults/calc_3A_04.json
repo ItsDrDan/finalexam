@@ -1,0 +1,380 @@
+[
+ {
+  "id": "3A-129",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-130",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-131",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-132",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-133",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "check",
+    "problem": "0.375 mL is not the liters value (0.0375 L) shown in mL, so 'check your unit conversion' does not clearly match how this pick arises; it is off by a factor of 100.",
+    "new_text": "0.375 mL is far too small for this titration. Moles divided by molarity gives liters, and 1 L is 1000 mL."
+   }
+  ]
+ },
+ {
+  "id": "3A-134",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "giveaway",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "Saying 0.0200 is the answer in liters tells the student the keyed answer is 20.0 mL.",
+    "new_text": "Moles divided by molarity gives liters. Change liters to milliliters before you compare with the choices."
+   }
+  ]
+ },
+ {
+  "id": "3A-135",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-136",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-137",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-188",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-189",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-190",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-191",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-229",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-141",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-143",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-144",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-145",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-149",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-200",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-201",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-372",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-375",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-161",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-204",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-317",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-356",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3A-308",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ }
+]

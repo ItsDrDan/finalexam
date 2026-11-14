@@ -1,0 +1,1019 @@
+[
+ {
+  "id": "1A-2",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback states the answer is close to 1000 kg/m³, which points straight to the keyed choice.",
+  "new_text": "The conversion factors are upside down. Set up each factor so the unit you are leaving cancels."
+ },
+ {
+  "id": "1A-14",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "Feedback states B-10 is 20.0%, which hands the student 100 − 20.0 for B-11.",
+  "new_text": "Check which isotope your x stands for. The average 10.81 u is closer to the B-11 mass, so B-11 must be the more abundant isotope."
+ },
+ {
+  "id": "1A-14",
+  "field": "h",
+  "severity": "minor",
+  "problem": "Hint gives the full equation with every number plugged in.",
+  "new_text": "Let x be the fraction of B-11, so B-10 is 1 − x. Write the weighted-average equation using the average atomic mass and solve for x."
+ },
+ {
+  "id": "1A-214",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback restates the method but does not name the mistake that gives 20.66 u (no simple error reproduces it).",
+  "new_text": "Multiply each mass by its own abundance as a decimal, then add. Ne-20 is over 90% of the atoms, so the average must lie very close to the Ne-20 mass."
+ },
+ {
+  "id": "1A-517",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback only says this is the largest drop and does not say why that cannot be the electron charge.",
+  "new_text": "This is the largest charge measured. The charge of one electron must divide evenly into every drop, including the smaller ones."
+ },
+ {
+  "id": "1A-29",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "Feedback states the keyed C:O mole ratio (2:1), which with the H count gives away C₂H₄O.",
+  "new_text": "CH₂O needs equal moles of C and O. Find the mass of O by subtracting the C and H masses from the sample mass, then compare moles."
+ },
+ {
+  "id": "1A-30",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback is garbled ('about the moles ... not divided by the volume or doubled') and does not clearly name the two missed steps.",
+  "new_text": "0.143 is the number of moles of K₂SO₄. Divide by the volume in liters, then count the K⁺ ions in each formula unit."
+ },
+ {
+  "id": "1A-33",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "Feedback says how far off the pick is ('1000 times too big') and does not name the actual slip (mg over grams multiplied by 10⁶).",
+  "new_text": "This mixes units: milligrams of solute over grams of solution. Put both masses in the same unit, or use 1 ppm = 1 mg per liter for water."
+ },
+ {
+  "id": "1A-34",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "'Multiply by 0.90/100' gives the full setup for the keyed answer.",
+  "new_text": "This divides by the percent. NaCl is only a small part of the solution, so its mass must be much less than 240. g."
+ },
+ {
+  "id": "1A-170",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "Feedback states the keyed S:Al mole ratio (1.5), which gives away Al₂S₃.",
+  "new_text": "AlS needs equal moles of Al and S. Convert both masses to moles and compare them."
+ },
+ {
+  "id": "1A-170",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "'This flips the ratio' tells the student the answer is Al₂S₃.",
+  "new_text": "Al₃S₂ has more Al atoms than S atoms. Convert both masses to moles and see which element has more moles."
+ },
+ {
+  "id": "1A-170",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback states the keyed S:Al mole ratio (1.5), which gives away Al₂S₃.",
+  "new_text": "AlS₂ needs twice as many moles of S as of Al. Convert both masses to moles and compare them."
+ },
+ {
+  "id": "1A-220",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "14.53% is 18.016 ÷ 124.0 (water over the molar mass of the monohydrate Na₂CO₃·H₂O); the feedback does not name this slip.",
+  "new_text": "This treats the hydrate as having only one water, in both the water mass and the molar mass. Use all ten H₂O and the molar mass of the whole decahydrate."
+ },
+ {
+  "id": "1A-221",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback states the keyed 1:5:1 mole ratio, which is the answer CH₅N.",
+  "new_text": "C₂H₅N₃ needs more moles of N than of C. Convert each percent to moles and compare C with N."
+ },
+ {
+  "id": "1A-224",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "0.0800 M is 2.00 M × 10.00 mL/250.0 mL (first portion paired with the second flask); 'not mixed together' does not describe this slip.",
+  "new_text": "This pairs the 10.00 mL portion with the 250.0 mL flask. Pair each portion with its own flask volume and do the two steps in order."
+ },
+ {
+  "id": "1A-518",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback states the keyed 1:2:1 mole ratio, which is the answer CH₂O.",
+  "new_text": "Convert each percent to moles and divide by the smallest. Then recheck the C to O ratio."
+ },
+ {
+  "id": "1A-518",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback states the keyed 1:2:1 mole ratio, which is the answer CH₂O.",
+  "new_text": "Recheck the hydrogen. Divide its mass by 1.008 g/mol, then by the smallest mole value."
+ },
+ {
+  "id": "1A-520",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback states the keyed H/C ratio (2.67 = 8/3), which gives away C₃H₈.",
+  "new_text": "C₂H₅ has an H to C ratio of 2.5. Recheck the moles of C from the CO₂ mass and the moles of H from the H₂O mass."
+ },
+ {
+  "id": "1A-520",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback states the keyed H/C ratio (2.67 = 8/3), which gives away C₃H₈.",
+  "new_text": "CH₃ has an H to C ratio of 3. Recheck the moles of C from the CO₂ mass and the moles of H from the H₂O mass."
+ },
+ {
+  "id": "1A-549",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback gives the intermediate molar mass (146 g/mol), from which n = 6 follows in one step.",
+  "new_text": "SF₈ would be 184 g/mol. Find the molar mass from the sample mass and the number of moles, then compare."
+ },
+ {
+  "id": "1A-229",
+  "field": "x[3]",
+  "severity": "check",
+  "problem": "42.2% does not match an obvious single error (it is 105.5 mg, about 1.05 mmol CaCO₃), and the feedback only restates the method instead of naming this pick's mistake.",
+  "new_text": "Recheck how much HCl reacted with the sample. Only the HCl that was not neutralized by NaOH reacted with CaCO₃, and each CaCO₃ uses 2 HCl."
+ },
+ {
+  "id": "1A-229",
+  "field": "x[2]",
+  "severity": "check",
+  "problem": "Feedback 2 is word for word the same as feedback 1, so it does not point to this pick's extra step (it also halves the NaOH moles).",
+  "new_text": "The NaOH measures the HCl left over, not the carbonate. Find the HCl that reacted with the sample first."
+ },
+ {
+  "id": "1A-62",
+  "field": "h",
+  "severity": "check",
+  "problem": "Hint contains the HTML entity '&lt;'. If the game shows hints as plain text, students will see '&lt;' instead of '<'.",
+  "new_text": "ΔU = q + w. Heat absorbed means q is positive. Work done BY the system means w is negative."
+ },
+ {
+  "id": "1A-69",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback lists every bond broken and formed, which is the whole setup, and does not name the actual slip (the H–H bond was left out of bonds broken).",
+  "new_text": "This leaves out one bond that breaks. The H₂ molecule must also be pulled apart."
+ },
+ {
+  "id": "1A-305",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "+264 kJ comes from 611 − 347 (only the carbon–carbon change). The feedback restates the whole setup instead of naming the mistake.",
+  "new_text": "This counts only the change from C=C to C–C. The Cl–Cl bond broken and the two C–Cl bonds formed also count."
+ },
+ {
+  "id": "1A-306",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "−527 kJ comes from 243 − 770 (the broken C–H is left out). The feedback restates the setup instead of naming the mistake.",
+  "new_text": "This forgets that one C–H bond in methane is broken so the Cl can attach."
+ },
+ {
+  "id": "1A-308",
+  "field": "x[3]",
+  "severity": "check",
+  "problem": "Adding the two sums gives +1541 kJ, but the distractor is −1541 kJ, so the feedback does not quite describe how the pick arises.",
+  "new_text": "This adds the bonds broken and the bonds formed together. The bonds formed must be subtracted from the bonds broken."
+ },
+ {
+  "id": "1A-309",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "+922 kJ comes from 1856 − (436 + 498), forming only one H–H. The feedback restates the setup instead of naming the mistake.",
+  "new_text": "This forms only one H–H bond. The reaction makes two H₂ molecules, so two H–H bonds form."
+ },
+ {
+  "id": "1A-580",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "\"The sign is wrong.\" does not help the student see where the sign slipped.",
+  "new_text": "Check the rearrangement. The products together are more negative than ΔH°rxn, so ethanol's ΔH°f must come out negative."
+ },
+ {
+  "id": "1A-73",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "4.91×10⁻³⁶ J comes from h ÷ (cλ). The feedback only restates the formula and does not name the slip.",
+  "new_text": "This divides h by both c and λ. The speed of light goes on top, multiplied by h."
+ },
+ {
+  "id": "1A-183",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "4.73×10²⁸ comes from using hc × λ as the photon energy. The student did divide by an energy per photon, so the second sentence does not point at the real slip.",
+  "new_text": "This multiplies hc by λ when finding the photon energy. The energy of one photon is hc divided by λ."
+ },
+ {
+  "id": "1A-386",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "1.77×10² s⁻¹ comes from c × λ. The feedback restates the formula without naming the slip.",
+  "new_text": "This multiplies c by λ. Frequency comes from dividing c by λ."
+ },
+ {
+  "id": "1A-387",
+  "field": "x[3]",
+  "severity": "check",
+  "problem": "247 nm is half the keyed wavelength, so it comes from twice the energy per bond. The feedback does not name that slip.",
+  "new_text": "This uses twice the energy needed. One photon only has to break one Cl–Cl bond, so do not double the bond energy."
+ },
+ {
+  "id": "1A-391",
+  "field": "h",
+  "severity": "minor",
+  "problem": "The hint gives the full setup with the numbers plugged in (2.179×10⁻¹⁸ J × (1/1² − 1/3²)).",
+  "new_text": "Find the energy difference between the n = 3 and n = 1 levels from the En equation. Then use λ = hc/ΔE."
+ },
+ {
+  "id": "1A-408",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "Stating the 288 nm threshold gives away the answer, since only one choice is shorter than 288 nm.",
+  "new_text": "312 nm is longer than the threshold wavelength, so its photons carry too little energy. Find the threshold wavelength from c ÷ ν."
+ },
+ {
+  "id": "1A-408",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Stating the 288 nm threshold gives away the answer, since only one choice is shorter than 288 nm.",
+  "new_text": "365 nm is longer than the threshold wavelength, so its photons carry too little energy. Find the threshold wavelength from c ÷ ν."
+ },
+ {
+  "id": "1A-408",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Stating the 288 nm threshold gives away the answer, since only one choice is shorter than 288 nm.",
+  "new_text": "405 nm is longer than the threshold wavelength, so its photons carry too little energy. Find the threshold wavelength from c ÷ ν."
+ },
+ {
+  "id": "1A-139",
+  "field": "c[3]",
+  "severity": "minor",
+  "problem": "Feedback states the CO₂ volume in the keyed answer (6.0 L CO₂), which with distractor 1 narrows the choice to the key.",
+  "new_text": "Check the ratios. Find the limiting reactant first, then use the CO : CO₂ ratio from the equation."
+ },
+ {
+  "id": "1A-337",
+  "field": "c[2]",
+  "severity": "minor",
+  "problem": "Feedback says T doubles, which is the keyed answer for curve 2.",
+  "new_text": "Compare the PV products of the two curves at the same volume. T changes by the same factor as PV, not by its square."
+ },
+ {
+  "id": "1A-499",
+  "field": "c[3]",
+  "severity": "minor",
+  "problem": "\"A factor of 2 slipped in\" tells the student how far off the pick is, so halving 83 gives the key.",
+  "new_text": "Recheck each part: ln(P₂/P₁), the difference 1/T₁ − 1/T₂ in kelvin, and R = 8.314 J mol⁻¹ K⁻¹."
+ },
+ {
+  "id": "1A-155",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback only says the two units differ; it does not show the student what to change.",
+  "new_text": "Molality uses kilograms of water, not liters of solution. Find the mass of water in 1.000 L of solution."
+ },
+ {
+  "id": "1A-157",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "19.8 torr comes from using the mass fraction of water (250/300); the feedback does not name that mistake.",
+  "new_text": "This uses the mass fraction of water. Raoult's law needs the mole fraction, so convert both masses to moles."
+ },
+ {
+  "id": "1A-504",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "22 mg comes from dividing the 1.0 atm solubility by 0.78; the feedback restates the method instead of naming that mistake.",
+  "new_text": "This divides by 0.78 atm. A gas dissolves less at lower pressure, so multiply the 1.0 atm solubility by 0.78."
+ },
+ {
+  "id": "1A-511",
+  "field": "w",
+  "severity": "minor",
+  "problem": "Explanation reads 0.051 °C from the table but then uses 0.0512 °C without saying where the extra digit comes from, which can confuse a student following the steps.",
+  "replace": "so Kb m = 0.0512 °C. X gives 0.205 °C → i = 0.205/0.0512 = 4",
+  "with": "so Kb m ≈ 0.051 °C. X gives 0.205 °C → i = 0.205/0.051 ≈ 4"
+ },
+ {
+  "id": "1A-297",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback states the full setup (4 bonds over 3 positions), which gives away the keyed 1.33.",
+  "new_text": "1.00 ignores the double bond. Count every bond in one structure, including the double bond, before you average."
+ },
+ {
+  "id": "1B-3",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "Feedback states both orders and the overall order (most of the solution) instead of naming the mistake: 0.25 M⁻¹ s⁻¹ comes from leaving [O₂] out of the rate law.",
+  "new_text": "This leaves [O₂] out of the rate law. Compare experiments 1 and 3 to see how the rate depends on [O₂]."
+ },
+ {
+  "id": "1B-3",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback gives the full setup and does not name the error: 2.5×10³ M⁻³ s⁻¹ comes from squaring [O₂] as well (fourth order).",
+  "new_text": "This treats the reaction as second order in O₂. Doubling [O₂] only doubles the rate."
+ },
+ {
+  "id": "1B-6",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback only restates the formula; 0.385 M comes from using the second-order integrated law (1/[A] = 1/[A]₀ + kt).",
+  "new_text": "This uses the second-order equation. The units of k (min⁻¹) show the reaction is first order."
+ },
+ {
+  "id": "1B-12",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback gives the key ratio k₂/k₁ ≈ 15, which hands over the answer; 1.3×10⁻¹ s⁻¹ comes from undoing ln with 10ˣ instead of eˣ.",
+  "new_text": "This undoes the natural log with 10ˣ. The equation uses ln, so undo it with eˣ."
+ },
+ {
+  "id": "1B-17",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback gives the full working formula and does not name the error: 115 kJ mol⁻¹ includes an extra factor of 2.303, as if the plot used log k.",
+  "new_text": "This multiplies by 2.303 as if the plot used log k. The plot uses ln k, so no conversion factor is needed."
+ },
+ {
+  "id": "1B-17",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback gives the full setup; 0.49 kJ mol⁻¹ comes from using R = 0.08206 L atm mol⁻¹ K⁻¹.",
+  "new_text": "This uses R = 0.08206 L atm mol⁻¹ K⁻¹. For an energy in joules, use R in J mol⁻¹ K⁻¹."
+ },
+ {
+  "id": "1B-18",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback gives the full setup (t = 3600 s, then e^(−kt)) without naming the error; 0.0506 comes from 10^(−kt) instead of e^(−kt).",
+  "new_text": "This raises 10 to the −kt power. The first-order law uses the natural log, so undo it with e."
+ },
+ {
+  "id": "1B-20",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback gives the solving formula t = [A]₀ ÷ k and does not name the error: 2.2×10³ s is the second-order half-life 1/(k[A]₀).",
+  "new_text": "This uses the second-order half-life formula. The units of k (M s⁻¹) show the reaction is zero order."
+ },
+ {
+  "id": "1B-21",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback spells out the complete calculation (0.693 × 45.0 ÷ ln(100/20)).",
+  "new_text": "This uses 45.0 min as if it were 1/k. First find k from the fraction that remains, then use t½ = 0.693/k."
+ },
+ {
+  "id": "1B-213",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback states k′ = 0.50 s⁻¹, after which the answer is one step away; 0.69 s comes from using k′ = k[B]₀² = 1.0 s⁻¹.",
+  "new_text": "This squares [B]₀. The rate law is first order in B, so multiply k by [B]₀ just once."
+ },
+ {
+  "id": "1B-213",
+  "field": "scope",
+  "severity": "minor",
+  "problem": "Pseudo-first-order kinetics is not listed in the 1B kinetics outline; answerable from rate laws and first-order half-life, and the stem and hint explain the approach."
+ },
+ {
+  "id": "1B-276",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback says the pick doubles k, which tells the student how far off it is (keyed value is half).",
+  "new_text": "This would need a half-life of 15 min. Read the time for [H₂O₂] to fall from 0.80 M to 0.40 M on the graph."
+ },
+ {
+  "id": "1B-382",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback states k = 0.0231 min⁻¹, leaving only 0.693/k to reach the keyed answer.",
+  "new_text": "Recheck k. Find the slope from two points far apart on the line, then use t½ = 0.693/k."
+ },
+ {
+  "id": "1B-387",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback gives the full rate law and k (identical to feedback 3) and does not name the error: 1.8×10⁻³ M s⁻¹ keeps [B] at 0.10 M instead of 0.20 M.",
+  "new_text": "This scales the rate only for the change in [A]. [B] also changes from trial 1, from 0.10 M to 0.20 M."
+ },
+ {
+  "id": "1B-387",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback gives the full rate law and k and does not name the error: 7.2×10⁻³ M s⁻¹ treats the reaction as second order in B.",
+  "new_text": "This treats B as second order. In trials 1 and 3, doubling [B] only doubles the rate."
+ },
+ {
+  "id": "1B-505",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback states Δ[A₂] = 0.030 M, leaving only the division by 5.0 s.",
+  "new_text": "This is a change in concentration only. A rate is the change in concentration divided by the time it took."
+ },
+ {
+  "id": "1B-24",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "3.4×10⁻² comes from using R = 8.314 (280 ÷ 8314), but the feedback points vaguely at the power of ten instead of the wrong R.",
+  "new_text": "This uses R = 8.314 J mol⁻¹ K⁻¹. Kp uses pressures in atm, so use R = 0.08206 L atm mol⁻¹ K⁻¹."
+ },
+ {
+  "id": "1B-40",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback gives the full calculation (0.20 for each gas, multiply).",
+  "new_text": "0.20 atm is the pressure of only one gas. Kp includes both gases, so use both partial pressures."
+ },
+ {
+  "id": "1B-40",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback states each gas is 0.20 atm and to multiply, which is the full calculation.",
+  "new_text": "Each gas has only half of the total pressure. Use that partial pressure for both gases in Kp."
+ },
+ {
+  "id": "1B-42",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "3.2×10⁻³ is √Kc, which leaves out [N₂] and [O₂]; the feedback does not name that mistake.",
+  "new_text": "This leaves out [N₂] and [O₂]. Multiply Kc by both equilibrium concentrations before you take the square root."
+ },
+ {
+  "id": "1B-169",
+  "field": "q",
+  "severity": "minor",
+  "problem": "The <sub> tag on PN<sub>2O4</sub> subscripts the O as well, and the pressure symbols are hard to read.",
+  "replace": "PNO<sub>2</sub> = 0.40 atm and PN<sub>2O4</sub> = 0.60 atm",
+  "with": "P(NO₂) = 0.40 atm and P(N₂O₄) = 0.60 atm"
+ },
+ {
+  "id": "1B-169",
+  "field": "w",
+  "severity": "minor",
+  "problem": "Same broken subscript markup in the explanation.",
+  "replace": "Q = PN<sub>2O4</sub>/(PNO<sub>2</sub>)^2",
+  "with": "Q = P(N₂O₄)/P(NO₂)^2"
+ },
+ {
+  "id": "1B-170",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback gives the full K setup with numbers (K = 4x³ ÷ (0.20)²).",
+  "new_text": "This treats the K expression like a simple square. [H₂] is 2x and it is squared, and [S₂] is x, so the top of the expression is not x²."
+ },
+ {
+  "id": "1B-220",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "\"Q isn't equal to K\" does not help the student see why.",
+  "new_text": "Calculate Q from the table and compare it with Kc = 1.3×10³. The two values are far apart, so the mixture is not at equilibrium."
+ },
+ {
+  "id": "1B-48",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback gives the full calculation, −log(0.0025).",
+  "new_text": "Check the place value. 0.0025 is 2.5×10⁻³, so count the decimal places again before taking the log."
+ },
+ {
+  "id": "1B-61",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback states that [CO₃²⁻] ≈ Ka₂, which is the keyed answer.",
+  "new_text": "Write the Ka₂ expression and look for two concentrations in it that are about equal in this solution."
+ },
+ {
+  "id": "1B-65",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback only addresses neutrality; it does not explain why 7.19 is wrong (it comes from using pH + pOH = 14.00, which holds only at 25 °C).",
+  "new_text": "At 37 °C, pH + pOH equals pKw (13.62), not 14.00. Also, [H₃O⁺] still equals [OH⁻], so the water is neutral."
+ },
+ {
+  "id": "1B-176",
+  "field": "w",
+  "severity": "minor",
+  "problem": "Claim that comparing the parent Ka and Kb leads to the wrong conclusion is false: Ka(HF) > Kb(NH3) is mathematically equivalent to Ka(NH4+) > Kb(F-), so a correct comparison of the parents gives the same answer. Only the reversed reading in distractor 3 is wrong.",
+  "replace": "Comparing the parent Ka and Kb directly leads to the wrong conclusion.",
+  "with": "The parent constants agree: HF is a stronger acid than NH3 is a base, so its conjugate F^− is the weaker of the two ions."
+ },
+ {
+  "id": "1B-242",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "4.5 g comes from flipping the ratio when solving Kb for [NH4+]; the line only restates the setup.",
+  "new_text": "This flips the ratio when solving for [NH₄⁺]. Check which quantity belongs in the denominator."
+ },
+ {
+  "id": "1B-296",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "1.0×10^-7 comes from assuming pH 7; the line does not name that mistake.",
+  "new_text": "pH 7 is not a special point for a weak acid titration. Ka comes from the pH at half the equivalence volume."
+ },
+ {
+  "id": "1B-298",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "1.0×10^-10 uses the pH near the second equivalence point (about 10); the line only repeats the hint.",
+  "new_text": "pH 10 is near the second equivalence point. Ka2 comes from the pH halfway between the two equivalence points."
+ },
+ {
+  "id": "1B-88",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "1.7×10^-3 divides Ksp by 2 instead of 4; the line gives the full setup without naming the mistake.",
+  "new_text": "This divides Ksp by 2. Since [I⁻] = 2s and that term is squared, the factor is 4."
+ },
+ {
+  "id": "1B-89",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "5.1×10^-8 doubles [OH-] but does not square it; the line gives the full formula instead of naming the mistake.",
+  "new_text": "This doubles [OH⁻] but forgets to square it."
+ },
+ {
+  "id": "1B-90",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "4.2×10^-5 takes a square root; the line gives the full setup s = Ksp ÷ 0.10 instead of naming the mistake.",
+  "new_text": "AgCl is 1:1, so once NaCl fixes [Cl⁻] no square root is needed."
+ },
+ {
+  "id": "1B-91",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "1.1×10^-4 M is the solubility in pure water, (Ksp/4)^(1/3); the line does not say so.",
+  "new_text": "1.1×10⁻⁴ M is the solubility in pure water. Here the buffer fixes [OH⁻]."
+ },
+ {
+  "id": "1B-93",
+  "field": "w",
+  "severity": "check",
+  "problem": "Explanation contains the HTML entity &lt;; confirm it renders as < in the game and does not show literally.",
+  "replace": "2.5×10^−5 &lt; 4.9×10^−5",
+  "with": "2.5×10^−5 is less than 4.9×10^−5"
+ },
+ {
+  "id": "1B-95",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "1.0×10^-5 M is the solubility of BaSO4 in pure water; the line only repeats the hint.",
+  "new_text": "1.0×10⁻⁵ M is the solubility of BaSO₄ in pure water. Here [SO₄²⁻] is set by the point where CaSO₄ starts to form."
+ },
+ {
+  "id": "1B-184",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "7.07 divides by 4 as if [OH-] were 2s; the line gives the setup without naming the mistake.",
+  "new_text": "This divides by 4 as if [OH⁻] were 2s. Here [Ni²⁺] is fixed at 0.010 M, so no extra factor is needed."
+ },
+ {
+  "id": "1B-244",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "1.4×10^-5 is s(2s), which forgets to square [F-]; the line only restates the formula.",
+  "new_text": "This doubles [F⁻] but forgets to square it."
+ },
+ {
+  "id": "1B-246",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "4.3×10^-4 M uses 2 × 0.10 M for [Cl-]; the line gives the full setup instead of naming the mistake.",
+  "new_text": "The NaCl already sets [Cl⁻] at 0.10 M. Do not double it."
+ },
+ {
+  "id": "1B-246",
+  "field": "h",
+  "severity": "minor",
+  "problem": "Hint gives [Cl-] = 0.10 M and s = Ksp/[Cl-]^2, the full setup with numbers; the student only has to divide.",
+  "new_text": "Common-ion effect: the NaCl fixes [Cl⁻] at 0.10 M, so only [Pb²⁺] = s is unknown in the Ksp expression."
+ },
+ {
+  "id": "1B-247",
+  "field": "w",
+  "severity": "check",
+  "problem": "Explanation contains the HTML entity &lt;; confirm it renders as < in the game and does not show literally.",
+  "replace": "3.4×10^−9 &lt; Ksp",
+  "with": "3.4×10^−9 is less than Ksp"
+ },
+ {
+  "id": "1B-250",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "1.1×10^-7 M forgets the square root when finding [Cl-] from Ksp(PbCl2); the line does not name that mistake.",
+  "new_text": "This skips the square root when finding [Cl⁻] from Ksp of PbCl₂, where [Cl⁻] is squared."
+ },
+ {
+  "id": "1B-109",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "Notation −T × (−ΔS) is confusing: ΔS° is itself the negative number, so read literally the expression has the wrong sign.",
+  "new_text": "ΔS° is negative, so subtracting TΔS° means adding a positive amount to ΔH°."
+ },
+ {
+  "id": "1B-109",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "'The sign is wrong.' does not say why the sign should be negative.",
+  "new_text": "Recheck the sign: ΔH° is negative and larger in size than the positive −TΔS° term at 298 K."
+ },
+ {
+  "id": "1B-110",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "'The sign is wrong.' does not help the student see the mistake.",
+  "new_text": "Recheck the order: products minus reactants. CO₂ has a more negative ΔG°f than CO."
+ },
+ {
+  "id": "1B-190",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "'The sign is wrong.' does not help the student see the mistake.",
+  "new_text": "Recheck the sign: reaction (2) releases more free energy than reaction (1) uses."
+ },
+ {
+  "id": "1B-251",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "'The sign is wrong.' does not help the student see the mistake.",
+  "new_text": "Recheck the order: subtract the reactant sum from the product sum, not the reverse."
+ },
+ {
+  "id": "1B-251",
+  "field": "scope",
+  "severity": "minor",
+  "problem": "ΔH°rxn from standard enthalpies of formation is CHEM 1A thermochemistry; 1B lists only the parallel ΔG°f/ΔS° calculations."
+ },
+ {
+  "id": "1B-259",
+  "field": "scope",
+  "severity": "minor",
+  "problem": "Thermochemical stoichiometry (heat released from grams of fuel) is CHEM 1A thermochemistry, not listed in the CHEM 1B outline."
+ },
+ {
+  "id": "1B-454",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "'The sign is dropped.' does not say why ΔG° must be negative.",
+  "new_text": "K is greater than 1, so ln K is positive. Recheck the minus sign in ΔG° = −RT ln K."
+ },
+ {
+  "id": "1B-456",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "'The sign is wrong.' does not help the student see the mistake.",
+  "new_text": "Recheck the sign: at 800 K the TΔS° term is larger than ΔH°."
+ },
+ {
+  "id": "1B-137",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "4.47 h comes from counting the 3 electrons per Al twice; the feedback does not name that mistake.",
+  "new_text": "This counts the 3 electrons per Al twice. Multiply mol Al by 3 only once to get mol e⁻."
+ },
+ {
+  "id": "1B-194",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "The student already has the right voltage; saying which beaker is reduced hands over the keyed choice.",
+  "new_text": "Reduction uses up Ag⁺. Ask which beaker must lose Ag⁺ for the two concentrations to even out."
+ },
+ {
+  "id": "1B-198",
+  "field": "h",
+  "severity": "minor",
+  "problem": "The hint gives the simplified relation E = 0.0592 log([H⁺]cathode/[H⁺]anode) with [H⁺]cathode = 1 M, which reduces the problem to pH = E/0.0592 and skips the n and squaring steps the distractors test.",
+  "new_text": "Treat this as a concentration cell in H⁺ with E° = 0. Write Q for 2 H⁺ + 2 e⁻ → H₂ with n = 2, and recall that pH = −log[H⁺]."
+ },
+ {
+  "id": "1B-321",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "5.15×10⁻⁶ A comes from dividing moles of electrons by time without converting to coulombs; the feedback does not name that mistake.",
+  "new_text": "This divides moles of electrons by time. Convert moles of electrons to coulombs with Faraday's constant first."
+ },
+ {
+  "id": "1B-378",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "The student already has the right voltage; stating that B is the cathode hands over the keyed choice.",
+  "new_text": "The cathode is where Cu²⁺ is reduced and its concentration drops. Which side must lose Cu²⁺ to even out the concentrations?"
+ },
+ {
+  "id": "1B-466",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "'+6 would need twice the charge' tells the student the answer is half of +6.",
+  "new_text": "+6 would need far more charge than 1158 C. Compare moles of electrons to moles of Cr."
+ },
+ {
+  "id": "1B-274",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback does not name the mistake; 'an extra factor of 1000' does not tell the student which step went wrong.",
+  "new_text": "This converts the mass defect from g to kg twice. Divide by 1000 only once."
+ },
+ {
+  "id": "1B-347",
+  "field": "q",
+  "severity": "check",
+  "problem": "The measured activity 3.8 has two significant figures, but the keyed answer and distractors are given to three.",
+  "replace": "activity of 3.8 disintegrations",
+  "with": "activity of 3.80 disintegrations"
+ },
+ {
+  "id": "1B-338",
+  "field": "x[2]",
+  "severity": "check",
+  "problem": "3.99×10⁻¹⁹ is the energy of one photon in J, so this choice skips Avogadro's number and also the J to kJ step. The feedback names only the first.",
+  "new_text": "This is the energy of one photon in joules. A mole of ions needs Avogadro's number, and the answer must be in kJ."
+ },
+ {
+  "id": "1B-540",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "Temperature is not part of the gas constant; the wording could confuse a student.",
+  "new_text": "The temperature in Π = MRT must be in kelvins, not degrees Celsius."
+ },
+ {
+  "id": "3A-167",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback names the step but does not say why it is wrong or what to do instead.",
+  "new_text": "This divides the density by the volume. Mass = density × volume, so multiply so that mL cancels."
+ },
+ {
+  "id": "3A-22",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback writes out the full equation with all numbers plugged in, which is the complete setup.",
+  "new_text": "This divides the boron-10 mass by the average atomic mass. Instead, let x be the fraction of boron-10 and (1 − x) the fraction of boron-11 in a weighted average."
+ },
+ {
+  "id": "3A-335",
+  "field": "x[1]",
+  "severity": "check",
+  "problem": "Implies strontium would fit if the 87 peak were larger. Sr (87.62) is heavier than both peaks, so no mix of 85 and 87 can give its mass.",
+  "new_text": "Strontium's atomic mass (87.62) is heavier than both peaks, so no mix of these two isotopes can average to it."
+ },
+ {
+  "id": "3A-335",
+  "field": "w",
+  "severity": "check",
+  "problem": "Same reasoning issue as feedback 1: Sr cannot be reached by any mix of masses 85 and 87.",
+  "replace": "Strontium (87.62) would need the 87 peak to dominate",
+  "with": "Strontium (87.62) is heavier than both peaks"
+ },
+ {
+  "id": "3A-62",
+  "field": "c[1]",
+  "severity": "check",
+  "problem": "Distractor 56.44% does not match the stated error: 90.08 / 159.62 × 100 = 56.43%. A student making that mistake gets 56.43%.",
+  "new_text": "56.43%"
+ },
+ {
+  "id": "3A-379",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "Feedback states the target mole ratio 1:2:1, which with the choices identifies the keyed formula.",
+  "new_text": "Convert each percent to moles first. C₂H₆O is only about 35% oxygen by mass, well below the 53.3% in the graph."
+ },
+ {
+  "id": "3A-379",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Saying C2H4O has half the oxygen needed tells the student to double O, which gives the keyed C2H4O2.",
+  "new_text": "Convert each percent to moles first. C₂H₄O is only about 36% oxygen by mass, well below the 53.3% in the graph."
+ },
+ {
+  "id": "3A-381",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback states the 2:6:1 mole ratio, which is the keyed formula C2H6O.",
+  "new_text": "C₃H₈O has 3 C for every O. Change each mass to moles and check whether this sample has that C to O ratio."
+ },
+ {
+  "id": "3A-271",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback only restates the formula and does not name the mistake that gives 23 °C (about half the keyed rise).",
+  "new_text": "Recheck your setup. The heat and the 20.0 g mass are the same for both samples, so only the specific heat changes."
+ },
+ {
+  "id": "3A-237",
+  "field": "w",
+  "severity": "check",
+  "problem": "Explanation contains raw HTML subscript tags, which may show as literal text.",
+  "replace": "PO<sub>2</sub>",
+  "with": "PO₂"
+ },
+ {
+  "id": "3A-371",
+  "field": "w",
+  "severity": "check",
+  "problem": "Explanation contains raw HTML subscript tags, which may show as literal text.",
+  "replace": "PCO<sub>2</sub>",
+  "with": "PCO₂"
+ },
+ {
+  "id": "3A-371",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Feedback is vague; it does not say what mistake gives 720 mmHg (the sum of the known gases).",
+  "new_text": "720 mmHg is the sum of the known gases. Subtract that sum from the total pressure."
+ },
+ {
+  "id": "3A-108",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Saying 488 mL is the water added lets the student get the answer by subtracting from 500 mL.",
+  "new_text": "This is not the volume of concentrated acid. A concentrated stock is used in a small amount, so solve M₁V₁ = M₂V₂ for V₁."
+ },
+ {
+  "id": "3A-198",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Saying 185 mL is the water added lets the student get the answer by adding 15.0 mL.",
+  "new_text": "This is not the final volume of the solution. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution."
+ },
+ {
+  "id": "3A-133",
+  "field": "x[3]",
+  "severity": "check",
+  "problem": "0.375 mL is not the liters value (0.0375 L) shown in mL, so 'check your unit conversion' does not clearly match how this pick arises; it is off by a factor of 100.",
+  "new_text": "0.375 mL is far too small for this titration. Moles divided by molarity gives liters, and 1 L is 1000 mL."
+ },
+ {
+  "id": "3A-134",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Saying 0.0200 is the answer in liters tells the student the keyed answer is 20.0 mL.",
+  "new_text": "Moles divided by molarity gives liters. Change liters to milliliters before you compare with the choices."
+ },
+ {
+  "id": "3B-26",
+  "field": "scope",
+  "severity": "minor",
+  "problem": "Hydrogenation is listed only for alkenes (COR 2.8); adding H₂ to an alkyne is not in the outline, though it follows from alkene hydrogenation."
+ },
+ {
+  "id": "3B-106",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Saying 6 is double the number of ester bonds tells the student the key is half of 6.",
+  "new_text": "6 uses two hydroxides for each ester bond. Each ester bond uses just one hydroxide, so count the ester bonds again."
+ },
+ {
+  "id": "3B-842",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "'one more C=C is elsewhere' gives the total directly (2 + 1).",
+  "new_text": "2 mol counts the double bonds in only one chain. Check every chain for C=C bonds."
+ },
+ {
+  "id": "3B-842",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Stating that one chain has two C=C and another has one gives the total directly.",
+  "new_text": "1 mol counts only one C=C. Look at each of the three chains, since more than one of them may have C=C bonds."
+ },
+ {
+  "id": "3B-842",
+  "field": "w",
+  "severity": "check",
+  "problem": "The explanation names chains by position (top, bottom, drawn to the left), which depends on how the SMILES is rendered and may not match the picture.",
+  "replace": "The top chain has 1 C=C, the bottom chain has 2 and the chain on the middle carbon of glycerol (drawn to the left) is saturated",
+  "with": "One end chain has 1 C=C, the other end chain has 2 and the chain on the middle carbon of glycerol is saturated"
+ },
+ {
+  "id": "3B-972",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "Telling the student each molecule has three C=C leaves only the scaling step.",
+  "new_text": "2.0 mol H₂ gives only one H₂ per molecule. Count the C=C bonds in each chain, and remember that adding H₂ changes how the chains pack."
+ },
+ {
+  "id": "3B-300",
+  "field": "scope",
+  "severity": "minor",
+  "problem": "Food energy values in kcal per gram are CHEM 3A (energy and nutrition) content; the 3B outline treats metabolic energy only as ATP yields."
+ },
+ {
+  "id": "3B-301",
+  "field": "q",
+  "severity": "minor",
+  "problem": "The stem asks about Calories but the table gives kcal; a student new to US food labels may not know a Calorie is a kcal.",
+  "replace": "what percent of its Calories come from fat",
+  "with": "what percent of its Calories (kcal) come from fat"
+ },
+ {
+  "id": "3B-301",
+  "field": "scope",
+  "severity": "minor",
+  "problem": "Food energy values in kcal per gram are CHEM 3A (energy and nutrition) content; the 3B outline treats metabolic energy only as ATP yields."
+ },
+ {
+  "id": "3B-302",
+  "field": "x[3]",
+  "severity": "minor",
+  "problem": "'The cycle count is also one too many' gives the keyed cycle count.",
+  "new_text": "Each acetyl CoA carries 2 carbons, so 14 acetyl CoA would need 28 carbons. Also think about how the last cycle changes the number of cycles."
+ },
+ {
+  "id": "3B-466",
+  "field": "scope",
+  "severity": "minor",
+  "problem": "Food energy values in kcal per gram are CHEM 3A (energy and nutrition) content; the 3B outline treats metabolic energy only as ATP yields."
+ },
+ {
+  "id": "3B-467",
+  "field": "h",
+  "severity": "minor",
+  "problem": "The hint lists every count (2 ATP, 10 NADH, 2 FADH₂, 2 GTP), leaving only multiplication for a difficulty-3 tally question.",
+  "new_text": "Tally the ATP, NADH, FADH₂ and GTP from each stage for one glucose. Remember that one glucose gives two pyruvate and two turns of the citric acid cycle."
+ },
+ {
+  "id": "3B-495",
+  "field": "q",
+  "severity": "minor",
+  "problem": "The liver makes urea; the kidneys excrete it. 'Liver excretes' is a false statement in the stem.",
+  "replace": "If a patient's liver excretes 12 nitrogen atoms as urea",
+  "with": "If a patient's liver puts 12 nitrogen atoms into urea"
+ },
+ {
+  "id": "3B-966",
+  "field": "h",
+  "severity": "minor",
+  "problem": "The hint states the whole one-step calculation (add the NADH value to the FADH2 value), so it leaves nothing for the student to do.",
+  "new_text": "Count the coenzymes one turn makes, then give each one its ATP value from the question."
+ },
+ {
+  "id": "3B-234",
+  "field": "scope",
+  "severity": "minor",
+  "problem": "Molar mass from a molecular formula is CHEM 3A prerequisite content; the 3B COR does not list it (it appears only implicitly in the aspirin/acetaminophen synthesis lab)."
+ },
+ {
+  "id": "3B-235",
+  "field": "x[1]",
+  "severity": "minor",
+  "problem": "Feedback gives the H count of the formula (6), which is the key step of the problem.",
+  "new_text": "89.07 is one H short. Count every H in the formula, including the ones bonded to O."
+ },
+ {
+  "id": "3B-409",
+  "field": "scope",
+  "severity": "minor",
+  "problem": "Molar mass from a molecular formula is CHEM 3A prerequisite content; the 3B COR does not list it (it appears only implicitly in the aspirin/acetaminophen synthesis lab)."
+ },
+ {
+  "id": "3B-426",
+  "field": "scope",
+  "severity": "minor",
+  "problem": "Mass-to-mass stoichiometry is CHEM 3A content; 3B COR 9.6 lists hydrolysis of glycosidic linkages but no stoichiometry calculations."
+ },
+ {
+  "id": "3B-861",
+  "field": "w",
+  "severity": "check",
+  "problem": "The plotted curve reads about 76% at 40 mmHg (interpolating 71.3% at 36 and 84.8% at 48), not 77%, and feedback 1 calls it about 75%. The explanation should match the figure.",
+  "replace": "about 77% at 40 mmHg (tissue). The difference, roughly 98 − 77 ≈ 20%,",
+  "with": "about 76% at 40 mmHg (tissue). The difference, roughly 98 − 76 ≈ 22%, or about 20%,"
+ },
+ {
+  "id": "3B-861",
+  "field": "scope",
+  "severity": "minor",
+  "problem": "The hemoglobin oxygen-binding curve is not in COR 11 (only levels of protein structure); answerable as graph reading."
+ },
+ {
+  "id": "3B-587",
+  "field": "scope",
+  "severity": "minor",
+  "problem": "Molar mass from a molecular formula is CHEM 3A prerequisite content; the 3B COR does not list it (it appears only implicitly in the aspirin/acetaminophen synthesis lab)."
+ },
+ {
+  "id": "3B-880",
+  "field": "x[2]",
+  "severity": "minor",
+  "problem": "Feedback points to the 4-minute reading and says to divide it by the time, which is the full setup for the keyed answer.",
+  "new_text": "20 μmol is an amount of product read from the graph, not a rate. A rate has units of μmol per minute."
+ }
+]

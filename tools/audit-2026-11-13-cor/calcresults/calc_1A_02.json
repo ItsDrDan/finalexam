@@ -1,0 +1,519 @@
+[
+ {
+  "id": "1A-29",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "giveaway",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[1]",
+    "severity": "minor",
+    "problem": "Feedback states the keyed C:O mole ratio (2:1), which with the H count gives away C₂H₄O.",
+    "new_text": "CH₂O needs equal moles of C and O. Find the mass of O by subtracting the C and H masses from the sample mass, then compare moles."
+   }
+  ]
+ },
+ {
+  "id": "1A-30",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "vague",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "Feedback is garbled ('about the moles ... not divided by the volume or doubled') and does not clearly name the two missed steps.",
+    "new_text": "0.143 is the number of moles of K₂SO₄. Divide by the volume in liters, then count the K⁺ ions in each formula unit."
+   }
+  ]
+ },
+ {
+  "id": "1A-31",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-32",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-33",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "giveaway",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[1]",
+    "severity": "minor",
+    "problem": "Feedback says how far off the pick is ('1000 times too big') and does not name the actual slip (mg over grams multiplied by 10⁶).",
+    "new_text": "This mixes units: milligrams of solute over grams of solution. Put both masses in the same unit, or use 1 ppm = 1 mg per liter for water."
+   }
+  ]
+ },
+ {
+  "id": "1A-34",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "giveaway"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "'Multiply by 0.90/100' gives the full setup for the keyed answer.",
+    "new_text": "This divides by the percent. NaCl is only a small part of the solution, so its mass must be much less than 240. g."
+   }
+  ]
+ },
+ {
+  "id": "1A-35",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-36",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-37",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-170",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "giveaway",
+   "2": "giveaway",
+   "3": "giveaway"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[1]",
+    "severity": "minor",
+    "problem": "Feedback states the keyed S:Al mole ratio (1.5), which gives away Al₂S₃.",
+    "new_text": "AlS needs equal moles of Al and S. Convert both masses to moles and compare them."
+   },
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "'This flips the ratio' tells the student the answer is Al₂S₃.",
+    "new_text": "Al₃S₂ has more Al atoms than S atoms. Convert both masses to moles and see which element has more moles."
+   },
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "Feedback states the keyed S:Al mole ratio (1.5), which gives away Al₂S₃.",
+    "new_text": "AlS₂ needs twice as many moles of S as of Al. Convert both masses to moles and compare them."
+   }
+  ]
+ },
+ {
+  "id": "1A-172",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-173",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-219",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-220",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "vague",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "14.53% is 18.016 ÷ 124.0 (water over the molar mass of the monohydrate Na₂CO₃·H₂O); the feedback does not name this slip.",
+    "new_text": "This treats the hydrate as having only one water, in both the water mass and the molar mass. Use all ten H₂O and the molar mass of the whole decahydrate."
+   }
+  ]
+ },
+ {
+  "id": "1A-221",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "giveaway"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "Feedback states the keyed 1:5:1 mole ratio, which is the answer CH₅N.",
+    "new_text": "C₂H₅N₃ needs more moles of N than of C. Convert each percent to moles and compare C with N."
+   }
+  ]
+ },
+ {
+  "id": "1A-222",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-223",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-224",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "vague",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "0.0800 M is 2.00 M × 10.00 mL/250.0 mL (first portion paired with the second flask); 'not mixed together' does not describe this slip.",
+    "new_text": "This pairs the 10.00 mL portion with the 250.0 mL flask. Pair each portion with its own flask volume and do the two steps in order."
+   }
+  ]
+ },
+ {
+  "id": "1A-347",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-348",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-349",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-518",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "giveaway",
+   "3": "giveaway"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "Feedback states the keyed 1:2:1 mole ratio, which is the answer CH₂O.",
+    "new_text": "Convert each percent to moles and divide by the smallest. Then recheck the C to O ratio."
+   },
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "Feedback states the keyed 1:2:1 mole ratio, which is the answer CH₂O.",
+    "new_text": "Recheck the hydrogen. Divide its mass by 1.008 g/mol, then by the smallest mole value."
+   }
+  ]
+ },
+ {
+  "id": "1A-519",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-520",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "giveaway",
+   "3": "giveaway"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "Feedback states the keyed H/C ratio (2.67 = 8/3), which gives away C₃H₈.",
+    "new_text": "C₂H₅ has an H to C ratio of 2.5. Recheck the moles of C from the CO₂ mass and the moles of H from the H₂O mass."
+   },
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "Feedback states the keyed H/C ratio (2.67 = 8/3), which gives away C₃H₈.",
+    "new_text": "CH₃ has an H to C ratio of 3. Recheck the moles of C from the CO₂ mass and the moles of H from the H₂O mass."
+   }
+  ]
+ },
+ {
+  "id": "1A-521",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-522",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-523",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-546",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-548",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-549",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "giveaway",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "Feedback gives the intermediate molar mass (146 g/mol), from which n = 6 follows in one step.",
+    "new_text": "SF₈ would be 184 g/mol. Find the molar mass from the sample mass and the number of moles, then compare."
+   }
+  ]
+ },
+ {
+  "id": "1A-552",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1A-553",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ }
+]

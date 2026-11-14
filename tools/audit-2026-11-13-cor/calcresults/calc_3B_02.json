@@ -1,0 +1,484 @@
+[
+ {
+  "id": "3B-484",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-485",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-486",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-487",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-488",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-489",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-490",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-495",
+  "wording": "flag",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "q",
+    "severity": "minor",
+    "problem": "The liver makes urea; the kidneys excrete it. 'Liver excretes' is a false statement in the stem.",
+    "replace": "If a patient's liver excretes 12 nitrogen atoms as urea",
+    "with": "If a patient's liver puts 12 nitrogen atoms into urea"
+   }
+  ]
+ },
+ {
+  "id": "3B-966",
+  "wording": "ok",
+  "hint": "giveaway",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "h",
+    "severity": "minor",
+    "problem": "The hint states the whole one-step calculation (add the NADH value to the FADH2 value), so it leaves nothing for the student to do.",
+    "new_text": "Count the coenzymes one turn makes, then give each one its ATP value from the question."
+   }
+  ]
+ },
+ {
+  "id": "3B-967",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-1018",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-234",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "borderline",
+  "findings": [
+   {
+    "field": "scope",
+    "severity": "minor",
+    "problem": "Molar mass from a molecular formula is CHEM 3A prerequisite content; the 3B COR does not list it (it appears only implicitly in the aspirin/acetaminophen synthesis lab)."
+   }
+  ]
+ },
+ {
+  "id": "3B-235",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "giveaway",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[1]",
+    "severity": "minor",
+    "problem": "Feedback gives the H count of the formula (6), which is the key step of the problem.",
+    "new_text": "89.07 is one H short. Count every H in the formula, including the ones bonded to O."
+   }
+  ]
+ },
+ {
+  "id": "3B-409",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "borderline",
+  "findings": [
+   {
+    "field": "scope",
+    "severity": "minor",
+    "problem": "Molar mass from a molecular formula is CHEM 3A prerequisite content; the 3B COR does not list it (it appears only implicitly in the aspirin/acetaminophen synthesis lab)."
+   }
+  ]
+ },
+ {
+  "id": "3B-896",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-417",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-426",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "borderline",
+  "findings": [
+   {
+    "field": "scope",
+    "severity": "minor",
+    "problem": "Mass-to-mass stoichiometry is CHEM 3A content; 3B COR 9.6 lists hydrolysis of glycosidic linkages but no stoichiometry calculations."
+   }
+  ]
+ },
+ {
+  "id": "3B-442",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-447",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-853",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-859",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-861",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "unclear",
+  "scope": "borderline",
+  "findings": [
+   {
+    "field": "w",
+    "severity": "check",
+    "problem": "The plotted curve reads about 76% at 40 mmHg (interpolating 71.3% at 36 and 84.8% at 48), not 77%, and feedback 1 calls it about 75%. The explanation should match the figure.",
+    "replace": "about 77% at 40 mmHg (tissue). The difference, roughly 98 − 77 ≈ 20%,",
+    "with": "about 76% at 40 mmHg (tissue). The difference, roughly 98 − 76 ≈ 22%, or about 20%,"
+   },
+   {
+    "field": "scope",
+    "severity": "minor",
+    "problem": "The hemoglobin oxygen-binding curve is not in COR 11 (only levels of protein structure); answerable as graph reading."
+   }
+  ]
+ },
+ {
+  "id": "3B-581",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-582",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-583",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-584",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-585",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-586",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-587",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "borderline",
+  "findings": [
+   {
+    "field": "scope",
+    "severity": "minor",
+    "problem": "Molar mass from a molecular formula is CHEM 3A prerequisite content; the 3B COR does not list it (it appears only implicitly in the aspirin/acetaminophen synthesis lab)."
+   }
+  ]
+ },
+ {
+  "id": "3B-588",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-820",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "3B-880",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "giveaway",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "Feedback points to the 4-minute reading and says to divide it by the time, which is the full setup for the keyed answer.",
+    "new_text": "20 μmol is an amount of product read from the graph, not a rate. A rate has units of μmol per minute."
+   }
+  ]
+ }
+]

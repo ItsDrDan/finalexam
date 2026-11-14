@@ -1,0 +1,45 @@
+[
+{"id":"1B-300","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-301","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-302","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-398","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-399","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-400","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-444","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-445","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-446","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-512","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-106","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-107","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-108","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-109","wording":"ok","hint":"ok","fb":{"1":"vague","2":"vague","3":"ok"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[1]","severity":"minor","problem":"Notation −T × (−ΔS) is confusing: ΔS° is itself the negative number, so read literally the expression has the wrong sign.","new_text":"ΔS° is negative, so subtracting TΔS° means adding a positive amount to ΔH°."},
+ {"field":"x[2]","severity":"minor","problem":"'The sign is wrong.' does not say why the sign should be negative.","new_text":"Recheck the sign: ΔH° is negative and larger in size than the positive −TΔS° term at 298 K."}]},
+{"id":"1B-110","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"vague"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[3]","severity":"minor","problem":"'The sign is wrong.' does not help the student see the mistake.","new_text":"Recheck the order: products minus reactants. CO₂ has a more negative ΔG°f than CO."}]},
+{"id":"1B-111","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-112","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-113","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-118","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-121","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-123","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-190","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"vague"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[3]","severity":"minor","problem":"'The sign is wrong.' does not help the student see the mistake.","new_text":"Recheck the sign: reaction (2) releases more free energy than reaction (1) uses."}]},
+{"id":"1B-193","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-251","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"vague"},"expl":"ok","scope":"borderline","findings":[
+ {"field":"x[3]","severity":"minor","problem":"'The sign is wrong.' does not help the student see the mistake.","new_text":"Recheck the order: subtract the reactant sum from the product sum, not the reverse."},
+ {"field":"scope","severity":"minor","problem":"ΔH°rxn from standard enthalpies of formation is CHEM 1A thermochemistry; 1B lists only the parallel ΔG°f/ΔS° calculations."}]},
+{"id":"1B-252","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-253","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-255","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-256","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-259","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"out","findings":[
+ {"field":"scope","severity":"minor","problem":"Thermochemical stoichiometry (heat released from grams of fuel) is CHEM 1A thermochemistry, not listed in the CHEM 1B outline."}]},
+{"id":"1B-410","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-411","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-453","wording":"ok","hint":"ok","fb":{"1":"ok","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[]},
+{"id":"1B-454","wording":"ok","hint":"ok","fb":{"1":"ok","2":"vague","3":"ok"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[2]","severity":"minor","problem":"'The sign is dropped.' does not say why ΔG° must be negative.","new_text":"K is greater than 1, so ln K is positive. Recheck the minus sign in ΔG° = −RT ln K."}]},
+{"id":"1B-456","wording":"ok","hint":"ok","fb":{"1":"vague","2":"ok","3":"ok"},"expl":"ok","scope":"in","findings":[
+ {"field":"x[1]","severity":"minor","problem":"'The sign is wrong.' does not help the student see the mistake.","new_text":"Recheck the sign: at 800 K the TΔS° term is larger than ΔH°."}]}
+]

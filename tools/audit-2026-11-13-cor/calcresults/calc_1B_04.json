@@ -1,0 +1,550 @@
+[
+ {
+  "id": "1B-236",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-238",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-239",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-242",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "vague",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[1]",
+    "severity": "minor",
+    "problem": "4.5 g comes from flipping the ratio when solving Kb for [NH4+]; the line only restates the setup.",
+    "new_text": "This flips the ratio when solving for [NH₄⁺]. Check which quantity belongs in the denominator."
+   }
+  ]
+ },
+ {
+  "id": "1B-296",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "1.0×10^-7 comes from assuming pH 7; the line does not name that mistake.",
+    "new_text": "pH 7 is not a special point for a weak acid titration. Ka comes from the pH at half the equivalence volume."
+   }
+  ]
+ },
+ {
+  "id": "1B-298",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "1.0×10^-10 uses the pH near the second equivalence point (about 10); the line only repeats the hint.",
+    "new_text": "pH 10 is near the second equivalence point. Ka2 comes from the pH halfway between the two equivalence points."
+   }
+  ]
+ },
+ {
+  "id": "1B-359",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-360",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-370",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-372",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-438",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-511",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-87",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-88",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "1.7×10^-3 divides Ksp by 2 instead of 4; the line gives the full setup without naming the mistake.",
+    "new_text": "This divides Ksp by 2. Since [I⁻] = 2s and that term is squared, the factor is 4."
+   }
+  ]
+ },
+ {
+  "id": "1B-89",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "5.1×10^-8 doubles [OH-] but does not square it; the line gives the full formula instead of naming the mistake.",
+    "new_text": "This doubles [OH⁻] but forgets to square it."
+   }
+  ]
+ },
+ {
+  "id": "1B-90",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "giveaway"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "4.2×10^-5 takes a square root; the line gives the full setup s = Ksp ÷ 0.10 instead of naming the mistake.",
+    "new_text": "AgCl is 1:1, so once NaCl fixes [Cl⁻] no square root is needed."
+   }
+  ]
+ },
+ {
+  "id": "1B-91",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "vague",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "1.1×10^-4 M is the solubility in pure water, (Ksp/4)^(1/3); the line does not say so.",
+    "new_text": "1.1×10⁻⁴ M is the solubility in pure water. Here the buffer fixes [OH⁻]."
+   }
+  ]
+ },
+ {
+  "id": "1B-93",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "w",
+    "severity": "check",
+    "problem": "Explanation contains the HTML entity &lt;; confirm it renders as < in the game and does not show literally.",
+    "replace": "2.5×10^−5 &lt; 4.9×10^−5",
+    "with": "2.5×10^−5 is less than 4.9×10^−5"
+   }
+  ]
+ },
+ {
+  "id": "1B-95",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "1.0×10^-5 M is the solubility of BaSO4 in pure water; the line only repeats the hint.",
+    "new_text": "1.0×10⁻⁵ M is the solubility of BaSO₄ in pure water. Here [SO₄²⁻] is set by the point where CaSO₄ starts to form."
+   }
+  ]
+ },
+ {
+  "id": "1B-97",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-98",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-99",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-100",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-101",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-183",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-184",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "7.07 divides by 4 as if [OH-] were 2s; the line gives the setup without naming the mistake.",
+    "new_text": "This divides by 4 as if [OH⁻] were 2s. Here [Ni²⁺] is fixed at 0.010 M, so no extra factor is needed."
+   }
+  ]
+ },
+ {
+  "id": "1B-186",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-244",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "vague",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "1.4×10^-5 is s(2s), which forgets to square [F-]; the line only restates the formula.",
+    "new_text": "This doubles [F⁻] but forgets to square it."
+   }
+  ]
+ },
+ {
+  "id": "1B-245",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-246",
+  "wording": "ok",
+  "hint": "giveaway",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "vague"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[3]",
+    "severity": "minor",
+    "problem": "4.3×10^-4 M uses 2 × 0.10 M for [Cl-]; the line gives the full setup instead of naming the mistake.",
+    "new_text": "The NaCl already sets [Cl⁻] at 0.10 M. Do not double it."
+   },
+   {
+    "field": "h",
+    "severity": "minor",
+    "problem": "Hint gives [Cl-] = 0.10 M and s = Ksp/[Cl-]^2, the full setup with numbers; the student only has to divide.",
+    "new_text": "Common-ion effect: the NaCl fixes [Cl⁻] at 0.10 M, so only [Pb²⁺] = s is unknown in the Ksp expression."
+   }
+  ]
+ },
+ {
+  "id": "1B-247",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "w",
+    "severity": "check",
+    "problem": "Explanation contains the HTML entity &lt;; confirm it renders as < in the game and does not show literally.",
+    "replace": "3.4×10^−9 &lt; Ksp",
+    "with": "3.4×10^−9 is less than Ksp"
+   }
+  ]
+ },
+ {
+  "id": "1B-249",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ },
+ {
+  "id": "1B-250",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "vague",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": [
+   {
+    "field": "x[2]",
+    "severity": "minor",
+    "problem": "1.1×10^-7 M forgets the square root when finding [Cl-] from Ksp(PbCl2); the line does not name that mistake.",
+    "new_text": "This skips the square root when finding [Cl⁻] from Ksp of PbCl₂, where [Cl⁻] is squared."
+   }
+  ]
+ },
+ {
+  "id": "1B-299",
+  "wording": "ok",
+  "hint": "ok",
+  "fb": {
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "expl": "ok",
+  "scope": "in",
+  "findings": []
+ }
+]
