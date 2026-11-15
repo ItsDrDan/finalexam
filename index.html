@@ -1176,6 +1176,41 @@ function fbSvg(o,b,cap,aria,pad=8,z=1){if(cap){const cy=b.y1+22*z;o+=svgT((b.x0+
  const x=b.x0-pad,y=b.y0-pad,w=b.x1-b.x0+2*pad,h=b.y1-b.y0+2*pad;return `<svg class="fsvg" viewBox="${x.toFixed(1)} ${y.toFixed(1)} ${w.toFixed(1)} ${h.toFixed(1)}" width="${w.toFixed(0)}" height="${h.toFixed(0)}" role="img" aria-label="${aria}">${o}</svg>`}
 function fbMulti(f,one){const it=f.items;if(it.length===1)return one(Object.assign({},f,it[0],{items:null}));return `<div class="fwrap">${it.map(x=>`<div class="fpart">${one(Object.assign({_m:1},f,x,{items:null}))}</div>`).join('')}</div>`}
 /* f.top, f.rows=[[left,right] | [left,right,tag] | "C=O"], f.bottom, f.nums (carbon numbers), f.ttag/f.btag, f.cap; or f.items=[{...}] */
+/* FBX-A11Y-START (patched 2026-11-14; build_fbx.py was not available, so re-apply this block if fbx.js is ever rebuilt).
+   Screen-reader labels for Fischer and Haworth figures: they say what is drawn (groups, positions, ring size, links, captions,
+   letter tags), never the sugar's name. Same rules as carbohydrates/index.html; checked by tools/check-fbx-a11y.js. */
+const FB_A11Y_HW = {glucose:[6,[['H','OH'],['OH','H'],['H','OH'],['CH2OH','H']],[1,2,3,4,5]],galactose:[6,[['H','OH'],['OH','H'],['OH','H'],['CH2OH','H']],[1,2,3,4,5]],mannose:[6,[['OH','H'],['OH','H'],['H','OH'],['CH2OH','H']],[1,2,3,4,5]],fructose:[5,[['OH','H'],['H','OH'],['CH2OH','H']],[2,3,4,5]],ribose:[5,[['H','OH'],['H','OH'],['CH2OH','H']],[1,2,3,4]],deoxyribose:[5,[['H','H'],['H','OH'],['CH2OH','H']],[1,2,3,4]]}; /* same data as the drawing engine's HW_SUG, with plain-text groups */
+const fbA11yTxt = h => { const t = String(h == null ? '' : h).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(); return ({ HO: 'OH', HOCH2: 'CH2OH', H3C: 'CH3', H2N: 'NH2', HOOC: 'COOH' })[t] || t; }; /* mirrored drawing labels read the same as their normal form */
+const fbA11yAttr = t => fbA11yTxt(t).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+function fbA11yPair(c, up, down) { up = fbA11yTxt(up); down = fbA11yTxt(down);
+  if (up === 'H' && down === 'H') return c + ' H on both sides';
+  if (up === 'H' || !up) return c + ' ' + down + ' down';
+  if (down === 'H' || !down) return c + ' ' + up + ' up';
+  return c + ' ' + up + ' up and ' + down + ' down'; }
+function fbA11yRingSubs(r) { /* returns {size, subs [[up,down]] from the anomeric carbon on, nums} for an FBX ring spec */
+  if (r.sugar && FB_A11Y_HW[r.sugar]) { const h = FB_A11Y_HW[r.sugar], fr = r.sugar === 'fructose', an = r.anomer === 'a' ? (fr ? ['CH2OH', 'OH'] : ['H', 'OH']) : (fr ? ['OH', 'CH2OH'] : ['OH', 'H']); return { size: h[0], subs: [an].concat(h[1]), nums: h[2] }; }
+  return { size: +r.size || (r.subs ? r.subs.length + 1 : 6), subs: r.subs || [], nums: Array.isArray(r.nums) ? r.nums : (r.subs || []).map((x, i) => i + 1) }; }
+const fbA11yRingSize = n => n === 6 ? 'six-membered (ring O and 5 carbons)' : n === 5 ? 'five-membered (ring O and 4 carbons)' : n + '-membered';
+function fbA11yRingText(r, link) { const R = fbA11yRingSubs(r); return fbA11yRingSize(R.size) + ': ' + R.subs.map((x, i) => { if (link && link[0] === i) { const up = link[1] === 'up', other = up ? x[1] : x[0]; return 'C' + R.nums[i] + ' bond to the bridging O ' + link[1] + (other && fbA11yTxt(other) !== 'H' ? ', ' + fbA11yTxt(other) + (up ? ' down' : ' up') : ''); } return fbA11yPair('C' + R.nums[i], x[0], x[1]); }).join('; '); } /* in a disaccharide the linked carbon shows the O bridge instead of its –OH */
+function fbA11yTagText(r, where) { const t = r.tags || {}, out = []; const R = fbA11yRingSubs(r);
+  Object.entries(t).forEach(([k, l]) => out.push(`label ${fbA11yTxt(l)} is on ${k === 'O' ? 'the ring O' : 'C' + R.nums[+k]}${where}`)); return out; }
+function fbA11yHaworth(f) {
+  const cap = f.cap ? ' Caption: ' + fbA11yTxt(f.cap) + '.' : '';
+  if (f.rings) { const L = f.rings[0], Rr = f.rings[1], lk = f.link || {}, nL = fbA11yRingSubs(L).nums, nR = fbA11yRingSubs(Rr).nums;
+    const join = lk.from && lk.to ? ` The bridging O joins C${nL[lk.from[0]]} of the left ring (bond pointing ${lk.from[1]}) to C${nR[lk.to[0]]} of the right ring.` : '';
+    const tags = [...fbA11yTagText(L, ' of the left ring'), ...fbA11yTagText(Rr, ' of the right ring')].concat(lk.tag ? ['label ' + fbA11yTxt(lk.tag) + ' is the bridging O'] : []);
+    return `Two Haworth rings joined through an O. Left ring, ${fbA11yRingText(L, lk.from)}. Right ring, ${fbA11yRingText(Rr, lk.to)}.${join}${tags.length ? ' ' + tags.join('; ') + '.' : ''}${cap}`; }
+  const tags = fbA11yTagText(f, '');
+  return `Haworth ring, ${fbA11yRingText(f)}.${tags.length ? ' ' + tags.join('; ') + '.' : ''}${cap}`; }
+function fbA11yFischer(f) {
+  let n = 1; const parts = ['C' + (n++) + ' ' + fbA11yTxt(f.top || 'CHO')];
+  (f.rows || []).forEach(r => { const c = 'C' + (n++); parts.push(typeof r === 'string' ? c + ' ' + fbA11yTxt(r) : `${c} ${fbA11yTxt(r[0])} left, ${fbA11yTxt(r[1])} right`); });
+  parts.push('C' + (n++) + ' ' + fbA11yTxt(f.bottom || 'CH2OH'));
+  return 'Fischer projection, top to bottom: ' + parts.join('; ') + '.' + (f.cap ? ' Caption: ' + fbA11yTxt(f.cap) + '.' : ''); }
+function fbA11yFig(f) { try { if (!f || f.items) return ''; if (f.type === 'haworth') return fbA11yHaworth(f); if (f.type === 'fischer') return fbA11yFischer(f); } catch (e) {} return ''; }
+const fbAriaFischer = f => { try { return fbA11yAttr(fbA11yFischer(f)) || 'Fischer projection'; } catch (e) { return 'Fischer projection'; } };
+const fbAriaHaworth = f => { try { return fbA11yAttr(fbA11yHaworth(f)) || 'Haworth projection'; } catch (e) { return 'Haworth projection'; } };
+/* FBX-A11Y-END */
 function fFischer(f){if(f.items)return fbMulti(f,fFischer);const g=46,cw=10.6,rows=f.rows||[],b=fbBox();let o='',y=0,n=1;
  const lab=(x,y,t,anc)=>{const w=fbW(t,cw);o+=fbT(x,y+6,t,`font-size="17" text-anchor="${anc}"`);const xa=anc==='end'?x-w:anc==='start'?x:x-w/2;b.add(xa,y-11);b.add(xa+w,y+11);return w};
  const endLab=(t,tag,y)=>{const w=lab(-6.5,y,t,'start');if(f.nums){o+=fbNum(-16,y+5,n);b.add(-22,y)}if(tag){o+=fbTag(w+5,y,tag);b.add(w+16,y)}n++};
@@ -1183,7 +1218,7 @@ function fFischer(f){if(f.items)return fbMulti(f,fFischer);const g=46,cw=10.6,ro
  rows.forEach(r=>{y+=g;if(typeof r==='string'){o+=fbL(0,prev,0,y-11);lab(0,y,'C','middle');o+=fbL(9,y-3.2,25,y-3.2,2.2)+fbL(9,y+3.2,25,y+3.2,2.2);lab(32,y,'O','middle');if(f.nums)o+=fbNum(-13,y+19,n);prev=y+11}
   else{o+=fbL(0,prev,0,y)+fbL(-26,y,26,y);lab(-30,y,r[0],'end');lab(30,y,r[1],'start');if(f.nums)o+=fbNum(-11,y+18,n);if(r[2])o+=fbTag(15,y-15,r[2]);prev=y}n++});
  y+=g;o+=fbL(0,prev,0,y-11);endLab(f.bottom||'CH<sub>2</sub>OH',f.btag,y);
- return fbSvg(o,b,f.cap,'Fischer projection')}
+ return fbSvg(o,b,f.cap,fbAriaFischer(f))}
 /* Haworth ring: f.size 5|6 and f.subs=[[up,down],...] from the anomeric carbon around the ring, or f.sugar (glucose, galactose, mannose, fructose, ribose, deoxyribose) + f.anomer 'a'|'b'.
    f.nums (true or a list), f.tags {index|'O': letter}, f.noH, f.flip (ring turned over: O in front). Disaccharide: f.rings=[ringA, ringB] + f.link={from:[i,'up'|'down'],to:[j,'up'|'down'],dy,tag}. */
 const HW_SUG={glucose:[6,[['H','OH'],['OH','H'],['H','OH'],['CH<sub>2</sub>OH','H']],[1,2,3,4,5]],galactose:[6,[['H','OH'],['OH','H'],['OH','H'],['CH<sub>2</sub>OH','H']],[1,2,3,4,5]],mannose:[6,[['OH','H'],['OH','H'],['H','OH'],['CH<sub>2</sub>OH','H']],[1,2,3,4,5]],
@@ -1217,7 +1252,7 @@ function fHaworth(f){if(f.items)return fbMulti(f,fHaworth);const b=fbBox();let o
   o+=fbL(cA[0],cA[1],P1[0],P1[1])+fbL(P1[0],P1[1],e1[0],e1[1])+fbL(P2[0],P2[1],e2[0],e2[1])+fbL(P2[0],P2[1],cB[0],cB[1]);
   o+=fbT(Ox,Oy+6*fz,'O',`font-size="${17*fz}" text-anchor="middle"`);b.add(Ox,Oy+12);if(lk.tag){const ty=Oy+24*fz;o+=fbTag(Ox,ty,lk.tag,fz);b.add(Ox,ty-10);b.add(Ox,ty+10)}}
  else o+=hwDraw(hwRing(Object.assign({fz},f)),0,0,b).o;
- return fbSvg(o,b,f.cap,'Haworth projection',8,fz)}
+ return fbSvg(o,b,f.cap,fbAriaHaworth(f),8,fz)}
 /* Orbital box diagrams: subs=[{name:'2p',boxes:['ud','u','']}] ; box codes: '' empty, 'u' ↑, 'd' ↓, 'ud' ↑↓, 'uu' ↑↑ (Hund violation), 'dd'. items=[{subs,cap}] draws several side by side. */
 function fOrbitals(f){const one=(g,ox,oy)=>{let o='',x=ox;const BW=30,GAP=6;
   if(g.stack){/* energy-stacked: first sub at the bottom */const n=g.subs.length,rowH=58,wmax=Math.max(...g.subs.map(sb=>sb.boxes.length*BW));
