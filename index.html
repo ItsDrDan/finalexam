@@ -802,16 +802,19 @@ function skelSVG(m,sc){const U=(sc||1)*30,A=m.a.map(a=>({t:a[0],x:a[1]*U,y:a[2]*
    if(inner){o+=ln(x1,y1,x2,y2);const s=0.16;o+=ln(x1+px*6+ux*l*s,y1+py*6+uy*l*s,x2+px*6-ux*l*s,y2+py*6-uy*l*s)}else[-3,3].forEach(f=>{o+=ln(x1+px*f,y1+py*f,x2+px*f,y2+py*f)})}});
  A.forEach(a=>{if(!show(a))return;
   /* place multi-letter labels so the bonded atom (O of OH, N of NH2, C of CH2OH) sits on the bond, and write them right-to-left (HO, H2N) when the bond comes from the right */
-  let lt=a.t,anc='middle',lx=a.x;const ii=A.indexOf(a);let nx=0;(m.b||[]).forEach(([p,q,od])=>{if(od===0)return;const n=p===ii?A[q]:q===ii?A[p]:null;if(n){const d=Math.hypot(n.x-a.x,n.y-a.y)||1;nx+=(n.x-a.x)/d}});
-  const GW=c=>/[OQ]/.test(c)?13.2:/[NCHD]/.test(c)?12.3:/[S]/.test(c)?11.4:/[0-9]/.test(c)?6.7:/[a-z]/.test(c)?9.5:11.5;
+  let lt=a.t,anc='middle',lx=a.x,sp=null;const ii=A.indexOf(a);let nx=0;(m.b||[]).forEach(([p,q,od])=>{if(od===0)return;const n=p===ii?A[q]:q===ii?A[p]:null;if(n){const d=Math.hypot(n.x-a.x,n.y-a.y)||1;nx+=(n.x-a.x)/d}});
+  const GW=c=>/[()]/.test(c)?6.2:/[OQ]/.test(c)?13.2:/[NCHD]/.test(c)?12.3:/[S]/.test(c)?11.4:/[0-9]/.test(c)?6.7:/[a-z]/.test(c)?9.5:11.5;
   if(/^[A-Z][a-z]?H\d?$/.test(lt)&&nx>0.35)lt='H'+lt.slice(lt.indexOf('H')+1)+lt.slice(0,lt.indexOf('H'));
   else if(/^H\d?[A-Z][a-z]?$/.test(lt)&&nx<-0.35){const k=lt.search(/[A-GI-Z]/);lt=lt.slice(k)+lt.slice(0,k)}
   else if(lt==='HOCH2'&&nx<-0.35)lt='CH2OH';else if(lt==='CH2OH'&&nx>0.35)lt='HOCH2';
-  if(lt.length>1&&/^[A-Z]/.test(lt)&&!/^[A-Z][a-z]?$/.test(lt)&&/^[A-Za-z0-9]+$/.test(lt)){
+  /* condensed chain labels with parentheses: the C of the (CH2)n group next to the bond sits on the bond: (CH2)7COOH bonds at its first C, CH3(CH2)7 at the C inside the last parentheses */
+  if(/[()]/.test(lt)){const ch=[...lt],k=lt[0]==='('?1:/\)\d*$/.test(lt)?lt.lastIndexOf('(')+1:ch.findIndex(c=>/[A-GI-Z]/.test(c));if(k>=0){sp=[ch.slice(0,k).join(''),ch[k],ch.slice(k+1).join('')];const hw=GW(ch[k])/2,pw=[...sp[0]].reduce((w,c)=>w+GW(c),0),qw=[...sp[2]].reduce((w,c)=>w+GW(c),0);cg.push([a.x-hw-pw*1.1+8,a.y],[a.x+hw+qw*1.1-8,a.y])}}
+  else if(lt.length>1&&/^[A-Z]/.test(lt)&&!/^[A-Z][a-z]?$/.test(lt)&&/^[A-Za-z0-9]+$/.test(lt)){
    if(lt[0]!=='H'){anc='start';lx=a.x-GW(lt[0])/2}
    else{const ch=[...lt],hv=ch.map((c,k)=>/[A-GI-Z]/.test(c)?k:-1).filter(k=>k>=0),k=hv[hv.length-1];if(k!=null&&k>=0){anc='end';lx=a.x+GW(lt[k])/2+ch.slice(k+1).reduce((w,c)=>w+GW(c),0)}}}
-  const t=lt.replace(/(\d)/g,'<tspan dy="4" font-size="12">$1</tspan><tspan dy="-4"></tspan>');
-  o+=`<text x="${lx.toFixed(1)}" y="${(a.y+6.3).toFixed(1)}" text-anchor="${anc}" font-size="17" font-weight="800" font-family="Nunito,Inter,Helvetica,Arial,sans-serif" fill="${/^C(H\d?|\u200b)?$/.test(a.t)?S:'#c0473b'}" stroke="#fff" stroke-width="5" stroke-linejoin="round" paint-order="stroke">${t}</text>`;
+  const sub=z=>z.replace(/(\d)/g,'<tspan dy="4" font-size="12">$1</tspan><tspan dy="-4"></tspan>'),txt=(x,an,z)=>`<text x="${x.toFixed(1)}" y="${(a.y+6.3).toFixed(1)}" text-anchor="${an}" font-size="17" font-weight="800" font-family="Nunito,Inter,Helvetica,Arial,sans-serif" fill="${/^C(H\d?|\u200b)?$/.test(a.t)?S:'#c0473b'}" stroke="#fff" stroke-width="5" stroke-linejoin="round" paint-order="stroke">${sub(z)}</text>`;
+  /* split labels draw the bonded atom centered on the bond end and hang the rest of the label off each side, so the join holds in any font */
+  if(sp){const hw=GW(sp[1])/2,P=[[a.x-hw,'end',sp[0]],[a.x,'middle',sp[1]],[a.x+hw,'start',sp[2]]].filter(p=>p[2]),all=P.map(p=>txt(...p)).join('');o+=all.replace(/fill="[^"]*"/g,'fill="#fff"')+all.replace(/ stroke="#fff" stroke-width="5" stroke-linejoin="round" paint-order="stroke"/g,'')}else o+=txt(lx,anc,lt);
   if(a.ch){const g=a.t==='C'?gapDir(A.indexOf(a)):supDir(A.indexOf(a)),lw=a.t==='C'?0:a.t.replace(/\d/g,'').length*10.5,ext=anc==='middle'?lw/2:(anc==='start')===(Math.cos(g)>=0)?lw-6:6,rr=11+ext*Math.abs(Math.cos(g))+(a.t==='C'?6:4)*Math.abs(Math.sin(g))+(Math.sin(g)>0.3&&/\d/.test(lt)?4:0),cx=a.x+Math.cos(g)*rr,cy=a.y+Math.sin(g)*rr;cg.push([cx,cy]);o+=`<text x="${cx.toFixed(1)}" y="${(cy+5).toFixed(1)}" text-anchor="middle" font-size="14" font-weight="900" fill="${S}" font-family="Inter,Helvetica,Arial,sans-serif">${a.ch>0?'+':'−'}</text>`}});
  const ringsOf=i=>{const out=[];const nb=adj[i];for(let u=0;u<nb.length;u++)for(let v=u+1;v<nb.length;v++){const prev={[nb[u]]:i},q=[nb[u]];let found=null;while(q.length&&!found){const x=q.shift();for(const y of adj[x]){if(y===i&&x!==nb[u]&&x===nb[v]){found=x;break}if(y===i||y in prev)continue;prev[y]=x;q.push(y)}}if(found!=null){const path=[i];let w=found;while(w!==i){path.push(w);w=prev[w]}if(path.length<=8)out.push(path.map(k=>[A[k].x,A[k].y]))}}return out};
  const inPoly=(x,y,P)=>{let c=false;for(let i=0,j=P.length-1;i<P.length;j=i++){if(((P[i][1]>y)!==(P[j][1]>y))&&(x<(P[j][0]-P[i][0])*(y-P[i][1])/(P[j][1]-P[i][1])+P[i][0]))c=!c}return c};
