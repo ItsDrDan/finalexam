@@ -1,0 +1,226 @@
+[
+{
+ "id": "rom-01", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Which compounds are converted essentially completely to their conjugate bases by one equivalent of aqueous NaOH? (pK<sub>a</sub> of H<sub>2</sub>O = 15.7)",
+ "s": [{"smi": "O=[N+]([O-])c1ccc(O)cc1", "cap": "I"}, {"smi": "OC1CCCCC1", "cap": "II"}, {"smi": "COc1ccc(O)cc1", "cap": "III"}],
+ "c": ["I and III only", "I only", "III only", "I, II, and III"],
+ "h": "Compare each O–H pK<sub>a</sub> with 15.7. The equilibrium favors the side with the weaker acid.",
+ "w": "Hydroxide removes a proton completely when the acid is much stronger than water (pK<sub>a</sub> well below 15.7). I, 4-nitrophenol (pK<sub>a</sub> ≈ 7.2): true; the phenoxide is stabilized by resonance into the ring and onto the para nitro group. II, cyclohexanol (pK<sub>a</sub> ≈ 16–18): false; an alkoxide has no resonance stabilization, so K<sub>eq</sub> with hydroxide is about 1 or less and most of the alcohol stays protonated. III, 4-methoxyphenol (pK<sub>a</sub> ≈ 10.2): true; the electron-donating OCH<sub>3</sub> makes it slightly weaker than phenol, but it is still about 10<sup>5</sup> times stronger than water, so K<sub>eq</sub> ≈ 10<sup>5.5</sup>. Answer: <b>I and III only</b>.",
+ "x": ["", "This misjudges III: the methoxy group only slightly weakens a phenol (pK<sub>a</sub> ≈ 10), which is still far more acidic than water.", "This misjudges I: the nitro group makes the phenol more acidic, not less, so 4-nitrophenol is deprotonated even more completely.", "This misjudges II: a simple alcohol has pK<sub>a</sub> near or above that of water, so NaOH does not convert it fully to the alkoxide."]
+},
+{
+ "id": "rom-02", "t": "alcohols", "d": 3, "k": 0,
+ "q": "(<i>R</i>)-Octan-2-ol (shown) is treated separately with the reagents below. Which statements about the products are correct?<br>I. TsCl, pyridine gives the tosylate with the (<i>R</i>) configuration.<br>II. PBr<sub>3</sub> gives (<i>R</i>)-2-bromooctane.<br>III. SOCl<sub>2</sub>, pyridine gives (<i>S</i>)-2-chlorooctane.",
+ "s": [{"smi": "CCCCCC[C@@H](C)O"}],
+ "c": ["I and III only", "I only", "III only", "I, II, and III"],
+ "h": "Ask, for each reagent, whether a bond to the stereocenter is broken. If it is, how does the halide arrive?",
+ "w": "I: true. Tosylation forms the O–S bond; the C–O bond to the stereocenter is untouched, so the configuration is retained, and OTs (like OH) is the top-priority group, so the label stays (<i>R</i>). II: false. PBr<sub>3</sub> turns OH into a good leaving group (–OPBr<sub>2</sub>) that bromide displaces by S<sub>N</sub>2 with inversion, giving (<i>S</i>)-2-bromooctane. III: true. With pyridine, SOCl<sub>2</sub> forms a chlorosulfite that chloride displaces by S<sub>N</sub>2, again with inversion, giving (<i>S</i>)-2-chlorooctane. Answer: <b>I and III only</b>.",
+ "x": ["", "This misjudges III: in pyridine, chloride attacks the chlorosulfite from the back side, so the chloride is inverted to (<i>S</i>).", "This misjudges I: tosylation does not touch the C–O bond, so the tosylate keeps the (<i>R</i>) configuration.", "This misjudges II: PBr<sub>3</sub> converts a 2° alcohol by back-side S<sub>N</sub>2 attack, so the bromide is (<i>S</i>), not (<i>R</i>)."]
+},
+{
+ "id": "rom-03", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Which reagents convert 3-phenylpropan-1-ol (shown) mainly to 3-phenylpropanal?<br>I. Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>, H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O<br>II. PCC, CH<sub>2</sub>Cl<sub>2</sub><br>III. 1. (COCl)<sub>2</sub>, DMSO, −78 °C &nbsp;2. Et<sub>3</sub>N",
+ "s": [{"smi": "OCCCc1ccccc1"}],
+ "c": ["II and III only", "II only", "III only", "I, II, and III"],
+ "h": "Which oxidants work without water? Water lets an aldehyde form a hydrate, which can be oxidized again.",
+ "w": "A 1° alcohol stops at the aldehyde only under anhydrous conditions. I: false. Aqueous chromic acid forms the aldehyde, which hydrates and is oxidized further to 3-phenylpropanoic acid. II: true. PCC in CH<sub>2</sub>Cl<sub>2</sub> is anhydrous, so the oxidation stops at the aldehyde. III: true. The Swern oxidation (activated DMSO, then Et<sub>3</sub>N) is also anhydrous and gives the aldehyde. Answer: <b>II and III only</b>.",
+ "x": ["", "This misjudges III: the Swern oxidation stops at the aldehyde just as PCC does.", "This misjudges II: PCC in dichloromethane is the classic reagent for stopping a 1° alcohol at the aldehyde.", "This misjudges I: aqueous dichromate over-oxidizes a 1° alcohol to the carboxylic acid through the aldehyde hydrate."]
+},
+{
+ "id": "rom-04", "t": "alcohols", "d": 3, "k": 0,
+ "q": "Which combinations give 2-phenylbutan-2-ol (shown) after H<sub>3</sub>O<sup>+</sup> workup?<br>I. methyl benzoate + excess CH<sub>3</sub>CH<sub>2</sub>MgBr<br>II. butan-2-one + C<sub>6</sub>H<sub>5</sub>MgBr<br>III. ethyl phenylacetate (C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>CO<sub>2</sub>Et) + excess CH<sub>3</sub>MgBr",
+ "s": [{"smi": "CCC(C)(O)c1ccccc1"}],
+ "c": ["II only", "I and II only", "II and III only", "I only"],
+ "h": "Disconnect the target at the carbinol carbon. An ester plus excess Grignard puts two identical groups on that carbon.",
+ "w": "The carbinol carbon of the target carries three different groups: CH<sub>3</sub>, CH<sub>2</sub>CH<sub>3</sub> and C<sub>6</sub>H<sub>5</sub>. I: false. An ester adds two equivalents of the Grignard, so the carbinol carbon gets two ethyl groups plus the phenyl: 3-phenylpentan-3-ol. II: true. Phenyl adds to the ketone carbon of butan-2-one, which already holds CH<sub>3</sub> and C<sub>2</sub>H<sub>5</sub>. III: false. Two methyls add to the ester carbon, which is bonded to a CH<sub>2</sub>Ph group, giving 2-methyl-1-phenylpropan-2-ol (a benzyl, not a phenyl, on the carbinol carbon). Answer: <b>II only</b>.",
+ "x": ["", "This misjudges I: excess ethyl Grignard adds twice to the ester, so the product has two ethyl groups and no methyl.", "This misjudges III: the ester carbon of ethyl phenylacetate carries CH<sub>2</sub>Ph, so the product has a benzyl group and two methyls, not phenyl, methyl and ethyl.", "This rejects the one correct route: phenyl Grignard adding to butan-2-one gives exactly the three groups the target needs."]
+},
+{
+ "id": "rom-05", "t": "ethers", "d": 1, "k": 0,
+ "q": "Which ethers can be prepared in good yield by a Williamson ether synthesis, using the best choice of alkoxide and alkyl halide?",
+ "s": [{"smi": "CC(C)(C)OC(C)(C)C", "cap": "I"}, {"smi": "CC(C)(C)OC1CCCCC1", "cap": "II"}, {"smi": "COC(C)(C)C", "cap": "III"}],
+ "c": ["III only", "II and III only", "I and III only", "I, II, and III"],
+ "h": "The Williamson step is S<sub>N</sub>2. For each ether, is there a disconnection that puts a methyl or primary carbon on the halide side?",
+ "w": "The alkyl halide must be methyl or primary; a 2° or 3° halide with a strong alkoxide base mostly eliminates. I: false. Both sides are tertiary, so either route needs a 3° halide, which gives isobutylene by E2. II: false. Using cyclohexyl bromide (2°) with bulky tert-butoxide gives mainly cyclohexene by E2; the other route needs a 3° halide. III: true. tert-Butoxide + CH<sub>3</sub>I works because methyl iodide cannot eliminate. Answer: <b>III only</b>.",
+ "x": ["", "This misjudges II: the only available halide partners are a 2° halide (attacked by a bulky base, so E2) or a 3° halide (E2), so the yield is poor.", "This misjudges I: di-tert-butyl ether would need a tertiary halide, which undergoes E2 with an alkoxide instead of S<sub>N</sub>2.", "This misjudges I and II: each of them needs S<sub>N</sub>2 at a hindered (2° or 3°) carbon, where elimination wins."]
+},
+{
+ "id": "rom-06", "t": "ethers", "d": 3, "k": 0,
+ "q": "Consider the ring opening of 2,2-dimethyloxirane (shown). Which statements are correct?<br>I. With NaOCH<sub>3</sub> in CH<sub>3</sub>OH, methoxide attacks the CH<sub>2</sub> carbon of the ring.<br>II. With CH<sub>3</sub>OH and a catalytic amount of H<sub>2</sub>SO<sub>4</sub>, the major product is 2-methoxy-2-methylpropan-1-ol.<br>III. Both conditions give the same constitutional isomer as the major product.",
+ "s": [{"smi": "CC1(C)CO1"}],
+ "c": ["I and II only", "I only", "II only", "I, II, and III"],
+ "h": "Under base the nucleophile does S<sub>N</sub>2 at the less hindered carbon. Under acid, which carbon of the protonated epoxide carries more positive charge?",
+ "w": "I: true. A strong nucleophile opens an epoxide by S<sub>N</sub>2 at the less hindered carbon, the CH<sub>2</sub>, giving 1-methoxy-2-methylpropan-2-ol. II: true. In acid the protonated epoxide has much of its positive charge on the tertiary carbon (S<sub>N</sub>1-like transition state), so methanol attacks there, giving 2-methoxy-2-methylpropan-1-ol. III: false. Because the two conditions attack different carbons, they give different constitutional isomers. Answer: <b>I and II only</b>.",
+ "x": ["", "This misjudges II: under acid catalysis the weak nucleophile attacks the more substituted carbon, so the OCH<sub>3</sub> ends up on the tertiary carbon, which is exactly the product named.", "This misjudges I: basic (S<sub>N</sub>2) opening is controlled by sterics, so methoxide attacks the unhindered CH<sub>2</sub>.", "This misjudges III: base and acid give opposite regiochemistry here, so the products are constitutional isomers, not the same compound."]
+},
+{
+ "id": "rom-07", "t": "ethers", "d": 2, "k": 0,
+ "q": "Ethoxybenzene (shown) is heated with excess concentrated HI. Which statements are correct?<br>I. Iodobenzene is one of the products.<br>II. Phenol is one of the products.<br>III. Iodide attacks the ethyl CH<sub>2</sub> carbon of the protonated ether in an S<sub>N</sub>2 step.",
+ "s": [{"smi": "CCOc1ccccc1"}],
+ "c": ["II and III only", "II only", "III only", "I, II, and III"],
+ "h": "After the oxygen is protonated, which carbon can iodide reach by back-side attack: the sp<sup>3</sup> ethyl carbon or the sp<sup>2</sup> ring carbon?",
+ "w": "HI protonates the ether oxygen, and iodide then attacks a carbon bonded to it. I: false. S<sub>N</sub>2 at an sp<sup>2</sup> aromatic carbon is impossible (no back-side approach), and an aryl cation is far too unstable for S<sub>N</sub>1, so the ring C–O bond survives; phenol is not converted to iodobenzene even with excess HI. II: true. The leaving group is phenol. III: true. Iodide attacks the unhindered primary ethyl carbon, giving iodoethane. Answer: <b>II and III only</b>.",
+ "x": ["", "This misjudges III: the C–O bond that breaks is the ethyl one, by S<sub>N</sub>2 attack of iodide on the primary carbon.", "This misjudges II: once iodide takes the ethyl group, the oxygen leaves still bonded to the ring as phenol.", "This misjudges I: neither S<sub>N</sub>2 nor S<sub>N</sub>1 occurs at an aromatic carbon, so iodobenzene does not form."]
+},
+{
+ "id": "rom-08", "t": "conjugated", "d": 2, "k": 0,
+ "q": "Which dienes react with maleic anhydride in a Diels–Alder reaction?",
+ "s": [{"smi": "C=C1CCCC=C1", "cap": "I"}, {"smi": "C=C1CCCCC1=C", "cap": "II"}, {"smi": "C1=CCCC=C1", "cap": "III"}],
+ "c": ["II and III only", "II only", "III only", "I, II, and III"],
+ "h": "Each diene here is held in one conformation by its ring. Is the conformation about the central single bond s-cis or s-trans?",
+ "w": "A diene must be in the s-cis conformation, with C1 and C4 on the same side of the C2–C3 bond, to react. I: false. In 3-methylenecyclohexene the central bond lies in the ring, and the ring holds the exocyclic CH<sub>2</sub> and the ring C=C on opposite sides: the diene is locked s-trans and cannot react. II: true. In 1,2-dimethylenecyclohexane both CH<sub>2</sub> termini point the same way: locked s-cis. III: true. Cyclohexa-1,3-diene is locked s-cis by the ring. Answer: <b>II and III only</b>.",
+ "x": ["", "This misjudges III: the ring of cyclohexa-1,3-diene holds both double bonds s-cis, so it is a good Diels–Alder diene.", "This misjudges II: both exocyclic CH<sub>2</sub> groups of 1,2-dimethylenecyclohexane point the same way, which is the s-cis geometry.", "This misjudges I: 3-methylenecyclohexene is conjugated but locked s-trans, so its ends can never reach the dienophile together."]
+},
+{
+ "id": "rom-09", "t": "conjugated", "d": 1, "k": 0,
+ "q": "Rank compounds I–III by λ<sub>max</sub> in the UV spectrum, from shortest to longest wavelength.",
+ "s": [{"smi": "C1=CCCC=C1", "cap": "I"}, {"smi": "C1=CCC=CC1", "cap": "II"}, {"smi": "C=C/C=C/C=C/C=C", "cap": "III"}],
+ "c": ["II &lt; I &lt; III", "I &lt; II &lt; III", "II &lt; III &lt; I", "III &lt; I &lt; II"],
+ "h": "Count the double bonds that are conjugated with each other in each compound.",
+ "w": "Each added conjugated C=C narrows the HOMO–LUMO gap and moves λ<sub>max</sub> to longer wavelength. II, cyclohexa-1,4-diene, has two isolated C=C bonds (an sp<sup>3</sup> CH<sub>2</sub> separates them), so it absorbs below 200 nm like a simple alkene. I, cyclohexa-1,3-diene, is a conjugated diene (about 256 nm). III, octa-1,3,5,7-tetraene, has four conjugated C=C bonds and absorbs longest (near 300 nm). Order: <b>II &lt; I &lt; III</b>.",
+ "x": ["", "This puts the 1,3-diene below the 1,4-diene; the 1,4-isomer's double bonds are not conjugated, so it absorbs at shorter wavelength.", "This places the tetraene below the diene; four conjugated double bonds absorb at longer wavelength than two.", "This is the reverse order; longer conjugation means a longer λ<sub>max</sub>, not a shorter one."]
+},
+{
+ "id": "rom-10", "t": "conjugated", "d": 2, "k": 0,
+ "q": "Buta-1,3-diene (shown) reacts with one equivalent of HBr. Which statements are correct?<br>I. At −80 °C, 3-bromobut-1-ene (the 1,2-adduct) is the major product.<br>II. At 40 °C, 1-bromobut-2-ene (the 1,4-adduct) is the major product because it has the more substituted, more stable C=C.<br>III. Both adducts form from the same resonance-stabilized allylic cation.",
+ "s": [{"smi": "C=CC=C"}],
+ "c": ["I, II, and III", "I and II only", "I and III only", "II and III only"],
+ "h": "Protonate a terminal carbon and draw the resulting cation's resonance forms. Then think kinetic vs thermodynamic control.",
+ "w": "I: true. At low temperature the reaction is under kinetic control; bromide bonds fastest to C2, which carries more of the positive charge (a 2° allylic carbon) and is closest to the bromide in the ion pair. II: true. At higher temperature the additions are reversible, so the more stable product wins: the 1,4-adduct has a disubstituted C=C, while the 1,2-adduct has a monosubstituted one. III: true. Protonation at C1 gives one allylic cation with positive charge shared by C2 and C4; attack at C2 gives the 1,2-adduct and attack at C4 the 1,4-adduct. Answer: <b>I, II, and III</b>.",
+ "x": ["", "This misjudges III: there are not two separate cations; one allylic cation with two resonance forms leads to both products.", "This misjudges II: under equilibrating (warm) conditions the 1,4-adduct dominates because of its more substituted double bond.", "This misjudges I: at −80 °C the faster-forming 1,2-adduct is the major product."]
+},
+{
+ "id": "rom-11", "t": "conjugated", "d": 3, "k": 0,
+ "q": "(2<i>E</i>,4<i>Z</i>,6<i>E</i>)-Octa-2,4,6-triene (shown) undergoes 6π electrocyclic ring closure. Which statements are correct?<br>I. The thermal ring closure is disrotatory.<br>II. The thermal product is <i>trans</i>-5,6-dimethylcyclohexa-1,3-diene.<br>III. The photochemical ring closure is conrotatory.",
+ "s": [{"smi": "C/C=C/C=C\\C=C\\C"}],
+ "c": ["I and III only", "I only", "III only", "I, II, and III"],
+ "h": "Find the HOMO of a hexatriene in the ground state (ψ<sub>3</sub>) and in the excited state (ψ<sub>4</sub>), and look at the phases of the end lobes.",
+ "w": "I: true. A 6π (4n + 2) system closes thermally from its ground-state HOMO, ψ<sub>3</sub>, whose terminal lobes have the same phase on the same face, so the ends rotate disrotatory. II: false. With E,Z,E geometry both terminal methyls point outward; disrotatory closure turns both outward groups the same way, putting them on the same face: <i>cis</i>-5,6-dimethylcyclohexa-1,3-diene. III: true. Light promotes an electron to ψ<sub>4</sub>, whose terminal lobes are out of phase, so the photochemical closure is conrotatory (and would give the <i>trans</i> product). Answer: <b>I and III only</b>.",
+ "x": ["", "This misjudges III: in the excited state the HOMO is ψ<sub>4</sub>, which has opposite end-lobe symmetry, so the photochemical closure is conrotatory.", "This misjudges I: a thermal 6π electrocyclization is disrotatory, not conrotatory (conrotatory is the thermal mode for 4π systems).", "This misjudges II: disrotatory closure of the E,Z,E triene gives the <i>cis</i>-dimethyl ring; the <i>trans</i> isomer is the photochemical product."]
+},
+{
+ "id": "rom-12", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Which of these ions are aromatic? (Assume each ring is planar.)",
+ "s": [{"smi": "[CH+]1C=C1", "cap": "I"}, {"smi": "C1=C[CH+]C=C1", "cap": "II"}, {"smi": "[CH-]1C=CC=CC=C1", "cap": "III"}],
+ "c": ["I only", "I and II only", "I and III only", "I, II, and III"],
+ "h": "Count π electrons: each C=C gives 2, a carbocation's empty p orbital gives 0, and a carbanion's lone pair gives 2. Then apply 4n + 2.",
+ "w": "Each ring is cyclic, planar and fully conjugated, so the π-electron count decides. I: cyclopropenyl cation, one C=C and an empty p orbital: 2 π electrons (4n + 2, n = 0), aromatic. II: cyclopentadienyl cation, two C=C and an empty p orbital: 4 π electrons (4n), antiaromatic. III: cycloheptatrienyl anion, three C=C and a lone pair: 8 π electrons (4n), antiaromatic. Answer: <b>I only</b>.",
+ "x": ["", "This misjudges II: the cyclopentadienyl cation has 4 π electrons, a 4n count, so it is antiaromatic. (The cyclopentadienyl anion, with 6, is the aromatic one.)", "This misjudges III: the cycloheptatrienyl anion has 8 π electrons, a 4n count. (The cation, tropylium, with 6, is the aromatic one.)", "Only the cyclopropenyl cation has a 4n + 2 count; the other two ions have 4 and 8 π electrons and are antiaromatic."]
+},
+{
+ "id": "rom-13", "t": "aromatic", "d": 1, "k": 0,
+ "q": "Which of these heterocycles are aromatic?",
+ "s": [{"smi": "C1C=COC=C1", "cap": "I"}, {"smi": "C1=CC=CNC=C1", "cap": "II"}, {"smi": "c1ccoc1", "cap": "III"}],
+ "c": ["III only", "II and III only", "I and III only", "I, II, and III"],
+ "h": "First check that every ring atom has a p orbital. Then count π electrons, using one lone pair from the heteroatom if it is needed.",
+ "w": "I: false. 4<i>H</i>-Pyran has an sp<sup>3</sup> CH<sub>2</sub> in the ring, which breaks the cyclic conjugation, so it is not aromatic. II: false. 1<i>H</i>-Azepine has three C=C bonds plus the N lone pair, 8 π electrons (4n); a planar ring would be antiaromatic, so the ring puckers and is nonaromatic. III: true. Furan has two C=C bonds plus one oxygen lone pair in a p orbital, 6 π electrons in a planar ring. Answer: <b>III only</b>.",
+ "x": ["", "This misjudges II: using the nitrogen lone pair, azepine has 8 π electrons, a 4n count, so it cannot be aromatic.", "This misjudges I: the sp<sup>3</sup> CH<sub>2</sub> of 4<i>H</i>-pyran has no p orbital, so the ring is not fully conjugated.", "This misjudges I and II: one has an sp<sup>3</sup> ring carbon and the other has 8 π electrons, so only furan meets Hückel's rule."]
+},
+{
+ "id": "rom-14", "t": "aromatic", "d": 3, "k": 0,
+ "q": "Rank these heterocycles in order of <b>increasing</b> basicity (weakest base first).",
+ "s": [{"smi": "c1cc[nH]c1", "cap": "I"}, {"smi": "c1c[nH]cn1", "cap": "II"}, {"smi": "c1ccncc1", "cap": "III"}],
+ "c": ["I &lt; III &lt; II", "I &lt; II &lt; III", "III &lt; I &lt; II", "III &lt; II &lt; I"],
+ "h": "For each, find a lone pair that is NOT part of the aromatic sextet. Then ask whether the protonated form gains extra stabilization.",
+ "w": "I, pyrrole: its only nitrogen lone pair is part of the aromatic sextet, so protonation (which occurs at carbon) destroys aromaticity; pK<sub>a</sub> of the conjugate acid ≈ −4. Weakest. III, pyridine: the lone pair sits in an sp<sup>2</sup> orbital in the ring plane, outside the π system, so it is available; pK<sub>a</sub>H ≈ 5.2. II, imidazole: the pyridine-like N3 has an available sp<sup>2</sup> lone pair, and the cation formed is symmetric, with the positive charge shared equally by both nitrogens through resonance; pK<sub>a</sub>H ≈ 7.0. Strongest. Order: <b>I &lt; III &lt; II</b>.",
+ "x": ["", "This puts pyridine above imidazole; the imidazolium ion is stabilized by resonance over two nitrogens, so imidazole is the stronger base by about 2 pK<sub>a</sub> units.", "This puts pyrrole above pyridine; pyrrole's lone pair belongs to the aromatic sextet, so it is a far weaker base than pyridine.", "This is the reverse order; pyrrole, with no available lone pair, is the weakest base, not the strongest."]
+},
+{
+ "id": "rom-15", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Which of these ions are aromatic? (Assume each ring is planar.)",
+ "s": [{"smi": "[CH-]1C=CC=CC=C[CH-]1", "cap": "I"}, {"smi": "[CH-]1C=CC=CC=CC=C1", "cap": "II"}, {"smi": "[CH+]1C=CC=CC=CC=C1", "cap": "III"}],
+ "c": ["I and II only", "I only", "II only", "I, II, and III"],
+ "h": "Count π electrons in each planar ring and test 4n + 2. A carbanion lone pair counts 2; a carbocation counts 0.",
+ "w": "I: true. The cyclooctatetraene dianion has three C=C bonds plus two carbanion lone pairs, 10 π electrons (n = 2): aromatic, and it is in fact planar. II: true. The cyclononatetraenyl anion has four C=C bonds plus one lone pair, 10 π electrons: aromatic. III: false. The cyclononatetraenyl cation has four C=C bonds and an empty p orbital, 8 π electrons (4n): antiaromatic. Answer: <b>I and II only</b>.",
+ "x": ["", "This misjudges II: four C=C bonds plus the carbanion lone pair give 10 π electrons, a 4n + 2 count.", "This misjudges I: the two negative charges add two lone pairs to the six π electrons of the C=C bonds, giving 10, which is aromatic.", "This misjudges III: the cation has only 8 π electrons because the cationic carbon contributes an empty p orbital."]
+},
+{
+ "id": "rom-16", "t": "aromatic", "d": 3, "k": 0,
+ "q": "Consider Birch reduction (Na, NH<sub>3</sub>(l), CH<sub>3</sub>CH<sub>2</sub>OH). Which statements are correct?<br>I. Benzene gives cyclohexa-1,4-diene.<br>II. Anisole (shown first) gives a diene in which the OCH<sub>3</sub> group is on an sp<sup>3</sup> carbon.<br>III. Benzoic acid (shown second) gives a diene in which the CO<sub>2</sub>H group is on an sp<sup>3</sup> carbon.",
+ "s": [{"smi": "COc1ccccc1"}, {"smi": "OC(=O)c1ccccc1"}],
+ "c": ["I and III only", "I only", "III only", "I, II, and III"],
+ "h": "Birch reduction adds electrons to the ring. Does an electron-donating group sit on a reduced carbon or stay on a C=C? What about an electron-withdrawing group?",
+ "w": "I: true. Birch reduction adds two electrons and two protons to para positions, leaving the nonconjugated cyclohexa-1,4-diene. II: false. An electron-donating group avoids the carbons that pick up negative charge, so it stays on a ring double bond: anisole gives 1-methoxycyclohexa-1,4-diene, with OCH<sub>3</sub> on an sp<sup>2</sup> carbon. III: true. An electron-withdrawing group stabilizes the negative charge, so its carbon is reduced: benzoic acid gives cyclohexa-2,5-diene-1-carboxylic acid, with CO<sub>2</sub>H on the sp<sup>3</sup> carbon. Answer: <b>I and III only</b>.",
+ "x": ["", "This misjudges III: an electron-withdrawing group ends up on a reduced (sp<sup>3</sup>) carbon, because it stabilizes the radical anion and carbanion there.", "This misjudges I: Birch reduction of benzene gives the 1,4-diene, not a conjugated diene and not cyclohexane.", "This misjudges II: an electron-donating group like OCH<sub>3</sub> stays on a C=C after Birch reduction."]
+},
+{
+ "id": "rom-17", "t": "eas", "d": 2, "k": 0,
+ "q": "In electrophilic aromatic substitution, which of these compounds direct the incoming electrophile mainly to the ortho and para positions?",
+ "s": [{"smi": "FC(F)(F)c1ccccc1", "cap": "I"}, {"smi": "Clc1ccccc1", "cap": "II"}, {"smi": "CC(=O)Oc1ccccc1", "cap": "III"}],
+ "c": ["II and III only", "II only", "III only", "I, II, and III"],
+ "h": "Is the atom bonded to the ring carrying a lone pair it can donate by resonance into the arenium ion?",
+ "w": "An o/p director has an atom with a lone pair (or an alkyl group) attached to the ring, which stabilizes the ortho and para arenium ions. I: false. CF<sub>3</sub> has no lone pair on the attached carbon and withdraws strongly by induction, so it is a deactivating meta director. II: true. Chlorine deactivates by induction but donates a lone pair by resonance, so it directs o/p. III: true. In phenyl acetate the ring is bonded to the ester <i>oxygen</i>, whose lone pair donates into the ring; it is a moderately activating o/p director (unlike methyl benzoate, where the carbonyl carbon is attached). Answer: <b>II and III only</b>.",
+ "x": ["", "This misjudges III: the ring carbon of phenyl acetate is bonded to an oxygen with lone pairs, so the group is o/p directing, not meta.", "This misjudges II: halogens deactivate the ring yet still direct o/p through lone-pair resonance.", "This misjudges I: the CF<sub>3</sub> group has no lone pair to donate and pulls electron density away, so it directs meta."]
+},
+{
+ "id": "rom-18", "t": "eas", "d": 1, "k": 0,
+ "q": "Rank these compounds by rate of nitration with HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub>, from <b>slowest</b> to <b>fastest</b>.",
+ "s": [{"smi": "O=[N+]([O-])c1cccc([N+](=O)[O-])c1", "cap": "I"}, {"smi": "O=[N+]([O-])c1ccccc1", "cap": "II"}, {"smi": "Fc1ccccc1", "cap": "III"}],
+ "c": ["I &lt; II &lt; III", "II &lt; I &lt; III", "III &lt; II &lt; I", "I &lt; III &lt; II"],
+ "h": "Each nitro group strongly withdraws electron density. How does a halogen compare?",
+ "w": "The rate of EAS falls as the ring loses electron density. I, 1,3-dinitrobenzene, carries two strongly deactivating nitro groups and is slowest. II, nitrobenzene, has one. III, fluorobenzene, is only weakly deactivated (F withdraws by induction but donates a lone pair by resonance) and reacts nearly as fast as benzene. Order: <b>I &lt; II &lt; III</b>.",
+ "x": ["", "This puts one nitro group below two; each nitro group deactivates further, so the dinitro compound is slowest.", "This is the reverse order; nitro groups slow EAS, so the dinitro compound is slowest, not fastest.", "This puts fluorobenzene below nitrobenzene; a halogen deactivates only weakly, while a nitro group deactivates strongly."]
+},
+{
+ "id": "rom-19", "t": "eas", "d": 2, "k": 0,
+ "q": "Which statements about Friedel–Crafts reactions are correct?<br>I. Benzene with 1-chloropropane and AlCl<sub>3</sub> gives mainly isopropylbenzene.<br>II. Friedel–Crafts acylation stops after one acyl group is added because the aryl ketone product is deactivated.<br>III. Nitrobenzene does not undergo Friedel–Crafts alkylation or acylation.",
+ "c": ["I, II, and III", "I and II only", "II and III only", "I and III only"],
+ "h": "Think about what the electrophile is in each reaction, whether it can rearrange, and how reactive the ring must be.",
+ "w": "I: true. The 1° chloride–AlCl<sub>3</sub> complex undergoes a 1,2-hydride shift to the more stable 2° (isopropyl) carbocation, so isopropylbenzene is the main product (the classic rearrangement problem of alkylation). II: true. The acyl group withdraws electron density by resonance, so the product ring is less reactive than benzene and does not react again; this is why acylation avoids the polysubstitution seen in alkylation. III: true. Friedel–Crafts reactions fail on rings more deactivated than a halobenzene, and nitrobenzene is so unreactive it is even used as a solvent for them. Answer: <b>I, II, and III</b>.",
+ "x": ["", "This misjudges III: a strongly deactivated ring such as nitrobenzene does not undergo Friedel–Crafts reactions at all.", "This misjudges I: the primary propyl electrophile rearranges by a hydride shift, so isopropylbenzene, not propylbenzene, is the main product.", "This misjudges II: the ketone product is deactivated, which is exactly why acylation, unlike alkylation, stops after one substitution."]
+},
+{
+ "id": "rom-20", "t": "eas", "d": 2, "k": 0,
+ "q": "Which sequences, starting from benzene, give 1-bromo-3-nitrobenzene (shown) as the major product?<br>I. 1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> &nbsp;2. Br<sub>2</sub>, FeBr<sub>3</sub><br>II. 1. Br<sub>2</sub>, FeBr<sub>3</sub> &nbsp;2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub><br>III. 1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> &nbsp;2. NBS, hν",
+ "s": [{"smi": "O=[N+]([O-])c1cccc(Br)c1"}],
+ "c": ["I only", "I and II only", "I and III only", "II only"],
+ "h": "The group already on the ring decides where the second group goes. Which group must be on first to direct meta?",
+ "w": "The two groups are meta, so the first group must be a meta director. I: true. Nitrobenzene is brominated (Br<sub>2</sub>/FeBr<sub>3</sub>) at the meta position. II: false. Bromine is an o/p director, so nitrating bromobenzene gives mainly 1-bromo-4-nitrobenzene (with some ortho), not the meta isomer. III: false. NBS with light brominates benzylic or allylic C–H bonds by a radical path; nitrobenzene has no such position and NBS does not perform ring EAS here. Answer: <b>I only</b>.",
+ "x": ["", "This misjudges II: bromine directs o/p, so the nitro group goes para or ortho to it, not meta.", "This misjudges III: NBS/hν is a radical benzylic bromination, and nitrobenzene has no benzylic hydrogens.", "This reverses the logic: brominating first gives the wrong (o/p) pattern, while nitrating first gives the meta product."]
+},
+{
+ "id": "rom-21", "t": "eas", "d": 2, "k": 0,
+ "q": "Which aryl halides react readily with NaOCH<sub>3</sub> in CH<sub>3</sub>OH (mild heating) by nucleophilic aromatic substitution (addition–elimination)?",
+ "s": [{"smi": "Clc1cccc([N+](=O)[O-])c1", "cap": "I"}, {"smi": "Fc1ccc([N+](=O)[O-])cc1", "cap": "II"}, {"smi": "Clc1ccc([N+](=O)[O-])cc1[N+](=O)[O-]", "cap": "III"}],
+ "c": ["II and III only", "II only", "III only", "I, II, and III"],
+ "h": "Add methoxide to the carbon bearing the halogen and draw the anion. Can the negative charge reach the oxygens of a nitro group?",
+ "w": "S<sub>N</sub>Ar goes through an anionic (Meisenheimer) intermediate whose charge sits ortho and para to the attacked carbon, so a nitro group must be ortho or para to the leaving group. I: false. The nitro group is meta to Cl, so it cannot delocalize the charge by resonance. II: true. The nitro group is para to F; fluoride is an excellent S<sub>N</sub>Ar leaving group because its electronegativity speeds the rate-determining addition step. III: true. Nitro groups ortho and para to Cl both stabilize the intermediate. Answer: <b>II and III only</b>.",
+ "x": ["", "This misjudges III: two nitro groups ortho and para to the chlorine make 1-chloro-2,4-dinitrobenzene highly reactive in S<sub>N</sub>Ar.", "This misjudges II: a para nitro group activates the ring, and fluoride is the best halide leaving group in S<sub>N</sub>Ar, not the worst.", "This misjudges I: a meta nitro group cannot accept the negative charge by resonance, so the ring is not activated."]
+},
+{
+ "id": "rom-22", "t": "carbonyl", "d": 3, "k": 0,
+ "q": "Rank these carbonyl compounds by the equilibrium constant for hydrate formation in water, from <b>smallest</b> to <b>largest</b>.",
+ "s": [{"smi": "CC(C)=O", "cap": "I"}, {"smi": "CC(=O)C(F)(F)F", "cap": "II"}, {"smi": "CCC=O", "cap": "III"}],
+ "c": ["I &lt; III &lt; II", "III &lt; I &lt; II", "I &lt; II &lt; III", "II &lt; III &lt; I"],
+ "h": "Hydration is favored when the C=O carbon is very electron-poor and when converting it to sp<sup>3</sup> costs little steric strain.",
+ "w": "Alkyl groups donate electron density to the carbonyl carbon and crowd the sp<sup>3</sup> hydrate, so they shift the equilibrium toward the carbonyl. I, acetone, has two alkyl groups: K ≈ 10<sup>−3</sup>, smallest. III, propanal, has only one alkyl group and an H: K ≈ 1. II, 1,1,1-trifluoroacetone, is a ketone, but the strongly electron-withdrawing CF<sub>3</sub> group destabilizes the C=O and favors the hydrate: K well above 1, largest. Order: <b>I &lt; III &lt; II</b>.",
+ "x": ["", "This puts the aldehyde below the ketone acetone; an aldehyde has one fewer donating alkyl group and less steric crowding, so it hydrates more.", "This puts the trifluoromethyl ketone below the aldehyde; the CF<sub>3</sub> group's strong inductive withdrawal outweighs the extra substituent and drives hydration.", "This is the reverse order; acetone has the least electrophilic carbonyl and the smallest hydration constant."]
+},
+{
+ "id": "rom-23", "t": "carbonyl", "d": 2, "k": 0,
+ "q": "Which reagents reduce the ketone carbonyl of methyl 4-acetylbenzoate (shown) to a CH–OH group while leaving the ester unchanged?<br>I. 1. LiAlH<sub>4</sub>, ether &nbsp;2. H<sub>3</sub>O<sup>+</sup><br>II. NaBH<sub>4</sub>, CH<sub>3</sub>OH, 0 °C<br>III. Zn(Hg), HCl, heat",
+ "s": [{"smi": "CC(=O)c1ccc(C(=O)OC)cc1"}],
+ "c": ["II only", "I and II only", "II and III only", "I, II, and III"],
+ "h": "Rank the reagents by hydride strength, and remember that one of these reagents removes the oxygen completely.",
+ "w": "I: false. LiAlH<sub>4</sub> is strong enough to reduce both carbonyls, so the ester also becomes a CH<sub>2</sub>OH group. II: true. NaBH<sub>4</sub> reduces ketones and aldehydes readily but esters only very slowly, so it gives methyl 4-(1-hydroxyethyl)benzoate. III: false. The Clemmensen reduction converts the ketone C=O all the way to CH<sub>2</sub> (an ethyl group), not to an alcohol. Answer: <b>II only</b>.",
+ "x": ["", "This misjudges I: LiAlH<sub>4</sub> also reduces the ester to a primary alcohol, so it is not selective.", "This misjudges III: Zn(Hg)/HCl removes the carbonyl oxygen entirely, giving CH<sub>2</sub>, not CH–OH.", "This misjudges I and III: one reduces the ester as well, and the other deoxygenates the ketone to CH<sub>2</sub>."]
+},
+{
+ "id": "rom-24", "t": "carbonyl", "d": 2, "k": 0,
+ "q": "Cyclohexanone (shown) is treated with each reagent below and a catalytic amount of acid, with removal of water. Which give a product containing a C=N bond?<br>I. CH<sub>3</sub>NH<sub>2</sub><br>II. (CH<sub>3</sub>)<sub>2</sub>NH<br>III. NH<sub>2</sub>OH",
+ "s": [{"smi": "O=C1CCCCC1"}],
+ "c": ["I and III only", "I only", "III only", "I, II, and III"],
+ "h": "After the iminium ion forms, does the nitrogen still have an H it can lose?",
+ "w": "A primary amine (or another NH<sub>2</sub> compound) condenses with a ketone to an iminium ion that loses its N–H proton to give a neutral C=N. I: true. Methylamine gives the N-methyl imine. II: false. Dimethylamine is secondary; its iminium ion has no N–H to lose, so it loses an α C–H instead and forms an enamine (C=C–N), with no C=N in the neutral product. III: true. Hydroxylamine has an NH<sub>2</sub> group and gives an oxime (C=N–OH). Answer: <b>I and III only</b>.",
+ "x": ["", "This misjudges III: hydroxylamine condenses through its NH<sub>2</sub> group to give an oxime, which contains a C=N bond.", "This misjudges I: a primary amine such as methylamine gives an imine, the standard C=N product.", "This misjudges II: a secondary amine cannot form a neutral C=N, so it gives an enamine instead."]
+},
+{
+ "id": "rom-25", "t": "carbonyl", "d": 2, "k": 0,
+ "q": "Which Wittig combinations give methylenecyclohexane (shown)?<br>I. cyclohexanone + Ph<sub>3</sub>P=CH<sub>2</sub><br>II. formaldehyde + the ylide Ph<sub>3</sub>P=C(CH<sub>2</sub>)<sub>5</sub> (cyclohexylidene)<br>III. cyclohexanecarbaldehyde + Ph<sub>3</sub>P=CH<sub>2</sub>",
+ "s": [{"smi": "C=C1CCCCC1"}],
+ "c": ["I and II only", "I only", "II only", "I, II, and III"],
+ "h": "The Wittig reaction joins the carbonyl carbon and the ylide carbon with a C=C. Split the target's C=C into those two halves.",
+ "w": "Cutting the target's C=C gives two halves: a CH<sub>2</sub> and a ring carbon. Either half can come from the carbonyl and the other from the ylide. I: true. Cyclohexanone supplies the ring carbon and the methylene ylide supplies CH<sub>2</sub>. II: true. Formaldehyde supplies CH<sub>2</sub> and the cyclohexylidene ylide supplies the ring carbon (a less common but valid route). III: false. The aldehyde carbon is outside the ring, so the new C=C is too: the product is vinylcyclohexane, an isomer of the target. Answer: <b>I and II only</b>.",
+ "x": ["", "This misjudges II: reversing the roles (formaldehyde plus the ring ylide) forms the same C=C bond.", "This misjudges I: cyclohexanone with Ph<sub>3</sub>P=CH<sub>2</sub> is the textbook route to methylenecyclohexane.", "This misjudges III: the carbonyl carbon of cyclohexanecarbaldehyde is exocyclic, so the product is vinylcyclohexane, not methylenecyclohexane."]
+}
+]

@@ -1,0 +1,821 @@
+[
+ {
+  "id": "rz2-01",
+  "t": "mechanism",
+  "q": "The energy diagram describes a reaction A → C that goes through intermediate B. Which statements are true?<br>I. The reaction has exactly one intermediate.<br>II. The first step is the rate-determining step.<br>III. By the Hammond postulate, the first transition state resembles B more than it resembles A.",
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "Find the highest point on the curve, then ask whether step 1 is uphill or downhill.",
+  "w": "I is true: there is one energy minimum (B) between reactants and products, so one intermediate. II is false: the rate-determining step is the one whose transition state is highest on the diagram, and TS2 (18) lies above TS1 (12), so the second step limits the rate. III is true: step 1 is endergonic (A at 0 → B at 5), so by the Hammond postulate its transition state is late and resembles the higher-energy species, B. <b>I and III only</b>.",
+  "x": [
+   "",
+   "This misses III: an endergonic step has a late transition state that looks like its product, intermediate B.",
+   "This misses I: the single minimum between reactants and products is one intermediate.",
+   "II is false: TS2 is the highest point on the curve, so step 2, not step 1, is rate-determining."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     12,
+     5,
+     18,
+     -4
+    ],
+    "tags": [
+     "A",
+     "",
+     "B",
+     "",
+     "C"
+    ],
+    "labels": [
+     "reactants",
+     "TS1",
+     "intermediate",
+     "TS2",
+     "products"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rz2-02",
+  "t": "mechanism",
+  "q": "Which carbocations I–III would rearrange to a <b>more stable</b> carbocation by a 1,2-shift?",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "A shift only pays off if the new cation is more substituted (or resonance-stabilized) than the old one.",
+  "w": "I does not rearrange: the 1-methylcyclopentyl cation is already tertiary, and any hydride shift would make a secondary cation. II does not rearrange to anything better: a hydride shift in the cyclohexyl cation just makes another secondary cyclohexyl cation, identical to the first. III rearranges: the 3,3-dimethylbutan-2-yl cation is secondary, and a 1,2-methyl shift from the adjacent quaternary carbon gives the tertiary 2,3-dimethylbutan-2-yl cation. <b>III only</b>.",
+  "x": [
+   "",
+   "I is already tertiary; no 1,2-shift can make it more stable.",
+   "A hydride shift in the cyclohexyl cation gives another secondary cation of the same structure, so there is no driving force.",
+   "Neither I (already tertiary) nor II (shift gives an identical secondary cation) gains stability by shifting."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C[C+]1CCCC1",
+    "cap": "I"
+   },
+   {
+    "smi": "[CH+]1CCCCC1",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(C)(C)[CH+]C",
+    "cap": "III"
+   }
+  ]
+ },
+ {
+  "id": "rz2-03",
+  "t": "mechanism",
+  "q": "3-Methylbut-1-ene reacts with HBr (no peroxides). Which statements about the mechanism are true?<br>I. Protonation of the alkene gives a secondary carbocation first.<br>II. A 1,2-hydride shift converts that cation into a tertiary carbocation.<br>III. The major product is 2-bromo-2-methylbutane.",
+  "c": [
+   "I, II, and III",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Add H<sup>+</sup> by Markovnikov's rule, then look at the carbon next to the cation.",
+  "w": "I is true: H<sup>+</sup> adds to the terminal CH<sub>2</sub> (Markovnikov), leaving a secondary cation on C2. II is true: C3 next door is a C–H carbon bearing two methyls, so a 1,2-hydride shift moves the positive charge to C3, a tertiary center. III is true: bromide captures the more stable tertiary cation, giving 2-bromo-2-methylbutane as the major product (2-bromo-3-methylbutane is the minor, unrearranged product). <b>I, II, and III</b>.",
+  "x": [
+   "",
+   "III is also true: the rearranged tertiary cation is trapped by Br<sup>−</sup>, so the major product carries Br on the tertiary carbon.",
+   "II is also true: the hydride shifts from the adjacent tertiary C–H, which is why the product is rearranged.",
+   "I is also true: Markovnikov protonation at CH<sub>2</sub> makes the secondary cation before any shift occurs."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC(C)C=C"
+   },
+   {
+    "arrow": "HBr"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "rz2-04",
+  "t": "subst",
+  "q": "1-Bromobutane reacts with NaCN in methanol by S<sub>N</sub>2. Which changes would <b>increase</b> the rate?<br>I. Using 1-chlorobutane in place of 1-bromobutane<br>II. Using DMSO as the solvent in place of methanol<br>III. Using 1-bromo-2,2-dimethylpropane in place of 1-bromobutane",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "III only"
+  ],
+  "h": "Think about three S<sub>N</sub>2 factors: leaving group, solvent, and crowding at the backside of the carbon.",
+  "w": "I is false: Cl<sup>−</sup> is a poorer leaving group than Br<sup>−</sup> (Br<sup>−</sup> is the weaker, more polarizable base and its C–Br bond is weaker), so 1-chlorobutane reacts more slowly. II is true: DMSO is polar aprotic; it does not hydrogen-bond to cyanide, so the nucleophile is less solvated and much more reactive. III is false: 1-bromo-2,2-dimethylpropane (neopentyl bromide) is primary but its β-tert-butyl group blocks backside attack, so it reacts far more slowly. <b>II only</b>.",
+  "x": [
+   "",
+   "I is false: chloride is a worse leaving group than bromide, which slows S<sub>N</sub>2.",
+   "III is false: the neopentyl substrate is primary but badly hindered at the backside, so its S<sub>N</sub>2 rate is tiny.",
+   "III is false (neopentyl is very hindered) and II is true: a polar aprotic solvent speeds S<sub>N</sub>2 with anionic nucleophiles."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCCCBr"
+   },
+   {
+    "arrow": "NaCN",
+    "below": "CH<sub>3</sub>OH"
+   },
+   {
+    "smi": "CCCCC#N"
+   }
+  ]
+ },
+ {
+  "id": "rz2-05",
+  "t": "subst",
+  "q": "Which reactions give a <b>racemic</b> organic product? (Each substitution follows the mechanism its conditions favor.)<br>I. Compound I in H<sub>2</sub>O/acetone, heat<br>II. Compound II with NaCN in DMSO<br>III. Compound III with NaCN in DMSO",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "III only"
+  ],
+  "h": "Ask two things for each: does the reaction happen AT the stereocenter, and is the intermediate planar?",
+  "w": "I is racemic: (<i>S</i>)-3-bromo-3-methylhexane is tertiary, so in aqueous acetone it ionizes (S<sub>N</sub>1) to a planar tertiary carbocation that water attacks from either face, giving racemic 3-methylhexan-3-ol (in practice with at most a slight excess of inversion). II is not racemic: (<i>R</i>)-2-bromobutane is secondary and cyanide in DMSO is a good nucleophile in a polar aprotic solvent, so S<sub>N</sub>2 inverts the center and gives optically active (<i>S</i>)-2-methylbutanenitrile. III is not racemic: in (<i>S</i>)-1-bromo-2-methylbutane the substitution happens at the CH<sub>2</sub>Br carbon, not at the stereocenter, so the product (<i>S</i>)-3-methylpentanenitrile keeps its configuration. <b>I only</b>.",
+  "x": [
+   "",
+   "II is not racemic: S<sub>N</sub>2 with cyanide in DMSO gives clean inversion, one enantiomer of the nitrile.",
+   "III is not racemic: the stereocenter is not the carbon that reacts, so its configuration is untouched.",
+   "III keeps its stereocenter (the reaction is at CH<sub>2</sub>Br), and I does racemize through a planar tertiary carbocation."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CCC[C@@](C)(Br)CC",
+    "cap": "I"
+   },
+   {
+    "smi": "C[C@@H](Br)CC",
+    "cap": "II"
+   },
+   {
+    "smi": "CC[C@H](C)CBr",
+    "cap": "III"
+   }
+  ]
+ },
+ {
+  "id": "rz2-06",
+  "t": "subst",
+  "q": "Which reagent sequences convert (<i>R</i>)-butan-2-ol into (<i>S</i>)-2-bromobutane?<br>I. PBr<sub>3</sub><br>II. 1. TsCl, pyridine  2. NaBr, DMSO<br>III. 1. SOCl<sub>2</sub>, pyridine  2. NaBr, DMSO",
+  "c": [
+   "I and II only",
+   "I only",
+   "II only",
+   "I, II, and III"
+  ],
+  "h": "Count the inversions. Which steps break a bond to the stereocenter, and which only change the O–H?",
+  "w": "OH and Br are both the top CIP priority, so each inversion of geometry turns <i>R</i> into <i>S</i>. I works: PBr<sub>3</sub> converts the OH into a leaving group that bromide displaces by S<sub>N</sub>2, one inversion → (<i>S</i>). II works: TsCl reacts at oxygen, so the tosylate keeps the <i>R</i> configuration; then Br<sup>−</sup> displaces tosylate by S<sub>N</sub>2, one inversion → (<i>S</i>). III fails: SOCl<sub>2</sub> with pyridine gives (<i>S</i>)-2-chlorobutane with inversion, and the S<sub>N</sub>2 by Br<sup>−</sup> inverts again, so two inversions give (<i>R</i>)-2-bromobutane. <b>I and II only</b>.",
+  "x": [
+   "",
+   "II also works: tosylation does not touch the C–O bond, so the one inversion comes in the bromide step.",
+   "I also works: PBr<sub>3</sub> converts the alcohol to the bromide with a single S<sub>N</sub>2 inversion.",
+   "III fails: it has two inversions (SOCl<sub>2</sub>/pyridine, then Br<sup>−</sup>), so it returns the <i>R</i> bromide."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C[C@@H](O)CC"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C[C@H](Br)CC"
+   }
+  ]
+ },
+ {
+  "id": "rz2-07",
+  "t": "subst",
+  "q": "Which of these are <b>better</b> leaving groups than chloride ion in an S<sub>N</sub>2 reaction?<br>I. HO<sup>−</sup><br>II. TsO<sup>−</sup> (tosylate)<br>III. I<sup>−</sup>",
+  "c": [
+   "II and III only",
+   "II only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "Good leaving groups are weak bases. Compare the pK<sub>a</sub> of each conjugate acid with that of HCl.",
+  "w": "A leaving group is better the weaker it is as a base. I is false: HO<sup>−</sup> is a strong base (H<sub>2</sub>O, pK<sub>a</sub> 15.7), which is why alcohols must be activated before substitution. II is true: tosylate is the conjugate base of a strong sulfonic acid (pK<sub>a</sub> about −3) and its charge is spread over three oxygens. III is true: HI (pK<sub>a</sub> about −10) is stronger than HCl, and the large, polarizable I<sup>−</sup> leaves from a weak C–I bond. <b>II and III only</b>.",
+  "x": [
+   "",
+   "III is also true: iodide is a weaker base than chloride and the C–I bond is the weakest carbon–halogen bond.",
+   "II is also true: tosylate is resonance-stabilized and is one of the best common leaving groups.",
+   "I is false: hydroxide is a strong base and a very poor leaving group."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "rz2-08",
+  "t": "elim",
+  "q": "Which substrate/base combinations give <b>1-methylcyclohexene</b> as the major product?<br>I. Compound I with NaOCH<sub>2</sub>CH<sub>3</sub><br>II. Compound II with NaOCH<sub>2</sub>CH<sub>3</sub><br>III. Compound III with KOC(CH<sub>3</sub>)<sub>3</sub>",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "E2 on a cyclohexane needs an axial leaving group and an axial β hydrogen on the neighboring carbon. Then think about base size.",
+  "w": "I (<i>trans</i>-1-bromo-2-methylcyclohexane) fails: Br is axial only in the chair where the methyl is also axial, so the H on C2 is equatorial and cannot be anti-periplanar; E2 must use C6 and gives 3-methylcyclohexene. II (<i>cis</i>-1-bromo-2-methylcyclohexane) works: with Br axial the methyl is equatorial, so C2 has an axial H anti to Br and E2 forms the more substituted 1-methylcyclohexene (Zaitsev). III fails: with bulky <i>tert</i>-butoxide, the tertiary bromide loses a methyl H, giving mainly the less substituted methylenecyclohexane (Hofmann). <b>II only</b>.",
+  "x": [
+   "",
+   "I fails: in the trans isomer the C2 hydrogen cannot be anti-periplanar to an axial Br, so 3-methylcyclohexene forms.",
+   "III fails: the bulky base removes the most accessible H (on CH<sub>3</sub>), so methylenecyclohexane is the major product.",
+   "This reverses the two isomers: the cis compound, not the trans, has an axial C2–H anti to an axial Br."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "Br[C@@H]1CCCC[C@H]1C",
+    "cap": "I"
+   },
+   {
+    "smi": "Br[C@@H]1CCCC[C@@H]1C",
+    "cap": "II"
+   },
+   {
+    "smi": "CC1(Br)CCCCC1",
+    "cap": "III"
+   }
+  ]
+ },
+ {
+  "id": "rz2-09",
+  "t": "elim",
+  "q": "(2<i>S</i>,3<i>S</i>)-2-Bromo-3-phenylbutane is treated with NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol. Which statements are true?<br>I. The major alkene is (<i>E</i>)-2-phenylbut-2-ene.<br>II. The (2<i>S</i>,3<i>R</i>) diastereomer gives the same alkene stereoisomer.<br>III. In the transition state, the H removed and the Br are syn-periplanar.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II only"
+  ],
+  "h": "Draw the conformation with H on C3 anti to Br on C2. Which groups end up on the same side of the new π bond?",
+  "w": "C3 has only one H, so the Zaitsev product (conjugated, trisubstituted 2-phenylbut-2-ene) forms stereospecifically. III is false: E2 requires the C–H and C–Br bonds to be anti-periplanar. I is true: with H(C3) anti to Br in the (2<i>S</i>,3<i>S</i>) isomer, the C1 methyl on C2 and the phenyl on C3 end up on opposite sides of the new double bond; those are the higher-priority groups on each carbon, so the alkene is (<i>E</i>). II is false: the (2<i>S</i>,3<i>R</i>) diastereomer places the methyl and phenyl on the same side in its anti-periplanar conformation, so it gives the (<i>Z</i>) alkene. Diastereomers give different alkenes in a stereospecific E2. <b>I only</b>.",
+  "x": [
+   "",
+   "II is false: E2 is stereospecific, so the diastereomer with the opposite configuration at C3 gives the (<i>Z</i>) alkene.",
+   "III is false: E2 needs the H and the leaving group anti-periplanar (180°), not syn.",
+   "I is true (anti elimination puts CH<sub>3</sub> and Ph trans, the <i>E</i> alkene), and II is false."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C[C@H](Br)[C@@H](C)c1ccccc1"
+   },
+   {
+    "arrow": "NaOCH<sub>2</sub>CH<sub>3</sub>",
+    "below": "CH<sub>3</sub>CH<sub>2</sub>OH"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "rz2-10",
+  "t": "elim",
+  "q": "2-Bromopropane reacts with NaOCH<sub>3</sub> in methanol to give a mixture of propene and 2-methoxypropane. Which changes increase the <b>fraction of elimination</b>?<br>I. Running the reaction at a lower temperature<br>II. Using KOC(CH<sub>3</sub>)<sub>3</sub> in place of NaOCH<sub>3</sub><br>III. Using 2-bromo-2-methylpropane in place of 2-bromopropane",
+  "c": [
+   "II and III only",
+   "II only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "Elimination makes more molecules (higher ΔS), is favored by bulky bases, and wins when the carbon is too crowded for backside attack.",
+  "w": "I is false: elimination has the larger, more favorable ΔS (more product molecules), so it is favored by <i>higher</i> temperature; cooling increases substitution. II is true: <i>tert</i>-butoxide is a strong but bulky base that cannot easily reach the backside of carbon, so it removes a β H instead. III is true: a tertiary bromide cannot undergo S<sub>N</sub>2, so a strong base gives almost entirely E2. <b>II and III only</b>.",
+  "x": [
+   "",
+   "III is also true: tertiary substrates block S<sub>N</sub>2, so a strong base gives E2 almost exclusively.",
+   "II is also true: a bulky alkoxide is a poor nucleophile but a strong base, which shifts the ratio toward elimination.",
+   "I is false: lowering the temperature favors substitution, because elimination is the entropy-driven pathway."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC(C)Br"
+   },
+   {
+    "arrow": "NaOCH<sub>3</sub>",
+    "below": "CH<sub>3</sub>OH"
+   },
+   {
+    "smi": "C=CC"
+   },
+   "+",
+   {
+    "smi": "COC(C)C"
+   }
+  ]
+ },
+ {
+  "id": "rz2-11",
+  "t": "elim",
+  "q": "Which alcohols give <b>2-methylbut-2-ene</b> as the major product when heated with concentrated H<sub>2</sub>SO<sub>4</sub>?",
+  "c": [
+   "I, II, and III",
+   "I and II only",
+   "I and III only",
+   "I only"
+  ],
+  "h": "Follow each cation: does it shift to the tertiary 2-methylbutan-2-yl cation before it loses H<sup>+</sup>?",
+  "w": "All three funnel to the same tertiary cation, (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>CH<sub>2</sub>CH<sub>3</sub>, which loses H<sup>+</sup> to give the Zaitsev (most substituted) alkene, 2-methylbut-2-ene. I (2-methylbutan-2-ol) forms this tertiary cation directly. II (3-methylbutan-2-ol) forms a secondary cation that undergoes a 1,2-hydride shift to the tertiary cation. III (2,2-dimethylpropan-1-ol) cannot form a primary cation; loss of water is assisted by a 1,2-methyl shift that gives the same tertiary cation. <b>I, II, and III</b>.",
+  "x": [
+   "",
+   "III also works: the neopentyl alcohol undergoes a methyl shift as water leaves, giving the tertiary cation and then 2-methylbut-2-ene.",
+   "II also works: the secondary cation from 3-methylbutan-2-ol undergoes a hydride shift to the same tertiary cation.",
+   "II and III also work: both rearrange (hydride shift and methyl shift) to the tertiary 2-methylbutan-2-yl cation."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CCC(C)(C)O",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(O)C(C)C",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(C)(C)CO",
+    "cap": "III"
+   }
+  ]
+ },
+ {
+  "id": "rz2-12",
+  "t": "addition",
+  "q": "Which reactions give a <b>meso</b> compound as the product?<br>I. (<i>Z</i>)-but-2-ene + Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub><br>II. (<i>E</i>)-but-2-ene + Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub><br>III. (<i>Z</i>)-but-2-ene + OsO<sub>4</sub>, then NaHSO<sub>3</sub>, H<sub>2</sub>O",
+  "c": [
+   "II and III only",
+   "II only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "Decide whether each reagent adds syn or anti, place the two new groups on the cis or trans alkene, and check the product for an internal mirror plane.",
+  "w": "Br<sub>2</sub> adds anti (bromonium ion, backside opening); OsO<sub>4</sub> adds syn. I is false: anti addition to the cis alkene gives the chiral (2<i>R</i>,3<i>R</i>)/(2<i>S</i>,3<i>S</i>)-2,3-dibromobutane pair as a racemate. II is true: anti addition to the trans alkene gives (2<i>R</i>,3<i>S</i>)-2,3-dibromobutane, which has an internal mirror plane (meso). III is true: syn addition to the cis alkene puts both OH groups on the same side, giving meso-butane-2,3-diol (2<i>R</i>,3<i>S</i>). <b>II and III only</b>.",
+  "x": [
+   "",
+   "III is also meso: syn dihydroxylation of a cis alkene gives the (2<i>R</i>,3<i>S</i>) diol with a mirror plane.",
+   "II is also meso: anti addition across a trans alkene gives (2<i>R</i>,3<i>S</i>)-2,3-dibromobutane.",
+   "I is not meso: anti addition across a cis alkene gives the chiral (<i>R</i>,<i>R</i>) and (<i>S</i>,<i>S</i>) dibromides as a racemate."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "C/C=C\\C",
+    "cap": "(Z)"
+   },
+   {
+    "smi": "C/C=C/C",
+    "cap": "(E)"
+   }
+  ]
+ },
+ {
+  "id": "rz2-13",
+  "t": "addition",
+  "q": "Which reagent sequences convert 1-methylcyclohexene into racemic <i>trans</i>-2-methylcyclohexan-1-ol (shown)?<br>I. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub><br>II. 1. mCPBA  2. LiAlH<sub>4</sub>  3. H<sub>3</sub>O<sup>+</sup><br>III. 1. BH<sub>3</sub>·THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH",
+  "c": [
+   "III only",
+   "II and III only",
+   "I and III only",
+   "II only"
+  ],
+  "h": "The OH ends up on the <i>less</i> substituted alkene carbon, and H and OH end up on the same face. Which sequence does both?",
+  "w": "The target has OH on the less substituted carbon (anti-Markovnikov) and is trans. I fails: acid-catalyzed hydration goes through the tertiary carbocation and gives 1-methylcyclohexan-1-ol (Markovnikov). II fails: hydride from LiAlH<sub>4</sub> opens the epoxide by S<sub>N</sub>2 at the <i>less</i> hindered secondary carbon, so the oxygen stays on the tertiary carbon and the product is again 1-methylcyclohexan-1-ol. III works: B and H add syn with B on the less substituted carbon; oxidation replaces B by OH with retention, so H (on C2) and OH (on C1) are cis, which puts the CH<sub>3</sub> and OH trans. <b>III only</b>.",
+  "x": [
+   "",
+   "II fails: hydride attacks the less hindered epoxide carbon, leaving OH on the tertiary carbon (1-methylcyclohexanol).",
+   "I fails: acid hydration is Markovnikov through a tertiary cation, giving 1-methylcyclohexanol.",
+   "II fails, and III works: hydroboration–oxidation is the only anti-Markovnikov, syn route here."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "O[C@@H]1CCCC[C@H]1C"
+   }
+  ]
+ },
+ {
+  "id": "rz2-14",
+  "t": "addition",
+  "q": "Which reactions give a <b>racemic</b> mixture of chiral products?<br>I. But-1-ene + HBr<br>II. Cyclopentene + OsO<sub>4</sub>, then NaHSO<sub>3</sub>, H<sub>2</sub>O<br>III. Cyclohexene + Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub>",
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "For each product ask: is it chiral at all? A product with an internal mirror plane is meso, not racemic.",
+  "w": "I is racemic: Markovnikov addition gives 2-bromobutane, and Br<sup>−</sup> attacks the planar secondary carbocation from either face, so (<i>R</i>) and (<i>S</i>) form equally. II is not racemic: syn dihydroxylation gives <i>cis</i>-cyclopentane-1,2-diol, a meso compound (achiral, with a mirror plane). III is racemic: anti addition gives <i>trans</i>-1,2-dibromocyclohexane, which is chiral and forms as the (1<i>R</i>,2<i>R</i>)/(1<i>S</i>,2<i>S</i>) pair. <b>I and III only</b>.",
+  "x": [
+   "",
+   "III is also racemic: <i>trans</i>-1,2-dibromocyclohexane is chiral and both enantiomers form equally.",
+   "I is also racemic: 2-bromobutane forms from a planar carbocation attacked on both faces.",
+   "II is false: <i>cis</i>-cyclopentane-1,2-diol is meso, so there is no pair of enantiomers."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C=CCC",
+    "cap": "I"
+   },
+   {
+    "smi": "C1=CCCC1",
+    "cap": "II"
+   },
+   {
+    "smi": "C1=CCCCC1",
+    "cap": "III"
+   }
+  ]
+ },
+ {
+  "id": "rz2-15",
+  "t": "addition",
+  "q": "Which alkenes give <b>only one</b> organic product when treated with 1. O<sub>3</sub>  2. (CH<sub>3</sub>)<sub>2</sub>S?",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "III only"
+  ],
+  "h": "Ozonolysis cuts the C=C and makes a C=O on each end. When are both ends part of the same molecule?",
+  "w": "I gives one product: the double bond is in the ring, so cleavage opens the ring and both carbonyls stay in one chain, 5-oxohexanal (CH<sub>3</sub>CO(CH<sub>2</sub>)<sub>3</sub>CHO). II gives two: 2-methylbut-2-ene splits into acetone and acetaldehyde. III gives two: the exocyclic C=C splits into cyclohexanone and formaldehyde. <b>I only</b>.",
+  "x": [
+   "",
+   "II gives two products: acetone from the disubstituted end and acetaldehyde from the other end.",
+   "III gives two products: cyclohexanone plus formaldehyde from the exocyclic CH<sub>2</sub>.",
+   "Only the ring (endocyclic) alkene keeps both new carbonyls in one molecule; III is exocyclic and splits into two compounds."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CC1=CCCC1",
+    "cap": "I"
+   },
+   {
+    "smi": "CC=C(C)C",
+    "cap": "II"
+   },
+   {
+    "smi": "C=C1CCCCC1",
+    "cap": "III"
+   }
+  ]
+ },
+ {
+  "id": "rz2-16",
+  "t": "alkynes",
+  "q": "Which reagent sequences convert propyne into propanal?<br>I. 1. (Sia)<sub>2</sub>BH (disiamylborane)  2. H<sub>2</sub>O<sub>2</sub>, NaOH<br>II. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>, HgSO<sub>4</sub><br>III. 1. H<sub>2</sub>, Lindlar catalyst  2. BH<sub>3</sub>·THF  3. H<sub>2</sub>O<sub>2</sub>, NaOH  4. PCC",
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "An aldehyde needs the oxygen on the terminal carbon: you need an anti-Markovnikov step somewhere.",
+  "w": "I works: a bulky borane adds once to the terminal alkyne with B on C1; oxidation gives an enol that tautomerizes to propanal. II fails: Hg<sup>2+</sup>-catalyzed hydration is Markovnikov, putting O on C2 and giving acetone. III works: Lindlar gives propene, hydroboration–oxidation gives propan-1-ol (anti-Markovnikov), and PCC oxidizes the primary alcohol to propanal without going on to the acid. <b>I and III only</b>.",
+  "x": [
+   "",
+   "III also works: propene → propan-1-ol → propanal, and PCC stops at the aldehyde.",
+   "I also works: hydroboration of a terminal alkyne with a bulky borane gives the aldehyde after tautomerization.",
+   "II fails: mercury-catalyzed hydration follows Markovnikov's rule and gives the methyl ketone, acetone."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC#C"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCC=O"
+   }
+  ]
+ },
+ {
+  "id": "rz2-17",
+  "t": "alkynes",
+  "q": "Hex-3-yne is converted to an alkene, and the alkene is then treated as shown. Which sequences give a <b>racemic</b> product?<br>I. 1. Na, NH<sub>3</sub>(l)  2. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub><br>II. 1. H<sub>2</sub>, Lindlar catalyst  2. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub><br>III. 1. Na, NH<sub>3</sub>(l)  2. OsO<sub>4</sub>, then NaHSO<sub>3</sub>, H<sub>2</sub>O",
+  "c": [
+   "II and III only",
+   "II only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "First decide which alkene each reduction gives (cis or trans), then whether the second step is syn or anti.",
+  "w": "Na/NH<sub>3</sub> gives (<i>E</i>)-hex-3-ene; Lindlar gives (<i>Z</i>)-hex-3-ene. Br<sub>2</sub> adds anti; OsO<sub>4</sub> adds syn. I is false: trans + anti gives (3<i>R</i>,4<i>S</i>)-3,4-dibromohexane, a meso compound. II is true: cis + anti gives the chiral (3<i>R</i>,4<i>R</i>)/(3<i>S</i>,4<i>S</i>) dibromide as a racemate. III is true: trans + syn gives (3<i>R</i>,4<i>R</i>)/(3<i>S</i>,4<i>S</i>)-hexane-3,4-diol as a racemate. <b>II and III only</b>.",
+  "x": [
+   "",
+   "III is also racemic: syn dihydroxylation of the trans alkene gives the chiral (<i>R</i>,<i>R</i>)/(<i>S</i>,<i>S</i>) diol pair.",
+   "II is also racemic: anti addition of Br<sub>2</sub> to the cis alkene gives the chiral dibromide pair.",
+   "I is false: anti addition of Br<sub>2</sub> to the trans alkene gives the meso dibromide."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CCC#CCC"
+   },
+   {
+    "arrow": "?"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "rz2-18",
+  "t": "alkynes",
+  "q": "Hex-2-yne is to be made from propyne in two steps (deprotonation, then alkylation). Which statements about this plan are true?<br>I. NaOH is a strong enough base to deprotonate propyne almost completely.<br>II. NaNH<sub>2</sub> deprotonates propyne essentially completely.<br>III. 2-Bromopropane is as good an alkylating agent here as 1-bromopropane.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "Compare pK<sub>a</sub> values (terminal alkyne ≈ 25, water ≈ 15.7, ammonia ≈ 38), then think about S<sub>N</sub>2 versus E2 for the acetylide.",
+  "w": "I is false: water (pK<sub>a</sub> 15.7) is a much stronger acid than propyne (pK<sub>a</sub> about 25), so hydroxide cannot deprotonate propyne to any useful extent. II is true: ammonia (pK<sub>a</sub> about 38) is a far weaker acid than propyne, so amide removes the alkyne C–H essentially completely. III is false: the propynide ion is a strong base, and with a secondary halide it mostly causes E2 (giving propene); the plan needs the primary halide 1-bromopropane, and it gives hex-2-yne only from a straight-chain propyl group anyway. <b>II only</b>.",
+  "x": [
+   "",
+   "I is false: the equilibrium lies far on the side of propyne and hydroxide, because water is the stronger acid.",
+   "III is false: acetylide ions are strong bases and give mainly elimination with secondary halides; 2-bromopropane would also put a branched group on the alkyne.",
+   "I is false (water is a stronger acid than propyne, so hydroxide fails), and II is true: amide is a much stronger base than the acetylide."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC#C"
+   },
+   {
+    "arrow": "1. base",
+    "below": "2. alkyl halide"
+   },
+   {
+    "smi": "CC#CCCC"
+   }
+  ]
+ },
+ {
+  "id": "rz2-19",
+  "t": "radical",
+  "q": "2-Methylbutane is treated with Br<sub>2</sub> and light. Which statements are true?<br>I. The major product is 2-bromo-2-methylbutane.<br>II. Each molecule of product requires the absorption of a new photon.<br>III. Bromination is more selective than chlorination because H abstraction by Br• is endothermic, so its transition state is late and radical-like.",
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "Think about how a chain reaction keeps going, and apply the Hammond postulate to the H-abstraction step.",
+  "w": "I is true: Br• abstracts the tertiary H selectively (tertiary radical most stable), giving 2-bromo-2-methylbutane as the major product. II is false: light only starts the chain by splitting Br<sub>2</sub>; the two propagation steps (R–H + Br• → R• + HBr; R• + Br<sub>2</sub> → R–Br + Br•) regenerate Br•, so one photon can lead to many product molecules. III is true: H abstraction by Br• is endothermic, so by the Hammond postulate the transition state resembles the alkyl radical, and differences in radical stability (3° > 2° > 1°) show up strongly in the rates; the exothermic Cl• abstraction has an early, reactant-like transition state and is much less selective. <b>I and III only</b>.",
+  "x": [
+   "",
+   "This misses III: the late, product-like transition state is exactly why bromination is so selective.",
+   "This misses I: bromination strongly prefers the tertiary C–H, so the tertiary bromide is the major product.",
+   "II is false: propagation regenerates Br•, so one photon starts a chain that makes many product molecules."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CCC(C)C"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "hν"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "rz2-20",
+  "t": "radical",
+  "q": "Which alkenes give a <b>single</b> constitutional isomer of allylic bromide with NBS and light (ignore stereoisomers)?",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "Draw the allylic radical and its resonance form. Bromine can bond at either end of the allylic system.",
+  "w": "I gives two: removing an allylic H from but-1-ene gives a radical delocalized over C1 and C3, so both 3-bromobut-1-ene and 1-bromobut-2-ene form. II gives several: 1-methylcyclohexene has three different allylic positions (the CH<sub>3</sub>, ring C3 and ring C6), and their radicals are not equivalent. III gives one: the cyclohexenyl radical is symmetric, so bromine at either end of the allylic system gives the same 3-bromocyclohexene. <b>III only</b>.",
+  "x": [
+   "",
+   "I gives two products: the allylic radical from but-1-ene has unequal ends, giving 3-bromobut-1-ene and 1-bromobut-2-ene.",
+   "II gives several products: 1-methylcyclohexene has three nonequivalent allylic positions.",
+   "I is wrong (two products from the unsymmetric allylic radical), and III gives one product because its allylic radical is symmetric."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C=CCC",
+    "cap": "I"
+   },
+   {
+    "smi": "CC1=CCCCC1",
+    "cap": "II"
+   },
+   {
+    "smi": "C1=CCCCC1",
+    "cap": "III"
+   }
+  ]
+ },
+ {
+  "id": "rz2-21",
+  "t": "synthesis",
+  "q": "Which reagents convert cyclohexene into <i>cis</i>-cyclohexane-1,2-diol?<br>I. OsO<sub>4</sub> (catalytic), NMO<br>II. KMnO<sub>4</sub>, NaOH, H<sub>2</sub>O, cold<br>III. 1. mCPBA  2. H<sub>3</sub>O<sup>+</sup>",
+  "c": [
+   "I and II only",
+   "I only",
+   "II only",
+   "I, II, and III"
+  ],
+  "h": "Sort the methods into syn and anti dihydroxylations.",
+  "w": "I works: OsO<sub>4</sub> adds both oxygens to one face through a cyclic osmate ester (syn); NMO reoxidizes the osmium so only a catalytic amount is needed. II works: cold, basic KMnO<sub>4</sub> also forms a cyclic manganate ester and gives syn addition. III fails: mCPBA gives the epoxide, and acid-catalyzed opening by water occurs from the back face, so the product is <i>trans</i>-cyclohexane-1,2-diol. <b>I and II only</b>.",
+  "x": [
+   "",
+   "II also works: cold, dilute, basic permanganate is a syn dihydroxylation through a cyclic manganate ester.",
+   "I also works: catalytic OsO<sub>4</sub> with NMO as the reoxidant is the standard syn dihydroxylation.",
+   "III fails: epoxidation then acid opening is an anti addition and gives the trans diol."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "C1=CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "O[C@@H]1CCCC[C@@H]1O"
+   }
+  ]
+ },
+ {
+  "id": "rz2-22",
+  "t": "synthesis",
+  "q": "Which sequences convert acetylene into (<i>E</i>)-hex-3-ene?<br>I. 1. NaNH<sub>2</sub>  2. CH<sub>3</sub>CH<sub>2</sub>Br  3. NaNH<sub>2</sub>  4. CH<sub>3</sub>CH<sub>2</sub>Br  5. H<sub>2</sub>, Lindlar catalyst<br>II. 1. NaNH<sub>2</sub>  2. CH<sub>3</sub>CH<sub>2</sub>Br  3. NaNH<sub>2</sub>  4. CH<sub>3</sub>CH<sub>2</sub>Br  5. Na, NH<sub>3</sub>(l)<br>III. 1. NaNH<sub>2</sub>  2. CH<sub>3</sub>CH<sub>2</sub>Br  3. NaNH<sub>2</sub>  4. CH<sub>3</sub>CH<sub>2</sub>Br  5. H<sub>2</sub>, Pt",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "All three build the same alkyne first. The last step decides the outcome.",
+  "w": "Steps 1–4 are the same in every route: two deprotonation–alkylation cycles add an ethyl group to each end, giving hex-3-yne. I fails: H<sub>2</sub> with Lindlar catalyst adds both H atoms syn, giving (<i>Z</i>)-hex-3-ene. II works: dissolving-metal reduction (Na in NH<sub>3</sub>) goes through a vinyl radical and vinyl anion that adopt the trans arrangement, giving (<i>E</i>)-hex-3-ene. III fails: H<sub>2</sub> over Pt reduces the alkyne all the way to hexane. <b>II only</b>.",
+  "x": [
+   "",
+   "I fails: Lindlar reduction is syn and gives the <i>Z</i> alkene.",
+   "III fails: an unpoisoned Pt catalyst reduces the alkyne completely to the alkane.",
+   "This reverses the two partial reductions: Lindlar gives the <i>Z</i> alkene, and Na/NH<sub>3</sub> gives the <i>E</i> alkene."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C#C"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC/C=C/CC"
+   }
+  ]
+ },
+ {
+  "id": "rz2-23",
+  "t": "synthesis",
+  "q": "Which reagent sequences convert 1-methylcyclohexene into 1-bromo-2-methylcyclohexane (ignore which stereoisomer forms)?<br>I. HBr, ROOR, hν<br>II. 1. BH<sub>3</sub>·THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH  3. PBr<sub>3</sub><br>III. HBr (no peroxides)",
+  "c": [
+   "I and II only",
+   "I only",
+   "II only",
+   "I, II, and III"
+  ],
+  "h": "The Br must end up on the less substituted alkene carbon. Which routes are anti-Markovnikov?",
+  "w": "I works: under peroxides Br• adds to the less substituted carbon so that the more stable tertiary radical forms; that radical takes H from HBr, putting Br on C2 of the original alkene (anti-Markovnikov). II works: hydroboration–oxidation gives <i>trans</i>-2-methylcyclohexan-1-ol, and PBr<sub>3</sub> converts the secondary alcohol to the bromide with inversion (so this route gives specifically the cis bromide, but the constitution is right). III fails: ionic HBr addition goes through the tertiary carbocation and gives 1-bromo-1-methylcyclohexane (Markovnikov). <b>I and II only</b>.",
+  "x": [
+   "",
+   "II also works: anti-Markovnikov alcohol, then PBr<sub>3</sub>, puts Br on the secondary carbon next to the methyl.",
+   "I also works: radical addition of HBr is anti-Markovnikov because the tertiary radical forms on the way.",
+   "III fails: without peroxides HBr adds through the tertiary carbocation and gives 1-bromo-1-methylcyclohexane."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC1CCCCC1Br"
+   }
+  ]
+ },
+ {
+  "id": "rz2-24",
+  "t": "alcohols",
+  "q": "Which reagents convert pentan-1-ol into pentanal <b>without</b> significant further oxidation?<br>I. Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>, H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O<br>II. KMnO<sub>4</sub>, NaOH, heat; then H<sub>3</sub>O<sup>+</sup><br>III. PCC, CH<sub>2</sub>Cl<sub>2</sub>",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "Over-oxidation of an aldehyde goes through its hydrate, which needs water.",
+  "w": "I fails: chromic acid in water oxidizes the primary alcohol to the aldehyde, which forms a hydrate and is oxidized on to pentanoic acid. II fails: hot permanganate is a strong oxidant that also takes a primary alcohol to the carboxylic acid. III works: PCC in anhydrous CH<sub>2</sub>Cl<sub>2</sub> stops at the aldehyde, because no water is present to form the hydrate that would be oxidized further. <b>III only</b>.",
+  "x": [
+   "",
+   "I fails: aqueous chromic acid over-oxidizes a primary alcohol to the carboxylic acid.",
+   "II fails: hot KMnO<sub>4</sub> oxidizes the primary alcohol all the way to pentanoic acid.",
+   "I fails (aqueous chromic acid gives the acid), and III works: PCC in dry CH<sub>2</sub>Cl<sub>2</sub> stops at the aldehyde."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CCCCCO"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCCCC=O"
+   }
+  ]
+ },
+ {
+  "id": "rz2-25",
+  "t": "ethers",
+  "q": "Which methods give <i>tert</i>-butyl ethyl ether, (CH<sub>3</sub>)<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub>, as the main product?<br>I. (CH<sub>3</sub>)<sub>3</sub>CO<sup>−</sup> K<sup>+</sup> + CH<sub>3</sub>CH<sub>2</sub>Br<br>II. CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> Na<sup>+</sup> + (CH<sub>3</sub>)<sub>3</sub>CBr<br>III. 2-Methylpropene + CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> Na<sup>+</sup> in ethanol",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II only"
+  ],
+  "h": "In a Williamson synthesis the alkoxide attacks by S<sub>N</sub>2. Which carbon can be attacked from the back? And can an alkoxide add to an ordinary C=C?",
+  "w": "I works: this is a Williamson ether synthesis with the alkyl group on the primary halide, so S<sub>N</sub>2 at the unhindered CH<sub>2</sub> gives the ether. II fails: S<sub>N</sub>2 at a tertiary carbon is impossible, and ethoxide acts as a base, so E2 gives 2-methylpropene. III fails: an unactivated alkene is electron-rich and does not react with a nucleophile such as ethoxide (adding ethanol across the C=C needs an electrophile, for example H<sup>+</sup> or Hg<sup>2+</sup>). <b>I only</b>.",
+  "x": [
+   "",
+   "II fails: a tertiary bromide with a strong base gives E2 (2-methylpropene), not substitution.",
+   "III fails: an alkoxide cannot add to an ordinary alkene; the C=C is a nucleophile, not an electrophile.",
+   "This reverses the Williamson rule: the tertiary piece must be the alkoxide and the halide must be primary, so I works and II fails."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCOC(C)(C)C"
+   }
+  ]
+ }
+]

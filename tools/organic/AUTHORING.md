@@ -86,8 +86,46 @@ Example: `"s": [{"smi": "CC(C)=C"}, {"arrow": "HBr", "below": "ROOR, hν"}, "?"]
 - **Fischer** `{"type":"fischer","top":"CHO","rows":[["H","OH"],["HO","H"]],"bottom":"CH<sub>2</sub>OH"}` (rows = [left,right]).
 - **Equation text** `{"type":"eq","text":"CH<sub>3</sub>Br + CN<sup>−</sup> → ..."}`.
 
-There are no curved-arrow drawings. Ask mechanism questions through intermediates (drawn as structures), the
-rate-determining step in words, energy diagrams, or "which species is the electrophile".
+## Curved arrows (mechanisms)
+
+A structure part (in `s` or `cs`) can carry electron-pushing arrows and lone pairs:
+
+    {"smi": "[OH-:51].[CH3:52][Br:53]", "lp": true,
+     "arrows": [{"from": 51, "to": 52}, {"from": [52, 53], "to": 53}]}
+
+- **Anchors:** give every atom an arrow touches an atom map **51–99** (`[CH3:52]`, `[O-:51]`, `[C:60]`). Maps 51+ are
+  invisible; maps 1–26 still draw lettered tags (a, b, …) and can also be arrow ends.
+- **Arrow ends:** a number = that atom; `[m1, m2]` = the middle of the bond between those two atoms.
+  - from a **lone pair**: `"from": 51` (the atom must show lone pairs, see `lp`); the arrow starts at the lone pair facing the target.
+  - from a **bond** (σ or π): `"from": [52, 53]`.
+  - to an **atom** (new bond to it, or the bond's electrons land on it as a lone pair): `"to": 52`.
+  - to a **bond** (a π bond forms there): `"to": [52, 53]`; the two atoms must already be bonded in the drawing.
+  - `"half": true` = fishhook (one electron, radicals). `"side": 1` or `-1` flips which way an arrow bows if the default looks wrong.
+- **Lone pairs:** `"lp": true` draws every lone pair on N, O, S, halogens and carbanions (counted from the structure);
+  `"lp": [51, 53]` draws them only on those mapped atoms. Arrows from a lone pair need it drawn.
+- **Explicit hydrogens:** in a part with arrows, `[H:54]` is kept as a drawn H (needed for E2, acid–base and
+  deprotonation arrows): `CC[O-:51].[H:54][CH2:52][CH:53](C)[Br:55]`.
+- **Fragments:** separate species with `.`; they are drawn left to right in the order written (put the nucleophile
+  or base on the side it attacks from: for S<sub>N</sub>2 write the nucleophile first and the C–LG with LG last).
+- **Cyclic transition states** (Diels–Alder, Cope, Claisen, β-keto acid decarboxylation, any six-electron ring of
+  arrows): add `"layout": [[m1, m2], [m3, m4]]`, the pairs of mapped atoms whose bonds are FORMING. The drawing is laid
+  out as if those bonds existed, so the six reacting atoms sit on a ring the way textbooks draw it; the bonds themselves
+  are not drawn. Example (Diels–Alder): `"smi": "[CH2:51]=[CH:52][CH:53]=[CH2:54].[CH2:55]=[CH:56]C(=O)C",
+  "layout": [[54, 55], [56, 51]]`.
+- Draw **one step** per drawing (the step the question is about). Show the intermediate or product of that step as a
+  separate structure if needed, e.g. `"s": [{...with arrows...}, {"arrow": ""}, {"smi": "product"}]`.
+- **"Which arrows are correct?"** items: four `cs` drawings of the same species with different arrows. The check accepts
+  identical molecules there as long as the arrows differ. Good wrong versions are the classic mistakes: an arrow
+  starting at the electrophile or a positive charge, the arrow drawn backwards, attack at the wrong atom, a missing
+  leaving-group arrow (five bonds to carbon), a full arrow where a fishhook belongs, deprotonating the wrong H.
+- Keep drawings small (≤ ~20 heavy atoms per part). `build_bank.py check` reports bad anchors, bond ends that are
+  not bonds, and correct-looking arrows that start on a heteroatom with no drawn lone pair. (An arrow starting at a
+  carbon with no lone pair is allowed, because wrong choices need it.)
+- A mechanism question should still read without the arrows for screen readers: the stem says in words what
+  happens (the drawings carry an automatic description of each arrow).
+
+Mechanism questions can also ask through intermediates, the rate-determining step, energy diagrams, or
+"which species is the electrophile".
 
 ## Check your chemistry with the tools (required)
 
@@ -189,3 +227,23 @@ Python with RDKit: `PY=/private/tmp/claude-501/-Users-dan--claude-spares-spare-w
   glycosides, Kiliani–Fischer/Wohl, aldaric acids), amino acids (pI, charge at pH, Fischer/zwitterion), peptide
   synthesis (DCC, protecting groups, Edman), lipids (triglyceride melting points, saponification, terpenes/isoprene,
   steroids), nucleic acid bases (aromaticity, tautomers, H-bonding).
+
+## Roman-numeral (I, II, III) items
+
+The ACS's favourite format. Stem lists three statements, reagents, structures (caption them `"cap": "I"`) or
+conditions labeled I, II, III, and the choices are combinations: `"I only"`, `"III only"`, `"I and II only"`,
+`"I, II, and III"` (or rankings `"II < I < III"`).
+- Write each statement so it is clearly true or false on its own; no hedged wording.
+- The four choices must be combinations a student could reach by misjudging exactly one statement.
+- `w` must judge **every** statement (I true because…, II false because…, III true because…).
+- `x` explains, per wrong combination, which statement it gets wrong and why.
+- Balance keys: don't make "I, II, and III" or "I and II only" the answer more than about a quarter of the time.
+
+## Spectra items
+
+- Draw real-looking data with `f` (`nmr`, `ir`, `ms`); every peak list must match the structure you claim (check
+  signal counts and splitting with `chem.py info`; use standard shift/wavenumber ranges from OpenStax).
+- Useful formats: combined unknowns (formula + IR + ¹H NMR, or MS + ¹³C), "which technique best tells X from Y",
+  ppm ↔ Hz (Δν = δ × spectrometer MHz; J in Hz is field-independent), coupling-constant reading, DEPT, M+2 and
+  M+1 math, UV-vis λ<sub>max</sub> and conjugation (28B).
+- A **set** of 2–4 questions may share one spectrum: repeat the same `f` in each so every question stands alone.

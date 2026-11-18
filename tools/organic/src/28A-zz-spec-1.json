@@ -1,0 +1,1643 @@
+[
+ {
+  "id": "spec-01",
+  "d": 2,
+  "q": "A compound with formula C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> gives the IR spectrum shown. There is no absorption above 3000 cm<sup>−1</sup>. Which compound is it?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2985,
+      "str": "m"
+     },
+     {
+      "cm": 2940,
+      "str": "w"
+     },
+     {
+      "cm": 1742,
+      "str": "s"
+     },
+     {
+      "cm": 1447,
+      "str": "w"
+     },
+     {
+      "cm": 1373,
+      "str": "m"
+     },
+     {
+      "cm": 1240,
+      "str": "s"
+     },
+     {
+      "cm": 1047,
+      "str": "s"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(C)=O"
+   },
+   {
+    "smi": "CCCC(=O)O"
+   },
+   {
+    "smi": "CC(O)C(C)=O"
+   },
+   {
+    "smi": "C1COCCO1"
+   }
+  ],
+  "h": "Find the carbonyl band first, then decide whether an O–H is present and whether there is a strong C–O stretch between 1000 and 1300 cm<sup>−1</sup>.",
+  "w": "The strong band at 1742 cm<sup>−1</sup> is a C=O stretch in the saturated-ester range (about 1735–1750 cm<sup>−1</sup>, a little higher than a ketone at 1715). The two strong bands at 1240 and 1047 cm<sup>−1</sup> are the C–O stretches that every ester shows, and there is no O–H band. All four choices are C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>, so the spectrum points to the ester, <b>ethyl acetate</b>.",
+  "x": [
+   "",
+   "Butanoic acid would show a very broad O–H stretch from about 2500 to 3300 cm<sup>−1</sup> and a C=O near 1710 cm<sup>−1</sup>; the spectrum has nothing above 3000 cm<sup>−1</sup>.",
+   "3-Hydroxy-2-butanone has an alcohol O–H (broad, near 3400 cm<sup>−1</sup>) and a ketone C=O near 1715 cm<sup>−1</sup>, not 1742 cm<sup>−1</sup>.",
+   "1,4-Dioxane is a diether with no C=O at all; it would show strong C–O bands near 1120 cm<sup>−1</sup> but nothing near 1740 cm<sup>−1</sup>."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-02",
+  "d": 1,
+  "q": "A hydrocarbon C<sub>5</sub>H<sub>8</sub> gives the IR spectrum shown. Which compound is it?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3310,
+      "str": "s"
+     },
+     {
+      "cm": 2965,
+      "str": "s"
+     },
+     {
+      "cm": 2875,
+      "str": "m"
+     },
+     {
+      "cm": 2120,
+      "str": "w"
+     },
+     {
+      "cm": 1465,
+      "str": "m"
+     },
+     {
+      "cm": 630,
+      "str": "s",
+      "shape": "broad"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C#CCCC"
+   },
+   {
+    "smi": "CC#CCC"
+   },
+   {
+    "smi": "C1=CCCC1"
+   },
+   {
+    "smi": "C=C/C=C/C"
+   }
+  ],
+  "h": "A strong, sharp band near 3300 cm<sup>−1</sup> in a compound with no oxygen or nitrogen has only one common source.",
+  "w": "The strong, <i>sharp</i> band at 3310 cm<sup>−1</sup> is the ≡C–H stretch of a terminal alkyne (an O–H or N–H band would be broad, and this compound has no O or N). The weak band at 2120 cm<sup>−1</sup> is the C≡C stretch, and the broad band near 630 cm<sup>−1</sup> is the ≡C–H bend. The compound is <b>1-pentyne</b>.",
+  "x": [
+   "",
+   "2-Pentyne is an internal alkyne with no ≡C–H, so it has no band at 3300 cm<sup>−1</sup>; its nearly symmetric C≡C stretch is very weak or absent.",
+   "Cyclopentene would show an =C–H stretch just above 3000 cm<sup>−1</sup> (about 3050) and a C=C stretch near 1610–1650 cm<sup>−1</sup>, with nothing at 3310 or 2120 cm<sup>−1</sup>.",
+   "1,3-Pentadiene shows =C–H stretches near 3020–3090 cm<sup>−1</sup> and C=C stretches near 1600–1650 cm<sup>−1</sup>; it has no triple-bond band near 2120 cm<sup>−1</sup>."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-03",
+  "d": 3,
+  "q": "A compound with formula C<sub>6</sub>H<sub>12</sub> gives the IR spectrum shown. Which compound is it?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3080,
+      "str": "m"
+     },
+     {
+      "cm": 2960,
+      "str": "s"
+     },
+     {
+      "cm": 2930,
+      "str": "s"
+     },
+     {
+      "cm": 2860,
+      "str": "m"
+     },
+     {
+      "cm": 1642,
+      "str": "m"
+     },
+     {
+      "cm": 1465,
+      "str": "m"
+     },
+     {
+      "cm": 993,
+      "str": "s"
+     },
+     {
+      "cm": 910,
+      "str": "s"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CCCCC"
+   },
+   {
+    "smi": "C=C(C)CCC"
+   },
+   {
+    "smi": "CC/C=C/CC"
+   },
+   {
+    "smi": "C1CCCCC1"
+   }
+  ],
+  "h": "Bands above 3000 and near 1640 cm<sup>−1</sup> show what kind of bond is present. Strong bands below 1000 cm<sup>−1</sup> (=C–H out-of-plane bends) show how many groups are on it.",
+  "w": "The band at 3080 cm<sup>−1</sup> (sp<sup>2</sup> =C–H) and the C=C stretch at 1642 cm<sup>−1</sup> show an alkene, so the one degree of unsaturation is a C=C, not a ring. The strong pair at 993 and 910 cm<sup>−1</sup> is the out-of-plane =C–H bending pattern of a monosubstituted alkene, RCH=CH<sub>2</sub>. A 1,1-disubstituted alkene (R<sub>2</sub>C=CH<sub>2</sub>) shows one strong band near 890 cm<sup>−1</sup> instead. The compound is <b>1-hexene</b>.",
+  "x": [
+   "",
+   "2-Methyl-1-pentene is a 1,1-disubstituted alkene: it has the =C–H stretch and C=C band, but its out-of-plane bend is a single strong band near 890 cm<sup>−1</sup>, not the 993/910 pair.",
+   "(<i>E</i>)-3-Hexene is symmetric, so its C=C stretch is essentially IR-inactive (no band near 1640 cm<sup>−1</sup>); a <i>trans</i> alkene shows one strong bend near 965 cm<sup>−1</sup>.",
+   "Cyclohexane uses its degree of unsaturation as a ring. It has only sp<sup>3</sup> C–H stretches below 3000 cm<sup>−1</sup> and no C=C band."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-04",
+  "d": 3,
+  "q": "A compound with formula C<sub>3</sub>H<sub>6</sub>O gives the IR spectrum shown. Which compound is it?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3340,
+      "str": "s",
+      "shape": "broad"
+     },
+     {
+      "cm": 3085,
+      "str": "m"
+     },
+     {
+      "cm": 2920,
+      "str": "m"
+     },
+     {
+      "cm": 2870,
+      "str": "m"
+     },
+     {
+      "cm": 1645,
+      "str": "m"
+     },
+     {
+      "cm": 1030,
+      "str": "s"
+     },
+     {
+      "cm": 993,
+      "str": "s"
+     },
+     {
+      "cm": 920,
+      "str": "s"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CCO"
+   },
+   {
+    "smi": "CCC=O"
+   },
+   {
+    "smi": "CC(C)=O"
+   },
+   {
+    "smi": "C=COC"
+   }
+  ],
+  "h": "C<sub>3</sub>H<sub>6</sub>O has one degree of unsaturation. Decide whether it is a C=O or a C=C, then check whether an O–H is present.",
+  "w": "One degree of unsaturation must be a C=O or a C=C (or a ring). There is no band in the 1700–1750 cm<sup>−1</sup> carbonyl region, so it is not a C=O. The =C–H stretch at 3085 cm<sup>−1</sup>, the C=C stretch at 1645 cm<sup>−1</sup> and the 993/920 cm<sup>−1</sup> pair (a CH=CH<sub>2</sub> group) show a vinyl group. The broad, strong band at 3340 cm<sup>−1</sup> is a hydrogen-bonded O–H, and 1030 cm<sup>−1</sup> is the C–O stretch of a primary alcohol. The compound is <b>2-propen-1-ol (allyl alcohol)</b>.",
+  "x": [
+   "",
+   "Propanal would show a strong C=O near 1730 cm<sup>−1</sup> and the aldehyde C–H pair near 2720 and 2820 cm<sup>−1</sup>; it has no O–H and no C=C.",
+   "Acetone shows a strong C=O at 1715 cm<sup>−1</sup> and no O–H, no =C–H and no C=C band.",
+   "Methyl vinyl ether has the vinyl =C–H and C=C bands, but it has no O–H. It could not give the broad band at 3340 cm<sup>−1</sup>; its C–O band is a strong stretch near 1200 cm<sup>−1</sup>."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-05",
+  "d": 2,
+  "q": "Which compound gives the IR spectrum shown? (The band at 3290 cm<sup>−1</sup> is weak and single.)",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3290,
+      "str": "w"
+     },
+     {
+      "cm": 2965,
+      "str": "s"
+     },
+     {
+      "cm": 2870,
+      "str": "m"
+     },
+     {
+      "cm": 2810,
+      "str": "m"
+     },
+     {
+      "cm": 1460,
+      "str": "m"
+     },
+     {
+      "cm": 1140,
+      "str": "m"
+     },
+     {
+      "cm": 730,
+      "str": "m",
+      "shape": "broad"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCNCC"
+   },
+   {
+    "smi": "CCCCN"
+   },
+   {
+    "smi": "CCN(CC)CC"
+   },
+   {
+    "smi": "CCCCO"
+   }
+  ],
+  "h": "Count the bands between 3300 and 3500 cm<sup>−1</sup> and note how strong and broad they are.",
+  "w": "A single, weak N–H stretch near 3300 cm<sup>−1</sup> is the mark of a <b>secondary amine</b>, R<sub>2</sub>NH, which has one N–H bond. Primary amines (RNH<sub>2</sub>) show two bands (symmetric and asymmetric stretches), tertiary amines show none, and an alcohol O–H is strong and broad. The compound is <b>diethylamine</b>.",
+  "x": [
+   "",
+   "Butylamine is a primary amine; its NH<sub>2</sub> group gives two N–H stretching bands, near 3370 and 3290 cm<sup>−1</sup>, not one.",
+   "Triethylamine is a tertiary amine with no N–H bond, so it shows no absorption between 3200 and 3500 cm<sup>−1</sup>.",
+   "1-Butanol would show a strong, very broad O–H stretch centered near 3350 cm<sup>−1</sup> and a strong C–O stretch near 1050 cm<sup>−1</sup>, not a weak, single band."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-06",
+  "d": 1,
+  "q": "A compound with formula C<sub>5</sub>H<sub>10</sub>O gives the IR spectrum shown. Which compound is it?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2960,
+      "str": "s"
+     },
+     {
+      "cm": 2875,
+      "str": "m"
+     },
+     {
+      "cm": 2820,
+      "str": "w"
+     },
+     {
+      "cm": 2720,
+      "str": "w"
+     },
+     {
+      "cm": 1730,
+      "str": "s"
+     },
+     {
+      "cm": 1465,
+      "str": "m"
+     },
+     {
+      "cm": 1380,
+      "str": "w"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCCC=O"
+   },
+   {
+    "smi": "CCCC(C)=O"
+   },
+   {
+    "smi": "OC1CCCC1"
+   },
+   {
+    "smi": "C=CCCCO"
+   }
+  ],
+  "h": "A C=O is present. Look just to the right of the C–H stretches for a pair of weak bands that only one kind of carbonyl compound shows.",
+  "w": "The strong band at 1730 cm<sup>−1</sup> is a C=O stretch, and the two weak bands at 2820 and 2720 cm<sup>−1</sup> are the C–H stretches of an aldehyde CHO group. No O–H band is present. The compound is <b>pentanal</b>.",
+  "x": [
+   "",
+   "2-Pentanone also has a C=O (near 1715 cm<sup>−1</sup>), but a ketone has no aldehyde C–H, so the 2720/2820 cm<sup>−1</sup> pair would be missing.",
+   "Cyclopentanol would show a broad O–H stretch near 3350 cm<sup>−1</sup> and no C=O band at 1730 cm<sup>−1</sup>.",
+   "4-Penten-1-ol would show a broad O–H near 3350 cm<sup>−1</sup>, an =C–H stretch near 3080 cm<sup>−1</sup> and a C=C near 1640 cm<sup>−1</sup>, and no C=O."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-07",
+  "d": 2,
+  "q": "1-Hexanol is treated with PCC in CH<sub>2</sub>Cl<sub>2</sub>. The isolated product gives the IR spectrum shown. What is the product?",
+  "s": [
+   {
+    "smi": "CCCCCCO"
+   },
+   {
+    "arrow": "PCC",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>"
+   },
+   "?"
+  ],
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2930,
+      "str": "s"
+     },
+     {
+      "cm": 2860,
+      "str": "m"
+     },
+     {
+      "cm": 2820,
+      "str": "w"
+     },
+     {
+      "cm": 2720,
+      "str": "w"
+     },
+     {
+      "cm": 1728,
+      "str": "s"
+     },
+     {
+      "cm": 1465,
+      "str": "m"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCCCC=O"
+   },
+   {
+    "smi": "CCCCCC(=O)O"
+   },
+   {
+    "smi": "CCCCCCO"
+   },
+   {
+    "smi": "C=CCCCC"
+   }
+  ],
+  "h": "Check three regions: the O–H region (3200–3600 and 2500–3300 cm<sup>−1</sup>), the C=O region, and 2700–2850 cm<sup>−1</sup>.",
+  "w": "The broad O–H band of the starting alcohol is gone, a strong C=O appears at 1728 cm<sup>−1</sup>, and the weak pair at 2820/2720 cm<sup>−1</sup> is the aldehyde C–H stretch. PCC in an anhydrous solvent stops a primary alcohol at the aldehyde, so the product is <b>hexanal</b>.",
+  "x": [
+   "",
+   "Hexanoic acid (from over-oxidation, as with aqueous chromic acid) would show a very broad O–H from about 2500 to 3300 cm<sup>−1</sup> and no 2720 cm<sup>−1</sup> aldehyde band.",
+   "Unreacted 1-hexanol would still show the broad O–H near 3350 cm<sup>−1</sup> and no C=O band at 1728 cm<sup>−1</sup>.",
+   "1-Hexene (from dehydration) would show =C–H near 3080 cm<sup>−1</sup> and C=C near 1640 cm<sup>−1</sup>, with no C=O."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-08",
+  "d": 1,
+  "q": "Which compound gives the IR spectrum shown?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2975,
+      "str": "s"
+     },
+     {
+      "cm": 2870,
+      "str": "m"
+     },
+     {
+      "cm": 1445,
+      "str": "m"
+     },
+     {
+      "cm": 1380,
+      "str": "m"
+     },
+     {
+      "cm": 1120,
+      "str": "s"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOCC"
+   },
+   {
+    "smi": "CCCCO"
+   },
+   {
+    "smi": "CCC(C)=O"
+   },
+   {
+    "smi": "C=CCC"
+   }
+  ],
+  "h": "Nothing appears above 3000 cm<sup>−1</sup> or between 1600 and 1800 cm<sup>−1</sup>. What does the strong band near 1100 cm<sup>−1</sup> leave?",
+  "w": "There is no O–H (no broad band near 3350 cm<sup>−1</sup>), no C=O (nothing near 1715 cm<sup>−1</sup>) and no alkene (nothing above 3000 cm<sup>−1</sup> or near 1640 cm<sup>−1</sup>). The only strong band besides the sp<sup>3</sup> C–H stretches is the C–O stretch at 1120 cm<sup>−1</sup>, the typical pattern of an ether. The compound is <b>diethyl ether</b>.",
+  "x": [
+   "",
+   "1-Butanol has a C–O stretch too, but it would also show a strong, broad O–H band near 3350 cm<sup>−1</sup>.",
+   "2-Butanone would show a strong C=O stretch near 1715 cm<sup>−1</sup>.",
+   "1-Butene would show an =C–H stretch near 3080 cm<sup>−1</sup>, a C=C stretch near 1640 cm<sup>−1</sup> and strong bends near 990 and 910 cm<sup>−1</sup>, and no C–O band."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-09",
+  "d": 1,
+  "q": "Which compound gives the mass spectrum shown?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      122,
+      24
+     ],
+     [
+      124,
+      23
+     ],
+     [
+      43,
+      100
+     ],
+     [
+      41,
+      55
+     ],
+     [
+      39,
+      15
+     ],
+     [
+      29,
+      10
+     ],
+     [
+      27,
+      40
+     ]
+    ],
+    "labels": {
+     "122": "M<sup>+</sup>",
+     "124": "M+2"
+    }
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCBr"
+   },
+   {
+    "smi": "CCBr"
+   },
+   {
+    "smi": "CCCCl"
+   },
+   {
+    "smi": "CCCCBr"
+   }
+  ],
+  "h": "Read the molecular-ion pair: its m/z values and the height of M+2 relative to M<sup>+</sup>.",
+  "w": "The molecular ion appears as two peaks of nearly equal height two mass units apart (m/z 122 and 124). A 1:1 M<sup>+</sup>/M+2 pair means one bromine (<sup>79</sup>Br and <sup>81</sup>Br are about 50:50). C<sub>3</sub>H<sub>7</sub><sup>79</sup>Br has M = 36 + 7 + 79 = 122. Loss of ·Br leaves the propyl cation, C<sub>3</sub>H<sub>7</sub><sup>+</sup>, at m/z 43 (the base peak). The compound is <b>1-bromopropane</b>.",
+  "x": [
+   "",
+   "Bromoethane also shows a 1:1 pair, but at m/z 108 and 110 (C<sub>2</sub>H<sub>5</sub>Br).",
+   "1-Chloropropane has M<sup>+</sup> at m/z 78, and its M+2 peak (80) is only about one-third as tall, the 3:1 pattern of chlorine.",
+   "1-Bromobutane shows the 1:1 bromine pair at m/z 136 and 138, and its alkyl cation is C<sub>4</sub>H<sub>9</sub><sup>+</sup> at m/z 57."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-10",
+  "d": 2,
+  "q": "Which compound gives the mass spectrum shown? (The three small peaks at m/z 186, 188 and 190 are the molecular-ion cluster.)",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      186,
+      5
+     ],
+     [
+      188,
+      10
+     ],
+     [
+      190,
+      5
+     ],
+     [
+      107,
+      100
+     ],
+     [
+      109,
+      96
+     ],
+     [
+      93,
+      4
+     ],
+     [
+      95,
+      4
+     ],
+     [
+      27,
+      70
+     ]
+    ],
+    "labels": {
+     "188": "M+2"
+    }
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "BrCCBr"
+   },
+   {
+    "smi": "ClCCBr"
+   },
+   {
+    "smi": "ClCCCl"
+   },
+   {
+    "smi": "CCBr"
+   }
+  ],
+  "h": "A 1:2:1 molecular-ion triplet and a 1:1 fragment pair each say something about how many heavy halogen atoms are present.",
+  "w": "Two bromine atoms give an M<sup>+</sup> : M+2 : M+4 pattern of about 1:2:1, because the two Br atoms can be <sup>79</sup>Br/<sup>79</sup>Br, <sup>79</sup>Br/<sup>81</sup>Br (two ways) or <sup>81</sup>Br/<sup>81</sup>Br. C<sub>2</sub>H<sub>4</sub><sup>79</sup>Br<sub>2</sub> = 24 + 4 + 158 = 186. The base-peak pair at m/z 107/109 (1:1) is BrCH<sub>2</sub>CH<sub>2</sub><sup>+</sup>, formed when M<sup>+</sup> loses one ·Br; it keeps one Br, so it shows the single-bromine 1:1 pattern. The compound is <b>1,2-dibromoethane</b>.",
+  "x": [
+   "",
+   "1-Bromo-2-chloroethane would show its cluster at m/z 142, 144 and 146 in about a 3:4:1 ratio, not 1:2:1 at 186–190.",
+   "1,2-Dichloroethane would show M<sup>+</sup> at m/z 98 with M+2 and M+4 in a 9:6:1 pattern, and no 1:1 pair at 107/109.",
+   "Bromoethane has only one Br, so its molecular ion is a 1:1 pair at m/z 108/110 with no M+4 peak."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-11",
+  "d": 2,
+  "q": "An alkyl halide gives the mass spectrum shown. Which compound is it?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      104,
+      6
+     ],
+     [
+      106,
+      2
+     ],
+     [
+      69,
+      60
+     ],
+     [
+      68,
+      100
+     ],
+     [
+      67,
+      55
+     ],
+     [
+      41,
+      55
+     ],
+     [
+      39,
+      35
+     ]
+    ],
+    "labels": {
+     "104": "M<sup>+</sup>",
+     "106": "M+2"
+    }
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "ClC1CCCC1"
+   },
+   {
+    "smi": "CCCCCCl"
+   },
+   {
+    "smi": "BrC1CCCC1"
+   },
+   {
+    "smi": "ClC1CCCCC1"
+   }
+  ],
+  "h": "Use the M<sup>+</sup>/M+2 ratio to identify the halogen, then work out the formula and its degree of unsaturation from M<sup>+</sup>.",
+  "w": "M<sup>+</sup> at m/z 104 with M+2 (106) about one-third as tall is the 3:1 pattern of one chlorine. Subtracting <sup>35</sup>Cl leaves 69, which is C<sub>5</sub>H<sub>9</sub>; the formula C<sub>5</sub>H<sub>9</sub>Cl has one degree of unsaturation, so with no C=C it is a ring. Loss of ·Cl gives C<sub>5</sub>H<sub>9</sub><sup>+</sup> (m/z 69), and loss of HCl gives m/z 68. The compound is <b>chlorocyclopentane</b>.",
+  "x": [
+   "",
+   "1-Chloropentane is C<sub>5</sub>H<sub>11</sub>Cl, with M<sup>+</sup> at m/z 106 (and M+2 at 108); it has no ring, so it has two more hydrogens.",
+   "Bromocyclopentane would show a 1:1 pair at m/z 148 and 150, the bromine pattern.",
+   "Chlorocyclohexane (C<sub>6</sub>H<sub>11</sub>Cl) has M<sup>+</sup> at m/z 118/120, and its C<sub>6</sub>H<sub>11</sub><sup>+</sup> fragment is at m/z 83."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-12",
+  "d": 3,
+  "q": "An amine C<sub>6</sub>H<sub>15</sub>N gives the mass spectrum shown (M<sup>+</sup> at m/z 101). Which compound is it?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      101,
+      18
+     ],
+     [
+      86,
+      100
+     ],
+     [
+      58,
+      30
+     ],
+     [
+      44,
+      8
+     ],
+     [
+      30,
+      25
+     ],
+     [
+      29,
+      15
+     ],
+     [
+      27,
+      10
+     ]
+    ],
+    "labels": {
+     "101": "M<sup>+</sup>"
+    }
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCN(CC)CC"
+   },
+   {
+    "smi": "CCCNCCC"
+   },
+   {
+    "smi": "CCCCCCN"
+   },
+   {
+    "smi": "CCCCNCC"
+   }
+  ],
+  "h": "Amines fragment by α-cleavage: a C–C bond to the carbon next to N breaks, leaving an iminium ion. Which radical must be lost to reach the base peak?",
+  "w": "The odd M<sup>+</sup> (101) fits the nitrogen rule for one N. The base peak at m/z 86 is M − 15, the loss of a methyl radical. In an amine, α-cleavage breaks the bond between the α-carbon (attached to N) and the β-carbon, so losing ·CH<sub>3</sub> requires an <i>N</i>-ethyl group (N–CH<sub>2</sub>–CH<sub>3</sub>). In <b>triethylamine</b>, every α-cleavage loses ·CH<sub>3</sub> and gives CH<sub>2</sub>=N<sup>+</sup>(CH<sub>2</sub>CH<sub>3</sub>)<sub>2</sub>, m/z 86, so this is the base peak.",
+  "x": [
+   "",
+   "In dipropylamine, α-cleavage loses an ethyl radical (29) from a propyl group, giving CH<sub>2</sub>=N<sup>+</sup>H–C<sub>3</sub>H<sub>7</sub> at m/z 72 as the base peak, not 86.",
+   "Hexylamine is a primary amine with an unbranched α-carbon; α-cleavage loses the pentyl radical and gives CH<sub>2</sub>=NH<sub>2</sub><sup>+</sup> at m/z 30 as the base peak.",
+   "In <i>N</i>-ethylbutylamine, the preferred α-cleavage loses the larger propyl radical (43) from the butyl side, giving m/z 58 as the base peak; loss of methyl from the ethyl side is the minor path."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-13",
+  "d": 3,
+  "q": "An alkane C<sub>6</sub>H<sub>14</sub> gives the mass spectrum shown. The molecular ion (m/z 86) is barely detectable. Which compound is it?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      86,
+      1
+     ],
+     [
+      71,
+      45
+     ],
+     [
+      57,
+      100
+     ],
+     [
+      43,
+      65
+     ],
+     [
+      41,
+      40
+     ],
+     [
+      29,
+      30
+     ]
+    ],
+    "labels": {
+     "86": "M<sup>+</sup>"
+    }
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(C)(C)C"
+   },
+   {
+    "smi": "CCCCCC"
+   },
+   {
+    "smi": "CCCC(C)C"
+   },
+   {
+    "smi": "CCC(C)CC"
+   }
+  ],
+  "h": "Alkane molecular ions break most easily at a branch point, where the most stable carbocation forms. What cation is m/z 57, and what loss gives m/z 71?",
+  "w": "Branched alkanes cleave at the most substituted carbon. The base peak at m/z 57 is C<sub>4</sub>H<sub>9</sub><sup>+</sup> (M − 29, loss of ethyl), and the strong m/z 71 is M − 15 (loss of methyl). In <b>2,2-dimethylbutane</b>, both cleavages happen at the quaternary carbon: losing ·CH<sub>2</sub>CH<sub>3</sub> gives the <i>tert</i>-butyl cation (57), and losing ·CH<sub>3</sub> gives the tertiary (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>CH<sub>2</sub>CH<sub>3</sub> cation (71). Because cleavage there is so easy, almost no M<sup>+</sup> survives.",
+  "x": [
+   "",
+   "Hexane is unbranched; its M<sup>+</sup> at m/z 86 is clearly visible, and M − 15 (71) is weak because losing methyl would form a primary cation.",
+   "2-Methylpentane cleaves at C2 to lose a propyl radical and give the isopropyl cation, so its base peak is m/z 43, not 57.",
+   "3-Methylpentane does give m/z 57 (loss of ethyl at the branch, a secondary cation), but its M − 15 peak at 71 is small, because loss of methyl is less favorable than loss of the larger ethyl radical."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-14",
+  "d": 2,
+  "q": "A small halogenated compound gives the mass spectrum shown. The molecular-ion cluster at m/z 130, 132, 134 and 136 has heights of about 100 : 96 : 31 : 3. Which halogen atoms does it contain?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      130,
+      90
+     ],
+     [
+      132,
+      86
+     ],
+     [
+      134,
+      28
+     ],
+     [
+      136,
+      3
+     ],
+     [
+      95,
+      100
+     ],
+     [
+      97,
+      64
+     ],
+     [
+      99,
+      10
+     ],
+     [
+      60,
+      30
+     ],
+     [
+      62,
+      10
+     ],
+     [
+      35,
+      12
+     ]
+    ],
+    "labels": {
+     "130": "M<sup>+</sup>"
+    }
+   }
+  ],
+  "c": [
+   "Three Cl atoms",
+   "Two Cl atoms",
+   "One Cl and one Br",
+   "Two Br atoms"
+  ],
+  "h": "Each Cl is about 3:1 <sup>35</sup>Cl:<sup>37</sup>Cl and each Br about 1:1 <sup>79</sup>Br:<sup>81</sup>Br. How many peaks does each combination give, and in what ratio?",
+  "w": "With <i>n</i> chlorine atoms, the cluster has <i>n</i> + 1 peaks spaced 2 apart, with heights from the expansion of (3 + 1)<sup><i>n</i></sup>. For <i>n</i> = 3 that gives 27 : 27 : 9 : 1, or about 100 : 100 : 33 : 4, which matches four peaks (M to M+6) of 100 : 96 : 31 : 3. The answer is <b>three Cl atoms</b>; the compound is trichloroethene, C<sub>2</sub>HCl<sub>3</sub> (24 + 1 + 105 = 130). The fragment cluster at m/z 95/97/99 (about 9 : 6 : 1) is M − Cl, which keeps two Cl.",
+  "x": [
+   "",
+   "Two Cl atoms give only three peaks (M, M+2, M+4) in a 9 : 6 : 1 ratio (100 : 65 : 11); there would be no M+6 peak, and M+2 would be clearly shorter than M<sup>+</sup>.",
+   "One Cl and one Br give three peaks in about a 3 : 4 : 1 ratio, with M+2 the tallest; there would be no M+6.",
+   "Two Br atoms give three peaks in a 1 : 2 : 1 ratio, with M+2 twice as tall as M<sup>+</sup>, and no M+6."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-15",
+  "d": 2,
+  "k": 1,
+  "q": "A compound gives the mass spectrum shown, with M<sup>+</sup> at m/z 128 (relative intensity 8.0) and M+1 at m/z 129 (relative intensity 0.80). There is no M+2 peak. Each carbon contributes about 1.1% to M+1. Which compound is it?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      128,
+      8
+     ],
+     [
+      129,
+      0.8
+     ],
+     [
+      99,
+      5
+     ],
+     [
+      85,
+      28
+     ],
+     [
+      71,
+      40
+     ],
+     [
+      57,
+      85
+     ],
+     [
+      43,
+      100
+     ],
+     [
+      29,
+      25
+     ]
+    ],
+    "labels": {
+     "128": "M<sup>+</sup>",
+     "129": "M+1"
+    }
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCCCCCCC"
+   },
+   {
+    "smi": "CCCCCCC(C)=O"
+   },
+   {
+    "smi": "c1ccc2ccccc2c1"
+   },
+   {
+    "smi": "C=CC(=O)OCCCC"
+   }
+  ],
+  "h": "Divide the M+1 intensity by the M<sup>+</sup> intensity, then divide by 0.011 to estimate the number of carbons.",
+  "w": "Number of C ≈ (M+1 / M<sup>+</sup>) ÷ 0.011 = (0.80 / 8.0) ÷ 0.011 = 0.100 ÷ 0.011 ≈ 9. All four choices have M = 128, but only C<sub>9</sub>H<sub>20</sub> has nine carbons. The fragment series 43, 57, 71, 85, 99 (spaced 14, CH<sub>2</sub>) is typical of a straight-chain alkane. The compound is <b>nonane</b>.",
+  "x": [
+   "",
+   "2-Octanone is C<sub>8</sub>H<sub>16</sub>O, with eight carbons, so its M+1 would be about 8.8% of M<sup>+</sup> (0.70 here, not 0.80); a methyl ketone would also show a large m/z 43 acylium and a McLafferty peak at 58.",
+   "Naphthalene, C<sub>10</sub>H<sub>8</sub>, has ten carbons (M+1 ≈ 11% of M<sup>+</sup>), and as an aromatic compound its M<sup>+</sup> would be the base peak, not a weak peak.",
+   "Butyl acrylate, C<sub>7</sub>H<sub>12</sub>O<sub>2</sub>, has seven carbons, so M+1 would be only about 7.7% of M<sup>+</sup>."
+  ],
+  "t": "irms"
+ },
+ {
+  "id": "spec-16",
+  "d": 3,
+  "q": "An alcohol C<sub>6</sub>H<sub>14</sub>O (M = 102) gives the mass spectrum shown; no peak is seen at m/z 102. Which alcohol is it?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      87,
+      5
+     ],
+     [
+      84,
+      3
+     ],
+     [
+      69,
+      9
+     ],
+     [
+      56,
+      5
+     ],
+     [
+      45,
+      100
+     ],
+     [
+      43,
+      14
+     ],
+     [
+      41,
+      10
+     ],
+     [
+      29,
+      8
+     ],
+     [
+      27,
+      12
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCCC(C)O"
+   },
+   {
+    "smi": "CCCC(O)CC"
+   },
+   {
+    "smi": "CCCCCCO"
+   },
+   {
+    "smi": "CCCC(C)(C)O"
+   }
+  ],
+  "h": "Alcohols undergo α-cleavage: a bond from the carbinol carbon (C–OH) to a neighboring carbon breaks, leaving a resonance-stabilized R<sub>2</sub>C=OH<sup>+</sup> ion. Work out the mass of that ion for each choice.",
+  "w": "Alcohol molecular ions are weak or absent because α-cleavage and loss of water are so fast. The base peak at m/z 45 is CH<sub>3</sub>CH=OH<sup>+</sup> (C<sub>2</sub>H<sub>5</sub>O<sup>+</sup>), formed when the carbinol carbon loses its largest group, a butyl radical (102 − 57 = 45). That ion requires a CH<sub>3</sub>–CH(OH)– unit, so the compound is <b>2-hexanol</b>. The small peak at 87 is the other α-cleavage (loss of ·CH<sub>3</sub>), and 84 is M − H<sub>2</sub>O.",
+  "x": [
+   "",
+   "3-Hexanol undergoes α-cleavage to lose propyl (giving C<sub>2</sub>H<sub>5</sub>CH=OH<sup>+</sup>, m/z 59) or ethyl (giving m/z 73); neither gives m/z 45.",
+   "1-Hexanol, a primary alcohol, gives CH<sub>2</sub>=OH<sup>+</sup> at m/z 31 by α-cleavage, together with strong M − H<sub>2</sub>O-derived peaks (84, 56).",
+   "2-Methyl-2-pentanol loses the propyl group by α-cleavage to give (CH<sub>3</sub>)<sub>2</sub>C=OH<sup>+</sup> at m/z 59 as the base peak."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-17",
+  "d": 2,
+  "q": "An alcohol C<sub>6</sub>H<sub>14</sub>O (M = 102) gives the mass spectrum shown; no peak is seen at m/z 102. Which ion is responsible for the base peak at m/z 45?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      87,
+      5
+     ],
+     [
+      84,
+      3
+     ],
+     [
+      69,
+      9
+     ],
+     [
+      56,
+      5
+     ],
+     [
+      45,
+      100
+     ],
+     [
+      43,
+      14
+     ],
+     [
+      41,
+      10
+     ],
+     [
+      29,
+      8
+     ],
+     [
+      27,
+      12
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC=[OH+]"
+   },
+   {
+    "smi": "C=[OH+]"
+   },
+   {
+    "smi": "CCC=[OH+]"
+   },
+   {
+    "smi": "CCC[CH2+]"
+   }
+  ],
+  "h": "The base peak keeps the oxygen, because O can share its lone pair with the cationic carbon. Add up the masses (C 12, H 1, O 16).",
+  "w": "The base peak comes from α-cleavage of 2-hexanol: the C2–C3 bond breaks, a butyl radical leaves, and the positive charge stays on the oxygen-bearing fragment, where O donates a lone pair to make an oxonium ion with all octets complete. That ion is <b>CH<sub>3</sub>CH=OH<sup>+</sup></b>: 2(12) + 5(1) + 16 = 45.",
+  "x": [
+   "",
+   "CH<sub>2</sub>=OH<sup>+</sup> has m/z 31 (12 + 3 + 16); it is the α-cleavage ion of a primary alcohol, RCH<sub>2</sub>OH.",
+   "CH<sub>3</sub>CH<sub>2</sub>CH=OH<sup>+</sup> has m/z 59; it would come from an alcohol with an ethyl group on the carbinol carbon, such as 3-hexanol.",
+   "The butyl cation, C<sub>4</sub>H<sub>9</sub><sup>+</sup>, has m/z 57. In α-cleavage the butyl group leaves as the neutral radical because the oxygen-stabilized ion is far more stable than a primary carbocation."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-18",
+  "d": 2,
+  "q": "An alcohol C<sub>6</sub>H<sub>14</sub>O (M = 102) gives the mass spectrum shown; no peak is seen at m/z 102. The compound is 2-hexanol. Which neutral species does the molecular ion lose when it forms the base peak at m/z 45?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      87,
+      5
+     ],
+     [
+      84,
+      3
+     ],
+     [
+      69,
+      9
+     ],
+     [
+      56,
+      5
+     ],
+     [
+      45,
+      100
+     ],
+     [
+      43,
+      14
+     ],
+     [
+      41,
+      10
+     ],
+     [
+      29,
+      8
+     ],
+     [
+      27,
+      12
+     ]
+    ]
+   }
+  ],
+  "s": [
+   {
+    "smi": "CCCCC(C)O"
+   }
+  ],
+  "c": [
+   "A butyl radical, ·C<sub>4</sub>H<sub>9</sub> (57)",
+   "A butyl cation, C<sub>4</sub>H<sub>9</sub><sup>+</sup> (57)",
+   "A water molecule, H<sub>2</sub>O (18)",
+   "A propyl radical, ·C<sub>3</sub>H<sub>7</sub> (43)"
+  ],
+  "h": "The molecular ion is a radical cation. When it splits into two pieces, one piece keeps the charge and the other leaves carrying the unpaired electron. Which piece is detected?",
+  "w": "The molecular ion (102) is a radical cation. α-Cleavage of the C2–C3 bond gives a cation and a radical. The detected cation is CH<sub>3</sub>CH=OH<sup>+</sup> (45), so the neutral fragment, which is never detected, is <b>a butyl radical, ·C<sub>4</sub>H<sub>9</sub></b> (102 − 45 = 57).",
+  "x": [
+   "",
+   "A cation cannot be the neutral piece: only one fragment carries the + charge, and here that is the m/z 45 oxonium ion. A butyl cation would itself appear at m/z 57.",
+   "Loss of water (102 − 18) gives the small peak at m/z 84, not the base peak at 45.",
+   "Loss of a propyl radical would leave m/z 59, which requires an ethyl group on the carbinol carbon; 2-hexanol has a methyl and a butyl group there."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-19",
+  "d": 2,
+  "k": 1,
+  "q": "A ketone gives the mass spectrum shown: M<sup>+</sup> at m/z 114 (relative intensity 24) and M+1 at m/z 115 (relative intensity 1.85). About how many carbon atoms does the compound contain? (Each carbon contributes about 1.1% to M+1.)",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      114,
+      24
+     ],
+     [
+      115,
+      1.85
+     ],
+     [
+      99,
+      3
+     ],
+     [
+      72,
+      12
+     ],
+     [
+      71,
+      100
+     ],
+     [
+      43,
+      80
+     ],
+     [
+      41,
+      30
+     ],
+     [
+      27,
+      22
+     ]
+    ],
+    "labels": {
+     "114": "M<sup>+</sup>",
+     "115": "M+1"
+    }
+   }
+  ],
+  "c": [
+   "7",
+   "6",
+   "8",
+   "9"
+  ],
+  "h": "Number of carbons ≈ (M+1 intensity ÷ M<sup>+</sup> intensity) ÷ 0.011.",
+  "w": "(1.85 ÷ 24) = 0.077; 0.077 ÷ 0.011 ≈ 7.0, so the compound has <b>7 carbons</b>. With M = 114 and one O for a ketone, 114 − 16 − 84 = 14 hydrogens: C<sub>7</sub>H<sub>14</sub>O, which has one degree of unsaturation (the C=O).",
+  "x": [
+   "",
+   "Six carbons would give M+1 ≈ 6.6% of M<sup>+</sup> (about 1.6 here), lower than observed.",
+   "Eight carbons would give M+1 ≈ 8.8% of M<sup>+</sup> (about 2.1 here), higher than observed.",
+   "Nine carbons would give M+1 ≈ 9.9% of M<sup>+</sup> (about 2.4 here), and C<sub>9</sub> with one O cannot reach M = 114 with a sensible H count (108 + 16 = 124 already)."
+  ],
+  "t": "irms"
+ },
+ {
+  "id": "spec-20",
+  "d": 3,
+  "q": "A ketone gives the mass spectrum shown: M<sup>+</sup> at m/z 114 (relative intensity 24) and M+1 at m/z 115 (relative intensity 1.85). Which ketone is it?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      114,
+      24
+     ],
+     [
+      115,
+      1.85
+     ],
+     [
+      99,
+      3
+     ],
+     [
+      72,
+      12
+     ],
+     [
+      71,
+      100
+     ],
+     [
+      43,
+      80
+     ],
+     [
+      41,
+      30
+     ],
+     [
+      27,
+      22
+     ]
+    ],
+    "labels": {
+     "114": "M<sup>+</sup>",
+     "115": "M+1"
+    }
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCC(=O)CCC"
+   },
+   {
+    "smi": "CC(C)C(=O)C(C)C"
+   },
+   {
+    "smi": "CCCCCC(C)=O"
+   },
+   {
+    "smi": "CCCCC(=O)CC"
+   }
+  ],
+  "h": "Ketones fragment by α-cleavage (giving acylium ions) and, if a γ-hydrogen is present, by the McLafferty rearrangement (giving an even-mass ion). Predict both for each choice.",
+  "w": "α-Cleavage of <b>4-heptanone</b> loses a propyl radical to give CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>C≡O<sup>+</sup> (m/z 71, base peak); the propyl cation appears at 43. Each propyl group has a γ-hydrogen, so the McLafferty rearrangement expels propene (42) and gives the even-mass enol radical cation at m/z 72 (114 − 42). The even-mass 72 rules out 2,4-dimethyl-3-pentanone, which also gives 71 and 43 but has no γ-hydrogen.",
+  "x": [
+   "",
+   "2,4-Dimethyl-3-pentanone gives the isobutyryl acylium (71) and isopropyl cation (43) by α-cleavage, but each isopropyl group stops at the β-carbon, so with no γ-hydrogen there is no McLafferty peak at m/z 72.",
+   "2-Heptanone would give CH<sub>3</sub>C≡O<sup>+</sup> (43) as the base peak and a McLafferty peak at m/z 58, not a base peak at 71.",
+   "3-Heptanone would give acylium ions at m/z 57 (C<sub>2</sub>H<sub>5</sub>CO<sup>+</sup>) and 85 (C<sub>4</sub>H<sub>9</sub>CO<sup>+</sup>), not 71."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-21",
+  "d": 3,
+  "q": "A ketone gives the mass spectrum shown: M<sup>+</sup> at m/z 114 (relative intensity 24) and M+1 at m/z 115 (relative intensity 1.85). The compound is 4-heptanone. Which process gives the peak at m/z 72?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      114,
+      24
+     ],
+     [
+      115,
+      1.85
+     ],
+     [
+      99,
+      3
+     ],
+     [
+      72,
+      12
+     ],
+     [
+      71,
+      100
+     ],
+     [
+      43,
+      80
+     ],
+     [
+      41,
+      30
+     ],
+     [
+      27,
+      22
+     ]
+    ],
+    "labels": {
+     "114": "M<sup>+</sup>",
+     "115": "M+1"
+    }
+   }
+  ],
+  "s": [
+   {
+    "smi": "CCCC(=O)CCC"
+   }
+  ],
+  "c": [
+   "McLafferty rearrangement: a γ-H moves to the C=O oxygen and neutral propene (42) is lost",
+   "α-Cleavage: the bond to the carbonyl carbon breaks and a propyl radical (43) is lost",
+   "Inductive cleavage: the positive charge goes to the propyl group, giving C<sub>3</sub>H<sub>7</sub><sup>+</sup>",
+   "Cleavage of the β C–C bond: an ethyl radical (29) is lost from one propyl chain"
+  ],
+  "h": "Compare 72 with 114. An even-mass fragment from an even-mass molecular ion (no N) means a neutral <i>molecule</i>, not a radical, was lost.",
+  "w": "114 − 72 = 42, an even mass, so a neutral molecule was lost and the ion is still a radical cation. In the <b>McLafferty rearrangement</b>, the C=O oxygen abstracts a hydrogen from the γ-carbon through a six-membered transition state, the C<sub>α</sub>–C<sub>β</sub> bond breaks, and <b>propene (CH<sub>2</sub>=CHCH<sub>3</sub>, 42) is lost</b>, leaving the enol radical cation at m/z 72.",
+  "x": [
+   "",
+   "α-Cleavage loses a propyl radical (43) and gives the acylium ion at 114 − 43 = 71, the base peak, not 72.",
+   "Inductive cleavage produces the propyl cation at m/z 43; it does not account for an ion at 72.",
+   "Losing an ethyl radical would give m/z 114 − 29 = 85, and this simple β-cleavage is not a favored ketone fragmentation."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-22",
+  "d": 1,
+  "q": "Which observation would best distinguish 1-bromobutane (I) from 1-chlorobutane (II)?",
+  "s": [
+   {
+    "smi": "CCCCBr",
+    "cap": "I"
+   },
+   {
+    "smi": "CCCCCl",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "In the mass spectrum, M+2 is about as tall as M<sup>+</sup> for I but about one-third as tall for II",
+   "In the IR spectrum, I shows a C–X band near 1715 cm<sup>−1</sup> that II lacks",
+   "In the mass spectrum, M<sup>+</sup> is at an odd m/z for I and an even m/z for II",
+   "In the IR spectrum, II shows a broad band near 3350 cm<sup>−1</sup> that I lacks"
+  ],
+  "h": "Think about the natural isotopes of bromine and chlorine and which technique detects masses.",
+  "w": "Bromine is about 50% <sup>79</sup>Br and 50% <sup>81</sup>Br, so a monobromide shows M<sup>+</sup> and M+2 of nearly equal height (here m/z 136/138). Chlorine is about 75% <sup>35</sup>Cl and 25% <sup>37</sup>Cl, so a monochloride shows M+2 about one-third of M<sup>+</sup> (m/z 92/94). <b>The M+2 pattern in the mass spectrum</b> tells them apart immediately.",
+  "x": [
+   "",
+   "C–Br and C–Cl stretches lie in the fingerprint region below about 800 cm<sup>−1</sup>; 1715 cm<sup>−1</sup> is a C=O stretch, which neither compound has.",
+   "Both compounds contain only C, H and halogen and have even molecular masses (136 and 92); the nitrogen rule does not distinguish them.",
+   "A broad band near 3350 cm<sup>−1</sup> is an O–H stretch; neither alkyl halide has an O–H group."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-23",
+  "d": 2,
+  "q": "Which observation would best distinguish butanal (I) from 2-butanone (II)?",
+  "s": [
+   {
+    "smi": "CCCC=O",
+    "cap": "I"
+   },
+   {
+    "smi": "CCC(C)=O",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "In the IR spectrum, only I shows a pair of weak C–H bands near 2720 and 2820 cm<sup>−1</sup>",
+   "In the IR spectrum, only I shows a strong C=O band between 1700 and 1740 cm<sup>−1</sup>",
+   "In the mass spectrum, the molecular ions appear at different m/z values",
+   "In the mass spectrum, only II shows an M+2 peak about one-third as tall as M<sup>+</sup>"
+  ],
+  "h": "Both are C<sub>4</sub>H<sub>8</sub>O carbonyl compounds. What does an aldehyde have that a ketone does not?",
+  "w": "Butanal and 2-butanone are constitutional isomers (C<sub>4</sub>H<sub>8</sub>O, M = 72) and both have a strong C=O stretch (about 1730 and 1715 cm<sup>−1</sup>). Only the aldehyde has a C–H on the carbonyl carbon, whose stretch appears as <b>two weak bands near 2720 and 2820 cm<sup>−1</sup></b> (the 2720 band is the more diagnostic, since it sits clear of the sp<sup>3</sup> C–H bands).",
+  "x": [
+   "",
+   "Both compounds have a strong C=O stretch in this range (aldehyde about 1730, ketone about 1715 cm<sup>−1</sup>), so its presence alone does not distinguish them.",
+   "Both are C<sub>4</sub>H<sub>8</sub>O, so both give M<sup>+</sup> at m/z 72.",
+   "An M+2 peak one-third as tall as M<sup>+</sup> is the pattern of chlorine; neither compound contains a halogen."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-24",
+  "d": 2,
+  "q": "Which method can distinguish the two compounds shown?",
+  "s": [
+   {
+    "smi": "C[C@@H](O)CC",
+    "cap": "I"
+   },
+   {
+    "smi": "C[C@H](O)CC",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "Polarimetry, because the two rotate plane-polarized light in opposite directions",
+   "IR spectroscopy, because their O–H stretches appear at different wavenumbers",
+   "Mass spectrometry, because their base peaks appear at different m/z values",
+   "<sup>13</sup>C NMR, because they give different numbers of signals"
+  ],
+  "h": "First decide how the two structures are related. Which properties are identical for that relationship?",
+  "w": "I is (<i>R</i>)-2-butanol and II is (<i>S</i>)-2-butanol, a pair of enantiomers. Enantiomers have identical IR, mass and NMR spectra (in an achiral environment) because every bond, mass and magnetic environment is the same. They differ only in how they interact with something chiral, such as plane-polarized light: they have specific rotations of equal size and opposite sign. <b>Polarimetry</b> distinguishes them.",
+  "x": [
+   "",
+   "Enantiomers have identical bond strengths and vibrations, so their IR spectra are superimposable.",
+   "Enantiomers have the same mass and fragment in exactly the same way; their mass spectra are identical.",
+   "Each enantiomer of 2-butanol gives four <sup>13</sup>C signals at the same shifts; ordinary NMR cannot tell enantiomers apart."
+  ],
+  "k": 0,
+  "t": "irms"
+ },
+ {
+  "id": "spec-25",
+  "d": 2,
+  "q": "Which observation in the mass spectrum would best distinguish 1-propanol (I) from 2-propanol (II)?",
+  "s": [
+   {
+    "smi": "CCCO",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(C)O",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "The α-cleavage base peak appears at m/z 31 for I and at m/z 45 for II",
+   "The molecular ion appears at m/z 60 for I and at m/z 58 for II",
+   "Only I shows a peak for loss of water from the molecular ion",
+   "Only II shows an M+2 peak about one-third as tall as M<sup>+</sup>"
+  ],
+  "h": "Both have M = 60. Work out the oxonium ion each alcohol forms when the largest group on the carbinol carbon leaves.",
+  "w": "Both alcohols are C<sub>3</sub>H<sub>8</sub>O (M = 60), so the molecular ion does not help. α-Cleavage of 1-propanol loses an ethyl radical and gives CH<sub>2</sub>=OH<sup>+</sup> (m/z 31). α-Cleavage of 2-propanol loses a methyl radical and gives CH<sub>3</sub>CH=OH<sup>+</sup> (m/z 45). <b>The base peak at 31 versus 45</b> distinguishes them.",
+  "x": [
+   "",
+   "The two are constitutional isomers with the same formula, C<sub>3</sub>H<sub>8</sub>O, so both molecular ions are at m/z 60.",
+   "Loss of water (M − 18) is a general alcohol fragmentation; both alcohols can show it, so it does not distinguish them.",
+   "An M+2 peak about one-third of M<sup>+</sup> signals chlorine; neither alcohol contains a halogen."
+  ],
+  "k": 0,
+  "t": "irms"
+ }
+]

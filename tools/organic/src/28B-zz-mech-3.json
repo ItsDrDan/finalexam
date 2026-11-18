@@ -1,0 +1,2177 @@
+[
+ {
+  "id": "mech3-01",
+  "t": "eas",
+  "d": 1,
+  "q": "Benzene reacts with the Br<sub>2</sub>·FeBr<sub>3</sub> complex. Which set of curved arrows correctly shows the step that forms the arenium ion (σ complex) and FeBr<sub>4</sub><sup>−</sup>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH:51]1=[CH:52][CH]=[CH][CH]=[CH]1.[Br:53][Br+:54][Fe-](Br)(Br)Br",
+    "lp": [
+     53,
+     54
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[CH:51]1=[CH:52][CH]=[CH][CH]=[CH]1.[Br:53][Br+:54][Fe-](Br)(Br)Br",
+    "lp": [
+     53,
+     54
+    ],
+    "arrows": [
+     {
+      "from": 53,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[CH:51]1=[CH:52][CH]=[CH][CH]=[CH]1.[Br:53][Br+:54][Fe-](Br)(Br)Br",
+    "lp": [
+     53,
+     54
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[CH:51]1=[CH:52][CH]=[CH][CH]=[CH]1.[Br:53][Br+:54][Fe-](Br)(Br)Br",
+    "lp": [
+     53,
+     54
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "The ring is the nucleophile. Where does the first arrow start, and where must the Br–Br electrons go so the ring-bonded bromine keeps an octet?",
+  "w": "The electron-rich ring is the nucleophile: one arrow starts at a ring π bond and ends at the terminal (outer) bromine. That bromine cannot hold a second bond, so the Br–Br bond breaks with both electrons moving to the bromine bonded to iron, which leaves as FeBr<sub>4</sub><sup>−</sup>. <b>Two arrows: ring π bond → outer Br, and Br–Br bond → the Br attached to Fe.</b> The product is the arenium ion, whose positive charge is spread over three ring carbons.",
+  "x": [
+   "",
+   "This arrow starts at a bromine lone pair and ends at the ring, as if bromine were giving electrons to the ring. Arrows start at the nucleophile, and here the ring π bond is the electron source.",
+   "Without the Br–Br bond breaking, the outer bromine would have two bonds and three lone pairs (10 electrons). The leaving-group arrow is missing.",
+   "The Br–Br electrons are sent to the bromine that is gaining the new C–Br bond, which would give it an extra pair. They must go toward the FeBr<sub>3</sub> end, which becomes FeBr<sub>4</sub><sup>−</sup>."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-02",
+  "t": "eas",
+  "d": 1,
+  "q": "In the nitration of benzene, the σ complex below loses a proton to water to restore the aromatic ring. Which set of curved arrows correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=[N+]([O-])[C:51]1([H:54])[CH+:52][C:56]([H:57])=[CH][CH]=[CH]1.[OH2:55]",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": 55,
+      "to": 54
+     },
+     {
+      "from": [
+       51,
+       54
+      ],
+      "to": [
+       51,
+       52
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "O=[N+]([O-])[C:51]1([H:54])[CH+:52][C:56]([H:57])=[CH][CH]=[CH]1.[OH2:55]",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": 55,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "O=[N+]([O-])[C:51]1([H:54])[CH+:52][C:56]([H:57])=[CH][CH]=[CH]1.[OH2:55]",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": 55,
+      "to": 57
+     },
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": [
+       52,
+       56
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "O=[N+]([O-])[C:51]1([H:54])[CH+:52][C:56]([H:57])=[CH][CH]=[CH]1.[OH2:55]",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       54
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "h": "Which carbon is sp<sup>3</sup>? Its C–H bond is the one that can supply electrons to the neighboring positive carbon.",
+  "w": "Rearomatization is an acid–base step. A water lone pair takes the proton on the <b>sp<sup>3</sup> carbon (the one bearing NO<sub>2</sub>)</b>, and that C–H bond's electrons move into the ring bond to the cationic carbon, forming a C=C. The ring then has three C=C bonds again and is aromatic.",
+  "x": [
+   "",
+   "Water adding to the cationic carbon would give a nonaromatic addition product. EAS ends with loss of H<sup>+</sup>, because restoring aromaticity is strongly favored.",
+   "This removes a proton from an sp<sup>2</sup> ring carbon. The sp<sup>3</sup> carbon would stay sp<sup>3</sup>, and the ring would get a cumulated C=C=C unit; no aromatic ring results.",
+   "The arrow runs from the C–H bond to water, as if water accepted electrons. The base must donate its lone pair to the H, and the C–H electrons must stay in the ring."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-03",
+  "t": "eas",
+  "d": 2,
+  "q": "In HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub>, nitric acid is protonated on its OH group. Which set of curved arrows correctly converts this protonated nitric acid into the nitronium ion, O=N<sup>+</sup>=O, and water?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[O:52]=[N+:53]([O-:51])[OH2+:54]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     },
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "[O:52]=[N+:53]([O-:51])[OH2+:54]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "[O:52]=[N+:53]([O-:51])[OH2+:54]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[O:52]=[N+:53]([O-:51])[OH2+:54]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 54,
+      "to": 53
+     },
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "Water is the leaving group. Which way does the N–O bond's electron pair go, and how does nitrogen get back to four bonds?",
+  "w": "Water leaves: the N–OH<sub>2</sub><sup>+</sup> bond breaks with both electrons going to that oxygen, which becomes neutral H<sub>2</sub>O. At the same time a lone pair on the O<sup>−</sup> forms a second N=O bond, so nitrogen keeps four bonds and an octet. <b>Two arrows: N–OH<sub>2</sub> bond → O, and O<sup>−</sup> lone pair → N–O bond</b>, giving linear O=N<sup>+</sup>=O, the electrophile that attacks the ring.",
+  "x": [
+   "",
+   "Forming a second N=O bond while the N–OH<sub>2</sub> bond stays would give nitrogen five bonds (10 electrons). The water must leave in the same step.",
+   "Water leaves, but nothing replaces the lost bond: nitrogen would have only six electrons and a 2+ charge. The O<sup>−</sup> lone pair must form a π bond to nitrogen.",
+   "The arrow from the water oxygen points at nitrogen, so it describes water attacking, the reverse of leaving. A leaving-group arrow starts at the N–O bond and ends on the oxygen."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-04",
+  "t": "eas",
+  "d": 2,
+  "q": "In Friedel–Crafts acylation, acetyl chloride binds AlCl<sub>3</sub> through chlorine. Which set of curved arrows correctly shows this complex giving the acylium ion, CH<sub>3</sub>C≡O<sup>+</sup>, and AlCl<sub>4</sub><sup>−</sup>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:52](=[O:51])[Cl+:53][Al-:54](Cl)(Cl)Cl",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     },
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "C[C:52](=[O:51])[Cl+:53][Al-:54](Cl)(Cl)Cl",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "C[C:52](=[O:51])[Cl+:53][Al-:54](Cl)(Cl)Cl",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     },
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "C[C:52](=[O:51])[Cl+:53][Al-:54](Cl)(Cl)Cl",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   }
+  ],
+  "h": "Which bond has to break to release AlCl<sub>4</sub><sup>−</sup>, and what keeps the carbonyl carbon from being left with only six electrons?",
+  "w": "The C–Cl bond breaks with both electrons going to chlorine, which stays on aluminum as AlCl<sub>4</sub><sup>−</sup>. A lone pair on the carbonyl oxygen then forms a second π bond to carbon, so every atom has an octet in CH<sub>3</sub>C≡O<sup>+</sup>. <b>Two arrows: C–Cl bond → Cl, and O lone pair → C–O bond.</b> The acylium ion is resonance-stabilized and does not rearrange, which is why acylation avoids the rearrangements seen in Friedel–Crafts alkylation.",
+  "x": [
+   "",
+   "Forming C≡O while the C–Cl bond is intact would give the carbonyl carbon five bonds. The chloride must leave in the same step.",
+   "The C–Cl electrons are sent to carbon, making it a carbanion with five bonds' worth of electrons. A leaving group takes the bond electrons with it.",
+   "Breaking the Cl–Al bond simply undoes the Lewis acid–base complex and returns acetyl chloride and AlCl<sub>3</sub>; no electrophile forms."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-05",
+  "t": "eas",
+  "d": 2,
+  "q": "Anisole is brominated at the para position. Which resonance contributor of the para σ complex has a complete octet on every carbon and oxygen and is the main reason the OCH<sub>3</sub> group directs ortho/para?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[O+]=C1C=CC(Br)C=C1"
+   },
+   {
+    "smi": "CO[C+]1C=CC(Br)C=C1"
+   },
+   {
+    "smi": "COC1=C[CH+]C(Br)C=C1"
+   },
+   {
+    "smi": "COC1=CC=CC(Br)[CH+]1"
+   }
+  ],
+  "h": "Para attack can place the positive charge on the carbon bonded to OCH<sub>3</sub>. What can the oxygen do for that carbon?",
+  "w": "For para (or ortho) attack, one contributor puts the positive charge on the ring carbon that carries OCH<sub>3</sub>. An oxygen lone pair can then form a C=O<sup>+</sup> π bond, giving an <b>oxonium contributor in which every C and O has an octet</b>. Meta attack never places the charge on that carbon, so it never gets this extra, especially stable contributor. That is why OCH<sub>3</sub> is a strong ortho/para director.",
+  "x": [
+   "",
+   "This is a real contributor of the para σ complex, and it is what allows the oxonium form. But the cationic carbon has only six electrons, so it is not the all-octet structure asked for.",
+   "This contributor has the charge on a carbon next to the sp<sup>3</sup> carbon. It has a six-electron carbon, and oxygen gives it no help.",
+   "This is the σ complex from meta attack (Br is meta to OCH<sub>3</sub>). Its cationic carbon has six electrons, and meta attack can never put the charge on the carbon bonded to oxygen."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-06",
+  "t": "eas",
+  "d": 3,
+  "q": "1-Fluoro-4-nitrobenzene reacts with sodium methoxide by addition–elimination (S<sub>N</sub>Ar). Which set of curved arrows correctly shows the addition step that forms the Meisenheimer complex, with the negative charge on a nitro oxygen?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[O-:51].[F:58][C:52]1=[CH:53][CH:54]=[C:55]([N+:56](=[O:57])[O-])[CH]=[CH]1",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": [
+       53,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": [
+       55,
+       56
+      ]
+     },
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": 57
+     }
+    ]
+   },
+   {
+    "smi": "C[O-:51].[F:58][C:52]1=[CH:53][CH:54]=[C:55]([N+:56](=[O:57])[O-])[CH]=[CH]1",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       58
+      ],
+      "to": 58
+     }
+    ]
+   },
+   {
+    "smi": "C[O-:51].[F:58][C:52]1=[CH:53][CH:54]=[C:55]([N+:56](=[O:57])[O-])[CH]=[CH]1",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 55
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "C[O-:51].[F:58][C:52]1=[CH:53][CH:54]=[C:55]([N+:56](=[O:57])[O-])[CH]=[CH]1",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "Aryl carbons cannot be attacked from the back side. The ring has to make room for the new bond first; follow the π electrons until they reach the nitro group.",
+  "w": "S<sub>N</sub>Ar is two steps. In the addition step, methoxide attacks the carbon bearing F (the carbon with the leaving group, para to NO<sub>2</sub>). To keep that carbon at four bonds, the adjacent ring π bond shifts, the next π bond moves toward the nitro-bearing carbon, and an N=O π bond moves onto oxygen. <b>Four arrows end with the charge on a nitro oxygen</b>; this delocalization onto NO<sub>2</sub> is why an ortho or para EWG is required. Fluoride leaves only in the second (elimination) step.",
+  "x": [
+   "",
+   "This is a concerted S<sub>N</sub>2 displacement. The back side of an aryl C–F bond points into the ring, so backside attack is impossible; S<sub>N</sub>Ar goes through an anionic intermediate instead.",
+   "Methoxide attacks the carbon bearing NO<sub>2</sub>, not the one bearing the leaving group, and the charge is left on a ring carbon instead of being delocalized onto the nitro group.",
+   "Only the attack arrow is drawn, so the ipso carbon would have five bonds. The ring π electrons must move away as methoxide bonds."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-07",
+  "t": "eas",
+  "d": 2,
+  "q": "Chlorobenzene reacts with NaNH<sub>2</sub> in liquid NH<sub>3</sub>. After amide removes an ortho proton, the aryl anion below loses chloride to form benzyne. Which set of curved arrows correctly shows that step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[Cl:53][C:52]1=[C-:51][CH]=[CH][CH]=[CH]1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[Cl:53][C:52]1=[C-:51][CH]=[CH][CH]=[CH]1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "[Cl:53][C:52]1=[C-:51][CH]=[CH][CH]=[CH]1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[Cl:53][C:52]1=[C-:51][CH]=[CH][CH]=[CH]1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "The carbanion lone pair becomes a new π bond to the neighboring carbon. What must that neighbor lose at the same time?",
+  "w": "The sp<sup>2</sup> lone pair on the anionic carbon forms a second π bond to the adjacent carbon, while the C–Cl bond breaks with both electrons going to chlorine. <b>Two arrows: carbanion lone pair → C–C bond, and C–Cl bond → Cl.</b> The new π bond uses sp<sup>2</sup> orbitals in the plane of the ring, which overlap poorly, so benzyne is very reactive and is trapped by NH<sub>2</sub><sup>−</sup> at either end of the triple bond.",
+  "x": [
+   "",
+   "Forming the new π bond without losing chloride gives the chlorine-bearing carbon five bonds. Chloride must leave in the same step.",
+   "The C–Cl electrons are sent to carbon instead of to chlorine. A leaving group departs with the bonding pair, here as Cl<sup>−</sup>.",
+   "The carbanion attacks chlorine itself, giving chlorine two bonds and three lone pairs (10 electrons). The lone pair has to form the C–C π bond instead."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-08",
+  "t": "eas",
+  "d": 3,
+  "q": "Benzene with 1-chloropropane and AlCl<sub>3</sub> gives mainly isopropylbenzene. Which set of curved arrows shows a single step that converts the 1-chloropropane–AlCl<sub>3</sub> complex directly into the isopropyl cation and AlCl<sub>4</sub><sup>−</sup>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH3:56][CH:52]([H:54])[CH2:51][Cl+:55][Al-](Cl)(Cl)Cl",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 51
+     },
+     {
+      "from": [
+       51,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[CH3:56][CH:52]([H:54])[CH2:51][Cl+:55][Al-](Cl)(Cl)Cl",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[CH3:56][CH:52]([H:54])[CH2:51][Cl+:55][Al-](Cl)(Cl)Cl",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "[CH3:56][CH:52]([H:54])[CH2:51][Cl+:55][Al-](Cl)(Cl)Cl",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": [
+       52,
+       56
+      ],
+      "to": 51
+     },
+     {
+      "from": [
+       51,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "h": "A free primary carbocation is too unstable to form. Which drawing gives a secondary cation while every carbon keeps a legal number of bonds?",
+  "w": "As the C–Cl bond lengthens, the hydrogen on C2 moves to C1 with its bonding electrons (a 1,2-hydride shift). C1 gains an H as it loses Cl, and C2 is left with three bonds and the positive charge. <b>Two arrows: C2–H bond → C1, and C1–Cl bond → Cl</b>, giving the secondary isopropyl cation, which alkylates the ring to give isopropylbenzene (cumene).",
+  "x": [
+   "",
+   "Breaking only the C–Cl bond gives the primary propyl cation, not the isopropyl cation. A primary cation does not form as a free intermediate; the shift happens as chloride leaves.",
+   "The hydride moves to C1 while chlorine is still bonded there, so C1 would have five bonds. The C–Cl bond must break in the same step.",
+   "Moving the CH<sub>3</sub> group from C2 to C1 just rebuilds a straight three-carbon chain and leaves a primary carbocation; a methyl shift gives no stability gain here."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-09",
+  "t": "ethers",
+  "d": 2,
+  "q": "2,2-Dimethyloxirane is opened with CH<sub>3</sub>OH and a catalytic amount of H<sub>2</sub>SO<sub>4</sub>. Which set of curved arrows correctly shows methanol opening the protonated epoxide in the major pathway?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[OH:51].C[C:52]1(C)[CH2:53][OH+:54]1",
+    "lp": [
+     51,
+     54
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "C[OH:51].C[C:52]1(C)[CH2:53][OH+:54]1",
+    "lp": [
+     51,
+     54
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "C[OH:51].C[C:52]1(C)[CH2:53][OH+:54]1",
+    "lp": [
+     51,
+     54
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "C[OH:51].C[C:52]1(C)[CH2:53][OH+:54]1",
+    "lp": [
+     51,
+     54
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   }
+  ],
+  "h": "In the protonated epoxide, which C–O bond is longer and weaker, and which carbon carries more δ+?",
+  "w": "After protonation, the C–O bond to the tertiary carbon is the weaker one, and that carbon carries most of the positive charge (S<sub>N</sub>1-like transition state). Methanol attacks the <b>more substituted (tertiary) carbon from the back side as that C–O bond breaks onto oxygen</b>. The product, after loss of H<sup>+</sup>, is 2-methoxy-2-methylpropan-1-ol.",
+  "x": [
+   "",
+   "Attack at the CH<sub>2</sub> carbon is the base-promoted (S<sub>N</sub>2) regiochemistry. Under acid, the tertiary carbon bears more δ+ and is attacked.",
+   "Methanol bonds to the tertiary carbon without any C–O bond breaking, so that carbon would have five bonds.",
+   "Methanol bonds to the CH<sub>2</sub> carbon while the other C–O bond breaks; the CH<sub>2</sub> carbon would have five bonds and the tertiary carbon would become a cation. The bond that breaks must be to the carbon being attacked."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-10",
+  "t": "ethers",
+  "d": 3,
+  "q": "(<i>R</i>)-2-Phenyloxirane is heated with NaOCH<sub>3</sub> in CH<sub>3</sub>OH, then neutralized. What is the major product?",
+  "s": [
+   {
+    "smi": "c1ccc(cc1)[C@@H]1CO1"
+   },
+   {
+    "arrow": "1. NaOCH<sub>3</sub>, CH<sub>3</sub>OH",
+    "below": "2. H<sub>3</sub>O<sup>+</sup> (workup)"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "c1ccc(cc1)[C@@H](O)COC"
+   },
+   {
+    "smi": "c1ccc(cc1)[C@H](O)COC"
+   },
+   {
+    "smi": "c1ccc(cc1)[C@H](OC)CO"
+   },
+   {
+    "smi": "c1ccc(cc1)[C@@H](OC)CO"
+   }
+  ],
+  "h": "Under basic conditions the nucleophile attacks by S<sub>N</sub>2. Which epoxide carbon is less hindered, and is the stereocenter one of the carbons that gets attacked?",
+  "w": "Methoxide is a strong nucleophile, so the epoxide opens by S<sub>N</sub>2 at the <b>less hindered CH<sub>2</sub> carbon</b>. The benzylic stereocenter is not attacked; its C–O bond becomes the C–O<sup>−</sup> (then OH) with no bonds to it broken, so its configuration is retained. The product is <b>(<i>R</i>)-2-methoxy-1-phenylethan-1-ol</b>, PhCH(OH)CH<sub>2</sub>OCH<sub>3</sub> (the descriptor stays <i>R</i>).",
+  "x": [
+   "",
+   "This is the enantiomer of the product. No bond to the stereocenter breaks under basic conditions, so its spatial arrangement cannot invert.",
+   "Methoxy on the benzylic carbon with inversion is the acid-catalyzed outcome (attack at the carbon best able to carry δ+). With methoxide and no acid, attack is at the less hindered CH<sub>2</sub>.",
+   "This places OCH<sub>3</sub> on the benzylic carbon with retention, which neither pathway gives: base attacks the CH<sub>2</sub>, and acid-catalyzed backside attack at the benzylic carbon inverts it."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-11",
+  "t": "ethers",
+  "d": 2,
+  "q": "Which drawing shows a workable Williamson step for making tert-butyl methyl ether, with correct curved arrows?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(C)[O-:51].[CH3:52][Br:53]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "C[O-:51].[C:52](C)(C)(C)[Br:53]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "CC(C)(C)[O-:51].[CH3:52][Br:53]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "CC(C)(C)[O-:51].[CH3:52][Br:53]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "The Williamson synthesis is S<sub>N</sub>2. Which partner should carry the halide, and where must the alkoxide's arrow end?",
+  "w": "An S<sub>N</sub>2 step needs an unhindered electrophilic carbon, so the halide goes on the methyl group and the bulky group comes in as the alkoxide. <b>tert-Butoxide's lone pair attacks the CH<sub>3</sub> carbon while the C–Br bond breaks onto bromine.</b> CH<sub>3</sub>Br cannot undergo elimination, so substitution is clean.",
+  "x": [
+   "",
+   "The arrows are drawn correctly, but backside attack at a tertiary carbon is blocked. Methoxide acts as a base on tert-butyl bromide and gives 2-methylpropene by E2.",
+   "The C–Br electrons are sent to carbon. Bromide is the leaving group and departs with the bonding pair.",
+   "The alkoxide attacks bromine instead of carbon, which would give bromine two bonds and an expanded valence. The electrophilic atom is the δ+ carbon."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-12",
+  "t": "ethers",
+  "d": 3,
+  "q": "tert-Butyl methyl ether is heated with one equivalent of HI, and the ether oxygen is protonated first. Which set of curved arrows shows the C–O bond-breaking step of the major pathway?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[I-:51].[CH3:55][OH+:54][C:52](C)(C)C",
+    "lp": [
+     51,
+     54
+    ],
+    "arrows": [
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[I-:51].[CH3:55][OH+:54][C:52](C)(C)C",
+    "lp": [
+     51,
+     54
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 55
+     },
+     {
+      "from": [
+       55,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[I-:51].[CH3:55][OH+:54][C:52](C)(C)C",
+    "lp": [
+     51,
+     54
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[I-:51].[CH3:55][OH+:54][C:52](C)(C)C",
+    "lp": [
+     51,
+     54
+    ],
+    "arrows": [
+     {
+      "from": [
+       55,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   }
+  ],
+  "h": "Two C–O bonds could break. One leads to a very stable cation; the other would need S<sub>N</sub>2. Which is possible for each carbon?",
+  "w": "Protonation makes methanol a good leaving group on the tert-butyl side. The C(tertiary)–O bond ionizes by S<sub>N</sub>1, with both electrons going to oxygen: <b>one arrow, tert-butyl C–O bond → O</b>, gives the tert-butyl cation and CH<sub>3</sub>OH. Iodide then captures the cation to give (CH<sub>3</sub>)<sub>3</sub>CI (some 2-methylpropene also forms by E1). Ethers with a tertiary group cleave on the tertiary side.",
+  "x": [
+   "",
+   "S<sub>N</sub>2 at the methyl carbon is how methyl primary ethers cleave, but here the tertiary side can ionize to a stable cation, which is much faster. The products are tert-butyl iodide and methanol, not CH<sub>3</sub>I and tert-butyl alcohol.",
+   "Backside attack at a tertiary carbon is sterically blocked; the tertiary C–O bond breaks first and iodide adds to the cation afterward.",
+   "Breaking the CH<sub>3</sub>–O bond would make a methyl cation, the least stable carbocation. It does not form."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-13",
+  "t": "ethers",
+  "d": 1,
+  "q": "Anisole is heated with concentrated HBr. After the ether oxygen is protonated, the curved arrows shown describe the next step. What are the products of this step?",
+  "s": [
+   {
+    "smi": "[Br-:51].[CH3:52][OH+:53]c1ccccc1",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "c": [
+   "phenol and bromomethane",
+   "bromobenzene and methanol",
+   "anisole and HBr (a proton transfer only)",
+   "methyl cation, phenol and Br<sup>−</sup>"
+  ],
+  "h": "Follow each arrow: which atom gains a bond to bromine, and which bond's electrons end up on oxygen?",
+  "w": "Bromide's lone pair forms a bond to the methyl carbon, and the CH<sub>3</sub>–O bond breaks with its electrons moving onto oxygen. This S<sub>N</sub>2 step gives <b>phenol and bromomethane</b>. Aryl–O bonds are not cleaved: an sp<sup>2</sup> carbon cannot be attacked from the back side, and a phenyl cation is far too unstable for S<sub>N</sub>1.",
+  "x": [
+   "",
+   "This would need bromide to attack the ring carbon. The arrow goes to the methyl carbon, and aryl carbons do not undergo S<sub>N</sub>2 or S<sub>N</sub>1.",
+   "The arrows form a new C–Br bond and break a C–O bond; a proton transfer would move an H, which none of these arrows touches.",
+   "Bromide's arrow forms the C–Br bond as the C–O bond breaks, so the step is concerted S<sub>N</sub>2. A free methyl cation never forms."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-14",
+  "t": "alcohols",
+  "d": 2,
+  "q": "2-Methyl-2-butanol is dehydrated with H<sub>2</sub>SO<sub>4</sub> and heat. Which set of curved arrows correctly shows the step from the carbocation that gives the major alkene?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH2:51].[H:55][CH2:56][C+:52](C)[CH:53]([H:54])C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": [
+       52,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].[H:55][CH2:56][C+:52](C)[CH:53]([H:54])C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 55
+     },
+     {
+      "from": [
+       56,
+       55
+      ],
+      "to": [
+       52,
+       56
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].[H:55][CH2:56][C+:52](C)[CH:53]([H:54])C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].[H:55][CH2:56][C+:52](C)[CH:53]([H:54])C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 51
+     }
+    ]
+   }
+  ],
+  "h": "E1 ends with loss of a β proton. Which β hydrogen gives the more substituted C=C?",
+  "w": "Water acts as a base on a β hydrogen, and that C–H bond's electrons form the π bond to the cationic carbon. Removing the H from the <b>CH<sub>2</sub> carbon</b> gives 2-methyl-2-butene, the trisubstituted (Zaitsev) alkene, which is the more stable and major product under these thermodynamic conditions.",
+  "x": [
+   "",
+   "Removing an H from the CH<sub>3</sub> group is a correctly drawn E1 step, but it gives 2-methyl-1-butene, the less substituted, minor alkene.",
+   "Water adding to the carbocation is the reverse of the ionization step and leads back to the alcohol, not to an alkene.",
+   "The arrow goes from the C–H bond toward water, so water would be receiving electrons. The base must donate its lone pair to the proton."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-15",
+  "t": "alcohols",
+  "d": 3,
+  "q": "In the pinacol rearrangement of 2,3-dimethylbutane-2,3-diol with H<sub>2</sub>SO<sub>4</sub>, loss of water gives the carbocation below. Which set of curved arrows converts it, in one step, into the protonated ketone (protonated pinacolone)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:53]([OH:55])([CH3:54])[C+:52](C)C",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 52
+     },
+     {
+      "from": 55,
+      "to": [
+       55,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "C[C:53]([OH:55])([CH3:54])[C+:52](C)C",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "C[C:53]([OH:55])([CH3:54])[C+:52](C)C",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": 52,
+      "to": 54
+     },
+     {
+      "from": 55,
+      "to": [
+       55,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "C[C:53]([OH:55])([CH3:54])[C+:52](C)C",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "A group on the carbinol carbon moves to the cation with its bonding pair. Which group should move, and how does oxygen then stabilize the new cation?",
+  "w": "A methyl group on the carbon bearing OH shifts to the cationic carbon with its C–C bonding pair (1,2-methyl shift). As it leaves, an oxygen lone pair forms a C=O<sup>+</sup> π bond to the carbon it left, so no carbon is ever without an octet in the product. <b>Two arrows: C–CH<sub>3</sub> bond → cationic carbon, and O lone pair → C–O bond.</b> Loss of H<sup>+</sup> then gives pinacolone, 3,3-dimethylbutan-2-one.",
+  "x": [
+   "",
+   "This methyl shift is right, but without the oxygen arrow the product is a carbocation next to OH, not the protonated ketone the question asks for. The O lone pair forms the C=O<sup>+</sup> bond in the same step.",
+   "The first arrow starts at the positively charged carbon, which has no electrons to give. In a 1,2-shift the arrow starts at the migrating C–C bond.",
+   "An OH shift just moves the cation to the other carbon and gives an identical carbocation, with no C=O formed. The migrating group is methyl, so that oxygen can stabilize the new cation."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-16",
+  "t": "alcohols",
+  "d": 2,
+  "q": "In a chromic acid (or PCC) oxidation of 2-propanol, the alcohol first forms a chromate ester. The arrows drawn show the next step. Which statement correctly describes it?",
+  "s": [
+   {
+    "smi": "[OH2:56].[H:54][C:55](C)(C)[O:52][Cr:53](=O)(=O)O",
+    "lp": [
+     56
+    ],
+    "arrows": [
+     {
+      "from": 56,
+      "to": 54
+     },
+     {
+      "from": [
+       55,
+       54
+      ],
+      "to": [
+       55,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "c": [
+   "The C–H bond electrons form the C=O π bond, and the O–Cr electrons go to chromium, reducing it.",
+   "Water's lone pair forms the C=O π bond, and the O–Cr electrons go to oxygen, oxidizing chromium.",
+   "The C–O σ bond breaks to give a carbocation, and water then removes a proton from the CH<sub>3</sub> group.",
+   "The C–H electrons go to chromium as a hydride, and the O–Cr bond stays intact in the product."
+  ],
+  "h": "Follow the arrow that starts at the C–H bond: where does it end? Then follow the arrow that starts at the O–Cr bond.",
+  "w": "This is an E2-like elimination across C–O. Water removes the H on the carbinol carbon; <b>those C–H electrons become the C=O π bond, and the O–Cr bond breaks with its electrons going to chromium</b>. Chromium gains a pair of electrons, so it is reduced (Cr(VI) → Cr(IV)) while the carbon is oxidized to acetone. The same idea, a C–H on the carbinol carbon plus a leaving group on oxygen, underlies Swern and Dess–Martin oxidations, which is why 3° alcohols (no carbinol H) are not oxidized.",
+  "x": [
+   "",
+   "Water's lone pair forms an O–H bond to the proton, not the C=O bond, and chromium is reduced, not oxidized, when it gains the O–Cr electron pair.",
+   "No arrow breaks the C–O bond, and no carbocation forms; the H removed is on the carbinol carbon, not on a CH<sub>3</sub> group.",
+   "The C–H arrow ends at the C–O bond (forming C=O), not at chromium, and the O–Cr bond does break: the oxygen leaves chromium to become the ketone oxygen."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-17",
+  "t": "alcohols",
+  "d": 1,
+  "q": "tert-Butyl alcohol is dehydrated with aqueous H<sub>2</sub>SO<sub>4</sub> (the acid is H<sub>3</sub>O<sup>+</sup>). Which set of curved arrows correctly shows the first step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:52](C)(C)[OH:51].[H:54][OH2+:53]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "C[C:52](C)(C)[OH:51].[H:54][OH2+:53]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": [
+       52,
+       51
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "C[C:52](C)(C)[OH:51].[H:54][OH2+:53]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "C[C:52](C)(C)[OH:51].[H:54][OH2+:53]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": [
+       54,
+       53
+      ],
+      "to": 51
+     }
+    ]
+   }
+  ],
+  "h": "OH<sup>−</sup> is a poor leaving group. What has to happen to the OH before any C–O bond breaks?",
+  "w": "The first step is protonation of the hydroxyl group. <b>An oxygen lone pair of the alcohol takes the proton from H<sub>3</sub>O<sup>+</sup>, and the H–O bond of hydronium breaks onto its oxygen</b>, giving the alkyloxonium ion and water. Now water, a weak base, is the leaving group in the next (rate-determining) step that forms the tert-butyl cation.",
+  "x": [
+   "",
+   "This has hydroxide leaving from the neutral alcohol. HO<sup>−</sup> is a strong base and a very poor leaving group; the OH must be protonated first.",
+   "The alcohol's lone pair bonds to the proton, but the H–O bond of hydronium does not break, so hydrogen would have two bonds.",
+   "This arrow pushes the H–O bond electrons of hydronium toward the alcohol oxygen. In a proton transfer the base donates a lone pair to H; the bond electrons stay on hydronium's oxygen."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-18",
+  "t": "conjugated",
+  "d": 2,
+  "q": "Cyclopentadiene reacts with methyl acrylate in a Diels–Alder reaction. Which set of curved arrows correctly shows this concerted [4+2] cycloaddition?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH:51]1=[CH:52][CH:53]=[CH:54]C1.[CH2:55]=[CH:56][C:57](=[O:58])OC",
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 55
+     },
+     {
+      "from": [
+       55,
+       56
+      ],
+      "to": 51
+     },
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     }
+    ],
+    "layout": [
+     [
+      54,
+      55
+     ],
+     [
+      56,
+      51
+     ]
+    ]
+   },
+   {
+    "smi": "[CH:51]1=[CH:52][CH:53]=[CH:54]C1.[CH2:55]=[CH:56][C:57](=[O:58])OC",
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 55
+     },
+     {
+      "from": [
+       55,
+       56
+      ],
+      "to": 51
+     }
+    ],
+    "layout": [
+     [
+      54,
+      55
+     ],
+     [
+      56,
+      51
+     ]
+    ]
+   },
+   {
+    "smi": "[CH:51]1=[CH:52][CH:53]=[CH:54]C1.[CH2:55]=[CH:56][C:57](=[O:58])OC",
+    "lp": [
+     58
+    ],
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 55
+     },
+     {
+      "from": [
+       55,
+       56
+      ],
+      "to": [
+       56,
+       57
+      ]
+     },
+     {
+      "from": [
+       57,
+       58
+      ],
+      "to": 58
+     }
+    ],
+    "layout": [
+     [
+      54,
+      55
+     ],
+     [
+      56,
+      51
+     ]
+    ]
+   },
+   {
+    "smi": "[CH:51]1=[CH:52][CH:53]=[CH:54]C1.[CH2:55]=[CH:56][C:57](=[O:58])OC",
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 55
+     },
+     {
+      "from": [
+       55,
+       56
+      ],
+      "to": 51
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": [
+       51,
+       52
+      ]
+     }
+    ],
+    "layout": [
+     [
+      54,
+      55
+     ],
+     [
+      56,
+      51
+     ]
+    ]
+   }
+  ],
+  "h": "Count the π bonds that change: two in the diene, one in the dienophile. How many arrows does that take, and where does the new π bond form?",
+  "w": "A Diels–Alder reaction moves three electron pairs around a six-atom ring at once. <b>Three arrows: one diene end π bond → the dienophile CH<sub>2</sub>, the dienophile π bond → the other diene end, and the remaining diene π bond → the central C2–C3 bond.</b> Two new σ bonds form, and the new π bond sits between the old C2 and C3 of the diene. No ions or intermediates form.",
+  "x": [
+   "",
+   "Only two arrows are drawn. The diene carbon that receives the new σ bond still has its C=C π bond, so it would have five bonds; the third arrow, into the C2–C3 bond, is missing.",
+   "This pushes the dienophile's π electrons onto the carbonyl oxygen, giving a zwitterion with a cationic diene carbon. That is a stepwise ionic (Michael-type) path, not the concerted cycloaddition, and the ring never closes.",
+   "The third arrow starts at the C2–C3 σ bond and pushes it toward C1. The electrons that move are the C1=C2 π electrons, which shift into the C2–C3 position."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-19",
+  "t": "conjugated",
+  "d": 2,
+  "q": "1,3-Butadiene is protonated by HBr at C1 to give an allylic cation. Which set of curved arrows correctly shows this protonation step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[Br:56][H:55].[CH2:51]=[CH:52][CH:53]=[CH2:54]",
+    "lp": [
+     56
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 55
+     },
+     {
+      "from": [
+       55,
+       56
+      ],
+      "to": 56
+     }
+    ]
+   },
+   {
+    "smi": "[Br:56][H:55].[CH2:51]=[CH:52][CH:53]=[CH2:54]",
+    "lp": [
+     56
+    ],
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 55
+     },
+     {
+      "from": [
+       55,
+       56
+      ],
+      "to": 56
+     }
+    ]
+   },
+   {
+    "smi": "[Br:56][H:55].[CH2:51]=[CH:52][CH:53]=[CH2:54]",
+    "lp": [
+     56
+    ],
+    "arrows": [
+     {
+      "from": 56,
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "[Br:56][H:55].[CH2:51]=[CH:52][CH:53]=[CH2:54]",
+    "lp": [
+     56
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "h": "The nucleophile is a π bond of the diene. Which bond's electrons go to the proton, and what happens to the H–Br bond?",
+  "w": "The C1=C2 π bond donates its electrons to the proton of HBr, and the H–Br bond breaks with both electrons going to bromine. <b>Two arrows: C1=C2 π bond → H, and H–Br bond → Br.</b> Adding H to C1 puts the positive charge on C2, next to the remaining C3=C4 π bond, so the cation is allylic and resonance-stabilized (charge shared by C2 and C4).",
+  "x": [
+   "",
+   "The arrow starts at the C2–C3 single (σ) bond. σ electrons are not donated in electrophilic addition; the π bond is the nucleophile.",
+   "This has bromine's lone pair attacking the electron-rich diene. HBr's bromine is not the electrophile; the δ+ proton is attacked first.",
+   "The H–Br bond is not broken, so the hydrogen would end up with two bonds. A bond-breaking arrow to bromine is missing."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-20",
+  "t": "conjugated",
+  "d": 2,
+  "q": "1,3-Butadiene and HBr at 40 °C give mainly the 1,4-adduct, 1-bromo-2-butene. Which set of curved arrows shows bromide converting the allylic cation into this product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[CH+:52][CH:53]=[CH2:54].[Br-:51]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": [
+       52,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "C[CH+:52][CH:53]=[CH2:54].[Br-:51]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "C[CH+:52][CH:53]=[CH2:54].[Br-:51]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "C[CH+:52][CH:53]=[CH2:54].[Br-:51]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "Draw the other resonance contributor of the cation. Which terminal carbon must bromide bond to for a 1,4-adduct, and what happens to the C=C next to it?",
+  "w": "The allylic cation shares its charge between C2 and C4. For 1,4-addition, bromide bonds to <b>C4 (the CH<sub>2</sub> end), and the C3=C4 π bond shifts to C2–C3</b>, giving BrCH<sub>2</sub>CH=CHCH<sub>3</sub>. At 40 °C the additions are reversible, so the more substituted, more stable internal alkene (the 1,4-product, thermodynamic control) dominates.",
+  "x": [
+   "",
+   "Bromide bonding to C2 gives 3-bromo-1-butene, the 1,2-adduct. It forms faster (kinetic product, favored at low temperature) but is not the 1,4-product.",
+   "Bromide bonds to C4 but the C3=C4 π bond does not move, so C4 would have five bonds.",
+   "C3 carries no positive charge in either resonance contributor, so it is not the electrophilic site; bonding there would also give C3 five bonds."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-21",
+  "t": "conjugated",
+  "d": 3,
+  "q": "The allyl vinyl ether below is heated. The curved arrows show its [3,3]-sigmatropic (Claisen) rearrangement. What is the product?",
+  "s": [
+   {
+    "smi": "[CH2:51]=[CH:52][O:53][CH2:54]/[CH:55]=[CH:56]/C",
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 56
+     },
+     {
+      "from": [
+       55,
+       56
+      ],
+      "to": [
+       54,
+       55
+      ]
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": [
+       52,
+       53
+      ]
+     }
+    ],
+    "layout": [
+     [
+      51,
+      56
+     ]
+    ]
+   },
+   {
+    "arrow": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=CCC(C)C=C"
+   },
+   {
+    "smi": "O=CCC/C=C/C"
+   },
+   {
+    "smi": "C=CC(C)OC=C"
+   },
+   {
+    "smi": "OC=CC(C)C=C"
+   }
+  ],
+  "h": "Number the six atoms C1=C2–O3–C4–C5=C6. Which σ bond breaks, which forms, and where do the π bonds end up?",
+  "w": "In the Claisen rearrangement the O3–C4 σ bond breaks and a new C1–C6 σ bond forms, while the π bonds shift to C2=O3 and C4=C5. The vinyl end (C1) bonds to the carbon that carries the CH<sub>3</sub> (C6), so the methyl ends up next to the new bond and the CH=CH<sub>2</sub> group is terminal. <b>The product is 3-methylpent-4-enal</b>, a γ,δ-unsaturated aldehyde (one new stereocenter, formed as a racemate).",
+  "x": [
+   "",
+   "Hex-4-enal would need C1 to bond to C4, the carbon that was attached to oxygen. In a [3,3] shift the new bond forms between the two ends of the six-atom chain, C1 and C6.",
+   "This keeps the C–O–C ether and only moves the allyl unit along oxygen, a [1,3] shift. The Claisen breaks the O–C(allyl) bond and makes a C–C bond.",
+   "The arrows form C2=O3 directly, giving an aldehyde, not an enol. An enol would need the π bond at C1=C2, but C1 becomes sp<sup>3</sup> when it forms the new σ bond."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-22",
+  "t": "amines",
+  "d": 2,
+  "q": "(Butan-2-yl)trimethylammonium hydroxide is heated (Hofmann elimination). Which set of curved arrows correctly shows the E2 step that gives the major alkene?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH-:51].[H:55][CH2:53][CH:52]([N+:54](C)(C)C)[CH:56]([H:57])C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 55
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": [
+       52,
+       53
+      ]
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].[H:55][CH2:53][CH:52]([N+:54](C)(C)C)[CH:56]([H:57])C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 57
+     },
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": [
+       52,
+       56
+      ]
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].[H:55][CH2:53][CH:52]([N+:54](C)(C)C)[CH:56]([H:57])C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].[H:55][CH2:53][CH:52]([N+:54](C)(C)C)[CH:56]([H:57])C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 55
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": [
+       52,
+       53
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "The leaving group, N(CH<sub>3</sub>)<sub>3</sub>, is large and leaves poorly, so the transition state has carbanion character. Which β hydrogens are most acidic and most accessible?",
+  "w": "Hofmann elimination follows the Hofmann rule: the base removes a proton from the <b>least substituted β carbon (the CH<sub>3</sub>)</b>. Hydroxide takes that H, the C–H electrons form the C=C, and the C–N bond breaks to release trimethylamine. Three arrows give <b>1-butene</b> as the major alkene. The bulky NMe<sub>3</sub><sup>+</sup> group and the carbanion-like transition state favor removing the more accessible, less hindered primary hydrogens.",
+  "x": [
+   "",
+   "Removing an H from the CH<sub>2</sub> gives 2-butene, the Zaitsev product. With a trialkylammonium leaving group, the less substituted alkene is the major product.",
+   "This is S<sub>N</sub>2 at the secondary carbon bearing nitrogen. That carbon is hindered by the bulky NMe<sub>3</sub><sup>+</sup> group, and on heating, E2 is the main pathway.",
+   "The C–N bond does not break, so the carbon bearing nitrogen would have five bonds once the C=C forms. Trimethylamine must leave in the same E2 step."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-23",
+  "t": "amines",
+  "d": 1,
+  "q": "When aniline is treated with NaNO<sub>2</sub> and HCl at 0 °C, the first bond to nitrogen of the nitrosonium ion (NO<sup>+</sup>) forms. Which set of curved arrows correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[NH2:51]c1ccccc1.[N:53]#[O+:54]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[NH2:51]c1ccccc1.[N:53]#[O+:54]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[NH2:51]c1ccccc1.[N:53]#[O+:54]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[NH2:51]c1ccccc1.[N:53]#[O+:54]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 54,
+      "to": 51
+     }
+    ]
+   }
+  ],
+  "h": "The amine is the nucleophile. Which atom of NO<sup>+</sup> is the electrophilic one, and what must give way when it gains a bond?",
+  "w": "The amine nitrogen's lone pair attacks the <b>nitrogen</b> of NO<sup>+</sup>, and one N≡O π bond moves onto oxygen, so the nitroso nitrogen keeps an octet and oxygen becomes neutral. The product is an N-nitrosoanilinium ion (Ar–NH<sub>2</sub><sup>+</sup>–N=O), which loses H<sup>+</sup>, tautomerizes, and loses water to give the arenediazonium ion, Ar–N≡N<sup>+</sup>.",
+  "x": [
+   "",
+   "This bonds the amine to oxygen. The N–N bond is what the diazonium ion needs, and the nitrogen end of NO<sup>+</sup> is the electrophilic site.",
+   "The new N–N bond forms but the N≡O π bond does not move, so the nitroso nitrogen would have 10 electrons.",
+   "This arrow starts at oxygen and goes to the amine, so the electrophile would be giving electrons to the nucleophile, the reverse of the real flow."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-24",
+  "t": "amines",
+  "d": 3,
+  "q": "N-Methylacetamide is heated in aqueous HCl. The arrows show the tetrahedral intermediate (protonated on nitrogen) expelling methylamine. Why does the overall hydrolysis go essentially to completion instead of reaching an equilibrium mixture?",
+  "s": [
+   {
+    "smi": "C[C:52]([OH:51])(O)[NH2+:53]C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "c": [
+   "The expelled methylamine is protonated to CH<sub>3</sub>NH<sub>3</sub><sup>+</sup>, which has no lone pair to attack the carboxylic acid again.",
+   "Methylamine is a better leaving group than water, so the tetrahedral intermediate always expels it instead of water.",
+   "Water is a stronger nucleophile than methylamine, so it outcompetes methylamine for the protonated carboxylic acid.",
+   "Methylamine boils at −6 °C and escapes from the hot solution as a gas, which pulls the reaction forward."
+  ],
+  "h": "What is the pK<sub>a</sub> of CH<sub>3</sub>NH<sub>3</sub><sup>+</sup>, and what form will methylamine take in strong aqueous acid?",
+  "w": "In the drawn step, an O lone pair forms C=O<sup>+</sup> and the C–N bond breaks, releasing CH<sub>3</sub>NH<sub>2</sub>. In aqueous HCl the amine (conjugate acid pK<sub>a</sub> ≈ 10.6) is converted completely to <b>CH<sub>3</sub>NH<sub>3</sub><sup>+</sup>, which has no lone pair and cannot add back to the carboxylic acid</b>. Removing the nucleophile this way makes acid hydrolysis of amides effectively irreversible and consumes one equivalent of acid.",
+  "x": [
+   "",
+   "Leaving-group ability explains which group leaves from the intermediate, but not why the products do not recombine. It is protonation of the amine that prevents the reverse reaction.",
+   "Amines are stronger nucleophiles than water. The reverse reaction is shut off because the amine is protonated, not because water wins a competition.",
+   "In aqueous HCl, methylamine is present as the nonvolatile salt CH<sub>3</sub>NH<sub>3</sub><sup>+</sup>Cl<sup>−</sup>, so it does not boil off; the acid traps it in solution."
+  ],
+  "k": 0
+ },
+ {
+  "id": "mech3-25",
+  "t": "amines",
+  "d": 2,
+  "q": "Dimethylamine reacts with acetyl chloride to give N,N-dimethylacetamide. Which set of curved arrows correctly shows the first step, formation of the tetrahedral intermediate?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[NH:51]C.C[C:52](=[O:53])[Cl:54]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "C[NH:51]C.C[C:52](=[O:53])[Cl:54]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "C[NH:51]C.C[C:52](=[O:53])[Cl:54]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "C[NH:51]C.C[C:52](=[O:53])[Cl:54]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "Nucleophilic acyl substitution is addition first, then elimination. In the addition step, which bond gives way so the carbonyl carbon keeps four bonds?",
+  "w": "The amine's lone pair attacks the electrophilic carbonyl carbon, and the C=O π bond moves onto oxygen. <b>Two arrows: N lone pair → C, and C=O π bond → O</b>, giving a tetrahedral intermediate with O<sup>−</sup> and N<sup>+</sup>. In the next step, the C=O re-forms and chloride is expelled, and a second equivalent of amine (or another base) removes the N–H proton.",
+  "x": [
+   "",
+   "This is a one-step S<sub>N</sub>2-style displacement of chloride. Substitution at a carbonyl carbon goes through the tetrahedral intermediate: the π bond, not the C–Cl bond, breaks first.",
+   "The amine attacks the carbonyl oxygen, the electron-rich end of the C=O. The electrophilic atom is the δ+ carbonyl carbon.",
+   "The amine bonds to the carbonyl carbon but no bond breaks, so that carbon would have five bonds. The C=O π electrons must move onto oxygen."
+  ],
+  "k": 0
+ }
+]

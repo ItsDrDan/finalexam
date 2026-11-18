@@ -1,0 +1,864 @@
+[
+ {
+  "id": "rn1-01",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "In which of the species shown is the charge delocalized by resonance?",
+  "s": [
+   {
+    "smi": "C=CC[CH2+]",
+    "cap": "I"
+   },
+   {
+    "smi": "C=CC[O-]",
+    "cap": "II"
+   },
+   {
+    "smi": "C=C[CH2-]",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "For each species, count the atoms between the charged atom and the nearest C=C. Resonance needs the charged atom to be bonded directly to a π-bonded atom.",
+  "w": "Delocalization needs the charged atom (its empty p orbital or its lone pair) to sit directly next to a π bond, so the p orbitals overlap in a row. <br>I is false: an sp<sup>3</sup> CH<sub>2</sub> separates the CH<sub>2</sub><sup>+</sup> from the C=C, so the empty p orbital cannot overlap the π bond and the positive charge stays on one carbon. <br>II is false: the O<sup>−</sup> is on an sp<sup>3</sup> carbon, one atom away from the C=C. This is an alkoxide, not an enolate, and no resonance form can move the charge. <br>III is true: in the allyl anion the carbanion carbon is bonded directly to the alkene carbon, so a second contributor puts the negative charge on the other end CH<sub>2</sub>. <br>Answer: <b>III only</b>.",
+  "x": [
+   "",
+   "I is a homoallylic cation. The sp<sup>3</sup> CH<sub>2</sub> between the C=C and the cationic carbon breaks the conjugation, so no resonance form moves the + charge.",
+   "II is an alkoxide on a carbon next to the alkene, not an enolate. Its oxygen is not attached to a π-bonded atom, so the charge cannot be delocalized.",
+   "Neither I nor II has its charged atom next to the π bond. Only the allyl anion (III) is delocalized."
+  ]
+ },
+ {
+  "id": "rn1-02",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "Consider <i>N</i>,<i>N</i>-dimethylformamide (DMF), shown. Which statements are correct?<br>I. The nitrogen is sp<sup>2</sup> hybridized, and its three bonds lie in one plane.<br>II. At room temperature the two N–CH<sub>3</sub> groups are in different environments, because rotation about the C(O)–N bond is slow.<br>III. The nitrogen of DMF is a much weaker base than the nitrogen of trimethylamine.",
+  "s": [
+   {
+    "smi": "O=CN(C)C"
+   }
+  ],
+  "c": [
+   "I, II, and III",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Draw the second resonance contributor of the amide (N lone pair into the C=O). What does it say about the C–N bond and the N lone pair?",
+  "w": "The amide resonance contributor O<sup>−</sup>–CH=N<sup>+</sup>(CH<sub>3</sub>)<sub>2</sub> controls all three statements. <br>I is true: the N lone pair sits in a p orbital so that it can overlap the C=O π system. Nitrogen is sp<sup>2</sup> and trigonal planar, not a pyramidal sp<sup>3</sup> amine. <br>II is true: the C–N bond has partial double-bond character (rotation barrier about 80–90 kJ/mol). One CH<sub>3</sub> is <i>cis</i> to O and the other is <i>trans</i>, and they do not swap quickly at room temperature (DMF shows two CH<sub>3</sub> singlets in its <sup>1</sup>H NMR spectrum). <br>III is true: the lone pair is delocalized onto oxygen, so amide nitrogen is barely basic. A protonated amide has pK<sub>a</sub> near −0.5, compared with 9.8 for trimethylammonium. <br>Answer: <b>I, II, and III</b>.",
+  "x": [
+   "",
+   "Statement III is also true. Delocalization of the N lone pair into the C=O makes amide nitrogen far less basic than an amine nitrogen.",
+   "Statement II is also true. Partial C=N double-bond character slows rotation, so the CH<sub>3</sub> <i>cis</i> to O and the CH<sub>3</sub> <i>trans</i> to O stay distinct at room temperature.",
+   "Statement I is also true. The lone pair is in a p orbital overlapping the C=O π bond, so N is sp<sup>2</sup> and planar, not sp<sup>3</sup>."
+  ]
+ },
+ {
+  "id": "rn1-03",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "Which statements about the molecules shown are correct?<br>I. In I, the three atoms C–C≡N lie on a straight line.<br>II. In II, the central carbon (bonded to both CH<sub>2</sub> and O) is sp<sup>2</sup> hybridized.<br>III. In III, the oxygen is sp<sup>3</sup> hybridized and the C–O–C angle is close to 110°.",
+  "s": [
+   {
+    "smi": "CC#N",
+    "cap": "I"
+   },
+   {
+    "smi": "C=C=O",
+    "cap": "II"
+   },
+   {
+    "smi": "COC",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "Count electron domains (σ bonds plus lone pairs; a double or triple bond counts once) on each atom named.",
+  "w": "Hybridization follows the number of electron domains: 2 → sp (180°), 3 → sp<sup>2</sup> (120°), 4 → sp<sup>3</sup> (about 109.5°). <br>I is true: the nitrile carbon has two domains (the C–C single bond and the C≡N triple bond), so it is sp and the C–C≡N unit is linear. <br>II is false: the central carbon of ketene has two double bonds (C=C and C=O) and no lone pairs, so it has only two domains. It is sp and linear, like the central carbon of CO<sub>2</sub> or an allene. <br>III is true: the ether oxygen has two bonds and two lone pairs (four domains), so it is sp<sup>3</sup>; the C–O–C angle in dimethyl ether is about 111°. <br>Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "III is also true: oxygen with two σ bonds and two lone pairs has four electron domains (sp<sup>3</sup>), and the C–O–C angle is near 110°.",
+   "I is also true: the nitrile carbon has only two electron domains, so the C–C≡N atoms are collinear.",
+   "II is false: a carbon with two double bonds has two electron domains and is sp, not sp<sup>2</sup>."
+  ]
+ },
+ {
+  "id": "rn1-04",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "Which statements are correct?<br>I. The C2–C3 single bond of buta-1,3-diene is shorter than the C–C bond of ethane.<br>II. The C–H bond of ethyne is longer than a C–H bond of ethane.<br>III. (<i>E</i>)-1,2-Dichloroethene has a larger dipole moment than (<i>Z</i>)-1,2-dichloroethene.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II only"
+  ],
+  "h": "More s character in the hybrid orbitals makes a bond shorter. For dipoles, add the bond dipoles as vectors.",
+  "w": "I is true: the C2–C3 bond of butadiene joins two sp<sup>2</sup> carbons (and has a little conjugation), so it is about 148 pm long, compared with 154 pm for the sp<sup>3</sup>–sp<sup>3</sup> bond of ethane. <br>II is false: the ethyne C–H bond uses an sp orbital (50% s), which holds electrons closer to carbon. It is shorter (about 106 pm) and stronger than the sp<sup>3</sup> C–H of ethane (about 110 pm). <br>III is false: in the <i>E</i> isomer the two C–Cl bond dipoles point in opposite directions and cancel, so its dipole moment is zero. The <i>Z</i> isomer, with both Cl on one side, has a net dipole of about 1.9 D. <br>Answer: <b>I only</b>.",
+  "x": [
+   "",
+   "II is false. More s character puts the bonding electrons closer to carbon, so the sp C–H bond of ethyne is shorter than the sp<sup>3</sup> C–H bond of ethane.",
+   "III is false. The two C–Cl bond dipoles of the <i>E</i> isomer are antiparallel and cancel; the <i>Z</i> isomer is the polar one.",
+   "I is true and II is false. The sp<sup>2</sup>–sp<sup>2</sup> C2–C3 bond of butadiene (about 148 pm) is shorter than the ethane C–C bond, while sp C–H bonds are shorter than sp<sup>3</sup> C–H bonds."
+  ]
+ },
+ {
+  "id": "rn1-05",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "The three C<sub>5</sub>H<sub>12</sub>O isomers shown have the same molar mass. Rank them in order of <b>increasing</b> boiling point (lowest first).",
+  "s": [
+   {
+    "smi": "CCCCCO",
+    "cap": "I"
+   },
+   {
+    "smi": "CCC(C)(C)O",
+    "cap": "II"
+   },
+   {
+    "smi": "CCCCOC",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "III &lt; II &lt; I",
+   "II &lt; III &lt; I",
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III"
+  ],
+  "h": "First ask which compounds can donate a hydrogen bond. Then ask how branching changes the contact between molecules.",
+  "w": "The ether III has no O–H, so its molecules cannot hydrogen bond to each other; it boils lowest (1-methoxybutane, about 70 °C). Both alcohols hydrogen bond, so they boil higher. Between them, the compact, branched tertiary alcohol II has less surface contact (weaker London forces) and a more crowded O–H, so it boils lower (2-methylbutan-2-ol, about 102 °C) than the straight-chain pentan-1-ol I (about 138 °C). <br>Answer: <b>III &lt; II &lt; I</b>.",
+  "x": [
+   "",
+   "This puts the tertiary alcohol below the ether. II can still donate a hydrogen bond, which the ether III cannot, so II boils well above III.",
+   "Branching lowers the boiling point (smaller contact area), so the branched alcohol II boils below the straight-chain alcohol I, not above it.",
+   "This is the reverse order. Hydrogen bonding raises the boiling point, so the alcohols boil above the ether, and the straight-chain alcohol boils highest."
+  ]
+ },
+ {
+  "id": "rn1-06",
+  "t": "nomenclature",
+  "d": 2,
+  "k": 0,
+  "q": "Each structure is given a name. Which names are correct IUPAC names for the structure shown?<br>I. 3-methylpentane<br>II. (<i>Z</i>)-5-methylhex-2-ene<br>III. 4-ethylhexane",
+  "s": [
+   {
+    "smi": "CCC(C)CC",
+    "cap": "I"
+   },
+   {
+    "smi": "C/C=C/CC(C)C",
+    "cap": "II"
+   },
+   {
+    "smi": "CCC(CC)CCC",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Check three things in each name: the longest chain, the numbering direction (lowest locants), and, for the alkene, which side each chain carbon is on.",
+  "w": "I is correct: the longest chain has five carbons and the methyl is on C3 from either end. <br>II is incorrect: the chain is numbered from the end nearer the double bond (C2=C3, methyl on C5), so 5-methylhex-2-ene is right, but the drawn alkene has C1 and C4 on opposite sides of the double bond. It is (<i>E</i>), not (<i>Z</i>). <br>III is incorrect: the longest chain has six carbons, and it must be numbered from the end that gives the ethyl group the lower locant, so the name is 3-ethylhexane. <br>Answer: <b>I only</b>.",
+  "x": [
+   "",
+   "II has the right chain and locants but the wrong stereodescriptor: the higher-priority groups on C2 and C3 are on opposite sides, so the alkene is <i>E</i>.",
+   "III is numbered from the wrong end. Numbering from the other end puts the ethyl on C3, so the name is 3-ethylhexane.",
+   "I is correct (3-methylpentane), while II has the wrong E/Z label and III the wrong numbering."
+  ]
+ },
+ {
+  "id": "rn1-07",
+  "t": "nomenclature",
+  "d": 2,
+  "k": 0,
+  "q": "A compound has the molecular formula C<sub>5</sub>H<sub>8</sub>O. Which statements are correct?<br>I. It has two degrees of unsaturation.<br>II. It could be pentanal.<br>III. It could be cyclopent-2-en-1-ol.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "h": "Degrees of unsaturation = (2C + 2 − H)/2; oxygen does not change it. Then count rings and π bonds in each candidate.",
+  "w": "I is true: (2 × 5 + 2 − 8)/2 = 2, so the compound has two rings and/or π bonds in total. <br>II is false: pentanal has only one degree of unsaturation (one C=O) and the formula C<sub>5</sub>H<sub>10</sub>O. <br>III is true: cyclopent-2-en-1-ol has one ring and one C=C (two degrees of unsaturation) and the formula C<sub>5</sub>H<sub>8</sub>O. <br>Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "III is also true: one ring plus one C=C gives two degrees of unsaturation, and cyclopent-2-en-1-ol is C<sub>5</sub>H<sub>8</sub>O.",
+   "II is false: pentanal has one C=O and no ring, so it is C<sub>5</sub>H<sub>10</sub>O, two H more than the formula given.",
+   "I is true (DBE = 2), and pentanal (C<sub>5</sub>H<sub>10</sub>O) does not fit the formula."
+  ]
+ },
+ {
+  "id": "rn1-08",
+  "t": "nomenclature",
+  "d": 2,
+  "k": 0,
+  "q": "Which statements about the functional groups in the compound shown are correct?<br>I. It contains an ester.<br>II. It contains a secondary amide.<br>III. It contains an aldehyde.",
+  "s": [
+   {
+    "smi": "CC(=O)Nc1ccc(OC)cc1C=O"
+   }
+  ],
+  "c": [
+   "II and III only",
+   "III only",
+   "II only",
+   "I, II, and III"
+  ],
+  "h": "Look at what is attached to each oxygen and to each C=O carbon. An ester needs an O–C bond on the carbonyl carbon.",
+  "w": "I is false: the OCH<sub>3</sub> on the ring is an aryl ether (aryl–O–CH<sub>3</sub>). Neither carbon on that oxygen is a C=O, so it is not an ester. <br>II is true: the acetyl C=O is bonded to N, which also carries one H and the ring carbon. An amide whose N bears one carbon substituent besides the acyl group is a secondary (2°) amide (an acetamido group). <br>III is true: the CHO on the ring is a carbonyl bonded to one H, an aldehyde. <br>Answer: <b>II and III only</b>.",
+  "x": [
+   "",
+   "II is also true. The N–H nitrogen bonded to the acetyl C=O and to the ring is a secondary amide, not an amine.",
+   "III is also true. The ring CHO has a hydrogen on the carbonyl carbon, so it is an aldehyde, not a ketone.",
+   "I is false. The OCH<sub>3</sub> oxygen is bonded to the ring and to CH<sub>3</sub>, with no C=O on either side, so it is an ether, not an ester."
+  ]
+ },
+ {
+  "id": "rn1-09",
+  "t": "nomenclature",
+  "d": 1,
+  "k": 0,
+  "q": "Which of the names given are correct IUPAC names for the structures shown?<br>I. pent-1-en-4-ol<br>II. cyclopentylmethanol<br>III. 2-methylbutan-3-ol",
+  "s": [
+   {
+    "smi": "CC(O)CC=C",
+    "cap": "I"
+   },
+   {
+    "smi": "OCC1CCCC1",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(C)C(C)O",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "The OH is the principal group: it gets the lowest possible locant, even if that gives a double bond or a methyl group a higher number.",
+  "w": "I is incorrect: numbering must give the OH (the principal group) the lowest locant, so number from the CH<sub>3</sub> end: OH on C2, C=C starting at C4. The name is pent-4-en-2-ol. <br>II is correct: the OH is on the CH<sub>2</sub> outside the ring, so the parent is methanol with a cyclopentyl substituent. <br>III is incorrect: numbering from the end nearer the OH puts it on C2 and the methyl on C3, so the name is 3-methylbutan-2-ol. <br>Answer: <b>II only</b>.",
+  "x": [
+   "",
+   "I gives the double bond the lower locant, but the OH outranks the C=C for numbering. The correct name is pent-4-en-2-ol.",
+   "III gives the methyl the lower locant, but the OH must get the lowest number. The correct name is 3-methylbutan-2-ol.",
+   "Only II is right; both I and III number the chain from the end farther from the OH."
+  ]
+ },
+ {
+  "id": "rn1-10",
+  "t": "acidbase",
+  "d": 2,
+  "k": 0,
+  "q": "Rank the compounds in order of <b>increasing</b> acidity (weakest acid first).",
+  "s": [
+   {
+    "smi": "OCC(F)(F)F",
+    "cap": "I"
+   },
+   {
+    "smi": "Oc1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "CCO",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "III &lt; I &lt; II",
+   "III &lt; II &lt; I",
+   "I &lt; III &lt; II",
+   "II &lt; I &lt; III"
+  ],
+  "h": "All three are O–H acids, so compare how well each conjugate base spreads out its negative charge: by resonance, by induction, or not at all.",
+  "w": "Each conjugate base is an oxyanion, so the difference lies in what stabilizes the charge. Ethoxide (from III) has the charge localized on O: pK<sub>a</sub> about 16, weakest acid. 2,2,2-Trifluoroethoxide (from I) is stabilized by the inductive pull of three F atoms two bonds away: pK<sub>a</sub> about 12.4. Phenoxide (from II) delocalizes the charge by resonance onto the ortho and para ring carbons: pK<sub>a</sub> about 10, strongest acid. <br>Answer: <b>III &lt; I &lt; II</b>.",
+  "x": [
+   "",
+   "This makes trifluoroethanol stronger than phenol. Induction through two σ bonds lowers the pK<sub>a</sub> to about 12.4, but resonance delocalization in phenoxide lowers it further, to about 10.",
+   "This makes trifluoroethanol weaker than ethanol. The electron-withdrawing CF<sub>3</sub> group stabilizes the alkoxide, so it makes the alcohol more acidic, not less.",
+   "This is the reverse order. Phenol is the strongest acid of the three and ethanol the weakest."
+  ]
+ },
+ {
+  "id": "rn1-11",
+  "t": "acidbase",
+  "d": 3,
+  "k": 0,
+  "q": "Rank the compounds in order of <b>increasing</b> acidity of their most acidic hydrogen (weakest acid first).",
+  "s": [
+   {
+    "smi": "C#C",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(C)=O",
+    "cap": "II"
+   },
+   {
+    "smi": "CCO",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III",
+   "II &lt; I &lt; III",
+   "I &lt; III &lt; II",
+   "III &lt; II &lt; I"
+  ],
+  "h": "Find the most acidic H in each, then ask where the negative charge sits in each conjugate base: on which atom, in what orbital, and whether it is delocalized.",
+  "w": "Ethyne (I): the acetylide charge sits in an sp orbital on carbon, localized: pK<sub>a</sub> about 25. Acetone (II): removing an α-H gives an enolate whose charge is shared by carbon and oxygen through resonance: pK<sub>a</sub> about 19–20. Ethanol (III): the charge of ethoxide sits entirely on oxygen, a much more electronegative atom than carbon: pK<sub>a</sub> about 16. Here having the charge on oxygen wins over resonance that puts only part of it on oxygen, so ethanol is the strongest acid. <br>Answer: <b>I &lt; II &lt; III</b>.",
+  "x": [
+   "",
+   "This puts acetone below ethyne. The enolate spreads its charge onto oxygen by resonance, which beats an sp carbanion (pK<sub>a</sub> 19–20 vs 25).",
+   "This makes acetone more acidic than ethanol. The enolate is resonance-stabilized, but ethoxide holds its whole charge on electronegative oxygen; ethanol (pK<sub>a</sub> about 16) is more acidic than acetone (19–20).",
+   "This is the reverse order. Ethyne is the weakest acid of the three and ethanol the strongest."
+  ]
+ },
+ {
+  "id": "rn1-12",
+  "t": "acidbase",
+  "d": 1,
+  "k": 0,
+  "q": "A terminal alkyne (pK<sub>a</sub> ≈ 25) must be converted completely to its acetylide ion. Which bases can do this?<br>I. NaOH<br>II. NaNH<sub>2</sub><br>III. CH<sub>3</sub>Li",
+  "c": [
+   "II and III only",
+   "II only",
+   "I, II, and III",
+   "III only"
+  ],
+  "h": "A base works when its conjugate acid is weaker (higher pK<sub>a</sub>) than the alkyne. Find the conjugate acid of each base.",
+  "w": "The equilibrium lies on the side of the weaker acid, so the base's conjugate acid must have a pK<sub>a</sub> well above 25. <br>I fails: hydroxide's conjugate acid is water (pK<sub>a</sub> 15.7), a stronger acid than the alkyne, so the equilibrium favors the alkyne. <br>II works: amide's conjugate acid is NH<sub>3</sub> (pK<sub>a</sub> about 38). <br>III works: methyllithium's conjugate acid is CH<sub>4</sub> (pK<sub>a</sub> about 50). <br>Answer: <b>II and III only</b>.",
+  "x": [
+   "",
+   "CH<sub>3</sub>Li also works: its conjugate acid, methane (pK<sub>a</sub> about 50), is far weaker than the alkyne.",
+   "NaOH does not work: water (pK<sub>a</sub> 15.7) is a stronger acid than the alkyne, so hydroxide leaves the alkyne almost entirely protonated.",
+   "NaNH<sub>2</sub> also works: NH<sub>3</sub> (pK<sub>a</sub> about 38) is a much weaker acid than the alkyne, so amide deprotonates it completely."
+  ]
+ },
+ {
+  "id": "rn1-13",
+  "t": "acidbase",
+  "d": 3,
+  "k": 0,
+  "q": "Which statements about acids and bases in different solvents are correct?<br>I. CH<sub>3</sub>Li cannot be used as a base in water, because water protonates it at once to give CH<sub>4</sub> and LiOH.<br>II. In water, HCl and HBr appear equally strong, because both are converted completely to H<sub>3</sub>O<sup>+</sup>.<br>III. In pure acetic acid as the solvent, HCl and HClO<sub>4</sub> are equally strong acids.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II only",
+   "I, II, and III"
+  ],
+  "h": "A solvent levels any acid stronger than its own protonated form, and any base stronger than its own deprotonated form. How basic is acetic acid compared with water?",
+  "w": "This is the leveling effect. <br>I is true: CH<sub>3</sub><sup>−</sup> (conjugate acid pK<sub>a</sub> about 50) is far stronger than OH<sup>−</sup>, so water protonates it completely; the strongest base that survives in water is hydroxide. <br>II is true: both acids are much stronger than H<sub>3</sub>O<sup>+</sup>, so each ionizes completely and the solution contains only H<sub>3</sub>O<sup>+</sup>; their real difference is hidden. <br>III is false: acetic acid is a much weaker base than water, so it does not ionize strong acids completely. In acetic acid the acids are differentiated, and HClO<sub>4</sub> is clearly the stronger acid. <br>Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "II is also true: in water both HCl and HBr are leveled to H<sub>3</sub>O<sup>+</sup>, so they appear equally strong.",
+   "I is also true: any base stronger than hydroxide, such as CH<sub>3</sub><sup>−</sup>, is protonated by water at once.",
+   "III is false: acetic acid is too weakly basic to level strong acids, so it differentiates them; HClO<sub>4</sub> is the stronger acid there."
+  ]
+ },
+ {
+  "id": "rn1-14",
+  "t": "acidbase",
+  "d": 1,
+  "k": 0,
+  "q": "Which of the species shown can act as a Lewis <b>base</b>?",
+  "s": [
+   {
+    "smi": "FB(F)F",
+    "cap": "I"
+   },
+   {
+    "smi": "C[C+](C)C",
+    "cap": "II"
+   },
+   {
+    "smi": "CN(C)C",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "A Lewis base donates an electron pair; a Lewis acid accepts one. Look for an available lone pair or an empty orbital on the central atom.",
+  "w": "I is not a Lewis base: boron in BF<sub>3</sub> has only six valence electrons and an empty p orbital, so it accepts a pair (a Lewis acid). <br>II is not a Lewis base: the <i>tert</i>-butyl cation also has an empty p orbital on the cationic carbon and accepts a pair from a nucleophile. <br>III is a Lewis base: the nitrogen of trimethylamine has a lone pair it can donate, for example to BF<sub>3</sub> to give F<sub>3</sub>B–N(CH<sub>3</sub>)<sub>3</sub>. <br>Answer: <b>III only</b>.",
+  "x": [
+   "",
+   "BF<sub>3</sub> is an electron-pair acceptor (empty p orbital on boron), a Lewis acid, not a base.",
+   "A carbocation has an empty p orbital and reacts with electron-pair donors, so it is a Lewis acid.",
+   "This swaps acid and base: BF<sub>3</sub> accepts electron pairs, while trimethylamine, with its lone pair, is the Lewis base."
+  ]
+ },
+ {
+  "id": "rn1-15",
+  "t": "conform",
+  "d": 1,
+  "k": 0,
+  "q": "Three conformations of butane, viewed along the C2–C3 bond, are shown. Rank them from <b>lowest</b> to <b>highest</b> energy.",
+  "f": [
+   {
+    "type": "newman",
+    "items": [
+     {
+      "front": [
+       "CH<sub>3</sub>",
+       "H",
+       "H"
+      ],
+      "back": [
+       "H",
+       "H",
+       "CH<sub>3</sub>"
+      ],
+      "rot": 60,
+      "cap": "I"
+     },
+     {
+      "front": [
+       "CH<sub>3</sub>",
+       "H",
+       "H"
+      ],
+      "back": [
+       "CH<sub>3</sub>",
+       "H",
+       "H"
+      ],
+      "rot": 60,
+      "cap": "II"
+     },
+     {
+      "front": [
+       "CH<sub>3</sub>",
+       "H",
+       "H"
+      ],
+      "back": [
+       "H",
+       "CH<sub>3</sub>",
+       "H"
+      ],
+      "rot": 0,
+      "cap": "III"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III",
+   "II &lt; I &lt; III",
+   "I &lt; III &lt; II",
+   "III &lt; II &lt; I"
+  ],
+  "h": "Decide first which projections are staggered and which is eclipsed. Then look at how close the two CH<sub>3</sub> groups are.",
+  "w": "I is staggered with the CH<sub>3</sub> groups 180° apart (anti): lowest energy. II is staggered with the CH<sub>3</sub> groups 60° apart (gauche): about 3.8 kJ/mol higher, from steric strain. III is eclipsed (one CH<sub>3</sub>/H and two H/H eclipsing interactions): about 16 kJ/mol above anti, because eclipsing adds torsional strain that any staggered form avoids. <br>Answer: <b>I &lt; II &lt; III</b>.",
+  "x": [
+   "",
+   "Gauche is higher than anti: the CH<sub>3</sub> groups 60° apart crowd each other, so II lies about 3.8 kJ/mol above I.",
+   "Any eclipsed conformation of butane is higher in energy than any staggered one; III (about 16 kJ/mol) is above gauche II (3.8 kJ/mol).",
+   "This is the reverse order. The anti conformation is the most stable and the eclipsed one the least."
+  ]
+ },
+ {
+  "id": "rn1-16",
+  "t": "conform",
+  "d": 3,
+  "k": 0,
+  "q": "Three staggered conformations of 2,3-dimethylbutane, viewed along the C2–C3 bond, are shown. Which statements are correct?<br>I. Conformation II is the most stable of the three.<br>II. Conformation I has exactly two gauche CH<sub>3</sub>/CH<sub>3</sub> interactions.<br>III. Conformations I and III have the same energy.",
+  "f": [
+   {
+    "type": "newman",
+    "items": [
+     {
+      "front": [
+       "CH<sub>3</sub>",
+       "CH<sub>3</sub>",
+       "H"
+      ],
+      "back": [
+       "H",
+       "CH<sub>3</sub>",
+       "CH<sub>3</sub>"
+      ],
+      "rot": 60,
+      "cap": "I"
+     },
+     {
+      "front": [
+       "CH<sub>3</sub>",
+       "CH<sub>3</sub>",
+       "H"
+      ],
+      "back": [
+       "CH<sub>3</sub>",
+       "H",
+       "CH<sub>3</sub>"
+      ],
+      "rot": 60,
+      "cap": "II"
+     },
+     {
+      "front": [
+       "CH<sub>3</sub>",
+       "CH<sub>3</sub>",
+       "H"
+      ],
+      "back": [
+       "CH<sub>3</sub>",
+       "CH<sub>3</sub>",
+       "H"
+      ],
+      "rot": 60,
+      "cap": "III"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "In each projection, look at each back CH<sub>3</sub> and count the front CH<sub>3</sub> groups 60° from it. Each such pair is one gauche interaction.",
+  "w": "Count gauche CH<sub>3</sub>/CH<sub>3</sub> pairs (each about 3.8 kJ/mol). In I, the back CH<sub>3</sub> at upper left sits between both front CH<sub>3</sub> groups (2 gauche), and the back CH<sub>3</sub> at the bottom is next to one front CH<sub>3</sub> (1 gauche): 3 in all. In II, the two H atoms are anti to each other and each back CH<sub>3</sub> is gauche to only one front CH<sub>3</sub>: 2 in all. In III, the count is again 1 + 2 = 3. <br>I is true: II has the fewest gauche interactions (about 7.6 kJ/mol vs 11.4 kJ/mol). <br>II is false: conformation I has three gauche interactions, not two. <br>III is true: I and III each have three gauche interactions; they are mirror-image conformations and have the same energy. <br>Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "III is also true: conformations I and III each have three gauche CH<sub>3</sub>/CH<sub>3</sub> interactions (they are mirror images), so their energies are equal.",
+   "I is also true: in II the H atoms are anti, leaving only two gauche CH<sub>3</sub>/CH<sub>3</sub> interactions, the fewest of the three.",
+   "II is false: in conformation I the upper-left back CH<sub>3</sub> is gauche to both front CH<sub>3</sub> groups and the bottom back CH<sub>3</sub> to one more, three in all."
+  ]
+ },
+ {
+  "id": "rn1-17",
+  "t": "conform",
+  "d": 2,
+  "k": 0,
+  "q": "The chair shown is one conformation of <i>trans</i>-1,2-dimethylcyclohexane. Which statements are correct?<br>I. Both CH<sub>3</sub> groups in this chair are equatorial.<br>II. After a ring flip, both CH<sub>3</sub> groups are axial.<br>III. The two chair conformations of this compound are equal in energy.",
+  "f": [
+   {
+    "type": "chair",
+    "subs": [
+     [
+      1,
+      "up",
+      "CH<sub>3</sub>"
+     ],
+     [
+      2,
+      "down",
+      "CH<sub>3</sub>"
+     ]
+    ],
+    "flip": true,
+    "nums": true
+   }
+  ],
+  "c": [
+   "I and II only",
+   "I only",
+   "II only",
+   "I, II, and III"
+  ],
+  "h": "A ring flip changes every axial position to equatorial and back, but keeps each group on the same face. Then compare the strain in the two chairs.",
+  "w": "I is true: in the chair shown, the up CH<sub>3</sub> on C1 and the down CH<sub>3</sub> on C2 both point outward along the ring's equator. <br>II is true: a ring flip turns every equatorial position axial, so both CH<sub>3</sub> groups become axial (still up on C1 and down on C2). <br>III is false: the diaxial chair has four 1,3-diaxial CH<sub>3</sub>/H interactions (about 2 × 7.6 = 15.2 kJ/mol), while the diequatorial chair has only one gauche CH<sub>3</sub>/CH<sub>3</sub> interaction (about 3.8 kJ/mol). The diequatorial chair is lower by roughly 11 kJ/mol. <br>Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "II is also true: trans-1,2 substituents are either both equatorial or both axial, so flipping the diequatorial chair gives the diaxial chair.",
+   "I is also true: in the chair drawn, both methyl groups occupy equatorial positions.",
+   "III is false: the diaxial chair carries two axial CH<sub>3</sub> groups (four 1,3-diaxial interactions), so it is much less stable than the diequatorial chair."
+  ]
+ },
+ {
+  "id": "rn1-18",
+  "t": "conform",
+  "d": 3,
+  "k": 0,
+  "q": "The chair shown is one conformation of <i>cis</i>-1-<i>tert</i>-butyl-4-methylcyclohexane. Which statements are correct?<br>I. The chair shown is the more stable chair of this compound.<br>II. In the more stable chair, the CH<sub>3</sub> group is axial.<br>III. The <i>trans</i> isomer is more stable than the <i>cis</i> isomer.",
+  "f": [
+   {
+    "type": "chair",
+    "subs": [
+     [
+      1,
+      "up",
+      "C(CH<sub>3</sub>)<sub>3</sub>"
+     ],
+     [
+      4,
+      "up",
+      "CH<sub>3</sub>"
+     ]
+    ],
+    "flip": false,
+    "nums": true
+   }
+  ],
+  "c": [
+   "II and III only",
+   "III only",
+   "II only",
+   "I, II, and III"
+  ],
+  "h": "Find which group is axial in the chair drawn. Compare A-values: CH<sub>3</sub> about 7.3 kJ/mol, <i>tert</i>-butyl about 21 kJ/mol.",
+  "w": "In a <i>cis</i>-1,4-disubstituted cyclohexane one group is axial and the other equatorial in each chair. <br>I is false: in the chair drawn the <i>tert</i>-butyl group is axial (and the CH<sub>3</sub> equatorial). An axial <i>tert</i>-butyl costs about 21 kJ/mol, so this is the less stable chair. <br>II is true: in the other chair the <i>tert</i>-butyl group is equatorial, which forces the <i>cis</i> CH<sub>3</sub> axial (about 7.3 kJ/mol); the bulky group always takes the equatorial position. <br>III is true: the <i>trans</i> isomer can place both groups equatorial, so it avoids even the 7.3 kJ/mol axial methyl and is more stable than the <i>cis</i> isomer. <br>Answer: <b>II and III only</b>.",
+  "x": [
+   "",
+   "II is also true: once the <i>tert</i>-butyl group is equatorial in the <i>cis</i> isomer, the methyl on C4 must be axial.",
+   "III is also true: the <i>trans</i> isomer has a diequatorial chair, which has no 1,3-diaxial interactions from either group.",
+   "I is false: the chair drawn has the <i>tert</i>-butyl group axial, the worst arrangement possible for this compound."
+  ]
+ },
+ {
+  "id": "rn1-19",
+  "t": "conform",
+  "d": 2,
+  "k": 0,
+  "q": "For which compounds does one chair conformation have <b>both</b> CH<sub>3</sub> groups equatorial?",
+  "s": [
+   {
+    "smi": "C[C@@H]1CCC[C@H](C)C1",
+    "cap": "I"
+   },
+   {
+    "smi": "C[C@@H]1CCC[C@@H](C)C1",
+    "cap": "II"
+   },
+   {
+    "smi": "C[C@H]1CC[C@@H](C)CC1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II only"
+  ],
+  "h": "Identify each as cis or trans from the wedges and dashes. Then use the pattern of up/down axial positions around the ring for 1,3 and 1,4 positions.",
+  "w": "I is <i>cis</i>-1,3-dimethylcyclohexane: both CH<sub>3</sub> groups are on the same face. At C1 and C3 the axial positions point the same way, so two groups on the same face can both be equatorial: yes. <br>II is <i>trans</i>-1,3-dimethylcyclohexane: the CH<sub>3</sub> groups are on opposite faces. One CH<sub>3</sub> is axial in either chair: no. <br>III is <i>cis</i>-1,4-dimethylcyclohexane: both CH<sub>3</sub> groups are on the same face. At C1 and C4 the axial positions point in opposite directions, so a <i>cis</i> pair is always axial/equatorial: no. <br>Answer: <b>I only</b>.",
+  "x": [
+   "",
+   "II is <i>trans</i>-1,3: each chair has one axial and one equatorial CH<sub>3</sub>.",
+   "III is <i>cis</i>-1,4: for 1,4 positions it is the <i>trans</i> isomer that can be diequatorial, not the <i>cis</i>.",
+   "\"Trans means diequatorial\" is true only for 1,2 and 1,4 patterns; for 1,3 it is the <i>cis</i> isomer (I) that can be diequatorial."
+  ]
+ },
+ {
+  "id": "rn1-20",
+  "t": "stereo",
+  "d": 3,
+  "k": 0,
+  "q": "Which of the compounds shown are chiral?",
+  "s": [
+   {
+    "smi": "CC1CCCC=C1",
+    "cap": "I"
+   },
+   {
+    "smi": "C[C@@H]1CCC[C@H]1C",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(C)C(C)CC",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I, II, and III",
+   "I and II only",
+   "II and III only",
+   "I and III only"
+  ],
+  "h": "Look for a carbon with four different groups, then check for an internal mirror plane. In a ring, follow the ring in both directions from the carbon.",
+  "w": "I is chiral: in 3-methylcyclohexene, C3 carries H, CH<sub>3</sub>, the alkene carbon C2 and the CH<sub>2</sub> C4. Going around the ring the two ways is different (C=C one way, CH<sub>2</sub>CH<sub>2</sub> the other), so C3 is a chirality center and there is no mirror plane. <br>II is chiral: <i>trans</i>-1,2-dimethylcyclopentane has two chirality centers and a C<sub>2</sub> axis but no mirror plane. (The <i>cis</i> isomer is the meso one.) <br>III is chiral: in 2,3-dimethylpentane, C3 carries H, CH<sub>3</sub>, CH<sub>2</sub>CH<sub>3</sub> and CH(CH<sub>3</sub>)<sub>2</sub>, four different groups. (C2, with two CH<sub>3</sub> groups, is not a stereocenter.) <br>Answer: <b>I, II, and III</b>.",
+  "x": [
+   "",
+   "III is also chiral: C3 bears H, methyl, ethyl and isopropyl groups. It is easy to miss because C2 has two identical methyls.",
+   "I is also chiral: C3 of 3-methylcyclohexene is a chirality center, since one ring path starts with C=C and the other with CH<sub>2</sub>.",
+   "II is also chiral: only the <i>cis</i>-1,2 isomer has a mirror plane; the <i>trans</i> isomer is chiral."
+  ]
+ },
+ {
+  "id": "rn1-21",
+  "t": "stereo",
+  "d": 3,
+  "k": 0,
+  "q": "Which of the compounds shown are meso compounds?",
+  "s": [
+   {
+    "smi": "C[C@@H](Br)[C@@H](C)Br",
+    "cap": "I"
+   },
+   {
+    "smi": "Cl[C@@H]1CCCC[C@H]1Cl",
+    "cap": "II"
+   },
+   {
+    "smi": "C[C@@H](O)C[C@H](C)O",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "Assign R/S to each chirality center. A meso compound has matching centers of opposite configuration (R,S) and an internal mirror plane.",
+  "w": "A meso compound has chirality centers but is achiral because of an internal mirror plane; with two equivalent centers this means one is <i>R</i> and the other <i>S</i>. <br>I is not meso: it is (2<i>R</i>,3<i>R</i>)-2,3-dibromobutane, a chiral compound (the meso isomer is 2<i>R</i>,3<i>S</i>). <br>II is not meso: it is <i>trans</i>-1,2-dichlorocyclohexane, (1<i>R</i>,2<i>R</i>), which has a C<sub>2</sub> axis but no mirror plane. The <i>cis</i> isomer is meso. <br>III is meso: it is (2<i>R</i>,4<i>S</i>)-pentane-2,4-diol, and a mirror plane passes through C3. <br>Answer: <b>III only</b>.",
+  "x": [
+   "",
+   "I is (2<i>R</i>,3<i>R</i>): the two centers have the same descriptor, so they do not cancel and the compound is chiral.",
+   "II is the <i>trans</i> 1,2-ring isomer (1<i>R</i>,2<i>R</i>), which is chiral; only the <i>cis</i> isomer has a mirror plane.",
+   "Having two identical-looking stereocenters is not enough: I and II are (<i>R</i>,<i>R</i>) and chiral. Only III, with (<i>R</i>,<i>S</i>) centers, is meso."
+  ]
+ },
+ {
+  "id": "rn1-22",
+  "t": "stereo",
+  "d": 2,
+  "k": 0,
+  "q": "The compound shown is (2<i>R</i>,3<i>S</i>)-3-bromobutan-2-ol. Which statements are correct?<br>I. It is a meso compound.<br>II. Counting this one, 3-bromobutan-2-ol has four stereoisomers.<br>III. Its enantiomer is (2<i>S</i>,3<i>S</i>)-3-bromobutan-2-ol.",
+  "s": [
+   {
+    "smi": "C[C@@H](O)[C@H](C)Br"
+   }
+  ],
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I and III only"
+  ],
+  "h": "A meso compound needs two stereocenters with the same four groups. For the enantiomer, change every descriptor.",
+  "w": "I is false: the two chirality centers carry different groups (C2 has OH, C3 has Br), so no internal mirror plane is possible. An (<i>R</i>,<i>S</i>) label alone does not make a compound meso. <br>II is true: with two chirality centers and no meso form, there are 2<sup>2</sup> = 4 stereoisomers: (2<i>R</i>,3<i>R</i>), (2<i>S</i>,3<i>S</i>), (2<i>R</i>,3<i>S</i>) and (2<i>S</i>,3<i>R</i>). <br>III is false: the enantiomer has every center inverted, so it is (2<i>S</i>,3<i>R</i>). (2<i>S</i>,3<i>S</i>) changes only one center, so it is a diastereomer. <br>Answer: <b>II only</b>.",
+  "x": [
+   "",
+   "I is false: meso needs identical substituent sets on the two centers; with OH on one and Br on the other, the molecule is chiral.",
+   "III is false: inverting only C2 gives a diastereomer. The enantiomer is (2<i>S</i>,3<i>R</i>).",
+   "I and III are both false, and II is true: with no meso form, two chirality centers give four stereoisomers."
+  ]
+ },
+ {
+  "id": "rn1-23",
+  "t": "stereo",
+  "d": 2,
+  "k": 0,
+  "q": "The Fischer projection shows (<i>R</i>)-glyceraldehyde. Which operations on this drawing give a Fischer projection of the <b>same</b> compound?<br>I. Rotating the whole projection 180° in the plane of the page.<br>II. Rotating the whole projection 90° in the plane of the page.<br>III. Swapping the positions of two groups, then swapping two groups a second time.",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "CHO",
+    "rows": [
+     [
+      "H",
+      "OH"
+     ]
+    ],
+    "bottom": "CH<sub>2</sub>OH"
+   }
+  ],
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "In a Fischer projection, horizontal bonds point toward you and vertical bonds point away. Which operations keep that true?",
+  "w": "I is true: a 180° turn keeps horizontal groups horizontal (toward the viewer) and vertical groups vertical, so the configuration is unchanged. <br>II is false: a 90° turn moves the groups that pointed toward you into vertical positions (now read as pointing away), which inverts the center and gives the drawing of (<i>S</i>)-glyceraldehyde. <br>III is true: each swap of two groups inverts the configuration, so two swaps restore it. <br>Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "III is also true: one swap gives the enantiomer, and a second swap inverts it back to the original.",
+   "I is also true: rotating 180° in the plane keeps the horizontal (toward-you) and vertical (away) bonds where they were.",
+   "II is false: a 90° rotation in the plane turns a Fischer projection into its enantiomer."
+  ]
+ },
+ {
+  "id": "rn1-24",
+  "t": "stereo",
+  "d": 3,
+  "k": 0,
+  "q": "Compound <b>A</b> is (2<i>R</i>,3<i>R</i>)-2,3-dichloropentane. Which of structures I–III are diastereomers of <b>A</b>?",
+  "s": [
+   {
+    "smi": "C[C@@H](Cl)[C@H](Cl)CC",
+    "cap": "A"
+   },
+   {
+    "smi": "CC[C@H](Cl)[C@@H](C)Cl",
+    "cap": "I"
+   },
+   {
+    "smi": "C[C@H](Cl)[C@H](Cl)CC",
+    "cap": "II"
+   },
+   {
+    "smi": "CC[C@H](Cl)[C@H](C)Cl",
+    "cap": "III",
+    "flip": true
+   }
+  ],
+  "c": [
+   "I and II only",
+   "I only",
+   "II only",
+   "I, II, and III"
+  ],
+  "h": "Assign R/S to C2 and C3 in each structure, being careful where the chain is drawn in a different direction. Diastereomers differ at some, but not all, centers.",
+  "w": "Assigning each center: I is (2<i>R</i>,3<i>S</i>), II is (2<i>S</i>,3<i>R</i>) and III is (2<i>S</i>,3<i>S</i>). <br>I is a diastereomer of A: only C3 differs. <br>II is a diastereomer of A: only C2 differs. (I and II are enantiomers of each other, but each is a diastereomer of A.) <br>III is not a diastereomer: both centers are inverted, so it is the enantiomer of A. <br>Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "II is also a diastereomer: it is (2<i>S</i>,3<i>R</i>), differing from A at C2 only.",
+   "I is also a diastereomer: it is (2<i>R</i>,3<i>S</i>), differing from A at C3 only.",
+   "III is (2<i>S</i>,3<i>S</i>): both centers differ from A, so it is A's enantiomer, not a diastereomer."
+  ]
+ },
+ {
+  "id": "rn1-25",
+  "t": "stereo",
+  "d": 1,
+  "k": 0,
+  "q": "Which statements about optical activity are correct?<br>I. A compound with the (<i>R</i>) configuration always rotates plane-polarized light clockwise (+).<br>II. A racemic mixture shows no net optical rotation.<br>III. A pair of diastereomers has identical boiling points and solubilities.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "R/S is a naming rule; the sign of rotation is measured. Which kind of stereoisomers share all physical properties?",
+  "w": "I is false: <i>R</i>/<i>S</i> comes from the CIP priority rules and has no fixed link to the sign of rotation, which must be measured; some <i>R</i> compounds are (+) and others (−). <br>II is true: a racemic mixture contains equal amounts of two enantiomers, whose equal and opposite rotations cancel. <br>III is false: diastereomers are not mirror images, so they generally differ in boiling point, solubility and other physical properties (which is why they can be separated by ordinary methods). Only enantiomers share these properties. <br>Answer: <b>II only</b>.",
+  "x": [
+   "",
+   "I is false: the CIP label does not predict the sign of rotation; an <i>R</i> compound can be levorotatory.",
+   "III is false: diastereomers have different physical properties; only enantiomers have identical boiling points and solubilities (in achiral solvents).",
+   "Only II is true. The R/S label does not set the sign of rotation, and diastereomers differ in physical properties."
+  ]
+ }
+]

@@ -1,0 +1,2023 @@
+[
+ {
+  "id": "mech2-01",
+  "d": 1,
+  "q": "Hydroxide converts acetone into its enolate. Which drawing shows correct curved arrows for this proton-transfer step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH-:51].[H:52][CH2:53][C:54](C)=[O:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       52
+      ],
+      "to": [
+       53,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].[H:52][CH2:53][C:54](C)=[O:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       52
+      ],
+      "to": [
+       53,
+       54
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].[H:52][CH2:53][C:54](C)=[O:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].[H:52][CH2:53][C:54](C)=[O:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       52
+      ],
+      "to": [
+       53,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 54
+     }
+    ]
+   }
+  ],
+  "h": "Three bonds change: a new O–H bond, a new C=C, and the C=O π bond. Each arrow starts at electrons and ends where they go.",
+  "w": "Enolate formation is an acid–base step. The hydroxide lone pair takes the α-hydrogen, the C–H bonding electrons become the new C=C π bond, and the C=O π electrons move onto oxygen so the carbonyl carbon keeps four bonds. <b>The three-arrow drawing (O⁻ → H, C–H → C=C, C=O → O)</b> is correct and gives the enolate with the negative charge on oxygen.",
+  "x": [
+   "",
+   "The C=O π bond is never moved, so the carbonyl carbon would end up with five bonds once the new C=C forms.",
+   "Hydroxide adding to the carbonyl carbon is nucleophilic addition (hydrate formation), not removal of an α-hydrogen; no enolate forms.",
+   "The C=O π electrons are sent to carbon instead of oxygen, which would push the carbonyl carbon past an octet and leave oxygen electron-deficient; the π electrons should flow toward the electronegative oxygen."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-02",
+  "d": 2,
+  "q": "In acid-catalyzed keto–enol tautomerization of acetone, the carbonyl oxygen is protonated first. Which drawing correctly shows the second step, in which water converts the protonated ketone into the enol?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH2:51].[H:52][CH2:53][C:54](C)=[O+:55][H:56]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       52
+      ],
+      "to": [
+       53,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].[H:52][CH2:53][C:54](C)=[O+:55][H:56]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 56
+     },
+     {
+      "from": [
+       55,
+       56
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].[H:52][CH2:53][C:54](C)=[O+:55][H:56]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].[H:52][CH2:53][C:54](C)=[O+:55][H:56]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       52
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "The enol has a C=C and an O–H. Which hydrogen must water remove, and where must the C–H electrons go so that no carbanion appears in acid?",
+  "w": "In acid, the enol forms by loss of an <i>α</i>-hydrogen from the O-protonated ketone. Water takes the α-H, the C–H electrons form the C=C, and the C=O π electrons return to the positive oxygen, which becomes the neutral OH of the enol. <b>The drawing in which water removes the α-H and the C=O π bond moves onto O⁺</b> is correct. No carbanion is ever formed under acidic conditions.",
+  "x": [
+   "",
+   "Removing the O–H proton just reverses step 1 and gives back acetone; no C=C forms.",
+   "Water adding to the carbonyl carbon gives the hydrate (a gem-diol pathway), not the enol.",
+   "Leaving the C–H electrons on carbon creates a carbanion next to an oxonium ion. In acid the C–H electrons move straight into the C=C as the C=O π bond moves to O⁺."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-03",
+  "d": 2,
+  "q": "2-Methylcyclohexanone is treated with LDA in THF at −78 °C. Which drawing shows correct arrows for the enolate-forming step under these conditions?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)[N-:51]C(C)C.[O:55]=[C:54]1[CH:53]([H:52])CCC[C:58]1([H:59])C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       52
+      ],
+      "to": [
+       53,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "CC(C)[N-:51]C(C)C.[O:55]=[C:54]1[CH:53]([H:52])CCC[C:58]1([H:59])C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 59
+     },
+     {
+      "from": [
+       58,
+       59
+      ],
+      "to": [
+       58,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "CC(C)[N-:51]C(C)C.[O:55]=[C:54]1[CH:53]([H:52])CCC[C:58]1([H:59])C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "CC(C)[N-:51]C(C)C.[O:55]=[C:54]1[CH:53]([H:52])CCC[C:58]1([H:59])C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       52
+      ],
+      "to": [
+       53,
+       54
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "LDA is a very strong, very bulky base and the reaction is cold and irreversible. Which α-hydrogen can it reach fastest, and does it ever add to C=O?",
+  "w": "LDA deprotonates irreversibly at −78 °C, so the enolate that forms <i>fastest</i> (kinetic control) is the one obtained. The bulky amide removes a hydrogen from the less hindered α-CH<sub>2</sub> (C6), not from the methyl-bearing C2. <b>The drawing in which N⁻ takes an H from the unsubstituted α-CH<sub>2</sub>, with the C–H electrons forming C=C and the C=O π bond moving to O</b> is correct; it gives the less substituted enolate.",
+  "x": [
+   "",
+   "Removing the H on the methyl-bearing carbon gives the more substituted (thermodynamic) enolate, which forms under equilibrating conditions such as NaOEt/EtOH, not with LDA at −78 °C.",
+   "LDA is too hindered to add to a carbonyl carbon; it acts only as a base.",
+   "The correct hydrogen is removed, but without moving the C=O π bond the carbonyl carbon would have five bonds."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-04",
+  "d": 2,
+  "q": "The lithium enolate of acetone reacts with iodomethane to give butan-2-one. Which drawing correctly shows the C–C bond-forming step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[O-:51][C:52](C)=[CH2:53].[CH3:54][I:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[O-:51][C:52](C)=[CH2:53].[CH3:54][I:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[O-:51][C:52](C)=[CH2:53].[CH3:54][I:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[O-:51][C:52](C)=[CH2:53].[CH3:54][I:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 55
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 54
+     }
+    ]
+   }
+  ],
+  "h": "The product has a new C–C bond to the α-carbon and a C=O. This is an S<sub>N</sub>2 step: what must happen at the carbon that is attacked?",
+  "w": "The enolate reacts through its α-carbon. The oxygen lone pair re-forms the C=O, the C=C π electrons attack the CH<sub>3</sub> carbon, and iodide leaves in the same S<sub>N</sub>2 step. <b>The three-arrow drawing ending with the C–I bond moving onto iodine</b> gives butan-2-one.",
+  "x": [
+   "",
+   "Attack through oxygen gives the enol ether 2-methoxypropene (O-alkylation), not butan-2-one; with lithium enolates and CH<sub>3</sub>I, C-alkylation dominates.",
+   "Without the C–I bond breaking, the CH<sub>3</sub> carbon would have five bonds; S<sub>N</sub>2 needs the leaving-group arrow.",
+   "The π electrons are aimed at iodine instead of carbon, and the C–I electrons are sent to carbon; this would make a C–I bond and a methyl anion, not alkylation."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-05",
+  "d": 1,
+  "q": "In the aldol addition of acetaldehyde, the enolate adds to a second molecule of acetaldehyde. Which drawing correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[O-:51][CH:52]=[CH2:53].[O:55]=[CH:54]C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[O-:51][CH:52]=[CH2:53].[O:55]=[CH:54]C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[O-:51][CH:52]=[CH2:53].[O:55]=[CH:54]C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[O-:51][CH:52]=[CH2:53].[O:55]=[CH:54]C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 54,
+      "to": 53
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": [
+       51,
+       52
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "Arrows run from the nucleophile to the electrophile. Which atom of the enolate forms the new C–C bond, and what happens to the aldehyde's C=O?",
+  "w": "The enolate is the nucleophile and reacts through its α-carbon: the O⁻ lone pair re-forms the C=O, the C=C electrons attack the aldehyde carbonyl carbon, and the aldehyde's C=O π electrons move onto its oxygen. <b>The three-arrow drawing ending on the aldehyde oxygen</b> gives the alkoxide of 3-hydroxybutanal.",
+  "x": [
+   "",
+   "Attack through the enolate oxygen would make a C–O bond (a hemiacetal-type alkoxide), not the aldol C–C bond.",
+   "The aldehyde C=O π bond is not moved, so the carbonyl carbon would have five bonds after the new C–C bond forms.",
+   "The arrows run backward, from the electrophilic carbonyl carbon toward the enolate; arrows must start at the electron-rich enolate."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-06",
+  "d": 3,
+  "q": "In aqueous NaOH, 4-hydroxy-4-methylpentan-2-one dehydrates to 4-methylpent-3-en-2-one by the E1cB mechanism. Which drawing correctly shows the step that forms the C=C?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:52]([O-:51])=[CH:53][C:54](C)(C)[OH:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": [
+       53,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:61].C[C:52](=[O:51])[CH:53]([H:62])[C:54](C)(C)[OH:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 61,
+      "to": 62
+     },
+     {
+      "from": [
+       53,
+       62
+      ],
+      "to": [
+       53,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "C[C:52](=[O:51])[CH2:53][C:54](C)(C)[OH:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "C[C:52]([O-:51])=[CH:53][C:54](C)(C)[OH:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": [
+       53,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 54
+     }
+    ]
+   }
+  ],
+  "h": "E1cB means elimination through the <i>conjugate base</i>: which species is present before the leaving group departs, and why can hydroxide leave from it?",
+  "w": "In E1cB the α-hydrogen is removed first, giving the enolate (the conjugate base). In a separate step the enolate pushes its electrons toward the β-carbon and expels hydroxide: O⁻ re-forms the C=O, the C=C π electrons shift to make the new C<sub>α</sub>=C<sub>β</sub> bond, and the C–OH bond breaks onto oxygen. <b>The drawing that starts from the enolate and ejects OH⁻</b> is correct. Hydroxide is normally a poor leaving group; it leaves here only because the enolate is a strong internal push and the product is a conjugated enone.",
+  "x": [
+   "",
+   "This is a concerted E2 drawing on the neutral β-hydroxy ketone. Under E1cB, deprotonation and loss of OH⁻ are separate steps, with the enolate as an intermediate.",
+   "This shows ionization to a tertiary carbocation (E1). In base, hydroxide does not leave on its own from a neutral alcohol.",
+   "The C–O electrons are sent to carbon instead of oxygen; the leaving group must take the bonding pair with it as OH⁻."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-07",
+  "d": 2,
+  "q": "In the Claisen condensation of ethyl acetate, the ester enolate adds to a second ester molecule to give the tetrahedral intermediate shown. Which drawing correctly shows the step that forms ethyl acetoacetate?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(=O)[CH2:57][C:54]([CH3:58])([O-:55])[O:56]CC",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 55,
+      "to": [
+       55,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       56
+      ],
+      "to": 56
+     }
+    ]
+   },
+   {
+    "smi": "CCOC(=O)[CH2:57][C:54]([CH3:58])([O-:55])[O:56]CC",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 55,
+      "to": [
+       55,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       58
+      ],
+      "to": 58
+     }
+    ]
+   },
+   {
+    "smi": "CCOC(=O)[CH2:57][C:54]([CH3:58])([O-:55])[O:56]CC",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 55,
+      "to": [
+       55,
+       54
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "CCOC(=O)[CH2:57][C:54]([CH3:58])([O-:55])[O:56]CC",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 55,
+      "to": [
+       55,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       57
+      ],
+      "to": 57
+     }
+    ]
+   }
+  ],
+  "h": "Nucleophilic acyl substitution: the C=O re-forms and the best leaving group on that carbon departs. Compare CH<sub>3</sub>⁻, an ester enolate and ethoxide.",
+  "w": "The alkoxide oxygen re-forms the C=O, and the carbon must lose one group to keep four bonds. The best leaving group is ethoxide (conjugate acid pK<sub>a</sub> ≈ 16). <b>The drawing that expels CH<sub>3</sub>CH<sub>2</sub>O⁻</b> gives ethyl acetoacetate.",
+  "x": [
+   "",
+   "Expelling CH<sub>3</sub>⁻ (conjugate acid pK<sub>a</sub> ≈ 50) is far too unfavorable; carbanions without stabilization are not leaving groups.",
+   "Re-forming the C=O with no bond breaking would give the carbon five bonds.",
+   "Expelling the ester enolate is the reverse of the addition step; it returns two molecules of ethyl acetate rather than the β-keto ester."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-08",
+  "d": 3,
+  "q": "The last step before acid workup in a Claisen condensation is deprotonation of the β-keto ester product by ethoxide, which pulls the whole equilibrium toward product. Which drawing correctly shows this step for ethyl acetoacetate?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC[O-:51].[H:56][CH2:57][C:54](=[O:55])[CH:53]([H:52])[C:59](=[O:60])OCC",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       52
+      ],
+      "to": [
+       53,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:56][CH2:57][C:54](=[O:55])[CH:53]([H:52])[C:59](=[O:60])OCC",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 56
+     },
+     {
+      "from": [
+       57,
+       56
+      ],
+      "to": [
+       57,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:56][CH2:57][C:54](=[O:55])[CH:53]([H:52])[C:59](=[O:60])OCC",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 59
+     },
+     {
+      "from": [
+       59,
+       60
+      ],
+      "to": 60
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:56][CH2:57][C:54](=[O:55])[CH:53]([H:52])[C:59](=[O:60])OCC",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       52
+      ],
+      "to": [
+       53,
+       54
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "Find the hydrogen whose removal gives an anion delocalized over two carbonyl groups. Compare its pK<sub>a</sub> with that of ethanol.",
+  "w": "The CH<sub>2</sub> between the two carbonyls has pK<sub>a</sub> ≈ 11, far more acidic than ethanol (≈ 16), so ethoxide removes it essentially completely; this favorable step drives the reversible Claisen equilibria forward. The C–H electrons form a C=C to the ketone carbon and the ketone C=O π electrons move onto oxygen (the charge is also shared with the ester C=O). <b>The drawing in which ethoxide removes an H from the central CH<sub>2</sub> and the ketone C=O moves to O</b> is correct.",
+  "x": [
+   "",
+   "The terminal CH<sub>3</sub> hydrogens are α to only one carbonyl (pK<sub>a</sub> ≈ 20). Ethoxide removes them only to a tiny extent, so this cannot drive the reaction.",
+   "Ethoxide adding to the ethyl ester carbonyl only exchanges OEt for OEt (degenerate transesterification); it is not the driving deprotonation.",
+   "The correct hydrogen is taken, but the ketone C=O π bond is not moved, leaving the ketone carbon with five bonds."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-09",
+  "d": 3,
+  "q": "3-Oxobutanoic acid loses CO<sub>2</sub> on gentle warming through a cyclic, six-membered transition state that gives the enol of acetone. Which drawing correctly shows the arrows for this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:54](=[O:55])[CH2:53][C:52](=[O:51])[O:57][H:56]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 56
+     },
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": [
+       57,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": [
+       53,
+       54
+      ]
+     }
+    ],
+    "layout": [
+     [
+      55,
+      56
+     ]
+    ]
+   },
+   {
+    "smi": "C[C:54](=[O:55])[CH2:53][C:52](=[O:51])[O:57][H:56]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 56
+     },
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": [
+       57,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ],
+    "layout": [
+     [
+      55,
+      56
+     ]
+    ]
+   },
+   {
+    "smi": "C[C:54](=[O:55])[CH2:53][C:52](=[O:51])[O:57][H:56]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 56
+     },
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": [
+       57,
+       52
+      ]
+     }
+    ],
+    "layout": [
+     [
+      55,
+      56
+     ]
+    ]
+   },
+   {
+    "smi": "[O:51]=[C:52]=[O:57].[CH2:53]=[C:54](C)[O:55][H:56]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       57
+      ],
+      "to": 57
+     },
+     {
+      "from": 57,
+      "to": 56
+     },
+     {
+      "from": [
+       56,
+       55
+      ],
+      "to": [
+       55,
+       54
+      ]
+     }
+    ],
+    "layout": [
+     [
+      55,
+      56
+     ]
+    ]
+   }
+  ],
+  "h": "Six atoms form the transition-state ring. Three bonds break (O–H, C–C, C=O π) and three form. Where do the electrons of the breaking C–C bond end up?",
+  "w": "Three pairs of electrons move around the ring at once: the ketone C=O π electrons bond to the acid hydrogen, the O–H bonding pair becomes the second C=O of CO<sub>2</sub>, and the C–C bond to the carboxyl carbon becomes the C=C of the enol. <b>The three-arrow drawing that ends with the C–C bond forming the enol C=C</b> is correct; the enol then tautomerizes to acetone.",
+  "x": [
+   "",
+   "The C–C bond electrons are sent onto the carboxyl carbon, which is already gaining a C=O π bond and would exceed its octet, while the CH<sub>2</sub> and former ketone carbons are left electron-deficient; those electrons must form the enol C=C.",
+   "The C–C bond never breaks, so the carboxyl carbon would carry five bonds and no CO<sub>2</sub> would be released.",
+   "These arrows run backward: they show an enol adding to CO<sub>2</sub> (carboxylation), the reverse of the decarboxylation."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-10",
+  "d": 2,
+  "q": "In base-promoted α-bromination of acetone, the enolate reacts with Br<sub>2</sub>. Which drawing correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[O-:51][C:52](C)=[CH2:53].[Br:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[O-:51][C:52](C)=[CH2:53].[Br:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[O-:51][C:52](C)=[CH2:53].[Br:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 54,
+      "to": 53
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[O-:51][C:52](C)=[CH2:53].[Br:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 54
+     }
+    ]
+   }
+  ],
+  "h": "Br<sub>2</sub> is the electrophile. Which atom of the enolate makes the new bond to Br, and which bromine leaves as bromide?",
+  "w": "The enolate attacks through carbon: the O⁻ lone pair re-forms the C=O, the C=C electrons bond to the near bromine, and the Br–Br electrons leave on the far bromine as Br⁻. <b>The three-arrow drawing ending on the distant bromine</b> gives bromoacetone.",
+  "x": [
+   "",
+   "Attack through oxygen would give an O–Br compound (a hypobromite of the enol), not the α-bromo ketone.",
+   "The arrow starts at a bromine lone pair and ends at the enolate carbon, treating Br<sub>2</sub> as the nucleophile; arrows start at the enolate.",
+   "The Br–Br electrons are sent to the bromine that is forming the new C–Br bond, giving it too many electrons; they must go to the bromine that leaves."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-11",
+  "d": 2,
+  "q": "In a Stork enamine alkylation, the pyrrolidine enamine of cyclohexanone reacts with iodomethane; hydrolysis later gives 2-methylcyclohexanone. Which drawing correctly shows the C–C bond-forming step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1CC[N:51](C1)[C:52]1=[CH:53]CCCC1.[CH3:54][I:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "C1CC[N:51](C1)[C:52]1=[CH:53]CCCC1.[CH3:54][I:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "C1CC[N:51](C1)[C:52]1=[CH:53]CCCC1.[CH3:54][I:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "C1CC[N:51](C1)[C:52]1=[CH:53]CCCC1.[CH3:54][I:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 54,
+      "to": 53
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "h": "An enamine is an enolate equivalent: the nitrogen lone pair plays the role of O⁻. Which carbon bonds to CH<sub>3</sub>, and what leaves?",
+  "w": "The nitrogen lone pair pushes into the C–N bond (forming an iminium C=N⁺), the C=C electrons attack the CH<sub>3</sub> carbon, and iodide leaves (S<sub>N</sub>2). <b>The three-arrow drawing from N through the C=C to CH<sub>3</sub>, with I⁻ leaving</b> is correct; the α-methyl iminium ion is later hydrolyzed to 2-methylcyclohexanone.",
+  "x": [
+   "",
+   "Attack by the nitrogen lone pair gives an N-methyl ammonium salt; it does not form the C–C bond needed for 2-methylcyclohexanone.",
+   "The C–I bond is not broken, so the CH<sub>3</sub> carbon would have five bonds.",
+   "The arrow starts at the CH<sub>3</sub> carbon, which has no lone pair; the electrophile receives electrons and never donates them."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-12",
+  "d": 3,
+  "q": "The arrows convert the cyclohexanone enolate into its other resonance form. The enolate is then treated with chlorotrimethylsilane, (CH<sub>3</sub>)<sub>3</sub>SiCl. Which statement correctly describes the new bond and why it forms?",
+  "s": [
+   {
+    "smi": "[O-:51][C:52]1=[CH:53]CCCC1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   "↔",
+   {
+    "smi": "O=C1[CH-]CCCC1",
+    "lp": true
+   }
+  ],
+  "c": [
+   "An Si–O bond forms, giving a silyl enol ether: oxygen carries most of the negative charge and the Si–O bond is very strong",
+   "An Si–C bond forms at the α-carbon, because the carbanion form is the major resonance contributor",
+   "An Si–C bond forms, because carbon is less electronegative and C–Si bonds are stronger than Si–O bonds",
+   "An Si–O bond forms, because enolates react through oxygen with all electrophiles, including CH<sub>3</sub>I"
+  ],
+  "h": "The enolate has two nucleophilic atoms. Which resonance form carries more of the charge, and how strong is an Si–O bond compared with an Si–C bond?",
+  "w": "An enolate is an ambident nucleophile. The major resonance contributor puts the negative charge on the more electronegative oxygen (the form on the left), and silicon forms a very strong bond to oxygen (Si–O ≈ 450 kJ/mol, much stronger than Si–C). Hard, oxophilic electrophiles such as R<sub>3</sub>SiCl therefore react at oxygen. <b>An Si–O bond forms, giving the trimethylsilyl enol ether of cyclohexanone.</b>",
+  "x": [
+   "",
+   "The carbanion form, with the charge on the less electronegative carbon, is the minor contributor, and silicon prefers oxygen.",
+   "Si–O bonds are much stronger than Si–C bonds; the strong Si–O bond is a main reason the reaction occurs at oxygen.",
+   "With CH<sub>3</sub>I (a soft carbon electrophile) enolates react mainly at carbon; O-attack is specific to hard electrophiles such as silyl chlorides."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-13",
+  "d": 2,
+  "q": "The step drawn is the C–C bond-forming step of a Michael addition between the diethyl malonate anion and but-3-en-2-one (methyl vinyl ketone). What species is formed <i>directly</i> in this step?",
+  "s": [
+   {
+    "smi": "CCOC(=O)[CH-:52]C(=O)OCC.[CH2:53]=[CH:54][C:55](C)=[O:56]",
+    "lp": [
+     52,
+     56
+    ],
+    "arrows": [
+     {
+      "from": 52,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": [
+       54,
+       55
+      ]
+     },
+     {
+      "from": [
+       55,
+       56
+      ],
+      "to": 56
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(=O)C(CC=C([O-])C)C(=O)OCC"
+   },
+   {
+    "smi": "CCOC(=O)C(C(=O)OCC)C([O-])(C)C=C"
+   },
+   {
+    "smi": "CCOC(=O)C(C(=O)OCC)C([CH2-])C(C)=O"
+   },
+   {
+    "smi": "CCOC(=O)C(CCC(C)=O)C(=O)OCC"
+   }
+  ],
+  "h": "Follow each arrow: where does the new C–C bond form, where does the new π bond appear, and which atom ends up with the lone pair?",
+  "w": "The malonate carbanion attacks the β-carbon (the terminal CH<sub>2</sub>) of the enone; the C=C electrons shift to make a new C=C between the α-carbon and the carbonyl carbon, and the C=O π electrons move onto oxygen. <b>The product of this step is an enolate</b> (1,4-addition), which is protonated afterward.",
+  "x": [
+   "",
+   "This alkoxide comes from attack at the carbonyl carbon (1,2-addition); the arrows show attack at the β-carbon.",
+   "This puts the new bond at the α-carbon of the enone and a carbanion on the end carbon; the arrows put the bond on the β-carbon and the charge on oxygen.",
+   "This neutral 1,5-dicarbonyl compound forms only after a later proton transfer to the enolate; it is not the direct product of the drawn step."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-14",
+  "d": 2,
+  "q": "In the haloform reaction of acetophenone, hydroxide adds to PhCOCBr<sub>3</sub>, and the tetrahedral intermediate then collapses as drawn, expelling a carbon leaving group. Why can <sup>−</sup>CBr<sub>3</sub> leave here, when the tetrahedral intermediate from an ordinary methyl ketone does not expel <sup>−</sup>CH<sub>3</sub>?",
+  "s": [
+   {
+    "smi": "[O-:52][C:51](O)(c1ccccc1)[C:53](Br)(Br)Br",
+    "lp": [
+     52
+    ],
+    "arrows": [
+     {
+      "from": 52,
+      "to": [
+       52,
+       51
+      ]
+     },
+     {
+      "from": [
+       51,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "c": [
+   "Three bromines stabilize the carbanion inductively, so <sup>−</sup>CBr<sub>3</sub> is a far weaker base than <sup>−</sup>CH<sub>3</sub> (CHBr<sub>3</sub> pK<sub>a</sub> ≈ 14 vs. CH<sub>4</sub> ≈ 50)",
+   "The negative charge of <sup>−</sup>CBr<sub>3</sub> is delocalized by resonance into the C=O of benzoic acid",
+   "The C–CBr<sub>3</sub> bond breaks homolytically, so no carbanion has to form",
+   "Steric strain from three large bromines weakens the C–C bond, whatever the stability of the anion"
+  ],
+  "h": "A good leaving group is a weak base. Compare the acidity of CHBr<sub>3</sub> with that of CH<sub>4</sub>.",
+  "w": "Leaving-group ability tracks the stability (weak basicity) of the departing anion. The three electronegative bromines pull electron density away from the carbanion carbon, so bromoform is about as acidic as water (pK<sub>a</sub> ≈ 14), while methane is around 50. <b><sup>−</sup>CBr<sub>3</sub> is a weak enough base to leave</b>, and the step is then pulled forward by proton transfer from benzoic acid to the anion, giving benzoate and CHBr<sub>3</sub>.",
+  "x": [
+   "",
+   "Once <sup>−</sup>CBr<sub>3</sub> has left it is no longer attached to the carbonyl, so there is no resonance with the C=O; its stability comes from induction by the bromines.",
+   "The arrows show a full (two-electron) arrow from the C–C bond onto CBr<sub>3</sub>; this is a heterolytic, ionic step in aqueous base.",
+   "Steric strain alone does not let a strongly basic anion leave; <sup>−</sup>CH<sub>3</sub> is not expelled however crowded the carbon is. Anion stability is the deciding factor."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-15",
+  "d": 2,
+  "q": "The rate of acid-catalyzed bromination of acetone follows rate = <i>k</i>[acetone][H<sub>3</sub>O<sup>+</sup>]: it does not depend on [Br<sub>2</sub>], and chlorination and iodination run at the same rate. Which statement about the step drawn (the enol attacking Br<sub>2</sub>) is correct?",
+  "s": [
+   {
+    "smi": "[OH:51][C:52](C)=[CH2:53].[Br:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "c": [
+   "It is fast; the slow step is removal of an α-hydrogen from the O-protonated ketone to form the enol",
+   "It is the rate-determining step, so the rate law should be rate = <i>k</i>[enol][Br<sub>2</sub>]",
+   "It is fast; the slow step is protonation of the carbonyl oxygen by H<sub>3</sub>O<sup>+</sup>",
+   "It is the rate-determining step, but Br<sub>2</sub> is regenerated, so [Br<sub>2</sub>] cancels from the rate law"
+  ],
+  "h": "If halogen concentration and identity do not affect the rate, the halogen must enter after the slow step. Which earlier step involves both the ketone and acid?",
+  "w": "Because the rate is independent of [Br<sub>2</sub>] and of which halogen is used, the halogen reacts only after the rate-determining step. Protonation of the carbonyl oxygen is a fast equilibrium; the slow step is loss of an α-H from the protonated ketone to give the enol. The drawn step, the enol attacking Br<sub>2</sub>, is fast. <b>Enol formation (α-C–H removal) is rate-determining, and the drawn step is fast.</b>",
+  "x": [
+   "",
+   "If this step were slow, the rate would depend on [Br<sub>2</sub>] and on the halogen used, which the data rule out.",
+   "Proton transfer between oxygen atoms is very fast; the slow proton transfer is the one from carbon (the α-C–H).",
+   "Br<sub>2</sub> is consumed (it becomes C–Br and HBr), not regenerated; a step involving Br<sub>2</sub> that is slow would put [Br<sub>2</sub>] in the rate law."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-16",
+  "d": 3,
+  "q": "In the second stage of a Robinson annulation, the enolate of 2-(3-oxobutyl)cyclohexanone cyclizes as drawn. What is formed <i>directly</i> in this step?",
+  "s": [
+   {
+    "smi": "[O:56]=[C:55]1CCCCC1CC[C:52](=[CH2:53])[O-:51]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 55
+     },
+     {
+      "from": [
+       55,
+       56
+      ],
+      "to": 56
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[O-]C12CCCCC1CCC(=O)C2"
+   },
+   {
+    "smi": "[O-]C12CCCCC1CC2C(C)=O"
+   },
+   {
+    "smi": "O=C1CCC2CCCCC2=C1"
+   },
+   {
+    "smi": "[O-]C12CCCCC1CCC(=C)O2"
+   }
+  ],
+  "h": "Count the atoms in the new ring, from the attacking CH<sub>2</sub> to the ring C=O carbon. How many are there, and where is the negative charge afterward?",
+  "w": "The terminal CH<sub>2</sub> of the enolate attacks the ring carbonyl carbon. The new ring contains that CH<sub>2</sub>, the side-chain C=O carbon, two CH<sub>2</sub> groups, the ring CH and the former ring carbonyl carbon: six atoms. The ring C=O π electrons end on oxygen. <b>The bicyclic β-alkoxy ketone (a fused six/six ring alkoxide)</b> is formed; protonation and E1cB dehydration later give the octalone enone.",
+  "x": [
+   "",
+   "A four-membered ring would form only if the internal CH<sub>2</sub> (next to the side-chain C=O) attacked; the arrows start at the terminal CH<sub>2</sub>, and a strained four-membered ring is disfavored anyway.",
+   "This enone is the final Robinson product, formed after protonation and dehydration; it is not the direct product of the C–C bond-forming step.",
+   "This would come from the enolate oxygen attacking the C=O (a cyclic enol ether); the arrows show carbon attacking."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-17",
+  "d": 3,
+  "q": "Diethyl 2-methylhexanedioate is treated with one equivalent of NaOEt in ethanol, then with dilute aqueous acid. What is the major product (ignore stereochemistry)?",
+  "s": [
+   {
+    "smi": "CCOC(=O)C(C)CCCC(=O)OCC"
+   },
+   {
+    "arrow": "1. NaOEt, EtOH",
+    "below": "2. H<sub>3</sub>O<sup>+</sup> (cold)"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(=O)C1CCC(C)C1=O"
+   },
+   {
+    "smi": "CCOC(=O)C1(C)CCCC1=O"
+   },
+   {
+    "smi": "CC1CCC(=O)C1C(=O)OCC"
+   },
+   {
+    "smi": "CC1CCCC1=O"
+   }
+  ],
+  "h": "Two enolates can cyclize, but every step before the last is reversible. Which cyclized β-keto ester still has a hydrogen between its two carbonyl groups for ethoxide to remove?",
+  "w": "Either α-carbon could attack the other ester, and both pathways give a five-membered ring. The Dieckmann (like the Claisen) is reversible until the product is deprotonated at the carbon between the two C=O groups. If the methyl-bearing carbon attacked, that carbon would become quaternary with no H to remove, so that product reverts. Enolization at the unsubstituted CH<sub>2</sub> and attack on the other ester gives a product with an acidic C–H between the carbonyls, which is trapped as its enolate. <b>Ethyl 3-methyl-2-oxocyclopentane-1-carboxylate</b> is formed after acidification.",
+  "x": [
+   "",
+   "This product has no hydrogen between its two carbonyls, so the final deprotonation that drives the Dieckmann cannot occur and it reverts to the diester.",
+   "Here the methyl is on the ring carbon next to the CH(CO<sub>2</sub>Et) rather than next to the ketone; that pattern would come from a 3-methyl diester, not this one.",
+   "Loss of the ester (hydrolysis and decarboxylation) needs heating in aqueous acid; cold, dilute acid only protonates the enolate."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-18",
+  "d": 1,
+  "q": "When acetone and benzaldehyde are mixed with NaOH, the main C–C bond-forming step is the one drawn. Why does acetone's enolate add to benzaldehyde rather than to another acetone molecule?",
+  "s": [
+   {
+    "smi": "[O-:51][C:52](C)=[CH2:53].[O:55]=[CH:54]c1ccccc1",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "c": [
+   "An aldehyde C=O is more electrophilic than a ketone C=O, and benzaldehyde has no α-H, so it can serve only as the electrophile",
+   "Benzaldehyde forms a more stable enolate than acetone, so it is the better nucleophile",
+   "Acetone's C=O is too hindered for any nucleophile to add to it",
+   "The phenyl ring donates electrons to the enolate and makes it more nucleophilic"
+  ],
+  "h": "Compare the two carbonyl compounds as electrophiles, and ask which of them can form an enolate at all.",
+  "w": "Aldehydes are more reactive electrophiles than ketones (less steric hindrance, only one electron-donating alkyl group), so the acetone enolate attacks benzaldehyde faster than acetone. Benzaldehyde has no α-hydrogen and cannot form an enolate, so the only productive combination is acetone enolate + benzaldehyde. <b>Benzaldehyde is the better electrophile and can act only as the electrophile.</b>",
+  "x": [
+   "",
+   "Benzaldehyde has no α-hydrogen, so it cannot form an enolate at all.",
+   "Acetone does undergo aldol addition with its own enolate; it is simply slower and the equilibrium is unfavorable compared with addition to the aldehyde.",
+   "The phenyl ring belongs to the electrophile, not the enolate, so it cannot donate electrons to the nucleophile."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-19",
+  "d": 2,
+  "q": "The drawing shows the C–C bond-forming step of the acid-catalyzed aldol reaction of acetaldehyde. Which statement correctly identifies the nucleophile and the electrophile?",
+  "s": [
+   {
+    "smi": "[OH:51][CH:52]=[CH2:53].[OH+:55]=[CH:54]C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "c": [
+   "The neutral enol is the nucleophile, reacting through its α-carbon; the O-protonated aldehyde is the electrophile",
+   "The enolate ion is the nucleophile; the neutral aldehyde is the electrophile",
+   "The O-protonated aldehyde is the nucleophile; the enol is the electrophile",
+   "The enol is the nucleophile, reacting through its oxygen; the O-protonated aldehyde is the electrophile"
+  ],
+  "h": "In acid, which carbonyl-derived species exists in small amounts, and which carbonyl has been made more electrophilic? Follow the middle arrow.",
+  "w": "Acid gives two activated species: the enol (a weak, neutral nucleophile) and the O-protonated aldehyde (a strong electrophile). The arrows start at the enol O lone pair and C=C and end at the protonated carbonyl carbon, with the C=O<sup>+</sup> π electrons moving onto oxygen. <b>The neutral enol attacks through carbon, and the protonated aldehyde is the electrophile.</b>",
+  "x": [
+   "",
+   "Enolate ions do not form in appreciable amounts in acid; this describes the base-catalyzed aldol.",
+   "The roles are reversed: arrows start at the electron-rich enol and end at the positively charged carbonyl carbon.",
+   "The O lone pair pushes into the C–O bond, but the new bond is made by the α-carbon of the enol; an O-attack would give an acetal-type C–O bond."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-20",
+  "d": 2,
+  "q": "In base-promoted bromination of acetone, bromoacetone is deprotonated as drawn, at the CH<sub>2</sub>Br carbon rather than at the CH<sub>3</sub> group, and it does so faster than acetone itself. Why?",
+  "s": [
+   {
+    "smi": "[OH-:51].[H:52][CH:53](Br)[C:54](=[O:55])C",
+    "lp": [
+     51,
+     55
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       52
+      ],
+      "to": [
+       53,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "c": [
+   "The electronegative bromine withdraws electron density inductively and stabilizes the enolate, making the CH<sub>2</sub>Br hydrogens more acidic",
+   "Bromine donates lone-pair electrons by resonance and stabilizes the negative charge",
+   "The CH<sub>3</sub> hydrogens of bromoacetone are not α to the carbonyl group",
+   "Bromine's size blocks the CH<sub>3</sub> group, so hydroxide can reach only the CH<sub>2</sub>Br hydrogens"
+  ],
+  "h": "Consider how a halogen affects the stability of a nearby negative charge.",
+  "w": "Bromine is electronegative, so it pulls electron density through the σ bond and stabilizes the developing negative charge on the adjacent carbon. The CH<sub>2</sub>Br hydrogens are therefore more acidic than the CH<sub>3</sub> hydrogens or acetone's own α-H. <b>Inductive withdrawal by Br makes the CH<sub>2</sub>Br protons more acidic</b>, so each bromination speeds up the next, and the same carbon is brominated three times (the start of the haloform reaction).",
+  "x": [
+   "",
+   "Lone-pair donation would put more electron density on a carbon that already carries negative charge, which destabilizes the anion; bromine's effect here is inductive withdrawal.",
+   "The CH<sub>3</sub> group is attached directly to the C=O carbon, so its hydrogens are α hydrogens too; they are just less acidic.",
+   "The CH<sub>3</sub> group is on the other side of the carbonyl and is not blocked; the choice is set by acidity, not sterics."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-21",
+  "d": 3,
+  "q": "When 4-hydroxy-4-phenylbutan-2-one is warmed in aqueous NaOH, its alkoxide undergoes the step drawn. What are the products of this step?",
+  "s": [
+   {
+    "smi": "[O-:55][CH:54](c1ccccc1)[CH2:53][C:52](C)=[O:51]",
+    "lp": [
+     55
+    ],
+    "arrows": [
+     {
+      "from": 55,
+      "to": [
+       55,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       53
+      ],
+      "to": [
+       53,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       51
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=Cc1ccccc1.C=C(C)[O-]"
+   },
+   {
+    "smi": "CC(=O)/C=C/c1ccccc1.[OH-]"
+   },
+   {
+    "smi": "O=CCc1ccccc1.C[C-]=O"
+   },
+   {
+    "smi": "CC([O-])=CC(O)c1ccccc1"
+   }
+  ],
+  "h": "Which C–C bond do the arrows break, and where do its electrons go? Read the arrows from the alkoxide oxygen to the far oxygen.",
+  "w": "This is a retro-aldol step. The alkoxide oxygen forms a C=O (giving benzaldehyde), the C–C bond between the carbinol carbon and the CH<sub>2</sub> breaks, and those electrons form a C=C to the ketone carbon while the C=O π electrons move onto oxygen. <b>Benzaldehyde and the enolate of acetone</b> are produced: the exact reverse of the aldol addition.",
+  "x": [
+   "",
+   "This enone and hydroxide come from E1cB dehydration of the aldol, which starts by deprotonating the α-carbon; the drawn arrows break a C–C bond instead.",
+   "This would require breaking the bond between the CH<sub>2</sub> and the ketone carbon, giving an acyl anion; the arrows break the bond on the other side of the CH<sub>2</sub>.",
+   "This enolate keeps every C–C bond; it comes from removing an α-hydrogen, not from the arrows shown, which cleave a C–C bond."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-22",
+  "d": 1,
+  "q": "Benzylmalonic acid loses CO<sub>2</sub> on heating through the cyclic step drawn. What is the final organic product after the enol tautomerizes?",
+  "s": [
+   {
+    "smi": "[OH:60][C:54](=[O:55])[CH:53](Cc1ccccc1)[C:52](=[O:51])[O:57][H:56]",
+    "lp": [
+     55,
+     57
+    ],
+    "arrows": [
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 56
+     },
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": [
+       57,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": [
+       53,
+       54
+      ]
+     }
+    ],
+    "layout": [
+     [
+      55,
+      56
+     ]
+    ]
+   },
+   {
+    "arrow": "heat",
+    "below": "−CO<sub>2</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC(=O)CCc1ccccc1"
+   },
+   {
+    "smi": "OC(=O)Cc1ccccc1"
+   },
+   {
+    "smi": "CCc1ccccc1"
+   },
+   {
+    "smi": "OC(=O)/C=C/c1ccccc1"
+   }
+  ],
+  "h": "Only one carboxyl group is lost. The other one's C=O takes the proton and ends up as a carboxylic acid again after tautomerization.",
+  "w": "One CO<sub>2</sub>H leaves as CO<sub>2</sub>; the remaining carboxyl becomes an enediol (the enol of a carboxylic acid) that tautomerizes back to a C=O. The α-carbon keeps its H, gains another H and keeps the benzyl group. <b>3-Phenylpropanoic acid</b> is the product.",
+  "x": [
+   "",
+   "Phenylacetic acid has one carbon too few; only the carboxyl carbon leaves, and the α-carbon stays with the benzyl group.",
+   "Only one carboxyl is lost; a carboxylic acid without a β-carbonyl group does not decarboxylate on simple heating.",
+   "Decarboxylation adds a hydrogen to the α-carbon; it does not create a C=C conjugated with the ring."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-23",
+  "d": 1,
+  "q": "A student tries to run a Claisen condensation of ethyl acetate using NaOH in place of NaOEt, and the step drawn happens instead. Why does this ruin the Claisen?",
+  "s": [
+   {
+    "smi": "[OH-:51].C[C:52](=[O:53])OCC",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "c": [
+   "Hydroxide saponifies the ester to acetate, a poor electrophile, and this step is essentially irreversible",
+   "Hydroxide is too weak a base to remove an α-hydrogen of the ester, so no enolate can form",
+   "Hydroxide adds to the C=O to give a stable acetal that cannot react with an enolate",
+   "Hydroxide replaces an α-hydrogen with OH, giving ethyl glycolate instead of the β-keto ester"
+  ],
+  "h": "Follow the tetrahedral intermediate one more step. What acid–base reaction follows, and can the product go back?",
+  "w": "Hydroxide adds to the ester C=O, the intermediate expels ethoxide, and the acetic acid formed is deprotonated at once (pK<sub>a</sub> 4.8). That last step makes saponification essentially irreversible, and the carboxylate is a very poor electrophile, so the ester is consumed. <b>Saponification to acetate destroys the ester</b>; that is why a Claisen uses the alkoxide that matches the ester.",
+  "x": [
+   "",
+   "Hydroxide (water pK<sub>a</sub> ≈ 15.7) is about as strong a base as ethoxide; the problem is its addition to the C=O, not its basicity.",
+   "An acetal has two OR groups on a carbon that has lost its C=O; hydroxide addition gives a tetrahedral intermediate that expels ethoxide, not an acetal.",
+   "Bases do not substitute at the α-carbon; they either remove an α-H or add to the carbonyl carbon."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-24",
+  "d": 2,
+  "q": "The anion of diethyl malonate is heated with 2-bromo-2-methylpropane. The step drawn is the main reaction. What does it produce, and what does it mean for a malonic ester synthesis?",
+  "s": [
+   {
+    "smi": "CCOC(=O)[CH-:51]C(=O)OCC.[H:52][CH2:53][C:54](C)(C)[Br:55]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       52
+      ],
+      "to": [
+       53,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "c": [
+   "E2: 2-methylpropene, Br<sup>−</sup> and diethyl malonate; tertiary halides eliminate instead of alkylating the enolate",
+   "S<sub>N</sub>2: diethyl <i>tert</i>-butylmalonate; tertiary halides are the best alkylating agents for enolates",
+   "E1: 2-methylpropene, formed after bromide leaves first and the enolate removes a proton from the carbocation",
+   "S<sub>N</sub>1: diethyl <i>tert</i>-butylmalonate, formed through the tert-butyl cation"
+  ],
+  "h": "Where does the first arrow end: at a carbon or at a hydrogen? Is the C–Br bond breaking in the same step?",
+  "w": "The enolate takes a β-hydrogen, the C–H electrons form the C=C, and bromide leaves, all in one step: an E2 reaction. The products are 2-methylpropene, bromide and neutral diethyl malonate. Enolate alkylation is S<sub>N</sub>2 and works only with methyl, primary (and some secondary) halides. <b>Tertiary halides undergo E2, so they cannot be used to alkylate malonate.</b>",
+  "x": [
+   "",
+   "Backside attack at a tertiary carbon is blocked; tertiary halides do not undergo S<sub>N</sub>2, and the arrows show H removal, not attack at carbon.",
+   "The drawing shows one concerted step (H removal and C–Br cleavage together), which is E2, not a two-step E1 through a carbocation.",
+   "The arrows show the enolate removing a hydrogen, not bonding to carbon; no C–C bond forms."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "mech2-25",
+  "d": 2,
+  "q": "Which statements about forming enolates are correct?<br>I. Diisopropylamine (pK<sub>a</sub> ≈ 36) is a much weaker acid than a ketone (pK<sub>a</sub> ≈ 19–20), so LDA converts a ketone essentially completely and irreversibly into its enolate.<br>II. Because ethanol (pK<sub>a</sub> ≈ 16) is a stronger acid than acetone (pK<sub>a</sub> ≈ 19), NaOEt converts only a small fraction of acetone into its enolate at equilibrium.<br>III. With LDA in THF at −78 °C, 2-methylcyclohexanone gives mainly the more substituted enolate, because that enolate has the more substituted C=C.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II only",
+   "I, II, and III"
+  ],
+  "h": "Compare the pK<sub>a</sub> of each base's conjugate acid with the ketone's. Then ask whether a cold, irreversible deprotonation can choose the more stable product.",
+  "w": "I is true: the equilibrium lies about 10<sup>16</sup> toward the enolate, so deprotonation is complete and irreversible. II is true: K<sub>eq</sub> ≈ 10<sup>16−19</sup> = 10<sup>−3</sup>, so only a small fraction of enolate is present (enough for aldol or Claisen chemistry, which consume it as it forms). III is false: under kinetic control LDA removes the more accessible hydrogen on the CH<sub>2</sub> and gives the <i>less</i> substituted enolate; the more substituted enolate is favored only under equilibrating conditions. <b>I and II only.</b>",
+  "x": [
+   "",
+   "This rejects II, but ethanol is about 1000 times more acidic than acetone, so with NaOEt the equilibrium lies on the side of the ketone and only a small fraction is enolate.",
+   "This rejects I, but LDA's conjugate acid (pK<sub>a</sub> ≈ 36) is far weaker than a ketone, so LDA deprotonates completely and irreversibly.",
+   "This accepts III, but LDA at −78 °C gives the kinetic (less substituted) enolate; the more substituted one forms under thermodynamic control."
+  ],
+  "t": "enolates",
+  "k": 0
+ }
+]
