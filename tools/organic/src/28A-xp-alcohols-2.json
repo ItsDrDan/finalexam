@@ -1,0 +1,141 @@
+[
+{
+ "id": "alc-16", "t": "alcohols", "d": 1, "k": 0,
+ "q": "Which compound, treated with CH<sub>3</sub>CH<sub>2</sub>MgBr in ether and then H<sub>3</sub>O<sup>+</sup>, gives a <b>primary</b> alcohol?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "C=O"}, {"smi": "CC=O"}, {"smi": "CC(C)=O"}, {"smi": "COC=O"}],
+ "h": "The carbonyl carbon becomes the carbinol carbon. How many carbon groups will it carry after the Grignard adds?",
+ "w": "In a Grignard addition the carbonyl carbon becomes the C–OH carbon, carrying the new alkyl group plus whatever it already had. Formaldehyde has only H atoms, so the carbinol carbon ends up with one carbon group: CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH, a primary alcohol. Answer: <b>formaldehyde</b>.",
+ "x": ["", "Acetaldehyde already has one methyl group, so adding ethyl gives the secondary alcohol butan-2-ol.", "Acetone carries two methyl groups, so adding ethyl gives the tertiary alcohol 2-methylbutan-2-ol.", "An ester takes two equivalents: methyl formate gives pentan-3-ol, a secondary alcohol with two ethyl groups on the carbinol carbon."]
+},
+{
+ "id": "alc-17", "t": "alcohols", "d": 2, "k": 0,
+ "q": "What is the major organic product?",
+ "s": [{"smi": "COC(=O)c1ccccc1"}, {"arrow": "1. CH<sub>3</sub>MgBr (excess), ether", "below": "2. H<sub>3</sub>O<sup>+</sup>"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC(C)(O)c1ccccc1"}, {"smi": "CC(=O)c1ccccc1"}, {"smi": "CC(O)c1ccccc1"}, {"smi": "OC(=O)c1ccccc1"}],
+ "h": "After the first addition, methoxide leaves. What carbonyl is left, and is it more or less reactive than the ester?",
+ "w": "The first CH<sub>3</sub>MgBr adds to the ester carbonyl; the tetrahedral intermediate expels CH<sub>3</sub>O<sup>−</sup> to give acetophenone. The ketone is more electrophilic than the ester, so it captures a second CH<sub>3</sub>MgBr at once. Workup gives the tertiary alcohol <b>2-phenylpropan-2-ol</b>, with two identical methyl groups that both came from the Grignard.",
+ "x": ["", "The ketone intermediate is more reactive than the starting ester, so it cannot be isolated with excess Grignard; it is converted to the tertiary alcohol.", "A secondary alcohol would require a hydride as the second nucleophile; here both nucleophiles are methyl groups.", "Grignard reagents add C–C bonds; they do not hydrolyze the ester to benzoic acid."]
+},
+{
+ "id": "alc-18", "t": "alcohols", "d": 3, "k": 0,
+ "q": "(<i>R</i>)-2-Methyloxirane is treated with phenylmagnesium bromide, followed by H<sub>3</sub>O<sup>+</sup>. What is the major product?",
+ "s": [{"smi": "C[C@@H]1CO1"}, {"arrow": "1. C<sub>6</sub>H<sub>5</sub>MgBr, ether", "below": "2. H<sub>3</sub>O<sup>+</sup>"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "C[C@@H](O)Cc1ccccc1"}, {"smi": "C[C@H](O)Cc1ccccc1"}, {"smi": "C[C@@H](CO)c1ccccc1"}, {"smi": "C[C@H](CO)c1ccccc1"}],
+ "h": "A Grignard opens an epoxide by an S<sub>N</sub>2-like attack. Which carbon is less hindered, and does any bond to the stereocenter break?",
+ "w": "Under basic (Grignard) conditions the epoxide opens by backside S<sub>N</sub>2 attack at the <b>less hindered CH<sub>2</sub></b>. No bond to the stereocenter breaks, so it keeps its spatial arrangement. Its priorities stay in the same order (O > CH<sub>2</sub>R > CH<sub>3</sub> > H), so the label stays the same: <b>(<i>R</i>)-1-phenylpropan-2-ol</b>.",
+ "x": ["", "Inversion happens only at the carbon that is attacked. The CH<sub>2</sub> is attacked, so the stereocenter is untouched and stays (<i>R</i>).", "Attack at the more substituted carbon is the acid-catalyzed pattern; a strongly basic Grignard attacks the less hindered CH<sub>2</sub>.", "This places phenyl on the more substituted carbon (the wrong regiochemistry) and also keeps the old arrangement, which an S<sub>N</sub>2 attack there could not do."]
+},
+{
+ "id": "alc-19", "t": "alcohols", "d": 1, "k": 0,
+ "q": "Which compound <b>cannot</b> be converted into a useful Grignard reagent by treatment with Mg in dry ether?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "OCCCCBr"}, {"smi": "COCCCCBr"}, {"smi": "COc1ccc(Br)cc1"}, {"smi": "BrC1CCCCC1"}],
+ "h": "A Grignard reagent is a very strong base. Look for an acidic hydrogen in the same molecule.",
+ "w": "A Grignard carbon is strongly basic (conjugate acid pK<sub>a</sub> ≈ 50). Any O–H, N–H, S–H or CO<sub>2</sub>H in the same molecule protonates it immediately, destroying the reagent. <b>4-Bromobutan-1-ol</b> has an O–H (pK<sub>a</sub> ≈ 16), so its OH must be protected first, for example as a TBS ether.",
+ "x": ["", "An ether oxygen has no acidic hydrogen; ethers are the usual solvents for Grignard reagents.", "Aryl bromides form Grignard reagents readily, and the methoxy group has no acidic hydrogen.", "Secondary alkyl bromides such as bromocyclohexane form Grignard reagents without difficulty."]
+},
+{
+ "id": "alc-20", "t": "alcohols", "d": 3, "k": 0,
+ "q": "Which sequence prepares the diol below from 4-bromobutan-1-ol and benzaldehyde?",
+ "s": [{"smi": "OCCCCBr"}, "+", {"smi": "O=Cc1ccccc1"}, {"arrow": "?"}, {"smi": "OCCCCC(O)c1ccccc1"}],
+ "c": ["1. TBSCl, imidazole &nbsp;2. Mg, ether &nbsp;3. PhCHO &nbsp;4. NH<sub>4</sub>Cl, H<sub>2</sub>O &nbsp;5. TBAF", "1. Mg, ether &nbsp;2. PhCHO &nbsp;3. H<sub>3</sub>O<sup>+</sup>", "1. TBSCl, imidazole &nbsp;2. Mg, ether &nbsp;3. PhCHO &nbsp;4. NH<sub>4</sub>Cl, H<sub>2</sub>O &nbsp;5. PCC &nbsp;6. TBAF", "1. TBAF &nbsp;2. Mg, ether &nbsp;3. PhCHO &nbsp;4. NH<sub>4</sub>Cl, H<sub>2</sub>O &nbsp;5. TBSCl, imidazole"],
+ "h": "The Grignard reagent cannot coexist with a free O–H. When must the OH be masked, and when should it be released?",
+ "w": "The free OH would protonate the Grignard as soon as it formed. So: (1) protect the OH as a TBS ether, (2) form the Grignard, (3) add it to benzaldehyde, (4) protonate the new alkoxide with a mild workup, and (5) remove the silyl group with fluoride (TBAF), which frees the primary OH. Answer: <b>TBSCl/imidazole; Mg; PhCHO; NH<sub>4</sub>Cl; TBAF</b>.",
+ "x": ["", "Without protection, the Grignard is quenched by its own O–H as soon as it forms, giving butan-1-ol (as its alkoxide), not the diol.", "PCC oxidizes the new secondary alcohol to a ketone, so the product would be 5-hydroxy-1-phenylpentan-1-one, not the diol.", "TBAF removes a silyl group; using it first does nothing, so the OH is still free when Mg is added. Protection must come before the Grignard step."]
+},
+{
+ "id": "alc-21", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Which ester, treated with excess CH<sub>3</sub>CH<sub>2</sub>MgBr and then H<sub>3</sub>O<sup>+</sup>, gives 3-methylpentan-3-ol?",
+ "s": [{"smi": "CCC(C)(O)CC"}],
+ "c": ["Ethyl acetate", "Ethyl propanoate", "Ethyl formate", "Diethyl carbonate"],
+ "cs": [{"smi": "CCOC(C)=O"}, {"smi": "CCOC(=O)CC"}, {"smi": "CCOC=O"}, {"smi": "CCOC(=O)OCC"}],
+ "h": "Two equivalents of the Grignard end up on the ester carbonyl carbon. Which of the three groups on the carbinol carbon is not ethyl?",
+ "w": "An ester plus excess RMgX gives a tertiary alcohol in which two of the three groups on the carbinol carbon are the Grignard's R and the third is the ester's acyl group. 3-Methylpentan-3-ol has two ethyls and one methyl on the carbinol carbon, so the acyl group must be acetyl: <b>ethyl acetate</b>.",
+ "x": ["", "The propanoyl group contributes a third ethyl, giving 3-ethylpentan-3-ol.", "Formate contributes H, so two ethyls give the secondary alcohol pentan-3-ol.", "A carbonate loses both ethoxy groups and adds three ethyl groups, giving 3-ethylpentan-3-ol."]
+},
+{
+ "id": "alc-22", "t": "alcohols", "d": 3, "k": 0,
+ "q": "What is the major organic product?",
+ "s": [{"smi": "O=C1CCCCO1"}, {"arrow": "1. CH<sub>3</sub>MgBr (excess), ether", "below": "2. H<sub>3</sub>O<sup>+</sup>"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "OCCCCC(C)(C)O"}, {"smi": "CC(=O)CCCCO"}, {"smi": "CC1(C)CCCCO1"}, {"smi": "CC(O)CCCCO"}],
+ "h": "Treat the lactone as an ester whose alkoxy group is tethered to the same chain. How many methyl groups add?",
+ "w": "Like any ester, the lactone takes two equivalents of CH<sub>3</sub>MgBr. The first addition opens the ring (the ring oxygen leaves as an alkoxide, still attached to the chain) and gives a methyl ketone; the second adds to that ketone. Workup protonates both alkoxides: <b>5-methylhexane-1,5-diol</b>.",
+ "x": ["", "The ketone formed after ring opening is more reactive than the lactone, so with excess Grignard it does not survive.", "The ring oxygen leaves the carbonyl carbon during the reaction and ends up as a free primary OH after workup; it does not stay bonded in a ring.", "This product has only one new methyl group and an H on the carbinol carbon, which would need a hydride donor; both added groups here are methyls."]
+},
+{
+ "id": "alc-23", "t": "alcohols", "d": 1, "k": 0,
+ "q": "Which combination, followed by H<sub>3</sub>O<sup>+</sup> workup, gives 2-phenylethan-1-ol?",
+ "s": [{"smi": "OCCc1ccccc1"}],
+ "c": ["C<sub>6</sub>H<sub>5</sub>MgBr + oxirane (ethylene oxide)", "C<sub>6</sub>H<sub>5</sub>MgBr + acetaldehyde", "C<sub>6</sub>H<sub>5</sub>MgBr + formaldehyde", "CH<sub>3</sub>MgBr + benzaldehyde"],
+ "h": "Count the carbons between the ring and the OH. Which electrophile adds a two-carbon unit with the OH on the far carbon?",
+ "w": "A Grignard opens ethylene oxide at a CH<sub>2</sub>, adding –CH<sub>2</sub>CH<sub>2</sub>O<sup>−</sup>; after protonation the OH sits two carbons from the original nucleophilic carbon. PhMgBr + oxirane gives <b>PhCH<sub>2</sub>CH<sub>2</sub>OH</b>.",
+ "x": ["", "With acetaldehyde the phenyl bonds to the carbonyl carbon, so the OH ends up on the carbon next to the ring: 1-phenylethanol.", "Formaldehyde adds only one carbon, giving benzyl alcohol (PhCH<sub>2</sub>OH).", "Methyl adds to the benzaldehyde carbonyl carbon, giving the secondary alcohol 1-phenylethanol."]
+},
+{
+ "id": "alc-24", "t": "alcohols", "d": 2, "k": 0,
+ "q": "4-Hydroxyacetophenone is treated with <b>1.0 equivalent</b> of CH<sub>3</sub>MgBr in THF, followed by H<sub>3</sub>O<sup>+</sup>. What is the main organic compound isolated?",
+ "s": [{"smi": "CC(=O)c1ccc(O)cc1"}],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC(=O)c1ccc(O)cc1"}, {"smi": "CC(C)(O)c1ccc(O)cc1"}, {"smi": "COc1ccc(C(C)=O)cc1"}, {"smi": "CC(O)c1ccc(O)cc1"}],
+ "h": "Before the Grignard can act as a nucleophile, does anything in the molecule react with it faster as a base?",
+ "w": "Proton transfer is much faster than carbonyl addition. The phenolic O–H (pK<sub>a</sub> ≈ 8) protonates CH<sub>3</sub>MgBr, releasing CH<sub>4</sub> and using up the single equivalent. The phenoxide salt has no Grignard left to add to the ketone, and workup reprotonates it, so the starting material, <b>4-hydroxyacetophenone</b>, is recovered.",
+ "x": ["", "This would need at least two equivalents: the first is consumed by the acidic phenol O–H.", "A Grignard reagent does not methylate oxygen; the phenoxide is only reprotonated on workup.", "A Grignard reagent delivers a carbon nucleophile, not a hydride; it cannot reduce the ketone to a secondary alcohol."]
+},
+{
+ "id": "alc-25", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Cyclohexene oxide is treated with CH<sub>3</sub>Li in ether, then H<sub>3</sub>O<sup>+</sup>. What is the product?",
+ "s": [{"smi": "C1CCC2OC2C1"}, {"arrow": "1. CH<sub>3</sub>Li, ether", "below": "2. H<sub>3</sub>O<sup>+</sup>"}, "?"],
+ "c": ["Racemic <i>trans</i>-2-methylcyclohexan-1-ol", "Racemic <i>cis</i>-2-methylcyclohexan-1-ol", "1-Methylcyclohexan-1-ol", "Cyclohexylmethanol"],
+ "h": "Organolithium opening of an epoxide is S<sub>N</sub>2-like. From which face does the nucleophile attack, relative to the C–O bond that breaks?",
+ "w": "The methyl anion attacks one epoxide carbon from the backside, opposite the C–O bond that breaks. The oxygen stays on the neighboring carbon, on the face where it started, so CH<sub>3</sub> and OH end up anti: <b><i>trans</i>-2-methylcyclohexanol</b>. The two epoxide carbons are equivalent mirror-image sites in this achiral epoxide, so attack at either gives the two enantiomers equally: racemic.",
+ "x": ["", "A <i>cis</i> product would require frontside attack; S<sub>N</sub>2 opening places the nucleophile anti to the departing oxygen.", "The methyl bonds to an epoxide carbon, and the oxygen remains on the other carbon; both cannot end up on the same carbon.", "Cyclohexylmethanol would need the new carbon inserted between the ring and the oxygen; instead the methyl bonds to a ring carbon and the OH stays on the adjacent ring carbon."]
+},
+{
+ "id": "alc-26", "t": "alcohols", "d": 3, "k": 0,
+ "q": "Using bromobenzene and reagents with <b>no more than two carbons</b>, which sequence gives 2-phenylbutan-2-ol?",
+ "s": [{"smi": "Brc1ccccc1"}, {"arrow": "?"}, {"smi": "CCC(C)(O)c1ccccc1"}],
+ "c": ["1. Mg, ether &nbsp;2. CH<sub>3</sub>CHO &nbsp;3. H<sub>3</sub>O<sup>+</sup> &nbsp;4. PCC &nbsp;5. CH<sub>3</sub>CH<sub>2</sub>MgBr &nbsp;6. H<sub>3</sub>O<sup>+</sup>", "1. Mg, ether &nbsp;2. CH<sub>3</sub>CHO &nbsp;3. CH<sub>3</sub>CH<sub>2</sub>MgBr &nbsp;4. H<sub>3</sub>O<sup>+</sup>", "1. Mg, ether &nbsp;2. oxirane &nbsp;3. H<sub>3</sub>O<sup>+</sup> &nbsp;4. PCC &nbsp;5. CH<sub>3</sub>MgBr &nbsp;6. H<sub>3</sub>O<sup>+</sup>", "1. Mg, ether &nbsp;2. HCHO &nbsp;3. H<sub>3</sub>O<sup>+</sup> &nbsp;4. PCC &nbsp;5. CH<sub>3</sub>CH<sub>2</sub>MgBr &nbsp;6. H<sub>3</sub>O<sup>+</sup>"],
+ "h": "Disconnect one C–C bond at the carbinol carbon. The ketone you need has to be made first; which secondary alcohol oxidizes to it?",
+ "w": "The target is a tertiary alcohol carrying Ph, CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub>. Disconnecting the ethyl group leaves acetophenone + EtMgBr. Acetophenone comes from oxidizing 1-phenylethanol, which is PhMgBr + acetaldehyde. Sequence: <b>Mg; CH<sub>3</sub>CHO; H<sub>3</sub>O<sup>+</sup>; PCC; EtMgBr; H<sub>3</sub>O<sup>+</sup></b>.",
+ "x": ["", "After step 2 the carbinol carbon is an alkoxide, not a carbonyl, so EtMgBr has nothing to add to; workup gives only 1-phenylethanol.", "Oxirane puts a CH<sub>2</sub> between the ring and the new carbinol carbon; the route ends at 1-phenylpropan-2-ol.", "Formaldehyde gives benzyl alcohol, then benzaldehyde; adding EtMgBr gives the secondary alcohol 1-phenylpropan-1-ol."]
+},
+{
+ "id": "alc-27", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Ethyl acetate reacts with only <b>1.0 equivalent</b> of C<sub>6</sub>H<sub>5</sub>MgBr. The mixture contains mostly 1,1-diphenylethanol (after workup) and unreacted ethyl acetate, with little acetophenone. What is the best explanation?",
+ "c": ["Acetophenone, once formed, is more electrophilic than ethyl acetate and captures PhMgBr faster than the remaining ester does", "Acetophenone is less electrophilic than ethyl acetate but forms in higher concentration, so it reacts first", "PhMgBr adds twice to the same ester molecule in a single concerted step, so no ketone ever forms", "The ethoxide released in the first step converts acetophenone back into ethyl acetate"],
+ "h": "Compare the electrophilicity of a ketone and an ester. What does the OR group donate to the ester carbonyl?",
+ "w": "An ester carbonyl is stabilized by resonance donation from the OR oxygen, which makes it less electrophilic than a ketone. When the first addition expels ethoxide, the ketone formed competes for the remaining Grignard and wins, so most of it goes on to the tertiary alcohol while some ester is left. <b>The ketone is more reactive than the ester.</b> This is why stopping at a ketone requires a different method (for example a Weinreb amide or a nitrile).",
+ "x": ["", "Ketones are more, not less, electrophilic than esters; a ketone formed in small amounts still reacts faster.", "The two additions are separate steps: addition, loss of ethoxide to give the ketone, then a second addition.", "Ethoxide does not convert ketones into esters; the observed result comes from the ketone's higher reactivity."]
+},
+{
+ "id": "alc-28", "t": "alcohols", "d": 1, "k": 0,
+ "q": "Which is a suitable solvent for preparing and using a Grignard reagent?",
+ "c": ["Tetrahydrofuran (THF)", "Ethanol", "Acetone", "Ethyl acetate"],
+ "h": "The solvent must not protonate the reagent and must not be attacked by it.",
+ "w": "A Grignard reagent is both a strong base and a strong nucleophile. Ethers such as diethyl ether and <b>THF</b> have no acidic hydrogen and no electrophilic carbonyl, and their oxygen lone pairs coordinate and stabilize magnesium.",
+ "x": ["", "Ethanol's O–H protonates RMgX at once, converting it to the alkane R–H.", "Acetone's carbonyl is an electrophile; the Grignard would add to the solvent to give a tertiary alcohol.", "Ethyl acetate's ester carbonyl reacts with Grignard reagents (two equivalents each), consuming the reagent."]
+},
+{
+ "id": "alc-29", "t": "alcohols", "d": 3, "k": 0,
+ "q": "What is the major organic product of this sequence?",
+ "s": [{"smi": "CC1CCCCC1=O"}, {"arrow": "1. CH<sub>3</sub>MgBr, ether &nbsp;2. H<sub>3</sub>O<sup>+</sup>", "below": "3. H<sub>2</sub>SO<sub>4</sub>, heat"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC1=C(C)CCCC1"}, {"smi": "C=C1CCCCC1C"}, {"smi": "CC1CCCC=C1C"}, {"smi": "CC1CCCCC1(C)O"}],
+ "h": "First build the tertiary alcohol. Then ask which alkene E1 dehydration of that alcohol favors.",
+ "w": "Methyl adds to the carbonyl to give 1,2-dimethylcyclohexan-1-ol. Hot sulfuric acid dehydrates it by E1 through a tertiary carbocation at C1. Loss of the C2 hydrogen gives the most substituted (tetrasubstituted) alkene, which is the Zaitsev product: <b>1,2-dimethylcyclohex-1-ene</b>.",
+ "x": ["", "The exocyclic alkene is only disubstituted; under thermodynamic E1 conditions the more substituted endocyclic alkene is favored.", "Losing a C6 hydrogen gives a trisubstituted alkene, but removing the C2 hydrogen gives the more stable tetrasubstituted alkene.", "This is the alcohol after step 2; hot H<sub>2</sub>SO<sub>4</sub> dehydrates a tertiary alcohol readily."]
+},
+{
+ "id": "alc-30", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Which combinations, after H<sub>3</sub>O<sup>+</sup> workup, give 1-phenylpropan-1-ol?<br>I. C<sub>6</sub>H<sub>5</sub>MgBr + propanal<br>II. CH<sub>3</sub>CH<sub>2</sub>MgBr + benzaldehyde<br>III. C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>MgBr + acetaldehyde",
+ "s": [{"smi": "CCC(O)c1ccccc1"}],
+ "c": ["I and II only", "I only", "II and III only", "I, II and III"],
+ "h": "For each pair, the carbonyl carbon becomes the C–OH carbon. Which groups end up on that carbon?",
+ "w": "The carbinol carbon of the target carries Ph, CH<sub>2</sub>CH<sub>3</sub> and H. Either group can come from the Grignard: Ph adds to propanal (I) or ethyl adds to benzaldehyde (II). In III the carbinol carbon (from acetaldehyde) carries CH<sub>3</sub> and CH<sub>2</sub>Ph, giving 1-phenylpropan-2-ol. Answer: <b>I and II only</b>.",
+ "x": ["", "II also works: ethyl adds to the benzaldehyde carbonyl carbon, which already carries the phenyl.", "III puts a CH<sub>2</sub> between the ring and the carbinol carbon, giving 1-phenylpropan-2-ol.", "III gives the constitutional isomer 1-phenylpropan-2-ol, not the target."]
+}
+]

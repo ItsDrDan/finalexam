@@ -16,7 +16,7 @@ const TOPICS = {
   '3B': ['structure','hydrocarbons','isomers','properties','aromatic','alcohols','carbonyls','chirality','acids_esters','amines','carbs','lipids','proteins','enzymes','nucleic','metabolism'],
   '1A': ['measure','atoms','composition','reactions','thermo','quantum','periodic','bonding','advanced','gases','liquids','solutions'],
   '1B': ['kinetics','equilibrium','acidbase','buffers','solubility','thermo','electro','coordination','imf','colligative','nuclear'],
-  '28A': ['structure','nomenclature','acidbase','conform','stereo','mechanism','subst','elim','addition','alkynes','radical','synthesis','irms','nmr'],
+  '28A': ['structure','nomenclature','acidbase','conform','stereo','mechanism','subst','elim','addition','alkynes','radical','synthesis','irms','nmr','alcohols','ethers'],
   '28B': ['alcohols','ethers','conjugated','aromatic','eas','carbonyl','acidderiv','enolates','amines','spectro','synthesis','biomol'] };
 const FIG = ['newman','chair','energy','nmr','ir','ms','table','eq','plot','mo','modiag','particles','cylinder','buret','ruler','balance','targets','cycle','path','fischer','haworth','orbitals','ptgrid','cell','spectrum','enzyme'];
 const TAG_OK = /^<\/?(b|i|sub|sup|br|em|strong|u|small)>$|^<span class="(nw|ss|ss pre)">$|^<\/span>$/;

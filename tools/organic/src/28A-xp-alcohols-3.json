@@ -1,0 +1,139 @@
+[
+{
+ "id": "alc-31", "t": "alcohols", "d": 2, "k": 0,
+ "q": "What is the product of this two-step sequence, and why?",
+ "s": [{"smi": "C[C@@H](O)CC"}, {"arrow": "1. TsCl, pyridine", "below": "2. NaCN, DMSO"}, "?"],
+ "c": ["(<i>S</i>)-2-methylbutanenitrile: retention in the TsCl step, inversion in the S<sub>N</sub>2 step", "(<i>R</i>)-2-methylbutanenitrile: inversion in the TsCl step, inversion again in the S<sub>N</sub>2 step", "(<i>R</i>)-2-methylbutanenitrile: retention in both steps", "Racemic 2-methylbutanenitrile: the tosylate ionizes to a carbocation"],
+ "h": "In tosylation, which bond is made: C–O or O–S? Then decide what cyanide does at carbon.",
+ "w": "Tosylation forms an O–S bond; the C–O bond of the stereocenter is not touched, so the (<i>R</i>) tosylate forms with retention. Cyanide, a good nucleophile in polar aprotic DMSO, then displaces tosylate by S<sub>N</sub>2 with inversion. In the product, CN takes the top priority that OTs had, so the label changes: <b>(<i>S</i>)-2-methylbutanenitrile</b>.",
+ "x": ["", "Tosylation does not invert: the alcohol oxygen attacks sulfur, and the C–O bond stays intact.", "The S<sub>N</sub>2 step with cyanide inverts the stereocenter, so the configuration cannot be retained overall.", "A secondary tosylate with a strong nucleophile in DMSO reacts by S<sub>N</sub>2, not through a free carbocation."]
+},
+{
+ "id": "alc-32", "t": "alcohols", "d": 1, "k": 0,
+ "q": "(<i>S</i>)-Pentan-2-ol is treated with PBr<sub>3</sub>. What is the major product?",
+ "s": [{"smi": "C[C@H](O)CCC"}],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "C[C@@H](Br)CCC"}, {"smi": "C[C@H](Br)CCC"}, {"smi": "CCC(Br)CC"}, {"smi": "BrCCCCC"}],
+ "h": "PBr<sub>3</sub> turns OH into a leaving group, then bromide attacks. By which mechanism, and from which side?",
+ "w": "The OH attacks phosphorus, becoming –OPBr<sub>2</sub>, a good leaving group. Bromide then displaces it by S<sub>N</sub>2 with backside attack and no carbocation. The stereocenter inverts, and since Br takes the top priority that O had, the label changes: <b>(<i>R</i>)-2-bromopentane</b>.",
+ "x": ["", "Retention would require frontside attack; the S<sub>N</sub>2 step in the PBr<sub>3</sub> reaction inverts the stereocenter.", "PBr<sub>3</sub> does not form a carbocation, so there is no hydride shift to C3.", "The bromine replaces the OH on the same carbon (C2); it does not migrate to the chain end."]
+},
+{
+ "id": "alc-33", "t": "alcohols", "d": 3, "k": 0,
+ "q": "(<i>R</i>)-Butan-2-ol is taken through the sequence below. What is the final product?",
+ "s": [{"smi": "C[C@@H](O)CC"}, {"arrow": "1. TsCl, pyridine &nbsp;2. CH<sub>3</sub>CO<sub>2</sub>Na, DMF", "below": "3. NaOH, H<sub>2</sub>O, heat"}, "?"],
+ "c": ["§A", "§B", "Racemic butan-2-ol", "§D"],
+ "cs": [{"smi": "C[C@H](O)CC"}, {"smi": "C[C@@H](O)CC"}, null, {"smi": "C[C@H](OC(C)=O)CC"}],
+ "h": "Track the stereocenter step by step. In ester hydrolysis by hydroxide, which bond breaks: acyl C–O or alkyl C–O?",
+ "w": "Step 1 makes the (<i>R</i>) tosylate with retention (only the O–S bond forms). Step 2: acetate displaces tosylate by S<sub>N</sub>2 with inversion, giving (<i>S</i>)-butan-2-yl acetate. Step 3: saponification attacks the acyl carbon and breaks the acyl C–O bond, so the alkyl C–O bond, and the stereocenter, are untouched. Net result: the alcohol is inverted, giving <b>(<i>S</i>)-butan-2-ol</b>.",
+ "x": ["", "This assumes the hydrolysis step inverts the stereocenter again. Hydroxide attacks the carbonyl carbon, not the stereocenter, so there is only one inversion overall.", "No step forms a carbocation: the displacement is S<sub>N</sub>2 and the hydrolysis occurs at the acyl carbon.", "This is the product after step 2; hot aqueous NaOH saponifies the acetate ester to the alcohol."]
+},
+{
+ "id": "alc-34", "t": "alcohols", "d": 2, "k": 0,
+ "q": "<i>cis</i>-4-Methylcyclohexan-1-ol is treated with PBr<sub>3</sub>. What is the major product?",
+ "s": [{"smi": "C[C@H]1CC[C@@H](O)CC1"}],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "C[C@H]1CC[C@H](Br)CC1"}, {"smi": "C[C@H]1CC[C@@H](Br)CC1"}, {"smi": "CC1(Br)CCCCC1"}, {"smi": "CC1CC=CCC1"}],
+ "h": "The ring carbon with the OH reacts by backside attack. If OH was on the same face as CH<sub>3</sub>, where does Br end up?",
+ "w": "PBr<sub>3</sub> converts OH into –OPBr<sub>2</sub>, and bromide displaces it by S<sub>N</sub>2 from the opposite face. OH was cis to the methyl, so Br ends up trans: <b>trans-1-bromo-4-methylcyclohexane</b>. Neither compound is chiral; the stereochemistry shows up as cis/trans.",
+ "x": ["", "Keeping the cis relationship would need retention; PBr<sub>3</sub> reactions proceed with inversion at the carbinol carbon.", "Moving Br to the methyl-bearing carbon would need a carbocation and hydride shifts, which do not occur with PBr<sub>3</sub>.", "PBr<sub>3</sub> is a substitution reagent; it does not dehydrate the alcohol to an alkene."]
+},
+{
+ "id": "alc-35", "t": "alcohols", "d": 1, "k": 0,
+ "q": "Why is an alcohol usually converted to a tosylate before an S<sub>N</sub>2 reaction with a nucleophile such as N<sub>3</sub><sup>−</sup>?",
+ "c": ["Hydroxide is a strong base and a poor leaving group; tosylate is a weak, resonance-stabilized base and leaves easily", "The tosyl group makes the carbon less hindered, so the nucleophile can reach it", "Tosylation converts the alcohol into a carbocation, which the nucleophile then traps", "The tosylate makes the nucleophile stronger by deprotonating it"],
+ "h": "Good leaving groups are the conjugate bases of strong acids. Compare H<sub>2</sub>O (pK<sub>a</sub> 15.7) with TsOH (pK<sub>a</sub> ≈ −3).",
+ "w": "A leaving group must be able to carry away the electron pair. HO<sup>−</sup> is a strong base (conjugate acid H<sub>2</sub>O, pK<sub>a</sub> 15.7), so it is a very poor leaving group. TsO<sup>−</sup> is the conjugate base of a strong acid and spreads its charge over three oxygens. <b>Tosylation turns a poor leaving group into an excellent one</b> without touching the stereocenter.",
+ "x": ["", "The tosyl group is large; it does not reduce steric hindrance at the carbon.", "Tosylation forms a neutral sulfonate ester; no carbocation is formed, which is why stereochemistry is kept in this step.", "The tosylate is on the substrate; it does not change the nucleophile."]
+},
+{
+ "id": "alc-36", "t": "alcohols", "d": 3, "k": 0,
+ "q": "Butane-1,3-diol is taken through the sequence below. What is the final product?",
+ "s": [{"smi": "CC(O)CCO"}, {"arrow": "1. TBSCl (1 equiv), imidazole &nbsp;2. PCC, CH<sub>2</sub>Cl<sub>2</sub>", "below": "3. TBAF, THF"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC(=O)CCO"}, {"smi": "CC(O)CC=O"}, {"smi": "CC(=O)CC=O"}, {"smi": "CC(O)CC(=O)O"}],
+ "h": "The bulky silyl chloride reacts with the least hindered OH first. Which OH is left for PCC?",
+ "w": "TBSCl is bulky, so one equivalent silylates the primary OH much faster than the secondary one. PCC then oxidizes the free secondary OH to a ketone (the TBS ether is inert). TBAF cleaves the Si–O bond and frees the primary OH: <b>4-hydroxybutan-2-one</b>.",
+ "x": ["", "This assumes the secondary OH was protected. The bulky TBS group goes on the less hindered primary OH, so the secondary carbon is the one oxidized.", "Only one OH is free during the PCC step; the silyl ether is not oxidized.", "PCC does not oxidize alcohols to carboxylic acids, and the primary OH was protected during the oxidation."]
+},
+{
+ "id": "alc-37", "t": "alcohols", "d": 1, "k": 0,
+ "q": "Why does tetrabutylammonium fluoride (TBAF) remove a TBS protecting group under mild conditions?",
+ "c": ["The Si–F bond formed is much stronger than the Si–O bond broken", "Fluoride is a strong base that deprotonates the silyl ether", "Fluoride reduces silicon, breaking the Si–O bond", "TBAF is a strong acid that hydrolyzes the silyl ether"],
+ "h": "Compare bond strengths to silicon.",
+ "w": "Silicon forms an exceptionally strong bond to fluorine (about 135 kcal/mol for Si–F vs about 110 for Si–O). Fluoride attacks silicon, forming a pentacoordinate intermediate that releases the alkoxide; workup gives the alcohol. <b>The driving force is the strong Si–F bond.</b> Carbon-based groups (esters, ketones, alkenes) are untouched, which makes TBS removal very selective.",
+ "x": ["", "A silyl ether has no acidic hydrogen to remove; fluoride acts as a nucleophile at silicon.", "No redox occurs; silicon stays in the +4 oxidation state.", "TBAF is a salt of fluoride, not an acid; acid can also cleave silyl ethers, but that is a different method."]
+},
+{
+ "id": "alc-38", "t": "alcohols", "d": 1, "k": 0,
+ "q": "Which reagent converts cyclohexylmethanol into cyclohexanecarbaldehyde in good yield?",
+ "s": [{"smi": "OCC1CCCCC1"}, {"arrow": "?"}, {"smi": "O=CC1CCCCC1"}],
+ "c": ["Dess–Martin periodinane, CH<sub>2</sub>Cl<sub>2</sub>", "H<sub>2</sub>CrO<sub>4</sub> (Jones reagent), acetone", "KMnO<sub>4</sub>, NaOH, heat", "NaBH<sub>4</sub>, CH<sub>3</sub>OH"],
+ "h": "You need an oxidant that stops at the aldehyde. Which oxidants work without water?",
+ "w": "Primary alcohols are oxidized to aldehydes by anhydrous oxidants that cannot form the aldehyde hydrate: PCC, Swern, or <b>Dess–Martin periodinane</b>.",
+ "x": ["", "Aqueous chromic acid oxidizes the aldehyde (through its hydrate) on to cyclohexanecarboxylic acid.", "Hot permanganate is a strong aqueous oxidant that takes a primary alcohol to the carboxylic acid.", "NaBH<sub>4</sub> is a reducing agent; it cannot oxidize an alcohol."]
+},
+{
+ "id": "alc-39", "t": "alcohols", "d": 2, "k": 0,
+ "q": "What is the major organic product with excess Jones reagent?",
+ "s": [{"smi": "CC1(O)CCC(CO)CC1"}, {"arrow": "H<sub>2</sub>CrO<sub>4</sub> (excess)", "below": "acetone, 0 °C"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC1(O)CCC(C(=O)O)CC1"}, {"smi": "CC1(O)CCC(C=O)CC1"}, {"smi": "O=C1CCC(C(=O)O)CC1"}, {"smi": "CC1(O)CCC(CO)CC1"}],
+ "h": "Classify each OH as 1°, 2° or 3°. Oxidation needs an H on the carbinol carbon.",
+ "w": "Chromic acid oxidizes a primary alcohol through the aldehyde hydrate all the way to a carboxylic acid. The tertiary alcohol has no H on its carbinol carbon, so it cannot form the C=O and is untouched. Product: <b>4-hydroxy-4-methylcyclohexane-1-carboxylic acid</b>.",
+ "x": ["", "Stopping at the aldehyde needs an anhydrous oxidant such as PCC; aqueous Jones reagent goes on to the acid.", "Oxidizing the tertiary carbon would require breaking a C–C bond (losing the methyl); Cr(VI) does not do this.", "The primary alcohol is readily oxidized; only the tertiary OH is inert."]
+},
+{
+ "id": "alc-40", "t": "alcohols", "d": 1, "k": 0,
+ "q": "Which alcohol is <b>not</b> oxidized by PCC in CH<sub>2</sub>Cl<sub>2</sub>?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CCC(C)(C)O"}, {"smi": "CC(C)C(C)O"}, {"smi": "CCC(C)CO"}, {"smi": "OC1CCCCC1"}],
+ "h": "Look at the carbon carrying the OH. Does it have a hydrogen?",
+ "w": "Oxidation to a carbonyl removes the H from the carbinol carbon. 2-Methylbutan-2-ol is a <b>tertiary alcohol</b> with no such H, so PCC does not react with it.",
+ "x": ["", "3-Methylbutan-2-ol is a secondary alcohol; PCC oxidizes it to 3-methylbutan-2-one.", "2-Methylbutan-1-ol is primary; PCC oxidizes it to 2-methylbutanal.", "Cyclohexanol is secondary; PCC oxidizes it to cyclohexanone."]
+},
+{
+ "id": "alc-41", "t": "alcohols", "d": 3, "k": 0,
+ "q": "Which sequence carries out this conversion?",
+ "s": [{"smi": "OCC1CCCCC1"}, {"arrow": "?"}, {"smi": "CC(=O)C1CCCCC1"}],
+ "c": ["1. PCC, CH<sub>2</sub>Cl<sub>2</sub> &nbsp;2. CH<sub>3</sub>MgBr, ether &nbsp;3. H<sub>3</sub>O<sup>+</sup> &nbsp;4. PCC, CH<sub>2</sub>Cl<sub>2</sub>", "1. H<sub>2</sub>CrO<sub>4</sub>, acetone &nbsp;2. CH<sub>3</sub>MgBr, ether &nbsp;3. H<sub>3</sub>O<sup>+</sup> &nbsp;4. PCC, CH<sub>2</sub>Cl<sub>2</sub>", "1. PCC, CH<sub>2</sub>Cl<sub>2</sub> &nbsp;2. CH<sub>3</sub>MgBr, ether &nbsp;3. H<sub>3</sub>O<sup>+</sup>", "1. CH<sub>3</sub>MgBr, ether &nbsp;2. PCC, CH<sub>2</sub>Cl<sub>2</sub> &nbsp;3. H<sub>3</sub>O<sup>+</sup>"],
+ "h": "Work backward: a methyl ketone comes from oxidizing a secondary alcohol, which comes from CH<sub>3</sub>MgBr + an aldehyde.",
+ "w": "Retrosynthesis: the methyl ketone ⇐ 1-cyclohexylethanol (oxidation) ⇐ cyclohexanecarbaldehyde + CH<sub>3</sub>MgBr ⇐ cyclohexylmethanol (oxidation that stops at the aldehyde). Forward: <b>PCC; CH<sub>3</sub>MgBr; H<sub>3</sub>O<sup>+</sup>; PCC</b>.",
+ "x": ["", "Jones reagent takes the primary alcohol to the carboxylic acid, which simply protonates CH<sub>3</sub>MgBr; no ketone or secondary alcohol forms.", "This stops at the secondary alcohol 1-cyclohexylethanol; a final oxidation is needed to reach the ketone.", "The Grignard reagent is destroyed by the alcohol's O–H before any oxidation is done; Grignard addition needs a carbonyl present."]
+},
+{
+ "id": "alc-42", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Why does PCC in CH<sub>2</sub>Cl<sub>2</sub> stop at the aldehyde when it oxidizes a primary alcohol, while aqueous Jones reagent gives the carboxylic acid?",
+ "c": ["Without water, the aldehyde cannot form the hydrate (gem-diol), the species that Cr(VI) oxidizes further", "PCC is too weak to oxidize any C–H bond on a carbon bearing oxygen", "The pyridinium ion reduces the carboxylic acid back to the aldehyde as it forms", "In CH<sub>2</sub>Cl<sub>2</sub> the aldehyde evaporates before it can be oxidized"],
+ "h": "Chromium oxidizes an O–H-bearing carbon that also has a C–H. What must happen to the aldehyde before it fits that description?",
+ "w": "Cr(VI) oxidation requires a carbon that bears both an OH (to form the chromate ester) and an H. An aldehyde becomes such a species only after adding water to form the hydrate, R–CH(OH)<sub>2</sub>. In aqueous Jones conditions the hydrate forms and is oxidized to the acid; in anhydrous CH<sub>2</sub>Cl<sub>2</sub> it cannot. <b>No water, no hydrate, no over-oxidation.</b>",
+ "x": ["", "PCC does oxidize a C–H on an oxygen-bearing carbon: that is exactly how it converts the alcohol to the aldehyde.", "Pyridinium is not a reducing agent; no acid is formed in the first place.", "Most aldehydes made this way are not volatile; the selectivity is chemical, not physical."]
+},
+{
+ "id": "alc-43", "t": "alcohols", "d": 3, "k": 0,
+ "q": "The racemic <i>trans</i> alcohol below is converted to its tosylate and then heated with NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol. What is the major product?",
+ "s": [{"smi": "C[C@@H]1CCCC[C@H]1O"}, {"arrow": "1. TsCl, pyridine", "below": "2. NaOEt, EtOH, heat"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC1C=CCCC1"}, {"smi": "CC1=CCCCC1"}, {"smi": "C=C1CCCCC1"}, {"smi": "CCOC1CCCCC1C"}],
+ "h": "E2 in a cyclohexane needs the leaving group and the β-H both axial (trans-diaxial). Put OTs axial: where is the methyl, and which neighbor still has an axial H?",
+ "w": "Tosylation keeps the configuration, so the tosylate is trans to the methyl. For E2 the OTs must be axial; in that chair the trans methyl on C2 is also axial, so C2's only H is equatorial and cannot be anti-periplanar. The only axial β-H is on C6, so elimination goes toward C6 and gives the less substituted alkene: <b>3-methylcyclohexene</b>, not the Zaitsev product.",
+ "x": ["", "1-Methylcyclohexene needs loss of the C2 hydrogen, which is never anti-periplanar to the OTs in the trans isomer.", "An exocyclic alkene would need a C=C to the methyl carbon, which is not β to the leaving group.", "A strong base with heat on a secondary tosylate favors E2; the S<sub>N</sub>2 ether is at most a minor product."]
+},
+{
+ "id": "alc-44", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Which conditions would remove (cleave) a TBS ether?<br>I. TBAF in THF<br>II. aqueous HCl in methanol<br>III. CH<sub>3</sub>MgBr in ether<br>IV. PCC in CH<sub>2</sub>Cl<sub>2</sub>",
+ "c": ["I and II only", "I only", "I, II and III only", "I, II, III and IV"],
+ "h": "Silyl ethers are chosen because they survive bases, nucleophiles and oxidants. What two kinds of reagent do take them off?",
+ "w": "TBS ethers are cleaved by fluoride (strong Si–F bond) and by aqueous acid (protonation of oxygen, then attack at silicon). They survive strong bases and carbon nucleophiles such as Grignard reagents, and they cannot be oxidized because there is no O–H. Answer: <b>I and II only</b>.",
+ "x": ["", "Aqueous acid also removes silyl ethers; that is why a mild workup (NH<sub>4</sub>Cl) is often used when a TBS group must survive.", "Grignard reagents do not cleave TBS ethers; that stability is why TBS is used to protect OH groups during Grignard reactions.", "Neither a Grignard reagent nor PCC cleaves a TBS ether; PCC needs a free O–H to oxidize."]
+},
+{
+ "id": "alc-45", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Which reagent converts 3-methylbutan-2-ol into 2-chloro-3-methylbutane <b>without</b> rearrangement?",
+ "s": [{"smi": "CC(C)C(C)O"}, {"arrow": "?"}, {"smi": "CC(C)C(C)Cl"}],
+ "c": ["SOCl<sub>2</sub>, pyridine", "Concentrated HCl, ZnCl<sub>2</sub>", "Cl<sub>2</sub>, hν", "NaCl, H<sub>2</sub>O"],
+ "h": "Which method avoids a free carbocation next to a carbon that carries a hydrogen it could shift?",
+ "w": "With HCl/ZnCl<sub>2</sub> a secondary alcohol ionizes to a 2° carbocation, which undergoes a 1,2-hydride shift to the tertiary cation and gives 2-chloro-2-methylbutane. Thionyl chloride with pyridine forms a chlorosulfite ester that chloride displaces by S<sub>N</sub>2, with no carbocation: <b>SOCl<sub>2</sub>, pyridine</b>.",
+ "x": ["", "The Lucas reagent goes through a carbocation; the hydride shift gives mainly the rearranged tertiary chloride.", "Radical chlorination replaces C–H bonds, not the OH, and gives a mixture.", "Hydroxide is a very poor leaving group, so chloride cannot displace OH without activation."]
+}
+]

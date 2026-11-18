@@ -12,7 +12,7 @@ import chem
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TOPICS = {
- '28A': ['structure', 'nomenclature', 'acidbase', 'conform', 'stereo', 'mechanism', 'subst', 'elim', 'addition', 'alkynes', 'radical', 'synthesis', 'irms', 'nmr'],
+ '28A': ['structure', 'nomenclature', 'acidbase', 'conform', 'stereo', 'mechanism', 'subst', 'elim', 'addition', 'alkynes', 'radical', 'synthesis', 'irms', 'nmr', 'alcohols', 'ethers'],
  '28B': ['alcohols', 'ethers', 'conjugated', 'aromatic', 'eas', 'carbonyl', 'acidderiv', 'enolates', 'amines', 'spectro', 'synthesis', 'biomol'],
 }
 FIGS = {'table', 'eq', 'plot', 'fischer', 'haworth', 'newman', 'chair', 'energy', 'nmr', 'ir', 'ms'}
@@ -111,7 +111,8 @@ def check(paths):
     return bad
 
 def build(course):
-    files = sorted(glob.glob(os.path.join(HERE, 'src', course + '-*.json')))
+    # skip iCloud conflict copies such as '28B-eas-1 2.json' (a stray copy would duplicate questions and shift ids)
+    files = sorted(f for f in glob.glob(os.path.join(HERE, 'src', course + '-*.json')) if ' ' not in os.path.basename(f))
     out, probs = [], []
     for p in files:
         for n, q in enumerate(load(p)):
