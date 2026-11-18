@@ -13,10 +13,14 @@ Practice for standardized multiple-choice chemistry finals in **CHEM 3A, 3B, 1A,
 - 🧮 **Practice calculator:** TI-36X Pro style, for practicing the keystrokes you'll use on exam day.
 - 💬 **Every wrong answer explained:** pick a wrong choice and see why it's wrong, plus a list of why the other choices are wrong.
 
-**Courses:** 3A = intro chem · 3B = organic midterm + biochem final · 1A = gen chem I · 1B = gen chem II · 28A = organic chemistry I (majors) · 28B = organic chemistry II (majors). About 4,300 questions in all.
+**Courses:** 3A = intro chem · 3B = organic midterm + biochem final · 1A = gen chem I · 1B = gen chem II · 28A = organic chemistry I (majors) · 28B = organic chemistry II (majors). About 4,500 questions in all, including ACS-style I/II/III statement items in every course.
 
-- 🧪 **Organic (28A/28B):** skeletal structures with wedges and dashes, curved-arrow mechanisms with lone pairs, Newman projections, chair conformations, energy diagrams, and ¹H/¹³C NMR, IR and mass spectra drawn in the game. ACS-style I/II/III items and combined-spectra unknowns.
+- 🧪 **Organic (28A/28B):** skeletal structures with wedges and dashes, curved-arrow mechanisms with lone pairs, Newman projections, chair conformations, energy diagrams, and ¹H/¹³C NMR, IR and mass spectra drawn in the game, using real measured peaks (NIST WebBook IR and MS, literature NMR shifts; sources in tools/organic/SPECTRA_SOURCES_28A.md and _28B.md). Combined-spectra unknowns.
+
+- 📶 **Fast and offline:** each course's questions are their own file (`data/bank-<course>.json`), so a phone downloads only the course it opens. After one visit, a course works offline.
 
 All questions are original. Not affiliated with or endorsed by any exam publisher.
 
-Current version: v51
+Current version: v56
+
+For editors: the question banks live in `data/`. The tools in `tools/` (append_questions.js, apply_fixes.js, validate_bank.js, organic/install_banks.js) read and write them through `tools/bankio.js`, which also refreshes the version stamps in index.html so browsers and the offline cache fetch updated files.

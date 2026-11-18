@@ -10,19 +10,19 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3060,
+      "cm": 3070,
       "str": "w"
      },
      {
-      "cm": 2980,
-      "str": "m"
+      "cm": 2990,
+      "str": "w"
      },
      {
       "cm": 1712,
       "str": "s"
      },
      {
-      "cm": 1638,
+      "cm": 1640,
       "str": "m"
      },
      {
@@ -30,12 +30,12 @@
       "str": "m"
      },
      {
-      "cm": 1170,
+      "cm": 1165,
       "str": "s"
      },
      {
-      "cm": 980,
-      "str": "m"
+      "cm": 975,
+      "str": "w"
      }
     ]
    },
@@ -125,7 +125,7 @@
    "7: a benzene ring, one C=C, one C=O and a second ring"
   ],
   "h": "Use DBE = (2C + 2 − H)/2, ignoring O. Then spend the units on what the spectra show: benzene counts 4, each other ring or π bond counts 1.",
-  "w": "DBE = (2(11) + 2 − 12)/2 = <b>6</b>. A benzene ring uses 4 (aromatic H at δ 7.3–7.5, four aromatic <sup>13</sup>C signals). The single C=O (δ 167.0, IR 1712 cm<sup>−1</sup>) uses 1, and the trans CH=CH (two 1H doublets with J = 16 Hz, IR 1638 cm<sup>−1</sup>, two sp<sup>2</sup> CH carbons at δ 144.6 and 118.3) uses the last 1. So the pieces are <b>a benzene ring, one C=C and one C=O</b>.",
+  "w": "DBE = (2(11) + 2 − 12)/2 = <b>6</b>. A benzene ring uses 4 (aromatic H at δ 7.3–7.5, four aromatic <sup>13</sup>C signals). The single C=O (δ 167.0, IR 1712 cm<sup>−1</sup>) uses 1, and the trans CH=CH (two 1H doublets with J = 16 Hz, IR 1640 cm<sup>−1</sup>, two sp<sup>2</sup> CH carbons at δ 144.6 and 118.3) uses the last 1. So the pieces are <b>a benzene ring, one C=C and one C=O</b>.",
   "x": [
    "",
    "DBE = 5 comes from miscounting the formula (for example using H = 14). With 12 H the value is 6, and the vinyl doublets at δ 7.68/6.44 need a C=C beyond the ring and C=O.",
@@ -144,19 +144,19 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3060,
+      "cm": 3070,
       "str": "w"
      },
      {
-      "cm": 2980,
-      "str": "m"
+      "cm": 2990,
+      "str": "w"
      },
      {
       "cm": 1712,
       "str": "s"
      },
      {
-      "cm": 1638,
+      "cm": 1640,
       "str": "m"
      },
      {
@@ -164,12 +164,12 @@
       "str": "m"
      },
      {
-      "cm": 1170,
+      "cm": 1165,
       "str": "s"
      },
      {
-      "cm": 980,
-      "str": "m"
+      "cm": 975,
+      "str": "w"
      }
     ]
    },
@@ -255,8 +255,8 @@
   "c": [
    "The C=O stretch at 1712 cm<sup>−1</sup> is too low for an ester whose C=O is not conjugated (1735–1750 cm<sup>−1</sup>)",
    "There is no broad O–H band from 3300 to 2500 cm<sup>−1</sup>, so the compound is not a carboxylic acid",
-   "There is a C=C stretch at 1638 cm<sup>−1</sup>, which fits a C=C conjugated with the benzene ring",
-   "There is a strong C–O stretch at 1170 cm<sup>−1</sup>, typical of the C–O single bond of an ester"
+   "There is a C=C stretch at 1640 cm<sup>−1</sup>, which fits a C=C conjugated with the benzene ring",
+   "There is a strong C–O stretch at 1165 cm<sup>−1</sup>, typical of the C–O single bond of an ester"
   ],
   "h": "Both compounds are esters with a C=C. Ask which band position depends on whether the C=O is next to the C=C.",
   "w": "An ester C=O that is not conjugated absorbs at 1735–1750 cm<sup>−1</sup>; conjugation with a C=C (an α,β-unsaturated ester) lowers it to about 1715–1730 cm<sup>−1</sup>. In cinnamyl acetate the C=C is on the alcohol side, separated from the C=O by O and CH<sub>2</sub>, so its C=O would appear near 1740 cm<sup>−1</sup>. The observed <b>1712 cm<sup>−1</sup> band shows a C=O conjugated with the C=C</b>, which fits ethyl cinnamate and rules out cinnamyl acetate.",
@@ -283,19 +283,19 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3060,
+      "cm": 3070,
       "str": "w"
      },
      {
-      "cm": 2980,
-      "str": "m"
+      "cm": 2990,
+      "str": "w"
      },
      {
       "cm": 1712,
       "str": "s"
      },
      {
-      "cm": 1638,
+      "cm": 1640,
       "str": "m"
      },
      {
@@ -303,12 +303,12 @@
       "str": "m"
      },
      {
-      "cm": 1170,
+      "cm": 1165,
       "str": "s"
      },
      {
-      "cm": 980,
-      "str": "m"
+      "cm": 975,
+      "str": "w"
      }
     ]
    },
@@ -417,19 +417,19 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3060,
+      "cm": 3070,
       "str": "w"
      },
      {
-      "cm": 2980,
-      "str": "m"
+      "cm": 2990,
+      "str": "w"
      },
      {
       "cm": 1712,
       "str": "s"
      },
      {
-      "cm": 1638,
+      "cm": 1640,
       "str": "m"
      },
      {
@@ -437,12 +437,12 @@
       "str": "m"
      },
      {
-      "cm": 1170,
+      "cm": 1165,
       "str": "s"
      },
      {
-      "cm": 980,
-      "str": "m"
+      "cm": 975,
+      "str": "w"
      }
     ]
    },
@@ -565,11 +565,11 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 2958,
+      "cm": 2970,
       "str": "s"
      },
      {
-      "cm": 2872,
+      "cm": 2890,
       "str": "m"
      },
      {
@@ -577,7 +577,7 @@
       "str": "s"
      },
      {
-      "cm": 1367,
+      "cm": 1365,
       "str": "m"
      },
      {
@@ -621,19 +621,27 @@
      ],
      [
       58,
-      35
+      33
      ],
      [
       57,
-      18
+      24
+     ],
+     [
+      41,
+      25
      ],
      [
       85,
-      12
+      14
      ],
      [
       100,
-      8
+      12
+     ],
+     [
+      29,
+      12
      ]
     ],
     "labels": {
@@ -672,11 +680,11 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 2958,
+      "cm": 2970,
       "str": "s"
      },
      {
-      "cm": 2872,
+      "cm": 2890,
       "str": "m"
      },
      {
@@ -684,7 +692,7 @@
       "str": "s"
      },
      {
-      "cm": 1367,
+      "cm": 1365,
       "str": "m"
      },
      {
@@ -728,19 +736,27 @@
      ],
      [
       58,
-      35
+      33
      ],
      [
       57,
-      18
+      24
+     ],
+     [
+      41,
+      25
      ],
      [
       85,
-      12
+      14
      ],
      [
       100,
-      8
+      12
+     ],
+     [
+      29,
+      12
      ]
     ],
     "labels": {
@@ -774,11 +790,11 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 2958,
+      "cm": 2970,
       "str": "s"
      },
      {
-      "cm": 2872,
+      "cm": 2890,
       "str": "m"
      },
      {
@@ -786,7 +802,7 @@
       "str": "s"
      },
      {
-      "cm": 1367,
+      "cm": 1365,
       "str": "m"
      },
      {
@@ -830,19 +846,27 @@
      ],
      [
       58,
-      35
+      33
      ],
      [
       57,
-      18
+      24
+     ],
+     [
+      41,
+      25
      ],
      [
       85,
-      12
+      14
      ],
      [
       100,
-      8
+      12
+     ],
+     [
+      29,
+      12
      ]
     ],
     "labels": {
@@ -890,19 +914,19 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 2985,
+      "cm": 2995,
       "str": "m"
      },
      {
-      "cm": 2950,
-      "str": "w"
+      "cm": 2960,
+      "str": "m"
      },
      {
       "cm": 1740,
       "str": "s"
      },
      {
-      "cm": 1200,
+      "cm": 1195,
       "str": "s"
      }
     ]
@@ -1065,23 +1089,23 @@
       "str": "w"
      },
      {
-      "cm": 2982,
+      "cm": 2990,
       "str": "m"
      },
      {
-      "cm": 1720,
+      "cm": 1725,
       "str": "s"
      },
      {
-      "cm": 1600,
+      "cm": 1610,
       "str": "m"
      },
      {
-      "cm": 1275,
+      "cm": 1270,
       "str": "s"
      },
      {
-      "cm": 1110,
+      "cm": 1105,
       "str": "s"
      }
     ]
@@ -1139,7 +1163,7 @@
    }
   ],
   "h": "Two isomers here have an ethyl group on an ester. Check the C=O band (conjugated or aryl ester) and the CH<sub>2</sub> shift.",
-  "w": "DBE = 5 (ring + C=O). The C=O at 1720 cm<sup>−1</sup> is an ester lowered by conjugation with the ring, and there is no O–H. The aromatic pattern 2H : 1H : 2H is a monosubstituted ring, and the 2H doublet at δ 8.05 is the ortho H deshielded by a C=O on the ring. The quartet at δ 4.38 is an O–CH<sub>2</sub>. The compound is <b>ethyl benzoate</b>.",
+  "w": "DBE = 5 (ring + C=O). The C=O at 1725 cm<sup>−1</sup> is an ester lowered by conjugation with the ring, and there is no O–H. The aromatic pattern 2H : 1H : 2H is a monosubstituted ring, and the 2H doublet at δ 8.05 is the ortho H deshielded by a C=O on the ring. The quartet at δ 4.38 is an O–CH<sub>2</sub>. The compound is <b>ethyl benzoate</b>.",
   "x": [
    "",
    "Phenyl propanoate is an aryl ester: its C=O absorbs high, near 1760 cm<sup>−1</sup>, and its CH<sub>2</sub> quartet is next to C=O near δ 2.6, not at δ 4.38. Its ring H all lie near δ 7.1–7.4.",
@@ -1158,20 +1182,20 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3030,
-      "str": "w"
-     },
-     {
-      "cm": 2930,
+      "cm": 3035,
       "str": "m"
      },
      {
-      "cm": 2820,
-      "str": "w"
+      "cm": 2940,
+      "str": "m"
      },
      {
-      "cm": 2720,
-      "str": "w"
+      "cm": 2810,
+      "str": "m"
+     },
+     {
+      "cm": 2710,
+      "str": "m"
      },
      {
       "cm": 1725,
@@ -1179,11 +1203,11 @@
      },
      {
       "cm": 1495,
-      "str": "m"
+      "str": "w"
      },
      {
-      "cm": 1455,
-      "str": "m"
+      "cm": 1450,
+      "str": "w"
      }
     ]
    },
@@ -1235,10 +1259,10 @@
    }
   ],
   "h": "First decide aldehyde or ketone (look near δ 9–10 and at 2720/2820 cm<sup>−1</sup>). Then use the splitting of the δ 9.81 signal to find what the CHO is attached to.",
-  "w": "DBE = 5 (ring + C=O). The pair of weak bands at 2820 and 2720 cm<sup>−1</sup> and the 1H signal at δ 9.81 show an aldehyde; the C=O at 1725 cm<sup>−1</sup> is not conjugated. The CHO is a triplet, so it is next to a CH<sub>2</sub>. Two 2H triplets show a –CH<sub>2</sub>CH<sub>2</sub>– unit, and the 5H multiplet a monosubstituted ring. The compound is <b>3-phenylpropanal</b>. (The CH<sub>2</sub> at δ 2.78 is also split slightly by the CHO, J ≈ 1.5 Hz.)",
+  "w": "DBE = 5 (ring + C=O). The pair of bands at 2810 and 2710 cm<sup>−1</sup> and the 1H signal at δ 9.81 show an aldehyde; the C=O at 1725 cm<sup>−1</sup> is not conjugated. The CHO is a triplet, so it is next to a CH<sub>2</sub>. Two 2H triplets show a –CH<sub>2</sub>CH<sub>2</sub>– unit, and the 5H multiplet a monosubstituted ring. The compound is <b>3-phenylpropanal</b>. (The CH<sub>2</sub> at δ 2.78 is also split slightly by the CHO, J ≈ 1.5 Hz.)",
   "x": [
    "",
-   "Propiophenone is a ketone: no δ 9–10 signal, no 2720/2820 cm<sup>−1</sup> pair, a conjugated C=O near 1690 cm<sup>−1</sup>, and an ethyl quartet/triplet.",
+   "Propiophenone is a ketone: no δ 9–10 signal, no 2710/2810 cm<sup>−1</sup> pair, a conjugated C=O near 1690 cm<sup>−1</sup>, and an ethyl quartet/triplet.",
    "Phenylacetone is a ketone with two singlets (CH<sub>2</sub> near δ 3.7, CH<sub>3</sub> near δ 2.1) and no aldehyde H.",
    "2-Phenylpropanal is an aldehyde, but its CHO is a doublet (next to a CH), and it shows a 1H quartet and a 3H doublet, not two 2H triplets."
   ]
@@ -1255,19 +1279,19 @@
     "bands": [
      {
       "cm": 3000,
-      "str": "s",
-      "shape": "broad"
+      "shape": "broad",
+      "str": "s"
      },
      {
       "cm": 2975,
       "str": "m"
      },
      {
-      "cm": 1708,
+      "cm": 1710,
       "str": "s"
      },
      {
-      "cm": 1240,
+      "cm": 1235,
       "str": "m"
      }
     ]
@@ -1330,7 +1354,7 @@
    }
   ],
   "h": "A broad band spanning 3300–2500 cm<sup>−1</sup> plus an exchangeable H near δ 12 points to one functional group. Then count <sup>13</sup>C signals.",
-  "w": "The very broad O–H band, the C=O at 1708 cm<sup>−1</sup> and the exchangeable 1H at δ 11.9 identify a carboxylic acid. Only three <sup>13</sup>C signals for four carbons means two carbons are equivalent; the septet (1H) and 6H doublet are an isopropyl group. The compound is <b>2-methylpropanoic acid</b>.",
+  "w": "The very broad O–H band, the C=O at 1710 cm<sup>−1</sup> and the exchangeable 1H at δ 11.9 identify a carboxylic acid. Only three <sup>13</sup>C signals for four carbons means two carbons are equivalent; the septet (1H) and 6H doublet are an isopropyl group. The compound is <b>2-methylpropanoic acid</b>.",
   "x": [
    "",
    "Butanoic acid is also an acid, but it has four different carbons (four <sup>13</sup>C signals) and shows a triplet, a sextet and a triplet.",
@@ -1349,15 +1373,15 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3330,
+      "cm": 3335,
+      "str": "s"
+     },
+     {
+      "cm": 3070,
       "str": "m"
      },
      {
-      "cm": 3060,
-      "str": "w"
-     },
-     {
-      "cm": 1640,
+      "cm": 1635,
       "str": "s"
      },
      {
@@ -1366,7 +1390,7 @@
      },
      {
       "cm": 1310,
-      "str": "m"
+      "str": "s"
      }
     ]
    },
@@ -1418,7 +1442,7 @@
    }
   ],
   "h": "Count the N–H bands (one or two) and ask what the CH<sub>3</sub> is coupled to, given that the doublet collapses when N–H becomes N–D.",
-  "w": "DBE = 5 (ring + C=O). The C=O at 1640 cm<sup>−1</sup> plus the 1550 cm<sup>−1</sup> band (N–H bend) is a secondary amide, and the single N–H stretch at 3330 cm<sup>−1</sup> shows one N–H. The CH<sub>3</sub> is a doublet (J ≈ 5 Hz) that becomes a singlet after D<sub>2</sub>O exchange, so it is coupled to the N–H: an N–CH<sub>3</sub> group (δ 2.99). The 2H : 3H aromatic pattern with the 2H doublet downfield at δ 7.76 is a monosubstituted ring bonded to the C=O. The compound is <b>N-methylbenzamide</b>.",
+  "w": "DBE = 5 (ring + C=O). The C=O at 1635 cm<sup>−1</sup> plus the 1550 cm<sup>−1</sup> band (N–H bend) is a secondary amide, and the single N–H stretch at 3335 cm<sup>−1</sup> shows one N–H. The CH<sub>3</sub> is a doublet (J ≈ 5 Hz) that becomes a singlet after D<sub>2</sub>O exchange, so it is coupled to the N–H: an N–CH<sub>3</sub> group (δ 2.99). The 2H : 3H aromatic pattern with the 2H doublet downfield at δ 7.76 is a monosubstituted ring bonded to the C=O. The compound is <b>N-methylbenzamide</b>.",
   "x": [
    "",
    "4-Methylbenzamide is a primary amide (two N–H bands near 3350 and 3180 cm<sup>−1</sup>, 2H exchangeable), with a para ring and an aryl CH<sub>3</sub> singlet near δ 2.4.",
@@ -1552,32 +1576,32 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3060,
-      "str": "w"
-     },
-     {
-      "cm": 3027,
-      "str": "w"
-     },
-     {
-      "cm": 2940,
+      "cm": 3065,
       "str": "m"
      },
      {
-      "cm": 2815,
+      "cm": 3030,
       "str": "m"
      },
      {
-      "cm": 2765,
+      "cm": 2945,
+      "str": "s"
+     },
+     {
+      "cm": 2820,
+      "str": "s"
+     },
+     {
+      "cm": 2775,
+      "str": "s"
+     },
+     {
+      "cm": 1490,
       "str": "m"
      },
      {
-      "cm": 1495,
-      "str": "m"
-     },
-     {
-      "cm": 1455,
-      "str": "m"
+      "cm": 1450,
+      "str": "s"
      }
     ]
    },
@@ -1643,23 +1667,23 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3030,
+      "cm": 3035,
       "str": "w"
      },
      {
-      "cm": 2980,
+      "cm": 2990,
       "str": "m"
      },
      {
-      "cm": 2925,
+      "cm": 2940,
       "str": "m"
      },
      {
       "cm": 1615,
-      "str": "m"
+      "str": "w"
      },
      {
-      "cm": 1512,
+      "cm": 1515,
       "str": "s"
      },
      {
@@ -1671,8 +1695,8 @@
       "str": "m"
      },
      {
-      "cm": 815,
-      "str": "s"
+      "cm": 810,
+      "str": "m"
      }
     ]
    },
@@ -1748,36 +1772,36 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3190,
-      "str": "m",
-      "shape": "broad"
+      "cm": 3200,
+      "shape": "broad",
+      "str": "m"
      },
      {
-      "cm": 3070,
-      "str": "w"
+      "cm": 3065,
+      "str": "m"
      },
      {
-      "cm": 2955,
-      "str": "w"
+      "cm": 2960,
+      "str": "m"
      },
      {
-      "cm": 1680,
+      "cm": 1685,
       "str": "s"
      },
      {
       "cm": 1615,
-      "str": "m"
-     },
-     {
-      "cm": 1300,
       "str": "s"
      },
      {
-      "cm": 1215,
+      "cm": 1305,
       "str": "s"
      },
      {
-      "cm": 755,
+      "cm": 1210,
+      "str": "s"
+     },
+     {
+      "cm": 760,
       "str": "s"
      }
     ]
@@ -1878,7 +1902,7 @@
    }
   ],
   "h": "Four 1H aromatic signals limit the substitution pattern. Methyl ester CH<sub>3</sub> (carbon near δ 52) or aryl ether (near δ 56)? Does the O–H look like an acid's?",
-  "w": "DBE = 5 (ring + C=O). Four different 1H aromatic signals (d, t, d, t) mean an ortho-disubstituted ring. The CH<sub>3</sub> carbon at δ 52.2 is a methyl ester OCH<sub>3</sub>, not an aryl ether. The O–H is a band near 3190 cm<sup>−1</sup> without the 3300–2500 cm<sup>−1</sup> sprawl of an acid, and its sharp δ 10.76 signal is a phenol O–H held downfield by an intramolecular hydrogen bond to the ester C=O; that same hydrogen bond and conjugation lower the C=O to 1680 cm<sup>−1</sup>. The compound is <b>methyl 2-hydroxybenzoate (methyl salicylate)</b>.",
+  "w": "DBE = 5 (ring + C=O). Four different 1H aromatic signals (d, t, d, t) mean an ortho-disubstituted ring. The CH<sub>3</sub> carbon at δ 52.2 is a methyl ester OCH<sub>3</sub>, not an aryl ether. The O–H is a band near 3200 cm<sup>−1</sup> without the 3300–2500 cm<sup>−1</sup> sprawl of an acid, and its sharp δ 10.76 signal is a phenol O–H held downfield by an intramolecular hydrogen bond to the ester C=O; that same hydrogen bond and conjugation lower the C=O to 1685 cm<sup>−1</sup>. The compound is <b>methyl 2-hydroxybenzoate (methyl salicylate)</b>.",
   "x": [
    "",
    "Methyl 4-hydroxybenzoate is para (two 2H doublets, six <sup>13</sup>C signals), and its phenol O–H, with no intramolecular hydrogen bond, is a broad signal near δ 6, not a sharp δ 10.76 singlet.",
@@ -1990,20 +2014,20 @@
     "bands": [
      {
       "cm": 3030,
-      "str": "s",
-      "shape": "broad"
+      "shape": "broad",
+      "str": "s"
      },
      {
-      "cm": 2980,
-      "str": "m"
+      "cm": 2990,
+      "str": "w"
      },
      {
       "cm": 1705,
       "str": "s"
      },
      {
-      "cm": 1495,
-      "str": "m"
+      "cm": 1500,
+      "str": "w"
      },
      {
       "cm": 1230,
@@ -2011,7 +2035,7 @@
      },
      {
       "cm": 700,
-      "str": "s"
+      "str": "m"
      }
     ]
    },
@@ -2086,36 +2110,40 @@
       100
      ],
      [
-      49,
-      40
+      27,
+      19
      ],
      [
-      51,
+      49,
       13
      ],
      [
+      51,
+      4
+     ],
+     [
       77,
-      55
+      27
      ],
      [
       79,
-      18
-     ],
-     [
-      94,
-      10
-     ],
-     [
-      96,
-      3
-     ],
-     [
-      122,
       9
      ],
      [
-      124,
+      94,
       3
+     ],
+     [
+      96,
+      1
+     ],
+     [
+      122,
+      0.7
+     ],
+     [
+      124,
+      0.2
      ]
     ],
     "labels": {
@@ -2166,7 +2194,7 @@
    }
   ],
   "h": "All four choices are chloro esters with M<sup>+</sup> 122/124. Use the multiplicities and integrations, then the shift of the quartet: is that CH<sub>2</sub> on O or on Cl?",
-  "w": "M<sup>+</sup> at 122 and M+2 at 124 in a 3:1 ratio show one Cl; 1750 cm<sup>−1</sup> is an ester C=O made slightly higher by the α-Cl. The quartet (2H, δ 4.24) and triplet (3H, δ 1.30) are an O–CH<sub>2</sub>CH<sub>3</sub>, so the ester is an ethyl ester. The remaining 2H singlet at δ 4.06 is a CH<sub>2</sub> between Cl and C=O with no neighbors. The acylium ion ClCH<sub>2</sub>CO<sup>+</sup> (m/z 77/79, 3:1, from loss of ·OCH<sub>2</sub>CH<sub>3</sub>) fits. The compound is <b>ethyl chloroacetate</b>.",
+  "w": "The weak M<sup>+</sup> at 122 with M+2 at 124 (about 3:1), like the 3:1 pairs at m/z 77/79 and 49/51, shows one Cl; 1750 cm<sup>−1</sup> is an ester C=O made slightly higher by the α-Cl. The quartet (2H, δ 4.24) and triplet (3H, δ 1.30) are an O–CH<sub>2</sub>CH<sub>3</sub>, so the ester is an ethyl ester. The remaining 2H singlet at δ 4.06 is a CH<sub>2</sub> between Cl and C=O with no neighbors. The acylium ion ClCH<sub>2</sub>CO<sup>+</sup> (m/z 77/79, 3:1, from loss of ·OCH<sub>2</sub>CH<sub>3</sub>) fits. The compound is <b>ethyl chloroacetate</b>.",
   "x": [
    "",
    "Methyl 3-chloropropanoate has an OCH<sub>3</sub> singlet (3H) and two 2H triplets (ClCH<sub>2</sub>CH<sub>2</sub>), with no quartet; its acylium ion would be at m/z 91/93.",
@@ -2185,7 +2213,7 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 2955,
+      "cm": 2965,
       "str": "m"
      },
      {
@@ -2201,7 +2229,7 @@
       "str": "m"
      },
      {
-      "cm": 1170,
+      "cm": 1160,
       "str": "s"
      }
     ]
@@ -2303,40 +2331,40 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3425,
-      "str": "m"
-     },
-     {
-      "cm": 3345,
-      "str": "m"
-     },
-     {
-      "cm": 3010,
-      "str": "w"
-     },
-     {
-      "cm": 2950,
-      "str": "w"
-     },
-     {
-      "cm": 2830,
-      "str": "w"
-     },
-     {
-      "cm": 1510,
+      "cm": 3445,
       "str": "s"
      },
      {
-      "cm": 1235,
+      "cm": 3370,
+      "str": "m"
+     },
+     {
+      "cm": 3015,
+      "str": "m"
+     },
+     {
+      "cm": 2950,
+      "str": "m"
+     },
+     {
+      "cm": 2845,
+      "str": "w"
+     },
+     {
+      "cm": 1520,
+      "str": "s"
+     },
+     {
+      "cm": 1250,
       "str": "s"
      },
      {
       "cm": 1035,
-      "str": "m"
+      "str": "s"
      },
      {
-      "cm": 820,
-      "str": "m"
+      "cm": 835,
+      "str": "s"
      }
     ]
    },
@@ -2388,7 +2416,7 @@
    }
   ],
   "h": "Two sharp-ish N–H bands mean one kind of amine. The aromatic pattern and the 3H singlet do the rest.",
-  "w": "DBE = 4, a benzene ring. Two N–H bands at 3425 and 3345 cm<sup>−1</sup> (symmetric and asymmetric stretches) and an exchangeable 2H signal mean a primary amine, NH<sub>2</sub>. Two 2H doublets are a para ring, shifted upfield (δ 6.6–6.8) by two electron-donating groups. The 3H singlet at δ 3.75 with the strong 1235 cm<sup>−1</sup> aryl C–O band is an OCH<sub>3</sub>. The compound is <b>4-methoxyaniline</b>.",
+  "w": "DBE = 4, a benzene ring. Two N–H bands at 3445 and 3370 cm<sup>−1</sup> (symmetric and asymmetric stretches) and an exchangeable 2H signal mean a primary amine, NH<sub>2</sub>. Two 2H doublets are a para ring, shifted upfield (δ 6.6–6.8) by two electron-donating groups. The 3H singlet at δ 3.75 with the strong 1250 cm<sup>−1</sup> aryl C–O band is an OCH<sub>3</sub>. The compound is <b>4-methoxyaniline</b>.",
   "x": [
    "",
    "4-Aminobenzyl alcohol has an O–H (broad band) and a 2H CH<sub>2</sub>O singlet near δ 4.5, not a 3H singlet near δ 3.75.",
@@ -2407,11 +2435,11 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3030,
+      "cm": 3050,
       "str": "w"
      },
      {
-      "cm": 2940,
+      "cm": 2945,
       "str": "m"
      },
      {
@@ -2423,8 +2451,8 @@
       "str": "m"
      },
      {
-      "cm": 1250,
-      "str": "m"
+      "cm": 1245,
+      "str": "w"
      }
     ]
    },

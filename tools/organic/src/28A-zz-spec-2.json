@@ -13,11 +13,23 @@
       "shape": "broad"
      },
      {
-      "cm": 2970,
+      "cm": 2960,
       "str": "s"
      },
      {
-      "cm": 1150,
+      "cm": 2880,
+      "str": "m"
+     },
+     {
+      "cm": 1380,
+      "str": "m"
+     },
+     {
+      "cm": 1140,
+      "str": "m"
+     },
+     {
+      "cm": 940,
       "str": "m"
      }
     ]
@@ -89,16 +101,20 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3310,
-      "str": "s"
+      "cm": 3325,
+      "str": "m"
      },
      {
-      "cm": 2970,
+      "cm": 2980,
       "str": "s"
      },
      {
       "cm": 2120,
       "str": "w"
+     },
+     {
+      "cm": 635,
+      "str": "s"
      }
     ]
    },
@@ -144,13 +160,13 @@
     "smi": "C=CCC=C"
    }
   ],
-  "h": "The sharp 3310 and weak 2120 cm<sup>−1</sup> bands point to one kind of alkyne. Then ask why the 1H signal near 2 ppm is a doublet.",
-  "w": "DBE = 2. The strong, sharp band at 3310 cm<sup>−1</sup> (≡C–H stretch) and the weak 2120 cm<sup>−1</sup> band (C≡C stretch) mean a <b>terminal alkyne</b>. The alkyne H at 2.04 ppm is a doublet (a small four-bond coupling across the triple bond to one H), and a 6H doublet plus a 1H multiplet is an isopropyl group. The structure is HC≡C–CH(CH<sub>3</sub>)<sub>2</sub>, <b>3-methyl-1-butyne</b>.",
+  "h": "The sharp 3325 and weak 2120 cm<sup>−1</sup> bands point to one kind of alkyne. Then ask why the 1H signal near 2 ppm is a doublet.",
+  "w": "DBE = 2. The sharp band at 3325 cm<sup>−1</sup> (≡C–H stretch) and the weak 2120 cm<sup>−1</sup> band (C≡C stretch) mean a <b>terminal alkyne</b>. The alkyne H at 2.04 ppm is a doublet (a small four-bond coupling across the triple bond to one H), and a 6H doublet plus a 1H multiplet is an isopropyl group. The structure is HC≡C–CH(CH<sub>3</sub>)<sub>2</sub>, <b>3-methyl-1-butyne</b>.",
   "x": [
    "",
    "1-Pentyne is also a terminal alkyne, but its spectrum has four signals, including a 3H triplet near 1.0 ppm and two CH<sub>2</sub> signals; there is no 6H doublet.",
-   "2-Pentyne is an internal alkyne: it has no ≡C–H, so no sharp 3310 cm<sup>−1</sup> band, and its <sup>1</sup>H spectrum is a 2H quartet-like multiplet and two 3H triplets.",
-   "1,4-Pentadiene has vinyl H at 5–6 ppm and no ≡C–H stretch at 3310 cm<sup>−1</sup> or C≡C band near 2120 cm<sup>−1</sup>."
+   "2-Pentyne is an internal alkyne: it has no ≡C–H, so no sharp 3325 cm<sup>−1</sup> band, and its <sup>1</sup>H spectrum is a 2H quartet-like multiplet and two 3H triplets.",
+   "1,4-Pentadiene has vinyl H at 5–6 ppm and no ≡C–H stretch at 3325 cm<sup>−1</sup> or C≡C band near 2120 cm<sup>−1</sup>."
   ],
   "t": "nmr",
   "k": 0
@@ -284,7 +300,11 @@
      },
      {
       "cm": 1365,
-      "str": "m"
+      "str": "s"
+     },
+     {
+      "cm": 1170,
+      "str": "s"
      }
     ]
    },
@@ -988,7 +1008,7 @@
     "type": "ir",
     "bands": [
      {
-      "cm": 3380,
+      "cm": 3365,
       "str": "s",
       "shape": "broad"
      },
@@ -998,11 +1018,39 @@
      },
      {
       "cm": 2985,
+      "str": "s"
+     },
+     {
+      "cm": 2940,
       "str": "m"
      },
      {
-      "cm": 2110,
+      "cm": 2115,
       "str": "w"
+     },
+     {
+      "cm": 1455,
+      "str": "m"
+     },
+     {
+      "cm": 1360,
+      "str": "s"
+     },
+     {
+      "cm": 1205,
+      "str": "s"
+     },
+     {
+      "cm": 1160,
+      "str": "s"
+     },
+     {
+      "cm": 955,
+      "str": "s"
+     },
+     {
+      "cm": 885,
+      "str": "s"
      }
     ]
    },
@@ -1049,7 +1097,7 @@
    }
   ],
   "h": "Find the DBE, read the three IR bands above 2000 cm<sup>−1</sup>, then explain why the alkyne H is a singlet.",
-  "w": "DBE = 2. IR: broad 3380 cm<sup>−1</sup> (O–H), sharp 3300 cm<sup>−1</sup> (≡C–H) and weak 2110 cm<sup>−1</sup> (C≡C): a terminal alkyne and an alcohol, with no C=O. <sup>1</sup>H: the 1H singlet at 2.42 ppm is the ≡C–H, the broad 1H singlet is the OH, and the 6H singlet is two equivalent CH<sub>3</sub> groups. No H appears at 3.3–4.2 ppm, so the alcohol carbon carries no H. Everything fits HC≡C–C(CH<sub>3</sub>)<sub>2</sub>OH, <b>2-methyl-3-butyn-2-ol</b>.",
+  "w": "DBE = 2. IR: broad 3365 cm<sup>−1</sup> (O–H), sharp 3300 cm<sup>−1</sup> (≡C–H) and weak 2115 cm<sup>−1</sup> (C≡C): a terminal alkyne and an alcohol, with no C=O. <sup>1</sup>H: the 1H singlet at 2.42 ppm is the ≡C–H, the broad 1H singlet is the OH, and the 6H singlet is two equivalent CH<sub>3</sub> groups. No H appears at 3.3–4.2 ppm, so the alcohol carbon carries no H. Everything fits HC≡C–C(CH<sub>3</sub>)<sub>2</sub>OH, <b>2-methyl-3-butyn-2-ol</b>.",
   "x": [
    "",
    "4-Pentyn-1-ol is a primary alcohol: a 2H CH<sub>2</sub>OH triplet near 3.7 ppm and two more CH<sub>2</sub> signals; no 6H singlet.",
