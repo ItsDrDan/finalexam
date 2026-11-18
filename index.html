@@ -680,6 +680,13 @@ let ui=LS.get('-ui',{})||{};
 const urlC=(new URLSearchParams(location.search).get('course')||'').toUpperCase().replace('CHEM','').trim();
 const state={mode:MODES.some(m=>m.id===ui.mode)?ui.mode:'boss',course:COURSES[urlC]?urlC:(COURSES[ui.course]?ui.course:DEFAULT_COURSE),
  q:null,order:null,sel:null,done:false,tries:0,correct:0,streak:0,assist:0,topic:ui.topic||'all',quick:null,deck:{},lastId:null};
+/* deep links from the textbooks: ?course=3A&mode=topic&topic=moles (or topic=measure,matter for a chapter that spans two topics) */
+(()=>{const P=new URLSearchParams(location.search),m=(P.get('mode')||'').trim(),t=(P.get('topic')||'').trim();
+ if(m&&MODES.some(x=>x.id===m))state.mode=m;
+ if(t){const ok=t.split(',').map(x=>x.trim()).filter(x=>COURSES[state.course].topics.some(y=>y[0]===x));
+  if(ok.length===1)state.topic=ok[0];else if(ok.length>1)state.topic='mix:'+ok.join(',');
+  if(ok.length&&!m)state.mode='topic'}
+ if(m||t)addEventListener('load',()=>setTimeout(()=>{const e=$('practice');if(e)scrollTo(0,e.getBoundingClientRect().top+scrollY-8)},150))})();
 /* per-question record: R[id]={r,w,last} (first-try results) */
 let R=LS.get('-rec',{})||{};let holdSave=0;const saveR=()=>{if(!holdSave)LS.set('-rec',R)};
 function qver(q){let h=2166136261>>>0;const t=String(q.q)+'|'+q.c.join('|');for(const ch of t){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)>>>0}return h.toString(36)}
@@ -753,9 +760,9 @@ function start(){clearInterval(boss.tick);clearInterval(blitz.tick);document.bod
  else if(state.mode==='quick'){state.quick={list:shuf(examPool(state.course)).slice(0,10),i:0,score:0,res:[]};if(C().exams){$('topicRow').innerHTML=examPick('qex');$('topicRow').querySelectorAll('.qex').forEach(b=>b.onclick=()=>{setExam(b.dataset.e);state.quick=null;start()})}}
  next()}
 /* ---------- topic chips ---------- */
-function topicChips(){const c=state.course,cfg=C(),valid=['all',...cfg.topics.map(t=>t[0]),...(cfg.exams||[]).map(e=>'grp:'+e.id)];if(!valid.includes(state.topic))state.topic='all';
+function topicChips(){const c=state.course,cfg=C(),mixOk=state.topic.startsWith('mix:')&&state.topic.slice(4).split(',').every(x=>cfg.topics.some(y=>y[0]===x)),valid=['all',...cfg.topics.map(t=>t[0]),...(cfg.exams||[]).map(e=>'grp:'+e.id)];if(!mixOk&&!valid.includes(state.topic))state.topic='all';
  const opt=([t,n,ic])=>{const a=topicAcc(c,t);return `<option value="${t}" ${state.topic===t?'selected':''}>${ic} ${esc(n)}${a.n?` (${Math.round(a.p*100)}%)`:''}</option>`};
- let h=`<option value="all" ${state.topic==='all'?'selected':''}>🎲 All topics (mixed)</option>`;
+ let h=(mixOk?`<option value="${state.topic}" selected>📘 This chapter: ${state.topic.slice(4).split(',').map(x=>esc(topicName(c,x))).join(' + ')}</option>`:'')+`<option value="all" ${state.topic==='all'?'selected':''}>🎲 All topics (mixed)</option>`;
  if(cfg.exams)cfg.exams.forEach(e=>{h+=`<optgroup label="${e.icon} ${e.name}"><option value="grp:${e.id}" ${state.topic==='grp:'+e.id?'selected':''}>${e.icon} All ${e.name} topics</option>${cfg.topics.filter(t=>e.topics.includes(t[0])).map(opt).join('')}</optgroup>`});
  else h+=cfg.topics.map(opt).join('');
  $('topicRow').innerHTML=`<label class="tpick"><span>Topic</span><select id="topicSel">${h}</select></label>`;
@@ -768,7 +775,7 @@ function weakPool(){const c=state.course,missed=BANK[c].filter(q=>R[q.id]&&R[q.i
  const extra=BANK[c].filter(q=>weakT.includes(q.t)&&!(R[q.id]&&R[q.id].last===1));return {missed,extra,weakT}}
 /* ---------- practice question ---------- */
 function next(){const c=state.course;let q=null;state.sel=null;state.done=false;state.tries=0;state.assisted=false;$('hintBox').className='hintbox';fb('','');
- if(state.mode==='topic'){const g=state.topic.startsWith('grp:')?examDef(c,state.topic.slice(4)).topics:null;const pool=state.topic==='all'?BANK[c]:BANK[c].filter(x=>g?g.includes(x.t):x.t===state.topic);q=draw(pool,c+':'+state.topic)}
+ if(state.mode==='topic'){const g=state.topic.startsWith('grp:')?examDef(c,state.topic.slice(4)).topics:state.topic.startsWith('mix:')?state.topic.slice(4).split(','):null;const pool=state.topic==='all'?BANK[c]:BANK[c].filter(x=>g?g.includes(x.t):x.t===state.topic);q=draw(pool,c+':'+state.topic)}
  else if(state.mode==='weak'){const w=weakPool();if(!w.missed.length&&!w.extra.length){$('qArea').innerHTML=`<div class="fb info" style="margin-top:14px">🎉 <b>No weak spots yet for ${C().name}.</b><br>Play a <b>Boss Battle</b> or <b>Quick 10</b> first. Anything you miss shows up here until you get it right.</div>`;
    $('btnRow').classList.add('hidden');return}$('btnRow').classList.remove('hidden');
   q=(w.missed.length&&(Math.random()<.75||!w.extra.length))?draw(w.missed,c+':missed'):draw(w.extra,c+':weakT');

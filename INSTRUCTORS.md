@@ -4,6 +4,8 @@
 
 Free for any instructor to share with students. Add `?course=3A`, `3B`, `1A`, `1B`, `28A` or `28B` to the link to open that course directly, for example https://itsdrdan.github.io/finalexam/?course=1A.
 
+To open Topic Training on one topic (or a chapter's topics together), add `&mode=topic&topic=` with the topic key(s), for example https://itsdrdan.github.io/finalexam/?course=3A&mode=topic&topic=moles or `topic=measure,matter`. The page scrolls straight to the questions. CHEM 3A keys: measure, atoms, electrons, matter, naming, moles, bonding, energy, gases, solutions, reactions, stoich, acids, equilibrium, nuclear.
+
 ## Courses
 
 | Button | What it covers | Practice final |
