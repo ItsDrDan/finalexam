@@ -1,0 +1,485 @@
+[
+ {
+  "id": "enol-15",
+  "d": 2,
+  "q": "Propanal is treated with dilute NaOH at 5 °C. What is the major organic product?",
+  "s": [
+   {
+    "smi": "CCC=O"
+   },
+   {
+    "arrow": "NaOH, H<sub>2</sub>O",
+    "below": "5 °C"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(O)C(C)C=O"
+   },
+   {
+    "smi": "CCC(O)CCC=O"
+   },
+   {
+    "smi": "CC/C=C(\\C)C=O"
+   },
+   {
+    "smi": "CC(C=O)C(=O)CC"
+   }
+  ],
+  "h": "Form the enolate at the α-carbon of one molecule and let it add to the C=O of a second molecule. At low temperature, does the product lose water?",
+  "w": "The enolate forms at C2 (the α-carbon) of one propanal and adds to the carbonyl carbon of another. Protonation gives the β-hydroxy aldehyde <b>3-hydroxy-2-methylpentanal</b>: the new C–C bond joins the α-carbon of one unit to the former carbonyl carbon of the other, so the methyl ends up on C2. In the cold, dehydration is slow, so aldol addition (not condensation) is the result.",
+  "x": [
+   "",
+   "This links the terminal CH<sub>3</sub> carbon to the carbonyl carbon. The CH<sub>3</sub> of propanal is β, not α, so it is not deprotonated; the nucleophile is C2.",
+   "This is the aldol condensation product, which forms on heating. At 5 °C the β-hydroxy aldehyde is the main product.",
+   "A 1,3-dicarbonyl like this comes from a Claisen-type acyl substitution, which needs a leaving group (an ester). An aldehyde has none, so its enolate adds to the C=O and gives an alcohol."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-16",
+  "d": 2,
+  "q": "Butanal is heated with aqueous NaOH. What is the major organic product?",
+  "s": [
+   {
+    "smi": "CCCC=O"
+   },
+   {
+    "arrow": "NaOH, H<sub>2</sub>O",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC/C=C(\\CC)C=O"
+   },
+   {
+    "smi": "CCCC(O)C(CC)C=O"
+   },
+   {
+    "smi": "CCCCC/C=C/C=O"
+   },
+   {
+    "smi": "CC/C=C(\\CCC)C=O"
+   }
+  ],
+  "h": "Two four-carbon units join α-carbon to carbonyl carbon; with heat, water is lost between the α- and β-carbons. Which group ends up on C2 of the product?",
+  "w": "The enolate (C2 of butanal) adds to the C=O of a second butanal. The β-hydroxy aldehyde then dehydrates by E1cB to the conjugated enal. C2 of the product carries the ethyl group (what remains of the enolate unit), and C3 carries the propyl group of the electrophile: <b>(<i>E</i>)-2-ethylhex-2-enal</b>, C<sub>8</sub>H<sub>14</sub>O.",
+  "x": [
+   "",
+   "This is the aldol addition product. On heating with base it loses water to give the conjugated enal.",
+   "A straight-chain product would require the terminal carbon to act as the nucleophile; only the α-carbon (C2) is deprotonated, so the new C–C bond creates a branch.",
+   "The branches are swapped: the alkyl group on the α-carbon must be the ethyl (C3–C4 of the enolate unit), and the propyl comes from the electrophile side."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-17",
+  "d": 2,
+  "q": "Acetophenone and benzaldehyde are heated with NaOH in ethanol. What is the major product?",
+  "s": [
+   {
+    "smi": "CC(=O)c1ccccc1"
+   },
+   "+",
+   {
+    "smi": "O=Cc1ccccc1"
+   },
+   {
+    "arrow": "NaOH, EtOH",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C(/C=C/c1ccccc1)c1ccccc1"
+   },
+   {
+    "smi": "OC(CC(=O)c1ccccc1)c1ccccc1"
+   },
+   {
+    "smi": "CC(=CC(=O)c1ccccc1)c1ccccc1"
+   },
+   {
+    "smi": "O=C(c1ccccc1)C(O)c1ccccc1"
+   }
+  ],
+  "h": "Only one partner has α-hydrogens. Which one forms the enolate, and which carbonyl is the better electrophile?",
+  "w": "Benzaldehyde has no α-H, so only acetophenone forms an enolate. Aldehydes are more electrophilic than ketones, so the enolate adds to benzaldehyde (crossed aldol, Claisen–Schmidt). Heating dehydrates the β-hydroxy ketone to the conjugated <b>(<i>E</i>)-chalcone</b>, where the C=C is conjugated with both the C=O and a ring.",
+  "x": [
+   "",
+   "This is the β-hydroxy ketone formed first. With heat and base it dehydrates (E1cB) to the extended conjugated enone.",
+   "This is the self-condensation product of acetophenone. Ketones are much poorer electrophiles than aldehydes, so the enolate prefers benzaldehyde.",
+   "Benzoin forms from two benzaldehydes with cyanide or thiazolium catalysts, not by an enolate reaction; it also contains no carbons from acetophenone."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-18",
+  "d": 2,
+  "q": "Which pair, treated with NaOH, gives one major crossed aldol product rather than a mixture?",
+  "c": [
+   "Benzaldehyde with propanal (propanal added slowly to the mixture)",
+   "Ethanal with propanal (mixed in equal amounts)",
+   "Propanal with butanal (mixed in equal amounts)",
+   "Benzaldehyde with 2,2-dimethylpropanal"
+  ],
+  "h": "A clean crossed aldol needs exactly one partner that can form an enolate, and the other partner must be a good electrophile.",
+  "w": "A crossed aldol is selective when one partner cannot enolize. <b>Benzaldehyde has no α-H</b>, so it can act only as the electrophile; adding propanal slowly keeps its concentration low, so its enolate meets mostly benzaldehyde rather than another propanal. When both partners have α-H's, four aldol products are possible.",
+  "x": [
+   "",
+   "Both aldehydes have α-H's and both are good electrophiles, so two enolates add to two carbonyls: up to four aldol products.",
+   "Both partners are enolizable aldehydes of similar reactivity; the mixture gives four products.",
+   "Neither aldehyde has an α-H (the tert-butyl carbon and the ring carbon carry none), so no enolate forms and no aldol reaction occurs."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-19",
+  "d": 3,
+  "q": "Which pair of carbonyl compounds gives the target by a crossed aldol condensation (NaOH, heat)?",
+  "s": [
+   {
+    "smi": "CCC(=O)/C(C)=C/c1ccccc1",
+    "cap": "target"
+   }
+  ],
+  "c": [
+   "Benzaldehyde and 3-pentanone",
+   "Benzaldehyde and 2-butanone",
+   "Acetophenone and butanal",
+   "Phenylacetaldehyde and 2-butanone"
+  ],
+  "h": "Break the C=C. The carbon bonded to the ring came from a C=O; the other alkene carbon was the α-carbon of the enolate partner.",
+  "w": "Disconnect the C=C of the enone. The alkene carbon bearing the phenyl group was the carbonyl carbon of the electrophile (<b>benzaldehyde</b>). The other alkene carbon, which carries the CH<sub>3</sub> and the C(=O)CH<sub>2</sub>CH<sub>3</sub>, was the α-carbon of the ketone: CH<sub>3</sub>CH<sub>2</sub>C(=O)CH<sub>2</sub>CH<sub>3</sub>, i.e., <b>3-pentanone</b>. Benzaldehyde (no α-H) and 3-pentanone (symmetric, one kind of enolate) give a single product, C<sub>12</sub>H<sub>14</sub>O.",
+  "x": [
+   "",
+   "2-Butanone would give either PhCH=CHC(=O)CH<sub>2</sub>CH<sub>3</sub> (via its CH<sub>3</sub>) or PhCH=C(CH<sub>3</sub>)C(=O)CH<sub>3</sub> (via its CH<sub>2</sub>); neither has both the α-methyl and the ethyl ketone of the target.",
+   "With acetophenone as the enolate and butanal as the electrophile, the phenyl ends up on the carbonyl carbon (PhC(=O)CH=CHCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>), not on the alkene.",
+   "Phenylacetaldehyde would place a CH<sub>2</sub> between the ring and the alkene, and it is itself enolizable, giving mixtures."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-20",
+  "d": 3,
+  "q": "Octane-2,7-dione is heated with aqueous NaOH. What is the major product of the intramolecular aldol condensation?",
+  "s": [
+   {
+    "smi": "CC(=O)CCCCC(C)=O"
+   },
+   {
+    "arrow": "NaOH, H<sub>2</sub>O",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)C1=C(C)CCC1"
+   },
+   {
+    "smi": "CC1=CC(=O)CCCC1"
+   },
+   {
+    "smi": "CC1=CC(=O)CCC1"
+   },
+   {
+    "smi": "CC(=O)C1=C(C)CCCC1"
+   }
+  ],
+  "h": "List each possible enolate carbon and count the ring size it would form by attacking the other C=O. Which ring size is favored?",
+  "w": "Number the chain C1–C8 (C=O at C2 and C7). An enolate at C1 attacking C7 would close a seven-membered ring; an enolate at C3 attacking C7 closes a <b>five-membered ring</b> (C3, C4, C5, C6, C7). Five- and six-membered rings form much faster and are less strained, so the C3 enolate wins. After dehydration the C=C sits in the ring, conjugated with the acetyl group: <b>1-acetyl-2-methylcyclopentene</b>, C<sub>8</sub>H<sub>12</sub>O (starting material minus H<sub>2</sub>O).",
+  "x": [
+   "",
+   "This seven-membered ring forms from the terminal CH<sub>3</sub> enolate attacking the far carbonyl. Seven-membered rings close more slowly and are more strained than the available five-membered ring.",
+   "This six-membered enone has only seven carbons; it is the product from heptane-2,6-dione, not octane-2,7-dione.",
+   "A six-membered ring with these substituents needs nine carbons (it would come from nonane-2,8-dione); the ring is one carbon too large for this substrate."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-21",
+  "d": 2,
+  "q": "Under NaOH and heat, the β-hydroxy ketone shown loses water to form the conjugated enone. By which mechanism does this dehydration occur?",
+  "s": [
+   {
+    "smi": "CC(O)CC(C)=O"
+   },
+   {
+    "arrow": "NaOH",
+    "below": "heat"
+   },
+   {
+    "smi": "C/C=C/C(C)=O"
+   }
+  ],
+  "c": [
+   "E1cB: deprotonation at the α-carbon gives an enolate, which then expels hydroxide",
+   "E2: hydroxide removes the α-H while water leaves in the same step",
+   "E1: the OH leaves first to form a carbocation, which then loses the α-H",
+   "S<sub>N</sub>2: hydroxide displaces the OH group, and the product then isomerizes"
+  ],
+  "h": "Hydroxide is a poor leaving group. What stabilized intermediate can form before it leaves?",
+  "w": "Hydroxide is a poor leaving group, but the α-H is acidic (pK<sub>a</sub> ≈ 20). Base first removes the α-H to give a resonance-stabilized enolate (the <i>conjugate base</i>); the enolate then pushes out <sup>−</sup>OH from the β-carbon, forming the conjugated C=C. Leaving from the conjugate base in a second step is the <b>E1cB</b> mechanism.",
+  "x": [
+   "",
+   "A concerted E2 would require hydroxide to leave without help; the stabilized enolate forms first because the α-H is acidic, so the steps are separate.",
+   "Carbocation formation needs acid to turn OH into a good leaving group (H<sub>2</sub>O); under basic conditions no carbocation forms.",
+   "Substitution of OH by OH would not remove water or create a C=C; an S<sub>N</sub>2 reaction cannot form the enone."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-22",
+  "d": 1,
+  "q": "Which compound cannot form an enolate and therefore can act only as the electrophile in an aldol reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(C)C=O"
+   },
+   {
+    "smi": "CC(C)C=O"
+   },
+   {
+    "smi": "O=CCc1ccccc1"
+   },
+   {
+    "smi": "O=C1CCCCC1"
+   }
+  ],
+  "h": "Look at the carbon(s) directly attached to the carbonyl carbon. Do they carry any H?",
+  "w": "An enolate requires an H on an α-carbon. In <b>2,2-dimethylpropanal</b> the only α-carbon is quaternary (three CH<sub>3</sub> groups), so there is no α-H; it can serve only as the electrophile.",
+  "x": [
+   "",
+   "2-Methylpropanal has one α-H on its CH carbon, so it can form an enolate (its aldol adduct cannot dehydrate, but addition still occurs).",
+   "Phenylacetaldehyde has two α-H's that are especially acidic because the enolate is conjugated with the ring.",
+   "Cyclohexanone has four α-H's (two on each α-carbon) and forms enolates readily."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-23",
+  "d": 3,
+  "q": "What is the major product of this sequence?",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   {
+    "arrow": "1. LDA, THF, −78 °C",
+    "below": "2. CH<sub>3</sub>CH<sub>2</sub>CHO  3. H<sub>3</sub>O<sup>+</sup> (cold)"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(O)C1CCCCC1=O"
+   },
+   {
+    "smi": "CC(C=O)C1(O)CCCCC1"
+   },
+   {
+    "smi": "CCC(O)C(C)C=O"
+   },
+   {
+    "smi": "CC/C=C1\\CCCCC1=O"
+   }
+  ],
+  "h": "Which carbonyl compound is present when LDA is added? Once that enolate is formed completely, what can the second carbonyl compound do?",
+  "w": "LDA converts all the cyclohexanone into its lithium enolate before the aldehyde is added (a directed aldol). Propanal is then added and acts only as the electrophile; there is no free base left to make the propanal enolate. The cyclohexanone enolate carbon bonds to the aldehyde carbon, and acidic workup gives the β-hydroxy ketone <b>2-(1-hydroxypropyl)cyclohexanone</b>.",
+  "x": [
+   "",
+   "This has the roles reversed (propanal enolate adding to cyclohexanone). That requires the propanal enolate, but LDA was consumed by cyclohexanone before propanal was added.",
+   "Propanal self-aldol needs propanal enolate; with the preformed ketone enolate and no excess base, the ketone enolate traps the aldehyde instead.",
+   "Dehydration to the enone needs heat or stronger acid/base; a cold acidic workup after a directed aldol gives the β-hydroxy ketone."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-24",
+  "d": 3,
+  "q": "Which statements about the aldol reaction are correct?<br>I. With NaOH, the aldol addition equilibrium for acetone lies on the side of acetone.<br>II. Heating drives aldol reactions toward product because dehydration forms a conjugated enone.<br>III. Once a β-hydroxy carbonyl compound forms, it cannot revert to the two carbonyl compounds.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "The aldol addition is reversible (retro-aldol). Compare how favorable it is for ketones versus aldehydes, and what dehydration adds.",
+  "w": "I is true: for ketones the aldol addition is uphill or nearly so (two sterically crowded ketones lose a C=O), so only a few percent of 4-hydroxy-4-methylpentan-2-one is present at equilibrium. II is true: dehydration to a conjugated enone is favorable and pulls the equilibrium forward. III is false: under the same base the β-hydroxy carbonyl undergoes <b>retro-aldol</b> cleavage back to the starting carbonyls. Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is also correct: forming the conjugated C=C–C=O by dehydration makes the overall condensation favorable.",
+   "Statement III is false: aldol addition is reversible, and β-hydroxy ketones fragment in base (retro-aldol).",
+   "Statement III is false because the aldol addition is an equilibrium; retro-aldol cleavage occurs under the same conditions."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-25",
+  "d": 2,
+  "q": "Which diketone gives 3-methylcyclopent-2-en-1-one by intramolecular aldol condensation (NaOH, heat)?",
+  "s": [
+   {
+    "smi": "CC1=CC(=O)CC1",
+    "cap": "target"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)CCC(C)=O"
+   },
+   {
+    "smi": "CC(=O)CCCC(C)=O"
+   },
+   {
+    "smi": "CC(=O)CCC=O"
+   },
+   {
+    "smi": "CC(=O)CCCCC(C)=O"
+   }
+  ],
+  "h": "Break the C=C of the enone: put back a C=O on the β-carbon (the one bearing the CH<sub>3</sub>) and two H's on the α-carbon. Count the carbons.",
+  "w": "The target has six carbons. Retro-aldol at the C2=C3 bond turns C3 back into a ketone (CH<sub>3</sub>C=O) and C2 back into a CH<sub>3</sub>, opening the ring: CH<sub>3</sub>C(=O)CH<sub>2</sub>CH<sub>2</sub>C(=O)CH<sub>3</sub>, <b>hexane-2,5-dione</b>. In the forward reaction the terminal CH<sub>3</sub> enolate attacks the other C=O to close a five-membered ring.",
+  "x": [
+   "",
+   "Heptane-2,6-dione closes a six-membered ring and gives 3-methylcyclohex-2-enone.",
+   "4-Oxopentanal has only five carbons; its methyl-ketone enolate attacking the CHO gives cyclopent-2-enone without the methyl group.",
+   "Octane-2,7-dione closes a five-membered ring through its internal CH<sub>2</sub> and gives 1-acetyl-2-methylcyclopentene."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-26",
+  "d": 2,
+  "q": "Acetone is heated with two equivalents of benzaldehyde in aqueous ethanolic NaOH. What is the major product?",
+  "s": [
+   {
+    "smi": "CC(C)=O"
+   },
+   "+",
+   "2",
+   {
+    "smi": "O=Cc1ccccc1"
+   },
+   {
+    "arrow": "NaOH, EtOH/H<sub>2</sub>O",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)/C=C/c1ccccc1"
+   },
+   {
+    "smi": "O=C(CC(O)c1ccccc1)CC(O)c1ccccc1"
+   },
+   {
+    "smi": "CC(C)=CC(=O)/C=C/c1ccccc1"
+   }
+  ],
+  "h": "Acetone has α-H's on both sides. After one condensation, can the other methyl group react too?",
+  "w": "Acetone's enolate adds to benzaldehyde and dehydrates to benzalacetone. Its remaining CH<sub>3</sub> is still enolizable, so with a second equivalent of benzaldehyde the sequence repeats on the other side, giving <b>(1<i>E</i>,4<i>E</i>)-1,5-diphenylpenta-1,4-dien-3-one (dibenzylideneacetone, A)</b>, C<sub>17</sub>H<sub>14</sub>O.",
+  "x": [
+   "",
+   "Benzalacetone is the product with one equivalent of benzaldehyde; with two equivalents its remaining CH<sub>3</sub> condenses again.",
+   "With heat the β-hydroxy groups are eliminated (E1cB) to give the conjugated dienone; the bis-aldol addition product does not survive.",
+   "This would need acetone to self-condense; benzaldehyde is the better electrophile and is present in excess, so acetone's enolate reacts with benzaldehyde."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-27",
+  "d": 3,
+  "q": "A single aldehyde is heated with NaOH and gives only the aldol condensation product shown (C<sub>10</sub>H<sub>18</sub>O). Which aldehyde was used?",
+  "s": [
+   {
+    "smi": "CCCC/C=C(\\CCC)C=O"
+   }
+  ],
+  "c": [
+   "Pentanal",
+   "3-Methylbutanal",
+   "Butanal",
+   "Hexanal"
+  ],
+  "h": "Self-condensation doubles the aldehyde and removes H<sub>2</sub>O. Also check the branch on the α-carbon: it is the aldehyde's chain minus its first two carbons.",
+  "w": "Self-condensation: 2 RCH<sub>2</sub>CHO → product + H<sub>2</sub>O, so each unit is C<sub>5</sub>H<sub>10</sub>O. The α-carbon of the product carries an <i>n</i>-propyl branch and the β-carbon carries an <i>n</i>-butyl chain, matching CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CHO: <b>pentanal</b>. The product is (<i>E</i>)-2-propylhept-2-enal.",
+  "x": [
+   "",
+   "3-Methylbutanal is also C<sub>5</sub>H<sub>10</sub>O, but it would give branched groups: an isopropyl on the α-carbon and an isobutyl on the β-carbon (2-isopropyl-5-methylhex-2-enal).",
+   "Butanal gives a C<sub>8</sub> product, 2-ethylhex-2-enal.",
+   "Hexanal gives a C<sub>12</sub> product, 2-butyloct-2-enal."
+  ],
+  "t": "enolates",
+  "k": 0
+ }
+]

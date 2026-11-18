@@ -1,0 +1,654 @@
+[
+ {
+  "id": "add-37",
+  "t": "addition",
+  "q": "Which products form when 2-methylbut-2-ene is treated with 1. O<sub>3</sub>, 2. (CH<sub>3</sub>)<sub>2</sub>S?",
+  "c": [
+   "Acetone and acetaldehyde",
+   "Acetone and acetic acid",
+   "Butan-2-one and formaldehyde",
+   "Propanal and acetaldehyde"
+  ],
+  "h": "Cut the C=C and put a C=O on each carbon. Reductive workup stops at the aldehyde.",
+  "w": "Ozonolysis cleaves the C=C; each alkene carbon becomes a C=O. The carbon bearing two methyls becomes acetone, and the CH carbon becomes acetaldehyde. Dimethyl sulfide is a reductive workup, so the aldehyde is not oxidized: <b>acetone and acetaldehyde</b>.",
+  "x": [
+   "",
+   "Acetic acid would form with an oxidative workup (H<sub>2</sub>O<sub>2</sub>) or hot KMnO<sub>4</sub>; (CH<sub>3</sub>)<sub>2</sub>S leaves the aldehyde intact.",
+   "Butan-2-one and formaldehyde come from 2-methylbut-1-ene, whose C=C is at the end of the chain.",
+   "Propanal and acetaldehyde come from pent-2-ene, which has no branching methyl on the alkene carbon."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CC=C(C)C"
+   },
+   {
+    "arrow": "1. O<sub>3</sub>",
+    "below": "2. (CH<sub>3</sub>)<sub>2</sub>S"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-38",
+  "t": "addition",
+  "q": "What is the product of this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "When the C=C is in a ring, ozonolysis opens the ring and both carbonyls stay in one molecule.",
+  "w": "Cleaving the ring C=C opens the ring into one chain. The methyl-bearing carbon becomes a ketone (CH<sub>3</sub>C=O) and the CH carbon becomes an aldehyde, with four CH<sub>2</sub> groups in between: <b>6-oxoheptanal</b>.",
+  "x": [
+   "",
+   "6-Oxoheptanoic acid has a carboxylic acid; that needs an oxidative workup or hot KMnO<sub>4</sub>, not (CH<sub>3</sub>)<sub>2</sub>S.",
+   "Cyclohexanone (plus formaldehyde) comes from methylenecyclohexane, whose C=C is outside the ring.",
+   "Heptane-2,6-dione would need methyl groups on both alkene carbons; the CH carbon becomes an aldehyde, not a ketone."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CC(=O)CCCCC=O"
+   },
+   {
+    "smi": "CC(=O)CCCCC(=O)O"
+   },
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   {
+    "smi": "CC(=O)CCCC(C)=O"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "1. O<sub>3</sub>",
+    "below": "2. (CH<sub>3</sub>)<sub>2</sub>S"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-39",
+  "t": "addition",
+  "q": "Alkene X (C<sub>8</sub>H<sub>14</sub>) reacts with 1. O<sub>3</sub>, 2. (CH<sub>3</sub>)<sub>2</sub>S to give octane-2,7-dione (shown) as the only organic product. What is X?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "One product containing two C=O groups from a C<sub>8</sub>H<sub>14</sub> alkene means a ring. Join the two carbonyl carbons back together with a C=C.",
+  "w": "C<sub>8</sub>H<sub>14</sub> has two degrees of unsaturation: one C=C and one ring. A single product with both carbonyls means the C=C was in a ring. Reconnecting the two ketone carbons (C2 and C7) with a double bond gives a six-membered ring with a methyl on each alkene carbon: <b>1,2-dimethylcyclohexene</b>.",
+  "x": [
+   "",
+   "1,3-Dimethylcyclohexene gives 2-methyl-6-oxoheptanal (one aldehyde), because one alkene carbon is a CH.",
+   "1-Methylcycloheptene gives 7-oxooctanal, a keto aldehyde, because one of its alkene carbons is a CH.",
+   "(2<i>E</i>,6<i>E</i>)-Octa-2,6-diene gives two acetaldehyde molecules and butanedial, three products instead of one."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "CC1=C(C)CCCC1"
+   },
+   {
+    "smi": "CC1=CC(C)CCC1"
+   },
+   {
+    "smi": "CC1=CCCCCC1"
+   },
+   {
+    "smi": "C/C=C/CC/C=C/C"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC(=O)CCCCC(C)=O"
+   }
+  ]
+ },
+ {
+  "id": "add-40",
+  "t": "addition",
+  "q": "What is the organic product of this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Hot, acidic KMnO<sub>4</sub> cleaves C=C, and any aldehyde formed is oxidized further.",
+  "w": "Hot KMnO<sub>4</sub> cleaves the C=C like ozonolysis, but the CH carbon is oxidized all the way to a carboxylic acid. The methyl-bearing carbon has no H, so it stops as a ketone: <b>6-oxoheptanoic acid</b>.",
+  "x": [
+   "",
+   "6-Oxoheptanal is the reductive ozonolysis product; hot KMnO<sub>4</sub> oxidizes the aldehyde to an acid.",
+   "The cis diol forms with cold, dilute, basic KMnO<sub>4</sub>; hot acidic KMnO<sub>4</sub> cleaves the C–C bond.",
+   "Hexanedioic acid would require cutting off the methyl carbon; a ketone carbon has no H and is not oxidized further."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CC(=O)CCCCC(=O)O"
+   },
+   {
+    "smi": "CC(=O)CCCCC=O"
+   },
+   {
+    "smi": "C[C@]1(O)CCCC[C@H]1O"
+   },
+   {
+    "smi": "OC(=O)CCCCC(=O)O"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "KMnO<sub>4</sub>, H<sub>3</sub>O<sup>+</sup>",
+    "below": "heat"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-41",
+  "t": "addition",
+  "q": "An alkene C<sub>5</sub>H<sub>10</sub> is heated with acidic KMnO<sub>4</sub>; the products are butan-2-one and CO<sub>2</sub>. What is the alkene?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "CO<sub>2</sub> comes from a terminal =CH<sub>2</sub>. Rebuild the C=C from the ketone carbon.",
+  "w": "A =CH<sub>2</sub> group is oxidized all the way to CO<sub>2</sub>. The other alkene carbon became the C=O of butan-2-one, so it carried a methyl and an ethyl: <b>2-methylbut-1-ene</b>.",
+  "x": [
+   "",
+   "2-Methylbut-2-ene gives acetone and acetic acid; neither carbon is a =CH<sub>2</sub>.",
+   "Pent-1-ene gives butanoic acid and CO<sub>2</sub>; its internal alkene carbon is a CH, which becomes an acid, not a ketone.",
+   "Pent-2-ene gives acetic acid and propanoic acid; it has no =CH<sub>2</sub> to make CO<sub>2</sub>."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "C=C(C)CC"
+   },
+   {
+    "smi": "CC=C(C)C"
+   },
+   {
+    "smi": "C=CCCC"
+   },
+   {
+    "smi": "CC=CCC"
+   }
+  ]
+ },
+ {
+  "id": "add-42",
+  "t": "addition",
+  "q": "Compound Y (C<sub>7</sub>H<sub>12</sub>) gives heptanedioic acid, HO<sub>2</sub>C(CH<sub>2</sub>)<sub>5</sub>CO<sub>2</sub>H, as the only product when heated with acidic KMnO<sub>4</sub>. What is Y?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "All seven carbons stay in one product, and both ends are COOH. Where was the C=C?",
+  "w": "The single product keeps all seven carbons, so the C=C was in a ring, and both alkene carbons were CH (each became a COOH). Joining the two acid carbons with a C=C gives a seven-membered ring: <b>cycloheptene</b>.",
+  "x": [
+   "",
+   "1-Methylcyclohexene gives 6-oxoheptanoic acid; the methyl-bearing carbon becomes a ketone, not an acid.",
+   "Methylenecyclohexane gives cyclohexanone and CO<sub>2</sub>.",
+   "Hepta-1,6-diene gives pentanedioic acid plus two CO<sub>2</sub>; the terminal CH<sub>2</sub> carbons are lost."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "C1=CCCCCC1"
+   },
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "smi": "C=C1CCCCC1"
+   },
+   {
+    "smi": "C=CCCCC=C"
+   }
+  ]
+ },
+ {
+  "id": "add-43",
+  "t": "addition",
+  "q": "Which reagents convert hex-1-ene into pentanal?",
+  "c": [
+   "1. O<sub>3</sub>  2. (CH<sub>3</sub>)<sub>2</sub>S",
+   "KMnO<sub>4</sub>, H<sub>3</sub>O<sup>+</sup>, heat",
+   "OsO<sub>4</sub> (cat.), NMO",
+   "1. O<sub>3</sub>  2. H<sub>2</sub>O<sub>2</sub>"
+  ],
+  "h": "You need to cut the C=C and stop at the aldehyde.",
+  "w": "Ozonolysis with a reductive workup cleaves the C=C into two carbonyl compounds and leaves aldehydes as aldehydes: hex-1-ene gives pentanal and formaldehyde. Answer: <b>1. O<sub>3</sub>, 2. (CH<sub>3</sub>)<sub>2</sub>S</b>.",
+  "x": [
+   "",
+   "Hot KMnO<sub>4</sub> oxidizes the aldehyde further and gives pentanoic acid (and CO<sub>2</sub>).",
+   "OsO<sub>4</sub> adds two OH groups (hexane-1,2-diol) without breaking the C–C bond.",
+   "An H<sub>2</sub>O<sub>2</sub> workup is oxidative and gives pentanoic acid."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "C=CCCCC"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "O=CCCCC"
+   }
+  ]
+ },
+ {
+  "id": "add-44",
+  "t": "addition",
+  "q": "Which reagents carry out this conversion?",
+  "c": [
+   "1. BH<sub>3</sub>·THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub> (cat.)",
+   "1. Hg(OAc)<sub>2</sub>, H<sub>2</sub>O  2. NaBH<sub>4</sub>",
+   "1. O<sub>3</sub>  2. (CH<sub>3</sub>)<sub>2</sub>S  3. NaBH<sub>4</sub>"
+  ],
+  "h": "The OH ends up on the less substituted alkene carbon.",
+  "w": "The OH is on the former =CH<sub>2</sub>, the less substituted alkene carbon: anti-Markovnikov hydration. That is <b>hydroboration–oxidation</b>.",
+  "x": [
+   "",
+   "Acid-catalyzed hydration is Markovnikov and gives 1-methylcyclohexan-1-ol.",
+   "Oxymercuration–demercuration is also Markovnikov and gives 1-methylcyclohexan-1-ol.",
+   "Ozonolysis removes the CH<sub>2</sub> carbon as formaldehyde; reducing cyclohexanone then gives cyclohexanol, which has one fewer carbon."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "C=C1CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "OCC1CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "add-45",
+  "t": "addition",
+  "q": "Which sequence converts 3,3-dimethylbut-1-ene into 2,3-dimethylbut-2-ene as the major product?",
+  "c": [
+   "1. HBr  2. NaOCH<sub>2</sub>CH<sub>3</sub>, heat",
+   "1. HBr  2. KOC(CH<sub>3</sub>)<sub>3</sub>, heat",
+   "1. HBr, ROOR  2. NaOCH<sub>2</sub>CH<sub>3</sub>, heat",
+   "1. Hg(OAc)<sub>2</sub>, H<sub>2</sub>O  2. NaBH<sub>4</sub>"
+  ],
+  "h": "The skeleton must change. Which step rearranges it, and which base gives the more substituted alkene?",
+  "w": "The target has a different carbon skeleton, so a rearrangement is needed. HBr gives the secondary cation, which undergoes a 1,2-methyl shift to the tertiary cation, giving 2-bromo-2,3-dimethylbutane. Ethoxide, a small base, then gives the Zaitsev (tetrasubstituted) alkene, <b>2,3-dimethylbut-2-ene</b>: 1. HBr, 2. NaOCH<sub>2</sub>CH<sub>3</sub>, heat.",
+  "x": [
+   "",
+   "tert-Butoxide is bulky and removes a primary CH<sub>3</sub> hydrogen, giving the Hofmann product 2,3-dimethylbut-1-ene as the major alkene.",
+   "With peroxides HBr adds anti-Markovnikov by a radical path with no rearrangement; the primary bromide then gives the ether or 3,3-dimethylbut-1-ene, never the new skeleton.",
+   "Oxymercuration–demercuration does not rearrange and gives 3,3-dimethylbutan-2-ol, not an alkene."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C=CC(C)(C)C"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC(C)=C(C)C"
+   }
+  ]
+ },
+ {
+  "id": "add-46",
+  "t": "addition",
+  "q": "Which of these alkene reactions go through a carbocation intermediate?<br>I. HBr (no peroxides)<br>II. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub> (cat.)<br>III. 1. BH<sub>3</sub>·THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH<br>IV. 1. Hg(OAc)<sub>2</sub>, H<sub>2</sub>O  2. NaBH<sub>4</sub>",
+  "c": [
+   "I and II only",
+   "I, II and IV only",
+   "II and IV only",
+   "III and IV only"
+  ],
+  "h": "Reactions that can rearrange go through free carbocations.",
+  "w": "HBr addition and acid-catalyzed hydration both begin with protonation to give a carbocation, which is why both can rearrange. Hydroboration is concerted, and oxymercuration goes through a bridged mercurinium ion instead of a free carbocation. Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "Oxymercuration goes through a bridged mercurinium ion, not a free carbocation; that is why it does not rearrange.",
+   "HBr addition (I) does go through a carbocation, and oxymercuration (IV) does not.",
+   "Hydroboration is a concerted syn addition and oxymercuration uses a bridged ion; neither has a free carbocation."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "add-47",
+  "t": "addition",
+  "q": "What is the product when (<i>E</i>)-hex-3-ene is treated with 1. mCPBA, 2. H<sub>3</sub>O<sup>+</sup>?",
+  "c": [
+   "<i>meso</i>-Hexane-3,4-diol",
+   "Racemic (3<i>R</i>,4<i>R</i>)/(3<i>S</i>,4<i>S</i>)-hexane-3,4-diol",
+   "(3<i>R</i>,4<i>R</i>)-Hexane-3,4-diol only",
+   "A 1:1 mixture of <i>meso</i> and racemic hexane-3,4-diol"
+  ],
+  "h": "Epoxidation then acid opening is an anti addition. Combine anti with trans.",
+  "w": "mCPBA gives the trans epoxide, and water opens the protonated epoxide with inversion at one carbon: overall anti addition of two OH groups. Anti addition to a trans alkene with identical ends gives the unlike (3<i>R</i>,4<i>S</i>) product: <b><i>meso</i>-hexane-3,4-diol</b>.",
+  "x": [
+   "",
+   "The racemic (<i>R</i>,<i>R</i>)/(<i>S</i>,<i>S</i>) diol comes from syn dihydroxylation (OsO<sub>4</sub>) of this <i>E</i> alkene, or anti addition to the <i>Z</i> alkene.",
+   "Achiral reactants cannot give a single enantiomer, and the anti addition to the E alkene gives the <i>meso</i> diastereomer anyway.",
+   "Epoxidation and acid opening are both stereospecific, so only one diastereomer forms."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC/C=C/CC"
+   },
+   {
+    "arrow": "1. mCPBA",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-48",
+  "t": "addition",
+  "q": "Which statements about epoxidation of alkenes with mCPBA are correct?<br>I. The oxygen is transferred in a single concerted step.<br>II. A cis alkene gives a cis epoxide.<br>III. A carbocation intermediate forms, so methyl and hydride shifts can occur.<br>IV. More highly substituted (more electron-rich) alkenes react faster.",
+  "c": [
+   "I, II and IV only",
+   "I and II only",
+   "II and III only",
+   "I, III and IV only"
+  ],
+  "h": "The peroxy acid is an electrophile, and the reaction has no intermediate.",
+  "w": "mCPBA transfers O in one concerted step (I), so the alkene geometry is kept (II) and no cation forms to rearrange (III is false). The peroxy acid is electrophilic, so electron-rich, more substituted alkenes react faster (IV). Answer: <b>I, II and IV only</b>.",
+  "x": [
+   "",
+   "Statement IV is also true: alkyl groups make the π bond more nucleophilic toward the electrophilic peroxy acid.",
+   "Statement III is false; the concerted mechanism has no carbocation and no rearrangement.",
+   "Statement III is false, and statement II (stereospecific, cis stays cis) is true."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "add-49",
+  "t": "addition",
+  "q": "Br<sub>2</sub> is added separately to (<i>E</i>)-but-2-ene and to (<i>Z</i>)-but-2-ene. How is the product from the <i>E</i> alkene related to either product from the <i>Z</i> alkene?",
+  "c": [
+   "Diastereomers",
+   "Enantiomers",
+   "Identical",
+   "Constitutional isomers"
+  ],
+  "h": "Work out each product first: anti addition to E and to Z.",
+  "w": "Anti addition to the <i>E</i> alkene gives <i>meso</i>-(2<i>R</i>,3<i>S</i>)-2,3-dibromobutane; anti addition to the <i>Z</i> alkene gives racemic (2<i>R</i>,3<i>R</i>)/(2<i>S</i>,3<i>S</i>). The <i>meso</i> compound and either chiral enantiomer are stereoisomers that are not mirror images: <b>diastereomers</b>.",
+  "x": [
+   "",
+   "A <i>meso</i> compound is its own mirror image, so it cannot be the enantiomer of a chiral compound.",
+   "The reaction is stereospecific: the two alkene isomers give different stereoisomers.",
+   "Both products are 2,3-dibromobutane, so the connectivity is the same."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C/C=C/C",
+    "cap": "E"
+   },
+   {
+    "smi": "C/C=C\\C",
+    "cap": "Z"
+   }
+  ]
+ },
+ {
+  "id": "add-50",
+  "t": "addition",
+  "q": "Limonene is treated with excess O<sub>3</sub>, then (CH<sub>3</sub>)<sub>2</sub>S. Besides formaldehyde, what is the organic product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Both C=C bonds react with excess O<sub>3</sub>. The ring C=C opens the ring; the side-chain C=CH<sub>2</sub> loses its CH<sub>2</sub>.",
+  "w": "Both alkenes are cleaved. The ring C=C opens: the methyl-bearing carbon becomes a methyl ketone and the CH carbon an aldehyde. The isopropenyl group loses CH<sub>2</sub> as formaldehyde and becomes an acetyl group. Product: <b>3-acetyl-6-oxoheptanal</b> (C<sub>9</sub>H<sub>14</sub>O<sub>3</sub>).",
+  "x": [
+   "",
+   "With excess O<sub>3</sub> the side-chain C=C is also cleaved; leaving it intact ignores the second alkene.",
+   "(CH<sub>3</sub>)<sub>2</sub>S is a reductive workup; the aldehyde is not oxidized to a carboxylic acid.",
+   "With excess O<sub>3</sub> the ring C=C is also cleaved, so the ring does not survive."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "O=CCC(C(C)=O)CCC(C)=O"
+   },
+   {
+    "smi": "O=CCC(C(C)=C)CCC(C)=O"
+   },
+   {
+    "smi": "OC(=O)CC(C(C)=O)CCC(C)=O"
+   },
+   {
+    "smi": "CC1=CCC(CC1)C(C)=O"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC1=CCC(CC1)C(=C)C",
+    "cap": "limonene"
+   }
+  ]
+ },
+ {
+  "id": "add-51",
+  "t": "addition",
+  "q": "An alkene C<sub>6</sub>H<sub>12</sub> gives propanoic acid as the only product when heated with acidic KMnO<sub>4</sub>. What is the alkene?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "A single product means the two halves of the alkene are identical.",
+  "w": "Each CH alkene carbon becomes a COOH. Two identical propanoic acid molecules mean the alkene was symmetric, CH<sub>3</sub>CH<sub>2</sub>CH=CHCH<sub>2</sub>CH<sub>3</sub>: <b>hex-3-ene</b> (either isomer gives the same product; the <i>E</i> isomer is shown).",
+  "x": [
+   "",
+   "2-Methylpent-2-ene gives acetone and propanoic acid: the carbon with two methyls becomes a ketone.",
+   "2,3-Dimethylbut-2-ene gives only acetone, a ketone, because neither alkene carbon carries an H.",
+   "Hex-1-ene gives pentanoic acid and CO<sub>2</sub>."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CC/C=C/CC"
+   },
+   {
+    "smi": "CCC=C(C)C"
+   },
+   {
+    "smi": "CC(C)=C(C)C"
+   },
+   {
+    "smi": "C=CCCCC"
+   }
+  ]
+ },
+ {
+  "id": "add-52",
+  "t": "addition",
+  "q": "What is the first intermediate formed when 2-methylbut-2-ene reacts with H<sub>2</sub>O and catalytic H<sub>2</sub>SO<sub>4</sub>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The first step is protonation of the C=C. Which carbon should get the proton?",
+  "w": "H<sup>+</sup> adds to the CH carbon so that the positive charge ends up on the carbon bearing two methyls: the <b>tertiary 2-methylbutan-2-yl cation</b>. Water then traps it.",
+  "x": [
+   "",
+   "The secondary cation forms only if H<sup>+</sup> adds to the more substituted carbon, which is the less favorable choice.",
+   "The primary cation is not formed by protonating this alkene; it would be far less stable anyway.",
+   "A carbanion would need a nucleophile to attack the alkene; in acid the alkene is the nucleophile."
+  ],
+  "k": 0,
+  "d": 1,
+  "cs": [
+   {
+    "smi": "CC[C+](C)C"
+   },
+   {
+    "smi": "C[CH+]C(C)C"
+   },
+   {
+    "smi": "[CH2+]C(C)CC"
+   },
+   {
+    "smi": "CC[C-](C)C"
+   }
+  ]
+ },
+ {
+  "id": "add-53",
+  "t": "addition",
+  "q": "Pent-4-en-1-ol reacts with Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub> (no water present) to give a cyclic product, C<sub>5</sub>H<sub>9</sub>BrO. What is it? (It forms as a racemate; one structure is drawn without stereochemistry.)",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The molecule carries its own nucleophile. Which carbon of the bromonium ion does the OH attack, and what ring size results?",
+  "w": "Br<sub>2</sub> forms a bromonium ion on C4–C5. The OH group, held in the same molecule, attacks the more substituted carbon C4 (the one that carries more δ+), forming a five-membered ring, then loses H<sup>+</sup>. Br stays on C5: <b>2-(bromomethyl)oxolane</b> (2-(bromomethyl)tetrahydrofuran).",
+  "x": [
+   "",
+   "Attack at the terminal CH<sub>2</sub> would form a six-membered ring, but that carbon carries less δ+ and the five-membered ring closes faster.",
+   "The dibromide forms when no internal nucleophile competes; here the OH captures the bromonium ion intramolecularly, and the product formula has only one Br.",
+   "The formula C<sub>5</sub>H<sub>9</sub>BrO requires a ring; this open-chain bromohydrin would be C<sub>5</sub>H<sub>11</sub>BrO<sub>2</sub> and needs water."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "BrCC1CCCO1"
+   },
+   {
+    "smi": "BrC1CCCOC1"
+   },
+   {
+    "smi": "BrCC(Br)CCCO"
+   },
+   {
+    "smi": "OCCCC(O)CBr"
+   }
+  ],
+  "s": [
+   {
+    "smi": "C=CCCCO"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-54",
+  "t": "addition",
+  "q": "Which reaction gives a product that is a racemic mixture?",
+  "c": [
+   "Cyclohexene + Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub>",
+   "(<i>E</i>)-But-2-ene + Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub>",
+   "(<i>Z</i>)-But-2-ene + OsO<sub>4</sub> (cat.), NMO",
+   "Cyclohexene + OsO<sub>4</sub> (cat.), NMO"
+  ],
+  "h": "Draw each product and look for an internal mirror plane.",
+  "w": "Br<sub>2</sub> adds anti to cyclohexene, giving trans-1,2-dibromocyclohexane, which is chiral; both enantiomers form equally, so the product is <b>racemic (cyclohexene + Br<sub>2</sub>)</b>. The other three reactions give achiral <i>meso</i> products.",
+  "x": [
+   "",
+   "Anti addition to the <i>E</i> alkene gives <i>meso</i>-2,3-dibromobutane, which is achiral.",
+   "Syn dihydroxylation of the <i>Z</i> alkene gives <i>meso</i>-butane-2,3-diol, which is achiral.",
+   "Syn dihydroxylation of cyclohexene gives cis-cyclohexane-1,2-diol, a <i>meso</i> compound."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "add-55",
+  "t": "addition",
+  "q": "What is the major product of this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Add H to the alkene carbon that already has more hydrogens.",
+  "w": "Protonation of the CH carbon gives the tertiary 1-methylcyclohexyl cation; chloride adds to it, giving <b>1-chloro-1-methylcyclohexane</b> (Markovnikov addition).",
+  "x": [
+   "",
+   "1-Chloro-2-methylcyclohexane would come from the less stable secondary cation (anti-Markovnikov regiochemistry).",
+   "(Chloromethyl)cyclohexane puts Cl on the methyl carbon, which was not part of the C=C.",
+   "1-Methylcyclohexan-1-ol is the hydration product; HCl adds H and Cl, not H and OH."
+  ],
+  "k": 0,
+  "d": 1,
+  "cs": [
+   {
+    "smi": "CC1(Cl)CCCCC1"
+   },
+   {
+    "smi": "CC1CCCCC1Cl"
+   },
+   {
+    "smi": "ClCC1CCCCC1"
+   },
+   {
+    "smi": "CC1(O)CCCCC1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "HCl"
+   },
+   "?"
+  ]
+ }
+]

@@ -1,0 +1,661 @@
+[
+ {
+  "id": "syn-21",
+  "t": "synthesis",
+  "d": 2,
+  "k": 0,
+  "q": "Which conditions convert cyclohexanone into N-benzylcyclohexanamine?",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "c1ccc(CNC2CCCCC2)cc1"
+   }
+  ],
+  "c": [
+   "C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>NH<sub>2</sub>, NaBH<sub>3</sub>CN, CH<sub>3</sub>OH, pH ≈ 6",
+   "1. NaBH<sub>4</sub>, CH<sub>3</sub>OH  2. C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>NH<sub>2</sub>, heat",
+   "1. C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>NH<sub>2</sub>, TsOH (cat.), −H<sub>2</sub>O  2. H<sub>3</sub>O<sup>+</sup>",
+   "C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>NH<sub>2</sub> and NaBH<sub>4</sub> mixed at the start, CH<sub>3</sub>OH"
+  ],
+  "h": "The C–N bond forms through an imine. Which hydride reduces an iminium ion but leaves the ketone alone?",
+  "w": "Reductive amination: the ketone and benzylamine form an imine/iminium ion under mildly acidic conditions, and sodium cyanoborohydride reduces the iminium ion much faster than it reduces the ketone, so the imine is trapped as it forms: <b>PhCH<sub>2</sub>NH<sub>2</sub>, NaBH<sub>3</sub>CN, pH ≈ 6</b>.",
+  "x": [
+   "",
+   "NaBH<sub>4</sub> first gives cyclohexanol, and an alcohol does not react with an amine (OH<sup>−</sup> is a poor leaving group).",
+   "The imine forms, but aqueous acid hydrolyzes it straight back to cyclohexanone and benzylamine; nothing reduces the C=N.",
+   "NaBH<sub>4</sub> reduces the ketone faster than the imine forms, so most of the ketone ends up as cyclohexanol."
+  ]
+ },
+ {
+  "id": "syn-22",
+  "t": "synthesis",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence converts 1-bromobutane into pentan-1-amine?",
+  "s": [
+   {
+    "smi": "CCCCBr"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCCCCN"
+   }
+  ],
+  "c": [
+   "1. NaCN, DMSO  2. LiAlH<sub>4</sub>, ether  3. H<sub>2</sub>O",
+   "1. potassium phthalimide, DMF  2. H<sub>2</sub>NNH<sub>2</sub>, ethanol, heat",
+   "1. NaCN, DMSO  2. H<sub>3</sub>O<sup>+</sup>, heat  3. SOCl<sub>2</sub>  4. NH<sub>3</sub>  5. Br<sub>2</sub>, NaOH, H<sub>2</sub>O",
+   "1. Mg, ether  2. H<sub>2</sub>C=O  3. H<sub>3</sub>O<sup>+</sup>  4. NH<sub>3</sub>, heat"
+  ],
+  "h": "Count carbons: the amine has one more carbon than the bromide, and the new carbon carries the nitrogen.",
+  "w": "Pentan-1-amine has five carbons and the NH<sub>2</sub> on the new carbon, so the extra carbon and the nitrogen should arrive together, as cyanide. S<sub>N</sub>2 with NaCN gives pentanenitrile, and LiAlH<sub>4</sub> reduces C≡N to CH<sub>2</sub>NH<sub>2</sub>: <b>1. NaCN  2. LiAlH<sub>4</sub>  3. H<sub>2</sub>O</b>.",
+  "x": [
+   "",
+   "The Gabriel synthesis makes a primary amine with the same carbon count as the halide, so this gives butan-1-amine.",
+   "This builds pentanamide, but the Hofmann rearrangement (Br<sub>2</sub>, NaOH) removes the carbonyl carbon as CO<sub>2</sub>, giving butan-1-amine.",
+   "The Grignard route gives pentan-1-ol, but NH<sub>3</sub> cannot displace OH (hydroxide is a poor leaving group), so no amine forms."
+  ]
+ },
+ {
+  "id": "syn-23",
+  "t": "synthesis",
+  "d": 2,
+  "k": 0,
+  "q": "Which reagent carries out the conversion shown?",
+  "s": [
+   {
+    "smi": "CC(=O)c1ccc([N+](=O)[O-])cc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC(=O)c1ccc(N)cc1"
+   }
+  ],
+  "c": [
+   "SnCl<sub>2</sub>, HCl; then NaOH",
+   "NaBH<sub>4</sub>, CH<sub>3</sub>OH",
+   "Zn(Hg), HCl, heat",
+   "1. LiAlH<sub>4</sub>, ether  2. H<sub>2</sub>O"
+  ],
+  "h": "Only the nitro group changes. Which reducing agent is selective for ArNO<sub>2</sub> over a ketone?",
+  "w": "Dissolving-metal reductions in acid (Sn, SnCl<sub>2</sub> or Fe with HCl) reduce an aromatic nitro group to the anilinium ion and leave a ketone untouched; NaOH then frees the amine: <b>SnCl<sub>2</sub>, HCl; then NaOH</b>.",
+  "x": [
+   "",
+   "NaBH<sub>4</sub> reduces the ketone to a secondary alcohol and does not reduce the nitro group.",
+   "Clemmensen conditions reduce the ketone C=O to CH<sub>2</sub> (and the nitro group as well), giving 4-ethylaniline.",
+   "LiAlH<sub>4</sub> reduces the ketone, and with aromatic nitro groups it gives azo compounds rather than a clean aniline."
+  ]
+ },
+ {
+  "id": "syn-24",
+  "t": "synthesis",
+  "d": 2,
+  "k": 0,
+  "q": "Which sequence converts butanoic acid into hexan-3-one?",
+  "s": [
+   {
+    "smi": "CCCC(=O)O"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCCC(=O)CC"
+   }
+  ],
+  "c": [
+   "1. SOCl<sub>2</sub>  2. (CH<sub>3</sub>CH<sub>2</sub>)<sub>2</sub>CuLi, ether, −78 °C  3. H<sub>2</sub>O",
+   "1. SOCl<sub>2</sub>  2. CH<sub>3</sub>CH<sub>2</sub>MgBr (excess), ether  3. H<sub>3</sub>O<sup>+</sup>",
+   "1. CH<sub>3</sub>CH<sub>2</sub>MgBr (2 equiv), ether  2. H<sub>3</sub>O<sup>+</sup>",
+   "1. SOCl<sub>2</sub>  2. LiAlH(Ot-Bu)<sub>3</sub>, −78 °C  3. CH<sub>3</sub>CH<sub>2</sub>MgBr, ether  4. H<sub>3</sub>O<sup>+</sup>"
+  ],
+  "h": "You need to add exactly one ethyl group to the acyl carbon and stop at the ketone. Which organometallic reacts with acid chlorides but not with ketones?",
+  "w": "Converting the acid to the acid chloride makes a strong acylating agent. A Gilman reagent transfers one alkyl group to an acid chloride but reacts only slowly with the ketone it forms, so the reaction stops at the ketone: CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>C(=O)CH<sub>2</sub>CH<sub>3</sub>, <b>hexan-3-one</b>.",
+  "x": [
+   "",
+   "Grignard reagents add to the ketone as fast as it forms, so two ethyls add and the product is 3-ethylhexan-3-ol.",
+   "The Grignard reagent simply deprotonates the carboxylic acid; the carboxylate salt does not accept a second Grignard addition, and workup returns butanoic acid.",
+   "This makes butanal and then adds ethyl, so the product is the alcohol hexan-3-ol, not the ketone."
+  ]
+ },
+ {
+  "id": "syn-25",
+  "t": "synthesis",
+  "d": 3,
+  "k": 0,
+  "q": "What is the final product of the sequence shown?",
+  "s": [
+   {
+    "smi": "C1=CCCCC1"
+   },
+   {
+    "arrow": "1. O<sub>3</sub>  2. (CH<sub>3</sub>)<sub>2</sub>S",
+    "below": "3. NaOH, H<sub>2</sub>O, heat  4. NaBH<sub>4</sub>, CH<sub>3</sub>OH"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OCC1=CCCC1"
+   },
+   {
+    "smi": "OCC1CCCC1O"
+   },
+   {
+    "smi": "OC1C=CCCC1"
+   },
+   {
+    "smi": "OC(=O)CCCCC(=O)O"
+   }
+  ],
+  "h": "Ozonolysis of cyclohexene opens the ring to a six-carbon dialdehyde. Which α-carbon can reach the other C=O to form a strain-free ring, and what does heat do to the aldol?",
+  "w": "O<sub>3</sub> then (CH<sub>3</sub>)<sub>2</sub>S cleaves cyclohexene to hexanedial, OHC(CH<sub>2</sub>)<sub>4</sub>CHO. In hot NaOH the enolate at C2 attacks C6, closing a five-membered ring (C2–C6); dehydration gives the conjugated cyclopent-1-ene-1-carbaldehyde. NaBH<sub>4</sub> reduces the aldehyde (1,2) to the primary alcohol and leaves the C=C: <b>(cyclopent-1-en-1-yl)methanol</b>.",
+  "x": [
+   "",
+   "B forms only if the aldol product does not dehydrate and the ring C=C is never made; heating with NaOH drives the elimination to the conjugated enal first.",
+   "A six-membered ring would need a seven-carbon dialdehyde; hexanedial can only close a five-membered ring (or a strained three-membered one).",
+   "Dimethyl sulfide gives a reductive workup, so the ozonide gives the dialdehyde, not adipic acid; adipic acid would also not undergo aldol reactions."
+  ]
+ },
+ {
+  "id": "syn-26",
+  "t": "synthesis",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence converts cyclohex-2-en-1-one into 2-(3-oxocyclohexyl)acetic acid?",
+  "s": [
+   {
+    "smi": "O=C1C=CCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "OC(=O)CC1CCCC(=O)C1"
+   }
+  ],
+  "c": [
+   "1. CH<sub>2</sub>(CO<sub>2</sub>Et)<sub>2</sub>, NaOEt, EtOH  2. H<sub>3</sub>O<sup>+</sup>, heat",
+   "1. LDA, THF, −78 °C  2. BrCH<sub>2</sub>CO<sub>2</sub>Et  3. H<sub>3</sub>O<sup>+</sup>, heat",
+   "1. H<sub>2</sub>, Pd/C  2. CH<sub>2</sub>(CO<sub>2</sub>Et)<sub>2</sub>, NaOEt, EtOH  3. H<sub>3</sub>O<sup>+</sup>, heat",
+   "1. CH<sub>2</sub>(CO<sub>2</sub>Et)<sub>2</sub>, NaOEt, EtOH  2. NaOH, H<sub>2</sub>O; then H<sub>3</sub>O<sup>+</sup>, 25 °C"
+  ],
+  "h": "The new CH<sub>2</sub>CO<sub>2</sub>H sits on C3, the β-carbon. Which nucleophile adds 1,4 and is a synthetic equivalent of <sup>−</sup>CH<sub>2</sub>CO<sub>2</sub>H?",
+  "w": "Diethyl malonate anion is a soft, stabilized nucleophile that adds 1,4 (Michael addition) to the β-carbon of the enone. Hot aqueous acid then hydrolyzes both esters and decarboxylates the malonic acid, leaving CH<sub>2</sub>CO<sub>2</sub>H on C3: <b>1. CH<sub>2</sub>(CO<sub>2</sub>Et)<sub>2</sub>, NaOEt  2. H<sub>3</sub>O<sup>+</sup>, heat</b>.",
+  "x": [
+   "",
+   "LDA makes the enolate at C6 (α′), so the new CH<sub>2</sub>CO<sub>2</sub>H ends up on the α-carbon next to the C=O, not on C3.",
+   "After hydrogenation there is no C=C to accept a Michael addition, so the malonate cannot bond to C3.",
+   "Saponification at 25 °C gives the substituted malonic acid; without heat it does not lose CO<sub>2</sub>, so the product keeps two CO<sub>2</sub>H groups."
+  ]
+ },
+ {
+  "id": "syn-27",
+  "t": "synthesis",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence converts toluene into 2-bromo-1-methyl-4-nitrobenzene?",
+  "s": [
+   {
+    "smi": "Cc1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "Cc1ccc([N+](=O)[O-])cc1Br"
+   }
+  ],
+  "c": [
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> (separate the para isomer)  2. Br<sub>2</sub>, FeBr<sub>3</sub>",
+   "1. Br<sub>2</sub>, FeBr<sub>3</sub> (separate the para isomer)  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> (separate the para isomer)  2. Br<sub>2</sub>, hν",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> (separate the para isomer)  2. Br<sub>2</sub>, FeBr<sub>3</sub>  3. Sn, HCl; then NaOH"
+  ],
+  "h": "In the target, Br is ortho to CH<sub>3</sub> and meta to NO<sub>2</sub>. In which intermediate do both groups send Br to that carbon?",
+  "w": "Nitration of toluene gives 4-nitrotoluene (CH<sub>3</sub> directs ortho/para). In 4-nitrotoluene, CH<sub>3</sub> directs to C2 (ortho to itself) and NO<sub>2</sub> directs meta to itself, which is also C2: the effects reinforce, and bromination gives <b>2-bromo-1-methyl-4-nitrobenzene</b>.",
+  "x": [
+   "",
+   "In 4-bromotoluene the activating CH<sub>3</sub> controls nitration, which goes ortho to CH<sub>3</sub>; the product is 4-bromo-1-methyl-2-nitrobenzene (Br and NO<sub>2</sub> swapped).",
+   "Br<sub>2</sub> with light brominates the benzylic CH<sub>3</sub> by a radical pathway, giving 4-nitrobenzyl bromide.",
+   "The first two steps give the target, but Sn/HCl then reduces the nitro group to NH<sub>2</sub>, giving 3-bromo-4-methylaniline."
+  ]
+ },
+ {
+  "id": "syn-28",
+  "t": "synthesis",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence converts benzene into 3-bromophenol?",
+  "s": [
+   {
+    "smi": "c1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "Oc1cccc(Br)c1"
+   }
+  ],
+  "c": [
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Br<sub>2</sub>, FeBr<sub>3</sub>  3. Sn, HCl; then NaOH  4. NaNO<sub>2</sub>, H<sub>2</sub>SO<sub>4</sub>, 0 °C  5. H<sub>2</sub>O, heat",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Sn, HCl; then NaOH  3. NaNO<sub>2</sub>, H<sub>2</sub>SO<sub>4</sub>, 0 °C; then H<sub>2</sub>O, heat  4. Br<sub>2</sub>, FeBr<sub>3</sub>",
+   "1. Br<sub>2</sub>, FeBr<sub>3</sub>  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  3. Sn, HCl; then NaOH  4. NaNO<sub>2</sub>, H<sub>2</sub>SO<sub>4</sub>, 0 °C  5. H<sub>2</sub>O, heat",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Br<sub>2</sub>, FeBr<sub>3</sub>  3. Sn, HCl; then NaOH  4. NaNO<sub>2</sub>, H<sub>2</sub>SO<sub>4</sub>, 0 °C  5. H<sub>3</sub>PO<sub>2</sub>"
+  ],
+  "h": "OH and Br are both ortho/para directors, yet they are meta in the target. Which meta director can later be turned into OH?",
+  "w": "Neither OH nor Br directs meta, so a meta director must place the Br and then be converted to OH. NO<sub>2</sub> directs bromination meta; reduction gives 3-bromoaniline; diazotization and warming in water replace N<sub>2</sub><sup>+</sup> with OH: <b>nitrate, brominate, reduce, NaNO<sub>2</sub>/H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O/heat</b>.",
+  "x": [
+   "",
+   "Phenol is strongly activated and directs ortho/para; bromination gives 2- and 4-bromophenol (and polybromination), not the meta isomer.",
+   "Bromine directs nitration para (and ortho), so the sequence ends with 4-bromophenol.",
+   "H<sub>3</sub>PO<sub>2</sub> replaces the diazonium group with H, not OH, so the product is bromobenzene."
+  ]
+ },
+ {
+  "id": "syn-29",
+  "t": "synthesis",
+  "d": 2,
+  "k": 0,
+  "q": "Which diene and dienophile give the Diels–Alder product shown as the major regioisomer?",
+  "s": [
+   {
+    "smi": "COC(=O)C1CCC(C)=CC1"
+   }
+  ],
+  "c": [
+   "2-methylbuta-1,3-diene + methyl propenoate (methyl acrylate)",
+   "buta-1,3-diene + methyl 2-methylpropenoate (methyl methacrylate)",
+   "(E)-penta-1,3-diene + methyl propenoate (methyl acrylate)",
+   "buta-1,3-diene + methyl (E)-but-2-enoate"
+  ],
+  "h": "The new ring C=C is between old diene C2 and C3. Where is the CH<sub>3</sub> relative to that C=C, and how far is it from the ester carbon?",
+  "w": "In the product the ring C=C came from C2=C3 of the diene and the CO<sub>2</sub>CH<sub>3</sub> sits on a carbon from the dienophile. The methyl is on a carbon of the ring C=C, so it was on C2 of the diene: isoprene. Isoprene and methyl acrylate give mainly the \"para\" (1,4) adduct, with CH<sub>3</sub> and CO<sub>2</sub>CH<sub>3</sub> on C4 and C1 of the cyclohexene: <b>isoprene + methyl acrylate</b>.",
+  "x": [
+   "",
+   "With methyl methacrylate both the CH<sub>3</sub> and the ester end up on the same sp<sup>3</sup> carbon (methyl 1-methylcyclohex-3-ene-1-carboxylate).",
+   "A 1-substituted diene gives the \"ortho\" (1,2) adduct, methyl 2-methylcyclohex-3-ene-1-carboxylate, with the CH<sub>3</sub> on an sp<sup>3</sup> carbon next to the ester.",
+   "Both substituents come from the dienophile, so they end up on adjacent sp<sup>3</sup> carbons (methyl 6-methylcyclohex-3-ene-1-carboxylate)."
+  ]
+ },
+ {
+  "id": "syn-30",
+  "t": "synthesis",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence gives the racemic trans diol shown?",
+  "s": [
+   {
+    "smi": "OC[C@@H]1CC=CC[C@H]1CO",
+    "cap": "(racemic)"
+   }
+  ],
+  "c": [
+   "1. buta-1,3-diene + diethyl fumarate, heat  2. LiAlH<sub>4</sub>, ether; then H<sub>3</sub>O<sup>+</sup>",
+   "1. buta-1,3-diene + maleic anhydride, heat  2. LiAlH<sub>4</sub>, ether; then H<sub>3</sub>O<sup>+</sup>",
+   "1. buta-1,3-diene + diethyl maleate, heat  2. LiAlH<sub>4</sub>, ether; then H<sub>3</sub>O<sup>+</sup>",
+   "1. buta-1,3-diene + diethyl fumarate, heat  2. NaBH<sub>4</sub>, ethanol"
+  ],
+  "h": "The Diels–Alder reaction is stereospecific: groups trans on the dienophile end up trans on the ring. Then ask which hydride reduces esters.",
+  "w": "The Diels–Alder reaction keeps the dienophile geometry: a trans (E) dienophile gives trans substituents, a cis (Z) dienophile gives cis. Diethyl fumarate (E) gives racemic trans-diethyl cyclohex-4-ene-1,2-dicarboxylate, and LiAlH<sub>4</sub> reduces both esters to CH<sub>2</sub>OH without touching the stereocenters: <b>diethyl fumarate, then LiAlH<sub>4</sub></b>.",
+  "x": [
+   "",
+   "Maleic anhydride is a cis dienophile, so the adduct and the diol made from it are cis (the meso diastereomer).",
+   "Diethyl maleate is the Z isomer, so the two ester groups, and the CH<sub>2</sub>OH groups made from them, are cis.",
+   "The stereochemistry is right, but NaBH<sub>4</sub> does not reduce esters, so the diester is recovered."
+  ]
+ },
+ {
+  "id": "syn-31",
+  "t": "synthesis",
+  "d": 2,
+  "k": 0,
+  "q": "Which sequence converts cyclohexene into racemic trans-2-methoxycyclohexan-1-ol?",
+  "s": [
+   {
+    "smi": "C1=CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CO[C@@H]1CCCC[C@H]1O",
+    "cap": "(racemic)"
+   }
+  ],
+  "c": [
+   "1. mCPBA, CH<sub>2</sub>Cl<sub>2</sub>  2. NaOCH<sub>3</sub>, CH<sub>3</sub>OH",
+   "1. OsO<sub>4</sub>, NMO  2. NaH (1 equiv); then CH<sub>3</sub>I",
+   "1. Hg(OAc)<sub>2</sub>, CH<sub>3</sub>OH  2. NaBH<sub>4</sub>",
+   "1. mCPBA, CH<sub>2</sub>Cl<sub>2</sub>  2. NaOCH<sub>3</sub>, CH<sub>3</sub>OH  3. NaH; then CH<sub>3</sub>I"
+  ],
+  "h": "Trans-1,2 groups on a ring come from backside opening of a three-membered ring.",
+  "w": "Epoxidation gives cyclohexene oxide; methoxide then opens it by S<sub>N</sub>2 from the face opposite the epoxide oxygen, so OCH<sub>3</sub> and OH end up trans (anti opening). The product is racemic because attack at either carbon is equally likely: <b>1. mCPBA  2. NaOCH<sub>3</sub>, CH<sub>3</sub>OH</b>.",
+  "x": [
+   "",
+   "OsO<sub>4</sub> adds both OH groups to the same face (syn), so methylating one of them gives the cis isomer (along with dimethylated product).",
+   "Alkoxymercuration–demercuration adds CH<sub>3</sub>O and H across the C=C, giving methoxycyclohexane with no OH.",
+   "The first two steps make the target, but NaH/CH<sub>3</sub>I then methylates the remaining OH, giving trans-1,2-dimethoxycyclohexane."
+  ]
+ },
+ {
+  "id": "syn-32",
+  "t": "synthesis",
+  "d": 2,
+  "k": 0,
+  "q": "A student plans to make 4-ethylaniline from benzene as shown. Which step fails, and why?",
+  "s": [
+   {
+    "smi": "c1ccccc1"
+   },
+   {
+    "arrow": "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Sn, HCl; then NaOH",
+    "below": "3. CH<sub>3</sub>CH<sub>2</sub>Cl, AlCl<sub>3</sub>"
+   },
+   {
+    "smi": "CCc1ccc(N)cc1"
+   }
+  ],
+  "c": [
+   "Step 3: the basic NH<sub>2</sub> group complexes AlCl<sub>3</sub>, making the ring strongly deactivated toward Friedel–Crafts alkylation",
+   "Step 1: nitration of benzene needs FeBr<sub>3</sub> as the catalyst rather than H<sub>2</sub>SO<sub>4</sub>",
+   "Step 2: Sn/HCl reduces the benzene ring along with the nitro group",
+   "Step 3: the primary ethyl cation rearranges, so the product is 4-isopropylaniline"
+  ],
+  "h": "Friedel–Crafts reactions need a Lewis acid. What does a Lewis acid do when it meets a Lewis base such as an amine?",
+  "w": "Steps 1 and 2 give aniline normally. In step 3 the nitrogen lone pair binds AlCl<sub>3</sub> (a Lewis acid–base complex), turning NH<sub>2</sub> into a positively charged, strongly electron-withdrawing –NH<sub>2</sub>–AlCl<sub>3</sub> group, so the ring does not undergo Friedel–Crafts alkylation. <b>Step 3 fails.</b> A workable route alkylates benzene first, nitrates (separating the para isomer), and then reduces.",
+  "x": [
+   "",
+   "Nitration uses H<sub>2</sub>SO<sub>4</sub> to generate the nitronium ion; FeBr<sub>3</sub> is the bromination catalyst, and step 1 works.",
+   "Dissolving-metal reduction converts NO<sub>2</sub> to NH<sub>2</sub> and leaves the aromatic ring intact.",
+   "An ethyl group cannot rearrange to anything more stable (there is no isopropyl skeleton in two carbons); the problem is the Lewis acid–amine complex."
+  ]
+ },
+ {
+  "id": "syn-33",
+  "t": "synthesis",
+  "d": 2,
+  "k": 0,
+  "q": "A student plans the route shown to 4-(hydroxymethyl)cyclohexan-1-one. Which step fails, and why?",
+  "s": [
+   {
+    "smi": "CCOC(=O)C1CCC(=O)CC1"
+   },
+   {
+    "arrow": "1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH  2. NaBH<sub>4</sub>, EtOH",
+    "below": "3. H<sub>3</sub>O<sup>+</sup>"
+   },
+   {
+    "smi": "OCC1CCC(=O)CC1"
+   }
+  ],
+  "c": [
+   "Step 2: NaBH<sub>4</sub> is too weak to reduce an ester; LiAlH<sub>4</sub> is needed",
+   "Step 1: ethylene glycol reacts with the ester rather than with the ketone",
+   "Step 3: aqueous acid cannot remove an acetal; TBAF is needed",
+   "Step 2: NaBH<sub>4</sub> attacks the acetal carbon and opens the ring"
+  ],
+  "h": "Check each reagent against the group it must change: acetal formation, ester reduction, acetal removal.",
+  "w": "The plan is sound in outline: protect the ketone as an acetal, reduce the ester to CH<sub>2</sub>OH, and remove the acetal with aqueous acid. The flaw is the hydride: NaBH<sub>4</sub> reduces aldehydes and ketones but not (at a useful rate) esters. With LiAlH<sub>4</sub> in step 2 the route works. <b>Step 2 fails.</b>",
+  "x": [
+   "",
+   "Acetal formation is selective for the ketone; an ester carbonyl does not form an acetal under these conditions.",
+   "Acetals are hydrolyzed by aqueous acid; TBAF removes silyl ethers.",
+   "Acetals are stable to hydride reagents and bases, which is why they work as protecting groups during reductions."
+  ]
+ },
+ {
+  "id": "syn-34",
+  "t": "synthesis",
+  "d": 3,
+  "k": 0,
+  "q": "What is the product of the sequence shown, starting from (R)-butan-2-ol?",
+  "s": [
+   {
+    "smi": "C[C@@H](O)CC"
+   },
+   {
+    "arrow": "1. TsCl, pyridine  2. NaCN, DMSO",
+    "below": "3. LiAlH<sub>4</sub>; then H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC[C@H](C)CN"
+   },
+   {
+    "smi": "CC[C@@H](C)CN"
+   },
+   {
+    "smi": "CC[C@H](C)C#N"
+   },
+   {
+    "smi": "CC[C@@H](C)C#N"
+   }
+  ],
+  "h": "Tosylation does not touch the stereocenter; one later step does. Then check what LiAlH<sub>4</sub> does to C≡N, and reassign R/S with the new groups.",
+  "w": "TsCl/pyridine makes the tosylate with retention (the C–O bond is not broken). Cyanide displaces tosylate by S<sub>N</sub>2 with inversion, giving (S)-2-methylbutanenitrile (CN outranks ethyl and methyl, like OH did, so the inverted center is S). LiAlH<sub>4</sub> reduces C≡N to CH<sub>2</sub>NH<sub>2</sub> without touching the stereocenter; CH<sub>2</sub>NH<sub>2</sub> still outranks ethyl, so the product is <b>(S)-2-methylbutan-1-amine</b>.",
+  "x": [
+   "",
+   "This is the R amine, which would require retention in the cyanide step; S<sub>N</sub>2 at the secondary tosylate inverts the center.",
+   "This is the nitrile from step 2; LiAlH<sub>4</sub> then reduces C≡N to CH<sub>2</sub>NH<sub>2</sub>, so the nitrile is not the final product.",
+   "This is the nitrile with retention; it is wrong at both the stereocenter (S<sub>N</sub>2 inverts) and the functional group (step 3 reduces it)."
+  ]
+ },
+ {
+  "id": "syn-35",
+  "t": "synthesis",
+  "d": 2,
+  "k": 0,
+  "q": "Which sequence converts 1-bromopropane into butanal?",
+  "s": [
+   {
+    "smi": "CCCBr"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCCC=O"
+   }
+  ],
+  "c": [
+   "1. Mg, ether  2. H<sub>2</sub>C=O  3. H<sub>3</sub>O<sup>+</sup>  4. PCC, CH<sub>2</sub>Cl<sub>2</sub>",
+   "1. Mg, ether  2. H<sub>2</sub>C=O  3. H<sub>3</sub>O<sup>+</sup>  4. H<sub>2</sub>CrO<sub>4</sub> (Jones)",
+   "1. Mg, ether  2. CO<sub>2</sub>  3. H<sub>3</sub>O<sup>+</sup>  4. PCC, CH<sub>2</sub>Cl<sub>2</sub>",
+   "1. Mg, ether  2. ethylene oxide  3. H<sub>3</sub>O<sup>+</sup>  4. PCC, CH<sub>2</sub>Cl<sub>2</sub>"
+  ],
+  "h": "Butanal has four carbons. How many does each electrophile add, and which oxidant stops at the aldehyde?",
+  "w": "Propylmagnesium bromide plus formaldehyde adds one carbon and gives butan-1-ol after workup. PCC (anhydrous) oxidizes a primary alcohol only to the aldehyde: <b>1. Mg  2. H<sub>2</sub>C=O  3. H<sub>3</sub>O<sup>+</sup>  4. PCC</b>.",
+  "x": [
+   "",
+   "Jones reagent is aqueous: the aldehyde forms a hydrate and is oxidized further to butanoic acid.",
+   "Carboxylation gives butanoic acid, which PCC cannot convert to an aldehyde (PCC is an oxidant, and the acid is already more oxidized).",
+   "Ethylene oxide adds two carbons, so the alcohol is pentan-1-ol and PCC gives pentanal."
+  ]
+ },
+ {
+  "id": "syn-36",
+  "t": "synthesis",
+  "d": 2,
+  "k": 0,
+  "q": "Which reaction, followed by the workup shown, gives 1,1-diphenylpropan-1-ol?",
+  "s": [
+   {
+    "smi": "CCC(O)(c1ccccc1)c1ccccc1"
+   }
+  ],
+  "c": [
+   "ethyl propanoate + C<sub>6</sub>H<sub>5</sub>MgBr (excess); then H<sub>3</sub>O<sup>+</sup>",
+   "methyl benzoate + CH<sub>3</sub>CH<sub>2</sub>MgBr (excess); then H<sub>3</sub>O<sup>+</sup>",
+   "propanoyl chloride + (C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>CuLi; then H<sub>2</sub>O",
+   "ethyl benzoate + C<sub>6</sub>H<sub>5</sub>MgBr (excess); then H<sub>3</sub>O<sup>+</sup>"
+  ],
+  "h": "An ester plus excess Grignard reagent gives a tertiary alcohol with two identical groups from the Grignard. Which two groups on the carbinol carbon are identical?",
+  "w": "Esters react with two equivalents of a Grignard reagent (addition, loss of alkoxide to give a ketone, second addition), so the carbinol carbon carries two identical R groups from RMgX and the acyl group of the ester. The target carbinol carbon has two phenyls and one ethyl: the ethyl comes from the ester (propanoate) and both phenyls from PhMgBr: <b>ethyl propanoate + excess PhMgBr</b>.",
+  "x": [
+   "",
+   "Here the two identical groups are ethyls, giving 3-phenylpentan-3-ol.",
+   "A Gilman reagent adds once to an acid chloride and stops at the ketone, propiophenone; it does not add a second phenyl.",
+   "Ethyl benzoate supplies the third phenyl as well, giving triphenylmethanol."
+  ]
+ },
+ {
+  "id": "syn-37",
+  "t": "synthesis",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence converts 2-methylcyclohexan-1-one into 2,6-dimethylcyclohexan-1-one (as a mixture of stereoisomers)?",
+  "s": [
+   {
+    "smi": "CC1CCCCC1=O"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC1CCCC(C)C1=O"
+   }
+  ],
+  "c": [
+   "1. LDA, THF, −78 °C  2. CH<sub>3</sub>I",
+   "1. NaH, THF, 25 °C (equilibrating conditions)  2. CH<sub>3</sub>I",
+   "1. Br<sub>2</sub>, CH<sub>3</sub>CO<sub>2</sub>H  2. (CH<sub>3</sub>)<sub>2</sub>CuLi",
+   "1. CH<sub>3</sub>MgBr, ether  2. H<sub>3</sub>O<sup>+</sup>"
+  ],
+  "h": "The new methyl goes on the less substituted α-carbon. Which conditions form the less substituted enolate?",
+  "w": "The new CH<sub>3</sub> must go on C6, the less substituted α-carbon. LDA, a strong, bulky base at −78 °C, removes the more accessible C6 proton fastest and irreversibly (kinetic enolate); alkylation with CH<sub>3</sub>I then gives <b>2,6-dimethylcyclohexanone</b>.",
+  "x": [
+   "",
+   "Under equilibrating conditions the more substituted (thermodynamic) enolate dominates, so methylation occurs at C2 and gives mainly 2,2-dimethylcyclohexanone.",
+   "Acid-catalyzed bromination goes through the more substituted enol, so Br goes on C2; any methyl introduced there ends up at C2, not C6 (and the cuprate does not cleanly substitute a tertiary bromide).",
+   "The Grignard reagent adds to the C=O, giving 1,2-dimethylcyclohexan-1-ol; the ketone is lost."
+  ]
+ },
+ {
+  "id": "syn-38",
+  "t": "synthesis",
+  "d": 2,
+  "k": 0,
+  "q": "What is compound X, isolated after a neutral aqueous workup?",
+  "s": [
+   {
+    "smi": "CCOC(=O)CC(C)=O"
+   },
+   {
+    "arrow": "1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH, −H<sub>2</sub>O",
+    "below": "2. LiAlH<sub>4</sub>, ether; then H<sub>2</sub>O"
+   },
+   "X"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1(CCO)OCCO1"
+   },
+   {
+    "smi": "CC(O)CCO"
+   },
+   {
+    "smi": "CC(=O)CCO"
+   },
+   {
+    "smi": "CC1(CC=O)OCCO1"
+   }
+  ],
+  "h": "Step 1 protects one carbonyl. Which carbonyl forms an acetal, and what does LiAlH<sub>4</sub> do to the other one?",
+  "w": "Ethylene glycol and acid convert the ketone (not the ester) of ethyl acetoacetate into a cyclic acetal. LiAlH<sub>4</sub> then reduces the ester to a primary alcohol; the acetal, which is stable to hydride and base, survives a neutral workup. <b>X is the acetal-protected 4-hydroxybutan-2-one</b>; aqueous acid would later remove the acetal.",
+  "x": [
+   "",
+   "Butane-1,3-diol forms only if the ketone is unprotected; the acetal keeps the ketone carbon from being reduced.",
+   "4-Hydroxybutan-2-one is what forms after acid removes the acetal; the neutral workup leaves the acetal in place.",
+   "LiAlH<sub>4</sub> does not stop at the aldehyde; the aldehyde formed after loss of ethoxide is reduced at once to the alcohol (DIBAL-H at −78 °C would be needed to stop at the aldehyde)."
+  ]
+ },
+ {
+  "id": "syn-39",
+  "t": "synthesis",
+  "d": 3,
+  "k": 0,
+  "q": "Which reaction is the best way to make ethyl 2-methyl-3-oxo-3-phenylpropanoate?",
+  "s": [
+   {
+    "smi": "CCOC(=O)C(C)C(=O)c1ccccc1"
+   }
+  ],
+  "c": [
+   "ethyl benzoate (excess) + ethyl propanoate, NaOEt, EtOH; then H<sub>3</sub>O<sup>+</sup>",
+   "ethyl benzoate + ethyl acetate, NaOEt, EtOH; then H<sub>3</sub>O<sup>+</sup>",
+   "ethyl propanoate alone, NaOEt, EtOH; then H<sub>3</sub>O<sup>+</sup>",
+   "benzaldehyde + ethyl propanoate, NaOEt, EtOH; then H<sub>3</sub>O<sup>+</sup>"
+  ],
+  "h": "A β-keto ester comes from a Claisen condensation. Disconnect the bond between the ketone carbon and the α-carbon: which ester gives the acyl group and which gives the enolate?",
+  "w": "Disconnecting the C2–C3 bond of the β-keto ester splits it into an acyl donor, PhC(=O)– from ethyl benzoate, and an ester enolate, <sup>−</sup>CH(CH<sub>3</sub>)CO<sub>2</sub>Et from ethyl propanoate. Ethyl benzoate has no α-H, so it can only be the electrophile, and using it in excess limits propanoate self-condensation: <b>crossed Claisen of ethyl benzoate and ethyl propanoate</b>.",
+  "x": [
+   "",
+   "Ethyl acetate supplies <sup>−</sup>CH<sub>2</sub>CO<sub>2</sub>Et, so the product lacks the 2-methyl group (ethyl 3-oxo-3-phenylpropanoate).",
+   "Self-Claisen of ethyl propanoate puts a propanoyl group on the α-carbon, giving ethyl 2-methyl-3-oxopentanoate, with no phenyl.",
+   "An aldehyde acceptor gives an aldol-type β-hydroxy ester (or its dehydration product), not a β-keto ester."
+  ]
+ },
+ {
+  "id": "syn-40",
+  "t": "synthesis",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence converts butane-1,3-diol into 4-hydroxybutan-2-one?",
+  "s": [
+   {
+    "smi": "OCCC(C)O"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC(=O)CCO"
+   }
+  ],
+  "c": [
+   "1. TBSCl (1 equiv), imidazole, 0 °C  2. PCC, CH<sub>2</sub>Cl<sub>2</sub>  3. TBAF, THF",
+   "1. PCC (excess), CH<sub>2</sub>Cl<sub>2</sub>",
+   "1. TBSCl (1 equiv), imidazole, 0 °C  2. TBAF, THF  3. PCC, CH<sub>2</sub>Cl<sub>2</sub>",
+   "1. TBSCl (1 equiv), imidazole, 0 °C  2. PCC, CH<sub>2</sub>Cl<sub>2</sub>  3. H<sub>2</sub>, Pd/C"
+  ],
+  "h": "Only the secondary alcohol is oxidized. Which OH does the bulky TBSCl silylate faster, and when must the TBS group come off?",
+  "w": "The bulky TBSCl reacts selectively with the less hindered primary OH, protecting it as a TBS ether. PCC then oxidizes the free secondary alcohol to the ketone, and fluoride removes the silyl group to reveal the primary alcohol: <b>1. TBSCl (1 equiv)  2. PCC  3. TBAF</b>.",
+  "x": [
+   "",
+   "Without protection PCC oxidizes both alcohols, giving 3-oxobutanal (the primary OH becomes an aldehyde).",
+   "Removing the TBS group before oxidation leaves both OH groups free again, so PCC oxidizes both.",
+   "Hydrogenation does not cleave a TBS ether, so the product is still the silyl-protected ketone."
+  ]
+ }
+]

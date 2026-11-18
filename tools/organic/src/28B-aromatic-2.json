@@ -1,0 +1,138 @@
+[
+{
+ "id": "arom-16", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Rank these nitrogen compounds in order of <b>increasing</b> basicity.",
+ "s": [{"smi": "c1cc[nH]c1", "cap": "I"}, {"smi": "c1ccncc1", "cap": "II"}, {"smi": "C1CCNCC1", "cap": "III"}],
+ "c": ["I < II < III", "II < I < III", "I < III < II", "III < II < I"],
+ "h": "For each N, ask where the lone pair is (in the π sextet? sp<sup>2</sup>? sp<sup>3</sup>?) and what protonation would cost.",
+ "w": "Pyrrole (I): the N lone pair is part of the aromatic sextet, so N-protonation would destroy aromaticity; pyrrole is a very weak base (conjugate acid pK<sub>a</sub> ≈ −4). Pyridine (II): the lone pair is in an sp<sup>2</sup> orbital outside the π system, so it is available, but the higher s character holds it tightly (pK<sub>a</sub> of pyridinium ≈ 5.2). Piperidine (III): an sp<sup>3</sup> amine lone pair, the most available (pK<sub>a</sub> of piperidinium ≈ 11.1). Order: <b>I < II < III</b>.",
+ "x": ["", "Pyrrole is far less basic than pyridine: its lone pair is tied up in the aromatic sextet, while pyridine's lone pair is free in the ring plane.", "Pyridine is less basic than piperidine because an sp<sup>2</sup> lone pair (33% s) is held closer to N than an sp<sup>3</sup> lone pair (25% s).", "This is the order of decreasing basicity; the question asks for increasing."]
+},
+{
+ "id": "arom-17", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Pyridine is protonated by HCl to give the pyridinium ion. Which description of pyridinium is correct?",
+ "s": [{"smi": "c1ccncc1"}, {"arrow": "HCl"}, {"smi": "c1cc[nH+]cc1"}, "Cl<sup>−</sup>"],
+ "c": ["Aromatic with 6 π electrons; the new N–H bond uses the in-plane sp<sup>2</sup> lone pair, which was never part of the π system", "Nonaromatic; protonation removes two electrons from the π system", "Antiaromatic with 4 π electrons; the positive charge empties one ring p orbital", "Aromatic with 8 π electrons; the new N–H bond adds two electrons to the π system"],
+ "h": "Where is pyridine's lone pair pointing: perpendicular to the ring or in the ring plane?",
+ "w": "Pyridine's six π electrons come from its three ring double bonds; the N lone pair is in an sp<sup>2</sup> orbital in the plane of the ring. Protonation uses that in-plane pair to form the N–H bond, so the π system is untouched: <b>pyridinium is still aromatic with 6 π electrons</b>. That is why pyridine is a reasonable base, unlike pyrrole.",
+ "x": ["", "The lone pair used for bonding to H<sup>+</sup> was never in the π system, so the π count stays at 6.", "The N in pyridinium is still sp<sup>2</sup> with a p orbital holding one π electron from the C=N bond; no ring p orbital is emptied.", "The N–H σ bond lies in the ring plane and cannot contribute to the π system; the count stays at 6."]
+},
+{
+ "id": "arom-18", "t": "aromatic", "d": 3, "k": 0,
+ "q": "4-(Dimethylamino)pyridine (DMAP) is about 10<sup>4</sup> times more basic than pyridine. Which nitrogen is protonated first, and why?",
+ "s": [{"smi": "C[N:2](C)c1cc[n:1]cc1"}],
+ "c": ["<i>a</i>; the NMe<sub>2</sub> group donates into the ring, raising electron density on <i>a</i> and sharing the conjugate acid's + charge over both N", "<i>b</i>; it is a trialkyl-type sp<sup>3</sup> amine, and amines are always more basic than pyridines", "<i>b</i>; the lone pair on <i>a</i> is part of the aromatic sextet and cannot be protonated", "<i>a</i>; it is sp<sup>3</sup> hybridized, so its lone pair is held less tightly than that of <i>b</i>"],
+ "h": "Draw a resonance form in which the NMe<sub>2</sub> lone pair pushes into the ring. Where does the negative charge end up?",
+ "w": "N<i>b</i> is an aniline-type nitrogen: its lone pair is conjugated with the ring (it is nearly planar, sp<sup>2</sup>-like), so it is not very basic. That donation pushes electron density onto the para ring nitrogen <i>a</i>. After <i>a</i> is protonated, the positive charge is shared with <i>b</i> through an amidinium-like resonance form (C=N<sup>+</sup>Me<sub>2</sub>). So <b>a is protonated</b>, and DMAP (conjugate acid pK<sub>a</sub> ≈ 9.6) is much more basic than pyridine (5.2).",
+ "x": ["", "N<i>b</i> is attached to an aromatic ring, so its lone pair is delocalized into the ring like aniline's; protonating it would destroy that conjugation and give no charge sharing.", "Ring nitrogen <i>a</i> is pyridine-like: its lone pair is in the ring plane, outside the sextet, and is available for protonation.", "Ring nitrogen <i>a</i> is sp<sup>2</sup>, not sp<sup>3</sup>; the extra basicity comes from resonance donation by the NMe<sub>2</sub> group, not hybridization."]
+},
+{
+ "id": "arom-19", "t": "aromatic", "d": 1, "k": 0,
+ "q": "In thiophene, how many of the sulfur lone pairs are part of the aromatic π system?",
+ "s": [{"smi": "c1ccsc1"}],
+ "c": ["One; the other lies in the plane of the ring", "Two; both are needed to reach 6 π electrons", "None; the 3p orbitals of sulfur are too large to overlap with carbon", "One, with sulfur sp<sup>3</sup> hybridized"],
+ "h": "Two C=C bonds give 4 π electrons. How many more are needed for a sextet?",
+ "w": "The two C=C bonds supply 4 π electrons, and <b>one</b> sulfur lone pair in a p orbital supplies the other 2 for an aromatic sextet. The second lone pair occupies an orbital in the ring plane, perpendicular to the π system. Thiophene is therefore aromatic.",
+ "x": ["", "Two lone pairs would give 8 π electrons (4n); only one p orbital on S is aligned with the ring p orbitals.", "Sulfur's 3p orbital does overlap with carbon 2p orbitals well enough; thiophene is clearly aromatic.", "For the lone pair to sit in a p orbital parallel to the ring, sulfur must be described as sp<sup>2</sup>, not sp<sup>3</sup>."]
+},
+{
+ "id": "arom-20", "t": "aromatic", "d": 2, "k": 0,
+ "q": "In which compound is a nitrogen lone pair <b>part of</b> the aromatic π system?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "c1ccc2[nH]ccc2c1"}, {"smi": "c1ccc2ncccc2c1"}, {"smi": "c1cncnc1"}, {"smi": "c1ccc2cnccc2c1"}],
+ "h": "A nitrogen that is part of a ring C=N bond already gives one electron to the π system. Look for a nitrogen with no ring double bond.",
+ "w": "In <b>indole</b>, the N–H nitrogen has only single bonds in the ring; to keep the ring fully conjugated its lone pair occupies a p orbital and is part of the 10-electron π system (pyrrole-like N). In quinoline, pyrimidine and isoquinoline every ring N is part of a C=N bond (pyridine-like), so each lone pair lies in the ring plane, outside the π system.",
+ "x": ["", "Quinoline's nitrogen is pyridine-like: it contributes one electron through its C=N bond and its lone pair is in the ring plane.", "Both nitrogens of pyrimidine are pyridine-like; their lone pairs are in the plane and make pyrimidine a (weak) base.", "Isoquinoline's nitrogen is pyridine-like, with its lone pair in the plane of the ring."]
+},
+{
+ "id": "arom-21", "t": "aromatic", "d": 3, "k": 0,
+ "q": "The conjugate acid of imidazole has pK<sub>a</sub> ≈ 7.0, while pyridinium has pK<sub>a</sub> ≈ 5.2. Which statement best explains why imidazole is the stronger base?",
+ "s": [{"smi": "c1c[nH]cn1"}, {"arrow": "H<sup>+</sup>"}, {"smi": "c1c[nH]c[nH+]1"}],
+ "c": ["In the imidazolium ion the positive charge is shared equally by both nitrogens through resonance, and the ring stays aromatic", "Imidazole is protonated on the N–H nitrogen, whose lone pair is held less tightly than an sp<sup>2</sup> lone pair", "The basic nitrogen of imidazole is sp<sup>3</sup> hybridized, while pyridine's nitrogen is sp<sup>2</sup>", "Protonation of pyridine destroys its aromaticity, but protonation of imidazole does not"],
+ "h": "Draw the resonance forms of the imidazolium ion. Compare them with pyridinium.",
+ "w": "Imidazole is protonated at its pyridine-like N (the one without H), using an in-plane lone pair, so aromaticity is kept, just as in pyridine. The difference is the conjugate acid: in imidazolium the N–H nitrogen's π lone pair can push into the ring to give an equivalent resonance form with the + charge on the other nitrogen (an amidinium-type cation). <b>Charge shared over two nitrogens in an aromatic ring</b> stabilizes the conjugate acid, raising its pK<sub>a</sub> to about 7.",
+ "x": ["", "Protonating the N–H nitrogen would use the lone pair that belongs to the aromatic sextet and destroy aromaticity; it is not the basic site.", "Both nitrogens of imidazole are sp<sup>2</sup>; the basic one has its lone pair in an sp<sup>2</sup> orbital, just like pyridine.", "Pyridinium is aromatic: pyridine's lone pair is outside the π system, so protonation does not disturb the sextet."]
+},
+{
+ "id": "arom-22", "t": "aromatic", "d": 2, "k": 0,
+ "q": "(<i>S</i>)-Nicotine has two nitrogens, <i>a</i> and <i>b</i>. When one equivalent of HCl is added, which nitrogen is protonated?",
+ "s": [{"smi": "C[N:1]1CCC[C@H]1c1ccc[n:2]c1"}],
+ "c": ["<i>a</i>, because its lone pair is in an sp<sup>3</sup> orbital and is the more available", "<i>b</i>, because its lone pair is part of the aromatic sextet", "<i>b</i>, because aromatic nitrogens are always the most basic site", "<i>a</i>, because protonating <i>b</i> would destroy the aromaticity of the pyridine ring"],
+ "h": "Compare a trialkylamine (sp<sup>3</sup> N) with a pyridine-type (sp<sup>2</sup> N). Typical conjugate-acid pK<sub>a</sub> values are about 10 vs 5.",
+ "w": "Nitrogen <i>a</i> is a tertiary amine in a pyrrolidine ring: its lone pair is in an sp<sup>3</sup> orbital (conjugate acid pK<sub>a</sub> ≈ 8 in nicotine). Nitrogen <i>b</i> is pyridine-like: its lone pair is in an sp<sup>2</sup> orbital with more s character and is held more tightly (pK<sub>a</sub> ≈ 3). So <b><i>a</i> is protonated first because its sp<sup>3</sup> lone pair is more available</b>.",
+ "x": ["", "Pyridine's lone pair is in the ring plane, not in the sextet; <i>b</i> can be protonated, it is simply less basic than <i>a</i>.", "Pyridine-type nitrogens are weaker bases than alkylamines because of the greater s character of their lone-pair orbital.", "The site is correct but the reason is wrong: protonating the pyridine N does not destroy aromaticity, because that lone pair is outside the π system."]
+},
+{
+ "id": "arom-23", "t": "aromatic", "d": 3, "k": 0,
+ "q": "Which of these oxygen heterocycles is aromatic?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "c1cc[o+]cc1"}, {"smi": "C1C=COC=C1"}, {"smi": "C1=COC=CO1"}, {"smi": "C1OC=CC=C1"}],
+ "h": "Check every ring atom for a p orbital, then count π electrons. A positively charged oxygen with a double bond behaves like the N of pyridine.",
+ "w": "The <b>pyrylium ion</b> is isoelectronic with pyridine: the O<sup>+</sup> is sp<sup>2</sup>, part of a ring double bond, and contributes one electron to the π system, while its remaining lone pair lies in the ring plane. Three ring double bonds give 6 π electrons in a planar, fully conjugated ring: aromatic. 4H- and 2H-pyran each contain an sp<sup>3</sup> CH<sub>2</sub> that breaks the cycle, and 1,4-dioxin would have 8 π electrons (4 from the C=C bonds, 2 from each O), so it is not aromatic.",
+ "x": ["", "4H-Pyran has an sp<sup>3</sup> CH<sub>2</sub> carbon in the ring, so conjugation is not continuous: nonaromatic.", "If each O donated one lone pair, 1,4-dioxin would have 8 π electrons (4n); it is not aromatic.", "2H-Pyran has an sp<sup>3</sup> CH<sub>2</sub> next to oxygen, which interrupts the cyclic π system: nonaromatic."]
+},
+{
+ "id": "arom-24", "t": "aromatic", "d": 3, "k": 0,
+ "q": "Tropone (cycloheptatrienone) has a much larger dipole moment than cycloheptanone, and its carbonyl oxygen is protonated far more easily than that of an ordinary ketone. Which explanation is best?",
+ "s": [{"smi": "O=C1C=CC=CC=C1"}],
+ "c": ["The dipolar resonance form, with O<sup>−</sup> and a positive seven-membered ring, contains a 6π aromatic tropylium ring and contributes strongly", "The dipolar resonance form, with O<sup>−</sup> and a positive seven-membered ring, is antiaromatic, which forces more charge onto oxygen", "The ring contains 8 π electrons including the C=O, so tropone itself is aromatic without any charge separation", "The carbonyl carbon of tropone is sp<sup>3</sup>, so the C=O bond is unusually long and polar"],
+ "h": "Push the C=O π electrons onto oxygen. Count the π electrons left in the seven-membered ring.",
+ "w": "In the charge-separated resonance form C–O<sup>−</sup>, the ring carbon becomes C<sup>+</sup>, and the ring holds the 6 π electrons of its three C=C bonds: a <b>tropylium-like aromatic sextet</b>. Because this form gains aromatic stabilization, it contributes much more than the corresponding form of an ordinary ketone. More negative charge on O means a larger dipole and a more basic oxygen (its conjugate acid is a hydroxytropylium ion, also aromatic).",
+ "x": ["", "With 6 π electrons in the ring, the dipolar form is aromatic, not antiaromatic.", "Counting the C=O as part of the ring gives 8 π electrons, a 4n count, which would not be aromatic; the stabilization comes only from the charge-separated form.", "The carbonyl carbon is sp<sup>2</sup>, as in any ketone; hybridization is not the source of the large dipole."]
+},
+{
+ "id": "arom-25", "t": "aromatic", "d": 1, "k": 0,
+ "q": "What is the correct name of this compound?",
+ "s": [{"smi": "Clc1cccc(c1)[N+](=O)[O-]"}],
+ "c": ["1-Chloro-3-nitrobenzene (<i>m</i>-chloronitrobenzene)", "1-Chloro-4-nitrobenzene (<i>p</i>-chloronitrobenzene)", "1-Chloro-2-nitrobenzene (<i>o</i>-chloronitrobenzene)", "3-Chloro-1-nitrobenzene (<i>m</i>-chloronitrobenzene)"],
+ "h": "Count the carbons between the two substituents. When locants tie, the substituent cited first in alphabetical order gets the lower number.",
+ "w": "The two groups are separated by one ring carbon, a 1,3 (<i>meta</i>) relationship. Neither chloro nor nitro is a suffix group, so both are prefixes in alphabetical order, and when the locant sets tie ({1,3} either way) the first-cited group, chloro, gets C1: <b>1-chloro-3-nitrobenzene</b>, or <i>m</i>-chloronitrobenzene.",
+ "x": ["", "1,4 (<i>para</i>) would put the groups directly across the ring; here one CH sits between them.", "1,2 (<i>ortho</i>) would put the groups on adjacent carbons; here they are separated by one carbon.", "The meta relationship is right, but with tied locants the alphabetically first prefix (chloro) gets the lower number, C1."]
+},
+{
+ "id": "arom-26", "t": "aromatic", "d": 2, "k": 0,
+ "q": "What is the IUPAC name of this compound?",
+ "s": [{"smi": "OC(=O)c1cccc(O)c1"}],
+ "c": ["3-Hydroxybenzoic acid", "5-Hydroxybenzoic acid", "3-Carboxyphenol", "4-Hydroxybenzoic acid"],
+ "h": "Which group has higher priority and becomes the parent name (suffix)? Its ring carbon is C1.",
+ "w": "The carboxylic acid outranks the OH, so the parent is benzoic acid and the carbon bearing COOH is C1. Number toward the OH by the shorter path: it is at C3 (one CH between them, <i>meta</i>). Name: <b>3-hydroxybenzoic acid</b> (<i>m</i>-hydroxybenzoic acid).",
+ "x": ["", "Numbering the long way around gives 5; the rule is to give the substituent the lowest possible locant, 3.", "A carboxylic acid outranks an alcohol/phenol, so COOH is named as the parent (benzoic acid), not as a carboxy prefix.", "In 4-hydroxybenzoic acid the OH would be directly across from COOH (para); here the relationship is meta."]
+},
+{
+ "id": "arom-27", "t": "aromatic", "d": 1, "k": 0,
+ "q": "Which structure is <i>p</i>-nitroanisole (1-methoxy-4-nitrobenzene)?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "COc1ccc(cc1)[N+](=O)[O-]"}, {"smi": "COc1cccc(c1)[N+](=O)[O-]"}, {"smi": "COc1ccccc1[N+](=O)[O-]"}, {"smi": "Oc1ccc(cc1)[N+](=O)[O-]"}],
+ "h": "Anisole is methoxybenzene. <i>Para</i> means the 1,4 positions.",
+ "w": "Anisole is C<sub>6</sub>H<sub>5</sub>OCH<sub>3</sub>; <i>para</i> places the NO<sub>2</sub> group on the carbon directly across the ring (1,4) from OCH<sub>3</sub>. The answer is the <b>1,4-disubstituted methoxy/nitro benzene</b>.",
+ "x": ["", "This is the 1,3 (<i>meta</i>) isomer, <i>m</i>-nitroanisole.", "This is the 1,2 (<i>ortho</i>) isomer, <i>o</i>-nitroanisole.", "This has OH instead of OCH<sub>3</sub>: it is <i>p</i>-nitrophenol, not an anisole."]
+},
+{
+ "id": "arom-28", "t": "aromatic", "d": 1, "k": 0,
+ "q": "What is the IUPAC name of this compound (common name <i>o</i>-cresol)?",
+ "s": [{"smi": "Cc1ccccc1O"}],
+ "c": ["2-Methylphenol", "6-Methylphenol", "1-Hydroxy-2-methylbenzene", "3-Methylphenol"],
+ "h": "The OH group outranks CH<sub>3</sub>, so it is named as the suffix and its carbon is C1.",
+ "w": "Phenol is the parent, so the OH carbon is C1. Numbering toward the methyl group the short way puts it at C2 (ortho): <b>2-methylphenol</b>.",
+ "x": ["", "Numbering the long way gives 6; the methyl must get the lowest locant, 2.", "When a ring carries OH, the compound is named as a phenol (suffix), not with a hydroxy prefix on benzene.", "3-Methylphenol is the <i>meta</i> isomer (<i>m</i>-cresol); here the groups are on adjacent carbons."]
+},
+{
+ "id": "arom-29", "t": "aromatic", "d": 1, "k": 0,
+ "q": "Which compound gives <b>no</b> benzoic acid when heated with aqueous KMnO<sub>4</sub> (then acidified)?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC(C)(C)c1ccccc1"}, {"smi": "CC(C)c1ccccc1"}, {"smi": "CCc1ccccc1"}, {"smi": "OCc1ccccc1"}],
+ "h": "Side-chain oxidation begins at the benzylic carbon. What must the benzylic carbon carry?",
+ "w": "Hot KMnO<sub>4</sub> oxidizes an alkyl side chain to COOH only if the benzylic carbon has at least one C–H bond. The benzylic carbon of <b><i>tert</i>-butylbenzene</b> is quaternary (no benzylic H), so the side chain is not oxidized.",
+ "x": ["", "Isopropylbenzene has one benzylic H, so its side chain is cleaved to COOH, giving benzoic acid.", "Ethylbenzene has two benzylic H; the whole side chain is oxidized down to a COOH on the ring.", "Benzyl alcohol already has an oxidized benzylic carbon with two H; KMnO<sub>4</sub> takes it on to benzoic acid."]
+},
+{
+ "id": "arom-30", "t": "aromatic", "d": 2, "k": 0,
+ "q": "What is the major organic product?",
+ "s": [{"smi": "CC(C)c1ccc(cc1)C(C)(C)C"}, {"arrow": "1. KMnO<sub>4</sub>, H<sub>2</sub>O, heat", "below": "2. H<sub>3</sub>O<sup>+</sup>"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC(C)(C)c1ccc(cc1)C(=O)O"}, {"smi": "OC(=O)c1ccc(cc1)C(=O)O"}, {"smi": "CC(C)c1ccc(cc1)C(=O)O"}, {"smi": "CC(C)(O)c1ccc(cc1)C(C)(C)C"}],
+ "h": "Check each benzylic carbon for an H atom.",
+ "w": "The isopropyl group has a benzylic C–H, so hot KMnO<sub>4</sub> oxidizes it all the way to a carboxylic acid (the two methyl carbons are lost). The <i>tert</i>-butyl group has no benzylic H and survives. Product: <b>4-<i>tert</i>-butylbenzoic acid</b>.",
+ "x": ["", "The <i>tert</i>-butyl group cannot be oxidized because its benzylic carbon has no H, so only one COOH forms.", "This oxidizes the wrong group: the <i>tert</i>-butyl carbon lacks a benzylic H and is untouched, while the isopropyl group is the one that reacts.", "Hot KMnO<sub>4</sub> does not stop at a tertiary benzylic alcohol; it cleaves the side chain to COOH."]
+}
+]

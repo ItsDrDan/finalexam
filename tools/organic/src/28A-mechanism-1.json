@@ -1,0 +1,719 @@
+[
+ {
+  "id": "mech-01",
+  "t": "mechanism",
+  "q": "Propene reacts with HBr in the gas phase to give 2-bromopropane. What are the signs of ΔH° and ΔS° for this reaction?",
+  "c": [
+   "ΔH° &lt; 0 and ΔS° &lt; 0",
+   "ΔH° &lt; 0 and ΔS° &gt; 0",
+   "ΔH° &gt; 0 and ΔS° &lt; 0",
+   "ΔH° &gt; 0 and ΔS° &gt; 0"
+  ],
+  "h": "Count the molecules on each side, and compare the bonds broken (one π bond, one H–Br) with the bonds formed (two σ bonds).",
+  "w": "An addition breaks a weak C=C π bond and the H–Br bond and makes two stronger σ bonds (C–H and C–Br), so heat is released: ΔH° &lt; 0. Two gas molecules become one, so disorder drops: ΔS° &lt; 0. <b>ΔH° &lt; 0 and ΔS° &lt; 0</b>. Additions like this are favored at low temperature, where the −TΔS° penalty is small.",
+  "x": [
+   "",
+   "Two molecules combine into one, which lowers the entropy; ΔS° is negative, not positive.",
+   "Two σ bonds formed are stronger than the π bond plus H–Br bond broken, so the reaction is exothermic.",
+   "Both signs are reversed: this describes the reverse reaction, the elimination of HBr from 2-bromopropane."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CC=C"
+   },
+   "+",
+   {
+    "smi": "Br"
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "CC(Br)C"
+   }
+  ]
+ },
+ {
+  "id": "mech-02",
+  "t": "mechanism",
+  "q": "The Diels–Alder reaction of 1,3-butadiene with ethylene has ΔH° &lt; 0 and ΔS° &lt; 0. How does K<sub>eq</sub> for this reaction change as the temperature is raised?",
+  "c": [
+   "K<sub>eq</sub> decreases, because the −TΔS° term becomes more unfavorable",
+   "K<sub>eq</sub> increases, because molecules collide more often at high temperature",
+   "K<sub>eq</sub> stays the same, because ΔH° and ΔS° do not depend on temperature",
+   "K<sub>eq</sub> increases, because the −TΔS° term becomes more favorable"
+  ],
+  "h": "Write ΔG° = ΔH° − TΔS°. With ΔS° negative, what does a larger T do to the −TΔS° term?",
+  "w": "With ΔS° &lt; 0, the term −TΔS° is positive and grows with temperature, so ΔG° = ΔH° − TΔS° becomes less negative (and eventually positive). Since ΔG° = −RT ln K, a less negative ΔG° means a smaller K. <b>K<sub>eq</sub> decreases with temperature</b>, which is why the retro-Diels–Alder reaction takes over when these adducts are heated strongly.",
+  "x": [
+   "",
+   "Collision frequency affects the rate (how fast equilibrium is reached), not the position of equilibrium.",
+   "Even if ΔH° and ΔS° are constant, ΔG° = ΔH° − TΔS° contains T, so K must change.",
+   "With ΔS° &lt; 0, −TΔS° is positive; it grows more unfavorable, not more favorable, as T rises."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C=CC=C"
+   },
+   "+",
+   {
+    "smi": "C=C"
+   },
+   {
+    "arrow": "heat"
+   },
+   {
+    "smi": "C1=CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "mech-03",
+  "t": "mechanism",
+  "q": "An equilibrium A ⇌ B at 25 °C (298 K) has K<sub>eq</sub> = 1.0 × 10<sup>3</sup>. What is ΔG° for A → B? (R = 8.314 J mol<sup>−1</sup> K<sup>−1</sup>)",
+  "c": [
+   "−17.1 kJ/mol",
+   "−7.4 kJ/mol",
+   "+17.1 kJ/mol",
+   "−2.5 kJ/mol"
+  ],
+  "h": "Use ΔG° = −RT ln K with the natural log, and keep the units of R in mind.",
+  "w": "ΔG° = −RT ln K = −(8.314 J mol<sup>−1</sup> K<sup>−1</sup>)(298 K)(ln 1000) = −(2478 J/mol)(6.91) = −17 100 J/mol = <b>−17.1 kJ/mol</b>. A handy rule: at 25 °C each factor of 10 in K is worth about 5.7 kJ/mol, and 3 × 5.7 = 17.1.",
+  "x": [
+   "",
+   "This uses log<sub>10</sub>(1000) = 3 instead of ln(1000) = 6.91; the equation needs the natural log.",
+   "K &gt; 1 means products are favored, so ΔG° must be negative.",
+   "This is only −RT (2.48 kJ/mol); it leaves out the ln K factor."
+  ],
+  "k": 1,
+  "d": 2
+ },
+ {
+  "id": "mech-04",
+  "t": "mechanism",
+  "q": "For methylcyclohexane, ΔG° = −7.3 kJ/mol for the ring flip of chair I to chair II at 25 °C. About what percent of the molecules have the methyl group equatorial at equilibrium?",
+  "c": [
+   "95%",
+   "99.9%",
+   "50%",
+   "5%"
+  ],
+  "h": "First find K from ΔG° = −RT ln K (watch kJ vs J), then turn K = [II]/[I] into a fraction.",
+  "w": "K = e<sup>−ΔG°/RT</sup> = e<sup>7300/(8.314 × 298)</sup> = e<sup>2.95</sup> ≈ 19. In chair II the methyl is equatorial, so the fraction equatorial = K/(1 + K) = 19/20 = <b>95%</b>.",
+  "x": [
+   "",
+   "This comes from using 10<sup>2.95</sup> instead of e<sup>2.95</sup>; ΔG° = −RT ln K uses the natural log.",
+   "This results from dividing 7.3 (kJ) by RT in J (2478), which gives K ≈ 1; convert ΔG° to 7300 J/mol first.",
+   "This is the axial percentage: a negative ΔG° for I → II favors chair II, which has the methyl equatorial."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "chair",
+    "items": [
+     {
+      "type": "chair",
+      "subs": [
+       [
+        1,
+        "up",
+        "CH<sub>3</sub>"
+       ]
+      ],
+      "flip": false,
+      "cap": "I"
+     },
+     {
+      "type": "chair",
+      "subs": [
+       [
+        1,
+        "up",
+        "CH<sub>3</sub>"
+       ]
+      ],
+      "flip": true,
+      "cap": "II"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mech-05",
+  "t": "mechanism",
+  "q": "The S<sub>N</sub>2 reaction CH<sub>3</sub>I + CH<sub>3</sub>S<sup>−</sup> → CH<sub>3</sub>SCH<sub>3</sub> + I<sup>−</sup> in DMF follows rate = <i>k</i>[CH<sub>3</sub>I][CH<sub>3</sub>S<sup>−</sup>]. If [CH<sub>3</sub>I] is tripled and [CH<sub>3</sub>S<sup>−</sup>] is halved, the initial rate becomes",
+  "c": [
+   "1.5 times the original rate",
+   "3 times the original rate",
+   "6 times the original rate",
+   "0.5 times the original rate"
+  ],
+  "h": "Multiply the factor for each concentration by its order in the rate law.",
+  "w": "Both reactants appear to the first power, so the rate changes by (3)(½) = <b>1.5</b>.",
+  "x": [
+   "",
+   "A factor of 3 ignores the change in [CH<sub>3</sub>S<sup>−</sup>]; the reaction is first order in the nucleophile too.",
+   "A factor of 6 multiplies by 2 for the nucleophile instead of by ½.",
+   "A factor of 0.5 ignores the tripling of [CH<sub>3</sub>I], which also appears in the rate law."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "mech-06",
+  "t": "mechanism",
+  "q": "2-Bromo-2-methylpropane reacts with NaN<sub>3</sub> in aqueous acetone by an S<sub>N</sub>1 mechanism. If [alkyl bromide] is halved and [N<sub>3</sub><sup>−</sup>] is doubled, the initial rate",
+  "c": [
+   "is halved",
+   "is unchanged",
+   "is doubled",
+   "drops to one-quarter"
+  ],
+  "h": "Which species are present in the rate-determining step of an S<sub>N</sub>1 reaction?",
+  "w": "The rate-determining step of S<sub>N</sub>1 is ionization of the C–Br bond, so rate = <i>k</i>[RBr]; azide is not in the rate law. Halving [RBr] <b>halves the rate</b>, and doubling [N<sub>3</sub><sup>−</sup>] has no effect.",
+  "x": [
+   "",
+   "Unchanged would be right for rate = k[RBr][N<sub>3</sub><sup>−</sup>] (an S<sub>N</sub>2 rate law), where ½ × 2 = 1.",
+   "Doubling assumes the rate depends only on azide; azide attacks after the slow step and does not appear in the rate law.",
+   "One-quarter treats the reaction as second order in RBr; S<sub>N</sub>1 is first order in substrate."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC(C)(C)Br"
+   },
+   {
+    "arrow": "NaN<sub>3</sub>",
+    "below": "H<sub>2</sub>O, acetone"
+   },
+   {
+    "smi": "CC(C)(C)N=[N+]=[N-]"
+   }
+  ]
+ },
+ {
+  "id": "mech-07",
+  "t": "mechanism",
+  "q": "Which changes increase the rate <i>constant</i> <i>k</i> (not just the rate) of a reaction?<br>I. Raising the temperature<br>II. Increasing the concentration of a reactant<br>III. Adding a catalyst that provides a lower-energy pathway",
+  "c": [
+   "I and III only",
+   "I, II and III",
+   "II only",
+   "I only"
+  ],
+  "h": "The Arrhenius equation, k = A e<sup>−Ea/RT</sup>, contains no concentration term.",
+  "w": "From k = A e<sup>−Ea/RT</sup>, k grows when T rises (I) or when Ea falls, which is what a catalyst does (III). Concentration changes the rate (rate = k[...]) but not k itself. <b>I and III only</b>.",
+  "x": [
+   "",
+   "Concentration (II) changes the rate through the rate law, but k is a constant at a given temperature.",
+   "II changes the rate, not k; and I and III do change k.",
+   "A catalyst lowers Ea, which also increases k, so III belongs with I."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "mech-08",
+  "t": "mechanism",
+  "q": "How many transition states and how many intermediates are shown in this reaction energy diagram?",
+  "c": [
+   "2 transition states and 1 intermediate",
+   "1 transition state and 2 intermediates",
+   "3 transition states and 2 intermediates",
+   "2 transition states and 2 intermediates"
+  ],
+  "h": "Transition states are maxima; intermediates are local minima between maxima. Reactants and products are not intermediates.",
+  "w": "The maxima A and C are transition states, and the valley B between them is an intermediate. <b>2 transition states and 1 intermediate</b>, so this is a two-step reaction.",
+  "x": [
+   "",
+   "This swaps the definitions: maxima (A, C) are transition states and the minimum (B) is the intermediate.",
+   "Reactants and products are not transition states or intermediates; only A, B and C count.",
+   "There is only one valley between the two peaks; reactants and products are not intermediates."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     22,
+     8,
+     15,
+     -10
+    ],
+    "tags": [
+     "",
+     "A",
+     "B",
+     "C",
+     ""
+    ],
+    "labels": [
+     "reactants",
+     "",
+     "",
+     "",
+     "products"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mech-09",
+  "t": "mechanism",
+  "q": "Which step of the reaction in this energy diagram is rate-determining, and why?",
+  "c": [
+   "Step 2, because its transition state C is the highest-energy point on the path",
+   "Step 1, because its barrier (reactants to A) is larger than the barrier from B to C",
+   "Step 1, because it is endothermic while step 2 is exothermic",
+   "Step 2, because exothermic steps are always slower than endothermic steps"
+  ],
+  "h": "Intermediate B lies above the reactants and can fall back over A easily. What is the highest point every molecule must pass?",
+  "w": "Every molecule that becomes product must pass C, the highest point on the diagram (20 units above the reactants). Intermediate B can return over A (barrier 4) more easily than it goes on over C (barrier 10), so B and the reactants equilibrate and the overall barrier is reactants → C. <b>Step 2 is rate-determining because C is the highest transition state.</b>",
+  "x": [
+   "",
+   "Comparing individual barriers misleads here: B lies above the reactants, so the overall barrier to product is reactants → C (20), larger than 14.",
+   "Whether a step is endothermic does not decide the rate-determining step; the highest transition state does.",
+   "Step 2 is the right step, but the reason is wrong: exothermic steps are not slower in general; C is simply the highest point."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     14,
+     10,
+     20,
+     -8
+    ],
+    "tags": [
+     "",
+     "A",
+     "B",
+     "C",
+     ""
+    ],
+    "labels": [
+     "reactants",
+     "",
+     "",
+     "",
+     "products"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mech-10",
+  "t": "mechanism",
+  "q": "The first step of the S<sub>N</sub>1 reaction of 2-bromo-2-methylpropane is a strongly endothermic ionization. According to the Hammond postulate, the transition state of this step most resembles",
+  "c": [
+   "the tert-butyl cation and bromide ion",
+   "2-bromo-2-methylpropane",
+   "the final substitution product",
+   "an equal blend of the alkyl bromide and the substitution product"
+  ],
+  "h": "The Hammond postulate says a transition state resembles the species (reactant or product of that step) closest to it in energy.",
+  "w": "For an endothermic step the transition state lies close in energy to the higher-energy side, the products of that step. Here those are (CH<sub>3</sub>)<sub>3</sub>C<sup>+</sup> and Br<sup>−</sup>, so the TS is late and has much carbocation character: <b>it resembles the tert-butyl cation and bromide</b>. That is why factors that stabilize the cation speed up S<sub>N</sub>1 reactions.",
+  "x": [
+   "",
+   "An early, reactant-like TS goes with an exothermic step; this ionization is endothermic.",
+   "The Hammond postulate compares a TS with the reactant and product of that one step; the final product forms in a later step.",
+   "A TS halfway between is expected only for a thermoneutral step; this step is strongly uphill."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC(C)(C)Br"
+   },
+   {
+    "arrow": "slow"
+   },
+   {
+    "smi": "C[C+](C)C"
+   },
+   "+",
+   {
+    "smi": "[Br-]"
+   }
+  ]
+ },
+ {
+  "id": "mech-11",
+  "t": "mechanism",
+  "q": "Radical bromination of propane gives about 97% 2-bromopropane, while chlorination gives only about 55% 2-chloropropane. Which explanation uses the Hammond postulate correctly?",
+  "c": [
+   "H abstraction by Br• is endothermic, so its transition state is late, resembles the alkyl radical and feels the stability difference between 2° and 1° radicals",
+   "H abstraction by Br• is exothermic, so its transition state is early and resembles propane, which makes it more selective",
+   "Br• is more reactive than Cl•, so it attacks the more crowded 2° hydrogens more often",
+   "H abstraction by Cl• is endothermic, so its transition state is late and cannot tell 2° from 1° hydrogens apart"
+  ],
+  "h": "Compare the H–Br and H–Cl bond strengths with a C–H bond to decide which abstraction step is uphill.",
+  "w": "H–Br (366 kJ/mol) is weaker than a C–H bond (about 410–420 kJ/mol), so H abstraction by Br• is endothermic; H–Cl (431 kJ/mol) is stronger, so abstraction by Cl• is exothermic. An endothermic step has a late, product-like TS with nearly formed radical character, so the 2° radical's extra stability lowers its TS a lot. <b>The late TS for bromination makes it selective.</b> The early TS for chlorination resembles propane and shows little preference.",
+  "x": [
+   "",
+   "Abstraction by Br• is endothermic, not exothermic; and an early, reactant-like TS would make a reaction less selective.",
+   "Br• is less reactive than Cl•; lower reactivity (a later TS) goes with higher selectivity.",
+   "Abstraction by Cl• is exothermic with an early TS; that is why chlorination is unselective."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "mech-12",
+  "t": "mechanism",
+  "q": "Which statements about the reaction shown in this energy diagram are true?<br>I. There are two intermediates.<br>II. The overall reaction is endothermic.<br>III. The second step is rate-determining.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "h": "Count the valleys between peaks, compare products with reactants, and find the highest peak.",
+  "w": "There are three peaks (transition states) and two valleys between them (energies 5 and 9): two intermediates, so I is true. Products lie below reactants, so the reaction is exothermic and II is false. The highest peak (18) is the second transition state, so step 2 is rate-determining and III is true. <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true: the second peak is the highest point on the diagram.",
+   "Statement II is false: the products end below the reactants, so the overall reaction is exothermic.",
+   "Statement I is true and II is false; the products lie below the reactants."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     15,
+     5,
+     18,
+     9,
+     12,
+     -6
+    ],
+    "labels": [
+     "reactants",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "products"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mech-13",
+  "t": "mechanism",
+  "q": "Which labeled atom in acetyl chloride is the most electrophilic site, the atom a nucleophile attacks?",
+  "c": [
+   "<i>b</i>, the carbonyl carbon",
+   "<i>a</i>, the methyl carbon",
+   "<i>c</i>, the carbonyl oxygen",
+   "the chlorine atom"
+  ],
+  "h": "Look for the atom with the largest partial positive charge, bonded to more than one electronegative atom.",
+  "w": "The carbonyl carbon is bonded to both O and Cl, which pull electron density away, and resonance (C<sup>+</sup>–O<sup>−</sup>) puts a positive charge on it. <b>Atom b, the carbonyl carbon</b>, is the electrophile; nucleophiles add there in acyl substitution.",
+  "x": [
+   "",
+   "The methyl carbon carries little positive charge and has no leaving group or π bond; it is not electrophilic.",
+   "The oxygen is electron-rich (δ−, lone pairs); it is a nucleophilic/basic site, not an electrophilic one.",
+   "Chlorine is δ− and holds lone pairs; it leaves as chloride but is not where a nucleophile attacks."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "[CH3:1][C:2](=[O:3])Cl"
+   }
+  ]
+ },
+ {
+  "id": "mech-14",
+  "t": "mechanism",
+  "q": "In the first step of the addition of HBr to propene, a carbocation forms. Which statement identifies the nucleophile and electrophile in that step?",
+  "c": [
+   "The C=C π bond is the nucleophile; the H of HBr is the electrophile",
+   "The Br of HBr is the nucleophile; an alkene carbon is the electrophile",
+   "The H of HBr is the nucleophile; the C=C π bond is the electrophile",
+   "The C=C π bond is the nucleophile; the Br of HBr is the electrophile"
+  ],
+  "h": "Electrons flow from the electron-rich site to the electron-poor atom. Which atom of H–Br is δ+?",
+  "w": "The π electrons of the alkene attack the δ+ hydrogen of HBr, and the H–Br bond electrons leave with bromide. <b>The π bond is the nucleophile and the H is the electrophile.</b> Bromide acts as the nucleophile only in the second step, when it attacks the carbocation.",
+  "x": [
+   "",
+   "This describes the second step (bromide attacking the cation), and it is bromide ion, not HBr, that attacks.",
+   "This reverses the electron flow: the H of HBr is δ+ and electron-poor, so it accepts electrons.",
+   "The Br in HBr is δ−; the alkene bonds to the H, which is the δ+ atom, and Br leaves as bromide."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CC=C"
+   },
+   "+",
+   {
+    "smi": "Br"
+   },
+   {
+    "arrow": "step 1"
+   },
+   {
+    "smi": "C[CH+]C"
+   },
+   "+",
+   {
+    "smi": "[Br-]"
+   }
+  ]
+ },
+ {
+  "id": "mech-15",
+  "t": "mechanism",
+  "q": "Rank these carbocations from most stable to least stable.",
+  "c": [
+   "I &gt; II &gt; III &gt; IV",
+   "I &gt; II &gt; IV &gt; III",
+   "IV &gt; I &gt; II &gt; III",
+   "I &gt; IV &gt; II &gt; III"
+  ],
+  "h": "Alkyl groups stabilize a cation by hyperconjugation and induction. A vinyl cation has its positive charge on an sp-hybridized carbon.",
+  "w": "More alkyl groups give more hyperconjugation, so 3° (I) &gt; 2° (II) &gt; 1° (III). The vinyl cation (IV) puts the charge on an sp carbon, which holds electrons tightly (50% s character), and the empty p orbital lies in the plane of the π bond, so the π bond cannot donate into it. Vinyl cations are even less stable than primary cations. <b>I &gt; II &gt; III &gt; IV</b>.",
+  "x": [
+   "",
+   "A vinyl cation is not stabilized by its π bond (the empty orbital is perpendicular to it) and is less stable than a primary cation.",
+   "A vinyl cation is not allylic; its π bond cannot delocalize the charge, so it does not rank first.",
+   "The vinyl cation, not the primary cation, is the least stable; it does not rank above the 2° and 1° alkyl cations."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC[C+](C)C",
+    "cap": "I"
+   },
+   {
+    "smi": "CC[CH+]CC",
+    "cap": "II"
+   },
+   {
+    "smi": "CCC[CH2+]",
+    "cap": "III"
+   },
+   {
+    "smi": "CC=[CH+]",
+    "cap": "IV"
+   }
+  ]
+ },
+ {
+  "id": "mech-16",
+  "t": "mechanism",
+  "q": "Rank these secondary carbocations from most stable to least stable.",
+  "c": [
+   "I &gt; II &gt; III",
+   "II &gt; I &gt; III",
+   "III &gt; II &gt; I",
+   "II &gt; III &gt; I"
+  ],
+  "h": "Ask whether the neighboring atom can donate a lone pair into the empty p orbital, or instead withdraws electron density.",
+  "w": "In I, an oxygen lone pair donates into the empty p orbital (resonance form C=O<sup>+</sup>–CH<sub>3</sub> where every atom has an octet), a strong stabilization that outweighs oxygen's inductive pull. II is an ordinary 2° alkyl cation. In III the carbonyl group next to the cationic carbon withdraws electrons (its carbon is δ+), destabilizing it. <b>I &gt; II &gt; III</b>.",
+  "x": [
+   "",
+   "Oxygen's inductive withdrawal is outweighed by lone-pair donation (resonance), so I is more stable than II.",
+   "The carbonyl in III cannot donate electrons to the cation; its δ+ carbon makes III the least stable.",
+   "I is the most stable, not the least: the oxygen lone pair gives a resonance form with full octets."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C[CH+]OC",
+    "cap": "I"
+   },
+   {
+    "smi": "C[CH+]CC",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(=O)[CH+]C",
+    "cap": "III"
+   }
+  ]
+ },
+ {
+  "id": "mech-17",
+  "t": "mechanism",
+  "q": "3-Methyl-2-butanol reacts with concentrated HBr to give 2-bromo-2-methylbutane as the major product. Which carbocation is attacked by bromide to form this product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The first cation forms where the OH was. Is there a hydrogen on a neighboring carbon whose shift would make the cation more substituted?",
+  "w": "Loss of water from the protonated alcohol gives a 2° cation at C2. A 1,2-hydride shift from C3 (which carries one H and two methyls) moves the positive charge to C3, giving the more stable <b>3° cation</b>. Bromide then attacks the 3° carbon, giving 2-bromo-2-methylbutane.",
+  "x": [
+   "",
+   "This is the first-formed 2° cation; bromide attacking it would give 2-bromo-3-methylbutane, not the observed product.",
+   "This is a 2° cation on an unbranched chain; no 1,2-shift turns a branched skeleton into a straight one.",
+   "This is a primary cation; hydride shifts go toward more stable cations, never from 2° to 1°."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC(O)C(C)C"
+   },
+   {
+    "arrow": "HBr"
+   },
+   {
+    "smi": "CCC(C)(C)Br"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "CC[C+](C)C"
+   },
+   {
+    "smi": "C[CH+]C(C)C"
+   },
+   {
+    "smi": "C[CH+]CCC"
+   },
+   {
+    "smi": "[CH2+]CC(C)C"
+   }
+  ]
+ },
+ {
+  "id": "mech-18",
+  "t": "mechanism",
+  "q": "3,3-Dimethyl-2-butanol is heated with HCl. The first-formed carbocation undergoes a 1,2-shift. Which carbocation does that shift produce?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The carbon next to the cationic center has no hydrogen. What group can migrate from it instead?",
+  "w": "Loss of water gives the 2° cation (CH<sub>3</sub>)<sub>3</sub>C–CH<sup>+</sup>–CH<sub>3</sub>. The neighboring quaternary carbon has no H, so a <b>1,2-methyl shift</b> moves a CH<sub>3</sub> with its bonding electrons to the cationic carbon, leaving a 3° cation (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>–CH(CH<sub>3</sub>)<sub>2</sub>. Chloride then gives 2-chloro-2,3-dimethylbutane.",
+  "x": [
+   "",
+   "This is the unrearranged 2° cation that forms first, not the product of the shift.",
+   "This is a primary cation; a hydride shift from a methyl group to the cation would trade a 2° cation for a less stable 1° one.",
+   "D has a different carbon skeleton (3-methylpentane); a single 1,2-methyl shift keeps the 2,3-dimethylbutane skeleton."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC(O)C(C)(C)C"
+   },
+   {
+    "arrow": "HCl",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "C[C+](C)C(C)C"
+   },
+   {
+    "smi": "CC(C)(C)[CH+]C"
+   },
+   {
+    "smi": "[CH2+]CC(C)(C)C"
+   },
+   {
+    "smi": "CC[C+](C)CC"
+   }
+  ]
+ },
+ {
+  "id": "mech-19",
+  "t": "mechanism",
+  "q": "When 1-cyclobutylethanol is treated with HBr, the 1-cyclobutylethyl cation forms first. A ring C–C bond then migrates to the cationic carbon. Which carbocation is produced <i>directly</i> by that migration?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Follow the atoms: the ring carbon attached to the cationic carbon loses one ring bond, and the cationic carbon becomes a ring member. Where is the positive charge left?",
+  "w": "In the alkyl shift, a ring C–C bond on the carbon next to the cation moves to the cationic carbon. The former exocyclic carbon (with its CH<sub>3</sub>) becomes part of a five-membered ring, and the positive charge is left on the old ring carbon next to it. The product is the 2-methylcyclopentyl cation: still 2°, but the 4-membered ring strain is relieved. A later 1,2-hydride shift can turn it into the 3° 1-methylcyclopentyl cation, which is how 1-bromo-1-methylcyclopentane forms.",
+  "x": [
+   "",
+   "This is formed only after a second step (a hydride shift from A); it is not the direct product of the ring bond migration.",
+   "C would come from a hydride shift without ring expansion; it keeps the strained four-membered ring.",
+   "D would require the methyl carbon to enter the ring too; only the cationic carbon joins the ring, so the ring grows from 4 to 5, not 6."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC(O)C1CCC1"
+   },
+   {
+    "arrow": "HBr"
+   },
+   {
+    "smi": "C[CH+]C1CCC1"
+   },
+   {
+    "arrow": "shift"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "CC1CCC[CH+]1"
+   },
+   {
+    "smi": "C[C+]1CCCC1"
+   },
+   {
+    "smi": "CC[C+]1CCC1"
+   },
+   {
+    "smi": "[CH+]1CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "mech-20",
+  "t": "mechanism",
+  "q": "A reaction can give two products, P and Q. At low temperature and short reaction time it gives mostly P; after long heating it gives mostly Q. Which statement is correct?",
+  "c": [
+   "P forms through the lower-energy transition state, and Q is the more stable product",
+   "P is the more stable product, and Q forms through the lower-energy transition state",
+   "P and Q form through the same transition state but differ in stability",
+   "Q forms faster, and P is the more stable product"
+  ],
+  "h": "Under kinetic control the product ratio reflects relative rates; under thermodynamic control it reflects relative product stabilities.",
+  "w": "At low temperature the products cannot revert, so the faster-forming product (lower ΔG<sup>‡</sup>) dominates: kinetic control favors P. With heating and time, the reactions become reversible and the mixture equilibrates to the more stable product: thermodynamic control favors Q. <b>P has the lower-energy transition state; Q is the more stable product.</b>",
+  "x": [
+   "",
+   "This reverses the two kinds of control: the product formed at low temperature is the kinetic (faster) one.",
+   "Different products form through different transition states; that difference is what allows kinetic control.",
+   "Q dominates only after equilibration; it is the more stable product, while P is the one formed faster."
+  ],
+  "k": 0,
+  "d": 1
+ }
+]

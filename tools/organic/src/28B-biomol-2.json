@@ -1,0 +1,592 @@
+[
+ {
+  "id": "biomol-16",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "What are the CIP configurations of the three stereocenters of open-chain D-fructose (shown)?",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "CH<sub>2</sub>OH",
+    "rows": [
+     "C=O",
+     [
+      "HO",
+      "H"
+     ],
+     [
+      "H",
+      "OH"
+     ],
+     [
+      "H",
+      "OH"
+     ]
+    ],
+    "bottom": "CH<sub>2</sub>OH",
+    "nums": true
+   }
+  ],
+  "c": [
+   "(3<i>S</i>,4<i>R</i>,5<i>R</i>)",
+   "(3<i>R</i>,4<i>S</i>,5<i>S</i>)",
+   "(3<i>R</i>,4<i>R</i>,5<i>R</i>)",
+   "(3<i>S</i>,4<i>S</i>,5<i>R</i>)"
+  ],
+  "h": "Rank OH first and H last at each center, then decide which carbon branch (up or down) wins. H is on a horizontal bond, toward you.",
+  "w": "At C3 the C2 branch (C=O: O,O,C) beats C4 (O,C,H). At C4, C3 (O,C,H) ties C5 (O,C,H) at the first atoms, but further out C3 leads to the ketone carbon while C5 leads to CH<sub>2</sub>OH, so C3 wins. At C5, C4 (O,C,H) beats CH<sub>2</sub>OH (O,H,H). So the upward carbon is always priority 2. With H toward the viewer, a right-side OH gives R and a left-side OH gives S: left, right, right = <b>(3<i>S</i>,4<i>R</i>,5<i>R</i>)</b> (confirmed with CIP software).",
+  "x": [
+   "",
+   "This inverts every center: it is L-fructose. It comes from forgetting that the horizontal H points toward you.",
+   "C3 has its –OH on the left, which gives S, not R.",
+   "C4 has its –OH on the right; with the C3 branch outranking C5 that center is R."
+  ]
+ },
+ {
+  "id": "biomol-17",
+  "t": "biomol",
+  "d": 3,
+  "k": 0,
+  "q": "β-D-Mannopyranose is shown. In its more stable chair (the <sup>4</sup>C<sub>1</sub> chair, with CH<sub>2</sub>OH equatorial), which ring substituent is axial?",
+  "f": [
+   {
+    "type": "haworth",
+    "sugar": "mannose",
+    "anomer": "b",
+    "nums": true
+   }
+  ],
+  "c": [
+   "The C2 –OH",
+   "The C1 –OH",
+   "The C4 –OH",
+   "None; all five substituents are equatorial"
+  ],
+  "h": "Start from β-D-glucopyranose, where every substituent is equatorial in this chair. How does mannose differ from glucose?",
+  "w": "In the <sup>4</sup>C<sub>1</sub> chair β-D-glucopyranose has all substituents equatorial. D-Mannose is the C2 epimer of glucose, so inverting C2 moves only that –OH, from equatorial to axial. β-D-Mannopyranose therefore has <b>the C2 –OH axial</b> and everything else equatorial.",
+  "x": [
+   "",
+   "The C1 –OH is axial in α anomers. In β-mannose it is cis to CH<sub>2</sub>OH and equatorial, as in β-glucose.",
+   "The C4 –OH of mannose has the same configuration as in glucose (equatorial). An axial C4 –OH is the mark of galactose.",
+   "That is true only for β-D-glucopyranose. Mannose differs from glucose at C2, so one group must be axial."
+  ]
+ },
+ {
+  "id": "biomol-18",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Heating D-glucose in methanol with a little HCl converts only the C1 –OH into –OCH<sub>3</sub> (giving a mixture of methyl α- and β-glucosides). Why does only the anomeric –OH react?",
+  "c": [
+   "Loss of water from C1 gives an oxocarbenium ion stabilized by the ring oxygen lone pair",
+   "The C1 –OH is the most acidic, so methoxide attacks C1 by S<sub>N</sub>2",
+   "The other –OH groups are protected by hydrogen bonds to methanol",
+   "C1 is the only primary carbon in the ring, so it reacts fastest"
+  ],
+  "h": "Under acid, which carbon can lose –OH<sub>2</sub><sup>+</sup> to give the most stabilized cation?",
+  "w": "Acid protonates the anomeric –OH, and water leaves to give a cyclic <b>oxocarbenium ion</b>, in which the ring O lone pair forms a C=O<sup>+</sup> π bond. No other ring carbon has an adjacent oxygen that can stabilize a cation, so only C1 ionizes (an S<sub>N</sub>1-like acetal formation). Methanol adds to either face of the planar ion, which is why both anomers form.",
+  "x": [
+   "",
+   "The conditions are acidic: there is no methoxide, and an S<sub>N</sub>2 at C1 would give only one anomer, not a mixture.",
+   "Hydrogen bonding to solvent does not protect an alcohol. The other OH groups are simply not ionized because their cations would not be stabilized.",
+   "C1 is a secondary carbon bonded to two oxygens. The only primary carbon is C6 (CH<sub>2</sub>OH), which does not react under these conditions."
+  ]
+ },
+ {
+  "id": "biomol-19",
+  "t": "biomol",
+  "d": 3,
+  "k": 0,
+  "q": "A disaccharide made of two D-glucopyranose units is treated with excess CH<sub>3</sub>I and Ag<sub>2</sub>O, then hydrolyzed with aqueous acid. The products are 2,3,4,6-tetra-<i>O</i>-methyl-D-glucose and 2,3,4-tri-<i>O</i>-methyl-D-glucose. What is the glycosidic linkage?",
+  "c": [
+   "1→6",
+   "1→4",
+   "1→1",
+   "1→2"
+  ],
+  "h": "Methylation caps every free –OH. Acid hydrolysis then cleaves only acetal bonds (the glycosidic bond and any methyl glycosides). Which –OH groups were not free before methylation?",
+  "w": "After hydrolysis an unmethylated –OH marks an oxygen that was tied up in a ring or a glycosidic bond. The tetramethyl unit has free C1 and C5 only: it is the nonreducing end, joined through its C1 and closed through C5. The trimethyl unit has free C1 and C5 (ring and anomeric carbon) plus a free C6 –OH, so its C6 oxygen carried the glycosidic bond. The linkage is <b>1→6</b> (as in isomaltose or gentiobiose).",
+  "x": [
+   "",
+   "A 1→4 link would leave the second unit's C4 –OH unmethylated, giving 2,3,6-tri-<i>O</i>-methylglucose, not 2,3,4-.",
+   "A 1→1 link (as in trehalose) uses both anomeric carbons, so both units would come out as 2,3,4,6-tetramethyl glucose.",
+   "A 1→2 link would leave C2 free, giving 3,4,6-tri-<i>O</i>-methylglucose."
+  ]
+ },
+ {
+  "id": "biomol-20",
+  "t": "biomol",
+  "d": 3,
+  "k": 0,
+  "q": "The disaccharide shown (lactose) is treated with Br<sub>2</sub>/H<sub>2</sub>O and then hydrolyzed with aqueous acid. What are the products?",
+  "f": [
+   {
+    "type": "haworth",
+    "rings": [
+     {
+      "sugar": "galactose",
+      "anomer": "b"
+     },
+     {
+      "sugar": "glucose",
+      "anomer": "b"
+     }
+    ],
+    "link": {
+     "from": [
+      0,
+      "up"
+     ],
+     "to": [
+      3,
+      "down"
+     ]
+    }
+   }
+  ],
+  "c": [
+   "D-galactose and D-gluconic acid",
+   "D-galactonic acid and D-glucose",
+   "D-galactonic acid and D-gluconic acid",
+   "D-galactose and D-glucose only"
+  ],
+  "h": "Bromine water oxidizes only a free aldehyde, which comes from a hemiacetal. Which ring still has one?",
+  "w": "The galactose unit is joined through its anomeric carbon (an acetal), so it cannot open. The glucose unit (right) has a free hemiacetal at C1, which opens to an aldehyde and is oxidized by Br<sub>2</sub>/H<sub>2</sub>O to a carboxylic acid (a lactobionic acid). Acid hydrolysis of the glycosidic bond then releases <b>D-galactose and D-gluconic acid</b>.",
+  "x": [
+   "",
+   "The galactose C1 is locked in the β(1→4) glycosidic acetal, so it is the unit that cannot be oxidized.",
+   "Only one anomeric carbon is free. The galactose C1 is protected as an acetal during the oxidation step.",
+   "Lactose is a reducing sugar: its glucose hemiacetal is oxidized before hydrolysis, so glucose comes out as gluconic acid."
+  ]
+ },
+ {
+  "id": "biomol-21",
+  "t": "biomol",
+  "d": 1,
+  "k": 1,
+  "q": "Alanine has p<i>K</i><sub>a</sub> values of 2.34 (α-COOH) and 9.70 (α-NH<sub>3</sub><sup>+</sup>). What is its isoelectric point?",
+  "s": [
+   {
+    "smi": "C[C@H]([NH3+])C([O-])=O"
+   }
+  ],
+  "c": [
+   "6.02",
+   "3.68",
+   "7.00",
+   "12.04"
+  ],
+  "h": "For an amino acid with no ionizable side chain, the neutral zwitterion is the major form between the two p<i>K</i><sub>a</sub> values.",
+  "w": "The pI is the pH where the average charge is zero. The zwitterion exists between the two p<i>K</i><sub>a</sub> values, and the pI is their average: (2.34 + 9.70)/2 = <b>6.02</b>.",
+  "x": [
+   "",
+   "3.68 is half the difference of the p<i>K</i><sub>a</sub> values, not their average.",
+   "pH 7.00 is neutral water. An amino acid's pI depends on its own p<i>K</i><sub>a</sub> values.",
+   "12.04 is the sum of the two p<i>K</i><sub>a</sub> values; it still has to be divided by 2."
+  ]
+ },
+ {
+  "id": "biomol-22",
+  "t": "biomol",
+  "d": 2,
+  "k": 1,
+  "q": "What is the isoelectric point of glutamic acid?",
+  "s": [
+   {
+    "smi": "[NH3+][C@@H](CCC(=O)O)C(=O)O"
+   }
+  ],
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Ionizable group",
+     "p<i>K</i><sub>a</sub>"
+    ],
+    "rows": [
+     [
+      "α-COOH",
+      "2.19"
+     ],
+     [
+      "side-chain COOH",
+      "4.25"
+     ],
+     [
+      "α-NH<sub>3</sub><sup>+</sup>",
+      "9.67"
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "3.22",
+   "6.96",
+   "5.37",
+   "5.93"
+  ],
+  "h": "Write the charge of each form as the pH rises past each p<i>K</i><sub>a</sub>. The pI is the average of the two p<i>K</i><sub>a</sub> values on either side of the neutral form.",
+  "w": "Charges: +1 (below 2.19) → 0 (2.19–4.25) → −1 (4.25–9.67) → −2. The neutral form is flanked by p<i>K</i><sub>a</sub> 2.19 and 4.25, so pI = (2.19 + 4.25)/2 = <b>3.22</b>. An acidic side chain pulls the pI well below 6.",
+  "x": [
+   "",
+   "6.96 averages the two p<i>K</i><sub>a</sub> values around the −1 form, not the neutral form.",
+   "Averaging all three p<i>K</i><sub>a</sub> values has no physical meaning; only the two that border the zwitterion count.",
+   "5.93 averages the α-COOH and α-NH<sub>3</sub><sup>+</sup> values and ignores the side chain, which ionizes before the amino group."
+  ]
+ },
+ {
+  "id": "biomol-23",
+  "t": "biomol",
+  "d": 3,
+  "k": 1,
+  "q": "What is the isoelectric point of histidine?",
+  "s": [
+   {
+    "smi": "[NH3+][C@@H](Cc1c[nH]c[nH+]1)C(=O)O"
+   }
+  ],
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Ionizable group",
+     "p<i>K</i><sub>a</sub>"
+    ],
+    "rows": [
+     [
+      "α-COOH",
+      "1.82"
+     ],
+     [
+      "imidazolium N–H<sup>+</sup>",
+      "6.00"
+     ],
+     [
+      "α-NH<sub>3</sub><sup>+</sup>",
+      "9.17"
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "7.59",
+   "3.91",
+   "5.50",
+   "5.66"
+  ],
+  "h": "Is the imidazolium side chain positive or neutral when it holds its proton? Track the net charge from the fully protonated form.",
+  "w": "Fully protonated histidine is +2 (NH<sub>3</sub><sup>+</sup> and imidazolium, COOH neutral). Charges: +2 → +1 after 1.82 (COO<sup>−</sup>) → 0 after 6.00 (neutral imidazole) → −1 after 9.17 (NH<sub>2</sub>). The neutral form lies between 6.00 and 9.17, so pI = (6.00 + 9.17)/2 = <b>7.59</b>.",
+  "x": [
+   "",
+   "3.91 treats the side chain like a carboxylic acid that becomes negative. Imidazolium goes from +1 to 0 when it loses its proton.",
+   "5.50 ignores the side chain. Histidine has an extra positive charge at low pH, which pushes the pI up.",
+   "Averaging all three p<i>K</i><sub>a</sub> values is not how a pI is found."
+  ]
+ },
+ {
+  "id": "biomol-24",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Aspartic acid has p<i>K</i><sub>a</sub> values of 1.88 (α-COOH), 3.65 (side-chain COOH) and 9.60 (α-NH<sub>3</sub><sup>+</sup>). Which form is the major species at pH 3.0?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[NH3+][C@@H](CC(=O)O)C(=O)[O-]"
+   },
+   {
+    "smi": "[NH3+][C@@H](CC(=O)O)C(=O)O"
+   },
+   {
+    "smi": "[NH3+][C@@H](CC(=O)[O-])C(=O)O"
+   },
+   {
+    "smi": "[NH3+][C@@H](CC(=O)[O-])C(=O)[O-]"
+   }
+  ],
+  "h": "Compare pH with each p<i>K</i><sub>a</sub>: a group is mostly deprotonated when pH &gt; p<i>K</i><sub>a</sub> and mostly protonated when pH &lt; p<i>K</i><sub>a</sub>.",
+  "w": "At pH 3.0: the α-COOH (1.88) is above its p<i>K</i><sub>a</sub>, so it is mostly COO<sup>−</sup>; the side-chain COOH (3.65) is below its p<i>K</i><sub>a</sub>, so it is mostly COOH; the amine (9.60) is NH<sub>3</sub><sup>+</sup>. The major species is <b>the zwitterion</b> with a neutral side-chain COOH.",
+  "x": [
+   "",
+   "Fully protonated (+1) aspartic acid is the major form only below pH 1.88.",
+   "The α-COOH (p<i>K</i><sub>a</sub> 1.88) is more acidic than the side-chain COOH (3.65), because the nearby NH<sub>3</sub><sup>+</sup> withdraws electron density. It loses its proton first.",
+   "The −1 form, with both carboxylates, is major between pH 3.65 and 9.60."
+  ]
+ },
+ {
+  "id": "biomol-25",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "What is the approximate net charge of the tripeptide Gly-His-Asp at pH 7.0?",
+  "s": [
+   {
+    "smi": "NCC(=O)N[C@@H](Cc1c[nH]cn1)C(=O)N[C@@H](CC(=O)O)C(=O)O"
+   }
+  ],
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Group in the peptide",
+     "p<i>K</i><sub>a</sub>"
+    ],
+    "rows": [
+     [
+      "C-terminal COOH",
+      "3.1"
+     ],
+     [
+      "Asp side-chain COOH",
+      "3.9"
+     ],
+     [
+      "His imidazolium",
+      "6.0"
+     ],
+     [
+      "N-terminal NH<sub>3</sub><sup>+</sup>",
+      "8.0"
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "−1",
+   "0",
+   "+1",
+   "−2"
+  ],
+  "h": "Only the two termini and the side chains ionize; the amide N–H groups do not. Compare pH 7.0 with each p<i>K</i><sub>a</sub>.",
+  "w": "At pH 7.0: C-terminal COO<sup>−</sup> (−1); Asp side-chain COO<sup>−</sup> (−1); His is 1 unit above its p<i>K</i><sub>a</sub>, so only about 9% is protonated (≈ 0); the N-terminal NH<sub>3</sub><sup>+</sup> is 1 unit below its p<i>K</i><sub>a</sub>, so about 91% is protonated (≈ +1). Net ≈ <b>−1</b>.",
+  "x": [
+   "",
+   "This counts His as +1. At pH 7.0, one unit above its p<i>K</i><sub>a</sub>, the imidazole is mostly neutral.",
+   "This counts His as +1 and misses the Asp side-chain carboxylate.",
+   "This forgets the N-terminal NH<sub>3</sub><sup>+</sup>, which is still mostly protonated at pH 7.0."
+  ]
+ },
+ {
+  "id": "biomol-26",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "L-Serine is (<i>S</i>) but L-cysteine is (<i>R</i>), although the two have the same spatial arrangement at the α carbon. What is the reason?",
+  "s": [
+   {
+    "smi": "[NH3+][C@@H](CO)C(=O)[O-]",
+    "cap": "L-serine"
+   },
+   {
+    "smi": "[NH3+][C@@H](CS)C(=O)[O-]",
+    "cap": "L-cysteine"
+   }
+  ],
+  "c": [
+   "Sulfur outranks oxygen, so CH<sub>2</sub>SH outranks CO<sub>2</sub><sup>−</sup>; in serine CH<sub>2</sub>OH ranks below it",
+   "L-Cysteine has its NH<sub>3</sub><sup>+</sup> on the opposite side of the Fischer projection from L-serine",
+   "The SH group is the lowest-priority group in cysteine, so the H moves to priority 3",
+   "D and L are defined by the CIP rules, so the two labels must agree for every amino acid"
+  ],
+  "h": "Rank the four groups at each α carbon. At the first point of difference, compare (O,O,O) for the carboxylate with (S,H,H) or (O,H,H) for the side chain.",
+  "w": "Both have NH<sub>3</sub><sup>+</sup> = 1 and H = 4. In serine, CO<sub>2</sub><sup>−</sup> (O,O,O) beats CH<sub>2</sub>OH (O,H,H). In cysteine, CH<sub>2</sub>SH has (S,H,H), and S (Z = 16) beats O (Z = 8) at the first point of difference, so <b>the side chain outranks the carboxylate</b>. Priorities 2 and 3 swap, so the same arrangement is labeled R.",
+  "x": [
+   "",
+   "Both are L amino acids: in the Fischer projection (COOH on top) the NH<sub>3</sub><sup>+</sup> is on the left for both. The spatial arrangement is the same.",
+   "H is always lowest priority. The SH is not even on the stereocenter; it is on the β carbon.",
+   "D/L describes the Fischer arrangement relative to glyceraldehyde; R/S comes from CIP priorities. The two systems are independent, which is exactly why they can disagree."
+  ]
+ },
+ {
+  "id": "biomol-27",
+  "t": "biomol",
+  "d": 1,
+  "k": 0,
+  "q": "Which amino acid is shown in the Fischer projection?",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "COOH",
+    "rows": [
+     [
+      "H",
+      "NH<sub>2</sub>"
+     ]
+    ],
+    "bottom": "CH<sub>3</sub>"
+   }
+  ],
+  "c": [
+   "D-alanine, (<i>R</i>)",
+   "L-alanine, (<i>S</i>)",
+   "D-alanine, (<i>S</i>)",
+   "L-alanine, (<i>R</i>)"
+  ],
+  "h": "With COOH on top and the side chain on the bottom, which side does the amino group of an L amino acid occupy?",
+  "w": "With COOH on top, L amino acids have NH<sub>2</sub> on the left; here it is on the right, so this is a D amino acid. CIP: NH<sub>2</sub> &gt; COOH &gt; CH<sub>3</sub> &gt; H. NH<sub>2</sub> (right) → COOH (top) → CH<sub>3</sub> (bottom) runs counterclockwise, and H is on a horizontal bond toward the viewer, so the label reverses to R: <b>D-alanine, (<i>R</i>)</b>.",
+  "x": [
+   "",
+   "L-Alanine has NH<sub>2</sub> on the left. This drawing is its mirror image.",
+   "The counterclockwise path must be reversed because the H points toward the viewer, which gives R.",
+   "L and R do not go together for alanine; natural L-alanine is S."
+  ]
+ },
+ {
+  "id": "biomol-28",
+  "t": "biomol",
+  "d": 3,
+  "k": 0,
+  "q": "Natural L-threonine is (2<i>S</i>,3<i>R</i>)-2-amino-3-hydroxybutanoic acid. Which Fischer projection represents it?",
+  "f": [
+   {
+    "type": "fischer",
+    "items": [
+     {
+      "top": "COOH",
+      "rows": [
+       [
+        "H<sub>2</sub>N",
+        "H"
+       ],
+       [
+        "HO",
+        "H"
+       ]
+      ],
+      "bottom": "CH<sub>3</sub>",
+      "cap": "I"
+     },
+     {
+      "top": "COOH",
+      "rows": [
+       [
+        "H",
+        "NH<sub>2</sub>"
+       ],
+       [
+        "HO",
+        "H"
+       ]
+      ],
+      "bottom": "CH<sub>3</sub>",
+      "cap": "II"
+     },
+     {
+      "top": "COOH",
+      "rows": [
+       [
+        "H",
+        "NH<sub>2</sub>"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>3</sub>",
+      "cap": "III"
+     },
+     {
+      "top": "COOH",
+      "rows": [
+       [
+        "H<sub>2</sub>N",
+        "H"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>3</sub>",
+      "cap": "IV"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "IV",
+   "I",
+   "II",
+   "III"
+  ],
+  "h": "Assign each center separately. At C3 rank OH &gt; C2 (N,C,H) &gt; CH<sub>3</sub> &gt; H.",
+  "w": "C2: an L amino acid has NH<sub>2</sub> on the left (S). C3: OH &gt; C2 &gt; CH<sub>3</sub>; with OH on the right, OH → C2 (up) → CH<sub>3</sub> (down) runs counterclockwise, reversed to R because H points toward the viewer. NH<sub>2</sub> left and OH right is <b>IV</b>, (2<i>S</i>,3<i>R</i>) (confirmed with CIP software).",
+  "x": [
+   "",
+   "I is (2<i>S</i>,3<i>S</i>): L-allothreonine, the C3 epimer.",
+   "II is (2<i>R</i>,3<i>S</i>): D-threonine, the enantiomer of L-threonine.",
+   "III is (2<i>R</i>,3<i>R</i>): D-allothreonine."
+  ]
+ },
+ {
+  "id": "biomol-29",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Which carbonyl compound gives valine, (CH<sub>3</sub>)<sub>2</sub>CH–CH(NH<sub>2</sub>)–COOH, in a Strecker synthesis (1. NH<sub>4</sub>Cl, KCN 2. H<sub>3</sub>O<sup>+</sup>, heat)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)C=O"
+   },
+   {
+    "smi": "CC(C)CC=O"
+   },
+   {
+    "smi": "CCC=O"
+   },
+   {
+    "smi": "CC(C)=O"
+   }
+  ],
+  "h": "The carbonyl carbon becomes the α carbon (it gains NH<sub>2</sub> and CN, and the CN becomes COOH). Work backward from the side chain.",
+  "w": "In the Strecker synthesis the aldehyde forms an imine with NH<sub>3</sub>, cyanide adds to give an α-aminonitrile, and hydrolysis converts CN to COOH. The aldehyde carbon becomes the α carbon, and everything attached to it becomes the side chain. Valine's side chain is isopropyl, so the aldehyde is <b>2-methylpropanal</b>. The product is racemic, because cyanide adds equally to both faces of the planar imine.",
+  "x": [
+   "",
+   "3-Methylbutanal has one more CH<sub>2</sub>, so it gives leucine (isobutyl side chain).",
+   "Propanal gives 2-aminobutanoic acid, with an ethyl side chain.",
+   "Acetone is a ketone. It gives 2-amino-2-methylpropanoic acid, with two methyls on the α carbon."
+  ]
+ },
+ {
+  "id": "biomol-30",
+  "t": "biomol",
+  "d": 3,
+  "k": 0,
+  "q": "In the chair, the α anomer of D-glucopyranose has its C1 –OH axial. Based on A-values alone it should be only a few percent of the equilibrium mixture, but it is about 36%. What extra stabilization does an axial electronegative group at C1 receive?",
+  "f": [
+   {
+    "type": "haworth",
+    "sugar": "glucose",
+    "anomer": "a",
+    "nums": true
+   }
+  ],
+  "c": [
+   "Donation of a ring-oxygen lone pair into the σ* orbital of the axial C1–O bond",
+   "Hydrogen bonding of the axial C1 –OH to the axial hydrogens on C3 and C5",
+   "Conjugation of the C1 –OH with the C2–C3 bond, which is possible only when it is axial",
+   "A lower steric demand for –OH than for H, so –OH prefers the axial position"
+  ],
+  "h": "This is the anomeric effect. Which orbitals are antiperiplanar when the C1–O bond is axial?",
+  "w": "When the C1–O bond is axial, it is antiperiplanar to a lone pair on the ring oxygen. That filled n orbital overlaps with the empty σ*(C1–O) orbital (hyperconjugation), which stabilizes the axial anomer. Dipole repulsion between the ring C–O bonds is also smaller. This <b>anomeric effect</b> offsets part of the steric penalty, so α-glucose is 36% instead of a few percent.",
+  "x": [
+   "",
+   "Axial hydrogens on C3 and C5 are C–H bonds and are not hydrogen-bond acceptors. The axial –OH actually suffers 1,3-diaxial steric strain from them.",
+   "C2–C3 is a σ bond with no π system, so there is nothing to conjugate with.",
+   "–OH is larger than H (A-value about 0.9 kcal/mol in cyclohexane), so steric effects favor the equatorial position, not the axial one."
+  ]
+ }
+]

@@ -1,0 +1,471 @@
+[
+ {
+  "id": "rs01",
+  "d": 2,
+  "q": "Which dimethylcyclohexane is chiral?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@H]1CCCC[C@@H]1C"
+   },
+   {
+    "smi": "C[C@H]1CCCC[C@H]1C"
+   },
+   {
+    "smi": "C[C@H]1CC[C@H](C)CC1"
+   },
+   {
+    "smi": "C[C@H]1CCC[C@@H](C)C1"
+   }
+  ],
+  "h": "Treat the ring as flat and look for a mirror plane through the ring (perpendicular to it).",
+  "w": "trans-1,2-Dimethylcyclohexane has chirality centers at C1 and C2 and no mirror plane, so it is <b>chiral</b> (it exists as the (1R,2R)/(1S,2S) pair). Ring flipping cannot remove chirality, because both chairs of one enantiomer are still that enantiomer.",
+  "x": [
+   "",
+   "cis-1,2-Dimethylcyclohexane has a mirror plane between C1 and C2 in the flat-ring view; it is meso.",
+   "trans-1,4-Dimethylcyclohexane has a mirror plane through C1 and C4 and no chirality centers; it is achiral.",
+   "cis-1,3-Dimethylcyclohexane has a mirror plane through C2 and C5; it is meso."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs02",
+  "d": 1,
+  "q": "Which compound is achiral?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1CCC(=O)CC1"
+   },
+   {
+    "smi": "C[C@@H]1CCCC(=O)C1"
+   },
+   {
+    "smi": "C[C@H]1CCCCC1=O"
+   },
+   {
+    "smi": "C[C@@H]1CCC(=O)C1"
+   }
+  ],
+  "h": "For the carbon bearing the methyl, are the two paths around the ring the same or different?",
+  "w": "In 4-methylcyclohexanone the methyl carbon (C4) has two identical ring paths to the C=O, so it is not a chirality center, and a mirror plane passes through C1 and C4: <b>achiral</b>.",
+  "x": [
+   "",
+   "In 3-methylcyclohexanone the two ring paths from C3 differ (one reaches C=O after one carbon, the other after three), so C3 is a chirality center.",
+   "In 2-methylcyclohexanone C2 has C=O on one side and CH<sub>2</sub> on the other, so it is a chirality center.",
+   "In 3-methylcyclopentanone the two ring paths from C3 differ in length to the C=O, so C3 is a chirality center."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs03",
+  "d": 3,
+  "q": "Which compound is chiral?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@H]1CC[C@H](C)C1"
+   },
+   {
+    "smi": "C[C@H]1CC[C@@H](C)C1"
+   },
+   {
+    "smi": "C[C@H]1CCC[C@H]1C"
+   },
+   {
+    "smi": "C[C@H]1C[C@H](C)C1"
+   }
+  ],
+  "h": "Find the chirality centers first (if any), then look for a mirror plane in the flat ring.",
+  "w": "trans-1,3-Dimethylcyclopentane has chirality centers at C1 and C3 (each ring path differs in length to the other CH(CH<sub>3</sub>)). The only possible mirror plane, through C2 and the C4–C5 bond, would need both methyls on the same face. With one up and one down there is none: <b>chiral</b>.",
+  "x": [
+   "",
+   "cis-1,3-Dimethylcyclopentane has a mirror plane through C2 and the middle of the C4–C5 bond; it is meso.",
+   "cis-1,2-Dimethylcyclopentane has a mirror plane between C1 and C2; it is meso.",
+   "In trans-1,3-dimethylcyclobutane, C1 and C3 each have two identical ring paths, so there are no chirality centers, and a mirror plane contains both methyls: achiral."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs04",
+  "d": 3,
+  "q": "Each chair conformation of cis-1,2-dichlorocyclohexane, taken alone, is chiral. Why is the compound nevertheless optically inactive and not resolvable at room temperature?",
+  "c": [
+   "The ring flip converts one chair into its mirror image, and it is fast at room temperature",
+   "The axial C–Cl dipole cancels the equatorial C–Cl dipole",
+   "C1 and C2 are not chirality centers in the cis isomer",
+   "The two chairs have different energies, so only the achiral one is populated"
+  ],
+  "h": "Draw the chair with Cl axial at C1 and equatorial at C2, flip it, and compare the result with the mirror image of the starting chair.",
+  "w": "In the cis isomer one Cl is axial and one equatorial. Flipping the ring swaps them, and the flipped chair is the <b>mirror image</b> of the first. Because the flip is fast at room temperature, the two enantiomeric chairs are always present 50:50 and cannot be separated: the compound behaves as the achiral (meso) cis isomer.",
+  "x": [
+   "",
+   "Dipole cancellation has nothing to do with optical activity, which depends on chirality, not polarity.",
+   "C1 and C2 each carry H, Cl, CHCl and CH<sub>2</sub>, so they are chirality centers; the cis compound is meso, not center-free.",
+   "Both chairs have one axial and one equatorial Cl, so they have equal energy; and neither single chair is achiral."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs05",
+  "d": 3,
+  "q": "How many stereoisomers exist for 1,4-dimethylcyclohexane, and how many of them are chiral?",
+  "c": [
+   "2 stereoisomers; none chiral",
+   "3 stereoisomers; two chiral",
+   "4 stereoisomers; all chiral",
+   "2 stereoisomers; both chiral"
+  ],
+  "h": "Are C1 and C4 chirality centers? Compare the two ring paths from C1.",
+  "w": "The two ring paths from C1 (and from C4) are identical, so there are no chirality centers. The only stereoisomerism is cis/trans, and each has a mirror plane through C1 and C4. So there are <b>2 stereoisomers (cis and trans), neither chiral</b>; they are diastereomers.",
+  "x": [
+   "",
+   "This counts the 1,2- or 1,3-isomer pattern (meso + a pair); 1,4-substitution has no chirality centers.",
+   "2<sup>2</sup> = 4 assumes two chirality centers, but C1 and C4 each have two identical ring paths.",
+   "There are two stereoisomers, but each has a mirror plane through C1 and C4, so neither is chiral."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs06",
+  "d": 1,
+  "q": "A sample contains 80% of the (<i>R</i>) enantiomer and 20% of the (<i>S</i>) enantiomer. What is its enantiomeric excess?",
+  "c": [
+   "60% ee (R)",
+   "80% ee (R)",
+   "40% ee (R)",
+   "20% ee (S)"
+  ],
+  "h": "ee = % major enantiomer − % minor enantiomer.",
+  "w": "ee = 80% − 20% = <b>60%</b> in favor of R. Equivalently, 40% of the sample is racemic (20% R + 20% S) and 60% is excess R.",
+  "x": [
+   "",
+   "80% is the fraction of R, not the excess of R over S.",
+   "40% is the racemic part of the sample (20% R + 20% S), not the excess.",
+   "The excess is in favor of the major enantiomer, R, and is 60%, not 20%."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs07",
+  "d": 2,
+  "k": 1,
+  "q": "A solution of 0.250 g of a pure chiral compound in 10.0 mL of ethanol gives an observed rotation of −1.30° in a 100-mm cell. What is the specific rotation?",
+  "c": [
+   "−52.0",
+   "−5.20",
+   "−0.520",
+   "−520"
+  ],
+  "h": "[α] = α / (<i>l</i> × <i>c</i>), with <i>l</i> in decimeters and <i>c</i> in g/mL.",
+  "w": "<i>c</i> = 0.250 g / 10.0 mL = 0.0250 g/mL; <i>l</i> = 100 mm = 1.00 dm. [α] = −1.30 / (1.00 × 0.0250) = <b>−52.0</b>.",
+  "x": [
+   "",
+   "This uses <i>l</i> = 10 (centimeters); the path length must be in decimeters.",
+   "This uses <i>c</i> = 2.50 (g per 100 mL); the formula needs g/mL.",
+   "This uses <i>l</i> = 0.100 (meters); the path length must be in decimeters."
+  ],
+  "t": "stereo"
+ },
+ {
+  "id": "rs08",
+  "d": 2,
+  "k": 1,
+  "q": "The pure (+) enantiomer of a compound has [α]<sub>D</sub> = +40.0. A synthetic sample has [α]<sub>D</sub> = +12.0. What percentage of the sample is the (+) enantiomer?",
+  "c": [
+   "65%",
+   "30%",
+   "70%",
+   "35%"
+  ],
+  "h": "First find the optical purity (ee) from the rotations, then split the racemic remainder evenly.",
+  "w": "ee = 12.0 / 40.0 = 30%. The other 70% is racemic, half (+) and half (−). (+) = 30% + 35% = <b>65%</b>; (−) = 35%.",
+  "x": [
+   "",
+   "30% is the enantiomeric excess, not the percentage of the (+) enantiomer.",
+   "70% is the racemic portion of the sample.",
+   "35% is the percentage of the (−) enantiomer."
+  ],
+  "t": "stereo"
+ },
+ {
+  "id": "rs09",
+  "d": 3,
+  "k": 1,
+  "q": "Pure (<i>S</i>)-X has [α]<sub>D</sub> = −24.0. A sample of X (0.300 g/mL, 0.500-dm cell) shows an observed rotation of +1.80°. What is the composition of the sample?",
+  "c": [
+   "75% R, 25% S",
+   "75% S, 25% R",
+   "62.5% R, 37.5% S",
+   "62.5% S, 37.5% R"
+  ],
+  "h": "Convert the observed rotation to a specific rotation first. Then decide which enantiomer gives a positive sign.",
+  "w": "[α] = +1.80 / (0.500 × 0.300) = +12.0. Since (S) is −24.0, (R) is +24.0, so a positive rotation means R is in excess. ee = 12.0 / 24.0 = 50% R. Composition: 50% + 25% = <b>75% R, 25% S</b>.",
+  "x": [
+   "",
+   "The sign is positive, and (S) is levorotatory, so R must be the major enantiomer.",
+   "This divides by the concentration but not the path length (1.80 / 0.300 = 6.0, 25% ee); <i>l</i> = 0.500 dm must be included.",
+   "This both drops the path length and gives the excess to the wrong (levorotatory) enantiomer."
+  ],
+  "t": "stereo"
+ },
+ {
+  "id": "rs10",
+  "d": 3,
+  "k": 1,
+  "q": "Pure (<i>S</i>)-Y has [α]<sub>D</sub> = +15.0. What observed rotation do you expect for a 90:10 mixture of (<i>S</i>)-Y and (<i>R</i>)-Y at 0.200 g/mL in a 2.00-dm cell?",
+  "c": [
+   "+4.80°",
+   "+5.40°",
+   "+6.00°",
+   "+2.40°"
+  ],
+  "h": "Only the enantiomeric excess contributes to rotation. Find ee, then the sample specific rotation, then α = [α] × <i>l</i> × <i>c</i>.",
+  "w": "ee = 90 − 10 = 80%, so the sample [α] = 0.80 × 15.0 = +12.0. α = 12.0 × 2.00 × 0.200 = <b>+4.80°</b>. The racemic 20% contributes nothing.",
+  "x": [
+   "",
+   "This uses 90% instead of the ee; the 10% R cancels an equal 10% of S.",
+   "This is the rotation of pure (S)-Y; the 10% R lowers it.",
+   "This leaves out the 2.00-dm path length."
+  ],
+  "t": "stereo"
+ },
+ {
+  "id": "rs11",
+  "d": 2,
+  "k": 1,
+  "q": "A chemist mixes 3.0 g of the pure (<i>R</i>) enantiomer of a compound with 1.0 g of the racemate. What is the enantiomeric excess of the mixture?",
+  "c": [
+   "75%",
+   "87.5%",
+   "50%",
+   "25%"
+  ],
+  "h": "Split the racemate into its R and S halves, then total R and S.",
+  "w": "The racemate is 0.5 g R + 0.5 g S. Totals: R = 3.5 g, S = 0.5 g, out of 4.0 g. ee = (3.5 − 0.5)/4.0 = <b>75%</b>. (Or: 3.0 g of the 4.0 g is unpaired R.)",
+  "x": [
+   "",
+   "87.5% is the percentage of R (3.5/4.0), not the excess of R over S.",
+   "This treats the 1.0 g of racemate as if it were all S.",
+   "25% is the racemic fraction of the mixture (1.0/4.0)."
+  ],
+  "t": "stereo"
+ },
+ {
+  "id": "rs12",
+  "d": 2,
+  "q": "An asymmetric reduction gives an alcohol in 90% ee. What is the ratio of the major to the minor enantiomer?",
+  "c": [
+   "19:1",
+   "9:1",
+   "10:1",
+   "90:1"
+  ],
+  "h": "Convert ee to percentages: major = (100 + ee)/2.",
+  "w": "Major = (100 + 90)/2 = 95%, minor = 5%. Ratio = 95:5 = <b>19:1</b>.",
+  "x": [
+   "",
+   "9:1 is 90:10, which is 80% ee.",
+   "10:1 is about 91:9, which is about 82% ee.",
+   "90:1 reads the ee as a percentage of one enantiomer and divides by 1; the minor enantiomer is 5%, not 1%."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs13",
+  "d": 1,
+  "q": "Which property is different for the two enantiomers of 2-butanol?",
+  "c": [
+   "The sign of the specific rotation",
+   "The boiling point",
+   "The solubility in hexane",
+   "The IR spectrum"
+  ],
+  "h": "Enantiomers differ only in interactions with something chiral.",
+  "w": "Enantiomers have identical physical properties in an achiral environment; they differ only toward chiral things, such as plane-polarized light. They rotate light by the same magnitude in <b>opposite directions</b>.",
+  "x": [
+   "",
+   "Boiling point depends on intermolecular forces, which are identical for mirror-image molecules.",
+   "Hexane is achiral, so both enantiomers dissolve in it equally.",
+   "IR absorptions depend on bond vibrations, which are identical in mirror-image molecules."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs14",
+  "d": 1,
+  "q": "Which sample is optically active?",
+  "c": [
+   "A 70:30 mixture of (<i>R</i>)- and (<i>S</i>)-2-bromobutane",
+   "Pure meso-2,3-dibromobutane",
+   "Racemic 2-butanol",
+   "Pure cis-1,2-dimethylcyclohexane"
+  ],
+  "h": "A sample rotates light only if it contains an excess of one enantiomer of a chiral compound.",
+  "w": "The 70:30 mixture has a 40% excess of the (R) enantiomer, so it rotates light at 40% of the pure value: <b>optically active</b>.",
+  "x": [
+   "",
+   "A meso compound is achiral, so it does not rotate plane-polarized light.",
+   "A racemate has equal amounts of both enantiomers, whose rotations cancel.",
+   "cis-1,2-Dimethylcyclohexane is a meso compound (achiral), so it is optically inactive."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs15",
+  "d": 2,
+  "q": "Racemic 2-phenylpropanoic acid is treated with one equivalent of enantiopure (<i>S</i>)-1-phenylethylamine. Which statement about the product is correct?",
+  "c": [
+   "It is a mixture of two diastereomeric salts, which can be separated by crystallization",
+   "It is a mixture of two enantiomeric salts, which cannot be separated by crystallization",
+   "It is a single salt, because the (S)-amine reacts with only the (S)-acid",
+   "It is a racemic salt, which must be separated by chiral chromatography"
+  ],
+  "h": "Write the two salts as (R)-acid·(S)-amine and (S)-acid·(S)-amine. What is their relationship?",
+  "w": "The amine deprotonates both acid enantiomers, giving (R)-acid·(S)-amine and (S)-acid·(S)-amine salts. These are not mirror images (the mirror of the first would be (S)-acid·(R)-amine), so they are <b>diastereomers</b>, with different solubilities that allow separation by fractional crystallization.",
+  "x": [
+   "",
+   "The two salts share the same (S)-amine, so they are not mirror images; enantiomeric salts would need the (R)-amine as well.",
+   "An acid–base reaction is not selective enough to leave one enantiomer untouched; with one equivalent, both acid enantiomers form salts.",
+   "Diastereomeric salts are separable by ordinary methods; chiral chromatography is not required."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs16",
+  "d": 3,
+  "q": "Which reagent could be used to resolve racemic butan-2-amine, CH<sub>3</sub>CH(NH<sub>2</sub>)CH<sub>2</sub>CH<sub>3</sub>?",
+  "c": [
+   "(2<i>R</i>,3<i>R</i>)-Tartaric acid",
+   "meso-Tartaric acid",
+   "(<i>S</i>)-1-Phenylethylamine",
+   "Acetic acid"
+  ],
+  "cs": [
+   {
+    "smi": "O[C@@H](C(=O)O)[C@@H](O)C(=O)O"
+   },
+   {
+    "smi": "O[C@H](C(=O)O)[C@@H](O)C(=O)O"
+   },
+   {
+    "smi": "C[C@H](N)c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)O"
+   }
+  ],
+  "h": "Resolution of a base needs a partner that (1) forms a salt with an amine and (2) is a single enantiomer of a chiral compound.",
+  "w": "(2R,3R)-Tartaric acid is an enantiopure chiral acid. With the racemic amine it forms two salts, (R)-amine·(R,R)-acid and (S)-amine·(R,R)-acid, which are diastereomers and can be separated by crystallization. Treating each salt with NaOH then frees the single amine enantiomer. The answer is <b>(2R,3R)-tartaric acid</b>.",
+  "x": [
+   "",
+   "meso-Tartaric acid is achiral, so its salts with the (R) and (S) amine are enantiomers and cannot be separated by crystallization.",
+   "1-Phenylethylamine is enantiopure but is a base; it does not form a salt with another amine. It is used to resolve racemic acids.",
+   "Acetic acid is achiral, so the two acetate salts are enantiomers with identical solubility."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs17",
+  "d": 2,
+  "q": "In a classical resolution, 10.0 g of a racemic acid is converted to diastereomeric salts and separated, without recycling the unwanted enantiomer. What is the maximum mass of the pure (<i>R</i>)-acid that can be recovered?",
+  "c": [
+   "5.0 g",
+   "10.0 g",
+   "2.5 g",
+   "7.5 g"
+  ],
+  "h": "How much of the racemate is the (R) enantiomer to begin with?",
+  "w": "A racemate is 50% R. Resolution only separates what is present; it does not convert S into R. The maximum is <b>5.0 g</b> (50% yield), and in practice less is recovered.",
+  "x": [
+   "",
+   "Getting 10.0 g of R would require converting the S enantiomer into R (racemizing and recycling it), which this process does not do.",
+   "2.5 g is half of the R that is present; a perfect separation recovers all 5.0 g.",
+   "7.5 g exceeds the 5.0 g of R that the racemate contains."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs18",
+  "d": 2,
+  "q": "The less soluble salt, (<i>R</i>)-acid·(<i>S</i>)-amine, is collected from a resolution and shaken with aqueous HCl and ether. What is in the ether layer?",
+  "c": [
+   "The (R)-acid, enantiomerically enriched",
+   "The (S)-acid, because protonation inverts the chirality center",
+   "The racemic acid, because the HCl racemizes it",
+   "The (S)-amine, as its free base"
+  ],
+  "h": "Strong acid protonates the carboxylate. Which species stays neutral (ether-soluble), and which becomes a charged salt (water-soluble)?",
+  "w": "HCl protonates the carboxylate, giving the neutral carboxylic acid, which moves into the ether. The amine becomes its water-soluble hydrochloride. No bond to the chirality center is made or broken, so the ether holds <b>the (R)-acid, enantiomerically enriched</b>; the (S)-amine can be recovered from the water with NaOH.",
+  "x": [
+   "",
+   "Proton transfer happens at the carboxylate oxygen, not at the chirality center, so the configuration is unchanged.",
+   "Racemization would require breaking a bond at the chirality center; a quick acid–base extraction does not.",
+   "In aqueous HCl the amine is protonated to an ammonium salt, which stays in the water layer."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "rs19",
+  "d": 2,
+  "q": "Which compound contains chirality centers but is achiral?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Br[C@@H]1CCC[C@@H]1Br"
+   },
+   {
+    "smi": "C[C@@H]1CCC=C1"
+   },
+   {
+    "smi": "C[C@@H]1C[C@H]1C"
+   },
+   {
+    "smi": "CC1(C)CCCCC1"
+   }
+  ],
+  "h": "You need a molecule with two or more chirality centers and an internal mirror plane.",
+  "w": "cis-1,2-Dibromocyclopentane has two chirality centers (C1 and C2) and a mirror plane between them: it is a <b>meso</b> compound, achiral despite its chirality centers.",
+  "x": [
+   "",
+   "3-Methylcyclopentene has one chirality center (C3) and no mirror plane, so it is chiral.",
+   "trans-1,2-Dimethylcyclopropane has two chirality centers but no mirror plane; it is chiral.",
+   "1,1-Dimethylcyclohexane is achiral, but it has no chirality centers (C1 carries two identical CH<sub>3</sub> groups)."
+  ],
+  "t": "stereo",
+  "k": 0
+ }
+]

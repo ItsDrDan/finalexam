@@ -1,0 +1,451 @@
+[
+ {
+  "id": "ad-01",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "What is the IUPAC name of the ester shown?",
+  "s": [
+   {
+    "smi": "CCC(=O)OC(C)C"
+   }
+  ],
+  "c": [
+   "isopropyl propanoate",
+   "propyl 2-methylpropanoate",
+   "isopropyl butanoate",
+   "1-methylethyl ethanoate"
+  ],
+  "h": "An ester is named alkyl alkanoate: the group on the single-bonded O comes first, then the acyl part (which includes the C=O carbon) with -oate.",
+  "w": "Split the ester at the single-bonded oxygen. The O-alkyl group is CH(CH<sub>3</sub>)<sub>2</sub>, isopropyl. The acyl part is CH<sub>3</sub>CH<sub>2</sub>C(=O)–, three carbons counting the carbonyl carbon, so it is propanoate: <b>isopropyl propanoate</b>.",
+  "x": [
+   "",
+   "This swaps the two halves: here the branched group is on the oxygen, not on the acyl side, and the O-alkyl group is not a straight propyl.",
+   "The acyl part has three carbons including the C=O carbon, not four; counting the oxygen-bearing CH as part of the acid chain gives the wrong parent.",
+   "1-Methylethyl is a correct name for isopropyl, but the acid part has three carbons (propanoate), not two (ethanoate); the C=O carbon must be counted."
+  ]
+ },
+ {
+  "id": "ad-02",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "What is the IUPAC name of the amide shown?",
+  "s": [
+   {
+    "smi": "CC(C)CC(=O)N(C)CC"
+   }
+  ],
+  "c": [
+   "<i>N</i>-ethyl-<i>N</i>,3-dimethylbutanamide",
+   "<i>N</i>-ethyl-<i>N</i>,2-dimethylbutanamide",
+   "<i>N</i>,<i>N</i>-diethyl-3-methylbutanamide",
+   "<i>N</i>-ethyl-<i>N</i>,3-dimethylpentanamide"
+  ],
+  "h": "The parent chain is the acyl chain that includes the C=O carbon (C1). Groups on nitrogen get the locant <i>N</i>.",
+  "w": "The acyl chain is C(=O)–CH<sub>2</sub>–CH(CH<sub>3</sub>)–CH<sub>3</sub>: four carbons with C1 = C=O, so butanamide with a methyl on C3. Nitrogen carries one ethyl and one methyl, each labeled <i>N</i>. Alphabetizing (ethyl before methyl) and combining the two methyls gives <b><i>N</i>-ethyl-<i>N</i>,3-dimethylbutanamide</b>.",
+  "x": [
+   "",
+   "Numbering of an amide always starts at the carbonyl carbon, so the branch is at C3, not C2.",
+   "Only one group on nitrogen is ethyl; the other is methyl.",
+   "The N-ethyl group is not part of the parent chain; the parent is only the acyl chain, which has four carbons."
+  ]
+ },
+ {
+  "id": "ad-03",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "What is the IUPAC name of the compound shown?",
+  "s": [
+   {
+    "smi": "O=C(Cl)C1CCCCC1"
+   }
+  ],
+  "c": [
+   "cyclohexanecarbonyl chloride",
+   "cycloheptanoyl chloride",
+   "cyclohexyl chloroformate",
+   "2-chlorocyclohexanone"
+  ],
+  "h": "When a –COX group is attached to a ring, the carbonyl carbon is not part of the ring. Which suffix handles that case?",
+  "w": "The C(=O)Cl carbon is outside the ring, so the ring name takes the suffix <i>-carbonyl</i> (as in cyclohexane<b>carboxylic acid</b> → cyclohexane<b>carbonyl</b> chloride). The answer is <b>cyclohexanecarbonyl chloride</b>.",
+  "x": [
+   "",
+   "The carbonyl carbon is not one of the ring atoms, so the compound is not a seven-carbon ring acyl chloride.",
+   "A chloroformate is Cl–C(=O)–O–R, with an oxygen between the ring and the carbonyl; here the ring carbon is bonded directly to C=O.",
+   "This is a ring ketone with Cl on a ring carbon; the compound shown has Cl on the carbonyl carbon outside the ring."
+  ]
+ },
+ {
+  "id": "ad-04",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "What is the name of the compound shown?",
+  "s": [
+   {
+    "smi": "CC(=O)OC(=O)CC"
+   }
+  ],
+  "c": [
+   "acetic propanoic anhydride",
+   "propanoic anhydride",
+   "acetic anhydride",
+   "propyl acetate"
+  ],
+  "h": "Look at what links the two C=O groups. Then name each acyl half as its acid.",
+  "w": "Two acyl groups joined through one oxygen make an anhydride. One half is acetyl (2 C), the other propanoyl (3 C). A mixed anhydride lists both acids alphabetically: <b>acetic propanoic anhydride</b>.",
+  "x": [
+   "",
+   "Propanoic anhydride has two propanoyl groups (six carbons); this compound has five carbons, with one acetyl half.",
+   "Acetic anhydride has two acetyl groups (four carbons); one half here is propanoyl.",
+   "Propyl acetate is an ester (one C=O); the compound shown has two C=O groups joined by an oxygen."
+  ]
+ },
+ {
+  "id": "ad-05",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "What is the IUPAC name of (CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>C≡N?",
+  "c": [
+   "3-methylbutanenitrile",
+   "2-methylpropanenitrile",
+   "2-methylbutanenitrile",
+   "3-methylpentanenitrile"
+  ],
+  "h": "In the -nitrile suffix the C≡N carbon is counted as C1 of the chain.",
+  "w": "The chain is N≡C(1)–CH<sub>2</sub>(2)–CH(3)(CH<sub>3</sub>)–CH<sub>3</sub>(4): four carbons including the nitrile carbon, so butanenitrile, methyl at C3: <b>3-methylbutanenitrile</b>.",
+  "x": [
+   "",
+   "This leaves out the nitrile carbon. With the -nitrile suffix the C≡N carbon is C1, so the chain has four carbons.",
+   "Numbering starts at the nitrile carbon, which puts the branch at C3, not C2.",
+   "There are only four carbons in the longest chain that contains the C≡N carbon (five carbons in total, one being the methyl branch)."
+  ]
+ },
+ {
+  "id": "ad-06",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "Which structure is a δ-lactam?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C1CCCCN1"
+   },
+   {
+    "smi": "O=C1CCCN1"
+   },
+   {
+    "smi": "O=C1CCCCO1"
+   },
+   {
+    "smi": "O=C1CCN1"
+   }
+  ],
+  "h": "Lactam = cyclic amide; the Greek letter names the carbon bonded to nitrogen (α is next to C=O).",
+  "w": "In a lactam the ring N is bonded to the C=O. Greek letters count from the carbon next to C=O: α, β, γ, δ. A δ-lactam has N on the δ-carbon, so the ring holds C=O + 4 carbons + N = a six-membered ring: <b>A, piperidin-2-one</b>.",
+  "x": [
+   "",
+   "This is a five-membered cyclic amide (N on the γ-carbon): a γ-lactam.",
+   "C has a ring oxygen, not nitrogen: it is a δ-lactone (cyclic ester).",
+   "This is a four-membered cyclic amide, the β-lactam ring of penicillins."
+  ]
+ },
+ {
+  "id": "ad-07",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "Which carboxylic acid is the strongest acid?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(Cl)C(=O)O"
+   },
+   {
+    "smi": "CC(Cl)CC(=O)O"
+   },
+   {
+    "smi": "ClCCCC(=O)O"
+   },
+   {
+    "smi": "CCCC(=O)O"
+   }
+  ],
+  "h": "An electronegative atom stabilizes the carboxylate by induction, and that effect fades quickly with distance.",
+  "w": "The C–Cl dipole pulls electron density from the carboxylate and stabilizes it. Induction weakens sharply with each intervening σ bond, so the Cl on the α-carbon has the biggest effect: <b>A, 2-chlorobutanoic acid</b> (pK<sub>a</sub> ≈ 2.9) vs 3-chloro (≈ 4.1), 4-chloro (≈ 4.5) and butanoic acid (≈ 4.8).",
+  "x": [
+   "",
+   "Cl on the β-carbon still helps, but one more bond away from the carboxylate it has a much smaller effect than α-Cl.",
+   "Cl on the γ-carbon is so far away that the pK<sub>a</sub> is only slightly lower than butanoic acid.",
+   "Butanoic acid has no electron-withdrawing group and is the weakest of the four."
+  ]
+ },
+ {
+  "id": "ad-08",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Rank the three acids in order of <b>increasing</b> acidity (weakest first).",
+  "s": [
+   {
+    "smi": "ClCC(=O)O",
+    "cap": "I"
+   },
+   {
+    "smi": "ClC(Cl)C(=O)O",
+    "cap": "II"
+   },
+   {
+    "smi": "FCC(=O)O",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I < III < II",
+   "III < I < II",
+   "I < II < III",
+   "II < III < I"
+  ],
+  "h": "Compare the inductive pull of one F with one Cl first, then ask what a second Cl adds.",
+  "w": "All three are stabilized by induction at the α-carbon. F is more electronegative than Cl, so FCH<sub>2</sub>COOH (pK<sub>a</sub> 2.6) is stronger than ClCH<sub>2</sub>COOH (2.9). Two Cl atoms add their effects, so Cl<sub>2</sub>CHCOOH (1.3) is much stronger than either monohalo acid. Order: <b>I < III < II</b>.",
+  "x": [
+   "",
+   "This makes Cl more withdrawing than F; fluorine is the more electronegative atom, so fluoroacetic acid is the stronger of the two monohalo acids.",
+   "This puts fluoroacetic acid above dichloroacetic acid. Two α-chlorines together outweigh one fluorine.",
+   "This reverses the effect of halogens: more and stronger electron-withdrawing groups make the acid stronger, not weaker."
+  ]
+ },
+ {
+  "id": "ad-09",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Which benzoic acid has the <b>highest</b> pK<sub>a</sub>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COc1ccc(C(=O)O)cc1"
+   },
+   {
+    "smi": "O=C(O)c1ccccc1"
+   },
+   {
+    "smi": "O=C(O)c1ccc(Cl)cc1"
+   },
+   {
+    "smi": "O=C(O)c1ccc([N+](=O)[O-])cc1"
+   }
+  ],
+  "h": "A para substituent that donates electrons by resonance destabilizes the carboxylate anion.",
+  "w": "Electron-withdrawing groups stabilize the benzoate anion (lower pK<sub>a</sub>); electron donors destabilize it (higher pK<sub>a</sub>). Para-OCH<sub>3</sub> donates by resonance more than it withdraws by induction, so <b>A, 4-methoxybenzoic acid</b> is the weakest acid (pK<sub>a</sub> ≈ 4.5) vs benzoic acid (4.2), 4-chlorobenzoic acid (4.0) and 4-nitrobenzoic acid (3.4).",
+  "x": [
+   "",
+   "Benzoic acid is the reference (4.2); a para-methoxy group makes the acid weaker still.",
+   "Cl withdraws inductively more than it donates, so 4-chlorobenzoic acid is a slightly stronger acid than benzoic acid.",
+   "NO<sub>2</sub> withdraws strongly by induction and resonance, so 4-nitrobenzoic acid is the strongest acid of the four (lowest pK<sub>a</sub>)."
+  ]
+ },
+ {
+  "id": "ad-10",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "A mixture of benzoic acid (pK<sub>a</sub> 4.2) and phenol (pK<sub>a</sub> 10.0) is dissolved in diethyl ether. Which aqueous solution extracts the benzoic acid but leaves the phenol in the ether layer? (H<sub>2</sub>CO<sub>3</sub> pK<sub>a</sub> 6.4, H<sub>2</sub>O 15.7, CH<sub>3</sub>OH 15.5)",
+  "c": [
+   "saturated NaHCO<sub>3</sub>",
+   "1 M NaOH",
+   "1 M NaOCH<sub>3</sub> in water/methanol",
+   "1 M HCl"
+  ],
+  "h": "A base deprotonates an acid substantially only when the conjugate acid of the base is weaker (higher pK<sub>a</sub>) than the acid.",
+  "w": "Bicarbonate's conjugate acid is H<sub>2</sub>CO<sub>3</sub> (pK<sub>a</sub> 6.4). Benzoic acid (4.2) is stronger, so it is converted to water-soluble sodium benzoate; phenol (10.0) is weaker than H<sub>2</sub>CO<sub>3</sub>, so it stays neutral in the ether. The answer is <b>NaHCO<sub>3</sub></b>.",
+  "x": [
+   "",
+   "Hydroxide (conjugate acid pK<sub>a</sub> 15.7) deprotonates both acids, so both would move into the water.",
+   "Methoxide (conjugate acid pK<sub>a</sub> 15.5) is also strong enough to deprotonate phenol, so it does not separate the two.",
+   "Acid keeps both compounds neutral, so neither moves into the aqueous layer."
+  ]
+ },
+ {
+  "id": "ad-11",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Rank the compounds in order of <b>decreasing</b> reactivity toward nucleophilic acyl substitution (most reactive first).",
+  "s": [
+   {
+    "smi": "CCC(=O)OC",
+    "cap": "I"
+   },
+   {
+    "smi": "CCC(=O)Cl",
+    "cap": "II"
+   },
+   {
+    "smi": "CCC(=O)N(C)C",
+    "cap": "III"
+   },
+   {
+    "smi": "CCC(=O)OC(=O)CC",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "II > IV > I > III",
+   "IV > II > I > III",
+   "II > IV > III > I",
+   "II > I > IV > III"
+  ],
+  "h": "Two factors: how much the group on the acyl carbon donates by resonance, and how good it is as a leaving group.",
+  "w": "II (acid chloride): Cl donates very little into the C=O and Cl<sup>−</sup> is an excellent leaving group. IV (anhydride): the bridging O is shared by two C=O groups, so it donates less to each, and a carboxylate leaves well. I (ester): OR donates more and RO<sup>−</sup> is a poorer leaving group. III (amide): N is the best π donor and R<sub>2</sub>N<sup>−</sup> is the worst leaving group. Order: <b>II > IV > I > III</b>.",
+  "x": [
+   "",
+   "An anhydride is less reactive than an acid chloride: its carboxylate leaving group is poorer than chloride, and its oxygen donates more into the C=O than Cl does.",
+   "This makes the amide more reactive than the ester. Nitrogen is less electronegative than oxygen, so it donates its lone pair more strongly, and amide ions are terrible leaving groups.",
+   "This puts the ester above the anhydride. The anhydride's bridging oxygen is split between two carbonyls and its leaving group is a resonance-stabilized carboxylate, so it is more reactive."
+  ]
+ },
+ {
+  "id": "ad-12",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Which statements help explain why amides are the least reactive carboxylic acid derivatives toward nucleophiles?<br>I. The nitrogen lone pair is delocalized into the C=O, making the carbonyl carbon less electrophilic.<br>II. The amide C–N bond has partial double-bond character.<br>III. An amide ion (R<sub>2</sub>N<sup>−</sup>) is a very poor leaving group.<br>IV. Amides cannot form a tetrahedral intermediate because nitrogen has no lone pair.",
+  "c": [
+   "I, II and III only",
+   "I and III only",
+   "III and IV only",
+   "I, II, III and IV"
+  ],
+  "h": "Draw the resonance form of an amide that has C=N. Then ask how basic each possible leaving group is.",
+  "w": "The N lone pair donates strongly into the C=O (I), which is exactly why the C–N bond has partial double-bond character (II, planar amide, restricted rotation). The leaving group would be R<sub>2</sub>N<sup>−</sup>, conjugate base of an amine (pK<sub>a</sub> ≈ 35), so it leaves very poorly (III). Statement IV is false: amide nitrogen does have a lone pair (that is the source of I), and amides do react through tetrahedral intermediates under forcing conditions. Answer: <b>I, II and III only</b>.",
+  "x": [
+   "",
+   "Statement II is true and is a direct consequence of I: the resonance donation shows up as C–N double-bond character.",
+   "Statement IV is false: amide nitrogen has a lone pair, and amides are hydrolyzed through tetrahedral intermediates on heating with acid or base.",
+   "Statement IV is false, so the set with all four cannot be right."
+  ]
+ },
+ {
+  "id": "ad-13",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Which reaction proceeds in good yield simply by mixing the two reagents (with a weak base such as pyridine where HCl forms)?",
+  "c": [
+   "CH<sub>3</sub>COCl + CH<sub>3</sub>CH<sub>2</sub>OH → CH<sub>3</sub>CO<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> + HCl",
+   "CH<sub>3</sub>CO<sub>2</sub>CH<sub>3</sub> + NaCl → CH<sub>3</sub>COCl + CH<sub>3</sub>ONa",
+   "CH<sub>3</sub>CONH<sub>2</sub> + CH<sub>3</sub>CH<sub>2</sub>OH → CH<sub>3</sub>CO<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> + NH<sub>3</sub>",
+   "CH<sub>3</sub>CO<sub>2</sub><sup>−</sup> Na<sup>+</sup> + CH<sub>3</sub>OH → CH<sub>3</sub>CO<sub>2</sub>CH<sub>3</sub> + NaOH"
+  ],
+  "h": "Nucleophilic acyl substitution runs downhill: from a more reactive derivative to a less reactive one.",
+  "w": "Acyl substitutions go from a higher rung of the reactivity ladder to a lower one, because the nucleophile must be a poorer leaving group than the group it replaces. Acid chloride → ester is downhill (Cl<sup>−</sup> leaves, the alcohol stays): <b>CH<sub>3</sub>COCl + ethanol → ethyl acetate</b>.",
+  "x": [
+   "",
+   "Ester → acid chloride is uphill: chloride is a much better leaving group than methoxide, so Cl<sup>−</sup> cannot push out CH<sub>3</sub>O<sup>−</sup>.",
+   "Amide → ester is uphill: a neutral alcohol cannot displace NH<sub>2</sub><sup>−</sup>, a far worse leaving group than an alkoxide.",
+   "A carboxylate is the least reactive acyl species of all (its negative charge repels nucleophiles), so methanol cannot add to it."
+  ]
+ },
+ {
+  "id": "ad-14",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Acetyl chloride reacts with methylamine. Which species is the <b>first-formed tetrahedral intermediate</b>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC([O-])(Cl)[NH2+]C"
+   },
+   {
+    "smi": "CC(=O)[NH2+]C"
+   },
+   {
+    "smi": "CNC(C)=O"
+   },
+   {
+    "smi": "CC#[O+]"
+   }
+  ],
+  "h": "The amine nitrogen attacks the carbonyl carbon; the π electrons go onto oxygen. Nothing has left yet.",
+  "w": "Addition of the neutral amine to the C=O gives a tetrahedral carbon bearing O<sup>−</sup>, Cl and a positively charged N (it has given its lone pair to carbon). Next the C=O re-forms and expels Cl<sup>−</sup>, then a base removes the N–H proton to give the amide.",
+  "x": [
+   "",
+   "This is formed after the tetrahedral intermediate collapses and chloride leaves; its carbon is trigonal, not tetrahedral.",
+   "This is the neutral amide product, after loss of both Cl<sup>−</sup> and a proton.",
+   "An acylium ion is not on this pathway; an amine attacks the neutral acid chloride directly by addition–elimination."
+  ]
+ },
+ {
+  "id": "ad-15",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "The energy diagram shows the hydrolysis of methyl acetate by hydroxide. What does point <i>B</i> represent?",
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     18,
+     9,
+     15,
+     -12
+    ],
+    "tags": [
+     "",
+     "A",
+     "B",
+     "C",
+     ""
+    ],
+    "labels": [
+     "ester + HO<sup>−</sup>",
+     "",
+     "",
+     "",
+     "carboxylate + CH<sub>3</sub>OH"
+    ]
+   }
+  ],
+  "c": [
+   "the tetrahedral alkoxide intermediate",
+   "the transition state for addition of hydroxide",
+   "the acylium ion formed when methoxide leaves",
+   "the carboxylate ion formed by proton transfer"
+  ],
+  "h": "Points at maxima are transition states; local minima between maxima are intermediates.",
+  "w": "Nucleophilic acyl substitution is addition–elimination. A is the TS for hydroxide adding to C=O, B is the minimum between the two barriers: <b>the tetrahedral alkoxide intermediate</b>. C is the TS for loss of methoxide. The final deep drop is the fast proton transfer that gives acetate.",
+  "x": [
+   "",
+   "A transition state sits at an energy maximum; B is a local minimum.",
+   "No acylium ion forms in base; the C=O re-forms as methoxide is expelled from the tetrahedral intermediate.",
+   "The carboxylate forms at the end of the reaction (the products), after the second barrier, not between the two barriers."
+  ]
+ }
+]

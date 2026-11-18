@@ -1,0 +1,525 @@
+[
+ {
+  "id": "carb-16",
+  "t": "carbonyl",
+  "d": 1,
+  "k": 0,
+  "q": "What is the main organic product of this reaction (water removed with a Dean–Stark trap)?",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   "+",
+   {
+    "smi": "OCCO"
+   },
+   {
+    "arrow": "TsOH (cat.)",
+    "below": "benzene, reflux"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1CCC2(CC1)OCCO2"
+   },
+   {
+    "smi": "OCCOC1(O)CCCCC1"
+   },
+   {
+    "smi": "OCCOC1=CCCCC1"
+   },
+   {
+    "smi": "C1CCC2(CC1)OCCCO2"
+   }
+  ],
+  "h": "A diol supplies both oxygens needed for the full acetal. Removing water drives the reaction past the hemiacetal stage.",
+  "w": "Acid-catalyzed reaction of a ketone with ethylene glycol, with water removed, gives the cyclic acetal (a 1,3-dioxolane): <b>1,4-dioxaspiro[4.5]decane</b>. The ring carbon becomes the spiro carbon bonded to both glycol oxygens.",
+  "x": [
+   "",
+   "The hemiacetal is an intermediate; with acid and water removal it closes onto the second OH to give the cyclic acetal.",
+   "An enol ether is not the product; the oxocarbenium ion is trapped by the second OH of the diol, not deprotonated.",
+   "This 1,3-dioxane would require propane-1,3-diol; ethylene glycol has only two carbons between its oxygens."
+  ]
+ },
+ {
+  "id": "carb-17",
+  "t": "carbonyl",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence converts the keto ester into the hydroxy ketone shown?",
+  "s": [
+   {
+    "smi": "CCOC(=O)C1CCC(=O)CC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "OCC1CCC(=O)CC1"
+   }
+  ],
+  "c": [
+   "1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH  2. LiAlH<sub>4</sub>, then H<sub>2</sub>O  3. H<sub>3</sub>O<sup>+</sup>",
+   "1. LiAlH<sub>4</sub>, then H<sub>2</sub>O  2. H<sub>3</sub>O<sup>+</sup>",
+   "1. NaBH<sub>4</sub>, CH<sub>3</sub>OH  2. H<sub>3</sub>O<sup>+</sup>",
+   "1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH  2. NaBH<sub>4</sub>, CH<sub>3</sub>OH  3. H<sub>3</sub>O<sup>+</sup>"
+  ],
+  "h": "The ester must be reduced while the more reactive ketone is left untouched. Which reagent reduces esters, and how do you hide the ketone from it?",
+  "w": "LiAlH<sub>4</sub> is needed to reduce an ester, but it would also reduce the ketone. Protect the ketone first as an ethylene glycol acetal (stable to strong base and hydride), reduce the ester to CH<sub>2</sub>OH with LiAlH<sub>4</sub>, then remove the acetal with aqueous acid: <b>1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH 2. LiAlH<sub>4</sub> 3. H<sub>3</sub>O<sup>+</sup></b>.",
+  "x": [
+   "",
+   "Without protection LiAlH<sub>4</sub> reduces both the ester and the ketone, giving a diol.",
+   "NaBH<sub>4</sub> reduces the ketone, the very group that must survive, and leaves the ester essentially untouched.",
+   "After protection, NaBH<sub>4</sub> is too weak to reduce the ester at a useful rate, so the starting keto ester is recovered after deprotection."
+  ]
+ },
+ {
+  "id": "carb-18",
+  "t": "carbonyl",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence converts 4-bromobenzaldehyde into the hydroxy aldehyde shown?",
+  "s": [
+   {
+    "smi": "O=Cc1ccc(Br)cc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC(O)c1ccc(C=O)cc1"
+   }
+  ],
+  "c": [
+   "1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH  2. Mg, THF  3. CH<sub>3</sub>CHO  4. H<sub>3</sub>O<sup>+</sup>",
+   "1. Mg, THF  2. CH<sub>3</sub>CHO  3. H<sub>3</sub>O<sup>+</sup>",
+   "1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH  2. Mg, THF  3. CH<sub>3</sub>CHO  4. NaOH, H<sub>2</sub>O",
+   "1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH  2. Mg, THF  3. CH<sub>3</sub>CH<sub>2</sub>OH  4. H<sub>3</sub>O<sup>+</sup>"
+  ],
+  "h": "A Grignard reagent and an aldehyde cannot coexist in the same molecule. What must be done before Mg, and what must the last step accomplish?",
+  "w": "The CHO must be masked before the Grignard reagent is formed, or the ArMgBr would attack another molecule's aldehyde. Make the ethylene glycol acetal, form the Grignard, add it to acetaldehyde (new C–C bond, secondary alkoxide), then aqueous acid both protonates the alkoxide and removes the acetal: <b>1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH 2. Mg 3. CH<sub>3</sub>CHO 4. H<sub>3</sub>O<sup>+</sup></b>.",
+  "x": [
+   "",
+   "Without protection the aryl Grignard reacts with the unprotected aldehyde of other molecules, giving oligomers instead of a clean product.",
+   "Acetals are stable to base, so NaOH/H<sub>2</sub>O leaves the CHO protected; the aldehyde is never released.",
+   "Ethanol is an acid toward a Grignard reagent; it simply protonates ArMgBr (giving the protected benzaldehyde) and forms no C–C bond."
+  ]
+ },
+ {
+  "id": "carb-19",
+  "t": "carbonyl",
+  "d": 1,
+  "k": 0,
+  "q": "A ketone was protected as its ethylene glycol acetal. Under which condition is the acetal cleaved back to the ketone?",
+  "c": [
+   "Dilute aqueous HCl, warm",
+   "NaOH in water, reflux",
+   "LiAlH<sub>4</sub> in ether, then aqueous workup at pH 7",
+   "CH<sub>3</sub>MgBr in THF"
+  ],
+  "h": "Acetal hydrolysis needs a leaving group to depart from the acetal carbon. Under which conditions can an alkoxy group become a good leaving group?",
+  "w": "An acetal's oxygens must be protonated before they can leave, forming an oxocarbenium ion that water then attacks. That requires acid: <b>dilute aqueous HCl</b> (H<sub>3</sub>O<sup>+</sup>) regenerates the ketone and the diol. This is why acetals protect carbonyls only under neutral and basic conditions.",
+  "x": [
+   "",
+   "Acetals are stable to hydroxide; RO<sup>−</sup> is a poor leaving group and nothing protonates it in base.",
+   "Hydrides do not attack acetals; this is exactly why acetals are used to protect ketones during LiAlH<sub>4</sub> reductions.",
+   "Grignard reagents do not attack acetals; acetals are a standard protecting group in Grignard chemistry."
+  ]
+ },
+ {
+  "id": "carb-20",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "5-Hydroxypentanal exists in solution mainly as a cyclic hemiacetal. Which structure is that hemiacetal?",
+  "s": [
+   {
+    "smi": "OCCCCC=O"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC1CCCCO1"
+   },
+   {
+    "smi": "OC1CCCO1"
+   },
+   {
+    "smi": "OC1CCCCCO1"
+   },
+   {
+    "smi": "O=C1CCCCO1"
+   }
+  ],
+  "h": "The OH oxygen attacks the carbonyl carbon. Count the ring atoms: the carbons from C1 through C5 plus that oxygen.",
+  "w": "The C5 oxygen attacks C1. The ring contains C1–C5 (five carbons) plus the oxygen: a six-membered ring. The former carbonyl carbon now carries OH and is bonded to the ring O: <b>tetrahydropyran-2-ol (oxan-2-ol)</b>.",
+  "x": [
+   "",
+   "This five-membered ring has only four carbons; 5-hydroxypentanal has five, so one carbon has been lost.",
+   "This seven-membered ring has six carbons, one more than the starting material.",
+   "This is a lactone (an ester), an oxidation product; hemiacetal formation is not an oxidation, and the anomeric carbon keeps its H."
+  ]
+ },
+ {
+  "id": "carb-21",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "Which hydroxy aldehyde exists in solution <b>predominantly</b> as an intramolecular (cyclic) hemiacetal?",
+  "c": [
+   "5-Hydroxypentanal",
+   "3-Hydroxybutanal",
+   "2-Hydroxypropanal",
+   "8-Hydroxyoctanal"
+  ],
+  "h": "Work out the ring size for each (ring = the carbons from C1 to the OH carbon, plus O). Which ring sizes form easily and without strain?",
+  "w": "Intramolecular hemiacetals are favored only when the ring is five- or six-membered: low strain and a favorable entropy of ring closure. 5-Hydroxypentanal closes to a six-membered ring, so <b>5-hydroxypentanal</b> is mainly cyclic.",
+  "x": [
+   "",
+   "Ring closure would give a strained four-membered ring (oxetane), so the open chain dominates.",
+   "Ring closure would give a three-membered ring (an epoxide-like ring), which is far too strained.",
+   "Ring closure would give a nine-membered ring; medium rings are strained and entropically unfavorable, so the open-chain form dominates."
+  ]
+ },
+ {
+  "id": "carb-22",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "Acetaldehyde reacts with excess methanol and a catalytic amount of H<sub>2</sub>SO<sub>4</sub> to give 1,1-dimethoxyethane. Which species does <b>not</b> appear as an intermediate in this mechanism?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC([O-])OC"
+   },
+   {
+    "smi": "CC=[OH+]"
+   },
+   {
+    "smi": "CC(O)OC"
+   },
+   {
+    "smi": "CC=[O+]C"
+   }
+  ],
+  "h": "In acidic methanol, would a free alkoxide (a strong base) survive long enough to be an intermediate?",
+  "w": "Acid-catalyzed acetal formation runs: protonate C=O → methanol adds → hemiacetal → protonate the OH and lose water → oxocarbenium ion → second methanol adds → deprotonate. Every intermediate is neutral or cationic. The <b>tetrahedral alkoxide CH<sub>3</sub>CH(OCH<sub>3</sub>)O<sup>−</sup></b> belongs to a base-catalyzed pathway and does not form in acid.",
+  "x": [
+   "",
+   "The protonated carbonyl is the first intermediate: acid activates the weakly electrophilic C=O toward weakly nucleophilic methanol.",
+   "The hemiacetal is the neutral intermediate formed after the first methanol adds and loses a proton.",
+   "The resonance-stabilized oxocarbenium ion forms when the protonated hemiacetal loses water; it is attacked by the second methanol."
+  ]
+ },
+ {
+  "id": "carb-23",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "A hemiacetal forms when an aldehyde is mixed with methanol and a little NaOCH<sub>3</sub>, but no acetal forms however long the mixture stands. Why?",
+  "c": [
+   "Converting the hemiacetal to the acetal requires losing OH as a leaving group, and in base it cannot be protonated to leave as water",
+   "Methoxide is too weak a nucleophile to add to an aldehyde",
+   "Acetals form in base but are immediately hydrolyzed by the methoxide",
+   "In base the hemiacetal is fully deprotonated and reverts entirely to the aldehyde, so none is present"
+  ],
+  "h": "Compare the two halves of acetal formation. The first is an addition; what kind of step does the second half need?",
+  "w": "The second half of acetal formation is a substitution at the hemiacetal carbon: the OH must leave to form an oxocarbenium ion. Hydroxide is a poor leaving group; only acid can convert it into H<sub>2</sub>O. <b>In base, the OH cannot be protonated to leave, so the reaction stops at the hemiacetal.</b>",
+  "x": [
+   "",
+   "Methoxide is a strong nucleophile and adds readily to aldehydes; that is why the hemiacetal does form.",
+   "Acetals are stable to base; methoxide does not hydrolyze them.",
+   "The stem says the hemiacetal does form; base catalyzes its formation and reversal, but it is still present at equilibrium."
+  ]
+ },
+ {
+  "id": "carb-24",
+  "t": "carbonyl",
+  "d": 1,
+  "k": 0,
+  "q": "What is the main organic product of this reaction?",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   "+",
+   {
+    "smi": "CN"
+   },
+   {
+    "arrow": "H<sup>+</sup> (pH ≈ 4.5)",
+    "below": "− H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CN=C1CCCCC1"
+   },
+   {
+    "smi": "CNC1=CCCCC1"
+   },
+   {
+    "smi": "CNC1(O)CCCCC1"
+   },
+   {
+    "smi": "CNC1CCCCC1"
+   }
+  ],
+  "h": "A primary amine has two N–H bonds. After the water is lost, which hydrogen is removed to give the neutral product?",
+  "w": "A primary amine adds to the C=O (carbinolamine), the protonated OH leaves as water, and the resulting iminium ion loses its N–H proton to give the <b>imine, <i>N</i>-methylcyclohexanimine</b>. Primary amines give imines (C=N).",
+  "x": [
+   "",
+   "An enamine forms when the amine is secondary and the iminium ion has no N–H to lose; a primary amine gives the more stable imine.",
+   "The carbinolamine is the tetrahedral intermediate; under these acidic, dehydrating conditions it loses water.",
+   "This amine would require a reducing agent (reductive amination, e.g. NaBH<sub>3</sub>CN); no reductant is present."
+  ]
+ },
+ {
+  "id": "carb-25",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "What is the main organic product of this reaction?",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   "+",
+   {
+    "smi": "C1CCNC1"
+   },
+   {
+    "arrow": "TsOH (cat.)",
+    "below": "− H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1=C(CCCC1)N1CCCC1"
+   },
+   {
+    "smi": "C1CCC(=[N+]2CCCC2)CC1"
+   },
+   {
+    "smi": "OC1(N2CCCC2)CCCCC1"
+   },
+   {
+    "smi": "C1CCCCC1N1CCCC1"
+   }
+  ],
+  "h": "Pyrrolidine is a secondary amine. After loss of water, the iminium nitrogen carries no H. Where must a proton be lost from instead?",
+  "w": "Pyrrolidine adds to the C=O, water is lost, and the iminium ion that results has no N–H. A proton is removed from the α-carbon instead, giving the neutral <b>enamine, 1-(cyclohex-1-en-1-yl)pyrrolidine</b>.",
+  "x": [
+   "",
+   "The iminium ion is an intermediate; it is a cation and loses an α-proton to give the neutral enamine.",
+   "The carbinolamine is the tetrahedral intermediate; with acid and water removal it dehydrates and does not accumulate.",
+   "This saturated amine is a reductive-amination product; no reducing agent is present."
+  ]
+ },
+ {
+  "id": "carb-26",
+  "t": "carbonyl",
+  "d": 3,
+  "k": 0,
+  "q": "The rate of imine formation from a ketone and a primary amine is greatest near pH 4–5 and drops at both lower and higher pH. Which explanation is correct?",
+  "c": [
+   "Below pH ≈ 4 most amine is protonated and non-nucleophilic; above pH ≈ 6 too little acid is available to protonate the carbinolamine OH so water can leave",
+   "Below pH ≈ 4 the ketone is fully protonated and cannot react; above pH ≈ 6 the imine is hydrolyzed",
+   "Below pH ≈ 4 the carbinolamine cannot form because water is a better nucleophile; above pH ≈ 6 the amine is deprotonated to an amide ion",
+   "Acid is needed only to protonate the C=O in the first step; the pH maximum reflects how fast the ketone is protonated"
+  ],
+  "h": "Acid helps one step and hurts another. Which species must stay unprotonated, and which group must be protonated?",
+  "w": "Two opposing needs: the amine must be a free base to attack the C=O, but the carbinolamine OH must be protonated to leave as water (usually the slow step near neutral pH). <b>Too acidic: the amine is tied up as R–NH<sub>3</sub><sup>+</sup>. Too basic: dehydration of the carbinolamine is too slow.</b> The compromise is pH ≈ 4–5.",
+  "x": [
+   "",
+   "Ketones are very weak bases (pK<sub>a</sub> of the protonated form ≈ −7); at pH 3 almost none is protonated, so that is not what slows the reaction.",
+   "Amines are not deprotonated to amide ions (pK<sub>a</sub> ≈ 35) at pH 6–7; the problem at higher pH is the slow loss of OH from the carbinolamine.",
+   "The key acid-dependent step is protonating the carbinolamine OH so water can leave, not protonating the C=O."
+  ]
+ },
+ {
+  "id": "carb-27",
+  "t": "carbonyl",
+  "d": 3,
+  "k": 0,
+  "q": "2-Methylcyclohexanone is heated with pyrrolidine and catalytic TsOH, with water removed. Which enamine is the <b>major</b> product?",
+  "s": [
+   {
+    "smi": "CC1CCCCC1=O"
+   },
+   "+",
+   {
+    "smi": "C1CCNC1"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1CCCC=C1N1CCCC1"
+   },
+   {
+    "smi": "CC1=C(N2CCCC2)CCCC1"
+   },
+   {
+    "smi": "CC1CCCCC1=[N+]1CCCC1"
+   },
+   {
+    "smi": "C=C1CCCCC1N1CCCC1"
+   }
+  ],
+  "h": "The N lone pair must overlap with the C=C, so the nitrogen's ring CH<sub>2</sub> groups lie in the alkene plane. What would they bump into on the more substituted side?",
+  "w": "For the nitrogen lone pair to conjugate with the C=C, the pyrrolidine ring must lie in the alkene plane. In the tetrasubstituted enamine, the pyrrolidine CH<sub>2</sub> groups clash with the methyl on the adjacent alkene carbon (A<sup>1,3</sup> strain). Forming the C=C toward the unsubstituted C6 avoids this, so the <b>less substituted enamine (double bond away from the methyl)</b> is major, unlike Zaitsev alkenes.",
+  "x": [
+   "",
+   "This tetrasubstituted enamine suffers severe A<sup>1,3</sup> strain between the methyl and the planar pyrrolidine, so it is the minor isomer despite the more substituted C=C.",
+   "The iminium ion is an intermediate; it loses an α-proton to give the neutral enamine.",
+   "An exocyclic C=C would require deprotonating the methyl, and the nitrogen would no longer be attached to an alkene carbon, so this is not an enamine."
+  ]
+ },
+ {
+  "id": "carb-28",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "The imine shown is stirred in dilute aqueous HCl. Which pair of compounds forms (the amine as its ammonium salt)?",
+  "s": [
+   {
+    "smi": "CC(=NCc1ccccc1)c1ccccc1"
+   },
+   {
+    "arrow": "H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "Acetophenone and benzylamine",
+   "Benzaldehyde and 1-phenylethan-1-amine",
+   "Acetophenone and aniline",
+   "Benzaldehyde, acetaldehyde and ammonia"
+  ],
+  "h": "Hydrolysis reverses imine formation: the C=N carbon becomes the C=O carbon, and the nitrogen keeps every group attached to it.",
+  "w": "Water adds to the protonated C=N carbon and the amine is expelled, the reverse of imine formation. The imine carbon bears CH<sub>3</sub> and phenyl, so it becomes <b>acetophenone</b>; the nitrogen bears a benzyl group, so it leaves as <b>benzylamine</b> (as PhCH<sub>2</sub>NH<sub>3</sub><sup>+</sup> in acid).",
+  "x": [
+   "",
+   "This splits the molecule on the wrong side of N; benzaldehyde + 1-phenylethanamine would give PhCH=N–CH(CH<sub>3</sub>)Ph, a different imine.",
+   "The nitrogen bears a CH<sub>2</sub>Ph (benzyl) group, not a phenyl group bonded directly to N.",
+   "Only the C=N bond is hydrolyzed; the C–N single bond to the benzyl group is not cleaved."
+  ]
+ },
+ {
+  "id": "carb-29",
+  "t": "carbonyl",
+  "d": 3,
+  "k": 0,
+  "q": "5-Aminopentan-2-one cannot be isolated as such; it spontaneously cyclizes with loss of water. What is the product?",
+  "s": [
+   {
+    "smi": "NCCCC(C)=O"
+   },
+   {
+    "arrow": "− H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1=NCCC1"
+   },
+   {
+    "smi": "CC1=NCCCC1"
+   },
+   {
+    "smi": "CC1(O)CCCN1"
+   },
+   {
+    "smi": "CC1CCCN1"
+   }
+  ],
+  "h": "The NH<sub>2</sub> nitrogen attacks the ketone carbon. Count the ring atoms from N to the carbonyl carbon, then decide what a primary amine gives after water is lost.",
+  "w": "The amine nitrogen attacks C2; the ring contains N, C5, C4, C3 and C2: five atoms. Loss of water from the cyclic carbinolamine gives a C=N within the ring: <b>5-methyl-3,4-dihydro-2<i>H</i>-pyrrole (2-methyl-1-pyrroline)</b>, a cyclic imine.",
+  "x": [
+   "",
+   "This six-membered ring contains one carbon too many; N, C5, C4, C3 and C2 close a five-membered ring.",
+   "The cyclic carbinolamine is the intermediate; the stem says water is lost, giving the C=N.",
+   "This saturated pyrrolidine is a reduction product; forming it would require a hydride source such as NaBH<sub>3</sub>CN."
+  ]
+ },
+ {
+  "id": "carb-30",
+  "t": "carbonyl",
+  "d": 1,
+  "k": 0,
+  "q": "Which compound is a <b>hemiketal</b> (the hemiacetal of a ketone)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1(O)CCCCO1"
+   },
+   {
+    "smi": "COC1CCCCO1"
+   },
+   {
+    "smi": "COC1(C)CCCCO1"
+   },
+   {
+    "smi": "OCC1CCCCO1"
+   }
+  ],
+  "h": "Look for one carbon bonded to both an OH and an OR, and check whether that carbon also has a hydrogen.",
+  "w": "A hemiketal carbon carries one OH, one OR and two carbon groups (no H). In <b>2-methyloxan-2-ol</b>, C2 bears OH, the ring O, CH<sub>3</sub> and a ring CH<sub>2</sub>: a cyclic hemiketal.",
+  "x": [
+   "",
+   "C2 carries two OR groups (OCH<sub>3</sub> and the ring O) and an H: that is an acetal of an aldehyde, not a hemiketal.",
+   "C2 carries two OR groups and no OH: a ketal (full acetal), not a hemiketal.",
+   "The OH and the ring oxygen are on different carbons, so this is simply an ether and a primary alcohol."
+  ]
+ }
+]

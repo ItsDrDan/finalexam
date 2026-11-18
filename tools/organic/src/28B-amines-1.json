@@ -1,0 +1,561 @@
+[
+ {
+  "id": "am-01",
+  "t": "amines",
+  "d": 1,
+  "q": "Which compound is a <b>secondary</b> (2°) amine?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Amine class counts the carbons bonded to <i>nitrogen</i>, not the substitution of the carbon that carries the N.",
+  "w": "An amine is classified by how many carbon groups are attached to N. <b>N-Methylcyclohexanamine</b> has two (cyclohexyl and methyl) on an N–H nitrogen, so it is 2°. The common trap is 1-methylcyclohexan-1-amine: its NH<sub>2</sub> sits on a tertiary carbon, but nitrogen itself carries only one carbon, so it is a 1° amine (the alcohol rule, which looks at the carbon, does not apply to amines).",
+  "x": [
+   "",
+   "1-Methylcyclohexan-1-amine has an NH<sub>2</sub> group with one carbon on N: a 1° amine on a tertiary carbon, not a 2° amine.",
+   "N,N-Dimethylcyclohexanamine has three carbons on N and no N–H: a 3° amine.",
+   "Cyclohexylmethanamine (C<sub>6</sub>H<sub>11</sub>CH<sub>2</sub>NH<sub>2</sub>) has only the CH<sub>2</sub> carbon on N: a 1° amine."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "CNC1CCCCC1"
+   },
+   {
+    "smi": "CC1(N)CCCCC1"
+   },
+   {
+    "smi": "CN(C)C1CCCCC1"
+   },
+   {
+    "smi": "NCC1CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "am-02",
+  "t": "amines",
+  "d": 2,
+  "q": "What is the IUPAC name of the compound shown?",
+  "c": [
+   "N-ethyl-N,4-dimethylaniline",
+   "4-ethyl-N,N-dimethylaniline",
+   "N-ethyl-N,3-dimethylaniline",
+   "N-ethyl-N,4-dimethylcyclohexanamine"
+  ],
+  "h": "Aniline is the parent. Groups on nitrogen get the locant N; ring positions are counted from the carbon bearing N (C1).",
+  "w": "The parent is aniline (benzenamine), with the ring carbon bonded to N as C1. Nitrogen carries an ethyl and a methyl group (each gets the locant N); the ring carries a methyl group at C4, para to N. Alphabetical order (ethyl before methyl, the multiplier \"di\" ignored) gives <b>N-ethyl-N,4-dimethylaniline</b>.",
+  "x": [
+   "",
+   "This name puts the ethyl on the ring and both methyls on N; that is a different compound (an isomer).",
+   "The ring methyl is para to N (C4), not meta (C3).",
+   "The ring is aromatic, so the parent is aniline, not cyclohexanamine (which would be a saturated ring)."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "CCN(C)c1ccc(C)cc1"
+   }
+  ]
+ },
+ {
+  "id": "am-03",
+  "t": "amines",
+  "d": 2,
+  "q": "What is the IUPAC name of the amine shown?",
+  "c": [
+   "N,N,4-trimethylpentan-2-amine",
+   "N,N,2-trimethylpentan-4-amine",
+   "N,4-dimethylhexan-2-amine",
+   "1,1-dimethyl-N,N-dimethylbutan-3-amine"
+  ],
+  "h": "Pick the longest carbon chain that contains the carbon bearing N, then number to give that carbon the lowest locant. Groups on N are N-substituents, not part of the chain.",
+  "w": "The longest chain through the C–N carbon has five carbons (pentane). Numbering from the end nearer the C–N carbon puts the amine at C2 and the branch methyl at C4. The two methyls on nitrogen are N-substituents. Combining all three methyl prefixes in alphabetical-locant order gives <b>N,N,4-trimethylpentan-2-amine</b>.",
+  "x": [
+   "",
+   "Numbering from the wrong end gives the amine carbon locant 4; the principal group must get the lowest possible number (2).",
+   "An N-methyl group cannot be counted as part of the carbon chain because the chain would have to pass through nitrogen; this name also describes a different compound with an N–H.",
+   "Butane is not the longest chain, and \"1,1-dimethyl\" on a chain end means the chain was not extended; the parent must be pentane."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "CN(C)C(C)CC(C)C"
+   }
+  ]
+ },
+ {
+  "id": "am-04",
+  "t": "amines",
+  "d": 2,
+  "q": "Rank the compounds in order of <b>increasing</b> basicity (weakest base first).",
+  "c": [
+   "I < II < IV < III",
+   "II < I < IV < III",
+   "I < IV < II < III",
+   "I < II < III < IV"
+  ],
+  "h": "Ask where each nitrogen lone pair goes: into a carbonyl, into a benzene ring, or nowhere. Compare with NH<sub>3</sub> (conjugate-acid pK<sub>a</sub> 9.2).",
+  "w": "Conjugate-acid pK<sub>a</sub> values track the basicity: acetanilide (I, an amide) about −0.5 because the N lone pair is delocalized onto the carbonyl oxygen; aniline (II) 4.6 because the lone pair is delocalized into the ring (and the N is attached to an sp<sup>2</sup> carbon); ammonia (IV) 9.2; cyclohexylamine (III) about 10.6 because the alkyl group donates electron density and there is no resonance. Order: <b>I &lt; II &lt; IV &lt; III</b>.",
+  "x": [
+   "",
+   "An amide is a far weaker base than an aniline: the C=O pulls the N lone pair much more strongly than the ring does (pK<sub>a</sub>H about −0.5 vs 4.6).",
+   "Aniline (pK<sub>a</sub>H 4.6) is a weaker base than ammonia (9.2) because its lone pair is shared with the aromatic ring.",
+   "Alkylamines are slightly stronger bases than ammonia (10.6 vs 9.2): the alkyl group donates electron density and stabilizes the ammonium ion."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "CC(=O)Nc1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "Nc1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "NC1CCCCC1",
+    "cap": "III"
+   },
+   {
+    "smi": "N",
+    "cap": "IV"
+   }
+  ]
+ },
+ {
+  "id": "am-05",
+  "t": "amines",
+  "d": 2,
+  "q": "Rank these anilines in order of <b>increasing</b> basicity (weakest base first).",
+  "c": [
+   "II < I < III",
+   "I < II < III",
+   "III < I < II",
+   "II < III < I"
+  ],
+  "h": "A para substituent that donates electrons by resonance pushes density toward N; one that withdraws by resonance pulls the lone pair farther from N.",
+  "w": "Conjugate-acid pK<sub>a</sub> values: 4-nitroaniline (II) 1.0, aniline (I) 4.6, 4-methoxyaniline (III) 5.3. A para NO<sub>2</sub> group accepts the N lone pair by resonance (a resonance form puts negative charge on the nitro oxygens), so the lone pair is much less available. A para OCH<sub>3</sub> donates by resonance, which outweighs its inductive withdrawal at the para position, so the amine is slightly more basic than aniline. Order: <b>II &lt; I &lt; III</b>.",
+  "x": [
+   "",
+   "The para methoxy group is a net donor by resonance, so 4-methoxyaniline is more basic than aniline, not less.",
+   "This order is reversed: the nitro group makes the weakest base, not the strongest.",
+   "Oxygen is electronegative, but at the para position its resonance donation dominates; 4-methoxyaniline (5.3) is more basic than aniline (4.6)."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "Nc1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "Nc1ccc(cc1)[N+](=O)[O-]",
+    "cap": "II"
+   },
+   {
+    "smi": "COc1ccc(N)cc1",
+    "cap": "III"
+   }
+  ]
+ },
+ {
+  "id": "am-06",
+  "t": "amines",
+  "d": 1,
+  "q": "Which compound is the <b>strongest</b> base?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Look for a nitrogen whose lone pair is in an sp<sup>3</sup> orbital and is not delocalized.",
+  "w": "<b>Piperidine</b> is a saturated cyclic 2° amine: its lone pair sits in an sp<sup>3</sup> orbital and is not delocalized, so its conjugate acid has pK<sub>a</sub> about 11. Pyridine (5.2) holds its lone pair in an sp<sup>2</sup> orbital with more s character; aniline (4.6) delocalizes it into the ring; pyrrole (about −3.8) uses it in the aromatic sextet.",
+  "x": [
+   "",
+   "Pyridine's lone pair is in an sp<sup>2</sup> orbital, held closer to N, so its conjugate acid has pK<sub>a</sub> only 5.2.",
+   "Aniline's lone pair is delocalized into the benzene ring, giving a conjugate-acid pK<sub>a</sub> of 4.6.",
+   "Pyrrole's lone pair is part of the aromatic sextet; protonation destroys aromaticity, so pyrrole is barely basic (pK<sub>a</sub>H about −3.8)."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "C1CCNCC1"
+   },
+   {
+    "smi": "c1ccncc1"
+   },
+   {
+    "smi": "Nc1ccccc1"
+   },
+   {
+    "smi": "c1cc[nH]c1"
+   }
+  ]
+ },
+ {
+  "id": "am-07",
+  "t": "amines",
+  "d": 3,
+  "q": "Which nitrogen in the molecule shown is the <b>most basic</b>?",
+  "c": [
+   "N <i>c</i>",
+   "N <i>a</i>",
+   "N <i>b</i>",
+   "N <i>d</i>"
+  ],
+  "h": "Classify each N: pyridine-type, amide, alkylamine or arylamine. Then recall a typical conjugate-acid pK<sub>a</sub> for each.",
+  "w": "N <i>a</i> is a pyridine nitrogen (pK<sub>a</sub>H about 5); N <i>b</i> is an amide N–H (its lone pair is delocalized into C=O; amides protonate on O, pK<sub>a</sub>H about −0.5); N <i>d</i> is an N-methylaniline nitrogen whose lone pair is shared with the ring (pK<sub>a</sub>H about 5); <b>N <i>c</i></b> is a 3° alkylamine (a pyrrolidine N) with an undelocalized sp<sup>3</sup> lone pair (pK<sub>a</sub>H about 10). Acid adds to N <i>c</i> first.",
+  "x": [
+   "",
+   "The pyridine N is only weakly basic (pK<sub>a</sub>H about 5) because its lone pair is in an sp<sup>2</sup> orbital.",
+   "The amide nitrogen's lone pair is delocalized into the carbonyl; amides are the weakest bases here.",
+   "An arylamine N shares its lone pair with the benzene ring (pK<sub>a</sub>H about 5), about 10<sup>5</sup> times less basic than an alkylamine."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "C[NH:4]c1ccc(cc1)[NH:2]C(=O)c1cc[n:1]cc1CC[N:3]1CCCC1"
+   }
+  ]
+ },
+ {
+  "id": "am-08",
+  "t": "amines",
+  "d": 2,
+  "q": "An ether solution of acetanilide, 4-methylaniline and naphthalene is shaken with 1 M HCl. Which compound moves into the aqueous layer, and how is it recovered?",
+  "c": [
+   "4-methylaniline, as ArNH<sub>3</sub><sup>+</sup> Cl<sup>−</sup>; add NaOH to the aqueous layer and extract the free amine back into ether",
+   "4-methylaniline and acetanilide, as N-protonated salts; add NaOH to the aqueous layer and extract both back into ether",
+   "4-methylaniline, as ArNH<sub>3</sub><sup>+</sup> Cl<sup>−</sup>; evaporate the aqueous layer to dryness to obtain the neutral amine",
+   "acetanilide, as its O-protonated salt; add NaHCO<sub>3</sub> to the aqueous layer and extract the amide back into ether"
+  ],
+  "h": "1 M HCl protonates only a base whose conjugate acid has pK<sub>a</sub> well above 0. After extraction, the salt must be converted back to the neutral compound.",
+  "w": "4-Methylaniline (pK<sub>a</sub>H about 5.1) is protonated by 1 M HCl to a water-soluble anilinium chloride, so it leaves the ether layer. Acetanilide is an amide (pK<sub>a</sub>H about −0.5): it is not protonated appreciably and stays in ether with the neutral hydrocarbon naphthalene. Making the aqueous layer basic with NaOH deprotonates ArNH<sub>3</sub><sup>+</sup>, and the neutral amine is extracted back into ether. Key: <b>4-methylaniline as its salt, recovered by basifying and extracting</b>.",
+  "x": [
+   "",
+   "The amide N lone pair is tied up in resonance with C=O; amides are far too weakly basic to be extracted by dilute aqueous acid.",
+   "Evaporating the water leaves the ammonium chloride salt, not the neutral amine; a base is needed to free the amine.",
+   "Acetanilide is not protonated by 1 M HCl to any useful extent, and it is the amine, not the amide, that enters the water."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "CC(=O)Nc1ccccc1",
+    "cap": "acetanilide"
+   },
+   {
+    "smi": "Cc1ccc(N)cc1",
+    "cap": "4-methylaniline"
+   },
+   {
+    "smi": "c1ccc2ccccc2c1",
+    "cap": "naphthalene"
+   }
+  ]
+ },
+ {
+  "id": "am-09",
+  "t": "amines",
+  "d": 3,
+  "q": "An ether solution of aniline (conjugate-acid pK<sub>a</sub> 4.6) and 4-nitroaniline (conjugate-acid pK<sub>a</sub> 1.0) is shaken with an aqueous buffer at pH 3.0. Which statement best describes the result?",
+  "c": [
+   "Aniline is about 98% protonated and moves into the water; 4-nitroaniline is about 99% neutral and stays in the ether",
+   "Both amines are more than 90% protonated at pH 3.0, so both move into the water",
+   "4-Nitroaniline is mostly protonated and moves into the water; aniline is mostly neutral and stays in the ether",
+   "Neither amine is protonated appreciably, because pH 3.0 is above both conjugate-acid pK<sub>a</sub> values"
+  ],
+  "h": "Use [BH<sup>+</sup>]/[B] = 10<sup>(pK<sub>a</sub> − pH)</sup> for each amine.",
+  "w": "For aniline, [BH<sup>+</sup>]/[B] = 10<sup>(4.6 − 3.0)</sup> = 10<sup>1.6</sup> ≈ 40, so about 98% is the anilinium ion, which is water-soluble. For 4-nitroaniline, [BH<sup>+</sup>]/[B] = 10<sup>(1.0 − 3.0)</sup> = 0.01, so about 99% is the neutral amine, which stays in ether. A pH between the two pK<sub>a</sub> values separates them: <b>aniline goes to the water, 4-nitroaniline stays in ether</b>.",
+  "x": [
+   "",
+   "At pH 3.0, which is two units above its conjugate-acid pK<sub>a</sub> of 1.0, 4-nitroaniline is only about 1% protonated.",
+   "This reverses the basicities: the nitro group makes 4-nitroaniline the weaker base, so it is the one left neutral.",
+   "pH 3.0 is below aniline's conjugate-acid pK<sub>a</sub> (4.6), so aniline is mostly protonated; only 4-nitroaniline (1.0) stays neutral."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "Nc1ccccc1",
+    "cap": "aniline"
+   },
+   {
+    "smi": "Nc1ccc(cc1)[N+](=O)[O-]",
+    "cap": "4-nitroaniline"
+   }
+  ]
+ },
+ {
+  "id": "am-10",
+  "t": "amines",
+  "d": 1,
+  "q": "A compound C<sub>5</sub>H<sub>13</sub>N gives the IR spectrum shown, with two sharp medium bands near 3380 and 3300 cm<sup>−1</sup> and a band near 1610 cm<sup>−1</sup>. Which structure fits?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Count the N–H bonds. How many N–H stretching bands does each class of amine show?",
+  "w": "A primary amine has an NH<sub>2</sub> group whose two N–H bonds stretch in phase (symmetric) and out of phase (asymmetric), giving <b>two</b> N–H bands near 3300–3500 cm<sup>−1</sup>; the NH<sub>2</sub> scissoring bend appears near 1600 cm<sup>−1</sup>. A 2° amine shows one weak N–H band and a 3° amine none. Only <b>pentan-1-amine</b> is primary.",
+  "x": [
+   "",
+   "N-Methylbutan-1-amine is a 2° amine with one N–H bond: one N–H stretching band, not two.",
+   "N,N-Dimethylpropan-1-amine is a 3° amine with no N–H bond, so it shows no band above 3100 cm<sup>−1</sup>.",
+   "N-Ethylpropan-1-amine is a 2° amine: a single weak N–H band."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "NCCCCC"
+   },
+   {
+    "smi": "CNCCCC"
+   },
+   {
+    "smi": "CN(C)CCC"
+   },
+   {
+    "smi": "CCNCCC"
+   }
+  ],
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3380,
+      "str": "m"
+     },
+     {
+      "cm": 3300,
+      "str": "m"
+     },
+     {
+      "cm": 2930,
+      "str": "s"
+     },
+     {
+      "cm": 2860,
+      "str": "m"
+     },
+     {
+      "cm": 1610,
+      "str": "m"
+     },
+     {
+      "cm": 1465,
+      "str": "m"
+     },
+     {
+      "cm": 800,
+      "shape": "broad",
+      "str": "m"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "am-11",
+  "t": "amines",
+  "d": 2,
+  "q": "A compound C<sub>4</sub>H<sub>11</sub>N gives the <sup>1</sup>H NMR spectrum shown. The broad singlet at 1.0 ppm disappears when the sample is shaken with D<sub>2</sub>O. Which compound is it?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "A 3H singlet near 2.4 ppm is a CH<sub>3</sub> on nitrogen. How many N–H protons does the exchangeable signal show?",
+  "w": "The exchangeable 1H broad singlet is a single N–H, so the amine is 2°. The 3H singlet at 2.43 ppm is an N–CH<sub>3</sub> (no neighbors), and the 2H triplet at 2.55 ppm is an N–CH<sub>2</sub> next to a CH<sub>2</sub>; the 2H sextet and 3H triplet complete a propyl group. The compound is <b>N-methylpropan-1-amine</b>, CH<sub>3</sub>NHCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>.",
+  "x": [
+   "",
+   "Butan-1-amine has an NH<sub>2</sub> (a 2H exchangeable signal) and no 3H singlet.",
+   "N,N-Dimethylethanamine has a 6H singlet, a quartet and a triplet, and no N–H signal at all.",
+   "N-Methylpropan-2-amine would show a 6H doublet and a 1H septet for the isopropyl group, not a sextet and a triplet."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "CNCCC"
+   },
+   {
+    "smi": "NCCCC"
+   },
+   {
+    "smi": "CCN(C)C"
+   },
+   {
+    "smi": "CNC(C)C"
+   }
+  ],
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 2.55,
+      "mult": "t",
+      "int": 2
+     },
+     {
+      "ppm": 2.43,
+      "mult": "s",
+      "int": 3
+     },
+     {
+      "ppm": 1.48,
+      "mult": "sext",
+      "int": 2
+     },
+     {
+      "ppm": 1.0,
+      "mult": "br s",
+      "int": 1
+     },
+     {
+      "ppm": 0.91,
+      "mult": "t",
+      "int": 3
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "am-12",
+  "t": "amines",
+  "d": 2,
+  "q": "Pyridine and pyrrole both contain a ring nitrogen, yet the conjugate acid of pyridine has pK<sub>a</sub> 5.2 and protonated pyrrole about −3.8. What best explains the difference?",
+  "c": [
+   "Pyrrole's N lone pair is one of the six π electrons of its aromatic ring, so protonating it destroys aromaticity; pyridine's lone pair lies in the ring plane and is not part of the π system",
+   "Pyrrole's nitrogen is sp hybridized, so its lone pair has more s character and is held more tightly than pyridine's sp<sup>2</sup> lone pair",
+   "Pyridine's nitrogen bears a partial negative charge from resonance with the ring, while pyrrole's nitrogen bears a partial positive charge from induction",
+   "Pyrrole is antiaromatic, and protonation at nitrogen would relieve the antiaromaticity only partly"
+  ],
+  "h": "Count the π electrons in each ring and ask where the N lone pair must be for the ring to have six.",
+  "w": "Pyrrole has four π electrons from its two C=C bonds; the N lone pair, in a p orbital, supplies the other two for the aromatic sextet. Using it to bond H<sup>+</sup> removes it from the π system, so the cation is not aromatic (pyrrole actually protonates on C2). Pyridine already has six π electrons from three C=C/C=N bonds; its lone pair is in an sp<sup>2</sup> orbital in the ring plane, perpendicular to the π system, and can bond H<sup>+</sup> without affecting aromaticity. Answer: <b>pyrrole's lone pair is part of the aromatic sextet</b>.",
+  "x": [
+   "",
+   "Pyrrole's N is sp<sup>2</sup> hybridized with its lone pair in a p orbital; it is not sp.",
+   "Pyrrole's nitrogen actually donates electron density into the ring by resonance; the difference is about whether the lone pair belongs to the aromatic sextet, not partial charges.",
+   "Pyrrole is aromatic (4n + 2 = 6 π electrons), not antiaromatic."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "c1ccncc1",
+    "cap": "pyridine"
+   },
+   {
+    "smi": "c1cc[nH]c1",
+    "cap": "pyrrole"
+   }
+  ]
+ },
+ {
+  "id": "am-13",
+  "t": "amines",
+  "d": 2,
+  "q": "Acetamide (CH<sub>3</sub>CONH<sub>2</sub>) is about 10<sup>11</sup> times less basic than ethylamine. Which statement about acetamide is correct?",
+  "c": [
+   "It is protonated on oxygen, because the resulting cation is stabilized by resonance with the N lone pair, which is delocalized into the C=O",
+   "It is protonated on nitrogen, but the N–H<sup>+</sup> bond is weak because nitrogen in an amide is sp hybridized",
+   "It is protonated on nitrogen, and the cation is destabilized only by the inductive effect of the methyl group",
+   "It cannot be protonated at all, because an amide has no lone pairs left after resonance"
+  ],
+  "h": "Draw the resonance form of an amide that puts a negative charge on oxygen. Which atom is then the electron-rich one?",
+  "w": "In an amide the N lone pair is delocalized onto the carbonyl oxygen (C=N<sup>+</sup>–O<sup>−</sup> resonance form), so N is planar and poorly basic, while O carries extra electron density. Protonation <b>on oxygen</b> gives a cation whose positive charge is shared between C, O and N by resonance; protonation on N would remove the amide resonance. The conjugate-acid pK<sub>a</sub> is about −0.5, compared with 10.7 for CH<sub>3</sub>CH<sub>2</sub>NH<sub>3</sub><sup>+</sup>.",
+  "x": [
+   "",
+   "Amide nitrogen is sp<sup>2</sup> (planar, lone pair in a p orbital), and amides protonate on oxygen, not nitrogen.",
+   "A methyl group is weakly donating, not withdrawing; the low basicity comes from resonance with the carbonyl.",
+   "Amides are weak bases but can be protonated by strong acids (that is the first step of acid-catalyzed amide hydrolysis)."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "CC(N)=O",
+    "cap": "acetamide"
+   },
+   {
+    "smi": "CCN",
+    "cap": "ethylamine"
+   }
+  ]
+ },
+ {
+  "id": "am-14",
+  "t": "amines",
+  "d": 2,
+  "q": "Which ion is the <b>strongest</b> acid?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The strongest conjugate acid belongs to the weakest base. Which neutral amine has the least available lone pair?",
+  "w": "The ions are conjugate acids of 4-nitroaniline (pK<sub>a</sub> 1.0), pyridine (5.2), aniline (4.6) and methylamine (10.6). The weakest base, <b>4-nitroaniline</b>, gives the strongest conjugate acid: its free amine is stabilized by resonance donation of the N lone pair into both the ring and the para nitro group, so losing H<sup>+</sup> is most favorable.",
+  "x": [
+   "",
+   "Pyridinium (pK<sub>a</sub> 5.2) is a weaker acid than 4-nitroanilinium (1.0) by about four pK<sub>a</sub> units.",
+   "Anilinium (pK<sub>a</sub> 4.6) lacks the nitro group that further stabilizes the free amine, so it is about 4000 times weaker as an acid.",
+   "Methylammonium (pK<sub>a</sub> 10.6) is the weakest acid here because methylamine is the strongest base."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "[NH3+]c1ccc(cc1)[N+](=O)[O-]"
+   },
+   {
+    "smi": "c1cc[nH+]cc1"
+   },
+   {
+    "smi": "[NH3+]c1ccccc1"
+   },
+   {
+    "smi": "C[NH3+]"
+   }
+  ]
+ },
+ {
+  "id": "am-15",
+  "t": "amines",
+  "d": 3,
+  "q": "Rank the three anilines in order of <b>increasing</b> basicity (weakest base first).",
+  "c": [
+   "I < II < III",
+   "III < II < I",
+   "II < I < III",
+   "I < III < II"
+  ],
+  "h": "A methoxy group donates by resonance only to ortho/para positions; at a meta position only its inductive effect acts on the carbon bearing N.",
+  "w": "From the meta position, OCH<sub>3</sub> cannot donate by resonance to the carbon bearing NH<sub>2</sub>; only its inductive withdrawal (electronegative O) acts, so 3-methoxyaniline (I, pK<sub>a</sub>H 4.2) is slightly <i>less</i> basic than aniline (II, 4.6). From the para position, resonance donation dominates, so 4-methoxyaniline (III, 5.3) is more basic. Order: <b>I &lt; II &lt; III</b>.",
+  "x": [
+   "",
+   "This is the exact reverse; the para isomer is the strongest base and the meta isomer the weakest.",
+   "At the meta position OCH<sub>3</sub> withdraws inductively and cannot donate by resonance, so 3-methoxyaniline is weaker than aniline, not stronger.",
+   "Para resonance donation makes 4-methoxyaniline a stronger base than aniline, so it cannot be in the middle."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "COc1cccc(N)c1",
+    "cap": "I"
+   },
+   {
+    "smi": "Nc1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "COc1ccc(N)cc1",
+    "cap": "III"
+   }
+  ]
+ }
+]

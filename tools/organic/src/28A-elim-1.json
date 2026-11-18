@@ -1,0 +1,716 @@
+[
+ {
+  "id": "elim-1-01",
+  "d": 1,
+  "q": "What is the major organic product when 2-bromo-2-methylbutane is heated with NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol?",
+  "s": [
+   {
+    "smi": "CCC(C)(C)Br"
+   },
+   {
+    "arrow": "NaOCH<sub>2</sub>CH<sub>3</sub>",
+    "below": "CH<sub>3</sub>CH<sub>2</sub>OH, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC=C(C)C"
+   },
+   {
+    "smi": "C=C(C)CC"
+   },
+   {
+    "smi": "C=CC(C)C"
+   },
+   {
+    "smi": "CCOC(C)(C)CC"
+   }
+  ],
+  "h": "A tertiary halide with a strong, small base reacts by E2. Which β hydrogen gives the more substituted C=C?",
+  "w": "A 3° bromide cannot undergo S<sub>N</sub>2, and ethoxide is a strong base, so the reaction is E2. Ethoxide is small, so it can reach the internal CH<sub>2</sub> hydrogens and the <b>Zaitsev product, 2-methyl-2-butene</b> (trisubstituted, more stable) is major. 2-Methyl-1-butene (disubstituted) is the minor Hofmann product.",
+  "x": [
+   "",
+   "2-Methyl-1-butene is the less substituted (Hofmann) alkene; it becomes major only with a bulky base such as tert-butoxide.",
+   "3-Methyl-1-butene would need the C=C between C3 and C4 of the original chain; neither carbon carries the leaving group, so it cannot form by E2 here.",
+   "The ether is the substitution product. A 3° carbon blocks backside attack, and with a strong base and heat elimination dominates."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-02",
+  "d": 2,
+  "q": "2-Bromo-2,3-dimethylbutane is treated with potassium tert-butoxide in tert-butyl alcohol. What is the major product?",
+  "s": [
+   {
+    "smi": "CC(C)C(C)(C)Br"
+   },
+   {
+    "arrow": "(CH<sub>3</sub>)<sub>3</sub>COK",
+    "below": "(CH<sub>3</sub>)<sub>3</sub>COH"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=C(C)C(C)C"
+   },
+   {
+    "smi": "CC(C)=C(C)C"
+   },
+   {
+    "smi": "C=CC(C)(C)C"
+   },
+   {
+    "smi": "CC(C)C(C)(C)OC(C)(C)C"
+   }
+  ],
+  "h": "Think about which β hydrogens a very bulky base can reach most easily.",
+  "w": "tert-Butoxide is a strong but bulky base. With a 3° bromide it does E2, and it removes the most accessible hydrogen: one of the six equivalent CH<sub>3</sub> hydrogens on C1, not the single hindered C–H on C3. The <b>Hofmann product, 2,3-dimethyl-1-butene</b>, is therefore major, even though 2,3-dimethyl-2-butene (tetrasubstituted) is more stable.",
+  "x": [
+   "",
+   "2,3-Dimethyl-2-butene is the Zaitsev product; it is major with a small base such as ethoxide, not with tert-butoxide.",
+   "3,3-Dimethyl-1-butene has a different carbon skeleton; making it would require a methyl shift, which does not happen in a concerted E2.",
+   "tert-Butoxide is a very poor nucleophile, and the 3° carbon cannot undergo S<sub>N</sub>2, so this ether does not form."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-03",
+  "d": 2,
+  "q": "Which reagent converts 1-bromo-1-methylcyclohexane mainly into methylenecyclohexane?",
+  "s": [
+   {
+    "smi": "CC1(Br)CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C=C1CCCCC1"
+   }
+  ],
+  "c": [
+   "(CH<sub>3</sub>)<sub>3</sub>COK, (CH<sub>3</sub>)<sub>3</sub>COH",
+   "NaOCH<sub>2</sub>CH<sub>3</sub>, CH<sub>3</sub>CH<sub>2</sub>OH, heat",
+   "H<sub>2</sub>O, heat",
+   "NaI, acetone"
+  ],
+  "h": "The target is the less substituted (exocyclic) alkene. What kind of base favors that?",
+  "w": "Methylenecyclohexane is the less substituted (Hofmann) alkene, formed by removing a hydrogen from the CH<sub>3</sub> group. A bulky base removes the exposed CH<sub>3</sub> hydrogens faster than the ring CH<sub>2</sub> hydrogens, so <b>(CH<sub>3</sub>)<sub>3</sub>COK in (CH<sub>3</sub>)<sub>3</sub>COH</b> gives mainly the exocyclic alkene.",
+  "x": [
+   "",
+   "Ethoxide is small, so E2 gives mainly the Zaitsev product, 1-methylcyclohexene (trisubstituted).",
+   "Hot water gives S<sub>N</sub>1/E1 through the 3° carbocation; the alcohol and 1-methylcyclohexene (the more stable alkene) dominate.",
+   "Iodide is a good nucleophile but a very weak base, and a 3° carbon cannot undergo S<sub>N</sub>2; no elimination to the exocyclic alkene occurs."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-04",
+  "d": 3,
+  "q": "(2<i>R</i>,3<i>R</i>)-2-Bromo-3-methylhexane is heated with NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol. What is the major product?",
+  "s": [
+   {
+    "smi": "C[C@@H](Br)[C@H](C)CCC"
+   },
+   {
+    "arrow": "NaOCH<sub>2</sub>CH<sub>3</sub>",
+    "below": "CH<sub>3</sub>CH<sub>2</sub>OH, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C/C=C(\\C)CCC"
+   },
+   {
+    "smi": "C/C=C(/C)CCC"
+   },
+   {
+    "smi": "C=CC(C)CCC"
+   },
+   {
+    "smi": "CCOC(C)C(C)CCC"
+   }
+  ],
+  "h": "Zaitsev decides which carbon loses H; the anti-periplanar geometry then decides E or Z, because C3 has only one hydrogen.",
+  "w": "Ethoxide is small, so the trisubstituted Zaitsev alkene (C2=C3) is major. C3 has only one H, so only one conformation puts that H anti-periplanar to Br, and the geometry of the alkene is fixed. Put Br and the C3–H anti in a Newman projection along C2–C3: for the (2<i>R</i>,3<i>R</i>) isomer the C2 methyl ends up anti to the C3 propyl group, so those two become trans. On C2, CH<sub>3</sub> &gt; H; on C3, CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> &gt; CH<sub>3</sub>. The higher-priority groups are trans, so the product is <b>(<i>E</i>)-3-methylhex-2-ene</b>. (The (2<i>R</i>,3<i>S</i>) diastereomer gives the <i>Z</i> alkene.)",
+  "x": [
+   "",
+   "The <i>Z</i> alkene comes from the (2<i>R</i>,3<i>S</i>)/(2<i>S</i>,3<i>R</i>) diastereomer; E2 is stereospecific, so this isomer cannot give it.",
+   "3-Methylhex-1-ene is the Hofmann product; with a small base like ethoxide it is minor.",
+   "The S<sub>N</sub>2 ether is minor: the 2° carbon is next to a branched carbon, and ethoxide with heat favors E2."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-05",
+  "d": 3,
+  "q": "The Newman projection shows 2-bromo-3-phenylbutane viewed along C2–C3 (C2 in front) in the conformation that reacts. What is the product of E2 elimination with NaOCH<sub>2</sub>CH<sub>3</sub>?",
+  "f": [
+   {
+    "type": "newman",
+    "front": [
+     "Br",
+     "CH<sub>3</sub>",
+     "H"
+    ],
+    "back": [
+     "H",
+     "CH<sub>3</sub>",
+     "C<sub>6</sub>H<sub>5</sub>"
+    ],
+    "rot": 180
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C/C=C(/C)c1ccccc1"
+   },
+   {
+    "smi": "C/C=C(\\C)c1ccccc1"
+   },
+   {
+    "smi": "C=C[C@H](C)c1ccccc1"
+   },
+   {
+    "smi": "C=C(CC)c1ccccc1"
+   }
+  ],
+  "h": "Br and the back H are anti. Groups that are gauche (60°) to each other in this conformation end up cis on the alkene.",
+  "w": "In the drawn conformation the back-carbon H is anti to Br, so E2 removes it and the C=C forms between C2 and C3. The remaining groups keep their sides: the front CH<sub>3</sub> (lower left) is next to the back C<sub>6</sub>H<sub>5</sub> (upper left), and the front H is next to the back CH<sub>3</sub>. So CH<sub>3</sub> on C2 and C<sub>6</sub>H<sub>5</sub> on C3 are cis. Priorities: CH<sub>3</sub> > H on C2; C<sub>6</sub>H<sub>5</sub> > CH<sub>3</sub> on C3, so the product is <b>(<i>Z</i>)-2-phenyl-2-butene</b>.",
+  "x": [
+   "",
+   "The <i>E</i> isomer would need the front CH<sub>3</sub> and the phenyl on opposite sides; in the anti-periplanar conformation they are gauche, so they end up cis.",
+   "3-Phenyl-1-butene would need removal of a C1 hydrogen, but the drawn anti-periplanar H is on C3, and the conjugated trisubstituted alkene is strongly favored.",
+   "2-Phenyl-1-butene needs a C=C between the phenyl-bearing carbon and its methyl group; neither carbon carries the Br, so E2 cannot form it."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-06",
+  "d": 2,
+  "q": "<i>meso</i>-2,3-Dibromobutane is treated with one equivalent of NaOCH<sub>2</sub>CH<sub>3</sub>. Which monobromoalkene forms?",
+  "s": [
+   {
+    "smi": "C[C@@H](Br)[C@H](C)Br",
+    "cap": "meso"
+   },
+   {
+    "arrow": "1 equiv NaOCH<sub>2</sub>CH<sub>3</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C/C=C(\\C)Br"
+   },
+   {
+    "smi": "C/C=C(/C)Br"
+   },
+   {
+    "smi": "C=CC(C)Br"
+   },
+   {
+    "smi": "CC#CC"
+   }
+  ],
+  "h": "Draw a Newman projection with one Br anti to the H on the other carbon, and see where the two methyl groups end up.",
+  "w": "In the meso isomer, the conformation with Br on C2 anti to H on C3 places the two CH<sub>3</sub> groups gauche (on the same side), so they are cis in the alkene. On C2, Br > CH<sub>3</sub>; on C3, CH<sub>3</sub> > H. Br and the C3 methyl are therefore trans: <b>(<i>E</i>)-2-bromo-2-butene</b>. The racemic (2<i>R</i>,3<i>R</i>) isomer gives the <i>Z</i> isomer instead.",
+  "x": [
+   "",
+   "The <i>Z</i> isomer comes from the chiral (2<i>R</i>,3<i>R</i>)/(2<i>S</i>,3<i>S</i>) dibromide; E2 from the meso isomer cannot give it.",
+   "3-Bromo-1-butene needs loss of a C1 hydrogen; the C3 hydrogen, which gives the more substituted vinyl bromide, is removed instead.",
+   "2-Butyne needs a second elimination, which requires excess very strong base such as NaNH<sub>2</sub>; one equivalent of ethoxide stops at the vinyl bromide."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-07",
+  "d": 3,
+  "q": "On E2 with NaOCH<sub>2</sub>CH<sub>3</sub>, which compound gives (<i>E</i>)-2-phenyl-2-butene with <b>no</b> (<i>Z</i>) isomer?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@@H](Br)[C@H](C)c1ccccc1"
+   },
+   {
+    "smi": "C[C@@H](Br)[C@@H](C)c1ccccc1"
+   },
+   {
+    "smi": "C[C@H](Br)[C@H](C)c1ccccc1"
+   },
+   {
+    "smi": "CC[C@@](C)(Br)c1ccccc1"
+   }
+  ],
+  "h": "The C=C must form between the carbon with Br and a carbon that has only one H, so the anti-periplanar requirement fixes E/Z.",
+  "w": "2-Bromo-3-phenylbutane eliminates toward C3 (one H, gives the conjugated trisubstituted alkene). With Br and that H anti, the (2<i>R</i>,3<i>R</i>) isomer puts the C2 methyl gauche to the C3 methyl, so the methyls end up cis and the phenyl trans to the C2 methyl: the <i>E</i> alkene. So <b>(2<i>R</i>,3<i>R</i>)-2-bromo-3-phenylbutane</b> gives only the <i>E</i> isomer. (Its enantiomer, (2<i>S</i>,3<i>S</i>), would too.)",
+  "x": [
+   "",
+   "This is the (2<i>R</i>,3<i>S</i>) diastereomer; in its anti-periplanar conformation CH<sub>3</sub> and C<sub>6</sub>H<sub>5</sub> are gauche, so it gives only the <i>Z</i> alkene.",
+   "This is (2<i>S</i>,3<i>R</i>), the enantiomer of the (2<i>R</i>,3<i>S</i>) isomer; it also gives only the <i>Z</i> alkene.",
+   "Here Br is on the carbon bearing the phenyl, and the neighboring CH<sub>2</sub> has two hydrogens, so either can be anti to Br: both <i>E</i> and <i>Z</i> form (plus the 1-alkene)."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-08",
+  "d": 3,
+  "q": "trans-1-Bromo-2-methylcyclohexane is shown in its more stable chair. What is the major product of E2 with NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol? (Stereochemistry at ring carbons is not shown in the choices.)",
+  "f": [
+   {
+    "type": "chair",
+    "subs": [
+     [
+      1,
+      "up",
+      "Br"
+     ],
+     [
+      2,
+      "down",
+      "CH<sub>3</sub>"
+     ]
+    ],
+    "flip": true,
+    "nums": true
+   }
+  ],
+  "c": [
+   "3-Methylcyclohexene",
+   "1-Methylcyclohexene",
+   "Methylenecyclohexane",
+   "cis-1-Ethoxy-2-methylcyclohexane"
+  ],
+  "cs": [
+   {
+    "smi": "CC1CCCC=C1"
+   },
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "smi": "C=C1CCCCC1"
+   },
+   {
+    "smi": "CCOC1CCCCC1C"
+   }
+  ],
+  "h": "Cyclohexane E2 needs Br axial and an axial H on the neighboring carbon (trans-diaxial). Flip the ring and check both β carbons.",
+  "w": "E2 on a cyclohexane requires the leaving group and the β H to be trans-diaxial. In the drawn chair both groups are equatorial, so the ring must flip; then Br and CH<sub>3</sub> are both axial (trans-1,2 = diaxial). On C2 the axial position is taken by CH<sub>3</sub>, so the C2 H is equatorial and cannot be anti to Br. Only C6 has an axial H, so the C=C forms between C1 and C6: <b>3-methylcyclohexene</b>, even though it is the less substituted alkene.",
+  "x": [
+   "",
+   "1-Methylcyclohexene is the Zaitsev product, but it needs an axial H on C2; in the diaxial conformer C2 has an axial CH<sub>3</sub> and only an equatorial H.",
+   "Methylenecyclohexane would need Br on the carbon bearing the methyl; here Br is on C1 and the methyl on C2, so that C=C cannot form.",
+   "S<sub>N</sub>2 (with inversion, giving this cis ether) on a hindered 2° ring carbon with a strong base and heat is minor; E2 is the main pathway."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-09",
+  "d": 2,
+  "q": "Consider E2 reactions of the cis and trans isomers of 1-bromo-2-methylcyclohexane with NaOCH<sub>2</sub>CH<sub>3</sub>. Which statements are true?<br>I. The cis isomer gives mainly 1-methylcyclohexene.<br>II. The trans isomer gives mainly 3-methylcyclohexene.<br>III. The trans isomer reacts faster than the cis isomer.",
+  "s": [
+   {
+    "smi": "C[C@H]1CCCC[C@H]1Br",
+    "cap": "cis"
+   },
+   {
+    "smi": "C[C@@H]1CCCC[C@H]1Br",
+    "cap": "trans"
+   }
+  ],
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "For each isomer, find the chair with Br axial and ask how much of the molecule is in that chair and which neighbors have axial H.",
+  "w": "cis: Br axial / CH<sub>3</sub> equatorial is the preferred chair (CH<sub>3</sub> has the larger A-value), and both C2 and C6 have axial H, so E2 is fast and Zaitsev gives 1-methylcyclohexene (I true). trans: Br is axial only in the diaxial chair, a small fraction of molecules, and there only C6 has an axial H, so it reacts more slowly and gives 3-methylcyclohexene (II true, III false). Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is also true: in the reactive diaxial chair of the trans isomer only C6 has an axial H, so 3-methylcyclohexene forms.",
+   "Statement III is false: the trans isomer must flip into its diaxial chair before it can react, so it is the slower one.",
+   "Statement III is false: the cis isomer, with Br already axial in its preferred chair, reacts faster."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-10",
+  "d": 3,
+  "q": "The chair below (a neomenthyl-type bromide) is heated with NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol. What is the major E2 product? (Ring stereochemistry is not shown in the choices.)",
+  "f": [
+   {
+    "type": "chair",
+    "subs": [
+     [
+      1,
+      "up",
+      "Br"
+     ],
+     [
+      2,
+      "up",
+      "CH<sub>2</sub>CH<sub>3</sub>"
+     ],
+     [
+      5,
+      "down",
+      "CH<sub>3</sub>"
+     ]
+    ],
+    "flip": false,
+    "nums": true
+   }
+  ],
+  "c": [
+   "1-Ethyl-4-methylcyclohexene",
+   "3-Ethyl-6-methylcyclohexene",
+   "The ethyl ether from S<sub>N</sub>2 at C1",
+   "No E2 product; an axial C–Br bond cannot react"
+  ],
+  "cs": [
+   {
+    "smi": "CCC1=CCC(C)CC1"
+   },
+   {
+    "smi": "CCC1CCC(C)C=C1"
+   },
+   {
+    "smi": "CCOC1CC(C)CCC1CC"
+   },
+   null
+  ],
+  "h": "Is Br already axial in this chair? Which neighboring carbons have an axial H?",
+  "w": "In this chair Br is axial while the ethyl and methyl groups are both equatorial, so the reactive conformation is also the stable one. C2 (with an equatorial ethyl) has an axial H, and C6 has an axial H, so E2 can go either way. With a small base, Zaitsev wins: the trisubstituted alkene from loss of the C2 H, <b>1-ethyl-4-methylcyclohexene</b>, is major.",
+  "x": [
+   "",
+   "3-Ethyl-6-methylcyclohexene (C1=C6) is the minor, less substituted alkene here because C2 also has an axial H.",
+   "Substitution at a hindered 2° ring carbon with a strong base and heat is minor compared with E2.",
+   "An axial leaving group is exactly what cyclohexane E2 needs; it is anti-periplanar to the axial H atoms on C2 and C6."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-11",
+  "d": 3,
+  "q": "Chairs I and II are diastereomers (shown in their more stable chairs). Compared with II, how does I behave in E2 with NaOCH<sub>2</sub>CH<sub>3</sub>?",
+  "f": [
+   {
+    "type": "chair",
+    "items": [
+     {
+      "type": "chair",
+      "subs": [
+       [
+        1,
+        "down",
+        "Br"
+       ],
+       [
+        2,
+        "up",
+        "CH<sub>2</sub>CH<sub>3</sub>"
+       ],
+       [
+        5,
+        "down",
+        "CH<sub>3</sub>"
+       ]
+      ],
+      "flip": false,
+      "nums": true,
+      "cap": "I"
+     },
+     {
+      "type": "chair",
+      "subs": [
+       [
+        1,
+        "up",
+        "Br"
+       ],
+       [
+        2,
+        "up",
+        "CH<sub>2</sub>CH<sub>3</sub>"
+       ],
+       [
+        5,
+        "down",
+        "CH<sub>3</sub>"
+       ]
+      ],
+      "flip": false,
+      "nums": true,
+      "cap": "II"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "I reacts more slowly and gives only 3-ethyl-6-methylcyclohexene",
+   "I reacts more slowly and gives mainly 1-ethyl-4-methylcyclohexene",
+   "I reacts faster and gives only 3-ethyl-6-methylcyclohexene",
+   "I reacts faster and gives mainly 1-ethyl-4-methylcyclohexene"
+  ],
+  "h": "Where is Br in the stable chair of I? What must happen before I can eliminate, and what is axial on C2 after that?",
+  "w": "In I all three groups are equatorial. To make Br axial the ring must flip, putting ethyl and methyl axial too, a high-energy chair present in tiny amounts, so <b>I reacts more slowly</b>. In that diaxial chair, C2 has an axial ethyl and only an equatorial H, so the only anti-periplanar H is on C6: <b>I gives only 3-ethyl-6-methylcyclohexene</b> (the non-Zaitsev alkene). II already has Br axial with axial H on both C2 and C6, so it reacts fast and gives mainly the Zaitsev alkene.",
+  "x": [
+   "",
+   "I does react slowly, but it cannot give the Zaitsev alkene: in its reactive chair C2 bears an axial ethyl, so the C2 H is not anti to Br.",
+   "The product is right, but I is slower: the conformer with Br axial is the minor triaxial chair.",
+   "This describes neither isomer correctly: II is the fast one (and gives mainly the Zaitsev alkene); I is slow and gives only the C1=C6 alkene."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-12",
+  "d": 2,
+  "q": "Which isomer of 1-bromo-4-tert-butylcyclohexane undergoes E2 with NaOCH<sub>2</sub>CH<sub>3</sub> much faster, and why?",
+  "f": [
+   {
+    "type": "chair",
+    "items": [
+     {
+      "type": "chair",
+      "subs": [
+       [
+        1,
+        "up",
+        "Br"
+       ],
+       [
+        4,
+        "up",
+        "C(CH<sub>3</sub>)<sub>3</sub>"
+       ]
+      ],
+      "flip": false,
+      "cap": "cis"
+     },
+     {
+      "type": "chair",
+      "subs": [
+       [
+        1,
+        "down",
+        "Br"
+       ],
+       [
+        4,
+        "up",
+        "C(CH<sub>3</sub>)<sub>3</sub>"
+       ]
+      ],
+      "flip": false,
+      "cap": "trans"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "cis, because its Br is axial and anti-periplanar to axial H on C2 and C6",
+   "trans, because its equatorial Br is less hindered for the approaching base",
+   "trans, because its equatorial Br is anti-periplanar to the ring C–C bonds",
+   "cis, because its Br is equatorial and eclipses the H on C2"
+  ],
+  "h": "The tert-butyl group locks the ring. Which isomer has Br axial in that locked chair?",
+  "w": "The tert-butyl group stays equatorial, so neither ring flips. In the <b>cis</b> isomer Br is axial and is anti-periplanar to the axial H atoms on C2 and C6, so E2 is fast. In the trans isomer Br is locked equatorial; an equatorial C–Br is anti to ring C–C bonds, not to any H, so E2 is very slow.",
+  "x": [
+   "",
+   "Steric access to Br is not the issue in E2; the base attacks a β H, and that H must be anti-periplanar to Br, which an equatorial Br cannot satisfy.",
+   "Being anti to a C–C bond does not help: E2 needs an anti-periplanar C–H, whose electrons form the new π bond.",
+   "In the cis isomer (with the tert-butyl equatorial) Br is axial, not equatorial, and E2 needs anti, not eclipsed, geometry here."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-13",
+  "d": 1,
+  "q": "The E2 reaction of 2-bromopropane with ethoxide follows rate = <i>k</i>[RBr][EtO<sup>−</sup>]. If [RBr] is doubled and [EtO<sup>−</sup>] is tripled, the rate changes by what factor?",
+  "c": [
+   "6 times faster",
+   "2 times faster",
+   "3 times faster",
+   "5 times faster"
+  ],
+  "h": "E2 is bimolecular: both concentrations appear to the first power.",
+  "w": "Rate = <i>k</i>[RBr][EtO<sup>−</sup>]. New rate = <i>k</i>(2[RBr])(3[EtO<sup>−</sup>]) = 6 × old rate, so <b>6 times faster</b>. Both species are in the single, concerted step.",
+  "x": [
+   "",
+   "Doubling [RBr] alone would double the rate, but E2 is also first order in base, so tripling [EtO<sup>−</sup>] multiplies it by 3 more.",
+   "That counts only the base; the substrate is also in the rate law (E2 is bimolecular).",
+   "The factors multiply (2 × 3), they do not add."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-14",
+  "d": 2,
+  "q": "2-Bromopropane reacts with NaOCH<sub>2</sub>CH<sub>3</sub> about 7 times faster than (CD<sub>3</sub>)<sub>2</sub>CHBr, in which all six β hydrogens are deuterium. What does this show?",
+  "c": [
+   "The β C–H bond is broken in the rate-determining step",
+   "A carbocation forms in the rate-determining step",
+   "The C–Br bond breaks in a fast step after deprotonation",
+   "Ethoxide attacks the carbon bearing the bromine"
+  ],
+  "h": "C–D bonds are stronger than C–H bonds. When does that matter for the rate?",
+  "w": "A primary deuterium kinetic isotope effect (<i>k</i><sub>H</sub>/<i>k</i><sub>D</sub> ≈ 7) appears only when the C–H (or C–D) bond is being broken in the rate-determining step. This supports the concerted E2 mechanism: <b>the β C–H bond breaks in the rate-determining step</b>, together with the C–Br bond.",
+  "x": [
+   "",
+   "Carbocation formation (E1) breaks only the C–Br bond in the slow step; deuterium on the β carbons would have little effect on that rate.",
+   "If C–Br broke in a later fast step, the rate would not be set by C–Br cleavage at all; E2 is concerted, so C–H and C–Br break together.",
+   "Attack at the C–Br carbon is S<sub>N</sub>2, which does not break a β C–H bond and would show no large isotope effect."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-15",
+  "d": 1,
+  "q": "Rank these 2-halo-2-methylpropanes by E2 rate with NaOCH<sub>2</sub>CH<sub>3</sub> (slowest → fastest).",
+  "s": [
+   {
+    "smi": "CC(C)(C)F",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(C)(C)Cl",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(C)(C)Br",
+    "cap": "III"
+   },
+   {
+    "smi": "CC(C)(C)I",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "I < II < III < IV",
+   "IV < III < II < I",
+   "II < I < III < IV",
+   "I < III < II < IV"
+  ],
+  "h": "The C–X bond breaks in the rate-determining step. Which halide is the best leaving group?",
+  "w": "Leaving-group ability follows the weakness of the conjugate base (and the weakness of the C–X bond): I<sup>−</sup> > Br<sup>−</sup> > Cl<sup>−</sup> > F<sup>−</sup>. Since C–X breaks in the E2 transition state, the order is <b>I < II < III < IV</b> (fluoride slowest, iodide fastest).",
+  "x": [
+   "",
+   "This is reversed: the strong C–F bond and basic F<sup>−</sup> make fluoride the worst leaving group, not the best.",
+   "Chloride is a better leaving group than fluoride; HCl is a far stronger acid than HF.",
+   "Bromide is a better leaving group than chloride; the C–Br bond is weaker and Br<sup>−</sup> is a weaker base."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-16",
+  "d": 1,
+  "q": "2-Bromobutane gives 1-butene and 2-butene by E2. Which base gives the <b>highest</b> percentage of 1-butene?",
+  "c": [
+   "(CH<sub>3</sub>)<sub>3</sub>COK in (CH<sub>3</sub>)<sub>3</sub>COH",
+   "NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol",
+   "NaOCH<sub>3</sub> in methanol",
+   "NaOH in ethanol"
+  ],
+  "h": "Which base is too crowded to reach the internal CH<sub>2</sub> hydrogens easily?",
+  "w": "1-Butene is the less substituted (Hofmann) alkene. A sterically bulky base removes the more exposed CH<sub>3</sub> hydrogens, so <b>potassium tert-butoxide</b> gives the most 1-butene. The small bases all favor the Zaitsev product, 2-butene.",
+  "x": [
+   "",
+   "Ethoxide is a small base and gives mainly 2-butene (Zaitsev).",
+   "Methoxide is even smaller than ethoxide and gives mainly 2-butene.",
+   "Hydroxide is small; with it 2-butene (Zaitsev) is again the main alkene."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-1-17",
+  "d": 2,
+  "q": "E2 of 2-bromobutane with NaOCH<sub>2</sub>CH<sub>3</sub> gives more (<i>E</i>)-2-butene than (<i>Z</i>)-2-butene. Which statement best explains this?",
+  "s": [
+   {
+    "smi": "CCC(C)Br"
+   },
+   {
+    "arrow": "NaOCH<sub>2</sub>CH<sub>3</sub>"
+   },
+   {
+    "smi": "C/C=C/C"
+   },
+   "+",
+   {
+    "smi": "C/C=C\\C"
+   }
+  ],
+  "c": [
+   "C3 has two H atoms; the anti-periplanar conformer that leads to <i>E</i> keeps the methyls anti and is lower in energy",
+   "E2 is not stereospecific, so the more stable alkene forms after the double bond equilibrates",
+   "Only one C3 hydrogen can be anti-periplanar to Br, and it always gives the <i>E</i> alkene",
+   "The <i>Z</i> alkene forms first and then isomerizes to <i>E</i> under the basic conditions"
+  ],
+  "h": "How many C3 hydrogens can be anti to Br? Compare the two conformations that put each one there.",
+  "w": "C3 is a CH<sub>2</sub>, so either H can be anti-periplanar to Br. In the conformer leading to <i>E</i>, the two methyls are anti; in the one leading to <i>Z</i>, they are gauche. The <i>E</i>-forming transition state has less steric strain and is lower in energy, so <b><i>E</i>-2-butene is major</b>. E2 is stereoselective here (not stereospecific, since both geometries are possible).",
+  "x": [
+   "",
+   "E2 is concerted and irreversible; the alkenes do not equilibrate under these conditions. The ratio is set by the two competing transition states.",
+   "Both C3 hydrogens can be placed anti to Br, one in each of two conformers, which is why both <i>E</i> and <i>Z</i> form.",
+   "Alkenes do not isomerize with alkoxide bases; each geometry comes directly from its own conformer."
+  ],
+  "t": "elim",
+  "k": 0
+ }
+]

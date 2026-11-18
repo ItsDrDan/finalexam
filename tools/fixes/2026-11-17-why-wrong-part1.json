@@ -1,0 +1,660 @@
+[
+ {
+  "id": "3A-20",
+  "field": "x[3]",
+  "old": "Sulfur is a nonmetal.",
+  "new": "Sulfur sits to the right of the zigzag line, so it is a nonmetal: dull, brittle and a poor conductor. Metalloids lie right along the staircase and have properties between metals and nonmetals.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "3A-50",
+  "field": "x[2]",
+  "old": "Carbon is not diatomic.",
+  "new": "Nitrogen and chlorine are diatomic (N<sub>2</sub>, Cl<sub>2</sub>), but carbon is not: it exists as networks of bonded atoms such as graphite and diamond, so this set fails.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "3A-146",
+  "field": "x[2]",
+  "old": "A pH above 7 is basic.",
+  "new": "A pH above 7 means basic, not acidic. Acidic solutions have pH below 7, which means [H<sub>3</sub>O<sup>+</sup>] greater than 1.0×10<sup>−7</sup> M at 25 °C.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "3A-171",
+  "field": "x[2]",
+  "old": "Krypton is a noble gas.",
+  "new": "Krypton is in the last column (group 8A), so it is a noble gas, not an alkali metal. Alkali metals are the reactive metals in group 1A, the first column.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "3A-181",
+  "field": "x[3]",
+  "old": "FeO is iron(II) oxide.",
+  "new": "FeO pairs one Fe with one O, which only balances if iron is 2+, so it is iron(II) oxide. The Roman numeral III means Fe<sup>3+</sup>, which needs a different ratio with O<sup>2−</sup>.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "3A-187",
+  "field": "x[3]",
+  "old": "H⁺ reacts to make water.",
+  "new": "H⁺ is not a spectator: it combines with OH⁻ to make water, which is the actual reaction. Spectators are the ions that stay dissolved and unchanged on both sides.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "3A-233",
+  "field": "x[3]",
+  "old": "K₃PO₄ gives a 3:1 ratio.",
+  "new": "K₃PO₄ breaks into 3 K⁺ for every PO₄³⁻, a 3 : 1 cation-to-anion ratio. Count the ions in the box: there are 6 cations and 3 anions, which is a 2 : 1 ratio.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "3A-286",
+  "field": "x[1]",
+  "old": "Box I is a pure element.",
+  "new": "Box I holds only one kind of particle, so it is a pure element, not a mixture. A mixture needs two or more different kinds of particles in the same box.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "3A-301",
+  "field": "x[3]",
+  "old": "BaSO₃ is barium sulfite.",
+  "new": "BaSO₃ contains sulfite (SO₃²⁻), so it is barium sulfite. The -ate ending in sulfate means the ion with one more oxygen, SO₄²⁻.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "3A-341",
+  "field": "x[2]",
+  "old": "This reverses the ratio.",
+  "new": "This reverses the ratio by putting the subscript on the wrong ion. J is in group 2 (J²⁺) and X is in group 17 (X⁻), so the charges balance only with two X for each J.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "3A-370",
+  "field": "x[3]",
+  "old": "700 torr is 700 mmHg.",
+  "new": "1 torr equals 1 mmHg, so sample IV is only 700 mmHg. Convert every sample to the same unit first; the others, including the 1.50 atm sample, are higher.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-16",
+  "field": "x[2]",
+  "old": "Kr is a noble gas.",
+  "new": "Kr is in period 4, but it is in group 18, so it is a noble gas, not a halogen. Halogens are the group 17 elements, one column to the left of the noble gases.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-28",
+  "field": "x[2]",
+  "old": "C₂H₄ is only 28 g/mol.",
+  "new": "C₂H₄ has the right 1 : 2 ratio, but its molar mass is only about 28 g/mol. Divide 56.1 g/mol by the empirical formula mass (14.03) to find how many CH₂ units the molecule really has.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-66",
+  "field": "x[3]",
+  "old": "This has the wrong sign.",
+  "new": "This has the wrong sign. When the given steps are added, the overall ΔH for forming NO₂ is positive (endothermic); scaling an equation by ½ changes the size of ΔH but never its sign.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-96",
+  "field": "x[1]",
+  "old": "Ge is a metalloid.",
+  "new": "Ge is a metalloid, with properties between metals and nonmetals. In group 14, metallic character increases going down the group, and Ge is not the lowest of these four.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-96",
+  "field": "x[2]",
+  "old": "Si is a metalloid.",
+  "new": "Si is a metalloid, so it is only partly metallic. Metallic character increases down a group, and Si is near the top of group 14 in this list.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-96",
+  "field": "x[3]",
+  "old": "C is a nonmetal.",
+  "new": "C is a nonmetal at the top of group 14, so it has the least metallic character here. Metallic character increases as you go down a group.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-112",
+  "field": "x[2]",
+  "old": "CH₄ is 109.5°.",
+  "new": "CH₄ has no lone pairs, so it keeps the full tetrahedral angle of 109.5°. Lone pairs squeeze bond angles smaller, so a central atom with more lone pairs gives a smaller angle.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-112",
+  "field": "x[3]",
+  "old": "BF₃ is 120°.",
+  "new": "BF₃ has three bonding groups and no lone pairs on B, so it is trigonal planar with 120° angles, the largest here. Look for the molecule with the most lone pairs on the central atom.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-117",
+  "field": "x[3]",
+  "old": "This reverses the order.",
+  "new": "This reverses the order. Count electron groups left to right: the first two carbons each have three groups (double bond plus two other atoms), and the C≡N carbon has two.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-123",
+  "field": "x[2]",
+  "old": "σ*₂s is full in B₂.",
+  "new": "σ*₂s is full in B₂: it holds 2 paired electrons. The unpaired electrons come from the last two electrons that enter the higher-energy 2p-based molecular orbitals.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-168",
+  "field": "x[1]",
+  "old": "Al is a metal.",
+  "new": "Al is a metal, even though it touches the zigzag line. It is shiny, conducts electricity well and forms Al³⁺ ions, so this set does not contain only metalloids.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-168",
+  "field": "x[2]",
+  "old": "C is a nonmetal.",
+  "new": "C is a nonmetal: it sits above the staircase on the nonmetal side. Si and Ge are metalloids, but carbon makes this set fail.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-168",
+  "field": "x[3]",
+  "old": "Se and Br are nonmetals.",
+  "new": "As is a metalloid, but Se and Br are nonmetals to the right of the staircase. A set of only metalloids must have every element on the staircase line.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-176",
+  "field": "x[1]",
+  "old": "H₂SO₄ is a strong acid.",
+  "new": "H₂SO₄ is a strong acid and a strong electrolyte, so it ionizes completely. That is why conductivity rises again after equivalence when excess acid is added.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-208",
+  "field": "x[2]",
+  "old": "125 is mL per hour.",
+  "new": "125 is the rate in mL per hour (1000 mL ÷ 8.00 h). The question asks for drops per minute, so convert hours to minutes and multiply by 15 drops per mL.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-209",
+  "field": "x[1]",
+  "old": "This forgets to add 32.",
+  "new": "This forgets to add 32. Multiplying by 1.8 only scales the degree size; °F also starts 32 degrees higher, since water freezes at 32 °F, not 0 °F.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-230",
+  "field": "x[1]",
+  "old": "N is +5 in HNO₃.",
+  "new": "In HNO₃, H is +1 and three O give −6, so N must be +5 to make the total 0. That is nitrogen's highest oxidation state, not +3.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-230",
+  "field": "x[2]",
+  "old": "N is −3 in NH₄⁺.",
+  "new": "In NH₄⁺, four H at +1 each give +4, so N must be −3 for the ion to have a +1 charge. That is nitrogen's lowest oxidation state, not +3.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-230",
+  "field": "x[3]",
+  "old": "N is +1 in N₂O.",
+  "new": "In N₂O, one O at −2 is shared by two N atoms, so each N is +1 for a neutral molecule. Remember to divide by the number of N atoms.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-231",
+  "field": "x[2]",
+  "old": "This leaves out ΔT.",
+  "new": "This leaves out ΔT, dividing q only by mass. Specific heat is per gram per degree, so you must also divide by the temperature change, 64.5 − 22.0 = 42.5 °C.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-232",
+  "field": "x[2]",
+  "old": "This mixes J with kJ.",
+  "new": "This mixes J with kJ: dividing 502,000 J by 2220 kJ/mol makes the answer 1000 times too big. Convert q to kJ (502 kJ) before dividing by the heat per mole.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-240",
+  "field": "x[1]",
+  "old": "5d has l = 2.",
+  "new": "5d has l = 2, not 3. The letter comes from l: l = 0, 1, 2, 3 correspond to s, p, d, f.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-240",
+  "field": "x[2]",
+  "old": "5p has l = 1.",
+  "new": "5p has l = 1, not 3. The letter comes from l: l = 0, 1, 2, 3 correspond to s, p, d, f.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-247",
+  "field": "x[3]",
+  "old": "N is a nonmetal.",
+  "new": "N is a nonmetal, not a metal, and nonmetals usually gain electrons readily. Its near-zero electron affinity comes from its electron configuration, not from being a metal.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-248",
+  "field": "x[1]",
+  "old": "Na₂O makes NaOH, a base.",
+  "new": "Na₂O is a metal oxide: it reacts with water to make NaOH, a base, which turns red litmus blue. An acidic solution comes from a nonmetal oxide.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-250",
+  "field": "x[3]",
+  "old": "B has only 6 electrons.",
+  "new": "B in BCl₃ has only 3 bonding pairs, or 6 electrons, so it has fewer than an octet, not more. An expanded octet needs more than 4 electron pairs around the central atom.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-253",
+  "field": "x[1]",
+  "old": "CF₄ has 109.5° angles.",
+  "new": "CF₄ has four bonding groups, so it is tetrahedral with 109.5° angles. Fewer electron groups around the central atom spread farther apart and give a wider angle.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-267",
+  "field": "x[2]",
+  "old": "There are no ions.",
+  "new": "Ion–dipole forces need ions, but dimethyl ether is a neutral molecule with no charged particles. Only forces between neutral molecules apply to this pure liquid.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-271",
+  "field": "x[2]",
+  "old": "This ignores the 70.0%.",
+  "new": "This ignores the 70.0%, treating all 1410 g of solution as HNO₃. Only 70.0% of each gram is HNO₃; the rest is water, so multiply by 0.700 before converting to moles.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-272",
+  "field": "x[1]",
+  "old": "This leaves out i = 2.",
+  "new": "This leaves out i = 2. NaCl dissociates into Na⁺ and Cl⁻, so each formula unit gives two particles, and osmotic pressure depends on the total particle concentration.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-302",
+  "field": "x[2]",
+  "old": "C–Cl bonds are polar.",
+  "new": "C–Cl bonds are polar because Cl is much more electronegative than C. The C–H bonds are close to nonpolar, but the C–Cl bond dipoles still make the molecule's polarity depend on its 3-D shape.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-312",
+  "field": "x[3]",
+  "old": "There are no ions.",
+  "new": "Ion–dipole forces need ions, but acetone is a neutral molecule with no charged particles. Only forces between neutral molecules apply to pure liquid acetone.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-315",
+  "field": "x[2]",
+  "old": "CCl₄ has no H at all.",
+  "new": "CCl₄ has no H atoms at all. Hydrogen bonding needs an H bonded directly to N, O or F, so it is impossible here.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-315",
+  "field": "x[3]",
+  "old": "There are no ions.",
+  "new": "Ion–dipole forces need ions, but CCl₄ is a neutral molecule with no charged particles. Only forces between neutral molecules apply to this pure liquid.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-316",
+  "field": "x[3]",
+  "old": "This is reversed.",
+  "new": "This is reversed: it puts the substance with the most hydrogen bonding lowest. Stronger attractions mean a higher boiling point, so more O–H groups per molecule means boiling later, not earlier.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-323",
+  "field": "x[3]",
+  "old": "σ*₂p is empty in O₂.",
+  "new": "σ*₂p is empty in O₂: it is the highest-energy valence orbital, and O₂'s 12 valence electrons run out before reaching it. The last electrons go into the orbitals just below it.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-330",
+  "field": "x[2]",
+  "old": "Curve 4 is 600 K.",
+  "new": "Curve 4 is 600 K: its peak is at a higher speed and lower height than the 300 K curve. Rank the curves by peak speed, slowest peak for the coldest, then pick the second-coldest.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-340",
+  "field": "x[2]",
+  "old": "Box II adds an extra O₂.",
+  "new": "Box II adds an extra O₂, so it has more oxygen atoms than the Before box. Atoms are conserved: count the atoms of each element before and after the reaction.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-347",
+  "field": "x[2]",
+  "old": "I has 6 per liter.",
+  "new": "I has 6 particles per liter, which is less than another sample. Molarity is particles divided by volume, so a sample with fewer particles in a much smaller volume can be more concentrated.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-347",
+  "field": "x[3]",
+  "old": "II has 8 per liter.",
+  "new": "II has 8 particles per liter, which is not the highest. Molarity is particles divided by volume, so check the samples with small volumes: fewer particles in less space can be more concentrated.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-348",
+  "field": "x[2]",
+  "old": "50% would be SO₂.",
+  "new": "50% would be SO₂, where S (32.06) is about half of 64.06 g/mol. Count the O atoms in each molecule in the box; with more oxygen, sulfur is a smaller share of the mass.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-360",
+  "field": "x[3]",
+  "old": "180° would be linear.",
+  "new": "180° would be linear, which needs only two electron groups on the central atom. N in NH₃ has 3 bonds plus 1 lone pair, so the molecule cannot be a straight line.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-366",
+  "field": "x[2]",
+  "old": "Carbonate has resonance.",
+  "new": "Carbonate has resonance: the C=O double bond in the drawing could sit on another oxygen just as well. Count how many oxygens could hold that double bond.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-367",
+  "field": "x[1]",
+  "old": "Ozone has resonance.",
+  "new": "Ozone has resonance: the double bond in the drawing could join the central O to the other end oxygen instead. Count how many equivalent placements of that double bond exist.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-370",
+  "field": "x[1]",
+  "old": "Nitrite has resonance.",
+  "new": "Nitrite has resonance: the N=O double bond could be on either oxygen, which is why the real ion has two identical N–O bonds. One drawing alone does not describe it.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-370",
+  "field": "x[2]",
+  "old": "3 counts the atoms.",
+  "new": "3 counts the atoms, not the structures. Only the double bond moves, and it can only go between N and an oxygen; N cannot form a double bond to itself.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-372",
+  "field": "x[2]",
+  "old": "Formate has resonance.",
+  "new": "Formate has resonance: the C=O double bond could be on either oxygen, so both C–O bonds are actually identical. One drawing alone does not describe it.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-390",
+  "field": "x[2]",
+  "old": "2 → 6 is a smaller gap.",
+  "new": "2 → 6 is a smaller energy gap than jumps that start at n = 1, because levels crowd together higher up. Shortest wavelength means largest energy, so compare ΔE, not the change in n.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-394",
+  "field": "x[3]",
+  "old": "l is never negative.",
+  "new": "l is never negative: it can only be 0, 1, 2 … up to n − 1. Only m<sub><i>l</i></sub> can be negative, and its size cannot exceed <i>l</i>.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-398",
+  "field": "x[2]",
+  "old": "Ni has 28 electrons.",
+  "new": "Ni has 28 electrons, but [Ar]4s¹3d¹⁰ has 18 + 1 + 10 = 29. Add up the electrons in the configuration and match the total to the atomic number.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-398",
+  "field": "x[3]",
+  "old": "Ga has 31 electrons.",
+  "new": "Ga has 31 electrons, with a 4p electron beyond the full 3d. This configuration has 18 + 1 + 10 = 29 electrons, so match that total to the atomic number.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-400",
+  "field": "x[2]",
+  "old": "Co²⁺ is 3d⁷.",
+  "new": "Co²⁺ has 27 − 2 = 25 electrons, so it is [Ar]3d⁷, one d electron too many. Both 4s electrons leave first, and then more must come off to reach 3d⁶.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-400",
+  "field": "x[3]",
+  "old": "Ni²⁺ is 3d⁸.",
+  "new": "Ni²⁺ has 28 − 2 = 26 electrons, so it is [Ar]3d⁸ after losing its 4s electrons. That is two d electrons more than 3d⁶.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-402",
+  "field": "x[2]",
+  "old": "Fe has 4 unpaired.",
+  "new": "Fe (4s²3d⁶) has 4 unpaired electrons: five d electrons fill each orbital singly, then the sixth pairs up. Another species here has more singly filled orbitals.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-402",
+  "field": "x[3]",
+  "old": "V has 3 unpaired.",
+  "new": "V (4s²3d³) has only 3 unpaired electrons, one in each of three d orbitals, with the 4s pair filled. Other species here have more singly occupied orbitals.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-406",
+  "field": "x[3]",
+  "old": "6d has 3 radial nodes.",
+  "new": "6d has 3 radial nodes, one too many: radial nodes = n − l − 1 = 6 − 2 − 1. It does have two angular nodes, but the n value is too high.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-414",
+  "field": "x[3]",
+  "old": "B is smaller than Be.",
+  "new": "B is smaller than Be: across a period, added protons pull the electrons closer even as electrons are added. So size cannot explain why boron's ionization energy is lower.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-415",
+  "field": "x[2]",
+  "old": "This is reversed.",
+  "new": "This is reversed: it ranks lowest to highest backwards. Ionization energy generally increases across a period (left to right) as nuclear charge grows, so Li, on the far left, is lowest.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-416",
+  "field": "x[2]",
+  "old": "This is reversed.",
+  "new": "This is reversed: it ranks the elements highest to lowest. F, with the greatest nuclear charge of the three, holds its electrons most tightly and has the highest ionization energy.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-423",
+  "field": "x[2]",
+  "old": "This is reversed.",
+  "new": "This is reversed: it ranks the ions from largest to smallest. Cl⁻ has electrons in a third shell, so it is biggest, and among the 10-electron ions more protons means a smaller ion.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-424",
+  "field": "x[2]",
+  "old": "+6 is sulfur in sulfate.",
+  "new": "+6 is sulfur in sulfate (SO₄²⁻), which has four O atoms. Thiosulfate has two S atoms sharing the charge left over from three O atoms and two Na⁺, so set up the sum and divide by 2.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-427",
+  "field": "x[1]",
+  "old": "Cl is +7 in KClO₄.",
+  "new": "Cl is +7 in KClO₄: K is +1 and four O give −8, so Cl must be +7 to make the total zero. Count the oxygens carefully.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-427",
+  "field": "x[2]",
+  "old": "Cl is +3 in NaClO₂.",
+  "new": "Cl is +3 in NaClO₂: Na is +1 and two O give −4, so Cl must be +3 to make the total zero. Count the oxygens carefully.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-427",
+  "field": "x[3]",
+  "old": "Cl is +4 in ClO₂.",
+  "new": "Cl is +4 in ClO₂: there is no metal ion, so Cl must balance two O at −2 each by itself. Don't assume every chlorine oxide needs the same charge as a chlorate salt.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-428",
+  "field": "x[2]",
+  "old": "K⁺ is a spectator.",
+  "new": "K⁺ is a spectator: it stays +1 and appears unchanged on both sides. A species that does not change oxidation number cannot be an oxidizing or reducing agent.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-428",
+  "field": "x[3]",
+  "old": "Br₂ is a product.",
+  "new": "Br₂ is a product, formed when Br⁻ is oxidized. The oxidizing agent is a reactant that takes electrons and is itself reduced in the reaction.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-430",
+  "field": "x[2]",
+  "old": "O is −1 in H₂O₂, not −2.",
+  "new": "O is −1 in H₂O₂, not −2, because the two O atoms are bonded to each other. Starting from −1, check where O ends up in each product: H₂O and O₂ give different results.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-432",
+  "field": "x[3]",
+  "old": "This is reversed.",
+  "new": "This is reversed: it ranks the metal that displaces the others as least active. A metal that pushes another metal's ion out of solution is the more active one.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-434",
+  "field": "x[1]",
+  "old": "NaNO₃ is soluble.",
+  "new": "NaNO₃ is soluble: all nitrates and all Na⁺ salts dissolve, so Na⁺ and NO₃⁻ stay in solution as spectators. Look for the ion pair that forms an insoluble compound.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-439",
+  "field": "x[3]",
+  "old": "A gas (SO₂) does form.",
+  "new": "A gas (SO₂) does form: H⁺ from the acid combines with sulfite to make H₂SO₃, which breaks down into SO₂ gas and water. Forming a gas removes ions, so a reaction occurs.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-447",
+  "field": "x[2]",
+  "old": "NH₄Cl is soluble.",
+  "new": "NH₄Cl is soluble (ammonium salts always dissolve), so no solid forms. NH₄⁺ and Cl⁻ stay dissolved, and Cl⁻ is a spectator that does not belong in a net ionic equation.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-460",
+  "field": "x[1]",
+  "old": "Freezing releases heat.",
+  "new": "Freezing releases heat: as liquid becomes solid, molecules come closer and form attractions, giving off energy. A change that absorbs heat must pull particles apart instead.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-465",
+  "field": "x[3]",
+  "old": "I is the ground state.",
+  "new": "I is the ground state: it follows Aufbau order, Hund's rule and the Pauli principle. The forbidden arrangement puts two electrons with the same spin in one orbital.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-476",
+  "field": "x[2]",
+  "old": "IV is in the 2s orbital.",
+  "new": "IV is in the 2s orbital (ℓ = 0), while III is a 2p electron (ℓ = 1). Electrons in the same orbital must match in n, ℓ and m<sub>ℓ</sub>, differing only in spin.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-478",
+  "field": "x[2]",
+  "old": "2 → 3 absorbs at 656 nm.",
+  "new": "2 → 3 absorbs at 656 nm (the red line), not 486 nm. A shorter wavelength means a larger energy gap, so the 486 nm line needs a bigger jump up from n = 2.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-479",
+  "field": "x[1]",
+  "old": "W has only two shells.",
+  "new": "W has only two shells, so its valence electron is close to the nucleus and the atom is small. Atomic radius grows going down a group as shells are added.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-486",
+  "field": "x[3]",
+  "old": "S is boron, a metalloid.",
+  "new": "S is boron, a metalloid, so it does not give up electrons readily. Metallic character increases toward the lower left of the table, and S is near the top right of these positions.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-489",
+  "field": "x[2]",
+  "old": "IV is Na⁺.",
+  "new": "IV is Na⁺. All four ions have 10 electrons, so the one with the most protons (Mg²⁺, 12) pulls hardest and is the smallest bar; Na⁺, with only 11, is larger.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-489",
+  "field": "x[3]",
+  "old": "I is F⁻.",
+  "new": "I is F⁻. All four ions have 10 electrons, and F⁻ has only 9 protons to hold them, so it is one of the largest. Mg²⁺, with 12 protons, should be the smallest bar.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-490",
+  "field": "x[1]",
+  "old": "Region I is the solid.",
+  "new": "Region I is the solid: it lies at low temperature and high pressure, to the left of the steep melting line. The liquid lies between the melting line and the vaporization curve.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-490",
+  "field": "x[2]",
+  "old": "Region III is the gas.",
+  "new": "Region III is the gas: it lies at low pressure, below the vaporization curve. The liquid region sits above that curve at higher pressure.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-496",
+  "field": "x[3]",
+  "old": "Segment E is all gas.",
+  "new": "Segment E is all gas: it comes after boiling is complete, as the vapor heats up. All-liquid heating happens between the melting and boiling plateaus.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-500",
+  "field": "x[2]",
+  "old": "SiH₄ is nonpolar.",
+  "new": "SiH₄ is nonpolar, so it has only dispersion forces, which are similar for these molecules of near-equal molar mass. A molecule that can hydrogen-bond (O–H) will boil much higher.",
+  "why": "fuller wrong-answer reason"
+ }
+]

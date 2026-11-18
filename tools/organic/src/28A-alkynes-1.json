@@ -1,0 +1,601 @@
+[
+ {
+  "id": "alk-01",
+  "t": "alkynes",
+  "q": "What is the IUPAC name of the compound shown?",
+  "c": [
+   "pent-1-en-4-yne",
+   "pent-4-en-1-yne",
+   "pent-1-yn-4-ene",
+   "penta-1,4-enyne"
+  ],
+  "h": "Number so the multiple bonds as a set get the lowest locants. If both directions tie, which multiple bond wins the lower number?",
+  "w": "Both numbering directions give the multiple bonds locants {1,4}. When there is a tie, IUPAC gives the <b>double bond</b> the lower number, so the name is <b>pent-1-en-4-yne</b>. In an enyne name the \"-en-\" always comes before the \"-yne\" (alphabetical order of the endings), and the final \"e\" of \"-ene\" is dropped.",
+  "x": [
+   "",
+   "This numbering gives the same locant set {1,4} but puts the lower number on the triple bond; on a tie the double bond gets the lower number.",
+   "In an enyne name \"-ene\" is cited first and \"-yne\" last; \"-yn-...-ene\" is never used.",
+   "Every multiple bond needs its own locant, written next to its own ending; a combined \"1,4-enyne\" ending is not used."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "C=CCC#C"
+   }
+  ]
+ },
+ {
+  "id": "alk-02",
+  "t": "alkynes",
+  "q": "What is the IUPAC name of the compound shown?",
+  "c": [
+   "(<i>E</i>)-pent-3-en-1-yne",
+   "(<i>Z</i>)-pent-3-en-1-yne",
+   "(<i>E</i>)-pent-2-en-4-yne",
+   "(<i>E</i>)-pent-1-yn-3-ene"
+  ],
+  "h": "First find the lowest locant set for both multiple bonds; only use the \"double bond gets the lower number\" rule if the sets tie. Then assign E/Z.",
+  "w": "Numbering from the alkyne end gives locants {1,3}; from the other end {2,4}. The first point of difference decides, so C1 is the alkyne carbon: <b>(<i>E</i>)-pent-3-en-1-yne</b>. The double-bond tiebreaker only applies when the locant sets are equal, which they are not here. At C3=C4 the higher-priority groups (the alkynyl carbon on C3 and the CH<sub>3</sub> on C4) are on opposite sides, so the alkene is <i>E</i>.",
+  "x": [
+   "",
+   "The two higher-priority groups (C≡CH on C3, CH<sub>3</sub> on C4) are on opposite sides of the double bond, which is <i>E</i>, not <i>Z</i>.",
+   "Locants {2,4} are higher than {1,3}; the double bond gets the lower number only when the two sets tie.",
+   "The ending order is always \"-en-...-yne\"; \"-yn-...-ene\" is not an IUPAC form."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C/C=C/C#C"
+   }
+  ]
+ },
+ {
+  "id": "alk-03",
+  "t": "alkynes",
+  "q": "What is the IUPAC name of the compound shown?",
+  "c": [
+   "4-methylhex-1-en-5-yne",
+   "3-methylhex-5-en-1-yne",
+   "3-methylhex-1-en-5-yne",
+   "4-methylhex-5-en-1-yne"
+  ],
+  "h": "Settle the numbering using the multiple bonds first (lowest set, then the double bond lower). Substituent locants are considered only after that.",
+  "w": "The six-carbon chain holds both multiple bonds. From either end the multiple bonds get {1,5}, a tie, so the <b>double bond</b> gets C1. Numbering from the alkene end puts the methyl on C4: <b>4-methylhex-1-en-5-yne</b>. The ene-before-substituent priority means you cannot renumber just to give the methyl a lower locant (3).",
+  "x": [
+   "",
+   "This numbers from the alkyne end to give the methyl locant 3, but the double-bond tiebreaker outranks substituent locants.",
+   "Locant 3 for the methyl would require numbering from the alkyne end, which would make the alkene C5, not C1; the name mixes two numberings.",
+   "Numbering from the alkyne end makes the alkene C5 and the methyl C3, not C4; and the double bond should get the lower number anyway."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C#CC(C)CC=C"
+   }
+  ]
+ },
+ {
+  "id": "alk-04",
+  "t": "alkynes",
+  "q": "A terminal alkyne (p<i>K</i><sub>a</sub> ≈ 25) must be converted completely to its acetylide ion before an alkylation. Which base is suitable?",
+  "c": [
+   "NaNH<sub>2</sub> (p<i>K</i><sub>a</sub> of NH<sub>3</sub> ≈ 38)",
+   "NaOH (p<i>K</i><sub>a</sub> of H<sub>2</sub>O ≈ 15.7)",
+   "NaOCH<sub>2</sub>CH<sub>3</sub> (p<i>K</i><sub>a</sub> of CH<sub>3</sub>CH<sub>2</sub>OH ≈ 16)",
+   "NaHCO<sub>3</sub> (p<i>K</i><sub>a</sub> of H<sub>2</sub>CO<sub>3</sub> ≈ 6.4)"
+  ],
+  "h": "An acid–base equilibrium favors the side with the weaker acid. Compare the p<i>K</i><sub>a</sub> of the alkyne with the p<i>K</i><sub>a</sub> of each base's conjugate acid.",
+  "w": "Deprotonation is favorable only if the conjugate acid of the base is a weaker acid (higher p<i>K</i><sub>a</sub>) than the alkyne. NH<sub>3</sub> (38) is far weaker than the alkyne (25), so <b>NaNH<sub>2</sub></b> deprotonates it essentially completely (<i>K</i><sub>eq</sub> ≈ 10<sup>13</sup>). Hydroxide, ethoxide and bicarbonate all have conjugate acids stronger than the alkyne, so the equilibrium lies on the alkyne side.",
+  "x": [
+   "",
+   "Water (15.7) is a much stronger acid than the alkyne (25), so hydroxide leaves the alkyne almost entirely protonated (<i>K</i><sub>eq</sub> ≈ 10<sup>−9</sup>).",
+   "Ethanol (16) is a stronger acid than the alkyne, so ethoxide gives only a trace of acetylide; this is the classic \"close enough\" trap.",
+   "Bicarbonate is a very weak base; carbonic acid (6.4) is about 10<sup>18</sup> times more acidic than the alkyne."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "alk-05",
+  "t": "alkynes",
+  "q": "Which list puts these compounds in order of <b>increasing</b> acidity (weakest acid first)?<br>ethane, ethene, ethyne, ammonia",
+  "c": [
+   "ethane < ethene < ammonia < ethyne",
+   "ethane < ethene < ethyne < ammonia",
+   "ammonia < ethane < ethene < ethyne",
+   "ethene < ethane < ammonia < ethyne"
+  ],
+  "h": "For the hydrocarbons, think about the s character of the orbital holding the lone pair in each conjugate base. Then place NH<sub>3</sub> using its p<i>K</i><sub>a</sub> (≈ 38).",
+  "w": "Approximate p<i>K</i><sub>a</sub> values: ethane ≈ 50 (sp<sup>3</sup>, 25% s), ethene ≈ 44 (sp<sup>2</sup>, 33% s), ammonia ≈ 38, ethyne ≈ 25 (sp, 50% s). More s character holds the carbanion lone pair closer to the nucleus, stabilizing the base. So <b>ethane < ethene < ammonia < ethyne</b>. This ordering is why NH<sub>2</sub><sup>−</sup> deprotonates a terminal alkyne but not an alkene.",
+  "x": [
+   "",
+   "Ethyne (25) is far more acidic than ammonia (38); if ammonia were the stronger acid, NaNH<sub>2</sub> could not make acetylides.",
+   "Ammonia (38) is more acidic than ethane (50) and ethene (44); N is more electronegative than C.",
+   "Ethene (sp<sup>2</sup>, p<i>K</i><sub>a</sub> ≈ 44) is more acidic than ethane (sp<sup>3</sup>, ≈ 50), not less."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "alk-06",
+  "t": "alkynes",
+  "q": "Which statement best describes the equilibrium shown (p<i>K</i><sub>a</sub>: ethyne ≈ 25, ethanol ≈ 16)?",
+  "c": [
+   "It lies far to the left; <i>K</i><sub>eq</sub> ≈ 10<sup>−9</sup>",
+   "It lies far to the right; <i>K</i><sub>eq</sub> ≈ 10<sup>9</sup>",
+   "It lies far to the left; <i>K</i><sub>eq</sub> ≈ 10<sup>−41</sup>",
+   "It is roughly balanced; <i>K</i><sub>eq</sub> ≈ 1, because both acids are weak"
+  ],
+  "h": "For HA + B<sup>−</sup> ⇌ A<sup>−</sup> + HB, log <i>K</i><sub>eq</sub> = p<i>K</i><sub>a</sub>(HB) − p<i>K</i><sub>a</sub>(HA).",
+  "w": "The acid on the left is ethyne (25); the acid on the right is ethanol (16). <i>K</i><sub>eq</sub> = 10<sup>(16 − 25)</sup> = <b>10<sup>−9</sup>, far to the left</b>. Equilibrium favors the weaker acid (ethyne) and weaker base (ethoxide). That is why ethoxide cannot be used to make acetylide ions for alkylation.",
+  "x": [
+   "",
+   "This inverts the subtraction; equilibrium favors the weaker acid, and ethyne (25) is weaker than ethanol (16).",
+   "The exponent comes from the difference of p<i>K</i><sub>a</sub> values (16 − 25 = −9), not their sum.",
+   "Both are weak acids, but they differ by 9 p<i>K</i><sub>a</sub> units, so <i>K</i><sub>eq</sub> is nowhere near 1."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "HC≡CH + CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> ⇌ HC≡C<sup>−</sup> + CH<sub>3</sub>CH<sub>2</sub>OH"
+   }
+  ]
+ },
+ {
+  "id": "alk-07",
+  "t": "alkynes",
+  "q": "What is the major organic product of this sequence?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Step 1 makes a carbon nucleophile at the terminal carbon. Where does the new C–C bond form, and how many carbons does each piece bring?",
+  "w": "NaNH<sub>2</sub> removes the terminal ≡C–H of propyne. The acetylide carbon attacks the primary carbon of 1-bromobutane by S<sub>N</sub>2, joining C3 + C4 = 7 carbons with the triple bond kept where it was: CH<sub>3</sub>C≡C–CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>, <b>hept-2-yne</b>.",
+  "x": [
+   "",
+   "Hept-1-yne would need the butyl group on the internal carbon; the new bond forms at the deprotonated terminal carbon, so the triple bond ends up internal (C2).",
+   "This has the triple bond at C3, which would require an ethyl acetylide and a propyl halide; propyne + butyl gives the triple bond between C2 and C3.",
+   "A branched product would require attack at a secondary carbon; S<sub>N</sub>2 at the primary C–Br gives an unbranched chain."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CC#C"
+   },
+   {
+    "arrow": "1. NaNH<sub>2</sub>",
+    "below": "2. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>Br"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "CC#CCCCC"
+   },
+   {
+    "smi": "C#CCCCCC"
+   },
+   {
+    "smi": "CCC#CCCC"
+   },
+   {
+    "smi": "CC#CC(C)CC"
+   }
+  ]
+ },
+ {
+  "id": "alk-08",
+  "t": "alkynes",
+  "q": "Sodium propynide is treated with 2-bromopropane in liquid NH<sub>3</sub>. What is the main outcome?",
+  "c": [
+   "E2: propene forms and propyne is regenerated",
+   "S<sub>N</sub>2: 4-methylpent-2-yne forms in high yield",
+   "S<sub>N</sub>1: 4-methylpent-2-yne forms through an isopropyl cation",
+   "No reaction: acetylides do not react with alkyl halides"
+  ],
+  "h": "An acetylide is a strong base as well as a nucleophile. What does a strong base usually do with a secondary alkyl halide?",
+  "w": "Acetylide ions are strong bases (conjugate acid p<i>K</i><sub>a</sub> ≈ 25). With a <b>secondary</b> (or tertiary) halide, backside attack is hindered and E2 wins: the acetylide removes a β-H from 2-bromopropane, giving <b>propene, Br<sup>−</sup>, and propyne</b> (the acetylide is protonated). Acetylide alkylation is used only with methyl and primary halides.",
+  "x": [
+   "",
+   "S<sub>N</sub>2 at a secondary carbon is slow, and the strongly basic acetylide prefers E2 there, so little or no 4-methylpent-2-yne forms.",
+   "A secondary halide does not ionize in NH<sub>3</sub> with a strong base present; the strong base reacts bimolecularly (E2) instead.",
+   "Acetylides do react with alkyl halides: S<sub>N</sub>2 with methyl/primary halides and E2 with secondary/tertiary ones."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC#[C-]",
+    "cap": "Na<sup>+</sup>"
+   },
+   "+",
+   {
+    "smi": "CC(C)Br"
+   },
+   {
+    "arrow": "NH<sub>3</sub>(l)"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "alk-09",
+  "t": "alkynes",
+  "q": "Which route gives the best yield of the alkyne shown?",
+  "c": [
+   "3,3-dimethylbut-1-yne; 1. NaNH<sub>2</sub>  2. CH<sub>3</sub>I",
+   "propyne; 1. NaNH<sub>2</sub>  2. (CH<sub>3</sub>)<sub>3</sub>CBr",
+   "propyne; 1. NaNH<sub>2</sub>  2. (CH<sub>3</sub>)<sub>3</sub>CCH<sub>2</sub>Br",
+   "3,3-dimethylbut-1-yne; 1. NaOH  2. CH<sub>3</sub>I"
+  ],
+  "h": "There are two ways to disconnect the target at a C(sp)–C(sp<sup>3</sup>) bond. Which disconnection puts the halide on a carbon that can do S<sub>N</sub>2?",
+  "w": "The target is 4,4-dimethylpent-2-yne, (CH<sub>3</sub>)<sub>3</sub>C–C≡C–CH<sub>3</sub>. Disconnecting the CH<sub>3</sub>–C≡ bond uses the tert-butyl acetylide (from 3,3-dimethylbut-1-yne and NaNH<sub>2</sub>) plus CH<sub>3</sub>I, a methyl halide that reacts cleanly by S<sub>N</sub>2: <b>3,3-dimethylbut-1-yne; 1. NaNH<sub>2</sub> 2. CH<sub>3</sub>I</b>. The other disconnection would need a tert-butyl halide, which gives only E2 with acetylides.",
+  "x": [
+   "",
+   "A tertiary halide cannot undergo S<sub>N</sub>2; the acetylide acts as a base and gives isobutylene (E2).",
+   "Neopentyl bromide is primary but too hindered for S<sub>N</sub>2, and it would add an extra CH<sub>2</sub> (C8 product, not the C7 target).",
+   "Hydroxide cannot deprotonate a terminal alkyne (water, p<i>K</i><sub>a</sub> 15.7, is the stronger acid), so almost no acetylide forms."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC#CC(C)(C)C"
+   }
+  ]
+ },
+ {
+  "id": "alk-10",
+  "t": "alkynes",
+  "q": "Pent-1-yne is made from 1,2-dibromopentane with 3 equivalents of NaNH<sub>2</sub>, followed by H<sub>2</sub>O. Why are 3 equivalents of base needed rather than 2?",
+  "c": [
+   "The pent-1-yne formed (p<i>K</i><sub>a</sub> ≈ 25) is deprotonated by NaNH<sub>2</sub>, consuming a third equivalent; H<sub>2</sub>O then reprotonates the acetylide.",
+   "The third equivalent isomerizes pent-2-yne, formed first, into pent-1-yne.",
+   "Each E2 step needs two equivalents of base because NH<sub>2</sub><sup>−</sup> removes both a proton and a bromide.",
+   "The third equivalent converts the vinyl bromide intermediate into an amine, which then eliminates NH<sub>3</sub>."
+  ],
+  "h": "Count the base used by the two eliminations. Then ask what NH<sub>2</sub><sup>−</sup> does to the product itself.",
+  "w": "Two E2 reactions (each uses one NH<sub>2</sub><sup>−</sup>) convert the vicinal dibromide to the alkyne. But a <b>terminal</b> alkyne (p<i>K</i><sub>a</sub> 25) is far more acidic than NH<sub>3</sub> (38), so the product is immediately <b>deprotonated by a third equivalent</b>. The final H<sub>2</sub>O workup protonates the acetylide to release pent-1-yne. (For an internal alkyne, 2 equivalents suffice.)",
+  "x": [
+   "",
+   "From a 1,2-dibromide the triple bond forms between C1 and C2 directly; no isomerization step is needed or intended.",
+   "Each E2 uses one base: the base takes the β-H and bromide leaves on its own as Br<sup>−</sup>.",
+   "Amide is not acting as a nucleophile on the vinyl bromide here; the second step is another E2."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCCC(Br)CBr"
+   },
+   {
+    "arrow": "1. NaNH<sub>2</sub> (3 equiv)",
+    "below": "2. H<sub>2</sub>O"
+   },
+   {
+    "smi": "CCCC#C"
+   }
+  ]
+ },
+ {
+  "id": "alk-11",
+  "t": "alkynes",
+  "q": "Which dibromide gives <b>pent-1-yne</b> as the main product with 3 equiv NaNH<sub>2</sub>, then H<sub>2</sub>O?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Double dehydrohalogenation forms the triple bond between the carbons that carry the bromines (vicinal) or between the C–Br carbon and its neighbor (geminal).",
+  "w": "The two E2 steps create the triple bond between the two carbons that lose the H–Br pairs. For a C1≡C2 triple bond, the bromines must be on C1 and C2 (vicinal) or both on C1 or C2 (geminal). <b>1,2-Dibromopentane</b> fits. 2,3- and 3,3-dibromopentane place the triple bond at C2–C3 (pent-2-yne), and 1,3-dibromopentane cannot form a triple bond at all because its bromines are not on the same or adjacent carbons.",
+  "x": [
+   "",
+   "Bromines on C2 and C3 give the triple bond between C2 and C3: pent-2-yne, not pent-1-yne.",
+   "A geminal dibromide at C3 can eliminate only toward C2 or C4; both give pent-2-yne.",
+   "The bromines are on C1 and C3, so the two eliminations cannot build two π bonds between one pair of carbons; a diene or other products form instead."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CCCC(Br)CBr"
+   },
+   {
+    "smi": "CCC(Br)C(C)Br"
+   },
+   {
+    "smi": "CCC(Br)(Br)CC"
+   },
+   {
+    "smi": "CCC(Br)CCBr"
+   }
+  ]
+ },
+ {
+  "id": "alk-12",
+  "t": "alkynes",
+  "q": "What is the product of this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Lindlar's catalyst is a \"poisoned\" catalyst. How many H<sub>2</sub> add, and from which face?",
+  "w": "Lindlar's catalyst (Pd on CaCO<sub>3</sub>, poisoned with lead acetate and quinoline) adds <b>one</b> equivalent of H<sub>2</sub> <b>syn</b> from the metal surface and stops at the alkene. Hex-3-yne gives <b>(<i>Z</i>)-hex-3-ene</b>.",
+  "x": [
+   "",
+   "The <i>E</i> alkene comes from dissolving-metal reduction (Na, NH<sub>3</sub>), not from syn addition on a catalyst surface.",
+   "Full reduction to the alkane happens with an active catalyst such as Pt or Pd/C; the poisoned Lindlar catalyst stops at the alkene.",
+   "Hydrogenation adds H atoms to the two alkyne carbons; it does not move the double bond to C2."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CCC#CCC"
+   },
+   {
+    "arrow": "H<sub>2</sub>",
+    "below": "Lindlar catalyst"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "CC/C=C\\CC"
+   },
+   {
+    "smi": "CC/C=C/CC"
+   },
+   {
+    "smi": "CCCCCC"
+   },
+   {
+    "smi": "C/C=C\\CCC"
+   }
+  ]
+ },
+ {
+  "id": "alk-13",
+  "t": "alkynes",
+  "q": "What is the product of this reaction?",
+  "c": [
+   "(<i>E</i>)-4-methylpent-2-ene",
+   "(<i>Z</i>)-4-methylpent-2-ene",
+   "2-methylpentane",
+   "(<i>E</i>)-2-methylpent-3-ene"
+  ],
+  "h": "Dissolving-metal reductions add electrons one at a time. Which alkene geometry results, and how is the alkene numbered?",
+  "w": "Na in liquid NH<sub>3</sub> adds two electrons and two protons <b>anti</b>, giving the <i>trans</i> (<i>E</i>) alkene and stopping there. 4-Methylpent-2-yne gives CH<sub>3</sub>CH=CH–CH(CH<sub>3</sub>)<sub>2</sub>; numbering from the end nearer the double bond gives <b>(<i>E</i>)-4-methylpent-2-ene</b>.",
+  "x": [
+   "",
+   "The <i>Z</i> (cis) alkene is the Lindlar (H<sub>2</sub>, syn) product; Na/NH<sub>3</sub> gives the <i>E</i> alkene.",
+   "Na/NH<sub>3</sub> does not reduce isolated alkenes, so the reaction stops at the alkene.",
+   "This is the correct alkene numbered from the wrong end; the double bond must get the lower locant (2, not 3)."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC#CC(C)C"
+   },
+   {
+    "arrow": "Na",
+    "below": "NH<sub>3</sub>(l)"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "alk-14",
+  "t": "alkynes",
+  "q": "Which sequence converts but-2-yne into <i>meso</i>-2,3-dibromobutane?",
+  "c": [
+   "1. Na, NH<sub>3</sub>(l)  2. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub>",
+   "1. H<sub>2</sub>, Lindlar catalyst  2. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub>",
+   "1. H<sub>2</sub>, Pt  2. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub>",
+   "1. HBr (2 equiv)  2. H<sub>2</sub>, Pt"
+  ],
+  "h": "Br<sub>2</sub> adds anti to an alkene. For a symmetric alkene, does anti addition to the <i>cis</i> or the <i>trans</i> isomer give the meso product?",
+  "w": "Bromine adds anti through a bromonium ion. Anti addition to <i>trans</i>-but-2-ene gives the <i>meso</i> (2<i>R</i>,3<i>S</i>) dibromide, while anti addition to <i>cis</i>-but-2-ene gives the racemic (2<i>R</i>,3<i>R</i>)/(2<i>S</i>,3<i>S</i>) pair. So make the <i>trans</i> alkene first with dissolving metal: <b>1. Na, NH<sub>3</sub>(l) 2. Br<sub>2</sub></b>.",
+  "x": [
+   "",
+   "Lindlar gives <i>cis</i>-but-2-ene; anti addition of Br<sub>2</sub> to the cis alkene gives the racemic (<i>R</i>,<i>R</i>)/(<i>S</i>,<i>S</i>) dibromide, not meso.",
+   "H<sub>2</sub>/Pt reduces the alkyne all the way to butane, which has no π bond for Br<sub>2</sub> to add to.",
+   "Two equivalents of HBr add Markovnikov to give the geminal 2,2-dibromobutane, not a vicinal dibromide."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC#CC"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C[C@@H](Br)[C@@H](Br)C",
+    "cap": "<i>meso</i>"
+   }
+  ]
+ },
+ {
+  "id": "alk-15",
+  "t": "alkynes",
+  "q": "What is the major product when pent-1-yne reacts with 2 equivalents of HBr (no peroxides)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Each HBr adds Markovnikov. After the first addition, which carbocation is stabilized by the bromine already present?",
+  "w": "The first HBr adds Markovnikov to give 2-bromopent-1-ene. In the second addition, H<sup>+</sup> adds to C1 so the cation forms at C2, where the bromine lone pair stabilizes it by resonance. Bromide then adds to C2, giving the <b>geminal</b> dihalide <b>2,2-dibromopentane</b>.",
+  "x": [
+   "",
+   "A vicinal (1,2) dibromide comes from Br<sub>2</sub> addition, not from two HBr additions.",
+   "Putting both Br on C1 is anti-Markovnikov; without peroxides H adds to C1 each time.",
+   "This is the product of only one equivalent of HBr; with 2 equivalents the vinyl bromide adds a second HBr."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCCC#C"
+   },
+   {
+    "arrow": "HBr (2 equiv)"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "CCCC(C)(Br)Br"
+   },
+   {
+    "smi": "CCCC(Br)CBr"
+   },
+   {
+    "smi": "CCCCC(Br)Br"
+   },
+   {
+    "smi": "CCCC(Br)=C"
+   }
+  ]
+ },
+ {
+  "id": "alk-16",
+  "t": "alkynes",
+  "q": "What is the final organic product of this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Mercury-catalyzed hydration is Markovnikov, and the first product is not stable. What does it tautomerize to?",
+  "w": "HgSO<sub>4</sub>/H<sub>2</sub>SO<sub>4</sub> adds water Markovnikov: OH goes to C2 of hex-1-yne, giving the enol CH<sub>2</sub>=C(OH)C<sub>4</sub>H<sub>9</sub>. The enol tautomerizes to the more stable keto form, <b>hexan-2-one</b>.",
+  "x": [
+   "",
+   "An aldehyde comes from anti-Markovnikov hydration (disiamylborane or 9-BBN, then H<sub>2</sub>O<sub>2</sub>/NaOH), not from HgSO<sub>4</sub>.",
+   "Alkyne hydration gives a carbonyl compound, not an alcohol; nothing reduces the C=O here.",
+   "This enol is the first-formed intermediate, but it tautomerizes to the ketone under the acidic conditions."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CCCCC#C"
+   },
+   {
+    "arrow": "H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>",
+    "below": "HgSO<sub>4</sub>"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "CCCCC(C)=O"
+   },
+   {
+    "smi": "CCCCCC=O"
+   },
+   {
+    "smi": "CCCCC(C)O"
+   },
+   {
+    "smi": "CCCCC(O)=C"
+   }
+  ]
+ },
+ {
+  "id": "alk-17",
+  "t": "alkynes",
+  "q": "Which alkyne gives a <b>single</b> ketone on hydration with HgSO<sub>4</sub>, H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "For an internal alkyne, the OH can end up on either sp carbon. When do both choices give the same compound?",
+  "w": "An internal alkyne with two different alkyl groups has no strong Markovnikov preference, so it gives a mixture of two ketones. A <b>symmetric</b> internal alkyne gives the same ketone either way. <b>Hex-3-yne</b> gives only hexan-3-one.",
+  "x": [
+   "",
+   "Hex-2-yne gives both hexan-2-one and hexan-3-one, because its two sp carbons are both disubstituted.",
+   "The isopropyl and ethyl groups differ, so 2-methylhex-3-yne gives a mixture of 2-methylhexan-3-one and 5-methylhexan-3-one.",
+   "Oct-3-yne has an ethyl and a butyl group, so it gives octan-3-one and octan-4-one."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CCC#CCC"
+   },
+   {
+    "smi": "CC#CCCC"
+   },
+   {
+    "smi": "CC(C)C#CCC"
+   },
+   {
+    "smi": "CCC#CCCCC"
+   }
+  ]
+ },
+ {
+  "id": "alk-18",
+  "t": "alkynes",
+  "q": "What is the final organic product of this sequence? (Sia<sub>2</sub>BH = disiamylborane)",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Hydroboration puts boron on the less substituted carbon. After oxidation, the OH is on a C=C carbon. What happens to that?",
+  "w": "Disiamylborane adds once, with boron on the terminal carbon (anti-Markovnikov, syn). H<sub>2</sub>O<sub>2</sub>/NaOH replaces B with OH, giving the enol CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH=CH–OH, which tautomerizes to the aldehyde: <b>pentanal</b>.",
+  "x": [
+   "",
+   "The methyl ketone is the Markovnikov product of HgSO<sub>4</sub>/H<sub>2</sub>SO<sub>4</sub> hydration.",
+   "No reducing agent is present; the enol tautomerizes to an aldehyde, which is not reduced to the alcohol.",
+   "This enol is the intermediate formed by oxidation; it tautomerizes to the aldehyde."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCCC#C"
+   },
+   {
+    "arrow": "1. Sia<sub>2</sub>BH",
+    "below": "2. H<sub>2</sub>O<sub>2</sub>, NaOH"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "CCCCC=O"
+   },
+   {
+    "smi": "CCCC(C)=O"
+   },
+   {
+    "smi": "CCCCCO"
+   },
+   {
+    "smi": "CCC/C=C/O"
+   }
+  ]
+ }
+]

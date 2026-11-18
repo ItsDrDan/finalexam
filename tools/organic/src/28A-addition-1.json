@@ -1,0 +1,647 @@
+[
+ {
+  "id": "add-01",
+  "t": "addition",
+  "q": "What is the major product of this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Protonate the alkene so that the more stable carbocation forms, then let bromide bond to that carbon.",
+  "w": "HBr adds by Markovnikov's rule. H<sup>+</sup> bonds to the CH carbon of the C=C, which leaves the positive charge on the carbon bearing two methyl groups (a tertiary cation). Bromide traps that cation to give <b>2-bromo-2-methylbutane</b>. Protonating the other alkene carbon would give a less stable secondary cation.",
+  "x": [
+   "",
+   "2-Bromo-3-methylbutane places Br on the less substituted alkene carbon; that would require the secondary cation, not the tertiary one.",
+   "1-Bromo-2-methylbutane has Br on a CH<sub>2</sub> that was a methyl group, not one of the two alkene carbons.",
+   "1-Bromo-3-methylbutane puts Br on a primary carbon that was never part of the C=C; HBr adds only across the double bond."
+  ],
+  "k": 0,
+  "d": 1,
+  "cs": [
+   {
+    "smi": "CCC(C)(C)Br"
+   },
+   {
+    "smi": "CC(Br)C(C)C"
+   },
+   {
+    "smi": "BrCC(C)CC"
+   },
+   {
+    "smi": "BrCCC(C)C"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC=C(C)C"
+   },
+   {
+    "arrow": "HBr"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-02",
+  "t": "addition",
+  "q": "What is the major product of this reaction? (Assume the carbocation rearranges whenever a more stable cation can form.)",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Draw the first carbocation, then ask whether a neighboring hydrogen can shift to make a more stable one.",
+  "w": "Protonation of the terminal CH<sub>2</sub> gives a secondary cation at C2. The neighboring C3 carries a hydrogen and two methyls, so a 1,2-hydride shift converts the secondary cation into a tertiary cation. Chloride traps the tertiary cation: <b>2-chloro-2-methylbutane</b> is the major product. The unrearranged 2-chloro-3-methylbutane forms only as a minor product.",
+  "x": [
+   "",
+   "2-Chloro-3-methylbutane is the unrearranged Markovnikov product; it forms, but most of the secondary cation rearranges before chloride traps it.",
+   "1-Chloro-3-methylbutane is the anti-Markovnikov product; HCl adds through a carbocation, which never forms on the terminal carbon.",
+   "1-Chloro-2-methylbutane has Cl on a primary carbon; no step of the mechanism produces a primary cation there."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CCC(C)(C)Cl"
+   },
+   {
+    "smi": "CC(Cl)C(C)C"
+   },
+   {
+    "smi": "ClCCC(C)C"
+   },
+   {
+    "smi": "ClCC(C)CC"
+   }
+  ],
+  "s": [
+   {
+    "smi": "C=CC(C)C"
+   },
+   {
+    "arrow": "HCl"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-03",
+  "t": "addition",
+  "q": "What is the major product of this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The first carbocation sits next to a quaternary carbon. What can migrate from that carbon?",
+  "w": "Protonation gives a secondary cation at C2, next to the quaternary C3 that has three methyls and no hydrogen. A 1,2-methyl shift moves one methyl (with its bonding pair) to C2 and leaves a tertiary cation on C3. Bromide traps it to give <b>2-bromo-2,3-dimethylbutane</b>.",
+  "x": [
+   "",
+   "3-Bromo-2,2-dimethylbutane is the unrearranged product; the secondary cation rearranges to the tertiary one faster than most of it is trapped.",
+   "1-Bromo-3,3-dimethylbutane is the anti-Markovnikov product, which needs radical conditions (HBr with peroxides).",
+   "1-Bromo-2,3-dimethylbutane has Br on a primary carbon; the methyl shift leaves the charge on a tertiary carbon, not a primary one."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CC(C)C(C)(C)Br"
+   },
+   {
+    "smi": "CC(Br)C(C)(C)C"
+   },
+   {
+    "smi": "BrCCC(C)(C)C"
+   },
+   {
+    "smi": "BrCC(C)C(C)C"
+   }
+  ],
+  "s": [
+   {
+    "smi": "C=CC(C)(C)C"
+   },
+   {
+    "arrow": "HBr"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-04",
+  "t": "addition",
+  "q": "Which species is the intermediate in this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "HBr adds in two steps; the first step is protonation of the C=C.",
+  "w": "Protonation of the CH carbon of 1-methylcyclohexene puts the positive charge on the ring carbon that carries the methyl, giving the <b>tertiary 1-methylcyclohexyl cation</b>. Bromide then adds to it to give 1-bromo-1-methylcyclohexane.",
+  "x": [
+   "",
+   "The secondary cation forms only if H<sup>+</sup> adds to the methyl-bearing carbon, which is the less stable choice.",
+   "A bridged bromonium ion forms when Br<sub>2</sub> adds to an alkene; HBr adds H<sup>+</sup> first, not Br<sup>+</sup>.",
+   "A carbanion would need a nucleophile to add first; the alkene is the nucleophile here and H<sup>+</sup> is the electrophile."
+  ],
+  "k": 0,
+  "d": 1,
+  "cs": [
+   {
+    "smi": "C[C+]1CCCCC1"
+   },
+   {
+    "smi": "CC1CCCC[CH+]1"
+   },
+   {
+    "smi": "CC12CCCCC1[Br+]2"
+   },
+   {
+    "smi": "C[C-]1CCCCC1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "HBr"
+   },
+   {
+    "smi": "CC1(Br)CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "add-05",
+  "t": "addition",
+  "q": "What is the product of this two-step sequence? (Chiral products form as racemates; one enantiomer is drawn.)",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Decide which carbon gets boron, then remember that H and B add to the same face and oxidation keeps the configuration.",
+  "w": "BH<sub>3</sub> adds in one concerted step: boron bonds to the less substituted alkene carbon (C2) and hydrogen to the methyl-bearing carbon (C1), both from the same face (syn). H<sub>2</sub>O<sub>2</sub>/NaOH replaces C–B with C–OH with retention. The new H on C1 and the OH on C2 are cis, so the methyl and OH are trans: <b>trans-2-methylcyclohexan-1-ol</b>, formed as a racemate.",
+  "x": [
+   "",
+   "cis-2-Methylcyclohexan-1-ol would require H and OH on opposite faces; hydroboration is syn and oxidation occurs with retention.",
+   "1-Methylcyclohexan-1-ol is the Markovnikov alcohol from acid hydration or oxymercuration, not from hydroboration.",
+   "Cyclohexylmethanol would come from hydroboration of methylenecyclohexane, whose C=C is outside the ring."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "C[C@@H]1CCCC[C@H]1O"
+   },
+   {
+    "smi": "C[C@@H]1CCCC[C@@H]1O"
+   },
+   {
+    "smi": "CC1(O)CCCCC1"
+   },
+   {
+    "smi": "OCC1CCCCC1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "1. BH<sub>3</sub>·THF",
+    "below": "2. H<sub>2</sub>O<sub>2</sub>, NaOH"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-06",
+  "t": "addition",
+  "q": "What is the product of this reaction sequence?",
+  "c": [
+   "Hexan-2-ol",
+   "Hexan-1-ol",
+   "Hexan-3-ol",
+   "Hexane-1,2-diol"
+  ],
+  "h": "Oxymercuration follows the same regiochemistry as acid hydration but without rearrangement.",
+  "w": "Hg(OAc)<sub>2</sub> forms a mercurinium ion; water opens it at the more substituted carbon (C2), and NaBH<sub>4</sub> replaces the C–HgOAc bond with C–H. Net Markovnikov addition of H and OH: <b>hexan-2-ol</b>.",
+  "x": [
+   "",
+   "Hexan-1-ol is the anti-Markovnikov alcohol from hydroboration–oxidation.",
+   "Hexan-3-ol would need a hydride shift; the mercurinium ion does not rearrange, and a shift would only give another secondary cation anyway.",
+   "A 1,2-diol comes from dihydroxylation (OsO<sub>4</sub>); NaBH<sub>4</sub> puts H, not OH, where mercury was."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "C=CCCCC"
+   },
+   {
+    "arrow": "1. Hg(OAc)<sub>2</sub>, H<sub>2</sub>O",
+    "below": "2. NaBH<sub>4</sub>"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-07",
+  "t": "addition",
+  "q": "Which reagents carry out this conversion in good yield?",
+  "c": [
+   "1. Hg(OAc)<sub>2</sub>, H<sub>2</sub>O, THF  2. NaBH<sub>4</sub>",
+   "H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub> (cat.)",
+   "1. BH<sub>3</sub>·THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "1. OsO<sub>4</sub>  2. NaHSO<sub>3</sub>, H<sub>2</sub>O"
+  ],
+  "h": "The target is the Markovnikov alcohol with the carbon skeleton unchanged. Which method avoids a free carbocation?",
+  "w": "The target, 3,3-dimethylbutan-2-ol, is the Markovnikov alcohol with no change to the skeleton. <b>Oxymercuration–demercuration</b> gives Markovnikov addition through a bridged mercurinium ion, so the methyl shift that plagues this substrate cannot occur.",
+  "x": [
+   "",
+   "Acid-catalyzed hydration goes through the secondary cation, which undergoes a 1,2-methyl shift and gives mainly 2,3-dimethylbutan-2-ol.",
+   "Hydroboration–oxidation is anti-Markovnikov and gives the primary alcohol 3,3-dimethylbutan-1-ol.",
+   "OsO<sub>4</sub> adds two OH groups and gives 3,3-dimethylbutane-1,2-diol, not a mono-alcohol."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C=CC(C)(C)C"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC(O)C(C)(C)C"
+   }
+  ]
+ },
+ {
+  "id": "add-08",
+  "t": "addition",
+  "q": "What is the product? The two new stereocenters form as a racemate; one enantiomer is drawn.",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Both alkene carbons are tertiary, so focus on stereochemistry: which two groups are delivered to the same face?",
+  "w": "Hydroboration is a syn addition: H goes to one alkene carbon and B to the other from the same face, and oxidation replaces B with OH with retention. So the OH on C1 and the new H on C2 are cis. Each original methyl is pushed to the face opposite the group that added to its carbon: with OH up at C1, the C1 methyl is down; with H up at C2, the C2 methyl is down. The product is <b>1,2-dimethylcyclohexan-1-ol with the two methyl groups cis</b> (OH trans to the C2 methyl).",
+  "x": [
+   "",
+   "This diastereomer has the two methyls trans, which would require H and OH to add to opposite faces (anti addition).",
+   "A cis-1,2-diol forms with OsO<sub>4</sub>; hydroboration–oxidation introduces only one OH.",
+   "cis-1,2-Dimethylcyclohexane is the product of catalytic hydrogenation (H<sub>2</sub>, Pt), not hydroboration–oxidation."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "C[C@]1(O)CCCC[C@@H]1C"
+   },
+   {
+    "smi": "C[C@@]1(O)CCCC[C@@H]1C"
+   },
+   {
+    "smi": "C[C@]1(O)CCCC[C@@]1(C)O"
+   },
+   {
+    "smi": "C[C@@H]1CCCC[C@@H]1C"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC1=C(C)CCCC1"
+   },
+   {
+    "arrow": "1. BH<sub>3</sub>·THF",
+    "below": "2. H<sub>2</sub>O<sub>2</sub>, NaOH"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-09",
+  "t": "addition",
+  "q": "Which statements correctly explain why hydroboration–oxidation of propene gives propan-1-ol rather than propan-2-ol?<br>I. Boron, the electron-poor end of the B–H bond, bonds to the less substituted alkene carbon.<br>II. In the four-center transition state, partial positive charge builds on the more substituted carbon, which supports it better.<br>III. Putting the bulky boron group on the terminal CH<sub>2</sub> minimizes steric strain.<br>IV. A secondary carbocation forms and is trapped by hydride from boron.",
+  "c": [
+   "I, II and III only",
+   "I and III only",
+   "II and IV only",
+   "III and IV only"
+  ],
+  "h": "Hydroboration is concerted. Check each statement for both electronic and steric reasoning.",
+  "w": "Statements I, II and III are all correct and work together: boron is the electrophile, it bonds to the terminal carbon, the slight δ+ in the transition state is on the secondary carbon, and the larger BH<sub>2</sub> group goes to the less hindered carbon. Statement IV is false because hydroboration is concerted and has no carbocation intermediate. Answer: <b>I, II and III only</b>.",
+  "x": [
+   "",
+   "Statement II is also correct: the electronic preference (δ+ on the more substituted carbon) reinforces the steric one.",
+   "Statement IV is false; no carbocation forms, which is also why hydroboration never rearranges.",
+   "Statement IV is false, and statement I (boron as the electrophile bonding to the terminal carbon) is a key part of the explanation."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "add-10",
+  "t": "addition",
+  "q": "What is the major product of this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Draw the first carbocation and look at the carbon next to it. Is there a hydrogen on a more substituted neighbor?",
+  "w": "Protonation of the terminal CH<sub>2</sub> gives a secondary cation next to the ring CH. A 1,2-hydride shift from that ring carbon gives the tertiary 1-ethylcyclohexyl cation, and bromide traps it: <b>1-bromo-1-ethylcyclohexane</b>.",
+  "x": [
+   "",
+   "(1-Bromoethyl)cyclohexane is the unrearranged product; the secondary cation shifts a hydride to reach a tertiary cation first.",
+   "(2-Bromoethyl)cyclohexane is anti-Markovnikov; it needs HBr with peroxides (a radical mechanism).",
+   "Ring expansion would give a secondary cycloheptyl cation, no better than the starting cation; the one-step hydride shift reaches a tertiary cation."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "CCC1(Br)CCCCC1"
+   },
+   {
+    "smi": "CC(Br)C1CCCCC1"
+   },
+   {
+    "smi": "BrCCC1CCCCC1"
+   },
+   {
+    "smi": "CC1(Br)CCCCCC1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "C=CC1CCCCC1"
+   },
+   {
+    "arrow": "HBr"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-11",
+  "t": "addition",
+  "q": "In the acid-catalyzed hydration of 2-methylpropene (H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>), which step is rate-determining?",
+  "c": [
+   "Protonation of the alkene to form the tert-butyl cation",
+   "Attack of water on the tert-butyl cation",
+   "Deprotonation of the oxonium ion to give the alcohol",
+   "Simultaneous addition of H and OH in one concerted step"
+  ],
+  "h": "Which step creates a high-energy intermediate from a neutral, stable starting material?",
+  "w": "The slow step is <b>protonation of the alkene</b>: it breaks the π bond and creates a carbocation. Water capturing the cation and the final proton transfer are both fast.",
+  "x": [
+   "",
+   "Water attack on a carbocation is a fast combination of a nucleophile with a reactive cation.",
+   "Proton transfer from the oxonium ion to water is fast and nearly thermoneutral.",
+   "Acid-catalyzed hydration is stepwise through a carbocation; it is not a concerted addition."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "add-12",
+  "t": "addition",
+  "q": "For which alkene do acid-catalyzed hydration and hydroboration–oxidation give the same constitutional isomer of the alcohol?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Markovnikov and anti-Markovnikov products are the same only if the two alkene carbons are equivalent and no rearrangement is possible.",
+  "w": "In <b>cyclohexene</b> the two alkene carbons are equivalent, so Markovnikov and anti-Markovnikov addition both give cyclohexanol, and the secondary cyclohexyl cation has no better cation to shift to.",
+  "x": [
+   "",
+   "1-Methylcyclohexene gives 1-methylcyclohexanol by acid hydration but trans-2-methylcyclohexanol by hydroboration.",
+   "Methylenecyclohexane gives 1-methylcyclohexanol by acid hydration but cyclohexylmethanol by hydroboration.",
+   "3-Methylbut-1-ene gives 2-methylbutan-2-ol (after a hydride shift) by acid hydration but 3-methylbutan-1-ol by hydroboration."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "C1=CCCCC1"
+   },
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "smi": "C=C1CCCCC1"
+   },
+   {
+    "smi": "C=CC(C)C"
+   }
+  ]
+ },
+ {
+  "id": "add-13",
+  "t": "addition",
+  "q": "Which statements about oxymercuration–demercuration (1. Hg(OAc)<sub>2</sub>, H<sub>2</sub>O  2. NaBH<sub>4</sub>) are correct?<br>I. A bridged mercurinium ion forms, so carbocation rearrangements do not occur.<br>II. Water attacks the more substituted carbon of the mercurinium ion.<br>III. NaBH<sub>4</sub> replaces the C–HgOAc bond with a C–H bond.<br>IV. The H and OH are always added syn to each other.",
+  "c": [
+   "I, II and III only",
+   "I and IV only",
+   "II and III only",
+   "I, II, III and IV"
+  ],
+  "h": "Think separately about the oxymercuration step (stereospecific) and the demercuration step.",
+  "w": "I, II and III are correct. The mercurinium ion has no free carbocation, so no shifts; water opens it at the more substituted carbon (Markovnikov); NaBH<sub>4</sub> replaces mercury with hydrogen. Statement IV is false: the demercuration step goes through a radical and is not stereospecific, so the overall addition of H and OH is not reliably syn or anti. Answer: <b>I, II and III only</b>.",
+  "x": [
+   "",
+   "Statement IV is false (demercuration is not stereospecific), and II and III are true.",
+   "Statement I is also true; the bridged ion is exactly why this method avoids rearrangement.",
+   "Statement IV is false; replacing Hg with H goes through a radical, so the H can end up on either face."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "add-14",
+  "t": "addition",
+  "q": "What is the major product of this sequence?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The solvent is the nucleophile that opens the mercurinium ion.",
+  "w": "Hg(OAc)<sub>2</sub> forms the mercurinium ion; the solvent, methanol, attacks the more substituted carbon (the one bearing the methyl). NaBH<sub>4</sub> then replaces mercury with H. The result is Markovnikov addition of H and OCH<sub>3</sub>: <b>1-methoxy-1-methylcyclohexane</b>.",
+  "x": [
+   "",
+   "1-Methoxy-2-methylcyclohexane has OCH<sub>3</sub> on the less substituted carbon; the nucleophile opens the mercurinium ion at the more substituted carbon.",
+   "1-Methylcyclohexan-1-ol would form if water were the solvent; here methanol is the nucleophile.",
+   "(Methoxymethyl)cyclohexane puts OCH<sub>3</sub> on a carbon that was not part of the C=C."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "COC1(C)CCCCC1"
+   },
+   {
+    "smi": "COC1CCCCC1C"
+   },
+   {
+    "smi": "CC1(O)CCCCC1"
+   },
+   {
+    "smi": "COCC1CCCCC1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "1. Hg(OAc)<sub>2</sub>, CH<sub>3</sub>OH",
+    "below": "2. NaBH<sub>4</sub>"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-15",
+  "t": "addition",
+  "q": "Hydroboration–oxidation (1. BH<sub>3</sub>·THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH) of which alkene gives racemic trans-2-methylcyclopentan-1-ol (shown) as the only constitutional isomer?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Work backward: OH marks where boron went; the H added to the neighboring carbon, which carries the methyl.",
+  "w": "Boron (and later OH) goes to the less substituted alkene carbon, and H goes to the other carbon, syn. For the OH to sit next to the methyl-bearing carbon, the C=C must join those two carbons: <b>1-methylcyclopentene</b>. Syn addition puts H and OH cis, so methyl and OH are trans, as in the target.",
+  "x": [
+   "",
+   "Methylenecyclopentane gives cyclopentylmethanol; the OH ends up on the exocyclic CH<sub>2</sub>.",
+   "3-Methylcyclopentene has two similar secondary alkene carbons, so boron adds to both and gives a mixture of 2- and 3-methylcyclopentanols.",
+   "4-Methylcyclopentene gives only 3-methylcyclopentan-1-ol; its OH is two carbons from the methyl."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "CC1=CCCC1"
+   },
+   {
+    "smi": "C=C1CCCC1"
+   },
+   {
+    "smi": "CC1C=CCC1"
+   },
+   {
+    "smi": "CC1CC=CC1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "C[C@@H]1CCC[C@H]1O"
+   }
+  ]
+ },
+ {
+  "id": "add-16",
+  "t": "addition",
+  "q": "What is the major product when 2-methylpropene is treated with H<sub>2</sub>O and a catalytic amount of H<sub>2</sub>SO<sub>4</sub>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Which carbocation forms when the alkene is protonated?",
+  "w": "Protonation of the CH<sub>2</sub> carbon gives the tert-butyl cation; water adds and loses a proton to give <b>2-methylpropan-2-ol (tert-butyl alcohol)</b>, the Markovnikov product.",
+  "x": [
+   "",
+   "2-Methylpropan-1-ol is the anti-Markovnikov alcohol from hydroboration–oxidation.",
+   "A diol needs a dihydroxylation reagent such as OsO<sub>4</sub>; aqueous acid adds only H and OH.",
+   "2-Methylpropane would require H<sub>2</sub> and a metal catalyst; water adds OH, not H."
+  ],
+  "k": 0,
+  "d": 1,
+  "cs": [
+   {
+    "smi": "CC(C)(C)O"
+   },
+   {
+    "smi": "CC(C)CO"
+   },
+   {
+    "smi": "CC(C)(O)CO"
+   },
+   {
+    "smi": "CC(C)C"
+   }
+  ]
+ },
+ {
+  "id": "add-17",
+  "t": "addition",
+  "q": "(<i>R</i>)-3-Methylhex-1-ene is treated with H<sub>2</sub>O and catalytic H<sub>2</sub>SO<sub>4</sub>. Which best describes the major product?",
+  "c": [
+   "3-Methylhexan-3-ol, formed as a racemic mixture",
+   "3-Methylhexan-3-ol, formed as a single enantiomer because C3 keeps its configuration",
+   "3-Methylhexan-2-ol, formed as a mixture of diastereomers",
+   "3-Methylhexan-1-ol, formed as the (<i>R</i>) enantiomer only"
+  ],
+  "h": "Follow the carbocation: does it rearrange, and what happens to the original stereocenter?",
+  "w": "Protonation gives a secondary cation at C2. A 1,2-hydride shift from C3 (the stereocenter) gives the more stable tertiary cation at C3, which is planar, so the original configuration is lost. Water attacks either face equally, giving <b>3-methylhexan-3-ol as a racemic mixture</b> (C3 bears CH<sub>3</sub>, ethyl, propyl and OH, so it is a stereocenter).",
+  "x": [
+   "",
+   "C3 becomes the sp<sup>2</sup> cation carbon after the hydride shift, so its configuration cannot be retained.",
+   "3-Methylhexan-2-ol is the unrearranged product; the secondary cation shifts a hydride to reach the tertiary cation.",
+   "The primary alcohol is the hydroboration product; acid-catalyzed hydration is Markovnikov."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C=C[C@H](C)CCC"
+   },
+   {
+    "arrow": "H<sub>2</sub>O",
+    "below": "H<sub>2</sub>SO<sub>4</sub> (cat.)"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-18",
+  "t": "addition",
+  "q": "Rank these alkenes by rate of acid-catalyzed hydration (slowest to fastest).<br>I. ethene  II. propene  III. 2-methylpropene",
+  "c": [
+   "I &lt; II &lt; III",
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III",
+   "I &lt; III &lt; II"
+  ],
+  "h": "The rate-determining step forms a carbocation. Apply the Hammond postulate.",
+  "w": "Protonation is rate-determining and its transition state resembles the carbocation. Ethene gives a primary cation, propene a secondary, and 2-methylpropene a tertiary cation, so the rate order is <b>I &lt; II &lt; III</b>.",
+  "x": [
+   "",
+   "This reverses the order; more substituted cations form faster, not slower.",
+   "Ethene cannot be faster than propene: it would have to form a primary (essentially methyl-like) cation.",
+   "2-Methylpropene forms the tertiary cation, so it reacts fastest, not in the middle."
+  ],
+  "k": 0,
+  "d": 2
+ }
+]

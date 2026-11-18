@@ -1,0 +1,579 @@
+[
+ {
+  "id": "ad-46",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "Phenylacetonitrile is heated at reflux in aqueous H<sub>2</sub>SO<sub>4</sub> for several hours. What is the organic product?",
+  "s": [
+   {
+    "smi": "N#CCc1ccccc1"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C(O)Cc1ccccc1"
+   },
+   {
+    "smi": "NC(=O)Cc1ccccc1"
+   },
+   {
+    "smi": "NCCc1ccccc1"
+   },
+   {
+    "smi": "O=C(O)c1ccccc1"
+   }
+  ],
+  "h": "Full hydrolysis of a nitrile goes through an amide. Where does it end?",
+  "w": "Water adds to the protonated C≡N to give an amide, which under prolonged heating in acid is hydrolyzed further (NH<sub>4</sub><sup>+</sup> released). The nitrile carbon becomes the CO<sub>2</sub>H carbon, so no carbon is lost: <b>A, phenylacetic acid</b>.",
+  "x": [
+   "",
+   "The amide is the intermediate; several hours at reflux in strong acid hydrolyze it on to the carboxylic acid.",
+   "An amine would require a reducing agent such as LiAlH<sub>4</sub>; aqueous acid only hydrolyzes.",
+   "The nitrile carbon is kept as the carboxyl carbon; benzoic acid has one carbon too few."
+  ]
+ },
+ {
+  "id": "ad-47",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Which sequence converts 1-bromopropane into butan-1-amine, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub>?",
+  "c": [
+   "1. NaCN, DMSO  2. LiAlH<sub>4</sub>  3. H<sub>2</sub>O",
+   "1. NH<sub>3</sub> (excess)",
+   "1. NaCN, DMSO  2. H<sub>3</sub>O<sup>+</sup>, heat",
+   "1. NaCN, DMSO  2. CH<sub>3</sub>MgBr  3. H<sub>3</sub>O<sup>+</sup>"
+  ],
+  "h": "The product has one more carbon than the starting halide. Which group adds a carbon that can become CH<sub>2</sub>NH<sub>2</sub>?",
+  "w": "S<sub>N</sub>2 with cyanide gives butanenitrile (one new carbon). LiAlH<sub>4</sub> adds two hydrides to C≡N, and workup gives the primary amine with the nitrile carbon as CH<sub>2</sub>: <b>1. NaCN 2. LiAlH<sub>4</sub> 3. H<sub>2</sub>O</b>.",
+  "x": [
+   "",
+   "Ammonia substitution gives propan-1-amine (three carbons), and over-alkylation gives di- and tripropylamines.",
+   "Acid hydrolysis of the nitrile gives butanoic acid, not the amine.",
+   "A Grignard adds to the nitrile and, after hydrolysis, gives a ketone (pentan-2-one)."
+  ]
+ },
+ {
+  "id": "ad-48",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "What is the product after aqueous acid workup?",
+  "s": [
+   {
+    "smi": "N#Cc1ccccc1"
+   },
+   {
+    "arrow": "1. CH<sub>3</sub>CH<sub>2</sub>MgBr, ether",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(=O)c1ccccc1"
+   },
+   {
+    "smi": "CCC(O)(CC)c1ccccc1"
+   },
+   {
+    "smi": "CCC(N)c1ccccc1"
+   },
+   {
+    "smi": "CCC(=N)c1ccccc1"
+   }
+  ],
+  "h": "The Grignard adds once to C≡N. What does the resulting C=N species become in aqueous acid?",
+  "w": "EtMgBr adds to the nitrile carbon to give an imine magnesium salt (C=N–MgBr). Aqueous acid protonates it to the imine, which hydrolyzes to the ketone: <b>A, 1-phenylpropan-1-one</b> (propiophenone).",
+  "x": [
+   "",
+   "Two additions do not occur: the negatively charged imine salt is not electrophilic enough to react with a second Grignard.",
+   "No hydride source is present to reduce C=N to an amine.",
+   "The imine is an intermediate; aqueous acid hydrolyzes it to the ketone."
+  ]
+ },
+ {
+  "id": "ad-49",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "An ester and excess CH<sub>3</sub>MgBr give a 3° alcohol, but a nitrile and excess CH<sub>3</sub>MgBr give a ketone after workup. What is the best explanation?",
+  "c": [
+   "The nitrile adduct is an anionic imine salt that cannot react with a second Grignard; the ketone forms only during workup",
+   "Nitriles are more reactive than ketones, so the Grignard is used up before the ketone forms",
+   "The ketone formed from the nitrile is protected because it is immediately deprotonated to an enolate",
+   "Nitrogen is a better leaving group than oxygen, so the C=N bond is never formed"
+  ],
+  "h": "Follow the nitrile reaction step by step. When does the ketone C=O actually appear?",
+  "w": "With an ester, the tetrahedral intermediate expels the alkoxide <i>in the flask</i>, so a ketone forms in the presence of Grignard and is attacked again. With a nitrile, addition gives R<sub>2</sub>C=N<sup>−</sup> MgBr<sup>+</sup>. There is no leaving group, and the negatively charged imine salt is not electrophilic, so it waits. <b>The ketone appears only when aqueous acid hydrolyzes the imine, after the Grignard has been destroyed.</b>",
+  "x": [
+   "",
+   "Nitriles are actually less electrophilic than ketones; the explanation is that no ketone is present until workup.",
+   "No ketone exists in the flask before workup, so enolization is not what protects it.",
+   "Nothing leaves from the nitrile adduct; that is exactly why it stops at the imine salt. Amide ions are also very poor leaving groups."
+  ]
+ },
+ {
+  "id": "ad-50",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "What is the product?",
+  "s": [
+   {
+    "smi": "CC(C)CC#N"
+   },
+   {
+    "arrow": "1. DIBAL-H, −78 °C",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)CC=O"
+   },
+   {
+    "smi": "CC(C)CCN"
+   },
+   {
+    "smi": "CC(C)CC(=O)O"
+   },
+   {
+    "smi": "CC(C)CCO"
+   }
+  ],
+  "h": "DIBAL-H delivers one hydride to C≡N. What does the resulting imine-aluminum species become in water?",
+  "w": "One hydride adds to the nitrile carbon, giving an aluminum-bound imine (C=N–Al). It cannot accept a second hydride easily, and aqueous workup hydrolyzes the imine to <b>A, 3-methylbutanal</b>.",
+  "x": [
+   "",
+   "Two hydrides (from LiAlH<sub>4</sub>) give the primary amine; DIBAL-H stops after one.",
+   "DIBAL-H reduces; it does not hydrolyze the nitrile to an acid.",
+   "The nitrogen is lost as NH<sub>3</sub> during hydrolysis of the imine; the carbon ends as CHO, not CH<sub>2</sub>OH."
+  ]
+ },
+ {
+  "id": "ad-51",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence best converts 2-bromo-2-methylpropane into 2,2-dimethylpropanoic acid, (CH<sub>3</sub>)<sub>3</sub>CCO<sub>2</sub>H?",
+  "c": [
+   "1. Mg, ether  2. CO<sub>2</sub>  3. H<sub>3</sub>O<sup>+</sup>",
+   "1. NaCN, DMSO  2. H<sub>3</sub>O<sup>+</sup>, heat",
+   "1. NaOH, H<sub>2</sub>O  2. H<sub>2</sub>CrO<sub>4</sub>",
+   "1. NaCN, DMSO  2. LiAlH<sub>4</sub>  3. H<sub>2</sub>O"
+  ],
+  "h": "Both the nitrile route and the Grignard/CO<sub>2</sub> route add one carbon. Which one needs an S<sub>N</sub>2 step?",
+  "w": "Making a tertiary Grignard is fine (no S<sub>N</sub>2 needed); it adds to CO<sub>2</sub> to give a carboxylate, and acid gives the acid: <b>1. Mg 2. CO<sub>2</sub> 3. H<sub>3</sub>O<sup>+</sup></b>. The cyanide route needs S<sub>N</sub>2 at a tertiary carbon, which fails; cyanide acts as a base and gives 2-methylpropene by E2.",
+  "x": [
+   "",
+   "Cyanide cannot do S<sub>N</sub>2 at a tertiary carbon; elimination to 2-methylpropene dominates, so little nitrile forms.",
+   "At best this route forms <i>tert</i>-butyl alcohol (with much 2-methylpropene), which has no H on the carbinol carbon and cannot be oxidized; it also never adds the needed extra carbon.",
+   "Besides the failed S<sub>N</sub>2 step, LiAlH<sub>4</sub> would reduce a nitrile to an amine, not a carboxylic acid."
+  ]
+ },
+ {
+  "id": "ad-52",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "What is the final organic product?",
+  "s": [
+   {
+    "smi": "CCOC(=O)C(Cc1ccccc1)C(=O)OCC"
+   },
+   {
+    "arrow": "H<sub>3</sub>O<sup>+</sup>",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C(O)CCc1ccccc1"
+   },
+   {
+    "smi": "O=C(O)C(Cc1ccccc1)C(=O)O"
+   },
+   {
+    "smi": "CCOC(=O)CCc1ccccc1"
+   },
+   {
+    "smi": "O=C(O)Cc1ccccc1"
+   }
+  ],
+  "h": "Two things happen in hot aqueous acid: both esters are hydrolyzed, and then one structural feature of the diacid makes it unstable to heat.",
+  "w": "Hot aqueous acid hydrolyzes both ethyl esters to give benzylmalonic acid. A malonic acid has a C=O β to the other CO<sub>2</sub>H, so on heating it loses CO<sub>2</sub> through a cyclic six-membered transition state, giving an enol of a carboxylic acid that tautomerizes: <b>A, 3-phenylpropanoic acid</b>.",
+  "x": [
+   "",
+   "Benzylmalonic acid forms first, but a 1,3-diacid decarboxylates on heating; it does not survive the conditions.",
+   "Hot aqueous acid hydrolyzes the ester, so the ethyl ester does not remain.",
+   "Only one CO<sub>2</sub> is lost; after the first decarboxylation there is no longer a β-carbonyl to allow a second one. Phenylacetic acid has one carbon too few."
+  ]
+ },
+ {
+  "id": "ad-53",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Which acid loses CO<sub>2</sub> readily when warmed to about 100 °C?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)CC(=O)O"
+   },
+   {
+    "smi": "CC(=O)C(=O)O"
+   },
+   {
+    "smi": "CC(=O)CCC(=O)O"
+   },
+   {
+    "smi": "O=C(O)c1ccccc1"
+   }
+  ],
+  "h": "Easy thermal decarboxylation needs a C=O two carbons away from the carboxyl carbon, so that a six-membered cyclic transition state can form.",
+  "w": "A β-keto acid has the ketone C=O β to the CO<sub>2</sub>H. The carboxyl H is transferred to the ketone oxygen through a six-membered cyclic transition state while the C–C bond breaks, giving CO<sub>2</sub> and an enol. <b>A, 3-oxobutanoic acid (acetoacetic acid)</b>, is the β-keto acid; it decarboxylates to acetone.",
+  "x": [
+   "",
+   "Pyruvic acid is an α-keto acid; the C=O is too close to form the six-membered cyclic transition state.",
+   "4-Oxopentanoic acid is a γ-keto acid; the ketone is too far away for the cyclic transition state, and the C–C bond breaking would not give a stabilized enol.",
+   "Benzoic acid has no β-carbonyl; aryl carboxylic acids need much harsher conditions to lose CO<sub>2</sub>."
+  ]
+ },
+ {
+  "id": "ad-54",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "3-Oxobutanoic acid loses CO<sub>2</sub> on heating through a cyclic transition state. What is the <b>first-formed</b> organic product (before any tautomerization)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=C(C)O"
+   },
+   {
+    "smi": "CC(C)=O"
+   },
+   {
+    "smi": "[CH2-]C(C)=O"
+   },
+   {
+    "smi": "CC=C=O"
+   }
+  ],
+  "h": "In the cyclic transition state the carboxyl H moves to the ketone oxygen while the C–CO<sub>2</sub> bond breaks. Where do those C–C bonding electrons go?",
+  "w": "Six electrons move around a ring: the ketone oxygen takes the carboxyl H, the O–H bond electrons become the second C=O of CO<sub>2</sub>, and the breaking C–C bond electrons form a C=C between the α-carbon and the former ketone carbon. No charged intermediate forms; the first product is the neutral <b>enol, A (prop-1-en-2-ol)</b>, which then tautomerizes to acetone.",
+  "x": [
+   "",
+   "Acetone is the final product, formed by keto–enol tautomerization of the enol; it is not the first-formed species.",
+   "The concerted cyclic pathway is neutral throughout; no carbanion is produced (that would be very unstable without a counter-ion).",
+   "Methylketene would require losing water, not CO<sub>2</sub>, and has the wrong connectivity."
+  ]
+ },
+ {
+  "id": "ad-55",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "A carboxylic acid derivative has the IR spectrum shown (two strong C=O bands at 1820 and 1760 cm<sup>−1</sup>; no O–H or N–H bands). Which compound is it?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2985,
+      "str": "m"
+     },
+     {
+      "cm": 1820,
+      "str": "s"
+     },
+     {
+      "cm": 1760,
+      "str": "s"
+     },
+     {
+      "cm": 1040,
+      "str": "s"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(=O)OC(=O)CC"
+   },
+   {
+    "smi": "CCC(=O)Cl"
+   },
+   {
+    "smi": "CCC(=O)OCC"
+   },
+   {
+    "smi": "CCC(=O)O"
+   }
+  ],
+  "h": "Which derivative has two C=O groups that can stretch in phase and out of phase?",
+  "w": "An anhydride has two coupled C=O groups, giving a symmetric and an asymmetric stretch, typically near 1820 and 1760 cm<sup>−1</sup>. The pair of strong high-frequency bands identifies <b>A, propanoic anhydride</b>.",
+  "x": [
+   "",
+   "An acid chloride shows one C=O band near 1800 cm<sup>−1</sup>, not a pair.",
+   "An ester shows a single C=O near 1735–1740 cm<sup>−1</sup>.",
+   "A carboxylic acid would show a very broad O–H band from about 2500–3300 cm<sup>−1</sup> and a C=O near 1710 cm<sup>−1</sup>."
+  ]
+ },
+ {
+  "id": "ad-56",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Rank the compounds by C=O stretching frequency, <b>lowest to highest</b> wavenumber.",
+  "s": [
+   {
+    "smi": "CC(=O)OC",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(=O)Cl",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(=O)N(C)C",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "III < I < II",
+   "II < I < III",
+   "I < III < II",
+   "III < II < I"
+  ],
+  "h": "Resonance donation into C=O lengthens and weakens it (lower wavenumber); inductive withdrawal shortens and strengthens it.",
+  "w": "In the amide (III) the N lone pair donates strongly, giving the C=O much single-bond character: ~1650 cm<sup>−1</sup>. In the ester (I) oxygen donates less and withdraws inductively: ~1740 cm<sup>−1</sup>. In the acid chloride (II) Cl hardly donates and withdraws strongly: ~1800 cm<sup>−1</sup>. Order: <b>III < I < II</b>.",
+  "x": [
+   "",
+   "This reverses the order. More resonance donation means a weaker C=O and a lower wavenumber, so the amide is lowest.",
+   "The ester's oxygen donates less than the amide nitrogen, so the ester C=O is at higher wavenumber than the amide.",
+   "Chlorine is the poorest π donor and withdraws inductively, so the acid chloride has the highest C=O stretch, not the ester."
+  ]
+ },
+ {
+  "id": "ad-57",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "A compound C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> shows strong IR bands at 1742 and 1240 cm<sup>−1</sup> and no band above 3100 cm<sup>−1</sup>. Its <sup>1</sup>H NMR spectrum is shown. What is the compound?",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 4.12,
+      "mult": "q",
+      "int": 2
+     },
+     {
+      "ppm": 2.05,
+      "mult": "s",
+      "int": 3
+     },
+     {
+      "ppm": 1.26,
+      "mult": "t",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(C)=O"
+   },
+   {
+    "smi": "CCC(=O)OC"
+   },
+   {
+    "smi": "CCCOC=O"
+   },
+   {
+    "smi": "CCCC(=O)O"
+   }
+  ],
+  "h": "The IR says ester. Then look at where the CH<sub>2</sub> quartet is: on oxygen (~4 ppm) or next to C=O (~2.3 ppm)?",
+  "w": "1742 and 1240 cm<sup>−1</sup> (C=O and C–O) with no O–H band mean an ester. A 3H singlet at 2.05 ppm is a CH<sub>3</sub> on C=O. The 2H quartet at 4.12 ppm is an OCH<sub>2</sub> next to a CH<sub>3</sub> (triplet at 1.26). So the ethyl is on oxygen and the methyl is on the carbonyl: <b>A, ethyl acetate</b>.",
+  "x": [
+   "",
+   "Methyl propanoate would show an OCH<sub>3</sub> singlet near 3.7 ppm and a CH<sub>2</sub> quartet near 2.3 ppm (next to C=O), not 4.1 ppm.",
+   "Propyl formate would show a formyl H singlet near 8.0 ppm (1H) and an OCH<sub>2</sub> triplet, not a quartet.",
+   "Butanoic acid would show a very broad O–H band in the IR (2500–3300 cm<sup>−1</sup>) and a CO<sub>2</sub>H proton near 11–12 ppm."
+  ]
+ },
+ {
+  "id": "ad-58",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "A compound C<sub>4</sub>H<sub>9</sub>NO gives the IR spectrum shown: two medium bands at 3360 and 3180 cm<sup>−1</sup>, C–H at 2960 cm<sup>−1</sup>, and strong bands at 1660 and 1630 cm<sup>−1</sup>. Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3360,
+      "str": "m"
+     },
+     {
+      "cm": 3180,
+      "str": "m"
+     },
+     {
+      "cm": 2960,
+      "str": "m"
+     },
+     {
+      "cm": 1660,
+      "str": "s"
+     },
+     {
+      "cm": 1630,
+      "str": "s"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCC(N)=O"
+   },
+   {
+    "smi": "CCC(=O)NC"
+   },
+   {
+    "smi": "CN(C)C(C)=O"
+   },
+   {
+    "smi": "CCC(=O)CN"
+   }
+  ],
+  "h": "Two N–H stretches mean NH<sub>2</sub>. A C=O near 1660 cm<sup>−1</sup> is much lower than a ketone's.",
+  "w": "Two N–H bands (symmetric and asymmetric stretch) show an NH<sub>2</sub> group. A C=O at 1660 cm<sup>−1</sup> (lowered by N donation) with an N–H bend near 1630 cm<sup>−1</sup> is a primary amide: <b>A, butanamide</b>.",
+  "x": [
+   "",
+   "A secondary amide (N–H) shows only one N–H stretch, near 3300 cm<sup>−1</sup>.",
+   "A tertiary amide has no N–H bond, so it would show no bands at all above 3100 cm<sup>−1</sup>.",
+   "This amino ketone has NH<sub>2</sub> bands but a ketone C=O near 1715 cm<sup>−1</sup>, not 1660 cm<sup>−1</sup>."
+  ]
+ },
+ {
+  "id": "ad-59",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence converts hexanoic acid into hexan-1-amine, CH<sub>3</sub>(CH<sub>2</sub>)<sub>5</sub>NH<sub>2</sub>, with no change in the number of carbons?",
+  "c": [
+   "1. SOCl<sub>2</sub>  2. NH<sub>3</sub> (excess)  3. LiAlH<sub>4</sub>  4. H<sub>2</sub>O",
+   "1. LiAlH<sub>4</sub>  2. H<sub>2</sub>O  3. NH<sub>3</sub>, heat",
+   "1. SOCl<sub>2</sub>  2. NH<sub>3</sub> (excess)  3. Br<sub>2</sub>, NaOH, H<sub>2</sub>O",
+   "1. SOCl<sub>2</sub>  2. NH<sub>3</sub> (excess)  3. H<sub>3</sub>O<sup>+</sup>, heat"
+  ],
+  "h": "Make an amide first. Then find the step that turns C=O into CH<sub>2</sub> while keeping the C–N bond.",
+  "w": "SOCl<sub>2</sub> gives hexanoyl chloride; excess NH<sub>3</sub> gives hexanamide (the second equivalent takes up HCl). LiAlH<sub>4</sub> reduces the amide C=O to CH<sub>2</sub>, keeping all six carbons: <b>1. SOCl<sub>2</sub> 2. NH<sub>3</sub> 3. LiAlH<sub>4</sub> 4. H<sub>2</sub>O</b>.",
+  "x": [
+   "",
+   "LiAlH<sub>4</sub> reduces the acid to hexan-1-ol, and OH<sup>−</sup> is too poor a leaving group for ammonia to displace it.",
+   "Br<sub>2</sub>/NaOH on a primary amide is the Hofmann rearrangement, which loses the carbonyl carbon and gives pentan-1-amine.",
+   "Hot aqueous acid simply hydrolyzes the amide back to hexanoic acid."
+  ]
+ },
+ {
+  "id": "ad-60",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Compound X, C<sub>4</sub>H<sub>7</sub>N, has a sharp IR band at 2250 cm<sup>−1</sup> and no bands above 3000 cm<sup>−1</sup>. X reacts with 1. CH<sub>3</sub>CH<sub>2</sub>MgBr 2. H<sub>3</sub>O<sup>+</sup> to give 2-methylpentan-3-one. What is X?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)C#N"
+   },
+   {
+    "smi": "CCCC#N"
+   },
+   {
+    "smi": "CC(C)[N+]#[C-]"
+   },
+   {
+    "smi": "CC#CCN"
+   }
+  ],
+  "h": "Grignard + nitrile → ketone: the nitrile carbon becomes the C=O; the ethyl comes from the Grignard. What is on the other side of the C=O?",
+  "w": "2-Methylpentan-3-one is (CH<sub>3</sub>)<sub>2</sub>CH–CO–CH<sub>2</sub>CH<sub>3</sub>. The ethyl came from the Grignard, so the nitrile must be (CH<sub>3</sub>)<sub>2</sub>CH–C≡N. The 2250 cm<sup>−1</sup> band (C≡N) and the formula C<sub>4</sub>H<sub>7</sub>N fit: <b>A, 2-methylpropanenitrile</b>.",
+  "x": [
+   "",
+   "Butanenitrile + EtMgBr gives hexan-3-one (unbranched), not 2-methylpentan-3-one.",
+   "An isocyanide (R–N≡C) absorbs near 2140 cm<sup>−1</sup> and does not give a ketone with a Grignard reagent.",
+   "A primary amine would show N–H stretches above 3300 cm<sup>−1</sup>, and an internal alkyne C≡C is weak; it would not give a ketone with EtMgBr."
+  ]
+ }
+]

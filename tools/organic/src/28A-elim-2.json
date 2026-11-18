@@ -1,0 +1,632 @@
+[
+ {
+  "id": "elim-2-01",
+  "d": 1,
+  "q": "What is the major product when 2-methylcyclohexanol is heated with concentrated H<sub>3</sub>PO<sub>4</sub>?",
+  "s": [
+   {
+    "smi": "CC1CCCCC1O"
+   },
+   {
+    "arrow": "H<sub>3</sub>PO<sub>4</sub>",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "smi": "CC1CCCC=C1"
+   },
+   {
+    "smi": "C=C1CCCCC1"
+   },
+   {
+    "smi": "CC1CCC=CC1"
+   }
+  ],
+  "h": "Acid-catalyzed dehydration goes through a carbocation (E1) and gives the most stable alkene.",
+  "w": "Protonation of OH and loss of water give a 2° carbocation at C1; a 1,2-hydride shift from C2 gives the 3° cation, and loss of a proton from either cation can form the trisubstituted C=C. E1 dehydration gives the most stable alkene, <b>1-methylcyclohexene</b>.",
+  "x": [
+   "",
+   "3-Methylcyclohexene (disubstituted) forms, but as a minor product; E1 favors the more substituted alkene.",
+   "Methylenecyclohexane is a less stable exocyclic, disubstituted alkene and is minor.",
+   "4-Methylcyclohexene has the C=C away from the original carbocation site; it would need extra hydride shifts to unproductive 2° cations."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-02",
+  "d": 2,
+  "q": "3,3-Dimethyl-2-butanol is heated with concentrated H<sub>2</sub>SO<sub>4</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "CC(O)C(C)(C)C"
+   },
+   {
+    "arrow": "H<sub>2</sub>SO<sub>4</sub>",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)=C(C)C"
+   },
+   {
+    "smi": "C=CC(C)(C)C"
+   },
+   {
+    "smi": "C=C(C)C(C)C"
+   },
+   {
+    "smi": "CC(C)C(C)(C)O"
+   }
+  ],
+  "h": "The first carbocation is secondary and sits next to a quaternary carbon. What can migrate?",
+  "w": "Loss of water gives a 2° carbocation at C2. A 1,2-methyl shift from the neighboring quaternary carbon makes a more stable 3° cation, (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>–CH(CH<sub>3</sub>)<sub>2</sub>. Loss of the lone C–H proton gives the tetrasubstituted alkene <b>2,3-dimethyl-2-butene</b>, the most stable possible product, as the major product.",
+  "x": [
+   "",
+   "3,3-Dimethyl-1-butene is the unrearranged alkene; it is minor because the 2° cation rearranges by a methyl shift before losing a proton.",
+   "2,3-Dimethyl-1-butene does come from the rearranged cation, but it is only disubstituted; the tetrasubstituted isomer is major.",
+   "With concentrated acid and heat the rearranged cation loses a proton to give the alkene (which leaves the mixture); capture by water is reversed under these conditions."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-03",
+  "d": 3,
+  "q": "The same alcohol, 3,3-dimethyl-2-butanol, is instead treated with POCl<sub>3</sub> in pyridine. What is the major product?",
+  "s": [
+   {
+    "smi": "CC(O)C(C)(C)C"
+   },
+   {
+    "arrow": "POCl<sub>3</sub>",
+    "below": "pyridine"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CC(C)(C)C"
+   },
+   {
+    "smi": "CC(C)=C(C)C"
+   },
+   {
+    "smi": "C=C(C)C(C)C"
+   },
+   {
+    "smi": "CC(Cl)C(C)(C)C"
+   }
+  ],
+  "h": "Does this reagent pair form a carbocation? Which β carbon still has hydrogens?",
+  "w": "POCl<sub>3</sub> converts OH into a dichlorophosphate leaving group, and pyridine removes a β H in a concerted E2 step. No carbocation forms, so no methyl shift is possible. The only β carbon with hydrogens is C1 (C3 is quaternary), so the product is <b>3,3-dimethyl-1-butene</b>.",
+  "x": [
+   "",
+   "2,3-Dimethyl-2-butene needs a methyl shift, which happens only via a carbocation (acid-catalyzed E1), not in this E2 reaction.",
+   "2,3-Dimethyl-1-butene also requires the rearranged skeleton, which a concerted E2 cannot give.",
+   "Pyridine is a base, and the phosphate ester is eliminated, not substituted; the alkyl chloride is not the main product."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-04",
+  "d": 3,
+  "q": "1-Cyclobutylethanol is heated with H<sub>2</sub>SO<sub>4</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "CC(O)C1CCC1"
+   },
+   {
+    "arrow": "H<sub>2</sub>SO<sub>4</sub>",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1=CCCC1"
+   },
+   {
+    "smi": "C=CC1CCC1"
+   },
+   {
+    "smi": "CC=C1CCC1"
+   },
+   {
+    "smi": "C1=CCCCC1"
+   }
+  ],
+  "h": "A carbocation next to a strained four-membered ring can relieve strain by an alkyl (ring bond) shift.",
+  "w": "Loss of water gives a 2° cation next to the cyclobutane. A ring C–C bond migrates to the cation carbon, expanding the ring to a less strained cyclopentyl cation; that carbon now carries the CH<sub>3</sub>. A hydride shift (or direct loss of the H on the methyl-bearing carbon) then gives the trisubstituted ring alkene <b>1-methylcyclopentene</b>.",
+  "x": [
+   "",
+   "Vinylcyclobutane is the unrearranged, monosubstituted alkene; ring expansion relieves strain and the product is more stable.",
+   "Ethylidenecyclobutane keeps the strained four-membered ring and an exocyclic C=C; the ring-expansion pathway wins.",
+   "Cyclohexene would need the CH<sub>3</sub> carbon to join the ring as well; ring expansion adds only one carbon (the cation carbon), giving a five-membered ring."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-05",
+  "d": 1,
+  "q": "Rank the alcohols by rate of acid-catalyzed dehydration (slowest → fastest).",
+  "s": [
+   {
+    "smi": "CCC(C)(C)O",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(C)C(C)O",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(C)CCO",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "III < II < I",
+   "I < II < III",
+   "II < III < I",
+   "III < I < II"
+  ],
+  "h": "The rate-determining step forms a carbocation. Which alcohol gives the most stable one?",
+  "w": "E1 dehydration is limited by loss of water to form the carbocation, so the rate follows carbocation stability: 3° > 2° > 1°. I is 3°, II is 2°, III is 1° (which reacts slowly, by an E2-like path). Order: <b>III < II < I</b>.",
+  "x": [
+   "",
+   "This is reversed; tertiary alcohols dehydrate fastest because they form the most stable carbocations.",
+   "The primary alcohol III is the slowest, not the secondary alcohol II.",
+   "The tertiary alcohol I is the fastest; 2° alcohol II is slower than I."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-06",
+  "d": 2,
+  "q": "The energy diagram is for the acid-catalyzed dehydration of 2-methyl-2-propanol. Which labeled point is the transition state of the rate-determining step?",
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     6,
+     -3,
+     23,
+     13,
+     16,
+     -6
+    ],
+    "tags": [
+     "",
+     "A",
+     "",
+     "B",
+     "C",
+     "D",
+     ""
+    ],
+    "labels": [
+     "alcohol + H<sub>3</sub>O<sup>+</sup>",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "alkene + H<sub>3</sub>O<sup>+</sup>"
+    ]
+   }
+  ],
+  "c": [
+   "Point B",
+   "Point C",
+   "Point A",
+   "Point D"
+  ],
+  "h": "Match each step: protonation of OH, loss of water, loss of a proton. Which barrier is highest?",
+  "w": "Step 1 (A) is fast protonation of the OH. Step 2 is loss of water to form the 3° carbocation; its transition state, <b>point B</b>, is the highest point, so this is the rate-determining step. C is the carbocation intermediate (a minimum), and D is the transition state for removal of the β proton.",
+  "x": [
+   "",
+   "C is an energy minimum, the carbocation intermediate, not a transition state.",
+   "A is the transition state for proton transfer to the OH, a fast step with a small barrier.",
+   "D is the transition state for loss of the β proton from the carbocation, which is fast compared with ionization."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-07",
+  "d": 2,
+  "q": "Why is an alcohol dehydrated with concentrated H<sub>2</sub>SO<sub>4</sub> or H<sub>3</sub>PO<sub>4</sub> rather than concentrated HBr?",
+  "c": [
+   "Bromide is a good nucleophile and traps the carbocation, giving an alkyl bromide",
+   "HBr is too weak an acid to protonate an alcohol",
+   "Bromide is a strong base that removes the β proton too slowly",
+   "HBr adds water to the alkene faster than H<sub>2</sub>SO<sub>4</sub> does"
+  ],
+  "h": "Compare the conjugate bases: what else can they do to a carbocation?",
+  "w": "Both acids form the same carbocation. HSO<sub>4</sub><sup>−</sup> and H<sub>2</sub>PO<sub>4</sub><sup>−</sup> are very poor nucleophiles, so the cation loses a proton (E1). <b>Br<sup>−</sup> is a good nucleophile and traps the carbocation</b>, so HBr converts alcohols into alkyl bromides (S<sub>N</sub>1/S<sub>N</sub>2), not alkenes.",
+  "x": [
+   "",
+   "HBr (pK<sub>a</sub> ≈ −9) is a very strong acid and protonates alcohols readily.",
+   "Br<sup>−</sup> is a very weak base; the problem is its nucleophilicity, not its basicity.",
+   "HBr does not hydrate alkenes; it adds H–Br across the C=C to give an alkyl bromide."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-08",
+  "d": 2,
+  "q": "Alkene hydration and alcohol dehydration are the reverse of each other. Which set of conditions best favors <b>dehydration</b> to the alkene?",
+  "s": [
+   {
+    "smi": "CC1(O)CCCCC1"
+   },
+   {
+    "arrow": "⇌"
+   },
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   "+",
+   {
+    "smi": "O"
+   }
+  ],
+  "c": [
+   "Concentrated acid, high temperature, distilling off the alkene as it forms",
+   "Dilute aqueous acid, low temperature, excess water",
+   "Concentrated acid, low temperature, excess water",
+   "Dilute aqueous acid, high temperature, a sealed flask"
+  ],
+  "h": "Use Le Châtelier: which side has more molecules, and how can you remove a product?",
+  "w": "Dehydration makes two molecules from one (ΔS > 0), so high temperature makes −TΔS more favorable. Concentrated acid supplies little water, and distilling the lower-boiling alkene removes a product. So <b>concentrated acid, heat, and removal of the alkene</b> drive the equilibrium to the right.",
+  "x": [
+   "",
+   "Dilute acid, low temperature and excess water are hydration conditions; they push the equilibrium toward the alcohol.",
+   "Excess water and low temperature both favor the alcohol, even with concentrated acid.",
+   "In a sealed flask with lots of water, the products cannot leave and water pushes the equilibrium back toward the alcohol."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-09",
+  "d": 3,
+  "q": "1-Bromo-2,2-dimethylpropane (neopentyl bromide) is heated with AgNO<sub>3</sub> in ethanol. What is the major alkene formed?",
+  "s": [
+   {
+    "smi": "CC(C)(C)CBr"
+   },
+   {
+    "arrow": "AgNO<sub>3</sub>",
+    "below": "CH<sub>3</sub>CH<sub>2</sub>OH, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "No alkene forms; this bromide has no β hydrogen"
+  ],
+  "cs": [
+   {
+    "smi": "CC=C(C)C"
+   },
+   {
+    "smi": "C=C(C)CC"
+   },
+   {
+    "smi": "C=CC(C)C"
+   },
+   null
+  ],
+  "h": "Ag<sup>+</sup> pulls off bromide. What does the developing primary cation do next to a quaternary carbon?",
+  "w": "Ag<sup>+</sup> forces ionization; as Br<sup>−</sup> leaves, a methyl group shifts from the quaternary carbon, giving the 3° 2-methyl-2-butyl cation (no free 1° cation forms). That cation loses a proton (E1) or is trapped by ethanol (S<sub>N</sub>1). The major alkene is the trisubstituted Zaitsev product, <b>2-methyl-2-butene</b>.",
+  "x": [
+   "",
+   "2-Methyl-1-butene also comes from the rearranged cation, but it is disubstituted and minor.",
+   "3-Methyl-1-butene has its C=C two carbons away from the 3° cation center; forming it would require further shifts to less stable 2° and 1° cations.",
+   "It is true that the starting bromide has no β H (so no direct E2), but after the methyl shift the 3° cation has β hydrogens and loses one."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-10",
+  "d": 1,
+  "q": "2-Chloro-2-methylbutane undergoes E1 when heated in ethanol. Which change would make this reaction faster?",
+  "c": [
+   "Using 2-bromo-2-methylbutane instead",
+   "Using 1-chloro-3-methylbutane instead",
+   "Using hexane as the solvent instead of ethanol",
+   "Using 2-chloro-3-methylbutane instead"
+  ],
+  "h": "The rate-determining step of E1 is ionization. What makes ionization easier?",
+  "w": "E1 rate = <i>k</i>[RX]; the slow step is C–X ionization to the carbocation. A better leaving group speeds this up, so <b>2-bromo-2-methylbutane</b> reacts faster (Br<sup>−</sup> is a weaker base and a better leaving group than Cl<sup>−</sup>).",
+  "x": [
+   "",
+   "1-Chloro-3-methylbutane is primary; a 1° carbocation is far too unstable, so it does not undergo E1.",
+   "Hexane is nonpolar and cannot stabilize the ions formed in the ionization step, so E1 would be much slower.",
+   "2-Chloro-3-methylbutane is secondary; its 2° carbocation forms more slowly than the 3° cation."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-11",
+  "d": 2,
+  "q": "Which statements about E1 and E2 reactions are true?<br>I. E2 normally requires the β H and the leaving group to be anti-periplanar.<br>II. The rate of an E1 reaction increases when the base concentration is doubled.<br>III. With small bases, both E1 and E2 usually give mainly the more substituted alkene.",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Write the rate law for each mechanism, and recall what the transition state of each needs.",
+  "w": "I is true: the anti-periplanar arrangement lets the C–H σ bond overlap with the C–X σ* orbital in the concerted step. II is false: E1 is first order, rate = <i>k</i>[RX]; the base acts only after the slow step. III is true: E1 goes through a carbocation that loses a proton to give the more stable alkene, and E2 with a small base gives the Zaitsev product. Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true: both pathways favor the Zaitsev alkene when the base is small.",
+   "Statement II is false; base is not in the E1 rate-determining step, so rate = <i>k</i>[RX].",
+   "Statement II is false; doubling the base does not change an E1 rate."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-12",
+  "d": 1,
+  "q": "Rank these C<sub>6</sub>H<sub>12</sub> alkenes from least stable to most stable.",
+  "s": [
+   {
+    "smi": "C/C=C/CCC",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(C)=C(C)C",
+    "cap": "II"
+   },
+   {
+    "smi": "C/C=C\\CCC",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "III < I < II",
+   "I < III < II",
+   "II < I < III",
+   "III < II < I"
+  ],
+  "h": "More alkyl groups on the C=C stabilize it; for disubstituted alkenes, compare cis and trans.",
+  "w": "Alkene stability increases with substitution (hyperconjugation, stronger sp<sup>2</sup>–sp<sup>3</sup> bonds), and trans beats cis because cis has steric strain between the groups. III is cis-disubstituted, I is trans-disubstituted, II is tetrasubstituted: <b>III < I < II</b>.",
+  "x": [
+   "",
+   "The cis isomer (III) is less stable than the trans isomer (I) because its alkyl groups crowd each other.",
+   "This is reversed; the tetrasubstituted alkene II is the most stable.",
+   "The tetrasubstituted alkene II is more stable than either disubstituted alkene."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-13",
+  "d": 2,
+  "q": "1-Butene, (<i>Z</i>)-2-butene and (<i>E</i>)-2-butene all hydrogenate to butane. Their heats of hydrogenation are −127, −120 and −116 kJ/mol (not in order). Which assignment is correct?",
+  "s": [
+   {
+    "smi": "C=CCC"
+   },
+   {
+    "smi": "C/C=C\\C"
+   },
+   {
+    "smi": "C/C=C/C"
+   },
+   {
+    "arrow": "H<sub>2</sub>, Pt"
+   },
+   {
+    "smi": "CCCC"
+   }
+  ],
+  "c": [
+   "1-butene −127; (<i>Z</i>)-2-butene −120; (<i>E</i>)-2-butene −116",
+   "1-butene −116; (<i>Z</i>)-2-butene −120; (<i>E</i>)-2-butene −127",
+   "1-butene −127; (<i>Z</i>)-2-butene −116; (<i>E</i>)-2-butene −120",
+   "1-butene −120; (<i>Z</i>)-2-butene −127; (<i>E</i>)-2-butene −116"
+  ],
+  "h": "All three give the same alkane, so the less stable alkene releases more heat.",
+  "w": "Because all three give the same product, differences in heat released reflect differences in alkene stability: the least stable alkene releases the most heat. Stability: monosubstituted < cis-disubstituted < trans-disubstituted. So <b>1-butene −127, (<i>Z</i>)-2-butene −120, (<i>E</i>)-2-butene −116 kJ/mol</b>; the <i>E</i> isomer is about 4 kJ/mol more stable than <i>Z</i>.",
+  "x": [
+   "",
+   "This gives the most heat to the most stable alkene; a more stable alkene sits lower in energy and releases less heat.",
+   "The cis isomer is less stable than the trans isomer, so it releases more heat, not less.",
+   "1-Butene, the least substituted alkene, is the least stable and releases the most heat."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-14",
+  "d": 2,
+  "q": "All four alkenes hydrogenate (H<sub>2</sub>, Pd) to methylcyclohexane. Which one releases the <b>least</b> heat?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "smi": "CC1CCCC=C1"
+   },
+   {
+    "smi": "CC1CCC=CC1"
+   },
+   {
+    "smi": "C=C1CCCCC1"
+   }
+  ],
+  "h": "Same product for all four, so the least heat comes from the most stable alkene.",
+  "w": "With a common product, the most stable alkene has the smallest heat of hydrogenation. <b>1-Methylcyclohexene</b> is trisubstituted; the others are disubstituted (3- and 4-methylcyclohexene) or a disubstituted exocyclic alkene (methylenecyclohexane), so 1-methylcyclohexene releases the least heat.",
+  "x": [
+   "",
+   "3-Methylcyclohexene is only disubstituted, so it is less stable and releases more heat than the trisubstituted isomer.",
+   "4-Methylcyclohexene is disubstituted and releases more heat than 1-methylcyclohexene.",
+   "Methylenecyclohexane is a disubstituted exocyclic alkene; it is less stable than 1-methylcyclohexene and releases more heat."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-15",
+  "d": 3,
+  "q": "Which alkyl bromide gives <b>no</b> E2 product when heated with (CH<sub>3</sub>)<sub>3</sub>COK?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "BrC12CCC(CC1)C2"
+   },
+   {
+    "smi": "BrC1CCCCC1"
+   },
+   {
+    "smi": "CC1(Br)CCCCC1"
+   },
+   {
+    "smi": "BrCC1CCCCC1"
+   }
+  ],
+  "h": "Every choice has β hydrogens. Where would the new C=C have to be, and can its p orbitals line up?",
+  "w": "<b>1-Bromobicyclo[2.2.1]heptane</b> has β hydrogens, but any C=C would have to include the bridgehead carbon. In a small bicyclic ring the bridgehead p orbital cannot overlap with its neighbor's (Bredt's rule), so no E2 occurs. The other three give cyclohexene, methylenecyclohexane (bulky base), and methylenecyclohexane respectively.",
+  "x": [
+   "",
+   "Bromocyclohexane has axial β H atoms anti to an axial Br in the ring-flipped chair, so it gives cyclohexene.",
+   "This 3° bromide eliminates readily; with tert-butoxide it gives mainly methylenecyclohexane.",
+   "This 1° bromide has one β H on the ring carbon; the bulky base favors E2 over S<sub>N</sub>2, giving methylenecyclohexane."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-16",
+  "d": 2,
+  "q": "The heats of hydrogenation of 2,3-dimethyl-1-butene and 2,3-dimethyl-2-butene are about −117 and −111 kJ/mol. Both give 2,3-dimethylbutane. What is ΔH for the isomerization below?",
+  "s": [
+   {
+    "smi": "C=C(C)C(C)C"
+   },
+   {
+    "arrow": "⇌"
+   },
+   {
+    "smi": "CC(C)=C(C)C"
+   }
+  ],
+  "c": [
+   "−6 kJ/mol",
+   "+6 kJ/mol",
+   "−228 kJ/mol",
+   "+228 kJ/mol"
+  ],
+  "h": "Build a Hess's-law cycle through the common alkane.",
+  "w": "1-ene → alkane: ΔH = −117; alkane → 2-ene is the reverse of the 2-ene's hydrogenation: ΔH = +111. Sum: −117 + 111 = <b>−6 kJ/mol</b>. The isomerization is exothermic because the tetrasubstituted alkene is more stable.",
+  "x": [
+   "",
+   "The sign is wrong: going to the more stable (tetrasubstituted) alkene releases energy.",
+   "Adding the two heats of hydrogenation double-counts; one of them must be reversed in the cycle.",
+   "This both adds the values and flips the sign; reverse only the second hydrogenation, then add."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-2-17",
+  "d": 2,
+  "q": "2-Butanol is heated with concentrated H<sub>2</sub>SO<sub>4</sub>. Which product is formed in the largest amount?",
+  "s": [
+   {
+    "smi": "CCC(C)O"
+   },
+   {
+    "arrow": "H<sub>2</sub>SO<sub>4</sub>",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C/C=C/C"
+   },
+   {
+    "smi": "C/C=C\\C"
+   },
+   {
+    "smi": "C=CCC"
+   },
+   {
+    "smi": "CCC(C)OC(C)CC"
+   }
+  ],
+  "h": "Through the carbocation, which C=C is most substituted, and which geometry has less strain?",
+  "w": "Loss of water gives the 2-butyl cation. Removing a C3 proton gives 2-butene (disubstituted), favored over 1-butene; of the two 2-butenes, the trans isomer has no cis steric strain. E1 picks the most stable alkene, so <b>(<i>E</i>)-2-butene</b> is major.",
+  "x": [
+   "",
+   "(<i>Z</i>)-2-Butene forms too, but the cis methyl groups make it less stable than the <i>E</i> isomer, so it is minor.",
+   "1-Butene is monosubstituted and least stable; it is a minor product of E1.",
+   "The ether forms when an alcohol attacks the cation at lower temperature; with heat, elimination dominates."
+  ],
+  "t": "elim",
+  "k": 0
+ }
+]

@@ -1,0 +1,478 @@
+[
+ {
+  "id": "radical-16",
+  "d": 3,
+  "q": "Use the bond dissociation energies in the table. What is ΔH for the overall reaction CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub> + Cl<sub>2</sub> → (CH<sub>3</sub>)<sub>2</sub>CHCl + HCl, obtained by adding the two propagation steps?",
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Bond",
+     "BDE (kJ/mol)"
+    ],
+    "rows": [
+     [
+      "(CH<sub>3</sub>)<sub>2</sub>CH–H",
+      "413"
+     ],
+     [
+      "H–Cl",
+      "431"
+     ],
+     [
+      "H–Br",
+      "366"
+     ],
+     [
+      "Cl–Cl",
+      "242"
+     ],
+     [
+      "Br–Br",
+      "193"
+     ],
+     [
+      "(CH<sub>3</sub>)<sub>2</sub>CH–Cl",
+      "354"
+     ],
+     [
+      "(CH<sub>3</sub>)<sub>2</sub>CH–Br",
+      "299"
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "−130 kJ/mol",
+   "−18 kJ/mol",
+   "−112 kJ/mol",
+   "+130 kJ/mol"
+  ],
+  "h": "Write the two propagation steps, find ΔH = (bonds broken) − (bonds formed) for each, and add them.",
+  "w": "Step 1: Cl• + C–H → H–Cl + R•, ΔH = 413 − 431 = −18 kJ/mol. Step 2: R• + Cl–Cl → R–Cl + Cl•, ΔH = 242 − 354 = −112 kJ/mol. Sum = <b>−130 kJ/mol</b>. The same value comes from the net equation: broken C–H + Cl–Cl (655) minus formed H–Cl + C–Cl (785). Both chlorination steps are exothermic, which is why chlorination is fast and unselective.",
+  "x": [
+   "",
+   "−18 kJ/mol is only the first propagation step (H abstraction).",
+   "−112 kJ/mol is only the second propagation step (Cl transfer from Cl<sub>2</sub>).",
+   "Sign error: bonds formed (785) are stronger than bonds broken (655), so energy is released and ΔH is negative."
+  ],
+  "t": "radical",
+  "k": 0
+ },
+ {
+  "id": "radical-17",
+  "d": 2,
+  "q": "Methylenecyclohexane is treated with NBS and light. Which pair of constitutional isomers forms?",
+  "s": [
+   {
+    "smi": "C=C1CCCCC1"
+   },
+   {
+    "arrow": "NBS",
+    "below": "hν, CCl<sub>4</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "1-(Bromomethyl)cyclohexene and 1-bromo-2-methylidenecyclohexane",
+   "1-Bromo-1-methylcyclohexane and (bromomethyl)cyclohexane",
+   "1-Bromo-2-methylidenecyclohexane and 3-bromo-1-methylcyclohexene",
+   "1-(Bromomethyl)cyclohexene and 1-bromo-1-(bromomethyl)cyclohexane"
+  ],
+  "h": "Find the allylic hydrogens, draw the allylic radical, and draw its resonance form. Each radical carbon can take Br.",
+  "w": "The allylic H are on the ring CH<sub>2</sub> groups next to C1 (C2 and C6 are equivalent). Removing one gives a radical delocalized between ring C2 and the exocyclic CH<sub>2</sub>: Br at C2 gives 1-bromo-2-methylidenecyclohexane; Br at the exocyclic carbon (allylic shift, C=C moves into the ring) gives 1-(bromomethyl)cyclohexene. <b>Those two products form</b>; the shifted product has the more substituted (trisubstituted) alkene.",
+  "x": [
+   "",
+   "These are HBr-addition products (saturated). NBS substitutes an allylic H and keeps a C=C in the product.",
+   "3-Bromo-1-methylcyclohexene would need a radical at C3 of 1-methylcyclohexene, which is not formed from this starting alkene; the radical here is spread over ring C2 and the CH<sub>2</sub> carbon only.",
+   "A dibromide with the C=C gone is a Br<sub>2</sub>-addition product, which the low Br<sub>2</sub> concentration from NBS suppresses."
+  ],
+  "t": "radical",
+  "k": 0
+ },
+ {
+  "id": "radical-18",
+  "d": 3,
+  "q": "(<i>E</i>)-Pent-2-ene is treated with 1 equiv of NBS and light. Ignoring stereoisomers, what is the major product?",
+  "s": [
+   {
+    "smi": "C/C=C/CC"
+   },
+   {
+    "arrow": "NBS",
+    "below": "hν, CCl<sub>4</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "4-Bromopent-2-ene (formed as a mixture of its stereoisomers)",
+   "1-Bromopent-2-ene, because the CH<sub>3</sub> group has more allylic H (3 vs 2)",
+   "A 1:1 mixture of 1-bromopent-2-ene and 3-bromopent-1-ene",
+   "2,3-Dibromopentane"
+  ],
+  "h": "There are two sets of allylic H. Which gives the more stable allylic radical, and are the two ends of that radical different?",
+  "w": "Allylic H are on C1 (CH<sub>3</sub>, would give a 1° allylic radical) and C4 (CH<sub>2</sub>, gives a 2° allylic radical). Br• removes the C4 H because the radical is more stable. That radical, CH<sub>3</sub>–CH=CH–CH•–CH<sub>3</sub> ↔ CH<sub>3</sub>–CH•–CH=CH–CH<sub>3</sub>, is symmetric: both ends are CH next to a CH<sub>3</sub>. Br at either end gives the same constitution, <b>4-bromopent-2-ene</b> (as stereoisomers: a stereocenter and E/Z).",
+  "x": [
+   "",
+   "Statistics (3 H vs 2 H) are outweighed by radical stability; a 2° allylic C–H is clearly weaker than a 1° allylic C–H, and Br• is selective.",
+   "These two products come from the C1 (1° allylic) radical, which is the minor pathway.",
+   "A vicinal dibromide comes from Br<sub>2</sub> addition, which NBS suppresses by keeping Br<sub>2</sub> very low."
+  ],
+  "t": "radical",
+  "k": 0
+ },
+ {
+  "id": "radical-19",
+  "d": 1,
+  "q": "Radical polymerization of which monomer gives the polymer with repeat unit –[CH<sub>2</sub>–CH(CN)]<sub><i>n</i></sub>–?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CC#N"
+   },
+   {
+    "smi": "CCC#N"
+   },
+   {
+    "smi": "C=C(C)C#N"
+   },
+   {
+    "smi": "N#CC=CC#N"
+   }
+  ],
+  "h": "In chain-growth polymerization the C=C becomes the backbone; every other atom of the monomer becomes a side group.",
+  "w": "Each monomer adds through its C=C, which becomes two backbone carbons; substituents on those carbons become side groups. –[CH<sub>2</sub>–CH(CN)]– comes from CH<sub>2</sub>=CH–CN, <b>acrylonitrile</b> (polyacrylonitrile, used in acrylic fibers).",
+  "x": [
+   "",
+   "Propanenitrile has no C=C, so it cannot undergo chain-growth radical polymerization.",
+   "Methacrylonitrile would give –[CH<sub>2</sub>–C(CH<sub>3</sub>)(CN)]–, with an extra methyl on every other carbon.",
+   "A CN on both alkene carbons would give –[CH(CN)–CH(CN)]–, with a nitrile on every backbone carbon."
+  ],
+  "t": "radical",
+  "k": 0
+ },
+ {
+  "id": "radical-20",
+  "d": 2,
+  "q": "During radical polymerization of styrene, where does the growing chain radical add to a styrene molecule, and why?",
+  "s": [
+   {
+    "smi": "C=Cc1ccccc1"
+   }
+  ],
+  "c": [
+   "To the CH<sub>2</sub> carbon, because the new radical is benzylic and resonance-stabilized",
+   "To the CH carbon, because that carbon is less hindered",
+   "To the CH carbon, because the new radical is primary and more reactive toward the next monomer",
+   "To an aromatic ring carbon, because the ring has the most π electrons"
+  ],
+  "h": "Compare the two radicals you could make by adding to either end of the C=C.",
+  "w": "Adding R• to the CH<sub>2</sub> end leaves the odd electron on the carbon bearing the phenyl group, a benzylic radical delocalized into the ring. Adding to the CH end would give an unstabilized 1° radical. So addition occurs <b>at CH<sub>2</sub>, giving the benzylic radical</b>, and the chain grows head-to-tail with phenyl groups on alternating carbons.",
+  "x": [
+   "",
+   "The CH carbon carries the phenyl group, so it is the more hindered end, and attack there gives a poorly stabilized 1° radical.",
+   "Chain growth follows the more stable radical (lower E<sub>a</sub>), not the more reactive one; a 1° radical is formed much more slowly.",
+   "Adding to the ring would destroy aromaticity; the vinyl C=C is far more reactive toward radicals."
+  ],
+  "t": "radical",
+  "k": 0
+ },
+ {
+  "id": "radical-21",
+  "d": 2,
+  "q": "A small amount of a thiol (RSH) is added to the radical polymerization of styrene. The polymer still forms at nearly the same rate, but its average molar mass is much lower. What explains this?",
+  "c": [
+   "A growing chain radical abstracts H from S–H, ending that chain, and RS• starts a new chain.",
+   "RSH combines with two growing chain radicals at once, stopping polymerization.",
+   "RSH adds across the C=C of styrene and turns monomer into an unreactive sulfide.",
+   "RSH breaks into H• and RS• on its own, adding more initiator and speeding up the reaction."
+  ],
+  "h": "The number of radicals stays about the same, yet each chain is shorter. Which process ends one chain and immediately starts another?",
+  "w": "This is <b>chain transfer</b>: P• + RS–H → P–H + RS•. The weak S–H bond gives up its H, so the growing chain stops, but the radical count is unchanged because RS• adds to styrene and starts a new chain. More, shorter chains form at about the same overall rate. Thiols are used as chain-transfer agents to control molar mass.",
+  "x": [
+   "",
+   "Removing radicals (termination) would slow the polymerization; the observation is that the rate hardly changes.",
+   "Converting monomer to an inert compound would lower yield, not specifically shorten each chain; the small amount of thiol works catalytically through its S–H bond.",
+   "Extra initiation would speed up the reaction; here the rate is nearly unchanged. RSH does not undergo homolysis on its own under these conditions."
+  ],
+  "t": "radical",
+  "k": 0
+ },
+ {
+  "id": "radical-22",
+  "d": 3,
+  "q": "Polyethylene made by high-pressure radical polymerization has many short branches (mostly butyl groups). Which process creates these branches?",
+  "c": [
+   "The chain-end radical abstracts an H from the CH<sub>2</sub> five carbons back on its own chain, and the new mid-chain radical adds more ethylene.",
+   "The chain-end radical adds to the CH<sub>2</sub> carbon of a butene impurity, which then copolymerizes.",
+   "Two chain-end radicals combine head-to-head, forming a branch at the junction.",
+   "The chain-end radical rearranges by a 1,2-methyl shift to a more stable 2° radical."
+  ],
+  "h": "A primary chain-end radical can become a more stable 2° radical without adding monomer. Which kind of intramolecular step does that, and why would it favor a four-carbon branch?",
+  "w": "This is intramolecular chain transfer (\"backbiting\"). The 1° chain-end radical reaches back through a six-membered cyclic transition state and abstracts an H from the CH<sub>2</sub> five carbons away (a 1,5-H shift), giving a more stable 2° radical within the chain. Ethylene then adds at that site, so the four carbons past it become a <b>butyl branch</b>. Intermolecular H transfer between chains gives the long branches.",
+  "x": [
+   "",
+   "Butyl branches form in pure ethylene polymerization; they come from the chain itself, not from an impurity.",
+   "Combination of two radicals is termination: it joins two chains end-to-end into a linear chain, not a branched one.",
+   "A polyethylene chain end has no methyl group to shift, and 1,2-shifts are typical of carbocations, not radicals."
+  ],
+  "t": "radical",
+  "k": 0
+ },
+ {
+  "id": "radical-23",
+  "d": 1,
+  "q": "Di-<i>tert</i>-butyl peroxide is used as a radical initiator. Which bond breaks homolytically when it is heated?",
+  "s": [
+   {
+    "smi": "CC(C)(C)OOC(C)(C)C"
+   }
+  ],
+  "c": [
+   "The O–O bond",
+   "A C–O bond",
+   "A C–H bond",
+   "A C–C bond"
+  ],
+  "h": "Initiators contain one unusually weak bond.",
+  "w": "The O–O bond of a peroxide is very weak (about 155 kJ/mol), far weaker than C–O, C–H or C–C bonds (about 350–420 kJ/mol). Heating breaks <b>the O–O bond</b> homolytically to give two (CH<sub>3</sub>)<sub>3</sub>CO• radicals, which start the chain.",
+  "x": [
+   "",
+   "C–O bonds are much stronger than the peroxide O–O bond, so they do not break at typical initiation temperatures.",
+   "C–H bonds are strong (about 400 kJ/mol or more); they are broken later by radicals in propagation, not in initiation.",
+   "C–C bonds are strong (about 350 kJ/mol); the initiator is designed with a much weaker bond elsewhere that breaks first."
+  ],
+  "t": "radical",
+  "k": 0
+ },
+ {
+  "id": "radical-24",
+  "d": 2,
+  "q": "Ethane is chlorinated with Cl<sub>2</sub> and light. A trace of which product can form <b>only</b> by a termination step?",
+  "s": [
+   {
+    "smi": "CC"
+   },
+   {
+    "arrow": "Cl<sub>2</sub>, hν"
+   },
+   "products"
+  ],
+  "c": [
+   "Butane",
+   "Chloroethane",
+   "1,1-Dichloroethane",
+   "Hydrogen chloride"
+  ],
+  "h": "Which product needs two carbon radicals to meet each other?",
+  "w": "Termination joins two radicals. Two ethyl radicals combine: 2 CH<sub>3</sub>CH<sub>2</sub>• → CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>. <b>Butane</b> contains a new C–C bond that no propagation step can make, so traces of it are evidence for the radical chain mechanism. Chloroethane and HCl come from propagation; 1,1-dichloroethane comes from further propagation on chloroethane.",
+  "x": [
+   "",
+   "Chloroethane forms mainly in the propagation step CH<sub>3</sub>CH<sub>2</sub>• + Cl<sub>2</sub> → CH<sub>3</sub>CH<sub>2</sub>Cl + Cl•.",
+   "1,1-Dichloroethane forms when chloroethane goes through the same propagation steps again (polychlorination).",
+   "HCl forms in every first propagation step, Cl• + C–H → H–Cl + C•."
+  ],
+  "t": "radical",
+  "k": 0
+ },
+ {
+  "id": "radical-25",
+  "d": 3,
+  "k": 1,
+  "q": "Methylcyclohexane is monochlorinated with Cl<sub>2</sub> and light at 25 °C. Using relative rates per H of 1° : 2° : 3° = 1 : 3.8 : 5, what percentage of the product is 1-chloro-1-methylcyclohexane?",
+  "s": [
+   {
+    "smi": "CC1CCCCC1"
+   },
+   {
+    "arrow": "Cl<sub>2</sub>, hν",
+    "below": "25 °C"
+   },
+   "monochlorides"
+  ],
+  "c": [
+   "11%",
+   "51%",
+   "7.1%",
+   "33%"
+  ],
+  "h": "Count every H as 1°, 2° or 3° (there are 14 H). Weight each class by its rate, then find the 3° share.",
+  "w": "Methylcyclohexane has 3 primary H (CH<sub>3</sub>), 1 tertiary H (C1) and 10 secondary H (five ring CH<sub>2</sub> groups). Weighted amounts: 1°: 3 × 1 = 3; 2°: 10 × 3.8 = 38; 3°: 1 × 5 = 5. Total = 46. 1-Chloro-1-methylcyclohexane = 5/46 = <b>11%</b>. The many 2° H swamp the single more reactive 3° H.",
+  "x": [
+   "",
+   "51% is 5/(1 + 3.8 + 5), which uses the rates but not the number of each kind of H.",
+   "7.1% is 1/14, the purely statistical share that ignores the higher reactivity of a 3° H.",
+   "33% (15.2/46) is the share of 1-chloro-2-methylcyclohexane (the four C2/C6 H), not of the 3° chloride."
+  ],
+  "t": "radical"
+ },
+ {
+  "id": "radical-26",
+  "d": 2,
+  "k": 1,
+  "q": "Chlorination of propane with Cl<sub>2</sub> and light gives 1-chloropropane and 2-chloropropane in a 45 : 55 ratio. What is the reactivity of a secondary H relative to a primary H (per hydrogen)?",
+  "s": [
+   {
+    "smi": "CCC"
+   },
+   {
+    "arrow": "Cl<sub>2</sub>, hν"
+   },
+   {
+    "smi": "ClCCC"
+   },
+   "+",
+   {
+    "smi": "CC(C)Cl"
+   }
+  ],
+  "c": [
+   "3.7",
+   "1.2",
+   "0.41",
+   "7.3"
+  ],
+  "h": "Divide each product amount by the number of hydrogens that lead to it, then take the ratio.",
+  "w": "Propane has 6 primary H (giving 1-chloropropane) and 2 secondary H (giving 2-chloropropane). Per H: primary 45/6 = 7.5; secondary 55/2 = 27.5. Ratio 2° : 1° = 27.5/7.5 = <b>3.7</b>.",
+  "x": [
+   "",
+   "1.2 is 55/45, the product ratio without correcting for 6 primary vs 2 secondary H.",
+   "0.41 corrects the wrong way (55/45 × 2/6); the product from the fewer H must be divided by the smaller number.",
+   "7.3 divides only the primary amount by 6 and forgets to divide the secondary amount by 2."
+  ],
+  "t": "radical"
+ },
+ {
+  "id": "radical-27",
+  "d": 3,
+  "q": "Which sequence converts 2-methylbutane into 2-methylbut-2-ene as the major product with the best selectivity?",
+  "s": [
+   {
+    "smi": "CC(C)CC"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC=C(C)C"
+   }
+  ],
+  "c": [
+   "1. Br<sub>2</sub>, hν  2. NaOCH<sub>2</sub>CH<sub>3</sub>, CH<sub>3</sub>CH<sub>2</sub>OH, heat",
+   "1. Cl<sub>2</sub>, hν  2. NaOCH<sub>2</sub>CH<sub>3</sub>, CH<sub>3</sub>CH<sub>2</sub>OH, heat",
+   "1. Br<sub>2</sub>, hν  2. KOC(CH<sub>3</sub>)<sub>3</sub>, (CH<sub>3</sub>)<sub>3</sub>COH, heat",
+   "1. NBS, hν, CCl<sub>4</sub>  2. NaOCH<sub>2</sub>CH<sub>3</sub>, CH<sub>3</sub>CH<sub>2</sub>OH, heat"
+  ],
+  "h": "Step 1 must put the halogen on one specific carbon; step 2 must remove H to give the more substituted alkene.",
+  "w": "Br<sub>2</sub>/hν is highly selective for the 3° C–H, giving mainly 2-bromo-2-methylbutane. A small, unhindered base (ethoxide) then performs Zaitsev E2 to give the trisubstituted alkene, 2-methylbut-2-ene. <b>Br<sub>2</sub>, hν, then NaOEt</b> is the best route.",
+  "x": [
+   "",
+   "Cl<sub>2</sub> is unselective and gives a mixture of four monochlorides (only about 23% 3°), so many alkenes would form.",
+   "tert-Butoxide is bulky and gives mainly the Hofmann product, 2-methylbut-1-ene, from the 3° bromide.",
+   "NBS brominates allylic or benzylic positions; an alkane has no allylic H, so NBS is not the right reagent for this step."
+  ],
+  "t": "radical",
+  "k": 0
+ },
+ {
+  "id": "radical-28",
+  "d": 2,
+  "q": "What is the major organic product?",
+  "s": [
+   {
+    "smi": "CCc1ccccc1"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "hν"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(Br)c1ccccc1"
+   },
+   {
+    "smi": "BrCCc1ccccc1"
+   },
+   {
+    "smi": "CCc1ccc(Br)cc1"
+   },
+   {
+    "smi": "CCc1ccccc1Br"
+   }
+  ],
+  "h": "Light means radicals. Which C–H bond in ethylbenzene gives the most stable radical?",
+  "w": "Under radical conditions Br• removes the weakest C–H bond, the benzylic C–H (about 356 kJ/mol), giving a resonance-stabilized secondary benzylic radical. Br<sub>2</sub> then delivers Br to that carbon: <b>(1-bromoethyl)benzene</b>, formed racemic because the planar radical reacts on both faces.",
+  "x": [
+   "",
+   "The terminal CH<sub>3</sub> gives a 1° radical that is not benzylic; that C–H bond is much stronger.",
+   "Ring bromination is electrophilic aromatic substitution and needs a Lewis acid such as FeBr<sub>3</sub>, not light.",
+   "Ortho ring bromination also requires FeBr<sub>3</sub> (electrophilic substitution); hν leads to radical substitution at the benzylic carbon."
+  ],
+  "t": "radical",
+  "k": 0
+ },
+ {
+  "id": "radical-29",
+  "d": 3,
+  "q": "<i>cis</i>-1,2-Dimethylcyclohexane (a meso compound) is treated with Br<sub>2</sub> and light. Which statement best describes the 1-bromo-1,2-dimethylcyclohexane formed?",
+  "s": [
+   {
+    "smi": "C[C@H]1CCCC[C@H]1C"
+   },
+   {
+    "arrow": "Br<sub>2</sub>, hν"
+   },
+   "?"
+  ],
+  "c": [
+   "Two diastereomers (Br <i>cis</i> or <i>trans</i> to the C2 methyl), each formed as a racemic mixture",
+   "One <i>meso</i> compound, because the starting alkane is <i>meso</i>",
+   "Two diastereomers, each formed as a single enantiomer, because C2 keeps its configuration",
+   "One diastereomer, as a racemic mixture, because Br always adds <i>trans</i> to the C2 methyl"
+  ],
+  "h": "Which H is removed? Look at the two tertiary H: how are they related in a meso compound? Then ask what the planar radical can do.",
+  "w": "Br• removes a 3° H (on C1 or C2). In the meso alkane those two H are enantiotopic, so they react at the same rate, giving enantiomeric radicals in equal amounts. Each planar radical takes Br from either face, so Br ends up <i>cis</i> or <i>trans</i> to the remaining methyl-bearing stereocenter: two diastereomers, and because the two radicals are mirror images, each diastereomer forms as a 1:1 pair of enantiomers. Answer: <b>two diastereomers, each racemic</b>. (The product is chiral; it has no internal mirror plane.)",
+  "x": [
+   "",
+   "1-Bromo-1,2-dimethylcyclohexane has two different stereocenters (C1 bears Br, C2 bears H), so no stereoisomer of it is meso.",
+   "C2 keeps its configuration within one radical, but the H at C1 and the H at C2 are mirror-image (enantiotopic) and react equally, so every product forms together with its enantiomer.",
+   "Neither face of the radical is fully blocked; both diastereomers form, though not necessarily in equal amounts."
+  ],
+  "t": "radical",
+  "k": 0
+ },
+ {
+  "id": "radical-30",
+  "d": 2,
+  "q": "Radical iodination of alkanes (I<sub>2</sub>, hν) does not occur to a useful extent. Given BDEs of (CH<sub>3</sub>)<sub>2</sub>CH–H = 413, H–I = 297, I–I = 151 and (CH<sub>3</sub>)<sub>2</sub>CH–I = 234 kJ/mol, what is the main reason?",
+  "c": [
+   "H abstraction by I• is endothermic by about 116 kJ/mol, so this propagation step is too slow to sustain a chain.",
+   "The I–I bond is too strong to be broken by light, so no I• forms.",
+   "Transfer of I from I<sub>2</sub> to the alkyl radical is endothermic by about 83 kJ/mol.",
+   "I• is so reactive that it abstracts every kind of H equally and gives only mixtures."
+  ],
+  "h": "Calculate ΔH for each propagation step. Which one is the problem?",
+  "w": "Step 1: I• + R–H → H–I + R•, ΔH = 413 − 297 = +116 kJ/mol, steeply uphill, so E<sub>a</sub> is at least 116 kJ/mol and the step is far too slow for a chain. Step 2: R• + I–I → R–I + I•, ΔH = 151 − 234 = −83 kJ/mol, which is fine. <b>The endothermic H-abstraction step</b> stops iodination.",
+  "x": [
+   "",
+   "I–I (151 kJ/mol) is the weakest of the halogen–halogen bonds, so visible light splits it easily; initiation is not the problem.",
+   "Sign error: ΔH = 151 − 234 = −83 kJ/mol; the iodine-transfer step is exothermic.",
+   "I• is the least reactive halogen atom; the problem is too little reactivity, not too much."
+  ],
+  "t": "radical",
+  "k": 0
+ }
+]

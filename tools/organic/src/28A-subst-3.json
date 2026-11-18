@@ -1,0 +1,556 @@
+[
+ {
+  "id": "subst-35",
+  "t": "subst",
+  "q": "1-Bromo-3-chloropropane is treated with <b>one</b> equivalent of NaCN in DMSO. What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Both carbons bearing halogens are primary. What differs between the two leaving groups?",
+  "w": "Both C–X carbons are primary and equally unhindered, so selectivity comes from the leaving group. Br<sup>−</sup> is a weaker base and a better leaving group than Cl<sup>−</sup>, so with one equivalent of cyanide the C–Br carbon reacts first (S<sub>N</sub>2): <b>4-chlorobutanenitrile</b>.",
+  "x": [
+   "",
+   "B would require displacing chloride while leaving the better leaving group, bromide, in place.",
+   "C needs two equivalents of cyanide; with one equivalent, the faster C–Br displacement dominates.",
+   "D would require deprotonating the CH<sub>2</sub> next to the nitrile (pK<sub>a</sub> ≈ 31) and closing a ring; cyanide is far too weak a base for that."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "ClCCCBr"
+   },
+   {
+    "arrow": "NaCN (1 equiv)",
+    "below": "DMSO"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "N#CCCCCl"
+   },
+   {
+    "smi": "N#CCCCBr"
+   },
+   {
+    "smi": "N#CCCCC#N"
+   },
+   {
+    "smi": "N#CC1CC1"
+   }
+  ]
+ },
+ {
+  "id": "subst-36",
+  "t": "subst",
+  "q": "(<i>R</i>)-1,3-Dibromobutane is treated with <b>one</b> equivalent of NaN<sub>3</sub> in DMF at 25 °C. What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Same leaving group at both sites: compare the steric environment. Then ask whether the stereocenter is touched.",
+  "w": "Both carbons carry Br, so sterics decide: S<sub>N</sub>2 at the primary C1 is much faster than at the secondary C3. With one equivalent of azide, the product is the primary azide. The stereocenter C3 is not attacked, so it keeps its configuration, and the priority order (Br > CH<sub>2</sub>CH<sub>2</sub>X > CH<sub>3</sub> > H) is unchanged: <b>(<i>R</i>)-1-azido-3-bromobutane</b>.",
+  "x": [
+   "",
+   "This is substitution at the secondary carbon (with inversion). The primary CH<sub>2</sub>Br is less hindered and reacts much faster.",
+   "C puts azide at the secondary carbon with retention, which is wrong on both counts: wrong site, and S<sub>N</sub>2 would invert.",
+   "D needs two equivalents of azide; with one, the faster primary displacement dominates."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C[C@@H](Br)CCBr"
+   },
+   {
+    "arrow": "NaN<sub>3</sub> (1 equiv)",
+    "below": "DMF, 25 °C"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "C[C@@H](Br)CCN=[N+]=[N-]"
+   },
+   {
+    "smi": "C[C@H](N=[N+]=[N-])CCBr"
+   },
+   {
+    "smi": "C[C@@H](N=[N+]=[N-])CCBr"
+   },
+   {
+    "smi": "C[C@H](N=[N+]=[N-])CCN=[N+]=[N-]"
+   }
+  ]
+ },
+ {
+  "id": "subst-37",
+  "t": "subst",
+  "q": "Which combination is the best way to prepare 2-methoxy-2-methylpropane (<i>tert</i>-butyl methyl ether) by a Williamson ether synthesis?",
+  "c": [
+   "(CH<sub>3</sub>)<sub>3</sub>CO<sup>−</sup> K<sup>+</sup> + CH<sub>3</sub>I",
+   "CH<sub>3</sub>O<sup>−</sup> Na<sup>+</sup> + (CH<sub>3</sub>)<sub>3</sub>CBr",
+   "CH<sub>3</sub>OH + (CH<sub>3</sub>)<sub>3</sub>CBr in the presence of NaOH",
+   "CH<sub>3</sub>O<sup>−</sup> Na<sup>+</sup> + (CH<sub>3</sub>)<sub>3</sub>COH"
+  ],
+  "h": "The Williamson synthesis is S<sub>N</sub>2. Which carbon must be the electrophile?",
+  "w": "The alkoxide attacks the alkyl halide by S<sub>N</sub>2, so the halide should be methyl or primary. Putting the bulky group on the alkoxide and the methyl on the halide gives clean substitution: <b>(CH<sub>3</sub>)<sub>3</sub>CO<sup>−</sup> + CH<sub>3</sub>I</b>. CH<sub>3</sub>I has no β-hydrogens, so elimination is impossible.",
+  "x": [
+   "",
+   "A tertiary bromide cannot undergo S<sub>N</sub>2; methoxide acts as a base and gives 2-methylpropene by E2.",
+   "Hydroxide with a tertiary bromide again gives mainly E2 alkene; and neutral methanol is a weak nucleophile.",
+   "An alcohol has no leaving group; HO<sup>−</sup> cannot be displaced by methoxide."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "subst-38",
+  "t": "subst",
+  "q": "A student makes butan-1-amine from 1-bromobutane by the route shown instead of heating 1-bromobutane with NH<sub>3</sub>. What is the main advantage of the azide route?",
+  "c": [
+   "Azide adds only once, so no di- or trialkylated amines form",
+   "Azide is a stronger base than ammonia, so it suppresses elimination",
+   "The azide route forms a carbocation, which speeds the reaction",
+   "Ammonia would give the product with inverted configuration, but azide gives retention"
+  ],
+  "h": "What happens to butan-1-amine once it forms in the presence of more 1-bromobutane?",
+  "w": "With NH<sub>3</sub>, the product amine is itself a good nucleophile (often better than NH<sub>3</sub>) and reacts with more alkyl halide, giving a mixture of primary, secondary and tertiary amines and even the ammonium salt. The alkyl azide formed with N<sub>3</sub><sup>−</sup> is not nucleophilic, so it stops cleanly after one alkylation, and LiAlH<sub>4</sub> then reduces it to the primary amine. <b>No overalkylation</b>.",
+  "x": [
+   "",
+   "Azide is a weak base (HN<sub>3</sub> pK<sub>a</sub> ≈ 4.7), and the point is not basicity; it is that the azide product cannot alkylate again.",
+   "Both routes are S<sub>N</sub>2 at a primary carbon; no carbocation forms.",
+   "The substrate carbon (CH<sub>2</sub>) is not a stereocenter, and both nucleophiles would react by S<sub>N</sub>2 with inversion anyway."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCCCBr"
+   },
+   {
+    "arrow": "1. NaN<sub>3</sub>, DMSO",
+    "below": "2. LiAlH<sub>4</sub>; 3. H<sub>2</sub>O"
+   },
+   {
+    "smi": "CCCCN"
+   }
+  ]
+ },
+ {
+  "id": "subst-39",
+  "t": "subst",
+  "q": "1-Chlorobutane is heated with NaI in acetone. Why does this reaction go nearly to completion?",
+  "c": [
+   "NaCl is insoluble in acetone and precipitates, pulling the equilibrium toward 1-iodobutane",
+   "The C–I bond is much stronger than the C–Cl bond",
+   "I<sup>−</sup> is a stronger base than Cl<sup>−</sup>",
+   "Acetone protonates the chloride, making it a better leaving group"
+  ],
+  "h": "Both halides are good leaving groups, so the substitution is reversible. What else is happening in the flask?",
+  "w": "Iodide and chloride can displace each other, so the reaction itself is an equilibrium. NaI dissolves in acetone but NaCl does not; as NaCl precipitates, Le Châtelier's principle drives the reaction to the right. <b>Precipitation of NaCl</b> makes this Finkelstein reaction useful.",
+  "x": [
+   "",
+   "The C–I bond is weaker than the C–Cl bond, which would push the equilibrium the other way.",
+   "Iodide is a weaker base than chloride (HI is the stronger acid); its strength here is nucleophilicity, not basicity.",
+   "Acetone is aprotic and not acidic; it cannot protonate chloride."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CCCCCl"
+   },
+   {
+    "arrow": "NaI",
+    "below": "acetone"
+   },
+   {
+    "smi": "CCCCI"
+   },
+   "+",
+   "NaCl(s)"
+  ]
+ },
+ {
+  "id": "subst-40",
+  "t": "subst",
+  "q": "5-Bromopentanoic acid is stirred with NaHCO<sub>3</sub> in dilute solution. What organic product forms?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "NaHCO<sub>3</sub> deprotonates the carboxylic acid. Count the atoms between the carboxylate oxygen and the C–Br carbon.",
+  "w": "Bicarbonate converts the acid to a carboxylate, a modest nucleophile. Its oxygen attacks C5 in an intramolecular S<sub>N</sub>2. The ring contains O, C1, C2, C3, C4 and C5: six atoms, so the product is the six-membered lactone <b>oxan-2-one (δ-valerolactone)</b>. Dilution favors the intramolecular reaction over intermolecular ester formation.",
+  "x": [
+   "",
+   "This is a seven-membered lactone; that would need one more CH<sub>2</sub> in the chain.",
+   "This is a five-membered lactone; it would need the oxygen to attack C4, which has no leaving group.",
+   "This is the hydroxy acid from substitution by water or hydroxide. Bicarbonate is not HO<sup>−</sup>, and the intramolecular carboxylate is much closer to the electrophilic carbon."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "OC(=O)CCCCBr"
+   },
+   {
+    "arrow": "NaHCO<sub>3</sub>",
+    "below": "H<sub>2</sub>O (dilute)"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "O=C1CCCCO1"
+   },
+   {
+    "smi": "O=C1CCCCCO1"
+   },
+   {
+    "smi": "O=C1CCCO1"
+   },
+   {
+    "smi": "OCCCCC(=O)O"
+   }
+  ]
+ },
+ {
+  "id": "subst-41",
+  "t": "subst",
+  "q": "Each ω-bromoalkylamine is warmed in dilute solution and cyclizes by intramolecular S<sub>N</sub>2. Which cyclizes <b>fastest</b>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Ring closure rates balance ring strain in the transition state against how often the two ends of the chain meet.",
+  "w": "Intramolecular S<sub>N</sub>2 rates depend on ring size. Five-membered rings close fastest: little strain, and the chain ends meet often. Three-membered rings are strained but form surprisingly fast (the ends are very close), four-membered rings are slow (strain without the proximity bonus), and seven-membered rings are slow (the chain ends rarely meet). 4-Bromobutan-1-amine gives pyrrolidine, a five-membered ring: <b>A</b>.",
+  "x": [
+   "",
+   "B gives aziridine, a strained three-membered ring. Its proximity helps, but five-membered ring closure is still faster by orders of magnitude.",
+   "C gives azetidine, a four-membered ring, the slowest of the small rings: angle strain without the proximity bonus of the three-membered case.",
+   "D gives a seven-membered ring; the floppy chain rarely brings its ends together, so closure is slow."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "NCCCCBr"
+   },
+   {
+    "smi": "NCCBr"
+   },
+   {
+    "smi": "NCCCBr"
+   },
+   {
+    "smi": "NCCCCCCBr"
+   }
+  ]
+ },
+ {
+  "id": "subst-42",
+  "t": "subst",
+  "q": "Which sequence converts (<i>R</i>)-butan-2-ol into (<i>R</i>)-2-azidobutane?",
+  "c": [
+   "1. PBr<sub>3</sub> 2. NaN<sub>3</sub>, DMSO",
+   "1. TsCl, pyridine 2. NaN<sub>3</sub>, DMSO",
+   "NaN<sub>3</sub>, DMSO, heat",
+   "1. NaH 2. NaN<sub>3</sub>, DMSO"
+  ],
+  "h": "Check whether the target needs net inversion or net retention. Then count how many steps invert the stereocenter in each sequence.",
+  "w": "The OH and N<sub>3</sub> groups both rank first (then ethyl, then CH<sub>3</sub>), so keeping the label (<i>R</i>) means net retention: an even number of inversions. PBr<sub>3</sub> gives (<i>S</i>)-2-bromobutane with inversion, and azide inverts again by S<sub>N</sub>2: (<i>R</i>)-2-azidobutane. <b>1. PBr<sub>3</sub> 2. NaN<sub>3</sub></b> works.",
+  "x": [
+   "",
+   "Tosylation keeps the configuration, so this route has only one inversion and gives (<i>S</i>)-2-azidobutane.",
+   "HO<sup>−</sup> is far too poor a leaving group; azide cannot displace an unactivated OH.",
+   "NaH makes an alkoxide, which is an even worse leaving group than OH; no substitution occurs."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC[C@@H](C)O"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC[C@@H](C)N=[N+]=[N-]"
+   }
+  ]
+ },
+ {
+  "id": "subst-43",
+  "t": "subst",
+  "q": "1-Bromo-4-(bromomethyl)benzene is treated with <b>one</b> equivalent of NaCN in DMSO. What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "no reaction: both C–Br bonds are too strong for cyanide to break"
+  ],
+  "h": "One bromine is on an sp<sup>3</sup> carbon, the other on an sp<sup>2</sup> ring carbon. Which can undergo backside attack?",
+  "w": "The CH<sub>2</sub>Br is a primary benzylic halide, an excellent S<sub>N</sub>2 substrate. The aryl C–Br cannot react by S<sub>N</sub>2 (backside attack would pass through the ring) or S<sub>N</sub>1 (aryl cations are very unstable). Cyanide therefore replaces only the benzylic bromine: <b>2-(4-bromophenyl)acetonitrile</b>.",
+  "x": [
+   "",
+   "B has cyanide on the ring carbon. Aryl halides do not undergo S<sub>N</sub>2 or S<sub>N</sub>1.",
+   "C needs substitution at the aryl carbon too, which does not occur; it also needs two equivalents of cyanide.",
+   "The benzylic C–Br is very reactive toward S<sub>N</sub>2; only the aryl C–Br is inert."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "BrCc1ccc(Br)cc1"
+   },
+   {
+    "arrow": "NaCN (1 equiv)",
+    "below": "DMSO"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "N#CCc1ccc(Br)cc1"
+   },
+   {
+    "smi": "BrCc1ccc(C#N)cc1"
+   },
+   {
+    "smi": "N#CCc1ccc(C#N)cc1"
+   },
+   null
+  ]
+ },
+ {
+  "id": "subst-44",
+  "t": "subst",
+  "q": "Which compound does <b>not</b> react with NaI in acetone, even on heating?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "S<sub>N</sub>2 requires backside attack on an sp<sup>3</sup> carbon.",
+  "w": "(<i>E</i>)-1-Bromoprop-1-ene is a vinylic halide: the C–Br carbon is sp<sup>2</sup>, the C–Br bond is stronger, and backside attack would have to pass through the π system and the other substituents in the plane. Vinylic halides do not undergo S<sub>N</sub>2 or S<sub>N</sub>1, so <b>A</b> does not react.",
+  "x": [
+   "",
+   "Allyl bromide is a primary allylic halide; π-overlap stabilizes the S<sub>N</sub>2 transition state, so it reacts quickly.",
+   "Benzyl bromide is a primary benzylic halide and reacts quickly with iodide.",
+   "1-Bromopropane is an unhindered primary halide, a good S<sub>N</sub>2 substrate."
+  ],
+  "k": 0,
+  "d": 1,
+  "cs": [
+   {
+    "smi": "C/C=C/Br"
+   },
+   {
+    "smi": "C=CCBr"
+   },
+   {
+    "smi": "BrCc1ccccc1"
+   },
+   {
+    "smi": "CCCBr"
+   }
+  ]
+ },
+ {
+  "id": "subst-45",
+  "t": "subst",
+  "q": "(<i>S</i>)-2-Iodobutane is dissolved in acetone with excess NaI. Which statements are correct?<br>I. The optical activity of the solution falls toward zero over time.<br>II. The rate of loss of optical activity does not depend on [I<sup>−</sup>].<br>III. Each substitution event converts one molecule of (<i>S</i>)-2-iodobutane into (<i>R</i>)-2-iodobutane.",
+  "c": [
+   "I and III only",
+   "I, II and III",
+   "I only",
+   "II and III only"
+  ],
+  "h": "Iodide is both the nucleophile and the leaving group here. What does each S<sub>N</sub>2 event do to the stereocenter?",
+  "w": "Each S<sub>N</sub>2 attack by I<sup>−</sup> inverts the carbon, turning an (<i>S</i>) molecule into (<i>R</i>) (III true). The reverse reaction converts (<i>R</i>) back to (<i>S</i>), so the mixture moves toward a 1:1 racemate and the optical rotation falls to zero (I true). Because each event is bimolecular, the rate depends on [I<sup>−</sup>] (II false). <b>I and III only</b>.",
+  "x": [
+   "",
+   "II is false: the racemization happens by S<sub>N</sub>2, which is first order in iodide.",
+   "III is also true: every backside substitution inverts the stereocenter, which is exactly why the activity is lost.",
+   "I is true: repeated inversions drive the sample toward a racemic mixture, and II is false."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC[C@H](C)I"
+   },
+   {
+    "arrow": "NaI (excess)",
+    "below": "acetone"
+   }
+  ]
+ },
+ {
+  "id": "subst-46",
+  "t": "subst",
+  "q": "Which reaction is fastest?",
+  "c": [
+   "1-bromobutane + NaN<sub>3</sub> in DMSO",
+   "1-chlorobutane + NaN<sub>3</sub> in DMSO",
+   "1-bromobutane + NaN<sub>3</sub> in methanol",
+   "2-bromobutane + NaN<sub>3</sub> in DMSO"
+  ],
+  "h": "All four are S<sub>N</sub>2 reactions with the same nucleophile. Compare them one variable at a time: substrate, leaving group, solvent.",
+  "w": "For S<sub>N</sub>2, each change from the key slows the reaction: a poorer leaving group (Cl instead of Br), a protic solvent that hydrogen-bonds to azide (methanol instead of DMSO), or a more hindered secondary carbon. The combination of an unhindered primary carbon, a good leaving group and a polar aprotic solvent is fastest: <b>1-bromobutane + NaN<sub>3</sub> in DMSO</b>.",
+  "x": [
+   "",
+   "Chloride is a stronger base and poorer leaving group than bromide, so the C–Cl bond reacts more slowly.",
+   "Methanol hydrogen-bonds to azide and lowers its nucleophilicity; the same reaction is much faster in DMSO.",
+   "The secondary carbon has an extra methyl group crowding the backside; S<sub>N</sub>2 is slower than at the primary carbon."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "subst-47",
+  "t": "subst",
+  "q": "NaN<sub>3</sub> (0.10 M) is added to a solution of 2-chloro-2-methylpropane in 80% aqueous acetone. Compared with the same reaction without azide, what is observed?",
+  "c": [
+   "The rate of disappearance of the chloride is essentially unchanged, but some 2-azido-2-methylpropane forms",
+   "The chloride disappears much faster, because azide attacks it by S<sub>N</sub>2",
+   "The chloride disappears much faster, because azide pulls the chloride off",
+   "Nothing changes: only 2-methylpropan-2-ol forms, because azide cannot react with a carbocation"
+  ],
+  "h": "Separate two questions: what controls how fast the chloride is consumed, and what controls what the cation becomes?",
+  "w": "This tertiary chloride reacts by S<sub>N</sub>1. The rate is set by ionization, so adding azide does not change how fast the chloride disappears. Once the cation forms, though, it is trapped by whichever nucleophile it meets: water gives the alcohol, and azide (a much better nucleophile) gives the azide. <b>Same rate; new azide product</b>.",
+  "x": [
+   "",
+   "Backside attack at a tertiary carbon is blocked; azide cannot speed this reaction by S<sub>N</sub>2.",
+   "Azide does not assist ionization; the C–Cl bond breaks on its own in the rate-determining step.",
+   "Carbocations react with any available nucleophile, and azide competes very well with water."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC(C)(C)Cl"
+   },
+   {
+    "arrow": "H<sub>2</sub>O/acetone",
+    "below": "NaN<sub>3</sub>"
+   }
+  ]
+ },
+ {
+  "id": "subst-48",
+  "t": "subst",
+  "q": "Sodium propynide (CH<sub>3</sub>C≡C<sup>−</sup> Na<sup>+</sup>) is used to make an internal alkyne by S<sub>N</sub>2. Which alkyl halide gives the best yield of substitution product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Acetylide ions are strong bases as well as nucleophiles. Which substrate gives the base the least chance to eliminate?",
+  "w": "Acetylides (conjugate acid pK<sub>a</sub> ≈ 25) are strong bases. With secondary and tertiary halides they mainly cause E2 elimination; only methyl and primary halides give good S<sub>N</sub>2 yields. <b>Bromoethane</b> gives pent-2-yne cleanly.",
+  "x": [
+   "",
+   "With 2-bromopropane, the strong base removes a β-H (E2) and propene is the main product.",
+   "A tertiary halide cannot be attacked from the back; E2 gives 2-methylpropene.",
+   "An aryl halide does not undergo S<sub>N</sub>2 at all."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CCBr"
+   },
+   {
+    "smi": "CC(C)Br"
+   },
+   {
+    "smi": "CC(C)(C)Br"
+   },
+   {
+    "smi": "Brc1ccccc1"
+   }
+  ]
+ },
+ {
+  "id": "subst-49",
+  "t": "subst",
+  "q": "<i>cis</i>-3-Methylcyclopentyl tosylate, as the single enantiomer shown, is treated with NaCN in DMSO. What is the product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Decide cis or trans for the product first, then make sure the carbon that is not attacked keeps its configuration.",
+  "w": "S<sub>N</sub>2 at C1 inverts that carbon only. The tosylate was <i>cis</i> to the methyl, so the nitrile ends up <i>trans</i>. C3 (bearing CH<sub>3</sub>) is untouched and stays <i>R</i>. The starting tosylate is (1<i>S</i>,3<i>R</i>); the product is <b>(1<i>R</i>,3<i>R</i>)-3-methylcyclopentane-1-carbonitrile</b>.",
+  "x": [
+   "",
+   "This is the <i>cis</i> nitrile with both centers unchanged, the retention product. S<sub>N</sub>2 inverts C1.",
+   "This is <i>trans</i> but is the enantiomer of A: it also inverts C3, which is not attacked.",
+   "This is <i>cis</i> and has both carbons inverted relative to the starting material. Only C1 changes."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C[C@@H]1CC[C@@H](C1)[1*]",
+    "ab": [
+     "OTs"
+    ]
+   },
+   {
+    "arrow": "NaCN",
+    "below": "DMSO"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "C[C@@H]1CC[C@H](C1)C#N"
+   },
+   {
+    "smi": "C[C@@H]1CC[C@@H](C1)C#N"
+   },
+   {
+    "smi": "C[C@H]1CC[C@@H](C1)C#N"
+   },
+   {
+    "smi": "C[C@H]1CC[C@H](C1)C#N"
+   }
+  ]
+ },
+ {
+  "id": "subst-50",
+  "t": "subst",
+  "q": "Which reagent converts 1-bromobutane mainly into an <b>ether</b>?",
+  "c": [
+   "NaOCH<sub>3</sub> in CH<sub>3</sub>OH",
+   "KOC(CH<sub>3</sub>)<sub>3</sub> in (CH<sub>3</sub>)<sub>3</sub>COH",
+   "CH<sub>3</sub>OH alone, 25 °C",
+   "NaOH in H<sub>2</sub>O"
+  ],
+  "h": "A primary halide reacts by S<sub>N</sub>2 with a good, unhindered nucleophile. Which reagent is a strong nucleophile that is not too bulky, and whose product is an ether?",
+  "w": "Methoxide is a strong, small nucleophile. With an unhindered primary bromide, S<sub>N</sub>2 beats E2, giving 1-methoxybutane: <b>NaOCH<sub>3</sub> in CH<sub>3</sub>OH</b>.",
+  "x": [
+   "",
+   "tert-Butoxide is too bulky to reach the backside of the carbon easily; with 1-bromobutane it gives mostly but-1-ene by E2.",
+   "Neutral methanol is a weak nucleophile, and a primary bromide cannot ionize, so there is essentially no reaction at 25 °C.",
+   "Hydroxide gives butan-1-ol, an alcohol, not an ether."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCCCBr"
+   }
+  ]
+ }
+]

@@ -1,0 +1,469 @@
+[
+ {
+  "id": "enol-01",
+  "d": 1,
+  "q": "Which structure is the enol tautomer of cyclohexanone?",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC1=CCCCC1"
+   },
+   {
+    "smi": "OC1C=CCCC1"
+   },
+   {
+    "smi": "[O-]C1=CCCCC1"
+   },
+   {
+    "smi": "C1CCC2OC2C1"
+   }
+  ],
+  "h": "Tautomers differ only in where one H and one π bond sit: the H moves from the α-carbon to the carbonyl oxygen.",
+  "w": "Keto–enol tautomerism moves one α-H to the carbonyl O and moves the π bond from C=O to C=C between the former carbonyl carbon and the α-carbon. The enol of cyclohexanone is <b>cyclohex-1-en-1-ol</b>, with the OH on an alkene carbon.",
+  "x": [
+   "",
+   "Here the OH is on an sp<sup>3</sup> carbon next to the C=C (an allylic alcohol). It is an isomer, but not an enol, and it cannot form from cyclohexanone by a single proton shift.",
+   "This is the enolate, the conjugate base. It has one fewer H than cyclohexanone, so it is not a tautomer.",
+   "Cyclohexene oxide has the same formula (C<sub>6</sub>H<sub>10</sub>O) but a different carbon–oxygen connectivity; it is a constitutional isomer, not a tautomer."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-02",
+  "d": 2,
+  "q": "2-Methylcyclohexanone can form two different enols. Which enol is present in the larger amount at equilibrium?",
+  "s": [
+   {
+    "smi": "CC1CCCCC1=O"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1=C(O)CCCC1"
+   },
+   {
+    "smi": "CC1CCCC=C1O"
+   },
+   {
+    "smi": "CC1=CCCCC1O"
+   },
+   {
+    "smi": "C=C1CCCCC1O"
+   }
+  ],
+  "h": "Enols are alkenes. Which alkene-stability rule decides between the two enols?",
+  "w": "An enol is an alkene, so the more substituted C=C is more stable (Zaitsev-type stability). Enolization toward C2 puts the C=C between C1 and the methyl-bearing C2, giving a <b>tetrasubstituted enol</b>. Enolization toward C6 gives only a trisubstituted C=C, so that enol is the minor one.",
+  "x": [
+   "",
+   "This is a real enol of 2-methylcyclohexanone, but its C=C is only trisubstituted, so it is less stable than the tetrasubstituted enol.",
+   "The OH is on an sp<sup>3</sup> carbon, so this is an allylic alcohol, not an enol; it is not a tautomer of the ketone.",
+   "The C=C is exocyclic to a carbon that does not carry the OH, so this is an allylic alcohol, not an enol."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-03",
+  "d": 3,
+  "q": "Acetone contains far less than 0.01% enol at equilibrium, yet pure 2,4-pentanedione is roughly 80% enol. Which statement best explains the large enol content of 2,4-pentanedione?",
+  "s": [
+   {
+    "smi": "CC(=O)CC(C)=O"
+   },
+   {
+    "arrow": "⇌"
+   },
+   {
+    "smi": "CC(O)=CC(C)=O"
+   }
+  ],
+  "c": [
+   "The enol C=C is conjugated with the second C=O, and the enol OH forms a six-membered intramolecular hydrogen bond to that C=O.",
+   "An O–H bond is stronger than a C–H bond, which makes every enol more stable than its keto form; acetone simply enolizes too slowly to reach equilibrium.",
+   "The central CH<sub>2</sub> has a pK<sub>a</sub> near 9, so the compound exists mainly as its enolate, which is counted as enol.",
+   "Water and other protic solvents hydrogen-bond strongly to the enol OH, which is why the enol content is highest in polar solvents."
+  ],
+  "h": "Look at the enol drawn on the right. What can its OH and C=C do with the remaining carbonyl that the enol of acetone cannot?",
+  "w": "For simple ketones the keto form wins because a C=O π bond is much stronger than a C=C π bond. The enol of a β-diketone gains two extra stabilizations: the C=C–C=O system is <b>conjugated</b>, and the OH is held in a <b>six-membered ring by an intramolecular hydrogen bond</b> to the other carbonyl O. Together these outweigh the usual preference for the keto form.",
+  "x": [
+   "",
+   "If enols were generally more stable, acetone would be mostly enol at equilibrium; acid or base catalysis establishes that equilibrium quickly, and it lies far on the keto side.",
+   "Acidity (pK<sub>a</sub>) describes the enolate, not the neutral enol; with no base present the compound is neutral, and the enol/keto ratio is a separate equilibrium.",
+   "The opposite is observed: polar protic solvents compete for the hydrogen bond and lower the enol content (about 15% in water), which supports the intramolecular H-bond explanation."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-04",
+  "d": 1,
+  "q": "Which labeled hydrogen-bearing carbon in ethyl acetoacetate carries the most acidic hydrogens?",
+  "s": [
+   {
+    "smi": "[CH3:4]C(=O)[CH2:1]C(=O)O[CH2:2][CH3:3]"
+   }
+  ],
+  "c": [
+   "<i>a</i>",
+   "<i>b</i>",
+   "<i>c</i>",
+   "<i>d</i>"
+  ],
+  "h": "Which carbon's conjugate base can spread the negative charge onto two carbonyl oxygens?",
+  "w": "Removing H from <b>carbon <i>a</i></b>, between the ketone and the ester C=O, gives an anion delocalized onto both carbonyl oxygens (pK<sub>a</sub> about 11). The methyl next to the ketone (<i>d</i>) is stabilized by only one C=O (pK<sub>a</sub> about 20), and the ethyl carbons (<i>b</i>, <i>c</i>) are not α to any carbonyl.",
+  "x": [
+   "",
+   "Carbon <i>b</i> is bonded to the ester oxygen, not to a carbonyl carbon; its anion has no resonance stabilization.",
+   "The terminal CH<sub>3</sub> of the ethyl group is an ordinary alkane-type C–H (pK<sub>a</sub> about 50).",
+   "The ketone methyl is α to one carbonyl only (pK<sub>a</sub> about 20); it is roughly a billion times less acidic than <i>a</i>."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-05",
+  "d": 2,
+  "q": "Rank the compounds from <b>least</b> to <b>most</b> acidic (most acidic α-hydrogen in each).",
+  "s": [
+   {
+    "smi": "CC(=O)OCC",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(C)=O",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(=O)CC(C)=O",
+    "cap": "III"
+   },
+   {
+    "smi": "CCOC(=O)CC(=O)OCC",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "I < II < IV < III",
+   "II < I < IV < III",
+   "I < II < III < IV",
+   "I < IV < II < III"
+  ],
+  "h": "Count the carbonyl groups that can share the negative charge, then ask whether a ketone C=O or an ester C=O is better at stabilizing an adjacent anion.",
+  "w": "Typical pK<sub>a</sub> values: ethyl acetate (I) about 25, acetone (II) about 19–20, diethyl malonate (IV) about 13, 2,4-pentanedione (III) about 9. So <b>I < II < IV < III</b>. The ester OR group donates electrons into its own C=O by resonance, which makes that C=O less able to accept the enolate's negative charge; this is why esters are less acidic than ketones, and why a malonic ester (two ester groups) is less acidic than a β-diketone (two ketone groups).",
+  "x": [
+   "",
+   "This puts the ester above the ketone. Ester enolates are less stable because the alkoxy O already donates into the C=O, so an ester (pK<sub>a</sub> ≈ 25) is less acidic than a ketone (≈ 20).",
+   "This makes the malonic ester more acidic than the β-diketone. Each ester C=O stabilizes the anion less than a ketone C=O does, so malonate (pK<sub>a</sub> ≈ 13) is less acidic than 2,4-pentanedione (≈ 9).",
+   "Two ester carbonyls still beat one ketone carbonyl: diethyl malonate (pK<sub>a</sub> ≈ 13) is much more acidic than acetone (≈ 20)."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-06",
+  "d": 2,
+  "q": "Which labeled position carries the most acidic hydrogens?",
+  "s": [
+   {
+    "smi": "O=C(c1[cH:4]cccc1)[CH2:1][CH2:2]C(=O)O[CH3:3]"
+   }
+  ],
+  "c": [
+   "<i>a</i>",
+   "<i>b</i>",
+   "<i>c</i>",
+   "<i>d</i>"
+  ],
+  "h": "Two of the labeled carbons are α to a carbonyl. Which type of carbonyl stabilizes an enolate better?",
+  "w": "Carbons <i>a</i> and <i>b</i> are both α to a carbonyl, but <i>a</i> is α to a <b>ketone</b> (pK<sub>a</sub> about 19) while <i>b</i> is α to an <b>ester</b> (pK<sub>a</sub> about 25). The ester OCH<sub>3</sub> donates into its own C=O, making the ester enolate less stable. So <b><i>a</i></b> is most acidic. Neither carbon is between two carbonyls (the carbonyls are 1,4-related), so there is no β-dicarbonyl effect.",
+  "x": [
+   "",
+   "Carbon <i>b</i> is α to the ester carbonyl; ester α-H's (pK<sub>a</sub> ≈ 25) are about a million times less acidic than ketone α-H's.",
+   "The OCH<sub>3</sub> hydrogens are on a carbon attached to oxygen, not to a carbonyl carbon; their conjugate base has no resonance stabilization.",
+   "Aryl C–H bonds have pK<sub>a</sub> near 43; the anion is in an sp<sup>2</sup> orbital perpendicular to the π system, so the C=O cannot stabilize it."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-07",
+  "d": 2,
+  "q": "What is the major product of this sequence?",
+  "s": [
+   {
+    "smi": "CC1CCCCC1=O"
+   },
+   {
+    "arrow": "1. LDA, THF, −78 °C",
+    "below": "2. CH<sub>2</sub>=CHCH<sub>2</sub>Br"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CCC1CCCC(C)C1=O"
+   },
+   {
+    "smi": "C=CCC1(C)CCCCC1=O"
+   },
+   {
+    "smi": "C=CCOC1=CCCCC1C"
+   },
+   {
+    "smi": "C=CCC1(C)CCCC(CC=C)C1=O"
+   }
+  ],
+  "h": "LDA is a strong, bulky base used cold and in a slight excess of base. Which α-H does it remove fastest, and is that step reversible?",
+  "w": "LDA at −78 °C deprotonates quickly and irreversibly at the <b>less hindered α-carbon (C6, a CH<sub>2</sub>)</b>, forming the kinetic enolate. SN2 attack on allyl bromide at that carbon gives <b>2-allyl-6-methylcyclohexanone</b> (cis/trans mixture).",
+  "x": [
+   "",
+   "Alkylation at the methyl-bearing carbon comes from the more substituted (thermodynamic) enolate, which forms under equilibrating conditions such as NaOEt/EtOH, not with LDA at −78 °C.",
+   "Lithium enolates react with alkyl halides at carbon, not oxygen; the C-alkylated ketone is the normal product with soft electrophiles such as allyl bromide.",
+   "One equivalent of LDA forms one enolate per ketone; dialkylation at both α-carbons would require a second deprotonation and a second equivalent of halide."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-08",
+  "d": 2,
+  "q": "LDA in THF at −78 °C converts 2-methylcyclohexanone mainly into the <i>less</i> substituted enolate, while NaOEt in ethanol at 25 °C gives mainly the <i>more</i> substituted enolate. Which explanation is correct?",
+  "s": [
+   {
+    "smi": "CC1CCCCC1=O"
+   }
+  ],
+  "c": [
+   "LDA removes the less hindered H rapidly and irreversibly (kinetic control); with NaOEt, ketone and enolates interconvert by reversible proton transfer, so the more stable, more substituted enolate accumulates (thermodynamic control).",
+   "LDA removes the more acidic H on the CH<sub>2</sub> carbon, while NaOEt removes the less acidic H next to the methyl group because ethoxide is a weaker base.",
+   "Both bases give the same enolate mixture at first, but at −78 °C the more substituted enolate isomerizes to the less substituted one, which is more stable at low temperature.",
+   "Ethoxide is bulkier than LDA, so it can only reach the H on the methyl-bearing carbon, which is the less hindered position."
+  ],
+  "h": "Compare pK<sub>a</sub> values: diisopropylamine about 36, ethanol about 16, ketone α-H about 19. Which base deprotonates reversibly?",
+  "w": "LDA (conjugate acid pK<sub>a</sub> ≈ 36) deprotonates the ketone completely and irreversibly; the bulky base removes the <b>more accessible H on C6</b> faster, and at −78 °C nothing equilibrates, so the <b>kinetic</b> (less substituted) enolate is formed. Ethoxide (EtOH pK<sub>a</sub> ≈ 16) is too weak to deprotonate completely (ketone pK<sub>a</sub> ≈ 19), so ketone, enolates and ethanol keep exchanging protons and the <b>more substituted, more stable</b> enolate dominates at equilibrium.",
+  "x": [
+   "",
+   "The two kinds of α-H have similar acidity; the difference comes from the rate of removal (sterics) versus the stability of the product enolate, not from one H being much more acidic.",
+   "At −78 °C there is no isomerization, and the less substituted enolate is the less stable one; low temperature preserves the kinetic product.",
+   "LDA, with two isopropyl groups on N, is far bulkier than ethoxide, and the methyl-bearing carbon is the more hindered position, not the less hindered one."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-09",
+  "d": 1,
+  "q": "An enolate is alkylated with each of these halides. Which halide gives the poorest yield of C-alkylated product?",
+  "c": [
+   "2-bromo-2-methylpropane",
+   "iodomethane",
+   "benzyl bromide",
+   "allyl bromide"
+  ],
+  "h": "Enolate alkylation is an S<sub>N</sub>2 reaction. Which substrate cannot undergo S<sub>N</sub>2?",
+  "w": "Enolate alkylation follows S<sub>N</sub>2 rules: methyl, primary, allylic and benzylic halides work well. A <b>tertiary halide (2-bromo-2-methylpropane)</b> cannot be attacked from the back side, and the strongly basic enolate instead causes E2 elimination to 2-methylpropene.",
+  "x": [
+   "",
+   "Methyl halides are the best S<sub>N</sub>2 substrates; enolate methylation with CH<sub>3</sub>I is fast and clean.",
+   "Benzylic halides are primary and their S<sub>N</sub>2 transition state is stabilized by the ring; they alkylate enolates very well.",
+   "Allylic halides are primary and activated toward S<sub>N</sub>2 by the adjacent π bond; they are excellent alkylating agents."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-10",
+  "d": 2,
+  "q": "What is the major product when 2-methylcyclohexanone is treated with one equivalent of Br<sub>2</sub> in acetic acid?",
+  "s": [
+   {
+    "smi": "CC1CCCCC1=O"
+   },
+   {
+    "arrow": "Br<sub>2</sub> (1 equiv)",
+    "below": "CH<sub>3</sub>CO<sub>2</sub>H"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1(Br)CCCCC1=O"
+   },
+   {
+    "smi": "CC1CCCC(Br)C1=O"
+   },
+   {
+    "smi": "CC1(Br)CCCC(Br)C1=O"
+   },
+   {
+    "smi": "BrCC1CCCCC1=O"
+   }
+  ],
+  "h": "Under acid, the halogen reacts with the enol. Which enol of this ketone is present in greater amount?",
+  "w": "In acid the electrophile Br<sub>2</sub> is attacked by the enol, and the more substituted (more stable) enol predominates. Bromination therefore occurs at the <b>more substituted α-carbon, giving 2-bromo-2-methylcyclohexanone</b>. The first Br withdraws electron density, making the carbonyl O less basic, so a second enolization (and a second bromination) is slow; acid-catalyzed halogenation stops after one halogen.",
+  "x": [
+   "",
+   "Bromination at C6 goes through the less substituted enol, which is the minor enol under acid; this product dominates under kinetic (LDA-type) conditions, not acid catalysis.",
+   "Acid-catalyzed halogenation stops after monohalogenation because the α-Br slows further enol formation; polyhalogenation is typical of base, not acid.",
+   "The methyl carbon is β to the carbonyl, not α; it cannot become part of an enol and is not brominated."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-11",
+  "d": 2,
+  "q": "1-Cyclohexylethan-1-one is treated with excess Br<sub>2</sub> in aqueous NaOH, and the mixture is then acidified. Which organic product (other than CHBr<sub>3</sub>) is isolated?",
+  "s": [
+   {
+    "smi": "CC(=O)C1CCCCC1"
+   },
+   {
+    "arrow": "1. Br<sub>2</sub> (excess), NaOH, H<sub>2</sub>O",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC(=O)C1CCCCC1"
+   },
+   {
+    "smi": "BrCC(=O)C1CCCCC1"
+   },
+   {
+    "smi": "CC(=O)C1(Br)CCCCC1"
+   },
+   {
+    "smi": "O=C(C(Br)(Br)Br)C1CCCCC1"
+   }
+  ],
+  "h": "This is the haloform reaction. What happens to a CX<sub>3</sub> group attached to a carbonyl when hydroxide is present?",
+  "w": "Under base each α-Br makes the remaining H on that carbon more acidic, so the methyl group is brominated three times to give a CBr<sub>3</sub> ketone. Hydroxide then adds to the C=O, and the tetrahedral intermediate expels <sup>−</sup>CBr<sub>3</sub> (stabilized by three Br). Proton transfer gives CHBr<sub>3</sub> and the carboxylate, which acidification converts to <b>cyclohexanecarboxylic acid</b>.",
+  "x": [
+   "",
+   "Base-promoted halogenation does not stop at one halogen: the bromomethyl ketone is more acidic than the starting ketone and reacts faster.",
+   "Single halogenation at the more substituted α-carbon is the acid-catalyzed outcome; under base with excess Br<sub>2</sub> the methyl group is perhalogenated.",
+   "The tribromomethyl ketone is an intermediate; in aqueous NaOH it undergoes acyl substitution, losing <sup>−</sup>CBr<sub>3</sub> as the leaving group."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-12",
+  "d": 3,
+  "q": "Acid-catalyzed bromination of acetone can be stopped cleanly at bromoacetone, but base-promoted bromination cannot: it continues to CH<sub>3</sub>COCBr<sub>3</sub>. Which single effect of the first α-Br explains both observations?",
+  "c": [
+   "Its electron withdrawal makes the carbonyl O less basic (slowing acid-catalyzed enol formation) but makes the remaining α-H on that carbon more acidic (speeding enolate formation).",
+   "Its electron donation by resonance makes the carbonyl O more basic (speeding enol formation) but makes the α-H less acidic (slowing enolate formation).",
+   "Its large size blocks the approach of Br<sub>2</sub> in acid, while hydroxide is small enough to reach the remaining α-H.",
+   "It converts the ketone into an acid bromide, which cannot enolize in acid but enolizes rapidly in base."
+  ],
+  "h": "The rate-determining step differs: forming the enol (after C=O protonation) in acid, removing α-H to form the enolate in base. How does an electronegative substituent affect each?",
+  "w": "The rate-determining step in acid needs the carbonyl O to be protonated first. An α-Br is <b>inductively electron-withdrawing</b>, which lowers the basicity of the C=O oxygen, so enol formation from bromoacetone is slower than from acetone, and the reaction stops at one Br. In base the rate-determining step is removal of an α-H; the same <b>electron withdrawal stabilizes the resulting enolate</b>, so the CH<sub>2</sub>Br hydrogens are more acidic than those of acetone and each bromination accelerates the next, giving CBr<sub>3</sub>.",
+  "x": [
+   "",
+   "Resonance donation by Br into the C=O is minor here; the dominant effect is inductive withdrawal, and the observed trends (faster in base, slower in acid) are the opposite of what this choice predicts.",
+   "Steric bulk would slow halogenation in both media; it cannot explain why base halogenation speeds up after each Br.",
+   "The C–Br bond is on the α-carbon, not on the carbonyl carbon; bromoacetone is an α-halo ketone, not an acid bromide."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-13",
+  "d": 2,
+  "q": "Each optically active compound is stirred in NaOH/H<sub>2</sub>O at 25 °C. Which one loses its optical activity?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@H](CC)C(=O)c1ccccc1"
+   },
+   {
+    "smi": "CC[C@@H](C)CC(C)=O"
+   },
+   {
+    "smi": "C[C@](CC)(c1ccccc1)C(C)=O"
+   },
+   {
+    "smi": "C[C@H](O)c1ccccc1"
+   }
+  ],
+  "h": "Racemization through an enolate requires a stereocenter that both is an α-carbon and carries an H.",
+  "w": "Base removes an α-H to form a planar enolate; reprotonation occurs equally from either face. Only a stereocenter that is <b>α to the carbonyl and bears an H</b> is destroyed this way. Only the ketone whose stereocenter is the <b>α-carbon bearing an H</b> racemizes.",
+  "x": [
+   "",
+   "The stereocenter is the β-carbon. Enolization involves only the α-CH<sub>2</sub>, so the configuration at the β-carbon is unchanged.",
+   "This stereocenter is α to the carbonyl but has no H (it carries CH<sub>3</sub>, ethyl and phenyl), so no enolate can form there.",
+   "This alcohol has no carbonyl group, so it cannot form an enol or enolate; the C–H at the stereocenter is not acidic."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-14",
+  "d": 2,
+  "q": "2-Methylcyclohexanone is stirred in D<sub>2</sub>O containing a catalytic amount of NaOD until no further change occurs. How many hydrogens are replaced by deuterium?",
+  "s": [
+   {
+    "smi": "CC1CCCCC1=O"
+   }
+  ],
+  "c": [
+   "3",
+   "4",
+   "5",
+   "2"
+  ],
+  "h": "Only hydrogens on carbons directly attached to the C=O carbon exchange. Count them on both sides.",
+  "w": "Exchange occurs through the enolate, so only α-H's are replaced. C2 has one H and C6 has two H's: <b>3 hydrogens</b> become D. The methyl H's are on a β-carbon and do not exchange; neither do the ring H's at C3–C5.",
+  "x": [
+   "",
+   "This counts the methyl group or another non-α position. The methyl carbon is attached to C2, not to the carbonyl carbon, so its H's are β-H's.",
+   "Five would include all H's on C2, C3 and C6; C3 is a β-carbon and its H's are not acidic.",
+   "Two counts only C6. C2 also has one α-H; it is more hindered but still exchanges through the more substituted enolate under equilibrating conditions."
+  ],
+  "t": "enolates",
+  "k": 0
+ }
+]

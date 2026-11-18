@@ -1,0 +1,147 @@
+[
+{
+ "id": "alc-46", "t": "alcohols", "d": 2, "k": 0,
+ "q": "What is the major product when this diol is heated with concentrated H<sub>2</sub>SO<sub>4</sub>?",
+ "s": [{"smi": "CC(C)(O)C(C)(C)O"}, {"arrow": "H<sub>2</sub>SO<sub>4</sub>", "below": "heat"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC(=O)C(C)(C)C"}, {"smi": "C=C(C)C(C)=C"}, {"smi": "CC1(C)OC1(C)C"}, {"smi": "CC(C)=C(C)C"}],
+ "h": "After one OH leaves, the neighboring carbon still carries an OH. What can migrate to the cation, and what does the remaining oxygen become?",
+ "w": "Pinacol rearrangement: protonation and loss of water give a tertiary carbocation. A methyl on the adjacent carbon shifts (1,2-shift) to that cation, leaving a cation on the carbon bearing the OH, which is strongly stabilized as a protonated carbonyl (oxocarbenium ion). Loss of H<sup>+</sup> gives <b>3,3-dimethylbutan-2-one (pinacolone)</b>.",
+ "x": ["", "Double dehydration can compete, but the pinacol pathway is favored because the oxygen-stabilized cation formed after the methyl shift is especially stable and leads to a C=O.", "An epoxide would form only by the neighboring OH attacking the cation; under hot acid the 1,2-shift to a carbonyl dominates and an epoxide would itself open again.", "Forming this alkene would require removing both oxygens; the second oxygen is kept and becomes the ketone C=O."]
+},
+{
+ "id": "alc-47", "t": "alcohols", "d": 3, "k": 0,
+ "q": "What is the major product of pinacol rearrangement of this diol?",
+ "s": [{"smi": "CC(C)(O)C(O)(c1ccccc1)c1ccccc1"}, {"arrow": "H<sub>2</sub>SO<sub>4</sub>", "below": "heat"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC(=O)C(C)(c1ccccc1)c1ccccc1"}, {"smi": "CC(C)(C(=O)c1ccccc1)c1ccccc1"}, {"smi": "C=C(C)C(O)(c1ccccc1)c1ccccc1"}, {"smi": "CC1(C)OC1(c1ccccc1)c1ccccc1"}],
+ "h": "Decide first which OH leaves: which carbocation is more stable? Then see which groups are available to migrate from the other carbon.",
+ "w": "Loss of water from the diphenyl carbon gives a doubly benzylic tertiary cation, much more stable than the dimethyl tertiary cation. The groups on the neighboring carbon are two methyls and an OH, so a methyl migrates. The carbinol carbon becomes the C=O: <b>3,3-diphenylbutan-2-one</b>.",
+ "x": ["", "This product comes from ionizing at the dimethyl carbon and then shifting a phenyl. Ionization occurs at the carbon that gives the more stable, diphenyl-stabilized cation.", "Simple dehydration is not the main path; the 1,2-shift leads to a strongly stabilized oxocarbenium ion and a ketone.", "The epoxide is not the product of this reaction under hot acid; the 1,2-methyl shift and loss of H<sup>+</sup> give the ketone."]
+},
+{
+ "id": "alc-48", "t": "alcohols", "d": 3, "k": 0,
+ "q": "What is the major product when this diol is treated with H<sub>2</sub>SO<sub>4</sub>?",
+ "s": [{"smi": "OC1(CCCC1)C1(O)CCCC1"}, {"arrow": "H<sub>2</sub>SO<sub>4</sub>", "below": "heat"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "O=C1CCCCC12CCCC2"}, {"smi": "C1CCC(C1)=C1CCCC1"}, {"smi": "O=C(C1CCCC1)C1CCCC1"}, {"smi": "OC1(C2=CCCC2)CCCC1"}],
+ "h": "Only a C–C bond of the other ring can migrate to the cation. How does the size of that ring change when one of its bonds shifts?",
+ "w": "Loss of water gives a tertiary cation on one ring carbon. On the neighboring carbinol carbon the migrating group must be a ring C–C bond; when it shifts, that carbon's ring gains the cationic carbon and expands from five to six members. The carbinol carbon becomes the C=O, and the original carbocation carbon becomes the spiro atom: <b>spiro[4.5]decan-6-one</b>.",
+ "x": ["", "Losing both oxygens is not the main path; the 1,2-shift gives an oxocarbenium ion that becomes a ketone.", "A ketone flanked by two intact cyclopentyl groups would need a hydride shift, but neither carbinol carbon has a hydrogen.", "Simple dehydration of one OH is outcompeted by the alkyl shift, which also relieves ring strain as the five-membered ring grows to six."]
+},
+{
+ "id": "alc-49", "t": "alcohols", "d": 2, "k": 0,
+ "q": "What is the product of NaIO<sub>4</sub> cleavage of this diol?",
+ "s": [{"smi": "CC1(O)CCCCC1O"}, {"arrow": "NaIO<sub>4</sub>", "below": "H<sub>2</sub>O, THF"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC(=O)CCCCC=O"}, {"smi": "CC(=O)CCCCC(=O)O"}, {"smi": "O=CCCCCC=O"}, {"smi": "CC1CCCCC1=O"}],
+ "h": "Periodate breaks the C–C bond between the two OH carbons; each becomes a C=O. Keep every other bond.",
+ "w": "NaIO<sub>4</sub> forms a cyclic periodate ester with the 1,2-diol and cleaves the C1–C2 bond. C1 (bearing CH<sub>3</sub>) becomes a ketone and C2 (bearing H) becomes an aldehyde, opening the ring: <b>6-oxoheptanal</b>. Periodate does not oxidize the aldehyde further.",
+ "x": ["", "Periodate stops at the aldehyde; further oxidation to the acid would need an oxidant such as hot KMnO<sub>4</sub>.", "The methyl group stays attached to C1, so that end becomes a methyl ketone, not an aldehyde.", "A ring-contracted or methyl-shifted ketone is a pinacol-type (acid) product; periodate cleaves the C–C bond instead."]
+},
+{
+ "id": "alc-50", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Glycerol (propane-1,2,3-triol) is treated with excess NaIO<sub>4</sub>. What products form, per mole of glycerol?",
+ "s": [{"smi": "OCC(O)CO"}],
+ "c": ["2 HCHO + 1 HCO<sub>2</sub>H", "2 HCHO + 1 CO<sub>2</sub>", "1 HCHO + 1 glycolaldehyde (HOCH<sub>2</sub>CHO)", "1 HCHO + 1 HCO<sub>2</sub>H + 1 CH<sub>3</sub>OH"],
+ "h": "Two C–C bonds have an OH on both ends. Cleave both, and count how many C–O bonds the middle carbon ends up with.",
+ "w": "Both C1–C2 and C2–C3 are vicinal-diol bonds, so periodate cleaves both. Each terminal CH<sub>2</sub>OH becomes formaldehyde. The middle carbon loses both C–C bonds and keeps its H and OH, gaining one more bond to oxygen from each cleavage: it ends at the formic acid oxidation level. Products: <b>2 HCHO + 1 HCO<sub>2</sub>H</b> (2 equiv NaIO<sub>4</sub> consumed).",
+ "x": ["", "The middle carbon keeps a C–H bond, so it stops at formic acid; periodate does not oxidize it to CO<sub>2</sub>.", "This stops after one cleavage. Both C–C bonds of glycerol are vicinal-diol bonds, so excess periodate cleaves the second one too.", "No carbon is reduced in a periodate cleavage, so methanol cannot form; every carbon is oxidized or unchanged."]
+},
+{
+ "id": "alc-51", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Which alkene gives <b>only</b> cyclohexanone and formaldehyde after 1. OsO<sub>4</sub>, NMO 2. NaIO<sub>4</sub>?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "C=C1CCCCC1"}, {"smi": "CC1=CCCCC1"}, {"smi": "C=CC1CCCC1"}, {"smi": "CC=C1CCCCC1"}],
+ "h": "OsO<sub>4</sub> makes a 1,2-diol at the C=C; NaIO<sub>4</sub> then cuts where the double bond was. Reconnect the two carbonyl carbons with a C=C.",
+ "w": "Dihydroxylation followed by periodate cleavage splits the C=C into two C=O groups, like ozonolysis. Joining cyclohexanone's carbonyl carbon to formaldehyde's carbon with a double bond gives <b>methylenecyclohexane</b>.",
+ "x": ["", "1-Methylcyclohexene has its C=C in the ring, so cleavage opens the ring to one product, 6-oxoheptanal.", "Vinylcyclopentane gives cyclopentanecarbaldehyde and formaldehyde; the ring is five-membered and the ring carbon becomes an aldehyde, not a ketone.", "Ethylidenecyclohexane gives cyclohexanone and acetaldehyde, not formaldehyde."]
+},
+{
+ "id": "alc-52", "t": "alcohols", "d": 1, "k": 0,
+ "q": "What is the major product when 2-methylcyclohexan-1-ol is heated with H<sub>3</sub>PO<sub>4</sub>?",
+ "s": [{"smi": "CC1CCCCC1O"}, {"arrow": "H<sub>3</sub>PO<sub>4</sub>", "below": "heat"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC1=CCCCC1"}, {"smi": "CC1C=CCCC1"}, {"smi": "C=C1CCCCC1"}, {"smi": "CC1CCC=CC1"}],
+ "h": "Acid-catalyzed dehydration is E1 and gives the most stable alkene available.",
+ "w": "Protonation and loss of water give a secondary carbocation (which can also shift a hydride to the tertiary C2 cation). Loss of a proton gives the most substituted, most stable alkene (Zaitsev): <b>1-methylcyclohexene</b>.",
+ "x": ["", "3-Methylcyclohexene is disubstituted and forms only as a minor product under thermodynamic E1 conditions.", "The exocyclic alkene is disubstituted and less stable than the trisubstituted ring alkene.", "4-Methylcyclohexene cannot form directly from either carbocation; the C=C must include C1 or C2."]
+},
+{
+ "id": "alc-53", "t": "alcohols", "d": 2, "k": 0,
+ "q": "What is the major alkene formed when 3,3-dimethylbutan-2-ol is heated with concentrated H<sub>2</sub>SO<sub>4</sub>?",
+ "s": [{"smi": "CC(O)C(C)(C)C"}, {"arrow": "H<sub>2</sub>SO<sub>4</sub>", "below": "heat"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC(C)=C(C)C"}, {"smi": "C=CC(C)(C)C"}, {"smi": "C=C(C)C(C)C"}, {"smi": "CC(C)C(C)(C)O"}],
+ "h": "The first cation is secondary and sits next to a quaternary carbon. What can shift, and which alkene is most substituted after the shift?",
+ "w": "Loss of water gives a 2° cation next to a C(CH<sub>3</sub>)<sub>3</sub> group. A 1,2-methyl shift gives the more stable 3° cation, (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>–CH(CH<sub>3</sub>)<sub>2</sub>. Loss of the H from the isopropyl CH gives the tetrasubstituted alkene: <b>2,3-dimethylbut-2-ene</b>.",
+ "x": ["", "3,3-Dimethylbut-1-ene would need loss of a proton before any shift; under E1 conditions the cation rearranges first. (That product comes from E2 methods such as POCl<sub>3</sub>/pyridine.)", "2,3-Dimethylbut-1-ene comes from the rearranged cation but is only disubstituted; the tetrasubstituted isomer is favored.", "Water capture of the rearranged cation gives this alcohol, but under hot concentrated acid the elimination product is favored."]
+},
+{
+ "id": "alc-54", "t": "alcohols", "d": 3, "k": 0,
+ "q": "What is the major product when 1-cyclobutylethan-1-ol is heated with H<sub>2</sub>SO<sub>4</sub>?",
+ "s": [{"smi": "CC(O)C1CCC1"}, {"arrow": "H<sub>2</sub>SO<sub>4</sub>", "below": "heat"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC1=CCCC1"}, {"smi": "CC=C1CCC1"}, {"smi": "C=CC1CCC1"}, {"smi": "CC1C=CCC1"}],
+ "h": "A cation next to a strained ring can shift a ring bond. What ring size results, and is there a further shift to a better cation?",
+ "w": "Loss of water gives a secondary cation next to the cyclobutane. A ring C–C bond shifts to it, expanding the four-membered ring to a five-membered ring and relieving strain; the new cation is secondary, on the carbon next to the CH(CH<sub>3</sub>). A 1,2-hydride shift then gives the tertiary 1-methylcyclopentyl cation, and loss of H<sup>+</sup> gives the trisubstituted alkene: <b>1-methylcyclopentene</b>.",
+ "x": ["", "Ethylidenecyclobutane keeps the strained four-membered ring; ring expansion is faster than proton loss from the unrearranged cation.", "Vinylcyclobutane is a monosubstituted alkene from the unrearranged cation; it is both less stable and kinetically bypassed by ring expansion.", "3-Methylcyclopentene is disubstituted; the tertiary cation formed after the hydride shift gives the more substituted 1-methylcyclopentene."]
+},
+{
+ "id": "alc-55", "t": "alcohols", "d": 2, "k": 0,
+ "q": "What is the major product when 3,3-dimethylbutan-2-ol is treated with POCl<sub>3</sub> in pyridine?",
+ "s": [{"smi": "CC(O)C(C)(C)C"}, {"arrow": "POCl<sub>3</sub>", "below": "pyridine, 0 °C"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "C=CC(C)(C)C"}, {"smi": "CC(C)=C(C)C"}, {"smi": "C=C(C)C(C)C"}, {"smi": "CC(Cl)C(C)(C)C"}],
+ "h": "POCl<sub>3</sub> makes the OH a leaving group and pyridine removes a β-H in one step. Is there a carbocation? Which β carbons carry hydrogens?",
+ "w": "POCl<sub>3</sub> converts the OH to a dichlorophosphate leaving group, and pyridine removes a β-H in a concerted E2 step, so no carbocation forms and no methyl shift occurs. The only β-hydrogens are on the CH<sub>3</sub> at C1 (C3 is quaternary), so the product is <b>3,3-dimethylbut-1-ene</b>.",
+ "x": ["", "The tetrasubstituted alkene requires a methyl shift through a carbocation, which the E2 pathway avoids.", "This also needs the rearranged carbon skeleton, which forms only through a carbocation.", "Pyridine is used to promote elimination; under these conditions the dichlorophosphate is eliminated rather than displaced by chloride."]
+},
+{
+ "id": "alc-56", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Hexan-1-ol was treated with reagent X. The product shows the IR spectrum below and gives no broad band at 2500–3600 cm<sup>−1</sup>. What is X?",
+ "f": [{"type": "ir", "bands": [{"cm": 2930, "str": "s"}, {"cm": 2860, "str": "m"}, {"cm": 2820, "str": "w"}, {"cm": 2720, "str": "w"}, {"cm": 1728, "str": "s"}, {"cm": 1465, "str": "m"}]}],
+ "c": ["PCC, CH<sub>2</sub>Cl<sub>2</sub>", "H<sub>2</sub>CrO<sub>4</sub>, acetone, H<sub>2</sub>O", "NaBH<sub>4</sub>, CH<sub>3</sub>OH", "KMnO<sub>4</sub>, NaOH, heat"],
+ "h": "Read the spectrum: what do the two weak bands near 2720 and 2820 cm<sup>−1</sup> plus a C=O near 1730 cm<sup>−1</sup> indicate?",
+ "w": "The strong C=O at 1728 cm<sup>−1</sup> with the pair of weak aldehyde C–H stretches (about 2820 and 2720 cm<sup>−1</sup>), and no O–H band, identify an aldehyde, hexanal. An anhydrous oxidant that stops at the aldehyde was used: <b>PCC</b>.",
+ "x": ["", "Aqueous chromic acid gives hexanoic acid, which shows a very broad O–H band from about 2500 to 3300 cm<sup>−1</sup>.", "NaBH<sub>4</sub> does not react with an alcohol; the spectrum would still show the broad O–H stretch near 3350 cm<sup>−1</sup>.", "Hot permanganate also oxidizes to the carboxylic acid, which shows the broad acid O–H band."]
+},
+{
+ "id": "alc-57", "t": "alcohols", "d": 2, "k": 0,
+ "q": "What is the major organic product of this sequence?",
+ "s": [{"smi": "O=Cc1ccccc1"}, {"arrow": "1. CH<sub>3</sub>CH<sub>2</sub>MgBr &nbsp;2. H<sub>3</sub>O<sup>+</sup>", "below": "3. H<sub>2</sub>SO<sub>4</sub>, heat"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "C/C=C/c1ccccc1"}, {"smi": "C/C=C\\c1ccccc1"}, {"smi": "C=CCc1ccccc1"}, {"smi": "CCC(O)c1ccccc1"}],
+ "h": "Make the alcohol first. In the E1 step, which alkene is most stable: think about conjugation and about E vs Z.",
+ "w": "Ethyl adds to benzaldehyde to give 1-phenylpropan-1-ol. Hot acid ionizes it to a benzylic cation, and loss of a proton from the adjacent CH<sub>2</sub> gives an alkene conjugated with the ring. The E isomer avoids the steric clash between phenyl and methyl and is favored under these equilibrating conditions: <b>(<i>E</i>)-prop-1-en-1-ylbenzene</b>.",
+ "x": ["", "The <i>Z</i> isomer puts the phenyl and methyl on the same side; under thermodynamic E1 conditions the less hindered <i>E</i> isomer dominates.", "Allylbenzene is not conjugated with the ring and would need loss of a proton from a carbon not adjacent to the cation.", "This is the alcohol after step 2; hot H<sub>2</sub>SO<sub>4</sub> dehydrates a benzylic alcohol readily."]
+},
+{
+ "id": "alc-58", "t": "alcohols", "d": 2, "k": 0,
+ "q": "An ether solution of benzoic acid, 4-methylphenol and cyclohexanol is extracted first with aqueous NaHCO<sub>3</sub>, then with aqueous NaOH. Where does each compound end up?",
+ "s": [{"smi": "OC(=O)c1ccccc1", "cap": "pK<sub>a</sub> 4.2"}, {"smi": "Cc1ccc(O)cc1", "cap": "pK<sub>a</sub> 10.3"}, {"smi": "OC1CCCCC1", "cap": "pK<sub>a</sub> ≈ 18"}],
+ "c": ["NaHCO<sub>3</sub> layer: benzoic acid; NaOH layer: 4-methylphenol; ether: cyclohexanol", "NaHCO<sub>3</sub> layer: benzoic acid and 4-methylphenol; NaOH layer: cyclohexanol; ether: nothing", "NaHCO<sub>3</sub> layer: benzoic acid; NaOH layer: 4-methylphenol and cyclohexanol; ether: nothing", "NaHCO<sub>3</sub> layer: nothing; NaOH layer: benzoic acid and 4-methylphenol; ether: cyclohexanol"],
+ "h": "A compound moves into water only if the base deprotonates it. Compare each pK<sub>a</sub> with H<sub>2</sub>CO<sub>3</sub> (6.4) and H<sub>2</sub>O (15.7).",
+ "w": "Bicarbonate (conjugate acid H<sub>2</sub>CO<sub>3</sub>, pK<sub>a</sub> 6.4) deprotonates only acids with pK<sub>a</sub> below about 6, so only benzoic acid moves into that layer as sodium benzoate. Hydroxide (H<sub>2</sub>O, 15.7) then deprotonates the phenol (10.3) but not cyclohexanol (≈ 18), which stays in the ether. Answer: <b>benzoic acid / 4-methylphenol / cyclohexanol</b>.",
+ "x": ["", "4-Methylphenol (pK<sub>a</sub> 10.3) is far less acidic than H<sub>2</sub>CO<sub>3</sub>, so bicarbonate barely deprotonates it.", "Cyclohexanol is less acidic than water, so hydroxide leaves it mostly protonated and it stays in the ether.", "Bicarbonate is basic enough to deprotonate a carboxylic acid (K<sub>eq</sub> ≈ 10<sup>2</sup>), so benzoic acid is removed in the first extraction."]
+},
+{
+ "id": "alc-59", "t": "alcohols", "d": 3, "k": 0,
+ "q": "Diol A (C<sub>7</sub>H<sub>14</sub>O<sub>2</sub>) reacts with NaIO<sub>4</sub> to give a single product, heptane-2,6-dione. Which structure is A?",
+ "s": [{"smi": "CC(=O)CCCC(C)=O", "cap": "heptane-2,6-dione"}],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "C[C@]1(O)CCC[C@@]1(C)O"}, {"smi": "CC1(O)CCCCC1O"}, {"smi": "CC1(O)CCC(C)(O)C1"}, {"smi": "OC1CCCCCC1O"}],
+ "h": "Work backward: join the two carbonyl carbons of the product with a C–C bond and put an OH on each. Is the result a ring?",
+ "w": "Periodate cleavage turns each carbon of a 1,2-diol into a C=O. Reconnecting C2 and C6 of heptane-2,6-dione gives a five-membered ring with a methyl and an OH on each of the two joined carbons: <b>cis-1,2-dimethylcyclopentane-1,2-diol</b> (C<sub>7</sub>H<sub>14</sub>O<sub>2</sub>). The cis isomer forms the cyclic periodate ester easily.",
+ "x": ["", "1-Methylcyclohexane-1,2-diol is cleaved too, but its secondary carbinol carbon becomes an aldehyde: the product is 6-oxoheptanal.", "This is a 1,3-diol; periodate cleaves only vicinal (1,2) diols, so it does not react.", "Cycloheptane-1,2-diol has only secondary OH carbons, so cleavage gives the dialdehyde heptanedial."]
+},
+{
+ "id": "alc-60", "t": "alcohols", "d": 3, "k": 0,
+ "q": "Alcohol X (C<sub>5</sub>H<sub>12</sub>O) is oxidized by PCC to a ketone. When X is heated with H<sub>2</sub>SO<sub>4</sub>, the major alkene is 2-methylbut-2-ene. What is X?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC(C)C(C)O"}, {"smi": "CCCC(C)O"}, {"smi": "CCC(C)(C)O"}, {"smi": "CC(C)CCO"}],
+ "h": "Use each clue to eliminate choices: the PCC result tells you the alcohol class; the alkene skeleton (possibly after a shift) tells you the branching.",
+ "w": "A ketone from PCC means X is secondary, which rules out the 1° and 3° choices. Of the secondary alcohols, pentan-2-ol has an unbranched chain and gives pent-2-ene. 3-Methylbutan-2-ol ionizes to a 2° cation that undergoes a 1,2-hydride shift to the 3° cation, and Zaitsev loss of H<sup>+</sup> gives 2-methylbut-2-ene. X is <b>3-methylbutan-2-ol</b>.",
+ "x": ["", "Pentan-2-ol is secondary but has no branch, so dehydration gives pent-2-ene, not 2-methylbut-2-ene.", "2-Methylbutan-2-ol does give 2-methylbut-2-ene, but as a tertiary alcohol it is not oxidized by PCC.", "3-Methylbutan-1-ol is primary; PCC gives the aldehyde 3-methylbutanal, not a ketone."]
+}
+]

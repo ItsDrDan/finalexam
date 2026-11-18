@@ -1,0 +1,530 @@
+[
+ {
+  "id": "nom-01",
+  "d": 2,
+  "q": "What is the IUPAC name of the alkane shown?",
+  "s": [
+   {
+    "smi": "CC(C)C(CC)CC(C)CC"
+   }
+  ],
+  "c": [
+   "3-ethyl-2,5-dimethylheptane",
+   "2,5-dimethyl-3-ethylheptane",
+   "5-ethyl-3,6-dimethylheptane",
+   "3-isopropyl-5-methylheptane"
+  ],
+  "h": "Find every seven-carbon chain. When two chains tie in length, pick the one carrying more substituents; then number for the lowest locant set and list prefixes alphabetically.",
+  "w": "Two different seven-carbon chains exist: one runs through the ethyl branch, the other through the isopropyl end. When chains tie in length, the parent is the one with <b>more substituents</b>. Running through the isopropyl end gives three substituents (methyl, ethyl, methyl), while running through the ethyl gives only two. Numbering from the isopropyl end gives locants {2,3,5}, lower than {3,5,6} from the other end. Prefixes are listed alphabetically, with di/tri ignored, so ethyl comes before methyl: <b>3-ethyl-2,5-dimethylheptane</b>.",
+  "x": [
+   "",
+   "The locants are right, but prefixes must be listed alphabetically (ethyl before methyl). The multiplier “di” does not count when alphabetizing.",
+   "This numbers from the wrong end. {3,5,6} loses to {2,3,5} at the first point of difference.",
+   "This heptane chain runs through the ethyl group and carries only two substituents. Among equally long chains, the one with more substituents is the parent."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-02",
+  "d": 1,
+  "q": "A student names a compound “2-ethylpentane.” What is the correct IUPAC name for the structure the student had in mind?",
+  "c": [
+   "3-methylhexane",
+   "2-ethylpentane is already correct",
+   "4-methylhexane",
+   "3-ethylpentane"
+  ],
+  "h": "Draw the structure the student described, then look for a longer continuous chain.",
+  "w": "Draw it: a pentane chain with CH<sub>2</sub>CH<sub>3</sub> on C2. Following the ethyl branch gives a <b>six-carbon</b> chain, so the parent is hexane, not pentane. The one-carbon branch (the old C1 of pentane) then sits on C3 of the hexane chain when numbered from the nearer end: <b>3-methylhexane</b>. An ethyl group on C2 always signals a missed longer chain.",
+  "x": [
+   "",
+   "An ethyl group on C2 extends the chain by two carbons, so pentane is not the longest chain and the name is wrong.",
+   "This numbers the hexane from the far end. The methyl must get the lowest locant, 3.",
+   "3-Ethylpentane is a different isomer of C<sub>7</sub>H<sub>16</sub>: its ethyl is on the central carbon, so no longer chain exists. The student's ethyl is on C2, which creates a six-carbon chain."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-03",
+  "d": 2,
+  "q": "Which name describes the compound shown, including its relative configuration?",
+  "s": [
+   {
+    "smi": "CC[C@H]1CCC[C@@H](C)C1"
+   }
+  ],
+  "c": [
+   "<i>cis</i>-1-ethyl-3-methylcyclohexane",
+   "<i>trans</i>-1-ethyl-3-methylcyclohexane",
+   "<i>cis</i>-1-methyl-3-ethylcyclohexane",
+   "<i>cis</i>-3-ethyl-1-methylcyclohexane"
+  ],
+  "h": "Decide whether the two groups point to the same face of the ring (both wedged or both dashed). With a tie in locants, the group cited first alphabetically gets C1.",
+  "w": "The two ring bonds to the substituents use the same wedge/dash sense, so both groups are on the same face: <b>cis</b>. The ring locants are {1,3} either way, so the tie is broken alphabetically: ethyl is cited first and gets C1. The name is <b><i>cis</i>-1-ethyl-3-methylcyclohexane</b>.",
+  "x": [
+   "",
+   "Both substituents are drawn on the same face of the ring, which is cis. Trans would need one wedge and one dash.",
+   "Prefixes are cited in alphabetical order, so ethyl comes before methyl in the name.",
+   "When the locant set ties ({1,3} both ways), the alphabetically first prefix (ethyl) gets the lower number, C1."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-04",
+  "d": 2,
+  "q": "What is the IUPAC name of the alkene shown?",
+  "s": [
+   {
+    "smi": "C/C=C(/CC)C(C)C"
+   }
+  ],
+  "c": [
+   "(<i>Z</i>)-3-ethyl-4-methylpent-2-ene",
+   "(<i>E</i>)-3-ethyl-4-methylpent-2-ene",
+   "(<i>Z</i>)-3-isopropylpent-2-ene",
+   "(<i>Z</i>)-3-ethyl-2-methylpent-3-ene"
+  ],
+  "h": "Two five-carbon chains contain the C=C. Choose the one with more substituents, then rank the groups on each alkene carbon by CIP rules.",
+  "w": "Both five-carbon chains contain the double bond (one runs into the ethyl group, one into the isopropyl group). The tie is broken by the number of substituents: the chain through the isopropyl carbon carries an ethyl and a methyl (two) versus one isopropyl group for the other chain. Number from the end nearer the C=C: pent-2-ene with 3-ethyl and 4-methyl. For E/Z: on C2, CH<sub>3</sub> > H; on C3, CH(CH<sub>3</sub>)<sub>2</sub> (C,C,H) > CH<sub>2</sub>CH<sub>3</sub> (C,H,H). The CH<sub>3</sub> on C2 and the isopropyl carbon are on the same side, so the alkene is <b>(<i>Z</i>)-3-ethyl-4-methylpent-2-ene</b>.",
+  "x": [
+   "",
+   "The higher-priority groups (CH<sub>3</sub> on C2 and the isopropyl carbon on C3) are on the same side of the double bond, which is Z.",
+   "This chain is as long but carries only one substituent. With equal chains, the parent is the one with more substituents.",
+   "The double bond must get the lowest locant, so numbering starts at the CH<sub>3</sub>CH= end (pent-2-ene, not pent-3-ene)."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-05",
+  "d": 1,
+  "q": "How many degrees of unsaturation (rings + π bonds) does a compound with formula C<sub>9</sub>H<sub>10</sub>ClNO<sub>2</sub> have?",
+  "c": [
+   "5",
+   "4",
+   "6",
+   "3"
+  ],
+  "h": "Treat a halogen like H, ignore O, and let each N add one to the H count allowed.",
+  "w": "DBE = (2C + 2 + N − H − X)/2 = (18 + 2 + 1 − 10 − 1)/2 = 10/2 = <b>5</b>. Oxygen does not change the count. 4-Chlorophenylalanine (a benzene ring, 4, plus a C=O, 1) is one compound with this formula.",
+  "x": [
+   "",
+   "This comes from subtracting the nitrogen instead of adding it. Each N raises the number of H atoms a saturated molecule can hold by one.",
+   "This treats Cl as if it did not count. A halogen takes the place of an H, so it is subtracted like H.",
+   "This counts oxygen as if it lowered the H count. Divalent O does not change the DBE."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-06",
+  "d": 2,
+  "q": "Capsaicin, the compound that makes chili peppers hot, is shown. Which functional group is <b>not</b> present in capsaicin?",
+  "s": [
+   {
+    "smi": "COc1cc(CNC(=O)CCCC/C=C/C(C)C)ccc1O"
+   }
+  ],
+  "c": [
+   "ester",
+   "amide",
+   "phenol",
+   "ether"
+  ],
+  "h": "Look at what is attached to each oxygen and to the carbonyl carbon.",
+  "w": "Go group by group. The C=O carbon is bonded to N, so that unit is an <b>amide</b> (a secondary amide, N–H). The OH sits directly on the benzene ring, which makes it a <b>phenol</b>. The OCH<sub>3</sub> on the ring is an aryl methyl <b>ether</b>. There is also a trans C=C. No carbonyl carbon is bonded to an O–C, so there is <b>no ester</b>.",
+  "x": [
+   "",
+   "The C(=O)–NH unit is an amide; capsaicin has one.",
+   "The OH bonded directly to the aromatic ring is a phenol; capsaicin has one.",
+   "The CH<sub>3</sub>O– group on the ring is an ether (an aryl methyl ether); capsaicin has one."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-07",
+  "d": 2,
+  "q": "Cocaine is shown. Which choice correctly lists its functional groups (ignore the benzene ring)?",
+  "s": [
+   {
+    "smi": "COC(=O)C1C(OC(=O)c2ccccc2)CC2CCC1N2C"
+   }
+  ],
+  "c": [
+   "two esters and a tertiary amine",
+   "two esters and a secondary amine",
+   "an ester, a ketone, and a tertiary amine",
+   "an ester, an ether, and a tertiary amide"
+  ],
+  "h": "For each C=O, ask what the carbonyl carbon is bonded to. For the nitrogen, count its carbon neighbors and check whether any is a C=O.",
+  "w": "Both carbonyl carbons are bonded to an O–C: one is a methyl ester (CO<sub>2</sub>CH<sub>3</sub>) and one is a benzoate ester. The nitrogen is bonded to three carbons (two ring carbons and a CH<sub>3</sub>) and none is a carbonyl carbon, so it is a <b>tertiary amine</b>. Answer: <b>two esters and a tertiary amine</b>.",
+  "x": [
+   "",
+   "The N carries a CH<sub>3</sub> and two ring carbons, three carbon groups in all, which makes it tertiary.",
+   "Neither carbonyl carbon is flanked by two carbons; each is bonded to an oxygen that carries a carbon, so both are esters.",
+   "The nitrogen is not bonded to a carbonyl carbon, so it is an amine, not an amide; and the O–C single bonds belong to esters, not a simple ether."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-08",
+  "d": 3,
+  "q": "What is the IUPAC name of the bicyclic compound shown?",
+  "s": [
+   {
+    "smi": "C12CCCC(C1)CC2C"
+   }
+  ],
+  "c": [
+   "6-methylbicyclo[3.2.1]octane",
+   "7-methylbicyclo[3.2.1]octane",
+   "2-methylbicyclo[3.2.1]octane",
+   "6-methylbicyclo[2.3.1]octane"
+  ],
+  "h": "Count the carbons in each bridge between the two bridgeheads. Number from a bridgehead around the longest bridge, then the next longest, and the shortest bridge last.",
+  "w": "The bridgeheads are joined by bridges of 3, 2 and 1 carbons (8 carbons total), so the ring system is bicyclo[3.2.1]octane, with the numbers in decreasing order. Numbering starts at a bridgehead (C1), runs around the 3-carbon bridge (C2–C4) to the other bridgehead (C5), continues through the 2-carbon bridge (C6, C7) and ends on the 1-carbon bridge (C8). The methyl is on the 2-carbon bridge next to a bridgehead. Choosing C1 so that this carbon is reached first in the 2-carbon bridge gives it locant 6 (the other choice gives 7): <b>6-methylbicyclo[3.2.1]octane</b>.",
+  "x": [
+   "",
+   "This starts at the wrong bridgehead. Both numberings are allowed by the bridge order, so pick the one giving the methyl the lower locant, 6.",
+   "C2–C4 belong to the longest (3-carbon) bridge. The methyl is on the 2-carbon bridge, which is numbered after the 3-carbon bridge.",
+   "Bridge sizes are cited in decreasing order: [3.2.1], not [2.3.1]."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-09",
+  "d": 2,
+  "q": "Which structure is (<i>R</i>)-4-chloropent-1-ene?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CC[C@H](Cl)C"
+   },
+   {
+    "smi": "C=CC[C@@H](Cl)C"
+   },
+   {
+    "smi": "C=C[C@H](Cl)CC"
+   },
+   {
+    "smi": "C=CC[C@H](Cl)CC"
+   }
+  ],
+  "h": "First find structures with the right chain and Cl position (C=C at C1, Cl at C4). Then assign R/S at C4: Cl > CH<sub>2</sub>CH=CH<sub>2</sub> > CH<sub>3</sub> > H.",
+  "w": "Only two choices have five chain carbons with C=C at C1–C2 and Cl at C4. At C4 the priorities are Cl > CH<sub>2</sub>CH=CH<sub>2</sub> > CH<sub>3</sub> > H. Viewed with H pointing away, Cl → CH<sub>2</sub>CH=CH<sub>2</sub> → CH<sub>3</sub> must run clockwise for <b>R</b>; only one of those two structures does. Its mirror image is the S enantiomer.",
+  "x": [
+   "",
+   "This is the enantiomer, (<i>S</i>)-4-chloropent-1-ene: the Cl is on the opposite wedge/dash.",
+   "The Cl here is on C3, next to the double bond: this is (<i>R</i>)-3-chloropent-1-ene.",
+   "This chain has six carbons: (<i>R</i>)-4-chlorohex-1-ene, not a pentene."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-10",
+  "d": 1,
+  "q": "What is the IUPAC (substitutive) name of the ether shown?",
+  "s": [
+   {
+    "smi": "CCOC(C)C"
+   }
+  ],
+  "c": [
+   "2-ethoxypropane",
+   "1-ethoxypropane",
+   "2-methoxybutane",
+   "2-ethoxybutane"
+  ],
+  "h": "Name the larger alkyl group as the parent alkane and the smaller one as an alkoxy prefix.",
+  "w": "The oxygen joins an ethyl group and an isopropyl group. The larger group (three carbons) is the parent, propane; the smaller becomes the ethoxy prefix. The O is on the middle carbon of propane: <b>2-ethoxypropane</b> (common name ethyl isopropyl ether).",
+  "x": [
+   "",
+   "1-Ethoxypropane has the O on the end carbon of a straight propyl group; here the O is on the central CH carbon.",
+   "That compound has a methyl on oxygen and a four-carbon chain; the drawing has an O–CH<sub>2</sub>CH<sub>3</sub> group and a three-carbon branch.",
+   "The parent here has only three carbons. A butane parent would need four carbons on one side of the oxygen."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-11",
+  "d": 2,
+  "q": "What is the IUPAC name of the amine shown?",
+  "s": [
+   {
+    "smi": "CN(C)C(C)CC"
+   }
+  ],
+  "c": [
+   "<i>N</i>,<i>N</i>-dimethylbutan-2-amine",
+   "<i>N</i>,<i>N</i>-dimethylbutan-3-amine",
+   "<i>N</i>-ethyl-<i>N</i>-methylpropan-2-amine",
+   "<i>N</i>,<i>N</i>,1-trimethylpropan-1-amine"
+  ],
+  "h": "The parent is the longest carbon chain attached to N. The other groups on N are named with the prefix <i>N</i>-.",
+  "w": "The nitrogen carries two CH<sub>3</sub> groups and a four-carbon sec-butyl group. The longest carbon chain bonded to N is butane, with N on C2 when numbered from the nearer end. The two methyls on nitrogen are cited as <i>N</i>,<i>N</i>-dimethyl: <b><i>N</i>,<i>N</i>-dimethylbutan-2-amine</b>.",
+  "x": [
+   "",
+   "The amine suffix must get the lowest possible locant: 2, not 3.",
+   "This is an isomer: it has an ethyl and a methyl on N and an isopropyl group. The drawn compound has two N-methyls and a four-carbon chain.",
+   "This uses a three-carbon parent and treats a chain carbon as a methyl branch. The parent must be the longest chain, butane."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-12",
+  "d": 2,
+  "q": "How many degrees of unsaturation does the compound shown have?",
+  "s": [
+   {
+    "smi": "N#CC1CCC(C#C)C=C1"
+   }
+  ],
+  "c": [
+   "6",
+   "5",
+   "4",
+   "7"
+  ],
+  "h": "Each ring counts 1, each double bond 1 and each triple bond 2. Check your count with the formula.",
+  "w": "Count: one ring (1) + one C=C (1) + the C≡C (2) + the C≡N (2) = <b>6</b>. Check with the formula C<sub>9</sub>H<sub>9</sub>N: (18 + 2 + 1 − 9)/2 = 6.",
+  "x": [
+   "",
+   "This misses one unit, usually by counting the ring C=C but forgetting the ring itself, or by counting a triple bond as one.",
+   "This counts each triple bond as only one degree. A triple bond has two π bonds and counts 2.",
+   "This double-counts something. One ring + one C=C + two triple bonds (2 each) gives 6."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-13",
+  "d": 3,
+  "q": "What is the complete IUPAC name of the compound shown?",
+  "s": [
+   {
+    "smi": "C/C=C(/CCl)CCC"
+   }
+  ],
+  "c": [
+   "(<i>E</i>)-3-(chloromethyl)hex-2-ene",
+   "(<i>Z</i>)-3-(chloromethyl)hex-2-ene",
+   "(<i>E</i>)-4-(chloromethyl)hex-4-ene",
+   "(<i>Z</i>)-1-chloro-2-ethylidenepentane"
+  ],
+  "h": "Pick the longest chain containing the C=C; Cl is only a prefix. For E/Z, compare the two groups on each alkene carbon by first atoms, then the atoms attached.",
+  "w": "The longest chain containing the double bond runs CH<sub>3</sub>–CH=C–CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> (six carbons), numbered so the C=C gets locant 2. The CH<sub>2</sub>Cl on C3 is a chloromethyl prefix. On C2, CH<sub>3</sub> > H. On C3, CH<sub>2</sub>Cl outranks the propyl group because its first atom bears (Cl,H,H) versus (C,H,H). The CH<sub>3</sub> on C2 and the CH<sub>2</sub>Cl are on opposite sides, so the alkene is <b>E</b>, even though the main chain itself is drawn cis: <b>(<i>E</i>)-3-(chloromethyl)hex-2-ene</b>.",
+  "x": [
+   "",
+   "Z would require the two top-priority groups on the same side. Here the CH<sub>2</sub>Cl, not the propyl chain, is the higher-priority group on C3, and it is opposite the CH<sub>3</sub>.",
+   "The double bond must get the lowest locant, so number from the CH<sub>3</sub>CH= end (hex-2-ene).",
+   "This parent has only five carbons. Halogens are prefixes and do not have to be in the parent chain, so the six-carbon chain wins."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-14",
+  "d": 2,
+  "q": "The enyne shown gives its multiple bonds the same locants from either end of the chain. What is its correct IUPAC name?",
+  "s": [
+   {
+    "smi": "C#CC(C)CC=C"
+   }
+  ],
+  "c": [
+   "4-methylhex-1-en-5-yne",
+   "3-methylhex-5-en-1-yne",
+   "3-methylhex-1-en-5-yne",
+   "4-methylhex-5-en-1-yne"
+  ],
+  "h": "Give the multiple bonds, taken together, the lowest locants. If both directions tie, the double bond gets the lower number.",
+  "w": "Numbering from the alkene end puts the multiple bonds at {1,5}; numbering from the alkyne end also gives {1,5}. When the ene/yne set ties, the rule gives the <b>double bond</b> the lower locant, so C1 is the CH<sub>2</sub>= carbon. The methyl is then on C4: <b>4-methylhex-1-en-5-yne</b>. This rule outranks the substituent locant, so the methyl does not get 3.",
+  "x": [
+   "",
+   "This gives the alkyne locant 1. With a tie in the multiple-bond set, the double bond gets the lower number.",
+   "With the C=C at C1, the methyl lands on C4, not C3. Count again from the CH<sub>2</sub>= end.",
+   "With the C≡C at C1, the methyl would be on C3. In any case the alkyne end should not be C1 here."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-15",
+  "d": 2,
+  "q": "What is the complete IUPAC name of the compound shown?",
+  "s": [
+   {
+    "smi": "Cl/C=C(\\Br)CC"
+   }
+  ],
+  "c": [
+   "(<i>Z</i>)-2-bromo-1-chlorobut-1-ene",
+   "(<i>E</i>)-2-bromo-1-chlorobut-1-ene",
+   "(<i>Z</i>)-1-chloro-2-bromobut-1-ene",
+   "(<i>Z</i>)-3-bromo-4-chlorobut-3-ene"
+  ],
+  "h": "Number so the double bond gets the lowest locant, list halogens alphabetically, then rank each alkene carbon's two groups by atomic number.",
+  "w": "The double bond must be at C1, so C1 is the CHCl carbon and C2 bears Br and the ethyl group. Prefixes are listed alphabetically: bromo before chloro. On C1, Cl > H; on C2, Br > CH<sub>2</sub>CH<sub>3</sub>. Cl and Br are on the same side, so the alkene is <b>Z</b>: <b>(<i>Z</i>)-2-bromo-1-chlorobut-1-ene</b>.",
+  "x": [
+   "",
+   "Cl and Br, the higher-priority atoms on each alkene carbon, are on the same side. That is Z.",
+   "The prefixes must be in alphabetical order: bromo before chloro.",
+   "This numbers from the wrong end. The double bond must get the lowest locant, 1."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-16",
+  "d": 3,
+  "q": "What is the complete IUPAC name of the compound shown?",
+  "s": [
+   {
+    "smi": "OC/C(=C\\C)C(C)C"
+   }
+  ],
+  "c": [
+   "(<i>Z</i>)-2-isopropylbut-2-en-1-ol",
+   "(<i>E</i>)-2-isopropylbut-2-en-1-ol",
+   "(<i>Z</i>)-3-(hydroxymethyl)-4-methylpent-2-ene",
+   "(<i>Z</i>)-3-isopropylbut-2-en-4-ol"
+  ],
+  "h": "OH is the principal group, so it is the suffix and its carbon must be in the parent chain, lowest locant. For E/Z, compare CH<sub>2</sub>OH and isopropyl atom by atom.",
+  "w": "The OH is the principal characteristic group, so the parent must contain the CH<sub>2</sub>OH carbon and the name ends in -ol. From that carbon, two four-carbon chains are possible; the one containing the C=C is preferred (more multiple bonds). Number from the OH carbon: but-2-en-1-ol with an isopropyl group on C2. For E/Z, on C2: CH<sub>2</sub>OH (O,H,H) beats CH(CH<sub>3</sub>)<sub>2</sub> (C,C,H) at the first point of difference, because O > C. On C3: CH<sub>3</sub> > H. CH<sub>2</sub>OH and CH<sub>3</sub> are on the same side: <b>(<i>Z</i>)-2-isopropylbut-2-en-1-ol</b>.",
+  "x": [
+   "",
+   "The isopropyl group has more carbons, but CIP compares atoms one at a time: CH<sub>2</sub>OH carries an O, which beats the C,C,H set of isopropyl. The top groups are on the same side, so Z.",
+   "An alcohol is named with the -ol suffix, not as a hydroxy- prefix, and its carbon must be in the parent chain.",
+   "The OH carbon must get the lowest locant (C1), not C4."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-17",
+  "d": 2,
+  "q": "What is the IUPAC name of the compound shown?",
+  "s": [
+   {
+    "smi": "CC1=CC(O)CCC1"
+   }
+  ],
+  "c": [
+   "3-methylcyclohex-2-en-1-ol",
+   "1-methylcyclohex-1-en-3-ol",
+   "5-methylcyclohex-5-en-1-ol",
+   "2-methylcyclohex-2-en-1-ol"
+  ],
+  "h": "The OH carbon is C1. Go around the ring in the direction that gives the double bond the lower locant.",
+  "w": "The alcohol is the principal group, so the OH carbon is C1. Going toward the C=C gives the double bond locants 2,3 (cyclohex-2-ene); the other direction gives 5,6. The methyl then sits on C3: <b>3-methylcyclohex-2-en-1-ol</b>.",
+  "x": [
+   "",
+   "The OH carbon must be C1 because the alcohol is the suffix. Here the alkene was numbered first.",
+   "This numbers around the ring the long way. The double bond should get the lower locants, 2 and 3.",
+   "Here the methyl would be on the C=C carbon next to C1. In the drawing it is on the far alkene carbon, C3."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-18",
+  "d": 3,
+  "q": "What is the complete IUPAC name of the compound shown?",
+  "s": [
+   {
+    "smi": "C[C@@H](Cl)[C@H](Br)CC"
+   }
+  ],
+  "c": [
+   "(2<i>R</i>,3<i>R</i>)-3-bromo-2-chloropentane",
+   "(2<i>S</i>,3<i>S</i>)-3-bromo-2-chloropentane",
+   "(2<i>R</i>,3<i>S</i>)-3-bromo-2-chloropentane",
+   "(2<i>S</i>,3<i>R</i>)-3-bromo-2-chloropentane"
+  ],
+  "h": "Assign each center separately. At C2: Cl > C3 (bears Br) > CH<sub>3</sub> > H. At C3: Br > C2 (bears Cl) > CH<sub>2</sub>CH<sub>3</sub> > H.",
+  "w": "Numbering from the left gives locants {2,3}; from the right {3,4}, so the Cl carbon is C2 and the Br carbon is C3 (bromo is cited first alphabetically). At C2: Cl > C3 (Br,C,H) > CH<sub>3</sub> > H; as drawn this center is <b>R</b>. At C3: Br > C2 (Cl,C,H) > CH<sub>2</sub>CH<sub>3</sub> > H; also <b>R</b>. Name: <b>(2<i>R</i>,3<i>R</i>)-3-bromo-2-chloropentane</b>.",
+  "x": [
+   "",
+   "Both descriptors are reversed. This is the enantiomer; recheck which way the H points before reading the direction.",
+   "C2 is right but C3 is not. At C3 the C2 branch (Cl,C,H) outranks the ethyl group (C,H,H).",
+   "C3 is right but C2 is not. At C2 the C3 branch, which carries Br, outranks CH<sub>3</sub>, and the result is R."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-19",
+  "d": 3,
+  "q": "What is the IUPAC name of the compound shown?",
+  "s": [
+   {
+    "smi": "CC1CC2C=CC1C2"
+   }
+  ],
+  "c": [
+   "5-methylbicyclo[2.2.1]hept-2-ene",
+   "6-methylbicyclo[2.2.1]hept-2-ene",
+   "2-methylbicyclo[2.2.1]hept-5-ene",
+   "7-methylbicyclo[2.2.1]hept-2-ene"
+  ],
+  "h": "Number the bicyclic system first (C1 bridgehead, then the longer bridges, the one-carbon bridge last). Among the allowed numberings, the double bond gets the lowest locants before the substituent.",
+  "w": "The ring system is bicyclo[2.2.1]heptane (bridges of 2, 2 and 1 carbon). The double bond comes before the substituent in numbering, so the C=C is placed at C2–C3. That leaves two choices of starting bridgehead. Starting at the bridgehead <i>not</i> next to the methyl carbon, the numbering runs C2=C3, C4 (bridgehead), C5 (methyl carbon), C6, and C7 (one-carbon bridge). The other start puts the methyl on C6. Lowest locant: <b>5-methylbicyclo[2.2.1]hept-2-ene</b>.",
+  "x": [
+   "",
+   "This starts at the other bridgehead. Both numberings put the C=C at C2, so choose the one giving the methyl the lower locant, 5.",
+   "The double bond takes precedence over the substituent for low locants, so it must be at C2, not C5.",
+   "C7 is the one-carbon bridge. The methyl in the drawing is on a two-carbon bridge."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ },
+ {
+  "id": "nom-20",
+  "d": 2,
+  "q": "Which structure is <i>cis</i>-1-bromo-3-methylcyclohexane?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Br[C@H]1CCC[C@@H](C)C1"
+   },
+   {
+    "smi": "Br[C@H]1CCC[C@H](C)C1"
+   },
+   {
+    "smi": "Br[C@H]1CCCC[C@H]1C"
+   },
+   {
+    "smi": "Br[C@H]1CCCC[C@@H]1C"
+   }
+  ],
+  "h": "First check the positions (1,3 means one carbon between them). Then check that both groups are on the same face (both wedged or both dashed).",
+  "w": "Two choices are 1,3-disubstituted and two are 1,2. Of the 1,3 pair, the correct one has Br and CH<sub>3</sub> on the <b>same face</b> of the ring (both wedges or both dashes), which is cis.",
+  "x": [
+   "",
+   "This is the 1,3 compound with Br and CH<sub>3</sub> on opposite faces: <i>trans</i>-1-bromo-3-methylcyclohexane.",
+   "The groups are on adjacent carbons: this is <i>cis</i>-1-bromo-2-methylcyclohexane.",
+   "The groups are on adjacent carbons and on opposite faces: <i>trans</i>-1-bromo-2-methylcyclohexane."
+  ],
+  "t": "nomenclature",
+  "k": 0
+ }
+]

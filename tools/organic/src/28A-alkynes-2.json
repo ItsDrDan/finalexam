@@ -1,0 +1,518 @@
+[
+ {
+  "id": "alk-19",
+  "t": "alkynes",
+  "q": "3-Methylbut-1-yne is treated separately with (I) H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>, HgSO<sub>4</sub> and (II) 1. disiamylborane 2. H<sub>2</sub>O<sub>2</sub>, NaOH. Which pair names the products correctly?",
+  "c": [
+   "I: 3-methylbutan-2-one; II: 3-methylbutanal",
+   "I: 3-methylbutanal; II: 3-methylbutan-2-one",
+   "I: 3-methylbutan-2-one; II: 3-methylbutan-1-ol",
+   "I: 3-methylbutan-2-ol; II: 3-methylbutanal"
+  ],
+  "h": "Decide Markovnikov vs anti-Markovnikov for each, then remember both reactions pass through an enol.",
+  "w": "Mercury-catalyzed hydration is Markovnikov: OH on C2, then the enol tautomerizes to the methyl ketone, <b>3-methylbutan-2-one</b>. A bulky dialkylborane puts boron on C1 (anti-Markovnikov); oxidation gives the enol HO–CH=CH–, which tautomerizes to the aldehyde, <b>3-methylbutanal</b>.",
+  "x": [
+   "",
+   "The regiochemistry is reversed: HgSO<sub>4</sub> hydration is Markovnikov (ketone), hydroboration is anti-Markovnikov (aldehyde).",
+   "Hydroboration–oxidation of an alkyne gives an enol that tautomerizes to the aldehyde; an alcohol would need a reduction step.",
+   "Alkyne hydration gives an enol that tautomerizes to a ketone, not an alcohol."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C#CC(C)C"
+   }
+  ]
+ },
+ {
+  "id": "alk-20",
+  "t": "alkynes",
+  "q": "Why is a bulky dialkylborane such as disiamylborane or 9-BBN used, instead of BH<sub>3</sub>, to hydroborate a terminal alkyne?",
+  "c": [
+   "After one addition, the vinylborane still has a π bond; the bulky borane adds only once, so oxidation gives the aldehyde.",
+   "BH<sub>3</sub> adds with Markovnikov regiochemistry to alkynes, so it would give a ketone.",
+   "BH<sub>3</sub> cannot add to C≡C bonds; only dialkylboranes react with alkynes.",
+   "The bulky borane is needed to make the enol tautomerize to the aldehyde."
+  ],
+  "h": "Think about what is left after the first B–H adds across the triple bond.",
+  "w": "Hydroboration of a triple bond leaves a C=C (a vinylborane), which can react with a second B–H. A small borane like BH<sub>3</sub> can add twice and has three B–H bonds that react further. The <b>steric bulk</b> of Sia<sub>2</sub>BH or 9-BBN stops the reaction after <b>one</b> addition (and reinforces boron on the terminal carbon), so H<sub>2</sub>O<sub>2</sub>/NaOH gives the enol and then the aldehyde.",
+  "x": [
+   "",
+   "BH<sub>3</sub> also adds boron to the less substituted carbon; the problem with BH<sub>3</sub> is double addition, not regiochemistry.",
+   "BH<sub>3</sub> does react with alkynes; it just does not stop cleanly after one addition.",
+   "Enol-to-aldehyde tautomerization occurs on its own under the basic oxidation conditions; the borane plays no part in it."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "alk-21",
+  "t": "alkynes",
+  "q": "What is the major product of but-2-yne with <b>one</b> equivalent of Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Halogen addition to a π bond goes through a bridged bromonium ion. Which face does Br<sup>−</sup> attack, and how many equivalents add?",
+  "w": "As with alkenes, Br<sub>2</sub> adds to an alkyne mainly <b>anti</b>, so the two Br atoms end up on opposite sides of the new C=C. With one equivalent the product is the dibromoalkene <b>(<i>E</i>)-2,3-dibromobut-2-ene</b>.",
+  "x": [
+   "",
+   "The <i>Z</i> isomer would require syn addition; bromination is mainly anti.",
+   "The tetrabromide forms only with two (or more) equivalents of Br<sub>2</sub>.",
+   "A saturated vicinal dibromide would need an extra H<sub>2</sub>; Br<sub>2</sub> adds only Br atoms, leaving a C=C."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "C/C(Br)=C(/C)Br"
+   },
+   {
+    "smi": "C/C(Br)=C(\\C)Br"
+   },
+   {
+    "smi": "CC(Br)(Br)C(C)(Br)Br"
+   },
+   {
+    "smi": "C[C@@H](Br)[C@@H](Br)C"
+   }
+  ]
+ },
+ {
+  "id": "alk-22",
+  "t": "alkynes",
+  "q": "An alkyne C<sub>7</sub>H<sub>12</sub> is treated with 1. O<sub>3</sub> 2. H<sub>2</sub>O. The only products are propanoic acid and butanoic acid. Which alkyne was it?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Ozonolysis cuts the triple bond and turns each sp carbon into a COOH carbon. Rejoin the two acid carbons with a triple bond.",
+  "w": "Ozonolysis of an internal alkyne breaks C≡C completely, giving two carboxylic acids (a terminal ≡CH becomes CO<sub>2</sub>). Joining the carboxyl carbons of CH<sub>3</sub>CH<sub>2</sub>COOH (C3) and CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH (C4) gives CH<sub>3</sub>CH<sub>2</sub>C≡CCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>, <b>hept-3-yne</b>.",
+  "x": [
+   "",
+   "Hept-2-yne would give acetic acid (C2) and pentanoic acid (C5).",
+   "This alkyne would give propanoic acid and 2-methylpropanoic acid, a branched C4 acid, not butanoic acid.",
+   "A terminal alkyne gives one carboxylic acid (here hexanoic acid) plus CO<sub>2</sub>."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CCC#CCCC"
+   },
+   {
+    "smi": "CC#CCCCC"
+   },
+   {
+    "smi": "CCC#CC(C)C"
+   },
+   {
+    "smi": "C#CCCCCC"
+   }
+  ]
+ },
+ {
+  "id": "alk-23",
+  "t": "alkynes",
+  "q": "Compound X (C<sub>8</sub>H<sub>12</sub>) takes up 2 equiv H<sub>2</sub> over Pt to give C<sub>8</sub>H<sub>16</sub>. Treatment of X with 1. O<sub>3</sub> 2. H<sub>2</sub>O gives a single product, octanedioic acid, HOOC(CH<sub>2</sub>)<sub>6</sub>COOH. Which structure is X?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Count degrees of unsaturation and how many are π bonds. If the product keeps all 8 carbons with a COOH at each end, where was the cleaved bond?",
+  "w": "C<sub>8</sub>H<sub>12</sub> has 3 degrees of unsaturation; 2 equiv H<sub>2</sub> removes two π bonds, so X has one ring plus a triple bond (or two C=C). Ozonolysis giving a <b>single</b> C<sub>8</sub> diacid means one multiple bond was cut inside a ring, leaving both cut carbons as COOH groups on the same chain. Both new COOH carbons come from a triple bond (alkyne ozonolysis gives acids). That is <b>cyclooctyne</b>, the smallest isolable cycloalkyne.",
+  "x": [
+   "",
+   "Ethynylcyclohexane fits the formula and H<sub>2</sub> uptake, but ozonolysis gives cyclohexanecarboxylic acid and CO<sub>2</sub>, not an open-chain diacid.",
+   "Cycloocta-1,5-diene also fits the formula, but cutting both C=C bonds gives two C<sub>4</sub> fragments, not one C<sub>8</sub> product.",
+   "Cleaving both C=C bonds of 1-vinylcyclohexene gives a C<sub>7</sub> fragment and a one-carbon fragment, not a single C<sub>8</sub> diacid."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "C1CCCC#CCC1"
+   },
+   {
+    "smi": "C#CC1CCCCC1"
+   },
+   {
+    "smi": "C1=CCCC=CCC1"
+   },
+   {
+    "smi": "C=CC1=CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "alk-24",
+  "t": "alkynes",
+  "q": "Which sequence, starting from acetylene (HC≡CH), gives <b>hexanal</b>?",
+  "c": [
+   "1. NaNH<sub>2</sub>  2. CH<sub>3</sub>(CH<sub>2</sub>)<sub>3</sub>Br  3. Sia<sub>2</sub>BH  4. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "1. NaNH<sub>2</sub>  2. CH<sub>3</sub>(CH<sub>2</sub>)<sub>3</sub>Br  3. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>, HgSO<sub>4</sub>",
+   "1. NaOH  2. CH<sub>3</sub>(CH<sub>2</sub>)<sub>3</sub>Br  3. Sia<sub>2</sub>BH  4. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "1. NaNH<sub>2</sub>  2. CH<sub>3</sub>(CH<sub>2</sub>)<sub>4</sub>Br  3. Sia<sub>2</sub>BH  4. H<sub>2</sub>O<sub>2</sub>, NaOH"
+  ],
+  "h": "Count carbons: acetylene brings 2. Then decide which hydration puts the C=O on the terminal carbon.",
+  "w": "Hexanal, CH<sub>3</sub>(CH<sub>2</sub>)<sub>4</sub>CHO, has 6 carbons with the carbonyl at C1. Acetylene (2 C) + a butyl group (4 C) gives hex-1-yne. Anti-Markovnikov hydration with the bulky borane then gives the aldehyde: <b>1. NaNH<sub>2</sub> 2. butyl bromide 3. Sia<sub>2</sub>BH 4. H<sub>2</sub>O<sub>2</sub>, NaOH</b>.",
+  "x": [
+   "",
+   "HgSO<sub>4</sub> hydration of hex-1-yne is Markovnikov and gives hexan-2-one, not hexanal.",
+   "Hydroxide is too weak a base to make the acetylide (water, p<i>K</i><sub>a</sub> 15.7, is far more acidic than acetylene, 25).",
+   "A pentyl halide gives hept-1-yne, so the final aldehyde is heptanal (7 C), one carbon too many."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "alk-25",
+  "t": "alkynes",
+  "q": "Which sequence converts acetylene into the alkene shown?",
+  "c": [
+   "1. NaNH<sub>2</sub>  2. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br  3. NaNH<sub>2</sub>  4. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br  5. Na, NH<sub>3</sub>(l)",
+   "1. NaNH<sub>2</sub>  2. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br  3. NaNH<sub>2</sub>  4. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br  5. H<sub>2</sub>, Lindlar catalyst",
+   "1. NaNH<sub>2</sub>  2. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br  3. Na, NH<sub>3</sub>(l)  4. NaNH<sub>2</sub>  5. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br",
+   "1. NaNH<sub>2</sub>  2. (CH<sub>3</sub>)<sub>2</sub>CHBr  3. NaNH<sub>2</sub>  4. (CH<sub>3</sub>)<sub>2</sub>CHBr  5. Na, NH<sub>3</sub>(l)"
+  ],
+  "h": "Build the full carbon skeleton as an alkyne first (two alkylations), then choose the reduction that sets the alkene geometry.",
+  "w": "The target is (<i>E</i>)-oct-4-ene: two propyl groups on a <i>trans</i> C=C. Alkylate acetylene twice with 1-bromopropane (deprotonate before each alkylation) to make oct-4-yne, then reduce with <b>Na, NH<sub>3</sub>(l)</b>, which gives the <i>trans</i> (<i>E</i>) alkene.",
+  "x": [
+   "",
+   "Lindlar hydrogenation is syn and gives (<i>Z</i>)-oct-4-ene, the wrong stereoisomer.",
+   "Reducing too early turns the terminal alkyne into an alkene, which has no acidic C–H for NaNH<sub>2</sub>, so the second alkylation fails.",
+   "Isopropyl bromide is secondary; acetylides do E2 with it (propene forms), and even S<sub>N</sub>2 would give a branched skeleton."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CCC/C=C/CCC"
+   }
+  ]
+ },
+ {
+  "id": "alk-26",
+  "t": "alkynes",
+  "q": "Which route is best for preparing the ketone shown as a single product?",
+  "c": [
+   "HC≡CH; 1. NaNH<sub>2</sub>  2. (CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>2</sub>Br  3. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>, HgSO<sub>4</sub>",
+   "CH<sub>3</sub>C≡CH; 1. NaNH<sub>2</sub>  2. (CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>Br  3. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>, HgSO<sub>4</sub>",
+   "HC≡CH; 1. NaNH<sub>2</sub>  2. (CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>2</sub>Br  3. Sia<sub>2</sub>BH  4. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "HC≡CH; 1. NaNH<sub>2</sub>  2. (CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>2</sub>Br  3. H<sub>2</sub>, Lindlar catalyst  4. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>"
+  ],
+  "h": "A methyl ketone comes cleanly from Markovnikov hydration of a <i>terminal</i> alkyne. What happens when an unsymmetrical internal alkyne is hydrated?",
+  "w": "The target is 5-methylhexan-2-one, CH<sub>3</sub>CO–CH<sub>2</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)<sub>2</sub>. Alkylating acetylide with the primary halide 1-bromo-3-methylbutane gives the terminal alkyne 5-methylhex-1-yne; HgSO<sub>4</sub> hydration is Markovnikov and gives only the methyl ketone. So the best route is <b>HC≡CH; NaNH<sub>2</sub>; (CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>2</sub>Br; HgSO<sub>4</sub>/H<sub>2</sub>SO<sub>4</sub>/H<sub>2</sub>O</b>.",
+  "x": [
+   "",
+   "This makes the internal alkyne 5-methylhex-2-yne; hydration of an unsymmetrical internal alkyne gives a mixture of the 2-one and the 3-one.",
+   "Hydroboration–oxidation of the terminal alkyne gives the aldehyde, 5-methylhexanal, not the methyl ketone.",
+   "Acid-catalyzed hydration of the alkene gives an alcohol (5-methylhexan-2-ol), not a ketone."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC(=O)CCC(C)C"
+   }
+  ]
+ },
+ {
+  "id": "alk-27",
+  "t": "alkynes",
+  "q": "Which reagent converts hept-1-yne into heptane?",
+  "c": [
+   "H<sub>2</sub> (excess), Pd/C",
+   "H<sub>2</sub>, Lindlar catalyst",
+   "Na, NH<sub>3</sub>(l)",
+   "NaBH<sub>4</sub>, CH<sub>3</sub>OH"
+  ],
+  "h": "Which reducing conditions do not stop at the alkene stage?",
+  "w": "An active metal catalyst (Pd/C or Pt) with excess H<sub>2</sub> adds two equivalents of H<sub>2</sub> and does not stop at the alkene: hept-1-yne → <b>heptane</b>. The other conditions either stop at the alkene or do not reduce C≡C.",
+  "x": [
+   "",
+   "Lindlar's poisoned catalyst stops after one H<sub>2</sub>, giving hept-1-ene.",
+   "Dissolving-metal reduction stops at the alkene (and a terminal alkyne is largely deprotonated under these conditions).",
+   "NaBH<sub>4</sub> delivers hydride to polar C=O bonds; it does not reduce nonpolar C≡C bonds."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "C#CCCCCC"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCCCCCC"
+   }
+  ]
+ },
+ {
+  "id": "alk-28",
+  "t": "alkynes",
+  "q": "Which statement correctly describes the reduction of an internal alkyne by Na in NH<sub>3</sub>(l)?",
+  "c": [
+   "Electrons are added one at a time; the vinyl radical and vinyl anion intermediates prefer the <i>trans</i> geometry before NH<sub>3</sub> protonates them.",
+   "Hydrogen atoms are delivered to one face from the surface of the sodium metal, so the product is <i>trans</i>.",
+   "NH<sub>3</sub> first protonates the alkyne to give a vinyl cation, which Na then reduces.",
+   "The <i>cis</i> alkene forms first and then isomerizes to the more stable <i>trans</i> alkene in NH<sub>3</sub>."
+  ],
+  "h": "The sequence is electron, proton, electron, proton. Which intermediate decides the geometry?",
+  "w": "Na donates an electron to give a <b>radical anion</b>; NH<sub>3</sub> protonates it to a <b>vinyl radical</b>, which adopts the less crowded <i>trans</i> arrangement; a second electron gives a <b>vinyl anion</b> that keeps the <i>trans</i> geometry and is protonated by NH<sub>3</sub>. The trans product therefore comes from the preferred geometry of these intermediates.",
+  "x": [
+   "",
+   "Na is not a hydrogenation surface; it supplies electrons, and the H atoms come from NH<sub>3</sub>. (Surface delivery would be syn and give cis.)",
+   "NH<sub>3</sub> is far too weak an acid to protonate an alkyne; the first step is electron transfer from Na.",
+   "No cis alkene forms; the geometry is set in the vinyl radical/anion stage, and simple alkenes do not isomerize under these conditions."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "alk-29",
+  "t": "alkynes",
+  "q": "Acid-catalyzed hydration of 3,3-dimethylbut-1-<i>ene</i> gives a methyl-shift product. What is the final product when 3,3-dimethylbut-1-<i>yne</i> is treated with H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>, HgSO<sub>4</sub>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Mercury-catalyzed alkyne hydration does not go through a free carbocation. Where does OH go, and what does the enol become?",
+  "w": "Hg<sup>2+</sup> activates the triple bond without forming a free carbocation, so no methyl shift occurs. Water adds Markovnikov (OH on C2), and the enol tautomerizes to the ketone: <b>3,3-dimethylbutan-2-one</b>.",
+  "x": [
+   "",
+   "The aldehyde is the anti-Markovnikov product, obtained by hydroboration–oxidation, not by HgSO<sub>4</sub> hydration.",
+   "This rearranged alcohol is what the <i>alkene</i> gives through a free carbocation; the alkyne hydration gives a ketone with no rearrangement.",
+   "This enol is the first-formed intermediate; under the acidic conditions it tautomerizes to the ketone."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CC(=O)C(C)(C)C"
+   },
+   {
+    "smi": "O=CCC(C)(C)C"
+   },
+   {
+    "smi": "CC(C)C(C)(C)O"
+   },
+   {
+    "smi": "C=C(O)C(C)(C)C"
+   }
+  ]
+ },
+ {
+  "id": "alk-30",
+  "t": "alkynes",
+  "q": "Which compounds give 2,2-dichlorobutane as the major product with excess HCl?",
+  "c": [
+   "I, II, and III",
+   "I and II only",
+   "I only",
+   "II and III only"
+  ],
+  "h": "HCl adds Markovnikov. In a vinyl chloride, a cation next to Cl is stabilized by the Cl lone pair.",
+  "w": "I (but-1-yne): two Markovnikov additions put both Cl on C2 → 2,2-dichlorobutane. II (but-2-yne): the first HCl gives 2-chlorobut-2-ene; the second protonates C3 so the cation sits on the Cl-bearing C2 → 2,2-dichlorobutane (C2 and C3 are equivalent at the start). III is that same vinyl chloride: protonation at C3 gives the Cl-stabilized cation at C2, and Cl<sup>−</sup> adds there. So <b>I, II, and III</b> all give 2,2-dichlorobutane.",
+  "x": [
+   "",
+   "III is a vinyl chloride; HCl adds so the cation forms on the Cl-bearing carbon, giving the same geminal 2,2-dichloride.",
+   "The symmetric internal alkyne II also gives the geminal dichloride at C2 (equivalent to C3), so I alone is incomplete.",
+   "Terminal alkyne I adds HCl Markovnikov twice, putting both Cl on C2, so it must be included."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C#CCC",
+    "cap": "I"
+   },
+   {
+    "smi": "CC#CC",
+    "cap": "II"
+   },
+   {
+    "smi": "C/C=C(/C)Cl",
+    "cap": "III"
+   }
+  ]
+ },
+ {
+  "id": "alk-31",
+  "t": "alkynes",
+  "q": "What is the major product when pent-1-yne reacts with <b>one</b> equivalent of HCl?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Markovnikov: H goes to the carbon that already has more H atoms. How many HCl add?",
+  "w": "H<sup>+</sup> adds to terminal C1 so the vinyl cation forms on C2 (the more substituted sp carbon). Cl<sup>−</sup> adds to C2, giving the vinyl halide <b>2-chloropent-1-ene</b>. Only one equivalent adds, so the product keeps a C=C.",
+  "x": [
+   "",
+   "Cl on C1 is the anti-Markovnikov product; HCl does not add anti-Markovnikov, even with peroxides.",
+   "The double bond stays between C1 and C2; HCl addition does not move it to C2–C3.",
+   "The geminal dichloride needs a second equivalent of HCl."
+  ],
+  "k": 0,
+  "d": 1,
+  "cs": [
+   {
+    "smi": "CCCC(Cl)=C"
+   },
+   {
+    "smi": "CCC/C=C/Cl"
+   },
+   {
+    "smi": "CC/C=C(/C)Cl"
+   },
+   {
+    "smi": "CCCC(C)(Cl)Cl"
+   }
+  ]
+ },
+ {
+  "id": "alk-32",
+  "t": "alkynes",
+  "q": "Sodium acetylide is to be alkylated with 1-bromopropane. Which solvent must <b>not</b> be used?",
+  "c": [
+   "ethanol",
+   "liquid ammonia",
+   "tetrahydrofuran (THF)",
+   "diethyl ether"
+  ],
+  "h": "Compare the acidity of each solvent with that of acetylene (p<i>K</i><sub>a</sub> ≈ 25).",
+  "w": "Acetylide is the conjugate base of an acid with p<i>K</i><sub>a</sub> ≈ 25. <b>Ethanol</b> (p<i>K</i><sub>a</sub> ≈ 16) is a much stronger acid, so it protonates the acetylide immediately (<i>K</i><sub>eq</sub> ≈ 10<sup>9</sup>) and destroys the nucleophile. NH<sub>3</sub> (38), THF and ether are far weaker acids and are suitable.",
+  "x": [
+   "",
+   "NH<sub>3</sub> (p<i>K</i><sub>a</sub> 38) is a weaker acid than acetylene, so it does not protonate acetylide; it is the usual solvent for these reactions.",
+   "THF has no O–H and its C–H bonds are far less acidic than acetylene, so it is a suitable aprotic solvent.",
+   "Diethyl ether is aprotic and does not protonate acetylide ions."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "alk-33",
+  "t": "alkynes",
+  "q": "Pent-4-yn-1-ol is treated with 2 equiv NaNH<sub>2</sub>, then 1 equiv CH<sub>3</sub>I, then H<sub>2</sub>O. What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Two equivalents remove both the most acidic H (O–H, p<i>K</i><sub>a</sub> ≈ 16) and the next (≡C–H, ≈ 25). Which anion of the dianion is the stronger base and nucleophile?",
+  "w": "NaNH<sub>2</sub> first removes the O–H proton, then the terminal ≡C–H, giving a dianion. The acetylide carbanion (conjugate acid p<i>K</i><sub>a</sub> 25) is a much stronger base and better nucleophile than the alkoxide (conjugate acid p<i>K</i><sub>a</sub> 16), so the one equivalent of CH<sub>3</sub>I alkylates <b>carbon</b>. Water then protonates the alkoxide: <b>hex-4-yn-1-ol</b>.",
+  "x": [
+   "",
+   "Alkylation at oxygen would require the alkoxide to outcompete the more reactive acetylide; the more basic anion of a dianion reacts first.",
+   "Only 1 equiv of CH<sub>3</sub>I is present, and the alkoxide is the less reactive site, so dimethylation is not the major outcome.",
+   "The propargylic CH<sub>2</sub> is not deprotonated by NaNH<sub>2</sub> (p<i>K</i><sub>a</sub> well above 38), so no carbanion forms there."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C#CCCCO"
+   },
+   {
+    "arrow": "1. NaNH<sub>2</sub> (2 equiv)",
+    "below": "2. CH<sub>3</sub>I (1 equiv)  3. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "CC#CCCCO"
+   },
+   {
+    "smi": "C#CCCCOC"
+   },
+   {
+    "smi": "CC#CCCCOC"
+   },
+   {
+    "smi": "C#CC(C)CCO"
+   }
+  ]
+ },
+ {
+  "id": "alk-34",
+  "t": "alkynes",
+  "q": "Which sequence converts hex-1-yne into <b>hexan-1-ol</b>?",
+  "c": [
+   "1. H<sub>2</sub>, Lindlar catalyst  2. BH<sub>3</sub>·THF  3. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "1. Sia<sub>2</sub>BH  2. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "1. H<sub>2</sub>, Lindlar catalyst  2. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>",
+   "1. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>, HgSO<sub>4</sub>  2. NaBH<sub>4</sub>, CH<sub>3</sub>OH"
+  ],
+  "h": "Hydroboration of an alkyne stops at a carbonyl compound. To reach a primary alcohol in one oxidation step, what must the hydroboration substrate be?",
+  "w": "Partial hydrogenation (Lindlar) gives hex-1-ene; hydroboration–oxidation of the alkene is anti-Markovnikov and gives the primary alcohol <b>hexan-1-ol</b>. Hydroborating the alkyne directly gives an enol that becomes hexanal, which would still need a reduction.",
+  "x": [
+   "",
+   "Hydroboration–oxidation of the alkyne gives hexanal (via the enol), an aldehyde rather than the alcohol.",
+   "Acid-catalyzed hydration of hex-1-ene is Markovnikov and gives hexan-2-ol.",
+   "HgSO<sub>4</sub> hydration gives hexan-2-one, and NaBH<sub>4</sub> reduces it to the secondary alcohol hexan-2-ol."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C#CCCCC"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "OCCCCCC"
+   }
+  ]
+ },
+ {
+  "id": "alk-35",
+  "t": "alkynes",
+  "q": "Alkyne X (C<sub>6</sub>H<sub>10</sub>) gives the same single ketone with either H<sub>2</sub>O/H<sub>2</sub>SO<sub>4</sub>/HgSO<sub>4</sub> or 1. Sia<sub>2</sub>BH 2. H<sub>2</sub>O<sub>2</sub>, NaOH. Ozonolysis of X (1. O<sub>3</sub> 2. H<sub>2</sub>O) gives one carboxylic acid and no CO<sub>2</sub>. Which structure is X?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "A terminal alkyne gives different products with the two hydration methods and loses its ≡CH carbon as CO<sub>2</sub> on ozonolysis. What internal alkyne gives one product from each?",
+  "w": "Getting the same single ketone from Markovnikov and anti-Markovnikov hydration requires the two sp carbons to be equivalent, and a single acid with no CO<sub>2</sub> on ozonolysis also requires an internal, symmetric alkyne. <b>Hex-3-yne</b> gives hexan-3-one by both methods and two molecules of propanoic acid on ozonolysis.",
+  "x": [
+   "",
+   "Hex-1-yne gives hexan-2-one with HgSO<sub>4</sub> but hexanal with Sia<sub>2</sub>BH, and its ozonolysis releases CO<sub>2</sub>.",
+   "Hex-2-yne is unsymmetric: each hydration gives a mixture of hexan-2-one and hexan-3-one, and ozonolysis gives two different acids (acetic and butanoic).",
+   "This terminal alkyne gives a methyl ketone with HgSO<sub>4</sub> but an aldehyde with Sia<sub>2</sub>BH, and ozonolysis gives CO<sub>2</sub>."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "CCC#CCC"
+   },
+   {
+    "smi": "C#CCCCC"
+   },
+   {
+    "smi": "CC#CCCC"
+   },
+   {
+    "smi": "C#CC(C)(C)C"
+   }
+  ]
+ }
+]

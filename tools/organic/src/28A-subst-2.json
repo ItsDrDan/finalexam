@@ -1,0 +1,655 @@
+[
+ {
+  "id": "subst-18",
+  "t": "subst",
+  "q": "(<i>S</i>)-2-Bromopentane is treated with NaSCH<sub>3</sub> in DMF. What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Thiolate is a strong nucleophile and a weak base, and DMF is polar aprotic. What happens to the configuration in that mechanism?",
+  "w": "CH<sub>3</sub>S<sup>−</sup> is an excellent nucleophile but a weak base, so this secondary bromide reacts by S<sub>N</sub>2: backside attack with inversion at C2. Priorities in the product are SCH<sub>3</sub> > propyl > CH<sub>3</sub> > H, the same pattern as Br > propyl > CH<sub>3</sub> > H in the reactant, so inversion changes the label: <b>(<i>R</i>)-2-(methylthio)pentane</b>.",
+  "x": [
+   "",
+   "This is the (<i>S</i>) product, formed with retention. S<sub>N</sub>2 goes by backside attack and inverts the stereocenter.",
+   "C has SCH<sub>3</sub> on C3. S<sub>N</sub>2 has no carbocation and no shift; the nucleophile bonds to the carbon that held Br.",
+   "This is an E2 alkene. Thiolates are weak bases, so elimination is minor with this secondary bromide."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCC[C@H](C)Br"
+   },
+   {
+    "arrow": "NaSCH<sub>3</sub>",
+    "below": "DMF"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "CCC[C@@H](C)SC"
+   },
+   {
+    "smi": "CCC[C@H](C)SC"
+   },
+   {
+    "smi": "CCC(CC)SC"
+   },
+   {
+    "smi": "C/C=C/CC"
+   }
+  ]
+ },
+ {
+  "id": "subst-19",
+  "t": "subst",
+  "q": "(<i>R</i>)-3-Bromo-3-methylhexane is warmed in methanol. What is the stereochemical outcome for the substitution product, 3-methoxy-3-methylhexane?",
+  "c": [
+   "A racemic mixture of (<i>R</i>) and (<i>S</i>)",
+   "Only (<i>S</i>), by inversion",
+   "Only (<i>R</i>), by retention",
+   "Only the meso form"
+  ],
+  "h": "Which mechanism does a tertiary bromide follow in a weakly nucleophilic protic solvent? What is the shape of its intermediate?",
+  "w": "A tertiary bromide in methanol reacts by S<sub>N</sub>1. Ionization gives a planar (sp<sup>2</sup>) tertiary carbocation, and methanol can add to either face, so both enantiomers form: <b>a racemic (or nearly racemic) mixture</b>. In practice a small excess of inversion is often seen because the departing Br<sup>−</sup> briefly shields the front face (ion pairing), but the product is essentially racemized.",
+  "x": [
+   "",
+   "Clean inversion is the S<sub>N</sub>2 outcome. A tertiary carbon is too hindered for backside attack.",
+   "Retention would need the nucleophile to approach only the face the bromide left; a planar cation has two equally open faces.",
+   "The product has a single stereocenter, so it cannot be meso; meso compounds need two or more stereocenters and an internal mirror plane."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCC[C@](C)(Br)CC"
+   },
+   {
+    "arrow": "CH<sub>3</sub>OH",
+    "below": "warm"
+   }
+  ]
+ },
+ {
+  "id": "subst-20",
+  "t": "subst",
+  "q": "(2<i>R</i>,3<i>R</i>)-2-Bromo-3-methylpentane reacts with NaN<sub>3</sub> in DMSO. Which product forms?",
+  "c": [
+   "(2<i>S</i>,3<i>R</i>)-2-azido-3-methylpentane",
+   "(2<i>R</i>,3<i>R</i>)-2-azido-3-methylpentane",
+   "(2<i>S</i>,3<i>S</i>)-2-azido-3-methylpentane",
+   "(2<i>R</i>,3<i>S</i>)-2-azido-3-methylpentane"
+  ],
+  "h": "Only one stereocenter is touched by the nucleophile. What happens there, and what happens at the other one?",
+  "w": "Azide in DMSO is a strong nucleophile and weak base, so the reaction is S<sub>N</sub>2 at C2: backside attack inverts C2. N<sub>3</sub> takes the top priority that Br had, so the C2 label flips from <i>R</i> to <i>S</i>. C3 is not involved, and its substituent priorities (C2 branch > ethyl > CH<sub>3</sub> > H) are unchanged, so it stays <i>R</i>: <b>(2<i>S</i>,3<i>R</i>)</b>. It is a diastereomer of the retention product.",
+  "x": [
+   "",
+   "This is retention at C2, which would need frontside attack. S<sub>N</sub>2 inverts the carbon that is attacked.",
+   "C3 is not attacked and no bond to it breaks, so its configuration (and label) stays <i>R</i>; inverting both gives the enantiomer of the retention product.",
+   "This keeps C2 and inverts C3, the wrong carbon. The reaction occurs at C2, which bears the bromine."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C[C@@H](Br)[C@H](C)CC"
+   },
+   {
+    "arrow": "NaN<sub>3</sub>",
+    "below": "DMSO"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "C[C@H](N=[N+]=[N-])[C@H](C)CC"
+   },
+   {
+    "smi": "C[C@@H](N=[N+]=[N-])[C@H](C)CC"
+   },
+   {
+    "smi": "C[C@H](N=[N+]=[N-])[C@@H](C)CC"
+   },
+   {
+    "smi": "C[C@@H](N=[N+]=[N-])[C@@H](C)CC"
+   }
+  ]
+ },
+ {
+  "id": "subst-21",
+  "t": "subst",
+  "q": "<i>cis</i>-1-Bromo-4-methylcyclohexane is treated with NaN<sub>3</sub> in DMSO. What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "a 1:1 mixture of the <i>cis</i> and <i>trans</i> azides"
+  ],
+  "h": "Backside attack puts the nucleophile on the opposite face of the ring from where the leaving group was.",
+  "w": "Azide/DMSO gives S<sub>N</sub>2. The nucleophile enters from the face opposite the C–Br bond, so the azide ends up on the opposite face of the ring from the original bromine. The bromide was <i>cis</i> to the methyl, so the azide is <i>trans</i>: <b><i>trans</i>-1-azido-4-methylcyclohexane</b>.",
+  "x": [
+   "",
+   "This is the <i>cis</i> azide, the retention product. Backside attack moves the substituent to the other face of the ring.",
+   "This is 4-methylcyclohexene, the E2 product. Azide is a weak base, so elimination is minor.",
+   "A cis/trans mixture would come from a planar carbocation (S<sub>N</sub>1). Azide in DMSO with a secondary bromide reacts by S<sub>N</sub>2."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C[C@H]1CC[C@@H](Br)CC1"
+   },
+   {
+    "arrow": "NaN<sub>3</sub>",
+    "below": "DMSO"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "C[C@H]1CC[C@H](N=[N+]=[N-])CC1"
+   },
+   {
+    "smi": "C[C@H]1CC[C@@H](N=[N+]=[N-])CC1"
+   },
+   {
+    "smi": "CC1CC=CCC1"
+   },
+   null
+  ]
+ },
+ {
+  "id": "subst-22",
+  "t": "subst",
+  "q": "The tosylate shown is treated with NaSCH<sub>3</sub> in DMF. What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Tosylate is an excellent leaving group; thiolate is a strong nucleophile and weak base. Track which carbon changes and which does not.",
+  "w": "S<sub>N</sub>2 at the carbon bearing OTs inverts that carbon only; the carbon bearing CH<sub>3</sub> is untouched. The starting (1<i>R</i>,2<i>R</i>) tosylate has OTs and CH<sub>3</sub> <i>trans</i>; after inversion SCH<sub>3</sub> and CH<sub>3</sub> are <i>cis</i>, with the methyl-bearing carbon still in its original configuration: <b>A</b>.",
+  "x": [
+   "",
+   "B keeps the <i>trans</i> relationship, i.e., retention at the carbon attacked. S<sub>N</sub>2 inverts.",
+   "This is <i>cis</i>, but it is the enantiomer of A: the methyl-bearing carbon has also been inverted, and no bond to that carbon is made or broken.",
+   "D comes from a carbocation and hydride shift (S<sub>N</sub>1). A strong nucleophile in DMF reacts by S<sub>N</sub>2 without rearrangement."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C[C@@H]1CCCC[C@H]1[1*]",
+    "ab": [
+     "OTs"
+    ]
+   },
+   {
+    "arrow": "NaSCH<sub>3</sub>",
+    "below": "DMF"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "C[C@@H]1CCCC[C@@H]1SC"
+   },
+   {
+    "smi": "C[C@@H]1CCCC[C@H]1SC"
+   },
+   {
+    "smi": "C[C@H]1CCCC[C@H]1SC"
+   },
+   {
+    "smi": "CC1(SC)CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "subst-23",
+  "t": "subst",
+  "q": "What is the final product of the sequence shown?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "racemic 2-methylbutanenitrile"
+  ],
+  "h": "Which step breaks the C–O bond, and which only changes the oxygen?",
+  "w": "Step 1 converts the OH into OTs. The C–O bond is not broken (the oxygen attacks sulfur), so the tosylate keeps the (<i>R</i>) configuration. Step 2 is S<sub>N</sub>2 by cyanide with inversion. In the nitrile, C≡N (C attached to N,N,N) > ethyl > CH<sub>3</sub>, the same priority pattern as the alcohol, so inversion gives <b>(<i>S</i>)-2-methylbutanenitrile</b>.",
+  "x": [
+   "",
+   "This is the (<i>R</i>) nitrile: net retention. Only the cyanide step touches the stereocenter, and it inverts.",
+   "This is the tosylate intermediate, the product of step 1 only. Cyanide then displaces the tosylate.",
+   "Racemization would need a carbocation. Cyanide in DMSO with a secondary tosylate reacts by S<sub>N</sub>2."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC[C@@H](C)O"
+   },
+   {
+    "arrow": "1. TsCl, pyridine",
+    "below": "2. NaCN, DMSO"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "CC[C@H](C)C#N"
+   },
+   {
+    "smi": "CC[C@@H](C)C#N"
+   },
+   {
+    "smi": "CC[C@@H](C)[1*]",
+    "ab": [
+     "OTs"
+    ]
+   },
+   null
+  ]
+ },
+ {
+  "id": "subst-24",
+  "t": "subst",
+  "q": "(<i>R</i>)-Butan-2-ol is converted to 2-methylbutanenitrile by two routes.<br>Route 1: 1. PBr<sub>3</sub> 2. NaCN, DMSO<br>Route 2: 1. TsCl, pyridine 2. NaCN, DMSO<br>Which statement about the products is correct?",
+  "c": [
+   "Route 1 gives (<i>R</i>)-2-methylbutanenitrile; route 2 gives (<i>S</i>)",
+   "Both routes give (<i>S</i>)-2-methylbutanenitrile",
+   "Both routes give (<i>R</i>)-2-methylbutanenitrile",
+   "Route 1 gives (<i>S</i>)-2-methylbutanenitrile; route 2 gives (<i>R</i>)"
+  ],
+  "h": "Count inversions. Does PBr<sub>3</sub> break the C–O bond? Does TsCl?",
+  "w": "PBr<sub>3</sub> activates the OH and Br<sup>−</sup> then displaces it by S<sub>N</sub>2: inversion, giving (<i>S</i>)-2-bromobutane. Cyanide inverts again, so route 1 shows two inversions = net retention: (<i>R</i>) nitrile. TsCl makes the tosylate without touching the C–O bond (retention); cyanide then inverts once: (<i>S</i>) nitrile. Priorities are OH/Br/CN > ethyl > CH<sub>3</sub> throughout, so each inversion flips the label. <b>Route 1 → (<i>R</i>), route 2 → (<i>S</i>)</b>.",
+  "x": [
+   "",
+   "PBr<sub>3</sub> is not a retention reagent like TsCl; the bromide forms by S<sub>N</sub>2 with inversion, so route 1 has two inversions.",
+   "Tosylation leaves the stereocenter unchanged, so route 2 has only one inversion and gives (<i>S</i>), not (<i>R</i>).",
+   "This swaps the two routes: the PBr<sub>3</sub> route has two inversions (net retention), the TsCl route only one."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC[C@@H](C)O"
+   }
+  ]
+ },
+ {
+  "id": "subst-25",
+  "t": "subst",
+  "q": "(<i>S</i>)-Pentan-2-ol is treated with SOCl<sub>2</sub> in pyridine. What is the product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "racemic 2-chloropentane"
+  ],
+  "h": "In pyridine, the chlorosulfite intermediate is attacked by free chloride. From which side?",
+  "w": "SOCl<sub>2</sub> turns the OH into a chlorosulfite (–OS(O)Cl), an excellent leaving group. With pyridine present, free Cl<sup>−</sup> attacks from the back (S<sub>N</sub>2), giving inversion. Cl > propyl > CH<sub>3</sub>, like OH > propyl > CH<sub>3</sub>, so the label flips: <b>(<i>R</i>)-2-chloropentane</b>.",
+  "x": [
+   "",
+   "This is the retention product. Retention is seen with SOCl<sub>2</sub> alone (no pyridine) in some cases; with pyridine the chloride attacks from the back.",
+   "C, 3-chloropentane, would require a carbocation and hydride shift. The pyridine conditions avoid a free carbocation.",
+   "Racemization requires an S<sub>N</sub>1 carbocation. SOCl<sub>2</sub>/pyridine on a secondary alcohol goes by S<sub>N</sub>2."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCC[C@H](C)O"
+   },
+   {
+    "arrow": "SOCl<sub>2</sub>",
+    "below": "pyridine"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "CCC[C@@H](C)Cl"
+   },
+   {
+    "smi": "CCC[C@H](C)Cl"
+   },
+   {
+    "smi": "CCC(Cl)CC"
+   },
+   null
+  ]
+ },
+ {
+  "id": "subst-26",
+  "t": "subst",
+  "q": "(<i>R</i>)-Pentan-2-ol is treated with TsCl in pyridine. What is the configuration of the tosylate formed?",
+  "c": [
+   "(<i>R</i>), because the C–O bond is not broken",
+   "(<i>S</i>), because tosylation is an S<sub>N</sub>2 reaction at carbon",
+   "Racemic, because a carbocation forms",
+   "(<i>S</i>), because the priority of OTs is lower than that of OH"
+  ],
+  "h": "In tosylation, which atom does the alcohol oxygen attack?",
+  "w": "The alcohol oxygen attacks the sulfur of TsCl and displaces chloride from sulfur; pyridine removes the proton. Nothing happens at the stereocenter: the C–O bond stays intact, and OTs (O attached) still has top priority. The tosylate is <b>(<i>R</i>), with retention</b>. Inversion comes only later, when a nucleophile displaces the tosylate.",
+  "x": [
+   "",
+   "The substitution in this step happens at sulfur, not at the stereocenter. The carbon is untouched.",
+   "No carbocation forms: the C–O bond does not break during tosylation.",
+   "OTs is attached through oxygen, just like OH, so it keeps the highest priority; the label does not change."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CCC[C@@H](C)O"
+   },
+   {
+    "arrow": "TsCl",
+    "below": "pyridine"
+   }
+  ]
+ },
+ {
+  "id": "subst-27",
+  "t": "subst",
+  "q": "(<i>S</i>)-5-Bromohexan-1-amine is warmed in dilute solution. A cyclic amine forms. What is it?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Count the ring atoms: the nitrogen plus every carbon from C1 to the carbon that bears Br. Then decide what happens at that carbon.",
+  "w": "The amine nitrogen attacks C5 intramolecularly. The ring contains N, C1, C2, C3, C4 and C5: six atoms, a piperidine with the C6 methyl on the carbon next to N. Intramolecular S<sub>N</sub>2 is backside attack, so C5 is inverted. N replaces Br as the top priority (N > ring CH<sub>2</sub> > CH<sub>3</sub>), so (<i>S</i>) becomes <b>(<i>R</i>)-2-methylpiperidine</b>. Dilute solution favors ring closure over intermolecular reaction.",
+  "x": [
+   "",
+   "This is (<i>S</i>)-2-methylpiperidine, the retention product. The nitrogen must approach from the back of the C–Br bond.",
+   "This is a five-membered ring, which would need N to bond to C4, a carbon with no leaving group.",
+   "This is an elimination product. A neutral amine is a weak base, and ring closure to a six-membered ring is fast."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "NCCCC[C@H](C)Br"
+   },
+   {
+    "arrow": "dilute",
+    "below": "heat"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "N1CCCC[C@H]1C"
+   },
+   {
+    "smi": "N1CCCC[C@@H]1C"
+   },
+   {
+    "smi": "CC1CCCN1"
+   },
+   {
+    "smi": "C/C=C/CCCN"
+   }
+  ]
+ },
+ {
+  "id": "subst-28",
+  "t": "subst",
+  "q": "4-Chlorobutan-1-ol is treated with NaH in DMF. What is the major organic product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "NaH removes the O–H proton. The alkoxide can now reach the carbon that holds Cl. How big is that ring?",
+  "w": "NaH deprotonates the alcohol. The alkoxide attacks C4 from the back in an intramolecular S<sub>N</sub>2 (an intramolecular Williamson synthesis). The ring contains O, C1, C2, C3 and C4: five atoms, so the product is <b>tetrahydrofuran</b>. Five-membered rings close fastest.",
+  "x": [
+   "",
+   "This is a six-membered ring, one atom too many; there are only four carbons between O and Cl, counting both ends.",
+   "This is a four-membered ring (oxetane); it would need the alkoxide to attack C3, which has no leaving group.",
+   "This is an elimination product. The alkoxide finds the nearby carbon intramolecularly far faster than it removes a β-hydrogen from a primary chloride."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "OCCCCCl"
+   },
+   {
+    "arrow": "NaH",
+    "below": "DMF"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "C1CCOC1"
+   },
+   {
+    "smi": "C1CCOCC1"
+   },
+   {
+    "smi": "C1COC1"
+   },
+   {
+    "smi": "C=CCCO"
+   }
+  ]
+ },
+ {
+  "id": "subst-29",
+  "t": "subst",
+  "q": "Two stereoisomers of 2-chlorocyclohexanol (each racemic) are treated with NaOH. Only one gives cyclohexene oxide rapidly. Which one, and why?",
+  "c": [
+   "I (<i>trans</i>), because O<sup>−</sup> and Cl can both be axial, anti to each other, for backside attack",
+   "II (<i>cis</i>), because O<sup>−</sup> and Cl are on the same face and close together",
+   "I (<i>trans</i>), because its O<sup>−</sup> is equatorial and attacks the front of the C–Cl bond",
+   "II (<i>cis</i>), because its more stable chair puts Cl axial"
+  ],
+  "h": "Epoxide formation is an intramolecular S<sub>N</sub>2. Where must the nucleophile be relative to the C–Cl bond?",
+  "w": "Ring closure is an intramolecular S<sub>N</sub>2, so the alkoxide must reach the back of the C–Cl bond. In the <i>trans</i> isomer, a ring flip puts OH and Cl both axial, pointing in opposite directions (anti-periplanar); the O<sup>−</sup> then sits directly behind the C–Cl bond and closes the epoxide quickly. In the <i>cis</i> isomer one group is always axial and the other equatorial, so the O<sup>−</sup> can never reach the backside. Answer: <b>I, the <i>trans</i> isomer</b>.",
+  "x": [
+   "",
+   "Being on the same face is exactly wrong for S<sub>N</sub>2; the alkoxide would attack the front of the C–Cl bond.",
+   "An S<sub>N</sub>2 nucleophile must attack the back of the C–Cl bond, which requires the diaxial (anti) arrangement, not frontside attack.",
+   "An axial Cl alone is not enough; in the cis isomer the O<sup>−</sup> is then equatorial and points away from the backside of the C–Cl bond."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "O[C@@H]1CCCC[C@H]1Cl",
+    "cap": "I"
+   },
+   {
+    "smi": "O[C@@H]1CCCC[C@@H]1Cl",
+    "cap": "II"
+   }
+  ]
+ },
+ {
+  "id": "subst-30",
+  "t": "subst",
+  "q": "(2<i>R</i>,3<i>S</i>)-3-Bromobutan-2-ol is treated with aqueous NaOH. What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Deprotonated OH attacks the neighboring C–Br carbon from the back. Which carbon is inverted and which keeps its configuration?",
+  "w": "The alkoxide at C2 attacks C3 from the back (intramolecular S<sub>N</sub>2), closing an epoxide. C2 keeps its configuration (its C–O bond is not broken); C3 is inverted. Working this through gives the <i>trans</i>-epoxide <b>(2<i>R</i>,3<i>R</i>)-2,3-dimethyloxirane</b>. The intramolecular reaction is much faster than attack by external hydroxide.",
+  "x": [
+   "",
+   "This is <i>cis</i>-2,3-dimethyloxirane (meso). It would require retention at C3, i.e., frontside attack.",
+   "This is the (2<i>S</i>,3<i>S</i>) enantiomer of the product; it would require inverting C2 as well, but no bond to C2 is broken.",
+   "This is the diol from intermolecular S<sub>N</sub>2 by HO<sup>−</sup>. With an alkoxide held right next to the C–Br carbon, ring closure wins."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C[C@@H](O)[C@H](C)Br"
+   },
+   {
+    "arrow": "NaOH",
+    "below": "H<sub>2</sub>O"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "C[C@@H]1[C@@H](C)O1"
+   },
+   {
+    "smi": "C[C@@H]1[C@H](C)O1"
+   },
+   {
+    "smi": "C[C@H]1[C@H](C)O1"
+   },
+   {
+    "smi": "C[C@@H](O)[C@@H](C)O"
+   }
+  ]
+ },
+ {
+  "id": "subst-31",
+  "t": "subst",
+  "q": "The single stereoisomer of 1-chloro-1,4-dimethylcyclohexane shown is heated in methanol. Which statement describes the substitution products?",
+  "c": [
+   "A mixture of both ring stereoisomers of 1-methoxy-1,4-dimethylcyclohexane",
+   "Only the stereoisomer with OCH<sub>3</sub> on the face opposite where Cl was",
+   "Only the stereoisomer with OCH<sub>3</sub> on the same face where Cl was",
+   "Only 1-methoxy-1,3-dimethylcyclohexane, after a hydride shift"
+  ],
+  "h": "A tertiary chloride in methanol forms a carbocation. Can the nucleophile reach both faces of it?",
+  "w": "The tertiary chloride ionizes (S<sub>N</sub>1) to a planar carbocation at C1. Methanol can add to the top or bottom face, so OCH<sub>3</sub> ends up either <i>cis</i> or <i>trans</i> to the C4 methyl: <b>a mixture of both stereoisomers</b>. (The ratio need not be 1:1, since the two faces of the ring cation are not equivalent, but both form.)",
+  "x": [
+   "",
+   "Exclusive inversion is the S<sub>N</sub>2 result; a tertiary carbon cannot be attacked from the back.",
+   "A planar cation has no memory of which face the chloride left from, so retention alone is not expected.",
+   "The cation at C1 is already tertiary; a hydride shift to C2 would make a less stable secondary cation, and no rearrangement is favored."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C[C@@]1(Cl)CC[C@H](C)CC1"
+   },
+   {
+    "arrow": "CH<sub>3</sub>OH",
+    "below": "heat"
+   }
+  ]
+ },
+ {
+  "id": "subst-32",
+  "t": "subst",
+  "q": "3-Methylbutan-2-ol is heated with concentrated HBr. What is the major alkyl bromide?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "A secondary alcohol in strong acid loses water. Is the resulting cation the most stable one available?",
+  "w": "Protonation and loss of water give a secondary cation at C2. A 1,2-hydride shift from C3 gives a tertiary cation, which Br<sup>−</sup> captures (S<sub>N</sub>1): <b>2-bromo-2-methylbutane</b>.",
+  "x": [
+   "",
+   "This is the unrearranged bromide. The secondary cation rearranges to the adjacent tertiary site faster than bromide traps it.",
+   "C would need the cation at a primary carbon; shifts go toward more stable cations.",
+   "This is the E1 alkene, which is not an alkyl bromide; with concentrated HBr, bromide capture gives the substitution product."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC(C)C(C)O"
+   },
+   {
+    "arrow": "HBr (conc.)",
+    "below": "heat"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "CCC(C)(C)Br"
+   },
+   {
+    "smi": "CC(C)C(C)Br"
+   },
+   {
+    "smi": "CC(C)CCBr"
+   },
+   {
+    "smi": "CC=C(C)C"
+   }
+  ]
+ },
+ {
+  "id": "subst-33",
+  "t": "subst",
+  "q": "Which reagent converts 3-methylbutan-2-ol into 2-bromo-3-methylbutane <b>without</b> rearrangement?",
+  "c": [
+   "PBr<sub>3</sub>",
+   "concentrated HBr, heat",
+   "NaBr, H<sub>2</sub>SO<sub>4</sub>, heat",
+   "NaBr in DMSO"
+  ],
+  "h": "You need a way to turn OH into a leaving group that bromide displaces directly, without forming a carbocation.",
+  "w": "PBr<sub>3</sub> converts the OH into an –OPBr<sub>2</sub> leaving group, and bromide displaces it by S<sub>N</sub>2 (with inversion). No carbocation forms, so no hydride shift occurs: <b>PBr<sub>3</sub></b>.",
+  "x": [
+   "",
+   "HBr protonates the OH and water leaves to give a secondary cation, which shifts to the tertiary cation: 2-bromo-2-methylbutane.",
+   "NaBr/H<sub>2</sub>SO<sub>4</sub> generates HBr in situ, so it gives the same carbocation and the same rearrangement.",
+   "Without activation, HO<sup>−</sup> is far too poor a leaving group; bromide in DMSO does not react with the alcohol."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC(C)C(C)O"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC(C)C(C)Br"
+   }
+  ]
+ },
+ {
+  "id": "subst-34",
+  "t": "subst",
+  "q": "Butan-1-ol reacts with concentrated HBr to give 1-bromobutane. Which statement about the mechanism is correct?",
+  "c": [
+   "Br<sup>−</sup> displaces water from the protonated alcohol in one step (S<sub>N</sub>2)",
+   "The protonated alcohol loses water to form a primary carbocation, which Br<sup>−</sup> traps",
+   "Br<sup>−</sup> displaces hydroxide directly from the neutral alcohol",
+   "The primary cation rearranges to the 2-butyl cation before Br<sup>−</sup> adds"
+  ],
+  "h": "Which leaving group is present after protonation? Can a primary carbocation form?",
+  "w": "Strong acid first protonates the OH, converting the very poor leaving group HO<sup>−</sup> into neutral H<sub>2</sub>O. A primary cation is too unstable to form, so Br<sup>−</sup> attacks the CH<sub>2</sub> from the back as water departs: <b>S<sub>N</sub>2 on the protonated alcohol</b>. That is why 1-bromobutane is obtained without rearrangement.",
+  "x": [
+   "",
+   "A primary carbocation is too high in energy to form under these conditions; primary alcohols react with HBr by S<sub>N</sub>2.",
+   "Hydroxide is a strong base and a very poor leaving group; the alcohol must be protonated first.",
+   "No free primary cation forms, so there is nothing to rearrange; the product is 1-bromobutane, not 2-bromobutane."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCCCO"
+   },
+   {
+    "arrow": "HBr (conc.)",
+    "below": "heat"
+   },
+   {
+    "smi": "CCCCBr"
+   }
+  ]
+ }
+]

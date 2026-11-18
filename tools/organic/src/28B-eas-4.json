@@ -1,0 +1,466 @@
+[
+ {
+  "id": "eas-46",
+  "d": 2,
+  "q": "Which compound reacts fastest with NaOCH<sub>3</sub> in methanol by nucleophilic aromatic substitution (S<sub>N</sub>Ar)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Fc1ccc([N+](=O)[O-])cc1[N+](=O)[O-]"
+   },
+   {
+    "smi": "Clc1ccc([N+](=O)[O-])cc1[N+](=O)[O-]"
+   },
+   {
+    "smi": "Ic1ccc([N+](=O)[O-])cc1[N+](=O)[O-]"
+   },
+   {
+    "smi": "Fc1cc([N+](=O)[O-])cc([N+](=O)[O-])c1"
+   }
+  ],
+  "h": "Two questions: where are the nitro groups relative to the leaving group, and which step of S<sub>N</sub>Ar is slow?",
+  "w": "S<sub>N</sub>Ar is addition–elimination: the nucleophile adds to the carbon bearing the leaving group to form an anionic Meisenheimer complex (slow step), then the halide leaves (fast). Nitro groups <b>ortho and para</b> to the leaving group delocalize the negative charge onto their oxygens. Fluorine's strong inductive pull makes the attacked carbon most electrophilic and stabilizes the anion, so <b>1-fluoro-2,4-dinitrobenzene</b> is fastest; leaving-group order in S<sub>N</sub>Ar is F ≫ Cl ≈ Br > I.",
+  "x": [
+   "",
+   "Same activation pattern, but Cl is less electronegative than F, so addition (the slow step) is slower.",
+   "Iodide is the best leaving group in S<sub>N</sub>2, but C–X bond breaking is not rate-determining in S<sub>N</sub>Ar; the weakly electronegative I gives the slowest addition.",
+   "Both nitro groups are meta to F, so the negative charge of the Meisenheimer complex cannot reach their oxygens; this compound reacts very slowly."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-47",
+  "d": 2,
+  "q": "In S<sub>N</sub>Ar reactions of 1-halo-2,4-dinitrobenzenes, the aryl fluoride reacts much faster than the aryl iodide. What is the best explanation?",
+  "c": [
+   "Addition of the nucleophile is rate-determining, and fluorine's strong inductive withdrawal makes the ipso carbon more electrophilic and stabilizes the anionic intermediate",
+   "The C–F bond is the weakest carbon–halogen bond, so it breaks fastest in the rate-determining step",
+   "Fluoride is the most stable halide ion in methanol, so it is the best leaving group in every substitution reaction",
+   "Fluorine donates its lone pairs by resonance into the ring, stabilizing a carbocation intermediate"
+  ],
+  "h": "Which step of the addition–elimination mechanism is slow, and does that step break the C–halogen bond?",
+  "w": "In S<sub>N</sub>Ar the <b>slow step is addition</b> of the nucleophile, which destroys aromaticity and forms the Meisenheimer complex. The C–X bond is not broken in that step, so bond strength and leaving-group ability matter little. What matters is how electrophilic the ipso carbon is and how well the anionic intermediate is stabilized; <b>fluorine, the most electronegative halogen, helps both</b>. Loss of X<sup>−</sup> in the second step is fast because it restores aromaticity.",
+  "x": [
+   "",
+   "The C–F bond is the strongest carbon–halogen bond; F reacts fastest despite this because the bond is not broken in the slow step.",
+   "Fluoride is the poorest leaving group in S<sub>N</sub>2 reactions (a strongly solvated, basic ion); its S<sub>N</sub>Ar advantage comes from the addition step.",
+   "S<sub>N</sub>Ar involves an anionic intermediate, not a carbocation; resonance donation from F would destabilize the negative charge, not help it."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-48",
+  "d": 2,
+  "q": "1-Chloro-2,4-dinitrobenzene reacts with NaOCH<sub>3</sub> to give 2,4-dinitroanisole. Which structure is the key intermediate on this pathway?",
+  "s": [
+   {
+    "smi": "Clc1ccc([N+](=O)[O-])cc1[N+](=O)[O-]"
+   },
+   {
+    "arrow": "NaOCH<sub>3</sub>",
+    "below": "CH<sub>3</sub>OH"
+   },
+   {
+    "smi": "COc1ccc([N+](=O)[O-])cc1[N+](=O)[O-]"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COC1(Cl)C([N+](=O)[O-])=C[C-]([N+](=O)[O-])C=C1"
+   },
+   {
+    "smi": "[O-][N+](=O)C1=CC([N+](=O)[O-])=CC#C1"
+   },
+   {
+    "smi": "[c+]1ccc([N+](=O)[O-])cc1[N+](=O)[O-]"
+   },
+   {
+    "smi": "COC1C([N+](=O)[O-])=C(Cl)[CH-]C=C1[N+](=O)[O-]"
+   }
+  ],
+  "h": "The nucleophile adds first and the chloride leaves second. Which carbon must carry both OCH<sub>3</sub> and Cl at the same time?",
+  "w": "S<sub>N</sub>Ar is addition–elimination. Methoxide adds to the carbon bearing Cl, giving a resonance-stabilized anion, the <b>Meisenheimer complex</b>, with an sp<sup>3</sup> carbon bonded to both OCH<sub>3</sub> and Cl. The negative charge is delocalized to the carbons ortho and para to that carbon, which carry the nitro groups, and from there onto their oxygens. Chloride then leaves and aromaticity returns.",
+  "x": [
+   "",
+   "A benzyne forms only from unactivated aryl halides with very strong bases such as NaNH<sub>2</sub>; with nitro activation and methoxide, addition–elimination is far faster. Benzyne would also scramble the product position.",
+   "Aryl cations are extremely unstable (an empty sp<sup>2</sup> orbital in the ring plane); aryl halides do not ionize in an S<sub>N</sub>1 process.",
+   "Here methoxide has added to a carbon that bears H, not Cl; this adduct cannot lose chloride to give 2,4-dinitroanisole."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-49",
+  "d": 3,
+  "q": "1,2-Difluoro-4-nitrobenzene reacts with one equivalent of NaOCH<sub>3</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "Fc1ccc([N+](=O)[O-])cc1F"
+   },
+   {
+    "arrow": "NaOCH<sub>3</sub> (1 equiv)",
+    "below": "CH<sub>3</sub>OH"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COc1ccc([N+](=O)[O-])cc1F"
+   },
+   {
+    "smi": "COc1cc([N+](=O)[O-])ccc1F"
+   },
+   {
+    "smi": "COc1ccc(F)c(F)c1"
+   },
+   {
+    "smi": "COc1ccc([N+](=O)[O-])cc1OC"
+   }
+  ],
+  "h": "Both fluorines are leaving groups. For each, ask whether the nitro group is ortho, meta or para to it.",
+  "w": "S<sub>N</sub>Ar needs the electron-withdrawing group <b>ortho or para</b> to the leaving group so the Meisenheimer anion can be delocalized onto it. The fluorine at C1 is <b>para</b> to NO<sub>2</sub>; the fluorine at C2 is <b>meta</b>. Methoxide therefore replaces the C1 fluorine, giving <b>2-fluoro-1-methoxy-4-nitrobenzene</b>. The remaining fluorine is meta to NO<sub>2</sub>, and the new OCH<sub>3</sub> donates electrons, so a second substitution is slow.",
+  "x": [
+   "",
+   "This replaces the fluorine meta to NO<sub>2</sub>; its Meisenheimer complex cannot place the negative charge on the nitro group.",
+   "Nitrite can be displaced in some S<sub>N</sub>Ar reactions, but here a fluorine para to a strong EWG is far more reactive than NO<sub>2</sub> activated only by fluorines.",
+   "Only one equivalent of methoxide is used, and the remaining fluorine is meta to NO<sub>2</sub>, so double substitution is not the major result."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-50",
+  "d": 1,
+  "q": "Which feature is required for an aryl halide to undergo nucleophilic aromatic substitution by the addition–elimination (S<sub>N</sub>Ar) mechanism under mild conditions?",
+  "c": [
+   "A strong electron-withdrawing group ortho or para to the leaving group",
+   "A strong electron-donating group ortho or para to the leaving group",
+   "A strong electron-withdrawing group meta to the leaving group",
+   "A hydrogen ortho to the leaving group and a very strong base such as NaNH<sub>2</sub>"
+  ],
+  "h": "The intermediate carries a negative charge in the ring. Where can that charge go?",
+  "w": "Addition of the nucleophile puts a negative charge on the carbons ortho and para to the attacked carbon. An EWG such as NO<sub>2</sub>, CN or C=O at one of those positions <b>delocalizes the charge by resonance</b>, lowering the energy of the Meisenheimer complex and of the transition state leading to it. A meta EWG can only help inductively, and donors make things worse.",
+  "x": [
+   "",
+   "Electron donors destabilize the anionic intermediate and shut down S<sub>N</sub>Ar.",
+   "A meta EWG cannot accept the negative charge by resonance, so it activates only weakly.",
+   "An ortho H plus NaNH<sub>2</sub> describes the elimination–addition (benzyne) mechanism, not S<sub>N</sub>Ar."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-51",
+  "d": 2,
+  "q": "Chlorobenzene labeled with <sup>14</sup>C at the carbon bearing Cl (carbon <i>a</i>) is treated with KNH<sub>2</sub> in liquid NH<sub>3</sub>. Where is the label in the aniline produced?",
+  "s": [
+   {
+    "smi": "Cl[c:1]1ccccc1"
+   },
+   {
+    "arrow": "KNH<sub>2</sub>",
+    "below": "NH<sub>3</sub>(l)"
+   },
+   "aniline"
+  ],
+  "c": [
+   "About half at the carbon bearing NH<sub>2</sub> and half at a carbon ortho to NH<sub>2</sub>",
+   "All of it at the carbon bearing NH<sub>2</sub>",
+   "About half at the carbon bearing NH<sub>2</sub> and half at the carbon para to NH<sub>2</sub>",
+   "All of it at a carbon ortho to NH<sub>2</sub>"
+  ],
+  "h": "Unactivated aryl halide plus amide ion: think elimination first, then addition to an intermediate with two equivalent-looking ends.",
+  "w": "Amide removes the H ortho to Cl and chloride leaves, giving <b>benzyne</b> with the label on one of the two triple-bond carbons. NH<sub>2</sub><sup>−</sup> adds to either end about equally (the isotope barely matters). Adding at the labeled carbon puts the label at C–NH<sub>2</sub>; adding at the other end puts it <b>ortho</b> to NH<sub>2</sub>. This roughly 1:1 result is the classic evidence for the benzyne (elimination–addition) mechanism and for cine substitution.",
+  "x": [
+   "",
+   "That is what a direct substitution (S<sub>N</sub>Ar or S<sub>N</sub>2-like) would give; the scrambled label shows a benzyne intermediate.",
+   "The benzyne triple bond joins the labeled carbon and the carbon next to it, so the label can end up only at C1 or ortho, never para.",
+   "Addition to the labeled carbon is just as likely as addition to its neighbor, so about half of the label stays at C–NH<sub>2</sub>."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-52",
+  "d": 2,
+  "q": "4-Chlorotoluene is heated with NaNH<sub>2</sub> in liquid NH<sub>3</sub>. What is the product?",
+  "s": [
+   {
+    "smi": "Cc1ccc(Cl)cc1"
+   },
+   {
+    "arrow": "NaNH<sub>2</sub>",
+    "below": "NH<sub>3</sub>(l)"
+   },
+   "?"
+  ],
+  "c": [
+   "a mixture of 3-methylaniline and 4-methylaniline",
+   "4-methylaniline only",
+   "3-methylaniline only",
+   "a mixture of 2-methylaniline and 4-methylaniline"
+  ],
+  "h": "Draw the benzyne first. Which two carbons form the triple bond, and can NH<sub>2</sub><sup>−</sup> add to either one?",
+  "w": "Amide removes an H ortho to Cl (C3), and loss of Cl<sup>−</sup> gives <b>4-methylbenzyne</b> with the triple bond between C3 and C4. The methyl group is remote from both ends and barely biases the addition, so NH<sub>2</sub><sup>−</sup> adds to either carbon: at C4 gives 4-methylaniline (<i>p</i>-toluidine), at C3 gives 3-methylaniline (<i>m</i>-toluidine). Result: <b>a mixture of the meta and para isomers</b>.",
+  "x": [
+   "",
+   "Only direct substitution would give the para isomer alone; the benzyne can be attacked at either end.",
+   "Addition at C3 is only half the story; attack at C4 is about as likely.",
+   "The triple bond involves C3 and C4, so NH<sub>2</sub> cannot reach C2 (ortho to CH<sub>3</sub>)."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-53",
+  "d": 3,
+  "q": "2-Bromoanisole is treated with NaNH<sub>2</sub> in liquid NH<sub>3</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "COc1ccccc1Br"
+   },
+   {
+    "arrow": "NaNH<sub>2</sub>",
+    "below": "NH<sub>3</sub>(l)"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "a 1:1 mixture of 2-methoxyaniline and 3-methoxyaniline"
+  ],
+  "cs": [
+   {
+    "smi": "COc1cccc(N)c1"
+   },
+   {
+    "smi": "COc1ccccc1N"
+   },
+   {
+    "smi": "COc1ccc(N)cc1"
+   },
+   null
+  ],
+  "h": "Only one H is ortho to Br. After the benzyne forms, ask which carbanion is more stable: one next to the electronegative OCH<sub>3</sub> carbon, or one farther away?",
+  "w": "The only H ortho to Br is at C3, so elimination gives <b>3-methoxybenzyne</b> (triple bond between the old C2 and C3, with OCH<sub>3</sub> next to C2). NH<sub>2</sub><sup>−</sup> adds in the ring plane. Addition at the old C3 (the carbon farther from OCH<sub>3</sub>) leaves the aryl anion at the old C2, <b>right next to the inductively withdrawing oxygen-bearing carbon</b>, which stabilizes it. Protonation gives <b>3-methoxyaniline</b> essentially as the only product.",
+  "x": [
+   "",
+   "Direct replacement of Br would give 2-methoxyaniline, but the reaction goes through benzyne, and the inductive effect of OCH<sub>3</sub> sends NH<sub>2</sub> to the other end.",
+   "The benzyne triple bond involves C2 and C3 only, so NH<sub>2</sub> cannot end up para to OCH<sub>3</sub>.",
+   "The two ends of 3-methoxybenzyne are not equivalent; the anion next to the OCH<sub>3</sub>-bearing carbon is strongly favored, so addition is highly selective."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-54",
+  "d": 3,
+  "q": "3-Chlorotoluene reacts with KNH<sub>2</sub> in liquid NH<sub>3</sub>. How many different constitutional isomers of methylaniline (toluidine) can form?",
+  "s": [
+   {
+    "smi": "Cc1cccc(Cl)c1"
+   }
+  ],
+  "c": [
+   "3",
+   "2",
+   "1",
+   "4"
+  ],
+  "h": "Count the hydrogens ortho to Cl: each one can give a different benzyne, and each benzyne has two ends.",
+  "w": "Number CH<sub>3</sub> as C1 and Cl as C3. The hydrogens <b>ortho to Cl are at C2 and C4</b>, so two benzynes can form: C2≡C3 and C3≡C4. Benzyne C2≡C3: NH<sub>2</sub> at C2 (2-methylaniline) or C3 (3-methylaniline). Benzyne C3≡C4: NH<sub>2</sub> at C3 (3-methylaniline) or C4 (4-methylaniline). Together: <b>ortho, meta and para</b> toluidine, <b>3 isomers</b>.",
+  "x": [
+   "",
+   "Two would be right if only one benzyne formed; but Cl has two different ortho hydrogens (C2 and C4).",
+   "One isomer would mean direct substitution; benzyne chemistry gives cine products as well.",
+   "There are only three toluidine isomers (ortho, meta, para), and each arises here; a fourth is not possible."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-55",
+  "d": 2,
+  "q": "2-Bromo-1,3-dimethylbenzene is treated with NaNH<sub>2</sub> in liquid NH<sub>3</sub> under the conditions that convert bromobenzene to aniline. What happens?",
+  "s": [
+   {
+    "smi": "Cc1cccc(C)c1Br"
+   }
+  ],
+  "c": [
+   "No substitution occurs, because there is no hydrogen ortho to Br, so no benzyne can form",
+   "2,6-Dimethylaniline forms by direct addition–elimination at the carbon bearing Br",
+   "A mixture of 2,6-dimethylaniline and 2,4-dimethylaniline forms by way of a benzyne",
+   "3,5-Dimethylaniline forms because NH<sub>2</sub><sup>−</sup> adds to the carbon para to Br"
+  ],
+  "h": "Benzyne formation starts with removal of a proton. Which proton?",
+  "w": "The elimination–addition mechanism begins with amide removing an <b>aryl H ortho to the halogen</b>. In 2-bromo-1,3-dimethylbenzene both ortho positions carry CH<sub>3</sub> groups, so no benzyne can form. Without nitro-type activation, S<sub>N</sub>Ar is not possible either, so <b>no substitution occurs</b>. Such labeling/blocking experiments helped prove the benzyne mechanism.",
+  "x": [
+   "",
+   "S<sub>N</sub>Ar needs strong EWGs ortho/para to Br; methyl groups are donors, so addition–elimination does not occur.",
+   "A benzyne would need an H on a carbon next to C–Br; both neighbors carry CH<sub>3</sub> groups.",
+   "Amide does not add to an ordinary aromatic C–H carbon; nothing activates that position."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-56",
+  "d": 2,
+  "q": "Benzyne is generated from 2-(trimethylsilyl)phenyl triflate and CsF in the presence of furan. What product is trapped?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1=CC2OC1c1ccccc12"
+   },
+   {
+    "smi": "c1ccc(-c2ccco2)cc1"
+   },
+   {
+    "smi": "c1ccc(-c2ccoc2)cc1"
+   },
+   {
+    "smi": "C1=COC2C1c1ccccc12"
+   }
+  ],
+  "h": "Benzyne has a strained, reactive π bond, and furan is a diene.",
+  "w": "Benzyne is a very reactive <b>dienophile</b>: its in-plane π bond is weak because of poor sp<sup>2</sup>–sp<sup>2</sup> overlap. Furan acts as the diene in a <b>Diels–Alder [4+2] cycloaddition</b>, bridging C2 and C5 of furan across the benzyne carbons to give 1,4-dihydro-1,4-epoxynaphthalene, an oxygen-bridged bicyclic alkene.",
+  "x": [
+   "",
+   "A 2-arylfuran would need substitution at a furan C–H; benzyne reacts with furan by cycloaddition, not substitution.",
+   "A 3-arylfuran also implies substitution, and attack at furan C3 is not the pathway; the furan acts as a diene.",
+   "A [2+2] adduct is not formed with a good diene such as furan; the thermally allowed [4+2] path dominates."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-57",
+  "d": 1,
+  "q": "In the second step of bromination of benzene, the arenium ion loses H<sup>+</sup> rather than adding Br<sup>−</sup> (as an alkene-derived carbocation would). Why?",
+  "c": [
+   "Loss of H<sup>+</sup> restores the aromatic sextet; addition of Br<sup>−</sup> would give a nonaromatic cyclohexadiene",
+   "Br<sup>−</sup> is a poor nucleophile in the presence of FeBr<sub>3</sub>, so it cannot add to any carbocation",
+   "The arenium ion has no carbon able to accept a nucleophile, since every carbon has a full octet",
+   "Loss of H<sup>+</sup> is the rate-determining step, so it must be the step that happens"
+  ],
+  "h": "Compare the two possible products of the second step. Which one is aromatic?",
+  "w": "Both pathways are possible in principle, but substitution gives back the <b>aromatic ring</b> (about 150 kJ/mol of resonance stabilization), while addition would trap the ring as a nonaromatic cyclohexadiene. The substitution product is far more stable, so the arenium ion is deprotonated (by FeBr<sub>4</sub><sup>−</sup>), and the overall reaction is <b>substitution</b>, not addition.",
+  "x": [
+   "",
+   "Br<sup>−</sup> (as FeBr<sub>4</sub><sup>−</sup>) is available; the choice is driven by product stability, not by a lack of nucleophile.",
+   "The arenium ion is a delocalized carbocation with three electron-deficient carbons; a nucleophile could bond to them, but that product would lose aromaticity.",
+   "Deprotonation is the fast step; the slow step is formation of the arenium ion."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-58",
+  "d": 3,
+  "q": "Benzene and hexadeuteriobenzene (C<sub>6</sub>D<sub>6</sub>) are nitrated at essentially the same rate (k<sub>H</sub>/k<sub>D</sub> ≈ 1). What does this show?",
+  "c": [
+   "The C–H bond is not broken in the rate-determining step; attack of NO<sub>2</sub><sup>+</sup> to form the arenium ion is slow and deprotonation is fast",
+   "The C–H bond breaks in the rate-determining step, so the reaction is a single concerted step",
+   "Deprotonation of the arenium ion is rate-determining, but C–D and C–H bonds break at equal rates",
+   "Formation of NO<sub>2</sub><sup>+</sup> is rate-determining, so the arene never takes part in the slow step under any conditions"
+  ],
+  "h": "A primary kinetic isotope effect (k<sub>H</sub>/k<sub>D</sub> of about 2–7) appears when the C–H bond breaks in the slow step. What does its absence tell you?",
+  "w": "If C–H(D) bond cleavage were in the rate-determining step, the stronger C–D bond would slow C<sub>6</sub>D<sub>6</sub> noticeably (a primary isotope effect). <b>k<sub>H</sub>/k<sub>D</sub> ≈ 1</b> means the proton is lost <b>after</b> the slow step: the two-step mechanism, with slow formation of the σ complex and fast loss of H<sup>+</sup>, fits; a concerted one-step substitution does not.",
+  "x": [
+   "",
+   "A concerted mechanism that breaks C–H in the slow step would show a large primary isotope effect, which is not observed.",
+   "C–D bonds have lower zero-point energy and break more slowly than C–H bonds; if deprotonation were slow, k<sub>H</sub>/k<sub>D</sub> would be well above 1.",
+   "The rate does depend on the arene (activated rings react faster), so the arene is in the slow step; the experiment only rules out C–H cleavage in that step."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-59",
+  "d": 2,
+  "q": "Which compound can give only <b>one</b> constitutional isomer when one ring hydrogen is replaced by Br (Br<sub>2</sub>/FeBr<sub>3</sub>)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Cc1ccc(C)cc1"
+   },
+   {
+    "smi": "Cc1ccccc1C"
+   },
+   {
+    "smi": "Cc1cccc(C)c1"
+   },
+   {
+    "smi": "CCc1ccccc1"
+   }
+  ],
+  "h": "Count the sets of symmetry-equivalent aromatic hydrogens in each compound.",
+  "w": "Each set of equivalent ring hydrogens gives one possible monobromination product. <b>p-Xylene</b> has four equivalent ring H (each is ortho to one CH<sub>3</sub> and meta to the other), so only 2-bromo-1,4-dimethylbenzene can form. o-Xylene has two sets (3- and 4-positions), m-xylene three (2-, 4- and 5-), and ethylbenzene three (ortho, meta, para).",
+  "x": [
+   "",
+   "o-Xylene has two kinds of ring H (next to a methyl, and one carbon farther away), giving 3-bromo- and 4-bromo-o-xylene.",
+   "m-Xylene has three kinds of ring H (between the methyls, ortho/para, and meta to both).",
+   "Ethylbenzene has ortho, meta and para ring hydrogens: three possible isomers."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-60",
+  "d": 3,
+  "q": "Naphthalene is nitrated with HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub>. Where does the nitro group mainly go, and why?",
+  "s": [
+   {
+    "smi": "[cH:1]1[cH:2]ccc2ccccc12"
+   }
+  ],
+  "c": [
+   "carbon <i>a</i>, because its σ complex has more resonance forms that keep one benzene ring fully aromatic",
+   "carbon <i>b</i>, because its σ complex has more resonance forms that keep one benzene ring fully aromatic",
+   "carbon <i>b</i>, because attack there avoids steric strain with the hydrogen on the other ring",
+   "carbon <i>a</i>, because its σ complex keeps both rings fully aromatic"
+  ],
+  "h": "Draw the σ complex for each site and count the forms in which the other ring is still an intact benzene ring.",
+  "w": "Attack at C1 (<i>a</i>, the α position) gives an allylic cation that can be delocalized while the second ring remains an intact benzene ring in <b>two</b> resonance forms; attack at C2 (<i>b</i>, β) allows only <b>one</b> such form. The α σ complex is lower in energy, so nitration (a kinetically controlled, irreversible reaction) gives mainly <b>1-nitronaphthalene</b>.",
+  "x": [
+   "",
+   "Attack at C2 gives only one resonance form with an intact benzene ring, so its σ complex is less stable.",
+   "The peri H interaction disfavors C1 only for bulky or reversible substitutions (such as sulfonation at high temperature); nitration is fast, irreversible and goes to C1.",
+   "In any σ complex the attacked ring loses its aromaticity; only the other ring can stay benzenoid."
+  ],
+  "t": "eas",
+  "k": 0
+ }
+]

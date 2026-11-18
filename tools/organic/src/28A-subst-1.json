@@ -1,0 +1,550 @@
+[
+ {
+  "id": "subst-01",
+  "t": "subst",
+  "q": "2-Bromo-2-methylbutane is heated in ethanol, and the substitution product forms by an S<sub>N</sub>1 mechanism. Which rate law describes this reaction?",
+  "c": [
+   "rate = <i>k</i>[RBr]",
+   "rate = <i>k</i>[RBr][CH<sub>3</sub>CH<sub>2</sub>OH]",
+   "rate = <i>k</i>[CH<sub>3</sub>CH<sub>2</sub>OH]",
+   "rate = <i>k</i>[RBr]<sup>2</sup>"
+  ],
+  "h": "Only species that appear in or before the rate-determining step show up in the rate law. What is the slow step of an S<sub>N</sub>1 reaction?",
+  "w": "In an S<sub>N</sub>1 reaction the slow step is ionization of the C–Br bond to give the tertiary carbocation and Br<sup>−</sup>. Ethanol attacks the cation only afterward, in a fast step, so it does not appear in the rate law: <b>rate = <i>k</i>[RBr]</b>. (Ethanol is also the solvent, so its concentration barely changes anyway.)",
+  "x": [
+   "",
+   "A second-order rate law with the nucleophile is the S<sub>N</sub>2 rate law. Here ethanol adds after the rate-determining step, so its concentration does not enter.",
+   "The substrate must appear: its ionization is the rate-determining step. The nucleophile alone cannot control the rate.",
+   "No step involves two substrate molecules colliding; ionization is unimolecular, so the order in RBr is one."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CCC(C)(C)Br"
+   },
+   {
+    "arrow": "CH<sub>3</sub>CH<sub>2</sub>OH",
+    "below": "heat"
+   }
+  ]
+ },
+ {
+  "id": "subst-02",
+  "t": "subst",
+  "q": "The reaction of 1-bromopropane with NaCN in DMSO is an S<sub>N</sub>2 reaction. If [NaCN] is tripled and [1-bromopropane] is halved, what happens to the initial rate?",
+  "c": [
+   "It increases by a factor of 1.5",
+   "It triples",
+   "It decreases by half",
+   "It increases by a factor of 6"
+  ],
+  "h": "Write the rate law for an S<sub>N</sub>2 reaction, then multiply the factor for each concentration change.",
+  "w": "S<sub>N</sub>2 is a single concerted step involving both partners, so rate = <i>k</i>[RBr][CN<sup>−</sup>]. New rate = (½)(3) = <b>1.5 × the original rate</b>.",
+  "x": [
+   "",
+   "Tripling the rate would be correct only if the substrate concentration did not appear in the rate law; in S<sub>N</sub>2 it does, and it was halved.",
+   "Halving the rate ignores the cyanide term; an S<sub>N</sub>2 rate is first order in the nucleophile too.",
+   "A factor of 6 comes from multiplying 3 × 2, treating \"halved\" as \"doubled\". Halving [RBr] contributes a factor of ½."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCCBr"
+   },
+   {
+    "arrow": "NaCN",
+    "below": "DMSO"
+   },
+   {
+    "smi": "CCCC#N"
+   }
+  ]
+ },
+ {
+  "id": "subst-03",
+  "t": "subst",
+  "q": "Initial rates were measured for the reaction of an alkyl bromide (RBr) with sodium azide in 80% aqueous ethanol. Which conclusion fits the data?",
+  "c": [
+   "Rate = <i>k</i>[RBr]; an S<sub>N</sub>1 mechanism, as expected for a tertiary RBr",
+   "Rate = <i>k</i>[RBr][N<sub>3</sub><sup>−</sup>]; an S<sub>N</sub>2 mechanism, as expected for a primary RBr",
+   "Rate = <i>k</i>[N<sub>3</sub><sup>−</sup>]; an S<sub>N</sub>2 mechanism in which azide attack is slow",
+   "Rate = <i>k</i>[RBr]<sup>2</sup>; an S<sub>N</sub>1 mechanism with two ionizations"
+  ],
+  "h": "Compare experiments that change only one concentration at a time: 1 vs 2 for RBr, 1 vs 3 for azide.",
+  "w": "Experiments 1 → 2: doubling [RBr] doubles the rate, so the reaction is first order in RBr. Experiments 1 → 3: doubling [N<sub>3</sub><sup>−</sup>] leaves the rate unchanged, so it is zero order in azide. <b>Rate = <i>k</i>[RBr]</b>, the signature of an S<sub>N</sub>1 mechanism (rate-determining ionization). That fits a tertiary (or other cation-stabilizing) substrate in a polar protic solvent.",
+  "x": [
+   "",
+   "An S<sub>N</sub>2 rate law would double when [N<sub>3</sub><sup>−</sup>] doubles; experiment 3 shows no change.",
+   "Experiment 2 shows the rate depends on [RBr], and experiment 3 shows it does not depend on azide; this choice has both backwards.",
+   "Doubling [RBr] would quadruple a second-order rate; the data show only a doubling."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Experiment",
+     "[RBr] (M)",
+     "[NaN<sub>3</sub>] (M)",
+     "Initial rate (M/s)"
+    ],
+    "rows": [
+     [
+      "1",
+      "0.10",
+      "0.10",
+      "2.0 × 10<sup>−5</sup>"
+     ],
+     [
+      "2",
+      "0.20",
+      "0.10",
+      "4.0 × 10<sup>−5</sup>"
+     ],
+     [
+      "3",
+      "0.10",
+      "0.20",
+      "2.0 × 10<sup>−5</sup>"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "subst-04",
+  "t": "subst",
+  "q": "Rank these alkyl bromides from <b>slowest</b> to <b>fastest</b> in an S<sub>N</sub>2 reaction with NaI in acetone.",
+  "c": [
+   "IV < III < II < I",
+   "III < IV < II < I",
+   "I < II < III < IV",
+   "IV < II < III < I"
+  ],
+  "h": "S<sub>N</sub>2 needs backside access to the carbon bearing Br. Look at branching on that carbon (α) and on the next carbon (β).",
+  "w": "S<sub>N</sub>2 rates fall as the backside of the electrophilic carbon gets crowded. Methyl (I) is fastest, then the unbranched primary 1-bromopropane (II), then the secondary 2-bromopropane (III). Neopentyl bromide (IV) is primary, but the tert-butyl group on the β carbon blocks the backside so completely that it reacts about 10<sup>5</sup> times slower than a simple primary halide, slower even than a secondary one. Order: <b>IV < III < II < I</b>.",
+  "x": [
+   "",
+   "This treats neopentyl bromide as a \"normal\" primary halide. Its β-tert-butyl group makes it slower than the secondary bromide III.",
+   "This is the S<sub>N</sub>1 (carbocation-stability) order turned around; for S<sub>N</sub>2 the least hindered methyl halide is fastest, not slowest.",
+   "Secondary III has an extra α-methyl group, so it is slower than the unbranched primary II, not faster."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CBr",
+    "cap": "I"
+   },
+   {
+    "smi": "CCCBr",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(C)Br",
+    "cap": "III"
+   },
+   {
+    "smi": "CC(C)(C)CBr",
+    "cap": "IV"
+   }
+  ]
+ },
+ {
+  "id": "subst-05",
+  "t": "subst",
+  "q": "Which compound undergoes S<sub>N</sub>1 solvolysis fastest in 80% aqueous ethanol?",
+  "c": [
+   "2-bromo-2-phenylpropane",
+   "2-bromo-2-methylpropane",
+   "(bromomethyl)benzene",
+   "bromocyclohexane"
+  ],
+  "h": "The rate-determining step makes a carbocation. Which cation is stabilized by both alkyl groups and resonance?",
+  "w": "S<sub>N</sub>1 rates follow carbocation stability. 2-Bromo-2-phenylpropane ionizes to a cation that is both tertiary and benzylic: the positive charge is delocalized into the ring and also stabilized by two methyl groups. <b>2-Bromo-2-phenylpropane</b> is fastest.",
+  "x": [
+   "",
+   "The tert-butyl cation is tertiary but has no resonance; adding benzylic delocalization (the key) makes the cation more stable still.",
+   "The benzyl cation is resonance stabilized but primary; the tertiary benzylic cation has extra alkyl stabilization.",
+   "A secondary cyclohexyl cation has neither resonance nor tertiary substitution; it ionizes far more slowly."
+  ],
+  "k": 0,
+  "d": 1,
+  "cs": [
+   {
+    "smi": "CC(C)(Br)c1ccccc1"
+   },
+   {
+    "smi": "CC(C)(C)Br"
+   },
+   {
+    "smi": "BrCc1ccccc1"
+   },
+   {
+    "smi": "BrC1CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "subst-06",
+  "t": "subst",
+  "q": "Rank the halide ions from <b>most</b> to <b>least</b> nucleophilic toward CH<sub>3</sub>Br in methanol.",
+  "c": [
+   "I<sup>−</sup> > Br<sup>−</sup> > Cl<sup>−</sup> > F<sup>−</sup>",
+   "F<sup>−</sup> > Cl<sup>−</sup> > Br<sup>−</sup> > I<sup>−</sup>",
+   "Cl<sup>−</sup> > Br<sup>−</sup> > I<sup>−</sup> > F<sup>−</sup>",
+   "Br<sup>−</sup> > I<sup>−</sup> > Cl<sup>−</sup> > F<sup>−</sup>"
+  ],
+  "h": "Methanol is a protic solvent. Which anion does it hydrogen-bond to most strongly?",
+  "w": "In a polar protic solvent, small anions with concentrated charge are tightly hydrogen-bonded and must shed part of that solvent shell to react. F<sup>−</sup> is held most tightly and I<sup>−</sup> least; iodide is also the most polarizable. Nucleophilicity therefore runs <b>I<sup>−</sup> > Br<sup>−</sup> > Cl<sup>−</sup> > F<sup>−</sup></b>, opposite to basicity.",
+  "x": [
+   "",
+   "This is the basicity order, and roughly the order in a polar aprotic solvent where anions are not hydrogen-bonded. Methanol is protic.",
+   "Iodide is not weaker than chloride in methanol; it is the least solvated and most polarizable halide, so it is the strongest of the four.",
+   "Bromide and iodide are reversed. Iodide, larger and more polarizable, is the better nucleophile in a protic solvent."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "subst-07",
+  "t": "subst",
+  "q": "KCN reacts with 1-chlorobutane much faster in DMSO than in methanol. Which explanation is correct?",
+  "c": [
+   "DMSO solvates K<sup>+</sup> well but cannot hydrogen-bond to CN<sup>−</sup>, leaving the anion poorly solvated and more reactive",
+   "DMSO hydrogen-bonds to CN<sup>−</sup>, which pulls electron density onto carbon and makes it more nucleophilic",
+   "DMSO stabilizes the butyl carbocation, so ionization of the C–Cl bond is faster",
+   "DMSO protonates the chlorine, turning it into a better leaving group"
+  ],
+  "h": "Think about what each solvent can do to an anion. Does DMSO have an O–H or N–H bond?",
+  "w": "DMSO is polar aprotic: its partly negative oxygen solvates cations strongly, but it has no O–H to hydrogen-bond to anions. In methanol, CN<sup>−</sup> sits in a hydrogen-bonded cage that must be partly removed before it can attack. In DMSO the \"naked\" cyanide is higher in energy, so the S<sub>N</sub>2 barrier is lower. <b>DMSO solvates K<sup>+</sup> but not CN<sup>−</sup></b>.",
+  "x": [
+   "",
+   "DMSO has no O–H or N–H bond, so it cannot hydrogen-bond to anions; and hydrogen-bonding would lower, not raise, nucleophilicity.",
+   "A primary butyl cation is far too unstable to form; 1-chlorobutane reacts by S<sub>N</sub>2, which has no carbocation.",
+   "DMSO is not an acid; it cannot protonate an alkyl chloride."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCCCCl"
+   },
+   {
+    "arrow": "KCN",
+    "below": "DMSO or CH<sub>3</sub>OH"
+   },
+   {
+    "smi": "CCCCC#N"
+   }
+  ]
+ },
+ {
+  "id": "subst-08",
+  "t": "subst",
+  "q": "Rank the anions from <b>best</b> to <b>worst</b> leaving group.",
+  "c": [
+   "II > III > I > IV",
+   "III > II > I > IV",
+   "I > II > III > IV",
+   "II > III > IV > I"
+  ],
+  "h": "A good leaving group is a weak base. Compare the pK<sub>a</sub> values of the conjugate acids.",
+  "w": "Leaving-group ability tracks the stability of the departing anion, i.e., how weak a base it is. Conjugate-acid pK<sub>a</sub>s: CF<sub>3</sub>SO<sub>3</sub>H ≈ −14, CH<sub>3</sub>SO<sub>3</sub>H ≈ −2, CH<sub>3</sub>CO<sub>2</sub>H 4.8, H<sub>2</sub>O 15.7. Triflate (II) has the charge spread over three oxygens and pulled further by the CF<sub>3</sub> group. Order: <b>II > III > I > IV</b>.",
+  "x": [
+   "",
+   "The CF<sub>3</sub> group withdraws electron density inductively and makes triflate a weaker base than mesylate, so triflate leaves better.",
+   "Acetate is a much stronger base than either sulfonate (its acid has pK<sub>a</sub> 4.8); it is a poor leaving group compared with them.",
+   "Hydroxide (from water, pK<sub>a</sub> 15.7) is a far stronger base than acetate, so it is the worst leaving group, not third."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC(=O)[O-]",
+    "cap": "I"
+   },
+   {
+    "smi": "[O-]S(=O)(=O)C(F)(F)F",
+    "cap": "II"
+   },
+   {
+    "smi": "C[S](=O)(=O)[O-]",
+    "cap": "III"
+   },
+   {
+    "smi": "[OH-]",
+    "cap": "IV"
+   }
+  ]
+ },
+ {
+  "id": "subst-09",
+  "t": "subst",
+  "q": "Which set of conditions converts 2-bromobutane mainly into a <b>substitution</b> product by an S<sub>N</sub>2 pathway?",
+  "c": [
+   "NaN<sub>3</sub> in DMSO, 25 °C",
+   "NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol, 55 °C",
+   "KOC(CH<sub>3</sub>)<sub>3</sub> in (CH<sub>3</sub>)<sub>3</sub>COH",
+   "CH<sub>3</sub>OH, heat"
+  ],
+  "h": "A secondary substrate goes S<sub>N</sub>2 only with a good nucleophile that is a weak base, in a polar aprotic solvent.",
+  "w": "With a secondary halide, strong bases (alkoxides) favor E2 elimination. Azide is an excellent nucleophile but a weak base (HN<sub>3</sub> pK<sub>a</sub> 4.7), and DMSO leaves it unsolvated, so <b>NaN<sub>3</sub> in DMSO</b> gives mainly 2-azidobutane by S<sub>N</sub>2 with inversion.",
+  "x": [
+   "",
+   "Ethoxide is a strong base; with a secondary bromide and heat, E2 (butenes) is the major pathway.",
+   "tert-Butoxide is a bulky strong base; it gives almost entirely E2 product with a secondary bromide.",
+   "Methanol is a weak nucleophile; with heat, a secondary bromide reacts slowly by S<sub>N</sub>1/E1, not S<sub>N</sub>2."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCC(C)Br"
+   }
+  ]
+ },
+ {
+  "id": "subst-10",
+  "t": "subst",
+  "q": "Which changes would <b>increase</b> the rate of S<sub>N</sub>1 solvolysis of 2-chloro-2-methylpropane in ethanol?<br>I. Using 50% aqueous ethanol as the solvent<br>II. Adding 0.1 M NaN<sub>3</sub>, a much stronger nucleophile than ethanol<br>III. Replacing the chloride with bromide (2-bromo-2-methylpropane)",
+  "c": [
+   "I and III only",
+   "I, II and III",
+   "II only",
+   "I only"
+  ],
+  "h": "Ask what each change does to the energy of the ionization transition state.",
+  "w": "The S<sub>N</sub>1 rate depends only on ionization. I: water is more polar and a better hydrogen-bond donor than ethanol; it stabilizes the developing carbocation and chloride, so ionization is faster. III: Br<sup>−</sup> is a weaker base and better leaving group than Cl<sup>−</sup>, so the C–Br bond ionizes faster. II: the nucleophile is not in the rate law, so adding azide changes which product forms (some tert-butyl azide) but not how fast the chloride ionizes. <b>I and III only</b>.",
+  "x": [
+   "",
+   "II does not raise the rate: any nucleophile, azide included, reacts only after the rate-determining ionization.",
+   "Adding a stronger nucleophile is the S<sub>N</sub>2 lever; S<sub>N</sub>1 is zero order in the nucleophile, and I and III do speed ionization.",
+   "A better leaving group also speeds the rate-determining ionization, so III belongs with I."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "subst-11",
+  "t": "subst",
+  "q": "The energy diagram is for the S<sub>N</sub>1 reaction of a tertiary alkyl bromide with water. Which point is the carbocation intermediate?",
+  "c": [
+   "B, the local minimum between two maxima",
+   "A, the highest point on the curve",
+   "C, the second maximum",
+   "The reactant energy level at the far left"
+  ],
+  "h": "Intermediates sit in energy wells; transition states sit at peaks.",
+  "w": "An S<sub>N</sub>1 diagram has two steps: ionization (TS A, highest, rate-determining) and capture of the cation by water (TS C, low). The carbocation sits in the valley between them, at <b>B</b>. It is a real species with a finite lifetime, unlike a transition state.",
+  "x": [
+   "",
+   "A is the transition state for ionization, the rate-determining step. A transition state is a maximum, not an intermediate.",
+   "C is the transition state for nucleophile capture of the cation; it is a maximum.",
+   "The far-left level is the starting alkyl bromide plus water, before any bond breaks."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     22,
+     9,
+     13,
+     -6
+    ],
+    "tags": [
+     "",
+     "A",
+     "B",
+     "C",
+     ""
+    ],
+    "labels": [
+     "reactants",
+     "",
+     "",
+     "",
+     "products"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "subst-12",
+  "t": "subst",
+  "q": "Which description of the S<sub>N</sub>2 transition state for CH<sub>3</sub>O<sup>−</sup> + CH<sub>3</sub>CH<sub>2</sub>Br is correct?",
+  "c": [
+   "The central carbon is roughly trigonal bipyramidal, with O and Br partly bonded on opposite sides",
+   "The central carbon is a planar carbocation with Br<sup>−</sup> fully detached",
+   "O and Br are partly bonded on the same side of the carbon, 90° apart",
+   "The central carbon is tetrahedral with five full bonds"
+  ],
+  "h": "S<sub>N</sub>2 is concerted and goes with inversion. Where must the nucleophile be relative to the leaving group?",
+  "w": "In the S<sub>N</sub>2 transition state the nucleophile enters from the back while the leaving group departs from the front: O···C···Br is nearly linear (180°), and the three other groups lie flat in a plane, like an umbrella turning inside out. <b>Trigonal bipyramidal, O and Br partly bonded on opposite sides</b>. This geometry is why S<sub>N</sub>2 inverts configuration.",
+  "x": [
+   "",
+   "A free carbocation is the S<sub>N</sub>1 intermediate. S<sub>N</sub>2 has no intermediate; bond making and breaking happen together.",
+   "Frontside attack would give retention; S<sub>N</sub>2 uses backside attack, with the nucleophile 180° from the leaving group.",
+   "Carbon cannot have five full bonds; in the transition state the C–O and C–Br bonds are both partial."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "subst-13",
+  "t": "subst",
+  "q": "Which list contains <b>only</b> polar aprotic solvents?",
+  "c": [
+   "DMSO, DMF, acetone, acetonitrile",
+   "DMSO, methanol, acetone, acetonitrile",
+   "water, acetic acid, ethanol, DMF",
+   "hexane, diethyl ether, DMSO, toluene"
+  ],
+  "h": "Protic solvents have an H on O or N. Polar solvents have a sizable dipole.",
+  "w": "Dimethyl sulfoxide, <i>N,N</i>-dimethylformamide, acetone and acetonitrile all have strong dipoles (S=O, C=O, C≡N) but no O–H or N–H bonds. <b>DMSO, DMF, acetone, acetonitrile</b> is the all-aprotic polar list.",
+  "x": [
+   "",
+   "Methanol has an O–H bond; it is polar protic.",
+   "Water, acetic acid and ethanol are all polar protic; only DMF is aprotic.",
+   "Hexane and toluene are nonpolar, and diethyl ether is only weakly polar; DMSO is the only polar aprotic solvent in the list."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "subst-14",
+  "t": "subst",
+  "q": "3-Bromo-2,2-dimethylbutane is heated in ethanol. Which compound is the major <b>substitution</b> product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "A secondary carbocation next to a quaternary carbon can become more stable by a 1,2-shift. Which group can move?",
+  "w": "Ionization gives a secondary cation at C3. The adjacent C2 carries three methyl groups (no H), so a 1,2-<b>methyl</b> shift moves the cation to C2, where it is tertiary. Ethanol captures this tertiary cation: <b>2-ethoxy-2,3-dimethylbutane</b>. (E1 alkenes also form, but the question asks for the substitution product.)",
+  "x": [
+   "",
+   "This is the unrearranged ether. The secondary cation rearranges to a tertiary one faster than ethanol captures it.",
+   "This is 2,3-dimethylbut-2-ene, an E1 elimination product, not a substitution product.",
+   "D would need the cation on a primary carbon; shifts go toward the more stable cation, not away from it."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC(Br)C(C)(C)C"
+   },
+   {
+    "arrow": "CH<sub>3</sub>CH<sub>2</sub>OH",
+    "below": "heat"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(C)(C)C(C)C"
+   },
+   {
+    "smi": "CCOC(C)C(C)(C)C"
+   },
+   {
+    "smi": "CC(C)=C(C)C"
+   },
+   {
+    "smi": "CCOCC(C)C(C)C"
+   }
+  ]
+ },
+ {
+  "id": "subst-15",
+  "t": "subst",
+  "q": "3-Chloro-3-methylbut-1-ene is dissolved in aqueous acetone. Which statement best describes the alcohol products of S<sub>N</sub>1 solvolysis?",
+  "c": [
+   "Both 2-methylbut-3-en-2-ol and 3-methylbut-2-en-1-ol form, because water attacks either end of an allylic cation",
+   "Only 2-methylbut-3-en-2-ol forms, because water attacks the carbon that lost Cl<sup>−</sup>",
+   "Only 3-methylbutan-2-ol forms, after a hydride shift",
+   "Only 3-methylbut-2-en-1-ol forms, by direct S<sub>N</sub>2 at the primary carbon"
+  ],
+  "h": "Draw the cation formed by ionization. Is the positive charge on one carbon only?",
+  "w": "Loss of Cl<sup>−</sup> gives a cation that is both tertiary and allylic. Resonance spreads the positive charge over C3 (tertiary) and C1 (primary end of the old alkene). Water can attack either site, giving <b>2-methylbut-3-en-2-ol and 3-methylbut-2-en-1-ol</b>. The second product has a trisubstituted (more stable) C=C, so it is an important product even though attack occurs at a primary carbon.",
+  "x": [
+   "",
+   "The allylic cation is delocalized, so water can also attack C1; ignoring the second resonance form misses a major product.",
+   "That product is saturated: a hydride shift cannot remove a C=C, and the allylic tertiary cation has no reason to rearrange.",
+   "The starting material has no leaving group on a primary carbon; C1 is sp<sup>2</sup>. The primary alcohol comes from the resonance-delocalized cation, not from S<sub>N</sub>2."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C=CC(C)(C)Cl"
+   },
+   {
+    "arrow": "H<sub>2</sub>O",
+    "below": "acetone"
+   }
+  ]
+ },
+ {
+  "id": "subst-16",
+  "t": "subst",
+  "q": "Rank the nucleophiles from <b>most</b> to <b>least</b> reactive toward CH<sub>3</sub>I in methanol.",
+  "c": [
+   "CH<sub>3</sub>S<sup>−</sup> > CH<sub>3</sub>O<sup>−</sup> > CH<sub>3</sub>CO<sub>2</sub><sup>−</sup> > CH<sub>3</sub>OH",
+   "CH<sub>3</sub>O<sup>−</sup> > CH<sub>3</sub>S<sup>−</sup> > CH<sub>3</sub>CO<sub>2</sub><sup>−</sup> > CH<sub>3</sub>OH",
+   "CH<sub>3</sub>S<sup>−</sup> > CH<sub>3</sub>CO<sub>2</sub><sup>−</sup> > CH<sub>3</sub>O<sup>−</sup> > CH<sub>3</sub>OH",
+   "CH<sub>3</sub>O<sup>−</sup> > CH<sub>3</sub>CO<sub>2</sub><sup>−</sup> > CH<sub>3</sub>S<sup>−</sup> > CH<sub>3</sub>OH"
+  ],
+  "h": "Two rules: an anion beats its neutral conjugate acid, and in a protic solvent a larger, more polarizable atom beats a smaller one in the same group.",
+  "w": "Sulfur is larger and more polarizable than oxygen and is less tightly hydrogen-bonded by methanol, so CH<sub>3</sub>S<sup>−</sup> is the best. Among the oxygen nucleophiles, methoxide (localized charge, strong base) beats acetate (charge delocalized over two oxygens), and neutral methanol is weakest. Order: <b>CH<sub>3</sub>S<sup>−</sup> > CH<sub>3</sub>O<sup>−</sup> > CH<sub>3</sub>CO<sub>2</sub><sup>−</sup> > CH<sub>3</sub>OH</b>.",
+  "x": [
+   "",
+   "This follows basicity. In a protic solvent, the more polarizable, less solvated thiolate is the better nucleophile even though methoxide is the stronger base.",
+   "Acetate is resonance stabilized, which makes it a weaker nucleophile than methoxide, not a stronger one.",
+   "Thiolate is the strongest of the four in methanol; placing it below acetate ignores polarizability."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "subst-17",
+  "t": "subst",
+  "q": "Which compound reacts readily both by S<sub>N</sub>1 (ethanol, heat) and by S<sub>N</sub>2 (NaI in acetone)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "S<sub>N</sub>1 needs a stabilized cation; S<sub>N</sub>2 needs an unhindered carbon. Which substrate offers both?",
+  "w": "Benzyl bromide is primary, so the backside is open for S<sub>N</sub>2; it is also benzylic, so the S<sub>N</sub>2 transition state and the S<sub>N</sub>1 cation are both stabilized by the ring π system. <b>Benzyl bromide</b> reacts quickly by either path.",
+  "x": [
+   "",
+   "tert-Butyl bromide ionizes easily (S<sub>N</sub>1) but its crowded tertiary carbon blocks backside attack, so it does not undergo S<sub>N</sub>2.",
+   "1-Bromobutane is a fine S<sub>N</sub>2 substrate, but a primary unstabilized cation is too high in energy for S<sub>N</sub>1.",
+   "Bromobenzene reacts by neither: backside attack would go through the ring, and an aryl cation is very unstable."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "BrCc1ccccc1"
+   },
+   {
+    "smi": "CC(C)(C)Br"
+   },
+   {
+    "smi": "CCCCBr"
+   },
+   {
+    "smi": "Brc1ccccc1"
+   }
+  ]
+ }
+]
