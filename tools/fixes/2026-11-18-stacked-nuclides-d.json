@@ -1,0 +1,23 @@
+[
+ {
+  "id": "1B-154",
+  "field": "raw",
+  "old": "<sup>235</sup>U + <sup>1</sup>n → <sup>141</sup>Ba + <sup>92</sup>Kr + <i>x</i> <sup>1</sup>n",
+  "new": "<span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>235</sup><sub>92</sub></span>U</span> + <span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>1</sup><sub>0</sub></span>n</span> → <span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>141</sup><sub>56</sub></span>Ba</span> + <span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>92</sup><sub>36</sub></span>Kr</span> + <i>x</i> <span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>1</sup><sub>0</sub></span>n</span>",
+  "why": "Nuclear equation: add atomic numbers, stacked under mass numbers, so both rows can be balanced"
+ },
+ {
+  "id": "1B-155",
+  "field": "w",
+  "old": "Positron emission (p → n + e<sup>+</sup>) raises the n/p ratio and lowers Z by 1: <b><sup>18</sup>F → <sup>18</sup>O + e<sup>+</sup></b>. Beta emission does the opposite and suits neutron-rich nuclides like <sup>14</sup>C.",
+  "new": "Positron emission (p → n + e<sup>+</sup>) raises the n/p ratio and lowers Z by 1: <b><span class=\"nw\"><span class=\"ss pre\"><sup>18</sup><sub>9</sub></span>F</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>18</sup><sub>8</sub></span>O</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span></b>. Beta emission does the opposite and suits neutron-rich nuclides like <sup>14</sup>C.",
+  "why": "Nuclear equation: add atomic numbers, stacked under mass numbers, so both rows can be balanced"
+ },
+ {
+  "id": "1B-274",
+  "field": "raw",
+  "old": "<sup>210</sup>Po → <sup>206</sup>Pb + <sup>4</sup>He",
+  "new": "<span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>210</sup><sub>84</sub></span>Po</span> → <span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>206</sup><sub>82</sub></span>Pb</span> + <span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>4</sup><sub>2</sub></span>He</span>",
+  "why": "Nuclear equation: add atomic numbers, stacked under mass numbers, so both rows can be balanced"
+ }
+]

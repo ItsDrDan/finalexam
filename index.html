@@ -15,10 +15,10 @@ button,input,select{font:inherit;color:inherit}.hidden{display:none!important}
 .hero h1{margin:6px 0 4px;font-size:clamp(30px,4.2vw,46px);line-height:1.08;font-weight:900;letter-spacing:-.02em}
 .hero h1 .a{color:#e0675a}.hero h1 .b{background:linear-gradient(90deg,#2f8fd0,#43b6a8);-webkit-background-clip:text;background-clip:text;color:transparent}
 .subtitle{margin:0;color:var(--muted);font-size:15.5px}
-.logo{width:150px;flex:0 0 150px}
+.logo{width:clamp(150px,17vw,260px);flex:0 0 clamp(150px,17vw,260px)}
 /* ---- living boss logo ---- */
 .logo{text-align:center}.fbInst svg{overflow:visible;display:block;width:100%;height:auto}
-.fbcap{font-size:11.5px;font-weight:900;color:#5c6a75;margin-top:2px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.fbcap{font-size:clamp(11.5px,0.95vw,15px);font-weight:900;color:#5c6a75;margin-top:2px;white-space:nowrap;font-variant-numeric:tabular-nums}
 .fbInst .fbBody,.fbInst .fbCrown,.fbInst .eyes,.fbInst .fbSweat,.fbInst .fbDmg,.fbInst .fbWave{transform-box:fill-box;transform-origin:center}
 .fbBody{animation:fbBreathe 3.4s ease-in-out infinite}
 .fbWave{animation:fbSlosh 2.8s linear infinite;transition:fill .8s}
@@ -51,7 +51,7 @@ button,input,select{font:inherit;color:inherit}.hidden{display:none!important}
 @keyframes fbFloat{0%{opacity:0;transform:translateY(6px) scale(.7)}20%{opacity:1;transform:translateY(0) scale(1.15)}100%{opacity:0;transform:translateY(-22px) scale(1)}}
 @keyframes fbDrip{0%{transform:translateY(0);opacity:1}100%{transform:translateY(14px);opacity:0}}
 .fbrow{display:flex;gap:12px;align-items:flex-start;margin-top:10px}.fbrow .fbcol{flex:1;min-width:0}.fbrow .fbcol .hintbox,.fbrow .fbcol .fb{margin-top:0}.fbrow .fbcol .hintbox+.fb:not(:empty){margin-top:8px}
-.fbmini{flex:0 0 124px;width:124px;text-align:center;padding-top:2px}.fbmini.hidden{display:none}.fbrow.empty{margin-top:14px}
+.fbmini{flex:0 0 clamp(124px,14vw,220px);width:clamp(124px,14vw,220px);text-align:center;padding-top:2px}.fbmini.hidden{display:none}.fbrow.empty{margin-top:14px}
 @media(max-width:700px){.fbmini{flex-basis:92px;width:92px}.fbrow{gap:8px}}
 @media(max-width:480px){.fbrow{flex-direction:column;align-items:stretch}.fbmini{flex:0 0 auto;width:auto;display:flex;align-items:center;gap:10px;text-align:left;padding-top:0}.fbmini svg{flex:0 0 60px;width:60px}.fb .nw,.hintbox .nw{white-space:normal}}
 .fb,.hintbox{overflow-wrap:break-word}.fbnext{margin-top:14px}.fbnext .btn{width:100%}
@@ -121,7 +121,7 @@ details.howto ul{margin:0 18px 14px;padding-left:22px;line-height:1.6}
 .mols{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px 14px;margin:10px 0 2px;padding:8px;background:#fff;border:2px solid #e1ebf3;border-radius:16px}.mrx{display:inline-flex;flex-direction:column;align-items:center;min-width:130px;max-width:200px;padding:0 6px}.mrxt{font-size:14px;font-weight:800;line-height:1.25;text-align:center;color:#2d3f4b}.mrxa{position:relative;width:100%;height:3.5px;background:#2d3f4b;margin:6px 0;border-radius:2px}.mrxa::after{content:'';position:absolute;right:-3px;top:-7.25px;border-left:15px solid #2d3f4b;border-top:9px solid transparent;border-bottom:9px solid transparent}
 .rxar{display:inline-block;font-size:1.25em;line-height:1;vertical-align:-.05em;padding:0 .1em}
 @media(max-width:700px){.mrx{min-width:110px}}.mol{display:inline-flex;flex-direction:column;align-items:center;max-width:100%;min-width:0}.mol>svg{max-width:100%;height:auto}.mols{max-width:100%;overflow-x:auto}@media(max-width:480px){.prompt .nw{white-space:normal}.prompt,.opt{overflow-wrap:anywhere}}.mcap{font-size:15px;margin-top:2px}.mop{font-size:26px;font-weight:700;color:#2d3f4b}
-.nw{white-space:nowrap}.ss{display:inline-flex;flex-direction:column;align-items:flex-start;vertical-align:.32em;line-height:1;margin-right:1px}.ss.pre{align-items:flex-end;margin:0 1px 0 0}.ss sup,.ss sub{font-size:.68em;line-height:1.05;vertical-align:baseline;position:static}
+.steps{margin:0;padding:0 0 0 1.45em;list-style:decimal;text-align:left}.steps li{margin:1px 0;padding-left:2px}.nw{white-space:nowrap}.nw:has(>.ss.pre){white-space:nowrap!important}.ss{display:inline-flex;flex-direction:column;align-items:flex-start;vertical-align:.32em;line-height:1;margin-right:1px}.ss.pre{align-items:flex-end;margin:0 1px 0 0}.ss sup,.ss sub{font-size:.68em;line-height:1.05;vertical-align:baseline;position:static}
 .topics{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
 .tchip{min-height:40px;border-radius:999px;border:2px solid #d3dee7;background:#fff;padding:5px 12px;font-weight:800;font-size:14px;cursor:pointer}
 .tchip.on{background:#2f8fd0;border-color:#2f8fd0;color:#fff}
@@ -495,7 +495,7 @@ const CONSTANTS=['R = 8.314 J·mol⁻¹·K⁻¹','R = 0.0821 L·atm·mol⁻¹·K
 const PT=[[1,"H","1.008"],[2,"He","4.003"],[3,"Li","6.941"],[4,"Be","9.012"],[5,"B","10.81"],[6,"C","12.01"],[7,"N","14.01"],[8,"O","16.00"],[9,"F","19.00"],[10,"Ne","20.18"],[11,"Na","22.99"],[12,"Mg","24.31"],[13,"Al","26.98"],[14,"Si","28.09"],[15,"P","30.97"],[16,"S","32.07"],[17,"Cl","35.45"],[18,"Ar","39.95"],[19,"K","39.10"],[20,"Ca","40.08"],[21,"Sc","44.96"],[22,"Ti","47.88"],[23,"V","50.94"],[24,"Cr","52.00"],[25,"Mn","54.94"],[26,"Fe","55.85"],[27,"Co","58.93"],[28,"Ni","58.69"],[29,"Cu","63.55"],[30,"Zn","65.39"],[31,"Ga","69.72"],[32,"Ge","72.61"],[33,"As","74.92"],[34,"Se","78.96"],[35,"Br","79.90"],[36,"Kr","83.80"],[37,"Rb","85.47"],[38,"Sr","87.62"],[39,"Y","88.91"],[40,"Zr","91.22"],[41,"Nb","92.91"],[42,"Mo","95.94"],[43,"Tc",""],[44,"Ru","101.1"],[45,"Rh","102.9"],[46,"Pd","106.4"],[47,"Ag","107.9"],[48,"Cd","112.4"],[49,"In","114.8"],[50,"Sn","118.7"],[51,"Sb","121.8"],[52,"Te","127.6"],[53,"I","126.9"],[54,"Xe","131.3"],[55,"Cs","132.9"],[56,"Ba","137.3"],[57,"La","138.9"],[58,"Ce","140.1"],[59,"Pr","140.9"],[60,"Nd","144.2"],[61,"Pm",""],[62,"Sm","150.4"],[63,"Eu","152.0"],[64,"Gd","157.3"],[65,"Tb","158.9"],[66,"Dy","162.5"],[67,"Ho","164.9"],[68,"Er","167.3"],[69,"Tm","168.9"],[70,"Yb","173.0"],[71,"Lu","175.0"],[72,"Hf","178.5"],[73,"Ta","180.9"],[74,"W","183.8"],[75,"Re","186.2"],[76,"Os","190.2"],[77,"Ir","192.2"],[78,"Pt","195.1"],[79,"Au","197.0"],[80,"Hg","200.6"],[81,"Tl","204.4"],[82,"Pb","207.2"],[83,"Bi","209.0"],[84,"Po",""],[85,"At",""],[86,"Rn",""],[87,"Fr",""],[88,"Ra",""],[89,"Ac",""],[90,"Th","232.0"],[91,"Pa","231.0"],[92,"U","238.0"],[93,"Np",""],[94,"Pu",""],[95,"Am",""],[96,"Cm",""],[97,"Bk",""],[98,"Cf",""],[99,"Es",""],[100,"Fm",""],[101,"Md",""],[102,"No",""],[103,"Lr",""],[104,"Rf",""],[105,"Db",""],[106,"Sg",""],[107,"Bh",""],[108,"Hs",""],[109,"Mt",""],[110,"Ds",""],[111,"Rg",""],[112,"Cn",""],[113,"Nh",""],[114,"Fl",""],[115,"Mc",""],[116,"Lv",""],[117,"Ts",""],[118,"Og",""]];
 const BANK={},BANK_DATA={},BYID_T={};
 /* question banks: data/bank-<course>.json, one file per course; BANK_V holds each file's version stamp (written by tools/bankio.js) */
-const BANK_V={"3A":"2e4687031a","3B":"5e549e0e66","1A":"8111907668","1B":"8b687a3ba6","28A":"5838e137b0","28B":"486894897c"};
+const BANK_V={"3A":"83f2e88e01","3B":"063cf8d3d1","1A":"8111907668","1B":"dd7570497e","28A":"5838e137b0","28B":"af7d575038"};
 const BANK_JSON={},bankURL=c=>'data/bank-'+c+'.json?v='+(BANK_V[c]||'0');
 /* the course's own bank is fetched before drawing; a borrowed bank (28B's Boss Battle uses 28A topics) is fetched right after, in the background; anything still missing falls back to a synchronous load in loadCourse */
 const bankNeeds=c=>{const n=[c],m=COURSES[c]&&COURSES[c].mix;if(m)n.push(m.from);return n};
@@ -866,16 +866,32 @@ function skelSVG(m,sc){const U=(sc||1)*(m.ar?40:30),A=m.a.map(a=>({t:a[0],x:a[1]
   const free=c=>{const px=a.x+Math.cos(c)*r,py=a.y+Math.sin(c)*r;return !rings.some(R=>inPoly(px,py,R))&&!cg.some(q=>Math.hypot(q[0]-px,q[1]-py)<17)&&!(m.b||[]).some(([p,q2,od])=>{if(od===0||(p!==i&&q2!==i))return false;const n=A[p===i?q2:p];const t=Math.max(0,Math.min(1,((px-a.x)*(n.x-a.x)+(py-a.y)*(n.y-a.y))/((n.x-a.x)**2+(n.y-a.y)**2||1)));return Math.hypot(a.x+t*(n.x-a.x)-px,a.y+t*(n.y-a.y)-py)<8})};
   let dir=cands[0];const pick=cands.find(free);if(pick!==undefined)dir=pick;else for(const c of cands){const px=a.x+Math.cos(c)*r,py=a.y+Math.sin(c)*r;if(!rings.some(R=>inPoly(px,py,R))){dir=c;break}}const tx=a.x+Math.cos(dir)*r,ty=a.y+Math.sin(dir)*r;tg.push([tx,ty]);
   o+=`<circle cx="${tx.toFixed(1)}" cy="${ty.toFixed(1)}" r="9" fill="#fff3e0" stroke="#e8973a" stroke-width="1.6"/><text x="${tx.toFixed(1)}" y="${(ty+4.6).toFixed(1)}" text-anchor="middle" font-size="13" font-weight="900" font-style="italic" fill="#b4640f" font-family="${'Inter,Helvetica,Arial,sans-serif'}">${a.lab}</text>`});
- /* curved (electron-pushing) arrows: m.ar = [[from,to,half,side]]; an end is an atom index (a lone pair on it when one is drawn) or [i,j] (the middle of that bond) */
- const arSide={};(m.ar||[]).forEach(([f,t,half,side])=>{const AC='#b0306a',pt=e=>Array.isArray(e)?[(A[e[0]].x+A[e[1]].x)/2,(A[e[0]].y+A[e[1]].y)/2]:[A[e].x,A[e].y];let T=pt(t),F=pt(f);
-  let lpv=null;if(!Array.isArray(f)){const a=A[f];if(a.lpPos&&a.lpPos.length){let b=a.lpPos[0],bd=1e9;a.lpPos.forEach(p=>{const d=Math.hypot(p[0]-T[0],p[1]-T[1]);if(d<bd){bd=d;b=p}});const ux=b[0]-a.x,uy=b[1]-a.y,l=Math.hypot(ux,uy)||1;F=[b[0]+ux/l*5,b[1]+uy/l*5];lpv=[ux/l,uy/l]}
-   else{const dx=T[0]-a.x,dy=T[1]-a.y,l=Math.hypot(dx,dy)||1,r=show(a)?14:6;F=[a.x+dx/l*r,a.y+dy/l*r]}}
-  const dx=T[0]-F[0],dy=T[1]-F[1],d=Math.hypot(dx,dy)||1,nx=-dy/d,ny=dx/d,bul=Math.max(d<45?20:16,Math.min(0.42*d,44)),mid=[(F[0]+T[0])/2,(F[1]+T[1])/2];
-  const ctl=sg=>[mid[0]+nx*sg*bul*2,mid[1]+ny*sg*bul*2],clear=sg=>{const c=ctl(sg);let b=1e9;[0.3,0.5,0.7].forEach(u=>{const v=1-u,qx=v*v*F[0]+2*u*v*c[0]+u*u*T[0],qy=v*v*F[1]+2*u*v*c[1]+u*u*T[1];A.forEach(a=>{b=Math.min(b,Math.hypot(a.x-qx,a.y-qy))});cg.forEach(p=>{b=Math.min(b,Math.hypot(p[0]-qx,p[1]-qy)+4)})});return b}; /* room along the curve: atoms, charges, lone pairs and earlier arrows */
-  const fk=Array.isArray(f)?[...f].sort((p,q)=>p-q).join('-'):'',prv=fk&&arSide[fk];/* two half arrows out of one bond (homolysis) bow the same way, one to each atom */
-  const lpSide=lpv&&Math.abs(nx*lpv[0]+ny*lpv[1])>0.35?(nx*lpv[0]+ny*lpv[1]>0?1:-1):0;
-  const sg=side?side:prv?prv[0]*((nx*prv[1]+ny*prv[2])>=0?1:-1):lpSide?lpSide:(clear(1)>=clear(-1)?1:-1),C=ctl(sg);if(fk&&!prv)arSide[fk]=[sg,nx,ny];let ux=T[0]-C[0],uy=T[1]-C[1],ul=Math.hypot(ux,uy)||1;ux/=ul;uy/=ul;
-  const stop=Array.isArray(t)?4:show(A[t])?17:9,E=[T[0]-ux*stop,T[1]-uy*stop];ux=E[0]-C[0];uy=E[1]-C[1];ul=Math.hypot(ux,uy)||1;ux/=ul;uy/=ul;
+ /* curved (electron-pushing) arrows: m.ar = [[from,to,half,side]]; an end is an atom index (a lone pair on it when one is drawn) or [i,j] (the middle of that bond).
+    All arrows of a drawing are planned together: each may bow to either side and, from a lone pair, start at any drawn pair. The plan with no arrow crossings,
+    the most room around labels and charges, tails that leave their lone pair outward and curves that bow away from the molecule wins, so the arrows read as one flow. */
+ const AR=m.ar||[],AC='#b0306a',pt=e=>Array.isArray(e)?[(A[e[0]].x+A[e[1]].x)/2,(A[e[0]].y+A[e[1]].y)/2]:[A[e].x,A[e].y];
+ const arGeo=(f,t,half,sg,lp)=>{const T=pt(t);let F=pt(f),lpv=null;
+  if(!Array.isArray(f)){const a=A[f];if(lp){const ux=lp[0]-a.x,uy=lp[1]-a.y,l=Math.hypot(ux,uy)||1;F=[lp[0]+ux/l*5,lp[1]+uy/l*5];lpv=[ux/l,uy/l]}else{const dx=T[0]-a.x,dy=T[1]-a.y,l=Math.hypot(dx,dy)||1,r=show(a)?14:6;F=[a.x+dx/l*r,a.y+dy/l*r]}}
+  const dx=T[0]-F[0],dy=T[1]-F[1],d=Math.hypot(dx,dy)||1,nx=-dy/d,ny=dx/d,bul=Math.max(d<45?20:16,Math.min(0.42*d,44)),C=[(F[0]+T[0])/2+nx*sg*bul*2,(F[1]+T[1])/2+ny*sg*bul*2];
+  let ux=T[0]-C[0],uy=T[1]-C[1],ul=Math.hypot(ux,uy)||1;ux/=ul;uy/=ul;const stop=Array.isArray(t)?4:show(A[t])?17:9,E=[T[0]-ux*stop,T[1]-uy*stop];
+  const P=[];for(let k=0;k<=16;k++){const u=k/16,v=1-u;P.push([v*v*F[0]+2*u*v*C[0]+u*u*E[0],v*v*F[1]+2*u*v*C[1]+u*u*E[1]])}
+  return {f,t,half,F,C,E,T,P,lpv,sg}};
+ const segX=(p,q,r,s)=>{const d1=(q[0]-p[0])*(r[1]-p[1])-(q[1]-p[1])*(r[0]-p[0]),d2=(q[0]-p[0])*(s[1]-p[1])-(q[1]-p[1])*(s[0]-p[0]),d3=(s[0]-r[0])*(p[1]-r[1])-(s[1]-r[1])*(p[0]-r[0]),d4=(s[0]-r[0])*(q[1]-r[1])-(s[1]-r[1])*(q[0]-r[0]);return d1*d2<0&&d3*d4<0};
+ const cg0=cg.slice(),arOwn=g=>{let pen=0;const I=g.P.slice(2,15);
+   I.forEach(q=>{A.forEach((a,k)=>{const lim=show(a)?16:7,dd=Math.hypot(a.x-q[0],a.y-q[1]);if(dd<lim)pen+=(lim-dd)*3});cg0.forEach(c=>{const dd=Math.hypot(c[0]-q[0],c[1]-q[1]);if(dd<10)pen+=(10-dd)*2})});
+   for(let k=1;k<g.P.length;k++)(m.b||[]).forEach(([i,j,od])=>{if(od===0)return;if(segX(g.P[k-1],g.P[k],[A[i].x,A[i].y],[A[j].x,A[j].y]))pen+=4});
+   if(g.lpv){const cx=g.C[0]-g.F[0],cy=g.C[1]-g.F[1],cl=Math.hypot(cx,cy)||1;pen+=(1-(g.lpv[0]*cx+g.lpv[1]*cy)/cl)*8}
+   const mx=(g.F[0]+g.E[0])/2,my=(g.F[1]+g.E[1])/2;if(Math.hypot(g.C[0]-cen[0],g.C[1]-cen[1])<Math.hypot(mx-cen[0],my-cen[1]))pen+=5;return pen};
+ const arPair=(g,h)=>{let pen=0;for(let k=1;k<g.P.length;k++)for(let j=1;j<h.P.length;j++)if(segX(g.P[k-1],g.P[k],h.P[j-1],h.P[j]))pen+=80;
+   let md=1e9;g.P.slice(1,16).forEach(p=>h.P.slice(1,16).forEach(q=>{md=Math.min(md,Math.hypot(p[0]-q[0],p[1]-q[1]))}));if(md<24)pen+=(24-md)*3;
+   if(Array.isArray(g.f)&&Array.isArray(h.f)&&g.half&&h.half&&[...g.f].sort().join()===[...h.f].sort().join()){const i=g.f[0],j=g.f[1],bx=A[j].x-A[i].x,by=A[j].y-A[i].y,mx=(A[i].x+A[j].x)/2,my=(A[i].y+A[j].y)/2;
+    const sd=c=>Math.sign(bx*(c[1]-my)-by*(c[0]-mx));if(sd(g.C)!==sd(h.C))pen+=200}return pen};
+ const OPT=AR.map(([f,t,half,side])=>{const lps=!Array.isArray(f)&&A[f].lpPos&&A[f].lpPos.length?A[f].lpPos:[null],out=[];lps.forEach(lp=>(side?[side]:[1,-1]).forEach(sg=>{const g=arGeo(f,t,half,sg,lp);g.own=arOwn(g);out.push(g)}));return out});
+ let best=null;const total=OPT.reduce((p,o)=>p*o.length,1);
+ if(total<=4096){const rec=(k,ch,sc)=>{if(best&&sc>=best[0])return;if(k===OPT.length){best=[sc,ch.slice()];return}OPT[k].forEach(g=>{let s2=sc+g.own;ch.forEach(h=>{s2+=arPair(g,h)});ch.push(g);rec(k+1,ch,s2);ch.pop()})};rec(0,[],0)}
+ else{const ch=[];OPT.forEach(o=>{let bg=null,bs=1e9;o.forEach(g=>{const s2=g.own+ch.reduce((p,h)=>p+arPair(g,h),0);if(s2<bs){bs=s2;bg=g}});ch.push(bg)});best=[0,ch]}
+ (best?best[1]:[]).forEach(({F,C,E,half})=>{let ux=E[0]-C[0],uy=E[1]-C[1],ul=Math.hypot(ux,uy)||1;ux/=ul;uy/=ul;
+  const nx=-(E[1]-F[1]),ny=E[0]-F[0],sg=(C[0]-F[0])*nx+(C[1]-F[1])*ny>0?1:-1;
   const hl=10,hw=5,px=-uy,py=ux,B0=[E[0]-ux*hl,E[1]-uy*hl],Lend=[E[0]-ux*(half?2:6),E[1]-uy*(half?2:6)],bs=(px*nx+py*ny)*sg>0?1:-1;
   o+=`<path d="M${F[0].toFixed(1)} ${F[1].toFixed(1)}Q${C[0].toFixed(1)} ${C[1].toFixed(1)} ${Lend[0].toFixed(1)} ${Lend[1].toFixed(1)}" fill="none" stroke="${AC}" stroke-width="2.2" stroke-linecap="round"/>`;
   o+=half?`<path d="M${E[0].toFixed(1)} ${E[1].toFixed(1)}L${(B0[0]+px*hw*bs*1.3).toFixed(1)} ${(B0[1]+py*hw*bs*1.3).toFixed(1)}" fill="none" stroke="${AC}" stroke-width="2.4" stroke-linecap="round"/>`
@@ -1112,11 +1128,11 @@ function optLabelsFB(q){if(q.__lab)return q.__lab;const key=x=>x.split(', ').sor
  return q.__lab=d.map((x,k)=>x!==null&&n[key(x)]>1?x+'; '+molWhere(structMol(q.cs[k])):x)}
 const optAria=(q,k,L)=>{const d=optLabelsFB(q)[k];return d?` aria-label="${attrEsc('Choice '+L+': '+d)}"`:''};
 
-const rxLab=t=>esc(t).replace(/&lt;(\/?)(sub|sup)&gt;/g,'<$1$2>');
+const rxLab=t=>esc(t).replace(/&lt;(\/?)(sub|sup|i|b|em)&gt;/g,'<$1$2>');
 function structBlock(sp){if(!sp)return '';return `<span class="mols">${sp.map(p=>typeof p==='string'?`<span class="mop">${rxLab(p)}</span>`:p.smi?`<span class="mol">${smiHTML(p.smi,p.st,p.sc)}${p.cap?`<b class="mcap">${rxLab(p.cap)}</b>`:''}</span>`:p.arrow!=null?`<span class="mrx"><span class="mrxt">${rxLab(p.arrow)}</span><span class="mrxa"></span>${p.below?`<span class="mrxt">${rxLab(p.below)}</span>`:''}</span>`:`<span class="mol">${molSVG(p)}${p.cap?`<b class="mcap">${rxLab(p.cap)}</b>`:''}</span>`).join('')}</span>`}
 /* ---------- figures (field q.f = [fig, ...]) ---------- */
 const FS='#2d3f4b',FF='Inter,Helvetica,Arial,sans-serif';
-const svgSub=t=>String(t).replace(/<sub>(.*?)<\/sub>/g,'<tspan baseline-shift="sub" font-size="75%">$1</tspan>').replace(/<sup>(.*?)<\/sup>/g,'<tspan baseline-shift="super" font-size="75%">$1</tspan>');
+const svgSub=t=>String(t).replace(/<(i|em)>(.*?)<\/\1>/g,'<tspan font-style="italic">$2</tspan>').replace(/<b>(.*?)<\/b>/g,'<tspan font-weight="900">$1</tspan>').replace(/<sub>(.*?)<\/sub>/g,'<tspan baseline-shift="sub" font-size="75%">$1</tspan>').replace(/<sup>(.*?)<\/sup>/g,'<tspan baseline-shift="super" font-size="75%">$1</tspan>');
 const svgT=(x,y,t,o='')=>`<text x="${(+x).toFixed(1)}" y="${(+y).toFixed(1)}" font-family="${FF}" fill="${FS}" ${o}>${svgSub(t)}</text>`;
 const PCOL=['#3b82b4','#e0675a','#4fa36a','#9a7fc9','#e8973a','#2f8fd0'];
 function fTable(f){return `<table class="ftab">${f.cap?`<caption>${f.cap}</caption>`:''}${f.head?`<tr>${f.head.map(h=>`<th>${h}</th>`).join('')}</tr>`:''}${f.rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</table>`}
@@ -1570,7 +1586,9 @@ function figBlock(fs){if(!fs)return '';return `<span class="figs">${fs.map(f=>{t
 /* keep condensed formulas like HC≡C–CH=CH2 or CH3–CH2–OH on one line */
 const noWrapChem=h=>typeof h==='string'?h.replace(/→/g,'<span class="rxar">⟶</span>').replace(/<span class="nw">[\s\S]*?<\/span>|<[^>]+>|(?:[A-Za-z0-9()\[\]]|<\/?su[bp]>)+(?:[–−—=≡-](?:[A-Za-z0-9()\[\]]|<\/?su[bp]>)+)+/g,m=>m.startsWith('<')||!/[A-Za-z]/.test(m.replace(/<[^>]+>/g,''))||m.replace(/<[^>]+>/g,'').length>18?m:`<span class="nw">${m}</span>`):h; /* long hyphenated IUPAC names may wrap at their hyphens on phones */
 const qHTML=q=>noWrapChem(q.q)+structBlock(q.s)+figBlock(q.f);
-const optHTML=(q,k)=>(String(q.c[k]).startsWith('§')?'':noWrapChem(q.c[k]))+(q.cs&&q.cs[k]?`<span class="optmol">${q.cs[k].smi?smiHTML(q.cs[k].smi,q.cs[k].st,0.75):molSVG(q.cs[k],0.8)}</span>`:'');
+/* a reagent sequence written "1. … 2. … 3. …" shows as a numbered list, one step per line */
+const stepList=h=>{const s=String(h).trim();if(!/^1\.\s/.test(s))return null;const parts=s.split(/\s+(?=\d+\.\s)/);if(parts.length<2||parts.some((x,i)=>!x.startsWith((i+1)+'. ')))return null;return '<ol class="steps">'+parts.map(x=>'<li>'+noWrapChem(x.replace(/^\d+\.\s+/,''))+'</li>').join('')+'</ol>'};
+const optHTML=(q,k)=>(String(q.c[k]).startsWith('§')?'':stepList(q.c[k])||noWrapChem(q.c[k]))+(q.cs&&q.cs[k]?`<span class="optmol">${q.cs[k].smi?smiHTML(q.cs[k].smi,q.cs[k].st,0.75):molSVG(q.cs[k],0.8)}</span>`:'');
 function qMeta(q,extra=''){return `<div class="meta">${extra}<span class="chip">${topicIcon(q.course,q.t)} ${esc(topicName(q.course,q.t))}</span>${q.k?'<span class="chip calc">🧮 Calculator</span>':'<span class="chip">💭 Concept</span>'}<span class="chip lvl">${['','● Easy','●● Medium','●●● Hard'][q.d]||''}</span></div>`}
 function renderQ(){const q=state.q;const quick=state.mode==='quick'?(state.quick.daily?`<span class="chip" style="background:#fff0f5;border-color:#f0c4d3">🗓️ Daily 5 • ${state.quick.off+state.quick.i+1} of 5</span>`:`<span class="chip" style="background:#e5f6ea;border-color:#bfe2c8">⚡ ${state.quick.i+1} of 10 • score ${state.quick.score}</span>`):'';
  $('qArea').innerHTML=qMeta(q,quick)+`<p class="prompt">${qHTML(q)}</p><div class="options">${state.order.map((k,i)=>`<button class="opt" data-k="${k}" aria-pressed="false"${optAria(q,k,'ABCD'[i])}><span class="L">${'ABCD'[i]}</span><span>${optHTML(q,k)}</span></button>`).join('')}</div>`;

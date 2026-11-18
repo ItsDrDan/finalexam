@@ -1,0 +1,10 @@
+3A-53	moles	w: 1 Ca + 2 N + 6 O = 40.08  → computes 9, states 40.08
+3A-420	matter	w: 2 N2 + 6 H2 = 4  → computes 8, states 4
+3A-726	solutions	w: 100. g × 75.0 g/100. g = 22.2  → computes 7500, states 22.2
+1A-138	gases	w: 515 m s^-1. Using M = 28.02  → computes 514, states 28.02
+1A-741	reactions	w: 1 + 8 = 6  → computes 9, states 6
+1B-170	equilibrium	w: 4x^3/0.040 = 1.0×10^-6  → computes 100, states 1e-06
+1B-170	equilibrium	h: 0.20 - 2x ≈ 0.20  → computes -1.8, states 0.2
+1B-180	buffers	w: 0.00500 mol NH^+4. pKa = 14  → computes 4.005, states 14
+1B-256	thermo	w: -188.0 J K^-1 = -0.1880  → computes -189, states -0.188
+1B-636	kinetics	w: 2/50 s = 0.014  → computes 0.04, states 0.014

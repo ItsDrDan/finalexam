@@ -1,0 +1,44 @@
+[
+ {
+  "id": "3A-559",
+  "field": "c[2]",
+  "old": "1.93 &times; 10<sup>&minus;7</sup> mol",
+  "new": "9.03 &times; 10<sup>19</sup> molecules",
+  "why": "Sweep S12 (3A-633 pattern): c2 was in mol for a molecules question, so units alone eliminated it. 1.50e-4 g x 6.0221e23 = 9.03e19 is the real error of skipping the molar mass (checked in Python)."
+ },
+ {
+  "id": "3A-559",
+  "field": "x[2]",
+  "old": "This stops at moles. One more step gives molecules.",
+  "new": "This skips the molar mass: it multiplies the grams by Avogadro's number as if they were moles. Divide by 776.86 g/mol first.",
+  "why": "Matches the new c2."
+ },
+ {
+  "id": "3A-97",
+  "field": "c[0]",
+  "old": "18.0 L",
+  "new": "18 L",
+  "why": "Sweep S22/S24 (sig-fig slip): 0.50 mol and 0.25 mol (sum 0.75 mol) have 2 significant figures, so V2 = 12.0 x 0.75/0.50 = 18 L, not 18.0 L. The distractors (6.0, 9.0, 8.0 L) already use 2 sig figs, so the key also stood out by its extra digit."
+ },
+ {
+  "id": "3A-97",
+  "field": "w",
+  "old": "n<sub>2</sub> = 0.50 + 0.25 = 0.75 mol. V<sub>2</sub> = 12.0 L × (0.75/0.50) = <b>18.0 L</b>. Using 0.25 mol as n<sub>2</sub> gives 6.0 L, which ignores the helium already present; 9.0 L multiplies 12.0 L by the new 0.75 mol without dividing by the original 0.50 mol.",
+  "new": "n<sub>2</sub> = 0.50 + 0.25 = 0.75 mol. V<sub>2</sub> = 12.0 L × (0.75/0.50) = <b>18 L</b> (two significant figures, set by the 0.50 and 0.75 mol). Using 0.25 mol as n<sub>2</sub> gives 6.0 L, which ignores the helium already present; 9.0 L multiplies 12.0 L by the new 0.75 mol without dividing by the original 0.50 mol.",
+  "why": "Same sig-fig correction in the explanation."
+ },
+ {
+  "id": "3B-996",
+  "field": "c[1]",
+  "old": "His body has made extra cholinesterase to protect itself",
+  "new": "The worker's body has made extra cholinesterase to protect itself",
+  "why": "Stem says only \"a worker\"; the choices assumed \"his\". Neutral wording, same meaning."
+ },
+ {
+  "id": "3B-996",
+  "field": "c[2]",
+  "old": "His blood is low in acetylcholine",
+  "new": "The worker's blood is low in acetylcholine",
+  "why": "Same as c1: neutral wording to match the stem."
+ }
+]
