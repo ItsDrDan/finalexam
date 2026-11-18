@@ -1,0 +1,1304 @@
+[
+{
+"id": "c12-001",
+"keep": false,
+"reason": "trivial recall (litmus)",
+"dup_of": null
+},
+{
+"id": "c12-002",
+"keep": true,
+"reason": "indicator reasoning: colorless rules out only base",
+"dup_of": null
+},
+{
+"id": "c12-003",
+"keep": false,
+"reason": "classroom-only (red cabbage indicator chart)",
+"dup_of": null
+},
+{
+"id": "c12-004",
+"keep": false,
+"reason": "drill repeat of c12-002 (indicator result)",
+"dup_of": "c12-002"
+},
+{
+"id": "c12-005",
+"keep": true,
+"reason": "predicts metal + acid products",
+"dup_of": null
+},
+{
+"id": "c12-006",
+"keep": true,
+"reason": "acid + bicarbonate products in a real context",
+"dup_of": null
+},
+{
+"id": "c12-007",
+"keep": true,
+"reason": "net ionic equation for strong acid/strong base",
+"dup_of": null
+},
+{
+"id": "c12-008",
+"keep": true,
+"reason": "explains conductivity via ionization",
+"dup_of": null
+},
+{
+"id": "c12-009",
+"keep": false,
+"reason": "drill repeat of c12-006 (acid + carbonate gives CO2)",
+"dup_of": "c12-006"
+},
+{
+"id": "c12-010",
+"keep": true,
+"reason": "antacid neutralization stoichiometry",
+"dup_of": null
+},
+{
+"id": "c12-011",
+"keep": false,
+"reason": "duplicate of 3A-138",
+"dup_of": "3A-138"
+},
+{
+"id": "c12-012",
+"keep": false,
+"reason": "trivial recall (definition)",
+"dup_of": null
+},
+{
+"id": "c12-013",
+"keep": true,
+"reason": "applies BL definition to NH3 as a base",
+"dup_of": null
+},
+{
+"id": "c12-014",
+"keep": false,
+"reason": "trivial recall",
+"dup_of": null
+},
+{
+"id": "c12-015",
+"keep": true,
+"reason": "identifies BL base in a reaction",
+"dup_of": null
+},
+{
+"id": "c12-016",
+"keep": false,
+"reason": "drill repeat of c12-017 (conjugate pair in reaction)",
+"dup_of": "c12-017"
+},
+{
+"id": "c12-017",
+"keep": true,
+"reason": "identifies conjugate acid-base pair",
+"dup_of": null
+},
+{
+"id": "c12-018",
+"keep": false,
+"reason": "near-duplicate of 3A-140 (conjugate base)",
+"dup_of": "3A-140"
+},
+{
+"id": "c12-019",
+"keep": false,
+"reason": "drill repeat of c12-020 (conjugate acid)",
+"dup_of": "c12-020"
+},
+{
+"id": "c12-020",
+"keep": true,
+"reason": "conjugate acid with plausible H2CO3 distractor",
+"dup_of": null
+},
+{
+"id": "c12-021",
+"keep": true,
+"reason": "compares reactions to find water acting as an acid",
+"dup_of": null
+},
+{
+"id": "c12-022",
+"keep": true,
+"reason": "amphoteric species",
+"dup_of": null
+},
+{
+"id": "c12-023",
+"keep": true,
+"reason": "strong-acid recognition",
+"dup_of": null
+},
+{
+"id": "c12-024",
+"keep": false,
+"reason": "drill repeat of c12-023",
+"dup_of": "c12-023"
+},
+{
+"id": "c12-025",
+"keep": false,
+"reason": "drill repeat of c12-023 (strong list recall)",
+"dup_of": "c12-023"
+},
+{
+"id": "c12-026",
+"keep": true,
+"reason": "weak-acid ionization equation with double arrow",
+"dup_of": null
+},
+{
+"id": "c12-027",
+"keep": true,
+"reason": "particle picture of a weak acid",
+"dup_of": null
+},
+{
+"id": "c12-028",
+"keep": true,
+"reason": "strength vs concentration",
+"dup_of": null
+},
+{
+"id": "c12-029",
+"keep": false,
+"reason": "trivial recall",
+"dup_of": null
+},
+{
+"id": "c12-030",
+"keep": true,
+"reason": "alcohol OH is not hydroxide: classic misconception",
+"dup_of": null
+},
+{
+"id": "c12-031",
+"keep": false,
+"reason": "trivial recall",
+"dup_of": null
+},
+{
+"id": "c12-032",
+"keep": true,
+"reason": "predicts salt formula from neutralization",
+"dup_of": null
+},
+{
+"id": "c12-033",
+"keep": false,
+"reason": "drill repeat of c12-032",
+"dup_of": "c12-032"
+},
+{
+"id": "c12-034",
+"keep": false,
+"reason": "drill repeat (Ca(OH)2 dissociation, covered by c12-044)",
+"dup_of": "c12-044"
+},
+{
+"id": "c12-035",
+"keep": false,
+"reason": "trivial recall",
+"dup_of": null
+},
+{
+"id": "c12-036",
+"keep": false,
+"reason": "trivial recall",
+"dup_of": null
+},
+{
+"id": "c12-037",
+"keep": true,
+"reason": "Kw calculation [OH-] from [H3O+]",
+"dup_of": null
+},
+{
+"id": "c12-038",
+"keep": false,
+"reason": "drill repeat of c12-037",
+"dup_of": "c12-037"
+},
+{
+"id": "c12-039",
+"keep": false,
+"reason": "duplicate of 3A-146 (classify from [H3O+])",
+"dup_of": "3A-146"
+},
+{
+"id": "c12-040",
+"keep": false,
+"reason": "drill repeat of c12-041 (classify from [OH-])",
+"dup_of": "c12-041"
+},
+{
+"id": "c12-041",
+"keep": true,
+"reason": "compares acidity from mixed [H3O+]/[OH-] data",
+"dup_of": null
+},
+{
+"id": "c12-042",
+"keep": false,
+"reason": "drill repeat of c12-037/c12-044",
+"dup_of": "c12-044"
+},
+{
+"id": "c12-043",
+"keep": false,
+"reason": "drill repeat of c12-044",
+"dup_of": "c12-044"
+},
+{
+"id": "c12-044",
+"keep": true,
+"reason": "two-step Kw with 2 OH- per formula unit",
+"dup_of": null
+},
+{
+"id": "c12-045",
+"keep": true,
+"reason": "Kw constant: [OH-] falls as [H3O+] rises",
+"dup_of": null
+},
+{
+"id": "c12-046",
+"keep": true,
+"reason": "Kw applies to all aqueous solutions",
+"dup_of": null
+},
+{
+"id": "c12-047",
+"keep": false,
+"reason": "duplicate of 3A-144 (pH of strong acid)",
+"dup_of": "3A-144"
+},
+{
+"id": "c12-048",
+"keep": false,
+"reason": "duplicate of 3A-144 (pH of strong acid)",
+"dup_of": "3A-144"
+},
+{
+"id": "c12-049",
+"keep": false,
+"reason": "duplicate of 3A-145 (pH of NaOH)",
+"dup_of": "3A-145"
+},
+{
+"id": "c12-050",
+"keep": true,
+"reason": "pH of Ba(OH)2: 2 OH- and pOH step",
+"dup_of": null
+},
+{
+"id": "c12-051",
+"keep": false,
+"reason": "drill repeat of c12-050",
+"dup_of": "c12-050"
+},
+{
+"id": "c12-052",
+"keep": false,
+"reason": "drill repeat of c12-053; distractor differs only in sig figs",
+"dup_of": "c12-053"
+},
+{
+"id": "c12-053",
+"keep": true,
+"reason": "pH to [OH-] via pOH",
+"dup_of": null
+},
+{
+"id": "c12-054",
+"keep": false,
+"reason": "duplicate of 3A-201 (pH sig figs)",
+"dup_of": "3A-201"
+},
+{
+"id": "c12-055",
+"keep": false,
+"reason": "trivial (14 minus pOH)",
+"dup_of": null
+},
+{
+"id": "c12-056",
+"keep": false,
+"reason": "duplicate of 3A-372/3A-141 (pH ratio from table)",
+"dup_of": "3A-372"
+},
+{
+"id": "c12-057",
+"keep": true,
+"reason": "orders solutions by acidity from pH",
+"dup_of": null
+},
+{
+"id": "c12-058",
+"keep": false,
+"reason": "duplicate of 3A-141",
+"dup_of": "3A-141"
+},
+{
+"id": "c12-059",
+"keep": true,
+"reason": "clinical blood pH interpretation",
+"dup_of": null
+},
+{
+"id": "c12-060",
+"keep": false,
+"reason": "refers to textbook (Mateo case)",
+"dup_of": null
+},
+{
+"id": "c12-061",
+"keep": false,
+"reason": "duplicate of 3A-201 (pH sig figs)",
+"dup_of": "3A-201"
+},
+{
+"id": "c12-062",
+"keep": false,
+"reason": "duplicate of 3A-149 (dilution pH)",
+"dup_of": "3A-149"
+},
+{
+"id": "c12-063",
+"keep": true,
+"reason": "meaning of a buffer",
+"dup_of": null
+},
+{
+"id": "c12-064",
+"keep": false,
+"reason": "duplicate of 3A-147",
+"dup_of": "3A-147"
+},
+{
+"id": "c12-065",
+"keep": true,
+"reason": "identifies non-buffer (strong acid pair)",
+"dup_of": null
+},
+{
+"id": "c12-066",
+"keep": false,
+"reason": "duplicate of 3A-148 (buffer base consumes H3O+)",
+"dup_of": "3A-148"
+},
+{
+"id": "c12-067",
+"keep": true,
+"reason": "buffer response to added OH-",
+"dup_of": null
+},
+{
+"id": "c12-068",
+"keep": false,
+"reason": "duplicate of 3A-148 (blood buffer pair)",
+"dup_of": "3A-148"
+},
+{
+"id": "c12-069",
+"keep": true,
+"reason": "renal vs respiratory control of bicarbonate buffer",
+"dup_of": null
+},
+{
+"id": "c12-070",
+"keep": false,
+"reason": "duplicate of 3A-304",
+"dup_of": "3A-304"
+},
+{
+"id": "c12-071",
+"keep": false,
+"reason": "drill repeat of c13-065 (hyperventilation alkalosis)",
+"dup_of": "c13-065"
+},
+{
+"id": "c12-072",
+"keep": true,
+"reason": "buffer capacity exceeded",
+"dup_of": null
+},
+{
+"id": "c13-001",
+"keep": true,
+"reason": "collision theory requirements",
+"dup_of": null
+},
+{
+"id": "c13-002",
+"keep": false,
+"reason": "drill repeat of c13-001",
+"dup_of": "c13-001"
+},
+{
+"id": "c13-003",
+"keep": false,
+"reason": "duplicate of 3A-309",
+"dup_of": "3A-309"
+},
+{
+"id": "c13-004",
+"keep": true,
+"reason": "delta H from energy values",
+"dup_of": null
+},
+{
+"id": "c13-005",
+"keep": false,
+"reason": "duplicate of 3A-310",
+"dup_of": "3A-310"
+},
+{
+"id": "c13-006",
+"keep": true,
+"reason": "concentration effect on rate",
+"dup_of": null
+},
+{
+"id": "c13-007",
+"keep": false,
+"reason": "duplicate of 3A-194",
+"dup_of": "3A-194"
+},
+{
+"id": "c13-008",
+"keep": false,
+"reason": "duplicate of 3A-194 (cooling slows reactions)",
+"dup_of": "3A-194"
+},
+{
+"id": "c13-009",
+"keep": false,
+"reason": "duplicate of 3A-311 (surface area)",
+"dup_of": "3A-311"
+},
+{
+"id": "c13-010",
+"keep": false,
+"reason": "duplicate of 3A-150",
+"dup_of": "3A-150"
+},
+{
+"id": "c13-011",
+"keep": false,
+"reason": "duplicate of 3A-150 (enzyme as catalyst)",
+"dup_of": "3A-150"
+},
+{
+"id": "c13-012",
+"keep": true,
+"reason": "enzyme denaturation from rate data",
+"dup_of": null
+},
+{
+"id": "c13-013",
+"keep": false,
+"reason": "duplicate of 3A-311 (surface area)",
+"dup_of": "3A-311"
+},
+{
+"id": "c13-014",
+"keep": true,
+"reason": "relates Ea to rate",
+"dup_of": null
+},
+{
+"id": "c13-015",
+"keep": false,
+"reason": "drill repeat of c13-014 (activation energy)",
+"dup_of": "c13-014"
+},
+{
+"id": "c13-016",
+"keep": true,
+"reason": "temperature rule of thumb in a clinical sample",
+"dup_of": null
+},
+{
+"id": "c13-017",
+"keep": false,
+"reason": "duplicate of 3A-400",
+"dup_of": "3A-400"
+},
+{
+"id": "c13-018",
+"keep": false,
+"reason": "duplicate of 3A-400 (concentrations need not be equal)",
+"dup_of": "3A-400"
+},
+{
+"id": "c13-019",
+"keep": true,
+"reason": "reads equilibrium from concentration-time graph",
+"dup_of": null
+},
+{
+"id": "c13-020",
+"keep": false,
+"reason": "drill repeat of c13-019",
+"dup_of": "c13-019"
+},
+{
+"id": "c13-021",
+"keep": true,
+"reason": "forward/reverse rates approaching equilibrium",
+"dup_of": null
+},
+{
+"id": "c13-022",
+"keep": true,
+"reason": "equilibrium from the product side",
+"dup_of": null
+},
+{
+"id": "c13-023",
+"keep": true,
+"reason": "equilibrium needs a closed system",
+"dup_of": null
+},
+{
+"id": "c13-024",
+"keep": true,
+"reason": "isotope labeling shows dynamic equilibrium",
+"dup_of": null
+},
+{
+"id": "c13-025",
+"keep": false,
+"reason": "classroom-only analogy",
+"dup_of": null
+},
+{
+"id": "c13-026",
+"keep": false,
+"reason": "trivial",
+"dup_of": null
+},
+{
+"id": "c13-027",
+"keep": false,
+"reason": "duplicate of 3A-400",
+"dup_of": "3A-400"
+},
+{
+"id": "c13-028",
+"keep": true,
+"reason": "product-favored does not mean unequal rates",
+"dup_of": null
+},
+{
+"id": "c13-029",
+"keep": false,
+"reason": "duplicate of 3A-151 (K expression)",
+"dup_of": "3A-151"
+},
+{
+"id": "c13-030",
+"keep": false,
+"reason": "drill repeat of 3A-151 (all-gas K expression)",
+"dup_of": "3A-151"
+},
+{
+"id": "c13-031",
+"keep": false,
+"reason": "duplicate of 3A-152 (omit solids)",
+"dup_of": "3A-152"
+},
+{
+"id": "c13-032",
+"keep": true,
+"reason": "K expression omitting a pure liquid",
+"dup_of": null
+},
+{
+"id": "c13-033",
+"keep": false,
+"reason": "drill repeat of c13-032/3A-152",
+"dup_of": "c13-032"
+},
+{
+"id": "c13-034",
+"keep": true,
+"reason": "reverse reasoning: reaction from K expression",
+"dup_of": null
+},
+{
+"id": "c13-035",
+"keep": false,
+"reason": "drill repeat of 3A-151",
+"dup_of": "3A-151"
+},
+{
+"id": "c13-036",
+"keep": true,
+"reason": "calculates K with coefficients",
+"dup_of": null
+},
+{
+"id": "c13-037",
+"keep": false,
+"reason": "duplicate of 3A-308 (K from table)",
+"dup_of": "3A-308"
+},
+{
+"id": "c13-038",
+"keep": false,
+"reason": "drill repeat of c13-036",
+"dup_of": "c13-036"
+},
+{
+"id": "c13-039",
+"keep": false,
+"reason": "drill repeat of c13-036",
+"dup_of": "c13-036"
+},
+{
+"id": "c13-040",
+"keep": true,
+"reason": "K calculation omitting a solid",
+"dup_of": null
+},
+{
+"id": "c13-041",
+"keep": true,
+"reason": "K of reverse reaction",
+"dup_of": null
+},
+{
+"id": "c13-042",
+"keep": false,
+"reason": "duplicate of 3A-153",
+"dup_of": "3A-153"
+},
+{
+"id": "c13-043",
+"keep": true,
+"reason": "K vs rate distinction",
+"dup_of": null
+},
+{
+"id": "c13-044",
+"keep": false,
+"reason": "duplicate of 3A-153 (size of K)",
+"dup_of": "3A-153"
+},
+{
+"id": "c13-045",
+"keep": false,
+"reason": "drill repeat of c13-046 (concentration change)",
+"dup_of": "c13-046"
+},
+{
+"id": "c13-046",
+"keep": true,
+"reason": "removal of a product",
+"dup_of": null
+},
+{
+"id": "c13-047",
+"keep": false,
+"reason": "drill repeat of c13-049",
+"dup_of": "c13-049"
+},
+{
+"id": "c13-048",
+"keep": false,
+"reason": "drill repeat of c13-046",
+"dup_of": "c13-046"
+},
+{
+"id": "c13-049",
+"keep": true,
+"reason": "consequence for another species after a shift",
+"dup_of": null
+},
+{
+"id": "c13-050",
+"keep": true,
+"reason": "adding a pure solid causes no shift",
+"dup_of": null
+},
+{
+"id": "c13-051",
+"keep": false,
+"reason": "drill repeat of c13-046",
+"dup_of": "c13-046"
+},
+{
+"id": "c13-052",
+"keep": false,
+"reason": "duplicate of 3A-195/3A-156 (heating exothermic)",
+"dup_of": "3A-195"
+},
+{
+"id": "c13-053",
+"keep": false,
+"reason": "drill repeat of 3A-156",
+"dup_of": "3A-156"
+},
+{
+"id": "c13-054",
+"keep": false,
+"reason": "drill repeat of 3A-156",
+"dup_of": "3A-156"
+},
+{
+"id": "c13-055",
+"keep": false,
+"reason": "duplicate of 3A-156 (only T changes K)",
+"dup_of": "3A-156"
+},
+{
+"id": "c13-056",
+"keep": false,
+"reason": "trivial",
+"dup_of": null
+},
+{
+"id": "c13-057",
+"keep": false,
+"reason": "duplicate of 3A-155 (volume decrease)",
+"dup_of": "3A-155"
+},
+{
+"id": "c13-058",
+"keep": true,
+"reason": "volume change with equal moles of gas",
+"dup_of": null
+},
+{
+"id": "c13-059",
+"keep": false,
+"reason": "drill repeat of 3A-155",
+"dup_of": "3A-155"
+},
+{
+"id": "c13-060",
+"keep": false,
+"reason": "drill repeat of 3A-155/c13-058",
+"dup_of": "3A-155"
+},
+{
+"id": "c13-061",
+"keep": false,
+"reason": "drill repeat (inert gas; beyond GOB core)",
+"dup_of": null
+},
+{
+"id": "c13-062",
+"keep": false,
+"reason": "duplicate of 3A-312",
+"dup_of": "3A-312"
+},
+{
+"id": "c13-063",
+"keep": false,
+"reason": "duplicate of 3A-154",
+"dup_of": "3A-154"
+},
+{
+"id": "c13-064",
+"keep": false,
+"reason": "duplicate of 3A-305 (CO and hemoglobin)",
+"dup_of": "3A-305"
+},
+{
+"id": "c13-065",
+"keep": true,
+"reason": "hyperventilation shifts CO2 equilibrium: respiratory alkalosis",
+"dup_of": null
+},
+{
+"id": "c13-066",
+"keep": false,
+"reason": "duplicate of 3A-304",
+"dup_of": "3A-304"
+},
+{
+"id": "c13-067",
+"keep": false,
+"reason": "drill repeat of c13-069",
+"dup_of": "c13-069"
+},
+{
+"id": "c13-068",
+"keep": false,
+"reason": "drill repeat of c13-069",
+"dup_of": "c13-069"
+},
+{
+"id": "c13-069",
+"keep": true,
+"reason": "enamel demineralization by removing a product",
+"dup_of": null
+},
+{
+"id": "c13-070",
+"keep": true,
+"reason": "rate vs equilibrium trade-off in Haber process",
+"dup_of": null
+},
+{
+"id": "c14-001",
+"keep": false,
+"reason": "trivial recall (history)",
+"dup_of": null
+},
+{
+"id": "c14-002",
+"keep": false,
+"reason": "trivial recall (history)",
+"dup_of": null
+},
+{
+"id": "c14-003",
+"keep": true,
+"reason": "protons and neutrons from isotope name",
+"dup_of": null
+},
+{
+"id": "c14-004",
+"keep": false,
+"reason": "duplicate of 3A-320 (activity units)",
+"dup_of": "3A-320"
+},
+{
+"id": "c14-005",
+"keep": true,
+"reason": "meaning of absorbed dose (gray)",
+"dup_of": null
+},
+{
+"id": "c14-006",
+"keep": true,
+"reason": "mCi to Bq conversion",
+"dup_of": null
+},
+{
+"id": "c14-007",
+"keep": false,
+"reason": "drill repeat of c14-006 (unit conversion)",
+"dup_of": "c14-006"
+},
+{
+"id": "c14-008",
+"keep": true,
+"reason": "how a Geiger counter detects radiation",
+"dup_of": null
+},
+{
+"id": "c14-009",
+"keep": false,
+"reason": "trivial recall",
+"dup_of": null
+},
+{
+"id": "c14-010",
+"keep": false,
+"reason": "duplicate of 3A-319 (dosimeter badge)",
+"dup_of": "3A-319"
+},
+{
+"id": "c14-011",
+"keep": false,
+"reason": "trivial recall",
+"dup_of": null
+},
+{
+"id": "c14-012",
+"keep": false,
+"reason": "drill repeat of 3A-157 (alpha decay)",
+"dup_of": "3A-157"
+},
+{
+"id": "c14-013",
+"keep": false,
+"reason": "duplicate of 3A-157 (alpha product)",
+"dup_of": "3A-157"
+},
+{
+"id": "c14-014",
+"keep": false,
+"reason": "duplicate of 3A-158 (beta product)",
+"dup_of": "3A-158"
+},
+{
+"id": "c14-015",
+"keep": true,
+"reason": "identifies positron from balancing",
+"dup_of": null
+},
+{
+"id": "c14-016",
+"keep": true,
+"reason": "electron capture product",
+"dup_of": null
+},
+{
+"id": "c14-017",
+"keep": false,
+"reason": "duplicate of 3A-314 (gamma emission)",
+"dup_of": "3A-314"
+},
+{
+"id": "c14-018",
+"keep": true,
+"reason": "balances a cyclotron production reaction",
+"dup_of": null
+},
+{
+"id": "c14-019",
+"keep": false,
+"reason": "drill repeat of c14-018/3A-160",
+"dup_of": "c14-018"
+},
+{
+"id": "c14-020",
+"keep": true,
+"reason": "identifies decay type from equation",
+"dup_of": null
+},
+{
+"id": "c14-021",
+"keep": false,
+"reason": "duplicate of 3A-203 (balanced equation)",
+"dup_of": "3A-203"
+},
+{
+"id": "c14-022",
+"keep": true,
+"reason": "finds parent nucleus",
+"dup_of": null
+},
+{
+"id": "c14-023",
+"keep": false,
+"reason": "drill repeat of 3A-158",
+"dup_of": "3A-158"
+},
+{
+"id": "c14-024",
+"keep": false,
+"reason": "trivial recall; covered by 3A-162/3A-354",
+"dup_of": "3A-162"
+},
+{
+"id": "c14-025",
+"keep": false,
+"reason": "duplicate of 3A-162",
+"dup_of": "3A-162"
+},
+{
+"id": "c14-026",
+"keep": false,
+"reason": "duplicate of 3A-354 (shield table)",
+"dup_of": "3A-354"
+},
+{
+"id": "c14-027",
+"keep": false,
+"reason": "duplicate of 3A-315",
+"dup_of": "3A-315"
+},
+{
+"id": "c14-028",
+"keep": true,
+"reason": "external hazard: penetrating gamma",
+"dup_of": null
+},
+{
+"id": "c14-029",
+"keep": false,
+"reason": "trivial recall",
+"dup_of": null
+},
+{
+"id": "c14-030",
+"keep": true,
+"reason": "random decay vs half-life statistics",
+"dup_of": null
+},
+{
+"id": "c14-031",
+"keep": false,
+"reason": "drill repeat of 3A-161",
+"dup_of": "3A-161"
+},
+{
+"id": "c14-032",
+"keep": false,
+"reason": "duplicate of 3A-161 (mass after n half-lives)",
+"dup_of": "3A-161"
+},
+{
+"id": "c14-033",
+"keep": false,
+"reason": "drill repeat of 3A-161",
+"dup_of": "3A-161"
+},
+{
+"id": "c14-034",
+"keep": false,
+"reason": "drill repeat of 3A-161",
+"dup_of": "3A-161"
+},
+{
+"id": "c14-035",
+"keep": false,
+"reason": "duplicate of 3A-317 (time to fraction)",
+"dup_of": "3A-317"
+},
+{
+"id": "c14-036",
+"keep": false,
+"reason": "duplicate of 3A-356 (F-18, 5.5 h)",
+"dup_of": "3A-356"
+},
+{
+"id": "c14-037",
+"keep": false,
+"reason": "duplicate of 3A-204 (half-life from data)",
+"dup_of": "3A-204"
+},
+{
+"id": "c14-038",
+"keep": false,
+"reason": "duplicate of 3A-204",
+"dup_of": "3A-204"
+},
+{
+"id": "c14-039",
+"keep": true,
+"reason": "back-calculates initial activity",
+"dup_of": null
+},
+{
+"id": "c14-040",
+"keep": false,
+"reason": "drill repeat of 3A-161",
+"dup_of": "3A-161"
+},
+{
+"id": "c14-041",
+"keep": true,
+"reason": "short half-life limits use time of PET tracer",
+"dup_of": null
+},
+{
+"id": "c14-042",
+"keep": false,
+"reason": "duplicate of 3A-317",
+"dup_of": "3A-317"
+},
+{
+"id": "c14-043",
+"keep": false,
+"reason": "duplicate of 3A-316 (half-life from graph)",
+"dup_of": "3A-316"
+},
+{
+"id": "c14-044",
+"keep": false,
+"reason": "duplicate of 3A-401 statement I",
+"dup_of": "3A-401"
+},
+{
+"id": "c14-045",
+"keep": true,
+"reason": "origin of carbon-14",
+"dup_of": null
+},
+{
+"id": "c14-046",
+"keep": false,
+"reason": "drill repeat of c14-047",
+"dup_of": "c14-047"
+},
+{
+"id": "c14-047",
+"keep": true,
+"reason": "C-14/C-12 ratio after death",
+"dup_of": null
+},
+{
+"id": "c14-048",
+"keep": false,
+"reason": "trivial recall",
+"dup_of": null
+},
+{
+"id": "c14-049",
+"keep": true,
+"reason": "radiocarbon age from activity ratio",
+"dup_of": null
+},
+{
+"id": "c14-050",
+"keep": false,
+"reason": "drill repeat of c14-049",
+"dup_of": "c14-049"
+},
+{
+"id": "c14-051",
+"keep": true,
+"reason": "what can be carbon-dated",
+"dup_of": null
+},
+{
+"id": "c14-052",
+"keep": true,
+"reason": "limit of radiocarbon dating",
+"dup_of": null
+},
+{
+"id": "c14-053",
+"keep": true,
+"reason": "choosing isotope by half-life",
+"dup_of": null
+},
+{
+"id": "c14-054",
+"keep": false,
+"reason": "drill repeat of c14-049",
+"dup_of": "c14-049"
+},
+{
+"id": "c14-055",
+"keep": true,
+"reason": "balances a fission equation",
+"dup_of": null
+},
+{
+"id": "c14-056",
+"keep": false,
+"reason": "drill repeat of c14-055",
+"dup_of": "c14-055"
+},
+{
+"id": "c14-057",
+"keep": true,
+"reason": "chain reaction",
+"dup_of": null
+},
+{
+"id": "c14-058",
+"keep": true,
+"reason": "critical mass",
+"dup_of": null
+},
+{
+"id": "c14-059",
+"keep": true,
+"reason": "control rods absorb neutrons",
+"dup_of": null
+},
+{
+"id": "c14-060",
+"keep": false,
+"reason": "trivial recall",
+"dup_of": null
+},
+{
+"id": "c14-061",
+"keep": true,
+"reason": "fusion vs fission energy",
+"dup_of": null
+},
+{
+"id": "c14-062",
+"keep": false,
+"reason": "drill repeat of 3A-163 (classify fusion)",
+"dup_of": "3A-163"
+},
+{
+"id": "c14-063",
+"keep": true,
+"reason": "free-radical DNA damage",
+"dup_of": null
+},
+{
+"id": "c14-064",
+"keep": true,
+"reason": "why radiation treats cancer",
+"dup_of": null
+},
+{
+"id": "c14-065",
+"keep": true,
+"reason": "radon alpha hazard to lungs",
+"dup_of": null
+},
+{
+"id": "c14-066",
+"keep": true,
+"reason": "inverse-square law for distance shielding",
+"dup_of": null
+},
+{
+"id": "c14-067",
+"keep": true,
+"reason": "ALARA time, distance, shielding",
+"dup_of": null
+},
+{
+"id": "c14-068",
+"keep": false,
+"reason": "duplicate of 3A-318 (PET positron/gamma)",
+"dup_of": "3A-318"
+},
+{
+"id": "c14-069",
+"keep": false,
+"reason": "refers to textbook (Mateo case); also covered by 3A-164",
+"dup_of": "3A-164"
+},
+{
+"id": "c14-070",
+"keep": false,
+"reason": "duplicate of 3A-321",
+"dup_of": "3A-321"
+},
+{
+"id": "c14-071",
+"keep": true,
+"reason": "penetration choice for sterilization",
+"dup_of": null
+},
+{
+"id": "c14-072",
+"keep": true,
+"reason": "X-rays vs gamma rays origin",
+"dup_of": null
+},
+{
+"id": "c14-073",
+"keep": true,
+"reason": "largest natural background source",
+"dup_of": null
+},
+{
+"id": "c14-074",
+"keep": false,
+"reason": "drill repeat of c14-066",
+"dup_of": "c14-066"
+},
+{
+"id": "c14-075",
+"keep": true,
+"reason": "radiosensitivity of dividing cells",
+"dup_of": null
+}
+]
