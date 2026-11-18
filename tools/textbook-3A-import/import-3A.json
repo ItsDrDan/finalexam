@@ -45,8 +45,8 @@
   "t": "matter",
   "q": "A Tulare County farmer wants to know whether a new compost increases pistachio yield. Which setup gives her a proper <b>control</b>?",
   "c": [
-   "A matching block of trees that gets no compost but the same water, soil and care",
-   "A block of trees that gets twice as much of the new compost",
+   "A matching block that gets no compost but the same water, soil and care",
+   "A block of trees that gets twice as much of the new compost, with the same care",
    "A block of trees in a different county with different soil and water",
    "Weighing the nuts from the composted trees twice"
   ],
@@ -89,7 +89,7 @@
   "c": [
    "A mixture of an element and a compound",
    "A pure compound",
-   "A mixture of two compounds",
+   "A mixture of two different compounds",
    "A pure element"
   ],
   "h": "Identify each kind of particle separately: does it contain one kind of atom or two?",
@@ -322,7 +322,7 @@
   "q": "What must happen to pull a Na<sup>+</sup> ion and a Cl<sup>&minus;</sup> ion farther apart?",
   "c": [
    "Energy must be added, because the opposite charges attract each other.",
-   "Energy is released, because the ions want to separate.",
+   "Energy is released, because the ions want to separate from each other.",
    "No energy is involved, because the ions are neutral.",
    "Energy is released, because like charges repel."
   ],
@@ -363,7 +363,7 @@
   "t": "matter",
   "q": "In the catalase test, a microbiology student adds a drop of hydrogen peroxide to a bit of a bacterial colony and the drop bubbles vigorously as oxygen gas forms. What does the bubbling show?",
   "c": [
-   "A chemical change: peroxide is broken down into new substances, water and oxygen",
+   "A chemical change: peroxide breaks down into water and oxygen",
    "A physical change: the peroxide is boiling",
    "A physical change: the peroxide is evaporating",
    "A physical change: oxygen was already dissolved and is escaping"
@@ -447,8 +447,8 @@
   "t": "matter",
   "q": "The diagram shows nitrogen and hydrogen before and after a reaction that makes ammonia, NH<sub>3</sub>, a fertilizer widely used on Valley farms. Which statement is correct?",
   "c": [
-   "The atoms are rearranged into new molecules, and the number of each kind of atom stays the same.",
-   "The atoms are rearranged, and some nitrogen atoms are destroyed.",
+   "The atoms are rearranged into new molecules, and no atoms are gained or lost.",
+   "The atoms are rearranged into new molecules, and some nitrogen atoms are destroyed.",
    "No new substance forms, so this is a physical change.",
    "New atoms are created to build the ammonia molecules."
   ],
@@ -745,7 +745,7 @@
   "q": "Which value has an unlimited number of significant figures?",
   "c": [
    "24 tablets counted into a bottle",
-   "24.0 mL of cough syrup",
+   "24.0 mL of cough syrup measured out",
    "2.4 kg infant mass gain",
    "1 lb = 453.59 g"
   ],
@@ -1727,7 +1727,7 @@
   "c": [
    "one-twelfth of the mass of a carbon-12 atom",
    "the mass of one electron",
-   "the mass of one hydrogen molecule",
+   "the mass of one hydrogen molecule, H<sub>2</sub>",
    "exactly 1 gram"
   ],
   "h": "The unit is tied to one particular isotope of carbon.",
@@ -1746,8 +1746,8 @@
   "t": "atoms",
   "q": "A respiratory therapy chart lists inhaled &ldquo;NO&rdquo; as a gas used for some newborns. What does NO stand for?",
   "c": [
-   "A compound made of nitrogen and oxygen",
-   "The element nobelium",
+   "A compound of nitrogen and oxygen",
+   "The element nobelium, atomic number 102",
    "The element sodium",
    "The element neon"
   ],
@@ -1757,7 +1757,7 @@
    "",
    "Nobelium's symbol is No, with a lowercase o; NO with two capitals is two elements.",
    "Sodium's symbol is Na, from the Latin natrium.",
-   "Neon's symbol is Ne."
+   "Neon’s symbol is Ne, with a lowercase e. NO has two capital letters, so it is two elements."
   ],
   "k": 0,
   "d": 2,
@@ -1925,7 +1925,7 @@
    "P<sup>3&minus;</sup>, phosphorus ion"
   ],
   "h": "Find phosphorus's group. Nonmetals gain electrons, and their anions end in -ide.",
-  "w": "Group 15 forms 3&minus; ions, so phosphorus forms <b>P<sup>3&minus;</sup></b>, named <b>phosphide</b>.",
+  "w": "Phosphorus is in group 15, so it has 5 valence electrons. Gaining 3 more gives it a full octet, like argon, so it forms <b>P<sup>3&minus;</sup></b>. A simple anion keeps the element’s root and ends in -ide: <b>phosphide</b>.",
   "x": [
    "",
    "A nonmetal in group 15 gains electrons, so the charge is negative, not positive.",
@@ -1967,7 +1967,7 @@
    "protons, neutrons and electrons in the atom"
   ],
   "h": "A counts the heavy particles.",
-  "w": "A = <b>protons + neutrons</b>. Neutrons = A &minus; Z.",
+  "w": "The mass number counts the particles in the nucleus: A = <b>protons + neutrons</b>. Electrons are too light to count. So neutrons = A &minus; Z.",
   "x": [
    "",
    "The number of protons alone is the atomic number, Z.",
@@ -2117,10 +2117,10 @@
   "t": "atoms",
   "q": "The thyroid absorbs radioactive iodine-131 just as it absorbs stable iodine-127. Why can't the gland tell them apart?",
   "c": [
-   "Both have the same number of protons and electrons, so they behave the same way chemically.",
+   "Both have the same number of protons and electrons, so they react the same way.",
    "Both have the same mass.",
    "Both have the same number of neutrons.",
-   "Radioactive atoms are attracted to the thyroid by their radiation."
+   "Radioactive atoms are attracted to the thyroid gland by the radiation they give off."
   ],
   "h": "What do isotopes of one element have in common, and which particles control chemical behavior?",
   "w": "Chemistry depends on electrons, and isotopes of iodine all have <b>53 protons and 53 electrons</b>. So the thyroid takes up iodine-131 like iodine-127, which is what makes radioactive iodine useful in thyroid imaging and therapy.",
@@ -2138,8 +2138,8 @@
   "t": "atoms",
   "q": "A student calculates the average atomic mass of copper from its two isotopes (62.93 amu and 64.93 amu) and gets 6355 amu. What is the most likely mistake?",
   "c": [
-   "Multiplying by the percent abundances instead of the fractional abundances",
-   "Taking a simple average instead of a weighted average",
+   "Multiplying by percent abundances instead of fractional abundances",
+   "Taking a simple average of the two masses instead of a weighted average",
    "Swapping the abundances of the two isotopes",
    "Rounding each product too early"
   ],
@@ -2180,10 +2180,10 @@
   "t": "atoms",
   "q": "Carbon's average atomic mass is 12.011 amu. Which statement about a <b>single</b> carbon atom in a breath sample is true?",
   "c": [
-   "Its mass is close to 12.000 amu or to 13.003 amu, depending on which isotope it is.",
+   "Its mass is close to 12.000 or 13.003 amu, depending on its isotope.",
    "Its mass is exactly 12.011 amu, like every carbon atom.",
    "It has 6.011 neutrons.",
-   "It is most likely carbon-13, since 12.011 is more than 12."
+   "It is most likely carbon-13, since the average of 12.011 is more than 12."
   ],
   "h": "Is the average a property of one atom or of a large mixture of atoms?",
   "w": "The 12.011 amu value is an average over a mixture that is about 99% carbon-12 and 1% carbon-13. <b>Any one atom has the mass of its own isotope</b>: about 12.000 or 13.003 amu.",
@@ -2285,7 +2285,7 @@
   "t": "electrons",
   "q": "Radiology staff wear dosimeters and lead aprons around X-ray equipment, but nobody worries about the radio waves from a cell phone in the same way. Why?",
   "c": [
-   "Each X-ray photon has enough energy to knock electrons out of atoms; each radio photon has far too little.",
+   "An X-ray photon can knock electrons out of atoms; a radio photon has far too little energy.",
    "X-rays travel faster than radio waves.",
    "Radio waves have shorter wavelengths, so they pass through the body without stopping.",
    "Radio waves are not electromagnetic radiation."
@@ -2327,7 +2327,7 @@
   "t": "electrons",
   "q": "White light from a bulb passes through a prism and spreads into a smooth rainbow. Light from a hydrogen discharge tube shows only a few sharp colored lines. What are these two kinds of spectra called?",
   "c": [
-   "The rainbow is a continuous spectrum; the hydrogen lines are a line (emission) spectrum.",
+   "The rainbow is a continuous spectrum; the hydrogen lines are a line spectrum.",
    "The rainbow is a line spectrum; the hydrogen lines are a continuous spectrum.",
    "Both are continuous spectra, because both come from light.",
    "Both are emission spectra, so they always look the same."
@@ -2411,10 +2411,10 @@
   "t": "electrons",
   "q": "Which statement about the Bohr model is <b>true</b>?",
   "c": [
-   "It explains hydrogen's line spectrum well, but it does not work for atoms with more than one electron.",
+   "It explains hydrogen’s line spectrum but fails for atoms with more than one electron.",
    "It describes electrons as clouds called orbitals.",
    "It says electrons can have any amount of energy.",
-   "It was replaced because it could not explain hydrogen's spectrum."
+   "It was replaced because it could not explain the line spectrum of hydrogen, the simplest atom."
   ],
   "h": "What did Bohr set out to explain, and what happened when the model was tried on other atoms?",
   "w": "The Bohr model's quantized energy levels <b>explain hydrogen's lines</b>, and that central idea is still correct. But it <b>fails for atoms with more than one electron</b>, and electrons do not move in neat orbits; the quantum-mechanical model, with orbitals, replaced it.",
@@ -2627,7 +2627,7 @@
   "t": "electrons",
   "q": "A student writes 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup> for selenium (Z = 34). What is wrong?",
   "c": [
-   "It has one electron too few: the superscripts add to 33, which is arsenic. Selenium ends in 4p<sup>4</sup>.",
+   "The superscripts add to 33 (arsenic); selenium ends in 4p<sup>4</sup>.",
    "The 3d subshell should come before 4s.",
    "The d block in row 4 should be written as 4d.",
    "Nothing is wrong; it is the correct configuration of selenium."
@@ -2669,9 +2669,9 @@
   "t": "electrons",
   "q": "Why does oxygen form O<sup>2&minus;</sup> rather than O<sup>6+</sup>?",
   "c": [
-   "Gaining 2 electrons to reach an octet is much easier than losing all 6 valence electrons.",
+   "Gaining 2 electrons to reach an octet is far easier than losing all 6.",
    "Oxygen has 2 valence electrons, and it gains 2 more.",
-   "Oxygen always loses electrons, because it is a nonmetal.",
+   "Oxygen always loses electrons to reach an octet, because it is a nonmetal.",
    "O<sup>2&minus;</sup> has the same number of protons as neon."
   ],
   "h": "Count how many steps oxygen is from the nearest noble gas, going each way.",
@@ -2690,7 +2690,7 @@
   "t": "electrons",
   "q": "Why are the noble gases, such as neon and argon, so unreactive?",
   "c": [
-   "Their valence shells are already full (an octet, or 2 electrons for helium).",
+   "Their valence shells are already full (an octet, or 2 for helium).",
    "They have no valence electrons at all.",
    "Their atoms are too large to react.",
    "They have only one valence electron, which they hold very tightly."
@@ -3341,7 +3341,7 @@
   "t": "naming",
   "q": "Why do names of molecular compounds use Greek prefixes, when names of ionic compounds do not?",
   "c": [
-   "Nonmetals can combine in more than one ratio, and there are no ion charges to fix the ratio, so the name must count the atoms.",
+   "Nonmetals can combine in several ratios with no ion charges to fix them, so the name counts atoms.",
    "Molecular compounds are made of ions with larger charges, so the prefixes give the charges.",
    "Prefixes are used whenever a compound contains oxygen.",
    "Molecular compounds always contain exactly two atoms, so the prefixes are only for spelling."
@@ -3368,7 +3368,7 @@
    "NH<sub>2</sub>"
   ],
   "h": "One of these is an ion. Ammonia is a neutral molecule.",
-  "w": "Ammonia is <b>NH<sub>3</sub></b>. Adding H<sup>+</sup> gives the ammonium ion, NH<sub>4</sub><sup>+</sup>.",
+  "w": "Ammonia is the neutral molecule <b>NH<sub>3</sub></b>: N has 5 valence electrons and makes 3 bonds to H. When NH<sub>3</sub> picks up an H<sup>+</sup>, it becomes the ammonium ion, NH<sub>4</sub><sup>+</sup>.",
   "x": [
    "",
    "This is the ammonium ion. Ammonia and ammonium sound alike but are different species.",
@@ -3431,7 +3431,7 @@
    "hypobromous acid"
   ],
   "h": "Name the anion first. How does BrO<sub>2</sub><sup>&minus;</sup> compare with bromate?",
-  "w": "BrO<sub>2</sub><sup>&minus;</sup> = bromite; -ite &rarr; -ous: <b>bromous acid</b>.",
+  "w": "Name the anion first: BrO<sub>2</sub><sup>&minus;</sup> has one fewer O than bromate (BrO<sub>3</sub><sup>&minus;</sup>), so it is bromite. An -ite anion gives an -ous acid: <b>bromous acid</b>.",
   "x": [
    "",
    "Bromic acid comes from bromate, BrO<sub>3</sub><sup>&minus;</sup>, with three O atoms.",
@@ -3452,7 +3452,7 @@
    "H<sub>2</sub>PO<sub>4</sub>"
   ],
   "h": "The number of H atoms equals the size of the anion's charge.",
-  "w": "Phosphoric &larr; phosphate, PO<sub>4</sub><sup>3&minus;</sup>; 3 H<sup>+</sup>: <b>H<sub>3</sub>PO<sub>4</sub></b>.",
+  "w": "Phosphoric acid comes from the phosphate ion, PO<sub>4</sub><sup>3&minus;</sup> (-ate &rarr; -ic). It takes 3 H<sup>+</sup> to cancel the 3&minus; charge: <b>H<sub>3</sub>PO<sub>4</sub></b>.",
   "x": [
    "",
    "One H<sup>+</sup> cancels only one of phosphate's three negative charges.",
@@ -3614,10 +3614,10 @@
   "t": "moles",
   "q": "Why is the molar mass of an element, in g/mol, the same number as its atomic mass in amu?",
   "c": [
-   "Avogadro's number was chosen so that one mole of atoms has a mass in grams equal to the atomic mass in amu.",
+   "Avogadro’s number was chosen to make the gram mass of a mole equal the atomic mass in amu.",
    "One gram is defined as one amu.",
-   "Every atom has a mass of exactly 1 amu, so the numbers always match.",
-   "It is a coincidence that holds only for carbon."
+   "Every atom has a mass of exactly 1 amu, so molar mass and atomic mass always match.",
+   "It is a coincidence that holds only for carbon-12, the isotope the amu scale is based on."
   ],
   "h": "How was the size of a mole chosen?",
   "w": "N<sub>A</sub> was chosen so that the mass of 1 mol in grams equals the mass of one particle in amu. So <b>one carbon atom averages 12.011 amu and one mole of carbon has a mass of 12.011 g</b>.",
@@ -3826,7 +3826,7 @@
   "c": [
    "15.999 g/mol, because the formula counts O atoms",
    "31.998 g/mol, because oxygen is diatomic",
-   "44.009 g/mol, the molar mass of CO<sub>2</sub>",
+   "44.009 g/mol, the molar mass of the whole CO<sub>2</sub>",
    "8 g/mol, oxygen's atomic number"
   ],
   "h": "After the subscript step, what particle do your moles count?",
@@ -3909,7 +3909,7 @@
   "q": "Which sample conducts electricity?",
   "c": [
    "Calcium chloride melted at high temperature",
-   "Solid calcium chloride crystals",
+   "Solid calcium chloride crystals at room temperature",
    "Solid table sugar",
    "Sugar dissolved in pure water"
   ],
@@ -3935,7 +3935,7 @@
    "14"
   ],
   "h": "Add the group numbers, then adjust for the charge. Does a 1+ charge add or remove an electron?",
-  "w": "6 + 3(1) &minus; 1 = <b>8</b> valence electrons for H<sub>3</sub>O<sup>+</sup>.",
+  "w": "Add the valence electrons: O has 6 and each H has 1, so 6 + 3(1) = 9. A 1+ charge means one electron was lost: 9 &minus; 1 = <b>8</b> valence electrons.",
   "x": [
    "",
    "This forgets the charge. A positive ion has lost an electron.",
@@ -4097,10 +4097,10 @@
   "t": "bonding",
   "q": "Why do CH<sub>4</sub> and NH<sub>3</sub> have different shapes, even though both central atoms have four electron groups?",
   "c": [
-   "The shape names only atom positions; N has a lone pair in place of a fourth atom.",
+   "Shape names only atom positions; N has a lone pair in place of a fourth atom.",
    "N has fewer electron groups than C.",
    "Lone pairs do not take up any space around the central atom.",
-   "C is larger than N, so its bonds spread out more."
+   "C is a larger atom than N, so its four bonds spread out more widely."
   ],
   "h": "Compare electron geometry with molecular shape.",
   "w": "Both have 4 groups (tetrahedral electron geometry), but <b>the shape names only atoms</b>: CH<sub>4</sub> tetrahedral; NH<sub>3</sub> (1 lone pair) trigonal pyramidal.",
@@ -4124,7 +4124,7 @@
    "bent"
   ],
   "h": "An ion is handled exactly like a molecule: count groups on the central atom.",
-  "w": "H<sub>3</sub>O<sup>+</sup>: 4 groups, 1 lone pair: <b>trigonal pyramidal</b>, about 109.5&deg;.",
+  "w": "O has 4 electron groups (3 bonds + 1 lone pair), so the electron geometry is tetrahedral. The shape names only the atoms, and with one corner taken by a lone pair the H atoms form a <b>trigonal pyramid</b>, about 109.5&deg; apart, like NH<sub>3</sub>.",
   "x": [
    "",
    "This ignores the lone pair. It is a fourth group and pushes the H atoms out of the plane.",
@@ -4166,7 +4166,7 @@
    "&Delta;EN = &minus;0.5, nonpolar covalent"
   ],
   "h": "Subtract the smaller value from the larger, then compare with 0.4 and 2.0.",
-  "w": "&Delta;EN = 3.5 &minus; 3.0 = <b>0.5, polar covalent</b>; O carries &delta;&minus;.",
+  "w": "&Delta;EN = 3.5 &minus; 3.0 = <b>0.5</b>. That is above 0.4 and below 2.0, so the bond is <b>polar covalent</b>, with &delta;&minus; on the more electronegative O.",
   "x": [
    "",
    "This adds the values. &Delta;EN is a difference: subtract the smaller from the larger.",
@@ -4349,9 +4349,9 @@
   "t": "reactions",
   "q": "Which observation is the best evidence that a chemical reaction has occurred?",
   "c": [
-   "Two clear, colorless solutions are mixed, and a cloudy yellow solid forms.",
+   "Two clear, colorless solutions are mixed, and a yellow solid forms.",
    "A pot of water on the stove forms bubbles as it heats.",
-   "A spoonful of sugar disappears when it is stirred into hot tea.",
+   "A spoonful of sugar disappears when it is stirred into a cup of hot tea.",
    "An ice cube melts into a puddle on the counter."
   ],
   "h": "Ask: did a new substance form, or did the same substance just change form?",
@@ -4453,7 +4453,7 @@
   "t": "reactions",
   "q": "A student balances H<sub>2</sub>(g) + Cl<sub>2</sub>(g) &rarr; HCl(g) by changing it to H<sub>2</sub>(g) + Cl<sub>2</sub>(g) &rarr; H<sub>2</sub>Cl<sub>2</sub>(g). What is wrong?",
   "c": [
-   "Changing a subscript makes a different substance; a coefficient of 2 in front of HCl is the fix.",
+   "Changing a subscript makes a new substance; put a 2 in front of HCl instead.",
    "Nothing is wrong, because the atoms now balance.",
    "The reactants should be written as single atoms, H and Cl, so that HCl balances.",
    "The fix should be a coefficient of 2 in front of H<sub>2</sub> instead."
@@ -4543,7 +4543,7 @@
    "6 Ca(s) + 2 N<sub>2</sub>(g) &rarr; 2 Ca<sub>3</sub>N<sub>2</sub>(s)"
   ],
   "h": "Predict the formula from charges first (nitride is N<sup>3&minus;</sup>), then balance.",
-  "w": "Ca<sup>2+</sup> + N<sup>3&minus;</sup> &rarr; Ca<sub>3</sub>N<sub>2</sub>; <b>3 Ca(s) + N<sub>2</sub>(g) &rarr; Ca<sub>3</sub>N<sub>2</sub>(s)</b>.",
+  "w": "Write the product from the ion charges: Ca<sup>2+</sup> and N<sup>3&minus;</sup> need 3 Ca for every 2 N, so it is Ca<sub>3</sub>N<sub>2</sub>. Then balance: 3 Ca on the left, and one N<sub>2</sub> supplies the 2 N. <b>3 Ca(s) + N<sub>2</sub>(g) &rarr; Ca<sub>3</sub>N<sub>2</sub>(s)</b>.",
   "x": [
    "",
    "This copies the subscript from N<sub>2</sub> into the product. Write the product from the ion charges, Ca<sup>2+</sup> and N<sup>3&minus;</sup>.",
@@ -4693,7 +4693,7 @@
    "Ca(NO<sub>3</sub>)<sub>2</sub>(s) &rarr; Ca<sup>2+</sup>(aq) + (NO<sub>3</sub>)<sub>2</sub><sup>2&minus;</sup>(aq)"
   ],
   "h": "Polyatomic ions stay intact; subscripts outside the parentheses give the number of ions.",
-  "w": "<b>Ca(NO<sub>3</sub>)<sub>2</sub>(s) &rarr; Ca<sup>2+</sup>(aq) + 2 NO<sub>3</sub><sup>&minus;</sup>(aq)</b>",
+  "w": "When an ionic compound dissolves, it separates into its ions, and polyatomic ions stay whole. The subscript 2 outside the parentheses means two nitrate ions: <b>Ca(NO<sub>3</sub>)<sub>2</sub>(s) &rarr; Ca<sup>2+</sup>(aq) + 2 NO<sub>3</sub><sup>&minus;</sup>(aq)</b>. The charges balance: +2 and 2(&minus;1).",
   "x": [
    "",
    "The subscript 2 means two NO<sub>3</sub><sup>&minus;</sup> ions. With only one, the charges do not balance.",
@@ -4718,7 +4718,7 @@
   "x": [
    "",
    "Chlorides are soluble unless the cation is Ag<sup>+</sup>, Hg<sub>2</sub><sup>2+</sup>, or Pb<sup>2+</sup>; BaCl<sub>2</sub> dissolves (and is toxic).",
-   "Nitrates are always soluble.",
+   "Nitrates are always soluble, with no exceptions, so Ba(NO<sub>3</sub>)<sub>2</sub> dissolves and would release toxic Ba<sup>2+</sup>.",
    "Sulfides are insoluble except with Group 1, NH<sub>4</sub><sup>+</sup>, Ca<sup>2+</sup>, Sr<sup>2+</sup>, and Ba<sup>2+</sup>; barium is one of the exceptions, so BaS dissolves."
   ],
   "k": 0,
@@ -4903,7 +4903,7 @@
    "(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>(aq) + 2 KOH(aq) &rarr; K<sub>2</sub>SO<sub>4</sub>(s) + 2 H<sub>2</sub>O(l) + 2 NH<sub>3</sub>(g)"
   ],
   "h": "Swap, replace NH<sub>4</sub>OH, then balance.",
-  "w": "<b>(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>(aq) + 2 KOH(aq) &rarr; K<sub>2</sub>SO<sub>4</sub>(aq) + 2 H<sub>2</sub>O(l) + 2 NH<sub>3</sub>(g)</b>",
+  "w": "Swap partners: K<sup>+</sup> pairs with SO<sub>4</sub><sup>2&minus;</sup>, and NH<sub>4</sub><sup>+</sup> pairs with OH<sup>&minus;</sup>. NH<sub>4</sub>OH is unstable and is written as NH<sub>3</sub>(g) + H<sub>2</sub>O(l), which is the nitrogen lost as gas. Two NH<sub>4</sub><sup>+</sup> need 2 KOH, giving <b>2 H<sub>2</sub>O and 2 NH<sub>3</sub></b>; K<sub>2</sub>SO<sub>4</sub> is soluble.",
   "x": [
    "",
    "NH<sub>4</sub>OH is unstable and must be rewritten as NH<sub>3</sub>(g) + H<sub>2</sub>O(l).",
@@ -4924,7 +4924,7 @@
    "FeS(s) + 2 HCl(aq) &rarr; FeCl<sub>2</sub>(s) + H<sub>2</sub>S(g)"
   ],
   "h": "Swap partners: Fe<sup>2+</sup> with Cl<sup>&minus;</sup>, H<sup>+</sup> with S<sup>2&minus;</sup>.",
-  "w": "<b>FeS(s) + 2 HCl(aq) &rarr; FeCl<sub>2</sub>(aq) + H<sub>2</sub>S(g)</b>",
+  "w": "This is a double displacement: Fe<sup>2+</sup> pairs with Cl<sup>&minus;</sup> (FeCl<sub>2</sub>, soluble) and H<sup>+</sup> pairs with S<sup>2&minus;</sup> (H<sub>2</sub>S, the rotten-egg gas). Two Cl are needed, so use 2 HCl: <b>FeS(s) + 2 HCl(aq) &rarr; FeCl<sub>2</sub>(aq) + H<sub>2</sub>S(g)</b>.",
   "x": [
    "",
    "SO<sub>2</sub> comes from sulfites (SO<sub>3</sub><sup>2&minus;</sup>). There is no oxygen in FeS or HCl, so O cannot balance.",
@@ -5092,7 +5092,7 @@
    "Yes: Cu(s) + FeSO<sub>4</sub>(aq) &rarr; CuSO<sub>4</sub>(aq) + Fe(s)"
   ],
   "h": "Is the free metal (Fe) above the metal in the compound (Cu)?",
-  "w": "Fe is above Cu: <b>Fe(s) + CuSO<sub>4</sub>(aq) &rarr; FeSO<sub>4</sub>(aq) + Cu(s)</b>.",
+  "w": "A free metal replaces a metal below it in the activity series. Fe is above Cu, so iron gives up electrons to Cu<sup>2+</sup>: <b>Fe(s) + CuSO<sub>4</sub>(aq) &rarr; FeSO<sub>4</sub>(aq) + Cu(s)</b>. That is why the spray corrodes iron tanks.",
   "x": [
    "",
    "This reads the list upside down. Iron is above copper (more active).",
@@ -5134,7 +5134,7 @@
    "4 Al(s) + 12 HCl(aq) &rarr; 4 AlCl<sub>3</sub>(aq) + 6 H<sub>2</sub>(g)"
   ],
   "h": "Metal + acid &rarr; salt + H<sub>2</sub>(g). Write the salt from charges, then balance.",
-  "w": "<b>2 Al(s) + 6 HCl(aq) &rarr; 2 AlCl<sub>3</sub>(aq) + 3 H<sub>2</sub>(g)</b>",
+  "w": "Al is above H<sub>2</sub>, so it reacts with acid to make a salt and hydrogen gas. Al<sup>3+</sup> needs 3 Cl<sup>&minus;</sup> (AlCl<sub>3</sub>), and H<sub>2</sub> is diatomic. Balancing with the smallest whole numbers gives <b>2 Al + 6 HCl &rarr; 2 AlCl<sub>3</sub> + 3 H<sub>2</sub></b>.",
   "x": [
    "",
    "Hydrogen gas is diatomic, H<sub>2</sub>, not H.",
@@ -5275,10 +5275,10 @@
   "t": "stoich",
   "q": "A student finds the mass of water made from 5.5 g of H<sub>2</sub> with 2 H<sub>2</sub>(g) + O<sub>2</sub>(g) &rarr; 2 H<sub>2</sub>O(l) as 5.5 g H<sub>2</sub> &times; (2 mol H<sub>2</sub>O / 2 mol H<sub>2</sub>) = 5.5 g H<sub>2</sub>O. What went wrong?",
   "c": [
-   "The grams of H<sub>2</sub> were never converted to moles, so the mole ratio was used on grams.",
+   "The grams of H<sub>2</sub> were never converted to moles before using the mole ratio.",
    "The mole ratio is upside down.",
    "The equation is not balanced.",
-   "Nothing; the ratio is 1 : 1, so the masses are equal."
+   "Nothing; the mole ratio is 1 : 1, so the masses of H<sub>2</sub> and H<sub>2</sub>O are equal."
   ],
   "h": "Can you multiply grams by a mole ratio?",
   "w": "The student <b>skipped the conversion to moles</b>. 5.5 g &times; (1 mol / 2.016 g) &times; (2 mol H<sub>2</sub>O / 2 mol H<sub>2</sub>) &times; (18.015 g / 1 mol) = 49 g H<sub>2</sub>O.",
@@ -5348,7 +5348,7 @@
   "x": [
    "",
    "This multiplies grams by 22.4 L/mol. Molar volume converts moles, not grams.",
-   "This stops at moles of CO<sub>2</sub>.",
+   "This stops at moles of CO<sub>2</sub>, but the question asks for a volume. One more step: moles &times; (22.4 L / 1 mol) at STP.",
    "This divides by 22.4 L/mol. Moles &times; (22.4 L / 1 mol) gives liters."
   ],
   "k": 1,
@@ -5370,7 +5370,7 @@
    "",
    "This uses 22.4 L/mol, which is only for STP (0 &deg;C, 1 atm). At 25 &deg;C a mole of gas takes up more room.",
    "This skips the mole ratio: each glucose makes 2 CO<sub>2</sub>.",
-   "This stops at moles of CO<sub>2</sub>."
+   "This stops at moles of CO<sub>2</sub>, but the question asks for a volume. One more step: moles &times; (24.5 L / 1 mol) at these conditions."
   ],
   "k": 1,
   "d": 3,
@@ -5401,9 +5401,9 @@
   "t": "stoich",
   "q": "A student finds the moles of NaOH in 25.0 mL of 0.150 M NaOH as 25.0 &times; 0.150 = 3.75 mol. What went wrong?",
   "c": [
-   "The volume was not converted to liters; the answer should be 0.00375 mol.",
+   "The volume was not converted to liters; it should be 0.00375 mol.",
    "The student should have divided: 25.0 &divide; 0.150.",
-   "Molarity is mol per mL, so the answer is right.",
+   "Molarity is moles per milliliter, so the answer of 3.75 mol is right.",
    "The student needed the molar mass of NaOH."
   ],
   "h": "What volume unit does molarity use?",
@@ -5527,9 +5527,9 @@
   "t": "stoich",
   "q": "For 2 H<sub>2</sub>(g) + O<sub>2</sub>(g) &rarr; 2 H<sub>2</sub>O(g), a student has 3.4 mol of H<sub>2</sub> and 2.0 mol of O<sub>2</sub> and says, &ldquo;O<sub>2</sub> is limiting because there are fewer moles of it.&rdquo; What is wrong with this reasoning?",
   "c": [
-   "Moles can be compared directly only when the coefficients are equal; here H<sub>2</sub> is limiting.",
+   "Moles compare directly only when the coefficients are equal; here H<sub>2</sub> is limiting.",
    "Nothing; the reactant with fewer moles is always limiting.",
-   "The student should compare grams instead of moles.",
+   "The student should compare the grams of each reactant instead of moles.",
    "O<sub>2</sub> is limiting, but only because it has the larger molar mass."
   ],
   "h": "How many moles of H<sub>2</sub> would 2.0 mol O<sub>2</sub> need?",
@@ -5611,7 +5611,7 @@
   "w": "Theoretical = 1.990 g MgO; 1.79 g &divide; 1.990 g &times; 100% = <b>90.0%</b>.",
   "x": [
    "",
-   "This divides theoretical by actual.",
+   "This divides theoretical by actual (1.990 g &divide; 1.79 g). Percent yield is actual &divide; theoretical &times; 100%, so it cannot be over 100% here.",
    "This compares the product with the mass of Mg. The theoretical yield of MgO is the right comparison.",
    "This doubles the theoretical yield by multiplying the molar mass of MgO by its coefficient."
   ],
@@ -5633,7 +5633,7 @@
   "x": [
    "",
    "This takes the theoretical yield from acetic anhydride, the excess reactant, which makes the percent yield look too small.",
-   "This divides theoretical by actual.",
+   "This divides theoretical by actual (3.600 g &divide; 2.95 g). Percent yield is actual &divide; theoretical &times; 100%.",
    "This compares the aspirin with the mass of salicylic acid instead of with the theoretical yield."
   ],
   "k": 1,
@@ -5692,7 +5692,7 @@
    "13.4 g C<sub>2</sub>H<sub>5</sub>OH"
   ],
   "h": "Theoretical yield first, then take 82.0% of it.",
-  "w": "Theoretical 32.73 g &times; 0.820 = <b>26.8 g C<sub>2</sub>H<sub>5</sub>OH</b>.",
+  "w": "Theoretical yield: 64.0 g &divide; 180.156 g/mol = 0.3553 mol glucose &times; 2 = 0.7105 mol ethanol &times; 46.069 g/mol = 32.73 g. Only 82.0% is collected: 32.73 g &times; 0.820 = <b>26.8 g C<sub>2</sub>H<sub>5</sub>OH</b>.",
   "x": [
    "",
    "This is the theoretical yield; the 82.0% has not been applied.",
@@ -5734,7 +5734,7 @@
    "+89 kJ"
   ],
   "h": "Reverse the equation, reverse the sign.",
-  "w": "Reverse reaction: <b>&Delta;H = &minus;178 kJ</b> (exothermic).",
+  "w": "Reversing a reaction reverses the energy change: if making CaO and CO<sub>2</sub> absorbs 178 kJ, putting them back together releases 178 kJ. So <b>&Delta;H = &minus;178 kJ</b> (exothermic). The size stays the same because the amounts are the same.",
   "x": [
    "",
    "The reverse reaction releases the heat the forward one absorbs, so the sign changes.",
@@ -5755,7 +5755,7 @@
    "&minus;285.8 kJ"
   ],
   "h": "Double the equation, double &Delta;H.",
-  "w": "2 &times; (&minus;571.6 kJ) = <b>&minus;1143.2 kJ</b>.",
+  "w": "&Delta;H belongs to the amounts written. Every coefficient is doubled, so twice as much reacts and twice as much heat is released: 2 &times; (&minus;571.6 kJ) = <b>&minus;1143.2 kJ</b>. The sign stays negative because the direction did not change.",
   "x": [
    "",
    "&Delta;H belongs to the amounts as written; twice the amounts release twice the heat.",
@@ -5779,7 +5779,7 @@
   "w": "3.60 &times; 10<sup>4</sup> kJ &times; (1 mol CH<sub>4</sub> / 890.3 kJ) &times; (16.043 g / 1 mol) = <b>649 g CH<sub>4</sub></b>.",
   "x": [
    "",
-   "This stops at moles of methane.",
+   "This stops at moles of methane, but the question asks for a mass. One more step: multiply by the molar mass, 16.043 g/mol.",
    "This divides by the molar mass instead of multiplying.",
    "This uses the coefficient of O<sub>2</sub> (2). The 890.3 kJ goes with 1 mol CH<sub>4</sub>."
   ],
@@ -5854,13 +5854,13 @@
   "t": "energy",
   "q": "An air-activated hand warmer gets hot as iron powder inside reacts with oxygen. Which statement agrees with the law of conservation of energy?",
   "c": [
-   "Chemical potential energy of the reactants becomes heat; the total energy stays the same.",
+   "Chemical potential energy becomes heat; the total energy stays the same.",
    "The reaction creates new energy, which is why the packet gets hot.",
    "When the packet cools, its energy is destroyed.",
    "The heat comes from the air, which loses all of its energy to the packet."
   ],
   "h": "Energy can change form or move. Can it be made or destroyed?",
-  "w": "The <b>chemical potential energy becomes heat</b>; total energy is conserved.",
+  "w": "Energy is never created or destroyed; it only changes form. The iron and oxygen store <b>chemical potential energy</b>, and the reaction turns it into heat, so the total energy stays the same.",
   "x": [
    "",
    "Energy is never created; the heat was stored as chemical potential energy in the reactants.",
@@ -5875,9 +5875,9 @@
   "t": "energy",
   "q": "A cyclist eats a banana, then rides to the top of a hill and stops. Which sequence best describes the main energy changes?",
   "c": [
-   "Chemical potential energy (food) &rarr; kinetic energy of motion &rarr; potential energy of position at the top, plus heat",
+   "Chemical potential energy (food) &rarr; kinetic energy &rarr; potential energy at the top, plus heat",
    "Kinetic energy (food) &rarr; chemical potential energy &rarr; kinetic energy at the top",
-   "Chemical potential energy (food) is used up and disappears as the cyclist climbs",
+   "Chemical potential energy (food) is used up and simply disappears as the cyclist climbs the hill",
    "Potential energy of position &rarr; chemical potential energy &rarr; heat"
   ],
   "h": "Start with the banana: is its energy stored or moving?",
@@ -5896,7 +5896,7 @@
   "t": "energy",
   "q": "A large pot of soup and a teaspoon of the same soup are both at 70 °C. Which statement is correct?",
   "c": [
-   "They have the same average kinetic energy of particles, but the pot holds far more thermal energy and can release more heat.",
+   "Their particles have the same average kinetic energy, but the pot holds far more thermal energy.",
    "The pot has the higher temperature because it holds more soup.",
    "The teaspoon's particles have the higher average kinetic energy because there are fewer of them.",
    "They hold the same amount of thermal energy because they are at the same temperature."
@@ -5959,7 +5959,7 @@
   "t": "energy",
   "q": "Which statement about absolute zero is correct?",
   "c": [
-   "It is 0 K, or &minus;273.15 °C, the lowest possible temperature; Kelvin temperatures are never negative.",
+   "It is 0 K, or &minus;273.15 °C, the lowest possible temperature.",
    "It is 0 °C, the temperature at which water freezes.",
    "It is &minus;273.15 K, the coldest temperature ever measured.",
    "It is 0 °F, so very cold objects can have negative Kelvin temperatures."
@@ -6182,7 +6182,7 @@
    "q = &minus;14.2 kJ"
   ],
   "h": "q = n&Delta;H<sub>fus</sub>. Grams to moles first.",
-  "w": "q = (42.5 g &divide; 18.015 g/mol)(6.02 kJ/mol) = <b>+14.2 kJ</b>.",
+  "w": "&Delta;H<sub>fus</sub> is per mole, so change grams to moles first: 42.5 g &divide; 18.015 g/mol = 2.359 mol. Then q = 2.359 mol &times; 6.02 kJ/mol = <b>+14.2 kJ</b>. It is positive because melting absorbs heat.",
   "x": [
    "",
    "This multiplies grams by kJ/mol. Convert grams to moles first, because &Delta;H<sub>fus</sub> is per mole.",
@@ -6197,7 +6197,7 @@
   "t": "energy",
   "q": "On the sloped segment of a heating curve where liquid water warms from 0 °C to 100 °C, which statement is correct?",
   "c": [
-   "The molecules speed up (kinetic energy rises), and q = mc&Delta;T with c = 4.184 J/(g·°C).",
+   "The molecules speed up, and q = mc&Delta;T with c = 4.184 J/(g·°C).",
    "The molecules move apart at constant temperature, and q = n&Delta;H.",
    "The molecules speed up, and q = mc&Delta;T with c = 2.09 J/(g·°C).",
    "No heat is absorbed, because the water does not change state."
@@ -6266,7 +6266,7 @@
    "Dipole&ndash;dipole only"
   ],
   "h": "Polar? Then dipole&ndash;dipole. Any H on N, O, or F?",
-  "w": "CHCl<sub>3</sub>: <b>dispersion and dipole&ndash;dipole</b> (no H on N, O, or F).",
+  "w": "Every molecule has dispersion forces. CHCl<sub>3</sub> is also polar: the three C&ndash;Cl bonds are polar and the tetrahedral shape does not cancel them, so it has dipole&ndash;dipole forces too. Its only H is on carbon, not on N, O, or F, so there is no hydrogen bonding: <b>dispersion and dipole&ndash;dipole</b>.",
   "x": [
    "",
    "Dispersion only is for nonpolar molecules. With one H and three Cl, the bond dipoles do not cancel.",
@@ -6287,7 +6287,7 @@
    "Xe forms weak covalent bonds with neighboring atoms when it condenses to a liquid."
   ],
   "h": "What makes dispersion forces stronger?",
-  "w": "Bigger electron cloud, more polarizable: <b>stronger dispersion forces in Xe</b>.",
+  "w": "Both are nonpolar atoms, so dispersion forces are the only attractions. Xe has many more electrons in a larger cloud that distorts easily (more polarizable), so it makes <b>stronger dispersion forces</b> and needs more energy to boil.",
   "x": [
    "",
    "A single noble-gas atom has no permanent dipole, so it is nonpolar no matter how heavy it is.",
@@ -6323,10 +6323,10 @@
   "t": "bonding",
   "q": "When ethanol boils, what is overcome?",
   "c": [
-   "The intermolecular forces between ethanol molecules; each molecule stays intact",
+   "The forces between ethanol molecules; each molecule stays intact",
    "The covalent C&ndash;H bonds inside each molecule",
    "The O&ndash;H covalent bonds, which break to release hydrogen gas",
-   "All the bonds, so the molecules split into separate atoms"
+   "All the bonds, so the molecules split apart into separate atoms"
   ],
   "h": "Is boiling a physical or a chemical change?",
   "w": "Boiling overcomes <b>intermolecular forces</b> (hydrogen bonds, dipole&ndash;dipole, dispersion); the molecules stay whole.",
@@ -6344,7 +6344,7 @@
   "t": "bonding",
   "q": "The two strands of DNA are held together by attractions between base pairs (A with T, G with C). What are these attractions, and why do they matter?",
   "c": [
-   "Hydrogen bonds between N&ndash;H groups and N or O atoms; each is weak, so the strands can unzip for copying",
+   "Hydrogen bonds; each is weak, so the strands can unzip for copying",
    "Covalent bonds between the bases; they are very strong, so the strands never separate",
    "Ionic bonds between the bases, formed by transferring electrons",
    "Dispersion forces only, because the bases are nonpolar"
@@ -6371,7 +6371,7 @@
    "The H of one CH<sub>3</sub>F molecule and the F of a neighboring CH<sub>3</sub>F molecule"
   ],
   "h": "A hydrogen bond is an attraction between molecules, and the H must be bonded to N, O, or F.",
-  "w": "<b>H on one water molecule &middot;&middot;&middot; O of another</b>.",
+  "w": "A hydrogen bond is an attraction <i>between</i> molecules: an H bonded to N, O, or F on one molecule is pulled toward a lone pair on N, O, or F of another. In water that is <b>the H of one molecule and the O of a neighbor</b>.",
   "x": [
    "",
    "The O&ndash;H inside one molecule is a covalent bond, not a hydrogen bond.",
@@ -6392,7 +6392,7 @@
    "Dichloromethane, CH<sub>2</sub>Cl<sub>2</sub>"
   ],
   "h": "Stronger intermolecular forces, higher surface tension.",
-  "w": "<b>Water</b>: hydrogen bonding gives the strongest pull at the surface.",
+  "w": "Surface tension comes from molecules at the surface being pulled inward by their neighbors. <b>Water</b> has hydrogen bonds, stronger than the dipole&ndash;dipole forces in acetone and dichloromethane or the dispersion forces in pentane, so its surface pull is strongest.",
   "x": [
    "",
    "Acetone is polar but has no O&ndash;H, so it has dipole&ndash;dipole forces, weaker than water's hydrogen bonding.",
@@ -6407,13 +6407,13 @@
   "t": "energy",
   "q": "Ethylene glycol, HOCH<sub>2</sub>CH<sub>2</sub>OH, is much more viscous than ethanol, CH<sub>3</sub>CH<sub>2</sub>OH. What is the best explanation?",
   "c": [
-   "Each ethylene glycol molecule has two O&ndash;H groups, so it forms more hydrogen bonds with its neighbors.",
+   "Each ethylene glycol molecule has two O&ndash;H groups, so it forms more hydrogen bonds.",
    "Ethylene glycol is nonpolar, so its molecules slide past each other slowly.",
    "Ethanol has stronger hydrogen bonding, which makes it flow faster.",
-   "Viscosity depends only on molar mass, and ethylene glycol is heavier."
+   "Viscosity depends only on molar mass, and ethylene glycol is heavier than ethanol."
   ],
   "h": "Both hydrogen bond. Which molecule can make more of them?",
-  "w": "Two O&ndash;H groups per molecule, <b>more hydrogen bonds</b>, higher viscosity.",
+  "w": "Viscosity is resistance to flow, and stronger attractions make a liquid flow more slowly. Ethylene glycol has <b>two O&ndash;H groups</b> per molecule and ethanol has one, so ethylene glycol forms more hydrogen bonds and holds its neighbors more tightly.",
   "x": [
    "",
    "Ethylene glycol is polar, with two O&ndash;H groups.",
@@ -6434,7 +6434,7 @@
    "Gravity pulls blood more strongly into a narrow tube than into a wide one."
   ],
   "h": "Liquid-to-wall attraction versus liquid-to-liquid attraction.",
-  "w": "<b>Adhesion &gt; cohesion</b>, so the blood climbs the tube (capillary action).",
+  "w": "Blood is mostly water, which is attracted to the polar glass surface. When <b>adhesion (to the glass) is stronger than cohesion</b> (to itself), the liquid creeps up the walls and climbs the narrow tube. This is capillary action.",
   "x": [
    "",
    "When cohesion wins, the liquid pulls away from the walls and does not climb.",
@@ -6455,7 +6455,7 @@
    "Metallic"
   ],
   "h": "Nonmetals only usually means molecular. Which few are the exceptions?",
-  "w": "<b>Covalent network</b>, like diamond and quartz: covalent bonds throughout.",
+  "w": "In a <b>covalent network</b> solid, every atom is joined to its neighbors by covalent bonds throughout the crystal, like diamond and quartz. Melting would mean breaking those strong bonds, so SiC is extremely hard and melts very high.",
   "x": [
    "",
    "SiC is made of nonmetal-like elements, but it does not exist as separate small molecules; molecular solids are soft and melt low.",
@@ -6470,7 +6470,7 @@
   "t": "energy",
   "q": "Which statement about solid sodium chloride (table salt) is correct?",
   "c": [
-   "It has a high melting point and is brittle, and it does not conduct electricity until it is melted or dissolved.",
+   "It is brittle and melts high, and it conducts only when melted or dissolved.",
    "It conducts electricity as a solid, because it is made of ions.",
    "It has a low melting point, because its particles are held by intermolecular forces.",
    "It bends without breaking, like a metal."
@@ -6512,10 +6512,10 @@
   "t": "energy",
   "q": "At a high Sierra Nevada campsite, water boils below 100 °C. Why?",
   "c": [
-   "The air pressure is lower, so water's vapor pressure reaches the outside pressure at a lower temperature.",
+   "The air pressure is lower, so the vapor pressure matches it at a lower temperature.",
    "The air pressure is higher, which lowers the boiling point.",
    "Mountain water has fewer hydrogen bonds.",
-   "Boiling point does not depend on pressure; the thermometer is cold."
+   "Boiling point does not depend on pressure; the thermometer is simply reading too cold."
   ],
   "h": "Boiling: vapor pressure = outside pressure.",
   "w": "<b>Lower outside pressure</b>, so water boils at a lower temperature, and food cooks more slowly.",
@@ -6560,7 +6560,7 @@
    "By condensation of the ice into vapor"
   ],
   "h": "Solid straight to gas: what is it called?",
-  "w": "<b>Sublimation</b> (endothermic) removes the ice and leaves a dry product.",
+  "w": "At very low pressure, ice goes straight from solid to gas without melting. That is <b>sublimation</b>, and like melting and boiling it absorbs heat. The water leaves as vapor, and the vaccine is left dry.",
   "x": [
    "",
    "Deposition is the reverse, gas to solid, and it releases heat.",
@@ -6732,7 +6732,7 @@
    "Cooling it toward the temperature where it condenses",
    "Heating it to a higher temperature",
    "Lowering its pressure",
-   "Letting it expand into a larger container"
+   "Letting it expand into a larger, empty container"
   ],
   "h": "When do attractions between particles start to matter?",
   "w": "Real gases depart from ideal behavior at low temperature and high pressure: <b>cooling it toward condensation</b>.",
@@ -6753,7 +6753,7 @@
    "The same number of particles hit a smaller wall area more often.",
    "The particles move faster because they have less room.",
    "The particles become larger when they are squeezed.",
-   "Squeezing the air makes the particles attract each other."
+   "Squeezing the air makes the particles attract each other more strongly."
   ],
   "h": "Speed stays the same at constant temperature. What changes?",
   "w": "Same particles, less room: <b>more frequent collisions with the walls</b>, so higher pressure.",
@@ -6777,7 +6777,7 @@
    "A smaller area gives a smaller pressure, so the lawn is softer under heels."
   ],
   "h": "Use P = F/A.",
-  "w": "Same force, smaller area: <b>greater pressure</b> (P = F/A).",
+  "w": "Pressure is force per area, P = F/A. The person’s weight (the force) is the same in both shoes, but the narrow heels push on a much smaller area, so the <b>pressure is greater</b> and the heels sink in.",
   "x": [
    "",
    "The person's weight, the force, is the same in either pair of shoes.",
@@ -6795,7 +6795,7 @@
    "The atmosphere pushing down on the mercury in the open dish",
    "Suction from the vacuum at the top of the tube",
    "The mercury sticking to the glass walls",
-   "The weight of the mercury in the dish pushing up"
+   "The weight of the mercury in the dish pushing up on the column"
   ],
   "h": "Which side of the mercury has air on it?",
   "w": "<b>Atmospheric pressure on the dish</b> pushes the mercury up the tube until the column's weight balances it.",
@@ -6816,7 +6816,7 @@
    "The air pressure outside is greater at the lower elevation, so the outside air pushes the bottle in.",
    "The air inside the bottle escaped through the cap on the way down.",
    "The air pressure outside is lower at the lower elevation, so the bottle collapses.",
-   "The air inside the bottle got heavier at the lower elevation."
+   "The air inside the bottle got heavier at the lower elevation and pulled the sides in."
   ],
   "h": "Is there more air above you at the summit or in the valley?",
   "w": "Lower elevation, more air above, <b>higher outside pressure</b>, which crushes the bottle sealed at the summit.",
@@ -6840,7 +6840,7 @@
    "311 kPa"
   ],
   "h": "Use 760 mmHg = 101.325 kPa (both equal 1 atm).",
-  "w": "41.5 mmHg &times; (101.325 kPa / 760 mmHg) = <b>5.53 kPa</b>.",
+  "w": "Use 760 mmHg = 101.325 kPa as a conversion factor, with mmHg on the bottom: 41.5 mmHg &times; (101.325 kPa / 760 mmHg) = <b>5.53 kPa</b>. A kPa is bigger than a mmHg, so the number gets smaller.",
   "x": [
    "",
    "This multiplies mmHg by 101.325 as if the value were in atm. Convert mmHg to atm first (divide by 760).",
@@ -6861,7 +6861,7 @@
    "It decreases, because the pressure on the balloon increases."
   ],
   "h": "Which law relates V and T, and is it direct or inverse?",
-  "w": "Charles's law, direct: lower temperature, <b>smaller volume</b>.",
+  "w": "At constant pressure and amount, volume is directly proportional to Kelvin temperature (Charles’s law). Cooling the air in the freezer slows the particles, so they push out less and the <b>volume decreases</b>.",
   "x": [
    "",
    "Volume and temperature are directly related (Charles's law); cooling shrinks the gas.",
@@ -6879,7 +6879,7 @@
    "It increases four times.",
    "It doubles.",
    "It stays the same.",
-   "It is cut in half."
+   "It drops to half its value."
   ],
   "h": "Do each change separately: what does doubling n do? What does doubling T do?",
   "w": "&times;2 for the moles and &times;2 for the temperature: <b>4 times the pressure</b>.",
@@ -7075,7 +7075,7 @@
   "x": [
    "",
    "This uses 22.4 L/mol, but 37.0 °C is not STP.",
-   "This uses the Celsius temperature.",
+   "This uses the Celsius temperature, 37.0, in V = nRT/P. Gas laws need Kelvin: add 273.15.",
    "This uses the 2 from HCl; CaCO<sub>3</sub> and CO<sub>2</sub> are 1 : 1."
   ],
   "k": 1,
@@ -7137,7 +7137,7 @@
   "w": "0.2095 &times; 438 mmHg = <b>91.8 mmHg</b>, much lower than at sea level, which is why breathing is harder at altitude.",
   "x": [
    "",
-   "This uses 20.95 without dividing by 100.",
+   "This uses 20.95 (the percent) as if it were the mole fraction. Divide the percent by 100 first: 0.2095.",
    "This uses sea-level pressure, 760 mmHg. On the summit the total pressure is 438 mmHg.",
    "This divides by the mole fraction; multiply by it."
   ],
@@ -7173,10 +7173,10 @@
   "t": "gases",
   "q": "Why must water's vapor pressure be subtracted from the room pressure when a gas is collected over water?",
   "c": [
-   "The gas in the tube is a mixture of the collected gas and water vapor, and together they balance the room pressure.",
+   "The tube holds a mix of the gas and water vapor, which together match the room pressure.",
    "Water vapor is heavier than the collected gas, so it pushes down on the tube.",
    "The water absorbs some of the gas, lowering its pressure.",
-   "The room pressure must be converted to the pressure of liquid water."
+   "The room pressure must first be converted to the pressure of liquid water in the trough."
   ],
   "h": "What else, besides the collected gas, is in the tube?",
   "w": "The tube holds <b>gas plus water vapor</b>; Dalton's law says their pressures add to P<sub>atm</sub>.",
@@ -7221,7 +7221,7 @@
    "508 mmHg"
   ],
   "h": "Subtract water vapor first, then multiply by the mole fraction.",
-  "w": "758 &minus; 47.1 = 711 mmHg; 0.285 &times; 711 = <b>203 mmHg</b>.",
+  "w": "Water vapor takes up part of the total pressure, so subtract it first: 758 mmHg &minus; 47.1 mmHg = 711 mmHg of dry gases. Oxygen’s share is its mole fraction: 0.285 &times; 711 mmHg = <b>203 mmHg</b>.",
   "x": [
    "",
    "This forgets the water vapor. Humidified air in the airways includes water vapor at 47.1 mmHg.",
@@ -7263,7 +7263,7 @@
    "Hexane and octane (C<sub>8</sub>H<sub>18</sub>)"
   ],
   "h": "Immiscible liquids are unlike: one polar, one nonpolar.",
-  "w": "Polar water and nonpolar hexane do not mix: <b>water and hexane</b>.",
+  "w": "Like dissolves like. Water is polar and hydrogen bonds; hexane is a nonpolar hydrocarbon with dispersion forces only. Water molecules stick to each other and push the hexane out, so <b>water and hexane</b> form two layers.",
   "x": [
    "",
    "Ethanol's O&ndash;H group hydrogen bonds with water, so the two are miscible.",
@@ -7301,11 +7301,11 @@
   "c": [
    "The crystal stays undissolved, and the amount dissolved does not change.",
    "The crystal dissolves, because sugar is soluble in water.",
-   "Extra sugar crystallizes out of the solution onto the crystal.",
+   "Extra sugar crystallizes out of the solution and grows onto the added crystal.",
    "The solution becomes supersaturated."
   ],
   "h": "Saturated means the solution holds the maximum.",
-  "w": "Saturated: <b>the crystal stays undissolved</b>.",
+  "w": "A saturated solution already holds the most sugar it can at that temperature. Sugar still dissolves and crystallizes at equal rates, so <b>the crystal stays undissolved</b> and the amount in solution does not change.",
   "x": [
    "",
    "That would happen in an unsaturated solution. A saturated one cannot hold any more.",
@@ -7326,7 +7326,7 @@
    "In stomach acid, because acids dissolve all molecules"
   ],
   "h": "One O&ndash;H on a big hydrocarbon frame: is the molecule mostly polar or nonpolar?",
-  "w": "Mostly nonpolar, so <b>it dissolves in fat</b> (a fat-soluble vitamin).",
+  "w": "One O&ndash;H on a large carbon-and-hydrogen frame leaves the molecule mostly nonpolar. Like dissolves like, so vitamin D <b>dissolves in fat</b>, which is also nonpolar. That is why it is called a fat-soluble vitamin and is stored in fat tissue.",
   "x": [
    "",
    "Plasma is mostly polar water; a mostly nonpolar molecule dissolves poorly in it.",
@@ -7406,11 +7406,11 @@
   "c": [
    "Almost nothing; pressure affects the solubility of gases, not solids.",
    "It rises five times, by Henry's law.",
-   "It falls, because the pressure squeezes ions out of solution.",
+   "It falls, because the pressure squeezes the dissolved ions out of solution.",
    "It rises, because pressure works like heating."
   ],
   "h": "Henry's law is about which kind of solute?",
-  "w": "Pressure matters only for gases: <b>NaCl's solubility hardly changes</b>.",
+  "w": "Henry’s law says pressure pushes more <i>gas</i> into a liquid. Liquids and solids barely compress, so pressure does almost nothing to a solid’s solubility: <b>NaCl’s solubility hardly changes</b>.",
   "x": [
    "",
    "Henry's law applies to gases dissolving in liquids, not to solids such as NaCl.",
@@ -7431,7 +7431,7 @@
    "0.845 ppm"
   ],
   "h": "1 ppm &asymp; 1 mg/L in dilute water.",
-  "w": "0.845 mg / 1.25 L = 0.676 mg/L = <b>0.676 ppm</b>.",
+  "w": "In dilute water, 1 ppm &asymp; 1 mg of solute per liter. Divide the mass by the volume: 0.845 mg &divide; 1.25 L = 0.676 mg/L = <b>0.676 ppm</b>.",
   "x": [
    "",
    "This multiplies by 1000, as if converting mg to &mu;g; that would give ppb, not ppm.",
@@ -7452,7 +7452,7 @@
    "0.00865 ppb"
   ],
   "h": "Convert mg/L to &mu;g/L.",
-  "w": "0.00865 mg/L &times; 1000 &mu;g/mg = 8.65 &mu;g/L = <b>8.65 ppb</b>.",
+  "w": "In dilute water, 1 ppb &asymp; 1 &mu;g per liter. Convert mg to &mu;g (1 mg = 1000 &mu;g): 0.00865 mg/L &times; 1000 &mu;g/mg = 8.65 &mu;g/L = <b>8.65 ppb</b>.",
   "x": [
    "",
    "This multiplies by 10<sup>6</sup>, which converts mg to ng and gives ppt, not ppb.",
@@ -7509,8 +7509,8 @@
   "t": "solutions",
   "q": "A student adds 0.175 mol of KCl to 1.000 L of water and stirs until it dissolves. Why is the molarity <b>not</b> exactly 0.175 M?",
   "c": [
-   "Molarity uses liters of solution, and the solution's volume is not exactly 1.000 L.",
-   "Molarity uses kilograms of solvent, not liters.",
+   "Molarity uses liters of solution, and the solution is not exactly 1.000 L.",
+   "Molarity uses kilograms of solvent, not liters, so the water must be weighed.",
    "KCl separates into two ions, so the molarity doubles.",
    "The moles of KCl decrease as it dissolves."
   ],
@@ -7557,7 +7557,7 @@
    "2.1 &times; 10<sup>5</sup> bacteria/mL"
   ],
   "h": "Each 0.50 mL + 4.5 mL step is a 1-to-10 dilution; the factors multiply.",
-  "w": "4.2 &times; 10<sup>6</sup> &divide; 100 = <b>4.2 &times; 10<sup>4</sup> bacteria/mL</b>.",
+  "w": "Each step puts 0.50 mL into a total of 0.50 + 4.5 = 5.0 mL, a 1-to-10 dilution. Two steps multiply: 10 &times; 10 = 100. So 4.2 &times; 10<sup>6</sup> &divide; 100 = <b>4.2 &times; 10<sup>4</sup> bacteria/mL</b>.",
   "x": [
    "",
    "This divides by 9 each time, using the saline added as V<sub>2</sub>. The total volume is 5.0 mL, so each factor is 10.",
@@ -7578,7 +7578,7 @@
    "The mass of the solution"
   ],
   "h": "M &times; V = moles. What does M<sub>1</sub>V<sub>1</sub> = M<sub>2</sub>V<sub>2</sub> say stays fixed?",
-  "w": "<b>Moles of solute</b> are unchanged by dilution.",
+  "w": "Diluting adds only solvent. The solute particles already there are just spread through more volume, so the <b>moles of solute</b> stay the same while the molarity falls. That is why M<sub>1</sub>V<sub>1</sub> = M<sub>2</sub>V<sub>2</sub>.",
   "x": [
    "",
    "The molarity goes down; that is the point of diluting.",
@@ -7599,7 +7599,7 @@
    "2.8 &times; 10<sup>&minus;8</sup> mol"
   ],
   "h": "Convert both: mM &rarr; M and mL &rarr; L.",
-  "w": "(0.0056 mol/L)(0.00500 L) = <b>2.8 &times; 10<sup>&minus;5</sup> mol</b>.",
+  "w": "Moles = molarity &times; liters, so convert both: 5.6 mM = 0.0056 mol/L, and 5.00 mL = 0.00500 L. Then (0.0056 mol/L)(0.00500 L) = <b>2.8 &times; 10<sup>&minus;5</sup> mol</b>.",
   "x": [
    "",
    "This uses 5.6 mM as if it were 5.6 M; divide by 1000 first.",
@@ -7641,7 +7641,7 @@
    "3.01 &times; 10<sup>&minus;5</sup> g"
   ],
   "h": "V &times; M &rarr; mol CaCl<sub>2</sub> &rarr; mol CaCO<sub>3</sub> &rarr; g.",
-  "w": "0.003010 mol &times; 100.09 g/mol = <b>0.301 g</b>.",
+  "w": "Moles of CaCl<sub>2</sub>: 0.0350 L &times; 0.0860 mol/L = 0.003010 mol. The ratio is 1 : 1, so 0.003010 mol CaCO<sub>3</sub> forms. Then 0.003010 mol &times; 100.09 g/mol = <b>0.301 g</b>.",
   "x": [
    "",
    "This uses mL as liters; convert 35.0 mL to 0.0350 L.",
@@ -7662,7 +7662,7 @@
    "12.55 M"
   ],
   "h": "Solid known: grams &rarr; mol acid &rarr; mol NaOH (&times; 2) &rarr; &divide; L NaOH.",
-  "w": "0.003810 mol NaOH / 0.02733 L = <b>0.1394 M</b>.",
+  "w": "Moles of acid: 0.1715 g &divide; 90.034 g/mol = 0.001905 mol. Each acid uses 2 NaOH: 0.001905 &times; 2 = 0.003810 mol NaOH. Molarity = 0.003810 mol &divide; 0.02733 L = <b>0.1394 M</b>.",
   "x": [
    "",
    "This treats the reaction as 1 : 1. Oxalic acid has two acidic hydrogens, so it needs 2 NaOH.",
@@ -7683,7 +7683,7 @@
    "107.4%"
   ],
   "h": "Find grams of aspirin, then divide by the sample mass.",
-  "w": "0.3958 g / 0.4250 g &times; 100% = <b>93.13%</b>.",
+  "w": "Moles of NaOH: 0.01854 L &times; 0.1185 mol/L = 0.002197 mol, which equals the moles of aspirin (1 : 1). Mass of aspirin: 0.002197 mol &times; 180.159 g/mol = 0.3958 g. Percent: 0.3958 g &divide; 0.4250 g &times; 100% = <b>93.13%</b>.",
   "x": [
    "",
    "This divides moles by grams; convert moles of aspirin to grams first.",
@@ -7704,7 +7704,7 @@
    "29.0 mL"
   ],
   "h": "g &rarr; mol base &rarr; mol HCl (&times; 2) &rarr; L &rarr; mL.",
-  "w": "0.01219 mol HCl &divide; 0.105 M = <b>116 mL</b>.",
+  "w": "Moles of CaCO<sub>3</sub>: 0.610 g &divide; 100.09 g/mol = 0.006095 mol. Each one neutralizes 2 HCl: 0.01219 mol HCl. Volume: 0.01219 mol &divide; 0.105 mol/L = 0.116 L = <b>116 mL</b>.",
   "x": [
    "",
    "This skips the mole ratio; each CaCO<sub>3</sub> neutralizes 2 HCl.",
@@ -7746,7 +7746,7 @@
    "glucose, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>"
   ],
   "h": "Write the dissociation and count the ions.",
-  "w": "<b>Na<sub>2</sub>SO<sub>4</sub></b> gives 2 Na<sup>+</sup> + 1 SO<sub>4</sub><sup>2&minus;</sup> = 3 particles.",
+  "w": "The van ’t Hoff factor i is the number of particles one formula unit gives in water. <b>Na<sub>2</sub>SO<sub>4</sub></b> &rarr; 2 Na<sup>+</sup> + SO<sub>4</sub><sup>2&minus;</sup>, which is 3 particles; the sulfate ion stays in one piece.",
   "x": [
    "",
    "KBr &rarr; K<sup>+</sup> + Br<sup>&minus;</sup>: two particles (i = 2).",
@@ -7767,7 +7767,7 @@
    "&minus;0.44 °C"
   ],
   "h": "&Delta;T<sub>f</sub> = iK<sub>f</sub>m; subtract from 0.00 °C.",
-  "w": "&Delta;T<sub>f</sub> = 1.58 °C; T<sub>f</sub> = <b>&minus;1.58 °C</b>.",
+  "w": "KBr gives 2 ions, so i = 2. &Delta;T<sub>f</sub> = iK<sub>f</sub>m = 2 &times; 1.86 °C/m &times; 0.425 m = 1.58 °C. Dissolved particles lower the freezing point: 0.00 °C &minus; 1.58 °C = <b>&minus;1.58 °C</b>.",
   "x": [
    "",
    "This adds &Delta;T<sub>f</sub> to the freezing point. Dissolved particles <i>lower</i> the freezing point.",
@@ -7788,7 +7788,7 @@
    "No water moves, because both sides contain glucose"
   ],
   "h": "Water follows solute.",
-  "w": "Water moves toward the more concentrated side: <b>from A to B</b>.",
+  "w": "In osmosis, water crosses the membrane toward the side with more dissolved particles, diluting it. Side B (10%) is more concentrated, so water flows <b>from A to B</b>. Glucose cannot cross.",
   "x": [
    "",
    "This reverses osmosis. Water moves toward the side with more dissolved particles.",
@@ -7809,7 +7809,7 @@
    "Hypertonic: water flows into the cells, and they burst"
   ],
   "h": "Compare 0.9% NaCl with the particle concentration inside red blood cells.",
-  "w": "0.9% NaCl is <b>isotonic</b>: no net water flow.",
+  "w": "Normal saline, 0.9% NaCl, has the same particle concentration as the inside of red blood cells. That makes it <b>isotonic</b>: water moves in and out at equal rates, so there is no net flow and the cells keep their shape.",
   "x": [
    "",
    "Hypotonic fluids, such as 0.45% NaCl, have a lower particle concentration than cells; 0.9% NaCl matches them.",
@@ -7830,7 +7830,7 @@
    "0.366 mOsm/kg"
   ],
   "h": "Molality first, then &times; i, then &times; 1000 mOsm/Osm.",
-  "w": "m = 0.122 m; 3 &times; 0.122 = <b>366 mOsm/kg</b>.",
+  "w": "Molality: 1.45 g &divide; 95.21 g/mol = 0.01523 mol; 0.01523 mol &divide; 0.1250 kg = 0.1218 m. MgCl<sub>2</sub> gives 3 ions (Mg<sup>2+</sup> + 2 Cl<sup>&minus;</sup>): 3 &times; 0.1218 = 0.366 Osm/kg = <b>366 mOsm/kg</b>.",
   "x": [
    "",
    "This forgets i; MgCl<sub>2</sub> gives Mg<sup>2+</sup> + 2 Cl<sup>&minus;</sup>, three particles.",
@@ -7935,7 +7935,7 @@
    "H<sup>+</sup>(aq) + Br<sup>&minus;</sup>(aq) &rarr; HBr(aq)"
   ],
   "h": "Strong acid + strong base: cross out the spectator ions.",
-  "w": "Spectators Li<sup>+</sup> and Br<sup>&minus;</sup> drop out: <b>H<sup>+</sup>(aq) + OH<sup>&minus;</sup>(aq) &rarr; H<sub>2</sub>O(l)</b>.",
+  "w": "HBr, LiOH, and LiBr are all strong electrolytes, so write them as ions. Li<sup>+</sup> and Br<sup>&minus;</sup> appear on both sides unchanged (spectators) and cancel. What is left is <b>H<sup>+</sup>(aq) + OH<sup>&minus;</sup>(aq) &rarr; H<sub>2</sub>O(l)</b>.",
   "x": [
    "",
    "This is the molecular equation. The net ionic equation leaves out the spectator ions.",
@@ -7951,12 +7951,12 @@
   "q": "Pure water barely conducts electricity, but hydrochloric acid conducts well. Why?",
   "c": [
    "HCl forms ions (H<sub>3</sub>O<sup>+</sup> and Cl<sup>&minus;</sup>) that carry charge through the solution.",
-   "HCl molecules are polar, and polar molecules carry current.",
+   "HCl molecules are polar, and polar molecules carry current through water.",
    "HCl contains hydrogen, which conducts like a metal.",
    "HCl releases free electrons into the water."
   ],
   "h": "What has to be present for a solution to conduct?",
-  "w": "HCl ionizes into <b>H<sub>3</sub>O<sup>+</sup> and Cl<sup>&minus;</sup> ions</b>, which carry charge.",
+  "w": "A solution conducts only if it has moving charged particles. Pure water has very few ions. HCl is a strong acid, so it ionizes completely into <b>H<sub>3</sub>O<sup>+</sup> and Cl<sup>&minus;</sup> ions</b>, and these carry the current.",
   "x": [
    "",
    "Polar molecules without charge, such as water itself, carry almost no current; ions are needed.",
@@ -7977,7 +7977,7 @@
    "0"
   ],
   "h": "The number of waters equals the number of H<sup>+</sup> (or OH<sup>&minus;</sup>) that react.",
-  "w": "Mg(OH)<sub>2</sub>(s) + 2 HCl(aq) &rarr; MgCl<sub>2</sub>(aq) + 2 H<sub>2</sub>O(l): <b>2</b> waters.",
+  "w": "Each H<sup>+</sup> and OH<sup>&minus;</sup> pair makes one water. Mg(OH)<sub>2</sub> has two OH<sup>&minus;</sup>, so it reacts with 2 HCl: Mg(OH)<sub>2</sub>(s) + 2 HCl(aq) &rarr; MgCl<sub>2</sub>(aq) + 2 H<sub>2</sub>O(l). That is <b>2</b> waters.",
   "x": [
    "",
    "One water would use only one of the two OH<sup>&minus;</sup> ions in Mg(OH)<sub>2</sub>.",
@@ -7998,7 +7998,7 @@
    "Arrhenius: NH<sub>3</sub> releases H<sup>+</sup> in water."
   ],
   "h": "Does ammonia gain or lose an H when it reacts with water?",
-  "w": "NH<sub>3</sub> gains H<sup>+</sup> to form NH<sub>4</sub><sup>+</sup>: a <b>Br&oslash;nsted&ndash;Lowry base (proton acceptor)</b>.",
+  "w": "The Arrhenius definition needs a base to release OH<sup>&minus;</sup>, and NH<sub>3</sub> has none. The Br&oslash;nsted&ndash;Lowry definition only asks that a base accept a proton: the lone pair on N takes an H<sup>+</sup> to form NH<sub>4</sub><sup>+</sup>. So NH<sub>3</sub> is a <b>Br&oslash;nsted&ndash;Lowry base (proton acceptor)</b>.",
   "x": [
    "",
    "NH<sub>3</sub> has no OH in its formula; the OH<sup>&minus;</sup> comes from the water that lost a proton.",
@@ -8019,7 +8019,7 @@
    "C<sub>2</sub>H<sub>3</sub>O<sub>2</sub><sup>&minus;</sup>"
   ],
   "h": "The base is the reactant that gains an H from left to right.",
-  "w": "NH<sub>3</sub> becomes NH<sub>4</sub><sup>+</sup>: <b>NH<sub>3</sub></b> accepts the proton.",
+  "w": "A Br&oslash;nsted&ndash;Lowry base accepts a proton. Going left to right, NH<sub>3</sub> gains an H<sup>+</sup> and becomes NH<sub>4</sub><sup>+</sup>, so <b>NH<sub>3</sub></b> is the base. Acetic acid gives the proton away, so it is the acid.",
   "x": [
    "",
    "Acetic acid loses an H<sup>+</sup> (it becomes acetate), so it is the acid.",
@@ -8103,7 +8103,7 @@
    "Na<sup>+</sup>"
   ],
   "h": "An amphoteric species needs an H to give and room to take one.",
-  "w": "<b>HCO<sub>3</sub><sup>&minus;</sup></b> can donate or accept a proton.",
+  "w": "To act both ways, a species needs an H<sup>+</sup> to give and a lone pair to take one. <b>HCO<sub>3</sub><sup>&minus;</sup></b> can give its H<sup>+</sup> to become CO<sub>3</sub><sup>2&minus;</sup>, or take one to become H<sub>2</sub>CO<sub>3</sub>.",
   "x": [
    "",
    "Carbonate has no H to donate, so it can act only as a base.",
@@ -8124,7 +8124,7 @@
    "H<sub>2</sub>CO<sub>3</sub>"
   ],
   "h": "Strong acids: HCl, HBr, HI, HNO<sub>3</sub>, HClO<sub>4</sub>, H<sub>2</sub>SO<sub>4</sub>.",
-  "w": "<b>HI</b> is on the strong-acid list; the others are weak.",
+  "w": "The strong acids are a short list to memorize: HCl, HBr, HI, HNO<sub>3</sub>, HClO<sub>4</sub>, and H<sub>2</sub>SO<sub>4</sub>. <b>HI</b> is on it, so it ionizes completely. Any acid not on the list is weak.",
   "x": [
    "",
    "Nitrous acid (HNO<sub>2</sub>) is not nitric acid (HNO<sub>3</sub>); it is not on the strong list, so it is weak.",
@@ -8166,7 +8166,7 @@
    "Mostly H<sub>3</sub>O<sup>+</sup> ions and intact molecules, but no acetate ions"
   ],
   "h": "Weak acids ionize only slightly.",
-  "w": "Weak acid: <b>mostly intact molecules, a few ions</b>.",
+  "w": "Acetic acid is a weak acid, so only a small fraction of its molecules give H<sup>+</sup> to water. The solution holds <b>mostly intact molecules</b>, with a few H<sub>3</sub>O<sup>+</sup> and acetate ions made in equal numbers.",
   "x": [
    "",
    "All ions and no molecules describes a strong acid; acetic acid is weak.",
@@ -8203,9 +8203,9 @@
   "q": "Isopropyl alcohol (rubbing alcohol), C<sub>3</sub>H<sub>7</sub>OH, contains an OH group. How is it classified?",
   "c": [
    "Neither an acid nor a base",
-   "A strong base",
-   "A weak base",
-   "A weak acid"
+   "A strong base, since it has an OH group",
+   "A weak base, like ammonia",
+   "A weak acid, like vinegar"
   ],
   "h": "Is the OH a hydroxide ion or a covalent group?",
   "w": "An alcohol's OH is not OH<sup>&minus;</sup>: <b>neither an acid nor a base</b>.",
@@ -8229,7 +8229,7 @@
    "BaH<sub>2</sub>"
   ],
   "h": "Salt = base's cation + acid's anion, with balanced charges.",
-  "w": "2 HI(aq) + Ba(OH)<sub>2</sub>(aq) &rarr; BaI<sub>2</sub>(aq) + 2 H<sub>2</sub>O(l): <b>BaI<sub>2</sub></b>.",
+  "w": "Acid + base &rarr; salt + water. The salt is the base’s cation with the acid’s anion: Ba<sup>2+</sup> and I<sup>&minus;</sup>. Two I<sup>&minus;</sup> balance the 2+ charge: <b>BaI<sub>2</sub></b>. 2 HI(aq) + Ba(OH)<sub>2</sub>(aq) &rarr; BaI<sub>2</sub>(aq) + 2 H<sub>2</sub>O(l).",
   "x": [
    "",
    "BaI leaves the charges unbalanced: Ba<sup>2+</sup> needs two I<sup>&minus;</sup>.",
@@ -8362,7 +8362,7 @@
    "Only solutions of strong acids and bases"
   ],
   "h": "What stays the same when an acid is added to water?",
-  "w": "K<sub>w</sub> applies to <b>every water solution</b> at 25 °C.",
+  "w": "K<sub>w</sub> describes water’s own ionization, which goes on in any water solution. Adding acid raises [H<sub>3</sub>O<sup>+</sup>] and lowers [OH<sup>&minus;</sup>], but their product stays 1.0 &times; 10<sup>&minus;14</sup> at 25 °C. So it applies to <b>every water solution</b>.",
   "x": [
    "",
    "It is found from pure water, but it stays true when acids or bases are added.",
@@ -8383,7 +8383,7 @@
    "11.8"
   ],
   "h": "Double [OH<sup>&minus;</sup>] for Ba(OH)<sub>2</sub>, then pOH, then pH.",
-  "w": "[OH<sup>&minus;</sup>] = 0.0066 M; pOH = 2.18; pH = <b>11.82</b>.",
+  "w": "Each Ba(OH)<sub>2</sub> releases 2 OH<sup>&minus;</sup>: [OH<sup>&minus;</sup>] = 2 &times; 0.0033 M = 0.0066 M. pOH = &minus;log(0.0066) = 2.18, and pH = 14.00 &minus; 2.18 = <b>11.82</b> (two significant figures give two decimal places).",
   "x": [
    "",
    "This forgets to double [OH<sup>&minus;</sup>]: each Ba(OH)<sub>2</sub> releases two hydroxide ions.",
@@ -8404,10 +8404,10 @@
    "2.4 &times; 10<sup>4</sup> M"
   ],
   "h": "Find the pOH first, then [OH<sup>&minus;</sup>] = 10<sup>&minus;pOH</sup>.",
-  "w": "pOH = 4.38; [OH<sup>&minus;</sup>] = 10<sup>&minus;4.38</sup> = <b>4.2 &times; 10<sup>&minus;5</sup> M</b>.",
+  "w": "At 25 °C, pH + pOH = 14.00, so pOH = 14.00 &minus; 9.62 = 4.38. Then [OH<sup>&minus;</sup>] = 10<sup>&minus;pOH</sup> = 10<sup>&minus;4.38</sup> = <b>4.2 &times; 10<sup>&minus;5</sup> M</b> (two decimal places in the pH give two sig figs).",
   "x": [
    "",
-   "10<sup>&minus;9.62</sup> is [H<sub>3</sub>O<sup>+</sup>], not [OH<sup>&minus;</sup>].",
+   "10<sup>&minus;9.62</sup> uses the pH directly, which gives [H<sub>3</sub>O<sup>+</sup>], not [OH<sup>&minus;</sup>]. Find pOH = 14.00 &minus; 9.62 first.",
    "4.38 is the pOH; it is not a concentration. Take 10<sup>&minus;pOH</sup>.",
    "This leaves out the minus sign: 10<sup>4.38</sup> instead of 10<sup>&minus;4.38</sup>."
   ],
@@ -8425,7 +8425,7 @@
    "8.3, 11.5, 2.5, 6.5"
   ],
   "h": "Lower pH = more acidic.",
-  "w": "Least acidic (highest pH) to most acidic: <b>11.5, 8.3, 6.5, 2.5</b>.",
+  "w": "The lower the pH, the more acidic. Least acidic first means highest pH first: <b>11.5, 8.3, 6.5, 2.5</b>. (11.5 and 8.3 are basic, 6.5 is slightly acidic, and 2.5 is strongly acidic.)",
   "x": [
    "",
    "This is decreasing acidity (most acidic first); lower pH means more acidic.",
@@ -8461,10 +8461,10 @@
   "t": "acids",
   "q": "What is a buffer?",
   "c": [
-   "A solution that resists changes in pH when small amounts of acid or base are added",
+   "A solution that resists pH changes when small amounts of acid or base are added",
    "A solution whose pH is exactly 7.00",
    "A mixture of a strong acid and a strong base",
-   "A solution whose pH never changes, no matter how much acid is added"
+   "A solution whose pH never changes, no matter how much acid or base is added"
   ],
   "h": "Think of what blood does when acid enters it.",
   "w": "A buffer <b>resists pH change</b> when small amounts of acid or base are added.",
@@ -8509,7 +8509,7 @@
    "HF(aq) + H<sub>2</sub>O(l) &rlarr; H<sub>3</sub>O<sup>+</sup>(aq) + F<sup>&minus;</sup>(aq)"
   ],
   "h": "Added base is neutralized by the acid partner.",
-  "w": "<b>HF(aq) + OH<sup>&minus;</sup>(aq) &rarr; F<sup>&minus;</sup>(aq) + H<sub>2</sub>O(l)</b>.",
+  "w": "A buffer uses its acid partner to neutralize added base. HF gives its H<sup>+</sup> to the OH<sup>&minus;</sup>, making water and more F<sup>&minus;</sup>: <b>HF(aq) + OH<sup>&minus;</sup>(aq) &rarr; F<sup>&minus;</sup>(aq) + H<sub>2</sub>O(l)</b>. The strong base is used up, so the pH barely changes.",
   "x": [
    "",
    "This is how the buffer handles added <i>acid</i>.",
@@ -8572,7 +8572,7 @@
    "The particles only need to collide; every collision forms products."
   ],
   "h": "Think of the two conditions that make a collision effective.",
-  "w": "An effective collision has <b>the right orientation and at least E<sub>a</sub></b>.",
+  "w": "A collision forms products only if it is effective. The particles must hit with <b>the right orientation</b>, so the bonds that change are lined up, and with <b>at least the activation energy</b>, enough to break the old bonds.",
   "x": [
    "",
    "A gentle collision with the right orientation still fails if it does not reach the activation energy.",
@@ -8593,7 +8593,7 @@
    "&minus;119 kJ, exothermic"
   ],
   "h": "&Delta;H = energy of the products &minus; energy of the reactants.",
-  "w": "&Delta;H = 23 kJ &minus; 88 kJ = <b>&minus;65 kJ, exothermic</b>.",
+  "w": "&Delta;H compares the end with the start: products &minus; reactants = 23 kJ &minus; 88 kJ = <b>&minus;65 kJ</b>. The products are lower in energy, so heat is released: the reaction is <b>exothermic</b>. The 142 kJ peak sets the activation energy, not &Delta;H.",
   "x": [
    "",
    "This is reactants &minus; products. &Delta;H is products &minus; reactants, which is negative here.",
@@ -8611,10 +8611,10 @@
    "More hypochlorite ions per milliliter means more frequent collisions with the stain.",
    "The added water acts as a catalyst that slows the reaction down.",
    "Diluting the bleach raises the activation energy of the reaction.",
-   "Full-strength bleach is hotter, so its ions move faster than in diluted bleach."
+   "Full-strength bleach is hotter, so its ions move faster than they do in diluted bleach."
   ],
   "h": "A higher concentration of a reactant: what happens to the number of collisions?",
-  "w": "Higher concentration &rarr; <b>more collisions per second</b> &rarr; faster stain removal.",
+  "w": "Reactions happen when particles collide. Full-strength bleach has <b>more hypochlorite ions per milliliter</b>, so they hit the stain more often each second and the stain is removed faster. Diluting lowers the concentration and the collision rate.",
   "x": [
    "",
    "Water is not a catalyst here, and a catalyst speeds a reaction up rather than slowing it.",
@@ -8629,8 +8629,8 @@
   "t": "equilibrium",
   "q": "The table shows the relative rate of a reaction catalyzed by a human enzyme at several temperatures. Why does the rate fall above 37 °C?",
   "c": [
-   "The enzyme begins to change shape (denature), so it catalyzes the reaction less well.",
-   "Higher temperatures always make reactions slower.",
+   "The enzyme starts to change shape (denature), so it works less well.",
+   "Higher temperatures always make reactions slower, including this one.",
    "Above 37 °C the molecules collide less often.",
    "The activation energy of every reaction rises above 37 °C."
   ],
@@ -8682,13 +8682,13 @@
   "t": "equilibrium",
   "q": "At the same temperature, reaction A has E<sub>a</sub> = 24 kJ and reaction B has E<sub>a</sub> = 96 kJ. Which statement is correct?",
   "c": [
-   "Reaction A is faster, because a larger fraction of its collisions have at least its activation energy.",
+   "Reaction A is faster, because more of its collisions have enough energy to react.",
    "Reaction B is faster, because a higher activation energy releases more energy.",
    "They have the same rate, because the temperature is the same.",
    "Reaction B is faster, because its molecules have more energy."
   ],
   "h": "Lower hill or higher hill: which one do more collisions get over?",
-  "w": "Lower E<sub>a</sub> (24 kJ) &rarr; <b>reaction A is faster</b>.",
+  "w": "At the same temperature, both reactions have the same spread of collision energies. A lower hill (24 kJ) is cleared by a much larger fraction of collisions than a higher one (96 kJ), so <b>reaction A is faster</b>.",
   "x": [
    "",
    "E<sub>a</sub> is the energy needed to start the reaction, not the energy released; a higher hill makes a reaction slower.",
@@ -8709,7 +8709,7 @@
    "About one-tenth as fast"
   ],
   "h": "Is the sample warmer or cooler, and by how many 10 °C steps?",
-  "w": "One 10 °C step cooler &rarr; <b>about half as fast</b>.",
+  "w": "By the rule of thumb, each 10 °C change doubles or halves the rate. Cooling from 37 °C to 27 °C is one 10 °C step down, so the reactions run <b>about half as fast</b>.",
   "x": [
    "",
    "Cooling slows reactions down; twice as fast would be for 10 °C warmer.",
@@ -8857,7 +8857,7 @@
    "Both rates stay the same the whole time."
   ],
   "h": "At the start there is lots of reactant and no product.",
-  "w": "<b>Forward falls, reverse rises, until they are equal.</b>",
+  "w": "At the start there is only H<sub>2</sub> and Br<sub>2</sub>, so the forward rate is high and the reverse rate is zero. As reactants are used up and HBr builds, <b>the forward rate falls and the reverse rate rises</b> until they are equal: equilibrium.",
   "x": [
    "",
    "This has it backward: the forward rate is highest at the start, when the most reactant is present.",
@@ -8872,7 +8872,7 @@
   "t": "equilibrium",
   "q": "A sealed flask at a fixed temperature starts with only COCl<sub>2</sub> gas. What happens?<br>CO(g) + Cl<sub>2</sub>(g) &rlarr; COCl<sub>2</sub>(g)",
   "c": [
-   "Some COCl<sub>2</sub> breaks down until the forward and reverse rates are equal, giving a mixture of all three gases.",
+   "Some COCl<sub>2</sub> breaks down until the forward and reverse rates are equal, leaving all three gases.",
    "Nothing happens, because equilibrium can be reached only by starting from the reactants.",
    "All of the COCl<sub>2</sub> breaks down into CO and Cl<sub>2</sub>.",
    "It reaches a mixture that has a different K than a mixture made from CO and Cl<sub>2</sub>."
@@ -8899,7 +8899,7 @@
    "Dissolving CO<sub>2</sub> in water is not a reversible process at all."
   ],
   "h": "What does an equilibrium need that an open glass does not have?",
-  "w": "The gas escapes: <b>equilibrium needs a closed system</b>.",
+  "w": "An equilibrium needs both directions to keep running. In an open glass, CO<sub>2</sub> gas drifts away and cannot dissolve back, so the reverse process stops and the soda goes flat. <b>Equilibrium needs a closed system</b>, like a sealed bottle.",
   "x": [
    "",
    "Gases take part in many equilibria, for example in a sealed soda bottle.",
@@ -8914,7 +8914,7 @@
   "t": "equilibrium",
   "q": "A chemist swaps a tiny fraction of the CO in an equilibrium mixture for CO made with carbon-14, keeping [CO] the same.<br>CO(g) + Cl<sub>2</sub>(g) &rlarr; COCl<sub>2</sub>(g)<br>Later, carbon-14 shows up in COCl<sub>2</sub> molecules, but no concentration ever changes. What does this show?",
   "c": [
-   "Both reactions are still running at equal rates, so labeled carbon atoms move into COCl<sub>2</sub> and back out.",
+   "Both reactions still run at equal rates, so labeled carbon moves into COCl<sub>2</sub> and back out.",
    "The reaction had stopped, and adding the labeled CO restarted it in the forward direction only.",
    "The forward rate is faster than the reverse rate at equilibrium.",
    "Carbon-14 is a catalyst that makes new COCl<sub>2</sub>."
@@ -8935,13 +8935,13 @@
   "t": "equilibrium",
   "q": "At equilibrium, a reaction mixture contains far more product than reactant. Which statement is true?",
   "c": [
-   "The forward and reverse rates are equal; the equilibrium mixture of this reaction simply favors products.",
+   "The forward and reverse rates are equal; this equilibrium simply favors products.",
    "The forward rate is faster than the reverse rate, which is why there is more product.",
    "The reverse reaction has stopped, so product builds up.",
    "The system will not be at equilibrium until the amounts become equal."
   ],
   "h": "Do unequal amounts mean unequal rates?",
-  "w": "<b>Equal rates</b>; this reaction just favors products.",
+  "w": "At equilibrium the forward and reverse rates are <b>equal</b>, so the amounts stop changing. Equal rates do not mean equal amounts: this reaction simply settles at a mixture that is mostly product (a large K).",
   "x": [
    "",
    "A faster forward rate would keep making product, so the concentrations would not be constant.",
@@ -9061,10 +9061,10 @@
   "t": "equilibrium",
   "q": "The burning of glucose,<br>C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(s) + 6 O<sub>2</sub>(g) &rlarr; 6 CO<sub>2</sub>(g) + 6 H<sub>2</sub>O(l)<br>has an enormous K at room temperature, yet sugar sits in a bowl in air for years without burning. How can both be true?",
   "c": [
-   "K tells how far a reaction goes, not how fast; the activation energy is high, so at room temperature the reaction is extremely slow.",
+   "K shows how far a reaction goes, not how fast; a high activation energy keeps it slow.",
    "A large K means a fast reaction, so the sugar must be burning without anyone noticing.",
-   "Air does not contain enough oxygen for the reaction to start.",
-   "A large K means the mixture is already at equilibrium, so nothing can happen."
+   "Air does not contain enough oxygen for the reaction to start, so the sugar cannot burn.",
+   "A large K means the mixture is already at equilibrium, so no further reaction can happen."
   ],
   "h": "Does K measure how far or how fast?",
   "w": "<b>Large K = how far, not how fast</b>; a high E<sub>a</sub> keeps the reaction slow.",
@@ -9088,7 +9088,7 @@
    "Shifts left, and K decreases"
   ],
   "h": "Take &rarr; toward.",
-  "w": "CO<sub>2</sub> is removed: <b>shifts right</b>, toward it, making more H<sub>2</sub>.",
+  "w": "Le Ch&acirc;telier: when a substance is removed, the system shifts toward it to make more. Taking CO<sub>2</sub> out <b>shifts the equilibrium right</b>, which also makes more H<sub>2</sub>, the product the plant wants.",
   "x": [
    "",
    "Removing a substance pulls the system toward it, to replace some of what was taken.",
@@ -9109,7 +9109,7 @@
    "[O<sub>2</sub>] increases, and K decreases"
   ],
   "h": "First find the direction of the shift, then follow it to O<sub>2</sub>.",
-  "w": "Add &rarr; away: shift left, so <b>[O<sub>2</sub>] increases</b>.",
+  "w": "Adding NO<sub>2</sub>, a product, shifts the system left, away from it. The left shift turns some NO<sub>2</sub> back into NO and O<sub>2</sub>, so <b>[O<sub>2</sub>] increases</b>. K does not change, because the temperature is the same.",
   "x": [
    "",
    "This would happen after a shift to the right; adding a product shifts the system left.",
@@ -9125,9 +9125,9 @@
   "q": "More powdered carbon is added to this mixture at equilibrium:<br>C(s) + CO<sub>2</sub>(g) &rlarr; 2 CO(g)<br>Which way does the equilibrium shift?",
   "c": [
    "No shift, because a pure solid does not appear in K",
-   "Shifts right, away from the added carbon",
+   "Shifts right, away from the added powdered carbon",
    "Shifts left, toward the added carbon",
-   "Shifts right, and K increases"
+   "Shifts right, and K increases with more carbon"
   ],
   "h": "Is C(s) part of the K expression?",
   "w": "A pure solid has no concentration term in K = [CO]<sup>2</sup> / [CO<sub>2</sub>], so adding more C(s) changes neither Q nor K, and there is <b>no shift</b>. The rule &ldquo;add a substance, shift away from it&rdquo; applies only to gases and dissolved species.",
@@ -9146,7 +9146,7 @@
   "q": "The volume of the container is decreased for this mixture at equilibrium:<br>H<sub>2</sub>(g) + Br<sub>2</sub>(g) &rlarr; 2 HBr(g)<br>Which way does the equilibrium shift?",
   "c": [
    "No shift, because both sides have 2 moles of gas",
-   "Shifts right, toward HBr",
+   "Shifts right, toward the side with fewer moles of gas",
    "Shifts left, toward H<sub>2</sub> and Br<sub>2</sub>",
    "Shifts right, and K increases"
   ],
@@ -9172,7 +9172,7 @@
    "No shift, because the kidneys keep [H<sup>+</sup>] fixed"
   ],
   "h": "Fast breathing removes CO<sub>2</sub>. Which way does take &rarr; toward point?",
-  "w": "Remove CO<sub>2</sub> &rarr; <b>shifts left, less H<sup>+</sup>, pH rises</b>.",
+  "w": "Fast breathing removes CO<sub>2</sub>, so the equilibrium shifts left, toward CO<sub>2</sub>, to replace it. H<sup>+</sup> is used up in the shift, so <b>[H<sup>+</sup>] falls and the blood pH rises</b> (respiratory alkalosis).",
   "x": [
    "",
    "This happens when CO<sub>2</sub> builds up, as in hypoventilation; fast breathing removes CO<sub>2</sub>.",
@@ -9193,7 +9193,7 @@
    "A remineralizing paste adding Ca<sup>2+</sup> and phosphate ions"
   ],
   "h": "Dissolving is the forward direction. Which change pulls the system to the right?",
-  "w": "Removing a product shifts right: <b>acid removing OH<sup>&minus;</sup></b>.",
+  "w": "Dissolving is the forward direction, so anything that removes a product pulls the system right. Acid from plaque bacteria reacts with OH<sup>&minus;</sup> (H<sup>+</sup> + OH<sup>&minus;</sup> &rarr; H<sub>2</sub>O), <b>removing OH<sup>&minus;</sup></b>, so more enamel dissolves.",
   "x": [
    "",
    "Adding Ca<sup>2+</sup>, a product, shifts the system left, toward remineralization.",
@@ -9208,7 +9208,7 @@
   "t": "equilibrium",
   "q": "Ammonia plants run the exothermic Haber process,<br>N<sub>2</sub>(g) + 3 H<sub>2</sub>(g) &rlarr; 2 NH<sub>3</sub>(g)<br>at about 400&ndash;450 °C, even though a lower temperature would give more NH<sub>3</sub> at equilibrium. Why?",
   "c": [
-   "At a low temperature the reaction is far too slow, so a higher temperature is used to make NH<sub>3</sub> at a useful rate",
+   "At a low temperature the reaction is far too slow, so heat is used to get a useful rate",
    "A low temperature would lower K and give less NH<sub>3</sub>",
    "A high temperature shifts the equilibrium toward NH<sub>3</sub>",
    "A high temperature lets the iron catalyst shift the equilibrium toward NH<sub>3</sub>"
@@ -9235,7 +9235,7 @@
    "90 protons and 38 neutrons"
   ],
   "h": "Z comes from the periodic table; neutrons = A &minus; Z.",
-  "w": "<sup>90</sup><sub>38</sub>Sr: Z = 38 protons; 90 &minus; 38 = <b>52 neutrons</b>.",
+  "w": "The atomic number of Sr on the periodic table is 38, so it has 38 protons. The mass number, 90, counts protons and neutrons together: 90 &minus; 38 = <b>52 neutrons</b>.",
   "x": [
    "",
    "This swaps the two counts. The atomic number (38, from the periodic table) is the number of protons.",
@@ -9292,8 +9292,8 @@
   "t": "nuclear",
   "q": "How does a Geiger counter detect radiation?",
   "c": [
-   "Radiation ionizes the gas in a sealed tube, and each burst of ions lets a pulse of current flow, counted as a click.",
-   "Radiation makes a crystal give off flashes of light, which a light detector counts.",
+   "Radiation ionizes gas in a sealed tube; each burst of ions makes a pulse of current, or click.",
+   "Radiation makes a crystal give off flashes of light, which a light detector then counts as clicks.",
    "Radiation darkens a strip of photographic film over a month of use.",
    "The counter measures the heat given off by the radioactive sample."
   ],
@@ -9418,13 +9418,13 @@
   "t": "nuclear",
   "q": "Outside the body, which kind of radiation is the biggest concern for a nuclear medicine technologist, and why?",
   "c": [
-   "Gamma rays, because they pass through the body and reach internal organs",
+   "Gamma rays, because they pass through the body to internal organs",
    "Alpha particles, because they are the most ionizing",
    "Beta particles, because they are the most penetrating",
-   "Alpha particles, because they are the most penetrating"
+   "Alpha particles, because they are the most penetrating kind of radiation"
   ],
   "h": "From outside, the radiation must first get through the skin.",
-  "w": "Outside the body: <b>gamma rays</b>, the most penetrating.",
+  "w": "From outside, radiation must get through the skin to do harm. Alpha particles are stopped by skin, and beta particles by a lab coat. <b>Gamma rays</b> are the most penetrating, so they reach internal organs and need distance and shielding.",
   "x": [
    "",
    "Alpha particles are the most ionizing, but from outside they cannot get through the dead outer layer of skin. (Inside the body they are the most damaging.)",
@@ -9450,7 +9450,7 @@
    "",
    "Nuclei do not carry a timer; half of them decay in the first half-life and half of the rest in the next.",
    "Half-life does not depend on the amount; one nucleus and a large sample follow the same odds.",
-   "Temperature does not change half-life."
+   "Half-life does not change with temperature or any other outside condition; nuclear decay ignores heat."
   ],
   "k": 0,
   "d": 2,
@@ -9487,11 +9487,11 @@
    "It loses its fluorine atoms to the air, even though its nuclei do not decay."
   ],
   "h": "Look up fluorine-18 in the half-life table.",
-  "w": "Fluorine-18's <b>110 min half-life</b> is short.",
+  "w": "Fluorine-18 has a short half-life, <b>110 min</b>. Every 110 min half of it decays, so after about 3.7 hours (2 half-lives) only 1/4 is left, too little for a good scan.",
   "x": [
    "",
-   "Activity only falls as the nuclei decay.",
-   "Half-life is constant for each isotope.",
+   "A radioactive sample’s activity only falls as its nuclei decay; it never builds up on its own.",
+   "Half-life is constant for each isotope; it does not change as the sample ages, so each 110 min still removes half.",
    "The problem is nuclear decay, not loss of atoms."
   ],
   "k": 0,
@@ -9508,7 +9508,7 @@
    "Plants make carbon-14 during photosynthesis"
   ],
   "h": "Most of the atmosphere is nitrogen.",
-  "w": "<b><sup>14</sup><sub>7</sub>N + <sup>1</sup><sub>0</sub>n &rarr; <sup>14</sup><sub>6</sub>C + <sup>1</sup><sub>1</sub>H</b>, driven by cosmic-ray neutrons.",
+  "w": "Cosmic rays make fast neutrons in the upper air, and air is mostly nitrogen. A neutron knocks a proton out of a nitrogen-14 nucleus: <b><sup>14</sup><sub>7</sub>N + <sup>1</sup><sub>0</sub>n &rarr; <sup>14</sup><sub>6</sub>C + <sup>1</sup><sub>1</sub>H</b>. Mass numbers (15) and charges (7) balance.",
   "x": [
    "",
    "This equation balances, but it is not how carbon-14 forms; carbon-14 comes from the nitrogen in the air.",
@@ -9529,7 +9529,7 @@
    "It drops to zero right away, because carbon-14 decays at death"
   ],
   "h": "After death, is carbon-14 still replaced?",
-  "w": "Carbon-14 decays and is not replaced: the ratio <b>decreases</b>.",
+  "w": "While alive, an animal eats carbon and keeps the same carbon-14 ratio as the air. After death no new carbon comes in, and carbon-14 keeps decaying while carbon-12 does not, so the ratio <b>decreases</b>, halving every 5730 years.",
   "x": [
    "",
    "Nothing adds carbon-14 to a dead organism; it only decays away.",
@@ -9550,7 +9550,7 @@
    "1.72 &times; 10<sup>4</sup> years"
   ],
   "h": "Turn the activities into a number of halvings, n.",
-  "w": "n = 2: age = 2 &times; 5730 = <b>1.15 &times; 10<sup>4</sup> years</b>.",
+  "w": "Find the number of halvings: 13.6 &rarr; 6.80 &rarr; 3.40 is two halvings (3.40/13.6 = 1/4 = (1/2)<sup>2</sup>), so n = 2. Age = 2 &times; 5730 years = 11,460 years = <b>1.15 &times; 10<sup>4</sup> years</b>.",
   "x": [
    "",
    "This uses the 4 from the fraction 1/4 as the number of half-lives. 1/4 = (1/2)<sup>2</sup>, so n = 2.",
@@ -9571,7 +9571,7 @@
    "Neither, because pigments cannot contain carbon"
   ],
   "h": "Radiocarbon dating needs something that was once alive.",
-  "w": "Only once-living material can be dated: <b>the charcoal</b>.",
+  "w": "Carbon-14 dating works only on material that was once alive, because a living thing takes in carbon-14 and the clock starts when it dies. Charcoal is burned wood, so <b>the charcoal</b> can be dated; iron-oxide ochre is a mineral with no carbon.",
   "x": [
    "",
    "Iron oxide contains no carbon at all, and it was never alive.",
@@ -9588,11 +9588,11 @@
   "c": [
    "After about 35 half-lives, far too little carbon-14 is left to measure.",
    "Bones contain no carbon.",
-   "Carbon-14 stops decaying after 50,000 years.",
+   "Carbon-14 stops decaying after about 50,000 years, so none is lost after that.",
    "The half-life of carbon-14 is longer than 200,000 years."
   ],
   "h": "The method works to about 50,000 years. Why does it stop there?",
-  "w": "About 35 half-lives: <b>too little carbon-14 remains to measure</b>.",
+  "w": "200,000 years is about 35 half-lives of carbon-14 (200,000 &divide; 5730). After that many halvings, less than a billionth of the carbon-14 remains, far <b>too little to measure</b>. That is why the method stops near 50,000 years.",
   "x": [
    "",
    "Bone contains collagen, a protein full of carbon; younger bones are dated this way.",
@@ -9613,7 +9613,7 @@
    "Iodine-131 (half-life 8.0 days)"
   ],
   "h": "The half-life should be long enough for the age being measured.",
-  "w": "Volcanic rock, millions of years: <b>potassium-40</b>.",
+  "w": "A dating isotope needs a half-life long enough that a measurable amount has decayed, but not all of it, over the age being measured. For 2 million-year-old volcanic rock, <b>potassium-40</b> fits: its 1.25 &times; 10<sup>9</sup>-year half-life covers millions of years, and rocks contain potassium.",
   "x": [
    "",
    "Carbon-14 dates only once-living material up to about 50,000 years; rock contains no carbon from a living thing.",
@@ -9655,7 +9655,7 @@
    "The control rods give off neutrons that keep the reaction going."
   ],
   "h": "What particle starts a fission, and how many come out?",
-  "w": "<b>Each fission releases more neutrons than it uses</b>.",
+  "w": "A neutron splits a uranium-235 nucleus, and each fission releases <b>2 or 3 new neutrons</b>. Each of those can split another nucleus, so the number of fissions can keep growing: a chain reaction.",
   "x": [
    "",
    "Gamma rays come out, but it is the neutrons that are absorbed and split uranium-235.",
@@ -9697,7 +9697,7 @@
    "Lead, which stops gamma rays"
   ],
   "h": "The rods control the number of neutrons.",
-  "w": "Control rods: <b>boron or cadmium, neutron absorbers</b>.",
+  "w": "The chain reaction is driven by neutrons, so it is controlled by removing neutrons. Control rods are made of <b>boron or cadmium</b>, which absorb neutrons. Lowering the rods slows the reaction, and raising them speeds it up.",
   "x": [
    "",
    "Uranium oxide pellets fill the fuel rods; control rods are not fuel.",
@@ -9718,7 +9718,7 @@
    "Fusion absorbs energy instead of releasing it"
   ],
   "h": "What powers the Sun, and how much fuel does it use?",
-  "w": "<b>Fusion releases even more energy per gram</b>.",
+  "w": "Fusing very light nuclei, such as hydrogen into helium, converts a larger fraction of mass into energy than splitting heavy nuclei. So <b>fusion releases even more energy per gram</b> of fuel than fission; it powers the Sun.",
   "x": [
    "",
    "This is backward; joining light nuclei releases more energy per gram than splitting heavy ones.",
@@ -9733,13 +9733,13 @@
   "t": "nuclear",
   "q": "How does ionizing radiation most often damage DNA inside a cell?",
   "c": [
-   "It ionizes water, making free radicals such as &middot;OH that break bonds in DNA.",
+   "It ionizes water, making free radicals (&middot;OH) that break bonds in DNA.",
    "It makes the cell radioactive, so the cell decays.",
    "It heats the cell until its DNA melts.",
-   "It changes the carbon atoms in DNA into nitrogen atoms."
+   "It changes the carbon atoms in DNA into nitrogen atoms by nuclear reactions."
   ],
   "h": "What molecule is most common in a cell?",
-  "w": "<b>Ionized water makes free radicals that break DNA</b>.",
+  "w": "A cell is mostly water, so most radiation hits water molecules. It ionizes them, making reactive <b>free radicals such as &middot;OH</b>, which attack and break bonds in nearby DNA.",
   "x": [
    "",
    "Gamma rays and X-rays deposit energy without changing nuclei, so the cell does not become radioactive.",
@@ -9754,13 +9754,13 @@
   "t": "nuclear",
   "q": "Why can radiation be used to treat cancer?",
   "c": [
-   "Cancer cells divide rapidly, so their damaged DNA is copied before it can be repaired.",
-   "Radiation makes cancer cells radioactive, so they decay away.",
+   "Cancer cells divide fast, so their damaged DNA is copied before it is repaired.",
+   "Radiation makes cancer cells radioactive, so they decay away over time.",
    "Only cancer cells absorb radiation; healthy cells let it pass through.",
    "Radiation heats a tumor until it melts."
   ],
   "h": "Which cells are most sensitive to radiation?",
-  "w": "<b>Cancer cells divide rapidly</b>, so radiation damage hits them hardest.",
+  "w": "Radiation damages DNA in all cells it hits. <b>Cancer cells divide rapidly</b>, so they often copy damaged DNA before they can repair it, and they die. Healthy cells that divide slowly have more time to repair the damage.",
   "x": [
    "",
    "Gamma rays and X-rays change no nuclei, so the cells do not become radioactive.",
@@ -9775,18 +9775,18 @@
   "t": "nuclear",
   "q": "Radon-222 seeps from the soil into a home's basement. In which part of the body does it do most of its damage, and why?",
   "c": [
-   "The lungs: inhaled radon and its decay products emit alpha particles at lung cells.",
+   "The lungs: radon and its decay products are inhaled and emit alpha particles.",
    "The skin, because its alpha particles are all stopped there.",
-   "The bones, because the body takes up radon the way it takes up calcium.",
+   "The bones, because the body takes up radon the same way that it takes up calcium.",
    "Every organ equally, because radon gives off mostly gamma rays."
   ],
   "h": "How does a gas get into the body?",
-  "w": "<b>The lungs</b>: alpha particles are delivered right to lung cells.",
+  "w": "Radon is a gas, so it is breathed in. It and its decay products give off alpha particles right next to the cells lining <b>the lungs</b>. Alpha particles travel only a short way but are the most ionizing, so the damage is concentrated there.",
   "x": [
    "",
    "The outer layer of skin is dead cells, which is why alpha particles from outside do little harm.",
    "Radon is a noble gas that is breathed in and out, and it does not build into bone.",
-   "Radon-222 is an alpha emitter."
+   "Radon-222 gives off alpha particles, not mainly gamma rays, and alpha damage stays very close to the source."
   ],
   "k": 0,
   "d": 2,
@@ -9802,7 +9802,7 @@
    "24 &mu;Sv/h"
   ],
   "h": "Dose rate &prop; 1/distance<sup>2</sup>.",
-  "w": "48 &times; (1.0/4.0)<sup>2</sup> = 48 &divide; 16 = <b>3.0 &mu;Sv/h</b>.",
+  "w": "Dose rate falls with the square of the distance. Moving from 1.0 m to 4.0 m is 4 times farther, so the rate drops by 4<sup>2</sup> = 16: 48 &mu;Sv/h &divide; 16 = <b>3.0 &mu;Sv/h</b>.",
   "x": [
    "",
    "This divides by 4; the dose rate falls with the <i>square</i> of the distance.",
@@ -9817,13 +9817,13 @@
   "t": "nuclear",
   "q": "A nuclear medicine technologist steps back from a patient, works faster, and draws up doses behind a lead-glass shield. What principle is she following?",
   "c": [
-   "ALARA: keep doses as low as reasonably achievable with time, distance, and shielding",
+   "ALARA: keep doses as low as reasonably achievable",
    "Critical mass: keep the amount of tracer below the critical mass",
    "Half-life: wait 10 half-lives before going near any patient",
    "Inverse ionization: stand closer so the radiation spreads out"
   ],
   "h": "Three tools: time, distance, shielding.",
-  "w": "<b>ALARA</b>, using time, distance, and shielding.",
+  "w": "The principle is <b>ALARA</b>: keep doses as low as reasonably achievable. She uses all three tools: less time near the source, more distance from it, and shielding between her and it.",
   "x": [
    "",
    "Critical mass is about chain reactions in fission fuel, not tracers.",
@@ -9886,7 +9886,7 @@
    "Potassium-40 in the food we eat"
   ],
   "h": "Which natural source is a gas that collects indoors?",
-  "w": "<b>Radon</b> is the largest natural source of background radiation.",
+  "w": "Uranium in rocks and soil decays to <b>radon gas</b>, which seeps into homes and collects indoors. Breathing it gives most people a larger dose than cosmic rays, food, or nuclear power plants, so it is the largest natural source.",
   "x": [
    "",
    "Nuclear power plants add only a tiny amount to the dose of people living nearby.",
@@ -9907,7 +9907,7 @@
    "Enamel covering the teeth"
   ],
   "h": "Which cells are most sensitive: rapidly dividing ones or slowly dividing ones?",
-  "w": "<b>Bone marrow</b>: its rapidly dividing cells are the most sensitive.",
+  "w": "Radiation does the most harm to cells that divide rapidly, because they copy damaged DNA before it is repaired. <b>Bone marrow</b> makes new blood cells all the time, so it is the most sensitive; nerve and muscle cells rarely divide.",
   "x": [
    "",
    "Adult nerve cells rarely divide, so they are among the least sensitive.",

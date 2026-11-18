@@ -1,0 +1,723 @@
+[
+ {
+  "id": "3A-472",
+  "field": "x[3]",
+  "old": "Neon's symbol is Ne.",
+  "new": "Neon’s symbol is Ne, with a lowercase e. NO has two capital letters, so it is two elements.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-481",
+  "field": "w",
+  "old": "A = <b>protons + neutrons</b>. Neutrons = A &minus; Z.",
+  "new": "The mass number counts the particles in the nucleus: A = <b>protons + neutrons</b>. Electrons are too light to count. So neutrons = A &minus; Z.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-542",
+  "field": "w",
+  "old": "Ammonia is <b>NH<sub>3</sub></b>. Adding H<sup>+</sup> gives the ammonium ion, NH<sub>4</sub><sup>+</sup>.",
+  "new": "Ammonia is the neutral molecule <b>NH<sub>3</sub></b>: N has 5 valence electrons and makes 3 bonds to H. When NH<sub>3</sub> picks up an H<sup>+</sup>, it becomes the ammonium ion, NH<sub>4</sub><sup>+</sup>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-545",
+  "field": "w",
+  "old": "BrO<sub>2</sub><sup>&minus;</sup> = bromite; -ite &rarr; -ous: <b>bromous acid</b>.",
+  "new": "Name the anion first: BrO<sub>2</sub><sup>&minus;</sup> has one fewer O than bromate (BrO<sub>3</sub><sup>&minus;</sup>), so it is bromite. An -ite anion gives an -ous acid: <b>bromous acid</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-546",
+  "field": "w",
+  "old": "Phosphoric &larr; phosphate, PO<sub>4</sub><sup>3&minus;</sup>; 3 H<sup>+</sup>: <b>H<sub>3</sub>PO<sub>4</sub></b>.",
+  "new": "Phosphoric acid comes from the phosphate ion, PO<sub>4</sub><sup>3&minus;</sup> (-ate &rarr; -ic). It takes 3 H<sup>+</sup> to cancel the 3&minus; charge: <b>H<sub>3</sub>PO<sub>4</sub></b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-569",
+  "field": "w",
+  "old": "6 + 3(1) &minus; 1 = <b>8</b> valence electrons for H<sub>3</sub>O<sup>+</sup>.",
+  "new": "Add the valence electrons: O has 6 and each H has 1, so 6 + 3(1) = 9. A 1+ charge means one electron was lost: 9 &minus; 1 = <b>8</b> valence electrons.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-578",
+  "field": "w",
+  "old": "H<sub>3</sub>O<sup>+</sup>: 4 groups, 1 lone pair: <b>trigonal pyramidal</b>, about 109.5&deg;.",
+  "new": "O has 4 electron groups (3 bonds + 1 lone pair), so the electron geometry is tetrahedral. The shape names only the atoms, and with one corner taken by a lone pair the H atoms form a <b>trigonal pyramid</b>, about 109.5&deg; apart, like NH<sub>3</sub>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-580",
+  "field": "w",
+  "old": "&Delta;EN = 3.5 &minus; 3.0 = <b>0.5, polar covalent</b>; O carries &delta;&minus;.",
+  "new": "&Delta;EN = 3.5 &minus; 3.0 = <b>0.5</b>. That is above 0.4 and below 2.0, so the bond is <b>polar covalent</b>, with &delta;&minus; on the more electronegative O.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-597",
+  "field": "w",
+  "old": "Ca<sup>2+</sup> + N<sup>3&minus;</sup> &rarr; Ca<sub>3</sub>N<sub>2</sub>; <b>3 Ca(s) + N<sub>2</sub>(g) &rarr; Ca<sub>3</sub>N<sub>2</sub>(s)</b>.",
+  "new": "Write the product from the ion charges: Ca<sup>2+</sup> and N<sup>3&minus;</sup> need 3 Ca for every 2 N, so it is Ca<sub>3</sub>N<sub>2</sub>. Then balance: 3 Ca on the left, and one N<sub>2</sub> supplies the 2 N. <b>3 Ca(s) + N<sub>2</sub>(g) &rarr; Ca<sub>3</sub>N<sub>2</sub>(s)</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-603",
+  "field": "w",
+  "old": "<b>Ca(NO<sub>3</sub>)<sub>2</sub>(s) &rarr; Ca<sup>2+</sup>(aq) + 2 NO<sub>3</sub><sup>&minus;</sup>(aq)</b>",
+  "new": "When an ionic compound dissolves, it separates into its ions, and polyatomic ions stay whole. The subscript 2 outside the parentheses means two nitrate ions: <b>Ca(NO<sub>3</sub>)<sub>2</sub>(s) &rarr; Ca<sup>2+</sup>(aq) + 2 NO<sub>3</sub><sup>&minus;</sup>(aq)</b>. The charges balance: +2 and 2(&minus;1).",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-604",
+  "field": "x[2]",
+  "old": "Nitrates are always soluble.",
+  "new": "Nitrates are always soluble, with no exceptions, so Ba(NO<sub>3</sub>)<sub>2</sub> dissolves and would release toxic Ba<sup>2+</sup>.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-613",
+  "field": "w",
+  "old": "<b>(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>(aq) + 2 KOH(aq) &rarr; K<sub>2</sub>SO<sub>4</sub>(aq) + 2 H<sub>2</sub>O(l) + 2 NH<sub>3</sub>(g)</b>",
+  "new": "Swap partners: K<sup>+</sup> pairs with SO<sub>4</sub><sup>2&minus;</sup>, and NH<sub>4</sub><sup>+</sup> pairs with OH<sup>&minus;</sup>. NH<sub>4</sub>OH is unstable and is written as NH<sub>3</sub>(g) + H<sub>2</sub>O(l), which is the nitrogen lost as gas. Two NH<sub>4</sub><sup>+</sup> need 2 KOH, giving <b>2 H<sub>2</sub>O and 2 NH<sub>3</sub></b>; K<sub>2</sub>SO<sub>4</sub> is soluble.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-614",
+  "field": "w",
+  "old": "<b>FeS(s) + 2 HCl(aq) &rarr; FeCl<sub>2</sub>(aq) + H<sub>2</sub>S(g)</b>",
+  "new": "This is a double displacement: Fe<sup>2+</sup> pairs with Cl<sup>&minus;</sup> (FeCl<sub>2</sub>, soluble) and H<sup>+</sup> pairs with S<sup>2&minus;</sup> (H<sub>2</sub>S, the rotten-egg gas). Two Cl are needed, so use 2 HCl: <b>FeS(s) + 2 HCl(aq) &rarr; FeCl<sub>2</sub>(aq) + H<sub>2</sub>S(g)</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-622",
+  "field": "w",
+  "old": "Fe is above Cu: <b>Fe(s) + CuSO<sub>4</sub>(aq) &rarr; FeSO<sub>4</sub>(aq) + Cu(s)</b>.",
+  "new": "A free metal replaces a metal below it in the activity series. Fe is above Cu, so iron gives up electrons to Cu<sup>2+</sup>: <b>Fe(s) + CuSO<sub>4</sub>(aq) &rarr; FeSO<sub>4</sub>(aq) + Cu(s)</b>. That is why the spray corrodes iron tanks.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-624",
+  "field": "w",
+  "old": "<b>2 Al(s) + 6 HCl(aq) &rarr; 2 AlCl<sub>3</sub>(aq) + 3 H<sub>2</sub>(g)</b>",
+  "new": "Al is above H<sub>2</sub>, so it reacts with acid to make a salt and hydrogen gas. Al<sup>3+</sup> needs 3 Cl<sup>&minus;</sup> (AlCl<sub>3</sub>), and H<sub>2</sub> is diatomic. Balancing with the smallest whole numbers gives <b>2 Al + 6 HCl &rarr; 2 AlCl<sub>3</sub> + 3 H<sub>2</sub></b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-645",
+  "field": "x[1]",
+  "old": "This divides theoretical by actual.",
+  "new": "This divides theoretical by actual (1.990 g &divide; 1.79 g). Percent yield is actual &divide; theoretical &times; 100%, so it cannot be over 100% here.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-646",
+  "field": "x[2]",
+  "old": "This divides theoretical by actual.",
+  "new": "This divides theoretical by actual (3.600 g &divide; 2.95 g). Percent yield is actual &divide; theoretical &times; 100%.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-649",
+  "field": "w",
+  "old": "Theoretical 32.73 g &times; 0.820 = <b>26.8 g C<sub>2</sub>H<sub>5</sub>OH</b>.",
+  "new": "Theoretical yield: 64.0 g &divide; 180.156 g/mol = 0.3553 mol glucose &times; 2 = 0.7105 mol ethanol &times; 46.069 g/mol = 32.73 g. Only 82.0% is collected: 32.73 g &times; 0.820 = <b>26.8 g C<sub>2</sub>H<sub>5</sub>OH</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-651",
+  "field": "w",
+  "old": "Reverse reaction: <b>&Delta;H = &minus;178 kJ</b> (exothermic).",
+  "new": "Reversing a reaction reverses the energy change: if making CaO and CO<sub>2</sub> absorbs 178 kJ, putting them back together releases 178 kJ. So <b>&Delta;H = &minus;178 kJ</b> (exothermic). The size stays the same because the amounts are the same.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-652",
+  "field": "w",
+  "old": "2 &times; (&minus;571.6 kJ) = <b>&minus;1143.2 kJ</b>.",
+  "new": "&Delta;H belongs to the amounts written. Every coefficient is doubled, so twice as much reacts and twice as much heat is released: 2 &times; (&minus;571.6 kJ) = <b>&minus;1143.2 kJ</b>. The sign stays negative because the direction did not change.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-657",
+  "field": "w",
+  "old": "The <b>chemical potential energy becomes heat</b>; total energy is conserved.",
+  "new": "Energy is never created or destroyed; it only changes form. The iron and oxygen store <b>chemical potential energy</b>, and the reaction turns it into heat, so the total energy stays the same.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-671",
+  "field": "w",
+  "old": "q = (42.5 g &divide; 18.015 g/mol)(6.02 kJ/mol) = <b>+14.2 kJ</b>.",
+  "new": "&Delta;H<sub>fus</sub> is per mole, so change grams to moles first: 42.5 g &divide; 18.015 g/mol = 2.359 mol. Then q = 2.359 mol &times; 6.02 kJ/mol = <b>+14.2 kJ</b>. It is positive because melting absorbs heat.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-676",
+  "field": "w",
+  "old": "Bigger electron cloud, more polarizable: <b>stronger dispersion forces in Xe</b>.",
+  "new": "Both are nonpolar atoms, so dispersion forces are the only attractions. Xe has many more electrons in a larger cloud that distorts easily (more polarizable), so it makes <b>stronger dispersion forces</b> and needs more energy to boil.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-680",
+  "field": "w",
+  "old": "<b>H on one water molecule &middot;&middot;&middot; O of another</b>.",
+  "new": "A hydrogen bond is an attraction <i>between</i> molecules: an H bonded to N, O, or F on one molecule is pulled toward a lone pair on N, O, or F of another. In water that is <b>the H of one molecule and the O of a neighbor</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-681",
+  "field": "w",
+  "old": "<b>Water</b>: hydrogen bonding gives the strongest pull at the surface.",
+  "new": "Surface tension comes from molecules at the surface being pulled inward by their neighbors. <b>Water</b> has hydrogen bonds, stronger than the dipole&ndash;dipole forces in acetone and dichloromethane or the dispersion forces in pentane, so its surface pull is strongest.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-682",
+  "field": "w",
+  "old": "Two O&ndash;H groups per molecule, <b>more hydrogen bonds</b>, higher viscosity.",
+  "new": "Viscosity is resistance to flow, and stronger attractions make a liquid flow more slowly. Ethylene glycol has <b>two O&ndash;H groups</b> per molecule and ethanol has one, so ethylene glycol forms more hydrogen bonds and holds its neighbors more tightly.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-683",
+  "field": "w",
+  "old": "<b>Adhesion &gt; cohesion</b>, so the blood climbs the tube (capillary action).",
+  "new": "Blood is mostly water, which is attracted to the polar glass surface. When <b>adhesion (to the glass) is stronger than cohesion</b> (to itself), the liquid creeps up the walls and climbs the narrow tube. This is capillary action.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-684",
+  "field": "w",
+  "old": "<b>Covalent network</b>, like diamond and quartz: covalent bonds throughout.",
+  "new": "In a <b>covalent network</b> solid, every atom is joined to its neighbors by covalent bonds throughout the crystal, like diamond and quartz. Melting would mean breaking those strong bonds, so SiC is extremely hard and melts very high.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-689",
+  "field": "w",
+  "old": "<b>Sublimation</b> (endothermic) removes the ice and leaves a dry product.",
+  "new": "At very low pressure, ice goes straight from solid to gas without melting. That is <b>sublimation</b>, and like melting and boiling it absorbs heat. The water leaves as vapor, and the vaccine is left dry.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-698",
+  "field": "w",
+  "old": "Same force, smaller area: <b>greater pressure</b> (P = F/A).",
+  "new": "Pressure is force per area, P = F/A. The person’s weight (the force) is the same in both shoes, but the narrow heels push on a much smaller area, so the <b>pressure is greater</b> and the heels sink in.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-701",
+  "field": "w",
+  "old": "41.5 mmHg &times; (101.325 kPa / 760 mmHg) = <b>5.53 kPa</b>.",
+  "new": "Use 760 mmHg = 101.325 kPa as a conversion factor, with mmHg on the bottom: 41.5 mmHg &times; (101.325 kPa / 760 mmHg) = <b>5.53 kPa</b>. A kPa is bigger than a mmHg, so the number gets smaller.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-702",
+  "field": "w",
+  "old": "Charles's law, direct: lower temperature, <b>smaller volume</b>.",
+  "new": "At constant pressure and amount, volume is directly proportional to Kelvin temperature (Charles’s law). Cooling the air in the freezer slows the particles, so they push out less and the <b>volume decreases</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-712",
+  "field": "x[2]",
+  "old": "This uses the Celsius temperature.",
+  "new": "This uses the Celsius temperature, 37.0, in V = nRT/P. Gas laws need Kelvin: add 273.15.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-718",
+  "field": "w",
+  "old": "758 &minus; 47.1 = 711 mmHg; 0.285 &times; 711 = <b>203 mmHg</b>.",
+  "new": "Water vapor takes up part of the total pressure, so subtract it first: 758 mmHg &minus; 47.1 mmHg = 711 mmHg of dry gases. Oxygen’s share is its mole fraction: 0.285 &times; 711 mmHg = <b>203 mmHg</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-720",
+  "field": "w",
+  "old": "Polar water and nonpolar hexane do not mix: <b>water and hexane</b>.",
+  "new": "Like dissolves like. Water is polar and hydrogen bonds; hexane is a nonpolar hydrocarbon with dispersion forces only. Water molecules stick to each other and push the hexane out, so <b>water and hexane</b> form two layers.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-722",
+  "field": "w",
+  "old": "Saturated: <b>the crystal stays undissolved</b>.",
+  "new": "A saturated solution already holds the most sugar it can at that temperature. Sugar still dissolves and crystallizes at equal rates, so <b>the crystal stays undissolved</b> and the amount in solution does not change.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-723",
+  "field": "w",
+  "old": "Mostly nonpolar, so <b>it dissolves in fat</b> (a fat-soluble vitamin).",
+  "new": "One O&ndash;H on a large carbon-and-hydrogen frame leaves the molecule mostly nonpolar. Like dissolves like, so vitamin D <b>dissolves in fat</b>, which is also nonpolar. That is why it is called a fat-soluble vitamin and is stored in fat tissue.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-727",
+  "field": "w",
+  "old": "Pressure matters only for gases: <b>NaCl's solubility hardly changes</b>.",
+  "new": "Henry’s law says pressure pushes more <i>gas</i> into a liquid. Liquids and solids barely compress, so pressure does almost nothing to a solid’s solubility: <b>NaCl’s solubility hardly changes</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-728",
+  "field": "w",
+  "old": "0.845 mg / 1.25 L = 0.676 mg/L = <b>0.676 ppm</b>.",
+  "new": "In dilute water, 1 ppm &asymp; 1 mg of solute per liter. Divide the mass by the volume: 0.845 mg &divide; 1.25 L = 0.676 mg/L = <b>0.676 ppm</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-729",
+  "field": "w",
+  "old": "0.00865 mg/L &times; 1000 &mu;g/mg = 8.65 &mu;g/L = <b>8.65 ppb</b>.",
+  "new": "In dilute water, 1 ppb &asymp; 1 &mu;g per liter. Convert mg to &mu;g (1 mg = 1000 &mu;g): 0.00865 mg/L &times; 1000 &mu;g/mg = 8.65 &mu;g/L = <b>8.65 ppb</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-734",
+  "field": "w",
+  "old": "4.2 &times; 10<sup>6</sup> &divide; 100 = <b>4.2 &times; 10<sup>4</sup> bacteria/mL</b>.",
+  "new": "Each step puts 0.50 mL into a total of 0.50 + 4.5 = 5.0 mL, a 1-to-10 dilution. Two steps multiply: 10 &times; 10 = 100. So 4.2 &times; 10<sup>6</sup> &divide; 100 = <b>4.2 &times; 10<sup>4</sup> bacteria/mL</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-735",
+  "field": "w",
+  "old": "<b>Moles of solute</b> are unchanged by dilution.",
+  "new": "Diluting adds only solvent. The solute particles already there are just spread through more volume, so the <b>moles of solute</b> stay the same while the molarity falls. That is why M<sub>1</sub>V<sub>1</sub> = M<sub>2</sub>V<sub>2</sub>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-736",
+  "field": "w",
+  "old": "(0.0056 mol/L)(0.00500 L) = <b>2.8 &times; 10<sup>&minus;5</sup> mol</b>.",
+  "new": "Moles = molarity &times; liters, so convert both: 5.6 mM = 0.0056 mol/L, and 5.00 mL = 0.00500 L. Then (0.0056 mol/L)(0.00500 L) = <b>2.8 &times; 10<sup>&minus;5</sup> mol</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-738",
+  "field": "w",
+  "old": "0.003010 mol &times; 100.09 g/mol = <b>0.301 g</b>.",
+  "new": "Moles of CaCl<sub>2</sub>: 0.0350 L &times; 0.0860 mol/L = 0.003010 mol. The ratio is 1 : 1, so 0.003010 mol CaCO<sub>3</sub> forms. Then 0.003010 mol &times; 100.09 g/mol = <b>0.301 g</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-739",
+  "field": "w",
+  "old": "0.003810 mol NaOH / 0.02733 L = <b>0.1394 M</b>.",
+  "new": "Moles of acid: 0.1715 g &divide; 90.034 g/mol = 0.001905 mol. Each acid uses 2 NaOH: 0.001905 &times; 2 = 0.003810 mol NaOH. Molarity = 0.003810 mol &divide; 0.02733 L = <b>0.1394 M</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-740",
+  "field": "w",
+  "old": "0.3958 g / 0.4250 g &times; 100% = <b>93.13%</b>.",
+  "new": "Moles of NaOH: 0.01854 L &times; 0.1185 mol/L = 0.002197 mol, which equals the moles of aspirin (1 : 1). Mass of aspirin: 0.002197 mol &times; 180.159 g/mol = 0.3958 g. Percent: 0.3958 g &divide; 0.4250 g &times; 100% = <b>93.13%</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-741",
+  "field": "w",
+  "old": "0.01219 mol HCl &divide; 0.105 M = <b>116 mL</b>.",
+  "new": "Moles of CaCO<sub>3</sub>: 0.610 g &divide; 100.09 g/mol = 0.006095 mol. Each one neutralizes 2 HCl: 0.01219 mol HCl. Volume: 0.01219 mol &divide; 0.105 mol/L = 0.116 L = <b>116 mL</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-743",
+  "field": "w",
+  "old": "<b>Na<sub>2</sub>SO<sub>4</sub></b> gives 2 Na<sup>+</sup> + 1 SO<sub>4</sub><sup>2&minus;</sup> = 3 particles.",
+  "new": "The van ’t Hoff factor i is the number of particles one formula unit gives in water. <b>Na<sub>2</sub>SO<sub>4</sub></b> &rarr; 2 Na<sup>+</sup> + SO<sub>4</sub><sup>2&minus;</sup>, which is 3 particles; the sulfate ion stays in one piece.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-744",
+  "field": "w",
+  "old": "&Delta;T<sub>f</sub> = 1.58 °C; T<sub>f</sub> = <b>&minus;1.58 °C</b>.",
+  "new": "KBr gives 2 ions, so i = 2. &Delta;T<sub>f</sub> = iK<sub>f</sub>m = 2 &times; 1.86 °C/m &times; 0.425 m = 1.58 °C. Dissolved particles lower the freezing point: 0.00 °C &minus; 1.58 °C = <b>&minus;1.58 °C</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-745",
+  "field": "w",
+  "old": "Water moves toward the more concentrated side: <b>from A to B</b>.",
+  "new": "In osmosis, water crosses the membrane toward the side with more dissolved particles, diluting it. Side B (10%) is more concentrated, so water flows <b>from A to B</b>. Glucose cannot cross.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-746",
+  "field": "w",
+  "old": "0.9% NaCl is <b>isotonic</b>: no net water flow.",
+  "new": "Normal saline, 0.9% NaCl, has the same particle concentration as the inside of red blood cells. That makes it <b>isotonic</b>: water moves in and out at equal rates, so there is no net flow and the cells keep their shape.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-747",
+  "field": "w",
+  "old": "m = 0.122 m; 3 &times; 0.122 = <b>366 mOsm/kg</b>.",
+  "new": "Molality: 1.45 g &divide; 95.21 g/mol = 0.01523 mol; 0.01523 mol &divide; 0.1250 kg = 0.1218 m. MgCl<sub>2</sub> gives 3 ions (Mg<sup>2+</sup> + 2 Cl<sup>&minus;</sup>): 3 &times; 0.1218 = 0.366 Osm/kg = <b>366 mOsm/kg</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-752",
+  "field": "w",
+  "old": "Spectators Li<sup>+</sup> and Br<sup>&minus;</sup> drop out: <b>H<sup>+</sup>(aq) + OH<sup>&minus;</sup>(aq) &rarr; H<sub>2</sub>O(l)</b>.",
+  "new": "HBr, LiOH, and LiBr are all strong electrolytes, so write them as ions. Li<sup>+</sup> and Br<sup>&minus;</sup> appear on both sides unchanged (spectators) and cancel. What is left is <b>H<sup>+</sup>(aq) + OH<sup>&minus;</sup>(aq) &rarr; H<sub>2</sub>O(l)</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-753",
+  "field": "w",
+  "old": "HCl ionizes into <b>H<sub>3</sub>O<sup>+</sup> and Cl<sup>&minus;</sup> ions</b>, which carry charge.",
+  "new": "A solution conducts only if it has moving charged particles. Pure water has very few ions. HCl is a strong acid, so it ionizes completely into <b>H<sub>3</sub>O<sup>+</sup> and Cl<sup>&minus;</sup> ions</b>, and these carry the current.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-754",
+  "field": "w",
+  "old": "Mg(OH)<sub>2</sub>(s) + 2 HCl(aq) &rarr; MgCl<sub>2</sub>(aq) + 2 H<sub>2</sub>O(l): <b>2</b> waters.",
+  "new": "Each H<sup>+</sup> and OH<sup>&minus;</sup> pair makes one water. Mg(OH)<sub>2</sub> has two OH<sup>&minus;</sup>, so it reacts with 2 HCl: Mg(OH)<sub>2</sub>(s) + 2 HCl(aq) &rarr; MgCl<sub>2</sub>(aq) + 2 H<sub>2</sub>O(l). That is <b>2</b> waters.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-756",
+  "field": "w",
+  "old": "NH<sub>3</sub> becomes NH<sub>4</sub><sup>+</sup>: <b>NH<sub>3</sub></b> accepts the proton.",
+  "new": "A Br&oslash;nsted&ndash;Lowry base accepts a proton. Going left to right, NH<sub>3</sub> gains an H<sup>+</sup> and becomes NH<sub>4</sub><sup>+</sup>, so <b>NH<sub>3</sub></b> is the base. Acetic acid gives the proton away, so it is the acid.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-760",
+  "field": "w",
+  "old": "<b>HCO<sub>3</sub><sup>&minus;</sup></b> can donate or accept a proton.",
+  "new": "To act both ways, a species needs an H<sup>+</sup> to give and a lone pair to take one. <b>HCO<sub>3</sub><sup>&minus;</sup></b> can give its H<sup>+</sup> to become CO<sub>3</sub><sup>2&minus;</sup>, or take one to become H<sub>2</sub>CO<sub>3</sub>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-761",
+  "field": "w",
+  "old": "<b>HI</b> is on the strong-acid list; the others are weak.",
+  "new": "The strong acids are a short list to memorize: HCl, HBr, HI, HNO<sub>3</sub>, HClO<sub>4</sub>, and H<sub>2</sub>SO<sub>4</sub>. <b>HI</b> is on it, so it ionizes completely. Any acid not on the list is weak.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-763",
+  "field": "w",
+  "old": "Weak acid: <b>mostly intact molecules, a few ions</b>.",
+  "new": "Acetic acid is a weak acid, so only a small fraction of its molecules give H<sup>+</sup> to water. The solution holds <b>mostly intact molecules</b>, with a few H<sub>3</sub>O<sup>+</sup> and acetate ions made in equal numbers.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-766",
+  "field": "w",
+  "old": "2 HI(aq) + Ba(OH)<sub>2</sub>(aq) &rarr; BaI<sub>2</sub>(aq) + 2 H<sub>2</sub>O(l): <b>BaI<sub>2</sub></b>.",
+  "new": "Acid + base &rarr; salt + water. The salt is the base’s cation with the acid’s anion: Ba<sup>2+</sup> and I<sup>&minus;</sup>. Two I<sup>&minus;</sup> balance the 2+ charge: <b>BaI<sub>2</sub></b>. 2 HI(aq) + Ba(OH)<sub>2</sub>(aq) &rarr; BaI<sub>2</sub>(aq) + 2 H<sub>2</sub>O(l).",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-771",
+  "field": "w",
+  "old": "K<sub>w</sub> applies to <b>every water solution</b> at 25 °C.",
+  "new": "K<sub>w</sub> describes water’s own ionization, which goes on in any water solution. Adding acid raises [H<sub>3</sub>O<sup>+</sup>] and lowers [OH<sup>&minus;</sup>], but their product stays 1.0 &times; 10<sup>&minus;14</sup> at 25 °C. So it applies to <b>every water solution</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-772",
+  "field": "w",
+  "old": "[OH<sup>&minus;</sup>] = 0.0066 M; pOH = 2.18; pH = <b>11.82</b>.",
+  "new": "Each Ba(OH)<sub>2</sub> releases 2 OH<sup>&minus;</sup>: [OH<sup>&minus;</sup>] = 2 &times; 0.0033 M = 0.0066 M. pOH = &minus;log(0.0066) = 2.18, and pH = 14.00 &minus; 2.18 = <b>11.82</b> (two significant figures give two decimal places).",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-774",
+  "field": "w",
+  "old": "Least acidic (highest pH) to most acidic: <b>11.5, 8.3, 6.5, 2.5</b>.",
+  "new": "The lower the pH, the more acidic. Least acidic first means highest pH first: <b>11.5, 8.3, 6.5, 2.5</b>. (11.5 and 8.3 are basic, 6.5 is slightly acidic, and 2.5 is strongly acidic.)",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-778",
+  "field": "w",
+  "old": "<b>HF(aq) + OH<sup>&minus;</sup>(aq) &rarr; F<sup>&minus;</sup>(aq) + H<sub>2</sub>O(l)</b>.",
+  "new": "A buffer uses its acid partner to neutralize added base. HF gives its H<sup>+</sup> to the OH<sup>&minus;</sup>, making water and more F<sup>&minus;</sup>: <b>HF(aq) + OH<sup>&minus;</sup>(aq) &rarr; F<sup>&minus;</sup>(aq) + H<sub>2</sub>O(l)</b>. The strong base is used up, so the pH barely changes.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-781",
+  "field": "w",
+  "old": "An effective collision has <b>the right orientation and at least E<sub>a</sub></b>.",
+  "new": "A collision forms products only if it is effective. The particles must hit with <b>the right orientation</b>, so the bonds that change are lined up, and with <b>at least the activation energy</b>, enough to break the old bonds.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-782",
+  "field": "w",
+  "old": "&Delta;H = 23 kJ &minus; 88 kJ = <b>&minus;65 kJ, exothermic</b>.",
+  "new": "&Delta;H compares the end with the start: products &minus; reactants = 23 kJ &minus; 88 kJ = <b>&minus;65 kJ</b>. The products are lower in energy, so heat is released: the reaction is <b>exothermic</b>. The 142 kJ peak sets the activation energy, not &Delta;H.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-783",
+  "field": "w",
+  "old": "Higher concentration &rarr; <b>more collisions per second</b> &rarr; faster stain removal.",
+  "new": "Reactions happen when particles collide. Full-strength bleach has <b>more hypochlorite ions per milliliter</b>, so they hit the stain more often each second and the stain is removed faster. Diluting lowers the concentration and the collision rate.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-785",
+  "field": "w",
+  "old": "Lower E<sub>a</sub> (24 kJ) &rarr; <b>reaction A is faster</b>.",
+  "new": "At the same temperature, both reactions have the same spread of collision energies. A lower hill (24 kJ) is cleared by a much larger fraction of collisions than a higher one (96 kJ), so <b>reaction A is faster</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-786",
+  "field": "w",
+  "old": "One 10 °C step cooler &rarr; <b>about half as fast</b>.",
+  "new": "By the rule of thumb, each 10 °C change doubles or halves the rate. Cooling from 37 °C to 27 °C is one 10 °C step down, so the reactions run <b>about half as fast</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-788",
+  "field": "w",
+  "old": "<b>Forward falls, reverse rises, until they are equal.</b>",
+  "new": "At the start there is only H<sub>2</sub> and Br<sub>2</sub>, so the forward rate is high and the reverse rate is zero. As reactants are used up and HBr builds, <b>the forward rate falls and the reverse rate rises</b> until they are equal: equilibrium.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-790",
+  "field": "w",
+  "old": "The gas escapes: <b>equilibrium needs a closed system</b>.",
+  "new": "An equilibrium needs both directions to keep running. In an open glass, CO<sub>2</sub> gas drifts away and cannot dissolve back, so the reverse process stops and the soda goes flat. <b>Equilibrium needs a closed system</b>, like a sealed bottle.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-792",
+  "field": "w",
+  "old": "<b>Equal rates</b>; this reaction just favors products.",
+  "new": "At equilibrium the forward and reverse rates are <b>equal</b>, so the amounts stop changing. Equal rates do not mean equal amounts: this reaction simply settles at a mixture that is mostly product (a large K).",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-799",
+  "field": "w",
+  "old": "CO<sub>2</sub> is removed: <b>shifts right</b>, toward it, making more H<sub>2</sub>.",
+  "new": "Le Ch&acirc;telier: when a substance is removed, the system shifts toward it to make more. Taking CO<sub>2</sub> out <b>shifts the equilibrium right</b>, which also makes more H<sub>2</sub>, the product the plant wants.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-800",
+  "field": "w",
+  "old": "Add &rarr; away: shift left, so <b>[O<sub>2</sub>] increases</b>.",
+  "new": "Adding NO<sub>2</sub>, a product, shifts the system left, away from it. The left shift turns some NO<sub>2</sub> back into NO and O<sub>2</sub>, so <b>[O<sub>2</sub>] increases</b>. K does not change, because the temperature is the same.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-803",
+  "field": "w",
+  "old": "Remove CO<sub>2</sub> &rarr; <b>shifts left, less H<sup>+</sup>, pH rises</b>.",
+  "new": "Fast breathing removes CO<sub>2</sub>, so the equilibrium shifts left, toward CO<sub>2</sub>, to replace it. H<sup>+</sup> is used up in the shift, so <b>[H<sup>+</sup>] falls and the blood pH rises</b> (respiratory alkalosis).",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-804",
+  "field": "w",
+  "old": "Removing a product shifts right: <b>acid removing OH<sup>&minus;</sup></b>.",
+  "new": "Dissolving is the forward direction, so anything that removes a product pulls the system right. Acid from plaque bacteria reacts with OH<sup>&minus;</sup> (H<sup>+</sup> + OH<sup>&minus;</sup> &rarr; H<sub>2</sub>O), <b>removing OH<sup>&minus;</sup></b>, so more enamel dissolves.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-806",
+  "field": "w",
+  "old": "<sup>90</sup><sub>38</sub>Sr: Z = 38 protons; 90 &minus; 38 = <b>52 neutrons</b>.",
+  "new": "The atomic number of Sr on the periodic table is 38, so it has 38 protons. The mass number, 90, counts protons and neutrons together: 90 &minus; 38 = <b>52 neutrons</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-815",
+  "field": "w",
+  "old": "Outside the body: <b>gamma rays</b>, the most penetrating.",
+  "new": "From outside, radiation must get through the skin to do harm. Alpha particles are stopped by skin, and beta particles by a lab coat. <b>Gamma rays</b> are the most penetrating, so they reach internal organs and need distance and shielding.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-816",
+  "field": "x[3]",
+  "old": "Temperature does not change half-life.",
+  "new": "Half-life does not change with temperature or any other outside condition; nuclear decay ignores heat.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-819",
+  "field": "w",
+  "old": "<b><sup>14</sup><sub>7</sub>N + <sup>1</sup><sub>0</sub>n &rarr; <sup>14</sup><sub>6</sub>C + <sup>1</sup><sub>1</sub>H</b>, driven by cosmic-ray neutrons.",
+  "new": "Cosmic rays make fast neutrons in the upper air, and air is mostly nitrogen. A neutron knocks a proton out of a nitrogen-14 nucleus: <b><sup>14</sup><sub>7</sub>N + <sup>1</sup><sub>0</sub>n &rarr; <sup>14</sup><sub>6</sub>C + <sup>1</sup><sub>1</sub>H</b>. Mass numbers (15) and charges (7) balance.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-820",
+  "field": "w",
+  "old": "Carbon-14 decays and is not replaced: the ratio <b>decreases</b>.",
+  "new": "While alive, an animal eats carbon and keeps the same carbon-14 ratio as the air. After death no new carbon comes in, and carbon-14 keeps decaying while carbon-12 does not, so the ratio <b>decreases</b>, halving every 5730 years.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-821",
+  "field": "w",
+  "old": "n = 2: age = 2 &times; 5730 = <b>1.15 &times; 10<sup>4</sup> years</b>.",
+  "new": "Find the number of halvings: 13.6 &rarr; 6.80 &rarr; 3.40 is two halvings (3.40/13.6 = 1/4 = (1/2)<sup>2</sup>), so n = 2. Age = 2 &times; 5730 years = 11,460 years = <b>1.15 &times; 10<sup>4</sup> years</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-822",
+  "field": "w",
+  "old": "Only once-living material can be dated: <b>the charcoal</b>.",
+  "new": "Carbon-14 dating works only on material that was once alive, because a living thing takes in carbon-14 and the clock starts when it dies. Charcoal is burned wood, so <b>the charcoal</b> can be dated; iron-oxide ochre is a mineral with no carbon.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-823",
+  "field": "w",
+  "old": "About 35 half-lives: <b>too little carbon-14 remains to measure</b>.",
+  "new": "200,000 years is about 35 half-lives of carbon-14 (200,000 &divide; 5730). After that many halvings, less than a billionth of the carbon-14 remains, far <b>too little to measure</b>. That is why the method stops near 50,000 years.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-824",
+  "field": "w",
+  "old": "Volcanic rock, millions of years: <b>potassium-40</b>.",
+  "new": "A dating isotope needs a half-life long enough that a measurable amount has decayed, but not all of it, over the age being measured. For 2 million-year-old volcanic rock, <b>potassium-40</b> fits: its 1.25 &times; 10<sup>9</sup>-year half-life covers millions of years, and rocks contain potassium.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-826",
+  "field": "w",
+  "old": "<b>Each fission releases more neutrons than it uses</b>.",
+  "new": "A neutron splits a uranium-235 nucleus, and each fission releases <b>2 or 3 new neutrons</b>. Each of those can split another nucleus, so the number of fissions can keep growing: a chain reaction.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-828",
+  "field": "w",
+  "old": "Control rods: <b>boron or cadmium, neutron absorbers</b>.",
+  "new": "The chain reaction is driven by neutrons, so it is controlled by removing neutrons. Control rods are made of <b>boron or cadmium</b>, which absorb neutrons. Lowering the rods slows the reaction, and raising them speeds it up.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-829",
+  "field": "w",
+  "old": "<b>Fusion releases even more energy per gram</b>.",
+  "new": "Fusing very light nuclei, such as hydrogen into helium, converts a larger fraction of mass into energy than splitting heavy nuclei. So <b>fusion releases even more energy per gram</b> of fuel than fission; it powers the Sun.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-830",
+  "field": "w",
+  "old": "<b>Ionized water makes free radicals that break DNA</b>.",
+  "new": "A cell is mostly water, so most radiation hits water molecules. It ionizes them, making reactive <b>free radicals such as &middot;OH</b>, which attack and break bonds in nearby DNA.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-831",
+  "field": "w",
+  "old": "<b>Cancer cells divide rapidly</b>, so radiation damage hits them hardest.",
+  "new": "Radiation damages DNA in all cells it hits. <b>Cancer cells divide rapidly</b>, so they often copy damaged DNA before they can repair it, and they die. Healthy cells that divide slowly have more time to repair the damage.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-832",
+  "field": "w",
+  "old": "<b>The lungs</b>: alpha particles are delivered right to lung cells.",
+  "new": "Radon is a gas, so it is breathed in. It and its decay products give off alpha particles right next to the cells lining <b>the lungs</b>. Alpha particles travel only a short way but are the most ionizing, so the damage is concentrated there.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-832",
+  "field": "x[3]",
+  "old": "Radon-222 is an alpha emitter.",
+  "new": "Radon-222 gives off alpha particles, not mainly gamma rays, and alpha damage stays very close to the source.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-833",
+  "field": "w",
+  "old": "48 &times; (1.0/4.0)<sup>2</sup> = 48 &divide; 16 = <b>3.0 &mu;Sv/h</b>.",
+  "new": "Dose rate falls with the square of the distance. Moving from 1.0 m to 4.0 m is 4 times farther, so the rate drops by 4<sup>2</sup> = 16: 48 &mu;Sv/h &divide; 16 = <b>3.0 &mu;Sv/h</b>.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-834",
+  "field": "w",
+  "old": "<b>ALARA</b>, using time, distance, and shielding.",
+  "new": "The principle is <b>ALARA</b>: keep doses as low as reasonably achievable. She uses all three tools: less time near the source, more distance from it, and shielding between her and it.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-837",
+  "field": "w",
+  "old": "<b>Radon</b> is the largest natural source of background radiation.",
+  "new": "Uranium in rocks and soil decays to <b>radon gas</b>, which seeps into homes and collects indoors. Breathing it gives most people a larger dose than cosmic rays, food, or nuclear power plants, so it is the largest natural source.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-838",
+  "field": "w",
+  "old": "<b>Bone marrow</b>: its rapidly dividing cells are the most sensitive.",
+  "new": "Radiation does the most harm to cells that divide rapidly, because they copy damaged DNA before it is repaired. <b>Bone marrow</b> makes new blood cells all the time, so it is the most sensitive; nerve and muscle cells rarely divide.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-634",
+  "field": "x[2]",
+  "old": "This stops at moles of CO<sub>2</sub>.",
+  "new": "This stops at moles of CO<sub>2</sub>, but the question asks for a volume. One more step: moles &times; (22.4 L / 1 mol) at STP.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-635",
+  "field": "x[3]",
+  "old": "This stops at moles of CO<sub>2</sub>.",
+  "new": "This stops at moles of CO<sub>2</sub>, but the question asks for a volume. One more step: moles &times; (24.5 L / 1 mol) at these conditions.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-653",
+  "field": "x[1]",
+  "old": "This stops at moles of methane.",
+  "new": "This stops at moles of methane, but the question asks for a mass. One more step: multiply by the molar mass, 16.043 g/mol.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-715",
+  "field": "x[1]",
+  "old": "This uses 20.95 without dividing by 100.",
+  "new": "This uses 20.95 (the percent) as if it were the mole fraction. Divide the percent by 100 first: 0.2095.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-818",
+  "field": "w",
+  "old": "Fluorine-18's <b>110 min half-life</b> is short.",
+  "new": "Fluorine-18 has a short half-life, <b>110 min</b>. Every 110 min half of it decays, so after about 3.7 hours (2 half-lives) only 1/4 is left, too little for a good scan.",
+  "why": "explanation strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-818",
+  "field": "x[1]",
+  "old": "Activity only falls as the nuclei decay.",
+  "new": "A radioactive sample’s activity only falls as its nuclei decay; it never builds up on its own.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ },
+ {
+  "id": "3A-818",
+  "field": "x[2]",
+  "old": "Half-life is constant for each isotope.",
+  "new": "Half-life is constant for each isotope; it does not change as the sample ages, so each 110 min still removes half.",
+  "why": "wrong-answer reason strengthened (CHEM 3A textbook import)"
+ }
+]
