@@ -464,3 +464,45 @@ Release criteria (prompt Part 13), applied:
 | CHEM 28A | **Ready for practice** | Nonblocking: I/II/III key skew; one charge-mark style inconsistency (28A-759) |
 | CHEM 28B | **Ready for practice** | Nonblocking: I/II/III key skew |
 | All | **Not ready for any claim of ACS equivalence, percentiles or validity evidence** | No person-level response data exists; discrimination and reliability are unmeasured |
+
+---
+
+## 15. Follow-up (v63, same day): your five decisions and the nuclide fix
+
+1. **Wrong choices fail by size, not by unit.** As you said, real exams keep units consistent, so each "stopped at moles" choice in the 8 CHEM 3A items now has the asked-for unit and a number from a real mistake. Where possible, the mistake gives an impossible size:
+   - 3A-628: 150. g of ethanol from 75.0 g of glucose.
+   - 3A-653: 5.78 × 10⁵ g of methane, more than half a tonne.
+   - 3A-421: 0.0870 g/mL, where a size check gives about 1.
+   - Also 3A-563, 626, 634, 635 and 740.
+
+   1A-50 (g O₂ vs g Mg) was kept, because there the label is the chemistry being tested.
+2. **I/II/III keys are no longer predictable.**
+   - **How:** 20 items in 1B, 28A and 28B had their statements renumbered, with every reference in the choices, feedback and explanation remapped to match. The chemistry is unchanged. Items with oxidation states, iodine or captioned drawings were left alone.
+   - **28A:** "I and III only" went from 27 to 19 of 87 keys, and the three pair answers are now 19/18/18.
+   - **3A, 3B and 1A** were already even.
+   - **Remaining pattern:** two-statement answers are still the most common key type in 28A/28B (about 55%), because changing that needs new statements, not renumbering.
+   - **Script:** `tools/audit-2026-11-18-acs/rebalance_roman.js`.
+3. **Thin 3B aromatic pool:** 25 new CHEM 3B aromatic questions (3B-1136 to 1160).
+   - **How they were made:** one reviewer wrote 30 and checked every structure with RDKit. A second, blind reviewer then caught three kinds of problems:
+     - Most drawings used lowercase aromatic SMILES, which the game draws as saturated rings with "c" labels. All were converted to Kekulé form.
+     - Six answer leaks, now fixed.
+     - Five near-duplicates of existing items, which were dropped.
+   - **Two more fixes:** shaking benzene in a test tube became toluene (a safer practice), and the layer answer was corrected.
+   - **One drawing check:** the resonance item's two Kekulé forms were redrawn explicitly, because the game redraws both rings with the same bond pattern.
+   - **Rendering:** all 25 render at phone width with no overflow, and each shows feedback on a wrong pick.
+   - **Pool size:** it goes from 31 to 56, so a student can take about 8 midterms before aromatic questions repeat.
+4. **Faraday constant** is now printed on the 1A/1B data sheet (F = 96,485 C·mol⁻¹).
+5. **More data.**
+   - **What's sent:** every answer now sends the seconds spent on it. Boss Battle answers also carry a random code for that one exam, which is all that's needed for item discrimination and approximate KR-20. A persistent device ID was *not* added, because the privacy page promises students a code that is "new every time you open a tab".
+   - **Files:** `games/track.js` and the privacy page are updated.
+   - **Analysis:** `tools/item_analysis.py` reports low-discrimination questions, approximate KR-20 and time per question once 30+ battles exist. It also now includes 28A/28B.
+   - **Still needed:** the receiver update (`tools/apps-script/item_stats_v2.gs`) must be pasted into the Apps Script project. Until then the new fields are sent but not stored.
+
+**Correction to section 9:** the tracker already sent an anonymous per-tab session code, and the Items sheet stores it. The new per-exam code is cleaner than the session code, because one tab can hold several battles plus practice.
+
+**Nuclide symbols (your report).**
+- **The fix:** 57 nuclide symbols in 17 questions, mostly the imported 3A items, showed the mass and atomic numbers side by side. They now use the game's stacked style, with the mass number directly above the atomic number and both flush against the symbol, the standard notation.
+- **Also caught:** one Unicode-typed nuclide (⁴₂He in 1B-503), and minus signs written as `&minus;`.
+- **Kept intact:** formula subscripts followed by isotope labels (C₃H₇³⁵Cl), which are not nuclides.
+- **Guard against repeats:** `tools/test_exam.js` now fails if a side-by-side nuclide is ever added again.
+- **Mass-only symbols:** nuclear equations written with mass numbers only (²³⁵U + ¹n → …, used in some 1B fission items) were left as they are. Adding the atomic numbers there is a content choice.

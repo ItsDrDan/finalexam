@@ -1,0 +1,841 @@
+[
+ {
+  "t": "aromatic",
+  "q": "Making many household detergents starts by heating an alkylbenzene with SO<sub>3</sub> in concentrated H<sub>2</sub>SO<sub>4</sub>. Which group replaces one ring H?",
+  "c": [
+   "–SO<sub>3</sub>H",
+   "–SH",
+   "–OH",
+   "–SO<sub>4</sub>H"
+  ],
+  "h": "This is sulfonation, one of the three benzene substitutions. Which part of the reagent ends up on the ring?",
+  "w": "SO<sub>3</sub> in H<sub>2</sub>SO<sub>4</sub> carries out <b>sulfonation</b>: one ring H is replaced by a sulfonic acid group, giving an arylsulfonic acid. Neutralizing it with NaOH gives the sodium sulfonate salt used as a detergent. The group on the ring is <b>–SO<sub>3</sub>H</b>.",
+  "x": [
+   "",
+   "A thiol group has sulfur but no oxygen. Sulfonation attaches a sulfur that still carries its oxygen atoms from SO<sub>3</sub>.",
+   "An –OH group on the ring would make a phenol. Sulfonation attaches a sulfur-containing group, not a plain hydroxyl.",
+   "This counts the oxygen atoms of H<sub>2</sub>SO<sub>4</sub>, but sulfuric acid is only the catalyst and solvent. The atoms of the new group come from the other reagent."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "t": "aromatic",
+  "q": "The sodium salt of the compound shown is a common food and soft-drink preservative. What is the compound's name?",
+  "c": [
+   "benzoic acid",
+   "benzaldehyde",
+   "phenol",
+   "benzyl alcohol"
+  ],
+  "h": "Identify the functional group on the ring, then use the common parent name for that group.",
+  "w": "A –COOH (carboxyl) group bonded directly to a benzene ring gives the parent name <b>benzoic acid</b>. Its sodium salt, sodium benzoate, is the preservative.",
+  "x": [
+   "",
+   "Benzaldehyde has a –CHO group: the carbonyl carbon carries an H, not an –OH.",
+   "Phenol has an –OH bonded directly to the ring, with no C=O group.",
+   "Benzyl alcohol is C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>OH: an –OH on a CH<sub>2</sub>, with no C=O group."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "OC(=O)C1=CC=CC=C1"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "Benzaldehyde gives almond extract its smell. Which structure is benzaldehyde?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "An aldehyde has a C=O at the end of a chain, with an H on the carbonyl carbon.",
+  "w": "Benzaldehyde is a benzene ring bonded to a –CHO group: the carbonyl carbon has the ring on one side and an H on the other. The drawing with <b>C<sub>6</sub>H<sub>5</sub>CHO</b> is benzaldehyde.",
+  "x": [
+   "",
+   "This has an –OH on the carbonyl carbon, which makes it a carboxylic acid (benzoic acid), not an aldehyde.",
+   "This has an –OH on a CH<sub>2</sub> and no C=O, so it is an alcohol (benzyl alcohol).",
+   "The carbonyl carbon here is bonded to the ring and to a CH<sub>3</sub>, so it is a ketone, not an aldehyde."
+  ],
+  "k": 0,
+  "d": 1,
+  "cs": [
+   {
+    "smi": "O=CC1=CC=CC=C1"
+   },
+   {
+    "smi": "OC(=O)C1=CC=CC=C1"
+   },
+   {
+    "smi": "OCC1=CC=CC=C1"
+   },
+   {
+    "smi": "CC(=O)C1=CC=CC=C1"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "The compound shown is made by gut bacteria and is one of the waste products the kidneys must clear. What is its IUPAC name?",
+  "c": [
+   "4-methylphenol",
+   "3-methylphenol",
+   "2-methylphenol",
+   "4-methyltoluene"
+  ],
+  "h": "With an –OH on the ring, phenol is the parent and the –OH carbon is C1. Count to the methyl.",
+  "w": "The –OH carbon is C1 of phenol. The –CH<sub>3</sub> is directly across the ring, on C4 (<i>para</i>), so the name is <b>4-methylphenol</b>.",
+  "x": [
+   "",
+   "3- would put one ring carbon between the –OH and –CH<sub>3</sub> (<i>meta</i>). Count again from the –OH carbon around the ring.",
+   "2- means the –CH<sub>3</sub> is on the carbon next to the –OH (<i>ortho</i>). In the drawing the two groups are not neighbors.",
+   "Toluene already has its own methyl, so this name describes a dimethylbenzene with no –OH. The –OH group sets the parent name."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC1=CC=C(O)C=C1"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "The compound shown is used as a disinfectant and as a preservative in some creams. What is its IUPAC name?",
+  "c": [
+   "4-chloro-3-methylphenol",
+   "4-chloro-5-methylphenol",
+   "3-chloro-4-methylphenol",
+   "4-chloro-3-methylcyclohexanol"
+  ],
+  "h": "Phenol is the parent, so the –OH carbon is C1. Number around the ring in the direction that gives the lower numbers.",
+  "w": "The –OH carbon is C1. Numbering toward the –CH<sub>3</sub> puts it on C3 and the Cl on C4 (locants 3,4); the other direction gives 4,5. Lower locants win, and substituents are listed alphabetically: <b>4-chloro-3-methylphenol</b>.",
+  "x": [
+   "",
+   "This numbers around the ring the long way. Going the other direction from the –OH carbon gives a lower set of numbers.",
+   "The numbers for the two groups are swapped. Number from the –OH carbon (C1) in the direction that reaches a substituent first, and check which group is on C3.",
+   "The ring is a benzene ring with three alternating double bonds, not a saturated cyclohexane, so -cyclohexanol is the wrong parent."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "OC1=CC=C(Cl)C(C)=C1"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "Rank acetic acid (CH<sub>3</sub>COOH), ethanol (CH<sub>3</sub>CH<sub>2</sub>OH) and phenol (C<sub>6</sub>H<sub>5</sub>OH) from <b>most</b> acidic to <b>least</b> acidic.",
+  "c": [
+   "acetic acid > phenol > ethanol",
+   "phenol > acetic acid > ethanol",
+   "acetic acid > ethanol > phenol",
+   "ethanol > phenol > acetic acid"
+  ],
+  "h": "Lower pK<sub>a</sub> means stronger acid. Recall the typical pK<sub>a</sub> of a carboxylic acid, a phenol and an alcohol.",
+  "w": "Approximate pK<sub>a</sub> values: acetic acid 4.8, phenol 10, ethanol 16 (lower pK<sub>a</sub> = stronger acid). Carboxylic acids are the strongest of the three, phenols are weak acids, and alcohols are barely acidic: <b>acetic acid > phenol > ethanol</b>.",
+  "x": [
+   "",
+   "Phenol is a weak acid, but a carboxylic acid is about 100,000 times stronger.",
+   "This ranks the alcohol above the phenol. A ring –OH is about a million times more acidic than an alcohol –OH.",
+   "This order is upside down. Compare pK<sub>a</sub> values: the lower the pK<sub>a</sub>, the stronger the acid."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "t": "aromatic",
+  "q": "Which statements comparing phenol (C<sub>6</sub>H<sub>5</sub>OH) with cyclohexanol (C<sub>6</sub>H<sub>11</sub>OH) are correct?<br>I. Phenol is the stronger acid.<br>II. Both react with aqueous NaOH to form a salt.<br>III. Both can hydrogen bond with water.",
+  "c": [
+   "I and III only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Check each statement. Which –OH is acidic enough to react with NaOH?",
+  "w": "I is true: phenol (pK<sub>a</sub> about 10) is much more acidic than an alcohol (pK<sub>a</sub> about 16–18). II is false: only phenol is acidic enough to be deprotonated by aqueous NaOH. III is true: any O–H group can hydrogen bond with water. Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement II fails for cyclohexanol: an alcohol is too weak an acid to be deprotonated by aqueous NaOH. Also recheck III: can any O–H group hydrogen bond with water?",
+   "This leaves out statement I and keeps statement II. An O–H on a benzene ring is far more acidic than one on a cyclohexane ring, and cyclohexanol does not react with aqueous NaOH.",
+   "Statement II is false. Only the phenol is acidic enough to form a salt with aqueous NaOH; cyclohexanol does not."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "t": "aromatic",
+  "q": "BHT, shown, is an antioxidant added to cereals and oils to keep fats from going rancid. To which compound class does BHT belong?",
+  "c": [
+   "a phenol",
+   "an alcohol",
+   "an ether",
+   "a ketone"
+  ],
+  "h": "Look at what the –OH group is bonded to.",
+  "w": "The –OH is bonded directly to a benzene ring carbon, so BHT (butylated hydroxytoluene) is <b>a phenol</b>. Phenols such as BHT and BHA are good antioxidants: the ring O–H gives up an H atom to stop the radical reactions that spoil fats.",
+  "x": [
+   "",
+   "An alcohol has its –OH on an sp<sup>3</sup> carbon of an alkyl group. Here the –OH carbon is part of the aromatic ring.",
+   "An ether has an O bonded to two carbons, C–O–C. The oxygen here carries an H, not a second carbon.",
+   "A ketone needs a C=O bonded to two carbons. BHT has no C=O at all; its oxygen is single-bonded."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC1=CC(C(C)(C)C)=C(O)C(C(C)(C)C)=C1"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "Acetaminophen (Tylenol), shown, is a common pain reliever. Which two functional groups does it contain besides the ring?",
+  "c": [
+   "phenol and amide",
+   "alcohol and amide",
+   "phenol and amine",
+   "phenol and ketone"
+  ],
+  "h": "Look at what each heteroatom is attached to. Is the N next to a C=O?",
+  "w": "The –OH is on a ring carbon (a <b>phenol</b>), and the N is bonded to a C=O carbon (an <b>amide</b>). So acetaminophen is a <b>phenol and amide</b>.",
+  "x": [
+   "",
+   "The –OH is attached directly to the aromatic ring, which makes it a phenol, not an alcohol.",
+   "The nitrogen is bonded to a C=O carbon. An N next to a carbonyl is not a plain amine.",
+   "The C=O carbon is bonded to N, not to two carbons, so it is not a ketone."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC(=O)NC1=CC=C(O)C=C1"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "In aspirin, shown, how are the two groups attached to the benzene ring arranged?",
+  "c": [
+   "ortho (1,2)",
+   "meta (1,3)",
+   "para (1,4)",
+   "geminal (1,1)"
+  ],
+  "h": "Find the two ring carbons that carry groups. Are they next to each other, one apart, or across the ring?",
+  "w": "The ester group and the –COOH group sit on neighboring ring carbons, 1 and 2, so they are <b>ortho (1,2)</b>. Aspirin is 2-acetoxybenzoic acid.",
+  "x": [
+   "",
+   "Meta has one ring carbon between the two groups. In aspirin the two ring carbons that carry groups are bonded to each other.",
+   "Para places the groups directly across the ring. In aspirin they are on neighboring carbons.",
+   "Geminal means two groups on the same carbon. Each of aspirin's groups is on its own ring carbon."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CC(=O)OC1=CC=CC=C1C(=O)O"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "Polycyclic aromatic hydrocarbons (PAHs) form when fuel, tobacco or meat is charred. Which compound shown is a PAH?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "A PAH needs three things: fused rings, aromatic rings, and only C and H.",
+  "w": "A PAH is made of benzene rings fused together (sharing sides) and contains only carbon and hydrogen. The drawing with three fused aromatic rings and no other elements (<b>anthracene</b>) is the PAH.",
+  "x": [
+   "",
+   "The two benzene rings are joined by a single bond, not fused: they share no ring carbons. This is biphenyl, not a polycyclic fused system.",
+   "These two rings are fused, but they are saturated cyclohexane rings with no double bonds, so the compound is not aromatic.",
+   "The rings are fused and aromatic, but the –OH group means this is not a hydrocarbon; it is a phenol (a naphthol)."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "C1=CC=C2C=C3C=CC=CC3=CC2=C1"
+   },
+   {
+    "smi": "C1=CC=C(C2=CC=CC=C2)C=C1"
+   },
+   {
+    "smi": "C1CCC2CCCCC2C1"
+   },
+   {
+    "smi": "OC1=CC=CC2=CC=CC=C12"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "Which statements about polycyclic aromatic hydrocarbons (PAHs) such as benzo[<i>a</i>]pyrene are correct?<br>I. They contain two or more fused benzene rings.<br>II. They are nonpolar and dissolve poorly in water.<br>III. Some form in cigarette smoke and charred food and can cause cancer.",
+  "c": [
+   "I, II and III",
+   "I and III only",
+   "I and II only",
+   "III only"
+  ],
+  "h": "PAHs contain only C and H. What does that say about their polarity? Then think about where benzo[<i>a</i>]pyrene shows up.",
+  "w": "I: PAHs are fused benzene rings (naphthalene has two, benzo[<i>a</i>]pyrene five). II: as hydrocarbons they are nonpolar, so they dissolve in fats rather than water. III: PAHs form during incomplete burning; benzo[<i>a</i>]pyrene in smoke and charred meat is converted in the body to a form that binds DNA, a known carcinogen. All three are correct: <b>I, II and III</b>.",
+  "x": [
+   "",
+   "Statement II is also true. A PAH has only C–H and C–C bonds, so it is nonpolar and barely dissolves in water.",
+   "Statement III is also true. Benzo[<i>a</i>]pyrene from smoke and charred food is a well-known carcinogen.",
+   "Statements I and II are also true. PAHs are by definition fused aromatic rings, and as hydrocarbons they are nonpolar."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "t": "aromatic",
+  "q": "Most sunscreen ingredients that absorb UV light, such as avobenzone and octinoxate, contain a benzene ring joined to C=C or C=O groups. What feature lets these molecules absorb UV light?",
+  "c": [
+   "pi electrons delocalized over the ring and its double bonds",
+   "strong hydrogen bonds formed between the molecule and the skin",
+   "ionic bonds that break apart when sunlight strikes the molecule",
+   "the many C–H single bonds in their long carbon side chains"
+  ],
+  "h": "Benzene rings, C=C and C=O groups all have one kind of electron in common.",
+  "w": "Benzene rings and the C=C and C=O groups attached to them have pi electrons that are spread out (delocalized) over the whole system. Such conjugated pi systems absorb UV light and release the energy as heat. The key feature is <b>delocalized pi electrons</b>.",
+  "x": [
+   "",
+   "Hydrogen bonding helps a substance stay in a lotion or on skin, but it is not what absorbs UV light.",
+   "These sunscreen molecules are covalent organic compounds, not ionic. Absorbing UV should not break them apart.",
+   "C–H single bonds are found in all organic compounds, including ones that do not absorb UV. The absorbing part is the conjugated ring system."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "t": "aromatic",
+  "q": "A few mL of toluene (density 0.87 g/mL) are shaken with water in one test tube and with hexane in another. What is observed?",
+  "c": [
+   "It mixes with hexane but forms a layer on top of the water.",
+   "It mixes with water but forms a separate layer with the hexane.",
+   "It mixes completely with both the water and the hexane.",
+   "It mixes with hexane but forms a layer below the water."
+  ],
+  "h": "\"Like dissolves like.\" Is toluene polar or nonpolar? Then compare its density with water's.",
+  "w": "Toluene is a nonpolar hydrocarbon, so it mixes with nonpolar hexane but not with polar water. It is less dense than water (0.87 vs 1.00 g/mL), so <b>it mixes with hexane and floats as a layer on the water</b>.",
+  "x": [
+   "",
+   "This reverses the solubility. Toluene is nonpolar, so it cannot hydrogen bond with water but mixes freely with another hydrocarbon.",
+   "Toluene does not mix with water: it has no polar group to attract water molecules, so the two form separate layers.",
+   "The solubility part is right, but toluene is less dense than water (0.87 g/mL vs 1.00 g/mL), so its layer is not on the bottom."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "t": "aromatic",
+  "q": "Rank benzoic acid (C<sub>6</sub>H<sub>5</sub>COOH), benzaldehyde (C<sub>6</sub>H<sub>5</sub>CHO) and toluene (C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub>) from <b>highest</b> to <b>lowest</b> boiling point.",
+  "c": [
+   "benzoic acid > benzaldehyde > toluene",
+   "benzaldehyde > benzoic acid > toluene",
+   "toluene > benzaldehyde > benzoic acid",
+   "benzoic acid > toluene > benzaldehyde"
+  ],
+  "h": "Find the strongest intermolecular force for each: hydrogen bonding, dipole–dipole, or dispersion only.",
+  "w": "Benzoic acid has an O–H and hydrogen bonds to itself (bp about 249 °C). Benzaldehyde has a polar C=O but no O–H, so it has dipole–dipole forces (bp about 178 °C). Toluene is nonpolar with only dispersion forces (bp about 111 °C). Order: <b>benzoic acid > benzaldehyde > toluene</b>.",
+  "x": [
+   "",
+   "An aldehyde has no H on O, so it cannot hydrogen bond to itself. The carboxylic acid's O–H hydrogen bonds give it the higher boiling point.",
+   "This order is reversed. A nonpolar hydrocarbon with only dispersion forces boils lowest, not highest.",
+   "Toluene is nonpolar, so it has weaker attractions than the polar aldehyde. A polar C=O adds dipole–dipole forces and raises the boiling point."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "t": "aromatic",
+  "q": "Cyclohexene reacts with Br<sub>2</sub> at room temperature without a catalyst. Benzene reacts with Br<sub>2</sub> only when FeBr<sub>3</sub> is added. Which pair of organic products is correct?",
+  "c": [
+   "cyclohexene: 1,2-dibromocyclohexane; benzene: bromobenzene",
+   "cyclohexene: bromocyclohexene; benzene: bromobenzene",
+   "cyclohexene: 1,2-dibromocyclohexane; benzene: 1,2-dibromocyclohexadiene",
+   "cyclohexene: bromocyclohexene; benzene: 1,2-dibromobenzene"
+  ],
+  "h": "Compare addition and substitution. Which reaction type leaves a ring’s double bonds in place, and which compound would want to keep them?",
+  "w": "An alkene undergoes <b>addition</b>: Br<sub>2</sub> adds across the C=C to give 1,2-dibromocyclohexane. Benzene undergoes <b>substitution</b>: one Br replaces one H (HBr is the by-product), so the aromatic ring survives. Answer: <b>1,2-dibromocyclohexane and bromobenzene</b>.",
+  "x": [
+   "",
+   "The benzene product is right, but an alkene adds both Br atoms across its double bond. Replacing an H is not what Br<sub>2</sub> does to a C=C.",
+   "The cyclohexene product is right, but benzene does not add Br<sub>2</sub> across a double bond. Addition would destroy its stable aromatic ring.",
+   "Both are wrong: the alkene adds Br<sub>2</sub> rather than swapping an H, and one Br<sub>2</sub> replaces only one ring H on benzene."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "t": "aromatic",
+  "q": "Benzene can be halogenated, nitrated or sulfonated in one step. Which compound shown can be made from benzene in a <b>single</b> one of these reactions?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Recall which group each of the three reactions attaches, and check whether the ring is still aromatic afterward.",
+  "w": "Sulfonation (SO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>) replaces one ring H with –SO<sub>3</sub>H in one step, so <b>benzenesulfonic acid</b> can be made directly. None of the other groups is put on the ring by halogenation, nitration or sulfonation.",
+  "x": [
+   "",
+   "This ring carries –NH<sub>2</sub> (aniline). Nitration adds –NO<sub>2</sub>; turning that into –NH<sub>2</sub> would take a second reaction.",
+   "This ring carries –OH (phenol). None of the three reactions puts an –OH group on the ring.",
+   "This ring is saturated (no double bonds). Benzene substitution keeps the ring aromatic; a chlorocyclohexane would need the ring's double bonds removed."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "OS(=O)(=O)C1=CC=CC=C1"
+   },
+   {
+    "smi": "NC1=CC=CC=C1"
+   },
+   {
+    "smi": "OC1=CC=CC=C1"
+   },
+   {
+    "smi": "ClC1CCCCC1"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "<i>ortho</i>-Xylene, shown, reacts with Cl<sub>2</sub> and FeCl<sub>3</sub> so that one ring H is replaced by Cl. How many <b>different</b> monochloro products are possible?",
+  "c": [
+   "2",
+   "4",
+   "1",
+   "3"
+  ],
+  "h": "Find which of the four ring H atoms are equivalent by the molecule's symmetry (a mirror line runs between the two CH<sub>3</sub> groups).",
+  "w": "<i>o</i>-Xylene has four ring H atoms, but its mirror symmetry makes them equivalent in pairs: the two next to a CH<sub>3</sub> (C3 and C6) and the two farther away (C4 and C5). Replacing an H from each pair gives 3-chloro- and 4-chloro-1,2-dimethylbenzene: <b>2</b> products.",
+  "x": [
+   "",
+   "This counts every ring H as unique. The mirror line between the CH<sub>3</sub> groups makes the ring H atoms equivalent in pairs.",
+   "Not all four ring H atoms are equivalent. An H next to a CH<sub>3</sub> group is in a different spot from one that is farther away.",
+   "This treats the two H atoms in one pair as different. Mirror symmetry makes the two H atoms in each pair identical, so each pair gives just one product."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC1=CC=CC=C1C"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "Two drawings of dichlorobenzene are shown. In I the bond between the two Cl-bearing carbons is drawn as a double bond; in II it is drawn as a single bond. How are I and II related?",
+  "c": [
+   "They are the same compound drawn as two resonance forms.",
+   "They are two different isomers that can be separated.",
+   "They are cis and trans isomers of the same ring.",
+   "They are two compounds that quickly convert back and forth."
+  ],
+  "h": "In benzene, are any of the six C–C bonds really different from the others?",
+  "w": "Only the positions of the double bonds differ; every atom is in the same place. Benzene's pi electrons are spread evenly, so all six C–C bonds are identical and both drawings show <i>ortho</i>-dichlorobenzene. They are <b>two resonance forms of one compound</b>.",
+  "x": [
+   "",
+   "Isomers differ in how atoms are connected or arranged in space. Here the Cl atoms are on the same two neighboring carbons in both drawings.",
+   "Cis/trans isomers need restricted rotation with groups on the same or opposite sides. Both Cl atoms are in the flat ring plane in each drawing.",
+   "These are not two separate molecules. No atom moves between the drawings; only the double-bond lines are placed differently."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "skel": true,
+    "cap": "I",
+    "a": [
+     [
+      "Cl",
+      -1.949,
+      1.5,
+      0,
+      0
+     ],
+     [
+      "C",
+      -0.65,
+      0.75,
+      0,
+      0
+     ],
+     [
+      "C",
+      0.65,
+      1.5,
+      0,
+      0
+     ],
+     [
+      "C",
+      1.949,
+      0.75,
+      0,
+      0
+     ],
+     [
+      "C",
+      1.949,
+      -0.75,
+      0,
+      0
+     ],
+     [
+      "C",
+      0.65,
+      -1.5,
+      0,
+      0
+     ],
+     [
+      "C",
+      -0.65,
+      -0.75,
+      0,
+      0
+     ],
+     [
+      "Cl",
+      -1.949,
+      -1.5,
+      0,
+      0
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      2
+     ],
+     [
+      3,
+      4,
+      1
+     ],
+     [
+      4,
+      5,
+      2
+     ],
+     [
+      5,
+      6,
+      1
+     ],
+     [
+      6,
+      7,
+      1
+     ],
+     [
+      6,
+      1,
+      2
+     ]
+    ]
+   },
+   {
+    "skel": true,
+    "cap": "II",
+    "a": [
+     [
+      "Cl",
+      -1.949,
+      1.5,
+      0,
+      0
+     ],
+     [
+      "C",
+      -0.65,
+      0.75,
+      0,
+      0
+     ],
+     [
+      "C",
+      0.65,
+      1.5,
+      0,
+      0
+     ],
+     [
+      "C",
+      1.949,
+      0.75,
+      0,
+      0
+     ],
+     [
+      "C",
+      1.949,
+      -0.75,
+      0,
+      0
+     ],
+     [
+      "C",
+      0.65,
+      -1.5,
+      0,
+      0
+     ],
+     [
+      "C",
+      -0.65,
+      -0.75,
+      0,
+      0
+     ],
+     [
+      "Cl",
+      -1.949,
+      -1.5,
+      0,
+      0
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      2
+     ],
+     [
+      2,
+      3,
+      1
+     ],
+     [
+      3,
+      4,
+      2
+     ],
+     [
+      4,
+      5,
+      1
+     ],
+     [
+      5,
+      6,
+      2
+     ],
+     [
+      6,
+      7,
+      1
+     ],
+     [
+      6,
+      1,
+      1
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "TNT is 2,4,6-trinitrotoluene. Which structure is TNT?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Toluene is the parent: the CH<sub>3</sub> carbon is C1. Place the –NO<sub>2</sub> groups on C2, C4 and C6.",
+  "w": "With the CH<sub>3</sub> carbon as C1, C2 and C6 are the two carbons next to it and C4 is directly across. The drawing with –NO<sub>2</sub> on <b>both ortho carbons and the para carbon</b> is 2,4,6-trinitrotoluene.",
+  "x": [
+   "",
+   "Here the three –NO<sub>2</sub> groups are on three neighboring carbons (2,3,4). That is not the 2,4,6 pattern, which alternates around the ring.",
+   "Here the –NO<sub>2</sub> groups are on C3, C4 and C5, away from the CH<sub>3</sub>. That numbering does not match 2,4,6.",
+   "The pattern is 2,4,6, but the ring carries –OH instead of –CH<sub>3</sub>. That is a nitrophenol (picric acid), not a toluene."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CC1=C([N+](=O)[O-])C=C([N+](=O)[O-])C=C1[N+](=O)[O-]"
+   },
+   {
+    "smi": "CC1=CC=C([N+](=O)[O-])C([N+](=O)[O-])=C1[N+](=O)[O-]"
+   },
+   {
+    "smi": "CC1=CC([N+](=O)[O-])=C([N+](=O)[O-])C([N+](=O)[O-])=C1"
+   },
+   {
+    "smi": "OC1=C([N+](=O)[O-])C=C([N+](=O)[O-])C=C1[N+](=O)[O-]"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "What is the IUPAC name of the compound shown?",
+  "c": [
+   "1-bromo-3-ethylbenzene",
+   "1-ethyl-3-bromobenzene",
+   "1-bromo-4-ethylbenzene",
+   "1-bromo-3-ethylcyclohexane"
+  ],
+  "h": "Benzene is the parent. Number the ring to give the lowest locants, and list the substituents in alphabetical order.",
+  "w": "One ring carbon sits between the Br and the ethyl group, so they are 1,3 (<i>meta</i>). Substituents are listed alphabetically (bromo before ethyl), and the first-listed group gets C1: <b>1-bromo-3-ethylbenzene</b> (<i>m</i>-bromoethylbenzene).",
+  "x": [
+   "",
+   "The locants are right, but substituent names go in alphabetical order, and b comes before e.",
+   "4- would put the groups directly across the ring (<i>para</i>). In the drawing there is one carbon between them.",
+   "The ring has three alternating double bonds, so it is a benzene ring, not a saturated cyclohexane."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCC1=CC=CC(Br)=C1"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "Which statements about benzene are correct?<br>I. All six carbons are sp<sup>2</sup> and the ring is flat.<br>II. With Br<sub>2</sub> and FeBr<sub>3</sub> it undergoes substitution, not addition.<br>III. Its formula, C<sub>6</sub>H<sub>6</sub>, shows that it is a saturated hydrocarbon.",
+  "c": [
+   "I and II only",
+   "II and III only",
+   "I and III only",
+   "II only"
+  ],
+  "h": "A saturated hydrocarbon has only single bonds. How many H would a saturated six-carbon ring have?",
+  "w": "I is true: each carbon has three groups (two C, one H) and a p orbital in the ring's pi system, so the ring is flat. II is true: benzene keeps its aromatic ring by substitution. III is false: a saturated six-carbon ring is C<sub>6</sub>H<sub>12</sub>; C<sub>6</sub>H<sub>6</sub> is highly unsaturated. Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement III is false: C<sub>6</sub>H<sub>6</sub> has six fewer H atoms than the saturated ring C<sub>6</sub>H<sub>12</sub>. Statement I was also left out, yet every ring carbon is sp<sup>2</sup>.",
+   "Statement III is false: benzene is unsaturated, with three C=C in its Kekulé drawing. Statement II was also left out, yet benzene substitutes rather than adds.",
+   "Statement I is also true: each ring carbon is sp<sup>2</sup>, with three bonding groups and one p orbital, and the ring is flat."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "t": "aromatic",
+  "q": "Anthracene, shown, is a PAH made of three benzene rings fused in a row. What is its molecular formula?",
+  "c": [
+   "C<sub>14</sub>H<sub>10</sub>",
+   "C<sub>18</sub>H<sub>18</sub>",
+   "C<sub>18</sub>H<sub>12</sub>",
+   "C<sub>14</sub>H<sub>14</sub>"
+  ],
+  "h": "Fused rings share carbons. Count each carbon once, and remember a shared carbon has no H.",
+  "w": "Each fusion shares two carbons, so three rings in a row have 6 + 4 + 4 = 14 carbons. The four shared carbons carry no H; the other ten each carry one H. Formula: <b>C<sub>14</sub>H<sub>10</sub></b>.",
+  "x": [
+   "",
+   "This adds three separate benzene molecules. Fused rings share carbons, and shared carbons have no H.",
+   "This counts the carbons in three separate rings. The shared carbons belong to two rings at once and must be counted only once.",
+   "The carbon count is right, but the four carbons shared between rings have no room for an H atom."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C1=CC=C2C=C3C=CC=CC3=CC2=C1"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "Thymol, from thyme oil, is an antiseptic in some mouthwashes. Its IUPAC name is 2-isopropyl-5-methylphenol. Which structure is thymol?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Start at the –OH carbon (C1). The isopropyl group is next to it; the methyl is on C5.",
+  "w": "C1 carries the –OH. The isopropyl group is on the neighboring carbon (C2). Continuing around the ring in that direction, C5 is the carbon <i>meta</i> to the –OH and <i>para</i> to the isopropyl group; that is where the CH<sub>3</sub> goes. That drawing is <b>thymol</b>.",
+  "x": [
+   "",
+   "This swaps the two alkyl groups: the methyl is next to the –OH and the isopropyl is on C5. This is carvacrol (oregano oil), an isomer.",
+   "Here the methyl group is on C4, directly across from the –OH, not on C5.",
+   "This ring has no double bonds, so it is a cyclohexanol (menthol), not a phenol."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "CC(C)C1=CC=C(C)C=C1O"
+   },
+   {
+    "smi": "CC1=CC=C(C(C)C)C=C1O"
+   },
+   {
+    "smi": "CC(C)C1=CC(C)=CC=C1O"
+   },
+   {
+    "smi": "CC(C)C1CCC(C)CC1O"
+   }
+  ]
+ },
+ {
+  "t": "aromatic",
+  "q": "2-Phenylethanol gives roses their scent and is also a preservative in some eye drops. Which structure is 2-phenylethanol?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Ethanol is the parent chain (C1 holds the –OH). A phenyl group, C<sub>6</sub>H<sub>5</sub>–, sits on C2.",
+  "w": "The parent is a two-carbon alcohol, –CH<sub>2</sub>CH<sub>2</sub>OH, with C1 bonded to the –OH. A phenyl ring (a benzene ring as a substituent) is on C2, the far carbon: <b>C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>CH<sub>2</sub>OH</b>.",
+  "x": [
+   "",
+   "Here the ring and the –OH are on the same carbon, C1. That is 1-phenylethanol.",
+   "Here the –OH is on the ring itself, which makes the compound a phenol with an ethyl group, not an ethanol.",
+   "This ring has no double bonds: it is a cyclohexyl group, not a phenyl group."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "OCCC1=CC=CC=C1"
+   },
+   {
+    "smi": "CC(O)C1=CC=CC=C1"
+   },
+   {
+    "smi": "CCC1=CC=CC=C1O"
+   },
+   {
+    "smi": "OCCC1CCCCC1"
+   }
+  ]
+ }
+]

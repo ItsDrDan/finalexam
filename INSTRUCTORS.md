@@ -35,7 +35,7 @@ Link to it, or embed it in a Canvas page with an iframe. It resizes itself to fi
 
 ## Privacy
 
-No logins and no names. Progress stays in the student's own browser. Practice stats are anonymous.
+No logins and no names. Progress stays in the student's own browser. Practice stats are anonymous: which question, which choice, seconds spent on it, and, for Boss Battles, a random code made for that one exam so its answers can be analyzed together (which questions separate strong from weak performance, and how long the exam really takes). Students can turn stats off with Do Not Track or Global Privacy Control.
 
 ## Reuse
 
