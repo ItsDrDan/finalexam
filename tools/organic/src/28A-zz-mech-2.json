@@ -1,0 +1,1782 @@
+[
+ {
+  "id": "zzm2-01",
+  "t": "elim",
+  "d": 1,
+  "k": 0,
+  "q": "Sodium ethoxide converts 3-bromopentane into 2-pentene in a single E2 step. Which set of curved arrows correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC[O-:51].[H:54][CH:52](C)[C:53]([H:56])(CC)[Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:54][CH:52](C)[C:53]([H:56])(CC)[Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:54][CH:52](C)[C:53]([H:56])(CC)[Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:54][CH:52](C)[C:53]([H:56])(CC)[Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 56
+     },
+     {
+      "from": [
+       56,
+       53
+      ],
+      "to": [
+       52,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "h": "E2 is one concerted step: count the bonds that form and break, and give each one its own arrow.",
+  "w": "In E2 three things happen at once: the ethoxide lone pair forms a bond to a <i>β</i>-hydrogen (the H on the carbon next to C–Br), the electrons of that C–H bond become the new C=C π bond, and the C–Br bond breaks with both electrons going to bromide. The correct drawing therefore has <b>three arrows: O lone pair → β-H, β C–H bond → C–C bond, C–Br bond → Br</b>. Every atom ends with a legal octet: the β carbon trades its C–H for the π bond and the α carbon trades its C–Br for the π bond.",
+  "x": [
+   "",
+   "This set has no arrow breaking the C–Br bond, so the α carbon would keep Br and gain a π bond: five bonds to carbon. Bromide must leave in the same step.",
+   "These are S<sub>N</sub>2 arrows (ethoxide attacks the carbon bearing Br). They give an ether, not 2-pentene, and no C–H bond is broken.",
+   "This base takes the H on the carbon that holds Br (the α-H). Those C–H electrons cannot make a π bond to the neighboring carbon; the β carbon would end with five bonds and the α carbon with three."
+  ]
+ },
+ {
+  "id": "zzm2-02",
+  "t": "elim",
+  "d": 2,
+  "k": 0,
+  "q": "2-Bromo-2,3-dimethylbutane reacts with sodium ethoxide in ethanol by E2. Which set of curved arrows shows the step that forms the <b>major</b> alkene?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC[O-:51].[H:54][C:52](C)(C)[C:53]([CH2:57][H:56])(C)[Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:54][C:52](C)(C)[C:53]([CH2:57][H:56])(C)[Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 56
+     },
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": [
+       57,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:54][C:52](C)(C)[C:53]([CH2:57][H:56])(C)[Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:54][C:52](C)(C)[C:53]([CH2:57][H:56])(C)[Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "Two different β-hydrogens are drawn. Which one leads to the more substituted alkene with a small base? Then check the direction of every arrow.",
+  "w": "Ethoxide is a small base, so E2 follows Zaitsev's rule and gives the more substituted alkene. Removing the H on C3 (the CH carbon) gives tetrasubstituted 2,3-dimethyl-2-butene; removing a CH<sub>3</sub> hydrogen gives only disubstituted 2,3-dimethyl-1-butene. The correct drawing takes the C3–H: <b>O lone pair → C3–H, C3–H bond → C2–C3 bond, C2–Br bond → Br</b>.",
+  "x": [
+   "",
+   "These arrows are a valid E2, but they remove a methyl hydrogen and give 2,3-dimethyl-1-butene, the minor (Hofmann) alkene. That H is preferred only with a bulky base such as tert-butoxide.",
+   "These are S<sub>N</sub>2 arrows at a tertiary carbon. Backside attack at a 3° carbon is blocked by the three alkyl groups, so this step does not occur.",
+   "The last arrow points the wrong way: the C–Br bond electrons must end on bromine (it leaves as Br<sup>−</sup>), not on carbon. As drawn, C2 would hold a lone pair plus a π bond, with Br still attached."
+  ]
+ },
+ {
+  "id": "zzm2-03",
+  "t": "elim",
+  "d": 1,
+  "k": 0,
+  "q": "When 2-iodo-2-methylbutane is warmed in methanol, the E1 reaction begins with the step drawn. What does this step produce?",
+  "s": [
+   {
+    "smi": "CC[C:53](C)(C)[I:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "arrow": "CH<sub>3</sub>OH",
+    "below": "step 1"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC[C+](C)C.[I-]"
+   },
+   {
+    "smi": "CC[C](C)C.[I]"
+   },
+   {
+    "smi": "CC[C-](C)C.[I+]"
+   },
+   {
+    "smi": "CC=C(C)C.I"
+   }
+  ],
+  "h": "A full-headed arrow moves two electrons. Where do both electrons of the C–I bond end up?",
+  "w": "The full-headed arrow carries both C–I bonding electrons onto iodine (heterolysis). Iodine leaves as iodide, I<sup>−</sup>, and the carbon that lost the bond is left with only three bonds and a positive charge. Step 1 gives the <b>tertiary 2-methyl-2-butyl carbocation and iodide</b>; this slow ionization is the rate-determining step of E1.",
+  "x": [
+   "",
+   "Splitting the bond one electron to each atom (homolysis) gives radicals; that would be drawn with two fishhook arrows, not one full arrow.",
+   "This puts both electrons on carbon and leaves iodine electron-poor, the reverse of what the arrow shows. Iodine is the more electronegative atom and the better leaving group.",
+   "The alkene and HI form only after a later step (a base removes a β-H from the carbocation). E1 is stepwise; ionization alone cannot make the C=C bond."
+  ]
+ },
+ {
+  "id": "zzm2-04",
+  "t": "elim",
+  "d": 2,
+  "k": 0,
+  "q": "In the E1 reaction of 2-iodo-2-methylbutane in methanol, a methanol molecule removes a proton from the 2-methyl-2-butyl cation to form the major alkene, 2-methyl-2-butene. Which set of curved arrows shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[OH:51].C[CH:52]([H:54])[C+:53](C)C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "C[OH:51].C[CH:52]([H:54])[C+:53](C)C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 53,
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "C[OH:51].C[CH:52]([H:54])[C+:53](C)C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "C[OH:51].C[CH:52]([H:54])[C+:53](C)C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "Two bonds change: one O–H bond forms and one C–H bond breaks. Where must the C–H electrons go to make the alkene?",
+  "w": "Methanol acts as a weak base. One arrow goes from an oxygen lone pair to the β-hydrogen; the second carries the C–H bonding electrons into the C2–C3 bond, where they fill the empty p orbital of the cation and become the π bond. The correct drawing is <b>O lone pair → β-H, then C–H bond → C–C<sup>+</sup> bond</b>. The positive charge moves to oxygen (protonated methanol), and the neutral alkene forms.",
+  "x": [
+   "",
+   "Arrows never start at a carbocation: it has no electrons to give. The electrons come from methanol, the electron-rich partner.",
+   "Methanol attacking the cationic carbon is a real competing step, but it is the S<sub>N</sub>1 step and gives an ether (2-methoxy-2-methylbutane), not the alkene.",
+   "If the C–H electrons stayed on C3 as a lone pair, C3 would become a carbanion next to a carbocation; no π bond would form. The bond electrons must move into the C–C bond."
+  ]
+ },
+ {
+  "id": "zzm2-05",
+  "t": "elim",
+  "d": 1,
+  "k": 0,
+  "q": "The acid-catalyzed dehydration of cyclohexanol begins when the OH group is protonated by hydronium ion. Which set of curved arrows shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH:51]C1CCCCC1.[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[OH:51]C1CCCCC1.[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "[OH:51]C1CCCCC1.[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[OH:51]C1CCCCC1.[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 55,
+      "to": 51
+     }
+    ]
+   }
+  ],
+  "h": "Which species is the base here? Its electrons start the first arrow, and a bond to H must also break.",
+  "w": "Proton transfer takes two arrows. The alcohol oxygen is the base: <b>an arrow from an O lone pair of cyclohexanol to the H of H<sub>3</sub>O<sup>+</sup>, and a second arrow from the H–O<sup>+</sup> bond onto the hydronium oxygen</b>, which leaves as water. The product is the alkyloxonium ion, which now has a good leaving group (H<sub>2</sub>O).",
+  "x": [
+   "",
+   "This arrow sends the H–O bond electrons from hydronium to the alcohol oxygen, as if H<sub>3</sub>O<sup>+</sup> were donating electrons. The proton is the acceptor; the alcohol lone pair must reach out to the H.",
+   "With only one arrow, the H would end up bonded to two oxygens. The H–O<sup>+</sup> bond of hydronium must break in the same step.",
+   "The hydronium oxygen is positively charged and acts as the acid, not as the nucleophile; it does not donate its lone pair to the alcohol oxygen. No O–O bond forms."
+  ]
+ },
+ {
+  "id": "zzm2-06",
+  "t": "elim",
+  "d": 1,
+  "k": 0,
+  "q": "The step drawn is one of the three steps in the acid-catalyzed (E1) dehydration of 1-methylcyclohexanol. Which step of this mechanism is rate-determining?",
+  "s": [
+   {
+    "smi": "C[C:53]1([OH2+:55])CCCCC1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "C[C+]1CCCCC1.O"
+   }
+  ],
+  "c": [
+   "The step drawn: loss of water to form the tertiary carbocation",
+   "Protonation of the OH group by hydronium ion",
+   "Removal of a β-hydrogen from the carbocation by water",
+   "Attack of water on the tertiary carbocation"
+  ],
+  "h": "Which step creates a high-energy carbocation, rather than just moving a proton between oxygen atoms?",
+  "w": "Proton transfers between oxygen atoms are fast. The slow step is the heterolysis of the C–O bond, in which water leaves and an unstable carbocation forms. That step has the highest-energy transition state, so it controls the rate: <b>loss of water to form the tertiary carbocation</b>. This is why 3° alcohols dehydrate fastest: the more stable the cation, the lower that barrier.",
+  "x": [
+   "",
+   "Protonation of the alcohol is a fast acid–base equilibrium between oxygens; it sets up the leaving group but is not slow.",
+   "Deprotonation of the carbocation is fast because the cation is high in energy and reacts quickly with any weak base.",
+   "Water adding to the carbocation is the reverse direction (hydration). Under dehydration conditions (heat, removal of the alkene) that step is not part of the forward path, and it is fast anyway."
+  ]
+ },
+ {
+  "id": "zzm2-07",
+  "t": "elim",
+  "d": 2,
+  "k": 0,
+  "q": "Heating 3-methyl-2-pentanol with H<sub>2</sub>SO<sub>4</sub> forms the secondary carbocation drawn. Which set of curved arrows shows the 1,2-shift that converts it into a <b>more stable</b> carbocation?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[H:57][CH2:58][CH+:53][C:52]([H:54])([CH3:56])CC",
+    "arrows": [
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[H:57][CH2:58][CH+:53][C:52]([H:54])([CH3:56])CC",
+    "arrows": [
+     {
+      "from": 53,
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[H:57][CH2:58][CH+:53][C:52]([H:54])([CH3:56])CC",
+    "arrows": [
+     {
+      "from": [
+       56,
+       52
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[H:57][CH2:58][CH+:53][C:52]([H:54])([CH3:56])CC",
+    "arrows": [
+     {
+      "from": [
+       57,
+       58
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "In a 1,2-shift a group moves with its bonding pair from the carbon next door to the cationic carbon. Which group's move leaves a 3° cation behind?",
+  "w": "In a 1,2-shift, the electrons of a σ bond on the adjacent carbon swing over to the empty p orbital; the migrating group travels with them, and the carbon it left becomes the new cation. Moving the hydride from C3 to C2 leaves C3 bonded to a methyl, an ethyl and C2: a <b>tertiary cation, drawn as an arrow from the C3–H bond to the cationic C2</b>. That 3° cation then loses a proton to give the alkene.",
+  "x": [
+   "",
+   "This arrow starts at the carbocation, which has an empty orbital and no electrons to push. The shift is the C–H bond electrons moving toward the cation, not the reverse.",
+   "A methyl shift from C3 is drawn correctly as an arrow, but it leaves C3 bonded to only H, ethyl and C2: still a secondary cation. There is no gain in stability, so this shift is not favored.",
+   "Moving a hydride from the C1 methyl group would leave a primary cation on C1, which is much less stable than the starting secondary cation."
+  ]
+ },
+ {
+  "id": "zzm2-08",
+  "t": "elim",
+  "d": 3,
+  "k": 0,
+  "q": "Dehydration of 3,3-dimethyl-2-pentanol in hot H<sub>3</sub>PO<sub>4</sub> forms the secondary carbocation drawn, which undergoes the 1,2-methyl shift shown. What is the major alkene product?",
+  "s": [
+   {
+    "smi": "C[CH+:53][C:52]([CH3:56])(C)CC",
+    "arrows": [
+     {
+      "from": [
+       56,
+       52
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "arrow": "1,2-shift",
+    "below": "then −H<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)=C(C)CC"
+   },
+   {
+    "smi": "C=CC(C)(C)CC"
+   },
+   {
+    "smi": "CC=C(C)C(C)C"
+   },
+   {
+    "smi": "C=C(CC)C(C)C"
+   }
+  ],
+  "h": "Draw the new cation after the methyl moves. Then list every β-hydrogen it can lose and compare how substituted each alkene would be.",
+  "w": "The methyl moves with its bonding pair from C3 to C2. C3 becomes a tertiary cation bonded to a CH<sub>3</sub>, an ethyl, and an isopropyl group (old C2 now carries two methyls). Loss of the lone H on the isopropyl CH gives the tetrasubstituted alkene, which is the most stable choice: <b>2,3-dimethyl-2-pentene</b>. (An ethyl shift instead gives a different 3° cation that loses a proton to the same tetrasubstituted alkene.)",
+  "x": [
+   "",
+   "3,3-Dimethyl-1-pentene keeps the original skeleton, as if no shift occurred. A monosubstituted alkene from the 2° cation is minor once the cation can rearrange to 3°.",
+   "3,4-Dimethyl-2-pentene comes from the rearranged cation losing an ethyl CH<sub>2</sub> hydrogen; it is only trisubstituted, so it is a minor product.",
+   "2-Ethyl-3-methyl-1-butene forms when the rearranged cation loses a methyl hydrogen; that 1,1-disubstituted alkene is the least stable of the rearranged products."
+  ]
+ },
+ {
+  "id": "zzm2-09",
+  "t": "elim",
+  "d": 3,
+  "k": 0,
+  "q": "trans-1-Bromo-2-methylcyclohexane undergoes E2 with sodium ethoxide. In the drawing, the H on C2 is wedged, on the same face as Br (also wedged), and the H drawn on C6 is the one on the opposite face from Br. Which set of curved arrows shows the E2 step that actually occurs?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC[O-:51].[H:54][C@@:52]1(C)CCC[CH:56]([H:57])[C@H:53]1[Br:55]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 57
+     },
+     {
+      "from": [
+       57,
+       56
+      ],
+      "to": [
+       56,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:54][C@@:52]1(C)CCC[CH:56]([H:57])[C@H:53]1[Br:55]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:54][C@@:52]1(C)CCC[CH:56]([H:57])[C@H:53]1[Br:55]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 57
+     },
+     {
+      "from": [
+       57,
+       56
+      ],
+      "to": [
+       56,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:54][C@@:52]1(C)CCC[CH:56]([H:57])[C@H:53]1[Br:55]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "h": "On a cyclohexane, E2 needs the H and the leaving group trans-diaxial (anti-periplanar). Which β-hydrogens are trans to Br?",
+  "w": "E2 needs the β C–H and the C–Br bonds anti-periplanar, which on a cyclohexane means both axial, on opposite faces of the ring. In the trans isomer, the only H on C2 is on the <i>same</i> face as Br (cis), so it can never be anti to Br. C6 has an H trans to Br, which becomes axial in the chair where Br is axial. The base therefore removes the C6 hydrogen: <b>O lone pair → C6–H, C6–H bond → C6–C1 bond, C1–Br bond → Br</b>, giving 3-methylcyclohexene even though it is the less substituted (non-Zaitsev) alkene.",
+  "x": [
+   "",
+   "These arrows would give the Zaitsev product, 1-methylcyclohexene, but the C2–H is cis to Br. A cis H and Br cannot both be axial at once, so they are never anti-periplanar.",
+   "The right hydrogen is removed, but no arrow breaks the C–Br bond, so C1 would carry Br plus a new π bond: five bonds to carbon.",
+   "These are S<sub>N</sub>2 arrows. Ethoxide is a strong base and the substrate is a hindered secondary halide, so E2 is the main pathway here."
+  ]
+ },
+ {
+  "id": "zzm2-10",
+  "t": "elim",
+  "d": 2,
+  "k": 0,
+  "q": "Potassium tert-butoxide reacts with 2-bromo-2-methylpentane by the E2 step drawn. What is the major organic product?",
+  "s": [
+   {
+    "smi": "CC(C)(C)[O-:51].[H:54][CH2:52][C:53](C)([Br:55])CCC",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "arrow": "(CH<sub>3</sub>)<sub>3</sub>COH",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=C(C)CCC"
+   },
+   {
+    "smi": "CC(C)=CCC"
+   },
+   {
+    "smi": "CC(C)(CCC)OC(C)(C)C"
+   },
+   {
+    "smi": "CC(C)(O)CCC"
+   }
+  ],
+  "h": "Follow the arrows: which carbon loses the H and which carbon loses Br? The new π bond joins those two carbons.",
+  "w": "The bulky tert-butoxide reaches the exposed methyl hydrogens more easily than the hindered CH<sub>2</sub> hydrogens inside the chain, so it removes a CH<sub>3</sub> hydrogen, as the arrows show. The C–H electrons form the π bond between that CH<sub>2</sub> and C2, and bromide leaves: the Hofmann product, <b>2-methyl-1-pentene</b>.",
+  "x": [
+   "",
+   "2-Methyl-2-pentene is the Zaitsev alkene, from removing a C3 hydrogen. That is major with a small base such as ethoxide, but tert-butoxide is too hindered to reach C3 easily, and the arrows drawn remove a methyl H.",
+   "This ether would require tert-butoxide to attack a tertiary carbon. Neither S<sub>N</sub>2 (blocked) nor S<sub>N</sub>1 (strong base, E2 is faster) gives it in useful amounts.",
+   "An alcohol would need water or hydroxide as the nucleophile; none of the arrows forms a C–O bond."
+  ]
+ },
+ {
+  "id": "zzm2-11",
+  "t": "elim",
+  "d": 3,
+  "k": 0,
+  "q": "(2<i>R</i>,3<i>S</i>)-2-Bromo-3-methylpentane undergoes E2 with sodium ethoxide, removing the C3 hydrogen drawn. What is the product of the step shown?",
+  "s": [
+   {
+    "smi": "CC[O-:51].C[C@@H:53]([Br:55])[C@@:52]([H:54])(C)CC",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "arrow": "EtOH"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C/C=C(/C)CC"
+   },
+   {
+    "smi": "C/C=C(\\C)CC"
+   },
+   {
+    "smi": "C=CC(C)CC"
+   },
+   {
+    "smi": "CCOC(C)C(C)CC"
+   }
+  ],
+  "h": "Rotate the C2–C3 bond until the drawn H and Br are anti-periplanar (a Newman projection helps). Groups that are gauche in that conformation end up cis in the alkene.",
+  "w": "E2 is stereospecific: the H on C3 and Br on C2 must be anti-periplanar. In that conformation of the (2<i>R</i>,3<i>S</i>) isomer, the C2 methyl is gauche to the C3 ethyl and anti to the C3 methyl. When the π bond forms, gauche groups become cis, so CH<sub>3</sub> (C2) and CH<sub>2</sub>CH<sub>3</sub> (C3) are on the same side. On C2 the higher-priority group is CH<sub>3</sub>; on C3 it is ethyl; both on one side gives <b>(<i>Z</i>)-3-methyl-2-pentene</b>.",
+  "x": [
+   "",
+   "The <i>E</i> isomer would need the C2 methyl and C3 ethyl anti in the reacting conformation. For this stereoisomer that conformation puts H and Br gauche, not anti, so it cannot react by E2. (The (2<i>R</i>,3<i>R</i>) diastereomer gives the <i>E</i> alkene.)",
+   "3-Methyl-1-pentene comes from removing a C1 (methyl) hydrogen. The arrows remove the C3 hydrogen, and a small base favors the more substituted alkene anyway.",
+   "This ether is the S<sub>N</sub>2 product. The arrows show the base taking a hydrogen, not attacking carbon, and the hindered 2° substrate with a strong base favors E2."
+  ]
+ },
+ {
+  "id": "zzm2-12",
+  "t": "elim",
+  "d": 2,
+  "k": 0,
+  "q": "A student drew the E2 reaction of bromocyclohexane with sodium methoxide as shown. What is wrong with the arrows?",
+  "s": [
+   {
+    "smi": "C[O-:51].[H:54][CH:52]1CCCC[CH:53]1[Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "C1=CCCCC1"
+   }
+  ],
+  "c": [
+   "No arrow breaks the C–Br bond, so the carbon bearing Br would end up with five bonds",
+   "Methoxide should attack the carbon bearing Br, not a hydrogen",
+   "The first arrow should start at the hydrogen and point to the methoxide oxygen",
+   "E2 takes two steps, so the hydrogen cannot be removed until bromide has left"
+  ],
+  "h": "Count the bonds on each carbon after the arrows are followed. Does every atom end with a legal number of bonds?",
+  "w": "The base arrow and the C–H → C=C arrow are fine, but E2 is concerted: the C–Br bond must break in the same step. With only these two arrows, the α carbon gains a π bond while keeping its H, its ring bonds and Br, which is five bonds. The fix is a third arrow from the C–Br bond onto Br. The error is that <b>no arrow breaks the C–Br bond, giving carbon five bonds</b>.",
+  "x": [
+   "",
+   "Attack at carbon is the S<sub>N</sub>2 path, a different reaction. For an E2 drawing, removing the β-hydrogen is exactly right.",
+   "Arrows start at electrons. The methoxide lone pair is the electron source and the hydrogen is the acceptor, so the drawn direction is correct.",
+   "Losing bromide first and then the proton describes E1. E2 is a single concerted step in which both bonds break together."
+  ]
+ },
+ {
+  "id": "zzm2-13",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "Addition of HBr to methylenecyclohexane begins with protonation of the alkene. Which set of curved arrows correctly shows this first step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH2:52]=[C:53]1CCCCC1.[H:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:52]=[C:53]1CCCCC1.[H:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:52]=[C:53]1CCCCC1.[H:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:52]=[C:53]1CCCCC1.[H:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 55,
+      "to": 53
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "The alkene is the nucleophile here. What is its electrophilic partner, and which bond in that partner must break?",
+  "w": "The π electrons are the most available electrons in the alkene, and the H of HBr is the electrophile. The first arrow goes from the π bond to H, and the second from the H–Br bond onto Br, which leaves as bromide. The proton goes to the CH<sub>2</sub> so that the cation forms on the ring carbon (tertiary). Correct set: <b>π bond → H, H–Br bond → Br</b>.",
+  "x": [
+   "",
+   "This sends the H–Br electrons toward the alkene, which is backwards: HBr is the electron acceptor here, and the π bond is the electron donor.",
+   "With no arrow breaking H–Br, the hydrogen would be bonded to both carbon and bromine (two bonds to H).",
+   "Bromine does not attack first. The neutral Br of HBr is not a good nucleophile toward an electron-rich alkene, and pushing the π electrons onto carbon would make a carbanion next to a five-bonded carbon."
+  ]
+ },
+ {
+  "id": "zzm2-14",
+  "t": "addition",
+  "d": 1,
+  "k": 0,
+  "q": "In the second step of HBr addition to 1-methylcyclohexene, bromide captures the 1-methylcyclohexyl cation. Which set of curved arrows shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[Br-:51].C[C+:52]1[CH2:53]CCCC1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[Br-:51].C[C+:52]1[CH2:53]CCCC1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 52,
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "[Br-:51].C[C+:52]1[CH2:53]CCCC1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[Br-:51].C[C+:52]1[CH2:53]CCCC1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52,
+      "half": true
+     }
+    ]
+   }
+  ],
+  "h": "Which partner has the electrons, and which atom has the empty orbital?",
+  "w": "Bromide has four lone pairs and a negative charge; the cationic carbon has an empty p orbital. One full-headed arrow from a <b>lone pair on Br<sup>−</sup> to the positively charged carbon</b> forms the C–Br bond and neutralizes both charges, giving 1-bromo-1-methylcyclohexane (the Markovnikov product).",
+  "x": [
+   "",
+   "An arrow from the carbocation to bromide runs from the electron-poor atom to the electron-rich one, which is backwards. The electrons come from bromide.",
+   "The CH<sub>2</sub> next to the cation already has four bonds; a new bond there would give carbon five bonds. Bromide must bond to the carbon with the empty orbital.",
+   "A fishhook moves one electron (radical chemistry). Here a two-electron bond forms from a lone pair, which needs a full-headed arrow."
+  ]
+ },
+ {
+  "id": "zzm2-15",
+  "t": "addition",
+  "d": 3,
+  "k": 0,
+  "q": "HBr adds to 3-methyl-1-pentene. After protonation, the secondary carbocation undergoes the 1,2-shift drawn. What is the major product?",
+  "s": [
+   {
+    "smi": "CC[C:52]([H:54])(C)[CH+:53]C",
+    "arrows": [
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "arrow": "1,2-H shift",
+    "below": "then Br<sup>−</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(C)(Br)CC"
+   },
+   {
+    "smi": "CC(Br)C(C)CC"
+   },
+   {
+    "smi": "BrCCC(C)CC"
+   },
+   {
+    "smi": "CC(C)C(Br)CC"
+   }
+  ],
+  "h": "Follow the arrow to find which carbon becomes the new cation, then add bromide there.",
+  "w": "Protonation of C1 gives a 2° cation at C2. The hydride on C3 shifts with its bonding pair to C2 (as drawn), which moves the positive charge to C3. C3 is then bonded to a methyl and two ethyl groups: a 3° cation. Bromide captures it to give <b>3-bromo-3-methylpentane</b>.",
+  "x": [
+   "",
+   "2-Bromo-3-methylpentane is the unrearranged Markovnikov product. Some forms, but the faster 1,2-hydride shift to the 3° cation makes the rearranged bromide major.",
+   "1-Bromo-3-methylpentane is the anti-Markovnikov product, which needs peroxides (a radical pathway). The ionic mechanism never makes the primary cation.",
+   "3-Bromo-2-methylpentane would come from a methyl shift, which leaves C3 as a secondary cation. That shift gives no gain in stability and is not observed."
+  ]
+ },
+ {
+  "id": "zzm2-16",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "During acid-catalyzed hydration of 1-methylcyclopentene, water adds to the carbocation intermediate. Which set of curved arrows shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[H:54][OH:51].C[C+:52]1[CH2:53]CCC1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[H:54][OH:51].C[C+:52]1[CH2:53]CCC1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 52,
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "[H:54][OH:51].C[C+:52]1[CH2:53]CCC1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       54,
+       51
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[H:54][OH:51].C[C+:52]1[CH2:53]CCC1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "Water is a neutral nucleophile. Which of its electrons are free to make a new bond without breaking anything?",
+  "w": "Water uses one of its oxygen lone pairs to bond to the empty p orbital of the tertiary carbocation. The correct drawing is a single arrow <b>from an O lone pair to the cationic carbon</b>, giving a protonated alcohol (alkyloxonium ion) that later loses H<sup>+</sup> to give 1-methylcyclopentanol.",
+  "x": [
+   "",
+   "This arrow starts at the carbocation, which has no electrons to donate. The arrow must start at the electron source, water's oxygen.",
+   "Using the O–H bond electrons would break that bond and make a C–H bond, not the C–O bond, and would leave oxygen with only six electrons. Water attacks with a lone pair, and the O–H bonds stay intact.",
+   "The CH<sub>2</sub> beside the cation already has four bonds, so water cannot bond there without giving carbon five bonds. The nucleophile must go to the carbon bearing the + charge."
+  ]
+ },
+ {
+  "id": "zzm2-17",
+  "t": "addition",
+  "d": 1,
+  "k": 0,
+  "q": "The last step of the acid-catalyzed hydration of 1-methylcyclopentene is drawn. What species are produced by this step?",
+  "s": [
+   {
+    "smi": "[OH2:51].C[C:52]1([OH+:53][H:54])CCCC1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1(O)CCCC1.[OH3+]"
+   },
+   {
+    "smi": "CC1([O-])CCCC1.[OH3+]"
+   },
+   {
+    "smi": "C[C+]1CCCC1.O.O"
+   },
+   {
+    "smi": "CC1=CCCC1.O.[OH3+]"
+   }
+  ],
+  "h": "One arrow moves a proton to water; the other puts the O–H bond electrons back on the ring oxygen. Keep track of the total charge.",
+  "w": "Water acts as the base: its lone pair takes a proton from the oxonium ion, and the O–H bond electrons return to the ring oxygen as a lone pair. The ring oxygen goes from +1 to neutral and water becomes hydronium, so the products are <b>1-methylcyclopentanol and H<sub>3</sub>O<sup>+</sup></b>. The acid catalyst is regenerated, and the overall charge (+1) is conserved.",
+  "x": [
+   "",
+   "An alkoxide would need the oxygen to gain a second lone pair beyond neutral. Starting at +1, receiving one bond's electrons makes it neutral, not −1; this choice also has total charge 0 instead of +1.",
+   "Breaking the C–O bond to make a carbocation and water is the reverse of the previous step and would need an arrow from the C–O bond, not from water to H.",
+   "An alkene would form only if a C–H bond broke. The arrows break an O–H bond, so the oxygen stays on the ring."
+  ]
+ },
+ {
+  "id": "zzm2-18",
+  "t": "addition",
+  "d": 3,
+  "k": 0,
+  "q": "Vinylcyclohexane is treated with dilute H<sub>2</sub>SO<sub>4</sub> in water. The first step is drawn. Assume the carbocation rearranges whenever a shift gives a more stable cation. What is the major product of the overall reaction?",
+  "s": [
+   {
+    "smi": "[CH2:52]=[CH:53]C1CCCCC1.[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "arrow": "H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC1(O)CCCCC1"
+   },
+   {
+    "smi": "CC(O)C1CCCCC1"
+   },
+   {
+    "smi": "OCCC1CCCCC1"
+   },
+   {
+    "smi": "CC1CCCCCC1O"
+   }
+  ],
+  "h": "Decide where the first cation forms, then ask whether a neighboring hydrogen can move to make it more stable before water arrives.",
+  "w": "Protonation of the CH<sub>2</sub> end gives a secondary cation next to the ring. The ring carbon attached to it carries one H; a 1,2-hydride shift from that ring carbon moves the positive charge onto the ring, where it is tertiary (bonded to two ring carbons and the ethyl group). Water then attacks the 3° cation, and loss of H<sup>+</sup> gives <b>1-ethylcyclohexanol</b>.",
+  "x": [
+   "",
+   "1-Cyclohexylethanol is the unrearranged Markovnikov alcohol. It ignores the hydride shift from the ring CH, which turns the 2° cation into a more stable 3° cation before water adds.",
+   "2-Cyclohexylethanol is the anti-Markovnikov alcohol (hydroboration–oxidation). Acid-catalyzed hydration never forms the primary cation that this would need.",
+   "2-Methylcycloheptanol would need a ring bond to migrate (ring expansion). That gives only another 2° cation and relieves no strain from a six-membered ring, whereas the hydride shift gives a 3° cation."
+  ]
+ },
+ {
+  "id": "zzm2-19",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "Cyclopentene reacts with Br<sub>2</sub> to form a bridged bromonium ion and bromide. Which set of curved arrows correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH:52]1=[CH:53]CCC1.[Br:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": 54,
+      "to": 53
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[CH:52]1=[CH:53]CCC1.[Br:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[CH:52]1=[CH:53]CCC1.[Br:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 54,
+      "to": 52
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[CH:52]1=[CH:53]CCC1.[Br:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": 54,
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "The product has two new C–Br bonds to the same bromine and one broken Br–Br bond. Each bond that forms or breaks needs an arrow.",
+  "w": "Three bond changes happen together. The π bond attacks the near bromine (forming one C–Br bond), a lone pair on that same bromine bonds to the other alkene carbon (closing the three-membered ring), and the Br–Br bond breaks with both electrons going to the far bromine, which leaves as Br<sup>−</sup>. Correct set: <b>π bond → Br, Br lone pair → other carbon, Br–Br bond → far Br</b>. The bridged ion explains why the second bromine later adds anti.",
+  "x": [
+   "",
+   "These arrows make an open carbocation, not the bridged ion: no lone pair of bromine closes the ring. An open cation would allow syn and anti attack, which does not match the observed anti addition.",
+   "A bromine lone pair attacking an alkene carbon while the π bond stays intact would give that carbon five bonds. The π bond must be used.",
+   "Without an arrow breaking the Br–Br bond, the near bromine would hold three bonds (two carbons plus the other Br), and no bromide would be released."
+  ]
+ },
+ {
+  "id": "zzm2-20",
+  "t": "addition",
+  "d": 3,
+  "k": 0,
+  "q": "(<i>E</i>)-3-Hexene reacts with Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub>. The trans bromonium ion is opened by bromide as drawn, with Br<sup>−</sup> approaching from the face opposite the bridging bromine. What is the stereochemical outcome?",
+  "s": [
+   {
+    "smi": "[Br-:51].CC[C@@H:52]1[C@@H:53](CC)[Br+:54]1",
+    "lp": [
+     51,
+     54
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   "?"
+  ],
+  "c": [
+   "meso-3,4-Dibromohexane only",
+   "A racemic mixture of (3<i>R</i>,4<i>R</i>)- and (3<i>S</i>,4<i>S</i>)-3,4-dibromohexane",
+   "(3<i>R</i>,4<i>R</i>)-3,4-Dibromohexane only",
+   "A mixture of meso and racemic 3,4-dibromohexane"
+  ],
+  "h": "Anti addition to a trans alkene: think of (<i>E</i>)-2-butene + Br<sub>2</sub>. Then check whether the product has an internal mirror plane.",
+  "w": "Backside opening of the bromonium ion puts the two bromines anti: overall anti addition. For a symmetric alkene, anti addition to the <i>E</i> isomer gives a product with stereocenters of opposite descriptor (3<i>R</i>,4<i>S</i>), which has an internal mirror plane. Attack at either carbon, or on the bromonium from either face of the alkene, gives the same compound: <b>meso-3,4-dibromohexane only</b>.",
+  "x": [
+   "",
+   "The racemic (<i>R</i>,<i>R</i>)/(<i>S</i>,<i>S</i>) pair comes from anti addition to the <i>Z</i> alkene, (<i>Z</i>)-3-hexene. Mixing up which alkene isomer gives which outcome is the usual trap.",
+   "A single enantiomer cannot form from achiral starting materials and reagents; and the <i>E</i> alkene gives the meso compound, not (<i>R</i>,<i>R</i>).",
+   "A mixture of meso and racemic products would result from an open carbocation (syn and anti attack). The bridged bromonium ion allows only anti attack, so the addition is stereospecific."
+  ]
+ },
+ {
+  "id": "zzm2-21",
+  "t": "addition",
+  "d": 3,
+  "k": 0,
+  "q": "In bromohydrin formation from 1-methylcyclopentene (Br<sub>2</sub>, H<sub>2</sub>O), water opens the bromonium ion drawn. Which set of curved arrows shows the step that leads to the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH2:51].C[C:52]12CCC[CH:53]1[Br+:54]2",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].C[C:52]12CCC[CH:53]1[Br+:54]2",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].C[C:52]12CCC[CH:53]1[Br+:54]2",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].C[C:52]12CCC[CH:53]1[Br+:54]2",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "In an unsymmetrical bromonium ion, one C–Br bond is longer and that carbon carries more positive charge. Which carbon is it?",
+  "w": "The bromonium ion is unsymmetrical: the C–Br bond to the tertiary carbon is weaker and that carbon carries more of the positive charge (more S<sub>N</sub>1-like character). Water attacks there from the back face, and the C–Br bond to that carbon breaks, with its electrons going to bromine. Correct set: <b>water lone pair → tertiary carbon, tertiary C–Br bond → Br</b>. After deprotonation the product is trans-2-bromo-1-methylcyclopentanol (OH on the more substituted carbon, Br and OH anti).",
+  "x": [
+   "",
+   "Attack at the secondary carbon is the S<sub>N</sub>2-style guess (less hindered), but bromonium opening is controlled by where positive charge builds up, so it puts Br on the tertiary carbon, the minor regiochemistry.",
+   "Water bonding to the bromine would give bromine three bonds and does nothing to open the ring. Nucleophiles attack a ring carbon.",
+   "With no arrow breaking a C–Br bond, the tertiary carbon would end up with five bonds. The ring must open as the C–O bond forms."
+  ]
+ },
+ {
+  "id": "zzm2-22",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "2-Methylpropene reacts with Br<sub>2</sub> in water. The step in which water opens the bromonium ion is drawn. After a final proton transfer, what is the major product?",
+  "s": [
+   {
+    "smi": "[OH2:51].C[C:52]1(C)[CH2:53][Br+:54]1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "arrow": "−H<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(O)CBr"
+   },
+   {
+    "smi": "CC(C)(Br)CO"
+   },
+   {
+    "smi": "CC(C)(Br)CBr"
+   },
+   {
+    "smi": "CC(C)(O)CO"
+   }
+  ],
+  "h": "Water, not bromide, is the main nucleophile because it is the solvent. Which carbon does the drawn arrow send it to?",
+  "w": "Water is present in large excess, so it outcompetes bromide in opening the bromonium ion. It attacks the more substituted (tertiary) carbon, which carries more positive charge, and the C–Br bond to that carbon breaks. Bromine stays on the CH<sub>2</sub>. Loss of H<sup>+</sup> from the oxonium ion gives the bromohydrin <b>1-bromo-2-methyl-2-propanol</b>.",
+  "x": [
+   "",
+   "2-Bromo-2-methyl-1-propanol has the regiochemistry reversed. The drawn arrow puts oxygen on the tertiary carbon, the more δ+ end of the bromonium ion.",
+   "The vicinal dibromide forms when bromide opens the ion, as in an inert solvent. In water the solvent is the far more abundant nucleophile.",
+   "A diol would need a second oxygen nucleophile to displace the bromine; Br<sub>2</sub>/H<sub>2</sub>O stops at the bromohydrin."
+  ]
+ },
+ {
+  "id": "zzm2-23",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "In the oxymercuration of 3,3-dimethyl-1-butene (Hg(OAc)<sub>2</sub>, H<sub>2</sub>O), water opens the mercurinium ion. Which set of curved arrows shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH2:51].[CH3:56][C:57](C)(C)[CH:52]1[CH2:53][Hg+:54]1OC(C)=O",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].[CH3:56][C:57](C)(C)[CH:52]1[CH2:53][Hg+:54]1OC(C)=O",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].[CH3:56][C:57](C)(C)[CH:52]1[CH2:53][Hg+:54]1OC(C)=O",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].[CH3:56][C:57](C)(C)[CH:52]1[CH2:53][Hg+:54]1OC(C)=O",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "The mercurinium ion is bridged, like a bromonium ion. Where is the partial positive charge larger, and does a free carbocation ever form?",
+  "w": "Like a bromonium ion, the mercurinium ion is opened at the more substituted carbon (here the secondary CH), which carries more partial positive charge, and the C–Hg bond to that carbon breaks. Because the bridge prevents a free carbocation, no methyl shift occurs even with a tert-butyl group next door. Correct set: <b>water lone pair → secondary carbon, that C–Hg bond → Hg</b>. Demercuration (NaBH<sub>4</sub>) then gives 3,3-dimethyl-2-butanol, the unrearranged Markovnikov alcohol.",
+  "x": [
+   "",
+   "Attack at the CH<sub>2</sub> carbon gives anti-Markovnikov orientation. The CH<sub>2</sub>–Hg bond is the stronger one and that carbon carries less δ+.",
+   "A methyl shift needs a free carbocation. The bridged mercurinium ion never opens to one, which is why oxymercuration avoids the rearrangement seen in acid-catalyzed hydration.",
+   "Without breaking a C–Hg bond, the attacked carbon would end with five bonds. The ring must open as the C–O bond forms."
+  ]
+ },
+ {
+  "id": "zzm2-24",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "The first step of HCl addition to 2-methyl-2-butene is drawn. What intermediate does this step form?",
+  "s": [
+   {
+    "smi": "C[CH:52]=[C:53](C)C.[H:54][Cl:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC[C+](C)C"
+   },
+   {
+    "smi": "C[CH+]C(C)C"
+   },
+   {
+    "smi": "CC[C](C)C"
+   },
+   {
+    "smi": "CC1[Cl+]C1(C)C"
+   }
+  ],
+  "h": "The arrows move pairs of electrons and give H to one alkene carbon. Put the proton where it leaves the more stable cation.",
+  "w": "Full-headed arrows mean a polar, two-electron step: the π bond takes H<sup>+</sup> and chloride leaves. The proton bonds to the CH carbon (C3), leaving the positive charge on C2, which carries two methyls and an ethyl: the <b>tertiary 2-methyl-2-butyl cation</b>. This is the origin of Markovnikov orientation.",
+  "x": [
+   "",
+   "Putting H on C2 instead would leave a secondary cation on C3. The proton adds so that the more stable (tertiary) cation forms.",
+   "A radical forms only from one-electron (fishhook) steps, as in HBr/peroxide addition. These arrows are two-electron arrows, and HCl does not add by a radical path.",
+   "A bridged halonium ion forms from X<sub>2</sub>, where the halogen that bonds to carbon still has lone pairs to share. In HCl addition, the hydrogen bonds to carbon and chloride leaves, so no Cl bridge forms."
+  ]
+ },
+ {
+  "id": "zzm2-25",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "A student drew water adding to the 2-methyl-2-butyl cation during acid-catalyzed hydration as shown. What is wrong with this drawing?",
+  "s": [
+   {
+    "smi": "[OH2:51].CC[C+:52](C)C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 52,
+      "to": 51
+     }
+    ]
+   }
+  ],
+  "c": [
+   "The arrow should start at an oxygen lone pair, not at the electron-poor carbocation",
+   "Water cannot react with a carbocation, so hydroxide ion must be used instead",
+   "The arrow should be a fishhook because only one new bond forms",
+   "The cation must first rearrange to a more stable cation before water can add"
+  ],
+  "h": "Curved arrows show where electrons come from. Which species in the drawing actually has electrons to share?",
+  "w": "A curved arrow must begin at electrons (a lone pair or a bond). The carbocation has an empty p orbital and nothing to donate, while water's oxygen has two lone pairs. The new C–O bond is drawn as a full arrow from an oxygen lone pair to the cationic carbon. The error: <b>the arrow starts at the carbocation instead of at an oxygen lone pair</b>.",
+  "x": [
+   "",
+   "Water is a fine nucleophile toward a carbocation; acid-catalyzed hydration works this way, and hydroxide would not survive in the acidic solution.",
+   "A fishhook means one electron moves. Forming a two-electron C–O bond from a lone pair needs a full-headed arrow.",
+   "The 2-methyl-2-butyl cation is already tertiary; no hydride or methyl shift could make it more stable."
+  ]
+ }
+]

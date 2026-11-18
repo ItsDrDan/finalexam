@@ -1,0 +1,1727 @@
+[
+ {
+  "id": "mech1-01",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "In the first step of cyanohydrin formation (NaCN, HCN), cyanide ion adds to acetaldehyde. Which set of curved arrows correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[C-:51]#[N:52].C[CH:53]=[O:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     52,
+     54
+    ]
+   },
+   {
+    "smi": "[C-:51]#[N:52].C[CH:53]=[O:54]",
+    "arrows": [
+     {
+      "from": 52,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     52,
+     54
+    ]
+   },
+   {
+    "smi": "[C-:51]#[N:52].C[CH:53]=[O:54]",
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 51
+     }
+    ],
+    "lp": [
+     51,
+     52,
+     54
+    ]
+   },
+   {
+    "smi": "[C-:51]#[N:52].C[CH:53]=[O:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ],
+    "lp": [
+     51,
+     52,
+     54
+    ]
+   }
+  ],
+  "h": "Find the nucleophilic atom of cyanide (the one carrying the negative charge), then make sure the carbonyl carbon still has only four bonds after it is attacked.",
+  "w": "Cyanide is a carbon nucleophile: the lone pair on the negatively charged carbon attacks the electrophilic carbonyl carbon, and because that carbon cannot hold five bonds, the C=O π electrons move onto oxygen at the same time. The correct drawing is <b>an arrow from the cyanide carbon lone pair to the carbonyl carbon plus an arrow from the C=O π bond onto oxygen</b>, giving the tetrahedral alkoxide CH<sub>3</sub>CH(O<sup>−</sup>)C≡N, which HCN then protonates.",
+  "x": [
+   "",
+   "This arrow starts at the nitrogen lone pair, so it would make a C–N bond and an isocyanide (–N≡C) product; the cyanohydrin has a new C–C bond, so the carbon end of cyanide must attack.",
+   "This arrow starts at the C=O π bond and points at cyanide, as if the carbonyl were the nucleophile; the carbonyl carbon is the electrophile, and arrows must start at the electron-rich cyanide.",
+   "With only the attack arrow, the carbonyl carbon would end up with five bonds (H, CH<sub>3</sub>, CN and a double bond to O); the π bond must move onto oxygen in the same step."
+  ]
+ },
+ {
+  "id": "mech1-02",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "In acid-catalyzed acetal formation from acetaldehyde and methanol, the protonated hemiacetal loses water to give a resonance-stabilized oxocarbenium ion. Which drawing correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[CH:53]([O:51]C)[OH2+:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     54
+    ]
+   },
+   {
+    "smi": "C[CH:53]([O:51]C)[OH:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     54
+    ]
+   },
+   {
+    "smi": "C[CH:53]([O:51]C)[OH2+:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     }
+    ],
+    "lp": [
+     51,
+     54
+    ]
+   },
+   {
+    "smi": "C[OH:55].C[CH:53]([O:51]C)[OH2+:54]",
+    "arrows": [
+     {
+      "from": 55,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     55,
+     51,
+     54
+    ]
+   }
+  ],
+  "h": "Under acid, what has to happen to an OH before it can leave? And which neighboring atom can push electrons in to replace the bond that breaks?",
+  "w": "Water is a good leaving group only after the OH has been protonated. The lone pair on the methoxy oxygen then pushes in to form the C=O<sup>+</sup> π bond while the C–OH<sub>2</sub><sup>+</sup> bond breaks with its electrons going to oxygen: <b>OCH<sub>3</sub> lone pair → C–O bond, and C–OH<sub>2</sub><sup>+</sup> bond → O</b>. The product, CH<sub>3</sub>CH=O<sup>+</sup>CH<sub>3</sub>, is the oxocarbenium ion that a second methanol then attacks.",
+  "x": [
+   "",
+   "Here the OH has not been protonated, so the leaving group would be hydroxide; in acid, OH<sup>−</sup> is far too poor a leaving group (and cannot exist in acid), so the OH must be protonated first.",
+   "The methoxy lone pair forms a new π bond, but no bond breaks, so the central carbon would have five bonds; the C–OH<sub>2</sub><sup>+</sup> bond must break in the same step.",
+   "This is a direct S<sub>N</sub>2-style displacement by a second methanol; acetal formation goes through the planar oxocarbenium ion (loss of water first, assisted by the OCH<sub>3</sub> lone pair), and methanol adds afterward."
+  ]
+ },
+ {
+  "id": "mech1-03",
+  "t": "carbonyl",
+  "d": 3,
+  "k": 0,
+  "q": "Acetone and methylamine form an imine (H<sub>3</sub>O<sup>+</sup> catalyst, pH ≈ 5). Which drawing correctly shows the step in which the carbinolamine loses water to give an iminium ion?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:53](C)([NH:51]C)[OH2+:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     54
+    ]
+   },
+   {
+    "smi": "C[C:53](C)([NH:51]C)[OH:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     54
+    ]
+   },
+   {
+    "smi": "C[C:53](C)([NH:51]C)[OH2+:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     }
+    ],
+    "lp": [
+     51,
+     54
+    ]
+   },
+   {
+    "smi": "C[C:53](C)([NH:51]C)[OH2+:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     },
+     {
+      "from": 53,
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     54
+    ]
+   }
+  ],
+  "h": "Check three things in each drawing: is the leaving group a neutral molecule, does every arrow start at electrons, and does carbon keep four bonds?",
+  "w": "In the dehydration step the carbinolamine OH has already been protonated (the reason for the mild acid). The nitrogen lone pair pushes in to make the C=N π bond and the C–O bond breaks with both electrons going to the positive oxygen, which leaves as water: <b>N lone pair → C–N bond; C–OH<sub>2</sub><sup>+</sup> bond → O</b>. This gives the iminium ion (CH<sub>3</sub>)<sub>2</sub>C=N<sup>+</sup>HCH<sub>3</sub>, which loses an N–H proton to give the imine.",
+  "x": [
+   "",
+   "The OH is not protonated, so it would leave as hydroxide ion, a strong base and poor leaving group that cannot form in acid; protonation must come first.",
+   "Only the C=N bond forms, so the carbon would have five bonds; the C–O bond has to break as the nitrogen pushes in.",
+   "The second arrow starts at the carbon atom, which has no lone pair; the electrons that leave are those of the C–O bond, so the arrow must start on that bond and end on oxygen."
+  ]
+ },
+ {
+  "id": "mech1-04",
+  "t": "carbonyl",
+  "d": 3,
+  "k": 0,
+  "q": "Cyclohexanone and dimethylamine (a secondary amine) form the iminium ion shown. Because nitrogen has no H to lose, water removes a proton to give the enamine. Which set of arrows correctly converts the iminium ion into the enamine?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH2:56].[H:55][CH:53]1CCCC[C:52]1=[N+:51](C)C",
+    "arrows": [
+     {
+      "from": 56,
+      "to": 55
+     },
+     {
+      "from": [
+       55,
+       53
+      ],
+      "to": [
+       53,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       51
+      ],
+      "to": 51
+     }
+    ],
+    "lp": [
+     56
+    ]
+   },
+   {
+    "smi": "[OH2:56].[H:55][CH:53]1CCCC[C:52]1=[N+:51](C)C",
+    "arrows": [
+     {
+      "from": 56,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       51
+      ],
+      "to": 51
+     }
+    ],
+    "lp": [
+     56
+    ]
+   },
+   {
+    "smi": "[OH2:56].[H:55][CH:53]1CCCC[C:52]1=[N+:51](C)C",
+    "arrows": [
+     {
+      "from": 56,
+      "to": 55
+     },
+     {
+      "from": [
+       55,
+       53
+      ],
+      "to": [
+       53,
+       52
+      ]
+     }
+    ],
+    "lp": [
+     56
+    ]
+   },
+   {
+    "smi": "[OH2:56].[H:55][CH:53]1CCCC[C:52]1=[N+:51](C)C",
+    "arrows": [
+     {
+      "from": 56,
+      "to": 55
+     },
+     {
+      "from": [
+       55,
+       53
+      ],
+      "to": 51
+     }
+    ],
+    "lp": [
+     56
+    ]
+   }
+  ],
+  "h": "An enamine has its C=C between the former carbonyl carbon and an α carbon. Which H must be removed, and where do the C=N π electrons go?",
+  "w": "Water removes a proton from the <b>α carbon</b>; the C–H bond electrons become the new C=C π bond, and the C=N<sup>+</sup> π electrons move onto nitrogen, which becomes neutral with a lone pair. Three arrows: <b>H<sub>2</sub>O lone pair → α H, C–H bond → C–C bond, C=N π bond → N</b>. Every carbon keeps four bonds and the product is 1-(dimethylamino)cyclohexene.",
+  "x": [
+   "",
+   "Water adding to the iminium carbon gives back the carbinolamine; that is a real step, but it is the reverse of the dehydration (hydrolysis), not the step that forms the enamine.",
+   "The new C=C forms but the C=N π bond does not break, so the former carbonyl carbon would carry five bonds; the C=N π electrons must move onto nitrogen.",
+   "The C–H electrons are sent to nitrogen, an atom not bonded to that carbon; this would make a three-membered ring and give nitrogen five bonds. Electrons move only to an adjacent atom or bond."
+  ]
+ },
+ {
+  "id": "mech1-05",
+  "t": "carbonyl",
+  "d": 1,
+  "k": 0,
+  "q": "In acid-catalyzed hydration of acetone, water adds to the protonated carbonyl. Which set of curved arrows correctly shows this addition step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH2:51].C[C:53](C)=[OH+:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51
+    ]
+   },
+   {
+    "smi": "[OH2:51].C[C:53](C)=[OH+:54]",
+    "arrows": [
+     {
+      "from": 53,
+      "to": 51
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51
+    ]
+   },
+   {
+    "smi": "[OH2:51].C[C:53](C)=[OH+:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ],
+    "lp": [
+     51
+    ]
+   },
+   {
+    "smi": "[OH2:51].C[C:53](C)=[OH+:54]",
+    "arrows": [
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 51
+     }
+    ],
+    "lp": [
+     51
+    ]
+   }
+  ],
+  "h": "Curved arrows start at an electron source (a lone pair or a bond) and point to where the electrons go. Which species here is the electron source?",
+  "w": "Water is the nucleophile: one of its oxygen lone pairs attacks the electrophilic carbon of the protonated carbonyl, and the C=O<sup>+</sup>H π electrons move onto oxygen, neutralizing it. The correct drawing has <b>a water lone pair → carbonyl carbon and the C=O π bond → O</b>, giving the protonated gem-diol (CH<sub>3</sub>)<sub>2</sub>C(OH)(OH<sub>2</sub><sup>+</sup>).",
+  "x": [
+   "",
+   "The first arrow starts at the carbonyl carbon, which has no lone pair to donate; it is the electron-poor atom, so arrows should end there, not start there.",
+   "Only the attack arrow is drawn, so the carbonyl carbon would end up with five bonds; the π bond must move onto the oxygen at the same time.",
+   "This arrow treats the C=O π bond as the nucleophile attacking water; the protonated carbonyl is the electrophile, and the electrons come from water's lone pair."
+  ]
+ },
+ {
+  "id": "mech1-06",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "In saponification of methyl acetate, hydroxide ion first attacks the ester. Which set of curved arrows correctly shows this first step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH-:51].C[C:53](=[O:54])[O:55]C",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     54,
+     55
+    ]
+   },
+   {
+    "smi": "[OH-:51].C[C:53](=[O:54])[O:55]C",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ],
+    "lp": [
+     51,
+     54,
+     55
+    ]
+   },
+   {
+    "smi": "[OH-:51].C[C:53](=[O:54])[O:55]C",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ],
+    "lp": [
+     51,
+     54,
+     55
+    ]
+   },
+   {
+    "smi": "[OH-:51].C[C:53](=[O:54])[O:55]C",
+    "arrows": [
+     {
+      "from": 53,
+      "to": 51
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     54,
+     55
+    ]
+   }
+  ],
+  "h": "Nucleophilic acyl substitution is addition first, elimination second. What must happen to the C=O π bond when the nucleophile adds?",
+  "w": "Nucleophilic acyl substitution is an <b>addition–elimination</b> mechanism, not a one-step displacement. In the first step the hydroxide lone pair attacks the carbonyl carbon and the C=O π electrons move onto oxygen: <b>OH<sup>−</sup> lone pair → C, C=O π bond → O</b>. The product is the tetrahedral alkoxide intermediate CH<sub>3</sub>C(O<sup>−</sup>)(OH)OCH<sub>3</sub>, which collapses in the next step to expel methoxide.",
+  "x": [
+   "",
+   "This is an S<sub>N</sub>2-style direct displacement at the acyl carbon. A trigonal carbonyl carbon is not attacked from the back side; the π bond accepts the electrons first, forming a tetrahedral intermediate, and methoxide leaves in a separate step.",
+   "Only the attack arrow is shown, so the carbonyl carbon would have five bonds; the C=O π electrons must move onto oxygen as hydroxide adds.",
+   "The first arrow starts at the carbonyl carbon, which has no lone pair; the electrons come from hydroxide, so the arrow must start at the hydroxide oxygen and point to the carbon."
+  ]
+ },
+ {
+  "id": "mech1-07",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "In Fischer esterification of acetic acid with methanol (H<sub>2</sub>SO<sub>4</sub> catalyst), the tetrahedral intermediate is protonated on one OH and then loses water. Which drawing correctly shows the loss of water?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:53]([OH:51])([OH2+:54])[O:55]C",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     54,
+     55
+    ]
+   },
+   {
+    "smi": "C[C:53]([OH:51])([OH:54])[O:55]C",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     54,
+     55
+    ]
+   },
+   {
+    "smi": "C[C:53]([OH:51])([OH2+:54])[O:55]C",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     }
+    ],
+    "lp": [
+     51,
+     54,
+     55
+    ]
+   },
+   {
+    "smi": "C[C:53]([OH:51])([OH2+:54])[O:55]C",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 53
+     }
+    ],
+    "lp": [
+     51,
+     54,
+     55
+    ]
+   }
+  ],
+  "h": "Water leaves only from a protonated oxygen, and the bond electrons go with the leaving group. Which oxygen pushes in to replace the broken bond?",
+  "w": "Once one OH is protonated, the lone pair of the other OH pushes in to form a C=O<sup>+</sup>H π bond while the C–OH<sub>2</sub><sup>+</sup> bond breaks with its electrons going to oxygen: <b>OH lone pair → C–O bond; C–OH<sub>2</sub><sup>+</sup> bond → O</b>. This releases neutral water and gives the protonated ester CH<sub>3</sub>C(=O<sup>+</sup>H)OCH<sub>3</sub>, which loses H<sup>+</sup> to give methyl acetate and regenerate the acid catalyst.",
+  "x": [
+   "",
+   "Neither OH is protonated, so the leaving group would be hydroxide ion, which is a poor leaving group and cannot form in strongly acidic solution; the OH must be protonated before it leaves.",
+   "A new π bond forms but nothing leaves, so the central carbon would have five bonds; the C–OH<sub>2</sub><sup>+</sup> bond must break in the same step.",
+   "The leaving-group arrow points back to carbon, which would leave the oxygen with only two bonds and a 2+ charge; when a bond breaks heterolytically here, the electrons go to the more electronegative oxygen."
+  ]
+ },
+ {
+  "id": "mech1-08",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Acetyl chloride reacts with methylamine through the tetrahedral intermediate shown. Which set of curved arrows correctly shows the collapse of this intermediate that leads toward the amide product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:53]([O-:54])([Cl:55])[NH2+:56]C",
+    "arrows": [
+     {
+      "from": 54,
+      "to": [
+       54,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ],
+    "lp": [
+     54,
+     55
+    ]
+   },
+   {
+    "smi": "C[C:53]([O-:54])([Cl:55])[NH2+:56]C",
+    "arrows": [
+     {
+      "from": 54,
+      "to": [
+       54,
+       53
+      ]
+     }
+    ],
+    "lp": [
+     54,
+     55
+    ]
+   },
+   {
+    "smi": "C[C:53]([O-:54])([Cl:55])[NH2+:56]C",
+    "arrows": [
+     {
+      "from": 54,
+      "to": [
+       54,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       56
+      ],
+      "to": 56
+     }
+    ],
+    "lp": [
+     54,
+     55
+    ]
+   },
+   {
+    "smi": "C[C:53]([O-:54])([Cl:55])[NH2+:56]C",
+    "arrows": [
+     {
+      "from": 53,
+      "to": 54
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ],
+    "lp": [
+     54,
+     55
+    ]
+   }
+  ],
+  "h": "The C=O reforms from the oxygen lone pair. Of the groups on the tetrahedral carbon, which is the best leaving group (the weakest base)?",
+  "w": "The negatively charged oxygen pushes a lone pair back in to re-form the C=O π bond, and the best leaving group departs with the C–Cl bonding electrons: <b>O<sup>−</sup> lone pair → C–O bond; C–Cl bond → Cl</b>. Chloride (conjugate base of HCl, pK<sub>a</sub> ≈ −7) is a far better leaving group than the amine, so this gives the N-protonated amide, which loses H<sup>+</sup> to a second equivalent of amine to give N-methylacetamide.",
+  "x": [
+   "",
+   "The C=O re-forms but nothing leaves, so carbon would have five bonds; a leaving group must depart as the π bond re-forms.",
+   "Expelling methylamine just reverses the addition and gives back acetyl chloride; it does not lead to the amide. Chloride is the far better leaving group and is the one lost.",
+   "The first arrow starts at the carbon atom, which has no lone pair; the π bond is made from the oxygen's lone pair, so the arrow must start on O<sup>−</sup> and end on the C–O bond."
+  ]
+ },
+ {
+  "id": "mech1-09",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "In acid-catalyzed hydrolysis of acetonitrile, water attacks the N-protonated nitrile. Which set of curved arrows correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH2:51].C[C:53]#[NH+:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51
+    ]
+   },
+   {
+    "smi": "[OH2:51].C[C:53]#[NH+:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     }
+    ],
+    "lp": [
+     51
+    ]
+   },
+   {
+    "smi": "[OH2:51].C[C:53]#[NH+:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ],
+    "lp": [
+     51
+    ]
+   },
+   {
+    "smi": "[OH2:51].C[C:53]#[NH+:54]",
+    "arrows": [
+     {
+      "from": 53,
+      "to": 51
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51
+    ]
+   }
+  ],
+  "h": "Which atom of the protonated nitrile is electron-poor and can accept a nucleophile if one π bond moves away?",
+  "w": "Protonating the nitrile nitrogen makes the nitrile carbon strongly electrophilic. Water attacks that carbon and one C≡N π bond moves onto nitrogen: <b>water lone pair → nitrile C; one C≡N π bond → N</b>. This gives CH<sub>3</sub>C(=NH)OH<sub>2</sub><sup>+</sup>, which loses a proton to give the imidic acid; tautomerization then gives acetamide, and further hydrolysis gives acetic acid.",
+  "x": [
+   "",
+   "Water attacks nitrogen here, which already has four bonds and no lone pair to spare in the protonated nitrile; the electrophilic atom is the carbon, and an N–O bond is not formed in nitrile hydrolysis.",
+   "Without a π bond moving onto nitrogen, the nitrile carbon would have five bonds after water adds.",
+   "The arrow starts at the nitrile carbon, which has no lone pair; the nucleophile is water, so the arrow must start at its oxygen lone pair."
+  ]
+ },
+ {
+  "id": "mech1-10",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "When LiAlH<sub>4</sub> reduces methyl acetate, hydride addition gives the tetrahedral intermediate shown (counterion omitted). Which set of curved arrows correctly shows the next step, which forms an aldehyde that is then reduced again?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[CH:53]([O-:54])[O:55][CH3:57]",
+    "arrows": [
+     {
+      "from": 54,
+      "to": [
+       54,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ],
+    "lp": [
+     54,
+     55
+    ]
+   },
+   {
+    "smi": "C[CH:53]([O-:54])[O:55][CH3:57]",
+    "arrows": [
+     {
+      "from": 54,
+      "to": [
+       54,
+       53
+      ]
+     },
+     {
+      "from": [
+       55,
+       57
+      ],
+      "to": 55
+     }
+    ],
+    "lp": [
+     54,
+     55
+    ]
+   },
+   {
+    "smi": "C[CH:53]([O-:54])[O:55][CH3:57]",
+    "arrows": [
+     {
+      "from": 54,
+      "to": [
+       54,
+       53
+      ]
+     }
+    ],
+    "lp": [
+     54,
+     55
+    ]
+   },
+   {
+    "smi": "C[CH:53]([O-:54])[O:55][CH3:57]",
+    "arrows": [
+     {
+      "from": 53,
+      "to": 54
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ],
+    "lp": [
+     54,
+     55
+    ]
+   }
+  ],
+  "h": "This is the elimination half of nucleophilic acyl substitution. Which bond to the tetrahedral carbon must break to give acetaldehyde?",
+  "w": "The tetrahedral alkoxide collapses: the O<sup>−</sup> lone pair re-forms the C=O and the <b>acyl carbon–OCH<sub>3</sub> bond</b> breaks with its electrons going to oxygen, so the arrows are <b>O<sup>−</sup> lone pair → C–O bond; C–OCH<sub>3</sub> bond → O</b>. This releases methoxide and acetaldehyde. An aldehyde is more reactive than the ester, so it is reduced again at once, and after workup the products are ethanol and methanol. This is why LiAlH<sub>4</sub> cannot stop at the aldehyde (DIBAL-H at −78 °C can).",
+  "x": [
+   "",
+   "This breaks the O–CH<sub>3</sub> (alkyl–oxygen) bond instead of the acyl–oxygen bond; the central carbon would still have five bonds and a methyl cation would form. Nucleophilic acyl substitution cleaves the acyl C–O bond.",
+   "The C=O re-forms but no group leaves, so the central carbon would have five bonds.",
+   "The first arrow starts at the carbon atom, which has no lone pair; the new π bond comes from the oxygen's lone pair."
+  ]
+ },
+ {
+  "id": "mech1-11",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "Fischer esterification begins when the acid catalyst (shown as H<sub>3</sub>O<sup>+</sup>) protonates acetic acid to make the carbonyl carbon more electrophilic. Which set of curved arrows correctly shows this activating step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:53](=[O:54])[OH:55].[H:56][OH2+:57]",
+    "arrows": [
+     {
+      "from": 54,
+      "to": 56
+     },
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": 57
+     }
+    ],
+    "lp": [
+     54,
+     55,
+     57
+    ]
+   },
+   {
+    "smi": "C[C:53](=[O:54])[OH:55].[H:56][OH2+:57]",
+    "arrows": [
+     {
+      "from": 55,
+      "to": 56
+     },
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": 57
+     }
+    ],
+    "lp": [
+     54,
+     55,
+     57
+    ]
+   },
+   {
+    "smi": "C[C:53](=[O:54])[OH:55].[H:56][OH2+:57]",
+    "arrows": [
+     {
+      "from": 54,
+      "to": 56
+     }
+    ],
+    "lp": [
+     54,
+     55,
+     57
+    ]
+   },
+   {
+    "smi": "C[C:53](=[O:54])[OH:55].[H:56][OH2+:57]",
+    "arrows": [
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     54,
+     55,
+     57
+    ]
+   }
+  ],
+  "h": "Protonating which oxygen gives a cation in which the positive charge is shared with the carbonyl carbon by resonance? And what happens to the H–O bond of H<sub>3</sub>O<sup>+</sup>?",
+  "w": "The carbonyl oxygen is the more basic site, and protonating it gives a cation whose positive charge is delocalized onto the carbonyl carbon (and the OH oxygen), which activates that carbon toward methanol. Two arrows: <b>carbonyl O lone pair → H, and the H–O bond of H<sub>3</sub>O<sup>+</sup> → its O</b>, releasing water.",
+  "x": [
+   "",
+   "Protonating the OH oxygen gives a cation with no resonance delocalization onto the carbonyl carbon, so it does not activate the carbonyl toward attack; the carbonyl oxygen is the more basic site.",
+   "The new O–H bond forms but the H–O bond of H<sub>3</sub>O<sup>+</sup> never breaks, so the hydrogen would have two bonds.",
+   "The arrow runs from the H–O bond to the carbonyl oxygen, as if hydronium donated electrons to oxygen; the carbonyl oxygen's lone pair is the electron source, and it must reach out to the proton."
+  ]
+ },
+ {
+  "id": "mech1-12",
+  "t": "carbonyl",
+  "d": 1,
+  "k": 0,
+  "q": "The arrows show the hydride-transfer step when NaBH<sub>4</sub> reduces acetophenone. What species is formed directly in this step, before any protonation?",
+  "s": [
+   {
+    "smi": "[H:51][B-:52]([H])([H])[H].C[C:53](=[O:54])c1ccccc1",
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     54
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC([O-])c1ccccc1"
+   },
+   {
+    "smi": "CC(O)c1ccccc1"
+   },
+   {
+    "smi": "C[C-](O)c1ccccc1"
+   },
+   {
+    "smi": "CCc1ccccc1"
+   }
+  ],
+  "h": "Follow each arrow: where does the hydride end up, and where do the C=O π electrons go?",
+  "w": "The B–H bond electrons (a hydride) form a new C–H bond at the carbonyl carbon and the C=O π electrons move onto oxygen, so this step gives the <b>alkoxide ion, 1-phenylethoxide</b>, PhCH(CH<sub>3</sub>)O<sup>−</sup>. The neutral alcohol forms only in a later proton transfer (from the alcohol solvent or aqueous workup).",
+  "x": [
+   "",
+   "The neutral alcohol is the final product, but it needs a separate proton-transfer step; the arrows shown leave a negative charge on oxygen.",
+   "This places the hydride on oxygen and the negative charge on carbon; the arrows deliver hydride to the carbonyl carbon and send the π electrons to the more electronegative oxygen.",
+   "Complete deoxygenation to ethylbenzene requires Wolff–Kishner or Clemmensen conditions; NaBH<sub>4</sub> adds one hydride and keeps the oxygen."
+  ]
+ },
+ {
+  "id": "mech1-13",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "The arrows show methylmagnesium bromide adding to benzaldehyde in ether. After aqueous acid workup, what is the product?",
+  "s": [
+   {
+    "smi": "[CH3:51][Mg:52]Br.[CH:53](=[O:54])c1ccccc1",
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     54
+    ]
+   },
+   {
+    "arrow": "",
+    "below": "then H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "Racemic 1-phenylethanol",
+   "(<i>R</i>)-1-Phenylethanol only",
+   "2-Phenylethanol",
+   "Benzyl methyl ether"
+  ],
+  "h": "Which atom of the Grignard reagent is nucleophilic, which atom does it bond to, and from which face(s) can it approach a planar carbonyl?",
+  "w": "The C–Mg bond is polarized with carbon δ−, so the methyl carbon attacks the carbonyl carbon and the π electrons go to oxygen, giving a magnesium alkoxide; workup protonates it to PhCH(OH)CH<sub>3</sub>. The new stereocenter forms from a planar (trigonal) carbonyl that is attacked equally from both faces by an achiral reagent, so the product is <b>racemic 1-phenylethanol</b>.",
+  "x": [
+   "",
+   "An achiral Grignard reagent attacks the two faces of the planar aldehyde at equal rates, so both enantiomers form equally; a single enantiomer needs a chiral reagent or catalyst.",
+   "2-Phenylethanol (PhCH<sub>2</sub>CH<sub>2</sub>OH) would come from PhCH<sub>2</sub>MgBr + formaldehyde or from an epoxide; here the methyl bonds to the former carbonyl carbon, so the OH sits on the carbon attached to the ring.",
+   "An ether would need the methyl to bond to oxygen; the nucleophilic carbon attacks the electrophilic carbonyl carbon, not the oxygen."
+  ]
+ },
+ {
+  "id": "mech1-14",
+  "t": "carbonyl",
+  "d": 1,
+  "k": 0,
+  "q": "The arrows show the second step of cyanohydrin formation: the alkoxide formed by cyanide addition to acetaldehyde reacts with HCN. Besides the neutral cyanohydrin, what does this step produce, and why does it matter?",
+  "s": [
+   {
+    "smi": "[O-:51][CH:53](C)C#N.[H:56][C:57]#N",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 56
+     },
+     {
+      "from": [
+       56,
+       57
+      ],
+      "to": 57
+     }
+    ],
+    "lp": [
+     51
+    ]
+   }
+  ],
+  "c": [
+   "Cyanide ion, which is regenerated so only a catalytic amount of base or cyanide is needed",
+   "Hydroxide ion, which makes the mixture basic and drives the reaction to completion",
+   "Hydronium ion, which protonates the carbonyl for the next addition",
+   "Hydrogen gas, which escapes and makes the step irreversible"
+  ],
+  "h": "Follow the H–C bond of HCN: after the alkoxide takes the proton, where do that bond's electrons end up?",
+  "w": "The alkoxide oxygen takes the proton from HCN, and the H–C bond electrons stay on carbon as a lone pair, so the step forms the cyanohydrin and <b>a new cyanide ion</b>. That cyanide can attack another aldehyde, so cyanide acts catalytically: a small amount of base (or NaCN) added to HCN is enough to run the reaction.",
+  "x": [
+   "",
+   "No hydroxide forms; the proton comes from HCN, so the base left behind is its conjugate base, cyanide.",
+   "Nothing here produces H<sub>3</sub>O<sup>+</sup>; the step is a proton transfer from HCN to the alkoxide, which leaves cyanide. Cyanohydrin formation is base-catalyzed.",
+   "H<sub>2</sub> would require a hydride and a proton to combine; the H leaves HCN as a proton and the bonding electrons stay on carbon."
+  ]
+ },
+ {
+  "id": "mech1-15",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "In acid-catalyzed acetal formation, a methanol molecule attacks the oxocarbenium ion as shown. What is the product of <b>this</b> step?",
+  "s": [
+   {
+    "smi": "C[OH:55].C[CH:53]=[O+:51]C",
+    "arrows": [
+     {
+      "from": 55,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       51
+      ],
+      "to": 51
+     }
+    ],
+    "lp": [
+     55,
+     51
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[OH+]C(C)OC"
+   },
+   {
+    "smi": "COC(C)OC"
+   },
+   {
+    "smi": "CC(O)OC"
+   },
+   {
+    "smi": "CC(=O)OC"
+   }
+  ],
+  "h": "Count bonds and lone pairs on the oxygen of the attacking methanol after it forms a new bond. What charge does it carry?",
+  "w": "The methanol oxygen uses a lone pair to bond to the electrophilic carbon, and the C=O<sup>+</sup> π electrons return to the original methoxy oxygen, making it neutral. The attacking oxygen now has three bonds (C, CH<sub>3</sub>, H) and one lone pair, so it carries +1: the product of this step is <b>the protonated acetal</b>, CH<sub>3</sub>CH(OCH<sub>3</sub>)O<sup>+</sup>(H)CH<sub>3</sub>. A separate proton transfer to a base (methanol) then gives the neutral acetal and regenerates the acid catalyst.",
+  "x": [
+   "",
+   "The neutral acetal is the final product, but the oxygen that just attacked still carries its H and a + charge; a separate deprotonation step is needed.",
+   "The hemiacetal is the intermediate that formed before this step (by addition of the first methanol); the oxocarbenium ion was made from it by loss of water.",
+   "An ester has a different oxidation level (three bonds from that carbon to oxygen); acetal formation adds no oxidizing agent and does not create a C=O."
+  ]
+ },
+ {
+  "id": "mech1-16",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "In the Wittig reaction of acetone with Ph<sub>3</sub>P=CH<sub>2</sub>, the ylide carbon attacks the carbonyl as the arrows show (drawn here through the stepwise betaine picture). What is the next intermediate, and what drives the reaction to completion?",
+  "s": [
+   {
+    "smi": "[1*][P+]([1*])([1*])[CH2-:51].C[C:53](C)=[O:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     54
+    ],
+    "ab": [
+     "Ph"
+    ]
+   }
+  ],
+  "c": [
+   "A four-membered oxaphosphetane ring, which breaks apart to the alkene and Ph<sub>3</sub>P=O with its very strong P=O bond",
+   "An epoxide, which opens to the alkene with release of ring strain",
+   "A tertiary carbocation, which loses a proton to give the more substituted alkene",
+   "An enolate, which is protonated on carbon to give the alkene"
+  ],
+  "h": "The negatively charged oxygen and the positively charged phosphorus end up close together. What ring can they make, and which very strong bond appears in the by-product?",
+  "w": "The ylide carbanion adds to the carbonyl carbon to give a betaine-like species with O<sup>−</sup> and P<sup>+</sup> on neighboring carbons (many textbooks show a direct [2+2] instead). The O–P bond then forms, giving <b>a four-membered oxaphosphetane</b>, which fragments into 2-methylpropene, (CH<sub>3</sub>)<sub>2</sub>C=CH<sub>2</sub>, and <b>triphenylphosphine oxide</b>. Formation of the very strong P=O bond is the driving force.",
+  "x": [
+   "",
+   "No epoxide forms in a Wittig reaction; oxygen ends up bonded to phosphorus (in Ph<sub>3</sub>P=O), not to a second carbon. (Sulfur ylides, by contrast, do give epoxides.)",
+   "There is no carbocation: the oxygen stays bonded to carbon until the oxaphosphetane fragments, and the C=C forms exactly where the C=O was, with no choice of more substituted alkene.",
+   "An enolate would need deprotonation at an α carbon; here the ylide carbon bonds to the carbonyl carbon and the oxygen is removed as Ph<sub>3</sub>P=O."
+  ]
+ },
+ {
+  "id": "mech1-17",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "Butanal in methanol forms a hemiacetal with either a catalytic acid or a catalytic base (NaOCH<sub>3</sub>), but the acetal forms only with acid. Why does base not give the acetal?",
+  "c": [
+   "The hemiacetal OH must be protonated to leave as water and form the oxocarbenium ion; in base it would have to leave as hydroxide, a very poor leaving group",
+   "Methoxide is too weak a nucleophile to add to an aldehyde carbonyl",
+   "In base the hemiacetal is deprotonated to an alkoxide, which immediately eliminates methoxide to form an ether",
+   "Base converts the aldehyde to a carboxylate before methanol can add"
+  ],
+  "h": "Compare the two halves of acetal formation: addition (which base can help) and substitution of the OH (what does that need?).",
+  "w": "Hemiacetal formation is only an addition, which base catalyzes by supplying the strong nucleophile CH<sub>3</sub>O<sup>−</sup>. Converting the hemiacetal to the acetal requires the OH to leave. In acid it is protonated and leaves as neutral water, helped by the OCH<sub>3</sub> lone pair, to give the oxocarbenium ion. <b>In base there is no way to make OH a good leaving group (hydroxide is a strong base), so the substitution step cannot occur</b>. This is also why acetals are stable to base, which makes them useful protecting groups.",
+  "x": [
+   "",
+   "Methoxide is a strong nucleophile and adds readily to aldehydes; that is how base catalyzes hemiacetal formation.",
+   "Deprotonating the hemiacetal gives an alkoxide that can only expel methoxide to re-form the aldehyde (reversing hemiacetal formation); it cannot form an acetal or ether.",
+   "Catalytic methoxide does not oxidize an aldehyde; forming a carboxylate requires an oxidizing agent (or the Cannizzaro reaction with concentrated hydroxide and a non-enolizable aldehyde)."
+  ]
+ },
+ {
+  "id": "mech1-18",
+  "t": "carbonyl",
+  "d": 1,
+  "k": 0,
+  "q": "With a trace of acid, 5-hydroxypentanal cyclizes: the OH oxygen attacks the protonated carbonyl carbon of the same molecule. Which cyclic hemiacetal forms?",
+  "s": [
+   {
+    "smi": "OCCCCC=O"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC1CCCCO1"
+   },
+   {
+    "smi": "OC1CCCO1"
+   },
+   {
+    "smi": "O=C1CCCCO1"
+   },
+   {
+    "smi": "OCC1CCCO1"
+   }
+  ],
+  "h": "Count the atoms from the hydroxyl oxygen to the carbonyl carbon, including both. The ring contains all of them.",
+  "w": "The ring includes the hydroxyl oxygen, carbons C5 through C2, and the former carbonyl carbon C1: five carbons and one oxygen, a <b>six-membered ring (2-hydroxytetrahydropyran)</b>. The former carbonyl carbon becomes the hemiacetal carbon, carrying both the new OH and the ring oxygen. Five- and six-membered cyclic hemiacetals form readily, as in glucose.",
+  "x": [
+   "",
+   "A five-membered cyclic hemiacetal (2-hydroxytetrahydrofuran) would come from 4-hydroxybutanal; this chain has one more carbon, so the ring is six-membered.",
+   "This is a lactone (cyclic ester), which is at a higher oxidation level; hemiacetal formation adds an O–H across the C=O and does not oxidize the carbonyl carbon.",
+   "In this ring the OH sits on a CH<sub>2</sub> outside the ring, so the former carbonyl carbon is not the one bearing both oxygens; in a hemiacetal one carbon carries both the OH and the ring O."
+  ]
+ },
+ {
+  "id": "mech1-19",
+  "t": "carbonyl",
+  "d": 3,
+  "k": 0,
+  "q": "A student proposed the step shown for acid-catalyzed hydrolysis of acetaldehyde dimethyl acetal (H<sub>3</sub>O<sup>+</sup>): water attacks the acetal carbon and methoxide leaves in one step. What is wrong with this step?",
+  "s": [
+   {
+    "smi": "[OH2:51].C[CH:53]([O:54]C)[O:55]C",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ],
+    "lp": [
+     51,
+     54,
+     55
+    ]
+   }
+  ],
+  "c": [
+   "In acid, OCH<sub>3</sub> must be protonated and leave as methanol, giving an oxocarbenium ion that water attacks",
+   "Water should attack an oxygen of the acetal, since the oxygens are where the electron density is",
+   "Nothing is wrong; acetal hydrolysis is a one-step S<sub>N</sub>2 displacement at the acetal carbon",
+   "The first step should be loss of a hydride from the acetal carbon to make a carbonyl"
+  ],
+  "h": "Under acid, what does a leaving group look like? And is there a neighboring atom that can stabilize a cation on the acetal carbon?",
+  "w": "Two errors appear. First, methoxide (a strong base) cannot leave in acidic solution; the OCH<sub>3</sub> must be protonated so it leaves as neutral methanol. Second, the substitution does not occur by back-side attack: the other OCH<sub>3</sub> lone pair pushes in as methanol leaves, giving a resonance-stabilized <b>oxocarbenium ion</b>, and water then adds to it. Repeating the sequence (protonate, lose CH<sub>3</sub>OH, deprotonate) gives the aldehyde. The real mechanism is the exact reverse of acetal formation.",
+  "x": [
+   "",
+   "Water as a nucleophile bonds to the electrophilic carbon; the acetal oxygens are electron-rich, and attacking one would make an O–O bond, which does not happen here.",
+   "The drawing has a methoxide leaving group in acid and skips the oxocarbenium ion; acetal hydrolysis is an S<sub>N</sub>1-like process through that cation, which is why acetals are stable to base.",
+   "Hydride is an extremely poor leaving group and nothing here accepts it; the carbonyl is regenerated by losing methanol twice."
+  ]
+ },
+ {
+  "id": "mech1-20",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "In saponification of methyl acetate, the tetrahedral intermediate collapses to acetic acid and methoxide, which then react as the arrows show. Why does this step make saponification effectively irreversible?",
+  "s": [
+   {
+    "smi": "CC(=O)[O:51][H:52].[O-:53]C",
+    "arrows": [
+     {
+      "from": 53,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       51
+      ],
+      "to": 51
+     }
+    ],
+    "lp": [
+     51,
+     53
+    ]
+   }
+  ],
+  "c": [
+   "Acetic acid (pK<sub>a</sub> 4.8) is far stronger than methanol (pK<sub>a</sub> 15.5), so K ≈ 10<sup>11</sup> and methanol cannot attack the carboxylate",
+   "Methoxide is a better leaving group than hydroxide, so once it leaves, the ester cannot re-form from the acid",
+   "A new C–O bond forms in this step, and forming a bond is always irreversible, so the ester cannot return",
+   "Methanol evaporates from the warm mixture as it forms, so Le Châtelier's principle pulls the equilibrium forward"
+  ],
+  "h": "Compare the pK<sub>a</sub> of the acid on the left with that of the base's conjugate acid. What does a gap of about 10 pK<sub>a</sub> units mean for K?",
+  "w": "The arrows show a proton transfer: methoxide takes the O–H proton of acetic acid. Because acetic acid (pK<sub>a</sub> ≈ 4.8) is far stronger than methanol (pK<sub>a</sub> ≈ 15.5), K ≈ 10<sup>15.5−4.8</sup> ≈ 10<sup>11</sup>. <b>The carboxylate formed is a resonance-stabilized anion and a very poor electrophile, so methanol cannot attack it to reverse the reaction</b>. That is why saponification needs a full equivalent of base and gives the carboxylic acid only after acid workup.",
+  "x": [
+   "",
+   "Leaving-group ability is not the issue here (methoxide and hydroxide are similar), and the step shown is a proton transfer, not a leaving-group departure.",
+   "No C–O bond forms in this step; the arrows move a proton from O to O. Forming a bond does not by itself make a step irreversible.",
+   "Saponification is irreversible even in a closed flask; the driving force is the very favorable acid–base reaction, not loss of methanol."
+  ]
+ },
+ {
+  "id": "mech1-21",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "A student drew the one-step mechanism shown for Fischer esterification of acetic acid with methanol (H<sub>2</sub>SO<sub>4</sub> catalyst). Which statement best describes what is wrong?",
+  "s": [
+   {
+    "smi": "C[OH:56].C[C:53](=[O:54])[OH:55]",
+    "arrows": [
+     {
+      "from": 56,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ],
+    "lp": [
+     54,
+     55,
+     56
+    ]
+   }
+  ],
+  "c": [
+   "It skips protonating the C=O and has OH<sup>−</sup> leave directly; methanol must add to the protonated C=O, and water leaves later",
+   "Methanol should attack the carbonyl oxygen, not the carbonyl carbon, because that oxygen is protonated first",
+   "Nothing is wrong except that the methanol O–H proton should be shown leaving before the new C–O bond forms",
+   "The arrows are backwards: the acid's OH oxygen should attack the methanol carbon and displace water"
+  ],
+  "h": "Compare the drawing with the addition–elimination pattern of acyl substitution under acid. What is the leaving group, and is the carbonyl activated?",
+  "w": "The drawing makes two classic errors. It shows an S<sub>N</sub>2-like direct displacement at a trigonal acyl carbon, and its leaving group is hydroxide in strongly acidic solution. In the accepted mechanism the carbonyl oxygen is protonated first, methanol adds to give a tetrahedral intermediate, a proton shift puts H<sup>+</sup> on an OH, and <b>water (not hydroxide) leaves as the C=O re-forms</b>. Isotope labeling confirms this pathway: the ester oxygen comes from methanol and the water oxygen from the acid.",
+  "x": [
+   "",
+   "The electrophilic site is the carbonyl carbon; attacking oxygen would make an O–O bond.",
+   "The main errors are the direct displacement and the hydroxide leaving group; reordering one proton transfer does not fix them.",
+   "Attack by the acid's oxygen on the methanol carbon would be an S<sub>N</sub>2 at a methyl carbon with hydroxide (or water) leaving; labeling shows the ester's alkoxy oxygen comes from methanol, so this is not the pathway."
+  ]
+ },
+ {
+  "id": "mech1-22",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "Propanoyl chloride reacts with diethylamine. The arrows show the first step. Why is a second equivalent of diethylamine (or pyridine) normally used?",
+  "s": [
+   {
+    "smi": "CC[NH:51]CC.CC[C:53](=[O:54])Cl",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ],
+    "lp": [
+     51,
+     54
+    ]
+   }
+  ],
+  "c": [
+   "To take up the HCl formed, which would otherwise protonate the amine to a non-nucleophilic ammonium salt",
+   "To attack the carbonyl a second time and convert the amide product into a tertiary amine",
+   "To act as the leaving group in place of chloride, since an amine leaves more easily than Cl<sup>−</sup>",
+   "To reduce the amide to an amine after it forms, using its N–H hydrogens as the hydride source"
+  ],
+  "h": "Track the protons: what acid is released overall, and what happens to an amine when it meets that acid?",
+  "w": "After addition and loss of chloride, the amide nitrogen still carries the H that came from the amine, and overall the reaction releases HCl. A second equivalent of base takes that proton. <b>Without it the HCl would protonate unreacted diethylamine to diethylammonium chloride, which has no lone pair and cannot attack</b>, so the yield would stop near 50%.",
+  "x": [
+   "",
+   "The amide product is far less electrophilic than the acid chloride, and a second acyl substitution on it does not occur under these conditions; no tertiary amine forms.",
+   "Chloride is already an excellent leaving group (much better than an amine); the extra base is there to take a proton.",
+   "An amine is not a reducing agent; reducing an amide to an amine requires LiAlH<sub>4</sub>."
+  ]
+ },
+ {
+  "id": "mech1-23",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Methyl benzoate is treated with excess CH<sub>3</sub>MgBr. After the first addition, the tetrahedral intermediate collapses as shown to give acetophenone. Why can the reaction not be stopped at the ketone, and what is the product after aqueous workup?",
+  "s": [
+   {
+    "smi": "C[C:53]([O-:54])([O:55]C)c1ccccc1",
+    "arrows": [
+     {
+      "from": 54,
+      "to": [
+       54,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ],
+    "lp": [
+     54,
+     55
+    ]
+   }
+  ],
+  "c": [
+   "The ketone is more electrophilic than the ester, so it adds a second CH<sub>3</sub> at once; 2-phenyl-2-propanol forms",
+   "The ketone is less electrophilic than the ester, so the reaction stops there; acetophenone is isolated",
+   "The ketone is more electrophilic than the ester, so it adds a second CH<sub>3</sub>; 1-phenylethanol forms",
+   "The Grignard reagent deprotonates the ketone to an enolate, which is unreactive; acetophenone is recovered after workup"
+  ],
+  "h": "Compare the electrophilicity of an ester carbonyl (with its electron-donating OCH<sub>3</sub>) and a ketone carbonyl. Then count the methyl groups on the carbinol carbon.",
+  "w": "The ester carbonyl is stabilized by resonance donation from the OCH<sub>3</sub> lone pair, so the ketone formed when the tetrahedral intermediate collapses is <b>more</b> reactive than the remaining ester. With CH<sub>3</sub>MgBr present it adds a second methyl immediately, and workup gives the tertiary alcohol <b>2-phenyl-2-propanol</b>, PhC(CH<sub>3</sub>)<sub>2</sub>OH, which carries two identical groups from the Grignard reagent.",
+  "x": [
+   "",
+   "The ester is the less reactive carbonyl, because its OCH<sub>3</sub> donates electron density by resonance; the ketone cannot survive in the presence of excess Grignard reagent.",
+   "The reasoning is right, but 1-phenylethanol would require hydride addition; a second methyl addition puts two CH<sub>3</sub> groups on the carbinol carbon, giving a tertiary alcohol.",
+   "Enolization is a minor side reaction with very hindered ketones; acetophenone readily adds CH<sub>3</sub>MgBr, and with excess reagent the main product is the tertiary alcohol."
+  ]
+ },
+ {
+  "id": "mech1-24",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Propanenitrile is heated in aqueous acid to give propanoic acid. In what order do the neutral organic species form?",
+  "s": [
+   {
+    "smi": "CCC#N"
+   },
+   {
+    "arrow": "H<sub>3</sub>O<sup>+</sup>",
+    "below": "heat"
+   },
+   {
+    "smi": "CCC(=O)O"
+   }
+  ],
+  "c": [
+   "Nitrile → imidic acid → amide → carboxylic acid",
+   "Nitrile → amine → amide → carboxylic acid",
+   "Nitrile → aldehyde → hydrate → carboxylic acid",
+   "Nitrile → amide → imidic acid → carboxylic acid"
+  ],
+  "h": "Water adds across one C≡N π bond first. Which group does that put on carbon, and which tautomer is more stable?",
+  "w": "Water adds to the protonated nitrile carbon, and loss of a proton gives the <b>imidic acid</b> CH<sub>3</sub>CH<sub>2</sub>C(=NH)OH. This tautomerizes to the more stable <b>amide</b> (C=O is stronger than C=N), CH<sub>3</sub>CH<sub>2</sub>CONH<sub>2</sub>. Under the vigorous conditions the amide is then hydrolyzed by acid-catalyzed acyl substitution to <b>propanoic acid</b> and NH<sub>4</sub><sup>+</sup>.",
+  "x": [
+   "",
+   "An amine would come from reducing the nitrile (LiAlH<sub>4</sub>); hydrolysis adds water and never forms an amine intermediate.",
+   "An aldehyde comes from partial reduction of a nitrile (DIBAL-H), not from hydrolysis; hydrolysis keeps the carbon at the carboxylic acid oxidation level.",
+   "The order of the middle two is reversed: the imidic acid forms first, by adding water, and then tautomerizes to the more stable amide."
+  ]
+ },
+ {
+  "id": "mech1-25",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Ethyl propanoate labeled with <sup>18</sup>O in the ether oxygen (the O bonded to the ethyl group) is saponified with NaOH. The tetrahedral intermediate collapses as shown. After workup, where is the <sup>18</sup>O label found?",
+  "s": [
+   {
+    "smi": "CC[C:53]([O-:54])([OH:56])[O:55]CC",
+    "arrows": [
+     {
+      "from": 54,
+      "to": [
+       54,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ],
+    "lp": [
+     54,
+     55,
+     56
+    ]
+   }
+  ],
+  "c": [
+   "Only in the ethanol (CH<sub>3</sub>CH<sub>2</sub><sup>18</sup>OH)",
+   "Only in the propanoic acid",
+   "Split about equally between the ethanol and the propanoic acid",
+   "Only in water, because it is lost as H<sub>2</sub><sup>18</sup>O"
+  ],
+  "h": "Which bond breaks in nucleophilic acyl substitution: the acyl carbon–O bond or the O–ethyl bond? The labeled oxygen stays with whichever fragment it remains bonded to.",
+  "w": "Nucleophilic acyl substitution breaks the bond between the <b>acyl carbon</b> and the ether oxygen, as the second arrow shows. The labeled oxygen keeps its bond to the ethyl group and leaves as ethoxide, which is protonated to ethanol. So <b>the <sup>18</sup>O appears only in the ethanol</b>, and the propanoic acid (after workup) contains only unlabeled oxygens, one from the original C=O and one from hydroxide. This labeling result is classic evidence for acyl–oxygen cleavage.",
+  "x": [
+   "",
+   "That would require breaking the O–ethyl bond (alkyl–oxygen cleavage, an S<sub>N</sub>2 at the ethyl carbon), which does not happen in saponification.",
+   "The two possible bond cleavages are not equally likely; saponification occurs almost entirely by acyl–oxygen cleavage, so the label is not scrambled.",
+   "The labeled oxygen is never protonated twice and lost as water in base; it leaves bonded to the ethyl group as ethoxide."
+  ]
+ }
+]

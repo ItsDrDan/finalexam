@@ -22,7 +22,7 @@ OKTAGS = {'b', 'i', 'sub', 'sup', 'br', 'u', 'em', 'strong', 'span'}
 
 def mol_part(p, where, probs):
     try:
-        d = chem.skel(p['smi'], ab=p.get('ab'), flip=p.get('flip', False), rot=p.get('rot', 0))
+        d = chem.skel(p['smi'], ab=p.get('ab'), flip=p.get('flip', False), rot=p.get('rot', 0), arrows=p.get('arrows'), lp=p.get('lp'), layout=p.get('layout'))
     except Exception as e:
         probs.append('%s: %s' % (where, e)); return None
     if p.get('cap'): d['cap'] = p['cap']
@@ -78,9 +78,9 @@ def convert(q, course, n, probs):
         for i, p in enumerate(cs):
             if p is None: CS.append(None); continue
             d = mol_part(p, '%s cs[%d]' % (W, i), probs); CS.append(d)
-            try: cans.append(chem.canon(p['smi']) + '|' + json.dumps(p.get('ab')))
+            try: cans.append(chem.canon(p['smi']) + '|' + json.dumps(p.get('ab')) + '|' + json.dumps(p.get('arrows'), sort_keys=True))
             except Exception: pass
-        if len(set(cans)) != len(cans): probs.append(W + ': two structure choices are the same compound (check stereo)')
+        if len(set(cans)) != len(cans): probs.append(W + ': two structure choices are the same compound with the same arrows (check stereo/arrows)')
         out['cs'] = CS
         for i, so in enumerate(struct_only):
             if so and (len(cs) <= i or cs[i] is None): probs.append('%s: c[%d] is structure-only but cs[%d] is empty' % (W, i, i))

@@ -1,0 +1,874 @@
+[
+ {
+  "id": "r2-01",
+  "t": "acidderiv",
+  "d": 3,
+  "q": "Rank these acyl compounds from <i>least</i> to <i>most</i> reactive toward hydrolysis by aqueous NaOH (nucleophilic acyl substitution).",
+  "s": [
+   {
+    "smi": "CC(=O)Oc1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "CCOC(C)=O",
+    "cap": "II"
+   },
+   {
+    "smi": "CN(C)C(C)=O",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "III &lt; II &lt; I",
+   "II &lt; III &lt; I",
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III"
+  ],
+  "h": "All three are acetyl derivatives, so compare the leaving groups: the weaker the conjugate base that leaves (the stronger its conjugate acid), the more reactive the derivative.",
+  "w": "Reactivity in nucleophilic acyl substitution follows leaving-group ability and how much the group donates into the C=O. <b>III &lt; II &lt; I</b>. III (N,N-dimethylacetamide) is least reactive: nitrogen donates its lone pair strongly into the carbonyl, and (CH<sub>3</sub>)<sub>2</sub>N<sup>−</sup> (conjugate acid pK<sub>a</sub> ≈ 38) is a terrible leaving group. II (ethyl acetate) is in the middle: ethoxide (pK<sub>a</sub> of ethanol ≈ 16) leaves reasonably well. I (phenyl acetate) is most reactive: phenoxide is resonance-stabilized (pK<sub>a</sub> of phenol ≈ 10), and the oxygen lone pair is partly delocalized into the ring, so it donates less to the C=O. Aryl esters are therefore more reactive than alkyl esters.",
+  "x": [
+   "",
+   "This puts the ester above the amide correctly but ranks ethyl acetate below the amide. Amides are the least reactive derivatives because N donates strongly and amide ion is a very poor leaving group.",
+   "This makes the phenyl ester less reactive than the ethyl ester. Phenoxide (from phenol, pK<sub>a</sub> 10) is a much better leaving group than ethoxide (pK<sub>a</sub> 16), so phenyl acetate is the more reactive ester.",
+   "This reverses the whole ladder. The amide is the least reactive and the phenyl ester the most reactive, because leaving-group ability runs PhO<sup>−</sup> &gt; EtO<sup>−</sup> &gt; R<sub>2</sub>N<sup>−</sup>."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-02",
+  "t": "acidderiv",
+  "d": 1,
+  "q": "Which reagents, each followed by aqueous acid workup, convert ethyl benzoate into a tertiary alcohol?<br>I. excess C<sub>6</sub>H<sub>5</sub>MgBr<br>II. excess LiAlH<sub>4</sub><br>III. excess CH<sub>3</sub>Li",
+  "s": [
+   {
+    "smi": "CCOC(=O)c1ccccc1"
+   }
+  ],
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "An ester takes two equivalents of a carbon nucleophile. What kind of alcohol forms when the two new groups are carbon groups versus hydrogens?",
+  "w": "An ester reacts twice with strong nucleophiles: the first addition expels ethoxide to give a ketone (or aldehyde), which is more reactive than the ester and adds a second equivalent. I is true: PhMgBr adds two phenyl groups, giving triphenylmethanol, a 3° alcohol. II is false: LiAlH<sub>4</sub> delivers two hydrides, so the carbinol carbon gets two H and the product is benzyl alcohol, a 1° alcohol. III is true: CH<sub>3</sub>Li, like a Grignard reagent, adds twice to give 2-phenylpropan-2-ol, a 3° alcohol. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "This leaves out III. Organolithium reagents add to esters just as Grignard reagents do (twice), so CH<sub>3</sub>Li also gives a 3° alcohol.",
+   "This counts II as giving a 3° alcohol and leaves out I. LiAlH<sub>4</sub> adds two hydrogens, so the product is the 1° alcohol PhCH<sub>2</sub>OH, while PhMgBr adds two carbon groups and does give a 3° alcohol.",
+   "This includes II. Hydride reduction of an ester puts two H on the former carbonyl carbon, giving a 1° alcohol, not a 3° one."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-03",
+  "t": "acidderiv",
+  "d": 2,
+  "q": "Rank these carboxylic acids from <i>lowest</i> to <i>highest</i> pK<sub>a</sub>.",
+  "s": [
+   {
+    "smi": "CCC(Cl)C(=O)O",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(Cl)CC(=O)O",
+    "cap": "II"
+   },
+   {
+    "smi": "CCCC(=O)O",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III",
+   "II &lt; I &lt; III",
+   "III &lt; II &lt; I",
+   "I &lt; III &lt; II"
+  ],
+  "h": "Lowest pK<sub>a</sub> = strongest acid. How does the electron-withdrawing effect of Cl change as it moves farther from the carboxylate?",
+  "w": "A chlorine stabilizes the carboxylate anion by induction, and the effect falls off quickly with the number of bonds between Cl and the CO<sub>2</sub><sup>−</sup>. In I (2-chlorobutanoic acid) the Cl is on the α-carbon, so it is the strongest acid (pK<sub>a</sub> ≈ 2.9). In II (3-chlorobutanoic acid) the Cl is one carbon farther, so the effect is weaker (pK<sub>a</sub> ≈ 4.0). III (butanoic acid) has no withdrawing group (pK<sub>a</sub> ≈ 4.8). Lowest to highest pK<sub>a</sub>: <b>I &lt; II &lt; III</b>.",
+  "x": [
+   "",
+   "This puts the β-chloro acid ahead of the α-chloro acid. Induction weakens with distance, so Cl on the α-carbon (I) withdraws more and gives the lower pK<sub>a</sub>.",
+   "This ranks the acids from highest to lowest pK<sub>a</sub>, the reverse of what was asked.",
+   "This makes the β-chloro acid weaker than butanoic acid. Even one carbon farther away, the Cl still withdraws some electron density and lowers the pK<sub>a</sub> below 4.8."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-04",
+  "t": "acidderiv",
+  "d": 2,
+  "q": "Which reactions give <i>N</i>-methylbenzamide as the main organic product?<br>I. benzoyl chloride + 2 equiv CH<sub>3</sub>NH<sub>2</sub>, 0 °C<br>II. methyl benzoate + excess CH<sub>3</sub>NH<sub>2</sub>, heat<br>III. benzoic acid + CH<sub>3</sub>NH<sub>2</sub> + DCC, room temperature",
+  "s": [
+   {
+    "smi": "CNC(=O)c1ccccc1"
+   }
+  ],
+  "c": [
+   "I, II, and III",
+   "I only",
+   "I and II only",
+   "I and III only"
+  ],
+  "h": "An acid and an amine alone just form a salt. What does DCC do to the acid? Can an amine displace alkoxide from an ester with heat and time?",
+  "w": "I is true: an acid chloride reacts quickly with an amine; the second equivalent of CH<sub>3</sub>NH<sub>2</sub> neutralizes the HCl formed. II is true: aminolysis of an ester is slower (methoxide is a poorer leaving group than chloride), but heating an ester with excess amine does give the amide, and the amide is downhill because it is the least reactive derivative. III is true: DCC converts the carboxylic acid into an O-acylisourea, an activated ester with a good leaving group, which the amine attacks to give the amide plus dicyclohexylurea (the same coupling used in peptide synthesis). All three work: <b>I, II, and III</b>.",
+  "x": [
+   "",
+   "This rejects II and III. Esters do undergo aminolysis on heating, and DCC is a standard way to couple an acid and an amine directly.",
+   "This rejects III, likely because an acid plus an amine alone just forms an ammonium carboxylate salt. DCC changes that by activating the acid's OH into a good leaving group.",
+   "This rejects II. Ester aminolysis is slower than acid chloride aminolysis, but with heat and excess amine it goes to the more stable amide."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-05",
+  "t": "acidderiv",
+  "d": 3,
+  "q": "Which sequences convert benzonitrile into acetophenone?<br>I. 1. CH<sub>3</sub>MgBr, ether &nbsp;2. H<sub>3</sub>O<sup>+</sup><br>II. 1. H<sub>3</sub>O<sup>+</sup>, heat &nbsp;2. excess CH<sub>3</sub>MgBr &nbsp;3. H<sub>3</sub>O<sup>+</sup><br>III. 1. DIBAL-H, −78 °C &nbsp;2. H<sub>2</sub>O",
+  "s": [
+   {
+    "smi": "N#Cc1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC(=O)c1ccccc1"
+   }
+  ],
+  "c": [
+   "I only",
+   "I and II only",
+   "II only",
+   "I and III only"
+  ],
+  "h": "Follow each sequence one step at a time. What does a Grignard reagent do to a carboxylic acid's O–H? What does DIBAL-H give from a nitrile?",
+  "w": "I is true: CH<sub>3</sub>MgBr adds once to the C≡N to give an imine anion (a second addition does not occur on a negatively charged nitrogen species), and aqueous acid hydrolyzes the imine to the ketone, acetophenone. II is false: acid hydrolysis gives benzoic acid, and CH<sub>3</sub>MgBr is a strong base, so it just removes the acidic O–H to make a carboxylate (and methane); the carboxylate does not add Grignard reagents, and workup returns benzoic acid. III is false: DIBAL-H delivers one hydride to the nitrile, and water hydrolyzes the imine to benzaldehyde, not a methyl ketone. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "This accepts II. A Grignard reagent deprotonates a carboxylic acid instead of adding to it, and the carboxylate salt is unreactive toward further Grignard addition.",
+   "This accepts II and rejects I. Grignard addition to a nitrile followed by hydrolysis is the standard nitrile-to-ketone route, while the acid in II just quenches the Grignard reagent.",
+   "This accepts III. DIBAL-H adds hydride, not a methyl group, so the nitrile becomes an aldehyde (benzaldehyde) after workup."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-06",
+  "t": "enolates",
+  "d": 1,
+  "q": "Which of these aldehydes can act as the <i>enolate</i> (nucleophilic) partner in a base-catalyzed aldol reaction?",
+  "s": [
+   {
+    "smi": "O=Cc1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(C)(C)C=O",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(C)C=O",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "III only",
+   "II and III only",
+   "I and III only",
+   "I, II, and III"
+  ],
+  "h": "An enolate forms by removing a hydrogen from the α-carbon, the carbon next to C=O. Count α-hydrogens in each.",
+  "w": "Forming an enolate needs at least one α-hydrogen. I (benzaldehyde): false, its α-carbon is a ring carbon with no H. II (2,2-dimethylpropanal): false, its α-carbon is quaternary (three CH<sub>3</sub> groups), so it has no α-H even though it has nine H on β-carbons. III (2-methylpropanal): true, its α-carbon carries one H, so it can form an enolate. The answer is <b>III only</b>. I and II can still serve as the electrophile in a crossed aldol.",
+  "x": [
+   "",
+   "This counts II, but its α-carbon is quaternary; the methyl H atoms are on β-carbons and are not acidic.",
+   "This counts I, but benzaldehyde's carbonyl is attached directly to the ring; the ring C–H bonds are not α to the C=O and are not acidic.",
+   "Neither benzaldehyde nor 2,2-dimethylpropanal has an α-hydrogen, so neither can form an enolate."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-07",
+  "t": "enolates",
+  "d": 1,
+  "q": "Which compounds give a yellow precipitate of iodoform (CHI<sub>3</sub>) with I<sub>2</sub> and aqueous NaOH?",
+  "s": [
+   {
+    "smi": "CCC(=O)CC",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(=O)c1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(C)(C)O",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "The haloform reaction needs a CH<sub>3</sub>C=O group, or an alcohol that I<sub>2</sub>/NaOH can oxidize to one (CH<sub>3</sub>CH(OH)–).",
+  "w": "The iodoform test needs a methyl ketone CH<sub>3</sub>C(=O)R or a CH<sub>3</sub>CH(OH)R group that is oxidized to one. I (pentan-3-one): false, both sides are ethyl groups; α-iodination happens but no CI<sub>3</sub> group forms. II (acetophenone): true, a methyl ketone; the CH<sub>3</sub> is triiodinated and cleaved, giving CHI<sub>3</sub> and benzoate. III (2-methylpropan-2-ol): false, it has methyl groups but is a 3° alcohol, which cannot be oxidized to a ketone. The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "This includes pentan-3-one. Its carbonyl carries two ethyl groups, so there is no CH<sub>3</sub>C=O unit to become CI<sub>3</sub>C=O.",
+   "This includes tert-butyl alcohol. It is a 3° alcohol, so it cannot be oxidized to a methyl ketone; having CH<sub>3</sub> groups is not enough.",
+   "This picks pentan-3-one, which has no methyl ketone, and misses acetophenone, which does."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-08",
+  "t": "enolates",
+  "d": 2,
+  "q": "Rank these compounds from <i>least</i> to <i>most</i> acidic at their most acidic C–H bond.",
+  "s": [
+   {
+    "smi": "CC(C)=O",
+    "cap": "I"
+   },
+   {
+    "smi": "CCOC(C)=O",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(=O)CC(C)=O",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "II &lt; I &lt; III",
+   "I &lt; II &lt; III",
+   "II &lt; III &lt; I",
+   "III &lt; I &lt; II"
+  ],
+  "h": "Ask how well each carbonyl group stabilizes the negative charge of the enolate, and whether the charge is spread over one C=O or two.",
+  "w": "II (ethyl acetate, α-H pK<sub>a</sub> ≈ 25) is least acidic: the ester's OEt donates electrons into the C=O, so the carbonyl is less able to accept the enolate's charge. I (acetone, pK<sub>a</sub> ≈ 19–20) is more acidic because a ketone C=O stabilizes the enolate better. III (pentane-2,4-dione, pK<sub>a</sub> ≈ 9) is far more acidic: the central CH<sub>2</sub> sits between two C=O groups, so the charge is delocalized onto both oxygens. Least to most acidic: <b>II &lt; I &lt; III</b>.",
+  "x": [
+   "",
+   "This makes the ester α-H more acidic than the ketone α-H. The ester's alkoxy oxygen donates into the C=O by resonance, so the ester enolate is less stabilized (pK<sub>a</sub> 25 vs about 20).",
+   "This puts the β-diketone below acetone. A CH<sub>2</sub> flanked by two carbonyls is about 10 pK<sub>a</sub> units more acidic, because both C=O groups share the charge.",
+   "This is the order from most to least acidic, the reverse of what was asked."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-09",
+  "t": "enolates",
+  "d": 3,
+  "q": "Each pair of esters is treated with NaOEt in ethanol, then acid workup. Which pairs give <i>mainly one</i> crossed Claisen product?<br>I. ethyl acetate + ethyl propanoate<br>II. ethyl benzoate + ethyl acetate (added slowly)<br>III. diethyl carbonate (excess) + ethyl phenylacetate",
+  "c": [
+   "II and III only",
+   "III only",
+   "I and II only",
+   "I, II, and III"
+  ],
+  "h": "A crossed Claisen is clean only when one partner has no α-hydrogens, so it can serve only as the electrophile.",
+  "w": "I is false: both esters have α-hydrogens, so each forms an enolate and each is an electrophile; two self-condensation and two crossed products form. II is true: ethyl benzoate has no α-H, so it can only accept an enolate. Adding ethyl acetate slowly to the benzoate keeps its enolate meeting mostly benzoate, giving ethyl benzoylacetate. III is true: diethyl carbonate has no α-H; the enolate of ethyl phenylacetate attacks it to give diethyl phenylmalonate, a useful one-product acylation (excess carbonate suppresses self-condensation). The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "This rejects II. Ethyl benzoate lacks α-hydrogens, so it acts only as the electrophile; with slow addition of ethyl acetate the crossed product dominates.",
+   "This accepts I. When both esters have α-hydrogens, each can be nucleophile and electrophile, so a mixture of four β-keto esters forms.",
+   "This accepts I. Ethyl acetate and ethyl propanoate both have α-hydrogens, which gives four products, not one."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-10",
+  "t": "enolates",
+  "d": 2,
+  "q": "Which reagents add mainly in a 1,4- (conjugate) fashion to methyl vinyl ketone (shown)?<br>I. CH<sub>3</sub>Li, ether, then H<sub>3</sub>O<sup>+</sup><br>II. the pyrrolidine enamine of cyclohexanone, then H<sub>3</sub>O<sup>+</sup><br>III. C<sub>6</sub>H<sub>5</sub>MgBr, ether, then H<sub>3</sub>O<sup>+</sup>",
+  "s": [
+   {
+    "smi": "C=CC(C)=O"
+   },
+   "+",
+   {
+    "smi": "C1CCC(N2CCCC2)=CC1",
+    "cap": "enamine (II)"
+   }
+  ],
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "Hard, highly reactive nucleophiles attack the carbonyl carbon directly; soft, stabilized nucleophiles attack the β-carbon.",
+  "w": "I is false: organolithium reagents are hard, very reactive nucleophiles and add mainly 1,2 (to the C=O carbon), giving a 3° allylic alcohol. II is true: an enamine is a soft, neutral carbon nucleophile; its α-carbon adds to the β-carbon of the enone (the Stork enamine Michael reaction), and hydrolysis gives 2-(3-oxobutyl)cyclohexanone. III is false: Grignard reagents also add mainly 1,2 to simple enones; conjugate addition needs a cuprate (R<sub>2</sub>CuLi). The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "This counts CH<sub>3</sub>Li as a conjugate-addition reagent. Organolithiums are hard nucleophiles that attack the carbonyl carbon directly (1,2-addition).",
+   "This counts PhMgBr. Grignard reagents add 1,2 to α,β-unsaturated ketones; a Gilman reagent such as Ph<sub>2</sub>CuLi is what gives 1,4-addition.",
+   "This picks the organolithium, which adds 1,2, and misses the enamine, the classic Michael donor."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-11",
+  "t": "amines",
+  "d": 2,
+  "q": "Rank these nitrogen compounds from <i>weakest</i> to <i>strongest</i> base.",
+  "s": [
+   {
+    "smi": "NCc1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(=O)Nc1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "Nc1ccccc1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "II &lt; III &lt; I",
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III",
+   "I &lt; III &lt; II"
+  ],
+  "h": "Is the nitrogen lone pair localized on N, delocalized into a ring, or delocalized into a C=O?",
+  "w": "Basicity depends on how available the nitrogen lone pair is. II (acetanilide, an amide) is the weakest: its lone pair is delocalized into the C=O (and the ring), so amides are essentially non-basic (conjugate acid pK<sub>a</sub> near 0). III (aniline, conjugate acid pK<sub>a</sub> 4.6) is weak because its lone pair is delocalized into the benzene ring. I (benzylamine, pK<sub>a</sub> 9.3) is strongest: the CH<sub>2</sub> separates the nitrogen from the ring, so its sp<sup>3</sup> lone pair is localized, like an ordinary alkylamine. Weakest to strongest: <b>II &lt; III &lt; I</b>.",
+  "x": [
+   "",
+   "This makes the amide more basic than aniline. Delocalization into a C=O is stronger than into a ring, so amides are far weaker bases than anilines.",
+   "This makes benzylamine weaker than aniline. In benzylamine the CH<sub>2</sub> keeps the lone pair out of conjugation with the ring, so it behaves like an alkylamine.",
+   "This is the order from strongest to weakest, the reverse of what was asked."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-12",
+  "t": "amines",
+  "d": 2,
+  "q": "Which routes give benzylamine (shown) cleanly, without a mixture of over-alkylated amines?<br>I. benzyl bromide + 1 equiv NH<sub>3</sub><br>II. 1. benzyl bromide + potassium phthalimide &nbsp;2. H<sub>2</sub>NNH<sub>2</sub>, heat<br>III. 1. benzonitrile + LiAlH<sub>4</sub> &nbsp;2. H<sub>2</sub>O",
+  "s": [
+   {
+    "smi": "NCc1ccccc1"
+   }
+  ],
+  "c": [
+   "II and III only",
+   "II only",
+   "I and II only",
+   "I and III only"
+  ],
+  "h": "After NH<sub>3</sub> is alkylated once, is the product more or less nucleophilic than NH<sub>3</sub>? Which methods avoid that problem?",
+  "w": "I is false: the benzylamine formed is a better nucleophile than NH<sub>3</sub>, so it competes for benzyl bromide and gives di- and tribenzylamine (and even the quaternary salt). II is true: in the Gabriel synthesis the phthalimide nitrogen is alkylated once; its N–H is gone and the imide N is not nucleophilic, so no second alkylation occurs, and hydrazine releases the free 1° amine. III is true: LiAlH<sub>4</sub> reduces C≡N to CH<sub>2</sub>NH<sub>2</sub>, and benzonitrile has the right carbon count (C<sub>6</sub>H<sub>5</sub>–C≡N → C<sub>6</sub>H<sub>5</sub>–CH<sub>2</sub>NH<sub>2</sub>). The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "This rejects III. Reducing a nitrile with LiAlH<sub>4</sub> gives a 1° amine with no over-alkylation, and PhC≡N gives exactly PhCH<sub>2</sub>NH<sub>2</sub>.",
+   "This accepts I. The 1° amine product is more nucleophilic than ammonia, so direct alkylation with one equivalent of NH<sub>3</sub> gives a mixture.",
+   "This accepts I and rejects II. Direct alkylation of NH<sub>3</sub> over-alkylates; the Gabriel synthesis was invented to avoid exactly that."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-13",
+  "t": "amines",
+  "d": 1,
+  "q": "Benzenediazonium chloride (shown) is treated separately with each reagent. Which give the product named?<br>I. CuCl → chlorobenzene<br>II. KI → iodobenzene<br>III. H<sub>3</sub>PO<sub>2</sub> → phenol",
+  "s": [
+   {
+    "smi": "[Cl-].N#[N+]c1ccccc1"
+   }
+  ],
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "Recall what each reagent replaces the N<sub>2</sub><sup>+</sup> group with. Which reagent is a reducing agent that supplies hydrogen?",
+  "w": "I is true: CuCl replaces N<sub>2</sub><sup>+</sup> with Cl (Sandmeyer reaction). II is true: iodide is reactive enough to replace N<sub>2</sub><sup>+</sup> without a copper catalyst, giving iodobenzene. III is false: hypophosphorous acid replaces N<sub>2</sub><sup>+</sup> with H, giving benzene; phenol comes from warming the diazonium salt in water (or Cu<sub>2</sub>O/Cu<sup>2+</sup> in water). The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "This rejects II. KI converts aryldiazonium salts into aryl iodides directly; no CuI is needed.",
+   "This rejects I and accepts III. CuCl is the Sandmeyer reagent for aryl chlorides, while H<sub>3</sub>PO<sub>2</sub> reduces the diazonium salt to benzene, not phenol.",
+   "This accepts III. H<sub>3</sub>PO<sub>2</sub> replaces the diazonium group with hydrogen; phenol needs water and heat instead."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-14",
+  "t": "amines",
+  "d": 2,
+  "q": "Rank these anilines from <i>weakest</i> to <i>strongest</i> base.",
+  "s": [
+   {
+    "smi": "Nc1ccc(cc1)[N+](=O)[O-]",
+    "cap": "I"
+   },
+   {
+    "smi": "COc1ccc(N)cc1",
+    "cap": "II"
+   },
+   {
+    "smi": "Nc1ccccc1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I &lt; III &lt; II",
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III",
+   "II &lt; III &lt; I"
+  ],
+  "h": "A para substituent that pulls electron density out of the ring makes the NH<sub>2</sub> lone pair less available; one that pushes density in does the opposite.",
+  "w": "I (4-nitroaniline, conjugate acid pK<sub>a</sub> ≈ 1.0) is the weakest base: the para NO<sub>2</sub> withdraws by induction and resonance, and the amine lone pair can delocalize all the way onto the nitro oxygens. III (aniline, pK<sub>a</sub> 4.6) is in the middle. II (4-methoxyaniline, pK<sub>a</sub> ≈ 5.3) is the strongest: the para OCH<sub>3</sub> donates by resonance, raising the electron density at nitrogen. Weakest to strongest: <b>I &lt; III &lt; II</b>.",
+  "x": [
+   "",
+   "This makes 4-nitroaniline more basic than aniline. The para nitro group strongly withdraws electrons and pulls the lone pair into conjugation, so it lowers the basicity by more than 3 pK<sub>a</sub> units.",
+   "This makes methoxy a base-weakening group. Although O is electronegative, a para OCH<sub>3</sub> donates by resonance, and resonance wins here, making 4-methoxyaniline more basic than aniline.",
+   "This is the order from strongest to weakest, the reverse of what was asked."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-15",
+  "t": "synthesis",
+  "d": 2,
+  "q": "Which sequences convert cyclohexanone into 1-methylcyclohexene?<br>I. 1. CH<sub>3</sub>MgBr &nbsp;2. H<sub>3</sub>O<sup>+</sup> &nbsp;3. H<sub>2</sub>SO<sub>4</sub>, heat<br>II. Ph<sub>3</sub>P=CH<sub>2</sub><br>III. 1. CH<sub>3</sub>MgBr &nbsp;2. H<sub>3</sub>O<sup>+</sup> &nbsp;3. PCC",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC1=CCCCC1"
+   }
+  ],
+  "c": [
+   "I only",
+   "I and II only",
+   "II only",
+   "I and III only"
+  ],
+  "h": "Where does the C=C end up in each route: inside the ring or outside it? And what does PCC do to a 3° alcohol?",
+  "w": "I is true: the Grignard reagent gives 1-methylcyclohexan-1-ol, and acid-catalyzed E1 dehydration gives the more substituted (Zaitsev) alkene, the trisubstituted ring alkene 1-methylcyclohexene. II is false: the Wittig reaction puts the C=C exactly where the C=O was, giving methylenecyclohexane (an exocyclic C=CH<sub>2</sub>), a constitutional isomer of the target. III is false: PCC oxidizes 1° and 2° alcohols only; the 3° alcohol has no H on the carbinol carbon and is unchanged, so no alkene forms. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "This accepts II. The Wittig reagent forms the C=C at the old carbonyl carbon, giving methylenecyclohexane, not the ring alkene.",
+   "This accepts II and rejects I. Dehydrating 1-methylcyclohexanol gives the endocyclic Zaitsev alkene, which is the target; the Wittig gives the exocyclic isomer.",
+   "This accepts III. PCC is an oxidant, not a dehydrating agent, and a 3° alcohol cannot be oxidized because its carbinol carbon has no H."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-16",
+  "t": "synthesis",
+  "d": 3,
+  "q": "Which sequences prepare 4-chloroaniline (shown) from benzene as the major product? (Separate ortho/para isomers where needed.)<br>I. 1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> &nbsp;2. Cl<sub>2</sub>, FeCl<sub>3</sub> &nbsp;3. Fe, HCl; then NaOH<br>II. 1. Cl<sub>2</sub>, FeCl<sub>3</sub> &nbsp;2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> &nbsp;3. Fe, HCl; then NaOH<br>III. 1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> &nbsp;2. Fe, HCl; then NaOH &nbsp;3. (CH<sub>3</sub>CO)<sub>2</sub>O &nbsp;4. Cl<sub>2</sub>, FeCl<sub>3</sub> &nbsp;5. NaOH, H<sub>2</sub>O, heat",
+  "s": [
+   {
+    "smi": "Nc1ccc(Cl)cc1"
+   }
+  ],
+  "c": [
+   "II and III only",
+   "II only",
+   "I and III only",
+   "I, II, and III"
+  ],
+  "h": "In each route, identify which substituent is on the ring when the second group goes on, and whether it directs ortho/para or meta.",
+  "w": "I is false: NO<sub>2</sub> is a meta director, so chlorinating nitrobenzene gives 3-chloronitrobenzene, and reduction gives 3-chloroaniline. II is true: Cl is an ortho/para director (deactivating), so nitration of chlorobenzene gives mainly 4-chloronitrobenzene (separated from the ortho isomer), and Fe/HCl reduces NO<sub>2</sub> to NH<sub>2</sub> without touching the aryl C–Cl. III is true: aniline is made first, then protected as acetanilide; NHCOCH<sub>3</sub> is a moderate ortho/para director whose bulk favors para, so chlorination gives mainly 4-chloroacetanilide, and base hydrolysis of the amide frees 4-chloroaniline. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "This rejects III. Protecting aniline as its acetamide tames the strongly activating NH<sub>2</sub> (avoiding polyhalogenation and Lewis-acid complexation) and keeps it an o/p director, so III works.",
+   "This accepts I. Nitro is a meta director, so the chlorine goes meta to it and the route ends at 3-chloroaniline.",
+   "This accepts I. Chlorinating nitrobenzene places Cl meta, so route I makes the wrong isomer."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-17",
+  "t": "synthesis",
+  "d": 3,
+  "q": "Which sequences convert ethyl 4-oxopentanoate into 5-hydroxy-5-methylhexan-2-one, as shown?<br>I. 1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH &nbsp;2. excess CH<sub>3</sub>MgBr &nbsp;3. H<sub>3</sub>O<sup>+</sup><br>II. 1. excess CH<sub>3</sub>MgBr &nbsp;2. H<sub>3</sub>O<sup>+</sup><br>III. 1. NaBH<sub>4</sub>, CH<sub>3</sub>OH &nbsp;2. excess CH<sub>3</sub>MgBr &nbsp;3. H<sub>3</sub>O<sup>+</sup> &nbsp;4. PCC",
+  "s": [
+   {
+    "smi": "CCOC(=O)CCC(C)=O"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC(=O)CCC(C)(C)O"
+   }
+  ],
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "II and III only"
+  ],
+  "h": "The ketone is more reactive than the ester toward CH<sub>3</sub>MgBr. Each route needs some way to keep the ketone carbon from gaining a methyl group.",
+  "w": "I is true: ethylene glycol/TsOH protects the ketone as an acetal, which is inert to Grignard reagents; excess CH<sub>3</sub>MgBr adds twice to the ester to give the 3° alcohol, and aqueous acid removes the acetal, restoring the ketone. II is false: with no protection the ketone also adds CH<sub>3</sub>MgBr, so the product is the diol 2,5-dimethylhexane-2,5-diol. III is true: NaBH<sub>4</sub> reduces the ketone but not the ester, giving a 2° alcohol (it may close to the γ-lactone, which reacts with the Grignard reagent the same way); excess CH<sub>3</sub>MgBr converts the ester (or lactone) into the 3° alcohol; PCC then oxidizes the 2° alcohol back to the ketone and leaves the 3° alcohol untouched. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "This rejects III. Reducing the ketone to a 2° alcohol is a valid protecting strategy here, because PCC later restores the ketone and cannot oxidize the 3° alcohol.",
+   "This rejects I. An acetal is the textbook protecting group for a ketone during a Grignard reaction, and the acid workup removes it.",
+   "This accepts II. Without protection, the more reactive ketone also adds CH<sub>3</sub>MgBr, and both carbonyl carbons end up as 3° alcohols."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-18",
+  "t": "synthesis",
+  "d": 2,
+  "q": "Which sequences convert benzaldehyde into 1-phenylpropan-1-one (shown)?<br>I. 1. CH<sub>3</sub>CH<sub>2</sub>MgBr &nbsp;2. H<sub>3</sub>O<sup>+</sup> &nbsp;3. PCC<br>II. 1. CH<sub>3</sub>CH<sub>2</sub>MgBr &nbsp;2. H<sub>3</sub>O<sup>+</sup> &nbsp;3. NaBH<sub>4</sub><br>III. 1. H<sub>2</sub>CrO<sub>4</sub> &nbsp;2. excess CH<sub>3</sub>CH<sub>2</sub>MgBr &nbsp;3. H<sub>3</sub>O<sup>+</sup>",
+  "s": [
+   {
+    "smi": "O=Cc1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCC(=O)c1ccccc1"
+   }
+  ],
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "III only"
+  ],
+  "h": "After the Grignard step you have a 2° alcohol. Which reagent changes it into a ketone? And what does a Grignard reagent do to a carboxylic acid?",
+  "w": "I is true: ethylmagnesium bromide adds to the aldehyde to give 1-phenylpropan-1-ol, a 2° alcohol, and PCC oxidizes it to the ketone. II is false: NaBH<sub>4</sub> is a reducing agent; it does not change the 2° alcohol, so the product stays an alcohol. III is false: H<sub>2</sub>CrO<sub>4</sub> oxidizes benzaldehyde to benzoic acid, and the Grignard reagent only deprotonates the acid to a carboxylate, which does not react further; workup returns benzoic acid. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "This accepts II. NaBH<sub>4</sub> reduces carbonyls; it cannot turn an alcohol into a ketone, which needs an oxidant such as PCC.",
+   "This accepts III. A Grignard reagent is a strong base and just removes the carboxylic acid O–H; the carboxylate does not add it to give a ketone.",
+   "This accepts III and rejects I. Grignard addition followed by PCC oxidation is the direct aldehyde-to-ketone route; the acid in III quenches the Grignard reagent."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-19",
+  "t": "biomol",
+  "d": 3,
+  "q": "Which sugars are reducing sugars (give a positive Tollens or Benedict's test)?<br>I. D-fructose<br>II. sucrose<br>III. lactose",
+  "c": [
+   "I and III only",
+   "III only",
+   "I, II, and III",
+   "II and III only"
+  ],
+  "h": "A reducing sugar needs a free hemiacetal or hemiketal (an anomeric carbon that can open). Also, the tests are run in base, where ketoses can tautomerize.",
+  "w": "I is true: D-fructose is a ketose, but in the basic test solution it tautomerizes through an enediol to aldoses (glucose and mannose), which are oxidized; its hemiketal also opens freely. So fructose is a reducing sugar. II is false: in sucrose the glucose C1 and the fructose C2 (both anomeric carbons) are joined in the glycosidic bond, so neither ring can open. III is true: lactose links galactose C1 to glucose C4, leaving the glucose anomeric carbon as a free hemiacetal that can open to an aldehyde. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "This rejects fructose because it is a ketone. Under the basic test conditions fructose isomerizes (via the enediol) to aldoses, so it gives a positive test.",
+   "This accepts sucrose. Both of sucrose's anomeric carbons are tied up in the glycosidic bond, so it has no hemiacetal and is non-reducing.",
+   "This accepts sucrose and rejects fructose. Sucrose has no free anomeric carbon, while fructose reacts after base-catalyzed tautomerization."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-20",
+  "t": "biomol",
+  "d": 2,
+  "q": "Which of these amino acids has a net positive charge as its major form at pH 7.0? (Side-chain pK<sub>a</sub> values: arginine 12.5, glutamic acid 4.2, histidine 6.0.)",
+  "s": [
+   {
+    "smi": "NC(=N)NCCC[C@H](N)C(=O)O",
+    "cap": "I"
+   },
+   {
+    "smi": "N[C@@H](CCC(=O)O)C(=O)O",
+    "cap": "II"
+   },
+   {
+    "smi": "N[C@@H](Cc1c[nH]cn1)C(=O)O",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I only",
+   "I and III only",
+   "III only",
+   "II and III only"
+  ],
+  "h": "At pH 7 the α-CO<sub>2</sub>H is ionized (−1) and the α-NH<sub>2</sub> is protonated (+1). Then compare pH 7 with each side-chain pK<sub>a</sub>: below the pK<sub>a</sub> the group is protonated.",
+  "w": "At pH 7 the backbone contributes +1 (NH<sub>3</sub><sup>+</sup>) and −1 (CO<sub>2</sub><sup>−</sup>), so the side chain decides. I (arginine): true, pH 7 is far below the guanidinium pK<sub>a</sub> of 12.5, so the side chain is protonated (+1) and the net charge is +1. II (glutamic acid): false, pH 7 is above the side-chain pK<sub>a</sub> of 4.2, so the side chain is CO<sub>2</sub><sup>−</sup> and the net charge is −1. III (histidine): false, pH 7 is one unit above the imidazolium pK<sub>a</sub> of 6.0, so only about 10% of the side chains are protonated; the major form is neutral. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "This counts histidine as positive. With pH one unit above its side-chain pK<sub>a</sub>, about 90% of histidine has a neutral imidazole, so the major form has no net charge.",
+   "This counts histidine and misses arginine. Arginine's guanidinium (pK<sub>a</sub> 12.5) stays protonated at pH 7, while histidine is mostly neutral.",
+   "This counts glutamic acid as positive. Its side-chain CO<sub>2</sub>H (pK<sub>a</sub> 4.2) is ionized at pH 7, giving a net −1 charge."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-21",
+  "t": "biomol",
+  "d": 3,
+  "q": "Each D-aldohexose shown is oxidized with warm HNO<sub>3</sub> to an aldaric acid (both C1 and C6 become CO<sub>2</sub>H). Which give an optically <i>inactive</i> aldaric acid?",
+  "f": [
+   {
+    "type": "fischer",
+    "items": [
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "I"
+     },
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "II"
+     },
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "III"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "Draw each aldaric acid and look for a horizontal mirror plane through the middle of the Fischer projection. Rotating the projection 180° in the plane is allowed.",
+  "w": "Once both ends are CO<sub>2</sub>H, the aldaric acid is meso (optically inactive) if a horizontal mirror plane through the middle of the Fischer projection maps the top half onto the bottom half; that requires the OH on C2 to be on the same side as the OH on C5, and C3 the same side as C4. I (D-galactose): OH pattern right, left, left, right; C2/C5 match and C3/C4 match, so galactaric acid is meso: true. II (D-allose): all four OH on the right, so the halves match and allaric acid is meso: true. III (D-mannose): left, left, right, right; C2 (left) does not match C5 (right), so there is no mirror plane. Mannaric acid has only a C<sub>2</sub> rotation axis, which does not make a molecule achiral, so it is optically active: false. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "This rejects II. With all four OH groups on the same side, the aldaric acid from D-allose has a mirror plane between C3 and C4 and is meso.",
+   "This rejects I and accepts III. Galactaric acid (mucic acid) is the classic meso aldaric acid; mannaric acid has only a C<sub>2</sub> axis, which does not make a molecule achiral.",
+   "This accepts III. Mannaric acid looks symmetric, but its symmetry is a C<sub>2</sub> rotation axis, not a mirror plane, so it is chiral."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-22",
+  "t": "biomol",
+  "d": 1,
+  "q": "Rank these triacylglycerols from <i>lowest</i> to <i>highest</i> melting point.<br>I. tristearin (three C<sub>18</sub> saturated chains)<br>II. triolein (three C<sub>18</sub> chains, each with one <i>cis</i> C=C)<br>III. tripalmitin (three C<sub>16</sub> saturated chains)",
+  "c": [
+   "II &lt; III &lt; I",
+   "III &lt; I &lt; II",
+   "II &lt; I &lt; III",
+   "III &lt; II &lt; I"
+  ],
+  "h": "Melting point rises with stronger London forces, which need long chains that pack closely. What does a cis double bond do to packing?",
+  "w": "II (triolein) melts lowest (it is the main component of olive oil, a liquid): each cis C=C puts a kink in the chain, so the chains cannot pack tightly and London forces are weak. III (tripalmitin) and I (tristearin) are both saturated, straight-chain fats that pack well; tristearin's longer C<sub>18</sub> chains give more surface contact and a higher melting point than tripalmitin's C<sub>16</sub> chains. Lowest to highest: <b>II &lt; III &lt; I</b>.",
+  "x": [
+   "",
+   "This puts triolein highest. Cis double bonds kink the chains and prevent close packing, so triolein has the lowest melting point.",
+   "This puts tristearin below tripalmitin. Longer saturated chains have more London-force contact, so C<sub>18</sub> tristearin melts higher than C<sub>16</sub> tripalmitin.",
+   "This puts tripalmitin below the unsaturated fat. Any cis double bond lowers the melting point much more than removing two CH<sub>2</sub> units from each chain."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-23",
+  "t": "spectro",
+  "d": 2,
+  "q": "A compound C<sub>9</sub>H<sub>10</sub>O<sub>2</sub> has a strong IR band at 1720 cm<sup>−1</sup> and the <sup>1</sup>H NMR spectrum shown. Which statements are correct?<br>I. The 4.38 ppm quartet comes from an O–CH<sub>2</sub> group bonded to a CH<sub>3</sub>.<br>II. The aromatic signals show a <i>para</i>-disubstituted benzene ring.<br>III. The compound is a carboxylic acid.",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 8.05,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 7.55,
+      "mult": "t",
+      "int": 1
+     },
+     {
+      "ppm": 7.44,
+      "mult": "t",
+      "int": 2
+     },
+     {
+      "ppm": 4.38,
+      "mult": "q",
+      "int": 2
+     },
+     {
+      "ppm": 1.39,
+      "mult": "t",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II only"
+  ],
+  "h": "Add up the aromatic integrations. Then ask what chemical shift a CH<sub>2</sub> would need to be next to oxygen, and where a CO<sub>2</sub>H proton appears.",
+  "w": "I is true: a CH<sub>2</sub> at 4.38 ppm is deshielded by an attached oxygen, and its quartet (and the 3H triplet at 1.39 ppm) shows it is bonded to a CH<sub>3</sub>: an ethoxy group. II is false: the aromatic signals integrate to 2 + 1 + 2 = 5 H, a monosubstituted ring (2 ortho H near 8.05, 1 para H, 2 meta H); a para-disubstituted ring would show 4 H as two 2H doublets. III is false: a carboxylic acid would show a broad 1H singlet near 10–13 ppm and a broad O–H band in the IR; neither is present. The data fit ethyl benzoate (DBE 5: ring + C=O). The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "This accepts II. The aromatic region totals 5 H with a 2:1:2 pattern, which means one substituent on the ring, not two.",
+   "This accepts III. There is no 10–13 ppm acid proton; the oxygen-bearing CH<sub>2</sub> at 4.38 ppm points to an ester instead.",
+   "This rejects I and accepts II. The 4.38 ppm shift can only come from a CH<sub>2</sub> on oxygen, and the 5 aromatic H mean a monosubstituted ring."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-24",
+  "t": "spectro",
+  "d": 2,
+  "q": "A compound C<sub>5</sub>H<sub>10</sub>O gives the <sup>13</sup>C NMR spectrum shown. Which statements are correct?<br>I. The molecule contains only three carbon atoms.<br>II. The signal at 211.8 ppm is a ketone C=O carbon.<br>III. The spectrum fits pentan-3-one.",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "13C",
+    "peaks": [
+     {
+      "ppm": 211.8
+     },
+     {
+      "ppm": 35.5
+     },
+     {
+      "ppm": 7.9
+     }
+    ]
+   }
+  ],
+  "c": [
+   "II and III only",
+   "II only",
+   "I and II only",
+   "III only"
+  ],
+  "h": "The formula fixes the number of carbons. If there are fewer signals than carbons, what must be true about the molecule?",
+  "w": "I is false: the formula has five carbons; three signals mean some carbons are equivalent by symmetry. II is true: a signal above 200 ppm is an aldehyde or ketone C=O, and a value near 210 ppm fits a ketone. III is true: pentan-3-one (CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>) has a mirror plane through C=O, so its two CH<sub>2</sub> carbons (35.5 ppm) are equivalent, as are its two CH<sub>3</sub> carbons (7.9 ppm), giving exactly three signals. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "This rejects III. Pentan-3-one is symmetric, so its five carbons give exactly three signals, matching the C=O, CH<sub>2</sub> and CH<sub>3</sub> peaks shown.",
+   "This accepts I. The formula C<sub>5</sub>H<sub>10</sub>O has five carbons; equivalent carbons share a signal, so the signal count is smaller than the carbon count.",
+   "This rejects II. A carbon at 211.8 ppm is in the ketone/aldehyde C=O range; nothing else in C<sub>5</sub>H<sub>10</sub>O appears that far downfield."
+  ],
+  "k": 0
+ },
+ {
+  "id": "r2-25",
+  "t": "spectro",
+  "d": 2,
+  "q": "The mass spectrum of an aromatic compound is shown. Which statements are correct?<br>I. The equal-height peaks at m/z 156 and 158 show the molecule contains one bromine atom.<br>II. The peak at m/z 77 is the phenyl cation, C<sub>6</sub>H<sub>5</sub><sup>+</sup>.<br>III. Because there is an M+2 peak, the molecule contains two bromine atoms.",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      156,
+      100
+     ],
+     [
+      158,
+      97
+     ],
+     [
+      77,
+      88
+     ],
+     [
+      51,
+      30
+     ],
+     [
+      50,
+      14
+     ]
+    ],
+    "labels": {
+     "156": "M<sup>+</sup>"
+    }
+   }
+  ],
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "Bromine's two isotopes, <sup>79</sup>Br and <sup>81</sup>Br, are nearly equal in abundance. What pattern would one Br give, and what pattern would two Br give?",
+  "w": "I is true: a single Br gives M<sup>+</sup> and M+2 peaks of nearly equal height (about 1:1), as at 156/158 (C<sub>6</sub>H<sub>5</sub><sup>79</sup>Br = 156). II is true: losing Br· (79 or 81) from either molecular ion leaves m/z 77, the C<sub>6</sub>H<sub>5</sub><sup>+</sup> cation typical of monosubstituted benzenes. III is false: two Br atoms would give three peaks, M, M+2 and M+4, in about a 1:2:1 ratio; an M+2 peak about as tall as M means exactly one Br. The compound is bromobenzene. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "This rejects II. C<sub>6</sub>H<sub>5</sub><sup>+</sup> at m/z 77 is the classic fragment of a monosubstituted benzene, here formed by loss of a Br atom.",
+   "This accepts III and rejects I. One bromine gives the 1:1 M/M+2 pair; two bromines would add an M+4 peak and give a 1:2:1 pattern.",
+   "This accepts III. An M+2 peak alone does not mean two Br; two bromines would give a 1:2:1 triplet at M, M+2 and M+4."
+  ],
+  "k": 0
+ }
+]

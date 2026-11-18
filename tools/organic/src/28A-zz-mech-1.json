@@ -1,0 +1,1692 @@
+[
+ {
+  "id": "zm1-01",
+  "t": "subst",
+  "q": "Hydroxide ion reacts with bromoethane by an S<sub>N</sub>2 mechanism. Which set of curved arrows correctly shows this single step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH-:51].C[CH2:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].C[CH2:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 52,
+      "to": 51
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].C[CH2:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].C[CH2:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "Curved arrows always start where the electrons are (a lone pair or a bond) and end where they go. In one step, a bond forms and a bond breaks.",
+  "w": "An S<sub>N</sub>2 step needs two arrows. One starts at a lone pair on the hydroxide oxygen and ends at the carbon bearing Br (the new C–O bond). The second starts at the C–Br bond and ends on Br, which leaves as Br<sup>−</sup>. So the correct drawing is <b>an arrow from an O lone pair to the CH<sub>2</sub> carbon plus an arrow from the C–Br bond onto bromine</b>. Both events happen at once, with the nucleophile entering opposite the leaving group.",
+  "x": [
+   "",
+   "This arrow starts at the carbon and points to oxygen, which says the carbon gives electrons to hydroxide. The electron-poor carbon is the electrophile; the arrow must start at oxygen's lone pair.",
+   "With only the attack arrow, the carbon gains a C–O bond while keeping the C–Br bond, so it would have five bonds. The C–Br bond pair must move onto Br in the same step.",
+   "Hydroxide attacks bromine here instead of carbon, and the C–Br electrons are sent to carbon (a carbanion). Nucleophiles attack the δ+ carbon, and the leaving group takes the bond pair."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "zm1-02",
+  "t": "subst",
+  "q": "2-Bromo-2-methylpropane undergoes S<sub>N</sub>1 solvolysis. Which drawing shows the curved arrow for the first (ionization) step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:51](C)(C)[Br:52]",
+    "lp": [
+     52
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "C[C:51](C)(C)[Br:52]",
+    "lp": [
+     52
+    ],
+    "arrows": [
+     {
+      "from": 52,
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "C[C:51](C)(C)[Br:52]",
+    "lp": [
+     52
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "C[C:51](C)(C)[Br:52]",
+    "lp": [
+     52
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 52,
+      "half": true
+     }
+    ]
+   }
+  ],
+  "h": "Heterolysis: both bonding electrons leave with the more electronegative atom. Which arrow head (full or fishhook) moves a pair?",
+  "w": "In the ionization step the C–Br bond breaks heterolytically: the bonding pair goes with bromine, giving Br<sup>−</sup> and the tertiary carbocation. The arrow is <b>a full (two-electron) arrow from the C–Br bond to Br</b>.",
+  "x": [
+   "",
+   "An arrow from a Br lone pair to carbon would form a second C–Br bond (a five-bond carbon). It is the reverse of what ionization does.",
+   "Sending the C–Br bond pair to carbon would make a carbanion and Br<sup>+</sup>. Bromine is more electronegative, so it takes the pair.",
+   "A fishhook moves one electron, which is homolysis (a radical and a Br atom). Ionization in a polar solvent is heterolytic, so it needs a full arrow."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "zm1-03",
+  "t": "subst",
+  "q": "In the S<sub>N</sub>1 hydrolysis of 2-bromo-2-methylpropane, water captures the tert-butyl cation. Which set of curved arrows correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[H:54][O:51][H:55].C[C+:52](C)[CH3:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[H:54][O:51][H:55].C[C+:52](C)[CH3:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 52,
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "[H:54][O:51][H:55].C[C+:52](C)[CH3:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       51,
+       54
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[H:54][O:51][H:55].C[C+:52](C)[CH3:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "The cation is the electron-poor partner. Find the electron pair on water that can make a new bond, and the atom with only six electrons.",
+  "w": "Water is the nucleophile and the carbocation is the electrophile. The arrow starts at a <b>lone pair on the water oxygen and ends at the positively charged carbon</b>, giving the protonated alcohol (an oxonium ion, R–OH<sub>2</sub><sup>+</sup>). The O–H bonds stay intact in this step; a proton is removed in the next step.",
+  "x": [
+   "",
+   "This arrow starts at the cation, which has no electrons to give. The positive carbon accepts electrons, so the arrow must point to it, not away from it.",
+   "The O–H bonding pair is not used to attack; using it would break an O–H bond and attach H, not O, to carbon. Water attacks with a lone pair.",
+   "The arrow ends at a methyl carbon, which already has four bonds; a new bond there would give it five. The attack must be at the electron-deficient C<sup>+</sup>."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-04",
+  "t": "subst",
+  "q": "The last step of the S<sub>N</sub>1 hydrolysis of 2-bromo-2-methylpropane converts the oxonium ion into 2-methyl-2-propanol. Which set of curved arrows shows this step correctly, with water as the base?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH2:51].[H:52][OH+:53][C:54](C)(C)C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].[H:52][OH+:53][C:54](C)(C)C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].[H:52][OH+:53][C:54](C)(C)C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].[H:52][OH+:53][C:54](C)(C)C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "A proton transfer needs two arrows: one makes the new bond to H, one breaks the old one. Where must the old bond's electrons go to leave a neutral alcohol?",
+  "w": "This is a proton transfer. A lone pair on solvent water bonds to one of the O–H protons of the oxonium ion, and the O–H bonding pair moves onto the oxonium oxygen, which becomes the neutral alcohol oxygen. The correct drawing is <b>an arrow from a water lone pair to H, plus an arrow from that O–H bond onto the oxonium oxygen</b>, giving the alcohol and H<sub>3</sub>O<sup>+</sup>.",
+  "x": [
+   "",
+   "With only the first arrow, hydrogen would have two bonds (to both oxygens). The old O–H bond must break, so a second arrow is required.",
+   "These arrows show water attacking the tertiary carbon and displacing the other water, an S<sub>N</sub>2 exchange at a hindered 3° carbon. It is not a deprotonation and does not lead to the alcohol.",
+   "The second arrow sends the O–H bond pair onto hydrogen, which would make hydride (H:<sup>−</sup>) and leave the oxygen electron-poor. The bond pair stays with the more electronegative oxygen."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "zm1-05",
+  "t": "subst",
+  "q": "Treating 4-bromobutan-1-ol with NaH gives an alkoxide that closes to tetrahydrofuran (oxolane). Which set of curved arrows correctly shows the ring-closing step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[O-:51]CC[CH2:54][CH2:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[O-:51]CC[CH2:54][CH2:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[O-:51]CC[CH2:54][CH2:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[O-:51]CC[CH2:54][CH2:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "s": [
+   {
+    "smi": "OCCCCBr"
+   },
+   {
+    "arrow": "NaH"
+   },
+   {
+    "smi": "C1CCOC1"
+   }
+  ],
+  "h": "This is an S<sub>N</sub>2 in which the nucleophile and the leaving group are in the same molecule. Count the ring atoms that the product must have.",
+  "w": "The alkoxide oxygen attacks the carbon that carries Br from the back side while the C–Br bond pair leaves with bromine, a one-step intramolecular S<sub>N</sub>2. The ring formed has O plus four carbons, the five-membered tetrahydrofuran. The correct drawing is <b>an arrow from an O<sup>−</sup> lone pair to the CH<sub>2</sub>Br carbon and an arrow from the C–Br bond onto Br</b>.",
+  "x": [
+   "",
+   "Without a leaving-group arrow the carbon would end with five bonds. In S<sub>N</sub>2 the C–Br bond breaks in the same step that the C–O bond forms.",
+   "The C–Br bond pair is sent to carbon, which already gains a pair from oxygen. Bromide leaves with the bonding electrons, so the arrow must end on Br.",
+   "The oxygen attacks the carbon next to the C–Br carbon (a four-membered ring) while bromine leaves from a different carbon. The nucleophile must attack the same carbon that loses the leaving group."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-06",
+  "t": "subst",
+  "q": "Ethanol is converted to ethyl tosylate with TsCl in pyridine. The first step is drawn as the alcohol oxygen substituting at sulfur. Which set of curved arrows correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[CH2:55][OH:51].Cc1ccc(cc1)[S:52](=O)(=O)[Cl:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "C[CH2:55][OH:51].Cc1ccc(cc1)[S:52](=O)(=O)[Cl:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 53,
+      "to": 55
+     },
+     {
+      "from": [
+       55,
+       51
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "C[CH2:55][OH:51].Cc1ccc(cc1)[S:52](=O)(=O)[Cl:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "C[CH2:55][OH:51].Cc1ccc(cc1)[S:52](=O)(=O)[Cl:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "In tosylation the C–O bond of the alcohol is not touched. Which atom of TsCl is the electrophile, and what leaves from it?",
+  "w": "The alcohol oxygen uses a lone pair to bond to the electrophilic sulfur, and the S–Cl bond pair leaves with chloride. The correct drawing is <b>an arrow from an O lone pair to S and an arrow from the S–Cl bond onto Cl</b>. The C–O bond of ethanol is never broken, which is why tosylation keeps the configuration of a chiral alcohol; pyridine then removes the O–H proton.",
+  "x": [
+   "",
+   "This shows chloride attacking carbon and hydroxide leaving, a direct substitution on the unactivated alcohol. Hydroxide is a poor leaving group; the whole point of TsCl is to make O a good leaving group without breaking C–O.",
+   "With only the attack arrow, sulfur would gain a seventh bond. The S–Cl bond must break in the same step, so chloride needs its own arrow.",
+   "Oxygen attacks chlorine instead of sulfur, and the S–Cl pair is sent to sulfur. Sulfur, bonded to two oxygens and Cl, is the δ+ atom; chlorine leaves as Cl<sup>−</sup>."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-07",
+  "t": "subst",
+  "q": "Ethanol reacts with PBr<sub>3</sub> to give bromoethane. Which set of curved arrows correctly shows the first step, which turns the OH into a good leaving group?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[CH2:55][OH:51].Br[P:52](Br)[Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "C[CH2:55][OH:51].Br[P:52](Br)[Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "C[CH2:55][OH:51].Br[P:52](Br)[Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "C[CH2:55][OH:51].Br[P:52](Br)[Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       55,
+       51
+      ],
+      "to": 51
+     }
+    ]
+   }
+  ],
+  "h": "The OH must be activated before any C–O bond breaks. Which atom of PBr<sub>3</sub> is electron-poor, and which ion leaves it?",
+  "w": "The alcohol oxygen attacks phosphorus with a lone pair while one P–Br bond pair leaves as Br<sup>−</sup>, giving R–O(H)<sup>+</sup>–PBr<sub>2</sub>. So the arrows are <b>an O lone pair to P and the P–Br bond onto Br</b>. In the next step bromide attacks the carbon from the back side (S<sub>N</sub>2, inversion) and HOPBr<sub>2</sub> leaves.",
+  "x": [
+   "",
+   "Oxygen attacks bromine rather than phosphorus, and the P–Br pair is sent to P. Phosphorus is the electrophilic center; bromide leaves with the bond pair.",
+   "The attack arrow is right, but the P–Br pair is sent to phosphorus. The departing bromine must take the bonding electrons to leave as Br<sup>−</sup>.",
+   "This ionizes the C–O bond of a primary alcohol to give a primary carbocation and HO<sup>−</sup>. That never happens: HO<sup>−</sup> is a poor leaving group and 1° cations are too unstable, which is why PBr<sub>3</sub> is used."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-08",
+  "t": "subst",
+  "q": "After ethanol attacks TsCl, the intermediate is an O-protonated tosylate. Pyridine then gives neutral ethyl tosylate. Which set of curved arrows correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "c1cc[n:51]cc1.C[CH:55]([H:56])[O+:53]([H:52])[S:54](=O)(=O)c1ccc(C)cc1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "c1cc[n:51]cc1.C[CH:55]([H:56])[O+:53]([H:52])[S:54](=O)(=O)c1ccc(C)cc1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "c1cc[n:51]cc1.C[CH:55]([H:56])[O+:53]([H:52])[S:54](=O)(=O)c1ccc(C)cc1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 56
+     },
+     {
+      "from": [
+       56,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "c1cc[n:51]cc1.C[CH:55]([H:56])[O+:53]([H:52])[S:54](=O)(=O)c1ccc(C)cc1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "The positive oxygen needs to lose a proton to become neutral. Which hydrogen is on the positive atom?",
+  "w": "Pyridine acts as a base. Its nitrogen lone pair bonds to the <b>O–H proton on the positively charged oxygen, and the O–H bond pair moves onto that oxygen</b>, giving neutral ethyl tosylate and pyridinium ion. The O–H proton is by far the most acidic hydrogen because it sits on the cationic oxygen.",
+  "x": [
+   "",
+   "Pyridine attacking sulfur and expelling ethanol would just reverse the first step (the C–O–S link breaks at O–S). The forward step needed here is removal of a proton.",
+   "This removes a C–H proton from the CH<sub>2</sub> group. Those hydrogens are not acidic; the acidic proton is the one on the positive oxygen.",
+   "With only one arrow the hydrogen would have two bonds. The O–H bond must break, with its pair going back to oxygen."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "zm1-09",
+  "t": "subst",
+  "q": "The drawing shows cyanide ion reacting with (<i>S</i>)-2-bromobutane by an S<sub>N</sub>2 mechanism in DMSO. What is the organic product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@H](CC)C#N"
+   },
+   {
+    "smi": "C[C@@H](CC)C#N"
+   },
+   {
+    "smi": "CCCCC#N"
+   },
+   {
+    "smi": "C[C@H](CC)[N+]#[C-]"
+   }
+  ],
+  "s": [
+   {
+    "smi": "[C-:51]#N.C[C@@H:52](CC)[Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "Look at which atom the first arrow starts from and which carbon it ends at. Then think about which face of that carbon the nucleophile must approach.",
+  "w": "The arrows show the lone pair on cyanide's carbon attacking C2 while bromide leaves from the same carbon in one step. Backside attack inverts C2. Because CN outranks ethyl (as Br did), the priority order is unchanged, so inversion changes the descriptor: the product is <b>(<i>R</i>)-2-methylbutanenitrile</b>.",
+  "x": [
+   "",
+   "This is the retention product, which would require frontside attack. In S<sub>N</sub>2 the nucleophile approaches opposite the C–Br bond, so the configuration inverts.",
+   "Pentanenitrile has the CN on a terminal carbon. The arrow ends at C2, the carbon bearing Br, and S<sub>N</sub>2 does not move the carbon skeleton.",
+   "This isonitrile would form if nitrogen attacked. The arrow starts at the carbon lone pair of cyanide (the more nucleophilic end in S<sub>N</sub>2 with alkyl halides), so a C–C bond forms."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-10",
+  "t": "subst",
+  "q": "2-Methyl-2-propanol reacts with HBr by an S<sub>N</sub>1 mechanism. Which statement correctly describes the step drawn?",
+  "c": [
+   "The C–O bond breaks heterolytically to give a tertiary carbocation and water; this is the rate-determining step",
+   "The C–O bond breaks heterolytically to give a tertiary carbocation and hydroxide ion; this is the rate-determining step",
+   "The C–O bond breaks heterolytically to give a tertiary carbocation and water; this step is fast, and bromide capture is rate-determining",
+   "The C–O bond breaks homolytically to give a tertiary radical and a water radical cation; this is the rate-determining step"
+  ],
+  "s": [
+   {
+    "smi": "C[C:52](C)(C)[OH2+:51]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": [
+       52,
+       51
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "C[C+](C)C"
+   },
+   "+",
+   {
+    "smi": "O"
+   }
+  ],
+  "h": "Count the bonds and charges on oxygen before and after the arrow. Which step in an S<sub>N</sub>1 reaction makes the high-energy intermediate?",
+  "w": "The arrow moves the C–O bonding pair onto the positive oxygen, so the oxonium ion splits into the tert-butyl cation and neutral water. Making the carbocation is the slow, uphill step of an S<sub>N</sub>1 reaction; bromide then captures the cation quickly. So: <b>heterolysis gives a 3° carbocation and water, and this is the rate-determining step</b>.",
+  "x": [
+   "",
+   "The oxygen keeps both of its H atoms and gains the bond pair, so it leaves as neutral H<sub>2</sub>O, not HO<sup>−</sup>. Protonation is what turns poor-leaving hydroxide into good-leaving water.",
+   "Bromide combining with a carbocation is a fast, downhill ion combination. Forming the carbocation is the slow step.",
+   "A full arrow moves two electrons (heterolysis). Homolysis would be drawn with two fishhooks and is not how ionic substitution occurs."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-11",
+  "t": "subst",
+  "q": "A student drew these arrows for the S<sub>N</sub>2 reaction of iodide ion with chloroethane. What is wrong with the drawing?",
+  "c": [
+   "The first arrow should start at a lone pair on iodide and end at the carbon, not start at the carbon",
+   "The second arrow should end at the carbon, because the C–Cl electrons stay on carbon",
+   "Only one arrow is needed, because chloride leaves in a separate, later step",
+   "The first arrow should end at chlorine, because iodide attacks the halogen"
+  ],
+  "s": [
+   {
+    "smi": "[I-:51].C[CH2:52][Cl:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 52,
+      "to": 51
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "Ask of each arrow: does it start at electrons, and do those electrons have somewhere legal to go?",
+  "w": "Arrows show where electrons move. The C–Cl carbon is the electrophile and has no lone pair to give; iodide supplies the pair. So <b>the attack arrow must start at an iodide lone pair and end at the carbon</b>. The second arrow (C–Cl bond pair onto Cl) is drawn correctly.",
+  "x": [
+   "",
+   "The C–Cl bond pair goes to chlorine, the more electronegative atom, which leaves as Cl<sup>−</sup>. That arrow is already correct.",
+   "In S<sub>N</sub>2 the bond to the leaving group breaks in the same step the new bond forms; a separate leaving step describes S<sub>N</sub>1.",
+   "Iodide attacks the δ+ carbon. Attack on chlorine would not form a C–I bond and is not the S<sub>N</sub>2 path."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "zm1-12",
+  "t": "subst",
+  "q": "(<i>R</i>)-Butan-2-ol is treated with SOCl<sub>2</sub> and pyridine. The drawing shows the step in which chloride attacks the alkyl chlorosulfite (the stereocenter is unchanged up to this point). What is the product of this step?",
+  "c": [
+   "(<i>S</i>)-2-Chlorobutane, by inversion at C2",
+   "(<i>R</i>)-2-Chlorobutane, by retention at C2",
+   "Racemic 2-chlorobutane, through a planar carbocation",
+   "(<i>R</i>)-2-Chlorobutane, by inversion at C2"
+  ],
+  "s": [
+   {
+    "smi": "[Cl-:51].CC[C@@H:52](C)[O:53][S:54](=O)[Cl:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": [
+       53,
+       54
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "h": "Follow the first arrow: from which direction must the chloride approach C2 if the C–O bond breaks in the same step? Then assign R/S, comparing Cl with O.",
+  "w": "Chloride attacks C2 from the back side as the C–O bond breaks; that pair becomes the S=O π bond of SO<sub>2</sub>, and the S–Cl pair leaves as Cl<sup>−</sup>. It is one concerted S<sub>N</sub>2-type step, so C2 is inverted. Cl takes the top priority that O had, and ethyl > methyl in both, so inverting the geometry changes R to S: <b>(<i>S</i>)-2-chlorobutane, by inversion</b>.",
+  "x": [
+   "",
+   "Retention is seen when SOCl<sub>2</sub> is used without pyridine (internal delivery of Cl from the same face). The drawn step is backside attack by free chloride, which inverts.",
+   "No arrow makes a free carbocation; bond making and bond breaking at C2 happen in one step. A secondary substrate with this good leaving group and Cl<sup>−</sup> reacts by inversion.",
+   "Inversion is right, but the descriptor is wrong. Cl has the top priority, as O did, so the same three groups in mirror arrangement give S."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "zm1-13",
+  "t": "subst",
+  "q": "2-Bromo-2-methylpropane is dissolved in methanol and gives 2-methoxy-2-methylpropane. Each drawing shows a step someone proposed. Which drawn step is the rate-determining step of the actual mechanism?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:51](C)(C)[Br:52]",
+    "lp": [
+     52
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "C[OH:51].C[C+:52](C)C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "C[OH:51].[H:52][O+:53](C)C(C)(C)C",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "C[OH:51].C[C:52](C)(C)[Br:53]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "The real mechanism is S<sub>N</sub>1 solvolysis. Which step creates the least stable species, and does every drawing belong to that mechanism?",
+  "w": "Solvolysis of a 3° bromide in methanol goes by S<sub>N</sub>1: ionization, capture of the cation by methanol, and deprotonation of the oxonium ion by a second methanol. Ionization forms the high-energy carbocation and has the highest barrier, so the rate-determining step is <b>heterolysis of the C–Br bond to give the tert-butyl cation and Br<sup>−</sup></b>.",
+  "x": [
+   "",
+   "Methanol adding to the carbocation is a fast ion–molecule combination that comes after the slow step. Its rate does not depend on [CH<sub>3</sub>OH] in the rate law.",
+   "Proton transfer between oxygen atoms is very fast. It is the last step, and it only neutralizes the oxonium ion.",
+   "A concerted backside attack on a tertiary carbon is blocked by the three methyl groups, so this step is not part of the mechanism at all."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-14",
+  "t": "subst",
+  "q": "During methanolysis of 1-bromo-1-methylcyclohexane, the step drawn occurs. What species is formed directly by these arrows?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[OH+]C1(C)CCCCC1"
+   },
+   {
+    "smi": "COC1(C)CCCCC1"
+   },
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "smi": "C[OH+]CC1CCCCC1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "C[OH:51].C[C+:52]1CCCCC1",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "One arrow means one new bond and no bond broken. Count the bonds to oxygen afterward.",
+  "w": "The single arrow gives oxygen a third bond (to the ring carbon) while it keeps its O–H and O–CH<sub>3</sub> bonds, so it carries a positive charge. The species formed is <b>the protonated ether (an oxonium ion)</b>, C<sub>8</sub>H<sub>17</sub>O<sup>+</sup>. A later proton transfer to solvent gives the neutral ether.",
+  "x": [
+   "",
+   "This is the final product, but the drawn arrow does not remove the O–H proton. That needs a separate proton-transfer step.",
+   "The alkene is the E1 product, formed when a base removes a β-H. The drawn arrow makes a C–O bond, not a C=C bond.",
+   "Here oxygen is bonded to a CH<sub>2</sub> next to the ring, which would need attack at a carbon that is not cationic. The arrow ends at the ring C<sup>+</sup>."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-15",
+  "t": "subst",
+  "q": "The trans bromo-alkoxide shown (from trans-2-bromocyclohexanol and NaH) closes rapidly to cyclohexene oxide by the step drawn. The cis isomer gives little epoxide under the same conditions. Why?",
+  "c": [
+   "The O<sup>−</sup> must reach the back side of the C–Br bond; only the trans isomer can place O and Br anti (both axial)",
+   "The cis isomer would give a less stable cis epoxide, so it reacts by elimination instead",
+   "In the trans isomer bromide leaves first to give a carbocation, which the alkoxide then captures",
+   "In the cis isomer, hydrogen bonding between O<sup>−</sup> and Br makes the alkoxide non-nucleophilic"
+  ],
+  "s": [
+   {
+    "smi": "[O-:51][C@@H]1CCCC[C@H:52]1[Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "C1CC[C@H]2O[C@H]2C1"
+   }
+  ],
+  "h": "The drawn step is an intramolecular S<sub>N</sub>2. What geometry does every S<sub>N</sub>2 need between the nucleophile and the leaving group?",
+  "w": "Ring closure is an intramolecular S<sub>N</sub>2, so the alkoxide must attack C–Br from the back side, 180° from the leaving group. In the trans isomer, the chair with both groups axial puts O<sup>−</sup> directly anti to Br and closure is fast. In the cis isomer O and Br are on the same face, so the oxygen can only approach from the front side. Hence <b>only the trans isomer can align O<sup>−</sup> anti to the C–Br bond</b>.",
+  "x": [
+   "",
+   "The epoxide fused to a six-membered ring is the same (cis-fused) compound whichever isomer it came from. The problem with the cis isomer is the approach geometry, not product stability.",
+   "The drawn arrows are concerted: the C–O bond forms as the C–Br bond breaks. No carbocation forms from a secondary bromide under these basic conditions.",
+   "An alkoxide does not form a meaningful hydrogen bond with a C–Br group, and there is no O–H left to donate one. The difference comes from geometry."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "zm1-16",
+  "t": "acidbase",
+  "q": "Propyne is treated with NaNH<sub>2</sub> in liquid NH<sub>3</sub> to make a sodium acetylide. Which set of curved arrows correctly shows the deprotonation?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[NH2-:51].[H:54][CH2:56]C#[C:53][H:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[NH2-:51].[H:54][CH2:56]C#[C:53][H:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       56
+      ],
+      "to": 56
+     }
+    ]
+   },
+   {
+    "smi": "[NH2-:51].[H:54][CH2:56]C#[C:53][H:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[NH2-:51].[H:54][CH2:56]C#[C:53][H:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "Which C–H is most acidic: sp, or sp<sup>3</sup>? Then remember a proton transfer needs a bond-making and a bond-breaking arrow.",
+  "w": "The terminal ≡C–H (pK<sub>a</sub> ≈ 25) is far more acidic than the CH<sub>3</sub> hydrogens, because its conjugate base holds the pair in an sp orbital (50% s character). The amide nitrogen (NH<sub>3</sub> pK<sub>a</sub> ≈ 38) bonds to that H and the C–H pair stays on carbon. The correct drawing is <b>N lone pair → terminal H, and the ≡C–H bond → the sp carbon</b>.",
+  "x": [
+   "",
+   "This removes an H from the CH<sub>3</sub> group, whose conjugate base has its pair in an sp<sup>3</sup>-like orbital and is much less stable. Amide removes the sp C–H.",
+   "Without the second arrow, hydrogen ends up with two bonds. The C–H bond pair must move onto carbon.",
+   "Sending the C–H bond pair to hydrogen would make hydride and a carbocation-like alkyne carbon. The pair stays on carbon, which becomes the acetylide anion."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-17",
+  "t": "acidbase",
+  "q": "Diethyl ether and boron trifluoride combine to form the complex BF<sub>3</sub>·OEt<sub>2</sub>. Which drawing shows the correct curved arrow?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC[O:51]CC.[F:53][B:52](F)F",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "CC[O:51]CC.[F:53][B:52](F)F",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "CC[O:51]CC.[F:53][B:52](F)F",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 53,
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "CC[O:51]CC.[F:53][B:52](F)F",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "One partner has an empty orbital and the other has a lone pair. Which atom is short of an octet?",
+  "w": "Boron in BF<sub>3</sub> has only six valence electrons and an empty p orbital, so it is the Lewis acid; the ether oxygen is the Lewis base. One arrow, <b>from an oxygen lone pair to boron</b>, forms the O–B bond, giving O a +1 and B a −1 formal charge.",
+  "x": [
+   "",
+   "This arrow moves a B–F bond pair to oxygen, as if BF<sub>3</sub> were donating electrons. Boron is the electron acceptor here.",
+   "Fluorine's lone pairs are held tightly and are not the donor; giving one to oxygen would put five electron pairs around a neutral oxygen. The ether oxygen is the donor.",
+   "Fluorine already has an octet, so it cannot accept a new bond. The empty orbital is on boron."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "zm1-18",
+  "t": "acidbase",
+  "q": "Cyclohexanol reacts with concentrated HBr. Which set of curved arrows correctly shows the first step, protonation of the alcohol?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1CCC(CC1)[OH:51].[H:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "C1CCC(CC1)[OH:51].[H:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "C1CCC(CC1)[OH:51].[H:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "C1CCC(CC1)[OH:51].[H:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "The alcohol is the base here. Arrows go from the base's lone pair to the proton, and the H–Br pair ends on bromine.",
+  "w": "The alcohol oxygen uses a lone pair to bond to the proton of HBr, and the H–Br bond pair leaves with bromine as Br<sup>−</sup>. The correct drawing is <b>an O lone pair → H, plus the H–Br bond → Br</b>, giving the oxonium ion (ROH<sub>2</sub><sup>+</sup>), whose water is a good leaving group.",
+  "x": [
+   "",
+   "This single arrow sends the H–Br bonding pair to oxygen, as if the acid were donating electrons to the alcohol. The proton is accepted by the oxygen's lone pair; the H–Br pair goes to Br.",
+   "Oxygen attacks bromine, and the H–Br pair is sent to H (making hydride). The acidic atom is H, and bromine leaves as bromide.",
+   "Without a second arrow, hydrogen would have bonds to both O and Br. The H–Br bond must break."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-19",
+  "t": "acidbase",
+  "q": "Acetic acid is mixed with aqueous NaOH. Which set of curved arrows shows the fast acid–base reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH-:51].[H:54][CH2:56][C:57](=[O:58])[O:53][H:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].[H:54][CH2:56][C:57](=[O:58])[O:53][H:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       56
+      ],
+      "to": 56
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].[H:54][CH2:56][C:57](=[O:58])[O:53][H:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 57
+     },
+     {
+      "from": [
+       57,
+       58
+      ],
+      "to": 58
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].[H:54][CH2:56][C:57](=[O:58])[O:53][H:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "Compare the O–H (pK<sub>a</sub> about 5) with the C–H of the methyl group (pK<sub>a</sub> about 25). Hydroxide removes the more acidic proton.",
+  "w": "The carboxylic acid O–H (pK<sub>a</sub> 4.8) is about 20 pK<sub>a</sub> units more acidic than the α C–H, because the carboxylate is stabilized by resonance over two oxygens. Hydroxide's lone pair bonds to that proton and the O–H pair stays on oxygen: <b>O lone pair of HO<sup>−</sup> → acidic H, and the O–H bond → O</b>, giving acetate and water.",
+  "x": [
+   "",
+   "This removes a methyl C–H. That hydrogen is far less acidic than the carboxylic O–H, so hydroxide does not take it.",
+   "These arrows add hydroxide to the carbonyl carbon. Proton transfer from the O–H is much faster, and the carboxylate formed then resists nucleophilic attack.",
+   "With only one arrow hydrogen would have two bonds. The O–H bond pair must move onto oxygen."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "zm1-20",
+  "t": "acidbase",
+  "q": "The drawing shows the proton transfer between the propynide ion and water. What are the products, and which side of the equilibrium is favored?",
+  "c": [
+   "Propyne and hydroxide ion; products are favored, because water (pK<sub>a</sub> 15.7) is a stronger acid than propyne (pK<sub>a</sub> 25)",
+   "Propyne and hydroxide ion; reactants are favored, because water (pK<sub>a</sub> 15.7) is a weaker acid than propyne (pK<sub>a</sub> 25)",
+   "Prop-1-en-1-ol and nothing else; products are favored, because water adds across the triple bond",
+   "Propyne and hydroxide ion; the two sides are about equal, because both acids are neutral"
+  ],
+  "s": [
+   {
+    "smi": "CC#[C-:51].[H:52][O:53][H:54]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "Name the acid on each side and compare their pK<sub>a</sub> values. Equilibrium favors the side with the weaker acid.",
+  "w": "The carbanion lone pair takes a proton from water, and the O–H pair stays on oxygen: the products are <b>propyne and hydroxide ion, and products are favored</b>. The acid on the left is water (pK<sub>a</sub> 15.7); the acid on the right is propyne (pK<sub>a</sub> about 25). The equilibrium lies toward the weaker acid, propyne, with K<sub>eq</sub> ≈ 10<sup>9</sup>. This is why acetylide reactions must be kept dry.",
+  "x": [
+   "",
+   "The pK<sub>a</sub> comparison is reversed: a lower pK<sub>a</sub> means a stronger acid, so water (15.7) is stronger than propyne (25).",
+   "The arrows show a proton moving to carbon; no C–O bond forms. Hydration of an alkyne needs acid and Hg<sup>2+</sup> catalysis, not this step.",
+   "Charge type does not set the position; the pK<sub>a</sub> values differ by about 9 units, so K<sub>eq</sub> ≈ 10<sup>9</sup>, far from 1."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-21",
+  "t": "acidbase",
+  "q": "A student drew this single arrow for the reaction of sodium amide with ethanol. What is wrong with it?",
+  "c": [
+   "The O–H bond pair should go to oxygen; a separate arrow from nitrogen's lone pair to H is needed",
+   "Nothing is wrong; in a proton transfer the arrow points from the acid to the base",
+   "The arrow should start at the hydrogen atom and point to nitrogen",
+   "No reaction occurs, because ethanol is a weaker acid than ammonia"
+  ],
+  "s": [
+   {
+    "smi": "[NH2-:51].CC[O:53][H:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 51
+     }
+    ]
+   }
+  ],
+  "h": "Curved arrows track electrons, not the proton. Which species supplies the pair that bonds to H, and where does the O–H pair go?",
+  "w": "The base (NH<sub>2</sub><sup>−</sup>) supplies a lone pair to the proton, and the O–H bond pair stays on oxygen to make ethoxide. The student's arrow sends the O–H pair to nitrogen, which would leave oxygen electron-poor and does not show the new N–H bond. <b>A correct drawing needs N lone pair → H, and the O–H bond → O.</b>",
+  "x": [
+   "",
+   "A common slip. Arrows show electron flow, which is from the base to the proton; the proton itself moves the opposite way.",
+   "A proton has no electrons to give, so an arrow can never start at H. It starts at the electrons that make the new bond.",
+   "Ethanol (pK<sub>a</sub> ≈ 16) is a much stronger acid than ammonia (≈ 38), so the reaction goes essentially to completion."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-22",
+  "t": "acidbase",
+  "q": "Tetrahydrofuran (THF) and borane form the BH<sub>3</sub>·THF complex by the arrow shown. What are the formal charges on oxygen and boron in the complex?",
+  "c": [
+   "O is +1 and B is −1",
+   "O is −1 and B is +1",
+   "O is 0 and B is 0, because a dative bond carries no charge",
+   "O is +1 and B is 0"
+  ],
+  "s": [
+   {
+    "smi": "C1CC[O:51]C1.[BH3:52]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "C1CC[O+]([BH3-])C1"
+   }
+  ],
+  "h": "Use formal charge = valence electrons − nonbonding electrons − bonds, for O (6 valence) and B (3 valence).",
+  "w": "After donating a lone pair, oxygen has three bonds and one lone pair: 6 − 2 − 3 = +1. Boron now has four bonds and no lone pairs: 3 − 0 − 4 = −1. So <b>O is +1 and B is −1</b>, and the complex is neutral overall. Oxygen is the Lewis base and boron the Lewis acid.",
+  "x": [
+   "",
+   "The charges are reversed. The donor oxygen loses a share of its pair and becomes positive; the acceptor boron gains one and becomes negative.",
+   "Formal charge counts the bonds in the structure, however they formed. Oxygen with three bonds and boron with four always carry +1 and −1.",
+   "Boron has 3 valence electrons and four bonds here, so its formal charge is −1. The charges must also sum to the neutral overall charge."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "zm1-23",
+  "t": "acidbase",
+  "q": "4-Pentyn-1-ol is treated with exactly 1.0 equivalent of NaNH<sub>2</sub>. A student proposes the deprotonation shown as the main reaction. Which evaluation is correct?",
+  "c": [
+   "The arrows are drawn correctly, but the O–H (pK<sub>a</sub> ≈ 16) is removed first, so the main product is the alkoxide",
+   "The proposal is correct, because sp-hybridized C–H bonds are the most acidic bonds in the molecule",
+   "The arrows are backwards: the C–H bond of the alkyne should donate its pair to nitrogen",
+   "The main reaction is removal of an H from the CH<sub>2</sub> next to oxygen, because the electronegative O acidifies it most"
+  ],
+  "s": [
+   {
+    "smi": "[NH2-:51].[H:52][C:53]#CCCC[O:54][H:55]",
+    "lp": [
+     51,
+     54
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "Compare the pK<sub>a</sub> values of all the acidic hydrogens. With one equivalent of base, which proton goes first?",
+  "w": "The arrows themselves are drawn correctly (N lone pair → H, C–H pair → C). But with one equivalent of base the most acidic proton reacts first. The alcohol O–H (pK<sub>a</sub> ≈ 16) is about 9 units more acidic than the terminal alkyne C–H (≈ 25), so <b>the main product is the alkoxide, not the acetylide</b>. A second equivalent of NaNH<sub>2</sub> would be needed to form the dianion.",
+  "x": [
+   "",
+   "sp C–H bonds are the most acidic C–H bonds, but an O–H is more acidic still: oxygen is more electronegative than any carbon, and alkoxide (≈ 16) is a weaker base than acetylide (≈ 25).",
+   "The direction is right: arrows start at the base's lone pair. A C–H bond donating to nitrogen would not form an N–H bond.",
+   "The CH<sub>2</sub>–O hydrogens are only weakly affected by the oxygen (pK<sub>a</sub> near 50). They are not acidic toward amide."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "zm1-24",
+  "t": "acidbase",
+  "q": "Each drawing shows a correctly drawn proton transfer. For which one does the equilibrium lie on the product side (K<sub>eq</sub> > 1)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[NH2-:51].[H:52][C:53]#C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[OH-:51].[H:52][C:53]#C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "CC[O-:51].[H:52][NH2:53]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "CC#[C-:51].[H:52][CH3:53]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Acid",
+     "approximate pK<sub>a</sub>"
+    ],
+    "rows": [
+     [
+      "H<sub>2</sub>O",
+      "15.7"
+     ],
+     [
+      "CH<sub>3</sub>CH<sub>2</sub>OH",
+      "16"
+     ],
+     [
+      "HC≡CH",
+      "25"
+     ],
+     [
+      "NH<sub>3</sub>",
+      "38"
+     ],
+     [
+      "CH<sub>4</sub>",
+      "50"
+     ]
+    ]
+   }
+  ],
+  "h": "For each, name the acid on the left and the acid formed on the right. The equilibrium favors the side with the higher pK<sub>a</sub> acid.",
+  "w": "An acid–base equilibrium favors the weaker acid (higher pK<sub>a</sub>). Amide + acetylene: acid on the left is HC≡CH (25), acid on the right is NH<sub>3</sub> (38), so the products are favored. In every other drawing the acid formed is stronger than the acid used, so those lie to the left. The answer is <b>amide ion deprotonating acetylene</b>.",
+  "x": [
+   "",
+   "Hydroxide would form water (15.7) from acetylene (25). Water is the stronger acid, so the reactants are favored by about 10<sup>9</sup>.",
+   "Ethoxide would make ethanol (16) from ammonia (38). The product acid is much stronger, so this lies far to the left.",
+   "Acetylide would make acetylene (25) from methane (50). Acetylene is the stronger acid, so the reactants are favored."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "zm1-25",
+  "t": "acidbase",
+  "q": "A student plans to make sodium hexynide by adding NaNH<sub>2</sub> to 1-hexyne in water. The reaction between amide and the solvent is shown. Why does the plan fail?",
+  "c": [
+   "Amide is converted essentially completely to hydroxide by water, and hydroxide is too weak a base to deprotonate the alkyne",
+   "The drawn reaction lies to the left, because ammonia is a stronger acid than water, so amide is never formed in water",
+   "Water adds to the triple bond faster than any deprotonation can occur",
+   "Amide deprotonates the alkyne, but the acetylide then attacks water's oxygen to give an ether"
+  ],
+  "s": [
+   {
+    "smi": "[NH2-:51].[H:52][O:53][H:54]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "Compare the pK<sub>a</sub> of water with that of NH<sub>3</sub>, and then compare the base left over with the alkyne's pK<sub>a</sub>.",
+  "w": "Water (pK<sub>a</sub> 15.7) is about 22 units more acidic than ammonia (38), so the drawn proton transfer goes essentially to completion. This is the leveling effect: no base stronger than HO<sup>−</sup> survives in water. Hydroxide can only remove protons with pK<sub>a</sub> below about 15.7, and the alkyne's is about 25. So <b>NaNH<sub>2</sub> is leveled to hydroxide, which cannot form the acetylide</b>. Even acetylide that did form would be protonated by water. Use liquid NH<sub>3</sub> or an aprotic solvent instead.",
+  "x": [
+   "",
+   "The pK<sub>a</sub> order is reversed: water (15.7) is the stronger acid, not ammonia (38), so the drawn reaction lies far to the right.",
+   "Water does not add to an alkyne without an acid and Hg<sup>2+</sup> catalyst. The problem is acid–base: the base is destroyed by the solvent.",
+   "An acetylide protonated by water gives back the alkyne and hydroxide. Carbanions take a proton from water much faster than they attack oxygen, and C–O bond formation this way does not occur."
+  ],
+  "k": 0,
+  "d": 3
+ }
+]

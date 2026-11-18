@@ -102,8 +102,32 @@ def label_for(a, ab):
     h = a.GetTotalNumHs()
     return s + ('H' + (str(h) if h > 1 else '') if h else '')
 
-def skel(smi, ab=None, flip=False, rot=0):
-    m = mol(smi)
+VE = {'N': 5, 'O': 6, 'S': 6, 'F': 7, 'Cl': 7, 'Br': 7, 'I': 7, 'C': 4}
+
+def lone_pairs(a):
+    """Nonbonding electron pairs on an atom of a Kekulized molecule (heteroatoms; carbon only as a carbanion)."""
+    s = a.GetSymbol()
+    if s not in VE or (s == 'C' and a.GetFormalCharge() >= 0): return 0
+    bonds = sum(int(b.GetBondTypeAsDouble()) for b in a.GetBonds()) + a.GetTotalNumHs()
+    nb = VE[s] - a.GetFormalCharge() - bonds - a.GetNumRadicalElectrons()
+    return max(0, nb // 2)
+
+def resolve_end(e, idx, where):
+    """Arrow end: an anchor map number (atom) or a pair [m1, m2] (the bond between those atoms)."""
+    if isinstance(e, list):
+        if len(e) != 2: raise ValueError(where + ': a bond end must be [map1, map2]')
+        return [resolve_end(e[0], idx, where), resolve_end(e[1], idx, where)]
+    if e not in idx: raise ValueError('%s: no atom with map %s in the SMILES' % (where, e))
+    return idx[e]
+
+def skel(smi, ab=None, flip=False, rot=0, arrows=None, lp=None, layout=None):
+    if arrows:
+        # mechanism drawings keep explicit [H] atoms (an E2 base takes a drawn H)
+        ps = Chem.SmilesParserParams(); ps.removeHs = False
+        m = Chem.MolFromSmiles(smi, ps)
+        if m is None: raise ValueError('bad SMILES: ' + smi)
+    else:
+        m = mol(smi)
     m = Chem.Mol(m)
     Chem.Kekulize(m, clearAromaticFlags=True)
     # bridged rings (norbornane etc.): RDKit's own layout matches the textbook drawing; CoordGen draws them oddly
@@ -111,6 +135,19 @@ def skel(smi, ab=None, flip=False, rot=0):
     if bridged: rdDepictor.SetPreferCoordGen(False)
     try: rdDepictor.Compute2DCoords(m)
     finally: rdDepictor.SetPreferCoordGen(True)
+    if layout:
+        # cyclic transition states (Diels-Alder, Cope/Claisen, decarboxylation): lay the drawing out as if the bonds being
+        # formed were already there, so the reacting atoms sit on a ring; those bonds are not drawn
+        idx = {a.GetAtomMapNum(): a.GetIdx() for a in m.GetAtoms() if a.GetAtomMapNum()}
+        rw = Chem.RWMol(m)
+        for pr in layout:
+            if len(pr) != 2 or pr[0] not in idx or pr[1] not in idx: raise ValueError('layout pair %s: needs two atom maps from the SMILES' % (pr,))
+            if rw.GetBondBetweenAtoms(idx[pr[0]], idx[pr[1]]) is None: rw.AddBond(idx[pr[0]], idx[pr[1]], Chem.BondType.SINGLE)
+        t = rw.GetMol(); t.UpdatePropertyCache(strict=False); Chem.FastFindRings(t)
+        if rdMolDescriptors.CalcNumBridgeheadAtoms(t) > 0: rdDepictor.SetPreferCoordGen(False)
+        try: rdDepictor.Compute2DCoords(t)
+        finally: rdDepictor.SetPreferCoordGen(True)
+        m.RemoveAllConformers(); m.AddConformer(Chem.Conformer(t.GetConformer()), assignId=True)
     if rot:
         import math
         conf = m.GetConformer(); t = math.radians(rot)
@@ -120,9 +157,11 @@ def skel(smi, ab=None, flip=False, rot=0):
     conf = m.GetConformer()
     # separate fragments (ion pairs, salts) side by side with a clear gap so labels and charges don't touch
     frags = Chem.GetMolFrags(m)
-    if len(frags) > 1:
+    if len(frags) > 1 and not layout:
         x_end = None
-        for fr in sorted(frags, key=lambda f: min(conf.GetAtomPosition(i).x for i in f)):
+        # mechanism drawings keep SMILES order (left to right) so the attacking species sits where the author put it
+        order = list(frags) if arrows else sorted(frags, key=lambda f: min(conf.GetAtomPosition(i).x for i in f))
+        for fr in order:
             xs_f = [conf.GetAtomPosition(i).x for i in fr]
             ys_f = [conf.GetAtomPosition(i).y for i in fr]
             cy = (min(ys_f) + max(ys_f)) / 2
@@ -138,9 +177,15 @@ def skel(smi, ab=None, flip=False, rot=0):
     A = []
     for a in m.GetAtoms():
         i = a.GetIdx()
-        row = [label_for(a, ab), round(1.5 * (sx * xs[i] - x0), 3), round(1.5 * (-ys[i] - y0), 3), 0, a.GetFormalCharge()]
+        mp = a.GetAtomMapNum()
+        if 26 < mp < 51: raise ValueError('atom map %d: use 1-26 for lettered tags or 51-99 for invisible arrow anchors' % mp)
+        tag = LETTERS[mp - 1] if 0 < mp <= 26 else ''
+        npair = 0
+        if lp is True: npair = lone_pairs(a)
+        elif isinstance(lp, list) and mp in lp: npair = lone_pairs(a)
+        row = [label_for(a, ab), round(1.5 * (sx * xs[i] - x0), 3), round(1.5 * (-ys[i] - y0), 3), npair, a.GetFormalCharge()]
         rad = a.GetNumRadicalElectrons()
-        if a.GetAtomMapNum() or rad: row.append(LETTERS[a.GetAtomMapNum() - 1] if a.GetAtomMapNum() else '')
+        if tag or rad: row.append(tag)
         if rad: row.append(rad)
         A.append(row)
     B = []
@@ -152,7 +197,23 @@ def skel(smi, ab=None, flip=False, rot=0):
         if d == Chem.BondDir.BEGINWEDGE: o = 5 if flip else 4
         elif d == Chem.BondDir.BEGINDASH: o = 4 if flip else 5
         B.append([i, j, o])
-    return {'skel': True, 'a': A, 'b': B}
+    d = {'skel': True, 'a': A, 'b': B}
+    if arrows:
+        idx = {a.GetAtomMapNum(): a.GetIdx() for a in m.GetAtoms() if a.GetAtomMapNum()}
+        bonded = {frozenset((b[0], b[1])) for b in B}
+        AR = []
+        for k, ar in enumerate(arrows):
+            w = 'arrow %d' % (k + 1)
+            f, t = resolve_end(ar['from'], idx, w), resolve_end(ar['to'], idx, w)
+            for e in (f, t):
+                if isinstance(e, list) and frozenset(e) not in bonded: raise ValueError(w + ': [%s] is not a bond in the drawing' % ','.join(map(str, e)))
+            if isinstance(f, int) and not isinstance(t, list) and f == t: raise ValueError(w + ': starts and ends on the same atom')
+            if isinstance(f, int) and A[f][3] == 0 and A[f][0] != 'C' and not ar.get('half'):
+                raise ValueError(w + ': starts on an atom with no drawn lone pair; add "lp" for it or start from a bond')
+            r = [f, t, 1 if ar.get('half') else 0, int(ar.get('side', 0)) * (-1 if flip else 1)]
+            AR.append(r)
+        d['ar'] = AR
+    return d
 
 def png(smi, out):
     from rdkit.Chem import Draw

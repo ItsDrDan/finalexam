@@ -1,0 +1,2002 @@
+[
+ {
+  "id": "zm3-01",
+  "t": "radical",
+  "d": 1,
+  "q": "Light starts the radical bromination of an alkane by breaking the Br–Br bond. Which set of curved arrows correctly shows this initiation step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[Br:51][Br:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 51,
+      "half": true
+     },
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 52,
+      "half": true
+     }
+    ]
+   },
+   {
+    "smi": "[Br:51][Br:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[Br:51][Br:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 51
+     },
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[Br:51][Br:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 52,
+      "half": true,
+      "side": 1
+     },
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 52,
+      "half": true,
+      "side": -1
+     }
+    ]
+   }
+  ],
+  "h": "Light breaks this bond homolytically. How many electrons does each bromine atom keep, and which arrow shows one electron moving?",
+  "w": "Initiation by light is <b>homolysis</b>: the two electrons of the Br–Br σ bond split evenly, one to each atom, giving two Br• radicals. One electron moving is shown by a fishhook (half-headed) arrow, so the correct drawing has <b>two fishhook arrows starting at the Br–Br bond, one ending on each bromine</b>. A single full arrow, or two fishhooks landing on the same atom, describes heterolysis to Br<sup>+</sup> and Br<sup>−</sup>, which does not happen in a nonpolar radical reaction.",
+  "x": [
+   "",
+   "A single full arrow moves both bond electrons to one bromine: heterolysis to Br<sup>+</sup> and Br<sup>−</sup>, not the two Br• radicals that start the chain.",
+   "Two full arrows would move four electrons out of a bond that holds only two. Homolysis needs fishhooks, one electron to each atom.",
+   "Both fishhooks end on the same bromine, so that atom gets both electrons. That is heterolysis (Br<sup>−</sup> + Br<sup>+</sup>) drawn with the wrong arrow type, not homolysis."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-02",
+  "t": "radical",
+  "d": 2,
+  "q": "In the first propagation step of the light-initiated bromination of 2-methylpropane, a bromine atom removes the tertiary hydrogen to give the <i>tert</i>-butyl radical and HBr. Which set of curved arrows correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[Br:51].[H:52][C:53]([CH3:54])(C)C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     }
+    ]
+   },
+   {
+    "smi": "[Br:51].[H:52][C:53]([CH3:54])(C)C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[Br:51].[H:52][C:53]([CH3:54])(C)C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53,
+      "half": true
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 53,
+      "half": true
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54,
+      "half": true
+     }
+    ]
+   },
+   {
+    "smi": "[Br:51].[H:52][C:53]([CH3:54])(C)C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 52,
+      "to": 51,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     }
+    ]
+   }
+  ],
+  "h": "Hydrogen-atom abstraction makes one new bond (H–Br) and breaks one (C–H). Each of those two-electron bonds needs one electron from each partner.",
+  "w": "H-atom abstraction is a radical step, so every arrow is a fishhook. The unpaired electron of Br• moves toward H, one electron of the C–H bond moves toward H to pair with it (forming H–Br), and the other C–H electron stays on carbon as the unpaired electron of the 3° radical. That is <b>three fishhooks: Br• → H, C–H bond → H, C–H bond → C</b>. Bromine abstracts the 3° H because it gives the most stable radical and bromination is highly selective.",
+  "x": [
+   "",
+   "Full arrows describe a polar step: a bromine lone pair attacks H and the C–H pair goes to carbon, giving a carbanion and a cationic bromine species. A radical abstraction moves single electrons.",
+   "Here Br• attacks carbon and breaks a C–CH<sub>3</sub> bond. Radicals abstract hydrogen atoms from alkanes; substitution at a crowded sp<sup>3</sup> carbon by Br• does not happen.",
+   "The first arrow starts at the hydrogen atom, which has no unpaired electron, and points toward Br•; arrows must start where electrons are. With only two arrows the new H–Br bond also gets just one electron."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-03",
+  "t": "radical",
+  "d": 1,
+  "q": "The fishhook arrows show one step of the light-initiated bromination of 2-methylpropane. What kind of step is it?",
+  "s": [
+   {
+    "smi": "C[C:51](C)C.[Br:52][Br:53]",
+    "lp": [
+     52,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "CC(C)(C)Br.[Br]"
+   }
+  ],
+  "c": [
+   "Second propagation step: it uses one radical and regenerates the Br• chain carrier",
+   "Initiation step: it creates two radicals from a molecule with none",
+   "First propagation step: it removes a hydrogen atom from the alkane",
+   "Termination step: two radicals combine and the chain ends"
+  ],
+  "h": "Count the radicals on each side of the step, then ask which radical is made.",
+  "w": "The left side has one radical (the <i>tert</i>-butyl radical) and the right side has one (Br•), so this is a propagation step. The alkyl radical takes a Br atom from Br<sub>2</sub>, forming the C–Br bond of the product and releasing Br• to start the next cycle: <b>the second propagation step</b>. The first propagation step is Br• taking an H atom from the alkane.",
+  "x": [
+   "",
+   "Initiation starts from a nonradical (Br<sub>2</sub> + light) and makes two radicals; here a radical is already on the left.",
+   "In the first propagation step Br• abstracts H from the alkane to make HBr. Here the alkyl radical reacts with Br<sub>2</sub> and no H moves.",
+   "Termination would combine two radicals and leave none. This step has one radical in and one radical out."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-04",
+  "t": "radical",
+  "d": 3,
+  "q": "With HBr and a peroxide, 2-methylpropene gives 1-bromo-2-methylpropane. Which set of curved arrows correctly shows the step in which the bromine atom adds to the alkene?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[Br:51].[CH2:52]=[C:53](C)C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     }
+    ]
+   },
+   {
+    "smi": "[Br:51].[CH2:52]=[C:53](C)C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52,
+      "half": true
+     }
+    ]
+   },
+   {
+    "smi": "[Br:51].[CH2:52]=[C:53](C)C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[Br:51].[CH2:52]=[C:53](C)C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 52,
+      "to": 51,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     }
+    ]
+   }
+  ],
+  "h": "Which carbon must Br• bond to so that the unpaired electron ends up on the more substituted carbon? And how many electrons move in each arrow?",
+  "w": "Br• adds to the less substituted CH<sub>2</sub> end so that the new radical is <b>tertiary</b> (more stable); this is why the bromine ends up on C1 (anti-Markovnikov). The π bond splits: one π electron pairs with the Br electron to make the C–Br bond, the other stays on C2. So the correct drawing has <b>three fishhooks: Br• → CH<sub>2</sub>, π bond → CH<sub>2</sub>, π bond → C2</b>, giving BrCH<sub>2</sub>–C•(CH<sub>3</sub>)<sub>2</sub>.",
+  "x": [
+   "",
+   "Adding Br• to the more substituted carbon leaves a primary radical on the CH<sub>2</sub>. That radical is much less stable, and it would also lead to the Markovnikov product, 2-bromo-2-methylpropane.",
+   "Full arrows move electron pairs: this drawing would make a C–Br bond from a bromine lone pair and a carbanion at C2. The peroxide reaction is a radical chain, so each arrow moves one electron.",
+   "The first arrow starts at an alkene carbon and points to Br•, which reverses the flow; the electron that forms the bond comes from the radical. Two arrows also leave the π bond's split unaccounted for."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-05",
+  "t": "radical",
+  "d": 2,
+  "q": "In the peroxide-initiated addition of HBr to 2-methylpropene, the radical formed when Br• adds to the alkene then reacts with HBr. Which set of curved arrows correctly shows this second propagation step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "BrC[C:51](C)C.[H:52][Br:53]",
+    "lp": [
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     }
+    ]
+   },
+   {
+    "smi": "BrC[C:51](C)C.[H:52][Br:53]",
+    "lp": [
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52,
+      "half": true
+     }
+    ]
+   },
+   {
+    "smi": "BrC[C:51](C)C.[H:52][Br:53]",
+    "lp": [
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "BrC[C:51](C)C.[H:52][Br:53]",
+    "lp": [
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "The chain can only continue if this step hands back the same chain carrier that added to the alkene. Which atom must the carbon radical take from HBr?",
+  "w": "The 3° carbon radical abstracts the <b>hydrogen atom</b> of H–Br (the H–Br bond is weak, 366 kJ/mol, and a C–H bond of about 400 kJ/mol forms), which gives 1-bromo-2-methylpropane and regenerates Br• for the next cycle. Each bond change moves one electron: <b>C• → H, H–Br bond → H, H–Br bond → Br</b>, all fishhooks.",
+  "x": [
+   "",
+   "Taking the Br atom instead would release H•, a very high-energy radical, and the step would not regenerate Br•, so the chain could not continue.",
+   "Full arrows imply ions: the carbon has only one unpaired electron, so it cannot donate a pair, and sending the whole H–Br pair to Br makes bromide ion.",
+   "The fishhook from carbon is right, but the full arrow sends both H–Br electrons to bromine (Br<sup>−</sup>). The new C–H bond would then have only one electron, and the charges no longer balance."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-06",
+  "t": "radical",
+  "d": 3,
+  "q": "But-1-ene reacts with NBS and light. Removal of an allylic H gives radical I, which has a second resonance form, II (I and II are resonance forms). Which set of curved arrows on I correctly converts it into II?",
+  "s": [
+   {
+    "smi": "C=C[CH]C",
+    "cap": "I"
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "[CH2]C=CC",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH2:53]=[CH:52][CH:51][CH3:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ],
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": [
+       51,
+       52
+      ],
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:53]=[CH:52][CH:51][CH3:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:53]=[CH:52][CH:51][CH3:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ],
+      "half": true
+     },
+     {
+      "from": [
+       51,
+       54
+      ],
+      "to": [
+       51,
+       52
+      ],
+      "half": true
+     },
+     {
+      "from": [
+       51,
+       54
+      ],
+      "to": 54,
+      "half": true
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:53]=[CH:52][CH:51][CH3:54]",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ],
+      "half": true
+     }
+    ]
+   }
+  ],
+  "h": "A radical is an odd-electron species. Count how many electrons move in each arrow, and make sure no σ bond is broken.",
+  "w": "Radical resonance is shown with fishhooks. The unpaired electron on C3 moves into the C3–C2 bond, one π electron of C1=C2 joins it there to form the new π bond C2=C3, and the other π electron goes to C1 as the new unpaired electron. That is <b>three fishhooks: C3• → C2–C3 bond, π bond → C2–C3 bond, π bond → C1</b>. Only π electrons and the unpaired electron move; every σ bond stays. Because of this delocalization, NBS gives both 3-bromobut-1-ene and 1-bromobut-2-ene.",
+  "x": [
+   "",
+   "Full arrows move two electrons each, but C3 has only one unpaired electron. Odd-electron resonance needs fishhooks.",
+   "This breaks the σ bond to the methyl group, which is never allowed in resonance; the drawing would make a methyl radical, a different species.",
+   "One fishhook alone makes C2 part of two π bonds while it keeps its σ bonds: C2 would have five bonds. The C1=C2 π bond must also shift."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-07",
+  "t": "radical",
+  "d": 2,
+  "q": "The drawing shows a step that can occur in the radical bromination of methane. Which statements about this step are true?<br>I. It is a termination step: the number of radicals decreases by two.<br>II. ΔH for this step is negative, because a bond forms and none breaks.<br>III. It is the rate-determining step of the chain reaction.",
+  "s": [
+   {
+    "smi": "[CH3:51].[Br:52]",
+    "lp": [
+     52
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": 52,
+      "to": 51,
+      "half": true
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "CBr"
+   }
+  ],
+  "c": [
+   "I and II only",
+   "I only",
+   "I, II, and III",
+   "II only"
+  ],
+  "h": "Count radicals before and after, think about the energy of making a bond, and remember that radicals are present at very low concentration.",
+  "w": "I is <b>true</b>: CH<sub>3</sub>• and Br• (two radicals) pair their electrons, shown by two fishhooks, to give CH<sub>3</sub>Br with no radicals left. II is <b>true</b>: bond formation with no bond breaking releases energy (about −290 kJ/mol for C–Br). III is <b>false</b>: termination is rare because two radicals, each at a tiny concentration, must meet; the rate of the chain is set by the propagation steps (H abstraction for bromination). So the answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Misjudges II: forming a C–Br bond without breaking any bond is exothermic, so ΔH is negative.",
+   "Misjudges III: termination steps are rare events that stop chains; they are not the rate-determining step of the propagation cycle.",
+   "Misjudges I: two radicals combine into one nonradical molecule, which is the definition of termination."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-08",
+  "t": "radical",
+  "d": 1,
+  "q": "In peroxide-initiated HBr addition, the O–O bond of di-<i>tert</i>-butyl peroxide breaks first. The <i>tert</i>-butoxyl radical then reacts with HBr as shown by the fishhook arrows. What are the products of this step?",
+  "s": [
+   {
+    "smi": "CC(C)(C)[O:51].[H:52][Br:53]",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   "?"
+  ],
+  "c": [
+   "(CH<sub>3</sub>)<sub>3</sub>COH + Br•",
+   "(CH<sub>3</sub>)<sub>3</sub>COBr + H•",
+   "(CH<sub>3</sub>)<sub>3</sub>C• + HOBr",
+   "(CH<sub>3</sub>)<sub>3</sub>COH + Br<sup>−</sup>"
+  ],
+  "h": "Follow the arrows: which atom does the oxygen radical bond to, and where does the other H–Br electron end up?",
+  "w": "The oxygen's unpaired electron and one H–Br electron form a new O–H bond; the other H–Br electron stays on bromine. The products are <b><i>tert</i>-butyl alcohol and Br•</b>. This second initiation step makes the bromine atom that carries the chain (the strong O–H bond, about 440 kJ/mol, makes the step favorable).",
+  "x": [
+   "",
+   "The arrow from oxygen ends on H, not Br. Taking Br would leave H•, a very unstable radical, and the drawing does not show it.",
+   "No arrow touches the C–O bond, so the <i>tert</i>-butyl group stays on oxygen.",
+   "Fishhooks move one electron each, so bromine keeps one electron as Br•. Reading them as full arrows gives bromide, and the charges would then not balance (neutral reactants, one anion product)."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-09",
+  "t": "structure",
+  "d": 2,
+  "q": "The enolate ion of acetone has the two resonance forms I and II. Which set of curved arrows on I correctly converts it into II?",
+  "s": [
+   {
+    "smi": "[CH2-]C(C)=O",
+    "cap": "I"
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "C=C(C)[O-]",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH2-:51][C:52]([CH3:54])=[O:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[CH2-:51][C:52]([CH3:54])=[O:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[CH2-:51][C:52]([CH3:54])=[O:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "[CH2-:51][C:52]([CH3:54])=[O:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ],
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     }
+    ]
+   }
+  ],
+  "h": "When a lone pair makes a new π bond to the carbonyl carbon, that carbon must give up a bond. Which bond may move in resonance?",
+  "w": "Resonance moves only lone pairs and π electrons, two at a time, with full arrows. The carbanion lone pair forms the C=C π bond, and at the same time the C=O π electrons move onto oxygen so the central carbon keeps four bonds: <b>lone pair → C–C bond, C=O π bond → O</b>. This gives II, with the negative charge on the more electronegative oxygen (the major contributor).",
+  "x": [
+   "",
+   "The second arrow breaks the σ bond to the methyl group. σ bonds never move in resonance; that would make a different species (a methyl anion).",
+   "With only the first arrow, the carbonyl carbon would have five bonds (C=C, C=O and C–CH<sub>3</sub>). The C=O π bond must move to oxygen.",
+   "Fishhooks move one electron each; the enolate is an even-electron ion, and its lone pair and π bond move as pairs, so full arrows are needed."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-10",
+  "t": "structure",
+  "d": 2,
+  "q": "The arrows on <i>N</i>-methylacetamide (I) generate a second resonance form. Which structure is that resonance form?",
+  "s": [
+   {
+    "smi": "C[C:52](=[O:53])[NH:51]C",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ],
+    "cap": "I"
+   },
+   {
+    "arrow": ""
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC([O-])=[NH+]C"
+   },
+   {
+    "smi": "C[C+]([O-])NC"
+   },
+   {
+    "smi": "CC(O)=NC"
+   },
+   {
+    "smi": "CC([O-])=NC"
+   }
+  ],
+  "h": "Apply both arrows: a lone pair becomes a π bond, and a π bond becomes a lone pair. Atoms and H's stay where they are; only charges change.",
+  "w": "The nitrogen lone pair becomes a C=N π bond (N gains a + charge, since it now has four bonds), and the C=O π electrons move onto oxygen (O becomes −). Every atom and every H stays put, so the resonance form is <b>CH<sub>3</sub>C(O<sup>−</sup>)=N<sup>+</sup>HCH<sub>3</sub></b>. This contributor explains the planar amide nitrogen, the restricted C–N rotation and the weak basicity of amide N.",
+  "x": [
+   "",
+   "This is the result of moving only the C=O π electrons; the nitrogen lone pair arrow was ignored, leaving a carbocation.",
+   "The imidic acid has the H moved from N to O. Moving an atom makes a tautomer (a different compound), not a resonance form.",
+   "This form has lost the N–H hydrogen and carries an overall −1 charge. Resonance forms must have the same atoms and the same net charge (0 here)."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-11",
+  "t": "structure",
+  "d": 2,
+  "q": "Each drawing shows curved arrows proposed for drawing a resonance form of the species shown. Which set of arrows is <b>not</b> valid?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[N+:51](=[O:52])[O-:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 53,
+      "to": [
+       51,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "C[C:52](=[O:53])[O-:54]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 54,
+      "to": [
+       52,
+       54
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[CH2+:51][CH:52]=[CH2:53]",
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": [
+       51,
+       52
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "C[O:51][CH2+:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "For each drawing, count the bonds and lone pairs on every atom after the arrows. Can a second-row atom hold more than eight electrons?",
+  "w": "In nitromethane the O<sup>−</sup> lone pair is pushed into the N–O bond, but the N=O π bond is not moved away. Nitrogen would then have five bonds (10 electrons), which a second-row atom cannot hold. So the <b>nitromethane drawing is invalid</b>; it needs a second arrow moving the N=O π electrons onto the other oxygen. The acetate arrows (O<sup>−</sup> lone pair in, C=O π out), the allyl cation arrow (π bond toward the empty p orbital) and the methoxymethyl cation arrow (O lone pair toward C<sup>+</sup>) all keep every atom within an octet.",
+  "x": [
+   "",
+   "Valid: the O<sup>−</sup> lone pair forms a C=O π bond while the other C=O π pair moves to oxygen, so carbon keeps four bonds and the charge moves to the other oxygen.",
+   "Valid: the π electrons shift toward the cationic carbon, which has an empty p orbital, so the positive charge moves to the other end carbon.",
+   "Valid: the oxygen lone pair fills the empty p orbital of the adjacent carbocation, giving an oxocarbenium ion in which every atom has an octet."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-12",
+  "t": "structure",
+  "d": 3,
+  "q": "Nitromethane has two equivalent resonance forms, I and II, which differ in which oxygen (<i>a</i> or <i>b</i>) carries the negative charge. Which set of curved arrows on I correctly converts it into II?",
+  "s": [
+   {
+    "smi": "C[N+](=[O:1])[O-:2]",
+    "cap": "I"
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "C[N+]([O-:1])=[O:2]",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH3:54][N+:51](=[O:1])[O-:2]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 2,
+      "to": [
+       51,
+       2
+      ]
+     },
+     {
+      "from": [
+       51,
+       1
+      ],
+      "to": 1
+     }
+    ]
+   },
+   {
+    "smi": "[CH3:54][N+:51](=[O:1])[O-:2]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 2,
+      "to": [
+       51,
+       2
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "[CH3:54][N+:51](=[O:1])[O-:2]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 2,
+      "to": [
+       51,
+       2
+      ]
+     },
+     {
+      "from": [
+       51,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[CH3:54][N+:51](=[O:1])[O-:2]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       51,
+       1
+      ],
+      "to": 1
+     }
+    ]
+   }
+  ],
+  "h": "Nitrogen already has four bonds in I. If a new π bond forms to it, which of its existing bonds may give up its electrons?",
+  "w": "The lone pair on O<i>b</i> forms an N=O<i>b</i> π bond, and the N=O<i>a</i> π electrons move onto O<i>a</i>, so nitrogen keeps four bonds and its + charge while the − charge moves from <i>b</i> to <i>a</i>: <b>lone pair on <i>b</i> → N–O<i>b</i> bond, N=O<i>a</i> π bond → O<i>a</i></b>. These two equal forms explain why both N–O bonds in nitromethane have the same length.",
+  "x": [
+   "",
+   "Only the first arrow gives nitrogen five bonds (10 valence electrons), which exceeds the octet of a second-row atom.",
+   "The second arrow breaks the C–N σ bond. σ bonds are never broken in resonance, and the drawing does not lead to II.",
+   "Moving only the N=O<i>a</i> π pair onto oxygen leaves nitrogen with three bonds and no lone pair (a +2 formal charge and a sextet) and gives two negative oxygens, not II."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-13",
+  "t": "structure",
+  "d": 3,
+  "q": "But-3-en-2-one (methyl vinyl ketone, I) has the resonance form II, which shows why its terminal carbon is electrophilic. Which set of curved arrows on I correctly converts it into II?",
+  "s": [
+   {
+    "smi": "CC(=O)C=C",
+    "cap": "I"
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "CC([O-])=C[CH2+]",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:52](=[O:53])[CH:54]=[CH2:55]",
+    "lp": [
+     53
+    ],
+    "arrows": [
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": [
+       52,
+       54
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "C[C:52](=[O:53])[CH:54]=[CH2:55]",
+    "lp": [
+     53
+    ],
+    "arrows": [
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": [
+       52,
+       54
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "C[C:52](=[O:53])[CH:54]=[CH2:55]",
+    "lp": [
+     53
+    ],
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "C[C:52](=[O:53])[CH:54]=[CH2:55]",
+    "lp": [
+     53
+    ],
+    "arrows": [
+     {
+      "from": 53,
+      "to": [
+       52,
+       53
+      ]
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "h": "Electrons in a conjugated carbonyl flow toward oxygen. Which two π bonds have to move, and in which direction, for the + charge to end up on the terminal CH<sub>2</sub>?",
+  "w": "The C=O π electrons move onto the electronegative oxygen, and the C=C π electrons shift one bond toward the carbonyl carbon to replace the lost π bond. The carbonyl carbon keeps four bonds, the terminal CH<sub>2</sub> loses its π bond and becomes C<sup>+</sup>, and O becomes O<sup>−</sup>: <b>C=C π bond → C2–C3 bond, C=O π bond → O</b>. This form shows why nucleophiles add to the β-carbon (conjugate addition).",
+  "x": [
+   "",
+   "Moving only the C=C π bond toward the carbonyl carbon gives that carbon five bonds. The C=O π pair must leave at the same time.",
+   "This arrow alone gives a valid form, but a different one: the + charge sits on the carbonyl carbon, not on the terminal CH<sub>2</sub> as in II.",
+   "These arrows push electrons away from oxygen: the carbonyl carbon would get five bonds, oxygen would become positive and the terminal carbon negative, the opposite of II."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-14",
+  "t": "structure",
+  "d": 2,
+  "q": "A student draws the arrows shown on acetone and labels acetone and its enol, prop-1-en-2-ol, as resonance forms. What is wrong with this?",
+  "s": [
+   {
+    "smi": "[H:54][CH2:51][C:52](C)=[O:53]",
+    "lp": [
+     53
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       54
+      ],
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     },
+     {
+      "from": 53,
+      "to": 54
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "C=C(C)O"
+   }
+  ],
+  "c": [
+   "A hydrogen atom changes position (a C–H σ bond breaks), so the two are tautomers, not resonance forms",
+   "Nothing is wrong: the enol is a minor resonance contributor to acetone",
+   "The arrows should be fishhooks, because the forms have no formal charges",
+   "The enol drawn has a carbon with five bonds, so it is not a valid structure"
+  ],
+  "h": "Compare the positions of all atoms in the two structures. What may change between resonance forms, and what may not?",
+  "w": "Resonance forms differ only in where π electrons and lone pairs are drawn; every atom stays in the same place and no σ bond breaks. Here the C–H σ bond breaks and the H moves from carbon to oxygen. Acetone and its enol are therefore <b>tautomers: two different compounds in equilibrium</b>, each with its own structure, not two pictures of one molecule. The keto–enol interconversion needs an acid or base catalyst and takes time; resonance does not happen at all in time.",
+  "x": [
+   "",
+   "Because an atom has moved, the enol is a separate compound, not a contributor to acetone's structure. It is present only in tiny amounts at equilibrium.",
+   "Fishhooks are for moving single electrons (radicals). The arrow type has nothing to do with whether the forms carry charges; the real problem is the σ bond broken.",
+   "Prop-1-en-2-ol is a valid structure: each carbon has four bonds and oxygen two. The issue is the H shift, not the valence."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-15",
+  "t": "structure",
+  "d": 2,
+  "q": "The curved arrow converts the methoxymethyl cation I into its resonance form II. Which statement about I and II is correct?",
+  "s": [
+   {
+    "smi": "C[O:51][CH2+:52]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     }
+    ],
+    "cap": "I"
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "C[O+]=C",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "II is the major contributor, because every atom in II has a complete octet",
+   "I is the major contributor, because a positive charge is more stable on carbon than on oxygen",
+   "I and II are constitutional isomers that interconvert rapidly",
+   "II is not a valid form, because oxygen cannot form three bonds"
+  ],
+  "h": "For carbocations next to a lone-pair donor, which matters more: where the charge sits, or whether every atom has an octet?",
+  "w": "In I the CH<sub>2</sub><sup>+</sup> carbon has only six electrons. In II the oxygen lone pair has become a C=O π bond, so carbon and oxygen both have octets. A full set of octets outweighs placing + on the more electronegative atom, so <b>II (the oxocarbenium form) is the major contributor</b>. This is why an α-oxygen strongly stabilizes a carbocation (for example in S<sub>N</sub>1 reactions of α-chloro ethers and in acetal chemistry).",
+  "x": [
+   "",
+   "Charge placement is a lower priority than complete octets. Carbon in I has only a sextet, so I contributes less.",
+   "I and II have the same atoms connected the same way; only electrons are redrawn. They are resonance forms of one ion, not isomers.",
+   "Oxygen with three bonds and one lone pair (as in H<sub>3</sub>O<sup>+</sup>) is a normal oxonium oxygen with a +1 formal charge."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-16",
+  "t": "structure",
+  "d": 3,
+  "q": "Each species I–III is drawn with curved arrows. Which arrow sets give a valid resonance form of the species drawn?",
+  "s": [
+   {
+    "smi": "[O-:51][CH:52]=[CH2:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ],
+    "cap": "I"
+   },
+   {
+    "smi": "[H:54][CH2:51][CH+:52]C",
+    "arrows": [
+     {
+      "from": [
+       51,
+       54
+      ],
+      "to": [
+       51,
+       52
+      ]
+     }
+    ],
+    "cap": "II"
+   },
+   {
+    "smi": "C[C:52](C)=[OH+:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ],
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I and III only",
+   "I only",
+   "I, II, and III",
+   "III only"
+  ],
+  "h": "For each set ask two questions: does any σ bond break, and does any atom end up with more than eight electrons?",
+  "w": "I is <b>valid</b>: the O<sup>−</sup> lone pair forms a C=O π bond and the C=C π pair moves to the end carbon, giving the carbanion form of the acetaldehyde enolate; no σ bond breaks and every atom keeps an octet. II is <b>not valid</b>: the arrow starts at a C–H σ bond. Moving σ electrons breaks the bond (the H would leave as H<sup>+</sup>, which is deprotonation, an E1 step), so this is a reaction, not resonance. III is <b>valid</b>: the C=O<sup>+</sup>H π pair moves onto oxygen, giving a carbocation and a neutral OH. It is a minor contributor (carbon has a sextet) but a correct resonance form. Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "Misjudges III: moving a π pair onto an electronegative atom is a legal resonance move, even though the resulting form (a carbocation) is minor.",
+   "Misjudges II: the arrow starts at a σ bond. Breaking a σ bond changes the atoms' connections, so it is a reaction step, not resonance.",
+   "Misjudges I: the enolate oxygen's lone pair and the C=C π bond can both move, which is the standard enolate resonance."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-17",
+  "t": "mechanism",
+  "d": 2,
+  "q": "The 3-methylbutan-2-yl cation (formed when 3-methylbutan-2-ol is heated with acid) rearranges by a 1,2-shift. Which curved arrow correctly shows the shift that gives a more stable carbocation?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[H:55][CH2:56][CH+:51][C:52]([H:53])([CH3:54])C",
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "[H:55][CH2:56][CH+:51][C:52]([H:53])([CH3:54])C",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       52,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "[H:55][CH2:56][CH+:51][C:52]([H:53])([CH3:54])C",
+    "arrows": [
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "[H:55][CH2:56][CH+:51][C:52]([H:53])([CH3:54])C",
+    "arrows": [
+     {
+      "from": [
+       56,
+       55
+      ],
+      "to": 51
+     }
+    ]
+   }
+  ],
+  "h": "A 1,2-shift moves a group with its bonding pair toward the positive carbon. Which group's move leaves the + charge on a more substituted carbon?",
+  "w": "In a hydride shift the C–H bond on the neighboring carbon moves, with both electrons, to the empty p orbital of C<sup>+</sup>. The arrow starts at the <b>C3–H bond and ends on the cationic C2</b>. C3 is attached to three carbons, so the shift leaves a <b>3° cation</b>, (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>CH<sub>2</sub>CH<sub>3</sub>, which is more stable than the 2° starting cation.",
+  "x": [
+   "",
+   "The arrow starts at the positive carbon, which has no electrons to give. Arrows begin at the electrons that move: here the C–H bonding pair.",
+   "Shifting the methyl from C3 to C2 gives CH<sub>3</sub>CH<sup>+</sup>CH(CH<sub>3</sub>)<sub>2</sub>, which is the same 2° cation again; nothing is gained. The H shift gives a 3° cation.",
+   "Shifting an H from the C1 methyl would leave the + charge on a primary carbon, which is much less stable than the 2° starting cation."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-18",
+  "t": "mechanism",
+  "d": 3,
+  "q": "When 1-cyclobutylethanol is heated with H<sub>2</sub>SO<sub>4</sub>, the cation shown forms and then undergoes the alkyl shift indicated by the arrow. Which cation forms directly in this step?",
+  "s": [
+   {
+    "smi": "C[CH+:51][CH:52]1[CH2:53]CC1",
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1CCC[CH+]1"
+   },
+   {
+    "smi": "C[C+]1CCCC1"
+   },
+   {
+    "smi": "[CH+]1CCCCC1"
+   },
+   {
+    "smi": "CC1CC[CH+]C1"
+   }
+  ],
+  "h": "Follow the bond that moves: which ring carbon stays attached to the old cationic carbon, and which ring carbon loses a bond and becomes positive?",
+  "w": "The ring C–C bond shifts its electrons to the cationic carbon. The CH<sub>2</sub> at the end of that bond becomes bonded to the old C<sup>+</sup>, which is now inside the ring, so the four-membered ring grows to five. The ring carbon that lost the bond (the old point of attachment) becomes the new C<sup>+</sup>, next to the carbon carrying the CH<sub>3</sub>: the <b>2-methylcyclopentyl cation</b>. The cation is still 2°, but relieving the large cyclobutane ring strain drives the step. A later hydride shift can give the 3° 1-methylcyclopentyl cation, but that is a second step.",
+  "x": [
+   "",
+   "The 1-methylcyclopentyl cation forms only after a further 1,2-hydride shift; the alkyl shift itself leaves the charge on the carbon that lost the bond.",
+   "One ring bond moves to the side-chain carbon, so the ring gains one atom (4 → 5), not two. The methyl carbon stays outside the ring.",
+   "The positive charge ends on the carbon that gave up the migrating bond, which is next to the CH(CH<sub>3</sub>) carbon, not one carbon further away."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-19",
+  "t": "mechanism",
+  "d": 2,
+  "q": "The 3,3-dimethylbutan-2-yl cation rearranges to a tertiary cation. Which curved arrow correctly shows this 1,2-methyl shift?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[CH+:51][C:52]([CH3:53])(C)C",
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "C[CH+:51][C:52]([CH3:53])(C)C",
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       52,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "C[CH+:51][C:52]([CH3:53])(C)C",
+    "arrows": [
+     {
+      "from": 53,
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "C[CH+:51][C:52]([CH3:53])(C)C",
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "Curved arrows show electrons, not atoms. Where are the electrons that travel with the methyl group?",
+  "w": "In a 1,2-alkyl shift the methyl group moves with its bonding pair. The arrow must start at the <b>C3–CH<sub>3</sub> σ bond and end on the cationic C2</b>. C3, bonded to three carbons after the shift, becomes the new C<sup>+</sup>: the 3° 2,3-dimethylbutan-2-yl cation.",
+  "x": [
+   "",
+   "The arrow starts at the positive carbon, which has no electrons to donate; arrows always begin at an electron source.",
+   "Drawing the arrow from the methyl carbon atom shows the atom moving. A curved arrow must start at electrons, here the C–CH<sub>3</sub> bonding pair.",
+   "This sends the C–CH<sub>3</sub> bonding pair away onto the methyl group, as if CH<sub>3</sub><sup>−</sup> left. That would make a second carbocation (a dication) instead of filling the existing one."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-20",
+  "t": "mechanism",
+  "d": 1,
+  "q": "The step shown occurs in the S<sub>N</sub>1 hydrolysis of <i>tert</i>-butyl bromide. Which species is the nucleophile, and what forms in this step?",
+  "s": [
+   {
+    "smi": "[OH2:51].C[C+:52](C)C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   "?"
+  ],
+  "c": [
+   "Water is the nucleophile; the alkyloxonium ion (CH<sub>3</sub>)<sub>3</sub>C–OH<sub>2</sub><sup>+</sup> forms",
+   "The carbocation is the nucleophile; the alkyloxonium ion (CH<sub>3</sub>)<sub>3</sub>C–OH<sub>2</sub><sup>+</sup> forms",
+   "Water is the nucleophile; neutral <i>tert</i>-butyl alcohol forms directly in this step",
+   "Water acts as a base; 2-methylpropene forms in this step"
+  ],
+  "h": "The arrow starts at the electron-pair donor. Then count the bonds on oxygen after it forms the new bond.",
+  "w": "The arrow starts at a lone pair on water and ends at the empty p orbital of the carbocation, so <b>water is the nucleophile</b> (Lewis base) and the carbocation is the electrophile (Lewis acid). Oxygen now has three bonds and one lone pair, so the product of this step is the <b>alkyloxonium ion</b>, (CH<sub>3</sub>)<sub>3</sub>COH<sub>2</sub><sup>+</sup>. A separate step, deprotonation by another water molecule, gives <i>tert</i>-butyl alcohol.",
+  "x": [
+   "",
+   "The carbocation has an empty orbital and no lone pair; it accepts the electron pair, so it is the electrophile.",
+   "Only one arrow is drawn, so no O–H bond breaks in this step. The neutral alcohol appears only after a second water removes a proton.",
+   "A base would take a proton from a carbon next to C<sup>+</sup> (E1). Here the arrow goes to the cationic carbon itself, not to an H."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-21",
+  "t": "mechanism",
+  "d": 2,
+  "q": "A student proposes the hydride shift shown for the 2-methylbutan-2-yl cation. Why is this step not expected to occur to a significant extent?",
+  "s": [
+   {
+    "smi": "C[C+:51](C)[CH:52]([H:53])C",
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "CC(C)[CH+]C"
+   }
+  ],
+  "c": [
+   "It turns a 3° carbocation into a less stable 2° carbocation, an uphill step",
+   "A hydride shift must be drawn with a fishhook arrow, because only one electron moves",
+   "The arrow is drawn backwards; it should start at the positive carbon",
+   "Only methyl groups, not hydrogens, can undergo 1,2-shifts"
+  ],
+  "h": "Classify the cation before and after the shift.",
+  "w": "The starting cation, (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>CH<sub>2</sub>CH<sub>3</sub>, is tertiary. After the shift the charge sits on a carbon bonded to only two carbons, a <b>secondary</b> cation. Carbocation shifts go toward greater stability (2° → 3°, or relief of ring strain), so <b>a 3° → 2° shift is uphill</b> and does not compete with capture of the 3° cation. The arrow itself is drawn correctly.",
+  "x": [
+   "",
+   "A hydride moves with both of its bonding electrons (H:<sup>−</sup>), so a full arrow is correct here.",
+   "The arrow correctly starts at the C–H bonding pair; the positive carbon has no electrons to give.",
+   "Hydride shifts are common (often faster than alkyl shifts); the problem here is the direction of stability, not the group."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-22",
+  "t": "alkynes",
+  "d": 2,
+  "q": "Sodium propynide reacts with bromoethane to give pent-2-yne. Which set of curved arrows correctly shows this S<sub>N</sub>2 step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC#[C-:51].C[CH2:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "CC#[C-:51].C[CH2:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "CC#[C-:51].C[CH2:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "CC#[C-:51].C[CH2:52][Br:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 52,
+      "to": 51
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "Find the nucleophile's lone pair and the electrophilic carbon. What must happen to the C–Br bond as the new C–C bond forms?",
+  "w": "The acetylide carbon's lone pair attacks the electrophilic CH<sub>2</sub> (backside to C–Br), and in the same step the C–Br bonding pair leaves with bromide. Two arrows: <b>acetylide lone pair → CH<sub>2</sub>, C–Br bond → Br</b>. This forms CH<sub>3</sub>C≡CCH<sub>2</sub>CH<sub>3</sub> (pent-2-yne). The primary halide matters: with 2° or 3° halides the strongly basic acetylide gives mostly E2.",
+  "x": [
+   "",
+   "Without the C–Br arrow the CH<sub>2</sub> carbon would have five bonds. The leaving group must take the bonding pair as the new bond forms.",
+   "Attack at bromine (with the C–Br pair going to carbon) would make a carbanion and a C–Br bond on the alkyne, not the C–C bond of pent-2-yne.",
+   "The arrow starts at the electron-poor CH<sub>2</sub> carbon and points to the anion. Arrows run from the electron-rich nucleophile to the electrophile."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-23",
+  "t": "alkynes",
+  "d": 3,
+  "q": "Hydration of propyne (H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O, HgSO<sub>4</sub>) first gives the enol prop-1-en-2-ol, which tautomerizes to acetone in acid. Which set of curved arrows correctly shows the first step of this acid-catalyzed tautomerization?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH2:51]=[C:52](C)[OH:53].[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:51]=[C:52](C)[OH:53].[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 53,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:51]=[C:52](C)[OH:53].[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:51]=[C:52](C)[OH:53].[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": [
+       51,
+       52
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "The overall change puts a new H on the CH<sub>2</sub> carbon and removes the H from oxygen. Which atom of the enol must be protonated first?",
+  "w": "In acid, the enol's C=C π bond (made electron-rich by the OH) takes a proton from H<sub>3</sub>O<sup>+</sup> at the CH<sub>2</sub> carbon, and the H–O bonding pair stays on the water oxygen: <b>π bond → H, H–O bond → O</b>. The cation formed is resonance-stabilized by the oxygen lone pair (protonated acetone). Water then removes the O–H proton to give acetone. Net result: H moves from O to C.",
+  "x": [
+   "",
+   "Protonating the OH oxygen gives an oxonium ion that does not lead to acetone; the H must be added to carbon for the keto form to result.",
+   "Without the H–O arrow, the hydrogen of H<sub>3</sub>O<sup>+</sup> would have two bonds. The O–H bond must break as the C–H bond forms.",
+   "This arrow sends the H–O bonding pair toward the alkene, the reverse direction. The alkene π electrons are the electron source; the acidic H is the target."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-24",
+  "t": "alkynes",
+  "d": 1,
+  "q": "HgSO<sub>4</sub>-catalyzed hydration of but-1-yne goes through an enol that tautomerizes in acid. The arrows show the last step of the tautomerization. What is the organic product of this step?",
+  "s": [
+   {
+    "smi": "[OH2:51].[H:52][O+:53]=[C:54](C)CC",
+    "lp": [
+     51,
+     53
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "arrow": ""
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(C)=O"
+   },
+   {
+    "smi": "CCCC=O"
+   },
+   {
+    "smi": "C=C(O)CC"
+   },
+   {
+    "smi": "CCC(C)O"
+   }
+  ],
+  "h": "Water removes the proton on oxygen. What is left when the O–H bonding pair returns to oxygen?",
+  "w": "Water takes the O–H proton, and the O–H bonding pair becomes a lone pair on oxygen, leaving a neutral C=O. The product is the ketone <b>butan-2-one</b>, the Markovnikov hydration product of a terminal alkyne (the OH first went to the more substituted carbon).",
+  "x": [
+   "",
+   "Butanal is the anti-Markovnikov product, made from but-1-yne by hydroboration–oxidation (via the other enol), not by HgSO<sub>4</sub>/H<sub>3</sub>O<sup>+</sup>.",
+   "The enol is the starting point of tautomerization, not its end. Removing the O–H proton from the protonated ketone gives the C=O, not a C=C.",
+   "Butan-2-ol would need two more hydrogens (a reduction). Tautomerization only moves one H from O to C."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zm3-25",
+  "t": "alkynes",
+  "d": 2,
+  "q": "Sodium amide (NaNH<sub>2</sub>) converts but-1-yne into its acetylide ion. Which set of curved arrows correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[NH2-:53].[H:52][C:51]#[C:54]CC",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 53,
+      "to": 52
+     },
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "[NH2-:53].[H:52][C:51]#[C:54]CC",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 53,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[NH2-:53].[H:52][C:51]#[C:54]CC",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 53,
+      "to": 51
+     },
+     {
+      "from": [
+       51,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[NH2-:53].[H:52][C:51]#[C:54]CC",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 53,
+      "to": 52
+     },
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "This is an acid–base reaction. Where does the base attack, and where do the electrons of the broken bond go?",
+  "w": "The amide ion (conjugate acid NH<sub>3</sub>, pK<sub>a</sub> ≈ 38) is strong enough to remove the terminal alkyne H (pK<sub>a</sub> ≈ 25). The N lone pair forms a bond to the H, and the C–H bonding pair stays on the sp carbon as the acetylide lone pair: <b>N lone pair → H, C–H bond → C</b>.",
+  "x": [
+   "",
+   "Without the C–H arrow the hydrogen would have two bonds. The C–H pair must move onto carbon as the N–H bond forms.",
+   "This shows the amide adding to the triple bond, which gives a vinyl anion. Nonactivated alkynes are not attacked by NH<sub>2</sub><sup>−</sup>; it removes the acidic sp C–H instead.",
+   "The C–H pair is sent onto the hydrogen, which would then carry four electrons. The bonding pair must stay on carbon to make the acetylide."
+  ],
+  "k": 0
+ }
+]

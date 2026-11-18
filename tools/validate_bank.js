@@ -119,6 +119,17 @@ function structInfo(o) {                 // → {formula, problems[]} for one dr
   });
   const seen = {}; o.b.forEach(b => { const k = Math.min(b[0], b[1]) + '-' + Math.max(b[0], b[1]); if (seen[k]) problems.push('bond ' + k + ' listed twice'); seen[k] = 1; });
   const pos = {}; o.a.forEach((a, i) => { const k = a[1] + ',' + a[2]; if (pos[k] !== undefined) problems.push('atoms ' + pos[k] + ' and ' + i + ' at the same spot'); pos[k] = i; });
+  /* curved arrows: each end is an atom index or a [i, j] bond that exists in the drawing */
+  if (o.ar) {
+    const bonded = new Set(o.b.map(b => Math.min(b[0], b[1]) + '-' + Math.max(b[0], b[1])));
+    o.ar.forEach((r, k) => {
+      if (!Array.isArray(r) || r.length < 2) { problems.push('arrow ' + k + ' is malformed'); return; }
+      [r[0], r[1]].forEach(e => {
+        if (Array.isArray(e)) { if (!(e[0] in o.a) || !(e[1] in o.a) || !bonded.has(Math.min(e[0], e[1]) + '-' + Math.max(e[0], e[1]))) problems.push('arrow ' + k + ' end ' + JSON.stringify(e) + ' is not a bond'); }
+        else if (!(e in o.a)) problems.push('arrow ' + k + ' end ' + e + ' is not an atom');
+      });
+    });
+  }
   let unknown = false;
   o.a.forEach((a, i) => {
     const lab = String(a[0]).replace(/​/g, ''), chg = a[4] || 0;
@@ -126,11 +137,11 @@ function structInfo(o) {                 // → {formula, problems[]} for one dr
     if (GROUP_H[lab]) { el = GROUP_H[lab][0]; h = GROUP_H[lab][1]; }
     if (!(el in MASS)) { unknown = true; return; }
     if (o.skel && el === 'C' && !GROUP_H[lab]) {
-      h = 4 - deg[i] - Math.abs(chg);
+      h = 4 - deg[i] - Math.abs(chg) - (a[6] || 0);   /* a[6] = unpaired electrons (radicals) */
       if (h < 0) { problems.push('carbon ' + i + ' has ' + deg[i] + ' bonds'); h = 0; }
     } else if (el in VAL && !['P', 'S', 'B'].includes(el)) {
       const want = VAL[el] + (['N', 'O'].includes(el) ? chg : el === 'C' ? -Math.abs(chg) : ['F', 'Cl', 'Br', 'I'].includes(el) ? chg : 0);
-      const have = deg[i] + h;
+      const have = deg[i] + h + (a[6] || 0);
       /* skeletal drawings show every H on a heteroatom in its label (OH, NH2); a bare O or N must already be full */
       if (have > want || (have < want && (o.skel || el === 'C' || el === 'H'))) problems.push(lab + ' (atom ' + i + ', charge ' + chg + ') has ' + have + ' bonds, expected ' + want);
     }

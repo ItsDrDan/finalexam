@@ -1,0 +1,1728 @@
+[
+ {
+  "id": "zzs2-01",
+  "t": "conjugated",
+  "d": 1,
+  "k": 0,
+  "q": "As a conjugated polyene gets longer (ethene → 1,3-butadiene → 1,3,5-hexatriene), its λ<sub>max</sub> moves to longer wavelength. Which explanation is correct?",
+  "c": [
+   "Each added conjugated C=C adds π MOs, so the HOMO rises and the LUMO falls; the smaller HOMO–LUMO gap is bridged by lower-energy, longer-wavelength light",
+   "Each added conjugated C=C lowers the HOMO and raises the LUMO; the larger HOMO–LUMO gap is bridged by longer-wavelength light",
+   "Longer polyenes absorb through σ → σ* transitions, which need less energy than the π → π* transitions of short alkenes",
+   "Conjugation stabilizes the molecule, so a higher-energy photon is needed to excite it, which raises λ<sub>max</sub>"
+  ],
+  "h": "Picture the π MO ladder as p orbitals are added. What happens to the spacing in the middle, and how does photon energy relate to wavelength (E = hc/λ)?",
+  "w": "Combining n p orbitals gives n π MOs spread over roughly the same total energy range, so the levels crowd together as n grows. The HOMO moves up and the LUMO moves down: ethene's gap is largest (λ<sub>max</sub> ≈ 171 nm), butadiene's smaller (217 nm), hexatriene's smaller still (≈ 258 nm). Because E = hc/λ, a smaller gap means a lower-energy photon, i.e. a longer wavelength. So: <b>the HOMO rises and the LUMO falls, shrinking the gap, so longer-wavelength light is absorbed</b>.",
+  "x": [
+   "",
+   "A larger gap would need a higher-energy photon, which is a shorter wavelength, not a longer one; and the direction of the HOMO and LUMO shifts is reversed.",
+   "The UV band of polyenes is a π → π* transition; σ → σ* transitions need far more energy (below about 150 nm) and do not change much with conjugation.",
+   "A higher-energy photon has a shorter wavelength (E = hc/λ), so this reasoning would lower λ<sub>max</sub>; overall stabilization of the molecule is not what sets the HOMO–LUMO gap."
+  ]
+ },
+ {
+  "id": "zzs2-02",
+  "t": "conjugated",
+  "d": 2,
+  "k": 0,
+  "q": "Which compound has the longest-wavelength strong UV–vis absorption band (the π → π* λ<sub>max</sub>)? (One of them is a yellow solid.)",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)/C=C/c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)CCc1ccccc1"
+   }
+  ],
+  "h": "Count how many sp<sup>2</sup> atoms are in one unbroken conjugated π system in each compound. The bigger the system, the smaller the HOMO–LUMO gap.",
+  "w": "λ<sub>max</sub> grows with the size of the conjugated π system. (1<i>E</i>,4<i>E</i>)-1,5-Diphenylpenta-1,4-dien-3-one (dibenzylideneacetone) joins two benzene rings, two C=C bonds and a C=O in one π system (17 sp<sup>2</sup> atoms plus O); it absorbs near 330 nm, with the tail of the band reaching the violet, so it looks yellow. Benzalacetone (one ring + C=C + C=O) absorbs near 285 nm, acetophenone (ring + C=O) near 245 nm, and 4-phenylbutan-2-one, whose C=O is cut off from the ring by two sp<sup>3</sup> carbons, has only benzene's own bands. Longest: <b>dibenzylideneacetone</b>.",
+  "x": [
+   "",
+   "(<i>E</i>)-4-Phenylbut-3-en-2-one has a good conjugated system (ring, C=C, C=O), but only half the size of dibenzylideneacetone's, so its λ<sub>max</sub> (≈ 285 nm) is shorter.",
+   "Acetophenone conjugates the ring with C=O only; with no C=C linker its λ<sub>max</sub> (≈ 245 nm) is shorter than either styryl ketone.",
+   "In 4-phenylbutan-2-one two CH<sub>2</sub> groups insulate the C=O from the ring, so there is no extended conjugation at all; it has the shortest strong band."
+  ]
+ },
+ {
+  "id": "zzs2-03",
+  "t": "conjugated",
+  "d": 3,
+  "k": 0,
+  "q": "Rank the α,β-unsaturated ketones <b>I</b>–<b>III</b> by the λ<sub>max</sub> of their strong π → π* band, from shortest to longest wavelength.",
+  "s": [
+   {
+    "smi": "C=CC(C)=O",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(=O)C=C(C)C",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(=O)/C=C/C=C/C",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I < II < III",
+   "II < I < III",
+   "I < III < II",
+   "III < II < I"
+  ],
+  "h": "Woodward-type trends for enones: each alkyl group on the C=C adds roughly 10–18 nm; one more C=C in conjugation adds about 30 nm plus its substituents.",
+  "w": "All three share the C=C–C=O chromophore. <b>I</b> (but-3-en-2-one) has no alkyl groups on the C=C, so it absorbs at the shortest wavelength (≈ 210–220 nm). <b>II</b> (4-methylpent-3-en-2-one) has two β-methyl groups; each alkyl substituent raises λ<sub>max</sub> by roughly 12 nm (≈ 236 nm). <b>III</b> ((3<i>E</i>,5<i>E</i>)-hepta-3,5-dien-2-one) has a second C=C in conjugation, which extends the π system and adds about 30 nm, plus a terminal methyl (≈ 270 nm). Order: <b>I &lt; II &lt; III</b>.",
+  "x": [
+   "",
+   "Alkyl groups on the C=C raise λ<sub>max</sub> slightly (hyperconjugation raises the HOMO); they do not lower it, so II absorbs at longer wavelength than I.",
+   "Two β-methyl groups add only about 25 nm in total; an extra conjugated C=C adds about 30 nm on its own, so III is longer than II.",
+   "This is the reverse order: the most extended and most substituted π system has the smallest HOMO–LUMO gap and the longest λ<sub>max</sub>."
+  ]
+ },
+ {
+  "id": "zzs2-04",
+  "t": "conjugated",
+  "d": 1,
+  "k": 0,
+  "q": "Lycopene, the pigment of tomatoes, is a C<sub>40</sub> hydrocarbon with 11 conjugated C=C bonds, and it looks red. Which statement explains its color?",
+  "c": [
+   "Its long conjugated π system has a small HOMO–LUMO gap, so it absorbs blue-green visible light (about 470 nm) and we see the complementary red",
+   "It absorbs red light (about 650 nm), and the absorbed color is the color we see",
+   "Its π → π* band lies in the UV near 220 nm, and the red color comes from light it emits afterward",
+   "Its C=C bonds are separated by sp<sup>3</sup> carbons, so each absorbs on its own and the sum of the bands looks red"
+  ],
+  "h": "First decide where an 11-unit polyene absorbs (UV or visible). Then remember that an object's color is made of the light it does not absorb.",
+  "w": "Each added conjugated C=C narrows the HOMO–LUMO gap. With 11 in a row, the π → π* band moves all the way into the visible region (λ<sub>max</sub> ≈ 470 nm, blue-green). The light that reaches the eye is what remains: the complementary color, red-orange. So: <b>a small HOMO–LUMO gap from extended conjugation gives absorption of blue-green light, and we see red</b>.",
+  "x": [
+   "",
+   "An object shows the complementary color of the light it absorbs; a compound absorbing red light would look blue-green.",
+   "220 nm is typical of a single diene; 11 conjugated C=C bonds push λ<sub>max</sub> into the visible, and the color is from absorption, not emission.",
+   "Lycopene's 11 C=C bonds are conjugated (alternating with single bonds); isolated C=C bonds would each absorb near 170–180 nm, which is invisible."
+  ]
+ },
+ {
+  "id": "zzs2-05",
+  "t": "conjugated",
+  "d": 2,
+  "k": 0,
+  "q": "1,3-Butadiene (λ<sub>max</sub> 217 nm) reacts with maleic anhydride as shown. How does the UV spectrum of the purified Diels–Alder product compare with that of 1,3-butadiene?",
+  "s": [
+   {
+    "smi": "C=CC=C"
+   },
+   "+",
+   {
+    "smi": "O=C1C=CC(=O)O1"
+   },
+   {
+    "arrow": "heat"
+   },
+   {
+    "smi": "O=C1OC(=O)[C@@H]2CC=CC[C@H]12"
+   }
+  ],
+  "c": [
+   "The strong 217 nm band is gone: the product's only C=C is isolated between sp<sup>3</sup> carbons, so it has no strong π → π* band above 200 nm",
+   "The band moves to about 256 nm, because the product is a six-membered ring diene like 1,3-cyclohexadiene",
+   "The band grows stronger, because the two new σ bonds of the ring extend the conjugation",
+   "The band does not change, because a Diels–Alder reaction keeps the number of π bonds the same"
+  ],
+  "h": "Count the π bonds before and after a [4+2] cycloaddition, and ask whether the C=C left in the ring is next to any other π bond.",
+  "w": "In a Diels–Alder reaction three π bonds (two of the diene, one of the dienophile) become two new σ bonds and one new π bond, which sits between C2 and C3 of the old diene. In the product (<i>cis</i>-1,2,3,6-tetrahydrophthalic anhydride) that C=C is flanked by two CH<sub>2</sub> groups, so it is not conjugated with anything, and an isolated C=C absorbs below 200 nm. So <b>the strong 217 nm band disappears</b>; this is why the loss of diene absorption is used to follow Diels–Alder reactions.",
+  "x": [
+   "",
+   "The product has only one C=C in the ring; 1,3-cyclohexadiene's 256 nm band needs two conjugated C=C bonds.",
+   "σ bonds do not extend a π system; the cycloaddition removes conjugation instead of adding it.",
+   "Three π bonds are replaced by two σ bonds and one π bond, so the π-bond count drops by two and the conjugated diene is destroyed."
+  ]
+ },
+ {
+  "id": "zzs2-06",
+  "t": "conjugated",
+  "d": 3,
+  "k": 0,
+  "q": "Cyclohex-3-en-1-one is stirred with a trace of NaOEt in ethanol, and an isomer (C<sub>6</sub>H<sub>8</sub>O) is isolated. Its IR spectrum is shown. Which statement correctly interprets the change?",
+  "s": [
+   {
+    "smi": "O=C1CC=CCC1"
+   },
+   {
+    "arrow": "NaOEt (cat.)",
+    "below": "EtOH"
+   },
+   "isomer"
+  ],
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3035,
+      "str": "w"
+     },
+     {
+      "cm": 2945,
+      "str": "m"
+     },
+     {
+      "cm": 2870,
+      "str": "w"
+     },
+     {
+      "cm": 1680,
+      "str": "s"
+     },
+     {
+      "cm": 1620,
+      "str": "m"
+     },
+     {
+      "cm": 1250,
+      "str": "m"
+     },
+     {
+      "cm": 880,
+      "str": "m"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "The C=C moved into conjugation with C=O (cyclohex-2-en-1-one): the C=O stretch fell from about 1720 to 1680 cm<sup>−1</sup>, and a strong UV band near 225 nm appears",
+   "The C=C moved into conjugation with C=O: the C=O stretch fell to 1680 cm<sup>−1</sup>, and the UV band moves to shorter wavelength because the conjugated isomer is more stable",
+   "The ketone tautomerized to its enol (cyclohexa-1,3-dien-1-ol), and the 1680 cm<sup>−1</sup> band is the enol C=C stretch",
+   "No isomerization occurred: 1680 cm<sup>−1</sup> is the normal C=O stretch of a six-membered-ring ketone"
+  ],
+  "h": "Base removes the α-H between C=O and C=C, and the enolate can reprotonate at another carbon. What does conjugation do to a C=O stretch and to UV absorption?",
+  "w": "The α-H at C2 of cyclohex-3-enone is both α to the C=O and allylic, so it is unusually acidic; removing it gives a dienolate, and reprotonation at C4 gives the thermodynamically favored conjugated enone, <b>cyclohex-2-en-1-one</b>. Conjugation gives the C=O partial single-bond character (C=C–C=O ↔ <sup>+</sup>C–C=C–O<sup>−</sup>), lowering its stretch from about 1715–1720 cm<sup>−1</sup> (nonconjugated) to 1680 cm<sup>−1</sup>, and the polarized C=C appears as a medium band near 1620 cm<sup>−1</sup>. The new C=C–C=O chromophore also gives a strong π → π* band near 225 nm, which the nonconjugated starting ketone lacks.",
+  "x": [
+   "",
+   "The IR part is right, but conjugation narrows the HOMO–LUMO gap, so the UV band moves to longer wavelength, not shorter.",
+   "An enol would show a broad O–H band near 3300 cm<sup>−1</sup>, which is absent, and simple enols are only a trace component at equilibrium; the strong 1680 cm<sup>−1</sup> band is a C=O.",
+   "Cyclohexanone-type ketones absorb near 1715 cm<sup>−1</sup>; a value of 1680 cm<sup>−1</sup> with a 1620 cm<sup>−1</sup> C=C band signals conjugation."
+  ]
+ },
+ {
+  "id": "zzs2-07",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "A compound C<sub>10</sub>H<sub>10</sub>O<sub>2</sub> gives the <sup>1</sup>H NMR spectrum shown. The δ 7.70 and δ 6.44 doublets share a coupling constant of 16.0 Hz. Which structure fits?",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.7,
+      "mult": "d",
+      "int": 1
+     },
+     {
+      "ppm": 7.52,
+      "mult": "m",
+      "int": 2
+     },
+     {
+      "ppm": 7.38,
+      "mult": "m",
+      "int": 3
+     },
+     {
+      "ppm": 6.44,
+      "mult": "d",
+      "int": 1
+     },
+     {
+      "ppm": 3.8,
+      "mult": "s",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COC(=O)/C=C/c1ccccc1"
+   },
+   {
+    "smi": "COC(=O)/C=C\\c1ccccc1"
+   },
+   {
+    "smi": "C=C(C(=O)OC)c1ccccc1"
+   },
+   {
+    "smi": "C/C=C/C(=O)Oc1ccccc1"
+   }
+  ],
+  "h": "What range of J is typical for two vinyl H that are trans to each other, cis to each other, or on the same carbon?",
+  "w": "Two vinyl doublets coupled only to each other mean a disubstituted C=C with one H on each carbon. Typical vinyl couplings: trans 12–18 Hz, cis 6–12 Hz, geminal 0–3 Hz. J = 16.0 Hz is trans. The 3H singlet at δ 3.80 is an OCH<sub>3</sub> ester and the 5H aromatic signals show a monosubstituted ring. The compound is <b>methyl (<i>E</i>)-3-phenylprop-2-enoate (methyl cinnamate)</b>.",
+  "x": [
+   "",
+   "The (<i>Z</i>) isomer has the same signals but a cis coupling of about 12–13 Hz, and its vinyl H appear further upfield (about δ 6.9 and 5.9).",
+   "Methyl 2-phenylacrylate has two H on the same carbon (=CH<sub>2</sub>); geminal coupling is only about 1–2 Hz, so they would look like near-singlets, not 16 Hz doublets.",
+   "Phenyl (<i>E</i>)-but-2-enoate has a CH<sub>3</sub> on the C=C: it would show a 3H doublet near δ 1.9 and a vinyl dq near δ 7.1, not an OCH<sub>3</sub> singlet at δ 3.80."
+  ]
+ },
+ {
+  "id": "zzs2-08",
+  "t": "spectro",
+  "d": 2,
+  "k": 1,
+  "q": "The <sup>1</sup>H NMR spectrum of ethyl propanoate (400 MHz) is shown. The four lines of the δ ≈ 4.1 quartet appear at the positions in the table (Hz downfield of TMS). What are its chemical shift and coupling constant, and how far apart (in Hz) will adjacent lines of this quartet be on a 600 MHz instrument?",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 4.1,
+      "mult": "q",
+      "int": 2
+     },
+     {
+      "ppm": 2.32,
+      "mult": "q",
+      "int": 2
+     },
+     {
+      "ppm": 1.25,
+      "mult": "t",
+      "int": 3
+     },
+     {
+      "ppm": 1.14,
+      "mult": "t",
+      "int": 3
+     }
+    ]
+   },
+   {
+    "type": "table",
+    "head": [
+     "Line",
+     "Position at 400 MHz (Hz)"
+    ],
+    "rows": [
+     [
+      "1",
+      "1650.0"
+     ],
+     [
+      "2",
+      "1642.8"
+     ],
+     [
+      "3",
+      "1635.6"
+     ],
+     [
+      "4",
+      "1628.4"
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "δ 4.10; J = 7.2 Hz; lines 7.2 Hz apart at 600 MHz",
+   "δ 4.10; J = 7.2 Hz; lines 10.8 Hz apart at 600 MHz",
+   "δ 4.10; J = 21.6 Hz; lines 21.6 Hz apart at 600 MHz",
+   "δ 2.73; J = 4.8 Hz; lines 4.8 Hz apart at 600 MHz"
+  ],
+  "h": "δ (ppm) = Hz from TMS ÷ spectrometer MHz, taken at the multiplet center. J is the spacing between adjacent lines in Hz. Which one depends on field strength?",
+  "w": "The multiplet center is (1650.0 + 1628.4)/2 = 1639.2 Hz; δ = 1639.2 Hz ÷ 400 MHz = 4.098 ≈ 4.10 ppm (the OCH<sub>2</sub>). Adjacent lines are 7.2 Hz apart, so J = 7.2 Hz, the same as in its CH<sub>3</sub> triplet partner at δ 1.25. J comes from the bonds, not the magnet, so at 600 MHz the lines are still <b>7.2 Hz apart</b>; only the shift in Hz changes (4.10 × 600 = 2460 Hz). Answer: <b>δ 4.10; J = 7.2 Hz; 7.2 Hz apart at 600 MHz</b>.",
+  "x": [
+   "",
+   "Scaling J by 600/400 treats the coupling like a chemical shift; coupling constants in Hz do not depend on the field strength.",
+   "21.6 Hz is the distance between the two outer lines, which spans three spacings (3J) in a quartet; J is the spacing between adjacent lines.",
+   "Dividing 1639.2 Hz by 600 uses the wrong spectrometer frequency; the line positions were measured at 400 MHz, so δ = 4.10 ppm."
+  ]
+ },
+ {
+  "id": "zzs2-09",
+  "t": "spectro",
+  "d": 1,
+  "k": 0,
+  "q": "The IR spectrum shown belongs to one of the four compounds. Which one?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3065,
+      "str": "w"
+     },
+     {
+      "cm": 1775,
+      "str": "s"
+     },
+     {
+      "cm": 1595,
+      "str": "m"
+     },
+     {
+      "cm": 1450,
+      "str": "m"
+     },
+     {
+      "cm": 1205,
+      "str": "s"
+     },
+     {
+      "cm": 875,
+      "str": "s"
+     },
+     {
+      "cm": 675,
+      "str": "s"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C(Cl)c1ccccc1"
+   },
+   {
+    "smi": "COC(=O)c1ccccc1"
+   },
+   {
+    "smi": "NC(=O)c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)c1ccccc1"
+   }
+  ],
+  "h": "All four have a C=O. Where does each derivative's C=O stretch fall? Electron-withdrawing groups on the carbonyl carbon raise the frequency; electron donation by resonance lowers it.",
+  "w": "The C=O stretch follows how much single-bond character the C=O has. Cl withdraws electrons inductively and donates little by resonance, so an aroyl chloride C=O is stiff: about 1770–1775 cm<sup>−1</sup>. An aryl ester is near 1720–1725, an aryl ketone near 1685 and a primary amide near 1650–1670 cm<sup>−1</sup> (with two N–H bands). The 1775 cm<sup>−1</sup> band, with no N–H bands and no sp<sup>3</sup> C–H, fits <b>benzoyl chloride</b>.",
+  "x": [
+   "",
+   "Methyl benzoate's C=O is near 1725 cm<sup>−1</sup>, and its OCH<sub>3</sub> would add sp<sup>3</sup> C–H bands just below 3000 cm<sup>−1</sup> and a strong C–O band near 1280 cm<sup>−1</sup>.",
+   "Benzamide would show two N–H bands near 3370 and 3170 cm<sup>−1</sup> and a C=O near 1660 cm<sup>−1</sup>; strong N lone-pair donation lowers the amide C=O stretch.",
+   "Acetophenone's conjugated ketone C=O is near 1685 cm<sup>−1</sup>, far below 1775, and its CH<sub>3</sub> would give sp<sup>3</sup> C–H bands."
+  ]
+ },
+ {
+  "id": "zzs2-10",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "Rank compounds <b>I</b>–<b>III</b> by the wavenumber of their C=O stretching band, from lowest to highest.",
+  "s": [
+   {
+    "smi": "CCOC(C)=O",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(=O)N(C)C",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(Cl)=O",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "II < I < III",
+   "I < II < III",
+   "III < I < II",
+   "II < III < I"
+  ],
+  "h": "A stronger, more double-bond-like C=O vibrates at higher wavenumber. Which substituent donates most by resonance (more C–O single-bond character), and which withdraws most by induction?",
+  "w": "Resonance donation from the heteroatom (X–C=O ↔ X<sup>+</sup>=C–O<sup>−</sup>) weakens the C=O; inductive withdrawal strengthens it. N donates strongly, so <b>II</b> (N,N-dimethylacetamide) absorbs lowest, near 1650 cm<sup>−1</sup>. In the ester <b>I</b> (ethyl acetate) O donates less and also withdraws inductively: about 1740 cm<sup>−1</sup>. Cl barely donates (poor 3p–2p overlap) and withdraws strongly, so <b>III</b> (acetyl chloride) is highest, about 1800 cm<sup>−1</sup>. Order: <b>II &lt; I &lt; III</b>.",
+  "x": [
+   "",
+   "This puts the amide above the ester. Nitrogen is a better π donor than oxygen, so the amide C=O has more single-bond character and the lower wavenumber.",
+   "This is the reverse of the true order; the acid chloride, with the least resonance donation, has the stiffest C=O and the highest wavenumber.",
+   "The acid chloride C=O (about 1800 cm<sup>−1</sup>) is higher than the ester's (about 1740 cm<sup>−1</sup>), not between the amide and ester."
+  ]
+ },
+ {
+  "id": "zzs2-11",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "A compound C<sub>9</sub>H<sub>10</sub>O gives the IR and <sup>1</sup>H NMR spectra shown. Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3030,
+      "str": "w"
+     },
+     {
+      "cm": 2920,
+      "str": "w"
+     },
+     {
+      "cm": 1716,
+      "str": "s"
+     },
+     {
+      "cm": 1495,
+      "str": "m"
+     },
+     {
+      "cm": 1360,
+      "str": "m"
+     },
+     {
+      "cm": 700,
+      "str": "s"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.28,
+      "mult": "m",
+      "int": 5
+     },
+     {
+      "ppm": 3.69,
+      "mult": "s",
+      "int": 2
+     },
+     {
+      "ppm": 2.15,
+      "mult": "s",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)Cc1ccccc1"
+   },
+   {
+    "smi": "CCC(=O)c1ccccc1"
+   },
+   {
+    "smi": "CC(C=O)c1ccccc1"
+   },
+   {
+    "smi": "Cc1ccc(C(C)=O)cc1"
+   }
+  ],
+  "h": "Is the C=O conjugated with the ring (compare 1716 with about 1685 cm<sup>−1</sup>)? Then read the splitting: what do two singlets say about the neighbors of the CH<sub>2</sub> and CH<sub>3</sub>?",
+  "w": "DBE = 5 (ring + C=O). The C=O at 1716 cm<sup>−1</sup> is a normal, nonconjugated ketone, and there is no aldehyde C–H (2820/2720 cm<sup>−1</sup>) or δ 9–10 signal. The 5H multiplet shows a monosubstituted ring. Both aliphatic signals are singlets, so the CH<sub>2</sub> (δ 3.69, deshielded by both the ring and the C=O) and the CH<sub>3</sub> (δ 2.15, a methyl ketone) have no H neighbors. The compound is <b>1-phenylpropan-2-one</b>.",
+  "x": [
+   "",
+   "Propiophenone's C=O is conjugated with the ring (about 1688 cm<sup>−1</sup>), and its ethyl group would give a 2H quartet near δ 2.98 and a 3H triplet near δ 1.22.",
+   "2-Phenylpropanal is an aldehyde: it would show C–H bands near 2820 and 2720 cm<sup>−1</sup>, a CHO doublet near δ 9.7, a 1H quartet and a 3H doublet.",
+   "4-Methylacetophenone is para-disubstituted (two 2H doublets, not a 5H multiplet) and its conjugated C=O absorbs near 1685 cm<sup>−1</sup>."
+  ]
+ },
+ {
+  "id": "zzs2-12",
+  "t": "spectro",
+  "d": 1,
+  "k": 0,
+  "q": "A compound C<sub>5</sub>H<sub>10</sub>O gives the IR spectrum shown. Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2960,
+      "str": "s"
+     },
+     {
+      "cm": 2875,
+      "str": "m"
+     },
+     {
+      "cm": 2820,
+      "str": "w"
+     },
+     {
+      "cm": 2720,
+      "str": "w"
+     },
+     {
+      "cm": 1728,
+      "str": "s"
+     },
+     {
+      "cm": 1465,
+      "str": "m"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCCC=O"
+   },
+   {
+    "smi": "CCCC(C)=O"
+   },
+   {
+    "smi": "OC1CCCC1"
+   },
+   {
+    "smi": "C=CCCCO"
+   }
+  ],
+  "h": "Look for two weak bands just to the right of the sp<sup>3</sup> C–H region, near 2820 and 2720 cm<sup>−1</sup>. Which functional group gives those plus a C=O?",
+  "w": "There is a strong C=O at 1728 cm<sup>−1</sup> and no O–H band. The pair of weak bands at 2820 and 2720 cm<sup>−1</sup> is the aldehyde C–H stretch (a Fermi doublet), which ketones lack. A saturated aldehyde C=O is near 1730 cm<sup>−1</sup>, slightly above a ketone's 1715. The compound is <b>pentanal</b>.",
+  "x": [
+   "",
+   "Pentan-2-one has a C=O near 1715 cm<sup>−1</sup> but no aldehyde C–H, so the 2820/2720 cm<sup>−1</sup> pair would be missing.",
+   "Cyclopentanol has no C=O; it would show a strong, broad O–H band near 3350 cm<sup>−1</sup> and a C–O band near 1050 cm<sup>−1</sup>.",
+   "Pent-4-en-1-ol has no C=O; it would show a broad O–H near 3330 cm<sup>−1</sup>, =C–H above 3000 cm<sup>−1</sup> and a weak C=C near 1640 cm<sup>−1</sup>."
+  ]
+ },
+ {
+  "id": "zzs2-13",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "A compound C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> gives the IR and <sup>1</sup>H NMR spectra shown (the δ 11.8 signal disappears after shaking with D<sub>2</sub>O). Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3000,
+      "shape": "broad",
+      "str": "s"
+     },
+     {
+      "cm": 2965,
+      "str": "m"
+     },
+     {
+      "cm": 1712,
+      "str": "s"
+     },
+     {
+      "cm": 1290,
+      "str": "m"
+     },
+     {
+      "cm": 940,
+      "shape": "broad",
+      "str": "m"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 11.8,
+      "mult": "br s",
+      "int": 1
+     },
+     {
+      "ppm": 2.35,
+      "mult": "t",
+      "int": 2
+     },
+     {
+      "ppm": 1.68,
+      "mult": "sext",
+      "int": 2
+     },
+     {
+      "ppm": 0.98,
+      "mult": "t",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCC(=O)O"
+   },
+   {
+    "smi": "CC(C)C(=O)O"
+   },
+   {
+    "smi": "CCOC(C)=O"
+   },
+   {
+    "smi": "CCC(=O)CO"
+   }
+  ],
+  "h": "A very broad O–H band (3300–2500 cm<sup>−1</sup>) plus a C=O near 1710 cm<sup>−1</sup> points to one functional group. Then use the splitting to build the chain.",
+  "w": "The extremely broad O–H (3300–2500 cm<sup>−1</sup>, from hydrogen-bonded dimers), the C=O at 1712 cm<sup>−1</sup> and the exchangeable 1H at δ 11.8 identify a carboxylic acid. The rest is a propyl chain: CH<sub>3</sub> triplet (δ 0.98), CH<sub>2</sub> sextet (δ 1.68, five neighbors) and CH<sub>2</sub> triplet next to C=O (δ 2.35). The compound is <b>butanoic acid</b>.",
+  "x": [
+   "",
+   "2-Methylpropanoic acid would show a 1H septet near δ 2.58 and a 6H doublet near δ 1.20, not a triplet–sextet–triplet propyl pattern.",
+   "Ethyl acetate has no O–H: its ester C=O is near 1740 cm<sup>−1</sup>, and its NMR is a 2H quartet near δ 4.1, a 3H singlet near δ 2.0 and a 3H triplet.",
+   "1-Hydroxybutan-2-one has an alcohol O–H (a narrower band near 3450 cm<sup>−1</sup>, signal near δ 3), a 2H singlet near δ 4.25 and an ethyl quartet/triplet."
+  ]
+ },
+ {
+  "id": "zzs2-14",
+  "t": "spectro",
+  "d": 3,
+  "k": 0,
+  "q": "A compound C<sub>9</sub>H<sub>10</sub>O<sub>2</sub> gives the IR and <sup>1</sup>H NMR spectra shown. Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3005,
+      "str": "w"
+     },
+     {
+      "cm": 2840,
+      "str": "w"
+     },
+     {
+      "cm": 1676,
+      "str": "s"
+     },
+     {
+      "cm": 1600,
+      "str": "s"
+     },
+     {
+      "cm": 1255,
+      "str": "s"
+     },
+     {
+      "cm": 1030,
+      "str": "m"
+     },
+     {
+      "cm": 835,
+      "str": "m"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.93,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 6.93,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 3.87,
+      "mult": "s",
+      "int": 3
+     },
+     {
+      "ppm": 2.55,
+      "mult": "s",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COc1ccc(C(C)=O)cc1"
+   },
+   {
+    "smi": "COC(=O)c1ccc(C)cc1"
+   },
+   {
+    "smi": "COc1ccccc1C(C)=O"
+   },
+   {
+    "smi": "COc1cccc(C(C)=O)c1"
+   }
+  ],
+  "h": "Two 2H doublets point to one substitution pattern. Then compare the C=O wavenumber with ester and ketone values, and ask which ring H would be shifted upfield to δ 6.9.",
+  "w": "Two 2H doublets in the aromatic region are the classic para-disubstituted pattern; ortho and meta isomers give four separate 1H aromatic signals. The C=O at 1676 cm<sup>−1</sup> is a conjugated ketone, not an ester (about 1720 cm<sup>−1</sup>). The δ 6.93 doublet is upfield of benzene's δ 7.27, which fits H ortho to an electron-donating OCH<sub>3</sub>; the δ 7.93 doublet is ortho to the C=O. The 3H singlets are ArOCH<sub>3</sub> (δ 3.87) and C(=O)CH<sub>3</sub> (δ 2.55). The compound is <b>1-(4-methoxyphenyl)ethan-1-one (4-methoxyacetophenone)</b>.",
+  "x": [
+   "",
+   "Methyl 4-methylbenzoate is also para (two doublets) but is an ester: its C=O is near 1720 cm<sup>−1</sup>, its ring H are at δ 7.9 and 7.2 (no strong donor), and its ArCH<sub>3</sub> is near δ 2.40.",
+   "2-Methoxyacetophenone is ortho-disubstituted, so all four ring H differ and appear as four 1H signals, not two 2H doublets.",
+   "3-Methoxyacetophenone is meta-disubstituted; its four ring H are all different, including an isolated H between the groups, so it cannot give two 2H doublets."
+  ]
+ },
+ {
+  "id": "zzs2-15",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "Which technique would <b>not</b> readily distinguish pentan-2-one from pentan-3-one?",
+  "s": [
+   {
+    "smi": "CCCC(C)=O"
+   },
+   "  vs  ",
+   {
+    "smi": "CCC(=O)CC"
+   }
+  ],
+  "c": [
+   "IR spectroscopy (position of the C=O stretch)",
+   "<sup>13</sup>C NMR (number of signals)",
+   "<sup>1</sup>H NMR (presence of a 3H singlet)",
+   "Mass spectrometry (α-cleavage fragment ions)"
+  ],
+  "h": "For each technique, predict what each ketone would give. Which one depends only on the functional group, which the two isomers share?",
+  "w": "Both compounds are saturated, acyclic dialkyl ketones, so both show a C=O stretch near 1715 cm<sup>−1</sup>; <b>IR</b> cannot readily tell them apart. The other techniques can: pentan-3-one is symmetric and gives 3 <sup>13</sup>C signals while pentan-2-one gives 5; pentan-2-one has a CH<sub>3</sub>C=O singlet near δ 2.1 while pentan-3-one shows only a quartet and a triplet; and α-cleavage gives m/z 43 (CH<sub>3</sub>CO<sup>+</sup>) and 71 for pentan-2-one but m/z 57 (CH<sub>3</sub>CH<sub>2</sub>CO<sup>+</sup>) for pentan-3-one.",
+  "x": [
+   "",
+   "Pentan-3-one is symmetric (3 signals: C=O, CH<sub>2</sub>, CH<sub>3</sub>) while pentan-2-one has 5 different carbons, so <sup>13</sup>C NMR distinguishes them easily.",
+   "Pentan-2-one has a 3H singlet (CH<sub>3</sub>C=O near δ 2.1); pentan-3-one has no singlet at all, only a 4H quartet and a 6H triplet.",
+   "α-Cleavage gives different acylium ions: m/z 43 and 71 from pentan-2-one, m/z 57 from pentan-3-one, so the mass spectra differ."
+  ]
+ },
+ {
+  "id": "zzs2-16",
+  "t": "spectro",
+  "d": 3,
+  "k": 0,
+  "q": "A ketone C<sub>6</sub>H<sub>12</sub>O (IR 1715 cm<sup>−1</sup>) gives the mass spectrum shown. Which structure fits?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      100,
+      18
+     ],
+     [
+      72,
+      22
+     ],
+     [
+      71,
+      40
+     ],
+     [
+      57,
+      100
+     ],
+     [
+      43,
+      45
+     ],
+     [
+      29,
+      55
+     ]
+    ],
+    "labels": {
+     "100": "M<sup>+</sup>"
+    }
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(=O)CCC"
+   },
+   {
+    "smi": "CCC(=O)C(C)C"
+   },
+   {
+    "smi": "CCCCC(C)=O"
+   },
+   {
+    "smi": "CC(=O)C(C)(C)C"
+   }
+  ],
+  "h": "Find each candidate's two α-cleavage acylium ions and whether it has a γ-H for a McLafferty rearrangement (even-mass ion). Then match m/z 72, 71 and 57.",
+  "w": "α-Cleavage of hexan-3-one (CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>) loses a propyl radical to give CH<sub>3</sub>CH<sub>2</sub>CO<sup>+</sup> (m/z 57, base peak) or an ethyl radical to give C<sub>3</sub>H<sub>7</sub>CO<sup>+</sup> (m/z 71). The propyl chain has a γ-H, so a McLafferty rearrangement expels ethene (28) and gives the even-mass ion at m/z 100 − 28 = 72. Only <b>hexan-3-one</b> accounts for 57, 71 and 72 together.",
+  "x": [
+   "",
+   "2-Methylpentan-3-one also gives m/z 57 and 71 by α-cleavage, but its isopropyl and ethyl groups have no γ-H, so it cannot form the McLafferty ion at m/z 72.",
+   "Hexan-2-one gives CH<sub>3</sub>CO<sup>+</sup> (m/z 43) as base peak and C<sub>4</sub>H<sub>9</sub>CO<sup>+</sup> (m/z 85); its McLafferty ion (loss of propene) is at m/z 58, not 72.",
+   "3,3-Dimethylbutan-2-one gives (CH<sub>3</sub>)<sub>3</sub>C<sup>+</sup> at m/z 57 and m/z 85 and 43, but no m/z 71 and no McLafferty ion (the tert-butyl group has no γ-H)."
+  ]
+ },
+ {
+  "id": "zzs2-17",
+  "t": "spectro",
+  "d": 3,
+  "k": 1,
+  "q": "A compound C<sub>8</sub>H<sub>7</sub>Br gives the 500 MHz <sup>1</sup>H NMR spectrum shown. In each vinyl doublet (δ 7.11 and δ 6.78) the two lines are 0.028 ppm apart. Which structure fits?",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.3,
+      "mult": "m",
+      "int": 5
+     },
+     {
+      "ppm": 7.11,
+      "mult": "d",
+      "int": 1
+     },
+     {
+      "ppm": 6.78,
+      "mult": "d",
+      "int": 1
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Br/C=C/c1ccccc1"
+   },
+   {
+    "smi": "Br/C=C\\c1ccccc1"
+   },
+   {
+    "smi": "C=C(Br)c1ccccc1"
+   },
+   {
+    "smi": "C=Cc1ccc(Br)cc1"
+   }
+  ],
+  "h": "Convert the line spacing to hertz with the spectrometer frequency (J = Δδ × MHz). Then compare with typical trans, cis and geminal vinyl couplings.",
+  "w": "J = 0.028 ppm × 500 Hz/ppm = 14.0 Hz. Vinyl H trans to each other couple with J ≈ 12–18 Hz, cis with 6–12 Hz, geminal with 0–3 Hz, so 14.0 Hz is trans. The 5H multiplet shows a monosubstituted ring, so the compound is <b>(<i>E</i>)-(2-bromovinyl)benzene ((<i>E</i>)-β-bromostyrene)</b>.",
+  "x": [
+   "",
+   "The (<i>Z</i>) isomer has a cis coupling of about 8 Hz. That value comes out only if 0.028 ppm is multiplied by 300 instead of the 500 MHz used here.",
+   "(1-Bromovinyl)benzene has both vinyl H on one carbon; geminal coupling is about 2 Hz, so its doublet lines would be only about 0.004 ppm apart.",
+   "4-Bromostyrene has a para-disubstituted ring (two 2H doublets, 4H total) and three vinyl H (a dd near δ 6.7 and two doublets near δ 5.7 and 5.3), not 5 aromatic H and 2 vinyl H."
+  ]
+ },
+ {
+  "id": "zzs2-18",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "A compound C<sub>7</sub>H<sub>7</sub>Cl gives the <sup>13</sup>C NMR spectrum shown, with DEPT results labeled. Which structure fits?",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "13C",
+    "peaks": [
+     {
+      "ppm": 136.2,
+      "lab": "C"
+     },
+     {
+      "ppm": 131.2,
+      "lab": "C"
+     },
+     {
+      "ppm": 130.2,
+      "lab": "CH"
+     },
+     {
+      "ppm": 128.4,
+      "lab": "CH"
+     },
+     {
+      "ppm": 20.8,
+      "lab": "CH<sub>3</sub>"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Cc1ccc(Cl)cc1"
+   },
+   {
+    "smi": "ClCc1ccccc1"
+   },
+   {
+    "smi": "Cc1ccccc1Cl"
+   },
+   {
+    "smi": "Cc1cccc(Cl)c1"
+   }
+  ],
+  "h": "Count the signals each structure should give (symmetry), and use DEPT to decide whether the sp<sup>3</sup> carbon is CH<sub>3</sub> or CH<sub>2</sub>.",
+  "w": "Five signals means symmetry: only the para isomer and benzyl chloride give 5. DEPT decides between them: the sp<sup>3</sup> carbon at δ 20.8 is a CH<sub>3</sub> (an ArCH<sub>3</sub>), not a CH<sub>2</sub>Cl, which would appear near δ 46. The aromatic region has two quaternary carbons (C–CH<sub>3</sub> and C–Cl) and two CH signals of 2 C each. The compound is <b>1-chloro-4-methylbenzene (4-chlorotoluene)</b>.",
+  "x": [
+   "",
+   "Benzyl chloride also gives 5 signals, but its sp<sup>3</sup> carbon is a CH<sub>2</sub> near δ 46 and its ring has only one quaternary carbon (three CH signals).",
+   "2-Chlorotoluene has no symmetry, so all seven carbons differ (7 signals: 2 C and 4 CH aromatic plus CH<sub>3</sub>).",
+   "3-Chlorotoluene also has no symmetry plane through the ring, so it gives 7 <sup>13</sup>C signals."
+  ]
+ },
+ {
+  "id": "zzs2-19",
+  "t": "carbonyl",
+  "d": 1,
+  "k": 0,
+  "q": "Cyclohexanone is treated with the reagent shown. The product, C<sub>7</sub>H<sub>12</sub>, gives the IR and <sup>1</sup>H NMR spectra shown (the δ 1.53 multiplet contains overlapping signals). What is the product?",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   {
+    "arrow": "Ph<sub>3</sub>P=CH<sub>2</sub>",
+    "below": "THF"
+   },
+   "?"
+  ],
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3075,
+      "str": "m"
+     },
+     {
+      "cm": 2930,
+      "str": "s"
+     },
+     {
+      "cm": 2855,
+      "str": "s"
+     },
+     {
+      "cm": 1650,
+      "str": "m"
+     },
+     {
+      "cm": 1445,
+      "str": "m"
+     },
+     {
+      "cm": 890,
+      "str": "s"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 4.58,
+      "mult": "s",
+      "int": 2
+     },
+     {
+      "ppm": 2.13,
+      "mult": "m",
+      "int": 4
+     },
+     {
+      "ppm": 1.53,
+      "mult": "m",
+      "int": 6
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=C1CCCCC1"
+   },
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "smi": "CC1(O)CCCCC1"
+   },
+   {
+    "smi": "O=CC1CCCCC1"
+   }
+  ],
+  "h": "A Wittig reagent replaces C=O with C=C at exactly the carbonyl carbon. Which vinyl signal, and which IR band near 890 cm<sup>−1</sup>, would a C=CH<sub>2</sub> give?",
+  "w": "The ylide adds to the C=O and the oxaphosphetane collapses to Ph<sub>3</sub>P=O and a C=C at the old carbonyl carbon, giving <b>methylenecyclohexane</b>. The spectra agree: no C=O or O–H band; =C–H at 3075 cm<sup>−1</sup>, C=C at 1650 cm<sup>−1</sup> and the strong 890 cm<sup>−1</sup> out-of-plane bend of a 1,1-disubstituted C=CH<sub>2</sub>; a 2H vinyl singlet at δ 4.58, 4 allylic H at δ 2.13 and the remaining 6 ring H at δ 1.53.",
+  "x": [
+   "",
+   "1-Methylcyclohexene has a trisubstituted C=C: one vinyl H near δ 5.4 (1H) and a 3H allylic methyl near δ 1.6, not a 2H vinyl singlet; the Wittig C=C forms exactly where the C=O was.",
+   "1-Methylcyclohexan-1-ol is a Grignard (CH<sub>3</sub>MgBr) product; it would show a broad O–H near 3400 cm<sup>−1</sup>, a 3H singlet near δ 1.2 and no vinyl H.",
+   "Cyclohexanecarbaldehyde has C<sub>7</sub>H<sub>12</sub>O, a C=O near 1730 cm<sup>−1</sup>, aldehyde C–H bands near 2810/2710 cm<sup>−1</sup> and a CHO signal near δ 9.6."
+  ]
+ },
+ {
+  "id": "zzs2-20",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "Cyclohexanone is heated with ethane-1,2-diol and a catalytic amount of TsOH, with removal of water. The product (C<sub>8</sub>H<sub>14</sub>O<sub>2</sub>) gives the IR and <sup>1</sup>H NMR spectra shown. What is the product?",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   "+",
+   {
+    "smi": "OCCO"
+   },
+   {
+    "arrow": "TsOH (cat.)",
+    "below": "toluene, reflux, −H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2935,
+      "str": "s"
+     },
+     {
+      "cm": 2860,
+      "str": "m"
+     },
+     {
+      "cm": 1450,
+      "str": "m"
+     },
+     {
+      "cm": 1160,
+      "str": "s"
+     },
+     {
+      "cm": 1100,
+      "str": "s"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 3.94,
+      "mult": "s",
+      "int": 4
+     },
+     {
+      "ppm": 1.6,
+      "mult": "m",
+      "int": 8
+     },
+     {
+      "ppm": 1.4,
+      "mult": "m",
+      "int": 2
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1CCC2(CC1)OCCO2"
+   },
+   {
+    "smi": "OCCOC1(O)CCCCC1"
+   },
+   {
+    "smi": "OCCOC1=CCCCC1"
+   },
+   {
+    "smi": "O=C1CCCCC1"
+   }
+  ],
+  "h": "Removing water drives an equilibrium all the way to which carbonyl derivative? Check the IR for C=O and O–H, and ask what makes the four OCH<sub>2</sub> H a singlet.",
+  "w": "Acid-catalyzed addition of a diol, with water removed, goes past the hemiketal to the cyclic ketal (dioxolane), <b>1,4-dioxaspiro[4.5]decane</b>. The IR has no C=O (1715 cm<sup>−1</sup>) and no O–H, only strong C–O stretches at 1160 and 1100 cm<sup>−1</sup>. In the NMR the four OCH<sub>2</sub>CH<sub>2</sub>O H are equivalent (δ 3.94, 4H singlet) and the ten ring H appear at δ 1.60 and 1.40. This is the standard way to protect a ketone.",
+  "x": [
+   "",
+   "The hemiketal has C<sub>8</sub>H<sub>16</sub>O<sub>3</sub> and two O–H groups (broad IR near 3400 cm<sup>−1</sup>); with water removed the reaction goes on to the ketal.",
+   "The enol ether would show a vinyl H near δ 4.6, a C=C band near 1670 cm<sup>−1</sup> and an O–H band from the free CH<sub>2</sub>OH; its OCH<sub>2</sub> groups would be two triplets, not one singlet.",
+   "Unreacted cyclohexanone (C<sub>6</sub>H<sub>10</sub>O) would show a strong C=O at 1715 cm<sup>−1</sup> and no signal near δ 3.9."
+  ]
+ },
+ {
+  "id": "zzs2-21",
+  "t": "carbonyl",
+  "d": 3,
+  "k": 0,
+  "q": "Cyclopentanone is treated with mCPBA. The product (C<sub>5</sub>H<sub>8</sub>O<sub>2</sub>) gives the IR and <sup>1</sup>H NMR spectra shown (the δ 1.88 multiplet contains two overlapping CH<sub>2</sub> signals). What is the product?",
+  "s": [
+   {
+    "smi": "O=C1CCCC1"
+   },
+   {
+    "arrow": "mCPBA",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>"
+   },
+   "?"
+  ],
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2960,
+      "str": "m"
+     },
+     {
+      "cm": 1735,
+      "str": "s"
+     },
+     {
+      "cm": 1245,
+      "str": "s"
+     },
+     {
+      "cm": 1080,
+      "str": "m"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 4.34,
+      "mult": "t",
+      "int": 2
+     },
+     {
+      "ppm": 2.56,
+      "mult": "t",
+      "int": 2
+     },
+     {
+      "ppm": 1.88,
+      "mult": "m",
+      "int": 4
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C1CCCCO1"
+   },
+   {
+    "smi": "O=C(O)CCCCO"
+   },
+   {
+    "smi": "C1CCC2(C1)CO2"
+   },
+   {
+    "smi": "O=C1CCCC1O"
+   }
+  ],
+  "h": "With a ketone, a peroxyacid inserts an O atom next to the C=O (Baeyer–Villiger). What new kind of CH<sub>2</sub> signal near δ 4.3 does that create?",
+  "w": "In the Baeyer–Villiger oxidation the peroxyacid adds to C=O and an alkyl group migrates from carbon to oxygen, inserting O between the C=O and the ring carbon. A cyclic ketone becomes a lactone one atom larger: <b>oxan-2-one (δ-valerolactone)</b>. The spectra fit: an ester C=O at 1735 cm<sup>−1</sup> with a strong C–O at 1245 cm<sup>−1</sup> and no O–H; a 2H triplet at δ 4.34 (CH<sub>2</sub>–O of the ester), a 2H triplet at δ 2.56 (CH<sub>2</sub>–C=O) and the two middle CH<sub>2</sub> groups at δ 1.88.",
+  "x": [
+   "",
+   "5-Hydroxypentanoic acid (the hydrolyzed lactone) is C<sub>5</sub>H<sub>10</sub>O<sub>3</sub> and would show a very broad O–H band from 3300 to 2500 cm<sup>−1</sup>, a CH<sub>2</sub>OH near δ 3.6 and exchangeable H.",
+   "mCPBA epoxidizes C=C bonds, not C=O bonds; this spiro-epoxide (C<sub>6</sub>H<sub>10</sub>O) has no C=O at all, and its ring CH<sub>2</sub> would appear near δ 2.7.",
+   "2-Hydroxycyclopentanone (α-hydroxylation) would show an O–H band near 3400 cm<sup>−1</sup>, a ketone C=O near 1750 cm<sup>−1</sup> and a 1H CH(OH) signal near δ 4.0, not a 2H triplet."
+  ]
+ },
+ {
+  "id": "zzs2-22",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Benzoyl chloride is treated as shown. The product gives the IR and <sup>1</sup>H NMR spectra shown. What is the product?",
+  "s": [
+   {
+    "smi": "O=C(Cl)c1ccccc1"
+   },
+   {
+    "arrow": "CH<sub>3</sub>CH<sub>2</sub>OH",
+    "below": "pyridine"
+   },
+   "?"
+  ],
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3065,
+      "str": "w"
+     },
+     {
+      "cm": 2985,
+      "str": "m"
+     },
+     {
+      "cm": 1720,
+      "str": "s"
+     },
+     {
+      "cm": 1275,
+      "str": "s"
+     },
+     {
+      "cm": 1110,
+      "str": "s"
+     },
+     {
+      "cm": 710,
+      "str": "s"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 8.05,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 7.55,
+      "mult": "t",
+      "int": 1
+     },
+     {
+      "ppm": 7.44,
+      "mult": "t",
+      "int": 2
+     },
+     {
+      "ppm": 4.38,
+      "mult": "q",
+      "int": 2
+     },
+     {
+      "ppm": 1.39,
+      "mult": "t",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(=O)c1ccccc1"
+   },
+   {
+    "smi": "CCC(=O)c1ccccc1"
+   },
+   {
+    "smi": "O=C(O)c1ccccc1"
+   },
+   {
+    "smi": "CCC(=O)Oc1ccccc1"
+   }
+  ],
+  "h": "Both an O–CH<sub>2</sub> and a C(=O)–CH<sub>2</sub> give quartets. Where does each appear, and which C=O wavenumber matches an aryl ester versus an aryl ketone?",
+  "w": "Ethanol attacks the acid chloride (nucleophilic acyl substitution), Cl<sup>−</sup> leaves and pyridine takes up the HCl: the product is <b>ethyl benzoate</b>. The C=O drops from about 1775 cm<sup>−1</sup> (acid chloride) to 1720 cm<sup>−1</sup> (conjugated ester), with strong C–O bands at 1275 and 1110 cm<sup>−1</sup>. The CH<sub>2</sub> quartet at δ 4.38 is on oxygen (an O–CH<sub>2</sub> of an ester), and the 2H doublet at δ 8.05 shows ring H ortho to a C=O.",
+  "x": [
+   "",
+   "Propiophenone also has an ethyl quartet and triplet, but its CH<sub>2</sub> is on carbon next to C=O (δ ≈ 2.98, not 4.38) and its conjugated ketone C=O is near 1688 cm<sup>−1</sup>.",
+   "Benzoic acid (from hydrolysis by water) would show a very broad O–H from 3300 to 2500 cm<sup>−1</sup> and a δ 12 singlet, and it has no ethyl group.",
+   "Phenyl propanoate has the C=O on the ethyl side: its CH<sub>2</sub> quartet is near δ 2.6, its phenyl ester C=O is near 1760 cm<sup>−1</sup>, and the ring H are not deshielded to δ 8.05."
+  ]
+ },
+ {
+  "id": "zzs2-23",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Methyl 3-phenylpropanoate is treated as shown. The product (C<sub>9</sub>H<sub>10</sub>O) gives the IR and <sup>1</sup>H NMR spectra shown. What is the product?",
+  "s": [
+   {
+    "smi": "COC(=O)CCc1ccccc1"
+   },
+   {
+    "arrow": "1. DIBAL-H, toluene, −78 °C",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3030,
+      "str": "w"
+     },
+     {
+      "cm": 2930,
+      "str": "m"
+     },
+     {
+      "cm": 2820,
+      "str": "w"
+     },
+     {
+      "cm": 2725,
+      "str": "w"
+     },
+     {
+      "cm": 1725,
+      "str": "s"
+     },
+     {
+      "cm": 700,
+      "str": "s"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 9.82,
+      "mult": "t",
+      "int": 1
+     },
+     {
+      "ppm": 7.29,
+      "mult": "m",
+      "int": 2
+     },
+     {
+      "ppm": 7.2,
+      "mult": "m",
+      "int": 3
+     },
+     {
+      "ppm": 2.96,
+      "mult": "t",
+      "int": 2
+     },
+     {
+      "ppm": 2.78,
+      "mult": "m",
+      "int": 2
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=CCCc1ccccc1"
+   },
+   {
+    "smi": "OCCCc1ccccc1"
+   },
+   {
+    "smi": "COC(=O)CCc1ccccc1"
+   },
+   {
+    "smi": "O=C(O)CCc1ccccc1"
+   }
+  ],
+  "h": "At −78 °C, one equivalent of DIBAL-H gives a tetrahedral intermediate that survives until workup. Which δ 10 signal and IR pair near 2720/2820 cm<sup>−1</sup> would confirm the product?",
+  "w": "DIBAL-H delivers one hydride to the ester; at −78 °C the aluminum-bound tetrahedral intermediate is stable and only releases the aldehyde on aqueous workup, so it is not reduced further. The product is <b>3-phenylpropanal</b>. The spectra fit: aldehyde C–H at 2820/2725 cm<sup>−1</sup>, C=O at 1725 cm<sup>−1</sup>; CHO at δ 9.82 (a small triplet from the neighboring CH<sub>2</sub>), ArCH<sub>2</sub> at δ 2.96 and CH<sub>2</sub>CHO at δ 2.78; the OCH<sub>3</sub> singlet of the ester is gone.",
+  "x": [
+   "",
+   "3-Phenylpropan-1-ol (from LiAlH<sub>4</sub> or excess DIBAL-H at higher temperature) has C<sub>9</sub>H<sub>12</sub>O, a broad O–H near 3330 cm<sup>−1</sup>, no C=O and a CH<sub>2</sub>OH triplet near δ 3.67.",
+   "Unreacted ester would show an OCH<sub>3</sub> singlet near δ 3.67 and a C=O near 1740 cm<sup>−1</sup>, with no aldehyde C–H bands or δ 9.8 signal.",
+   "3-Phenylpropanoic acid would show a very broad O–H from 3300 to 2500 cm<sup>−1</sup> and a broad δ 11–12 singlet; DIBAL-H reduces esters, it does not hydrolyze them."
+  ]
+ },
+ {
+  "id": "zzs2-24",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Ethyl benzoate is treated with excess CH<sub>3</sub>MgBr, then aqueous acid. The product (C<sub>9</sub>H<sub>12</sub>O) gives the IR and <sup>1</sup>H NMR spectra shown (the δ 1.80 signal disappears with D<sub>2</sub>O). What is the product?",
+  "s": [
+   {
+    "smi": "CCOC(=O)c1ccccc1"
+   },
+   {
+    "arrow": "1. CH<sub>3</sub>MgBr (excess), ether",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3400,
+      "shape": "broad",
+      "str": "s"
+     },
+     {
+      "cm": 3060,
+      "str": "w"
+     },
+     {
+      "cm": 2975,
+      "str": "m"
+     },
+     {
+      "cm": 1495,
+      "str": "m"
+     },
+     {
+      "cm": 1150,
+      "str": "m"
+     },
+     {
+      "cm": 700,
+      "str": "s"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.48,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 7.34,
+      "mult": "t",
+      "int": 2
+     },
+     {
+      "ppm": 7.24,
+      "mult": "t",
+      "int": 1
+     },
+     {
+      "ppm": 1.8,
+      "mult": "br s",
+      "int": 1
+     },
+     {
+      "ppm": 1.58,
+      "mult": "s",
+      "int": 6
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(O)c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)c1ccccc1"
+   },
+   {
+    "smi": "CC(O)c1ccccc1"
+   },
+   {
+    "smi": "C=C(C)c1ccccc1"
+   }
+  ],
+  "h": "How many equivalents of Grignard reagent does an ester consume, and why can't the reaction stop at the ketone? Then read the 6H singlet.",
+  "w": "The first CH<sub>3</sub>MgBr adds to the ester C=O; the tetrahedral intermediate expels ethoxide to give acetophenone, which is more reactive than the ester and adds a second CH<sub>3</sub>MgBr at once. Acid workup gives the tertiary alcohol <b>2-phenylpropan-2-ol</b>. The spectra fit: broad O–H at 3400 cm<sup>−1</sup> and no C=O; a 6H singlet at δ 1.58 (two equivalent CH<sub>3</sub> on a carbon with no H), an exchangeable OH at δ 1.80 and a monosubstituted ring.",
+  "x": [
+   "",
+   "Acetophenone cannot be isolated with excess Grignard reagent because the ketone reacts faster than the ester; it would also show a C=O near 1685 cm<sup>−1</sup> and a 3H singlet near δ 2.6.",
+   "1-Phenylethanol would need a hydride, not a second methyl group; it would show a 1H quartet near δ 4.9 and a 3H doublet near δ 1.5, not a 6H singlet.",
+   "2-Phenylpropene (from dehydration) has no O–H; it would show two vinyl H near δ 5.4 and 5.1 and a 3H singlet near δ 2.15."
+  ]
+ },
+ {
+  "id": "zzs2-25",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "N,N-Dimethylbenzamide is reduced as shown. The product gives the IR spectrum (no bands above 3100 cm<sup>−1</sup> and none between 1650 and 1800 cm<sup>−1</sup>) and the <sup>1</sup>H NMR spectrum shown. What is the product?",
+  "s": [
+   {
+    "smi": "CN(C)C(=O)c1ccccc1"
+   },
+   {
+    "arrow": "1. LiAlH<sub>4</sub>, THF",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3030,
+      "str": "w"
+     },
+     {
+      "cm": 2940,
+      "str": "m"
+     },
+     {
+      "cm": 2815,
+      "str": "m"
+     },
+     {
+      "cm": 2765,
+      "str": "m"
+     },
+     {
+      "cm": 1495,
+      "str": "m"
+     },
+     {
+      "cm": 1030,
+      "str": "m"
+     },
+     {
+      "cm": 700,
+      "str": "s"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.3,
+      "mult": "m",
+      "int": 5
+     },
+     {
+      "ppm": 3.42,
+      "mult": "s",
+      "int": 2
+     },
+     {
+      "ppm": 2.24,
+      "mult": "s",
+      "int": 6
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CN(C)Cc1ccccc1"
+   },
+   {
+    "smi": "OCc1ccccc1"
+   },
+   {
+    "smi": "O=Cc1ccccc1"
+   },
+   {
+    "smi": "CNCc1ccccc1"
+   }
+  ],
+  "h": "In LiAlH<sub>4</sub> reduction of an amide, which group leaves from the tetrahedral intermediate: the O (as an aluminate) or the NR<sub>2</sub>? What does that make before the second hydride adds?",
+  "w": "Hydride adds to the amide C=O. In the tetrahedral intermediate the nitrogen lone pair pushes out the O–Al group (a better leaving group than R<sub>2</sub>N<sup>−</sup>), forming an iminium ion; a second hydride adds to it. The net change is C=O → CH<sub>2</sub>, giving <b>N,N-dimethyl-1-phenylmethanamine (N,N-dimethylbenzylamine)</b>. The spectra fit: no C=O, no O–H or N–H (a 3° amine), C–H bands near 2815/2765 cm<sup>−1</sup> typical of N–CH<sub>3</sub>/N–CH<sub>2</sub>, a 2H ArCH<sub>2</sub>N singlet at δ 3.42 and a 6H N(CH<sub>3</sub>)<sub>2</sub> singlet at δ 2.24.",
+  "x": [
+   "",
+   "Benzyl alcohol would result if the amine left (as with esters), but R<sub>2</sub>N<sup>−</sup> is a poor leaving group; it would also show a broad O–H near 3330 cm<sup>−1</sup> and a CH<sub>2</sub> near δ 4.65.",
+   "Benzaldehyde would show a C=O near 1700 cm<sup>−1</sup> and a CHO singlet near δ 10.0; LiAlH<sub>4</sub> does not stop at the aldehyde stage.",
+   "N-Methylbenzylamine would need loss of a methyl group, which LiAlH<sub>4</sub> does not do; it would show an N–H band near 3300 cm<sup>−1</sup> and only a 3H N–CH<sub>3</sub> singlet."
+  ]
+ }
+]
