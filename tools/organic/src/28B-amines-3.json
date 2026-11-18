@@ -380,10 +380,10 @@
   "d": 3,
   "q": "4-(Dimethylamino)pyridine (DMAP, conjugate-acid pK<sub>a</sub> 9.6) is a much stronger base than pyridine (5.2). Which nitrogen is protonated, and why is DMAP so basic?",
   "c": [
-   "N <i>b</i>; the lone pair on N <i>a</i> donates into the ring by resonance and delocalizes the positive charge of the cation onto N <i>a</i>",
-   "N <i>a</i>; it is a 3° alkylamine nitrogen with an undelocalized sp<sup>3</sup> lone pair",
-   "N <i>a</i>; the pyridine ring withdraws electrons from N <i>b</i>, leaving N <i>a</i> as the only basic site",
-   "N <i>b</i>; the dimethylamino group withdraws electron density inductively, which stabilizes the cation"
+   "N <i>b</i>; the N <i>a</i> lone pair donates into the ring by resonance, spreading the cation’s positive charge onto N <i>a</i>",
+   "N <i>a</i>; it is a 3° alkylamine nitrogen with an undelocalized sp<sup>3</sup> lone pair, like trimethylamine",
+   "N <i>a</i>; the pyridine ring withdraws electrons from N <i>b</i>, leaving N <i>a</i> as the only basic site in the molecule",
+   "N <i>b</i>; the dimethylamino group withdraws electron density inductively, which stabilizes the cation formed at N <i>b</i>"
   ],
   "h": "Draw the cation from protonating the ring nitrogen. Can the dimethylamino lone pair share the positive charge?",
   "w": "N <i>a</i> is attached to an aromatic ring, so its lone pair is conjugated with the ring like that of an aniline; it is not an ordinary alkylamine nitrogen. Protonation at the ring nitrogen <b>N <i>b</i></b> gives a cation with a resonance form C=N<sup>+</sup>(CH<sub>3</sub>)<sub>2</sub>, in which the positive charge is shared by both nitrogens (an amidinium-like ion). That extra resonance stabilization of the conjugate acid raises the pK<sub>a</sub> from 5.2 to 9.6.",

@@ -246,10 +246,10 @@
    }
   ],
   "c": [
-   "Step 2 fails: Friedel–Crafts acylation does not occur on the strongly deactivated nitrobenzene ring; acylate first, then nitrate",
-   "Step 2 gives the para isomer because NO<sub>2</sub> is an ortho/para director; nitrate after acylation instead",
-   "Step 1 fails: nitration requires an FeBr<sub>3</sub> catalyst; use HNO<sub>3</sub> with FeBr<sub>3</sub>",
-   "Step 2 fails: AlCl<sub>3</sub> reduces the nitro group to an amine; use FeCl<sub>3</sub> instead"
+   "Step 2 fails: nitrobenzene is too deactivated for Friedel–Crafts acylation; acylate first, then nitrate",
+   "Step 2 gives the para isomer because NO<sub>2</sub> is an ortho/para director; nitrate after acylation instead of before",
+   "Step 1 fails: nitration requires an FeBr<sub>3</sub> catalyst; use HNO<sub>3</sub> with FeBr<sub>3</sub> instead of H<sub>2</sub>SO<sub>4</sub>",
+   "Step 2 fails: AlCl<sub>3</sub> reduces the nitro group to an amine, which then complexes it; use FeCl<sub>3</sub> instead"
   ],
   "h": "Friedel–Crafts reactions have a list of rings they will not touch. Is a nitro-substituted ring on it?",
   "w": "Friedel–Crafts alkylation and acylation fail on rings bearing a strongly deactivating group (NO<sub>2</sub>, C=O, SO<sub>3</sub>H, CF<sub>3</sub>, NR<sub>3</sub><sup>+</sup>), because the acylium ion is too weak an electrophile for such an electron-poor ring. Both substituents of the target are meta directors, so the order can simply be reversed: acylation of benzene gives acetophenone, and the acetyl group directs nitration meta. <b>Step 2 fails; acylate first, then nitrate.</b>",

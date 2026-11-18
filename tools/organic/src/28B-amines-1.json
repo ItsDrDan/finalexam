@@ -432,10 +432,10 @@
   "d": 2,
   "q": "Pyridine and pyrrole both contain a ring nitrogen, yet the conjugate acid of pyridine has pK<sub>a</sub> 5.2 and protonated pyrrole about −3.8. What best explains the difference?",
   "c": [
-   "Pyrrole's N lone pair is one of the six π electrons of its aromatic ring, so protonating it destroys aromaticity; pyridine's lone pair lies in the ring plane and is not part of the π system",
+   "Pyrrole’s N lone pair is part of its aromatic sextet, so protonating N destroys aromaticity; pyridine’s lone pair is in the ring plane, outside the π system",
    "Pyrrole's nitrogen is sp hybridized, so its lone pair has more s character and is held more tightly than pyridine's sp<sup>2</sup> lone pair",
-   "Pyridine's nitrogen bears a partial negative charge from resonance with the ring, while pyrrole's nitrogen bears a partial positive charge from induction",
-   "Pyrrole is antiaromatic, and protonation at nitrogen would relieve the antiaromaticity only partly"
+   "Pyridine’s nitrogen bears a partial negative charge from resonance with the ring, while pyrrole’s nitrogen bears a partial positive charge from induction alone",
+   "Pyrrole is antiaromatic with 4 π electrons, and protonation at nitrogen would relieve the antiaromaticity only partly"
   ],
   "h": "Count the π electrons in each ring and ask where the N lone pair must be for the ring to have six.",
   "w": "Pyrrole has four π electrons from its two C=C bonds; the N lone pair, in a p orbital, supplies the other two for the aromatic sextet. Using it to bond H<sup>+</sup> removes it from the π system, so the cation is not aromatic (pyrrole actually protonates on C2). Pyridine already has six π electrons from three C=C/C=N bonds; its lone pair is in an sp<sup>2</sup> orbital in the ring plane, perpendicular to the π system, and can bond H<sup>+</sup> without affecting aromaticity. Answer: <b>pyrrole's lone pair is part of the aromatic sextet</b>.",
@@ -463,10 +463,10 @@
   "d": 2,
   "q": "Acetamide (CH<sub>3</sub>CONH<sub>2</sub>) is about 10<sup>11</sup> times less basic than ethylamine. Which statement about acetamide is correct?",
   "c": [
-   "It is protonated on oxygen, because the resulting cation is stabilized by resonance with the N lone pair, which is delocalized into the C=O",
-   "It is protonated on nitrogen, but the N–H<sup>+</sup> bond is weak because nitrogen in an amide is sp hybridized",
+   "It is protonated on O, giving a cation stabilized by resonance with the N lone pair, which is delocalized into the C=O",
+   "It is protonated on nitrogen, but the N–H<sup>+</sup> bond is weak because nitrogen in an amide is sp hybridized, not sp<sup>3</sup>",
    "It is protonated on nitrogen, and the cation is destabilized only by the inductive effect of the methyl group",
-   "It cannot be protonated at all, because an amide has no lone pairs left after resonance"
+   "It cannot be protonated at all, because an amide has no lone pairs left after resonance with the C=O"
   ],
   "h": "Draw the resonance form of an amide that puts a negative charge on oxygen. Which atom is then the electron-rich one?",
   "w": "In an amide the N lone pair is delocalized onto the carbonyl oxygen (C=N<sup>+</sup>–O<sup>−</sup> resonance form), so N is planar and poorly basic, while O carries extra electron density. Protonation <b>on oxygen</b> gives a cation whose positive charge is shared between C, O and N by resonance; protonation on N would remove the amide resonance. The conjugate-acid pK<sub>a</sub> is about −0.5, compared with 10.7 for CH<sub>3</sub>CH<sub>2</sub>NH<sub>3</sub><sup>+</sup>.",

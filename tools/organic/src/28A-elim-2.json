@@ -272,10 +272,10 @@
   "d": 2,
   "q": "Why is an alcohol dehydrated with concentrated H<sub>2</sub>SO<sub>4</sub> or H<sub>3</sub>PO<sub>4</sub> rather than concentrated HBr?",
   "c": [
-   "Bromide is a good nucleophile and traps the carbocation, giving an alkyl bromide",
-   "HBr is too weak an acid to protonate an alcohol",
-   "Bromide is a strong base that removes the β proton too slowly",
-   "HBr adds water to the alkene faster than H<sub>2</sub>SO<sub>4</sub> does"
+   "Bromide is a good nucleophile and traps the carbocation as an alkyl bromide",
+   "HBr is too weak an acid to protonate the alcohol’s OH group",
+   "Bromide is a strong base that removes the β proton too slowly to form much alkene",
+   "HBr adds water back to the alkene faster than H<sub>2</sub>SO<sub>4</sub> does"
   ],
   "h": "Compare the conjugate bases: what else can they do to a carbocation?",
   "w": "Both acids form the same carbocation. HSO<sub>4</sub><sup>−</sup> and H<sub>2</sub>PO<sub>4</sub><sup>−</sup> are very poor nucleophiles, so the cation loses a proton (E1). <b>Br<sup>−</sup> is a good nucleophile and traps the carbocation</b>, so HBr converts alcohols into alkyl bromides (S<sub>N</sub>1/S<sub>N</sub>2), not alkenes.",
@@ -308,10 +308,10 @@
    }
   ],
   "c": [
-   "Concentrated acid, high temperature, distilling off the alkene as it forms",
-   "Dilute aqueous acid, low temperature, excess water",
-   "Concentrated acid, low temperature, excess water",
-   "Dilute aqueous acid, high temperature, a sealed flask"
+   "Concentrated acid, high temperature, distilling off the alkene",
+   "Dilute aqueous acid, low temperature, excess water added to the flask",
+   "Concentrated acid, low temperature, excess water added at the start",
+   "Dilute aqueous acid, high temperature, a sealed flask so nothing escapes"
   ],
   "h": "Use Le Châtelier: which side has more molecules, and how can you remove a product?",
   "w": "Dehydration makes two molecules from one (ΔS > 0), so high temperature makes −TΔS more favorable. Concentrated acid supplies little water, and distilling the lower-boiling alkene removes a product. So <b>concentrated acid, heat, and removal of the alkene</b> drive the equilibrium to the right.",

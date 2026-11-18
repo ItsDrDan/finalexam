@@ -6,10 +6,10 @@
   "k": 0,
   "q": "Fischer esterification of acetic acid with 1-butanol (H<sub>2</sub>SO<sub>4</sub> catalyst) has K ≈ 4. Which change most increases the yield of butyl acetate?",
   "c": [
-   "Use a large excess of 1-butanol and remove water as it forms",
-   "Add water so the acid dissolves completely",
-   "Replace H<sub>2</sub>SO<sub>4</sub> with NaOH as the catalyst",
-   "Double the amount of H<sub>2</sub>SO<sub>4</sub> catalyst"
+   "Use excess 1-butanol and remove water as it forms",
+   "Add water so the acetic acid dissolves completely in the mixture",
+   "Replace H<sub>2</sub>SO<sub>4</sub> with NaOH as the catalyst so the acid reacts faster",
+   "Double the amount of H<sub>2</sub>SO<sub>4</sub> catalyst to speed up the reaction"
   ],
   "h": "The reaction is an equilibrium with water as a product. Think Le Châtelier.",
   "w": "With K near 4, equimolar reactants stop at about 2/3 conversion. Adding excess alcohol (a reactant) and removing water (a product, e.g. with a Dean–Stark trap or drying agent) both shift the equilibrium toward ester: <b>excess 1-butanol plus water removal</b>.",
@@ -69,10 +69,10 @@
   "k": 0,
   "q": "Acid-catalyzed ester hydrolysis is reversible, but saponification (ester + NaOH, then H<sub>3</sub>O<sup>+</sup> workup) goes to completion. Why?",
   "c": [
-   "The carboxylic acid formed is deprotonated by base, and the carboxylate cannot be attacked by the alkoxide",
-   "Hydroxide is a better leaving group than alkoxide, so the reverse step cannot occur",
-   "The alkoxide leaving group is protonated by water and evaporates from the mixture",
-   "Hydroxide forms a more stable tetrahedral intermediate than water does"
+   "The acid formed is deprotonated by base, and the carboxylate cannot be attacked by alkoxide",
+   "Hydroxide is a better leaving group than alkoxide, so the reverse step cannot occur at all",
+   "The alkoxide leaving group is protonated by water and evaporates from the hot mixture as an alcohol",
+   "Hydroxide forms a more stable tetrahedral intermediate than water does, so the forward step is irreversible"
   ],
   "h": "Look at what happens right after the alkoxide leaves the tetrahedral intermediate. What acid and base are now together?",
   "w": "Loss of RO<sup>−</sup> gives a carboxylic acid (pK<sub>a</sub> ≈ 5) next to a strong base (RO<sup>−</sup> or HO<sup>−</sup>, conjugate-acid pK<sub>a</sub> ≈ 16). Proton transfer is essentially complete and gives a resonance-stabilized carboxylate. The carboxylate is negatively charged and the least electrophilic acyl species, so the alcohol cannot attack it to re-form the ester: <b>the deprotonation drives the reaction to completion</b>.",
@@ -142,10 +142,10 @@
   "k": 0,
   "q": "Benzoyl chloride is treated with dimethylamine to make <i>N</i>,<i>N</i>-dimethylbenzamide. Why are at least two equivalents of dimethylamine used (when no other base is added)?",
   "c": [
-   "The second equivalent neutralizes HCl; otherwise HCl would protonate the amine and make it non-nucleophilic",
-   "The first equivalent attacks and the second is needed to break the C–Cl bond",
-   "Two amines must add to form the tetrahedral intermediate",
-   "The second equivalent reduces the acid chloride to an aldehyde"
+   "The second equivalent neutralizes HCl, which would otherwise protonate the amine and stop it reacting",
+   "The first equivalent attacks the carbonyl, and the second is needed to break the C–Cl bond in the intermediate",
+   "Two amine molecules must add to the C=O to form the tetrahedral intermediate",
+   "The second equivalent reduces the acid chloride to benzaldehyde before the amide forms"
   ],
   "h": "Write the by-product of acyl substitution on an acid chloride. What does it do to an amine?",
   "w": "Each acylation releases one HCl. Dimethylamine is a base, so the HCl converts it to (CH<sub>3</sub>)<sub>2</sub>NH<sub>2</sub><sup>+</sup> Cl<sup>−</sup>, which has no lone pair and cannot attack. With one equivalent, the yield would stop near 50%. <b>The second equivalent (or pyridine/Et<sub>3</sub>N) is a sacrificial base for HCl</b>.",
@@ -341,7 +341,7 @@
   "k": 0,
   "q": "Benzoic acid and methylamine are mixed in ether at room temperature. What forms?",
   "c": [
-   "methylammonium benzoate, an acid–base salt",
+   "methylammonium benzoate",
    "<i>N</i>-methylbenzamide and water",
    "methyl benzoate and ammonia",
    "benzoyl chloride and methanol"

@@ -30,10 +30,10 @@
   "t": "alkynes",
   "q": "Why is a bulky dialkylborane such as disiamylborane or 9-BBN used, instead of BH<sub>3</sub>, to hydroborate a terminal alkyne?",
   "c": [
-   "After one addition, the vinylborane still has a π bond; the bulky borane adds only once, so oxidation gives the aldehyde.",
-   "BH<sub>3</sub> adds with Markovnikov regiochemistry to alkynes, so it would give a ketone.",
+   "The vinylborane still has a π bond; a bulky borane adds only once, so oxidation gives the aldehyde.",
+   "BH<sub>3</sub> adds with Markovnikov regiochemistry to alkynes, so oxidation would give a ketone, not the aldehyde.",
    "BH<sub>3</sub> cannot add to C≡C bonds; only dialkylboranes react with alkynes.",
-   "The bulky borane is needed to make the enol tautomerize to the aldehyde."
+   "The bulky borane is needed to make the enol tautomerize to the aldehyde after oxidation."
   ],
   "h": "Think about what is left after the first B–H adds across the triple bond.",
   "w": "Hydroboration of a triple bond leaves a C=C (a vinylborane), which can react with a second B–H. A small borane like BH<sub>3</sub> can add twice and has three B–H bonds that react further. The <b>steric bulk</b> of Sia<sub>2</sub>BH or 9-BBN stops the reaction after <b>one</b> addition (and reinforces boron on the terminal carbon), so H<sub>2</sub>O<sub>2</sub>/NaOH gives the enol and then the aldehyde.",
@@ -261,10 +261,10 @@
   "t": "alkynes",
   "q": "Which statement correctly describes the reduction of an internal alkyne by Na in NH<sub>3</sub>(l)?",
   "c": [
-   "Electrons are added one at a time; the vinyl radical and vinyl anion intermediates prefer the <i>trans</i> geometry before NH<sub>3</sub> protonates them.",
-   "Hydrogen atoms are delivered to one face from the surface of the sodium metal, so the product is <i>trans</i>.",
-   "NH<sub>3</sub> first protonates the alkyne to give a vinyl cation, which Na then reduces.",
-   "The <i>cis</i> alkene forms first and then isomerizes to the more stable <i>trans</i> alkene in NH<sub>3</sub>."
+   "Electrons add one at a time; the vinyl radical and anion prefer the <i>trans</i> geometry before NH<sub>3</sub> protonates them.",
+   "Hydrogen atoms are delivered to one face from the surface of the sodium metal, so the product is the <i>trans</i> alkene.",
+   "NH<sub>3</sub> first protonates the alkyne to give a vinyl cation, which Na then reduces to the <i>trans</i> alkene.",
+   "The <i>cis</i> alkene forms first and then isomerizes to the more stable <i>trans</i> alkene in the liquid NH<sub>3</sub>."
   ],
   "h": "The sequence is electron, proton, electron, proton. Which intermediate decides the geometry?",
   "w": "Na donates an electron to give a <b>radical anion</b>; NH<sub>3</sub> protonates it to a <b>vinyl radical</b>, which adopts the less crowded <i>trans</i> arrangement; a second electron gives a <b>vinyl anion</b> that keeps the <i>trans</i> geometry and is protonated by NH<sub>3</sub>. The trans product therefore comes from the preferred geometry of these intermediates.",
@@ -454,8 +454,8 @@
   "q": "Which sequence converts hex-1-yne into <b>hexan-1-ol</b>?",
   "c": [
    "1. H<sub>2</sub>, Lindlar catalyst  2. BH<sub>3</sub>·THF  3. H<sub>2</sub>O<sub>2</sub>, NaOH",
-   "1. Sia<sub>2</sub>BH  2. H<sub>2</sub>O<sub>2</sub>, NaOH",
-   "1. H<sub>2</sub>, Lindlar catalyst  2. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>",
+   "1. Sia<sub>2</sub>BH, THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH, H<sub>2</sub>O",
+   "1. H<sub>2</sub>, Lindlar catalyst  2. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub> (cat.)",
    "1. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>, HgSO<sub>4</sub>  2. NaBH<sub>4</sub>, CH<sub>3</sub>OH"
   ],
   "h": "Hydroboration of an alkyne stops at a carbonyl compound. To reach a primary alcohol in one oxidation step, what must the hydroboration substrate be?",

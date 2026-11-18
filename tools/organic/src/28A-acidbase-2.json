@@ -255,9 +255,9 @@
   "q": "Using the table, which base converts acetone (pK<sub>a</sub> 19.2) <b>almost completely</b> to its enolate?",
   "c": [
    "Lithium diisopropylamide, LDA",
-   "Potassium tert-butoxide",
-   "Sodium ethoxide",
-   "Sodium hydroxide"
+   "Potassium tert-butoxide, (CH<sub>3</sub>)<sub>3</sub>COK",
+   "Sodium ethoxide, NaOCH<sub>2</sub>CH<sub>3</sub>",
+   "Sodium hydroxide, NaOH"
   ],
   "h": "For each base, compare the pK<sub>a</sub> of its conjugate acid with 19.2. K<sub>eq</sub> must be much larger than 1.",
   "w": "K<sub>eq</sub> = 10<sup>(pK<sub>a</sub> of conjugate acid − 19.2)</sup>. For <b>LDA</b>: 10<sup>(36 − 19.2)</sup> ≈ 10<sup>17</sup>, essentially complete. tert-Butoxide: 10<sup>−1.2</sup> ≈ 0.06; ethoxide: 10<sup>−3.2</sup>; hydroxide: 10<sup>−3.5</sup>. Those alkoxide and hydroxide bases form only small equilibrium amounts of enolate.",
@@ -302,9 +302,9 @@
   "t": "acidbase",
   "q": "Fluorine is more electronegative than iodine, yet HI (pK<sub>a</sub> ≈ −10) is a far stronger acid than HF (pK<sub>a</sub> 3.2). Which explanation is best?",
   "c": [
-   "The iodide ion is much larger, so its charge is spread over a bigger volume, and the H–I bond is weaker.",
-   "Iodine is more electronegative than fluorine in water because of hydrogen bonding.",
-   "Fluoride is stabilized by resonance, which makes HF less likely to ionize.",
+   "Iodide is much larger, so its charge is spread over more volume, and the H–I bond is weaker.",
+   "Iodine is more electronegative than fluorine in water, because of hydrogen bonding to the solvent.",
+   "Fluoride is stabilized by resonance, which makes HF less likely to ionize in water.",
    "HI has an sp-hybridized iodine, while HF has an sp<sup>3</sup>-hybridized fluorine."
   ],
   "h": "Within a row of the periodic table electronegativity controls acidity. What factor dominates down a column?",

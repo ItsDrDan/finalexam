@@ -112,10 +112,10 @@
   "k": 0,
   "q": "An ester and excess CH<sub>3</sub>MgBr give a 3° alcohol, but a nitrile and excess CH<sub>3</sub>MgBr give a ketone after workup. What is the best explanation?",
   "c": [
-   "The nitrile adduct is an anionic imine salt that cannot react with a second Grignard; the ketone forms only during workup",
-   "Nitriles are more reactive than ketones, so the Grignard is used up before the ketone forms",
+   "The nitrile adds once to give an imine anion salt, which does not react again; the ketone forms only at workup",
+   "Nitriles are more reactive than ketones, so the Grignard is used up by the nitrile before any of the ketone forms",
    "The ketone formed from the nitrile is protected because it is immediately deprotonated to an enolate",
-   "Nitrogen is a better leaving group than oxygen, so the C=N bond is never formed"
+   "Nitrogen is a better leaving group than oxygen, so the C=N bond is never formed in the intermediate"
   ],
   "h": "Follow the nitrile reaction step by step. When does the ketone C=O actually appear?",
   "w": "With an ester, the tetrahedral intermediate expels the alkoxide <i>in the flask</i>, so a ketone forms in the presence of Grignard and is attacked again. With a nitrile, addition gives R<sub>2</sub>C=N<sup>−</sup> MgBr<sup>+</sup>. There is no leaving group, and the negatively charged imine salt is not electrophilic, so it waits. <b>The ketone appears only when aqueous acid hydrolyzes the imine, after the Grignard has been destroyed.</b>",

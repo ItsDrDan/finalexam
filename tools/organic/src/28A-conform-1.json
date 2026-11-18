@@ -78,7 +78,7 @@
 "f":[{"type":"newman","items":[
  {"front":["OH","H","H"],"back":["OH","H","H"],"rot":180,"cap":"I"},
  {"front":["OH","H","H"],"back":["OH","H","H"],"rot":60,"cap":"II"}]}],
-"c":["II, because an intramolecular O–H···O hydrogen bond is possible only when the OH groups are gauche","I, because steric strain between the OH groups is smallest when they are anti","I, because the C–O bond dipoles cancel in the anti arrangement","II, because the gauche conformation has less torsional strain than the anti one"],
+"c":["II, because an intramolecular O–H···O hydrogen bond is possible only in the gauche form","I, because steric strain between the two OH groups is smallest when they are anti","I, because the two C–O bond dipoles cancel in the anti arrangement","II, because the gauche conformation has less torsional strain than the anti conformation"],
 "h":"Butane prefers anti because its CH<sub>3</sub> groups only repel. What attractive interaction can two OH groups have when they are close together?",
 "w":"In the gauche form (II) the two OH groups are close enough for one O–H to hydrogen-bond to the other oxygen. That attraction outweighs the small steric cost, so <b>II predominates, because of an intramolecular hydrogen bond</b>. In the anti form the OH groups are too far apart to interact.",
 "x":["","OH groups are small, so the gauche steric penalty is minor; it is outweighed by the intramolecular hydrogen bond available only in the gauche form.","Dipole cancellation does favor anti in the gas phase for 1,2-dihalides, but in the diol the hydrogen bond dominates, so the gauche form is preferred.","Both conformations are staggered, so neither has torsional strain; the preference must come from another interaction."]},
@@ -93,7 +93,7 @@
 
 {"id":"conform-11","t":"conform","d":2,"k":0,
 "q":"Cyclobutane is not planar; one carbon is folded about 25° out of the plane of the other three. What does this puckering accomplish?",
-"c":["It lowers torsional strain by staggering neighboring C–H bonds, at the cost of a small increase in angle strain","It lowers angle strain by opening the C–C–C angles toward 109.5°","It relieves steric strain between the 1,3-carbons across the ring","It allows the ring carbons to rehybridize toward sp<sup>2</sup>, shortening the C–C bonds"],
+"c":["It staggers neighboring C–H bonds to lower torsional strain, at the cost of slightly more angle strain","It lowers angle strain by opening the C–C–C angles from 90° toward the ideal 109.5°","It relieves steric strain between the 1,3-carbons, which move farther apart across the ring","It allows the ring carbons to rehybridize toward sp<sup>2</sup>, which shortens and strengthens the C–C bonds"],
 "h":"In planar cyclobutane every C–H bond is eclipsed with its neighbor. What happens to the C–C–C angle when the ring folds?",
 "w":"Planar cyclobutane would have all eight C–H bonds eclipsed. Folding the ring partially staggers them, <b>reducing torsional strain</b>. The price is that the C–C–C angles shrink slightly below 90° (about 88°), so angle strain rises a little. The net effect is a lower-energy puckered ring.",
 "x":["","Puckering makes the C–C–C angles slightly smaller (about 88°), not closer to 109.5°; angle strain increases a little.","The 1,3-carbons actually move closer together when the ring folds; the benefit comes from staggering the C–H bonds.","Ring carbons in cyclobutane remain sp<sup>3</sup>; puckering is a conformational change, not a change in hybridization."]},
@@ -101,7 +101,7 @@
 {"id":"conform-12","t":"conform","d":1,"k":0,
 "q":"Cyclopropane undergoes ring-opening reactions (for example, with H<sub>2</sub>/Ni) that do not occur with propane. The main reason is that cyclopropane",
 "s":[{"smi":"C1CC1"}],
-"c":["has bent, poorly overlapping C–C bonds and about 115 kJ/mol of ring strain","has sp<sup>2</sup>-hybridized carbons and a reactive C=C π bond","has staggered C–H bonds that weaken the ring","has axial hydrogens that crowd each other"],
+"c":["has bent, poorly overlapping C–C bonds and high ring strain","has sp<sup>2</sup>-hybridized carbons and a reactive C=C π bond, like propene","has staggered C–H bonds that weaken the ring C–C bonds","has axial hydrogens that crowd each other, as in a chair"],
 "h":"Compare the 60° internuclear angle with the angle sp<sup>3</sup> orbitals prefer. How well can such orbitals overlap?",
 "w":"The C–C–C internuclear angle is 60°, far below 109.5°, so the sp<sup>3</sup>-like orbitals overlap off-axis in <b>bent (banana) bonds</b>. These bonds are weak, and the ring carries about 115 kJ/mol of angle and torsional strain that is released when the ring opens.",
 "x":["","Cyclopropane has no π bond; its carbons are sp<sup>3</sup>-like with extra p character in the ring bonds, and it is a saturated C<sub>3</sub>H<sub>6</sub>.","All six C–H bonds in planar cyclopropane are eclipsed, not staggered; eclipsing adds torsional strain.","Axial and equatorial positions belong to chair cyclohexanes; cyclopropane is a flat ring."]},
@@ -124,7 +124,7 @@
 
 {"id":"conform-15","t":"conform","d":2,"k":0,
 "q":"In a petroleum refinery, catalytic cracking is used mainly to",
-"c":["break large, high-boiling alkanes into smaller alkanes and alkenes for gasoline","separate crude oil into fractions by boiling point","convert straight-chain alkanes into aromatic hydrocarbons","remove sulfur compounds from crude oil fractions"],
+"c":["break large alkanes into smaller alkanes and alkenes for gasoline","separate crude oil into fractions by their boiling points","convert straight-chain alkanes into aromatic hydrocarbons for gasoline","remove sulfur compounds from crude oil fractions"],
 "h":"Gasoline demand is higher than the amount of the C<sub>5</sub>–C<sub>10</sub> fraction found in crude oil. What process makes more of it from heavier fractions?",
 "w":"Catalytic cracking heats heavy fractions (such as gas oil) over zeolite catalysts, <b>breaking C–C bonds to give smaller alkanes and alkenes</b> in the gasoline range, plus small alkenes used as chemical feedstocks.",
 "x":["","Separating crude oil by boiling point is fractional distillation, which does not break any bonds.","Converting alkanes into aromatics (and branched isomers) is catalytic reforming, a different refinery process.","Removing sulfur is hydrodesulfurization (hydrotreating), not cracking."]},

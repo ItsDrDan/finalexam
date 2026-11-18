@@ -208,10 +208,10 @@
   "d": 3,
   "q": "Polyethylene made by high-pressure radical polymerization has many short branches (mostly butyl groups). Which process creates these branches?",
   "c": [
-   "The chain-end radical abstracts an H from the CH<sub>2</sub> five carbons back on its own chain, and the new mid-chain radical adds more ethylene.",
-   "The chain-end radical adds to the CH<sub>2</sub> carbon of a butene impurity, which then copolymerizes.",
-   "Two chain-end radicals combine head-to-head, forming a branch at the junction.",
-   "The chain-end radical rearranges by a 1,2-methyl shift to a more stable 2° radical."
+   "The chain-end radical takes an H from five carbons back on its own chain, and the new mid-chain radical adds ethylene.",
+   "The chain-end radical adds to the CH<sub>2</sub> carbon of a butene impurity, which is then built into the growing chain.",
+   "Two chain-end radicals combine head-to-head, forming a branch point at the junction of the chains.",
+   "The chain-end radical rearranges by a 1,2-methyl shift to a more stable 2° radical, which keeps growing."
   ],
   "h": "A primary chain-end radical can become a more stable 2° radical without adding monomer. Which kind of intramolecular step does that, and why would it favor a four-carbon branch?",
   "w": "This is intramolecular chain transfer (\"backbiting\"). The 1° chain-end radical reaches back through a six-membered cyclic transition state and abstracts an H from the CH<sub>2</sub> five carbons away (a 1,5-H shift), giving a more stable 2° radical within the chain. Ethylene then adds at that site, so the four carbons past it become a <b>butyl branch</b>. Intermolecular H transfer between chains gives the long branches.",
@@ -459,10 +459,10 @@
   "d": 2,
   "q": "Radical iodination of alkanes (I<sub>2</sub>, hν) does not occur to a useful extent. Given BDEs of (CH<sub>3</sub>)<sub>2</sub>CH–H = 413, H–I = 297, I–I = 151 and (CH<sub>3</sub>)<sub>2</sub>CH–I = 234 kJ/mol, what is the main reason?",
   "c": [
-   "H abstraction by I• is endothermic by about 116 kJ/mol, so this propagation step is too slow to sustain a chain.",
-   "The I–I bond is too strong to be broken by light, so no I• forms.",
+   "H abstraction by I• is endothermic by about 116 kJ/mol, too slow to sustain a chain.",
+   "The I–I bond is too strong to be broken by light, so no I• forms to start the chain.",
    "Transfer of I from I<sub>2</sub> to the alkyl radical is endothermic by about 83 kJ/mol.",
-   "I• is so reactive that it abstracts every kind of H equally and gives only mixtures."
+   "I• is so reactive that it abstracts every kind of H equally and gives only product mixtures."
   ],
   "h": "Calculate ΔH for each propagation step. Which one is the problem?",
   "w": "Step 1: I• + R–H → H–I + R•, ΔH = 413 − 297 = +116 kJ/mol, steeply uphill, so E<sub>a</sub> is at least 116 kJ/mol and the step is far too slow for a chain. Step 2: R• + I–I → R–I + I•, ΔH = 151 − 234 = −83 kJ/mol, which is fine. <b>The endothermic H-abstraction step</b> stops iodination.",

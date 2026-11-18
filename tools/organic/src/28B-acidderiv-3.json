@@ -82,10 +82,10 @@
   "k": 0,
   "q": "Why must the reduction of an ester to an aldehyde with DIBAL-H be run at −78 °C?",
   "c": [
-   "The aluminum-bound tetrahedral intermediate survives at −78 °C and gives the aldehyde only at workup",
-   "At −78 °C DIBAL-H attacks only the ester oxygen, not the carbonyl carbon",
-   "At higher temperature DIBAL-H reduces the ester all the way to an alkane",
-   "At −78 °C the aldehyde product freezes out of solution as it forms"
+   "The Al-bound tetrahedral intermediate survives at −78 °C and gives the aldehyde only at workup",
+   "At −78 °C DIBAL-H attacks only the ester oxygen, not the carbonyl carbon, so it cleaves the C–O bond",
+   "At higher temperature DIBAL-H reduces the ester all the way to an alkane, removing both oxygens",
+   "At −78 °C the aldehyde product freezes out of solution as it forms, so it is protected"
   ],
   "h": "The danger is a second hydride addition. What species would have to be present for that to happen?",
   "w": "An aldehyde is more reactive than an ester, so if it formed while DIBAL-H was still present it would be reduced to the primary alcohol. At −78 °C the tetrahedral intermediate (O–Al(<i>i</i>Bu)<sub>2</sub> on carbon, with OR still attached) is stable; it <b>collapses to the aldehyde only during aqueous workup</b>, after the hydride is destroyed.",

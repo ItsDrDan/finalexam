@@ -296,10 +296,10 @@
   "k": 0,
   "q": "The <sup>1</sup>H NMR spectrum of ethanol in CDCl<sub>3</sub> is shown. A drop of D<sub>2</sub>O is added and the tube is shaken. What change is seen?",
   "c": [
-   "The broad singlet near 2.6 ppm disappears; the other signals stay the same.",
-   "The quartet at 3.69 ppm becomes a triplet.",
-   "The triplet at 1.22 ppm disappears.",
-   "The broad singlet near 2.6 ppm becomes a triplet."
+   "The broad singlet near 2.6 ppm disappears; the rest are unchanged.",
+   "The quartet at 3.69 ppm becomes a triplet; the other signals stay the same.",
+   "The triplet at 1.22 ppm disappears; the other signals stay the same.",
+   "The broad singlet near 2.6 ppm becomes a triplet from coupling to the CH<sub>2</sub>."
   ],
   "h": "Which H in ethanol is acidic enough to swap with deuterium? Deuterium does not appear in a <sup>1</sup>H spectrum.",
   "w": "The O–H proton exchanges with D<sub>2</sub>O (ROH + D<sub>2</sub>O ⇌ ROD + HOD), and O–D gives no <sup>1</sup>H signal, so <b>the broad OH singlet disappears</b>. The CH<sub>2</sub> quartet was never split by the OH (fast exchange already removed that coupling), so it stays a quartet.",

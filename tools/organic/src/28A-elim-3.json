@@ -50,9 +50,9 @@
   "q": "2-Bromo-2-methylpropane is dissolved in methanol at 25 °C with no added base. What happens mainly?",
   "c": [
    "S<sub>N</sub>1, giving mainly tert-butyl methyl ether (with some 2-methylpropene by E1)",
-   "E2, giving mainly 2-methylpropene",
-   "S<sub>N</sub>2, giving mainly tert-butyl methyl ether",
-   "E1, giving mainly 2-methylpropene (with some ether by S<sub>N</sub>1)"
+   "E2, giving mainly 2-methylpropene, with methanol as the base",
+   "S<sub>N</sub>2, giving mainly tert-butyl methyl ether by backside attack",
+   "E1, giving mainly 2-methylpropene (with some tert-butyl methyl ether by S<sub>N</sub>1)"
   ],
   "h": "Methanol is a weak nucleophile and weak base in a polar protic solvent. What does a 3° bromide do there at room temperature?",
   "w": "With no strong base, the 3° bromide ionizes in the polar protic solvent (solvolysis). The carbocation is captured mostly by solvent at 25 °C: <b>S<sub>N</sub>1 gives mainly tert-butyl methyl ether</b>, with a smaller amount of 2-methylpropene from E1. Heating would increase the alkene fraction.",
@@ -293,10 +293,10 @@
    }
   ],
   "c": [
-   "Elimination forms more molecules, so its ΔS is more positive and the −TΔS term matters more at high temperature",
+   "Elimination makes more molecules, so its ΔS is more positive and −TΔS matters more when hot",
    "Elimination has the lower activation energy, so heating speeds it up more than substitution",
-   "At high temperature the ether product is converted into the alkene",
-   "Heating makes ethoxide a weaker base and a stronger nucleophile"
+   "At high temperature the ether product is converted into the alkene by further elimination",
+   "Heating makes the ethoxide ion a weaker base and a stronger nucleophile"
   ],
   "h": "Count the particles on each side for substitution and for elimination.",
   "w": "Substitution: 2 reactants → 2 products. Elimination: 2 reactants → 3 products (alkene, alcohol, halide). <b>Elimination has a more positive ΔS</b>, so ΔG = ΔH − TΔS becomes more favorable for elimination as T rises; heating therefore increases the alkene fraction.",

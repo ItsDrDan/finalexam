@@ -39,10 +39,10 @@
   "d": 2,
   "q": "In S<sub>N</sub>Ar reactions of 1-halo-2,4-dinitrobenzenes, the aryl fluoride reacts much faster than the aryl iodide. What is the best explanation?",
   "c": [
-   "Addition of the nucleophile is rate-determining, and fluorine's strong inductive withdrawal makes the ipso carbon more electrophilic and stabilizes the anionic intermediate",
-   "The C–F bond is the weakest carbon–halogen bond, so it breaks fastest in the rate-determining step",
+   "Addition is rate-determining, and fluorine’s inductive pull makes the ipso carbon more electrophilic and stabilizes the anion",
+   "The C–F bond is the weakest carbon–halogen bond, so it breaks fastest in the rate-determining step of the substitution reaction",
    "Fluoride is the most stable halide ion in methanol, so it is the best leaving group in every substitution reaction",
-   "Fluorine donates its lone pairs by resonance into the ring, stabilizing a carbocation intermediate"
+   "Fluorine donates its lone pairs by resonance into the ring, stabilizing a carbocation intermediate on the ipso carbon"
   ],
   "h": "Which step of the addition–elimination mechanism is slow, and does that step break the C–halogen bond?",
   "w": "In S<sub>N</sub>Ar the <b>slow step is addition</b> of the nucleophile, which destroys aromaticity and forms the Meisenheimer complex. The C–X bond is not broken in that step, so bond strength and leaving-group ability matter little. What matters is how electrophilic the ipso carbon is and how well the anionic intermediate is stabilized; <b>fluorine, the most electronegative halogen, helps both</b>. Loss of X<sup>−</sup> in the second step is fast because it restores aromaticity.",
@@ -311,7 +311,7 @@
   "c": [
    "No substitution occurs, because there is no hydrogen ortho to Br, so no benzyne can form",
    "2,6-Dimethylaniline forms by direct addition–elimination at the carbon bearing Br",
-   "A mixture of 2,6-dimethylaniline and 2,4-dimethylaniline forms by way of a benzyne",
+   "A mixture of 2,6-dimethylaniline and 2,4-dimethylaniline forms by way of a benzyne intermediate",
    "3,5-Dimethylaniline forms because NH<sub>2</sub><sup>−</sup> adds to the carbon para to Br"
   ],
   "h": "Benzyne formation starts with removal of a proton. Which proton?",
@@ -367,7 +367,7 @@
   "c": [
    "Loss of H<sup>+</sup> restores the aromatic sextet; addition of Br<sup>−</sup> would give a nonaromatic cyclohexadiene",
    "Br<sup>−</sup> is a poor nucleophile in the presence of FeBr<sub>3</sub>, so it cannot add to any carbocation",
-   "The arenium ion has no carbon able to accept a nucleophile, since every carbon has a full octet",
+   "The arenium ion has no carbon able to accept a nucleophile, since every carbon has a full octet of electrons",
    "Loss of H<sup>+</sup> is the rate-determining step, so it must be the step that happens"
   ],
   "h": "Compare the two possible products of the second step. Which one is aromatic?",
@@ -386,10 +386,10 @@
   "d": 3,
   "q": "Benzene and hexadeuteriobenzene (C<sub>6</sub>D<sub>6</sub>) are nitrated at essentially the same rate (k<sub>H</sub>/k<sub>D</sub> ≈ 1). What does this show?",
   "c": [
-   "The C–H bond is not broken in the rate-determining step; attack of NO<sub>2</sub><sup>+</sup> to form the arenium ion is slow and deprotonation is fast",
+   "The C–H bond is not broken in the rate-determining step; forming the arenium ion is slow and losing H<sup>+</sup> is fast",
    "The C–H bond breaks in the rate-determining step, so the reaction is a single concerted step",
    "Deprotonation of the arenium ion is rate-determining, but C–D and C–H bonds break at equal rates",
-   "Formation of NO<sub>2</sub><sup>+</sup> is rate-determining, so the arene never takes part in the slow step under any conditions"
+   "Formation of NO<sub>2</sub><sup>+</sup> is rate-determining, so the arene never takes part in the slow step under any reaction conditions"
   ],
   "h": "A primary kinetic isotope effect (k<sub>H</sub>/k<sub>D</sub> of about 2–7) appears when the C–H bond breaks in the slow step. What does its absence tell you?",
   "w": "If C–H(D) bond cleavage were in the rate-determining step, the stronger C–D bond would slow C<sub>6</sub>D<sub>6</sub> noticeably (a primary isotope effect). <b>k<sub>H</sub>/k<sub>D</sub> ≈ 1</b> means the proton is lost <b>after</b> the slow step: the two-step mechanism, with slow formation of the σ complex and fast loss of H<sup>+</sup>, fits; a concerted one-step substitution does not.",

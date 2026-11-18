@@ -416,10 +416,10 @@
    }
   ],
   "c": [
-   "The C–N bond has partial double-bond character, so rotation about it is slow on the NMR time scale; one CH<sub>3</sub> is cis to O and the other trans",
+   "The C–N bond has partial double-bond character, so rotation is slow on the NMR time scale; one CH<sub>3</sub> is cis to O, the other trans",
    "The nitrogen is a stereocenter that inverts slowly, which makes the two CH<sub>3</sub> groups diastereotopic",
-   "The two N–CH<sub>3</sub> groups split each other, so the pair at δ 3.02 and 2.94 is one doublet",
-   "Rotation about the bond between C=O and the acetyl CH<sub>3</sub> is slow, which holds one N–CH<sub>3</sub> closer to that CH<sub>3</sub>"
+   "The two N–CH<sub>3</sub> groups split each other, so the pair at δ 3.02 and 2.94 is really one doublet",
+   "Rotation about the bond between C=O and the acetyl CH<sub>3</sub> is slow, which holds one N–CH<sub>3</sub> closer to that CH<sub>3</sub> group"
   ],
   "h": "Draw the resonance form of an amide that puts a double bond between C and N.",
   "w": "Amide resonance (O=C–NR<sub>2</sub> ↔ <sup>−</sup>O–C=N<sup>+</sup>R<sub>2</sub>) gives the C–N bond partial double-bond character and a rotation barrier of roughly 75–85 kJ/mol. At room temperature the two N–CH<sub>3</sub> groups do not exchange places quickly, so the one cis to O and the one trans to O are in different environments: <b>slow C–N rotation</b>. On heating, the two signals broaden and merge.",
@@ -731,10 +731,10 @@
   "k": 0,
   "q": "Aniline has a UV absorption band at 280 nm. In dilute aqueous HCl this band disappears and the spectrum looks almost like benzene's (λ<sub>max</sub> ≈ 254 nm). What explains the shift?",
   "c": [
-   "Protonation ties up the N lone pair, so it can no longer conjugate with the ring; the chromophore becomes benzene-like and λ<sub>max</sub> moves to shorter wavelength",
+   "Protonation ties up the N lone pair, so it no longer conjugates with the ring; the chromophore becomes benzene-like and λ<sub>max</sub> gets shorter",
    "Protonation puts a positive charge in conjugation with the ring, which extends the π system and shrinks the HOMO–LUMO gap",
-   "Aqueous acid removes the NH<sub>2</sub> group from the ring, so the solution actually contains benzene",
-   "The new N–H bonds of the anilinium ion absorb strongly near 254 nm and hide the 280 nm band"
+   "Aqueous acid removes the NH<sub>2</sub> group from the ring, so the solution actually contains benzene and NH<sub>4</sub><sup>+</sup>",
+   "The new N–H bonds of the anilinium ion absorb strongly near 254 nm and hide the 280 nm band beneath them"
   ],
   "h": "Which electrons on aniline are part of the conjugated π system, and what happens to them on protonation?",
   "w": "In aniline the N lone pair is delocalized into the ring, raising the HOMO and shifting λ<sub>max</sub> to longer wavelength (280 nm). In the anilinium ion, C<sub>6</sub>H<sub>5</sub>NH<sub>3</sub><sup>+</sup>, that pair forms an N–H σ bond and is no longer conjugated, so the chromophore is just the benzene ring: <b>loss of lone-pair conjugation gives a shift to shorter wavelength</b> (a hypsochromic or blue shift). Adding base reverses it.",

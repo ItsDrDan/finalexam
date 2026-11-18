@@ -1,0 +1,870 @@
+[
+ {
+  "id": "28A-235",
+  "field": "c[0]",
+  "old": "Hydrogen bonding in the neat liquid weakens O–H bonds to different extents; isolated molecules in dilute solution have a free O–H",
+  "new": "Hydrogen bonding in the neat liquid weakens the O–H bonds by varying amounts; in dilute solution the O–H is free",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-235",
+  "field": "c[2]",
+  "old": "In the neat liquid some alcohol is ionized to alkoxide, and O<sup>−</sup> absorbs at lower wavenumber than O–H",
+  "new": "In the neat liquid some alcohol is ionized to alkoxide, and the O<sup>−</sup> absorbs at a lower wavenumber than a free O–H does",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-235",
+  "field": "c[3]",
+  "old": "Dilution increases the O–H bond dipole, which raises the stretching wavenumber",
+  "new": "Dilution increases the O–H bond dipole of each isolated molecule, which raises the O–H stretching wavenumber",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-258",
+  "field": "c[0]",
+  "old": "Loss of a radical (e.g. α-cleavage) gives an odd-m/z ion; loss of a neutral molecule (e.g. H<sub>2</sub>O) gives an even-m/z ion",
+  "new": "Loss of a radical gives an odd-m/z ion; loss of a neutral molecule (e.g. H<sub>2</sub>O) gives an even-m/z ion",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-258",
+  "field": "c[1]",
+  "old": "Loss of a radical gives an even-m/z ion; loss of a neutral molecule gives an odd-m/z ion",
+  "new": "Loss of a radical (e.g. α-cleavage) gives an even-m/z ion; loss of a neutral molecule gives an odd-m/z ion",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-258",
+  "field": "c[2]",
+  "old": "All fragment ions have odd m/z, because every fragment carries a positive charge",
+  "new": "All fragment ions have odd m/z, because every fragment ion carries a single positive charge",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-516",
+  "field": "c[1]",
+  "old": "It triples",
+  "new": "It increases by a factor of 3",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-516",
+  "field": "c[2]",
+  "old": "It decreases by half",
+  "new": "It decreases to half of the original rate",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-526",
+  "field": "c[0]",
+  "old": "The central carbon is roughly trigonal bipyramidal, with O and Br partly bonded on opposite sides",
+  "new": "The carbon is roughly trigonal bipyramidal, with O and Br partly bonded on opposite sides",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-526",
+  "field": "c[1]",
+  "old": "The central carbon is a planar carbocation with Br<sup>−</sup> fully detached",
+  "new": "The central carbon is a planar carbocation, with Br<sup>−</sup> fully detached and CH<sub>3</sub>O<sup>−</sup> not yet bonded",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-526",
+  "field": "c[2]",
+  "old": "O and Br are partly bonded on the same side of the carbon, 90° apart",
+  "new": "O and Br are partly bonded on the same side of the central carbon, about 90° apart",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-526",
+  "field": "c[3]",
+  "old": "The central carbon is tetrahedral with five full bonds",
+  "new": "The central carbon is tetrahedral, with five full bonds to its five groups",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-529",
+  "field": "c[0]",
+  "old": "Both 2-methylbut-3-en-2-ol and 3-methylbut-2-en-1-ol form, because water attacks either end of an allylic cation",
+  "new": "Both 2-methylbut-3-en-2-ol and 3-methylbut-2-en-1-ol, from water attacking either end of the allylic cation",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-529",
+  "field": "c[1]",
+  "old": "Only 2-methylbut-3-en-2-ol forms, because water attacks the carbon that lost Cl<sup>−</sup>",
+  "new": "Only 2-methylbut-3-en-2-ol forms, because water attacks only the tertiary carbon that lost Cl<sup>−</sup>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-529",
+  "field": "c[3]",
+  "old": "Only 3-methylbut-2-en-1-ol forms, by direct S<sub>N</sub>2 at the primary carbon",
+  "new": "Only 3-methylbut-2-en-1-ol forms, by direct S<sub>N</sub>2 attack of water at the less hindered primary carbon atom",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-533",
+  "field": "c[1]",
+  "old": "Only (<i>S</i>), by inversion",
+  "new": "Only (<i>S</i>), by inversion at the stereocenter",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-533",
+  "field": "c[2]",
+  "old": "Only (<i>R</i>), by retention",
+  "new": "Only (<i>R</i>), by retention of configuration",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-533",
+  "field": "c[3]",
+  "old": "Only the meso form",
+  "new": "Only the meso stereoisomer",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-553",
+  "field": "c[0]",
+  "old": "NaCl is insoluble in acetone and precipitates, pulling the equilibrium toward 1-iodobutane",
+  "new": "NaCl is insoluble in acetone and precipitates, driving the equilibrium to 1-iodobutane",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-553",
+  "field": "c[1]",
+  "old": "The C–I bond is much stronger than the C–Cl bond",
+  "new": "The C–I bond is much stronger than the C–Cl bond, so 1-iodobutane is the more stable product",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-553",
+  "field": "c[2]",
+  "old": "I<sup>−</sup> is a stronger base than Cl<sup>−</sup>",
+  "new": "I<sup>−</sup> is a stronger base than Cl<sup>−</sup>, so it displaces chloride",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-553",
+  "field": "c[3]",
+  "old": "Acetone protonates the chloride, making it a better leaving group",
+  "new": "Acetone protonates the chlorine of 1-chlorobutane, making it a better leaving group",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-392",
+  "field": "c[1]",
+  "old": "1-Bromo-1-methylcyclohexane, a single achiral product",
+  "new": "1-Bromo-1-methylcyclohexane, a single achiral product with Br on the tertiary carbon",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-392",
+  "field": "c[2]",
+  "old": "<i>trans</i>-1-Bromo-2-methylcyclohexane, as a single enantiomer",
+  "new": "<i>trans</i>-1-Bromo-2-methylcyclohexane only, as a single enantiomer",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-392",
+  "field": "c[3]",
+  "old": "3-Bromo-1-methylcyclohexene, from allylic substitution",
+  "new": "3-Bromo-1-methylcyclohexene, from radical allylic substitution",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-394",
+  "field": "c[1]",
+  "old": "3-Bromobut-1-ene (racemic) only",
+  "new": "3-Bromobut-1-ene (racemic) only, with Br at the allylic carbon",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-394",
+  "field": "c[2]",
+  "old": "4-Bromobut-1-ene and 3-bromobut-1-ene",
+  "new": "4-Bromobut-1-ene and 3-bromobut-1-ene (racemic)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-394",
+  "field": "c[3]",
+  "old": "1,2-Dibromobutane (racemic) only",
+  "new": "1,2-Dibromobutane (racemic), from addition across the C=C",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-401",
+  "field": "c[0]",
+  "old": "The chain-end radical abstracts an H from the CH<sub>2</sub> five carbons back on its own chain, and the new mid-chain radical adds more ethylene.",
+  "new": "The chain-end radical takes an H from five carbons back on its own chain, and the new mid-chain radical adds ethylene.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-401",
+  "field": "c[1]",
+  "old": "The chain-end radical adds to the CH<sub>2</sub> carbon of a butene impurity, which then copolymerizes.",
+  "new": "The chain-end radical adds to the CH<sub>2</sub> carbon of a butene impurity, which is then built into the growing chain.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-401",
+  "field": "c[2]",
+  "old": "Two chain-end radicals combine head-to-head, forming a branch at the junction.",
+  "new": "Two chain-end radicals combine head-to-head, forming a branch point at the junction of the chains.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-401",
+  "field": "c[3]",
+  "old": "The chain-end radical rearranges by a 1,2-methyl shift to a more stable 2° radical.",
+  "new": "The chain-end radical rearranges by a 1,2-methyl shift to a more stable 2° radical, which keeps growing.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-409",
+  "field": "c[0]",
+  "old": "H abstraction by I• is endothermic by about 116 kJ/mol, so this propagation step is too slow to sustain a chain.",
+  "new": "H abstraction by I• is endothermic by about 116 kJ/mol, too slow to sustain a chain.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-409",
+  "field": "c[1]",
+  "old": "The I–I bond is too strong to be broken by light, so no I• forms.",
+  "new": "The I–I bond is too strong to be broken by light, so no I• forms to start the chain.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-409",
+  "field": "c[3]",
+  "old": "I• is so reactive that it abstracts every kind of H equally and gives only mixtures.",
+  "new": "I• is so reactive that it abstracts every kind of H equally and gives only product mixtures.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-51",
+  "field": "c[3]",
+  "old": "1. OsO<sub>4</sub>  2. NaHSO<sub>3</sub>, H<sub>2</sub>O",
+  "new": "1. OsO<sub>4</sub>, pyridine  2. NaHSO<sub>3</sub>, H<sub>2</sub>O",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-80",
+  "field": "c[0]",
+  "old": "Both H atoms are delivered from the metal surface to the face of the alkene bound to the catalyst",
+  "new": "Both H atoms are delivered from the metal surface to the alkene face bound to the catalyst",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-80",
+  "field": "c[1]",
+  "old": "A carbocation forms and is attacked by hydride from the less hindered face",
+  "new": "A carbocation forms and is then attacked by hydride from the less hindered face of the alkene",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-80",
+  "field": "c[2]",
+  "old": "A bridged three-membered ring intermediate blocks one face of the alkene",
+  "new": "A bridged three-membered ring intermediate blocks one face of the alkene from the second H",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-109",
+  "field": "c[0]",
+  "old": "The pent-1-yne formed (p<i>K</i><sub>a</sub> ≈ 25) is deprotonated by NaNH<sub>2</sub>, consuming a third equivalent; H<sub>2</sub>O then reprotonates the acetylide.",
+  "new": "Pent-1-yne (p<i>K</i><sub>a</sub> ≈ 25) is deprotonated by NaNH<sub>2</sub>, using a third equivalent; H<sub>2</sub>O then reprotonates it.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-109",
+  "field": "c[1]",
+  "old": "The third equivalent isomerizes pent-2-yne, formed first, into pent-1-yne.",
+  "new": "The third equivalent isomerizes the pent-2-yne that forms first into the terminal alkyne, pent-1-yne.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-119",
+  "field": "c[0]",
+  "old": "After one addition, the vinylborane still has a π bond; the bulky borane adds only once, so oxidation gives the aldehyde.",
+  "new": "The vinylborane still has a π bond; a bulky borane adds only once, so oxidation gives the aldehyde.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-119",
+  "field": "c[1]",
+  "old": "BH<sub>3</sub> adds with Markovnikov regiochemistry to alkynes, so it would give a ketone.",
+  "new": "BH<sub>3</sub> adds with Markovnikov regiochemistry to alkynes, so oxidation would give a ketone, not the aldehyde.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-119",
+  "field": "c[3]",
+  "old": "The bulky borane is needed to make the enol tautomerize to the aldehyde.",
+  "new": "The bulky borane is needed to make the enol tautomerize to the aldehyde after oxidation.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-127",
+  "field": "c[0]",
+  "old": "Electrons are added one at a time; the vinyl radical and vinyl anion intermediates prefer the <i>trans</i> geometry before NH<sub>3</sub> protonates them.",
+  "new": "Electrons add one at a time; the vinyl radical and anion prefer the <i>trans</i> geometry before NH<sub>3</sub> protonates them.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-127",
+  "field": "c[1]",
+  "old": "Hydrogen atoms are delivered to one face from the surface of the sodium metal, so the product is <i>trans</i>.",
+  "new": "Hydrogen atoms are delivered to one face from the surface of the sodium metal, so the product is the <i>trans</i> alkene.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-127",
+  "field": "c[2]",
+  "old": "NH<sub>3</sub> first protonates the alkyne to give a vinyl cation, which Na then reduces.",
+  "new": "NH<sub>3</sub> first protonates the alkyne to give a vinyl cation, which Na then reduces to the <i>trans</i> alkene.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-127",
+  "field": "c[3]",
+  "old": "The <i>cis</i> alkene forms first and then isomerizes to the more stable <i>trans</i> alkene in NH<sub>3</sub>.",
+  "new": "The <i>cis</i> alkene forms first and then isomerizes to the more stable <i>trans</i> alkene in the liquid NH<sub>3</sub>.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-133",
+  "field": "c[1]",
+  "old": "1. Sia<sub>2</sub>BH  2. H<sub>2</sub>O<sub>2</sub>, NaOH",
+  "new": "1. Sia<sub>2</sub>BH, THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH, H<sub>2</sub>O",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-133",
+  "field": "c[2]",
+  "old": "1. H<sub>2</sub>, Lindlar catalyst  2. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>",
+  "new": "1. H<sub>2</sub>, Lindlar catalyst  2. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub> (cat.)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-270",
+  "field": "c[0]",
+  "old": "H abstraction by Br• is endothermic, so its transition state is late, resembles the alkyl radical and feels the stability difference between 2° and 1° radicals",
+  "new": "H abstraction by Br• is endothermic, so its late, radical-like transition state feels the 2° vs 1° radical stability difference",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-270",
+  "field": "c[1]",
+  "old": "H abstraction by Br• is exothermic, so its transition state is early and resembles propane, which makes it more selective",
+  "new": "H abstraction by Br• is exothermic, so its transition state is early and resembles propane, which makes bromination more selective",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-270",
+  "field": "c[2]",
+  "old": "Br• is more reactive than Cl•, so it attacks the more crowded 2° hydrogens more often",
+  "new": "Br• is more reactive than Cl•, so it attacks the more crowded 2° hydrogens of propane more often",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-270",
+  "field": "c[3]",
+  "old": "H abstraction by Cl• is endothermic, so its transition state is late and cannot tell 2° from 1° hydrogens apart",
+  "new": "H abstraction by Cl• is endothermic, so its transition state is late and cannot tell the 2° and 1° hydrogens of propane apart",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-290",
+  "field": "c[0]",
+  "old": "The ionization step is endothermic, so its transition state resembles the carbocation, and the more stable 3° cation lowers that transition state more",
+  "new": "Ionization is endothermic, so its transition state resembles the carbocation, and the more stable 3° cation lowers it more",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-290",
+  "field": "c[1]",
+  "old": "The 3° bromide has a stronger C–Br bond, so its transition state is reached earlier",
+  "new": "The 3° bromide has a stronger C–Br bond, so its transition state is reached earlier along the path",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-310",
+  "field": "c[1]",
+  "old": "Triplet (<i>J</i> ≈ 14 Hz)",
+  "new": "Triplet (<i>J</i> ≈ 14 Hz), from the two =CH<sub>2</sub> hydrogens",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-310",
+  "field": "c[2]",
+  "old": "Doublet (<i>J</i> ≈ 17 Hz)",
+  "new": "Doublet (<i>J</i> ≈ 17 Hz), from the <i>trans</i> =CH<sub>2</sub> hydrogen",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-326",
+  "field": "c[0]",
+  "old": "The broad singlet near 2.6 ppm disappears; the other signals stay the same.",
+  "new": "The broad singlet near 2.6 ppm disappears; the rest are unchanged.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-326",
+  "field": "c[1]",
+  "old": "The quartet at 3.69 ppm becomes a triplet.",
+  "new": "The quartet at 3.69 ppm becomes a triplet; the other signals stay the same.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-326",
+  "field": "c[2]",
+  "old": "The triplet at 1.22 ppm disappears.",
+  "new": "The triplet at 1.22 ppm disappears; the other signals stay the same.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-326",
+  "field": "c[3]",
+  "old": "The broad singlet near 2.6 ppm becomes a triplet.",
+  "new": "The broad singlet near 2.6 ppm becomes a triplet from coupling to the CH<sub>2</sub>.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-191",
+  "field": "c[0]",
+  "old": "C3 has two H atoms; the anti-periplanar conformer that leads to <i>E</i> keeps the methyls anti and is lower in energy",
+  "new": "Both C3 H atoms can be anti to Br; the conformer leading to <i>E</i> keeps the methyls anti and is lower in energy",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-191",
+  "field": "c[1]",
+  "old": "E2 is not stereospecific, so the more stable alkene forms after the double bond equilibrates",
+  "new": "E2 is not stereospecific, so the more stable alkene forms after the double bond equilibrates under the conditions",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-191",
+  "field": "c[2]",
+  "old": "Only one C3 hydrogen can be anti-periplanar to Br, and it always gives the <i>E</i> alkene",
+  "new": "Only one C3 hydrogen can be anti-periplanar to Br, and that hydrogen always gives the <i>E</i> alkene",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-198",
+  "field": "c[0]",
+  "old": "Bromide is a good nucleophile and traps the carbocation, giving an alkyl bromide",
+  "new": "Bromide is a good nucleophile and traps the carbocation as an alkyl bromide",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-198",
+  "field": "c[1]",
+  "old": "HBr is too weak an acid to protonate an alcohol",
+  "new": "HBr is too weak an acid to protonate the alcohol’s OH group",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-198",
+  "field": "c[2]",
+  "old": "Bromide is a strong base that removes the β proton too slowly",
+  "new": "Bromide is a strong base that removes the β proton too slowly to form much alkene",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-198",
+  "field": "c[3]",
+  "old": "HBr adds water to the alkene faster than H<sub>2</sub>SO<sub>4</sub> does",
+  "new": "HBr adds water back to the alkene faster than H<sub>2</sub>SO<sub>4</sub> does",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-199",
+  "field": "c[0]",
+  "old": "Concentrated acid, high temperature, distilling off the alkene as it forms",
+  "new": "Concentrated acid, high temperature, distilling off the alkene",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-199",
+  "field": "c[1]",
+  "old": "Dilute aqueous acid, low temperature, excess water",
+  "new": "Dilute aqueous acid, low temperature, excess water added to the flask",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-199",
+  "field": "c[2]",
+  "old": "Concentrated acid, low temperature, excess water",
+  "new": "Concentrated acid, low temperature, excess water added at the start",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-199",
+  "field": "c[3]",
+  "old": "Dilute aqueous acid, high temperature, a sealed flask",
+  "new": "Dilute aqueous acid, high temperature, a sealed flask so nothing escapes",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-210",
+  "field": "c[1]",
+  "old": "E2, giving mainly 2-methylpropene",
+  "new": "E2, giving mainly 2-methylpropene, with methanol as the base",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-210",
+  "field": "c[2]",
+  "old": "S<sub>N</sub>2, giving mainly tert-butyl methyl ether",
+  "new": "S<sub>N</sub>2, giving mainly tert-butyl methyl ether by backside attack",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-210",
+  "field": "c[3]",
+  "old": "E1, giving mainly 2-methylpropene (with some ether by S<sub>N</sub>1)",
+  "new": "E1, giving mainly 2-methylpropene (with some tert-butyl methyl ether by S<sub>N</sub>1)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-218",
+  "field": "c[0]",
+  "old": "Elimination forms more molecules, so its ΔS is more positive and the −TΔS term matters more at high temperature",
+  "new": "Elimination makes more molecules, so its ΔS is more positive and −TΔS matters more when hot",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-218",
+  "field": "c[2]",
+  "old": "At high temperature the ether product is converted into the alkene",
+  "new": "At high temperature the ether product is converted into the alkene by further elimination",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-218",
+  "field": "c[3]",
+  "old": "Heating makes ethoxide a weaker base and a stronger nucleophile",
+  "new": "Heating makes the ethoxide ion a weaker base and a stronger nucleophile",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-12",
+  "field": "c[1]",
+  "old": "Water, which donates an electron pair",
+  "new": "Water, which donates an electron pair to carbon",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-12",
+  "field": "c[2]",
+  "old": "Water, which donates a proton",
+  "new": "Water, which donates a proton to the carbocation",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-12",
+  "field": "c[3]",
+  "old": "The oxonium ion, which accepts a proton",
+  "new": "The oxonium ion, which accepts a proton from water",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-23",
+  "field": "c[1]",
+  "old": "Potassium tert-butoxide",
+  "new": "Potassium tert-butoxide, (CH<sub>3</sub>)<sub>3</sub>COK",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-23",
+  "field": "c[2]",
+  "old": "Sodium ethoxide",
+  "new": "Sodium ethoxide, NaOCH<sub>2</sub>CH<sub>3</sub>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-23",
+  "field": "c[3]",
+  "old": "Sodium hydroxide",
+  "new": "Sodium hydroxide, NaOH",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-24",
+  "field": "c[0]",
+  "old": "The iodide ion is much larger, so its charge is spread over a bigger volume, and the H–I bond is weaker.",
+  "new": "Iodide is much larger, so its charge is spread over more volume, and the H–I bond is weaker.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-24",
+  "field": "c[1]",
+  "old": "Iodine is more electronegative than fluorine in water because of hydrogen bonding.",
+  "new": "Iodine is more electronegative than fluorine in water, because of hydrogen bonding to the solvent.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-24",
+  "field": "c[2]",
+  "old": "Fluoride is stabilized by resonance, which makes HF less likely to ionize.",
+  "new": "Fluoride is stabilized by resonance, which makes HF less likely to ionize in water.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-477",
+  "field": "c[0]",
+  "old": "Resonance gives the C–N bond partial double-bond character, so rotation breaks overlap of the N lone pair with the C=O π system",
+  "new": "Resonance gives the C–N bond partial double-bond character; rotation breaks the N lone pair’s overlap with C=O",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-477",
+  "field": "c[1]",
+  "old": "Steric clash between the N-methyl groups and the carbonyl oxygen locks the molecule in one conformation",
+  "new": "Steric clash between the N-methyl groups and the carbonyl oxygen locks the molecule in one fixed conformation",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-489",
+  "field": "c[1]",
+  "old": "I is the major contributor because a negative charge is more stable on carbon",
+  "new": "I is the major contributor because a negative charge is more stable on the less electronegative carbon",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-489",
+  "field": "c[3]",
+  "old": "Neither is valid, because I and II differ in the position of a hydrogen",
+  "new": "Neither is valid, because I and II differ in the position of a hydrogen atom",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-494",
+  "field": "c[0]",
+  "old": "The two N–O bonds have the same length, between that of an N–O single bond and an N=O double bond",
+  "new": "Both N–O bonds have the same length, between that of an N–O single bond and an N=O double bond",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-494",
+  "field": "c[2]",
+  "old": "The best Lewis structure has two N=O double bonds and no formal charges",
+  "new": "The best Lewis structure has two N=O double bonds and no formal charges on any atom",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-494",
+  "field": "c[3]",
+  "old": "The negative charge stays on one oxygen while the other oxygen remains neutral",
+  "new": "The negative charge stays on one oxygen, while the other oxygen remains neutral and double-bonded to N",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-504",
+  "field": "c[0]",
+  "old": "The cis isomer has a net dipole moment and so has dipole–dipole attractions; the trans isomer's bond dipoles cancel",
+  "new": "The cis isomer has a net dipole and dipole–dipole attractions; the trans isomer’s bond dipoles cancel",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-504",
+  "field": "c[1]",
+  "old": "The cis isomer can hydrogen-bond through its C–H bonds, while the trans isomer cannot",
+  "new": "The cis isomer can hydrogen-bond through its C–H bonds, while the trans isomer cannot do so",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-504",
+  "field": "c[2]",
+  "old": "The cis isomer has a larger molar mass and therefore stronger London dispersion forces",
+  "new": "The cis isomer has a larger molar mass and therefore stronger London dispersion forces between molecules",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-504",
+  "field": "c[3]",
+  "old": "The trans isomer is more strained, which weakens its intermolecular attractions",
+  "new": "The trans isomer is more strained, which weakens its attractions to neighboring molecules",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-458",
+  "field": "c[1]",
+  "old": "The boiling point",
+  "new": "The boiling point at 1 atm",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-458",
+  "field": "c[2]",
+  "old": "The solubility in hexane",
+  "new": "The solubility in hexane at 25 °C",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-458",
+  "field": "c[3]",
+  "old": "The IR spectrum",
+  "new": "The IR spectrum of the pure liquid",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-459",
+  "field": "c[1]",
+  "old": "Pure meso-2,3-dibromobutane",
+  "new": "A pure sample of meso-2,3-dibromobutane",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-459",
+  "field": "c[2]",
+  "old": "Racemic 2-butanol",
+  "new": "A 50:50 mixture of (<i>R</i>)- and (<i>S</i>)-2-butanol",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-459",
+  "field": "c[3]",
+  "old": "Pure cis-1,2-dimethylcyclohexane",
+  "new": "A pure sample of cis-1,2-dimethylcyclohexane",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-143",
+  "field": "c[0]",
+  "old": "II, because an intramolecular O–H···O hydrogen bond is possible only when the OH groups are gauche",
+  "new": "II, because an intramolecular O–H···O hydrogen bond is possible only in the gauche form",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-143",
+  "field": "c[1]",
+  "old": "I, because steric strain between the OH groups is smallest when they are anti",
+  "new": "I, because steric strain between the two OH groups is smallest when they are anti",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-143",
+  "field": "c[2]",
+  "old": "I, because the C–O bond dipoles cancel in the anti arrangement",
+  "new": "I, because the two C–O bond dipoles cancel in the anti arrangement",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-143",
+  "field": "c[3]",
+  "old": "II, because the gauche conformation has less torsional strain than the anti one",
+  "new": "II, because the gauche conformation has less torsional strain than the anti conformation",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-145",
+  "field": "c[0]",
+  "old": "It lowers torsional strain by staggering neighboring C–H bonds, at the cost of a small increase in angle strain",
+  "new": "It staggers neighboring C–H bonds to lower torsional strain, at the cost of slightly more angle strain",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-145",
+  "field": "c[1]",
+  "old": "It lowers angle strain by opening the C–C–C angles toward 109.5°",
+  "new": "It lowers angle strain by opening the C–C–C angles from 90° toward the ideal 109.5°",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-145",
+  "field": "c[2]",
+  "old": "It relieves steric strain between the 1,3-carbons across the ring",
+  "new": "It relieves steric strain between the 1,3-carbons, which move farther apart across the ring",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-145",
+  "field": "c[3]",
+  "old": "It allows the ring carbons to rehybridize toward sp<sup>2</sup>, shortening the C–C bonds",
+  "new": "It allows the ring carbons to rehybridize toward sp<sup>2</sup>, which shortens and strengthens the C–C bonds",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-146",
+  "field": "c[0]",
+  "old": "has bent, poorly overlapping C–C bonds and about 115 kJ/mol of ring strain",
+  "new": "has bent, poorly overlapping C–C bonds and high ring strain",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-146",
+  "field": "c[1]",
+  "old": "has sp<sup>2</sup>-hybridized carbons and a reactive C=C π bond",
+  "new": "has sp<sup>2</sup>-hybridized carbons and a reactive C=C π bond, like propene",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-146",
+  "field": "c[2]",
+  "old": "has staggered C–H bonds that weaken the ring",
+  "new": "has staggered C–H bonds that weaken the ring C–C bonds",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-146",
+  "field": "c[3]",
+  "old": "has axial hydrogens that crowd each other",
+  "new": "has axial hydrogens that crowd each other, as in a chair",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-149",
+  "field": "c[0]",
+  "old": "break large, high-boiling alkanes into smaller alkanes and alkenes for gasoline",
+  "new": "break large alkanes into smaller alkanes and alkenes for gasoline",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-149",
+  "field": "c[1]",
+  "old": "separate crude oil into fractions by boiling point",
+  "new": "separate crude oil into fractions by their boiling points",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-149",
+  "field": "c[2]",
+  "old": "convert straight-chain alkanes into aromatic hydrocarbons",
+  "new": "convert straight-chain alkanes into aromatic hydrocarbons for gasoline",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-174",
+  "field": "c[0]",
+  "old": "An axial ethyl or isopropyl group can rotate so that a C–H points over the ring; an axial tert-butyl must point a CH<sub>3</sub> at the 3- and 5-axial H atoms",
+  "new": "Ethyl and isopropyl can rotate to point a C–H over the ring; axial tert-butyl must point a CH<sub>3</sub> at the 3- and 5-axial H atoms",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-174",
+  "field": "c[1]",
+  "old": "Isopropyl is smaller than ethyl, so their A-values nearly cancel the extra carbon",
+  "new": "Isopropyl is smaller than ethyl, so the two groups’ A-values nearly cancel the effect of the extra carbon",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-174",
+  "field": "c[2]",
+  "old": "tert-Butyl is the only group that adds torsional strain to the ring C–C bonds when equatorial",
+  "new": "tert-Butyl is the only group that adds torsional strain to the ring C–C bonds, even when it is equatorial",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-174",
+  "field": "c[3]",
+  "old": "Branched groups are more electron-donating, and tert-butyl donates enough to destabilize the axial C–H bonds",
+  "new": "Branched groups are more electron-donating, and tert-butyl donates enough to destabilize the axial C–H bonds of the ring",
+  "why": "choice-length fairness"
+ }
+]

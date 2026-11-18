@@ -49,7 +49,7 @@
 
 {"id":"carb-37","t":"carbonyl","d":2,"k":0,
  "q":"Which alkyl halide is the <b>poorest</b> choice for preparing a phosphonium salt (and then a Wittig ylide) with triphenylphosphine?",
- "c":["2-Bromo-2-methylpropane","Bromomethane","1-Bromobutane","Benzyl bromide"],
+ "c":["<i>tert</i>-Butyl bromide","Bromomethane","1-Bromobutane","Benzyl bromide"],
  "h":"Ph<sub>3</sub>P reacts with the alkyl halide by S<sub>N</sub>2. Which substrate cannot undergo S<sub>N</sub>2?",
  "w":"Phosphonium salts form by S<sub>N</sub>2 attack of Ph<sub>3</sub>P on the alkyl halide. A tertiary halide is too hindered for S<sub>N</sub>2 (and would give no α-H on the P-bearing carbon to make an ylide anyway): <b>2-bromo-2-methylpropane</b> is the poorest choice.",
  "x":["","Methyl halides are the best S<sub>N</sub>2 substrates; CH<sub>3</sub>Br gives the widely used Ph<sub>3</sub>P=CH<sub>2</sub>.","A primary halide reacts well with Ph<sub>3</sub>P by S<sub>N</sub>2.","Benzylic halides are excellent S<sub>N</sub>2 substrates and give stabilized benzylic ylides."]},
@@ -74,7 +74,7 @@
 {"id":"carb-40","t":"carbonyl","d":3,"k":0,
  "q":"4-<i>tert</i>-Butylcyclohexanone is reduced with NaBH<sub>4</sub> in methanol. Which statement best describes the product?",
  "s":[{"smi":"CC(C)(C)C1CCC(=O)CC1"},{"arrow":"NaBH<sub>4</sub>","below":"CH<sub>3</sub>OH"},"?"],
- "c":["Mainly <i>trans</i>-4-<i>tert</i>-butylcyclohexanol (OH equatorial), from axial attack of the small hydride","Mainly <i>cis</i>-4-<i>tert</i>-butylcyclohexanol (OH axial), from equatorial attack of the small hydride","A racemic mixture, because hydride attacks the two faces of the planar C=O equally","Equal amounts of <i>cis</i> and <i>trans</i> alcohols, because the <i>tert</i>-butyl group is far from the C=O"],
+ "c":["Mainly <i>trans</i>-4-<i>tert</i>-butylcyclohexanol (OH equatorial), from axial attack of the small hydride","Mainly <i>cis</i>-4-<i>tert</i>-butylcyclohexanol (OH axial), from equatorial attack of the small hydride reagent","A racemic mixture, because hydride attacks the two faces of the planar C=O equally","Equal amounts of <i>cis</i> and <i>trans</i> alcohols, because the <i>tert</i>-butyl group is far from the C=O"],
  "h":"The <i>tert</i>-butyl group locks the chair. A small nucleophile like BH<sub>4</sub><sup>−</sup> prefers the approach that avoids torsional strain with the neighboring C–H bonds. Then ask: is either product chiral?",
  "w":"The <i>tert</i>-butyl group is locked equatorial. Small hydride donors attack mainly from the axial direction (equatorial approach would develop torsional strain with the neighboring C2 and C6 C–H bonds), which pushes the oxygen equatorial. Equatorial OH and equatorial <i>tert</i>-butyl at C1/C4 are <i>trans</i>: <b>mainly <i>trans</i>-4-<i>tert</i>-butylcyclohexanol</b> (about 90:10). Bulky hydrides (L-Selectride) reverse this.",
  "x":["","Equatorial attack (giving the axial-OH <i>cis</i> isomer) is preferred by bulky hydrides such as L-Selectride, not by small NaBH<sub>4</sub>.","Both <i>cis</i> and <i>trans</i> products have a mirror plane through C1 and C4, so they are achiral; the two faces of this C=O are not mirror images but are diastereotopic.","The locked chair makes the two faces different (axial vs equatorial approach), so the two diastereomers form in unequal amounts."]},

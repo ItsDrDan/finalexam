@@ -41,7 +41,7 @@
 {
  "id": "alc-35", "t": "alcohols", "d": 1, "k": 0,
  "q": "Why is an alcohol usually converted to a tosylate before an S<sub>N</sub>2 reaction with a nucleophile such as N<sub>3</sub><sup>−</sup>?",
- "c": ["Hydroxide is a strong base and a poor leaving group; tosylate is a weak, resonance-stabilized base and leaves easily", "The tosyl group makes the carbon less hindered, so the nucleophile can reach it", "Tosylation converts the alcohol into a carbocation, which the nucleophile then traps", "The tosylate makes the nucleophile stronger by deprotonating it"],
+ "c": ["Hydroxide is a strong base and poor leaving group; tosylate is a weak, resonance-stabilized base that leaves easily", "The tosyl group makes the carbon less hindered, so the nucleophile can reach it from the back side", "Tosylation converts the alcohol into a carbocation, which the nucleophile then traps in a fast second step of the reaction", "The tosylate makes the nucleophile stronger by deprotonating it before it attacks the carbon"],
  "h": "Good leaving groups are the conjugate bases of strong acids. Compare H<sub>2</sub>O (pK<sub>a</sub> 15.7) with TsOH (pK<sub>a</sub> ≈ −3).",
  "w": "A leaving group must be able to carry away the electron pair. HO<sup>−</sup> is a strong base (conjugate acid H<sub>2</sub>O, pK<sub>a</sub> 15.7), so it is a very poor leaving group. TsO<sup>−</sup> is the conjugate base of a strong acid and spreads its charge over three oxygens. <b>Tosylation turns a poor leaving group into an excellent one</b> without touching the stereocenter.",
  "x": ["", "The tosyl group is large; it does not reduce steric hindrance at the carbon.", "Tosylation forms a neutral sulfonate ester; no carbocation is formed, which is why stereochemistry is kept in this step.", "The tosylate is on the substrate; it does not change the nucleophile."]
@@ -59,7 +59,7 @@
 {
  "id": "alc-37", "t": "alcohols", "d": 1, "k": 0,
  "q": "Why does tetrabutylammonium fluoride (TBAF) remove a TBS protecting group under mild conditions?",
- "c": ["The Si–F bond formed is much stronger than the Si–O bond broken", "Fluoride is a strong base that deprotonates the silyl ether", "Fluoride reduces silicon, breaking the Si–O bond", "TBAF is a strong acid that hydrolyzes the silyl ether"],
+ "c": ["The Si–F bond formed is much stronger than the Si–O bond broken", "Fluoride is a strong base that deprotonates the silyl ether to cleave it", "Fluoride reduces silicon, breaking the Si–O bond", "TBAF is a strong acid that hydrolyzes the silyl ether"],
  "h": "Compare bond strengths to silicon.",
  "w": "Silicon forms an exceptionally strong bond to fluorine (about 135 kcal/mol for Si–F vs about 110 for Si–O). Fluoride attacks silicon, forming a pentacoordinate intermediate that releases the alkoxide; workup gives the alcohol. <b>The driving force is the strong Si–F bond.</b> Carbon-based groups (esters, ketones, alkenes) are untouched, which makes TBS removal very selective.",
  "x": ["", "A silyl ether has no acidic hydrogen to remove; fluoride acts as a nucleophile at silicon.", "No redox occurs; silicon stays in the +4 oxidation state.", "TBAF is a salt of fluoride, not an acid; acid can also cleave silyl ethers, but that is a different method."]
@@ -104,7 +104,7 @@
 {
  "id": "alc-42", "t": "alcohols", "d": 2, "k": 0,
  "q": "Why does PCC in CH<sub>2</sub>Cl<sub>2</sub> stop at the aldehyde when it oxidizes a primary alcohol, while aqueous Jones reagent gives the carboxylic acid?",
- "c": ["Without water, the aldehyde cannot form the hydrate (gem-diol), the species that Cr(VI) oxidizes further", "PCC is too weak to oxidize any C–H bond on a carbon bearing oxygen", "The pyridinium ion reduces the carboxylic acid back to the aldehyde as it forms", "In CH<sub>2</sub>Cl<sub>2</sub> the aldehyde evaporates before it can be oxidized"],
+ "c": ["Without water the aldehyde cannot form its hydrate, the form that Cr(VI) oxidizes to the acid", "PCC is too weak to oxidize any C–H bond on a carbon that already bears an oxygen atom", "The pyridinium ion reduces the carboxylic acid back to the aldehyde as fast as the acid forms", "In CH<sub>2</sub>Cl<sub>2</sub> the aldehyde evaporates from the flask before it can be oxidized any further"],
  "h": "Chromium oxidizes an O–H-bearing carbon that also has a C–H. What must happen to the aldehyde before it fits that description?",
  "w": "Cr(VI) oxidation requires a carbon that bears both an OH (to form the chromate ester) and an H. An aldehyde becomes such a species only after adding water to form the hydrate, R–CH(OH)<sub>2</sub>. In aqueous Jones conditions the hydrate forms and is oxidized to the acid; in anhydrous CH<sub>2</sub>Cl<sub>2</sub> it cannot. <b>No water, no hydrate, no over-oxidation.</b>",
  "x": ["", "PCC does oxidize a C–H on an oxygen-bearing carbon: that is exactly how it converts the alcohol to the aldehyde.", "Pyridinium is not a reducing agent; no acid is formed in the first place.", "Most aldehydes made this way are not volatile; the selectivity is chemical, not physical."]

@@ -14,7 +14,7 @@
    "It activates the carboxyl group as an <i>O</i>-acylisourea, a good acylating agent",
    "It deprotonates the amine so it becomes a stronger nucleophile",
    "It protects the N-terminal amine so it cannot react twice",
-   "It reduces the carboxylic acid to an aldehyde that then forms an imine"
+   "It reduces the carboxylic acid to an aldehyde that then forms an imine with the amine"
   ],
   "h": "A carboxylic acid and an amine just form a salt. What does a coupling reagent do to the COOH?",
   "w": "The carboxylic acid adds across a C=N of DCC to give an <b><i>O</i>-acylisourea</b>, in which the acyl group carries a good leaving group. The amine then attacks the acyl carbon (nucleophilic acyl substitution), forming the amide and releasing dicyclohexylurea (DCU). DCC is a dehydrating agent: the water lost in forming the amide ends up in DCU.",
@@ -252,10 +252,10 @@
   "k": 0,
   "q": "Partial catalytic hydrogenation (H<sub>2</sub>, Ni) of a vegetable oil leaves some C=C bonds, and many of them are now <i>E</i> (trans) although every C=C in the oil was <i>Z</i>. What explains the isomerization?",
   "c": [
-   "Adding one H gives a surface-bound alkyl that can lose an H again, re-forming the C=C as the more stable <i>E</i> isomer",
-   "H<sub>2</sub> adds anti across the C=C, and the anti addition product eliminates to give the <i>E</i> alkene",
-   "The nickel catalyst oxidizes the C=C to an epoxide, which opens and closes to the <i>E</i> alkene",
-   "Heat alone rotates the C=C bond, because the π bond is weakened by the ester group"
+   "Adding one H gives a surface-bound alkyl that can lose H again, re-forming the C=C as the more stable <i>E</i> isomer",
+   "H<sub>2</sub> adds anti across the C=C, and the anti addition product then eliminates H<sub>2</sub> to give the <i>E</i> alkene",
+   "The nickel catalyst oxidizes the C=C to an epoxide, which opens and recloses to give the <i>E</i> alkene",
+   "Heat alone rotates the C=C bond, because the π bond is weakened by the nearby ester group"
   ],
   "h": "Hydrogenation on a metal surface adds the two H atoms one at a time, and the steps are reversible.",
   "w": "On the metal surface the alkene adds one H to give a half-hydrogenated alkyl. If the second H does not arrive, the step can reverse: β-hydrogen loss can remove an H from either neighboring carbon, and the C–C single bond can rotate first. The re-formed alkene can therefore be the more stable <b><i>E</i> isomer</b> or a positional isomer. This is the source of trans fats in partially hydrogenated oils.",
@@ -437,9 +437,9 @@
   ],
   "c": [
    "The ribose 2'-O<sup>−</sup> attacks the adjacent phosphorus intramolecularly, forming a 2',3'-cyclic phosphate and breaking the chain",
-   "RNA is single-stranded, so hydroxide reaches its phosphates; the DNA double helix blocks them",
-   "Uracil in RNA is a better leaving group than thymine, so the N-glycosidic bond breaks",
-   "Ribose is a pyranose in RNA, and its ring opens in base to give a reactive aldehyde"
+   "RNA is single-stranded, so hydroxide reaches its phosphates; the DNA double helix blocks them from attack",
+   "Uracil in RNA is a better leaving group than thymine, so the N-glycosidic bond breaks and the chain falls apart",
+   "Ribose is a pyranose in RNA, and its ring opens in base to give a reactive aldehyde that cleaves the chain"
   ],
   "h": "Compare the two sugars at C2. What nucleophile sits right next to the 3'-phosphodiester in RNA but not in DNA?",
   "w": "In RNA the 2'-OH is next to the 3'-phosphodiester. Base deprotonates it, and the 2'-alkoxide attacks phosphorus intramolecularly (a fast five-membered-ring cyclization), displacing the 5'-O of the next nucleotide. The 2',3'-cyclic phosphate then hydrolyzes to 2'- and 3'-phosphates. DNA lacks the <b>2'-OH</b>, so it has no internal nucleophile, and intermolecular attack of hydroxide on a phosphodiester anion is extremely slow.",

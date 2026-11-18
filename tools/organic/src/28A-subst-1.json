@@ -35,8 +35,8 @@
   "q": "The reaction of 1-bromopropane with NaCN in DMSO is an S<sub>N</sub>2 reaction. If [NaCN] is tripled and [1-bromopropane] is halved, what happens to the initial rate?",
   "c": [
    "It increases by a factor of 1.5",
-   "It triples",
-   "It decreases by half",
+   "It increases by a factor of 3",
+   "It decreases to half of the original rate",
    "It increases by a factor of 6"
   ],
   "h": "Write the rate law for an S<sub>N</sub>2 reaction, then multiply the factor for each concentration change.",
@@ -380,10 +380,10 @@
   "t": "subst",
   "q": "Which description of the S<sub>N</sub>2 transition state for CH<sub>3</sub>O<sup>−</sup> + CH<sub>3</sub>CH<sub>2</sub>Br is correct?",
   "c": [
-   "The central carbon is roughly trigonal bipyramidal, with O and Br partly bonded on opposite sides",
-   "The central carbon is a planar carbocation with Br<sup>−</sup> fully detached",
-   "O and Br are partly bonded on the same side of the carbon, 90° apart",
-   "The central carbon is tetrahedral with five full bonds"
+   "The carbon is roughly trigonal bipyramidal, with O and Br partly bonded on opposite sides",
+   "The central carbon is a planar carbocation, with Br<sup>−</sup> fully detached and CH<sub>3</sub>O<sup>−</sup> not yet bonded",
+   "O and Br are partly bonded on the same side of the central carbon, about 90° apart",
+   "The central carbon is tetrahedral, with five full bonds to its five groups"
   ],
   "h": "S<sub>N</sub>2 is concerted and goes with inversion. Where must the nucleophile be relative to the leaving group?",
   "w": "In the S<sub>N</sub>2 transition state the nucleophile enters from the back while the leaving group departs from the front: O···C···Br is nearly linear (180°), and the three other groups lie flat in a plane, like an umbrella turning inside out. <b>Trigonal bipyramidal, O and Br partly bonded on opposite sides</b>. This geometry is why S<sub>N</sub>2 inverts configuration.",
@@ -466,10 +466,10 @@
   "t": "subst",
   "q": "3-Chloro-3-methylbut-1-ene is dissolved in aqueous acetone. Which statement best describes the alcohol products of S<sub>N</sub>1 solvolysis?",
   "c": [
-   "Both 2-methylbut-3-en-2-ol and 3-methylbut-2-en-1-ol form, because water attacks either end of an allylic cation",
-   "Only 2-methylbut-3-en-2-ol forms, because water attacks the carbon that lost Cl<sup>−</sup>",
+   "Both 2-methylbut-3-en-2-ol and 3-methylbut-2-en-1-ol, from water attacking either end of the allylic cation",
+   "Only 2-methylbut-3-en-2-ol forms, because water attacks only the tertiary carbon that lost Cl<sup>−</sup>",
    "Only 3-methylbutan-2-ol forms, after a hydride shift",
-   "Only 3-methylbut-2-en-1-ol forms, by direct S<sub>N</sub>2 at the primary carbon"
+   "Only 3-methylbut-2-en-1-ol forms, by direct S<sub>N</sub>2 attack of water at the less hindered primary carbon atom"
   ],
   "h": "Draw the cation formed by ionization. Is the positive charge on one carbon only?",
   "w": "Loss of Cl<sup>−</sup> gives a cation that is both tertiary and allylic. Resonance spreads the positive charge over C3 (tertiary) and C1 (primary end of the old alkene). Water can attack either site, giving <b>2-methylbut-3-en-2-ol and 3-methylbut-2-en-1-ol</b>. The second product has a trisubstituted (more stable) C=C, so it is an important product even though attack occurs at a primary carbon.",

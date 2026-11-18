@@ -143,10 +143,10 @@
   "d": 2,
   "q": "Which pair, treated with NaOH, gives one major crossed aldol product rather than a mixture?",
   "c": [
-   "Benzaldehyde with propanal (propanal added slowly to the mixture)",
+   "Benzaldehyde with propanal (propanal added slowly)",
    "Ethanal with propanal (mixed in equal amounts)",
    "Propanal with butanal (mixed in equal amounts)",
-   "Benzaldehyde with 2,2-dimethylpropanal"
+   "Benzaldehyde with 2,2-dimethylpropanal (mixed in equal amounts)"
   ],
   "h": "A clean crossed aldol needs exactly one partner that can form an enolate, and the other partner must be a good electrophile.",
   "w": "A crossed aldol is selective when one partner cannot enolize. <b>Benzaldehyde has no α-H</b>, so it can act only as the electrophile; adding propanal slowly keeps its concentration low, so its enolate meets mostly benzaldehyde rather than another propanal. When both partners have α-H's, four aldol products are possible.",
@@ -248,9 +248,9 @@
    }
   ],
   "c": [
-   "E1cB: deprotonation at the α-carbon gives an enolate, which then expels hydroxide",
+   "E1cB: deprotonation at the α-carbon gives an enolate, which expels hydroxide",
    "E2: hydroxide removes the α-H while water leaves in the same step",
-   "E1: the OH leaves first to form a carbocation, which then loses the α-H",
+   "E1: the OH leaves first to form a carbocation, which then loses the α-H to form the C=C",
    "S<sub>N</sub>2: hydroxide displaces the OH group, and the product then isomerizes"
   ],
   "h": "Hydroxide is a poor leaving group. What stabilized intermediate can form before it leaves?",

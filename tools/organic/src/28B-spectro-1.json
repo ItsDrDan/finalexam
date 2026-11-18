@@ -637,7 +637,7 @@
    "The CH<sub>3</sub> singlet: near δ 3.9 in I but near δ 2.3 in II",
    "The molecular ion: m/z 136 for I but m/z 150 for II",
    "The <sup>13</sup>C signal count: 6 for I but 5 for II",
-   "The aromatic integration: 5H for I but 4H for II"
+   "The aromatic integration: 5H for I but 4H for II in the δ 7–8 region"
   ],
   "h": "Both are esters with a monosubstituted ring and one CH<sub>3</sub>. What is the CH<sub>3</sub> bonded to in each?",
   "w": "In methyl benzoate (I) the CH<sub>3</sub> is on the ester oxygen (O–CH<sub>3</sub>, δ ≈ 3.9). In phenyl acetate (II) the CH<sub>3</sub> is on the carbonyl carbon (CH<sub>3</sub>–C=O, δ ≈ 2.3). So <b>the CH<sub>3</sub> singlet position</b> tells them apart. (Their IR also differs: about 1725 cm<sup>−1</sup> for I, conjugated with the ring, and about 1765 cm<sup>−1</sup> for the aryl ester II.)",
@@ -696,10 +696,10 @@
    "?"
   ],
   "c": [
-   "The 1685 cm<sup>−1</sup> band disappears and a broad 3350 cm<sup>−1</sup> band appears; the δ 2.60 CH<sub>3</sub> singlet becomes a doublet near δ 1.5, coupled to a new 1H quartet near δ 4.9",
+   "The 1685 cm<sup>−1</sup> band vanishes and a broad 3350 cm<sup>−1</sup> band appears; the CH<sub>3</sub> singlet (δ 2.60) becomes a δ 1.5 doublet, coupled to a new 1H quartet at δ 4.9",
    "The C=O band moves from 1685 to about 1715 cm<sup>−1</sup> because conjugation with the ring is lost; the δ 2.60 CH<sub>3</sub> singlet is unchanged",
-   "The δ 2.60 CH<sub>3</sub> singlet moves to δ 1.5 and stays a singlet, and a new 1H singlet appears near δ 4.9",
-   "A very broad band from 3300 to 2500 cm<sup>−1</sup> appears, and a new exchangeable 1H singlet appears near δ 12"
+   "The δ 2.60 CH<sub>3</sub> singlet moves to δ 1.5 and stays a singlet, and a new 1H singlet appears near δ 4.9 for the CH–O proton",
+   "A very broad band from 3300 to 2500 cm<sup>−1</sup> appears, and a new exchangeable 1H singlet appears near δ 12, as for a COOH group"
   ],
   "h": "NaBH<sub>4</sub> reduces a ketone to a secondary alcohol. What is the new carbon bonded to, and what does the CH<sub>3</sub> now neighbor?",
   "w": "NaBH<sub>4</sub> gives 1-phenylethanol, PhCH(OH)CH<sub>3</sub>. The C=O band is gone and an O–H band appears near 3350 cm<sup>−1</sup>. The CH<sub>3</sub> now sits next to a CH (n + 1 = 2, a doublet near δ 1.5), and that CH (next to 3 H, a quartet) is at δ 4.9 because it carries O and Ph. So <b>the C=O is replaced by O–H, and the CH<sub>3</sub> singlet becomes a doublet coupled to a new 1H quartet</b>.",

@@ -25,10 +25,10 @@
   "d": 1,
   "q": "Benzene does not react with Br<sub>2</sub> alone, but it is brominated quickly when FeBr<sub>3</sub> is added. What does FeBr<sub>3</sub> do?",
   "c": [
-   "It is a Lewis acid that accepts electron density from Br<sub>2</sub>, polarizing the Br–Br bond so the terminal Br becomes strongly electrophilic",
+   "It is a Lewis acid that binds Br<sub>2</sub> and polarizes the Br–Br bond, so the terminal Br becomes strongly electrophilic",
    "It is a Brønsted base that removes the ring proton first, giving a phenyl anion that then attacks Br<sub>2</sub>",
    "It is a radical initiator that splits Br<sub>2</sub> into two Br· atoms, which add to the ring by a chain mechanism",
-   "It is a reducing agent that converts Br<sub>2</sub> into Br<sup>−</sup>, which then acts as the nucleophile that attacks the ring"
+   "It is a reducing agent that converts Br<sub>2</sub> into Br<sup>−</sup>, which then acts as the nucleophile that attacks the benzene ring"
   ],
   "h": "Iron(III) has an empty orbital. Which atom of Br<sub>2</sub> can donate a lone pair to it?",
   "w": "FeBr<sub>3</sub> is a <b>Lewis acid</b>: a lone pair on one Br of Br<sub>2</sub> coordinates to Fe, giving Br–Br<sup>+</sup>–FeBr<sub>3</sub><sup>−</sup>. The outer Br now behaves like Br<sup>+</sup>, and the ring's π electrons attack it to form the arenium ion while FeBr<sub>4</sub><sup>−</sup> leaves. FeBr<sub>4</sub><sup>−</sup> later removes the ring proton, regenerating FeBr<sub>3</sub> and releasing HBr.",
@@ -73,8 +73,8 @@
   ],
   "c": [
    "B is the arenium ion (σ complex); the step through A, which breaks the aromatic π system, is rate-determining",
-   "B is the arenium ion (σ complex); the step through C, loss of H<sup>+</sup>, is rate-determining",
-   "A is the arenium ion; it is the highest-energy point, so it is the rate-determining intermediate",
+   "B is the arenium ion (σ complex); the step through C, loss of H<sup>+</sup> to restore aromaticity, is rate-determining",
+   "A is the arenium ion; it is the highest-energy point, so it is the rate-determining intermediate of the reaction",
    "B is a cyclohexadienyl radical; the step through A, homolysis of Br–Br, is rate-determining"
   ],
   "h": "Intermediates sit in valleys, transition states on peaks. Which step costs the ring its aromaticity?",
@@ -93,10 +93,10 @@
   "d": 2,
   "q": "Which statement about aromatic sulfonation with fuming sulfuric acid (SO<sub>3</sub> in H<sub>2</sub>SO<sub>4</sub>) is correct?",
   "c": [
-   "It is reversible: heating the arenesulfonic acid in dilute aqueous acid removes the SO<sub>3</sub>H group",
-   "It needs FeBr<sub>3</sub> or AlCl<sub>3</sub> to turn SO<sub>3</sub> into an electrophile",
-   "The SO<sub>3</sub>H group it installs is an ortho/para-directing activator",
-   "The electrophile is HSO<sub>4</sub><sup>−</sup>, formed when SO<sub>3</sub> dissolves in H<sub>2</sub>SO<sub>4</sub>"
+   "It is reversible: heating the sulfonic acid in dilute aqueous acid removes the SO<sub>3</sub>H group",
+   "It needs FeBr<sub>3</sub> or AlCl<sub>3</sub> as a Lewis acid to turn SO<sub>3</sub> into a strong electrophile",
+   "The SO<sub>3</sub>H group it installs is an ortho/para-directing activator, like an OH or OCH<sub>3</sub> group",
+   "The electrophile is HSO<sub>4</sub><sup>−</sup>, formed when SO<sub>3</sub> dissolves in the concentrated H<sub>2</sub>SO<sub>4</sub>"
   ],
   "h": "Think about what large amounts of water do to the position of the sulfonation equilibrium.",
   "w": "SO<sub>3</sub> (or its protonated form HSO<sub>3</sub><sup>+</sup>) is the electrophile: sulfur is strongly δ+ between three oxygens, so no metal Lewis acid is needed. Every step of sulfonation is reversible: in concentrated acid with excess SO<sub>3</sub> the sulfonic acid forms, but <b>heating in dilute aqueous acid (steam) drives desulfonation</b>. This reversibility is why SO<sub>3</sub>H works as a removable blocking group in synthesis.",
@@ -262,9 +262,9 @@
   "d": 2,
   "q": "Chlorobenzene reacts more slowly than benzene in EAS, yet it gives mostly ortho and para products. Which explanation is correct?",
   "c": [
-   "Inductive withdrawal by Cl slows attack at every position, but Cl lone-pair donation stabilizes the σ complexes from ortho and para attack, which have a form with the cation on the carbon bearing Cl",
+   "Cl’s inductive pull slows attack everywhere, but its lone pairs stabilize the ortho and para σ complexes, which can put the + charge on the C bearing Cl",
    "Cl donates electrons by induction but withdraws them by resonance, so it slows meta attack more than ortho and para attack",
-   "Cl deactivates only the meta positions; the ortho and para positions are activated relative to benzene",
+   "Cl deactivates only the meta positions; the ortho and para positions are activated relative to benzene by its lone pairs",
    "Cl lone pairs make every ring position more electron-rich than in benzene, but the large Cl atom sterically blocks the meta positions"
   ],
   "h": "Two effects act at once. One sets the overall rate; the other decides which σ complex is least bad.",
@@ -435,7 +435,7 @@
   "d": 3,
   "q": "Nitration of aniline in concentrated HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub> gives a large amount of <i>m</i>-nitroaniline, even though NH<sub>2</sub> is an ortho/para director. What is the best explanation?",
   "c": [
-   "In strong acid aniline is mostly protonated to anilinium (C<sub>6</sub>H<sub>5</sub>NH<sub>3</sub><sup>+</sup>), whose NH<sub>3</sub><sup>+</sup> group has no lone pair and directs meta",
+   "In strong acid aniline is mostly protonated to anilinium, whose NH<sub>3</sub><sup>+</sup> group has no lone pair and directs meta",
    "NO<sub>2</sub><sup>+</sup> first attacks the nitrogen, and the N-nitro group then migrates to the nearest free meta carbon",
    "The NH<sub>2</sub> group is so bulky in acid that both ortho and para positions are sterically blocked",
    "Sulfuric acid sulfonates the para position first, and the nitro group then enters the only free meta position"

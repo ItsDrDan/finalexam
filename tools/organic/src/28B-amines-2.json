@@ -118,10 +118,10 @@
   "d": 1,
   "q": "Treating ammonia with one equivalent of bromoethane gives a mixture of ethylamine, diethylamine, triethylamine and tetraethylammonium bromide. Why?",
   "c": [
-   "Each alkylation product is at least as nucleophilic as the amine it came from, so it competes for the remaining bromoethane",
-   "Ammonia is too weak a nucleophile to react with bromoethane, so only the amine products react",
-   "Bromoethane reacts by S<sub>N</sub>1, and the ethyl carbocation is captured by every amine present at equal rates",
-   "Ethylamine is a weaker base than ammonia, so it is deprotonated faster and alkylated again"
+   "Each alkylation product is at least as nucleophilic as the amine it came from, so it competes for the bromoethane",
+   "Ammonia is too weak a nucleophile to react with bromoethane, so only the amine products react with it",
+   "Bromoethane reacts by S<sub>N</sub>1, and the ethyl carbocation is captured by every amine present at equal rates, giving all four",
+   "Ethylamine is a weaker base than ammonia, so its salt is deprotonated faster and it is alkylated again"
   ],
   "h": "Compare the nucleophilicity of NH<sub>3</sub> with that of CH<sub>3</sub>CH<sub>2</sub>NH<sub>2</sub>.",
   "w": "Alkyl groups donate electron density, so ethylamine is a better nucleophile than ammonia, and diethylamine is comparable or better still. As soon as some ethylamine forms, it competes with NH<sub>3</sub> for bromoethane, and the process continues to the quaternary salt. That is why <b>each product competes for the alkyl halide</b>, and why indirect routes (Gabriel, azide reduction, reductive amination) are used to make primary amines cleanly.",
@@ -166,10 +166,10 @@
   "d": 2,
   "q": "In the reductive amination shown, why is NaBH<sub>3</sub>CN used instead of NaBH<sub>4</sub>?",
   "c": [
-   "At pH about 6, NaBH<sub>3</sub>CN reduces the protonated iminium ion much faster than the ketone, so the ketone survives long enough to condense with the amine",
-   "NaBH<sub>3</sub>CN is a stronger hydride donor than NaBH<sub>4</sub>, so it can reduce the C=N bond, which NaBH<sub>4</sub> cannot touch",
-   "NaBH<sub>3</sub>CN supplies the nitrogen atom of the product through its cyanide ligand",
-   "NaBH<sub>4</sub> would reduce the N–H bond of methylamine to give H<sub>2</sub>, so no amine product could form"
+   "Near pH 6, NaBH<sub>3</sub>CN reduces iminium ions far faster than ketones, so the ketone survives to form the imine",
+   "NaBH<sub>3</sub>CN is a stronger hydride donor than NaBH<sub>4</sub>, so it can reduce the C=N bond, which NaBH<sub>4</sub> cannot touch at all",
+   "NaBH<sub>3</sub>CN supplies the nitrogen atom of the product through its cyanide ligand, which is reduced to an amine",
+   "NaBH<sub>4</sub> would reduce the N–H bond of methylamine to give H<sub>2</sub> gas, so no amine product could form"
   ],
   "h": "The electron-withdrawing CN makes this borohydride milder. Which electrophile in the flask is the most reactive?",
   "w": "The cyano group withdraws electron density from boron, making NaBH<sub>3</sub>CN a weaker, more selective hydride donor that is stable at mildly acidic pH. Under those conditions the iminium ion (C=N<sup>+</sup>) formed from cyclohexanone and methylamine is far more electrophilic than the neutral ketone, so <b>the iminium ion is reduced selectively</b> to N-methylcyclohexanamine. NaBH<sub>4</sub> would reduce much of the ketone to cyclohexanol before the imine formed.",
@@ -346,10 +346,10 @@
   "d": 1,
   "q": "When an amide is made from an acid chloride and an amine, two equivalents of the amine (or one equivalent plus pyridine) are used. Why?",
   "c": [
-   "The HCl formed would protonate the amine to a non-nucleophilic ammonium salt, so a second base must take it up",
-   "The first equivalent of amine adds to the C=O and the second displaces chloride",
-   "Two amine molecules are incorporated into each amide product",
-   "The excess amine reduces the acid chloride to an aldehyde, which then reacts"
+   "The HCl formed would protonate the amine to a non-nucleophilic ammonium salt, so a second base takes it up",
+   "The first equivalent of amine adds to the C=O and the second displaces chloride from the intermediate",
+   "Two amine molecules are incorporated into each amide product, one on each side of the C=O",
+   "The excess amine reduces the acid chloride to an aldehyde, which then reacts with more amine"
   ],
   "h": "Write the by-product of the substitution and ask what it does to the remaining amine.",
   "w": "RCOCl + R′NH<sub>2</sub> → RCONHR′ + HCl. The HCl immediately protonates any free amine, and an ammonium ion has no lone pair, so it cannot attack the acid chloride. A second equivalent of the amine, or a cheaper base such as pyridine or Et<sub>3</sub>N, <b>neutralizes the HCl</b> so all of the valuable amine can react.",
@@ -479,8 +479,8 @@
   "c": [
    "The bulky –N(CH<sub>3</sub>)<sub>3</sub><sup>+</sup> group hinders removal of an internal β-H, and the carbanion-like E2 transition state favors the CH<sub>3</sub> hydrogens",
    "Hydroxide is a bulky base, so it can reach only the hydrogens on the terminal CH<sub>3</sub> group of the butyl chain",
-   "The reaction goes through a carbocation (E1), and the less substituted alkene forms faster from that carbocation",
-   "But-1-ene is more stable than but-2-ene, so it accumulates as the thermodynamic product of the elimination"
+   "The reaction goes through a carbocation (E1), and the less substituted alkene forms faster from that carbocation by loss of H<sup>+</sup>",
+   "But-1-ene is more stable than but-2-ene, so it accumulates as the thermodynamic product of the elimination on heating"
   ],
   "h": "The base here is small. What is unusual about this substrate compared with 2-bromobutane?",
   "w": "The base (OH<sup>−</sup>) is small, so the selectivity comes from the leaving group. The large, positively charged –N(CH<sub>3</sub>)<sub>3</sub><sup>+</sup> group is a poor leaving group, so C–H breaking runs ahead of C–N breaking (a carbanion-like E2 transition state that favors the more acidic primary hydrogens), and its size makes the anti-periplanar conformations for removing an internal C3 hydrogen crowded. Both effects favor <b>removal of a CH<sub>3</sub> hydrogen</b>, giving but-1-ene (Hofmann product).",

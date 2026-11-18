@@ -124,10 +124,10 @@
   "d": 2,
   "q": "Aniline gives no Friedel–Crafts alkylation or acylation product with AlCl<sub>3</sub>, even though NH<sub>2</sub> is a strong activator. Why?",
   "c": [
-   "The basic nitrogen donates its lone pair to AlCl<sub>3</sub>, and the resulting –NH<sub>2</sub><sup>+</sup>–AlCl<sub>3</sub><sup>−</sup> group strongly deactivates the ring",
+   "The nitrogen lone pair binds AlCl<sub>3</sub>, and the resulting –NH<sub>2</sub><sup>+</sup>–AlCl<sub>3</sub><sup>−</sup> group strongly deactivates the ring",
    "The NH<sub>2</sub> group is too bulky for the electrophile to reach the ortho and para positions",
    "Aniline is so reactive that the electrophile adds to every carbon and only polymer forms",
-   "AlCl<sub>3</sub> oxidizes the amino group to a nitro group, which then blocks the reaction"
+   "AlCl<sub>3</sub> oxidizes the amino group to a nitro group, which then blocks the ring from reacting with the electrophile"
   ],
   "h": "An amine is a Lewis base and AlCl<sub>3</sub> is a Lewis acid. What forms first?",
   "w": "The amino nitrogen is a better Lewis base than the ring π system, so it coordinates to AlCl<sub>3</sub>. The resulting <b>Lewis acid–base complex puts a formal positive charge on nitrogen</b> and removes its lone pair from resonance, turning the strong activator into a strong deactivator, and it also consumes the catalyst. The same problem stops Friedel–Crafts reactions of alkylamino- and other basic amino-substituted rings.",
@@ -145,10 +145,10 @@
   "d": 2,
   "q": "Friedel–Crafts alkylation of benzene often gives di- and trialkylated products, but Friedel–Crafts acylation stops cleanly after one substitution. Why?",
   "c": [
-   "An alkyl group activates the ring, so the product reacts faster than benzene; an acyl group deactivates the ring, so the product reacts more slowly",
+   "An alkyl group activates the ring, so the product reacts faster than benzene; an acyl group deactivates it, so it reacts slower",
    "Acylium ions are too bulky to approach a ring that already has a substituent, while carbocations are small",
    "AlCl<sub>3</sub> is consumed in alkylation but regenerated in acylation, so acylation runs out of electrophile",
-   "An acyl group activates the ring but blocks the ortho and para positions sterically, so no further substitution is possible"
+   "An acyl group activates the ring but blocks the ortho and para positions sterically, so no further substitution is possible on the ring"
   ],
   "h": "Compare how an alkyl group and a C=O group change the electron density of the product ring.",
   "w": "The alkylbenzene product carries an <b>electron-donating alkyl group</b>, so it is more reactive than the starting benzene and competes for the electrophile: polyalkylation. The aryl ketone product carries an <b>electron-withdrawing C=O</b>, so it is less reactive than the starting material, and acylation stops after one group. (In acylation the ketone also ties up a full equivalent of AlCl<sub>3</sub>.)",
@@ -211,7 +211,7 @@
    }
   ],
   "c": [
-   "H<sub>2</sub>NNH<sub>2</sub>, KOH, ethylene glycol, heat",
+   "H<sub>2</sub>NNH<sub>2</sub>, KOH, heat",
    "Zn(Hg), HCl, heat",
    "NaBH<sub>4</sub>, CH<sub>3</sub>OH",
    "1. LiAlH<sub>4</sub>  2. H<sub>3</sub>O<sup>+</sup>"
@@ -278,7 +278,7 @@
    "1. CH<sub>3</sub>Cl, AlCl<sub>3</sub>  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> (separate the para isomer)  3. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>",
    "1. CH<sub>3</sub>Cl, AlCl<sub>3</sub>  2. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>  3. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>",
    "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. CH<sub>3</sub>Cl, AlCl<sub>3</sub>  3. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>",
-   "1. CH<sub>3</sub>COCl, AlCl<sub>3</sub>  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  3. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>"
+   "1. CH<sub>3</sub>COCl, AlCl<sub>3</sub>  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> (separate the para isomer)  3. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>"
   ],
   "h": "CO<sub>2</sub>H is a meta director, but the target is para. Which precursor of CO<sub>2</sub>H directs ortho/para?",
   "w": "A para relationship needs the nitration to happen while the carbon substituent is still an <b>ortho/para director</b>. Install CH<sub>3</sub> (Friedel–Crafts), nitrate (para isomer separated from ortho), and only then oxidize the benzylic CH<sub>3</sub> to CO<sub>2</sub>H with hot KMnO<sub>4</sub>.",

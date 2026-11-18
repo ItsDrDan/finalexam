@@ -1,0 +1,1486 @@
+[
+ {
+  "id": "28B-15",
+  "field": "c[0]",
+  "old": "Use a large excess of 1-butanol and remove water as it forms",
+  "new": "Use excess 1-butanol and remove water as it forms",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-15",
+  "field": "c[1]",
+  "old": "Add water so the acid dissolves completely",
+  "new": "Add water so the acetic acid dissolves completely in the mixture",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-15",
+  "field": "c[2]",
+  "old": "Replace H<sub>2</sub>SO<sub>4</sub> with NaOH as the catalyst",
+  "new": "Replace H<sub>2</sub>SO<sub>4</sub> with NaOH as the catalyst so the acid reacts faster",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-15",
+  "field": "c[3]",
+  "old": "Double the amount of H<sub>2</sub>SO<sub>4</sub> catalyst",
+  "new": "Double the amount of H<sub>2</sub>SO<sub>4</sub> catalyst to speed up the reaction",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-18",
+  "field": "c[0]",
+  "old": "The carboxylic acid formed is deprotonated by base, and the carboxylate cannot be attacked by the alkoxide",
+  "new": "The acid formed is deprotonated by base, and the carboxylate cannot be attacked by alkoxide",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-18",
+  "field": "c[1]",
+  "old": "Hydroxide is a better leaving group than alkoxide, so the reverse step cannot occur",
+  "new": "Hydroxide is a better leaving group than alkoxide, so the reverse step cannot occur at all",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-18",
+  "field": "c[2]",
+  "old": "The alkoxide leaving group is protonated by water and evaporates from the mixture",
+  "new": "The alkoxide leaving group is protonated by water and evaporates from the hot mixture as an alcohol",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-18",
+  "field": "c[3]",
+  "old": "Hydroxide forms a more stable tetrahedral intermediate than water does",
+  "new": "Hydroxide forms a more stable tetrahedral intermediate than water does, so the forward step is irreversible",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-21",
+  "field": "c[0]",
+  "old": "The second equivalent neutralizes HCl; otherwise HCl would protonate the amine and make it non-nucleophilic",
+  "new": "The second equivalent neutralizes HCl, which would otherwise protonate the amine and stop it reacting",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-21",
+  "field": "c[1]",
+  "old": "The first equivalent attacks and the second is needed to break the C–Cl bond",
+  "new": "The first equivalent attacks the carbonyl, and the second is needed to break the C–Cl bond in the intermediate",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-21",
+  "field": "c[2]",
+  "old": "Two amines must add to form the tetrahedral intermediate",
+  "new": "Two amine molecules must add to the C=O to form the tetrahedral intermediate",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-21",
+  "field": "c[3]",
+  "old": "The second equivalent reduces the acid chloride to an aldehyde",
+  "new": "The second equivalent reduces the acid chloride to benzaldehyde before the amide forms",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-27",
+  "field": "c[0]",
+  "old": "methylammonium benzoate, an acid–base salt",
+  "new": "methylammonium benzoate",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-32",
+  "field": "c[0]",
+  "old": "The aluminum-bound tetrahedral intermediate survives at −78 °C and gives the aldehyde only at workup",
+  "new": "The Al-bound tetrahedral intermediate survives at −78 °C and gives the aldehyde only at workup",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-32",
+  "field": "c[1]",
+  "old": "At −78 °C DIBAL-H attacks only the ester oxygen, not the carbonyl carbon",
+  "new": "At −78 °C DIBAL-H attacks only the ester oxygen, not the carbonyl carbon, so it cleaves the C–O bond",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-32",
+  "field": "c[2]",
+  "old": "At higher temperature DIBAL-H reduces the ester all the way to an alkane",
+  "new": "At higher temperature DIBAL-H reduces the ester all the way to an alkane, removing both oxygens",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-32",
+  "field": "c[3]",
+  "old": "At −78 °C the aldehyde product freezes out of solution as it forms",
+  "new": "At −78 °C the aldehyde product freezes out of solution as it forms, so it is protected",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-48",
+  "field": "c[0]",
+  "old": "The nitrile adduct is an anionic imine salt that cannot react with a second Grignard; the ketone forms only during workup",
+  "new": "The nitrile adds once to give an imine anion salt, which does not react again; the ketone forms only at workup",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-48",
+  "field": "c[1]",
+  "old": "Nitriles are more reactive than ketones, so the Grignard is used up before the ketone forms",
+  "new": "Nitriles are more reactive than ketones, so the Grignard is used up by the nitrile before any of the ketone forms",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-48",
+  "field": "c[3]",
+  "old": "Nitrogen is a better leaving group than oxygen, so the C=N bond is never formed",
+  "new": "Nitrogen is a better leaving group than oxygen, so the C=N bond is never formed in the intermediate",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-82",
+  "field": "c[1]",
+  "old": "C<sub>6</sub>H<sub>5</sub>MgBr + acetaldehyde",
+  "new": "C<sub>6</sub>H<sub>5</sub>MgBr + acetaldehyde (ethanal)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-82",
+  "field": "c[2]",
+  "old": "C<sub>6</sub>H<sub>5</sub>MgBr + formaldehyde",
+  "new": "C<sub>6</sub>H<sub>5</sub>MgBr + formaldehyde (methanal)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-82",
+  "field": "c[3]",
+  "old": "CH<sub>3</sub>MgBr + benzaldehyde",
+  "new": "CH<sub>3</sub>MgBr + benzaldehyde (C<sub>6</sub>H<sub>5</sub>CHO)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-87",
+  "field": "c[1]",
+  "old": "Ethanol",
+  "new": "Ethanol (EtOH)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-87",
+  "field": "c[2]",
+  "old": "Acetone",
+  "new": "Acetone (propanone)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-87",
+  "field": "c[3]",
+  "old": "Ethyl acetate",
+  "new": "Ethyl acetate (EtOAc)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-94",
+  "field": "c[0]",
+  "old": "Hydroxide is a strong base and a poor leaving group; tosylate is a weak, resonance-stabilized base and leaves easily",
+  "new": "Hydroxide is a strong base and poor leaving group; tosylate is a weak, resonance-stabilized base that leaves easily",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-94",
+  "field": "c[1]",
+  "old": "The tosyl group makes the carbon less hindered, so the nucleophile can reach it",
+  "new": "The tosyl group makes the carbon less hindered, so the nucleophile can reach it from the back side",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-94",
+  "field": "c[2]",
+  "old": "Tosylation converts the alcohol into a carbocation, which the nucleophile then traps",
+  "new": "Tosylation converts the alcohol into a carbocation, which the nucleophile then traps in a fast second step of the reaction",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-94",
+  "field": "c[3]",
+  "old": "The tosylate makes the nucleophile stronger by deprotonating it",
+  "new": "The tosylate makes the nucleophile stronger by deprotonating it before it attacks the carbon",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-101",
+  "field": "c[0]",
+  "old": "Without water, the aldehyde cannot form the hydrate (gem-diol), the species that Cr(VI) oxidizes further",
+  "new": "Without water the aldehyde cannot form its hydrate, the form that Cr(VI) oxidizes to the acid",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-101",
+  "field": "c[1]",
+  "old": "PCC is too weak to oxidize any C–H bond on a carbon bearing oxygen",
+  "new": "PCC is too weak to oxidize any C–H bond on a carbon that already bears an oxygen atom",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-101",
+  "field": "c[2]",
+  "old": "The pyridinium ion reduces the carboxylic acid back to the aldehyde as it forms",
+  "new": "The pyridinium ion reduces the carboxylic acid back to the aldehyde as fast as the acid forms",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-101",
+  "field": "c[3]",
+  "old": "In CH<sub>2</sub>Cl<sub>2</sub> the aldehyde evaporates before it can be oxidized",
+  "new": "In CH<sub>2</sub>Cl<sub>2</sub> the aldehyde evaporates from the flask before it can be oxidized any further",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-131",
+  "field": "c[0]",
+  "old": "Pyrrole's N lone pair is one of the six π electrons of its aromatic ring, so protonating it destroys aromaticity; pyridine's lone pair lies in the ring plane and is not part of the π system",
+  "new": "Pyrrole’s N lone pair is part of its aromatic sextet, so protonating N destroys aromaticity; pyridine’s lone pair is in the ring plane, outside the π system",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-131",
+  "field": "c[2]",
+  "old": "Pyridine's nitrogen bears a partial negative charge from resonance with the ring, while pyrrole's nitrogen bears a partial positive charge from induction",
+  "new": "Pyridine’s nitrogen bears a partial negative charge from resonance with the ring, while pyrrole’s nitrogen bears a partial positive charge from induction alone",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-131",
+  "field": "c[3]",
+  "old": "Pyrrole is antiaromatic, and protonation at nitrogen would relieve the antiaromaticity only partly",
+  "new": "Pyrrole is antiaromatic with 4 π electrons, and protonation at nitrogen would relieve the antiaromaticity only partly",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-132",
+  "field": "c[0]",
+  "old": "It is protonated on oxygen, because the resulting cation is stabilized by resonance with the N lone pair, which is delocalized into the C=O",
+  "new": "It is protonated on O, giving a cation stabilized by resonance with the N lone pair, which is delocalized into the C=O",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-132",
+  "field": "c[1]",
+  "old": "It is protonated on nitrogen, but the N–H<sup>+</sup> bond is weak because nitrogen in an amide is sp hybridized",
+  "new": "It is protonated on nitrogen, but the N–H<sup>+</sup> bond is weak because nitrogen in an amide is sp hybridized, not sp<sup>3</sup>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-132",
+  "field": "c[3]",
+  "old": "It cannot be protonated at all, because an amide has no lone pairs left after resonance",
+  "new": "It cannot be protonated at all, because an amide has no lone pairs left after resonance with the C=O",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-138",
+  "field": "c[0]",
+  "old": "Each alkylation product is at least as nucleophilic as the amine it came from, so it competes for the remaining bromoethane",
+  "new": "Each alkylation product is at least as nucleophilic as the amine it came from, so it competes for the bromoethane",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-138",
+  "field": "c[1]",
+  "old": "Ammonia is too weak a nucleophile to react with bromoethane, so only the amine products react",
+  "new": "Ammonia is too weak a nucleophile to react with bromoethane, so only the amine products react with it",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-138",
+  "field": "c[2]",
+  "old": "Bromoethane reacts by S<sub>N</sub>1, and the ethyl carbocation is captured by every amine present at equal rates",
+  "new": "Bromoethane reacts by S<sub>N</sub>1, and the ethyl carbocation is captured by every amine present at equal rates, giving all four",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-138",
+  "field": "c[3]",
+  "old": "Ethylamine is a weaker base than ammonia, so it is deprotonated faster and alkylated again",
+  "new": "Ethylamine is a weaker base than ammonia, so its salt is deprotonated faster and it is alkylated again",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-140",
+  "field": "c[0]",
+  "old": "At pH about 6, NaBH<sub>3</sub>CN reduces the protonated iminium ion much faster than the ketone, so the ketone survives long enough to condense with the amine",
+  "new": "Near pH 6, NaBH<sub>3</sub>CN reduces iminium ions far faster than ketones, so the ketone survives to form the imine",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-140",
+  "field": "c[1]",
+  "old": "NaBH<sub>3</sub>CN is a stronger hydride donor than NaBH<sub>4</sub>, so it can reduce the C=N bond, which NaBH<sub>4</sub> cannot touch",
+  "new": "NaBH<sub>3</sub>CN is a stronger hydride donor than NaBH<sub>4</sub>, so it can reduce the C=N bond, which NaBH<sub>4</sub> cannot touch at all",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-140",
+  "field": "c[2]",
+  "old": "NaBH<sub>3</sub>CN supplies the nitrogen atom of the product through its cyanide ligand",
+  "new": "NaBH<sub>3</sub>CN supplies the nitrogen atom of the product through its cyanide ligand, which is reduced to an amine",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-140",
+  "field": "c[3]",
+  "old": "NaBH<sub>4</sub> would reduce the N–H bond of methylamine to give H<sub>2</sub>, so no amine product could form",
+  "new": "NaBH<sub>4</sub> would reduce the N–H bond of methylamine to give H<sub>2</sub> gas, so no amine product could form",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-146",
+  "field": "c[0]",
+  "old": "The HCl formed would protonate the amine to a non-nucleophilic ammonium salt, so a second base must take it up",
+  "new": "The HCl formed would protonate the amine to a non-nucleophilic ammonium salt, so a second base takes it up",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-146",
+  "field": "c[1]",
+  "old": "The first equivalent of amine adds to the C=O and the second displaces chloride",
+  "new": "The first equivalent of amine adds to the C=O and the second displaces chloride from the intermediate",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-146",
+  "field": "c[2]",
+  "old": "Two amine molecules are incorporated into each amide product",
+  "new": "Two amine molecules are incorporated into each amide product, one on each side of the C=O",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-146",
+  "field": "c[3]",
+  "old": "The excess amine reduces the acid chloride to an aldehyde, which then reacts",
+  "new": "The excess amine reduces the acid chloride to an aldehyde, which then reacts with more amine",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-149",
+  "field": "c[2]",
+  "old": "The reaction goes through a carbocation (E1), and the less substituted alkene forms faster from that carbocation",
+  "new": "The reaction goes through a carbocation (E1), and the less substituted alkene forms faster from that carbocation by loss of H<sup>+</sup>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-149",
+  "field": "c[3]",
+  "old": "But-1-ene is more stable than but-2-ene, so it accumulates as the thermodynamic product of the elimination",
+  "new": "But-1-ene is more stable than but-2-ene, so it accumulates as the thermodynamic product of the elimination on heating",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-162",
+  "field": "c[0]",
+  "old": "N <i>b</i>; the lone pair on N <i>a</i> donates into the ring by resonance and delocalizes the positive charge of the cation onto N <i>a</i>",
+  "new": "N <i>b</i>; the N <i>a</i> lone pair donates into the ring by resonance, spreading the cation’s positive charge onto N <i>a</i>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-162",
+  "field": "c[1]",
+  "old": "N <i>a</i>; it is a 3° alkylamine nitrogen with an undelocalized sp<sup>3</sup> lone pair",
+  "new": "N <i>a</i>; it is a 3° alkylamine nitrogen with an undelocalized sp<sup>3</sup> lone pair, like trimethylamine",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-162",
+  "field": "c[2]",
+  "old": "N <i>a</i>; the pyridine ring withdraws electrons from N <i>b</i>, leaving N <i>a</i> as the only basic site",
+  "new": "N <i>a</i>; the pyridine ring withdraws electrons from N <i>b</i>, leaving N <i>a</i> as the only basic site in the molecule",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-162",
+  "field": "c[3]",
+  "old": "N <i>b</i>; the dimethylamino group withdraws electron density inductively, which stabilizes the cation",
+  "new": "N <i>b</i>; the dimethylamino group withdraws electron density inductively, which stabilizes the cation formed at N <i>b</i>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-166",
+  "field": "c[0]",
+  "old": "Nonaromatic: it adopts a nonplanar tub shape, so the p orbitals do not overlap all the way around the ring",
+  "new": "Nonaromatic: its tub shape keeps the p orbitals from overlapping all the way around the ring",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-166",
+  "field": "c[1]",
+  "old": "Antiaromatic: it is planar and cyclic with 8 π electrons, a 4n count",
+  "new": "Antiaromatic: it is planar and cyclic with 8 π electrons, a 4n count, so it is strongly destabilized",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-166",
+  "field": "c[2]",
+  "old": "Aromatic: it is cyclic and fully conjugated with 8 π electrons",
+  "new": "Aromatic: it is cyclic, planar and fully conjugated with 8 π electrons in the ring",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-170",
+  "field": "c[0]",
+  "old": "Its 6 π electrons fill the three bonding MOs completely and leave the two antibonding MOs empty",
+  "new": "Its 6 π electrons fill the three bonding MOs, leaving the two antibonding MOs empty",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-170",
+  "field": "c[3]",
+  "old": "Its 6 π electrons fill one bonding MO and two nonbonding MOs",
+  "new": "Its 6 π electrons fill one bonding MO and two nonbonding MOs of equal energy",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-172",
+  "field": "c[0]",
+  "old": "The negative end is at the five-membered ring, because a dipolar contributor with a cyclopentadienyl-anion ring fused to a tropylium-cation ring has two 6π aromatic rings",
+  "new": "The negative end is at the five-membered ring: a dipolar form with a cyclopentadienyl anion fused to a tropylium cation has two aromatic 6π rings",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-172",
+  "field": "c[1]",
+  "old": "The negative end is at the seven-membered ring, because the larger ring holds more of the 10 π electrons",
+  "new": "The negative end is at the seven-membered ring, because the larger ring holds more of the 10 π electrons and more of the charge",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-172",
+  "field": "c[2]",
+  "old": "The negative end is at the five-membered ring, because the five-membered ring is antiaromatic and withdraws electrons",
+  "new": "The negative end is at the five-membered ring, because the five-membered ring is antiaromatic and withdraws electrons from the seven-membered ring",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-172",
+  "field": "c[3]",
+  "old": "There is no permanent dipole; the color comes from its 10 π electrons alone",
+  "new": "There is no permanent dipole; the blue color comes from its extended system of 10 π electrons alone",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-179",
+  "field": "c[0]",
+  "old": "Six fill the three bonding MOs, and the last two occupy the two degenerate nonbonding MOs singly with parallel spins",
+  "new": "Six fill the bonding MOs, and the last two singly occupy the two degenerate nonbonding MOs",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-179",
+  "field": "c[2]",
+  "old": "Eight fill four bonding MOs, giving a closed shell like benzene",
+  "new": "Eight fill four bonding MOs, giving a closed shell like benzene with no unpaired electrons",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-181",
+  "field": "c[0]",
+  "old": "Aromatic with 6 π electrons; the new N–H bond uses the in-plane sp<sup>2</sup> lone pair, which was never part of the π system",
+  "new": "Aromatic with 6 π electrons; the N–H bond uses the in-plane sp<sup>2</sup> lone pair, which was never in the π system",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-181",
+  "field": "c[1]",
+  "old": "Nonaromatic; protonation removes two electrons from the π system",
+  "new": "Nonaromatic; protonation removes two electrons from the π system and leaves only four",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-181",
+  "field": "c[2]",
+  "old": "Antiaromatic with 4 π electrons; the positive charge empties one ring p orbital",
+  "new": "Antiaromatic with 4 π electrons; the positive charge empties one ring p orbital on nitrogen",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-182",
+  "field": "c[0]",
+  "old": "<i>a</i>; the NMe<sub>2</sub> group donates into the ring, raising electron density on <i>a</i> and sharing the conjugate acid's + charge over both N",
+  "new": "<i>a</i>; NMe<sub>2</sub> donates into the ring, raising electron density on <i>a</i> and spreading the + charge over both N",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-182",
+  "field": "c[2]",
+  "old": "<i>b</i>; the lone pair on <i>a</i> is part of the aromatic sextet and cannot be protonated",
+  "new": "<i>b</i>; the lone pair on <i>a</i> is part of the aromatic sextet, so it cannot be protonated at all",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-182",
+  "field": "c[3]",
+  "old": "<i>a</i>; it is sp<sup>3</sup> hybridized, so its lone pair is held less tightly than that of <i>b</i>",
+  "new": "<i>a</i>; it is sp<sup>3</sup> hybridized, so its lone pair is held less tightly than the lone pair of <i>b</i>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-185",
+  "field": "c[0]",
+  "old": "In the imidazolium ion the positive charge is shared equally by both nitrogens through resonance, and the ring stays aromatic",
+  "new": "In imidazolium the positive charge is shared equally by both nitrogens by resonance, and the ring stays aromatic",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-185",
+  "field": "c[2]",
+  "old": "The basic nitrogen of imidazole is sp<sup>3</sup> hybridized, while pyridine's nitrogen is sp<sup>2</sup>",
+  "new": "The basic nitrogen of imidazole is sp<sup>3</sup> hybridized, while pyridine’s nitrogen is sp<sup>2</sup>, so its lone pair is more available",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-201",
+  "field": "c[0]",
+  "old": "The final cyclohexadienyl anion is protonated at its central carbon, where its charge density is greatest, and the unconjugated diene is not isomerized under the conditions",
+  "new": "The cyclohexadienyl anion is protonated at its central carbon, where charge density is greatest, and the 1,4-diene does not isomerize",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-201",
+  "field": "c[1]",
+  "old": "The 1,3-diene forms first and then isomerizes to the 1,4-diene, which is the more stable product",
+  "new": "The 1,3-diene forms first and then isomerizes to the 1,4-diene, which is the more stable product under these conditions",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-201",
+  "field": "c[3]",
+  "old": "The 1,4-diene is the only product in which every carbon remains sp<sup>2</sup> hybridized",
+  "new": "The 1,4-diene is the only product in which every carbon remains sp<sup>2</sup> hybridized, as in benzene",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-213",
+  "field": "c[1]",
+  "old": "The anomeric effect stabilizes an equatorial –OH at C1, so it favors the β anomer",
+  "new": "The anomeric effect stabilizes an equatorial –OH at C1, so it strongly favors the β anomer",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-213",
+  "field": "c[2]",
+  "old": "The β anomer forms faster when the ring closes, and it cannot reopen once formed",
+  "new": "The β anomer forms faster when the ring closes, and it cannot reopen once it has formed",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-213",
+  "field": "c[3]",
+  "old": "Only the β anomer can hydrogen bond to its own ring oxygen",
+  "new": "Only the β anomer can hydrogen bond to its own ring oxygen, which holds it in the closed ring form",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-227",
+  "field": "c[0]",
+  "old": "Loss of water from C1 gives an oxocarbenium ion stabilized by the ring oxygen lone pair",
+  "new": "Loss of water from C1 gives an oxocarbenium ion stabilized by the ring oxygen",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-227",
+  "field": "c[1]",
+  "old": "The C1 –OH is the most acidic, so methoxide attacks C1 by S<sub>N</sub>2",
+  "new": "The C1 –OH is the most acidic, so methoxide attacks C1 by S<sub>N</sub>2 and displaces it",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-227",
+  "field": "c[2]",
+  "old": "The other –OH groups are protected by hydrogen bonds to methanol",
+  "new": "The other –OH groups are protected by hydrogen bonds to the methanol solvent",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-227",
+  "field": "c[3]",
+  "old": "C1 is the only primary carbon in the ring, so it reacts fastest",
+  "new": "C1 is the only primary carbon in the ring, so it reacts fastest with methanol",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-248",
+  "field": "c[0]",
+  "old": "Adding one H gives a surface-bound alkyl that can lose an H again, re-forming the C=C as the more stable <i>E</i> isomer",
+  "new": "Adding one H gives a surface-bound alkyl that can lose H again, re-forming the C=C as the more stable <i>E</i> isomer",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-248",
+  "field": "c[1]",
+  "old": "H<sub>2</sub> adds anti across the C=C, and the anti addition product eliminates to give the <i>E</i> alkene",
+  "new": "H<sub>2</sub> adds anti across the C=C, and the anti addition product then eliminates H<sub>2</sub> to give the <i>E</i> alkene",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-248",
+  "field": "c[2]",
+  "old": "The nickel catalyst oxidizes the C=C to an epoxide, which opens and closes to the <i>E</i> alkene",
+  "new": "The nickel catalyst oxidizes the C=C to an epoxide, which opens and recloses to give the <i>E</i> alkene",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-248",
+  "field": "c[3]",
+  "old": "Heat alone rotates the C=C bond, because the π bond is weakened by the ester group",
+  "new": "Heat alone rotates the C=C bond, because the π bond is weakened by the nearby ester group",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-254",
+  "field": "c[1]",
+  "old": "RNA is single-stranded, so hydroxide reaches its phosphates; the DNA double helix blocks them",
+  "new": "RNA is single-stranded, so hydroxide reaches its phosphates; the DNA double helix blocks them from attack",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-254",
+  "field": "c[2]",
+  "old": "Uracil in RNA is a better leaving group than thymine, so the N-glycosidic bond breaks",
+  "new": "Uracil in RNA is a better leaving group than thymine, so the N-glycosidic bond breaks and the chain falls apart",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-254",
+  "field": "c[3]",
+  "old": "Ribose is a pyranose in RNA, and its ring opens in base to give a reactive aldehyde",
+  "new": "Ribose is a pyranose in RNA, and its ring opens in base to give a reactive aldehyde that cleaves the chain",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-265",
+  "field": "c[0]",
+  "old": "HCN is a weak acid, so free CN<sup>−</sup> (the actual nucleophile) is needed; the acid then protonates the alkoxide",
+  "new": "HCN is a weak acid, so free CN<sup>−</sup> (the real nucleophile) is needed; the acid then protonates the alkoxide",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-265",
+  "field": "c[1]",
+  "old": "Pure HCN protonates the carbonyl oxygen so strongly that the aldehyde polymerizes",
+  "new": "Pure HCN protonates the carbonyl oxygen so strongly that the aldehyde polymerizes instead of adding cyanide",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-265",
+  "field": "c[3]",
+  "old": "Acid is needed to dehydrate the cyanohydrin to an α,β-unsaturated nitrile",
+  "new": "Acid is needed afterward to dehydrate the cyanohydrin to an α,β-unsaturated nitrile",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-269",
+  "field": "c[0]",
+  "old": "The three α-methyl groups crowd the tetrahedral adduct, so the (reversible) equilibrium lies toward the ketone",
+  "new": "The three α-methyl groups crowd the tetrahedral adduct, so the reversible equilibrium favors the ketone",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-269",
+  "field": "c[1]",
+  "old": "The methyl groups make the ketone so acidic that CN<sup>−</sup> deprotonates it instead of adding",
+  "new": "The methyl groups make the ketone so acidic that CN<sup>−</sup> deprotonates it at the α-carbon instead of adding to C=O",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-269",
+  "field": "c[2]",
+  "old": "The trimethyl ketone has no α-hydrogens, so it cannot form a cyanohydrin",
+  "new": "The trimethyl ketone has no α-hydrogens left, so it cannot form a cyanohydrin by any path",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-277",
+  "field": "c[0]",
+  "old": "Converting the hemiacetal to the acetal requires losing OH as a leaving group, and in base it cannot be protonated to leave as water",
+  "new": "Making the acetal requires OH to leave, and in base it cannot be protonated to leave as water",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-277",
+  "field": "c[1]",
+  "old": "Methoxide is too weak a nucleophile to add to an aldehyde",
+  "new": "Methoxide is too weak a nucleophile to add to an aldehyde, even with heating",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-277",
+  "field": "c[2]",
+  "old": "Acetals form in base but are immediately hydrolyzed by the methoxide",
+  "new": "Acetals form in base but are immediately hydrolyzed back to the hemiacetal by the methoxide",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-280",
+  "field": "c[0]",
+  "old": "Below pH ≈ 4 most amine is protonated and non-nucleophilic; above pH ≈ 6 too little acid is available to protonate the carbinolamine OH so water can leave",
+  "new": "Below pH ≈ 4 most amine is protonated and non-nucleophilic; above pH ≈ 6 the carbinolamine OH is not protonated, so water cannot leave",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-280",
+  "field": "c[1]",
+  "old": "Below pH ≈ 4 the ketone is fully protonated and cannot react; above pH ≈ 6 the imine is hydrolyzed",
+  "new": "Below pH ≈ 4 the ketone is fully protonated and cannot react with the amine; above pH ≈ 6 the imine is hydrolyzed back",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-291",
+  "field": "c[0]",
+  "old": "2-Bromo-2-methylpropane",
+  "new": "<i>tert</i>-Butyl bromide",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-319",
+  "field": "c[0]",
+  "old": "Mostly 1-bromo-2-butene, because the products interconvert and it has the more substituted, more stable C=C",
+  "new": "Mostly 1-bromo-2-butene, because the products interconvert and it has the more substituted C=C",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-319",
+  "field": "c[1]",
+  "old": "Mostly 3-bromo-1-butene, because attack at C2 has the lower activation energy",
+  "new": "Mostly 3-bromo-1-butene, because attack at C2 has the lower activation energy and is faster",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-319",
+  "field": "c[2]",
+  "old": "Mostly 1-bromo-2-butene, because attack at C4 has the lower activation energy",
+  "new": "Mostly 1-bromo-2-butene, because attack at C4 has the lower activation energy and is faster",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-319",
+  "field": "c[3]",
+  "old": "About 1:1, because both products come from the same allylic cation",
+  "new": "About 1:1, because both products come from the same allylic cation and Br<sup>−</sup> attacks either end equally",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-321",
+  "field": "c[0]",
+  "old": "The 1,2-product re-ionizes over a 49 kJ/mol barrier, smaller than the 61 kJ/mol barrier for the 1,4-product, so material drains into the more stable 1,4-product",
+  "new": "The 1,2-product re-ionizes over a 49 kJ/mol barrier, lower than the 61 kJ/mol for the 1,4-product, so material drains to the more stable 1,4-product",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-321",
+  "field": "c[2]",
+  "old": "The 1,2-product rearranges directly to the 1,4-product by a 1,3-shift of Br without forming the cation",
+  "new": "The 1,2-product rearranges directly to the 1,4-product by a 1,3-shift of Br, without ever forming the allylic cation",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-321",
+  "field": "c[3]",
+  "old": "The 1,2-product re-ionizes over a 9 kJ/mol barrier, so it is never formed at any temperature",
+  "new": "The 1,2-product re-ionizes over a 9 kJ/mol barrier, so it is never formed or isolated at any temperature",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-326",
+  "field": "c[2]",
+  "old": "In ψ<sub>2</sub>, a nonbonding MO concentrated on C2",
+  "new": "In ψ<sub>2</sub>, a nonbonding MO concentrated on the central carbon, C2",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-326",
+  "field": "c[3]",
+  "old": "In ψ<sub>3</sub>, an antibonding MO with nodes between each pair of carbons",
+  "new": "In ψ<sub>3</sub>, an antibonding MO with a node between each pair of adjacent carbons",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-339",
+  "field": "c[1]",
+  "old": "The anhydride ring points toward the CH<sub>2</sub> bridge, anti to the C=C bridge",
+  "new": "The anhydride ring points toward the one-carbon CH<sub>2</sub> bridge, anti to the two-carbon C=C bridge",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-339",
+  "field": "c[3]",
+  "old": "The anhydride ring is attached at the CH<sub>2</sub> bridge carbon (C7)",
+  "new": "The anhydride ring is attached at the CH<sub>2</sub> bridge carbon (C7), not at C2 and C3",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-346",
+  "field": "c[0]",
+  "old": "The adducts revert readily to furan + maleic anhydride, so the more stable exo adduct accumulates under equilibrium",
+  "new": "The adducts readily revert to furan and maleic anhydride, so the more stable exo adduct builds up",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-346",
+  "field": "c[1]",
+  "old": "The endo adduct isomerizes to exo by rotation about the new C–C σ bonds",
+  "new": "The endo adduct isomerizes to exo by rotation about the new C–C σ bonds at room temperature over time",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-346",
+  "field": "c[3]",
+  "old": "Furan reacts only through its s-trans conformation, which gives the exo product",
+  "new": "Furan reacts only through its s-trans conformation, which can give only the exo product",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-366",
+  "field": "c[0]",
+  "old": "It is a Lewis acid that accepts electron density from Br<sub>2</sub>, polarizing the Br–Br bond so the terminal Br becomes strongly electrophilic",
+  "new": "It is a Lewis acid that binds Br<sub>2</sub> and polarizes the Br–Br bond, so the terminal Br becomes strongly electrophilic",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-366",
+  "field": "c[3]",
+  "old": "It is a reducing agent that converts Br<sub>2</sub> into Br<sup>−</sup>, which then acts as the nucleophile that attacks the ring",
+  "new": "It is a reducing agent that converts Br<sub>2</sub> into Br<sup>−</sup>, which then acts as the nucleophile that attacks the benzene ring",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-367",
+  "field": "c[1]",
+  "old": "B is the arenium ion (σ complex); the step through C, loss of H<sup>+</sup>, is rate-determining",
+  "new": "B is the arenium ion (σ complex); the step through C, loss of H<sup>+</sup> to restore aromaticity, is rate-determining",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-367",
+  "field": "c[2]",
+  "old": "A is the arenium ion; it is the highest-energy point, so it is the rate-determining intermediate",
+  "new": "A is the arenium ion; it is the highest-energy point, so it is the rate-determining intermediate of the reaction",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-368",
+  "field": "c[0]",
+  "old": "It is reversible: heating the arenesulfonic acid in dilute aqueous acid removes the SO<sub>3</sub>H group",
+  "new": "It is reversible: heating the sulfonic acid in dilute aqueous acid removes the SO<sub>3</sub>H group",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-368",
+  "field": "c[1]",
+  "old": "It needs FeBr<sub>3</sub> or AlCl<sub>3</sub> to turn SO<sub>3</sub> into an electrophile",
+  "new": "It needs FeBr<sub>3</sub> or AlCl<sub>3</sub> as a Lewis acid to turn SO<sub>3</sub> into a strong electrophile",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-368",
+  "field": "c[2]",
+  "old": "The SO<sub>3</sub>H group it installs is an ortho/para-directing activator",
+  "new": "The SO<sub>3</sub>H group it installs is an ortho/para-directing activator, like an OH or OCH<sub>3</sub> group",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-368",
+  "field": "c[3]",
+  "old": "The electrophile is HSO<sub>4</sub><sup>−</sup>, formed when SO<sub>3</sub> dissolves in H<sub>2</sub>SO<sub>4</sub>",
+  "new": "The electrophile is HSO<sub>4</sub><sup>−</sup>, formed when SO<sub>3</sub> dissolves in the concentrated H<sub>2</sub>SO<sub>4</sub>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-373",
+  "field": "c[0]",
+  "old": "Inductive withdrawal by Cl slows attack at every position, but Cl lone-pair donation stabilizes the σ complexes from ortho and para attack, which have a form with the cation on the carbon bearing Cl",
+  "new": "Cl’s inductive pull slows attack everywhere, but its lone pairs stabilize the ortho and para σ complexes, which can put the + charge on the C bearing Cl",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-373",
+  "field": "c[2]",
+  "old": "Cl deactivates only the meta positions; the ortho and para positions are activated relative to benzene",
+  "new": "Cl deactivates only the meta positions; the ortho and para positions are activated relative to benzene by its lone pairs",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-378",
+  "field": "c[0]",
+  "old": "In strong acid aniline is mostly protonated to anilinium (C<sub>6</sub>H<sub>5</sub>NH<sub>3</sub><sup>+</sup>), whose NH<sub>3</sub><sup>+</sup> group has no lone pair and directs meta",
+  "new": "In strong acid aniline is mostly protonated to anilinium, whose NH<sub>3</sub><sup>+</sup> group has no lone pair and directs meta",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-398",
+  "field": "c[0]",
+  "old": "The basic nitrogen donates its lone pair to AlCl<sub>3</sub>, and the resulting –NH<sub>2</sub><sup>+</sup>–AlCl<sub>3</sub><sup>−</sup> group strongly deactivates the ring",
+  "new": "The nitrogen lone pair binds AlCl<sub>3</sub>, and the resulting –NH<sub>2</sub><sup>+</sup>–AlCl<sub>3</sub><sup>−</sup> group strongly deactivates the ring",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-398",
+  "field": "c[3]",
+  "old": "AlCl<sub>3</sub> oxidizes the amino group to a nitro group, which then blocks the reaction",
+  "new": "AlCl<sub>3</sub> oxidizes the amino group to a nitro group, which then blocks the ring from reacting with the electrophile",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-399",
+  "field": "c[0]",
+  "old": "An alkyl group activates the ring, so the product reacts faster than benzene; an acyl group deactivates the ring, so the product reacts more slowly",
+  "new": "An alkyl group activates the ring, so the product reacts faster than benzene; an acyl group deactivates it, so it reacts slower",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-399",
+  "field": "c[3]",
+  "old": "An acyl group activates the ring but blocks the ortho and para positions sterically, so no further substitution is possible",
+  "new": "An acyl group activates the ring but blocks the ortho and para positions sterically, so no further substitution is possible on the ring",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-401",
+  "field": "c[0]",
+  "old": "H<sub>2</sub>NNH<sub>2</sub>, KOH, ethylene glycol, heat",
+  "new": "H<sub>2</sub>NNH<sub>2</sub>, KOH, heat",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-403",
+  "field": "c[3]",
+  "old": "1. CH<sub>3</sub>COCl, AlCl<sub>3</sub>  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  3. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>",
+  "new": "1. CH<sub>3</sub>COCl, AlCl<sub>3</sub>  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> (separate the para isomer)  3. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-411",
+  "field": "c[0]",
+  "old": "Addition of the nucleophile is rate-determining, and fluorine's strong inductive withdrawal makes the ipso carbon more electrophilic and stabilizes the anionic intermediate",
+  "new": "Addition is rate-determining, and fluorine’s inductive pull makes the ipso carbon more electrophilic and stabilizes the anion",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-411",
+  "field": "c[1]",
+  "old": "The C–F bond is the weakest carbon–halogen bond, so it breaks fastest in the rate-determining step",
+  "new": "The C–F bond is the weakest carbon–halogen bond, so it breaks fastest in the rate-determining step of the substitution reaction",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-411",
+  "field": "c[3]",
+  "old": "Fluorine donates its lone pairs by resonance into the ring, stabilizing a carbocation intermediate",
+  "new": "Fluorine donates its lone pairs by resonance into the ring, stabilizing a carbocation intermediate on the ipso carbon",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-422",
+  "field": "c[0]",
+  "old": "The C–H bond is not broken in the rate-determining step; attack of NO<sub>2</sub><sup>+</sup> to form the arenium ion is slow and deprotonation is fast",
+  "new": "The C–H bond is not broken in the rate-determining step; forming the arenium ion is slow and losing H<sup>+</sup> is fast",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-422",
+  "field": "c[3]",
+  "old": "Formation of NO<sub>2</sub><sup>+</sup> is rate-determining, so the arene never takes part in the slow step under any conditions",
+  "new": "Formation of NO<sub>2</sub><sup>+</sup> is rate-determining, so the arene never takes part in the slow step under any reaction conditions",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-432",
+  "field": "c[0]",
+  "old": "LDA removes the less hindered H rapidly and irreversibly (kinetic control); with NaOEt, ketone and enolates interconvert by reversible proton transfer, so the more stable, more substituted enolate accumulates (thermodynamic control).",
+  "new": "LDA removes the less hindered H fast and irreversibly; with NaOEt, proton transfer is reversible, so the more stable, more substituted enolate builds up.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-433",
+  "field": "c[0]",
+  "old": "2-bromo-2-methylpropane",
+  "new": "<i>tert</i>-butyl bromide",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-436",
+  "field": "c[2]",
+  "old": "Its large size blocks the approach of Br<sub>2</sub> in acid, while hydroxide is small enough to reach the remaining α-H.",
+  "new": "Its large size blocks the approach of Br<sub>2</sub> to the enol in acid, while hydroxide is small enough to reach the remaining α-H.",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-442",
+  "field": "c[0]",
+  "old": "Benzaldehyde with propanal (propanal added slowly to the mixture)",
+  "new": "Benzaldehyde with propanal (propanal added slowly)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-442",
+  "field": "c[3]",
+  "old": "Benzaldehyde with 2,2-dimethylpropanal",
+  "new": "Benzaldehyde with 2,2-dimethylpropanal (mixed in equal amounts)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-445",
+  "field": "c[0]",
+  "old": "E1cB: deprotonation at the α-carbon gives an enolate, which then expels hydroxide",
+  "new": "E1cB: deprotonation at the α-carbon gives an enolate, which expels hydroxide",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-445",
+  "field": "c[2]",
+  "old": "E1: the OH leaves first to form a carbocation, which then loses the α-H",
+  "new": "E1: the OH leaves first to form a carbocation, which then loses the α-H to form the C=C",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-494",
+  "field": "c[0]",
+  "old": "The crown ether binds K<sup>+</sup>, bringing KF into solution with a poorly solvated, highly reactive F<sup>−</sup>",
+  "new": "The crown ether binds K<sup>+</sup>, bringing KF into solution with a poorly solvated, very reactive F<sup>−</sup>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-494",
+  "field": "c[1]",
+  "old": "The crown ether binds F<sup>−</sup> through its oxygens and delivers it to the carbon",
+  "new": "The crown ether binds F<sup>−</sup> through its oxygens and delivers it directly to the carbon",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-494",
+  "field": "c[2]",
+  "old": "The crown ether hydrogen-bonds to F<sup>−</sup>, making it a stronger base",
+  "new": "The crown ether hydrogen-bonds to F<sup>−</sup>, making it a stronger base and nucleophile",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-494",
+  "field": "c[3]",
+  "old": "The crown ether coordinates Br, making bromide a better leaving group",
+  "new": "The crown ether coordinates the Br, making bromide a better leaving group",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-508",
+  "field": "c[0]",
+  "old": "Ring closure is an internal S<sub>N</sub>2 that needs O<sup>−</sup> anti to Cl (both axial); only the <i>trans</i> isomer can reach that geometry",
+  "new": "Ring closure is an internal S<sub>N</sub>2 that needs O<sup>−</sup> anti to Cl (both axial); only the <i>trans</i> isomer can do this",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-508",
+  "field": "c[2]",
+  "old": "The <i>cis</i> alcohol is much less acidic, so NaOH cannot form its alkoxide",
+  "new": "The <i>cis</i> alcohol is much less acidic, so NaOH cannot form enough of its alkoxide",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-519",
+  "field": "c[0]",
+  "old": "The three-membered ring is strained, and opening it releases about 110 kJ/mol of ring strain",
+  "new": "The three-membered ring is strained, and opening it releases about 110 kJ/mol of strain",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-519",
+  "field": "c[1]",
+  "old": "Epoxide carbons are sp<sup>2</sup> hybridized, like a carbonyl carbon",
+  "new": "Epoxide carbons are sp<sup>2</sup> hybridized, like a carbonyl carbon, so they are very electrophilic",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-519",
+  "field": "c[2]",
+  "old": "The epoxide oxygen carries a formal positive charge",
+  "new": "The epoxide oxygen carries a formal positive charge, like a protonated ether",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-530",
+  "field": "c[0]",
+  "old": "The 1685 cm<sup>−1</sup> band disappears and a broad 3350 cm<sup>−1</sup> band appears; the δ 2.60 CH<sub>3</sub> singlet becomes a doublet near δ 1.5, coupled to a new 1H quartet near δ 4.9",
+  "new": "The 1685 cm<sup>−1</sup> band vanishes and a broad 3350 cm<sup>−1</sup> band appears; the CH<sub>3</sub> singlet (δ 2.60) becomes a δ 1.5 doublet, coupled to a new 1H quartet at δ 4.9",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-530",
+  "field": "c[2]",
+  "old": "The δ 2.60 CH<sub>3</sub> singlet moves to δ 1.5 and stays a singlet, and a new 1H singlet appears near δ 4.9",
+  "new": "The δ 2.60 CH<sub>3</sub> singlet moves to δ 1.5 and stays a singlet, and a new 1H singlet appears near δ 4.9 for the CH–O proton",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-530",
+  "field": "c[3]",
+  "old": "A very broad band from 3300 to 2500 cm<sup>−1</sup> appears, and a new exchangeable 1H singlet appears near δ 12",
+  "new": "A very broad band from 3300 to 2500 cm<sup>−1</sup> appears, and a new exchangeable 1H singlet appears near δ 12, as for a COOH group",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-546",
+  "field": "c[0]",
+  "old": "The C–N bond has partial double-bond character, so rotation about it is slow on the NMR time scale; one CH<sub>3</sub> is cis to O and the other trans",
+  "new": "The C–N bond has partial double-bond character, so rotation is slow on the NMR time scale; one CH<sub>3</sub> is cis to O, the other trans",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-546",
+  "field": "c[2]",
+  "old": "The two N–CH<sub>3</sub> groups split each other, so the pair at δ 3.02 and 2.94 is one doublet",
+  "new": "The two N–CH<sub>3</sub> groups split each other, so the pair at δ 3.02 and 2.94 is really one doublet",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-546",
+  "field": "c[3]",
+  "old": "Rotation about the bond between C=O and the acetyl CH<sub>3</sub> is slow, which holds one N–CH<sub>3</sub> closer to that CH<sub>3</sub>",
+  "new": "Rotation about the bond between C=O and the acetyl CH<sub>3</sub> is slow, which holds one N–CH<sub>3</sub> closer to that CH<sub>3</sub> group",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-552",
+  "field": "c[0]",
+  "old": "Protonation ties up the N lone pair, so it can no longer conjugate with the ring; the chromophore becomes benzene-like and λ<sub>max</sub> moves to shorter wavelength",
+  "new": "Protonation ties up the N lone pair, so it no longer conjugates with the ring; the chromophore becomes benzene-like and λ<sub>max</sub> gets shorter",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-552",
+  "field": "c[2]",
+  "old": "Aqueous acid removes the NH<sub>2</sub> group from the ring, so the solution actually contains benzene",
+  "new": "Aqueous acid removes the NH<sub>2</sub> group from the ring, so the solution actually contains benzene and NH<sub>4</sub><sup>+</sup>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-552",
+  "field": "c[3]",
+  "old": "The new N–H bonds of the anilinium ion absorb strongly near 254 nm and hide the 280 nm band",
+  "new": "The new N–H bonds of the anilinium ion absorb strongly near 254 nm and hide the 280 nm band beneath them",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-568",
+  "field": "c[0]",
+  "old": "Step 2 fails: Friedel–Crafts acylation does not occur on the strongly deactivated nitrobenzene ring; acylate first, then nitrate",
+  "new": "Step 2 fails: nitrobenzene is too deactivated for Friedel–Crafts acylation; acylate first, then nitrate",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-568",
+  "field": "c[1]",
+  "old": "Step 2 gives the para isomer because NO<sub>2</sub> is an ortho/para director; nitrate after acylation instead",
+  "new": "Step 2 gives the para isomer because NO<sub>2</sub> is an ortho/para director; nitrate after acylation instead of before",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-568",
+  "field": "c[2]",
+  "old": "Step 1 fails: nitration requires an FeBr<sub>3</sub> catalyst; use HNO<sub>3</sub> with FeBr<sub>3</sub>",
+  "new": "Step 1 fails: nitration requires an FeBr<sub>3</sub> catalyst; use HNO<sub>3</sub> with FeBr<sub>3</sub> instead of H<sub>2</sub>SO<sub>4</sub>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-568",
+  "field": "c[3]",
+  "old": "Step 2 fails: AlCl<sub>3</sub> reduces the nitro group to an amine; use FeCl<sub>3</sub> instead",
+  "new": "Step 2 fails: AlCl<sub>3</sub> reduces the nitro group to an amine, which then complexes it; use FeCl<sub>3</sub> instead",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-591",
+  "field": "c[0]",
+  "old": "Step 3: the basic NH<sub>2</sub> group complexes AlCl<sub>3</sub>, making the ring strongly deactivated toward Friedel–Crafts alkylation",
+  "new": "Step 3: the basic NH<sub>2</sub> group binds AlCl<sub>3</sub>, which strongly deactivates the ring toward Friedel–Crafts alkylation",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-591",
+  "field": "c[1]",
+  "old": "Step 1: nitration of benzene needs FeBr<sub>3</sub> as the catalyst rather than H<sub>2</sub>SO<sub>4</sub>",
+  "new": "Step 1: nitration of benzene needs FeBr<sub>3</sub> as the catalyst rather than H<sub>2</sub>SO<sub>4</sub> to make NO<sub>2</sub><sup>+</sup>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-591",
+  "field": "c[2]",
+  "old": "Step 2: Sn/HCl reduces the benzene ring along with the nitro group",
+  "new": "Step 2: Sn/HCl reduces the benzene ring to cyclohexane along with the nitro group",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-591",
+  "field": "c[3]",
+  "old": "Step 3: the primary ethyl cation rearranges, so the product is 4-isopropylaniline",
+  "new": "Step 3: the primary ethyl cation rearranges, so the product is 4-isopropylaniline, not 4-ethylaniline",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-86",
+  "field": "c[0]",
+  "old": "Acetophenone, once formed, is more electrophilic than ethyl acetate and captures PhMgBr faster than the remaining ester does",
+  "new": "Acetophenone, once formed, is more electrophilic than the ester and captures PhMgBr faster than the remaining ester does",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-86",
+  "field": "c[1]",
+  "old": "Acetophenone is less electrophilic than ethyl acetate but forms in higher concentration, so it reacts first",
+  "new": "Acetophenone is less electrophilic than ethyl acetate but forms in higher concentration, so it reacts first with PhMgBr",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-188",
+  "field": "c[1]",
+  "old": "The dipolar resonance form, with O<sup>−</sup> and a positive seven-membered ring, is antiaromatic, which forces more charge onto oxygen",
+  "new": "The dipolar resonance form, with O<sup>−</sup> and a positive seven-membered ring, is antiaromatic, which forces even more negative charge onto oxygen",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-240",
+  "field": "c[3]",
+  "old": "It reduces the carboxylic acid to an aldehyde that then forms an imine",
+  "new": "It reduces the carboxylic acid to an aldehyde that then forms an imine with the amine",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-216",
+  "field": "c[1]",
+  "old": "It drifts to an equilibrium value: the ring opens and recloses to give the α anomer",
+  "new": "It drifts to an equilibrium value: the ring opens and recloses to give some of the α anomer",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-294",
+  "field": "c[1]",
+  "old": "Mainly <i>cis</i>-4-<i>tert</i>-butylcyclohexanol (OH axial), from equatorial attack of the small hydride",
+  "new": "Mainly <i>cis</i>-4-<i>tert</i>-butylcyclohexanol (OH axial), from equatorial attack of the small hydride reagent",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-419",
+  "field": "c[2]",
+  "old": "A mixture of 2,6-dimethylaniline and 2,4-dimethylaniline forms by way of a benzyne",
+  "new": "A mixture of 2,6-dimethylaniline and 2,4-dimethylaniline forms by way of a benzyne intermediate",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-421",
+  "field": "c[2]",
+  "old": "The arenium ion has no carbon able to accept a nucleophile, since every carbon has a full octet",
+  "new": "The arenium ion has no carbon able to accept a nucleophile, since every carbon has a full octet of electrons",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-96",
+  "field": "c[1]",
+  "old": "Fluoride is a strong base that deprotonates the silyl ether",
+  "new": "Fluoride is a strong base that deprotonates the silyl ether to cleave it",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-528",
+  "field": "c[3]",
+  "old": "The aromatic integration: 5H for I but 4H for II",
+  "new": "The aromatic integration: 5H for I but 4H for II in the δ 7–8 region",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28B-476",
+  "field": "c[3]",
+  "old": "Ethyl 2-phenylpropanoate and ethyl formate",
+  "new": "Ethyl 2-phenylpropanoate and ethyl formate (excess)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-622",
+  "field": "c[1]",
+  "old": "C<sub>6</sub>H<sub>5</sub>MgBr + acetaldehyde",
+  "new": "C<sub>6</sub>H<sub>5</sub>MgBr + acetaldehyde (ethanal)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-622",
+  "field": "c[2]",
+  "old": "C<sub>6</sub>H<sub>5</sub>MgBr + formaldehyde",
+  "new": "C<sub>6</sub>H<sub>5</sub>MgBr + formaldehyde (methanal)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-622",
+  "field": "c[3]",
+  "old": "CH<sub>3</sub>MgBr + benzaldehyde",
+  "new": "CH<sub>3</sub>MgBr + benzaldehyde (C<sub>6</sub>H<sub>5</sub>CHO)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-627",
+  "field": "c[1]",
+  "old": "Ethanol",
+  "new": "Ethanol (EtOH)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-627",
+  "field": "c[2]",
+  "old": "Acetone",
+  "new": "Acetone (propanone)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-627",
+  "field": "c[3]",
+  "old": "Ethyl acetate",
+  "new": "Ethyl acetate (EtOAc)",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-634",
+  "field": "c[0]",
+  "old": "Hydroxide is a strong base and a poor leaving group; tosylate is a weak, resonance-stabilized base and leaves easily",
+  "new": "Hydroxide is a strong base and poor leaving group; tosylate is a weak, resonance-stabilized base that leaves easily",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-634",
+  "field": "c[1]",
+  "old": "The tosyl group makes the carbon less hindered, so the nucleophile can reach it",
+  "new": "The tosyl group makes the carbon less hindered, so the nucleophile can reach it from the back side",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-634",
+  "field": "c[2]",
+  "old": "Tosylation converts the alcohol into a carbocation, which the nucleophile then traps",
+  "new": "Tosylation converts the alcohol into a carbocation, which the nucleophile then traps in a fast second step of the reaction",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-634",
+  "field": "c[3]",
+  "old": "The tosylate makes the nucleophile stronger by deprotonating it",
+  "new": "The tosylate makes the nucleophile stronger by deprotonating it before it attacks the carbon",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-641",
+  "field": "c[0]",
+  "old": "Without water, the aldehyde cannot form the hydrate (gem-diol), the species that Cr(VI) oxidizes further",
+  "new": "Without water the aldehyde cannot form its hydrate, the form that Cr(VI) oxidizes to the acid",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-641",
+  "field": "c[1]",
+  "old": "PCC is too weak to oxidize any C–H bond on a carbon bearing oxygen",
+  "new": "PCC is too weak to oxidize any C–H bond on a carbon that already bears an oxygen atom",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-641",
+  "field": "c[2]",
+  "old": "The pyridinium ion reduces the carboxylic acid back to the aldehyde as it forms",
+  "new": "The pyridinium ion reduces the carboxylic acid back to the aldehyde as fast as the acid forms",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-641",
+  "field": "c[3]",
+  "old": "In CH<sub>2</sub>Cl<sub>2</sub> the aldehyde evaporates before it can be oxidized",
+  "new": "In CH<sub>2</sub>Cl<sub>2</sub> the aldehyde evaporates from the flask before it can be oxidized any further",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-674",
+  "field": "c[0]",
+  "old": "The crown ether binds K<sup>+</sup>, bringing KF into solution with a poorly solvated, highly reactive F<sup>−</sup>",
+  "new": "The crown ether binds K<sup>+</sup>, bringing KF into solution with a poorly solvated, very reactive F<sup>−</sup>",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-674",
+  "field": "c[1]",
+  "old": "The crown ether binds F<sup>−</sup> through its oxygens and delivers it to the carbon",
+  "new": "The crown ether binds F<sup>−</sup> through its oxygens and delivers it directly to the carbon",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-674",
+  "field": "c[2]",
+  "old": "The crown ether hydrogen-bonds to F<sup>−</sup>, making it a stronger base",
+  "new": "The crown ether hydrogen-bonds to F<sup>−</sup>, making it a stronger base and nucleophile",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-674",
+  "field": "c[3]",
+  "old": "The crown ether coordinates Br, making bromide a better leaving group",
+  "new": "The crown ether coordinates the Br, making bromide a better leaving group",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-688",
+  "field": "c[0]",
+  "old": "Ring closure is an internal S<sub>N</sub>2 that needs O<sup>−</sup> anti to Cl (both axial); only the <i>trans</i> isomer can reach that geometry",
+  "new": "Ring closure is an internal S<sub>N</sub>2 that needs O<sup>−</sup> anti to Cl (both axial); only the <i>trans</i> isomer can do this",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-688",
+  "field": "c[2]",
+  "old": "The <i>cis</i> alcohol is much less acidic, so NaOH cannot form its alkoxide",
+  "new": "The <i>cis</i> alcohol is much less acidic, so NaOH cannot form enough of its alkoxide",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-699",
+  "field": "c[0]",
+  "old": "The three-membered ring is strained, and opening it releases about 110 kJ/mol of ring strain",
+  "new": "The three-membered ring is strained, and opening it releases about 110 kJ/mol of strain",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-699",
+  "field": "c[1]",
+  "old": "Epoxide carbons are sp<sup>2</sup> hybridized, like a carbonyl carbon",
+  "new": "Epoxide carbons are sp<sup>2</sup> hybridized, like a carbonyl carbon, so they are very electrophilic",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-699",
+  "field": "c[2]",
+  "old": "The epoxide oxygen carries a formal positive charge",
+  "new": "The epoxide oxygen carries a formal positive charge, like a protonated ether",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-626",
+  "field": "c[0]",
+  "old": "Acetophenone, once formed, is more electrophilic than ethyl acetate and captures PhMgBr faster than the remaining ester does",
+  "new": "Acetophenone, once formed, is more electrophilic than the ester and captures PhMgBr faster than the remaining ester does",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-626",
+  "field": "c[1]",
+  "old": "Acetophenone is less electrophilic than ethyl acetate but forms in higher concentration, so it reacts first",
+  "new": "Acetophenone is less electrophilic than ethyl acetate but forms in higher concentration, so it reacts first with PhMgBr",
+  "why": "choice-length fairness"
+ },
+ {
+  "id": "28A-636",
+  "field": "c[1]",
+  "old": "Fluoride is a strong base that deprotonates the silyl ether",
+  "new": "Fluoride is a strong base that deprotonates the silyl ether to cleave it",
+  "why": "choice-length fairness"
+ }
+]

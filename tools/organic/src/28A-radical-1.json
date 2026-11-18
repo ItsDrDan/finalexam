@@ -380,9 +380,9 @@
   ],
   "c": [
    "1-Bromo-2-methylcyclohexane, as a mixture of <i>cis</i> and <i>trans</i> isomers (each racemic)",
-   "1-Bromo-1-methylcyclohexane, a single achiral product",
-   "<i>trans</i>-1-Bromo-2-methylcyclohexane, as a single enantiomer",
-   "3-Bromo-1-methylcyclohexene, from allylic substitution"
+   "1-Bromo-1-methylcyclohexane, a single achiral product with Br on the tertiary carbon",
+   "<i>trans</i>-1-Bromo-2-methylcyclohexane only, as a single enantiomer",
+   "3-Bromo-1-methylcyclohexene, from radical allylic substitution"
   ],
   "h": "Decide the regiochemistry from the radical mechanism first, then count the new stereocenters and ask whether anything in the reaction is chiral.",
   "w": "Br• adds to the CH carbon to give the 3° radical, which then picks up H from HBr. The product, 1-bromo-2-methylcyclohexane, has two stereocenters (C1 and C2). H can be delivered to either face of the radical, so both <i>cis</i> and <i>trans</i> diastereomers form, and because all reagents are achiral each is racemic: <b>a mixture of cis and trans 1-bromo-2-methylcyclohexane</b>.",
@@ -456,9 +456,9 @@
   ],
   "c": [
    "3-Bromobut-1-ene (racemic) and 1-bromobut-2-ene (<i>E</i> and <i>Z</i>)",
-   "3-Bromobut-1-ene (racemic) only",
-   "4-Bromobut-1-ene and 3-bromobut-1-ene",
-   "1,2-Dibromobutane (racemic) only"
+   "3-Bromobut-1-ene (racemic) only, with Br at the allylic carbon",
+   "4-Bromobut-1-ene and 3-bromobut-1-ene (racemic)",
+   "1,2-Dibromobutane (racemic), from addition across the C=C"
   ],
   "h": "Draw the allylic radical from C3 and its resonance form. Where can Br attach?",
   "w": "Br• removes a 2° allylic H at C3. The radical is delocalized: CH<sub>2</sub>=CH–CH•–CH<sub>3</sub> ↔ •CH<sub>2</sub>–CH=CH–CH<sub>3</sub>. Br<sub>2</sub> can trap either end. At C3 the product is 3-bromobut-1-ene (new stereocenter, racemic); at C1 the allylic shift gives 1-bromobut-2-ene, whose new C2=C3 bond can be <i>E</i> or <i>Z</i>. Answer: <b>3-bromobut-1-ene and (E/Z)-1-bromobut-2-ene</b>.",

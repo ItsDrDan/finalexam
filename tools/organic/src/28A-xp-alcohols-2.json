@@ -70,7 +70,7 @@
  "id": "alc-23", "t": "alcohols", "d": 1, "k": 0,
  "q": "Which combination, followed by H<sub>3</sub>O<sup>+</sup> workup, gives 2-phenylethan-1-ol?",
  "s": [{"smi": "OCCc1ccccc1"}],
- "c": ["C<sub>6</sub>H<sub>5</sub>MgBr + oxirane (ethylene oxide)", "C<sub>6</sub>H<sub>5</sub>MgBr + acetaldehyde", "C<sub>6</sub>H<sub>5</sub>MgBr + formaldehyde", "CH<sub>3</sub>MgBr + benzaldehyde"],
+ "c": ["C<sub>6</sub>H<sub>5</sub>MgBr + oxirane (ethylene oxide)", "C<sub>6</sub>H<sub>5</sub>MgBr + acetaldehyde (ethanal)", "C<sub>6</sub>H<sub>5</sub>MgBr + formaldehyde (methanal)", "CH<sub>3</sub>MgBr + benzaldehyde (C<sub>6</sub>H<sub>5</sub>CHO)"],
  "h": "Count the carbons between the ring and the OH. Which electrophile adds a two-carbon unit with the OH on the far carbon?",
  "w": "A Grignard opens ethylene oxide at a CH<sub>2</sub>, adding –CH<sub>2</sub>CH<sub>2</sub>O<sup>−</sup>; after protonation the OH sits two carbons from the original nucleophilic carbon. PhMgBr + oxirane gives <b>PhCH<sub>2</sub>CH<sub>2</sub>OH</b>.",
  "x": ["", "With acetaldehyde the phenyl bonds to the carbonyl carbon, so the OH ends up on the carbon next to the ring: 1-phenylethanol.", "Formaldehyde adds only one carbon, giving benzyl alcohol (PhCH<sub>2</sub>OH).", "Methyl adds to the benzaldehyde carbonyl carbon, giving the secondary alcohol 1-phenylethanol."]
@@ -106,7 +106,7 @@
 {
  "id": "alc-27", "t": "alcohols", "d": 2, "k": 0,
  "q": "Ethyl acetate reacts with only <b>1.0 equivalent</b> of C<sub>6</sub>H<sub>5</sub>MgBr. The mixture contains mostly 1,1-diphenylethanol (after workup) and unreacted ethyl acetate, with little acetophenone. What is the best explanation?",
- "c": ["Acetophenone, once formed, is more electrophilic than ethyl acetate and captures PhMgBr faster than the remaining ester does", "Acetophenone is less electrophilic than ethyl acetate but forms in higher concentration, so it reacts first", "PhMgBr adds twice to the same ester molecule in a single concerted step, so no ketone ever forms", "The ethoxide released in the first step converts acetophenone back into ethyl acetate"],
+ "c": ["Acetophenone, once formed, is more electrophilic than the ester and captures PhMgBr faster than the remaining ester does", "Acetophenone is less electrophilic than ethyl acetate but forms in higher concentration, so it reacts first with PhMgBr", "PhMgBr adds twice to the same ester molecule in a single concerted step, so no ketone ever forms", "The ethoxide released in the first step converts acetophenone back into ethyl acetate"],
  "h": "Compare the electrophilicity of a ketone and an ester. What does the OR group donate to the ester carbonyl?",
  "w": "An ester carbonyl is stabilized by resonance donation from the OR oxygen, which makes it less electrophilic than a ketone. When the first addition expels ethoxide, the ketone formed competes for the remaining Grignard and wins, so most of it goes on to the tertiary alcohol while some ester is left. <b>The ketone is more reactive than the ester.</b> This is why stopping at a ketone requires a different method (for example a Weinreb amide or a nitrile).",
  "x": ["", "Ketones are more, not less, electrophilic than esters; a ketone formed in small amounts still reacts faster.", "The two additions are separate steps: addition, loss of ethoxide to give the ketone, then a second addition.", "Ethoxide does not convert ketones into esters; the observed result comes from the ketone's higher reactivity."]
@@ -114,7 +114,7 @@
 {
  "id": "alc-28", "t": "alcohols", "d": 1, "k": 0,
  "q": "Which is a suitable solvent for preparing and using a Grignard reagent?",
- "c": ["Tetrahydrofuran (THF)", "Ethanol", "Acetone", "Ethyl acetate"],
+ "c": ["Tetrahydrofuran (THF)", "Ethanol (EtOH)", "Acetone (propanone)", "Ethyl acetate (EtOAc)"],
  "h": "The solvent must not protonate the reagent and must not be attacked by it.",
  "w": "A Grignard reagent is both a strong base and a strong nucleophile. Ethers such as diethyl ether and <b>THF</b> have no acidic hydrogen and no electrophilic carbonyl, and their oxygen lone pairs coordinate and stabilize magnesium.",
  "x": ["", "Ethanol's O–H protonates RMgX at once, converting it to the alkane R–H.", "Acetone's carbonyl is an electrophile; the Grignard would add to the solvent to give a tertiary alcohol.", "Ethyl acetate's ester carbonyl reacts with Grignard reagents (two equivalents each), consuming the reagent."]

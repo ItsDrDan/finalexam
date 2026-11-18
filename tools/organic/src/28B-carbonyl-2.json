@@ -236,9 +236,9 @@
   "k": 0,
   "q": "A hemiacetal forms when an aldehyde is mixed with methanol and a little NaOCH<sub>3</sub>, but no acetal forms however long the mixture stands. Why?",
   "c": [
-   "Converting the hemiacetal to the acetal requires losing OH as a leaving group, and in base it cannot be protonated to leave as water",
-   "Methoxide is too weak a nucleophile to add to an aldehyde",
-   "Acetals form in base but are immediately hydrolyzed by the methoxide",
+   "Making the acetal requires OH to leave, and in base it cannot be protonated to leave as water",
+   "Methoxide is too weak a nucleophile to add to an aldehyde, even with heating",
+   "Acetals form in base but are immediately hydrolyzed back to the hemiacetal by the methoxide",
    "In base the hemiacetal is fully deprotonated and reverts entirely to the aldehyde, so none is present"
   ],
   "h": "Compare the two halves of acetal formation. The first is an addition; what kind of step does the second half need?",
@@ -355,8 +355,8 @@
   "k": 0,
   "q": "The rate of imine formation from a ketone and a primary amine is greatest near pH 4–5 and drops at both lower and higher pH. Which explanation is correct?",
   "c": [
-   "Below pH ≈ 4 most amine is protonated and non-nucleophilic; above pH ≈ 6 too little acid is available to protonate the carbinolamine OH so water can leave",
-   "Below pH ≈ 4 the ketone is fully protonated and cannot react; above pH ≈ 6 the imine is hydrolyzed",
+   "Below pH ≈ 4 most amine is protonated and non-nucleophilic; above pH ≈ 6 the carbinolamine OH is not protonated, so water cannot leave",
+   "Below pH ≈ 4 the ketone is fully protonated and cannot react with the amine; above pH ≈ 6 the imine is hydrolyzed back",
    "Below pH ≈ 4 the carbinolamine cannot form because water is a better nucleophile; above pH ≈ 6 the amine is deprotonated to an amide ion",
    "Acid is needed only to protonate the C=O in the first step; the pH maximum reflects how fast the ketone is protonated"
   ],

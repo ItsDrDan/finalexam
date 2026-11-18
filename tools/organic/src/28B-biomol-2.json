@@ -79,10 +79,10 @@
   "k": 0,
   "q": "Heating D-glucose in methanol with a little HCl converts only the C1 –OH into –OCH<sub>3</sub> (giving a mixture of methyl α- and β-glucosides). Why does only the anomeric –OH react?",
   "c": [
-   "Loss of water from C1 gives an oxocarbenium ion stabilized by the ring oxygen lone pair",
-   "The C1 –OH is the most acidic, so methoxide attacks C1 by S<sub>N</sub>2",
-   "The other –OH groups are protected by hydrogen bonds to methanol",
-   "C1 is the only primary carbon in the ring, so it reacts fastest"
+   "Loss of water from C1 gives an oxocarbenium ion stabilized by the ring oxygen",
+   "The C1 –OH is the most acidic, so methoxide attacks C1 by S<sub>N</sub>2 and displaces it",
+   "The other –OH groups are protected by hydrogen bonds to the methanol solvent",
+   "C1 is the only primary carbon in the ring, so it reacts fastest with methanol"
   ],
   "h": "Under acid, which carbon can lose –OH<sub>2</sub><sup>+</sup> to give the most stabilized cation?",
   "w": "Acid protonates the anomeric –OH, and water leaves to give a cyclic <b>oxocarbenium ion</b>, in which the ring O lone pair forms a C=O<sup>+</sup> π bond. No other ring carbon has an adjacent oxygen that can stabilize a cation, so only C1 ionizes (an S<sub>N</sub>1-like acetal formation). Methanol adds to either face of the planar ion, which is why both anomers form.",
