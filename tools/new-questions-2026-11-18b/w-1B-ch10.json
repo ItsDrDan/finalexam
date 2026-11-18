@@ -1,0 +1,4025 @@
+[
+ {
+  "t": "kinetics",
+  "q": "Ammonia decomposes on a hot tungsten wire: 2 NH<sub>3</sub>(g) → N<sub>2</sub>(g) + 3 H<sub>2</sub>(g). For data collected at one temperature, the three graphs show [NH<sub>3</sub>] (in mM), ln[NH<sub>3</sub>] and 1/[NH<sub>3</sub>] (with [NH<sub>3</sub>] in M) versus time. Starting from [NH<sub>3</sub>]<sub>0</sub> = 8.0 mM, what is the half-life?",
+  "c": [
+   "40 s",
+   "80 s",
+   "6.9 s",
+   "28 s"
+  ],
+  "h": "First decide which graph is a straight line; that gives the order. Then use the half-life rule for that order, not the first-order one.",
+  "w": "Only [NH<sub>3</sub>] versus time is a straight line, so the reaction is zero order with k = −slope = (8.0 − 2.0) mM/60 s = 0.10 mM s<sup>−1</sup>. For zero order t<sub>½</sub> = [A]<sub>0</sub>/2k = 8.0/(2 × 0.10) = <b>40 s</b>, which is also where the line crosses 4.0 mM. 80 s is the time to use up all the NH<sub>3</sub>, and 6.9 s applies the first-order formula ln 2/k.",
+  "x": [
+   "",
+   "80 s is when all of the NH₃ would be gone. Half-life is the time for the concentration to fall to half.",
+   "ln 2/k is the first-order half-life. Check which graph is linear before choosing a formula.",
+   "This multiplies the zero-order half-life by ln 2, mixing in the first-order formula."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (s)",
+     "min": 0,
+     "max": 60,
+     "ticks": [
+      0,
+      20,
+      40,
+      60
+     ]
+    },
+    "y": {
+     "label": "[NH₃] (mM)",
+     "min": 0,
+     "max": 9,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        8.0
+       ],
+       [
+        10,
+        7.0
+       ],
+       [
+        20,
+        6.0
+       ],
+       [
+        30,
+        5.0
+       ],
+       [
+        40,
+        4.0
+       ],
+       [
+        50,
+        3.0
+       ],
+       [
+        60,
+        2.0
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "grid": true,
+    "mono": true
+   },
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (s)",
+     "min": 0,
+     "max": 60,
+     "ticks": [
+      0,
+      20,
+      40,
+      60
+     ]
+    },
+    "y": {
+     "label": "ln[NH₃]",
+     "min": -6.4,
+     "max": -4.6,
+     "ticks": [
+      -6.4,
+      -6.0,
+      -5.6,
+      -5.2,
+      -4.8
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        -4.828
+       ],
+       [
+        10,
+        -4.962
+       ],
+       [
+        20,
+        -5.116
+       ],
+       [
+        30,
+        -5.298
+       ],
+       [
+        40,
+        -5.521
+       ],
+       [
+        50,
+        -5.809
+       ],
+       [
+        60,
+        -6.215
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "grid": true,
+    "mono": true
+   },
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (s)",
+     "min": 0,
+     "max": 60,
+     "ticks": [
+      0,
+      20,
+      40,
+      60
+     ]
+    },
+    "y": {
+     "label": "1/[NH₃] (M⁻¹)",
+     "min": 0,
+     "max": 550,
+     "ticks": [
+      0,
+      100,
+      200,
+      300,
+      400,
+      500
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        125.0
+       ],
+       [
+        10,
+        142.9
+       ],
+       [
+        20,
+        166.7
+       ],
+       [
+        30,
+        200.0
+       ],
+       [
+        40,
+        250.0
+       ],
+       [
+        50,
+        333.3
+       ],
+       [
+        60,
+        500.0
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "The decomposition A → products was run at two different temperatures, T<sub>1</sub> and T<sub>2</sub>, starting from the same [A]. The graph shows ln[A] versus time for both runs (lines 1 and 2). Which statements are true?<br>I. The reaction is second order in A.<br>II. Line 2 was measured at the higher temperature.<br>III. The half-life is longer for the run shown by line 2.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "A straight ln[A] plot tells you the order, and its slope is −k. Then ask how k and the half-life depend on each other and on temperature.",
+  "w": "I is false: ln[A] versus time is linear, so the reaction is first order, not second. II is true: line 2 is steeper (k = 0.030 s<sup>−1</sup> versus 0.010 s<sup>−1</sup>), and a larger rate constant means a higher temperature. III is false: t<sub>½</sub> = ln 2/k, so the larger k of line 2 gives the SHORTER half-life (23 s versus 69 s). The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Statement I is false. A straight line for ln[A] versus time means first order, not second order.",
+   "Statement III is false. A larger k gives a shorter first-order half-life, since t½ = ln 2 ÷ k.",
+   "Statements I and III are both false. Check what a linear ln[A] plot means and how t½ relates to k."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (s)",
+     "min": 0,
+     "max": 100,
+     "ticks": [
+      0,
+      20,
+      40,
+      60,
+      80,
+      100
+     ]
+    },
+    "y": {
+     "label": "ln[A]",
+     "min": -4,
+     "max": 0,
+     "ticks": [
+      -4,
+      -3,
+      -2,
+      -1,
+      0
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        -0.693
+       ],
+       [
+        20,
+        -0.893
+       ],
+       [
+        40,
+        -1.093
+       ],
+       [
+        60,
+        -1.293
+       ],
+       [
+        80,
+        -1.493
+       ],
+       [
+        100,
+        -1.693
+       ]
+      ],
+      "label": "1",
+      "labelAt": 4,
+      "dx": 10,
+      "dy": -16,
+      "dots": true
+     },
+     {
+      "pts": [
+       [
+        0,
+        -0.693
+       ],
+       [
+        20,
+        -1.293
+       ],
+       [
+        40,
+        -1.893
+       ],
+       [
+        60,
+        -2.493
+       ],
+       [
+        80,
+        -3.093
+       ],
+       [
+        100,
+        -3.693
+       ]
+      ],
+      "label": "2",
+      "labelAt": 3,
+      "dx": -22,
+      "dy": 14,
+      "dots": true
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "Atoms A combine to form A<sub>2</sub> molecules, 2 A → A<sub>2</sub>, and the reaction is SECOND order in A. The boxes show the reaction mixture at t = 0 (16 A atoms) and at t = 10 s (8 A atoms and 4 A<sub>2</sub> molecules). What will the box contain at t = 30 s?",
+  "c": [
+   "4 A and 6 A<sub>2</sub>",
+   "2 A and 7 A<sub>2</sub>",
+   "0 A and 8 A<sub>2</sub>",
+   "8 A and 4 A<sub>2</sub>"
+  ],
+  "h": "For a second-order reaction each half-life is twice as long as the one before it, because t<sub>½</sub> = 1/(k[A]<sub>0</sub>).",
+  "w": "The first half-life (16 → 8 A) took 10 s. For second order the next half-life is twice as long, 20 s, so at t = 30 s A has halved again to 4. The 12 A atoms that reacted form 6 A<sub>2</sub>, so the box holds <b>4 A and 6 A<sub>2</sub></b> (16 atoms in all). 2 A assumes a constant first-order half-life, and 0 A assumes a constant zero-order rate.",
+  "x": [
+   "",
+   "This assumes the half-life stays 10 s, which is first-order behavior. For second order it grows as A is used up.",
+   "This assumes A is used up at a constant rate, which is zero-order behavior.",
+   "The reaction has not stopped. A keeps reacting after 10 s, just more slowly."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 33,
+    "arrow": true,
+    "key": {
+     "A": {
+      "c": "#e0675a",
+      "n": "A atom"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "t = 0",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ]
+      ]
+     },
+     {
+      "cap": "t = 10 s",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "The graph shows the distribution of kinetic energies of reactant molecules at one temperature. The dashed lines mark the activation energy of the reaction with a catalyst (E<sub>a,cat</sub>) and without one (E<sub>a</sub>). The area under the curve is split into regions A, B and C. Which region represents the molecules that have enough energy to react ONLY when the catalyst is present?",
+  "c": [
+   "region B",
+   "region C",
+   "region A",
+   "regions B and C together"
+  ],
+  "h": "Molecules can react if their energy is at least the activation energy of the path they take. Compare the two cutoffs.",
+  "w": "Without the catalyst only molecules beyond E<sub>a</sub> (region C) have enough energy. With the catalyst every molecule beyond E<sub>a,cat</sub> (regions B and C) can react. The extra molecules that react only because of the catalyst are those between the two lines, <b>region B</b>. The catalyst does not change the curve itself; it moves the cutoff.",
+  "x": [
+   "",
+   "Molecules in region C have enough energy to react with or without the catalyst.",
+   "Molecules in region A have less energy than either activation energy, so they cannot react on either path.",
+   "B and C together are all the molecules that can react on the catalyzed path. Some of them could react without the catalyst too."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Kinetic energy",
+     "min": 0,
+     "max": 22,
+     "ticks": []
+    },
+    "y": {
+     "label": "Fraction of molecules",
+     "min": 0,
+     "max": 1.1,
+     "noTicks": true
+    },
+    "regions": [
+     {
+      "pts": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.25,
+        0.5199
+       ],
+       [
+        0.5,
+        0.6955
+       ],
+       [
+        0.75,
+        0.8058
+       ],
+       [
+        1.0,
+        0.8801
+       ],
+       [
+        1.25,
+        0.9308
+       ],
+       [
+        1.5,
+        0.9646
+       ],
+       [
+        1.75,
+        0.9856
+       ],
+       [
+        2.0,
+        0.9967
+       ],
+       [
+        2.25,
+        1.0
+       ],
+       [
+        2.5,
+        0.9971
+       ],
+       [
+        2.75,
+        0.9893
+       ],
+       [
+        3.0,
+        0.9774
+       ],
+       [
+        3.25,
+        0.9624
+       ],
+       [
+        3.5,
+        0.9447
+       ],
+       [
+        3.75,
+        0.925
+       ],
+       [
+        4.0,
+        0.9037
+       ],
+       [
+        4.25,
+        0.8812
+       ],
+       [
+        4.5,
+        0.8578
+       ],
+       [
+        4.75,
+        0.8336
+       ],
+       [
+        5.0,
+        0.8091
+       ],
+       [
+        5.25,
+        0.7843
+       ],
+       [
+        5.5,
+        0.7593
+       ],
+       [
+        5.75,
+        0.7344
+       ],
+       [
+        6.0,
+        0.7097
+       ],
+       [
+        6.25,
+        0.6852
+       ],
+       [
+        6.5,
+        0.661
+       ],
+       [
+        6.75,
+        0.6372
+       ],
+       [
+        7.0,
+        0.6138
+       ],
+       [
+        7.25,
+        0.5909
+       ],
+       [
+        7.5,
+        0.5685
+       ],
+       [
+        7.75,
+        0.5467
+       ],
+       [
+        8.0,
+        0.5254
+       ],
+       [
+        8,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": "#eaf2f8",
+      "label": "A",
+      "at": [
+       4,
+       0.35
+      ]
+     },
+     {
+      "pts": [
+       [
+        8.0,
+        0.5254
+       ],
+       [
+        8.25,
+        0.5048
+       ],
+       [
+        8.5,
+        0.4847
+       ],
+       [
+        8.75,
+        0.4652
+       ],
+       [
+        9.0,
+        0.4463
+       ],
+       [
+        9.25,
+        0.428
+       ],
+       [
+        9.5,
+        0.4103
+       ],
+       [
+        9.75,
+        0.3932
+       ],
+       [
+        10.0,
+        0.3767
+       ],
+       [
+        10.25,
+        0.3607
+       ],
+       [
+        10.5,
+        0.3454
+       ],
+       [
+        10.75,
+        0.3306
+       ],
+       [
+        11.0,
+        0.3163
+       ],
+       [
+        11.25,
+        0.3026
+       ],
+       [
+        11.5,
+        0.2894
+       ],
+       [
+        11.75,
+        0.2767
+       ],
+       [
+        12.0,
+        0.2646
+       ],
+       [
+        12.25,
+        0.2529
+       ],
+       [
+        12.5,
+        0.2416
+       ],
+       [
+        12.75,
+        0.2308
+       ],
+       [
+        13.0,
+        0.2205
+       ],
+       [
+        13.25,
+        0.2106
+       ],
+       [
+        13.5,
+        0.2011
+       ],
+       [
+        13.75,
+        0.192
+       ],
+       [
+        14.0,
+        0.1832
+       ],
+       [
+        14,
+        0
+       ],
+       [
+        8,
+        0
+       ]
+      ],
+      "fill": "#fde9c9",
+      "label": "B",
+      "at": [
+       11,
+       0.1
+      ]
+     },
+     {
+      "pts": [
+       [
+        14.0,
+        0.1832
+       ],
+       [
+        14.25,
+        0.1749
+       ],
+       [
+        14.5,
+        0.1669
+       ],
+       [
+        14.75,
+        0.1592
+       ],
+       [
+        15.0,
+        0.1519
+       ],
+       [
+        15.25,
+        0.1448
+       ],
+       [
+        15.5,
+        0.1381
+       ],
+       [
+        15.75,
+        0.1317
+       ],
+       [
+        16.0,
+        0.1256
+       ],
+       [
+        16.25,
+        0.1197
+       ],
+       [
+        16.5,
+        0.1141
+       ],
+       [
+        16.75,
+        0.1088
+       ],
+       [
+        17.0,
+        0.1037
+       ],
+       [
+        17.25,
+        0.0988
+       ],
+       [
+        17.5,
+        0.0941
+       ],
+       [
+        17.75,
+        0.0897
+       ],
+       [
+        18.0,
+        0.0854
+       ],
+       [
+        18.25,
+        0.0814
+       ],
+       [
+        18.5,
+        0.0775
+       ],
+       [
+        18.75,
+        0.0738
+       ],
+       [
+        19.0,
+        0.0703
+       ],
+       [
+        19.25,
+        0.0669
+       ],
+       [
+        19.5,
+        0.0637
+       ],
+       [
+        19.75,
+        0.0606
+       ],
+       [
+        20.0,
+        0.0577
+       ],
+       [
+        20.25,
+        0.0549
+       ],
+       [
+        20.5,
+        0.0523
+       ],
+       [
+        20.75,
+        0.0498
+       ],
+       [
+        21.0,
+        0.0474
+       ],
+       [
+        21.25,
+        0.0451
+       ],
+       [
+        21.5,
+        0.0429
+       ],
+       [
+        21.75,
+        0.0408
+       ],
+       [
+        22.0,
+        0.0388
+       ],
+       [
+        22,
+        0
+       ],
+       [
+        14,
+        0
+       ]
+      ],
+      "fill": "#f6d5d1",
+      "label": "C",
+      "at": [
+       16.5,
+       0.03
+      ]
+     }
+    ],
+    "series": [
+     {
+      "pts": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.25,
+        0.5199
+       ],
+       [
+        0.5,
+        0.6955
+       ],
+       [
+        0.75,
+        0.8058
+       ],
+       [
+        1.0,
+        0.8801
+       ],
+       [
+        1.25,
+        0.9308
+       ],
+       [
+        1.5,
+        0.9646
+       ],
+       [
+        1.75,
+        0.9856
+       ],
+       [
+        2.0,
+        0.9967
+       ],
+       [
+        2.25,
+        1.0
+       ],
+       [
+        2.5,
+        0.9971
+       ],
+       [
+        2.75,
+        0.9893
+       ],
+       [
+        3.0,
+        0.9774
+       ],
+       [
+        3.25,
+        0.9624
+       ],
+       [
+        3.5,
+        0.9447
+       ],
+       [
+        3.75,
+        0.925
+       ],
+       [
+        4.0,
+        0.9037
+       ],
+       [
+        4.25,
+        0.8812
+       ],
+       [
+        4.5,
+        0.8578
+       ],
+       [
+        4.75,
+        0.8336
+       ],
+       [
+        5.0,
+        0.8091
+       ],
+       [
+        5.25,
+        0.7843
+       ],
+       [
+        5.5,
+        0.7593
+       ],
+       [
+        5.75,
+        0.7344
+       ],
+       [
+        6.0,
+        0.7097
+       ],
+       [
+        6.25,
+        0.6852
+       ],
+       [
+        6.5,
+        0.661
+       ],
+       [
+        6.75,
+        0.6372
+       ],
+       [
+        7.0,
+        0.6138
+       ],
+       [
+        7.25,
+        0.5909
+       ],
+       [
+        7.5,
+        0.5685
+       ],
+       [
+        7.75,
+        0.5467
+       ],
+       [
+        8.0,
+        0.5254
+       ],
+       [
+        8.25,
+        0.5048
+       ],
+       [
+        8.5,
+        0.4847
+       ],
+       [
+        8.75,
+        0.4652
+       ],
+       [
+        9.0,
+        0.4463
+       ],
+       [
+        9.25,
+        0.428
+       ],
+       [
+        9.5,
+        0.4103
+       ],
+       [
+        9.75,
+        0.3932
+       ],
+       [
+        10.0,
+        0.3767
+       ],
+       [
+        10.25,
+        0.3607
+       ],
+       [
+        10.5,
+        0.3454
+       ],
+       [
+        10.75,
+        0.3306
+       ],
+       [
+        11.0,
+        0.3163
+       ],
+       [
+        11.25,
+        0.3026
+       ],
+       [
+        11.5,
+        0.2894
+       ],
+       [
+        11.75,
+        0.2767
+       ],
+       [
+        12.0,
+        0.2646
+       ],
+       [
+        12.25,
+        0.2529
+       ],
+       [
+        12.5,
+        0.2416
+       ],
+       [
+        12.75,
+        0.2308
+       ],
+       [
+        13.0,
+        0.2205
+       ],
+       [
+        13.25,
+        0.2106
+       ],
+       [
+        13.5,
+        0.2011
+       ],
+       [
+        13.75,
+        0.192
+       ],
+       [
+        14.0,
+        0.1832
+       ],
+       [
+        14.25,
+        0.1749
+       ],
+       [
+        14.5,
+        0.1669
+       ],
+       [
+        14.75,
+        0.1592
+       ],
+       [
+        15.0,
+        0.1519
+       ],
+       [
+        15.25,
+        0.1448
+       ],
+       [
+        15.5,
+        0.1381
+       ],
+       [
+        15.75,
+        0.1317
+       ],
+       [
+        16.0,
+        0.1256
+       ],
+       [
+        16.25,
+        0.1197
+       ],
+       [
+        16.5,
+        0.1141
+       ],
+       [
+        16.75,
+        0.1088
+       ],
+       [
+        17.0,
+        0.1037
+       ],
+       [
+        17.25,
+        0.0988
+       ],
+       [
+        17.5,
+        0.0941
+       ],
+       [
+        17.75,
+        0.0897
+       ],
+       [
+        18.0,
+        0.0854
+       ],
+       [
+        18.25,
+        0.0814
+       ],
+       [
+        18.5,
+        0.0775
+       ],
+       [
+        18.75,
+        0.0738
+       ],
+       [
+        19.0,
+        0.0703
+       ],
+       [
+        19.25,
+        0.0669
+       ],
+       [
+        19.5,
+        0.0637
+       ],
+       [
+        19.75,
+        0.0606
+       ],
+       [
+        20.0,
+        0.0577
+       ],
+       [
+        20.25,
+        0.0549
+       ],
+       [
+        20.5,
+        0.0523
+       ],
+       [
+        20.75,
+        0.0498
+       ],
+       [
+        21.0,
+        0.0474
+       ],
+       [
+        21.25,
+        0.0451
+       ],
+       [
+        21.5,
+        0.0429
+       ],
+       [
+        21.75,
+        0.0408
+       ],
+       [
+        22.0,
+        0.0388
+       ]
+      ]
+     }
+    ],
+    "mono": true,
+    "vlines": [
+     {
+      "x": 8,
+      "label": "Eₐ (cat)"
+     },
+     {
+      "x": 14,
+      "label": "Eₐ"
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "Curves 1 and 2 show the distribution of molecular kinetic energies for the same sample of gas under two conditions. Curve 2 is lower and broader, and its peak is at a higher energy; the areas under the two curves are equal. Which change turns distribution 1 into distribution 2?",
+  "c": [
+   "raising the temperature",
+   "lowering the temperature",
+   "adding a catalyst",
+   "adding more of the same gas"
+  ],
+  "h": "Equal areas mean the same number of molecules. What shifts the whole distribution toward higher energies?",
+  "w": "Shifting the peak to higher energy and spreading the curve out means the molecules' average kinetic energy has increased, which happens when you <b>raise the temperature</b>. A catalyst lowers the activation energy but does not change the energy distribution, and adding more gas would make the curve taller, not move its peak.",
+  "x": [
+   "",
+   "Lowering the temperature would make the curve taller and narrower with its peak at a lower energy.",
+   "A catalyst lowers the activation energy, but the energies the molecules have stay the same.",
+   "More molecules would increase the area under the curve. Here the areas are equal."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Kinetic energy",
+     "min": 0,
+     "max": 20,
+     "ticks": []
+    },
+    "y": {
+     "label": "Fraction of molecules",
+     "min": 0,
+     "max": 1.1,
+     "noTicks": true
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.25,
+        0.7275
+       ],
+       [
+        0.5,
+        0.9079
+       ],
+       [
+        0.75,
+        0.9813
+       ],
+       [
+        1.0,
+        1.0
+       ],
+       [
+        1.25,
+        0.9867
+       ],
+       [
+        1.5,
+        0.9538
+       ],
+       [
+        1.75,
+        0.9092
+       ],
+       [
+        2.0,
+        0.8578
+       ],
+       [
+        2.25,
+        0.8029
+       ],
+       [
+        2.5,
+        0.7469
+       ],
+       [
+        2.75,
+        0.6913
+       ],
+       [
+        3.0,
+        0.6372
+       ],
+       [
+        3.25,
+        0.5853
+       ],
+       [
+        3.5,
+        0.536
+       ],
+       [
+        3.75,
+        0.4896
+       ],
+       [
+        4.0,
+        0.4463
+       ],
+       [
+        4.25,
+        0.4059
+       ],
+       [
+        4.5,
+        0.3686
+       ],
+       [
+        4.75,
+        0.3342
+       ],
+       [
+        5.0,
+        0.3026
+       ],
+       [
+        5.25,
+        0.2737
+       ],
+       [
+        5.5,
+        0.2472
+       ],
+       [
+        5.75,
+        0.223
+       ],
+       [
+        6.0,
+        0.2011
+       ],
+       [
+        6.25,
+        0.1811
+       ],
+       [
+        6.5,
+        0.163
+       ],
+       [
+        6.75,
+        0.1466
+       ],
+       [
+        7.0,
+        0.1317
+       ],
+       [
+        7.25,
+        0.1183
+       ],
+       [
+        7.5,
+        0.1062
+       ],
+       [
+        7.75,
+        0.0953
+       ],
+       [
+        8.0,
+        0.0854
+       ],
+       [
+        8.25,
+        0.0765
+       ],
+       [
+        8.5,
+        0.0686
+       ],
+       [
+        8.75,
+        0.0614
+       ],
+       [
+        9.0,
+        0.0549
+       ],
+       [
+        9.25,
+        0.0492
+       ],
+       [
+        9.5,
+        0.044
+       ],
+       [
+        9.75,
+        0.0393
+       ],
+       [
+        10.0,
+        0.0351
+       ],
+       [
+        10.25,
+        0.0314
+       ],
+       [
+        10.5,
+        0.028
+       ],
+       [
+        10.75,
+        0.025
+       ],
+       [
+        11.0,
+        0.0223
+       ],
+       [
+        11.25,
+        0.0199
+       ],
+       [
+        11.5,
+        0.0178
+       ],
+       [
+        11.75,
+        0.0159
+       ],
+       [
+        12.0,
+        0.0142
+       ],
+       [
+        12.25,
+        0.0126
+       ],
+       [
+        12.5,
+        0.0113
+       ],
+       [
+        12.75,
+        0.01
+       ],
+       [
+        13.0,
+        0.0089
+       ],
+       [
+        13.25,
+        0.008
+       ],
+       [
+        13.5,
+        0.0071
+       ],
+       [
+        13.75,
+        0.0063
+       ],
+       [
+        14.0,
+        0.0056
+       ],
+       [
+        14.25,
+        0.005
+       ],
+       [
+        14.5,
+        0.0045
+       ],
+       [
+        14.75,
+        0.004
+       ],
+       [
+        15.0,
+        0.0035
+       ],
+       [
+        15.25,
+        0.0031
+       ],
+       [
+        15.5,
+        0.0028
+       ],
+       [
+        15.75,
+        0.0025
+       ],
+       [
+        16.0,
+        0.0022
+       ],
+       [
+        16.25,
+        0.002
+       ],
+       [
+        16.5,
+        0.0017
+       ],
+       [
+        16.75,
+        0.0016
+       ],
+       [
+        17.0,
+        0.0014
+       ],
+       [
+        17.25,
+        0.0012
+       ],
+       [
+        17.5,
+        0.0011
+       ],
+       [
+        17.75,
+        0.001
+       ],
+       [
+        18.0,
+        0.0009
+       ],
+       [
+        18.25,
+        0.0008
+       ],
+       [
+        18.5,
+        0.0007
+       ],
+       [
+        18.75,
+        0.0006
+       ],
+       [
+        19.0,
+        0.0005
+       ],
+       [
+        19.25,
+        0.0005
+       ],
+       [
+        19.5,
+        0.0004
+       ],
+       [
+        19.75,
+        0.0004
+       ],
+       [
+        20.0,
+        0.0003
+       ]
+      ],
+      "label": "1",
+      "dx": 18,
+      "dy": -6
+     },
+     {
+      "pts": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.25,
+        0.2738
+       ],
+       [
+        0.5,
+        0.3637
+       ],
+       [
+        0.75,
+        0.4185
+       ],
+       [
+        1.0,
+        0.454
+       ],
+       [
+        1.25,
+        0.4768
+       ],
+       [
+        1.5,
+        0.4907
+       ],
+       [
+        1.75,
+        0.4979
+       ],
+       [
+        2.0,
+        0.5
+       ],
+       [
+        2.25,
+        0.4982
+       ],
+       [
+        2.5,
+        0.4933
+       ],
+       [
+        2.75,
+        0.4861
+       ],
+       [
+        3.0,
+        0.4769
+       ],
+       [
+        3.25,
+        0.4663
+       ],
+       [
+        3.5,
+        0.4546
+       ],
+       [
+        3.75,
+        0.442
+       ],
+       [
+        4.0,
+        0.4289
+       ],
+       [
+        4.25,
+        0.4153
+       ],
+       [
+        4.5,
+        0.4014
+       ],
+       [
+        4.75,
+        0.3875
+       ],
+       [
+        5.0,
+        0.3734
+       ],
+       [
+        5.25,
+        0.3595
+       ],
+       [
+        5.5,
+        0.3456
+       ],
+       [
+        5.75,
+        0.332
+       ],
+       [
+        6.0,
+        0.3186
+       ],
+       [
+        6.25,
+        0.3055
+       ],
+       [
+        6.5,
+        0.2926
+       ],
+       [
+        6.75,
+        0.2801
+       ],
+       [
+        7.0,
+        0.268
+       ],
+       [
+        7.25,
+        0.2562
+       ],
+       [
+        7.5,
+        0.2448
+       ],
+       [
+        7.75,
+        0.2338
+       ],
+       [
+        8.0,
+        0.2231
+       ],
+       [
+        8.25,
+        0.2129
+       ],
+       [
+        8.5,
+        0.203
+       ],
+       [
+        8.75,
+        0.1935
+       ],
+       [
+        9.0,
+        0.1843
+       ],
+       [
+        9.25,
+        0.1755
+       ],
+       [
+        9.5,
+        0.1671
+       ],
+       [
+        9.75,
+        0.159
+       ],
+       [
+        10.0,
+        0.1513
+       ],
+       [
+        10.25,
+        0.1439
+       ],
+       [
+        10.5,
+        0.1368
+       ],
+       [
+        10.75,
+        0.1301
+       ],
+       [
+        11.0,
+        0.1236
+       ],
+       [
+        11.25,
+        0.1174
+       ],
+       [
+        11.5,
+        0.1115
+       ],
+       [
+        11.75,
+        0.1059
+       ],
+       [
+        12.0,
+        0.1005
+       ],
+       [
+        12.25,
+        0.0954
+       ],
+       [
+        12.5,
+        0.0905
+       ],
+       [
+        12.75,
+        0.0859
+       ],
+       [
+        13.0,
+        0.0815
+       ],
+       [
+        13.25,
+        0.0773
+       ],
+       [
+        13.5,
+        0.0733
+       ],
+       [
+        13.75,
+        0.0695
+       ],
+       [
+        14.0,
+        0.0659
+       ],
+       [
+        14.25,
+        0.0624
+       ],
+       [
+        14.5,
+        0.0592
+       ],
+       [
+        14.75,
+        0.056
+       ],
+       [
+        15.0,
+        0.0531
+       ],
+       [
+        15.25,
+        0.0503
+       ],
+       [
+        15.5,
+        0.0476
+       ],
+       [
+        15.75,
+        0.0451
+       ],
+       [
+        16.0,
+        0.0427
+       ],
+       [
+        16.25,
+        0.0404
+       ],
+       [
+        16.5,
+        0.0383
+       ],
+       [
+        16.75,
+        0.0362
+       ],
+       [
+        17.0,
+        0.0343
+       ],
+       [
+        17.25,
+        0.0324
+       ],
+       [
+        17.5,
+        0.0307
+       ],
+       [
+        17.75,
+        0.029
+       ],
+       [
+        18.0,
+        0.0275
+       ],
+       [
+        18.25,
+        0.026
+       ],
+       [
+        18.5,
+        0.0246
+       ],
+       [
+        18.75,
+        0.0232
+       ],
+       [
+        19.0,
+        0.022
+       ],
+       [
+        19.25,
+        0.0208
+       ],
+       [
+        19.5,
+        0.0197
+       ],
+       [
+        19.75,
+        0.0186
+       ],
+       [
+        20.0,
+        0.0176
+       ]
+      ],
+      "label": "2",
+      "dx": 18,
+      "dy": -14
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "The graph shows ln k versus 1/T for two reactions, X and Y. Which statement is correct?",
+  "c": [
+   "X has the larger E<sub>a</sub>, so its k changes more with temperature.",
+   "Y has the larger E<sub>a</sub>, because its line lies above X at low temperatures.",
+   "X has the larger E<sub>a</sub>, but its rate constant is less sensitive to temperature.",
+   "The two reactions have equal E<sub>a</sub> values, because their lines cross."
+  ],
+  "h": "For ln k = −(E<sub>a</sub>/R)(1/T) + ln A, the slope is −E<sub>a</sub>/R. Compare steepness, not height.",
+  "w": "Line X is steeper, so −E<sub>a</sub>/R is more negative and <b>X has the larger E<sub>a</sub>; its rate constant changes more for a given temperature change</b>. (From the slopes, E<sub>a</sub> is about 100 kJ mol<sup>−1</sup> for X and 40 kJ mol<sup>−1</sup> for Y.) Which line is higher at a given temperature depends on A as well, and crossing lines only means the two k values are equal at that one temperature.",
+  "x": [
+   "",
+   "Height on the graph reflects the size of k at that temperature, not Ea. Ea comes from the slope.",
+   "A larger Ea makes k more sensitive to temperature, not less. The steeper line shows the bigger change in ln k.",
+   "Crossing only means the two k values match at one temperature. Their different slopes show different Ea values."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "1/T (10⁻³ K⁻¹)",
+     "min": 2.8,
+     "max": 3.6,
+     "ticks": [
+      2.8,
+      3.0,
+      3.2,
+      3.4,
+      3.6
+     ]
+    },
+    "y": {
+     "label": "ln k",
+     "min": -10,
+     "max": 0,
+     "ticks": [
+      -10,
+      -8,
+      -6,
+      -4,
+      -2,
+      0
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        2.8,
+        -0.189
+       ],
+       [
+        3.0,
+        -2.594
+       ],
+       [
+        3.2,
+        -5.0
+       ],
+       [
+        3.4,
+        -7.406
+       ],
+       [
+        3.6,
+        -9.811
+       ]
+      ],
+      "label": "X",
+      "labelAt": 0,
+      "dx": 14,
+      "dy": 6,
+      "dots": true
+     },
+     {
+      "pts": [
+       [
+        2.8,
+        -3.076
+       ],
+       [
+        3.0,
+        -4.038
+       ],
+       [
+        3.2,
+        -5.0
+       ],
+       [
+        3.4,
+        -5.962
+       ],
+       [
+        3.6,
+        -6.924
+       ]
+      ],
+      "label": "Y",
+      "labelAt": 4,
+      "dx": -24,
+      "dy": -14,
+      "dots": true
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "A reaction has an activation energy of 60.0 kJ mol<sup>−1</sup>. Its rate constant is measured at 25.0 °C. To what temperature must the reaction be heated to make the rate constant three times larger? (R = 8.314 J mol<sup>−1</sup> K<sup>−1</sup>)",
+  "c": [
+   "39.2 °C",
+   "31.0 °C",
+   "75.0 °C",
+   "312 °C"
+  ],
+  "h": "Use ln(k<sub>2</sub>/k<sub>1</sub>) = −(E<sub>a</sub>/R)(1/T<sub>2</sub> − 1/T<sub>1</sub>) with temperatures in kelvin and E<sub>a</sub> in J mol<sup>−1</sup>.",
+  "w": "ln 3 = 1.099 = (60 000/8.314)(1/298.15 − 1/T<sub>2</sub>), so 1/T<sub>2</sub> = 3.354×10<sup>−3</sup> − 1.522×10<sup>−4</sup> = 3.202×10<sup>−3</sup> K<sup>−1</sup> and T<sub>2</sub> = 312.3 K = <b>39.2 °C</b>. 31.0 °C uses log 3 in place of ln 3, 75.0 °C simply triples the Celsius temperature, and 312 °C forgets to convert back from kelvin.",
+  "x": [
+   "",
+   "This uses the base 10 log of 3. The Arrhenius equation uses the natural log.",
+   "Rate constants are not proportional to temperature. Use the Arrhenius equation with kelvin temperatures.",
+   "312 is the answer in kelvin. Subtract 273.15 to report it in degrees Celsius."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "Initial-rate data at 25 °C for the reaction of 2-bromo-2-methylpropane, (CH<sub>3</sub>)<sub>3</sub>CBr, with hydroxide ion are given in the table. What is the rate law?",
+  "c": [
+   "rate = k[(CH<sub>3</sub>)<sub>3</sub>CBr]",
+   "rate = k[(CH<sub>3</sub>)<sub>3</sub>CBr][OH<sup>−</sup>]",
+   "rate = k[OH<sup>−</sup>]",
+   "rate = k[(CH<sub>3</sub>)<sub>3</sub>CBr]<sup>2</sup>"
+  ],
+  "h": "Compare trials in which only one concentration changes, and see what happens to the rate.",
+  "w": "Trials 1 and 2: doubling [(CH<sub>3</sub>)<sub>3</sub>CBr] doubles the rate, so it is first order in (CH<sub>3</sub>)<sub>3</sub>CBr. Trials 1 and 3: tripling [OH<sup>−</sup>] leaves the rate unchanged, so it is zero order in OH<sup>−</sup>. So <b>rate = k[(CH<sub>3</sub>)<sub>3</sub>CBr]</b>. Writing [OH<sup>−</sup>] into the rate law just because it appears in the equation is the common mistake.",
+  "x": [
+   "",
+   "Tripling [OH⁻] in trial 3 did not change the rate, so OH⁻ does not appear in the rate law.",
+   "The rate depends on the alkyl bromide, as trials 1 and 2 show. Changing OH⁻ had no effect.",
+   "Doubling the alkyl bromide only doubled the rate. Second order would make it four times faster."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "eq",
+    "text": "(CH<sub>3</sub>)<sub>3</sub>CBr(aq) + OH<sup>−</sup>(aq) → (CH<sub>3</sub>)<sub>3</sub>COH(aq) + Br<sup>−</sup>(aq)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Trial",
+     "[(CH₃)₃CBr]₀ (M)",
+     "[OH⁻]₀ (M)",
+     "Initial rate (M s⁻¹)"
+    ],
+    "rows": [
+     [
+      "1",
+      "0.10",
+      "0.10",
+      "1.0×10⁻³"
+     ],
+     [
+      "2",
+      "0.20",
+      "0.10",
+      "2.0×10⁻³"
+     ],
+     [
+      "3",
+      "0.10",
+      "0.30",
+      "1.0×10⁻³"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "Initial-rate data for the reaction A + B → products are given in the table, with concentrations in M and rates in M s<sup>−1</sup>. What are the units of the rate constant, k?",
+  "c": [
+   "M<sup>−2</sup> s<sup>−1</sup>",
+   "M<sup>−1</sup> s<sup>−1</sup>",
+   "M<sup>−3</sup> s<sup>−1</sup>",
+   "s<sup>−1</sup>"
+  ],
+  "h": "Find the order in each reactant from the data, add them, then make the units of k[A]<sup>x</sup>[B]<sup>y</sup> come out as M s<sup>−1</sup>.",
+  "w": "Tripling [A] (trials 1 and 2) multiplies the rate by 9 = 3<sup>2</sup>, so the reaction is second order in A. Doubling [B] (trials 1 and 3) doubles the rate, so it is first order in B. Rate = k[A]<sup>2</sup>[B] is third order overall, so k has units of (M s<sup>−1</sup>)/M<sup>3</sup> = <b>M<sup>−2</sup> s<sup>−1</sup></b>. M<sup>−1</sup> s<sup>−1</sup> comes from using the equation's coefficients (1 and 1) as orders.",
+  "x": [
+   "",
+   "These units fit a second-order reaction. Check the order in A from trials 1 and 2 again.",
+   "These units fit a fourth-order reaction. The orders from the data add up to less than that.",
+   "Units of s⁻¹ fit a first-order reaction. This reaction depends on both A and B."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Trial",
+     "[A]₀ (M)",
+     "[B]₀ (M)",
+     "Initial rate (M s⁻¹)"
+    ],
+    "rows": [
+     [
+      "1",
+      "0.10",
+      "0.10",
+      "2.0×10⁻³"
+     ],
+     [
+      "2",
+      "0.30",
+      "0.10",
+      "1.8×10⁻²"
+     ],
+     [
+      "3",
+      "0.10",
+      "0.20",
+      "4.0×10⁻³"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "The overall reaction 2 NO<sub>2</sub>Cl(g) → 2 NO<sub>2</sub>(g) + Cl<sub>2</sub>(g) is endothermic. The proposed mechanism is shown. Which energy diagram (I–IV) matches this mechanism?",
+  "c": [
+   "Diagram I",
+   "Diagram II",
+   "Diagram III",
+   "Diagram IV"
+  ],
+  "h": "Count the steps (humps), decide which hump must be higher (the slow step), and check whether the products end above or below the reactants.",
+  "w": "Two steps need two humps with an intermediate (Cl) in the valley between them. The slow first step must have the higher transition state, and an endothermic reaction ends above where it started. <b>Diagram I</b> shows all three. Diagram II ends below the reactants (exothermic), Diagram III makes the second step slow, and Diagram IV has only one step.",
+  "x": [
+   "",
+   "Diagram II ends below the reactants, so it shows an exothermic reaction.",
+   "In Diagram III the second hump is higher, which would make step 2 the slow step.",
+   "Diagram IV has a single hump, so it shows a one-step reaction with no intermediate."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "Step 1 (slow): NO<sub>2</sub>Cl → NO<sub>2</sub> + Cl"
+   },
+   {
+    "type": "eq",
+    "text": "Step 2 (fast): NO<sub>2</sub>Cl + Cl → NO<sub>2</sub> + Cl<sub>2</sub>"
+   },
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     90,
+     50,
+     70,
+     30
+    ],
+    "xlab": "Diagram I"
+   },
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     90,
+     40,
+     60,
+     -30
+    ],
+    "xlab": "Diagram II"
+   },
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     60,
+     40,
+     90,
+     30
+    ],
+    "xlab": "Diagram III"
+   },
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     80,
+     30
+    ],
+    "xlab": "Diagram IV"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "Curves 1 and 2 show the same reaction without and with a catalyst. Which statements are true?<br>I. The catalyzed path forms one intermediate.<br>II. The catalyst lowers the activation energy of the forward reaction by 45 kJ mol<sup>−1</sup>.<br>III. In the catalyzed path, the second step is rate-determining.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Read the energies of the reactants and of each peak. The rate-determining step has the highest transition state.",
+  "w": "I is true: curve 2 has one valley (40 kJ mol<sup>−1</sup>) between its two peaks, so it forms one intermediate. II is true: E<sub>a</sub> drops from 120 − 20 = 100 kJ mol<sup>−1</sup> to 75 − 20 = 55 kJ mol<sup>−1</sup>, a decrease of 45 kJ mol<sup>−1</sup>. III is false: the first peak (75) is higher than the second (60), so step 1 is rate-determining. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is true as well. Compare the peak heights above the reactants for the two curves.",
+   "Statement III is false. The first peak of curve 2 is the higher one, so the first step is rate-determining.",
+   "Statement III is false. The rate-determining step is the one with the highest transition state."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Reaction progress",
+     "min": 0,
+     "max": 10,
+     "ticks": []
+    },
+    "y": {
+     "label": "Energy (kJ mol⁻¹)",
+     "min": -20,
+     "max": 140,
+     "ticks": [
+      -20,
+      0,
+      20,
+      40,
+      60,
+      80,
+      100,
+      120,
+      140
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0.0,
+        20
+       ],
+       [
+        0.25,
+        20
+       ],
+       [
+        0.5,
+        20
+       ],
+       [
+        0.75,
+        20
+       ],
+       [
+        1.0,
+        20
+       ],
+       [
+        1.167,
+        20.43
+       ],
+       [
+        1.333,
+        21.7
+       ],
+       [
+        1.5,
+        23.81
+       ],
+       [
+        1.667,
+        26.7
+       ],
+       [
+        1.833,
+        30.33
+       ],
+       [
+        2.0,
+        34.64
+       ],
+       [
+        2.167,
+        39.56
+       ],
+       [
+        2.333,
+        45.0
+       ],
+       [
+        2.5,
+        50.87
+       ],
+       [
+        2.667,
+        57.06
+       ],
+       [
+        2.833,
+        63.47
+       ],
+       [
+        3.0,
+        70.0
+       ],
+       [
+        3.167,
+        76.53
+       ],
+       [
+        3.333,
+        82.94
+       ],
+       [
+        3.5,
+        89.13
+       ],
+       [
+        3.667,
+        95.0
+       ],
+       [
+        3.833,
+        100.44
+       ],
+       [
+        4.0,
+        105.36
+       ],
+       [
+        4.167,
+        109.67
+       ],
+       [
+        4.333,
+        113.3
+       ],
+       [
+        4.5,
+        116.19
+       ],
+       [
+        4.667,
+        118.3
+       ],
+       [
+        4.833,
+        119.57
+       ],
+       [
+        5.0,
+        120.0
+       ],
+       [
+        5.167,
+        119.44
+       ],
+       [
+        5.333,
+        117.79
+       ],
+       [
+        5.5,
+        115.05
+       ],
+       [
+        5.667,
+        111.29
+       ],
+       [
+        5.833,
+        106.57
+       ],
+       [
+        6.0,
+        100.96
+       ],
+       [
+        6.167,
+        94.57
+       ],
+       [
+        6.333,
+        87.5
+       ],
+       [
+        6.5,
+        79.87
+       ],
+       [
+        6.667,
+        71.82
+       ],
+       [
+        6.833,
+        63.48
+       ],
+       [
+        7.0,
+        55.0
+       ],
+       [
+        7.167,
+        46.52
+       ],
+       [
+        7.333,
+        38.18
+       ],
+       [
+        7.5,
+        30.13
+       ],
+       [
+        7.667,
+        22.5
+       ],
+       [
+        7.833,
+        15.43
+       ],
+       [
+        8.0,
+        9.04
+       ],
+       [
+        8.167,
+        3.43
+       ],
+       [
+        8.333,
+        -1.29
+       ],
+       [
+        8.5,
+        -5.05
+       ],
+       [
+        8.667,
+        -7.79
+       ],
+       [
+        8.833,
+        -9.44
+       ],
+       [
+        9.0,
+        -10.0
+       ],
+       [
+        9.25,
+        -10
+       ],
+       [
+        9.5,
+        -10
+       ],
+       [
+        9.75,
+        -10
+       ],
+       [
+        10.0,
+        -10
+       ]
+      ],
+      "label": "1",
+      "labelAt": 29,
+      "dx": 22,
+      "dy": -6
+     },
+     {
+      "pts": [
+       [
+        0.0,
+        20
+       ],
+       [
+        0.25,
+        20
+       ],
+       [
+        0.5,
+        20
+       ],
+       [
+        0.75,
+        20
+       ],
+       [
+        1.0,
+        20
+       ],
+       [
+        1.083,
+        20.24
+       ],
+       [
+        1.167,
+        20.94
+       ],
+       [
+        1.25,
+        22.09
+       ],
+       [
+        1.333,
+        23.68
+       ],
+       [
+        1.417,
+        25.68
+       ],
+       [
+        1.5,
+        28.05
+       ],
+       [
+        1.583,
+        30.76
+       ],
+       [
+        1.667,
+        33.75
+       ],
+       [
+        1.75,
+        36.98
+       ],
+       [
+        1.833,
+        40.38
+       ],
+       [
+        1.917,
+        43.91
+       ],
+       [
+        2.0,
+        47.5
+       ],
+       [
+        2.083,
+        51.09
+       ],
+       [
+        2.167,
+        54.62
+       ],
+       [
+        2.25,
+        58.02
+       ],
+       [
+        2.333,
+        61.25
+       ],
+       [
+        2.417,
+        64.24
+       ],
+       [
+        2.5,
+        66.95
+       ],
+       [
+        2.583,
+        69.32
+       ],
+       [
+        2.667,
+        71.32
+       ],
+       [
+        2.75,
+        72.91
+       ],
+       [
+        2.833,
+        74.06
+       ],
+       [
+        2.917,
+        74.76
+       ],
+       [
+        3.0,
+        75.0
+       ],
+       [
+        3.083,
+        74.85
+       ],
+       [
+        3.167,
+        74.4
+       ],
+       [
+        3.25,
+        73.67
+       ],
+       [
+        3.333,
+        72.66
+       ],
+       [
+        3.417,
+        71.38
+       ],
+       [
+        3.5,
+        69.87
+       ],
+       [
+        3.583,
+        68.15
+       ],
+       [
+        3.667,
+        66.25
+       ],
+       [
+        3.75,
+        64.2
+       ],
+       [
+        3.833,
+        62.03
+       ],
+       [
+        3.917,
+        59.78
+       ],
+       [
+        4.0,
+        57.5
+       ],
+       [
+        4.083,
+        55.22
+       ],
+       [
+        4.167,
+        52.97
+       ],
+       [
+        4.25,
+        50.8
+       ],
+       [
+        4.333,
+        48.75
+       ],
+       [
+        4.417,
+        46.85
+       ],
+       [
+        4.5,
+        45.13
+       ],
+       [
+        4.583,
+        43.62
+       ],
+       [
+        4.667,
+        42.34
+       ],
+       [
+        4.75,
+        41.33
+       ],
+       [
+        4.833,
+        40.6
+       ],
+       [
+        4.917,
+        40.15
+       ],
+       [
+        5.0,
+        40.0
+       ],
+       [
+        5.083,
+        40.09
+       ],
+       [
+        5.167,
+        40.34
+       ],
+       [
+        5.25,
+        40.76
+       ],
+       [
+        5.333,
+        41.34
+       ],
+       [
+        5.417,
+        42.07
+       ],
+       [
+        5.5,
+        42.93
+       ],
+       [
+        5.583,
+        43.91
+       ],
+       [
+        5.667,
+        45.0
+       ],
+       [
+        5.75,
+        46.17
+       ],
+       [
+        5.833,
+        47.41
+       ],
+       [
+        5.917,
+        48.69
+       ],
+       [
+        6.0,
+        50.0
+       ],
+       [
+        6.083,
+        51.31
+       ],
+       [
+        6.167,
+        52.59
+       ],
+       [
+        6.25,
+        53.83
+       ],
+       [
+        6.333,
+        55.0
+       ],
+       [
+        6.417,
+        56.09
+       ],
+       [
+        6.5,
+        57.07
+       ],
+       [
+        6.583,
+        57.93
+       ],
+       [
+        6.667,
+        58.66
+       ],
+       [
+        6.75,
+        59.24
+       ],
+       [
+        6.833,
+        59.66
+       ],
+       [
+        6.917,
+        59.91
+       ],
+       [
+        7.0,
+        60.0
+       ],
+       [
+        7.083,
+        59.7
+       ],
+       [
+        7.167,
+        58.81
+       ],
+       [
+        7.25,
+        57.34
+       ],
+       [
+        7.333,
+        55.31
+       ],
+       [
+        7.417,
+        52.77
+       ],
+       [
+        7.5,
+        49.75
+       ],
+       [
+        7.583,
+        46.31
+       ],
+       [
+        7.667,
+        42.5
+       ],
+       [
+        7.75,
+        38.39
+       ],
+       [
+        7.833,
+        34.06
+       ],
+       [
+        7.917,
+        29.57
+       ],
+       [
+        8.0,
+        25.0
+       ],
+       [
+        8.083,
+        20.43
+       ],
+       [
+        8.167,
+        15.94
+       ],
+       [
+        8.25,
+        11.61
+       ],
+       [
+        8.333,
+        7.5
+       ],
+       [
+        8.417,
+        3.69
+       ],
+       [
+        8.5,
+        0.25
+       ],
+       [
+        8.583,
+        -2.77
+       ],
+       [
+        8.667,
+        -5.31
+       ],
+       [
+        8.75,
+        -7.34
+       ],
+       [
+        8.833,
+        -8.81
+       ],
+       [
+        8.917,
+        -9.7
+       ],
+       [
+        9.0,
+        -10.0
+       ],
+       [
+        9.25,
+        -10
+       ],
+       [
+        9.5,
+        -10
+       ],
+       [
+        9.75,
+        -10
+       ],
+       [
+        10.0,
+        -10
+       ]
+      ],
+      "label": "2",
+      "labelAt": 77,
+      "dx": 22,
+      "dy": -10,
+      "color": "#e0675a"
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "In the old lead-chamber process, SO<sub>2</sub> is oxidized to SO<sub>3</sub> by the two steps shown. Which identifies the catalyst and the intermediate?",
+  "c": [
+   "NO is the catalyst, and NO<sub>2</sub> is an intermediate.",
+   "NO<sub>2</sub> is the catalyst, and NO is an intermediate.",
+   "O<sub>2</sub> is the catalyst, and NO<sub>2</sub> is an intermediate.",
+   "NO is the catalyst, and SO<sub>3</sub> is an intermediate."
+  ],
+  "h": "Add the steps. A catalyst is used up in an early step and given back later; an intermediate is made first and used up later.",
+  "w": "Adding the steps gives 2 SO<sub>2</sub> + O<sub>2</sub> → 2 SO<sub>3</sub>. <b>NO</b> is consumed in step 1 and regenerated in step 2, so it is the <b>catalyst</b>; <b>NO<sub>2</sub></b> is formed in step 1 and consumed in step 2, so it is an <b>intermediate</b>. O<sub>2</sub> is a reactant and SO<sub>3</sub> is a product of the overall reaction.",
+  "x": [
+   "",
+   "NO₂ is made first and used up later, which is the pattern for an intermediate, not a catalyst.",
+   "O₂ is used up and never given back, so it is a reactant in the overall equation.",
+   "SO₃ is formed and not used up again, so it is a product of the overall reaction."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "eq",
+    "text": "Step 1: 2 NO(g) + O<sub>2</sub>(g) → 2 NO<sub>2</sub>(g)"
+   },
+   {
+    "type": "eq",
+    "text": "Step 2 (occurs twice): NO<sub>2</sub>(g) + SO<sub>2</sub>(g) → NO(g) + SO<sub>3</sub>(g)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "The mechanism shown is proposed for the gas-phase reaction CHCl<sub>3</sub> + Cl<sub>2</sub> → CCl<sub>4</sub> + HCl. What rate law does it predict?",
+  "c": [
+   "rate = k[CHCl<sub>3</sub>][Cl<sub>2</sub>]<sup>1/2</sup>",
+   "rate = k[CHCl<sub>3</sub>][Cl]",
+   "rate = k[CHCl<sub>3</sub>][Cl<sub>2</sub>]",
+   "rate = k[Cl<sub>2</sub>]"
+  ],
+  "h": "Write the rate law for the slow step, then use the fast equilibrium to replace the intermediate Cl with species from the overall equation.",
+  "w": "The slow step gives rate = k<sub>2</sub>[Cl][CHCl<sub>3</sub>]. Cl is an intermediate, so use step 1: K = [Cl]<sup>2</sup>/[Cl<sub>2</sub>], so [Cl] = K<sup>1/2</sup>[Cl<sub>2</sub>]<sup>1/2</sup>. Then <b>rate = k[CHCl<sub>3</sub>][Cl<sub>2</sub>]<sup>1/2</sup></b>. rate = k[CHCl<sub>3</sub>][Cl] still contains the intermediate, and rate = k[CHCl<sub>3</sub>][Cl<sub>2</sub>] uses the overall coefficients.",
+  "x": [
+   "",
+   "Cl is an intermediate, so it cannot appear in the final rate law. Replace it using the fast equilibrium.",
+   "This reads the orders from the overall equation. The orders must come from the slow step and the equilibrium.",
+   "The slow step involves CHCl₃, so its concentration must appear in the rate law."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "Step 1 (fast, reversible): Cl<sub>2</sub>(g) ⇌ 2 Cl(g)"
+   },
+   {
+    "type": "eq",
+    "text": "Step 2 (slow): Cl(g) + CHCl<sub>3</sub>(g) → HCl(g) + CCl<sub>3</sub>(g)"
+   },
+   {
+    "type": "eq",
+    "text": "Step 3 (fast): CCl<sub>3</sub>(g) + Cl(g) → CCl<sub>4</sub>(g)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "The reaction shown has the experimental rate law rate = k[H<sub>2</sub>][ICl]. Which proposed mechanisms are consistent with this rate law?<br>I. Step 1 (slow): H<sub>2</sub> + ICl → HI + HCl; Step 2 (fast): HI + ICl → I<sub>2</sub> + HCl<br>II. A single step: H<sub>2</sub> + 2 ICl → I<sub>2</sub> + 2 HCl<br>III. Step 1 (fast, reversible): 2 ICl ⇌ I<sub>2</sub> + Cl<sub>2</sub>; Step 2 (slow): H<sub>2</sub> + Cl<sub>2</sub> → 2 HCl",
+  "c": [
+   "I only",
+   "I and II only",
+   "II only",
+   "I and III only"
+  ],
+  "h": "Write the rate law each mechanism predicts from its slow step (replace any intermediate) and compare it with k[H<sub>2</sub>][ICl].",
+  "w": "I is consistent: its slow step H<sub>2</sub> + ICl gives rate = k[H<sub>2</sub>][ICl], and its steps add to the overall equation. II is not: a single termolecular step would give rate = k[H<sub>2</sub>][ICl]<sup>2</sup>. III is not: the slow step gives k[H<sub>2</sub>][Cl<sub>2</sub>], and replacing the intermediate Cl<sub>2</sub> gives k[H<sub>2</sub>][ICl]<sup>2</sup>/[I<sub>2</sub>]. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Mechanism II is a single elementary step with two ICl, so it predicts second order in ICl.",
+   "Mechanism II predicts rate = k[H₂][ICl]², which does not match. Look again at mechanism I.",
+   "Mechanism III gives second order in ICl once the intermediate Cl₂ is replaced, so it does not fit."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "H<sub>2</sub>(g) + 2 ICl(g) → I<sub>2</sub>(g) + 2 HCl(g)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "The first-order reaction A → 2 B is started with [A]<sub>0</sub> = 0.40 M and no B. The graph shows [B] versus time. What is the rate constant?",
+  "c": [
+   "0.014 s<sup>−1</sup>",
+   "0.033 s<sup>−1</sup>",
+   "0.020 s<sup>−1</sup>",
+   "0.0069 s<sup>−1</sup>"
+  ],
+  "h": "Half of A has reacted when [B] reaches half of its final value. Find that time, then use k = ln 2/t<sub>½</sub>.",
+  "w": "Each A gives 2 B, so [B] climbs toward 0.80 M. Half of A (0.20 M) has reacted when [B] = 0.40 M, which the graph shows at 50 s. So t<sub>½</sub> = 50 s and k = ln 2/50 s = <b>0.014 s<sup>−1</sup></b>. 0.033 s<sup>−1</sup> takes the half-life as the time when [B] = 0.20 M (only a quarter of A has reacted), and 0.020 s<sup>−1</sup> uses k = 1/t<sub>½</sub>.",
+  "x": [
+   "",
+   "At [B] = 0.20 M only 0.10 M of A has reacted, a quarter of it. Half of A is gone when [B] = 0.40 M.",
+   "This uses k = 1 ÷ t½. For a first-order reaction k = ln 2 ÷ t½.",
+   "This uses a half-life of 100 s. Read the time when [B] reaches half its final value."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (s)",
+     "min": 0,
+     "max": 200,
+     "ticks": [
+      0,
+      25,
+      50,
+      75,
+      100,
+      125,
+      150,
+      175,
+      200
+     ]
+    },
+    "y": {
+     "label": "[B] (M)",
+     "min": 0,
+     "max": 0.9,
+     "ticks": [
+      0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.0
+       ],
+       [
+        10,
+        0.1036
+       ],
+       [
+        20,
+        0.1937
+       ],
+       [
+        30,
+        0.2722
+       ],
+       [
+        40,
+        0.3405
+       ],
+       [
+        50,
+        0.4
+       ],
+       [
+        60,
+        0.4518
+       ],
+       [
+        70,
+        0.4969
+       ],
+       [
+        80,
+        0.5361
+       ],
+       [
+        90,
+        0.5703
+       ],
+       [
+        100,
+        0.6
+       ],
+       [
+        110,
+        0.6259
+       ],
+       [
+        120,
+        0.6484
+       ],
+       [
+        130,
+        0.668
+       ],
+       [
+        140,
+        0.6851
+       ],
+       [
+        150,
+        0.7
+       ],
+       [
+        160,
+        0.7129
+       ],
+       [
+        170,
+        0.7242
+       ],
+       [
+        180,
+        0.734
+       ],
+       [
+        190,
+        0.7426
+       ],
+       [
+        200,
+        0.75
+       ]
+      ]
+     }
+    ],
+    "hlines": [
+     {
+      "y": 0.8,
+      "label": "0.80 M"
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "For three different reactions, each with a single reactant A, the graph shows the initial rate measured at several values of [A]. What is the order of each reaction in A?",
+  "c": [
+   "1 zero order, 2 first order, 3 second order",
+   "1 first order, 2 second order, 3 zero order",
+   "1 zero order, 2 second order, 3 first order",
+   "1 second order, 2 first order, 3 zero order"
+  ],
+  "h": "Rate = k[A]<sup>n</sup>. What does the graph of rate versus [A] look like for n = 0, 1 and 2?",
+  "w": "Curve 1 is flat: the rate does not depend on [A], so it is zero order. Curve 2 is a straight line through the origin: rate is proportional to [A], first order. Curve 3 bends upward: doubling [A] quadruples the rate, second order. So the orders are <b>1 zero, 2 first, 3 second</b>.",
+  "x": [
+   "",
+   "A flat line means the rate does not change with [A], which is zero order, not first order.",
+   "A straight line through the origin means rate is proportional to [A], which is first order.",
+   "A flat line shows no dependence on [A] at all, so curve 1 cannot be second order."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "[A] (M)",
+     "min": 0,
+     "max": 0.5,
+     "ticks": [
+      0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+     ]
+    },
+    "y": {
+     "label": "Initial rate (10⁻³ M s⁻¹)",
+     "min": 0,
+     "max": 12,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0.0,
+        3
+       ],
+       [
+        0.025,
+        3
+       ],
+       [
+        0.05,
+        3
+       ],
+       [
+        0.075,
+        3
+       ],
+       [
+        0.1,
+        3
+       ],
+       [
+        0.125,
+        3
+       ],
+       [
+        0.15,
+        3
+       ],
+       [
+        0.175,
+        3
+       ],
+       [
+        0.2,
+        3
+       ],
+       [
+        0.225,
+        3
+       ],
+       [
+        0.25,
+        3
+       ],
+       [
+        0.275,
+        3
+       ],
+       [
+        0.3,
+        3
+       ],
+       [
+        0.325,
+        3
+       ],
+       [
+        0.35,
+        3
+       ],
+       [
+        0.375,
+        3
+       ],
+       [
+        0.4,
+        3
+       ],
+       [
+        0.425,
+        3
+       ],
+       [
+        0.45,
+        3
+       ],
+       [
+        0.475,
+        3
+       ],
+       [
+        0.5,
+        3
+       ]
+      ],
+      "label": "1",
+      "labelAt": 2,
+      "dx": 4,
+      "dy": -16
+     },
+     {
+      "pts": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.025,
+        0.3
+       ],
+       [
+        0.05,
+        0.6
+       ],
+       [
+        0.075,
+        0.9
+       ],
+       [
+        0.1,
+        1.2
+       ],
+       [
+        0.125,
+        1.5
+       ],
+       [
+        0.15,
+        1.8
+       ],
+       [
+        0.175,
+        2.1
+       ],
+       [
+        0.2,
+        2.4
+       ],
+       [
+        0.225,
+        2.7
+       ],
+       [
+        0.25,
+        3.0
+       ],
+       [
+        0.275,
+        3.3
+       ],
+       [
+        0.3,
+        3.6
+       ],
+       [
+        0.325,
+        3.9
+       ],
+       [
+        0.35,
+        4.2
+       ],
+       [
+        0.375,
+        4.5
+       ],
+       [
+        0.4,
+        4.8
+       ],
+       [
+        0.425,
+        5.1
+       ],
+       [
+        0.45,
+        5.4
+       ],
+       [
+        0.475,
+        5.7
+       ],
+       [
+        0.5,
+        6.0
+       ]
+      ],
+      "label": "2",
+      "labelAt": 20,
+      "dx": -22,
+      "dy": 16
+     },
+     {
+      "pts": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.025,
+        0.025
+       ],
+       [
+        0.05,
+        0.1
+       ],
+       [
+        0.075,
+        0.225
+       ],
+       [
+        0.1,
+        0.4
+       ],
+       [
+        0.125,
+        0.625
+       ],
+       [
+        0.15,
+        0.9
+       ],
+       [
+        0.175,
+        1.225
+       ],
+       [
+        0.2,
+        1.6
+       ],
+       [
+        0.225,
+        2.025
+       ],
+       [
+        0.25,
+        2.5
+       ],
+       [
+        0.275,
+        3.025
+       ],
+       [
+        0.3,
+        3.6
+       ],
+       [
+        0.325,
+        4.225
+       ],
+       [
+        0.35,
+        4.9
+       ],
+       [
+        0.375,
+        5.625
+       ],
+       [
+        0.4,
+        6.4
+       ],
+       [
+        0.425,
+        7.225
+       ],
+       [
+        0.45,
+        8.1
+       ],
+       [
+        0.475,
+        9.025
+       ],
+       [
+        0.5,
+        10.0
+       ]
+      ],
+      "label": "3",
+      "labelAt": 20,
+      "dx": -22,
+      "dy": -4
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "The isomerization A ⇌ B occurs in a single elementary step in each direction. Starting with pure A, the graph shows [A] and [B] versus time. The forward rate constant is k<sub>f</sub> = 0.030 s<sup>−1</sup>. What is the reverse rate constant, k<sub>r</sub>?",
+  "c": [
+   "0.010 s<sup>−1</sup>",
+   "0.090 s<sup>−1</sup>",
+   "0.030 s<sup>−1</sup>",
+   "0.040 s<sup>−1</sup>"
+  ],
+  "h": "At equilibrium the forward and reverse rates are equal, so K = k<sub>f</sub>/k<sub>r</sub>. Read K from the flat parts of the curves.",
+  "w": "The curves level off at [A] = 0.20 M and [B] = 0.60 M, so K = 0.60/0.20 = 3.0. At equilibrium k<sub>f</sub>[A] = k<sub>r</sub>[B], so K = k<sub>f</sub>/k<sub>r</sub> and k<sub>r</sub> = 0.030/3.0 = <b>0.010 s<sup>−1</sup></b>. 0.090 s<sup>−1</sup> multiplies by K instead of dividing, and 0.030 s<sup>−1</sup> confuses equal RATES with equal rate CONSTANTS.",
+  "x": [
+   "",
+   "This multiplies kf by K. Since K = kf ÷ kr, divide kf by K instead.",
+   "At equilibrium the rates are equal, not the rate constants. Unequal concentrations mean unequal k values.",
+   "This adds kf and kr together. Use K = kf ÷ kr with K read from the graph."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (s)",
+     "min": 0,
+     "max": 150,
+     "ticks": [
+      0,
+      25,
+      50,
+      75,
+      100,
+      125,
+      150
+     ]
+    },
+    "y": {
+     "label": "Concentration (M)",
+     "min": 0,
+     "max": 0.9,
+     "ticks": [
+      0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.8
+       ],
+       [
+        5,
+        0.6912
+       ],
+       [
+        10,
+        0.6022
+       ],
+       [
+        15,
+        0.5293
+       ],
+       [
+        20,
+        0.4696
+       ],
+       [
+        25,
+        0.4207
+       ],
+       [
+        30,
+        0.3807
+       ],
+       [
+        35,
+        0.348
+       ],
+       [
+        40,
+        0.3211
+       ],
+       [
+        45,
+        0.2992
+       ],
+       [
+        50,
+        0.2812
+       ],
+       [
+        55,
+        0.2665
+       ],
+       [
+        60,
+        0.2544
+       ],
+       [
+        65,
+        0.2446
+       ],
+       [
+        70,
+        0.2365
+       ],
+       [
+        75,
+        0.2299
+       ],
+       [
+        80,
+        0.2245
+       ],
+       [
+        85,
+        0.22
+       ],
+       [
+        90,
+        0.2164
+       ],
+       [
+        95,
+        0.2134
+       ],
+       [
+        100,
+        0.211
+       ],
+       [
+        105,
+        0.209
+       ],
+       [
+        110,
+        0.2074
+       ],
+       [
+        115,
+        0.206
+       ],
+       [
+        120,
+        0.2049
+       ],
+       [
+        125,
+        0.204
+       ],
+       [
+        130,
+        0.2033
+       ],
+       [
+        135,
+        0.2027
+       ],
+       [
+        140,
+        0.2022
+       ],
+       [
+        145,
+        0.2018
+       ],
+       [
+        150,
+        0.2015
+       ]
+      ],
+      "label": "[A]",
+      "labelAt": 4,
+      "dx": 16,
+      "dy": -10
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.0
+       ],
+       [
+        5,
+        0.1088
+       ],
+       [
+        10,
+        0.1978
+       ],
+       [
+        15,
+        0.2707
+       ],
+       [
+        20,
+        0.3304
+       ],
+       [
+        25,
+        0.3793
+       ],
+       [
+        30,
+        0.4193
+       ],
+       [
+        35,
+        0.452
+       ],
+       [
+        40,
+        0.4789
+       ],
+       [
+        45,
+        0.5008
+       ],
+       [
+        50,
+        0.5188
+       ],
+       [
+        55,
+        0.5335
+       ],
+       [
+        60,
+        0.5456
+       ],
+       [
+        65,
+        0.5554
+       ],
+       [
+        70,
+        0.5635
+       ],
+       [
+        75,
+        0.5701
+       ],
+       [
+        80,
+        0.5755
+       ],
+       [
+        85,
+        0.58
+       ],
+       [
+        90,
+        0.5836
+       ],
+       [
+        95,
+        0.5866
+       ],
+       [
+        100,
+        0.589
+       ],
+       [
+        105,
+        0.591
+       ],
+       [
+        110,
+        0.5926
+       ],
+       [
+        115,
+        0.594
+       ],
+       [
+        120,
+        0.5951
+       ],
+       [
+        125,
+        0.596
+       ],
+       [
+        130,
+        0.5967
+       ],
+       [
+        135,
+        0.5973
+       ],
+       [
+        140,
+        0.5978
+       ],
+       [
+        145,
+        0.5982
+       ],
+       [
+        150,
+        0.5985
+       ]
+      ],
+      "label": "[B]",
+      "labelAt": 4,
+      "dx": 16,
+      "dy": 14
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "kinetics",
+  "q": "For the reaction 2 A → products, a graph of 1/[A] versus time is the straight line shown. How long after the start does [A] fall to 0.050 M?",
+  "c": [
+   "360 s",
+   "400 s",
+   "133 s",
+   "36 s"
+  ],
+  "h": "Read the intercept (1/[A]<sub>0</sub>) and the slope (k) from the line, then use the second-order integrated rate law.",
+  "w": "The line gives 1/[A]<sub>0</sub> = 2.0 M<sup>−1</sup> ([A]<sub>0</sub> = 0.50 M) and slope k = (12.0 − 2.0)/200 s = 0.050 M<sup>−1</sup> s<sup>−1</sup>. When [A] = 0.050 M, 1/[A] = 20 M<sup>−1</sup>, so t = (20 − 2.0)/0.050 = <b>360 s</b>. 400 s ignores the intercept, and 133 s assumes a constant half-life of 40 s, which only first-order reactions have.",
+  "x": [
+   "",
+   "This leaves out the starting value 1/[A]₀ = 2.0 M⁻¹. Subtract it before dividing by k.",
+   "This assumes each half-life is the same 40 s, which is first-order behavior. A linear 1/[A] plot means the half-life keeps growing.",
+   "Check the units. Divide the change in 1/[A] by the slope, which has units of M⁻¹ s⁻¹."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (s)",
+     "min": 0,
+     "max": 200,
+     "ticks": [
+      0,
+      40,
+      80,
+      120,
+      160,
+      200
+     ]
+    },
+    "y": {
+     "label": "1/[A] (M⁻¹)",
+     "min": 0,
+     "max": 14,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        2.0
+       ],
+       [
+        40,
+        4.0
+       ],
+       [
+        80,
+        6.0
+       ],
+       [
+        120,
+        8.0
+       ],
+       [
+        160,
+        10.0
+       ],
+       [
+        200,
+        12.0
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ }
+]

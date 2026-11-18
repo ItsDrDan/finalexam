@@ -1,0 +1,1166 @@
+[
+ {
+  "t": "reactions",
+  "q": "Solutions of MgCl<sub>2</sub> and NaOH were mixed, and Mg(OH)<sub>2</sub>(s) formed by the reaction shown. The box shows everything present after the reaction stopped (water not shown). Each cluster of one Mg<sup>2+</sup> with two OH<sup>−</sup> is one unit of the solid. How many formula units of each reactant were mixed?",
+  "c": [
+   "4 MgCl<sub>2</sub> and 6 NaOH",
+   "3 MgCl<sub>2</sub> and 6 NaOH",
+   "4 MgCl<sub>2</sub> and 8 NaOH",
+   "4 MgCl<sub>2</sub> and 3 NaOH"
+  ],
+  "h": "Atoms and ions are conserved. Count every Mg²⁺, Cl⁻, Na⁺ and OH⁻ in the box, both in the solid and dissolved.",
+  "w": "The box holds 3 Mg(OH)<sub>2</sub> units plus 1 dissolved Mg<sup>2+</sup>, 6 Na<sup>+</sup> and 8 Cl<sup>−</sup>. Total Mg<sup>2+</sup> = 4 and Cl<sup>−</sup> = 8, which is 4 MgCl<sub>2</sub>. Total OH<sup>−</sup> = 6 (all in the solid) and Na<sup>+</sup> = 6, which is 6 NaOH. So <b>4 MgCl<sub>2</sub> and 6 NaOH</b> were mixed, and MgCl<sub>2</sub> was in excess (1 Mg<sup>2+</sup> is left over). Answers with 3 MgCl<sub>2</sub> miss the leftover Mg<sup>2+</sup>, and 8 NaOH would need 8 Na<sup>+</sup>.",
+  "x": [
+   "",
+   "This counts only the Mg²⁺ in the solid. One Mg²⁺ ion is still dissolved, and it came from the reactants too.",
+   "The number of NaOH units equals the number of Na⁺ ions, not the number of Cl⁻ ions. Count the Na⁺ again.",
+   "Each Mg(OH)₂ unit contains two OH⁻ ions, and each OH⁻ came from one NaOH."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "MgCl<sub>2</sub>(aq) + 2 NaOH(aq) → Mg(OH)<sub>2</sub>(s) + 2 NaCl(aq)"
+   },
+   {
+    "type": "particles",
+    "seed": 21,
+    "key": {
+     "Mg": {
+      "c": "#5aa469",
+      "n": "Mg²⁺",
+      "q": "+"
+     },
+     "OH": {
+      "c": "#9b7fd1",
+      "n": "OH⁻",
+      "q": "−"
+     },
+     "Na": {
+      "c": "#3b82b4",
+      "n": "Na⁺",
+      "q": "+",
+      "r": 9
+     },
+     "Cl": {
+      "c": "#f2c14e",
+      "n": "Cl⁻",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "After reaction",
+      "water": true,
+      "mols": [
+       [
+        "Mg",
+        "OH",
+        "OH"
+       ],
+       [
+        "Mg",
+        "OH",
+        "OH"
+       ],
+       [
+        "Mg",
+        "OH",
+        "OH"
+       ],
+       [
+        "Mg"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "The two boxes show the ions in a sample of HCl(aq) and a sample of Ba(OH)<sub>2</sub>(aq) (water not shown, except water formed by reaction). The samples are mixed and react completely. Which box (I–IV) best represents the mixture after reaction?",
+  "c": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "h": "H⁺ and OH⁻ combine one to one to make H₂O. Find which ion runs out first and what is left over. Spectator ions stay dissolved.",
+  "w": "The HCl sample has 4 H<sup>+</sup> and 4 Cl<sup>−</sup>; the Ba(OH)<sub>2</sub> sample has 3 Ba<sup>2+</sup> and 6 OH<sup>−</sup>. The net reaction is H<sup>+</sup> + OH<sup>−</sup> → H<sub>2</sub>O, so 4 H<sup>+</sup> react with 4 OH<sup>−</sup> to make 4 H<sub>2</sub>O, and 2 OH<sup>−</sup> are left. Ba<sup>2+</sup> and Cl<sup>−</sup> are spectators. Box <b>I</b> shows 3 Ba<sup>2+</sup>, 4 Cl<sup>−</sup>, 2 OH<sup>−</sup> and 4 H<sub>2</sub>O. Box II shows no reaction, box III leaves H<sup>+</sup> instead of OH<sup>−</sup>, and box IV makes more water than there was H<sup>+</sup> to make it.",
+  "x": [
+   "",
+   "Box II shows the ions just mixed, with no reaction. H⁺ and OH⁻ cannot stay together in large numbers because they combine to form water.",
+   "Box III leaves H⁺ over. Compare the 4 H⁺ with the 6 OH⁻ to see which ion is used up first.",
+   "Box IV shows 6 water molecules, but only 4 H⁺ ions were present to make water. Hydrogen atoms are not conserved there."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 31,
+    "key": {
+     "H": {
+      "c": "#f2c14e",
+      "n": "H⁺ (H₃O⁺)",
+      "q": "+",
+      "r": 8
+     },
+     "Cl": {
+      "c": "#5aa469",
+      "n": "Cl⁻",
+      "q": "−"
+     },
+     "Ba": {
+      "c": "#3b82b4",
+      "n": "Ba²⁺",
+      "q": "+",
+      "r": 12
+     },
+     "OH": {
+      "c": "#9b7fd1",
+      "n": "OH⁻",
+      "q": "−"
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O in H₂O"
+     },
+     "h": {
+      "c": "#e8edf1",
+      "n": "H in H₂O",
+      "r": 7
+     }
+    },
+    "boxes": [
+     {
+      "cap": "HCl(aq)",
+      "water": true,
+      "mols": [
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ]
+      ]
+     },
+     {
+      "cap": "Ba(OH)₂(aq)",
+      "water": true,
+      "mols": [
+       [
+        "Ba"
+       ],
+       [
+        "Ba"
+       ],
+       [
+        "Ba"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "particles",
+    "seed": 32,
+    "key": {
+     "H": {
+      "c": "#f2c14e",
+      "n": "H⁺ (H₃O⁺)",
+      "q": "+",
+      "r": 8
+     },
+     "Cl": {
+      "c": "#5aa469",
+      "n": "Cl⁻",
+      "q": "−"
+     },
+     "Ba": {
+      "c": "#3b82b4",
+      "n": "Ba²⁺",
+      "q": "+",
+      "r": 12
+     },
+     "OH": {
+      "c": "#9b7fd1",
+      "n": "OH⁻",
+      "q": "−"
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O in H₂O"
+     },
+     "h": {
+      "c": "#e8edf1",
+      "n": "H in H₂O",
+      "r": 7
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "water": true,
+      "mols": [
+       [
+        "Ba"
+       ],
+       [
+        "Ba"
+       ],
+       [
+        "Ba"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "water": true,
+      "mols": [
+       [
+        "Ba"
+       ],
+       [
+        "Ba"
+       ],
+       [
+        "Ba"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "water": true,
+      "mols": [
+       [
+        "Ba"
+       ],
+       [
+        "Ba"
+       ],
+       [
+        "Ba"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "H"
+       ],
+       [
+        "H"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "water": true,
+      "mols": [
+       [
+        "Ba"
+       ],
+       [
+        "Ba"
+       ],
+       [
+        "Ba"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ],
+       [
+        "O",
+        "h",
+        "h"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Dichromate ion oxidizes iron(II) ion in acid by the reaction shown. Which statements are true?<br>I. Fe<sup>2+</sup> is the reducing agent.<br>II. Each chromium atom gains three electrons.<br>III. H<sup>+</sup> is oxidized.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Assign oxidation numbers to Cr, Fe and H on both sides. The reducing agent is the species that is oxidized.",
+  "w": "Fe goes from +2 to +3, so Fe<sup>2+</sup> loses electrons, is oxidized, and is the reducing agent: I is true. Cr goes from +6 in Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup> to +3 in Cr<sup>3+</sup>, a gain of 3 electrons per Cr atom (6 per dichromate ion, matching the 6 Fe<sup>2+</sup>): II is true. H stays +1 in H<sup>+</sup> and in H<sub>2</sub>O, so III is false. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is true as well. Find the oxidation number of Cr in Cr₂O₇²⁻ and compare it with Cr³⁺.",
+   "Statement III is false. Hydrogen is +1 in H⁺ and still +1 in H₂O, so it is neither oxidized nor reduced.",
+   "Statement III is false. H⁺ supplies hydrogen for the water but its oxidation number does not change."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup>(aq) + 6 Fe<sup>2+</sup>(aq) + 14 H<sup>+</sup>(aq) → 2 Cr<sup>3+</sup>(aq) + 6 Fe<sup>3+</sup>(aq) + 7 H<sub>2</sub>O(l)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Phosphoric acid, a weak acid, is completely neutralized by sodium hydroxide as shown. What is the net ionic equation?",
+  "c": [
+   "H<sub>3</sub>PO<sub>4</sub>(aq) + 3 OH<sup>−</sup>(aq) → PO<sub>4</sub><sup>3−</sup>(aq) + 3 H<sub>2</sub>O(l)",
+   "3 H<sup>+</sup>(aq) + 3 OH<sup>−</sup>(aq) → 3 H<sub>2</sub>O(l)",
+   "H<sub>3</sub>PO<sub>4</sub>(aq) + OH<sup>−</sup>(aq) → H<sub>2</sub>PO<sub>4</sub><sup>−</sup>(aq) + H<sub>2</sub>O(l)",
+   "3 Na<sup>+</sup>(aq) + PO<sub>4</sub><sup>3−</sup>(aq) → Na<sub>3</sub>PO<sub>4</sub>(aq)"
+  ],
+  "h": "A weak acid is mostly un-ionized in water, so it is written as a molecule. Strong bases and soluble salts are written as ions.",
+  "w": "NaOH and Na<sub>3</sub>PO<sub>4</sub> are strong electrolytes and split into ions, while H<sub>3</sub>PO<sub>4</sub> is weak and stays as a molecule. Canceling the 3 Na<sup>+</sup> spectators gives <b>H<sub>3</sub>PO<sub>4</sub>(aq) + 3 OH<sup>−</sup>(aq) → PO<sub>4</sub><sup>3−</sup>(aq) + 3 H<sub>2</sub>O(l)</b>. Writing 3 H<sup>+</sup> treats the acid as strong, the single-OH<sup>−</sup> equation is only the first step of the neutralization, and the Na<sup>+</sup> equation describes no reaction at all.",
+  "x": [
+   "",
+   "This treats phosphoric acid as a strong acid that is fully ionized. A weak acid is written as the intact molecule.",
+   "This removes only one H⁺. The equation shows complete neutralization with three NaOH.",
+   "Na⁺ and PO₄³⁻ stay dissolved as ions on both sides, so this is not a reaction that takes place."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "H<sub>3</sub>PO<sub>4</sub>(aq) + 3 NaOH(aq) → Na<sub>3</sub>PO<sub>4</sub>(aq) + 3 H<sub>2</sub>O(l)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "A 0.500 g sample of lawn fertilizer is dissolved in water, and excess BaCl<sub>2</sub>(aq) is added. All of the sulfate precipitates as BaSO<sub>4</sub> by the reaction shown, and the dried solid weighs 0.7015 g. If all of the sulfate came from (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, what is the mass percent of (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub> in the fertilizer?",
+  "c": [
+   "79.4%",
+   "57.7%",
+   "39.7%",
+   "140.%"
+  ],
+  "h": "Convert the mass of BaSO₄ to moles. One mole of BaSO₄ comes from one mole of (NH₄)₂SO₄.",
+  "w": "mol BaSO<sub>4</sub> = 0.7015 g ÷ 233.39 g mol<sup>−1</sup> = 3.006×10<sup>−3</sup> mol = mol (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>. Mass = 3.006×10<sup>−3</sup> mol × 132.14 g mol<sup>−1</sup> = 0.3972 g, and 0.3972 g ÷ 0.500 g × 100% = <b>79.4%</b>. 57.7% is the percent of sulfate ion alone, 39.7% divides by 1 g instead of the sample mass, and 140.% compares the mass of the precipitate itself with the sample.",
+  "x": [
+   "",
+   "This is the mass percent of the sulfate ion only. The question asks for the whole ammonium sulfate compound.",
+   "Divide by the actual sample mass, 0.500 g, when finding the percent.",
+   "A percent over 100 cannot be right. The precipitate is BaSO₄, which must be converted to the mass of ammonium sulfate first."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>(aq) + BaCl<sub>2</sub>(aq) → BaSO<sub>4</sub>(s) + 2 NH<sub>4</sub>Cl(aq)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "Molar mass (g mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "BaSO<sub>4</sub>",
+      "233.39"
+     ],
+     [
+      "(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>",
+      "132.14"
+     ],
+     [
+      "SO<sub>4</sub><sup>2−</sup>",
+      "96.06"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "A 25.00 mL sample of an iron(II) solution is titrated with 0.02000 M KMnO<sub>4</sub> in acid by the reaction shown. The purple color first stays after 18.40 mL is added. What is the molarity of Fe<sup>2+</sup> in the sample?",
+  "c": [
+   "0.07360 M",
+   "0.01472 M",
+   "0.002944 M",
+   "0.1359 M"
+  ],
+  "h": "Find the moles of MnO₄⁻ used, then use the mole ratio in the balanced equation. Each MnO₄⁻ reacts with more than one Fe²⁺.",
+  "w": "mol MnO<sub>4</sub><sup>−</sup> = 0.01840 L × 0.02000 M = 3.680×10<sup>−4</sup> mol. From the equation, 5 Fe<sup>2+</sup> react per MnO<sub>4</sub><sup>−</sup>: 5 × 3.680×10<sup>−4</sup> = 1.840×10<sup>−3</sup> mol Fe<sup>2+</sup>. [Fe<sup>2+</sup>] = 1.840×10<sup>−3</sup> mol ÷ 0.02500 L = <b>0.07360 M</b>. 0.01472 M ignores the 5 : 1 ratio, 0.002944 M divides by 5 instead of multiplying, and 0.1359 M swaps the two volumes.",
+  "x": [
+   "",
+   "This uses a 1 : 1 ratio. Check the coefficients of Fe²⁺ and MnO₄⁻ in the equation.",
+   "This divides by the ratio instead of multiplying. Each MnO₄⁻ consumes several Fe²⁺ ions, so there are more moles of Fe²⁺ than of MnO₄⁻.",
+   "The two volumes are swapped. The permanganate volume goes with the permanganate molarity, and the Fe²⁺ moles are divided by the sample volume."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "MnO<sub>4</sub><sup>−</sup>(aq) + 5 Fe<sup>2+</sup>(aq) + 8 H<sup>+</sup>(aq) → Mn<sup>2+</sup>(aq) + 5 Fe<sup>3+</sup>(aq) + 4 H<sub>2</sub>O(l)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solutions",
+  "q": "15.0 g of aluminum nitrate, Al(NO<sub>3</sub>)<sub>3</sub>, is dissolved in water and diluted to 250.0 mL. What is the concentration of nitrate ion, NO<sub>3</sub><sup>−</sup>, in the solution?",
+  "c": [
+   "0.845 M",
+   "0.282 M",
+   "1.13 M",
+   "0.0704 M"
+  ],
+  "h": "First find the molarity of the salt. Then use the formula: count how many NO₃⁻ ions each formula unit releases.",
+  "w": "mol Al(NO<sub>3</sub>)<sub>3</sub> = 15.0 g ÷ 213.01 g mol<sup>−1</sup> = 0.0704 mol, so the salt is 0.0704 mol ÷ 0.2500 L = 0.282 M. Each formula unit gives 3 NO<sub>3</sub><sup>−</sup>, so [NO<sub>3</sub><sup>−</sup>] = 3 × 0.282 M = <b>0.845 M</b>. 0.282 M is the salt concentration, 1.13 M counts the Al<sup>3+</sup> as well, and 0.0704 is the number of moles, not a concentration.",
+  "x": [
+   "",
+   "This is the concentration of the salt. Each Al(NO₃)₃ releases more than one nitrate ion.",
+   "This counts all four ions from each formula unit. Only the nitrate ions are asked for.",
+   "This is the number of moles of salt. Molarity also requires dividing by the volume in liters."
+  ],
+  "k": 1,
+  "d": 1,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "Molar mass (g mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "Al(NO<sub>3</sub>)<sub>3</sub>",
+      "213.01"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solutions",
+  "q": "A student needs 500.0 mL of 0.150 M HCl and has a stock bottle of 6.00 M HCl. Which procedure is correct?",
+  "c": [
+   "Add 12.5 mL of the stock acid to some water in a 500-mL volumetric flask, then add water to the mark.",
+   "Add 12.5 mL of the stock acid to 500.0 mL of water.",
+   "Add 75.0 mL of the stock acid to some water in a 500-mL volumetric flask, then add water to the mark.",
+   "Add 12.5 mL of water to 487.5 mL of the stock acid."
+  ],
+  "h": "Use M₁V₁ = M₂V₂. The final volume of the solution, not the volume of water added, must be 500.0 mL.",
+  "w": "V<sub>1</sub> = (0.150 M × 500.0 mL) ÷ 6.00 M = 12.5 mL of stock. Diluting it to a final volume of 500.0 mL in a volumetric flask (acid added to water) gives <b>12.5 mL of stock diluted to the mark</b>. Adding it to 500.0 mL of water makes 512.5 mL, too dilute. 75.0 mL is millimoles of HCl, not a volume of stock, and the last procedure swaps the acid and water.",
+  "x": [
+   "",
+   "Adding to 500.0 mL of water makes a total volume larger than 500.0 mL, so the solution is a little too dilute.",
+   "75.0 is the number of millimoles of HCl needed. It must be divided by the stock molarity to give a volume.",
+   "This uses mostly concentrated acid, so the result is far more concentrated than 0.150 M. The stock and water amounts are swapped."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Sulfur is recovered from natural gas by the reaction shown. Which statement is correct?",
+  "c": [
+   "H<sub>2</sub>S is the reducing agent and SO<sub>2</sub> is the oxidizing agent.",
+   "SO<sub>2</sub> is the reducing agent and H<sub>2</sub>S is the oxidizing agent.",
+   "S is the oxidizing agent and H<sub>2</sub>O is the reducing agent.",
+   "It is not a redox reaction because sulfur is both a reactant and a product."
+  ],
+  "h": "Find the oxidation number of S in H₂S, in SO₂ and in elemental S. The reducing agent is the reactant that is oxidized.",
+  "w": "S rises from −2 in H<sub>2</sub>S to 0 in S, so H<sub>2</sub>S is oxidized and is the reducing agent. S falls from +4 in SO<sub>2</sub> to 0, so SO<sub>2</sub> is reduced and is the oxidizing agent: <b>H<sub>2</sub>S is the reducing agent and SO<sub>2</sub> is the oxidizing agent</b>. Agents are always reactants, so products such as S and H<sub>2</sub>O cannot be the agents. The reaction is redox because oxidation numbers change.",
+  "x": [
+   "",
+   "The roles are reversed. The oxidation number of S in SO₂ goes down, which means SO₂ gains electrons.",
+   "Oxidizing and reducing agents are reactants. S and H₂O are products of the reaction.",
+   "Oxidation numbers of sulfur change from −2 and +4 to 0, so electrons are transferred."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 H<sub>2</sub>S(g) + SO<sub>2</sub>(g) → 3 S(s) + 2 H<sub>2</sub>O(l)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Household bleach is made by bubbling chlorine into sodium hydroxide solution, as shown. Which statements are true?<br>I. Chlorine changes from 0 to −1 in Cl<sup>−</sup> and from 0 to +1 in ClO<sup>−</sup>.<br>II. OH<sup>−</sup> is the oxidizing agent.<br>III. Cl<sub>2</sub> is both the oxidizing agent and the reducing agent.",
+  "c": [
+   "I and III only",
+   "I only",
+   "II only",
+   "I, II and III"
+  ],
+  "h": "Assign oxidation numbers to every atom on both sides, including O and H in OH⁻ and H₂O.",
+  "w": "In Cl<sub>2</sub> chlorine is 0; it becomes −1 in Cl<sup>−</sup> and +1 in ClO<sup>−</sup> (O is −2): I is true. O stays −2 and H stays +1 in OH<sup>−</sup>, ClO<sup>−</sup> and H<sub>2</sub>O, so OH<sup>−</sup> is not reduced and is not the oxidizing agent: II is false. Some Cl atoms are reduced and others oxidized, so Cl<sub>2</sub> is both agents (a disproportionation): III is true. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is true as well. One Cl atom of each Cl₂ gains an electron and the other loses one.",
+   "Statement II is false. Oxygen is −2 and hydrogen is +1 in OH⁻ and in both products, so OH⁻ gains no electrons.",
+   "Statement II is false. The oxidizing agent must be reduced, and the atoms in OH⁻ keep their oxidation numbers."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "Cl<sub>2</sub>(g) + 2 OH<sup>−</sup>(aq) → Cl<sup>−</sup>(aq) + ClO<sup>−</sup>(aq) + H<sub>2</sub>O(l)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "The box shows copper atoms from a piece of copper wire in a silver nitrate solution, before any reaction (water not shown). The reaction shown runs until every Ag<sup>+</sup> ion has reacted. What is in the beaker afterward, besides the NO<sub>3</sub><sup>−</sup> ions?",
+  "c": [
+   "3 Cu<sup>2+</sup> ions, 6 Ag atoms and 1 Cu atom",
+   "6 Cu<sup>2+</sup> ions, 6 Ag atoms and no Cu atoms",
+   "4 Cu<sup>2+</sup> ions, 6 Ag atoms and no Cu atoms",
+   "3 Cu<sup>2+</sup> ions, 3 Ag atoms and 1 Cu atom"
+  ],
+  "h": "Count the Ag⁺ ions and the Cu atoms. Each Cu atom gives up two electrons, enough to reduce two Ag⁺ ions.",
+  "w": "The box has 6 Ag<sup>+</sup>, 6 NO<sub>3</sub><sup>−</sup> and 4 Cu atoms. By the equation, 6 Ag<sup>+</sup> need 3 Cu atoms, producing 3 Cu<sup>2+</sup> and 6 Ag atoms, and 1 Cu atom is left over: <b>3 Cu<sup>2+</sup>, 6 Ag and 1 Cu</b>. Six Cu<sup>2+</sup> uses a 1 : 1 ratio, four Cu<sup>2+</sup> assumes all the copper reacts, and 3 Ag atoms loses silver.",
+  "x": [
+   "",
+   "This uses one Cu for every Ag⁺. A Cu atom loses two electrons, and each Ag⁺ gains only one.",
+   "Not all of the copper is needed. Six Ag⁺ ions can accept electrons from only some of the Cu atoms.",
+   "Silver atoms are conserved. Every Ag⁺ ion that reacts becomes one Ag atom."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "eq",
+    "text": "Cu(s) + 2 Ag<sup>+</sup>(aq) → Cu<sup>2+</sup>(aq) + 2 Ag(s)"
+   },
+   {
+    "type": "particles",
+    "seed": 44,
+    "key": {
+     "Cu": {
+      "c": "#c87533",
+      "n": "Cu atom"
+     },
+     "Ag": {
+      "c": "#b8c2cc",
+      "n": "Ag⁺",
+      "q": "+"
+     },
+     "N": {
+      "c": "#3b82b4",
+      "n": "NO₃⁻",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Before",
+      "water": true,
+      "mols": [
+       [
+        "Cu"
+       ],
+       [
+        "Cu"
+       ],
+       [
+        "Cu"
+       ],
+       [
+        "Cu"
+       ],
+       [
+        "Ag"
+       ],
+       [
+        "Ag"
+       ],
+       [
+        "Ag"
+       ],
+       [
+        "Ag"
+       ],
+       [
+        "Ag"
+       ],
+       [
+        "Ag"
+       ],
+       [
+        "N"
+       ],
+       [
+        "N"
+       ],
+       [
+        "N"
+       ],
+       [
+        "N"
+       ],
+       [
+        "N"
+       ],
+       [
+        "N"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "The box shows the ions in a sample of calcium hydroxide solution (water not shown). How many formula units of sulfuric acid, H<sub>2</sub>SO<sub>4</sub>, are needed to neutralize this sample completely?",
+  "c": [
+   "4",
+   "8",
+   "2",
+   "16"
+  ],
+  "h": "Count the OH⁻ ions. Each H₂SO₄ supplies two H⁺ ions, and each H⁺ neutralizes one OH⁻.",
+  "w": "The box holds 4 Ca<sup>2+</sup> and 8 OH<sup>−</sup>. Neutralization needs 8 H<sup>+</sup>, and each H<sub>2</sub>SO<sub>4</sub> provides 2, so <b>4</b> H<sub>2</sub>SO<sub>4</sub> are needed (Ca(OH)<sub>2</sub> + H<sub>2</sub>SO<sub>4</sub> → CaSO<sub>4</sub> + 2 H<sub>2</sub>O). 8 treats the acid as monoprotic, 2 matches H<sub>2</sub>SO<sub>4</sub> to half the Ca<sup>2+</sup>, and 16 doubles instead of halving.",
+  "x": [
+   "",
+   "This gives one acid unit per OH⁻. Sulfuric acid is diprotic, so each unit neutralizes two OH⁻ ions.",
+   "Each Ca²⁺ comes with two OH⁻. Count the OH⁻ ions, not just the calcium ions.",
+   "This multiplies by two instead of dividing. Each H₂SO₄ supplies two H⁺, so fewer acid units are needed than OH⁻ ions."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 52,
+    "key": {
+     "Ca": {
+      "c": "#5aa469",
+      "n": "Ca²⁺",
+      "q": "+",
+      "r": 12
+     },
+     "OH": {
+      "c": "#9b7fd1",
+      "n": "OH⁻",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Ca(OH)₂(aq)",
+      "water": true,
+      "mols": [
+       [
+        "Ca"
+       ],
+       [
+        "Ca"
+       ],
+       [
+        "Ca"
+       ],
+       [
+        "Ca"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ],
+       [
+        "OH"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "30.0 mL of 0.200 M FeCl<sub>3</sub> is mixed with 50.0 mL of 0.300 M NaOH, and Fe(OH)<sub>3</sub> (106.87 g mol<sup>−1</sup>) precipitates by the reaction shown. What is the maximum mass of Fe(OH)<sub>3</sub> that can form?",
+  "c": [
+   "0.534 g",
+   "0.641 g",
+   "1.60 g",
+   "0.674 g"
+  ],
+  "h": "Find the moles of Fe³⁺ and of OH⁻. Three OH⁻ are needed for each Fe³⁺, so check which reactant runs out first.",
+  "w": "mol FeCl<sub>3</sub> = 0.0300 L × 0.200 M = 0.00600 mol; mol NaOH = 0.0500 L × 0.300 M = 0.0150 mol. Using all the Fe<sup>3+</sup> would need 0.0180 mol OH<sup>−</sup>, more than is present, so NaOH is limiting. mol Fe(OH)<sub>3</sub> = 0.0150 ÷ 3 = 0.00500 mol, and 0.00500 mol × 106.87 g mol<sup>−1</sup> = <b>0.534 g</b>. 0.641 g assumes FeCl<sub>3</sub> is limiting, 1.60 g ignores the 3 : 1 ratio, and 0.674 g uses the formula Fe(OH)<sub>2</sub>.",
+  "x": [
+   "",
+   "This assumes FeCl₃ runs out first. Check whether there is enough NaOH to react with all of the Fe³⁺.",
+   "This uses a 1 : 1 ratio of NaOH to Fe(OH)₃. The equation shows three NaOH per Fe(OH)₃.",
+   "This divides the OH⁻ by 2 as if the product were Fe(OH)₂. Iron is +3 here."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "FeCl<sub>3</sub>(aq) + 3 NaOH(aq) → Fe(OH)<sub>3</sub>(s) + 3 NaCl(aq)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solutions",
+  "q": "What volume of water must be ADDED to 40.0 mL of 2.50 M NaOH to make a solution that is 0.800 M? Assume the volumes are additive.",
+  "c": [
+   "85.0 mL",
+   "125 mL",
+   "12.8 mL",
+   "165 mL"
+  ],
+  "h": "Use M₁V₁ = M₂V₂ to find the final volume, then compare it with the starting volume.",
+  "w": "V<sub>2</sub> = (2.50 M × 40.0 mL) ÷ 0.800 M = 125 mL. This is the final volume; the water added is 125 mL − 40.0 mL = <b>85.0 mL</b>. 125 mL is the final volume, 12.8 mL inverts the ratio of concentrations, and 165 mL adds the starting volume instead of subtracting it.",
+  "x": [
+   "",
+   "This is the total volume after dilution. The question asks how much water is added to the 40.0 mL already present.",
+   "The concentrations are inverted. A more dilute solution needs a larger final volume than the starting 40.0 mL.",
+   "The starting 40.0 mL is already part of the final volume, so it should not be added again."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Which of these net ionic equations are balanced for both mass and charge?<br>I. Zn(s) + Ag<sup>+</sup>(aq) → Zn<sup>2+</sup>(aq) + Ag(s)<br>II. Cu(s) + 2 Fe<sup>3+</sup>(aq) → Cu<sup>2+</sup>(aq) + 2 Fe<sup>2+</sup>(aq)<br>III. 2 Al(s) + 6 H<sup>+</sup>(aq) → 2 Al<sup>3+</sup>(aq) + 3 H<sub>2</sub>(g)",
+  "c": [
+   "II and III only",
+   "I only",
+   "I and II only",
+   "III only"
+  ],
+  "h": "Count the atoms of each element on both sides, then add up the ionic charges on each side. Both must match.",
+  "w": "I has matching atoms, but the charge is +1 on the left and +2 on the right, so it is not balanced (it needs 2 Ag<sup>+</sup> and 2 Ag). II has a total charge of +6 on each side (2 × 3 = 6; 2 + 2 × 2 = 6) and matching atoms. III has 2 Al and 6 H on each side and a charge of +6 on each side. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement I fails the charge check. The left side has a charge of +1 and the right side +2.",
+   "Statement I is not balanced for charge, even though the atoms match. Electrons lost must equal electrons gained.",
+   "Statement II is balanced too. Add the charges: 2 Fe³⁺ gives +6, and Cu²⁺ plus 2 Fe²⁺ gives +6."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "0.100 M Pb(NO<sub>3</sub>)<sub>2</sub> is added a little at a time to 25.0 mL of a KI solution, and the dried PbI<sub>2</sub> precipitate is weighed after each addition (graph). What was the concentration of KI in the original solution?",
+  "c": [
+   "0.120 M",
+   "0.0600 M",
+   "0.0750 M",
+   "0.333 M"
+  ],
+  "h": "The graph levels off when all of the I⁻ has precipitated. Read that volume and use the 1 : 2 ratio of Pb²⁺ to I⁻.",
+  "w": "The mass stops rising at 15.0 mL, so all of the I<sup>−</sup> is used up there. mol Pb<sup>2+</sup> = 0.0150 L × 0.100 M = 1.50×10<sup>−3</sup> mol, and 2 I<sup>−</sup> react per Pb<sup>2+</sup>, so mol I<sup>−</sup> = 3.00×10<sup>−3</sup> mol. [KI] = 3.00×10<sup>−3</sup> mol ÷ 0.0250 L = <b>0.120 M</b>. 0.0600 M ignores the 1 : 2 ratio, 0.0750 M divides by the combined 40.0 mL, and 0.333 M swaps the two volumes.",
+  "x": [
+   "",
+   "This uses a 1 : 1 ratio. Each Pb²⁺ removes two I⁻ ions from solution.",
+   "The KI concentration refers to the original 25.0 mL sample, not to the combined volume after mixing.",
+   "The volumes are swapped. The 15.0 mL goes with the Pb(NO₃)₂ concentration."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "Pb(NO<sub>3</sub>)<sub>2</sub>(aq) + 2 KI(aq) → PbI<sub>2</sub>(s) + 2 KNO<sub>3</sub>(aq)"
+   },
+   {
+    "type": "plot",
+    "x": {
+     "label": "Volume of 0.100 M Pb(NO₃)₂ added (mL)",
+     "min": 0,
+     "max": 25,
+     "ticks": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25
+     ]
+    },
+    "y": {
+     "label": "Mass of PbI₂ (g)",
+     "min": 0,
+     "max": 0.8,
+     "ticks": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.0
+       ],
+       [
+        2.5,
+        0.1153
+       ],
+       [
+        5,
+        0.2305
+       ],
+       [
+        7.5,
+        0.3458
+       ],
+       [
+        10,
+        0.461
+       ],
+       [
+        12.5,
+        0.5763
+       ],
+       [
+        15,
+        0.6915
+       ],
+       [
+        17.5,
+        0.6915
+       ],
+       [
+        20,
+        0.6915
+       ],
+       [
+        22.5,
+        0.6915
+       ],
+       [
+        25,
+        0.6915
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "In the Ostwald process, ammonia is burned over a platinum catalyst as shown. Which element is oxidized, and how does its oxidation number change?",
+  "c": [
+   "N, from −3 to +2",
+   "O, from 0 to −2",
+   "N, from +3 to +2",
+   "H, from +1 to 0"
+  ],
+  "h": "Assign oxidation numbers with H = +1 and O = −2 in compounds and 0 in elements. Oxidation is an increase in oxidation number.",
+  "w": "In NH<sub>3</sub>, N is −3 (three H at +1); in NO, N is +2 (O at −2). The increase means <b>N is oxidized, from −3 to +2</b>. Oxygen goes from 0 to −2, which is reduction. N cannot be +3 in NH<sub>3</sub>, and H stays +1 in both NH<sub>3</sub> and H<sub>2</sub>O.",
+  "x": [
+   "",
+   "Oxygen gains electrons as it goes from 0 to −2, which is reduction, not oxidation.",
+   "In NH₃ each H is +1, so N must be negative to make the molecule neutral.",
+   "Hydrogen is +1 in NH₃ and still +1 in H₂O, so its oxidation number does not change."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "eq",
+    "text": "4 NH<sub>3</sub>(g) + 5 O<sub>2</sub>(g) → 4 NO(g) + 6 H<sub>2</sub>O(g)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Which ions are spectator ions when aqueous barium hydroxide reacts with sulfuric acid as shown?",
+  "c": [
+   "No spectator ions",
+   "Ba<sup>2+</sup> and SO<sub>4</sub><sup>2−</sup> ions",
+   "H<sup>+</sup> and OH<sup>−</sup> ions",
+   "Ba<sup>2+</sup> and OH<sup>−</sup> ions"
+  ],
+  "h": "Write the complete ionic equation. Spectators appear unchanged, as dissolved ions, on both sides.",
+  "w": "Complete ionic: Ba<sup>2+</sup> + 2 OH<sup>−</sup> + 2 H<sup>+</sup> + SO<sub>4</sub><sup>2−</sup> → BaSO<sub>4</sub>(s) + 2 H<sub>2</sub>O(l). Ba<sup>2+</sup> and SO<sub>4</sub><sup>2−</sup> leave solution as the insoluble solid, and H<sup>+</sup> and OH<sup>−</sup> become water, so <b>no ions are spectators</b>; the net ionic equation is the same as the complete ionic equation.",
+  "x": [
+   "",
+   "BaSO₄ is insoluble, so Ba²⁺ and SO₄²⁻ leave the solution as a solid. They are not spectators.",
+   "H⁺ and OH⁻ combine to form water, so they take part in the reaction.",
+   "Ba²⁺ ends up in solid BaSO₄ and OH⁻ ends up in water, so both react."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "Ba(OH)<sub>2</sub>(aq) + H<sub>2</sub>SO<sub>4</sub>(aq) → BaSO<sub>4</sub>(s) + 2 H<sub>2</sub>O(l)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ }
+]

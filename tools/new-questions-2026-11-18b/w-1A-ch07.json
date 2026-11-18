@@ -1,0 +1,1877 @@
+[
+ {
+  "t": "bonding",
+  "q": "Phosgene, COCl<sub>2</sub>, is a toxic gas used to make polycarbonate plastics. Carbon is the central atom. Which drawing is the best Lewis structure of phosgene?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Phosgene has 24 valence electrons. Check that every atom has an octet, then compare formal charges.",
+  "w": "With a C=O double bond and two C–Cl single bonds, every atom has an octet and every formal charge is zero, so <b>the structure with C=O and two C–Cl single bonds</b> is best. Putting the double bond to Cl gives Cl a +1 and O a −1 formal charge, which is worse because the positive charge sits on an electronegative atom. With only single bonds carbon has just six electrons, and with a C≡O triple bond carbon has five bonds (ten electrons).",
+  "x": [
+   "",
+   "Every atom has an octet here, but Cl carries +1 and O carries −1. A structure with all formal charges zero is better.",
+   "Carbon has only three bonds and no lone pair here, which leaves it six electrons. Carbon needs an octet.",
+   "Carbon makes five bonds in this drawing, which puts ten electrons around it. Carbon cannot exceed an octet."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "a": [
+     [
+      "C",
+      1,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "Cl",
+      0,
+      1,
+      3,
+      0,
+      ""
+     ],
+     [
+      "Cl",
+      2,
+      1,
+      3,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "C",
+      1,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      3,
+      -1,
+      ""
+     ],
+     [
+      "Cl",
+      0,
+      1,
+      2,
+      1,
+      ""
+     ],
+     [
+      "Cl",
+      2,
+      1,
+      3,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      2,
+      2
+     ],
+     [
+      0,
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "C",
+      1,
+      1,
+      0,
+      1,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      3,
+      -1,
+      ""
+     ],
+     [
+      "Cl",
+      0,
+      1,
+      3,
+      0,
+      ""
+     ],
+     [
+      "Cl",
+      2,
+      1,
+      3,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "C",
+      1,
+      1,
+      0,
+      -1,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      1,
+      1,
+      ""
+     ],
+     [
+      "Cl",
+      0,
+      1,
+      3,
+      0,
+      ""
+     ],
+     [
+      "Cl",
+      2,
+      1,
+      3,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "bonding",
+  "q": "Thionyl chloride, SOCl<sub>2</sub>, is drawn below with an S–O single bond and an octet on every atom (formal charges are not shown). What are the formal charges on the sulfur atom and on the oxygen atom in this structure?",
+  "c": [
+   "S: +1, O: −1",
+   "S: 0, O: 0",
+   "S: +4, O: −2",
+   "S: −1, O: +1"
+  ],
+  "h": "Formal charge = valence electrons − lone-pair electrons − (number of bonds). Sulfur and oxygen both have 6 valence electrons.",
+  "w": "Sulfur: 6 − 2 (one lone pair) − 3 bonds = <b>+1</b>. Oxygen: 6 − 6 (three lone pairs) − 1 bond = <b>−1</b>. The charges sum to zero for the neutral molecule. +4 and −2 are oxidation numbers, which treat the bonds as fully ionic, and S −1, O +1 reverses the calculation.",
+  "x": [
+   "",
+   "Count the electrons each atom owns in the drawing. Sulfur owns 5 and oxygen owns 7, so neither is zero.",
+   "Those are oxidation numbers, which give all bonding electrons to the more electronegative atom. Formal charge splits each bond evenly.",
+   "The signs are reversed. Oxygen owns 7 electrons here, one more than its 6 valence electrons."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "a": [
+     [
+      "S",
+      1,
+      1,
+      1,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      3,
+      0,
+      ""
+     ],
+     [
+      "Cl",
+      0,
+      1,
+      3,
+      0,
+      ""
+     ],
+     [
+      "Cl",
+      2,
+      1,
+      3,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "bonding",
+  "q": "Hydrazoic acid, HN<sub>3</sub>, has the Lewis structure drawn below. Which drawing is another valid resonance structure of HN<sub>3</sub>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "HN₃ has 16 valence electrons. A resonance structure keeps every atom in place, keeps the same electron total and gives each N no more than an octet.",
+  "w": "Shifting the π pair of the left N=N bond onto the H-bearing N as a lone pair, and turning one lone pair of the end N into a third bond, gives H–N–N≡N, with formal charges −1, +1 and 0 on the three N atoms. It has 16 electrons and an octet on every N, so <b>the structure with an N–N single bond and an N≡N triple bond</b> is a valid resonance structure. The drawing with all formal charges zero gives the middle N five bonds (ten electrons). The other two have 18 and 14 electrons, so they describe ions, not HN<sub>3</sub>.",
+  "x": [
+   "",
+   "Count the electrons. This drawing has an extra lone pair, 18 electrons in all, so it is not HN₃.",
+   "Every formal charge is zero here, but the middle nitrogen has five bonds and ten electrons. Nitrogen cannot exceed an octet.",
+   "Count the electrons. A lone pair is missing, leaving 14 electrons and a nitrogen with only six."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "N",
+      1,
+      1,
+      1,
+      0,
+      ""
+     ],
+     [
+      "N",
+      2,
+      1,
+      0,
+      1,
+      ""
+     ],
+     [
+      "N",
+      3,
+      1,
+      2,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      2
+     ],
+     [
+      2,
+      3,
+      2
+     ]
+    ]
+   }
+  ],
+  "cs": [
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "N",
+      1,
+      1,
+      2,
+      -1,
+      ""
+     ],
+     [
+      "N",
+      2,
+      1,
+      0,
+      1,
+      ""
+     ],
+     [
+      "N",
+      3,
+      1,
+      1,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      3
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "N",
+      1,
+      1,
+      1,
+      0,
+      ""
+     ],
+     [
+      "N",
+      2,
+      1,
+      1,
+      -1,
+      ""
+     ],
+     [
+      "N",
+      3,
+      1,
+      2,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      2
+     ],
+     [
+      2,
+      3,
+      2
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "N",
+      1,
+      1,
+      1,
+      0,
+      ""
+     ],
+     [
+      "N",
+      2,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "N",
+      3,
+      1,
+      1,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      2
+     ],
+     [
+      2,
+      3,
+      3
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "N",
+      1,
+      1,
+      0,
+      2,
+      ""
+     ],
+     [
+      "N",
+      2,
+      1,
+      0,
+      1,
+      ""
+     ],
+     [
+      "N",
+      3,
+      1,
+      2,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      2
+     ],
+     [
+      2,
+      3,
+      2
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "bonding",
+  "q": "Lewis structures of hydrogen cyanide (I), methanimine (II) and methylamine (III) are drawn below. Rank their carbon–nitrogen bonds from SHORTEST to LONGEST.",
+  "c": [
+   "I &lt; II &lt; III",
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III",
+   "I = II = III"
+  ],
+  "h": "More shared electron pairs between the same two atoms pull them closer together.",
+  "w": "Bond length falls as bond order rises. I has a C≡N triple bond, II a C=N double bond and III a C–N single bond, so the order is <b>I &lt; II &lt; III</b>. Reversing it ranks longest to shortest, and the bonds are not equal because the bond orders differ.",
+  "x": [
+   "",
+   "This is the order from longest to shortest. A triple bond is the shortest.",
+   "A triple bond is shorter than a double bond. Look at bond I again.",
+   "The three bonds have different bond orders, so their lengths differ."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      1,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "N",
+      2,
+      1,
+      1,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    "cap": "I"
+   },
+   {
+    "a": [
+     [
+      "H",
+      0.4,
+      0.2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0.4,
+      1.8,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      1,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "N",
+      2,
+      1,
+      1,
+      0,
+      ""
+     ],
+     [
+      "H",
+      2.6,
+      1.8,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      2,
+      0,
+      1
+     ],
+     [
+      2,
+      1,
+      1
+     ],
+     [
+      2,
+      3,
+      2
+     ],
+     [
+      3,
+      4,
+      1
+     ]
+    ],
+    "cap": "II"
+   },
+   {
+    "a": [
+     [
+      "H",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      1,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "N",
+      2,
+      1,
+      1,
+      0,
+      ""
+     ],
+     [
+      "H",
+      3,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      2,
+      2,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      3,
+      0,
+      1
+     ],
+     [
+      3,
+      1,
+      1
+     ],
+     [
+      3,
+      2,
+      1
+     ],
+     [
+      3,
+      4,
+      1
+     ],
+     [
+      4,
+      5,
+      1
+     ],
+     [
+      4,
+      6,
+      1
+     ]
+    ],
+    "cap": "III"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "bonding",
+  "q": "The three-dimensional shapes of XeF<sub>4</sub> (I), AsF<sub>5</sub> (II) and TeCl<sub>4</sub> (III) are drawn below, with lone pairs on the central atoms. Which of these molecules are polar?",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Every bond here is polar. Ask whether the bond dipoles point in opposing directions that cancel.",
+  "w": "I (square planar) is nonpolar: its four Xe–F dipoles cancel in opposite pairs, and its two lone pairs sit opposite each other. II (trigonal bipyramidal, no lone pairs) is nonpolar: the axial dipoles cancel and the three equatorial dipoles cancel. III (seesaw) is polar: the equatorial lone pair leaves the Te–Cl dipoles unbalanced. The answer is <b>III only</b>.",
+  "x": [
+   "",
+   "Molecule I is nonpolar. In a square planar shape each Xe–F dipole is cancelled by the one opposite it.",
+   "Molecule II is nonpolar. A trigonal bipyramid with five identical ligands is symmetric.",
+   "Molecules I and II are both symmetric, so their bond dipoles cancel."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "vsepr",
+    "items": [
+     {
+      "shape": "square planar",
+      "center": "Xe",
+      "lig": "F",
+      "cap": "I"
+     },
+     {
+      "shape": "trigonal bipyramidal",
+      "center": "As",
+      "lig": "F",
+      "cap": "II"
+     },
+     {
+      "shape": "seesaw",
+      "center": "Te",
+      "lig": "Cl",
+      "cap": "III"
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "advanced",
+  "q": "The shape of iodine pentafluoride, IF<sub>5</sub>, is drawn below, including the lone pair on iodine. What is the electron-group geometry around iodine, and what is the approximate angle between the top F and each of the four lower F atoms?",
+  "c": [
+   "octahedral, just under 90°",
+   "trigonal bipyramidal, 90° and 120°",
+   "square pyramidal, 109.5°",
+   "octahedral, 180°"
+  ],
+  "h": "Count the electron groups on iodine, including the lone pair. Where does the lone pair push the four base fluorines?",
+  "w": "Iodine has 5 bonds and 1 lone pair, 6 electron groups, so the electron-group geometry is octahedral and the molecular shape is square pyramidal. The top F is at 90° to the four base F atoms, and the lone pair below squeezes them up slightly, so the angle is <b>slightly less than 90°</b> (about 82°). Trigonal bipyramidal is for 5 groups, 109.5° is the tetrahedral angle, and 180° is the angle to the lone-pair position, which holds no atom.",
+  "x": [
+   "",
+   "That is the geometry for five electron groups. The lone pair on iodine is a sixth group.",
+   "Square pyramidal is the molecular shape, not the electron-group geometry, and 109.5° belongs to a tetrahedron.",
+   "The position 180° from the top F holds the lone pair, not a fluorine atom."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "vsepr",
+    "shape": "square pyramidal",
+    "center": "I",
+    "lig": "F",
+    "cap": "IF₅"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "bonding",
+  "q": "The shapes of CH<sub>4</sub> (I), NH<sub>3</sub> (II) and BF<sub>3</sub> (III) are drawn below. Rank the bond angles H–C–H, H–N–H and F–B–F from SMALLEST to LARGEST.",
+  "c": [
+   "II &lt; I &lt; III",
+   "I &lt; II &lt; III",
+   "III &lt; I &lt; II",
+   "I = II &lt; III"
+  ],
+  "h": "Start from the ideal angle for each number of electron groups, then let a lone pair push the bonds closer together.",
+  "w": "BF<sub>3</sub> has 3 electron groups (120°). CH<sub>4</sub> has 4 bonding groups (109.5°). NH<sub>3</sub> also has 4 groups, but its lone pair repels more strongly than a bond and squeezes the H–N–H angle to about 107°. So the order is <b>II &lt; I &lt; III</b>. Treating NH<sub>3</sub> like CH<sub>4</sub> misses the lone-pair effect.",
+  "x": [
+   "",
+   "NH₃ has a lone pair, which pushes its bonds closer than the 109.5° of CH₄.",
+   "This is close to the reverse. Three electron groups spread out the most.",
+   "NH₃ and CH₄ both have four electron groups, but NH₃'s lone pair makes its angle smaller."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "vsepr",
+    "items": [
+     {
+      "shape": "tetrahedral",
+      "center": "C",
+      "lig": "H",
+      "cap": "I"
+     },
+     {
+      "shape": "trigonal pyramidal",
+      "center": "N",
+      "lig": "H",
+      "cap": "II"
+     },
+     {
+      "shape": "trigonal planar",
+      "center": "B",
+      "lig": "F",
+      "cap": "III"
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "advanced",
+  "q": "Three sets of carbon orbitals are drawn below (blue = hybrid orbitals, yellow = unhybridized p orbitals). Which set does the carbon atom in carbon dioxide, O=C=O, use?",
+  "c": [
+   "I",
+   "II",
+   "III",
+   "II, because each C=O double bond needs an sp<sup>2</sup> carbon"
+  ],
+  "h": "Count the electron groups on carbon in CO₂. Each group needs one hybrid orbital, and each π bond needs one leftover p orbital.",
+  "w": "Carbon in CO<sub>2</sub> has 2 electron groups (two double bonds, no lone pairs), so it needs two hybrid orbitals 180° apart: sp. Its two leftover p orbitals form the two C=O π bonds. That is set <b>I</b>. Set II (sp<sup>2</sup>) has three hybrids and only one p orbital, and set III (sp<sup>3</sup>) has none left for π bonds. The oxygen atoms, not the carbon, are sp<sup>2</sup>.",
+  "x": [
+   "",
+   "Set II has three hybrid orbitals, but carbon in CO₂ has only two electron groups.",
+   "Set III has no unhybridized p orbitals, so it could not make the two π bonds.",
+   "It is the oxygen atoms that are sp². Carbon has two double bonds and needs two p orbitals for π bonding."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "hybrid",
+    "items": [
+     {
+      "kind": "sp",
+      "p": true,
+      "atom": "C",
+      "cap": "I"
+     },
+     {
+      "kind": "sp2",
+      "p": true,
+      "atom": "C",
+      "cap": "II"
+     },
+     {
+      "kind": "sp3",
+      "atom": "C",
+      "cap": "III"
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "advanced",
+  "q": "The complete set of hybrid orbitals used by the central atom of a molecule is drawn below. Which molecule could it be?",
+  "c": [
+   "NH<sub>3</sub>",
+   "BF<sub>3</sub>",
+   "CO<sub>2</sub>",
+   "PCl<sub>5</sub>"
+  ],
+  "h": "Count the hybrid orbitals and note their arrangement. The central atom needs one hybrid orbital for each electron group, bonds and lone pairs alike.",
+  "w": "Four hybrid orbitals pointing to the corners of a tetrahedron are an sp<sup>3</sup> set, used by an atom with 4 electron groups. N in <b>NH<sub>3</sub></b> has 3 bonds and 1 lone pair = 4 groups. B in BF<sub>3</sub> has 3 groups (sp<sup>2</sup>), C in CO<sub>2</sub> has 2 (sp) and P in PCl<sub>5</sub> has 5 (sp<sup>3</sup>d).",
+  "x": [
+   "",
+   "B in BF₃ has only three electron groups, so it needs three hybrid orbitals in a plane.",
+   "C in CO₂ has two electron groups, so it uses two hybrid orbitals 180° apart.",
+   "P in PCl₅ has five electron groups and needs five hybrid orbitals. Count the orbitals drawn."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "hybrid",
+    "kind": "sp3"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "advanced",
+  "q": "Crotononitrile is drawn below with its carbon atoms labeled a–d. The orbitals drawn beside it are the hybrid orbitals (blue) and unhybridized p orbitals (yellow) of one of those carbons. Which carbon uses this orbital set?",
+  "c": [
+   "carbon d",
+   "carbon c",
+   "carbon a",
+   "carbon b"
+  ],
+  "h": "Count the hybrid orbitals and the leftover p orbitals in the drawing, then match them to the σ bonds and π bonds of each carbon.",
+  "w": "The drawing shows two hybrid orbitals 180° apart and two p orbitals: an sp carbon, which makes 2 σ bonds and 2 π bonds. That is <b>carbon d</b>, bonded to carbon c and triple-bonded to N. Carbons b and c each have a double bond and three σ bonds (sp<sup>2</sup>, one p orbital), and carbon a has four single bonds (sp<sup>3</sup>, no p orbital).",
+  "x": [
+   "",
+   "Carbon c is part of a C=C double bond. It needs three hybrid orbitals and only one p orbital.",
+   "Carbon a makes four single bonds. It uses four sp³ orbitals and has no leftover p orbital.",
+   "Carbon b is part of a C=C double bond. It needs three hybrid orbitals and only one p orbital."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "a": [
+     [
+      "C",
+      1,
+      1,
+      0,
+      0,
+      "a"
+     ],
+     [
+      "H",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      2,
+      1,
+      0,
+      0,
+      "b"
+     ],
+     [
+      "H",
+      2,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      3,
+      1,
+      0,
+      0,
+      "c"
+     ],
+     [
+      "H",
+      3,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      4,
+      1,
+      0,
+      0,
+      "d"
+     ],
+     [
+      "N",
+      5,
+      1,
+      1,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ],
+     [
+      0,
+      4,
+      1
+     ],
+     [
+      4,
+      5,
+      1
+     ],
+     [
+      4,
+      6,
+      2
+     ],
+     [
+      6,
+      7,
+      1
+     ],
+     [
+      6,
+      8,
+      1
+     ],
+     [
+      8,
+      9,
+      3
+     ]
+    ]
+   }
+  ],
+  "f": [
+   {
+    "type": "hybrid",
+    "kind": "sp",
+    "p": true,
+    "atom": "C"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "advanced",
+  "q": "Which orbital diagram correctly shows the five valence electrons of the nitrogen atom in NH<sub>3</sub> after hybridization?",
+  "c": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "h": "Nitrogen in NH₃ has four electron groups (three bonds and one lone pair). Fill the hybrid orbitals by the Pauli principle and Hund's rule.",
+  "w": "Four electron groups need four sp<sup>3</sup> orbitals. Five electrons fill them as one lone pair plus three singly occupied orbitals that bond to the three H atoms: diagram <b>I</b>. Diagram II uses sp<sup>2</sup> hybridization, which fits only three electron groups. III puts two parallel spins in one orbital (a Pauli violation), and IV pairs electrons while an orbital is still empty (a Hund's rule violation).",
+  "x": [
+   "",
+   "Nitrogen in NH₃ has four electron groups, not three, so sp² does not fit.",
+   "One sp³ orbital holds two electrons with the same spin. That breaks the Pauli principle.",
+   "Two pairs leave an orbital empty while others are doubly filled. Hund's rule spreads electrons out first, and N needs three half-filled orbitals to bond to three H."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "orbitals",
+    "items": [
+     {
+      "subs": [
+       {
+        "name": "sp³",
+        "boxes": [
+         "ud",
+         "u",
+         "u",
+         "u"
+        ]
+       }
+      ],
+      "cap": "I"
+     },
+     {
+      "subs": [
+       {
+        "name": "sp²",
+        "boxes": [
+         "ud",
+         "u",
+         "u"
+        ]
+       },
+       {
+        "name": "2p",
+        "boxes": [
+         "u"
+        ]
+       }
+      ],
+      "cap": "II"
+     },
+     {
+      "subs": [
+       {
+        "name": "sp³",
+        "boxes": [
+         "uu",
+         "u",
+         "u",
+         "u"
+        ]
+       }
+      ],
+      "cap": "III"
+     },
+     {
+      "subs": [
+       {
+        "name": "sp³",
+        "boxes": [
+         "ud",
+         "ud",
+         "u",
+         ""
+        ]
+       }
+      ],
+      "cap": "IV"
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "advanced",
+  "q": "Four molecular orbitals formed from 2p atomic orbitals are pictured below. Which one holds the highest-energy electrons (the HOMO) of N<sub>2</sub>?",
+  "c": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "h": "For B₂, C₂ and N₂ the π2p orbitals lie below σ2p. Fill the 10 valence electrons of N₂ in order.",
+  "w": "N<sub>2</sub> has 10 valence electrons: σ2s<sup>2</sup> σ*2s<sup>2</sup> π2p<sup>4</sup> σ2p<sup>2</sup>. Because π2p lies below σ2p in N<sub>2</sub>, the last two electrons go into the end-on bonding orbital, <b>I (σ2p)</b>. II (π2p) is filled but lower in energy. III (π*2p) and IV (σ*2p) are empty in N<sub>2</sub>.",
+  "x": [
+   "",
+   "This π2p orbital is filled, but in N₂ it lies below σ2p.",
+   "This antibonding π* orbital is empty in N₂. It fills only in O₂ and F₂.",
+   "This σ* orbital is the highest MO of all and is empty in N₂."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "mo",
+    "items": [
+     {
+      "kind": "sigma_p",
+      "cap": "I"
+     },
+     {
+      "kind": "pi_p",
+      "cap": "II"
+     },
+     {
+      "kind": "pistar_p",
+      "cap": "III"
+     },
+     {
+      "kind": "sigmastar_p",
+      "cap": "IV"
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "advanced",
+  "q": "The molecular orbital pictured below is formed from two side-by-side 2p orbitals of opposite phase. For which molecule is this type of orbital the highest occupied orbital?",
+  "c": [
+   "O<sub>2</sub>",
+   "N<sub>2</sub>",
+   "C<sub>2</sub>",
+   "B<sub>2</sub>"
+  ],
+  "h": "Identify the orbital first: side-by-side overlap with a node between the nuclei. Then decide which species has enough electrons to reach it.",
+  "w": "The picture is a π*2p antibonding orbital. It is occupied only after σ2s, σ*2s, π2p and σ2p are full (10 valence electrons). <b>O<sub>2</sub></b>, with 12, puts its last two electrons there. N<sub>2</sub> (10) stops at σ2p, while C<sub>2</sub> (8) and B<sub>2</sub> (6) stop at π2p.",
+  "x": [
+   "",
+   "N₂ has 10 valence electrons, and its last two fill σ2p. Its π* orbitals are empty.",
+   "C₂ has only 8 valence electrons, so its highest electrons are in π2p.",
+   "B₂ has only 6 valence electrons, so its highest electrons are in π2p."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "mo",
+    "kind": "pistar_p"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "advanced",
+  "q": "The valence molecular orbital diagram of the C<sub>2</sub><sup>−</sup> ion is shown below. What are its bond order and its magnetic behavior?",
+  "c": [
+   "2.5, paramagnetic",
+   "2.5, diamagnetic",
+   "3, paramagnetic",
+   "1.5, paramagnetic"
+  ],
+  "h": "Bond order = ½(bonding electrons − antibonding electrons). Look for any orbital holding a single electron.",
+  "w": "C<sub>2</sub><sup>−</sup> has 9 valence electrons: σ2s<sup>2</sup> σ*2s<sup>2</sup> π2p<sup>4</sup> σ2p<sup>1</sup>. Bonding = 7, antibonding = 2, so bond order = ½(7 − 2) = 2.5. The single electron in σ2p makes the ion paramagnetic: <b>2.5, paramagnetic</b>. A bond order of 3 forgets the σ*2s electrons, and 1.5 treats the ninth electron as antibonding.",
+  "x": [
+   "",
+   "An odd number of electrons always leaves one unpaired, so the ion cannot be diamagnetic.",
+   "This bond order ignores the two electrons in σ*2s, which cancel bonding.",
+   "The ninth electron goes into σ2p, a bonding orbital, so it raises the bond order."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "modiag",
+    "order": "N2",
+    "e": 9,
+    "title": "C<sub>2</sub><sup>−</sup>"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "advanced",
+  "q": "Valence MO diagrams of N<sub>2</sub>, N<sub>2</sub><sup>−</sup> and N<sub>2</sub><sup>2−</sup> are shown below. Rank the three species by nitrogen–nitrogen bond length, from SHORTEST to LONGEST.",
+  "c": [
+   "N<sub>2</sub> &lt; N<sub>2</sub><sup>−</sup> &lt; N<sub>2</sub><sup>2−</sup>",
+   "N<sub>2</sub><sup>2−</sup> &lt; N<sub>2</sub><sup>−</sup> &lt; N<sub>2</sub>",
+   "N<sub>2</sub><sup>−</sup> &lt; N<sub>2</sub> &lt; N<sub>2</sub><sup>2−</sup>",
+   "all three are equal"
+  ],
+  "h": "Find where each added electron goes, then compute each bond order. Higher bond order means a shorter bond.",
+  "w": "N<sub>2</sub> (10 electrons) has bond order 3. The extra electrons of the ions go into π*2p antibonding orbitals: N<sub>2</sub><sup>−</sup> has bond order ½(8 − 3) = 2.5 and N<sub>2</sub><sup>2−</sup> has ½(8 − 4) = 2. Lower bond order means a longer bond: <b>N<sub>2</sub> &lt; N<sub>2</sub><sup>−</sup> &lt; N<sub>2</sub><sup>2−</sup></b>. Adding electrons does not strengthen the bond here because they enter antibonding orbitals.",
+  "x": [
+   "",
+   "This assumes added electrons strengthen the bond. They enter π* orbitals, which lowers the bond order.",
+   "N₂ has the highest bond order of the three, so its bond cannot be longer than N₂⁻.",
+   "The added electrons occupy antibonding π* orbitals, so the bond orders differ."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "modiag",
+    "order": "N2",
+    "e": 10,
+    "title": "N<sub>2</sub>"
+   },
+   {
+    "type": "modiag",
+    "order": "N2",
+    "e": 11,
+    "title": "N<sub>2</sub><sup>−</sup>"
+   },
+   {
+    "type": "modiag",
+    "order": "N2",
+    "e": 12,
+    "title": "N<sub>2</sub><sup>2−</sup>"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "advanced",
+  "q": "The valence molecular orbital diagram for a hypothetical Ne<sub>2</sub> molecule is shown below. Which statements are true?<br>I. The bond order of Ne<sub>2</sub> is 0.<br>II. Ne<sub>2</sub> would be diamagnetic.<br>III. Ne<sub>2</sub> would have a stronger bond than F<sub>2</sub>.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II only",
+   "I, II and III"
+  ],
+  "h": "Count bonding and antibonding electrons. Then look for any half-filled orbitals.",
+  "w": "Statement I is true: Ne<sub>2</sub> has 16 valence electrons, 8 bonding and 8 antibonding, so bond order = 0 (no stable molecule). Statement II is true: every orbital is filled, so all electrons are paired. Statement III is false: F<sub>2</sub> has bond order 1, larger than 0. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is also true. Every orbital in the diagram holds a pair of electrons.",
+   "Statement I is also true. Equal numbers of bonding and antibonding electrons give a bond order of zero.",
+   "Statement III is false. F₂ has a bond order of 1, while Ne₂ has none."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "modiag",
+    "order": "O2",
+    "e": 16
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "bonding",
+  "q": "Rank the ionic solids NaCl, Na<sub>2</sub>O and MgO from the SMALLEST to the LARGEST magnitude of lattice energy.",
+  "c": [
+   "NaCl &lt; Na<sub>2</sub>O &lt; MgO",
+   "MgO &lt; Na<sub>2</sub>O &lt; NaCl",
+   "Na<sub>2</sub>O &lt; NaCl &lt; MgO",
+   "NaCl &lt; MgO &lt; Na<sub>2</sub>O"
+  ],
+  "h": "Lattice energy grows with the product of the ion charges and with smaller ion sizes (Coulomb's law).",
+  "w": "NaCl has only +1 and −1 ions, so it is smallest. Na<sub>2</sub>O has a 2− oxide ion, which raises the lattice energy above NaCl. MgO has both a 2+ and a 2− ion, and Mg<sup>2+</sup> is smaller than Na<sup>+</sup>, so it is largest: <b>NaCl &lt; Na<sub>2</sub>O &lt; MgO</b> (about 790, 2480 and 3790 kJ mol<sup>−1</sup>).",
+  "x": [
+   "",
+   "This order is reversed. Larger ion charges give a larger lattice energy.",
+   "Na₂O contains the 2− oxide ion, which attracts Na⁺ more strongly than Cl⁻ does.",
+   "MgO has 2+ and 2− ions together. Na₂O has only one doubly charged ion."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "bonding",
+  "q": "Use the electronegativity values in the table. Rank the bonds C–S, P–Cl and Si–O from LEAST polar to MOST polar.",
+  "c": [
+   "C–S &lt; P–Cl &lt; Si–O",
+   "Si–O &lt; P–Cl &lt; C–S",
+   "P–Cl &lt; C–S &lt; Si–O",
+   "C–S &lt; Si–O &lt; P–Cl"
+  ],
+  "h": "Bond polarity depends on the difference in electronegativity between the two bonded atoms, not on the atoms' sizes.",
+  "w": "The differences are C–S: 2.58 − 2.55 = 0.03, P–Cl: 3.16 − 2.19 = 0.97 and Si–O: 3.44 − 1.90 = 1.54. So <b>C–S &lt; P–Cl &lt; Si–O</b>. The C–S bond is essentially nonpolar, while Si–O is strongly polar.",
+  "x": [
+   "",
+   "This order is reversed. The largest electronegativity difference gives the most polar bond.",
+   "Subtract the values. The C–S difference is only 0.03, the smallest of the three.",
+   "Subtract the values. Si–O has the largest difference, 1.54."
+  ],
+  "k": 1,
+  "d": 1,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Element",
+     "C",
+     "Si",
+     "P",
+     "S",
+     "Cl",
+     "O"
+    ],
+    "rows": [
+     [
+      "Electronegativity",
+      "2.55",
+      "1.90",
+      "2.19",
+      "2.58",
+      "3.16",
+      "3.44"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "bonding",
+  "q": "Nitrous acid has the atom connections H–O–N–O. Which drawing is its best Lewis structure?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "HNO₂ has 18 valence electrons. Check the electron total and octets first, then prefer formal charges of zero.",
+  "w": "With an N=O double bond to the end oxygen, every atom has an octet and every formal charge is zero, so <b>H–O–N=O</b> is the best structure. Putting the double bond between N and the OH oxygen also gives octets, but leaves +1 on that O and −1 on the end O. The all-single-bond drawing with 18 electrons leaves N with only six electrons, and the one with two lone pairs on N has 20 electrons.",
+  "x": [
+   "",
+   "Every atom has an octet here, but there are +1 and −1 formal charges. A structure with all zeros is better.",
+   "Nitrogen has only two bonds and one lone pair here, just six electrons. It needs an octet.",
+   "Count the electrons. This drawing has 20, two more than HNO₂ has."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "N",
+      2,
+      1,
+      1,
+      0,
+      ""
+     ],
+     [
+      "O",
+      3,
+      1,
+      2,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      2
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      1,
+      1,
+      1,
+      ""
+     ],
+     [
+      "N",
+      2,
+      1,
+      1,
+      0,
+      ""
+     ],
+     [
+      "O",
+      3,
+      1,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      2
+     ],
+     [
+      2,
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "N",
+      2,
+      1,
+      1,
+      1,
+      ""
+     ],
+     [
+      "O",
+      3,
+      1,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "N",
+      2,
+      1,
+      2,
+      -1,
+      ""
+     ],
+     [
+      "O",
+      3,
+      1,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      1
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "bonding",
+  "q": "Two octet-rule resonance structures of sulfur dioxide are drawn below. Which statements are true?<br>I. An SO<sub>2</sub> molecule switches back and forth between the two structures.<br>II. The two S–O bonds in SO<sub>2</sub> have the same length.<br>III. Each S–O bond has a bond order of about 1.5.",
+  "c": [
+   "II and III only",
+   "III only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Resonance structures are not separate molecules. The real molecule is one blend of them.",
+  "w": "Statement I is false: the real molecule is a single resonance hybrid at all times, not a mixture that flips between forms. Statement II is true: averaging the two forms makes both S–O bonds identical. Statement III is true: each bond is single in one form and double in the other, an average of 1.5. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement II is also true. In the hybrid both S–O bonds are the same.",
+   "Statement I is false. The molecule does not alternate. It is one blended structure.",
+   "Statement I is false. Resonance forms are not real structures that interconvert."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "a": [
+     [
+      "O",
+      0,
+      1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "S",
+      1,
+      0,
+      1,
+      1,
+      ""
+     ],
+     [
+      "O",
+      2,
+      1,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      1,
+      2,
+      1
+     ]
+    ]
+   },
+   "↔",
+   {
+    "a": [
+     [
+      "O",
+      0,
+      1,
+      3,
+      -1,
+      ""
+     ],
+     [
+      "S",
+      1,
+      0,
+      1,
+      1,
+      ""
+     ],
+     [
+      "O",
+      2,
+      1,
+      2,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      2
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "advanced",
+  "q": "The shape of bromine trifluoride, BrF<sub>3</sub>, is drawn below with the lone pairs on bromine. What is the hybridization of the bromine atom?",
+  "c": [
+   "sp<sup>3</sup>d",
+   "sp<sup>2</sup>",
+   "sp<sup>3</sup>",
+   "sp<sup>3</sup>d<sup>2</sup>"
+  ],
+  "h": "Count all the electron groups around bromine: bonded atoms plus lone pairs.",
+  "w": "Bromine has 3 bonds and 2 lone pairs, 5 electron groups in a trigonal bipyramid, so it is <b>sp<sup>3</sup>d</b>. sp<sup>2</sup> counts only the three bonds, sp<sup>3</sup> counts four groups, and sp<sup>3</sup>d<sup>2</sup> is for six groups.",
+  "x": [
+   "",
+   "This counts only the three bonded atoms. The two lone pairs also need hybrid orbitals.",
+   "Bromine has five electron groups, not four. Count both lone pairs.",
+   "That set has six orbitals. Bromine here has five electron groups."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "vsepr",
+    "shape": "T-shaped",
+    "center": "Br",
+    "lig": "F",
+    "cap": "BrF₃"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ }
+]

@@ -1,0 +1,5699 @@
+[
+ {
+  "t": "liquids",
+  "q": "Polonium is the only element that crystallizes in the unit cell drawn below, with an edge length of 336 pm. What is the density of polonium? (Po: 209 g mol<sup>−1</sup>)",
+  "c": [
+   "9.15 g cm<sup>−3</sup>",
+   "18.3 g cm<sup>−3</sup>",
+   "36.6 g cm<sup>−3</sup>",
+   "1.14 g cm<sup>−3</sup>"
+  ],
+  "h": "Count how many whole atoms belong to the cell (each corner atom is shared by 8 cells), then divide the mass of those atoms by the cell volume in cm³.",
+  "w": "The cell is simple cubic: 8 corners × 1/8 = 1 atom. Mass = 209 g mol⁻¹ ÷ 6.022×10<sup>23</sup> mol⁻¹ = 3.47×10<sup>−22</sup> g. Volume = (3.36×10<sup>−8</sup> cm)<sup>3</sup> = 3.79×10<sup>−23</sup> cm<sup>3</sup>. Density = <b>9.15 g cm<sup>−3</sup></b>. Using 2 atoms (bcc) or 4 atoms (fcc) doubles or quadruples the answer, and counting only one corner (1/8 atom) gives 1.14.",
+  "x": [
+   "",
+   "This answer uses 2 atoms per cell, which fits a body-centered cell. The drawing has no atom in the center.",
+   "This answer uses 4 atoms per cell, which fits a face-centered cell. The drawing has no atoms on the faces.",
+   "This answer counts only 1/8 of an atom. All eight corners contribute 1/8 each."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "lattice",
+    "kind": "sc",
+    "edge": "336 pm",
+    "cap": "polonium"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "Magnesium oxide has the rock-salt unit cell drawn below. The larger O<sup>2−</sup> ions sit at the corners and face centers, and the smaller Mg<sup>2+</sup> ions sit at the edge centers and the body center. How many of each ion belong to one unit cell?",
+  "c": [
+   "4 O<sup>2−</sup> and 4 Mg<sup>2+</sup>",
+   "14 O<sup>2−</sup> and 13 Mg<sup>2+</sup>",
+   "4 O<sup>2−</sup> and 1 Mg<sup>2+</sup>",
+   "1 O<sup>2−</sup> and 4 Mg<sup>2+</sup>"
+  ],
+  "h": "A corner is shared by 8 cells, a face by 2 and an edge by 4. The body center belongs to one cell only.",
+  "w": "O<sup>2−</sup>: 8 corners × 1/8 + 6 faces × 1/2 = 4. Mg<sup>2+</sup>: 12 edges × 1/4 + 1 center = 4. So the cell holds <b>4 O<sup>2−</sup> and 4 Mg<sup>2+</sup></b>, a 1 : 1 ratio that matches the formula MgO. Counting every drawn sphere as whole gives 14 and 13, and counting only the body-center Mg<sup>2+</sup> gives 1.",
+  "x": [
+   "",
+   "These are the numbers of spheres drawn. Most of them are shared with neighboring cells.",
+   "The body center is only one of the Mg²⁺ sites. The 12 edge-center ions each count as 1/4.",
+   "This swaps the two ions or treats the fcc ions as a single corner atom."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "lattice",
+    "kind": "nacl",
+    "labels": {
+     "A": "O²⁻",
+     "B": "Mg²⁺"
+    },
+    "cap": "MgO"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "Cesium chloride has the unit cell drawn below: Cl<sup>−</sup> ions at the eight corners and one Cs<sup>+</sup> ion at the body center. What is the coordination number of Cs<sup>+</sup>, and how many CsCl formula units belong to one cell?",
+  "c": [
+   "8, and 1 formula unit",
+   "8, and 9 formula units",
+   "6, and 1 formula unit",
+   "12, and 4 formula units"
+  ],
+  "h": "Count the Cl⁻ ions that touch the central Cs⁺. Then count the Cl⁻ that belong to this cell, sharing each corner among 8 cells.",
+  "w": "The Cs<sup>+</sup> at the center touches all 8 corner Cl<sup>−</sup> ions, so its coordination number is 8. The cell holds 8 × 1/8 = 1 Cl<sup>−</sup> and 1 Cs<sup>+</sup>: <b>8, and 1 formula unit</b>. A coordination number of 6 belongs to the rock-salt structure, and 12 with 4 units to a face-centered cell of one kind of atom.",
+  "x": [
+   "",
+   "Nine spheres are drawn, but the 8 corner ions are each shared by 8 cells.",
+   "Six neighbors is the rock-salt (NaCl) arrangement. Count the corners around the center here.",
+   "Twelve neighbors and 4 per cell describe a face-centered cell. This cell has no ions on its faces."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "lattice",
+    "kind": "cscl",
+    "labels": {
+     "A": "Cl⁻",
+     "B": "Cs⁺"
+    },
+    "cap": "CsCl"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "Three cubic unit cells of a metal are drawn below. Which statements are true?<br>I. Each corner atom is shared by eight unit cells.<br>II. Each atom in cell III touches eight nearest neighbors.<br>III. Of the three, cell I leaves the largest fraction of empty space.",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Cell I is simple cubic, II is body-centered and III is face-centered. Think about how many neighbors touch an atom in each.",
+  "w": "Statement I is true: a corner sits where eight cubes meet. Statement II is false: in the face-centered cell (III) each atom touches 12 neighbors; 8 is the body-centered value (cell II). Statement III is true: simple cubic (I) fills only about 52% of space, less than bcc (68%) or fcc (74%). So the answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true. A simple cubic cell packs atoms least efficiently.",
+   "Statement II is false. Atoms in a face-centered cell have 12 nearest neighbors.",
+   "Statement II is false. Eight nearest neighbors fits the body-centered cell, not cell III."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "lattice",
+    "items": [
+     {
+      "kind": "sc",
+      "cap": "I"
+     },
+     {
+      "kind": "bcc",
+      "cap": "II"
+     },
+     {
+      "kind": "fcc",
+      "cap": "III"
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "Tungsten crystallizes in the unit cell drawn below, with edge length <i>a</i> = 316 pm. Atoms touch along the body diagonal. What is the atomic radius of tungsten?",
+  "c": [
+   "137 pm",
+   "158 pm",
+   "112 pm",
+   "79.0 pm"
+  ],
+  "h": "Find the line along which atoms touch. In this cell it runs corner to center to the opposite corner, a length of a√3.",
+  "w": "The cell is body-centered cubic, so atoms touch along the body diagonal: 4<i>r</i> = <i>a</i>√3. <i>r</i> = (316 pm)(1.732)/4 = <b>137 pm</b>. 158 pm (<i>a</i>/2) assumes atoms touch along an edge (simple cubic), 112 pm (<i>a</i>√2/4) assumes they touch along a face diagonal (fcc), and 79.0 pm is <i>a</i>/4.",
+  "x": [
+   "",
+   "This assumes the corner atoms touch along an edge. In this cell the center atom keeps them apart.",
+   "This uses the face diagonal, which fits a face-centered cell. This cell has its extra atom in the body center.",
+   "This divides the edge by 4. The four radii lie along a longer line than the edge."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "lattice",
+    "kind": "bcc",
+    "edge": "a = 316 pm"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "Aluminum atoms have a radius of 143 pm, and X-ray data show that the cubic unit cell of aluminum has an edge length of 404 pm. Which cell drawn below is the unit cell of aluminum?",
+  "c": [
+   "III",
+   "I",
+   "II",
+   "none of them, because the edge is not a whole multiple of the radius"
+  ],
+  "h": "Divide the edge by the radius and compare with 2 (simple cubic), 4/√3 = 2.31 (body-centered) and 2√2 = 2.83 (face-centered).",
+  "w": "<i>a</i>/<i>r</i> = 404/143 = 2.83 = 2√2, which is the face-centered cubic relation 4<i>r</i> = <i>a</i>√2. So the cell is <b>III</b>. A simple cubic cell (I) would need <i>a</i> = 2<i>r</i> = 286 pm, and a body-centered cell (II) would need <i>a</i> = 4<i>r</i>/√3 = 330 pm.",
+  "x": [
+   "",
+   "A simple cubic cell would have an edge of 2r, about 286 pm. That does not match 404 pm.",
+   "A body-centered cell would have an edge of 4r/√3, about 330 pm. That does not match 404 pm.",
+   "The edge does not have to be a whole multiple of r. Atoms can touch along a diagonal."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "lattice",
+    "items": [
+     {
+      "kind": "sc",
+      "cap": "I"
+     },
+     {
+      "kind": "bcc",
+      "cap": "II"
+     },
+     {
+      "kind": "fcc",
+      "cap": "III"
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "The phase diagram of a substance is drawn below. A sample is cooled at a constant pressure of 0.20 atm from point A (40 °C) to point B (−30 °C). Which phase change occurs along the way?",
+  "c": [
+   "deposition (gas to solid)",
+   "condensation, then freezing",
+   "sublimation (solid to gas)",
+   "freezing (liquid to solid)"
+  ],
+  "h": "Follow the horizontal line from A to B. Which boundary does it cross, and is 0.20 atm above or below the triple point pressure?",
+  "w": "Point A is in the gas region and point B in the solid region. At 0.20 atm, below the triple point pressure (0.40 atm), the path crosses only the solid–gas boundary, so the gas turns directly into solid: <b>deposition</b>. Condensation and freezing would happen only at pressures above the triple point, where the line passes through the liquid region. Sublimation is the reverse direction.",
+  "x": [
+   "",
+   "The path never enters the liquid region. At 0.20 atm the pressure is below the triple point.",
+   "Sublimation turns solid into gas. This sample goes the other way.",
+   "There is no liquid on this path, so nothing freezes."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Temperature (°C)",
+     "min": -40,
+     "max": 60,
+     "ticks": [
+      -40,
+      -20,
+      0,
+      20,
+      40,
+      60
+     ]
+    },
+    "y": {
+     "label": "Pressure (atm)",
+     "min": 0,
+     "max": 1.2,
+     "ticks": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0,
+      1.2
+     ]
+    },
+    "regions": [
+     {
+      "pts": [
+       [
+        -40,
+        0.012
+       ],
+       [
+        -40,
+        0.012
+       ],
+       [
+        -38.0,
+        0.0144
+       ],
+       [
+        -36.0,
+        0.0173
+       ],
+       [
+        -34.0,
+        0.0207
+       ],
+       [
+        -32.0,
+        0.0247
+       ],
+       [
+        -30.0,
+        0.0293
+       ],
+       [
+        -28.0,
+        0.0347
+       ],
+       [
+        -26.0,
+        0.041
+       ],
+       [
+        -24.0,
+        0.0483
+       ],
+       [
+        -22.0,
+        0.0568
+       ],
+       [
+        -20.0,
+        0.0665
+       ],
+       [
+        -18.0,
+        0.0778
+       ],
+       [
+        -16.0,
+        0.0908
+       ],
+       [
+        -14.0,
+        0.1056
+       ],
+       [
+        -12.0,
+        0.1226
+       ],
+       [
+        -10.0,
+        0.1421
+       ],
+       [
+        -8.0,
+        0.1642
+       ],
+       [
+        -6.0,
+        0.1894
+       ],
+       [
+        -4.0,
+        0.2179
+       ],
+       [
+        -2.0,
+        0.2503
+       ],
+       [
+        0.0,
+        0.2869
+       ],
+       [
+        2.0,
+        0.3281
+       ],
+       [
+        4.0,
+        0.3746
+       ],
+       [
+        5,
+        0.4
+       ],
+       [
+        8.2,
+        1.2
+       ],
+       [
+        -40,
+        1.2
+       ]
+      ],
+      "fill": "#dbe9f3",
+      "label": "solid",
+      "at": [
+       -25,
+       0.8
+      ]
+     },
+     {
+      "pts": [
+       [
+        8.2,
+        1.2
+       ],
+       [
+        5,
+        0.4
+       ],
+       [
+        7.0,
+        0.4388
+       ],
+       [
+        9.0,
+        0.4808
+       ],
+       [
+        11.0,
+        0.526
+       ],
+       [
+        13.0,
+        0.5749
+       ],
+       [
+        15.0,
+        0.6275
+       ],
+       [
+        17.0,
+        0.684
+       ],
+       [
+        19.0,
+        0.7448
+       ],
+       [
+        21.0,
+        0.8101
+       ],
+       [
+        23.0,
+        0.88
+       ],
+       [
+        25.0,
+        0.955
+       ],
+       [
+        27.0,
+        1.0352
+       ],
+       [
+        29.0,
+        1.1209
+       ],
+       [
+        30.73,
+        1.2
+       ]
+      ],
+      "fill": "#e9f5e4",
+      "label": "liquid",
+      "at": [
+       17,
+       1.0
+      ]
+     },
+     {
+      "pts": [
+       [
+        -40,
+        0
+       ],
+       [
+        -40,
+        0.012
+       ],
+       [
+        -40,
+        0.012
+       ],
+       [
+        -38.0,
+        0.0144
+       ],
+       [
+        -36.0,
+        0.0173
+       ],
+       [
+        -34.0,
+        0.0207
+       ],
+       [
+        -32.0,
+        0.0247
+       ],
+       [
+        -30.0,
+        0.0293
+       ],
+       [
+        -28.0,
+        0.0347
+       ],
+       [
+        -26.0,
+        0.041
+       ],
+       [
+        -24.0,
+        0.0483
+       ],
+       [
+        -22.0,
+        0.0568
+       ],
+       [
+        -20.0,
+        0.0665
+       ],
+       [
+        -18.0,
+        0.0778
+       ],
+       [
+        -16.0,
+        0.0908
+       ],
+       [
+        -14.0,
+        0.1056
+       ],
+       [
+        -12.0,
+        0.1226
+       ],
+       [
+        -10.0,
+        0.1421
+       ],
+       [
+        -8.0,
+        0.1642
+       ],
+       [
+        -6.0,
+        0.1894
+       ],
+       [
+        -4.0,
+        0.2179
+       ],
+       [
+        -2.0,
+        0.2503
+       ],
+       [
+        0.0,
+        0.2869
+       ],
+       [
+        2.0,
+        0.3281
+       ],
+       [
+        4.0,
+        0.3746
+       ],
+       [
+        5,
+        0.4
+       ],
+       [
+        7.0,
+        0.4388
+       ],
+       [
+        9.0,
+        0.4808
+       ],
+       [
+        11.0,
+        0.526
+       ],
+       [
+        13.0,
+        0.5749
+       ],
+       [
+        15.0,
+        0.6275
+       ],
+       [
+        17.0,
+        0.684
+       ],
+       [
+        19.0,
+        0.7448
+       ],
+       [
+        21.0,
+        0.8101
+       ],
+       [
+        23.0,
+        0.88
+       ],
+       [
+        25.0,
+        0.955
+       ],
+       [
+        27.0,
+        1.0352
+       ],
+       [
+        29.0,
+        1.1209
+       ],
+       [
+        30.73,
+        1.2
+       ],
+       [
+        60,
+        1.2
+       ],
+       [
+        60,
+        0
+       ]
+      ],
+      "fill": "#fdf1dc",
+      "label": "gas",
+      "at": [
+       35,
+       0.5
+      ]
+     }
+    ],
+    "series": [
+     {
+      "pts": [
+       [
+        -40,
+        0.012
+       ],
+       [
+        -38.0,
+        0.0144
+       ],
+       [
+        -36.0,
+        0.0173
+       ],
+       [
+        -34.0,
+        0.0207
+       ],
+       [
+        -32.0,
+        0.0247
+       ],
+       [
+        -30.0,
+        0.0293
+       ],
+       [
+        -28.0,
+        0.0347
+       ],
+       [
+        -26.0,
+        0.041
+       ],
+       [
+        -24.0,
+        0.0483
+       ],
+       [
+        -22.0,
+        0.0568
+       ],
+       [
+        -20.0,
+        0.0665
+       ],
+       [
+        -18.0,
+        0.0778
+       ],
+       [
+        -16.0,
+        0.0908
+       ],
+       [
+        -14.0,
+        0.1056
+       ],
+       [
+        -12.0,
+        0.1226
+       ],
+       [
+        -10.0,
+        0.1421
+       ],
+       [
+        -8.0,
+        0.1642
+       ],
+       [
+        -6.0,
+        0.1894
+       ],
+       [
+        -4.0,
+        0.2179
+       ],
+       [
+        -2.0,
+        0.2503
+       ],
+       [
+        0.0,
+        0.2869
+       ],
+       [
+        2.0,
+        0.3281
+       ],
+       [
+        4.0,
+        0.3746
+       ],
+       [
+        5,
+        0.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        5,
+        0.4
+       ],
+       [
+        7.0,
+        0.4388
+       ],
+       [
+        9.0,
+        0.4808
+       ],
+       [
+        11.0,
+        0.526
+       ],
+       [
+        13.0,
+        0.5749
+       ],
+       [
+        15.0,
+        0.6275
+       ],
+       [
+        17.0,
+        0.684
+       ],
+       [
+        19.0,
+        0.7448
+       ],
+       [
+        21.0,
+        0.8101
+       ],
+       [
+        23.0,
+        0.88
+       ],
+       [
+        25.0,
+        0.955
+       ],
+       [
+        27.0,
+        1.0352
+       ],
+       [
+        29.0,
+        1.1209
+       ],
+       [
+        30.73,
+        1.2
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        5,
+        0.4
+       ],
+       [
+        8.2,
+        1.2
+       ]
+      ]
+     }
+    ],
+    "points": [
+     [
+      40,
+      0.2,
+      "A",
+      6,
+      -8
+     ],
+     [
+      -30,
+      0.2,
+      "B",
+      -14,
+      -8
+     ]
+    ],
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "The phase diagram of a pure substance is drawn below; its triple point is at 2.0 atm and −40 °C. Which statements are true?<br>I. When the solid is warmed at 1.0 atm, it changes directly into a gas.<br>II. The solid is less dense than the liquid.<br>III. Compressing the solid at −35 °C from 5 atm to 6 atm melts it.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Check where the 1.0 atm line sits relative to the triple point, and which way the solid–liquid line leans.",
+  "w": "Statement I is true: 1.0 atm is below the triple point pressure, so the 1.0 atm line crosses only the solid–gas curve (sublimation, near −49 °C). Statement II is false: the solid–liquid line leans to the right, so higher pressure favors the solid, which means the solid is denser than the liquid. Statement III is false: at −35 °C the points at 5 atm and 6 atm both lie left of the solid–liquid line, so the sample stays solid. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false. A solid–liquid line that leans right means pressure favors the solid, so the solid is denser.",
+   "Statement III is false. At −35 °C both 5 atm and 6 atm are in the solid region of this diagram.",
+   "Statements II and III both treat this substance like water. Its solid–liquid line leans the other way."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Temperature (°C)",
+     "min": -90,
+     "max": 10,
+     "ticks": [
+      -90,
+      -70,
+      -50,
+      -30,
+      -10,
+      10
+     ]
+    },
+    "y": {
+     "label": "Pressure (atm)",
+     "min": 0,
+     "max": 6,
+     "ticks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    },
+    "regions": [
+     {
+      "pts": [
+       [
+        -90,
+        0.0145
+       ],
+       [
+        -90,
+        0.0145
+       ],
+       [
+        -89.0,
+        0.0164
+       ],
+       [
+        -88.0,
+        0.0185
+       ],
+       [
+        -87.0,
+        0.0209
+       ],
+       [
+        -86.0,
+        0.0236
+       ],
+       [
+        -85.0,
+        0.0266
+       ],
+       [
+        -84.0,
+        0.03
+       ],
+       [
+        -83.0,
+        0.0337
+       ],
+       [
+        -82.0,
+        0.0378
+       ],
+       [
+        -81.0,
+        0.0424
+       ],
+       [
+        -80.0,
+        0.0475
+       ],
+       [
+        -79.0,
+        0.0532
+       ],
+       [
+        -78.0,
+        0.0594
+       ],
+       [
+        -77.0,
+        0.0664
+       ],
+       [
+        -76.0,
+        0.074
+       ],
+       [
+        -75.0,
+        0.0824
+       ],
+       [
+        -74.0,
+        0.0917
+       ],
+       [
+        -73.0,
+        0.1019
+       ],
+       [
+        -72.0,
+        0.1131
+       ],
+       [
+        -71.0,
+        0.1255
+       ],
+       [
+        -70.0,
+        0.139
+       ],
+       [
+        -69.0,
+        0.1539
+       ],
+       [
+        -68.0,
+        0.1701
+       ],
+       [
+        -67.0,
+        0.1879
+       ],
+       [
+        -66.0,
+        0.2074
+       ],
+       [
+        -65.0,
+        0.2287
+       ],
+       [
+        -64.0,
+        0.2519
+       ],
+       [
+        -63.0,
+        0.2772
+       ],
+       [
+        -62.0,
+        0.3048
+       ],
+       [
+        -61.0,
+        0.3348
+       ],
+       [
+        -60.0,
+        0.3675
+       ],
+       [
+        -59.0,
+        0.403
+       ],
+       [
+        -58.0,
+        0.4415
+       ],
+       [
+        -57.0,
+        0.4834
+       ],
+       [
+        -56.0,
+        0.5287
+       ],
+       [
+        -55.0,
+        0.5779
+       ],
+       [
+        -54.0,
+        0.6311
+       ],
+       [
+        -53.0,
+        0.6886
+       ],
+       [
+        -52.0,
+        0.7508
+       ],
+       [
+        -51.0,
+        0.818
+       ],
+       [
+        -50.0,
+        0.8905
+       ],
+       [
+        -49.0,
+        0.9687
+       ],
+       [
+        -48.0,
+        1.0529
+       ],
+       [
+        -47.0,
+        1.1437
+       ],
+       [
+        -46.0,
+        1.2414
+       ],
+       [
+        -45.0,
+        1.3464
+       ],
+       [
+        -44.0,
+        1.4593
+       ],
+       [
+        -43.0,
+        1.5806
+       ],
+       [
+        -42.0,
+        1.7107
+       ],
+       [
+        -41.0,
+        1.8503
+       ],
+       [
+        -40,
+        2.0
+       ],
+       [
+        -32.0,
+        6
+       ],
+       [
+        -90,
+        6
+       ]
+      ],
+      "fill": "#dbe9f3",
+      "label": "solid",
+      "at": [
+       -70,
+       4.5
+      ]
+     },
+     {
+      "pts": [
+       [
+        -32.0,
+        6
+       ],
+       [
+        -40,
+        2.0
+       ],
+       [
+        -39.0,
+        2.1133
+       ],
+       [
+        -38.0,
+        2.2319
+       ],
+       [
+        -37.0,
+        2.3561
+       ],
+       [
+        -36.0,
+        2.486
+       ],
+       [
+        -35.0,
+        2.622
+       ],
+       [
+        -34.0,
+        2.7641
+       ],
+       [
+        -33.0,
+        2.9127
+       ],
+       [
+        -32.0,
+        3.0679
+       ],
+       [
+        -31.0,
+        3.23
+       ],
+       [
+        -30.0,
+        3.3993
+       ],
+       [
+        -29.0,
+        3.5759
+       ],
+       [
+        -28.0,
+        3.7602
+       ],
+       [
+        -27.0,
+        3.9523
+       ],
+       [
+        -26.0,
+        4.1525
+       ],
+       [
+        -25.0,
+        4.3612
+       ],
+       [
+        -24.0,
+        4.5785
+       ],
+       [
+        -23.0,
+        4.8049
+       ],
+       [
+        -22.0,
+        5.0404
+       ],
+       [
+        -21.0,
+        5.2855
+       ],
+       [
+        -20.0,
+        5.5405
+       ],
+       [
+        -19.0,
+        5.8056
+       ],
+       [
+        -18.29,
+        6
+       ]
+      ],
+      "fill": "#e9f5e4",
+      "label": "liquid",
+      "at": [
+       -28,
+       5.0
+      ]
+     },
+     {
+      "pts": [
+       [
+        -90,
+        0
+       ],
+       [
+        -90,
+        0.0145
+       ],
+       [
+        -90,
+        0.0145
+       ],
+       [
+        -89.0,
+        0.0164
+       ],
+       [
+        -88.0,
+        0.0185
+       ],
+       [
+        -87.0,
+        0.0209
+       ],
+       [
+        -86.0,
+        0.0236
+       ],
+       [
+        -85.0,
+        0.0266
+       ],
+       [
+        -84.0,
+        0.03
+       ],
+       [
+        -83.0,
+        0.0337
+       ],
+       [
+        -82.0,
+        0.0378
+       ],
+       [
+        -81.0,
+        0.0424
+       ],
+       [
+        -80.0,
+        0.0475
+       ],
+       [
+        -79.0,
+        0.0532
+       ],
+       [
+        -78.0,
+        0.0594
+       ],
+       [
+        -77.0,
+        0.0664
+       ],
+       [
+        -76.0,
+        0.074
+       ],
+       [
+        -75.0,
+        0.0824
+       ],
+       [
+        -74.0,
+        0.0917
+       ],
+       [
+        -73.0,
+        0.1019
+       ],
+       [
+        -72.0,
+        0.1131
+       ],
+       [
+        -71.0,
+        0.1255
+       ],
+       [
+        -70.0,
+        0.139
+       ],
+       [
+        -69.0,
+        0.1539
+       ],
+       [
+        -68.0,
+        0.1701
+       ],
+       [
+        -67.0,
+        0.1879
+       ],
+       [
+        -66.0,
+        0.2074
+       ],
+       [
+        -65.0,
+        0.2287
+       ],
+       [
+        -64.0,
+        0.2519
+       ],
+       [
+        -63.0,
+        0.2772
+       ],
+       [
+        -62.0,
+        0.3048
+       ],
+       [
+        -61.0,
+        0.3348
+       ],
+       [
+        -60.0,
+        0.3675
+       ],
+       [
+        -59.0,
+        0.403
+       ],
+       [
+        -58.0,
+        0.4415
+       ],
+       [
+        -57.0,
+        0.4834
+       ],
+       [
+        -56.0,
+        0.5287
+       ],
+       [
+        -55.0,
+        0.5779
+       ],
+       [
+        -54.0,
+        0.6311
+       ],
+       [
+        -53.0,
+        0.6886
+       ],
+       [
+        -52.0,
+        0.7508
+       ],
+       [
+        -51.0,
+        0.818
+       ],
+       [
+        -50.0,
+        0.8905
+       ],
+       [
+        -49.0,
+        0.9687
+       ],
+       [
+        -48.0,
+        1.0529
+       ],
+       [
+        -47.0,
+        1.1437
+       ],
+       [
+        -46.0,
+        1.2414
+       ],
+       [
+        -45.0,
+        1.3464
+       ],
+       [
+        -44.0,
+        1.4593
+       ],
+       [
+        -43.0,
+        1.5806
+       ],
+       [
+        -42.0,
+        1.7107
+       ],
+       [
+        -41.0,
+        1.8503
+       ],
+       [
+        -40,
+        2.0
+       ],
+       [
+        -39.0,
+        2.1133
+       ],
+       [
+        -38.0,
+        2.2319
+       ],
+       [
+        -37.0,
+        2.3561
+       ],
+       [
+        -36.0,
+        2.486
+       ],
+       [
+        -35.0,
+        2.622
+       ],
+       [
+        -34.0,
+        2.7641
+       ],
+       [
+        -33.0,
+        2.9127
+       ],
+       [
+        -32.0,
+        3.0679
+       ],
+       [
+        -31.0,
+        3.23
+       ],
+       [
+        -30.0,
+        3.3993
+       ],
+       [
+        -29.0,
+        3.5759
+       ],
+       [
+        -28.0,
+        3.7602
+       ],
+       [
+        -27.0,
+        3.9523
+       ],
+       [
+        -26.0,
+        4.1525
+       ],
+       [
+        -25.0,
+        4.3612
+       ],
+       [
+        -24.0,
+        4.5785
+       ],
+       [
+        -23.0,
+        4.8049
+       ],
+       [
+        -22.0,
+        5.0404
+       ],
+       [
+        -21.0,
+        5.2855
+       ],
+       [
+        -20.0,
+        5.5405
+       ],
+       [
+        -19.0,
+        5.8056
+       ],
+       [
+        -18.29,
+        6
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        10,
+        0
+       ]
+      ],
+      "fill": "#fdf1dc",
+      "label": "gas",
+      "at": [
+       -20,
+       0.5
+      ]
+     }
+    ],
+    "series": [
+     {
+      "pts": [
+       [
+        -90,
+        0.0145
+       ],
+       [
+        -89.0,
+        0.0164
+       ],
+       [
+        -88.0,
+        0.0185
+       ],
+       [
+        -87.0,
+        0.0209
+       ],
+       [
+        -86.0,
+        0.0236
+       ],
+       [
+        -85.0,
+        0.0266
+       ],
+       [
+        -84.0,
+        0.03
+       ],
+       [
+        -83.0,
+        0.0337
+       ],
+       [
+        -82.0,
+        0.0378
+       ],
+       [
+        -81.0,
+        0.0424
+       ],
+       [
+        -80.0,
+        0.0475
+       ],
+       [
+        -79.0,
+        0.0532
+       ],
+       [
+        -78.0,
+        0.0594
+       ],
+       [
+        -77.0,
+        0.0664
+       ],
+       [
+        -76.0,
+        0.074
+       ],
+       [
+        -75.0,
+        0.0824
+       ],
+       [
+        -74.0,
+        0.0917
+       ],
+       [
+        -73.0,
+        0.1019
+       ],
+       [
+        -72.0,
+        0.1131
+       ],
+       [
+        -71.0,
+        0.1255
+       ],
+       [
+        -70.0,
+        0.139
+       ],
+       [
+        -69.0,
+        0.1539
+       ],
+       [
+        -68.0,
+        0.1701
+       ],
+       [
+        -67.0,
+        0.1879
+       ],
+       [
+        -66.0,
+        0.2074
+       ],
+       [
+        -65.0,
+        0.2287
+       ],
+       [
+        -64.0,
+        0.2519
+       ],
+       [
+        -63.0,
+        0.2772
+       ],
+       [
+        -62.0,
+        0.3048
+       ],
+       [
+        -61.0,
+        0.3348
+       ],
+       [
+        -60.0,
+        0.3675
+       ],
+       [
+        -59.0,
+        0.403
+       ],
+       [
+        -58.0,
+        0.4415
+       ],
+       [
+        -57.0,
+        0.4834
+       ],
+       [
+        -56.0,
+        0.5287
+       ],
+       [
+        -55.0,
+        0.5779
+       ],
+       [
+        -54.0,
+        0.6311
+       ],
+       [
+        -53.0,
+        0.6886
+       ],
+       [
+        -52.0,
+        0.7508
+       ],
+       [
+        -51.0,
+        0.818
+       ],
+       [
+        -50.0,
+        0.8905
+       ],
+       [
+        -49.0,
+        0.9687
+       ],
+       [
+        -48.0,
+        1.0529
+       ],
+       [
+        -47.0,
+        1.1437
+       ],
+       [
+        -46.0,
+        1.2414
+       ],
+       [
+        -45.0,
+        1.3464
+       ],
+       [
+        -44.0,
+        1.4593
+       ],
+       [
+        -43.0,
+        1.5806
+       ],
+       [
+        -42.0,
+        1.7107
+       ],
+       [
+        -41.0,
+        1.8503
+       ],
+       [
+        -40,
+        2.0
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        -40,
+        2.0
+       ],
+       [
+        -39.0,
+        2.1133
+       ],
+       [
+        -38.0,
+        2.2319
+       ],
+       [
+        -37.0,
+        2.3561
+       ],
+       [
+        -36.0,
+        2.486
+       ],
+       [
+        -35.0,
+        2.622
+       ],
+       [
+        -34.0,
+        2.7641
+       ],
+       [
+        -33.0,
+        2.9127
+       ],
+       [
+        -32.0,
+        3.0679
+       ],
+       [
+        -31.0,
+        3.23
+       ],
+       [
+        -30.0,
+        3.3993
+       ],
+       [
+        -29.0,
+        3.5759
+       ],
+       [
+        -28.0,
+        3.7602
+       ],
+       [
+        -27.0,
+        3.9523
+       ],
+       [
+        -26.0,
+        4.1525
+       ],
+       [
+        -25.0,
+        4.3612
+       ],
+       [
+        -24.0,
+        4.5785
+       ],
+       [
+        -23.0,
+        4.8049
+       ],
+       [
+        -22.0,
+        5.0404
+       ],
+       [
+        -21.0,
+        5.2855
+       ],
+       [
+        -20.0,
+        5.5405
+       ],
+       [
+        -19.0,
+        5.8056
+       ],
+       [
+        -18.29,
+        6
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        -40,
+        2.0
+       ],
+       [
+        -32.0,
+        6
+       ]
+      ]
+     }
+    ],
+    "hlines": [
+     {
+      "y": 1,
+      "label": "1.0 atm"
+     }
+    ],
+    "points": [
+     [
+      -40,
+      2.0,
+      "",
+      0,
+      0
+     ]
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "Use the phase diagram drawn below. What are the normal melting point and the normal boiling point of the substance?",
+  "c": [
+   "melting point about −10 °C, boiling point about 40 °C",
+   "melting point about −20 °C, boiling point about 40 °C",
+   "melting point about −10 °C, boiling point about 54 °C",
+   "melting point about 0 °C, boiling point about 100 °C"
+  ],
+  "h": "\"Normal\" means at exactly 1 atm. Find where the 1 atm line crosses the solid–liquid line and the liquid–gas curve.",
+  "w": "Along the 1 atm line, the solid–liquid boundary is crossed near <b>−10 °C (normal melting point)</b> and the liquid–gas curve near <b>40 °C (normal boiling point)</b>. −20 °C is the triple point temperature, which is at 0.10 atm, not 1 atm. 54 °C is where the liquid–gas curve reaches the top of the graph (1.5 atm). 0 °C and 100 °C are the values for water, not for this substance.",
+  "x": [
+   "",
+   "−20 °C is the triple point temperature. The triple point lies at 0.10 atm, not at 1 atm.",
+   "About 54 °C is where the liquid–gas curve meets 1.5 atm. Read the curve at the 1 atm line.",
+   "Those are water's values. Read this substance's own curves at 1 atm."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Temperature (°C)",
+     "min": -40,
+     "max": 100,
+     "ticks": [
+      -40,
+      -20,
+      0,
+      20,
+      40,
+      60,
+      80,
+      100
+     ]
+    },
+    "y": {
+     "label": "Pressure (atm)",
+     "min": 0,
+     "max": 1.5,
+     "ticks": [
+      0,
+      0.5,
+      1.0,
+      1.5
+     ]
+    },
+    "regions": [
+     {
+      "pts": [
+       [
+        -40,
+        0.0231
+       ],
+       [
+        -40,
+        0.0231
+       ],
+       [
+        -38.0,
+        0.027
+       ],
+       [
+        -36.0,
+        0.0315
+       ],
+       [
+        -34.0,
+        0.0367
+       ],
+       [
+        -32.0,
+        0.0427
+       ],
+       [
+        -30.0,
+        0.0495
+       ],
+       [
+        -28.0,
+        0.0572
+       ],
+       [
+        -26.0,
+        0.066
+       ],
+       [
+        -24.0,
+        0.076
+       ],
+       [
+        -22.0,
+        0.0873
+       ],
+       [
+        -20,
+        0.1
+       ],
+       [
+        -4.44,
+        1.5
+       ],
+       [
+        -40,
+        1.5
+       ]
+      ],
+      "fill": "#dbe9f3",
+      "label": "solid",
+      "at": [
+       -33,
+       0.6
+      ]
+     },
+     {
+      "pts": [
+       [
+        -4.44,
+        1.5
+       ],
+       [
+        -20,
+        0.1
+       ],
+       [
+        -18.0,
+        0.1099
+       ],
+       [
+        -16.0,
+        0.1206
+       ],
+       [
+        -14.0,
+        0.1321
+       ],
+       [
+        -12.0,
+        0.1445
+       ],
+       [
+        -10.0,
+        0.1579
+       ],
+       [
+        -8.0,
+        0.1723
+       ],
+       [
+        -6.0,
+        0.1877
+       ],
+       [
+        -4.0,
+        0.2043
+       ],
+       [
+        -2.0,
+        0.2221
+       ],
+       [
+        0.0,
+        0.2411
+       ],
+       [
+        2.0,
+        0.2614
+       ],
+       [
+        4.0,
+        0.2831
+       ],
+       [
+        6.0,
+        0.3063
+       ],
+       [
+        8.0,
+        0.331
+       ],
+       [
+        10.0,
+        0.3572
+       ],
+       [
+        12.0,
+        0.3852
+       ],
+       [
+        14.0,
+        0.4149
+       ],
+       [
+        16.0,
+        0.4465
+       ],
+       [
+        18.0,
+        0.4799
+       ],
+       [
+        20.0,
+        0.5154
+       ],
+       [
+        22.0,
+        0.5529
+       ],
+       [
+        24.0,
+        0.5927
+       ],
+       [
+        26.0,
+        0.6347
+       ],
+       [
+        28.0,
+        0.679
+       ],
+       [
+        30.0,
+        0.7258
+       ],
+       [
+        32.0,
+        0.7751
+       ],
+       [
+        34.0,
+        0.8271
+       ],
+       [
+        36.0,
+        0.8819
+       ],
+       [
+        38.0,
+        0.9394
+       ],
+       [
+        40.0,
+        1.0
+       ],
+       [
+        42.0,
+        1.0636
+       ],
+       [
+        44.0,
+        1.1303
+       ],
+       [
+        46.0,
+        1.2004
+       ],
+       [
+        48.0,
+        1.2738
+       ],
+       [
+        50.0,
+        1.3507
+       ],
+       [
+        52.0,
+        1.4312
+       ],
+       [
+        53.64,
+        1.5
+       ]
+      ],
+      "fill": "#e9f5e4",
+      "label": "liquid",
+      "at": [
+       15,
+       1.25
+      ]
+     },
+     {
+      "pts": [
+       [
+        -40,
+        0
+       ],
+       [
+        -40,
+        0.0231
+       ],
+       [
+        -40,
+        0.0231
+       ],
+       [
+        -38.0,
+        0.027
+       ],
+       [
+        -36.0,
+        0.0315
+       ],
+       [
+        -34.0,
+        0.0367
+       ],
+       [
+        -32.0,
+        0.0427
+       ],
+       [
+        -30.0,
+        0.0495
+       ],
+       [
+        -28.0,
+        0.0572
+       ],
+       [
+        -26.0,
+        0.066
+       ],
+       [
+        -24.0,
+        0.076
+       ],
+       [
+        -22.0,
+        0.0873
+       ],
+       [
+        -20,
+        0.1
+       ],
+       [
+        -18.0,
+        0.1099
+       ],
+       [
+        -16.0,
+        0.1206
+       ],
+       [
+        -14.0,
+        0.1321
+       ],
+       [
+        -12.0,
+        0.1445
+       ],
+       [
+        -10.0,
+        0.1579
+       ],
+       [
+        -8.0,
+        0.1723
+       ],
+       [
+        -6.0,
+        0.1877
+       ],
+       [
+        -4.0,
+        0.2043
+       ],
+       [
+        -2.0,
+        0.2221
+       ],
+       [
+        0.0,
+        0.2411
+       ],
+       [
+        2.0,
+        0.2614
+       ],
+       [
+        4.0,
+        0.2831
+       ],
+       [
+        6.0,
+        0.3063
+       ],
+       [
+        8.0,
+        0.331
+       ],
+       [
+        10.0,
+        0.3572
+       ],
+       [
+        12.0,
+        0.3852
+       ],
+       [
+        14.0,
+        0.4149
+       ],
+       [
+        16.0,
+        0.4465
+       ],
+       [
+        18.0,
+        0.4799
+       ],
+       [
+        20.0,
+        0.5154
+       ],
+       [
+        22.0,
+        0.5529
+       ],
+       [
+        24.0,
+        0.5927
+       ],
+       [
+        26.0,
+        0.6347
+       ],
+       [
+        28.0,
+        0.679
+       ],
+       [
+        30.0,
+        0.7258
+       ],
+       [
+        32.0,
+        0.7751
+       ],
+       [
+        34.0,
+        0.8271
+       ],
+       [
+        36.0,
+        0.8819
+       ],
+       [
+        38.0,
+        0.9394
+       ],
+       [
+        40.0,
+        1.0
+       ],
+       [
+        42.0,
+        1.0636
+       ],
+       [
+        44.0,
+        1.1303
+       ],
+       [
+        46.0,
+        1.2004
+       ],
+       [
+        48.0,
+        1.2738
+       ],
+       [
+        50.0,
+        1.3507
+       ],
+       [
+        52.0,
+        1.4312
+       ],
+       [
+        53.64,
+        1.5
+       ],
+       [
+        100,
+        1.5
+       ],
+       [
+        100,
+        0
+       ]
+      ],
+      "fill": "#fdf1dc",
+      "label": "gas",
+      "at": [
+       60,
+       0.4
+      ]
+     }
+    ],
+    "series": [
+     {
+      "pts": [
+       [
+        -40,
+        0.0231
+       ],
+       [
+        -38.0,
+        0.027
+       ],
+       [
+        -36.0,
+        0.0315
+       ],
+       [
+        -34.0,
+        0.0367
+       ],
+       [
+        -32.0,
+        0.0427
+       ],
+       [
+        -30.0,
+        0.0495
+       ],
+       [
+        -28.0,
+        0.0572
+       ],
+       [
+        -26.0,
+        0.066
+       ],
+       [
+        -24.0,
+        0.076
+       ],
+       [
+        -22.0,
+        0.0873
+       ],
+       [
+        -20,
+        0.1
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        -20,
+        0.1
+       ],
+       [
+        -18.0,
+        0.1099
+       ],
+       [
+        -16.0,
+        0.1206
+       ],
+       [
+        -14.0,
+        0.1321
+       ],
+       [
+        -12.0,
+        0.1445
+       ],
+       [
+        -10.0,
+        0.1579
+       ],
+       [
+        -8.0,
+        0.1723
+       ],
+       [
+        -6.0,
+        0.1877
+       ],
+       [
+        -4.0,
+        0.2043
+       ],
+       [
+        -2.0,
+        0.2221
+       ],
+       [
+        0.0,
+        0.2411
+       ],
+       [
+        2.0,
+        0.2614
+       ],
+       [
+        4.0,
+        0.2831
+       ],
+       [
+        6.0,
+        0.3063
+       ],
+       [
+        8.0,
+        0.331
+       ],
+       [
+        10.0,
+        0.3572
+       ],
+       [
+        12.0,
+        0.3852
+       ],
+       [
+        14.0,
+        0.4149
+       ],
+       [
+        16.0,
+        0.4465
+       ],
+       [
+        18.0,
+        0.4799
+       ],
+       [
+        20.0,
+        0.5154
+       ],
+       [
+        22.0,
+        0.5529
+       ],
+       [
+        24.0,
+        0.5927
+       ],
+       [
+        26.0,
+        0.6347
+       ],
+       [
+        28.0,
+        0.679
+       ],
+       [
+        30.0,
+        0.7258
+       ],
+       [
+        32.0,
+        0.7751
+       ],
+       [
+        34.0,
+        0.8271
+       ],
+       [
+        36.0,
+        0.8819
+       ],
+       [
+        38.0,
+        0.9394
+       ],
+       [
+        40.0,
+        1.0
+       ],
+       [
+        42.0,
+        1.0636
+       ],
+       [
+        44.0,
+        1.1303
+       ],
+       [
+        46.0,
+        1.2004
+       ],
+       [
+        48.0,
+        1.2738
+       ],
+       [
+        50.0,
+        1.3507
+       ],
+       [
+        52.0,
+        1.4312
+       ],
+       [
+        53.64,
+        1.5
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        -20,
+        0.1
+       ],
+       [
+        -4.44,
+        1.5
+       ]
+      ]
+     }
+    ],
+    "hlines": [
+     {
+      "y": 1,
+      "label": "1 atm"
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "A 50.0 g sample of a pure solid is heated, and its temperature is plotted against the total heat added (graph below). What is the specific heat of the substance in its LIQUID state?",
+  "c": [
+   "2.4 J g<sup>−1</sup> °C<sup>−1</sup>",
+   "2.0 J g<sup>−1</sup> °C<sup>−1</sup>",
+   "4.8 J g<sup>−1</sup> °C<sup>−1</sup>",
+   "0.0024 J g<sup>−1</sup> °C<sup>−1</sup>"
+  ],
+  "h": "The liquid warms on the sloped segment between the two flat steps. Read the heat added and the temperature change on that segment only.",
+  "w": "The liquid segment runs from 9 kJ to 15 kJ while the temperature rises from 10 °C to 60 °C. <i>c</i> = <i>q</i>/(<i>m</i>Δ<i>T</i>) = 6000 J/(50.0 g × 50 °C) = <b>2.4 J g<sup>−1</sup> °C<sup>−1</sup></b>. 2.0 is the solid's value (first segment), 4.8 wrongly includes the 6 kJ used to melt the solid, and 0.0024 leaves the heat in kJ.",
+  "x": [
+   "",
+   "This uses the first sloped segment, where the solid warms from −20 °C to 10 °C.",
+   "This includes the melting step. Heat absorbed on a flat step does not raise the temperature.",
+   "The heat was left in kilojoules. Convert to joules first."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Heat added (kJ)",
+     "min": 0,
+     "max": 39,
+     "ticks": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39
+     ]
+    },
+    "y": {
+     "label": "Temperature (°C)",
+     "min": -20,
+     "max": 100,
+     "ticks": [
+      -20,
+      0,
+      20,
+      40,
+      60,
+      80,
+      100
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        -20
+       ],
+       [
+        3,
+        10
+       ],
+       [
+        9,
+        10
+       ],
+       [
+        15,
+        60
+       ],
+       [
+        36,
+        60
+       ],
+       [
+        39,
+        90
+       ]
+      ]
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "A gaseous substance is cooled at a constant rate, giving the cooling curve below with segments A–E. What happens during segment D?",
+  "c": [
+   "The liquid freezes, releasing heat.",
+   "The solid melts, absorbing heat.",
+   "The liquid freezes, absorbing heat.",
+   "The gas condenses, releasing heat."
+  ],
+  "h": "Flat steps on a cooling curve are phase changes. Which step is at the higher temperature, and does a cooling sample lose or gain heat?",
+  "w": "Segment D is the second flat step (20 °C), after the liquid has cooled (C). There the <b>liquid freezes and the sample releases heat</b>, which is why the temperature can stay constant while heat is still being removed. Segment B (80 °C) is condensation. Melting is the reverse of freezing and needs heat to be absorbed.",
+  "x": [
+   "",
+   "Melting happens when heat is added. This sample is being cooled.",
+   "Freezing releases heat to the surroundings. A sample that loses heat cannot be absorbing it.",
+   "Condensation is the first flat step at the higher temperature."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (min)",
+     "min": 0,
+     "max": 30,
+     "ticks": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+     ]
+    },
+    "y": {
+     "label": "Temperature (°C)",
+     "min": -20,
+     "max": 160,
+     "ticks": [
+      -20,
+      20,
+      60,
+      100,
+      140
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        150
+       ],
+       [
+        4,
+        80
+       ],
+       [
+        14,
+        80
+       ],
+       [
+        20,
+        20
+       ],
+       [
+        26,
+        20
+       ],
+       [
+        29,
+        -10
+       ]
+      ]
+     }
+    ],
+    "marks": [
+     [
+      2.6,
+      128,
+      "A"
+     ],
+     [
+      9,
+      92,
+      "B"
+     ],
+     [
+      18,
+      58,
+      "C"
+     ],
+     [
+      23,
+      32,
+      "D"
+     ],
+     [
+      28,
+      8,
+      "E"
+     ]
+    ],
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "Vapor-pressure curves for two pure liquids, 1 and 2, are shown below. What is the normal boiling point of the liquid with the STRONGER intermolecular forces?",
+  "c": [
+   "about 90 °C",
+   "about 40 °C",
+   "about 72 °C",
+   "about 100 °C"
+  ],
+  "h": "Stronger attractions mean fewer molecules escape, so a lower vapor pressure at every temperature. The normal boiling point is where the vapor pressure reaches 760 torr.",
+  "w": "Liquid 2 has the lower vapor pressure at every temperature, so its intermolecular forces are stronger. Its curve reaches 760 torr at <b>about 90 °C</b>. About 40 °C is the normal boiling point of liquid 1, the weaker-attraction liquid. About 72 °C is where liquid 2 reaches only 400 torr, and 100 °C is water's boiling point, not read from this graph.",
+  "x": [
+   "",
+   "That is where liquid 1 reaches 760 torr. Liquid 1 has the higher vapor pressure, so its attractions are weaker.",
+   "At that temperature liquid 2 has a vapor pressure of only about 400 torr. Boiling at 1 atm needs 760 torr.",
+   "That is water's normal boiling point. Read the curve where it crosses 760 torr."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Temperature (°C)",
+     "min": 0,
+     "max": 100,
+     "ticks": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+     ]
+    },
+    "y": {
+     "label": "Vapor pressure (torr)",
+     "min": 0,
+     "max": 900,
+     "ticks": [
+      0,
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        140.6
+       ],
+       [
+        2,
+        154.8
+       ],
+       [
+        4,
+        170.1
+       ],
+       [
+        6,
+        186.8
+       ],
+       [
+        8,
+        204.8
+       ],
+       [
+        10,
+        224.2
+       ],
+       [
+        12,
+        245.1
+       ],
+       [
+        14,
+        267.7
+       ],
+       [
+        16,
+        292.0
+       ],
+       [
+        18,
+        318.2
+       ],
+       [
+        20,
+        346.3
+       ],
+       [
+        22,
+        376.4
+       ],
+       [
+        24,
+        408.7
+       ],
+       [
+        26,
+        443.2
+       ],
+       [
+        28,
+        480.2
+       ],
+       [
+        30,
+        519.7
+       ],
+       [
+        32,
+        561.8
+       ],
+       [
+        34,
+        606.8
+       ],
+       [
+        36,
+        654.7
+       ],
+       [
+        38,
+        705.7
+       ],
+       [
+        40,
+        760.0
+       ],
+       [
+        42,
+        817.7
+       ],
+       [
+        42.74,
+        840
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        0,
+        12.0
+       ],
+       [
+        2,
+        13.6
+       ],
+       [
+        4,
+        15.3
+       ],
+       [
+        6,
+        17.2
+       ],
+       [
+        8,
+        19.3
+       ],
+       [
+        10,
+        21.7
+       ],
+       [
+        12,
+        24.3
+       ],
+       [
+        14,
+        27.2
+       ],
+       [
+        16,
+        30.3
+       ],
+       [
+        18,
+        33.8
+       ],
+       [
+        20,
+        37.6
+       ],
+       [
+        22,
+        41.8
+       ],
+       [
+        24,
+        46.4
+       ],
+       [
+        26,
+        51.5
+       ],
+       [
+        28,
+        56.9
+       ],
+       [
+        30,
+        62.9
+       ],
+       [
+        32,
+        69.5
+       ],
+       [
+        34,
+        76.6
+       ],
+       [
+        36,
+        84.3
+       ],
+       [
+        38,
+        92.8
+       ],
+       [
+        40,
+        101.9
+       ],
+       [
+        42,
+        111.8
+       ],
+       [
+        44,
+        122.5
+       ],
+       [
+        46,
+        134.0
+       ],
+       [
+        48,
+        146.5
+       ],
+       [
+        50,
+        160.0
+       ],
+       [
+        52,
+        174.6
+       ],
+       [
+        54,
+        190.3
+       ],
+       [
+        56,
+        207.1
+       ],
+       [
+        58,
+        225.2
+       ],
+       [
+        60,
+        244.7
+       ],
+       [
+        62,
+        265.6
+       ],
+       [
+        64,
+        287.9
+       ],
+       [
+        66,
+        311.9
+       ],
+       [
+        68,
+        337.5
+       ],
+       [
+        70,
+        365.0
+       ],
+       [
+        72,
+        394.2
+       ],
+       [
+        74,
+        425.5
+       ],
+       [
+        76,
+        458.8
+       ],
+       [
+        78,
+        494.3
+       ],
+       [
+        80,
+        532.2
+       ],
+       [
+        82,
+        572.4
+       ],
+       [
+        84,
+        615.2
+       ],
+       [
+        86,
+        660.6
+       ],
+       [
+        88,
+        708.8
+       ],
+       [
+        90,
+        760.0
+       ],
+       [
+        92,
+        814.2
+       ],
+       [
+        92.91,
+        840
+       ]
+      ]
+     }
+    ],
+    "marks": [
+     [
+      20,
+      500,
+      "1"
+     ],
+     [
+      78,
+      250,
+      "2"
+     ]
+    ],
+    "hlines": [
+     {
+      "y": 760,
+      "label": "760 torr"
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "A sealed flask held at 30 °C contains liquid 1 in equilibrium with its vapor (curves below). The flask's volume is then doubled at 30 °C, and some liquid is still present when equilibrium returns. What is the pressure of the vapor now?",
+  "c": [
+   "about 520 torr",
+   "about 260 torr",
+   "about 1040 torr",
+   "about 60 torr"
+  ],
+  "h": "Read the vapor pressure of liquid 1 at 30 °C. Does vapor pressure depend on how much space the vapor has, as long as liquid remains?",
+  "w": "At 30 °C liquid 1 has a vapor pressure of about 520 torr. When the volume doubles, more liquid evaporates until the vapor again reaches the equilibrium vapor pressure, which depends only on temperature. So the pressure is still <b>about 520 torr</b>. Halving it to 260 torr applies Boyle's law to a gas with no liquid present, and about 60 torr is liquid 2's value.",
+  "x": [
+   "",
+   "Boyle's law applies only if no liquid is left to evaporate. Here liquid remains.",
+   "Expanding the space cannot raise the pressure. Equilibrium vapor pressure depends only on temperature.",
+   "That is the vapor pressure of liquid 2 at 30 °C, not liquid 1."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Temperature (°C)",
+     "min": 0,
+     "max": 100,
+     "ticks": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+     ]
+    },
+    "y": {
+     "label": "Vapor pressure (torr)",
+     "min": 0,
+     "max": 900,
+     "ticks": [
+      0,
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        140.6
+       ],
+       [
+        2,
+        154.8
+       ],
+       [
+        4,
+        170.1
+       ],
+       [
+        6,
+        186.8
+       ],
+       [
+        8,
+        204.8
+       ],
+       [
+        10,
+        224.2
+       ],
+       [
+        12,
+        245.1
+       ],
+       [
+        14,
+        267.7
+       ],
+       [
+        16,
+        292.0
+       ],
+       [
+        18,
+        318.2
+       ],
+       [
+        20,
+        346.3
+       ],
+       [
+        22,
+        376.4
+       ],
+       [
+        24,
+        408.7
+       ],
+       [
+        26,
+        443.2
+       ],
+       [
+        28,
+        480.2
+       ],
+       [
+        30,
+        519.7
+       ],
+       [
+        32,
+        561.8
+       ],
+       [
+        34,
+        606.8
+       ],
+       [
+        36,
+        654.7
+       ],
+       [
+        38,
+        705.7
+       ],
+       [
+        40,
+        760.0
+       ],
+       [
+        42,
+        817.7
+       ],
+       [
+        42.74,
+        840
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        0,
+        12.0
+       ],
+       [
+        2,
+        13.6
+       ],
+       [
+        4,
+        15.3
+       ],
+       [
+        6,
+        17.2
+       ],
+       [
+        8,
+        19.3
+       ],
+       [
+        10,
+        21.7
+       ],
+       [
+        12,
+        24.3
+       ],
+       [
+        14,
+        27.2
+       ],
+       [
+        16,
+        30.3
+       ],
+       [
+        18,
+        33.8
+       ],
+       [
+        20,
+        37.6
+       ],
+       [
+        22,
+        41.8
+       ],
+       [
+        24,
+        46.4
+       ],
+       [
+        26,
+        51.5
+       ],
+       [
+        28,
+        56.9
+       ],
+       [
+        30,
+        62.9
+       ],
+       [
+        32,
+        69.5
+       ],
+       [
+        34,
+        76.6
+       ],
+       [
+        36,
+        84.3
+       ],
+       [
+        38,
+        92.8
+       ],
+       [
+        40,
+        101.9
+       ],
+       [
+        42,
+        111.8
+       ],
+       [
+        44,
+        122.5
+       ],
+       [
+        46,
+        134.0
+       ],
+       [
+        48,
+        146.5
+       ],
+       [
+        50,
+        160.0
+       ],
+       [
+        52,
+        174.6
+       ],
+       [
+        54,
+        190.3
+       ],
+       [
+        56,
+        207.1
+       ],
+       [
+        58,
+        225.2
+       ],
+       [
+        60,
+        244.7
+       ],
+       [
+        62,
+        265.6
+       ],
+       [
+        64,
+        287.9
+       ],
+       [
+        66,
+        311.9
+       ],
+       [
+        68,
+        337.5
+       ],
+       [
+        70,
+        365.0
+       ],
+       [
+        72,
+        394.2
+       ],
+       [
+        74,
+        425.5
+       ],
+       [
+        76,
+        458.8
+       ],
+       [
+        78,
+        494.3
+       ],
+       [
+        80,
+        532.2
+       ],
+       [
+        82,
+        572.4
+       ],
+       [
+        84,
+        615.2
+       ],
+       [
+        86,
+        660.6
+       ],
+       [
+        88,
+        708.8
+       ],
+       [
+        90,
+        760.0
+       ],
+       [
+        92,
+        814.2
+       ],
+       [
+        92.91,
+        840
+       ]
+      ]
+     }
+    ],
+    "marks": [
+     [
+      20,
+      500,
+      "1"
+     ],
+     [
+      78,
+      250,
+      "2"
+     ]
+    ],
+    "hlines": [
+     {
+      "y": 760,
+      "label": "760 torr"
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "gases",
+  "q": "Curve 1 below is the speed distribution of CH<sub>4</sub> (16.0 g mol<sup>−1</sup>) at 300 K. Curve 2 is for a different gas at the same temperature. Which gas gives curve 2?",
+  "c": [
+   "SO<sub>2</sub> (64.1 g mol<sup>−1</sup>)",
+   "O<sub>2</sub> (32.0 g mol<sup>−1</sup>)",
+   "Ar (39.9 g mol<sup>−1</sup>)",
+   "Kr (83.8 g mol<sup>−1</sup>)"
+  ],
+  "h": "Read the speed at the peak of each curve. At the same temperature, the most probable speed is proportional to 1/√M.",
+  "w": "Curve 1 peaks near 560 m s<sup>−1</sup> and curve 2 near 280 m s<sup>−1</sup>, half as fast. Since <i>u</i> ∝ 1/√<i>M</i>, half the speed means 4 times the molar mass: 4 × 16.0 = 64 g mol<sup>−1</sup>, which is <b>SO<sub>2</sub></b>. O<sub>2</sub> (2 × 16) would peak at 560/√2 ≈ 395 m s<sup>−1</sup>, Ar near 350 m s<sup>−1</sup> and Kr near 245 m s<sup>−1</sup>.",
+  "x": [
+   "",
+   "Twice the molar mass lowers the speed only by √2, to about 395 m/s. Curve 2 peaks lower than that.",
+   "Argon would peak near 350 m/s. Read curve 2's peak again.",
+   "Krypton is heavier than needed and would peak near 245 m/s."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Molecular speed (m s⁻¹)",
+     "min": 0,
+     "max": 1400,
+     "ticks": [
+      0,
+      200,
+      400,
+      600,
+      800,
+      1000,
+      1200,
+      1400
+     ]
+    },
+    "y": {
+     "label": "Fraction of molecules",
+     "min": 0,
+     "max": 33.3,
+     "noTicks": true
+    },
+    "series": [
+     {
+      "label": "1",
+      "pts": [
+       [
+        0,
+        0.0
+       ],
+       [
+        20,
+        0.052
+       ],
+       [
+        40,
+        0.207
+       ],
+       [
+        60,
+        0.463
+       ],
+       [
+        80,
+        0.816
+       ],
+       [
+        100,
+        1.26
+       ],
+       [
+        120,
+        1.789
+       ],
+       [
+        140,
+        2.395
+       ],
+       [
+        160,
+        3.068
+       ],
+       [
+        180,
+        3.799
+       ],
+       [
+        200,
+        4.577
+       ],
+       [
+        220,
+        5.39
+       ],
+       [
+        240,
+        6.228
+       ],
+       [
+        260,
+        7.078
+       ],
+       [
+        280,
+        7.928
+       ],
+       [
+        300,
+        8.768
+       ],
+       [
+        320,
+        9.586
+       ],
+       [
+        340,
+        10.372
+       ],
+       [
+        360,
+        11.117
+       ],
+       [
+        380,
+        11.811
+       ],
+       [
+        400,
+        12.446
+       ],
+       [
+        420,
+        13.017
+       ],
+       [
+        440,
+        13.518
+       ],
+       [
+        460,
+        13.944
+       ],
+       [
+        480,
+        14.292
+       ],
+       [
+        500,
+        14.56
+       ],
+       [
+        520,
+        14.749
+       ],
+       [
+        540,
+        14.857
+       ],
+       [
+        560,
+        14.887
+       ],
+       [
+        580,
+        14.84
+       ],
+       [
+        600,
+        14.721
+       ],
+       [
+        620,
+        14.532
+       ],
+       [
+        640,
+        14.28
+       ],
+       [
+        660,
+        13.968
+       ],
+       [
+        680,
+        13.603
+       ],
+       [
+        700,
+        13.191
+       ],
+       [
+        720,
+        12.738
+       ],
+       [
+        740,
+        12.249
+       ],
+       [
+        760,
+        11.732
+       ],
+       [
+        780,
+        11.193
+       ],
+       [
+        800,
+        10.636
+       ],
+       [
+        820,
+        10.069
+       ],
+       [
+        840,
+        9.497
+       ],
+       [
+        860,
+        8.923
+       ],
+       [
+        880,
+        8.354
+       ],
+       [
+        900,
+        7.793
+       ],
+       [
+        920,
+        7.244
+       ],
+       [
+        940,
+        6.71
+       ],
+       [
+        960,
+        6.193
+       ],
+       [
+        980,
+        5.697
+       ],
+       [
+        1000,
+        5.223
+       ],
+       [
+        1020,
+        4.772
+       ],
+       [
+        1040,
+        4.345
+       ],
+       [
+        1060,
+        3.944
+       ],
+       [
+        1080,
+        3.568
+       ],
+       [
+        1100,
+        3.217
+       ],
+       [
+        1120,
+        2.891
+       ],
+       [
+        1140,
+        2.59
+       ],
+       [
+        1160,
+        2.313
+       ],
+       [
+        1180,
+        2.059
+       ],
+       [
+        1200,
+        1.827
+       ],
+       [
+        1220,
+        1.617
+       ],
+       [
+        1240,
+        1.426
+       ],
+       [
+        1260,
+        1.253
+       ],
+       [
+        1280,
+        1.099
+       ],
+       [
+        1300,
+        0.96
+       ],
+       [
+        1320,
+        0.836
+       ],
+       [
+        1340,
+        0.726
+       ],
+       [
+        1360,
+        0.629
+       ],
+       [
+        1380,
+        0.543
+       ],
+       [
+        1400,
+        0.467
+       ]
+      ]
+     },
+     {
+      "label": "2",
+      "pts": [
+       [
+        0,
+        0.0
+       ],
+       [
+        20,
+        0.413
+       ],
+       [
+        40,
+        1.628
+       ],
+       [
+        60,
+        3.571
+       ],
+       [
+        80,
+        6.124
+       ],
+       [
+        100,
+        9.136
+       ],
+       [
+        120,
+        12.433
+       ],
+       [
+        140,
+        15.829
+       ],
+       [
+        160,
+        19.141
+       ],
+       [
+        180,
+        22.2
+       ],
+       [
+        200,
+        24.858
+       ],
+       [
+        220,
+        27.002
+       ],
+       [
+        240,
+        28.553
+       ],
+       [
+        260,
+        29.471
+       ],
+       [
+        280,
+        29.753
+       ],
+       [
+        300,
+        29.427
+       ],
+       [
+        320,
+        28.552
+       ],
+       [
+        340,
+        27.206
+       ],
+       [
+        360,
+        25.481
+       ],
+       [
+        380,
+        23.476
+       ],
+       [
+        400,
+        21.29
+       ],
+       [
+        420,
+        19.014
+       ],
+       [
+        440,
+        16.731
+       ],
+       [
+        460,
+        14.512
+       ],
+       [
+        480,
+        12.412
+       ],
+       [
+        500,
+        10.471
+       ],
+       [
+        520,
+        8.715
+       ],
+       [
+        540,
+        7.158
+       ],
+       [
+        560,
+        5.803
+       ],
+       [
+        580,
+        4.645
+       ],
+       [
+        600,
+        3.671
+       ],
+       [
+        620,
+        2.865
+       ],
+       [
+        640,
+        2.209
+       ],
+       [
+        660,
+        1.682
+       ],
+       [
+        680,
+        1.266
+       ],
+       [
+        700,
+        0.941
+       ],
+       [
+        720,
+        0.691
+       ],
+       [
+        740,
+        0.502
+       ],
+       [
+        760,
+        0.36
+       ],
+       [
+        780,
+        0.255
+       ],
+       [
+        800,
+        0.179
+       ],
+       [
+        820,
+        0.124
+       ],
+       [
+        840,
+        0.085
+       ],
+       [
+        860,
+        0.058
+       ],
+       [
+        880,
+        0.039
+       ],
+       [
+        900,
+        0.026
+       ],
+       [
+        920,
+        0.017
+       ],
+       [
+        940,
+        0.011
+       ],
+       [
+        960,
+        0.007
+       ],
+       [
+        980,
+        0.004
+       ],
+       [
+        1000,
+        0.003
+       ],
+       [
+        1020,
+        0.002
+       ],
+       [
+        1040,
+        0.001
+       ],
+       [
+        1060,
+        0.001
+       ],
+       [
+        1080,
+        0.0
+       ],
+       [
+        1100,
+        0.0
+       ],
+       [
+        1120,
+        0.0
+       ],
+       [
+        1140,
+        0.0
+       ],
+       [
+        1160,
+        0.0
+       ],
+       [
+        1180,
+        0.0
+       ],
+       [
+        1200,
+        0.0
+       ],
+       [
+        1220,
+        0.0
+       ],
+       [
+        1240,
+        0.0
+       ],
+       [
+        1260,
+        0.0
+       ],
+       [
+        1280,
+        0.0
+       ],
+       [
+        1300,
+        0.0
+       ],
+       [
+        1320,
+        0.0
+       ],
+       [
+        1340,
+        0.0
+       ],
+       [
+        1360,
+        0.0
+       ],
+       [
+        1380,
+        0.0
+       ],
+       [
+        1400,
+        0.0
+       ]
+      ]
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "gases",
+  "q": "The speed distributions of N<sub>2</sub> and He, both at 400 K, are drawn below as curves 1 and 2. Which statements are true?<br>I. The molecules of curve 2 have a greater average kinetic energy than those of curve 1.<br>II. The gas of curve 1 effuses through a pinhole more slowly than the gas of curve 2.<br>III. Raising the temperature of the gas of curve 1 would make its curve taller and narrower.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Both gases are at the same temperature. Which curve belongs to the heavier gas, and what does heating do to a speed distribution?",
+  "w": "Statement I is false: at the same temperature every gas has the same average kinetic energy; He atoms are faster only because they are lighter. Statement II is true: curve 1 peaks at the lower speed, so it is the heavier N<sub>2</sub>, which effuses more slowly. Statement III is false: heating shifts the curve to higher speeds and makes it lower and broader. The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Statement I is false. Average kinetic energy depends only on temperature, and both gases are at 400 K.",
+   "Statement III is false. Heating spreads the curve out, making it lower and broader.",
+   "Statements I and III are false. Same temperature means the same average kinetic energy, and heating flattens the curve."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Speed (m s⁻¹)",
+     "min": 0,
+     "max": 3000,
+     "ticks": [
+      0,
+      500,
+      1000,
+      1500,
+      2000,
+      2500,
+      3000
+     ]
+    },
+    "y": {
+     "label": "Fraction of molecules",
+     "min": 0,
+     "max": 19.1,
+     "noTicks": true
+    },
+    "series": [
+     {
+      "label": "1",
+      "pts": [
+       [
+        0,
+        0.0
+       ],
+       [
+        40,
+        0.31
+       ],
+       [
+        80,
+        1.216
+       ],
+       [
+        120,
+        2.645
+       ],
+       [
+        160,
+        4.485
+       ],
+       [
+        200,
+        6.595
+       ],
+       [
+        240,
+        8.818
+       ],
+       [
+        280,
+        10.995
+       ],
+       [
+        320,
+        12.98
+       ],
+       [
+        360,
+        14.65
+       ],
+       [
+        400,
+        15.912
+       ],
+       [
+        440,
+        16.712
+       ],
+       [
+        480,
+        17.033
+       ],
+       [
+        520,
+        16.89
+       ],
+       [
+        560,
+        16.329
+       ],
+       [
+        600,
+        15.417
+       ],
+       [
+        640,
+        14.233
+       ],
+       [
+        680,
+        12.863
+       ],
+       [
+        720,
+        11.391
+       ],
+       [
+        760,
+        9.89
+       ],
+       [
+        800,
+        8.425
+       ],
+       [
+        840,
+        7.046
+       ],
+       [
+        880,
+        5.787
+       ],
+       [
+        920,
+        4.67
+       ],
+       [
+        960,
+        3.705
+       ],
+       [
+        1000,
+        2.889
+       ],
+       [
+        1040,
+        2.216
+       ],
+       [
+        1080,
+        1.672
+       ],
+       [
+        1120,
+        1.241
+       ],
+       [
+        1160,
+        0.906
+       ],
+       [
+        1200,
+        0.652
+       ],
+       [
+        1240,
+        0.461
+       ],
+       [
+        1280,
+        0.321
+       ],
+       [
+        1320,
+        0.221
+       ],
+       [
+        1360,
+        0.149
+       ],
+       [
+        1400,
+        0.099
+       ],
+       [
+        1440,
+        0.065
+       ],
+       [
+        1480,
+        0.042
+       ],
+       [
+        1520,
+        0.027
+       ],
+       [
+        1560,
+        0.017
+       ],
+       [
+        1600,
+        0.01
+       ],
+       [
+        1640,
+        0.006
+       ],
+       [
+        1680,
+        0.004
+       ],
+       [
+        1720,
+        0.002
+       ],
+       [
+        1760,
+        0.001
+       ],
+       [
+        1800,
+        0.001
+       ],
+       [
+        1840,
+        0.0
+       ],
+       [
+        1880,
+        0.0
+       ],
+       [
+        1920,
+        0.0
+       ],
+       [
+        1960,
+        0.0
+       ],
+       [
+        2000,
+        0.0
+       ],
+       [
+        2040,
+        0.0
+       ],
+       [
+        2080,
+        0.0
+       ],
+       [
+        2120,
+        0.0
+       ],
+       [
+        2160,
+        0.0
+       ],
+       [
+        2200,
+        0.0
+       ],
+       [
+        2240,
+        0.0
+       ],
+       [
+        2280,
+        0.0
+       ],
+       [
+        2320,
+        0.0
+       ],
+       [
+        2360,
+        0.0
+       ],
+       [
+        2400,
+        0.0
+       ],
+       [
+        2440,
+        0.0
+       ],
+       [
+        2480,
+        0.0
+       ],
+       [
+        2520,
+        0.0
+       ],
+       [
+        2560,
+        0.0
+       ],
+       [
+        2600,
+        0.0
+       ],
+       [
+        2640,
+        0.0
+       ],
+       [
+        2680,
+        0.0
+       ],
+       [
+        2720,
+        0.0
+       ],
+       [
+        2760,
+        0.0
+       ],
+       [
+        2800,
+        0.0
+       ],
+       [
+        2840,
+        0.0
+       ],
+       [
+        2880,
+        0.0
+       ],
+       [
+        2920,
+        0.0
+       ],
+       [
+        2960,
+        0.0
+       ],
+       [
+        3000,
+        0.0
+       ]
+      ]
+     },
+     {
+      "label": "2",
+      "pts": [
+       [
+        0,
+        0.0
+       ],
+       [
+        40,
+        0.017
+       ],
+       [
+        80,
+        0.067
+       ],
+       [
+        120,
+        0.15
+       ],
+       [
+        160,
+        0.266
+       ],
+       [
+        200,
+        0.411
+       ],
+       [
+        240,
+        0.586
+       ],
+       [
+        280,
+        0.788
+       ],
+       [
+        320,
+        1.014
+       ],
+       [
+        360,
+        1.263
+       ],
+       [
+        400,
+        1.531
+       ],
+       [
+        440,
+        1.816
+       ],
+       [
+        480,
+        2.113
+       ],
+       [
+        520,
+        2.421
+       ],
+       [
+        560,
+        2.736
+       ],
+       [
+        600,
+        3.054
+       ],
+       [
+        640,
+        3.373
+       ],
+       [
+        680,
+        3.689
+       ],
+       [
+        720,
+        3.998
+       ],
+       [
+        760,
+        4.299
+       ],
+       [
+        800,
+        4.588
+       ],
+       [
+        840,
+        4.862
+       ],
+       [
+        880,
+        5.12
+       ],
+       [
+        920,
+        5.359
+       ],
+       [
+        960,
+        5.577
+       ],
+       [
+        1000,
+        5.772
+       ],
+       [
+        1040,
+        5.944
+       ],
+       [
+        1080,
+        6.091
+       ],
+       [
+        1120,
+        6.213
+       ],
+       [
+        1160,
+        6.308
+       ],
+       [
+        1200,
+        6.378
+       ],
+       [
+        1240,
+        6.422
+       ],
+       [
+        1280,
+        6.44
+       ],
+       [
+        1320,
+        6.433
+       ],
+       [
+        1360,
+        6.402
+       ],
+       [
+        1400,
+        6.348
+       ],
+       [
+        1440,
+        6.273
+       ],
+       [
+        1480,
+        6.176
+       ],
+       [
+        1520,
+        6.061
+       ],
+       [
+        1560,
+        5.928
+       ],
+       [
+        1600,
+        5.779
+       ],
+       [
+        1640,
+        5.616
+       ],
+       [
+        1680,
+        5.44
+       ],
+       [
+        1720,
+        5.254
+       ],
+       [
+        1760,
+        5.059
+       ],
+       [
+        1800,
+        4.857
+       ],
+       [
+        1840,
+        4.65
+       ],
+       [
+        1880,
+        4.438
+       ],
+       [
+        1920,
+        4.224
+       ],
+       [
+        1960,
+        4.01
+       ],
+       [
+        2000,
+        3.795
+       ],
+       [
+        2040,
+        3.583
+       ],
+       [
+        2080,
+        3.373
+       ],
+       [
+        2120,
+        3.167
+       ],
+       [
+        2160,
+        2.966
+       ],
+       [
+        2200,
+        2.77
+       ],
+       [
+        2240,
+        2.581
+       ],
+       [
+        2280,
+        2.398
+       ],
+       [
+        2320,
+        2.223
+       ],
+       [
+        2360,
+        2.055
+       ],
+       [
+        2400,
+        1.895
+       ],
+       [
+        2440,
+        1.743
+       ],
+       [
+        2480,
+        1.6
+       ],
+       [
+        2520,
+        1.464
+       ],
+       [
+        2560,
+        1.337
+       ],
+       [
+        2600,
+        1.218
+       ],
+       [
+        2640,
+        1.107
+       ],
+       [
+        2680,
+        1.004
+       ],
+       [
+        2720,
+        0.908
+       ],
+       [
+        2760,
+        0.819
+       ],
+       [
+        2800,
+        0.738
+       ],
+       [
+        2840,
+        0.662
+       ],
+       [
+        2880,
+        0.594
+       ],
+       [
+        2920,
+        0.531
+       ],
+       [
+        2960,
+        0.473
+       ],
+       [
+        3000,
+        0.421
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "gases",
+  "q": "Boxes I–III show equal volumes of the same gas at the same temperature (each sphere is one molecule). Rank the samples from MOST ideal to LEAST ideal behavior.",
+  "c": [
+   "I, III, II",
+   "II, III, I",
+   "I, II, III",
+   "all three behave the same"
+  ],
+  "h": "The ideal gas model assumes the molecules take up no space and do not attract one another. When does that work best?",
+  "w": "Box I has 4 molecules, III has 9 and II has 18. The more crowded the sample (higher density, so higher pressure), the more the molecules' own volume and their attractions matter. So the order is <b>I, III, II</b>. Reversing it treats crowding as ideal, and since temperatures are equal the deviations are not the same.",
+  "x": [
+   "",
+   "This order is reversed. Crowded molecules feel more attraction and take up more of the space.",
+   "Box II is the most crowded, so it cannot sit in the middle. Count the molecules in each box.",
+   "The temperatures are equal, but the densities are not. Density affects how ideal a gas is."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 5,
+    "key": {
+     "X": {
+      "c": "#3b82b4",
+      "n": "gas molecule"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "mols": [
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "gases",
+  "q": "Automobile airbags inflate with nitrogen made by the reaction below. What mass of sodium azide (65.01 g mol<sup>−1</sup>) is needed to fill a 65.0 L airbag at 1.10 atm and 30 °C?",
+  "c": [
+   "125 g",
+   "187 g",
+   "280. g",
+   "1.26 × 10<sup>3</sup> g"
+  ],
+  "h": "Find moles of N₂ with PV = nRT (temperature in kelvins), then use the mole ratio from the equation.",
+  "w": "<i>n</i>(N<sub>2</sub>) = <i>PV</i>/<i>RT</i> = (1.10 atm)(65.0 L)/[(0.08206 L atm mol<sup>−1</sup> K<sup>−1</sup>)(303 K)] = 2.874 mol. NaN<sub>3</sub>: 2.874 × 2/3 = 1.916 mol × 65.01 g mol<sup>−1</sup> = <b>125 g</b>. 187 g skips the 2 : 3 mole ratio, 280. g inverts it, and 1.26 × 10<sup>3</sup> g uses 30 instead of 303 K.",
+  "x": [
+   "",
+   "This skips the mole ratio. Two NaN₃ make three N₂.",
+   "The mole ratio is upside down. Fewer moles of NaN₃ are needed than moles of N₂ made.",
+   "The temperature must be in kelvins, 303 K, not 30."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 NaN<sub>3</sub>(s) → 2 Na(s) + 3 N<sub>2</sub>(g)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "gases",
+  "q": "Two samples of the same gas are held at 1.00 atm, and their volumes are measured at several temperatures (lines A and B below, extended to zero volume). How many moles of gas are in sample B?",
+  "c": [
+   "0.261 mol",
+   "0.523 mol",
+   "0.975 mol",
+   "3.83 mol"
+  ],
+  "h": "Pick a temperature where line B crosses a gridline and read its volume. Then use PV = nRT with the temperature in kelvins.",
+  "w": "Line B reads 8.0 L at 100 °C (373 K). <i>n</i> = <i>PV</i>/<i>RT</i> = (1.00 atm)(8.0 L)/[(0.08206)(373 K)] = <b>0.261 mol</b>. Line A, with twice the slope, holds twice as many moles (0.523 mol). 0.975 mol uses 100 instead of 373 K, and 3.83 inverts the equation.",
+  "x": [
+   "",
+   "That is sample A, the steeper line. Read line B.",
+   "The temperature must be in kelvins. Both lines reach zero volume at −273 °C.",
+   "The equation was inverted. n equals PV divided by RT."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Temperature (°C)",
+     "min": -300,
+     "max": 200,
+     "ticks": [
+      -300,
+      -200,
+      -100,
+      0,
+      100,
+      200
+     ]
+    },
+    "y": {
+     "label": "Volume (L)",
+     "min": 0,
+     "max": 22,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        -273.15,
+        0
+       ],
+       [
+        200,
+        20.288
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        -273.15,
+        0
+       ],
+       [
+        200,
+        10.144
+       ]
+      ]
+     }
+    ],
+    "marks": [
+     [
+      130,
+      19.5,
+      "A"
+     ],
+     [
+      160,
+      6.6,
+      "B"
+     ]
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "gases",
+  "q": "The graph shows <i>PV</i>/<i>nRT</i> for H<sub>2</sub>, CH<sub>4</sub> and CO<sub>2</sub> at 400 K as the pressure rises (an ideal gas would stay at 1.0). Which curve is CO<sub>2</sub>?",
+  "c": [
+   "curve 2",
+   "curve 1",
+   "curve 3",
+   "none, because all three gases are ideal at 400 K"
+  ],
+  "h": "Values below 1.0 mean attractions pull the molecules together. Which of the three molecules has the most electrons and the strongest attractions?",
+  "w": "CO<sub>2</sub> has the most electrons and is the most polarizable, so its attractions are strongest and its <i>PV</i>/<i>nRT</i> drops furthest below 1. That is <b>curve 2</b>, which dips to about 0.64. Curve 1, with a smaller dip, is CH<sub>4</sub>. Curve 3 stays above 1 at all pressures because H<sub>2</sub> has very weak attractions, so the molecules' own volume dominates.",
+  "x": [
+   "",
+   "Curve 1 dips only slightly below 1. A molecule with stronger attractions would dip further.",
+   "Curve 3 never drops below 1, so attractions barely matter for it. That fits the gas with the fewest electrons.",
+   "At these high pressures none of the curves stays at 1.0, so none of the gases is ideal here."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Pressure (atm)",
+     "min": 0,
+     "max": 400,
+     "ticks": [
+      0,
+      100,
+      200,
+      300,
+      400
+     ]
+    },
+    "y": {
+     "label": "PV/nRT",
+     "min": 0.5,
+     "max": 1.4,
+     "ticks": [
+      0.6,
+      0.8,
+      1.0,
+      1.2,
+      1.4
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        1.0
+       ],
+       [
+        10,
+        0.9922
+       ],
+       [
+        20,
+        0.9847
+       ],
+       [
+        30,
+        0.9775
+       ],
+       [
+        40,
+        0.9706
+       ],
+       [
+        50,
+        0.964
+       ],
+       [
+        60,
+        0.9579
+       ],
+       [
+        70,
+        0.9522
+       ],
+       [
+        80,
+        0.9471
+       ],
+       [
+        90,
+        0.9425
+       ],
+       [
+        100,
+        0.9385
+       ],
+       [
+        110,
+        0.9351
+       ],
+       [
+        120,
+        0.9324
+       ],
+       [
+        130,
+        0.9305
+       ],
+       [
+        140,
+        0.9293
+       ],
+       [
+        150,
+        0.9289
+       ],
+       [
+        160,
+        0.9293
+       ],
+       [
+        170,
+        0.9305
+       ],
+       [
+        180,
+        0.9325
+       ],
+       [
+        190,
+        0.9353
+       ],
+       [
+        200,
+        0.9389
+       ],
+       [
+        210,
+        0.9432
+       ],
+       [
+        220,
+        0.9483
+       ],
+       [
+        230,
+        0.954
+       ],
+       [
+        240,
+        0.9604
+       ],
+       [
+        250,
+        0.9675
+       ],
+       [
+        260,
+        0.975
+       ],
+       [
+        270,
+        0.9832
+       ],
+       [
+        280,
+        0.9918
+       ],
+       [
+        290,
+        1.0009
+       ],
+       [
+        300,
+        1.0104
+       ],
+       [
+        310,
+        1.0203
+       ],
+       [
+        320,
+        1.0305
+       ],
+       [
+        330,
+        1.0411
+       ],
+       [
+        340,
+        1.052
+       ],
+       [
+        350,
+        1.0631
+       ],
+       [
+        360,
+        1.0745
+       ],
+       [
+        370,
+        1.0861
+       ],
+       [
+        380,
+        1.098
+       ],
+       [
+        390,
+        1.11
+       ],
+       [
+        400,
+        1.1222
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        0,
+        1.0
+       ],
+       [
+        10,
+        0.9794
+       ],
+       [
+        20,
+        0.9583
+       ],
+       [
+        30,
+        0.9367
+       ],
+       [
+        40,
+        0.9145
+       ],
+       [
+        50,
+        0.8917
+       ],
+       [
+        60,
+        0.8683
+       ],
+       [
+        70,
+        0.8444
+       ],
+       [
+        80,
+        0.82
+       ],
+       [
+        90,
+        0.7952
+       ],
+       [
+        100,
+        0.7702
+       ],
+       [
+        110,
+        0.7454
+       ],
+       [
+        120,
+        0.7213
+       ],
+       [
+        130,
+        0.6987
+       ],
+       [
+        140,
+        0.6787
+       ],
+       [
+        150,
+        0.6622
+       ],
+       [
+        160,
+        0.6499
+       ],
+       [
+        170,
+        0.6421
+       ],
+       [
+        180,
+        0.6386
+       ],
+       [
+        190,
+        0.6388
+       ],
+       [
+        200,
+        0.642
+       ],
+       [
+        210,
+        0.6476
+       ],
+       [
+        220,
+        0.6552
+       ],
+       [
+        230,
+        0.6642
+       ],
+       [
+        240,
+        0.6744
+       ],
+       [
+        250,
+        0.6856
+       ],
+       [
+        260,
+        0.6974
+       ],
+       [
+        270,
+        0.7099
+       ],
+       [
+        280,
+        0.7229
+       ],
+       [
+        290,
+        0.7362
+       ],
+       [
+        300,
+        0.7499
+       ],
+       [
+        310,
+        0.7638
+       ],
+       [
+        320,
+        0.7779
+       ],
+       [
+        330,
+        0.7922
+       ],
+       [
+        340,
+        0.8067
+       ],
+       [
+        350,
+        0.8213
+       ],
+       [
+        360,
+        0.836
+       ],
+       [
+        370,
+        0.8508
+       ],
+       [
+        380,
+        0.8656
+       ],
+       [
+        390,
+        0.8806
+       ],
+       [
+        400,
+        0.8955
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        0,
+        1.0
+       ],
+       [
+        10,
+        1.0059
+       ],
+       [
+        20,
+        1.0118
+       ],
+       [
+        30,
+        1.0178
+       ],
+       [
+        40,
+        1.0238
+       ],
+       [
+        50,
+        1.03
+       ],
+       [
+        60,
+        1.0361
+       ],
+       [
+        70,
+        1.0423
+       ],
+       [
+        80,
+        1.0486
+       ],
+       [
+        90,
+        1.0549
+       ],
+       [
+        100,
+        1.0613
+       ],
+       [
+        110,
+        1.0678
+       ],
+       [
+        120,
+        1.0742
+       ],
+       [
+        130,
+        1.0808
+       ],
+       [
+        140,
+        1.0873
+       ],
+       [
+        150,
+        1.094
+       ],
+       [
+        160,
+        1.1006
+       ],
+       [
+        170,
+        1.1073
+       ],
+       [
+        180,
+        1.1141
+       ],
+       [
+        190,
+        1.1209
+       ],
+       [
+        200,
+        1.1277
+       ],
+       [
+        210,
+        1.1346
+       ],
+       [
+        220,
+        1.1415
+       ],
+       [
+        230,
+        1.1484
+       ],
+       [
+        240,
+        1.1554
+       ],
+       [
+        250,
+        1.1624
+       ],
+       [
+        260,
+        1.1694
+       ],
+       [
+        270,
+        1.1765
+       ],
+       [
+        280,
+        1.1836
+       ],
+       [
+        290,
+        1.1908
+       ],
+       [
+        300,
+        1.1979
+       ],
+       [
+        310,
+        1.2051
+       ],
+       [
+        320,
+        1.2124
+       ],
+       [
+        330,
+        1.2196
+       ],
+       [
+        340,
+        1.2269
+       ],
+       [
+        350,
+        1.2342
+       ],
+       [
+        360,
+        1.2415
+       ],
+       [
+        370,
+        1.2489
+       ],
+       [
+        380,
+        1.2563
+       ],
+       [
+        390,
+        1.2637
+       ],
+       [
+        400,
+        1.2711
+       ]
+      ]
+     }
+    ],
+    "marks": [
+     [
+      150,
+      0.87,
+      "1"
+     ],
+     [
+      200,
+      0.59,
+      "2"
+     ],
+     [
+      150,
+      1.16,
+      "3"
+     ]
+    ],
+    "hlines": [
+     {
+      "y": 1.0,
+      "label": "ideal"
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "liquids",
+  "q": "Gold crystallizes in the unit cell drawn below, and its density is 19.3 g cm<sup>−3</sup>. What is the atomic radius of gold? (Au: 196.97 g mol<sup>−1</sup>)",
+  "c": [
+   "144 pm",
+   "408 pm",
+   "204 pm",
+   "114 pm"
+  ],
+  "h": "Count the atoms per cell, get the cell volume from the density, then the edge from a cube root. Use the line along which the atoms touch.",
+  "w": "The face-centered cell holds 8 × 1/8 + 6 × 1/2 = 4 atoms with a mass of 4 × 196.97/6.022×10<sup>23</sup> = 1.308×10<sup>−21</sup> g. Volume = 1.308×10<sup>−21</sup> g ÷ 19.3 g cm<sup>−3</sup> = 6.78×10<sup>−23</sup> cm<sup>3</sup>, so <i>a</i> = 4.08×10<sup>−8</sup> cm = 408 pm. Atoms touch along a face diagonal: 4<i>r</i> = <i>a</i>√2, so <i>r</i> = <b>144 pm</b>. 408 pm is the edge itself, 204 pm assumes atoms touch along an edge, and 114 pm comes from counting only 2 atoms per cell.",
+  "x": [
+   "",
+   "That is the edge length of the cell. The radius is a fraction of it.",
+   "Half the edge assumes atoms touch along an edge. In this cell they touch along the face diagonal.",
+   "This counts 2 atoms per cell. Count the face atoms as halves and the corners as eighths."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "lattice",
+    "kind": "fcc",
+    "edge": "a",
+    "cap": "gold"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ }
+]

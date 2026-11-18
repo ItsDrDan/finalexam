@@ -1,0 +1,3135 @@
+[
+ {
+  "q": "Lewis structures of nitrous acid, HNO<sub>2</sub>, and nitric acid, HNO<sub>3</sub>, are shown. Which acid is stronger in water, and why?",
+  "c": [
+   "HNO<sub>3</sub>, because its extra O atom draws electron density from O–H",
+   "HNO<sub>2</sub>, because the lone pair on its N atom makes the O–H bond weaker",
+   "HNO<sub>3</sub>, because it has more H atoms available to ionize in water",
+   "They are equally strong, because each has exactly one O–H bond"
+  ],
+  "h": "In both acids the ionizable H is on an O bonded to N. What differs is what else is bonded to that N.",
+  "w": "For oxyacids with the same central atom, more O atoms on the central atom pull electron density away from the O–H bond and spread out the negative charge on the anion. So <b>HNO<sub>3</sub></b> is the stronger acid (it is a strong acid), while HNO<sub>2</sub> is weak. Each has only one ionizable H, so the count of H atoms is not the reason.",
+  "x": [
+   "",
+   "A lone pair on N adds electron density near the O–H bond, which does not make the proton easier to lose.",
+   "Look at the structures again. Each acid has only one H atom.",
+   "Having one O–H bond each does not make them equal. The other atoms on N change how easily the proton leaves."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "a": [
+     [
+      "H",
+      -1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "N",
+      1,
+      0,
+      1,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1.8,
+      -0.6,
+      2,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      2
+     ]
+    ],
+    "cap": "HNO₂"
+   },
+   {
+    "a": [
+     [
+      "H",
+      -1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "N",
+      1,
+      0,
+      0,
+      1,
+      ""
+     ],
+     [
+      "O",
+      1.8,
+      -0.6,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1.8,
+      0.6,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      2
+     ],
+     [
+      2,
+      4,
+      1
+     ]
+    ],
+    "cap": "HNO₃"
+   }
+  ],
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Acetic acid (K<sub>a</sub> = 1.8×10<sup>−5</sup>) is a far stronger acid than ethanol (K<sub>a</sub> ≈ 1×10<sup>−16</sup>), even though each loses an H from an O–H group. The conjugate bases, acetate (two resonance structures) and ethoxide, are shown. What best explains the difference?",
+  "c": [
+   "Acetate spreads its negative charge over two O atoms, stabilizing it.",
+   "Ethoxide has more lone pairs on its O atom than acetate does in total.",
+   "The C=O double bond in acetic acid releases its own H<sup>+</sup> as well.",
+   "Ethanol has more H atoms, so the proton on its O atom is held more weakly."
+  ],
+  "h": "A more stable conjugate base means a stronger acid. Compare where the negative charge sits in each anion.",
+  "w": "In acetate the two resonance structures put the −1 charge on either O, so the charge is spread over two atoms. That delocalization stabilizes acetate, so acetic acid gives up its proton far more readily. In ethoxide the charge is stuck on one O, a much less stable (stronger) base. The answer: <b>acetate spreads its negative charge over two O atoms, stabilizing it</b>.",
+  "x": [
+   "",
+   "Count the lone pairs: acetate has more in total. Counting lone pairs does not explain base stability.",
+   "The C=O group has no H attached, so it cannot release a proton.",
+   "The number of C–H bonds does not change how tightly the O–H proton is held."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "a": [
+     [
+      "CH₃",
+      -1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0.6,
+      -0.85,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0.6,
+      0.85,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      2
+     ],
+     [
+      1,
+      3,
+      1
+     ]
+    ],
+    "cap": "acetate"
+   },
+   "↔",
+   {
+    "a": [
+     [
+      "CH₃",
+      -1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0.6,
+      -0.85,
+      3,
+      -1,
+      ""
+     ],
+     [
+      "O",
+      0.6,
+      0.85,
+      2,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      1,
+      3,
+      2
+     ]
+    ],
+    "cap": "acetate"
+   },
+   {
+    "a": [
+     [
+      "CH₃",
+      -1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "CH₂",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ]
+    ],
+    "cap": "ethoxide"
+   }
+  ],
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Carbon dioxide reacts with hydroxide ion as shown, forming a new C–O bond. The Lewis structures of the reactants are given. Which species acts as the Lewis acid, and why?",
+  "c": [
+   "CO<sub>2</sub>, because its C atom accepts an electron pair",
+   "OH<sup>−</sup>, because it accepts a proton from CO<sub>2</sub>",
+   "CO<sub>2</sub>, because an O atom donates a lone pair to OH<sup>−</sup>",
+   "OH<sup>−</sup>, because its O atom donates a lone pair to C"
+  ],
+  "h": "A Lewis acid accepts an electron pair and a Lewis base donates one. Which atom brings the lone pair to the new C–O bond?",
+  "w": "The O of OH<sup>−</sup> uses one of its lone pairs to form the new C–O bond, so OH<sup>−</sup> is the Lewis base. The C atom of CO<sub>2</sub> accepts that pair (one C=O π bond shifts onto O), so <b>CO<sub>2</sub> is the Lewis acid, because its C accepts an electron pair</b>. No proton moves in this reaction.",
+  "x": [
+   "",
+   "CO₂ has no H atom, so no proton is transferred here.",
+   "The new bond forms between C and the O of hydroxide, so the lone pair comes from hydroxide, not from CO₂.",
+   "Donating a lone pair is what a Lewis base does, not a Lewis acid."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "a": [
+     [
+      "O",
+      -1,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "C",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      2,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      1,
+      2,
+      2
+     ]
+    ],
+    "cap": "CO₂"
+   },
+   {
+    "a": [
+     [
+      "O",
+      0,
+      0,
+      3,
+      -1,
+      ""
+     ],
+     [
+      "H",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ]
+    ],
+    "cap": "OH⁻"
+   }
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "CO<sub>2</sub>(aq) + OH<sup>−</sup>(aq) → HCO<sub>3</sub><sup>−</sup>(aq)"
+   }
+  ],
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Lewis structures of four anions are shown. Which is the weakest Brønsted–Lowry base in water?",
+  "c": [
+   "NO<sub>3</sub><sup>−</sup>",
+   "NO<sub>2</sub><sup>−</sup>",
+   "OCl<sup>−</sup>",
+   "CN<sup>−</sup>"
+  ],
+  "cs": [
+   {
+    "a": [
+     [
+      "N",
+      0,
+      0,
+      0,
+      1,
+      ""
+     ],
+     [
+      "O",
+      0,
+      -1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      -0.87,
+      0.5,
+      3,
+      -1,
+      ""
+     ],
+     [
+      "O",
+      0.87,
+      0.5,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "N",
+      0,
+      0,
+      1,
+      0,
+      ""
+     ],
+     [
+      "O",
+      -0.87,
+      0.5,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0.87,
+      0.5,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      2,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "O",
+      0,
+      0,
+      3,
+      -1,
+      ""
+     ],
+     [
+      "Cl",
+      1,
+      0,
+      3,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "C",
+      0,
+      0,
+      1,
+      -1,
+      ""
+     ],
+     [
+      "N",
+      1,
+      0,
+      1,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      3
+     ]
+    ]
+   }
+  ],
+  "h": "The weakest base is the conjugate base of the strongest acid. Which of the conjugate acids is a strong acid?",
+  "w": "Nitrate's charge is spread over three O atoms (three resonance structures), and its conjugate acid HNO<sub>3</sub> is a strong acid, so <b>NO<sub>3</sub><sup>−</sup></b> has essentially no tendency to take a proton. HNO<sub>2</sub>, HOCl and HCN are weak acids, so their anions are real bases, with CN<sup>−</sup> the strongest of them.",
+  "x": [
+   "",
+   "Nitrite's conjugate acid HNO₂ is a weak acid, so nitrite still accepts protons to some extent.",
+   "HOCl is a very weak acid, so hypochlorite is a fairly strong base.",
+   "HCN is an extremely weak acid, so cyanide is one of the stronger bases here."
+  ],
+  "k": 0,
+  "d": 2,
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Boxes I–IV show possible pictures of aqueous ammonia, NH<sub>3</sub>(aq), a weak base (water molecules omitted; + and − mark ion charges). Which box best represents the solution?",
+  "c": [
+   "box I",
+   "box II",
+   "box III",
+   "box IV"
+  ],
+  "h": "A weak base accepts a proton from water, but only a small fraction of its molecules do so. What ion does water become when it loses a proton?",
+  "w": "NH<sub>3</sub> + H<sub>2</sub>O ⇌ NH<sub>4</sub><sup>+</sup> + OH<sup>−</sup>, with only a small fraction reacting. <b>Box I</b> shows mostly NH<sub>3</sub> molecules with one NH<sub>4</sub><sup>+</sup> and one OH<sup>−</sup>. Box II shows complete reaction (a strong base), box III shows NH<sub>3</sub> not reacting at all, and box IV shows NH<sub>3</sub> acting as an acid.",
+  "x": [
+   "",
+   "This box shows every NH₃ converted to ions, which describes a strong base, not a weak one.",
+   "Here NH₃ does not react at all, and the only ions come from water itself. NH₃ does take protons from water to a small extent.",
+   "This box shows NH₃ losing a proton to water. In water NH₃ acts as a base and gains a proton."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 7,
+    "key": {
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     },
+     "Np": {
+      "c": "#3b82b4",
+      "q": "+"
+     },
+     "Nm": {
+      "c": "#3b82b4",
+      "q": "−"
+     },
+     "Om": {
+      "c": "#e0675a",
+      "q": "−"
+     },
+     "Op": {
+      "c": "#e0675a",
+      "q": "+"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "water": true,
+      "mols": [
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "Np",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "Om",
+        "H"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "water": true,
+      "mols": [
+       [
+        "Np",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "Np",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "Np",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "Np",
+        "H",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "Om",
+        "H"
+       ],
+       [
+        "Om",
+        "H"
+       ],
+       [
+        "Om",
+        "H"
+       ],
+       [
+        "Om",
+        "H"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "water": true,
+      "mols": [
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "Op",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "Om",
+        "H"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "water": true,
+      "mols": [
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "Nm",
+        "H",
+        "H"
+       ],
+       [
+        "Op",
+        "H",
+        "H",
+        "H"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "buffers",
+  "q": "The curve shows 25.0 mL of a weak acid HA titrated with NaOH; four points are labeled. Boxes I–IV show the acid-containing species and any OH<sup>−</sup> at different stages (water and Na<sup>+</sup> omitted). Which box best represents the solution at point R?",
+  "c": [
+   "box II",
+   "box I",
+   "box III",
+   "box IV"
+  ],
+  "h": "Point R is where the curve is steepest. How much NaOH has been added there compared with the acid originally present?",
+  "w": "R is at the steepest rise, the equivalence point (25.0 mL), where exactly enough OH<sup>−</sup> has been added to turn all HA into A<sup>−</sup>. That is <b>box II</b>, only A<sup>−</sup>, whose reaction with water makes the pH above 7 (about 8.6). Box III is point P (no base added), box I is point Q (half-equivalence, pH = pK<sub>a</sub>) and box IV is point S (excess OH<sup>−</sup>).",
+  "x": [
+   "",
+   "Equal HA and A⁻ is the half-equivalence point, in the flat buffer region, not the steepest part of the curve.",
+   "Only HA means no base has been added yet, which is the start of the curve.",
+   "Leftover OH⁻ appears only after the equivalence point has been passed."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Volume of NaOH added (mL)",
+     "min": 0,
+     "max": 50,
+     "ticks": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50
+     ]
+    },
+    "y": {
+     "label": "pH",
+     "min": 0,
+     "max": 14,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        2.75
+       ],
+       [
+        1,
+        3.19
+       ],
+       [
+        2,
+        3.46
+       ],
+       [
+        3,
+        3.65
+       ],
+       [
+        4,
+        3.79
+       ],
+       [
+        5,
+        3.9
+       ],
+       [
+        6,
+        4.0
+       ],
+       [
+        8,
+        4.17
+       ],
+       [
+        10,
+        4.33
+       ],
+       [
+        12.5,
+        4.5
+       ],
+       [
+        15,
+        4.68
+       ],
+       [
+        17,
+        4.83
+       ],
+       [
+        19,
+        5.0
+       ],
+       [
+        21,
+        5.22
+       ],
+       [
+        22,
+        5.37
+       ],
+       [
+        23,
+        5.56
+       ],
+       [
+        23.5,
+        5.7
+       ],
+       [
+        24,
+        5.88
+       ],
+       [
+        24.4,
+        6.11
+       ],
+       [
+        24.7,
+        6.42
+       ],
+       [
+        24.9,
+        6.9
+       ],
+       [
+        25,
+        8.6
+       ],
+       [
+        25.1,
+        10.3
+       ],
+       [
+        25.3,
+        10.78
+       ],
+       [
+        25.6,
+        11.07
+       ],
+       [
+        26,
+        11.29
+       ],
+       [
+        26.5,
+        11.46
+       ],
+       [
+        27,
+        11.59
+       ],
+       [
+        28,
+        11.75
+       ],
+       [
+        30,
+        11.96
+       ],
+       [
+        32,
+        12.09
+       ],
+       [
+        35,
+        12.22
+       ],
+       [
+        38,
+        12.31
+       ],
+       [
+        42,
+        12.4
+       ],
+       [
+        46,
+        12.47
+       ],
+       [
+        50,
+        12.52
+       ]
+      ]
+     }
+    ],
+    "mono": true,
+    "grid": true,
+    "points": [
+     [
+      0,
+      2.75,
+      "P",
+      8,
+      -6
+     ],
+     [
+      12.5,
+      4.5,
+      "Q",
+      -4,
+      -12
+     ],
+     [
+      25.0,
+      8.6,
+      "R",
+      10,
+      4
+     ],
+     [
+      35.0,
+      12.22,
+      "S",
+      0,
+      -12
+     ]
+    ]
+   },
+   {
+    "type": "particles",
+    "seed": 17,
+    "key": {
+     "X": {
+      "c": "#9b7fd1",
+      "n": "A"
+     },
+     "Xm": {
+      "c": "#9b7fd1",
+      "q": "−"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     },
+     "Om": {
+      "c": "#e0675a",
+      "n": "O",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "water": true,
+      "mols": [
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "water": true,
+      "mols": [
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "water": true,
+      "mols": [
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "water": true,
+      "mols": [
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Om",
+        "H"
+       ],
+       [
+        "Om",
+        "H"
+       ],
+       [
+        "Om",
+        "H"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "buffers",
+  "q": "A 25.0 mL sample of a diprotic acid, H<sub>2</sub>A, is titrated with 0.100 M NaOH, giving the curve shown. What was the molarity of the H<sub>2</sub>A solution?",
+  "c": [
+   "0.0800 M",
+   "0.160 M",
+   "0.0400 M",
+   "0.125 M"
+  ],
+  "h": "Read the volume at each steep rise. The first one removes one proton from every H<sub>2</sub>A, and the second removes the other.",
+  "w": "The curve rises steeply at 20.0 mL and 40.0 mL. At the first equivalence point, mol NaOH = mol H<sub>2</sub>A = 0.100 M × 0.0200 L = 2.00×10<sup>−3</sup> mol. [H<sub>2</sub>A] = 2.00×10<sup>−3</sup> mol / 0.0250 L = <b>0.0800 M</b>. Using 40.0 mL as if the acid were monoprotic doubles the answer.",
+  "x": [
+   "",
+   "This uses the second equivalence volume as if each H₂A gave up only one proton. At 40.0 mL both protons have reacted.",
+   "This halves the first equivalence volume. At the first steep rise one OH⁻ has already reacted with each H₂A.",
+   "This divides the volumes the wrong way round. Moles of base equal molarity times volume of base."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Volume of NaOH added (mL)",
+     "min": 0,
+     "max": 60,
+     "ticks": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+     ]
+    },
+    "y": {
+     "label": "pH",
+     "min": 0,
+     "max": 14,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        2.07
+       ],
+       [
+        2,
+        2.3
+       ],
+       [
+        4,
+        2.51
+       ],
+       [
+        6,
+        2.69
+       ],
+       [
+        8,
+        2.86
+       ],
+       [
+        10,
+        3.03
+       ],
+       [
+        12,
+        3.2
+       ],
+       [
+        14,
+        3.38
+       ],
+       [
+        16,
+        3.62
+       ],
+       [
+        17,
+        3.77
+       ],
+       [
+        18,
+        3.96
+       ],
+       [
+        18.5,
+        4.1
+       ],
+       [
+        19,
+        4.28
+       ],
+       [
+        19.5,
+        4.58
+       ],
+       [
+        19.8,
+        4.91
+       ],
+       [
+        20,
+        5.25
+       ],
+       [
+        20.2,
+        5.6
+       ],
+       [
+        20.5,
+        5.93
+       ],
+       [
+        21,
+        6.23
+       ],
+       [
+        22,
+        6.55
+       ],
+       [
+        24,
+        6.9
+       ],
+       [
+        26,
+        7.13
+       ],
+       [
+        28,
+        7.32
+       ],
+       [
+        30,
+        7.5
+       ],
+       [
+        32,
+        7.68
+       ],
+       [
+        34,
+        7.87
+       ],
+       [
+        36,
+        8.1
+       ],
+       [
+        37,
+        8.25
+       ],
+       [
+        38,
+        8.45
+       ],
+       [
+        38.5,
+        8.59
+       ],
+       [
+        39,
+        8.78
+       ],
+       [
+        39.5,
+        9.08
+       ],
+       [
+        39.8,
+        9.46
+       ],
+       [
+        40,
+        9.99
+       ],
+       [
+        40.2,
+        10.53
+       ],
+       [
+        40.5,
+        10.89
+       ],
+       [
+        41,
+        11.18
+       ],
+       [
+        42,
+        11.48
+       ],
+       [
+        44,
+        11.76
+       ],
+       [
+        47,
+        11.99
+       ],
+       [
+        50,
+        12.12
+       ],
+       [
+        55,
+        12.27
+       ],
+       [
+        60,
+        12.37
+       ]
+      ]
+     }
+    ],
+    "mono": true,
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "buffers",
+  "q": "Curves X and Y show the titrations of 25.0 mL samples of two weak monoprotic acids, HX and HY, with the same 0.100 M NaOH. Which statements are true?<br>I. The HX solution was more concentrated than the HY solution.<br>II. HY is the stronger acid.<br>III. The pH at the equivalence point is higher for HX than for HY.",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "II only",
+   "I, II and III"
+  ],
+  "h": "The equivalence volume tells you the moles of acid. The pH at the half-equivalence volume gives pK<sub>a</sub>. A weaker acid has a stronger conjugate base.",
+  "w": "Statement I is false: HX reaches equivalence at 20.0 mL and HY at 30.0 mL, so HY contained more acid in the same 25.0 mL. Statement II is true: at half-equivalence the pH (= pK<sub>a</sub>) is about 3.5 for HY and 5.0 for HX, so HY has the larger K<sub>a</sub>. Statement III is true: X<sup>−</sup> is the stronger conjugate base, so its equivalence point is more basic (about 8.8 versus 8.1). The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement I is false. The acid that needs more NaOH to reach equivalence held more moles in the same volume.",
+   "Statement III was judged false. Compare the pH of the two curves at their own equivalence volumes.",
+   "Statement I is false. Compare the volumes of base each acid needed."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Volume of NaOH added (mL)",
+     "min": 0,
+     "max": 50,
+     "ticks": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50
+     ]
+    },
+    "y": {
+     "label": "pH",
+     "min": 0,
+     "max": 14,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        3.05
+       ],
+       [
+        1,
+        3.74
+       ],
+       [
+        2,
+        4.05
+       ],
+       [
+        4,
+        4.4
+       ],
+       [
+        6,
+        4.63
+       ],
+       [
+        8,
+        4.82
+       ],
+       [
+        10,
+        5.0
+       ],
+       [
+        12,
+        5.18
+       ],
+       [
+        14,
+        5.37
+       ],
+       [
+        16,
+        5.6
+       ],
+       [
+        17,
+        5.75
+       ],
+       [
+        18,
+        5.95
+       ],
+       [
+        19,
+        6.28
+       ],
+       [
+        19.5,
+        6.59
+       ],
+       [
+        19.8,
+        7.0
+       ],
+       [
+        20,
+        8.82
+       ],
+       [
+        20.2,
+        10.65
+       ],
+       [
+        20.5,
+        11.04
+       ],
+       [
+        21,
+        11.34
+       ],
+       [
+        22,
+        11.63
+       ],
+       [
+        24,
+        11.91
+       ],
+       [
+        26,
+        12.07
+       ],
+       [
+        28,
+        12.18
+       ],
+       [
+        29,
+        12.22
+       ],
+       [
+        29.5,
+        12.24
+       ],
+       [
+        29.8,
+        12.25
+       ],
+       [
+        30,
+        12.26
+       ],
+       [
+        30.2,
+        12.27
+       ],
+       [
+        30.5,
+        12.28
+       ],
+       [
+        31,
+        12.29
+       ],
+       [
+        32,
+        12.32
+       ],
+       [
+        34,
+        12.38
+       ],
+       [
+        37,
+        12.44
+       ],
+       [
+        40,
+        12.49
+       ],
+       [
+        45,
+        12.55
+       ],
+       [
+        50,
+        12.6
+       ]
+      ],
+      "label": "X (HX)",
+      "color": "#e0675a",
+      "dy": -22
+     },
+     {
+      "pts": [
+       [
+        0,
+        2.22
+       ],
+       [
+        1,
+        2.38
+       ],
+       [
+        2,
+        2.52
+       ],
+       [
+        4,
+        2.75
+       ],
+       [
+        6,
+        2.93
+       ],
+       [
+        8,
+        3.08
+       ],
+       [
+        10,
+        3.21
+       ],
+       [
+        12,
+        3.33
+       ],
+       [
+        14,
+        3.45
+       ],
+       [
+        16,
+        3.56
+       ],
+       [
+        17,
+        3.62
+       ],
+       [
+        18,
+        3.68
+       ],
+       [
+        19,
+        3.74
+       ],
+       [
+        19.5,
+        3.77
+       ],
+       [
+        19.8,
+        3.79
+       ],
+       [
+        20,
+        3.81
+       ],
+       [
+        20.2,
+        3.82
+       ],
+       [
+        20.5,
+        3.84
+       ],
+       [
+        21,
+        3.87
+       ],
+       [
+        22,
+        3.94
+       ],
+       [
+        24,
+        4.11
+       ],
+       [
+        26,
+        4.32
+       ],
+       [
+        28,
+        4.65
+       ],
+       [
+        29,
+        4.97
+       ],
+       [
+        29.5,
+        5.27
+       ],
+       [
+        29.8,
+        5.68
+       ],
+       [
+        30,
+        8.12
+       ],
+       [
+        30.2,
+        10.56
+       ],
+       [
+        30.5,
+        10.95
+       ],
+       [
+        31,
+        11.25
+       ],
+       [
+        32,
+        11.55
+       ],
+       [
+        34,
+        11.83
+       ],
+       [
+        37,
+        12.05
+       ],
+       [
+        40,
+        12.19
+       ],
+       [
+        45,
+        12.33
+       ],
+       [
+        50,
+        12.43
+       ]
+      ],
+      "label": "Y (HY)",
+      "color": "#3b82b4",
+      "dy": 4
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Use the K<sub>a</sub> values in the table to find the equilibrium constant for the reaction shown.",
+  "c": [
+   "1.1×10<sup>6</sup>",
+   "9.1×10<sup>−7</sup>",
+   "4.2×10<sup>−13</sup>",
+   "1.6×10<sup>−5</sup>"
+  ],
+  "h": "Write the reaction as the sum of HF ionizing and CN<sup>−</sup> picking up a proton (the reverse of HCN ionizing).",
+  "w": "HF ⇌ H<sup>+</sup> + F<sup>−</sup> has K<sub>a</sub>(HF); H<sup>+</sup> + CN<sup>−</sup> ⇌ HCN has 1/K<sub>a</sub>(HCN). Adding them gives the reaction shown, so K = K<sub>a</sub>(HF)/K<sub>a</sub>(HCN) = 6.8×10<sup>−4</sup>/6.2×10<sup>−10</sup> = <b>1.1×10<sup>6</sup></b>. K &gt; 1 because the stronger acid, HF, reacts to form the weaker acid, HCN.",
+  "x": [
+   "",
+   "This is the inverse, K for the reverse reaction. The stronger acid HF is a reactant, so K should be large.",
+   "This multiplies the two Ka values. One of the two steps runs in reverse, so its constant is inverted.",
+   "This is Kb of CN⁻ alone. The proton here comes from HF, not from water."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "HF(aq) + CN<sup>−</sup>(aq) ⇌ F<sup>−</sup>(aq) + HCN(aq)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Acid",
+     "K<sub>a</sub>"
+    ],
+    "rows": [
+     [
+      "HNO<sub>2</sub>",
+      "4.5×10<sup>−4</sup>"
+     ],
+     [
+      "HF",
+      "6.8×10<sup>−4</sup>"
+     ],
+     [
+      "CH<sub>3</sub>COOH",
+      "1.8×10<sup>−5</sup>"
+     ],
+     [
+      "HCN",
+      "6.2×10<sup>−10</sup>"
+     ]
+    ]
+   }
+  ],
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Aluminum chloride dissolves to give the hydrated ion [Al(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup>, which ionizes as shown with K<sub>a</sub> = 1.4×10<sup>−5</sup>. What is the pH of 0.10 M AlCl<sub>3</sub>?",
+  "c": [
+   "2.93",
+   "7.00",
+   "1.00",
+   "4.85"
+  ],
+  "h": "Treat [Al(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> as a weak monoprotic acid at 0.10 M. Cl<sup>−</sup> does not affect the pH.",
+  "w": "[H<sub>3</sub>O<sup>+</sup>] = x, with x<sup>2</sup>/(0.10 − x) = 1.4×10<sup>−5</sup>, so x = 1.2×10<sup>−3</sup> M and pH = <b>2.93</b>. The small, highly charged Al<sup>3+</sup> pulls electron density from its bound water molecules, so they release H<sup>+</sup>. The salt is not neutral, and the ion is not a strong acid.",
+  "x": [
+   "",
+   "Al³⁺ is a small, highly charged ion that makes its bound water acidic, so the salt solution is not neutral.",
+   "This treats the hydrated ion as a strong acid that ionizes completely. Its Ka is small.",
+   "This is pKa. The pH of a weak acid solution also depends on its concentration."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "[Al(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup>(aq) + H<sub>2</sub>O(l) ⇌ [Al(H<sub>2</sub>O)<sub>5</sub>OH]<sup>2+</sup>(aq) + H<sub>3</sub>O<sup>+</sup>(aq)"
+   }
+  ],
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Which reactions are Lewis acid–base reactions but NOT Brønsted–Lowry acid–base reactions?<br>I. NH<sub>3</sub>(g) + HCl(g) → NH<sub>4</sub>Cl(s)<br>II. Ag<sup>+</sup>(aq) + 2 NH<sub>3</sub>(aq) → [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup>(aq)<br>III. HCO<sub>3</sub><sup>−</sup>(aq) + OH<sup>−</sup>(aq) → CO<sub>3</sub><sup>2−</sup>(aq) + H<sub>2</sub>O(l)",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Every Brønsted–Lowry reaction is also a Lewis reaction. Look for the reaction in which no proton is transferred.",
+  "w": "Statement I is a proton transfer from HCl to NH<sub>3</sub> (in the gas phase, so it is not Arrhenius, but it is Brønsted–Lowry), so it does not qualify. Statement II qualifies: each NH<sub>3</sub> donates a lone pair to Ag<sup>+</sup> and no proton moves. Statement III is a proton transfer from HCO<sub>3</sub><sup>−</sup> to OH<sup>−</sup>, so it is Brønsted–Lowry. The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Reaction I transfers a proton from HCl to NH₃, so it is a Brønsted–Lowry reaction even without water.",
+   "Reaction III moves a proton from HCO₃⁻ to OH⁻, so it is Brønsted–Lowry.",
+   "Reactions I and III both transfer a proton, so they are Brønsted–Lowry reactions."
+  ],
+  "k": 0,
+  "d": 2,
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Which Lewis structure shows the conjugate base of the hydrogen carbonate ion, HCO<sub>3</sub><sup>−</sup>?",
+  "c": [
+   "CO<sub>3</sub><sup>2−</sup>",
+   "H<sub>2</sub>CO<sub>3</sub>",
+   "CO<sub>2</sub>",
+   "HCO<sub>2</sub><sup>−</sup>"
+  ],
+  "cs": [
+   {
+    "a": [
+     [
+      "C",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0,
+      -1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      -0.87,
+      0.5,
+      3,
+      -1,
+      ""
+     ],
+     [
+      "O",
+      0.87,
+      0.5,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "C",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0,
+      -1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      -0.87,
+      0.5,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0.87,
+      0.5,
+      2,
+      0,
+      ""
+     ],
+     [
+      "H",
+      -1.8,
+      0.2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1.8,
+      0.2,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ],
+     [
+      2,
+      4,
+      1
+     ],
+     [
+      3,
+      5,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "O",
+      -1,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "C",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      2,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      1,
+      2,
+      2
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "C",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      -1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0.6,
+      -0.85,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0.6,
+      0.85,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      2,
+      2
+     ],
+     [
+      0,
+      3,
+      1
+     ]
+    ]
+   }
+  ],
+  "h": "A conjugate base has one fewer H<sup>+</sup> than the acid: one H gone and the charge one unit more negative, with every other atom the same.",
+  "w": "Removing H<sup>+</sup> from HCO<sub>3</sub><sup>−</sup> leaves <b>CO<sub>3</sub><sup>2−</sup></b>: the same C and three O atoms, no H, and a 2− charge (two O atoms carry −1). H<sub>2</sub>CO<sub>3</sub> is the conjugate acid, CO<sub>2</sub> has lost an O and an OH, and formate (HCO<sub>2</sub><sup>−</sup>) has lost an O atom rather than an H<sup>+</sup>.",
+  "x": [
+   "",
+   "This structure has one more H than HCO₃⁻, which makes it the conjugate acid.",
+   "This structure has lost an O atom and a charge as well. A conjugate pair differs by one H⁺ only.",
+   "This ion has lost an O atom while keeping the H. A conjugate pair differs by exactly one H⁺."
+  ],
+  "k": 0,
+  "d": 1,
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "buffers",
+  "q": "The box shows a buffer of the weak acid HA (pK<sub>a</sub> = 4.50) and its conjugate base A<sup>−</sup> (water and Na<sup>+</sup> omitted). Strong acid equal to two H<sub>3</sub>O<sup>+</sup> ions on the scale of the picture is added. What is the pH after the reaction?",
+  "c": [
+   "3.90",
+   "4.32",
+   "4.20",
+   "4.02"
+  ],
+  "h": "Each added H<sub>3</sub>O<sup>+</sup> converts one A<sup>−</sup> into one HA. Recount, then use pH = pK<sub>a</sub> + log([A<sup>−</sup>]/[HA]).",
+  "w": "The box starts with 6 HA and 4 A<sup>−</sup>. Two H<sub>3</sub>O<sup>+</sup> convert 2 A<sup>−</sup> into 2 HA, giving 8 HA and 2 A<sup>−</sup>. pH = 4.50 + log(2/8) = <b>3.90</b>. The starting pH was 4.50 + log(4/6) = 4.32.",
+  "x": [
+   "",
+   "This is the pH before the acid is added. Each H₃O⁺ changes the counts.",
+   "This counts the added acid as extra HA but forgets that it also uses up A⁻.",
+   "This removes A⁻ but forgets that each one becomes an HA molecule."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 9,
+    "key": {
+     "X": {
+      "c": "#5aa469",
+      "n": "A"
+     },
+     "Xm": {
+      "c": "#5aa469",
+      "q": "−"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Buffer before acid is added",
+      "water": true,
+      "mols": [
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "X",
+        "H"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ],
+       [
+        "Xm"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Use the table to rank these 0.10 M solutions in order of increasing [OH<sup>−</sup>]: NaF, NaClO, NH<sub>3</sub>.",
+  "c": [
+   "NaF &lt; NaClO &lt; NH<sub>3</sub>",
+   "NH<sub>3</sub> &lt; NaClO &lt; NaF",
+   "NaClO &lt; NaF &lt; NH<sub>3</sub>",
+   "NaF &lt; NH<sub>3</sub> &lt; NaClO"
+  ],
+  "h": "F<sup>−</sup> and ClO<sup>−</sup> are the bases in the two salts. Turn each K<sub>a</sub> into K<sub>b</sub> = K<sub>w</sub>/K<sub>a</sub> before comparing with NH<sub>3</sub>.",
+  "w": "K<sub>b</sub>(F<sup>−</sup>) = 1.0×10<sup>−14</sup>/6.8×10<sup>−4</sup> = 1.5×10<sup>−11</sup>; K<sub>b</sub>(ClO<sup>−</sup>) = 1.0×10<sup>−14</sup>/3.0×10<sup>−8</sup> = 3.3×10<sup>−7</sup>; K<sub>b</sub>(NH<sub>3</sub>) = 1.8×10<sup>−5</sup>. At equal concentration, larger K<sub>b</sub> gives more OH<sup>−</sup>: <b>NaF &lt; NaClO &lt; NH<sub>3</sub></b>.",
+  "x": [
+   "",
+   "This reverses the order. A larger Kb means a stronger base and more OH⁻.",
+   "A larger Ka for the conjugate acid means a weaker conjugate base, not a stronger one.",
+   "Convert the Ka of HClO to Kb for ClO⁻ and compare it with the Kb of NH₃."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Species",
+     "Constant at 25 °C"
+    ],
+    "rows": [
+     [
+      "HF",
+      "K<sub>a</sub> = 6.8×10<sup>−4</sup>"
+     ],
+     [
+      "HClO",
+      "K<sub>a</sub> = 3.0×10<sup>−8</sup>"
+     ],
+     [
+      "NH<sub>3</sub>",
+      "K<sub>b</sub> = 1.8×10<sup>−5</sup>"
+     ]
+    ]
+   }
+  ],
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Based on the Lewis structures shown, which species can act as a Lewis base?",
+  "c": [
+   "NH<sub>3</sub>",
+   "BH<sub>3</sub>",
+   "CH<sub>4</sub>",
+   "NH<sub>4</sub><sup>+</sup>"
+  ],
+  "cs": [
+   {
+    "a": [
+     [
+      "N",
+      0,
+      0,
+      1,
+      0,
+      ""
+     ],
+     [
+      "H",
+      -0.9,
+      0.5,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0.9,
+      0.5,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "B",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      -0.87,
+      0.5,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0.87,
+      0.5,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0,
+      -1,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "C",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      -1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0,
+      -1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ],
+     [
+      0,
+      4,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "N",
+      0,
+      0,
+      0,
+      1,
+      ""
+     ],
+     [
+      "H",
+      -1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0,
+      -1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ],
+     [
+      0,
+      4,
+      1
+     ]
+    ]
+   }
+  ],
+  "h": "A Lewis base must have a lone pair of electrons that it can donate to form a new bond.",
+  "w": "Only <b>NH<sub>3</sub></b> has a lone pair (on N) available to donate. BH<sub>3</sub> has an empty orbital and only six electrons around B, so it is a Lewis acid. CH<sub>4</sub> and NH<sub>4</sub><sup>+</sup> have all their valence electrons in bonds and no lone pair.",
+  "x": [
+   "",
+   "Boron here has only six valence electrons and no lone pair, so it accepts a pair rather than donating one.",
+   "Every electron pair in CH₄ is a bonding pair, so there is no lone pair to donate.",
+   "In NH₄⁺ the lone pair of N is already used in the fourth N–H bond."
+  ],
+  "k": 0,
+  "d": 1,
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Boxes I–IV show possible pictures of a sodium cyanide solution, NaCN(aq), at equilibrium (water molecules omitted). HCN is a weak acid (K<sub>a</sub> = 6.2×10<sup>−10</sup>). Which box best represents the solution?",
+  "c": [
+   "box I",
+   "box II",
+   "box III",
+   "box IV"
+  ],
+  "h": "NaCN is a soluble ionic compound. Then ask what CN<sup>−</sup>, the conjugate base of a weak acid, does with water, and to what extent.",
+  "w": "NaCN dissociates completely into Na<sup>+</sup> and CN<sup>−</sup>. CN<sup>−</sup> is a weak base, so a small fraction takes a proton from water: CN<sup>−</sup> + H<sub>2</sub>O ⇌ HCN + OH<sup>−</sup>. <b>Box I</b> shows exactly that: all Na<sup>+</sup> free, mostly CN<sup>−</sup>, and one HCN with one OH<sup>−</sup>. Box II ignores the reaction with water, box III shows no dissociation, and box IV shows complete reaction with water.",
+  "x": [
+   "",
+   "CN⁻ is the conjugate base of a weak acid, so some of it reacts with water to make HCN and OH⁻.",
+   "NaCN is a soluble ionic compound, so it separates into Na⁺ and CN⁻ ions in water.",
+   "CN⁻ is only a weak base. Only a small fraction of it reacts with water."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 13,
+    "key": {
+     "Na": {
+      "c": "#f2c14e",
+      "n": "Na",
+      "q": "+"
+     },
+     "Nab": {
+      "c": "#f2c14e"
+     },
+     "C": {
+      "c": "#555",
+      "n": "C",
+      "lin": true
+     },
+     "Cm": {
+      "c": "#555",
+      "q": "−"
+     },
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     },
+     "Om": {
+      "c": "#e0675a",
+      "n": "O",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "water": true,
+      "mols": [
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Cm",
+        "N"
+       ],
+       [
+        "Cm",
+        "N"
+       ],
+       [
+        "Cm",
+        "N"
+       ],
+       [
+        "Cm",
+        "N"
+       ],
+       [
+        "C",
+        "H",
+        "N"
+       ],
+       [
+        "Om",
+        "H"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "water": true,
+      "mols": [
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Cm",
+        "N"
+       ],
+       [
+        "Cm",
+        "N"
+       ],
+       [
+        "Cm",
+        "N"
+       ],
+       [
+        "Cm",
+        "N"
+       ],
+       [
+        "Cm",
+        "N"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "water": true,
+      "mols": [
+       [
+        "C",
+        "Nab",
+        "N"
+       ],
+       [
+        "C",
+        "Nab",
+        "N"
+       ],
+       [
+        "C",
+        "Nab",
+        "N"
+       ],
+       [
+        "C",
+        "Nab",
+        "N"
+       ],
+       [
+        "C",
+        "Nab",
+        "N"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "water": true,
+      "mols": [
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "C",
+        "H",
+        "N"
+       ],
+       [
+        "C",
+        "H",
+        "N"
+       ],
+       [
+        "C",
+        "H",
+        "N"
+       ],
+       [
+        "C",
+        "H",
+        "N"
+       ],
+       [
+        "C",
+        "H",
+        "N"
+       ],
+       [
+        "Om",
+        "H"
+       ],
+       [
+        "Om",
+        "H"
+       ],
+       [
+        "Om",
+        "H"
+       ],
+       [
+        "Om",
+        "H"
+       ],
+       [
+        "Om",
+        "H"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "The graph shows the pH of solutions of two monoprotic acids at different concentrations C (x-axis: −log C). Line 1 is the strong acid HA, and curve 2 is the weak acid HB. Using the labeled point, what is K<sub>a</sub> of HB?",
+  "c": [
+   "1.0×10<sup>−5</sup>",
+   "1.0×10<sup>−3</sup>",
+   "1.0×10<sup>−2</sup>",
+   "1.0×10<sup>−6</sup>"
+  ],
+  "h": "Read C and the pH at the labeled point. For a weak acid, K<sub>a</sub> ≈ [H<sub>3</sub>O<sup>+</sup>]<sup>2</sup>/C when only a small fraction ionizes.",
+  "w": "At point P, −log C = 1.00 (C = 0.10 M) and pH = 3.00, so [H<sub>3</sub>O<sup>+</sup>] = [B<sup>−</sup>] = 1.0×10<sup>−3</sup> M. K<sub>a</sub> = (1.0×10<sup>−3</sup>)<sup>2</sup>/(0.10 − 0.001) = <b>1.0×10<sup>−5</sup></b>. The strong acid line has pH = −log C, with a slope of 1; the weak acid rises with a slope of about ½, because [H<sub>3</sub>O<sup>+</sup>] ≈ (K<sub>a</sub>C)<sup>1/2</sup>.",
+  "x": [
+   "",
+   "This is [H₃O⁺], not Ka. Ka also depends on how much un-ionized HB is left.",
+   "This divides [H₃O⁺] by C, which is the fraction ionized. Ka uses [H₃O⁺] squared.",
+   "This is [H₃O⁺] squared without dividing by the concentration of HB."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "−log C",
+     "min": 1,
+     "max": 4,
+     "ticks": [
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4
+     ]
+    },
+    "y": {
+     "label": "pH",
+     "min": 0,
+     "max": 6,
+     "ticks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        1.0,
+        1.0
+       ],
+       [
+        1.25,
+        1.25
+       ],
+       [
+        1.5,
+        1.5
+       ],
+       [
+        1.75,
+        1.75
+       ],
+       [
+        2.0,
+        2.0
+       ],
+       [
+        2.25,
+        2.25
+       ],
+       [
+        2.5,
+        2.5
+       ],
+       [
+        2.75,
+        2.75
+       ],
+       [
+        3.0,
+        3.0
+       ],
+       [
+        3.25,
+        3.25
+       ],
+       [
+        3.5,
+        3.5
+       ],
+       [
+        3.75,
+        3.75
+       ],
+       [
+        4.0,
+        4.0
+       ]
+      ],
+      "label": "1 (HA)",
+      "color": "#e0675a"
+     },
+     {
+      "pts": [
+       [
+        1.0,
+        3.002
+       ],
+       [
+        1.25,
+        3.128
+       ],
+       [
+        1.5,
+        3.254
+       ],
+       [
+        1.75,
+        3.38
+       ],
+       [
+        2.0,
+        3.507
+       ],
+       [
+        2.25,
+        3.634
+       ],
+       [
+        2.5,
+        3.762
+       ],
+       [
+        2.75,
+        3.891
+       ],
+       [
+        3.0,
+        4.022
+       ],
+       [
+        3.25,
+        4.154
+       ],
+       [
+        3.5,
+        4.289
+       ],
+       [
+        3.75,
+        4.426
+       ],
+       [
+        4.0,
+        4.568
+       ]
+      ],
+      "label": "2 (HB)",
+      "color": "#3b82b4"
+     }
+    ],
+    "points": [
+     [
+      1.0,
+      3.0,
+      "P",
+      10,
+      -6
+     ]
+    ],
+    "grid": true
+   }
+  ],
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Boric acid, B(OH)<sub>3</sub>, whose Lewis structure is shown, is a weak acid in water by the reaction shown. Based on the structure, how does boric acid act as an acid?",
+  "c": [
+   "As a Lewis acid: its B atom accepts a lone pair from a water molecule",
+   "As a Brønsted–Lowry acid: it gives one of its own O–H protons to water",
+   "As an Arrhenius base: it releases OH<sup>−</sup> ions into the solution",
+   "As a Lewis base: an O atom donates a lone pair to water"
+  ],
+  "h": "Count the electrons around boron. Then compare the formula of B(OH)<sub>3</sub> with the boron product of the reaction.",
+  "w": "Boron in B(OH)<sub>3</sub> has only six valence electrons and an empty orbital. A water molecule donates a lone pair to B, forming B(OH)<sub>4</sub><sup>−</sup> after that water loses H<sup>+</sup> to a second water. So boric acid acts <b>as a Lewis acid, its B atom accepting a lone pair</b>. The H<sup>+</sup> that ends up in H<sub>3</sub>O<sup>+</sup> came from water, not from an O–H of boric acid, which is why the product has four OH groups.",
+  "x": [
+   "",
+   "If boric acid lost one of its own protons, the product would be B(OH)₂O⁻, not B(OH)₄⁻.",
+   "The reaction makes H₃O⁺, so the solution becomes acidic, not basic.",
+   "Boron with only six valence electrons is the site that gains a pair. The oxygen lone pairs are not donated to water."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "a": [
+     [
+      "B",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0,
+      -1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      -0.87,
+      0.5,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      0.87,
+      0.5,
+      2,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0.8,
+      -1.5,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      -1.8,
+      0.2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1.8,
+      0.2,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ],
+     [
+      1,
+      4,
+      1
+     ],
+     [
+      2,
+      5,
+      1
+     ],
+     [
+      3,
+      6,
+      1
+     ]
+    ],
+    "cap": "B(OH)₃"
+   }
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "B(OH)<sub>3</sub>(aq) + 2 H<sub>2</sub>O(l) ⇌ B(OH)<sub>4</sub><sup>−</sup>(aq) + H<sub>3</sub>O<sup>+</sup>(aq)"
+   }
+  ],
+  "t": "acidbase",
+  "src": "acs-gc-modeled"
+ }
+]

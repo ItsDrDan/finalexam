@@ -1,0 +1,2342 @@
+[
+ {
+  "q": "The box shows an equilibrium mixture for the reaction X(g) + Y<sub>2</sub>(g) ⇌ XY<sub>2</sub>(g) in a 1.0 L flask. Each particle represents 0.10 mol. What is K<sub>c</sub>?",
+  "c": [
+   "10",
+   "1.0",
+   "0.10",
+   "1.2"
+  ],
+  "h": "Turn each particle count into a molarity first, then put the molarities into K<sub>c</sub> = [XY<sub>2</sub>]/([X][Y<sub>2</sub>]).",
+  "w": "The box holds 2 X atoms, 3 Y<sub>2</sub> molecules and 6 XY<sub>2</sub> molecules, so [X] = 0.20 M, [Y<sub>2</sub>] = 0.30 M and [XY<sub>2</sub>] = 0.60 M. K<sub>c</sub> = 0.60/(0.20 × 0.30) = <b>10</b>. Plugging in raw counts gives 1.0, which is wrong because the units of concentration do not cancel for this reaction.",
+  "x": [
+   "",
+   "This uses the particle counts as if they were molarities. Convert each count to mol per liter first.",
+   "This is the inverse of K. Products go in the numerator.",
+   "This adds the reactant concentrations in the denominator. Concentrations in a K expression are multiplied."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 11,
+    "key": {
+     "X": {
+      "c": "#e0675a",
+      "n": "X"
+     },
+     "Y": {
+      "c": "#3b82b4",
+      "n": "Y"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Equilibrium, 1.0 L",
+      "mols": [
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "Y",
+        "Y"
+       ],
+       [
+        "Y",
+        "Y"
+       ],
+       [
+        "Y",
+        "Y"
+       ],
+       [
+        "X",
+        "Y",
+        "Y"
+       ],
+       [
+        "X",
+        "Y",
+        "Y"
+       ],
+       [
+        "X",
+        "Y",
+        "Y"
+       ],
+       [
+        "X",
+        "Y",
+        "Y"
+       ],
+       [
+        "X",
+        "Y",
+        "Y"
+       ],
+       [
+        "X",
+        "Y",
+        "Y"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "For A<sub>2</sub>(g) + B<sub>2</sub>(g) ⇌ 2 AB(g), K<sub>c</sub> = 4.0. Boxes I, II and III have the same volume and show three different mixtures. Which statements are true?<br>I. The mixture in box I is at equilibrium.<br>II. The mixture in box II will form more AB as it approaches equilibrium.<br>III. The mixture in box III will form more AB as it approaches equilibrium.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "Because 2 moles of gas form 2 moles of gas, the volume cancels and you can use particle counts directly in Q. Compare each Q with K.",
+  "w": "Q = (AB)<sup>2</sup>/[(A<sub>2</sub>)(B<sub>2</sub>)]. Box I: 4<sup>2</sup>/(2 × 2) = 4.0 = K, so statement I is true. Box II: 6<sup>2</sup>/(1 × 1) = 36 &gt; K, so it shifts left and uses up AB, making statement II false. Box III: 2<sup>2</sup>/(3 × 3) = 0.44 &lt; K, so it shifts right and forms AB, making statement III true. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III was judged false. Box III has Q below K, so check which way it must move.",
+   "Statement II was judged true. Box II has Q far above K, so AB is used up, not formed.",
+   "Statement II is false. A mixture with Q greater than K shifts toward reactants."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 31,
+    "key": {
+     "A": {
+      "c": "#e0675a",
+      "n": "A"
+     },
+     "B": {
+      "c": "#3b82b4",
+      "n": "B"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "A",
+        "A"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "mols": [
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "A reaction mixture starts with only reactants in a sealed flask. The graph shows the rate of the forward reaction and the rate of the reverse reaction over time. Which statement describes the system at 60 s?",
+  "c": [
+   "Both reactions continue at equal rates, so concentrations stay constant.",
+   "Both reactions have stopped, so the concentrations no longer change at all.",
+   "The concentrations of reactants and products have become equal.",
+   "The reverse reaction is now faster, so products are being used up."
+  ],
+  "h": "Read both curves at 60 s. Is either rate zero?",
+  "w": "At 60 s both curves sit at the same nonzero rate, 1.0 × 10⁻³ M s⁻¹. That is dynamic equilibrium: <b>both reactions continue at equal rates, so concentrations stay constant</b>. Equal rates do not mean equal concentrations, and neither curve drops to zero.",
+  "x": [
+   "",
+   "Neither curve reaches zero. Equilibrium is dynamic, not a stopped reaction.",
+   "Equal rates do not require equal amounts. The graph tells you about rates, not about which concentrations are larger.",
+   "At 60 s the two curves meet. Neither rate is larger than the other."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (s)",
+     "min": 0,
+     "max": 80,
+     "ticks": [
+      0,
+      20,
+      40,
+      60,
+      80
+     ]
+    },
+    "y": {
+     "label": "Rate (×10⁻³ M s⁻¹)",
+     "min": 0,
+     "max": 5,
+     "ticks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        5.0
+       ],
+       [
+        2,
+        4.275
+       ],
+       [
+        4,
+        3.681
+       ],
+       [
+        6,
+        3.195
+       ],
+       [
+        8,
+        2.797
+       ],
+       [
+        10,
+        2.472
+       ],
+       [
+        12,
+        2.205
+       ],
+       [
+        14,
+        1.986
+       ],
+       [
+        16,
+        1.808
+       ],
+       [
+        18,
+        1.661
+       ],
+       [
+        20,
+        1.541
+       ],
+       [
+        22,
+        1.443
+       ],
+       [
+        24,
+        1.363
+       ],
+       [
+        26,
+        1.297
+       ],
+       [
+        28,
+        1.243
+       ],
+       [
+        30,
+        1.199
+       ],
+       [
+        32,
+        1.163
+       ],
+       [
+        34,
+        1.133
+       ],
+       [
+        36,
+        1.109
+       ],
+       [
+        38,
+        1.089
+       ],
+       [
+        40,
+        1.073
+       ],
+       [
+        42,
+        1.06
+       ],
+       [
+        44,
+        1.049
+       ],
+       [
+        46,
+        1.04
+       ],
+       [
+        48,
+        1.033
+       ],
+       [
+        50,
+        1.027
+       ],
+       [
+        52,
+        1.022
+       ],
+       [
+        54,
+        1.018
+       ],
+       [
+        56,
+        1.015
+       ],
+       [
+        58,
+        1.012
+       ],
+       [
+        60,
+        1.01
+       ],
+       [
+        62,
+        1.008
+       ],
+       [
+        64,
+        1.007
+       ],
+       [
+        66,
+        1.005
+       ],
+       [
+        68,
+        1.004
+       ],
+       [
+        70,
+        1.004
+       ],
+       [
+        72,
+        1.003
+       ],
+       [
+        74,
+        1.002
+       ],
+       [
+        76,
+        1.002
+       ],
+       [
+        78,
+        1.002
+       ],
+       [
+        80,
+        1.001
+       ]
+      ],
+      "label": "forward",
+      "color": "#e0675a"
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.0
+       ],
+       [
+        2,
+        0.181
+       ],
+       [
+        4,
+        0.33
+       ],
+       [
+        6,
+        0.451
+       ],
+       [
+        8,
+        0.551
+       ],
+       [
+        10,
+        0.632
+       ],
+       [
+        12,
+        0.699
+       ],
+       [
+        14,
+        0.753
+       ],
+       [
+        16,
+        0.798
+       ],
+       [
+        18,
+        0.835
+       ],
+       [
+        20,
+        0.865
+       ],
+       [
+        22,
+        0.889
+       ],
+       [
+        24,
+        0.909
+       ],
+       [
+        26,
+        0.926
+       ],
+       [
+        28,
+        0.939
+       ],
+       [
+        30,
+        0.95
+       ],
+       [
+        32,
+        0.959
+       ],
+       [
+        34,
+        0.967
+       ],
+       [
+        36,
+        0.973
+       ],
+       [
+        38,
+        0.978
+       ],
+       [
+        40,
+        0.982
+       ],
+       [
+        42,
+        0.985
+       ],
+       [
+        44,
+        0.988
+       ],
+       [
+        46,
+        0.99
+       ],
+       [
+        48,
+        0.992
+       ],
+       [
+        50,
+        0.993
+       ],
+       [
+        52,
+        0.994
+       ],
+       [
+        54,
+        0.995
+       ],
+       [
+        56,
+        0.996
+       ],
+       [
+        58,
+        0.997
+       ],
+       [
+        60,
+        0.998
+       ],
+       [
+        62,
+        0.998
+       ],
+       [
+        64,
+        0.998
+       ],
+       [
+        66,
+        0.999
+       ],
+       [
+        68,
+        0.999
+       ],
+       [
+        70,
+        0.999
+       ],
+       [
+        72,
+        0.999
+       ],
+       [
+        74,
+        0.999
+       ],
+       [
+        76,
+        0.999
+       ],
+       [
+        78,
+        1.0
+       ],
+       [
+        80,
+        1.0
+       ]
+      ],
+      "label": "reverse",
+      "color": "#3b82b4"
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "The equilibrium N<sub>2</sub>O<sub>4</sub>(g) ⇌ 2 NO<sub>2</sub>(g) is established in a closed container. At 10 min a single change is made at constant temperature, and the graph shows the concentrations before and after. What change was made?",
+  "c": [
+   "The volume of the container was cut in half.",
+   "More N<sub>2</sub>O<sub>4</sub> was injected into the container.",
+   "The temperature of the container was lowered.",
+   "More NO<sub>2</sub> was injected into the container."
+  ],
+  "h": "Look at the instant of the change: which concentrations jump, and by what factor?",
+  "w": "At 10 min both concentrations double instantly (0.050 → 0.100 M and 0.020 → 0.040 M). Only a change in volume does that to every gas at once, so <b>the volume was cut in half</b>. Then Q = 0.040<sup>2</sup>/0.100 = 0.016 is larger than K = 0.0080, so NO<sub>2</sub> combines to form N<sub>2</sub>O<sub>4</sub>, the side with fewer moles of gas. Adding one gas would make only that curve jump, and a temperature change makes the curves bend gradually with no jump.",
+  "x": [
+   "",
+   "Injecting N₂O₄ would make only the N₂O₄ curve jump. Here both curves jump at the same instant.",
+   "A temperature change causes gradual shifts with no sudden jump. Also the question says the temperature is constant.",
+   "Injecting NO₂ would make only the NO₂ curve jump. Here the N₂O₄ curve jumps too."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (min)",
+     "min": 0,
+     "max": 30,
+     "ticks": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+     ]
+    },
+    "y": {
+     "label": "Concentration (M)",
+     "min": 0,
+     "max": 0.12,
+     "ticks": [
+      0,
+      0.02,
+      0.04,
+      0.06,
+      0.08,
+      0.1,
+      0.12
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.05
+       ],
+       [
+        1,
+        0.05
+       ],
+       [
+        2,
+        0.05
+       ],
+       [
+        3,
+        0.05
+       ],
+       [
+        4,
+        0.05
+       ],
+       [
+        5,
+        0.05
+       ],
+       [
+        6,
+        0.05
+       ],
+       [
+        7,
+        0.05
+       ],
+       [
+        8,
+        0.05
+       ],
+       [
+        9,
+        0.05
+       ],
+       [
+        10,
+        0.05
+       ],
+       [
+        10,
+        0.1
+       ],
+       [
+        11,
+        0.1018
+       ],
+       [
+        12,
+        0.103
+       ],
+       [
+        13,
+        0.1038
+       ],
+       [
+        14,
+        0.1044
+       ],
+       [
+        15,
+        0.1047
+       ],
+       [
+        16,
+        0.105
+       ],
+       [
+        17,
+        0.1051
+       ],
+       [
+        18,
+        0.1053
+       ],
+       [
+        19,
+        0.1053
+       ],
+       [
+        20,
+        0.1054
+       ],
+       [
+        21,
+        0.1054
+       ],
+       [
+        22,
+        0.1054
+       ],
+       [
+        23,
+        0.1054
+       ],
+       [
+        24,
+        0.1055
+       ],
+       [
+        25,
+        0.1055
+       ],
+       [
+        26,
+        0.1055
+       ],
+       [
+        27,
+        0.1055
+       ],
+       [
+        28,
+        0.1055
+       ],
+       [
+        29,
+        0.1055
+       ],
+       [
+        30,
+        0.1055
+       ]
+      ],
+      "label": "[N₂O₄]",
+      "color": "#e0675a"
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.02
+       ],
+       [
+        1,
+        0.02
+       ],
+       [
+        2,
+        0.02
+       ],
+       [
+        3,
+        0.02
+       ],
+       [
+        4,
+        0.02
+       ],
+       [
+        5,
+        0.02
+       ],
+       [
+        6,
+        0.02
+       ],
+       [
+        7,
+        0.02
+       ],
+       [
+        8,
+        0.02
+       ],
+       [
+        9,
+        0.02
+       ],
+       [
+        10,
+        0.02
+       ],
+       [
+        10,
+        0.04
+       ],
+       [
+        11,
+        0.0364
+       ],
+       [
+        12,
+        0.034
+       ],
+       [
+        13,
+        0.0323
+       ],
+       [
+        14,
+        0.0313
+       ],
+       [
+        15,
+        0.0305
+       ],
+       [
+        16,
+        0.03
+       ],
+       [
+        17,
+        0.0297
+       ],
+       [
+        18,
+        0.0295
+       ],
+       [
+        19,
+        0.0293
+       ],
+       [
+        20,
+        0.0292
+       ],
+       [
+        21,
+        0.0292
+       ],
+       [
+        22,
+        0.0291
+       ],
+       [
+        23,
+        0.0291
+       ],
+       [
+        24,
+        0.0291
+       ],
+       [
+        25,
+        0.0291
+       ],
+       [
+        26,
+        0.0291
+       ],
+       [
+        27,
+        0.0291
+       ],
+       [
+        28,
+        0.0291
+       ],
+       [
+        29,
+        0.0291
+       ],
+       [
+        30,
+        0.0291
+       ]
+      ],
+      "label": "[NO₂]",
+      "color": "#3b82b4"
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Dinitrogen tetroxide, whose Lewis structure is shown, dissociates by N<sub>2</sub>O<sub>4</sub>(g) ⇌ 2 NO<sub>2</sub>(g). In the forward reaction the N–N bond breaks and no new bond forms. Which statement is correct?",
+  "c": [
+   "The forward reaction is endothermic, so raising the temperature increases K.",
+   "The forward reaction is exothermic, so raising the temperature increases K.",
+   "The forward reaction is endothermic, so raising the temperature decreases K.",
+   "K does not depend on temperature, because only the position of equilibrium shifts."
+  ],
+  "h": "Breaking a bond always takes energy. Then ask which way heat pushes an equilibrium that absorbs heat.",
+  "w": "Breaking the N–N bond with no bond formed absorbs energy, so the forward reaction is endothermic (ΔH° &gt; 0). For an endothermic reaction, heat acts like a reactant: <b>raising the temperature increases K</b> and gives more NO<sub>2</sub>. K does change with temperature; it is concentration and volume changes that leave K alone.",
+  "x": [
+   "",
+   "Breaking a bond requires energy, so this forward reaction cannot release heat.",
+   "Check how heating changes K for a reaction that absorbs heat.",
+   "Temperature is the one change that alters the value of K."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "a": [
+     [
+      "N",
+      0,
+      0,
+      0,
+      1,
+      ""
+     ],
+     [
+      "N",
+      1,
+      0,
+      0,
+      1,
+      ""
+     ],
+     [
+      "O",
+      -0.7,
+      -0.8,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      -0.7,
+      0.8,
+      3,
+      -1,
+      ""
+     ],
+     [
+      "O",
+      1.7,
+      -0.8,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1.7,
+      0.8,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      0,
+      2,
+      2
+     ],
+     [
+      0,
+      3,
+      1
+     ],
+     [
+      1,
+      4,
+      2
+     ],
+     [
+      1,
+      5,
+      1
+     ]
+    ],
+    "cap": "N₂O₄"
+   }
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "N<sub>2</sub>O<sub>4</sub>(g) ⇌ 2 NO<sub>2</sub>(g)"
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Which is the K<sub>p</sub> expression for the reaction shown?",
+  "c": [
+   "K<sub>p</sub> = P<sub>Cl₂</sub><sup>2</sup> / (P<sub>HCl</sub><sup>4</sup> P<sub>O₂</sub>)",
+   "K<sub>p</sub> = P<sub>Cl₂</sub><sup>2</sup> P<sub>H₂O</sub><sup>2</sup> / (P<sub>HCl</sub><sup>4</sup> P<sub>O₂</sub>)",
+   "K<sub>p</sub> = 2 P<sub>Cl₂</sub> / (4 P<sub>HCl</sub> P<sub>O₂</sub>)",
+   "K<sub>p</sub> = P<sub>HCl</sub><sup>4</sup> P<sub>O₂</sub> / P<sub>Cl₂</sub><sup>2</sup>"
+  ],
+  "h": "Check the physical state of every species. Only gases appear in a K<sub>p</sub> expression, each raised to its coefficient.",
+  "w": "Water is a liquid here, so it is left out. Each gas appears as its partial pressure raised to its coefficient, products over reactants: <b>K<sub>p</sub> = P<sub>Cl₂</sub><sup>2</sup>/(P<sub>HCl</sub><sup>4</sup> P<sub>O₂</sub>)</b>. Coefficients are exponents, not multipliers.",
+  "x": [
+   "",
+   "H₂O is a liquid in this equation, and pure liquids are left out of K.",
+   "Coefficients become exponents in K, not factors in front of the pressures.",
+   "This puts the reactants on top. K is products over reactants for the reaction as written."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "eq",
+    "text": "4 HCl(g) + O<sub>2</sub>(g) ⇌ 2 Cl<sub>2</sub>(g) + 2 H<sub>2</sub>O(l)"
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "The two equilibria shown have the K values given at a certain temperature. What is K for HBr(g) + ½ Cl<sub>2</sub>(g) ⇌ HCl(g) + ½ Br<sub>2</sub>(g) at the same temperature?",
+  "c": [
+   "5.0×10<sup>3</sup>",
+   "2.5×10<sup>7</sup>",
+   "4.0×10<sup>−8</sup>",
+   "1.3×10<sup>7</sup>"
+  ],
+  "h": "Build the target from the given equations: reverse one, keep the other, then halve the sum. Reversing inverts K, adding multiplies, and halving takes the square root.",
+  "w": "Keeping equation 2 and reversing equation 1 gives 2 HBr + Cl<sub>2</sub> ⇌ 2 HCl + Br<sub>2</sub>, with K = K<sub>2</sub>/K<sub>1</sub> = 5.0×10<sup>16</sup>/2.0×10<sup>9</sup> = 2.5×10<sup>7</sup>. The target is half of that equation, so K = (2.5×10<sup>7</sup>)<sup>1/2</sup> = <b>5.0×10<sup>3</sup></b>.",
+  "x": [
+   "",
+   "This is K for the full equation with 2 HBr. Halving every coefficient changes K too.",
+   "This is K for the reverse of the doubled equation. Check which side HBr is on in the target.",
+   "Halving an equation does not halve K. It changes K by an exponent."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "(1) H<sub>2</sub>(g) + Br<sub>2</sub>(g) ⇌ 2 HBr(g)   K<sub>1</sub> = 2.0×10<sup>9</sup>"
+   },
+   {
+    "type": "eq",
+    "text": "(2) H<sub>2</sub>(g) + Cl<sub>2</sub>(g) ⇌ 2 HCl(g)   K<sub>2</sub> = 5.0×10<sup>16</sup>"
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Carbon disulfide reacts with hydrogen as shown. A flask starts with 0.200 M CS<sub>2</sub> and 0.800 M H<sub>2</sub> and no products. At equilibrium, [CH<sub>4</sub>] = 0.0500 M, as in the table. What is K<sub>c</sub>?",
+  "c": [
+   "2.6×10<sup>−2</sup>",
+   "5.6×10<sup>−2</sup>",
+   "39",
+   "6.1×10<sup>−3</sup>"
+  ],
+  "h": "Use the coefficients to fill in the change row: if 0.0500 M CH<sub>4</sub> forms, how much H<sub>2</sub> is used and how much H<sub>2</sub>S forms?",
+  "w": "Forming 0.0500 M CH<sub>4</sub> uses 0.0500 M CS<sub>2</sub> and 4(0.0500) = 0.200 M H<sub>2</sub> and forms 0.100 M H<sub>2</sub>S. At equilibrium [CS<sub>2</sub>] = 0.150 M and [H<sub>2</sub>] = 0.600 M. K<sub>c</sub> = (0.0500)(0.100)<sup>2</sup>/[(0.150)(0.600)<sup>4</sup>] = <b>2.6×10<sup>−2</sup></b>.",
+  "x": [
+   "",
+   "This leaves out the exponents. [H₂] must be raised to the 4th power and [H₂S] squared.",
+   "This is the inverse of Kc. Products go in the numerator.",
+   "This uses the starting reactant concentrations. The reactants are partly used up at equilibrium."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "CS<sub>2</sub>(g) + 4 H<sub>2</sub>(g) ⇌ CH<sub>4</sub>(g) + 2 H<sub>2</sub>S(g)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "",
+     "[CS₂] (M)",
+     "[H₂] (M)",
+     "[CH₄] (M)",
+     "[H₂S] (M)"
+    ],
+    "rows": [
+     [
+      "Initial",
+      "0.200",
+      "0.800",
+      "0",
+      "0"
+     ],
+     [
+      "Equilibrium",
+      "?",
+      "?",
+      "0.0500",
+      "?"
+     ]
+    ]
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Pure A at 1.00 M reacts by A(aq) ⇌ B(aq) at constant temperature, and the graph shows [A] and [B] over time. Which statements are true?<br>I. At 60 s the forward and reverse rates are equal.<br>II. K for the reaction is 3.0.<br>III. At 20 s, Q is greater than K.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Find where the curves level off; that tells you when equilibrium holds and what the equilibrium concentrations are. Before that point, which way is the mixture still moving?",
+  "w": "Statement I is true: by 60 s both curves are flat, so the system is at equilibrium and the two rates are equal. Statement II is true: K = [B]/[A] = 0.75/0.25 = 3.0. Statement III is false: at 20 s B is still forming, so Q = [B]/[A] (about 2.2) is still below K. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II was judged false. Read the flat parts of both curves and form [B]/[A].",
+   "Statement I is true, since the curves are flat at 60 s. Also recheck III, because B is still forming at 20 s.",
+   "Statement III is false. At 20 s B is still increasing, which happens only while Q is below K."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (s)",
+     "min": 0,
+     "max": 60,
+     "ticks": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+     ]
+    },
+    "y": {
+     "label": "Concentration (M)",
+     "min": 0,
+     "max": 1.0,
+     "ticks": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        1.0
+       ],
+       [
+        2,
+        0.834
+       ],
+       [
+        4,
+        0.705
+       ],
+       [
+        6,
+        0.604
+       ],
+       [
+        8,
+        0.526
+       ],
+       [
+        10,
+        0.465
+       ],
+       [
+        12,
+        0.417
+       ],
+       [
+        14,
+        0.38
+       ],
+       [
+        16,
+        0.352
+       ],
+       [
+        18,
+        0.329
+       ],
+       [
+        20,
+        0.312
+       ],
+       [
+        22,
+        0.298
+       ],
+       [
+        24,
+        0.287
+       ],
+       [
+        26,
+        0.279
+       ],
+       [
+        28,
+        0.273
+       ],
+       [
+        30,
+        0.268
+       ],
+       [
+        32,
+        0.264
+       ],
+       [
+        34,
+        0.261
+       ],
+       [
+        36,
+        0.258
+       ],
+       [
+        38,
+        0.256
+       ],
+       [
+        40,
+        0.255
+       ],
+       [
+        42,
+        0.254
+       ],
+       [
+        44,
+        0.253
+       ],
+       [
+        46,
+        0.252
+       ],
+       [
+        48,
+        0.252
+       ],
+       [
+        50,
+        0.251
+       ],
+       [
+        52,
+        0.251
+       ],
+       [
+        54,
+        0.251
+       ],
+       [
+        56,
+        0.251
+       ],
+       [
+        58,
+        0.251
+       ],
+       [
+        60,
+        0.25
+       ]
+      ],
+      "label": "[A]",
+      "color": "#e0675a"
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.0
+       ],
+       [
+        2,
+        0.166
+       ],
+       [
+        4,
+        0.295
+       ],
+       [
+        6,
+        0.396
+       ],
+       [
+        8,
+        0.474
+       ],
+       [
+        10,
+        0.535
+       ],
+       [
+        12,
+        0.583
+       ],
+       [
+        14,
+        0.62
+       ],
+       [
+        16,
+        0.648
+       ],
+       [
+        18,
+        0.671
+       ],
+       [
+        20,
+        0.688
+       ],
+       [
+        22,
+        0.702
+       ],
+       [
+        24,
+        0.713
+       ],
+       [
+        26,
+        0.721
+       ],
+       [
+        28,
+        0.727
+       ],
+       [
+        30,
+        0.732
+       ],
+       [
+        32,
+        0.736
+       ],
+       [
+        34,
+        0.739
+       ],
+       [
+        36,
+        0.742
+       ],
+       [
+        38,
+        0.744
+       ],
+       [
+        40,
+        0.745
+       ],
+       [
+        42,
+        0.746
+       ],
+       [
+        44,
+        0.747
+       ],
+       [
+        46,
+        0.748
+       ],
+       [
+        48,
+        0.748
+       ],
+       [
+        50,
+        0.749
+       ],
+       [
+        52,
+        0.749
+       ],
+       [
+        54,
+        0.749
+       ],
+       [
+        56,
+        0.749
+       ],
+       [
+        58,
+        0.749
+       ],
+       [
+        60,
+        0.75
+       ]
+      ],
+      "label": "[B]",
+      "color": "#3b82b4"
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "For one gas-phase equilibrium, the graph shows the mole fraction of product in the equilibrium mixture at different temperatures, at a total pressure of 1 atm and of 10 atm. Which reaction fits the graph?",
+  "c": [
+   "2 NO(g) + O<sub>2</sub>(g) ⇌ 2 NO<sub>2</sub>(g), ΔH° = −114 kJ",
+   "N<sub>2</sub>O<sub>4</sub>(g) ⇌ 2 NO<sub>2</sub>(g), ΔH° = +57 kJ",
+   "CO(g) + H<sub>2</sub>O(g) ⇌ CO<sub>2</sub>(g) + H<sub>2</sub>(g), ΔH° = −41 kJ",
+   "N<sub>2</sub>(g) + 2 O<sub>2</sub>(g) ⇌ 2 NO<sub>2</sub>(g), ΔH° = +66 kJ"
+  ],
+  "h": "Read from the graph what heating does to the product fraction and what higher pressure does. Match each to ΔH° and to moles of gas.",
+  "w": "The product fraction falls as temperature rises, so the forward reaction is exothermic. It is higher at 10 atm, so the products have fewer moles of gas than the reactants. Only <b>2 NO + O<sub>2</sub> ⇌ 2 NO<sub>2</sub>, ΔH° = −114 kJ</b> has both features (3 mol gas → 2 mol gas). The CO/H<sub>2</sub>O reaction is exothermic but has 2 mol of gas on each side, so pressure would not matter.",
+  "x": [
+   "",
+   "An endothermic reaction would give more product at high temperature, and this one forms more gas moles, so high pressure would hurt it.",
+   "This reaction has equal moles of gas on both sides, so the two pressure curves would lie on top of each other.",
+   "This reaction does reduce the gas moles, but it is endothermic, so heating would raise the product fraction."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Temperature (K)",
+     "min": 300,
+     "max": 900,
+     "ticks": [
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+     ]
+    },
+    "y": {
+     "label": "Mole fraction of product",
+     "min": 0,
+     "max": 1.0,
+     "ticks": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        300,
+        0.948
+       ],
+       [
+        325,
+        0.947
+       ],
+       [
+        350,
+        0.945
+       ],
+       [
+        375,
+        0.943
+       ],
+       [
+        400,
+        0.94
+       ],
+       [
+        425,
+        0.934
+       ],
+       [
+        450,
+        0.926
+       ],
+       [
+        475,
+        0.915
+       ],
+       [
+        500,
+        0.897
+       ],
+       [
+        525,
+        0.872
+       ],
+       [
+        550,
+        0.837
+       ],
+       [
+        575,
+        0.788
+       ],
+       [
+        600,
+        0.724
+       ],
+       [
+        625,
+        0.645
+       ],
+       [
+        650,
+        0.553
+       ],
+       [
+        675,
+        0.455
+       ],
+       [
+        700,
+        0.359
+       ],
+       [
+        725,
+        0.271
+       ],
+       [
+        750,
+        0.198
+       ],
+       [
+        775,
+        0.141
+       ],
+       [
+        800,
+        0.098
+       ],
+       [
+        825,
+        0.067
+       ],
+       [
+        850,
+        0.045
+       ],
+       [
+        875,
+        0.03
+       ],
+       [
+        900,
+        0.02
+       ]
+      ],
+      "label": "10 atm",
+      "color": "#3b82b4",
+      "labelAt": 13,
+      "dx": 10,
+      "dy": -12
+     },
+     {
+      "pts": [
+       [
+        300,
+        0.938
+       ],
+       [
+        325,
+        0.931
+       ],
+       [
+        350,
+        0.922
+       ],
+       [
+        375,
+        0.908
+       ],
+       [
+        400,
+        0.888
+       ],
+       [
+        425,
+        0.859
+       ],
+       [
+        450,
+        0.819
+       ],
+       [
+        475,
+        0.765
+       ],
+       [
+        500,
+        0.695
+       ],
+       [
+        525,
+        0.61
+       ],
+       [
+        550,
+        0.514
+       ],
+       [
+        575,
+        0.416
+       ],
+       [
+        600,
+        0.322
+       ],
+       [
+        625,
+        0.24
+       ],
+       [
+        650,
+        0.173
+       ],
+       [
+        675,
+        0.122
+       ],
+       [
+        700,
+        0.084
+       ],
+       [
+        725,
+        0.057
+       ],
+       [
+        750,
+        0.038
+       ],
+       [
+        775,
+        0.026
+       ],
+       [
+        800,
+        0.017
+       ],
+       [
+        825,
+        0.011
+       ],
+       [
+        850,
+        0.008
+       ],
+       [
+        875,
+        0.005
+       ],
+       [
+        900,
+        0.003
+       ]
+      ],
+      "label": "1 atm",
+      "color": "#e0675a",
+      "labelAt": 13,
+      "dx": -60,
+      "dy": 18
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "For 2 A(g) ⇌ A<sub>2</sub>(g), boxes I, II and III each show a 1.0 L mixture in which each particle represents 0.10 mol. Rank the mixtures in order of increasing reaction quotient, Q<sub>c</sub>.",
+  "c": [
+   "III &lt; II &lt; I",
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III",
+   "I &lt; III &lt; II"
+  ],
+  "h": "Q<sub>c</sub> = [A<sub>2</sub>]/[A]<sup>2</sup>. Convert counts to molarities and do not forget the square.",
+  "w": "Q<sub>c</sub> = [A<sub>2</sub>]/[A]<sup>2</sup>. Box I: 0.10/(0.20)<sup>2</sup> = 2.5. Box II: 0.40/(0.60)<sup>2</sup> = 1.1. Box III: 0.10/(0.40)<sup>2</sup> = 0.63. The order is <b>III &lt; II &lt; I</b>. Without the square, box II would wrongly rank highest.",
+  "x": [
+   "",
+   "This ranks the plain ratio of A₂ to A. The coefficient 2 makes [A] squared, which changes the order.",
+   "This is the order of [A]²/[A₂], which is Q upside down. Products go in the numerator.",
+   "This ranks the boxes by total number of particles, which is not Q."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 41,
+    "key": {
+     "A": {
+      "c": "#9b7fd1",
+      "n": "A"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "The reaction A(g) ⇌ B(g) is endothermic. Boxes I, II and III show the same flask at equilibrium at three different temperatures. Rank the temperatures from lowest to highest.",
+  "c": [
+   "II &lt; III &lt; I",
+   "I &lt; III &lt; II",
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III"
+  ],
+  "h": "For an endothermic reaction, a higher temperature means a larger K. Compare the B : A ratio in each box.",
+  "w": "K = [B]/[A]: box I has 7/3 = 2.3, box II has 2/8 = 0.25 and box III has 5/5 = 1.0. For an endothermic reaction K grows as temperature rises, so the order is <b>II &lt; III &lt; I</b>.",
+  "x": [
+   "",
+   "This order would fit an exothermic reaction. Heating an endothermic reaction favors B.",
+   "Box III has a larger B fraction than box II, so it cannot be at the lower temperature.",
+   "Box I has the most B, so for an endothermic reaction it must be the hottest."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 51,
+    "key": {
+     "A": {
+      "c": "#f2c14e",
+      "n": "A"
+     },
+     "B": {
+      "c": "#5aa469",
+      "n": "B"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Nitrosyl bromide decomposes as shown, with K<sub>p</sub> = 0.15 at 350 K (pressures in atm). What is K<sub>c</sub> at 350 K?",
+  "c": [
+   "5.2×10<sup>−3</sup>",
+   "4.3",
+   "0.15",
+   "5.2×10<sup>−5</sup>"
+  ],
+  "h": "Use K<sub>p</sub> = K<sub>c</sub>(RT)<sup>Δn</sup>, with Δn = moles of gaseous products − moles of gaseous reactants and R = 0.08206 L atm mol<sup>−1</sup> K<sup>−1</sup>.",
+  "w": "Δn = (2 + 1) − 2 = +1, so K<sub>c</sub> = K<sub>p</sub>/(RT) = 0.15/(0.08206 × 350) = <b>5.2×10<sup>−3</sup></b>. Multiplying by RT instead gives 4.3, and using R = 8.314 gives the wrong units.",
+  "x": [
+   "",
+   "This multiplies by RT. Solve Kp = Kc(RT)^Δn for Kc, which divides by RT when Δn is positive.",
+   "Kp equals Kc only when the moles of gas are the same on both sides. Here they are not.",
+   "This uses R = 8.314 J mol⁻¹ K⁻¹. With pressures in atm and concentrations in mol/L, R must be 0.08206."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 NOBr(g) ⇌ 2 NO(g) + Br<sub>2</sub>(g)   K<sub>p</sub> = 0.15 at 350 K"
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "For the reaction shown, K<sub>c</sub> = 0.64 at a certain temperature. A mixture at that temperature has the concentrations in the table. Which statements are true?<br>I. Q<sub>c</sub> is greater than K<sub>c</sub>.<br>II. [CO] will increase as the mixture approaches equilibrium.<br>III. K<sub>c</sub> will increase as the mixture approaches equilibrium.",
+  "c": [
+   "I only",
+   "I and II only",
+   "II only",
+   "I and III only"
+  ],
+  "h": "Calculate Q<sub>c</sub> from the table and compare it with K<sub>c</sub>. Remember what can and cannot change K.",
+  "w": "Q<sub>c</sub> = (0.40 × 0.25)/(0.20 × 0.30) = 1.7, which is greater than 0.64, so statement I is true. The mixture must shift left, using up H<sub>2</sub>O and CO, so statement II is false. K depends only on temperature, so statement III is false. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false. With Q above K the reaction runs in reverse, which consumes CO.",
+   "Statement I is true here, since Q works out larger than K. Also recheck the direction of the shift for CO.",
+   "Statement III is false. K is fixed at a given temperature, and only Q changes as the mixture reacts."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "H<sub>2</sub>(g) + CO<sub>2</sub>(g) ⇌ H<sub>2</sub>O(g) + CO(g)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Species",
+     "H₂",
+     "CO₂",
+     "H₂O",
+     "CO"
+    ],
+    "rows": [
+     [
+      "Concentration (M)",
+      "0.20",
+      "0.30",
+      "0.40",
+      "0.25"
+     ]
+    ]
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "The equilibrium shown is established in a cylinder fitted with a piston that keeps the total pressure constant. Argon gas is then added at constant temperature and constant total pressure. What happens?",
+  "c": [
+   "It shifts to the right, and K stays the same.",
+   "Nothing shifts, because argon does not take part in the reaction.",
+   "It shifts to the left, because the total moles of gas increase.",
+   "It shifts to the right, and the value of K increases."
+  ],
+  "h": "At constant total pressure, adding a gas pushes the piston out. What does a larger volume do to the partial pressures of the reacting gases?",
+  "w": "To keep the total pressure constant the piston moves out, so the volume increases and every reacting gas has a lower partial pressure. That is the same as an expansion, which favors the side with more moles of gas (3 mol on the right versus 2 on the left). So <b>it shifts to the right, and K stays the same</b> because the temperature is constant. Argon would have no effect only in a rigid container, where the partial pressures stay the same.",
+  "x": [
+   "",
+   "That is true in a rigid container. Here the piston moves out, so the volume and the partial pressures change.",
+   "Argon is not part of Q. What matters is the drop in the partial pressures of NOCl, NO and Cl₂.",
+   "K depends only on temperature, and the temperature did not change."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 NOCl(g) ⇌ 2 NO(g) + Cl<sub>2</sub>(g)"
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Structures I and II show the two isomers of 1,2-dichloroethene. (Decide from the drawings which one is cis.) At a certain temperature, cis(g) ⇌ trans(g) has K = 0.60. A flask starts with 0.80 M of compound I and none of compound II. What is [compound I] at equilibrium?",
+  "c": [
+   "0.30 M",
+   "0.50 M",
+   "0.48 M",
+   "0.40 M"
+  ],
+  "h": "First decide which drawing is cis (both Cl on the same side of C=C). Then set up K = [trans]/[cis] with the right starting isomer.",
+  "w": "In I the Cl atoms are on opposite sides of the double bond, so I is trans. Starting from 0.80 M trans, x M converts to cis: K = (0.80 − x)/x = 0.60, so x = 0.50 M. [cis] = 0.50 M and [trans] = [compound I] = <b>0.30 M</b>. Reading I as cis gives 0.50 M, the cis concentration.",
+  "x": [
+   "",
+   "This is the concentration of the other isomer. Check which drawing has the two Cl atoms on opposite sides.",
+   "This multiplies K by the starting concentration. Set up K as a ratio with x for the amount converted.",
+   "This assumes the two isomers end equal, which would need K = 1."
+  ],
+  "k": 1,
+  "d": 2,
+  "s": [
+   {
+    "a": [
+     [
+      "C",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "Cl",
+      -0.6,
+      -0.85,
+      3,
+      0,
+      ""
+     ],
+     [
+      "H",
+      -0.6,
+      0.85,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1.6,
+      -0.85,
+      0,
+      0,
+      ""
+     ],
+     [
+      "Cl",
+      1.6,
+      0.85,
+      3,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ],
+     [
+      1,
+      4,
+      1
+     ],
+     [
+      1,
+      5,
+      1
+     ]
+    ],
+    "cap": "I"
+   },
+   {
+    "a": [
+     [
+      "C",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "Cl",
+      -0.6,
+      -0.85,
+      3,
+      0,
+      ""
+     ],
+     [
+      "H",
+      -0.6,
+      0.85,
+      0,
+      0,
+      ""
+     ],
+     [
+      "Cl",
+      1.6,
+      -0.85,
+      3,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1.6,
+      0.85,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      0,
+      3,
+      1
+     ],
+     [
+      1,
+      4,
+      1
+     ],
+     [
+      1,
+      5,
+      1
+     ]
+    ],
+    "cap": "II"
+   }
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "cis-ClHC=CHCl(g) ⇌ trans-ClHC=CHCl(g)   K = 0.60"
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ },
+ {
+  "q": "Chlorine dissolved in water reacts as shown. Which is the K<sub>c</sub> expression?",
+  "c": [
+   "K<sub>c</sub> = [HOCl][H<sup>+</sup>][Cl<sup>−</sup>] / [Cl<sub>2</sub>]",
+   "K<sub>c</sub> = [HOCl][H<sup>+</sup>][Cl<sup>−</sup>] / ([Cl<sub>2</sub>][H<sub>2</sub>O])",
+   "K<sub>c</sub> = [Cl<sub>2</sub>] / ([HOCl][H<sup>+</sup>][Cl<sup>−</sup>])",
+   "K<sub>c</sub> = [HOCl] / [Cl<sub>2</sub>]"
+  ],
+  "h": "Which species is the solvent? Pure liquids and solvents are left out of K, but every dissolved species stays in.",
+  "w": "Water is the solvent (a pure liquid), so it is left out. All three aqueous products and the aqueous Cl<sub>2</sub> appear: <b>K<sub>c</sub> = [HOCl][H<sup>+</sup>][Cl<sup>−</sup>]/[Cl<sub>2</sub>]</b>. The ions are dissolved species and must be included.",
+  "x": [
+   "",
+   "H₂O is the solvent here, a pure liquid, so it does not appear in K.",
+   "This is the inverse. Products go in the numerator for the reaction as written.",
+   "H⁺ and Cl⁻ are dissolved products, so they belong in the expression too."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "eq",
+    "text": "Cl<sub>2</sub>(aq) + H<sub>2</sub>O(l) ⇌ HOCl(aq) + H<sup>+</sup>(aq) + Cl<sup>−</sup>(aq)"
+   }
+  ],
+  "t": "equilibrium",
+  "src": "acs-gc-modeled"
+ }
+]

@@ -1,0 +1,1025 @@
+[
+ {
+  "t": "solubility",
+  "q": "Tooth enamel is mostly hydroxyapatite, Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>OH. Which is the K<sub>sp</sub> expression for its dissolution in water?",
+  "c": [
+   "[Ca<sup>2+</sup>]<sup>5</sup>[PO<sub>4</sub><sup>3−</sup>]<sup>3</sup>[OH<sup>−</sup>]",
+   "[Ca<sup>2+</sup>]<sup>5</sup>[PO<sub>4</sub><sup>3−</sup>]<sup>3</sup>[OH<sup>−</sup>] / [Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>OH]",
+   "[5Ca<sup>2+</sup>][3PO<sub>4</sub><sup>3−</sup>][OH<sup>−</sup>]",
+   "[Ca<sup>2+</sup>][PO<sub>4</sub><sup>3−</sup>][OH<sup>−</sup>]"
+  ],
+  "h": "Write the dissolution equation first. Solids are left out, and each ion concentration is raised to its coefficient.",
+  "w": "Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>OH(s) ⇌ 5 Ca<sup>2+</sup>(aq) + 3 PO<sub>4</sub><sup>3−</sup>(aq) + OH<sup>−</sup>(aq), so <b>K<sub>sp</sub> = [Ca<sup>2+</sup>]<sup>5</sup>[PO<sub>4</sub><sup>3−</sup>]<sup>3</sup>[OH<sup>−</sup>]</b>. The solid does not appear in the expression. Coefficients become exponents, not multipliers inside the brackets.",
+  "x": [
+   "",
+   "The solid hydroxyapatite has constant concentration and is left out of every Ksp expression.",
+   "Coefficients become exponents. They are not multiplied into the concentrations inside the brackets.",
+   "This ignores the coefficients 5 and 3 from the balanced dissolution equation."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "The first box shows the dissolved ions in a saturated solution of the salt MX<sub>2</sub> in pure water: 2 M<sup>2+</sup> and 4 X<sup>−</sup> (undissolved solid and water not shown). In a second experiment, MX<sub>2</sub> is saturated in a solution that already contains M(NO<sub>3</sub>)<sub>2</sub>, at the same temperature (NO<sub>3</sub><sup>−</sup> not shown). Boxes I–IV show possible dissolved ions; each ion represents the same concentration in every box. Which box could represent this saturated solution?",
+  "c": [
+   "Box I",
+   "Box II",
+   "Box III",
+   "Box IV"
+  ],
+  "h": "K<sub>sp</sub> = [M<sup>2+</sup>][X<sup>−</sup>]<sup>2</sup> keeps the same value at the same temperature. Compute the ion product for the pure-water box in 'ion units' and compare.",
+  "w": "In pure water the ion product is (2)(4)<sup>2</sup> = 32 in ion units. A saturated solution at the same temperature must give the same product. Box I: (8)(2)<sup>2</sup> = 32, so <b>Box I</b> fits: the added M<sup>2+</sup> pushes [X<sup>−</sup>] down (common-ion effect). Box II gives 128, Box III gives 16 and Box IV gives 54.",
+  "x": [
+   "",
+   "Box II has (8)(4)² = 128 in ion units, four times the Ksp product, so MX₂ would precipitate. Extra M²⁺ must lower [X⁻].",
+   "Box III has (4)(2)² = 16 in ion units, only half the Ksp product, so that solution is unsaturated.",
+   "Box IV has (6)(3)² = 54 in ion units, more than the Ksp product of 32, so it is supersaturated."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 21,
+    "key": {
+     "M": {
+      "c": "#9b7fd1",
+      "n": "M²⁺",
+      "q": "2+",
+      "r": 12
+     },
+     "X": {
+      "c": "#5aa469",
+      "n": "X⁻",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Pure water",
+      "water": true,
+      "mols": [
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "particles",
+    "seed": 34,
+    "key": {
+     "M": {
+      "c": "#9b7fd1",
+      "n": "M²⁺",
+      "q": "2+",
+      "r": 12
+     },
+     "X": {
+      "c": "#5aa469",
+      "n": "X⁻",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "water": true,
+      "mols": [
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "water": true,
+      "mols": [
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "water": true,
+      "mols": [
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "water": true,
+      "mols": [
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "The box shows the ions just after solutions of AgNO<sub>3</sub> and Na<sub>2</sub>CrO<sub>4</sub> are mixed: 4 Ag<sup>+</sup>, 4 NO<sub>3</sub><sup>−</sup>, 3 CrO<sub>4</sub><sup>2−</sup> and 6 Na<sup>+</sup> (water not shown). Silver chromate, Ag<sub>2</sub>CrO<sub>4</sub>, is very insoluble. After the precipitate forms, which ions remain dissolved in significant amounts?",
+  "c": [
+   "Na<sup>+</sup>, NO<sub>3</sub><sup>−</sup> and CrO<sub>4</sub><sup>2−</sup>",
+   "Na<sup>+</sup>, NO<sub>3</sub><sup>−</sup> and Ag<sup>+</sup>",
+   "Na<sup>+</sup> and NO<sub>3</sub><sup>−</sup> only",
+   "Ag<sup>+</sup>, CrO<sub>4</sub><sup>2−</sup>, Na<sup>+</sup> and NO<sub>3</sub><sup>−</sup>"
+  ],
+  "h": "Each Ag<sub>2</sub>CrO<sub>4</sub> uses two Ag<sup>+</sup> for every CrO<sub>4</sub><sup>2−</sup>. Which ion runs out first?",
+  "w": "Four Ag<sup>+</sup> can combine with only two CrO<sub>4</sub><sup>2−</sup> (2 : 1 ratio), forming 2 Ag<sub>2</sub>CrO<sub>4</sub>. That uses up the Ag<sup>+</sup> and leaves one CrO<sub>4</sub><sup>2−</sup>. The spectator ions Na<sup>+</sup> and NO<sub>3</sub><sup>−</sup> stay dissolved, so the solution holds <b>Na<sup>+</sup>, NO<sub>3</sub><sup>−</sup> and CrO<sub>4</sub><sup>2−</sup></b>.",
+  "x": [
+   "",
+   "Silver ion is the limiting ion here. Four Ag⁺ need only two CrO₄²⁻, so the Ag⁺ is used up.",
+   "Count the ratio again. Two Ag⁺ go with each CrO₄²⁻, so the ions are not used up evenly.",
+   "Ag⁺ is used up when the precipitate forms, so it does not remain in a significant amount."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 7,
+    "key": {
+     "Ag": {
+      "c": "#9b7fd1",
+      "n": "Ag⁺",
+      "q": "+"
+     },
+     "N": {
+      "c": "#5aa469",
+      "n": "NO₃⁻",
+      "q": "−",
+      "r": 9
+     },
+     "Cr": {
+      "c": "#f2c14e",
+      "n": "CrO₄²⁻",
+      "q": "2−",
+      "r": 13
+     },
+     "Na": {
+      "c": "#3b82b4",
+      "n": "Na⁺",
+      "q": "+",
+      "r": 8
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Just after mixing",
+      "water": true,
+      "mols": [
+       [
+        "Ag"
+       ],
+       [
+        "Ag"
+       ],
+       [
+        "Ag"
+       ],
+       [
+        "Ag"
+       ],
+       [
+        "N"
+       ],
+       [
+        "N"
+       ],
+       [
+        "N"
+       ],
+       [
+        "N"
+       ],
+       [
+        "Cr"
+       ],
+       [
+        "Cr"
+       ],
+       [
+        "Cr"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "In a Mohr titration, Ag<sup>+</sup> is added slowly to a solution that is 0.010 M Cl<sup>−</sup> and 0.010 M CrO<sub>4</sub><sup>2−</sup>. AgCl forms first, and red Ag<sub>2</sub>CrO<sub>4</sub> marks the end point. Using the K<sub>sp</sub> values in the table, what is [Cl<sup>−</sup>] remaining at the moment Ag<sub>2</sub>CrO<sub>4</sub> begins to precipitate? (Ignore volume change.)",
+  "c": [
+   "1.7×10<sup>−5</sup> M",
+   "1.8×10<sup>−8</sup> M",
+   "1.0×10<sup>−5</sup> M",
+   "0.010 M"
+  ],
+  "h": "Find the [Ag<sup>+</sup>] needed to start Ag<sub>2</sub>CrO<sub>4</sub>; then use that [Ag<sup>+</sup>] in the AgCl K<sub>sp</sub> expression.",
+  "w": "Ag<sub>2</sub>CrO<sub>4</sub> begins when [Ag<sup>+</sup>]<sup>2</sup>(0.010) = 1.1×10<sup>−12</sup>, so [Ag<sup>+</sup>] = 1.0×10<sup>−5</sup> M. At that [Ag<sup>+</sup>], [Cl<sup>−</sup>] = 1.8×10<sup>−10</sup> / 1.0×10<sup>−5</sup> = <b>1.7×10<sup>−5</sup> M</b>, so over 99.8% of the chloride has already precipitated. 1.0×10<sup>−5</sup> M is [Ag<sup>+</sup>], not [Cl<sup>−</sup>].",
+  "x": [
+   "",
+   "1.8×10⁻⁸ M is the Ag⁺ concentration at which AgCl first appears, not the chloride left later.",
+   "1.0×10⁻⁵ M is the Ag⁺ concentration when silver chromate starts. Use it in the AgCl Ksp to find chloride.",
+   "AgCl has been precipitating the whole time, so the chloride concentration has fallen far below its starting value."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Salt",
+     "K<sub>sp</sub> at 25 °C"
+    ],
+    "rows": [
+     [
+      "AgCl",
+      "1.8×10<sup>−10</sup>"
+     ],
+     [
+      "Ag<sub>2</sub>CrO<sub>4</sub>",
+      "1.1×10<sup>−12</sup>"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "Using the K<sub>sp</sub> values in the table, rank the three salts from LOWEST to HIGHEST molar solubility in pure water.",
+  "c": [
+   "III &lt; I &lt; II",
+   "III &lt; II &lt; I",
+   "I &lt; II &lt; III",
+   "II &lt; III &lt; I"
+  ],
+  "h": "Ksp values compare solubility directly only for salts with the same ion ratio. Solve for s for each: s<sup>2</sup>, 4s<sup>3</sup> and 108s<sup>5</sup>.",
+  "w": "BaCrO<sub>4</sub>: s = √(1.2×10<sup>−10</sup>) = 1.1×10<sup>−5</sup> M. Ag<sub>2</sub>CO<sub>3</sub>: 4s<sup>3</sup> = 8.5×10<sup>−12</sup>, s = 1.3×10<sup>−4</sup> M. Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>: 108s<sup>5</sup> = 2.0×10<sup>−29</sup>, s = 7.1×10<sup>−7</sup> M. So <b>III &lt; I &lt; II</b>. Ranking by K<sub>sp</sub> alone would wrongly put BaCrO<sub>4</sub> above Ag<sub>2</sub>CO<sub>3</sub>.",
+  "x": [
+   "",
+   "This follows the Ksp values, but the salts have different ion ratios. Solve for s for each salt.",
+   "Smaller Ksp does not mean larger solubility. Calcium phosphate has the tiniest solubility of the three.",
+   "Silver carbonate is the most soluble of the three once s is calculated from 4s³."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "",
+     "Salt",
+     "K<sub>sp</sub>"
+    ],
+    "rows": [
+     [
+      "I",
+      "BaCrO<sub>4</sub>",
+      "1.2×10<sup>−10</sup>"
+     ],
+     [
+      "II",
+      "Ag<sub>2</sub>CO<sub>3</sub>",
+      "8.5×10<sup>−12</sup>"
+     ],
+     [
+      "III",
+      "Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>",
+      "2.0×10<sup>−29</sup>"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "Lanthanum iodate dissolves as shown, with K<sub>sp</sub> = 7.5×10<sup>−12</sup> at 25 °C. What is its molar solubility in pure water?",
+  "c": [
+   "7.3×10<sup>−4</sup> M",
+   "2.7×10<sup>−6</sup> M",
+   "1.7×10<sup>−3</sup> M",
+   "1.3×10<sup>−3</sup> M"
+  ],
+  "h": "If s mol/L dissolves, [La<sup>3+</sup>] = s and [IO<sub>3</sub><sup>−</sup>] = 3s.",
+  "w": "K<sub>sp</sub> = (s)(3s)<sup>3</sup> = 27s<sup>4</sup> = 7.5×10<sup>−12</sup>, so s<sup>4</sup> = 2.8×10<sup>−13</sup> and <b>s = 7.3×10<sup>−4</sup> M</b>. Taking a square root treats the salt as 1 : 1, and the fourth root of K<sub>sp</sub> alone drops the factor 27.",
+  "x": [
+   "",
+   "A square root fits a 1:1 salt. Here three iodate ions form per formula unit.",
+   "This takes the fourth root of Ksp but leaves out the 3³ = 27 that comes from [IO₃⁻] = 3s.",
+   "Writing [IO₃⁻] = 3s means the factor is cubed, giving 27, not 3."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "La(IO<sub>3</sub>)<sub>3</sub>(s) ⇌ La<sup>3+</sup>(aq) + 3 IO<sub>3</sub><sup>−</sup>(aq)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "The curve shows all combinations of [M<sup>+</sup>] and [X<sup>−</sup>] for which a solution of the salt MX is exactly saturated at 25 °C (K<sub>sp</sub> = 4.0×10<sup>−10</sup>). Points A, B and C are three solutions. Which statements are true?<br>I. Solution A is unsaturated, so more solid MX could dissolve in it.<br>II. Adding solid MX to solution B raises both [M<sup>+</sup>] and [X<sup>−</sup>].<br>III. In solution C, MX precipitates until the ion concentrations reach a point on the curve.",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Compare Q = [M<sup>+</sup>][X<sup>−</sup>] at each point with K<sub>sp</sub>. Points on the curve have Q = K<sub>sp</sub>.",
+  "w": "I is true: at A, Q = (1.0)(1.5)×10<sup>−10</sup> = 1.5×10<sup>−10</sup> &lt; K<sub>sp</sub>, so A is unsaturated. II is false: B lies on the curve (Q = 4.0×10<sup>−10</sup>), so it is already saturated and added solid just sits on the bottom. III is true: at C, Q = 1.2×10<sup>−9</sup> &gt; K<sub>sp</sub>, so solid forms until Q falls to K<sub>sp</sub>. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true. At C, Q is greater than Ksp, so the solution is supersaturated and solid MX forms.",
+   "Statement I is true and statement II is false. A is below the curve (unsaturated), while B is already saturated.",
+   "Statement II is false. B lies on the curve, so it is already saturated and extra solid does not dissolve."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "[M<sup>+</sup>] (×10<sup>−5</sup> M)",
+     "min": 0,
+     "max": 8,
+     "ticks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+     ]
+    },
+    "y": {
+     "label": "[X<sup>−</sup>] (×10<sup>−5</sup> M)",
+     "min": 0,
+     "max": 8,
+     "ticks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0.5,
+        8.0
+       ],
+       [
+        0.6,
+        6.667
+       ],
+       [
+        0.7,
+        5.714
+       ],
+       [
+        0.8,
+        5.0
+       ],
+       [
+        1.0,
+        4.0
+       ],
+       [
+        1.2,
+        3.333
+       ],
+       [
+        1.5,
+        2.667
+       ],
+       [
+        2.0,
+        2.0
+       ],
+       [
+        2.5,
+        1.6
+       ],
+       [
+        3.0,
+        1.333
+       ],
+       [
+        3.5,
+        1.143
+       ],
+       [
+        4.0,
+        1.0
+       ],
+       [
+        5.0,
+        0.8
+       ],
+       [
+        6.0,
+        0.667
+       ],
+       [
+        7.0,
+        0.571
+       ],
+       [
+        8.0,
+        0.5
+       ]
+      ]
+     }
+    ],
+    "points": [
+     [
+      1,
+      1.5,
+      "A",
+      -14,
+      -8
+     ],
+     [
+      2,
+      2,
+      "B",
+      8,
+      -8
+     ],
+     [
+      4,
+      3,
+      "C",
+      8,
+      -8
+     ]
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "Silver bromide dissolves in aqueous ammonia because Ag<sup>+</sup> forms [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup>. Using the constants in the table, what is the molar solubility of AgBr in 1.0 M NH<sub>3</sub>?",
+  "c": [
+   "2.9×10<sup>−3</sup> M",
+   "7.1×10<sup>−7</sup> M",
+   "8.5×10<sup>−6</sup> M",
+   "1.7×10<sup>−10</sup> M"
+  ],
+  "h": "Add the two equations: AgBr(s) + 2 NH<sub>3</sub> ⇌ [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup> + Br<sup>−</sup>. Its K is K<sub>sp</sub> × K<sub>f</sub>.",
+  "w": "K = (5.0×10<sup>−13</sup>)(1.7×10<sup>7</sup>) = 8.5×10<sup>−6</sup>. With s = [complex] = [Br<sup>−</sup>]: s<sup>2</sup>/(1.0 − 2s)<sup>2</sup> = 8.5×10<sup>−6</sup>, so s/(1.0 − 2s) = 2.92×10<sup>−3</sup> and <b>s = 2.9×10<sup>−3</sup> M</b>, about 4000 times its solubility in pure water (7.1×10<sup>−7</sup> M).",
+  "x": [
+   "",
+   "This is the solubility in pure water. The ammonia pulls Ag⁺ into the complex, so far more AgBr dissolves.",
+   "This is K for the overall reaction. Molar solubility comes from setting K equal to s²/[NH₃]².",
+   "This uses Ksp divided by Kf. Adding the two reactions means the constants are multiplied."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "AgBr(s) ⇌ Ag<sup>+</sup>(aq) + Br<sup>−</sup>(aq)"
+   },
+   {
+    "type": "eq",
+    "text": "Ag<sup>+</sup>(aq) + 2 NH<sub>3</sub>(aq) ⇌ [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup>(aq)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Constant",
+     "Value (25 °C)"
+    ],
+    "rows": [
+     [
+      "K<sub>sp</sub> of AgBr",
+      "5.0×10<sup>−13</sup>"
+     ],
+     [
+      "K<sub>f</sub> of [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup>",
+      "1.7×10<sup>7</sup>"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "Calomel, Hg<sub>2</sub>Cl<sub>2</sub>, contains the diatomic mercury(I) ion, Hg<sub>2</sub><sup>2+</sup>. Its molar solubility in water at 25 °C is 6.5×10<sup>−7</sup> M. What is its K<sub>sp</sub>?",
+  "c": [
+   "1.1×10<sup>−18</sup>",
+   "2.9×10<sup>−24</sup>",
+   "2.7×10<sup>−19</sup>",
+   "5.5×10<sup>−19</sup>"
+  ],
+  "h": "Write the dissolution with the Hg<sub>2</sub><sup>2+</sup> ion kept together: how many ions of each kind form per formula unit?",
+  "w": "Hg<sub>2</sub>Cl<sub>2</sub>(s) ⇌ Hg<sub>2</sub><sup>2+</sup>(aq) + 2 Cl<sup>−</sup>(aq), so K<sub>sp</sub> = (s)(2s)<sup>2</sup> = 4s<sup>3</sup> = 4(6.5×10<sup>−7</sup>)<sup>3</sup> = <b>1.1×10<sup>−18</sup></b>. Splitting the dimer into two Hg<sup>+</sup> ions would wrongly give (2s)<sup>2</sup>(2s)<sup>2</sup> = 16s<sup>4</sup>.",
+  "x": [
+   "",
+   "This treats mercury(I) as two separate Hg⁺ ions. The Hg₂²⁺ ion stays together in solution.",
+   "This multiplies s by s². The chloride concentration is 2s, and that whole quantity is squared.",
+   "This doubles s³ instead of squaring the 2 in [Cl⁻] = 2s."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "Two slightly soluble salts have the same K<sub>sp</sub> at 25 °C, as listed in the table. How do their molar solubilities in pure water compare?",
+  "c": [
+   "NZ<sub>2</sub> is about 50 times more soluble than MY.",
+   "They are equally soluble because their K<sub>sp</sub> values are equal.",
+   "MY is about 50 times more soluble than NZ<sub>2</sub>.",
+   "NZ<sub>2</sub> is about 2 times more soluble than MY."
+  ],
+  "h": "Solve s<sup>2</sup> = K<sub>sp</sub> for MY and 4s<sup>3</sup> = K<sub>sp</sub> for NZ<sub>2</sub>.",
+  "w": "MY: s = √(4.0×10<sup>−12</sup>) = 2.0×10<sup>−6</sup> M. NZ<sub>2</sub>: 4s<sup>3</sup> = 4.0×10<sup>−12</sup>, s = 1.0×10<sup>−4</sup> M. So <b>NZ<sub>2</sub> is about 50 times more soluble</b>. Equal K<sub>sp</sub> values mean equal solubility only when the ion ratios match.",
+  "x": [
+   "",
+   "Equal Ksp gives equal solubility only for salts with the same ion ratio. These two differ.",
+   "Check the direction. A cube root of a tiny number is much larger than a square root of a similar number.",
+   "The ratio is not just the 2 in the formula. Calculate each s from its own Ksp expression."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Salt",
+     "Ions formed",
+     "K<sub>sp</sub>"
+    ],
+    "rows": [
+     [
+      "MY",
+      "M<sup>2+</sup> + Y<sup>2−</sup>",
+      "4.0×10<sup>−12</sup>"
+     ],
+     [
+      "NZ<sub>2</sub>",
+      "N<sup>2+</sup> + 2 Z<sup>−</sup>",
+      "4.0×10<sup>−12</sup>"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "The box shows all the dissolved ions in a saturated solution of calcium phosphate, Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> (undissolved solid and water not shown). Each ion represents 1.0×10<sup>−7</sup> M. What is the molar solubility of Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>?",
+  "c": [
+   "2.0×10<sup>−7</sup> M",
+   "1.0×10<sup>−6</sup> M",
+   "6.0×10<sup>−7</sup> M",
+   "4.0×10<sup>−7</sup> M"
+  ],
+  "h": "Molar solubility counts formula units dissolved. How many Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> units would release these ions?",
+  "w": "The box has 6 Ca<sup>2+</sup> and 4 PO<sub>4</sub><sup>3−</sup>. Each formula unit gives 3 Ca<sup>2+</sup> and 2 PO<sub>4</sub><sup>3−</sup>, so 2 formula units dissolved: s = 2 × 1.0×10<sup>−7</sup> M = <b>2.0×10<sup>−7</sup> M</b>. 6.0×10<sup>−7</sup> M is [Ca<sup>2+</sup>] and 4.0×10<sup>−7</sup> M is [PO<sub>4</sub><sup>3−</sup>].",
+  "x": [
+   "",
+   "This counts every ion. Molar solubility counts the formula units that dissolved.",
+   "This is the calcium ion concentration. Each formula unit releases three Ca²⁺.",
+   "This is the phosphate ion concentration. Each formula unit releases two PO₄³⁻."
+  ],
+  "k": 1,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 5,
+    "key": {
+     "Ca": {
+      "c": "#3b82b4",
+      "n": "Ca²⁺",
+      "q": "2+",
+      "r": 12
+     },
+     "P": {
+      "c": "#e0675a",
+      "n": "PO₄³⁻",
+      "q": "3−",
+      "r": 13
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Saturated Ca₃(PO₄)₂",
+      "water": true,
+      "mols": [
+       [
+        "Ca"
+       ],
+       [
+        "Ca"
+       ],
+       [
+        "Ca"
+       ],
+       [
+        "Ca"
+       ],
+       [
+        "Ca"
+       ],
+       [
+        "Ca"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "The graph shows log(molar solubility) of a metal hydroxide M(OH)<sub>2</sub> in buffered solutions at 25 °C. What is K<sub>sp</sub> of M(OH)<sub>2</sub>?",
+  "c": [
+   "1.0×10<sup>−11</sup>",
+   "1.0×10<sup>−7</sup>",
+   "4.0×10<sup>−9</sup>",
+   "1.0×10<sup>−23</sup>"
+  ],
+  "h": "Read one point, such as pH 10.00. In a buffer, [OH<sup>−</sup>] is set by the pH, and [M<sup>2+</sup>] equals the molar solubility.",
+  "w": "At pH 10.00, log s = −3.0, so [M<sup>2+</sup>] = 1.0×10<sup>−3</sup> M, and pOH = 4.00 gives [OH<sup>−</sup>] = 1.0×10<sup>−4</sup> M. K<sub>sp</sub> = (1.0×10<sup>−3</sup>)(1.0×10<sup>−4</sup>)<sup>2</sup> = <b>1.0×10<sup>−11</sup></b>. Every point gives the same value, and the slope of −2 reflects the two OH<sup>−</sup> in the formula.",
+  "x": [
+   "",
+   "This leaves [OH⁻] unsquared. The formula has two hydroxide ions.",
+   "This uses [OH⁻] = 2s as if the salt were in pure water. In a buffer the pH fixes [OH⁻].",
+   "This uses [H⁺] instead of [OH⁻]. Convert the pH to pOH first."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "pH",
+     "min": 9,
+     "max": 12,
+     "ticks": [
+      9,
+      9.5,
+      10,
+      10.5,
+      11,
+      11.5,
+      12
+     ]
+    },
+    "y": {
+     "label": "log(molar solubility, M)",
+     "min": -8,
+     "max": 0,
+     "ticks": [
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        9.0,
+        -1.0
+       ],
+       [
+        9.5,
+        -2.0
+       ],
+       [
+        10.0,
+        -3.0
+       ],
+       [
+        10.5,
+        -4.0
+       ],
+       [
+        11.0,
+        -5.0
+       ],
+       [
+        11.5,
+        -6.0
+       ],
+       [
+        12.0,
+        -7.0
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "Acid rain dissolves limestone by the overall reaction shown. Using the constants in the table, what is K for this reaction?",
+  "c": [
+   "96",
+   "2.1×10<sup>−19</sup>",
+   "1.0×10<sup>−2</sup>",
+   "4.5×10<sup>−9</sup>"
+  ],
+  "h": "Combine the dissolution of CaCO<sub>3</sub> with the reverse of the HCO<sub>3</sub><sup>−</sup> ionization (CO<sub>3</sub><sup>2−</sup> + H<sub>3</sub>O<sup>+</sup> → HCO<sub>3</sub><sup>−</sup> + H<sub>2</sub>O).",
+  "w": "CaCO<sub>3</sub>(s) ⇌ Ca<sup>2+</sup> + CO<sub>3</sub><sup>2−</sup> has K = K<sub>sp</sub>. CO<sub>3</sub><sup>2−</sup> + H<sub>3</sub>O<sup>+</sup> ⇌ HCO<sub>3</sub><sup>−</sup> + H<sub>2</sub>O is the reverse of the K<sub>a2</sub> reaction, so K = 1/K<sub>a2</sub>. Adding them: K = K<sub>sp</sub>/K<sub>a2</sub> = 4.5×10<sup>−9</sup> / 4.7×10<sup>−11</sup> = <b>96</b>. K &gt; 1 shows why acid dissolves carbonate rock.",
+  "x": [
+   "",
+   "This multiplies Ksp by Ka2. The ionization step is reversed, so its constant is inverted.",
+   "This is Ka2 divided by Ksp, the reciprocal of the right combination.",
+   "This is Ksp alone. Reaction with H₃O⁺ removes carbonate, which also enters K."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "CaCO<sub>3</sub>(s) + H<sub>3</sub>O<sup>+</sup>(aq) ⇌ Ca<sup>2+</sup>(aq) + HCO<sub>3</sub><sup>−</sup>(aq) + H<sub>2</sub>O(l)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Constant",
+     "Value (25 °C)"
+    ],
+    "rows": [
+     [
+      "K<sub>sp</sub> of CaCO<sub>3</sub>",
+      "4.5×10<sup>−9</sup>"
+     ],
+     [
+      "K<sub>a2</sub> of H<sub>2</sub>CO<sub>3</sub> (HCO<sub>3</sub><sup>−</sup>)",
+      "4.7×10<sup>−11</sup>"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "Potassium chromate is added slowly to a solution that is 0.010 M in both Pb<sup>2+</sup> and Ag<sup>+</sup>. Using the K<sub>sp</sub> values in the table, which solid forms first, and at what [CrO<sub>4</sub><sup>2−</sup>] does it begin to form?",
+  "c": [
+   "PbCrO<sub>4</sub>, at [CrO<sub>4</sub><sup>2−</sup>] = 2.8×10<sup>−11</sup> M",
+   "Ag<sub>2</sub>CrO<sub>4</sub>, at [CrO<sub>4</sub><sup>2−</sup>] = 1.1×10<sup>−10</sup> M",
+   "Ag<sub>2</sub>CrO<sub>4</sub>, at [CrO<sub>4</sub><sup>2−</sup>] = 1.1×10<sup>−8</sup> M",
+   "PbCrO<sub>4</sub>, at [CrO<sub>4</sub><sup>2−</sup>] = 2.8×10<sup>−13</sup> M"
+  ],
+  "h": "For each salt, solve K<sub>sp</sub> = Q for the [CrO<sub>4</sub><sup>2−</sup>] needed. The salt needing less chromate forms first.",
+  "w": "PbCrO<sub>4</sub>: [CrO<sub>4</sub><sup>2−</sup>] = 2.8×10<sup>−13</sup>/0.010 = 2.8×10<sup>−11</sup> M. Ag<sub>2</sub>CrO<sub>4</sub>: [CrO<sub>4</sub><sup>2−</sup>] = 1.1×10<sup>−12</sup>/(0.010)<sup>2</sup> = 1.1×10<sup>−8</sup> M. Far less chromate is needed for lead, so <b>PbCrO<sub>4</sub> forms first, at 2.8×10<sup>−11</sup> M</b>.",
+  "x": [
+   "",
+   "This forgets to square [Ag⁺]. Even so, the value is larger than the lead chromate threshold.",
+   "This is the right threshold for silver chromate, but lead chromate needs far less chromate and forms first.",
+   "This is the Ksp itself. Divide by [Pb²⁺] to find the chromate concentration needed."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Salt",
+     "K<sub>sp</sub> at 25 °C"
+    ],
+    "rows": [
+     [
+      "PbCrO<sub>4</sub>",
+      "2.8×10<sup>−13</sup>"
+     ],
+     [
+      "Ag<sub>2</sub>CrO<sub>4</sub>",
+      "1.1×10<sup>−12</sup>"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "solubility",
+  "q": "NaOH(aq) is added drop by drop to Zn(NO<sub>3</sub>)<sub>2</sub>(aq). A white precipitate forms, and with excess NaOH it dissolves again. Which equations, in order, describe these two observations?",
+  "c": [
+   "I, then II",
+   "I, then III",
+   "II, then I",
+   "III, then II"
+  ],
+  "h": "Zinc hydroxide is amphoteric. What does it do with a large excess of hydroxide ion?",
+  "w": "First Zn<sup>2+</sup> and OH<sup>−</sup> form the precipitate (equation I). With excess OH<sup>−</sup>, Zn(OH)<sub>2</sub> acts as an acid and forms the soluble complex ion [Zn(OH)<sub>4</sub>]<sup>2−</sup> (equation II), so <b>I, then II</b>. Equation III needs added acid, not base.",
+  "x": [
+   "",
+   "Equation III uses H₃O⁺. Only base is being added here.",
+   "The precipitate must form before it can dissolve, so equation II cannot come first.",
+   "Equation III needs acid. In excess base the hydroxide forms a complex ion instead."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "eq",
+    "text": "I. Zn<sup>2+</sup>(aq) + 2 OH<sup>−</sup>(aq) → Zn(OH)<sub>2</sub>(s)"
+   },
+   {
+    "type": "eq",
+    "text": "II. Zn(OH)<sub>2</sub>(s) + 2 OH<sup>−</sup>(aq) → [Zn(OH)<sub>4</sub>]<sup>2−</sup>(aq)"
+   },
+   {
+    "type": "eq",
+    "text": "III. Zn(OH)<sub>2</sub>(s) + 2 H<sub>3</sub>O<sup>+</sup>(aq) → Zn<sup>2+</sup>(aq) + 4 H<sub>2</sub>O(l)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ }
+]

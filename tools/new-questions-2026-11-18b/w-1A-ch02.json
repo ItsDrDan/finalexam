@@ -1,0 +1,1324 @@
+[
+ {
+  "t": "quantum",
+  "d": 2,
+  "q": "The diagram shows the 4s and 3d orbitals of a ground-state transition-metal ion with a 2+ charge. Which ion is it?",
+  "c": [
+   "Co<sup>2+</sup>",
+   "Mn<sup>2+</sup>",
+   "Ni<sup>2+</sup>",
+   "Fe<sup>2+</sup>"
+  ],
+  "h": "Count the d electrons. A period 4 transition metal loses its 4s electrons first, so the neutral atom had 2 more valence electrons than the ion shows.",
+  "w": "The diagram shows 7 electrons in 3d and none in 4s. Adding back the two 4s electrons gives a neutral atom with [Ar]4s<sup>2</sup>3d<sup>7</sup>, cobalt, so the ion is <b>Co<sup>2+</sup></b>. Mn<sup>2+</sup> is 3d<sup>5</sup>, Fe<sup>2+</sup> is 3d<sup>6</sup> and Ni<sup>2+</sup> is 3d<sup>8</sup>.",
+  "x": [
+   "",
+   "Mn has 7 valence electrons as an atom, but its 2+ ion keeps only five 3d electrons.",
+   "Ni²⁺ keeps eight 3d electrons. Recount the arrows.",
+   "Fe²⁺ keeps six 3d electrons. Recount the arrows."
+  ],
+  "f": [
+   {
+    "type": "orbitals",
+    "subs": [
+     {
+      "name": "4s",
+      "boxes": [
+       ""
+      ]
+     },
+     {
+      "name": "3d",
+      "boxes": [
+       "ud",
+       "ud",
+       "u",
+       "u",
+       "u"
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "quantum",
+  "d": 3,
+  "q": "Each diagram shows the 4s and 3d electrons of the ion named. Which diagrams show the ground state correctly?<br>I. Ti<sup>2+</sup><br>II. Cu<sup>+</sup><br>III. Ni<sup>2+</sup>",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "When a period 4 transition metal forms a cation, the 4s electrons leave before any 3d electrons.",
+  "w": "I is wrong: Ti is [Ar]4s<sup>2</sup>3d<sup>2</sup>, so Ti<sup>2+</sup> should be 3d<sup>2</sup> with an empty 4s, not 4s<sup>2</sup> with an empty 3d. II is right: Cu is [Ar]4s<sup>1</sup>3d<sup>10</sup>, and Cu<sup>+</sup> loses the 4s electron to give 3d<sup>10</sup>. III is wrong: Ni<sup>2+</sup> should be 3d<sup>8</sup> with an empty 4s, not 4s<sup>2</sup>3d<sup>6</sup>. <b>II only</b>.",
+  "x": [
+   "",
+   "Diagram I is wrong. Ti²⁺ should lose its 4s electrons, not its 3d electrons.",
+   "Diagram III is wrong. Ni²⁺ should have an empty 4s and eight 3d electrons.",
+   "Diagrams I and III both remove 3d electrons and keep 4s. The 4s electrons leave first."
+  ],
+  "f": [
+   {
+    "type": "orbitals",
+    "items": [
+     {
+      "subs": [
+       {
+        "name": "4s",
+        "boxes": [
+         "ud"
+        ]
+       },
+       {
+        "name": "3d",
+        "boxes": [
+         "",
+         "",
+         "",
+         "",
+         ""
+        ]
+       }
+      ],
+      "cap": "I"
+     },
+     {
+      "subs": [
+       {
+        "name": "4s",
+        "boxes": [
+         ""
+        ]
+       },
+       {
+        "name": "3d",
+        "boxes": [
+         "ud",
+         "ud",
+         "ud",
+         "ud",
+         "ud"
+        ]
+       }
+      ],
+      "cap": "II"
+     }
+    ]
+   },
+   {
+    "type": "orbitals",
+    "items": [
+     {
+      "subs": [
+       {
+        "name": "4s",
+        "boxes": [
+         "ud"
+        ]
+       },
+       {
+        "name": "3d",
+        "boxes": [
+         "ud",
+         "u",
+         "u",
+         "u",
+         "u"
+        ]
+       }
+      ],
+      "cap": "III"
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "quantum",
+  "d": 2,
+  "q": "The energy-level diagram shows every electron of a neutral atom. What does the diagram represent?",
+  "c": [
+   "an excited state of a magnesium atom",
+   "the ground state of an aluminum atom",
+   "the ground state of a magnesium atom",
+   "an excited state of a sodium atom"
+  ],
+  "h": "Count all the arrows to find the element. Then ask whether a lower-energy orbital is left partly empty while a higher one is used.",
+  "w": "The diagram holds 12 electrons, so the atom is magnesium. In the ground state both 3s electrons would be paired in 3s, but here one sits in 3p, so this is <b>an excited state of a magnesium atom</b>. Aluminum has 13 electrons and sodium has 11.",
+  "x": [
+   "",
+   "Aluminum has 13 electrons. Count the arrows again.",
+   "In the ground state, 3s fills completely before any electron enters 3p.",
+   "Sodium has 11 electrons. Count the arrows again."
+  ],
+  "f": [
+   {
+    "type": "orbitals",
+    "items": [
+     {
+      "stack": true,
+      "subs": [
+       {
+        "name": "1s",
+        "boxes": [
+         "ud"
+        ]
+       },
+       {
+        "name": "2s",
+        "boxes": [
+         "ud"
+        ]
+       },
+       {
+        "name": "2p",
+        "boxes": [
+         "ud",
+         "ud",
+         "ud"
+        ]
+       },
+       {
+        "name": "3s",
+        "boxes": [
+         "u"
+        ]
+       },
+       {
+        "name": "3p",
+        "boxes": [
+         "u",
+         "",
+         ""
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "quantum",
+  "d": 2,
+  "q": "The diagram shows the only four energy levels of a hypothetical atom. If electrons can drop from any level to any lower level, how many different lines can appear in the emission spectrum?",
+  "c": [
+   "6",
+   "3",
+   "4",
+   "12"
+  ],
+  "h": "Each line comes from one pair of levels, with the electron moving down. Count the pairs.",
+  "w": "Every pair of levels gives one downward drop: from the top level there are 3, from the next 2 and from the next 1, so 3 + 2 + 1 = <b>6</b> lines. The gaps (2, 4, 6, 11, 15 and 17 × 10<sup>−19</sup> J) are all different, so each line has its own wavelength. 3 counts only drops to the next level down, 4 is the number of levels, and 12 counts upward jumps too, which are absorption.",
+  "x": [
+   "",
+   "Drops can skip levels. Count jumps between any two levels, not just neighbors.",
+   "That is the number of levels, not the number of pairs of levels.",
+   "Upward jumps absorb light. The emission spectrum includes only downward drops."
+  ],
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "",
+     "min": 0,
+     "max": 5,
+     "ticks": []
+    },
+    "y": {
+     "label": "Energy (×10⁻¹⁹ J)",
+     "min": -22,
+     "max": 0,
+     "ticks": [
+      -20,
+      -15,
+      -10,
+      -5,
+      0
+     ]
+    },
+    "hlines": [
+     {
+      "y": -20,
+      "label": "level 1"
+     },
+     {
+      "y": -9,
+      "label": "level 2"
+     },
+     {
+      "y": -5,
+      "label": "level 3"
+     },
+     {
+      "y": -3,
+      "label": "level 4"
+     }
+    ],
+    "series": [],
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "quantum",
+  "d": 2,
+  "k": 1,
+  "q": "The diagram shows energy levels of a hypothetical atom. What is the wavelength of the photon emitted in the transition shown by the arrow? (h = 6.626 × 10<sup>−34</sup> J s, c = 2.998 × 10<sup>8</sup> m s<sup>−1</sup>)",
+  "c": [
+   "284 nm",
+   "221 nm",
+   "124 nm",
+   "79.5 nm"
+  ],
+  "h": "The photon carries the energy difference between the two levels. Then use λ = hc/E.",
+  "w": "The arrow drops from −9.0 to −16.0 × 10<sup>−19</sup> J, so E<sub>photon</sub> = 7.0 × 10<sup>−19</sup> J. λ = hc/E = (6.626 × 10<sup>−34</sup>)(2.998 × 10<sup>8</sup>) ÷ (7.0 × 10<sup>−19</sup>) = 2.84 × 10<sup>−7</sup> m = <b>284 nm</b>. 221 nm uses the upper level's energy alone, 124 nm uses the lower level's energy alone, and 79.5 nm adds the two energies.",
+  "x": [
+   "",
+   "This uses only the starting level's energy. The photon energy is the gap between the levels.",
+   "This uses only the final level's energy. The photon energy is the gap between the levels.",
+   "This adds the two level energies. The photon carries their difference."
+  ],
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "",
+     "min": 0,
+     "max": 5,
+     "ticks": []
+    },
+    "y": {
+     "label": "Energy (×10⁻¹⁹ J)",
+     "min": -18,
+     "max": 0,
+     "ticks": [
+      -18,
+      -16,
+      -14,
+      -12,
+      -10,
+      -8,
+      -6,
+      -4,
+      -2,
+      0
+     ]
+    },
+    "hlines": [
+     {
+      "y": -16,
+      "label": "−16.0"
+     },
+     {
+      "y": -9,
+      "label": "−9.0"
+     },
+     {
+      "y": -6,
+      "label": "−6.0"
+     },
+     {
+      "y": -4.5,
+      "label": "−4.5"
+     }
+    ],
+    "series": [
+     {
+      "pts": [
+       [
+        2.5,
+        -9
+       ],
+       [
+        2.5,
+        -16
+       ],
+       [
+        2.38,
+        -14.92
+       ],
+       [
+        2.5,
+        -16
+       ],
+       [
+        2.62,
+        -14.92
+       ]
+      ]
+     }
+    ],
+    "mono": true,
+    "grid": false
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "quantum",
+  "d": 1,
+  "q": "Three lines in the visible emission spectrum of an element are labeled I, II and III. Rank the photon energies of these lines, lowest first.",
+  "c": [
+   "I &lt; III &lt; II",
+   "II &lt; III &lt; I",
+   "I &lt; II &lt; III",
+   "III &lt; I &lt; II"
+  ],
+  "h": "E = hc/λ, so photon energy goes down as wavelength goes up.",
+  "w": "Line I is at 640 nm, III at 530 nm and II at 425 nm. The longest wavelength has the lowest energy, so <b>I &lt; III &lt; II</b>. The reverse order assumes energy rises with wavelength, and the others follow the labels instead of the positions.",
+  "x": [
+   "",
+   "This ranks by wavelength. Photon energy is inversely related to wavelength.",
+   "This follows the label numbers, not where the lines sit on the wavelength scale.",
+   "Line III is not the longest wavelength. Read each line's position on the scale."
+  ],
+  "f": [
+   {
+    "type": "spectrum",
+    "min": 380,
+    "max": 720,
+    "visible": false,
+    "ticks": [
+     400,
+     450,
+     500,
+     550,
+     600,
+     650,
+     700
+    ],
+    "lines": [
+     [
+      640,
+      "I"
+     ],
+     [
+      425,
+      "II"
+     ],
+     [
+      530,
+      "III"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "quantum",
+  "d": 2,
+  "q": "The diagram shows four ultraviolet lines in the emission spectrum of hydrogen. All four come from electrons falling to n = 1. Which line comes from the n = 4 → n = 1 transition? (E<sub>n</sub> = −2.18 × 10<sup>−18</sup> J/n<sup>2</sup>)",
+  "c": [
+   "the 97.2 nm line",
+   "the 121.5 nm line",
+   "the 102.5 nm line",
+   "the 94.9 nm line"
+  ],
+  "h": "A bigger drop releases more energy and so gives a shorter wavelength. The drops from n = 2, 3, 4 and 5 grow in that order.",
+  "w": "ΔE = 2.18 × 10<sup>−18</sup> J (1 − 1/16) = 2.04 × 10<sup>−18</sup> J, and λ = hc/ΔE = <b>97.2 nm</b>. In order of decreasing wavelength the lines come from n = 2 (121.5 nm), n = 3 (102.5 nm), n = 4 (97.2 nm) and n = 5 (94.9 nm).",
+  "x": [
+   "",
+   "121.5 nm is the smallest drop of the series, the one from n = 2.",
+   "102.5 nm is the drop from n = 3.",
+   "94.9 nm is a larger drop than n = 4 → n = 1, the one from n = 5."
+  ],
+  "f": [
+   {
+    "type": "spectrum",
+    "min": 90,
+    "max": 125,
+    "visible": false,
+    "ticks": [
+     90,
+     95,
+     100,
+     105,
+     110,
+     115,
+     120,
+     125
+    ],
+    "lines": [
+     [
+      121.5,
+      "121.5"
+     ],
+     [
+      102.5,
+      "102.5"
+     ],
+     [
+      97.2,
+      "97.2"
+     ],
+     [
+      94.9,
+      "94.9"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "quantum",
+  "d": 2,
+  "q": "Four elements are marked on the outline of the periodic table. Which marked element has exactly two unpaired electrons in its ground-state atom?",
+  "c": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "h": "Write each valence configuration from the element's position, then apply Hund's rule to the partly filled subshell.",
+  "w": "A is silicon, 3s<sup>2</sup>3p<sup>2</sup>: the two 3p electrons sit in separate orbitals, so <b>A</b> has 2 unpaired electrons. B is phosphorus, 3p<sup>3</sup>, with 3. C is calcium, 4s<sup>2</sup>, with 0. D is manganese, 3d<sup>5</sup>, with 5.",
+  "x": [
+   "",
+   "B has three p electrons, each in its own orbital.",
+   "C has only a filled s subshell, so all its electrons are paired.",
+   "D has five d electrons, one in each d orbital."
+  ],
+  "f": [
+   {
+    "type": "ptgrid",
+    "periods": 4,
+    "cells": {
+     "A": [
+      3,
+      14
+     ],
+     "B": [
+      3,
+      15
+     ],
+     "C": [
+      4,
+      2
+     ],
+     "D": [
+      4,
+      7
+     ]
+    }
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "periodic",
+  "d": 3,
+  "q": "Elements I, II and III are marked on the outline of the periodic table. Rank them by first ionization energy, lowest first.",
+  "c": [
+   "III &lt; II &lt; I",
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III",
+   "II &lt; III &lt; I"
+  ],
+  "h": "Ionization energy falls down a group. Across a period it rises, but watch for the first element whose removed p electron is paired.",
+  "w": "III (phosphorus) is below I, so it has the lowest value. I is nitrogen (2p<sup>3</sup>, half-filled) and II is oxygen (2p<sup>4</sup>); oxygen's fourth 2p electron is paired, and the repulsion makes it easier to remove, so O &lt; N. Order: <b>III &lt; II &lt; I</b> (P 1012, O 1314, N 1402 kJ mol<sup>−1</sup>).",
+  "x": [
+   "",
+   "This follows the simple left to right trend. Oxygen's paired 2p electron makes its value lower than nitrogen's.",
+   "This is backward. Moving down a group lowers the ionization energy.",
+   "Phosphorus is one period lower, so its electron is held less tightly than oxygen's."
+  ],
+  "f": [
+   {
+    "type": "ptgrid",
+    "periods": 4,
+    "cells": {
+     "I": [
+      2,
+      15
+     ],
+     "II": [
+      2,
+      16
+     ],
+     "III": [
+      3,
+      15
+     ]
+    }
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "periodic",
+  "d": 2,
+  "q": "The bar graph shows the first six ionization energies of a period 3 element X. In which group of the periodic table is X?",
+  "c": [
+   "Group 15",
+   "Group 16",
+   "Group 13",
+   "Group 14"
+  ],
+  "h": "Look for the huge jump. Electrons before the jump are valence electrons, and the electron after it comes from the core.",
+  "w": "IE<sub>1</sub> to IE<sub>5</sub> rise gradually, then IE<sub>6</sub> jumps from about 6300 to 21,300 kJ mol<sup>−1</sup>. So X has five valence electrons and the sixth comes from the n = 2 core: <b>Group 15</b> (phosphorus). Group 16 counts the jump bar itself, and the smaller rises after IE<sub>3</sub> and IE<sub>4</sub> are not the core jump.",
+  "x": [
+   "",
+   "This counts the sixth bar as a valence electron. That bar is the first core electron.",
+   "The rise from IE₃ to IE₄ is small compared with the jump after IE₅.",
+   "The rise from IE₄ to IE₅ is small compared with the jump after IE₅."
+  ],
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Ionization number",
+     "min": 0.3,
+     "max": 6.7,
+     "ticks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    },
+    "y": {
+     "label": "Ionization energy (×10³ kJ mol⁻¹)",
+     "min": 0.0,
+     "max": 24.0,
+     "ticks": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        1,
+        1.012
+       ],
+       [
+        2,
+        1.907
+       ],
+       [
+        3,
+        2.914
+       ],
+       [
+        4,
+        4.964
+       ],
+       [
+        5,
+        6.274
+       ],
+       [
+        6,
+        21.267
+       ]
+      ],
+      "bars": true,
+      "barW": 0.6,
+      "color": "#3b82b4"
+     }
+    ],
+    "mono": true,
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "quantum",
+  "d": 2,
+  "q": "The table lists four sets of quantum numbers. Which set could describe a valence electron of a ground-state bromine atom?",
+  "c": [
+   "set 1",
+   "set 2",
+   "set 3",
+   "set 4"
+  ],
+  "h": "Bromine's valence electrons are in 4s and 4p. Check that each set is allowed and points to one of those subshells.",
+  "w": "<b>Set 1</b> (n = 4, ℓ = 1) is a 4p electron, and Br is [Ar]4s<sup>2</sup>3d<sup>10</sup>4p<sup>5</sup>. Set 2 is a 4d electron, and 4d is empty in Br. Set 3 is a 3p electron, which is a core electron. Set 4 is not allowed, because m<sub>ℓ</sub> cannot be 1 when ℓ = 0.",
+  "x": [
+   "",
+   "Set 2 has ℓ = 2 in the fourth shell, a 4d orbital. No electrons are there in ground-state Br.",
+   "Set 3 is in the third shell, which is part of bromine's core.",
+   "Check mℓ. When ℓ = 0 the only allowed mℓ value is 0."
+  ],
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Set",
+     "n",
+     "ℓ",
+     "m<sub>ℓ</sub>",
+     "m<sub>s</sub>"
+    ],
+    "rows": [
+     [
+      "1",
+      "4",
+      "1",
+      "−1",
+      "+½"
+     ],
+     [
+      "2",
+      "4",
+      "2",
+      "0",
+      "−½"
+     ],
+     [
+      "3",
+      "3",
+      "1",
+      "0",
+      "+½"
+     ],
+     [
+      "4",
+      "4",
+      "0",
+      "1",
+      "−½"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "periodic",
+  "d": 2,
+  "q": "Which statements about effective nuclear charge (Z<sub>eff</sub>) are true?<br>I. In a neon atom, a 1s electron feels a larger Z<sub>eff</sub> than a 2p electron.<br>II. Core electrons shield valence electrons better than electrons in the same shell shield each other.<br>III. The Z<sub>eff</sub> felt by valence electrons increases from Li to F.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "II and III only",
+   "I and III only"
+  ],
+  "h": "Z<sub>eff</sub> is the nuclear charge minus the shielding by electrons that sit, on average, between the electron and the nucleus.",
+  "w": "I is true: the 1s electron sits inside the n = 2 electrons and is barely shielded. II is true: core electrons lie between the nucleus and the valence shell, while same-shell electrons shield each other poorly. III is true: across period 2 each step adds a proton but only a poorly shielding same-shell electron. <b>I, II and III</b>.",
+  "x": [
+   "",
+   "Statement III is also true. Each step from Li to F adds a proton while the core stays the same.",
+   "Statement I is also true. Few electrons sit between a 1s electron and the nucleus.",
+   "Statement II is also true. Core electrons lie between the nucleus and the valence shell."
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "quantum",
+  "d": 2,
+  "q": "The table gives the energies of the four lowest levels of the hydrogen atom. Which statements are true?<br>I. The energy gap between n = 2 and n = 3 is larger than the gap between n = 3 and n = 4.<br>II. An electron in the n = 1 level has the highest energy.<br>III. Removing the electron from n = 2 takes one fourth of the energy needed to remove it from n = 1.",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "E<sub>n</sub> = −2.18 × 10<sup>−18</sup> J/n<sup>2</sup>. Ionization takes the electron from its level up to E = 0.",
+  "w": "I is true: the levels crowd together as n rises (3.03 vs 1.06 × 10<sup>−19</sup> J). II is false: n = 1 is the lowest, most negative energy. III is true: ionizing from n takes 2.18 × 10<sup>−18</sup> J/n<sup>2</sup>, so n = 2 needs 1/4 as much as n = 1. <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true. The ionization energy from level n is proportional to 1/n².",
+   "Statement II is false. The n = 1 level is the lowest point on the diagram.",
+   "Statement II is false. The n = 1 level has the most negative energy."
+  ],
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Level",
+     "Energy (×10⁻¹⁹ J)"
+    ],
+    "rows": [
+     [
+      "n = 1",
+      "−21.80"
+     ],
+     [
+      "n = 2",
+      "−5.45"
+     ],
+     [
+      "n = 3",
+      "−2.42"
+     ],
+     [
+      "n = 4",
+      "−1.36"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "periodic",
+  "d": 2,
+  "q": "Elements A, B and C are marked on the outline of the periodic table. Which statements are true?<br>I. C is more electronegative than A.<br>II. B has a larger atomic radius than A.<br>III. C has a larger atomic radius than B.",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "Electronegativity rises toward the upper right of the table. Atomic radius grows down a group and shrinks across a period.",
+  "w": "I is false: A (oxygen) is up and to the right of C (aluminum), so A is far more electronegative. II is true: B (sulfur) is below A in group 16, with one more shell. III is true: C is left of B in period 3, where Z<sub>eff</sub> is lower, so C is larger. <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement I is false. C is a metal far to the lower left of A.",
+   "Statement II is also true. B is one period below A in the same group.",
+   "Statement I is false. Electronegativity is highest toward the upper right, where A sits."
+  ],
+  "f": [
+   {
+    "type": "ptgrid",
+    "periods": 4,
+    "cells": {
+     "A": [
+      2,
+      16
+     ],
+     "B": [
+      3,
+      16
+     ],
+     "C": [
+      3,
+      13
+     ]
+    }
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "periodic",
+  "d": 1,
+  "q": "The graph shows the atomic (covalent) radii of the elements from Z = 1 to 20, with the noble gases left out. Four points are labeled P–S. Which labeled element has the highest first ionization energy?",
+  "c": [
+   "Q",
+   "P",
+   "R",
+   "S"
+  ],
+  "h": "The smaller the atom, the closer its valence electrons are to the nucleus and the harder they are to remove.",
+  "w": "<b>Q</b> (Z = 9, fluorine) has the smallest radius of the four, so its valence electrons are held most tightly and its first ionization energy is highest. P (Li), R (Na) and S (K) are the large group 1 atoms at the start of each period, which have the lowest ionization energies.",
+  "x": [
+   "",
+   "P is at the start of period 2, where atoms are large and lose an electron easily.",
+   "R is a large group 1 atom. Its valence electron is far from the nucleus.",
+   "S is the largest atom on the graph, so it has the lowest ionization energy."
+  ],
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Atomic number (Z)",
+     "min": 0,
+     "max": 21,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+     ]
+    },
+    "y": {
+     "label": "Radius (pm)",
+     "min": 0,
+     "max": 220,
+     "ticks": [
+      0,
+      40,
+      80,
+      120,
+      160,
+      200
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        1,
+        31
+       ]
+      ],
+      "dots": true
+     },
+     {
+      "pts": [
+       [
+        3,
+        128
+       ],
+       [
+        4,
+        96
+       ],
+       [
+        5,
+        84
+       ],
+       [
+        6,
+        76
+       ],
+       [
+        7,
+        71
+       ],
+       [
+        8,
+        66
+       ],
+       [
+        9,
+        57
+       ]
+      ],
+      "dots": true
+     },
+     {
+      "pts": [
+       [
+        11,
+        166
+       ],
+       [
+        12,
+        141
+       ],
+       [
+        13,
+        121
+       ],
+       [
+        14,
+        111
+       ],
+       [
+        15,
+        107
+       ],
+       [
+        16,
+        105
+       ],
+       [
+        17,
+        102
+       ]
+      ],
+      "dots": true
+     },
+     {
+      "pts": [
+       [
+        19,
+        203
+       ],
+       [
+        20,
+        176
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "points": [
+     [
+      3,
+      128,
+      "P",
+      -14,
+      -8
+     ],
+     [
+      9,
+      57,
+      "Q",
+      6,
+      14
+     ],
+     [
+      11,
+      166,
+      "R",
+      -14,
+      -6
+     ],
+     [
+      19,
+      203,
+      "S",
+      -14,
+      -6
+     ]
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "quantum",
+  "d": 3,
+  "q": "Rank these ground-state ions by number of unpaired electrons, fewest first.<br>I. Cr<sup>3+</sup><br>II. Co<sup>3+</sup><br>III. Cu<sup>2+</sup>",
+  "c": [
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III",
+   "II &lt; I &lt; III",
+   "I &lt; III &lt; II"
+  ],
+  "h": "Remove the 4s electrons first, then fill the five 3d orbitals one electron at a time before pairing.",
+  "w": "Cr<sup>3+</sup> is 3d<sup>3</sup> (3 unpaired), Co<sup>3+</sup> is 3d<sup>6</sup> (4 unpaired: one pair and four singles), and Cu<sup>2+</sup> is 3d<sup>9</sup> (1 unpaired). So <b>III &lt; I &lt; II</b>. Ranking by atomic number or counting all d electrons gives a different order.",
+  "x": [
+   "",
+   "This follows atomic number. Cu²⁺ has nine 3d electrons, so only one is unpaired.",
+   "Co³⁺ has six 3d electrons, which leaves four unpaired, more than Cr³⁺.",
+   "Cu²⁺ has only one unpaired electron, fewer than Cr³⁺."
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "quantum",
+  "d": 1,
+  "q": "The top spectrum is the emission spectrum of a gas mixture. Below it are the emission spectra of elements A, B and C. Which elements are in the mixture?",
+  "c": [
+   "A and C only",
+   "A only",
+   "A, B and C",
+   "B and C only"
+  ],
+  "h": "Each element gives its own set of lines wherever it is. An element is present only if every one of its lines appears in the mixture.",
+  "w": "All three A lines (450, 520, 610 nm) and all three C lines (405, 590, 650 nm) appear in the mixture, but none of the B lines (470, 560, 680 nm) do. The mixture contains <b>A and C only</b>.",
+  "x": [
+   "",
+   "Some mixture lines are not A lines. Another element must be present too.",
+   "None of B's lines appear in the mixture spectrum.",
+   "B's lines are missing from the mixture, so B cannot be present."
+  ],
+  "f": [
+   {
+    "type": "spectrum",
+    "min": 380,
+    "max": 720,
+    "visible": false,
+    "ticks": [
+     400,
+     450,
+     500,
+     550,
+     600,
+     650,
+     700
+    ],
+    "items": [
+     {
+      "cap": "mix",
+      "lines": [
+       [
+        405,
+        ""
+       ],
+       [
+        450,
+        ""
+       ],
+       [
+        520,
+        ""
+       ],
+       [
+        590,
+        ""
+       ],
+       [
+        610,
+        ""
+       ],
+       [
+        650,
+        ""
+       ]
+      ]
+     },
+     {
+      "cap": "A",
+      "lines": [
+       [
+        450,
+        ""
+       ],
+       [
+        520,
+        ""
+       ],
+       [
+        610,
+        ""
+       ]
+      ]
+     },
+     {
+      "cap": "B",
+      "lines": [
+       [
+        470,
+        ""
+       ],
+       [
+        560,
+        ""
+       ],
+       [
+        680,
+        ""
+       ]
+      ]
+     },
+     {
+      "cap": "C",
+      "lines": [
+       [
+        405,
+        ""
+       ],
+       [
+        590,
+        ""
+       ],
+       [
+        650,
+        ""
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "periodic",
+  "d": 2,
+  "q": "The bars show the SECOND ionization energies of the period 3 elements in order (bar 1 = Na, bar 8 = Ar). What best explains why the bar for sodium is far taller than the others?",
+  "c": [
+   "Na<sup>+</sup> has a noble-gas core, so its next electron comes from n = 2.",
+   "Na has the largest atomic radius in period 3.",
+   "Na has the smallest nuclear charge in period 3.",
+   "Na<sup>+</sup> has a half-filled 3s subshell that resists losing an electron."
+  ],
+  "h": "Write the configuration of each element's 1+ ion and ask where the second electron must come from.",
+  "w": "After sodium loses its single 3s electron, Na<sup>+</sup> is [Ne], so the second electron must come from the n = 2 shell, much closer to the nucleus and far less shielded: <b>a core electron</b>. A large radius or a small nuclear charge would make ionization easier, not harder, and Na<sup>+</sup> has no 3s electrons at all.",
+  "x": [
+   "",
+   "A large radius makes electrons easier to remove, which would lower the bar.",
+   "A smaller nuclear charge would make the electron easier to remove, not harder.",
+   "Na⁺ has lost its only 3s electron, so its 3s subshell is empty."
+  ],
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Bar number (Na → Ar)",
+     "min": 0.3,
+     "max": 8.7,
+     "ticks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+     ]
+    },
+    "y": {
+     "label": "Second ionization energy (kJ mol⁻¹)",
+     "min": 0,
+     "max": 5000,
+     "ticks": [
+      0,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        1,
+        4562
+       ],
+       [
+        2,
+        1451
+       ],
+       [
+        3,
+        1817
+       ],
+       [
+        4,
+        1577
+       ],
+       [
+        5,
+        1907
+       ],
+       [
+        6,
+        2252
+       ],
+       [
+        7,
+        2298
+       ],
+       [
+        8,
+        2666
+       ]
+      ],
+      "bars": true,
+      "barW": 0.6,
+      "color": "#cfd8df"
+     }
+    ],
+    "mono": true,
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "quantum",
+  "d": 3,
+  "k": 1,
+  "q": "A ground-state hydrogen atom absorbs a 97.2 nm photon, which raises its electron to n = 4. The atom then returns to n = 1 by emitting exactly two photons. Which pair of wavelengths could those two photons have? The diagram shows levels n = 2 to 4. The n = 1 level, at −21.8 × 10<sup>−19</sup> J, is far below the graph.",
+  "c": [
+   "1875 nm and 102.5 nm",
+   "656 nm and 121.5 nm",
+   "434 nm and 121.5 nm",
+   "1281 nm and 102.5 nm"
+  ],
+  "h": "The two emitted photon energies must add up to the energy absorbed. The path must go 4 → some level → 1.",
+  "w": "With two photons, the electron goes 4 → 3 → 1 or 4 → 2 → 1. The 4 → 3 drop gives 1875 nm and the 3 → 1 drop gives 102.5 nm, so <b>1875 nm and 102.5 nm</b> works. 656 + 121.5 nm is the path 3 → 2 → 1, which starts at n = 3. 434 + 121.5 nm is 5 → 2 → 1, and 1281 + 102.5 nm is 5 → 3 → 1, both starting at n = 5.",
+  "x": [
+   "",
+   "656 nm is the 3 → 2 drop, so this path starts at n = 3, not n = 4.",
+   "434 nm is the 5 → 2 drop, so this path starts at n = 5, not n = 4.",
+   "1281 nm is the 5 → 3 drop, so this path starts at n = 5, not n = 4."
+  ],
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "",
+     "min": 0,
+     "max": 5,
+     "ticks": []
+    },
+    "y": {
+     "label": "Energy (×10⁻¹⁹ J)",
+     "min": -6,
+     "max": 0,
+     "ticks": [
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0
+     ]
+    },
+    "hlines": [
+     {
+      "y": -5.45,
+      "label": "n = 2"
+     },
+     {
+      "y": -2.422,
+      "label": "n = 3"
+     },
+     {
+      "y": -1.363,
+      "label": "n = 4"
+     }
+    ],
+    "series": [],
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "quantum",
+  "d": 1,
+  "q": "How many electrons in a ground-state iron atom (Z = 26) have the quantum number ℓ = 2?",
+  "c": [
+   "6",
+   "2",
+   "8",
+   "10"
+  ],
+  "h": "ℓ = 2 means a d orbital. Write the configuration and count the d electrons.",
+  "w": "Fe is 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>6</sup>4s<sup>2</sup>3d<sup>6</sup>. Only the 3d electrons have ℓ = 2, so there are <b>6</b>. 2 counts the 4s electrons, 8 counts all valence electrons (4s + 3d), and 10 is the capacity of a d subshell.",
+  "x": [
+   "",
+   "The 4s electrons have ℓ = 0, not ℓ = 2.",
+   "This adds the 4s electrons, which have ℓ = 0.",
+   "10 is how many a d subshell can hold, not how many iron has."
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ }
+]

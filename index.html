@@ -495,7 +495,7 @@ const CONSTANTS=['R = 8.314 J·mol⁻¹·K⁻¹','R = 0.0821 L·atm·mol⁻¹·K
 const PT=[[1,"H","1.008"],[2,"He","4.003"],[3,"Li","6.941"],[4,"Be","9.012"],[5,"B","10.81"],[6,"C","12.01"],[7,"N","14.01"],[8,"O","16.00"],[9,"F","19.00"],[10,"Ne","20.18"],[11,"Na","22.99"],[12,"Mg","24.31"],[13,"Al","26.98"],[14,"Si","28.09"],[15,"P","30.97"],[16,"S","32.07"],[17,"Cl","35.45"],[18,"Ar","39.95"],[19,"K","39.10"],[20,"Ca","40.08"],[21,"Sc","44.96"],[22,"Ti","47.88"],[23,"V","50.94"],[24,"Cr","52.00"],[25,"Mn","54.94"],[26,"Fe","55.85"],[27,"Co","58.93"],[28,"Ni","58.69"],[29,"Cu","63.55"],[30,"Zn","65.39"],[31,"Ga","69.72"],[32,"Ge","72.61"],[33,"As","74.92"],[34,"Se","78.96"],[35,"Br","79.90"],[36,"Kr","83.80"],[37,"Rb","85.47"],[38,"Sr","87.62"],[39,"Y","88.91"],[40,"Zr","91.22"],[41,"Nb","92.91"],[42,"Mo","95.94"],[43,"Tc",""],[44,"Ru","101.1"],[45,"Rh","102.9"],[46,"Pd","106.4"],[47,"Ag","107.9"],[48,"Cd","112.4"],[49,"In","114.8"],[50,"Sn","118.7"],[51,"Sb","121.8"],[52,"Te","127.6"],[53,"I","126.9"],[54,"Xe","131.3"],[55,"Cs","132.9"],[56,"Ba","137.3"],[57,"La","138.9"],[58,"Ce","140.1"],[59,"Pr","140.9"],[60,"Nd","144.2"],[61,"Pm",""],[62,"Sm","150.4"],[63,"Eu","152.0"],[64,"Gd","157.3"],[65,"Tb","158.9"],[66,"Dy","162.5"],[67,"Ho","164.9"],[68,"Er","167.3"],[69,"Tm","168.9"],[70,"Yb","173.0"],[71,"Lu","175.0"],[72,"Hf","178.5"],[73,"Ta","180.9"],[74,"W","183.8"],[75,"Re","186.2"],[76,"Os","190.2"],[77,"Ir","192.2"],[78,"Pt","195.1"],[79,"Au","197.0"],[80,"Hg","200.6"],[81,"Tl","204.4"],[82,"Pb","207.2"],[83,"Bi","209.0"],[84,"Po",""],[85,"At",""],[86,"Rn",""],[87,"Fr",""],[88,"Ra",""],[89,"Ac",""],[90,"Th","232.0"],[91,"Pa","231.0"],[92,"U","238.0"],[93,"Np",""],[94,"Pu",""],[95,"Am",""],[96,"Cm",""],[97,"Bk",""],[98,"Cf",""],[99,"Es",""],[100,"Fm",""],[101,"Md",""],[102,"No",""],[103,"Lr",""],[104,"Rf",""],[105,"Db",""],[106,"Sg",""],[107,"Bh",""],[108,"Hs",""],[109,"Mt",""],[110,"Ds",""],[111,"Rg",""],[112,"Cn",""],[113,"Nh",""],[114,"Fl",""],[115,"Mc",""],[116,"Lv",""],[117,"Ts",""],[118,"Og",""]];
 const BANK={},BANK_DATA={},BYID_T={};
 /* question banks: data/bank-<course>.json, one file per course; BANK_V holds each file's version stamp (written by tools/bankio.js) */
-const BANK_V={"3A":"16ff80db28","3B":"44cfc58372","1A":"ef84cdcc1e","1B":"f5ed2ccc33","28A":"2fb307bd27","28B":"95e508e87f"};
+const BANK_V={"3A":"16ff80db28","3B":"44cfc58372","1A":"78440a6e7f","1B":"36bbd21034","28A":"2fb307bd27","28B":"95e508e87f"};
 const BANK_JSON={},bankURL=c=>'data/bank-'+c+'.json?v='+(BANK_V[c]||'0');
 /* the course's own bank is fetched before drawing; a borrowed bank (28B's Boss Battle uses 28A topics) is fetched right after, in the background; anything still missing falls back to a synchronous load in loadCourse */
 const bankNeeds=c=>{const n=[c],m=COURSES[c]&&COURSES[c].mix;if(m)n.push(m.from);return n};
@@ -1354,9 +1354,9 @@ function fCell(f){const W=440,H=240;let o='';const bk=(x,side)=>{const d=f[side]
    if(!(f.hide||[]).includes('sol'))o+=svgT(x+60,236,d.sol||'','font-size="13" font-weight="700" text-anchor="middle"');if(d.label)o+=`<circle cx="${side==='left'?x+22:x+98}" cy="138" r="11" fill="#fff3e0" stroke="#e8973a" stroke-width="1.6"/>`+svgT(side==='left'?x+22:x+98,143,d.label,'font-size="13" font-weight="900" font-style="italic" text-anchor="middle" fill="#b4640f"')};
  bk(40,'left');bk(280,'right');
  const vt=f.volt||'V',vw=Math.max(44,vt.length*8.5+16);o+=`<path d="M100 70 V30 H${220-vw/2} M${220+vw/2} 30 H340 V70" fill="none" stroke="${FS}" stroke-width="2"/><rect x="${220-vw/2}" y="14" width="${vw}" height="32" rx="16" fill="#fff" stroke="${FS}" stroke-width="2"/>`+svgT(220,35,vt,'font-size="13" font-weight="900" text-anchor="middle"');
- o+=`<path d="M130 160 V120 a10 10 0 0 1 10 -10 H300 a10 10 0 0 1 10 10 V160" fill="none" stroke="${FS}" stroke-width="12" stroke-linecap="butt"/><path d="M130 160 V120 a10 10 0 0 1 10 -10 H300 a10 10 0 0 1 10 10 V160" fill="none" stroke="#f6e6c3" stroke-width="8"/>`+svgT(220,104,'salt bridge','font-size="11.5" font-weight="700" text-anchor="middle"');
+ o+=`<path d="M130 160 V120 a10 10 0 0 1 10 -10 H300 a10 10 0 0 1 10 10 V160" fill="none" stroke="${FS}" stroke-width="12" stroke-linecap="butt"/><path d="M130 160 V120 a10 10 0 0 1 10 -10 H300 a10 10 0 0 1 10 10 V160" fill="none" stroke="#f6e6c3" stroke-width="8"/>`+svgT(220,f.ions?97:104,'salt bridge','font-size="11.5" font-weight="700" text-anchor="middle"');
  if(f.eflow){const lr=f.eflow==='lr';o+=`<path d="M${lr?120:320} 8 H${lr?320:120}" stroke="#c0473b" stroke-width="2" marker-end="url(#ahr)"/>`+svgT(lr?108:332,13,'e⁻','font-size="12" font-weight="900" text-anchor="middle" fill="#c0473b"')}
- if(f.ions){const lr=f.ions==='lr';o+=svgT(220,123,`${lr?'cations →':'← cations'}`,'font-size="11" font-weight="800" text-anchor="middle"')+svgT(220,136,`${lr?'← anions':'anions →'}`,'font-size="11" font-weight="800" text-anchor="middle"')}
+ if(f.ions){const lr=f.ions==='lr';o+=svgT(220,131,`${lr?'cations →':'← cations'}`,'font-size="11" font-weight="800" text-anchor="middle"')+svgT(220,151,`${lr?'← anions':'anions →'}`,'font-size="11" font-weight="800" text-anchor="middle"')}
  const defs=`<defs><marker id="ahr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#c0473b"/></marker></defs>`;
  return `<svg class="fsvg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" style="max-width:100%;height:auto" role="img" aria-label="electrochemical cell">${defs}${o}</svg>`}
 /* Line spectrum: min,max (nm), lines=[[656,'label?'],...], items=[{lines,cap}] for stacked spectra; visible=true colors the band */
@@ -1366,9 +1366,9 @@ function fSpectrum(f){const W=440,L=30,R=14,pw=W-L-R,items=f.items||[{lines:f.li
   (it.lines||[]).forEach(([v,lab])=>{o+=`<line x1="${sx(v).toFixed(1)}" y1="${y}" x2="${sx(v).toFixed(1)}" y2="${y+30}" stroke="${f.visible?'#111':col(v)}" stroke-width="2.6"/>`;if(lab)o+=svgT(sx(v),y-5,lab,'font-size="11" font-weight="800" text-anchor="middle"')});
   if(it.cap)o+=svgT(L-4,y+20,it.cap,'font-size="13" font-weight="900" text-anchor="end"')});
  const ticks=f.ticks||niceTicks(mn,mx,6);ticks.forEach(v=>{const x=sx(v);o+=`<line x1="${x.toFixed(1)}" y1="${H-34}" x2="${x.toFixed(1)}" y2="${H-29}" stroke="${FS}"/>`+svgT(x,H-17,v,'font-size="12" text-anchor="middle"')});
- o+=svgT(L+pw/2,H-3,'wavelength ('+(f.unit||'nm')+')','font-size="12" font-weight="700" text-anchor="middle"');
+ o+=svgT(L+pw/2,H+3,'wavelength ('+(f.unit||'nm')+')','font-size="12" font-weight="700" text-anchor="middle"');
  const defs=`<defs><linearGradient id="vis" x1="0" x2="1"><stop offset="0" stop-color="#7a00c8"/><stop offset=".18" stop-color="#2b3cff"/><stop offset=".35" stop-color="#00c2ff"/><stop offset=".5" stop-color="#00d26a"/><stop offset=".65" stop-color="#f5e300"/><stop offset=".82" stop-color="#ff8a00"/><stop offset="1" stop-color="#e01b1b"/></linearGradient></defs>`;
- return `<svg class="fsvg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" style="max-width:100%;height:auto" role="img" aria-label="line spectrum">${defs}${o}</svg>`}
+ return `<svg class="fsvg" viewBox="0 0 ${W} ${H+8}" width="${W}" height="${H+8}" style="max-width:100%;height:auto" role="img" aria-label="line spectrum">${defs}${o}</svg>`}
 /* Enzyme cartoons: f.panels=[{kind, cap}] kind: 'free' (enzyme with empty active site), 'fit' (substrate bound), 'nofit' (wrong-shaped substrate near site),
    'competitive' (inhibitor in the active site, substrate waiting), 'noncompetitive' (inhibitor on a side site, active site warped, substrate can't bind),
    'induced' (site hugging the substrate), 'product' (two product pieces leaving). Letter labels: site='a', sub='b', inh='c' via f.tags {site:'a',sub:'b',inh:'c'} */
@@ -1479,7 +1479,89 @@ function fMS(f){const pk=f.peaks||[],W=440,H=236,L=62,R=14,T=22,B=54,pw=W-L-R,ph
  const aria='Mass spectrum peaks (m/z, relative abundance): '+pk.map(([z,v])=>z+' ('+v+'%'+(labs[z]?', '+plainT(labs[z]):'')+')').join('; ')+'.';
  const top=Math.min(0,Math.floor(Math.min(...placed.map(p=>p.y),99)-14));return `<svg class="fsvg" viewBox="0 ${top} ${W} ${H-top}" width="${W}" height="${H-top}" style="max-width:100%;height:auto" role="img" aria-label="${attrEsc(aria)}">${o}</svg>`}
 
-const FIG={newman:fNewman,chair:fChair,energy:fEnergy,nmr:fNMR,ir:fIR,ms:fMS,cycle:fCycle,path:fPath,table:fTable,eq:fEq,plot:fPlot,mo:fMO,modiag:fMODiag,particles:fParticles,cylinder:fScale,buret:fScale,ruler:fScale,balance:fScale,targets:fTargets,fischer:fFischer,haworth:fHaworth,orbitals:fOrbitals,ptgrid:fPtGrid,cell:fCell,spectrum:fSpectrum,enzyme:fEnzyme};
+/* ---------- general-chemistry figures added 2026-11-18: crystal unit cells, hybrid orbitals, VSEPR shapes ---------- */
+/* shared 3D helper: oblique view, x right, y up, z toward the viewer; returns screen [x, y, depth] */
+const v3=(p,R,sx=0.42,sy=0.30)=>[p[0]*R+p[2]*R*sx,-p[1]*R+p[2]*R*sy,p[2]];
+
+/* Unit cell: f.kind = 'sc' | 'bcc' | 'fcc' | 'nacl' | 'cscl'; f.labels = {A:'Cl⁻', B:'Na⁺'} (legend for two-ion cells);
+   f.edge = text for the edge length (e.g. 'a'); f.cap; or f.items=[{...}] for cells side by side */
+function fLattice(f){if(f.items)return fbMulti(f,fLattice);const k=f.kind||'sc',S=120,b=fbBox();let o='';
+ const P=(x,y,z)=>{const q=[(x*S)+(1-z)*S*0.42,-(y*S)-(1-z)*S*0.30];return q}; /* z = 0 back, 1 front */
+ const C=[0,1];const corners=[];C.forEach(x=>C.forEach(y=>C.forEach(z=>corners.push([x,y,z]))));
+ const A=[],B=[];const add=(arr,p)=>arr.push(p);
+ if(k==='sc'||k==='bcc'||k==='fcc'||k==='cscl'||k==='nacl')corners.forEach(p=>add(A,p));
+ if(k==='bcc')add(A,[.5,.5,.5]);if(k==='cscl')add(B,[.5,.5,.5]);
+ if(k==='fcc'||k==='nacl')[[.5,.5,0],[.5,.5,1],[.5,0,.5],[.5,1,.5],[0,.5,.5],[1,.5,.5]].forEach(p=>add(A,p));
+ if(k==='nacl'){add(B,[.5,.5,.5]);[[.5,0,0],[.5,1,0],[.5,0,1],[.5,1,1],[0,.5,0],[1,.5,0],[0,.5,1],[1,.5,1],[0,0,.5],[1,0,.5],[0,1,.5],[1,1,.5]].forEach(p=>add(B,p))}
+ /* edges: the three meeting at the hidden back-lower-left corner (0,0,0 in this frame) are dashed */
+ const E=[];corners.forEach(p=>corners.forEach(q=>{const d=p.map((v,i)=>Math.abs(v-q[i]));if(d.reduce((a,c)=>a+c,0)===1&&p.join()<q.join())E.push([p,q])}));
+ const hidden=p=>p[0]===0&&p[1]===0&&p[2]===0;
+ E.forEach(([p,q])=>{const a=P(...p),c=P(...q);b.add(a[0],a[1]);b.add(c[0],c[1]);o+=`<line x1="${a[0].toFixed(1)}" y1="${a[1].toFixed(1)}" x2="${c[0].toFixed(1)}" y2="${c[1].toFixed(1)}" stroke="${FS}" stroke-width="1.6"${hidden(p)||hidden(q)?' stroke-dasharray="5 4" opacity=".6"':''}/>`});
+ const two=k==='nacl'||k==='cscl',cA=two?'#3fa66b':'#5b8fc7',cB='#9b6fd1',rA=two?13:12,rB=k==='cscl'?11:two?8:12;
+ const atoms=A.map(p=>[p,'A']).concat(B.map(p=>[p,'B'])).sort((u,v)=>u[0][2]-v[0][2]||v[0][1]-u[0][1]);
+ atoms.forEach(([p,t])=>{const q=P(...p),r=t==='A'?rA:rB,back=p[2]<0.5;b.add(q[0]-r,q[1]-r);b.add(q[0]+r,q[1]+r);
+  o+=`<circle cx="${q[0].toFixed(1)}" cy="${q[1].toFixed(1)}" r="${r}" fill="${t==='A'?cA:cB}" fill-opacity="${back?0.55:0.95}" stroke="${FS}" stroke-width="1.3"/><circle cx="${(q[0]-r*0.3).toFixed(1)}" cy="${(q[1]-r*0.3).toFixed(1)}" r="${(r*0.28).toFixed(1)}" fill="#fff" opacity=".55"/>`});
+ if(f.edge){const a=P(0,0,1),c=P(1,0,1);o+=svgT((a[0]+c[0])/2,a[1]+30,f.edge,'font-size="15" font-weight="800" font-style="italic" text-anchor="middle"');b.add(a[0],a[1]+34)}
+ if(two&&f.labels){let y=b.y1+22;[['A',cA,f.labels.A],['B',cB,f.labels.B]].forEach(([t,c,l],i)=>{if(!l)return;const x=b.x0+10+i*90;o+=`<circle cx="${x}" cy="${y-5}" r="8" fill="${c}" stroke="${FS}" stroke-width="1.2"/>`+svgT(x+14,y,l,'font-size="14" font-weight="800"');b.add(x+70,y+4)})}
+ const names={sc:'simple cubic: one atom at each of the 8 corners',bcc:'body-centered cubic: atoms at the 8 corners and one at the center of the cube',fcc:'face-centered cubic: atoms at the 8 corners and at the centers of the 6 faces',
+  nacl:'rock-salt cell: larger ions at the 8 corners and 6 face centers, smaller ions at the 12 edge centers and the cube center',cscl:'larger ions at the 8 corners and one smaller ion at the cube center'};
+ const lab=two&&f.labels?' Larger ions: '+plainT(f.labels.A||'')+'; smaller ions: '+plainT(f.labels.B||'')+'.':'';
+ return fbSvg(o,b,f.cap,attrEsc('Cubic unit cell, '+(names[k]||k)+'.'+lab+(f.cap?' '+plainT(f.cap):'')),10)}
+
+/* Hybrid orbitals: f.kind = 'sp' | 'sp2' | 'sp3' | 'sp3d' | 'sp3d2'; f.p = true draws the unhybridized p orbital(s);
+   f.atom = central atom label; f.cap; or f.items */
+function fHybrid(f){if(f.items)return fbMulti(f,fHybrid);const k=f.kind||'sp3',R=62,b=fbBox();let o='';
+ const D={sp:[[1,0,0],[-1,0,0]],sp2:[[0,1,0],[-0.866,-0.5,0],[0.866,-0.5,0]],sp3:[[0,1,0],[-0.943,-0.333,0],[0.471,-0.333,0.816],[0.471,-0.333,-0.816]],
+  sp3d:[[0,1,0],[0,-1,0],[-1,0,0],[0.8,-0.42,0.45],[0.8,0.42,-0.45]],sp3d2:[[0,1,0],[0,-1,0],[0.86,0.42,-0.5],[-0.86,0.42,-0.5],[0.86,-0.42,0.5],[-0.86,-0.42,0.5]]}[k]||[];
+ const flat=k==='sp3d'||k==='sp3d2'; /* these two are given already in the textbook view (axial up/down, equatorial lobes fanned) */
+ const P=k==='sp'&&f.p?[[0,1,0],[0,0,1]]:k==='sp2'&&f.p?[[0,0,1]]:[];
+ /* view: turn the set 32° about the vertical axis, then tip it 18° toward the viewer, so no orbital points straight out of the page */
+ const rot=d=>{if(flat)return d;const a=32*Math.PI/180,c=Math.cos(a),sn=Math.sin(a),x1=d[0]*c+d[2]*sn,z1=-d[0]*sn+d[2]*c,t=18*Math.PI/180,y2=d[1]*Math.cos(t)-z1*Math.sin(t),z2=d[1]*Math.sin(t)+z1*Math.cos(t);return [x1,y2,z2]};
+ const lobe=(d0,len,w,fill,op)=>{const d=rot(d0),s=[d[0],-d[1]],L=Math.hypot(s[0],s[1])||0.001,ux=s[0]/L,uy=s[1]/L,px=-uy,py=ux,l=len*Math.max(0.45,L);
+  const tip=[ux*l,uy*l],c1=[ux*l*0.35+px*w,uy*l*0.35+py*w],c2=[ux*l*1.05+px*w*0.9,uy*l*1.05+py*w*0.9],c3=[ux*l*1.05-px*w*0.9,uy*l*1.05-py*w*0.9],c4=[ux*l*0.35-px*w,uy*l*0.35-py*w];
+  b.add(tip[0]+px*w,tip[1]+py*w);b.add(tip[0]-px*w,tip[1]-py*w);b.add(tip[0]*1.1,tip[1]*1.1);
+  return `<path d="M0 0C${c1[0].toFixed(1)} ${c1[1].toFixed(1)} ${c2[0].toFixed(1)} ${c2[1].toFixed(1)} ${tip[0].toFixed(1)} ${tip[1].toFixed(1)}C${c3[0].toFixed(1)} ${c3[1].toFixed(1)} ${c4[0].toFixed(1)} ${c4[1].toFixed(1)} 0 0Z" fill="${fill}" fill-opacity="${op}" stroke="${FS}" stroke-width="1.4"/>`};
+ const items=[];D.forEach(d=>items.push([rot(d)[2],lobe(d,R,17,'#8fbde6',rot(d)[2]<-0.25?0.5:0.85)+lobe(d.map(v=>-v),R*0.26,8,'#8fbde6',0.35)]));
+ P.forEach(d=>{const z=rot(d)[2];items.push([z,lobe(d,R*0.85,14,'#f2c14e',0.8)]);items.push([-z,lobe(d.map(v=>-v),R*0.85,14,'#f2c14e',0.8)])});
+ items.sort((u,v)=>u[0]-v[0]).forEach(x=>o+=x[1]);
+ o+=`<circle cx="0" cy="0" r="9" fill="#fff" stroke="${FS}" stroke-width="1.6"/>`;if(f.atom)o+=svgT(0,5,f.atom,'font-size="12" font-weight="900" text-anchor="middle"');b.add(-12,-12);b.add(12,12);
+ const lab={sp:'sp',sp2:'sp<sup>2</sup>',sp3:'sp<sup>3</sup>',sp3d:'sp<sup>3</sup>d',sp3d2:'sp<sup>3</sup>d<sup>2</sup>'}[k]||k;
+ b.add(-125,-R-8);b.add(125,R+8); /* same frame for every kind, so drawings side by side share one scale */
+ if(f.legend!==false){const y=b.y1+20;o+=`<rect x="${b.x0}" y="${y-11}" width="13" height="13" fill="#8fbde6" stroke="${FS}"/>`+svgT(b.x0+19,y,'hybrid orbital','font-size="13"');if(P.length)o+=`<rect x="${b.x0+128}" y="${y-11}" width="13" height="13" fill="#f2c14e" stroke="${FS}"/>`+svgT(b.x0+147,y,'unhybridized p','font-size="13"');b.add(b.x0+(P.length?250:120),y+4)}
+ const geo={sp:'two hybrid orbitals 180° apart (linear)',sp2:'three hybrid orbitals 120° apart in a plane (trigonal planar)',sp3:'four hybrid orbitals pointing to the corners of a tetrahedron, about 109.5° apart',sp3d:'five hybrid orbitals in a trigonal bipyramid',sp3d2:'six hybrid orbitals in an octahedron'}[k]||k;
+ return fbSvg(o,b,f.cap,attrEsc('Hybrid orbitals: '+geo+(P.length?'; plus '+P.length+' unhybridized p orbital'+(P.length>1?'s':'')+' perpendicular to them':'')+'.'+(f.cap?' '+plainT(f.cap):'')),10)}
+
+/* VSEPR shape: f.shape = linear | trigonal planar | bent | tetrahedral | trigonal pyramidal | trigonal bipyramidal | seesaw |
+   T-shaped | octahedral | square pyramidal | square planar; f.e = electron groups (needed only for 'bent' 3|4 and 'linear' 2|5);
+   f.center = central atom; f.lig = ligand label or list of labels; f.lp (default true) draws lone pairs; f.angle = text shown; f.cap */
+function fVSEPR(f){if(f.items)return fbMulti(f,fVSEPR);const R=58,b=fbBox();let o='';
+ const sh=(f.shape||'tetrahedral').toLowerCase();
+ /* fixed textbook layouts: [screen angle in degrees, l = in-plane bond, w = wedge, d = dash, p = lone pair] */
+ const LY={'linear':f.e===5?[[90,'l'],[270,'l'],[180,'p'],[320,'p'],[40,'p']]:[[180,'l'],[0,'l']],'trigonal planar':[[90,'l'],[210,'l'],[330,'l']],
+  'bent':f.e===3?[[210,'l'],[330,'l'],[90,'p']]:[[215,'l'],[325,'l'],[48,'p'],[132,'p']],'tetrahedral':[[90,'l'],[205,'l'],[335,'w'],[282,'d']],'trigonal pyramidal':[[90,'p'],[205,'l'],[335,'w'],[282,'d']],
+  'trigonal bipyramidal':[[90,'l'],[270,'l'],[180,'l'],[330,'w'],[30,'d']],'seesaw':[[90,'l'],[270,'l'],[180,'p'],[330,'w'],[30,'d']],'t-shaped':[[90,'l'],[270,'l'],[180,'l'],[320,'p'],[40,'p']],
+  'octahedral':[[90,'l'],[270,'l'],[150,'d'],[30,'d'],[210,'w'],[330,'w']],'square pyramidal':[[90,'l'],[270,'p'],[150,'d'],[30,'d'],[210,'w'],[330,'w']],'square planar':[[90,'p'],[270,'p'],[150,'d'],[30,'d'],[210,'w'],[330,'w']]}[sh]||[[90,'l'],[205,'l'],[335,'w'],[282,'d']];
+ const n=LY.length,nlp=LY.filter(x=>x[1]==='p').length;
+ const ligs=Array.isArray(f.lig)?f.lig:null;let li=0;
+ const C=[0,0],items=[];
+ LY.forEach(([ang,k])=>{const ux=Math.cos(ang*Math.PI/180),uy=-Math.sin(ang*Math.PI/180),z=k==='w'?1:k==='d'?-1:0;
+  if(k==='p'){if(f.lp===false)return;const q=[ux*R*0.55,uy*R*0.55];
+   items.push([0,`<ellipse cx="${q[0].toFixed(1)}" cy="${q[1].toFixed(1)}" rx="${(R*0.32).toFixed(1)}" ry="${(R*0.17).toFixed(1)}" transform="rotate(${(Math.atan2(uy,ux)*180/Math.PI).toFixed(1)} ${q[0].toFixed(1)} ${q[1].toFixed(1)})" fill="#f6e7b8" fill-opacity=".7" stroke="#c9a33a" stroke-width="1.2"/><circle cx="${(q[0]-uy*4).toFixed(1)}" cy="${(q[1]+ux*4).toFixed(1)}" r="2.3" fill="${FS}"/><circle cx="${(q[0]+uy*4).toFixed(1)}" cy="${(q[1]-ux*4).toFixed(1)}" r="2.3" fill="${FS}"/>`]);b.add(q[0]+R*0.33,q[1]+R*0.33);b.add(q[0]-R*0.33,q[1]-R*0.33);return}
+  const p=[ux*R,uy*R];
+  const lab=ligs?ligs[li++]:(f.lig||'X'),x1=C[0]+ux*13,y1=C[1]+uy*13,x2=p[0]-ux*12,y2=p[1]-uy*12;let bond;
+  if(z>0){const w=5.5,px=-uy,py=ux;bond=`<polygon points="${x1.toFixed(1)},${y1.toFixed(1)} ${(x2+px*w).toFixed(1)},${(y2+py*w).toFixed(1)} ${(x2-px*w).toFixed(1)},${(y2-py*w).toFixed(1)}" fill="${FS}"/>`}
+  else if(z<0){bond='';const px=-uy,py=ux;for(let s=1;s<=7;s++){const t=s/7,w=0.8+5*t,cx=x1+(x2-x1)*t,cy=y1+(y2-y1)*t;bond+=`<line x1="${(cx+px*w).toFixed(1)}" y1="${(cy+py*w).toFixed(1)}" x2="${(cx-px*w).toFixed(1)}" y2="${(cy-py*w).toFixed(1)}" stroke="${FS}" stroke-width="1.8"/>`}}
+  else bond=`<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" stroke="${FS}" stroke-width="2.4" stroke-linecap="round"/>`;
+  items.push([z,bond+fbT(p[0],p[1]+6,lab,'font-size="17" text-anchor="middle"')]);b.add(p[0]-16,p[1]-14);b.add(p[0]+16,p[1]+10)});
+ if(f.cap){const hw=String(f.cap).replace(/<[^>]+>/g,'').length*4.3;b.add(-hw,0);b.add(hw,0)}
+ b.add(-R-46,-R-30);b.add(R+46,R+24); /* same frame for every shape, so shapes side by side share one scale */
+ items.sort((u,v)=>u[0]-v[0]).forEach(x=>o+=x[1]);
+ o+=fbT(C[0],C[1]+6,f.center||'A','font-size="18" text-anchor="middle"');b.add(C[0]-14,C[1]-14);b.add(C[0]+14,C[1]+10);
+ if(f.angle){o+=svgT(b.x1+4,C[1]-R*0.6,f.angle,'font-size="13" font-weight="800"');b.add(b.x1+50,C[1]-R*0.6)}
+ const nb=n-nlp,desc=`${sh} shape: central ${plainT(f.center||'atom')} with ${nb} bonded atom${nb>1?'s':''}`+(nlp?` and ${nlp} lone pair${nlp>1?'s':''}`:'')+` (${n} electron groups)`;
+ return fbSvg(o,b,f.cap,attrEsc(desc+'.'+(f.angle?' Angle shown: '+plainT(f.angle)+'.':'')+(f.cap?' '+plainT(f.cap):'')),10)}
+
+const FIG={lattice:fLattice,hybrid:fHybrid,vsepr:fVSEPR,newman:fNewman,chair:fChair,energy:fEnergy,nmr:fNMR,ir:fIR,ms:fMS,cycle:fCycle,path:fPath,table:fTable,eq:fEq,plot:fPlot,mo:fMO,modiag:fMODiag,particles:fParticles,cylinder:fScale,buret:fScale,ruler:fScale,balance:fScale,targets:fTargets,fischer:fFischer,haworth:fHaworth,orbitals:fOrbitals,ptgrid:fPtGrid,cell:fCell,spectrum:fSpectrum,enzyme:fEnzyme};
 function figBlock(fs){if(!fs)return '';return `<span class="figs">${fs.map(f=>{try{return `<span class="fig">${FIG[f.type](f)}</span>`}catch(e){return ''}}).join('')}</span>`}
 /* keep condensed formulas like HC≡C–CH=CH2 or CH3–CH2–OH on one line */
 const noWrapChem=h=>typeof h==='string'?h.replace(/→/g,'<span class="rxar">⟶</span>').replace(/<span class="nw">[\s\S]*?<\/span>|<[^>]+>|(?:[A-Za-z0-9()\[\]]|<\/?su[bp]>)+(?:[–−—=≡-](?:[A-Za-z0-9()\[\]]|<\/?su[bp]>)+)+/g,m=>m.startsWith('<')||!/[A-Za-z]/.test(m.replace(/<[^>]+>/g,''))||m.replace(/<[^>]+>/g,'').length>18?m:`<span class="nw">${m}</span>`):h; /* long hyphenated IUPAC names may wrap at their hyphens on phones */
@@ -1501,8 +1583,8 @@ function finish(revealed){state.done=true;const mine=state.fwId===state.q.id?sta
  stats();renderIntel();if(state.mode==='topic')topicChips()}
 /* Phones: keep figure labels at least 10 px on screen, and hide the floating feedback button while an explanation is on screen. */
 function fitSvgText(root){const small=innerWidth<=700;(root||document).querySelectorAll('svg[viewBox]').forEach(sv=>{const vb=sv.viewBox.baseVal,w=sv.getBoundingClientRect().width;if(!vb||!vb.width||!w)return;const sc=w/vb.width;sv.querySelectorAll('text').forEach(t=>{if(t.dataset.fs0===undefined){if(!small)return;t.dataset.fs0=t.style.fontSize||''}t.style.fontSize=t.dataset.fs0;if(!small)return;const fs=parseFloat(getComputedStyle(t).fontSize);if(fs*sc<10)t.style.fontSize=(10/sc).toFixed(2)+'px'});
- /* enlarged labels can grow past the drawing's frame: widen the viewBox so nothing is clipped (restored on wide screens) */
- if(sv.dataset.vb0===undefined)sv.dataset.vb0=sv.getAttribute('viewBox');if(!small){if(sv.getAttribute('viewBox')!==sv.dataset.vb0)sv.setAttribute('viewBox',sv.dataset.vb0);return}
+ /* enlarged labels can grow past the drawing's frame: widen the viewBox so nothing is clipped (wide screens keep the original frame unless something would be cut off) */
+ if(sv.dataset.vb0===undefined)sv.dataset.vb0=sv.getAttribute('viewBox');if(!small&&sv.getAttribute('viewBox')!==sv.dataset.vb0)sv.setAttribute('viewBox',sv.dataset.vb0); /* on every screen size, a label drawn past the frame widens the frame instead of being cut off */
  try{const v0=sv.dataset.vb0.split(/[\s,]+/).map(Number),bb=sv.getBBox(),x0=Math.min(v0[0],bb.x-2),y0=Math.min(v0[1],bb.y-2),x1=Math.max(v0[0]+v0[2],bb.x+bb.width+2),y1=Math.max(v0[1]+v0[3],bb.y+bb.height+2);
   const nv=[x0,y0,x1-x0,y1-y0].map(n=>+n.toFixed(1)).join(' ');if(nv!==sv.getAttribute('viewBox')&&(x1-x0>v0[2]+1||y1-y0>v0[3]+1))sv.setAttribute('viewBox',nv)}catch(e){}})}
 let fitQueued=false;function fitSoon(){if(fitQueued)return;fitQueued=true;requestAnimationFrame(()=>{fitQueued=false;fitSvgText(document);fbReading()})}
