@@ -1,0 +1,114 @@
+[
+ {
+  "id": "3A-563",
+  "field": "c[3]",
+  "old": "0.118 mol I",
+  "new": "1.67 g I",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-563",
+  "field": "x[3]",
+  "old": "This stops at moles of iodine. One more step gives grams.",
+  "new": "This divides by 3 instead of multiplying. Each iohexol molecule carries three iodine atoms, so there are three times as many moles of I as moles of iohexol.",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-626",
+  "field": "c[3]",
+  "old": "14.4 g C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>",
+  "new": "0.0133 mol C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-626",
+  "field": "x[3]",
+  "old": "This goes one step too far, multiplying by the molar mass of glucose (180.156 g/mol). The question asks for moles.",
+  "new": "This applies the 1 : 6 ratio twice, once for CO<sub>2</sub> and once for O<sub>2</sub>. Only glucose and CO<sub>2</sub> belong in this ratio.",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-628",
+  "field": "c[3]",
+  "old": "0.833 mol C<sub>2</sub>H<sub>5</sub>OH",
+  "new": "150. g C<sub>2</sub>H<sub>5</sub>OH",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-628",
+  "field": "x[3]",
+  "old": "This stops at moles of ethanol. One more step, with the molar mass, gives grams.",
+  "new": "This uses glucose’s molar mass for ethanol. A size check catches it: 75.0 g of glucose cannot make 150. g of one product.",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-634",
+  "field": "c[2]",
+  "old": "0.150 mol CO<sub>2</sub>",
+  "new": "6.60 L CO<sub>2</sub>",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-634",
+  "field": "x[2]",
+  "old": "This stops at moles of CO<sub>2</sub>, but the question asks for a volume. One more step: moles &times; (22.4 L / 1 mol) at STP.",
+  "new": "6.60 is the mass of CO<sub>2</sub> in grams (moles × 44.01 g/mol). At STP, moles × 22.4 L/mol gives the volume.",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-635",
+  "field": "c[3]",
+  "old": "0.140 mol CO<sub>2</sub>",
+  "new": "6.85 L CO<sub>2</sub>",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-635",
+  "field": "x[3]",
+  "old": "This stops at moles of CO<sub>2</sub>, but the question asks for a volume. One more step: moles &times; (24.5 L / 1 mol) at these conditions.",
+  "new": "This counts the 2 ethanol as gas too. Ethanol stays dissolved (aq), so only the 2 CO<sub>2</sub> count.",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-653",
+  "field": "c[1]",
+  "old": "40.4 mol CH<sub>4</sub>",
+  "new": "5.78 × 10<sup>5</sup> g CH<sub>4</sub>",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-653",
+  "field": "x[1]",
+  "old": "This stops at moles of methane, but the question asks for a mass. One more step: multiply by the molar mass, 16.043 g/mol.",
+  "new": "This multiplies kJ by the molar mass and skips the 890.3 kJ per mole. More than half a tonne of methane is far too much.",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-740",
+  "field": "c[2]",
+  "old": "0.3958 g",
+  "new": "20.68%",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-740",
+  "field": "x[2]",
+  "old": "This is the mass of aspirin; the question asks for the percent of the sample.",
+  "new": "This uses the molar mass of NaOH (40.00 g/mol). The grams you need are grams of aspirin, so use 180.159 g/mol.",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-421",
+  "field": "c[3]",
+  "old": "0.870 mL/g",
+  "new": "0.0870 g/mL",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ },
+ {
+  "id": "3A-421",
+  "field": "x[3]",
+  "old": "The number is right but the unit is inverted; mass &divide; volume gives g/mL.",
+  "new": "This is a decimal slip. 17.4 g in 20.0 mL is close to 1 g/mL, not 0.1 g/mL.",
+  "why": "Same-unit distractor from a real mistake (instructor: on real exams wrong choices fail by size, not by unit)"
+ }
+]

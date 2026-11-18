@@ -1,0 +1,30 @@
+[
+ {
+  "id": "3A-810",
+  "field": "c[1]",
+  "old": "<sup>0</sup><sub>&minus;1</sub>e, a beta particle",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>&minus;1</sub></span>e</span>, a beta particle",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-811",
+  "field": "q",
+  "old": "Iodine-123, used for thyroid imaging, decays by electron capture. What is the product? <span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>53</sub></span>I</span> + <sup>0</sup><sub>&minus;1</sub>e &rarr; ?",
+  "new": "Iodine-123, used for thyroid imaging, decays by electron capture. What is the product? <span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>53</sub></span>I</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>&minus;1</sub></span>e</span> &rarr; ?",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-813",
+  "field": "q",
+  "old": "Chlorine-36 helps date very old groundwater. What kind of decay is this? <span class=\"nw\"><span class=\"ss pre\"><sup>36</sup><sub>17</sub></span>Cl</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>36</sup><sub>18</sub></span>Ar</span> + <sup>0</sup><sub>&minus;1</sub>e",
+  "new": "Chlorine-36 helps date very old groundwater. What kind of decay is this? <span class=\"nw\"><span class=\"ss pre\"><sup>36</sup><sub>17</sub></span>Cl</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>36</sup><sub>18</sub></span>Ar</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>&minus;1</sub></span>e</span>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-813",
+  "field": "w",
+  "old": "The product <sup>0</sup><sub>&minus;1</sub>e and Z + 1 with A unchanged: <b>beta decay</b>.",
+  "new": "The product <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>&minus;1</sub></span>e</span> and Z + 1 with A unchanged: <b>beta decay</b>.",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ }
+]

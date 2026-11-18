@@ -56,4 +56,7 @@ ok(G.stillWeak({ last: 0, r: 0, w: 1, fx: 0 }), 'missed is weak');
 ok(G.stillWeak({ last: 1, r: 1, w: 1, fx: 1 }), 'one fix still weak');
 ok(!G.stillWeak({ last: 1, r: 2, w: 1, fx: 2 }), 'two fixes clears it');
 ok(!G.stillWeak({ last: 1, r: 1, w: 1 }), 'old records without fx stay cleared');
+/* 4. nuclide symbols are stacked (mass number directly above atomic number) */
+{ const r = require('child_process').spawnSync(process.execPath, [path.join(__dirname, 'audit-2026-11-18-acs', 'stack_nuclides.js'), '--check'], { encoding: 'utf8' });
+  ok(r.status === 0, 'nuclide symbols not stacked: run node tools/audit-2026-11-18-acs/stack_nuclides.js and apply its fix file\n' + r.stdout); }
 console.log(`test_exam: ${checks} checks passed (${N} exams per course/exam/length)`);

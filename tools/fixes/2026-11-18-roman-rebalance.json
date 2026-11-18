@@ -1,0 +1,1003 @@
+[
+ {
+  "id": "1B-582",
+  "field": "q",
+  "old": "For the reaction 2 NO(g) + O<sub>2</sub>(g) → 2 NO<sub>2</sub>(g), ΔH° = −114.1 kJ and ΔS° = −146.5 J K<sup>−1</sup>. Assume both are independent of temperature. Which statements are true?<br>I. The reaction is spontaneous under standard conditions at 298 K.<br>II. Raising the temperature makes ΔG° more negative.<br>III. Raising the temperature decreases the equilibrium constant K.",
+  "new": "For the reaction 2 NO(g) + O<sub>2</sub>(g) → 2 NO<sub>2</sub>(g), ΔH° = −114.1 kJ and ΔS° = −146.5 J K<sup>−1</sup>. Assume both are independent of temperature. Which statements are true?<br>I. The reaction is spontaneous under standard conditions at 298 K.<br>II. Raising the temperature decreases the equilibrium constant K.<br>III. Raising the temperature makes ΔG° more negative.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-582",
+  "field": "c[0]",
+  "old": "I and III only",
+  "new": "I and II only",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-582",
+  "field": "c[2]",
+  "old": "I and II only",
+  "new": "I and III only",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-582",
+  "field": "w",
+  "old": "<b>I and III only.</b> At 298 K, ΔG° = −114.1 kJ − (298 K)(−0.1465 kJ K<sup>−1</sup>) = −70.4 kJ, so the reaction is spontaneous (I true). Because ΔS° &lt; 0, the −TΔS° term is positive and grows with T, so ΔG° becomes less negative, not more (II false). A less negative ΔG° means a smaller K, as Le Châtelier's principle predicts for heating an exothermic reaction (III true).",
+  "new": "<b>I and II only.</b> At 298 K, ΔG° = −114.1 kJ − (298 K)(−0.1465 kJ K<sup>−1</sup>) = −70.4 kJ, so the reaction is spontaneous (I true). Because ΔS° &lt; 0, the −TΔS° term is positive and grows with T, so ΔG° becomes less negative, not more (III false). A less negative ΔG° means a smaller K, as Le Châtelier's principle predicts for heating an exothermic reaction (II true).",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-582",
+  "field": "x[1]",
+  "old": "Statement III is true. A less negative ΔG° gives a smaller K, as expected when an exothermic reaction is heated.",
+  "new": "Statement II is true. A less negative ΔG° gives a smaller K, as expected when an exothermic reaction is heated.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-582",
+  "field": "x[2]",
+  "old": "Statement II is false. With ΔS° negative, the −TΔS° term is positive and grows as T rises.",
+  "new": "Statement III is false. With ΔS° negative, the −TΔS° term is positive and grows as T rises.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-569",
+  "field": "q",
+  "old": "A buffer contains 0.20 M HF and 0.20 M NaF (pK<sub>a</sub> of HF = 3.17). Which statements are true?<br>I. Diluting the buffer tenfold with water raises its pH by 1 unit.<br>II. The pH of the buffer is 3.17.<br>III. Adding a small amount of NaOH converts some F<sup>−</sup> into HF.",
+  "new": "A buffer contains 0.20 M HF and 0.20 M NaF (pK<sub>a</sub> of HF = 3.17). Which statements are true?<br>I. Diluting the buffer tenfold with water raises its pH by 1 unit.<br>II. Adding a small amount of NaOH converts some F<sup>−</sup> into HF.<br>III. The pH of the buffer is 3.17.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-569",
+  "field": "c[0]",
+  "old": "II only",
+  "new": "III only",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-569",
+  "field": "c[1]",
+  "old": "I and II only",
+  "new": "I and III only",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-569",
+  "field": "w",
+  "old": "<b>II only.</b> With equal [HF] and [F<sup>−</sup>], pH = pK<sub>a</sub> + log(1) = 3.17 (II true). Dilution lowers both concentrations by the same factor, so their ratio, and the pH, stay about the same (I false). Added OH<sup>−</sup> reacts with the acid: HF + OH<sup>−</sup> → F<sup>−</sup> + H<sub>2</sub>O, which converts HF into F<sup>−</sup>, not the other way (III false).",
+  "new": "<b>III only.</b> With equal [HF] and [F<sup>−</sup>], pH = pK<sub>a</sub> + log(1) = 3.17 (III true). Dilution lowers both concentrations by the same factor, so their ratio, and the pH, stay about the same (I false). Added OH<sup>−</sup> reacts with the acid: HF + OH<sup>−</sup> → F<sup>−</sup> + H<sub>2</sub>O, which converts HF into F<sup>−</sup>, not the other way (II false).",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-569",
+  "field": "x[2]",
+  "old": "Statement III is false. A base reacts with the acid part of the buffer, so OH⁻ uses up HF and makes more F⁻.",
+  "new": "Statement II is false. A base reacts with the acid part of the buffer, so OH⁻ uses up HF and makes more F⁻.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-569",
+  "field": "x[3]",
+  "old": "Statement III is false. OH⁻ reacts with HF, so it makes F⁻ rather than using it up.",
+  "new": "Statement II is false. OH⁻ reacts with HF, so it makes F⁻ rather than using it up.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-492",
+  "field": "q",
+  "old": "The system shown is at equilibrium in a closed container. Which changes would increase the amount of NH<sub>3</sub> present once equilibrium is re-established?<br>I. Lowering the temperature<br>II. Adding a catalyst<br>III. Adding He(g) while keeping the volume constant",
+  "new": "The system shown is at equilibrium in a closed container. Which changes would increase the amount of NH<sub>3</sub> present once equilibrium is re-established?<br>I. Adding a catalyst<br>II. Adding He(g) while keeping the volume constant<br>III. Lowering the temperature",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-492",
+  "field": "c[0]",
+  "old": "I only",
+  "new": "III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-492",
+  "field": "c[1]",
+  "old": "I and II only",
+  "new": "I and III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-492",
+  "field": "c[2]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-492",
+  "field": "w",
+  "old": "<b>I only.</b> The forward reaction is exothermic, so lowering the temperature increases K and shifts the equilibrium toward NH<sub>3</sub> (I true). A catalyst speeds up the forward and reverse reactions equally, so it does not change the equilibrium amounts (II false). Adding He at constant volume does not change the partial pressures of N<sub>2</sub>, H<sub>2</sub> or NH<sub>3</sub>, so Q still equals K and nothing shifts (III false).",
+  "new": "<b>III only.</b> The forward reaction is exothermic, so lowering the temperature increases K and shifts the equilibrium toward NH<sub>3</sub> (III true). A catalyst speeds up the forward and reverse reactions equally, so it does not change the equilibrium amounts (I false). Adding He at constant volume does not change the partial pressures of N<sub>2</sub>, H<sub>2</sub> or NH<sub>3</sub>, so Q still equals K and nothing shifts (II false).",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-492",
+  "field": "x[1]",
+  "old": "Statement II is false. A catalyst helps the system reach equilibrium faster but does not change where equilibrium lies.",
+  "new": "Statement I is false. A catalyst helps the system reach equilibrium faster but does not change where equilibrium lies.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-492",
+  "field": "x[2]",
+  "old": "Statement III is false. At constant volume an inert gas does not change the partial pressures of the reacting gases, so Q is unchanged.",
+  "new": "Statement II is false. At constant volume an inert gas does not change the partial pressures of the reacting gases, so Q is unchanged.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-492",
+  "field": "x[3]",
+  "old": "Statement II is false. A catalyst speeds up the forward and reverse reactions equally, so the equilibrium amounts do not change.",
+  "new": "Statement I is false. A catalyst speeds up the forward and reverse reactions equally, so the equilibrium amounts do not change.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-583",
+  "field": "q",
+  "old": "A galvanic cell is built from a Zn electrode in 1 M Zn(NO<sub>3</sub>)<sub>2</sub> and a Ag electrode in 1 M AgNO<sub>3</sub>, joined by a wire and a KNO<sub>3</sub> salt bridge. Use the standard reduction potentials in the table. Which statements are true?<br>I. Electrons flow through the wire from the zinc electrode to the silver electrode.<br>II. The mass of the silver electrode decreases as the cell operates.<br>III. NO<sub>3</sub><sup>−</sup> ions from the salt bridge move toward the silver compartment.",
+  "new": "A galvanic cell is built from a Zn electrode in 1 M Zn(NO<sub>3</sub>)<sub>2</sub> and a Ag electrode in 1 M AgNO<sub>3</sub>, joined by a wire and a KNO<sub>3</sub> salt bridge. Use the standard reduction potentials in the table. Which statements are true?<br>I. The mass of the silver electrode decreases as the cell operates.<br>II. NO<sub>3</sub><sup>−</sup> ions from the salt bridge move toward the silver compartment.<br>III. Electrons flow through the wire from the zinc electrode to the silver electrode.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-583",
+  "field": "c[0]",
+  "old": "I only",
+  "new": "III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-583",
+  "field": "c[1]",
+  "old": "I and II only",
+  "new": "I and III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-583",
+  "field": "c[2]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-583",
+  "field": "c[3]",
+  "old": "II and III only",
+  "new": "I and II only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-583",
+  "field": "w",
+  "old": "<b>I only.</b> Zn (E° = −0.76 V) is oxidized at the anode and Ag<sup>+</sup> (E° = +0.80 V) is reduced at the cathode, so electrons travel through the wire from Zn to Ag (I true). Silver metal plates out on the cathode, so its mass increases (II false). Zn<sup>2+</sup> ions build up in the anode compartment, so NO<sub>3</sub><sup>−</sup> ions move toward the zinc compartment, not the silver one (III false).",
+  "new": "<b>III only.</b> Zn (E° = −0.76 V) is oxidized at the anode and Ag<sup>+</sup> (E° = +0.80 V) is reduced at the cathode, so electrons travel through the wire from Zn to Ag (III true). Silver metal plates out on the cathode, so its mass increases (I false). Zn<sup>2+</sup> ions build up in the anode compartment, so NO<sub>3</sub><sup>−</sup> ions move toward the zinc compartment, not the silver one (II false).",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-583",
+  "field": "x[1]",
+  "old": "Statement II is false. Ag⁺ ions are reduced to silver metal, which deposits on the silver electrode.",
+  "new": "Statement I is false. Ag⁺ ions are reduced to silver metal, which deposits on the silver electrode.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-583",
+  "field": "x[2]",
+  "old": "Statement III is false. Anions migrate toward the compartment where positive ions are being produced.",
+  "new": "Statement II is false. Anions migrate toward the compartment where positive ions are being produced.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "1B-583",
+  "field": "x[3]",
+  "old": "Statement II is false. The silver electrode is where Ag⁺ is reduced, so silver metal is added to it.",
+  "new": "Statement I is false. The silver electrode is where Ag⁺ is reduced, so silver metal is added to it.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-524",
+  "field": "q",
+  "old": "Which changes would <b>increase</b> the rate of S<sub>N</sub>1 solvolysis of 2-chloro-2-methylpropane in ethanol?<br>I. Using 50% aqueous ethanol as the solvent<br>II. Adding 0.1 M NaN<sub>3</sub>, a much stronger nucleophile than ethanol<br>III. Replacing the chloride with bromide (2-bromo-2-methylpropane)",
+  "new": "Which changes would <b>increase</b> the rate of S<sub>N</sub>1 solvolysis of 2-chloro-2-methylpropane in ethanol?<br>I. Adding 0.1 M NaN<sub>3</sub>, a much stronger nucleophile than ethanol<br>II. Using 50% aqueous ethanol as the solvent<br>III. Replacing the chloride with bromide (2-bromo-2-methylpropane)",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-524",
+  "field": "c[0]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-524",
+  "field": "c[2]",
+  "old": "II only",
+  "new": "I only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-524",
+  "field": "c[3]",
+  "old": "I only",
+  "new": "II only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-524",
+  "field": "w",
+  "old": "The S<sub>N</sub>1 rate depends only on ionization. I: water is more polar and a better hydrogen-bond donor than ethanol; it stabilizes the developing carbocation and chloride, so ionization is faster. III: Br<sup>−</sup> is a weaker base and better leaving group than Cl<sup>−</sup>, so the C–Br bond ionizes faster. II: the nucleophile is not in the rate law, so adding azide changes which product forms (some tert-butyl azide) but not how fast the chloride ionizes. <b>I and III only</b>.",
+  "new": "The S<sub>N</sub>1 rate depends only on ionization. II: water is more polar and a better hydrogen-bond donor than ethanol; it stabilizes the developing carbocation and chloride, so ionization is faster. III: Br<sup>−</sup> is a weaker base and better leaving group than Cl<sup>−</sup>, so the C–Br bond ionizes faster. I: the nucleophile is not in the rate law, so adding azide changes which product forms (some tert-butyl azide) but not how fast the chloride ionizes. <b>II and III only</b>.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-524",
+  "field": "x[1]",
+  "old": "II does not raise the rate: any nucleophile, azide included, reacts only after the rate-determining ionization.",
+  "new": "I does not raise the rate: any nucleophile, azide included, reacts only after the rate-determining ionization.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-524",
+  "field": "x[2]",
+  "old": "Adding a stronger nucleophile is the S<sub>N</sub>2 lever; S<sub>N</sub>1 is zero order in the nucleophile, and I and III do speed ionization.",
+  "new": "Adding a stronger nucleophile is the S<sub>N</sub>2 lever; S<sub>N</sub>1 is zero order in the nucleophile, and II and III do speed ionization.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-524",
+  "field": "x[3]",
+  "old": "A better leaving group also speeds the rate-determining ionization, so III belongs with I.",
+  "new": "A better leaving group also speeds the rate-determining ionization, so III belongs with II.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-487",
+  "field": "q",
+  "old": "Consider the acetate ion.<br>I. The two C–O bonds have the same length.<br>II. Each oxygen carries about half of the negative charge.<br>III. The ion rapidly flips back and forth between its two resonance contributors.<br>Which statements are true?",
+  "new": "Consider the acetate ion.<br>I. The ion rapidly flips back and forth between its two resonance contributors.<br>II. The two C–O bonds have the same length.<br>III. Each oxygen carries about half of the negative charge.<br>Which statements are true?",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-487",
+  "field": "c[0]",
+  "old": "I and II only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-487",
+  "field": "c[1]",
+  "old": "I only",
+  "new": "II only",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-487",
+  "field": "c[2]",
+  "old": "II and III only",
+  "new": "I and III only",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-487",
+  "field": "w",
+  "old": "Acetate has two equivalent contributors, so the real ion is their average: both C–O bonds are equal (about 1.26 Å, between C=O and C–O) and each oxygen carries about −½. Statement III describes resonance incorrectly: contributors are not separate species interconverting; the hybrid exists all the time. Answer: <b>I and II only</b>.",
+  "new": "Acetate has two equivalent contributors, so the real ion is their average: both C–O bonds are equal (about 1.26 Å, between C=O and C–O) and each oxygen carries about −½. Statement I describes resonance incorrectly: contributors are not separate species interconverting; the hybrid exists all the time. Answer: <b>II and III only</b>.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-487",
+  "field": "x[1]",
+  "old": "II is also true: equivalent contributors share the charge equally, so each O is about −½.",
+  "new": "III is also true: equivalent contributors share the charge equally, so each O is about −½.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-487",
+  "field": "x[2]",
+  "old": "III is the classic misconception; the ion never exists as either contributor, so nothing flips.",
+  "new": "I is the classic misconception; the ion never exists as either contributor, so nothing flips.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-487",
+  "field": "x[3]",
+  "old": "III is false; resonance contributors are imaginary pictures, and the actual ion is always the hybrid.",
+  "new": "I is false; resonance contributors are imaginary pictures, and the actual ion is always the hybrid.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-905",
+  "field": "q",
+  "old": "Which statements about the compound shown are correct?<br>I. The alcohol is secondary.<br>II. The amine is secondary.<br>III. The chlorine is bonded to a primary carbon.",
+  "new": "Which statements about the compound shown are correct?<br>I. The amine is secondary.<br>II. The alcohol is secondary.<br>III. The chlorine is bonded to a primary carbon.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-905",
+  "field": "c[0]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-905",
+  "field": "c[1]",
+  "old": "I only",
+  "new": "II only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-905",
+  "field": "w",
+  "old": "I is true: the C–OH carbon is bonded to two carbons (CH<sub>3</sub> and CH<sub>2</sub>), so the alcohol is secondary. II is false: the nitrogen is bonded to three carbons (the CH<sub>2</sub> on each side and a CH<sub>3</sub>) and has no N–H, so it is a tertiary amine. III is true: the C–Cl carbon is bonded to only one other carbon, so it is a primary alkyl chloride. Answer: <b>I and III only</b>.",
+  "new": "II is true: the C–OH carbon is bonded to two carbons (CH<sub>3</sub> and CH<sub>2</sub>), so the alcohol is secondary. I is false: the nitrogen is bonded to three carbons (the CH<sub>2</sub> on each side and a CH<sub>3</sub>) and has no N–H, so it is a tertiary amine. III is true: the C–Cl carbon is bonded to only one other carbon, so it is a primary alkyl chloride. Answer: <b>II and III only</b>.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-905",
+  "field": "x[2]",
+  "old": "Statement II is false: amines are classified by the number of carbons on nitrogen, and this N has three, so it is tertiary.",
+  "new": "Statement I is false: amines are classified by the number of carbons on nitrogen, and this N has three, so it is tertiary.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-905",
+  "field": "x[3]",
+  "old": "Statement I is also true: the carbinol carbon carries a CH<sub>3</sub> and a CH<sub>2</sub>, two carbons, so the alcohol is secondary.",
+  "new": "Statement II is also true: the carbinol carbon carries a CH<sub>3</sub> and a CH<sub>2</sub>, two carbons, so the alcohol is secondary.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-271",
+  "field": "q",
+  "old": "Which statements about the reaction shown in this energy diagram are true?<br>I. There are two intermediates.<br>II. The overall reaction is endothermic.<br>III. The second step is rate-determining.",
+  "new": "Which statements about the reaction shown in this energy diagram are true?<br>I. The overall reaction is endothermic.<br>II. There are two intermediates.<br>III. The second step is rate-determining.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-271",
+  "field": "c[0]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-271",
+  "field": "c[1]",
+  "old": "I only",
+  "new": "II only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-271",
+  "field": "c[3]",
+  "old": "II and III only",
+  "new": "I and III only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-271",
+  "field": "w",
+  "old": "There are three peaks (transition states) and two valleys between them (energies 5 and 9): two intermediates, so I is true. Products lie below reactants, so the reaction is exothermic and II is false. The highest peak (18) is the second transition state, so step 2 is rate-determining and III is true. <b>I and III only</b>.",
+  "new": "There are three peaks (transition states) and two valleys between them (energies 5 and 9): two intermediates, so II is true. Products lie below reactants, so the reaction is exothermic and I is false. The highest peak (18) is the second transition state, so step 2 is rate-determining and III is true. <b>II and III only</b>.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-271",
+  "field": "x[2]",
+  "old": "Statement II is false: the products end below the reactants, so the overall reaction is exothermic.",
+  "new": "Statement I is false: the products end below the reactants, so the overall reaction is exothermic.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-271",
+  "field": "x[3]",
+  "old": "Statement I is true and II is false; the products lie below the reactants.",
+  "new": "Statement II is true and I is false; the products lie below the reactants.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-1033",
+  "field": "q",
+  "old": "(Z)-But-2-ene is converted to an epoxide in two steps: 1. Br<sub>2</sub>, H<sub>2</sub>O; 2. NaOH. Which statements are correct?<br>I. Step 1 adds Br and OH anti to each other.<br>II. The epoxide formed is trans-2,3-dimethyloxirane.<br>III. In step 2 the alkoxide displaces bromide with inversion at the carbon that held Br.",
+  "new": "(Z)-But-2-ene is converted to an epoxide in two steps: 1. Br<sub>2</sub>, H<sub>2</sub>O; 2. NaOH. Which statements are correct?<br>I. The epoxide formed is trans-2,3-dimethyloxirane.<br>II. Step 1 adds Br and OH anti to each other.<br>III. In step 2 the alkoxide displaces bromide with inversion at the carbon that held Br.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-1033",
+  "field": "c[0]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-1033",
+  "field": "w",
+  "old": "I is true: water opens the bromonium ion from the back, so Br and OH add anti. III is true: NaOH deprotonates the OH, and the alkoxide displaces bromide intramolecularly by backside attack, which needs O and Br anti and inverts that carbon. II is false: anti addition followed by one inversion is net syn, so the cis relationship of the methyls is kept and the product is cis-2,3-dimethyloxirane (meso), the same as from <i>m</i>CPBA. Answer: <b>I and III only</b>.",
+  "new": "II is true: water opens the bromonium ion from the back, so Br and OH add anti. III is true: NaOH deprotonates the OH, and the alkoxide displaces bromide intramolecularly by backside attack, which needs O and Br anti and inverts that carbon. I is false: anti addition followed by one inversion is net syn, so the cis relationship of the methyls is kept and the product is cis-2,3-dimethyloxirane (meso), the same as from <i>m</i>CPBA. Answer: <b>II and III only</b>.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-1033",
+  "field": "x[1]",
+  "old": "This accepts II. Anti addition plus an inversion cancel out, so the Z alkene gives the cis epoxide.",
+  "new": "This accepts I. Anti addition plus an inversion cancel out, so the Z alkene gives the cis epoxide.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-1033",
+  "field": "x[2]",
+  "old": "This rejects I, but halohydrin formation is an anti addition via the bridged bromonium ion.",
+  "new": "This rejects II, but halohydrin formation is an anti addition via the bridged bromonium ion.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-1033",
+  "field": "x[3]",
+  "old": "This accepts II. The two stereochemical steps cancel, so the epoxide keeps the cis geometry of the alkene.",
+  "new": "This accepts I. The two stereochemical steps cancel, so the epoxide keeps the cis geometry of the alkene.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-797",
+  "field": "q",
+  "old": "The Fischer projection shows (<i>R</i>)-glyceraldehyde. Which operations on this drawing give a Fischer projection of the <b>same</b> compound?<br>I. Rotating the whole projection 180° in the plane of the page.<br>II. Rotating the whole projection 90° in the plane of the page.<br>III. Swapping the positions of two groups, then swapping two groups a second time.",
+  "new": "The Fischer projection shows (<i>R</i>)-glyceraldehyde. Which operations on this drawing give a Fischer projection of the <b>same</b> compound?<br>I. Rotating the whole projection 180° in the plane of the page.<br>II. Swapping the positions of two groups, then swapping two groups a second time.<br>III. Rotating the whole projection 90° in the plane of the page.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-797",
+  "field": "c[0]",
+  "old": "I and III only",
+  "new": "I and II only",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-797",
+  "field": "c[2]",
+  "old": "III only",
+  "new": "II only",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-797",
+  "field": "w",
+  "old": "I is true: a 180° turn keeps horizontal groups horizontal (toward the viewer) and vertical groups vertical, so the configuration is unchanged. <br>II is false: a 90° turn moves the groups that pointed toward you into vertical positions (now read as pointing away), which inverts the center and gives the drawing of (<i>S</i>)-glyceraldehyde. <br>III is true: each swap of two groups inverts the configuration, so two swaps restore it. <br>Answer: <b>I and III only</b>.",
+  "new": "I is true: a 180° turn keeps horizontal groups horizontal (toward the viewer) and vertical groups vertical, so the configuration is unchanged. <br>III is false: a 90° turn moves the groups that pointed toward you into vertical positions (now read as pointing away), which inverts the center and gives the drawing of (<i>S</i>)-glyceraldehyde. <br>II is true: each swap of two groups inverts the configuration, so two swaps restore it. <br>Answer: <b>I and II only</b>.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-797",
+  "field": "x[1]",
+  "old": "III is also true: one swap gives the enantiomer, and a second swap inverts it back to the original.",
+  "new": "II is also true: one swap gives the enantiomer, and a second swap inverts it back to the original.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-797",
+  "field": "x[3]",
+  "old": "II is false: a 90° rotation in the plane turns a Fischer projection into its enantiomer.",
+  "new": "III is false: a 90° rotation in the plane turns a Fischer projection into its enantiomer.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-930",
+  "field": "q",
+  "old": "Which statements about ring strain are correct?<br>I. Cyclopropane has both angle strain (60° C–C–C angles) and torsional strain (all C–H bonds on adjacent carbons eclipsed).<br>II. In chair cyclohexane, the C–H bonds on adjacent carbons are eclipsed.<br>III. Cyclopentane puckers into an envelope mainly to relieve torsional strain, even though this slightly changes its C–C–C angles.",
+  "new": "Which statements about ring strain are correct?<br>I. In chair cyclohexane, the C–H bonds on adjacent carbons are eclipsed.<br>II. Cyclopropane has both angle strain (60° C–C–C angles) and torsional strain (all C–H bonds on adjacent carbons eclipsed).<br>III. Cyclopentane puckers into an envelope mainly to relieve torsional strain, even though this slightly changes its C–C–C angles.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-930",
+  "field": "c[0]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-930",
+  "field": "c[1]",
+  "old": "I only",
+  "new": "II only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-930",
+  "field": "c[2]",
+  "old": "II and III only",
+  "new": "I and III only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-930",
+  "field": "w",
+  "old": "I is true: a planar three-membered ring forces 60° angles and eclipses every pair of adjacent C–H bonds. II is false: in the chair every C–C bond is perfectly staggered and the angles are about 111°, so it is nearly strain-free. III is true: a flat pentagon would have ideal-looking 108° angles but ten eclipsed C–H pairs; folding one carbon out of the plane relieves much of that torsional strain. <b>I and III only</b>.",
+  "new": "II is true: a planar three-membered ring forces 60° angles and eclipses every pair of adjacent C–H bonds. I is false: in the chair every C–C bond is perfectly staggered and the angles are about 111°, so it is nearly strain-free. III is true: a flat pentagon would have ideal-looking 108° angles but ten eclipsed C–H pairs; folding one carbon out of the plane relieves much of that torsional strain. <b>II and III only</b>.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-930",
+  "field": "x[2]",
+  "old": "II is false: all bonds in chair cyclohexane are staggered; eclipsing occurs in the boat, not the chair.",
+  "new": "I is false: all bonds in chair cyclohexane are staggered; eclipsing occurs in the boat, not the chair.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-930",
+  "field": "x[3]",
+  "old": "II is false: the chair has no eclipsed bonds.",
+  "new": "I is false: the chair has no eclipsed bonds.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-824",
+  "field": "q",
+  "old": "Which methods give <i>tert</i>-butyl ethyl ether, (CH<sub>3</sub>)<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub>, as the main product?<br>I. (CH<sub>3</sub>)<sub>3</sub>CO<sup>−</sup> K<sup>+</sup> + CH<sub>3</sub>CH<sub>2</sub>Br<br>II. CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> Na<sup>+</sup> + (CH<sub>3</sub>)<sub>3</sub>CBr<br>III. 2-Methylpropene + CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> Na<sup>+</sup> in ethanol",
+  "new": "Which methods give <i>tert</i>-butyl ethyl ether, (CH<sub>3</sub>)<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub>, as the main product?<br>I. CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> Na<sup>+</sup> + (CH<sub>3</sub>)<sub>3</sub>CBr<br>II. 2-Methylpropene + CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> Na<sup>+</sup> in ethanol<br>III. (CH<sub>3</sub>)<sub>3</sub>CO<sup>−</sup> K<sup>+</sup> + CH<sub>3</sub>CH<sub>2</sub>Br",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-824",
+  "field": "c[0]",
+  "old": "I only",
+  "new": "III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-824",
+  "field": "c[1]",
+  "old": "I and II only",
+  "new": "I and III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-824",
+  "field": "c[2]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-824",
+  "field": "c[3]",
+  "old": "II only",
+  "new": "I only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-824",
+  "field": "w",
+  "old": "I works: this is a Williamson ether synthesis with the alkyl group on the primary halide, so S<sub>N</sub>2 at the unhindered CH<sub>2</sub> gives the ether. II fails: S<sub>N</sub>2 at a tertiary carbon is impossible, and ethoxide acts as a base, so E2 gives 2-methylpropene. III fails: an unactivated alkene is electron-rich and does not react with a nucleophile such as ethoxide (adding ethanol across the C=C needs an electrophile, for example H<sup>+</sup> or Hg<sup>2+</sup>). <b>I only</b>.",
+  "new": "III works: this is a Williamson ether synthesis with the alkyl group on the primary halide, so S<sub>N</sub>2 at the unhindered CH<sub>2</sub> gives the ether. I fails: S<sub>N</sub>2 at a tertiary carbon is impossible, and ethoxide acts as a base, so E2 gives 2-methylpropene. II fails: an unactivated alkene is electron-rich and does not react with a nucleophile such as ethoxide (adding ethanol across the C=C needs an electrophile, for example H<sup>+</sup> or Hg<sup>2+</sup>). <b>III only</b>.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-824",
+  "field": "x[1]",
+  "old": "II fails: a tertiary bromide with a strong base gives E2 (2-methylpropene), not substitution.",
+  "new": "I fails: a tertiary bromide with a strong base gives E2 (2-methylpropene), not substitution.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-824",
+  "field": "x[2]",
+  "old": "III fails: an alkoxide cannot add to an ordinary alkene; the C=C is a nucleophile, not an electrophile.",
+  "new": "II fails: an alkoxide cannot add to an ordinary alkene; the C=C is a nucleophile, not an electrophile.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-824",
+  "field": "x[3]",
+  "old": "This reverses the Williamson rule: the tertiary piece must be the alkoxide and the halide must be primary, so I works and II fails.",
+  "new": "This reverses the Williamson rule: the tertiary piece must be the alkoxide and the halide must be primary, so III works and I fails.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-335",
+  "field": "q",
+  "old": "Which pairs of compounds can be distinguished by the <b>number</b> of signals in their <sup>13</sup>C NMR spectra alone?<br>I. cyclohexane and methylcyclopentane<br>II. 1-chlorobutane and 2-chlorobutane<br>III. pentane and 2,2-dimethylpropane",
+  "new": "Which pairs of compounds can be distinguished by the <b>number</b> of signals in their <sup>13</sup>C NMR spectra alone?<br>I. cyclohexane and methylcyclopentane<br>II. pentane and 2,2-dimethylpropane<br>III. 1-chlorobutane and 2-chlorobutane",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-335",
+  "field": "c[0]",
+  "old": "I and III only",
+  "new": "I and II only",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-335",
+  "field": "w",
+  "old": "I: cyclohexane 1 signal, methylcyclopentane 4 → different. II: 1-chlorobutane 4, 2-chlorobutane 4 → same count (shifts differ, but the count does not). III: pentane 3 (C1/C5, C2/C4, C3), 2,2-dimethylpropane 2 → different. <b>I and III only</b>.",
+  "new": "I: cyclohexane 1 signal, methylcyclopentane 4 → different. III: 1-chlorobutane 4, 2-chlorobutane 4 → same count (shifts differ, but the count does not). II: pentane 3 (C1/C5, C2/C4, C3), 2,2-dimethylpropane 2 → different. <b>I and II only</b>.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-335",
+  "field": "x[1]",
+  "old": "Pair III is also distinguished: pentane gives 3 signals and 2,2-dimethylpropane gives 2.",
+  "new": "Pair II is also distinguished: pentane gives 3 signals and 2,2-dimethylpropane gives 2.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-335",
+  "field": "x[2]",
+  "old": "Pair II gives the same count (4 and 4), while pair I is distinguished (1 vs 4 signals).",
+  "new": "Pair III gives the same count (4 and 4), while pair I is distinguished (1 vs 4 signals).",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-335",
+  "field": "x[3]",
+  "old": "Pair II fails: 1-chlorobutane and 2-chlorobutane each give 4 signals.",
+  "new": "Pair III fails: 1-chlorobutane and 2-chlorobutane each give 4 signals.",
+  "why": "Statements renumbered (II→III, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-972",
+  "field": "q",
+  "old": "Which statements about nucleophilic substitution are correct?<br>I. The rate of the reaction of 2-bromobutane with NaN<sub>3</sub> in DMSO depends on the azide concentration.<br>II. Changing the solvent from water to acetone speeds up the S<sub>N</sub>1 solvolysis of a 3° alkyl chloride.<br>III. S<sub>N</sub>1 substitution of an enantiopure 3° alkyl bromide gives a product that is mostly racemic.",
+  "new": "Which statements about nucleophilic substitution are correct?<br>I. Changing the solvent from water to acetone speeds up the S<sub>N</sub>1 solvolysis of a 3° alkyl chloride.<br>II. The rate of the reaction of 2-bromobutane with NaN<sub>3</sub> in DMSO depends on the azide concentration.<br>III. S<sub>N</sub>1 substitution of an enantiopure 3° alkyl bromide gives a product that is mostly racemic.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-972",
+  "field": "c[0]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-972",
+  "field": "c[1]",
+  "old": "I only",
+  "new": "II only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-972",
+  "field": "w",
+  "old": "I is true: azide in DMSO with a 2° bromide is S<sub>N</sub>2, and its rate = <i>k</i>[RBr][N<sub>3</sub><sup>−</sup>]. II is false: the S<sub>N</sub>1 transition state builds up charge separation, and a polar protic solvent like water stabilizes it (and the departing halide) by hydrogen bonding; acetone is much less able to do this, so the reaction slows. III is true: the planar carbocation is attacked from both faces, so the product is largely racemic (often with a slight excess of inversion). Answer: <b>I and III only</b>.",
+  "new": "II is true: azide in DMSO with a 2° bromide is S<sub>N</sub>2, and its rate = <i>k</i>[RBr][N<sub>3</sub><sup>−</sup>]. I is false: the S<sub>N</sub>1 transition state builds up charge separation, and a polar protic solvent like water stabilizes it (and the departing halide) by hydrogen bonding; acetone is much less able to do this, so the reaction slows. III is true: the planar carbocation is attacked from both faces, so the product is largely racemic (often with a slight excess of inversion). Answer: <b>II and III only</b>.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-972",
+  "field": "x[2]",
+  "old": "II is false: removing the polar protic solvent destabilizes the ionization transition state and slows S<sub>N</sub>1. It also leaves out true statement III.",
+  "new": "I is false: removing the polar protic solvent destabilizes the ionization transition state and slows S<sub>N</sub>1. It also leaves out true statement III.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28A-972",
+  "field": "x[3]",
+  "old": "II is false: water, not acetone, speeds S<sub>N</sub>1 ionization.",
+  "new": "I is false: water, not acetone, speeds S<sub>N</sub>1 ionization.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-718",
+  "field": "q",
+  "old": "Which sugars are reducing sugars (give a positive Tollens or Benedict's test)?<br>I. D-fructose<br>II. sucrose<br>III. lactose",
+  "new": "Which sugars are reducing sugars (give a positive Tollens or Benedict's test)?<br>I. sucrose<br>II. D-fructose<br>III. lactose",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-718",
+  "field": "c[0]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-718",
+  "field": "c[3]",
+  "old": "II and III only",
+  "new": "I and III only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-718",
+  "field": "w",
+  "old": "I is true: D-fructose is a ketose, but in the basic test solution it tautomerizes through an enediol to aldoses (glucose and mannose), which are oxidized; its hemiketal also opens freely. So fructose is a reducing sugar. II is false: in sucrose the glucose C1 and the fructose C2 (both anomeric carbons) are joined in the glycosidic bond, so neither ring can open. III is true: lactose links galactose C1 to glucose C4, leaving the glucose anomeric carbon as a free hemiacetal that can open to an aldehyde. The answer is <b>I and III only</b>.",
+  "new": "II is true: D-fructose is a ketose, but in the basic test solution it tautomerizes through an enediol to aldoses (glucose and mannose), which are oxidized; its hemiketal also opens freely. So fructose is a reducing sugar. I is false: in sucrose the glucose C1 and the fructose C2 (both anomeric carbons) are joined in the glycosidic bond, so neither ring can open. III is true: lactose links galactose C1 to glucose C4, leaving the glucose anomeric carbon as a free hemiacetal that can open to an aldehyde. The answer is <b>II and III only</b>.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-704",
+  "field": "q",
+  "old": "Which sequences convert benzonitrile into acetophenone?<br>I. 1. CH<sub>3</sub>MgBr, ether &nbsp;2. H<sub>3</sub>O<sup>+</sup><br>II. 1. H<sub>3</sub>O<sup>+</sup>, heat &nbsp;2. excess CH<sub>3</sub>MgBr &nbsp;3. H<sub>3</sub>O<sup>+</sup><br>III. 1. DIBAL-H, −78 °C &nbsp;2. H<sub>2</sub>O",
+  "new": "Which sequences convert benzonitrile into acetophenone?<br>I. 1. H<sub>3</sub>O<sup>+</sup>, heat &nbsp;2. excess CH<sub>3</sub>MgBr &nbsp;3. H<sub>3</sub>O<sup>+</sup><br>II. 1. DIBAL-H, −78 °C &nbsp;2. H<sub>2</sub>O<br>III. 1. CH<sub>3</sub>MgBr, ether &nbsp;2. H<sub>3</sub>O<sup>+</sup>",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-704",
+  "field": "c[0]",
+  "old": "I only",
+  "new": "III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-704",
+  "field": "c[1]",
+  "old": "I and II only",
+  "new": "I and III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-704",
+  "field": "c[2]",
+  "old": "II only",
+  "new": "I only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-704",
+  "field": "c[3]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-704",
+  "field": "w",
+  "old": "I is true: CH<sub>3</sub>MgBr adds once to the C≡N to give an imine anion (a second addition does not occur on a negatively charged nitrogen species), and aqueous acid hydrolyzes the imine to the ketone, acetophenone. II is false: acid hydrolysis gives benzoic acid, and CH<sub>3</sub>MgBr is a strong base, so it just removes the acidic O–H to make a carboxylate (and methane); the carboxylate does not add Grignard reagents, and workup returns benzoic acid. III is false: DIBAL-H delivers one hydride to the nitrile, and water hydrolyzes the imine to benzaldehyde, not a methyl ketone. The answer is <b>I only</b>.",
+  "new": "III is true: CH<sub>3</sub>MgBr adds once to the C≡N to give an imine anion (a second addition does not occur on a negatively charged nitrogen species), and aqueous acid hydrolyzes the imine to the ketone, acetophenone. I is false: acid hydrolysis gives benzoic acid, and CH<sub>3</sub>MgBr is a strong base, so it just removes the acidic O–H to make a carboxylate (and methane); the carboxylate does not add Grignard reagents, and workup returns benzoic acid. II is false: DIBAL-H delivers one hydride to the nitrile, and water hydrolyzes the imine to benzaldehyde, not a methyl ketone. The answer is <b>III only</b>.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-704",
+  "field": "x[1]",
+  "old": "This accepts II. A Grignard reagent deprotonates a carboxylic acid instead of adding to it, and the carboxylate salt is unreactive toward further Grignard addition.",
+  "new": "This accepts I. A Grignard reagent deprotonates a carboxylic acid instead of adding to it, and the carboxylate salt is unreactive toward further Grignard addition.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-704",
+  "field": "x[2]",
+  "old": "This accepts II and rejects I. Grignard addition to a nitrile followed by hydrolysis is the standard nitrile-to-ketone route, while the acid in II just quenches the Grignard reagent.",
+  "new": "This accepts I and rejects III. Grignard addition to a nitrile followed by hydrolysis is the standard nitrile-to-ketone route, while the acid in I just quenches the Grignard reagent.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-704",
+  "field": "x[3]",
+  "old": "This accepts III. DIBAL-H adds hydride, not a methyl group, so the nitrile becomes an aldehyde (benzaldehyde) after workup.",
+  "new": "This accepts II. DIBAL-H adds hydride, not a methyl group, so the nitrile becomes an aldehyde (benzaldehyde) after workup.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-448",
+  "field": "q",
+  "old": "Which statements about the aldol reaction are correct?<br>I. With NaOH, the aldol addition equilibrium for acetone lies on the side of acetone.<br>II. Heating drives aldol reactions toward product because dehydration forms a conjugated enone.<br>III. Once a β-hydroxy carbonyl compound forms, it cannot revert to the two carbonyl compounds.",
+  "new": "Which statements about the aldol reaction are correct?<br>I. Once a β-hydroxy carbonyl compound forms, it cannot revert to the two carbonyl compounds.<br>II. With NaOH, the aldol addition equilibrium for acetone lies on the side of acetone.<br>III. Heating drives aldol reactions toward product because dehydration forms a conjugated enone.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-448",
+  "field": "c[0]",
+  "old": "I and II only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-448",
+  "field": "c[1]",
+  "old": "I only",
+  "new": "II only",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-448",
+  "field": "c[2]",
+  "old": "II and III only",
+  "new": "I and III only",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-448",
+  "field": "w",
+  "old": "I is true: for ketones the aldol addition is uphill or nearly so (two sterically crowded ketones lose a C=O), so only a few percent of 4-hydroxy-4-methylpentan-2-one is present at equilibrium. II is true: dehydration to a conjugated enone is favorable and pulls the equilibrium forward. III is false: under the same base the β-hydroxy carbonyl undergoes <b>retro-aldol</b> cleavage back to the starting carbonyls. Answer: <b>I and II only</b>.",
+  "new": "II is true: for ketones the aldol addition is uphill or nearly so (two sterically crowded ketones lose a C=O), so only a few percent of 4-hydroxy-4-methylpentan-2-one is present at equilibrium. III is true: dehydration to a conjugated enone is favorable and pulls the equilibrium forward. I is false: under the same base the β-hydroxy carbonyl undergoes <b>retro-aldol</b> cleavage back to the starting carbonyls. Answer: <b>II and III only</b>.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-448",
+  "field": "x[1]",
+  "old": "Statement II is also correct: forming the conjugated C=C–C=O by dehydration makes the overall condensation favorable.",
+  "new": "Statement III is also correct: forming the conjugated C=C–C=O by dehydration makes the overall condensation favorable.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-448",
+  "field": "x[2]",
+  "old": "Statement III is false: aldol addition is reversible, and β-hydroxy ketones fragment in base (retro-aldol).",
+  "new": "Statement I is false: aldol addition is reversible, and β-hydroxy ketones fragment in base (retro-aldol).",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-448",
+  "field": "x[3]",
+  "old": "Statement III is false because the aldol addition is an equilibrium; retro-aldol cleavage occurs under the same conditions.",
+  "new": "Statement I is false because the aldol addition is an equilibrium; retro-aldol cleavage occurs under the same conditions.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-42",
+  "field": "q",
+  "old": "Which statements about amides are correct?<br>I. When an amide is protonated by a strong acid, the proton goes mainly to the oxygen.<br>II. The C–N bond in an amide is shorter than the C–N bond in an amine.<br>III. Amides are stronger bases than amines because their nitrogen is sp<sup>2</sup> hybridized.",
+  "new": "Which statements about amides are correct?<br>I. Amides are stronger bases than amines because their nitrogen is sp<sup>2</sup> hybridized.<br>II. When an amide is protonated by a strong acid, the proton goes mainly to the oxygen.<br>III. The C–N bond in an amide is shorter than the C–N bond in an amine.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-42",
+  "field": "c[0]",
+  "old": "I and II only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-42",
+  "field": "c[1]",
+  "old": "I only",
+  "new": "II only",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-42",
+  "field": "c[2]",
+  "old": "II and III only",
+  "new": "I and III only",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-42",
+  "field": "w",
+  "old": "Because the N lone pair is delocalized onto oxygen, O is the most basic site: O-protonation gives a cation stabilized by resonance with N (I true). The same delocalization gives the C–N bond partial double-bond character, so it is shorter (about 1.34 Å vs 1.47 Å in an amine) (II true). Delocalization makes the N lone pair <i>less</i> available, so amides are far weaker bases than amines (conjugate acid pK<sub>a</sub> ≈ 0 vs ≈ 10) (III false). Answer: <b>I and II only</b>.",
+  "new": "Because the N lone pair is delocalized onto oxygen, O is the most basic site: O-protonation gives a cation stabilized by resonance with N (II true). The same delocalization gives the C–N bond partial double-bond character, so it is shorter (about 1.34 Å vs 1.47 Å in an amine) (III true). Delocalization makes the N lone pair <i>less</i> available, so amides are far weaker bases than amines (conjugate acid pK<sub>a</sub> ≈ 0 vs ≈ 10) (I false). Answer: <b>II and III only</b>.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-42",
+  "field": "x[1]",
+  "old": "Statement II is also true: resonance gives the amide C–N bond partial double-bond character, so it is shorter than an amine C–N single bond.",
+  "new": "Statement III is also true: resonance gives the amide C–N bond partial double-bond character, so it is shorter than an amine C–N single bond.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-42",
+  "field": "x[2]",
+  "old": "Statement III is false: the delocalized lone pair makes amides very weak bases, much weaker than amines.",
+  "new": "Statement I is false: the delocalized lone pair makes amides very weak bases, much weaker than amines.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-42",
+  "field": "x[3]",
+  "old": "Statement III is false, so all three cannot be correct.",
+  "new": "Statement I is false, so all three cannot be correct.",
+  "why": "Statements renumbered (I→II, II→III, III→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-714",
+  "field": "q",
+  "old": "Which sequences convert cyclohexanone into 1-methylcyclohexene?<br>I. 1. CH<sub>3</sub>MgBr &nbsp;2. H<sub>3</sub>O<sup>+</sup> &nbsp;3. H<sub>2</sub>SO<sub>4</sub>, heat<br>II. Ph<sub>3</sub>P=CH<sub>2</sub><br>III. 1. CH<sub>3</sub>MgBr &nbsp;2. H<sub>3</sub>O<sup>+</sup> &nbsp;3. PCC",
+  "new": "Which sequences convert cyclohexanone into 1-methylcyclohexene?<br>I. Ph<sub>3</sub>P=CH<sub>2</sub><br>II. 1. CH<sub>3</sub>MgBr &nbsp;2. H<sub>3</sub>O<sup>+</sup> &nbsp;3. H<sub>2</sub>SO<sub>4</sub>, heat<br>III. 1. CH<sub>3</sub>MgBr &nbsp;2. H<sub>3</sub>O<sup>+</sup> &nbsp;3. PCC",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-714",
+  "field": "c[0]",
+  "old": "I only",
+  "new": "II only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-714",
+  "field": "c[2]",
+  "old": "II only",
+  "new": "I only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-714",
+  "field": "c[3]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-714",
+  "field": "w",
+  "old": "I is true: the Grignard reagent gives 1-methylcyclohexan-1-ol, and acid-catalyzed E1 dehydration gives the more substituted (Zaitsev) alkene, the trisubstituted ring alkene 1-methylcyclohexene. II is false: the Wittig reaction puts the C=C exactly where the C=O was, giving methylenecyclohexane (an exocyclic C=CH<sub>2</sub>), a constitutional isomer of the target. III is false: PCC oxidizes 1° and 2° alcohols only; the 3° alcohol has no H on the carbinol carbon and is unchanged, so no alkene forms. The answer is <b>I only</b>.",
+  "new": "II is true: the Grignard reagent gives 1-methylcyclohexan-1-ol, and acid-catalyzed E1 dehydration gives the more substituted (Zaitsev) alkene, the trisubstituted ring alkene 1-methylcyclohexene. I is false: the Wittig reaction puts the C=C exactly where the C=O was, giving methylenecyclohexane (an exocyclic C=CH<sub>2</sub>), a constitutional isomer of the target. III is false: PCC oxidizes 1° and 2° alcohols only; the 3° alcohol has no H on the carbinol carbon and is unchanged, so no alkene forms. The answer is <b>II only</b>.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-714",
+  "field": "x[1]",
+  "old": "This accepts II. The Wittig reagent forms the C=C at the old carbonyl carbon, giving methylenecyclohexane, not the ring alkene.",
+  "new": "This accepts I. The Wittig reagent forms the C=C at the old carbonyl carbon, giving methylenecyclohexane, not the ring alkene.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-714",
+  "field": "x[2]",
+  "old": "This accepts II and rejects I. Dehydrating 1-methylcyclohexanol gives the endocyclic Zaitsev alkene, which is the target; the Wittig gives the exocyclic isomer.",
+  "new": "This accepts I and rejects II. Dehydrating 1-methylcyclohexanol gives the endocyclic Zaitsev alkene, which is the target; the Wittig gives the exocyclic isomer.",
+  "why": "Statements renumbered (I→II, II→I) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-722",
+  "field": "q",
+  "old": "A compound C<sub>9</sub>H<sub>10</sub>O<sub>2</sub> has a strong IR band at 1720 cm<sup>−1</sup> and the <sup>1</sup>H NMR spectrum shown. Which statements are correct?<br>I. The 4.38 ppm quartet comes from an O–CH<sub>2</sub> group bonded to a CH<sub>3</sub>.<br>II. The aromatic signals show a <i>para</i>-disubstituted benzene ring.<br>III. The compound is a carboxylic acid.",
+  "new": "A compound C<sub>9</sub>H<sub>10</sub>O<sub>2</sub> has a strong IR band at 1720 cm<sup>−1</sup> and the <sup>1</sup>H NMR spectrum shown. Which statements are correct?<br>I. The aromatic signals show a <i>para</i>-disubstituted benzene ring.<br>II. The compound is a carboxylic acid.<br>III. The 4.38 ppm quartet comes from an O–CH<sub>2</sub> group bonded to a CH<sub>3</sub>.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-722",
+  "field": "c[0]",
+  "old": "I only",
+  "new": "III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-722",
+  "field": "c[1]",
+  "old": "I and II only",
+  "new": "I and III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-722",
+  "field": "c[2]",
+  "old": "I and III only",
+  "new": "II and III only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-722",
+  "field": "c[3]",
+  "old": "II only",
+  "new": "I only",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-722",
+  "field": "w",
+  "old": "I is true: a CH<sub>2</sub> at 4.38 ppm is deshielded by an attached oxygen, and its quartet (and the 3H triplet at 1.39 ppm) shows it is bonded to a CH<sub>3</sub>: an ethoxy group. II is false: the aromatic signals integrate to 2 + 1 + 2 = 5 H, a monosubstituted ring (2 ortho H near 8.05, 1 para H, 2 meta H); a para-disubstituted ring would show 4 H as two 2H doublets. III is false: a carboxylic acid would show a broad 1H singlet near 10–13 ppm and a broad O–H band in the IR; neither is present. The data fit ethyl benzoate (DBE 5: ring + C=O). The answer is <b>I only</b>.",
+  "new": "III is true: a CH<sub>2</sub> at 4.38 ppm is deshielded by an attached oxygen, and its quartet (and the 3H triplet at 1.39 ppm) shows it is bonded to a CH<sub>3</sub>: an ethoxy group. I is false: the aromatic signals integrate to 2 + 1 + 2 = 5 H, a monosubstituted ring (2 ortho H near 8.05, 1 para H, 2 meta H); a para-disubstituted ring would show 4 H as two 2H doublets. II is false: a carboxylic acid would show a broad 1H singlet near 10–13 ppm and a broad O–H band in the IR; neither is present. The data fit ethyl benzoate (DBE 5: ring + C=O). The answer is <b>III only</b>.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-722",
+  "field": "x[1]",
+  "old": "This accepts II. The aromatic region totals 5 H with a 2:1:2 pattern, which means one substituent on the ring, not two.",
+  "new": "This accepts I. The aromatic region totals 5 H with a 2:1:2 pattern, which means one substituent on the ring, not two.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-722",
+  "field": "x[2]",
+  "old": "This accepts III. There is no 10–13 ppm acid proton; the oxygen-bearing CH<sub>2</sub> at 4.38 ppm points to an ester instead.",
+  "new": "This accepts II. There is no 10–13 ppm acid proton; the oxygen-bearing CH<sub>2</sub> at 4.38 ppm points to an ester instead.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ },
+ {
+  "id": "28B-722",
+  "field": "x[3]",
+  "old": "This rejects I and accepts II. The 4.38 ppm shift can only come from a CH<sub>2</sub> on oxygen, and the 5 aromatic H mean a monosubstituted ring.",
+  "new": "This rejects III and accepts I. The 4.38 ppm shift can only come from a CH<sub>2</sub> on oxygen, and the 5 aromatic H mean a monosubstituted ring.",
+  "why": "Statements renumbered (I→III, II→I, III→II) so I/II/III keys are not predictable; chemistry unchanged"
+ }
+]

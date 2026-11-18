@@ -1,0 +1,359 @@
+[
+ {
+  "id": "3A-810",
+  "field": "q",
+  "old": "Sodium-22 is used as a small source to check PET scanners. Identify the missing particle: <sup>22</sup><sub>11</sub>Na &rarr; <sup>22</sup><sub>10</sub>Ne + ?",
+  "new": "Sodium-22 is used as a small source to check PET scanners. Identify the missing particle: <span class=\"nw\"><span class=\"ss pre\"><sup>22</sup><sub>11</sub></span>Na</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>22</sup><sub>10</sub></span>Ne</span> + ?",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-810",
+  "field": "w",
+  "old": "A: 22 = 22 + 0. Z: 11 = 10 + 1. The particle is <b>a positron, <sup>0</sup><sub>+1</sub>e</b>.",
+  "new": "A: 22 = 22 + 0. Z: 11 = 10 + 1. The particle is <b>a positron, <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span></b>.",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-810",
+  "field": "c[0]",
+  "old": "<sup>0</sup><sub>+1</sub>e, a positron",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span>, a positron",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-810",
+  "field": "c[2]",
+  "old": "<sup>4</sup><sub>2</sub>He, an alpha particle",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span>, an alpha particle",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-810",
+  "field": "c[3]",
+  "old": "<sup>0</sup><sub>0</sub>&gamma;, a gamma ray",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>0</sub></span>&gamma;</span>, a gamma ray",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-811",
+  "field": "q",
+  "old": "Iodine-123, used for thyroid imaging, decays by electron capture. What is the product? <sup>123</sup><sub>53</sub>I + <sup>0</sup><sub>&minus;1</sub>e &rarr; ?",
+  "new": "Iodine-123, used for thyroid imaging, decays by electron capture. What is the product? <span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>53</sub></span>I</span> + <sup>0</sup><sub>&minus;1</sub>e &rarr; ?",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-811",
+  "field": "w",
+  "old": "A: 123 + 0 = 123. Z: 53 &minus; 1 = 52 (tellurium): <b><sup>123</sup><sub>52</sub>Te</b>.",
+  "new": "A: 123 + 0 = 123. Z: 53 &minus; 1 = 52 (tellurium): <b><span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>52</sub></span>Te</span></b>.",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-811",
+  "field": "c[0]",
+  "old": "<sup>123</sup><sub>52</sub>Te (tellurium-123)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>52</sub></span>Te</span> (tellurium-123)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-811",
+  "field": "c[1]",
+  "old": "<sup>123</sup><sub>54</sub>Xe (xenon-123)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>54</sub></span>Xe</span> (xenon-123)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-811",
+  "field": "c[2]",
+  "old": "<sup>122</sup><sub>52</sub>Te (tellurium-122)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>122</sup><sub>52</sub></span>Te</span> (tellurium-122)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-811",
+  "field": "c[3]",
+  "old": "<sup>123</sup><sub>53</sub>I (iodine-123, unchanged)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>53</sub></span>I</span> (iodine-123, unchanged)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-812",
+  "field": "q",
+  "old": "Iodine-123 is made in a cyclotron by hitting tellurium-124 with protons; two neutrons come out. Complete the equation: <sup>124</sup><sub>52</sub>Te + <sup>1</sup><sub>1</sub>H &rarr; ? + 2 <sup>1</sup><sub>0</sub>n",
+  "new": "Iodine-123 is made in a cyclotron by hitting tellurium-124 with protons; two neutrons come out. Complete the equation: <span class=\"nw\"><span class=\"ss pre\"><sup>124</sup><sub>52</sub></span>Te</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>1</sub></span>H</span> &rarr; ? + 2 <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-812",
+  "field": "w",
+  "old": "A: 124 + 1 = 125 = ? + 2, so 123. Z: 52 + 1 = 53 = ? + 0, so 53: <b><sup>123</sup><sub>53</sub>I</b>.",
+  "new": "A: 124 + 1 = 125 = ? + 2, so 123. Z: 52 + 1 = 53 = ? + 0, so 53: <b><span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>53</sub></span>I</span></b>.",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-812",
+  "field": "c[0]",
+  "old": "<sup>123</sup><sub>53</sub>I (iodine-123)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>53</sub></span>I</span> (iodine-123)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-812",
+  "field": "c[1]",
+  "old": "<sup>124</sup><sub>53</sub>I (iodine-124)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>124</sup><sub>53</sub></span>I</span> (iodine-124)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-812",
+  "field": "c[2]",
+  "old": "<sup>125</sup><sub>53</sub>I (iodine-125)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>125</sup><sub>53</sub></span>I</span> (iodine-125)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-812",
+  "field": "c[3]",
+  "old": "<sup>123</sup><sub>52</sub>Te (tellurium-123)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>123</sup><sub>52</sub></span>Te</span> (tellurium-123)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-813",
+  "field": "q",
+  "old": "Chlorine-36 helps date very old groundwater. What kind of decay is this? <sup>36</sup><sub>17</sub>Cl &rarr; <sup>36</sup><sub>18</sub>Ar + <sup>0</sup><sub>&minus;1</sub>e",
+  "new": "Chlorine-36 helps date very old groundwater. What kind of decay is this? <span class=\"nw\"><span class=\"ss pre\"><sup>36</sup><sub>17</sub></span>Cl</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>36</sup><sub>18</sub></span>Ar</span> + <sup>0</sup><sub>&minus;1</sub>e",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-813",
+  "field": "x[1]",
+  "old": "Positron emission gives off <sup>0</sup><sub>+1</sub>e and lowers Z by 1; here Z rises.",
+  "new": "Positron emission gives off <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span> and lowers Z by 1; here Z rises.",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-813",
+  "field": "x[2]",
+  "old": "Alpha decay gives off <sup>4</sup><sub>2</sub>He and lowers A by 4; here A does not change.",
+  "new": "Alpha decay gives off <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span> and lowers A by 4; here A does not change.",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-814",
+  "field": "q",
+  "old": "Radium-224 forms when a parent nucleus gives off an alpha particle. What is the parent? ? &rarr; <sup>224</sup><sub>88</sub>Ra + <sup>4</sup><sub>2</sub>He",
+  "new": "Radium-224 forms when a parent nucleus gives off an alpha particle. What is the parent? ? &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>224</sup><sub>88</sub></span>Ra</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-814",
+  "field": "w",
+  "old": "A: 224 + 4 = 228. Z: 88 + 2 = 90 (thorium): <b><sup>228</sup><sub>90</sub>Th</b>.",
+  "new": "A: 224 + 4 = 228. Z: 88 + 2 = 90 (thorium): <b><span class=\"nw\"><span class=\"ss pre\"><sup>228</sup><sub>90</sub></span>Th</span></b>.",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-814",
+  "field": "c[0]",
+  "old": "<sup>228</sup><sub>90</sub>Th (thorium-228)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>228</sup><sub>90</sub></span>Th</span> (thorium-228)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-814",
+  "field": "c[1]",
+  "old": "<sup>220</sup><sub>86</sub>Rn (radon-220)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>220</sup><sub>86</sub></span>Rn</span> (radon-220)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-814",
+  "field": "c[2]",
+  "old": "<sup>228</sup><sub>89</sub>Ac (actinium-228)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>228</sup><sub>89</sub></span>Ac</span> (actinium-228)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-814",
+  "field": "c[3]",
+  "old": "<sup>228</sup><sub>88</sub>Ra (radium-228)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>228</sup><sub>88</sub></span>Ra</span> (radium-228)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-819",
+  "field": "w",
+  "old": "Cosmic rays make fast neutrons in the upper air, and air is mostly nitrogen. A neutron knocks a proton out of a nitrogen-14 nucleus: <b><sup>14</sup><sub>7</sub>N + <sup>1</sup><sub>0</sub>n &rarr; <sup>14</sup><sub>6</sub>C + <sup>1</sup><sub>1</sub>H</b>. Mass numbers (15) and charges (7) balance.",
+  "new": "Cosmic rays make fast neutrons in the upper air, and air is mostly nitrogen. A neutron knocks a proton out of a nitrogen-14 nucleus: <b><span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>7</sub></span>N</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>6</sub></span>C</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>1</sub></span>H</span></b>. Mass numbers (15) and charges (7) balance.",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-819",
+  "field": "c[0]",
+  "old": "Neutrons from cosmic rays hit nitrogen-14 nuclei: <sup>14</sup><sub>7</sub>N + <sup>1</sup><sub>0</sub>n &rarr; <sup>14</sup><sub>6</sub>C + <sup>1</sup><sub>1</sub>H",
+  "new": "Neutrons from cosmic rays hit nitrogen-14 nuclei: <span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>7</sub></span>N</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>6</sub></span>C</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>1</sub></span>H</span>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-819",
+  "field": "c[1]",
+  "old": "Carbon-12 atoms absorb two neutrons from sunlight: <sup>12</sup><sub>6</sub>C + 2 <sup>1</sup><sub>0</sub>n &rarr; <sup>14</sup><sub>6</sub>C",
+  "new": "Carbon-12 atoms absorb two neutrons from sunlight: <span class=\"nw\"><span class=\"ss pre\"><sup>12</sup><sub>6</sub></span>C</span> + 2 <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>6</sub></span>C</span>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-825",
+  "field": "q",
+  "old": "Complete this fission of uranium-235: <sup>1</sup><sub>0</sub>n + <sup>235</sup><sub>92</sub>U &rarr; <sup>144</sup><sub>56</sub>Ba + ? + 3 <sup>1</sup><sub>0</sub>n",
+  "new": "Complete this fission of uranium-235: <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>235</sup><sub>92</sub></span>U</span> &rarr; <span class=\"nw\"><span class=\"ss pre\"><sup>144</sup><sub>56</sub></span>Ba</span> + ? + 3 <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-825",
+  "field": "w",
+  "old": "A: 236 &minus; 144 &minus; 3 = 89. Z: 92 &minus; 56 = 36: <b><sup>89</sup><sub>36</sub>Kr</b>.",
+  "new": "A: 236 &minus; 144 &minus; 3 = 89. Z: 92 &minus; 56 = 36: <b><span class=\"nw\"><span class=\"ss pre\"><sup>89</sup><sub>36</sub></span>Kr</span></b>.",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-825",
+  "field": "c[0]",
+  "old": "<sup>89</sup><sub>36</sub>Kr (krypton-89)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>89</sup><sub>36</sub></span>Kr</span> (krypton-89)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-825",
+  "field": "c[1]",
+  "old": "<sup>91</sup><sub>36</sub>Kr (krypton-91)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>91</sup><sub>36</sub></span>Kr</span> (krypton-91)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-825",
+  "field": "c[2]",
+  "old": "<sup>88</sup><sub>36</sub>Kr (krypton-88)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>88</sup><sub>36</sub></span>Kr</span> (krypton-88)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "3A-825",
+  "field": "c[3]",
+  "old": "<sup>89</sup><sub>38</sub>Sr (strontium-89)",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>89</sup><sub>38</sub></span>Sr</span> (strontium-89)",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1A-677",
+  "field": "w",
+  "old": "The nucleus holds 2 protons (helium) and 1 neutron, so the mass number is 3. There is only 1 electron, so the charge is 2 − 1 = +1: <b><sup>3</sup><sub>2</sub>He<sup>+</sup></b>. A 1− charge would need more electrons than protons, using the electron count as the atomic number gives H, and a mass number of 1 counts only the neutron.",
+  "new": "The nucleus holds 2 protons (helium) and 1 neutron, so the mass number is 3. There is only 1 electron, so the charge is 2 − 1 = +1: <b><span class=\"nw\"><span class=\"ss pre\"><sup>3</sup><sub>2</sub></span>He</span><sup>+</sup></b>. A 1− charge would need more electrons than protons, using the electron count as the atomic number gives H, and a mass number of 1 counts only the neutron.",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1A-677",
+  "field": "c[0]",
+  "old": "<sup>3</sup><sub>2</sub>He<sup>+</sup>",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>3</sup><sub>2</sub></span>He</span><sup>+</sup>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1A-677",
+  "field": "c[1]",
+  "old": "<sup>3</sup><sub>2</sub>He<sup>−</sup>",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>3</sup><sub>2</sub></span>He</span><sup>−</sup>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1A-677",
+  "field": "c[2]",
+  "old": "<sup>3</sup><sub>1</sub>H",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>3</sup><sub>1</sub></span>H</span>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1A-677",
+  "field": "c[3]",
+  "old": "<sup>1</sup><sub>2</sub>He<sup>+</sup>",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>2</sub></span>He</span><sup>+</sup>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1A-687",
+  "field": "raw",
+  "old": "{\"type\":\"table\",\"head\":[\"Species\",\"Symbol\"],\"rows\":[[\"1\",\"<sup>54</sup><sub>26</sub>Fe<sup>3+</sup>\"],[\"2\",\"<sup>56</sup><sub>26</sub>Fe<sup>2+</sup>\"],[\"3\",\"<sup>54</sup><sub>24</sub>Cr\"]]}",
+  "new": "{\"type\":\"table\",\"head\":[\"Species\",\"Symbol\"],\"rows\":[[\"1\",\"<span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>54</sup><sub>26</sub></span>Fe</span><sup>3+</sup>\"],[\"2\",\"<span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>56</sup><sub>26</sub></span>Fe</span><sup>2+</sup>\"],[\"3\",\"<span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>54</sup><sub>24</sub></span>Cr</span>\"]]}",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1A-690",
+  "field": "raw",
+  "old": "{\"type\":\"table\",\"head\":[\"\",\"Species\"],\"rows\":[[\"I\",\"<sup>82</sup><sub>34</sub>Se<sup>2−</sup>\"],[\"II\",\"<sup>81</sup><sub>35</sub>Br\"],[\"III\",\"<sup>83</sup><sub>36</sub>Kr\"]]}",
+  "new": "{\"type\":\"table\",\"head\":[\"\",\"Species\"],\"rows\":[[\"I\",\"<span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>82</sup><sub>34</sub></span>Se</span><sup>2−</sup>\"],[\"II\",\"<span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>81</sup><sub>35</sub></span>Br</span>\"],[\"III\",\"<span class=\\\"nw\\\"><span class=\\\"ss pre\\\"><sup>83</sup><sub>36</sub></span>Kr</span>\"]]}",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1A-693",
+  "field": "w",
+  "old": "50 protons is tin, the mass number is 50 + 70 = 120, and 50 − 48 = +2: <b><sup>120</sup><sub>50</sub>Sn<sup>2+</sup></b>. Two fewer electrons than protons gives a positive charge, the mass number is not the neutron count, and the electron count does not set the element.",
+  "new": "50 protons is tin, the mass number is 50 + 70 = 120, and 50 − 48 = +2: <b><span class=\"nw\"><span class=\"ss pre\"><sup>120</sup><sub>50</sub></span>Sn</span><sup>2+</sup></b>. Two fewer electrons than protons gives a positive charge, the mass number is not the neutron count, and the electron count does not set the element.",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1A-693",
+  "field": "c[0]",
+  "old": "<sup>120</sup><sub>50</sub>Sn<sup>2+</sup>",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>120</sup><sub>50</sub></span>Sn</span><sup>2+</sup>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1A-693",
+  "field": "c[1]",
+  "old": "<sup>120</sup><sub>50</sub>Sn<sup>2−</sup>",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>120</sup><sub>50</sub></span>Sn</span><sup>2−</sup>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1A-693",
+  "field": "c[2]",
+  "old": "<sup>70</sup><sub>50</sub>Sn<sup>2+</sup>",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>70</sup><sub>50</sub></span>Sn</span><sup>2+</sup>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1A-693",
+  "field": "c[3]",
+  "old": "<sup>120</sup><sub>48</sub>Cd",
+  "new": "<span class=\"nw\"><span class=\"ss pre\"><sup>120</sup><sub>48</sub></span>Cd</span>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1B-503",
+  "field": "h",
+  "old": "Write the alpha particle as <sup>4</sup><sub>2</sub>He and compare its mass number with its atomic number. Heavy, highly charged particles are stopped quickly.",
+  "new": "Write the alpha particle as <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span> and compare its mass number with its atomic number. Heavy, highly charged particles are stopped quickly.",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1B-503",
+  "field": "w",
+  "old": "<b>I only.</b> An alpha particle is <sup>4</sup><sub>2</sub>He, a helium-4 nucleus (I true). Losing it lowers the mass number by 4 but the atomic number by only 2 (II false). Alpha particles are the least penetrating of the three and are stopped by a sheet of paper or the outer layer of skin (III false).",
+  "new": "<b>I only.</b> An alpha particle is <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span>, a helium-4 nucleus (I true). Losing it lowers the mass number by 4 but the atomic number by only 2 (II false). Alpha particles are the least penetrating of the three and are stopped by a sheet of paper or the outer layer of skin (III false).",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1B-595",
+  "field": "q",
+  "old": "Which nuclear equations are balanced in both mass number and atomic number?<br>I. <sup>18</sup><sub>9</sub>F → <sup>18</sup><sub>10</sub>Ne + <sup>0</sup><sub>+1</sub>e<br>II. <sup>238</sup><sub>92</sub>U → <sup>234</sup><sub>90</sub>Th + <sup>4</sup><sub>2</sub>He<br>III. <sup>14</sup><sub>6</sub>C → <sup>14</sup><sub>7</sub>N + <sup>0</sup><sub>−1</sub>e",
+  "new": "Which nuclear equations are balanced in both mass number and atomic number?<br>I. <span class=\"nw\"><span class=\"ss pre\"><sup>18</sup><sub>9</sub></span>F</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>18</sup><sub>10</sub></span>Ne</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span><br>II. <span class=\"nw\"><span class=\"ss pre\"><sup>238</sup><sub>92</sub></span>U</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>234</sup><sub>90</sub></span>Th</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span><br>III. <span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>6</sub></span>C</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>7</sub></span>N</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e</span>",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ },
+ {
+  "id": "1B-595",
+  "field": "w",
+  "old": "<b>II and III only.</b> In II, 238 = 234 + 4 and 92 = 90 + 2 (balanced). In III, 14 = 14 + 0 and 6 = 7 + (−1) (balanced). In I the mass numbers match, but the atomic numbers do not: 9 ≠ 10 + 1. Positron emission lowers Z by 1, so fluorine-18 actually gives <sup>18</sup><sub>8</sub>O (I false).",
+  "new": "<b>II and III only.</b> In II, 238 = 234 + 4 and 92 = 90 + 2 (balanced). In III, 14 = 14 + 0 and 6 = 7 + (−1) (balanced). In I the mass numbers match, but the atomic numbers do not: 9 ≠ 10 + 1. Positron emission lowers Z by 1, so fluorine-18 actually gives <span class=\"nw\"><span class=\"ss pre\"><sup>18</sup><sub>8</sub></span>O</span> (I false).",
+  "why": "Stacked nuclide symbol: mass number directly above atomic number"
+ }
+]

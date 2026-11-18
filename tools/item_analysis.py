@@ -27,6 +27,8 @@ ap.add_argument("--days", type=int, default=365)
 ap.add_argument("--file")
 ap.add_argument("--min", type=int, default=15)
 ap.add_argument("--top", type=int, default=25, help="most-missed questions listed per course")
+ap.add_argument("--rows", help="saved copy of <stats URL>?items=1&rows=1&game=finalboss (answer rows; fetched if omitted)")
+ap.add_argument("--min-battles", type=int, default=30, help="Boss Battles needed before exam statistics are reported")
 args = ap.parse_args()
 
 
@@ -46,6 +48,88 @@ def qver(q):
         out = digits[r] + out
         if h == 0:
             return out
+
+
+def exam_stats():
+    """Exam-level statistics from the anonymous answer rows (receiver version 2): one Boss Battle = one exam code (ex).
+    Item discrimination = corrected point-biserial (item vs the rest of that battle's score). Reliability = KR-20 per
+    course, approximate because every student gets a different random form. Time = seconds on each question."""
+    import statistics as st
+    try:
+        if args.rows:
+            rows = json.loads(Path(args.rows).read_text(encoding="utf-8")).get("rows", [])
+        else:
+            with urllib.request.urlopen(f"{STATS_URL}?items=1&rows=1&game=finalboss&days={args.days}", timeout=90) as r:
+                rows = json.loads(r.read().decode("utf-8")).get("rows")
+    except Exception as e:
+        return ["", "## Exam statistics", "", f"Not available: {e}"]
+    if rows is None:
+        return ["", "## Exam statistics", "", "Not available yet: the stats receiver is still version 1 (install tools/apps-script/item_stats_v2.gs)."]
+    out = ["", "## Exam statistics (Boss Battles)", ""]
+    battles = {}
+    secs = {}
+    for item, ver, pick, ok, mode, session, ex, sec in rows:
+        q = bank.get(item)
+        if not q or (ver and ver != qver(q)):
+            continue
+        if sec not in ("", None):
+            secs.setdefault(item, []).append(float(sec))
+        if ex:
+            battles.setdefault(ex, {})[item] = int(ok)
+    by_course = {}
+    for ex, ans in battles.items():
+        c = next(iter(ans)).split("-")[0]
+        if len(ans) >= 20:
+            by_course.setdefault(c, []).append(ans)
+    if not by_course:
+        out.append(f"No complete Boss Battles with exam codes yet ({len(battles)} codes seen).")
+    for c, bl in sorted(by_course.items()):
+        out += [f"### CHEM {c}: {len(bl)} Boss Battles", ""]
+        if len(bl) < args.min_battles:
+            out += [f"Fewer than {args.min_battles} battles: too few for discrimination or reliability.", ""]
+            continue
+        p = {}
+        for ans in bl:
+            for i, v in ans.items():
+                p.setdefault(i, []).append(v)
+        pbar = {i: sum(v) / len(v) for i, v in p.items()}
+        totals = [sum(a.values()) for a in bl]
+        ks = [len(a) for a in bl]
+        k = st.median(ks)
+        var = st.pvariance(totals) if len(totals) > 1 else 0
+        sum_pq = st.mean([sum(pbar[i] * (1 - pbar[i]) for i in a) for a in bl])
+        kr20 = (k / (k - 1)) * (1 - sum_pq / var) if var > 0 and k > 1 else float("nan")
+        out += [f"Mean score {st.mean(totals) / k:.0%}, SD {var ** 0.5:.1f} questions, approximate KR-20 = {kr20:.2f} "
+                "(random forms: read as a rough consistency check, not a formal reliability).", ""]
+        disc = []
+        for i, v in p.items():
+            if len(v) < 15:
+                continue
+            xs, ys = [], []
+            for a in bl:
+                if i in a:
+                    xs.append(a[i]); ys.append(sum(a.values()) - a[i])
+            if len(set(xs)) < 2 or len(set(ys)) < 2:
+                continue
+            mx, my = st.mean(xs), st.mean(ys)
+            cov = sum((x - mx) * (y - my) for x, y in zip(xs, ys)) / len(xs)
+            r = cov / ((st.pvariance(xs) ** 0.5) * (st.pvariance(ys) ** 0.5))
+            disc.append((r, i, len(v), pbar[i]))
+        disc.sort()
+        out += ["Lowest discrimination (corrected point-biserial; under 0.10 = check the key, wording or difficulty):", "",
+                "| Question | Battles | Correct | r | Stem |", "|---|---|---|---|---|"]
+        for r, i, n, pp in disc[:15]:
+            out.append(f"| {i} | {n} | {pp:.0%} | {r:.2f} | {strip(bank[i]['q'])[:90].replace('|', '/')} |")
+        out.append("")
+    timed = [(st.median(v), i, len(v)) for i, v in secs.items() if len(v) >= 10]
+    if timed:
+        out += ["### Time per question (median seconds, 10+ answers)", "",
+                "| Course | Questions timed | Median of medians | Slowest |", "|---|---|---|---|"]
+        for c in ("3A", "3B", "1A", "1B", "28A", "28B"):
+            t = sorted((m, i) for m, i, n in timed if i.startswith(c + "-"))
+            if t:
+                out.append(f"| {c} | {len(t)} | {st.median(m for m, _ in t):.0f} s | " + ", ".join(f"{i} ({m:.0f} s)" for m, i in t[-5:][::-1]) + " |")
+    return out
 
 
 bank = {}
@@ -104,7 +188,7 @@ lines = [f"# Final Boss item analysis ({data.get('days', args.days)} days, gener
          f"Questions with data: {len(items)} · judged (≥{args.min} answers, current wording): {judged} · flagged: {len(flags)} · "
          f"answers to older wording (skipped): {old} · IDs no longer in the bank: {unknown}", ""]
 lines += ["## Most-missed questions (reteach these)", ""]
-for c in ("1A", "1B", "3A", "3B"):
+for c in ("3A", "3B", "1A", "1B", "28A", "28B"):
     rows = sorted(by_course.get(c, []))[:args.top]
     if not rows:
         continue
@@ -117,6 +201,7 @@ for c in ("1A", "1B", "3A", "3B"):
 lines += ["## Flags", "", "| Question | Answers | Correct | Stem | Why flagged |", "|---|---|---|---|---|"]
 for _, iid, n, p, stem, reasons in sorted(flags):
     lines.append(f"| {iid} | {n} | {p:.0%} | {stem.replace('|', '/')} | {'; '.join(reasons).replace('|', '/')} |")
+lines += exam_stats()
 (ROOT / "item-analysis.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 print("\n".join(lines[:3]))
 print(f"Report written to {ROOT / 'item-analysis.md'}")
