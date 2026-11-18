@@ -8,8 +8,8 @@
   "c": [
    "1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH (cat.), −H<sub>2</sub>O  2. CH<sub>3</sub>MgBr (excess), ether  3. H<sub>3</sub>O<sup>+</sup>",
    "1. CH<sub>3</sub>MgBr (2 equiv), ether  2. H<sub>3</sub>O<sup>+</sup>",
-   "1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH (cat.), −H<sub>2</sub>O  2. LiAlH<sub>4</sub>, ether  3. H<sub>3</sub>O<sup>+</sup>",
-   "1. TBSCl, imidazole  2. CH<sub>3</sub>MgBr (excess), ether  3. TBAF, THF"
+   "1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH (cat.), −H<sub>2</sub>O  2. LiAlH<sub>4</sub> (excess), ether  3. H<sub>3</sub>O<sup>+</sup>",
+   "1. TBSCl, imidazole, DMF  2. CH<sub>3</sub>MgBr (excess), ether  3. TBAF, THF"
   ],
   "h": "The ketone must survive while the ester gains two methyl groups. Which carbonyl is more reactive toward CH<sub>3</sub>MgBr, and how can you hide it?",
   "w": "The target keeps the ketone and turns the ester carbon into C(CH<sub>3</sub>)<sub>2</sub>OH, which needs two equivalents of CH<sub>3</sub>MgBr at the ester. A ketone is <i>more</i> reactive than an ester toward a Grignard reagent, so the ketone must be protected first. Ethylene glycol with catalytic acid converts the ketone into a cyclic acetal (esters do not form acetals). Excess CH<sub>3</sub>MgBr then adds twice to the ester (ester → ketone → 3° alkoxide), and aqueous acid both protonates the alkoxide and hydrolyzes the acetal back to the ketone: <b>1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH  2. CH<sub>3</sub>MgBr (excess)  3. H<sub>3</sub>O<sup>+</sup></b>.",
@@ -149,7 +149,7 @@
    }
   ],
   "c": [
-   "2-methylcyclohexan-1-one + but-3-en-2-one (methyl vinyl ketone), NaOEt, EtOH, heat",
+   "2-methylcyclohexan-1-one + methyl vinyl ketone, NaOEt, EtOH, heat",
    "cyclohexan-1-one + pent-3-en-2-one, NaOEt, EtOH, heat",
    "2-methylcyclohexane-1,3-dione + but-3-en-2-one, NaOEt, EtOH, heat",
    "2-methylcyclohex-2-en-1-one + propan-2-one (acetone), NaOEt, EtOH, heat"

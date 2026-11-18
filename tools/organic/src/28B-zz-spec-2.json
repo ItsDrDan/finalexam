@@ -6,10 +6,10 @@
   "k": 0,
   "q": "As a conjugated polyene gets longer (ethene → 1,3-butadiene → 1,3,5-hexatriene), its λ<sub>max</sub> moves to longer wavelength. Which explanation is correct?",
   "c": [
-   "Each added conjugated C=C adds π MOs, so the HOMO rises and the LUMO falls; the smaller HOMO–LUMO gap is bridged by lower-energy, longer-wavelength light",
-   "Each added conjugated C=C lowers the HOMO and raises the LUMO; the larger HOMO–LUMO gap is bridged by longer-wavelength light",
+   "Each added C=C adds π MOs, so the HOMO rises and the LUMO falls; the smaller gap is bridged by lower-energy, longer-wavelength light",
+   "Each added conjugated C=C lowers the HOMO and raises the LUMO; the larger HOMO–LUMO gap is then bridged by longer-wavelength light",
    "Longer polyenes absorb through σ → σ* transitions, which need less energy than the π → π* transitions of short alkenes",
-   "Conjugation stabilizes the molecule, so a higher-energy photon is needed to excite it, which raises λ<sub>max</sub>"
+   "Conjugation stabilizes the whole molecule, so a higher-energy photon is needed to excite it, which raises λ<sub>max</sub>"
   ],
   "h": "Picture the π MO ladder as p orbitals are added. What happens to the spacing in the middle, and how does photon energy relate to wavelength (E = hc/λ)?",
   "w": "Combining n p orbitals gives n π MOs spread over roughly the same total energy range, so the levels crowd together as n grows. The HOMO moves up and the LUMO moves down: ethene's gap is largest (λ<sub>max</sub> ≈ 171 nm), butadiene's smaller (217 nm), hexatriene's smaller still (≈ 258 nm). Because E = hc/λ, a smaller gap means a lower-energy photon, i.e. a longer wavelength. So: <b>the HOMO rises and the LUMO falls, shrinking the gap, so longer-wavelength light is absorbed</b>.",
@@ -97,10 +97,10 @@
   "k": 0,
   "q": "Lycopene, the pigment of tomatoes, is a C<sub>40</sub> hydrocarbon with 11 conjugated C=C bonds, and it looks red. Which statement explains its color?",
   "c": [
-   "Its long conjugated π system has a small HOMO–LUMO gap, so it absorbs blue-green visible light (about 470 nm) and we see the complementary red",
-   "It absorbs red light (about 650 nm), and the absorbed color is the color we see",
-   "Its π → π* band lies in the UV near 220 nm, and the red color comes from light it emits afterward",
-   "Its C=C bonds are separated by sp<sup>3</sup> carbons, so each absorbs on its own and the sum of the bands looks red"
+   "Its long π system has a small HOMO–LUMO gap; it absorbs blue-green light (about 470 nm), and we see the complementary red",
+   "It absorbs red light (about 650 nm) strongly, and the absorbed color is the color that we see",
+   "Its π → π* band lies in the UV near 220 nm, and the red color comes from light that it emits afterward as it relaxes",
+   "Its C=C bonds are separated by sp<sup>3</sup> carbons, so each one absorbs on its own and the sum of all the bands looks red"
   ],
   "h": "First decide where an 11-unit polyene absorbs (UV or visible). Then remember that an object's color is made of the light it does not absorb.",
   "w": "Each added conjugated C=C narrows the HOMO–LUMO gap. With 11 in a row, the π → π* band moves all the way into the visible region (λ<sub>max</sub> ≈ 470 nm, blue-green). The light that reaches the eye is what remains: the complementary color, red-orange. So: <b>a small HOMO–LUMO gap from extended conjugation gives absorption of blue-green light, and we see red</b>.",
@@ -133,10 +133,10 @@
    }
   ],
   "c": [
-   "The strong 217 nm band is gone: the product's only C=C is isolated between sp<sup>3</sup> carbons, so it has no strong π → π* band above 200 nm",
-   "The band moves to about 256 nm, because the product is a six-membered ring diene like 1,3-cyclohexadiene",
-   "The band grows stronger, because the two new σ bonds of the ring extend the conjugation",
-   "The band does not change, because a Diels–Alder reaction keeps the number of π bonds the same"
+   "The 217 nm band disappears: the product’s one C=C is isolated by sp<sup>3</sup> carbons, so no strong band remains above 200 nm",
+   "The band shifts to about 256 nm, because the product is a six-membered-ring conjugated diene like 1,3-cyclohexadiene",
+   "The band grows stronger, because the two new σ bonds of the ring extend the conjugation of the remaining C=C",
+   "The band does not change, because a Diels–Alder reaction keeps the total number of π bonds in the molecules the same"
   ],
   "h": "Count the π bonds before and after a [4+2] cycloaddition, and ask whether the C=C left in the ring is next to any other π bond.",
   "w": "In a Diels–Alder reaction three π bonds (two of the diene, one of the dienophile) become two new σ bonds and one new π bond, which sits between C2 and C3 of the old diene. In the product (<i>cis</i>-1,2,3,6-tetrahydrophthalic anhydride) that C=C is flanked by two CH<sub>2</sub> groups, so it is not conjugated with anything, and an isolated C=C absorbs below 200 nm. So <b>the strong 217 nm band disappears</b>; this is why the loss of diene absorption is used to follow Diels–Alder reactions.",

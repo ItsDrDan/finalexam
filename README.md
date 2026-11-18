@@ -21,6 +21,6 @@ Practice for standardized multiple-choice chemistry finals in **CHEM 3A, 3B, 1A,
 
 All questions are original. Not affiliated with or endorsed by any exam publisher.
 
-Current version: v56
+Current version: v58
 
 For editors: the question banks live in `data/`. The tools in `tools/` (append_questions.js, apply_fixes.js, validate_bank.js, organic/install_banks.js) read and write them through `tools/bankio.js`, which also refreshes the version stamps in index.html so browsers and the offline cache fetch updated files.

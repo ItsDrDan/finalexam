@@ -1246,10 +1246,10 @@
    }
   ],
   "c": [
-   "Cyanide ion, which is regenerated so only a catalytic amount of base or cyanide is needed",
+   "Cyanide ion, which is regenerated, so only catalytic base or cyanide is needed",
    "Hydroxide ion, which makes the mixture basic and drives the reaction to completion",
-   "Hydronium ion, which protonates the carbonyl for the next addition",
-   "Hydrogen gas, which escapes and makes the step irreversible"
+   "Hydronium ion, which protonates the next aldehyde C=O for the following addition",
+   "Hydrogen gas, which bubbles out of the mixture and makes this step irreversible"
   ],
   "h": "Follow the H–C bond of HCN: after the alkoxide takes the proton, where do that bond's electrons end up?",
   "w": "The alkoxide oxygen takes the proton from HCN, and the H–C bond electrons stay on carbon as a lone pair, so the step forms the cyanohydrin and <b>a new cyanide ion</b>. That cyanide can attack another aldehyde, so cyanide acts catalytically: a small amount of base (or NaCN) added to HCN is enough to run the reaction.",
@@ -1349,10 +1349,10 @@
    }
   ],
   "c": [
-   "A four-membered oxaphosphetane ring, which breaks apart to the alkene and Ph<sub>3</sub>P=O with its very strong P=O bond",
-   "An epoxide, which opens to the alkene with release of ring strain",
-   "A tertiary carbocation, which loses a proton to give the more substituted alkene",
-   "An enolate, which is protonated on carbon to give the alkene"
+   "An oxaphosphetane ring, which breaks apart to the alkene and Ph<sub>3</sub>P=O with its very strong P=O bond",
+   "An epoxide, which then opens to the alkene with release of its three-membered ring strain",
+   "A tertiary carbocation, which then loses a proton to give the more substituted alkene as the product",
+   "An enolate, which is then protonated on carbon to give the new alkene"
   ],
   "h": "The negatively charged oxygen and the positively charged phosphorus end up close together. What ring can they make, and which very strong bond appears in the by-product?",
   "w": "The ylide carbanion adds to the carbonyl carbon to give a betaine-like species with O<sup>−</sup> and P<sup>+</sup> on neighboring carbons (many textbooks show a direct [2+2] instead). The O–P bond then forms, giving <b>a four-membered oxaphosphetane</b>, which fragments into 2-methylpropene, (CH<sub>3</sub>)<sub>2</sub>C=CH<sub>2</sub>, and <b>triphenylphosphine oxide</b>. Formation of the very strong P=O bond is the driving force.",
@@ -1370,10 +1370,10 @@
   "k": 0,
   "q": "Butanal in methanol forms a hemiacetal with either a catalytic acid or a catalytic base (NaOCH<sub>3</sub>), but the acetal forms only with acid. Why does base not give the acetal?",
   "c": [
-   "The hemiacetal OH must be protonated to leave as water and form the oxocarbenium ion; in base it would have to leave as hydroxide, a very poor leaving group",
-   "Methoxide is too weak a nucleophile to add to an aldehyde carbonyl",
-   "In base the hemiacetal is deprotonated to an alkoxide, which immediately eliminates methoxide to form an ether",
-   "Base converts the aldehyde to a carboxylate before methanol can add"
+   "The hemiacetal OH must be protonated to leave as water; in base it would leave as hydroxide, a very poor leaving group",
+   "Methoxide is too weak a nucleophile to add to the aldehyde carbonyl of butanal at all",
+   "In base the hemiacetal is deprotonated to an alkoxide, which immediately eliminates methoxide to form an ether instead",
+   "Base converts the aldehyde to a carboxylate salt before methanol has a chance to add"
   ],
   "h": "Compare the two halves of acetal formation: addition (which base can help) and substitution of the OH (what does that need?).",
   "w": "Hemiacetal formation is only an addition, which base catalyzes by supplying the strong nucleophile CH<sub>3</sub>O<sup>−</sup>. Converting the hemiacetal to the acetal requires the OH to leave. In acid it is protonated and leaves as neutral water, helped by the OCH<sub>3</sub> lone pair, to give the oxocarbenium ion. <b>In base there is no way to make OH a good leaving group (hydroxide is a strong base), so the substitution step cannot occur</b>. This is also why acetals are stable to base, which makes them useful protecting groups.",
@@ -1454,9 +1454,9 @@
    }
   ],
   "c": [
-   "In acid, OCH<sub>3</sub> must be protonated and leave as methanol, giving an oxocarbenium ion that water attacks",
+   "In acid, OCH<sub>3</sub> is protonated and leaves as methanol, giving an oxocarbenium ion that water attacks",
    "Water should attack an oxygen of the acetal, since the oxygens are where the electron density is",
-   "Nothing is wrong; acetal hydrolysis is a one-step S<sub>N</sub>2 displacement at the acetal carbon",
+   "Nothing is wrong; acetal hydrolysis is a one-step S<sub>N</sub>2 displacement of methoxide at the acetal carbon",
    "The first step should be loss of a hydride from the acetal carbon to make a carbonyl"
   ],
   "h": "Under acid, what does a leaving group look like? And is there a neighboring atom that can stabilize a cation on the acetal carbon?",
@@ -1498,9 +1498,9 @@
   ],
   "c": [
    "Acetic acid (pK<sub>a</sub> 4.8) is far stronger than methanol (pK<sub>a</sub> 15.5), so K ≈ 10<sup>11</sup> and methanol cannot attack the carboxylate",
-   "Methoxide is a better leaving group than hydroxide, so once it leaves, the ester cannot re-form from the acid",
-   "A new C–O bond forms in this step, and forming a bond is always irreversible, so the ester cannot return",
-   "Methanol evaporates from the warm mixture as it forms, so Le Châtelier's principle pulls the equilibrium forward"
+   "Methoxide is a better leaving group than hydroxide, so once it has left, the ester cannot re-form from the acid",
+   "A new C–O bond forms in this step, and forming a bond is always irreversible, so the ester can never return",
+   "Methanol evaporates from the warm reaction mixture as it forms, so Le Châtelier’s principle pulls the equilibrium forward"
   ],
   "h": "Compare the pK<sub>a</sub> of the acid on the left with that of the base's conjugate acid. What does a gap of about 10 pK<sub>a</sub> units mean for K?",
   "w": "The arrows show a proton transfer: methoxide takes the O–H proton of acetic acid. Because acetic acid (pK<sub>a</sub> ≈ 4.8) is far stronger than methanol (pK<sub>a</sub> ≈ 15.5), K ≈ 10<sup>15.5−4.8</sup> ≈ 10<sup>11</sup>. <b>The carboxylate formed is a resonance-stabilized anion and a very poor electrophile, so methanol cannot attack it to reverse the reaction</b>. That is why saponification needs a full equivalent of base and gives the carboxylic acid only after acid workup.",
@@ -1541,10 +1541,10 @@
    }
   ],
   "c": [
-   "It skips protonating the C=O and has OH<sup>−</sup> leave directly; methanol must add to the protonated C=O, and water leaves later",
-   "Methanol should attack the carbonyl oxygen, not the carbonyl carbon, because that oxygen is protonated first",
+   "It skips protonating the C=O and has OH<sup>−</sup> leave directly; methanol must add to the protonated C=O, then water leaves",
+   "Methanol should attack the carbonyl oxygen, not the carbonyl carbon, because that oxygen is the atom protonated first",
    "Nothing is wrong except that the methanol O–H proton should be shown leaving before the new C–O bond forms",
-   "The arrows are backwards: the acid's OH oxygen should attack the methanol carbon and displace water"
+   "The arrows are backwards: the acid’s OH oxygen should attack the methanol carbon and displace water from it"
   ],
   "h": "Compare the drawing with the addition–elimination pattern of acyl substitution under acid. What is the leaving group, and is the carbonyl activated?",
   "w": "The drawing makes two classic errors. It shows an S<sub>N</sub>2-like direct displacement at a trigonal acyl carbon, and its leaving group is hydroxide in strongly acidic solution. In the accepted mechanism the carbonyl oxygen is protonated first, methanol adds to give a tetrahedral intermediate, a proton shift puts H<sup>+</sup> on an OH, and <b>water (not hydroxide) leaves as the C=O re-forms</b>. Isotope labeling confirms this pathway: the ester oxygen comes from methanol and the water oxygen from the acid.",
@@ -1584,10 +1584,10 @@
    }
   ],
   "c": [
-   "To take up the HCl formed, which would otherwise protonate the amine to a non-nucleophilic ammonium salt",
-   "To attack the carbonyl a second time and convert the amide product into a tertiary amine",
-   "To act as the leaving group in place of chloride, since an amine leaves more easily than Cl<sup>−</sup>",
-   "To reduce the amide to an amine after it forms, using its N–H hydrogens as the hydride source"
+   "To take up the HCl formed, which would otherwise protonate the amine to an unreactive ammonium salt",
+   "To attack the amide carbonyl a second time and convert the amide product into a tertiary amine",
+   "To act as the leaving group in place of chloride, since a neutral amine leaves more easily than Cl<sup>−</sup>",
+   "To reduce the amide to an amine after it forms, using its own N–H hydrogens as the hydride source"
   ],
   "h": "Track the protons: what acid is released overall, and what happens to an amine when it meets that acid?",
   "w": "After addition and loss of chloride, the amide nitrogen still carries the H that came from the amine, and overall the reaction releases HCl. A second equivalent of base takes that proton. <b>Without it the HCl would protonate unreacted diethylamine to diethylammonium chloride, which has no lone pair and cannot attack</b>, so the yield would stop near 50%.",

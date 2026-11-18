@@ -1,0 +1,72 @@
+[
+ {
+  "id": "28A-231",
+  "field": "c[1]",
+  "old": "A strong band near 1715 cm<sup>−1</sup> appears, and the weak band near 3020 cm<sup>−1</sup> disappears",
+  "new": "A strong band near 1715 cm<sup>−1</sup> appears, and the weak band near 3020 cm<sup>−1</sup> disappears completely",
+  "why": "choice-length fairness (round 2)"
+ },
+ {
+  "id": "28A-255",
+  "field": "c[0]",
+  "old": "The molecular ion loses ·CH<sub>3</sub> very easily because the product is the tertiary (CH<sub>3</sub>)<sub>3</sub>C<sup>+</sup> cation",
+  "new": "The molecular ion easily loses ·CH<sub>3</sub> to give the tertiary (CH<sub>3</sub>)<sub>3</sub>C<sup>+</sup> cation",
+  "why": "choice-length fairness (round 2)"
+ },
+ {
+  "id": "28A-255",
+  "field": "c[2]",
+  "old": "The molecular ion undergoes a McLafferty rearrangement and expels CH<sub>4</sub>",
+  "new": "The molecular ion undergoes a McLafferty rearrangement and expels a neutral CH<sub>4</sub> molecule",
+  "why": "choice-length fairness (round 2)"
+ },
+ {
+  "id": "28A-845",
+  "field": "c[0]",
+  "old": "McLafferty rearrangement: a γ-H moves to the C=O oxygen and neutral ethene (28) is lost",
+  "new": "McLafferty rearrangement: a γ-H moves to the C=O oxygen and ethene (28) is lost",
+  "why": "choice-length fairness (round 2)"
+ },
+ {
+  "id": "28A-846",
+  "field": "c[1]",
+  "old": "In the IR spectrum, I shows a C–X band near 1715 cm<sup>−1</sup> that II lacks",
+  "new": "In the IR spectrum, I shows a strong C–X band near 1715 cm<sup>−1</sup> that II lacks",
+  "why": "choice-length fairness (round 2)"
+ },
+ {
+  "id": "28A-846",
+  "field": "c[2]",
+  "old": "In the mass spectrum, M<sup>+</sup> is at an odd m/z for I and an even m/z for II",
+  "new": "In the mass spectrum, M<sup>+</sup> appears at an odd m/z value for I and at an even m/z value for II",
+  "why": "choice-length fairness (round 2)"
+ },
+ {
+  "id": "28A-846",
+  "field": "c[3]",
+  "old": "In the IR spectrum, II shows a broad band near 3350 cm<sup>−1</sup> that I lacks",
+  "new": "In the IR spectrum, II shows a broad band near 3350 cm<sup>−1</sup> that I lacks entirely",
+  "why": "choice-length fairness (round 2)"
+ },
+ {
+  "id": "28A-848",
+  "field": "c[3]",
+  "old": "<sup>13</sup>C NMR, because they give different numbers of signals",
+  "new": "<sup>13</sup>C NMR, because they give different numbers of carbon signals",
+  "why": "choice-length fairness (round 2)"
+ },
+ {
+  "id": "28A-849",
+  "field": "c[0]",
+  "old": "The α-cleavage base peak appears at m/z 31 for I and at m/z 45 for II",
+  "new": "The α-cleavage base peak is at m/z 31 for I and at m/z 45 for II",
+  "why": "choice-length fairness (round 2)"
+ },
+ {
+  "id": "28A-849",
+  "field": "c[2]",
+  "old": "Only I shows a peak for loss of water from the molecular ion",
+  "new": "Only I shows a peak for loss of water (M − 18) from the molecular ion",
+  "why": "choice-length fairness (round 2)"
+ }
+]

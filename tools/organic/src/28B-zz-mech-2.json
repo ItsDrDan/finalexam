@@ -1296,8 +1296,8 @@
    }
   ],
   "c": [
-   "An Si–O bond forms, giving a silyl enol ether: oxygen carries most of the negative charge and the Si–O bond is very strong",
-   "An Si–C bond forms at the α-carbon, because the carbanion form is the major resonance contributor",
+   "An Si–O bond forms (a silyl enol ether): oxygen carries most of the charge and Si–O bonds are very strong",
+   "An Si–C bond forms at the α-carbon, because the carbanion form is the major resonance contributor of the enolate",
    "An Si–C bond forms, because carbon is less electronegative and C–Si bonds are stronger than Si–O bonds",
    "An Si–O bond forms, because enolates react through oxygen with all electrophiles, including CH<sub>3</sub>I"
   ],
@@ -1412,9 +1412,9 @@
    }
   ],
   "c": [
-   "Three bromines stabilize the carbanion inductively, so <sup>−</sup>CBr<sub>3</sub> is a far weaker base than <sup>−</sup>CH<sub>3</sub> (CHBr<sub>3</sub> pK<sub>a</sub> ≈ 14 vs. CH<sub>4</sub> ≈ 50)",
-   "The negative charge of <sup>−</sup>CBr<sub>3</sub> is delocalized by resonance into the C=O of benzoic acid",
-   "The C–CBr<sub>3</sub> bond breaks homolytically, so no carbanion has to form",
+   "Three bromines stabilize the carbanion inductively, so <sup>−</sup>CBr<sub>3</sub> is a far weaker base than <sup>−</sup>CH<sub>3</sub> (pK<sub>a</sub> ≈ 14 vs. 50)",
+   "The negative charge of <sup>−</sup>CBr<sub>3</sub> is delocalized by resonance into the C=O of the benzoic acid formed in this step",
+   "The C–CBr<sub>3</sub> bond breaks homolytically to give two radicals, so no carbanion ever has to form",
    "Steric strain from three large bromines weakens the C–C bond, whatever the stability of the anion"
   ],
   "h": "A good leaving group is a weak base. Compare the acidity of CHBr<sub>3</sub> with that of CH<sub>4</sub>.",
@@ -1462,9 +1462,9 @@
    }
   ],
   "c": [
-   "It is fast; the slow step is removal of an α-hydrogen from the O-protonated ketone to form the enol",
+   "It is fast; the slow step is loss of an α-H from the O-protonated ketone to form the enol",
    "It is the rate-determining step, so the rate law should be rate = <i>k</i>[enol][Br<sub>2</sub>]",
-   "It is fast; the slow step is protonation of the carbonyl oxygen by H<sub>3</sub>O<sup>+</sup>",
+   "It is fast; the slow step is protonation of the carbonyl oxygen by H<sub>3</sub>O<sup>+</sup> before the enol forms",
    "It is the rate-determining step, but Br<sub>2</sub> is regenerated, so [Br<sub>2</sub>] cancels from the rate law"
   ],
   "h": "If halogen concentration and identity do not affect the rate, the halogen must enter after the slow step. Which earlier step involves both the ketone and acid?",
@@ -1629,10 +1629,10 @@
    }
   ],
   "c": [
-   "An aldehyde C=O is more electrophilic than a ketone C=O, and benzaldehyde has no α-H, so it can serve only as the electrophile",
-   "Benzaldehyde forms a more stable enolate than acetone, so it is the better nucleophile",
-   "Acetone's C=O is too hindered for any nucleophile to add to it",
-   "The phenyl ring donates electrons to the enolate and makes it more nucleophilic"
+   "An aldehyde C=O is more electrophilic than a ketone C=O, and benzaldehyde has no α-H to form an enolate",
+   "Benzaldehyde forms a more stable, conjugated enolate than acetone, so it is the better nucleophile in the mix",
+   "Acetone’s C=O is too hindered by its two methyl groups for any nucleophile to add to it",
+   "The phenyl ring of benzaldehyde donates electrons to the enolate and makes it a stronger nucleophile"
   ],
   "h": "Compare the two carbonyl compounds as electrophiles, and ask which of them can form an enolate at all.",
   "w": "Aldehydes are more reactive electrophiles than ketones (less steric hindrance, only one electron-donating alkyl group), so the acetone enolate attacks benzaldehyde faster than acetone. Benzaldehyde has no α-hydrogen and cannot form an enolate, so the only productive combination is acetone enolate + benzaldehyde. <b>Benzaldehyde is the better electrophile and can act only as the electrophile.</b>",
@@ -1679,9 +1679,9 @@
    }
   ],
   "c": [
-   "The neutral enol is the nucleophile, reacting through its α-carbon; the O-protonated aldehyde is the electrophile",
-   "The enolate ion is the nucleophile; the neutral aldehyde is the electrophile",
-   "The O-protonated aldehyde is the nucleophile; the enol is the electrophile",
+   "The enol is the nucleophile, through its α-carbon; the O-protonated aldehyde is the electrophile",
+   "The enolate ion is the nucleophile through its α-carbon; the neutral aldehyde is the electrophile",
+   "The O-protonated aldehyde is the nucleophile; the enol, through its α-carbon, is the electrophile",
    "The enol is the nucleophile, reacting through its oxygen; the O-protonated aldehyde is the electrophile"
   ],
   "h": "In acid, which carbonyl-derived species exists in small amounts, and which carbonyl has been made more electrophilic? Follow the middle arrow.",
@@ -1732,10 +1732,10 @@
    }
   ],
   "c": [
-   "The electronegative bromine withdraws electron density inductively and stabilizes the enolate, making the CH<sub>2</sub>Br hydrogens more acidic",
-   "Bromine donates lone-pair electrons by resonance and stabilizes the negative charge",
-   "The CH<sub>3</sub> hydrogens of bromoacetone are not α to the carbonyl group",
-   "Bromine's size blocks the CH<sub>3</sub> group, so hydroxide can reach only the CH<sub>2</sub>Br hydrogens"
+   "Bromine withdraws electrons inductively and stabilizes the enolate, so the CH<sub>2</sub>Br hydrogens are more acidic",
+   "Bromine donates lone-pair electrons by resonance and stabilizes the negative charge on the α-carbon",
+   "The CH<sub>3</sub> hydrogens of bromoacetone are not α to the carbonyl group, so base cannot remove them",
+   "Bromine’s large size blocks the CH<sub>3</sub> group, so hydroxide can reach only the CH<sub>2</sub>Br hydrogens next to it"
   ],
   "h": "Consider how a halogen affects the stability of a nearby negative charge.",
   "w": "Bromine is electronegative, so it pulls electron density through the σ bond and stabilizes the developing negative charge on the adjacent carbon. The CH<sub>2</sub>Br hydrogens are therefore more acidic than the CH<sub>3</sub> hydrogens or acetone's own α-H. <b>Inductive withdrawal by Br makes the CH<sub>2</sub>Br protons more acidic</b>, so each bromination speeds up the next, and the same carbon is brominated three times (the start of the haloform reaction).",
@@ -1931,10 +1931,10 @@
    }
   ],
   "c": [
-   "Hydroxide saponifies the ester to acetate, a poor electrophile, and this step is essentially irreversible",
-   "Hydroxide is too weak a base to remove an α-hydrogen of the ester, so no enolate can form",
-   "Hydroxide adds to the C=O to give a stable acetal that cannot react with an enolate",
-   "Hydroxide replaces an α-hydrogen with OH, giving ethyl glycolate instead of the β-keto ester"
+   "Hydroxide saponifies the ester to acetate, a poor electrophile, in an essentially irreversible step",
+   "Hydroxide is too weak a base to remove an α-hydrogen of the ester, so no ester enolate can form",
+   "Hydroxide adds to the C=O to give a stable acetal that cannot react with an enolate afterward",
+   "Hydroxide replaces an α-hydrogen with OH, giving ethyl glycolate instead of the β-keto ester product"
   ],
   "h": "Follow the tetrahedral intermediate one more step. What acid–base reaction follows, and can the product go back?",
   "w": "Hydroxide adds to the ester C=O, the intermediate expels ethoxide, and the acetic acid formed is deprotonated at once (pK<sub>a</sub> 4.8). That last step makes saponification essentially irreversible, and the carboxylate is a very poor electrophile, so the ester is consumed. <b>Saponification to acetate destroys the ester</b>; that is why a Claisen uses the alkoxide that matches the ester.",

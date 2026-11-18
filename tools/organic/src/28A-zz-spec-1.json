@@ -1628,7 +1628,7 @@
    }
   ],
   "c": [
-   "McLafferty rearrangement: a γ-H moves to the C=O oxygen and neutral ethene (28) is lost",
+   "McLafferty rearrangement: a γ-H moves to the C=O oxygen and ethene (28) is lost",
    "α-Cleavage: the bond to the carbonyl carbon breaks and a propyl radical (43) is lost",
    "Inductive cleavage: the positive charge goes to the propyl group, giving C<sub>3</sub>H<sub>7</sub><sup>+</sup>",
    "Cleavage of the β C–C bond: an ethyl radical (29) is lost from one propyl chain"
@@ -1660,9 +1660,9 @@
   ],
   "c": [
    "In the mass spectrum, M+2 is about as tall as M<sup>+</sup> for I but about one-third as tall for II",
-   "In the IR spectrum, I shows a C–X band near 1715 cm<sup>−1</sup> that II lacks",
-   "In the mass spectrum, M<sup>+</sup> is at an odd m/z for I and an even m/z for II",
-   "In the IR spectrum, II shows a broad band near 3350 cm<sup>−1</sup> that I lacks"
+   "In the IR spectrum, I shows a strong C–X band near 1715 cm<sup>−1</sup> that II lacks",
+   "In the mass spectrum, M<sup>+</sup> appears at an odd m/z value for I and at an even m/z value for II",
+   "In the IR spectrum, II shows a broad band near 3350 cm<sup>−1</sup> that I lacks entirely"
   ],
   "h": "Think about the natural isotopes of bromine and chlorine and which technique detects masses.",
   "w": "Bromine is about 50% <sup>79</sup>Br and 50% <sup>81</sup>Br, so a monobromide shows M<sup>+</sup> and M+2 of nearly equal height (here m/z 136/138). Chlorine is about 75% <sup>35</sup>Cl and 25% <sup>37</sup>Cl, so a monochloride shows M+2 about one-third of M<sup>+</sup> (m/z 92/94). <b>The M+2 pattern in the mass spectrum</b> tells them apart immediately.",
@@ -1724,7 +1724,7 @@
    "Polarimetry, because the two rotate plane-polarized light in opposite directions",
    "IR spectroscopy, because their O–H stretches appear at different wavenumbers",
    "Mass spectrometry, because their base peaks appear at different m/z values",
-   "<sup>13</sup>C NMR, because they give different numbers of signals"
+   "<sup>13</sup>C NMR, because they give different numbers of carbon signals"
   ],
   "h": "First decide how the two structures are related. Which properties are identical for that relationship?",
   "w": "I is (<i>R</i>)-2-butanol and II is (<i>S</i>)-2-butanol, a pair of enantiomers. Enantiomers have identical IR, mass and NMR spectra (in an achiral environment) because every bond, mass and magnetic environment is the same. They differ only in how they interact with something chiral, such as plane-polarized light: they have specific rotations of equal size and opposite sign. <b>Polarimetry</b> distinguishes them.",
@@ -1752,9 +1752,9 @@
    }
   ],
   "c": [
-   "The α-cleavage base peak appears at m/z 31 for I and at m/z 45 for II",
+   "The α-cleavage base peak is at m/z 31 for I and at m/z 45 for II",
    "The molecular ion appears at m/z 60 for I and at m/z 58 for II",
-   "Only I shows a peak for loss of water from the molecular ion",
+   "Only I shows a peak for loss of water (M − 18) from the molecular ion",
    "Only II shows an M+2 peak about one-third as tall as M<sup>+</sup>"
   ],
   "h": "Both have M = 60. Work out the oxonium ion each alcohol forms when the largest group on the carbinol carbon leaves.",
