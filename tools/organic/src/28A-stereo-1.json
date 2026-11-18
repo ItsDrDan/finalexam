@@ -1,0 +1,489 @@
+[
+ {
+  "id": "st01",
+  "d": 1,
+  "q": "What is the configuration at carbon <i>a</i>, and which priority order supports it?",
+  "s": [
+   {
+    "smi": "C=C[C@H:1](Cl)C"
+   }
+  ],
+  "c": [
+   "R (Cl > CH=CH<sub>2</sub> > CH<sub>3</sub> > H)",
+   "S (Cl > CH=CH<sub>2</sub> > CH<sub>3</sub> > H)",
+   "S (Cl > CH<sub>3</sub> > CH=CH<sub>2</sub> > H)",
+   "R (Cl > CH<sub>3</sub> > CH=CH<sub>2</sub> > H)"
+  ],
+  "h": "Rank by atomic number of the attached atoms; for the two carbons, list what each one is bonded to (a double bond counts its partner twice).",
+  "w": "Cl (Z = 17) is first. The vinyl carbon carries (C, C, H) because the C=C partner is duplicated, which beats CH<sub>3</sub> (H, H, H). H is last. Viewing with H pointed away from you, Cl → CH=CH<sub>2</sub> → CH<sub>3</sub> runs clockwise, so carbon <i>a</i> is <b>R</b>.",
+  "x": [
+   "",
+   "The priority order is right, but the direction was read with H toward the viewer without reversing it; correctly viewed, the path is clockwise (R).",
+   "CH<sub>3</sub> (H, H, H) cannot outrank the vinyl carbon (C, C, H); the duplicated C from the double bond wins the first point of difference.",
+   "CH<sub>3</sub> does not outrank CH=CH<sub>2</sub>, and with that wrong order the path would also be read as S, not R."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st02",
+  "d": 2,
+  "q": "What is the configuration at carbon <i>a</i>, and which priority order supports it?",
+  "s": [
+   {
+    "smi": "CC(C)[C@@H:1](O)CC=C"
+   }
+  ],
+  "c": [
+   "S (OH > CH(CH<sub>3</sub>)<sub>2</sub> > CH<sub>2</sub>CH=CH<sub>2</sub> > H)",
+   "R (OH > CH<sub>2</sub>CH=CH<sub>2</sub> > CH(CH<sub>3</sub>)<sub>2</sub> > H)",
+   "R (OH > CH(CH<sub>3</sub>)<sub>2</sub> > CH<sub>2</sub>CH=CH<sub>2</sub> > H)",
+   "S (OH > CH<sub>2</sub>CH=CH<sub>2</sub> > CH(CH<sub>3</sub>)<sub>2</sub> > H)"
+  ],
+  "h": "Compare the two carbon branches one atom at a time. The first point of difference decides; you never jump ahead to the double bond.",
+  "w": "OH is first. Next compare the atoms attached to carbon <i>a</i>: the isopropyl CH carries (C, C, H) and the allyl CH<sub>2</sub> carries (C, H, H). The first point of difference already favors isopropyl, so the C=C further out never matters. With H pointing away, OH → CH(CH<sub>3</sub>)<sub>2</sub> → CH<sub>2</sub>CH=CH<sub>2</sub> runs counterclockwise: <b>S</b>.",
+  "x": [
+   "",
+   "This ranks the allyl group above isopropyl because of its double bond, but the double bond is two atoms out; at the first atom isopropyl (C, C, H) beats CH<sub>2</sub> (C, H, H).",
+   "The priority order is right, but the direction is reversed; with H pointing away the path is counterclockwise.",
+   "The allyl group does not outrank isopropyl, so this order is wrong even though the letter matches."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st03",
+  "d": 2,
+  "q": "Carbon <i>a</i> carries no hydrogen. What is its configuration?",
+  "s": [
+   {
+    "smi": "CC[C@:1](C)(O)C=C"
+   }
+  ],
+  "c": [
+   "S",
+   "R",
+   "It is not a chirality center, because it has no hydrogen",
+   "It cannot be assigned until the sign of optical rotation is measured"
+  ],
+  "h": "A chirality center needs four different groups, not a hydrogen. Here the lowest-priority group is a carbon group.",
+  "w": "Carbon <i>a</i> has four different groups: OH, CH=CH<sub>2</sub>, CH<sub>2</sub>CH<sub>3</sub> and CH<sub>3</sub>. Priorities: OH > CH=CH<sub>2</sub> (C, C, H) > CH<sub>2</sub>CH<sub>3</sub> (C, H, H) > CH<sub>3</sub> (H, H, H). With the CH<sub>3</sub> (priority 4) pointing away, OH → vinyl → ethyl runs counterclockwise, so the center is <b>S</b>.",
+  "x": [
+   "",
+   "R comes from reading the circle with the methyl (lowest priority) toward you without reversing, or from ranking ethyl above vinyl.",
+   "A chirality center needs four different groups, not an H; this carbon has OH, vinyl, ethyl and methyl.",
+   "R/S comes from the CIP rules and the 3-D arrangement; it has no fixed relation to the sign of rotation."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st04",
+  "d": 2,
+  "q": "What is the configuration at carbon <i>a</i> of this 2-methylcyclohexanone, and which priority order supports it?",
+  "s": [
+   {
+    "smi": "O=C1CCCC[C@@H:1]1C"
+   }
+  ],
+  "c": [
+   "S (C=O > ring CH<sub>2</sub> > CH<sub>3</sub> > H)",
+   "R (C=O > ring CH<sub>2</sub> > CH<sub>3</sub> > H)",
+   "R (C=O > CH<sub>3</sub> > ring CH<sub>2</sub> > H)",
+   "S (ring CH<sub>2</sub> > C=O > CH<sub>3</sub> > H)"
+  ],
+  "h": "Treat the two ring directions as two different substituents and list the atoms attached to each neighbor of carbon <i>a</i>.",
+  "w": "The carbonyl carbon carries (O, O, C) because the C=O oxygen is duplicated; the ring CH<sub>2</sub> carries (C, H, H); CH<sub>3</sub> carries (H, H, H). So C=O > ring CH<sub>2</sub> > CH<sub>3</sub> > H. With H pointing away, the path runs counterclockwise: <b>S</b>.",
+  "x": [
+   "",
+   "The priorities are right but the direction is reversed; check whether H is toward or away from you before reading the circle.",
+   "CH<sub>3</sub> (H, H, H) loses to the ring CH<sub>2</sub> (C, H, H) at the first point of difference.",
+   "The carbonyl carbon (O, O, C) outranks the ring CH<sub>2</sub> (C, H, H), so this order is wrong even though the letter matches."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st05",
+  "d": 2,
+  "q": "Assign the configurations of carbons <i>a</i> and <i>b</i>.",
+  "s": [
+   {
+    "smi": "N[C@@H:1]1CCC[C@H:2]1O"
+   }
+  ],
+  "c": [
+   "<i>a</i> = R, <i>b</i> = R",
+   "<i>a</i> = S, <i>b</i> = S",
+   "<i>a</i> = R, <i>b</i> = S",
+   "<i>a</i> = S, <i>b</i> = R"
+  ],
+  "h": "At each center the heteroatom is first, and the neighboring ring carbon that carries the other heteroatom is second.",
+  "w": "At <i>a</i>: NH<sub>2</sub> > C<i>b</i> (O, C, H) > ring CH<sub>2</sub> (C, H, H) > H; the path is clockwise with H away, so <i>a</i> is R. At <i>b</i>: OH > C<i>a</i> (N, C, H) > ring CH<sub>2</sub> > H; also clockwise, so <i>b</i> is R. The answer is <b><i>a</i> = R, <i>b</i> = R</b> (the trans isomer).",
+  "x": [
+   "",
+   "This is the enantiomer; both directions were read with H toward the viewer without reversing.",
+   "Carbon <i>b</i> was misread; at <i>b</i> the OH is first and C<i>a</i> (N, C, H) is second, which gives R.",
+   "Carbon <i>a</i> was misread; at <i>a</i> the NH<sub>2</sub> is first and C<i>b</i> (O, C, H) is second, which gives R."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st06",
+  "d": 3,
+  "q": "What is the configuration at carbon <i>a</i>, and which priority order supports it?",
+  "s": [
+   {
+    "smi": "OC[C@H:1](C#C)C(C)C"
+   }
+  ],
+  "c": [
+   "S (CH<sub>2</sub>OH > C≡CH > CH(CH<sub>3</sub>)<sub>2</sub> > H)",
+   "R (C≡CH > CH<sub>2</sub>OH > CH(CH<sub>3</sub>)<sub>2</sub> > H)",
+   "R (CH(CH<sub>3</sub>)<sub>2</sub> > C≡CH > CH<sub>2</sub>OH > H)",
+   "S (C≡CH > CH<sub>2</sub>OH > CH(CH<sub>3</sub>)<sub>2</sub> > H)"
+  ],
+  "h": "Write the three attached atoms for each carbon branch. One oxygen beats any number of carbons at the first point of difference.",
+  "w": "The attached sets are CH<sub>2</sub>OH (O, H, H), C≡CH (C, C, C, the triple bond duplicated twice) and CH(CH<sub>3</sub>)<sub>2</sub> (C, C, H). Compare highest atoms first: O beats C, so CH<sub>2</sub>OH is first; then (C, C, C) beats (C, C, H). Order: CH<sub>2</sub>OH > C≡CH > CH(CH<sub>3</sub>)<sub>2</sub> > H. With H pointing away the path is counterclockwise, so <b>S</b>.",
+  "x": [
+   "",
+   "C≡CH has more attached atoms, but CIP compares the highest atom first: the O on CH<sub>2</sub>OH beats every C.",
+   "Group size or mass does not set priority; isopropyl (C, C, H) is last among the three carbon groups.",
+   "With C≡CH ranked first the circle would read R, so this combination is internally inconsistent as well as misranked."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st07",
+  "d": 2,
+  "q": "Carbon <i>a</i> in this labeled ethanol carries one H and one deuterium (D = <sup>2</sup>H). What is its configuration?",
+  "s": [
+   {
+    "smi": "[1*][C@@H:1](O)C",
+    "ab": [
+     "D"
+    ]
+   }
+  ],
+  "c": [
+   "R (OH > CH<sub>3</sub> > D > H)",
+   "S (OH > CH<sub>3</sub> > D > H)",
+   "S (OH > D > CH<sub>3</sub> > H)",
+   "Not a chirality center, because H and D are the same element"
+  ],
+  "h": "When atomic numbers tie, the CIP rules use atomic mass. Then ask where D ranks relative to a carbon.",
+  "w": "Isotopes are different groups: D (mass 2) outranks H (mass 1), but both rank below carbon. Priorities: OH > CH<sub>3</sub> > D > H. With H pointing away, OH → CH<sub>3</sub> → D is clockwise, so the center is <b>R</b>. Compounds like this are chiral and are used to follow the stereochemistry of reactions.",
+  "x": [
+   "",
+   "The priority order is right but the direction is reversed; read the path with H away from you.",
+   "D has atomic number 1, so it ranks below carbon (Z = 6); mass only breaks ties between the same element.",
+   "H and D differ in mass, which the CIP rules use to break the tie, so carbon <i>a</i> has four different groups."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st08",
+  "d": 2,
+  "q": "The natural (L) form of the amino acid cysteine is drawn. What is the configuration at carbon <i>a</i>?",
+  "s": [
+   {
+    "smi": "N[C@@H:1](CS)C(=O)O"
+   }
+  ],
+  "c": [
+   "R, because CH<sub>2</sub>SH outranks CO<sub>2</sub>H",
+   "S, because every L amino acid is S",
+   "S, because CO<sub>2</sub>H outranks CH<sub>2</sub>SH",
+   "R, because CO<sub>2</sub>H outranks CH<sub>2</sub>SH"
+  ],
+  "h": "Compare the first atoms attached to the two carbon branches: CH<sub>2</sub>SH has (S, H, H) and CO<sub>2</sub>H has (O, O, O).",
+  "w": "NH<sub>2</sub> is first. CH<sub>2</sub>SH (S, H, H) beats CO<sub>2</sub>H (O, O, O) because S (Z = 16) beats O (Z = 8) at the first point of difference. The order NH<sub>2</sub> > CH<sub>2</sub>SH > CO<sub>2</sub>H > H gives clockwise with H away, so L-cysteine is <b>R</b>. It is the common exception to \"L = S\".",
+  "x": [
+   "",
+   "D/L is a Fischer-projection label and R/S is a CIP label; they usually line up for amino acids but not for cysteine, where sulfur changes the priorities.",
+   "CO<sub>2</sub>H has three oxygens, but CIP compares the highest atom first, and one S beats any O.",
+   "If CO<sub>2</sub>H did outrank CH<sub>2</sub>SH, this drawing would be S, so the reason and the letter do not fit together."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st09",
+  "d": 2,
+  "q": "Which structure is (2<i>S</i>,3<i>R</i>)-3-chlorobutan-2-ol?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@H](O)[C@@H](C)Cl"
+   },
+   {
+    "smi": "C[C@H](Cl)[C@@H](C)O"
+   },
+   {
+    "smi": "C[C@H](O)[C@H](C)Cl"
+   },
+   {
+    "smi": "C[C@@H](O)[C@@H](C)Cl"
+   }
+  ],
+  "h": "Number from the end nearer the OH (C2 carries OH, C3 carries Cl), then assign each center separately.",
+  "w": "At C2: OH > C3 (Cl, C, H) > CH<sub>3</sub> > H. At C3: Cl > C2 (O, C, H) > CH<sub>3</sub> > H. Only one structure gives S at the OH carbon and R at the Cl carbon, so it is <b>(2S,3R)</b>. The other three are its enantiomer (2R,3S) and the two diastereomers (2S,3S) and (2R,3R).",
+  "x": [
+   "",
+   "This is (2R,3S), the enantiomer: both centers are inverted.",
+   "This is (2S,3S); the OH carbon is right but the Cl carbon is S.",
+   "This is (2R,3R); the Cl carbon is right but the OH carbon is R."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st10",
+  "d": 1,
+  "q": "Rank these substituents in CIP priority, highest first: −CO<sub>2</sub>H, −CHO, −CH<sub>2</sub>OH, −CH(CH<sub>3</sub>)<sub>2</sub>.",
+  "c": [
+   "−CO<sub>2</sub>H > −CHO > −CH<sub>2</sub>OH > −CH(CH<sub>3</sub>)<sub>2</sub>",
+   "−CHO > −CO<sub>2</sub>H > −CH<sub>2</sub>OH > −CH(CH<sub>3</sub>)<sub>2</sub>",
+   "−CO<sub>2</sub>H > −CHO > −CH(CH<sub>3</sub>)<sub>2</sub> > −CH<sub>2</sub>OH",
+   "−CH(CH<sub>3</sub>)<sub>2</sub> > −CO<sub>2</sub>H > −CHO > −CH<sub>2</sub>OH"
+  ],
+  "h": "Write the set of three atoms on each attached carbon (count a double-bonded O twice) and compare highest atom first.",
+  "w": "Attached sets: CO<sub>2</sub>H (O, O, O); CHO (O, O, H); CH<sub>2</sub>OH (O, H, H); CH(CH<sub>3</sub>)<sub>2</sub> (C, C, H). All three oxygen-bearing carbons start with O, so compare the next atom; the isopropyl group loses at the first atom. Order: <b>−CO<sub>2</sub>H > −CHO > −CH<sub>2</sub>OH > −CH(CH<sub>3</sub>)<sub>2</sub></b>.",
+  "x": [
+   "",
+   "CHO has (O, O, H) and CO<sub>2</sub>H has (O, O, O); the third atom decides, and O beats H.",
+   "CH<sub>2</sub>OH has an O on its first carbon, which beats the (C, C, H) of isopropyl regardless of how many carbons follow.",
+   "Size and mass do not set priority; isopropyl has no O on its first carbon, so it is last."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st11",
+  "d": 2,
+  "q": "What is the relationship between compounds I and II?",
+  "s": [
+   {
+    "smi": "C[C@@H](O)[C@H](Cl)C",
+    "cap": "I"
+   },
+   {
+    "smi": "C[C@H](O)[C@H](Cl)C",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "Diastereomers",
+   "Enantiomers",
+   "Identical",
+   "Constitutional isomers"
+  ],
+  "h": "Assign R/S to both centers of each compound and compare: are both inverted, one inverted, or none?",
+  "w": "Both are 3-chlorobutan-2-ol, so they are stereoisomers. I is (2R,3R) and II is (2S,3R): the OH carbon differs and the Cl carbon is the same. Stereoisomers that differ at some but not all centers are <b>diastereomers</b>.",
+  "x": [
+   "",
+   "Enantiomers differ at every chirality center; here the Cl-bearing carbon is R in both.",
+   "The OH-bearing carbon is R in I and S in II, so they are not the same compound.",
+   "The atoms are connected in the same order in both (OH on C2, Cl on C3), so they are not constitutional isomers."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st12",
+  "d": 3,
+  "q": "Compounds I and II are both 2-methylcyclohexan-1-ol. What is their relationship?",
+  "s": [
+   {
+    "smi": "C[C@@H]1CCCC[C@H]1O",
+    "cap": "I"
+   },
+   {
+    "smi": "O[C@@H]1CCCC[C@H]1C",
+    "cap": "II",
+    "rot": 150
+   }
+  ],
+  "c": [
+   "Identical",
+   "Enantiomers",
+   "Diastereomers",
+   "Constitutional isomers"
+  ],
+  "h": "Do not judge by the orientation on the page. Assign R/S at the OH carbon and at the CH<sub>3</sub> carbon of each.",
+  "w": "In both drawings the OH carbon is R (OH > C–CH<sub>3</sub> ring carbon > ring CH<sub>2</sub> > H) and the CH<sub>3</sub> carbon is R. Same configuration at every center means the drawings are the same molecule turned on the page: <b>identical</b> (both are the trans isomer, (1R,2R)).",
+  "x": [
+   "",
+   "Enantiomers would show opposite configurations at both centers; here both centers match.",
+   "Diastereomers would differ at exactly one of the two centers; neither center differs.",
+   "Both have OH and CH<sub>3</sub> on adjacent ring carbons, so the connectivity is the same."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st13",
+  "d": 2,
+  "q": "What is the relationship between drawings I and II of 2,3-dibromobutane?",
+  "s": [
+   {
+    "smi": "C[C@@H](Br)[C@@H](Br)C",
+    "cap": "I"
+   },
+   {
+    "smi": "Br[C@H](C)[C@H](C)Br",
+    "cap": "II",
+    "rot": 90
+   }
+  ],
+  "c": [
+   "Identical (both are the meso compound)",
+   "Enantiomers",
+   "Diastereomers",
+   "Identical (both are the chiral (2R,3R) isomer)"
+  ],
+  "h": "Assign both centers in each drawing. If a molecule has R and S at two equivalently substituted centers, ask what its mirror image is.",
+  "w": "Each drawing has one R and one S center. For 2,3-dibromobutane, (2R,3S) and (2S,3R) are the same molecule because the two halves are equivalent and an internal mirror plane exists. Both drawings are the <b>meso compound</b>, so they are identical.",
+  "x": [
+   "",
+   "A meso compound is its own mirror image, so it has no enantiomer; the mirror-image look of the drawings is misleading.",
+   "Diastereomers would differ at only one center, but here (2R,3S) and (2S,3R) describe the same achiral molecule.",
+   "The two drawings are identical, but each has one R and one S center, so neither is (2R,3R)."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st14",
+  "d": 2,
+  "q": "What is the relationship between compounds I and II?",
+  "s": [
+   {
+    "smi": "Br[C@@H]1CCC[C@H]1Br",
+    "cap": "I"
+   },
+   {
+    "smi": "Br[C@H]1CCC[C@@H]1Br",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "Enantiomers",
+   "Identical (both are meso)",
+   "Diastereomers",
+   "Constitutional isomers"
+  ],
+  "h": "Decide cis or trans first. Only the cis isomer has an internal mirror plane.",
+  "w": "Both are trans-1,2-dibromocyclopentane (one Br wedged, one dashed). I is (1R,2R) and II is (1S,2S). Trans-1,2-disubstitution with identical groups has no mirror plane, so the molecule is chiral and I and II are <b>enantiomers</b>.",
+  "x": [
+   "",
+   "Only the cis isomer of 1,2-dibromocyclopentane is meso; the trans isomer has no internal mirror plane.",
+   "Both are trans with opposite configurations at both centers, which makes them mirror images, not diastereomers.",
+   "Both have Br on adjacent ring carbons, so the connectivity is the same."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st15",
+  "d": 3,
+  "q": "Menthol (peppermint) has three chirality centers. Assign carbons <i>a</i>, <i>b</i> and <i>c</i>.",
+  "s": [
+   {
+    "smi": "CC(C)[C@@H:2]1CC[C@@H:3](C)C[C@H:1]1O"
+   }
+  ],
+  "c": [
+   "<i>a</i> = R, <i>b</i> = S, <i>c</i> = R",
+   "<i>a</i> = S, <i>b</i> = R, <i>c</i> = S",
+   "<i>a</i> = R, <i>b</i> = R, <i>c</i> = R",
+   "<i>a</i> = S, <i>b</i> = S, <i>c</i> = R"
+  ],
+  "h": "At each ring carbon, the two ring directions are different groups: follow each until they differ.",
+  "w": "<i>a</i> (C–OH): OH > ring C bearing the isopropyl (C, C, H) > ring CH<sub>2</sub> (C, H, H) > H → R. <i>b</i> (C–isopropyl): C<i>a</i> (O, C, H) > isopropyl CH (C, C, H) > ring CH<sub>2</sub> (C, H, H) > H → S. <i>c</i> (C–CH<sub>3</sub>): both ring neighbors are CH<sub>2</sub> (C, H, H) and tie; one atom further, the path toward C<i>a</i> reaches a carbon bearing O, which beats the CH<sub>2</sub> on the other path. So ring path toward <i>a</i> > other ring path > CH<sub>3</sub> > H → R. Natural menthol is <b>(1R,2S,5R)</b>: <i>a</i> = R, <i>b</i> = S, <i>c</i> = R.",
+  "x": [
+   "",
+   "This is the enantiomer (all three inverted), which comes from reading every center with H toward you without reversing.",
+   "At <i>b</i>, C<i>a</i> (with its O) outranks the isopropyl carbon (C, C, H); swapping them gives the wrong letter R.",
+   "At <i>a</i>, OH is first and the isopropyl-bearing ring carbon is second; that order gives R, not S."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st16",
+  "d": 3,
+  "q": "Which of the tagged carbons is a chirality center (four different groups)?",
+  "s": [
+   {
+    "smi": "C[CH2:4][CH:1](C)[CH:2]1CC[CH:3](O)CC1"
+   }
+  ],
+  "c": [
+   "<i>a</i> only",
+   "<i>a</i>, <i>b</i> and <i>c</i>",
+   "<i>b</i> and <i>c</i> only",
+   "<i>a</i> and <i>d</i> only"
+  ],
+  "h": "For each ring carbon, compare the two paths around the ring. If they are identical, that carbon has two identical groups.",
+  "w": "Carbon <i>a</i> carries H, CH<sub>3</sub>, CH<sub>2</sub>CH<sub>3</sub> and the cyclohexyl ring: four different groups, so it is a chirality center. Carbons <i>b</i> and <i>c</i> sit at C1 and C4 of a 1,4-disubstituted ring; the two ring paths from each are identical, so neither is a chirality center (they do make cis/trans isomers possible, but cis and trans here are achiral diastereomers). Carbon <i>d</i> is a CH<sub>2</sub>. <b><i>a</i> only</b>.",
+  "x": [
+   "",
+   "Carbons <i>b</i> and <i>c</i> each have two identical ring paths (C1 and C4 of the ring), so they lack four different groups.",
+   "Being able to show cis/trans isomerism does not make <i>b</i> and <i>c</i> chirality centers; each still has two identical ring branches.",
+   "Carbon <i>d</i> is a CH<sub>2</sub> with two hydrogens, so it cannot be a chirality center."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st17",
+  "d": 2,
+  "q": "A wedge-and-dash drawing shows one chirality center. Which operation on the drawing turns it into a drawing of the <b>enantiomer</b>?",
+  "c": [
+   "Exchange the positions of two groups on the chirality center",
+   "Rotate the whole drawing 180° in the plane of the page",
+   "Make two separate exchanges of groups on the chirality center",
+   "Rotate the whole drawing 90° in the plane of the page"
+  ],
+  "h": "Which of these changes is a real motion of a molecule, and which one breaks and remakes bonds?",
+  "w": "Any single exchange of two groups inverts a center: <b>one swap gives the enantiomer</b>, a second swap restores the original. Rotating a wedge-and-dash drawing in the page is just moving the molecule, so it leaves the configuration unchanged at any angle.",
+  "x": [
+   "",
+   "Rotating a molecule never changes its configuration; the wedges stay wedges and the dashes stay dashes.",
+   "Two exchanges invert the center twice, which returns the original configuration.",
+   "A 90° turn inverts a Fischer projection, but a wedge-and-dash drawing is a true 3-D picture, so it can be turned in the page by any angle without change."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "st18",
+  "d": 2,
+  "q": "(2<i>R</i>,3<i>R</i>)-2,3-Dibromopentane has [α]<sub>D</sub> = +x. What can be said about [α]<sub>D</sub> of (2<i>R</i>,3<i>S</i>)-2,3-dibromopentane?",
+  "c": [
+   "It cannot be predicted; it must be measured",
+   "It is −x",
+   "It is 0, because the compound is meso",
+   "It is +x"
+  ],
+  "h": "Decide first how the two compounds are related, then recall which relationship fixes the rotation.",
+  "w": "Changing one of two centers gives a <b>diastereomer</b>, and diastereomers have unrelated physical properties, including optical rotation; the value must be measured. Only the enantiomer, (2S,3S), is required to show −x. 2,3-Dibromopentane has different groups (CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub>) on its two ends, so no stereoisomer is meso.",
+  "x": [
+   "",
+   "−x belongs to the enantiomer (2S,3S), where both centers are inverted.",
+   "Meso needs equivalent halves; with CH<sub>3</sub> on one end and CH<sub>2</sub>CH<sub>3</sub> on the other, (2R,3S) is chiral.",
+   "Diastereomers are different compounds, so there is no reason for their rotations to match."
+  ],
+  "t": "stereo",
+  "k": 0
+ }
+]

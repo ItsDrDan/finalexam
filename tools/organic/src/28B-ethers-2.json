@@ -1,0 +1,750 @@
+[
+ {
+  "id": "eth-21",
+  "d": 3,
+  "q": "(<i>R</i>)-2-Ethyl-2-methyloxirane is treated with CH<sub>3</sub>OH and a catalytic amount of H<sub>2</sub>SO<sub>4</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "CC[C@]1(C)CO1"
+   },
+   {
+    "arrow": "CH<sub>3</sub>OH",
+    "below": "H<sub>2</sub>SO<sub>4</sub> (cat.)"
+   },
+   "?"
+  ],
+  "c": [
+   "(<i>S</i>)-2-methoxy-2-methylbutan-1-ol",
+   "(<i>R</i>)-2-methoxy-2-methylbutan-1-ol",
+   "(<i>R</i>)-1-methoxy-2-methylbutan-2-ol",
+   "racemic 2-methoxy-2-methylbutan-1-ol"
+  ],
+  "cs": [
+   {
+    "smi": "CC[C@@](C)(CO)OC"
+   },
+   {
+    "smi": "CC[C@](C)(CO)OC"
+   },
+   {
+    "smi": "CC[C@@](C)(O)COC"
+   },
+   null
+  ],
+  "h": "Acid sets the regiochemistry (which carbon); the back-side attack sets the configuration at that carbon.",
+  "w": "Under acid, methanol attacks the <b>tertiary</b> carbon of the protonated epoxide. The attack is back-side, opposite the leaving oxygen (the ring is still bonded, so no free carbocation forms), so that stereocenter is <b>inverted</b>. Ranking the product carbon: OCH<sub>3</sub> > CH<sub>2</sub>OH > CH<sub>2</sub>CH<sub>3</sub> > CH<sub>3</sub>; with inversion this gives <b>(<i>S</i>)-2-methoxy-2-methylbutan-1-ol</b> (checked with CIP software).",
+  "x": [
+   "",
+   "Retention of configuration would need front-side attack; acid-catalyzed epoxide opening is back-side even at a tertiary carbon.",
+   "This is the product of attack at the CH<sub>2</sub> carbon, the regiochemistry for basic conditions (e.g. NaOCH<sub>3</sub>).",
+   "The ring oxygen is still bonded when methanol attacks, so there is no free planar carbocation and no racemization."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-22",
+  "d": 2,
+  "q": "Cyclohexene oxide reacts with HBr to give 2-bromocyclohexan-1-ol. Which describes the product in the chair conformation in which it is <b>first formed</b>?",
+  "s": [
+   {
+    "smi": "C1CC[C@H]2O[C@H]2C1"
+   },
+   {
+    "arrow": "HBr"
+   },
+   "?"
+  ],
+  "c": [
+   "<i>trans</i>; Br and OH both axial",
+   "<i>trans</i>; Br and OH both equatorial",
+   "<i>cis</i>; Br axial and OH equatorial",
+   "<i>cis</i>; Br equatorial and OH axial"
+  ],
+  "h": "Bromide attacks anti to the C–O bond. In a half-chair, which direction is anti to the epoxide oxygen?",
+  "w": "Bromide attacks the protonated epoxide from the side opposite the oxygen (anti opening). In the cyclohexane ring that path keeps the nucleophile and the leaving oxygen on a common axis, so the new C–Br bond and the C–OH bond are both axial on opposite faces: the product forms <b><i>trans</i>-diaxial</b>. It then ring-flips to the more stable diequatorial chair, but it stays <i>trans</i>.",
+  "x": [
+   "",
+   "The diequatorial chair is the more stable conformer reached after a ring flip; it is not the chair formed directly by anti opening.",
+   "Anti (back-side) opening always puts Br and OH on opposite faces, so the product is trans, not cis.",
+   "A cis product would need syn delivery of Br; epoxide opening is anti, giving the trans isomer."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-23",
+  "d": 2,
+  "q": "Cyclohexene oxide is treated with (1) NaN<sub>3</sub> in aqueous ethanol, then (2) LiAlH<sub>4</sub>, then (3) H<sub>2</sub>O. What is the product (racemic; one enantiomer drawn)?",
+  "s": [
+   {
+    "smi": "C1CC[C@H]2O[C@H]2C1"
+   },
+   {
+    "arrow": "1. NaN<sub>3</sub>, EtOH/H<sub>2</sub>O",
+    "below": "2. LiAlH<sub>4</sub>  3. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "N[C@H]1CCCC[C@@H]1O"
+   },
+   {
+    "smi": "N[C@H]1CCCC[C@H]1O"
+   },
+   {
+    "smi": "[N-]=[N+]=N[C@H]1CCCC[C@@H]1O"
+   },
+   {
+    "smi": "O[C@H]1CCCC[C@@H]1O"
+   }
+  ],
+  "h": "Azide is a strong nucleophile. Track the stereochemistry of the ring opening, then ask what LiAlH<sub>4</sub> does to an azide.",
+  "w": "Azide opens the epoxide by S<sub>N</sub>2 from the face opposite the oxygen, giving <i>trans</i>-2-azidocyclohexan-1-ol. LiAlH<sub>4</sub> reduces the azide (–N<sub>3</sub>) to a primary amine (–NH<sub>2</sub>) without touching the stereocenters. Product: <b><i>trans</i>-2-aminocyclohexan-1-ol</b>.",
+  "x": [
+   "",
+   "This is the cis isomer; S<sub>N</sub>2 opening of the epoxide is anti, so N and O end up trans.",
+   "This is the intermediate after step 1; LiAlH<sub>4</sub> reduces the azide to an amine.",
+   "Azide is far more nucleophilic than water, so the epoxide is opened by N<sub>3</sub><sup>−</sup>, not hydrolyzed to the diol."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-24",
+  "d": 2,
+  "q": "What is the major product of this reaction?",
+  "s": [
+   {
+    "smi": "CC12CCCCC1O2"
+   },
+   {
+    "arrow": "1. LiAlH<sub>4</sub>, ether",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1(O)CCCCC1"
+   },
+   {
+    "smi": "CC1CCCCC1O"
+   },
+   {
+    "smi": "CC1(O)CCCCC1O"
+   },
+   {
+    "smi": "CC1=CCCCC1"
+   }
+  ],
+  "h": "Hydride from LiAlH<sub>4</sub> is a strong nucleophile. Where does a strong nucleophile open an epoxide?",
+  "w": "Hydride (from AlH<sub>4</sub><sup>−</sup>) opens the epoxide by S<sub>N</sub>2 at the <b>less hindered</b> secondary carbon. The oxygen stays on the tertiary carbon, and acid workup protonates it: <b>1-methylcyclohexan-1-ol</b>.",
+  "x": [
+   "",
+   "This would need hydride to attack the tertiary carbon, which is too hindered for S<sub>N</sub>2.",
+   "LiAlH<sub>4</sub> adds one H; it does not add a second oxygen, so no diol forms.",
+   "LiAlH<sub>4</sub> opens the ring to an alcohol; it does not remove the oxygen to regenerate the alkene."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-25",
+  "d": 1,
+  "q": "What is the product after phenylmagnesium bromide reacts with oxirane (ethylene oxide) and the mixture is worked up with aqueous acid?",
+  "s": [
+   {
+    "smi": "Br[Mg]c1ccccc1"
+   },
+   "+",
+   {
+    "smi": "C1CO1"
+   },
+   {
+    "arrow": "1. ether",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OCCc1ccccc1"
+   },
+   {
+    "smi": "CC(O)c1ccccc1"
+   },
+   {
+    "smi": "OCc1ccccc1"
+   },
+   {
+    "smi": "OCCCc1ccccc1"
+   }
+  ],
+  "h": "The Grignard carbon bonds to a ring carbon; the oxygen ends up two carbons away.",
+  "w": "The aryl carbanion attacks one CH<sub>2</sub> of oxirane by S<sub>N</sub>2, opening the strained ring. Workup protonates the alkoxide. The phenyl group gains a two-carbon chain ending in OH: <b>2-phenylethan-1-ol</b>. Grignard + oxirane adds two carbons, with the OH on the second carbon.",
+  "x": [
+   "",
+   "1-Phenylethanol would form from PhMgBr + acetaldehyde (or CH<sub>3</sub>MgBr + benzaldehyde), not from oxirane.",
+   "Benzyl alcohol has only one carbon between ring and OH; it is the product with formaldehyde, which adds one carbon.",
+   "Oxirane adds two carbons, not three; three carbons would need oxetane."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-26",
+  "d": 2,
+  "q": "Which reagents give the alcohol shown as the major product?",
+  "s": [
+   {
+    "smi": "CC(O)Cc1ccccc1"
+   }
+  ],
+  "c": [
+   "C<sub>6</sub>H<sub>5</sub>MgBr + 2-methyloxirane, then H<sub>3</sub>O<sup>+</sup>",
+   "CH<sub>3</sub>MgBr + 2-phenyloxirane, then H<sub>3</sub>O<sup>+</sup>",
+   "C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>MgBr + oxirane, then H<sub>3</sub>O<sup>+</sup>",
+   "CH<sub>3</sub>MgBr + 2-benzyloxirane, then H<sub>3</sub>O<sup>+</sup>"
+  ],
+  "h": "For each pair, put the Grignard carbon on the less hindered epoxide carbon and draw what results.",
+  "w": "Grignard reagents open epoxides at the less hindered carbon. Phenyl attacks the CH<sub>2</sub> of 2-methyloxirane, and the O stays on the CH(CH<sub>3</sub>) carbon: C<sub>6</sub>H<sub>5</sub>–CH<sub>2</sub>–CH(OH)–CH<sub>3</sub>, <b>1-phenylpropan-2-ol</b>. The answer is <b>C<sub>6</sub>H<sub>5</sub>MgBr + 2-methyloxirane</b>.",
+  "x": [
+   "",
+   "Attack at the CH<sub>2</sub> of 2-phenyloxirane gives C<sub>6</sub>H<sub>5</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub> (OH next to the ring), and attack at the benzylic carbon gives 2-phenylpropan-1-ol; neither is the target.",
+   "Benzyl + oxirane gives C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH, a primary alcohol (3-phenylpropan-1-ol).",
+   "Methyl adds to the CH<sub>2</sub> of 2-benzyloxirane, giving C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub>, which has one carbon too many (1-phenylbutan-2-ol)."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-27",
+  "d": 3,
+  "q": "(<i>R</i>)-2-Methyloxirane is treated with CH<sub>3</sub>MgBr, followed by aqueous acid. What is the product?",
+  "s": [
+   {
+    "smi": "C[C@@H]1CO1"
+   },
+   {
+    "arrow": "1. CH<sub>3</sub>MgBr, ether",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "(<i>R</i>)-butan-2-ol",
+   "(<i>S</i>)-butan-2-ol",
+   "racemic butan-2-ol",
+   "2-methylpropan-1-ol"
+  ],
+  "cs": [
+   {
+    "smi": "CC[C@@H](C)O"
+   },
+   {
+    "smi": "CC[C@H](C)O"
+   },
+   null,
+   {
+    "smi": "CC(C)CO"
+   }
+  ],
+  "h": "Find which carbon is attacked. Are any bonds to the stereocenter broken?",
+  "w": "The Grignard attacks the less hindered CH<sub>2</sub> carbon, so no bond to the stereocenter is broken and its spatial arrangement is kept. CIP check at that carbon: before, O > CH<sub>2</sub>(ring, bonded to O) > CH<sub>3</sub> > H; after, OH > CH<sub>2</sub>CH<sub>3</sub> > CH<sub>3</sub> > H. The priority order maps onto the same positions, so the label stays <b>(<i>R</i>)-butan-2-ol</b>.",
+  "x": [
+   "",
+   "Inversion happens only at the carbon that is attacked; here the attacked carbon (CH<sub>2</sub>) is not the stereocenter.",
+   "Racemization would need the stereocenter to become planar; no bond to it breaks in this S<sub>N</sub>2 opening.",
+   "This product would come from attack at the more hindered CH carbon, which Grignard reagents avoid."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-28",
+  "d": 3,
+  "q": "(2<i>R</i>,3<i>R</i>)-2,3-Dimethyloxirane is treated with NaOCH<sub>3</sub> in CH<sub>3</sub>OH. Which stereoisomer of 3-methoxybutan-2-ol forms?",
+  "s": [
+   {
+    "smi": "C[C@H]1O[C@@H]1C"
+   },
+   {
+    "arrow": "NaOCH<sub>3</sub>",
+    "below": "CH<sub>3</sub>OH"
+   },
+   "?"
+  ],
+  "c": [
+   "(2<i>R</i>,3<i>S</i>)",
+   "(2<i>S</i>,3<i>R</i>)",
+   "(2<i>R</i>,3<i>R</i>)",
+   "(2<i>S</i>,3<i>S</i>)"
+  ],
+  "cs": [
+   {
+    "smi": "CO[C@@H](C)[C@@H](C)O"
+   },
+   {
+    "smi": "CO[C@H](C)[C@H](C)O"
+   },
+   {
+    "smi": "CO[C@H](C)[C@@H](C)O"
+   },
+   {
+    "smi": "CO[C@@H](C)[C@H](C)O"
+   }
+  ],
+  "h": "The two epoxide carbons are equivalent here. One carbon is inverted and the other is untouched; then assign R/S.",
+  "w": "The (<i>R</i>,<i>R</i>) epoxide has C<sub>2</sub> symmetry, so attack at either carbon gives the same product. Methoxide attacks one carbon by S<sub>N</sub>2 and inverts it: that carbon (C3, now bearing OCH<sub>3</sub>) goes from <i>R</i> to <i>S</i>. The other carbon (C2, keeps the oxygen as OH) is untouched and stays <i>R</i>. Product: <b>(2<i>R</i>,3<i>S</i>)-3-methoxybutan-2-ol</b> as a single enantiomer (assignments checked with CIP software).",
+  "x": [
+   "",
+   "This is the enantiomer; it would come from the (<i>S</i>,<i>S</i>) epoxide.",
+   "Both centers <i>R</i> would mean retention at the attacked carbon; S<sub>N</sub>2 opening inverts it.",
+   "Inverting both centers would need both C–O bonds to break; only one carbon is attacked."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-29",
+  "d": 3,
+  "q": "With NaOH, <i>trans</i>-2-chlorocyclohexan-1-ol rapidly forms cyclohexene oxide, but the <i>cis</i> isomer does not form an epoxide. What is the best explanation?",
+  "s": [
+   {
+    "smi": "O[C@H]1CCCC[C@@H]1Cl",
+    "cap": "trans"
+   },
+   {
+    "smi": "O[C@H]1CCCC[C@H]1Cl",
+    "cap": "cis"
+   }
+  ],
+  "c": [
+   "Ring closure is an internal S<sub>N</sub>2 that needs O<sup>−</sup> anti to Cl (both axial); only the <i>trans</i> isomer can reach that geometry",
+   "The <i>cis</i> isomer would have to give a <i>trans</i>-fused epoxide, which is too strained to form",
+   "The <i>cis</i> alcohol is much less acidic, so NaOH cannot form its alkoxide",
+   "The <i>trans</i> isomer reacts by E2, which needs an anti-periplanar H that the <i>cis</i> isomer lacks"
+  ],
+  "h": "Epoxide closure from a halohydrin is a back-side displacement. Where must the nucleophile sit relative to the leaving group?",
+  "w": "The alkoxide closes the ring by intramolecular S<sub>N</sub>2, so it must approach the C–Cl carbon from the back side, anti to Cl. In the <i>trans</i> isomer a ring flip puts OH and Cl trans-diaxial, perfectly anti. In the <i>cis</i> isomer O and Cl are on the same face, so back-side attack is impossible. <b>Only the trans isomer can place O<sup>−</sup> anti to Cl.</b>",
+  "x": [
+   "",
+   "Both isomers would give the same cis-fused cyclohexene oxide if they could close; the problem is the approach geometry, not product strain.",
+   "Cis and trans chlorohydrins have very similar acidities; both are deprotonated by NaOH.",
+   "Epoxide formation is a substitution by oxygen, not an elimination of H and Cl."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-30",
+  "d": 2,
+  "q": "Rank these compounds from <b>least</b> acidic to <b>most</b> acidic.<br>I. CH<sub>3</sub>CH<sub>2</sub>OH   II. CH<sub>3</sub>CH<sub>2</sub>SH   III. CF<sub>3</sub>CH<sub>2</sub>OH",
+  "c": [
+   "I < III < II",
+   "I < II < III",
+   "III < I < II",
+   "II < I < III"
+  ],
+  "h": "Compare the atom carrying the negative charge first, then the inductive effect.",
+  "w": "Ethanol (pK<sub>a</sub> ≈ 16) is least acidic. Three fluorines pull electron density away inductively and stabilize CF<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> (pK<sub>a</sub> ≈ 12.4). Ethanethiol is most acidic (pK<sub>a</sub> ≈ 10.6) because the charge sits on the larger, more polarizable sulfur atom, and the weaker S–H bond breaks more easily; going down a group outweighs the inductive effect here. Order: <b>I < III < II</b>.",
+  "x": [
+   "",
+   "Inductive stabilization by CF<sub>3</sub> lowers the pK<sub>a</sub> to about 12, but putting the charge on sulfur lowers it more, to about 10.6.",
+   "Fluorination makes the alcohol more acidic than ethanol, not less.",
+   "The thiol is the most acidic of the three, not the least: sulfur, being larger, holds the negative charge better than oxygen."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-31",
+  "d": 3,
+  "q": "2-Sulfanylethan-1-ol (HSCH<sub>2</sub>CH<sub>2</sub>OH) is treated with one equivalent of NaOH in water, then one equivalent of CH<sub>3</sub>I. What is the major product?",
+  "s": [
+   {
+    "smi": "OCCS"
+   },
+   {
+    "arrow": "1. NaOH (1 equiv)",
+    "below": "2. CH<sub>3</sub>I (1 equiv)"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CSCCO"
+   },
+   {
+    "smi": "COCCS"
+   },
+   {
+    "smi": "COCCSC"
+   },
+   {
+    "smi": "C[S+](C)CCO.[I-]"
+   }
+  ],
+  "h": "Which proton does one equivalent of hydroxide remove? Which anion is the better nucleophile anyway?",
+  "w": "The thiol (pK<sub>a</sub> ≈ 10) is far more acidic than the alcohol (pK<sub>a</sub> ≈ 16), so one equivalent of NaOH forms the thiolate. Thiolate is also a much better nucleophile than an alcohol or alkoxide in water, because sulfur is large and polarizable. It attacks CH<sub>3</sub>I by S<sub>N</sub>2, giving <b>2-(methylsulfanyl)ethan-1-ol</b>.",
+  "x": [
+   "",
+   "O-Methylation would need the alkoxide, but NaOH deprotonates the much more acidic SH, and S<sup>−</sup> is the better nucleophile.",
+   "Only one equivalent of CH<sub>3</sub>I is used, and the neutral OH does not react with CH<sub>3</sub>I in water.",
+   "A sulfonium salt needs a second equivalent of CH<sub>3</sub>I to alkylate the sulfide; only one is available."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-32",
+  "d": 2,
+  "q": "(<i>R</i>)-2-Bromobutane is treated with sodium methanethiolate (CH<sub>3</sub>SNa) in DMF. What is the major product?",
+  "s": [
+   {
+    "smi": "C[C@@H](Br)CC"
+   },
+   {
+    "arrow": "CH<sub>3</sub>SNa",
+    "below": "DMF"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@H](SC)CC"
+   },
+   {
+    "smi": "C[C@@H](SC)CC"
+   },
+   {
+    "smi": "C/C=C/C"
+   },
+   {
+    "smi": "C=CCC"
+   }
+  ],
+  "h": "Thiolates are excellent nucleophiles but weak bases. Which pathway does that favor at a secondary carbon?",
+  "w": "CH<sub>3</sub>S<sup>−</sup> is a weak base (CH<sub>3</sub>SH pK<sub>a</sub> ≈ 10) but a very strong, polarizable nucleophile, and DMF is polar aprotic. So even at a secondary carbon S<sub>N</sub>2 beats E2. Back-side attack inverts the stereocenter; S replaces Br as top priority, so the product is <b>(<i>S</i>)-2-(methylsulfanyl)butane</b>.",
+  "x": [
+   "",
+   "Retention would require front-side attack; S<sub>N</sub>2 gives inversion, and the S group takes Br's priority rank, so the label changes to <i>S</i>.",
+   "E2 to (<i>E</i>)-but-2-ene needs a strong base such as ethoxide; methanethiolate is too weak a base to compete with its own S<sub>N</sub>2.",
+   "Hofmann-type alkene formation needs a bulky strong base; thiolate gives substitution."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-33",
+  "d": 1,
+  "q": "What is the product when ethanethiol is treated with I<sub>2</sub> (a mild oxidant) in the presence of a weak base?",
+  "s": [
+   {
+    "smi": "CCS"
+   },
+   {
+    "arrow": "I<sub>2</sub>",
+    "below": "base"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCSSCC"
+   },
+   {
+    "smi": "CCSCC"
+   },
+   {
+    "smi": "CCS(=O)(=O)O"
+   },
+   {
+    "smi": "CCI"
+   }
+  ],
+  "h": "Mild oxidation of thiols forms an S–S bond.",
+  "w": "Two thiol molecules are oxidized by I<sub>2</sub>, each losing an H, and their sulfur atoms join: 2 RSH → RS–SR + 2 HI. The product is <b>diethyl disulfide</b>. This is the same S–S bond that links cysteine residues in proteins.",
+  "x": [
+   "",
+   "A sulfide (thioether) has one sulfur bonded to two carbons; forming it would need an alkylation, not an oxidation.",
+   "Sulfonic acids need strong oxidants such as HNO<sub>3</sub> or KMnO<sub>4</sub>; I<sub>2</sub> stops at the disulfide.",
+   "Iodine does not replace the SH group; the thiol is oxidized at sulfur, not substituted at carbon."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-34",
+  "d": 2,
+  "q": "The disulfide bond in cystine is cleaved by excess 2-mercaptoethanol (or by Zn/HCl) to give two cysteine molecules. Which statement about the sulfur atoms is correct?",
+  "s": [
+   {
+    "smi": "NC(CSSCC(N)C(=O)O)C(=O)O"
+   },
+   {
+    "arrow": "Zn, HCl"
+   },
+   "2 ×",
+   {
+    "smi": "NC(CS)C(=O)O"
+   }
+  ],
+  "c": [
+   "They are reduced, from −1 to −2",
+   "They are oxidized, from −2 to −1",
+   "They are reduced, from 0 to −1",
+   "Their oxidation state does not change; the S–S bond is hydrolyzed"
+  ],
+  "h": "Count each sulfur's bonds: S–S counts as zero; S is slightly more electronegative than C and more than H.",
+  "w": "In the disulfide each S has one bond to C (S is assigned that electron pair: −1) and one bond to S (0), so each S is −1. In the thiol each S has a bond to C (−1) and a bond to H (−1), so S is −2. Going from disulfide to thiols, each sulfur gains a bond to H: <b>reduction from −1 to −2</b>. The reverse (thiols → disulfide) is an oxidation.",
+  "x": [
+   "",
+   "That is the reverse reaction, thiol to disulfide; breaking the S–S bond and adding H is a reduction.",
+   "The disulfide sulfur is −1, not 0, because each sulfur is also bonded to a carbon.",
+   "Each S gains an S–H bond in place of an S–S bond, so the oxidation state changes; water does not cleave disulfides."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-35",
+  "d": 2,
+  "q": "Methyl phenyl sulfide is treated with excess H<sub>2</sub>O<sub>2</sub> in acetic acid with heating. What is the final product?",
+  "s": [
+   {
+    "smi": "CSc1ccccc1"
+   },
+   {
+    "arrow": "H<sub>2</sub>O<sub>2</sub> (excess)",
+    "below": "CH<sub>3</sub>CO<sub>2</sub>H, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CS(=O)(=O)c1ccccc1"
+   },
+   {
+    "smi": "CS(=O)c1ccccc1"
+   },
+   {
+    "smi": "O=S(=O)(O)c1ccccc1"
+   },
+   {
+    "smi": "COc1ccccc1"
+   }
+  ],
+  "h": "Each oxidation adds one oxygen to sulfur. How many times can a sulfide sulfur be oxidized without breaking C–S bonds?",
+  "w": "Sulfides are oxidized at sulfur in two steps: sulfide → sulfoxide (one O) → sulfone (two O). One equivalent of a mild oxidant (NaIO<sub>4</sub>, or 1 equiv H<sub>2</sub>O<sub>2</sub> at low temperature) stops at the sulfoxide; excess oxidant with heat continues to the <b>sulfone</b>, methyl phenyl sulfone. The C–S bonds are kept.",
+  "x": [
+   "",
+   "The sulfoxide is the intermediate; with excess H<sub>2</sub>O<sub>2</sub> and heat it is oxidized again to the sulfone.",
+   "A sulfonic acid would require breaking the S–CH<sub>3</sub> bond; peroxide oxidation adds O to S and leaves both C–S bonds.",
+   "Oxidation adds oxygen to sulfur; it does not replace sulfur by oxygen."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-36",
+  "d": 3,
+  "q": "Which compound is chiral and can be isolated as a single enantiomer at room temperature?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CS(=O)c1ccccc1"
+   },
+   {
+    "smi": "CS(=O)(=O)c1ccccc1"
+   },
+   {
+    "smi": "O=S(c1ccccc1)c1ccccc1"
+   },
+   {
+    "smi": "CS(C)=O"
+   }
+  ],
+  "h": "A sulfoxide sulfur is pyramidal with a lone pair as its fourth \"group\". Look for four different groups.",
+  "w": "The sulfoxide sulfur is tetrahedral: O, two carbon groups and a lone pair. Its pyramidal inversion is slow at room temperature (barrier about 160 kJ/mol), so a sulfoxide with two different carbon groups is a stable stereocenter. <b>Methyl phenyl sulfoxide</b> has O, CH<sub>3</sub>, C<sub>6</sub>H<sub>5</sub> and a lone pair, so it is chiral and resolvable.",
+  "x": [
+   "",
+   "A sulfone has two identical oxygens on sulfur, so the sulfur is not a stereocenter.",
+   "Diphenyl sulfoxide has two identical phenyl groups, so it has a mirror plane and is achiral.",
+   "DMSO has two identical methyl groups, so it is achiral."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-37",
+  "d": 2,
+  "q": "Which compound reacts with CH<sub>3</sub>I at room temperature to give a stable, isolable salt?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CSC"
+   },
+   {
+    "smi": "COC"
+   },
+   {
+    "smi": "CCOCC"
+   },
+   {
+    "smi": "C1CCOC1"
+   }
+  ],
+  "h": "Compare how nucleophilic, and how basic, sulfur and oxygen lone pairs are.",
+  "w": "Divalent sulfur is large and polarizable, so sulfides are good nucleophiles even though they are weak bases. Dimethyl sulfide attacks CH<sub>3</sub>I by S<sub>N</sub>2 to give trimethylsulfonium iodide, (CH<sub>3</sub>)<sub>3</sub>S<sup>+</sup> I<sup>−</sup>, a stable salt. Ethers are poor nucleophiles, and trialkyloxonium ions are too reactive to form this way. The answer is <b>dimethyl sulfide</b>.",
+  "x": [
+   "",
+   "Dimethyl ether's oxygen is a poor nucleophile; a trimethyloxonium salt does not form from CH<sub>3</sub>I.",
+   "Diethyl ether is a common solvent for reactions of alkyl halides precisely because it does not react with them.",
+   "THF's oxygen lone pairs coordinate to metals (as in Grignard reagents), but THF is not nucleophilic enough to be alkylated by CH<sub>3</sub>I."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-38",
+  "d": 3,
+  "q": "Which sequence converts (<i>R</i>)-butan-2-ol into (<i>R</i>)-2-methoxybutane?",
+  "s": [
+   {
+    "smi": "C[C@@H](O)CC",
+    "cap": "(<i>R</i>)"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C[C@@H](OC)CC",
+    "cap": "(<i>R</i>)"
+   }
+  ],
+  "c": [
+   "1. NaH  2. CH<sub>3</sub>I",
+   "1. TsCl, pyridine  2. NaOCH<sub>3</sub>",
+   "CH<sub>3</sub>OH, H<sub>2</sub>SO<sub>4</sub>, heat",
+   "1. CH<sub>3</sub>I  2. NaH"
+  ],
+  "h": "Decide which C–O bond must stay intact to keep the configuration.",
+  "w": "To keep the configuration, the C–O bond at the stereocenter must not break. NaH forms the alkoxide (the stereocenter is untouched), and the alkoxide attacks CH<sub>3</sub>I by S<sub>N</sub>2 at the methyl carbon. The new bond is O–CH<sub>3</sub>, so the stereocenter keeps its arrangement: <b>1. NaH  2. CH<sub>3</sub>I</b> gives (<i>R</i>)-2-methoxybutane (CIP label confirmed).",
+  "x": [
+   "",
+   "Tosylation keeps the configuration, but methoxide then displaces OTs by S<sub>N</sub>2 at the stereocenter, giving (<i>S</i>)-2-methoxybutane (plus some E2 alkene).",
+   "Acid with a secondary alcohol gives elimination and S<sub>N</sub>1 mixtures that lose the stereochemistry; it is not a clean route to one enantiomer of the ether.",
+   "A neutral alcohol reacts very slowly with CH<sub>3</sub>I; the alkoxide must be formed first, so the order of steps matters."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-39",
+  "d": 3,
+  "q": "Which sequence converts cyclohexene into the product shown (racemic; one enantiomer drawn)?",
+  "s": [
+   {
+    "smi": "C1=CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCO[C@H]1CCCC[C@@H]1O"
+   }
+  ],
+  "c": [
+   "1. mCPBA  2. NaOCH<sub>2</sub>CH<sub>3</sub>, CH<sub>3</sub>CH<sub>2</sub>OH",
+   "1. OsO<sub>4</sub>, NMO  2. NaH (1 equiv)  3. CH<sub>3</sub>CH<sub>2</sub>Br",
+   "1. Hg(OAc)<sub>2</sub>, CH<sub>3</sub>CH<sub>2</sub>OH  2. NaBH<sub>4</sub>",
+   "1. BH<sub>3</sub>·THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH  3. NaH  4. CH<sub>3</sub>CH<sub>2</sub>Br"
+  ],
+  "h": "The target has two oxygens on adjacent carbons, trans. Which route adds two oxygens anti?",
+  "w": "Epoxidation adds one oxygen across the double bond. Ethoxide then opens the epoxide by back-side S<sub>N</sub>2, placing OCH<sub>2</sub>CH<sub>3</sub> trans to the alkoxide, which ethanol protonates. The sequence <b>1. mCPBA  2. NaOCH<sub>2</sub>CH<sub>3</sub>, CH<sub>3</sub>CH<sub>2</sub>OH</b> gives <i>trans</i>-2-ethoxycyclohexan-1-ol.",
+  "x": [
+   "",
+   "OsO<sub>4</sub> adds both OH groups syn, so this route gives the <i>cis</i> ether-alcohol (and mixtures from the diol).",
+   "Alkoxymercuration adds only one oxygen (ethoxycyclohexane); the product needs an OH on the next carbon.",
+   "Hydroboration–oxidation adds only one OH, so this sequence gives ethoxycyclohexane with no second oxygen."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-40",
+  "d": 1,
+  "q": "Epoxides are opened by hydroxide or alkoxides under mild conditions, while diethyl ether is inert to them. What is the main reason?",
+  "c": [
+   "The three-membered ring is strained, and opening it releases about 110 kJ/mol of ring strain",
+   "Epoxide carbons are sp<sup>2</sup> hybridized, like a carbonyl carbon",
+   "The epoxide oxygen carries a formal positive charge",
+   "Epoxides are aromatic, and opening the ring relieves antiaromatic strain"
+  ],
+  "h": "Compare the C–O–C bond angle in an epoxide with the normal tetrahedral angle.",
+  "w": "In an epoxide the ring bond angles are about 60°, far from 109.5°, so the ring holds roughly 110 kJ/mol of angle and torsional strain. Opening the ring releases that strain, which makes the alkoxide leaving group acceptable. An acyclic ether has no such driving force. Answer: <b>ring strain</b>.",
+  "x": [
+   "",
+   "Epoxide carbons are sp<sup>3</sup>; they have no π bond.",
+   "A neutral epoxide oxygen has two bonds and two lone pairs, so its formal charge is zero.",
+   "An epoxide has no π electrons and cannot be aromatic or antiaromatic."
+  ],
+  "k": 0,
+  "t": "ethers"
+ }
+]

@@ -1,0 +1,772 @@
+[
+ {
+  "id": "irms-01",
+  "t": "irms",
+  "d": 1,
+  "k": 0,
+  "q": "Which compound gives the IR spectrum shown? (There is no significant absorption above 3000 cm<sup>−1</sup> or between 1600 and 1800 cm<sup>−1</sup>.)",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2960,
+      "str": "s"
+     },
+     {
+      "cm": 2875,
+      "str": "m"
+     },
+     {
+      "cm": 2250,
+      "str": "m"
+     },
+     {
+      "cm": 1465,
+      "str": "m"
+     },
+     {
+      "cm": 1385,
+      "str": "w"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCC#N"
+   },
+   {
+    "smi": "C#CCCC"
+   },
+   {
+    "smi": "CCCC=O"
+   },
+   {
+    "smi": "CCCCN"
+   }
+  ],
+  "h": "A medium, sharp band in the triple-bond region (2100–2260 cm<sup>−1</sup>) with no band near 3300 cm<sup>−1</sup> narrows it down quickly.",
+  "w": "The only band beyond the C–H stretches is a medium, sharp absorption at 2250 cm<sup>−1</sup>, the C≡N stretch of a nitrile. The polar C≡N bond gives a stronger band than a C≡C stretch. The answer is <b>butanenitrile</b>. Nothing above 3000 cm<sup>−1</sup> rules out O–H, N–H and ≡C–H, and nothing at 1700 cm<sup>−1</sup> rules out C=O.",
+  "x": [
+   "",
+   "A terminal alkyne shows a strong, sharp ≡C–H stretch near 3300 cm<sup>−1</sup> and a weak C≡C stretch near 2120 cm<sup>−1</sup>; neither is in this spectrum.",
+   "Butanal would show a strong C=O band near 1730 cm<sup>−1</sup> and the aldehyde C–H pair near 2720 and 2820 cm<sup>−1</sup>.",
+   "Butylamine (a primary amine) would show two N–H stretches between 3300 and 3400 cm<sup>−1</sup> and has no triple bond to absorb at 2250 cm<sup>−1</sup>."
+  ]
+ },
+ {
+  "id": "irms-02",
+  "t": "irms",
+  "d": 1,
+  "k": 0,
+  "q": "Which compound gives the IR spectrum shown?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3340,
+      "str": "s",
+      "shape": "broad"
+     },
+     {
+      "cm": 2930,
+      "str": "s"
+     },
+     {
+      "cm": 2855,
+      "str": "m"
+     },
+     {
+      "cm": 1450,
+      "str": "m"
+     },
+     {
+      "cm": 1070,
+      "str": "s"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC1CCCCC1"
+   },
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   {
+    "smi": "C1=CCCCC1"
+   },
+   {
+    "smi": "OC(=O)C1CCCCC1"
+   }
+  ],
+  "h": "Look at the two regions that decide most problems: 3200–3600 cm<sup>−1</sup> and 1650–1800 cm<sup>−1</sup>.",
+  "w": "A strong, broad band centered near 3340 cm<sup>−1</sup> is a hydrogen-bonded alcohol O–H, and the strong band near 1070 cm<sup>−1</sup> is the C–O stretch. There is no C=O band, and all C–H stretches are below 3000 cm<sup>−1</sup> (sp<sup>3</sup> only). The answer is <b>cyclohexanol</b>.",
+  "x": [
+   "",
+   "Cyclohexanone has a strong C=O stretch near 1715 cm<sup>−1</sup> and no O–H band.",
+   "Cyclohexene shows a vinylic =C–H stretch just above 3000 cm<sup>−1</sup> and a C=C stretch near 1650 cm<sup>−1</sup>, but no broad O–H band.",
+   "A carboxylic acid shows an O–H band so broad it spans about 2500–3300 cm<sup>−1</sup>, plus a strong C=O near 1710 cm<sup>−1</sup>; there is no C=O band here."
+  ]
+ },
+ {
+  "id": "irms-03",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "The IR spectrum shown has an extremely broad O–H absorption that spans about 2500–3300 cm<sup>−1</sup> (it overlaps the C–H stretches) and a strong band at 1710 cm<sup>−1</sup>. Which compound is it?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3000,
+      "str": "s",
+      "shape": "broad"
+     },
+     {
+      "cm": 2965,
+      "str": "m"
+     },
+     {
+      "cm": 1710,
+      "str": "s"
+     },
+     {
+      "cm": 1415,
+      "str": "m"
+     },
+     {
+      "cm": 1240,
+      "str": "m"
+     },
+     {
+      "cm": 935,
+      "str": "m",
+      "shape": "broad"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCC(=O)O"
+   },
+   {
+    "smi": "CC(=O)CCO"
+   },
+   {
+    "smi": "CCC(=O)OC"
+   },
+   {
+    "smi": "OCCCCO"
+   }
+  ],
+  "h": "Several choices have an O–H or a C=O. What makes an O–H band reach all the way down to 2500 cm<sup>−1</sup>?",
+  "w": "Carboxylic acids exist as strongly hydrogen-bonded dimers, so the O–H stretch is spread over roughly 2500–3300 cm<sup>−1</sup> and buries the C–H bands. Together with the C=O stretch at 1710 cm<sup>−1</sup> (typical of a dimeric acid), this identifies <b>butanoic acid</b>.",
+  "x": [
+   "",
+   "4-Hydroxy-2-butanone has both an alcohol O–H and a ketone C=O, but an alcohol O–H band is centered near 3400 cm<sup>−1</sup> and does not extend down to 2500 cm<sup>−1</sup>.",
+   "Methyl propanoate is an ester: strong C=O near 1740 cm<sup>−1</sup> and strong C–O bands near 1200 cm<sup>−1</sup>, but no O–H at all.",
+   "1,4-Butanediol has a broad alcohol O–H near 3350 cm<sup>−1</sup> but no C=O, so it cannot explain the strong 1710 cm<sup>−1</sup> band."
+  ]
+ },
+ {
+  "id": "irms-04",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "An amine-containing compound gives the IR spectrum shown. The only band between 1500 and 1800 cm<sup>−1</sup> is a medium band at 1600 cm<sup>−1</sup>. Which compound is it?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3370,
+      "str": "m"
+     },
+     {
+      "cm": 3290,
+      "str": "m"
+     },
+     {
+      "cm": 2960,
+      "str": "s"
+     },
+     {
+      "cm": 2870,
+      "str": "m"
+     },
+     {
+      "cm": 1600,
+      "str": "m"
+     },
+     {
+      "cm": 1465,
+      "str": "m"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCCN"
+   },
+   {
+    "smi": "CCNCC"
+   },
+   {
+    "smi": "CCN(CC)CC"
+   },
+   {
+    "smi": "CCCC(N)=O"
+   }
+  ],
+  "h": "Count the N–H stretching bands, then ask whether a C=O band is present.",
+  "w": "Two medium N–H bands (3370 and 3290 cm<sup>−1</sup>, the asymmetric and symmetric stretches of an NH<sub>2</sub> group) mean a primary amine or a primary amide. The medium 1600 cm<sup>−1</sup> band is the N–H bend; there is no strong C=O band. The answer is <b>butylamine (1-butanamine)</b>.",
+  "x": [
+   "",
+   "Diethylamine is a secondary amine with one N–H, so it shows only a single weak N–H band near 3300 cm<sup>−1</sup>.",
+   "Triethylamine is a tertiary amine with no N–H bond, so there is no absorption above 3000 cm<sup>−1</sup>.",
+   "Butanamide also shows two N–H bands, but its amide C=O gives a strong band near 1650–1690 cm<sup>−1</sup>, which is missing here."
+  ]
+ },
+ {
+  "id": "irms-05",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "Rank the C=O stretching wavenumbers of compounds I–IV from highest to lowest.",
+  "s": [
+   {
+    "smi": "CCC(=O)Cl",
+    "cap": "I"
+   },
+   {
+    "smi": "CCC(=O)OC",
+    "cap": "II"
+   },
+   {
+    "smi": "CCC(=O)CC",
+    "cap": "III"
+   },
+   {
+    "smi": "CCC(N)=O",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "I > II > III > IV",
+   "IV > III > II > I",
+   "II > I > III > IV",
+   "I > III > II > IV"
+  ],
+  "h": "Electron-withdrawing groups on the carbonyl carbon stiffen the C=O bond; lone-pair donation into the C=O gives it single-bond character.",
+  "w": "A higher C=O wavenumber means more double-bond character (larger force constant). Chlorine withdraws inductively and donates poorly, so the acid chloride absorbs highest (~1800 cm<sup>−1</sup>). In the ester the inductive pull of the extra oxygen outweighs its resonance donation (~1740 cm<sup>−1</sup>). A ketone is the reference (~1715 cm<sup>−1</sup>). Nitrogen donates its lone pair strongly, so the amide C=O is lowest (~1650–1690 cm<sup>−1</sup>). The order is <b>I > II > III > IV</b>.",
+  "x": [
+   "",
+   "This reverses the trend: resonance donation from N lowers, not raises, the C=O bond order, so the amide is lowest.",
+   "The acid chloride is above the ester; chlorine withdraws electrons and is a much poorer π donor than the ester oxygen.",
+   "Esters absorb above ketones (about 1740 vs 1715 cm<sup>−1</sup>) because the ester oxygen's inductive withdrawal dominates its resonance donation."
+  ]
+ },
+ {
+  "id": "irms-06",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "Which compound has the <i>lowest</i> C=O stretching wavenumber?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C1C=CCCC1"
+   },
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   {
+    "smi": "O=C1CCCC1"
+   },
+   {
+    "smi": "O=C1CCC1"
+   }
+  ],
+  "h": "Two effects matter: conjugation with a C=C and ring strain in small rings. Which way does each move the C=O band?",
+  "w": "Conjugation with a C=C lets the C=O π electrons delocalize, lowering the C=O bond order and its stretching wavenumber by about 30–40 cm<sup>−1</sup>. <b>2-Cyclohexen-1-one</b> absorbs near 1680 cm<sup>−1</sup>. Ring strain does the opposite: the smaller the ring, the higher the C=O band.",
+  "x": [
+   "",
+   "Cyclohexanone is the unstrained, unconjugated reference, absorbing near 1715 cm<sup>−1</sup>, higher than the conjugated enone.",
+   "Cyclopentanone's ring strain raises the C=O stretch to about 1745 cm<sup>−1</sup>.",
+   "Cyclobutanone is even more strained and absorbs near 1780 cm<sup>−1</sup>, the highest of the four."
+  ]
+ },
+ {
+  "id": "irms-07",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "The reaction shown is followed by IR. Which change shows that the starting alkene has been completely converted to product?",
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "1. BH<sub>3</sub>·THF",
+    "below": "2. H<sub>2</sub>O<sub>2</sub>, NaOH"
+   },
+   "?"
+  ],
+  "c": [
+   "A broad band near 3350 cm<sup>−1</sup> appears, and the weak bands near 3020 and 1670 cm<sup>−1</sup> disappear",
+   "A strong band near 1715 cm<sup>−1</sup> appears, and the weak band near 3020 cm<sup>−1</sup> disappears",
+   "A broad band near 3350 cm<sup>−1</sup> appears, while the weak bands near 3020 and 1670 cm<sup>−1</sup> remain",
+   "A sharp band near 3300 cm<sup>−1</sup> and a weak band near 2120 cm<sup>−1</sup> appear"
+  ],
+  "h": "First decide what functional group hydroboration–oxidation makes; then decide which starting-material bands must vanish.",
+  "w": "Hydroboration–oxidation converts the alkene into an alcohol (trans-2-methylcyclohexanol). The product shows a broad O–H band near 3350 cm<sup>−1</sup>. Completion means the alkene bands are gone: the vinylic =C–H stretch near 3020 cm<sup>−1</sup> and the C=C stretch near 1670 cm<sup>−1</sup>. So the best evidence is <b>a broad 3350 cm<sup>−1</sup> band appearing while the 3020 and 1670 cm<sup>−1</sup> bands disappear</b>.",
+  "x": [
+   "",
+   "A 1715 cm<sup>−1</sup> band would mean a ketone; hydroboration–oxidation gives an alcohol, not a carbonyl compound.",
+   "If the =C–H and C=C bands are still there, some alkene remains, so the reaction is not complete.",
+   "A sharp 3300 cm<sup>−1</sup> and a 2120 cm<sup>−1</sup> band belong to a terminal alkyne, which is neither reactant nor product."
+  ]
+ },
+ {
+  "id": "irms-08",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "1-Hexyne is treated as shown. How does the IR spectrum change on going from the starting material to the isolated product?",
+  "s": [
+   {
+    "smi": "C#CCCCC"
+   },
+   {
+    "arrow": "H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O",
+    "below": "HgSO<sub>4</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "The sharp 3300 and weak 2120 cm<sup>−1</sup> bands disappear; a strong band appears near 1715 cm<sup>−1</sup>",
+   "The sharp 3300 cm<sup>−1</sup> band disappears; a strong band near 1730 and a pair near 2720 and 2820 cm<sup>−1</sup> appear",
+   "The 2120 cm<sup>−1</sup> band disappears; a broad O–H band near 3350 cm<sup>−1</sup> appears and stays",
+   "The sharp 3300 cm<sup>−1</sup> band remains; a strong band appears near 1715 cm<sup>−1</sup>"
+  ],
+  "h": "Mercury-catalyzed hydration is Markovnikov, and the first-formed enol does not survive.",
+  "w": "Hg<sup>2+</sup>-catalyzed hydration adds water Markovnikov to give an enol that tautomerizes to the methyl ketone, 2-hexanone. The terminal alkyne bands (strong, sharp ≡C–H at 3300 cm<sup>−1</sup>; weak C≡C at 2120 cm<sup>−1</sup>) vanish and a strong ketone C=O appears near 1715 cm<sup>−1</sup>. The answer is <b>loss of 3300 and 2120 cm<sup>−1</sup>, gain of 1715 cm<sup>−1</sup></b>.",
+  "x": [
+   "",
+   "A 1730 cm<sup>−1</sup> C=O with 2720/2820 cm<sup>−1</sup> bands is an aldehyde, the anti-Markovnikov product of hydroboration–oxidation, not of HgSO<sub>4</sub> hydration.",
+   "The enol is only an intermediate; it tautomerizes to the ketone, so no lasting O–H band appears.",
+   "Both alkyne carbons react, so the terminal ≡C–H (3300 cm<sup>−1</sup>) is gone in the product."
+  ]
+ },
+ {
+  "id": "irms-09",
+  "t": "irms",
+  "d": 3,
+  "k": 0,
+  "q": "A compound with formula C<sub>5</sub>H<sub>8</sub>O shows no IR absorption above 3000 cm<sup>−1</sup> and none between 1600 and 1700 cm<sup>−1</sup>. Its strongest band is at 1745 cm<sup>−1</sup>. Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2965,
+      "str": "m"
+     },
+     {
+      "cm": 2880,
+      "str": "m"
+     },
+     {
+      "cm": 1745,
+      "str": "s"
+     },
+     {
+      "cm": 1405,
+      "str": "m"
+     },
+     {
+      "cm": 1150,
+      "str": "m"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C1CCCC1"
+   },
+   {
+    "smi": "C/C=C/C(C)=O"
+   },
+   {
+    "smi": "C=CCCC=O"
+   },
+   {
+    "smi": "OC1CC=CC1"
+   }
+  ],
+  "h": "C<sub>5</sub>H<sub>8</sub>O has two degrees of unsaturation. If one is a C=O and there is no C=C, what is the other? Then think about where the C=O band falls.",
+  "w": "DBE = (2·5 + 2 − 8)/2 = 2. The strong 1745 cm<sup>−1</sup> band is a C=O, and with no =C–H above 3000 cm<sup>−1</sup> and no C=C near 1650 cm<sup>−1</sup> the second unsaturation must be a ring. Ring strain in a five-membered ring raises a ketone C=O from 1715 to about 1745 cm<sup>−1</sup>. The compound is <b>cyclopentanone</b>.",
+  "x": [
+   "",
+   "3-Penten-2-one is conjugated, so its C=O is lowered to about 1675 cm<sup>−1</sup>; it would also show a C=C band near 1630 cm<sup>−1</sup> and =C–H above 3000 cm<sup>−1</sup>.",
+   "4-Pentenal would show the aldehyde C–H pair (2720, 2820 cm<sup>−1</sup>), a vinylic =C–H near 3080 cm<sup>−1</sup> and a C=C near 1640 cm<sup>−1</sup>.",
+   "3-Cyclopenten-1-ol has a broad O–H near 3350 cm<sup>−1</sup> and no C=O; its =C–H stretch also lies above 3000 cm<sup>−1</sup>."
+  ]
+ },
+ {
+  "id": "irms-10",
+  "t": "irms",
+  "d": 1,
+  "k": 0,
+  "q": "Which compound shows C–H stretching absorptions both just above and just below 3000 cm<sup>−1</sup>, but no band near 3300 cm<sup>−1</sup>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1=CCCCC1"
+   },
+   {
+    "smi": "C1CCCCC1"
+   },
+   {
+    "smi": "C#CCCCC"
+   },
+   {
+    "smi": "c1ccccc1"
+   }
+  ],
+  "h": "sp<sup>3</sup> C–H absorbs below 3000 cm<sup>−1</sup>, sp<sup>2</sup> C–H just above 3000 cm<sup>−1</sup>, and sp C–H near 3300 cm<sup>−1</sup>.",
+  "w": "The compound needs both sp<sup>2</sup> C–H (3000–3100 cm<sup>−1</sup>) and sp<sup>3</sup> C–H (2850–3000 cm<sup>−1</sup>) and no sp C–H (3300 cm<sup>−1</sup>). <b>Cyclohexene</b> has two vinylic C–H bonds and eight allylic/ring CH<sub>2</sub> hydrogens, so it fits.",
+  "x": [
+   "",
+   "Cyclohexane has only sp<sup>3</sup> C–H bonds, so all of its C–H stretches are below 3000 cm<sup>−1</sup>.",
+   "1-Hexyne has a terminal ≡C–H, which gives a strong, sharp band near 3300 cm<sup>−1</sup>.",
+   "Benzene has only aromatic sp<sup>2</sup> C–H bonds, so it has no C–H stretch below 3000 cm<sup>−1</sup>."
+  ]
+ },
+ {
+  "id": "irms-11",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "Neat liquid 1-butanol shows a broad O–H band centered near 3350 cm<sup>−1</sup>. In a very dilute CCl<sub>4</sub> solution, the same compound shows a sharp O–H band near 3620 cm<sup>−1</sup>. What is the best explanation?",
+  "c": [
+   "Hydrogen bonding in the neat liquid weakens O–H bonds to different extents; isolated molecules in dilute solution have a free O–H",
+   "CCl<sub>4</sub> absorbs strongly near 3350 cm<sup>−1</sup> and hides the O–H band, leaving only a weak overtone near 3620 cm<sup>−1</sup>",
+   "In the neat liquid some alcohol is ionized to alkoxide, and O<sup>−</sup> absorbs at lower wavenumber than O–H",
+   "Dilution increases the O–H bond dipole, which raises the stretching wavenumber"
+  ],
+  "h": "Which intermolecular interaction is present in the pure liquid but nearly absent when the molecules are far apart?",
+  "w": "An O–H that donates a hydrogen bond is slightly weakened (smaller force constant), so it absorbs at lower wavenumber. In the neat liquid there is a range of hydrogen-bonded clusters, which smears the band out and centers it near 3350 cm<sup>−1</sup>. In very dilute CCl<sub>4</sub> most molecules are isolated, so the <b>free, non-hydrogen-bonded O–H</b> gives a sharp band near 3620 cm<sup>−1</sup>.",
+  "x": [
+   "",
+   "CCl<sub>4</sub> has no C–H or O–H bonds and is nearly transparent above 1600 cm<sup>−1</sup>; that is why it is used as an IR solvent.",
+   "An alcohol (pK<sub>a</sub> ≈ 16) is not ionized to alkoxide to any detectable extent in the pure liquid, and an alkoxide has no O–H stretch at all.",
+   "Bond dipole affects band intensity, not position; the position depends on the force constant and the reduced mass."
+  ]
+ },
+ {
+  "id": "irms-12",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "Which IR feature best distinguishes 1-hexyne (I) from 3-hexyne (II)?",
+  "s": [
+   {
+    "smi": "C#CCCCC",
+    "cap": "I"
+   },
+   {
+    "smi": "CCC#CCC",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "A strong, sharp band near 3300 cm<sup>−1</sup> in I only",
+   "A strong C≡C band near 2200 cm<sup>−1</sup> in II only",
+   "A C=C band near 1650 cm<sup>−1</sup> in I only",
+   "A broad band near 3300 cm<sup>−1</sup> in II only"
+  ],
+  "h": "A vibration must change the molecule's dipole moment to absorb IR light. Look at the symmetry of each alkyne.",
+  "w": "1-Hexyne has a terminal ≡C–H bond, which gives a strong, sharp band near 3300 cm<sup>−1</sup> (plus a weak C≡C near 2120 cm<sup>−1</sup>). 3-Hexyne has no ≡C–H, and its C≡C is symmetrically substituted, so stretching it hardly changes the dipole and the band is absent. The answer is <b>the sharp 3300 cm<sup>−1</sup> band, present in I only</b>.",
+  "x": [
+   "",
+   "The symmetric C≡C of 3-hexyne is IR-inactive (no dipole change); if anything, the weak C≡C band belongs to 1-hexyne.",
+   "Neither compound has a C=C double bond, so neither absorbs near 1650 cm<sup>−1</sup>.",
+   "A broad band near 3300 cm<sup>−1</sup> signals a hydrogen-bonded O–H or N–H; 3-hexyne has neither."
+  ]
+ },
+ {
+  "id": "irms-13",
+  "t": "irms",
+  "d": 3,
+  "k": 0,
+  "q": "Which compound's C=C stretching band in the 1600–1680 cm<sup>−1</sup> region is absent or nearly absent?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC/C=C/CC"
+   },
+   {
+    "smi": "C=CCCCC"
+   },
+   {
+    "smi": "C=COCC"
+   },
+   {
+    "smi": "O=C1C=CCCC1"
+   }
+  ],
+  "h": "IR intensity depends on how much the dipole moment changes during the vibration.",
+  "w": "A vibration absorbs IR light only if it changes the dipole moment. In <b>(E)-3-hexene</b> the C=C carries identical groups arranged symmetrically (a center of symmetry), so stretching the C=C produces no dipole change and the band is IR-inactive. Unsymmetrical or polarized C=C bonds give visible bands.",
+  "x": [
+   "",
+   "1-Hexene is monosubstituted and unsymmetrical, so its C=C stretch (about 1640 cm<sup>−1</sup>) is a clear medium band.",
+   "In ethyl vinyl ether the oxygen donates electron density into the C=C, polarizing it strongly, so its C=C band (about 1620 cm<sup>−1</sup>) is strong.",
+   "In 2-cyclohexenone the C=C is conjugated with and polarized by the C=O, so it gives a medium-to-strong band near 1620 cm<sup>−1</sup>."
+  ]
+ },
+ {
+  "id": "irms-14",
+  "t": "irms",
+  "d": 3,
+  "k": 0,
+  "q": "A compound C<sub>4</sub>H<sub>9</sub>NO gives the IR spectrum shown. There is no absorption between 3100 and 3600 cm<sup>−1</sup>. Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2940,
+      "str": "m"
+     },
+     {
+      "cm": 2870,
+      "str": "w"
+     },
+     {
+      "cm": 1650,
+      "str": "s"
+     },
+     {
+      "cm": 1400,
+      "str": "m"
+     },
+     {
+      "cm": 1265,
+      "str": "m"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)N(C)C"
+   },
+   {
+    "smi": "CCCC(N)=O"
+   },
+   {
+    "smi": "CC(=O)NCC"
+   },
+   {
+    "smi": "C1COCCN1"
+   }
+  ],
+  "h": "The strong 1650 cm<sup>−1</sup> band suggests an amide. Then count the N–H bonds each candidate has.",
+  "w": "A strong band at 1650 cm<sup>−1</sup> is the low-frequency C=O of an amide (nitrogen lone-pair donation lowers the C=O bond order). The absence of any N–H stretch (3100–3600 cm<sup>−1</sup>) requires a tertiary amide with no N–H bond. The answer is <b>N,N-dimethylacetamide</b>.",
+  "x": [
+   "",
+   "Butanamide is a primary amide: its NH<sub>2</sub> gives two N–H bands near 3350 and 3180 cm<sup>−1</sup>.",
+   "N-Ethylacetamide is a secondary amide with one N–H, which gives a band near 3300 cm<sup>−1</sup>.",
+   "Morpholine is a secondary amine and ether: it shows an N–H band near 3330 cm<sup>−1</sup> and has no C=O to absorb at 1650 cm<sup>−1</sup>."
+  ]
+ },
+ {
+  "id": "irms-15",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "Which compound gives the IR spectrum shown?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2960,
+      "str": "s"
+     },
+     {
+      "cm": 2870,
+      "str": "m"
+     },
+     {
+      "cm": 2820,
+      "str": "m"
+     },
+     {
+      "cm": 2720,
+      "str": "m"
+     },
+     {
+      "cm": 1730,
+      "str": "s"
+     },
+     {
+      "cm": 1465,
+      "str": "m"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCCCC=O"
+   },
+   {
+    "smi": "CCCCC(C)=O"
+   },
+   {
+    "smi": "CCCC(=O)OCC"
+   },
+   {
+    "smi": "CCCCCC(=O)O"
+   }
+  ],
+  "h": "Besides the C=O band, look for a pair of medium bands just to the right of the ordinary C–H stretches.",
+  "w": "The strong 1730 cm<sup>−1</sup> band is a C=O, and the two medium bands at 2820 and 2720 cm<sup>−1</sup> are the characteristic aldehyde C–H stretches (a Fermi-resonance doublet). Together they identify an aldehyde: <b>hexanal</b>.",
+  "x": [
+   "",
+   "2-Hexanone is a ketone; its C=O is near 1715 cm<sup>−1</sup> and it has no aldehyde C–H, so no 2720/2820 cm<sup>−1</sup> pair.",
+   "Ethyl butanoate is an ester: C=O near 1740 cm<sup>−1</sup> plus strong C–O bands near 1180 cm<sup>−1</sup>, but no 2720 cm<sup>−1</sup> aldehyde C–H band.",
+   "Hexanoic acid would show a very broad O–H spanning 2500–3300 cm<sup>−1</sup>, which this spectrum lacks."
+  ]
+ },
+ {
+  "id": "irms-16",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "Which pair of compounds would be hardest to tell apart using only the functional-group region (above 1500 cm<sup>−1</sup>) of their IR spectra?",
+  "c": [
+   "2-Pentanone and 3-pentanone",
+   "Pentanal and 2-pentanone",
+   "1-Pentanol and butyl methyl ether",
+   "1-Pentyne and 2-pentyne"
+  ],
+  "h": "IR identifies functional groups. Which pair has exactly the same functional group in nearly the same environment?",
+  "w": "<b>2-Pentanone and 3-pentanone</b> are both saturated acyclic ketones: each shows a strong C=O near 1715 cm<sup>−1</sup> and only sp<sup>3</sup> C–H stretches. Their differences are confined to the fingerprint region, which is why IR alone is a poor tool for telling such isomers apart (NMR does it easily).",
+  "x": [
+   "",
+   "Pentanal shows the aldehyde C–H pair at 2720 and 2820 cm<sup>−1</sup> and a C=O near 1730 cm<sup>−1</sup>; 2-pentanone has neither feature.",
+   "1-Pentanol has a strong, broad O–H band near 3350 cm<sup>−1</sup>; the ether has none, so they are easy to distinguish.",
+   "1-Pentyne has a strong, sharp ≡C–H band near 3300 cm<sup>−1</sup>; the internal alkyne 2-pentyne does not."
+  ]
+ },
+ {
+  "id": "irms-17",
+  "t": "irms",
+  "d": 3,
+  "k": 1,
+  "q": "A C–H stretch appears at 2950 cm<sup>−1</sup>. Hooke's law gives ν̃ ∝ √(<i>k</i>/μ), where μ = m<sub>1</sub>m<sub>2</sub>/(m<sub>1</sub> + m<sub>2</sub>). Assuming the force constant <i>k</i> is unchanged, at about what wavenumber should the corresponding C–D stretch appear? (Use masses 12, 1 and 2.)",
+  "c": [
+   "About 2165 cm<sup>−1</sup>",
+   "About 4170 cm<sup>−1</sup>",
+   "About 1475 cm<sup>−1</sup>",
+   "About 2085 cm<sup>−1</sup>"
+  ],
+  "h": "Compute the reduced mass for C–H and for C–D, then scale the wavenumber by the square root of their ratio.",
+  "w": "μ(C–H) = (12·1)/13 = 0.923; μ(C–D) = (12·2)/14 = 1.714. Since ν̃ ∝ 1/√μ, ν̃(C–D) = 2950 × √(0.923/1.714) = 2950 × 0.734 ≈ <b>2165 cm<sup>−1</sup></b>. This is why deuterated solvents and C–D labels show bands near 2100–2200 cm<sup>−1</sup>.",
+  "x": [
+   "",
+   "A heavier isotope must lower the wavenumber, not raise it; 4170 cm<sup>−1</sup> comes from multiplying by √2 instead of dividing.",
+   "1475 cm<sup>−1</sup> halves the wavenumber, as if ν̃ were proportional to 1/μ and μ doubled; the dependence is on the square root, and μ does not double.",
+   "2085 cm<sup>−1</sup> divides by √2, using the H/D mass ratio instead of the reduced masses; because carbon also moves, μ rises by less than a factor of 2."
+  ]
+ },
+ {
+  "id": "irms-18",
+  "t": "irms",
+  "d": 1,
+  "k": 0,
+  "q": "The ≡C–H stretch of a terminal alkyne (about 3300 cm<sup>−1</sup>) is higher than the =C–H stretch of an alkene (about 3080 cm<sup>−1</sup>) or the C–H stretch of an alkane (about 2900 cm<sup>−1</sup>). Why?",
+  "c": [
+   "Greater s character in the sp carbon orbital makes the C–H bond shorter and stiffer",
+   "The ≡C–H hydrogen forms hydrogen bonds, which raise its stretching wavenumber",
+   "The sp carbon is lighter than an sp<sup>3</sup> carbon, which lowers the reduced mass",
+   "The ≡C–H bond is the weakest of the three, so it vibrates fastest"
+  ],
+  "h": "All three bonds join the same two atoms, so the reduced mass is the same. What about the force constant?",
+  "w": "Wavenumber depends on the force constant and the reduced mass. The masses are identical (C and H), so the difference comes from <i>k</i>. An sp orbital has 50% s character (sp<sup>2</sup> 33%, sp<sup>3</sup> 25%), so the ≡C–H bond is shorter and stronger, with a larger force constant. The answer is <b>greater s character gives a stiffer bond</b>.",
+  "x": [
+   "",
+   "Hydrogen bonding weakens the X–H bond and lowers its stretching wavenumber, and alkyne C–H is only a very weak hydrogen-bond donor anyway.",
+   "Hybridization does not change an atom's mass; the reduced mass of every C–H bond is the same.",
+   "The ≡C–H bond is the strongest of the three, and a weaker bond (smaller k) vibrates at lower, not higher, wavenumber."
+  ]
+ }
+]

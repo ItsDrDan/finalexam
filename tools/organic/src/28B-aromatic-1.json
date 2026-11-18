@@ -1,0 +1,136 @@
+[
+{
+ "id": "arom-01", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Which of these ions is aromatic? (Assume each ring could be planar.)",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "[CH+]1C=CC=CC=C1"}, {"smi": "[CH-]1C=CC=CC=C1"}, {"smi": "[CH+]1C=CC=C1"}, {"smi": "[CH-]1C=C1"}],
+ "h": "For each ion, decide the hybridization of the charged carbon, then count the π electrons in the ring and test 4n + 2.",
+ "w": "Hückel's rule: a planar, cyclic, fully conjugated ring is aromatic with 4n + 2 π electrons and antiaromatic with 4n. In the cycloheptatrienyl (tropylium) <b>cation</b> the C<sup>+</sup> is sp<sup>2</sup> with an empty p orbital, so the ring holds the 6 π electrons of its three C=C bonds: 4n + 2 with n = 1, <b>aromatic</b>. The other three ions have 8, 4 and 4 π electrons (4n), so none can be aromatic.",
+ "x": ["", "The cycloheptatrienyl anion has 6 electrons from the C=C bonds plus 2 from the carbanion lone pair: 8 π electrons, a 4n count.", "The cyclopentadienyl cation has only the 4 π electrons of its two C=C bonds (the C<sup>+</sup> p orbital is empty): 4n, antiaromatic if planar.", "The cyclopropenyl anion has 2 π electrons from the C=C plus 2 from the lone pair: 4 π electrons, a 4n count. It is the cyclopropenyl cation (2 π) that is aromatic."]
+},
+{
+ "id": "arom-02", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Cyclooctatetraene (C<sub>8</sub>H<sub>8</sub>) reacts with Br<sub>2</sub> like an ordinary alkene, and its C–C bonds alternate between about 1.33 and 1.47 Å. Which classification and reason fit these facts best?",
+ "s": [{"smi": "C1=CC=CC=CC=C1"}],
+ "c": ["Nonaromatic: it adopts a nonplanar tub shape, so the p orbitals do not overlap all the way around the ring", "Antiaromatic: it is planar and cyclic with 8 π electrons, a 4n count", "Aromatic: it is cyclic and fully conjugated with 8 π electrons", "Antiaromatic: it is tub-shaped, and the 8 π electrons overlap continuously around the tub"],
+ "h": "Hückel's rule applies only to rings that are planar. What does an 8-membered ring do to avoid a 4n π count?",
+ "w": "If cyclooctatetraene were planar it would have 8 π electrons in a continuous loop (4n) and be antiaromatic. A planar 8-membered ring would also have 135° bond angles. The molecule escapes both problems by folding into a <b>tub</b>: adjacent C=C bonds are twisted so their p orbitals barely overlap, the double bonds become localized (alternating bond lengths) and react like isolated alkenes. Because there is no continuous cyclic overlap, it is <b>nonaromatic</b>.",
+ "x": ["", "A planar 8π ring would be antiaromatic, but the observed localized bonds and alkene reactivity show the molecule is not planar; it avoids antiaromaticity by puckering.", "8 is a 4n number, not 4n + 2, so the ring could not be aromatic even if planar; aromatic rings also show equal bond lengths, not alternation.", "Antiaromaticity requires continuous cyclic overlap in a planar ring; in the tub the p orbitals of neighboring C=C bonds are nearly perpendicular, so there is no continuous overlap."]
+},
+{
+ "id": "arom-03", "t": "aromatic", "d": 3, "k": 0,
+ "q": "Cyclooctatetraene reacts with 2 equivalents of potassium metal in THF to give K<sub>2</sub>C<sub>8</sub>H<sub>8</sub>, whose eight C–C bonds are all the same length and whose eight H give one <sup>1</sup>H NMR singlet near 5.7 ppm. Which description of the C<sub>8</sub>H<sub>8</sub><sup>2−</sup> ion is correct?",
+ "s": [{"smi": "C1=CC=CC=CC=C1"}, {"arrow": "2 K", "below": "THF"}, "C<sub>8</sub>H<sub>8</sub><sup>2−</sup>"],
+ "c": ["A planar, aromatic ring with 10 π electrons", "A tub-shaped, nonaromatic ring with 10 π electrons", "A planar, antiaromatic ring with 8 π electrons", "A planar, aromatic ring with 8 π electrons and two lone pairs outside the π system"],
+ "h": "Each potassium atom gives one electron to the π system. Count again and apply 4n + 2.",
+ "w": "Two electrons added to the 8 π electrons of cyclooctatetraene give <b>10 π electrons</b> (4n + 2, n = 2). Ten electrons fill the planar ring's three bonding MOs and its two nonbonding MOs, a closed shell, so the dianion flattens to a <b>planar, aromatic</b> octagon. Equal bond lengths and the single NMR environment both point to full delocalization.",
+ "x": ["", "With 10 π electrons the ion gains aromatic stabilization by becoming planar; the equal bond lengths show it is no longer a localized tub.", "The added electrons go into the π system, so the count is 10, not 8; an 8π planar ring would show bond alternation, not equal bonds.", "The added electrons occupy p orbitals of the ring (the nonbonding π MOs), not in-plane lone pairs, so they are part of the π count of 10."]
+},
+{
+ "id": "arom-04", "t": "aromatic", "d": 1, "k": 0,
+ "q": "How many electrons are in the aromatic π system of furan?",
+ "s": [{"smi": "c1ccoc1"}],
+ "c": ["6", "8", "4", "5"],
+ "h": "Oxygen has two lone pairs. Can both sit in a p orbital perpendicular to the ring?",
+ "w": "The two C=C bonds give 4 π electrons. The ring oxygen is sp<sup>2</sup>: one lone pair sits in the p orbital parallel to the carbon p orbitals and joins the π system, and the other lone pair lies in an sp<sup>2</sup> orbital in the plane of the ring. Total: <b>6 π electrons</b>, so furan is aromatic.",
+ "x": ["", "Only one oxygen lone pair can occupy the p orbital; the second lies in the ring plane, perpendicular to the π system.", "4 counts only the two C=C bonds and leaves out the oxygen lone pair that completes the sextet.", "Lone pairs contribute two electrons, not one; an odd count would mean a radical."]
+},
+{
+ "id": "arom-05", "t": "aromatic", "d": 3, "k": 0,
+ "q": "Use a Frost circle (inscribed-polygon) picture of the planar cyclopentadienyl <b>cation</b>, C<sub>5</sub>H<sub>5</sub><sup>+</sup>. Which description of its π-electron configuration is correct?",
+ "s": [{"smi": "[CH+]1C=CC=C1"}],
+ "c": ["Two electrons in the lowest MO and one electron in each of the two degenerate bonding MOs: an open-shell, antiaromatic ion", "Two electrons in the lowest MO and two paired electrons in one of the degenerate bonding MOs: a closed-shell, aromatic ion", "Six electrons filling all three bonding MOs: a closed-shell, aromatic ion", "Two electrons in the lowest MO and two in a single nonbonding MO: a closed-shell, nonaromatic ion"],
+ "h": "Draw a pentagon point-down in a circle: the corners are the MO energies. Then place 4 π electrons, remembering Hund's rule for degenerate orbitals.",
+ "w": "A pentagon inscribed point-down gives one low bonding MO, a degenerate pair of bonding MOs just below the midline, and a degenerate antibonding pair above it (no nonbonding level). The cation has <b>4 π electrons</b>: 2 fill the lowest MO and the other 2 go <b>one into each</b> degenerate bonding MO with parallel spins (Hund's rule). A half-filled degenerate pair is the signature of an <b>antiaromatic</b> (4n) ring.",
+ "x": ["", "Degenerate orbitals fill singly first (Hund's rule), so the two electrons do not pair in one MO; the ion is not closed-shell.", "Six π electrons describes the cyclopentadienyl anion, not the cation; the cation has only the 4 electrons of its two C=C bonds.", "A five-membered ring has no nonbonding MO; in the Frost picture of a pentagon no corner sits on the midline."]
+},
+{
+ "id": "arom-06", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Which statement correctly describes the π molecular orbitals of the cyclopentadienyl <b>anion</b>?",
+ "s": [{"smi": "[CH-]1C=CC=C1"}],
+ "c": ["Its 6 π electrons fill the three bonding MOs completely and leave the two antibonding MOs empty", "Its 6 π electrons fill the three bonding MOs and place one electron in each antibonding MO", "Its 4 π electrons half-fill the degenerate bonding MOs, leaving two unpaired electrons", "Its 6 π electrons fill one bonding MO and two nonbonding MOs"],
+ "h": "Five p orbitals give five π MOs. How many are bonding, and how many electrons does the anion have?",
+ "w": "Five p orbitals give five π MOs: one lowest bonding MO, a degenerate bonding pair, and a degenerate antibonding pair. The anion has 4 electrons from the two C=C bonds plus 2 from the carbanion lone pair: <b>6</b>. They exactly fill the three bonding MOs, giving a closed shell with empty antibonding MOs, the electronic signature of an <b>aromatic</b> ring.",
+ "x": ["", "Six electrons fit exactly into the three bonding MOs (two each), so none spill into the antibonding MOs.", "The lone pair on the anionic carbon adds 2 electrons, so the anion has 6 π electrons, not 4; the 4-electron case is the cation.", "A pentagon in the Frost circle has no corner on the midline, so there are no nonbonding MOs; the three filled MOs are all bonding."]
+},
+{
+ "id": "arom-07", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Which [<i>n</i>]annulene is expected to be aromatic and is observed to be essentially planar with a strong aromatic ring current?",
+ "c": ["[18]Annulene", "[10]Annulene", "[16]Annulene", "[12]Annulene"],
+ "h": "Two tests: is the π count 4n + 2, and can the ring actually be planar without severe strain or H–H crowding?",
+ "w": "<b>[18]Annulene</b> has 18 π electrons (4n + 2, n = 4) and its ring is large enough to be nearly planar with six H atoms pointing into the cavity without serious crowding, so it is aromatic. [10]Annulene also has a 4n + 2 count, but any planar form suffers either large angle strain (all-cis) or a clash of the two inward-pointing H atoms, so it puckers and is nonaromatic. [12] and [16]annulene have 4n counts.",
+ "x": ["", "10 is a 4n + 2 number, but a planar [10]annulene has either severe angle strain or two inner H atoms that collide, so the real molecule is nonplanar and nonaromatic.", "16 π electrons is a 4n count; [16]annulene is not aromatic.", "12 π electrons is a 4n count; [12]annulene is not aromatic."]
+},
+{
+ "id": "arom-08", "t": "aromatic", "d": 3, "k": 0,
+ "q": "Azulene, an isomer of naphthalene, is deep blue and has an unusually large dipole moment (about 0.8 D) for a hydrocarbon. Which statement best explains the direction of its dipole?",
+ "s": [{"smi": "c1ccc2cccc2cc1"}],
+ "c": ["The negative end is at the five-membered ring, because a dipolar contributor with a cyclopentadienyl-anion ring fused to a tropylium-cation ring has two 6π aromatic rings", "The negative end is at the seven-membered ring, because the larger ring holds more of the 10 π electrons", "The negative end is at the five-membered ring, because the five-membered ring is antiaromatic and withdraws electrons", "There is no permanent dipole; the color comes from its 10 π electrons alone"],
+ "h": "Move one π electron pair's worth of charge from one ring to the other on paper. When is each separate ring a 6π system?",
+ "w": "Azulene has 10 π electrons in total. In the charge-separated resonance contributor, the five-membered ring carries a negative charge (6 π electrons, like the cyclopentadienyl anion) and the seven-membered ring carries a positive charge (6 π electrons, like tropylium). Because each ring is then an aromatic sextet, this contributor is significant, so electron density shifts toward the five-membered ring: <b>the negative end of the dipole is at the five-membered ring</b>.",
+ "x": ["", "Ring size alone does not decide where π density goes; shifting density to the seven-membered ring would give it 8 π electrons, a 4n count.", "The direction is right but the reason is wrong: in the polarized form the five-membered ring is a 6π aromatic anion, not antiaromatic.", "Azulene has a measurable dipole; a hydrocarbon with no polar bonds shows one only because of this charge-separated aromatic contributor."]
+},
+{
+ "id": "arom-09", "t": "aromatic", "d": 1, "k": 0,
+ "q": "Which compound is <b>nonaromatic</b>?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "C1C=CC=CC=C1"}, {"smi": "[CH+]1C=CC=CC=C1"}, {"smi": "c1ccncc1"}, {"smi": "c1ccsc1"}],
+ "h": "Look for an atom in the ring that has no p orbital available for conjugation.",
+ "w": "Cycloheptatriene contains an sp<sup>3</sup> CH<sub>2</sub> carbon. That carbon has no p orbital, so the cyclic π system is interrupted and the ring cannot be aromatic or antiaromatic: it is <b>nonaromatic</b>. Removing hydride from that carbon gives the tropylium ion, which is aromatic.",
+ "x": ["", "The tropylium ion's C<sup>+</sup> is sp<sup>2</sup> with an empty p orbital, so the ring is fully conjugated with 6 π electrons: aromatic.", "Pyridine is a planar, fully conjugated ring with 6 π electrons (the N lone pair is in the plane, outside the π system): aromatic.", "Thiophene uses one sulfur lone pair in its π system to reach 6 π electrons: aromatic."]
+},
+{
+ "id": "arom-10", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Which species is <b>antiaromatic</b>?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "C1=CC=C1"}, {"smi": "[CH+]1C=C1"}, {"smi": "C1=CC=CC=CC=C1"}, {"smi": "[CH-]1C=CC=C1"}],
+ "h": "Antiaromatic means planar, cyclic, fully conjugated and 4n π electrons. Check planarity as well as the count.",
+ "w": "Cyclobutadiene is a square-planar (rectangular) ring with 4 π electrons in a continuous loop, a 4n count, and a four-membered ring cannot pucker enough to escape the overlap. It is the classic <b>antiaromatic</b> molecule: so unstable that it dimerizes almost at once unless it is trapped at very low temperature.",
+ "x": ["", "The cyclopropenyl cation has 2 π electrons (4n + 2, n = 0) in a planar ring: aromatic.", "Cyclooctatetraene has 8 π electrons, but it avoids antiaromaticity by adopting a nonplanar tub shape: nonaromatic.", "The cyclopentadienyl anion has 6 π electrons in a planar ring: aromatic."]
+},
+{
+ "id": "arom-11", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Rank these hydrocarbons in order of <b>increasing</b> acidity of their most acidic C–H.",
+ "s": [{"smi": "C1C=CC=C1", "cap": "I"}, {"smi": "C1C=CC=CC=C1", "cap": "II"}, {"smi": "C1CCCC1", "cap": "III"}],
+ "c": ["III < II < I", "II < III < I", "I < II < III", "III < I < II"],
+ "h": "Draw each conjugate base. Which one is aromatic, which is a delocalized but 4n system, and which is a localized alkyl carbanion?",
+ "w": "Removing H<sup>+</sup> from the CH<sub>2</sub> of cyclopentadiene (I) gives the cyclopentadienyl anion, a 6π aromatic ion, so I is remarkably acidic for a hydrocarbon (pK<sub>a</sub> ≈ 16). Cycloheptatriene (II) gives an 8π anion that cannot gain aromatic stabilization, but its charge is still spread over a conjugated system (pK<sub>a</sub> ≈ 36). Cyclopentane (III) gives a localized sp<sup>3</sup> carbanion (pK<sub>a</sub> ≈ 50). Increasing acidity: <b>III < II < I</b>.",
+ "x": ["", "The cycloheptatrienyl anion is not aromatic, but it is still delocalized over several sp<sup>2</sup> carbons, so II is far more acidic than the alkane III.", "This is the reverse order: the compound with the aromatic conjugate base (I) is the most acidic, not the least.", "A larger conjugated ring does not mean a more stable anion: the seven-membered anion has 8 π electrons, while the five-membered anion has an aromatic 6."]
+},
+{
+ "id": "arom-12", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Cyclopentadiene has pK<sub>a</sub> ≈ 16. Which base will convert it essentially <b>completely</b> to the cyclopentadienyl anion?",
+ "s": [{"smi": "C1C=CC=C1"}, {"arrow": "base"}, {"smi": "[CH-]1C=CC=C1"}],
+ "c": ["NaNH<sub>2</sub> (pK<sub>a</sub> of NH<sub>3</sub> ≈ 38)", "Et<sub>3</sub>N (pK<sub>a</sub> of Et<sub>3</sub>NH<sup>+</sup> ≈ 10.7)", "NaHCO<sub>3</sub> (pK<sub>a</sub> of H<sub>2</sub>CO<sub>3</sub> ≈ 6.4)", "CH<sub>3</sub>CO<sub>2</sub>Na (pK<sub>a</sub> of CH<sub>3</sub>CO<sub>2</sub>H ≈ 4.8)"],
+ "h": "An acid–base equilibrium favors the side with the weaker acid. Compare each base's conjugate-acid pK<sub>a</sub> with 16.",
+ "w": "Deprotonation is essentially complete when the conjugate acid of the base is much weaker than cyclopentadiene. NH<sub>3</sub> (pK<sub>a</sub> ≈ 38) is about 10<sup>22</sup> times weaker an acid than cyclopentadiene, so <b>NaNH<sub>2</sub></b> drives the equilibrium fully to the aromatic anion. The other three bases have conjugate acids far stronger than cyclopentadiene, so equilibrium lies on the cyclopentadiene side.",
+ "x": ["", "Et<sub>3</sub>NH<sup>+</sup> (pK<sub>a</sub> 10.7) is a stronger acid than cyclopentadiene (16), so equilibrium favors the starting hydrocarbon.", "H<sub>2</sub>CO<sub>3</sub> (pK<sub>a</sub> 6.4) is about 10<sup>10</sup> times stronger an acid than cyclopentadiene, so bicarbonate deprotonates almost none of it.", "Acetic acid (pK<sub>a</sub> 4.8) is a much stronger acid than cyclopentadiene, so acetate cannot remove its proton to any useful extent."]
+},
+{
+ "id": "arom-13", "t": "aromatic", "d": 2, "k": 0,
+ "q": "How many electrons are in the aromatic π system of indole?",
+ "s": [{"smi": "c1ccc2[nH]ccc2c1"}],
+ "c": ["10", "8", "9", "12"],
+ "h": "Count the C=C π bonds in a Kekulé structure, then decide whether the N lone pair is in a p orbital.",
+ "w": "A Kekulé structure of indole has four C=C bonds (8 π electrons). The N–H nitrogen is pyrrole-like: it is sp<sup>2</sup>, and its lone pair sits in a p orbital and is part of the ring π system, adding 2 more. Total: <b>10 π electrons</b> (4n + 2, n = 2), delocalized over both rings.",
+ "x": ["", "8 leaves out the nitrogen lone pair, which must be in the π system because the N–H nitrogen has no double bond in the ring.", "A lone pair contributes two electrons, not one; the N in indole is not pyridine-like (it has no ring double bond).", "Twelve would require another lone pair or π bond; the nine ring atoms hold only four C=C bonds and one N lone pair."]
+},
+{
+ "id": "arom-14", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Imidazole has two ring nitrogens, labeled <i>a</i> and <i>b</i>. Which statement is correct?",
+ "s": [{"smi": "c1c[nH:1]c[n:2]1"}],
+ "c": ["The lone pair on <i>a</i> is part of the aromatic sextet; <i>b</i> is the basic site that is protonated by acid", "The lone pair on <i>b</i> is part of the aromatic sextet; <i>a</i> is the basic site that is protonated by acid", "Both lone pairs are part of the sextet, so imidazole is not basic", "The lone pair on <i>a</i> is part of the aromatic sextet, and <i>a</i> is also the basic site that is protonated by acid"],
+ "h": "Which N looks like the N of pyrrole (N–H, no ring double bond) and which looks like the N of pyridine?",
+ "w": "N<i>a</i> (the N–H) is pyrrole-like: its lone pair occupies a p orbital and supplies 2 of the 6 π electrons. N<i>b</i> is pyridine-like: it already contributes one electron to the π system through its C=N bond, and its lone pair lies in an sp<sup>2</sup> orbital in the ring plane. Protonating <b><i>b</i></b> leaves the aromatic sextet intact, so <b>b is the basic site and a's lone pair is in the sextet</b>.",
+ "x": ["", "This reverses the roles: the N–H nitrogen has no ring double bond, so its lone pair must supply the π electrons.", "Only one lone pair is needed to reach 6 π electrons; the second (on <i>b</i>) is in the plane and is basic (imidazole's conjugate acid pK<sub>a</sub> ≈ 7).", "Protonating <i>a</i> would remove its lone pair from the π system and destroy aromaticity, so that site is not basic."]
+},
+{
+ "id": "arom-15", "t": "aromatic", "d": 3, "k": 0,
+ "q": "Suppose cyclooctatetraene were forced to be a <b>planar</b> regular octagon. According to its Frost circle, how would its 8 π electrons be arranged?",
+ "s": [{"smi": "C1=CC=CC=CC=C1"}],
+ "c": ["Six fill the three bonding MOs, and the last two occupy the two degenerate nonbonding MOs singly with parallel spins", "Six fill the three bonding MOs, and the last two pair up in one nonbonding MO, giving a closed shell", "Eight fill four bonding MOs, giving a closed shell like benzene", "Six fill the three bonding MOs, and the last two pair in the lowest antibonding MO"],
+ "h": "An octagon drawn point-down in a circle has two corners exactly on the midline. What are those MOs called?",
+ "w": "An octagon inscribed point-down gives 1 bonding MO at the bottom, a degenerate bonding pair, a <b>degenerate nonbonding pair on the midline</b>, a degenerate antibonding pair and 1 antibonding MO at the top. Six electrons fill the three bonding MOs; the remaining two go one into each nonbonding MO with parallel spins (Hund's rule). This open-shell, diradical configuration is the hallmark of an <b>antiaromatic</b> 4n ring, which is why real cyclooctatetraene puckers into a tub instead.",
+ "x": ["", "Degenerate orbitals are filled singly before any pairing (Hund's rule), so the two electrons do not pair in one nonbonding MO.", "A planar eight-membered ring has only three bonding π MOs, not four; the fourth-lowest level is nonbonding.", "The nonbonding pair lies below the antibonding MOs, so electrons fill the nonbonding level first."]
+}
+]

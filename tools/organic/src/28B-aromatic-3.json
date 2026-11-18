@@ -1,0 +1,143 @@
+[
+{
+ "id": "arom-31", "t": "aromatic", "d": 3, "k": 0,
+ "q": "What is the major organic product when indane is heated with excess aqueous KMnO<sub>4</sub> and the mixture is then acidified?",
+ "s": [{"smi": "C1Cc2ccccc2C1"}, {"arrow": "1. KMnO<sub>4</sub> (excess), H<sub>2</sub>O, heat", "below": "2. H<sub>3</sub>O<sup>+</sup>"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "OC(=O)c1ccccc1C(=O)O"}, {"smi": "O=C1CCc2ccccc21"}, {"smi": "OC(=O)c1ccccc1"}, {"smi": "OC(=O)Cc1ccccc1C(=O)O"}],
+ "h": "Indane has two benzylic CH<sub>2</sub> groups, one on each ring-fusion carbon. Each benzylic carbon ends up as what group?",
+ "w": "Hot KMnO<sub>4</sub> converts every alkyl carbon attached to the ring that has a benzylic H into a COOH group and removes the rest of the chain. Indane has <b>two</b> benzylic carbons (C1 and C3), one on each of two adjacent ring carbons, so the five-membered ring is cleaved and two ortho COOH groups result: <b>phthalic acid</b> (benzene-1,2-dicarboxylic acid). The middle CH<sub>2</sub> is lost.",
+ "x": ["", "A benzylic ketone is the product of milder oxidants; hot, excess KMnO<sub>4</sub> cleaves the side chain all the way to COOH.", "Both benzylic carbons are attached to the ring and both carry H, so both become COOH groups, not just one.", "Each benzylic carbon becomes a COOH bonded directly to the ring; a CH<sub>2</sub>COOH group cannot survive because its CH<sub>2</sub> is itself benzylic."]
+},
+{
+ "id": "arom-32", "t": "aromatic", "d": 2, "k": 0,
+ "q": "What is the major organic product? (Stereochemistry is not shown.)",
+ "s": [{"smi": "CCCc1ccccc1"}, {"arrow": "NBS (1 equiv)", "below": "hν, CCl<sub>4</sub>"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CCC(Br)c1ccccc1"}, {"smi": "CC(Br)Cc1ccccc1"}, {"smi": "BrCCCc1ccccc1"}, {"smi": "CCCc1ccc(Br)cc1"}],
+ "h": "NBS supplies a low concentration of Br<sub>2</sub> for a radical chain. Which C–H gives the most stable radical?",
+ "w": "Under radical conditions, NBS abstracts the H whose removal gives the most stable radical. A benzylic radical is resonance-stabilized by the ring, so the benzylic C–H (bond energy ≈ 375 kJ/mol) reacts selectively. The benzylic radical then takes Br from Br<sub>2</sub>: <b>(1-bromopropyl)benzene</b>, formed as a racemate.",
+ "x": ["", "The C2 radical is an ordinary secondary radical with no resonance stabilization; the benzylic radical forms much faster.", "A primary radical at the chain end is the least stable choice; NBS bromination is selective for the benzylic position.", "Ring bromination is an electrophilic substitution that needs Br<sub>2</sub> with a Lewis acid such as FeBr<sub>3</sub>; NBS with light does radical substitution on the side chain."]
+},
+{
+ "id": "arom-33", "t": "aromatic", "d": 3, "k": 0,
+ "q": "What is the major monobromination product? (Stereochemistry is not shown.)",
+ "s": [{"smi": "CCc1ccc(C)cc1"}, {"arrow": "NBS (1 equiv)", "below": "(PhCO<sub>2</sub>)<sub>2</sub>, heat"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC(Br)c1ccc(C)cc1"}, {"smi": "CCc1ccc(CBr)cc1"}, {"smi": "BrCCc1ccc(C)cc1"}, {"smi": "CCc1ccc(C)c(Br)c1"}],
+ "h": "There are two kinds of benzylic H. Compare the radicals they would give.",
+ "w": "Both the CH<sub>3</sub> and the CH<sub>2</sub> of the ethyl group are benzylic. Abstracting a CH<sub>2</sub> hydrogen gives a <b>secondary</b> benzylic radical (stabilized by the ring and by an extra alkyl group); abstracting a CH<sub>3</sub> hydrogen gives only a primary benzylic radical. The more stable radical forms faster, so the major product is <b>1-(1-bromoethyl)-4-methylbenzene</b> (racemic).",
+ "x": ["", "This product comes from the primary benzylic radical, which is less stable than the secondary benzylic radical at the ethyl CH<sub>2</sub>.", "The terminal CH<sub>3</sub> of the ethyl group is not benzylic; its primary radical is the least stable possible.", "Substitution on the ring requires electrophilic conditions (Br<sub>2</sub>, FeBr<sub>3</sub>); NBS with a radical initiator brominates the benzylic side chain."]
+},
+{
+ "id": "arom-34", "t": "aromatic", "d": 2, "k": 0,
+ "q": "What is the major product of the Birch reduction of anisole?",
+ "s": [{"smi": "COc1ccccc1"}, {"arrow": "Na, NH<sub>3</sub>(l)", "below": "EtOH"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "COC1=CCC=CC1"}, {"smi": "COC1C=CCC=C1"}, {"smi": "COC1=CC=CCC1"}, {"smi": "COC1CCCCC1"}],
+ "h": "Birch reduction gives a nonconjugated 1,4-cyclohexadiene. Electron-donating groups end up on a double bond; electron-withdrawing groups end up on an sp<sup>3</sup> carbon.",
+ "w": "Birch reduction adds two electrons and two protons to opposite (para) ring carbons, giving a 1,4-cyclohexadiene. Electron-donating groups such as OCH<sub>3</sub> destabilize the carbanion intermediates at the carbon they are attached to, so protonation occurs elsewhere and the donor stays on a C=C: <b>1-methoxycyclohexa-1,4-diene</b>.",
+ "x": ["", "Putting OCH<sub>3</sub> on an sp<sup>3</sup> carbon is the pattern for electron-withdrawing groups (like COOH), not donors.", "Birch reduction gives the unconjugated 1,4-diene, not a conjugated 1,3-diene.", "Na/NH<sub>3</sub> reduces the ring only to the diene stage; isolated C=C bonds are not reduced further."]
+},
+{
+ "id": "arom-35", "t": "aromatic", "d": 2, "k": 0,
+ "q": "What is the major product of the Birch reduction of benzoic acid (after acidic workup)?",
+ "s": [{"smi": "OC(=O)c1ccccc1"}, {"arrow": "1. Na, NH<sub>3</sub>(l), EtOH", "below": "2. H<sub>3</sub>O<sup>+</sup>"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "OC(=O)C1C=CCC=C1"}, {"smi": "OC(=O)C1=CCC=CC1"}, {"smi": "OC(=O)C1=CC=CCC1"}, {"smi": "OC(=O)C1CCCCC1"}],
+ "h": "An electron-withdrawing group stabilizes a negative charge on the carbon it is attached to. Where is that carbon protonated?",
+ "w": "A carboxyl (carboxylate under the conditions) group stabilizes carbanion character on its own ring carbon, so that carbon is reduced and protonated, ending up sp<sup>3</sup>. The two remaining double bonds are not conjugated with each other: <b>cyclohexa-2,5-diene-1-carboxylic acid</b>.",
+ "x": ["", "Keeping COOH on a C=C is the pattern for electron-donating groups; electron-withdrawing groups end up on the sp<sup>3</sup> carbon.", "Birch reduction does not give the conjugated 1,3-diene.", "Na/NH<sub>3</sub> stops at the cyclohexadiene; it does not fully saturate the ring."]
+},
+{
+ "id": "arom-36", "t": "aromatic", "d": 3, "k": 0,
+ "q": "What is the major product of the Birch reduction of 4-methylanisole?",
+ "s": [{"smi": "COc1ccc(C)cc1"}, {"arrow": "Na, NH<sub>3</sub>(l)", "below": "EtOH"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "COC1=CCC(C)=CC1"}, {"smi": "COC1C=CC(C)C=C1"}, {"smi": "COC1=CC=C(C)CC1"}, {"smi": "COC1CCC(C)CC1"}],
+ "h": "Both substituents are electron donors. In a 1,4-cyclohexadiene, which pairs of ring positions are sp<sup>3</sup>?",
+ "w": "In the 1,4-diene from a Birch reduction, the two sp<sup>3</sup> carbons are para to each other. Both OCH<sub>3</sub> and CH<sub>3</sub> are electron donors and prefer to remain on double-bond carbons. Because they are para to each other, both can stay on sp<sup>2</sup> carbons at once, with C3 and C6 reduced: <b>1-methoxy-4-methylcyclohexa-1,4-diene</b>.",
+ "x": ["", "This places both donors on the sp<sup>3</sup> carbons, the pattern for electron-withdrawing groups.", "Birch reduction gives a nonconjugated 1,4-diene, not a conjugated 1,3-diene.", "Na/NH<sub>3</sub> does not reduce isolated alkenes, so the reduction stops at the diene."]
+},
+{
+ "id": "arom-37", "t": "aromatic", "d": 3, "k": 0,
+ "q": "The Birch reduction of benzene (Na, NH<sub>3</sub>(l), EtOH) gives cyclohexa-1,4-diene, even though cyclohexa-1,3-diene is the more stable isomer. Which statement best explains this outcome?",
+ "c": ["The final cyclohexadienyl anion is protonated at its central carbon, where its charge density is greatest, and the unconjugated diene is not isomerized under the conditions", "The 1,3-diene forms first and then isomerizes to the 1,4-diene, which is the more stable product", "Ethanol protonates the radical anion at both ends of a conjugated system at once, which can only give a 1,4-diene", "The 1,4-diene is the only product in which every carbon remains sp<sup>2</sup> hybridized"],
+ "h": "The product forms in the last, irreversible step. Which carbon of a pentadienyl anion carries the most negative charge?",
+ "w": "Sequence: electron transfer gives a radical anion, ethanol protonates it, a second electron gives a cyclohexadienyl (pentadienyl) anion, and ethanol protonates again. A pentadienyl anion has its largest coefficient (charge density) at the <b>central carbon</b> (C3 of the five-carbon system), so protonation there gives the unconjugated 1,4-diene. The result is under <b>kinetic control</b>; the conjugated 1,3-diene would be more stable but is not formed (and would be reduced further if it were).",
+ "x": ["", "The 1,3-diene is more stable than the 1,4-diene, so a reaction under thermodynamic control would not favor the 1,4 isomer.", "The two protons are added in separate steps, one to the radical anion and one to the later carbanion.", "A cyclohexadiene has two sp<sup>3</sup> carbons whichever isomer forms; this is not what distinguishes 1,4 from 1,3."]
+},
+{
+ "id": "arom-38", "t": "aromatic", "d": 1, "k": 0,
+ "q": "What is the major organic product?",
+ "s": [{"smi": "C/C=C/c1ccccc1"}, {"arrow": "H<sub>2</sub> (1 atm), Pd/C", "below": "25 °C"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CCCc1ccccc1"}, {"smi": "CCCC1CCCCC1"}, {"smi": "C/C=C/C1CCCCC1"}, {"smi": "CCCC1=CCC=CC1"}],
+ "h": "Which is easier to hydrogenate, an alkene or a benzene ring?",
+ "w": "An alkene C=C is hydrogenated rapidly over Pd/C at room temperature and 1 atm, but the aromatic ring is not reduced under these mild conditions; its aromatic stabilization means ring hydrogenation needs high pressure, heat and an active catalyst (Rh, Pt or Ni). Product: <b>propylbenzene</b>.",
+ "x": ["", "Saturating the ring as well requires forcing conditions (for example high-pressure H<sub>2</sub> with Rh/C or Pt and heat), not 1 atm and 25 °C.", "The ring is much harder to reduce than the alkene, so it cannot be reduced while the alkene survives.", "A 1,4-cyclohexadiene is the product of a Birch reduction (Na/NH<sub>3</sub>), not catalytic hydrogenation."]
+},
+{
+ "id": "arom-39", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Use the heats of hydrogenation in the table (each reduced to cyclohexane) to estimate the aromatic stabilization (resonance energy) of benzene, using cyclohexene as the model for an isolated C=C.",
+ "f": [{"type": "table", "head": ["Compound", "ΔH° of hydrogenation (kJ/mol)"], "rows": [["cyclohexene", "−120"], ["cyclohexa-1,3-diene", "−232"], ["benzene", "−208"]]}],
+ "c": ["About 150 kJ/mol", "About 24 kJ/mol", "About 208 kJ/mol", "About 112 kJ/mol"],
+ "h": "What would a hypothetical cyclohexatriene with three isolated C=C bonds release? Compare with what benzene actually releases.",
+ "w": "Three isolated C=C bonds would release 3 × 120 = 360 kJ/mol. Benzene actually releases only 208 kJ/mol, so it is more stable than the localized model by 360 − 208 = 152, <b>about 150 kJ/mol</b>. This extra stabilization is why benzene resists hydrogenation and addition reactions.",
+ "x": ["", "232 − 208 compares benzene with cyclohexadiene, which is not the model for three isolated double bonds.", "208 kJ/mol is benzene's measured heat of hydrogenation, not the difference from the localized model.", "232 − 120 compares the diene with the monoene (two C=C vs one); it says nothing about benzene's three C=C."]
+},
+{
+ "id": "arom-40", "t": "aromatic", "d": 3, "k": 0,
+ "q": "A compound C<sub>9</sub>H<sub>10</sub>O<sub>2</sub> shows a strong IR band at 1720 cm<sup>−1</sup> and the <sup>1</sup>H NMR spectrum below. Which structure fits?",
+ "f": [{"type": "nmr", "nuc": "1H", "peaks": [{"ppm": 7.93, "mult": "d", "int": 2}, {"ppm": 7.23, "mult": "d", "int": 2}, {"ppm": 3.90, "mult": "s", "int": 3}, {"ppm": 2.40, "mult": "s", "int": 3}]}],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "COC(=O)c1ccc(C)cc1"}, {"smi": "COC(=O)c1cccc(C)c1"}, {"smi": "CC(=O)Oc1ccc(C)cc1"}, {"smi": "COC(=O)Cc1ccccc1"}],
+ "h": "Two 2H doublets in the aromatic region signal a particular substitution pattern. Then match the 3H singlets to their neighbors.",
+ "w": "Two aromatic doublets of 2H each are the classic pattern of a <b>para-disubstituted</b> ring with two different groups. The doublet at 7.93 ppm belongs to the H ortho to the electron-withdrawing ester carbonyl. The singlet at 3.90 ppm (3H) is an OCH<sub>3</sub> on an ester oxygen, and the singlet at 2.40 ppm (3H) is an aryl CH<sub>3</sub>. Structure: <b>methyl 4-methylbenzoate</b>.",
+ "x": ["", "A meta-disubstituted ring has four different aromatic H, which would give four aromatic signals (1H each), not two 2H doublets.", "This para ester has two CH<sub>3</sub> singlets near 2.1–2.3 ppm (acetyl and aryl CH<sub>3</sub>); nothing would appear at 3.90 ppm.", "Methyl phenylacetate has a monosubstituted ring (5 aromatic H) and a 2H CH<sub>2</sub> singlet; the spectrum shows 4 aromatic H and no 2H singlet."]
+},
+{
+ "id": "arom-41", "t": "aromatic", "d": 1, "k": 0,
+ "q": "Benzene protons appear at 7.3 ppm, while the vinyl protons of cyclohexene appear near 5.7 ppm. What is the main reason the aromatic protons are farther downfield?",
+ "c": ["The circulating π electrons of the ring create an induced field that reinforces the applied field at the ring's outer protons", "The circulating π electrons of the ring create an induced field that opposes the applied field at the ring's outer protons", "Aromatic C–H protons are acidic and partly ionized in the NMR solvent", "Aromatic protons hydrogen-bond to the π cloud of neighboring benzene molecules"],
+ "h": "Think about the ring current in the applied magnetic field: which way do its field lines point outside the ring?",
+ "w": "In a magnetic field, the delocalized π electrons of an aromatic ring circulate (a diatropic ring current). The induced field opposes B<sub>0</sub> inside the ring but its field lines loop back <b>parallel to B<sub>0</sub> outside the ring</b>, where the H atoms sit. These protons feel a larger effective field, so they are deshielded and resonate downfield, about 7–8 ppm.",
+ "x": ["", "An induced field that opposed B<sub>0</sub> at the outer protons would shield them and move them upfield; outside the ring the induced field adds to B<sub>0</sub>.", "Benzene C–H bonds are not acidic (pK<sub>a</sub> ≈ 43); chemical shift does not come from ionization.", "Weak intermolecular contacts do not explain a consistent shift of about 1.6 ppm; the ring current does."]
+},
+{
+ "id": "arom-42", "t": "aromatic", "d": 3, "k": 0,
+ "q": "At low temperature, [16]annulene shows its 4 inner protons near 10.5 ppm and its 12 outer protons near 5.4 ppm. Reduction with potassium gives the [16]annulene dianion. What <sup>1</sup>H NMR change is expected?",
+ "c": ["The inner protons move far upfield (below 0 ppm) and the outer protons move downfield, because the 18π dianion sustains a diatropic (aromatic) ring current", "The inner protons move farther downfield and the outer protons farther upfield, because the dianion is a more strongly antiaromatic 18π system", "Both sets of protons merge into one signal near 5.4 ppm, because the dianion becomes a nonaromatic tub", "The spectrum is unchanged, because the two added electrons go into σ orbitals"],
+ "h": "Count π electrons before and after. Then recall which way an aromatic ring current shifts inner and outer protons.",
+ "w": "Neutral [16]annulene has 16 π electrons (4n); its paratropic ring current deshields the inner H (10.5 ppm) and shields the outer H (5.4 ppm), the reverse of the aromatic pattern. The dianion has <b>18 π electrons (4n + 2)</b> and is aromatic, so its <b>diatropic</b> ring current strongly shields the inner protons (they appear well below 0 ppm) and deshields the outer ones.",
+ "x": ["", "18 is a 4n + 2 count, so the dianion is aromatic, not antiaromatic; the neutral 16π ring is the antiaromatic one.", "An 18π dianion gains aromatic stabilization by being planar and conjugated, so it does not become a nonaromatic tub, and its inner and outer protons stay distinct.", "Electrons added by potassium go into the lowest empty π MO, so they change the π count and the ring current."]
+},
+{
+ "id": "arom-43", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Which compound best fits this IR spectrum?",
+ "f": [{"type": "ir", "bands": [{"cm": 3030, "str": "w"}, {"cm": 2920, "str": "m"}, {"cm": 1605, "str": "m"}, {"cm": 1495, "str": "m"}, {"cm": 728, "str": "s"}, {"cm": 694, "str": "s"}]}],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "Cc1ccccc1"}, {"smi": "CC1CCCCC1"}, {"smi": "OCc1ccccc1"}, {"smi": "CC(=O)c1ccccc1"}],
+ "h": "Look for evidence of sp<sup>2</sup> C–H, ring C=C stretches near 1600 and 1500, and check what is missing.",
+ "w": "Weak absorption just above 3000 cm<sup>−1</sup> (3030) is aromatic sp<sup>2</sup> C–H stretch; the pair near 1605 and 1495 cm<sup>−1</sup> is the aromatic ring C=C stretch; the strong bands near 730 and 690 cm<sup>−1</sup> are C–H out-of-plane bends typical of a monosubstituted benzene; and 2920 is sp<sup>3</sup> C–H. There is no O–H and no C=O band. Answer: <b>toluene</b>.",
+ "x": ["", "Methylcyclohexane has only sp<sup>3</sup> C–H (below 3000 cm<sup>−1</sup>) and no ring C=C bands near 1600 and 1500.", "Benzyl alcohol would show a strong, broad O–H stretch near 3300 cm<sup>−1</sup>, which is absent.", "Acetophenone would show a strong conjugated C=O stretch near 1685 cm<sup>−1</sup>, which is absent."]
+},
+{
+ "id": "arom-44", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Which C<sub>8</sub>H<sub>10</sub> isomer gives only <b>two</b> sets of chemically equivalent hydrogens (two <sup>1</sup>H NMR signals)?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "Cc1ccc(C)cc1"}, {"smi": "Cc1ccccc1C"}, {"smi": "Cc1cccc(C)c1"}, {"smi": "CCc1ccccc1"}],
+ "h": "Use the symmetry of each ring. How many different kinds of ring H does each isomer have?",
+ "w": "In <b><i>p</i>-xylene</b> the two CH<sub>3</sub> groups are equivalent and all four ring H are equivalent (by its two perpendicular mirror planes), so it shows exactly two signals: 6H near 2.3 ppm and 4H near 7.0 ppm.",
+ "x": ["", "<i>o</i>-Xylene has two kinds of ring H (2H each) plus the CH<sub>3</sub> groups: three sets.", "<i>m</i>-Xylene has three kinds of ring H (1H, 1H, 2H) plus the CH<sub>3</sub> groups: four sets.", "Ethylbenzene has CH<sub>3</sub>, CH<sub>2</sub> and three kinds of ring H (ortho, meta, para): five sets."]
+},
+{
+ "id": "arom-45", "t": "aromatic", "d": 2, "k": 0,
+ "q": "Which compound shows exactly <b>two</b> signals in its <sup>13</sup>C NMR spectrum?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "Clc1ccc(Cl)cc1"}, {"smi": "Clc1ccccc1Cl"}, {"smi": "Clc1cccc(Cl)c1"}, {"smi": "Clc1ccccc1"}],
+ "h": "Find the symmetry elements of each ring and group the six ring carbons into equivalent sets.",
+ "w": "In <b>1,4-dichlorobenzene</b> the two C–Cl carbons are equivalent and the four C–H carbons are equivalent, so there are exactly 2 carbon environments.",
+ "x": ["", "1,2-Dichlorobenzene has three carbon environments: the two C–Cl, the two C–H next to them, and the remaining two C–H.", "1,3-Dichlorobenzene has four environments: C–Cl (×2), C2 between the chlorines, C4/C6, and C5.", "Chlorobenzene has four environments: the ipso carbon, two ortho, two meta and one para carbon."]
+}
+]

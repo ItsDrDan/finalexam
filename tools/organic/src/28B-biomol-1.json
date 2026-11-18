@@ -1,0 +1,743 @@
+[
+ {
+  "id": "biomol-01",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Which sugar is shown in the Fischer projection?",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "CHO",
+    "rows": [
+     [
+      "HO",
+      "H"
+     ],
+     [
+      "H",
+      "OH"
+     ],
+     [
+      "HO",
+      "H"
+     ],
+     [
+      "HO",
+      "H"
+     ]
+    ],
+    "bottom": "CH<sub>2</sub>OH",
+    "nums": true
+   }
+  ],
+  "c": [
+   "L-glucose",
+   "D-idose",
+   "D-glucose",
+   "L-mannose"
+  ],
+  "h": "The D/L label comes from one carbon only: the stereocenter farthest from C1. Then compare the whole pattern of –OH groups with the D-sugar you know best.",
+  "w": "The highest-numbered stereocenter (C5) has its –OH on the <b>left</b>, so this is an <b>L</b>-sugar. Every stereocenter is the mirror image of D-glucose (right, left, right, right becomes left, right, left, left), so the compound is <b>L-glucose</b>, the enantiomer of D-glucose.",
+  "x": [
+   "",
+   "D-Idose has the same C2–C4 pattern as this drawing but its C5 –OH points right. It differs from the drawing at C5 only, so it is a diastereomer (C5 epimer), not this sugar.",
+   "D-Glucose has the C2, C4 and C5 –OH groups on the right. Every center here is inverted, so this is its enantiomer.",
+   "L-Mannose has its C2 –OH on the right (the mirror image of D-mannose, whose C2 –OH points left). Here the C2 –OH points left."
+  ]
+ },
+ {
+  "id": "biomol-02",
+  "t": "biomol",
+  "d": 3,
+  "k": 0,
+  "q": "What are the CIP configurations of the four stereocenters of open-chain D-glucose (shown)?",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "CHO",
+    "rows": [
+     [
+      "H",
+      "OH"
+     ],
+     [
+      "HO",
+      "H"
+     ],
+     [
+      "H",
+      "OH"
+     ],
+     [
+      "H",
+      "OH"
+     ]
+    ],
+    "bottom": "CH<sub>2</sub>OH",
+    "nums": true
+   }
+  ],
+  "c": [
+   "(2<i>R</i>,3<i>S</i>,4<i>R</i>,5<i>R</i>)",
+   "(2<i>S</i>,3<i>R</i>,4<i>S</i>,5<i>S</i>)",
+   "(2<i>R</i>,3<i>R</i>,4<i>R</i>,5<i>R</i>)",
+   "(2<i>R</i>,3<i>S</i>,4<i>R</i>,5<i>S</i>)"
+  ],
+  "h": "At each center rank OH first and H last, then compare the carbon branches. In a Fischer projection H points toward you, so reverse the direction you read.",
+  "w": "At every center OH ranks 1 and H ranks 4. The carbon toward C1 outranks the carbon toward C6 at C2 (CHO: O,O,H), C3 and C4 (O,C,H vs O,C,H, decided further out toward the aldehyde), and at C5 the C4 branch (O,C,H) beats CH<sub>2</sub>OH (O,H,H). So priority 2 is always the upward carbon. With H on a horizontal bond, a right-side OH traces 1→2→3 counterclockwise on paper, which reverses to <b>R</b>; a left-side OH gives <b>S</b>. Right, left, right, right gives <b>(2<i>R</i>,3<i>S</i>,4<i>R</i>,5<i>R</i>)</b> (confirmed with CIP software).",
+  "x": [
+   "",
+   "This is every center inverted, the descriptor set of L-glucose. It comes from forgetting that the H on a horizontal bond points toward you.",
+   "'Right side = R' is not a rule. C3 has its OH on the left, which makes it S here.",
+   "At C5 the C4 branch (O,C,H) outranks CH<sub>2</sub>OH (O,H,H). Ranking CH<sub>2</sub>OH higher flips the C5 label to S."
+  ]
+ },
+ {
+  "id": "biomol-03",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "The Fischer projection shows D-galactose. Which Haworth projection is β-D-galactopyranose?",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "CHO",
+    "rows": [
+     [
+      "H",
+      "OH"
+     ],
+     [
+      "HO",
+      "H"
+     ],
+     [
+      "HO",
+      "H"
+     ],
+     [
+      "H",
+      "OH"
+     ]
+    ],
+    "bottom": "CH<sub>2</sub>OH",
+    "nums": true
+   },
+   {
+    "type": "haworth",
+    "items": [
+     {
+      "sugar": "glucose",
+      "anomer": "b",
+      "cap": "I"
+     },
+     {
+      "sugar": "galactose",
+      "anomer": "b",
+      "cap": "II"
+     },
+     {
+      "sugar": "galactose",
+      "anomer": "a",
+      "cap": "III"
+     },
+     {
+      "size": 6,
+      "subs": [
+       [
+        "OH",
+        "H"
+       ],
+       [
+        "OH",
+        "H"
+       ],
+       [
+        "OH",
+        "H"
+       ],
+       [
+        "OH",
+        "H"
+       ],
+       [
+        "CH<sub>2</sub>OH",
+        "H"
+       ]
+      ],
+      "cap": "IV"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "II",
+   "I",
+   "III",
+   "IV"
+  ],
+  "h": "Right-side Fischer groups point down in the Haworth ring; left-side groups point up. For a D-sugar, β puts the anomeric –OH on the same face as CH<sub>2</sub>OH.",
+  "w": "Fischer → Haworth: right → down, left → up. D-Galactose has C2 –OH right (down), C3 –OH left (up), C4 –OH left (up), and C5 bonded to the ring O with CH<sub>2</sub>OH up. β means the C1 –OH is cis to the C5 CH<sub>2</sub>OH, so it points up. Drawing <b>II</b> matches all five carbons.",
+  "x": [
+   "",
+   "I has the C4 –OH down: that is β-D-glucopyranose, the C4 epimer of galactose.",
+   "III has the C1 –OH down, trans to CH<sub>2</sub>OH: that is the α anomer.",
+   "IV has the C2 –OH up as well, which corresponds to a left-side C2 –OH in the Fischer projection (β-D-talopyranose, the C2 epimer)."
+  ]
+ },
+ {
+  "id": "biomol-04",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "At equilibrium in water, D-glucose is about 64% β-pyranose and 36% α-pyranose. What best explains why the β anomer is the major form?",
+  "f": [
+   {
+    "type": "haworth",
+    "sugar": "glucose",
+    "anomer": "b",
+    "nums": true
+   }
+  ],
+  "c": [
+   "In the <sup>4</sup>C<sub>1</sub> chair of the β anomer every ring substituent, including the C1 –OH, is equatorial",
+   "The anomeric effect stabilizes an equatorial –OH at C1, so it favors the β anomer",
+   "The β anomer forms faster when the ring closes, and it cannot reopen once formed",
+   "Only the β anomer can hydrogen bond to its own ring oxygen"
+  ],
+  "h": "Put β-D-glucopyranose in the chair that has CH<sub>2</sub>OH equatorial. Where does every other group sit?",
+  "w": "β-D-Glucopyranose is the one aldohexopyranose in which all five ring substituents (C1 –OH, C2 –OH, C3 –OH, C4 –OH and C5 CH<sub>2</sub>OH) can be equatorial at once. The α anomer has to place the C1 –OH axial, with 1,3-diaxial interactions. <b>The all-equatorial chair</b> is why β dominates. The anomeric effect actually works the other way: it favors an axial electronegative group at C1, which is why α is still 36% rather than a few percent.",
+  "x": [
+   "",
+   "Backwards: the anomeric effect stabilizes an axial C1 substituent (the α anomer in glucose), so it opposes the β preference.",
+   "Mutarotation shows the opposite: both anomers reopen to the aldehyde and re-close, so the ratio is an equilibrium (thermodynamic) value.",
+   "Both anomers have –OH groups that can hydrogen bond, and water competes for those bonds. It is not the factor that sets the ratio."
+  ]
+ },
+ {
+  "id": "biomol-05",
+  "t": "biomol",
+  "d": 1,
+  "k": 0,
+  "q": "How are the two D-glucopyranoses shown related?",
+  "f": [
+   {
+    "type": "haworth",
+    "items": [
+     {
+      "sugar": "glucose",
+      "anomer": "a",
+      "cap": "I"
+     },
+     {
+      "sugar": "glucose",
+      "anomer": "b",
+      "cap": "II"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "Anomers: diastereomers that differ only at C1",
+   "Enantiomers: nonsuperimposable mirror images",
+   "C2 epimers that differ only at C2",
+   "Conformers that interconvert by a chair flip"
+  ],
+  "h": "Compare the two drawings carbon by carbon. How many stereocenters differ, and which carbon is it?",
+  "w": "The two rings match at C2, C3, C4 and C5 and differ only at C1, the hemiacetal carbon that became a new stereocenter when the ring closed. Stereoisomers that differ only at the anomeric carbon are <b>anomers</b>, a special case of diastereomers (α is I, β is II).",
+  "x": [
+   "",
+   "Enantiomers differ at every stereocenter. Here four of the five centers are the same.",
+   "The C2 –OH points down in both drawings. The difference is at C1.",
+   "A chair flip cannot change configuration. Converting α to β requires breaking the C1–O ring bond (mutarotation)."
+  ]
+ },
+ {
+  "id": "biomol-06",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Freshly dissolved α-D-glucopyranose slowly changes its specific rotation from +112° to +52.7° as it converts partly to the β anomer. Through which species does the α → β conversion pass?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O"
+   },
+   {
+    "smi": "OC[C@@H](O)[C@@H](O)[C@H](O)C(O)=CO"
+   },
+   {
+    "smi": "OC[C@@H](O)[C@@H]1[C@H](O)[C@@H](O)[C@H](O)O1"
+   },
+   {
+    "smi": "OC[C@H]1OC(=O)[C@H](O)[C@@H](O)[C@@H]1O"
+   }
+  ],
+  "h": "To change the configuration at C1 of a cyclic hemiacetal, which bond has to break, and what does C1 become when it does?",
+  "w": "Mutarotation is ring opening and reclosing of the hemiacetal. Acid or base catalysis breaks the C1–O5 bond to give the <b>open-chain aldehyde</b>. The C5 –OH can then add to either face of the planar C=O, giving α or β. No other bond to a stereocenter is broken, so C2–C5 keep their configurations.",
+  "x": [
+   "",
+   "The 1,2-enediol forms in base by enolization (Lobry de Bruyn–van Ekenstein). It scrambles C2 (glucose ⇌ mannose ⇌ fructose), not just C1, and is not needed to switch anomers.",
+   "This is β-D-glucofuranose, a minor five-membered-ring form. It is itself reached only through the open-chain aldehyde, so it is not the link between the two pyranoses.",
+   "This is D-glucono-1,5-lactone, an oxidation product. Forming it would require an oxidizing agent; water alone cannot do it."
+  ]
+ },
+ {
+  "id": "biomol-07",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Pure methyl β-D-glucopyranoside (shown) is dissolved in neutral water. What happens to the specific rotation of the solution over time, and why?",
+  "f": [
+   {
+    "type": "haworth",
+    "size": 6,
+    "subs": [
+     [
+      "OCH<sub>3</sub>",
+      "H"
+     ],
+     [
+      "H",
+      "OH"
+     ],
+     [
+      "OH",
+      "H"
+     ],
+     [
+      "H",
+      "OH"
+     ],
+     [
+      "CH<sub>2</sub>OH",
+      "H"
+     ]
+    ],
+    "nums": true
+   }
+  ],
+  "c": [
+   "It stays constant: C1 is an acetal, which does not open to an aldehyde in neutral water",
+   "It drifts to an equilibrium value: the ring opens and recloses to give the α anomer",
+   "It stays constant: the β anomer is already the most stable form, so no α forms",
+   "It drifts as water rapidly hydrolyzes the –OCH<sub>3</sub> group to give free glucose"
+  ],
+  "h": "Is C1 a hemiacetal or an acetal? What does each need in order to open the ring?",
+  "w": "In a glycoside C1 carries two –OR groups (the ring O and OCH<sub>3</sub>): it is an <b>acetal</b>. A hemiacetal opens readily under mild acid or base catalysis, but an acetal is stable in neutral and basic water and is hydrolyzed only by aqueous acid. With no ring opening there is no α/β interconversion, so <b>the rotation stays constant</b>. Glycoside formation locks the anomer.",
+  "x": [
+   "",
+   "That is what a free sugar with a hemiacetal C1 does. Here C1 bears OCH<sub>3</sub>, not OH.",
+   "Stability is not the reason. Even pure β-glucose (a hemiacetal) mutarotates to a 64:36 β:α mixture. The glycoside cannot reach that equilibrium at all.",
+   "Acetals need an acid catalyst to hydrolyze. In neutral water a glycoside is kinetically stable."
+  ]
+ },
+ {
+  "id": "biomol-08",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Which of these give a positive Tollens test (Ag<sup>+</sup>, NH<sub>3</sub>, H<sub>2</sub>O)?<br>I. methyl α-D-glucopyranoside<br>II. D-fructose<br>III. sucrose<br>IV. lactose",
+  "c": [
+   "II and IV only",
+   "IV only",
+   "II, III and IV",
+   "I, II and IV"
+  ],
+  "h": "A reducing sugar has a hemiacetal (or hemiketal) carbon that can open to a free carbonyl. Remember that Tollens reagent is basic.",
+  "w": "Lactose (IV) has a free hemiacetal on its glucose unit and is reducing. D-Fructose (II) is a ketose, but in the basic Tollens reagent it tautomerizes through an enediol to aldoses, so it is also reducing. Methyl glucoside (I) is an acetal, and sucrose (III) joins the anomeric carbons of glucose (C1) and fructose (C2), so neither has a hemiacetal. Answer: <b>II and IV only</b>.",
+  "x": [
+   "",
+   "Fructose is also oxidized: base-catalyzed enolization converts it to glucose and mannose, which reduce Ag<sup>+</sup>.",
+   "Sucrose is nonreducing. Its glycosidic bond uses both anomeric carbons, so neither ring can open.",
+   "Methyl α-D-glucopyranoside is an acetal at C1 and cannot open to an aldehyde."
+  ]
+ },
+ {
+  "id": "biomol-09",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Which D-aldohexose gives an optically inactive alditol when reduced with NaBH<sub>4</sub>?",
+  "f": [
+   {
+    "type": "fischer",
+    "items": [
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "I"
+     },
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "II"
+     },
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "III"
+     },
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "IV"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "III",
+   "I",
+   "II",
+   "IV"
+  ],
+  "h": "NaBH<sub>4</sub> turns CHO into CH<sub>2</sub>OH, so both ends become identical. Look for a horizontal mirror plane through the middle of the chain.",
+  "w": "Reduction gives HOCH<sub>2</sub>–(CHOH)<sub>4</sub>–CH<sub>2</sub>OH. The product is meso if the top half mirrors the bottom half across a horizontal plane: C2 must match C5 and C3 must match C4. In <b>III</b> (D-galactose) C2 and C5 are both right and C3 and C4 are both left, so galactitol has an internal mirror plane and is <b>meso</b> (optically inactive).",
+  "x": [
+   "",
+   "I is D-glucose: C2 right / C5 right match, but C3 left / C4 right do not. D-Glucitol is chiral.",
+   "II is D-mannose: C2 left / C5 right do not match. D-Mannitol is chiral (it has a C2 axis, not a mirror plane).",
+   "IV is D-altrose: C2 left / C5 right do not match, so its alditol is chiral."
+  ]
+ },
+ {
+  "id": "biomol-10",
+  "t": "biomol",
+  "d": 3,
+  "k": 0,
+  "q": "NaBH<sub>4</sub> reduction of D-glucose (shown) gives D-glucitol. Reduction of which other aldohexose gives the identical alditol?",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "CHO",
+    "rows": [
+     [
+      "H",
+      "OH"
+     ],
+     [
+      "HO",
+      "H"
+     ],
+     [
+      "H",
+      "OH"
+     ],
+     [
+      "H",
+      "OH"
+     ]
+    ],
+    "bottom": "CH<sub>2</sub>OH",
+    "nums": true
+   }
+  ],
+  "c": [
+   "L-gulose",
+   "D-gulose",
+   "L-glucose",
+   "D-mannose"
+  ],
+  "h": "After reduction both ends are CH<sub>2</sub>OH. Turn the alditol 180° in the plane so C6 is on top, and read it as if C6 were the new aldehyde carbon.",
+  "w": "Rotate D-glucitol 180° in the plane (allowed for a Fischer projection). Old C6 is now on top, and from the top the –OH groups read left, left, right, left (old C5, C4, C3, C2). Oxidizing the new top carbon to CHO gives an aldose whose last stereocenter has its –OH on the left: an L-sugar. Its mirror image (right, right, left, right) is D-gulose, so the sugar is <b>L-gulose</b>. D-Glucose and L-gulose differ only in which end is the aldehyde, so they give the same alditol (confirmed: identical SMILES).",
+  "x": [
+   "",
+   "D-Gulose gives D-gulitol, which is the enantiomer of D-glucitol (the mirror image of L-gulitol).",
+   "L-Glucose gives L-glucitol, the enantiomer of D-glucitol, not the same compound.",
+   "D-Mannose differs from glucose at C2, so D-mannitol is a diastereomer of D-glucitol."
+  ]
+ },
+ {
+  "id": "biomol-11",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Warm dilute HNO<sub>3</sub> oxidizes both ends of an aldose to COOH. Which two D-aldopentoses give optically inactive aldaric acids?",
+  "f": [
+   {
+    "type": "fischer",
+    "items": [
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "I"
+     },
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "II"
+     },
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "III"
+     },
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "IV"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "I and III",
+   "II and IV",
+   "I and II",
+   "III and IV"
+  ],
+  "h": "In HOOC–CHOH–CHOH–CHOH–COOH the two ends are identical. Is there a mirror plane through C3?",
+  "w": "An aldaric acid from a pentose is meso when C2 and C4 match (C3 sits on the mirror plane). <b>I</b> (D-ribose: right, right, right) and <b>III</b> (D-xylose: right, left, right) both have C2 = C4, so ribaric and xylaric acids are meso and optically inactive.",
+  "x": [
+   "",
+   "II (D-arabinose) and IV (D-lyxose) have C2 on the left and C4 on the right, so their aldaric acids are chiral. In fact both give the same optically active aldaric acid.",
+   "II, D-arabinose, has C2 left and C4 right, so its aldaric acid is chiral.",
+   "IV, D-lyxose, has C2 left and C4 right, so its aldaric acid is chiral."
+  ]
+ },
+ {
+  "id": "biomol-12",
+  "t": "biomol",
+  "d": 1,
+  "k": 0,
+  "q": "Which reagent oxidizes D-glucose to D-gluconic acid but leaves D-fructose unchanged, and so can tell the two sugars apart?",
+  "c": [
+   "Br<sub>2</sub>, H<sub>2</sub>O (buffered, pH about 6)",
+   "Tollens reagent (Ag<sup>+</sup>, NH<sub>3</sub>)",
+   "Benedict's reagent (Cu<sup>2+</sup>, citrate, base)",
+   "NaBH<sub>4</sub>, then H<sub>2</sub>O"
+  ],
+  "h": "Ketoses are oxidized by the basic reagents only because base converts them to aldoses. Which oxidant works without base?",
+  "w": "<b>Bromine water</b> is a mild oxidant used near neutral pH. It oxidizes the aldehyde of an aldose to a carboxylic acid (an aldonic acid) and does not touch ketoses, because without base a ketose cannot isomerize to an aldose. Tollens and Benedict's reagents are basic, so fructose enolizes to aldoses and also tests positive.",
+  "x": [
+   "",
+   "Tollens reagent is basic, so fructose isomerizes through an enediol to aldoses and also reduces Ag<sup>+</sup>.",
+   "Benedict's reagent is basic too, and fructose is a reducing sugar toward it.",
+   "NaBH<sub>4</sub> is a reducing agent. It reduces both sugars (to alditols) rather than oxidizing either one."
+  ]
+ },
+ {
+  "id": "biomol-13",
+  "t": "biomol",
+  "d": 3,
+  "k": 0,
+  "q": "D-Aldopentose <b>X</b> has these properties:<br>• Kiliani–Fischer synthesis gives two aldohexoses. HNO<sub>3</sub> converts one to an optically active aldaric acid and the other to a meso aldaric acid.<br>• Wohl degradation of X, then HNO<sub>3</sub>, gives an optically active tartaric acid.<br>What is X?",
+  "c": [
+   "D-lyxose",
+   "D-ribose",
+   "D-arabinose",
+   "D-xylose"
+  ],
+  "h": "Kiliani–Fischer adds a new C2 (both configurations) above the old chain. Wohl removes C1, so old C3 and C4 become tetrose C2 and C3. Test each pentose.",
+  "w": "Kiliani–Fischer products: D-ribose → D-allose + D-altrose; D-arabinose → D-glucose + D-mannose; D-xylose → D-gulose + D-idose; D-lyxose → D-galactose + D-talose. A meso aldaric acid comes from allose or galactose, so X is ribose or lyxose. Wohl degradation: ribose → D-erythrose → meso-tartaric acid (inactive); lyxose → D-threose → (−)-tartaric acid (active). Only <b>D-lyxose</b> fits both clues.",
+  "x": [
+   "",
+   "D-Ribose fits the first clue (allaric acid is meso) but its Wohl product, D-erythrose, gives meso-tartaric acid, which is optically inactive.",
+   "D-Arabinose gives glucose and mannose, and both glucaric and mannaric acids are optically active, so neither product gives a meso acid.",
+   "D-Xylose gives gulose and idose, whose aldaric acids are both optically active."
+  ]
+ },
+ {
+  "id": "biomol-14",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "What is the product of a Wohl degradation (1. NH<sub>2</sub>OH 2. (CH<sub>3</sub>CO)<sub>2</sub>O, NaOAc 3. NaOCH<sub>3</sub>) of D-galactose (shown)?",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "CHO",
+    "rows": [
+     [
+      "H",
+      "OH"
+     ],
+     [
+      "HO",
+      "H"
+     ],
+     [
+      "HO",
+      "H"
+     ],
+     [
+      "H",
+      "OH"
+     ]
+    ],
+    "bottom": "CH<sub>2</sub>OH",
+    "nums": true
+   }
+  ],
+  "c": [
+   "D-lyxose",
+   "D-xylose",
+   "D-arabinose",
+   "D-ribose"
+  ],
+  "h": "The Wohl degradation removes C1 (as HCN from the cyanohydrin-like intermediate). Old C2 becomes the new aldehyde carbon. Which stereocenters survive?",
+  "w": "The Wohl sequence makes the oxime, dehydrates it to a nitrile, and then base reverses cyanohydrin formation, losing C1 as cyanide. Old C2 becomes the new CHO, so its stereocenter is destroyed. The surviving centers are old C3 (left), C4 (left) and C5 (right), which become C2, C3 and C4 of the pentose: left, left, right = <b>D-lyxose</b>.",
+  "x": [
+   "",
+   "D-Xylose (right, left, right) would require old C2 to keep its configuration as the new C2. Old C2 becomes the aldehyde carbon and loses its stereocenter.",
+   "D-Arabinose (left, right, right) does not match the left, left pattern of galactose C3 and C4.",
+   "D-Ribose has all –OH groups on the right. Galactose has its C3 and C4 –OH groups on the left, and those survive the degradation."
+  ]
+ },
+ {
+  "id": "biomol-15",
+  "t": "biomol",
+  "d": 1,
+  "k": 0,
+  "q": "Which sugar is the C4 epimer of D-glucose?",
+  "c": [
+   "D-galactose",
+   "D-mannose",
+   "D-allose",
+   "L-glucose"
+  ],
+  "h": "Epimers are diastereomers that differ at exactly one stereocenter.",
+  "w": "Inverting only C4 of D-glucose (C4 –OH from right to left) gives <b>D-galactose</b>. The other stereocenters, including C5, are unchanged, so it is still a D-sugar.",
+  "x": [
+   "",
+   "D-Mannose is the C2 epimer of D-glucose.",
+   "D-Allose is the C3 epimer of D-glucose (all four –OH groups on the right).",
+   "L-Glucose differs at all four stereocenters: it is the enantiomer, not an epimer."
+  ]
+ }
+]

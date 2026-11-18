@@ -1,0 +1,665 @@
+[
+ {
+  "id": "add-19",
+  "t": "addition",
+  "q": "What is the product of this reaction? (Chiral products form as racemates; one enantiomer is drawn.)",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Br<sub>2</sub> adds through a bridged bromonium ion. From which face does bromide attack?",
+  "w": "Br<sub>2</sub> forms a bromonium ion on one face of the ring; bromide must attack from the opposite face (backside, S<sub>N</sub>2-like). Anti addition gives <b>trans-1,2-dibromocyclohexane</b>, formed as a racemate.",
+  "x": [
+   "",
+   "cis-1,2-Dibromocyclohexane would need syn addition; the bromonium ion blocks the face that Br<sup>−</sup> would need.",
+   "A geminal dibromide would require both Br atoms on one carbon; Br<sub>2</sub> adds one Br to each alkene carbon.",
+   "3-Bromocyclohexene is an allylic substitution product from NBS and light, a radical reaction, not Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub>."
+  ],
+  "k": 0,
+  "d": 1,
+  "cs": [
+   {
+    "smi": "Br[C@@H]1CCCC[C@H]1Br"
+   },
+   {
+    "smi": "Br[C@@H]1CCCC[C@@H]1Br"
+   },
+   {
+    "smi": "BrC1(Br)CCCCC1"
+   },
+   {
+    "smi": "BrC1CCCC=C1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "C1=CCCCC1"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-20",
+  "t": "addition",
+  "q": "What is the stereochemical outcome when (<i>Z</i>)-but-2-ene reacts with Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub>?",
+  "c": [
+   "A racemic mixture of (2<i>R</i>,3<i>R</i>)- and (2<i>S</i>,3<i>S</i>)-2,3-dibromobutane",
+   "<i>meso</i>-(2<i>R</i>,3<i>S</i>)-2,3-Dibromobutane only",
+   "(2<i>R</i>,3<i>R</i>)-2,3-Dibromobutane only",
+   "A 1:1 mixture of <i>meso</i> and racemic 2,3-dibromobutane"
+  ],
+  "h": "Anti addition to a cis alkene: is the product the like (R,R/S,S) or unlike (R,S) diastereomer?",
+  "w": "Br<sub>2</sub> adds anti. For a cis alkene, anti addition gives the (<i>R</i>,<i>R</i>)/(<i>S</i>,<i>S</i>) pair; bromide opens the achiral bromonium ion equally at either carbon, so the two enantiomers form equally: <b>racemic (2<i>R</i>,3<i>R</i>)/(2<i>S</i>,3<i>S</i>)-2,3-dibromobutane</b>. (The <i>meso</i> compound comes from the <i>E</i> alkene.)",
+  "x": [
+   "",
+   "The <i>meso</i> dibromide comes from anti addition to (<i>E</i>)-but-2-ene, or syn addition to the <i>Z</i> alkene.",
+   "Achiral reactants with no chiral catalyst cannot give a single enantiomer; attack at the two bromonium carbons is equally likely.",
+   "Bromine addition is stereospecific: one alkene isomer gives one diastereomer, not a mixture of both."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C/C=C\\C"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-21",
+  "t": "addition",
+  "q": "Which alkene and reagent combination gives <i>meso</i>-butane-2,3-diol (shown)?",
+  "c": [
+   "(<i>Z</i>)-but-2-ene; OsO<sub>4</sub>, NMO",
+   "(<i>E</i>)-but-2-ene; OsO<sub>4</sub>, NMO",
+   "(<i>Z</i>)-but-2-ene; 1. mCPBA  2. H<sub>3</sub>O<sup>+</sup>",
+   "(<i>Z</i>)-but-2-ene; 1. O<sub>3</sub>  2. (CH<sub>3</sub>)<sub>2</sub>S"
+  ],
+  "h": "Pair cis/trans with syn/anti: which pairing gives the meso (unlike) diol?",
+  "w": "For a symmetric 1,2-disubstituted alkene, cis + syn addition or trans + anti addition gives the <i>meso</i> product. OsO<sub>4</sub>/NMO adds both OH groups syn, so <b>(<i>Z</i>)-but-2-ene with OsO<sub>4</sub>, NMO</b> gives <i>meso</i>-butane-2,3-diol. (The <i>E</i> alkene with mCPBA then H<sub>3</sub>O<sup>+</sup> would also work, but that pairing is not offered.)",
+  "x": [
+   "",
+   "Syn addition to the <i>E</i> alkene gives the racemic (2<i>R</i>,3<i>R</i>)/(2<i>S</i>,3<i>S</i>) diol.",
+   "Epoxidation then acid opening is an anti dihydroxylation; anti addition to the <i>Z</i> alkene gives the racemic diol.",
+   "Ozonolysis cleaves the C=C and gives two molecules of acetaldehyde, not a diol."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C[C@@H](O)[C@@H](O)C"
+   }
+  ]
+ },
+ {
+  "id": "add-22",
+  "t": "addition",
+  "q": "What is the major product? (Chiral products form as racemates; one enantiomer is drawn.)",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Water is the nucleophile that opens the bromonium ion. Which carbon does it attack, and from which face?",
+  "w": "Br<sub>2</sub> forms a bromonium ion. Water, present in large excess, attacks the carbon that carries more positive charge, the tertiary C1, from the face opposite the bridging Br. The result is OH on C1 and Br on C2, trans: <b>trans-2-bromo-1-methylcyclohexan-1-ol</b> (racemic).",
+  "x": [
+   "",
+   "In this diastereomer Br and OH are cis, which would require syn addition; bromonium opening is anti.",
+   "This regioisomer puts OH on the secondary carbon; water attacks the more substituted carbon of the bromonium ion.",
+   "The dibromide is a minor product; water, the solvent, vastly outnumbers bromide and captures the bromonium ion."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "C[C@@]1(O)CCCC[C@H]1Br"
+   },
+   {
+    "smi": "C[C@]1(O)CCCC[C@H]1Br"
+   },
+   {
+    "smi": "C[C@@]1(Br)CCCC[C@H]1O"
+   },
+   {
+    "smi": "C[C@@]1(Br)CCCC[C@H]1Br"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "H<sub>2</sub>O"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-23",
+  "t": "addition",
+  "q": "What is the major product of this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The solvent is the nucleophile, and it opens the bromonium ion where the positive charge is best supported.",
+  "w": "Br<sub>2</sub> forms a bromonium ion. Methanol (the solvent) attacks the tertiary carbon, which carries more δ+, and loses a proton. Product: <b>1-bromo-2-methoxy-2-methylpropane</b>.",
+  "x": [
+   "",
+   "This regioisomer has OCH<sub>3</sub> on the primary carbon; the solvent attacks the more substituted carbon.",
+   "The dibromide would form in an inert solvent such as CH<sub>2</sub>Cl<sub>2</sub>; in methanol the solvent outcompetes bromide.",
+   "A bromohydrin requires water as the nucleophile; here the solvent is methanol."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "BrCC(C)(C)OC"
+   },
+   {
+    "smi": "COCC(C)(C)Br"
+   },
+   {
+    "smi": "BrCC(C)(C)Br"
+   },
+   {
+    "smi": "BrCC(C)(C)O"
+   }
+  ],
+  "s": [
+   {
+    "smi": "C=C(C)C"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "CH<sub>3</sub>OH"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-24",
+  "t": "addition",
+  "q": "What is the product of this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Anti addition to a trans alkene with identical ends: like (R,R) or unlike (R,S)?",
+  "w": "Br<sub>2</sub> adds anti. Anti addition to a trans alkene whose two ends are identical gives the <i>meso</i> (unlike) product: <b>(3<i>R</i>,4<i>S</i>)-3,4-dibromohexane</b>, which has an internal mirror plane.",
+  "x": [
+   "",
+   "(3<i>R</i>,4<i>R</i>)-3,4-Dibromohexane is one enantiomer of the racemate formed from the <i>Z</i> alkene.",
+   "4-Bromohex-2-ene is an allylic bromination product (NBS, light); Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub> adds across the C=C.",
+   "A geminal dibromide would need both Br atoms on one carbon; each alkene carbon receives one Br."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CC[C@@H](Br)[C@@H](Br)CC"
+   },
+   {
+    "smi": "CC[C@@H](Br)[C@H](Br)CC"
+   },
+   {
+    "smi": "C/C=C/C(Br)CC"
+   },
+   {
+    "smi": "CCC(Br)(Br)CCC"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC/C=C/CC"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-25",
+  "t": "addition",
+  "q": "Which species is the intermediate when cyclopentene reacts with Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The intermediate explains why the two Br atoms end up trans.",
+  "w": "Br<sub>2</sub> is polarized by the π bond; the alkene attacks one Br and the same Br uses a lone pair to bond to the second carbon, giving a <b>cyclic bromonium ion</b>. Bromide then attacks from the back face, giving trans-1,2-dibromocyclopentane.",
+  "x": [
+   "",
+   "An open β-bromo carbocation would be planar and could be attacked from either face, giving cis and trans products; the observed anti addition rules it out.",
+   "The cyclopentyl cation is the intermediate in HBr addition, not Br<sub>2</sub> addition.",
+   "A carbanion is not formed; the alkene acts as the nucleophile, not the electrophile."
+  ],
+  "k": 0,
+  "d": 1,
+  "cs": [
+   {
+    "smi": "C1CC2[Br+]C2C1"
+   },
+   {
+    "smi": "BrC1CCC[CH+]1"
+   },
+   {
+    "smi": "[CH+]1CCCC1"
+   },
+   {
+    "smi": "BrC1CCC[CH-]1"
+   }
+  ]
+ },
+ {
+  "id": "add-26",
+  "t": "addition",
+  "q": "2-Methylpropene reacts with Br<sub>2</sub> in water to give 1-bromo-2-methylpropan-2-ol. Which statements about the opening of the bromonium ion are correct?<br>I. Water attacks the more substituted carbon because that carbon carries more of the positive charge.<br>II. Water attacks from the face opposite the bridging bromine.<br>III. Water attacks the less hindered CH<sub>2</sub> carbon, as in an S<sub>N</sub>2 reaction.<br>IV. The OH ends up on the tertiary carbon.",
+  "c": [
+   "I, II and IV only",
+   "I and II only",
+   "II and III only",
+   "III and IV only"
+  ],
+  "h": "The bromonium ion is unsymmetrical: the C–Br bond to the tertiary carbon is longer and weaker.",
+  "w": "In the unsymmetrical bromonium ion, the tertiary carbon bears more δ+ and its C–Br bond is weaker, so water attacks there (I), from the back face (II), and the OH ends up on the tertiary carbon (IV). Statement III describes the opposite regiochemistry. Answer: <b>I, II and IV only</b>.",
+  "x": [
+   "",
+   "Statement IV is also true: it is the result of the attack described in I.",
+   "Statement III is false; electronic effects (δ+ on the tertiary carbon) outweigh steric hindrance in bromonium opening.",
+   "Statement III is false, and it contradicts IV: attack at CH<sub>2</sub> would put OH on the primary carbon."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "add-27",
+  "t": "addition",
+  "q": "What is the product of this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Both H atoms come from the catalyst surface.",
+  "w": "Catalytic hydrogenation adds both H atoms to the same face (syn). The two methyl groups are pushed together to the other face, giving <b>cis-1,2-dimethylcyclohexane</b> (a <i>meso</i> compound).",
+  "x": [
+   "",
+   "trans-1,2-Dimethylcyclohexane needs H atoms on opposite faces (anti addition), which a metal surface cannot deliver.",
+   "1,2-Dimethylcyclohexan-1-ol adds H and OH, as in hydration; H<sub>2</sub>/Pd adds only hydrogen.",
+   "1,1-Dimethylcyclohexane would require a methyl to migrate; hydrogenation does not change the carbon skeleton."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "C[C@@H]1CCCC[C@@H]1C"
+   },
+   {
+    "smi": "C[C@@H]1CCCC[C@H]1C"
+   },
+   {
+    "smi": "CC1(O)CCCCC1C"
+   },
+   {
+    "smi": "CC1(C)CCCCC1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC1=C(C)CCCC1"
+   },
+   {
+    "arrow": "H<sub>2</sub>",
+    "below": "Pd/C"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-28",
+  "t": "addition",
+  "q": "Which alkene gives a <i>meso</i> compound when hydrogenated with H<sub>2</sub> over Pt?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "A meso product needs two stereocenters. Syn addition to which geometry gives the unlike (R,S) product?",
+  "w": "Hydrogenation is syn. In (<i>Z</i>)-3,4-dimethylhex-3-ene, the two ethyl groups are on the same side (and so are the two methyls). Adding H to both carbons from one face gives (3<i>R</i>,4<i>S</i>)-3,4-dimethylhexane, which has an internal mirror plane: <b>the <i>Z</i> alkene gives the <i>meso</i> product</b>.",
+  "x": [
+   "",
+   "Syn addition to the <i>E</i> isomer gives racemic (3<i>R</i>,4<i>R</i>)/(3<i>S</i>,4<i>S</i>)-3,4-dimethylhexane, which is chiral.",
+   "2,3-Dimethylbutane is achiral but has no stereocenters, so it is not a <i>meso</i> compound.",
+   "This alkene gives 3-methylhexane, which has one stereocenter and forms as a racemate."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "CC/C(C)=C(C)\\CC"
+   },
+   {
+    "smi": "CC/C(C)=C(C)/CC"
+   },
+   {
+    "smi": "CC(C)=C(C)C"
+   },
+   {
+    "smi": "CC/C=C(\\C)CC"
+   }
+  ]
+ },
+ {
+  "id": "add-29",
+  "t": "addition",
+  "q": "What is the product of this two-step sequence? (Chiral products form as racemates; one enantiomer is drawn.)",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Step 1 makes an epoxide on one face; in step 2 water opens it from the other face.",
+  "w": "mCPBA delivers O to one face to give cyclohexene oxide. In aqueous acid the protonated epoxide is opened by water from the back face (anti), so the two OH groups end up trans: <b>trans-cyclohexane-1,2-diol</b> (racemic).",
+  "x": [
+   "",
+   "cis-Cyclohexane-1,2-diol (<i>meso</i>) comes from syn dihydroxylation with OsO<sub>4</sub>.",
+   "The epoxide is the product after step 1 only; H<sub>3</sub>O<sup>+</sup> opens it.",
+   "Cyclohexanol would form from hydration; this sequence adds two oxygens."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "O[C@@H]1CCCC[C@H]1O"
+   },
+   {
+    "smi": "O[C@@H]1CCCC[C@@H]1O"
+   },
+   {
+    "smi": "C1CCC2OC2C1"
+   },
+   {
+    "smi": "OC1CCCCC1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "C1=CCCCC1"
+   },
+   {
+    "arrow": "1. mCPBA",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-30",
+  "t": "addition",
+  "q": "What is the product of this reaction? (Chiral products form as racemates; one enantiomer is drawn.)",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "OsO<sub>4</sub> forms a cyclic osmate ester with both oxygens on one face.",
+  "w": "OsO<sub>4</sub> adds both oxygens to the same face through a cyclic osmate ester; NMO reoxidizes the osmium. The diol is syn: <b>cis-1-methylcyclohexane-1,2-diol</b> (racemic).",
+  "x": [
+   "",
+   "The trans diol forms by anti dihydroxylation (mCPBA, then H<sub>3</sub>O<sup>+</sup>).",
+   "6-Oxoheptanal is the ozonolysis product; OsO<sub>4</sub>/NMO does not cleave the C–C bond.",
+   "1-Methylcyclohexanol has only one OH; it is the Markovnikov hydration product."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "C[C@]1(O)CCCC[C@H]1O"
+   },
+   {
+    "smi": "C[C@@]1(O)CCCC[C@H]1O"
+   },
+   {
+    "smi": "CC(=O)CCCCC=O"
+   },
+   {
+    "smi": "CC1(O)CCCCC1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "OsO<sub>4</sub> (cat.)",
+    "below": "NMO"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-31",
+  "t": "addition",
+  "q": "Which reagents convert cyclopentene into racemic trans-cyclopentane-1,2-diol?",
+  "c": [
+   "1. mCPBA  2. H<sub>3</sub>O<sup>+</sup>",
+   "OsO<sub>4</sub> (cat.), NMO",
+   "KMnO<sub>4</sub>, NaOH, H<sub>2</sub>O, 0 °C",
+   "1. O<sub>3</sub>  2. (CH<sub>3</sub>)<sub>2</sub>S"
+  ],
+  "h": "A trans diol needs the two oxygens added to opposite faces.",
+  "w": "Epoxidation puts one O on one face; acid-catalyzed opening by water attacks from the opposite face. The net anti dihydroxylation gives <b>trans-cyclopentane-1,2-diol</b>: 1. mCPBA, 2. H<sub>3</sub>O<sup>+</sup>.",
+  "x": [
+   "",
+   "OsO<sub>4</sub> is a syn dihydroxylation and gives the cis (<i>meso</i>) diol.",
+   "Cold, dilute basic KMnO<sub>4</sub> also adds both OH groups syn through a cyclic manganate ester, giving the cis diol.",
+   "Ozonolysis cleaves the ring C=C and gives pentanedial, not a diol."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C1=CCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "O[C@@H]1CCC[C@H]1O"
+   }
+  ]
+ },
+ {
+  "id": "add-32",
+  "t": "addition",
+  "q": "1-Methylcyclohexene is converted to a diol in two separate experiments: (a) OsO<sub>4</sub>, NMO; (b) 1. mCPBA  2. H<sub>3</sub>O<sup>+</sup>. How are the diol products of (a) and (b) related?",
+  "c": [
+   "Diastereomers",
+   "Enantiomers",
+   "Identical",
+   "Constitutional isomers"
+  ],
+  "h": "Both give 1-methylcyclohexane-1,2-diol. Compare the relative positions of the two OH groups.",
+  "w": "Both give OH groups on C1 and C2, so they have the same connectivity. OsO<sub>4</sub> is syn (cis diol) and epoxidation/acid opening is anti (trans diol). Cis and trans isomers of the same ring compound are stereoisomers that are not mirror images: <b>diastereomers</b>.",
+  "x": [
+   "",
+   "Enantiomers are mirror images; cis and trans diols are not, since a mirror image keeps the OH groups on the same relative faces.",
+   "Syn and anti dihydroxylation put the second OH on different faces, so the products differ.",
+   "Both reactions put OH on the two former alkene carbons, so the connectivity is the same."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "add-33",
+  "t": "addition",
+  "q": "(<i>E</i>)-But-2-ene reacts with Br<sub>2</sub> in water. Which describes the product?",
+  "c": [
+   "Racemic (2<i>R</i>,3<i>S</i>)- and (2<i>S</i>,3<i>R</i>)-3-bromobutan-2-ol",
+   "Racemic (2<i>R</i>,3<i>R</i>)- and (2<i>S</i>,3<i>S</i>)-3-bromobutan-2-ol",
+   "<i>meso</i>-3-Bromobutan-2-ol",
+   "(2<i>R</i>,3<i>S</i>)-3-Bromobutan-2-ol only"
+  ],
+  "h": "Use the dibromide as a model: anti addition to the E alkene gives the meso dibromide. Now replace one Br by OH without moving any atoms.",
+  "w": "Anti addition to (<i>E</i>)-but-2-ene with Br<sub>2</sub> would give <i>meso</i>-(2<i>R</i>,3<i>S</i>)-dibromide. Replacing one Br with OH (water attacks the bromonium ion anti) keeps the same spatial arrangement, and OH outranks carbon just as Br does, so the descriptors stay unlike: (2<i>R</i>,3<i>S</i>). Water attacks the two equivalent carbons of the achiral bromonium ion equally, giving the mirror image too: <b>racemic (2<i>R</i>,3<i>S</i>)/(2<i>S</i>,3<i>R</i>)-3-bromobutan-2-ol</b>.",
+  "x": [
+   "",
+   "The (2<i>R</i>,3<i>R</i>)/(2<i>S</i>,3<i>S</i>) pair comes from anti addition to the <i>Z</i> alkene.",
+   "A <i>meso</i> compound needs identical halves; C2 carries OH and C3 carries Br, so no internal mirror plane is possible.",
+   "Achiral starting materials give a racemate; the two carbons of the bromonium ion are attacked equally."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C/C=C/C"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "H<sub>2</sub>O"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-34",
+  "t": "addition",
+  "q": "What is the major product of this reaction?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Which carbon of the bromonium ion carries more positive charge: the CH<sub>2</sub> or the benzylic CH?",
+  "w": "Water opens the bromonium ion at the benzylic carbon, where the δ+ is stabilized by the ring. OH goes to the benzylic carbon and Br to the CH<sub>2</sub>: <b>2-bromo-1-phenylethan-1-ol</b> (racemic).",
+  "x": [
+   "",
+   "This regioisomer puts OH on CH<sub>2</sub>; water attacks the carbon that better supports positive charge, the benzylic one.",
+   "The dibromide forms in an inert solvent; in water the solvent captures the bromonium ion.",
+   "1-Phenylethanol is the product of hydration (H and OH), not of Br<sub>2</sub>/H<sub>2</sub>O."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "OC(CBr)c1ccccc1"
+   },
+   {
+    "smi": "OCC(Br)c1ccccc1"
+   },
+   {
+    "smi": "BrCC(Br)c1ccccc1"
+   },
+   {
+    "smi": "CC(O)c1ccccc1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "C=Cc1ccccc1"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "H<sub>2</sub>O"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-35",
+  "t": "addition",
+  "q": "What is the final product of this two-step sequence?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Step 1 gives a trans bromohydrin. In base, which nucleophile is right next door, and where is it relative to Br?",
+  "w": "Step 1 gives trans-2-bromocyclohexan-1-ol. NaOH deprotonates the OH; because OH and Br are trans, the alkoxide can reach the back side of the C–Br bond (both diaxial), and an intramolecular S<sub>N</sub>2 closes the three-membered ring: <b>cyclohexene oxide</b>.",
+  "x": [
+   "",
+   "Hydroxide does not substitute Br directly here; the neighboring alkoxide closes the epoxide much faster. A diol would need a later acid step.",
+   "Cyclohexanone would need an oxidation; no oxidizing agent is present.",
+   "Elimination of HBr toward the CH<sub>2</sub> side is slow compared with the intramolecular S<sub>N</sub>2 that forms the epoxide."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "C1CCC2OC2C1"
+   },
+   {
+    "smi": "O[C@@H]1CCCC[C@H]1O"
+   },
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   {
+    "smi": "OC1CCCC=C1"
+   }
+  ],
+  "s": [
+   {
+    "smi": "C1=CCCCC1"
+   },
+   {
+    "arrow": "1. Br<sub>2</sub>, H<sub>2</sub>O",
+    "below": "2. NaOH"
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "add-36",
+  "t": "addition",
+  "q": "Why does catalytic hydrogenation (H<sub>2</sub>, Pt) add both hydrogen atoms to the same face of an alkene?",
+  "c": [
+   "Both H atoms are delivered from the metal surface to the face of the alkene bound to the catalyst",
+   "A carbocation forms and is attacked by hydride from the less hindered face",
+   "A bridged three-membered ring intermediate blocks one face of the alkene",
+   "H<sub>2</sub> adds in one step through a cyclic osmate-like ester"
+  ],
+  "h": "Picture where the alkene and the hydrogen atoms are when they react.",
+  "w": "H<sub>2</sub> dissociates into H atoms on the metal surface, and the alkene adsorbs on the surface through one face of its π bond. Both H atoms are transferred from the surface to that face: <b>syn addition</b>.",
+  "x": [
+   "",
+   "No carbocation forms in catalytic hydrogenation; there is no acid and no cation intermediate.",
+   "Bridged intermediates (bromonium, mercurinium) explain anti addition, not the syn addition of H<sub>2</sub>.",
+   "Cyclic esters explain syn dihydroxylation with OsO<sub>4</sub>; H<sub>2</sub> is activated on the metal surface."
+  ],
+  "k": 0,
+  "d": 1
+ }
+]

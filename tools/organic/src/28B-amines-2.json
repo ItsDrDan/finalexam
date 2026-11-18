@@ -1,0 +1,510 @@
+[
+ {
+  "id": "am-16",
+  "t": "amines",
+  "d": 2,
+  "q": "Which primary amine <b>cannot</b> be prepared in good yield by the Gabriel synthesis (potassium phthalimide, then an alkyl halide, then hydrazine)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The key C–N bond forms when the phthalimide anion displaces a halide. What substrate does that step need?",
+  "w": "The Gabriel synthesis forms the C–N bond by S<sub>N</sub>2 attack of the phthalimide anion on an alkyl halide, so it works for methyl, primary and some unhindered secondary halides. <b>1-Methylcyclohexan-1-amine</b> would require 1-bromo-1-methylcyclohexane, a tertiary halide that cannot undergo S<sub>N</sub>2; the basic phthalimide anion instead causes E2 elimination to an alkene.",
+  "x": [
+   "",
+   "Benzylamine comes from benzyl bromide, an excellent S<sub>N</sub>2 substrate.",
+   "Butan-1-amine comes from 1-bromobutane, an unhindered primary halide.",
+   "2-Phenylethan-1-amine comes from (2-bromoethyl)benzene, a primary halide that reacts well by S<sub>N</sub>2."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "CC1(N)CCCCC1"
+   },
+   {
+    "smi": "NCc1ccccc1"
+   },
+   {
+    "smi": "CCCCN"
+   },
+   {
+    "smi": "NCCc1ccccc1"
+   }
+  ]
+ },
+ {
+  "id": "am-17",
+  "t": "amines",
+  "d": 1,
+  "q": "What is the final organic product of the sequence shown?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The phthalimide N is alkylated once; hydrazine then releases the nitrogen with its new alkyl group.",
+  "w": "KOH removes the acidic N–H of phthalimide (pK<sub>a</sub> about 8.3). The anion alkylates 1-bromo-3-methylbutane by S<sub>N</sub>2 to give an N-alkylphthalimide, which cannot be alkylated again because its N has no H and its lone pair is delocalized into two carbonyls. Hydrazine cleaves the imide, releasing <b>3-methylbutan-1-amine</b> (and phthalhydrazide).",
+  "x": [
+   "",
+   "A dialkylamine forms in direct alkylation of an amine; the imide nitrogen can be alkylated only once, which is the point of the Gabriel method.",
+   "This N-alkylphthalimide is the intermediate before step 3; hydrazine cleaves it to the free amine.",
+   "Hydroxide is used only to deprotonate phthalimide; the alkyl halide reacts with the phthalimide anion, so no alcohol forms."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "O=C1NC(=O)c2ccccc12"
+   },
+   {
+    "arrow": "1. KOH",
+    "below": "2. BrCH<sub>2</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)<sub>2</sub><br>3. H<sub>2</sub>NNH<sub>2</sub>, heat"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "NCCC(C)C"
+   },
+   {
+    "smi": "CC(C)CCNCCC(C)C"
+   },
+   {
+    "smi": "O=C1N(CCC(C)C)C(=O)c2ccccc12"
+   },
+   {
+    "smi": "CC(C)CCO"
+   }
+  ]
+ },
+ {
+  "id": "am-18",
+  "t": "amines",
+  "d": 3,
+  "q": "(<i>R</i>)-2-Bromobutane is treated with NaN<sub>3</sub> in DMSO, and the product is reduced with LiAlH<sub>4</sub> and worked up with water. What is the final product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "a 50:50 mixture of (<i>R</i>)- and (<i>S</i>)-butan-2-amine"
+  ],
+  "h": "Decide the mechanism (and stereochemical result) of the azide step. Does the reduction step touch the stereocenter?",
+  "w": "Azide is a strong nucleophile and DMSO is polar aprotic, so the secondary bromide reacts by S<sub>N</sub>2 with inversion, giving (<i>S</i>)-2-azidobutane (the N<sub>3</sub> group takes priority 1, as Br did, so inversion changes <i>R</i> to <i>S</i>). LiAlH<sub>4</sub> reduces R–N<sub>3</sub> to R–NH<sub>2</sub> with loss of N<sub>2</sub>; no bond to the stereocenter is broken, so the product is <b>(<i>S</i>)-butan-2-amine</b>.",
+  "x": [
+   "",
+   "Retention would require two inversions or a front-side attack; S<sub>N</sub>2 by azide inverts the stereocenter once.",
+   "2-Azidobutane is the intermediate; LiAlH<sub>4</sub> reduces the azide to the amine.",
+   "Racemization requires a planar carbocation (S<sub>N</sub>1); a strong nucleophile in DMSO reacts by S<sub>N</sub>2 with clean inversion."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "C[C@H](N)CC"
+   },
+   {
+    "smi": "C[C@@H](N)CC"
+   },
+   {
+    "smi": "C[C@H](N=[N+]=[N-])CC"
+   },
+   null
+  ]
+ },
+ {
+  "id": "am-19",
+  "t": "amines",
+  "d": 1,
+  "q": "Treating ammonia with one equivalent of bromoethane gives a mixture of ethylamine, diethylamine, triethylamine and tetraethylammonium bromide. Why?",
+  "c": [
+   "Each alkylation product is at least as nucleophilic as the amine it came from, so it competes for the remaining bromoethane",
+   "Ammonia is too weak a nucleophile to react with bromoethane, so only the amine products react",
+   "Bromoethane reacts by S<sub>N</sub>1, and the ethyl carbocation is captured by every amine present at equal rates",
+   "Ethylamine is a weaker base than ammonia, so it is deprotonated faster and alkylated again"
+  ],
+  "h": "Compare the nucleophilicity of NH<sub>3</sub> with that of CH<sub>3</sub>CH<sub>2</sub>NH<sub>2</sub>.",
+  "w": "Alkyl groups donate electron density, so ethylamine is a better nucleophile than ammonia, and diethylamine is comparable or better still. As soon as some ethylamine forms, it competes with NH<sub>3</sub> for bromoethane, and the process continues to the quaternary salt. That is why <b>each product competes for the alkyl halide</b>, and why indirect routes (Gabriel, azide reduction, reductive amination) are used to make primary amines cleanly.",
+  "x": [
+   "",
+   "Ammonia does react with bromoethane by S<sub>N</sub>2; it is simply out-competed by the more nucleophilic products.",
+   "A primary halide does not ionize to a primary carbocation; the alkylations are S<sub>N</sub>2 reactions.",
+   "Ethylamine is a slightly stronger base than ammonia, and over-alkylation results from its greater nucleophilicity, not faster deprotonation."
+  ],
+  "k": 0
+ },
+ {
+  "id": "am-20",
+  "t": "amines",
+  "d": 2,
+  "q": "Which carbonyl compound and amine give the target compound shown by reductive amination with NaBH<sub>3</sub>CN (pH about 6)?",
+  "c": [
+   "benzaldehyde and piperidine",
+   "benzyl alcohol and piperidine",
+   "benzaldehyde and pyridine",
+   "benzoic acid and piperidine"
+  ],
+  "h": "Reductive amination joins the amine N to the former carbonyl carbon, which ends up as a CH that came from C=O.",
+  "w": "Disconnect the C–N bond to the benzylic CH<sub>2</sub>: that carbon was the C=O of an aldehyde, and the N came from a secondary amine. <b>Benzaldehyde and piperidine</b> condense to an iminium ion, which NaBH<sub>3</sub>CN reduces to N-benzylpiperidine.",
+  "x": [
+   "",
+   "An alcohol has no C=O, so it cannot condense with the amine to form an iminium ion.",
+   "Pyridine is aromatic with no N–H; it cannot form an iminium ion and would not give a saturated piperidine ring.",
+   "A carboxylic acid simply forms an ammonium carboxylate salt with the amine, and NaBH<sub>3</sub>CN does not reduce acids or amides."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "C(c1ccccc1)N1CCCCC1",
+    "cap": "target"
+   }
+  ]
+ },
+ {
+  "id": "am-21",
+  "t": "amines",
+  "d": 2,
+  "q": "In the reductive amination shown, why is NaBH<sub>3</sub>CN used instead of NaBH<sub>4</sub>?",
+  "c": [
+   "At pH about 6, NaBH<sub>3</sub>CN reduces the protonated iminium ion much faster than the ketone, so the ketone survives long enough to condense with the amine",
+   "NaBH<sub>3</sub>CN is a stronger hydride donor than NaBH<sub>4</sub>, so it can reduce the C=N bond, which NaBH<sub>4</sub> cannot touch",
+   "NaBH<sub>3</sub>CN supplies the nitrogen atom of the product through its cyanide ligand",
+   "NaBH<sub>4</sub> would reduce the N–H bond of methylamine to give H<sub>2</sub>, so no amine product could form"
+  ],
+  "h": "The electron-withdrawing CN makes this borohydride milder. Which electrophile in the flask is the most reactive?",
+  "w": "The cyano group withdraws electron density from boron, making NaBH<sub>3</sub>CN a weaker, more selective hydride donor that is stable at mildly acidic pH. Under those conditions the iminium ion (C=N<sup>+</sup>) formed from cyclohexanone and methylamine is far more electrophilic than the neutral ketone, so <b>the iminium ion is reduced selectively</b> to N-methylcyclohexanamine. NaBH<sub>4</sub> would reduce much of the ketone to cyclohexanol before the imine formed.",
+  "x": [
+   "",
+   "NaBH<sub>3</sub>CN is the weaker hydride donor; its selectivity, not its strength, is the point.",
+   "The nitrogen in the product comes from methylamine; cyanide stays on boron.",
+   "NaBH<sub>4</sub> does not reduce N–H bonds of amines; the problem with NaBH<sub>4</sub> is that it reduces the ketone too."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   "+",
+   {
+    "smi": "CN"
+   },
+   {
+    "arrow": "NaBH<sub>3</sub>CN",
+    "below": "pH ≈ 6"
+   },
+   {
+    "smi": "CNC1CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "am-22",
+  "t": "amines",
+  "d": 2,
+  "q": "Which sequence converts benzyl bromide into 2-phenylethan-1-amine (PhCH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub>)?",
+  "c": [
+   "1. NaCN, DMSO  2. LiAlH<sub>4</sub>  3. H<sub>2</sub>O",
+   "1. NaN<sub>3</sub>, DMSO  2. LiAlH<sub>4</sub>  3. H<sub>2</sub>O",
+   "1. NH<sub>3</sub> (large excess)  2. CH<sub>3</sub>I",
+   "1. NaCN, DMSO  2. H<sub>3</sub>O<sup>+</sup>, heat"
+  ],
+  "h": "Count carbons: the product has one more carbon between the ring and N than the starting material.",
+  "w": "The target has two carbons between the ring and nitrogen, but benzyl bromide supplies only one. Cyanide adds the extra carbon by S<sub>N</sub>2 (PhCH<sub>2</sub>CN), and LiAlH<sub>4</sub> reduces the nitrile C≡N to CH<sub>2</sub>NH<sub>2</sub>, giving <b>PhCH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub></b>.",
+  "x": [
+   "",
+   "The azide route adds nitrogen but no carbon; it gives benzylamine (PhCH<sub>2</sub>NH<sub>2</sub>).",
+   "Ammonia gives benzylamine, and CH<sub>3</sub>I then methylates the nitrogen instead of adding a carbon to the chain.",
+   "Acid hydrolysis converts the nitrile into phenylacetic acid, not an amine."
+  ],
+  "k": 0
+ },
+ {
+  "id": "am-23",
+  "t": "amines",
+  "d": 2,
+  "q": "What is the product of the reaction shown?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "LiAlH<sub>4</sub> treats amides differently from esters: the C–N bond survives.",
+  "w": "LiAlH<sub>4</sub> reduces an amide all the way to an amine: hydride adds to C=O, the oxygen leaves as an aluminate to give an iminium ion, and a second hydride reduces it. The C=O becomes CH<sub>2</sub> and the N keeps its substituents, so N-methylbenzamide gives <b>N-methyl-1-phenylmethanamine</b> (PhCH<sub>2</sub>NHCH<sub>3</sub>).",
+  "x": [
+   "",
+   "Losing the N-methyl group would require breaking an N–C(alkyl) bond, which LiAlH<sub>4</sub> does not do.",
+   "Esters are reduced to alcohols because the alkoxy group leaves; in an amide the nitrogen is a much poorer leaving group than the oxygen (expelled as an aluminate), so the C–N bond is kept.",
+   "An imine or iminium ion is only an intermediate; LiAlH<sub>4</sub> reduces it on to the amine before workup."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "CNC(=O)c1ccccc1"
+   },
+   {
+    "arrow": "1. LiAlH<sub>4</sub>",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "CNCc1ccccc1"
+   },
+   {
+    "smi": "NCc1ccccc1"
+   },
+   {
+    "smi": "OCc1ccccc1"
+   },
+   {
+    "smi": "CN=Cc1ccccc1"
+   }
+  ]
+ },
+ {
+  "id": "am-24",
+  "t": "amines",
+  "d": 3,
+  "q": "Which sequence gives 3-bromoaniline from benzene as the major product?",
+  "c": [
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Br<sub>2</sub>, FeBr<sub>3</sub>  3. Fe, HCl; then NaOH",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Fe, HCl; then NaOH  3. Br<sub>2</sub>, FeBr<sub>3</sub>",
+   "1. Br<sub>2</sub>, FeBr<sub>3</sub>  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  3. Fe, HCl; then NaOH",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Br<sub>2</sub>, FeBr<sub>3</sub>  3. LiAlH<sub>4</sub>; then H<sub>2</sub>O"
+  ],
+  "h": "The two groups are meta. Which of NO<sub>2</sub>, NH<sub>2</sub> and Br is a meta director? Then choose a reducing agent that turns ArNO<sub>2</sub> into ArNH<sub>2</sub>.",
+  "w": "Only the nitro group directs meta, so it must be on the ring when bromine is introduced: nitration, then Br<sub>2</sub>/FeBr<sub>3</sub> gives 1-bromo-3-nitrobenzene. A dissolving-metal reduction (Fe or Sn with HCl, then base to free the amine) converts NO<sub>2</sub> into NH<sub>2</sub> and leaves the aryl C–Br intact: <b>nitrate, brominate, then Fe/HCl</b>.",
+  "x": [
+   "",
+   "Reducing first gives aniline, a strong o,p-director that is brominated at 2, 4 and 6, not at the meta position.",
+   "Bromine is an o,p-director, so nitrating bromobenzene gives mainly 1-bromo-4-nitrobenzene and the para amine after reduction.",
+   "LiAlH<sub>4</sub> does not reduce aryl nitro groups cleanly to anilines (it gives azo compounds); Fe, Sn or SnCl<sub>2</sub> with acid, or catalytic hydrogenation, is used."
+  ],
+  "k": 0
+ },
+ {
+  "id": "am-25",
+  "t": "amines",
+  "d": 2,
+  "q": "Which sequence converts aniline into 4-bromoaniline as the major product?",
+  "c": [
+   "1. (CH<sub>3</sub>CO)<sub>2</sub>O, pyridine  2. Br<sub>2</sub>, CH<sub>3</sub>CO<sub>2</sub>H  3. NaOH, H<sub>2</sub>O, heat",
+   "1. Br<sub>2</sub> (1 equiv), H<sub>2</sub>O",
+   "1. HCl (to form the anilinium ion)  2. Br<sub>2</sub>, FeBr<sub>3</sub>  3. NaOH",
+   "1. (CH<sub>3</sub>CO)<sub>2</sub>O, pyridine  2. Br<sub>2</sub>, CH<sub>3</sub>CO<sub>2</sub>H  3. LiAlH<sub>4</sub>; then H<sub>2</sub>O"
+  ],
+  "h": "Free NH<sub>2</sub> is so activating that bromination does not stop after one Br. How can its activating power be turned down temporarily?",
+  "w": "Aniline reacts with bromine at every open ortho and para position, giving 2,4,6-tribromoaniline even with limited Br<sub>2</sub>. Acetylating the nitrogen makes the less-activating acetamido group (the N lone pair is shared with C=O), and its bulk favors the para position, so monobromination occurs para. Base hydrolysis then removes the acetyl group: <b>acetylate, brominate, hydrolyze</b>.",
+  "x": [
+   "",
+   "Unprotected aniline is so activated that bromination continues to 2,4,6-tribromoaniline.",
+   "The anilinium ion (–NH<sub>3</sub><sup>+</sup>) is a strongly deactivating meta director, so it cannot deliver bromine to the para position.",
+   "LiAlH<sub>4</sub> reduces the amide C=O to CH<sub>2</sub>, giving 4-bromo-N-ethylaniline instead of removing the acetyl group."
+  ],
+  "k": 0
+ },
+ {
+  "id": "am-26",
+  "t": "amines",
+  "d": 2,
+  "q": "Treating 4-aminophenol with one equivalent of acetic anhydride gives which compound as the main product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Two nucleophiles compete for one acylating agent. Which is more nucleophilic, a neutral aryl NH<sub>2</sub> or a neutral phenol OH?",
+  "w": "Nitrogen is less electronegative than oxygen, so the neutral NH<sub>2</sub> lone pair is more available and the amine is the better nucleophile. With one equivalent of anhydride, <b>N-acetylation</b> wins and gives N-(4-hydroxyphenyl)acetamide (acetaminophen); the amide formed is also no longer nucleophilic, so the reaction stops there.",
+  "x": [
+   "",
+   "O-Acylation needs a phenoxide or a large excess of acylating agent; the neutral amine reacts faster.",
+   "Acetylating both groups would need two equivalents of anhydride.",
+   "Ring acylation is a Friedel–Crafts reaction requiring an acyl chloride and AlCl<sub>3</sub>; acetic anhydride alone acylates the heteroatom."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "CC(=O)Nc1ccc(O)cc1"
+   },
+   {
+    "smi": "CC(=O)Oc1ccc(N)cc1"
+   },
+   {
+    "smi": "CC(=O)Nc1ccc(OC(C)=O)cc1"
+   },
+   {
+    "smi": "CC(=O)c1cc(N)ccc1O"
+   }
+  ]
+ },
+ {
+  "id": "am-27",
+  "t": "amines",
+  "d": 1,
+  "q": "When an amide is made from an acid chloride and an amine, two equivalents of the amine (or one equivalent plus pyridine) are used. Why?",
+  "c": [
+   "The HCl formed would protonate the amine to a non-nucleophilic ammonium salt, so a second base must take it up",
+   "The first equivalent of amine adds to the C=O and the second displaces chloride",
+   "Two amine molecules are incorporated into each amide product",
+   "The excess amine reduces the acid chloride to an aldehyde, which then reacts"
+  ],
+  "h": "Write the by-product of the substitution and ask what it does to the remaining amine.",
+  "w": "RCOCl + R′NH<sub>2</sub> → RCONHR′ + HCl. The HCl immediately protonates any free amine, and an ammonium ion has no lone pair, so it cannot attack the acid chloride. A second equivalent of the amine, or a cheaper base such as pyridine or Et<sub>3</sub>N, <b>neutralizes the HCl</b> so all of the valuable amine can react.",
+  "x": [
+   "",
+   "A single amine molecule both adds to the C=O and, after chloride leaves, loses H<sup>+</sup>; the second equivalent only takes up HCl.",
+   "Each amide contains one nitrogen from one amine molecule.",
+   "Amines are not reducing agents for acid chlorides; this is a nucleophilic acyl substitution."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "CC(=O)Cl"
+   },
+   "+",
+   {
+    "smi": "CCN",
+    "cap": "2 equiv"
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "CCNC(C)=O"
+   },
+   "+",
+   {
+    "smi": "CC[NH3+].[Cl-]"
+   }
+  ]
+ },
+ {
+  "id": "am-28",
+  "t": "amines",
+  "d": 2,
+  "q": "What is the major alkene formed in the Hofmann elimination sequence shown?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "A trimethylammonium leaving group removed by E2 behaves differently from a halide: think about which β-hydrogen is removed.",
+  "w": "Excess CH<sub>3</sub>I converts the NH<sub>2</sub> into –N(CH<sub>3</sub>)<sub>3</sub><sup>+</sup> I<sup>−</sup>; Ag<sub>2</sub>O/H<sub>2</sub>O exchanges iodide for hydroxide; heating causes E2 elimination of trimethylamine. Hofmann elimination gives the <b>least substituted alkene</b>: the β-hydrogens on the CH<sub>3</sub> group (C1) are removed rather than the single hindered H on C3, so the product is <b>3-methylbut-1-ene</b>.",
+  "x": [
+   "",
+   "2-Methylbut-2-ene is the Zaitsev (more substituted) alkene; the bulky ammonium leaving group steers elimination away from it.",
+   "2-Methylbut-1-ene would need a double bond at a carbon that was never bonded to nitrogen.",
+   "This 3° amine is the product of incomplete methylation; excess CH<sub>3</sub>I takes N on to the quaternary salt, and heat then eliminates it."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "CC(N)C(C)C"
+   },
+   {
+    "arrow": "1. CH<sub>3</sub>I (excess)",
+    "below": "2. Ag<sub>2</sub>O, H<sub>2</sub>O<br>3. heat"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "C=CC(C)C"
+   },
+   {
+    "smi": "CC=C(C)C"
+   },
+   {
+    "smi": "C=C(C)CC"
+   },
+   {
+    "smi": "CN(C)C(C)C(C)C"
+   }
+  ]
+ },
+ {
+  "id": "am-29",
+  "t": "amines",
+  "d": 3,
+  "q": "N-Methylpiperidine is put through <b>one</b> cycle of Hofmann elimination as shown. What is the organic product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "In a ring, losing the ammonium leaving group breaks a ring C–N bond, and the nitrogen stays attached to the other end of the chain.",
+  "w": "Methylation gives N,N-dimethylpiperidinium ion. On heating with hydroxide, a β-H on a ring carbon is removed and the C–N bond to the adjacent α carbon breaks. Because N is still attached to the carbon on its other side, the ring opens to an acyclic alkenyl amine: <b>N,N-dimethylpent-4-en-1-amine</b>, CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>N(CH<sub>3</sub>)<sub>2</sub>. Nitrogen is removed completely only after a second cycle of methylation and elimination.",
+  "x": [
+   "",
+   "Penta-1,4-diene forms only after a second cycle (CH<sub>3</sub>I, Ag<sub>2</sub>O, heat) on the ring-opened amine.",
+   "Hydroxide acts as a base, not a nucleophile, in Hofmann elimination; an alcohol is not formed.",
+   "The quaternary hydroxide does eliminate on heating; stopping at the ammonium ion ignores step 3."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "CN1CCCCC1"
+   },
+   {
+    "arrow": "1. CH<sub>3</sub>I (excess)",
+    "below": "2. Ag<sub>2</sub>O, H<sub>2</sub>O<br>3. heat"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "C=CCCCN(C)C"
+   },
+   {
+    "smi": "C=CCC=C"
+   },
+   {
+    "smi": "C=CCCCO"
+   },
+   {
+    "smi": "C[N+]1(C)CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "am-30",
+  "t": "amines",
+  "d": 2,
+  "q": "Heating the ammonium hydroxide shown gives mainly but-1-ene rather than but-2-ene. What is the best explanation?",
+  "c": [
+   "The bulky –N(CH<sub>3</sub>)<sub>3</sub><sup>+</sup> group hinders removal of an internal β-H, and the carbanion-like E2 transition state favors the CH<sub>3</sub> hydrogens",
+   "Hydroxide is a bulky base, so it can reach only the hydrogens on the terminal CH<sub>3</sub> group of the butyl chain",
+   "The reaction goes through a carbocation (E1), and the less substituted alkene forms faster from that carbocation",
+   "But-1-ene is more stable than but-2-ene, so it accumulates as the thermodynamic product of the elimination"
+  ],
+  "h": "The base here is small. What is unusual about this substrate compared with 2-bromobutane?",
+  "w": "The base (OH<sup>−</sup>) is small, so the selectivity comes from the leaving group. The large, positively charged –N(CH<sub>3</sub>)<sub>3</sub><sup>+</sup> group is a poor leaving group, so C–H breaking runs ahead of C–N breaking (a carbanion-like E2 transition state that favors the more acidic primary hydrogens), and its size makes the anti-periplanar conformations for removing an internal C3 hydrogen crowded. Both effects favor <b>removal of a CH<sub>3</sub> hydrogen</b>, giving but-1-ene (Hofmann product).",
+  "x": [
+   "",
+   "Hydroxide is a small base; the steric bulk that matters belongs to the trimethylammonium leaving group.",
+   "Hofmann elimination is an E2 reaction; a 2° carbocation would not form, and E1 would favor the more substituted alkene anyway.",
+   "But-2-ene, being more substituted, is the more stable alkene; Hofmann elimination gives the less stable product under kinetic control."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "CCC(C)[N+](C)(C)C.[OH-]"
+   },
+   {
+    "arrow": "heat"
+   },
+   {
+    "smi": "C=CCC"
+   },
+   "+",
+   {
+    "smi": "CN(C)C"
+   }
+  ]
+ }
+]

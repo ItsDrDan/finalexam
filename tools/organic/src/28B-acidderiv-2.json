@@ -1,0 +1,414 @@
+[
+ {
+  "id": "ad-16",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "Fischer esterification of acetic acid with 1-butanol (H<sub>2</sub>SO<sub>4</sub> catalyst) has K ≈ 4. Which change most increases the yield of butyl acetate?",
+  "c": [
+   "Use a large excess of 1-butanol and remove water as it forms",
+   "Add water so the acid dissolves completely",
+   "Replace H<sub>2</sub>SO<sub>4</sub> with NaOH as the catalyst",
+   "Double the amount of H<sub>2</sub>SO<sub>4</sub> catalyst"
+  ],
+  "h": "The reaction is an equilibrium with water as a product. Think Le Châtelier.",
+  "w": "With K near 4, equimolar reactants stop at about 2/3 conversion. Adding excess alcohol (a reactant) and removing water (a product, e.g. with a Dean–Stark trap or drying agent) both shift the equilibrium toward ester: <b>excess 1-butanol plus water removal</b>.",
+  "x": [
+   "",
+   "Water is a product, so adding it pushes the equilibrium back toward acid and alcohol (ester hydrolysis).",
+   "NaOH deprotonates the acid to a carboxylate, which no alcohol can attack; base also hydrolyzes esters. Fischer esterification needs acid catalysis.",
+   "A catalyst speeds up the approach to equilibrium in both directions but does not change K or the equilibrium yield."
+  ]
+ },
+ {
+  "id": "ad-17",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Benzoic acid is heated with CH<sub>3</sub><sup>18</sup>OH and a catalytic amount of H<sub>2</sub>SO<sub>4</sub>. Where is the <sup>18</sup>O found once the reaction reaches equilibrium?",
+  "c": [
+   "in the ester, as the O bonded to the CH<sub>3</sub> group",
+   "in the ester, as the C=O oxygen",
+   "in the water that is formed",
+   "spread equally between the ester's two oxygens"
+  ],
+  "h": "Which bond of the alcohol breaks: C–O or O–H? The alcohol oxygen is the nucleophile.",
+  "w": "In Fischer esterification the alcohol oxygen attacks the protonated carbonyl carbon, so the CH<sub>3</sub>–<sup>18</sup>O bond is never broken. After proton transfers, one of the acid's original OH groups leaves as water. The label ends up <b>in the ester as the C–<sup>18</sup>O–CH<sub>3</sub> oxygen</b>.",
+  "x": [
+   "",
+   "The C=O oxygen of the ester comes from the benzoic acid; the alcohol oxygen becomes the single-bonded alkoxy oxygen.",
+   "Water is formed from an oxygen of the carboxylic acid, not from the alcohol; the alcohol's C–O bond stays intact.",
+   "The tetrahedral intermediate can lose either of the acid-derived OH groups, but the alcohol-derived OCH<sub>3</sub> is retained; it cannot become the carbonyl oxygen while staying bonded to CH<sub>3</sub>."
+  ]
+ },
+ {
+  "id": "ad-18",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Ethyl acetate is heated in H<sub>2</sub><sup>18</sup>O containing H<sub>2</sub>SO<sub>4</sub> until hydrolysis is complete. Which product(s) contain <sup>18</sup>O?",
+  "c": [
+   "acetic acid only; the ethanol contains no <sup>18</sup>O",
+   "ethanol only; the acetic acid contains no <sup>18</sup>O",
+   "both acetic acid and ethanol",
+   "neither; the label remains in the water"
+  ],
+  "h": "Acid hydrolysis is Fischer esterification run backward. Water attacks which atom, and which bond to oxygen breaks?",
+  "w": "Labeled water adds to the protonated C=O carbon, so <sup>18</sup>O becomes bonded to the acyl carbon. The tetrahedral intermediate then expels ethanol, breaking the <i>acyl</i>–O bond; the CH<sub>3</sub>CH<sub>2</sub>–O bond is never touched. So <b><sup>18</sup>O ends up in acetic acid only</b>, and the ethanol keeps its original oxygen.",
+  "x": [
+   "",
+   "Ethanol would carry the label only if water attacked the ethyl carbon (an S<sub>N</sub>2 at the alkyl group, alkyl–oxygen cleavage), which does not happen for a primary ethyl ester.",
+   "Ethanol's oxygen is the original ester alkoxy oxygen; its C–O bond never breaks, so the label cannot get into it.",
+   "Water is the nucleophile that adds to the carbonyl, so its oxygen is incorporated into the acid."
+  ]
+ },
+ {
+  "id": "ad-19",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Acid-catalyzed ester hydrolysis is reversible, but saponification (ester + NaOH, then H<sub>3</sub>O<sup>+</sup> workup) goes to completion. Why?",
+  "c": [
+   "The carboxylic acid formed is deprotonated by base, and the carboxylate cannot be attacked by the alkoxide",
+   "Hydroxide is a better leaving group than alkoxide, so the reverse step cannot occur",
+   "The alkoxide leaving group is protonated by water and evaporates from the mixture",
+   "Hydroxide forms a more stable tetrahedral intermediate than water does"
+  ],
+  "h": "Look at what happens right after the alkoxide leaves the tetrahedral intermediate. What acid and base are now together?",
+  "w": "Loss of RO<sup>−</sup> gives a carboxylic acid (pK<sub>a</sub> ≈ 5) next to a strong base (RO<sup>−</sup> or HO<sup>−</sup>, conjugate-acid pK<sub>a</sub> ≈ 16). Proton transfer is essentially complete and gives a resonance-stabilized carboxylate. The carboxylate is negatively charged and the least electrophilic acyl species, so the alcohol cannot attack it to re-form the ester: <b>the deprotonation drives the reaction to completion</b>.",
+  "x": [
+   "",
+   "Hydroxide and alkoxides are similar leaving groups; the irreversibility comes from the acid–base step, not leaving-group ability.",
+   "Most alcohols do not evaporate under these conditions; the reaction is irreversible even in a closed flask.",
+   "The tetrahedral intermediate is a high-energy species in either case; its stability does not decide whether the overall reaction is reversible."
+  ]
+ },
+ {
+  "id": "ad-20",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "The ester shown (pure <i>R</i>) is heated with aqueous NaOH. What alcohol is obtained?",
+  "s": [
+   {
+    "smi": "CC[C@@H](C)OC(C)=O"
+   },
+   {
+    "arrow": "1. NaOH, H<sub>2</sub>O, heat",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "(<i>R</i>)-butan-2-ol",
+   "(<i>S</i>)-butan-2-ol",
+   "racemic butan-2-ol",
+   "butan-2-one"
+  ],
+  "h": "In saponification, which bond to the ester oxygen breaks: acyl–O or alkyl–O? Is the stereocenter's C–O bond involved?",
+  "w": "Hydroxide attacks the carbonyl carbon; the tetrahedral intermediate expels the alkoxide by breaking the <i>acyl</i>–O bond. The bond from oxygen to the stereocenter is never broken, so the configuration is retained: <b>(<i>R</i>)-butan-2-ol</b>.",
+  "x": [
+   "",
+   "Inversion would require an S<sub>N</sub>2 attack of hydroxide at the stereocenter with carboxylate leaving; saponification instead occurs at the carbonyl carbon.",
+   "Racemization would require a carbocation at the stereocenter (S<sub>N</sub>1); no C–O bond to that carbon breaks.",
+   "Saponification is not an oxidation; forming a ketone would require an oxidizing agent."
+  ]
+ },
+ {
+  "id": "ad-21",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "A carboxylic acid is converted to the acid chloride with thionyl chloride (SOCl<sub>2</sub>). What are the by-products?",
+  "c": [
+   "SO<sub>2</sub> and HCl",
+   "H<sub>2</sub>O and SOCl<sub>2</sub>",
+   "H<sub>2</sub>SO<sub>4</sub> and Cl<sub>2</sub>",
+   "SO<sub>3</sub> and H<sub>2</sub>"
+  ],
+  "h": "Balance RCO<sub>2</sub>H + SOCl<sub>2</sub> → RCOCl + ?",
+  "w": "RCO<sub>2</sub>H + SOCl<sub>2</sub> → RCOCl + <b>SO<sub>2</sub> + HCl</b>. Both by-products are gases, which leave the mixture and help drive the reaction to completion.",
+  "x": [
+   "",
+   "Thionyl chloride is the reagent, not a by-product, and no water forms (water would destroy the acid chloride).",
+   "Sulfur stays in the +4 state and ends up as SO<sub>2</sub>; no Cl<sub>2</sub> or sulfuric acid forms.",
+   "This is not balanced: the Cl atoms and the acid's H must go somewhere, and they leave as HCl."
+  ]
+ },
+ {
+  "id": "ad-22",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Benzoyl chloride is treated with dimethylamine to make <i>N</i>,<i>N</i>-dimethylbenzamide. Why are at least two equivalents of dimethylamine used (when no other base is added)?",
+  "c": [
+   "The second equivalent neutralizes HCl; otherwise HCl would protonate the amine and make it non-nucleophilic",
+   "The first equivalent attacks and the second is needed to break the C–Cl bond",
+   "Two amines must add to form the tetrahedral intermediate",
+   "The second equivalent reduces the acid chloride to an aldehyde"
+  ],
+  "h": "Write the by-product of acyl substitution on an acid chloride. What does it do to an amine?",
+  "w": "Each acylation releases one HCl. Dimethylamine is a base, so the HCl converts it to (CH<sub>3</sub>)<sub>2</sub>NH<sub>2</sub><sup>+</sup> Cl<sup>−</sup>, which has no lone pair and cannot attack. With one equivalent, the yield would stop near 50%. <b>The second equivalent (or pyridine/Et<sub>3</sub>N) is a sacrificial base for HCl</b>.",
+  "x": [
+   "",
+   "Chloride leaves on its own when the tetrahedral intermediate collapses; no second amine is needed to break the C–Cl bond.",
+   "Only one amine adds to the carbonyl carbon; the tetrahedral intermediate has one N.",
+   "Amines are not reducing agents; aldehydes from acid chlorides need a hydride donor such as LiAl(O<i>t</i>Bu)<sub>3</sub>H."
+  ]
+ },
+ {
+  "id": "ad-23",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "What is the major organic product?",
+  "s": [
+   {
+    "smi": "O=C(Cl)C1CCCC1"
+   },
+   {
+    "arrow": "1. (CH<sub>3</sub>)<sub>2</sub>CuLi, ether",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)C1CCCC1"
+   },
+   {
+    "smi": "CC(C)(O)C1CCCC1"
+   },
+   {
+    "smi": "CC(O)C1CCCC1"
+   },
+   {
+    "smi": "O=CC1CCCC1"
+   }
+  ],
+  "h": "Gilman reagents (R<sub>2</sub>CuLi) are softer and less reactive than Grignard reagents. How many times do they add to an acid chloride?",
+  "w": "Lithium dimethylcuprate transfers one methyl to the acid chloride, replacing Cl and giving a ketone. It reacts with acid chlorides but only very slowly with ketones, so the reaction stops: <b>A, 1-cyclopentylethan-1-one</b>.",
+  "x": [
+   "",
+   "The 3° alcohol results from two additions, which happens with excess CH<sub>3</sub>MgBr, not with a cuprate.",
+   "A secondary alcohol would need a hydride to reduce the ketone; no hydride source is present.",
+   "Cuprates do not reduce acid chlorides; the methyl group, not hydride, is transferred."
+  ]
+ },
+ {
+  "id": "ad-24",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Which reagent(s) carry out the conversion shown?",
+  "s": [
+   {
+    "smi": "O=C(Cl)Cc1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "O=CCc1ccccc1"
+   }
+  ],
+  "c": [
+   "1. LiAl(O<i>t</i>Bu)<sub>3</sub>H, −78 °C  2. H<sub>2</sub>O",
+   "1. LiAlH<sub>4</sub> (excess)  2. H<sub>2</sub>O",
+   "NaBH<sub>4</sub>, CH<sub>3</sub>OH",
+   "1. (CH<sub>3</sub>)<sub>2</sub>CuLi  2. H<sub>2</sub>O"
+  ],
+  "h": "You need exactly one hydride and a product that survives the reagent.",
+  "w": "Lithium tri-<i>tert</i>-butoxyaluminum hydride has only one, bulky, weakly reactive hydride. At −78 °C it reduces the very reactive acid chloride but reacts only slowly with the aldehyde product, so the reduction stops there: <b>LiAl(O<i>t</i>Bu)<sub>3</sub>H, −78 °C</b>.",
+  "x": [
+   "",
+   "LiAlH<sub>4</sub> reduces the aldehyde as fast as it forms, so the product is 2-phenylethanol.",
+   "NaBH<sub>4</sub> also reduces aldehydes rapidly, so any aldehyde formed would go on to the primary alcohol (and methanol itself reacts with the acid chloride to give an ester).",
+   "A cuprate transfers a methyl, not a hydride, giving the methyl ketone 1-phenylpropan-2-one."
+  ]
+ },
+ {
+  "id": "ad-25",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Benzoyl chloride is converted to ethyl benzoate with ethanol in pyridine. Which statements about pyridine are correct?<br>I. It neutralizes the HCl formed.<br>II. It can attack the acid chloride to give an acylpyridinium ion, which ethanol then attacks.<br>III. It must deprotonate ethanol to ethoxide before any reaction can occur.",
+  "c": [
+   "I and II only",
+   "I only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Compare the pK<sub>a</sub> of pyridinium (≈ 5) with that of ethanol (≈ 16).",
+  "w": "Pyridine (I) scavenges HCl as pyridinium chloride and (II) can act as a nucleophilic catalyst, forming a highly electrophilic acylpyridinium ion. Statement III is false: pyridine (conjugate acid pK<sub>a</sub> ≈ 5) is far too weak to deprotonate ethanol (pK<sub>a</sub> ≈ 16), and none is needed because acid chlorides react with neutral alcohols. Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is also correct: pyridine is a good nucleophile toward acid chlorides, and the acylpyridinium ion it forms is even more reactive.",
+   "Statement III is false: an acid chloride is reactive enough to acylate neutral ethanol, and pyridine is too weak a base to make ethoxide.",
+   "Statement III is false, so all three cannot be right."
+  ]
+ },
+ {
+  "id": "ad-26",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Aniline reacts with acetic anhydride. Besides acetic acid, what organic product forms?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)Nc1ccccc1"
+   },
+   {
+    "smi": "CC(=O)N(C(C)=O)c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)c1ccc(N)cc1"
+   },
+   {
+    "smi": "Oc1ccccc1"
+   }
+  ],
+  "h": "An anhydride transfers one acyl group; the other half leaves as a carboxylate (then acid).",
+  "w": "Aniline's nitrogen attacks one carbonyl; the tetrahedral intermediate expels acetate, and proton transfer gives <b>A: acetanilide (<i>N</i>-phenylacetamide) plus acetic acid</b>.",
+  "x": [
+   "",
+   "Only one acyl group is transferred to nitrogen; the second acetyl leaves as acetate, so a diacetylated amine is not the product (and no water is formed).",
+   "Anhydrides acylate the nitrogen; they do not do Friedel–Crafts acylation of the ring without a Lewis acid, and the NH<sub>2</sub> group would react first anyway.",
+   "Aniline is not converted to phenol, and acetamide is not formed; the amine nitrogen becomes the amide nitrogen."
+  ]
+ },
+ {
+  "id": "ad-27",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Succinic anhydride is warmed in methanol (no catalyst). What is the main product?",
+  "s": [
+   {
+    "smi": "O=C1CCC(=O)O1"
+   },
+   {
+    "arrow": "CH<sub>3</sub>OH",
+    "below": "warm"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COC(=O)CCC(=O)O"
+   },
+   {
+    "smi": "COC(=O)CCC(=O)OC"
+   },
+   {
+    "smi": "O=C(O)CCC(=O)O"
+   },
+   {
+    "smi": "O=C1CCCO1"
+   }
+  ],
+  "h": "A cyclic anhydride opens after one acyl substitution. Where does the leaving group end up?",
+  "w": "Methanol attacks one carbonyl of the cyclic anhydride. When the tetrahedral intermediate collapses, the leaving carboxylate is still tethered to the molecule, so the ring opens and one end becomes a methyl ester while the other becomes a carboxylic acid: <b>A, 4-methoxy-4-oxobutanoic acid (monomethyl succinate)</b>.",
+  "x": [
+   "",
+   "The second CO<sub>2</sub>H would need Fischer esterification (acid catalyst, heat) to become an ester; a carboxylic acid is much less reactive than the anhydride.",
+   "Ring opening with water would give succinic acid; here methanol is the nucleophile, so one end becomes CO<sub>2</sub>CH<sub>3</sub>.",
+   "γ-Butyrolactone would require reduction of one carbonyl; no reducing agent is present."
+  ]
+ },
+ {
+  "id": "ad-28",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Benzoic acid and methylamine are mixed in ether at room temperature. What forms?",
+  "c": [
+   "methylammonium benzoate, an acid–base salt",
+   "<i>N</i>-methylbenzamide and water",
+   "methyl benzoate and ammonia",
+   "benzoyl chloride and methanol"
+  ],
+  "h": "Before any acyl substitution can happen, what does an amine do with a carboxylic acid?",
+  "w": "The fastest reaction between a carboxylic acid (pK<sub>a</sub> 4.2) and an amine (conjugate acid pK<sub>a</sub> ≈ 10.6) is proton transfer, giving <b>methylammonium benzoate</b>. The carboxylate is too unreactive to be attacked, so making the amide needs strong heating to drive off water, or better, conversion to an acid chloride (SOCl<sub>2</sub>) or activation with DCC first.",
+  "x": [
+   "",
+   "Direct amide formation from the acid and amine requires prolonged heating above ~150 °C (or a coupling agent); at room temperature only the salt forms.",
+   "No ester can form without an alcohol, and the amine nitrogen does not give up its methyl group.",
+   "There is no chlorine source; acid chlorides are made with SOCl<sub>2</sub>, (COCl)<sub>2</sub> or PCl<sub>5</sub>."
+  ]
+ },
+ {
+  "id": "ad-29",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence converts butanoic acid into hexan-3-one, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>?",
+  "c": [
+   "1. SOCl<sub>2</sub>  2. (CH<sub>3</sub>CH<sub>2</sub>)<sub>2</sub>CuLi",
+   "1. SOCl<sub>2</sub>  2. CH<sub>3</sub>CH<sub>2</sub>MgBr (excess)  3. H<sub>3</sub>O<sup>+</sup>",
+   "1. CH<sub>3</sub>CH<sub>2</sub>MgBr  2. H<sub>3</sub>O<sup>+</sup>",
+   "1. SOCl<sub>2</sub>  2. (CH<sub>3</sub>)<sub>2</sub>CuLi"
+  ],
+  "h": "Count carbons: the acid supplies four, including the future C=O. What must be added, and which organometallic stops at the ketone?",
+  "w": "Hexan-3-one = butanoyl (4 C, with the C=O) + ethyl (2 C). Convert the acid to butanoyl chloride with SOCl<sub>2</sub>, then add one ethyl with the Gilman reagent, which does not add again to the ketone: <b>1. SOCl<sub>2</sub> 2. (CH<sub>3</sub>CH<sub>2</sub>)<sub>2</sub>CuLi</b>.",
+  "x": [
+   "",
+   "Excess Grignard adds twice to an acid chloride, giving the 3° alcohol 3-ethylhexan-3-ol, not the ketone.",
+   "A Grignard reagent simply deprotonates the carboxylic acid (giving ethane and a carboxylate salt); no C–C bond forms.",
+   "Dimethylcuprate adds a methyl, not an ethyl, giving pentan-2-one (five carbons), one carbon short."
+  ]
+ },
+ {
+  "id": "ad-30",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "4-Aminophenol is treated with one equivalent of acetic anhydride. What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)Nc1ccc(O)cc1"
+   },
+   {
+    "smi": "CC(=O)Oc1ccc(N)cc1"
+   },
+   {
+    "smi": "CC(=O)Nc1ccc(OC(C)=O)cc1"
+   },
+   {
+    "smi": "CC(=O)c1cc(N)ccc1O"
+   }
+  ],
+  "h": "Which is the stronger nucleophile, an aryl NH<sub>2</sub> or a phenol OH? With only one equivalent, which reacts?",
+  "w": "Both groups can be acylated, but nitrogen is less electronegative than oxygen, so its lone pair is more available: the amine is far more nucleophilic than the neutral phenol. With one equivalent of anhydride, N-acetylation wins, giving <b>A, <i>N</i>-(4-hydroxyphenyl)acetamide</b> (acetaminophen). The amide product is also more stable than an aryl ester.",
+  "x": [
+   "",
+   "O-Acetylation of the phenol is slower because a neutral OH is a weaker nucleophile than NH<sub>2</sub>; this ester is not the major product.",
+   "Diacetylation needs at least two equivalents of anhydride; with one equivalent the more nucleophilic N reacts selectively.",
+   "Ring acylation (Friedel–Crafts) needs a Lewis acid such as AlCl<sub>3</sub>; an anhydride alone acylates N or O, not the ring carbon."
+  ]
+ }
+]

@@ -1,0 +1,446 @@
+[
+ {
+  "id": "ab-31",
+  "t": "acidbase",
+  "q": "Which compound dissolves in aqueous NaHCO<sub>3</sub> by forming a water-soluble salt? (pK<sub>a</sub> of H<sub>2</sub>CO<sub>3</sub> ≈ 6.4)",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Bicarbonate is a weak base. It can deprotonate only acids stronger than its conjugate acid, H<sub>2</sub>CO<sub>3</sub>.",
+  "w": "HCO<sub>3</sub><sup>−</sup> deprotonates an acid to a large extent only if that acid has pK<sub>a</sub> below about 6.4. <b>Benzoic acid</b> (pK<sub>a</sub> 4.2) qualifies: it forms sodium benzoate, which dissolves, and CO<sub>2</sub> bubbles off. Phenol (10) and cyclohexanol (≈ 18) are too weak, and aniline is a base, not an acid.",
+  "x": [
+   "",
+   "Phenol (pK<sub>a</sub> 10) is weaker than H<sub>2</sub>CO<sub>3</sub>, so bicarbonate gives K<sub>eq</sub> ≈ 10<sup>−3.6</sup>; phenol needs NaOH.",
+   "Cyclohexanol (pK<sub>a</sub> ≈ 18) is far too weak an acid to be deprotonated by bicarbonate or even by NaOH to a large extent.",
+   "Aniline is a weak base; it dissolves in aqueous acid (as the anilinium ion), not in aqueous base."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "OC(=O)c1ccccc1"
+   },
+   {
+    "smi": "Oc1ccccc1"
+   },
+   {
+    "smi": "OC1CCCCC1"
+   },
+   {
+    "smi": "Nc1ccccc1"
+   }
+  ]
+ },
+ {
+  "id": "ab-32",
+  "t": "acidbase",
+  "q": "A diethyl ether solution contains compounds I, II and III. Which extraction sequence separates all three, leaving one compound in each of two aqueous extracts and one in the ether?",
+  "c": [
+   "Extract with aqueous NaHCO<sub>3</sub>, then extract the ether with aqueous NaOH",
+   "Extract with aqueous NaOH, then extract the ether with aqueous NaHCO<sub>3</sub>",
+   "Extract with aqueous HCl, then extract the ether with aqueous NaOH",
+   "Extract with aqueous NaHCO<sub>3</sub>, then extract the ether with aqueous HCl"
+  ],
+  "h": "Match each compound's pK<sub>a</sub> to the base strength: benzoic acid ≈ 4.2, 4-methylphenol ≈ 10.3, naphthalene has no acidic H. Which base takes only the strongest acid?",
+  "w": "NaHCO<sub>3</sub> (conjugate acid pK<sub>a</sub> 6.4) deprotonates only the carboxylic acid I, moving sodium benzoate into the first aqueous layer. NaOH (water pK<sub>a</sub> 15.7) then deprotonates the phenol II, moving the phenoxide into the second aqueous layer. Naphthalene III, with no acidic or basic group, stays in the ether. So: <b>NaHCO<sub>3</sub> first, then NaOH</b>.",
+  "x": [
+   "",
+   "NaOH is strong enough to deprotonate both the carboxylic acid and the phenol, so the first extract would contain I and II together.",
+   "None of the three compounds is basic, so HCl removes nothing; NaOH would then pull I and II into one extract together.",
+   "NaHCO<sub>3</sub> removes I correctly, but HCl cannot remove the phenol (it is an acid, not a base); II and III would stay together in the ether."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "OC(=O)c1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "Cc1ccc(O)cc1",
+    "cap": "II"
+   },
+   {
+    "smi": "c1ccc2ccccc2c1",
+    "cap": "III"
+   }
+  ]
+ },
+ {
+  "id": "ab-33",
+  "t": "acidbase",
+  "q": "Rank the indicated C–H acids I–IV from <b>least acidic to most acidic</b>.",
+  "c": [
+   "II &lt; IV &lt; I &lt; III",
+   "II &lt; I &lt; IV &lt; III",
+   "II &lt; IV &lt; III &lt; I",
+   "IV &lt; II &lt; I &lt; III"
+  ],
+  "h": "In each conjugate base, where can the negative charge go by resonance, and how electronegative is that atom? A nitro group puts a positive nitrogen next to the carbanion.",
+  "w": "Methane (II, pK<sub>a</sub> ≈ 50) has no stabilization. Acetonitrile (IV, ≈ 25) delocalizes the charge onto nitrogen. Acetone (I, ≈ 19–20) delocalizes it onto oxygen, which is more electronegative. Nitromethane (III, ≈ 10) delocalizes it onto two oxygens of a group that also carries a formal positive charge on nitrogen, giving very strong stabilization. Order: <b>II &lt; IV &lt; I &lt; III</b>.",
+  "x": [
+   "",
+   "This makes acetonitrile more acidic than acetone. A carbanion stabilized onto nitrogen (pK<sub>a</sub> ≈ 25) is less stable than an enolate with the charge on oxygen (≈ 19–20).",
+   "Acetone (≈ 19–20) is far less acidic than nitromethane (≈ 10); the nitro group spreads the charge onto two oxygens next to a positive nitrogen.",
+   "Acetonitrile is not less acidic than methane: its anion is resonance-stabilized onto nitrogen, while the methyl anion has no stabilization at all."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC(C)=O",
+    "cap": "I"
+   },
+   {
+    "smi": "C",
+    "cap": "II"
+   },
+   {
+    "smi": "C[N+](=O)[O-]",
+    "cap": "III"
+   },
+   {
+    "smi": "CC#N",
+    "cap": "IV"
+   }
+  ]
+ },
+ {
+  "id": "ab-34",
+  "t": "acidbase",
+  "q": "In water, methanol (pK<sub>a</sub> 15.5) is more acidic than tert-butyl alcohol (pK<sub>a</sub> ≈ 18). What is the best explanation?",
+  "c": [
+   "Methoxide is less hindered, so solvent molecules can stabilize its charge more effectively.",
+   "Methoxide is stabilized by resonance, while tert-butoxide is not.",
+   "The three methyl groups of tert-butoxide withdraw electron density and destabilize the anion.",
+   "The oxygen in methanol is sp<sup>2</sup>-hybridized, while in tert-butyl alcohol it is sp<sup>3</sup>."
+  ],
+  "h": "Both alkoxides put the charge on an oxygen with no resonance. Think about what surrounds the anion in solution.",
+  "w": "Neither alkoxide has resonance, and the hybridization is the same. The difference is <b>solvation</b>: the small methoxide ion is easily surrounded by hydrogen-bonding water molecules that spread out its charge, while the bulky tert-butyl group blocks solvent from the oxygen. Poorer solvation leaves tert-butoxide less stabilized, so tert-butyl alcohol is the weaker acid (and tert-butoxide the stronger base).",
+  "x": [
+   "",
+   "Neither methoxide nor tert-butoxide has resonance; the charge sits on a single sp<sup>3</sup> oxygen in both.",
+   "Alkyl groups are weakly electron-<i>donating</i>, not withdrawing; and the main effect here is solvation, not induction.",
+   "Both oxygens are sp<sup>3</sup>-hybridized; hybridization is not the source of the difference."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "ab-35",
+  "t": "acidbase",
+  "q": "For which of these equilibria do the <b>products</b> predominate?<br>I. CH<sub>3</sub>COOH + NH<sub>3</sub> ⇌ CH<sub>3</sub>COO<sup>−</sup> + NH<sub>4</sub><sup>+</sup><br>II. HC≡CH + NaOH ⇌ HC≡CNa + H<sub>2</sub>O<br>III. CH<sub>3</sub>OH + NaNH<sub>2</sub> ⇌ CH<sub>3</sub>ONa + NH<sub>3</sub>",
+  "c": [
+   "I and III only",
+   "I, II and III",
+   "I only",
+   "II and III only"
+  ],
+  "h": "In each equation, find the acid on the left and the acid on the right. The equilibrium favors the side with the weaker acid (higher pK<sub>a</sub>).",
+  "w": "I: acetic acid (4.8) → NH<sub>4</sub><sup>+</sup> (9.2); weaker acid on the right, products favored. II: ethyne (25) → water (15.7); stronger acid on the right, reactants favored. III: methanol (15.5) → NH<sub>3</sub> (38); products strongly favored. Answer: <b>I and III only</b>. The Na<sup>+</sup> counterions are spectators.",
+  "x": [
+   "",
+   "Equilibrium II lies to the left: water (15.7) is a much stronger acid than ethyne (25), so hydroxide cannot make acetylide.",
+   "Equilibrium III also favors products: amide ion is a far stronger base than methoxide (NH<sub>3</sub> pK<sub>a</sub> 38 vs CH<sub>3</sub>OH 15.5).",
+   "Equilibrium I favors products too (acetic acid 4.8 is stronger than ammonium 9.2), while II does not."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "ab-36",
+  "t": "acidbase",
+  "q": "Each sodium salt is dissolved in ethanol (pK<sub>a</sub> 16). Which one is converted <b>essentially completely</b> to sodium ethoxide?",
+  "c": [
+   "NaNH<sub>2</sub>",
+   "NaOH",
+   "Sodium phenoxide, C<sub>6</sub>H<sub>5</sub>ONa",
+   "Sodium acetate, CH<sub>3</sub>COONa"
+  ],
+  "h": "Ethoxide is the strongest base that can persist in ethanol. Which salts contain a base stronger than ethoxide? Compare conjugate-acid pK<sub>a</sub> values with 16.",
+  "w": "A base is leveled by a solvent when its conjugate acid is much weaker than the solvent. NH<sub>3</sub> (≈ 38) is 10<sup>22</sup> times weaker than ethanol, so <b>NaNH<sub>2</sub></b> + EtOH → NH<sub>3</sub> + NaOEt goes to completion. For NaOH, water (15.7) and ethanol (16) are nearly equal acids, so K<sub>eq</sub> ≈ 0.5 and both bases are present. Phenoxide (10) and acetate (4.8) are much weaker bases than ethoxide and stay unchanged.",
+  "x": [
+   "",
+   "Water (15.7) and ethanol (16) have nearly the same pK<sub>a</sub>, so hydroxide and ethoxide coexist (K<sub>eq</sub> ≈ 0.5); the conversion is far from complete.",
+   "Phenol (pK<sub>a</sub> 10) is a much stronger acid than ethanol, so phenoxide does not deprotonate ethanol (K<sub>eq</sub> ≈ 10<sup>−6</sup>).",
+   "Acetate is a weak base (acetic acid pK<sub>a</sub> 4.8); it cannot deprotonate ethanol at all to a useful extent."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "ab-37",
+  "t": "acidbase",
+  "q": "Which species is a Lewis acid but <b>not</b> a Brønsted–Lowry acid?",
+  "c": [
+   "AlCl<sub>3</sub>",
+   "H<sub>2</sub>O",
+   "NH<sub>4</sub><sup>+</sup>",
+   "HCl"
+  ],
+  "h": "A Brønsted acid must have a proton to donate. A Lewis acid needs only a vacant orbital to accept an electron pair.",
+  "w": "<b>AlCl<sub>3</sub></b> has an aluminum with only six valence electrons and an empty orbital, so it accepts electron pairs (it is the Lewis acid catalyst in many reactions), but it has no hydrogen to donate. The other three each donate a proton, so they are Brønsted acids.",
+  "x": [
+   "",
+   "Water donates protons (pK<sub>a</sub> 15.7), so it is a Brønsted acid; it is also commonly a Lewis base.",
+   "Ammonium donates a proton (pK<sub>a</sub> 9.2), so it is a Brønsted acid.",
+   "HCl is a strong Brønsted acid (pK<sub>a</sub> ≈ −7)."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "ab-38",
+  "t": "acidbase",
+  "q": "Rank alcohols I–IV in order of <b>increasing</b> acidity (weakest first).",
+  "c": [
+   "II &lt; IV &lt; I &lt; III",
+   "III &lt; I &lt; IV &lt; II",
+   "II &lt; I &lt; IV &lt; III",
+   "IV &lt; II &lt; I &lt; III"
+  ],
+  "h": "Each alkoxide puts the charge on oxygen with no resonance. Count the fluorine atoms near the oxygen.",
+  "w": "Fluorine withdraws electron density inductively and stabilizes the alkoxide; more fluorines give a larger effect. Ethanol (II, pK<sub>a</sub> ≈ 16) has none; 2-fluoroethanol (IV, ≈ 14.4) has one; 2,2,2-trifluoroethanol (I, 12.4) has three; hexafluoro-2-propanol (III, ≈ 9.3) has six. Order: <b>II &lt; IV &lt; I &lt; III</b>.",
+  "x": [
+   "",
+   "This is the order of decreasing acidity (strongest first), the reverse of what was asked.",
+   "This places one fluorine above three. Inductive effects add, so CF<sub>3</sub>CH<sub>2</sub>OH is more acidic than FCH<sub>2</sub>CH<sub>2</sub>OH.",
+   "A fluorine substituent stabilizes the alkoxide, so 2-fluoroethanol is more acidic than ethanol, not less."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "OCC(F)(F)F",
+    "cap": "I"
+   },
+   {
+    "smi": "CCO",
+    "cap": "II"
+   },
+   {
+    "smi": "OC(C(F)(F)F)C(F)(F)F",
+    "cap": "III"
+   },
+   {
+    "smi": "OCCF",
+    "cap": "IV"
+   }
+  ]
+ },
+ {
+  "id": "ab-39",
+  "t": "acidbase",
+  "q": "The cationic form of alanine is shown. When one equivalent of NaOH is added, which labeled site loses its proton?",
+  "c": [
+   "The O–H on atom <i>b</i>",
+   "The N–H on atom <i>a</i>",
+   "The C–H on atom <i>c</i>",
+   "The C–H on atom <i>d</i>"
+  ],
+  "h": "Compare a carboxylic acid with an ammonium ion. A positive charge on an acid helps, but which conjugate base is more stabilized, and which pK<sub>a</sub> is lower?",
+  "w": "The carboxylic acid O–H (<i>b</i>, pK<sub>a</sub> ≈ 2.3, lowered by the nearby positive NH<sub>3</sub><sup>+</sup>) is far more acidic than the ammonium N–H (<i>a</i>, ≈ 9.7). One equivalent of base removes the most acidic proton first, giving the zwitterion. The C–H bonds are not acidic under these conditions. The key is therefore the <b>O–H on atom <i>b</i></b>.",
+  "x": [
+   "",
+   "The ammonium N–H (pK<sub>a</sub> ≈ 9.7) is acidic because of its positive charge, but the carboxylic acid (≈ 2.3) is about 10<sup>7</sup> times more acidic, so it is deprotonated first.",
+   "The α-C–H is next to both the carbonyl and NH<sub>3</sub><sup>+</sup>, but its pK<sub>a</sub> is still above 20; hydroxide removes the O–H (2.3) first.",
+   "The methyl C–H is an ordinary sp<sup>3</sup> C–H (pK<sub>a</sub> ≈ 50) with no stabilizing group next to it."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "[CH3:4][CH:3]([NH3+:1])C(=O)[OH:2]"
+   }
+  ]
+ },
+ {
+  "id": "ab-40",
+  "t": "acidbase",
+  "q": "Which compound is the strongest base?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Protonate each compound at its most basic site and look at the conjugate acid. Can the positive charge be delocalized?",
+  "w": "<b>Guanidine</b> is protonated on its sp<sup>2</sup> (=NH) nitrogen to give the guanidinium ion, whose positive charge is shared equally by <b>three</b> nitrogens through resonance. That large stabilization of the conjugate acid (pK<sub>a</sub> ≈ 13.6) makes guanidine more basic than an ordinary alkylamine such as methylamine (pK<sub>a</sub>H 10.6). In urea and aniline the lone pairs are delocalized in the <i>neutral</i> base, which lowers basicity.",
+  "x": [
+   "",
+   "Methylamine is a good base (pK<sub>a</sub>H 10.6), but its conjugate acid has no resonance; guanidinium's charge is spread over three nitrogens.",
+   "Urea's nitrogen lone pairs are delocalized into the C=O, as in an amide; urea is a very weak base (pK<sub>a</sub>H ≈ 0.1).",
+   "Aniline's lone pair is delocalized into the benzene ring in the neutral base, which makes it a weak base (pK<sub>a</sub>H 4.6)."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "NC(N)=N"
+   },
+   {
+    "smi": "CN"
+   },
+   {
+    "smi": "NC(N)=O"
+   },
+   {
+    "smi": "Nc1ccccc1"
+   }
+  ]
+ },
+ {
+  "id": "ab-41",
+  "t": "acidbase",
+  "q": "Rank compounds I–IV in order of <b>increasing</b> acidity of their most acidic C–H (weakest first).",
+  "c": [
+   "I &lt; III &lt; IV &lt; II",
+   "III &lt; I &lt; IV &lt; II",
+   "I &lt; III &lt; II &lt; IV",
+   "III &lt; I &lt; II &lt; IV"
+  ],
+  "h": "Two questions: is the C–H α to one carbonyl or to two? And is that carbonyl a ketone or an ester? An ester's OR group donates into its C=O.",
+  "w": "A CH<sub>2</sub> between two carbonyls is far more acidic than one next to a single C=O, because the anion spreads over two oxygens. Within each pair, ketones beat esters: the ester's alkoxy oxygen donates electron density into the C=O, so the carbonyl is less able to accept the enolate charge. Values: ethyl acetate (I) ≈ 25, acetone (III) ≈ 19, diethyl malonate (IV) ≈ 13, 2,4-pentanedione (II) ≈ 9. Order: <b>I &lt; III &lt; IV &lt; II</b>.",
+  "x": [
+   "",
+   "This makes the ester α-H more acidic than the ketone α-H. The alkoxy group of an ester donates into the C=O, so ester enolates are less stabilized (25 vs 19).",
+   "This places the diester above the diketone. As with the monocarbonyl pair, ester groups stabilize the anion less than ketone groups do (13 vs 9).",
+   "This reverses both pairs: ketones are more acidic than the corresponding esters in each case."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC(=O)OCC",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(=O)CC(C)=O",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(C)=O",
+    "cap": "III"
+   },
+   {
+    "smi": "CCOC(=O)CC(=O)OCC",
+    "cap": "IV"
+   }
+  ]
+ },
+ {
+  "id": "ab-42",
+  "t": "acidbase",
+  "q": "Ethyne (pK<sub>a</sub> 25) reacts with a base B<sup>−</sup> with K<sub>eq</sub> ≈ 10<sup>13</sup>: HC≡CH + B<sup>−</sup> ⇌ HC≡C<sup>−</sup> + HB. Which base B<sup>−</sup> fits these data?",
+  "c": [
+   "NH<sub>2</sub><sup>−</sup>",
+   "HO<sup>−</sup>",
+   "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub><sup>−</sup> (as butyllithium)",
+   "CH<sub>3</sub>C≡C<sup>−</sup>"
+  ],
+  "h": "K<sub>eq</sub> = 10<sup>(pK<sub>a</sub> of HB − 25)</sup>. Solve for the pK<sub>a</sub> of HB, then recognize the acid.",
+  "w": "13 = pK<sub>a</sub>(HB) − 25, so pK<sub>a</sub>(HB) ≈ 38, the value for NH<sub>3</sub>. The base is therefore <b>NH<sub>2</sub><sup>−</sup></b>, the standard reagent for making acetylide ions.",
+  "x": [
+   "",
+   "HB would be water (15.7), giving K<sub>eq</sub> = 10<sup>(15.7 − 25)</sup> ≈ 10<sup>−9</sup>, not 10<sup>13</sup>.",
+   "HB would be butane (≈ 50), giving K<sub>eq</sub> ≈ 10<sup>25</sup>, far larger than 10<sup>13</sup>.",
+   "HB would be propyne (≈ 25), essentially the same acidity as ethyne, giving K<sub>eq</sub> ≈ 1."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "ab-43",
+  "t": "acidbase",
+  "q": "Which compound is <b>not</b> deprotonated to a significant extent by aqueous NaOH (pK<sub>a</sub> of H<sub>2</sub>O 15.7)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "NaOH deprotonates an acid substantially only when that acid's pK<sub>a</sub> is lower than 15.7. Recall the pK<sub>a</sub> of each type.",
+  "w": "Approximate pK<sub>a</sub> values: 1-hexyne ≈ 25, acetic acid 4.8, phenol 10, ethanethiol 10.6. Only <b>1-hexyne</b> is weaker than water, so K<sub>eq</sub> ≈ 10<sup>(15.7 − 25)</sup> ≈ 10<sup>−9</sup>; hydroxide leaves it essentially untouched. Terminal alkynes need NaNH<sub>2</sub>.",
+  "x": [
+   "",
+   "Acetic acid (4.8) is about 10<sup>11</sup> times more acidic than water; NaOH converts it completely to acetate.",
+   "Phenol (10) is more acidic than water, so NaOH converts it to sodium phenoxide (K<sub>eq</sub> ≈ 10<sup>5.7</sup>).",
+   "Thiols (≈ 10.6) are much more acidic than alcohols because of the larger sulfur atom; NaOH converts ethanethiol to the thiolate."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "CCCCC#C"
+   },
+   {
+    "smi": "CC(=O)O"
+   },
+   {
+    "smi": "Oc1ccccc1"
+   },
+   {
+    "smi": "CCS"
+   }
+  ]
+ },
+ {
+  "id": "ab-44",
+  "t": "acidbase",
+  "q": "Sodium acetylide (HC≡CNa) is mixed with an equimolar amount of each compound below. With which one does essentially <b>no</b> proton transfer occur?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The acetylide ion removes a proton only from an acid stronger than ethyne (pK<sub>a</sub> 25).",
+  "w": "Water (15.7), ethanol (16) and tert-butyl alcohol (≈ 18) are all stronger acids than ethyne, so each converts acetylide back to ethyne. <b>Ammonia</b> (pK<sub>a</sub> ≈ 38) is 10<sup>13</sup> times weaker, so K<sub>eq</sub> ≈ 10<sup>−13</sup> and nothing happens. This is why liquid NH<sub>3</sub> is the usual solvent for acetylide reactions.",
+  "x": [
+   "",
+   "Water (15.7) is far more acidic than ethyne, so it protonates acetylide immediately (K<sub>eq</sub> ≈ 10<sup>9</sup>).",
+   "Ethanol (16) is more acidic than ethyne by about 9 pK<sub>a</sub> units, so it protonates acetylide.",
+   "tert-Butyl alcohol is the weakest of the alcohols (≈ 18), but it is still about 10<sup>7</sup> times more acidic than ethyne, so it protonates acetylide."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "N"
+   },
+   {
+    "smi": "O"
+   },
+   {
+    "smi": "CCO"
+   },
+   {
+    "smi": "CC(C)(C)O"
+   }
+  ]
+ },
+ {
+  "id": "ab-45",
+  "t": "acidbase",
+  "q": "Which statements are correct?<br>I. Ethanethiol (CH<sub>3</sub>CH<sub>2</sub>SH) is a stronger acid than ethanol.<br>II. Ethanethiolate (CH<sub>3</sub>CH<sub>2</sub>S<sup>−</sup>) is a stronger base than ethoxide.<br>III. The S–H bond is longer and weaker than the O–H bond, and sulfur spreads the negative charge over a larger volume.",
+  "c": [
+   "I and III only",
+   "I and II only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "If an acid is stronger, what must be true of its conjugate base? Then check whether the size argument in III is the right reason.",
+  "w": "Ethanethiol (pK<sub>a</sub> ≈ 10.6) is far more acidic than ethanol (≈ 16), so I is true, and the reason is the size effect described in III (true). Because the thiol is the stronger acid, its conjugate base, ethanethiolate, must be the <b>weaker</b> base, so II is false. Answer: <b>I and III only</b>. (Thiolates are excellent nucleophiles, but nucleophilicity is not the same as basicity.)",
+  "x": [
+   "",
+   "Statement II is false: the stronger acid has the weaker conjugate base, so ethanethiolate is a weaker base than ethoxide.",
+   "Statement I is true (thiols are about 10<sup>5</sup> times more acidic than alcohols) and II is false, so this combination fails on both.",
+   "Statement III is also true; it gives the reason thiols are more acidic, so it must be included."
+  ],
+  "k": 0,
+  "d": 3
+ }
+]

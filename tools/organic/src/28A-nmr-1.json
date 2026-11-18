@@ -1,0 +1,735 @@
+[
+ {
+  "id": "nmr-01",
+  "t": "nmr",
+  "d": 1,
+  "k": 0,
+  "q": "How many signals appear in the <sup>1</sup>H NMR spectrum of the ether shown?",
+  "c": [
+   "4",
+   "3",
+   "5",
+   "6"
+  ],
+  "h": "Sort the hydrogens into sets that are interchanged by symmetry or by fast rotation. Each set gives one signal.",
+  "w": "Ethyl isopropyl ether has four sets of equivalent H: the ethyl CH<sub>3</sub> (3H, triplet), the OCH<sub>2</sub> (2H, quartet), the OCH (1H, septet) and the two isopropyl CH<sub>3</sub> groups (6H, doublet). The two isopropyl methyls are swapped by a mirror plane, so they count once. Answer: <b>4 signals</b>.",
+  "x": [
+   "",
+   "Three signals would require two of the sets to coincide, but the ethyl CH<sub>3</sub> (next to CH<sub>2</sub>) and the isopropyl CH<sub>3</sub> groups (next to CH) are in different environments.",
+   "Five counts the two isopropyl methyls separately. They are related by a mirror plane through O–CH, so they are equivalent and give one 6H doublet.",
+   "Six counts each carbon as its own signal. Equivalent carbons (the two isopropyl CH<sub>3</sub>) give one signal, and the ethyl and OCH carbons each carry one set."
+  ],
+  "s": [
+   {
+    "smi": "CCOC(C)C"
+   }
+  ]
+ },
+ {
+  "id": "nmr-02",
+  "t": "nmr",
+  "d": 1,
+  "k": 0,
+  "q": "How many signals appear in the broadband-decoupled <sup>13</sup>C NMR spectrum of methylcyclohexane?",
+  "c": [
+   "5",
+   "7",
+   "4",
+   "6"
+  ],
+  "h": "Find the mirror plane of the ring, then pair up carbons that it reflects onto each other.",
+  "w": "A mirror plane passes through C1 (bearing CH<sub>3</sub>) and C4. It makes C2 = C6 and C3 = C5. The unique carbons are CH<sub>3</sub>, C1, C2/C6, C3/C5 and C4: <b>5 signals</b>.",
+  "x": [
+   "",
+   "Seven counts every carbon separately and ignores the mirror plane through C1 and C4.",
+   "Four would require C4 to match another carbon, but C4 lies on the mirror plane and has no partner.",
+   "Six pairs only one set (C2/C6 or C3/C5); the same mirror plane relates both pairs."
+  ],
+  "s": [
+   {
+    "smi": "CC1CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "nmr-03",
+  "t": "nmr",
+  "d": 2,
+  "k": 0,
+  "q": "Which C<sub>6</sub>H<sub>12</sub> isomer gives exactly <b>two</b> signals in its <sup>13</sup>C NMR spectrum?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Look for the isomer with the most symmetry: how many different kinds of carbon does each one have?",
+  "w": "2,3-Dimethyl-2-butene, (CH<sub>3</sub>)<sub>2</sub>C=C(CH<sub>3</sub>)<sub>2</sub>, has only two kinds of carbon: four equivalent CH<sub>3</sub> (≈20 ppm) and two equivalent alkene C (≈123 ppm). <b>Two signals</b>. (E)-3-Hexene gives 3, 1,1-dimethylcyclobutane gives 4 and 3,3-dimethyl-1-butene gives 4.",
+  "x": [
+   "",
+   "(E)-3-Hexene is symmetric end to end but still has three kinds of carbon: CH<sub>3</sub>, CH<sub>2</sub> and =CH (3 signals).",
+   "1,1-Dimethylcyclobutane has CH<sub>3</sub> (both equivalent), the quaternary C, C2/C4 and C3: 4 signals.",
+   "3,3-Dimethyl-1-butene has CH<sub>3</sub> (three equivalent), the quaternary C, =CH and =CH<sub>2</sub>: 4 signals."
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)=C(C)C"
+   },
+   {
+    "smi": "CC/C=C/CC"
+   },
+   {
+    "smi": "CC1(C)CCC1"
+   },
+   {
+    "smi": "C=CC(C)(C)C"
+   }
+  ]
+ },
+ {
+  "id": "nmr-04",
+  "t": "nmr",
+  "d": 1,
+  "k": 0,
+  "q": "How many signals appear in the <sup>1</sup>H NMR spectrum of 1-bromo-3-methylbutane?",
+  "c": [
+   "4",
+   "5",
+   "3",
+   "6"
+  ],
+  "h": "Walk along the chain and ask which hydrogens are interchanged by rotation or symmetry.",
+  "w": "BrCH<sub>2</sub>–CH<sub>2</sub>–CH(CH<sub>3</sub>)<sub>2</sub>: the BrCH<sub>2</sub> (2H), the middle CH<sub>2</sub> (2H), the CH (1H) and the two equivalent CH<sub>3</sub> groups (6H). <b>4 signals</b>. No stereocenter is present, so each CH<sub>2</sub> pair is equivalent.",
+  "x": [
+   "",
+   "Five counts the two terminal CH<sub>3</sub> groups separately; they are attached to the same CH and are interchanged by a mirror plane.",
+   "Three merges the two CH<sub>2</sub> groups, but one is bonded to Br (≈3.4 ppm) and the other is not (≈1.8 ppm).",
+   "Six counts carbons, not sets of equivalent hydrogens; the two methyls are one set."
+  ],
+  "s": [
+   {
+    "smi": "BrCCC(C)C"
+   }
+  ]
+ },
+ {
+  "id": "nmr-05",
+  "t": "nmr",
+  "d": 3,
+  "k": 0,
+  "q": "How many chemically different kinds of hydrogen does (<i>S</i>)-2-chlorobutane have? Count diastereotopic protons as different (as a high-field <sup>1</sup>H spectrum would show).",
+  "c": [
+   "5",
+   "4",
+   "6",
+   "3"
+  ],
+  "h": "Replace each H of the CH<sub>2</sub> group in turn by D. What is the relationship between the two products?",
+  "w": "C1 CH<sub>3</sub> (doublet), C2 CH–Cl, C4 CH<sub>3</sub> (triplet) and the C3 CH<sub>2</sub>. Because C2 is a stereocenter, replacing one C3 H by D gives (2<i>S</i>,3<i>R</i>) and replacing the other gives (2<i>S</i>,3<i>S</i>): diastereomers. The two C3 H are therefore <b>diastereotopic</b> and inequivalent, giving <b>5</b> kinds of H in all.",
+  "x": [
+   "",
+   "Four is the count if the CH<sub>2</sub> pair is treated as one set. Next to a stereocenter, the two CH<sub>2</sub> hydrogens are diastereotopic, not equivalent.",
+   "Six would require the H within a CH<sub>3</sub> group to differ, but fast C–C rotation averages each methyl into one environment.",
+   "Three merges the two methyl groups. The C1 methyl sits on the stereocenter (doublet) and the C4 methyl sits on CH<sub>2</sub> (triplet)."
+  ],
+  "s": [
+   {
+    "smi": "CC[C@H](C)Cl"
+   }
+  ]
+ },
+ {
+  "id": "nmr-06",
+  "t": "nmr",
+  "d": 3,
+  "k": 0,
+  "q": "In which compound are the two hydrogens on the tagged carbon <i>a</i> <b>diastereotopic</b>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Use the substitution test: replace one H, then the other, by X. Identical products = homotopic, enantiomers = enantiotopic, diastereomers = diastereotopic.",
+  "w": "Only in 2-bromobutane does C3 sit next to an existing stereocenter (C2). Replacing either C3 H by X creates a second stereocenter, so the two products are diastereomers: the C3 hydrogens are <b>diastereotopic</b> and can give separate signals. In the other compounds the products are identical or enantiomers.",
+  "x": [
+   "",
+   "In 1-bromobutane, replacing either H on C1 gives the two enantiomers of BrCHX–CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>, so these H are enantiotopic (equivalent in NMR).",
+   "In propane, replacing either H on C2 gives the same 2-X-propane (no stereocenter), so these H are homotopic.",
+   "In 3-pentanone, replacing either H on C2 creates one new stereocenter and no other, so the products are enantiomers: the H are enantiotopic."
+  ],
+  "cs": [
+   {
+    "smi": "C[C@@H](Br)[CH2:1]C"
+   },
+   {
+    "smi": "Br[CH2:1]CCC"
+   },
+   {
+    "smi": "C[CH2:1]C"
+   },
+   {
+    "smi": "C[CH2:1]C(=O)CC"
+   }
+  ]
+ },
+ {
+  "id": "nmr-07",
+  "t": "nmr",
+  "d": 2,
+  "k": 0,
+  "q": "Which tagged hydrogens give the <sup>1</sup>H signal farthest <b>downfield</b>?",
+  "c": [
+   "<i>c</i>",
+   "<i>b</i>",
+   "<i>a</i>",
+   "<i>d</i>"
+  ],
+  "h": "An oxygen attached directly to the carbon deshields more than a C=O one bond away.",
+  "w": "Typical shifts: <i>a</i> CH<sub>3</sub>C=O ≈ 2.2, <i>b</i> CH<sub>2</sub>C=O ≈ 2.7, <i>c</i> OCH<sub>2</sub> ≈ 3.7, <i>d</i> CH<sub>3</sub> of ethyl ≈ 1.2 ppm. Hydrogens on a carbon bonded directly to an electronegative O (3.3–4.2 ppm) are more deshielded than hydrogens α to a carbonyl (2–2.6 ppm). <b><i>c</i></b> is farthest downfield.",
+  "x": [
+   "",
+   "H <i>b</i> is α to the C=O (≈2.7 ppm). The carbonyl deshields, but less than an oxygen bonded directly to the carbon.",
+   "H <i>a</i> is a methyl ketone CH<sub>3</sub> (≈2.2 ppm), upfield of both CH<sub>2</sub> groups.",
+   "H <i>d</i> is an ordinary alkyl CH<sub>3</sub> two bonds from O (≈1.2 ppm), the most upfield of the set."
+  ],
+  "s": [
+   {
+    "smi": "[CH3:1]C(=O)[CH2:2][CH2:3]OC[CH3:4]"
+   }
+  ]
+ },
+ {
+  "id": "nmr-08",
+  "t": "nmr",
+  "d": 1,
+  "k": 0,
+  "q": "Which tagged hydrogens give the <sup>1</sup>H signal farthest <b>upfield</b> (lowest δ)?",
+  "c": [
+   "<i>a</i>",
+   "<i>b</i>",
+   "<i>c</i>",
+   "<i>d</i>"
+  ],
+  "h": "Upfield means most shielded: hydrogens far from O and not on an sp<sup>2</sup> carbon.",
+  "w": "<i>a</i> CH<sub>3</sub> ≈ 1.2, <i>b</i> OCH<sub>2</sub> ≈ 3.5, <i>c</i> OCH<sub>2</sub> (also allylic) ≈ 4.0, <i>d</i> =CH ≈ 5.9 ppm. The alkyl CH<sub>3</sub> <b><i>a</i></b> is not on a carbon attached to O or to a π bond, so it is the most shielded.",
+  "x": [
+   "",
+   "H <i>b</i> is on a carbon bonded to O, which deshields it to ≈3.5 ppm.",
+   "H <i>c</i> is on a carbon bonded to O and next to C=C, so it is even more deshielded (≈4.0 ppm).",
+   "H <i>d</i> is a vinyl H (≈5.9 ppm), deshielded by the π-electron circulation; it is the farthest downfield, not upfield."
+  ],
+  "s": [
+   {
+    "smi": "[CH3:1][CH2:2]O[CH2:3][CH:4]=C"
+   }
+  ]
+ },
+ {
+  "id": "nmr-09",
+  "t": "nmr",
+  "d": 2,
+  "k": 0,
+  "q": "What is the splitting pattern and integration of the tagged hydrogens <i>a</i> in the <sup>1</sup>H NMR spectrum of 1-bromopropane? (Assume all neighboring <i>J</i> values are similar.)",
+  "c": [
+   "Sextet, 2H",
+   "Quintet, 2H",
+   "Quartet, 2H",
+   "Triplet, 2H"
+  ],
+  "h": "Count every H on the carbons on both sides of C2, then apply the n + 1 rule.",
+  "w": "The C2 hydrogens have 3 neighbors on C1 (CH<sub>3</sub>) and 2 on C3 (CH<sub>2</sub>Br): n = 5. With similar coupling constants, n + 1 = 6 lines, a <b>sextet</b>, and the signal integrates for <b>2H</b> (≈1.9 ppm).",
+  "x": [
+   "",
+   "A quintet (n = 4) undercounts the neighbors: C1 has three H and C3 has two, giving five.",
+   "A quartet counts only the CH<sub>3</sub> neighbors and ignores the CH<sub>2</sub>Br hydrogens on the other side.",
+   "A triplet counts only the CH<sub>2</sub>Br neighbors and ignores the CH<sub>3</sub>."
+  ],
+  "s": [
+   {
+    "smi": "C[CH2:1]CBr"
+   }
+  ]
+ },
+ {
+  "id": "nmr-10",
+  "t": "nmr",
+  "d": 2,
+  "k": 0,
+  "q": "Which description fits the signal of the tagged hydrogen <i>a</i>?",
+  "c": [
+   "Septet, 1H, δ ≈ 3.5",
+   "Septet, 1H, δ ≈ 1.1",
+   "10 lines, 1H, δ ≈ 3.5",
+   "Doublet, 6H, δ ≈ 1.1"
+  ],
+  "h": "Does the O atom pass on coupling from the OCH<sub>3</sub> group? Which atom is the CH bonded to?",
+  "w": "The CH of 2-methoxypropane is bonded to O, so it appears near 3.5 ppm. Its only coupled neighbors are the six H of the two methyls on adjacent carbons; the OCH<sub>3</sub> hydrogens are four bonds away through O and do not split it. n = 6 → <b>septet, 1H, δ ≈ 3.5</b>.",
+  "x": [
+   "",
+   "δ 1.1 is the shift of the isopropyl CH<sub>3</sub> groups; the CH bonded to O is deshielded to about 3.5 ppm.",
+   "Ten lines would count the OCH<sub>3</sub> hydrogens as neighbors, but they are separated by an O atom and do not couple measurably.",
+   "The 6H doublet at 1.1 ppm belongs to the two CH<sub>3</sub> groups, not to <i>a</i>."
+  ],
+  "s": [
+   {
+    "smi": "CO[CH:1](C)C"
+   }
+  ]
+ },
+ {
+  "id": "nmr-11",
+  "t": "nmr",
+  "d": 2,
+  "k": 0,
+  "q": "In the <sup>1</sup>H NMR spectrum of 3,3-dimethyl-1-butene, how is the signal of the tagged vinyl H <i>a</i> split?",
+  "c": [
+   "Doublet of doublets (<i>J</i> ≈ 17 and 10 Hz)",
+   "Triplet (<i>J</i> ≈ 14 Hz)",
+   "Doublet (<i>J</i> ≈ 17 Hz)",
+   "Singlet"
+  ],
+  "h": "Are the two H of the =CH<sub>2</sub> group equivalent? One is cis to H<sub>a</sub> and one is trans.",
+  "w": "The two =CH<sub>2</sub> hydrogens are not equivalent: one is trans to H<sub>a</sub> (<i>J</i><sub>trans</sub> ≈ 17 Hz) and one is cis (<i>J</i><sub>cis</sub> ≈ 10 Hz). The other neighbor of C2 is the quaternary C with no H. Two different couplings give a <b>doublet of doublets</b> (4 lines). The full spectrum therefore has 4 signals: t-Bu (9H, s), H<sub>a</sub> (1H, dd) and two separate =CH<sub>2</sub> signals (each 1H, dd).",
+  "x": [
+   "",
+   "A triplet would need two equivalent neighbors with equal <i>J</i>; the cis and trans =CH<sub>2</sub> hydrogens differ and couple with different <i>J</i> values.",
+   "A doublet counts only the trans neighbor; the cis =CH<sub>2</sub> hydrogen also couples (≈10 Hz).",
+   "A singlet would be true only if no H were on adjacent carbons; C1 carries two H that couple to H<sub>a</sub>."
+  ],
+  "s": [
+   {
+    "smi": "C=[CH:1]C(C)(C)C"
+   }
+  ]
+ },
+ {
+  "id": "nmr-12",
+  "t": "nmr",
+  "d": 3,
+  "k": 0,
+  "q": "An alkene shows two separate vinyl signals (1H each) in its <sup>1</sup>H NMR spectrum, and they split each other with <i>J</i> = 15.6 Hz. Which compound fits?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Recall typical <i>J</i>: trans vinyl 12–18 Hz, cis vinyl 6–12 Hz, geminal =CH<sub>2</sub> 0–3 Hz. Also ask whether the two vinyl H are even different from each other.",
+  "w": "A 15.6 Hz vinyl coupling is a trans (<i>E</i>) coupling, and the two vinyl H must be non-equivalent to show splitting. <b>(<i>E</i>)-4,4-Dimethyl-2-pentene</b> fits: H3 appears as a doublet (<i>J</i> ≈ 15.6 Hz, next to the t-Bu C with no H) and H2 as a doublet of quartets.",
+  "x": [
+   "",
+   "The (<i>Z</i>) isomer has its vinyl H cis to each other, with <i>J</i> ≈ 11–12 Hz, smaller than 15.6 Hz.",
+   "In symmetric (<i>E</i>)-2,2,5,5-tetramethyl-3-hexene the two vinyl H are equivalent; equivalent H do not split each other, so they appear as one 2H singlet.",
+   "This 1,1-disubstituted alkene has a =CH<sub>2</sub> group; geminal vinyl coupling is only about 0–3 Hz."
+  ],
+  "cs": [
+   {
+    "smi": "C/C=C/C(C)(C)C"
+   },
+   {
+    "smi": "C/C=C\\C(C)(C)C"
+   },
+   {
+    "smi": "CC(C)(C)/C=C/C(C)(C)C"
+   },
+   {
+    "smi": "C=C(C)CC(C)(C)C"
+   }
+  ]
+ },
+ {
+  "id": "nmr-13",
+  "t": "nmr",
+  "d": 2,
+  "k": 0,
+  "q": "Which C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> compound gives the <sup>1</sup>H NMR spectrum shown?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Where would a CH<sub>2</sub> bonded to O appear, and where would a CH<sub>2</sub> next to C=O appear?",
+  "w": "Three signals in a 2:3:3 ratio: an ethyl group (q + t) and an isolated CH<sub>3</sub> (s). The quartet at 4.12 ppm means the CH<sub>2</sub> is bonded to O; the singlet at 2.04 ppm is a CH<sub>3</sub> next to C=O. That is CH<sub>3</sub>C(=O)OCH<sub>2</sub>CH<sub>3</sub>, <b>ethyl acetate</b>.",
+  "x": [
+   "",
+   "Methyl propanoate has an OCH<sub>3</sub> singlet near 3.7 ppm and its CH<sub>2</sub> quartet near 2.3 ppm (next to C=O), the reverse of what is observed.",
+   "Butanoic acid has four signals including the COOH H at 10–12 ppm and a CH<sub>2</sub> sextet; no singlet near 2 ppm.",
+   "Propyl formate shows the formyl H near 8 ppm and four signals (s, t, sextet, t)."
+  ],
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 4.12,
+      "mult": "q",
+      "int": 2
+     },
+     {
+      "ppm": 2.04,
+      "mult": "s",
+      "int": 3
+     },
+     {
+      "ppm": 1.26,
+      "mult": "t",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(C)=O"
+   },
+   {
+    "smi": "COC(=O)CC"
+   },
+   {
+    "smi": "CCCC(=O)O"
+   },
+   {
+    "smi": "CCCOC=O"
+   }
+  ]
+ },
+ {
+  "id": "nmr-14",
+  "t": "nmr",
+  "d": 2,
+  "k": 0,
+  "q": "A C<sub>6</sub>H<sub>14</sub>O ether gives the <sup>1</sup>H NMR spectrum shown. Which structure is it?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "A doublet and a septet together signal an isopropyl group. How many isopropyl groups does a 12H : 2H ratio require?",
+  "w": "Only two signals: a 12H doublet at 1.12 ppm and a 2H septet at 3.65 ppm (CH on O). Each CH has six methyl neighbors, and four equivalent CH<sub>3</sub> groups give 12H. Two isopropyl groups on one O: <b>diisopropyl ether</b>.",
+  "x": [
+   "",
+   "Dipropyl ether gives three signals: OCH<sub>2</sub> triplet (≈3.4, 4H), CH<sub>2</sub> sextet (≈1.6, 4H) and CH<sub>3</sub> triplet (≈0.9, 6H).",
+   "tert-Butyl ethyl ether gives a 9H singlet (≈1.2), a 2H quartet (≈3.4) and a 3H triplet; no septet.",
+   "This ether gives three singlets (9H, 2H, 3H), because none of its carbons with H are next to another carbon with H."
+  ],
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 3.65,
+      "mult": "sept",
+      "int": 2
+     },
+     {
+      "ppm": 1.12,
+      "mult": "d",
+      "int": 12
+     }
+    ]
+   }
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)OC(C)C"
+   },
+   {
+    "smi": "CCCOCCC"
+   },
+   {
+    "smi": "CCOC(C)(C)C"
+   },
+   {
+    "smi": "COCC(C)(C)C"
+   }
+  ]
+ },
+ {
+  "id": "nmr-15",
+  "t": "nmr",
+  "d": 2,
+  "k": 0,
+  "q": "Which C<sub>4</sub>H<sub>9</sub>Br isomer gives the <sup>1</sup>H NMR spectrum shown?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The 2H doublet near 3.3 ppm is a CH<sub>2</sub>Br. What must it be attached to for it to be a doublet?",
+  "w": "A 6H doublet (two equivalent CH<sub>3</sub> on one CH), a 1H multiplet (that CH, with 8 neighbors) and a 2H doublet at 3.30 ppm (CH<sub>2</sub>Br next to one H). That is (CH<sub>3</sub>)<sub>2</sub>CH–CH<sub>2</sub>Br, <b>1-bromo-2-methylpropane</b>.",
+  "x": [
+   "",
+   "1-Bromobutane has a CH<sub>2</sub>Br triplet (next to CH<sub>2</sub>) and a 3H triplet; it has no 6H doublet.",
+   "2-Bromobutane has a 1H CHBr signal near 4.1 ppm, a 3H doublet and a 3H triplet, not a 6H doublet.",
+   "2-Bromo-2-methylpropane gives a single 9H singlet near 1.8 ppm."
+  ],
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 3.3,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 1.98,
+      "mult": "m",
+      "int": 1
+     },
+     {
+      "ppm": 1.03,
+      "mult": "d",
+      "int": 6
+     }
+    ]
+   }
+  ],
+  "cs": [
+   {
+    "smi": "BrCC(C)C"
+   },
+   {
+    "smi": "CCCCBr"
+   },
+   {
+    "smi": "CCC(C)Br"
+   },
+   {
+    "smi": "CC(C)(C)Br"
+   }
+  ]
+ },
+ {
+  "id": "nmr-16",
+  "t": "nmr",
+  "d": 2,
+  "k": 0,
+  "q": "Which C<sub>9</sub>H<sub>12</sub> aromatic compound gives the <sup>1</sup>H NMR spectrum shown?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "A 5H signal near 7.2 ppm tells you how the ring is substituted. Then read the alkyl pattern.",
+  "w": "5 aromatic H → a monosubstituted benzene. The alkyl part shows a 6H doublet and a 1H septet at 2.90 ppm (benzylic CH): an isopropyl group. <b>Isopropylbenzene</b> (cumene).",
+  "x": [
+   "",
+   "Propylbenzene has a monosubstituted ring too, but its alkyl signals are a triplet (2H), a sextet (2H) and a triplet (3H), not a doublet and septet.",
+   "4-Ethyltoluene is disubstituted (4 aromatic H) and shows a CH<sub>3</sub> singlet, an ethyl quartet and triplet.",
+   "1,3,5-Trimethylbenzene shows only two singlets: 3 aromatic H near 6.8 and 9H near 2.3 ppm."
+  ],
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.25,
+      "mult": "m",
+      "int": 5
+     },
+     {
+      "ppm": 2.9,
+      "mult": "sept",
+      "int": 1
+     },
+     {
+      "ppm": 1.25,
+      "mult": "d",
+      "int": 6
+     }
+    ]
+   }
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)c1ccccc1"
+   },
+   {
+    "smi": "CCCc1ccccc1"
+   },
+   {
+    "smi": "CCc1ccc(C)cc1"
+   },
+   {
+    "smi": "Cc1cc(C)cc(C)c1"
+   }
+  ]
+ },
+ {
+  "id": "nmr-17",
+  "t": "nmr",
+  "d": 2,
+  "k": 0,
+  "q": "Which <sup>1</sup>H NMR data set belongs to the ketone shown?",
+  "c": [
+   "δ 2.58 (septet, 1H), 2.13 (s, 3H), 1.10 (d, 6H)",
+   "δ 2.58 (d, 1H), 2.13 (s, 3H), 1.10 (septet, 6H)",
+   "δ 2.42 (t, 2H), 2.13 (s, 3H), 1.60 (sextet, 2H), 0.92 (t, 3H)",
+   "δ 3.60 (septet, 1H), 2.13 (s, 3H), 1.10 (d, 6H)"
+  ],
+  "h": "Find each set of H, its neighbors (n + 1), and whether it sits next to C=O (2–2.6 ppm) or on an O-bearing carbon (3.3–4.2 ppm).",
+  "w": "3-Methyl-2-butanone: the acetyl CH<sub>3</sub> has no neighbors (s, 3H, ≈2.1); the CH is next to C=O and has six methyl neighbors (septet, 1H, ≈2.6); the two CH<sub>3</sub> each see the one CH (d, 6H, ≈1.1). <b>δ 2.58 (septet, 1H), 2.13 (s, 3H), 1.10 (d, 6H)</b>.",
+  "x": [
+   "",
+   "The multiplicities are swapped: the 1H signal has 6 neighbors (septet) and the 6H signal has 1 neighbor (doublet).",
+   "This is the pattern of 2-pentanone (a propyl chain), which has 4 signals; the drawn ketone has an isopropyl group.",
+   "3.6 ppm is too far downfield for a CH next to C=O (2–2.6 ppm); that shift fits an O–CH, as in an ester or ether."
+  ],
+  "s": [
+   {
+    "smi": "CC(=O)C(C)C"
+   }
+  ]
+ },
+ {
+  "id": "nmr-18",
+  "t": "nmr",
+  "d": 2,
+  "k": 0,
+  "q": "A C<sub>5</sub>H<sub>10</sub>O compound gives the broadband-decoupled <sup>13</sup>C NMR spectrum shown. Which structure is it?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Count the signals first, then use the shift above 200 ppm to decide between a ketone and an aldehyde.",
+  "w": "Three signals for five carbons means symmetry. The peak at 211.8 ppm is a ketone C=O (an aldehyde C=O is usually 195–205 ppm and the CHO carbon is CH). <b>3-Pentanone</b>, (CH<sub>3</sub>CH<sub>2</sub>)<sub>2</sub>C=O, has three kinds of C: C=O, two equivalent CH<sub>2</sub> (35.4) and two equivalent CH<sub>3</sub> (7.9).",
+  "x": [
+   "",
+   "2-Pentanone has no symmetry: all five carbons differ, so 5 signals.",
+   "Pentanal has 5 different carbons (5 signals), with the CHO carbon near 202 ppm.",
+   "3-Methyl-2-butanone has 4 kinds of carbon (C=O, CH, acetyl CH<sub>3</sub>, two equivalent CH<sub>3</sub>), so 4 signals."
+  ],
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "13C",
+    "peaks": [
+     {
+      "ppm": 211.8
+     },
+     {
+      "ppm": 35.4
+     },
+     {
+      "ppm": 7.9
+     }
+    ]
+   }
+  ],
+  "cs": [
+   {
+    "smi": "CCC(=O)CC"
+   },
+   {
+    "smi": "CCCC(C)=O"
+   },
+   {
+    "smi": "CCCCC=O"
+   },
+   {
+    "smi": "CC(=O)C(C)C"
+   }
+  ]
+ },
+ {
+  "id": "nmr-19",
+  "t": "nmr",
+  "d": 2,
+  "k": 0,
+  "q": "Predict the DEPT spectra of 3-methyl-1-butanol (shown). In DEPT-135, CH and CH<sub>3</sub> peaks point up (positive) and CH<sub>2</sub> peaks point down (negative).",
+  "c": [
+   "DEPT-90: 1 peak; DEPT-135: 2 positive, 2 negative",
+   "DEPT-90: 1 peak; DEPT-135: 3 positive, 2 negative",
+   "DEPT-90: 3 peaks; DEPT-135: 2 positive, 2 negative",
+   "DEPT-90: 1 peak; DEPT-135: 4 positive, 0 negative"
+  ],
+  "h": "First count the distinct carbons and classify each as C, CH, CH<sub>2</sub> or CH<sub>3</sub>. DEPT-90 shows only CH.",
+  "w": "HOCH<sub>2</sub>–CH<sub>2</sub>–CH(CH<sub>3</sub>)<sub>2</sub> has 4 distinct carbons: CH<sub>2</sub>O, CH<sub>2</sub>, CH and one signal for both equivalent CH<sub>3</sub>. DEPT-90 shows only the CH (1 peak). DEPT-135 shows CH and CH<sub>3</sub> up (2 positive) and the two CH<sub>2</sub> down (2 negative). <b>DEPT-90: 1 peak; DEPT-135: 2 positive, 2 negative</b>.",
+  "x": [
+   "",
+   "The two CH<sub>3</sub> groups are equivalent (both on the same CH), so they give one positive peak, not two.",
+   "DEPT-90 shows only CH carbons; CH<sub>3</sub> carbons do not appear in it.",
+   "In DEPT-135, CH<sub>2</sub> carbons give negative peaks; the CH<sub>2</sub>O and CH<sub>2</sub> carbons point down."
+  ],
+  "s": [
+   {
+    "smi": "OCCC(C)C"
+   }
+  ]
+ },
+ {
+  "id": "nmr-20",
+  "t": "nmr",
+  "d": 3,
+  "k": 0,
+  "q": "A C<sub>6</sub>H<sub>12</sub> compound gives the <sup>13</sup>C NMR spectrum shown; the DEPT result (C, CH, CH<sub>2</sub>, CH<sub>3</sub>) is written over each peak. Which structure is it?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Use DBE = 1 and the two peaks above 100 ppm. Which alkene carbon is quaternary, and which kind is the sp<sup>3</sup> CH?",
+  "w": "DBE = 1 and two sp<sup>2</sup> peaks (154.6 C, 107.0 CH<sub>2</sub>) → a 1,1-disubstituted alkene, R<sub>2</sub>C=CH<sub>2</sub>. The sp<sup>3</sup> carbons are one CH (35.7) and two kinds of CH<sub>3</sub>, with no CH<sub>2</sub>. Five signals for six carbons means two CH<sub>3</sub> are equivalent: an isopropyl group. <b>2,3-Dimethyl-1-butene</b>, CH<sub>2</sub>=C(CH<sub>3</sub>)CH(CH<sub>3</sub>)<sub>2</sub>.",
+  "x": [
+   "",
+   "4-Methyl-1-pentene has five signals too, but its alkene carbons are =CH (≈138, CH) and =CH<sub>2</sub>, and it has an sp<sup>3</sup> CH<sub>2</sub>; no quaternary C.",
+   "2-Ethyl-1-butene has a quaternary alkene C and =CH<sub>2</sub>, but only 4 signals and its sp<sup>3</sup> carbons are CH<sub>2</sub> and CH<sub>3</sub> (no CH).",
+   "2-Methyl-2-pentene has a trisubstituted alkene with an sp<sup>2</sup> CH (≈125) and 6 signals (the two methyls on C2 are cis and trans to the ethyl, so they differ)."
+  ],
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "13C",
+    "peaks": [
+     {
+      "ppm": 154.6,
+      "lab": "C"
+     },
+     {
+      "ppm": 107.0,
+      "lab": "CH<sub>2</sub>"
+     },
+     {
+      "ppm": 35.7,
+      "lab": "CH"
+     },
+     {
+      "ppm": 21.6,
+      "lab": "CH<sub>3</sub>"
+     },
+     {
+      "ppm": 19.8,
+      "lab": "CH<sub>3</sub>"
+     }
+    ]
+   }
+  ],
+  "cs": [
+   {
+    "smi": "C=C(C)C(C)C"
+   },
+   {
+    "smi": "C=CCC(C)C"
+   },
+   {
+    "smi": "C=C(CC)CC"
+   },
+   {
+    "smi": "CC/C=C(C)C"
+   }
+  ]
+ }
+]

@@ -1,0 +1,588 @@
+[
+ {
+  "id": "eas-16",
+  "d": 1,
+  "q": "Toluene is treated with one equivalent of Br<sub>2</sub> and FeBr<sub>3</sub> in the dark. What is the major product?",
+  "s": [
+   {
+    "smi": "Cc1ccccc1"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "FeBr<sub>3</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Cc1ccc(Br)cc1"
+   },
+   {
+    "smi": "Cc1cccc(Br)c1"
+   },
+   {
+    "smi": "BrCc1ccccc1"
+   },
+   {
+    "smi": "Cc1ccc(Br)cc1Br"
+   }
+  ],
+  "h": "FeBr<sub>3</sub> means a polar ring substitution. CH<sub>3</sub> is an ortho/para director; which of those positions is less crowded?",
+  "w": "With a Lewis acid and no light, Br<sub>2</sub> substitutes on the ring. CH<sub>3</sub> is a weak activator that directs ortho/para; the para position is free of steric interaction with the methyl group, so <b>4-bromotoluene</b> is the major product (2-bromotoluene is the main minor product).",
+  "x": [
+   "",
+   "CH<sub>3</sub> donates electrons to the ortho and para positions; the meta product forms only in trace amounts.",
+   "Benzylic bromination is a radical reaction (light or NBS/peroxide); FeBr<sub>3</sub> in the dark gives ring substitution.",
+   "Only one equivalent of Br<sub>2</sub> is used, so monobromination is the main outcome."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-17",
+  "d": 1,
+  "q": "What is the major product when methyl benzoate is nitrated with HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub> at 0 °C?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COC(=O)c1cccc([N+](=O)[O-])c1"
+   },
+   {
+    "smi": "COC(=O)c1ccc([N+](=O)[O-])cc1"
+   },
+   {
+    "smi": "COC(=O)c1ccccc1[N+](=O)[O-]"
+   },
+   {
+    "smi": "COC(=O)c1cc([N+](=O)[O-])cc([N+](=O)[O-])c1"
+   }
+  ],
+  "h": "Which atom of the ester is bonded to the ring, and is it electron-rich or electron-poor?",
+  "w": "The CO<sub>2</sub>CH<sub>3</sub> group is attached through its δ+ carbonyl carbon; it withdraws electrons by resonance and induction. Ortho/para attack would place the ring cation next to that carbonyl carbon, so substitution occurs <b>meta: methyl 3-nitrobenzoate</b>. The product ring is even more deactivated, so a second nitration does not occur at 0 °C.",
+  "x": [
+   "",
+   "Para attack gives a σ complex with the cation on the carbon bonded to the electron-poor C=O carbon; it is disfavored.",
+   "Ortho attack has the same destabilized form as para attack, plus steric hindrance.",
+   "After one nitro group the ring is doubly deactivated; dinitration needs much harsher conditions."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-18",
+  "d": 2,
+  "q": "What is the major product of this Friedel–Crafts acylation?",
+  "s": [
+   {
+    "smi": "COc1ccccc1"
+   },
+   {
+    "arrow": "CH<sub>3</sub>COCl",
+    "below": "AlCl<sub>3</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COc1ccc(C(C)=O)cc1"
+   },
+   {
+    "smi": "COc1cccc(C(C)=O)c1"
+   },
+   {
+    "smi": "CCc1ccc(OC)cc1"
+   },
+   {
+    "smi": "COc1ccc(C(C)=O)cc1C(C)=O"
+   }
+  ],
+  "h": "OCH<sub>3</sub> directs ortho/para, the acylium–AlCl<sub>3</sub> electrophile is bulky, and an acyl group deactivates the ring it joins.",
+  "w": "OCH<sub>3</sub> is a strong ortho/para director. The bulky acylating complex strongly prefers the open para position, giving <b>4-methoxyacetophenone</b>. The C=O introduced deactivates the product, so acylation stops after one group, and the acyl group is not reduced to an alkyl group by AlCl<sub>3</sub>.",
+  "x": [
+   "",
+   "OCH<sub>3</sub> donates a lone pair to the ortho and para positions; meta attack gets no such help.",
+   "Friedel–Crafts acylation gives a ketone; turning C=O into CH<sub>2</sub> needs a separate Clemmensen or Wolff–Kishner step.",
+   "The first acyl group deactivates the ring, so a second acylation does not occur (unlike Friedel–Crafts alkylation)."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-19",
+  "d": 2,
+  "q": "4-Nitrotoluene is nitrated further with HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "Cc1ccc([N+](=O)[O-])cc1"
+   },
+   {
+    "arrow": "HNO<sub>3</sub>",
+    "below": "H<sub>2</sub>SO<sub>4</sub>, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Cc1ccc([N+](=O)[O-])cc1[N+](=O)[O-]"
+   },
+   {
+    "smi": "Cc1ccc([N+](=O)[O-])c([N+](=O)[O-])c1"
+   },
+   {
+    "smi": "Cc1c([N+](=O)[O-])cc([N+](=O)[O-])cc1[N+](=O)[O-]"
+   },
+   {
+    "smi": "O=[N+]([O-])Cc1ccc([N+](=O)[O-])cc1"
+   }
+  ],
+  "h": "Find the carbon that is ortho to CH<sub>3</sub> and also meta to NO<sub>2</sub>.",
+  "w": "CH<sub>3</sub> (at C1) directs to its open ortho positions, C2 and C6. NO<sub>2</sub> (at C4) directs meta to itself, also C2 and C6. The two groups <b>reinforce</b> each other, so the product is <b>2,4-dinitrotoluene</b>.",
+  "x": [
+   "",
+   "Substitution ortho to NO<sub>2</sub> (C3) is meta to CH<sub>3</sub> and ortho to the deactivating nitro group; neither group favors it.",
+   "TNT requires a third nitration under much harsher conditions; each nitro group makes the next substitution slower.",
+   "Nitration with HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub> substitutes ring C–H, not the benzylic C–H of the methyl group."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-20",
+  "d": 2,
+  "q": "4-Methylanisole is treated with one equivalent of Br<sub>2</sub> and FeBr<sub>3</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "COc1ccc(C)cc1"
+   },
+   {
+    "arrow": "Br<sub>2</sub> (1 equiv)",
+    "below": "FeBr<sub>3</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COc1ccc(C)cc1Br"
+   },
+   {
+    "smi": "COc1ccc(C)c(Br)c1"
+   },
+   {
+    "smi": "COc1ccc(CBr)cc1"
+   },
+   {
+    "smi": "COc1c(Br)cc(C)cc1Br"
+   }
+  ],
+  "h": "The two groups send the electrophile to different carbons. Which group is the stronger activator?",
+  "w": "OCH<sub>3</sub> directs to its ortho positions (para is taken); CH<sub>3</sub> directs to its own ortho positions. These are different carbons, so the directors compete, and <b>the stronger activator wins</b>: lone-pair resonance from oxygen beats hyperconjugation from CH<sub>3</sub>. Bromine enters ortho to OCH<sub>3</sub>: <b>2-bromo-4-methylanisole</b>.",
+  "x": [
+   "",
+   "This is ortho to the weaker activator (CH<sub>3</sub>) and meta to OCH<sub>3</sub>; the σ complex gets no oxygen lone-pair stabilization.",
+   "Benzylic bromination needs radical conditions (NBS, light); FeBr<sub>3</sub> gives ring substitution.",
+   "With only one equivalent of Br<sub>2</sub>, monobromination is the main result."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-21",
+  "d": 2,
+  "q": "<i>m</i>-Xylene (1,3-dimethylbenzene) is mononitrated. What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Cc1ccc([N+](=O)[O-])c(C)c1"
+   },
+   {
+    "smi": "Cc1cccc(C)c1[N+](=O)[O-]"
+   },
+   {
+    "smi": "Cc1cc(C)cc([N+](=O)[O-])c1"
+   },
+   {
+    "smi": "Cc1cc(C)c([N+](=O)[O-])cc1[N+](=O)[O-]"
+   }
+  ],
+  "h": "Three ring positions are activated by both methyl groups or by one. Which of the doubly activated positions is easiest to reach?",
+  "w": "C2 (between the methyls), C4 and C6 are each ortho or para to <b>both</b> CH<sub>3</sub> groups; C5 is meta to both. C2 is flanked by two methyl groups, so attack there is sterically hindered: groups meta to each other block the carbon between them. C4/C6 (equivalent) is ortho to one methyl and para to the other and open, so <b>2,4-dimethyl-1-nitrobenzene</b> is the major product.",
+  "x": [
+   "",
+   "C2 is electronically activated by both methyls, but it sits between them; this crowded position gives only a minor product.",
+   "C5 is meta to both methyl groups, so neither activator helps the σ complex.",
+   "The question asks for mononitration; a second nitro group is not introduced under these conditions."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-22",
+  "d": 2,
+  "q": "What is the major product when <i>N</i>-(4-methylphenyl)acetamide reacts with Br<sub>2</sub> in acetic acid?",
+  "s": [
+   {
+    "smi": "CC(=O)Nc1ccc(C)cc1"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "CH<sub>3</sub>COOH"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)Nc1ccc(C)cc1Br"
+   },
+   {
+    "smi": "CC(=O)Nc1ccc(C)c(Br)c1"
+   },
+   {
+    "smi": "CC(=O)Nc1ccc(CBr)cc1"
+   },
+   {
+    "smi": "CC(=O)N(Br)c1ccc(C)cc1"
+   }
+  ],
+  "h": "Both groups direct ortho to themselves. Compare a nitrogen lone pair (even one shared with C=O) with a methyl group.",
+  "w": "The para position is blocked, so each group directs ortho to itself. NHCOCH<sub>3</sub> is a moderate activator (nitrogen lone pair), stronger than CH<sub>3</sub> (weak activator). The stronger activator controls: bromine enters <b>ortho to the acetamido group</b>.",
+  "x": [
+   "",
+   "Ortho to CH<sub>3</sub> is meta to NHCOCH<sub>3</sub>; the stronger activator does not stabilize that σ complex.",
+   "Benzylic bromination requires radical conditions; Br<sub>2</sub> in acetic acid is a polar ring bromination.",
+   "N-Bromoamides are not the stable product of Br<sub>2</sub>/AcOH with an activated ring; ring C-bromination is observed."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-23",
+  "d": 2,
+  "q": "1-Bromo-4-nitrobenzene is heated with Br<sub>2</sub> and FeBr<sub>3</sub>. What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "no reaction: a ring with two deactivating groups cannot be brominated"
+  ],
+  "cs": [
+   {
+    "smi": "Brc1ccc([N+](=O)[O-])cc1Br"
+   },
+   {
+    "smi": "O=[N+]([O-])c1ccc(Br)cc1Br"
+   },
+   {
+    "smi": "Brc1ccc(Br)cc1"
+   },
+   null
+  ],
+  "h": "Br directs ortho/para; NO<sub>2</sub> directs meta. Is there a carbon both groups agree on?",
+  "w": "Br at C1 directs to C2/C6 (para is taken); NO<sub>2</sub> at C4 directs meta to itself, also C2/C6. The directors <b>reinforce</b>, giving <b>1,2-dibromo-4-nitrobenzene</b>. The ring is deactivated, so heat is needed, but halogenation still occurs.",
+  "x": [
+   "",
+   "The carbon ortho to NO<sub>2</sub> is meta to Br; bromine's lone pair cannot stabilize that σ complex and the nitro group disfavors it.",
+   "Replacing NO<sub>2</sub> by Br (ipso substitution) is not a normal EAS outcome; the electrophile replaces H<sup>+</sup>.",
+   "Deactivated rings, even nitrobenzene itself, are brominated with Br<sub>2</sub>/FeBr<sub>3</sub> and heat; only Friedel–Crafts reactions fail on strongly deactivated rings."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-24",
+  "d": 3,
+  "q": "1-<i>tert</i>-Butyl-4-methylbenzene is mononitrated. What is the major product?",
+  "s": [
+   {
+    "smi": "Cc1ccc(C(C)(C)C)cc1"
+   },
+   {
+    "arrow": "HNO<sub>3</sub>",
+    "below": "H<sub>2</sub>SO<sub>4</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Cc1ccc(C(C)(C)C)cc1[N+](=O)[O-]"
+   },
+   {
+    "smi": "Cc1ccc(C(C)(C)C)c([N+](=O)[O-])c1"
+   },
+   {
+    "smi": "CC(C)(C)c1ccc(C[N+](=O)[O-])cc1"
+   },
+   {
+    "smi": "Cc1c([N+](=O)[O-])cc(C(C)(C)C)cc1[N+](=O)[O-]"
+   }
+  ],
+  "h": "Both groups are alkyl activators of similar strength. When electronics nearly tie, what decides?",
+  "w": "CH<sub>3</sub> and C(CH<sub>3</sub>)<sub>3</sub> are both weak ortho/para activators; the para positions are mutually blocked, so each directs ortho to itself. Electronically they are similar, so <b>sterics decide</b>: the carbons next to the huge <i>tert</i>-butyl group are hindered, and nitration occurs <b>ortho to the methyl group</b>.",
+  "x": [
+   "",
+   "Attack next to the bulky <i>tert</i>-butyl group is sterically hindered and gives only a minor product.",
+   "HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub> nitrates ring C–H bonds, not benzylic C–H bonds.",
+   "The question asks for mononitration; the first nitro group deactivates the ring toward a second substitution."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-25",
+  "d": 3,
+  "q": "3-Methoxybenzaldehyde reacts with Br<sub>2</sub> in acetic acid. What is the major product?",
+  "s": [
+   {
+    "smi": "COc1cccc(C=O)c1"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "CH<sub>3</sub>COOH"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COc1ccc(Br)c(C=O)c1"
+   },
+   {
+    "smi": "COc1cc(Br)cc(C=O)c1"
+   },
+   {
+    "smi": "COc1cccc(C=O)c1Br"
+   },
+   {
+    "smi": "COc1c(Br)ccc(C=O)c1"
+   }
+  ],
+  "h": "Let the activator choose among its ortho/para positions; then eliminate the most crowded one and compare the rest.",
+  "w": "OCH<sub>3</sub> (strong activator) controls over CHO (deactivator). It directs to C2, C4 and C6 (numbering the ring from CHO at C1, OCH<sub>3</sub> at C3: its ortho carbons are C2 and C4, its para carbon is C6). C2 lies between the two substituents and is sterically blocked. C4 is ortho to OCH<sub>3</sub> and para to CHO; C6 is para to OCH<sub>3</sub> and ortho to CHO. Attack para to the activator, where its lone-pair donation is most effective and the electrophile is farther from OCH<sub>3</sub>, is preferred: <b>2-bromo-5-methoxybenzaldehyde</b>.",
+  "x": [
+   "",
+   "This carbon is meta to OCH<sub>3</sub>; following the deactivating CHO group's meta preference ignores the stronger director.",
+   "This carbon is between the two substituents (meta to each other), the most hindered position on the ring.",
+   "This carbon (ortho to OCH<sub>3</sub>) is electronically allowed, but attack para to OCH<sub>3</sub> is favored; this is the minor isomer."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-26",
+  "d": 2,
+  "q": "4-Methylbenzoic acid is nitrated. At which labeled carbon does substitution mainly occur?",
+  "s": [
+   {
+    "smi": "OC(=O)c1[cH:1][cH:2]c(C)cc1"
+   }
+  ],
+  "c": [
+   "carbon <i>b</i>",
+   "carbon <i>a</i>",
+   "carbons <i>a</i> and <i>b</i> about equally",
+   "neither; the CO<sub>2</sub>H group prevents nitration"
+  ],
+  "h": "Ask each substituent separately where it sends the electrophile.",
+  "w": "CH<sub>3</sub> directs ortho to itself (para is occupied): that is carbon <i>b</i>. CO<sub>2</sub>H is a meta director: the carbons meta to it are also <i>b</i> (and its mirror). The directors reinforce, so nitration occurs at <b>carbon <i>b</i></b>, giving 4-methyl-3-nitrobenzoic acid.",
+  "x": [
+   "",
+   "Carbon <i>a</i> is ortho to the deactivating CO<sub>2</sub>H and meta to CH<sub>3</sub>; neither group favors it.",
+   "The two carbons are not equivalent; both substituents favor <i>b</i>.",
+   "CO<sub>2</sub>H deactivates the ring but does not stop nitration; it only blocks Friedel–Crafts reactions."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-27",
+  "d": 2,
+  "q": "Which sequence converts aniline into 4-bromoaniline as the major product?",
+  "s": [
+   {
+    "smi": "Nc1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "Nc1ccc(Br)cc1"
+   }
+  ],
+  "c": [
+   "1. (CH<sub>3</sub>CO)<sub>2</sub>O, pyridine  2. Br<sub>2</sub>, CH<sub>3</sub>COOH  3. NaOH, H<sub>2</sub>O, heat",
+   "1. Br<sub>2</sub> (1 equiv), H<sub>2</sub>O",
+   "1. H<sub>2</sub>SO<sub>4</sub> (excess)  2. Br<sub>2</sub>, FeBr<sub>3</sub>  3. NaOH, H<sub>2</sub>O",
+   "1. NaNO<sub>2</sub>, HCl, 0 °C  2. Br<sub>2</sub>, FeBr<sub>3</sub>  3. H<sub>2</sub>O, heat"
+  ],
+  "h": "NH<sub>2</sub> is so activating that it is hard to stop at one bromine. How can you temporarily tone it down without changing its directing effect?",
+  "w": "Free NH<sub>2</sub> activates the ring so strongly that bromination runs to 2,4,6-tribromoaniline. Converting it to the <b>acetamide</b> pulls part of the N lone pair onto C=O: still an ortho/para director, but moderate, and the bulky group favors para. After monobromination, <b>basic hydrolysis</b> removes the acetyl group to give 4-bromoaniline.",
+  "x": [
+   "",
+   "Unprotected aniline is brominated at all three ortho/para positions even with limited Br<sub>2</sub>; a clean mono product is not obtained.",
+   "In excess acid aniline becomes anilinium ion, a meta director, so bromination would favor 3-bromoaniline.",
+   "Diazotization replaces the amino group (step 3 would make a phenol), so the target amine is lost."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-28",
+  "d": 2,
+  "q": "Which compound gives the largest para : ortho product ratio on mononitration?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(C)c1ccccc1"
+   },
+   {
+    "smi": "CC(C)c1ccccc1"
+   },
+   {
+    "smi": "CCc1ccccc1"
+   },
+   {
+    "smi": "Cc1ccccc1"
+   }
+  ],
+  "h": "All four are ortho/para-directing alkyl groups of similar electronic strength. What differs?",
+  "w": "All four alkyl groups activate and direct ortho/para with similar electronic effects, so the ortho share is set by <b>sterics</b>. The bulkier the group, the more it blocks its neighbors. The <b>tert-butyl group</b> is the largest, so <i>tert</i>-butylbenzene gives the highest para : ortho ratio; toluene gives the most ortho product.",
+  "x": [
+   "",
+   "Isopropyl is bulky but has a benzylic H and can rotate it toward the ring; it hinders the ortho positions less than <i>tert</i>-butyl.",
+   "Ethyl is only slightly larger than methyl; ethylbenzene still gives a lot of ortho product.",
+   "Methyl is the smallest alkyl group; toluene gives the most ortho product of the four."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-29",
+  "d": 2,
+  "q": "Biphenyl reacts with one equivalent of CH<sub>3</sub>COCl and AlCl<sub>3</sub>. What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)c1ccc(-c2ccccc2)cc1"
+   },
+   {
+    "smi": "CC(=O)c1cccc(-c2ccccc2)c1"
+   },
+   {
+    "smi": "CC(=O)c1ccccc1-c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)c1ccc(-c2ccc(C(C)=O)cc2)cc1"
+   }
+  ],
+  "h": "A phenyl substituent can share its π electrons with the σ complex. Where does that help, and which of those positions is open?",
+  "w": "A phenyl group is a weak activator and ortho/para director: in the ortho and para σ complexes the positive charge can be delocalized into the second ring. The bulky acylium–AlCl<sub>3</sub> electrophile avoids the crowded ortho position (next to the other ring), so <b>4-acetylbiphenyl</b> is the major product. The ketone deactivates its ring, and one equivalent of reagent gives monoacylation.",
+  "x": [
+   "",
+   "Meta attack cannot delocalize the cation into the second ring; it gets no help from the phenyl substituent.",
+   "The ortho position is electronically allowed but crowded by the other ring, a poor fit for the bulky acylating complex.",
+   "With one equivalent of acyl chloride, monoacylation is the main result; the acetyl group also deactivates the molecule."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-30",
+  "d": 3,
+  "q": "Phenyl benzoate is mononitrated with HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "O=C(Oc1ccccc1)c1ccccc1"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C(Oc1ccc([N+](=O)[O-])cc1)c1ccccc1"
+   },
+   {
+    "smi": "O=C(Oc1ccccc1)c1cccc([N+](=O)[O-])c1"
+   },
+   {
+    "smi": "O=C(Oc1cccc([N+](=O)[O-])c1)c1ccccc1"
+   },
+   {
+    "smi": "O=C(Oc1ccccc1)c1ccc([N+](=O)[O-])cc1"
+   }
+  ],
+  "h": "Decide first which ring reacts: one is bonded to an oxygen, the other to a carbonyl carbon.",
+  "w": "The ring bonded to the ester <b>oxygen</b> (–OCOPh) is activated: the O lone pair donates into it (moderately, because it is shared with C=O), so this ring reacts and directs ortho/para. The ring bonded to the <b>carbonyl carbon</b> is deactivated. Nitration therefore occurs on the O-bearing ring, mainly para (less hindered): <b>4-nitrophenyl benzoate</b>.",
+  "x": [
+   "",
+   "This is the meta product on the deactivated acyl ring; that ring reacts much more slowly than the oxygen-bearing ring.",
+   "Right ring, wrong position: the –OCOPh group directs ortho/para on its own ring, not meta.",
+   "The acyl ring is deactivated by the C=O, and even if it reacted it would be meta, not para, substituted."
+  ],
+  "t": "eas",
+  "k": 0
+ }
+]

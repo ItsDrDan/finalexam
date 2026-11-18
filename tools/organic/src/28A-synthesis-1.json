@@ -1,0 +1,556 @@
+[
+ {
+  "id": "syn-01",
+  "t": "synthesis",
+  "q": "Which reagent(s) convert 1-butyne into 2-butanone in one step?",
+  "c": [
+   "HgSO<sub>4</sub>, H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O",
+   "1. (Sia)<sub>2</sub>BH  2. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "1. H<sub>2</sub>, Lindlar catalyst  2. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>",
+   "1. O<sub>3</sub>  2. H<sub>2</sub>O"
+  ],
+  "h": "Ask which carbon of the triple bond ends up as C=O: the more substituted one (Markovnikov) or the terminal one.",
+  "w": "Mercury(II)-catalyzed hydration of a terminal alkyne is Markovnikov: OH adds to the internal carbon, and the enol tautomerizes to the methyl ketone. So <b>HgSO<sub>4</sub>, H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O</b> gives 2-butanone. Hydroboration with a bulky borane is anti-Markovnikov and gives the aldehyde, and ozonolysis cleaves the triple bond.",
+  "x": [
+   "",
+   "Hydroboration with a bulky dialkylborane puts the oxygen on the terminal carbon; the enol tautomerizes to butanal, an aldehyde, not the ketone.",
+   "Lindlar reduction gives 1-butene, and acid-catalyzed hydration of that alkene gives 2-butanol, an alcohol rather than a ketone.",
+   "Ozonolysis cleaves the C≡C bond completely, giving propanoic acid and CO<sub>2</sub>, not a four-carbon ketone."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CCC#C"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCC(C)=O"
+   }
+  ]
+ },
+ {
+  "id": "syn-02",
+  "t": "synthesis",
+  "q": "Which sequence converts 2-methyl-2-butene into 3-methyl-2-butanol (racemic)?",
+  "c": [
+   "1. BH<sub>3</sub>·THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>",
+   "1. OsO<sub>4</sub>  2. NaHSO<sub>3</sub>, H<sub>2</sub>O",
+   "1. HBr, ROOR  2. NaOH, H<sub>2</sub>O"
+  ],
+  "h": "The OH must end up on the less substituted alkene carbon. Which addition is anti-Markovnikov and gives an alcohol directly?",
+  "w": "The target has OH on C2 (the CH end of the alkene), so the addition must be anti-Markovnikov. Boron adds to the less hindered carbon and oxidation replaces B with OH: <b>1. BH<sub>3</sub>·THF 2. H<sub>2</sub>O<sub>2</sub>, NaOH</b>. Acid hydration is Markovnikov (tertiary alcohol), OsO<sub>4</sub> adds two OH groups, and the radical HBr route stops at a secondary bromide that hydroxide mostly eliminates.",
+  "x": [
+   "",
+   "Acid-catalyzed hydration goes through the tertiary carbocation, giving 2-methyl-2-butanol (Markovnikov), the wrong constitutional isomer.",
+   "OsO<sub>4</sub> adds two OH groups (syn dihydroxylation), giving 2-methyl-2,3-butanediol, not a mono-alcohol.",
+   "HBr/ROOR does give 2-bromo-3-methylbutane, but this hindered secondary bromide with hydroxide (a strong base) gives mainly E2, back to the alkene, not clean S<sub>N</sub>2."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CC=C(C)C"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC(O)C(C)C"
+   }
+  ]
+ },
+ {
+  "id": "syn-03",
+  "t": "synthesis",
+  "q": "Which sequence converts propyne into (<i>Z</i>)-2-hexene?",
+  "c": [
+   "1. NaNH<sub>2</sub>  2. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br  3. H<sub>2</sub>, Lindlar catalyst",
+   "1. NaNH<sub>2</sub>  2. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br  3. Na, NH<sub>3</sub>(l)",
+   "1. H<sub>2</sub>, Lindlar catalyst  2. NaNH<sub>2</sub>  3. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br",
+   "1. NaOH, H<sub>2</sub>O  2. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br  3. H<sub>2</sub>, Lindlar catalyst"
+  ],
+  "h": "Build the six-carbon skeleton while you still have a terminal alkyne C–H, then choose the reduction that sets the alkene geometry.",
+  "w": "Deprotonating propyne (pK<sub>a</sub> ≈ 25) needs a base whose conjugate acid is weaker, such as NaNH<sub>2</sub> (NH<sub>3</sub>, pK<sub>a</sub> ≈ 38). The acetylide does S<sub>N</sub>2 on the primary bromide to give 2-hexyne, and Lindlar hydrogenation adds both H atoms to the same face, giving the cis (Z) alkene: <b>1. NaNH<sub>2</sub> 2. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br 3. H<sub>2</sub>, Lindlar</b>.",
+  "x": [
+   "",
+   "Dissolving-metal reduction (Na, NH<sub>3</sub>) goes through a vinyl radical/anion that adopts the trans geometry, so this gives (E)-2-hexene.",
+   "Reducing first gives propene, which has no acidic C–H (pK<sub>a</sub> ≈ 44), so NaNH<sub>2</sub> cannot form a carbon nucleophile and no C–C bond is made.",
+   "Hydroxide (H<sub>2</sub>O pK<sub>a</sub> ≈ 15.7) is far too weak to deprotonate a terminal alkyne (pK<sub>a</sub> ≈ 25); the equilibrium lies almost entirely on the alkyne side."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC#C"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C/C=C\\CCC"
+   }
+  ]
+ },
+ {
+  "id": "syn-04",
+  "t": "synthesis",
+  "q": "Which sequence converts 2-butyne into <i>meso</i>-2,3-butanediol?",
+  "c": [
+   "1. H<sub>2</sub>, Lindlar catalyst  2. OsO<sub>4</sub>  3. NaHSO<sub>3</sub>, H<sub>2</sub>O",
+   "1. Na, NH<sub>3</sub>(l)  2. OsO<sub>4</sub>  3. NaHSO<sub>3</sub>, H<sub>2</sub>O",
+   "1. H<sub>2</sub>, Lindlar catalyst  2. mCPBA  3. H<sub>3</sub>O<sup>+</sup>",
+   "1. H<sub>2</sub>, Lindlar catalyst  2. KMnO<sub>4</sub>, H<sub>3</sub>O<sup>+</sup>, heat"
+  ],
+  "h": "Pair the alkene geometry with the type of dihydroxylation: syn addition to a cis alkene and anti addition to a trans alkene give the same diastereomer.",
+  "w": "Lindlar reduction gives (Z)-2-butene. OsO<sub>4</sub> adds both OH groups to the same face (syn), and syn addition to a cis alkene gives the meso diol, (2R,3S)-2,3-butanediol. So the answer is <b>1. H<sub>2</sub>, Lindlar 2. OsO<sub>4</sub> 3. NaHSO<sub>3</sub></b>. Changing either the alkene geometry or the addition mode (syn → anti) switches the product to the racemic (2R,3R)/(2S,3S) pair.",
+  "x": [
+   "",
+   "Na/NH<sub>3</sub> gives (E)-2-butene; syn dihydroxylation of a trans alkene gives the racemic (2R,3R)/(2S,3S) diol, not meso.",
+   "Epoxidation then acid opening is an anti addition; anti addition to the cis alkene gives the racemic diol, not meso.",
+   "Hot acidic KMnO<sub>4</sub> cleaves the C=C bond, giving two molecules of acetic acid instead of a diol."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC#CC"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C[C@@H](O)[C@H](C)O"
+   }
+  ]
+ },
+ {
+  "id": "syn-05",
+  "t": "synthesis",
+  "q": "The dibromide shown is formed as a racemic mixture (only one enantiomer is drawn). Which sequence from 2-pentyne gives it as the major product?",
+  "c": [
+   "1. H<sub>2</sub>, Lindlar catalyst  2. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub>",
+   "1. Na, NH<sub>3</sub>(l)  2. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub>",
+   "1. H<sub>2</sub>, Lindlar catalyst  2. HBr, ROOR",
+   "HBr (2 equiv)"
+  ],
+  "h": "Assign R/S to the drawn dibromide. Then remember Br<sub>2</sub> adds anti, and decide which alkene geometry gives that pair of configurations.",
+  "w": "The drawn compound is (2R,3R)-2,3-dibromopentane, the threo (\"like\") diastereomer. Bromination is an anti addition through a bromonium ion. Anti addition to a <i>trans</i> alkene gives the erythro (2R,3S)/(2S,3R) pair (the meso-like pattern seen with 2-butene), while anti addition to a <i>cis</i> alkene gives the threo (2R,3R)/(2S,3S) pair. So the alkyne must first be reduced to the cis alkene: <b>1. H<sub>2</sub>, Lindlar 2. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub></b>.",
+  "x": [
+   "",
+   "Na/NH<sub>3</sub> gives (E)-2-pentene; anti addition of Br<sub>2</sub> to the trans alkene gives the (2R,3S)/(2S,3R) diastereomer, not the one drawn.",
+   "HBr with peroxide adds only one Br (radical, anti-Markovnikov), giving a monobromopentane, not a vicinal dibromide.",
+   "Two equivalents of HBr add Markovnikov twice to the same carbon, giving geminal dibromides (2,2- and 3,3-dibromopentane), not a 2,3-dibromide."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC#CCC"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC[C@@H](Br)[C@@H](C)Br"
+   }
+  ]
+ },
+ {
+  "id": "syn-06",
+  "t": "synthesis",
+  "q": "Which sequence moves the double bond of 2-methyl-2-butene to the end of the chain, giving 3-methyl-1-butene as the major product?",
+  "c": [
+   "1. HBr, ROOR  2. t-BuOK, t-BuOH, heat",
+   "1. HBr  2. t-BuOK, t-BuOH, heat",
+   "1. HBr, ROOR  2. NaOEt, EtOH, heat",
+   "1. BH<sub>3</sub>·THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH  3. H<sub>2</sub>SO<sub>4</sub>, heat"
+  ],
+  "h": "First put a leaving group on the carbon that must become C2 of the new alkene, then choose a base that removes the less hindered β-H.",
+  "w": "Radical HBr addition (ROOR) puts Br on the less substituted alkene carbon, giving 2-bromo-3-methylbutane. That bromide has β-H on C1 (CH<sub>3</sub>) and C3 (one tertiary H). The bulky base t-BuOK removes the more accessible CH<sub>3</sub> hydrogen (Hofmann product), giving 3-methyl-1-butene: <b>1. HBr, ROOR 2. t-BuOK, heat</b>. A small base gives the Zaitsev product, which is just the starting alkene again.",
+  "x": [
+   "",
+   "Without peroxide HBr adds Markovnikov, giving 2-bromo-2-methylbutane; Hofmann elimination of that gives 2-methyl-1-butene, the wrong skeleton position.",
+   "The bromide is correct, but ethoxide is a small base and gives the Zaitsev (more substituted) alkene, which is 2-methyl-2-butene, the starting material.",
+   "Hydroboration gives 3-methyl-2-butanol, but E1 dehydration goes through a secondary cation that undergoes a hydride shift to the tertiary cation and gives 2-methyl-2-butene again."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC=C(C)C"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C=CC(C)C"
+   }
+  ]
+ },
+ {
+  "id": "syn-07",
+  "t": "synthesis",
+  "q": "Which sequence converts 1-methylcyclohexene into the racemic alcohol shown?",
+  "c": [
+   "1. BH<sub>3</sub>·THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "1. Hg(OAc)<sub>2</sub>, H<sub>2</sub>O  2. NaBH<sub>4</sub>",
+   "H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>",
+   "1. OsO<sub>4</sub>  2. NaHSO<sub>3</sub>, H<sub>2</sub>O"
+  ],
+  "h": "Where is the OH relative to the methyl group, and are H and OH added to the same face?",
+  "w": "The target, trans-2-methylcyclohexanol, has OH on the less substituted alkene carbon (anti-Markovnikov), and the H added to C1 is cis to the OH (syn addition). Hydroboration adds H and B to the same face and oxidation replaces B with OH with retention, so <b>1. BH<sub>3</sub>·THF 2. H<sub>2</sub>O<sub>2</sub>, NaOH</b> gives the trans alcohol.",
+  "x": [
+   "",
+   "Oxymercuration–demercuration is Markovnikov: OH goes to the tertiary carbon, giving 1-methylcyclohexanol.",
+   "Acid hydration is also Markovnikov through the tertiary cation, giving 1-methylcyclohexanol.",
+   "OsO<sub>4</sub> adds two OH groups, giving 1-methyl-cis-1,2-cyclohexanediol, not a mono-alcohol."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C[C@@H]1CCCC[C@H]1O"
+   }
+  ]
+ },
+ {
+  "id": "syn-08",
+  "t": "synthesis",
+  "q": "Which sequence converts acetylene into the racemic diol shown (one enantiomer drawn)?",
+  "c": [
+   "1. NaNH<sub>2</sub>, then CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br (do this twice)  2. Na, NH<sub>3</sub>(l)  3. OsO<sub>4</sub>, then NaHSO<sub>3</sub>, H<sub>2</sub>O",
+   "1. NaNH<sub>2</sub>, then CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br (do this twice)  2. H<sub>2</sub>, Lindlar catalyst  3. OsO<sub>4</sub>, then NaHSO<sub>3</sub>, H<sub>2</sub>O",
+   "1. NaNH<sub>2</sub>, then CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br (do this twice)  2. Na, NH<sub>3</sub>(l)  3. mCPBA, then H<sub>3</sub>O<sup>+</sup>",
+   "1. NaNH<sub>2</sub>, then CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br (do this twice)  2. H<sub>2</sub>, Pd/C  3. OsO<sub>4</sub>, then NaHSO<sub>3</sub>, H<sub>2</sub>O"
+  ],
+  "h": "The skeleton step is the same in every choice. Assign the drawn diol as meso or chiral, then match alkene geometry with syn or anti dihydroxylation.",
+  "w": "Two acetylide alkylations with 1-bromopropane give 4-octyne. The drawn diol is (4R,5R)-4,5-octanediol, a chiral (racemic) diastereomer, not the meso form. Racemic comes from syn addition to a trans alkene or anti addition to a cis alkene. Na/NH<sub>3</sub> gives (E)-4-octene and OsO<sub>4</sub> adds syn, so <b>Na, NH<sub>3</sub> then OsO<sub>4</sub></b> gives the (4R,5R)/(4S,5S) pair.",
+  "x": [
+   "",
+   "Lindlar gives the cis alkene; syn addition to a cis alkene gives meso-4,5-octanediol, not the chiral diol shown.",
+   "Na/NH<sub>3</sub> gives the trans alkene, and epoxidation then acid opening is an anti addition; anti addition to a trans alkene gives the meso diol.",
+   "H<sub>2</sub> over Pd/C reduces the alkyne all the way to octane, which has no π bond for OsO<sub>4</sub> to attack."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "C#C"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCC[C@@H](O)[C@H](O)CCC"
+   }
+  ]
+ },
+ {
+  "id": "syn-09",
+  "t": "synthesis",
+  "q": "Which plan gives 4-methyl-2-pentyne in good yield?",
+  "c": [
+   "3-methyl-1-butyne: 1. NaNH<sub>2</sub> 2. CH<sub>3</sub>I",
+   "propyne: 1. NaNH<sub>2</sub> 2. (CH<sub>3</sub>)<sub>2</sub>CHBr",
+   "3-methyl-1-butyne: 1. NaOH, H<sub>2</sub>O 2. CH<sub>3</sub>I",
+   "propyne: 1. NaNH<sub>2</sub> 2. (CH<sub>3</sub>)<sub>2</sub>CHOH"
+  ],
+  "h": "An acetylide is a strong base as well as a nucleophile. Which disconnection lets it attack a methyl or primary carbon?",
+  "w": "Disconnecting the target at either alkyne–carbon bond gives two plans: isopropylacetylide + CH<sub>3</sub>–X, or propynide + isopropyl–X. Acetylides do clean S<sub>N</sub>2 only on methyl and primary substrates; with a secondary halide the strong base gives mostly E2. So the good plan is <b>3-methyl-1-butyne, NaNH<sub>2</sub>, then CH<sub>3</sub>I</b>.",
+  "x": [
+   "",
+   "2-Bromopropane is secondary; the strongly basic acetylide removes a β-H (E2), giving propene and recovering propyne.",
+   "Hydroxide (H<sub>2</sub>O pK<sub>a</sub> ≈ 15.7) cannot deprotonate a terminal alkyne (pK<sub>a</sub> ≈ 25), so almost no acetylide forms.",
+   "OH<sup>−</sup> is not a leaving group, and the alcohol O–H (pK<sub>a</sub> ≈ 17) simply protonates the acetylide back to propyne."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC#CC(C)C",
+    "cap": "target"
+   }
+  ]
+ },
+ {
+  "id": "syn-10",
+  "t": "synthesis",
+  "q": "Which sequence converts methylcyclohexane into racemic trans-2-methylcyclohexanol (shown)?",
+  "c": [
+   "1. Br<sub>2</sub>, hν  2. NaOEt, EtOH, heat  3. BH<sub>3</sub>·THF  4. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "1. Br<sub>2</sub>, hν  2. t-BuOK, t-BuOH, heat  3. BH<sub>3</sub>·THF  4. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "1. Cl<sub>2</sub>, hν  2. NaOEt, EtOH, heat  3. BH<sub>3</sub>·THF  4. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "1. Br<sub>2</sub>, hν  2. NaOEt, EtOH, heat  3. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>"
+  ],
+  "h": "Work backward: which alkene gives this alcohol by hydroboration, which base makes that alkene, and which halogenation puts the leaving group in the right place?",
+  "w": "Hydroboration–oxidation of 1-methylcyclohexene gives trans-2-methylcyclohexanol (anti-Markovnikov, syn addition of H and OH). 1-Methylcyclohexene is the Zaitsev product of E2 on 1-bromo-1-methylcyclohexane with a small base, and that tertiary bromide is the highly selective product of radical bromination. So: <b>1. Br<sub>2</sub>, hν 2. NaOEt, EtOH, heat 3. BH<sub>3</sub>·THF 4. H<sub>2</sub>O<sub>2</sub>, NaOH</b>.",
+  "x": [
+   "",
+   "The bulky base gives the Hofmann alkene, methylenecyclohexane, and hydroboration of that gives cyclohexylmethanol instead.",
+   "Radical chlorination is not selective; it chlorinates the primary, secondary and tertiary positions, so the later steps start from a mixture of chlorides.",
+   "Acid-catalyzed hydration of 1-methylcyclohexene is Markovnikov and gives 1-methylcyclohexanol, the tertiary alcohol."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC1CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C[C@@H]1CCCC[C@H]1O"
+   }
+  ]
+ },
+ {
+  "id": "syn-11",
+  "t": "synthesis",
+  "q": "Which C<sub>7</sub>H<sub>12</sub> alkene gives heptane-2,6-dione as the only product of ozonolysis (1. O<sub>3</sub>  2. (CH<sub>3</sub>)<sub>2</sub>S)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Ozonolysis turns each alkene carbon into a C=O. Reconnect the two carbonyl carbons of the product with a double bond.",
+  "w": "Heptane-2,6-dione has two ketone carbons (C2 and C6) separated by three CH<sub>2</sub> groups, each bearing a CH<sub>3</sub>. Joining C2 and C6 by a C=C closes a five-membered ring with a methyl on each alkene carbon: <b>1,2-dimethylcyclopentene</b>. A ring alkene gives one product with two carbonyls; both alkene carbons are fully substituted, so both carbonyls are ketones.",
+  "x": [
+   "",
+   "1-Ethylcyclopentene has one alkene C–H, so one end becomes an aldehyde: the product is 5-oxoheptanal.",
+   "1,3-Dimethylcyclopentene also has an alkene C–H; it gives 2-methyl-5-oxohexanal, a keto-aldehyde.",
+   "1-Methylcyclohexene cleaves to 6-oxoheptanal: the ring is one carbon larger and one end is an aldehyde."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC(=O)CCCC(C)=O",
+    "cap": "heptane-2,6-dione"
+   }
+  ],
+  "cs": [
+   {
+    "smi": "CC1=C(C)CCC1"
+   },
+   {
+    "smi": "CCC1=CCCC1"
+   },
+   {
+    "smi": "CC1=CC(C)CC1"
+   },
+   {
+    "smi": "CC1=CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "syn-12",
+  "t": "synthesis",
+  "q": "Which sequence converts (R)-2-pentanol into the nitrile shown, with the configuration drawn?",
+  "c": [
+   "1. TsCl, pyridine  2. NaCN, DMSO",
+   "1. PBr<sub>3</sub>  2. NaCN, DMSO",
+   "1. TsCl, pyridine  2. NaBr, DMSO  3. NaCN, DMSO",
+   "NaCN, DMSO"
+  ],
+  "h": "Assign R/S to the product, then count how many steps break a bond to the stereocenter (each S<sub>N</sub>2 inverts; making a tosylate does not).",
+  "w": "The product is (S)-2-methylpentanenitrile: the CN has taken the place of the OH with <i>inversion</i>. Tosylation forms the O–S bond and leaves the C–O bond intact (retention), and then cyanide displaces the tosylate by S<sub>N</sub>2 (one inversion). Net: one inversion, so <b>1. TsCl, pyridine 2. NaCN, DMSO</b>. Routes with two S<sub>N</sub>2 steps invert twice and give back the (R) configuration.",
+  "x": [
+   "",
+   "PBr<sub>3</sub> converts the alcohol to the bromide with inversion, and cyanide inverts again; two inversions give (R)-2-methylpentanenitrile, the enantiomer.",
+   "Tosylation retains, bromide displacement inverts and cyanide inverts again: two inversions in total give the (R) nitrile, the enantiomer of the target.",
+   "Hydroxide is a very poor leaving group, so cyanide cannot displace OH directly; the alcohol is recovered."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CCC[C@@H](C)O"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCC[C@H](C)C#N"
+   }
+  ]
+ },
+ {
+  "id": "syn-13",
+  "t": "synthesis",
+  "q": "Which starting material and reagent give 5-methyl-2-hexanone as essentially the only carbonyl product?",
+  "c": [
+   "5-methyl-1-hexyne; HgSO<sub>4</sub>, H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O",
+   "5-methyl-2-hexyne; HgSO<sub>4</sub>, H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O",
+   "5-methyl-1-hexyne; 1. (Sia)<sub>2</sub>BH 2. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "5-methyl-1-hexene; H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>"
+  ],
+  "h": "Hydration of an alkyne gives a ketone only where the oxygen lands. Which alkyne has only one possible Markovnikov carbon next to the target C=O?",
+  "w": "Markovnikov hydration of a <i>terminal</i> alkyne puts the oxygen on C2 and gives a methyl ketone: <b>5-methyl-1-hexyne with HgSO<sub>4</sub>, H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O</b> gives 5-methyl-2-hexanone. An unsymmetrical internal alkyne has two similar carbons, so its hydration gives a mixture of two ketones.",
+  "x": [
+   "",
+   "The two alkyne carbons of 5-methyl-2-hexyne are both disubstituted, so oxygen adds to either one: about a 1:1 mixture of 5-methyl-2-hexanone and 5-methyl-3-hexanone.",
+   "Hydroboration of a terminal alkyne is anti-Markovnikov and gives the aldehyde, 5-methylhexanal.",
+   "Acid hydration of the alkene gives the alcohol 5-methyl-2-hexanol, not a ketone; no oxidation step is present."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC(=O)CCC(C)C",
+    "cap": "target"
+   }
+  ]
+ },
+ {
+  "id": "syn-14",
+  "t": "synthesis",
+  "q": "Which sequence converts cyclohexane into 1,3-cyclohexadiene?",
+  "c": [
+   "1. Br<sub>2</sub>, hν  2. t-BuOK, t-BuOH  3. NBS, hν  4. t-BuOK, t-BuOH",
+   "1. Br<sub>2</sub>, hν  2. t-BuOK, t-BuOH  3. NBS, hν  4. H<sub>2</sub>O",
+   "1. Br<sub>2</sub>, hν  2. t-BuOK, t-BuOH  3. HBr, ROOR  4. t-BuOK, t-BuOH",
+   "1. NBS, hν  2. t-BuOK, t-BuOH"
+  ],
+  "h": "You need two eliminations, so you need two leaving groups introduced at the right times. Where does NBS put a bromine?",
+  "w": "Radical bromination and E2 make cyclohexene. NBS then brominates the allylic position (C3) by a radical chain, and a second E2 forms a C=C conjugated with the first: <b>1. Br<sub>2</sub>, hν 2. t-BuOK 3. NBS, hν 4. t-BuOK</b>.",
+  "x": [
+   "",
+   "Water substitutes the allylic bromide (S<sub>N</sub>1 through an allylic cation), giving 2-cyclohexen-1-ol, not the diene.",
+   "HBr/ROOR adds across the C=C to give bromocyclohexane again; elimination just returns cyclohexene.",
+   "Cyclohexane has no allylic C–H, so NBS is the wrong tool here, and even if one Br were introduced, a single elimination gives only cyclohexene."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C1CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C1=CC=CCC1"
+   }
+  ]
+ },
+ {
+  "id": "syn-15",
+  "t": "synthesis",
+  "q": "Using 1-butene and propyne as the only sources of carbon, which plan makes (<i>E</i>)-2-heptene?",
+  "c": [
+   "1-butene + HBr, ROOR; propyne + NaNH<sub>2</sub>, then add that bromide; then Na, NH<sub>3</sub>(l)",
+   "1-butene + HBr; propyne + NaNH<sub>2</sub>, then add that bromide; then Na, NH<sub>3</sub>(l)",
+   "1-butene + HBr, ROOR; propyne + NaNH<sub>2</sub>, then add that bromide; then H<sub>2</sub>, Lindlar catalyst",
+   "1-butene + HBr, ROOR; propyne + NaNH<sub>2</sub>, then add that bromide; then H<sub>2</sub>, Pd/C"
+  ],
+  "h": "Find the C–C bond the acetylide makes, decide which halide the acetylide needs (methyl/primary only), then set the alkene geometry.",
+  "w": "(E)-2-Heptene is CH<sub>3</sub>CH=CH(CH<sub>2</sub>)<sub>3</sub>CH<sub>3</sub>. The propynide anion supplies C1–C3 and must attack a primary butyl halide. Radical (peroxide) HBr addition to 1-butene gives 1-bromobutane; S<sub>N</sub>2 gives 2-heptyne; Na/NH<sub>3</sub> reduces it to the trans alkene. So the plan is <b>HBr/ROOR, alkylation of propynide, then Na, NH<sub>3</sub>(l)</b>.",
+  "x": [
+   "",
+   "Markovnikov HBr gives 2-bromobutane, a secondary halide; the acetylide mostly eliminates (E2), and any substitution would give a branched skeleton.",
+   "Lindlar hydrogenation gives the cis alkene, (Z)-2-heptene.",
+   "H<sub>2</sub> over Pd/C reduces the alkyne completely to heptane."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "id": "syn-16",
+  "t": "synthesis",
+  "q": "Three of these routes give cyclohexyl ethyl ether in good yield. Which route gives mostly a different product?",
+  "c": [
+   "bromocyclohexane + NaOCH<sub>2</sub>CH<sub>3</sub>, ethanol, heat",
+   "cyclohexanol: 1. NaH 2. CH<sub>3</sub>CH<sub>2</sub>Br",
+   "cyclohexene: 1. Hg(OAc)<sub>2</sub>, CH<sub>3</sub>CH<sub>2</sub>OH 2. NaBH<sub>4</sub>",
+   "cyclohexanol: 1. NaH 2. CH<sub>3</sub>CH<sub>2</sub>OTs"
+  ],
+  "h": "In a Williamson-type S<sub>N</sub>2, which carbon should be the electrophile: the primary one or the secondary one?",
+  "w": "An alkoxide is a strong base. Attacking a primary electrophile (ethyl bromide or ethyl tosylate) it does S<sub>N</sub>2 cleanly. Attacking a secondary cyclohexyl bromide in hot ethanol it mostly removes a β-H (E2), giving cyclohexene. So <b>bromocyclohexane + NaOEt</b> is the poor route. Alkoxymercuration adds EtOH across the alkene Markovnikov-fashion (both alkene carbons of cyclohexene are equivalent) and also gives the ether.",
+  "x": [
+   "",
+   "This route works: the cyclohexoxide ion attacks unhindered ethyl bromide by S<sub>N</sub>2.",
+   "This route works: alkoxymercuration–demercuration adds H and OCH<sub>2</sub>CH<sub>3</sub> across the C=C without rearrangement.",
+   "This route works: ethyl tosylate is a primary substrate with an excellent leaving group, ideal for S<sub>N</sub>2 by the alkoxide."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCOC1CCCCC1",
+    "cap": "target"
+   }
+  ]
+ },
+ {
+  "id": "syn-17",
+  "t": "synthesis",
+  "q": "Which starting material and reagent give the racemic bromohydrin shown?",
+  "c": [
+   "1-methylcyclohexene; Br<sub>2</sub>, H<sub>2</sub>O",
+   "methylenecyclohexane; Br<sub>2</sub>, H<sub>2</sub>O",
+   "1-methylcyclohexene; Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub>",
+   "1-methylcyclohexene; Br<sub>2</sub>, CH<sub>3</sub>OH"
+  ],
+  "h": "Halohydrin formation: where does water attack the bromonium ion, and from which face?",
+  "w": "In Br<sub>2</sub>/H<sub>2</sub>O the alkene forms a bromonium ion, and water (the solvent, present in huge excess) opens it at the more substituted carbon, which carries more δ+, from the face opposite the Br. 1-Methylcyclohexene therefore gives 2-bromo-1-methylcyclohexanol with Br and OH trans: <b>1-methylcyclohexene; Br<sub>2</sub>, H<sub>2</sub>O</b>.",
+  "x": [
+   "",
+   "Methylenecyclohexane gives 1-(bromomethyl)cyclohexanol: Br on the exocyclic CH<sub>2</sub>, not on a ring carbon.",
+   "In CH<sub>2</sub>Cl<sub>2</sub> the only nucleophile is bromide, giving trans-1,2-dibromo-1-methylcyclohexane, not a bromohydrin.",
+   "Methanol as solvent opens the bromonium ion, giving the bromo methyl ether (OCH<sub>3</sub> on C1), not the alcohol."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C[C@]1(O)CCCC[C@@H]1Br",
+    "cap": "racemic"
+   }
+  ]
+ },
+ {
+  "id": "syn-18",
+  "t": "synthesis",
+  "q": "Which sequence converts 1-hexene into 1-hexyne?",
+  "c": [
+   "1. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub>  2. NaNH<sub>2</sub> (3 equiv), NH<sub>3</sub>  3. H<sub>2</sub>O",
+   "1. HBr  2. NaNH<sub>2</sub> (3 equiv), NH<sub>3</sub>  3. H<sub>2</sub>O",
+   "1. Br<sub>2</sub>, H<sub>2</sub>O  2. NaNH<sub>2</sub> (3 equiv), NH<sub>3</sub>  3. H<sub>2</sub>O",
+   "1. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub>  2. NaOH, H<sub>2</sub>O"
+  ],
+  "h": "An alkyne needs two eliminations from the same pair of carbons. How many leaving groups must be placed there, and how strong a base does the second elimination need?",
+  "w": "Br<sub>2</sub> gives the vicinal dibromide (1,2-dibromohexane). Two E2 eliminations with NaNH<sub>2</sub> give the alkyne; the third equivalent deprotonates the terminal alkyne, and water workup reprotonates it: <b>1. Br<sub>2</sub> 2. NaNH<sub>2</sub> (3 equiv) 3. H<sub>2</sub>O</b>. The second elimination (from a vinyl bromide) needs the very strong amide base.",
+  "x": [
+   "",
+   "HBr installs only one leaving group, so only one elimination is possible, which simply gives back hexene.",
+   "Br<sub>2</sub>/H<sub>2</sub>O gives a bromohydrin (only one leaving group); strong base turns it into an epoxide, not an alkyne.",
+   "Hydroxide can at most remove one HBr to give a vinyl bromide; it is not strong enough for the second elimination to the alkyne."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "C=CCCCC"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C#CCCCC"
+   }
+  ]
+ }
+]

@@ -1,0 +1,476 @@
+[
+ {
+  "id": "eas-31",
+  "d": 1,
+  "q": "Excess benzene is treated with 1-chloropropane and AlCl<sub>3</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "c1ccccc1"
+   },
+   {
+    "arrow": "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Cl",
+    "below": "AlCl<sub>3</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)c1ccccc1"
+   },
+   {
+    "smi": "CCCc1ccccc1"
+   },
+   {
+    "smi": "CC(C)c1ccc(C(C)C)cc1"
+   },
+   {
+    "smi": "CC(C)c1ccc(Cl)cc1"
+   }
+  ],
+  "h": "The electrophile is a primary carbocation (or a cation-like complex). What does a primary carbocation do if a hydride shift is available?",
+  "w": "AlCl<sub>3</sub> pulls Cl<sup>−</sup> from 1-chloropropane. The developing primary cation undergoes a <b>1,2-hydride shift</b> to the more stable secondary isopropyl cation, which alkylates the ring: <b>isopropylbenzene (cumene, A)</b> is the major product. Using excess benzene keeps polyalkylation low.",
+  "x": [
+   "",
+   "Propylbenzene forms only as a minor product; the primary electrophile rearranges faster than it is captured. To make propylbenzene, acylate and then reduce.",
+   "Polyalkylation does occur, but a large excess of benzene makes the monoalkylated product the major one.",
+   "The chlorine of the alkyl halide leaves as AlCl<sub>4</sub><sup>−</sup>; it is not transferred to the ring."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-32",
+  "d": 3,
+  "q": "Benzene reacts with 1-chloro-2,2-dimethylpropane (neopentyl chloride) and AlCl<sub>3</sub>. What is the major monoalkylation product?",
+  "s": [
+   {
+    "smi": "CC(C)(C)CCl"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(C)(C)c1ccccc1"
+   },
+   {
+    "smi": "CC(C)(C)Cc1ccccc1"
+   },
+   {
+    "smi": "CC(C)C(C)c1ccccc1"
+   },
+   {
+    "smi": "CCC(C)Cc1ccccc1"
+   }
+  ],
+  "h": "The neopentyl cation has no H on the carbon next to C<sup>+</sup>. What can shift instead, and where does the charge end up?",
+  "w": "Ionization gives a primary (neopentyl) cation. The adjacent carbon is quaternary, so no hydride can shift, but a <b>1,2-methyl shift</b> gives the tertiary 2-methylbutan-2-yl cation, (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>CH<sub>2</sub>CH<sub>3</sub>. That cation alkylates benzene to give <b>(2-methylbutan-2-yl)benzene (<i>tert</i>-pentylbenzene, A)</b>.",
+  "x": [
+   "",
+   "The unrearranged neopentyl product needs the primary electrophile to be captured before it rearranges; the methyl shift to a tertiary cation is much faster.",
+   "The methyl shift gives a tertiary cation; moving on to this secondary attachment would require a further, uphill shift to a less stable cation.",
+   "Placing the ring on a CH<sub>2</sub> with the skeleton rearranged would still require capture at a primary carbon; Friedel–Crafts gives the tertiary attachment."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-33",
+  "d": 1,
+  "q": "Which compound gives no Friedel–Crafts acylation product with CH<sub>3</sub>COCl/AlCl<sub>3</sub>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=[N+]([O-])c1ccccc1"
+   },
+   {
+    "smi": "Cc1ccccc1"
+   },
+   {
+    "smi": "COc1ccccc1"
+   },
+   {
+    "smi": "Brc1ccccc1"
+   }
+  ],
+  "h": "Friedel–Crafts electrophiles are relatively weak. Which ring is too electron-poor to attack them?",
+  "w": "Friedel–Crafts alkylation and acylation fail on rings bearing a <b>strong deactivator</b> (NO<sub>2</sub>, CN, SO<sub>3</sub>H, C=O, NR<sub>3</sub><sup>+</sup>). <b>Nitrobenzene</b> is so unreactive that it is even used as a solvent for Friedel–Crafts reactions. Halobenzenes are only weakly deactivated and do react (bromobenzene gives 4-bromoacetophenone).",
+  "x": [
+   "",
+   "Toluene is activated and is acylated readily, mainly para.",
+   "Anisole is strongly activated and is acylated rapidly at the para position.",
+   "Halogens are weak deactivators; bromobenzene still undergoes Friedel–Crafts acylation, mostly para."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-34",
+  "d": 2,
+  "q": "Aniline gives no Friedel–Crafts alkylation or acylation product with AlCl<sub>3</sub>, even though NH<sub>2</sub> is a strong activator. Why?",
+  "c": [
+   "The basic nitrogen donates its lone pair to AlCl<sub>3</sub>, and the resulting –NH<sub>2</sub><sup>+</sup>–AlCl<sub>3</sub><sup>−</sup> group strongly deactivates the ring",
+   "The NH<sub>2</sub> group is too bulky for the electrophile to reach the ortho and para positions",
+   "Aniline is so reactive that the electrophile adds to every carbon and only polymer forms",
+   "AlCl<sub>3</sub> oxidizes the amino group to a nitro group, which then blocks the reaction"
+  ],
+  "h": "An amine is a Lewis base and AlCl<sub>3</sub> is a Lewis acid. What forms first?",
+  "w": "The amino nitrogen is a better Lewis base than the ring π system, so it coordinates to AlCl<sub>3</sub>. The resulting <b>Lewis acid–base complex puts a formal positive charge on nitrogen</b> and removes its lone pair from resonance, turning the strong activator into a strong deactivator, and it also consumes the catalyst. The same problem stops Friedel–Crafts reactions of alkylamino- and other basic amino-substituted rings.",
+  "x": [
+   "",
+   "The para position is not hindered at all; steric arguments cannot explain a complete failure.",
+   "Highly activated rings can polyalkylate, but aniline gives no ring product because the catalyst is captured by nitrogen.",
+   "AlCl<sub>3</sub> is a Lewis acid, not an oxidizing agent; it does not convert NH<sub>2</sub> to NO<sub>2</sub>."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-35",
+  "d": 2,
+  "q": "Friedel–Crafts alkylation of benzene often gives di- and trialkylated products, but Friedel–Crafts acylation stops cleanly after one substitution. Why?",
+  "c": [
+   "An alkyl group activates the ring, so the product reacts faster than benzene; an acyl group deactivates the ring, so the product reacts more slowly",
+   "Acylium ions are too bulky to approach a ring that already has a substituent, while carbocations are small",
+   "AlCl<sub>3</sub> is consumed in alkylation but regenerated in acylation, so acylation runs out of electrophile",
+   "An acyl group activates the ring but blocks the ortho and para positions sterically, so no further substitution is possible"
+  ],
+  "h": "Compare how an alkyl group and a C=O group change the electron density of the product ring.",
+  "w": "The alkylbenzene product carries an <b>electron-donating alkyl group</b>, so it is more reactive than the starting benzene and competes for the electrophile: polyalkylation. The aryl ketone product carries an <b>electron-withdrawing C=O</b>, so it is less reactive than the starting material, and acylation stops after one group. (In acylation the ketone also ties up a full equivalent of AlCl<sub>3</sub>.)",
+  "x": [
+   "",
+   "Steric bulk is not the reason; para positions are open in both products. The electronic effect of the new group decides.",
+   "It is the reverse: AlCl<sub>3</sub> is catalytic in alkylation, but in acylation it stays bound to the product ketone, so a full equivalent is needed.",
+   "An acyl group is a deactivator (δ+ carbonyl carbon on the ring), not an activator."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-36",
+  "d": 2,
+  "q": "Which sequence is the best way to prepare propylbenzene from benzene?",
+  "s": [
+   {
+    "smi": "c1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCCc1ccccc1"
+   }
+  ],
+  "c": [
+   "1. CH<sub>3</sub>CH<sub>2</sub>COCl, AlCl<sub>3</sub>  2. Zn(Hg), HCl, heat",
+   "1. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Cl, AlCl<sub>3</sub>",
+   "1. CH<sub>3</sub>CH<sub>2</sub>COCl, AlCl<sub>3</sub>  2. NaBH<sub>4</sub>, CH<sub>3</sub>OH",
+   "1. CH<sub>2</sub>=CHCH<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>"
+  ],
+  "h": "A straight three-carbon chain cannot be attached through a primary carbocation. Which electrophile cannot rearrange?",
+  "w": "Direct alkylation with a propyl halide or propene goes through (or toward) a cation that becomes isopropyl, giving cumene. The acylium ion CH<sub>3</sub>CH<sub>2</sub>C≡O<sup>+</sup> does not rearrange, so acylation gives propiophenone, and <b>Clemmensen reduction (Zn(Hg), HCl)</b> converts the aryl C=O into CH<sub>2</sub>, giving propylbenzene. Wolff–Kishner (H<sub>2</sub>NNH<sub>2</sub>, KOH, heat) would work equally well for step 2.",
+  "x": [
+   "",
+   "The primary electrophile rearranges by a hydride shift, so the main product is isopropylbenzene, with polyalkylation as well.",
+   "NaBH<sub>4</sub> reduces the ketone only to the secondary alcohol, 1-phenylpropan-1-ol, not to CH<sub>2</sub>.",
+   "Protonating propene gives the secondary (isopropyl) cation, so this makes cumene."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-37",
+  "d": 3,
+  "q": "Which reagent converts compound X into compound Y in one step?",
+  "s": [
+   {
+    "smi": "CC(=O)c1ccc(C2OCCO2)cc1",
+    "cap": "X"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCc1ccc(C2OCCO2)cc1",
+    "cap": "Y"
+   }
+  ],
+  "c": [
+   "H<sub>2</sub>NNH<sub>2</sub>, KOH, ethylene glycol, heat",
+   "Zn(Hg), HCl, heat",
+   "NaBH<sub>4</sub>, CH<sub>3</sub>OH",
+   "1. LiAlH<sub>4</sub>  2. H<sub>3</sub>O<sup>+</sup>"
+  ],
+  "h": "The ketone must become CH<sub>2</sub>, and the cyclic acetal must survive. Is an acetal stable to acid or to base?",
+  "w": "Turning an aryl ketone C=O into CH<sub>2</sub> calls for Clemmensen (strong acid) or Wolff–Kishner (strong base). The 1,3-dioxolane is an <b>acetal, stable to base but hydrolyzed by aqueous acid</b>. So the <b>Wolff–Kishner reduction (H<sub>2</sub>NNH<sub>2</sub>, KOH, heat)</b> removes the ketone oxygen while the acetal survives.",
+  "x": [
+   "",
+   "Hot aqueous HCl would hydrolyze the acetal to an aldehyde (which Clemmensen conditions could then also reduce), so Y would not be obtained.",
+   "NaBH<sub>4</sub> reduces the ketone only to a secondary alcohol; it cannot remove the oxygen.",
+   "LiAlH<sub>4</sub> also stops at the alcohol, and the aqueous acid workup can hydrolyze the acetal."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-38",
+  "d": 2,
+  "q": "Which sequence is best for making 3-bromoaniline from benzene?",
+  "s": [
+   {
+    "smi": "c1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "Nc1cccc(Br)c1"
+   }
+  ],
+  "c": [
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Br<sub>2</sub>, FeBr<sub>3</sub>  3. Sn, HCl; then NaOH",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Sn, HCl; then NaOH  3. Br<sub>2</sub>, FeBr<sub>3</sub>",
+   "1. Br<sub>2</sub>, FeBr<sub>3</sub>  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  3. Sn, HCl; then NaOH",
+   "1. Br<sub>2</sub>, FeBr<sub>3</sub>  2. NaNH<sub>2</sub>, NH<sub>3</sub>  3. Br<sub>2</sub>, FeBr<sub>3</sub>"
+  ],
+  "h": "The two groups end up meta. Which nitrogen group is a meta director: NO<sub>2</sub> or NH<sub>2</sub>?",
+  "w": "To place Br meta to nitrogen, brominate while nitrogen is still a <b>nitro group (a meta director)</b>, then reduce: nitration gives nitrobenzene, Br<sub>2</sub>/FeBr<sub>3</sub> gives 1-bromo-3-nitrobenzene, and Sn/HCl (then base) reduces NO<sub>2</sub> to NH<sub>2</sub> without touching the aryl bromide.",
+  "x": [
+   "",
+   "Reducing first gives aniline, a powerful ortho/para director that is brominated at the 2-, 4- and 6-positions; it also complexes FeBr<sub>3</sub>.",
+   "Bromobenzene is nitrated ortho/para (Br is an o/p director), so this route leads to 2- and 4-bromoaniline.",
+   "NaNH<sub>2</sub> converts bromobenzene to aniline through benzyne, and aniline is then brominated ortho/para, not meta."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-39",
+  "d": 3,
+  "q": "Which sequence is best for making 4-nitrobenzoic acid from benzene?",
+  "s": [
+   {
+    "smi": "c1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "OC(=O)c1ccc([N+](=O)[O-])cc1"
+   }
+  ],
+  "c": [
+   "1. CH<sub>3</sub>Cl, AlCl<sub>3</sub>  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> (separate the para isomer)  3. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>",
+   "1. CH<sub>3</sub>Cl, AlCl<sub>3</sub>  2. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>  3. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. CH<sub>3</sub>Cl, AlCl<sub>3</sub>  3. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>",
+   "1. CH<sub>3</sub>COCl, AlCl<sub>3</sub>  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  3. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>"
+  ],
+  "h": "CO<sub>2</sub>H is a meta director, but the target is para. Which precursor of CO<sub>2</sub>H directs ortho/para?",
+  "w": "A para relationship needs the nitration to happen while the carbon substituent is still an <b>ortho/para director</b>. Install CH<sub>3</sub> (Friedel–Crafts), nitrate (para isomer separated from ortho), and only then oxidize the benzylic CH<sub>3</sub> to CO<sub>2</sub>H with hot KMnO<sub>4</sub>.",
+  "x": [
+   "",
+   "Oxidizing first gives benzoic acid, a meta director, so nitration then gives 3-nitrobenzoic acid.",
+   "Friedel–Crafts alkylation fails on nitrobenzene, a strongly deactivated ring.",
+   "The acetyl group is a meta director, so nitration of acetophenone gives the 3-nitro isomer."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-40",
+  "d": 3,
+  "q": "Which sequence gives 2-bromotoluene from toluene with the best selectivity?",
+  "s": [
+   {
+    "smi": "Cc1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "Cc1ccccc1Br"
+   }
+  ],
+  "c": [
+   "1. SO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Br<sub>2</sub>, FeBr<sub>3</sub>  3. dilute H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O, heat",
+   "1. Br<sub>2</sub>, FeBr<sub>3</sub>",
+   "1. Br<sub>2</sub>, FeBr<sub>3</sub>  2. SO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  3. dilute H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O, heat",
+   "1. NBS, light, CCl<sub>4</sub>"
+  ],
+  "h": "Bromination of toluene favors para. How can you temporarily occupy the para position with a group that comes off later?",
+  "w": "Sulfonation of toluene goes mainly <b>para</b>. With para blocked, CH<sub>3</sub> directs Br ortho to itself, and SO<sub>3</sub>H (a meta director) points to the same carbon: reinforcing. Because sulfonation is <b>reversible</b>, heating in dilute aqueous acid removes SO<sub>3</sub>H, leaving 2-bromotoluene. This is the classic <b>blocking-group</b> strategy.",
+  "x": [
+   "",
+   "Direct bromination gives mostly 4-bromotoluene; 2-bromotoluene is the minor isomer.",
+   "Bromine goes on first (mostly para), so the blocking group arrives too late to help; the final product is still mostly the 4-bromo isomer.",
+   "NBS with light brominates the benzylic CH<sub>3</sub> (giving benzyl bromide), not the ring."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-41",
+  "d": 3,
+  "q": "Which sequence is best for making 1-bromo-3-propylbenzene from benzene?",
+  "s": [
+   {
+    "smi": "c1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCCc1cccc(Br)c1"
+   }
+  ],
+  "c": [
+   "1. CH<sub>3</sub>CH<sub>2</sub>COCl, AlCl<sub>3</sub>  2. Br<sub>2</sub>, FeBr<sub>3</sub>  3. Zn(Hg), HCl, heat",
+   "1. Br<sub>2</sub>, FeBr<sub>3</sub>  2. CH<sub>3</sub>CH<sub>2</sub>COCl, AlCl<sub>3</sub>  3. Zn(Hg), HCl, heat",
+   "1. CH<sub>3</sub>CH<sub>2</sub>COCl, AlCl<sub>3</sub>  2. Zn(Hg), HCl, heat  3. Br<sub>2</sub>, FeBr<sub>3</sub>",
+   "1. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Cl, AlCl<sub>3</sub>  2. Br<sub>2</sub>, FeBr<sub>3</sub>"
+  ],
+  "h": "An alkyl group is ortho/para-directing, but the target is meta. What could the propyl group be while the bromine goes on?",
+  "w": "The propyl chain must come from acylation (no rearrangement). The acyl group is a <b>meta director</b>, so brominate while it is still a ketone, giving 1-(3-bromophenyl)propan-1-one; then <b>Clemmensen reduction</b> turns C=O into CH<sub>2</sub>. The order <b>acylate → brominate → reduce</b> uses the ketone's directing effect before it is removed.",
+  "x": [
+   "",
+   "Bromobenzene is acylated para (Br is an o/p director), giving the 4-bromo isomer.",
+   "Reducing first gives propylbenzene, an ortho/para director, so bromination gives 2- and 4-bromopropylbenzene.",
+   "The propyl cation rearranges to isopropyl, and an alkyl group directs o/p anyway, so the meta target is not formed."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-42",
+  "d": 1,
+  "q": "Which reagent does <b>not</b> reduce nitrobenzene to aniline?",
+  "c": [
+   "NaBH<sub>4</sub>, ethanol",
+   "Sn, HCl; then NaOH",
+   "H<sub>2</sub>, Pd/C",
+   "Fe, HCl; then NaOH"
+  ],
+  "h": "Three of these are standard nitro reductions: a dissolving metal in acid, or catalytic hydrogenation.",
+  "w": "Aryl nitro groups are reduced to amines by <b>metals in acid</b> (Sn/HCl, Fe/HCl, Zn/HCl; then base to free the amine from its ammonium salt) or by <b>catalytic hydrogenation</b> (H<sub>2</sub>, Pd/C or Pt). <b>NaBH<sub>4</sub></b> is a mild hydride donor for aldehydes and ketones; it does not reduce an aryl nitro group under ordinary conditions.",
+  "x": [
+   "",
+   "Tin in HCl is the classic nitro-to-amine reduction; NaOH frees the amine from the anilinium salt.",
+   "Catalytic hydrogenation reduces NO<sub>2</sub> to NH<sub>2</sub> cleanly (it would also reduce alkenes if present).",
+   "Iron in acid is the cheap industrial method for reducing nitroarenes."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-43",
+  "d": 3,
+  "q": "Which sequence is best for making 4-chloro-3-nitrobenzoic acid from toluene?",
+  "s": [
+   {
+    "smi": "Cc1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "OC(=O)c1ccc(Cl)c([N+](=O)[O-])c1"
+   }
+  ],
+  "c": [
+   "1. Cl<sub>2</sub>, FeCl<sub>3</sub> (separate the para isomer)  2. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>  3. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>",
+   "1. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>  2. Cl<sub>2</sub>, FeCl<sub>3</sub>  3. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> (separate the para isomer)  2. Cl<sub>2</sub>, FeCl<sub>3</sub>  3. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>",
+   "1. Cl<sub>2</sub>, FeCl<sub>3</sub> (separate the para isomer)  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  3. Zn(Hg), HCl, heat"
+  ],
+  "h": "Cl and CO<sub>2</sub>H are para to each other, and NO<sub>2</sub> is ortho to Cl but meta to CO<sub>2</sub>H. Which group should be in place when the nitro group goes on?",
+  "w": "Chlorinate toluene (CH<sub>3</sub> directs para) to get 4-chlorotoluene; oxidize CH<sub>3</sub> to CO<sub>2</sub>H to get 4-chlorobenzoic acid. Now nitrate: Cl directs ortho to itself and CO<sub>2</sub>H directs meta to itself, and <b>both point to the same carbon</b>, so nitration cleanly gives <b>4-chloro-3-nitrobenzoic acid</b>. Planning so that the last EAS step has reinforcing directors is the key.",
+  "x": [
+   "",
+   "Oxidizing first gives benzoic acid, a meta director, so chlorine goes meta: the Cl and CO<sub>2</sub>H would end up 1,3, not 1,4.",
+   "4-Nitrotoluene is chlorinated ortho to CH<sub>3</sub> (meta to NO<sub>2</sub>), and oxidation then gives 2-chloro-4-nitrobenzoic acid, not the target.",
+   "Zn(Hg)/HCl does not oxidize CH<sub>3</sub> to CO<sub>2</sub>H (it is a reducing agent), so the product is not a carboxylic acid."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-44",
+  "d": 2,
+  "q": "What is the major product when 4-phenylbutanoyl chloride is treated with AlCl<sub>3</sub>?",
+  "s": [
+   {
+    "smi": "O=C(Cl)CCCc1ccccc1"
+   },
+   {
+    "arrow": "AlCl<sub>3</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C1CCCc2ccccc21"
+   },
+   {
+    "smi": "CC1Cc2ccccc2C1=O"
+   },
+   {
+    "smi": "CC1CC(=O)c2ccccc12"
+   },
+   {
+    "smi": "O=C(C1CC1)c1ccccc1"
+   }
+  ],
+  "h": "The acylium ion and the ring are in the same molecule. Count the atoms in the ring that closes.",
+  "w": "AlCl<sub>3</sub> converts the acid chloride into an acylium ion, which is attacked by the ortho carbon of its own phenyl ring (intramolecular Friedel–Crafts acylation). The new ring contains the carbonyl carbon, three CH<sub>2</sub> groups and two aromatic carbons: a <b>six-membered ring, α-tetralone</b>. Acylium ions do not rearrange, so the chain stays unbranched.",
+  "x": [
+   "",
+   "A five-membered ring with a methyl branch would require the chain to rearrange; acylium ions do not rearrange and the chain is unbranched.",
+   "This indanone also has a branched carbon skeleton that the starting chain cannot give without rearrangement.",
+   "A cyclopropyl ketone would need a C–C bond between the chain carbons, not an attack by the aromatic ring."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-45",
+  "d": 2,
+  "q": "Which combination can <b>not</b> serve as a Friedel–Crafts alkylating agent for benzene?",
+  "c": [
+   "CH<sub>2</sub>=CHCl, AlCl<sub>3</sub>",
+   "(CH<sub>3</sub>)<sub>2</sub>CHCl, AlCl<sub>3</sub>",
+   "(CH<sub>3</sub>)<sub>2</sub>C=CH<sub>2</sub>, H<sub>2</sub>SO<sub>4</sub>",
+   "(CH<sub>3</sub>)<sub>3</sub>COH, H<sub>3</sub>PO<sub>4</sub>"
+  ],
+  "h": "Every Friedel–Crafts alkylation needs a carbocation (or a cation-like complex). Which halide would have to make an sp<sup>2</sup> carbocation?",
+  "w": "Carbocation sources for Friedel–Crafts alkylation include alkyl halides + Lewis acid, alkenes + strong acid, and alcohols + strong acid. <b>Vinyl (and aryl) halides do not work</b>: ionizing an sp<sup>2</sup> C–Cl bond would give a very unstable vinyl cation, and the C–Cl bond is strengthened by partial double-bond character.",
+  "x": [
+   "",
+   "2-Chloropropane and AlCl<sub>3</sub> give the isopropyl cation (complex), which alkylates benzene to cumene.",
+   "Protonating isobutylene gives the <i>tert</i>-butyl cation, which alkylates benzene readily.",
+   "Protonated <i>tert</i>-butyl alcohol loses water to give the <i>tert</i>-butyl cation, a good Friedel–Crafts electrophile."
+  ],
+  "t": "eas",
+  "k": 0
+ }
+]

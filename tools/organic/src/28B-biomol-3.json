@@ -1,0 +1,453 @@
+[
+ {
+  "id": "biomol-31",
+  "t": "biomol",
+  "d": 1,
+  "k": 0,
+  "q": "In peptide synthesis, what is the role of dicyclohexylcarbodiimide (DCC, shown)?",
+  "s": [
+   {
+    "smi": "C1CCC(CC1)N=C=NC1CCCCC1"
+   }
+  ],
+  "c": [
+   "It activates the carboxyl group as an <i>O</i>-acylisourea, a good acylating agent",
+   "It deprotonates the amine so it becomes a stronger nucleophile",
+   "It protects the N-terminal amine so it cannot react twice",
+   "It reduces the carboxylic acid to an aldehyde that then forms an imine"
+  ],
+  "h": "A carboxylic acid and an amine just form a salt. What does a coupling reagent do to the COOH?",
+  "w": "The carboxylic acid adds across a C=N of DCC to give an <b><i>O</i>-acylisourea</b>, in which the acyl group carries a good leaving group. The amine then attacks the acyl carbon (nucleophilic acyl substitution), forming the amide and releasing dicyclohexylurea (DCU). DCC is a dehydrating agent: the water lost in forming the amide ends up in DCU.",
+  "x": [
+   "",
+   "DCC is not a base. Without activation the acid and amine only form an ammonium carboxylate salt.",
+   "N-terminal protection is the job of Boc, Fmoc or Cbz groups, not DCC.",
+   "DCC is not a reducing agent, and peptide bonds are amides, not imines."
+  ]
+ },
+ {
+  "id": "biomol-32",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Which route gives the dipeptide Ala-Gly (shown) selectively?",
+  "s": [
+   {
+    "smi": "C[C@H](N)C(=O)NCC(=O)O",
+    "cap": "Ala-Gly"
+   }
+  ],
+  "c": [
+   "Couple Boc-Ala with Gly-OCH<sub>3</sub> (DCC); then TFA; then NaOH, H<sub>2</sub>O",
+   "Couple Ala-OCH<sub>3</sub> with Boc-Gly (DCC); then TFA; then NaOH, H<sub>2</sub>O",
+   "Couple Boc-Ala with Boc-Gly (DCC); then TFA",
+   "Couple Ala with Gly (DCC) in one step; no protecting groups"
+  ],
+  "h": "Ala-Gly means alanine is the N-terminal residue: the Ala carboxyl must be the one activated, and the Gly amine the one that attacks.",
+  "w": "In Ala-Gly the amide is made from the Ala COOH and the Gly NH<sub>2</sub>. So the Ala amine must be blocked (Boc) and its COOH left free for DCC activation, while the Gly carboxyl is blocked (methyl ester) and its amine left free. After coupling, TFA removes Boc and NaOH hydrolyzes the methyl ester, giving <b>Ala-Gly</b> only.",
+  "x": [
+   "",
+   "This activates the Gly carboxyl and lets the Ala amine attack, which gives Gly-Ala, the wrong sequence.",
+   "Both amines are blocked, so there is no nucleophile to attack the activated carboxyl. No peptide bond forms.",
+   "With both partners unprotected, either amine can attack either activated acid. The result is Ala-Ala, Ala-Gly, Gly-Ala, Gly-Gly and longer chains."
+  ]
+ },
+ {
+  "id": "biomol-33",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Fmoc-alanine is shown. Which reagent removes the Fmoc group while leaving Boc groups and <i>tert</i>-butyl esters intact?",
+  "s": [
+   {
+    "smi": "C[C@H](NC(=O)OCC1c2ccccc2-c2ccccc21)C(=O)O"
+   }
+  ],
+  "c": [
+   "Piperidine in DMF",
+   "Trifluoroacetic acid in CH<sub>2</sub>Cl<sub>2</sub>",
+   "Anhydrous HF",
+   "H<sub>3</sub>O<sup>+</sup>, heat"
+  ],
+  "h": "Fmoc is the base-labile group. The fluorene C9–H is unusually acidic. Why?",
+  "w": "Removing the C9–H of the fluorene gives an aromatic anion (a cyclopentadienyl-type 6π ring fused to two benzene rings). A mild amine base, <b>piperidine</b>, removes that proton, and the carbamate is eliminated (E1cB) to give dibenzofulvene, CO<sub>2</sub> and the free amine. Boc and <i>t</i>-Bu esters are cleaved only by acid, so they survive. This orthogonality is the basis of Fmoc/<i>t</i>-Bu solid-phase synthesis.",
+  "x": [
+   "",
+   "TFA is the acid that removes Boc and <i>t</i>-Bu esters. It is the reagent that would destroy the groups we want to keep.",
+   "HF is an even stronger acid. It removes Boc, <i>t</i>-Bu and benzyl groups and cleaves peptides from Merrifield resin.",
+   "Hot aqueous acid cleaves Boc and <i>t</i>-Bu groups and also hydrolyzes amide (peptide) bonds."
+  ]
+ },
+ {
+  "id": "biomol-34",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "The tripeptide Ala-Leu-Gly undergoes one cycle of Edman degradation (1. PhN=C=S, base 2. CF<sub>3</sub>COOH 3. aqueous acid). Which compound is identified by chromatography?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1NC(=S)N(c2ccccc2)C1=O"
+   },
+   {
+    "smi": "O=C1CNC(=S)N1c1ccccc1"
+   },
+   {
+    "smi": "CC(NC(=S)Nc1ccccc1)C(=O)O"
+   },
+   {
+    "smi": "CC1NC(=O)N(c2ccccc2)C1=O"
+   }
+  ],
+  "h": "Phenyl isothiocyanate reacts with the free N-terminal amine. The released residue is converted to a stable five-membered heterocycle that still contains sulfur.",
+  "w": "PhN=C=S adds to the N-terminal NH<sub>2</sub> (Ala) to give a phenylthiourea. In acid, the thiourea sulfur attacks the neighboring amide C=O, cleaving off only the first residue as an anilinothiazolinone. Aqueous acid then rearranges it to the stable <b>phenylthiohydantoin (PTH) of alanine</b>, which is identified by HPLC. Leu-Gly remains for the next cycle.",
+  "x": [
+   "",
+   "This is PTH-glycine. Glycine is the C-terminal residue; Edman removes residues from the N-terminus.",
+   "This phenylthiocarbamoyl (PTC) amino acid is only a short-lived intermediate of the aqueous-acid step; it cyclizes to the PTH, which is the stable compound identified.",
+   "This is a phenylhydantoin (C=O instead of C=S). The sulfur from PhN=C=S is retained, so the product is a thiohydantoin."
+  ]
+ },
+ {
+  "id": "biomol-35",
+  "t": "biomol",
+  "d": 3,
+  "k": 0,
+  "q": "A heptapeptide gives the data below. Trypsin cleaves on the C-terminal side of Lys and Arg; chymotrypsin cleaves on the C-terminal side of Phe, Tyr and Trp. What is the sequence?",
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Experiment",
+     "Result"
+    ],
+    "rows": [
+     [
+      "Edman, first cycle",
+      "PTH-Gly"
+     ],
+     [
+      "Trypsin fragments",
+      "Ala-Tyr-Arg; Leu; Gly-Phe-Lys"
+     ],
+     [
+      "Chymotrypsin fragments",
+      "Lys-Ala-Tyr; Arg-Leu; Gly-Phe"
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "Gly-Phe-Lys-Ala-Tyr-Arg-Leu",
+   "Gly-Phe-Lys-Leu-Ala-Tyr-Arg",
+   "Gly-Phe-Arg-Ala-Tyr-Lys-Leu",
+   "Gly-Phe-Lys-Arg-Leu-Ala-Tyr"
+  ],
+  "h": "Start with the N-terminal fragment and then use the overlapping fragments from the other enzyme to decide which piece comes next.",
+  "w": "Gly is N-terminal, so the trypsin fragment Gly-Phe-Lys comes first. The chymotrypsin fragment Lys-Ala-Tyr shows Ala-Tyr follows Lys, so trypsin's Ala-Tyr-Arg is next. Arg-Leu (chymotrypsin) places Leu last, and the single Leu from trypsin confirms it is the C-terminus. Sequence: <b>Gly-Phe-Lys-Ala-Tyr-Arg-Leu</b>.",
+  "x": [
+   "",
+   "Trypsin would cut this after Lys to give a Leu-Ala-Tyr-Arg fragment, and chymotrypsin would give Lys-Leu-Ala-Tyr. Neither was observed.",
+   "Trypsin would give Gly-Phe-Arg and Ala-Tyr-Lys; the observed fragments have Lys third and Arg sixth.",
+   "Trypsin would release Arg as a single residue and give Leu-Ala-Tyr, not Ala-Tyr-Arg."
+  ]
+ },
+ {
+  "id": "biomol-36",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Before sequencing, a protein is treated first with HSCH<sub>2</sub>CH<sub>2</sub>OH (excess) and then with ICH<sub>2</sub>COOH. What does the iodoacetic acid step accomplish?",
+  "s": [
+   {
+    "smi": "N[C@@H](CSSC[C@H](N)C(=O)O)C(=O)O",
+    "cap": "cystine (disulfide)"
+   }
+  ],
+  "c": [
+   "It alkylates the free Cys thiols by S<sub>N</sub>2, so the disulfides cannot re-form",
+   "It oxidizes the free thiols to sulfonic acids so they cannot be oxidized again",
+   "It cleaves the peptide chain on the C-terminal side of each Cys",
+   "It reduces the remaining disulfide bonds that the thiol did not break"
+  ],
+  "h": "2-Mercaptoethanol has already reduced S–S to two –SH groups. What happens to those –SH groups if they are left alone in air?",
+  "w": "2-Mercaptoethanol reduces each disulfide (thiol–disulfide exchange) to two Cys–SH groups. Those thiols would be reoxidized by air to disulfides. A thiolate is an excellent nucleophile and displaces iodide from ICH<sub>2</sub>COOH in an <b>S<sub>N</sub>2 reaction</b>, giving stable Cys–S–CH<sub>2</sub>COOH (carboxymethylcysteine). Capping the thiols this way prevents the disulfides from re-forming.",
+  "x": [
+   "",
+   "Oxidation to sulfonic acids (cysteic acid) is done with performic acid. Iodoacetic acid is an alkylating agent, not an oxidant.",
+   "Iodoacetic acid does not cut peptide bonds; chain cleavage needs a protease or BrCN (at Met).",
+   "Iodoacetic acid cannot reduce S–S bonds. The reducing agent here is the excess 2-mercaptoethanol."
+  ]
+ },
+ {
+  "id": "biomol-37",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Rank these C<sub>18</sub> fatty acids from lowest to highest melting point.",
+  "s": [
+   {
+    "smi": "CCCCCCCCCCCCCCCCCC(=O)O",
+    "cap": "I"
+   },
+   {
+    "smi": "CCCCCCCC/C=C\\CCCCCCCC(=O)O",
+    "cap": "II"
+   },
+   {
+    "smi": "CCCCCCCC/C=C/CCCCCCCC(=O)O",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "II &lt; III &lt; I",
+   "III &lt; II &lt; I",
+   "I &lt; III &lt; II",
+   "II &lt; I &lt; III"
+  ],
+  "h": "Melting requires breaking London forces between packed chains. Which shape packs best: straight, slightly kinked, or sharply bent?",
+  "w": "Stearic acid (I) is a fully extended saturated chain that packs tightly (mp about 70 °C). Elaidic acid (III, <i>E</i>) has a double bond, but the trans geometry keeps the chain nearly straight (mp about 45 °C). Oleic acid (II, <i>Z</i>) has a 30° kink that disrupts packing (mp about 13 °C). Lowest to highest: <b>II &lt; III &lt; I</b>.",
+  "x": [
+   "",
+   "The <i>Z</i> (cis) acid, not the <i>E</i>, has the kink that disrupts packing, so II melts lower than III.",
+   "This is the order reversed. Fewer contacts between kinked chains mean a lower melting point.",
+   "The trans acid cannot pack better than the saturated chain: a C=C still shortens and stiffens part of the chain, so I melts highest."
+  ]
+ },
+ {
+  "id": "biomol-38",
+  "t": "biomol",
+  "d": 1,
+  "k": 0,
+  "q": "The triglyceride shown is heated with aqueous NaOH. What are the products?",
+  "s": [
+   {
+    "smi": "CCCCCCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCC/C=C\\CCCCCCCC)COC(=O)CCCCCCCCCCCCCCC"
+   }
+  ],
+  "c": [
+   "Glycerol, 2 sodium palmitate and 1 sodium oleate",
+   "Glycerol, 2 palmitic acid and 1 oleic acid",
+   "Glycerol and 3 sodium palmitate",
+   "Glycerol, 2 methyl palmitate and 1 methyl oleate"
+  ],
+  "h": "Saponification is base hydrolysis of all three esters. In what form does each fatty acid come out in excess NaOH?",
+  "w": "Hydroxide attacks each ester C=O (nucleophilic acyl substitution). The carboxylic acid that forms is immediately deprotonated by the base, so the products are <b>glycerol plus the sodium carboxylates</b>: two sodium palmitate (C<sub>16</sub>, saturated, from C1 and C3) and one sodium oleate (C<sub>18</sub>, <i>Z</i>, from C2). The carboxylates are soaps.",
+  "x": [
+   "",
+   "Free fatty acids form only if the mixture is acidified afterward. In NaOH they are carboxylate salts.",
+   "The middle chain has 18 carbons and a <i>Z</i> C=C: it is oleate, not a third palmitate.",
+   "Methyl esters come from transesterification with CH<sub>3</sub>OH (biodiesel), not from aqueous NaOH."
+  ]
+ },
+ {
+  "id": "biomol-39",
+  "t": "biomol",
+  "d": 3,
+  "k": 0,
+  "q": "Partial catalytic hydrogenation (H<sub>2</sub>, Ni) of a vegetable oil leaves some C=C bonds, and many of them are now <i>E</i> (trans) although every C=C in the oil was <i>Z</i>. What explains the isomerization?",
+  "c": [
+   "Adding one H gives a surface-bound alkyl that can lose an H again, re-forming the C=C as the more stable <i>E</i> isomer",
+   "H<sub>2</sub> adds anti across the C=C, and the anti addition product eliminates to give the <i>E</i> alkene",
+   "The nickel catalyst oxidizes the C=C to an epoxide, which opens and closes to the <i>E</i> alkene",
+   "Heat alone rotates the C=C bond, because the π bond is weakened by the ester group"
+  ],
+  "h": "Hydrogenation on a metal surface adds the two H atoms one at a time, and the steps are reversible.",
+  "w": "On the metal surface the alkene adds one H to give a half-hydrogenated alkyl. If the second H does not arrive, the step can reverse: β-hydrogen loss can remove an H from either neighboring carbon, and the C–C single bond can rotate first. The re-formed alkene can therefore be the more stable <b><i>E</i> isomer</b> or a positional isomer. This is the source of trans fats in partially hydrogenated oils.",
+  "x": [
+   "",
+   "Catalytic hydrogenation is a syn addition on the metal surface, and its alkane product cannot eliminate back to an alkene under these conditions.",
+   "H<sub>2</sub>/Ni is reducing; no epoxide forms.",
+   "Thermal cis/trans rotation of an isolated C=C needs breaking the π bond (about 65 kcal/mol), which does not happen at hydrogenation temperatures, and the ester is too far away to matter."
+  ]
+ },
+ {
+  "id": "biomol-40",
+  "t": "biomol",
+  "d": 1,
+  "k": 0,
+  "q": "Farnesol (shown) is a terpene. How many isoprene units does it contain, and what class of terpene is it?",
+  "s": [
+   {
+    "smi": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CO"
+   }
+  ],
+  "c": [
+   "3 units; sesquiterpene",
+   "2 units; monoterpene",
+   "4 units; diterpene",
+   "3 units; triterpene"
+  ],
+  "h": "Count carbons. Each isoprene unit has 5, and a monoterpene (C<sub>10</sub>) has two.",
+  "w": "Farnesol is C<sub>15</sub>H<sub>26</sub>O, so it contains 15/5 = <b>3 isoprene units</b> joined head to tail. Terpene classes count C<sub>10</sub> units: monoterpene C<sub>10</sub>, sesquiterpene C<sub>15</sub> (1½ × C<sub>10</sub>), diterpene C<sub>20</sub>, triterpene C<sub>30</sub>. Farnesol is a <b>sesquiterpene</b>.",
+  "x": [
+   "",
+   "A monoterpene has 10 carbons (2 units), such as geraniol or limonene. Farnesol has 15.",
+   "A diterpene has 20 carbons, such as retinol or phytol.",
+   "'Tri' in triterpene counts C<sub>10</sub> units: three of them make C<sub>30</sub> (six isoprene units), such as squalene."
+  ]
+ },
+ {
+  "id": "biomol-41",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "How many stereocenters does cholesterol (shown) have, and what is the maximum number of stereoisomers with this constitution?",
+  "s": [
+   {
+    "smi": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C"
+   }
+  ],
+  "c": [
+   "8 stereocenters; 256 stereoisomers",
+   "6 stereocenters; 64 stereoisomers",
+   "7 stereocenters; 128 stereoisomers",
+   "8 stereocenters; 16 stereoisomers"
+  ],
+  "h": "Check every sp<sup>3</sup> ring-fusion carbon, including the two quaternary ones that carry methyl groups, and the side chain.",
+  "w": "The stereocenters are C3 (OH), C8, C9, C14 (ring-fusion CH), C10 and C13 (quaternary ring-fusion carbons bearing the angular methyls), C17 (side-chain attachment) and C20 (in the side chain). That is <b>8</b>, so the maximum is 2<sup>8</sup> = <b>256</b> stereoisomers (no meso forms are possible). Nature makes only one.",
+  "x": [
+   "",
+   "Six misses the two quaternary ring-fusion carbons, C10 and C13. A quaternary carbon is a stereocenter when its four groups differ.",
+   "Seven usually misses C20 in the side chain, which carries H, CH<sub>3</sub>, the ring and the C<sub>5</sub> chain.",
+   "2 × 8 = 16 confuses addition with powers. Each stereocenter doubles the count, so it is 2<sup><i>n</i></sup>."
+  ]
+ },
+ {
+  "id": "biomol-42",
+  "t": "biomol",
+  "d": 3,
+  "k": 0,
+  "q": "In adenine (9<i>H</i> tautomer, shown), which tagged ring nitrogen(s) contribute their lone pair to the aromatic π system?",
+  "s": [
+   {
+    "smi": "Nc1[n:3]cnc2[nH:1]c[n:2]c12"
+   }
+  ],
+  "c": [
+   "<i>a</i> only",
+   "<i>b</i> only",
+   "<i>a</i> and <i>b</i>",
+   "<i>a</i>, <i>b</i> and <i>c</i>"
+  ],
+  "h": "A ring N already in a ring double bond keeps its lone pair in the plane (pyridine-like). An N–H with only single ring bonds donates its lone pair (pyrrole-like).",
+  "w": "N<i>b</i> (N7) and N<i>c</i> (N1) each sit in a ring C=N; their π electron is in the double bond, and their lone pairs are in sp<sup>2</sup> orbitals in the ring plane, pointing out (pyridine-like, basic and H-bond acceptors). N<i>a</i> (N9–H) has only σ bonds in the ring, so its lone pair is in a p orbital and is part of the π system (pyrrole-like). With it the bicyclic purine has 10 π electrons (4<i>n</i> + 2, <i>n</i> = 2). Answer: <b><i>a</i> only</b>.",
+  "x": [
+   "",
+   "N<i>b</i> (N7) is pyridine-like: its lone pair is in the ring plane, which is why N7 accepts H bonds and gets alkylated.",
+   "Only the N–H nitrogen donates its pair. Counting N<i>b</i>'s lone pair too would give 12 π electrons.",
+   "N<i>c</i> (N1) is also pyridine-like. In an A·T pair its in-plane lone pair accepts the H bond from thymine N3–H."
+  ]
+ },
+ {
+  "id": "biomol-43",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "Which tautomer of thymine predominates in water and in DNA, where it pairs with adenine?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Cc1c[nH]c(=O)[nH]c1=O"
+   },
+   {
+    "smi": "Cc1c[nH]c(=O)nc1O"
+   },
+   {
+    "smi": "Cc1cnc(O)[nH]c1=O"
+   },
+   {
+    "smi": "Cc1cnc(O)nc1O"
+   }
+  ],
+  "h": "Compare amide (lactam) with imidic acid (lactim), the N analog of keto vs enol. Which is more stable for 2-pyridone-type rings?",
+  "w": "Like simple amides and 2-pyridone, thymine strongly prefers the <b>lactam</b> (diketo) tautomer A, with two C=O groups and two N–H groups. The C=O bond and amide resonance make it far more stable than the lactim (enol-like) forms. In the A·T pair, thymine N3–H donates to adenine N1, and thymine C4=O accepts from adenine's 6-NH<sub>2</sub>. The rare enol tautomers change the donor/acceptor pattern and can cause mispairing (with G).",
+  "x": [
+   "",
+   "This 4-lactim has C4–OH and no N3–H. It is a rare tautomer whose donor/acceptor pattern pairs with guanine, a source of mutations.",
+   "This 2-lactim (C2–OH, no N1–H) is a minor tautomer; the lactam C=O is much more stable.",
+   "The dilactim has no amide C=O groups at all. Lactim (C=N–OH) forms are much less stable than lactams, so it is a very minor tautomer in water."
+  ]
+ },
+ {
+  "id": "biomol-44",
+  "t": "biomol",
+  "d": 2,
+  "k": 0,
+  "q": "A Watson–Crick G·C base pair has three hydrogen bonds. In how many of them is guanine the H-bond donor (supplies the N–H)?",
+  "s": [
+   {
+    "smi": "Nc1nc2[nH]cnc2c(=O)[nH]1",
+    "cap": "guanine"
+   },
+   {
+    "smi": "Nc1cc[nH]c(=O)n1",
+    "cap": "cytosine"
+   }
+  ],
+  "c": [
+   "Two",
+   "One",
+   "Three",
+   "None"
+  ],
+  "h": "List the edge facing the partner for each base: guanine has O6, N1–H and the 2-NH<sub>2</sub>; cytosine has the 4-NH<sub>2</sub>, N3 and O2.",
+  "w": "Guanine's Watson–Crick edge is C6=O (acceptor), N1–H (donor) and 2-NH<sub>2</sub> (donor). Cytosine's edge is 4-NH<sub>2</sub> (donor), N3 (acceptor, pyridine-like lone pair) and C2=O (acceptor). The pairs are G O6···H–N4 C, G N1–H···N3 C and G N2–H···O2 C. Guanine donates in <b>two</b>.",
+  "x": [
+   "",
+   "Only one H bond has cytosine as the donor (its 4-NH<sub>2</sub> to guanine O6); guanine donates in the other two.",
+   "Cytosine's 4-NH<sub>2</sub> donates to guanine O6, so guanine cannot be the donor in all three.",
+   "Guanine's N1–H and 2-NH<sub>2</sub> both point at cytosine acceptors (N3 and O2)."
+  ]
+ },
+ {
+  "id": "biomol-45",
+  "t": "biomol",
+  "d": 3,
+  "k": 0,
+  "q": "Dilute NaOH at room temperature cleaves RNA into nucleotides but leaves DNA intact. The two sugars are shown. What is the main reason?",
+  "f": [
+   {
+    "type": "haworth",
+    "items": [
+     {
+      "sugar": "ribose",
+      "anomer": "b",
+      "nums": true,
+      "cap": "ribose (RNA)"
+     },
+     {
+      "sugar": "deoxyribose",
+      "anomer": "b",
+      "nums": true,
+      "cap": "2-deoxyribose (DNA)"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "The ribose 2'-O<sup>−</sup> attacks the adjacent phosphorus intramolecularly, forming a 2',3'-cyclic phosphate and breaking the chain",
+   "RNA is single-stranded, so hydroxide reaches its phosphates; the DNA double helix blocks them",
+   "Uracil in RNA is a better leaving group than thymine, so the N-glycosidic bond breaks",
+   "Ribose is a pyranose in RNA, and its ring opens in base to give a reactive aldehyde"
+  ],
+  "h": "Compare the two sugars at C2. What nucleophile sits right next to the 3'-phosphodiester in RNA but not in DNA?",
+  "w": "In RNA the 2'-OH is next to the 3'-phosphodiester. Base deprotonates it, and the 2'-alkoxide attacks phosphorus intramolecularly (a fast five-membered-ring cyclization), displacing the 5'-O of the next nucleotide. The 2',3'-cyclic phosphate then hydrolyzes to 2'- and 3'-phosphates. DNA lacks the <b>2'-OH</b>, so it has no internal nucleophile, and intermolecular attack of hydroxide on a phosphodiester anion is extremely slow.",
+  "x": [
+   "",
+   "Single-stranded DNA is also stable in dilute base, so strandedness is not the reason; the internal nucleophile is.",
+   "Base hydrolysis cleaves phosphodiester bonds, not N-glycosidic bonds, and the bases do not act as leaving groups here.",
+   "Ribose in RNA is a furanose (five-membered ring), and its C1' is an N-glycoside that does not open in base."
+  ]
+ }
+]

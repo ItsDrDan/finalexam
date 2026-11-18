@@ -1,0 +1,463 @@
+[
+ {
+  "id": "ab-16",
+  "t": "acidbase",
+  "q": "Acetone is deprotonated at an α-carbon. Which structure is the <b>major</b> resonance contributor of the resulting anion?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Draw both resonance forms of the anion. Which atom is better at carrying a negative charge?",
+  "w": "The enolate has two resonance forms: one with the charge on the α-carbon and one with the charge on oxygen and a C=C bond. Both have full octets, so the better contributor is the one with the negative charge on the <b>more electronegative atom, oxygen</b>. That oxyanion form is the major contributor, which is why the α-H of a ketone (pK<sub>a</sub> ≈ 19–20) is far more acidic than an alkane C–H.",
+  "x": [
+   "",
+   "This carbanion form is a real resonance contributor of the enolate, but a minor one: carbon is less able than oxygen to carry the negative charge.",
+   "This neutral enol is a tautomer of acetone (a different compound with an O–H bond), not a resonance form of the anion.",
+   "This is the isopropoxide ion, the conjugate base of 2-propanol; forming it would need a hydride added to the carbonyl, not removal of an α-proton."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "C=C(C)[O-]"
+   },
+   {
+    "smi": "[CH2-]C(C)=O"
+   },
+   {
+    "smi": "C=C(C)O"
+   },
+   {
+    "smi": "CC(C)[O-]"
+   }
+  ]
+ },
+ {
+  "id": "ab-17",
+  "t": "acidbase",
+  "q": "Acetic acid (pK<sub>a</sub> 4.8) is about 10<sup>11</sup> times more acidic than ethanol (pK<sub>a</sub> 16). What is the main reason?",
+  "c": [
+   "In acetate the negative charge is delocalized by resonance over two oxygen atoms.",
+   "The methyl group of acetic acid donates electrons and weakens the O–H bond.",
+   "The acidic oxygen of acetic acid is sp-hybridized, so it holds the charge closer to the nucleus.",
+   "Inductive withdrawal by the carbonyl group alone; resonance plays no part in acetate."
+  ],
+  "h": "Both acids lose a proton from oxygen. Compare how the negative charge is distributed in acetate and in ethoxide.",
+  "w": "In both conjugate bases the charge starts on oxygen (same atom), so the difference comes from <b>resonance</b>: acetate spreads its charge equally over <b>two oxygens</b> (both C–O bonds are the same length), whereas ethoxide holds it on one oxygen. The carbonyl group's inductive withdrawal adds a smaller contribution.",
+  "x": [
+   "",
+   "Alkyl groups are weakly electron-donating, which would destabilize the anion and make the acid weaker, not stronger; ethanol has an alkyl group too.",
+   "The OH oxygen of acetic acid is not sp-hybridized; in acetate both oxygens share the charge through a conjugated system. Orbital (hybridization) arguments apply to C–H acids such as alkynes.",
+   "Induction contributes, but the main factor is resonance; the two C–O bonds of acetate are identical in length, which shows the charge is shared."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "ab-18",
+  "t": "acidbase",
+  "q": "Rank compounds I–IV from <b>most basic to least basic</b> (as Brønsted bases in water).",
+  "c": [
+   "II &gt; IV &gt; III &gt; I",
+   "IV &gt; II &gt; III &gt; I",
+   "II &gt; IV &gt; I &gt; III",
+   "III &gt; II &gt; IV &gt; I"
+  ],
+  "h": "A nitrogen lone pair is most basic when localized. Is each lone pair delocalized into a ring or a C=O group? Is an alkyl group donating to it?",
+  "w": "Basicity follows the pK<sub>a</sub> of each conjugate acid. Ethylamine (II, pK<sub>a</sub>H ≈ 10.7): localized sp<sup>3</sup> lone pair with an electron-donating alkyl group. Ammonia (IV, ≈ 9.2): localized but no alkyl group. Aniline (III, ≈ 4.6): the lone pair is delocalized into the benzene ring. Acetamide (I, ≈ −0.5): the lone pair is strongly delocalized onto the carbonyl oxygen, so the amide is barely basic. Order: <b>II &gt; IV &gt; III &gt; I</b>.",
+  "x": [
+   "",
+   "In water, ethylamine (pK<sub>a</sub>H 10.7) is more basic than ammonia (9.2) because the ethyl group donates electron density and stabilizes the ammonium ion.",
+   "Amide nitrogen lone pairs are delocalized onto a C=O oxygen, which is far more effective than delocalization into a benzene ring; acetamide is much less basic than aniline.",
+   "Aniline's aromatic ring does not make it a strong base; delocalizing the lone pair into the ring lowers its basicity by about a million-fold compared with alkylamines."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC(N)=O",
+    "cap": "I"
+   },
+   {
+    "smi": "CCN",
+    "cap": "II"
+   },
+   {
+    "smi": "Nc1ccccc1",
+    "cap": "III"
+   },
+   {
+    "smi": "N",
+    "cap": "IV"
+   }
+  ]
+ },
+ {
+  "id": "ab-19",
+  "t": "acidbase",
+  "q": "When this compound is treated with one equivalent of HCl, which labeled atom is protonated?",
+  "c": [
+   "Atom <i>c</i>",
+   "Atom <i>b</i>",
+   "Atom <i>d</i>",
+   "Atom <i>a</i>"
+  ],
+  "h": "Compare a localized amine lone pair with the lone pairs of an amide (both N and O) and an ether oxygen. Which conjugate acid has the highest pK<sub>a</sub>?",
+  "w": "The tertiary amine nitrogen <i>c</i> has a localized sp<sup>3</sup> lone pair; its conjugate acid has pK<sub>a</sub> ≈ 10. An amide is protonated (when at all) on its carbonyl oxygen <i>d</i> (pK<sub>a</sub>H ≈ −0.5); the amide nitrogen <i>b</i> is even less basic because its lone pair is delocalized into the C=O. The ether oxygen <i>a</i> has pK<sub>a</sub>H ≈ −3.5. So <b>atom <i>c</i></b>, the amine, is protonated.",
+  "x": [
+   "",
+   "The amide N–H nitrogen looks like an amine, but its lone pair is delocalized into the carbonyl; it is the least basic site of an amide.",
+   "The amide oxygen is the more basic site within the amide, but its conjugate acid has pK<sub>a</sub> near −0.5, about 10<sup>10</sup> times more acidic than a protonated amine.",
+   "Ether oxygens are very weak bases (pK<sub>a</sub>H ≈ −3.5); an amine in the same molecule is protonated first."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C[N:3](C)CCC(=[O:4])[NH:2]CC[O:1]C"
+   }
+  ]
+ },
+ {
+  "id": "ab-20",
+  "t": "acidbase",
+  "q": "Use the table to find K<sub>eq</sub> for: CF<sub>3</sub>CH<sub>2</sub>OH + CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> ⇌ CF<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> + CH<sub>3</sub>CH<sub>2</sub>OH",
+  "c": [
+   "About 4 × 10<sup>3</sup>; products favored",
+   "About 2.5 × 10<sup>−4</sup>; reactants favored",
+   "About 1.3; nearly equal amounts",
+   "About 10<sup>28</sup>; products favored"
+  ],
+  "h": "Identify the acid on each side. K<sub>eq</sub> = 10<sup>(pK<sub>a</sub> of the product acid − pK<sub>a</sub> of the reactant acid)</sup>.",
+  "w": "The reactant acid is 2,2,2-trifluoroethanol (12.4); the product acid is ethanol (16.0). K<sub>eq</sub> = 10<sup>(16.0 − 12.4)</sup> = 10<sup>3.6</sup> ≈ <b>4 × 10<sup>3</sup>, products favored</b>. The three fluorines stabilize the alkoxide inductively, so ethoxide deprotonates trifluoroethanol.",
+  "x": [
+   "",
+   "This uses the exponent with the wrong sign. The stronger acid (CF<sub>3</sub>CH<sub>2</sub>OH) is on the left, so K<sub>eq</sub> &gt; 1.",
+   "This divides the pK<sub>a</sub> values (16.0/12.4). Since pK<sub>a</sub> is a logarithm, K<sub>eq</sub> = 10 raised to the difference.",
+   "This adds the pK<sub>a</sub> values. K<sub>eq</sub> depends only on their difference, 3.6 units."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Acid",
+     "pK<sub>a</sub>"
+    ],
+    "rows": [
+     [
+      "CF<sub>3</sub>CH<sub>2</sub>OH",
+      "12.4"
+     ],
+     [
+      "CH<sub>3</sub>CH<sub>2</sub>OH",
+      "16.0"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ab-21",
+  "t": "acidbase",
+  "q": "At equal concentrations in water, HCl (pK<sub>a</sub> ≈ −7) and HBr (pK<sub>a</sub> ≈ −9) give solutions with the same pH. Why?",
+  "c": [
+   "Both transfer their protons essentially completely to water, so H<sub>3</sub>O<sup>+</sup> is the strongest acid present in each.",
+   "Chloride and bromide are both stabilized by hydrogen bonding to the same extent, which cancels the difference.",
+   "Water is a stronger acid than both HCl and HBr, so neither ionizes significantly.",
+   "The pK<sub>a</sub> values are too close to give any measurable difference in K<sub>eq</sub>."
+  ],
+  "h": "What is the strongest acid that can exist in significant amounts in water? (pK<sub>a</sub> of H<sub>3</sub>O<sup>+</sup> ≈ −1.7)",
+  "w": "Any acid much stronger than H<sub>3</sub>O<sup>+</sup> (pK<sub>a</sub> −1.7) protonates water completely, giving H<sub>3</sub>O<sup>+</sup> + X<sup>−</sup>. Water <b>levels</b> the strong acids: <b>H<sub>3</sub>O<sup>+</sup> is the strongest acid present in each solution</b>, so their difference only shows up in a less basic solvent (such as acetic acid).",
+  "x": [
+   "",
+   "Solvation of the anions does not cancel out; the true reason is that both acids ionize completely, so only H<sub>3</sub>O<sup>+</sup> remains as the acid.",
+   "This reverses the acidities. HCl and HBr are far stronger acids than water (15.7) or H<sub>3</sub>O<sup>+</sup> (−1.7), so they ionize completely.",
+   "Two pK<sub>a</sub> units is a 100-fold difference in K<sub>a</sub>, which would be measurable; it disappears in water only because both ionize completely."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "ab-22",
+  "t": "acidbase",
+  "q": "Which base/solvent combination converts 1-hexyne (pK<sub>a</sub> ≈ 25) essentially completely to its acetylide ion?",
+  "c": [
+   "NaNH<sub>2</sub> in liquid NH<sub>3</sub>",
+   "NaOH in water",
+   "NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol",
+   "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>Li in methanol"
+  ],
+  "h": "Two conditions: the base's conjugate acid must be weaker than the alkyne, and the solvent must not be a stronger acid than the alkyne.",
+  "w": "NH<sub>2</sub><sup>−</sup> (conjugate acid pK<sub>a</sub> ≈ 38) deprotonates the alkyne with K<sub>eq</sub> ≈ 10<sup>13</sup>, and the solvent NH<sub>3</sub> is a weaker acid than the alkyne, so it cannot reprotonate the acetylide. <b>NaNH<sub>2</sub> in liquid NH<sub>3</sub></b> works.",
+  "x": [
+   "",
+   "Hydroxide is too weak a base (water pK<sub>a</sub> 15.7), and water as solvent would reprotonate any acetylide formed.",
+   "Ethoxide is too weak (ethanol pK<sub>a</sub> ≈ 16), and ethanol solvent is about 10<sup>9</sup> times more acidic than the alkyne.",
+   "Butyllithium is a strong enough base, but methanol (pK<sub>a</sub> ≈ 15.5) is a far stronger acid than the alkyne; BuLi is destroyed by the solvent, giving butane and lithium methoxide."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCCCC#C"
+   },
+   {
+    "arrow": "base",
+    "below": "solvent"
+   },
+   {
+    "smi": "CCCCC#[C-]"
+   }
+  ]
+ },
+ {
+  "id": "ab-23",
+  "t": "acidbase",
+  "q": "Which structure is the conjugate acid of acetone?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "A conjugate acid has one more H<sup>+</sup> (one more proton and one more positive charge) than the base.",
+  "w": "Adding H<sup>+</sup> to a lone pair of the carbonyl oxygen gives <b>protonated acetone, (CH<sub>3</sub>)<sub>2</sub>C=OH<sup>+</sup></b> (pK<sub>a</sub> ≈ −7). Its formula is acetone + H<sup>+</sup>.",
+  "x": [
+   "",
+   "This is the enolate, the conjugate <i>base</i> of acetone (one H<sup>+</sup> removed).",
+   "This is the enol, a tautomer of acetone with the same formula; nothing was added.",
+   "This is 2-propanol, which has two more hydrogens than acetone and no charge; it is a reduction product, not a conjugate acid."
+  ],
+  "k": 0,
+  "d": 1,
+  "cs": [
+   {
+    "smi": "CC(C)=[OH+]"
+   },
+   {
+    "smi": "C=C(C)[O-]"
+   },
+   {
+    "smi": "C=C(C)O"
+   },
+   {
+    "smi": "CC(C)O"
+   }
+  ]
+ },
+ {
+  "id": "ab-24",
+  "t": "acidbase",
+  "q": "Using the table, which base converts acetone (pK<sub>a</sub> 19.2) <b>almost completely</b> to its enolate?",
+  "c": [
+   "Lithium diisopropylamide, LDA",
+   "Potassium tert-butoxide",
+   "Sodium ethoxide",
+   "Sodium hydroxide"
+  ],
+  "h": "For each base, compare the pK<sub>a</sub> of its conjugate acid with 19.2. K<sub>eq</sub> must be much larger than 1.",
+  "w": "K<sub>eq</sub> = 10<sup>(pK<sub>a</sub> of conjugate acid − 19.2)</sup>. For <b>LDA</b>: 10<sup>(36 − 19.2)</sup> ≈ 10<sup>17</sup>, essentially complete. tert-Butoxide: 10<sup>−1.2</sup> ≈ 0.06; ethoxide: 10<sup>−3.2</sup>; hydroxide: 10<sup>−3.5</sup>. Those alkoxide and hydroxide bases form only small equilibrium amounts of enolate.",
+  "x": [
+   "",
+   "tert-Butoxide is a strong, bulky base, but tert-butanol (18) is a slightly <i>stronger</i> acid than acetone (19.2), so K<sub>eq</sub> ≈ 0.06; most acetone stays protonated.",
+   "Ethanol (16.0) is more acidic than acetone, so ethoxide gives K<sub>eq</sub> ≈ 10<sup>−3</sup>; only a small fraction of enolate forms.",
+   "Water (15.7) is more acidic than acetone, so hydroxide gives K<sub>eq</sub> ≈ 10<sup>−3.5</sup>; it makes only traces of enolate."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Conjugate acid",
+     "pK<sub>a</sub>"
+    ],
+    "rows": [
+     [
+      "diisopropylamine, [(CH<sub>3</sub>)<sub>2</sub>CH]<sub>2</sub>NH",
+      "36"
+     ],
+     [
+      "tert-butanol",
+      "18"
+     ],
+     [
+      "ethanol",
+      "16.0"
+     ],
+     [
+      "water",
+      "15.7"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ab-25",
+  "t": "acidbase",
+  "q": "Fluorine is more electronegative than iodine, yet HI (pK<sub>a</sub> ≈ −10) is a far stronger acid than HF (pK<sub>a</sub> 3.2). Which explanation is best?",
+  "c": [
+   "The iodide ion is much larger, so its charge is spread over a bigger volume, and the H–I bond is weaker.",
+   "Iodine is more electronegative than fluorine in water because of hydrogen bonding.",
+   "Fluoride is stabilized by resonance, which makes HF less likely to ionize.",
+   "HI has an sp-hybridized iodine, while HF has an sp<sup>3</sup>-hybridized fluorine."
+  ],
+  "h": "Within a row of the periodic table electronegativity controls acidity. What factor dominates down a column?",
+  "w": "Down a group, <b>atom size</b> dominates: I<sup>−</sup> spreads its charge over a much larger, more polarizable volume than F<sup>−</sup>, and the long H–I bond is weak. Both factors favor ionization of HI. Electronegativity is the deciding factor only across a row (C &lt; N &lt; O &lt; F).",
+  "x": [
+   "",
+   "Iodine is less electronegative than fluorine in any medium; electronegativity would actually predict HF to be the stronger acid.",
+   "Fluoride has no resonance; it is a single atom. Its small size concentrates the charge, which makes F<sup>−</sup> less stable, not more.",
+   "Hybridization arguments compare acids with the same atom (such as sp vs sp<sup>3</sup> C–H). It is not the reason for the HF/HI difference."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "id": "ab-26",
+  "t": "acidbase",
+  "q": "Rank the labeled hydrogens from <b>most acidic to least acidic</b>.",
+  "c": [
+   "<i>a</i> &gt; <i>b</i> &gt; <i>c</i>",
+   "<i>c</i> &gt; <i>b</i> &gt; <i>a</i>",
+   "<i>b</i> &gt; <i>a</i> &gt; <i>c</i>",
+   "<i>a</i> &gt; <i>c</i> &gt; <i>b</i>"
+  ],
+  "h": "All three are C–H bonds with no resonance stabilization of the anion. What is different is the hybridization of each carbon.",
+  "w": "With the atom the same and no resonance, the <b>orbital</b> holding the lone pair decides. The anion from <i>a</i> (sp, 50% s) is most stable (pK<sub>a</sub> ≈ 25), then <i>b</i> (sp<sup>2</sup>, 33% s, ≈ 44), then <i>c</i> (sp<sup>3</sup>, 25% s, ≈ 50): <b><i>a</i> &gt; <i>b</i> &gt; <i>c</i></b>. Carbon <i>c</i> is neither allylic nor propargylic, so it gets no resonance help.",
+  "x": [
+   "",
+   "This reverses the trend. More s character holds the lone pair closer to the nucleus and stabilizes the carbanion, so the sp C–H is the most acidic.",
+   "A vinylic sp<sup>2</sup> C–H (≈ 44) is far less acidic than a terminal alkyne C–H (≈ 25).",
+   "The sp<sup>3</sup> C–H on <i>c</i> has the least s character, so it is less acidic than the sp<sup>2</sup> vinylic C–H on <i>b</i>."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C=[CH:2]CCC[CH2:3]CC#[CH:1]"
+   }
+  ]
+ },
+ {
+  "id": "ab-27",
+  "t": "acidbase",
+  "q": "In the phenoxide ion, resonance places the negative charge on oxygen and on which ring carbons?",
+  "c": [
+   "The two ortho carbons and the para carbon",
+   "The two meta carbons only",
+   "All six ring carbons equally",
+   "Only the ring carbon bonded to oxygen"
+  ],
+  "h": "Push the oxygen lone pair into the ring and move the π electrons one step at a time. Which carbons pick up the lone pair?",
+  "w": "Each resonance step moves the negative charge two atoms along the ring, so from the oxygen it reaches the carbons at the <b>ortho, para and other ortho</b> positions. The meta carbons and the ipso carbon never carry the charge. This is why groups at ortho/para positions (such as NO<sub>2</sub>) affect phenol acidity most.",
+  "x": [
+   "",
+   "The meta carbons are skipped: charge alternates around the ring and never lands on them.",
+   "The charge is not spread over all six carbons; it alternates, reaching only ortho and para.",
+   "The ipso carbon forms a C=O double bond in the contributors that carry ring charge; it never holds the negative charge itself."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "[O-]c1ccccc1"
+   }
+  ]
+ },
+ {
+  "id": "ab-28",
+  "t": "acidbase",
+  "q": "Which species is the strongest acid? (Use the hybridization of the atom that bears the proton's lone pair in each conjugate base.)",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The strongest acid has the weakest conjugate base. Compare how tightly each neutral base holds its lone pair: what is the hybridization of the atom being protonated?",
+  "w": "Remove the proton to get each conjugate base: CH<sub>3</sub>OH, CH<sub>3</sub>NH<sub>2</sub>, acetone and acetonitrile. The nitrile nitrogen's lone pair is in an sp orbital (50% s), held tightly, so acetonitrile is the weakest base and <b>protonated acetonitrile (pK<sub>a</sub> ≈ −10)</b> is the strongest acid. Protonated acetone (sp<sup>2</sup> O, ≈ −7) and protonated methanol (sp<sup>3</sup> O, ≈ −2.5) are weaker; methylammonium (≈ 10.6) is weakest.",
+  "x": [
+   "",
+   "Protonated acetone is a very strong acid (≈ −7), but the sp lone pair of a nitrile is held even more tightly than the sp<sup>2</sup> lone pair of a carbonyl oxygen.",
+   "Protonated methanol (≈ −2.5) is a strong acid, but its sp<sup>3</sup> oxygen lone pair is a better base than the sp nitrogen of a nitrile, so it gives up its proton less readily.",
+   "Methylammonium (pK<sub>a</sub> ≈ 10.6) is the weakest acid here because methylamine is a good base; a positive charge alone does not make a strong acid."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "CC#[NH+]"
+   },
+   {
+    "smi": "CC(C)=[OH+]"
+   },
+   {
+    "smi": "C[OH2+]"
+   },
+   {
+    "smi": "C[NH3+]"
+   }
+  ]
+ },
+ {
+  "id": "ab-29",
+  "t": "acidbase",
+  "q": "Ethylmagnesium bromide is added to ethanol. What are the main products?",
+  "c": [
+   "Ethane and CH<sub>3</sub>CH<sub>2</sub>OMgBr",
+   "Butane and HOMgBr",
+   "Diethyl ether and HMgBr",
+   "No reaction; Grignard reagents are stable in alcohols"
+  ],
+  "h": "The C–Mg bond is highly polarized toward carbon, so the ethyl group behaves like a carbanion (conjugate acid pK<sub>a</sub> ≈ 50). What does ethanol (pK<sub>a</sub> ≈ 16) offer it?",
+  "w": "A Grignard reagent is an extremely strong base. Ethanol (pK<sub>a</sub> ≈ 16) is about 10<sup>34</sup> times more acidic than ethane (≈ 50), so a fast proton transfer gives <b>ethane and the magnesium alkoxide CH<sub>3</sub>CH<sub>2</sub>OMgBr</b>. For this reason Grignard reagents must be prepared and used in dry, aprotic ethers.",
+  "x": [
+   "",
+   "Grignard reagents do not couple with alcohols to form new C–C bonds; proton transfer from the O–H is much faster.",
+   "An ether would require the alkyl group to attack oxygen and displace OH, which does not happen; the fast reaction is proton transfer.",
+   "Grignard reagents are destroyed by any O–H, N–H or S–H acid; that is why they are made in dry ether or THF."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC[Mg]Br"
+   },
+   "+",
+   {
+    "smi": "CCO"
+   },
+   {
+    "arrow": ""
+   },
+   "?"
+  ]
+ },
+ {
+  "id": "ab-30",
+  "t": "acidbase",
+  "q": "Rank these species in order of <b>increasing</b> acidity: NH<sub>3</sub>, H<sub>2</sub>O, NH<sub>4</sub><sup>+</sup>, H<sub>3</sub>O<sup>+</sup>",
+  "c": [
+   "NH<sub>3</sub> &lt; H<sub>2</sub>O &lt; NH<sub>4</sub><sup>+</sup> &lt; H<sub>3</sub>O<sup>+</sup>",
+   "NH<sub>3</sub> &lt; NH<sub>4</sub><sup>+</sup> &lt; H<sub>2</sub>O &lt; H<sub>3</sub>O<sup>+</sup>",
+   "H<sub>2</sub>O &lt; NH<sub>3</sub> &lt; H<sub>3</sub>O<sup>+</sup> &lt; NH<sub>4</sub><sup>+</sup>",
+   "NH<sub>4</sub><sup>+</sup> &lt; H<sub>3</sub>O<sup>+</sup> &lt; NH<sub>3</sub> &lt; H<sub>2</sub>O"
+  ],
+  "h": "Recall the pK<sub>a</sub> values: NH<sub>3</sub> ≈ 38, H<sub>2</sub>O 15.7, NH<sub>4</sub><sup>+</sup> 9.2, H<sub>3</sub>O<sup>+</sup> −1.7.",
+  "w": "pK<sub>a</sub> values: NH<sub>3</sub> ≈ 38, H<sub>2</sub>O 15.7, NH<sub>4</sub><sup>+</sup> 9.2, H<sub>3</sub>O<sup>+</sup> −1.7. Order: <b>NH<sub>3</sub> &lt; H<sub>2</sub>O &lt; NH<sub>4</sub><sup>+</sup> &lt; H<sub>3</sub>O<sup>+</sup></b>. Two trends combine: O–H is more acidic than N–H (electronegativity), and a positive charge on the acid makes it much more acidic than its neutral form.",
+  "x": [
+   "",
+   "Ammonium (9.2) is more acidic than water (15.7): the positive charge makes losing H<sup>+</sup> much easier.",
+   "Oxygen is more electronegative than nitrogen, so water is more acidic than ammonia, and H<sub>3</sub>O<sup>+</sup> is more acidic than NH<sub>4</sub><sup>+</sup>.",
+   "This puts the cations as the weakest acids. Positively charged acids lose a proton far more readily than their neutral counterparts."
+  ],
+  "k": 0,
+  "d": 1
+ }
+]

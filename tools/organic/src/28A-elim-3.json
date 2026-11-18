@@ -1,0 +1,500 @@
+[
+ {
+  "id": "elim-3-01",
+  "d": 1,
+  "q": "What is the major product when 2-bromo-2-methylpropane is treated with NaOCH<sub>3</sub> in methanol?",
+  "s": [
+   {
+    "smi": "CC(C)(C)Br"
+   },
+   {
+    "arrow": "NaOCH<sub>3</sub>",
+    "below": "CH<sub>3</sub>OH"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=C(C)C"
+   },
+   {
+    "smi": "COC(C)(C)C"
+   },
+   {
+    "smi": "COCC(C)C"
+   },
+   {
+    "smi": "CC(C)(C)O"
+   }
+  ],
+  "h": "Tertiary substrate plus a strong base: which mechanisms are possible?",
+  "w": "A 3° carbon cannot undergo S<sub>N</sub>2, and methoxide is a strong base, so E2 dominates: <b>2-methylpropene</b>.",
+  "x": [
+   "",
+   "tert-Butyl methyl ether would need S<sub>N</sub>2 at a 3° carbon (blocked) or S<sub>N</sub>1 solvolysis, which is far slower than E2 with a strong base present.",
+   "Isobutyl methyl ether has the oxygen on a different carbon; nothing here moves the reaction site.",
+   "No water is present, so tert-butyl alcohol cannot form."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-02",
+  "d": 2,
+  "q": "2-Bromo-2-methylpropane is dissolved in methanol at 25 °C with no added base. What happens mainly?",
+  "c": [
+   "S<sub>N</sub>1, giving mainly tert-butyl methyl ether (with some 2-methylpropene by E1)",
+   "E2, giving mainly 2-methylpropene",
+   "S<sub>N</sub>2, giving mainly tert-butyl methyl ether",
+   "E1, giving mainly 2-methylpropene (with some ether by S<sub>N</sub>1)"
+  ],
+  "h": "Methanol is a weak nucleophile and weak base in a polar protic solvent. What does a 3° bromide do there at room temperature?",
+  "w": "With no strong base, the 3° bromide ionizes in the polar protic solvent (solvolysis). The carbocation is captured mostly by solvent at 25 °C: <b>S<sub>N</sub>1 gives mainly tert-butyl methyl ether</b>, with a smaller amount of 2-methylpropene from E1. Heating would increase the alkene fraction.",
+  "x": [
+   "",
+   "E2 needs a strong base; methanol is far too weak a base for E2 to compete with ionization.",
+   "A 3° carbon is too hindered for backside attack; the ether forms by S<sub>N</sub>1, not S<sub>N</sub>2.",
+   "At room temperature, capture of the carbocation by the solvent beats loss of a proton; E1 is the minor path."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-03",
+  "d": 2,
+  "q": "(<i>R</i>)-2-Bromobutane is treated with NaN<sub>3</sub> in DMSO. What is the major product?",
+  "s": [
+   {
+    "smi": "C[C@@H](Br)CC"
+   },
+   {
+    "arrow": "NaN<sub>3</sub>",
+    "below": "DMSO"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@H](N=[N+]=[N-])CC"
+   },
+   {
+    "smi": "C[C@@H](N=[N+]=[N-])CC"
+   },
+   {
+    "smi": "C/C=C/C"
+   },
+   {
+    "smi": "C=CCC"
+   }
+  ],
+  "h": "Azide is an excellent nucleophile but a weak base, and DMSO is polar aprotic.",
+  "w": "N<sub>3</sub><sup>−</sup> is a strong nucleophile and weak base, and DMSO leaves it unsolvated, so a 2° bromide reacts by S<sub>N</sub>2 with backside attack and inversion: <b>(<i>S</i>)-2-azidobutane</b>. (N<sub>3</sub> and Br both have top priority, so inversion changes <i>R</i> to <i>S</i> here.)",
+  "x": [
+   "",
+   "Retention would need front-side attack; S<sub>N</sub>2 goes with inversion of configuration.",
+   "Azide is a weak base (HN<sub>3</sub> pK<sub>a</sub> ≈ 4.7), so E2 to 2-butene is minor.",
+   "1-Butene would need a strong, bulky base; azide gives substitution."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-04",
+  "d": 2,
+  "q": "2-Bromopentane is heated with NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol at 55 °C. What is the major product?",
+  "s": [
+   {
+    "smi": "CCCC(C)Br"
+   },
+   {
+    "arrow": "NaOCH<sub>2</sub>CH<sub>3</sub>",
+    "below": "CH<sub>3</sub>CH<sub>2</sub>OH, 55 °C"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C/C=C/CC"
+   },
+   {
+    "smi": "CCCC(C)OCC"
+   },
+   {
+    "smi": "C=CCCC"
+   },
+   {
+    "smi": "C/C=C\\CC"
+   }
+  ],
+  "h": "A 2° halide with a strong, small base and heat: substitution or elimination? Then pick the alkene.",
+  "w": "With a 2° halide, a strong base such as ethoxide (and heat) favors E2 over S<sub>N</sub>2. Small bases give the Zaitsev alkene, and of the two 2-pentenes the trans isomer is formed faster (less steric strain in its transition state): <b>(<i>E</i>)-2-pentene</b>.",
+  "x": [
+   "",
+   "The S<sub>N</sub>2 ether forms, but with a 2° halide, a strong base and heat it is the minor product.",
+   "1-Pentene is the Hofmann product; ethoxide is small, so the more substituted 2-pentene dominates.",
+   "(<i>Z</i>)-2-Pentene forms in smaller amount; its anti-periplanar conformer puts the alkyl groups gauche."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-05",
+  "d": 2,
+  "q": "1-Bromobutane is treated separately with (I) NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol and (II) (CH<sub>3</sub>)<sub>3</sub>COK in tert-butyl alcohol. What is the main product in each case?",
+  "c": [
+   "I: 1-ethoxybutane; II: 1-butene",
+   "I: 1-butene; II: 1-butene",
+   "I: 1-ethoxybutane; II: 1-tert-butoxybutane",
+   "I: 2-butene; II: 1-butene"
+  ],
+  "h": "A primary carbon is easy to attack from the back. Which base is too bulky to act as a nucleophile?",
+  "w": "With an unhindered 1° bromide, ethoxide acts mainly as a nucleophile (S<sub>N</sub>2), giving <b>1-ethoxybutane</b>. tert-Butoxide is too bulky to reach the carbon, so it removes a β H instead (E2), giving <b>1-butene</b>.",
+  "x": [
+   "",
+   "Ethoxide with an unhindered 1° bromide gives mainly S<sub>N</sub>2; E2 is minor.",
+   "tert-Butoxide is a poor nucleophile because of its bulk; with a 1° bromide it gives mainly E2.",
+   "2-Butene cannot form directly from 1-bromobutane by E2; the C=C must include C1, which bore the Br."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-06",
+  "d": 2,
+  "q": "Which reagent converts bromocyclohexane mainly into a <b>substitution</b> product?",
+  "s": [
+   {
+    "smi": "BrC1CCCCC1"
+   }
+  ],
+  "c": [
+   "NaSCH<sub>3</sub> in DMF",
+   "NaOCH<sub>3</sub> in methanol, heat",
+   "(CH<sub>3</sub>)<sub>3</sub>COK in tert-butyl alcohol",
+   "DBU in THF"
+  ],
+  "h": "For a 2° substrate you need a nucleophile that is strong but only weakly basic.",
+  "w": "Secondary substrates give E2 with strong bases and S<sub>N</sub>2 with good nucleophiles that are weak bases. <b>CH<sub>3</sub>S<sup>−</sup> in DMF</b> (polar aprotic) is highly nucleophilic but much less basic than alkoxides, so it gives cyclohexyl methyl sulfide by S<sub>N</sub>2.",
+  "x": [
+   "",
+   "Methoxide is a strong base; with a 2° ring halide and heat it gives mainly cyclohexene by E2.",
+   "tert-Butoxide is a strong, bulky base that gives E2 (cyclohexene).",
+   "DBU is a non-nucleophilic amidine base used specifically to promote E2."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-07",
+  "d": 3,
+  "q": "Which combination is the best way to prepare tert-butyl ethyl ether, (CH<sub>3</sub>)<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub>?",
+  "c": [
+   "(CH<sub>3</sub>)<sub>3</sub>COK + CH<sub>3</sub>CH<sub>2</sub>Br in DMSO",
+   "NaOCH<sub>2</sub>CH<sub>3</sub> + (CH<sub>3</sub>)<sub>3</sub>CBr in ethanol",
+   "NaOCH<sub>2</sub>CH<sub>3</sub> + (CH<sub>3</sub>)<sub>3</sub>CCl in DMSO",
+   "(CH<sub>3</sub>)<sub>3</sub>COH + CH<sub>3</sub>CH<sub>2</sub>Br, no base"
+  ],
+  "h": "The Williamson synthesis is S<sub>N</sub>2. Which partner must be the alkyl halide?",
+  "w": "The C–O bond must be made by S<sub>N</sub>2, so the halide must be unhindered. <b>tert-Butoxide + bromoethane</b> works: a 1° bromide with no β-branching undergoes S<sub>N</sub>2 readily. Putting the halogen on the 3° carbon makes the alkoxide act as a base and gives 2-methylpropene by E2.",
+  "x": [
+   "",
+   "Ethoxide with a 3° bromide gives E2 (2-methylpropene), because the 3° carbon cannot undergo backside attack.",
+   "Changing the solvent or leaving group does not help: the 3° chloride still cannot undergo S<sub>N</sub>2, and ethoxide eliminates.",
+   "A neutral alcohol is a weak nucleophile; without converting it to the alkoxide, S<sub>N</sub>2 on bromoethane is extremely slow."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-08",
+  "d": 3,
+  "q": "Which reaction gives mainly an <b>elimination</b> product?",
+  "c": [
+   "2-Bromopropane + NaOCH<sub>2</sub>CH<sub>3</sub>, ethanol, 55 °C",
+   "1-Bromopropane + NaOCH<sub>2</sub>CH<sub>3</sub>, ethanol, 55 °C",
+   "2-Bromopropane + NaCN, DMSO, 25 °C",
+   "2-Bromopropane in ethanol (no base), 25 °C"
+  ],
+  "h": "Classify each substrate (1° or 2°) and each reagent (strong base, good nucleophile/weak base, or weak nucleophile/weak base).",
+  "w": "<b>2-Bromopropane with ethoxide and heat</b>: a 2° substrate with a strong base gives mainly E2 (propene, roughly 80%). The 1° bromide with ethoxide gives mainly S<sub>N</sub>2; cyanide in DMSO is a good nucleophile and weaker base, so the 2° bromide gives S<sub>N</sub>2; in ethanol with no base at room temperature, the slow solvolysis gives mainly the ether.",
+  "x": [
+   "",
+   "A 1° unhindered bromide gives mainly S<sub>N</sub>2 with ethoxide; E2 is minor.",
+   "Cyanide is a good nucleophile and much weaker base than ethoxide, and DMSO speeds S<sub>N</sub>2; substitution dominates.",
+   "Ethanol alone is a weak base; solvolysis of a 2° bromide at room temperature gives mainly substitution, not alkene."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-09",
+  "d": 3,
+  "q": "Assign the main mechanism to each reaction.<br>I. (<i>S</i>)-2-iodooctane + NaCN, DMSO<br>II. 2-bromo-2-methylpentane in 80% aqueous acetone, 25 °C<br>III. 2-bromo-2-methylpentane + NaOCH<sub>2</sub>CH<sub>3</sub>, ethanol, heat",
+  "c": [
+   "I S<sub>N</sub>2; II S<sub>N</sub>1; III E2",
+   "I S<sub>N</sub>2; II E1; III S<sub>N</sub>1",
+   "I S<sub>N</sub>1; II S<sub>N</sub>1; III E1",
+   "I E2; II S<sub>N</sub>1; III S<sub>N</sub>2"
+  ],
+  "h": "Match substrate class with reagent strength: good nucleophile/weak base, weak nucleophile/weak base, strong base.",
+  "w": "I: a 2° iodide with a strong nucleophile/weak base in a polar aprotic solvent: S<sub>N</sub>2 with inversion. II: a 3° bromide in a polar protic solvent with only water as nucleophile at room temperature: ionization, mainly S<sub>N</sub>1 (some E1). III: the same 3° bromide with a strong base and heat: E2. Answer: <b>I S<sub>N</sub>2; II S<sub>N</sub>1; III E2</b>.",
+  "x": [
+   "",
+   "A 3° substrate with a strong base (III) gives E2, not S<sub>N</sub>1; and II at 25 °C gives mainly substitution.",
+   "I has a strong nucleophile in a polar aprotic solvent, which favors S<sub>N</sub>2, and III has a strong base, which makes it E2, not E1.",
+   "Cyanide is a weak base and a 2° iodide is not hindered enough for E2 to win; S<sub>N</sub>2 dominates. A 3° carbon cannot undergo S<sub>N</sub>2."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-10",
+  "d": 2,
+  "q": "For a 2° alkyl bromide with ethoxide, raising the temperature increases the fraction of alkene relative to ether. Which explanation is best?",
+  "s": [
+   {
+    "smi": "CC(C)Br"
+   },
+   "+",
+   {
+    "smi": "CC[O-]"
+   },
+   {
+    "arrow": "→"
+   },
+   {
+    "smi": "C=CC"
+   },
+   "+",
+   {
+    "smi": "CCO"
+   },
+   "+",
+   {
+    "smi": "[Br-]"
+   }
+  ],
+  "c": [
+   "Elimination forms more molecules, so its ΔS is more positive and the −TΔS term matters more at high temperature",
+   "Elimination has the lower activation energy, so heating speeds it up more than substitution",
+   "At high temperature the ether product is converted into the alkene",
+   "Heating makes ethoxide a weaker base and a stronger nucleophile"
+  ],
+  "h": "Count the particles on each side for substitution and for elimination.",
+  "w": "Substitution: 2 reactants → 2 products. Elimination: 2 reactants → 3 products (alkene, alcohol, halide). <b>Elimination has a more positive ΔS</b>, so ΔG = ΔH − TΔS becomes more favorable for elimination as T rises; heating therefore increases the alkene fraction.",
+  "x": [
+   "",
+   "Heating helps the reaction with the higher barrier more, not the lower one; elimination generally has the higher barrier and is the one helped.",
+   "Ethers are stable to ethoxide; the ether does not convert to alkene under these conditions.",
+   "Temperature does not turn ethoxide into a better nucleophile; if anything, the elimination pathway gains."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-11",
+  "d": 2,
+  "q": "What is the IUPAC name of this compound?",
+  "s": [
+   {
+    "smi": "CC1=CCCC(C)C1"
+   }
+  ],
+  "c": [
+   "1,5-Dimethylcyclohexene",
+   "2,4-Dimethylcyclohexene",
+   "1,3-Dimethylcyclohexene",
+   "3,5-Dimethylcyclohexene"
+  ],
+  "h": "The C=C carbons are C1 and C2. Then choose the direction that gives the lowest set of substituent locants.",
+  "w": "The double bond must be C1=C2. Starting at the methyl-bearing alkene carbon (C1) and going through C2 puts the other methyl at C5: {1,5}. Starting at the other alkene carbon gives {2,4}. Compare at the first point of difference: 1 < 2, so the name is <b>1,5-dimethylcyclohexene</b>.",
+  "x": [
+   "",
+   "{2,4} loses to {1,5} at the first point of difference (1 < 2).",
+   "1,3-Dimethylcyclohexene would have the second methyl on the carbon right after C2; here two CH<sub>2</sub> groups separate them going that way.",
+   "Locants 3 and 5 would place both methyls off the double bond; one methyl is on an alkene carbon."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-12",
+  "d": 3,
+  "q": "What is the IUPAC name of this alkene?",
+  "s": [
+   {
+    "smi": "C/C=C(/CC)C(C)C"
+   }
+  ],
+  "c": [
+   "(<i>Z</i>)-3-Ethyl-4-methylpent-2-ene",
+   "(<i>E</i>)-3-Ethyl-4-methylpent-2-ene",
+   "(<i>Z</i>)-3-Isopropylpent-2-ene",
+   "(<i>E</i>)-3-Isopropylpent-2-ene"
+  ],
+  "h": "Two five-carbon chains contain the C=C; choose the one with more substituents. Then rank the two groups on C3 by CIP.",
+  "w": "Chains through the ethyl or through the isopropyl both have five carbons; the one through the isopropyl carries two substituents (ethyl and methyl), so the parent is 3-ethyl-4-methylpent-2-ene. For E/Z: on C2, CH<sub>3</sub> > H; on C3, isopropyl (C,C,H) > ethyl (C,H,H). The C2 methyl and the isopropyl are on the same side, so the name is <b>(<i>Z</i>)-3-ethyl-4-methylpent-2-ene</b>.",
+  "x": [
+   "",
+   "Isopropyl outranks ethyl at the first atom (C,C,H vs C,H,H); it is cis to the C2 methyl, which is <i>Z</i>.",
+   "The E/Z label is right, but when two chains are equally long, the parent is the one with more substituents (two vs one).",
+   "Both the parent chain and the E/Z label are wrong."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-13",
+  "d": 2,
+  "q": "Which structure is (<i>Z</i>)-2-chloro-2-butene?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C/C(Cl)=C/C"
+   },
+   {
+    "smi": "C/C(Cl)=C\\C"
+   },
+   {
+    "smi": "ClC/C=C\\C"
+   },
+   {
+    "smi": "C=C(Cl)CC"
+   }
+  ],
+  "h": "Rank the two groups on each alkene carbon by atomic number. Do not judge by where the methyl groups are.",
+  "w": "On C2, Cl (Z = 17) > CH<sub>3</sub>; on C3, CH<sub>3</sub> > H. <i>Z</i> means Cl and the C3 methyl are on the same side, so the two methyl groups are trans to each other. <b>The structure with Cl cis to the C3 methyl (methyls trans)</b> is (<i>Z</i>)-2-chloro-2-butene.",
+  "x": [
+   "",
+   "Here Cl and the C3 methyl are on opposite sides: this is the <i>E</i> isomer, even though the two methyls look cis.",
+   "This is (<i>Z</i>)-1-chloro-2-butene; the Cl is on C1, not on an alkene carbon.",
+   "This is 2-chloro-1-butene, which has two H on C1 and no E/Z isomers."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-14",
+  "d": 1,
+  "q": "Which alkene can exist as <i>E</i> and <i>Z</i> isomers?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC=C(C)CC"
+   },
+   {
+    "smi": "CC(C)=CCC"
+   },
+   {
+    "smi": "CC=C(CC)CC"
+   },
+   {
+    "smi": "C=C(C)CCC"
+   }
+  ],
+  "h": "Each alkene carbon needs two different groups.",
+  "w": "<b>3-Methylpent-2-ene</b>: C2 has CH<sub>3</sub> and H, and C3 has CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub>, so both alkene carbons carry two different groups and <i>E</i>/<i>Z</i> isomers exist.",
+  "x": [
+   "",
+   "In 2-methylpent-2-ene, C2 carries two identical CH<sub>3</sub> groups, so no E/Z isomers exist.",
+   "In 3-ethylpent-2-ene, C3 carries two identical ethyl groups, so no E/Z isomers exist.",
+   "In 2-methylpent-1-ene, C1 is =CH<sub>2</sub> with two H atoms, so no E/Z isomers exist."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-15",
+  "d": 3,
+  "q": "(3<i>R</i>,4<i>S</i>)-3-Bromo-4-methylhexane is heated with NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol. What is the major product?",
+  "s": [
+   {
+    "smi": "CC[C@@H](Br)[C@@H](C)CC"
+   },
+   {
+    "arrow": "NaOCH<sub>2</sub>CH<sub>3</sub>",
+    "below": "CH<sub>3</sub>CH<sub>2</sub>OH, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "(<i>Z</i>)-3-Methylhex-3-ene",
+   "(<i>E</i>)-3-Methylhex-3-ene",
+   "(<i>E</i>)-4-Methylhex-2-ene",
+   "(3<i>S</i>,4<i>S</i>)-3-Ethoxy-4-methylhexane"
+  ],
+  "h": "First pick the Zaitsev carbon. It has one H, so the anti-periplanar conformation fixes the alkene geometry.",
+  "w": "Ethoxide is small, so the trisubstituted C3=C4 alkene (Zaitsev) is major. C4 has a single H, so only one conformer has it anti to Br. In that conformer the C3 ethyl is gauche to the C4 ethyl, so they become cis. Priorities: on C3, ethyl > H; on C4, ethyl > methyl. Higher priorities on the same side: <b>(<i>Z</i>)-3-methylhex-3-ene</b>. The (3<i>R</i>,4<i>R</i>) diastereomer would give the <i>E</i> alkene.",
+  "x": [
+   "",
+   "The <i>E</i> isomer comes from the (3<i>R</i>,4<i>R</i>)/(3<i>S</i>,4<i>S</i>) diastereomer; E2 from this isomer gives only <i>Z</i>.",
+   "4-Methylhex-2-ene comes from loss of a C2 hydrogen; it is only disubstituted and is minor with a small base.",
+   "The S<sub>N</sub>2 product (with inversion at C3) is minor: the 2° carbon is next to a branch point, and a strong base with heat favors E2."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "elim-3-16",
+  "d": 2,
+  "q": "Which alkyl bromide gives a <b>single</b> alkene (no constitutional or <i>E</i>/<i>Z</i> isomers) on E2 with NaOCH<sub>2</sub>CH<sub>3</sub>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(Br)(CC)CC"
+   },
+   {
+    "smi": "CCC(C)(C)Br"
+   },
+   {
+    "smi": "CCC(C)(Br)CC"
+   },
+   {
+    "smi": "CC(Br)C(C)C"
+   }
+  ],
+  "h": "List every β carbon with H and the alkene each would give; then check each for E/Z.",
+  "w": "In <b>3-bromo-3-ethylpentane</b> the three β carbons are equivalent CH<sub>2</sub> groups, and each gives CH<sub>3</sub>CH=C(CH<sub>2</sub>CH<sub>3</sub>)<sub>2</sub>, 3-ethylpent-2-ene. Its C3 bears two identical ethyl groups, so it has no E/Z isomers: a single product.",
+  "x": [
+   "",
+   "2-Bromo-2-methylbutane gives both 2-methyl-2-butene and 2-methyl-1-butene.",
+   "3-Bromo-3-methylpentane gives (<i>E</i>)- and (<i>Z</i>)-3-methylpent-2-ene plus 2-ethylbut-1-ene.",
+   "2-Bromo-3-methylbutane gives 2-methyl-2-butene and 3-methyl-1-butene."
+  ],
+  "t": "elim",
+  "k": 0
+ }
+]

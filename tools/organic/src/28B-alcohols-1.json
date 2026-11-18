@@ -1,0 +1,139 @@
+[
+{
+ "id": "alc-01", "t": "alcohols", "d": 1, "k": 0,
+ "q": "Which compound is the strongest acid?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "O=[N+]([O-])c1ccc(O)cc1"}, {"smi": "Oc1ccccc1"}, {"smi": "Cc1ccc(O)cc1"}, {"smi": "OC1CCCCC1"}],
+ "h": "Compare the stability of each conjugate base. Where can the negative charge on oxygen spread?",
+ "w": "Acidity tracks the stability of the conjugate base. A phenoxide ion delocalizes its charge into the ring (phenol pK<sub>a</sub> ≈ 10), while cyclohexoxide keeps it on one oxygen (pK<sub>a</sub> ≈ 16–18). A <i>para</i>-nitro group adds one more resonance form that places the negative charge on the nitro oxygens, so <b>4-nitrophenol (pK<sub>a</sub> ≈ 7.2)</b> is the strongest acid.",
+ "x": ["", "Phenol is a good deal more acidic than an alcohol, but it lacks the electron-withdrawing nitro group that further stabilizes the phenoxide (pK<sub>a</sub> 10 vs 7.2).", "The methyl group is weakly electron-donating, which slightly destabilizes the phenoxide; 4-methylphenol (pK<sub>a</sub> ≈ 10.3) is a little weaker than phenol.", "An alkoxide has no resonance delocalization, so cyclohexanol (pK<sub>a</sub> ≈ 18) is the weakest acid of the four."]
+},
+{
+ "id": "alc-02", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Rank these phenols in order of <b>increasing</b> acidity (weakest acid first).",
+ "s": [{"smi": "COc1ccc(O)cc1", "cap": "I"}, {"smi": "Oc1ccccc1", "cap": "II"}, {"smi": "Clc1ccc(O)cc1", "cap": "III"}, {"smi": "O=[N+]([O-])c1ccc(O)cc1", "cap": "IV"}],
+ "c": ["I < II < III < IV", "II < I < III < IV", "I < II < IV < III", "III < I < II < IV"],
+ "h": "For each para substituent, decide whether its resonance effect or its inductive effect dominates on the phenoxide.",
+ "w": "Approximate pK<sub>a</sub> values: 4-methoxyphenol 10.2, phenol 10.0, 4-chlorophenol 9.4, 4-nitrophenol 7.2. A para OCH<sub>3</sub> donates lone-pair density by resonance, which outweighs its inductive pull and destabilizes the phenoxide slightly. Chlorine is inductively withdrawing, and that outweighs its weak resonance donation, so it stabilizes the anion a little. NO<sub>2</sub> withdraws by both resonance and induction. Order: <b>I < II < III < IV</b>.",
+ "x": ["", "This treats OCH<sub>3</sub> as electron-withdrawing because oxygen is electronegative; at the para position its resonance donation wins, so 4-methoxyphenol is slightly weaker than phenol.", "This makes chlorine stronger than nitro. Nitro can delocalize the phenoxide charge onto its own oxygens by resonance; chlorine only pulls inductively.", "This treats chlorine as a net donor. For halogens, induction outweighs resonance, so 4-chlorophenol is more acidic than phenol."]
+},
+{
+ "id": "alc-03", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Rank these alcohols in order of <b>increasing</b> acidity (weakest acid first).<br>I. CH<sub>3</sub>CH<sub>2</sub>OH &nbsp; II. ClCH<sub>2</sub>CH<sub>2</sub>OH &nbsp; III. CF<sub>3</sub>CH<sub>2</sub>OH &nbsp; IV. (CH<sub>3</sub>)<sub>3</sub>COH",
+ "c": ["IV < I < II < III", "I < IV < II < III", "IV < I < III < II", "III < II < I < IV"],
+ "h": "None of these alkoxides has resonance. Think about induction from halogens and about how well the solvent can surround each alkoxide.",
+ "w": "Electron-withdrawing halogens stabilize the alkoxide by induction, and three fluorines on the adjacent carbon pull far harder than one chlorine one carbon farther away. A bulky tert-butoxide is poorly solvated, which makes tert-butyl alcohol the weakest acid. Approximate pK<sub>a</sub>: (CH<sub>3</sub>)<sub>3</sub>COH 18, CH<sub>3</sub>CH<sub>2</sub>OH 16, ClCH<sub>2</sub>CH<sub>2</sub>OH 14.3, CF<sub>3</sub>CH<sub>2</sub>OH 12.4. Order: <b>IV < I < II < III</b>.",
+ "x": ["", "This swaps ethanol and tert-butyl alcohol. The crowded tert-butoxide ion is solvated less well, so tert-butyl alcohol is the weaker acid.", "One chlorine is not stronger than three fluorines: the CF<sub>3</sub> group exerts a much larger inductive pull on the alkoxide oxygen.", "This is the reverse order; halogen substituents make alcohols more acidic, not less."]
+},
+{
+ "id": "alc-04", "t": "alcohols", "d": 1, "k": 0,
+ "q": "Which base deprotonates phenol (pK<sub>a</sub> 10.0) essentially completely but deprotonates ethanol (pK<sub>a</sub> 16) far less than completely? (The pK<sub>a</sub> of each base's conjugate acid is in parentheses.)",
+ "c": ["NaOH (H<sub>2</sub>O, pK<sub>a</sub> 15.7)", "NaHCO<sub>3</sub> (H<sub>2</sub>CO<sub>3</sub>, pK<sub>a</sub> 6.4)", "NaH (H<sub>2</sub>, pK<sub>a</sub> ≈ 35)", "NaNH<sub>2</sub> (NH<sub>3</sub>, pK<sub>a</sub> 38)"],
+ "h": "An acid–base equilibrium favors the side with the weaker acid. Compare each conjugate acid's pK<sub>a</sub> with 10 and with 16.",
+ "w": "K<sub>eq</sub> = 10<sup>(pK<sub>a</sub> of conjugate acid of the base − pK<sub>a</sub> of the acid)</sup>. For phenol + NaOH, K<sub>eq</sub> ≈ 10<sup>5.7</sup>, essentially complete. For ethanol + NaOH, K<sub>eq</sub> ≈ 10<sup>−0.3</sup> ≈ 0.5, so ethanol is only partly deprotonated, far from complete. <b>NaOH</b> separates the two; this is why phenols dissolve in aqueous NaOH as phenoxide salts, while ordinary alcohols are not converted to alkoxides there.",
+ "x": ["", "Bicarbonate is too weak: for phenol, K<sub>eq</sub> ≈ 10<sup>6.4−10</sup> ≈ 10<sup>−3.6</sup>, so phenol is barely deprotonated.", "Hydride is so strong (H<sub>2</sub> pK<sub>a</sub> ≈ 35) that it deprotonates ethanol completely too.", "Amide (NH<sub>3</sub> pK<sub>a</sub> 38) deprotonates both phenol and ethanol essentially completely."]
+},
+{
+ "id": "alc-05", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Rank these compounds from <b>highest to lowest</b> boiling point.",
+ "s": [{"smi": "OCCCCO", "cap": "I"}, {"smi": "CCCCO", "cap": "II"}, {"smi": "CC(C)(C)O", "cap": "III"}, {"smi": "CCOCC", "cap": "IV"}],
+ "c": ["I > II > III > IV", "II > I > III > IV", "I > III > II > IV", "I > II > IV > III"],
+ "h": "Count the O–H groups first; then, among isomers with one O–H, consider shape and surface area.",
+ "w": "Butane-1,4-diol has two O–H groups and forms an extended hydrogen-bond network (bp ≈ 230 °C). Butan-1-ol and 2-methylpropan-2-ol each have one O–H, but the straight chain has more surface contact and less steric shielding of the OH (117 °C vs 82 °C). Diethyl ether cannot donate a hydrogen bond (35 °C). Order: <b>I > II > III > IV</b>.",
+ "x": ["", "A second O–H group roughly doubles the hydrogen bonding, so the diol boils far above butan-1-ol.", "Branching lowers the boiling point: the compact tert-butyl alcohol has less surface area and a more hindered OH than butan-1-ol.", "Diethyl ether is a hydrogen-bond acceptor only; it cannot donate, so it boils well below tert-butyl alcohol."]
+},
+{
+ "id": "alc-06", "t": "alcohols", "d": 2, "k": 0,
+ "q": "What is the major organic product of this reaction?",
+ "s": [{"smi": "COC(=O)c1ccc(C(C)=O)cc1"}, {"arrow": "NaBH<sub>4</sub>", "below": "CH<sub>3</sub>OH, 0 °C"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "COC(=O)c1ccc(C(C)O)cc1"}, {"smi": "OCc1ccc(C(C)O)cc1"}, {"smi": "OCc1ccc(C(C)=O)cc1"}, {"smi": "COC(=O)c1ccc(CC)cc1"}],
+ "h": "Which carbonyl is more electrophilic, the ketone or the ester? How strong a hydride donor is NaBH<sub>4</sub>?",
+ "w": "NaBH<sub>4</sub> is a mild hydride donor. It reduces aldehydes and ketones quickly but leaves esters essentially untouched, because the ester carbonyl is stabilized by donation from the OCH<sub>3</sub> oxygen. Only the ketone becomes a secondary alcohol: <b>methyl 4-(1-hydroxyethyl)benzoate</b> (racemic).",
+ "x": ["", "Reducing both groups needs LiAlH<sub>4</sub>; NaBH<sub>4</sub> in methanol does not reduce the ester at a useful rate.", "This reverses the selectivity: the ester is the less reactive carbonyl, so it cannot be reduced while the ketone survives.", "Removing the oxygen completely (C=O → CH<sub>2</sub>) requires Clemmensen or Wolff–Kishner conditions, not a hydride reagent."]
+},
+{
+ "id": "alc-07", "t": "alcohols", "d": 1, "k": 0,
+ "q": "Which functional groups are reduced by NaBH<sub>4</sub> in methanol at room temperature?<br>I. aldehyde &nbsp; II. ketone &nbsp; III. ester &nbsp; IV. carboxylic acid",
+ "c": ["I and II only", "I only", "I, II and III only", "I, II, III and IV"],
+ "h": "NaBH<sub>4</sub> is the gentle hydride reagent. Which carbonyls are the most electrophilic?",
+ "w": "NaBH<sub>4</sub> reduces the most electrophilic carbonyls, aldehydes (to 1° alcohols) and ketones (to 2° alcohols). Esters are resonance-stabilized and react too slowly, and a carboxylic acid is simply deprotonated to an unreactive carboxylate. Answer: <b>I and II only</b>. LiAlH<sub>4</sub> reduces all four.",
+ "x": ["", "Ketones are reduced by NaBH<sub>4</sub> as well; they are only slightly less reactive than aldehydes.", "Esters are not reduced at a useful rate by NaBH<sub>4</sub> in methanol; that takes LiAlH<sub>4</sub>.", "A carboxylic acid is deprotonated by the basic hydride to a carboxylate, which is far too electron-rich to accept hydride from NaBH<sub>4</sub>."]
+},
+{
+ "id": "alc-08", "t": "alcohols", "d": 3, "k": 0,
+ "q": "The ketone below is a single enantiomer. Which statement best describes the product mixture after reduction with NaBH<sub>4</sub>?",
+ "s": [{"smi": "CC(=O)[C@H](C)c1ccccc1"}, {"arrow": "1. NaBH<sub>4</sub>, CH<sub>3</sub>OH", "below": "2. H<sub>2</sub>O"}, "?"],
+ "c": ["(2<i>R</i>,3<i>R</i>) and (2<i>S</i>,3<i>R</i>) diastereomers in unequal amounts; optically active", "(2<i>R</i>,3<i>R</i>) and (2<i>S</i>,3<i>S</i>) enantiomers in equal amounts; optically inactive", "(2<i>R</i>,3<i>S</i>) and (2<i>S</i>,3<i>R</i>) enantiomers in equal amounts; optically inactive", "(2<i>R</i>,3<i>R</i>) and (2<i>S</i>,3<i>R</i>) diastereomers in equal amounts; optically inactive"],
+ "h": "Hydride does not touch C3. With C3 fixed, how are the two possible C2 products related?",
+ "w": "The starting ketone is (<i>R</i>)-3-phenylbutan-2-one. Hydride adds to C2 from either face, creating a new stereocenter, while C3 keeps its (<i>R</i>) configuration. The products, (2<i>R</i>,3<i>R</i>)- and (2<i>S</i>,3<i>R</i>)-3-phenylbutan-2-ol, are diastereomers. The two faces of the carbonyl are diastereotopic (the existing stereocenter makes them different), so the transition states differ in energy and the products form in unequal amounts. A mixture of chiral, non-mirror-image molecules is <b>optically active</b>.",
+ "x": ["", "C3 is not touched by NaBH<sub>4</sub>, so it cannot become (<i>S</i>); a (2<i>S</i>,3<i>S</i>) product would require inverting a carbon that never reacts.", "This inverts C3, which does not react; every product molecule keeps the (3<i>R</i>) configuration of the starting ketone.", "Diastereomers form through transition states of different energy, so equal amounts are not expected; and even a 1:1 mixture of diastereomers would still rotate light because they are not mirror images."]
+},
+{
+ "id": "alc-09", "t": "alcohols", "d": 2, "k": 0,
+ "q": "What is the major organic product?",
+ "s": [{"smi": "O=C1CCCO1"}, {"arrow": "1. LiAlH<sub>4</sub>, ether", "below": "2. H<sub>3</sub>O<sup>+</sup>"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "OCCCCO"}, {"smi": "O=CCCCO"}, {"smi": "C1CCOC1"}, {"smi": "CCCCO"}],
+ "h": "A lactone is a cyclic ester. What does LiAlH<sub>4</sub> do to both the acyl carbon and the alkoxy oxygen of an ester?",
+ "w": "LiAlH<sub>4</sub> reduces an ester to two alcohols: the acyl carbon becomes a CH<sub>2</sub>OH and the alkoxy oxygen becomes a second OH. In a lactone both pieces are in the same molecule, so the ring opens to one diol: <b>butane-1,4-diol</b>.",
+ "x": ["", "The aldehyde formed after the first hydride is more reactive than the ester and is reduced at once; LiAlH<sub>4</sub> does not stop at the aldehyde.", "Tetrahydrofuran would need the carbonyl oxygen removed while the ring stays closed; hydride reduction instead opens the ring at the C–O bond to give a diol.", "The ring oxygen is not lost: it becomes an O–H after workup, so the product keeps both oxygens."]
+},
+{
+ "id": "alc-10", "t": "alcohols", "d": 3, "k": 0,
+ "q": "What is the major organic product after treatment with excess LiAlH<sub>4</sub> followed by aqueous workup?",
+ "s": [{"smi": "CC(=O)c1ccc(C(=O)N(C)C)cc1"}, {"arrow": "1. LiAlH<sub>4</sub> (excess), THF", "below": "2. H<sub>2</sub>O"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC(O)c1ccc(CN(C)C)cc1"}, {"smi": "CC(O)c1ccc(CO)cc1"}, {"smi": "CC(O)c1ccc(C(=O)N(C)C)cc1"}, {"smi": "CC(=O)c1ccc(CN(C)C)cc1"}],
+ "h": "LiAlH<sub>4</sub> reduces both carbonyls. For the amide, which group leaves from the tetrahedral intermediate: oxygen or nitrogen?",
+ "w": "Excess LiAlH<sub>4</sub> reduces the ketone to a secondary alcohol. Amides are reduced too, but differently from esters: the oxygen (bound to aluminum) is expelled to give an iminium ion, which takes a second hydride, so C=O becomes CH<sub>2</sub> and the nitrogen stays. Product: <b>1-[4-(dimethylaminomethyl)phenyl]ethan-1-ol</b>.",
+ "x": ["", "This treats the amide like an ester. In amide reduction nitrogen stays attached and the oxygen is removed, giving an amine, not an alcohol.", "Amides are less reactive than ketones but are still reduced by excess LiAlH<sub>4</sub>; leaving the amide intact is the NaBH<sub>4</sub> result.", "The ketone is the most reactive carbonyl present; LiAlH<sub>4</sub> cannot reduce the amide while leaving the ketone untouched."]
+},
+{
+ "id": "alc-11", "t": "alcohols", "d": 1, "k": 0,
+ "q": "(<i>R</i>)-2-Bromobutane reacts with NaOH in DMSO. What is the <b>substitution</b> product?",
+ "s": [{"smi": "C[C@@H](Br)CC"}],
+ "c": ["(<i>S</i>)-butan-2-ol", "(<i>R</i>)-butan-2-ol", "Racemic butan-2-ol", "Butan-1-ol"],
+ "cs": [{"smi": "C[C@H](O)CC"}, {"smi": "C[C@@H](O)CC"}, null, {"smi": "CCCCO"}],
+ "h": "A strong nucleophile, a secondary substrate and a polar aprotic solvent: which substitution mechanism, and what does it do to configuration?",
+ "w": "Hydroxide is a strong nucleophile and DMSO is polar aprotic, so substitution goes S<sub>N</sub>2 with backside attack and inversion. OH takes the place of Br, which had the same priority rank (highest), so inversion changes the label: <b>(<i>S</i>)-butan-2-ol</b>.",
+ "x": ["", "Retention would require frontside attack or two inversions; a single S<sub>N</sub>2 step inverts the stereocenter.", "Racemization comes from a planar carbocation (S<sub>N</sub>1), which is not favored with a strong nucleophile in a polar aprotic solvent.", "S<sub>N</sub>2 does not move the functional group; the OH ends up on the carbon that carried the Br."]
+},
+{
+ "id": "alc-12", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Which reagents carry out this conversion in good yield?",
+ "s": [{"smi": "C=CC(C)(C)C"}, {"arrow": "?"}, {"smi": "CC(O)C(C)(C)C"}],
+ "c": ["1. Hg(OAc)<sub>2</sub>, H<sub>2</sub>O &nbsp;2. NaBH<sub>4</sub>", "H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub> (cat.)", "1. BH<sub>3</sub>·THF &nbsp;2. H<sub>2</sub>O<sub>2</sub>, NaOH", "1. O<sub>3</sub> &nbsp;2. NaBH<sub>4</sub>"],
+ "h": "The OH goes to the more substituted alkene carbon, and the carbon skeleton must not change. Which Markovnikov method avoids a free carbocation?",
+ "w": "The target has Markovnikov regiochemistry and the same skeleton. Acid hydration would form a secondary carbocation next to a quaternary carbon, which undergoes a methyl shift. Oxymercuration goes through a bridged mercurinium ion, gives Markovnikov addition and does not rearrange. Answer: <b>1. Hg(OAc)<sub>2</sub>, H<sub>2</sub>O 2. NaBH<sub>4</sub></b>.",
+ "x": ["", "Acid hydration goes through a free 2° carbocation that undergoes a 1,2-methyl shift to a 3° cation, giving mainly 2,3-dimethylbutan-2-ol.", "Hydroboration–oxidation is anti-Markovnikov and gives the primary alcohol 3,3-dimethylbutan-1-ol.", "Ozonolysis cleaves the C=C; reduction of the resulting aldehyde gives 2,2-dimethylpropan-1-ol, with one carbon fewer."]
+},
+{
+ "id": "alc-13", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Which compound is the <b>weakest</b> acid?",
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "Oc1cccc([N+](=O)[O-])c1"}, {"smi": "Oc1ccc([N+](=O)[O-])cc1"}, {"smi": "Oc1ccccc1[N+](=O)[O-]"}, {"smi": "Oc1ccc([N+](=O)[O-])cc1[N+](=O)[O-]"}],
+ "h": "Draw the resonance forms of each phenoxide. In which isomer can the negative charge reach the carbon bearing the nitro group?",
+ "w": "The phenoxide charge is delocalized to the ortho and para carbons. A nitro group at an ortho or para position can accept that charge onto its own oxygens (pK<sub>a</sub> ≈ 7.2 for both 2- and 4-nitrophenol), and two such groups do even better (2,4-dinitrophenol, pK<sub>a</sub> ≈ 4.1). A meta nitro group is never on a carbon that carries the charge, so it helps only by induction: <b>3-nitrophenol (pK<sub>a</sub> ≈ 8.4)</b> is the weakest acid of the four.",
+ "x": ["", "In 4-nitrophenol the charge delocalizes onto the nitro oxygens by resonance, which makes it more acidic than the meta isomer.", "An ortho nitro group also stabilizes the phenoxide by resonance (pK<sub>a</sub> ≈ 7.2), so 2-nitrophenol is more acidic than 3-nitrophenol.", "Two resonance-withdrawing nitro groups (ortho and para) make 2,4-dinitrophenol the strongest acid here, not the weakest."]
+},
+{
+ "id": "alc-14", "t": "alcohols", "d": 2, "k": 0,
+ "q": "Acetophenone is treated with NaBD<sub>4</sub> in ether, then with H<sub>2</sub>O. Where are the deuterium atoms in the product?",
+ "s": [{"smi": "CC(=O)c1ccccc1"}, {"arrow": "1. NaBD<sub>4</sub>, ether", "below": "2. H<sub>2</sub>O"}, "?"],
+ "c": ["§A", "§B", "§C", "§D"],
+ "cs": [{"smi": "CC([2H])(O)c1ccccc1"}, {"smi": "CC(O[2H])c1ccccc1"}, {"smi": "CC([2H])(O[2H])c1ccccc1"}, {"smi": "[2H]CC(O)c1ccccc1"}],
+ "h": "Follow each hydrogen: one comes from the hydride reagent, one from the workup.",
+ "w": "Borodeuteride delivers D<sup>−</sup> to the carbonyl carbon, giving an alkoxide. The O–H proton comes later from the H<sub>2</sub>O workup. Product: <b>PhCD(OH)CH<sub>3</sub></b> (racemic, since D adds equally to both faces).",
+ "x": ["", "The nucleophile is the deuteride; it bonds to carbon, not oxygen. The oxygen is protonated by H<sub>2</sub>O.", "The workup uses H<sub>2</sub>O, not D<sub>2</sub>O, so the O–H ends up as O–H; only the carbon carries D.", "Hydride attacks the electrophilic carbonyl carbon, not the methyl carbon; the CH<sub>3</sub> is untouched."]
+},
+{
+ "id": "alc-15", "t": "alcohols", "d": 3, "k": 0,
+ "q": "Which sequence carries out this conversion?",
+ "s": [{"smi": "CCOC(=O)C1CCC(=O)CC1"}, {"arrow": "?"}, {"smi": "OCC1CCC(=O)CC1"}],
+ "c": ["1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH (cat.) &nbsp;2. LiAlH<sub>4</sub>, ether &nbsp;3. H<sub>3</sub>O<sup>+</sup>", "1. NaBH<sub>4</sub>, CH<sub>3</sub>OH &nbsp;2. H<sub>3</sub>O<sup>+</sup>", "1. LiAlH<sub>4</sub>, ether &nbsp;2. H<sub>3</sub>O<sup>+</sup>", "1. LiAlH<sub>4</sub>, ether &nbsp;2. H<sub>3</sub>O<sup>+</sup> &nbsp;3. PCC, CH<sub>2</sub>Cl<sub>2</sub>"],
+ "h": "You must reduce the less reactive carbonyl and keep the more reactive one. What can temporarily hide a ketone from LiAlH<sub>4</sub>?",
+ "w": "Any hydride that reduces an ester also reduces a ketone, so the ketone must be protected. Ethylene glycol and acid convert the ketone to a cyclic acetal, which is inert to LiAlH<sub>4</sub>. LiAlH<sub>4</sub> then reduces the ester to CH<sub>2</sub>OH, and aqueous acid removes the acetal and restores the ketone. Answer: <b>1. HOCH<sub>2</sub>CH<sub>2</sub>OH, TsOH 2. LiAlH<sub>4</sub> 3. H<sub>3</sub>O<sup>+</sup></b>.",
+ "x": ["", "NaBH<sub>4</sub> has the opposite selectivity: it reduces the ketone to an alcohol and leaves the ester untouched.", "Unprotected, both carbonyls are reduced, giving the diol 4-(hydroxymethyl)cyclohexan-1-ol.", "PCC re-oxidizes both alcohols of the diol, giving the keto aldehyde (4-oxocyclohexane-1-carbaldehyde), not the keto alcohol."]
+}
+]

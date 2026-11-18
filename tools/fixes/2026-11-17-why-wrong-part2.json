@@ -1,0 +1,632 @@
+[
+ {
+  "id": "1A-505",
+  "field": "x[2]",
+  "old": "Line II is NaCl (i = 2).",
+  "new": "Line II falls at a middle rate, which matches i = 2 (NaCl → Na⁺ + Cl⁻). The salt that makes the most particles per formula unit lowers the freezing point fastest.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-519",
+  "field": "x[2]",
+  "old": "Fe₃O₄ would be 27.6% O.",
+  "new": "Fe₃O₄ has an O : Fe mole ratio of 1.33 and would be only 27.6% O, below the 30.1% in the chart. Convert each mass percent to moles and compare the ratio.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-519",
+  "field": "x[3]",
+  "old": "FeO₃ would be 46% O.",
+  "new": "FeO₃ would be 46% O, far more than the chart shows; it puts three O per Fe. Convert each mass percent to moles: there are only 1.5 O for each Fe.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-523",
+  "field": "x[2]",
+  "old": "I has 0.0250 mol.",
+  "new": "Solution I has 0.250 L × 0.100 M = 0.0250 mol. Moles depend on volume times molarity together, and another solution's product is larger.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-523",
+  "field": "x[3]",
+  "old": "IV has 0.0250 mol.",
+  "new": "Solution IV has 0.100 L × 0.250 M = 0.0250 mol. Multiply volume (in L) by molarity for every solution; another one has a larger product.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-526",
+  "field": "x[2]",
+  "old": "HClO₃ is chloric acid.",
+  "new": "HClO₃ is chloric acid, from the chlorate ion. The -ic acids come from -ate ions; an -ous acid comes from the -ite ion, which has one fewer O.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-535",
+  "field": "x[3]",
+  "old": "Box IV shows only B-11.",
+  "new": "Box IV shows only B-11 and ignores the 19.9% of B-10. With ten atoms, about 2 should be B-10 and about 8 should be B-11.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-536",
+  "field": "x[2]",
+  "old": "Sulfur forms S₈ rings.",
+  "new": "Sulfur is a molecular nonmetal, but its atoms join into S₈ rings, not two-atom molecules. The diatomic elements are H, N, O and the halogens.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-537",
+  "field": "x[2]",
+  "old": "Group 2 is all metals.",
+  "new": "Every element in group 2, from Be to Ra, is a metal, so there is no change from nonmetal to metalloid going down. Look for the group that starts with a nonmetal at the top.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-539",
+  "field": "x[1]",
+  "old": "MPO₄ would need M³⁺.",
+  "new": "MPO₄ balances only if M is M³⁺ (to cancel one PO₄³⁻). But MO shows one M balancing one O²⁻, so M is M²⁺; balance +2 ions against −3 ions.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-541",
+  "field": "x[3]",
+  "old": "4p⁵ would be group 17.",
+  "new": "4s² 4p⁵ has seven valence electrons, which is group 17 (bromine). Group 15 has five valence electrons, so only three go into 4p.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-545",
+  "field": "x[2]",
+  "old": "H₂O is only 18.02 g/mol.",
+  "new": "A mole of H₂O is only 18.02 g; it has three atoms, but they are light. With the same number of particles, the heaviest mole is the one with the largest molar mass.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-545",
+  "field": "x[3]",
+  "old": "He is only 4.003 g/mol.",
+  "new": "Helium has the smallest molar mass here, only 4.003 g/mol. Equal moles means equal particles, so the sample with the largest molar mass weighs the most.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-549",
+  "field": "x[3]",
+  "old": "SF₂ is far too light.",
+  "new": "SF₂ would be 70.06 g/mol, so 5.00×10⁻³ mol would weigh only 0.350 g, not 0.730 g. Find the molar mass (g ÷ mol) and solve for <i>n</i>.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-550",
+  "field": "x[1]",
+  "old": "CO₂ is only 72.7% O.",
+  "new": "CO₂ is only 72.7% O by mass. Having two O atoms doesn't guarantee the largest fraction; the 12.01 g of carbon is much heavier than the partner atoms in another choice.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-550",
+  "field": "x[2]",
+  "old": "NO₂ is only 69.6% O.",
+  "new": "NO₂ is only 69.6% O by mass. The nitrogen (14.01 g) dilutes the oxygen's share; the largest fraction comes from pairing O with the lightest possible partner.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-550",
+  "field": "x[3]",
+  "old": "SO₂ is only 50.0% O.",
+  "new": "SO₂ is only 50.0% O by mass, because the sulfur atom (32.06 g) weighs as much as both oxygens. More O atoms don't help when the partner atom is heavy.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-552",
+  "field": "x[2]",
+  "old": "P₄O₁₀ is only 43.6% P.",
+  "new": "284 g/mol is P₄O₁₀, which is only 43.6% P, not 56.4%. Work out the P : O mole ratio from the percents (1 : 1.5) before scaling up to four P atoms.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-555",
+  "field": "x[1]",
+  "old": "This flips the ratio.",
+  "new": "0.120 mol comes from dividing 0.600 by 5, which inverts the mole ratio. Each mole of propane needs 5 mol O₂, so the O₂ amount must be larger than 0.600 mol.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-557",
+  "field": "x[2]",
+  "old": "This flips the ratio.",
+  "new": "8.03×10²¹ uses 2 N₂ per 3 NaN₃, which inverts the ratio. The equation makes 3 N₂ for every 2 NaN₃, so there are more N₂ molecules than NaN₃ units.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-559",
+  "field": "x[2]",
+  "old": "Helium doesn't react.",
+  "new": "Helium is an inert noble gas and doesn't react at all, so it can't limit the product. Compare moles ÷ coefficient for CH₄ and O₂.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-561",
+  "field": "x[1]",
+  "old": "KCl can't evaporate.",
+  "new": "KCl is a nonvolatile ionic solid, so it can't evaporate; only water leaves. With the same moles in less volume, the molarity can't go down.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-561",
+  "field": "x[3]",
+  "old": "No KCl was added.",
+  "new": "Nothing added KCl to the beaker; evaporation removes only water, so the moles of solute stay fixed. The molarity rises only because the volume shrinks.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-564",
+  "field": "x[2]",
+  "old": "This flips the ratio.",
+  "new": "107 mL comes from multiplying the Ag⁺ moles by 2, which inverts the ratio. Each CrO₄²⁻ precipitates 2 Ag⁺, so you need half as many moles of chromate as silver.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-571",
+  "field": "x[2]",
+  "old": "This flips the ratio.",
+  "new": "2.77 divides (mass × ΔT) of the metal by the heat, which inverts the formula. Specific heat is c = q ÷ (m × ΔT), with the 732 J of heat on top.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-579",
+  "field": "x[3]",
+  "old": "This ignores equation 2.",
+  "new": "−593.6 kJ is just equation 1 doubled; it leaves out equation 2, so SO₂ never becomes SO₃. Add equation 2 (reversed, with its sign changed) so SO₂ cancels.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-582",
+  "field": "x[3]",
+  "old": "This is reversed.",
+  "new": "This list runs from strongest to weakest, the reverse of what was asked. Higher ion charges (2+/2−) and smaller ions give larger lattice energies, so those belong at the end.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-584",
+  "field": "x[3]",
+  "old": "This is reversed.",
+  "new": "This swaps the bond types. Na–O is a metal–nonmetal pair with a big electronegativity difference (ionic), while O–H is two nonmetals sharing electrons (covalent).",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-589",
+  "field": "x[2]",
+  "old": "This flips the ratio.",
+  "new": "128% divides the theoretical moles (0.0500) by the actual moles (0.0389), which inverts the ratio. Percent yield is actual ÷ theoretical × 100, so it can't exceed 100% here.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-591",
+  "field": "x[2]",
+  "old": "I₂ is nonpolar.",
+  "new": "I₂ is nonpolar: two identical atoms share the electrons equally, so there is no dipole. The only attraction between I₂ molecules is London dispersion.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1A-592",
+  "field": "x[3]",
+  "old": "This is reversed.",
+  "new": "This describes the liquid with weaker forces. Stronger attractions take more energy to overcome (higher ΔH_vap) and let fewer molecules escape (lower vapor pressure).",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-1",
+  "field": "x[2]",
+  "old": "This uses a 1:1 ratio.",
+  "new": "0.0480 M s⁻¹ assumes one H₂ forms per PH₃ used. The equation makes 6 H₂ for every 4 PH₃, so H₂ forms faster: multiply by 6/4.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-4",
+  "field": "x[1]",
+  "old": "M s⁻¹ is for zero order.",
+  "new": "M s⁻¹ are the units of a rate, so they fit k only for a zero-order reaction. For second order, k = rate ÷ [A]², so divide M s⁻¹ by M².",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-4",
+  "field": "x[2]",
+  "old": "s⁻¹ is for first order.",
+  "new": "s⁻¹ fits a first-order reaction, where k = rate ÷ [A]. Second order divides the rate by M², which leaves an extra M⁻¹.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-15",
+  "field": "x[3]",
+  "old": "[NO] should be squared.",
+  "new": "This treats NO as first order, but the fast equilibrium uses 2 NO to make each N₂O₂. Substituting [N₂O₂] = K₁[NO]² into the slow step squares [NO].",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-16",
+  "field": "x[3]",
+  "old": "O₂ is a product.",
+  "new": "O₂ is formed in both steps and never used up, so it is a product. A catalyst must be consumed in one step and regenerated in a later one.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-22",
+  "field": "x[2]",
+  "old": "This is upside down.",
+  "new": "1/[CO₂] puts the product in the denominator, which inverts K. K is products over reactants, and the solids CaCO₃ and CaO are left out.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-23",
+  "field": "x[2]",
+  "old": "This is upside down.",
+  "new": "This puts reactants over products, which inverts K. K is always products over reactants, each raised to its coefficient.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-25",
+  "field": "x[1]",
+  "old": "K can never be negative.",
+  "new": "K can never be negative, because it is a ratio of positive concentrations. Reversing a reaction doesn't flip the sign of K the way it does for ΔH.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-26",
+  "field": "x[2]",
+  "old": "This multiplies K by 2.",
+  "new": "3.2×10⁻⁵ multiplies K by 2. Multiplying an equation by a factor raises K to that power; it never multiplies or divides K.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-29",
+  "field": "x[3]",
+  "old": "This is upside down.",
+  "new": "Q = 0.080 puts reactants over products, which inverts Q. Q is set up like K, products over reactants: [HI]²/([H₂][I₂]).",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-31",
+  "field": "x[2]",
+  "old": "This forgets to square.",
+  "new": "7.09 is 1.56 ÷ 0.22, which ignores the coefficient of 2 on HI and treats [H₂][I₂] as a single 0.22. Square [HI] and multiply 0.22 by 0.22.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-37",
+  "field": "x[3]",
+  "old": "K doesn't tell you ΔH.",
+  "new": "K tells you only how far the reaction goes (here, mostly products), not whether it absorbs or releases heat. You'd need ΔH, or how K changes with temperature.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-47",
+  "field": "x[2]",
+  "old": "NH₄⁺ can only donate H⁺.",
+  "new": "NH₄⁺ can donate H⁺ to become NH₃, but it has no lone pair left to accept another H⁺. An amphoteric species must be able to do both.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-47",
+  "field": "x[3]",
+  "old": "Cl⁻ has no H to donate.",
+  "new": "Cl⁻ has no H to donate, so it can't act as an acid. It is also too weak a base to accept H⁺ in water, so it can do neither job.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-49",
+  "field": "x[2]",
+  "old": "1.52 is the pOH.",
+  "new": "1.52 is the pOH, −log[OH⁻]. Ba(OH)₂ is a strong base, so the pH must be above 7: subtract the pOH from 14.00.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-50",
+  "field": "x[1]",
+  "old": "11.13 is the pOH.",
+  "new": "11.13 is 14.00 minus the right value, as if the [H₃O⁺] you found were [OH⁻]. Acetic acid releases H₃O⁺, so −log of it is the pH and must be below 7.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-50",
+  "field": "x[2]",
+  "old": "4.74 is just the pKa.",
+  "new": "4.74 is just the pKa, −log(1.8×10⁻⁵). pH = pKa only in a buffer with equal acid and base; here, find [H₃O⁺] = √(Ka × 0.10) first.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-51",
+  "field": "x[1]",
+  "old": "2.72 is the pOH.",
+  "new": "2.72 is the pOH, −log[OH⁻]. NH₃ is a base, so the pH must be above 7: subtract the pOH from 14.00.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-51",
+  "field": "x[2]",
+  "old": "4.74 is just the pKb.",
+  "new": "4.74 is just the pKb, −log(1.8×10⁻⁵). It ignores the 0.20 M concentration; find [OH⁻] = √(Kb × 0.20), then convert to pH.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-55",
+  "field": "x[1]",
+  "old": "5.13 is the pOH.",
+  "new": "5.13 is the pOH, from the [OH⁻] that acetate makes. Acetate is a weak base, so the pH must be above 7: subtract the pOH from 14.00.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-56",
+  "field": "x[1]",
+  "old": "9.07 is the pOH.",
+  "new": "9.07 is 14.00 minus the right value, as if the 1.2×10⁻⁵ M were [OH⁻]. NH₄⁺ is a weak acid that makes H₃O⁺, so the solution is acidic.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-57",
+  "field": "x[2]",
+  "old": "KNO₃ is neutral.",
+  "new": "KNO₃ is neutral: K⁺ comes from the strong base KOH and NO₃⁻ from the strong acid HNO₃, so neither ion reacts with water. A basic salt needs the anion of a weak acid.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-57",
+  "field": "x[3]",
+  "old": "NaCl is neutral.",
+  "new": "NaCl is neutral: Na⁺ and Cl⁻ come from a strong base and a strong acid, so neither ion reacts with water. A basic salt needs the anion of a weak acid.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-59",
+  "field": "x[3]",
+  "old": "HOI is the weakest.",
+  "new": "This puts HOI in the middle, but I is the least electronegative halogen here, so HOI is the weakest acid. In oxyacids, a more electronegative halogen makes a stronger acid.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-60",
+  "field": "x[1]",
+  "old": "HF is a weak acid.",
+  "new": "HF is a weak acid: its H–F bond is short and very strong, so it barely ionizes in water. Down the group, the H–X bond gets longer and weaker.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-61",
+  "field": "x[2]",
+  "old": "4.3×10⁻⁷ is Ka₁.",
+  "new": "4.3×10⁻⁷ is Ka₁, which governs the first ionization to HCO₃⁻. CO₃²⁻ forms only in the second step, so set up the Ka₂ expression instead.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-63",
+  "field": "x[1]",
+  "old": "3.60 is the pH.",
+  "new": "3.60 is the pH, −log[H₃O⁺]. The question asks for the pOH, so subtract the pH from 14.00.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-70",
+  "field": "x[2]",
+  "old": "4.97 is the pOH.",
+  "new": "4.97 is the pOH, 14.00 minus the buffer's pH. An NH₃/NH₄⁺ buffer is basic, so its pH must be above 7.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-78",
+  "field": "x[1]",
+  "old": "This is Kb, not Ka.",
+  "new": "1.6×10⁻¹⁰ is Kw ÷ Ka, the Kb of the conjugate base. At half-equivalence, pH = pKa, so take 10 to the −4.20 for Ka.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-78",
+  "field": "x[2]",
+  "old": "4.20 is the pKa, not Ka.",
+  "new": "4.20 is the pKa, a log value, not Ka itself. Ka = 10^(−pKa), a small number for a weak acid.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-79",
+  "field": "x[3]",
+  "old": "5.28 is the pOH.",
+  "new": "5.28 is the pOH, from the [OH⁻] that acetate makes. A weak acid titrated with a strong base gives a basic equivalence point: subtract from 14.00.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-83",
+  "field": "x[3]",
+  "old": "10.43 is the pOH.",
+  "new": "10.43 is 14.00 minus the pH, as if Henderson–Hasselbalch gave the pOH. Before equivalence the solution is still mostly formic acid, so it must be acidic.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-85",
+  "field": "x[3]",
+  "old": "Water isn't the buffer.",
+  "new": "Water is the solvent, not a buffer component; it is far too weak a base to take up much H⁺. The buffer's weak-base component does that job.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-96",
+  "field": "x[2]",
+  "old": "Ksp doesn't change.",
+  "new": "Ksp depends only on temperature, so adding NH₃ can't change it. NH₃ removes Ag⁺ as a complex ion, and the equilibrium shifts to replace it.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-104",
+  "field": "x[1]",
+  "old": "This is the second law.",
+  "new": "This is the second law, which is about the entropy of the universe in spontaneous processes. The third law sets the zero point of entropy.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-104",
+  "field": "x[2]",
+  "old": "This is the first law.",
+  "new": "This is the first law (conservation of energy). The third law is about entropy, and where entropy reaches zero.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-113",
+  "field": "x[3]",
+  "old": "This leaves out ΔG°.",
+  "new": "+28.5 kJ is only the RT ln Q term. ΔG = ΔG° + RT ln Q, so the −32.8 kJ must be added to it.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-117",
+  "field": "x[2]",
+  "old": "Freezing lowers entropy.",
+  "new": "Freezing turns a gas into an ordered solid, which sharply lowers entropy, so ΔS° < 0. Look for a reaction that makes more moles of gas.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-118",
+  "field": "x[3]",
+  "old": "This mixes kJ and J.",
+  "new": "−1.33×10⁵ comes from 131.3 − (1000)(133.6), mixing ΔH in kJ with ΔS in J K⁻¹. Convert ΔS to 0.1336 kJ K⁻¹ first.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-120",
+  "field": "x[3]",
+  "old": "H₂O is a compound.",
+  "new": "H₂O is a compound, formed from H₂ and O₂ with a large negative ΔG°f. Only elements in their standard states have ΔG°f = 0.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-123",
+  "field": "x[2]",
+  "old": "This leaves ΔH in kJ.",
+  "new": "0.110 comes from leaving ΔH as 38.6 kJ mol⁻¹, so the answer is really in kJ, not J. Convert to 38,600 J mol⁻¹ before dividing by T.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-124",
+  "field": "x[2]",
+  "old": "Zn²⁺ is a product.",
+  "new": "Zn²⁺ is a product, formed when Zn is oxidized. The oxidizing agent is the reactant that gains electrons (is reduced).",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-124",
+  "field": "x[3]",
+  "old": "Cu is a product.",
+  "new": "Cu is a product of the reaction. The oxidizing agent must be a reactant: the one that gains electrons and is reduced, not the species it turns into.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-125",
+  "field": "x[3]",
+  "old": "This doubles everything.",
+  "new": "16 is double the H⁺ in a balanced equation, so these coefficients aren't the smallest whole numbers. Combine the half-reactions using the fewest electrons (5).",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-128",
+  "field": "x[3]",
+  "old": "Both K⁺ and NO₃⁻ move.",
+  "new": "Both ions in the salt bridge move: K⁺ toward the cathode and NO₃⁻ toward the anode. Each compartment needs its charge balanced as the cell runs.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-129",
+  "field": "x[3]",
+  "old": "The sign is reversed.",
+  "new": "−0.46 V subtracts the cathode from the anode, which flips the sign. Use E°cell = E°cathode − E°anode, with Ag⁺ reduced and Cu oxidized.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-132",
+  "field": "x[3]",
+  "old": "This mixes J and kJ.",
+  "new": "−0.212 kJ divides by 1000 one time too many. −nFE gives −212,000 J, which is −212 kJ.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-167",
+  "field": "x[2]",
+  "old": "This is upside down.",
+  "new": "1.11 is 0.40/(0.60)², reactant over product, which inverts K. K is products over reactants: [A]²/[A₂].",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-173",
+  "field": "x[1]",
+  "old": "This reverses the order.",
+  "new": "This ranks by how many intact HA molecules remain, which is backward. A stronger acid ionizes more, so it leaves fewer intact molecules.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-177",
+  "field": "x[1]",
+  "old": "7.52 is the pKa.",
+  "new": "7.52 is just the pKa, −log(3.0×10⁻⁸). It ignores the 0.050 M concentration; find [H₃O⁺] = √(Ka × 0.050), then take −log.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-177",
+  "field": "x[3]",
+  "old": "9.59 is the pOH.",
+  "new": "9.59 is 14.00 minus the right value, as if the [H₃O⁺] you found were [OH⁻]. HOCl is an acid, so its pH must be below 7.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-180",
+  "field": "x[2]",
+  "old": "This flips the ratio.",
+  "new": "8.78 uses log(0.00500/0.0150), with acid over base, which inverts the ratio. Henderson–Hasselbalch is pKa + log([base]/[acid]), and NH₃ is the base.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-182",
+  "field": "x[3]",
+  "old": "7.20 is pKa2, not Ka2.",
+  "new": "7.20 is pKa₂, read from the pH halfway between the equivalence points. Ka₂ itself is 10^(−pKa₂).",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-184",
+  "field": "x[1]",
+  "old": "6.63 is the pOH.",
+  "new": "6.63 is the pOH, from [OH⁻] = 2.3×10⁻⁷ M. Subtract it from 14.00 to get the pH.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-193",
+  "field": "x[3]",
+  "old": "This mixes up kJ and J.",
+  "new": "0.15 is ΔS° in kJ K⁻¹, because the slope is 90 kJ ÷ 600 K. Multiply by 1000 to get J K⁻¹.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-195",
+  "field": "x[1]",
+  "old": "This is reversed.",
+  "new": "This reverses the electrode roles. Cu is oxidized on the dilute side, adding Cu²⁺ there, and the cell runs to even out the two concentrations, so E can't increase.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-196",
+  "field": "x[1]",
+  "old": "This uses n = 1.",
+  "new": "1.40 V uses n = 1. The reaction transfers 3 mol of electrons, so divide by 3 × 96,485 C mol⁻¹.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-196",
+  "field": "x[2]",
+  "old": "This uses n = 2.",
+  "new": "0.700 V uses n = 2. The reaction transfers 3 mol of electrons, so divide by 3 × 96,485 C mol⁻¹.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-197",
+  "field": "x[1]",
+  "old": "This uses n = 1.",
+  "new": "−0.154 V uses n = 1, which doubles the result. Two electrons transfer, so use 0.0592 V/2.",
+  "why": "fuller wrong-answer reason"
+ }
+]

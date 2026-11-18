@@ -1,0 +1,503 @@
+[
+ {
+  "id": "am-31",
+  "t": "amines",
+  "d": 1,
+  "q": "What is the product when aniline is treated with NaNO<sub>2</sub> and aqueous HCl at 0–5 °C?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "HNO<sub>2</sub> in acid generates the nitrosonium ion, NO<sup>+</sup>. A primary arylamine has two N–H bonds to lose.",
+  "w": "NaNO<sub>2</sub> and HCl form HNO<sub>2</sub>, which gives NO<sup>+</sup>. The NH<sub>2</sub> nitrogen attacks NO<sup>+</sup> to give an N-nitrosamine, which tautomerizes and loses water to form the <b>benzenediazonium ion</b>, Ar–N≡N<sup>+</sup> (here as its chloride). Aryl diazonium salts are stable enough to use in solution below about 5 °C.",
+  "x": [
+   "",
+   "Phenol forms only when the diazonium solution is warmed in water; at 0–5 °C the diazonium salt persists.",
+   "The N-nitroso compound is the first intermediate for a 1° amine; it loses water to the diazonium ion. Stable N-nitrosamines come from 2° amines.",
+   "Nitrous acid does not oxidize the amine nitrogen to a nitro group; it transfers NO<sup>+</sup>."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "N#[N+]c1ccccc1.[Cl-]"
+   },
+   {
+    "smi": "Oc1ccccc1"
+   },
+   {
+    "smi": "O=NNc1ccccc1"
+   },
+   {
+    "smi": "[O-][N+](=O)c1ccccc1"
+   }
+  ]
+ },
+ {
+  "id": "am-32",
+  "t": "amines",
+  "d": 2,
+  "q": "What is the major product when N-methylaniline is treated with NaNO<sub>2</sub> and aqueous HCl at 0 °C?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "A 2° amine has only one N–H. After NO<sup>+</sup> bonds to nitrogen, can it lose water to form N≡N?",
+  "w": "The secondary nitrogen attacks NO<sup>+</sup> and loses its single N–H proton, giving an <b>N-nitrosamine</b>, Ar(CH<sub>3</sub>)N–N=O. With no second N–H, it cannot tautomerize and lose water, so no diazonium ion forms; the N-nitrosamine is the stable product (and such compounds are potent carcinogens).",
+  "x": [
+   "",
+   "Ring C-nitrosation at the para position is typical of 3° arylamines such as N,N-dimethylaniline, which have no N–H.",
+   "Forming a diazonium ion requires a 1° amine; this nitrogen would have to lose its methyl group.",
+   "Nitrous acid nitrosates (adds N=O); it does not deliver an NO<sub>2</sub> group to nitrogen."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "CN(N=O)c1ccccc1"
+   },
+   {
+    "smi": "CNc1ccc(N=O)cc1"
+   },
+   {
+    "smi": "N#[N+]c1ccccc1"
+   },
+   {
+    "smi": "CN(c1ccccc1)[N+](=O)[O-]"
+   }
+  ]
+ },
+ {
+  "id": "am-33",
+  "t": "amines",
+  "d": 2,
+  "q": "What is the final product of the sequence shown?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Follow each step in turn: diazotization, a Sandmeyer reaction, then a nitrile reaction under hot aqueous acid.",
+  "w": "Diazotization converts 4-methylaniline into its diazonium salt. CuCN replaces N<sub>2</sub><sup>+</sup> with CN (Sandmeyer), giving 4-methylbenzonitrile. Hot aqueous acid hydrolyzes the nitrile completely, through the amide, to the carboxylic acid: <b>4-methylbenzoic acid</b>.",
+  "x": [
+   "",
+   "4-Methylbenzonitrile is the product after step 2; heating with H<sub>3</sub>O<sup>+</sup> hydrolyzes the C≡N.",
+   "The diazonium group was already replaced by CN in step 2, so no diazonium is left to be converted into a phenol in step 3.",
+   "The amide is an intermediate in nitrile hydrolysis; prolonged heating with aqueous acid takes it on to the acid."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "Cc1ccc(N)cc1"
+   },
+   {
+    "arrow": "1. NaNO<sub>2</sub>, HCl, 0 °C",
+    "below": "2. CuCN<br>3. H<sub>3</sub>O<sup>+</sup>, heat"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "Cc1ccc(C(=O)O)cc1"
+   },
+   {
+    "smi": "Cc1ccc(C#N)cc1"
+   },
+   {
+    "smi": "Cc1ccc(O)cc1"
+   },
+   {
+    "smi": "Cc1ccc(C(N)=O)cc1"
+   }
+  ]
+ },
+ {
+  "id": "am-34",
+  "t": "amines",
+  "d": 3,
+  "q": "Which sequence gives 1,3,5-tribromobenzene from benzene?",
+  "c": [
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Sn, HCl; then NaOH  3. Br<sub>2</sub> (excess), H<sub>2</sub>O  4. NaNO<sub>2</sub>, HCl, 0 °C  5. H<sub>3</sub>PO<sub>2</sub>",
+   "1. Br<sub>2</sub> (3 equiv), FeBr<sub>3</sub>",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Sn, HCl; then NaOH  3. Br<sub>2</sub> (excess), H<sub>2</sub>O  4. NaNO<sub>2</sub>, HCl, 0 °C  5. CuBr",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Sn, HCl; then NaOH  3. Br<sub>2</sub> (excess), H<sub>2</sub>O  4. NaNO<sub>2</sub>, H<sub>2</sub>SO<sub>4</sub>, 0 °C  5. H<sub>2</sub>O, heat"
+  ],
+  "h": "The three Br atoms are meta to each other, yet Br is an o,p-director. Which group could place them, and then be removed without a trace?",
+  "w": "Bromines that are mutually meta can all be ortho/para to one strongly activating group. Nitration and reduction give aniline; aqueous Br<sub>2</sub> brominates every ortho and para position, giving 2,4,6-tribromoaniline. Diazotization and then H<sub>3</sub>PO<sub>2</sub> replace N<sub>2</sub><sup>+</sup> with H, removing the directing group: <b>1,3,5-tribromobenzene</b>.",
+  "x": [
+   "",
+   "Bromine directs ortho/para, so successive brominations of benzene give mainly 1,2,4-tribromobenzene, not the 1,3,5 isomer.",
+   "CuBr replaces N<sub>2</sub><sup>+</sup> with Br, giving 1,2,3,5-tetrabromobenzene; H<sub>3</sub>PO<sub>2</sub> is needed to replace it with H.",
+   "Heating the diazonium salt in water replaces N<sub>2</sub><sup>+</sup> with OH, giving 2,4,6-tribromophenol."
+  ],
+  "k": 0
+ },
+ {
+  "id": "am-35",
+  "t": "amines",
+  "d": 1,
+  "q": "Which sequence converts aniline into fluorobenzene?",
+  "c": [
+   "1. NaNO<sub>2</sub>, HCl, 0 °C  2. HBF<sub>4</sub>  3. heat",
+   "1. NaNO<sub>2</sub>, HCl, 0 °C  2. H<sub>3</sub>PO<sub>2</sub>",
+   "1. NaNO<sub>2</sub>, HCl, 0 °C  2. KF, H<sub>2</sub>O, heat",
+   "1. NaNO<sub>2</sub>, HCl, 0 °C  2. CuCl"
+  ],
+  "h": "Fluoride is introduced from a non-nucleophilic counterion that the dry diazonium salt carries with it.",
+  "w": "Adding HBF<sub>4</sub> to the diazonium solution precipitates the arenediazonium tetrafluoroborate. Heating the dry salt releases N<sub>2</sub> and BF<sub>3</sub> and delivers fluoride to the ring (the Balz–Schiemann reaction), giving <b>fluorobenzene</b>. Copper(I) fluoride is not used; Sandmeyer reactions cover Cl, Br and CN.",
+  "x": [
+   "",
+   "H<sub>3</sub>PO<sub>2</sub> replaces the diazonium group with hydrogen, giving benzene.",
+   "In hot water, the solvent captures the aryl cation and gives phenol; fluoride ion is a poor nucleophile in water.",
+   "CuCl is the Sandmeyer reagent for chlorobenzene, not fluorobenzene."
+  ],
+  "k": 0
+ },
+ {
+  "id": "am-36",
+  "t": "amines",
+  "d": 2,
+  "q": "What is the major product of the sequence shown?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Sulfuric acid is used instead of HCl in step 1. Which nucleophile is left to capture the aryl group in step 2?",
+  "w": "Diazotization gives the arenediazonium hydrogen sulfate. On warming in water the diazonium group leaves as N<sub>2</sub>, and water (the only good nucleophile present; HSO<sub>4</sub><sup>−</sup> is very weak) bonds to the ring carbon. Loss of H<sup>+</sup> gives <b>4-ethylphenol</b>. H<sub>2</sub>SO<sub>4</sub> rather than HCl is used to avoid aryl chloride by-products.",
+  "x": [
+   "",
+   "Replacement by H needs a reducing agent such as H<sub>3</sub>PO<sub>2</sub>; hot water gives the phenol.",
+   "No chloride is present (H<sub>2</sub>SO<sub>4</sub> was used), and replacing N<sub>2</sub><sup>+</sup> by Cl efficiently needs CuCl.",
+   "Nitrous acid converts a 1° arylamine into a diazonium ion; it does not oxidize the amine to a nitro group."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "CCc1ccc(N)cc1"
+   },
+   {
+    "arrow": "1. NaNO<sub>2</sub>, H<sub>2</sub>SO<sub>4</sub>, 0 °C",
+    "below": "2. H<sub>2</sub>O, heat"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "CCc1ccc(O)cc1"
+   },
+   {
+    "smi": "CCc1ccccc1"
+   },
+   {
+    "smi": "CCc1ccc(Cl)cc1"
+   },
+   {
+    "smi": "CCc1ccc(cc1)[N+](=O)[O-]"
+   }
+  ]
+ },
+ {
+  "id": "am-37",
+  "t": "amines",
+  "d": 2,
+  "q": "Benzenediazonium chloride is added to phenol in mildly basic solution (pH about 9). What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "The diazonium ion is a weak electrophile that attacks only a strongly activated ring. Where does the phenoxide ion direct, and which position is least hindered?",
+  "w": "At pH 9 some phenol is present as phenoxide, a very strongly activated ring. The terminal nitrogen of the diazonium ion is the electrophile in an electrophilic aromatic substitution, and coupling occurs <b>para</b> to O<sup>−</sup>, the least hindered activated position, giving 4-hydroxyazobenzene (an azo dye, drawn as the more stable <i>E</i> isomer).",
+  "x": [
+   "",
+   "Ortho coupling occurs only when the para position is blocked; the bulky electrophile prefers the open para position.",
+   "The meta position is not activated by OH or O<sup>−</sup>, so the weakly electrophilic diazonium ion does not attack there.",
+   "O-attack to form a diazo ether is not the observed outcome; diazonium ions couple at ring carbon to give the conjugated azo compound."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "Oc1ccc(cc1)/N=N/c1ccccc1"
+   },
+   {
+    "smi": "Oc1ccccc1/N=N/c1ccccc1"
+   },
+   {
+    "smi": "Oc1cccc(c1)/N=N/c1ccccc1"
+   },
+   {
+    "smi": "c1ccc(cc1)/N=N/Oc1ccccc1"
+   }
+  ]
+ },
+ {
+  "id": "am-38",
+  "t": "amines",
+  "d": 3,
+  "q": "Which arenediazonium ion reacts <b>fastest</b> in azo coupling with N,N-dimethylaniline?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "In azo coupling the diazonium ion is the electrophile. Which para substituent makes its terminal nitrogen most electron-poor?",
+  "w": "The rate depends on the electrophilicity of the terminal diazonium nitrogen. A para electron-withdrawing group increases the positive character of that nitrogen, while donors (CH<sub>3</sub>, and especially OCH<sub>3</sub>, which donates by resonance into the N≡N<sup>+</sup> group) make the ion more stable and less electrophilic. The <b>4-nitrobenzenediazonium ion</b> couples fastest.",
+  "x": [
+   "",
+   "A para OCH<sub>3</sub> donates electron density by resonance into the diazonium group, making it the least electrophilic and slowest to couple.",
+   "A para methyl group is weakly donating, so this ion is slightly less reactive than the unsubstituted one.",
+   "The unsubstituted ion lacks the electron-withdrawing nitro group that raises electrophilicity."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "N#[N+]c1ccc(cc1)[N+](=O)[O-]"
+   },
+   {
+    "smi": "COc1ccc(cc1)[N+]#N"
+   },
+   {
+    "smi": "Cc1ccc(cc1)[N+]#N"
+   },
+   {
+    "smi": "N#[N+]c1ccccc1"
+   }
+  ]
+ },
+ {
+  "id": "am-39",
+  "t": "amines",
+  "d": 3,
+  "q": "Which sequence converts nitrobenzene into 1-bromo-3-chlorobenzene?",
+  "c": [
+   "1. Cl<sub>2</sub>, FeCl<sub>3</sub>  2. Fe, HCl; then NaOH  3. NaNO<sub>2</sub>, HCl, 0 °C  4. CuBr",
+   "1. Fe, HCl; then NaOH  2. Cl<sub>2</sub>, FeCl<sub>3</sub>  3. NaNO<sub>2</sub>, HCl, 0 °C  4. CuBr",
+   "1. Cl<sub>2</sub>, FeCl<sub>3</sub>  2. Fe, HCl; then NaOH  3. NaNO<sub>2</sub>, HCl, 0 °C  4. Br<sub>2</sub>, FeBr<sub>3</sub>",
+   "1. Cl<sub>2</sub>, FeCl<sub>3</sub>  2. Fe, HCl; then NaOH  3. NaNO<sub>2</sub>, HCl, 0 °C  4. HBF<sub>4</sub>, heat"
+  ],
+  "h": "Use the nitro group as a meta director first, then turn it into something that can be swapped for Br.",
+  "w": "The nitro group directs chlorination meta (1-chloro-3-nitrobenzene). Reduction gives 3-chloroaniline, diazotization gives the 3-chlorobenzenediazonium ion, and the Sandmeyer reaction with CuBr replaces N<sub>2</sub><sup>+</sup> with Br: <b>chlorinate, reduce, diazotize, CuBr</b>.",
+  "x": [
+   "",
+   "Reducing first makes aniline, an o,p-director that is chlorinated at ortho and para positions (and more than once), so the meta relationship is lost.",
+   "Br<sub>2</sub>/FeBr<sub>3</sub> brominates ring C–H positions; it does not replace a diazonium group. CuBr is needed.",
+   "HBF<sub>4</sub> and heat replace the diazonium group with F, giving 1-chloro-3-fluorobenzene."
+  ],
+  "k": 0
+ },
+ {
+  "id": "am-40",
+  "t": "amines",
+  "d": 2,
+  "q": "Imidazole is protonated by one equivalent of HCl. Which atom accepts the proton?",
+  "c": [
+   "N <i>b</i>",
+   "N <i>a</i>",
+   "C <i>c</i>",
+   "N <i>a</i> and N <i>b</i> equally, giving two different cations"
+  ],
+  "h": "One nitrogen's lone pair is part of the aromatic sextet; the other's lies in the ring plane.",
+  "w": "N <i>a</i> (the N–H nitrogen) is pyrrole-like: its lone pair is in a p orbital and is part of the six π electrons. N <i>b</i> is pyridine-like: its lone pair is in an sp<sup>2</sup> orbital in the ring plane, so <b>N <i>b</i></b> can bond H<sup>+</sup> without disturbing aromaticity. The resulting imidazolium ion is aromatic and symmetric (the charge is shared equally by both N atoms by resonance), which is why imidazole (conjugate-acid pK<sub>a</sub> about 7.0) is a stronger base than pyridine (5.2).",
+  "x": [
+   "",
+   "Protonating the N–H nitrogen would use its lone pair, which is part of the aromatic sextet, giving a non-aromatic cation.",
+   "Protonating C2 would destroy aromaticity; ring carbon protonation is not competitive with the available nitrogen lone pair.",
+   "The two nitrogens are not equivalent in neutral imidazole: only N <i>b</i> has a lone pair outside the π system."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "c1c[n:2][cH:3][nH:1]1"
+   }
+  ]
+ },
+ {
+  "id": "am-41",
+  "t": "amines",
+  "d": 2,
+  "q": "Consider these statements about nitrogen heterocycles.<br>I. The nitrogen lone pair of pyridine occupies an sp<sup>2</sup> orbital in the ring plane and is not part of the aromatic π system.<br>II. The nitrogen lone pair of pyrrole occupies a p orbital and is one of the six π electrons of the ring.<br>III. Pyrrole is protonated mainly on nitrogen, giving an aromatic cation.<br>IV. Imidazole contains one pyridine-like nitrogen and one pyrrole-like nitrogen.<br>Which statements are true?",
+  "c": [
+   "I, II and IV only",
+   "I and II only",
+   "II, III and IV only",
+   "I, II, III and IV"
+  ],
+  "h": "For each ring, count π electrons and decide whether the N lone pair is needed to reach six.",
+  "w": "I is true: pyridine already has six π electrons from its three double bonds, so the lone pair lies in an sp<sup>2</sup> orbital in the ring plane. II is true: pyrrole needs the N lone pair in a p orbital to complete its sextet. III is false: N-protonation would remove the lone pair from the π system and destroy aromaticity, so pyrrole is a very weak base and protonates (when forced) on C2. IV is true: imidazole has an N–H nitrogen like pyrrole and an N= nitrogen like pyridine. Answer: <b>I, II and IV only</b>.",
+  "x": [
+   "",
+   "Statement IV is also true: imidazole has one nitrogen of each type.",
+   "Statement I is true and statement III is false; protonating pyrrole on N destroys its aromaticity.",
+   "Statement III is false: an N-protonated pyrrole is not aromatic, and pyrrole is protonated on carbon."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "c1ccncc1",
+    "cap": "pyridine"
+   },
+   {
+    "smi": "c1cc[nH]c1",
+    "cap": "pyrrole"
+   },
+   {
+    "smi": "c1c[nH]cn1",
+    "cap": "imidazole"
+   }
+  ]
+ },
+ {
+  "id": "am-42",
+  "t": "amines",
+  "d": 3,
+  "q": "Which sequence gives 3-bromotoluene (1-bromo-3-methylbenzene) from toluene? (Assume the para isomer is separated after nitration.)",
+  "c": [
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Fe, HCl; then NaOH  3. (CH<sub>3</sub>CO)<sub>2</sub>O  4. Br<sub>2</sub>  5. NaOH, H<sub>2</sub>O, heat  6. NaNO<sub>2</sub>, HCl, 0 °C  7. H<sub>3</sub>PO<sub>2</sub>",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Fe, HCl; then NaOH  3. Br<sub>2</sub>  4. NaNO<sub>2</sub>, HCl, 0 °C  5. H<sub>3</sub>PO<sub>2</sub>",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Fe, HCl; then NaOH  3. (CH<sub>3</sub>CO)<sub>2</sub>O  4. Br<sub>2</sub>  5. NaOH, H<sub>2</sub>O, heat  6. NaNO<sub>2</sub>, H<sub>2</sub>SO<sub>4</sub>, 0 °C  7. H<sub>2</sub>O, heat",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  2. Br<sub>2</sub>, FeBr<sub>3</sub>  3. Fe, HCl; then NaOH  4. NaNO<sub>2</sub>, HCl, 0 °C  5. H<sub>3</sub>PO<sub>2</sub>"
+  ],
+  "h": "CH<sub>3</sub> directs ortho/para, so a temporary, stronger director para to CH<sub>3</sub> must steer Br meta to CH<sub>3</sub>. Tame it so only one Br adds, then remove it.",
+  "w": "Nitration and reduction give 4-methylaniline. Acetylation makes the acetamido group, which still outranks CH<sub>3</sub> as a director but is mild enough for monobromination; Br enters ortho to NHAc, which is meta to CH<sub>3</sub>. Hydrolysis frees the amine, and diazotization followed by H<sub>3</sub>PO<sub>2</sub> replaces the nitrogen with H, leaving <b>3-bromotoluene</b>.",
+  "x": [
+   "",
+   "Without acetylation, the free NH<sub>2</sub> directs bromine to both of its ortho positions; after deamination the product is 3,5-dibromotoluene.",
+   "Hot water replaces the diazonium group with OH, giving 2-bromo-4-methylphenol instead of removing it.",
+   "With the nitro group still in place, bromination is directed by CH<sub>3</sub> (ortho to it, which is also meta to NO<sub>2</sub>); after removing the nitrogen the product is 2-bromotoluene, not 3-bromotoluene."
+  ],
+  "k": 0
+ },
+ {
+  "id": "am-43",
+  "t": "amines",
+  "d": 3,
+  "q": "4-(Dimethylamino)pyridine (DMAP, conjugate-acid pK<sub>a</sub> 9.6) is a much stronger base than pyridine (5.2). Which nitrogen is protonated, and why is DMAP so basic?",
+  "c": [
+   "N <i>b</i>; the lone pair on N <i>a</i> donates into the ring by resonance and delocalizes the positive charge of the cation onto N <i>a</i>",
+   "N <i>a</i>; it is a 3° alkylamine nitrogen with an undelocalized sp<sup>3</sup> lone pair",
+   "N <i>a</i>; the pyridine ring withdraws electrons from N <i>b</i>, leaving N <i>a</i> as the only basic site",
+   "N <i>b</i>; the dimethylamino group withdraws electron density inductively, which stabilizes the cation"
+  ],
+  "h": "Draw the cation from protonating the ring nitrogen. Can the dimethylamino lone pair share the positive charge?",
+  "w": "N <i>a</i> is attached to an aromatic ring, so its lone pair is conjugated with the ring like that of an aniline; it is not an ordinary alkylamine nitrogen. Protonation at the ring nitrogen <b>N <i>b</i></b> gives a cation with a resonance form C=N<sup>+</sup>(CH<sub>3</sub>)<sub>2</sub>, in which the positive charge is shared by both nitrogens (an amidinium-like ion). That extra resonance stabilization of the conjugate acid raises the pK<sub>a</sub> from 5.2 to 9.6.",
+  "x": [
+   "",
+   "N <i>a</i> is bonded to an aromatic carbon, so its lone pair is delocalized into the ring (like an aniline); protonating it would also lose that conjugation.",
+   "The ring nitrogen N <i>b</i> becomes more, not less, electron rich because N <i>a</i> donates into the ring.",
+   "The dimethylamino group raises the basicity by resonance donation; an inductive withdrawal would lower it."
+  ],
+  "k": 0,
+  "s": [
+   {
+    "smi": "C[N:1](C)c1cc[n:2]cc1"
+   }
+  ]
+ },
+ {
+  "id": "am-44",
+  "t": "amines",
+  "d": 1,
+  "q": "In which compound is the nitrogen lone pair <b>not</b> part of an aromatic π system?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Count the π electrons from double bonds alone. If the ring already has six, the lone pair stays out of the π system.",
+  "w": "In <b>pyridine</b> the three ring double bonds supply six π electrons; the N lone pair occupies an sp<sup>2</sup> orbital in the ring plane, perpendicular to the p orbitals. In pyrrole, N-methylpyrrole and indole the five-membered ring has only four π electrons from C=C bonds, so the N lone pair must sit in a p orbital to complete the aromatic sextet.",
+  "x": [
+   "",
+   "Pyrrole needs the N lone pair to give six π electrons, so it is part of the aromatic system.",
+   "N-Methylpyrrole is aromatic in the same way as pyrrole; the methyl group does not change where the lone pair is.",
+   "In indole the nitrogen lone pair is part of the aromatic π system of the five-membered (and the fused ten-electron) ring."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "c1ccncc1"
+   },
+   {
+    "smi": "c1cc[nH]c1"
+   },
+   {
+    "smi": "Cn1cccc1"
+   },
+   {
+    "smi": "c1ccc2[nH]ccc2c1"
+   }
+  ]
+ },
+ {
+  "id": "am-45",
+  "t": "amines",
+  "d": 3,
+  "q": "An amine C<sub>5</sub>H<sub>13</sub>N gives the mass spectrum shown, with a weak M<sup>+</sup> at m/z 87 and the base peak at m/z 30. Which structure fits?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Amines fragment by α-cleavage: the C–C bond next to the C–N carbon breaks, leaving a resonance-stabilized iminium ion. Work out the iminium mass for each candidate.",
+  "w": "An odd molecular ion (87) fits one nitrogen (nitrogen rule). α-Cleavage of <b>pentan-1-amine</b> breaks the C1–C2 bond and gives CH<sub>2</sub>=NH<sub>2</sub><sup>+</sup>, m/z 30, the base peak for amines with an unbranched RCH<sub>2</sub>NH<sub>2</sub> group. Each other isomer gives a heavier iminium ion because it carries extra carbon on the α carbon or on nitrogen.",
+  "x": [
+   "",
+   "Pentan-2-amine loses the propyl radical by α-cleavage to give CH<sub>3</sub>CH=NH<sub>2</sub><sup>+</sup>, m/z 44.",
+   "N-Methylbutan-1-amine loses a propyl radical to give CH<sub>2</sub>=NHCH<sub>3</sub><sup>+</sup>, m/z 44.",
+   "N,N-Dimethylpropan-1-amine loses an ethyl radical to give CH<sub>2</sub>=N(CH<sub>3</sub>)<sub>2</sub><sup>+</sup>, m/z 58."
+  ],
+  "k": 0,
+  "cs": [
+   {
+    "smi": "NCCCCC"
+   },
+   {
+    "smi": "CC(N)CCC"
+   },
+   {
+    "smi": "CNCCCC"
+   },
+   {
+    "smi": "CN(C)CCC"
+   }
+  ],
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      30,
+      100
+     ],
+     [
+      41,
+      9
+     ],
+     [
+      44,
+      4
+     ],
+     [
+      70,
+      3
+     ],
+     [
+      87,
+      6
+     ]
+    ],
+    "labels": {
+     "87": "M<sup>+</sup>"
+    }
+   }
+  ]
+ }
+]

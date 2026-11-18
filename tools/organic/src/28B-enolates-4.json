@@ -1,0 +1,529 @@
+[
+ {
+  "id": "enol-42",
+  "d": 3,
+  "q": "Cyclohexanone and methyl vinyl ketone are heated with NaOH in ethanol (Robinson annulation). What is the final product?",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   "+",
+   {
+    "smi": "C=CC(C)=O"
+   },
+   {
+    "arrow": "NaOH, EtOH",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C1CCC2CCCCC2=C1"
+   },
+   {
+    "smi": "CC(=O)CCC1CCCCC1=O"
+   },
+   {
+    "smi": "OC12CCCCC1CCC(=O)C2"
+   },
+   {
+    "smi": "O=C1CC2=CCCCC2CC1"
+   }
+  ],
+  "h": "Step 1: Michael addition gives a 1,5-diketone. Step 2: the methyl-ketone enolate attacks the ring C=O to close a six-membered ring. Step 3: heat. Where does the C=C end up?",
+  "w": "The cyclohexanone enolate adds 1,4 to MVK, giving 2-(3-oxobutyl)cyclohexanone. The enolate of the side-chain CH<sub>3</sub> then attacks the ring C=O, closing a new six-membered ring (intramolecular aldol). With heat the β-hydroxy ketone dehydrates (E1cB) so that the new C=C is <b>conjugated with the C=O</b>: <b>the bicyclic enone A</b> (C<sub>10</sub>H<sub>14</sub>O, octahydronaphthalen-2-one).",
+  "x": [
+   "",
+   "This is the Michael adduct, the intermediate after step 1. Under NaOH with heat it continues to the intramolecular aldol condensation.",
+   "This β-hydroxy ketone is the aldol addition intermediate; heating with base dehydrates it to the enone.",
+   "Here the C=C is β,γ to the carbonyl. E1cB dehydration forms the C=C between the α- and β-carbons, giving the more stable conjugated enone."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-43",
+  "d": 3,
+  "q": "Which starting materials give the bicyclic enone shown by a Robinson annulation (NaOH, heat)?",
+  "s": [
+   {
+    "smi": "O=C1CCC2(C)CCCCC2=C1",
+    "cap": "target"
+   }
+  ],
+  "c": [
+   "2-Methylcyclohexanone and methyl vinyl ketone",
+   "Cyclohexanone and (<i>E</i>)-pent-3-en-2-one",
+   "2-Methylcyclohexanone and propenal (acrolein)",
+   "2-Methylcyclohexane-1,3-dione and methyl vinyl ketone"
+  ],
+  "h": "Undo the aldol (break the C=C, restore the ring C=O), then undo the Michael addition. Which ring carbon bonded to the side chain, and what is on it?",
+  "w": "Retro-aldol of the enone gives the 1,5-diketone: a cyclohexanone whose α-carbon carries both the CH<sub>3</sub> (the angular methyl) and a CH<sub>2</sub>CH<sub>2</sub>C(=O)CH<sub>3</sub> chain. Retro-Michael splits that into <b>2-methylcyclohexanone</b> (its more substituted α-carbon was the nucleophile) and <b>methyl vinyl ketone</b>. Michael additions run under equilibrating base, so the more substituted enolate of 2-methylcyclohexanone reacts, placing the methyl at the ring fusion.",
+  "x": [
+   "",
+   "With pent-3-en-2-one the extra CH<sub>3</sub> ends up on the β-carbon of the acceptor, i.e., on the new ring next to the ring fusion, not on the ring-fusion carbon.",
+   "Acrolein has no methyl ketone; after the Michael step there is no CH<sub>3</sub>C=O whose enolate can close the six-membered enone ring.",
+   "The 1,3-dione would leave an extra ketone in the product (this route gives the Wieland–Miescher ketone, C<sub>11</sub>H<sub>14</sub>O<sub>2</sub>)."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-44",
+  "d": 2,
+  "q": "Which compound is <b>not</b> a Michael acceptor?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)CC=C"
+   },
+   {
+    "smi": "C=CC#N"
+   },
+   {
+    "smi": "C=CC(=O)OCC"
+   },
+   {
+    "smi": "O=C1C=CCC1"
+   }
+  ],
+  "h": "A Michael acceptor has its C=C conjugated with an electron-withdrawing group, so the β-carbon is electrophilic.",
+  "w": "Conjugate addition requires the C=C to be <b>conjugated</b> with the C=O (or C≡N), which makes the β-carbon δ+. In <b>pent-4-en-2-one</b> a CH<sub>2</sub> separates the C=C from the C=O (a β,γ-unsaturated ketone), so the alkene is isolated and not electrophilic.",
+  "x": [
+   "",
+   "Acrylonitrile's C=C is conjugated with C≡N, so its terminal CH<sub>2</sub> is an electrophilic β-carbon.",
+   "Ethyl acrylate is an α,β-unsaturated ester, a classic Michael acceptor.",
+   "Cyclopent-2-enone is an α,β-unsaturated ketone; nucleophiles add at the ring β-carbon."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-45",
+  "d": 2,
+  "q": "What is the final product of this Stork enamine sequence?",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   {
+    "arrow": "1. pyrrolidine, H<sup>+</sup> (cat.), −H<sub>2</sub>O  2. CH<sub>2</sub>=CHCH<sub>2</sub>Br",
+    "below": "3. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CCC1CCCCC1=O"
+   },
+   {
+    "smi": "C=CCC1(O)CCCCC1"
+   },
+   {
+    "smi": "C=CCC1CCCC(CC=C)C1=O"
+   },
+   {
+    "smi": "C=CCOC1=CCCCC1"
+   }
+  ],
+  "h": "An enamine is a neutral enolate equivalent. Which carbon of the enamine is nucleophilic, and what does aqueous acid do at the end?",
+  "w": "Pyrrolidine and cyclohexanone form the enamine. Its α-carbon (nucleophilic through the N lone pair) attacks allyl bromide by S<sub>N</sub>2, giving an iminium ion. Aqueous acid hydrolyzes the iminium back to the ketone, releasing pyrrolidine: <b>2-allylcyclohexanone</b>. Because the alkylated iminium is not deprotonated again under these conditions, enamine alkylation stops cleanly at one alkyl group.",
+  "x": [
+   "",
+   "This tertiary alcohol would come from an allyl Grignard adding to the C=O; enamines react at the α-carbon, not at the carbonyl carbon.",
+   "Stork enamine alkylation stops after one alkylation because the product is an iminium ion, not a neutral enamine.",
+   "Enamines react at carbon; there is no oxygen on the enamine to be alkylated, and hydrolysis regenerates the C=O."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-46",
+  "d": 1,
+  "q": "Which structure is the product formed when cyclohexanone is heated with pyrrolidine and a catalytic amount of acid, with removal of water?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1CCN(C1)C1=CCCCC1"
+   },
+   {
+    "smi": "C1CCC(N2CCCC2)CC1"
+   },
+   {
+    "smi": "OC1(N2CCCC2)CCCCC1"
+   },
+   {
+    "smi": "C1CC[N+](C1)=C1CCCCC1"
+   }
+  ],
+  "h": "A secondary amine cannot form a neutral imine. After water is lost, where must the proton come from?",
+  "w": "A secondary amine adds to the C=O to give a carbinolamine, which loses water to form an iminium ion. The iminium N has no H to lose, so an α-H is removed instead, giving the neutral <b>enamine A</b> (C=C–N).",
+  "x": [
+   "",
+   "This saturated amine is the product of reductive amination (with NaBH<sub>3</sub>CN); no reducing agent is present.",
+   "The carbinolamine is an intermediate; with acid and removal of water it loses H<sub>2</sub>O.",
+   "The iminium ion is also an intermediate; loss of an α-proton gives the neutral enamine that is isolated."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-47",
+  "d": 3,
+  "q": "The pyrrolidine enamine of cyclohexanone is heated with methyl vinyl ketone in dioxane, and then aqueous acid is added. What is the product?",
+  "s": [
+   {
+    "smi": "C1CCN(C1)C1=CCCCC1"
+   },
+   {
+    "arrow": "1. CH<sub>2</sub>=CHCOCH<sub>3</sub>",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)CCC1CCCCC1=O"
+   },
+   {
+    "smi": "O=C1CCC2CCCCC2=C1"
+   },
+   {
+    "smi": "C=CC(C)(O)C1CCCCC1=O"
+   },
+   {
+    "smi": "CC(=O)CCN1CCCC1"
+   }
+  ],
+  "h": "The enamine is a soft nucleophile. Does it add at the C=O or at the β-carbon of the enone? No hydroxide base is present for a later aldol step.",
+  "w": "The enamine α-carbon adds to the β-carbon of MVK (Stork–Michael reaction). Hydrolysis of the resulting iminium/enamine with aqueous acid gives the 1,5-diketone <b>2-(3-oxobutyl)cyclohexanone</b>. Closing the second ring (Robinson annulation) requires a separate base/heat step.",
+  "x": [
+   "",
+   "This is the Robinson annulation product; it needs base (e.g., NaOH or NaOMe) with heat to effect the intramolecular aldol condensation after the Michael step.",
+   "Enamines, like other soft, stabilized nucleophiles, add 1,4 to enones rather than 1,2 to the C=O.",
+   "This would be the product of free pyrrolidine adding to MVK. The amine is bound up as the enamine, whose nucleophilic site is carbon."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-48",
+  "d": 2,
+  "q": "Diethyl malonate and cyclohex-2-en-1-one are treated with catalytic NaOEt in ethanol. What is the major product (before any hydrolysis)?",
+  "s": [
+   {
+    "smi": "CCOC(=O)CC(=O)OCC"
+   },
+   "+",
+   {
+    "smi": "O=C1C=CCCC1"
+   },
+   {
+    "arrow": "NaOEt (cat.)",
+    "below": "EtOH"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(=O)C(C(=O)OCC)C1CCCC(=O)C1"
+   },
+   {
+    "smi": "CCOC(=O)C(C(=O)OCC)C1(O)C=CCCC1"
+   },
+   {
+    "smi": "CCOC(=O)C(C(=O)OCC)C1CCCCC1=O"
+   },
+   {
+    "smi": "CCOC(=O)C(=C1C=CCCC1)C(=O)OCC"
+   }
+  ],
+  "h": "Is the malonate anion a hard or a soft nucleophile? Which carbon of the enone is the soft electrophilic site?",
+  "w": "The malonate anion is a stabilized (soft) nucleophile, so it adds to the <b>β-carbon</b> of the enone (Michael addition). Protonation of the resulting enolate at the α-carbon gives <b>diethyl 2-(3-oxocyclohexyl)malonate</b>, with the malonate on C3 of the cyclohexanone.",
+  "x": [
+   "",
+   "1,2-Addition to the C=O is reversible for stabilized anions; the 1,4-adduct, which keeps the strong C=O bond, is the thermodynamic product.",
+   "This attaches the malonate to the α-carbon (C2). In conjugate addition the nucleophile bonds to the β-carbon (C3), and the α-carbon is protonated.",
+   "A Knoevenagel-type product requires condensation with the C=O and loss of water; malonate with an enone under catalytic base undergoes Michael addition."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-49",
+  "d": 2,
+  "q": "4-Methylpent-3-en-2-one is treated with lithium dimethylcuprate, and the reaction is then quenched with aqueous NH<sub>4</sub>Cl. What is the product?",
+  "s": [
+   {
+    "smi": "CC(=O)C=C(C)C"
+   },
+   {
+    "arrow": "1. (CH<sub>3</sub>)<sub>2</sub>CuLi",
+    "below": "2. H<sub>3</sub>O<sup>+</sup> (NH<sub>4</sub>Cl)"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)CC(C)(C)C"
+   },
+   {
+    "smi": "CC(C)=CC(C)(C)O"
+   },
+   {
+    "smi": "CC(=O)C(C)=C(C)C"
+   },
+   {
+    "smi": "CC(=O)CC(C)C"
+   }
+  ],
+  "h": "Gilman reagents are soft carbon nucleophiles. Which carbon of an α,β-unsaturated ketone do they attack?",
+  "w": "Lithium dialkylcuprates add a carbon group to the <b>β-carbon</b> of α,β-unsaturated ketones (1,4-addition), even when that carbon is disubstituted. The enolate is protonated on workup to give <b>4,4-dimethylpentan-2-one</b>, with a new quaternary carbon.",
+  "x": [
+   "",
+   "This tertiary allylic alcohol is the 1,2-addition product typical of CH<sub>3</sub>Li or CH<sub>3</sub>MgBr, not of a cuprate.",
+   "Methyl on the α-carbon with the C=C intact would require substitution of a vinyl H; cuprates add across the C=C instead.",
+   "This is the product of reducing the C=C (adding H, not CH<sub>3</sub>); the cuprate delivers a methyl group to the β-carbon."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-50",
+  "d": 2,
+  "q": "Which reagent carries out the transformation shown?",
+  "s": [
+   {
+    "smi": "O=C1C=CCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CC1(O)C=CCCC1"
+   }
+  ],
+  "c": [
+   "1. CH<sub>3</sub>MgBr, ether  2. H<sub>3</sub>O<sup>+</sup>",
+   "1. (CH<sub>3</sub>)<sub>2</sub>CuLi, ether  2. H<sub>3</sub>O<sup>+</sup>",
+   "1. LDA, THF, −78 °C  2. CH<sub>3</sub>I",
+   "CH<sub>2</sub>(CO<sub>2</sub>Et)<sub>2</sub>, NaOEt (cat.), EtOH"
+  ],
+  "h": "The product is an alcohol with the C=C still in place. Was the methyl added to the carbonyl carbon or to the β-carbon?",
+  "w": "The methyl group and the OH are on the former carbonyl carbon, and the ring C=C is untouched: this is <b>1,2-addition</b>. Hard, highly reactive organometallics such as <b>CH<sub>3</sub>MgBr</b> (or CH<sub>3</sub>Li) add directly and irreversibly to the C=O of cyclohex-2-enone, giving 1-methylcyclohex-2-en-1-ol after workup.",
+  "x": [
+   "",
+   "Gilman reagents add 1,4; the product would be 3-methylcyclohexanone, with the C=O retained.",
+   "LDA/CH<sub>3</sub>I alkylates an α-carbon of the ketone (C6) and keeps the C=O; it does not create an alcohol.",
+   "Malonate is a soft stabilized nucleophile that gives the Michael (1,4) adduct, and it would add a CH(CO<sub>2</sub>Et)<sub>2</sub> group, not a methyl."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-51",
+  "d": 3,
+  "q": "What is the major product of this one-pot sequence (ignore stereochemistry)?",
+  "s": [
+   {
+    "smi": "O=C1C=CCCC1"
+   },
+   {
+    "arrow": "1. (CH<sub>3</sub>)<sub>2</sub>CuLi, THF",
+    "below": "2. CH<sub>3</sub>I"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1CCCC(=O)C1C"
+   },
+   {
+    "smi": "CC1CCCC(=O)C1"
+   },
+   {
+    "smi": "CC1CCC(C)C(=O)C1"
+   },
+   {
+    "smi": "CC1(O)C=CCCC1"
+   }
+  ],
+  "h": "Conjugate addition leaves an enolate. Which carbon of that enolate is nucleophilic, and is anything there to protonate it before CH<sub>3</sub>I is added?",
+  "w": "The cuprate adds CH<sub>3</sub> to C3 (1,4-addition), generating a specific lithium enolate with its C=C between C1 and <b>C2</b>. No proton source is present, so this enolate is trapped by CH<sub>3</sub>I at C2, the carbon between the carbonyl and the new methyl. The product is <b>2,3-dimethylcyclohexanone</b> (mainly trans).",
+  "x": [
+   "",
+   "3-Methylcyclohexanone forms if the enolate is protonated (aqueous workup) instead of being alkylated; here CH<sub>3</sub>I traps it.",
+   "Methylation at C6 would need the other enolate. Conjugate addition generates the enolate regiospecifically toward C2, and it does not equilibrate at low temperature with no proton source.",
+   "This tertiary allylic alcohol is the 1,2-adduct formed by CH<sub>3</sub>MgBr or CH<sub>3</sub>Li, not by a cuprate."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-52",
+  "d": 3,
+  "q": "Which pair of esters, with NaOEt followed by acid workup, gives the target by a crossed Claisen condensation as the main product?",
+  "s": [
+   {
+    "smi": "CCOC(=O)C(C)C(=O)c1ccccc1",
+    "cap": "target"
+   }
+  ],
+  "c": [
+   "Ethyl benzoate (excess) and ethyl propanoate",
+   "Ethyl benzoate (excess) and ethyl acetate",
+   "Ethyl phenylacetate and ethyl acetate",
+   "Ethyl 2-phenylpropanoate and ethyl formate"
+  ],
+  "h": "Disconnect the bond between the ketone C=O carbon and the α-carbon (the CH bearing CH<sub>3</sub> and CO<sub>2</sub>Et). Which piece is the acyl electrophile and which is the ester enolate?",
+  "w": "The Claisen bond joins the ketone carbonyl carbon to the α-carbon between the two C=O groups. The acyl piece is PhC(=O)–, from <b>ethyl benzoate</b> (no α-H, so it is only an electrophile; used in excess). The enolate piece is –CH(CH<sub>3</sub>)CO<sub>2</sub>Et, from <b>ethyl propanoate</b>. The product still has one H on the central carbon, so the final deprotonation drives the reaction.",
+  "x": [
+   "",
+   "Ethyl acetate supplies a CH<sub>2</sub>, giving ethyl benzoylacetate (no CH<sub>3</sub> on the central carbon).",
+   "Here the ring is on the α-carbon side and a CH<sub>3</sub>CO group is the acyl piece; the product would be ethyl 3-oxo-2-phenylbutanoate or its isomer, not a phenyl ketone.",
+   "Ethyl formate transfers a CHO group, giving an aldehyde. The resulting product would also have no H between the carbonyls, so the Claisen would not be driven to completion."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-53",
+  "d": 1,
+  "q": "A Robinson annulation combines which two reactions, in which order?",
+  "c": [
+   "Michael addition, then intramolecular aldol condensation",
+   "Intramolecular aldol condensation, then Michael addition",
+   "Claisen condensation, then Michael addition",
+   "Michael addition, then Dieckmann condensation"
+  ],
+  "h": "The first step joins a ketone enolate to an α,β-unsaturated ketone; the second step forms the new ring and the C=C.",
+  "w": "Robinson annulation is a <b>Michael addition</b> of an enolate to an α,β-unsaturated ketone (usually methyl vinyl ketone), giving a 1,5-diketone, followed by an <b>intramolecular aldol condensation</b> that closes a cyclohexenone ring.",
+  "x": [
+   "",
+   "The order is reversed: the 1,5-diketone needed for ring closure exists only after the Michael step.",
+   "No ester or alkoxide leaving group is involved; the new ring forms by enolate addition to a ketone (aldol), not by acyl substitution.",
+   "A Dieckmann condensation is an intramolecular Claisen of a diester; the annulation closes the ring by an aldol reaction between two ketones."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-54",
+  "d": 3,
+  "q": "The pyrrolidine enamine of cyclohexanone is treated with acetyl chloride, and the product is then hydrolyzed with aqueous acid. What is the final product?",
+  "s": [
+   {
+    "smi": "C1CCN(C1)C1=CCCCC1"
+   },
+   {
+    "arrow": "1. CH<sub>3</sub>COCl",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)C1CCCCC1=O"
+   },
+   {
+    "smi": "CC(=O)OC1=CCCCC1"
+   },
+   {
+    "smi": "CC(=O)C1CCCC(C(C)=O)C1=O"
+   },
+   {
+    "smi": "CC(=O)CC1CCCCC1=O"
+   }
+  ],
+  "h": "The enamine's nucleophilic carbon attacks the acyl chloride. What functional group results after hydrolysis of the iminium?",
+  "w": "The enamine α-carbon attacks the acid chloride (nucleophilic acyl substitution, Cl<sup>−</sup> leaves), giving an acylated iminium/enamine. Hydrolysis regenerates the ring ketone, producing the β-diketone <b>2-acetylcyclohexanone</b>. Stork acylation is a mild route to 1,3-dicarbonyl compounds.",
+  "x": [
+   "",
+   "An enol acetate would need acylation on oxygen; the enamine has no oxygen and reacts at carbon.",
+   "One equivalent of acid chloride acylates once; the product iminium is not a nucleophile, so the second α-carbon is not acylated.",
+   "This puts an extra CH<sub>2</sub> between the ring and the acetyl group; it would come from alkylation with chloroacetone, not acylation with acetyl chloride."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-55",
+  "d": 3,
+  "q": "Which pair of compounds gives the 1,5-diketone shown in one C–C bond-forming step (Michael addition, then workup)?",
+  "s": [
+   {
+    "smi": "O=C(CCC1CCCCC1=O)c1ccccc1",
+    "cap": "target"
+   }
+  ],
+  "c": [
+   "Cyclohexanone pyrrolidine enamine and phenyl vinyl ketone",
+   "Cyclohex-2-en-1-one and the enolate of acetophenone",
+   "Cyclohexanone and benzaldehyde with NaOH",
+   "Cyclohexanone and ethyl benzoate with NaOEt"
+  ],
+  "h": "Number the chain from one C=O carbon (C1) to the other (C5). The Michael bond joins the donor's α-carbon to the acceptor's β-carbon. Which bond is that?",
+  "w": "A 1,5-dicarbonyl is disconnected at the bond between the α-carbon of one carbonyl and the β-carbon of the other. The ring α-carbon (C2) bonds to CH<sub>2</sub>CH<sub>2</sub>COPh, so the donor is <b>cyclohexanone</b> (enolate or enamine) and the acceptor is <b>CH<sub>2</sub>=CHCOPh</b>; the donor's α-carbon adds to the acceptor's terminal β-carbon.",
+  "x": [
+   "",
+   "Acetophenone enolate adds to C3 of cyclohexenone, giving 3-(2-oxo-2-phenylethyl)cyclohexanone: the side chain is on C3 and has only one CH<sub>2</sub>.",
+   "A crossed aldol with benzaldehyde gives 2-benzylidenecyclohexanone (or its β-hydroxy ketone), a 1,3-relationship, not a 1,5-diketone.",
+   "A crossed Claisen with ethyl benzoate gives 2-benzoylcyclohexanone, a 1,3-diketone."
+  ],
+  "t": "enolates",
+  "k": 0
+ }
+]

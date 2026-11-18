@@ -1,0 +1,1238 @@
+[
+ {
+  "id": "spectro-21",
+  "t": "spectro",
+  "d": 1,
+  "k": 0,
+  "q": "A compound with molecular formula C<sub>10</sub>H<sub>13</sub>NO<sub>2</sub> contains a benzene ring. What is its degree of unsaturation (DBE)?",
+  "c": [
+   "5",
+   "4",
+   "6",
+   "10"
+  ],
+  "h": "DBE = (2C + 2 + N − H)/2. Oxygen does not change the count; each N adds one.",
+  "w": "DBE = (2·10 + 2 + 1 − 13)/2 = 10/2 = <b>5</b>. The benzene ring uses 4, so there is exactly one more ring or π bond (for example an amide or ester C=O).",
+  "x": [
+   "",
+   "4 comes from subtracting the N instead of adding it: (22 − 1 − 13)/2. Nitrogen brings an extra H to a saturated formula, so it is added.",
+   "6 comes from treating each O like N; oxygen is divalent and does not change the H count of a saturated formula.",
+   "10 is the value of (2C + 2 + N − H) before dividing by 2; each degree of unsaturation removes two H, so the difference must be halved."
+  ]
+ },
+ {
+  "id": "spectro-22",
+  "t": "spectro",
+  "d": 3,
+  "k": 0,
+  "q": "A compound C<sub>9</sub>H<sub>8</sub>O gives the IR and <sup>1</sup>H NMR spectra shown. The δ 7.49 doublet and δ 6.72 dd share a 16 Hz coupling, and the δ 6.72 dd and δ 9.70 doublet share a 7.7 Hz coupling. Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3030,
+      "str": "w"
+     },
+     {
+      "cm": 2815,
+      "str": "w"
+     },
+     {
+      "cm": 2740,
+      "str": "w"
+     },
+     {
+      "cm": 1680,
+      "str": "s"
+     },
+     {
+      "cm": 1625,
+      "str": "m"
+     },
+     {
+      "cm": 750,
+      "str": "m"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 9.7,
+      "mult": "d",
+      "int": 1
+     },
+     {
+      "ppm": 7.56,
+      "mult": "m",
+      "int": 2
+     },
+     {
+      "ppm": 7.49,
+      "mult": "d",
+      "int": 1
+     },
+     {
+      "ppm": 7.43,
+      "mult": "m",
+      "int": 3
+     },
+     {
+      "ppm": 6.72,
+      "mult": "dd",
+      "int": 1
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C/C=C/c1ccccc1"
+   },
+   {
+    "smi": "OC(C#C)c1ccccc1"
+   },
+   {
+    "smi": "O=C1CCc2ccccc21"
+   },
+   {
+    "smi": "C=CC(=O)c1ccccc1"
+   }
+  ],
+  "h": "DBE = 6. Which proton appears near δ 9.7 and why is it a doublet? What does J = 16 Hz say about a C=C?",
+  "w": "DBE = (18 + 2 − 8)/2 = 6: a benzene ring plus two more (C=O and C=C). The δ 9.70 H with IR 2815/2740 cm<sup>−1</sup> is an aldehyde H; it is a doublet because it is coupled to one vinyl H (δ 6.72). That vinyl H is also coupled (J = 16 Hz, trans) to the δ 7.49 H on the carbon bearing the phenyl group. The C=O at 1680 cm<sup>−1</sup> is lowered by conjugation. The compound is <b>(E)-3-phenylprop-2-enal</b> (cinnamaldehyde).",
+  "x": [
+   "",
+   "1-Phenylprop-2-yn-1-ol would show a broad O–H near 3350 cm<sup>−1</sup>, a sharp ≡C–H near 3290 cm<sup>−1</sup>, no C=O band, and no signal near δ 9.7.",
+   "1-Indanone has four 1H aromatic signals, two 2H triplet-like CH<sub>2</sub> signals near δ 3.1 and 2.7, and no aldehyde H.",
+   "1-Phenylprop-2-en-1-one has a terminal =CH<sub>2</sub> (two vinyl H near δ 5.9 and 6.4 plus a dd near δ 7.1) and no aldehyde H near δ 9.7."
+  ]
+ },
+ {
+  "id": "spectro-23",
+  "t": "spectro",
+  "d": 2,
+  "k": 1,
+  "q": "Natural chlorine is 75.8% <sup>35</sup>Cl and 24.2% <sup>37</sup>Cl. What relative intensities are expected for the M, M+2 and M+4 peaks of 1,4-dichlorobenzene (ignore <sup>13</sup>C)?",
+  "s": [
+   {
+    "smi": "Clc1ccc(Cl)cc1"
+   }
+  ],
+  "c": [
+   "100 : 64 : 10",
+   "100 : 32 : 0",
+   "100 : 64 : 0",
+   "100 : 196 : 96"
+  ],
+  "h": "Each Cl is independently 35 or 37. Multiply probabilities for the three combinations (35,35), (35,37 two ways), (37,37).",
+  "w": "P(M) = 0.758² = 0.575; P(M+2) = 2(0.758)(0.242) = 0.367; P(M+4) = 0.242² = 0.0586. Dividing by 0.575: <b>100 : 64 : 10</b> (close to the 9 : 6 : 1 rule for Cl<sub>2</sub>).",
+  "x": [
+   "",
+   "100 : 32 is the pattern for one Cl (3 : 1). With two Cl atoms the chance that at least one is <sup>37</sup>Cl roughly doubles, and an M+4 peak appears.",
+   "The M+2 value is right, but a molecule with both Cl atoms as <sup>37</sup>Cl (0.242² ≈ 6%) gives a real M+4 peak.",
+   "100 : 196 : 96 (≈ 1 : 2 : 1) is the pattern for two Br atoms, whose isotopes are nearly 50 : 50."
+  ]
+ },
+ {
+  "id": "spectro-24",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "A compound gives the mass spectrum and <sup>1</sup>H NMR spectrum shown. Which structure fits?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      184,
+      10
+     ],
+     [
+      186,
+      10
+     ],
+     [
+      105,
+      100
+     ],
+     [
+      103,
+      15
+     ],
+     [
+      77,
+      30
+     ],
+     [
+      51,
+      12
+     ]
+    ],
+    "labels": {
+     "184": "M<sup>+</sup>"
+    }
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.4,
+      "mult": "m",
+      "int": 2
+     },
+     {
+      "ppm": 7.33,
+      "mult": "m",
+      "int": 3
+     },
+     {
+      "ppm": 5.21,
+      "mult": "q",
+      "int": 1
+     },
+     {
+      "ppm": 2.04,
+      "mult": "d",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(Br)c1ccccc1"
+   },
+   {
+    "smi": "BrCCc1ccccc1"
+   },
+   {
+    "smi": "CCc1ccc(Br)cc1"
+   },
+   {
+    "smi": "CC(Cl)c1ccccc1"
+   }
+  ],
+  "h": "The 1 : 1 pair at the top of the spectrum tells you the halogen. The CH<sub>3</sub> splitting tells you its neighbor.",
+  "w": "M<sup>+</sup> at m/z 184/186 in a 1 : 1 ratio means one Br (C<sub>8</sub>H<sub>9</sub>Br). The base peak at m/z 105 is M − Br, a stabilized secondary benzylic cation. In the NMR, the 3H doublet (δ 2.04) and 1H quartet (δ 5.21) form a CH–CH<sub>3</sub> unit; the CH is far downfield because it carries both Br and Ph. With a 5H ring, the compound is <b>(1-bromoethyl)benzene</b>.",
+  "x": [
+   "",
+   "(2-Bromoethyl)benzene has –CH<sub>2</sub>CH<sub>2</sub>Br: two 2H triplets near δ 3.55 and 3.15, no 3H doublet.",
+   "1-Bromo-4-ethylbenzene has the Br on the ring: two 2H doublets (4 ArH) and an ethyl quartet near δ 2.6 and triplet near δ 1.2.",
+   "(1-Chloroethyl)benzene would give M<sup>+</sup> at m/z 140/142 in a 3 : 1 ratio."
+  ]
+ },
+ {
+  "id": "spectro-25",
+  "t": "spectro",
+  "d": 3,
+  "k": 0,
+  "q": "A compound C<sub>8</sub>H<sub>11</sub>N shows one medium IR band at 3410 cm<sup>−1</sup> and the <sup>1</sup>H NMR spectrum shown (the δ 3.55 signal exchanges with D<sub>2</sub>O). Which structure fits?",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.18,
+      "mult": "t",
+      "int": 2
+     },
+     {
+      "ppm": 6.7,
+      "mult": "t",
+      "int": 1
+     },
+     {
+      "ppm": 6.61,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 3.55,
+      "mult": "br s",
+      "int": 1
+     },
+     {
+      "ppm": 3.13,
+      "mult": "q",
+      "int": 2
+     },
+     {
+      "ppm": 1.24,
+      "mult": "t",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCNc1ccccc1"
+   },
+   {
+    "smi": "CCc1ccc(N)cc1"
+   },
+   {
+    "smi": "CN(C)c1ccccc1"
+   },
+   {
+    "smi": "CNCc1ccccc1"
+   }
+  ],
+  "h": "One N–H band means a secondary amine. Then decide whether the CH<sub>2</sub> quartet at δ 3.13 is on N or on the ring, and look at the aromatic shifts.",
+  "w": "One N–H stretch and a 1H exchangeable signal mean a secondary amine (N–H). The aromatic H are 5H in a 2:1:2 pattern with the ortho (δ 6.61) and para (δ 6.70) H shifted upfield by the electron-donating NH group, so N is on the ring. The ethyl CH<sub>2</sub> quartet at δ 3.13 is on N (an Ar–CH<sub>2</sub> would be near δ 2.6). The compound is <b>N-ethylaniline</b>.",
+  "x": [
+   "",
+   "4-Ethylaniline is a primary amine (two N–H bands, 2H NH<sub>2</sub>), para-disubstituted (two 2H doublets), with its CH<sub>2</sub> quartet near δ 2.55.",
+   "N,N-Dimethylaniline has no N–H at all and shows a 6H singlet near δ 2.9.",
+   "N-Methylbenzylamine has an ordinary 5H phenyl multiplet near δ 7.3 (N is not on the ring) and two singlets (CH<sub>2</sub> near δ 3.75, CH<sub>3</sub> near δ 2.45)."
+  ]
+ },
+ {
+  "id": "spectro-26",
+  "t": "spectro",
+  "d": 3,
+  "k": 0,
+  "q": "A compound C<sub>10</sub>H<sub>10</sub>O<sub>3</sub> shows strong IR bands at 1725 and 1685 cm<sup>−1</sup> and the <sup>1</sup>H and <sup>13</sup>C NMR spectra shown. Which structure fits?",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 8.11,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 8.01,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 3.95,
+      "mult": "s",
+      "int": 3
+     },
+     {
+      "ppm": 2.64,
+      "mult": "s",
+      "int": 3
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "13C",
+    "peaks": [
+     {
+      "ppm": 197.6
+     },
+     {
+      "ppm": 166.3
+     },
+     {
+      "ppm": 140.2
+     },
+     {
+      "ppm": 133.9
+     },
+     {
+      "ppm": 129.8
+     },
+     {
+      "ppm": 128.2
+     },
+     {
+      "ppm": 52.4
+     },
+     {
+      "ppm": 26.9
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COC(=O)c1ccc(C(C)=O)cc1"
+   },
+   {
+    "smi": "CC(=O)Oc1ccc(C(C)=O)cc1"
+   },
+   {
+    "smi": "COC(=O)c1cccc(C(C)=O)c1"
+   },
+   {
+    "smi": "COC(=O)Cc1ccc(C=O)cc1"
+   }
+  ],
+  "h": "Assign the two carbonyl carbons (δ 197.6 and 166.3) to carbonyl types. Then decide where each CH<sub>3</sub> is attached from its 1H and 13C shifts.",
+  "w": "DBE = 6: ring + two C=O. δ 197.6 is a conjugated ketone (1685 cm<sup>−1</sup>) and δ 166.3 a conjugated ester (1725 cm<sup>−1</sup>). The 3H singlet at δ 3.95 with 13C δ 52.4 is an ester O–CH<sub>3</sub>; the 3H singlet at δ 2.64 with 13C δ 26.9 is CH<sub>3</sub>C=O. Both aromatic doublets are far downfield (δ 8.11, 8.01) because both substituents withdraw electrons, and two 2H doublets mean para. The compound is <b>methyl 4-acetylbenzoate</b>.",
+  "x": [
+   "",
+   "4-Acetylphenyl acetate has an aryl ester: C=O near 1765 cm<sup>−1</sup>, ester 13C near 169, an OC(=O)CH<sub>3</sub> singlet near δ 2.3 (13C ≈ 21) and no OCH<sub>3</sub> near δ 3.9; the ArH ortho to O would be near δ 7.2.",
+   "Methyl 3-acetylbenzoate is meta-substituted: four different aromatic H and 10 carbon signals, not two 2H doublets and 8 signals.",
+   "Methyl 2-(4-formylphenyl)acetate has an aldehyde (1H singlet near δ 10.0, 13C near 192) and a CH<sub>2</sub> singlet near δ 3.7; its ester C=O (≈ 1740 cm<sup>−1</sup>, δ ≈ 171) is unconjugated."
+  ]
+ },
+ {
+  "id": "spectro-27",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "At room temperature the <sup>1</sup>H NMR spectrum of N,N-dimethylacetamide shows three 3H singlets: δ 3.02, 2.94 and 2.09. Why do the two N–CH<sub>3</sub> groups give separate signals?",
+  "s": [
+   {
+    "smi": "CN(C)C(C)=O"
+   }
+  ],
+  "c": [
+   "The C–N bond has partial double-bond character, so rotation about it is slow on the NMR time scale; one CH<sub>3</sub> is cis to O and the other trans",
+   "The nitrogen is a stereocenter that inverts slowly, which makes the two CH<sub>3</sub> groups diastereotopic",
+   "The two N–CH<sub>3</sub> groups split each other, so the pair at δ 3.02 and 2.94 is one doublet",
+   "Rotation about the bond between C=O and the acetyl CH<sub>3</sub> is slow, which holds one N–CH<sub>3</sub> closer to that CH<sub>3</sub>"
+  ],
+  "h": "Draw the resonance form of an amide that puts a double bond between C and N.",
+  "w": "Amide resonance (O=C–NR<sub>2</sub> ↔ <sup>−</sup>O–C=N<sup>+</sup>R<sub>2</sub>) gives the C–N bond partial double-bond character and a rotation barrier of roughly 75–85 kJ/mol. At room temperature the two N–CH<sub>3</sub> groups do not exchange places quickly, so the one cis to O and the one trans to O are in different environments: <b>slow C–N rotation</b>. On heating, the two signals broaden and merge.",
+  "x": [
+   "",
+   "The amide N is planar (sp<sup>2</sup>, lone pair delocalized) and carries two identical CH<sub>3</sub> groups, so it is not a stereocenter.",
+   "Equivalent or not, CH<sub>3</sub> groups on the same N are four bonds apart and do not show resolved coupling; a doublet would also be one 6H signal, not two 3H singlets.",
+   "Rotation of a CH<sub>3</sub> about a C–C single bond is fast, and it cannot make the two N–CH<sub>3</sub> groups different."
+  ]
+ },
+ {
+  "id": "spectro-28",
+  "t": "spectro",
+  "d": 3,
+  "k": 0,
+  "q": "A compound C<sub>7</sub>H<sub>5</sub>BrO<sub>2</sub> shows a very broad IR band from 3300 to 2500 cm<sup>−1</sup> and a strong band at 1690 cm<sup>−1</sup>. Its <sup>1</sup>H NMR spectrum (DMSO-d<sub>6</sub>) is shown; the δ 8.05 signal shows only small (≈ 1.8 Hz) couplings, and the δ 7.47 triplet has J ≈ 8 Hz. Which structure fits?",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 13.3,
+      "mult": "br s",
+      "int": 1
+     },
+     {
+      "ppm": 8.05,
+      "mult": "t",
+      "int": 1
+     },
+     {
+      "ppm": 7.93,
+      "mult": "d",
+      "int": 1
+     },
+     {
+      "ppm": 7.83,
+      "mult": "d",
+      "int": 1
+     },
+     {
+      "ppm": 7.47,
+      "mult": "t",
+      "int": 1
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC(=O)c1cccc(Br)c1"
+   },
+   {
+    "smi": "OC(=O)c1ccc(Br)cc1"
+   },
+   {
+    "smi": "OC(=O)c1ccccc1Br"
+   },
+   {
+    "smi": "O=Cc1cc(Br)ccc1O"
+   }
+  ],
+  "h": "Four different 1H aromatic signals rule out para. Which ring H has no ortho neighbor at all?",
+  "w": "The broad O–H, the exchangeable δ 13.3 H and C=O at 1690 cm<sup>−1</sup> mean an aryl carboxylic acid. Four different aromatic H mean the ring is not para. The δ 8.05 H has <i>only</i> meta couplings, so it has no H on either adjacent carbon: it sits between the two substituents (C2 of a 1,3-disubstituted ring). The 1H triplet with J ≈ 8 Hz is H5, which has two ortho neighbors. That is the meta pattern: <b>3-bromobenzoic acid</b>.",
+  "x": [
+   "",
+   "4-Bromobenzoic acid is para-substituted: two 2H doublets, not four 1H signals.",
+   "In 2-bromobenzoic acid every ring H has at least one ortho neighbor, so every signal shows a large (≈ 8 Hz) coupling; none has only small couplings.",
+   "5-Bromo-2-hydroxybenzaldehyde has an aldehyde H singlet near δ 9.9 and a phenol O–H near δ 11, and only 3 aromatic H; it is not a carboxylic acid."
+  ]
+ },
+ {
+  "id": "spectro-29",
+  "t": "spectro",
+  "d": 3,
+  "k": 0,
+  "q": "A compound C<sub>9</sub>H<sub>11</sub>NO<sub>2</sub> gives the IR and <sup>1</sup>H NMR spectra shown (the δ 4.05 signal exchanges with D<sub>2</sub>O). Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3420,
+      "str": "m"
+     },
+     {
+      "cm": 3340,
+      "str": "m"
+     },
+     {
+      "cm": 1680,
+      "str": "s"
+     },
+     {
+      "cm": 1600,
+      "str": "s"
+     },
+     {
+      "cm": 1275,
+      "str": "s"
+     },
+     {
+      "cm": 1170,
+      "str": "s"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.86,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 6.64,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 4.32,
+      "mult": "q",
+      "int": 2
+     },
+     {
+      "ppm": 4.05,
+      "mult": "br s",
+      "int": 2
+     },
+     {
+      "ppm": 1.36,
+      "mult": "t",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(=O)c1ccc(N)cc1"
+   },
+   {
+    "smi": "CCC(=O)Oc1ccc(N)cc1"
+   },
+   {
+    "smi": "CCOC(=O)c1ccccc1N"
+   },
+   {
+    "smi": "CCNc1ccc(C(=O)O)cc1"
+   }
+  ],
+  "h": "Two N–H bands and a 2H exchangeable signal: what kind of nitrogen? The ethyl quartet at δ 4.32 tells you which atom the CH<sub>2</sub> is on.",
+  "w": "Two N–H stretches (3420, 3340 cm<sup>−1</sup>) and a 2H exchangeable signal mean an aryl NH<sub>2</sub>. The C=O at 1680 cm<sup>−1</sup> is an ester lowered by conjugation with a ring carrying a strong donor. The CH<sub>2</sub> quartet at δ 4.32 is on the ester O (O–CH<sub>2</sub>CH<sub>3</sub>). Two 2H doublets, one far upfield at δ 6.64 (ortho to NH<sub>2</sub>) and one at δ 7.86 (ortho to C=O), mean para. The compound is <b>ethyl 4-aminobenzoate</b> (benzocaine).",
+  "x": [
+   "",
+   "4-Aminophenyl propanoate is an aryl ester: C=O near 1750 cm<sup>−1</sup> and the ethyl CH<sub>2</sub> quartet on the acyl side near δ 2.55; no aromatic H would be as far downfield as δ 7.86.",
+   "Ethyl 2-aminobenzoate is ortho-substituted: four different 1H aromatic signals, not two 2H doublets.",
+   "4-(Ethylamino)benzoic acid has one N–H (one band), a broad carboxylic O–H, an N–CH<sub>2</sub> quartet near δ 3.2, and its exchangeable H are 1H (NH) plus 1H (COOH)."
+  ]
+ },
+ {
+  "id": "spectro-30",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "Which spectral change best confirms that the reaction shown gave the expected product?",
+  "s": [
+   {
+    "smi": "Cc1ccc(C#N)cc1"
+   },
+   {
+    "arrow": "1. CH<sub>3</sub>MgBr",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "The sharp 2228 cm<sup>−1</sup> band disappears, a strong band appears near 1685 cm<sup>−1</sup>, and a new 3H singlet appears near δ 2.57",
+   "The sharp 2228 cm<sup>−1</sup> band disappears, a strong band appears near 1715 cm<sup>−1</sup>, and a new 3H singlet appears near δ 2.15",
+   "The sharp 2228 cm<sup>−1</sup> band disappears, a broad band appears near 3400 cm<sup>−1</sup>, and a new 6H singlet appears near δ 1.55",
+   "The sharp 2228 cm<sup>−1</sup> band disappears, two N–H bands appear near 3300–3400 cm<sup>−1</sup>, and a new 2H singlet appears near δ 3.8"
+  ],
+  "h": "A Grignard reagent adds once to a nitrile; the imine salt is hydrolyzed in step 2. What functional group results, and is it conjugated?",
+  "w": "CH<sub>3</sub>MgBr adds once to C≡N to give an imine anion, which cannot add a second Grignard; aqueous acid hydrolyzes the imine to a ketone, 4-methylacetophenone. The C≡N band disappears and a ketone C=O appears near 1685 cm<sup>−1</sup> (conjugated with the ring); the new CH<sub>3</sub>C=O singlet is near δ 2.57. So: <b>2228 cm<sup>−1</sup> gone, C=O near 1685 cm<sup>−1</sup>, new 3H singlet near δ 2.57</b>.",
+  "x": [
+   "",
+   "1715 cm<sup>−1</sup> and δ 2.15 describe an unconjugated methyl ketone; here the C=O is attached directly to the ring, which lowers the stretch to about 1685 cm<sup>−1</sup> and moves the CH<sub>3</sub> to about δ 2.6.",
+   "A 3° alcohol with two new CH<sub>3</sub> groups would need two Grignard additions; the negatively charged imine intermediate does not react a second time.",
+   "A primary amine (ArCH<sub>2</sub>NH<sub>2</sub>) comes from reducing a nitrile with LiAlH<sub>4</sub>, not from a Grignard reagent."
+  ]
+ },
+ {
+  "id": "spectro-31",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "Benzaldehyde and acetone react as shown (Claisen–Schmidt condensation). Which data best confirm that the product is (E)-4-phenylbut-3-en-2-one?",
+  "s": [
+   {
+    "smi": "O=Cc1ccccc1"
+   },
+   "+",
+   {
+    "smi": "CC(C)=O"
+   },
+   {
+    "arrow": "NaOH, H<sub>2</sub>O",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "Two 1H doublets at δ 7.50 and 6.71 with J ≈ 16 Hz, a 3H singlet at δ 2.38, and a C=O band near 1670 cm<sup>−1</sup>",
+   "Two 1H doublets at δ 6.90 and 6.20 with J ≈ 11 Hz, a 3H singlet at δ 2.20, and a C=O band near 1690 cm<sup>−1</sup>",
+   "A 1H doublet at δ 9.70, a 1H dd at δ 6.72, a 1H doublet at δ 7.49, and a C=O band near 1680 cm<sup>−1</sup>",
+   "A 1H dd at δ 5.15, a 2H doublet at δ 2.85, a 3H singlet at δ 2.20, and bands near 3400 and 1712 cm<sup>−1</sup>"
+  ],
+  "h": "Condensation (with heat) means dehydration to a C=C conjugated with the C=O. What J value goes with a trans C=C?",
+  "w": "Heating drives the aldol addition product to dehydrate, giving the conjugated enone PhCH=CHC(=O)CH<sub>3</sub>. Its two vinyl H are mutually coupled doublets; J ≈ 16 Hz shows they are trans (E). The β H (δ 7.50) is downfield of the α H (δ 6.71) because conjugation puts δ+ on the β carbon. The methyl ketone singlet is at δ 2.38 and the conjugated C=O is near 1670 cm<sup>−1</sup>. The answer is <b>two doublets with J ≈ 16 Hz, a 3H singlet, C=O near 1670 cm<sup>−1</sup></b>.",
+  "x": [
+   "",
+   "J ≈ 11 Hz is a cis (Z) vinyl coupling; trans coupling is 12–18 Hz, typically about 16 Hz.",
+   "A δ 9.70 doublet is an aldehyde H; this describes cinnamaldehyde, not a methyl ketone.",
+   "A CH–O dd at δ 5.15, a CH<sub>2</sub> doublet, an O–H band and an unconjugated C=O describe the aldol <i>addition</i> product (4-hydroxy-4-phenylbutan-2-one), which has not yet lost water."
+  ]
+ },
+ {
+  "id": "spectro-32",
+  "t": "spectro",
+  "d": 3,
+  "k": 0,
+  "q": "Acetophenone is treated with mCPBA. The product (C<sub>8</sub>H<sub>8</sub>O<sub>2</sub>) shows a strong IR band at 1765 cm<sup>−1</sup>, a strong band at 1200 cm<sup>−1</sup>, and the <sup>1</sup>H NMR spectrum shown. Which structure is the product?",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.37,
+      "mult": "t",
+      "int": 2
+     },
+     {
+      "ppm": 7.22,
+      "mult": "t",
+      "int": 1
+     },
+     {
+      "ppm": 7.08,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 2.3,
+      "mult": "s",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)Oc1ccccc1"
+   },
+   {
+    "smi": "COC(=O)c1ccccc1"
+   },
+   {
+    "smi": "OC(=O)Cc1ccccc1"
+   },
+   {
+    "smi": "Oc1ccc(C(C)=O)cc1"
+   }
+  ],
+  "h": "In a Baeyer–Villiger oxidation the group with higher migratory aptitude ends up on oxygen. Then check: is the CH<sub>3</sub> on O or on C=O?",
+  "w": "Phenyl migrates in preference to methyl, so O is inserted between the ring and the C=O, giving phenyl acetate. The data agree: 1765 cm<sup>−1</sup> is the high C=O stretch of an aryl ester (the O lone pair is shared with the ring, so it donates less to C=O), and the 3H singlet at δ 2.30 is CH<sub>3</sub>C=O, not O–CH<sub>3</sub>. The ring H ortho to O (δ 7.08) are upfield of ordinary benzene H. The product is <b>phenyl acetate</b>.",
+  "x": [
+   "",
+   "Methyl benzoate (from methyl migration) would show an OCH<sub>3</sub> singlet near δ 3.9, ortho ArH near δ 8.0, and a conjugated ester C=O near 1725 cm<sup>−1</sup>.",
+   "Phenylacetic acid shows a broad O–H (3300–2500 cm<sup>−1</sup>), a δ 11–12 COOH, and a CH<sub>2</sub> singlet near δ 3.6; it is not a Baeyer–Villiger product.",
+   "4-Hydroxyacetophenone shows a phenol O–H, a conjugated ketone C=O near 1670 cm<sup>−1</sup>, and two 2H doublets; mCPBA does not hydroxylate the ring."
+  ]
+ },
+ {
+  "id": "spectro-33",
+  "t": "spectro",
+  "d": 3,
+  "k": 0,
+  "q": "Aniline has a UV absorption band at 280 nm. In dilute aqueous HCl this band disappears and the spectrum looks almost like benzene's (λ<sub>max</sub> ≈ 254 nm). What explains the shift?",
+  "c": [
+   "Protonation ties up the N lone pair, so it can no longer conjugate with the ring; the chromophore becomes benzene-like and λ<sub>max</sub> moves to shorter wavelength",
+   "Protonation puts a positive charge in conjugation with the ring, which extends the π system and shrinks the HOMO–LUMO gap",
+   "Aqueous acid removes the NH<sub>2</sub> group from the ring, so the solution actually contains benzene",
+   "The new N–H bonds of the anilinium ion absorb strongly near 254 nm and hide the 280 nm band"
+  ],
+  "h": "Which electrons on aniline are part of the conjugated π system, and what happens to them on protonation?",
+  "w": "In aniline the N lone pair is delocalized into the ring, raising the HOMO and shifting λ<sub>max</sub> to longer wavelength (280 nm). In the anilinium ion, C<sub>6</sub>H<sub>5</sub>NH<sub>3</sub><sup>+</sup>, that pair forms an N–H σ bond and is no longer conjugated, so the chromophore is just the benzene ring: <b>loss of lone-pair conjugation gives a shift to shorter wavelength</b> (a hypsochromic or blue shift). Adding base reverses it.",
+  "x": [
+   "",
+   "A larger conjugated system would shift λ<sub>max</sub> to <i>longer</i> wavelength, the opposite of what is observed. The NH<sub>3</sub><sup>+</sup> group has no π electrons or p orbital to conjugate.",
+   "Dilute HCl only protonates the amine (an acid–base reaction); adding base restores the 280 nm band, which would be impossible if the C–N bond had broken.",
+   "N–H σ bonds absorb only in the far UV (below 200 nm); they do not produce a 254 nm band. That band is the benzene ring's own π → π* absorption."
+  ]
+ },
+ {
+  "id": "spectro-34",
+  "t": "spectro",
+  "d": 1,
+  "k": 0,
+  "q": "Rank compounds <b>I</b>–<b>III</b> by λ<sub>max</sub> in the UV, from shortest to longest wavelength.",
+  "s": [
+   {
+    "smi": "C=CCC=C",
+    "cap": "I"
+   },
+   {
+    "smi": "C=CC=C",
+    "cap": "II"
+   },
+   {
+    "smi": "C=CC=CC=C",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I < II < III",
+   "II < I < III",
+   "III < II < I",
+   "II < III < I"
+  ],
+  "h": "Only C=C bonds in one continuous conjugated system count. A CH<sub>2</sub> between two C=C breaks the conjugation.",
+  "w": "In 1,4-pentadiene (I) the C=C bonds are separated by CH<sub>2</sub>, so they absorb like isolated alkenes (below 200 nm). 1,3-Butadiene (II) is a conjugated diene (≈ 217 nm), and 1,3,5-hexatriene (III) has three conjugated C=C (≈ 258 nm). More conjugation means a smaller HOMO–LUMO gap and longer λ<sub>max</sub>: <b>I < II < III</b>.",
+  "x": [
+   "",
+   "Having more carbons does not lengthen λ<sub>max</sub>; I has five carbons but no conjugation, so it absorbs at the shortest wavelength.",
+   "This is the reverse order; the HOMO–LUMO gap shrinks, not grows, as conjugation increases.",
+   "I has isolated C=C bonds and absorbs at the shortest wavelength, not the longest."
+  ]
+ },
+ {
+  "id": "spectro-35",
+  "t": "spectro",
+  "d": 1,
+  "k": 0,
+  "q": "A compound C<sub>7</sub>H<sub>8</sub>O shows a broad IR band at 3300 cm<sup>−1</sup> and the <sup>1</sup>H NMR spectrum shown (the δ 4.70 signal exchanges with D<sub>2</sub>O). Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3300,
+      "str": "s",
+      "shape": "broad"
+     },
+     {
+      "cm": 3020,
+      "str": "w"
+     },
+     {
+      "cm": 1515,
+      "str": "s"
+     },
+     {
+      "cm": 1230,
+      "str": "s"
+     },
+     {
+      "cm": 815,
+      "str": "s"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.03,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 6.74,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 4.7,
+      "mult": "br s",
+      "int": 1
+     },
+     {
+      "ppm": 2.27,
+      "mult": "s",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Cc1ccc(O)cc1"
+   },
+   {
+    "smi": "COc1ccccc1"
+   },
+   {
+    "smi": "OCc1ccccc1"
+   },
+   {
+    "smi": "Cc1ccccc1O"
+   }
+  ],
+  "h": "The broad band and exchangeable H mean O–H. Then count aromatic H and look at the pattern.",
+  "w": "The broad 3300 cm<sup>−1</sup> band and the exchangeable 1H at δ 4.70 mean an O–H. Only 4 aromatic H as two 2H doublets means para substitution, and the 3H singlet at δ 2.27 is an aryl CH<sub>3</sub>. The compound is <b>4-methylphenol</b> (p-cresol).",
+  "x": [
+   "",
+   "Anisole has no O–H, a 5H monosubstituted ring, and an OCH<sub>3</sub> singlet near δ 3.8.",
+   "Benzyl alcohol has a 5H ring and a 2H CH<sub>2</sub>O singlet near δ 4.65, not a 3H singlet at δ 2.27.",
+   "2-Methylphenol is ortho-substituted: four different aromatic H, not two 2H doublets."
+  ]
+ },
+ {
+  "id": "spectro-36",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "A compound C<sub>5</sub>H<sub>10</sub>O<sub>2</sub> shows a strong IR band at 1740 cm<sup>−1</sup> (none above 3000 cm<sup>−1</sup>) and the <sup>1</sup>H NMR spectrum shown. Which structure fits?",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 4.12,
+      "mult": "q",
+      "int": 2
+     },
+     {
+      "ppm": 2.32,
+      "mult": "q",
+      "int": 2
+     },
+     {
+      "ppm": 1.25,
+      "mult": "t",
+      "int": 3
+     },
+     {
+      "ppm": 1.14,
+      "mult": "t",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(=O)CC"
+   },
+   {
+    "smi": "COC(=O)CCC"
+   },
+   {
+    "smi": "CCCOC(C)=O"
+   },
+   {
+    "smi": "CCCCC(=O)O"
+   }
+  ],
+  "h": "There are two ethyl groups. One CH<sub>2</sub> is near δ 4.1 and one near δ 2.3. What is each bonded to?",
+  "w": "1740 cm<sup>−1</sup> with no O–H is an ester. Two quartet/triplet pairs mean two ethyl groups. The CH<sub>2</sub> at δ 4.12 is on the ester O (O–CH<sub>2</sub>CH<sub>3</sub>); the CH<sub>2</sub> at δ 2.32 is on the carbonyl carbon (CH<sub>3</sub>CH<sub>2</sub>–C=O). The compound is <b>ethyl propanoate</b>.",
+  "x": [
+   "",
+   "Methyl butanoate would show a 3H OCH<sub>3</sub> singlet near δ 3.67 and a CH<sub>2</sub> sextet; it has only one CH<sub>3</sub> triplet.",
+   "Propyl acetate would show a 3H acetyl singlet near δ 2.05 and an OCH<sub>2</sub> triplet near δ 4.0.",
+   "Pentanoic acid would show a broad 3300–2500 cm<sup>−1</sup> O–H, a C=O near 1710 cm<sup>−1</sup> and a δ 11–12 COOH signal."
+  ]
+ },
+ {
+  "id": "spectro-37",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "A compound C<sub>9</sub>H<sub>9</sub>N shows a sharp, medium IR band at 2245 cm<sup>−1</sup>, a <sup>13</sup>C signal at δ 121.6, and the <sup>1</sup>H NMR spectrum shown. Which structure fits?",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.36,
+      "mult": "m",
+      "int": 5
+     },
+     {
+      "ppm": 3.89,
+      "mult": "q",
+      "int": 1
+     },
+     {
+      "ppm": 1.64,
+      "mult": "d",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C#N)c1ccccc1"
+   },
+   {
+    "smi": "N#CCCc1ccccc1"
+   },
+   {
+    "smi": "CCc1ccc(C#N)cc1"
+   },
+   {
+    "smi": "Cc1ccc(CC#N)cc1"
+   }
+  ],
+  "h": "Identify the group from the 2245 cm<sup>−1</sup> band and the δ 121.6 carbon. Then use the splitting of the alkyl signals.",
+  "w": "A sharp 2245 cm<sup>−1</sup> band and a 13C signal near δ 120 mean a nitrile (DBE 6 = ring + C≡N). The 5H multiplet is a monosubstituted ring. A 1H quartet (δ 3.89) and 3H doublet (δ 1.64) form a CH–CH<sub>3</sub> unit; the CH is benzylic and next to C≡N. The compound is <b>2-phenylpropanenitrile</b>.",
+  "x": [
+   "",
+   "3-Phenylpropanenitrile has –CH<sub>2</sub>CH<sub>2</sub>CN: two 2H triplets near δ 2.95 and 2.6, no 3H doublet.",
+   "4-Ethylbenzonitrile is para-disubstituted (two 2H doublets) with an ethyl quartet near δ 2.7 and triplet near δ 1.25; its aryl nitrile absorbs near 2228 cm<sup>−1</sup>.",
+   "2-(4-Methylphenyl)acetonitrile is para-disubstituted (two 2H doublets) and shows two singlets (CH<sub>2</sub> near δ 3.7, CH<sub>3</sub> near δ 2.35)."
+  ]
+ },
+ {
+  "id": "spectro-38",
+  "t": "spectro",
+  "d": 3,
+  "k": 0,
+  "q": "A compound C<sub>8</sub>H<sub>9</sub>NO gives the IR and <sup>1</sup>H NMR spectra shown (the δ 5.6 signal exchanges with D<sub>2</sub>O). Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 3350,
+      "str": "m"
+     },
+     {
+      "cm": 3170,
+      "str": "m"
+     },
+     {
+      "cm": 1655,
+      "str": "s"
+     },
+     {
+      "cm": 1625,
+      "str": "m"
+     },
+     {
+      "cm": 1405,
+      "str": "m"
+     },
+     {
+      "cm": 700,
+      "str": "m"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.3,
+      "mult": "m",
+      "int": 5
+     },
+     {
+      "ppm": 5.6,
+      "mult": "br s",
+      "int": 2
+     },
+     {
+      "ppm": 3.57,
+      "mult": "s",
+      "int": 2
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "NC(=O)Cc1ccccc1"
+   },
+   {
+    "smi": "CNC(=O)c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)Nc1ccccc1"
+   },
+   {
+    "smi": "CC(=O)c1ccc(N)cc1"
+   }
+  ],
+  "h": "Two N–H bands with C=O near 1655 cm<sup>−1</sup>: which N-containing group? Then check the aromatic integration and what the CH<sub>2</sub> is between.",
+  "w": "Two N–H stretches (3350, 3170 cm<sup>−1</sup>) with a low C=O (1655 cm<sup>−1</sup>) are a primary amide, CONH<sub>2</sub> (2H broad at δ 5.6). The 5H multiplet is a monosubstituted ring, and the 2H singlet at δ 3.57 is a CH<sub>2</sub> between the ring and C=O. The compound is <b>2-phenylacetamide</b>.",
+  "x": [
+   "",
+   "N-Methylbenzamide is a secondary amide: one N–H band and an N–CH<sub>3</sub> doublet near δ 3.0 (coupled to N–H), with no CH<sub>2</sub>.",
+   "Acetanilide is a secondary amide (one N–H) with a 3H acetyl singlet near δ 2.15.",
+   "4-Aminoacetophenone also has two N–H bands and a low C=O, but it is para-disubstituted (two 2H doublets, 4 ArH) and has a 3H singlet near δ 2.5 instead of a 2H CH<sub>2</sub>."
+  ]
+ },
+ {
+  "id": "spectro-39",
+  "t": "spectro",
+  "d": 2,
+  "k": 0,
+  "q": "Which <sup>1</sup>H NMR data (CDCl<sub>3</sub>) fit the product of the reaction shown?",
+  "s": [
+   {
+    "smi": "CNC(=O)c1ccccc1"
+   },
+   {
+    "arrow": "1. LiAlH<sub>4</sub>",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "δ 7.30 (m, 5H), 3.75 (s, 2H), 2.45 (s, 3H), 1.4 (br s, 1H)",
+   "δ 7.75 (d, 2H), 7.42 (m, 3H), 6.2 (br s, 1H), 3.00 (d, 3H)",
+   "δ 7.32 (m, 5H), 4.65 (s, 2H), 2.1 (br s, 1H)",
+   "δ 9.99 (s, 1H), 7.87 (d, 2H), 7.62 (t, 1H), 7.52 (t, 2H)"
+  ],
+  "h": "LiAlH<sub>4</sub> reduces an amide C=O all the way to CH<sub>2</sub>, keeping the C–N bond.",
+  "w": "LiAlH<sub>4</sub> reduces amides to amines: C(=O)NHCH<sub>3</sub> becomes CH<sub>2</sub>NHCH<sub>3</sub>, giving N-methylbenzylamine. Its spectrum: 5H phenyl, a benzylic CH<sub>2</sub>N singlet near δ 3.75, an N–CH<sub>3</sub> singlet near δ 2.45 and a small broad N–H: <b>δ 7.30 (m, 5H), 3.75 (s, 2H), 2.45 (s, 3H), 1.4 (br s, 1H)</b>. The CH<sub>3</sub> is a singlet because N–H coupling is usually not seen in amines (fast exchange).",
+  "x": [
+   "",
+   "These are the data of the starting amide (ortho ArH near δ 7.75 next to C=O, amide N–H near δ 6.2, N–CH<sub>3</sub> doublet near δ 3.0); LiAlH<sub>4</sub> does reduce amides.",
+   "Benzyl alcohol would require breaking the C–N bond. With LiAlH<sub>4</sub>, the oxygen leaves (as an aluminate) and the nitrogen stays.",
+   "Benzaldehyde (δ 9.99) is not the product: amide reduction by LiAlH<sub>4</sub> passes through an iminium ion that is reduced again, so it does not stop at an aldehyde."
+  ]
+ },
+ {
+  "id": "spectro-40",
+  "t": "spectro",
+  "d": 3,
+  "k": 0,
+  "q": "A compound C<sub>10</sub>H<sub>12</sub>O<sub>2</sub> gives the IR, <sup>1</sup>H and <sup>13</sup>C NMR spectra shown. Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2960,
+      "str": "m"
+     },
+     {
+      "cm": 2835,
+      "str": "w"
+     },
+     {
+      "cm": 1715,
+      "str": "s"
+     },
+     {
+      "cm": 1612,
+      "str": "m"
+     },
+     {
+      "cm": 1513,
+      "str": "s"
+     },
+     {
+      "cm": 1250,
+      "str": "s"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 7.12,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 6.87,
+      "mult": "d",
+      "int": 2
+     },
+     {
+      "ppm": 3.79,
+      "mult": "s",
+      "int": 3
+     },
+     {
+      "ppm": 3.63,
+      "mult": "s",
+      "int": 2
+     },
+     {
+      "ppm": 2.14,
+      "mult": "s",
+      "int": 3
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "13C",
+    "peaks": [
+     {
+      "ppm": 206.9
+     },
+     {
+      "ppm": 158.7
+     },
+     {
+      "ppm": 130.4
+     },
+     {
+      "ppm": 126.3
+     },
+     {
+      "ppm": 114.2
+     },
+     {
+      "ppm": 55.2
+     },
+     {
+      "ppm": 50.1
+     },
+     {
+      "ppm": 29.1
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COc1ccc(CC(C)=O)cc1"
+   },
+   {
+    "smi": "CCC(=O)c1ccc(OC)cc1"
+   },
+   {
+    "smi": "COC(=O)Cc1ccc(C)cc1"
+   },
+   {
+    "smi": "CCOc1ccc(C(C)=O)cc1"
+   }
+  ],
+  "h": "Start with the carbonyl carbon in the 13C spectrum and the C=O stretch: which carbonyl class and is it conjugated? Then place the three singlets.",
+  "w": "The 13C signal at δ 206.9 and the IR band at 1715 cm<sup>−1</sup> fit an <i>unconjugated</i> ketone (an ester would be near 170, a conjugated ketone near 197 and 1680 cm<sup>−1</sup>). The 3H singlet at δ 2.14 (13C 29.1) is CH<sub>3</sub>C=O, the 2H singlet at δ 3.63 (13C 50.1) is ArCH<sub>2</sub>C=O, and the 3H singlet at δ 3.79 (13C 55.2) with the strong 1250 cm<sup>−1</sup> band is an aryl OCH<sub>3</sub>. Two 2H doublets mean para. The compound is <b>1-(4-methoxyphenyl)propan-2-one</b>.",
+  "x": [
+   "",
+   "1-(4-Methoxyphenyl)propan-1-one is a conjugated ketone (C=O near 1675 cm<sup>−1</sup>, 13C near δ 200) with an ethyl quartet/triplet, not two singlets.",
+   "Methyl 2-(4-methylphenyl)acetate has three similar singlets, but it is an ester: 13C C=O near δ 172, IR near 1740 cm<sup>−1</sup>, and no carbon near δ 207.",
+   "1-(4-Ethoxyphenyl)ethan-1-one has an OCH<sub>2</sub> quartet near δ 4.1 and a triplet near δ 1.4, and its conjugated ketone has 13C near δ 197 and IR near 1675 cm<sup>−1</sup>."
+  ]
+ }
+]

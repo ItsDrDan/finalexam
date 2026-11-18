@@ -1,0 +1,709 @@
+[
+ {
+  "id": "1B-198",
+  "field": "x[3]",
+  "old": "10.00 is the pOH.",
+  "new": "Here E = 0.0592 × pH, so dividing 0.237 V by 0.0592 gives the pH directly. Subtracting that from 14 gives the pOH, which the question did not ask for.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-203",
+  "field": "x[3]",
+  "old": "Recheck: Cr³⁺ is d³.",
+  "new": "Cr³⁺ is d³, and Hund's rule puts each electron in its own t₂g orbital before any pairing. Ending with only one unpaired electron would require pairing that a d³ ion never needs.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-215",
+  "field": "x[2]",
+  "old": "This is upside down.",
+  "new": "This puts the reactant gas on top. K is always products over reactants, so [H₂O]⁴ belongs in the denominator; this inverted form is K for the reverse reaction.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-218",
+  "field": "x[2]",
+  "old": "That would make K = 1.",
+  "new": "If [CO₂] = 0.050 M, then [H₂] = 0.050 M and CO and H₂O are also 0.050 M, so Q = 1. That falls short of K = 4.0, so more product must still form.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-218",
+  "field": "x[3]",
+  "old": "That would make K = 16.",
+  "new": "If [CO₂] = 0.080 M, the products are 0.080 M and the reactants only 0.020 M, so Q = (0.080)²/(0.020)² = 16. That overshoots K = 4.0.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-221",
+  "field": "x[3]",
+  "old": "This is upside down.",
+  "new": "This is 1/10.4: the reactant pressures were put on top. K<sub>p</sub> is products over reactants, so P(SO₃)² goes in the numerator.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-222",
+  "field": "x[3]",
+  "old": "This is upside down.",
+  "new": "This is 1/0.0125, with SO₂Cl₂ on top. K<sub>c</sub> puts the products, [SO₂][Cl₂], in the numerator and the reactant SO₂Cl₂ in the denominator.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-224",
+  "field": "x[1]",
+  "old": "Δn = 0, so Kp = Kc.",
+  "new": "K<sub>p</sub> = K<sub>c</sub>(RT)<sup>Δn</sup>. Here 2 mol of gas form 2 mol of gas, so Δn = 0, (RT)⁰ = 1, and K<sub>p</sub> equals K<sub>c</sub> instead of exceeding it.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-227",
+  "field": "x[2]",
+  "old": "4.77 is the pKa.",
+  "new": "4.77 is the pK<sub>a</sub>. pH = pK<sub>a</sub> only when [HA] = [A⁻], as in a half-neutralized buffer; a solution of the acid alone is barely ionized, so its pH is much lower.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-228",
+  "field": "x[1]",
+  "old": "5.64 is the pOH.",
+  "new": "5.64 is the pOH, from −log[OH⁻]. Nitrite is a weak base, so its solution must have pH above 7; subtract the pOH from 14 to finish.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-231",
+  "field": "x[2]",
+  "old": "BF₃ has no H to donate.",
+  "new": "A Brønsted–Lowry acid must donate H⁺, but BF₃ contains no hydrogen at all. Its boron accepts a lone pair instead, which is a Lewis description.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-232",
+  "field": "x[1]",
+  "old": "NH₄⁺ is acidic.",
+  "new": "NH₄⁺ is the conjugate acid of the weak base NH₃, so it donates H⁺ to water and makes the solution acidic. Red litmus would stay red.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-232",
+  "field": "x[3]",
+  "old": "Hydrated Fe³⁺ is acidic.",
+  "new": "Hydrated Fe³⁺ is small and highly charged, so it pulls on its water ligands until they release H⁺. The solution turns acidic, and red litmus stays red.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-233",
+  "field": "x[1]",
+  "old": "This reverses the order.",
+  "new": "This lists the anions by the strength of their parent acids. A stronger acid has a weaker conjugate base, so the base with the strongest parent acid belongs first, not last.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-235",
+  "field": "x[1]",
+  "old": "This flips the ratio.",
+  "new": "This uses log(0.25/0.15), putting the acid on top. Henderson–Hasselbalch is log([base]/[acid]); with more acid than base, the pH must land below pK<sub>a</sub> = 4.10.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-236",
+  "field": "x[2]",
+  "old": "9.26 is the pKa.",
+  "new": "9.26 is the pK<sub>a</sub> of NH₄⁺, the pH only when NH₃ and NH₄⁺ are equal. After HCl converts 0.050 mol NH₃ to NH₄⁺, the acid form is in excess, so the pH is below pK<sub>a</sub>.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-238",
+  "field": "x[2]",
+  "old": "This flips the ratio.",
+  "new": "This uses log(2.40/1.20), putting the acid on top. Henderson–Hasselbalch is log([base]/[acid]); with more acid left than conjugate base, the pH is below pK<sub>a</sub> = 3.52.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-243",
+  "field": "x[3]",
+  "old": "4s³ is for a 1:2 salt.",
+  "new": "4s³ fits a salt that gives one cation and two anions, like PbF₂. Ag₃PO₄ releases 3 Ag⁺ and 1 PO₄³⁻, so K<sub>sp</sub> = (3s)³(s), a fourth-power expression.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-244",
+  "field": "x[3]",
+  "old": "This is s, not Ksp.",
+  "new": "2.6×10⁻³ M is the molar solubility s (0.64 g ÷ 245.2 g/mol). K<sub>sp</sub> needs the ion concentrations, [Pb²⁺] = s and [F⁻] = 2s, plugged into [Pb²⁺][F⁻]².",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-253",
+  "field": "x[1]",
+  "old": "This mixes kJ with J.",
+  "new": "This divides 30.9 kJ by 93.0 J/K without converting units. ΔH and ΔS must both be in joules (or both in kJ) before T = ΔH/ΔS gives kelvins.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-255",
+  "field": "x[2]",
+  "old": "This uses 298 K.",
+  "new": "This plugs in T = 298 K, the usual table temperature. The question sets T = 500. K, so ln K = −ΔG°/(RT) must use 500. K.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-255",
+  "field": "x[3]",
+  "old": "This leaves ΔG° in kJ.",
+  "new": "This divides 12.0 kJ by R in J mol⁻¹ K⁻¹, so ln K comes out nearly zero. Convert ΔG° to 12,000 J first so the units match R.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-256",
+  "field": "x[2]",
+  "old": "This is ΔH° alone.",
+  "new": "This is ΔH° by itself. ΔG° = ΔH° − TΔS°, and ΔS° here is negative (gas moles drop), so the −TΔS° term makes ΔG° less negative than ΔH°.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-256",
+  "field": "x[3]",
+  "old": "This mixes kJ and J.",
+  "new": "This uses ΔS° = −188.0 J K⁻¹ with ΔH° in kJ, so TΔS° is 1000 times too big. Convert ΔS° to −0.1880 kJ K⁻¹ before computing ΔH° − TΔS°.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-260",
+  "field": "x[2]",
+  "old": "Fe is a product.",
+  "new": "Fe is a product, formed when Fe³⁺ in Fe₂O₃ gains electrons. The reducing agent is a reactant that gives up electrons, and Fe's gain of electrons is reduction anyway.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-260",
+  "field": "x[3]",
+  "old": "Al₂O₃ is a product.",
+  "new": "Al₂O₃ is a product, and its Al is already at +3, so it is not losing electrons. The reducing agent must be a reactant that is oxidized during the reaction.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-263",
+  "field": "x[1]",
+  "old": "This uses n = 1.",
+  "new": "This uses n = 1, counting one Ag⁺. But each Cr atom loses 3 electrons and three Ag⁺ each gain one, so 3 mol of electrons move per reaction as written.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-263",
+  "field": "x[2]",
+  "old": "This uses n = 2.",
+  "new": "This uses n = 2, but neither half-reaction involves two electrons. Cr → Cr³⁺ loses 3 electrons, and three Ag⁺ each gain one, so n = 3.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-264",
+  "field": "x[1]",
+  "old": "This uses n = 1.",
+  "new": "This uses n = 1, giving log K = 0.15/0.0592 = 2.53. The question says n = 2, which doubles log K, so K should be the square of this value.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-265",
+  "field": "x[1]",
+  "old": "This flips Q.",
+  "new": "This uses Q = 0.0050/0.50 = 0.010, putting the cathode ion on top. Q is [product ion]/[reactant ion] = [Cd²⁺]/[Cu²⁺]; a large Q should lower E below E°, not raise it.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-265",
+  "field": "x[2]",
+  "old": "This uses n = 1.",
+  "new": "This uses n = 1, doubling the concentration correction to 0.0592 × 2. Cd → Cd²⁺ and Cu²⁺ → Cu each transfer 2 electrons, so n = 2.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-268",
+  "field": "x[3]",
+  "old": "8 is the number of H⁺.",
+  "new": "8 is the coefficient of H⁺, which is the species on the reactant side. The question asks about water; count the H₂O left after canceling the water in both half-reactions.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-283",
+  "field": "x[3]",
+  "old": "This is upside down.",
+  "new": "This is 4/36, reactants over products. K<sub>c</sub> puts the product AB (squared) on top and A₂ × B₂ on the bottom.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-285",
+  "field": "x[3]",
+  "old": "This is upside down.",
+  "new": "0.40 is [A]²/[A₂], reactants over products. Q has the same form as K, with A₂ on top; and even Q = 0.40 is below K, which would not push the reaction left.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-287",
+  "field": "x[2]",
+  "old": "This is upside down.",
+  "new": "This is [A]/[B]² = 0.40/1.44, reactants over products. K<sub>c</sub> puts the product B, squared, in the numerator and A in the denominator.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-293",
+  "field": "x[1]",
+  "old": "Box I is a strong acid.",
+  "new": "Box I holds H⁺ and Cl⁻ from HCl, a strong acid. Cl⁻ is too weak a base to absorb added H⁺, and there is no weak acid to neutralize added OH⁻, so it is not a buffer.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-293",
+  "field": "x[3]",
+  "old": "Box IV has excess OH⁻.",
+  "new": "Box IV has excess OH⁻, a strong base. It can neutralize added acid but has nothing to absorb added base, so its pH would jump; a buffer needs a weak acid and its conjugate base.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-298",
+  "field": "x[1]",
+  "old": "This is Ka1.",
+  "new": "1.0×10⁻⁴ is K<sub>a1</sub>, read at pH 4 halfway to the FIRST equivalence point (12.5 mL). K<sub>a2</sub> comes from the pH halfway between the first and second equivalence points.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-299",
+  "field": "x[1]",
+  "old": "NY₂ has the smaller Ksp.",
+  "new": "Compute both: K<sub>sp</sub> of NY₂ = (4.0×10⁻⁴)(8.0×10⁻⁴)² = 2.6×10⁻¹⁰, while K<sub>sp</sub> of MX = (3.0×10⁻⁴)² = 9.0×10⁻⁸. Higher molar solubility doesn't guarantee a larger K<sub>sp</sub> when ion ratios differ.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-308",
+  "field": "x[1]",
+  "old": "5 is for one Mn only.",
+  "new": "5 electrons is what one MnO₄⁻ gains, but each C₂O₄²⁻ loses 2. Electrons lost must equal electrons gained, so scale both halves to their lowest common multiple.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-312",
+  "field": "x[3]",
+  "old": "Fe³⁺ is a product.",
+  "new": "Fe³⁺ is a product, formed when Fe²⁺ loses an electron. The oxidizing agent is the reactant that gets reduced, gaining the electrons Fe²⁺ gives up.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-320",
+  "field": "x[1]",
+  "old": "The sign is flipped.",
+  "new": "With +0.28 V, E°<sub>cell</sub> = 0.34 − 0.28 = 0.06 V, not 0.62 V. M is the anode, so E°<sub>M</sub> = E°<sub>cathode</sub> − E°<sub>cell</sub>, and keep the sign that subtraction gives.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-320",
+  "field": "x[2]",
+  "old": "This adds 0.62 and 0.34.",
+  "new": "This adds 0.62 + 0.34, but E°<sub>cell</sub> = E°<sub>cathode</sub> − E°<sub>anode</sub>. Plugging +0.96 V back in gives 0.34 − 0.96 = −0.62 V, a cell that would not run.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-331",
+  "field": "x[1]",
+  "old": "90° is the cis angle.",
+  "new": "90° is the angle between ligands on adjacent corners of an octahedron, the cis arrangement. Trans ligands sit on opposite sides of the metal.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-331",
+  "field": "x[2]",
+  "old": "109.5° is tetrahedral.",
+  "new": "109.5° is the angle in a tetrahedron (4 groups). This ion has six ligands in an octahedron, where every angle between ligands is either 90° or 180°.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-331",
+  "field": "x[3]",
+  "old": "120° is trigonal planar.",
+  "new": "120° is the angle in a trigonal planar shape (3 groups). This ion has six ligands in an octahedron, where every angle between ligands is either 90° or 180°.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-335",
+  "field": "x[2]",
+  "old": "Fe³⁺ is d⁵, not d⁶.",
+  "new": "The diagram shows six electrons, but Fe³⁺ is d⁵. A high-spin d⁵ ion would also put two electrons in the e<sub>g</sub> orbitals, while this diagram has all its electrons paired in t₂g.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-336",
+  "field": "x[1]",
+  "old": "This is reversed.",
+  "new": "This runs the spectrochemical series backwards. Halides like I⁻ are weak-field ligands that give the smallest Δ<sub>o</sub>, while CN⁻ is strong-field and gives the largest.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-338",
+  "field": "x[3]",
+  "old": "This leaves λ in nm.",
+  "new": "This plugs in λ = 498 instead of 498×10⁻⁹ m, so the energy comes out 10⁹ times too small. Convert nm to meters before using E = hc/λ.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-343",
+  "field": "x[1]",
+  "old": "This swaps the numbers.",
+  "new": "This swaps the counts. Only alpha decay changes the mass number, by 4 each: 4 α drops it by 16, to 216, not 208. Find the alphas from the mass change first.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-352",
+  "field": "x[2]",
+  "old": "This is upside down.",
+  "new": "This puts the reactant ion Ag⁺ on top, which is K for the reverse reaction. K<sub>c</sub> is products over reactants, so the product ion Cu²⁺ goes in the numerator.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-355",
+  "field": "x[1]",
+  "old": "This leaves Ea in kJ.",
+  "new": "This plugs E<sub>a</sub> = 50.0 kJ into R in J, so the exponent is 1000 times too small and the ratio barely moves from 1. Use 50,000 J mol⁻¹ first.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-357",
+  "field": "x[1]",
+  "old": "3.74 is the pOH.",
+  "new": "3.74 is the pOH, from −log[OH⁻]. Hypochlorite is a weak base, so the pH must be above 7; subtract the pOH from 14 to finish.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-362",
+  "field": "x[3]",
+  "old": "S is just excess NaOH.",
+  "new": "S is past the equivalence point: all the acetic acid is gone and the pH is set by excess NaOH. With no weak acid left to neutralize added base, it has little buffer capacity.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-365",
+  "field": "x[1]",
+  "old": "This is Kb of A⁻.",
+  "new": "5.6×10⁻¹¹ is K<sub>b</sub> of A⁻, found from K<sub>w</sub>/K<sub>a</sub>. The question asks for K<sub>a</sub> of HA, which comes straight from the pH where the HA and A⁻ curves cross.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-365",
+  "field": "x[3]",
+  "old": "Recheck: Ka = 10^(−pKa).",
+  "new": "The digits are right but the power of ten is wrong. K<sub>a</sub> = 10<sup>−pK<sub>a</sub></sup>, and the curves cross near pH 3.75, so K<sub>a</sub> must lie between 10⁻⁴ and 10⁻³.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-367",
+  "field": "x[2]",
+  "old": "II changes more than IV.",
+  "new": "Buffer II's pH fell 0.18 units, more than two of the other buffers. A bigger pH drop means less acid and base on hand to absorb the added H⁺, so II is not the most concentrated.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-370",
+  "field": "x[3]",
+  "old": "11.96 is the pOH.",
+  "new": "11.96 is the pOH. After the equivalence point the flask holds excess HCl, so the solution is acidic; −log[H⁺] gives the pH directly.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-372",
+  "field": "x[1]",
+  "old": "This is upside down.",
+  "new": "3.0 is 30.0/10.0, which is [HA]/[A⁻]. The question asks for [A⁻]/[HA], so the A⁻ formed by the base goes on top.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-374",
+  "field": "x[1]",
+  "old": "B is the copper cathode.",
+  "new": "B is the copper electrode, where Cu²⁺ (higher E°) is reduced and plates out as metal. That makes B the cathode, and it gains mass rather than losing it.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-378",
+  "field": "x[2]",
+  "old": "This uses n = 1.",
+  "new": "This uses n = 1, so the 0.0592 correction is doubled. Each Cu²⁺/Cu half-reaction transfers 2 electrons, so n = 2 halves the correction.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-378",
+  "field": "x[3]",
+  "old": "E° is zero, but E isn't.",
+  "new": "E° is zero because both half-cells are Cu²⁺/Cu, but the concentrations differ, so Q ≠ 1. The Nernst term −(0.0592/n) log Q then gives a nonzero voltage.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-381",
+  "field": "x[2]",
+  "old": "The sign is dropped.",
+  "new": "With +0.12 V, E°<sub>cell</sub> = 0.34 − 0.12 = 0.22 V, not the measured 0.46 V. M is the anode, so E°<sub>M</sub> = 0.34 − 0.46; keep the sign that subtraction gives.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-385",
+  "field": "x[2]",
+  "old": "30 kJ is the reverse Ea.",
+  "new": "30 kJ is the reverse activation energy: transition state (80 kJ) minus products (50 kJ). The forward E<sub>a</sub> is measured from the reactants, which sit at 10 kJ.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-403",
+  "field": "x[2]",
+  "old": "Mixture II is below Ksp.",
+  "new": "Mixture II has Q = 3.0×10⁻⁵, below the K<sub>sp</sub> line at 4.9×10⁻⁵. When Q &lt; K<sub>sp</sub>, the solution is unsaturated and more solid could still dissolve, so nothing precipitates.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-403",
+  "field": "x[3]",
+  "old": "Mixture I is below Ksp.",
+  "new": "Mixture I has Q = 1.2×10⁻⁵, well below the K<sub>sp</sub> line at 4.9×10⁻⁵. When Q &lt; K<sub>sp</sub>, the solution is unsaturated, so no precipitate forms.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-404",
+  "field": "x[1]",
+  "old": "I is the cis isomer.",
+  "new": "In I the two Cl ligands sit on adjacent corners, 90° apart, which makes it the cis isomer (cisplatin). Trans means the two Cl ligands are directly across the Pt, 180° apart.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-404",
+  "field": "x[2]",
+  "old": "III is a bromo complex.",
+  "new": "III has two Br ligands, not two Cl, so it is Pt(NH₃)₂Br₂. Dichloro requires two chloride ligands, so its formula doesn't match the name.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-404",
+  "field": "x[3]",
+  "old": "IV is a bromo complex.",
+  "new": "IV has two Br ligands, not two Cl, so it is Pt(NH₃)₂Br₂. Dichloro requires two chloride ligands, so its formula doesn't match the name.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-407",
+  "field": "x[2]",
+  "old": "Cr³⁺ is d³.",
+  "new": "Cr³⁺ is d³, so it has only three d electrons. The diagram shows five electrons, one in each d orbital, so the metal ion must be d⁵.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-407",
+  "field": "x[3]",
+  "old": "Co³⁺ is d⁶.",
+  "new": "Co³⁺ is d⁶, one more electron than the five drawn. NH₃ is fairly strong-field, so it would also pair all six in t₂g rather than spread them out singly.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-410",
+  "field": "x[3]",
+  "old": "This is ΔH° alone.",
+  "new": "This is ΔH° by itself. ΔG° = ΔH° − TΔS°, and ΔS° is positive (a gas forms), so subtracting TΔS° makes ΔG° smaller than ΔH°.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-415",
+  "field": "x[2]",
+  "old": "Temperature changes K.",
+  "new": "A catalyst leaves K unchanged, but temperature does change K. For an endothermic reaction, heat acts like a reactant, so warming shifts the equilibrium and its constant.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-418",
+  "field": "x[1]",
+  "old": "I₂ is a reactant.",
+  "new": "I₂ is a reactant: it is used up in step 1 and still appears in the overall equation. An intermediate is made in one step and consumed in a later one, so it cancels out.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-418",
+  "field": "x[2]",
+  "old": "H₂ is a reactant.",
+  "new": "H₂ is a reactant: it is used up in step 2 and appears in the overall equation. An intermediate is made in an earlier step and consumed later, so it cancels out.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-418",
+  "field": "x[3]",
+  "old": "HI is the product.",
+  "new": "HI is the final product: it is made in step 2 and never used up, so it stays in the overall equation. An intermediate is made and then consumed, so it cancels out.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-419",
+  "field": "x[3]",
+  "old": "k depends on T.",
+  "new": "T sits in the exponent, −E<sub>a</sub>/RT, so changing T changes how negative the exponent is and therefore changes k. Only a zero E<sub>a</sub> would make k temperature-independent.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-427",
+  "field": "x[2]",
+  "old": "This is upside down.",
+  "new": "This is 0.400/(0.200 × 0.200), reactants over products. K<sub>c</sub> puts the products PCl₃ and Cl₂ on top and PCl₅ on the bottom.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-431",
+  "field": "x[1]",
+  "old": "These are the two acids.",
+  "new": "H₂PO₄⁻ and HCO₃⁻ are the proton donors: H₂PO₄⁻ gives H⁺ in the forward reaction and HCO₃⁻ in the reverse. Bases are the species that accept those protons.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-433",
+  "field": "x[2]",
+  "old": "NO₂⁻ is a base here.",
+  "new": "NO₂⁻ has no proton to give here; it is the conjugate base formed when HNO₂ donates H⁺. The strongest acid must be one of the two proton donors.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-433",
+  "field": "x[3]",
+  "old": "CH₃COO⁻ is a base here.",
+  "new": "CH₃COO⁻ accepts a proton here, so it is a base, not an acid. The strongest acid must be one of the two species that donate H⁺.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-434",
+  "field": "x[2]",
+  "old": "AlCl₄⁻ is the product.",
+  "new": "AlCl₄⁻ is the adduct, the product formed after the acid–base bond is made. The Lewis acid is a reactant that accepts an electron pair.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-434",
+  "field": "x[3]",
+  "old": "No free Al³⁺ forms here.",
+  "new": "AlCl₃ does not ionize here; Cl⁻ bonds directly to the Al atom of the intact molecule. That Al, with only six valence electrons and an empty orbital, accepts the lone pair.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-438",
+  "field": "x[1]",
+  "old": "This flips the ratio.",
+  "new": "This uses log(0.025/0.015), putting the acid on top. Henderson–Hasselbalch is log([base]/[acid]); with less OCl⁻ than HOCl, the pH must be below pK<sub>a</sub> = 7.52.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-443",
+  "field": "x[2]",
+  "old": "This is upside down.",
+  "new": "This is 1/K<sub>sp</sub>, the constant for precipitating Zn(OH)₂. Dissolution is reaction 1 plus the reverse of reaction 2, so K<sub>f</sub> belongs in the denominator.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-444",
+  "field": "x[3]",
+  "old": "Ag₂S's Ksp is tiny.",
+  "new": "Ag₂S has K<sub>sp</sub> = 6.0×10⁻⁵¹, so tiny that s is only about 10⁻¹⁷ M. Even with two Ag⁺ per formula unit, its [Ag⁺] is the lowest of the four.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-447",
+  "field": "x[1]",
+  "old": "76 fits a liquid metal.",
+  "new": "76 J mol⁻¹ K⁻¹ is reasonable for a liquid metal: higher than typical solids, far below gases. The wrong entry is one that breaks the solid &lt; liquid &lt; gas order.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-447",
+  "field": "x[2]",
+  "old": "72 fits an ionic solid.",
+  "new": "72 J mol⁻¹ K⁻¹ is reasonable for an ionic solid like NaCl, well below any gas. The wrong entry is one that breaks the solid &lt; liquid &lt; gas order.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-447",
+  "field": "x[3]",
+  "old": "186 fits a small gas.",
+  "new": "186 J mol⁻¹ K⁻¹ is typical of a small gas molecule, since gases have the highest entropies. The wrong entry is one that breaks the solid &lt; liquid &lt; gas order.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-456",
+  "field": "x[3]",
+  "old": "This is TΔS° at 298 K.",
+  "new": "+52.4 kJ is ΔH° − ΔG° at 298 K, which is TΔS° at 298 K. You still need ΔS° from it, then ΔG° = ΔH° − (800 K)ΔS°.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-458",
+  "field": "x[1]",
+  "old": "HF has the smaller ΔG°.",
+  "new": "From ΔG° = −RT ln K, HF's larger K<sub>a</sub> gives the smaller ΔG° (+18.1 vs +42.9 kJ mol⁻¹). The acid with the less favorable ionization has the more positive ΔG°.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-458",
+  "field": "x[3]",
+  "old": "This reverses both.",
+  "new": "Both parts are reversed. Since ΔG° = −RT ln K<sub>a</sub>, the acid with the smaller K<sub>a</sub> has the more positive ΔG°, and the one with the larger K<sub>a</sub> is stronger.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-459",
+  "field": "x[3]",
+  "old": "Elements have ΔG°f = 0.",
+  "new": "ΔG°<sub>f</sub> of an element in its standard state, like H₂ or O₂, is zero by definition. So the table already gives everything needed to find ΔG° and K for both reactions.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-460",
+  "field": "x[3]",
+  "old": "K is never zero.",
+  "new": "K = e<sup>−ΔG°/RT</sup> is always positive, never zero. A zero K would mean no product at all, which is not an equilibrium mixture of A and B.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-469",
+  "field": "x[3]",
+  "old": "H⁺ is in Q, squared.",
+  "new": "H⁺ is a reactant in solution, so it appears in Q, squared: Q = [Zn²⁺]P<sub>H₂</sub>/[H⁺]². Adding NaOH changes [H⁺], so it changes Q and the cell potential.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-473",
+  "field": "x[1]",
+  "old": "A neutron has Z = 0.",
+  "new": "A neutron has Z = 0, but the charge balance needs a particle with Z = 1 (7 + 2 − 8). It does have A = 1, so only the mass balance works.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-473",
+  "field": "x[2]",
+  "old": "An electron has A = 0.",
+  "new": "An electron has A = 0 and Z = −1, but the balances need A = 1 (14 + 4 − 17) and Z = 1 (7 + 2 − 8). Neither number matches.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-473",
+  "field": "x[3]",
+  "old": "A positron has A = 0.",
+  "new": "A positron has the right charge (Z = 1) but A = 0. The mass balance, 14 + 4 − 17, needs a particle with A = 1.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-477",
+  "field": "x[2]",
+  "old": "A proton has A = 1.",
+  "new": "A proton has A = 1, but the mass numbers already balance (13 = 13), so the emitted particle must have A = 0.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-477",
+  "field": "x[3]",
+  "old": "A neutron would lower A.",
+  "new": "A neutron has A = 1 and Z = 0, but the mass numbers already balance (13 = 13) and Z drops from 7 to 6. The particle must carry A = 0 and Z = +1.",
+  "why": "fuller wrong-answer reason"
+ },
+ {
+  "id": "1B-487",
+  "field": "x[3]",
+  "old": "X is acetone, not water.",
+  "new": "Curve X is acetone: it has the higher vapor pressure because its weaker intermolecular forces (no hydrogen bonding) let molecules escape more easily. X reaches 760 torr near 56 °C, not 100 °C.",
+  "why": "fuller wrong-answer reason"
+ }
+]

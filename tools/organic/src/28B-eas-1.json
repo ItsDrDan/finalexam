@@ -1,0 +1,487 @@
+[
+ {
+  "id": "eas-01",
+  "d": 1,
+  "q": "Benzene is nitrated with a mixture of concentrated HNO<sub>3</sub> and H<sub>2</sub>SO<sub>4</sub>. Which species is the electrophile that attacks the ring?",
+  "c": [
+   "the nitronium ion, NO<sub>2</sub><sup>+</sup>",
+   "the nitrate ion, NO<sub>3</sub><sup>−</sup>",
+   "the nitrosonium ion, NO<sup>+</sup>",
+   "the hydrogen sulfate ion, HSO<sub>4</sub><sup>−</sup>"
+  ],
+  "h": "Sulfuric acid is the stronger acid. Protonate HNO<sub>3</sub> on an OH oxygen and let a good leaving group depart.",
+  "w": "H<sub>2</sub>SO<sub>4</sub> protonates the OH of nitric acid; the protonated acid loses water to give the linear <b>nitronium ion, O=N<sup>+</sup>=O</b>. It is a strong electrophile because nitrogen carries a formal positive charge and the ring's π electrons can attack it to form the arenium ion. Anions such as NO<sub>3</sub><sup>−</sup> and HSO<sub>4</sub><sup>−</sup> are electron-rich and cannot be attacked by an electron-rich ring.",
+  "x": [
+   "",
+   "Nitrate is an anion with no empty or low-lying acceptor orbital; an electron-rich ring cannot attack it.",
+   "NO<sup>+</sup> (from HNO<sub>2</sub>) nitrosates only very activated rings such as phenols; it is not formed from HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub>.",
+   "HSO<sub>4</sub><sup>−</sup> is the conjugate base left behind; it later acts as the base that removes H<sup>+</sup> from the arenium ion."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-02",
+  "d": 1,
+  "q": "Benzene does not react with Br<sub>2</sub> alone, but it is brominated quickly when FeBr<sub>3</sub> is added. What does FeBr<sub>3</sub> do?",
+  "c": [
+   "It is a Lewis acid that accepts electron density from Br<sub>2</sub>, polarizing the Br–Br bond so the terminal Br becomes strongly electrophilic",
+   "It is a Brønsted base that removes the ring proton first, giving a phenyl anion that then attacks Br<sub>2</sub>",
+   "It is a radical initiator that splits Br<sub>2</sub> into two Br· atoms, which add to the ring by a chain mechanism",
+   "It is a reducing agent that converts Br<sub>2</sub> into Br<sup>−</sup>, which then acts as the nucleophile that attacks the ring"
+  ],
+  "h": "Iron(III) has an empty orbital. Which atom of Br<sub>2</sub> can donate a lone pair to it?",
+  "w": "FeBr<sub>3</sub> is a <b>Lewis acid</b>: a lone pair on one Br of Br<sub>2</sub> coordinates to Fe, giving Br–Br<sup>+</sup>–FeBr<sub>3</sub><sup>−</sup>. The outer Br now behaves like Br<sup>+</sup>, and the ring's π electrons attack it to form the arenium ion while FeBr<sub>4</sub><sup>−</sup> leaves. FeBr<sub>4</sub><sup>−</sup> later removes the ring proton, regenerating FeBr<sub>3</sub> and releasing HBr.",
+  "x": [
+   "",
+   "An aryl C–H (pK<sub>a</sub> about 43) is not removed by FeBr<sub>3</sub>, which is not a base; the proton is lost only after the electrophile adds.",
+   "Radical bromination needs light or heat and gives benzylic, not ring, substitution; FeBr<sub>3</sub> catalysis is polar.",
+   "The ring is the nucleophile in EAS; bromide anion cannot attack an electron-rich π system."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-03",
+  "d": 1,
+  "q": "The energy diagram shows the bromination of benzene with Br<sub>2</sub>/FeBr<sub>3</sub>. Which statement is correct?",
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     22,
+     11,
+     14,
+     -6
+    ],
+    "tags": [
+     "",
+     "A",
+     "B",
+     "C",
+     ""
+    ],
+    "labels": [
+     "benzene + Br<sub>2</sub>/FeBr<sub>3</sub>",
+     "",
+     "",
+     "",
+     "bromobenzene + HBr"
+    ]
+   }
+  ],
+  "c": [
+   "B is the arenium ion (σ complex); the step through A, which breaks the aromatic π system, is rate-determining",
+   "B is the arenium ion (σ complex); the step through C, loss of H<sup>+</sup>, is rate-determining",
+   "A is the arenium ion; it is the highest-energy point, so it is the rate-determining intermediate",
+   "B is a cyclohexadienyl radical; the step through A, homolysis of Br–Br, is rate-determining"
+  ],
+  "h": "Intermediates sit in valleys, transition states on peaks. Which step costs the ring its aromaticity?",
+  "w": "Maxima (A, C) are transition states; the valley B is the <b>arenium ion (σ complex)</b>. Its formation destroys the aromatic sextet, so the first barrier (A) is the highest and <b>that step is rate-determining</b>. Loss of H<sup>+</sup> through C restores aromaticity and is fast, which is why C is lower than A.",
+  "x": [
+   "",
+   "C is lower than A; deprotonation regains aromatic stabilization and is fast, so it does not limit the rate.",
+   "A is a peak, so it is a transition state, not an intermediate; intermediates sit in energy minima.",
+   "FeBr<sub>3</sub> bromination is a polar (ionic) process; there is no Br· or cyclohexadienyl radical on this path."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-04",
+  "d": 2,
+  "q": "Which statement about aromatic sulfonation with fuming sulfuric acid (SO<sub>3</sub> in H<sub>2</sub>SO<sub>4</sub>) is correct?",
+  "c": [
+   "It is reversible: heating the arenesulfonic acid in dilute aqueous acid removes the SO<sub>3</sub>H group",
+   "It needs FeBr<sub>3</sub> or AlCl<sub>3</sub> to turn SO<sub>3</sub> into an electrophile",
+   "The SO<sub>3</sub>H group it installs is an ortho/para-directing activator",
+   "The electrophile is HSO<sub>4</sub><sup>−</sup>, formed when SO<sub>3</sub> dissolves in H<sub>2</sub>SO<sub>4</sub>"
+  ],
+  "h": "Think about what large amounts of water do to the position of the sulfonation equilibrium.",
+  "w": "SO<sub>3</sub> (or its protonated form HSO<sub>3</sub><sup>+</sup>) is the electrophile: sulfur is strongly δ+ between three oxygens, so no metal Lewis acid is needed. Every step of sulfonation is reversible: in concentrated acid with excess SO<sub>3</sub> the sulfonic acid forms, but <b>heating in dilute aqueous acid (steam) drives desulfonation</b>. This reversibility is why SO<sub>3</sub>H works as a removable blocking group in synthesis.",
+  "x": [
+   "",
+   "SO<sub>3</sub> is already a strong electrophile (S bearing three electronegative O); no metal halide catalyst is used.",
+   "SO<sub>3</sub>H is strongly electron-withdrawing; it deactivates the ring and directs meta.",
+   "HSO<sub>4</sub><sup>−</sup> is an anion and a weak base, not an electrophile; the electrophile is SO<sub>3</sub> or HSO<sub>3</sub><sup>+</sup>."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-05",
+  "d": 2,
+  "q": "Acetyl chloride and AlCl<sub>3</sub> are added to benzene. Which species is the electrophile that attacks the ring?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC#[O+]"
+   },
+   {
+    "smi": "[CH3+]"
+   },
+   {
+    "smi": "C=C=O"
+   },
+   {
+    "smi": "CC(Cl)=[OH+]"
+   }
+  ],
+  "h": "AlCl<sub>3</sub> pulls chloride off the acyl chloride. What cation remains, and how is it stabilized?",
+  "w": "AlCl<sub>3</sub> abstracts Cl<sup>−</sup> from CH<sub>3</sub>COCl to give AlCl<sub>4</sub><sup>−</sup> and the <b>acylium ion, CH<sub>3</sub>C≡O<sup>+</sup></b>. Its positive charge is shared by resonance between carbon (CH<sub>3</sub>–C<sup>+</sup>=O) and oxygen (C≡O<sup>+</sup>, all octets complete). Because the cation is resonance-stabilized it does not rearrange, which is why acylation gives clean, unrearranged products.",
+  "x": [
+   "",
+   "Losing CO to give a methyl cation would trade a resonance-stabilized cation for the least stable carbocation; it does not happen under these conditions.",
+   "Ketene forms only when a base removes an α-H from an acyl chloride; it is neutral and is not the Friedel–Crafts electrophile.",
+   "There is no proton source to make a protonated acyl chloride; AlCl<sub>3</sub> is a Lewis acid that removes Cl<sup>−</sup>."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-06",
+  "d": 3,
+  "q": "Anisole is nitrated para to the OCH<sub>3</sub> group. Which structure is the most important resonance contributor to the σ complex (arenium ion) on that pathway?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[O+]=C1C=CC([N+](=O)[O-])C=C1"
+   },
+   {
+    "smi": "CO[C+]1C=CC([N+](=O)[O-])C=C1"
+   },
+   {
+    "smi": "COC1=C[CH+]C([N+](=O)[O-])C=C1"
+   },
+   {
+    "smi": "COC1=CC([N+](=O)[O-])[CH+]C=C1"
+   }
+  ],
+  "h": "Count the electrons around every atom in each form. A form in which every atom has an octet beats any form with a 6-electron carbon.",
+  "w": "Para attack puts the positive charge on the two carbons ortho to the new sp<sup>3</sup> carbon and on the carbon bearing OCH<sub>3</sub> . From that form, an oxygen lone pair forms a C=O<sup>+</sup> π bond, giving <b>the oxonium form, in which every atom has a complete octet</b>. A form with all octets outweighs any form with an electron-deficient carbon, even the tertiary-like cation on the OCH<sub>3</sub> carbon. This extra contributor is why OCH<sub>3</sub> activates the ring and directs ortho/para.",
+  "x": [
+   "",
+   "This is a real contributor (the cation sits on the carbon bearing OCH<sub>3</sub>), but that carbon has only six electrons; the oxonium form, with all octets, is more important.",
+   "This is a real contributor, but its cationic carbon has only six electrons and gets no direct help from the oxygen lone pair.",
+   "This is a resonance form of the meta σ complex (the sp<sup>3</sup> carbon is meta to OCH<sub>3</sub>), not of the para σ complex."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-07",
+  "d": 1,
+  "q": "Rank these compounds from fastest to slowest reaction with HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub>.",
+  "s": [
+   {
+    "smi": "Clc1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "COc1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "O=[N+]([O-])c1ccccc1",
+    "cap": "III"
+   },
+   {
+    "smi": "Cc1ccccc1",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "II > IV > I > III",
+   "IV > II > I > III",
+   "II > IV > III > I",
+   "II > I > IV > III"
+  ],
+  "h": "Sort the substituents into strong donors, weak donors, weak withdrawers and strong withdrawers.",
+  "w": "OCH<sub>3</sub> donates a lone pair by resonance (strong activator); CH<sub>3</sub> donates weakly by hyperconjugation and induction (weak activator); Cl withdraws inductively more than it donates by resonance (weak deactivator); NO<sub>2</sub> withdraws by both induction and resonance (strong deactivator). Order: <b>anisole (II) > toluene (IV) > chlorobenzene (I) > nitrobenzene (III)</b>.",
+  "x": [
+   "",
+   "Resonance donation from an oxygen lone pair (OCH<sub>3</sub>) is much stronger than hyperconjugation from CH<sub>3</sub>; anisole reacts thousands of times faster than toluene.",
+   "Chlorobenzene is only mildly deactivated (about 30 times slower than benzene); nitrobenzene is millions of times slower.",
+   "Cl lone-pair donation only steers the electrophile ortho/para; overall the C–Cl inductive pull makes chlorobenzene slower than benzene and far slower than toluene."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-08",
+  "d": 2,
+  "q": "Rank these compounds from fastest to slowest reaction with Br<sub>2</sub>/FeBr<sub>3</sub>.",
+  "s": [
+   {
+    "smi": "CC(=O)Nc1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "c1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "Oc1ccccc1",
+    "cap": "III"
+   },
+   {
+    "smi": "CCOC(=O)c1ccccc1",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "III > I > II > IV",
+   "I > III > II > IV",
+   "III > II > I > IV",
+   "III > I > IV > II"
+  ],
+  "h": "In acetanilide, the nitrogen lone pair is shared between the ring and the C=O. In ethyl benzoate, which atom is attached to the ring?",
+  "w": "OH donates an oxygen lone pair fully into the ring (strong activator). In NHCOCH<sub>3</sub> the nitrogen lone pair is partly tied up by amide resonance with C=O, so it is a <b>moderate</b> activator, still faster than benzene. The ester is attached through its carbonyl carbon, so it withdraws electron density (deactivator). Order: <b>phenol (III) > acetanilide (I) > benzene (II) > ethyl benzoate (IV)</b>.",
+  "x": [
+   "",
+   "Amide resonance diverts part of the nitrogen lone pair to the carbonyl oxygen, so NHCOCH<sub>3</sub> activates less than OH.",
+   "Acetanilide is still activated: its nitrogen lone pair, though shared with C=O, stabilizes the ortho/para σ complexes, so it reacts faster than benzene.",
+   "In ethyl benzoate the ring is bonded to the C=O carbon, not to an oxygen with a lone pair; CO<sub>2</sub>Et withdraws electrons and slows the reaction below benzene."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-09",
+  "d": 2,
+  "q": "Chlorobenzene reacts more slowly than benzene in EAS, yet it gives mostly ortho and para products. Which explanation is correct?",
+  "c": [
+   "Inductive withdrawal by Cl slows attack at every position, but Cl lone-pair donation stabilizes the σ complexes from ortho and para attack, which have a form with the cation on the carbon bearing Cl",
+   "Cl donates electrons by induction but withdraws them by resonance, so it slows meta attack more than ortho and para attack",
+   "Cl deactivates only the meta positions; the ortho and para positions are activated relative to benzene",
+   "Cl lone pairs make every ring position more electron-rich than in benzene, but the large Cl atom sterically blocks the meta positions"
+  ],
+  "h": "Two effects act at once. One sets the overall rate; the other decides which σ complex is least bad.",
+  "w": "Cl is more electronegative than carbon, so its <b>inductive withdrawal</b> lowers the energy of the ring π electrons and slows reaction at every position (net deactivator). But in the ortho and para σ complexes one resonance form puts the positive charge on the carbon bonded to Cl, and a <b>Cl lone pair can donate into it</b> (a chloronium form with all octets). The meta σ complex never places the charge there, so it gets no such help. Result: slower than benzene, but ortho/para selective.",
+  "x": [
+   "",
+   "The directions are reversed: Cl withdraws by induction and donates by resonance.",
+   "No position of chlorobenzene reacts faster than a position of benzene; the ortho/para positions are simply deactivated less than meta.",
+   "Cl does not raise the electron density of the ring overall (it is a deactivator), and meta selectivity is electronic, not steric."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-10",
+  "d": 1,
+  "q": "Which compound is nitrated mainly at the meta position?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COC(=O)c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)Oc1ccccc1"
+   },
+   {
+    "smi": "CC(=O)Nc1ccccc1"
+   },
+   {
+    "smi": "Brc1ccccc1"
+   }
+  ],
+  "h": "Look at the atom bonded directly to the ring. Does it have a lone pair, or is it the δ+ carbon of a C=O?",
+  "w": "Meta directors have a δ+ atom (often a C=O carbon) bonded to the ring, so they withdraw electrons by resonance. <b>Methyl benzoate</b> has the ester carbonyl carbon on the ring: meta director. Phenyl acetate and acetanilide attach through O and N lone pairs (ortho/para), and bromobenzene is an ortho/para-directing deactivator.",
+  "x": [
+   "",
+   "Phenyl acetate is attached through an oxygen with a lone pair; the OCOCH<sub>3</sub> group directs ortho/para (a weak activator).",
+   "Acetanilide is attached through N, whose lone pair stabilizes ortho/para σ complexes.",
+   "Halogens deactivate but direct ortho/para through lone-pair donation."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-11",
+  "d": 3,
+  "q": "Nitrobenzene reacts with Br<sub>2</sub>/FeBr<sub>3</sub> (heat) at the meta position. Each structure below is a resonance form of a σ complex for ortho, meta or para attack. Which form is especially unstable and best explains why ortho and para attack are avoided?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[O-][N+](=O)[C+]1C=CC(Br)C=C1"
+   },
+   {
+    "smi": "[O-][N+](=O)C1=C[CH+]C(Br)C=C1"
+   },
+   {
+    "smi": "[O-][N+](=O)C1=CC=CC(Br)[CH+]1"
+   },
+   {
+    "smi": "[O-][N+](=O)C1=C[CH+]C=CC1Br"
+   }
+  ],
+  "h": "Find the form where the ring's positive charge sits right next to the positively charged nitrogen.",
+  "w": "Ortho and para attack each give one resonance form with the cation on the <b>carbon bonded to the nitro group</b>. That puts a positive carbon directly next to the formally positive nitrogen: two adjacent positive centers, a very high-energy form. The meta σ complex has no such form; its charge is never on the carbon bearing NO<sub>2</sub>. So the meta σ complex is the least destabilized, and meta substitution wins (slowly, because all paths are destabilized).",
+  "x": [
+   "",
+   "B (para attack, cation two carbons away from the nitro-bearing carbon) is an ordinary contributor with the charge on a C–H carbon; it is not what makes para attack bad.",
+   "C belongs to the meta σ complex (the favored pathway). The cation is next to, not on, the carbon bearing NO<sub>2</sub>, so it lacks the adjacent-positive-charge clash.",
+   "D belongs to the ortho σ complex, but its cation is far from the nitro group; the bad form of the ortho complex is the one with the charge on the nitro-bearing carbon."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-12",
+  "d": 3,
+  "q": "Rank these compounds from fastest to slowest nitration.",
+  "s": [
+   {
+    "smi": "Clc1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "FC(F)(F)c1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "O=[N+]([O-])c1ccccc1",
+    "cap": "III"
+   },
+   {
+    "smi": "Cc1ccccc1",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "IV > I > II > III",
+   "IV > II > I > III",
+   "IV > I > III > II",
+   "I > IV > II > III"
+  ],
+  "h": "CF<sub>3</sub> withdraws only by induction; NO<sub>2</sub> withdraws by induction and resonance. Cl withdraws by induction but also has lone pairs.",
+  "w": "Toluene (IV) is activated. Chlorobenzene (I) is only weakly deactivated because Cl lone-pair donation offsets part of its inductive pull. CF<sub>3</sub> (II) is a strong, purely inductive withdrawer with no lone pair on carbon, so it deactivates far more than Cl. NO<sub>2</sub> (III) withdraws by induction and resonance and has the positively charged nitrogen next to the ring: the strongest deactivator here. <b>IV > I > II > III</b>.",
+  "x": [
+   "",
+   "C–F bonds do not hyperconjugate like C–H; CF<sub>3</sub> is strongly electron-withdrawing and makes the ring much slower than chlorobenzene.",
+   "The three fluorines are not attached to the ring; CF<sub>3</sub> withdraws only inductively, while NO<sub>2</sub> adds resonance withdrawal and a formal + charge, so nitrobenzene is slowest.",
+   "Chlorobenzene reacts more slowly than benzene, so it cannot beat toluene."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-13",
+  "d": 2,
+  "q": "What is the major product when the trimethylanilinium ion is nitrated with HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub>?",
+  "s": [
+   {
+    "smi": "C[N+](C)(C)c1ccccc1"
+   },
+   {
+    "arrow": "HNO<sub>3</sub>",
+    "below": "H<sub>2</sub>SO<sub>4</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "no reaction: a ring that carries a positive charge cannot react with NO<sub>2</sub><sup>+</sup>"
+  ],
+  "cs": [
+   {
+    "smi": "C[N+](C)(C)c1cccc([N+](=O)[O-])c1"
+   },
+   {
+    "smi": "C[N+](C)(C)c1ccc([N+](=O)[O-])cc1"
+   },
+   {
+    "smi": "C[N+](C)(C)c1ccccc1[N+](=O)[O-]"
+   },
+   null
+  ],
+  "h": "Does the nitrogen in N(CH<sub>3</sub>)<sub>3</sub><sup>+</sup> still have a lone pair to donate?",
+  "w": "In –N(CH<sub>3</sub>)<sub>3</sub><sup>+</sup> the nitrogen uses all four of its electron pairs in σ bonds, so it has <b>no lone pair</b> to donate. Its positive charge withdraws strongly by induction. Ortho and para attack would place the ring cation on the carbon bonded to N<sup>+</sup> (two adjacent positive centers), so attack occurs <b>meta</b>. The ring is strongly deactivated but still reacts with the very reactive NO<sub>2</sub><sup>+</sup>.",
+  "x": [
+   "",
+   "Para attack would put the cation on the carbon bonded to N<sup>+</sup>; with no lone pair on N to help, that σ complex is strongly destabilized.",
+   "Ortho attack has the same problem as para, and the bulky N(CH<sub>3</sub>)<sub>3</sub><sup>+</sup> group also blocks the ortho positions.",
+   "Strongly deactivated rings (even cationic ones) still react with NO<sub>2</sub><sup>+</sup> under forcing conditions; they just react slowly and meta."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-14",
+  "d": 3,
+  "q": "Nitration of aniline in concentrated HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub> gives a large amount of <i>m</i>-nitroaniline, even though NH<sub>2</sub> is an ortho/para director. What is the best explanation?",
+  "c": [
+   "In strong acid aniline is mostly protonated to anilinium (C<sub>6</sub>H<sub>5</sub>NH<sub>3</sub><sup>+</sup>), whose NH<sub>3</sub><sup>+</sup> group has no lone pair and directs meta",
+   "NO<sub>2</sub><sup>+</sup> first attacks the nitrogen, and the N-nitro group then migrates to the nearest free meta carbon",
+   "The NH<sub>2</sub> group is so bulky in acid that both ortho and para positions are sterically blocked",
+   "Sulfuric acid sulfonates the para position first, and the nitro group then enters the only free meta position"
+  ],
+  "h": "What happens to a basic amine (conjugate-acid pK<sub>a</sub> about 4.6) in concentrated sulfuric acid?",
+  "w": "Aniline's conjugate acid has pK<sub>a</sub> ≈ 4.6, so in concentrated H<sub>2</sub>SO<sub>4</sub> nearly all of it is <b>anilinium ion</b>. The –NH<sub>3</sub><sup>+</sup> group has no lone pair and withdraws by induction, so it deactivates the ring and <b>directs meta</b>. The small amount of free aniline still reacts ortho/para, giving a mixture. Protecting the amine as an acetamide avoids this.",
+  "x": [
+   "",
+   "N-Nitration and migration is not the main path here; the meta product comes from the protonated amine.",
+   "The para position is remote from the substituent and cannot be blocked sterically.",
+   "Sulfonation as a blocking step requires a separate SO<sub>3</sub> step and later removal; it does not explain meta product in a nitration mixture."
+  ],
+  "t": "eas",
+  "k": 0
+ },
+ {
+  "id": "eas-15",
+  "d": 2,
+  "q": "Phenol is treated with excess bromine water (Br<sub>2</sub> in H<sub>2</sub>O, no catalyst). What is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "no reaction, because Br<sub>2</sub> needs FeBr<sub>3</sub> to brominate an aromatic ring"
+  ],
+  "cs": [
+   {
+    "smi": "Oc1c(Br)cc(Br)cc1Br"
+   },
+   {
+    "smi": "Oc1ccc(Br)cc1"
+   },
+   {
+    "smi": "Oc1cc(Br)cc(Br)c1"
+   },
+   null
+  ],
+  "h": "OH is one of the strongest activators. How many ortho and para positions are open, and is there enough Br<sub>2</sub> for all of them?",
+  "w": "The OH group is so strongly activating (and in water some phenoxide forms, which is even more activating) that no Lewis acid is needed and the reaction does not stop at one substitution. With excess Br<sub>2</sub>, all three ortho/para positions are brominated: <b>2,4,6-tribromophenol</b>, which precipitates as a white solid.",
+  "x": [
+   "",
+   "4-Bromophenol forms when bromination is done with one equivalent in a nonpolar solvent at low temperature; with excess bromine water the ring keeps reacting.",
+   "The 3- and 5-positions are meta to OH; a strong ortho/para director does not send bromine there.",
+   "Strongly activated rings such as phenol and aniline react with Br<sub>2</sub> without any Lewis acid."
+  ],
+  "t": "eas",
+  "k": 0
+ }
+]

@@ -1,0 +1,529 @@
+[
+ {
+  "id": "enol-28",
+  "d": 2,
+  "q": "Ethyl propanoate is treated with one equivalent of NaOEt in ethanol, and the mixture is then acidified. What is the Claisen condensation product?",
+  "s": [
+   {
+    "smi": "CCC(=O)OCC"
+   },
+   {
+    "arrow": "1. NaOEt, EtOH",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(=O)C(C)C(=O)OCC"
+   },
+   {
+    "smi": "CCC(=O)CC(=O)OCC"
+   },
+   {
+    "smi": "CCC(O)C(C)C(=O)OCC"
+   },
+   {
+    "smi": "CCC(=O)C(C)C(=O)CC"
+   }
+  ],
+  "h": "The α-carbon (C2) of one ester attacks the C=O of a second ester, and ethoxide leaves. Which carbon of the product carries the CH<sub>3</sub> branch?",
+  "w": "The enolate of one ester (nucleophilic C2, which carries a CH<sub>3</sub>) attacks the carbonyl of a second ester; the tetrahedral intermediate expels EtO<sup>−</sup>, giving a β-keto ester. The CH<sub>3</sub> stays on the carbon between the two C=O groups: <b>ethyl 2-methyl-3-oxopentanoate</b>, C<sub>8</sub>H<sub>14</sub>O<sub>3</sub> = 2 C<sub>5</sub>H<sub>10</sub>O<sub>2</sub> − C<sub>2</sub>H<sub>5</sub>OH.",
+  "x": [
+   "",
+   "This product lacks the CH<sub>3</sub> branch (C<sub>7</sub>); it would come from ethyl acetate plus ethyl propanoate. The nucleophilic carbon of ethyl propanoate is the CH<sub>2</sub>, so it keeps its CH<sub>3</sub>.",
+   "This is an aldol-type alcohol. In a Claisen the tetrahedral intermediate is not protonated; it expels ethoxide, regenerating a C=O (a ketone).",
+   "Losing both ethoxy groups gives a β-diketone; only one ester undergoes acyl substitution, so the product keeps one OEt."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-29",
+  "d": 2,
+  "q": "Which ester gives little or no Claisen condensation product when treated with NaOEt in ethanol?",
+  "c": [
+   "Ethyl 2-methylpropanoate",
+   "Ethyl acetate",
+   "Ethyl propanoate",
+   "Ethyl phenylacetate"
+  ],
+  "h": "The Claisen equilibrium is driven to completion by one last step after the β-keto ester forms. What does that step require of the product?",
+  "w": "The Claisen addition–elimination steps are uphill. The reaction is pulled forward because ethoxide removes the very acidic H between the two C=O groups of the β-keto ester (pK<sub>a</sub> ≈ 11). <b>Ethyl 2-methylpropanoate</b> has only one α-H; after condensation the central carbon carries two CH<sub>3</sub> groups and no H, so this driving deprotonation is impossible and the equilibrium returns to starting ester.",
+  "x": [
+   "",
+   "Ethyl acetate has three α-H's; its product, ethyl acetoacetate, has an acidic CH<sub>2</sub> between the carbonyls that ethoxide deprotonates.",
+   "Ethyl propanoate has two α-H's; its β-keto ester product still has one H between the carbonyls to drive the reaction.",
+   "Ethyl phenylacetate has two benzylic α-H's; its product keeps an acidic H between the carbonyls and condenses well."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-30",
+  "d": 2,
+  "q": "Diethyl heptanedioate is treated with NaOEt in ethanol and then with dilute acid. What is the product?",
+  "s": [
+   {
+    "smi": "CCOC(=O)CCCCCC(=O)OCC"
+   },
+   {
+    "arrow": "1. NaOEt, EtOH",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(=O)C1CCCCC1=O"
+   },
+   {
+    "smi": "CCOC(=O)C1CCCC1=O"
+   },
+   {
+    "smi": "CCOC(=O)C1CCCCCC1=O"
+   },
+   {
+    "smi": "O=C1CCCCC1"
+   }
+  ],
+  "h": "A Dieckmann reaction is an intramolecular Claisen. Count the atoms from the enolate α-carbon to the other C=O carbon, inclusive.",
+  "w": "Number the diacid chain C1–C7 (C1 and C7 are the ester carbons). The enolate at C2 attacks C7; the ring contains C2, C3, C4, C5, C6 and C7: a <b>six-membered ring</b>. Loss of ethoxide gives <b>ethyl 2-oxocyclohexane-1-carboxylate</b>, C<sub>9</sub>H<sub>14</sub>O<sub>3</sub> (diester minus EtOH).",
+  "x": [
+   "",
+   "A five-membered Dieckmann product comes from diethyl hexanedioate (adipate), which has one fewer CH<sub>2</sub>.",
+   "A seven-membered product would require diethyl octanedioate; heptanedioate gives a six-membered ring.",
+   "Cyclohexanone forms only after ester hydrolysis and decarboxylation with heat; dilute acid workup at room temperature leaves the β-keto ester intact."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-31",
+  "d": 3,
+  "q": "What is the final product of this sequence?",
+  "s": [
+   {
+    "smi": "CCOC(=O)CCCCC(=O)OCC"
+   },
+   {
+    "arrow": "1. NaOEt, EtOH  2. CH<sub>3</sub>I",
+    "below": "3. H<sub>3</sub>O<sup>+</sup>, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1CCCC1=O"
+   },
+   {
+    "smi": "CC1CCCCC1=O"
+   },
+   {
+    "smi": "O=C1CCCC1"
+   },
+   {
+    "smi": "CC1(C(=O)O)CCCC1=O"
+   }
+  ],
+  "h": "Step 1 is a Dieckmann cyclization (count the ring size). Where is the most acidic H in the product, and what happens to a β-keto acid on heating?",
+  "w": "Diethyl hexanedioate (adipate) undergoes Dieckmann cyclization to ethyl 2-oxocyclopentane-1-carboxylate, whose enolate (between the two C=O groups) is methylated by CH<sub>3</sub>I at that carbon. Hot aqueous acid hydrolyzes the ester to a β-keto acid, which decarboxylates. The product is <b>2-methylcyclopentanone</b>.",
+  "x": [
+   "",
+   "Adipate (six-carbon diacid) gives a five-membered ring; a six-membered ring needs heptanedioate.",
+   "This omits the methylation. The doubly stabilized enolate is alkylated by CH<sub>3</sub>I before hydrolysis, and the methyl survives decarboxylation.",
+   "β-Keto acids lose CO<sub>2</sub> on heating through a cyclic transition state; the carboxylic acid does not survive step 3."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-32",
+  "d": 2,
+  "q": "Acetone is added slowly to a mixture of NaH and excess ethyl benzoate; the mixture is then acidified. What is the major product?",
+  "s": [
+   {
+    "smi": "CC(C)=O"
+   },
+   "+",
+   {
+    "smi": "CCOC(=O)c1ccccc1"
+   },
+   {
+    "arrow": "1. NaH",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)CC(=O)c1ccccc1"
+   },
+   {
+    "smi": "CCOC(=O)CC(=O)c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)C=C(C)C"
+   },
+   {
+    "smi": "O=C(CC(=O)c1ccccc1)c1ccccc1"
+   }
+  ],
+  "h": "Only one partner can form an enolate. Which C=O is the electrophile, and what leaves from it?",
+  "w": "Ethyl benzoate has no α-H, so it can only be the electrophile. The acetone enolate attacks the ester carbonyl, ethoxide is expelled, and the β-diketone is deprotonated (driving the reaction) until acid workup. The product of this crossed Claisen is <b>1-phenylbutane-1,3-dione</b>.",
+  "x": [
+   "",
+   "Ethyl 3-oxo-3-phenylpropanoate would need an ester enolate (from ethyl acetate). Here the enolate comes from acetone, so the product keeps a methyl ketone, not an ester.",
+   "Mesityl oxide is acetone's self-aldol condensation product. Slow addition of acetone into excess, more reactive ethyl benzoate makes the crossed Claisen dominant.",
+   "This 1,3-diketone has two benzoyl groups; it would need acetophenone as the enolate partner, and no acetophenone is present."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-33",
+  "d": 1,
+  "q": "In a crossed Claisen condensation with ethyl acetate, the second ester should be able to act only as the electrophile. Which ester is <b>not</b> suitable for this role?",
+  "c": [
+   "Ethyl phenylacetate",
+   "Ethyl benzoate",
+   "Diethyl carbonate",
+   "Ethyl formate"
+  ],
+  "h": "Look for α-hydrogens on each ester.",
+  "w": "A partner that acts only as an acceptor must lack α-H's. <b>Ethyl phenylacetate</b> (PhCH<sub>2</sub>CO<sub>2</sub>Et) has two acidic benzylic α-H's, so it would also form an enolate and give a mixture of self- and crossed-Claisen products.",
+  "x": [
+   "",
+   "Ethyl benzoate has no α-carbon bearing H (the carbonyl is attached to the ring), so it can only be attacked.",
+   "Diethyl carbonate, (EtO)<sub>2</sub>C=O, has no α-carbon at all; it is a standard acylating partner that installs a CO<sub>2</sub>Et group.",
+   "Ethyl formate, HCO<sub>2</sub>Et, has no α-carbon; it installs a CHO (formyl) group."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-34",
+  "d": 2,
+  "q": "Which alkyl halide(s), used in a malonic ester synthesis, give 2-methylbutanoic acid?",
+  "s": [
+   {
+    "smi": "CCOC(=O)CC(=O)OCC"
+   },
+   {
+    "arrow": "1. NaOEt; R–X  2. NaOEt; R′–X",
+    "below": "3. H<sub>3</sub>O<sup>+</sup>, heat"
+   },
+   {
+    "smi": "CCC(C)C(=O)O",
+    "cap": "2-methylbutanoic acid"
+   }
+  ],
+  "c": [
+   "CH<sub>3</sub>CH<sub>2</sub>Br and CH<sub>3</sub>I (one after the other)",
+   "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br and CH<sub>3</sub>I (one after the other)",
+   "2-bromobutane only",
+   "CH<sub>3</sub>CH<sub>2</sub>Br only"
+  ],
+  "h": "In the product, find the α-carbon (next to CO<sub>2</sub>H). It was the malonate CH<sub>2</sub>. What groups were added to it?",
+  "w": "Malonic ester synthesis gives R(R′)CH–CO<sub>2</sub>H: the malonate CH<sub>2</sub> becomes the α-carbon, and one CO<sub>2</sub>Et becomes the CO<sub>2</sub>H while the other is lost as CO<sub>2</sub>. The α-carbon of 2-methylbutanoic acid carries an <b>ethyl and a methyl</b>, so alkylate with CH<sub>3</sub>CH<sub>2</sub>Br and then CH<sub>3</sub>I (either order).",
+  "x": [
+   "",
+   "A propyl group plus a methyl gives 2-methylpentanoic acid, one carbon too many.",
+   "A sec-butyl group on the malonate carbon gives 3-methylpentanoic acid; the branch ends up at C3, not C2 (and secondary halides alkylate poorly).",
+   "A single ethyl gives butanoic acid; the methyl branch on C2 needs a second alkylation."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-35",
+  "d": 3,
+  "q": "Diethyl malonate is treated with two equivalents of NaOEt and one equivalent of 1,4-dibromobutane, then heated with aqueous acid. What is the final product?",
+  "s": [
+   {
+    "smi": "CCOC(=O)CC(=O)OCC"
+   },
+   {
+    "arrow": "1. 2 NaOEt, BrCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>Br",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC(=O)C1CCCC1"
+   },
+   {
+    "smi": "OC(=O)C1CCCCC1"
+   },
+   {
+    "smi": "OC(=O)C1CCC1"
+   },
+   {
+    "smi": "O=C(O)C1(C(=O)O)CCCC1"
+   }
+  ],
+  "h": "The first alkylation attaches the four-carbon chain; the second enolate is formed on the same carbon and displaces the other Br intramolecularly. Count the ring atoms.",
+  "w": "The malonate carbon is alkylated by one end of the dibromide; a second deprotonation at the same carbon lets it displace the other bromide intramolecularly. The ring contains the malonate carbon plus four CH<sub>2</sub> groups: a <b>five-membered ring</b>. Hydrolysis and decarboxylation of the 1,1-diacid give <b>cyclopentanecarboxylic acid</b>.",
+  "x": [
+   "",
+   "A six-membered ring would need 1,5-dibromopentane. The ring holds the four chain carbons plus the malonate carbon.",
+   "A four-membered ring would come from 1,3-dibromopropane.",
+   "A 1,1-dicarboxylic acid (a malonic acid) loses CO<sub>2</sub> on heating, so only one CO<sub>2</sub>H remains."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-36",
+  "d": 2,
+  "q": "What is the final product of this acetoacetic ester synthesis?",
+  "s": [
+   {
+    "smi": "CCOC(=O)CC(C)=O"
+   },
+   {
+    "arrow": "1. NaOEt, EtOH  2. PhCH<sub>2</sub>Br",
+    "below": "3. H<sub>3</sub>O<sup>+</sup>, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)CCc1ccccc1"
+   },
+   {
+    "smi": "CC(=O)Cc1ccccc1"
+   },
+   {
+    "smi": "OC(=O)CCc1ccccc1"
+   },
+   {
+    "smi": "CCOC(=O)C(Cc1ccccc1)C(C)=O"
+   }
+  ],
+  "h": "The acetoacetic ester synthesis turns R–X into a methyl ketone, CH<sub>3</sub>COCH<sub>2</sub>–R. What happens to the ester group in hot aqueous acid?",
+  "w": "The enolate (from the CH<sub>2</sub> between the two C=O groups) is benzylated by S<sub>N</sub>2. Hot aqueous acid hydrolyzes the ester to a β-keto acid, which decarboxylates. The CO<sub>2</sub>Et carbon is lost, leaving CH<sub>3</sub>C(=O)CH<sub>2</sub>–CH<sub>2</sub>Ph: <b>4-phenylbutan-2-one</b>.",
+  "x": [
+   "",
+   "This is one carbon short: the original CH<sub>2</sub> of the acetoacetate stays in the product between the C=O and the new benzyl group.",
+   "A carboxylic acid product is the outcome of a malonic ester synthesis. Acetoacetic ester loses the ester carbon and keeps the ketone.",
+   "This is the alkylated β-keto ester before step 3. Hot aqueous acid hydrolyzes and decarboxylates it."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-37",
+  "d": 3,
+  "q": "Which alkyl halides should be used, in two separate alkylation steps, to make 3-methylhexan-2-one by the acetoacetic ester synthesis?",
+  "s": [
+   {
+    "smi": "CC(=O)C(C)CCC",
+    "cap": "3-methylhexan-2-one"
+   }
+  ],
+  "c": [
+   "CH<sub>3</sub>I and CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br",
+   "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>Br only",
+   "CH<sub>3</sub>I and CH<sub>3</sub>CH<sub>2</sub>Br",
+   "2-bromopentane only"
+  ],
+  "h": "Keep the CH<sub>3</sub>C(=O) unit and the α-carbon from ethyl acetoacetate. Which groups are attached to that α-carbon in the target?",
+  "w": "In the target, CH<sub>3</sub>C(=O)– comes from the acetoacetate, and C3 is the original active CH<sub>2</sub>. C3 carries a <b>methyl</b> and an <b><i>n</i>-propyl</b> group, so the ester is alkylated with CH<sub>3</sub>I and CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br (in either order) before hydrolysis and decarboxylation.",
+  "x": [
+   "",
+   "A single butyl group gives heptan-2-one, a straight-chain ketone with no branch at C3.",
+   "Methyl plus ethyl gives 3-methylpentan-2-one, one carbon short.",
+   "A secondary halide attaches through its C2, giving CH<sub>3</sub>COCH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> (4-methylheptan-2-one), and secondary halides alkylate enolates poorly."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-38",
+  "d": 3,
+  "q": "Which carboxylic acid <b>cannot</b> be prepared efficiently by a malonic ester synthesis?",
+  "c": [
+   "3,3-Dimethylbutanoic acid",
+   "3-Phenylpropanoic acid",
+   "2-Methylpentanoic acid",
+   "Pent-4-enoic acid"
+  ],
+  "h": "Work backward to the halide(s) needed for each acid. Each alkylation is an S<sub>N</sub>2 step.",
+  "w": "A malonic ester synthesis gives RCH<sub>2</sub>CO<sub>2</sub>H or RR′CHCO<sub>2</sub>H, where each R comes from an S<sub>N</sub>2 alkylation. <b>3,3-Dimethylbutanoic acid</b>, (CH<sub>3</sub>)<sub>3</sub>C–CH<sub>2</sub>CO<sub>2</sub>H, needs R = tert-butyl, i.e., (CH<sub>3</sub>)<sub>3</sub>CBr, a tertiary halide that undergoes E2 with the malonate anion instead of S<sub>N</sub>2.",
+  "x": [
+   "",
+   "3-Phenylpropanoic acid needs benzyl bromide, an excellent S<sub>N</sub>2 substrate.",
+   "2-Methylpentanoic acid needs 1-bromopropane and CH<sub>3</sub>I, both good S<sub>N</sub>2 substrates.",
+   "Pent-4-enoic acid needs allyl bromide, an activated primary halide that alkylates readily."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-39",
+  "d": 1,
+  "q": "Which compound loses CO<sub>2</sub> most readily when heated to about 100 °C?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)CC(=O)O"
+   },
+   {
+    "smi": "CC(=O)CCC(=O)O"
+   },
+   {
+    "smi": "CC(O)CC(=O)O"
+   },
+   {
+    "smi": "OC(=O)c1ccccc1"
+   }
+  ],
+  "h": "Decarboxylation on gentle heating requires a carbonyl positioned to accept electrons through a six-membered cyclic transition state.",
+  "w": "A <b>β-keto acid</b> decarboxylates easily: the acid H is transferred to the ketone O through a six-membered cyclic transition state as CO<sub>2</sub> leaves, giving an enol that tautomerizes to the ketone (acetone here).",
+  "x": [
+   "",
+   "In a γ-keto acid the ketone is too far away to form the six-membered cyclic transition state.",
+   "A β-hydroxy acid has no C=O at the β-position to accept the electrons; it may dehydrate but does not lose CO<sub>2</sub> easily.",
+   "Benzoic acid has no β-carbonyl and its carboxyl is attached to an sp<sup>2</sup> ring carbon; it is stable well above 100 °C."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-40",
+  "d": 2,
+  "q": "3-Oxobutanoic acid decarboxylates on warming. What is the organic species formed <i>directly</i> in the CO<sub>2</sub>-loss step, before any tautomerization?",
+  "s": [
+   {
+    "smi": "CC(=O)CC(=O)O"
+   },
+   {
+    "arrow": "heat",
+    "below": "−CO<sub>2</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(O)=C"
+   },
+   {
+    "smi": "CC(C)=O"
+   },
+   {
+    "smi": "CC(=O)[CH2-]"
+   },
+   {
+    "smi": "C=C=O"
+   }
+  ],
+  "h": "In the cyclic transition state, the carboxyl H moves to the ketone oxygen as the C–C bond to CO<sub>2</sub> breaks. Where does the new π bond form?",
+  "w": "In the six-membered cyclic transition state, the O–H proton moves to the ketone oxygen, the C–CO<sub>2</sub> bond breaks, and its electrons form a C=C between the α-carbon and the former carbonyl carbon. The first product is the neutral <b>enol, prop-1-en-2-ol</b>, which then tautomerizes to acetone.",
+  "x": [
+   "",
+   "Acetone is the final product, but it forms only after the enol tautomerizes; the concerted CO<sub>2</sub>-loss step gives the enol.",
+   "Under these neutral thermal conditions the proton is transferred within the cyclic transition state, so no free carbanion (enolate) forms.",
+   "Ketene would require losing water or an alcohol from an acid derivative; decarboxylation removes CO<sub>2</sub> and keeps the ketone oxygen."
+  ],
+  "t": "enolates",
+  "k": 0
+ },
+ {
+  "id": "enol-41",
+  "d": 3,
+  "q": "What is the final product of this sequence?",
+  "s": [
+   {
+    "smi": "CCOC(=O)CC(=O)OCC"
+   },
+   "+",
+   {
+    "smi": "C=CC(C)=O"
+   },
+   {
+    "arrow": "1. NaOEt (cat.), EtOH",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)CCCC(=O)O"
+   },
+   {
+    "smi": "CC(O)(C=C)CC(=O)O"
+   },
+   {
+    "smi": "CC(=O)CCC(=O)O"
+   },
+   {
+    "smi": "CC(=O)CCCCC(=O)O"
+   }
+  ],
+  "h": "A stabilized malonate anion adds 1,4 to an enone. Then count the carbons that remain after one CO<sub>2</sub>H is lost.",
+  "w": "The malonate anion is a soft, stabilized nucleophile and adds to the β-carbon of methyl vinyl ketone (Michael addition), giving (EtO<sub>2</sub>C)<sub>2</sub>CH–CH<sub>2</sub>CH<sub>2</sub>C(=O)CH<sub>3</sub>. Hydrolysis and decarboxylation leave one CO<sub>2</sub>H on the former malonate carbon: HO<sub>2</sub>C–CH<sub>2</sub>–CH<sub>2</sub>CH<sub>2</sub>C(=O)CH<sub>3</sub>, <b>5-oxohexanoic acid</b>.",
+  "x": [
+   "",
+   "This comes from 1,2-addition to the C=O. Stabilized enolates such as malonate add reversibly at C=O and end up in the more stable 1,4 (conjugate) adduct.",
+   "4-Oxopentanoic acid is one carbon short; the MVK unit contributes four carbons and the malonate CH<sub>2</sub> plus one CO<sub>2</sub>H contribute two.",
+   "This is one carbon too long; only two carbons of malonate remain (CH<sub>2</sub> and one CO<sub>2</sub>H), not three."
+  ],
+  "t": "enolates",
+  "k": 0
+ }
+]

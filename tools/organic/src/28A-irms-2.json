@@ -1,0 +1,883 @@
+[
+ {
+  "id": "irms-19",
+  "t": "irms",
+  "d": 1,
+  "k": 0,
+  "q": "The mass spectrum of 2-butanone is shown. Which peak is the molecular ion?",
+  "s": [
+   {
+    "smi": "CCC(C)=O"
+   }
+  ],
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      27,
+      10
+     ],
+     [
+      29,
+      18
+     ],
+     [
+      43,
+      100
+     ],
+     [
+      57,
+      7
+     ],
+     [
+      72,
+      25
+     ],
+     [
+      73,
+      1.1
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "m/z 72",
+   "m/z 43",
+   "m/z 73",
+   "m/z 57"
+  ],
+  "h": "Add up the nominal mass of C<sub>4</sub>H<sub>8</sub>O. The molecular ion is not necessarily the tallest peak.",
+  "w": "2-Butanone is C<sub>4</sub>H<sub>8</sub>O: 4(12) + 8(1) + 16 = 72. The molecular ion (the radical cation of the intact molecule) is at <b>m/z 72</b>. The small peak at 73 is M+1 (about 4.4% of M, from <sup>13</sup>C), and the base peak at 43 is the acylium ion CH<sub>3</sub>C≡O<sup>+</sup>.",
+  "x": [
+   "",
+   "m/z 43 is the base peak (most abundant ion), the CH<sub>3</sub>CO<sup>+</sup> acylium ion from α-cleavage; the base peak is not the molecular ion.",
+   "m/z 73 is the M+1 peak, from molecules that contain one <sup>13</sup>C atom.",
+   "m/z 57 is M − 15, the CH<sub>3</sub>CH<sub>2</sub>CO<sup>+</sup> ion formed by α-cleavage loss of a methyl radical."
+  ]
+ },
+ {
+  "id": "irms-20",
+  "t": "irms",
+  "d": 1,
+  "k": 0,
+  "q": "An unknown aromatic compound shows a molecular ion at m/z 156 and a peak of almost equal height at m/z 158 (spectrum shown). Which element does this pattern indicate?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      50,
+      15
+     ],
+     [
+      51,
+      35
+     ],
+     [
+      77,
+      100
+     ],
+     [
+      156,
+      95
+     ],
+     [
+      157,
+      6
+     ],
+     [
+      158,
+      93
+     ],
+     [
+      159,
+      6
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "One bromine atom",
+   "One chlorine atom",
+   "Two chlorine atoms",
+   "One sulfur atom"
+  ],
+  "h": "Which halogen has two isotopes, two mass units apart, in nearly equal amounts?",
+  "w": "Bromine is about 50.7% <sup>79</sup>Br and 49.3% <sup>81</sup>Br, so a compound with <b>one bromine</b> shows M and M+2 peaks of nearly equal height. Here M = 156 fits bromobenzene, C<sub>6</sub>H<sub>5</sub><sup>79</sup>Br (72 + 5 + 79), and m/z 77 (C<sub>6</sub>H<sub>5</sub><sup>+</sup>) is M − 79, loss of a Br atom.",
+  "x": [
+   "",
+   "One chlorine gives M : M+2 ≈ 3 : 1 (<sup>35</sup>Cl : <sup>37</sup>Cl), not 1 : 1.",
+   "Two chlorines give M, M+2 and M+4 in about 9 : 6 : 1; the M+2 peak would be smaller than M and an M+4 peak would appear.",
+   "Sulfur's <sup>34</sup>S is only about 4.4% abundant, giving a small M+2 peak, not one as tall as M."
+  ]
+ },
+ {
+  "id": "irms-21",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "Which compound gives the mass spectrum shown?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      27,
+      40
+     ],
+     [
+      29,
+      30
+     ],
+     [
+      41,
+      30
+     ],
+     [
+      42,
+      100
+     ],
+     [
+      43,
+      35
+     ],
+     [
+      63,
+      8
+     ],
+     [
+      65,
+      2.6
+     ],
+     [
+      78,
+      20
+     ],
+     [
+      80,
+      6.5
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCCl"
+   },
+   {
+    "smi": "CCCBr"
+   },
+   {
+    "smi": "CCCCCl"
+   },
+   {
+    "smi": "CC(Cl)Cl"
+   }
+  ],
+  "h": "Find the highest-mass cluster and look at the height ratio of its two peaks.",
+  "w": "The highest-mass peaks are m/z 78 and 80 in a 3 : 1 ratio, the signature of one chlorine (<sup>35</sup>Cl/<sup>37</sup>Cl). C<sub>3</sub>H<sub>7</sub><sup>35</sup>Cl = 36 + 7 + 35 = 78. The 63/65 pair (also 3 : 1) is M − CH<sub>3</sub>, which still contains Cl. The compound is <b>1-chloropropane</b>.",
+  "x": [
+   "",
+   "1-Bromopropane would show M at 122 and 124 in about a 1 : 1 ratio.",
+   "1-Chlorobutane would show its 3 : 1 molecular-ion pair at 92 and 94.",
+   "1,1-Dichloroethane (two Cl) would show M at 98, 100 and 102 in about 9 : 6 : 1."
+  ]
+ },
+ {
+  "id": "irms-22",
+  "t": "irms",
+  "d": 3,
+  "k": 1,
+  "q": "Chlorine is about 75% <sup>35</sup>Cl and 25% <sup>37</sup>Cl. For a compound containing two chlorine atoms, what are the approximate relative intensities of the M, M+2 and M+4 peaks (ignore <sup>13</sup>C)?",
+  "c": [
+   "9 : 6 : 1",
+   "9 : 3 : 1",
+   "1 : 2 : 1",
+   "3 : 1 : 0"
+  ],
+  "h": "Treat each Cl independently: P(35) = 3/4 and P(37) = 1/4. How many ways can you get one of each?",
+  "w": "M (both <sup>35</sup>Cl) = (3/4)<sup>2</sup> = 9/16. M+2 (one of each) can arise two ways: 2(3/4)(1/4) = 6/16. M+4 (both <sup>37</sup>Cl) = (1/4)<sup>2</sup> = 1/16. The ratio is <b>9 : 6 : 1</b>, a pattern seen for CH<sub>2</sub>Cl<sub>2</sub> at m/z 84, 86 and 88.",
+  "x": [
+   "",
+   "9 : 3 : 1 forgets that the mixed isotopologue can form two ways (<sup>35</sup>Cl/<sup>37</sup>Cl and <sup>37</sup>Cl/<sup>35</sup>Cl).",
+   "1 : 2 : 1 is the pattern for two bromines, whose isotopes are nearly 1 : 1.",
+   "3 : 1 with no M+4 is the pattern for a single chlorine; a second Cl adds an M+4 peak."
+  ]
+ },
+ {
+  "id": "irms-23",
+  "t": "irms",
+  "d": 3,
+  "k": 1,
+  "q": "A dihalomethane CH<sub>2</sub>XY gives the mass spectrum shown, with molecular-ion peaks at m/z 128, 130 and 132 in about a 3 : 4 : 1 ratio. Which halogens does it contain?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      49,
+      100
+     ],
+     [
+      51,
+      32
+     ],
+     [
+      93,
+      45
+     ],
+     [
+      95,
+      44
+     ],
+     [
+      128,
+      60
+     ],
+     [
+      130,
+      78
+     ],
+     [
+      132,
+      19
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "One bromine and one chlorine",
+   "Two bromines",
+   "Two chlorines",
+   "One bromine and one fluorine"
+  ],
+  "h": "Combine Br (about 1 : 1) with Cl (about 3 : 1) and work out the probabilities for M, M+2 and M+4.",
+  "w": "With one Br (½ : ½) and one Cl (¾ : ¼): M = (½)(¾) = 3/8; M+2 = (½)(¼) + (½)(¾) = 4/8; M+4 = (½)(¼) = 1/8, so <b>one Br and one Cl</b> gives 3 : 4 : 1. The mass fits too: CH<sub>2</sub><sup>79</sup>Br<sup>35</sup>Cl = 12 + 2 + 79 + 35 = 128. The fragments agree: 49/51 (3 : 1) is CH<sub>2</sub>Cl<sup>+</sup> (loss of Br) and 93/95 (1 : 1) is CH<sub>2</sub>Br<sup>+</sup> (loss of Cl).",
+  "x": [
+   "",
+   "Two bromines give a 1 : 2 : 1 pattern, and CH<sub>2</sub>Br<sub>2</sub> would appear at m/z 172, 174 and 176.",
+   "Two chlorines give 9 : 6 : 1, and CH<sub>2</sub>Cl<sub>2</sub> would appear at m/z 84, 86 and 88.",
+   "Fluorine has only one isotope (<sup>19</sup>F), so Br + F would give just M and M+2 at 1 : 1 (m/z 112 and 114), with no M+4."
+  ]
+ },
+ {
+  "id": "irms-24",
+  "t": "irms",
+  "d": 2,
+  "k": 1,
+  "q": "An unknown containing only C, H, N and/or O shows M<sup>+</sup> at m/z 86 (relative intensity 15%) and an M+1 peak at m/z 87 (1.0%). Which molecular formula best fits? (Each carbon contributes about 1.1% to M+1.)",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      27,
+      30
+     ],
+     [
+      29,
+      40
+     ],
+     [
+      41,
+      45
+     ],
+     [
+      43,
+      80
+     ],
+     [
+      57,
+      100
+     ],
+     [
+      71,
+      6
+     ],
+     [
+      86,
+      15
+     ],
+     [
+      87,
+      1.0
+     ]
+    ],
+    "labels": {
+     "86": "M<sup>+</sup>"
+    }
+   }
+  ],
+  "c": [
+   "C<sub>6</sub>H<sub>14</sub>",
+   "C<sub>5</sub>H<sub>10</sub>O",
+   "C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>",
+   "C<sub>4</sub>H<sub>10</sub>N<sub>2</sub>"
+  ],
+  "h": "Number of carbons ≈ (M+1 intensity ÷ M intensity) ÷ 0.011.",
+  "w": "(M+1)/M = 1.0/15 = 0.067, and 0.067/0.011 ≈ 6 carbons. All four formulas have nominal mass 86, but only <b>C<sub>6</sub>H<sub>14</sub></b> has six carbons. The fragments (57, 43, 71) fit a hexane, which loses alkyl radicals to give C<sub>4</sub>H<sub>9</sub><sup>+</sup>, C<sub>3</sub>H<sub>7</sub><sup>+</sup> and C<sub>5</sub>H<sub>11</sub><sup>+</sup>.",
+  "x": [
+   "",
+   "C<sub>5</sub>H<sub>10</sub>O has five carbons, so its M+1 would be about 5.5% of M (0.8% here), not 6.7%.",
+   "C<sub>4</sub>H<sub>6</sub>O<sub>2</sub> has four carbons, giving an M+1 of only about 4.4% of M.",
+   "C<sub>4</sub>H<sub>10</sub>N<sub>2</sub> has four carbons; even adding about 0.4% per <sup>15</sup>N, M+1 would be only about 5% of M."
+  ]
+ },
+ {
+  "id": "irms-25",
+  "t": "irms",
+  "d": 1,
+  "k": 0,
+  "q": "An unknown that contains only C, H, N and O gives the mass spectrum shown, with M<sup>+</sup> at m/z 73. What does the odd molecular mass tell you?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      29,
+      20
+     ],
+     [
+      30,
+      45
+     ],
+     [
+      44,
+      15
+     ],
+     [
+      58,
+      100
+     ],
+     [
+      72,
+      5
+     ],
+     [
+      73,
+      25
+     ]
+    ],
+    "labels": {
+     "73": "M<sup>+</sup>"
+    }
+   }
+  ],
+  "c": [
+   "It contains an odd number of nitrogen atoms",
+   "It contains an odd number of oxygen atoms",
+   "Its molecular ion is an even-electron cation",
+   "It contains an odd number of carbon atoms"
+  ],
+  "h": "Think about the nitrogen rule: which of C, H, N, O has an even mass but an odd valence?",
+  "w": "The nitrogen rule: a molecule made of C, H, O, N (and halogens) has an odd nominal mass only if it contains <b>an odd number of nitrogen atoms</b>. Nitrogen has even mass (14) but odd valence (3), which forces an odd number of hydrogens. Here C<sub>4</sub>H<sub>11</sub>N (diethylamine) = 73, and its base peak at 58 is M − CH<sub>3</sub> from α-cleavage next to nitrogen.",
+  "x": [
+   "",
+   "Oxygen has even mass (16) and even valence (2), so the number of oxygens never changes whether M is odd or even.",
+   "Every molecular ion formed by electron impact is a radical cation (odd-electron), whatever its mass.",
+   "Carbon has even mass (12) and even valence (4), so the number of carbons has no effect on whether M is odd."
+  ]
+ },
+ {
+  "id": "irms-26",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "α-Cleavage of the molecular ion (m/z 100) of 2-methyl-3-pentanone gives two different acylium ions. At what m/z values do they appear?",
+  "s": [
+   {
+    "smi": "CCC(=O)C(C)C"
+   }
+  ],
+  "c": [
+   "m/z 57 and 71",
+   "m/z 43 and 29",
+   "m/z 58 and 72",
+   "m/z 71 and 85"
+  ],
+  "h": "α-Cleavage breaks a bond between the carbonyl carbon and one of its neighbors; the positive charge stays on the C≡O<sup>+</sup> fragment.",
+  "w": "Breaking the C(=O)–CH(CH<sub>3</sub>)<sub>2</sub> bond expels an isopropyl radical (43) and leaves CH<sub>3</sub>CH<sub>2</sub>C≡O<sup>+</sup>, m/z 100 − 43 = 57. Breaking the C(=O)–CH<sub>2</sub>CH<sub>3</sub> bond expels an ethyl radical (29) and leaves (CH<sub>3</sub>)<sub>2</sub>CHC≡O<sup>+</sup>, m/z 100 − 29 = 71. The acylium ions are at <b>m/z 57 and 71</b>.",
+  "x": [
+   "",
+   "43 and 29 are the masses of the radicals lost (isopropyl and ethyl); when they appear as ions they are alkyl cations, not acylium ions.",
+   "58 and 72 would be McLafferty ions, which need a hydrogen on a γ carbon; neither alkyl group here has a γ carbon.",
+   "85 is M − CH<sub>3</sub>; loss of a methyl from the isopropyl group breaks a bond β to the carbonyl, so it is not α-cleavage, and the ion is not an acylium."
+  ]
+ },
+ {
+  "id": "irms-27",
+  "t": "irms",
+  "d": 3,
+  "k": 0,
+  "q": "A C<sub>6</sub>H<sub>12</sub>O carbonyl compound gives the mass spectrum shown: M<sup>+</sup> 100, base peak 43, and a strong peak at m/z 58. Which isomer is it?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      29,
+      15
+     ],
+     [
+      41,
+      20
+     ],
+     [
+      43,
+      100
+     ],
+     [
+      57,
+      10
+     ],
+     [
+      58,
+      55
+     ],
+     [
+      71,
+      4
+     ],
+     [
+      85,
+      6
+     ],
+     [
+      100,
+      8
+     ]
+    ],
+    "labels": {
+     "100": "M<sup>+</sup>"
+    }
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCCC(C)=O"
+   },
+   {
+    "smi": "CCC(=O)CCC"
+   },
+   {
+    "smi": "CC(=O)C(C)(C)C"
+   },
+   {
+    "smi": "CCCCCC=O"
+   }
+  ],
+  "h": "An even-mass fragment from a C, H, O compound usually means a neutral molecule was lost. Which rearrangement does that, and what does it need?",
+  "w": "The even-mass ion at 58 is a McLafferty fragment: a γ-hydrogen moves to the carbonyl oxygen and the α–β bond breaks, expelling an alkene. For <b>2-hexanone</b>, the butyl chain has γ-hydrogens; loss of propene (42) gives the enol radical cation CH<sub>2</sub>=C(OH)CH<sub>3</sub><sup>+•</sup> at 100 − 42 = 58. The base peak 43 is CH<sub>3</sub>C≡O<sup>+</sup> from α-cleavage (loss of ·C<sub>4</sub>H<sub>9</sub>), and 85 is loss of ·CH<sub>3</sub>.",
+  "x": [
+   "",
+   "3-Hexanone undergoes McLafferty cleavage on the propyl side, losing ethene (28) to give m/z 72, not 58; its acylium ions are at 57 and 71.",
+   "3,3-Dimethyl-2-butanone has no γ-hydrogen (the quaternary α carbon carries only methyls), so it cannot undergo a McLafferty rearrangement; its base peak is the tert-butyl cation at 57.",
+   "Hexanal's McLafferty fragment is CH<sub>2</sub>=CHOH<sup>+•</sup> at m/z 44, after loss of 1-butene (56)."
+  ]
+ },
+ {
+  "id": "irms-28",
+  "t": "irms",
+  "d": 1,
+  "k": 0,
+  "q": "The mass spectrum of 1-pentanol shows a very weak M<sup>+</sup> at m/z 88 and a peak at m/z 70. Which process gives the m/z 70 ion?",
+  "s": [
+   {
+    "smi": "CCCCCO"
+   }
+  ],
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      29,
+      40
+     ],
+     [
+      31,
+      70
+     ],
+     [
+      41,
+      60
+     ],
+     [
+      42,
+      100
+     ],
+     [
+      55,
+      65
+     ],
+     [
+      70,
+      30
+     ],
+     [
+      88,
+      1
+     ]
+    ],
+    "labels": {
+     "88": "M<sup>+</sup>"
+    }
+   }
+  ],
+  "c": [
+   "Loss of H<sub>2</sub>O from M<sup>+</sup>",
+   "Loss of ·OH from M<sup>+</sup>",
+   "α-Cleavage with loss of ·C<sub>4</sub>H<sub>9</sub>",
+   "Loss of ·CH<sub>3</sub> from M<sup>+</sup>"
+  ],
+  "h": "Subtract: 88 − 70 = ? Which small neutral molecule has that mass?",
+  "w": "88 − 70 = 18, the mass of water. Alcohols commonly show an M − 18 peak from <b>loss of H<sub>2</sub>O</b> (dehydration of the molecular ion), and their M<sup>+</sup> is often weak or missing. The peak at 31 is the α-cleavage ion CH<sub>2</sub>=OH<sup>+</sup>.",
+  "x": [
+   "",
+   "Loss of a hydroxyl radical (17) would give m/z 71, not 70.",
+   "α-Cleavage losing a butyl radical (57) gives CH<sub>2</sub>=OH<sup>+</sup> at m/z 31, not 70.",
+   "Loss of a methyl radical (15) would give m/z 73."
+  ]
+ },
+ {
+  "id": "irms-29",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "Which m/z value is expected for the base peak in the mass spectrum of 2-methyl-2-butanol (M = 88)?",
+  "s": [
+   {
+    "smi": "CCC(C)(C)O"
+   }
+  ],
+  "c": [
+   "m/z 59",
+   "m/z 73",
+   "m/z 70",
+   "m/z 71"
+  ],
+  "h": "Alcohols cleave at the C–C bond next to the C–OH carbon. When there is a choice, which radical leaves most easily?",
+  "w": "α-Cleavage of an alcohol breaks a C–C bond on the carbinol carbon and gives a resonance-stabilized oxonium ion. Here the carbinol carbon carries two methyls and one ethyl. Loss of the larger ethyl radical (29) is favored and gives (CH<sub>3</sub>)<sub>2</sub>C=OH<sup>+</sup> at 88 − 29 = <b>59</b>, the base peak. Loss of ·CH<sub>3</sub> gives a smaller peak at 73.",
+  "x": [
+   "",
+   "m/z 73 comes from α-cleavage loss of a methyl radical; it is observed, but loss of the larger ethyl radical is preferred.",
+   "m/z 70 is M − H<sub>2</sub>O; dehydration occurs, but for a tertiary alcohol the α-cleavage ion dominates.",
+   "m/z 71 would be loss of ·OH; C–O cleavage is minor compared with α-cleavage, which gives a much more stable oxonium ion."
+  ]
+ },
+ {
+  "id": "irms-30",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "An amine C<sub>4</sub>H<sub>11</sub>N shows a weak M<sup>+</sup> at m/z 73 and a base peak at m/z 58. Which structure fits best?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(C)N"
+   },
+   {
+    "smi": "CCCCN"
+   },
+   {
+    "smi": "CC(N)CC"
+   },
+   {
+    "smi": "CCCNC"
+   }
+  ],
+  "h": "Amines undergo α-cleavage: a C–C bond on the carbon attached to N breaks, giving an iminium ion. 73 − 58 = 15. Which radical is lost?",
+  "w": "The base peak at 58 means loss of a methyl radical (15) by α-cleavage. In <b>tert-butylamine</b> the carbon bearing N carries three methyls, so every α-cleavage loses ·CH<sub>3</sub> and gives (CH<sub>3</sub>)<sub>2</sub>C=NH<sub>2</sub><sup>+</sup> at m/z 58.",
+  "x": [
+   "",
+   "1-Butanamine loses a propyl radical by α-cleavage, giving CH<sub>2</sub>=NH<sub>2</sub><sup>+</sup> at m/z 30 as the base peak.",
+   "2-Butanamine preferentially loses the larger ethyl radical, giving CH<sub>3</sub>CH=NH<sub>2</sub><sup>+</sup> at m/z 44 as the base peak.",
+   "N-Methylpropylamine loses an ethyl radical from the propyl side, giving CH<sub>2</sub>=NHCH<sub>3</sub><sup>+</sup> at m/z 44."
+  ]
+ },
+ {
+  "id": "irms-31",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "The mass spectrum of 2,2-dimethylpropane (M = 72) is shown. The base peak is at m/z 57, and almost no molecular ion is seen. What is the best explanation?",
+  "s": [
+   {
+    "smi": "CC(C)(C)C"
+   }
+  ],
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      15,
+      5
+     ],
+     [
+      27,
+      15
+     ],
+     [
+      29,
+      35
+     ],
+     [
+      41,
+      40
+     ],
+     [
+      57,
+      100
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "The molecular ion loses ·CH<sub>3</sub> very easily because the product is the tertiary (CH<sub>3</sub>)<sub>3</sub>C<sup>+</sup> cation",
+   "The molecular ion loses a hydrogen atom to give the primary (CH<sub>3</sub>)<sub>3</sub>CCH<sub>2</sub><sup>+</sup> cation",
+   "The molecular ion undergoes a McLafferty rearrangement and expels CH<sub>4</sub>",
+   "The molecular ion loses ·CH<sub>3</sub> to give a primary carbocation stabilized by hyperconjugation"
+  ],
+  "h": "Alkanes fragment where the most stable cation can form. What cation is left when a methyl leaves the central carbon?",
+  "w": "Alkane molecular ions cleave preferentially at branch points, because the resulting carbocation is more substituted. Breaking any C–CH<sub>3</sub> bond in neopentane leaves the <b>tertiary tert-butyl cation</b>, m/z 72 − 15 = 57. This is so favorable that the molecular ion barely survives.",
+  "x": [
+   "",
+   "Loss of H would give m/z 71, not 57, and a primary cation is far less stable than a tertiary one.",
+   "McLafferty rearrangement needs a C=O (or similar π bond) and a γ-hydrogen; neopentane has neither, and 72 − 16 = 56, not 57.",
+   "The ion left after losing CH<sub>3</sub> is (CH<sub>3</sub>)<sub>3</sub>C<sup>+</sup>, whose charged carbon bears three alkyl groups: it is tertiary, not primary."
+  ]
+ },
+ {
+  "id": "irms-32",
+  "t": "irms",
+  "d": 3,
+  "k": 0,
+  "q": "A mixture of 1-chlorobutane (bp 78 °C) and 1-bromobutane (bp 101 °C) is analyzed by GC-MS on a nonpolar column. Which describes the mass spectrum recorded for the <i>first</i> peak to elute?",
+  "s": [
+   {
+    "smi": "CCCCCl"
+   },
+   "+",
+   {
+    "smi": "CCCCBr"
+   }
+  ],
+  "c": [
+   "Molecular-ion peaks at m/z 92 and 94 in about a 3 : 1 ratio",
+   "Molecular-ion peaks at m/z 136 and 138 in about a 1 : 1 ratio",
+   "Molecular-ion peaks at m/z 92 and 94 in about a 1 : 1 ratio",
+   "Peaks at m/z 92/94 and 136/138 together, because the MS records the whole mixture at once"
+  ],
+  "h": "The GC separates the components first; on a nonpolar column they come off roughly in order of boiling point. Then work out the M<sup>+</sup> pattern of that component.",
+  "w": "In GC-MS the gas chromatograph separates the mixture, and the mass spectrometer records a separate spectrum for each component as it elutes. On a nonpolar column the lower-boiling 1-chlorobutane elutes first. C<sub>4</sub>H<sub>9</sub><sup>35</sup>Cl = 48 + 9 + 35 = 92, and one Cl gives M : M+2 ≈ 3 : 1, so the first spectrum shows <b>m/z 92 and 94 in about 3 : 1</b>.",
+  "x": [
+   "",
+   "136/138 at 1 : 1 is 1-bromobutane, which boils higher and elutes second on a nonpolar column.",
+   "92/94 is the right mass for 1-chlorobutane, but one chlorine gives a 3 : 1 pattern; 1 : 1 is the bromine pattern.",
+   "The point of GC-MS is that the components reach the mass spectrometer at different times, so each chromatographic peak has its own spectrum."
+  ]
+ },
+ {
+  "id": "irms-33",
+  "t": "irms",
+  "d": 2,
+  "k": 0,
+  "q": "A C<sub>9</sub>H<sub>12</sub> aromatic hydrocarbon gives the mass spectrum shown (M<sup>+</sup> 120, base peak 91). Which structure fits?",
+  "f": [
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      65,
+      10
+     ],
+     [
+      77,
+      6
+     ],
+     [
+      91,
+      100
+     ],
+     [
+      92,
+      8
+     ],
+     [
+      105,
+      5
+     ],
+     [
+      120,
+      25
+     ]
+    ],
+    "labels": {
+     "120": "M<sup>+</sup>"
+    }
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCc1ccccc1"
+   },
+   {
+    "smi": "CC(C)c1ccccc1"
+   },
+   {
+    "smi": "CCc1ccc(C)cc1"
+   },
+   {
+    "smi": "Cc1cc(C)cc(C)c1"
+   }
+  ],
+  "h": "Alkylbenzenes break at the benzylic bond. 120 − 91 = 29: which radical is lost, and which isomer can lose it at the benzylic position?",
+  "w": "Alkylbenzenes cleave at the bond β to the ring (the benzylic C–C bond), because the cation formed is a resonance-stabilized benzyl cation (which rearranges to the tropylium ion, C<sub>7</sub>H<sub>7</sub><sup>+</sup>, m/z 91). A base peak at 91 means an ethyl radical (29) left from a benzylic CH<sub>2</sub>: <b>propylbenzene</b>.",
+  "x": [
+   "",
+   "Isopropylbenzene loses a methyl radical at the benzylic carbon, giving C<sub>6</sub>H<sub>5</sub>CH(CH<sub>3</sub>)<sup>+</sup> at m/z 105 as the base peak.",
+   "4-Ethyltoluene loses a methyl radical from the benzylic CH<sub>2</sub>CH<sub>3</sub>, giving a methylbenzyl cation at m/z 105.",
+   "1,3,5-Trimethylbenzene has only methyl groups; its main fragment is M − CH<sub>3</sub> at m/z 105 (with M − H at 119), not 91."
+  ]
+ },
+ {
+  "id": "irms-34",
+  "t": "irms",
+  "d": 3,
+  "k": 0,
+  "q": "For a compound that contains only C, H and O (so M is even), which statement about fragment ions from the molecular ion is correct?",
+  "c": [
+   "Loss of a radical (e.g. α-cleavage) gives an odd-m/z ion; loss of a neutral molecule (e.g. H<sub>2</sub>O) gives an even-m/z ion",
+   "Loss of a radical gives an even-m/z ion; loss of a neutral molecule gives an odd-m/z ion",
+   "All fragment ions have odd m/z, because every fragment carries a positive charge",
+   "Fragment ions have even m/z only when the radical lost contains an oxygen atom"
+  ],
+  "h": "Every C, H, O radical has an odd mass (CH<sub>3</sub>· 15, C<sub>2</sub>H<sub>5</sub>· 29, ·OH 17). Every neutral C, H, O molecule has an even mass (H<sub>2</sub>O 18, C<sub>2</sub>H<sub>4</sub> 28).",
+  "w": "An even-mass molecular ion that loses an odd-mass radical leaves an even-electron cation of <b>odd</b> m/z (e.g. 2-butanone 72 → CH<sub>3</sub>CO<sup>+</sup> 43). Losing an even-mass neutral molecule leaves a radical cation of <b>even</b> m/z (e.g. 2-hexanone 100 → 58 by McLafferty; an alcohol M − 18). So <b>radical loss gives odd m/z; neutral loss gives even m/z</b>, a useful flag for spotting rearrangements.",
+  "x": [
+   "",
+   "This reverses the rule: subtracting an odd-mass radical from an even M gives an odd number.",
+   "Charge does not decide m/z parity; even-mass radical cations such as the McLafferty ion at m/z 58 are common.",
+   "Any radical made of C, H and O, with or without oxygen (·OH 17, ·OCH<sub>3</sub> 31), has an odd mass, so its loss still gives an odd-m/z ion."
+  ]
+ },
+ {
+  "id": "irms-35",
+  "t": "irms",
+  "d": 3,
+  "k": 0,
+  "q": "A compound containing only C, H and O gives the IR and mass spectra shown (IR: strong band at 1717 cm<sup>−1</sup>, nothing above 3000 cm<sup>−1</sup> or at 2720 cm<sup>−1</sup>; MS: M<sup>+</sup> 86, base peak 43, other peaks at 58 and 71). Which structure fits?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2960,
+      "str": "s"
+     },
+     {
+      "cm": 2875,
+      "str": "m"
+     },
+     {
+      "cm": 1717,
+      "str": "s"
+     },
+     {
+      "cm": 1365,
+      "str": "m"
+     },
+     {
+      "cm": 1170,
+      "str": "m"
+     }
+    ]
+   },
+   {
+    "type": "ms",
+    "peaks": [
+     [
+      27,
+      15
+     ],
+     [
+      41,
+      12
+     ],
+     [
+      43,
+      100
+     ],
+     [
+      58,
+      15
+     ],
+     [
+      71,
+      10
+     ],
+     [
+      86,
+      25
+     ]
+    ],
+    "labels": {
+     "86": "M<sup>+</sup>"
+    }
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCC(C)=O"
+   },
+   {
+    "smi": "CCC(=O)CC"
+   },
+   {
+    "smi": "CCCCC=O"
+   },
+   {
+    "smi": "CC(=O)C(C)C"
+   }
+  ],
+  "h": "The IR says what kind of carbonyl. In the MS, 43 and 71 come from α-cleavage, and the even-mass 58 needs a γ-hydrogen.",
+  "w": "IR: 1717 cm<sup>−1</sup> with no aldehyde C–H (2720 cm<sup>−1</sup>) and no O–H means a saturated ketone; M = 86 fits C<sub>5</sub>H<sub>10</sub>O. MS: 43 (CH<sub>3</sub>CO<sup>+</sup>) and 71 (M − CH<sub>3</sub>, C<sub>3</sub>H<sub>7</sub>CO<sup>+</sup>) are α-cleavage ions of a methyl ketone, and the even-mass 58 is a McLafferty ion (loss of ethene, 28), which requires a γ-hydrogen on a propyl chain. Only <b>2-pentanone</b> fits all three.",
+  "x": [
+   "",
+   "3-Pentanone has two ethyl groups: α-cleavage gives CH<sub>3</sub>CH<sub>2</sub>CO<sup>+</sup> at 57 (its base peak), and with no γ-hydrogen it gives no McLafferty ion at 58.",
+   "Pentanal would show the aldehyde C–H band near 2720 cm<sup>−1</sup> and a C=O near 1730 cm<sup>−1</sup>; its McLafferty ion appears at m/z 44.",
+   "3-Methyl-2-butanone gives 43 and 71 by α-cleavage, but its α carbon bears only methyl groups, so there is no γ-hydrogen and no McLafferty ion at 58."
+  ]
+ }
+]

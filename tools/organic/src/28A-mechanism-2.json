@@ -1,0 +1,721 @@
+[
+ {
+  "id": "mech-21",
+  "t": "mechanism",
+  "q": "1,3-Butadiene reacts with one equivalent of HBr at 40 °C, conditions under which the products equilibrate. Which compound is the major product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Protonation at C1 gives an allylic cation with positive charge shared by C2 and C4. Which of the two possible bromides has the more substituted (more stable) alkene?",
+  "w": "Protonation of C1 gives a resonance-stabilized allylic cation (charge on C2 and C4). Bromide can add at C2 (1,2-addition, 3-bromo-1-butene) or at C4 (1,4-addition, 1-bromo-2-butene). At 40 °C the products interconvert, so the more stable one wins: <b>A, (E)-1-bromo-2-butene</b>, whose internal disubstituted alkene is more stable than the monosubstituted alkene of the 1,2-product.",
+  "x": [
+   "",
+   "This is the 1,2-product: it forms faster and dominates at low temperature (kinetic control), but it is less stable.",
+   "C would require protonation at C2 to give a primary, non-allylic cation; protonation at C1 gives the allylic cation instead.",
+   "D, a vinyl bromide, would need bromide to add to a vinyl cation; the allylic cation never puts charge there."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C=CC=C"
+   },
+   {
+    "arrow": "HBr (1 equiv)",
+    "below": "40 °C"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "C/C=C/CBr"
+   },
+   {
+    "smi": "C=CC(C)Br"
+   },
+   {
+    "smi": "C=CCCBr"
+   },
+   {
+    "smi": "CCC(Br)=C"
+   }
+  ]
+ },
+ {
+  "id": "mech-22",
+  "t": "mechanism",
+  "q": "A mixture rich in 3-bromo-1-butene, made from 1,3-butadiene and HBr at −80 °C, is warmed to 40 °C and becomes mostly 1-bromo-2-butene. What is the best explanation?",
+  "c": [
+   "At 40 °C the allylic C–Br bond ionizes reversibly, so the mixture equilibrates to the more stable product",
+   "At 40 °C the activation energy for forming 1-bromo-2-butene becomes lower than that for 3-bromo-1-butene",
+   "3-Bromo-1-butene becomes the less stable isomer only at higher temperatures",
+   "Bromide ion is a stronger nucleophile at higher temperature and attacks only the terminal carbon"
+  ],
+  "h": "Both products share the same allylic cation. What does added heat allow the kinetic product to do?",
+  "w": "At −80 °C the products form irreversibly, so the faster-forming 1,2-product dominates (kinetic control). On warming, the allylic C–Br bond can ionize back to the same allylic cation and bromide; repeated ionization and recombination let the system reach equilibrium, which favors the more stable 1,4-product with its more substituted alkene. <b>Reversible ionization leads to thermodynamic control.</b>",
+  "x": [
+   "",
+   "Temperature changes how many molecules can cross each barrier, not which barrier is lower; the 1,2-pathway still has the lower TS.",
+   "Relative stability does not flip on warming: 1-bromo-2-butene is the more stable isomer at both temperatures.",
+   "Product ratios under equilibrium control are set by stabilities, not by nucleophile strength; bromide attacks both cation termini."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C=CC(C)Br"
+   },
+   {
+    "arrow": "40 °C"
+   },
+   {
+    "smi": "C/C=C/CBr"
+   }
+  ]
+ },
+ {
+  "id": "mech-23",
+  "t": "mechanism",
+  "q": "Use the bond dissociation energies in the table to estimate ΔH° for CH<sub>4</sub> + Cl<sub>2</sub> → CH<sub>3</sub>Cl + HCl.",
+  "c": [
+   "−100 kJ/mol",
+   "+100 kJ/mol",
+   "+8 kJ/mol",
+   "−108 kJ/mol"
+  ],
+  "h": "ΔH° = (energy of bonds broken) − (energy of bonds formed).",
+  "w": "Bonds broken: CH<sub>3</sub>–H (439) + Cl–Cl (242) = 681 kJ/mol. Bonds formed: CH<sub>3</sub>–Cl (350) + H–Cl (431) = 781 kJ/mol. ΔH° = 681 − 781 = <b>−100 kJ/mol</b>.",
+  "x": [
+   "",
+   "This is formed − broken; breaking bonds costs energy, so ΔH° = broken − formed.",
+   "+8 kJ/mol is only the first propagation step (CH<sub>4</sub> + Cl• → CH<sub>3</sub>• + HCl), not the overall reaction.",
+   "−108 kJ/mol is only the second propagation step (CH<sub>3</sub>• + Cl<sub>2</sub> → CH<sub>3</sub>Cl + Cl•)."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Bond",
+     "BDE (kJ/mol)"
+    ],
+    "rows": [
+     [
+      "CH<sub>3</sub>–H",
+      "439"
+     ],
+     [
+      "Cl–Cl",
+      "242"
+     ],
+     [
+      "Br–Br",
+      "193"
+     ],
+     [
+      "CH<sub>3</sub>–Cl",
+      "350"
+     ],
+     [
+      "CH<sub>3</sub>–Br",
+      "294"
+     ],
+     [
+      "H–Cl",
+      "431"
+     ],
+     [
+      "H–Br",
+      "366"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mech-24",
+  "t": "mechanism",
+  "q": "Use the table to estimate ΔH° for the step CH<sub>4</sub> + Br• → CH<sub>3</sub>• + HBr. What does the Hammond postulate then say about its transition state?",
+  "c": [
+   "+73 kJ/mol; the transition state is late and resembles CH<sub>3</sub>• + HBr",
+   "+73 kJ/mol; the transition state is early and resembles CH<sub>4</sub> + Br•",
+   "−73 kJ/mol; the transition state is early and resembles CH<sub>4</sub> + Br•",
+   "−101 kJ/mol; the transition state is early and resembles CH<sub>4</sub> + Br•"
+  ],
+  "h": "Only one bond breaks and one forms in this step. Then: does an uphill step have a reactant-like or product-like TS?",
+  "w": "Broken: CH<sub>3</sub>–H, 439 kJ/mol. Formed: H–Br, 366 kJ/mol. ΔH° = 439 − 366 = +73 kJ/mol, an endothermic step. The Hammond postulate places the TS of an endothermic step close to its higher-energy products, so <b>the TS is late and resembles CH<sub>3</sub>• + HBr</b>, with the C–H bond nearly broken.",
+  "x": [
+   "",
+   "The ΔH° is right, but an endothermic step has a late, product-like TS, not an early one.",
+   "The sign is reversed: breaking a 439 kJ/mol bond and forming a 366 kJ/mol bond costs energy.",
+   "−101 kJ/mol is the other propagation step (CH<sub>3</sub>• + Br<sub>2</sub> → CH<sub>3</sub>Br + Br•), not this one."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Bond",
+     "BDE (kJ/mol)"
+    ],
+    "rows": [
+     [
+      "CH<sub>3</sub>–H",
+      "439"
+     ],
+     [
+      "Cl–Cl",
+      "242"
+     ],
+     [
+      "Br–Br",
+      "193"
+     ],
+     [
+      "CH<sub>3</sub>–Cl",
+      "350"
+     ],
+     [
+      "CH<sub>3</sub>–Br",
+      "294"
+     ],
+     [
+      "H–Cl",
+      "431"
+     ],
+     [
+      "H–Br",
+      "366"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mech-25",
+  "t": "mechanism",
+  "q": "Which labeled C–H bond in 4-methyl-1-pentene has the lowest bond dissociation energy?",
+  "c": [
+   "the C–H bond at <i>c</i>",
+   "the C–H bond at <i>d</i>",
+   "the C–H bond at <i>b</i>",
+   "the C–H bond at <i>a</i>"
+  ],
+  "h": "The weakest C–H bond is the one whose homolysis gives the most stable radical.",
+  "w": "Breaking a C–H at <i>c</i> gives an allylic radical, delocalized over two carbons by resonance with the C=C, so this bond is the weakest (about 350 kJ/mol). Homolysis at <i>d</i> gives an ordinary 3° radical (about 400 kJ/mol), and vinylic C–H bonds at <i>a</i> and <i>b</i> are the strongest (about 460 kJ/mol) because the sp<sup>2</sup> vinyl radical is unstable. <b>The C–H bond at c.</b>",
+  "x": [
+   "",
+   "A 3° radical is stabilized by hyperconjugation, but less than the resonance-delocalized allylic radical from <i>c</i>.",
+   "This is a vinylic C–H; vinyl radicals are very unstable, so this bond is among the strongest.",
+   "This is a vinylic C–H on an sp<sup>2</sup> carbon; its homolysis gives an unstable vinyl radical."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "[CH2:1]=[CH:2][CH2:3][CH:4](C)C"
+   }
+  ]
+ },
+ {
+  "id": "mech-26",
+  "t": "mechanism",
+  "q": "A catalyst lowers the activation energy of a reaction by 11.4 kJ/mol without changing the pre-exponential factor. At 25 °C (298 K), the rate constant increases by a factor of about",
+  "c": [
+   "100",
+   "10",
+   "4.6",
+   "1000"
+  ],
+  "h": "From k = A e<sup>−Ea/RT</sup>, the ratio k<sub>new</sub>/k<sub>old</sub> = e<sup>ΔEa/RT</sup>.",
+  "w": "k<sub>new</sub>/k<sub>old</sub> = e<sup>11 400/(8.314 × 298)</sup> = e<sup>4.60</sup> ≈ <b>100</b>. At room temperature every 5.7 kJ/mol of barrier is worth a factor of 10 in rate.",
+  "x": [
+   "",
+   "A factor of 10 corresponds to only 5.7 kJ/mol; 11.4 kJ/mol is twice that, so the factor is 10<sup>2</sup>.",
+   "4.6 is the exponent (ΔEa/RT), not the ratio; the ratio is e<sup>4.6</sup>.",
+   "A factor of 1000 would need about 17 kJ/mol of barrier lowering."
+  ],
+  "k": 1,
+  "d": 2
+ },
+ {
+  "id": "mech-27",
+  "t": "mechanism",
+  "q": "A reaction A → B + C has ΔH° = +20 kJ/mol and ΔS° = +80 J mol<sup>−1</sup> K<sup>−1</sup>. Which describes ΔG° and K<sub>eq</sub> at 25 °C (298 K)?",
+  "c": [
+   "ΔG° = −3.8 kJ/mol and K<sub>eq</sub> &gt; 1",
+   "ΔG° = +3.8 kJ/mol and K<sub>eq</sub> &lt; 1",
+   "ΔG° = +43.8 kJ/mol and K<sub>eq</sub> &lt; 1",
+   "ΔG° = −3.8 kJ/mol and K<sub>eq</sub> &lt; 1"
+  ],
+  "h": "Convert ΔS° to kJ before using ΔG° = ΔH° − TΔS°; then recall the sign link between ΔG° and K.",
+  "w": "ΔG° = ΔH° − TΔS° = 20 − (298)(0.080) = 20 − 23.8 = −3.8 kJ/mol. A negative ΔG° means K<sub>eq</sub> &gt; 1 (here e<sup>3800/2478</sup> ≈ 4.6). <b>ΔG° = −3.8 kJ/mol and K<sub>eq</sub> &gt; 1</b>: the entropy gain from making two molecules outweighs the endothermic bond breaking at this temperature.",
+  "x": [
+   "",
+   "The sign is flipped; −TΔS° (−23.8) outweighs +20, so ΔG° is negative.",
+   "This adds TΔS° instead of subtracting it; ΔG° = ΔH° − TΔS°.",
+   "ΔG° is right, but a negative ΔG° gives K &gt; 1, since ΔG° = −RT ln K."
+  ],
+  "k": 1,
+  "d": 3
+ },
+ {
+  "id": "mech-28",
+  "t": "mechanism",
+  "q": "Which reaction has ΔS° &gt; 0?",
+  "c": [
+   "(CH<sub>3</sub>)<sub>3</sub>COH → (CH<sub>3</sub>)<sub>2</sub>C=CH<sub>2</sub> + H<sub>2</sub>O",
+   "CH<sub>2</sub>=CH<sub>2</sub> + H<sub>2</sub> → CH<sub>3</sub>CH<sub>3</sub>",
+   "CH<sub>2</sub>=CH–CH=CH<sub>2</sub> + CH<sub>2</sub>=CH<sub>2</sub> → cyclohexene",
+   "(CH<sub>3</sub>)<sub>2</sub>C=CH<sub>2</sub> + HBr → (CH<sub>3</sub>)<sub>3</sub>CBr"
+  ],
+  "h": "Count molecules on each side; making more independent molecules raises entropy.",
+  "w": "Dehydration turns one molecule into two, increasing the number of ways energy and matter can be distributed: <b>ΔS° &gt; 0 for the dehydration</b>. The other three combine two molecules into one, so ΔS° &lt; 0. This is why eliminations are favored at high temperature.",
+  "x": [
+   "",
+   "Hydrogenation joins two molecules into one, so entropy decreases.",
+   "The Diels–Alder reaction joins two molecules into one ring, so entropy decreases.",
+   "HBr addition joins two molecules into one, so entropy decreases."
+  ],
+  "k": 0,
+  "d": 1
+ },
+ {
+  "id": "mech-29",
+  "t": "mechanism",
+  "q": "Which reaction is best described by this energy diagram?",
+  "c": [
+   "CH<sub>3</sub>CH<sub>2</sub>Br + NaCN in DMSO",
+   "(CH<sub>3</sub>)<sub>3</sub>CBr in water",
+   "(CH<sub>3</sub>)<sub>3</sub>COH heated with H<sub>2</sub>SO<sub>4</sub>",
+   "propene + HBr"
+  ],
+  "h": "How many transition states are there, and is there any intermediate?",
+  "w": "The diagram has one transition state and no intermediate: a single concerted step. The S<sub>N</sub>2 reaction of a primary bromide with cyanide in a polar aprotic solvent breaks C–Br as C–CN forms in one step. <b>CH<sub>3</sub>CH<sub>2</sub>Br + NaCN in DMSO</b>.",
+  "x": [
+   "",
+   "Solvolysis of a 3° bromide is S<sub>N</sub>1, with a carbocation intermediate, so its diagram has at least two transition states.",
+   "Acid-catalyzed dehydration (E1) has several steps (protonation, loss of water, deprotonation) and two intermediates.",
+   "HBr addition goes through a carbocation intermediate, so its diagram shows two transition states."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     22,
+     -10
+    ],
+    "labels": [
+     "reactants",
+     "",
+     "products"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mech-30",
+  "t": "mechanism",
+  "q": "This diagram represents the acid-catalyzed dehydration of 2-methyl-2-propanol by the E1 mechanism. Which point corresponds to the tert-butyl cation?",
+  "c": [
+   "D",
+   "B",
+   "C",
+   "E"
+  ],
+  "h": "List the steps in order: protonation of OH, loss of water, loss of H<sup>+</sup>. Which valleys are intermediates, and which comes second?",
+  "w": "E1 dehydration has three steps. Step 1 (TS A) protonates the OH to give the oxonium ion, intermediate B. Step 2 (TS C, the highest point, rate-determining) loses water to give the carbocation, intermediate <b>D</b>. Step 3 (TS E) removes a β-hydrogen to give the alkene. The carbocation is higher in energy than the oxonium ion, as the diagram shows.",
+  "x": [
+   "",
+   "B is the first intermediate, the protonated alcohol (alkyloxonium ion), formed before water leaves.",
+   "C is a transition state (a maximum), the point where the C–O bond is partly broken; the cation is the valley after it.",
+   "E is the transition state for removing a proton from the carbocation, not an intermediate."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     7,
+     3,
+     21,
+     13,
+     16,
+     -2
+    ],
+    "tags": [
+     "",
+     "A",
+     "B",
+     "C",
+     "D",
+     "E",
+     ""
+    ],
+    "labels": [
+     "reactants",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "products"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mech-31",
+  "t": "mechanism",
+  "q": "2-Bromo-2-methylpropane ionizes in water far faster than 2-bromopropane. Which explanation is best?",
+  "c": [
+   "The ionization step is endothermic, so its transition state resembles the carbocation, and the more stable 3° cation lowers that transition state more",
+   "The 3° bromide has a stronger C–Br bond, so its transition state is reached earlier",
+   "The ionization step is exothermic, so its transition state resembles the alkyl bromide, which is more stable for the 3° compound",
+   "Water attacks the 3° carbon more easily because it is less hindered"
+  ],
+  "h": "Use the Hammond postulate: an uphill step has a transition state that looks like its product.",
+  "w": "Ionization of an alkyl bromide to a carbocation is strongly endothermic, so the TS is late and has much carbocation character. Whatever stabilizes the carbocation (here, three alkyl groups giving more hyperconjugation in the 3° cation) also stabilizes the TS and lowers E<sub>a</sub>. <b>The more stable 3° cation lowers the TS.</b>",
+  "x": [
+   "",
+   "A stronger bond would slow ionization; the rate difference comes from carbocation stability, not bond strength.",
+   "Ionization is endothermic, not exothermic; and a more stable reactant would raise, not lower, the barrier.",
+   "A 3° carbon is more hindered, not less; and water does not attack in the rate-determining step of S<sub>N</sub>1."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC(C)(C)Br",
+    "cap": "faster"
+   },
+   {
+    "smi": "CC(C)Br",
+    "cap": "slower"
+   }
+  ]
+ },
+ {
+  "id": "mech-32",
+  "t": "mechanism",
+  "q": "Which two labeled carbons of 3-buten-2-one are electrophilic sites, where a nucleophile can add?",
+  "c": [
+   "<i>a</i> and <i>c</i>",
+   "<i>b</i> and <i>c</i>",
+   "<i>a</i> and <i>b</i>",
+   "<i>c</i> and <i>d</i>"
+  ],
+  "h": "Draw the resonance form that moves the C=C π electrons toward the oxygen. Which carbons carry the + charge?",
+  "w": "The carbonyl carbon <i>c</i> is δ+ (C=O ↔ C<sup>+</sup>–O<sup>−</sup>). Because the C=C is conjugated with C=O, a second resonance form moves the C=C π electrons toward the carbonyl and places the + charge on the terminal β carbon <i>a</i>. <b>Carbons a and c</b> are electrophilic (1,2- and 1,4-addition sites).",
+  "x": [
+   "",
+   "Carbon <i>b</i> (the α carbon) never carries + charge in any resonance form; the charge alternates to <i>a</i>.",
+   "<i>b</i> is not electrophilic, and the conjugate (β) site <i>a</i> pairs with the carbonyl carbon <i>c</i>.",
+   "The methyl carbon <i>d</i> is not electrophilic; it is not part of the conjugated system."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "[CH2:1]=[CH:2][C:3](=O)[CH3:4]"
+   }
+  ]
+ },
+ {
+  "id": "mech-33",
+  "t": "mechanism",
+  "q": "Diethyl ether and BF<sub>3</sub> combine as shown. Which statement describes the roles of the reactants?",
+  "c": [
+   "The ether oxygen is the nucleophile (Lewis base); boron is the electrophile (Lewis acid)",
+   "Boron is the nucleophile (Lewis base); the ether oxygen is the electrophile (Lewis acid)",
+   "A fluorine of BF<sub>3</sub> is the nucleophile; the ether oxygen is the electrophile",
+   "The ether oxygen is the electrophile because it ends up with a positive formal charge"
+  ],
+  "h": "Which atom has a lone pair to donate, and which has an empty orbital?",
+  "w": "Boron in BF<sub>3</sub> has only six valence electrons and an empty p orbital, so it accepts an electron pair: electrophile (Lewis acid). The ether oxygen donates a lone pair: nucleophile (Lewis base). <b>O is the nucleophile, B is the electrophile.</b> The formal charges in the adduct (O<sup>+</sup>, B<sup>−</sup>) result from that electron donation.",
+  "x": [
+   "",
+   "The roles are reversed: boron has an empty orbital and no lone pair to donate.",
+   "Fluorine's lone pairs are held tightly and the new bond in the product is O–B, not F–O.",
+   "The + formal charge on oxygen in the product is the result of donating its lone pair; that is what a nucleophile does."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CCOCC"
+   },
+   "+",
+   {
+    "smi": "FB(F)F"
+   },
+   {
+    "arrow": ""
+   },
+   {
+    "smi": "CC[O+](CC)[B-](F)(F)F"
+   }
+  ]
+ },
+ {
+  "id": "mech-34",
+  "t": "mechanism",
+  "q": "Which carbocation is the least stable?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Where is the empty orbital in each cation, and can it overlap with a π system?",
+  "w": "In the phenyl cation <b>A</b> the positive charge sits in an sp<sup>2</sup> orbital in the plane of the ring, at right angles to the aromatic π system, so there is no resonance stabilization, and the high s character of the empty orbital makes it very unstable. The benzyl and allyl cations are stabilized by resonance, and the cyclohexyl cation is an ordinary 2° cation.",
+  "x": [
+   "",
+   "The allyl cation is resonance stabilized: its empty p orbital overlaps with the C=C π bond.",
+   "The benzyl cation is strongly resonance stabilized by the ring, unlike the phenyl cation.",
+   "The cyclohexyl cation is an ordinary secondary cation with hyperconjugation; it is far more stable than an aryl cation."
+  ],
+  "k": 0,
+  "d": 2,
+  "cs": [
+   {
+    "smi": "[c+]1ccccc1"
+   },
+   {
+    "smi": "C=C[CH2+]"
+   },
+   {
+    "smi": "[CH2+]c1ccccc1"
+   },
+   {
+    "smi": "[CH+]1CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "mech-35",
+  "t": "mechanism",
+  "q": "3-Methyl-1-butene reacts with HCl to give two alkyl chlorides. Which product comes from a carbocation that underwent a 1,2-hydride shift?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Protonate the alkene to give the more substituted cation first. Is there a neighboring hydrogen whose shift gives a more stable cation?",
+  "w": "Markovnikov protonation at C1 gives the 2° cation at C2. A 1,2-hydride shift from C3 gives the 3° cation at C3, and chloride capture there gives <b>A, 2-chloro-2-methylbutane</b>. Capture before the shift gives B, the other product of the reaction.",
+  "x": [
+   "",
+   "This is the unrearranged Markovnikov product, formed when chloride traps the 2° cation before any shift.",
+   "This is the anti-Markovnikov product; it would need a primary cation, which HCl addition does not form.",
+   "This is a primary chloride (1-chloro-2-methylbutane); it would need a primary cation, which neither protonation nor a hydride shift produces here."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C=CC(C)C"
+   },
+   {
+    "arrow": "HCl"
+   },
+   "?"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(C)(C)Cl"
+   },
+   {
+    "smi": "CC(Cl)C(C)C"
+   },
+   {
+    "smi": "ClCCC(C)C"
+   },
+   {
+    "smi": "CCC(C)CCl"
+   }
+  ]
+ },
+ {
+  "id": "mech-36",
+  "t": "mechanism",
+  "q": "Which carbocation is expected to rearrange by a 1,2-shift to a more stable carbocation?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "For each cation, ask what a 1,2-hydride or methyl shift would produce, and whether the new cation is more substituted.",
+  "w": "In <b>A</b>, a 1,2-methyl shift from the neighboring quaternary carbon turns the 2° cation into a 3° cation, so it rearranges. B is already 3°. In C (2-butyl cation), a hydride shift from C3 gives another 2-butyl cation, no gain. In D (cyclohexyl), any hydride shift gives another 2° cyclohexyl cation.",
+  "x": [
+   "",
+   "This is already a 3° cation; any 1,2-shift would give a less stable 2° or 1° cation.",
+   "A hydride shift in the 2-butyl cation gives an identical 2° cation, so there is no driving force.",
+   "Every carbon next to the cyclohexyl cation is a CH<sub>2</sub>; a hydride shift gives another 2° cation of the same kind."
+  ],
+  "k": 0,
+  "d": 3,
+  "cs": [
+   {
+    "smi": "C[CH+]C(C)(C)C"
+   },
+   {
+    "smi": "CC[C+](C)C"
+   },
+   {
+    "smi": "CC[CH+]C"
+   },
+   {
+    "smi": "[CH+]1CCCCC1"
+   }
+  ]
+ },
+ {
+  "id": "mech-37",
+  "t": "mechanism",
+  "q": "An alkyl bromide (RBr) reacts with sodium azide. Based on the initial-rate data, what is the rate law?",
+  "c": [
+   "rate = <i>k</i>[RBr]",
+   "rate = <i>k</i>[RBr][N<sub>3</sub><sup>−</sup>]",
+   "rate = <i>k</i>[N<sub>3</sub><sup>−</sup>]",
+   "rate = <i>k</i>[RBr]<sup>2</sup>"
+  ],
+  "h": "Compare pairs of experiments in which only one concentration changes.",
+  "w": "Experiments 1 → 2: doubling [RBr] (azide fixed) doubles the rate, so the reaction is first order in RBr. Experiments 1 → 3: tripling [N<sub>3</sub><sup>−</sup>] (RBr fixed) leaves the rate unchanged, so it is zero order in azide. <b>rate = k[RBr]</b>, the rate law expected for an S<sub>N</sub>1 reaction whose slow step is ionization.",
+  "x": [
+   "",
+   "Tripling [N<sub>3</sub><sup>−</sup>] did not change the rate, so azide does not appear in the rate law.",
+   "The rate depends on [RBr] (experiments 1 and 2) and not on [N<sub>3</sub><sup>−</sup>].",
+   "Doubling [RBr] doubled the rate; second order would have quadrupled it."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Exp.",
+     "[RBr] (M)",
+     "[N<sub>3</sub><sup>−</sup>] (M)",
+     "Initial rate (M/s)"
+    ],
+    "rows": [
+     [
+      "1",
+      "0.10",
+      "0.10",
+      "2.0 × 10<sup>−4</sup>"
+     ],
+     [
+      "2",
+      "0.20",
+      "0.10",
+      "4.0 × 10<sup>−4</sup>"
+     ],
+     [
+      "3",
+      "0.10",
+      "0.30",
+      "2.0 × 10<sup>−4</sup>"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mech-38",
+  "t": "mechanism",
+  "q": "Two irreversible pathways from the same intermediate give products X and Y. The transition state leading to X is 4.0 kJ/mol lower than the one leading to Y. At 25 °C (298 K), what is the approximate X : Y ratio?",
+  "c": [
+   "83 : 17",
+   "98 : 2",
+   "50 : 50",
+   "17 : 83"
+  ],
+  "h": "Under kinetic control, [X]/[Y] = k<sub>X</sub>/k<sub>Y</sub> = e<sup>ΔΔG‡/RT</sup>.",
+  "w": "k<sub>X</sub>/k<sub>Y</sub> = e<sup>4000/(8.314 × 298)</sup> = e<sup>1.61</sup> ≈ 5.0. So X : Y ≈ 5 : 1, which is <b>83 : 17</b>.",
+  "x": [
+   "",
+   "This uses 10<sup>1.61</sup> ≈ 41 instead of e<sup>1.61</sup>; rate ratios from ΔΔG<sup>‡</sup> use the natural exponential.",
+   "This comes from dividing 4.0 (kJ) by RT in J, giving e<sup>0.0016</sup> ≈ 1; convert to 4000 J/mol first.",
+   "The ratio is reversed: the pathway with the lower transition state is faster, so X is the major product."
+  ],
+  "k": 1,
+  "d": 3
+ },
+ {
+  "id": "mech-39",
+  "t": "mechanism",
+  "q": "An intermediate can form product A or product B. The table gives energies relative to the intermediate. Which statement is correct?",
+  "c": [
+   "A dominates at low temperature (kinetic product); B dominates when the system can equilibrate (thermodynamic product)",
+   "B dominates at low temperature (kinetic product); A dominates when the system can equilibrate (thermodynamic product)",
+   "A dominates under all conditions because its transition state is lower",
+   "B dominates under all conditions because it is the more stable product"
+  ],
+  "h": "Kinetic control compares transition-state energies; thermodynamic control compares product energies.",
+  "w": "A has the lower transition state (60 vs 70 kJ/mol), so it forms faster and dominates when products cannot revert (low temperature, short times). B is lower in energy (−25 vs −10 kJ/mol), so it dominates once the reactions are reversible and equilibrium is reached. <b>A is the kinetic product; B is the thermodynamic product.</b>",
+  "x": [
+   "",
+   "This swaps the definitions: the lower transition state (A) makes A the kinetic product.",
+   "When the reactions become reversible, the more stable product B accumulates, so A does not win under all conditions.",
+   "Under irreversible, low-temperature conditions the faster-forming A wins, so B does not dominate under all conditions."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Pathway",
+     "Transition state (kJ/mol)",
+     "Product (kJ/mol)"
+    ],
+    "rows": [
+     [
+      "to A",
+      "+60",
+      "−10"
+     ],
+     [
+      "to B",
+      "+70",
+      "−25"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mech-40",
+  "t": "mechanism",
+  "q": "A mixture of methane and oxygen can sit unchanged at 25 °C for years even though combustion has a very negative ΔG°. What is the reason?",
+  "c": [
+   "The activation energy is very high, so the rate at 25 °C is extremely small",
+   "K<sub>eq</sub> for combustion is less than 1 at 25 °C",
+   "ΔS° for combustion is negative, which makes the reaction non-spontaneous",
+   "Exothermic reactions do not start unless their ΔH° is positive"
+  ],
+  "h": "Thermodynamics says whether a reaction is favorable; kinetics says how fast it goes.",
+  "w": "A very negative ΔG° means K<sub>eq</sub> is huge, so combustion is favorable. But the rate depends on the activation energy, and breaking the strong C–H and O=O bonds requires a large E<sub>a</sub>. <b>The barrier is high, so the reaction is extremely slow at 25 °C</b> until a spark supplies energy.",
+  "x": [
+   "",
+   "A very negative ΔG° means K<sub>eq</sub> is much greater than 1.",
+   "ΔG° already includes the entropy term; a very negative ΔG° means spontaneous whatever the sign of ΔS°.",
+   "This is not a rule; reaction rates depend on E<sub>a</sub>, not on the sign of ΔH°."
+  ],
+  "k": 0,
+  "d": 1
+ }
+]

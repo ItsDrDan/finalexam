@@ -15,7 +15,7 @@ if (!pairs.length || pairs.length % 2) { console.error('usage: append_questions.
 
 const TOPICS = {};
 const html0 = fs.readFileSync(FILE, 'utf8');
-for (const c of ['3A', '3B', '1A', '1B']) {
+for (const c of ['3A', '3B', '1A', '1B', '28A', '28B']) {
   const m = html0.match(new RegExp(`'${c}':\\{name:[\\s\\S]*?topics:\\[(\\[[\\s\\S]*?\\])\\]\\}`));
   TOPICS[c] = m ? [...m[1].matchAll(/\['([a-z_]+)'/g)].map(x => x[1]) : null;
 }
@@ -48,7 +48,7 @@ for (let p = 0; p < pairs.length; p += 2) {
 }
 
 // verify
-for (const c of ['3A', '3B', '1A', '1B']) {
+for (const c of ['3A', '3B', '1A', '1B', '28A', '28B']) {
   const before = JSON.parse(html0.match(bankRe(c))[2]), after = JSON.parse(html.match(bankRe(c))[2]);
   const n = (added[c] || []).length;
   if (after.length !== before.length + n) throw new Error(`${c}: count ${after.length} != ${before.length}+${n}`);

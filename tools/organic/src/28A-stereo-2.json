@@ -1,0 +1,682 @@
+[
+ {
+  "id": "fs01",
+  "d": 1,
+  "q": "In a Fischer projection, how are the bonds at each chirality center (the cross) oriented in space?",
+  "c": [
+   "Horizontal bonds point toward the viewer; vertical bonds point away",
+   "Vertical bonds point toward the viewer; horizontal bonds point away",
+   "All four bonds lie in the plane of the page",
+   "The left bond points toward the viewer and the right bond points away"
+  ],
+  "h": "Picture the carbon chain curling back away from you, like a bow tie at each center.",
+  "w": "A Fischer projection draws the main chain vertically, curving back behind the page, so <b>vertical bonds go away from the viewer and horizontal bonds come toward the viewer</b>. That is why it may be rotated 180° in the plane but not 90°.",
+  "x": [
+   "",
+   "This is reversed; the carbon chain (vertical) recedes behind the page and the horizontal groups project out.",
+   "A tetrahedral carbon cannot have all four bonds in one plane; the cross is shorthand for a 3-D arrangement.",
+   "Both horizontal bonds point toward the viewer; neither horizontal bond goes back."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs02",
+  "d": 1,
+  "q": "What is the configuration of the chirality center in this Fischer projection of 2-bromopropanoic acid?",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "CO<sub>2</sub>H",
+    "rows": [
+     [
+      "H",
+      "Br"
+     ]
+    ],
+    "bottom": "CH<sub>3</sub>"
+   }
+  ],
+  "c": [
+   "R: Br → CO<sub>2</sub>H → CH<sub>3</sub> is counterclockwise, reversed because H is on a horizontal bond",
+   "S: Br → CO<sub>2</sub>H → CH<sub>3</sub> is counterclockwise, and the H position does not matter",
+   "S: CO<sub>2</sub>H → Br → CH<sub>3</sub> is clockwise, reversed because H is on a horizontal bond",
+   "R: CO<sub>2</sub>H → Br → CH<sub>3</sub> is clockwise, and the H position does not matter"
+  ],
+  "h": "Rank the groups, trace 1 → 2 → 3, then check whether H is on a vertical (away) or horizontal (toward you) bond.",
+  "w": "Priorities: Br > CO<sub>2</sub>H > CH<sub>3</sub> > H. On the page Br (right) → CO<sub>2</sub>H (top) → CH<sub>3</sub> (bottom) runs counterclockwise. H is on a horizontal bond, pointing toward you, so the true sense is the reverse: <b>R</b>.",
+  "x": [
+   "",
+   "When H is on a horizontal bond it points toward the viewer, so the direction read on the page must be reversed.",
+   "Br (Z = 35) outranks the carbon of CO<sub>2</sub>H; atomic number of the attached atom comes first.",
+   "Br outranks CO<sub>2</sub>H, and the H on a horizontal bond requires reversing the direction; this choice makes both errors."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs03",
+  "d": 2,
+  "q": "Give the configuration of this stereoisomer of 2-bromo-3-chlorobutane (C2 carries Br, C3 carries Cl).",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "CH<sub>3</sub>",
+    "rows": [
+     [
+      "H",
+      "Br"
+     ],
+     [
+      "Cl",
+      "H"
+     ]
+    ],
+    "bottom": "CH<sub>3</sub>"
+   }
+  ],
+  "c": [
+   "(2<i>S</i>,3<i>S</i>)",
+   "(2<i>R</i>,3<i>R</i>)",
+   "(2<i>R</i>,3<i>S</i>)",
+   "(2<i>S</i>,3<i>R</i>)"
+  ],
+  "h": "Treat each cross separately. The other stereocenter is just a substituent: at C2 it is CH(Cl)CH<sub>3</sub>.",
+  "w": "C2: Br > C3 (Cl, C, H) > CH<sub>3</sub> > H. Br (right) → C3 (down) → CH<sub>3</sub> (up) is clockwise on the page; H is horizontal, so reverse: S. C3: Cl > C2 (Br, C, H) > CH<sub>3</sub> > H. Cl (left) → C2 (up) → CH<sub>3</sub> (down) is clockwise; H is horizontal, so reverse: S. The compound is <b>(2S,3S)</b>.",
+  "x": [
+   "",
+   "This is the enantiomer; both centers were read on the page without reversing for the horizontal H.",
+   "C2 was read without reversing for the horizontal H; only C3 was handled correctly.",
+   "C3 was read without reversing for the horizontal H; only C2 was handled correctly."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs04",
+  "d": 2,
+  "q": "Which Fischer projection represents a meso compound?",
+  "f": [
+   {
+    "type": "fischer",
+    "items": [
+     {
+      "top": "CO<sub>2</sub>H",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "HO",
+        "H"
+       ]
+      ],
+      "bottom": "CO<sub>2</sub>H",
+      "cap": "I"
+     },
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "II"
+     },
+     {
+      "top": "CO<sub>2</sub>H",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CO<sub>2</sub>H",
+      "cap": "III"
+     },
+     {
+      "top": "CH<sub>3</sub>",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "Cl"
+       ]
+      ],
+      "bottom": "CH<sub>3</sub>",
+      "cap": "IV"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "III",
+   "I",
+   "II",
+   "IV"
+  ],
+  "h": "A meso compound needs identical top and bottom halves and a horizontal mirror line through the middle of the projection.",
+  "w": "In III (tartaric acid) the top and bottom halves are the same, and the two OH groups are on the same side, so a horizontal mirror line maps the top half onto the bottom. It has two chirality centers but is achiral: <b>III is meso</b>.",
+  "x": [
+   "",
+   "I has the same ends as III, but the OH groups are on opposite sides, so there is no internal mirror line; it is one enantiomer of chiral tartaric acid.",
+   "II has OH groups on the same side but different ends (CHO and CH<sub>2</sub>OH), so the halves are not equivalent and the compound is chiral.",
+   "IV has identical ends, but OH and Cl make the two centers different, so no internal mirror plane is possible."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs05",
+  "d": 3,
+  "q": "What is the relationship between Fischer projections I and II?",
+  "f": [
+   {
+    "type": "fischer",
+    "items": [
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>2</sub>OH",
+      "cap": "I"
+     },
+     {
+      "top": "CH<sub>2</sub>OH",
+      "rows": [
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "HO",
+        "H"
+       ]
+      ],
+      "bottom": "CHO",
+      "cap": "II"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "Identical",
+   "Enantiomers",
+   "Diastereomers",
+   "Constitutional isomers"
+  ],
+  "h": "Try rotating I by 180° in the plane of the page. Which operations are allowed for a Fischer projection?",
+  "w": "Rotating I by 180° in the plane puts CH<sub>2</sub>OH on top and CHO on the bottom, and every horizontal group swaps sides, giving exactly II. A 180° in-plane rotation keeps horizontal bonds toward the viewer, so it is allowed: the two are <b>identical</b> (both are (2R,3R)-2,3,4-trihydroxybutanal, D-erythrose).",
+  "x": [
+   "",
+   "The OH groups appear on the left in II, but that is the result of the 180° turn, not reflection; both centers are R in both projections.",
+   "Diastereomers would differ at one center; assigning R/S shows both centers match.",
+   "Both are 2,3,4-trihydroxybutanal with the same connectivity; only the drawing orientation differs."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs06",
+  "d": 3,
+  "q": "Fischer projection II was made by rotating I by 90° clockwise in the plane of the page. What is the relationship between I and II?",
+  "f": [
+   {
+    "type": "fischer",
+    "items": [
+     {
+      "top": "CHO",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ]
+      ],
+      "bottom": "CH<sub>3</sub>",
+      "cap": "I"
+     },
+     {
+      "top": "H",
+      "rows": [
+       [
+        "CH<sub>3</sub>",
+        "CHO"
+       ]
+      ],
+      "bottom": "OH",
+      "cap": "II"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "Enantiomers",
+   "Identical",
+   "Diastereomers",
+   "Constitutional isomers"
+  ],
+  "h": "After the turn, which groups now sit on the vertical bonds, and which way do vertical bonds point?",
+  "w": "A 90° turn moves the horizontal groups (toward the viewer) onto vertical bonds, which by convention point away, and vice versa. That reverses the center: I is R (OH > CHO > CH<sub>3</sub>), II reads as S. So I and II are <b>enantiomers</b>. Only 180° in-plane turns are allowed.",
+  "x": [
+   "",
+   "A rotation is harmless for a 3-D model, but a Fischer projection has a fixed meaning for vertical and horizontal bonds; a 90° turn breaks it.",
+   "With only one chirality center there are just two stereoisomers, which are mirror images, so diastereomers are impossible.",
+   "The connectivity (2-hydroxypropanal) is unchanged; only the configuration is inverted."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs07",
+  "d": 3,
+  "q": "Which Fischer projection (OH-bearing carbon in the upper row) represents the compound drawn?",
+  "s": [
+   {
+    "smi": "C[C@@H](O)[C@@H](Cl)C"
+   }
+  ],
+  "f": [
+   {
+    "type": "fischer",
+    "items": [
+     {
+      "top": "CH<sub>3</sub>",
+      "rows": [
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "H",
+        "Cl"
+       ]
+      ],
+      "bottom": "CH<sub>3</sub>",
+      "cap": "I"
+     },
+     {
+      "top": "CH<sub>3</sub>",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "H",
+        "Cl"
+       ]
+      ],
+      "bottom": "CH<sub>3</sub>",
+      "cap": "II"
+     },
+     {
+      "top": "CH<sub>3</sub>",
+      "rows": [
+       [
+        "H",
+        "OH"
+       ],
+       [
+        "Cl",
+        "H"
+       ]
+      ],
+      "bottom": "CH<sub>3</sub>",
+      "cap": "III"
+     },
+     {
+      "top": "CH<sub>3</sub>",
+      "rows": [
+       [
+        "HO",
+        "H"
+       ],
+       [
+        "Cl",
+        "H"
+       ]
+      ],
+      "bottom": "CH<sub>3</sub>",
+      "cap": "IV"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "IV",
+   "I",
+   "II",
+   "III"
+  ],
+  "h": "Assign R/S to the drawn compound first, then assign each Fischer projection and look for the match.",
+  "w": "The drawing is (2R,3S)-3-chlorobutan-2-ol. In the Fischer projections, with H horizontal, read each center and reverse. IV: C2 (OH left) is R and C3 (Cl left) is S, so <b>IV</b> matches. I is (2R,3R), II is (2S,3R) (the enantiomer) and III is (2S,3S).",
+  "x": [
+   "",
+   "I is (2R,3R): the OH carbon matches, but the Cl carbon is inverted.",
+   "II is (2S,3R), the enantiomer of the drawn compound; both centers are inverted.",
+   "III is (2S,3S): the Cl carbon matches, but the OH carbon is inverted."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs08",
+  "d": 2,
+  "q": "Assign C2 and C3 of this aldotetrose (D-threose).",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "CHO",
+    "rows": [
+     [
+      "HO",
+      "H"
+     ],
+     [
+      "H",
+      "OH"
+     ]
+    ],
+    "bottom": "CH<sub>2</sub>OH"
+   }
+  ],
+  "c": [
+   "(2<i>S</i>,3<i>R</i>)",
+   "(2<i>R</i>,3<i>S</i>)",
+   "(2<i>R</i>,3<i>R</i>)",
+   "(2<i>S</i>,3<i>S</i>)"
+  ],
+  "h": "At C2, the CHO carbon (O, O, H) outranks C3 (O, C, H). At C3, C2 (O, C, H) outranks CH<sub>2</sub>OH (O, H, H).",
+  "w": "C2: OH > CHO > C3 > H. OH (left) → CHO (up) → C3 (down) is clockwise on the page; H is horizontal, so reverse: S. C3: OH > C2 > CH<sub>2</sub>OH > H. OH (right) → C2 (up) → CH<sub>2</sub>OH (down) is counterclockwise; reverse: R. D-Threose is <b>(2S,3R)</b>.",
+  "x": [
+   "",
+   "This is L-threose, the enantiomer; both centers were read without reversing for the horizontal H.",
+   "C2 was read without reversing for its horizontal H; C3 is correct.",
+   "C3 was read without reversing for its horizontal H; C2 is correct."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs09",
+  "d": 1,
+  "q": "Which compound is meso?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@@H](Br)[C@@H](Br)C"
+   },
+   {
+    "smi": "C[C@@H](Br)[C@H](Br)C"
+   },
+   {
+    "smi": "C[C@@H](Br)[C@@H](Cl)C"
+   },
+   {
+    "smi": "C[C@@H](O)C[C@@H](C)O"
+   }
+  ],
+  "h": "Meso: two or more chirality centers and an internal mirror plane (so the molecule is achiral).",
+  "w": "The 2,3-dibromobutane with opposite configurations (R and S) at two identically substituted centers has an internal mirror plane, so it is <b>meso</b>.",
+  "x": [
+   "",
+   "This is (2R,3R)-2,3-dibromobutane (or its mirror image); like-configured centers with identical substituents give a chiral compound.",
+   "The two centers carry different halogens (Br and Cl), so no internal mirror plane is possible; the compound is chiral.",
+   "This is a like-configured 2,4-pentanediol ((2R,4R) or (2S,4S)), which is chiral; only the (2R,4S) isomer is meso."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs10",
+  "d": 2,
+  "q": "Which compound is a meso compound?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Cl[C@@H]1C[C@@H]1Cl"
+   },
+   {
+    "smi": "Cl[C@@H]1C[C@H]1Cl"
+   },
+   {
+    "smi": "Cl[C@H]1C[C@@H](Cl)C1"
+   },
+   {
+    "smi": "Cl[C@@H]1CC[C@H]1Cl"
+   }
+  ],
+  "h": "A meso compound must contain chirality centers and still be achiral. Check both requirements for each ring.",
+  "w": "cis-1,2-Dichlorocyclopropane has two chirality centers (C1 and C2 each carry H, Cl, CH<sub>2</sub> and CHCl) and a mirror plane through the CH<sub>2</sub> carbon: it is <b>meso</b>.",
+  "x": [
+   "",
+   "trans-1,2-Dichlorocyclopropane has no mirror plane; it is chiral and exists as a pair of enantiomers.",
+   "cis-1,3-Dichlorocyclobutane is achiral, but it is not meso: C1 and C3 each have two identical ring paths, so the molecule has no chirality centers.",
+   "trans-1,2-Dichlorocyclobutane is chiral; only the cis-1,2 isomer has an internal mirror plane."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs11",
+  "d": 1,
+  "q": "A pure compound has two chirality centers, is optically inactive, and cannot be resolved into enantiomers. It is best described as:",
+  "c": [
+   "a meso compound",
+   "a racemic mixture",
+   "a pair of diastereomers",
+   "a conformational isomer of a chiral compound"
+  ],
+  "h": "Which kind of sample is optically inactive because of the molecule itself rather than a 50:50 mixture?",
+  "w": "A <b>meso compound</b> has chirality centers but an internal mirror plane, so the molecule is superimposable on its mirror image: no rotation, and nothing to resolve.",
+  "x": [
+   "",
+   "A racemic mixture is also optically inactive, but it is a 50:50 mixture of enantiomers that can be resolved, not a single pure compound.",
+   "A pair of diastereomers is a mixture of two different compounds, not one pure compound, and each may rotate light.",
+   "Conformers of a chiral compound remain chiral and optically active."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs12",
+  "d": 3,
+  "q": "How many stereoisomers exist for pentane-2,3,4-triol, CH<sub>3</sub>CH(OH)CH(OH)CH(OH)CH<sub>3</sub>?",
+  "c": [
+   "4",
+   "8",
+   "3",
+   "6"
+  ],
+  "h": "Use symmetry. When C2 and C4 have the same configuration, is C3 still stereogenic? When they are opposite?",
+  "w": "The molecule is symmetric end to end. If C2 and C4 match ((2R,4R) or (2S,4S)), the two halves at C3 are identical, so C3 is not stereogenic: one pair of enantiomers. If C2 and C4 are opposite ((2R,4S)), C3 becomes pseudoasymmetric and can be either of two forms, giving two different meso compounds. Total: 2 + 2 = <b>4</b>.",
+  "x": [
+   "",
+   "2<sup>3</sup> = 8 is only the maximum; symmetry makes several of those combinations the same molecule.",
+   "3 is the count for a two-center symmetric molecule such as 2,3-butanediol; here C3 adds a second meso form.",
+   "Six would require three pairs of enantiomers; the opposite-configured C2/C4 forms are meso, not pairs."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs13",
+  "d": 1,
+  "q": "How many stereoisomers are possible for 2-bromo-3-chloropentane?",
+  "c": [
+   "4",
+   "2",
+   "3",
+   "8"
+  ],
+  "h": "Count the chirality centers, then check whether any symmetry could reduce 2<sup>n</sup>.",
+  "w": "C2 and C3 are both chirality centers, and the molecule has no symmetry that could create a meso form (the groups differ). So 2<sup>2</sup> = <b>4</b>: two pairs of enantiomers.",
+  "x": [
+   "",
+   "2 would be correct for a single chirality center; this molecule has two.",
+   "3 applies only when a meso form exists, which needs identically substituted centers.",
+   "8 would require three chirality centers."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs14",
+  "d": 2,
+  "q": "How many stereoisomers are possible for 2,4-dibromopentane?",
+  "c": [
+   "3",
+   "4",
+   "2",
+   "6"
+  ],
+  "h": "Two chirality centers, but look at the symmetry of the carbon chain.",
+  "w": "C2 and C4 are chirality centers with identical substituent sets, and C3 is a CH<sub>2</sub>. (2R,4R) and (2S,4S) are enantiomers; (2R,4S) has an internal mirror plane through C3 and is meso. Total <b>3</b>.",
+  "x": [
+   "",
+   "2<sup>2</sup> = 4 counts (2R,4S) and (2S,4R) separately, but they are the same meso compound.",
+   "2 counts only the chiral pair and misses the meso isomer.",
+   "With only two chirality centers there cannot be more than four stereoisomers."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs15",
+  "d": 3,
+  "q": "How many stereoisomers are possible for hex-4-en-2-ol, CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH=CHCH<sub>3</sub>?",
+  "c": [
+   "4",
+   "2",
+   "3",
+   "8"
+  ],
+  "h": "Look for every stereogenic unit, not just chirality centers.",
+  "w": "There are two stereogenic units: the chirality center at C2 (R or S) and the C4=C5 double bond (E or Z). They are independent, so 2 × 2 = <b>4</b> stereoisomers: (2R,4E), (2S,4E), (2R,4Z), (2S,4Z).",
+  "x": [
+   "",
+   "2 counts only the chirality center and ignores E/Z isomerism of the double bond.",
+   "No meso form is possible here, so nothing reduces the count below 2 × 2.",
+   "8 would require three stereogenic units; the molecule has only two."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs16",
+  "d": 2,
+  "q": "This Fischer projection shows one stereoisomer of 3-chlorobutan-2-ol. How is it best described?",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "CH<sub>3</sub>",
+    "rows": [
+     [
+      "H",
+      "OH"
+     ],
+     [
+      "H",
+      "Cl"
+     ]
+    ],
+    "bottom": "CH<sub>3</sub>"
+   }
+  ],
+  "c": [
+   "Erythro, and chiral",
+   "Threo, and chiral",
+   "Erythro, and meso",
+   "Threo, and meso"
+  ],
+  "h": "Erythro: the similar groups (here OH and Cl) on the same side of the Fischer projection. Then ask if a mirror line could exist when OH ≠ Cl.",
+  "w": "OH and Cl are both on the right, so this is the <b>erythro</b> isomer. Because the two centers carry different groups (OH and Cl), there is no internal mirror plane: it is <b>chiral</b> ((2S,3R)). Erythro resembles meso in layout, but it is only meso when the two centers are identical.",
+  "x": [
+   "",
+   "Threo means the similar groups are on opposite sides; here OH and Cl are on the same side.",
+   "Erythro is a layout term; this molecule cannot be meso because OH and Cl make the halves different.",
+   "The groups are on the same side (erythro), and the molecule is chiral, not meso."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs17",
+  "d": 3,
+  "q": "Which pair of stereoisomers of 3-bromobutan-2-ol is the <i>threo</i> pair?",
+  "c": [
+   "(2<i>R</i>,3<i>R</i>) and (2<i>S</i>,3<i>S</i>)",
+   "(2<i>R</i>,3<i>S</i>) and (2<i>S</i>,3<i>R</i>)",
+   "(2<i>R</i>,3<i>R</i>) and (2<i>R</i>,3<i>S</i>)",
+   "(2<i>S</i>,3<i>R</i>) and (2<i>S</i>,3<i>S</i>)"
+  ],
+  "h": "Draw the Fischer projection with OH and Br on opposite sides, assign both centers, then find its mirror image.",
+  "w": "Put CH<sub>3</sub> top and bottom, OH on the right at C2 and Br on the left at C3 (threo, opposite sides). C2: OH > C3 > CH<sub>3</sub>; with H horizontal it reads S. C3: Br > C2 > CH<sub>3</sub>; it reads S. So threo = (2S,3S) and its enantiomer <b>(2R,3R)</b>. The erythro pair is (2R,3S)/(2S,3R).",
+  "x": [
+   "",
+   "This is the erythro pair: in the Fischer projection, OH and Br are on the same side.",
+   "These two differ at only one center, so they are diastereomers (one threo, one erythro), not a pair.",
+   "These two differ at only one center, so they are one erythro and one threo isomer, not a pair of enantiomers."
+  ],
+  "t": "stereo",
+  "k": 0
+ },
+ {
+  "id": "fs18",
+  "d": 3,
+  "q": "The amino acid drawn is 2-amino-3-hydroxybutanoic acid. Which description fits it?",
+  "s": [
+   {
+    "smi": "C[C@@H](O)[C@H](N)C(=O)O"
+   }
+  ],
+  "c": [
+   "Threo; (2<i>S</i>,3<i>R</i>)",
+   "Erythro; (2<i>S</i>,3<i>R</i>)",
+   "Threo; (2<i>S</i>,3<i>S</i>)",
+   "Erythro; (2<i>S</i>,3<i>S</i>)"
+  ],
+  "h": "Assign R/S from the drawing, then build the Fischer projection (CO<sub>2</sub>H on top) and see whether NH<sub>2</sub> and OH fall on the same side.",
+  "w": "C2: NH<sub>2</sub> > CO<sub>2</sub>H > C3 > H gives S. C3: OH > C2 (N, C, H) > CH<sub>3</sub> > H gives R. In the Fischer projection with CO<sub>2</sub>H up and CH<sub>3</sub> down, NH<sub>2</sub> is on the left at C2 and OH is on the right at C3: opposite sides, so <b>threo, (2S,3R)</b>. This is natural L-threonine (its name, like the threo label, comes from threose).",
+  "x": [
+   "",
+   "In the Fischer projection NH<sub>2</sub> and OH fall on opposite sides, which is threo, not erythro.",
+   "C3 is R: OH > C2 (N, C, H) > CH<sub>3</sub>. (2S,3S) is allothreonine, a diastereomer.",
+   "(2S,3S) is allothreonine, which is erythro, but it is not the compound drawn; C3 here is R."
+  ],
+  "t": "stereo",
+  "k": 0
+ }
+]

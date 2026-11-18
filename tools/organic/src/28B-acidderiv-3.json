@@ -1,0 +1,523 @@
+[
+ {
+  "id": "ad-31",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "Ethyl benzoate is treated with excess LiAlH<sub>4</sub> in ether, followed by aqueous workup. What are the organic products?",
+  "s": [
+   {
+    "smi": "CCOC(=O)c1ccccc1"
+   },
+   {
+    "arrow": "1. LiAlH<sub>4</sub> (excess), ether",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "benzyl alcohol and ethanol",
+   "benzaldehyde and ethanol",
+   "benzoic acid and ethanol",
+   "benzyl ethyl ether"
+  ],
+  "h": "LiAlH<sub>4</sub> delivers hydride twice to an ester. What happens to the OR group?",
+  "w": "The first hydride gives a tetrahedral intermediate that expels ethoxide, forming benzaldehyde. The aldehyde is more reactive than the ester and is reduced at once by a second hydride. Workup protonates both alkoxides: <b>benzyl alcohol (PhCH<sub>2</sub>OH) and ethanol</b>.",
+  "x": [
+   "",
+   "Benzaldehyde is an intermediate, but with excess LiAlH<sub>4</sub> it is reduced further to the primary alcohol.",
+   "LiAlH<sub>4</sub> is a reducing agent; it does not hydrolyze the ester to the acid.",
+   "The C–O bond to the acyl carbon is broken and the ethoxy group leaves; the oxygen is not retained as an ether link."
+  ]
+ },
+ {
+  "id": "ad-32",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "What is the major organic product?",
+  "s": [
+   {
+    "smi": "CCCCCC(=O)OC"
+   },
+   {
+    "arrow": "1. DIBAL-H (1 equiv), toluene, −78 °C",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCCCC=O"
+   },
+   {
+    "smi": "CCCCCCO"
+   },
+   {
+    "smi": "CCCCCC(=O)O"
+   },
+   {
+    "smi": "CCCCCCOC"
+   }
+  ],
+  "h": "DIBAL-H delivers one hydride. At −78 °C the tetrahedral intermediate does not collapse until workup.",
+  "w": "One equivalent of DIBAL-H at −78 °C adds one hydride to the ester; the aluminum-bound tetrahedral intermediate is stable at that temperature, so no aldehyde is present while active hydride remains. Aqueous workup collapses it to <b>A, hexanal</b> (plus methanol).",
+  "x": [
+   "",
+   "Hexan-1-ol is the LiAlH<sub>4</sub> product (or DIBAL-H in excess at room temperature), where the aldehyde is reduced again.",
+   "DIBAL-H is a reducing agent; it does not hydrolyze the ester to the acid.",
+   "Hydride replaces OCH<sub>3</sub> on the carbonyl carbon; the C=O oxygen is not removed to form an ether."
+  ]
+ },
+ {
+  "id": "ad-33",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Why must the reduction of an ester to an aldehyde with DIBAL-H be run at −78 °C?",
+  "c": [
+   "The aluminum-bound tetrahedral intermediate survives at −78 °C and gives the aldehyde only at workup",
+   "At −78 °C DIBAL-H attacks only the ester oxygen, not the carbonyl carbon",
+   "At higher temperature DIBAL-H reduces the ester all the way to an alkane",
+   "At −78 °C the aldehyde product freezes out of solution as it forms"
+  ],
+  "h": "The danger is a second hydride addition. What species would have to be present for that to happen?",
+  "w": "An aldehyde is more reactive than an ester, so if it formed while DIBAL-H was still present it would be reduced to the primary alcohol. At −78 °C the tetrahedral intermediate (O–Al(<i>i</i>Bu)<sub>2</sub> on carbon, with OR still attached) is stable; it <b>collapses to the aldehyde only during aqueous workup</b>, after the hydride is destroyed.",
+  "x": [
+   "",
+   "DIBAL-H is a Lewis acid that coordinates to the C=O oxygen, but the hydride is delivered to the carbonyl carbon at any temperature.",
+   "The over-reduction product at higher temperature is the primary alcohol; aluminum hydrides do not remove the oxygen to give an alkane.",
+   "Selectivity comes from the stability of the tetrahedral intermediate in solution, not from precipitation of the aldehyde."
+  ]
+ },
+ {
+  "id": "ad-34",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "What is the product of the reaction shown?",
+  "s": [
+   {
+    "smi": "O=C1CCCO1"
+   },
+   {
+    "arrow": "1. LiAlH<sub>4</sub>",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OCCCCO"
+   },
+   {
+    "smi": "OC1CCCO1"
+   },
+   {
+    "smi": "C1CCOC1"
+   },
+   {
+    "smi": "CCCCO"
+   }
+  ],
+  "h": "A lactone is a cyclic ester. Reduce it the way you would any ester, then remember both ends belong to one molecule.",
+  "w": "LiAlH<sub>4</sub> reduces an ester to two alcohols: the acyl carbon becomes CH<sub>2</sub>OH and the alkoxy oxygen becomes an OH. In a lactone both pieces are in one molecule, so the ring opens to <b>A, butane-1,4-diol</b>.",
+  "x": [
+   "",
+   "The lactol (cyclic hemiacetal) is what one hydride gives, e.g. DIBAL-H at −78 °C; LiAlH<sub>4</sub> reduces on through the open-chain aldehyde.",
+   "Tetrahydrofuran would require removing the carbonyl oxygen completely while keeping the ring; hydride reduction does not do that.",
+   "Butan-1-ol has lost an oxygen; the ring oxygen is retained as the second OH group."
+  ]
+ },
+ {
+  "id": "ad-35",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "What is the major organic product?",
+  "s": [
+   {
+    "smi": "COC(=O)c1ccccc1"
+   },
+   {
+    "arrow": "1. CH<sub>3</sub>MgBr (excess)",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(O)c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)c1ccccc1"
+   },
+   {
+    "smi": "CC(O)c1ccccc1"
+   },
+   {
+    "smi": "COC(C)(O)c1ccccc1"
+   }
+  ],
+  "h": "A Grignard reagent adds to an ester, the alkoxide leaves, and a ketone forms. Is the ketone more or less reactive than the ester?",
+  "w": "CH<sub>3</sub>MgBr adds, methoxide leaves, and acetophenone forms. A ketone is more electrophilic than an ester, so it consumes a second CH<sub>3</sub>MgBr right away. Workup gives the 3° alcohol with two new methyls: <b>A, 2-phenylpropan-2-ol</b>.",
+  "x": [
+   "",
+   "Acetophenone is the intermediate; it cannot be stopped at with a Grignard reagent because it reacts faster than the ester.",
+   "A secondary alcohol would need one methyl and one hydride; no hydride source is present.",
+   "This hemiketal-like structure is the first tetrahedral intermediate; it loses methoxide before workup and is not isolated."
+  ]
+ },
+ {
+  "id": "ad-36",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Which ester and Grignard reagent (excess, then H<sub>3</sub>O<sup>+</sup>) give the alcohol shown?",
+  "s": [
+   {
+    "smi": "CCC(O)(CC)c1ccccc1"
+   }
+  ],
+  "c": [
+   "methyl benzoate + CH<sub>3</sub>CH<sub>2</sub>MgBr",
+   "ethyl propanoate + C<sub>6</sub>H<sub>5</sub>MgBr",
+   "methyl propanoate + CH<sub>3</sub>CH<sub>2</sub>MgBr",
+   "ethyl acetate + C<sub>6</sub>H<sub>5</sub>MgBr"
+  ],
+  "h": "An ester + excess RMgBr makes a 3° alcohol with two identical R groups from the Grignard. Which two groups on the carbinol carbon match?",
+  "w": "The carbinol carbon carries Ph, CH<sub>2</sub>CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub>. The two identical groups (two ethyls) come from the Grignard reagent; the different one (phenyl) comes from the ester's acyl group. So <b>methyl benzoate + excess CH<sub>3</sub>CH<sub>2</sub>MgBr</b> gives 3-phenylpentan-3-ol.",
+  "x": [
+   "",
+   "Ethyl propanoate + excess PhMgBr gives two phenyls and one ethyl on the carbinol carbon (1,1-diphenylpropan-1-ol).",
+   "Methyl propanoate + excess EtMgBr gives three ethyls (3-ethylpentan-3-ol); there is no phenyl.",
+   "Ethyl acetate + excess PhMgBr gives 1,1-diphenylethanol (two phenyls and one methyl)."
+  ]
+ },
+ {
+  "id": "ad-37",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "What is the product after aqueous workup?",
+  "s": [
+   {
+    "smi": "O=C1CCCO1"
+   },
+   {
+    "arrow": "1. CH<sub>3</sub>MgBr (excess), ether",
+    "below": "2. NH<sub>4</sub>Cl, H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(O)CCCO"
+   },
+   {
+    "smi": "CC(=O)CCCO"
+   },
+   {
+    "smi": "CC1(C)CCCO1"
+   },
+   {
+    "smi": "CC(O)CCCO"
+   }
+  ],
+  "h": "Treat the lactone like any ester: the acyl carbon gets two R groups; the ring oxygen becomes a separate alcohol.",
+  "w": "The first CH<sub>3</sub>MgBr adds to the C=O; the tetrahedral intermediate opens the ring, releasing an alkoxide on the far end and leaving a methyl ketone. The ketone adds a second CH<sub>3</sub>MgBr. Workup protonates both alkoxides: <b>A, 4-methylpentane-1,4-diol</b>.",
+  "x": [
+   "",
+   "The hydroxy ketone is the intermediate after one addition; with excess Grignard the ketone reacts again.",
+   "A cyclic ether would need a separate ring-closing step (e.g. strong acid and heat); the mild workup simply protonates the two alkoxides.",
+   "Pentane-1,4-diol has only one methyl on C4 and an H; forming it would require a hydride reduction step."
+  ]
+ },
+ {
+  "id": "ad-38",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Ethyl formate is treated with excess phenylmagnesium bromide, then H<sub>3</sub>O<sup>+</sup>. What is the product?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC(c1ccccc1)c1ccccc1"
+   },
+   {
+    "smi": "O=Cc1ccccc1"
+   },
+   {
+    "smi": "OC(c1ccccc1)(c1ccccc1)c1ccccc1"
+   },
+   {
+    "smi": "OCc1ccccc1"
+   }
+  ],
+  "h": "A formate ester is HC(=O)OR. The acyl carbon keeps its H.",
+  "w": "PhMgBr adds to the formyl carbon and ethoxide leaves, giving benzaldehyde. The aldehyde is more reactive than the ester and adds a second PhMgBr. The carbinol carbon carries H, Ph and Ph: <b>A, diphenylmethanol</b>, a <i>secondary</i> alcohol. Formate esters are the one ester that gives 2° rather than 3° alcohols with Grignard reagents.",
+  "x": [
+   "",
+   "Benzaldehyde is the intermediate; it reacts with the excess Grignard faster than the ester does.",
+   "A third phenyl would require replacing the formyl H; the C–H bond is not a leaving group.",
+   "Benzyl alcohol would require hydride, not phenyl, to add to benzaldehyde."
+  ]
+ },
+ {
+  "id": "ad-39",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "<i>N</i>-Methylbenzamide is heated at reflux in 6 M HCl for several hours. What species are present at the end, before any neutralization?",
+  "c": [
+   "benzoic acid and CH<sub>3</sub>NH<sub>3</sub><sup>+</sup>",
+   "benzoate ion and CH<sub>3</sub>NH<sub>2</sub>",
+   "methyl benzoate and NH<sub>4</sub><sup>+</sup>",
+   "benzaldehyde and CH<sub>3</sub>NH<sub>3</sub><sup>+</sup>"
+  ],
+  "h": "Hydrolysis breaks the C–N bond. Then ask what form each product takes in strong acid.",
+  "w": "Acid-catalyzed hydrolysis cleaves the amide C–N bond, giving benzoic acid and methylamine. In 6 M HCl the amine is protonated to methylammonium; this protonation is what makes acidic amide hydrolysis irreversible. The acid stays un-ionized at low pH: <b>benzoic acid and CH<sub>3</sub>NH<sub>3</sub><sup>+</sup></b>.",
+  "x": [
+   "",
+   "Benzoate and free methylamine are the forms present under basic conditions; at low pH the acid is neutral and the amine is protonated.",
+   "The methyl group is on nitrogen, not oxygen; hydrolysis cannot transfer it to make a methyl ester.",
+   "Hydrolysis does not change the oxidation state of the carbonyl carbon; no aldehyde forms."
+  ]
+ },
+ {
+  "id": "ad-40",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "What is the product?",
+  "s": [
+   {
+    "smi": "CN(C)C(=O)C1CCCCC1"
+   },
+   {
+    "arrow": "1. LiAlH<sub>4</sub>, THF",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CN(C)CC1CCCCC1"
+   },
+   {
+    "smi": "OCC1CCCCC1"
+   },
+   {
+    "smi": "O=CC1CCCCC1"
+   },
+   {
+    "smi": "CN(C)C1CCCCC1"
+   }
+  ],
+  "h": "With amides, LiAlH<sub>4</sub> removes the carbonyl oxygen instead of the nitrogen. Why is N not lost?",
+  "w": "Hydride adds to the C=O, but the poorer leaving group is the amide nitrogen, so the oxygen (as an O–Al species) is expelled instead, giving an iminium ion. A second hydride reduces the iminium. The C=O becomes CH<sub>2</sub> and the carbon count is unchanged: <b>A, <i>N</i>,<i>N</i>-dimethyl(cyclohexylmethyl)amine</b>.",
+  "x": [
+   "",
+   "Losing the nitrogen to give a primary alcohol is the ester pattern; for amides the oxygen leaves because R<sub>2</sub>N<sup>−</sup> is a far worse leaving group.",
+   "An aldehyde is not the product of LiAlH<sub>4</sub> with an amide; the iminium ion that forms is reduced again.",
+   "The carbonyl carbon is retained as CH<sub>2</sub>; this structure has lost a carbon."
+  ]
+ },
+ {
+  "id": "ad-41",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "What does LiAlH<sub>4</sub> (then H<sub>2</sub>O) convert the lactam shown into?",
+  "s": [
+   {
+    "smi": "O=C1CCCCN1"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1CCNCC1"
+   },
+   {
+    "smi": "NCCCCCO"
+   },
+   {
+    "smi": "CCCCCN"
+   },
+   {
+    "smi": "OC1CCCCN1"
+   }
+  ],
+  "h": "Amide + LiAlH<sub>4</sub>: C=O → CH<sub>2</sub>, nitrogen kept.",
+  "w": "LiAlH<sub>4</sub> reduces an amide C=O to CH<sub>2</sub> and keeps the C–N bond. For a cyclic amide the ring stays closed, so piperidin-2-one becomes <b>A, piperidine</b>.",
+  "x": [
+   "",
+   "5-Aminopentan-1-ol would require cleavage of the C–N bond; with amides the oxygen is lost, not the nitrogen.",
+   "Pentan-1-amine has lost an oxygen and opened the ring; the ring stays intact because no ring bond to N is cut.",
+   "This cyclic hemiaminal still carries an oxygen; LiAlH<sub>4</sub> removes the carbonyl oxygen completely, so it is not the product."
+  ]
+ },
+ {
+  "id": "ad-42",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "<i>N</i>,<i>N</i>-Diethylacetamide is heated at reflux in aqueous NaOH. What are the products?",
+  "c": [
+   "CH<sub>3</sub>CO<sub>2</sub><sup>−</sup> Na<sup>+</sup> and (CH<sub>3</sub>CH<sub>2</sub>)<sub>2</sub>NH",
+   "CH<sub>3</sub>CO<sub>2</sub>H and (CH<sub>3</sub>CH<sub>2</sub>)<sub>2</sub>NH<sub>2</sub><sup>+</sup>",
+   "CH<sub>3</sub>CONH<sub>2</sub> and CH<sub>3</sub>CH<sub>2</sub>OH",
+   "CH<sub>3</sub>CHO and (CH<sub>3</sub>CH<sub>2</sub>)<sub>2</sub>NH"
+  ],
+  "h": "Hydrolysis cuts the C–N bond. What form does each fragment take in strong base?",
+  "w": "Hydroxide adds to the amide C=O and the C–N bond breaks on prolonged heating. In base, the acid ends up as the carboxylate and the amine as the free amine: <b>sodium acetate and diethylamine</b>.",
+  "x": [
+   "",
+   "These are the forms under acidic conditions; in NaOH the acid is deprotonated and the amine is neutral.",
+   "Hydrolysis breaks the acyl C–N bond; the ethyl groups stay on nitrogen and are not converted to ethanol.",
+   "Hydrolysis does not reduce the carbonyl carbon; no aldehyde forms."
+  ]
+ },
+ {
+  "id": "ad-43",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Which statements about amides are correct?<br>I. When an amide is protonated by a strong acid, the proton goes mainly to the oxygen.<br>II. The C–N bond in an amide is shorter than the C–N bond in an amine.<br>III. Amides are stronger bases than amines because their nitrogen is sp<sup>2</sup> hybridized.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Use the C=N resonance form of the amide. Where is the electron density, and is the N lone pair available?",
+  "w": "Because the N lone pair is delocalized onto oxygen, O is the most basic site: O-protonation gives a cation stabilized by resonance with N (I true). The same delocalization gives the C–N bond partial double-bond character, so it is shorter (about 1.34 Å vs 1.47 Å in an amine) (II true). Delocalization makes the N lone pair <i>less</i> available, so amides are far weaker bases than amines (conjugate acid pK<sub>a</sub> ≈ 0 vs ≈ 10) (III false). Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is also true: resonance gives the amide C–N bond partial double-bond character, so it is shorter than an amine C–N single bond.",
+   "Statement III is false: the delocalized lone pair makes amides very weak bases, much weaker than amines.",
+   "Statement III is false, so all three cannot be correct."
+  ]
+ },
+ {
+  "id": "ad-44",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Rank the esters in order of <b>increasing</b> rate of hydrolysis with NaOH (slowest first).",
+  "s": [
+   {
+    "smi": "COC(C)=O",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(=O)Oc1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(=O)Oc1ccc([N+](=O)[O-])cc1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I < II < III",
+   "III < II < I",
+   "II < I < III",
+   "I < III < II"
+  ],
+  "h": "All three are acetates, so the acyl part is the same. Compare the leaving groups by the pK<sub>a</sub> of their conjugate acids: CH<sub>3</sub>OH 15.5, phenol 10.0, 4-nitrophenol 7.2.",
+  "w": "The weaker the base that leaves, the better the leaving group, and the more electron-withdrawing the OR group, the more electrophilic the C=O. Methoxide (from CH<sub>3</sub>OH, pK<sub>a</sub> 15.5) is the poorest leaving group, phenoxide (10.0) is better, and 4-nitrophenoxide (7.2), stabilized by resonance into NO<sub>2</sub>, is best. Slowest to fastest: <b>I < II < III</b>. (4-Nitrophenyl esters are used as 'activated esters' for this reason.)",
+  "x": [
+   "",
+   "This reverses the trend: a more stable (weaker-base) leaving group makes hydrolysis faster, not slower.",
+   "Phenoxide is a better leaving group than methoxide because its negative charge is delocalized into the ring, so phenyl acetate reacts faster than methyl acetate.",
+   "The para-nitro group stabilizes the phenoxide by resonance, making it the best leaving group, so III is fastest."
+  ]
+ },
+ {
+  "id": "ad-45",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "What is the major product?",
+  "s": [
+   {
+    "smi": "COC(=O)c1ccc(C(C)=O)cc1"
+   },
+   {
+    "arrow": "NaBH<sub>4</sub>",
+    "below": "CH<sub>3</sub>OH, 0 °C"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COC(=O)c1ccc(C(C)O)cc1"
+   },
+   {
+    "smi": "CC(=O)c1ccc(CO)cc1"
+   },
+   {
+    "smi": "CC(O)c1ccc(CO)cc1"
+   },
+   {
+    "smi": "CCc1ccc(C(=O)OC)cc1"
+   }
+  ],
+  "h": "NaBH<sub>4</sub> is a mild hydride donor. Which carbonyl is more electrophilic: a ketone or an ester?",
+  "w": "NaBH<sub>4</sub> reduces aldehydes and ketones readily but reacts only very slowly with esters, whose C=O is stabilized by resonance donation from the OCH<sub>3</sub> oxygen. Only the ketone is reduced: <b>A, methyl 4-(1-hydroxyethyl)benzoate</b> (racemic).",
+  "x": [
+   "",
+   "Reducing the ester while leaving the ketone reverses the reactivity order; ketones are more reactive than esters.",
+   "Reducing both carbonyls is the LiAlH<sub>4</sub> result; NaBH<sub>4</sub> is not strong enough to reduce the ester.",
+   "Converting C=O to CH<sub>2</sub> requires Wolff–Kishner or Clemmensen conditions, not NaBH<sub>4</sub>."
+  ]
+ }
+]
