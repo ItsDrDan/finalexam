@@ -20,6 +20,9 @@ import json, re, sys, argparse, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+# Exam codes of staff test battles, left out of the exam statistics.
+# j5sgmbx9: 2026-11-18 check that the receiver stores ex and sec (35 CHEM 1A rows, 2 answered, 33 blank).
+TEST_EX = {"j5sgmbx9"}
 STATS_URL = "https://script.google.com/macros/s/AKfycbylSKoW9GE6AkN4HiC1uts3Y5Z4oUPHY7OQ88vXrjpcanooloYRTIGW9cS5n0dulp4vQg/exec"
 
 ap = argparse.ArgumentParser()
@@ -70,7 +73,7 @@ def exam_stats():
     secs = {}
     for item, ver, pick, ok, mode, session, ex, sec in rows:
         q = bank.get(item)
-        if not q or (ver and ver != qver(q)):
+        if not q or (ver and ver != qver(q)) or ex in TEST_EX:
             continue
         if sec not in ("", None):
             secs.setdefault(item, []).append(float(sec))
