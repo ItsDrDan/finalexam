@@ -1680,8 +1680,8 @@ function vidFor(q){return q?(VIDEO_FOR[q.course+':'+q.t]||VIDEO_FOR[q.t]):null}
 function video(q){q=q||(state.mode==='boss'||state.mode==='blitz'?null:state.q);const v=vidFor(q)||COURSE_VIDEO[state.course];const src=`https://www.youtube.com/embed/${v[0]}?start=${v[1]}&rel=0`;
  $('vidCard').innerHTML=`<small>${vidFor(q)?'🎯 Matched to this topic':'📺 Start here'}</small><b>${esc(v[2])}</b><div class="tip"><a href="https://www.youtube.com/@itsdrdan" target="_blank" rel="noopener">More on the ItsDrDan channel ↗</a></div>`;
  $('player').dataset.want=src;if($('videoPanel').open&&$('player').src!==src&&state.mode!=='boss')$('player').src=src}
-function openVideo(){$('videoPanel').open=true;$('player').src=$('player').dataset.want;$('videoPanel').scrollIntoView({behavior:'smooth',block:'center'})}
-$('videoPanel').addEventListener('toggle',()=>{if($('videoPanel').open&&$('player').src!==$('player').dataset.want)$('player').src=$('player').dataset.want});
+function openVideo(){$('videoPanel').open=true;if($('player').dataset.want)$('player').src=$('player').dataset.want;$('videoPanel').scrollIntoView({behavior:'smooth',block:'center'})}
+$('videoPanel').addEventListener('toggle',()=>{const w=$('player').dataset.want;if($('videoPanel').open&&w&&$('player').src!==w)$('player').src=w});  /* no video picked yet (the first question is still loading): wait */
 /* ---------- reference ---------- */
 function refs(){const c=state.course,one=c[0]==='1';
  $('refBody').innerHTML=`<div class="refcard warn"><b>📋 Exam day</b><div>You get the <b>${C().given}</b>.${GIVEN[c]?' The sheet prints only the <b>less-common</b> equations (listed below). Everyday ones like PV = nRT and M₁V₁ = M₂V₂ are <b>not</b> on it: know those cold.':' No formula sheet, no notes: know your formulas cold.'}</div></div>
