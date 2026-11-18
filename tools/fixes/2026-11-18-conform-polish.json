@@ -1,0 +1,65 @@
+[
+ {
+  "id": "28A-1075",
+  "field": "h",
+  "old": "Go around a chair: on one face the bonds alternate axial, equatorial, axial... Two same-face groups are both equatorial only when they sit on alternate carbons (1,3). What happens for same-face groups on neighboring carbons (1,2) or across the ring (1,4)?",
+  "new": "On one face of a chair, bonds alternate axial and equatorial around the ring. Which relationship (1,2, 1,3 or 1,4) lets two same-face groups both be equatorial?",
+  "why": "New-question polish: hint under 30 words / balanced choice lengths"
+ },
+ {
+  "id": "28A-1077",
+  "field": "h",
+  "old": "First keep only conformations with an H on C3 directly opposite (180°) the Br. Then look at the two CH<sub>3</sub> groups: groups on the same side of the H–C–C–Br line end up <i>cis</i> in the alkene.",
+  "new": "Keep only conformations with an H directly opposite the Br. Groups on the same side of that H–C–C–Br line end up <i>cis</i> in the alkene.",
+  "why": "New-question polish: hint under 30 words / balanced choice lengths"
+ },
+ {
+  "id": "28A-1079",
+  "field": "h",
+  "old": "In <i>cis</i>-1,2, one CH<sub>3</sub> is axial and one equatorial. After a ring flip, how is the new chair related to the old one, and how fast is a ring flip at room temperature?",
+  "new": "In <i>cis</i>-1,2, one CH<sub>3</sub> is axial and one equatorial. How is the ring-flipped chair related to the original, and how fast do the two interconvert at 25 °C?",
+  "why": "New-question polish: hint under 30 words / balanced choice lengths"
+ },
+ {
+  "id": "28A-1080",
+  "field": "h",
+  "old": "Are the two CH<sub>3</sub> bonds parallel to the ring axis (axial)? An axial group on C1 meets the other axial groups on its face: on C3 and on C5. List every axial pair on the top face.",
+  "new": "Decide whether each CH<sub>3</sub> bond is axial (vertical) or equatorial. An axial group on C1 meets the axial groups on C3 and C5 of its face.",
+  "why": "New-question polish: hint under 30 words / balanced choice lengths"
+ },
+ {
+  "id": "28A-1081",
+  "field": "h",
+  "old": "Measure the dihedral angle between the CH<sub>3</sub> (front) and C3 (back). Then imagine swapping the CH<sub>3</sub> into the equatorial spot (where the front H is): what is the new angle to C3?",
+  "new": "Find the dihedral angle between the front CH<sub>3</sub> and C3. Then put the CH<sub>3</sub> where the front H is: what is the new angle to C3?",
+  "why": "New-question polish: hint under 30 words / balanced choice lengths"
+ },
+ {
+  "id": "28A-1081",
+  "field": "c[0]",
+  "old": "The axial CH<sub>3</sub> is gauche to C3 (and, by the same view along C1–C6, to C5): two gauche-butane interactions of about 3.8 kJ/mol each. Equatorial CH<sub>3</sub> is anti to both",
+  "new": "It is gauche to ring carbons C3 and C5: two gauche-butane interactions, about 3.8 kJ/mol each",
+  "why": "New-question polish: hint under 30 words / balanced choice lengths"
+ },
+ {
+  "id": "28A-1081",
+  "field": "c[1]",
+  "old": "The axial CH<sub>3</sub> eclipses the C2–H bond, adding torsional strain that an equatorial CH<sub>3</sub> avoids",
+  "new": "It eclipses the C2–H bond, adding torsional strain that an equatorial CH<sub>3</sub> avoids",
+  "why": "New-question polish: hint under 30 words / balanced choice lengths"
+ },
+ {
+  "id": "28A-1081",
+  "field": "c[2]",
+  "old": "The axial CH<sub>3</sub> is anti to C3 and to C5, and each anti arrangement costs about 3.8 kJ/mol",
+  "new": "It is anti to ring carbons C3 and C5, and each anti arrangement costs about 3.8 kJ/mol",
+  "why": "New-question polish: hint under 30 words / balanced choice lengths"
+ },
+ {
+  "id": "28A-1081",
+  "field": "c[3]",
+  "old": "An axial CH<sub>3</sub> forces C1 out of the chair into a boat, adding angle strain",
+  "new": "It forces C1 out of the chair into a boat shape, adding angle strain to the ring",
+  "why": "New-question polish: hint under 30 words / balanced choice lengths"
+ }
+]

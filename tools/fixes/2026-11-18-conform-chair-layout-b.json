@@ -1,0 +1,30 @@
+[
+ {
+  "id": "28A-1082",
+  "field": "raw",
+  "old": "[3,\"up\",\"CH<sub>3</sub>\"],[4,\"up\",\"OH\"]],\"flip\":false",
+  "new": "[3,\"up\",\"CH<sub>3</sub>\"],[5,\"down\",\"OH\"]],\"flip\":false",
+  "why": "OH to C5 (down) so chair II labels do not collide"
+ },
+ {
+  "id": "28A-1082",
+  "field": "raw",
+  "old": "[3,\"up\",\"CH<sub>3</sub>\"],[4,\"up\",\"OH\"]],\"flip\":true",
+  "new": "[3,\"up\",\"CH<sub>3</sub>\"],[5,\"down\",\"OH\"]],\"flip\":true",
+  "why": "OH to C5 (down) so chair II labels do not collide"
+ },
+ {
+  "id": "28A-1082",
+  "field": "x[3]",
+  "old": "The up/down pattern is the same in I and II (C<sub>6</sub>H<sub>5</sub>, CH<sub>3</sub> and OH all up): they are two conformations of the same stereoisomer, related by a ring flip.",
+  "new": "The up/down pattern is the same in I and II (C<sub>6</sub>H<sub>5</sub> and CH<sub>3</sub> up, OH down): they are two conformations of the same stereoisomer, related by a ring flip.",
+  "why": "match figure"
+ },
+ {
+  "id": "28A-1082",
+  "field": "w",
+  "old": "In chair I the C<sub>6</sub>H<sub>5</sub> and CH<sub>3</sub> groups are axial (strain about 12 + 7.3 ≈ 19 kJ/mol) and OH is equatorial. The ring flip gives II, with C<sub>6</sub>H<sub>5</sub> and CH<sub>3</sub> equatorial and only OH axial (about 3.9 kJ/mol). <b>II is more stable</b>: the large groups prefer the equatorial positions.",
+  "new": "In chair I the C<sub>6</sub>H<sub>5</sub> and CH<sub>3</sub> groups are both axial on the top face, so each meets axial H atoms and they also meet each other across the ring: well over 12 + 7.3 ≈ 19 kJ/mol of strain. OH is equatorial. The ring flip gives II, with C<sub>6</sub>H<sub>5</sub> and CH<sub>3</sub> equatorial and only OH axial (about 3.9 kJ/mol). <b>II is more stable</b>: the large groups prefer the equatorial positions.",
+  "why": "chair I has a C6H5/CH3 1,3-diaxial contact too"
+ }
+]

@@ -1,0 +1,386 @@
+[
+ {
+  "t": "conform",
+  "q": "Which trimethylcyclohexane stereoisomer can adopt a chair conformation with <b>all three</b> CH<sub>3</sub> groups equatorial?",
+  "c": [
+   "1,3,5-Trimethylcyclohexane with all three CH<sub>3</sub> groups on the same face",
+   "1,2,3-Trimethylcyclohexane with all three CH<sub>3</sub> groups on the same face",
+   "1,2,4-Trimethylcyclohexane with all three CH<sub>3</sub> groups on the same face",
+   "1,3,5-Trimethylcyclohexane with one CH<sub>3</sub> group on the opposite face"
+  ],
+  "h": "Go around a chair: on one face the bonds alternate axial, equatorial, axial... Two same-face groups are both equatorial only when they sit on alternate carbons (1,3). What happens for same-face groups on neighboring carbons (1,2) or across the ring (1,4)?",
+  "w": "On one face of a chair, axial and equatorial bonds alternate from carbon to carbon. So two groups on the same face are the same type (both equatorial or both axial) only if they are 1,3 to each other, and opposite types if they are 1,2 or 1,4. In <b>all-cis-1,3,5-trimethylcyclohexane</b> every pair is 1,3, so one chair has all three CH<sub>3</sub> groups equatorial (the other chair has all three axial).",
+  "x": [
+   "",
+   "C1 and C2 are neighbors: two same-face groups there must be one axial and one equatorial, so at least one CH<sub>3</sub> is always axial.",
+   "C1/C2 (neighbors) and C1/C4 (across the ring) on the same face each force one axial and one equatorial group, so no chair has all three equatorial.",
+   "With all three on alternate carbons, every pair must be on the same face to be equatorial together. The odd CH<sub>3</sub> is axial whenever the other two are equatorial."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "t": "conform",
+  "q": "Using the A-values in the table (each is ΔG° for moving the group from equatorial to axial), which chair of <i>cis</i>-1-chloro-4-methylcyclohexane is favored, and by about how much?",
+  "c": [
+   "The chair with CH<sub>3</sub> equatorial and Cl axial, by about 5.3 kJ/mol",
+   "The chair with CH<sub>3</sub> and Cl both equatorial, by about 9.3 kJ/mol",
+   "The chair with Cl equatorial and CH<sub>3</sub> axial, by about 5.3 kJ/mol",
+   "The chair with CH<sub>3</sub> equatorial and Cl axial, by about 7.3 kJ/mol"
+  ],
+  "h": "In a <i>cis</i>-1,4-disubstituted cyclohexane, can both groups be equatorial at once? Write the axial-group cost for each chair, then subtract.",
+  "w": "<i>cis</i>-1,4 means one group is axial and the other equatorial in either chair. Chair 1: CH<sub>3</sub> equatorial, Cl axial, strain ≈ 2.0 kJ/mol. Chair 2: CH<sub>3</sub> axial, Cl equatorial, strain ≈ 7.3 kJ/mol. The chair with <b>CH<sub>3</sub> equatorial and Cl axial is favored by 7.3 − 2.0 ≈ 5.3 kJ/mol</b>.",
+  "x": [
+   "",
+   "Both groups equatorial is the <i>trans</i>-1,4 isomer; in the <i>cis</i> isomer one group is always axial. Adding the A-values is also not how the two chairs compare.",
+   "The difference is right, but it favors the wrong chair: putting the larger group (CH<sub>3</sub>, A = 7.3) axial costs more than putting Cl axial.",
+   "7.3 kJ/mol is the cost of an axial CH<sub>3</sub> alone. The favored chair still has an axial Cl (2.0 kJ/mol), so the gap is 7.3 − 2.0."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Substituent",
+     "A-value (kJ/mol)"
+    ],
+    "rows": [
+     [
+      "CH<sub>3</sub>",
+      "7.3"
+     ],
+     [
+      "Cl",
+      "2.0"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "t": "elim",
+  "q": "Four conformations of 2-bromobutane, viewed along the C2–C3 bond (C2 in front), are shown. E2 needs the departing H and Br to be anti-periplanar. Which conformation leads directly to (<i>E</i>)-but-2-ene?",
+  "c": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "h": "First keep only conformations with an H on C3 directly opposite (180°) the Br. Then look at the two CH<sub>3</sub> groups: groups on the same side of the H–C–C–Br line end up <i>cis</i> in the alkene.",
+  "w": "In I the Br (front, up) and an H (back, down) are anti-periplanar, and the two CH<sub>3</sub> groups lie on opposite sides of that H–C–C–Br plane (front CH<sub>3</sub> lower left, back CH<sub>3</sub> upper right). When the π bond forms, they end up on opposite sides of the C=C: <b>(<i>E</i>)-but-2-ene from I</b>.",
+  "x": [
+   "",
+   "II also has H anti to Br, but both CH<sub>3</sub> groups are on the left side of the H–C–C–Br plane, so they end up <i>cis</i>: this conformation gives (<i>Z</i>)-but-2-ene.",
+   "In III the group anti to Br is CH<sub>3</sub>, not H, so no anti-periplanar E2 toward C3 is possible from this conformation.",
+   "IV is eclipsed: the H behind the Br is syn-periplanar (0°), not anti (180°), so it does not fit the E2 geometry."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "newman",
+    "items": [
+     {
+      "front": [
+       "Br",
+       "CH<sub>3</sub>",
+       "H"
+      ],
+      "back": [
+       "CH<sub>3</sub>",
+       "H",
+       "H"
+      ],
+      "rot": 60,
+      "cap": "I"
+     },
+     {
+      "front": [
+       "Br",
+       "CH<sub>3</sub>",
+       "H"
+      ],
+      "back": [
+       "H",
+       "CH<sub>3</sub>",
+       "H"
+      ],
+      "rot": 60,
+      "cap": "II"
+     },
+     {
+      "front": [
+       "Br",
+       "CH<sub>3</sub>",
+       "H"
+      ],
+      "back": [
+       "H",
+       "H",
+       "CH<sub>3</sub>"
+      ],
+      "rot": 60,
+      "cap": "III"
+     },
+     {
+      "front": [
+       "Br",
+       "CH<sub>3</sub>",
+       "H"
+      ],
+      "back": [
+       "H",
+       "CH<sub>3</sub>",
+       "H"
+      ],
+      "rot": 0,
+      "cap": "IV"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "stereo",
+  "q": "The Newman projection shows one conformation of a 2,3-dibromobutane stereoisomer, viewed along the C2–C3 bond. Which stereoisomer is it?",
+  "c": [
+   "<i>meso</i>-2,3-Dibromobutane (2<i>R</i>,3<i>S</i>)",
+   "(2<i>R</i>,3<i>R</i>)-2,3-Dibromobutane",
+   "(2<i>S</i>,3<i>S</i>)-2,3-Dibromobutane",
+   "It cannot be told from a staggered conformation"
+  ],
+  "h": "Compare each front group with the back group 180° from it. If every front group has an identical partner directly opposite, what symmetry element does this conformation have?",
+  "w": "Br is anti to Br, CH<sub>3</sub> is anti to CH<sub>3</sub>, and H is anti to H. Every group has an identical partner through the midpoint of the C2–C3 bond, so this conformation has a <b>center of inversion</b> and is achiral. An achiral molecule with two chirality centers is <b><i>meso</i>-2,3-dibromobutane (2<i>R</i>,3<i>S</i>)</b>. In the chiral (<i>R</i>,<i>R</i>) or (<i>S</i>,<i>S</i>) isomer, putting Br anti to Br leaves the two CH<sub>3</sub> groups gauche.",
+  "x": [
+   "",
+   "In (2<i>R</i>,3<i>R</i>), the anti-Br conformation has the CH<sub>3</sub> groups gauche (60°) and a C<sub>2</sub> axis, not a center of inversion. Here they are anti.",
+   "(2<i>S</i>,3<i>S</i>) is the mirror image of (<i>R</i>,<i>R</i>); its anti-Br conformation also has gauche CH<sub>3</sub> groups.",
+   "Configuration does not change on rotation, so any conformation is enough: all six groups are shown, and their arrangement fixes the stereoisomer."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "newman",
+    "front": [
+     "Br",
+     "CH<sub>3</sub>",
+     "H"
+    ],
+    "back": [
+     "CH<sub>3</sub>",
+     "H",
+     "Br"
+    ],
+    "rot": 60
+   }
+  ]
+ },
+ {
+  "t": "conform",
+  "q": "Each chair conformation of <i>cis</i>-1,2-dimethylcyclohexane is chiral, yet a sample of the compound is optically inactive and cannot be resolved into enantiomers. Why?",
+  "c": [
+   "The two chairs are mirror images of each other and interconvert rapidly by ring flipping, so the sample is always a 50:50 mix",
+   "Each chair has an internal mirror plane through C1 and C2, so neither chair is chiral",
+   "Both CH<sub>3</sub> groups are equatorial in the more stable chair, which cancels the rotation of light",
+   "C1 and C2 are not chirality centers, because each carries a CH<sub>3</sub> group and an H"
+  ],
+  "h": "In <i>cis</i>-1,2, one CH<sub>3</sub> is axial and one equatorial. After a ring flip, how is the new chair related to the old one, and how fast is a ring flip at room temperature?",
+  "w": "In one chair, the C1 CH<sub>3</sub> is axial and the C2 CH<sub>3</sub> equatorial; after a ring flip it is the reverse. These two chairs are <b>non-superimposable mirror images</b> of equal energy, and they interconvert by ring flipping about 10<sup>5</sup> times per second at 25 °C, so the sample is always 50:50 and shows no net rotation. The compound behaves as <i>meso</i> (1<i>R</i>,2<i>S</i>), matching its flat drawing, which has a mirror plane.",
+  "x": [
+   "",
+   "A single chair has no mirror plane: one CH<sub>3</sub> is axial and the other equatorial, so the two halves are not reflections of each other.",
+   "In <i>cis</i>-1,2 one CH<sub>3</sub> must be axial and the other equatorial; both-equatorial is the <i>trans</i> isomer. Being equatorial also has nothing to do with optical rotation.",
+   "C1 and C2 each have four different groups (CH<sub>3</sub>, H, and two different ring paths), so both are chirality centers (1<i>R</i>,2<i>S</i>)."
+  ],
+  "k": 0,
+  "d": 3
+ },
+ {
+  "t": "conform",
+  "q": "The chair shows one conformation of <i>cis</i>-1,3-dimethylcyclohexane. Which 1,3-diaxial interactions does it contain, and is it the preferred chair?",
+  "c": [
+   "One CH<sub>3</sub>/CH<sub>3</sub> and two CH<sub>3</sub>/H; it is the less stable chair",
+   "Four CH<sub>3</sub>/H and no CH<sub>3</sub>/CH<sub>3</sub>; it is the less stable chair",
+   "One CH<sub>3</sub>/CH<sub>3</sub> and two CH<sub>3</sub>/H; it is the more stable chair",
+   "None, because both CH<sub>3</sub> groups are equatorial; it is the more stable chair"
+  ],
+  "h": "Are the two CH<sub>3</sub> bonds parallel to the ring axis (axial)? An axial group on C1 meets the other axial groups on its face: on C3 and on C5. List every axial pair on the top face.",
+  "w": "Both CH<sub>3</sub> groups point straight up, so both are <b>axial</b>. On the top face, the axial positions are C1, C3 and C5, giving three 1,3-diaxial pairs: C1/C3 is <b>CH<sub>3</sub>/CH<sub>3</sub></b>, and C1/C5 and C3/C5 are <b>CH<sub>3</sub>/H</b>. The CH<sub>3</sub>/CH<sub>3</sub> contact is severe, so this is the <b>less stable chair</b>; the ring flip puts both CH<sub>3</sub> groups equatorial.",
+  "x": [
+   "",
+   "Four CH<sub>3</sub>/H would be two axial CH<sub>3</sub> groups that do not face each other. Here C1 and C3 are both axial on the same face, so they meet each other directly.",
+   "The count is right, but a chair with two axial CH<sub>3</sub> groups facing each other is far less stable than the diequatorial chair it flips into.",
+   "Both CH<sub>3</sub> bonds are vertical, parallel to the ring axis: that is axial. Equatorial bonds point outward, roughly along the ring's edge."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "chair",
+    "subs": [
+     [
+      1,
+      "up",
+      "CH<sub>3</sub>"
+     ],
+     [
+      3,
+      "up",
+      "CH<sub>3</sub>"
+     ]
+    ],
+    "flip": false,
+    "nums": false
+   }
+  ]
+ },
+ {
+  "t": "conform",
+  "q": "The Newman projection looks along the C1–C2 bond of methylcyclohexane with the CH<sub>3</sub> group axial. Ring carbons C3 and C6 are labeled. Which statement best explains why an axial CH<sub>3</sub> costs about 7.3 kJ/mol?",
+  "c": [
+   "The axial CH<sub>3</sub> is gauche to C3 (and, by the same view along C1–C6, to C5): two gauche-butane interactions of about 3.8 kJ/mol each. Equatorial CH<sub>3</sub> is anti to both",
+   "The axial CH<sub>3</sub> eclipses the C2–H bond, adding torsional strain that an equatorial CH<sub>3</sub> avoids",
+   "The axial CH<sub>3</sub> is anti to C3 and to C5, and each anti arrangement costs about 3.8 kJ/mol",
+   "An axial CH<sub>3</sub> forces C1 out of the chair into a boat, adding angle strain"
+  ],
+  "h": "Measure the dihedral angle between the CH<sub>3</sub> (front) and C3 (back). Then imagine swapping the CH<sub>3</sub> into the equatorial spot (where the front H is): what is the new angle to C3?",
+  "w": "The projection is staggered. The axial CH<sub>3</sub> (up) and ring carbon C3 (back, upper left) are 60° apart: a <b>gauche</b> relationship, just like gauche butane (CH<sub>3</sub>–C1–C2–C3). Viewing along C1–C6 shows a second gauche relationship with C5. Two gauche-butane interactions ≈ 2 × 3.8 = 7.6 kJ/mol, close to the measured 7.3. An equatorial CH<sub>3</sub> (the front H position) is 180° from C3: <b>anti</b>, with no such strain. These gauche interactions are the same contacts usually counted as the two CH<sub>3</sub>/H 1,3-diaxial interactions.",
+  "x": [
+   "",
+   "The projection is staggered: no front bond lines up with a back bond, so there is no eclipsing in a chair.",
+   "Anti arrangements are the low-energy ones. Here the axial CH<sub>3</sub> and C3 are 60° apart (gauche), and it is the equatorial position that is anti.",
+   "A chair with an axial group keeps its chair shape and normal bond angles; the cost is steric (gauche) strain, not a boat."
+  ],
+  "k": 0,
+  "d": 3,
+  "f": [
+   {
+    "type": "newman",
+    "front": [
+     "CH<sub>3</sub>",
+     "C6",
+     "H"
+    ],
+    "back": [
+     "H",
+     "C3",
+     "H"
+    ],
+    "rot": 60
+   }
+  ]
+ },
+ {
+  "t": "conform",
+  "q": "Chairs I and II are the two chair conformations of one stereoisomer of a substituted cyclohexanol. Which is more stable, and why?",
+  "c": [
+   "II, because C<sub>6</sub>H<sub>5</sub> and CH<sub>3</sub> are equatorial and only the small OH is axial",
+   "I, because OH is equatorial, and the most polar group should be equatorial",
+   "Neither: they are equal in energy, because a ring flip does not change the energy",
+   "They cannot be compared, because I and II are different stereoisomers"
+  ],
+  "h": "For each chair, list which groups are axial. Rank the groups by size (A-values: C<sub>6</sub>H<sub>5</sub> about 12, CH<sub>3</sub> 7.3, OH about 3.9 kJ/mol).",
+  "w": "In chair I the C<sub>6</sub>H<sub>5</sub> and CH<sub>3</sub> groups are axial (strain about 12 + 7.3 ≈ 19 kJ/mol) and OH is equatorial. The ring flip gives II, with C<sub>6</sub>H<sub>5</sub> and CH<sub>3</sub> equatorial and only OH axial (about 3.9 kJ/mol). <b>II is more stable</b>: the large groups prefer the equatorial positions.",
+  "x": [
+   "",
+   "Polarity does not decide axial vs equatorial; size does. Making OH equatorial in I forces both larger groups axial.",
+   "A ring flip swaps every axial and equatorial position, so the two chairs place different groups axial and usually differ in energy.",
+   "The up/down pattern is the same in I and II (C<sub>6</sub>H<sub>5</sub> up, CH<sub>3</sub> down, OH up): they are two conformations of the same stereoisomer, related by a ring flip."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "chair",
+    "items": [
+     {
+      "subs": [
+       [
+        1,
+        "up",
+        "C<sub>6</sub>H<sub>5</sub>"
+       ],
+       [
+        2,
+        "down",
+        "CH<sub>3</sub>"
+       ],
+       [
+        4,
+        "up",
+        "OH"
+       ]
+      ],
+      "flip": false,
+      "nums": false,
+      "cap": "I"
+     },
+     {
+      "subs": [
+       [
+        1,
+        "up",
+        "C<sub>6</sub>H<sub>5</sub>"
+       ],
+       [
+        2,
+        "down",
+        "CH<sub>3</sub>"
+       ],
+       [
+        4,
+        "up",
+        "OH"
+       ]
+      ],
+      "flip": true,
+      "nums": false,
+      "cap": "II"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "conform",
+  "q": "Viewed along the C1–C2 bond, 1-bromo-2-chloroethane (BrCH<sub>2</sub>CH<sub>2</sub>Cl) has three staggered conformations. How many <b>different energies</b> do these three conformations have?",
+  "c": [
+   "Two: the anti conformation, and a pair of gauche conformations that are mirror images with equal energy",
+   "Three: the anti conformation and two gauche conformations, each with a different energy",
+   "One: all staggered conformations have the same energy, since none has torsional strain",
+   "Two: the anti conformation and one gauche conformation; the third staggered form is eclipsed"
+  ],
+  "h": "Draw Br on the front carbon pointing up and place Cl at each of the three staggered positions on the back carbon. Are any two of those drawings mirror images?",
+  "w": "With Br fixed up, Cl can be at 180° (<b>anti</b>) or at +60° or −60° (<b>gauche</b>). The two gauche conformations are non-superimposable mirror images, so they have exactly the same energy. The three staggered conformations therefore have <b>two different energies</b>: anti (lowest, Br and Cl far apart) and the gauche pair.",
+  "x": [
+   "",
+   "Mirror-image conformations always have equal energy, so the two gauche conformations cannot differ.",
+   "Staggered conformations have no torsional strain, but gauche conformations still have steric strain from Br and Cl being 60° apart, so they lie above anti.",
+   "Rotating by 120° from one staggered conformation always gives another staggered one; all three positions for Cl are staggered."
+  ],
+  "k": 0,
+  "d": 2
+ },
+ {
+  "t": "conform",
+  "q": "Which statements about cyclohexane chair conformations are correct?<br>I. A ring flip turns every axial position into an equatorial one but does not move any substituent from the top face to the bottom face.<br>II. <i>trans</i>-1,4-Dimethylcyclohexane is most stable in its diaxial chair, because the CH<sub>3</sub> groups are farthest apart.<br>III. A <i>tert</i>-butyl group so strongly prefers the equatorial position that it effectively holds the ring in one chair.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "Judge each statement on its own. For II, remember that every axial group meets two axial H atoms on its own face, however far it is from the other substituent.",
+  "w": "I is true: no bonds break in a ring flip, so up stays up. II is false: the diaxial chair has four CH<sub>3</sub>/H 1,3-diaxial interactions (about 15 kJ/mol); the diequatorial chair has none and is strongly preferred. III is true: an axial <i>tert</i>-butyl costs about 21 kJ/mol, so more than 99.9% of molecules keep it equatorial. Correct: <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true: the A-value of <i>tert</i>-butyl (about 21 kJ/mol) is large enough to hold one chair.",
+   "Statement II is false: distance between the CH<sub>3</sub> groups does not help when each axial CH<sub>3</sub> clashes with axial H atoms; the diequatorial chair is more stable.",
+   "Statement II is false: <i>trans</i>-1,4-dimethylcyclohexane prefers the diequatorial chair by about 15 kJ/mol."
+  ],
+  "k": 0,
+  "d": 2
+ }
+]

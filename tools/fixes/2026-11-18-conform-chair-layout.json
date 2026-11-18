@@ -1,0 +1,23 @@
+[
+ {
+  "id": "28A-1082",
+  "field": "raw",
+  "old": "[2,\"down\",\"CH<sub>3</sub>\"],[4,\"up\",\"OH\"]],\"flip\":false",
+  "new": "[3,\"up\",\"CH<sub>3</sub>\"],[4,\"up\",\"OH\"]],\"flip\":false",
+  "why": "Move CH3 to C3 so chair II labels do not crowd on a phone"
+ },
+ {
+  "id": "28A-1082",
+  "field": "raw",
+  "old": "[2,\"down\",\"CH<sub>3</sub>\"],[4,\"up\",\"OH\"]],\"flip\":true",
+  "new": "[3,\"up\",\"CH<sub>3</sub>\"],[4,\"up\",\"OH\"]],\"flip\":true",
+  "why": "second chair item"
+ },
+ {
+  "id": "28A-1082",
+  "field": "x[3]",
+  "old": "The up/down pattern is the same in I and II (C<sub>6</sub>H<sub>5</sub> up, CH<sub>3</sub> down, OH up): they are two conformations of the same stereoisomer, related by a ring flip.",
+  "new": "The up/down pattern is the same in I and II (C<sub>6</sub>H<sub>5</sub>, CH<sub>3</sub> and OH all up): they are two conformations of the same stereoisomer, related by a ring flip.",
+  "why": "match new figure"
+ }
+]
