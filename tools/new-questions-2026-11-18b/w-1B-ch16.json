@@ -1,0 +1,1786 @@
+[
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 2,
+  "q": "The graph traces part of a radioactive decay series on a plot of neutron number against proton number. It starts at neptunium-237 (A) and passes through B, C, D and E to F. What is nuclide F?",
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Number of protons (Z)",
+     "min": 86,
+     "max": 94,
+     "ticks": [
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
+     ]
+    },
+    "y": {
+     "label": "Number of neutrons (N)",
+     "min": 134,
+     "max": 146,
+     "ticks": [
+      134,
+      136,
+      138,
+      140,
+      142,
+      144,
+      146
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        93,
+        144
+       ],
+       [
+        91,
+        142
+       ],
+       [
+        92,
+        141
+       ],
+       [
+        90,
+        139
+       ],
+       [
+        88,
+        137
+       ],
+       [
+        89,
+        136
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "points": [
+     [
+      93,
+      144,
+      "A",
+      8,
+      -6
+     ],
+     [
+      91,
+      142,
+      "B",
+      8,
+      -6
+     ],
+     [
+      92,
+      141,
+      "C",
+      8,
+      -6
+     ],
+     [
+      90,
+      139,
+      "D",
+      8,
+      -6
+     ],
+     [
+      88,
+      137,
+      "E",
+      8,
+      -6
+     ],
+     [
+      89,
+      136,
+      "F",
+      8,
+      -6
+     ]
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "c": [
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>225</sup><sub>89</sub></span>Ac</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>225</sup><sub>88</sub></span>Ra</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>226</sup><sub>89</sub></span>Ac</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>221</sup><sub>87</sub></span>Fr</span>"
+  ],
+  "h": "Read Z and N for point F from the axes. The mass number is A = Z + N, and Z identifies the element.",
+  "w": "Point F sits at Z = 89 and N = 136, so A = 89 + 136 = 225, and Z = 89 is actinium: <b><span class=\"nw\"><span class=\"ss pre\"><sup>225</sup><sub>89</sub></span>Ac</span></b>. The path shows A → B and C → D → E as α steps (Z and N each drop by 2) and B → C and E → F as β<sup>−</sup> steps (one neutron becomes a proton). <span class=\"nw\"><span class=\"ss pre\"><sup>225</sup><sub>88</sub></span>Ra</span> is point E, A = 226 comes from adding Z and the N of E, and <span class=\"nw\"><span class=\"ss pre\"><sup>221</sup><sub>87</sub></span>Fr</span> would be one more α step.",
+  "x": [
+   "",
+   "This is point E. The last step raises Z by one, which is a β⁻ decay.",
+   "Recheck the mass number. A is Z plus N for point F itself.",
+   "That would follow from one more alpha decay after F. Read F’s own coordinates."
+  ]
+ },
+ {
+  "k": 1,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 3,
+  "q": "The natural logarithm of the activity of a radioactive sample (in counts per minute) is plotted against time. What is the half-life of the isotope?",
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (min)",
+     "min": 0,
+     "max": 100,
+     "ticks": [
+      0,
+      20,
+      40,
+      60,
+      80,
+      100
+     ]
+    },
+    "y": {
+     "label": "ln(activity)",
+     "min": 6.5,
+     "max": 9.5,
+     "ticks": [
+      6.5,
+      7,
+      7.5,
+      8,
+      8.5,
+      9,
+      9.5
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        9.2103
+       ],
+       [
+        10,
+        8.9793
+       ],
+       [
+        20,
+        8.7483
+       ],
+       [
+        30,
+        8.5173
+       ],
+       [
+        40,
+        8.2863
+       ],
+       [
+        50,
+        8.0553
+       ],
+       [
+        60,
+        7.8243
+       ],
+       [
+        70,
+        7.5933
+       ],
+       [
+        80,
+        7.3623
+       ],
+       [
+        90,
+        7.1313
+       ],
+       [
+        100,
+        6.9003
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "points": [
+     [
+      0,
+      9.21,
+      "9.21",
+      6,
+      -8
+     ],
+     [
+      100,
+      6.9,
+      "6.90",
+      -30,
+      -8
+     ]
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "c": [
+   "30 min",
+   "43 min",
+   "15 min",
+   "60 min"
+  ],
+  "h": "Radioactive decay is first order, so ln(activity) vs time is a straight line whose slope is −k. Then t<sub>1/2</sub> = 0.693/k.",
+  "w": "Slope = (6.90 − 9.21)/(100 − 0) min = −0.0231 min<sup>−1</sup>, so k = 0.0231 min<sup>−1</sup> and t<sub>1/2</sub> = 0.693/0.0231 = <b>30 min</b>. 43 min is 1/k (it leaves out ln 2), 15 min is half of the half-life, and 60 min is the time for the activity to fall to one quarter.",
+  "x": [
+   "",
+   "This is 1/k. The half-life is ln 2 divided by k.",
+   "At 15 min ln(activity) has dropped by only about 0.35, not by ln 2 (0.693).",
+   "By this time ln(activity) has dropped by about 1.39, which is two half-lives."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 2,
+  "q": "The graph shows the number of undecayed atoms in two radioactive samples, X and Y, that each start with 1000 atoms. Which statements are true?<br>I. X has the shorter half-life.<br>II. At t = 0, sample X has the greater activity.<br>III. After 6 h, sample Y has four times as many undecayed atoms as sample X.",
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (h)",
+     "min": 0,
+     "max": 12,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12
+     ]
+    },
+    "y": {
+     "label": "Undecayed atoms",
+     "min": 0,
+     "max": 1000,
+     "ticks": [
+      0,
+      250,
+      500,
+      750,
+      1000
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        1000
+       ],
+       [
+        0.5,
+        840.9
+       ],
+       [
+        1,
+        707.11
+       ],
+       [
+        1.5,
+        594.6
+       ],
+       [
+        2,
+        500
+       ],
+       [
+        2.5,
+        420.45
+       ],
+       [
+        3,
+        353.55
+       ],
+       [
+        3.5,
+        297.3
+       ],
+       [
+        4,
+        250
+       ],
+       [
+        4.5,
+        210.22
+       ],
+       [
+        5,
+        176.78
+       ],
+       [
+        5.5,
+        148.65
+       ],
+       [
+        6,
+        125
+       ],
+       [
+        6.5,
+        105.11
+       ],
+       [
+        7,
+        88.39
+       ],
+       [
+        7.5,
+        74.33
+       ],
+       [
+        8,
+        62.5
+       ],
+       [
+        8.5,
+        52.56
+       ],
+       [
+        9,
+        44.19
+       ],
+       [
+        9.5,
+        37.16
+       ],
+       [
+        10,
+        31.25
+       ],
+       [
+        10.5,
+        26.28
+       ],
+       [
+        11,
+        22.1
+       ],
+       [
+        11.5,
+        18.58
+       ],
+       [
+        12,
+        15.63
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        0,
+        1000
+       ],
+       [
+        0.5,
+        943.87
+       ],
+       [
+        1,
+        890.9
+       ],
+       [
+        1.5,
+        840.9
+       ],
+       [
+        2,
+        793.7
+       ],
+       [
+        2.5,
+        749.15
+       ],
+       [
+        3,
+        707.11
+       ],
+       [
+        3.5,
+        667.42
+       ],
+       [
+        4,
+        629.96
+       ],
+       [
+        4.5,
+        594.6
+       ],
+       [
+        5,
+        561.23
+       ],
+       [
+        5.5,
+        529.73
+       ],
+       [
+        6,
+        500
+       ],
+       [
+        6.5,
+        471.94
+       ],
+       [
+        7,
+        445.45
+       ],
+       [
+        7.5,
+        420.45
+       ],
+       [
+        8,
+        396.85
+       ],
+       [
+        8.5,
+        374.58
+       ],
+       [
+        9,
+        353.55
+       ],
+       [
+        9.5,
+        333.71
+       ],
+       [
+        10,
+        314.98
+       ],
+       [
+        10.5,
+        297.3
+       ],
+       [
+        11,
+        280.62
+       ],
+       [
+        11.5,
+        264.87
+       ],
+       [
+        12,
+        250
+       ]
+      ]
+     }
+    ],
+    "points": [
+     [
+      2,
+      500,
+      "X",
+      6,
+      -6
+     ],
+     [
+      6,
+      500,
+      "Y",
+      6,
+      -6
+     ]
+    ],
+    "grid": true
+   }
+  ],
+  "c": [
+   "I, II and III",
+   "I only",
+   "I and II only",
+   "I and III only"
+  ],
+  "h": "Read each half-life where the curve crosses 500 atoms. Activity = kN, and k is larger for the shorter half-life.",
+  "w": "I is true: X reaches 500 atoms at 2 h, Y at 6 h. II is true: both start with 1000 atoms, and activity = kN with k = 0.693/t<sub>1/2</sub>, so X (larger k) decays three times as fast at t = 0. III is true: after 6 h, X has gone through 3 half-lives (125 atoms) and Y through 1 (500 atoms), a ratio of 4. Answer: <b>I, II and III</b>.",
+  "x": [
+   "",
+   "Statements II and III are also true. Equal numbers of atoms decay faster when the half-life is shorter, and read both curves at 6 h.",
+   "Statement III is also true. Read both curves at 6 h and compare.",
+   "Statement II is also true. With the same number of atoms, the shorter half-life means more decays per second."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 2,
+  "q": "The shaded area is the band of stability on a plot of neutrons versus protons; the gray line is N = Z. Nuclide R (calcium-54: Z = 20, N = 34) is marked. Which equation shows its most likely mode of decay?",
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Number of protons (Z)",
+     "min": 0,
+     "max": 50,
+     "ticks": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50
+     ]
+    },
+    "y": {
+     "label": "Number of neutrons (N)",
+     "min": 0,
+     "max": 70,
+     "ticks": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0
+       ],
+       [
+        50,
+        50
+       ]
+      ],
+      "color": "#7a8b96"
+     }
+    ],
+    "regions": [
+     {
+      "pts": [
+       [
+        1,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        3,
+        0.8
+       ],
+       [
+        4,
+        1.8
+       ],
+       [
+        5,
+        2.8
+       ],
+       [
+        6,
+        3.8
+       ],
+       [
+        7,
+        4.8
+       ],
+       [
+        8,
+        5.8
+       ],
+       [
+        9,
+        6.9
+       ],
+       [
+        10,
+        7.9
+       ],
+       [
+        11,
+        9
+       ],
+       [
+        12,
+        10.1
+       ],
+       [
+        13,
+        11.2
+       ],
+       [
+        14,
+        12.3
+       ],
+       [
+        15,
+        13.4
+       ],
+       [
+        16,
+        14.6
+       ],
+       [
+        17,
+        15.7
+       ],
+       [
+        18,
+        16.9
+       ],
+       [
+        19,
+        18.1
+       ],
+       [
+        20,
+        19.3
+       ],
+       [
+        21,
+        20.5
+       ],
+       [
+        22,
+        21.8
+       ],
+       [
+        23,
+        23
+       ],
+       [
+        24,
+        24.3
+       ],
+       [
+        25,
+        25.6
+       ],
+       [
+        26,
+        26.9
+       ],
+       [
+        27,
+        28.2
+       ],
+       [
+        28,
+        29.5
+       ],
+       [
+        29,
+        30.8
+       ],
+       [
+        30,
+        32.2
+       ],
+       [
+        31,
+        33.5
+       ],
+       [
+        32,
+        34.9
+       ],
+       [
+        33,
+        36.3
+       ],
+       [
+        34,
+        37.7
+       ],
+       [
+        35,
+        39.1
+       ],
+       [
+        36,
+        40.6
+       ],
+       [
+        37,
+        42
+       ],
+       [
+        38,
+        43.5
+       ],
+       [
+        39,
+        45
+       ],
+       [
+        40,
+        46.5
+       ],
+       [
+        41,
+        48
+       ],
+       [
+        42,
+        49.5
+       ],
+       [
+        43,
+        51.1
+       ],
+       [
+        44,
+        52.6
+       ],
+       [
+        45,
+        54.2
+       ],
+       [
+        46,
+        55.8
+       ],
+       [
+        47,
+        57.4
+       ],
+       [
+        48,
+        59
+       ],
+       [
+        49,
+        60.6
+       ],
+       [
+        50,
+        62.3
+       ],
+       [
+        50,
+        74.3
+       ],
+       [
+        49,
+        72.4
+       ],
+       [
+        48,
+        70.7
+       ],
+       [
+        47,
+        68.9
+       ],
+       [
+        46,
+        67.1
+       ],
+       [
+        45,
+        65.4
+       ],
+       [
+        44,
+        63.7
+       ],
+       [
+        43,
+        61.9
+       ],
+       [
+        42,
+        60.2
+       ],
+       [
+        41,
+        58.6
+       ],
+       [
+        40,
+        56.9
+       ],
+       [
+        39,
+        55.2
+       ],
+       [
+        38,
+        53.6
+       ],
+       [
+        37,
+        52
+       ],
+       [
+        36,
+        50.3
+       ],
+       [
+        35,
+        48.7
+       ],
+       [
+        34,
+        47.2
+       ],
+       [
+        33,
+        45.6
+       ],
+       [
+        32,
+        44
+       ],
+       [
+        31,
+        42.5
+       ],
+       [
+        30,
+        41
+       ],
+       [
+        29,
+        39.5
+       ],
+       [
+        28,
+        38
+       ],
+       [
+        27,
+        36.5
+       ],
+       [
+        26,
+        35
+       ],
+       [
+        25,
+        33.6
+       ],
+       [
+        24,
+        32.1
+       ],
+       [
+        23,
+        30.7
+       ],
+       [
+        22,
+        29.3
+       ],
+       [
+        21,
+        27.9
+       ],
+       [
+        20,
+        26.5
+       ],
+       [
+        19,
+        25.2
+       ],
+       [
+        18,
+        23.8
+       ],
+       [
+        17,
+        22.5
+       ],
+       [
+        16,
+        21.1
+       ],
+       [
+        15,
+        19.8
+       ],
+       [
+        14,
+        18.6
+       ],
+       [
+        13,
+        17.3
+       ],
+       [
+        12,
+        16
+       ],
+       [
+        11,
+        14.8
+       ],
+       [
+        10,
+        13.5
+       ],
+       [
+        9,
+        12.3
+       ],
+       [
+        8,
+        11.1
+       ],
+       [
+        7,
+        9.9
+       ],
+       [
+        6,
+        8.7
+       ],
+       [
+        5,
+        7.6
+       ],
+       [
+        4,
+        6.4
+       ],
+       [
+        3,
+        5.3
+       ],
+       [
+        2,
+        4.2
+       ],
+       [
+        1,
+        3.1
+       ]
+      ],
+      "fill": "#cfe3f3",
+      "label": "stable",
+      "at": [
+       38,
+       50
+      ]
+     }
+    ],
+    "points": [
+     [
+      20,
+      34,
+      "R",
+      -16,
+      -6
+     ]
+    ],
+    "mono": true
+   }
+  ],
+  "c": [
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>54</sup><sub>20</sub></span>Ca</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>54</sup><sub>21</sub></span>Sc</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>54</sup><sub>20</sub></span>Ca</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>54</sup><sub>19</sub></span>K</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>54</sup><sub>20</sub></span>Ca</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>50</sup><sub>18</sub></span>Ar</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>54</sup><sub>20</sub></span>Ca</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>54</sup><sub>19</sub></span>K</span>"
+  ],
+  "h": "R lies above the band, so its neutron-to-proton ratio is too high. Which process turns a neutron into a proton?",
+  "w": "R sits above the band (too many neutrons for 20 protons). β<sup>−</sup> emission converts a neutron into a proton, lowering N by 1 and raising Z by 1, which moves R toward the band: <b><span class=\"nw\"><span class=\"ss pre\"><sup>54</sup><sub>20</sub></span>Ca</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>54</sup><sub>21</sub></span>Sc</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e</span></b>. Positron emission and electron capture both turn a proton into a neutron, which suits nuclides below the band, and α emission is typical of heavy nuclides with Z &gt; 83.",
+  "x": [
+   "",
+   "Positron emission turns a proton into a neutron, which would raise the already high neutron to proton ratio.",
+   "Alpha decay is typical of very heavy nuclides, beyond about Z = 83. Calcium is far lighter.",
+   "Electron capture turns a proton into a neutron, which suits nuclides below the band, not above it."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 1,
+  "q": "The boxes show the particles of a nucleus before and after it decays (red = proton, gray = neutron, small blue = electron). What type of decay is shown?",
+  "f": [
+   {
+    "type": "particles",
+    "seed": 1601,
+    "arrow": true,
+    "key": {
+     "p": {
+      "c": "#e0675a",
+      "n": "proton",
+      "q": "+",
+      "r": 9
+     },
+     "n": {
+      "c": "#9aa8b2",
+      "n": "neutron",
+      "r": 9
+     },
+     "e": {
+      "c": "#3b82b4",
+      "n": "electron",
+      "q": "−",
+      "r": 6
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Before",
+      "mols": [
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ]
+      ]
+     },
+     {
+      "cap": "After",
+      "mols": [
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "e"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "c": [
+   "β<sup>−</sup> (beta) emission",
+   "positron emission",
+   "electron capture",
+   "α (alpha) emission"
+  ],
+  "h": "Count protons and neutrons in each box, and note whether a particle appears or disappears.",
+  "w": "Before: 5 protons and 7 neutrons (boron-12). After: 6 protons, 6 neutrons and an emitted electron. A neutron turned into a proton and an electron, the mass number stayed at 12, and Z rose by 1 (boron-12 → carbon-12): <b>β<sup>−</sup> emission</b>. Positron emission and electron capture both lower Z, and α emission removes 2 protons and 2 neutrons.",
+  "x": [
+   "",
+   "Positron emission turns a proton into a neutron. Here the number of protons went up.",
+   "In electron capture an electron is absorbed and Z drops. Here an electron appears and Z rises.",
+   "Alpha emission removes two protons and two neutrons together. The nucleon total here is still 12."
+  ]
+ },
+ {
+  "k": 1,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 2,
+  "q": "The boxes show a sample of a radioactive isotope at t = 0 and 10.0 minutes later (purple = radioactive parent atom, yellow = stable daughter atom). What is the half-life of the parent isotope?",
+  "f": [
+   {
+    "type": "particles",
+    "seed": 1602,
+    "arrow": true,
+    "key": {
+     "P": {
+      "c": "#9b7fd1",
+      "n": "parent"
+     },
+     "D": {
+      "c": "#f2c14e",
+      "n": "daughter"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "t = 0",
+      "mols": [
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ]
+      ]
+     },
+     {
+      "cap": "t = 10.0 min",
+      "mols": [
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "D"
+       ],
+       [
+        "D"
+       ],
+       [
+        "D"
+       ],
+       [
+        "D"
+       ],
+       [
+        "D"
+       ],
+       [
+        "D"
+       ],
+       [
+        "D"
+       ],
+       [
+        "D"
+       ],
+       [
+        "D"
+       ],
+       [
+        "D"
+       ],
+       [
+        "D"
+       ],
+       [
+        "D"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "c": [
+   "5.0 min",
+   "10.0 min",
+   "2.5 min",
+   "6.7 min"
+  ],
+  "h": "Find the fraction of parent atoms left, then how many halvings produce that fraction.",
+  "w": "Parent atoms fall from 16 to 4, one quarter of the original. 16 → 8 → 4 is two half-lives, so 2 t<sub>1/2</sub> = 10.0 min and t<sub>1/2</sub> = <b>5.0 min</b>. 10.0 min would leave 8 parent atoms, and 6.7 min assumes the atoms decay at a constant (linear) rate instead of halving.",
+  "x": [
+   "",
+   "After one half-life 8 parent atoms would remain. Only 4 are left.",
+   "After 10.0 min this would be four half-lives, leaving only 1 parent atom.",
+   "Radioactive decay halves the amount each half-life rather than removing the same number per minute."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 2,
+  "q": "A heavy element was first made by firing iron-58 nuclei at a bismuth-209 target, as shown. One neutron is released. What is the product nucleus?",
+  "f": [
+   {
+    "type": "eq",
+    "text": "<span class=\"nw\"><span class=\"ss pre\"><sup>209</sup><sub>83</sub></span>Bi</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>58</sup><sub>26</sub></span>Fe</span> → ? + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span>"
+   }
+  ],
+  "c": [
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>266</sup><sub>109</sub></span>Mt</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>267</sup><sub>109</sub></span>Mt</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>266</sup><sub>110</sub></span>Ds</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>266</sup><sub>108</sub></span>Hs</span>"
+  ],
+  "h": "Mass numbers (top) and atomic numbers (bottom) must each add up to the same total on both sides.",
+  "w": "Mass: 209 + 58 = 267 = A + 1, so A = 266. Atomic number: 83 + 26 = 109 = Z + 0, so Z = 109, meitnerium: <b><span class=\"nw\"><span class=\"ss pre\"><sup>266</sup><sub>109</sub></span>Mt</span></b>. A = 267 forgets the neutron; Z = 110 or 108 would leave the atomic numbers unbalanced.",
+  "x": [
+   "",
+   "This forgets the neutron that leaves, which carries one unit of mass number.",
+   "Recheck the atomic numbers: 83 plus 26 does not give 110.",
+   "Recheck the atomic numbers: a neutron has Z = 0, so no protons are lost."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 2,
+  "q": "A sample of a medical radioisotope gives the activities in the first table. Which isotope in the second table is it most likely to be?",
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Time (h)",
+     "Activity (counts/min)"
+    ],
+    "rows": [
+     [
+      "0.0",
+      "800"
+     ],
+     [
+      "3.0",
+      "566"
+     ],
+     [
+      "6.0",
+      "400"
+     ],
+     [
+      "9.0",
+      "283"
+     ],
+     [
+      "12.0",
+      "200"
+     ]
+    ],
+    "cap": "Measured activity"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Isotope",
+     "Half-life"
+    ],
+    "rows": [
+     [
+      "fluorine-18",
+      "1.83 h"
+     ],
+     [
+      "technetium-99m",
+      "6.0 h"
+     ],
+     [
+      "iodine-123",
+      "13.2 h"
+     ],
+     [
+      "sodium-24",
+      "15.0 h"
+     ]
+    ],
+    "cap": "Candidate isotopes"
+   }
+  ],
+  "c": [
+   "technetium-99m",
+   "iodine-123",
+   "fluorine-18",
+   "sodium-24"
+  ],
+  "h": "Find the time it takes the activity to drop to half of its starting value.",
+  "w": "The activity falls from 800 to 400 counts/min in 6.0 h, and to 200 (one quarter) at 12.0 h, so t<sub>1/2</sub> = 6.0 h: <b>technetium-99m</b>. 12 h is two half-lives, not one, so iodine-123 does not fit; fluorine-18 would have dropped to almost nothing by 12 h, and sodium-24 would still be above 400 at 12 h.",
+  "x": [
+   "",
+   "At 12 h the activity is one quarter of the start, which is two half-lives, not one.",
+   "With a 1.83 h half-life the activity would fall to about 26 counts/min in 9 h.",
+   "With a 15 h half-life the activity would still be above 400 counts/min after 12 h."
+  ]
+ },
+ {
+  "k": 1,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 3,
+  "q": "The box represents the uranium and lead atoms in a tiny crystal of zircon. Assume the crystal contained no lead when it formed, so all of the lead-206 came from uranium-238 decay (t<sub>1/2</sub> = 4.47×10<sup>9</sup> yr). How old is the crystal?",
+  "f": [
+   {
+    "type": "particles",
+    "seed": 1603,
+    "key": {
+     "U": {
+      "c": "#5aa469",
+      "n": "uranium-238"
+     },
+     "L": {
+      "c": "#555",
+      "n": "lead-206"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Zircon crystal today",
+      "mols": [
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "U"
+       ],
+       [
+        "L"
+       ],
+       [
+        "L"
+       ],
+       [
+        "L"
+       ],
+       [
+        "L"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "c": [
+   "1.44×10<sup>9</sup> yr",
+   "1.86×10<sup>9</sup> yr",
+   "1.12×10<sup>9</sup> yr",
+   "8.94×10<sup>9</sup> yr"
+  ],
+  "h": "Each Pb-206 atom was once a U-238 atom. Find the original number of U atoms, the fraction remaining, and use ln(N<sub>0</sub>/N) = kt.",
+  "w": "The box has 16 U and 4 Pb atoms, so the crystal began with 20 U atoms and 16/20 = 0.800 remain. k = 0.693/(4.47×10<sup>9</sup> yr) = 1.55×10<sup>−10</sup> yr<sup>−1</sup>; t = ln(20/16)/k = 0.223/1.55×10<sup>−10</sup> = <b>1.44×10<sup>9</sup> yr</b> (1.439e+9). 1.86×10<sup>9</sup> yr takes 75% (12 of 16) as the fraction left, 1.12×10<sup>9</sup> yr treats decay as linear, and 8.94×10<sup>9</sup> yr is two half-lives.",
+  "x": [
+   "",
+   "The 16 uranium atoms are what remain of 20 original atoms, so the fraction left is 16 out of 20.",
+   "Radioactive decay is exponential, so the time is not simply proportional to the fraction decayed.",
+   "Two half-lives would leave only a quarter of the uranium. Most of the uranium is still present."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 2,
+  "q": "Which of these nuclear equations represent nuclear fission?<br>I. <span class=\"nw\"><span class=\"ss pre\"><sup>2</sup><sub>1</sub></span>H</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>3</sup><sub>1</sub></span>H</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span><br>II. <span class=\"nw\"><span class=\"ss pre\"><sup>239</sup><sub>94</sub></span>Pu</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>134</sup><sub>54</sub></span>Xe</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>103</sup><sub>40</sub></span>Zr</span> + 3 <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span><br>III. <span class=\"nw\"><span class=\"ss pre\"><sup>241</sup><sub>95</sub></span>Am</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>237</sup><sub>93</sub></span>Np</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span>",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Fission splits a heavy nucleus into two medium-sized nuclei, usually after it absorbs a neutron. Emitting a small particle is ordinary radioactive decay.",
+  "w": "I is not fission: two very light nuclei join, which is fusion. II is fission: plutonium-239 absorbs a neutron and splits into two mid-sized nuclei (Xe and Zr) plus 3 neutrons (mass 240 = 134 + 103 + 3; charge 94 = 54 + 40). III is not fission: americium-241 emits a small α particle, which is α decay. Answer: <b>II only</b>.",
+  "x": [
+   "",
+   "Equation I joins two light nuclei, which is fusion, the opposite of fission.",
+   "Equation III is alpha decay. A helium nucleus leaves, but the nucleus is not split into two mid-sized pieces.",
+   "Equations I and III are fusion and alpha decay. Only one equation splits a heavy nucleus."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 1,
+  "q": "Smoke detectors contain americium-241, which decays by emitting alpha particles. Which equation correctly shows this decay?",
+  "c": [
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>241</sup><sub>95</sub></span>Am</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>237</sup><sub>93</sub></span>Np</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>241</sup><sub>95</sub></span>Am</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>237</sup><sub>91</sub></span>Pa</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>241</sup><sub>95</sub></span>Am</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>241</sup><sub>96</sub></span>Cm</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>241</sup><sub>95</sub></span>Am</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>245</sup><sub>97</sub></span>Bk</span>"
+  ],
+  "h": "An alpha particle is a helium-4 nucleus, with mass number 4 and atomic number 2. It leaves the nucleus.",
+  "w": "Emitting <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span> lowers the mass number by 4 (241 → 237) and the atomic number by 2 (95 → 93, neptunium): <b><span class=\"nw\"><span class=\"ss pre\"><sup>241</sup><sub>95</sub></span>Am</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>237</sup><sub>93</sub></span>Np</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>4</sup><sub>2</sub></span>He</span></b>. Subtracting 4 from Z gives Pa and unbalances the charges, the Cm equation is β<sup>−</sup> decay, and the Bk equation absorbs an α particle instead of emitting one.",
+  "x": [
+   "",
+   "The alpha particle carries 2 protons, not 4. Check that the atomic numbers balance.",
+   "This equation emits an electron, which is beta decay, not alpha decay.",
+   "Here the alpha particle is absorbed. In alpha decay it is emitted."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 2,
+  "q": "The boxes show the particles of an oxygen-15 nucleus before and after it decays (red = proton, gray = neutron, small yellow = the particle released). Which nuclear equation matches the drawing?",
+  "f": [
+   {
+    "type": "particles",
+    "seed": 1604,
+    "arrow": true,
+    "key": {
+     "p": {
+      "c": "#e0675a",
+      "n": "proton",
+      "q": "+",
+      "r": 9
+     },
+     "n": {
+      "c": "#9aa8b2",
+      "n": "neutron",
+      "r": 9
+     },
+     "b": {
+      "c": "#f2c14e",
+      "n": "released particle",
+      "q": "+",
+      "r": 6
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Before",
+      "mols": [
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ]
+      ]
+     },
+     {
+      "cap": "After",
+      "mols": [
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "p"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "n"
+       ],
+       [
+        "b"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "c": [
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>15</sup><sub>8</sub></span>O</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>15</sup><sub>7</sub></span>N</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>15</sup><sub>8</sub></span>O</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>15</sup><sub>9</sub></span>F</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>15</sup><sub>8</sub></span>O</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>15</sup><sub>7</sub></span>N</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>15</sup><sub>8</sub></span>O</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>14</sup><sub>7</sub></span>N</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>1</sub></span>H</span>"
+  ],
+  "h": "Count protons and neutrons before and after. The released particle is tiny and positively charged.",
+  "w": "Before: 8 p, 7 n. After: 7 p, 8 n, plus a small positive particle. A proton became a neutron and a positron left the nucleus: <b><span class=\"nw\"><span class=\"ss pre\"><sup>15</sup><sub>8</sub></span>O</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>15</sup><sub>7</sub></span>N</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>+1</sub></span>e</span></b>. β<sup>−</sup> emission would raise Z to 9, electron capture absorbs a particle instead of releasing one, and proton emission would leave 7 p and 7 n.",
+  "x": [
+   "",
+   "Beta emission turns a neutron into a proton, so Z would rise. In the drawing Z falls from 8 to 7.",
+   "Electron capture absorbs an electron and releases nothing charged. The drawing shows a particle released.",
+   "Losing a proton would leave 7 protons and 7 neutrons. The drawing shows 8 neutrons after the decay."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 3,
+  "q": "The table lists three samples of different radioisotopes. Rank them in order of INCREASING activity (decays per second).",
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Sample",
+     "Amount (mol)",
+     "Half-life"
+    ],
+    "rows": [
+     [
+      "I",
+      "1.0",
+      "10 days"
+     ],
+     [
+      "II",
+      "4.0",
+      "20 days"
+     ],
+     [
+      "III",
+      "0.50",
+      "2.0 days"
+     ]
+    ]
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III",
+   "II &lt; I &lt; III",
+   "III &lt; I &lt; II",
+   "III &lt; II &lt; I"
+  ],
+  "h": "Activity = kN, and k = 0.693/t<sub>1/2</sub>. Compare N/t<sub>1/2</sub> for each sample.",
+  "w": "Activity is proportional to N/t<sub>1/2</sub>: I, 1.0/10 = 0.10; II, 4.0/20 = 0.20; III, 0.50/2.0 = 0.25 (mol per day). So <b>I &lt; II &lt; III</b>. Ranking by half-life alone gives II &lt; I &lt; III, ranking by amount alone gives III &lt; I &lt; II, and the last order treats a longer half-life as more active.",
+  "x": [
+   "",
+   "This ranks by half-life only. Sample II has four times as many atoms as sample I.",
+   "This ranks by amount only. A short half-life makes each atom far more likely to decay.",
+   "A longer half-life means slower decay, so this order runs the wrong way."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "nuclear",
+  "d": 1,
+  "q": "Cobalt-60 for cancer therapy is made by placing cobalt-59 in a nuclear reactor, as shown. What is the missing product?",
+  "f": [
+   {
+    "type": "eq",
+    "text": "<span class=\"nw\"><span class=\"ss pre\"><sup>59</sup><sub>27</sub></span>Co</span> + <span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span> → <span class=\"nw\"><span class=\"ss pre\"><sup>60</sup><sub>27</sub></span>Co</span> + ?"
+   }
+  ],
+  "c": [
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>0</sub></span>γ</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>−1</sub></span>e</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>1</sub></span>H</span>",
+   "<span class=\"nw\"><span class=\"ss pre\"><sup>1</sup><sub>0</sub></span>n</span>"
+  ],
+  "h": "Compare the mass numbers and atomic numbers on the two sides. What is left over for the missing product?",
+  "w": "Mass: 59 + 1 = 60 + A, so A = 0. Atomic number: 27 + 0 = 27 + Z, so Z = 0. A particle with no mass number and no charge is a gamma ray: <b><span class=\"nw\"><span class=\"ss pre\"><sup>0</sup><sub>0</sub></span>γ</span></b>. An electron has Z = −1, a proton has A = 1 and Z = 1, and a neutron has A = 1, so none of them balances.",
+  "x": [
+   "",
+   "An electron carries a −1 charge, which would leave the atomic numbers unbalanced.",
+   "A proton has mass number 1 and atomic number 1. Both sides already balance without it.",
+   "A neutron has mass number 1, which would leave the mass numbers unbalanced."
+  ]
+ }
+]

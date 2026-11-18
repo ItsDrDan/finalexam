@@ -1,0 +1,1580 @@
+[
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 1,
+  "q": "The galvanic cell shown is built from a copper electrode (A) in 1 M Cu<sup>2+</sup> and an aluminum electrode (B) in 1 M Al<sup>3+</sup>. Using the standard reduction potentials in the table, which cell notation describes the cell as it operates spontaneously?",
+  "f": [
+   {
+    "type": "cell",
+    "left": {
+     "metal": "Cu",
+     "sol": "1 M Cu²⁺(aq)",
+     "label": "A",
+     "color": "#c98a5a"
+    },
+    "right": {
+     "metal": "Al",
+     "sol": "1 M Al³⁺(aq)",
+     "label": "B",
+     "color": "#c9ced3"
+    },
+    "volt": "V"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Half-reaction",
+     "E° (V)"
+    ],
+    "rows": [
+     [
+      "Al<sup>3+</sup>(aq) + 3e<sup>−</sup> → Al(s)",
+      "−1.66"
+     ],
+     [
+      "Cu<sup>2+</sup>(aq) + 2e<sup>−</sup> → Cu(s)",
+      "+0.34"
+     ]
+    ],
+    "cap": "Standard reduction potentials, 25 °C"
+   }
+  ],
+  "c": [
+   "Al(s) | Al<sup>3+</sup>(aq) || Cu<sup>2+</sup>(aq) | Cu(s)",
+   "Cu(s) | Cu<sup>2+</sup>(aq) || Al<sup>3+</sup>(aq) | Al(s)",
+   "Al<sup>3+</sup>(aq) | Al(s) || Cu(s) | Cu<sup>2+</sup>(aq)",
+   "Al(s) | Cu<sup>2+</sup>(aq) || Al<sup>3+</sup>(aq) | Cu(s)"
+  ],
+  "h": "Cell notation lists the anode (oxidation) on the left of the double line and the cathode on the right. The half-cell with the lower E° is oxidized.",
+  "w": "Al<sup>3+</sup>/Al has the lower E° (−1.66 V), so aluminum (electrode B) is oxidized and is the anode; Cu<sup>2+</sup> is reduced at copper (A), the cathode. The anode goes on the left, written reactant | product: <b>Al(s) | Al<sup>3+</sup>(aq) || Cu<sup>2+</sup>(aq) | Cu(s)</b>. The position of a beaker in the drawing does not decide the order; the electrode reactions do. Each half-cell lists its own metal and its own ion, so Al and Cu<sup>2+</sup> never share a half-cell.",
+  "x": [
+   "",
+   "This puts copper on the anode side. Copper has the higher reduction potential, so Cu²⁺ is reduced, not Cu oxidized.",
+   "Within each half-cell the notation goes from reactant to product. At the anode the metal is the reactant, and at the cathode the ion is.",
+   "Each half-cell must pair a metal with its own ion. Al and Cu²⁺ are in separate beakers."
+  ]
+ },
+ {
+  "k": 1,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 2,
+  "q": "Molten magnesium chloride is electrolyzed between inert electrodes. The boxes show a tiny region of the melt before and after current passes. How many electrons passed through the circuit to make the change shown, and at which electrode did the Cl<sub>2</sub> form?",
+  "f": [
+   {
+    "type": "particles",
+    "seed": 1502,
+    "arrow": true,
+    "key": {
+     "M": {
+      "c": "#5aa469",
+      "n": "Mg²⁺",
+      "q": "+"
+     },
+     "m": {
+      "c": "#2f6b3b",
+      "n": "Mg atom"
+     },
+     "C": {
+      "c": "#f2c14e",
+      "n": "Cl⁻",
+      "q": "−",
+      "r": 9
+     },
+     "c": {
+      "c": "#c9a227",
+      "n": "Cl (in Cl₂)",
+      "r": 9
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Before",
+      "mols": [
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ]
+      ]
+     },
+     {
+      "cap": "After",
+      "mols": [
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "m"
+       ],
+       [
+        "m"
+       ],
+       [
+        "c",
+        "c"
+       ],
+       [
+        "c",
+        "c"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "c": [
+   "4 electrons; at the anode",
+   "2 electrons; at the anode",
+   "4 electrons; at the cathode",
+   "8 electrons; at the anode"
+  ],
+  "h": "Count the Mg<sup>2+</sup> ions that became Mg atoms. Each one gains two electrons. Then decide where oxidation happens.",
+  "w": "Two Mg<sup>2+</sup> ions (5 → 3) became 2 Mg atoms, each gaining 2 electrons: 4 electrons. At the same time 4 Cl<sup>−</sup> ions (10 → 6) lost one electron each to form 2 Cl<sub>2</sub> molecules, which also accounts for 4 electrons. Cl<sup>−</sup> → Cl<sub>2</sub> is oxidation, which always takes place at the anode: <b>4 electrons; at the anode</b>. Counting one electron per Mg atom gives 2, and adding the electrons lost and gained double counts them (8).",
+  "x": [
+   "",
+   "Each Mg²⁺ needs two electrons to become a Mg atom, not one.",
+   "Making Cl₂ from Cl⁻ is an oxidation. Reduction (making Mg) is the cathode process.",
+   "The electrons lost by Cl⁻ are the same electrons gained by Mg²⁺. Count them once."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 1,
+  "q": "In a basic solution, chlorate ion is reduced to chloride ion, as shown (unbalanced). Which is the correctly balanced half-reaction for basic solution?",
+  "f": [
+   {
+    "type": "eq",
+    "text": "ClO<sub>3</sub><sup>−</sup>(aq) → Cl<sup>−</sup>(aq)  (basic solution)"
+   }
+  ],
+  "c": [
+   "ClO<sub>3</sub><sup>−</sup> + 3 H<sub>2</sub>O + 6 e<sup>−</sup> → Cl<sup>−</sup> + 6 OH<sup>−</sup>",
+   "ClO<sub>3</sub><sup>−</sup> + 6 H<sup>+</sup> + 6 e<sup>−</sup> → Cl<sup>−</sup> + 3 H<sub>2</sub>O",
+   "ClO<sub>3</sub><sup>−</sup> + 3 H<sub>2</sub>O → Cl<sup>−</sup> + 6 OH<sup>−</sup> + 6 e<sup>−</sup>",
+   "ClO<sub>3</sub><sup>−</sup> + 3 H<sub>2</sub>O + 4 e<sup>−</sup> → Cl<sup>−</sup> + 6 OH<sup>−</sup>"
+  ],
+  "h": "Chlorine goes from +5 to −1. In basic solution, balance O with H<sub>2</sub>O and H with OH<sup>−</sup>, then check the charge on both sides.",
+  "w": "Cl changes from +5 to −1, a gain of 6 electrons. Balancing in acid gives ClO<sub>3</sub><sup>−</sup> + 6 H<sup>+</sup> + 6 e<sup>−</sup> → Cl<sup>−</sup> + 3 H<sub>2</sub>O; adding 6 OH<sup>−</sup> to both sides turns the 6 H<sup>+</sup> into 6 H<sub>2</sub>O and leaves <b>ClO<sub>3</sub><sup>−</sup> + 3 H<sub>2</sub>O + 6 e<sup>−</sup> → Cl<sup>−</sup> + 6 OH<sup>−</sup></b> (charge −7 on each side). The H<sup>+</sup> version is right only for acid, the version with electrons on the right is an oxidation and its charges do not balance, and 4 e<sup>−</sup> leaves −5 on the left against −7 on the right.",
+  "x": [
+   "",
+   "This is balanced for an acidic solution. A basic solution has almost no H⁺, so the H⁺ must be converted with OH⁻.",
+   "Chlorine is reduced here, so electrons are gained on the reactant side. As written the charges are −1 and −13.",
+   "Check the charge: with 4 electrons the left side is −5 while the right side is −7."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 2,
+  "q": "Acidified permanganate reacts with hydrogen peroxide as shown in the balanced equation. Which statements are true?<br>I. H<sub>2</sub>O<sub>2</sub> is the oxidizing agent.<br>II. The oxidation state of oxygen in H<sub>2</sub>O<sub>2</sub> changes from −1 to −2.<br>III. Ten electrons are transferred in the equation as written.",
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 MnO<sub>4</sub><sup>−</sup>(aq) + 5 H<sub>2</sub>O<sub>2</sub>(aq) + 6 H<sup>+</sup>(aq) → 2 Mn<sup>2+</sup>(aq) + 5 O<sub>2</sub>(g) + 8 H<sub>2</sub>O(l)"
+   }
+  ],
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Find where the oxygen atoms of H<sub>2</sub>O<sub>2</sub> end up: in O<sub>2</sub> or in H<sub>2</sub>O? Then count electrons using Mn.",
+  "w": "I is false: the peroxide oxygen goes from −1 to 0 in O<sub>2</sub>, so H<sub>2</sub>O<sub>2</sub> is oxidized and is the reducing agent; MnO<sub>4</sub><sup>−</sup> is the oxidizing agent. II is false for the same reason: the oxygen of H<sub>2</sub>O<sub>2</sub> becomes O<sub>2</sub> (0); the water oxygen comes from permanganate. III is true: each Mn goes from +7 to +2, so 2 Mn gain 10 e<sup>−</sup>, matching 5 H<sub>2</sub>O<sub>2</sub> each losing 2 e<sup>−</sup>. Answer: <b>III only</b>.",
+  "x": [
+   "",
+   "Statement I is false. H₂O₂ loses electrons as it forms O₂, so it is oxidized.",
+   "Statement II is false. The peroxide oxygen ends up in O₂, where its oxidation state is 0.",
+   "Statements I and II are both false. Check what H₂O₂ turns into."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 2,
+  "q": "In a strongly basic solution, zinc metal reduces nitrate ion to ammonia, as shown (unbalanced). When the equation is balanced with the smallest whole-number coefficients, how many electrons are transferred?",
+  "f": [
+   {
+    "type": "eq",
+    "text": "Zn(s) + NO<sub>3</sub><sup>−</sup>(aq) → Zn(OH)<sub>4</sub><sup>2−</sup>(aq) + NH<sub>3</sub>(aq)  (basic solution)"
+   }
+  ],
+  "c": [
+   "8",
+   "2",
+   "4",
+   "16"
+  ],
+  "h": "Find the change in oxidation state of N (in NO<sub>3</sub><sup>−</sup> and NH<sub>3</sub>) and of Zn, then match electrons lost and gained.",
+  "w": "N goes from +5 in NO<sub>3</sub><sup>−</sup> to −3 in NH<sub>3</sub>, gaining 8 e<sup>−</sup>; each Zn goes from 0 to +2, losing 2 e<sup>−</sup>, so 4 Zn are needed. Balanced: 4 Zn + NO<sub>3</sub><sup>−</sup> + 7 OH<sup>−</sup> + 6 H<sub>2</sub>O → 4 Zn(OH)<sub>4</sub><sup>2−</sup> + NH<sub>3</sub>, with <b>8</b> electrons transferred (charge −8 on both sides). 2 is the loss from one Zn, 4 is the number of Zn atoms, and 16 counts the same electrons twice.",
+  "x": [
+   "",
+   "That is the loss from a single Zn atom. The N atom gains more than that, so more Zn is needed.",
+   "This is the number of Zn atoms in the balanced equation, not the electrons.",
+   "Electrons lost by Zn are the same electrons gained by N. Count them once."
+  ]
+ },
+ {
+  "k": 1,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 3,
+  "q": "The potential of a galvanic cell was measured at 25 °C for several values of the reaction quotient Q, and E is plotted against log Q. Using E = E° − (0.0592 V/n) log Q, what are E° and n for the cell reaction?",
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "log Q",
+     "min": -4,
+     "max": 4,
+     "ticks": [
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    "y": {
+     "label": "E (V)",
+     "min": 0.5,
+     "max": 0.72,
+     "ticks": [
+      0.5,
+      0.54,
+      0.58,
+      0.62,
+      0.66,
+      0.7
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        -4,
+        0.6989
+       ],
+       [
+        -3.5,
+        0.6891
+       ],
+       [
+        -3,
+        0.6792
+       ],
+       [
+        -2.5,
+        0.6693
+       ],
+       [
+        -2,
+        0.6595
+       ],
+       [
+        -1.5,
+        0.6496
+       ],
+       [
+        -1,
+        0.6397
+       ],
+       [
+        -0.5,
+        0.6299
+       ],
+       [
+        0,
+        0.62
+       ],
+       [
+        0.5,
+        0.6101
+       ],
+       [
+        1,
+        0.6003
+       ],
+       [
+        1.5,
+        0.5904
+       ],
+       [
+        2,
+        0.5805
+       ],
+       [
+        2.5,
+        0.5707
+       ],
+       [
+        3,
+        0.5608
+       ],
+       [
+        3.5,
+        0.5509
+       ],
+       [
+        4,
+        0.5411
+       ]
+      ]
+     }
+    ],
+    "points": [
+     [
+      -4,
+      0.6989,
+      "E = 0.699 V",
+      10,
+      16
+     ],
+     [
+      4,
+      0.5411,
+      "E = 0.541 V",
+      -86,
+      16
+     ]
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "c": [
+   "E° = 0.62 V; n = 3",
+   "E° = 0.62 V; n = 1",
+   "E° = 0.70 V; n = 3",
+   "E° = 0.62 V; n = 2"
+  ],
+  "h": "E° is the potential where log Q = 0. The slope of the line equals −0.0592 V/n.",
+  "w": "At log Q = 0 (Q = 1) the line reads E = E° = 0.62 V. Slope = (0.541 − 0.699) V / (4 − (−4)) = −0.0198 V per unit of log Q = −0.0592/n, so n = 0.0592/0.0198 = 3.0: <b>E° = 0.62 V; n = 3</b>. With n = 1 the slope would be −0.0592 V, three times steeper; n = 2 gives −0.0296 V. 0.70 V is E at log Q = −4, not at standard conditions.",
+  "x": [
+   "",
+   "With n = 1 the line would fall 0.0592 V for each unit of log Q. Measure the slope on the graph.",
+   "E° is the potential when Q = 1, which is where log Q = 0, not at the left edge.",
+   "With n = 2 the line would drop 0.0296 V per unit of log Q. Recheck the slope."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 1,
+  "q": "Using the standard reduction potentials in the table, rank these species in order of INCREASING strength as oxidizing agents.<br>I. Cu<sup>2+</sup>(aq)<br>II. Fe<sup>3+</sup>(aq)<br>III. I<sub>2</sub>(s)",
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Half-reaction",
+     "E° (V)"
+    ],
+    "rows": [
+     [
+      "Ag<sup>+</sup>(aq) + e<sup>−</sup> → Ag(s)",
+      "+0.80"
+     ],
+     [
+      "Fe<sup>3+</sup>(aq) + e<sup>−</sup> → Fe<sup>2+</sup>(aq)",
+      "+0.77"
+     ],
+     [
+      "I<sub>2</sub>(s) + 2e<sup>−</sup> → 2 I<sup>−</sup>(aq)",
+      "+0.54"
+     ],
+     [
+      "Cu<sup>2+</sup>(aq) + 2e<sup>−</sup> → Cu(s)",
+      "+0.34"
+     ]
+    ],
+    "cap": "Standard reduction potentials, 25 °C"
+   }
+  ],
+  "c": [
+   "I &lt; III &lt; II",
+   "II &lt; III &lt; I",
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III"
+  ],
+  "h": "An oxidizing agent is reduced. The more positive its reduction potential, the stronger it pulls electrons.",
+  "w": "Oxidizing agents are the species on the left of the half-reactions; strength follows E°: Cu<sup>2+</sup> (+0.34 V) &lt; I<sub>2</sub> (+0.54 V) &lt; Fe<sup>3+</sup> (+0.77 V), so <b>I &lt; III &lt; II</b>. The reversed order ranks them as reducing agents would be ranked, and I<sub>2</sub> is not weaker than Cu<sup>2+</sup>, since its E° is higher.",
+  "x": [
+   "",
+   "This order is reversed. A higher reduction potential means a stronger oxidizing agent.",
+   "I₂ has a higher reduction potential than Cu²⁺, so it is the stronger oxidizing agent of the two.",
+   "Compare I₂ and Fe³⁺ again. The species with the larger E° is the stronger oxidizing agent."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 2,
+  "q": "Using the standard reduction potentials in the table, rank these species in order of INCREASING strength as reducing agents.<br>I. Al(s)<br>II. Fe<sup>2+</sup>(aq)<br>III. Sn(s)",
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Half-reaction",
+     "E° (V)"
+    ],
+    "rows": [
+     [
+      "Fe<sup>3+</sup>(aq) + e<sup>−</sup> → Fe<sup>2+</sup>(aq)",
+      "+0.77"
+     ],
+     [
+      "Sn<sup>2+</sup>(aq) + 2e<sup>−</sup> → Sn(s)",
+      "−0.14"
+     ],
+     [
+      "Fe<sup>2+</sup>(aq) + 2e<sup>−</sup> → Fe(s)",
+      "−0.44"
+     ],
+     [
+      "Al<sup>3+</sup>(aq) + 3e<sup>−</sup> → Al(s)",
+      "−1.66"
+     ]
+    ],
+    "cap": "Standard reduction potentials, 25 °C"
+   }
+  ],
+  "c": [
+   "II &lt; III &lt; I",
+   "I &lt; III &lt; II",
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III"
+  ],
+  "h": "A reducing agent is oxidized, so look for each species on the RIGHT side of a half-reaction. The more negative that E°, the stronger the reducing agent.",
+  "w": "Fe<sup>2+</sup> acts as a reducing agent when it is oxidized to Fe<sup>3+</sup>, the reverse of the +0.77 V half-reaction (the −0.44 V row uses Fe<sup>2+</sup> as an oxidizing agent). Sn is the product of the −0.14 V row and Al of the −1.66 V row. Lower E° means stronger reducing agent: Fe<sup>2+</sup> (+0.77) &lt; Sn (−0.14) &lt; Al (−1.66), so <b>II &lt; III &lt; I</b>.",
+  "x": [
+   "",
+   "This order is reversed. The metal with the most negative reduction potential gives up electrons most easily.",
+   "To act as a reducing agent Fe²⁺ must be oxidized to Fe³⁺. Use the row where Fe²⁺ is the product.",
+   "Al has the most negative reduction potential of all, so it is not weaker than Sn."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 2,
+  "q": "Using the standard reduction potentials in the table, which metals dissolve in 1 M HNO<sub>3</sub> (nitrate is reduced to NO) but do NOT dissolve in 1 M HCl? Assume standard conditions.<br>I. Au<br>II. Cu<br>III. Ag",
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Half-reaction",
+     "E° (V)"
+    ],
+    "rows": [
+     [
+      "Au<sup>3+</sup>(aq) + 3e<sup>−</sup> → Au(s)",
+      "+1.50"
+     ],
+     [
+      "NO<sub>3</sub><sup>−</sup>(aq) + 4 H<sup>+</sup>(aq) + 3e<sup>−</sup> → NO(g) + 2 H<sub>2</sub>O(l)",
+      "+0.96"
+     ],
+     [
+      "Ag<sup>+</sup>(aq) + e<sup>−</sup> → Ag(s)",
+      "+0.80"
+     ],
+     [
+      "Cu<sup>2+</sup>(aq) + 2e<sup>−</sup> → Cu(s)",
+      "+0.34"
+     ],
+     [
+      "2 H<sup>+</sup>(aq) + 2e<sup>−</sup> → H<sub>2</sub>(g)",
+      "0.00"
+     ]
+    ],
+    "cap": "Standard reduction potentials, 25 °C"
+   }
+  ],
+  "c": [
+   "II and III only",
+   "II only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "In HCl the only oxidizing agent is H<sup>+</sup> (0.00 V); in HNO<sub>3</sub>, nitrate (+0.96 V) is available too. A metal dissolves if the oxidant’s E° is higher.",
+  "w": "I is false: Au<sup>3+</sup>/Au (+1.50 V) is above nitrate (+0.96 V), so gold dissolves in neither acid. II is true: Cu<sup>2+</sup>/Cu (+0.34 V) is above H<sup>+</sup>/H<sub>2</sub> (0.00 V) but below nitrate, so copper dissolves only in HNO<sub>3</sub>. III is true for the same reason: Ag<sup>+</sup>/Ag (+0.80 V) lies between 0.00 and +0.96 V. Answer: <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement III is true as well. Silver’s reduction potential, +0.80 V, is still below that of nitrate.",
+   "Statement II is true as well. Copper is above H⁺ but below nitrate in the table.",
+   "Statement I is false. Gold’s reduction potential is higher than nitrate’s, so nitric acid cannot oxidize it."
+  ]
+ },
+ {
+  "k": 1,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 1,
+  "q": "The cell shown has a cobalt electrode (A) in 1 M Co<sup>2+</sup> and a platinum electrode (B) in a solution of 1 M Br<sup>−</sup> saturated with Br<sub>2</sub>. Using the table, what does the voltmeter read at 25 °C?",
+  "f": [
+   {
+    "type": "cell",
+    "left": {
+     "metal": "Co",
+     "sol": "1 M Co²⁺(aq)",
+     "label": "A",
+     "color": "#7f8a99"
+    },
+    "right": {
+     "metal": "Pt",
+     "sol": "1 M Br⁻, Br₂",
+     "label": "B",
+     "color": "#d9dde1"
+    },
+    "volt": "? V"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Half-reaction",
+     "E° (V)"
+    ],
+    "rows": [
+     [
+      "Br<sub>2</sub>(l) + 2e<sup>−</sup> → 2 Br<sup>−</sup>(aq)",
+      "+1.07"
+     ],
+     [
+      "Co<sup>2+</sup>(aq) + 2e<sup>−</sup> → Co(s)",
+      "−0.28"
+     ]
+    ],
+    "cap": "Standard reduction potentials, 25 °C"
+   }
+  ],
+  "c": [
+   "1.35 V",
+   "0.79 V",
+   "2.42 V",
+   "1.07 V"
+  ],
+  "h": "E°cell = E°(cathode) − E°(anode), using the reduction potentials as listed. Reduction potentials are not multiplied by coefficients.",
+  "w": "Br<sub>2</sub> has the higher E°, so it is reduced at the platinum cathode (B) and cobalt is oxidized at A. E°cell = 1.07 − (−0.28) = <b>1.35 V</b>. 0.79 V adds the two values without reversing the cobalt sign, 2.42 V doubles the bromine potential (E° is intensive), and 1.07 V treats the platinum half-cell as if it alone sets the voltage.",
+  "x": [
+   "",
+   "Subtract the anode reduction potential from the cathode one. Subtracting a negative number adds its size.",
+   "Potentials are intensive and are never multiplied by stoichiometric coefficients.",
+   "The cell voltage depends on both half-cells, not just the Br₂ half-cell."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 2,
+  "q": "An external power supply replaces the voltmeter in a Cu/Zn cell, as shown, and pushes electrons through the wire in the direction of the arrow (from A to B). All solutions are 1 M. Using the table, which reaction occurs, and what voltage must the supply exceed?",
+  "f": [
+   {
+    "type": "cell",
+    "left": {
+     "metal": "Cu",
+     "sol": "1 M Cu²⁺(aq)",
+     "label": "A",
+     "color": "#c98a5a"
+    },
+    "right": {
+     "metal": "Zn",
+     "sol": "1 M Zn²⁺(aq)",
+     "label": "B",
+     "color": "#9aa8b2"
+    },
+    "volt": "power supply",
+    "eflow": "lr"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Half-reaction",
+     "E° (V)"
+    ],
+    "rows": [
+     [
+      "Cu<sup>2+</sup>(aq) + 2e<sup>−</sup> → Cu(s)",
+      "+0.34"
+     ],
+     [
+      "Zn<sup>2+</sup>(aq) + 2e<sup>−</sup> → Zn(s)",
+      "−0.76"
+     ]
+    ],
+    "cap": "Standard reduction potentials, 25 °C"
+   }
+  ],
+  "c": [
+   "Cu(s) + Zn<sup>2+</sup>(aq) → Cu<sup>2+</sup>(aq) + Zn(s); more than 1.10 V",
+   "Zn(s) + Cu<sup>2+</sup>(aq) → Zn<sup>2+</sup>(aq) + Cu(s); more than 1.10 V",
+   "Cu(s) + Zn<sup>2+</sup>(aq) → Cu<sup>2+</sup>(aq) + Zn(s); more than 0 V",
+   "Cu(s) + Zn<sup>2+</sup>(aq) → Cu<sup>2+</sup>(aq) + Zn(s); more than 0.42 V"
+  ],
+  "h": "Electrons are delivered to B, so reduction happens there. Is that the spontaneous direction for this pair of half-cells?",
+  "w": "Electrons arrive at B, so Zn<sup>2+</sup> + 2e<sup>−</sup> → Zn plates out there (cathode), and copper at A is oxidized (anode): <b>Cu(s) + Zn<sup>2+</sup>(aq) → Cu<sup>2+</sup>(aq) + Zn(s); more than 1.10 V</b>. This is the reverse of the spontaneous Daniell reaction, with E° = −0.76 − 0.34 = −1.10 V, so the supply must provide more than 1.10 V to drive it. The spontaneous reaction would send electrons from B to A instead. 0.42 V comes from adding the two potentials.",
+  "x": [
+   "",
+   "This is the spontaneous reaction, which would push electrons from the zinc to the copper. The arrow shows the opposite direction.",
+   "This reaction is nonspontaneous, so any small voltage would not be enough. The supply has to overcome the cell’s own potential.",
+   "The size of the cell potential is the difference between the two reduction potentials, not their sum."
+  ]
+ },
+ {
+  "k": 1,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 2,
+  "q": "Nickel is plated from a NiSO<sub>4</sub> solution at constant current. The graph shows the mass of nickel deposited on the cathode against time. What current was used? (Ni: 58.69 g mol<sup>−1</sup>; F = 96,485 C mol<sup>−1</sup>)",
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (min)",
+     "min": 0,
+     "max": 60,
+     "ticks": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+     ]
+    },
+    "y": {
+     "label": "Mass of Ni deposited (g)",
+     "min": 0,
+     "max": 2.5,
+     "ticks": [
+      0,
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0
+       ],
+       [
+        10,
+        0.365
+       ],
+       [
+        20,
+        0.7299
+       ],
+       [
+        30,
+        1.0949
+       ],
+       [
+        40,
+        1.4599
+       ],
+       [
+        50,
+        1.8248
+       ],
+       [
+        60,
+        2.1898
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "points": [
+     [
+      60,
+      2.19,
+      "2.19 g",
+      -46,
+      -8
+     ]
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "c": [
+   "2.00 A",
+   "1.00 A",
+   "4.00 A",
+   "120 A"
+  ],
+  "h": "Read one point (mass and time). Convert mass to moles of Ni, then to moles of electrons (Ni<sup>2+</sup> + 2e<sup>−</sup> → Ni), then to coulombs, and divide by seconds.",
+  "w": "At 60.0 min, 2.19 g Ni = 2.19/58.69 = 0.0373 mol Ni, which needs 2 × 0.0373 = 0.0746 mol e<sup>−</sup> = 0.0746 × 96,485 = 7.20×10<sup>3</sup> C. Dividing by 3600 s gives <b>2.00 A</b>. Leaving out the 2 electrons per Ni gives 1.00 A, using 4 electrons per Ni gives 4.00 A, and dividing the charge by 60.0 min instead of 3600 s gives 120 A.",
+  "x": [
+   "",
+   "Each Ni²⁺ ion needs two electrons to become a Ni atom. Include that factor.",
+   "Ni²⁺ gains two electrons, not four. Recheck the electron count per Ni.",
+   "An ampere is a coulomb per SECOND. Convert the minutes on the graph to seconds."
+  ]
+ },
+ {
+  "k": 1,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 3,
+  "q": "The cell shown has a tin electrode (A) in 1.0 M Sn<sup>2+</sup> and a lead electrode (B) in 0.0010 M Pb<sup>2+</sup>. Using the table and E = E° − (0.0592 V/n) log Q, which electrode is the anode at 25 °C, and what does the voltmeter read?",
+  "f": [
+   {
+    "type": "cell",
+    "left": {
+     "metal": "Sn",
+     "sol": "1.0 M Sn²⁺(aq)",
+     "label": "A",
+     "color": "#b8c2cc"
+    },
+    "right": {
+     "metal": "Pb",
+     "sol": "0.0010 M Pb²⁺(aq)",
+     "label": "B",
+     "color": "#6f7a86"
+    },
+    "volt": "? V"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Half-reaction",
+     "E° (V)"
+    ],
+    "rows": [
+     [
+      "Pb<sup>2+</sup>(aq) + 2e<sup>−</sup> → Pb(s)",
+      "−0.13"
+     ],
+     [
+      "Sn<sup>2+</sup>(aq) + 2e<sup>−</sup> → Sn(s)",
+      "−0.14"
+     ]
+    ],
+    "cap": "Standard reduction potentials, 25 °C"
+   }
+  ],
+  "c": [
+   "B is the anode; 0.079 V",
+   "A is the anode; 0.010 V",
+   "A is the anode; 0.099 V",
+   "B is the anode; 0.168 V"
+  ],
+  "h": "Write the reaction with tin as the anode and find E with the Nernst equation. A negative E means the reaction actually runs the other way.",
+  "w": "For Sn + Pb<sup>2+</sup> → Sn<sup>2+</sup> + Pb, E° = −0.13 − (−0.14) = +0.01 V and Q = [Sn<sup>2+</sup>]/[Pb<sup>2+</sup>] = 1.0/0.0010 = 1000. E = 0.01 − (0.0592/2)(3) = -0.079 V. The negative value means the reverse reaction is spontaneous: lead is oxidized, so <b>B is the anode; 0.079 V</b>. The small E° is easily overturned by the 1000-fold concentration ratio. 0.010 V ignores the concentrations, 0.099 V adds the Nernst term, and 0.168 V uses n = 1.",
+  "x": [
+   "",
+   "This is the standard potential, but the Pb²⁺ concentration is far below 1 M. Apply the Nernst equation.",
+   "The Nernst term is subtracted when Q is greater than 1. Recheck the sign.",
+   "Both metals transfer two electrons per atom, so n is 2."
+  ]
+ },
+ {
+  "k": 1,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 1,
+  "q": "A standard hydrogen electrode (A: Pt in 1 M H<sup>+</sup> with H<sub>2</sub> at 1 atm) is connected to a cadmium electrode (B) in 1 M Cd<sup>2+</sup>. The meter reads 0.40 V, and electrons flow through the wire from B to A, as drawn. What is the standard reduction potential of Cd<sup>2+</sup>/Cd?",
+  "f": [
+   {
+    "type": "cell",
+    "left": {
+     "metal": "Pt",
+     "sol": "1 M H⁺, H₂ 1 atm",
+     "label": "A",
+     "color": "#d9dde1"
+    },
+    "right": {
+     "metal": "Cd",
+     "sol": "1 M Cd²⁺(aq)",
+     "label": "B",
+     "color": "#a3acb5"
+    },
+    "volt": "0.40 V",
+    "eflow": "rl"
+   }
+  ],
+  "c": [
+   "−0.40 V",
+   "+0.40 V",
+   "−0.20 V",
+   "+0.80 V"
+  ],
+  "h": "Electrons leave the anode. E°cell = E°(cathode) − E°(anode), and the SHE is 0.00 V by definition.",
+  "w": "Electrons leave B, so cadmium is oxidized (anode) and H<sup>+</sup> is reduced at the SHE (cathode). 0.40 V = 0.00 V − E°(Cd<sup>2+</sup>/Cd), so E° = <b>−0.40 V</b>. A positive value would make Cd<sup>2+</sup> easier to reduce than H<sup>+</sup>, which would send electrons the other way. E° is not divided by the 2 electrons.",
+  "x": [
+   "",
+   "If Cd²⁺ had a positive reduction potential, the SHE would be the anode and electrons would flow from A to B.",
+   "Electrode potentials are not divided by the number of electrons transferred.",
+   "The SHE contributes 0.00 V, so the meter reading alone sets the size of the cadmium potential."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 1,
+  "q": "Aqueous sodium sulfate is electrolyzed between inert platinum electrodes. Which statements are true?<br>I. O<sub>2</sub> gas forms at the anode.<br>II. Sodium metal is deposited at the cathode.<br>III. The solution near the cathode becomes acidic.",
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Half-reaction",
+     "E° (V)"
+    ],
+    "rows": [
+     [
+      "O<sub>2</sub>(g) + 4 H<sup>+</sup>(aq) + 4e<sup>−</sup> → 2 H<sub>2</sub>O(l)",
+      "+1.23"
+     ],
+     [
+      "2 H<sub>2</sub>O(l) + 2e<sup>−</sup> → H<sub>2</sub>(g) + 2 OH<sup>−</sup>(aq)",
+      "−0.83"
+     ],
+     [
+      "Na<sup>+</sup>(aq) + e<sup>−</sup> → Na(s)",
+      "−2.71"
+     ]
+    ],
+    "cap": "Standard reduction potentials, 25 °C"
+   }
+  ],
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "At the cathode, compare how hard it is to reduce Na<sup>+</sup> and water. Sulfate is very hard to oxidize, so think about what water does at the anode.",
+  "w": "I is true: sulfate resists oxidation, so water is oxidized at the anode, 2 H<sub>2</sub>O → O<sub>2</sub> + 4 H<sup>+</sup> + 4e<sup>−</sup>. II is false: water (−0.83 V) is far easier to reduce than Na<sup>+</sup> (−2.71 V), so H<sub>2</sub> forms instead of sodium. III is false: reducing water makes OH<sup>−</sup>, so the solution near the cathode becomes basic (the anode region becomes acidic). Answer: <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false. Water is reduced far more easily than Na⁺ in aqueous solution.",
+   "Statement III is false. Reducing water releases OH⁻ ions at the cathode.",
+   "Statements II and III are both false. Look at the cathode products in the table."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 2,
+  "q": "An alkaline dry cell runs on the overall reaction shown, in a basic KOH paste. Which half-reaction occurs at the cathode?",
+  "f": [
+   {
+    "type": "eq",
+    "text": "Zn(s) + 2 MnO<sub>2</sub>(s) + H<sub>2</sub>O(l) → ZnO(s) + 2 MnO(OH)(s)"
+   }
+  ],
+  "c": [
+   "MnO<sub>2</sub>(s) + H<sub>2</sub>O(l) + e<sup>−</sup> → MnO(OH)(s) + OH<sup>−</sup>(aq)",
+   "Zn(s) + 2 OH<sup>−</sup>(aq) → ZnO(s) + H<sub>2</sub>O(l) + 2e<sup>−</sup>",
+   "MnO<sub>2</sub>(s) + H<sup>+</sup>(aq) + e<sup>−</sup> → MnO(OH)(s)",
+   "MnO(OH)(s) + OH<sup>−</sup>(aq) → MnO<sub>2</sub>(s) + H<sub>2</sub>O(l) + e<sup>−</sup>"
+  ],
+  "h": "The cathode is where reduction happens. Find the element whose oxidation state drops, and remember the electrolyte is basic.",
+  "w": "Mn goes from +4 in MnO<sub>2</sub> to +3 in MnO(OH), a reduction, so it happens at the cathode. Balanced for a basic medium: <b>MnO<sub>2</sub> + H<sub>2</sub>O + e<sup>−</sup> → MnO(OH) + OH<sup>−</sup></b> (H, O and charge balance). The zinc half-reaction is the oxidation at the anode; the H<sup>+</sup> version suits an acid, not a KOH paste; the remaining manganese choice runs the change backward, as an oxidation.",
+  "x": [
+   "",
+   "Zinc loses electrons here, which is oxidation. That happens at the anode.",
+   "This balances atoms with H⁺, but the electrolyte is basic, so water and OH⁻ are used instead.",
+   "This releases electrons, so it is an oxidation. In the battery, manganese is reduced."
+  ]
+ },
+ {
+  "k": 1,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 3,
+  "q": "Permanganate oxidizes chloride ion in acidic solution, as shown in the balanced equation. Using the table, what is ΔG° for the reaction as written at 25 °C? (F = 96,485 C mol<sup>−1</sup>)",
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 MnO<sub>4</sub><sup>−</sup>(aq) + 10 Cl<sup>−</sup>(aq) + 16 H<sup>+</sup>(aq) → 2 Mn<sup>2+</sup>(aq) + 5 Cl<sub>2</sub>(g) + 8 H<sub>2</sub>O(l)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Half-reaction",
+     "E° (V)"
+    ],
+    "rows": [
+     [
+      "MnO<sub>4</sub><sup>−</sup>(aq) + 8 H<sup>+</sup>(aq) + 5e<sup>−</sup> → Mn<sup>2+</sup>(aq) + 4 H<sub>2</sub>O(l)",
+      "+1.507"
+     ],
+     [
+      "Cl<sub>2</sub>(g) + 2e<sup>−</sup> → 2 Cl<sup>−</sup>(aq)",
+      "+1.358"
+     ]
+    ],
+    "cap": "Standard reduction potentials, 25 °C"
+   }
+  ],
+  "c": [
+   "−144 kJ",
+   "−14.4 kJ",
+   "−28.8 kJ",
+   "+144 kJ"
+  ],
+  "h": "Find E° first, then count the electrons transferred in the equation as written: n is the total, not the number in one half-reaction.",
+  "w": "E° = 1.507 − 1.358 = 0.149 V. In the equation as written, 2 Mn each gain 5 e<sup>−</sup> (and 10 Cl<sup>−</sup> each lose 1), so n = 10. ΔG° = −nFE° = −(10)(96,485)(0.149) J = -143.8 kJ ≈ <b>−144 kJ</b>. n = 1 gives −14.4 kJ and n = 2 (one Cl<sub>2</sub>) gives −28.8 kJ; a positive E° always gives a negative ΔG°.",
+  "x": [
+   "",
+   "n must be the total number of electrons transferred in the full equation as written.",
+   "Two electrons form one Cl₂, but the equation makes five Cl₂. Count all the electrons.",
+   "A positive cell potential means a negative ΔG°. Check the sign."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "electro",
+  "d": 2,
+  "q": "In the galvanic cell shown, metal X (electrode A) dips into 1 M X<sup>2+</sup> and metal Y (electrode B) into 1 M Y<sup>2+</sup>. The labels on the salt bridge show the direction the ions move while the cell runs. Which statement must be true?",
+  "f": [
+   {
+    "type": "cell",
+    "left": {
+     "metal": "X",
+     "sol": "1 M X²⁺(aq)",
+     "label": "A",
+     "color": "#b8c2cc"
+    },
+    "right": {
+     "metal": "Y",
+     "sol": "1 M Y²⁺(aq)",
+     "label": "B",
+     "color": "#8f9aa6"
+    },
+    "volt": "V",
+    "ions": "lr"
+   }
+  ],
+  "c": [
+   "X is oxidized; E° of X<sup>2+</sup>/X is lower than E° of Y<sup>2+</sup>/Y",
+   "Y is oxidized; E° of Y<sup>2+</sup>/Y is lower than E° of X<sup>2+</sup>/X",
+   "X is reduced; E° of X<sup>2+</sup>/X is higher than E° of Y<sup>2+</sup>/Y",
+   "X is oxidized; E° of X<sup>2+</sup>/X is higher than E° of Y<sup>2+</sup>/Y"
+  ],
+  "h": "Cations in the salt bridge move toward the cathode, where positive ions are being used up. Anions move toward the anode.",
+  "w": "Cations move toward B and anions toward A, so B is the cathode (Y<sup>2+</sup> is reduced there, removing positive charge) and A is the anode, where X is oxidized and X<sup>2+</sup> builds up. In a spontaneous cell the anode couple has the lower reduction potential: <b>X is oxidized; E° of X<sup>2+</sup>/X is lower than E° of Y<sup>2+</sup>/Y</b>. Reading the ion arrows backward would make Y the anode.",
+  "x": [
+   "",
+   "Anions move toward the anode to balance the positive ions made there. In the drawing anions move toward A.",
+   "Cations move toward the cathode. In the drawing they move toward B, so reduction is not at A.",
+   "The anode is right, but in a spontaneous cell the metal that is oxidized has the lower reduction potential."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "coordination",
+  "d": 3,
+  "q": "The tetrahedral ion [CoCl<sub>4</sub>]<sup>2−</sup> is blue and high spin. Which crystal-field diagram correctly shows the d electrons of cobalt in this ion?",
+  "f": [
+   {
+    "type": "orbitals",
+    "items": [
+     {
+      "stack": true,
+      "cap": "I",
+      "subs": [
+       {
+        "name": "e",
+        "boxes": [
+         "ud",
+         "ud"
+        ]
+       },
+       {
+        "name": "t<sub>2</sub>",
+        "boxes": [
+         "u",
+         "u",
+         "u"
+        ]
+       }
+      ]
+     },
+     {
+      "stack": true,
+      "cap": "II",
+      "subs": [
+       {
+        "name": "t<sub>2</sub>",
+        "boxes": [
+         "ud",
+         "ud",
+         "u"
+        ]
+       },
+       {
+        "name": "e",
+        "boxes": [
+         "u",
+         "u"
+        ]
+       }
+      ]
+     },
+     {
+      "stack": true,
+      "cap": "III",
+      "subs": [
+       {
+        "name": "e",
+        "boxes": [
+         "ud",
+         "ud"
+        ]
+       },
+       {
+        "name": "t<sub>2</sub>",
+        "boxes": [
+         "ud",
+         "u",
+         ""
+        ]
+       }
+      ]
+     },
+     {
+      "stack": true,
+      "cap": "IV",
+      "subs": [
+       {
+        "name": "e",
+        "boxes": [
+         "ud",
+         "u"
+        ]
+       },
+       {
+        "name": "t<sub>2</sub>",
+        "boxes": [
+         "u",
+         "u",
+         "u"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "c": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "h": "Find the oxidation state of Co and its d-electron count. In a tetrahedral field the splitting is the reverse of octahedral: two orbitals (e) lie lower and three (t<sub>2</sub>) higher.",
+  "w": "With four Cl<sup>−</sup> and a 2− charge, cobalt is Co<sup>2+</sup>, a d<sup>7</sup> ion. A tetrahedral field puts the e set below the t<sub>2</sub> set, and its small splitting makes the complex high spin: e<sup>4</sup>t<sub>2</sub><sup>3</sup>, with 3 unpaired electrons, which is <b>diagram I</b>. II uses the octahedral ordering (three orbitals lower), III pairs electrons in t<sub>2</sub> while an orbital is empty (low spin, which tetrahedral complexes essentially never are), and IV holds only six electrons.",
+  "x": [
+   "",
+   "This places the three orbitals below the two. That is the octahedral pattern, not the tetrahedral one.",
+   "A high-spin ion fills each orbital singly before pairing. This diagram pairs electrons while a t₂ orbital is empty.",
+   "Count the electrons. Co²⁺ has seven d electrons, and this diagram shows six."
+  ]
+ },
+ {
+  "k": 0,
+  "src": "acs-gc-modeled",
+  "t": "coordination",
+  "d": 2,
+  "q": "The crystal-field diagram shows the d electrons of the metal ion in an octahedral complex. Which complex does it represent?",
+  "f": [
+   {
+    "type": "orbitals",
+    "subs": [
+     {
+      "name": "t<sub>2g</sub>",
+      "boxes": [
+       "ud",
+       "u",
+       "u"
+      ]
+     },
+     {
+      "name": "e<sub>g</sub>",
+      "boxes": [
+       "",
+       ""
+      ]
+     }
+    ],
+    "stack": true
+   }
+  ],
+  "c": [
+   "[Mn(CN)<sub>6</sub>]<sup>3−</sup>",
+   "[Mn(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup>",
+   "[Cr(CN)<sub>6</sub>]<sup>3−</sup>",
+   "[Fe(CN)<sub>6</sub>]<sup>4−</sup>"
+  ],
+  "h": "Count the electrons drawn and check whether any are paired while e<sub>g</sub> is still empty. That gives the d count and the field strength.",
+  "w": "The diagram holds four electrons, all in t<sub>2g</sub> with one pair: a low-spin d<sup>4</sup> ion with 2 unpaired electrons. Mn<sup>3+</sup> is d<sup>4</sup>, and CN<sup>−</sup> is a strong-field ligand that favors pairing, so <b>[Mn(CN)<sub>6</sub>]<sup>3−</sup></b> fits. [Mn(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> is d<sup>4</sup> but high spin (t<sub>2g</sub><sup>3</sup>e<sub>g</sub><sup>1</sup>, 4 unpaired); Cr<sup>3+</sup> is d<sup>3</sup>; Fe<sup>2+</sup> is d<sup>6</sup>.",
+  "x": [
+   "",
+   "Water is a weak-field ligand, so the fourth electron would go singly into the upper level rather than pair. Count the unpaired electrons drawn.",
+   "Cr³⁺ has only three d electrons, and the diagram shows four.",
+   "Fe²⁺ has six d electrons. A low-spin d⁶ ion would fill all three lower orbitals with pairs."
+  ]
+ },
+ {
+  "k": 1,
+  "src": "acs-gc-modeled",
+  "t": "coordination",
+  "d": 3,
+  "q": "The graph shows the visible absorption spectra of two octahedral cobalt(III) complexes, X and Y, that differ only in their ligands. Which complex has the larger crystal-field splitting Δ<sub>o</sub>, and what is that Δ<sub>o</sub>? (h = 6.626×10<sup>−34</sup> J s; c = 2.998×10<sup>8</sup> m s<sup>−1</sup>; N<sub>A</sub> = 6.022×10<sup>23</sup> mol<sup>−1</sup>)",
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Wavelength (nm)",
+     "min": 380,
+     "max": 720,
+     "ticks": [
+      400,
+      450,
+      500,
+      550,
+      600,
+      650,
+      700
+     ]
+    },
+    "y": {
+     "label": "Absorbance",
+     "min": 0,
+     "max": 1,
+     "ticks": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        380,
+        0.0312
+       ],
+       [
+        390,
+        0.0624
+       ],
+       [
+        400,
+        0.115
+       ],
+       [
+        410,
+        0.1956
+       ],
+       [
+        420,
+        0.3064
+       ],
+       [
+        430,
+        0.4424
+       ],
+       [
+        440,
+        0.5887
+       ],
+       [
+        450,
+        0.722
+       ],
+       [
+        460,
+        0.816
+       ],
+       [
+        470,
+        0.85
+       ],
+       [
+        480,
+        0.816
+       ],
+       [
+        490,
+        0.722
+       ],
+       [
+        500,
+        0.5887
+       ],
+       [
+        510,
+        0.4424
+       ],
+       [
+        520,
+        0.3064
+       ],
+       [
+        530,
+        0.1956
+       ],
+       [
+        540,
+        0.115
+       ],
+       [
+        550,
+        0.0624
+       ],
+       [
+        560,
+        0.0312
+       ],
+       [
+        570,
+        0.0143
+       ],
+       [
+        580,
+        0.0061
+       ],
+       [
+        590,
+        0.0024
+       ],
+       [
+        600,
+        0.0009
+       ],
+       [
+        610,
+        0.0003
+       ],
+       [
+        620,
+        0.0001
+       ],
+       [
+        630,
+        0
+       ],
+       [
+        640,
+        0
+       ],
+       [
+        650,
+        0
+       ],
+       [
+        660,
+        0
+       ],
+       [
+        670,
+        0
+       ],
+       [
+        680,
+        0
+       ],
+       [
+        690,
+        0
+       ],
+       [
+        700,
+        0
+       ],
+       [
+        710,
+        0
+       ],
+       [
+        720,
+        0
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        380,
+        0
+       ],
+       [
+        390,
+        0
+       ],
+       [
+        400,
+        0
+       ],
+       [
+        410,
+        0
+       ],
+       [
+        420,
+        0.0001
+       ],
+       [
+        430,
+        0.0002
+       ],
+       [
+        440,
+        0.0006
+       ],
+       [
+        450,
+        0.0014
+       ],
+       [
+        460,
+        0.0033
+       ],
+       [
+        470,
+        0.0072
+       ],
+       [
+        480,
+        0.0148
+       ],
+       [
+        490,
+        0.0286
+       ],
+       [
+        500,
+        0.0517
+       ],
+       [
+        510,
+        0.088
+       ],
+       [
+        520,
+        0.1406
+       ],
+       [
+        530,
+        0.211
+       ],
+       [
+        540,
+        0.2976
+       ],
+       [
+        550,
+        0.3942
+       ],
+       [
+        560,
+        0.4906
+       ],
+       [
+        570,
+        0.5736
+       ],
+       [
+        580,
+        0.63
+       ],
+       [
+        590,
+        0.65
+       ],
+       [
+        600,
+        0.63
+       ],
+       [
+        610,
+        0.5736
+       ],
+       [
+        620,
+        0.4906
+       ],
+       [
+        630,
+        0.3942
+       ],
+       [
+        640,
+        0.2976
+       ],
+       [
+        650,
+        0.211
+       ],
+       [
+        660,
+        0.1406
+       ],
+       [
+        670,
+        0.088
+       ],
+       [
+        680,
+        0.0517
+       ],
+       [
+        690,
+        0.0286
+       ],
+       [
+        700,
+        0.0148
+       ],
+       [
+        710,
+        0.0072
+       ],
+       [
+        720,
+        0.0033
+       ]
+      ]
+     }
+    ],
+    "points": [
+     [
+      470,
+      0.85,
+      "X",
+      -4,
+      -8
+     ],
+     [
+      590,
+      0.65,
+      "Y",
+      -4,
+      -8
+     ]
+    ],
+    "vlines": [
+     {
+      "x": 470,
+      "label": "470 nm"
+     },
+     {
+      "x": 590,
+      "label": "590 nm"
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "c": [
+   "X; 255 kJ mol<sup>−1</sup>",
+   "Y; 203 kJ mol<sup>−1</sup>",
+   "X; 203 kJ mol<sup>−1</sup>",
+   "Y; 255 kJ mol<sup>−1</sup>"
+  ],
+  "h": "Δ<sub>o</sub> equals the energy of the light absorbed. Shorter wavelength means higher energy: E = hc/λ per ion, times N<sub>A</sub> per mole.",
+  "w": "X absorbs at the shorter wavelength (470 nm), so its photons carry more energy and X has the larger Δ<sub>o</sub>. Δ<sub>o</sub> = hcN<sub>A</sub>/λ = (6.626×10<sup>−34</sup>)(2.998×10<sup>8</sup>)(6.022×10<sup>23</sup>)/(470×10<sup>−9</sup> m) = 254522 J mol<sup>−1</sup>, so <b>X; 255 kJ mol<sup>−1</sup></b>. 203 kJ mol<sup>−1</sup> is the value for Y’s 590 nm peak, the smaller splitting.",
+  "x": [
+   "",
+   "Y absorbs at the longer wavelength, which is the lower energy, so its splitting is the smaller one.",
+   "The complex is right, but 203 kJ/mol comes from the 590 nm peak. Use the wavelength X absorbs.",
+   "The energy is right for X’s peak, but the complex that absorbs there is not Y."
+  ]
+ }
+]

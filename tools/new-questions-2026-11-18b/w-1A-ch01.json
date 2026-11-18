@@ -1,0 +1,1303 @@
+[
+ {
+  "t": "atoms",
+  "d": 2,
+  "q": "Each drawing shows the nucleus (protons and neutrons) and the electrons of one particle. Which two particles have the same mass number?",
+  "c": [
+   "II and III",
+   "I and III",
+   "II and IV",
+   "I and II"
+  ],
+  "h": "Mass number counts only the particles in the nucleus: protons plus neutrons. Electrons are not counted.",
+  "w": "Particle II has 2 protons + 1 neutron and particle III has 1 proton + 2 neutrons, so <b>both have mass number 3</b> (II is helium-3, III is hydrogen-3). I and III are isotopes (same proton count) but their mass numbers are 2 and 3. II and IV are both helium, with mass numbers 3 and 4. I and II each have one neutron, but their mass numbers are 2 and 3.",
+  "x": [
+   "",
+   "These two have the same number of protons, so they are isotopes with different mass numbers (2 and 3).",
+   "These are the same element, but one nucleus holds 3 particles and the other holds 4.",
+   "These have the same number of neutrons, not the same total of protons plus neutrons."
+  ],
+  "f": [
+   {
+    "type": "particles",
+    "seed": 5,
+    "key": {
+     "P": {
+      "c": "#e0675a",
+      "n": "proton",
+      "q": "+"
+     },
+     "N": {
+      "c": "#555",
+      "n": "neutron"
+     },
+     "e": {
+      "c": "#f2c14e",
+      "n": "electron",
+      "r": 5
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "P",
+        "N"
+       ],
+       [
+        "e"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "P",
+        "P",
+        "N"
+       ],
+       [
+        "e"
+       ],
+       [
+        "e"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "mols": [
+       [
+        "P",
+        "N",
+        "N"
+       ],
+       [
+        "e"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "mols": [
+       [
+        "P",
+        "P",
+        "N",
+        "N"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 2,
+  "q": "The drawing shows the nucleus and the electrons of one particle. Which symbol represents this particle?",
+  "c": [
+   "<sup>3</sup><sub>2</sub>He<sup>+</sup>",
+   "<sup>3</sup><sub>2</sub>He<sup>−</sup>",
+   "<sup>3</sup><sub>1</sub>H",
+   "<sup>1</sup><sub>2</sub>He<sup>+</sup>"
+  ],
+  "h": "The number of protons fixes the element. Mass number = protons + neutrons. Charge = protons − electrons.",
+  "w": "The nucleus holds 2 protons (helium) and 1 neutron, so the mass number is 3. There is only 1 electron, so the charge is 2 − 1 = +1: <b><sup>3</sup><sub>2</sub>He<sup>+</sup></b>. A 1− charge would need more electrons than protons, using the electron count as the atomic number gives H, and a mass number of 1 counts only the neutron.",
+  "x": [
+   "",
+   "A negative ion has more electrons than protons. Compare the counts in the drawing.",
+   "The atomic number is the number of protons, not the number of electrons.",
+   "The mass number counts protons and neutrons together, not neutrons alone."
+  ],
+  "f": [
+   {
+    "type": "particles",
+    "seed": 11,
+    "key": {
+     "P": {
+      "c": "#e0675a",
+      "n": "proton",
+      "q": "+"
+     },
+     "N": {
+      "c": "#555",
+      "n": "neutron"
+     },
+     "e": {
+      "c": "#f2c14e",
+      "n": "electron",
+      "r": 5
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "P",
+        "P",
+        "N"
+       ],
+       [
+        "e"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 2,
+  "q": "Each Lewis symbol is meant to show the monatomic ion that the element forms in ionic compounds. Which are drawn correctly?<br>I. calcium ion<br>II. bromide ion<br>III. aluminum ion",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "A main-group cation loses all of its valence electrons. A main-group anion gains electrons until it has eight valence electrons.",
+  "w": "I is correct: Ca loses its two valence electrons, so Ca<sup>2+</sup> shows no dots. II is correct: Br has 7 valence electrons and gains 1, so Br<sup>−</sup> shows 8 dots. III is wrong: Al<sup>3+</sup> has lost all three valence electrons, so it should show no dots, not 8. <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is also correct. Bromine has 7 valence electrons and gains one, giving 8 dots and a 1− charge.",
+   "Statement III is wrong. Aluminum loses its three valence electrons, so Al³⁺ should show no dots.",
+   "Statement III is wrong. The 8 dots around a 3+ cation do not fit an atom that lost its valence electrons."
+  ],
+  "s": [
+   {
+    "a": [
+     [
+      "Ca",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [],
+    "br": "2+",
+    "cap": "I"
+   },
+   {
+    "a": [
+     [
+      "Br",
+      0,
+      0,
+      4,
+      0,
+      ""
+     ]
+    ],
+    "b": [],
+    "br": "−",
+    "cap": "II"
+   },
+   {
+    "a": [
+     [
+      "Al",
+      0,
+      0,
+      4,
+      0,
+      ""
+     ]
+    ],
+    "b": [],
+    "br": "3+",
+    "cap": "III"
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 1,
+  "q": "Which Lewis symbol correctly represents the phosphide ion?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "h": "Phosphorus is in group 15. Decide whether it gains or loses electrons, and how many valence electrons the ion ends up with.",
+  "w": "P has 5 valence electrons and gains 3 to reach an octet, so the phosphide ion shows <b>8 dots and a 3− charge</b>. Gaining electrons makes the charge negative, not positive, and 6 dots or no dots do not match 5 + 3 = 8 valence electrons.",
+  "x": [
+   "",
+   "Gaining electrons gives a negative charge. A 3+ ion would have lost electrons.",
+   "Phosphorus starts with 5 valence electrons. Adding 3 gives more than 6.",
+   "An anion keeps its valence electrons and gains more. No dots fits a cation that lost them all."
+  ],
+  "cs": [
+   {
+    "a": [
+     [
+      "P",
+      0,
+      0,
+      4,
+      0,
+      ""
+     ]
+    ],
+    "b": [],
+    "br": "3−"
+   },
+   {
+    "a": [
+     [
+      "P",
+      0,
+      0,
+      4,
+      0,
+      ""
+     ]
+    ],
+    "b": [],
+    "br": "3+"
+   },
+   {
+    "a": [
+     [
+      "P",
+      0,
+      0,
+      3,
+      0,
+      ""
+     ]
+    ],
+    "b": [],
+    "br": "3−"
+   },
+   {
+    "a": [
+     [
+      "P",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [],
+    "br": "3−"
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 2,
+  "q": "Elements X and Y are marked on the outline of the periodic table. What is the formula of the ionic compound they form?",
+  "c": [
+   "X<sub>3</sub>Y<sub>2</sub>",
+   "X<sub>2</sub>Y<sub>3</sub>",
+   "XY",
+   "XY<sub>2</sub>"
+  ],
+  "h": "Find each element's group. Group 2 metals form 2+ ions and group 15 nonmetals form 3− ions. The total charge must be zero.",
+  "w": "X is in group 2 (X<sup>2+</sup>) and Y is in group 15 (Y<sup>3−</sup>). Three X<sup>2+</sup> (+6) balance two Y<sup>3−</sup> (−6): <b>X<sub>3</sub>Y<sub>2</sub></b>. X<sub>2</sub>Y<sub>3</sub> swaps the charges, XY would need equal and opposite charges, and XY<sub>2</sub> treats Y as a 1− ion.",
+  "x": [
+   "",
+   "This swaps the subscripts. Check which element forms the 2+ ion and which forms the 3− ion.",
+   "A 1 to 1 formula needs charges of equal size. These two ions have charges of different size.",
+   "This treats Y as a 1− ion. Y is in group 15, not group 17."
+  ],
+  "f": [
+   {
+    "type": "ptgrid",
+    "periods": 4,
+    "cells": {
+     "X": [
+      4,
+      2
+     ],
+     "Y": [
+      2,
+      15
+     ]
+    }
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 2,
+  "q": "Elements A, B and C are marked on the outline of the periodic table. Which statements are true?<br>I. A is an alkali metal.<br>II. B is a main-group element.<br>III. C is a metalloid.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Group 1 (except H) holds the alkali metals. Groups 3–12 are transition metals. Metalloids sit along the stair-step line between B and At.",
+  "w": "I is true: A is in group 1, period 4 (potassium), an alkali metal. II is false: B is in group 8 (iron), a transition metal, not a main-group element. III is false: C is in group 17 (chlorine), a nonmetal halogen. <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false. B sits in the middle block (groups 3–12), so it is a transition metal.",
+   "Statement III is false. C is in group 17, which holds nonmetals, not metalloids.",
+   "Statement II is false because B is a transition metal, and statement III is false because C is a halogen."
+  ],
+  "f": [
+   {
+    "type": "ptgrid",
+    "periods": 4,
+    "cells": {
+     "A": [
+      4,
+      1
+     ],
+     "B": [
+      4,
+      8
+     ],
+     "C": [
+      3,
+      17
+     ]
+    }
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 2,
+  "q": "Four elements are marked on the outline of the periodic table. Which marked element is a metal that is NOT a transition metal?",
+  "c": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "h": "Transition metals fill groups 3–12. Main-group metals lie to the left of the metalloid stair-step line in groups 1, 2 and 13–16.",
+  "w": "<b>A</b> is in period 5, group 14 (tin), a main-group metal below the metalloid line. B is in group 8 (iron), a transition metal. C is in period 4, group 14 (germanium), a metalloid. D is in period 3, group 15 (phosphorus), a nonmetal.",
+  "x": [
+   "",
+   "B is in groups 3–12, so it is a transition metal.",
+   "C sits on the stair-step line, so it is a metalloid, not a true metal.",
+   "D is above and to the right of the stair-step line, so it is a nonmetal."
+  ],
+  "f": [
+   {
+    "type": "ptgrid",
+    "periods": 5,
+    "cells": {
+     "A": [
+      5,
+      14
+     ],
+     "B": [
+      4,
+      8
+     ],
+     "C": [
+      4,
+      14
+     ],
+     "D": [
+      3,
+      15
+     ]
+    }
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 2,
+  "q": "Each marked element forms one common monatomic ion. Which element's common ion has the same electron configuration as krypton?",
+  "c": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "h": "Krypton has 36 electrons. Find each element's usual ion charge from its group, then count the ion's electrons.",
+  "w": "A is rubidium (period 5, group 1), and Rb<sup>+</sup> has 37 − 1 = <b>36 electrons</b>, the krypton configuration. B is calcium: Ca<sup>2+</sup> has 18 electrons (argon). C is iodine: I<sup>−</sup> has 54 (xenon). D is sulfur: S<sup>2−</sup> has 18 (argon).",
+  "x": [
+   "",
+   "B is in group 2 of period 4. Its 2+ ion loses the 4s electrons and matches the noble gas of period 3.",
+   "C is in group 17 of period 5. Its 1− ion gains an electron and matches the noble gas of period 5.",
+   "D is in group 16 of period 3. Its 2− ion matches the noble gas at the end of period 3."
+  ],
+  "f": [
+   {
+    "type": "ptgrid",
+    "periods": 5,
+    "cells": {
+     "A": [
+      5,
+      1
+     ],
+     "B": [
+      4,
+      2
+     ],
+     "C": [
+      5,
+      17
+     ],
+     "D": [
+      3,
+      16
+     ]
+    }
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 3,
+  "q": "The box shows a representative portion of an ionic solid made of metal ions and nitride ions, N<sup>3−</sup>. Which metal could form this compound?",
+  "c": [
+   "calcium",
+   "potassium",
+   "aluminum",
+   "tin, as Sn<sup>4+</sup>"
+  ],
+  "h": "Count each kind of ion. The total positive charge must cancel the total negative charge.",
+  "w": "The box holds 6 metal ions and 4 nitride ions, a 3 : 2 ratio. Four N<sup>3−</sup> carry −12, so each of the 6 metal ions is +2: a group 2 metal such as <b>calcium</b> (Ca<sub>3</sub>N<sub>2</sub>). K<sup>+</sup> would need a 3 : 1 ratio, Al<sup>3+</sup> a 1 : 1 ratio, and Sn<sup>4+</sup> a 3 : 4 ratio.",
+  "x": [
+   "",
+   "A 1+ ion would need three metal ions for every nitride ion. Recount the ratio in the box.",
+   "A 3+ ion would pair one to one with N³⁻. The box has more metal ions than nitride ions.",
+   "A 4+ ion would need more nitride ions than metal ions. The box shows the reverse."
+  ],
+  "f": [
+   {
+    "type": "particles",
+    "seed": 21,
+    "key": {
+     "M": {
+      "c": "#9b7fd1",
+      "n": "metal ion"
+     },
+     "X": {
+      "c": "#3b82b4",
+      "n": "N³⁻ ion",
+      "q": "−",
+      "r": 13
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 2,
+  "q": "Water molecules are not shown. Which box best represents an aqueous solution of sodium phosphate, Na<sub>3</sub>PO<sub>4</sub>?",
+  "c": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "h": "Sodium phosphate separates into Na<sup>+</sup> ions and PO<sub>4</sub><sup>3−</sup> ions. The polyatomic ion stays in one piece.",
+  "w": "Each Na<sub>3</sub>PO<sub>4</sub> releases 3 Na<sup>+</sup> and 1 intact PO<sub>4</sub><sup>3−</sup>. Box <b>I</b> shows 6 Na<sup>+</sup> and 2 PO<sub>4</sub><sup>3−</sup>, the 3 : 1 ratio. Box II has a 1 : 1 ratio, box III breaks phosphate into separate P and O atoms, and box IV has a 2 : 1 ratio, as if phosphate were 2−.",
+  "x": [
+   "",
+   "This 1 to 1 ratio would fit a phosphate ion with a 1− charge. Phosphate is 3−.",
+   "The atoms of a polyatomic ion stay bonded together in water.",
+   "This 2 to 1 ratio would fit a 2− anion. Phosphate carries a larger charge."
+  ],
+  "f": [
+   {
+    "type": "particles",
+    "seed": 33,
+    "key": {
+     "Na": {
+      "c": "#9b7fd1",
+      "n": "Na⁺",
+      "q": "+",
+      "r": 9
+     },
+     "P": {
+      "c": "#f2c14e",
+      "n": "P"
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O",
+      "r": 8
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "water": true,
+      "mols": [
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "P",
+        "O",
+        "O",
+        "O",
+        "O"
+       ],
+       [
+        "P",
+        "O",
+        "O",
+        "O",
+        "O"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "water": true,
+      "mols": [
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "P",
+        "O",
+        "O",
+        "O",
+        "O"
+       ],
+       [
+        "P",
+        "O",
+        "O",
+        "O",
+        "O"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "water": true,
+      "mols": [
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "O"
+       ],
+       [
+        "O"
+       ],
+       [
+        "O"
+       ],
+       [
+        "O"
+       ],
+       [
+        "O"
+       ],
+       [
+        "O"
+       ],
+       [
+        "O"
+       ],
+       [
+        "O"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "water": true,
+      "mols": [
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "Na"
+       ],
+       [
+        "P",
+        "O",
+        "O",
+        "O",
+        "O"
+       ],
+       [
+        "P",
+        "O",
+        "O",
+        "O",
+        "O"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 2,
+  "q": "Boxes I–III each show a sample of a pure substance. Which statements are true?<br>I. Box II contains a compound because each molecule has three atoms.<br>II. Boxes I and II show two allotropes of oxygen.<br>III. The atoms in box III are isotopes of the atoms in box I.",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "II only",
+   "I, II and III"
+  ],
+  "h": "A compound needs two or more different elements. Allotropes are different forms of one element, and isotopes are atoms of one element with different numbers of neutrons.",
+  "w": "I is false: box II (O<sub>3</sub>, ozone) has only oxygen atoms, so it is an element, not a compound. II is true: O<sub>2</sub> and O<sub>3</sub> are allotropes, different molecular forms of oxygen. III is true: <sup>16</sup>O and <sup>18</sup>O have the same 8 protons but different neutron counts. <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement I is false. Every atom in box II is oxygen, so O₃ is an element.",
+   "Statement III is also true. ¹⁶O and ¹⁸O are both oxygen with different numbers of neutrons.",
+   "Statement I is false. A compound must contain more than one element."
+  ],
+  "f": [
+   {
+    "type": "particles",
+    "seed": 41,
+    "key": {
+     "O": {
+      "c": "#e0675a",
+      "n": "¹⁶O atom"
+     },
+     "Q": {
+      "c": "#9b7fd1",
+      "n": "¹⁸O atom",
+      "r": 12
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "O",
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O",
+        "O"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "mols": [
+       [
+        "Q",
+        "Q"
+       ],
+       [
+        "Q",
+        "Q"
+       ],
+       [
+        "Q",
+        "Q"
+       ],
+       [
+        "Q",
+        "Q"
+       ],
+       [
+        "Q",
+        "Q"
+       ],
+       [
+        "Q",
+        "Q"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 3,
+  "q": "Three species are listed in the table. Which statements are true?<br>I. Species 1 and species 2 are isotopes of the same element.<br>II. Species 1 and species 3 have the same number of neutrons.<br>III. Species 2 and species 3 have the same number of electrons.",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Neutrons = mass number − atomic number. Electrons = atomic number − charge.",
+  "w": "I is true: both have 26 protons (iron). II is false: species 1 has 54 − 26 = 28 neutrons and species 3 has 54 − 24 = 30. III is true: Fe<sup>2+</sup> has 26 − 2 = 24 electrons and neutral Cr has 24. <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true. Count electrons as atomic number minus charge for each species.",
+   "Statement II is false. Equal mass numbers do not mean equal neutrons when the atomic numbers differ.",
+   "Statement II is false. Subtract each atomic number from 54 and compare."
+  ],
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Species",
+     "Symbol"
+    ],
+    "rows": [
+     [
+      "1",
+      "<sup>54</sup><sub>26</sub>Fe<sup>3+</sup>"
+     ],
+     [
+      "2",
+      "<sup>56</sup><sub>26</sub>Fe<sup>2+</sup>"
+     ],
+     [
+      "3",
+      "<sup>54</sup><sub>24</sub>Cr"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 3,
+  "k": 1,
+  "q": "Element X exists as X<sub>2</sub> molecules and has only two isotopes, of mass 50 u and 52 u. The mass spectrum of X<sub>2</sub> shows the three peaks graphed, with heights relative to the tallest peak. What percent of X atoms are the mass-50 isotope?",
+  "c": [
+   "80%",
+   "64%",
+   "67%",
+   "50%"
+  ],
+  "h": "Mass 100 is two light atoms, 102 one of each, 104 two heavy. With light fraction p, the peaks are p² : 2p(1 − p) : (1 − p)².",
+  "w": "The heights 100 : 50 : 6.25 match p² : 2p(1 − p) : (1 − p)². The ratio of the first two peaks gives p² ÷ 2p(1 − p) = 2, so p = <b>0.80, or 80%</b>. Check: 0.64 : 0.32 : 0.04 = 100 : 50 : 6.25. 64% is the share of molecules in the tallest peak, 67% ignores the mass-104 peak, and 50% would give peaks in a 1 : 2 : 1 ratio.",
+  "x": [
+   "",
+   "64% is the fraction of molecules made of two light atoms, not the fraction of light atoms.",
+   "This compares only the first two peaks as if each held one isotope. Each X₂ peak contains two atoms.",
+   "Equal amounts of the two isotopes would make the middle peak the tallest."
+  ],
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Mass-to-charge ratio (m/z)",
+     "min": 98,
+     "max": 106,
+     "ticks": [
+      98,
+      100,
+      102,
+      104,
+      106
+     ]
+    },
+    "y": {
+     "label": "Relative peak height",
+     "min": 0,
+     "max": 120,
+     "ticks": [
+      0,
+      20,
+      40,
+      60,
+      80,
+      100,
+      120
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        100,
+        100
+       ],
+       [
+        102,
+        50
+       ],
+       [
+        104,
+        6.25
+       ]
+      ],
+      "bars": true,
+      "barW": 0.5,
+      "color": "#3b82b4"
+     }
+    ],
+    "marks": [
+     [
+      100,
+      107,
+      "100"
+     ],
+     [
+      102,
+      57,
+      "50"
+     ],
+     [
+      104,
+      13,
+      "6.25"
+     ]
+    ],
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "atoms",
+  "d": 2,
+  "k": 1,
+  "q": "The box shows a representative sample of magnesium atoms, with the three natural isotopes drawn in different colors. Based on this sample, what is the average atomic mass of magnesium?",
+  "c": [
+   "24.28 u",
+   "24.98 u",
+   "25.68 u",
+   "23.99 u"
+  ],
+  "h": "Count the atoms of each isotope, turn each count into a fraction of the total, and take the weighted average of the masses.",
+  "w": "The box has 20 atoms: 16 <sup>24</sup>Mg, 2 <sup>25</sup>Mg and 2 <sup>26</sup>Mg. Average = (16 × 23.985 + 2 × 24.986 + 2 × 25.983) ÷ 20 = <b>24.28 u</b>. 24.98 u is a simple average of the three masses, 25.68 u gives the 16 atoms to the heaviest isotope, and 23.99 u ignores the minor isotopes.",
+  "x": [
+   "",
+   "This is a simple average of the three masses. The isotopes are not equally common in the box.",
+   "This gives the largest weight to the heaviest isotope. Recount which color is most common.",
+   "This uses only the most common isotope. The other two also add to the average."
+  ],
+  "f": [
+   {
+    "type": "particles",
+    "seed": 52,
+    "key": {
+     "A": {
+      "c": "#5aa469",
+      "n": "²⁴Mg (23.985 u)"
+     },
+     "B": {
+      "c": "#f2c14e",
+      "n": "²⁵Mg (24.986 u)"
+     },
+     "C": {
+      "c": "#e0675a",
+      "n": "²⁶Mg (25.983 u)"
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "atoms",
+  "d": 3,
+  "q": "Rank the species in the table by number of neutrons, fewest first.",
+  "c": [
+   "II &lt; III &lt; I",
+   "II &lt; I &lt; III",
+   "I &lt; II &lt; III",
+   "I &lt; III &lt; II"
+  ],
+  "h": "Neutrons = mass number − atomic number. The charge changes electrons, not neutrons.",
+  "w": "Neutrons: I = 82 − 34 = 48, II = 81 − 35 = 46, III = 83 − 36 = 47. So <b>II &lt; III &lt; I</b>. Ordering by mass number gives II &lt; I &lt; III, and ordering by atomic number gives I &lt; II &lt; III. The 2− charge on species I changes its electrons, not its neutrons.",
+  "x": [
+   "",
+   "This orders the species by mass number. Subtract the atomic number from each first.",
+   "This orders the species by atomic number. Neutrons are mass number minus atomic number.",
+   "This has the order backward. The question asks for the fewest neutrons first."
+  ],
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "",
+     "Species"
+    ],
+    "rows": [
+     [
+      "I",
+      "<sup>82</sup><sub>34</sub>Se<sup>2−</sup>"
+     ],
+     [
+      "II",
+      "<sup>81</sup><sub>35</sub>Br"
+     ],
+     [
+      "III",
+      "<sup>83</sup><sub>36</sub>Kr"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 1,
+  "q": "Four elements are marked on the outline of the periodic table. Which two marked elements should have the most similar chemical properties?",
+  "c": [
+   "J and L",
+   "J and K",
+   "J and M",
+   "K and L"
+  ],
+  "h": "Elements in the same group have the same number of valence electrons.",
+  "w": "<b>J and L</b> are both in group 1 (sodium and rubidium), so each has one valence electron and they react in similar ways. J, K and M are all in period 3, and elements in the same period have different numbers of valence electrons. K and L are in different groups and periods.",
+  "x": [
+   "",
+   "J and K are neighbors in the same period, but they have different numbers of valence electrons.",
+   "J and M are in the same period at opposite ends. One is a reactive metal and the other a nonmetal.",
+   "K and L are in different groups, so they have different numbers of valence electrons."
+  ],
+  "f": [
+   {
+    "type": "ptgrid",
+    "periods": 5,
+    "cells": {
+     "J": [
+      3,
+      1
+     ],
+     "K": [
+      3,
+      2
+     ],
+     "L": [
+      5,
+      1
+     ],
+     "M": [
+      3,
+      17
+     ]
+    }
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 1,
+  "q": "The Lewis structures show the ions in a compound of chlorine with a period 3 metal, M. Which element is M?",
+  "c": [
+   "magnesium",
+   "sodium",
+   "aluminum",
+   "calcium"
+  ],
+  "h": "Read the charge on M. A main-group metal's ion charge equals the number of valence electrons it lost.",
+  "w": "Each chloride ion is 1−, and two of them balance M<sup>2+</sup>. A 2+ ion in period 3 comes from group 2: <b>magnesium</b> (MgCl<sub>2</sub>). Sodium forms 1+ ions, aluminum forms 3+ ions, and calcium is in period 4.",
+  "x": [
+   "",
+   "Sodium is in group 1 and forms 1+ ions.",
+   "Aluminum is in group 13 and forms 3+ ions.",
+   "Calcium forms 2+ ions, but it is in period 4."
+  ],
+  "s": [
+   {
+    "a": [
+     [
+      "M",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [],
+    "br": "2+"
+   },
+   {
+    "a": [
+     [
+      "Cl",
+      0,
+      0,
+      4,
+      0,
+      ""
+     ]
+    ],
+    "b": [],
+    "br": "−"
+   },
+   {
+    "a": [
+     [
+      "Cl",
+      0,
+      0,
+      4,
+      0,
+      ""
+     ]
+    ],
+    "b": [],
+    "br": "−"
+   }
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 1,
+  "q": "An ion contains 50 protons, 70 neutrons and 48 electrons. Which symbol represents it?",
+  "c": [
+   "<sup>120</sup><sub>50</sub>Sn<sup>2+</sup>",
+   "<sup>120</sup><sub>50</sub>Sn<sup>2−</sup>",
+   "<sup>70</sup><sub>50</sub>Sn<sup>2+</sup>",
+   "<sup>120</sup><sub>48</sub>Cd"
+  ],
+  "h": "Protons set the element and the atomic number. Add protons and neutrons for the mass number. Compare protons with electrons for the charge.",
+  "w": "50 protons is tin, the mass number is 50 + 70 = 120, and 50 − 48 = +2: <b><sup>120</sup><sub>50</sub>Sn<sup>2+</sup></b>. Two fewer electrons than protons gives a positive charge, the mass number is not the neutron count, and the electron count does not set the element.",
+  "x": [
+   "",
+   "There are fewer electrons than protons, so the charge is positive.",
+   "The mass number counts protons and neutrons together.",
+   "The element is set by the number of protons, not electrons."
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ },
+ {
+  "t": "atoms",
+  "d": 2,
+  "q": "Rank these species by number of electrons, fewest first.<br>I. Ca<sup>2+</sup><br>II. Se<sup>2−</sup><br>III. Ti",
+  "c": [
+   "I &lt; III &lt; II",
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III",
+   "II &lt; I &lt; III"
+  ],
+  "h": "Start from each atomic number. Subtract electrons for a positive charge and add them for a negative charge.",
+  "w": "Ca<sup>2+</sup>: 20 − 2 = 18. Ti: 22. Se<sup>2−</sup>: 34 + 2 = 36. So <b>I &lt; III &lt; II</b>. The other orders come from adding electrons to the cation, removing them from the anion, or ranking by atomic number alone.",
+  "x": [
+   "",
+   "Ca²⁺ has lost two electrons. Recount it and compare with Ti.",
+   "Se²⁻ has gained two electrons, so it has more than 34.",
+   "A 2− ion has more electrons than its atom. Recount Se²⁻."
+  ],
+  "src": "acs-gc-modeled",
+  "k": 0
+ }
+]

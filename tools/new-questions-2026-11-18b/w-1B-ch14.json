@@ -1,0 +1,1350 @@
+[
+ {
+  "t": "thermo",
+  "q": "Two connected flasks of equal volume are at the same temperature. Before the valve between them is opened, one holds only neon and the other only argon, both behaving as ideal gases. The drawings show the flasks before and some time after the valve is opened. Which statement describes this process?",
+  "c": [
+   "ΔH ≈ 0 and ΔS &gt; 0; it is spontaneous, driven by entropy.",
+   "ΔH &lt; 0 and ΔS ≈ 0; it is spontaneous because energy is released.",
+   "ΔH ≈ 0 and ΔS &lt; 0; it happens only because the valve is opened.",
+   "ΔH &gt; 0 and ΔS &gt; 0; it is spontaneous only at high temperature."
+  ],
+  "h": "Ideal-gas atoms do not attract each other, so mixing involves no bond making or breaking. Count the ways the atoms can be arranged before and after.",
+  "w": "Ideal gases do not interact, so mixing releases or absorbs no heat (ΔH ≈ 0). After mixing, each kind of atom can be anywhere in twice the volume, so there are many more arrangements and ΔS &gt; 0. The process is therefore <b>spontaneous because of the entropy increase</b>; the reverse (unmixing) never happens on its own.",
+  "x": [
+   "",
+   "Ideal-gas atoms do not attract each other, so no energy is released when they mix.",
+   "Each gas spreads into a larger volume, which increases the number of arrangements, not decreases it.",
+   "No energy is needed to mix ideal gases, so mixing does not require a high temperature."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 3,
+    "key": {
+     "A": {
+      "c": "#e0675a",
+      "n": "Ne atom"
+     },
+     "B": {
+      "c": "#3b82b4",
+      "n": "Ar atom"
+     }
+    },
+    "cap": "Before (valve closed)",
+    "boxes": [
+     {
+      "cap": "Flask 1",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ]
+      ]
+     },
+     {
+      "cap": "Flask 2",
+      "mols": [
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "particles",
+    "seed": 9,
+    "key": {
+     "A": {
+      "c": "#e0675a",
+      "n": "Ne atom"
+     },
+     "B": {
+      "c": "#3b82b4",
+      "n": "Ar atom"
+     }
+    },
+    "cap": "After (valve open)",
+    "boxes": [
+     {
+      "cap": "Flask 1",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ]
+      ]
+     },
+     {
+      "cap": "Flask 2",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Each pair of drawings shows a gas-phase reaction in a rigid container at constant temperature, before and after. For which processes does the entropy of the system DECREASE?",
+  "c": [
+   "II and III only",
+   "I only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "At constant temperature and volume, the number of independent gas particles is the main factor. Count the particles before and after in each.",
+  "w": "I: 4 X<sub>2</sub> → 2 X<sub>2</sub> + 4 X, so 4 particles become 6; entropy increases. II: 4 A + 4 B → 4 AB, so 8 particles become 4; entropy decreases. III: 4 AB + 2 B<sub>2</sub> → 4 AB<sub>2</sub>, so 6 particles become 4; entropy decreases. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Process I makes more gas particles (4 become 6), so its entropy rises. Recount II and III.",
+   "Process II also decreases entropy, since 8 separate atoms become 4 molecules.",
+   "Process I is a dissociation that increases the number of gas particles, so its entropy increases."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 4,
+    "arrow": true,
+    "key": {
+     "X": {
+      "c": "#e0675a",
+      "n": "X"
+     },
+     "A": {
+      "c": "#3b82b4",
+      "n": "A"
+     },
+     "B": {
+      "c": "#f2c14e",
+      "n": "B"
+     }
+    },
+    "cap": "I",
+    "boxes": [
+     {
+      "cap": "Before",
+      "mols": [
+       [
+        "X",
+        "X"
+       ],
+       [
+        "X",
+        "X"
+       ],
+       [
+        "X",
+        "X"
+       ],
+       [
+        "X",
+        "X"
+       ]
+      ]
+     },
+     {
+      "cap": "After",
+      "mols": [
+       [
+        "X",
+        "X"
+       ],
+       [
+        "X",
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "particles",
+    "seed": 6,
+    "arrow": true,
+    "key": {
+     "X": {
+      "c": "#e0675a",
+      "n": "X"
+     },
+     "A": {
+      "c": "#3b82b4",
+      "n": "A"
+     },
+     "B": {
+      "c": "#f2c14e",
+      "n": "B"
+     }
+    },
+    "cap": "II",
+    "boxes": [
+     {
+      "cap": "Before",
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ]
+      ]
+     },
+     {
+      "cap": "After",
+      "mols": [
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "particles",
+    "seed": 8,
+    "arrow": true,
+    "key": {
+     "X": {
+      "c": "#e0675a",
+      "n": "X"
+     },
+     "A": {
+      "c": "#3b82b4",
+      "n": "A"
+     },
+     "B": {
+      "c": "#f2c14e",
+      "n": "B"
+     }
+    },
+    "cap": "III",
+    "boxes": [
+     {
+      "cap": "Before",
+      "mols": [
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "B",
+        "B"
+       ]
+      ]
+     },
+     {
+      "cap": "After",
+      "mols": [
+       [
+        "A",
+        "B",
+        "B"
+       ],
+       [
+        "A",
+        "B",
+        "B"
+       ],
+       [
+        "A",
+        "B",
+        "B"
+       ],
+       [
+        "A",
+        "B",
+        "B"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Using the standard molar entropies in the table, calculate ΔS° for the reaction shown at 298 K.",
+  "c": [
+   "−187.8 J K<sup>−1</sup>",
+   "−196.4 J K<sup>−1</sup>",
+   "+17.2 J K<sup>−1</sup>",
+   "+187.8 J K<sup>−1</sup>"
+  ],
+  "h": "ΔS° = ΣnS°(products) − ΣnS°(reactants). O<sub>2</sub> is an element but its S° is not zero.",
+  "w": "ΔS° = 2(256.8) − [2(248.2) + 205.0] = 513.6 − 701.4 = <b>−187.8 J K<sup>−1</sup></b>. The negative sign fits 3 mol of gas becoming 2 mol of gas. Unlike ΔH°f and ΔG°f, S° of an element is not zero.",
+  "x": [
+   "",
+   "This drops the coefficients of 2. Each S° must be multiplied by its coefficient.",
+   "This leaves out O₂. Elements have nonzero standard entropies.",
+   "This subtracts products from reactants. Three moles of gas becoming two gives a negative ΔS°."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 SO<sub>2</sub>(g) + O<sub>2</sub>(g) → 2 SO<sub>3</sub>(g)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "S° (J mol<sup>−1</sup> K<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "SO<sub>2</sub>(g)",
+      "248.2"
+     ],
+     [
+      "O<sub>2</sub>(g)",
+      "205.0"
+     ],
+     [
+      "SO<sub>3</sub>(g)",
+      "256.8"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Baking soda decomposes when heated, as shown. Using the data in the table, and assuming ΔH° and ΔS° do not change with temperature, above what temperature is the reaction spontaneous under standard conditions?",
+  "c": [
+   "406 K",
+   "133 K",
+   "0.406 K",
+   "It is spontaneous at all temperatures."
+  ],
+  "h": "Find ΔH° from the ΔH°f values and ΔS° from the S° values. The reaction becomes spontaneous where ΔG° = 0, so T = ΔH°/ΔS°.",
+  "w": "ΔH° = [−1130.7 + (−241.8) + (−393.5)] − 2(−950.8) = +135.6 kJ. ΔS° = [135.0 + 188.8 + 213.8] − 2(101.7) = +334.2 J K<sup>−1</sup>. Both are positive, so the reaction is spontaneous above T = 135 600 J / 334.2 J K<sup>−1</sup> = <b>406 K</b> (about 133 °C).",
+  "x": [
+   "",
+   "133 is the crossover temperature in degrees Celsius. The question asks for kelvins.",
+   "This mixes kJ with J. Convert ΔH° to joules before dividing by ΔS°.",
+   "ΔH° is positive here, so at low temperature ΔG° is positive and the reaction is not spontaneous."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 NaHCO<sub>3</sub>(s) → Na<sub>2</sub>CO<sub>3</sub>(s) + H<sub>2</sub>O(g) + CO<sub>2</sub>(g)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "ΔH°<sub>f</sub> (kJ mol<sup>−1</sup>)",
+     "S° (J mol<sup>−1</sup> K<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "NaHCO<sub>3</sub>(s)",
+      "−950.8",
+      "101.7"
+     ],
+     [
+      "Na<sub>2</sub>CO<sub>3</sub>(s)",
+      "−1130.7",
+      "135.0"
+     ],
+     [
+      "H<sub>2</sub>O(g)",
+      "−241.8",
+      "188.8"
+     ],
+     [
+      "CO<sub>2</sub>(g)",
+      "−393.5",
+      "213.8"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Using the ΔG°<sub>f</sub> values in the table, calculate ΔG° at 298 K for the combustion of hydrogen sulfide shown.",
+  "c": [
+   "−990.6 kJ",
+   "−495.3 kJ",
+   "+990.6 kJ",
+   "−1124.2 kJ"
+  ],
+  "h": "ΔG° = ΣnΔG°<sub>f</sub>(products) − ΣnΔG°<sub>f</sub>(reactants). ΔG°<sub>f</sub> of O<sub>2</sub>(g) is zero.",
+  "w": "ΔG° = [2(−300.1) + 2(−228.6)] − [2(−33.4) + 3(0)] = −1057.4 + 66.8 = <b>−990.6 kJ</b>.",
+  "x": [
+   "",
+   "This ignores the coefficients of 2 in the balanced equation.",
+   "This subtracts products from reactants, which flips the sign.",
+   "This adds the H₂S term instead of subtracting it. Reactant values are subtracted."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 H<sub>2</sub>S(g) + 3 O<sub>2</sub>(g) → 2 SO<sub>2</sub>(g) + 2 H<sub>2</sub>O(g)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "ΔG°<sub>f</sub> (kJ mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "H<sub>2</sub>S(g)",
+      "−33.4"
+     ],
+     [
+      "SO<sub>2</sub>(g)",
+      "−300.1"
+     ],
+     [
+      "H<sub>2</sub>O(g)",
+      "−228.6"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "The graph shows ΔG° versus temperature for a reaction, assuming ΔH° and ΔS° are constant. Which statements are true?<br>I. ΔH° is negative.<br>II. At 400 K, the equilibrium constant K is greater than 1.<br>III. ΔS° is positive.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "ΔG° = ΔH° − TΔS° is a straight line: its intercept at T = 0 is ΔH°, and its slope is −ΔS°.",
+  "w": "I is true: the line meets T = 0 at ΔG° = −120 kJ, so ΔH° = −120 kJ. II is true: at 400 K, ΔG° = −40 kJ, which is negative, so K &gt; 1. III is false: the slope is +0.200 kJ K<sup>−1</sup> = −ΔS°, so ΔS° = −200 J K<sup>−1</sup>. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is also true. ΔG° is still negative at 400 K, and a negative ΔG° means K is greater than 1.",
+   "Statement III is false. A line that rises with temperature has a negative ΔS°, because the slope equals −ΔS°.",
+   "Statement III is false. The slope of the line equals −ΔS°, and this line slopes upward."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Temperature (K)",
+     "min": 0,
+     "max": 1000,
+     "ticks": [
+      0,
+      200,
+      400,
+      600,
+      800,
+      1000
+     ]
+    },
+    "y": {
+     "label": "ΔG° (kJ)",
+     "min": -140,
+     "max": 100,
+     "ticks": [
+      -120,
+      -80,
+      -40,
+      0,
+      40,
+      80
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        -120
+       ],
+       [
+        200,
+        -80
+       ],
+       [
+        400,
+        -40
+       ],
+       [
+        600,
+        0
+       ],
+       [
+        800,
+        40
+       ],
+       [
+        1000,
+        80
+       ]
+      ]
+     }
+    ],
+    "hlines": [
+     {
+      "y": 0,
+      "label": ""
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "For the reaction shown, ΔG° = +4.7 kJ at 298 K. A flask at 298 K contains the partial pressures listed. What is ΔG, and in which direction does the reaction proceed? (R = 8.314 J mol<sup>−1</sup> K<sup>−1</sup>)",
+  "c": [
+   "−2.7 kJ; more NO<sub>2</sub> forms",
+   "+12.1 kJ; more N<sub>2</sub>O<sub>4</sub> forms",
+   "+1.3 kJ; more N<sub>2</sub>O<sub>4</sub> forms",
+   "+4.7 kJ; more N<sub>2</sub>O<sub>4</sub> forms"
+  ],
+  "h": "ΔG = ΔG° + RT ln Q, with Q = P<sub>NO2</sub><sup>2</sup>/P<sub>N2O4</sub>. Convert RT ln Q to kJ.",
+  "w": "Q = (0.20)<sup>2</sup>/0.80 = 0.050. RT ln Q = (8.314)(298) ln(0.050) = −7420 J = −7.4 kJ. ΔG = 4.7 − 7.4 = <b>−2.7 kJ</b>, so the forward reaction is spontaneous in this mixture and <b>more NO<sub>2</sub> forms</b>, even though ΔG° is positive.",
+  "x": [
+   "",
+   "This subtracts RT ln Q instead of adding it. ln Q is negative here because Q is less than 1.",
+   "This leaves the NO₂ pressure unsquared. Its coefficient is 2.",
+   "This is ΔG°, which applies only when every pressure is 1 atm."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "N<sub>2</sub>O<sub>4</sub>(g) ⇌ 2 NO<sub>2</sub>(g)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Gas",
+     "Partial pressure (atm)"
+    ],
+    "rows": [
+     [
+      "N<sub>2</sub>O<sub>4</sub>",
+      "0.80"
+     ],
+     [
+      "NO<sub>2</sub>",
+      "0.20"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "For the dissolution of silver chloride shown, ΔG° = +55.6 kJ at 25 °C. What is K<sub>sp</sub> of AgCl at 25 °C? (R = 8.314 J mol<sup>−1</sup> K<sup>−1</sup>)",
+  "c": [
+   "1.8×10<sup>−10</sup>",
+   "5.6×10<sup>9</sup>",
+   "0.98",
+   "3.6×10<sup>−23</sup>"
+  ],
+  "h": "Use ΔG° = −RT ln K with ΔG° in joules and T in kelvins.",
+  "w": "ln K = −ΔG°/RT = −55 600 / [(8.314)(298.15)] = −22.43, so <b>K<sub>sp</sub> = e<sup>−22.43</sup> = 1.8×10<sup>−10</sup></b>. A positive ΔG° means K &lt; 1, as expected for a nearly insoluble salt.",
+  "x": [
+   "",
+   "This drops the minus sign. A positive ΔG° must give K less than 1.",
+   "This leaves ΔG° in kJ while R is in J. Convert to 55 600 J first.",
+   "This treats the logarithm as base 10. ΔG° = −RT ln K uses the natural log."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "AgCl(s) ⇌ Ag<sup>+</sup>(aq) + Cl<sup>−</sup>(aq)    ΔG° = +55.6 kJ"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Three reactions are shown. For which of them is ΔS° positive?",
+  "c": [
+   "I only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Look at the states. Forming gas raises entropy; ions locking into a solid or gas molecules combining lowers it.",
+  "w": "I: solid KClO<sub>3</sub> gives 3 mol of O<sub>2</sub> gas, so ΔS° &gt; 0. II: free aqueous ions combine into a solid, so ΔS° &lt; 0. III: 2 mol of gas become 1 mol of gas, so ΔS° &lt; 0. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is misjudged. Dissolved ions locking into a solid lattice lose freedom, so entropy falls.",
+   "Reaction I makes 3 mol of gas from a solid, so its entropy rises. Recheck it.",
+   "Reactions II and III both reduce the number of freely moving particles, so their entropy falls."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "eq",
+    "text": "I. 2 KClO<sub>3</sub>(s) → 2 KCl(s) + 3 O<sub>2</sub>(g)"
+   },
+   {
+    "type": "eq",
+    "text": "II. Ba<sup>2+</sup>(aq) + SO<sub>4</sub><sup>2−</sup>(aq) → BaSO<sub>4</sub>(s)"
+   },
+   {
+    "type": "eq",
+    "text": "III. C<sub>2</sub>H<sub>4</sub>(g) + H<sub>2</sub>(g) → C<sub>2</sub>H<sub>6</sub>(g)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Rank these in order of INCREASING standard molar entropy at 25 °C.<br>I. Na(s)<br>II. NaCl(s)<br>III. Na(g)",
+  "c": [
+   "I &lt; II &lt; III",
+   "II &lt; I &lt; III",
+   "I &lt; III &lt; II",
+   "III &lt; I &lt; II"
+  ],
+  "h": "Gases have far higher entropy than solids. Between two solids, the one with more atoms per formula unit usually has more entropy.",
+  "w": "Gaseous sodium atoms move freely, so Na(g) has by far the largest S° (154 J mol<sup>−1</sup> K<sup>−1</sup>). Of the two solids, NaCl has two atoms per formula unit and so more ways to store energy (72 versus 51 J mol<sup>−1</sup> K<sup>−1</sup>). Order: <b>I &lt; II &lt; III</b>.",
+  "x": [
+   "",
+   "NaCl has two atoms per formula unit, so it has more entropy than metallic sodium, not less.",
+   "A gas has a much larger entropy than any solid at 25 °C.",
+   "Gaseous sodium has the highest entropy here, not the lowest."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Use the two reactions shown to find ΔG° at 298 K for SO<sub>3</sub>(g) → S(s) + <sup>3</sup>/<sub>2</sub> O<sub>2</sub>(g).",
+  "c": [
+   "+371.1 kJ",
+   "−371.1 kJ",
+   "+442.1 kJ",
+   "+229.1 kJ"
+  ],
+  "h": "Write the target as a sum of the given reactions. Reversing a reaction changes the sign of ΔG°; scaling it scales ΔG°.",
+  "w": "Reverse (1): SO<sub>2</sub> → S + O<sub>2</sub>, +300.1 kJ. Reverse (2) and halve it: SO<sub>3</sub> → SO<sub>2</sub> + ½ O<sub>2</sub>, +71.0 kJ. The sum is SO<sub>3</sub>(g) → S(s) + <sup>3</sup>/<sub>2</sub> O<sub>2</sub>(g), with ΔG° = <b>+371.1 kJ</b>.",
+  "x": [
+   "",
+   "The target is the reverse of forming SO₃ from its elements, so the sign must flip.",
+   "This uses reaction (2) without halving it. The target has only one SO₃.",
+   "This subtracts 71.0 from 300.1. Both reversed steps add positive ΔG° values."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "(1) S(s) + O<sub>2</sub>(g) → SO<sub>2</sub>(g)    ΔG° = −300.1 kJ"
+   },
+   {
+    "type": "eq",
+    "text": "(2) 2 SO<sub>2</sub>(g) + O<sub>2</sub>(g) → 2 SO<sub>3</sub>(g)    ΔG° = −142.0 kJ"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Molecule A (Q–P–Q, with P in the middle) and molecule B (P–Q–Q, with Q in the middle) are isomers that interconvert: A(g) ⇌ B(g). The box shows an equilibrium mixture at 298 K. What is ΔG° for A → B at 298 K? (R = 8.314 J mol<sup>−1</sup> K<sup>−1</sup>)",
+  "c": [
+   "−2.7 kJ mol<sup>−1</sup>",
+   "+2.7 kJ mol<sup>−1</sup>",
+   "0 kJ mol<sup>−1</sup>",
+   "−5.4 kJ mol<sup>−1</sup>"
+  ],
+  "h": "Count each isomer to find K = [B]/[A]. Then ΔG° = −RT ln K.",
+  "w": "The box holds 9 B and 3 A, so K = 9/3 = 3.0. ΔG° = −(8.314)(298) ln 3.0 = −2720 J = <b>−2.7 kJ mol<sup>−1</sup></b>. ΔG (not ΔG°) is zero at equilibrium. ΔG° is negative because K &gt; 1.",
+  "x": [
+   "",
+   "More B than A at equilibrium means K is greater than 1, which makes ΔG° negative.",
+   "At equilibrium ΔG is zero, but ΔG° is fixed by K and is not zero unless K = 1.",
+   "This uses only the number of B molecules. K is the ratio of B to A."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 12,
+    "key": {
+     "P": {
+      "c": "#3b82b4",
+      "n": "P",
+      "lin": true
+     },
+     "Q": {
+      "c": "#e0675a",
+      "n": "Q",
+      "lin": true
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Equilibrium, 298 K",
+      "mols": [
+       [
+        "P",
+        "Q",
+        "Q"
+       ],
+       [
+        "P",
+        "Q",
+        "Q"
+       ],
+       [
+        "P",
+        "Q",
+        "Q"
+       ],
+       [
+        "Q",
+        "P",
+        "Q"
+       ],
+       [
+        "Q",
+        "P",
+        "Q"
+       ],
+       [
+        "Q",
+        "P",
+        "Q"
+       ],
+       [
+        "Q",
+        "P",
+        "Q"
+       ],
+       [
+        "Q",
+        "P",
+        "Q"
+       ],
+       [
+        "Q",
+        "P",
+        "Q"
+       ],
+       [
+        "Q",
+        "P",
+        "Q"
+       ],
+       [
+        "Q",
+        "P",
+        "Q"
+       ],
+       [
+        "Q",
+        "P",
+        "Q"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Four reactions and their ΔH° values are listed. Which reaction is spontaneous under standard conditions ONLY at high temperatures?",
+  "c": [
+   "Reaction I",
+   "Reaction II",
+   "Reaction III",
+   "Reaction IV"
+  ],
+  "h": "Predict the sign of ΔS° from the moles of gas. 'Only at high T' needs ΔH° &gt; 0 and ΔS° &gt; 0.",
+  "w": "I: ΔH° &gt; 0 and 1 mol gas → 2 mol gas (ΔS° &gt; 0), so <b>Reaction I</b> is spontaneous only at high T. II: ΔH° &lt; 0 and gas → liquid (ΔS° &lt; 0), spontaneous only at low T. III: ΔH° &gt; 0 and 3 mol gas → 2 mol gas (ΔS° &lt; 0), never spontaneous. IV: ΔH° &lt; 0 and 2 mol gas → 3 mol gas (ΔS° &gt; 0), spontaneous at all T.",
+  "x": [
+   "",
+   "Reaction II is exothermic and turns gases into a liquid, so ΔS° is negative. It is favored at low temperature.",
+   "Reaction III is endothermic and lowers the moles of gas, so ΔG° is positive at every temperature.",
+   "Reaction IV is exothermic and makes more gas, so it is spontaneous at every temperature."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "",
+     "Reaction",
+     "ΔH° (kJ)"
+    ],
+    "rows": [
+     [
+      "I",
+      "PCl<sub>5</sub>(g) → PCl<sub>3</sub>(g) + Cl<sub>2</sub>(g)",
+      "+87.9"
+     ],
+     [
+      "II",
+      "2 H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2 H<sub>2</sub>O(l)",
+      "−571.6"
+     ],
+     [
+      "III",
+      "N<sub>2</sub>(g) + 2 O<sub>2</sub>(g) → 2 NO<sub>2</sub>(g)",
+      "+66.4"
+     ],
+     [
+      "IV",
+      "2 N<sub>2</sub>O(g) → 2 N<sub>2</sub>(g) + O<sub>2</sub>(g)",
+      "−163.2"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Four labeled gas molecules move freely between two connected bulbs of equal volume. The drawing shows one arrangement with two molecules in each bulb. How many distinct arrangements (microstates) have exactly two molecules in each bulb, compared with the number that have all four in the left bulb?",
+  "c": [
+   "6, compared with 1",
+   "1, compared with 1",
+   "16, compared with 1",
+   "4, compared with 4"
+  ],
+  "h": "List the ways to choose which two of the four molecules are in the left bulb.",
+  "w": "Choosing 2 of 4 molecules for the left bulb can be done in 4!/(2!2!) = <b>6 ways (12, 13, 14, 23, 24, 34), compared with only 1 way</b> to put all four on the left. Of the 2<sup>4</sup> = 16 total arrangements, the even split is the most probable distribution, which is why S = k ln W favors gases spreading out.",
+  "x": [
+   "",
+   "The molecules are labeled, so swapping which ones sit on the left gives different arrangements.",
+   "16 is the total number of arrangements for all distributions, not just the two-and-two split.",
+   "There is only one way to put every molecule in the left bulb."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 2,
+    "key": {
+     "1": {
+      "c": "#e0675a",
+      "n": "molecule 1",
+      "q": "1"
+     },
+     "2": {
+      "c": "#3b82b4",
+      "n": "molecule 2",
+      "q": "2"
+     },
+     "3": {
+      "c": "#5aa469",
+      "n": "molecule 3",
+      "q": "3"
+     },
+     "4": {
+      "c": "#9b7fd1",
+      "n": "molecule 4",
+      "q": "4"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Left bulb",
+      "mols": [
+       [
+        "1"
+       ],
+       [
+        "3"
+       ]
+      ]
+     },
+     {
+      "cap": "Right bulb",
+      "mols": [
+       [
+        "2"
+       ],
+       [
+        "4"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "The boxes show equilibrium mixtures for X<sub>2</sub>(g) ⇌ 2 X(g) in the same container at 300 K and at 1500 K. Which signs of ΔH° and ΔS° for the forward reaction fit these drawings?",
+  "c": [
+   "ΔH° &gt; 0 and ΔS° &gt; 0",
+   "ΔH° &lt; 0 and ΔS° &gt; 0",
+   "ΔH° &gt; 0 and ΔS° &lt; 0",
+   "ΔH° &lt; 0 and ΔS° &lt; 0"
+  ],
+  "h": "Breaking a bond always needs energy. Then ask how the number of gas particles changes and which term in ΔG° = ΔH° − TΔS° grows with temperature.",
+  "w": "Breaking the X–X bond absorbs energy (ΔH° &gt; 0), and one gas molecule becomes two atoms (ΔS° &gt; 0). At 300 K the ΔH° term dominates and almost only X<sub>2</sub> is present; at 1500 K the −TΔS° term dominates, so dissociation is favored. The answer is <b>ΔH° &gt; 0 and ΔS° &gt; 0</b>.",
+  "x": [
+   "",
+   "Bond breaking always absorbs energy. An exothermic dissociation with ΔS° greater than 0 would be favored even at low T.",
+   "One molecule becoming two gas atoms increases the number of particles, so ΔS° is not negative.",
+   "With both signs negative the reaction would be favored at low temperature, the opposite of the drawings."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 11,
+    "key": {
+     "X": {
+      "c": "#f2c14e",
+      "n": "X atom"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "300 K",
+      "mols": [
+       [
+        "X",
+        "X"
+       ],
+       [
+        "X",
+        "X"
+       ],
+       [
+        "X",
+        "X"
+       ],
+       [
+        "X",
+        "X"
+       ],
+       [
+        "X",
+        "X"
+       ],
+       [
+        "X",
+        "X"
+       ]
+      ]
+     },
+     {
+      "cap": "1500 K",
+      "mols": [
+       [
+        "X",
+        "X"
+       ],
+       [
+        "X",
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "For the reaction shown, ΔH° = −45.6 kJ and ΔS° = −125.7 J K<sup>−1</sup>. Assuming both are independent of temperature, what is ΔG° at 400 K?",
+  "c": [
+   "+4.7 kJ",
+   "−95.9 kJ",
+   "−8.1 kJ",
+   "+5.02×10<sup>4</sup> kJ"
+  ],
+  "h": "Use ΔG° = ΔH° − TΔS° with ΔS° converted to kJ K<sup>−1</sup>.",
+  "w": "ΔG° = −45.6 kJ − (400 K)(−0.1257 kJ K<sup>−1</sup>) = −45.6 + 50.3 = <b>+4.7 kJ</b>. At 400 K this exothermic reaction with negative ΔS° is no longer spontaneous under standard conditions.",
+  "x": [
+   "",
+   "This adds TΔS° instead of subtracting it. Subtracting a negative term makes ΔG° larger.",
+   "This uses 298 K. The question asks about 400 K.",
+   "This leaves ΔS° in J K⁻¹ while ΔH° is in kJ. Convert ΔS° to kJ K⁻¹ first."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "C<sub>2</sub>H<sub>4</sub>(g) + H<sub>2</sub>O(g) → C<sub>2</sub>H<sub>5</sub>OH(g)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Benzene boils at 80.1 °C under 1 atm, as shown. Which statements about this vaporization at 1 atm are true?<br>I. ΔG<sub>vap</sub> = 0 at 80.1 °C.<br>II. ΔS<sub>vap</sub> = ΔH<sub>vap</sub> × T<sub>b</sub>, with T<sub>b</sub> = 353.3 K.<br>III. At 60 °C, ΔG<sub>vap</sub> is positive.",
+  "c": [
+   "I and III only",
+   "I and II only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "At the normal boiling point, liquid and vapor at 1 atm are in equilibrium. Rearrange ΔG = ΔH − TΔS for that condition.",
+  "w": "I is true: at the normal boiling point the two phases are in equilibrium at 1 atm, so ΔG<sub>vap</sub> = 0. II is false: setting ΔG = 0 gives ΔS<sub>vap</sub> = ΔH<sub>vap</sub> / T<sub>b</sub>, a quotient, not a product. III is true: below T<sub>b</sub>, TΔS<sub>vap</sub> is smaller than ΔH<sub>vap</sub>, so ΔG<sub>vap</sub> &gt; 0 and benzene does not boil at 1 atm. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement II is false. Setting ΔG = 0 gives ΔS = ΔH divided by T, not multiplied.",
+   "Statement I is true. At the normal boiling point the liquid and vapor at 1 atm are in equilibrium.",
+   "Statement II is false. Check the units: J/mol times K cannot give J/(mol·K)."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "C<sub>6</sub>H<sub>6</sub>(l) ⇌ C<sub>6</sub>H<sub>6</sub>(g)    normal boiling point 80.1 °C"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Using the ΔG°<sub>f</sub> values in the table, calculate the equilibrium constant K at 298 K for the water–gas shift reaction shown. (R = 8.314 J mol<sup>−1</sup> K<sup>−1</sup>)",
+  "c": [
+   "1.0×10<sup>5</sup>",
+   "9.7×10<sup>−6</sup>",
+   "1.0",
+   "3.5×10<sup>11</sup>"
+  ],
+  "h": "First find ΔG° from the ΔG°<sub>f</sub> values (H<sub>2</sub> is an element). Then K = e<sup>−ΔG°/RT</sup> with ΔG° in joules.",
+  "w": "ΔG° = [−394.4 + 0] − [−137.2 + (−228.6)] = −28.6 kJ. ln K = 28 600 / [(8.314)(298)] = 11.54, so <b>K = 1.0×10<sup>5</sup></b>.",
+  "x": [
+   "",
+   "This drops the minus sign in ΔG° = −RT ln K. A negative ΔG° must give K greater than 1.",
+   "This leaves ΔG° in kJ while R is in J, which makes the exponent almost zero.",
+   "This treats the log as base 10. The relation uses the natural logarithm."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "CO(g) + H<sub>2</sub>O(g) ⇌ CO<sub>2</sub>(g) + H<sub>2</sub>(g)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "ΔG°<sub>f</sub> (kJ mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "CO(g)",
+      "−137.2"
+     ],
+     [
+      "H<sub>2</sub>O(g)",
+      "−228.6"
+     ],
+     [
+      "CO<sub>2</sub>(g)",
+      "−394.4"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "The graph shows the standard molar entropy of a substance as it is heated at 1 atm. The vertical jumps A and B are phase changes. Which jump is boiling, and why is it the larger one?",
+  "c": [
+   "B; gas molecules have far more possible positions than liquid ones.",
+   "A; melting breaks the solid lattice, which gives the largest entropy gain.",
+   "B; boiling releases heat, and released heat raises entropy.",
+   "A; phase changes at lower temperature always give larger entropy jumps."
+  ],
+  "h": "Melting happens at a lower temperature than boiling. Compare how much freedom molecules gain in each change.",
+  "w": "Boiling occurs at the higher temperature, so <b>B is boiling</b>. Its jump (85 J mol<sup>−1</sup> K<sup>−1</sup>) is much larger than the melting jump A (25 J mol<sup>−1</sup> K<sup>−1</sup>) because gas molecules spread through a vastly larger volume, so the number of possible arrangements increases enormously.",
+  "x": [
+   "",
+   "Melting comes first, at the lower temperature, and it is the smaller jump on this graph.",
+   "Boiling absorbs heat. It is the increase in molecular freedom that raises the entropy.",
+   "The lower-temperature jump on this graph is smaller. It is not boiling."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Temperature (K)",
+     "min": 0,
+     "max": 450,
+     "ticks": [
+      0,
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      350,
+      400,
+      450
+     ]
+    },
+    "y": {
+     "label": "S° (J mol<sup>−1</sup> K<sup>−1</sup>)",
+     "min": 0,
+     "max": 200,
+     "ticks": [
+      0,
+      40,
+      80,
+      120,
+      160,
+      200
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0
+       ],
+       [
+        50,
+        12
+       ],
+       [
+        100,
+        24
+       ],
+       [
+        150,
+        33
+       ],
+       [
+        200,
+        40
+       ],
+       [
+        200,
+        65
+       ],
+       [
+        250,
+        73
+       ],
+       [
+        300,
+        82
+       ],
+       [
+        350,
+        90
+       ],
+       [
+        350,
+        175
+       ],
+       [
+        400,
+        181
+       ],
+       [
+        450,
+        186
+       ]
+      ]
+     }
+    ],
+    "marks": [
+     [
+      212,
+      52,
+      "A"
+     ],
+     [
+      362,
+      132,
+      "B"
+     ]
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ }
+]

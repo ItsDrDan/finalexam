@@ -1,0 +1,1256 @@
+[
+ {
+  "t": "thermo",
+  "q": "The heating curve shows 0.500 mol of a pure substance heated at constant pressure. What is the molar enthalpy of vaporization of the substance?",
+  "c": [
+   "40.0 kJ mol<sup>−1</sup>",
+   "20.0 kJ mol<sup>−1</sup>",
+   "4.0 kJ mol<sup>−1</sup>",
+   "64.0 kJ mol<sup>−1</sup>"
+  ],
+  "h": "Vaporization happens on the flat part at the boiling point. The heat absorbed is the length of that plateau along the heat axis.",
+  "w": "The upper plateau (boiling, 80 °C) runs from 12 kJ to 32 kJ, so 20.0 kJ boils 0.500 mol. ΔH<sub>vap</sub> = 20.0 kJ ÷ 0.500 mol = <b>40.0 kJ mol<sup>−1</sup></b>. 20.0 kJ mol<sup>−1</sup> forgets to divide by the moles, 4.0 kJ mol<sup>−1</sup> uses the melting plateau, and 64.0 kJ mol<sup>−1</sup> uses the total heat read at the end of the plateau.",
+  "x": [
+   "",
+   "20.0 kJ is the heat for 0.500 mol. A molar value is per mole of substance.",
+   "This uses the lower plateau, where the substance melts rather than boils.",
+   "Only the heat absorbed along the boiling plateau counts, not the total heat added from the start."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Heat added (kJ)",
+     "min": 0,
+     "max": 36,
+     "ticks": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36
+     ]
+    },
+    "y": {
+     "label": "Temperature (°C)",
+     "min": -40,
+     "max": 120,
+     "ticks": [
+      -40,
+      -20,
+      0,
+      20,
+      40,
+      60,
+      80,
+      100,
+      120
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        -40
+       ],
+       [
+        2,
+        -20
+       ],
+       [
+        4,
+        -20
+       ],
+       [
+        12,
+        80
+       ],
+       [
+        32,
+        80
+       ],
+       [
+        34,
+        110
+       ]
+      ]
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "The heating curve shows a 50.0 g sample heated at a steady rate from a solid to a gas. Which statements are true?<br>I. The solid has a larger specific heat than the liquid.<br>II. More heat is needed to melt the sample than to boil it.<br>III. Between points B and C, the added heat separates the particles instead of raising their average kinetic energy.",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "On the sloped parts, a smaller temperature rise per kJ means a larger specific heat. On the flat parts, compare the lengths along the heat axis.",
+  "w": "Solid (A→B) rises 30 °C over 1.5 kJ (20 °C per kJ); liquid (C→D) rises 40 °C over 4 kJ (10 °C per kJ). The liquid warms more slowly, so the liquid has the larger specific heat: I is false. Melting (B→C) takes 4 kJ but boiling (D→E) takes 12 kJ: II is false. On a plateau the temperature, and so the average kinetic energy, stays constant while the heat overcomes attractions: III is true. The answer is <b>III only</b>.",
+  "x": [
+   "",
+   "Statement I is false. The solid segment is steeper, so the solid warms faster per kJ and has the smaller specific heat.",
+   "Statement II is false. The boiling plateau D to E is much longer along the heat axis than the melting plateau B to C.",
+   "Statements I and II are both false. Compare the slopes of the sloped parts and the lengths of the two flat parts."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Heat added (kJ)",
+     "min": 0,
+     "max": 24,
+     "ticks": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24
+     ]
+    },
+    "y": {
+     "label": "Temperature (°C)",
+     "min": -40,
+     "max": 80,
+     "ticks": [
+      -40,
+      -20,
+      0,
+      20,
+      40,
+      60,
+      80
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        -30
+       ],
+       [
+        1.5,
+        0
+       ],
+       [
+        5.5,
+        0
+       ],
+       [
+        9.5,
+        40
+       ],
+       [
+        21.5,
+        40
+       ],
+       [
+        23.5,
+        70
+       ]
+      ]
+     }
+    ],
+    "points": [
+     [
+      0,
+      -30,
+      "A",
+      8,
+      4
+     ],
+     [
+      1.5,
+      0,
+      "B",
+      -14,
+      -8
+     ],
+     [
+      5.5,
+      0,
+      "C",
+      4,
+      16
+     ],
+     [
+      9.5,
+      40,
+      "D",
+      -14,
+      -8
+     ],
+     [
+      21.5,
+      40,
+      "E",
+      4,
+      16
+     ],
+     [
+      23.5,
+      70,
+      "F",
+      -16,
+      -4
+     ]
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "The energy diagram shows the path of a reaction, with the energy of each labeled point. Which description of the reaction is correct?",
+  "c": [
+   "ΔH = +40 kJ; endothermic",
+   "ΔH = +95 kJ; endothermic",
+   "ΔH = −40 kJ; exothermic",
+   "ΔH = +55 kJ; endothermic"
+  ],
+  "h": "ΔH compares only the products with the reactants. The peak is the activation energy, not the enthalpy change.",
+  "w": "ΔH = E(products) − E(reactants) = 40 kJ − 0 kJ = +40 kJ. The products are higher in energy than the reactants, so heat is absorbed: <b>ΔH = +40 kJ; endothermic</b>. +95 kJ is the activation energy of the forward reaction, +55 kJ is the activation energy of the reverse reaction, and −40 kJ has the sign backward.",
+  "x": [
+   "",
+   "95 kJ is the height of the peak above the reactants. That is the activation energy, not ΔH.",
+   "The products sit above the reactants, so the system gains energy. Check the sign.",
+   "55 kJ is the drop from the peak to the products, which is the activation energy of the reverse reaction."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     95,
+     40
+    ],
+    "tags": [
+     "A",
+     "B",
+     "C"
+    ],
+    "labels": [
+     "reactants, 0 kJ",
+     "95 kJ",
+     "products, 40 kJ"
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "In a coffee-cup calorimeter, 5.55 g of CaCl<sub>2</sub> (110.98 g mol<sup>−1</sup>) is dissolved in 100.0 g of water at 2 min, and the temperature is recorded (graph). Using the highest temperature reached, a solution mass of 105.6 g and c = 4.18 J g<sup>−1</sup> °C<sup>−1</sup>, what is ΔH for dissolving CaCl<sub>2</sub>?",
+  "c": [
+   "−79.4 kJ mol<sup>−1</sup>",
+   "−75.2 kJ mol<sup>−1</sup>",
+   "+79.4 kJ mol<sup>−1</sup>",
+   "−3.97 kJ mol<sup>−1</sup>"
+  ],
+  "h": "Read ΔT from the starting temperature to the maximum. The heat gained by the solution was released by the dissolving salt.",
+  "w": "ΔT = 30.0 °C − 21.0 °C = 9.0 °C. q<sub>solution</sub> = (105.6 g)(4.18 J g<sup>−1</sup> °C<sup>−1</sup>)(9.0 °C) = 3.97×10<sup>3</sup> J = 3.97 kJ. mol CaCl<sub>2</sub> = 5.55 ÷ 110.98 = 0.0500 mol. ΔH = −3.97 kJ ÷ 0.0500 mol = <b>−79.4 kJ mol<sup>−1</sup></b>; it is negative because the solution warmed. −75.2 uses only the 100.0 g of water, +79.4 has the wrong sign, and −3.97 is the heat in kJ, not per mole.",
+  "x": [
+   "",
+   "This uses only the mass of water. The stem gives the mass of the whole solution, which is what warms up.",
+   "The solution got warmer, so the dissolving released heat. Check the sign.",
+   "3.97 kJ is the total heat released. It still has to be divided by the moles of CaCl₂."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (min)",
+     "min": 0,
+     "max": 10,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+     ]
+    },
+    "y": {
+     "label": "Temperature (°C)",
+     "min": 20,
+     "max": 32,
+     "ticks": [
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        21.0
+       ],
+       [
+        1,
+        21.0
+       ],
+       [
+        2,
+        21.0
+       ],
+       [
+        2.2,
+        24.0
+       ],
+       [
+        2.4,
+        26.8
+       ],
+       [
+        2.6,
+        28.5
+       ],
+       [
+        2.8,
+        29.4
+       ],
+       [
+        3.0,
+        29.8
+       ],
+       [
+        3.3,
+        30.0
+       ],
+       [
+        4,
+        29.9
+       ],
+       [
+        5,
+        29.8
+       ],
+       [
+        6,
+        29.7
+       ],
+       [
+        7,
+        29.6
+       ],
+       [
+        8,
+        29.5
+       ],
+       [
+        9,
+        29.4
+       ],
+       [
+        10,
+        29.3
+       ]
+      ]
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "A 20.0 g ice cube at 0.0 °C is dropped into 100.0 g of water at 60.0 °C in an insulated cup. The ice melts completely. Using the data in the table, what is the final temperature?",
+  "c": [
+   "36.7 °C",
+   "50.0 °C",
+   "44.0 °C",
+   "63.3 °C"
+  ],
+  "h": "Heat lost by the warm water = heat to melt the ice + heat to warm the melted ice from 0 °C to the final temperature.",
+  "w": "Melting: 20.0 g × 334 J g<sup>−1</sup> = 6680 J. Then (100.0)(4.184)(60.0 − T) = 6680 + (20.0)(4.184)(T − 0). 25104 − 418.4T = 6680 + 83.68T, so 18424 = 502.08T and T = <b>36.7 °C</b>. 50.0 °C ignores the heat of fusion, 44.0 °C forgets to warm the melted ice, and 63.3 °C has a sign error (it is hotter than the hot water).",
+  "x": [
+   "",
+   "This treats the ice as water at 0 °C and ignores the heat needed to melt it.",
+   "After melting, the 20.0 g of cold water must also warm up to the final temperature, which takes more heat from the warm water.",
+   "The final temperature cannot be higher than the hottest thing in the cup. Check the signs in the heat balance."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Quantity",
+     "Value"
+    ],
+    "rows": [
+     [
+      "specific heat of liquid water",
+      "4.184 J g<sup>−1</sup> °C<sup>−1</sup>"
+     ],
+     [
+      "heat of fusion of ice",
+      "334 J g<sup>−1</sup>"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "A bomb calorimeter is calibrated with an electric heater and then used to burn naphthalene, C<sub>10</sub>H<sub>8</sub> (128.17 g mol<sup>−1</sup>). Using the data in the table, what is the molar enthalpy of combustion of naphthalene? (Treat ΔE ≈ ΔH.)",
+  "c": [
+   "−5.16×10<sup>3</sup> kJ mol<sup>−1</sup>",
+   "−40.3 kJ mol<sup>−1</sup>",
+   "−322 kJ mol<sup>−1</sup>",
+   "+5.16×10<sup>3</sup> kJ mol<sup>−1</sup>"
+  ],
+  "h": "The calibration run gives the heat capacity of the calorimeter (kJ per °C). Use it with the second temperature rise.",
+  "w": "C<sub>cal</sub> = 5.00 kJ ÷ 1.25 °C = 4.00 kJ °C<sup>−1</sup>. Heat released by the sample = 4.00 × 3.22 = 12.88 kJ for 0.320 g, which is 40.25 kJ g<sup>−1</sup>. Per mole: 40.25 × 128.17 = 5.16×10<sup>3</sup> kJ, released, so ΔH<sub>comb</sub> = <b>−5.16×10<sup>3</sup> kJ mol<sup>−1</sup></b>. −40.3 is per gram, −322 inverts the heat capacity, and the positive value has the wrong sign.",
+  "x": [
+   "",
+   "40.3 kJ is the heat released per gram. Convert grams to moles with the molar mass.",
+   "The heat capacity is heat divided by temperature change, 5.00 kJ over 1.25 °C, not the reverse.",
+   "Combustion releases heat to the calorimeter, so ΔH for the reaction is negative."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Run",
+     "Data"
+    ],
+    "rows": [
+     [
+      "Calibration",
+      "5.00 kJ of electrical heat; ΔT = 1.25 °C"
+     ],
+     [
+      "Combustion",
+      "0.320 g C<sub>10</sub>H<sub>8</sub> burned; ΔT = 3.22 °C"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "A gas in a cylinder with a movable piston absorbs 600 J of heat from a flame and expands, doing 250 J of work on the surroundings. Which statements are true?<br>I. q = +600 J<br>II. w = +250 J<br>III. ΔE of the gas = +850 J",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Use ΔE = q + w, with each sign taken from the point of view of the gas. Work done BY the system is negative.",
+  "w": "Heat flows into the gas, so q = +600 J: I is true. The gas does work on the surroundings, so it loses energy that way and w = −250 J: II is false. ΔE = q + w = +600 J − 250 J = +350 J, not +850 J: III is false. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false. When the gas pushes the piston out, it does work on the surroundings, so w is negative.",
+   "Statement III is false. Expansion work removes energy from the gas, so ΔE is less than the heat absorbed.",
+   "Statements II and III are false. Work done by the gas carries a negative sign in ΔE = q + w."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "The thermite reaction is shown. A mixture of 5.40 g of Al and 20.0 g of Fe<sub>2</sub>O<sub>3</sub> reacts until one reactant is used up. How much heat is released?",
+  "c": [
+   "85.3 kJ",
+   "107 kJ",
+   "171 kJ",
+   "852 kJ"
+  ],
+  "h": "Find the limiting reactant first. ΔH is the heat for the moles shown in the equation: 2 mol Al with 1 mol Fe₂O₃.",
+  "w": "mol Al = 5.40 ÷ 26.98 = 0.2001 mol; mol Fe<sub>2</sub>O<sub>3</sub> = 20.0 ÷ 159.69 = 0.1252 mol. 0.2001 mol Al needs only 0.1001 mol Fe<sub>2</sub>O<sub>3</sub>, so Al is limiting. Heat = 0.2001 mol Al × (852 kJ ÷ 2 mol Al) = <b>85.3 kJ</b>. 107 kJ assumes Fe<sub>2</sub>O<sub>3</sub> is used up, 171 kJ ignores the 2 mol Al in the equation, and 852 kJ is the heat for the full equation as written.",
+  "x": [
+   "",
+   "This assumes Fe₂O₃ is used up. Check whether there is enough Al to react with all of it.",
+   "The 852 kJ is released for 2 mol of Al, so the heat per mole of Al is half of that.",
+   "852 kJ goes with 2 mol Al and 1 mol Fe₂O₃. The sample is much smaller than that."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 Al(s) + Fe<sub>2</sub>O<sub>3</sub>(s) → Al<sub>2</sub>O<sub>3</sub>(s) + 2 Fe(s)   ΔH° = −852 kJ"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "Molar mass (g mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "Al",
+      "26.98"
+     ],
+     [
+      "Fe<sub>2</sub>O<sub>3</sub>",
+      "159.69"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Using the thermochemical equation shown, what is ΔH° for the reaction 3 C<sub>2</sub>H<sub>6</sub>(g) → 3 C<sub>2</sub>H<sub>4</sub>(g) + 3 H<sub>2</sub>(g)?",
+  "c": [
+   "+411 kJ",
+   "−411 kJ",
+   "+137 kJ",
+   "+45.7 kJ"
+  ],
+  "h": "Reversing an equation changes the sign of ΔH. Multiplying the coefficients multiplies ΔH by the same factor.",
+  "w": "The new reaction is the given one reversed (sign changes to +137 kJ) and tripled: 3 × (+137 kJ) = <b>+411 kJ</b>. −411 kJ triples but forgets to change the sign, +137 kJ reverses but forgets to triple, and +45.7 kJ divides by 3 instead of multiplying.",
+  "x": [
+   "",
+   "The reaction has been reversed, so the sign of ΔH must change as well.",
+   "Three moles react here, not one, so ΔH scales by the same factor.",
+   "The coefficients were multiplied by 3, so ΔH must be multiplied by 3, not divided."
+  ],
+  "k": 1,
+  "d": 1,
+  "f": [
+   {
+    "type": "eq",
+    "text": "C<sub>2</sub>H<sub>4</sub>(g) + H<sub>2</sub>(g) → C<sub>2</sub>H<sub>6</sub>(g)   ΔH° = −137 kJ"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Use the three combustion reactions in the table to find the standard enthalpy of formation of propane:<br>3 C(s) + 4 H<sub>2</sub>(g) → C<sub>3</sub>H<sub>8</sub>(g)",
+  "c": [
+   "−104 kJ mol<sup>−1</sup>",
+   "+104 kJ mol<sup>−1</sup>",
+   "−4.54×10<sup>3</sup> kJ mol<sup>−1</sup>",
+   "+1.54×10<sup>3</sup> kJ mol<sup>−1</sup>"
+  ],
+  "h": "C and H₂ are reactants in the target, so use equations 1 and 2 as written, scaled. C₃H₈ is a product in the target, so reverse equation 3.",
+  "w": "3 × (1): 3 C + 3 O<sub>2</sub> → 3 CO<sub>2</sub>, 3(−393.5) = −1180.5 kJ. 4 × (2): 4 H<sub>2</sub> + 2 O<sub>2</sub> → 4 H<sub>2</sub>O, 4(−285.8) = −1143.2 kJ. Reverse (3): 3 CO<sub>2</sub> + 4 H<sub>2</sub>O → C<sub>3</sub>H<sub>8</sub> + 5 O<sub>2</sub>, +2220 kJ. Sum: −1180.5 − 1143.2 + 2220 = <b>−104 kJ mol<sup>−1</sup></b>. The +104 value has the sign backward, −4.54×10<sup>3</sup> forgets to reverse equation 3, and +1.54×10<sup>3</sup> skips the 3 and 4 multipliers.",
+  "x": [
+   "",
+   "The sign is backward. Check that equation 3 is reversed and equations 1 and 2 are not.",
+   "Propane must be a product, so equation 3 has to be reversed and its sign changed.",
+   "Three C and four H₂ are needed, so equations 1 and 2 must be multiplied by 3 and 4."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Equation",
+     "ΔH° (kJ)"
+    ],
+    "rows": [
+     [
+      "(1) C(s) + O<sub>2</sub>(g) → CO<sub>2</sub>(g)",
+      "−393.5"
+     ],
+     [
+      "(2) H<sub>2</sub>(g) + ½ O<sub>2</sub>(g) → H<sub>2</sub>O(l)",
+      "−285.8"
+     ],
+     [
+      "(3) C<sub>3</sub>H<sub>8</sub>(g) + 5 O<sub>2</sub>(g) → 3 CO<sub>2</sub>(g) + 4 H<sub>2</sub>O(l)",
+      "−2220"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Using the two equations shown, which expression gives the standard enthalpy of formation of methanol, CH<sub>3</sub>OH(l)?",
+  "c": [
+   "ΔH°<sub>1</sub> + ½ ΔH°<sub>2</sub>",
+   "ΔH°<sub>1</sub> + ΔH°<sub>2</sub>",
+   "ΔH°<sub>1</sub> − ½ ΔH°<sub>2</sub>",
+   "½ ΔH°<sub>1</sub> + ½ ΔH°<sub>2</sub>"
+  ],
+  "h": "Write the formation reaction: C(s) + 2 H₂(g) + ½ O₂(g) → CH₃OH(l). Then decide which given equations to scale or reverse.",
+  "w": "Half of equation 2 gives C(s) + ½ O<sub>2</sub>(g) → CO(g), ½ ΔH°<sub>2</sub>. Adding equation 1 as written, CO(g) + 2 H<sub>2</sub>(g) → CH<sub>3</sub>OH(l), cancels CO and leaves C(s) + 2 H<sub>2</sub>(g) + ½ O<sub>2</sub>(g) → CH<sub>3</sub>OH(l). So ΔH°<sub>f</sub> = <b>ΔH°<sub>1</sub> + ½ ΔH°<sub>2</sub></b>. Using all of equation 2 makes 2 CO, reversing it is not needed, and halving equation 1 would make only ½ mol of methanol.",
+  "x": [
+   "",
+   "Equation 2 makes 2 mol CO, but only 1 mol CO is needed for 1 mol of methanol.",
+   "Equation 2 is already in the right direction, with C as a reactant and CO as a product, so it should not be reversed.",
+   "Equation 1 already makes exactly 1 mol of CH₃OH, so it should not be halved."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "(1) CO(g) + 2 H<sub>2</sub>(g) → CH<sub>3</sub>OH(l)   ΔH°<sub>1</sub>"
+   },
+   {
+    "type": "eq",
+    "text": "(2) 2 C(s) + O<sub>2</sub>(g) → 2 CO(g)   ΔH°<sub>2</sub>"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Iron ore is reduced in a blast furnace by the reaction shown. Using the standard enthalpies of formation in the table, what is ΔH° for the reaction?",
+  "c": [
+   "−24.8 kJ",
+   "+24.8 kJ",
+   "+541.2 kJ",
+   "−356.3 kJ"
+  ],
+  "h": "ΔH° = Σ n ΔH°f(products) − Σ n ΔH°f(reactants). Elements in their standard states have ΔH°f = 0.",
+  "w": "Products: 2(0) + 3(−393.5) = −1180.5 kJ. Reactants: (−824.2) + 3(−110.5) = −1155.7 kJ. ΔH° = −1180.5 − (−1155.7) = <b>−24.8 kJ</b>. +24.8 kJ subtracts in the wrong order, +541.2 kJ ignores the coefficients of 3, and −356.3 kJ leaves out the CO.",
+  "x": [
+   "",
+   "This is reactants minus products. Subtract the reactant sum from the product sum.",
+   "The coefficients of 3 on CO and CO₂ must multiply their ΔH°f values.",
+   "CO is a compound, so its ΔH°f is not zero and must be included with the reactants."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "eq",
+    "text": "Fe<sub>2</sub>O<sub>3</sub>(s) + 3 CO(g) → 2 Fe(s) + 3 CO<sub>2</sub>(g)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "ΔH°<sub>f</sub> (kJ mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "Fe<sub>2</sub>O<sub>3</sub>(s)",
+      "−824.2"
+     ],
+     [
+      "CO(g)",
+      "−110.5"
+     ],
+     [
+      "CO<sub>2</sub>(g)",
+      "−393.5"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Glucose burns as shown, with ΔH° = −2803 kJ. Using the enthalpies of formation in the table, what is ΔH°<sub>f</sub> of glucose, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(s)?",
+  "c": [
+   "−1273 kJ mol<sup>−1</sup>",
+   "+1273 kJ mol<sup>−1</sup>",
+   "−6879 kJ mol<sup>−1</sup>",
+   "+2124 kJ mol<sup>−1</sup>"
+  ],
+  "h": "Write ΔH°rxn = Σ ΔH°f(products) − Σ ΔH°f(reactants) and solve for the one unknown. O₂ has ΔH°f = 0.",
+  "w": "−2803 = [6(−393.5) + 6(−285.8)] − [ΔH°<sub>f</sub>(glucose) + 6(0)] = −4075.8 − ΔH°<sub>f</sub>(glucose). So ΔH°<sub>f</sub>(glucose) = −4075.8 + 2803 = <b>−1273 kJ mol<sup>−1</sup></b>. +1273 has the sign flipped, −6879 adds −2803 instead of solving for the unknown, and +2124 ignores the coefficients of 6.",
+  "x": [
+   "",
+   "The sign is flipped. Solve the equation step by step, keeping track of the minus sign in front of the reactant term.",
+   "This adds the combustion enthalpy to the product sum. Glucose is a reactant, so its ΔH°f is subtracted, and you must solve for it.",
+   "There are 6 CO₂ and 6 H₂O in the equation, so their ΔH°f values must be multiplied by 6."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "eq",
+    "text": "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(s) + 6 O<sub>2</sub>(g) → 6 CO<sub>2</sub>(g) + 6 H<sub>2</sub>O(l)   ΔH° = −2803 kJ"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "ΔH°<sub>f</sub> (kJ mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "CO<sub>2</sub>(g)",
+      "−393.5"
+     ],
+     [
+      "H<sub>2</sub>O(l)",
+      "−285.8"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Ammonia is made from nitrogen and hydrogen, as drawn below (×3 and ×2 mark coefficients). Use the average bond enthalpies in the table to estimate ΔH for the reaction.",
+  "c": [
+   "−93 kJ",
+   "+93 kJ",
+   "+1080 kJ",
+   "+208 kJ"
+  ],
+  "h": "ΔH ≈ Σ(bonds broken) − Σ(bonds formed). Count every bond in each drawn molecule and multiply by its coefficient.",
+  "w": "Broken: 1 N≡N + 3 H–H = 945 + 3(436) = 2253 kJ. Formed: 2 NH<sub>3</sub> × 3 N–H = 6(391) = 2346 kJ. ΔH = 2253 − 2346 = <b>−93 kJ</b>. +93 kJ subtracts in the wrong order, +1080 kJ forms only one NH<sub>3</sub>, and +208 kJ ignores all the coefficients.",
+  "x": [
+   "",
+   "This is formed minus broken. Energy is absorbed to break bonds and released when bonds form.",
+   "Two NH₃ molecules form, so six N–H bonds are made, not three.",
+   "This uses one molecule of each substance. Multiply the bonds in H₂ and NH₃ by their coefficients."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Bond",
+     "Average bond enthalpy (kJ mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "N≡N",
+      "945"
+     ],
+     [
+      "H–H",
+      "436"
+     ],
+     [
+      "N–H",
+      "391"
+     ]
+    ]
+   }
+  ],
+  "s": [
+   {
+    "a": [
+     [
+      "N",
+      0,
+      0,
+      1,
+      0,
+      ""
+     ],
+     [
+      "N",
+      1,
+      0,
+      1,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      3
+     ]
+    ]
+   },
+   "+",
+   {
+    "a": [
+     [
+      "H",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ]
+    ],
+    "cap": "×3"
+   },
+   "→",
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "N",
+      1,
+      1,
+      1,
+      0,
+      ""
+     ],
+     [
+      "H",
+      2,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      2,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      1,
+      3,
+      1
+     ]
+    ],
+    "cap": "×2"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Hydrogen peroxide decomposes as drawn below (×2 marks a coefficient of 2). Use the Lewis structures and the average bond enthalpies in the table to estimate ΔH.",
+  "c": [
+   "−206 kJ",
+   "+206 kJ",
+   "−352 kJ",
+   "+498 kJ"
+  ],
+  "h": "Read each Lewis structure to see which bonds are single and which are double, then use ΔH ≈ Σ(broken) − Σ(formed).",
+  "w": "Broken: 2 H<sub>2</sub>O<sub>2</sub> × (2 O–H + 1 O–O) = 4(464) + 2(146) = 2148 kJ. Formed: 2 H<sub>2</sub>O × 2 O–H + 1 O=O = 4(464) + 498 = 2354 kJ. ΔH = 2148 − 2354 = <b>−206 kJ</b>. +206 kJ reverses the subtraction, −352 kJ ignores the coefficients of 2, and +498 kJ treats the O–O bond in H<sub>2</sub>O<sub>2</sub> as a double bond.",
+  "x": [
+   "",
+   "This is formed minus broken. Breaking bonds costs energy and forming bonds releases it.",
+   "This uses one molecule of each substance. Two H₂O₂ and two H₂O appear in the equation.",
+   "The Lewis structure of H₂O₂ shows a single O–O bond, which is much weaker than O=O."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Bond",
+     "Average bond enthalpy (kJ mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "O–H",
+      "464"
+     ],
+     [
+      "O–O",
+      "146"
+     ],
+     [
+      "O=O",
+      "498"
+     ]
+    ]
+   }
+  ],
+  "s": [
+   {
+    "a": [
+     [
+      "H",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      2,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "H",
+      3,
+      0,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      1
+     ]
+    ],
+    "cap": "×2"
+   },
+   "→",
+   {
+    "a": [
+     [
+      "H",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "H",
+      2,
+      0,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ]
+    ],
+    "cap": "×2"
+   },
+   "+",
+   {
+    "a": [
+     [
+      "O",
+      0,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      2,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Solid KOH dissolves in water in a coffee-cup calorimeter as shown, and the water gets warmer. Taking the dissolving KOH as the system, which statements are true?<br>I. The dissolving process absorbs heat from the water.<br>II. ΔH for dissolving KOH is negative.<br>III. q for the water is negative.",
+  "c": [
+   "II only",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "h": "When the water warms, energy has moved into the water. Decide which way heat flowed for the system and for the water.",
+  "w": "The water warms because the dissolving releases heat into it, so I is false. Heat leaves the system at constant pressure, so ΔH &lt; 0: II is true. The water gains that heat, so q<sub>water</sub> is positive, and III is false. The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Statement I is false. A rising water temperature means the dissolving gave heat to the water, not that it took heat away.",
+   "Statement I is false. If the dissolving absorbed heat from the water, the water would get colder.",
+   "Statement III is false. The water gains heat, so its q is positive while the system's q is negative."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "eq",
+    "text": "KOH(s) → K<sup>+</sup>(aq) + OH<sup>−</sup>(aq)"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "Rank the three fuels in the table by the heat released when ONE GRAM of each burns, from most to least.",
+  "c": [
+   "H<sub>2</sub> &gt; CH<sub>4</sub> &gt; C<sub>2</sub>H<sub>5</sub>OH",
+   "C<sub>2</sub>H<sub>5</sub>OH &gt; CH<sub>4</sub> &gt; H<sub>2</sub>",
+   "CH<sub>4</sub> &gt; H<sub>2</sub> &gt; C<sub>2</sub>H<sub>5</sub>OH",
+   "CH<sub>4</sub> &gt; C<sub>2</sub>H<sub>5</sub>OH &gt; H<sub>2</sub>"
+  ],
+  "h": "The table gives heat per mole. Divide each value by the molar mass to get heat per gram.",
+  "w": "Heat per gram = |ΔH<sub>comb</sub>| ÷ molar mass: H<sub>2</sub>, 286 ÷ 2.016 = 142 kJ g<sup>−1</sup>; CH<sub>4</sub>, 890 ÷ 16.04 = 55.5 kJ g<sup>−1</sup>; C<sub>2</sub>H<sub>5</sub>OH, 1367 ÷ 46.07 = 29.7 kJ g<sup>−1</sup>. So <b>H<sub>2</sub> &gt; CH<sub>4</sub> &gt; C<sub>2</sub>H<sub>5</sub>OH</b>. The reverse order ranks the fuels per mole instead of per gram.",
+  "x": [
+   "",
+   "This ranks the fuels per mole. Ethanol releases the most per mole but is the heaviest molecule.",
+   "Hydrogen has by far the smallest molar mass, so each gram contains many moles. Recalculate its heat per gram.",
+   "Methane releases more per gram than ethanol, but check hydrogen. A gram of H₂ is almost half a mole."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Fuel",
+     "ΔH<sub>comb</sub> (kJ mol<sup>−1</sup>)",
+     "Molar mass (g mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "H<sub>2</sub>(g)",
+      "−286",
+      "2.016"
+     ],
+     [
+      "CH<sub>4</sub>(g)",
+      "−890",
+      "16.04"
+     ],
+     [
+      "C<sub>2</sub>H<sub>5</sub>OH(l)",
+      "−1367",
+      "46.07"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "The boxes show chlorine atoms combining into Cl<sub>2</sub> molecules at constant pressure. Which statement about this change is correct?",
+  "c": [
+   "It is exothermic, because Cl–Cl bonds form and no bonds break.",
+   "It is endothermic, because energy is needed to form the Cl–Cl bonds.",
+   "ΔH is zero, because the same atoms are present before and after.",
+   "It is endothermic, because the number of particles decreases."
+  ],
+  "h": "Compare the bonds in the two boxes. Breaking a bond always takes energy, and forming one always releases energy.",
+  "w": "The Before box has 8 separate Cl atoms and the After box has 4 Cl<sub>2</sub> molecules, so 4 Cl–Cl bonds form and none break. Bond formation releases energy, so ΔH &lt; 0: <b>it is exothermic</b>. Forming bonds never requires energy, conserved atoms do not make ΔH zero, and a drop in the number of particles does not make a process endothermic.",
+  "x": [
+   "",
+   "Bond formation releases energy. It is bond breaking that requires energy.",
+   "Atoms are conserved in every chemical change, but the energy stored in bonds still changes.",
+   "The number of particles does not decide the sign of ΔH. Look at which bonds are made or broken."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 61,
+    "arrow": true,
+    "key": {
+     "Cl": {
+      "c": "#5aa469",
+      "n": "Cl atom"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Before",
+      "mols": [
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ]
+      ]
+     },
+     {
+      "cap": "After",
+      "mols": [
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "thermo",
+  "q": "How much heat is needed to warm 1.50 kg of water in a 0.800 kg copper pot from 20.0 °C to 100.0 °C? Use the specific heats in the table.",
+  "c": [
+   "527 kJ",
+   "502 kJ",
+   "24.6 kJ",
+   "0.527 kJ"
+  ],
+  "h": "Both the water and the pot warm by the same ΔT. Add q = mcΔT for each, with masses in grams.",
+  "w": "Water: 1500 g × 4.184 × 80.0 = 502,080 J. Copper: 800 g × 0.385 × 80.0 = 24,640 J. Total = 526,720 J = <b>527 kJ</b>. 502 kJ leaves out the pot, 24.6 kJ is the pot alone, and 0.527 kJ uses kilograms with specific heats in J g<sup>−1</sup> °C<sup>−1</sup>.",
+  "x": [
+   "",
+   "This warms only the water. The copper pot also rises by 80.0 °C and absorbs heat.",
+   "This is only the heat for the pot. The water absorbs most of the heat.",
+   "The specific heats are per gram, so the masses must be in grams, not kilograms."
+  ],
+  "k": 1,
+  "d": 1,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "Specific heat (J g<sup>−1</sup> °C<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "H<sub>2</sub>O(l)",
+      "4.184"
+     ],
+     [
+      "Cu(s)",
+      "0.385"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ }
+]

@@ -1,0 +1,1714 @@
+[
+ {
+  "t": "reactions",
+  "q": "The boxes show a reaction mixture of A<sub>2</sub> and B<sub>2</sub> molecules before and after the reaction. Which balanced equation, with the smallest whole-number coefficients, represents the reaction?",
+  "c": [
+   "2 A<sub>2</sub> + B<sub>2</sub> → 2 A<sub>2</sub>B",
+   "5 A<sub>2</sub> + 3 B<sub>2</sub> → 4 A<sub>2</sub>B + A<sub>2</sub> + B<sub>2</sub>",
+   "A<sub>2</sub> + B<sub>2</sub> → A<sub>2</sub>B",
+   "4 A<sub>2</sub> + 2 B<sub>2</sub> → 4 A<sub>2</sub>B"
+  ],
+  "f": [
+   {
+    "type": "particles",
+    "seed": 15,
+    "arrow": true,
+    "key": {
+     "A": {
+      "c": "#3b82b4",
+      "n": "A"
+     },
+     "B": {
+      "c": "#e0675a",
+      "n": "B"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Before",
+      "mols": [
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "B",
+        "B"
+       ],
+       [
+        "B",
+        "B"
+       ]
+      ]
+     },
+     {
+      "cap": "After",
+      "mols": [
+       [
+        "B",
+        "A",
+        "A"
+       ],
+       [
+        "B",
+        "A",
+        "A"
+       ],
+       [
+        "B",
+        "A",
+        "A"
+       ],
+       [
+        "B",
+        "A",
+        "A"
+       ],
+       [
+        "A",
+        "A"
+       ],
+       [
+        "B",
+        "B"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "Molecules that appear unchanged in both boxes did not react. Count only what was used up and what was made, then reduce.",
+  "w": "Before: 5 A<sub>2</sub> and 3 B<sub>2</sub>. After: 4 A<sub>2</sub>B plus 1 A<sub>2</sub> and 1 B<sub>2</sub> left over. So 4 A<sub>2</sub> + 2 B<sub>2</sub> made 4 A<sub>2</sub>B, which reduces to <b>2 A<sub>2</sub> + B<sub>2</sub> → 2 A<sub>2</sub>B</b>. Leftover molecules are not part of the equation, and A<sub>2</sub> + B<sub>2</sub> → A<sub>2</sub>B is not balanced for A.",
+  "x": [
+   "",
+   "Leftover A₂ and B₂ molecules did not react, so they do not belong in the equation.",
+   "This is not balanced. Count the A atoms on each side.",
+   "These coefficients can still be divided by a common factor."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Nitrogen monoxide reacts with chlorine as shown. The Before box shows the starting mixture. Which box (I–IV) shows the contents after the reaction goes to completion?",
+  "c": [
+   "Box III",
+   "Box I",
+   "Box II",
+   "Box IV"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 NO(g) + Cl<sub>2</sub>(g) → 2 NOCl(g)"
+   },
+   {
+    "type": "particles",
+    "seed": 22,
+    "key": {
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     },
+     "Cl": {
+      "c": "#5aa469",
+      "n": "Cl"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Before",
+      "mols": [
+       [
+        "N",
+        "O"
+       ],
+       [
+        "N",
+        "O"
+       ],
+       [
+        "N",
+        "O"
+       ],
+       [
+        "N",
+        "O"
+       ],
+       [
+        "N",
+        "O"
+       ],
+       [
+        "N",
+        "O"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "particles",
+    "seed": 23,
+    "key": {
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     },
+     "Cl": {
+      "c": "#5aa469",
+      "n": "Cl"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O"
+       ],
+       [
+        "N",
+        "O"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ],
+       [
+        "Cl"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "mols": [
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "mols": [
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "N",
+        "O",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "Find the limiting reactant from the 2 : 1 mole ratio. At completion it is gone, and every atom from the Before box must still be present.",
+  "w": "6 NO need only 3 Cl<sub>2</sub>, and 5 Cl<sub>2</sub> are present, so NO is limiting. 6 NO + 3 Cl<sub>2</sub> → 6 NOCl, leaving 2 Cl<sub>2</sub>: <b>box III</b>. Box I still has both reactants, so the reaction is not complete. Box II shows lone Cl atoms, but leftover chlorine stays as Cl<sub>2</sub>. Box IV has 16 Cl atoms but only 10 were present.",
+  "x": [
+   "",
+   "This box still contains both NO and Cl₂, so the reaction has not gone to completion.",
+   "Leftover chlorine stays as Cl₂ molecules. It does not split into separate atoms.",
+   "Count the Cl atoms. This box has more chlorine than the Before box."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Hydrogen sulfide burns as shown. The box shows a mixture of H<sub>2</sub>S and O<sub>2</sub>. What would have to be added to the box so that both reactants are completely used up with nothing left over?",
+  "c": [
+   "2 more H<sub>2</sub>S molecules",
+   "6 more H<sub>2</sub>S molecules",
+   "5 more H<sub>2</sub>S molecules",
+   "3 more O<sub>2</sub> molecules"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 H<sub>2</sub>S(g) + 3 O<sub>2</sub>(g) → 2 SO<sub>2</sub>(g) + 2 H<sub>2</sub>O(g)"
+   },
+   {
+    "type": "particles",
+    "seed": 41,
+    "key": {
+     "S": {
+      "c": "#f2c14e",
+      "n": "S"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "S",
+        "H",
+        "H"
+       ],
+       [
+        "S",
+        "H",
+        "H"
+       ],
+       [
+        "S",
+        "H",
+        "H"
+       ],
+       [
+        "S",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "Count each reactant. Find how much of each the other one needs using the 2 : 3 ratio, and see which one is short.",
+  "w": "The box holds 4 H<sub>2</sub>S and 9 O<sub>2</sub>. 4 H<sub>2</sub>S need only 6 O<sub>2</sub>, so O<sub>2</sub> is in excess. 9 O<sub>2</sub> need 9 × 2/3 = 6 H<sub>2</sub>S, so <b>2 more H<sub>2</sub>S molecules</b> must be added. 6 is the total H<sub>2</sub>S needed, not the number to add, and 5 assumes a 1 : 1 ratio.",
+  "x": [
+   "",
+   "Six is the total number of H₂S molecules needed. Some are already in the box.",
+   "This assumes H₂S and O₂ react 1 to 1. Use the coefficients 2 and 3.",
+   "O₂ is already in excess here. Adding more of it leaves even more unused."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Potassium chlorate decomposes on heating as shown. What mass of O<sub>2</sub> forms when 5.00 g of KClO<sub>3</sub> decomposes completely?",
+  "c": [
+   "1.96 g",
+   "1.31 g",
+   "0.870 g",
+   "3.92 g"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 KClO<sub>3</sub>(s) → 2 KCl(s) + 3 O<sub>2</sub>(g)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "Molar mass (g mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "KClO<sub>3</sub>",
+      "122.55"
+     ],
+     [
+      "O<sub>2</sub>",
+      "32.00"
+     ]
+    ]
+   }
+  ],
+  "h": "Grams of KClO<sub>3</sub> → moles of KClO<sub>3</sub> → moles of O<sub>2</sub> (use the 2 : 3 ratio) → grams of O<sub>2</sub>.",
+  "w": "5.00 g / 122.55 g mol<sup>−1</sup> = 0.04080 mol KClO<sub>3</sub>. × (3 mol O<sub>2</sub> / 2 mol KClO<sub>3</sub>) = 0.06120 mol O<sub>2</sub>. × 32.00 g mol<sup>−1</sup> = <b>1.96 g</b>. 1.31 g uses a 1 : 1 ratio, 0.870 g turns the ratio upside down, and 3.92 g uses 3 mol O<sub>2</sub> for every mole of KClO<sub>3</sub>.",
+  "x": [
+   "",
+   "This uses a 1 to 1 mole ratio. The equation shows 3 O₂ for every 2 KClO₃.",
+   "This turns the mole ratio upside down. More moles of O₂ form than moles of KClO₃ used.",
+   "This takes 3 mol O₂ from each mole of KClO₃. The coefficients give 3 O₂ per 2 KClO₃."
+  ],
+  "k": 1,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Yeast ferments glucose to ethanol as shown. A batch starting with 100.0 g of glucose yields 40.0 g of ethanol. What is the percent yield?",
+  "c": [
+   "78.2%",
+   "40.0%",
+   "156%",
+   "128%"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(aq) → 2 C<sub>2</sub>H<sub>5</sub>OH(aq) + 2 CO<sub>2</sub>(g)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "Molar mass (g mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>",
+      "180.16"
+     ],
+     [
+      "C<sub>2</sub>H<sub>5</sub>OH",
+      "46.07"
+     ]
+    ]
+   }
+  ],
+  "h": "First find the theoretical yield of ethanol in grams from the glucose. Percent yield = actual/theoretical × 100.",
+  "w": "100.0 g / 180.16 g mol<sup>−1</sup> = 0.5551 mol glucose → 1.110 mol ethanol × 46.07 g mol<sup>−1</sup> = 51.14 g (theoretical). Percent yield = 40.0/51.14 × 100 = <b>78.2%</b>. 40.0% compares masses of different substances, 156% uses a 1 : 1 ratio, and 128% divides theoretical by actual.",
+  "x": [
+   "",
+   "This compares grams of ethanol with grams of glucose directly. Find the theoretical yield of ethanol first.",
+   "A yield above 100% is a warning sign. Check the mole ratio of ethanol to glucose.",
+   "This divides the theoretical yield by the actual yield. The actual yield goes on top."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "In a series of experiments, 2.00 g of zinc is heated with different masses of sulfur, and the mass of ZnS formed is measured (graph). Zn + S → ZnS. In the experiment at point B, which reactant is limiting, and what is left over?",
+  "c": [
+   "Zn is limiting, and about 0.52 g of S is left",
+   "S is limiting, and about 0.52 g of Zn is left",
+   "Zn is limiting, and about 1.50 g of S is left",
+   "Neither, both reactants are used up exactly"
+  ],
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Mass of S added (g)",
+     "min": 0,
+     "max": 2,
+     "ticks": [
+      0,
+      0.5,
+      1,
+      1.5,
+      2
+     ]
+    },
+    "y": {
+     "label": "Mass of ZnS formed (g)",
+     "min": 0,
+     "max": 3.5,
+     "ticks": [
+      0,
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0
+       ],
+       [
+        0.25,
+        0.76
+       ],
+       [
+        0.5,
+        1.52
+       ],
+       [
+        0.75,
+        2.279
+       ],
+       [
+        0.981,
+        2.981
+       ],
+       [
+        1.25,
+        2.981
+       ],
+       [
+        1.5,
+        2.981
+       ],
+       [
+        1.75,
+        2.981
+       ],
+       [
+        2,
+        2.981
+       ]
+      ]
+     }
+    ],
+    "points": [
+     [
+      0.5,
+      1.52,
+      "A",
+      -14,
+      -8
+     ],
+     [
+      1.5,
+      2.981,
+      "B",
+      0,
+      -12
+     ]
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "h": "On the rising part of the graph, adding more S makes more ZnS. On the flat part, adding S makes no more product. Where does the line level off?",
+  "w": "The mass of ZnS stops rising at about 0.98 g of S (2.00 g Zn / 65.38 g mol<sup>−1</sup> = 0.0306 mol needs 0.0306 mol × 32.06 = 0.98 g S). At point B, 1.50 g of S was added, so <b>Zn is limiting and about 0.52 g of S is left</b> (1.50 − 0.98). S is the limiting reactant only on the rising part, such as point A.",
+  "x": [
+   "",
+   "On the flat part adding more sulfur makes no more ZnS, so sulfur is not what limits the product there.",
+   "Only part of the sulfur at point B reacts. Find where the graph levels off.",
+   "At point B more sulfur was added than the zinc can use. The exact match is where the graph levels off."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "A solution of a metal ion M<sup>n+</sup> and a NaOH solution, both 0.100 M, are mixed in different proportions. The total volume is always 12.0 mL. The precipitate M(OH)<sub>n</sub> is collected and weighed (graph). What is the value of n?",
+  "c": [
+   "3",
+   "1",
+   "2",
+   "4"
+  ],
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Volume of 0.100 M NaOH (mL); the rest is 0.100 M M<sup>n+</sup>",
+     "min": 0,
+     "max": 12,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12
+     ]
+    },
+    "y": {
+     "label": "Mass of precipitate (mg)",
+     "min": 0,
+     "max": 35,
+     "ticks": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        3.56
+       ],
+       [
+        2,
+        7.12
+       ],
+       [
+        3,
+        10.69
+       ],
+       [
+        4,
+        14.25
+       ],
+       [
+        5,
+        17.81
+       ],
+       [
+        6,
+        21.37
+       ],
+       [
+        7,
+        24.94
+       ],
+       [
+        8,
+        28.5
+       ],
+       [
+        9,
+        32.06
+       ],
+       [
+        10,
+        21.37
+       ],
+       [
+        11,
+        10.69
+       ],
+       [
+        12,
+        0
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "h": "The most precipitate forms when the two ions are mixed in exactly the ratio of the formula. Read the volumes of the two solutions at the peak.",
+  "w": "The peak is at 9.0 mL of NaOH, which leaves 3.0 mL of the M<sup>n+</sup> solution. Both are 0.100 M, so the mole ratio OH<sup>−</sup> : M<sup>n+</sup> = 9.0 : 3.0 = 3 : 1. The formula is M(OH)<sub>3</sub>, so <b>n = 3</b>. A ratio of 1 or 2 would put the peak at 6.0 mL or 8.0 mL of NaOH.",
+  "x": [
+   "",
+   "A 1 to 1 ratio would put the peak at 6 mL of each solution. Read where this peak is.",
+   "A 2 to 1 ratio would put the peak at 8 mL of NaOH. Read the peak on the graph again.",
+   "A 4 to 1 ratio would put the peak at 9.6 mL of NaOH. Read the peak on the graph again."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Ammonia gas passed over hot copper(II) oxide reduces it to copper metal (skeleton equation below). When the equation is balanced with the smallest whole-number coefficients, what is the coefficient of CuO?",
+  "c": [
+   "3",
+   "2",
+   "1",
+   "6"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "__ NH<sub>3</sub>(g) + __ CuO(s) → __ Cu(s) + __ N<sub>2</sub>(g) + __ H<sub>2</sub>O(g)"
+   }
+  ],
+  "h": "Start with N: N<sub>2</sub> needs two NH<sub>3</sub>. Then balance H with water, O with CuO, and Cu last.",
+  "w": "N<sub>2</sub> needs 2 NH<sub>3</sub>, whose 6 H make 3 H<sub>2</sub>O. Three O atoms require 3 CuO, which give 3 Cu: 2 NH<sub>3</sub> + <b>3</b> CuO → 3 Cu + N<sub>2</sub> + 3 H<sub>2</sub>O. Check: N 2 = 2, H 6 = 6, Cu 3 = 3, O 3 = 3.",
+  "x": [
+   "",
+   "Two is the coefficient of NH₃. Balance H with water and then match the O atoms with CuO.",
+   "With one CuO there is only one O atom, but the H atoms from ammonia need more water than that.",
+   "These are not the smallest whole numbers. Check whether the whole set can be halved."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Acetone, drawn below, burns completely in oxygen to give CO<sub>2</sub> and H<sub>2</sub>O. How many moles of O<sub>2</sub> are needed to burn 0.250 mol of acetone?",
+  "c": [
+   "1.00 mol",
+   "1.13 mol",
+   "0.750 mol",
+   "0.0625 mol"
+  ],
+  "s": [
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      1,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      2,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      2,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "C",
+      3,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      3,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      4,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      3,
+      0,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      1,
+      3,
+      1
+     ],
+     [
+      1,
+      4,
+      1
+     ],
+     [
+      4,
+      5,
+      2
+     ],
+     [
+      4,
+      6,
+      1
+     ],
+     [
+      6,
+      7,
+      1
+     ],
+     [
+      6,
+      8,
+      1
+     ],
+     [
+      6,
+      9,
+      1
+     ]
+    ],
+    "cap": "acetone"
+   }
+  ],
+  "h": "Read the formula from the drawing and write the balanced combustion equation. Don't forget the oxygen atom already in acetone.",
+  "w": "Acetone is C<sub>3</sub>H<sub>6</sub>O: C<sub>3</sub>H<sub>6</sub>O + 4 O<sub>2</sub> → 3 CO<sub>2</sub> + 3 H<sub>2</sub>O (O: 1 + 8 = 6 + 3). 0.250 mol × 4 = <b>1.00 mol O<sub>2</sub></b>. 1.13 mol ignores the O atom in acetone, and 0.750 mol is the amount of CO<sub>2</sub> (or H<sub>2</sub>O) formed.",
+  "x": [
+   "",
+   "This leaves out the oxygen atom that acetone already contains. Count it when balancing O.",
+   "This is the amount of CO₂ produced, not the O₂ consumed.",
+   "This divides by the coefficient instead of multiplying. More O₂ is needed than acetone."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "5.00 g of iron and 8.00 g of chlorine react as shown until one reactant is used up. What mass of the excess reactant remains?",
+  "c": [
+   "0.80 g of Fe",
+   "1.52 g of Cl<sub>2</sub>",
+   "3.00 g of Cl<sub>2</sub>",
+   "4.20 g of Fe"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 Fe(s) + 3 Cl<sub>2</sub>(g) → 2 FeCl<sub>3</sub>(s)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Substance",
+     "Molar mass (g mol<sup>−1</sup>)"
+    ],
+    "rows": [
+     [
+      "Fe",
+      "55.85"
+     ],
+     [
+      "Cl<sub>2</sub>",
+      "70.90"
+     ]
+    ]
+   }
+  ],
+  "h": "Convert both masses to moles. Find which one runs out first using the 2 : 3 ratio, then find how much of the other one reacts.",
+  "w": "Fe: 5.00/55.85 = 0.0895 mol. Cl<sub>2</sub>: 8.00/70.90 = 0.1128 mol. All the Fe would need 0.134 mol Cl<sub>2</sub>, more than is present, so Cl<sub>2</sub> is limiting. Fe used = 0.1128 × 2/3 = 0.0752 mol = 4.20 g, so <b>0.80 g of Fe</b> remains. 4.20 g is the iron that reacts, and 3.00 g of Cl<sub>2</sub> assumes the smaller mass runs out.",
+  "x": [
+   "",
+   "This treats iron as limiting. Check whether there is enough Cl₂ for all of the iron.",
+   "Subtracting the masses does not find the limiting reactant. Compare moles using the coefficients.",
+   "This is the mass of iron that reacts. The question asks what is left."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "The box shows a mixture of P<sub>4</sub> molecules (four P atoms each) and Cl<sub>2</sub> molecules that react as shown until one reactant is used up. Which statements are true?<br>I. Cl<sub>2</sub> is the limiting reactant.<br>II. The total number of molecules in the box is the same after the reaction.<br>III. The total mass of the box contents is the same after the reaction.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "P<sub>4</sub>(s) + 6 Cl<sub>2</sub>(g) → 4 PCl<sub>3</sub>(l)"
+   },
+   {
+    "type": "particles",
+    "seed": 5,
+    "key": {
+     "P": {
+      "c": "#9b7fd1",
+      "n": "P"
+     },
+     "Cl": {
+      "c": "#5aa469",
+      "n": "Cl"
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "P",
+        "P",
+        "P",
+        "P"
+       ],
+       [
+        "P",
+        "P",
+        "P",
+        "P"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "Count the molecules of each reactant and use the 1 : 6 ratio. Then count the molecules after the reaction and think about what happens to atoms.",
+  "w": "The box has 2 P<sub>4</sub> and 6 Cl<sub>2</sub>. Two P<sub>4</sub> would need 12 Cl<sub>2</sub>, so I is true: Cl<sub>2</sub> runs out. 6 Cl<sub>2</sub> + 1 P<sub>4</sub> → 4 PCl<sub>3</sub>, leaving 1 P<sub>4</sub>, so there are 5 molecules after versus 8 before, and II is false. III is true because atoms are conserved, so mass is conserved. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true. Every atom is still in the box, so the mass cannot change.",
+   "Statement II is false. Count the molecules before and after.",
+   "Statement I is true. Two P₄ molecules would need twelve Cl₂ molecules."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "A student burns a strip of magnesium in a crucible open to the air, so O<sub>2</sub> is always in excess. Which statements are true?<br>I. Using more O<sub>2</sub> would increase the theoretical yield of MgO.<br>II. Using a longer strip of Mg would increase the theoretical yield of MgO.<br>III. If some MgO smoke escapes, the percent yield is lowered.",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "II only",
+   "I, II and III"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 Mg(s) + O<sub>2</sub>(g) → 2 MgO(s)"
+   }
+  ],
+  "h": "The theoretical yield depends only on the amount of the limiting reactant. The percent yield compares what is collected with that amount.",
+  "w": "Mg is the limiting reactant. I is false: more of an excess reactant does not change the theoretical yield. II is true: more Mg means more MgO can form. III is true: lost product lowers the actual yield, so the percent yield drops (the theoretical yield is unchanged). The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement I is false. O₂ is already in excess, so adding more cannot raise the theoretical yield.",
+   "Statement III is also true. Product that escapes is not weighed, so the actual yield falls.",
+   "Statement I is false. Extra excess reactant does not change how much product can form."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Each fuel below burns completely to CO<sub>2</sub> and H<sub>2</sub>O. Rank them by the mass of CO<sub>2</sub> produced per gram of fuel burned, from least to most.<br>I. methane, CH<sub>4</sub><br>II. ethane, C<sub>2</sub>H<sub>6</sub><br>III. propane, C<sub>3</sub>H<sub>8</sub>",
+  "c": [
+   "I &lt; II &lt; III",
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III",
+   "I &lt; III &lt; II"
+  ],
+  "h": "Every C atom in the fuel ends up in one CO<sub>2</sub>. Compare the mass fraction of carbon in each fuel.",
+  "w": "Grams of CO<sub>2</sub> per gram = (number of C × 44.01)/molar mass. CH<sub>4</sub>: 44.01/16.04 = 2.74. C<sub>2</sub>H<sub>6</sub>: 88.02/30.07 = 2.93. C<sub>3</sub>H<sub>8</sub>: 132.03/44.10 = 2.99. So <b>I &lt; II &lt; III</b>: the larger the fuel, the higher its fraction of carbon.",
+  "x": [
+   "",
+   "This is the reverse. Methane has the most hydrogen per carbon, so it has the lowest fraction of carbon.",
+   "Ethane has a higher fraction of carbon than methane, so it gives more CO₂ per gram.",
+   "Propane has a higher fraction of carbon than ethane. Work out grams of CO₂ per gram for each."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "A sample of cobalt(II) chloride hydrate, CoCl<sub>2</sub>·nH<sub>2</sub>O, is heated in a crucible until all the water is driven off. The data are shown. What is n? (CoCl<sub>2</sub>: 129.83 g mol<sup>−1</sup>; H<sub>2</sub>O: 18.02 g mol<sup>−1</sup>)",
+  "c": [
+   "6",
+   "13",
+   "1",
+   "4"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "CoCl<sub>2</sub>·nH<sub>2</sub>O(s) → CoCl<sub>2</sub>(s) + n H<sub>2</sub>O(g)"
+   },
+   {
+    "type": "table",
+    "head": [
+     "Measurement",
+     "Mass (g)"
+    ],
+    "rows": [
+     [
+      "Empty crucible",
+      "18.452"
+     ],
+     [
+      "Crucible + hydrate",
+      "20.832"
+     ],
+     [
+      "Crucible + residue after heating",
+      "19.752"
+     ]
+    ]
+   }
+  ],
+  "h": "Find the mass of the hydrate, the anhydrous residue and the water lost. Convert the water and the CoCl<sub>2</sub> to moles and take their ratio.",
+  "w": "Hydrate = 20.832 − 18.452 = 2.380 g. CoCl<sub>2</sub> = 19.752 − 18.452 = 1.300 g, which is 0.01001 mol. Water lost = 2.380 − 1.300 = 1.080 g, which is 0.05993 mol. n = 0.05993/0.01001 = 5.99, so <b>n = 6</b>. 13 treats the whole hydrate mass as water, and 1 compares grams instead of moles.",
+  "x": [
+   "",
+   "This treats the whole hydrate mass as water. Subtract the residue to get the water lost.",
+   "This compares the masses of water and CoCl₂ directly. Convert both to moles first.",
+   "Check the subtraction. The water lost is the hydrate mass minus the residue mass."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "A mixture of 2.00 mol of Fe<sub>2</sub>O<sub>3</sub> and 5.40 mol of carbon reacts as shown. What is the theoretical yield of iron?",
+  "c": [
+   "3.60 mol",
+   "4.00 mol",
+   "5.40 mol",
+   "8.10 mol"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "Fe<sub>2</sub>O<sub>3</sub>(s) + 3 C(s) → 2 Fe(l) + 3 CO(g)"
+   }
+  ],
+  "h": "Find how much Fe each reactant could make on its own. The smaller amount is the theoretical yield.",
+  "w": "From Fe<sub>2</sub>O<sub>3</sub>: 2.00 × 2 = 4.00 mol Fe. From C: 5.40 × 2/3 = 3.60 mol Fe. Carbon is limiting, so the theoretical yield is <b>3.60 mol</b>. 4.00 mol would need 6.00 mol C, which is not available.",
+  "x": [
+   "",
+   "This is what Fe₂O₃ alone could make, but there is not enough carbon for all of it.",
+   "This uses a 1 to 1 ratio of C to Fe. The coefficients are 3 and 2.",
+   "This turns the C to Fe ratio upside down. Three C atoms give two Fe atoms."
+  ],
+  "k": 1,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Nitrogen reacts with fluorine as shown. Which box (I–IV) contains N<sub>2</sub> and F<sub>2</sub> in exactly the right ratio for both to be used up completely?",
+  "c": [
+   "Box II",
+   "Box I",
+   "Box III",
+   "Box IV"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "N<sub>2</sub>(g) + 3 F<sub>2</sub>(g) → 2 NF<sub>3</sub>(g)"
+   },
+   {
+    "type": "particles",
+    "seed": 33,
+    "key": {
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     },
+     "F": {
+      "c": "#f2c14e",
+      "n": "F"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "mols": [
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "N",
+        "N"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "mols": [
+       [
+        "N",
+        "N"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "The coefficients say one N<sub>2</sub> molecule for every three F<sub>2</sub> molecules.",
+  "w": "Box II has 2 N<sub>2</sub> and 6 F<sub>2</sub>, a 1 : 3 ratio, so it makes 4 NF<sub>3</sub> with nothing left: <b>box II</b>. Box I (1 : 1) leaves N<sub>2</sub> over, box III (3 : 1) has the ratio upside down, and box IV (1 : 6) leaves F<sub>2</sub> over.",
+  "x": [
+   "",
+   "Equal numbers of molecules do not match a 1 to 3 ratio. N₂ would be left over.",
+   "This box has the ratio upside down, with more N₂ than F₂.",
+   "One N₂ uses only three F₂, so F₂ would be left over."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Calcium carbide is made in two steps, shown below. What maximum mass of CaC<sub>2</sub> can be made from 50.0 g of CaCO<sub>3</sub> if carbon is in excess? (CaCO<sub>3</sub>: 100.09 g mol<sup>−1</sup>; CaC<sub>2</sub>: 64.10 g mol<sup>−1</sup>)",
+  "c": [
+   "32.0 g",
+   "10.7 g",
+   "96.1 g",
+   "64.1 g"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "Step 1: CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g)"
+   },
+   {
+    "type": "eq",
+    "text": "Step 2: CaO(s) + 3 C(s) → CaC<sub>2</sub>(s) + CO(g)"
+   }
+  ],
+  "h": "Follow the calcium: one CaCO<sub>3</sub> gives one CaO, which gives one CaC<sub>2</sub>. The coefficient of carbon does not matter here.",
+  "w": "50.0 g / 100.09 g mol<sup>−1</sup> = 0.4996 mol CaCO<sub>3</sub> → 0.4996 mol CaO → 0.4996 mol CaC<sub>2</sub>. Mass = 0.4996 × 64.10 = <b>32.0 g</b>. 10.7 g and 96.1 g wrongly bring in the coefficient 3 on carbon, and 64.1 g is the mass of one full mole.",
+  "x": [
+   "",
+   "This divides by the 3 on carbon. Carbon is in excess, so it does not set the ratio of CaC₂ to CaCO₃.",
+   "This multiplies by the 3 on carbon. Each CaO gives one CaC₂.",
+   "This is the mass of one mole of CaC₂. Only about half a mole of CaCO₃ is used."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Chlorine and fluorine react to form chlorine trifluoride. The boxes show the mixture before the reaction and after it has stopped. What is the percent yield of ClF<sub>3</sub>?",
+  "c": [
+   "66.7%",
+   "44.4%",
+   "133%",
+   "50.0%"
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "Cl<sub>2</sub>(g) + 3 F<sub>2</sub>(g) → 2 ClF<sub>3</sub>(g)"
+   },
+   {
+    "type": "particles",
+    "seed": 18,
+    "arrow": true,
+    "key": {
+     "Cl": {
+      "c": "#5aa469",
+      "n": "Cl"
+     },
+     "F": {
+      "c": "#f2c14e",
+      "n": "F"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "Before",
+      "mols": [
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ]
+      ]
+     },
+     {
+      "cap": "After",
+      "mols": [
+       [
+        "Cl",
+        "F",
+        "F",
+        "F"
+       ],
+       [
+        "Cl",
+        "F",
+        "F",
+        "F"
+       ],
+       [
+        "Cl",
+        "F",
+        "F",
+        "F"
+       ],
+       [
+        "Cl",
+        "F",
+        "F",
+        "F"
+       ],
+       [
+        "Cl",
+        "Cl"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ],
+       [
+        "F",
+        "F"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "Work out how many ClF<sub>3</sub> molecules could form if the reaction went to completion, then compare with how many did form.",
+  "w": "3 Cl<sub>2</sub> and 9 F<sub>2</sub> are in the exact 1 : 3 ratio, so 6 ClF<sub>3</sub> could form. Only 4 formed, with 1 Cl<sub>2</sub> and 3 F<sub>2</sub> left. Percent yield = 4/6 × 100 = <b>66.7%</b>. 44.4% divides by the 9 F<sub>2</sub>, 133% divides by the 3 Cl<sub>2</sub>, and 50.0% is the share of molecules in the After box that are ClF<sub>3</sub>.",
+  "x": [
+   "",
+   "This divides by the number of F₂ molecules. Compare with the most ClF₃ that could form.",
+   "A yield over 100% is impossible. Each Cl₂ can make two ClF₃.",
+   "This is the fraction of molecules after the reaction that are product, not the percent yield."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Which statement correctly describes the balanced equation for the combustion of ethane?",
+  "c": [
+   "2 mol of C<sub>2</sub>H<sub>6</sub> react with 7 mol of O<sub>2</sub>.",
+   "2 g of C<sub>2</sub>H<sub>6</sub> react with 7 g of O<sub>2</sub>.",
+   "The products weigh more than the reactants, since 10 mol form from 9 mol.",
+   "2 molecules of C<sub>2</sub>H<sub>6</sub> react with 7 atoms of oxygen."
+  ],
+  "f": [
+   {
+    "type": "eq",
+    "text": "2 C<sub>2</sub>H<sub>6</sub>(g) + 7 O<sub>2</sub>(g) → 4 CO<sub>2</sub>(g) + 6 H<sub>2</sub>O(g)"
+   }
+  ],
+  "h": "Coefficients count particles (molecules or moles), not grams.",
+  "w": "Coefficients give the ratio of molecules or moles, so <b>2 mol of C<sub>2</sub>H<sub>6</sub> react with 7 mol of O<sub>2</sub></b>. They are not mass ratios. Mass is always conserved even though the number of moles changes (9 → 10). The 7 counts O<sub>2</sub> molecules, which is 14 O atoms.",
+  "x": [
+   "",
+   "Coefficients count moles or molecules, not grams. The two gases have different molar masses.",
+   "Mass is conserved in every reaction. Moles of molecules are not.",
+   "The coefficient 7 counts O₂ molecules, and each one has two O atoms."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "reactions",
+  "q": "Substances A and B react to form a single product, C. In each trial in the table the reaction goes until one reactant is used up. Which equation fits the data?",
+  "c": [
+   "2 A + 3 B → C",
+   "3 A + 2 B → C",
+   "2 A + 10 B → C",
+   "A + B → C"
+  ],
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Trial",
+     "A at start (mol)",
+     "B at start (mol)",
+     "C formed (mol)"
+    ],
+    "rows": [
+     [
+      "1",
+      "1.00",
+      "5.00",
+      "0.500"
+     ],
+     [
+      "2",
+      "4.00",
+      "1.50",
+      "0.500"
+     ],
+     [
+      "3",
+      "2.00",
+      "3.00",
+      "1.00"
+     ]
+    ]
+   }
+  ],
+  "h": "In trial 1, B is plentiful, so A must run out. In trial 2, A is plentiful, so B must run out. Each tells you one coefficient.",
+  "w": "Trial 1: if A limits, 1.00 mol A gives 0.500 mol C, so 2 A per C. Trial 2: if B limits, 1.50 mol B gives 0.500 mol C, so 3 B per C. Trial 3 checks it: 2.00 mol A and 3.00 mol B are used up exactly and give 1.00 mol C. The equation is <b>2 A + 3 B → C</b>. 2 A + 10 B → C assumes all of B reacts in trial 1, but then trial 2 could make only 0.15 mol C.",
+  "x": [
+   "",
+   "These coefficients are swapped. In trial 2, find how many moles of B make 0.500 mol C.",
+   "This assumes all 5.00 mol of B reacts in trial 1. Test it on trial 2, where it predicts far less C.",
+   "With a 1 to 1 to 1 ratio, trial 1 would give 1.00 mol C. Compare that with the table."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-gc-modeled"
+ }
+]

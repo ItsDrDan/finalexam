@@ -1,0 +1,2021 @@
+[
+ {
+  "t": "composition",
+  "q": "Each box shows a sample of a different gas: box I holds water vapor (H<sub>2</sub>O), box II carbon dioxide (CO<sub>2</sub>), box III oxygen (O<sub>2</sub>) and box IV ammonia (NH<sub>3</sub>). Which box contains the greatest mass of gas?",
+  "c": [
+   "Box II",
+   "Box IV",
+   "Box III",
+   "Box I"
+  ],
+  "h": "Count the molecules in each box, then weigh them: number of molecules × molar mass of the molecule.",
+  "w": "Mass is proportional to (number of molecules) × (molar mass). Box I: 6 × 18.02 = 108 u. Box II: 3 × 44.01 = 132 u. Box III: 4 × 32.00 = 128 u. Box IV: 7 × 17.03 = 119 u. So <b>box II</b> is heaviest even though it has the fewest molecules. Box IV has the most molecules and the most atoms, but NH<sub>3</sub> molecules are light.",
+  "x": [
+   "",
+   "Box IV has the most molecules and the most atoms, but each NH₃ molecule weighs only 17 u. Multiply the count by the molar mass.",
+   "Box III is close. Multiply 4 by 32.00 and compare it with the other boxes again.",
+   "Box I has many atoms, but most of them are light H atoms. Weigh each box with molar masses."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 31,
+    "key": {
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     },
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     },
+     "C": {
+      "c": "#555",
+      "n": "C",
+      "lin": true
+     },
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ],
+       [
+        "O",
+        "H",
+        "H"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ],
+       [
+        "C",
+        "O",
+        "O"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "mols": [
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "mols": [
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "The box shows a sample of ammonia, NH<sub>3</sub>. Each drawn molecule stands for 0.250 mol of NH<sub>3</sub>. What mass of hydrogen does the sample contain?",
+  "c": [
+   "4.54 g",
+   "1.51 g",
+   "25.5 g",
+   "3.02 g"
+  ],
+  "h": "Count the molecules to get moles of NH<sub>3</sub>, then use the formula: each NH<sub>3</sub> carries three H atoms.",
+  "w": "6 molecules × 0.250 mol = 1.50 mol NH<sub>3</sub>. Each mole of NH<sub>3</sub> holds 3 mol H, so 4.50 mol H × 1.008 g mol<sup>−1</sup> = <b>4.54 g</b>. 1.51 g counts only one H per molecule, 3.02 g counts two, and 25.5 g is the mass of the whole NH<sub>3</sub> sample.",
+  "x": [
+   "",
+   "This uses one H atom per molecule. Look at how many H atoms each NH₃ carries.",
+   "This is the mass of all the NH₃, nitrogen included. Only the hydrogen is asked for.",
+   "This counts two H atoms per molecule. Count the H atoms on one molecule in the drawing again."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 7,
+    "key": {
+     "N": {
+      "c": "#3b82b4",
+      "n": "N"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H",
+      "r": 7
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ],
+       [
+        "N",
+        "H",
+        "H",
+        "H"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "Glycine, the simplest amino acid, is drawn below with every atom shown. What is the mass percent of nitrogen in glycine?",
+  "c": [
+   "18.66%",
+   "20.01%",
+   "10.00%",
+   "42.63%"
+  ],
+  "s": [
+   {
+    "a": [
+     [
+      "H",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "N",
+      1,
+      1,
+      1,
+      0,
+      ""
+     ],
+     [
+      "C",
+      2,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      2,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      2,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      3,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      3,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      4,
+      1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "H",
+      5,
+      1,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      1
+     ],
+     [
+      3,
+      4,
+      1
+     ],
+     [
+      3,
+      5,
+      1
+     ],
+     [
+      3,
+      6,
+      1
+     ],
+     [
+      6,
+      7,
+      2
+     ],
+     [
+      6,
+      8,
+      1
+     ],
+     [
+      8,
+      9,
+      1
+     ]
+    ],
+    "cap": "glycine"
+   }
+  ],
+  "h": "Read the molecular formula from the drawing first (count every C, H, N and O), then divide the mass of N by the molar mass.",
+  "w": "The drawing shows C<sub>2</sub>H<sub>5</sub>NO<sub>2</sub>: 2(12.01) + 5(1.008) + 14.01 + 2(16.00) = 75.07 g mol<sup>−1</sup>. %N = 14.01/75.07 × 100 = <b>18.66%</b>. Leaving out the H atoms gives 20.01%, 10.00% is the fraction of atoms that are N, and 42.63% is the percent oxygen.",
+  "x": [
+   "",
+   "This molar mass leaves out the five H atoms. Count them in the drawing and include them.",
+   "This is 1 N out of 10 atoms. Mass percent must weigh each atom by its atomic mass.",
+   "This is the mass percent of oxygen, not nitrogen."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "Succinic acid, an intermediate in cellular respiration, is drawn below. What is its empirical formula?",
+  "c": [
+   "C<sub>2</sub>H<sub>3</sub>O<sub>2</sub>",
+   "C<sub>4</sub>H<sub>6</sub>O<sub>4</sub>",
+   "C<sub>2</sub>H<sub>2</sub>O<sub>2</sub>",
+   "CH<sub>2</sub>O"
+  ],
+  "s": [
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "C",
+      2,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      2,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "C",
+      3,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      3,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      3,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      4,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      4,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      4,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      5,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      5,
+      2,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      6,
+      1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "H",
+      7,
+      1,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      2
+     ],
+     [
+      2,
+      4,
+      1
+     ],
+     [
+      4,
+      5,
+      1
+     ],
+     [
+      4,
+      6,
+      1
+     ],
+     [
+      4,
+      7,
+      1
+     ],
+     [
+      7,
+      8,
+      1
+     ],
+     [
+      7,
+      9,
+      1
+     ],
+     [
+      7,
+      10,
+      1
+     ],
+     [
+      10,
+      11,
+      2
+     ],
+     [
+      10,
+      12,
+      1
+     ],
+     [
+      12,
+      13,
+      1
+     ]
+    ],
+    "cap": "succinic acid"
+   }
+  ],
+  "h": "Count each kind of atom to get the molecular formula, then divide all the subscripts by their largest common factor.",
+  "w": "The drawing has 4 C, 6 H and 4 O, so the molecular formula is C<sub>4</sub>H<sub>6</sub>O<sub>4</sub>. Dividing by 2 gives <b>C<sub>2</sub>H<sub>3</sub>O<sub>2</sub></b>. C<sub>4</sub>H<sub>6</sub>O<sub>4</sub> is the molecular formula, not the simplest ratio. C<sub>2</sub>H<sub>2</sub>O<sub>2</sub> misses the two O–H hydrogens.",
+  "x": [
+   "",
+   "This is the molecular formula. An empirical formula is the smallest whole number ratio.",
+   "This misses the H atoms bonded to oxygen. Count every H in the drawing.",
+   "The C to O ratio in the drawing is 1 to 1, and CH₂O also has the wrong H count."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "Box I contains oxygen, O<sub>2</sub>, and box II contains ozone, O<sub>3</sub>. Which statements about the two samples are true?<br>I. They contain the same number of oxygen atoms.<br>II. They have the same mass.<br>III. They contain the same number of moles of molecules.",
+  "c": [
+   "I and II only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "f": [
+   {
+    "type": "particles",
+    "seed": 12,
+    "key": {
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "O",
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O",
+        "O"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "Count molecules and atoms in each box. The mass of a sample depends only on which atoms it holds.",
+  "w": "Box I has 6 O<sub>2</sub> = 12 O atoms, and box II has 4 O<sub>3</sub> = 12 O atoms, so I is true. Both samples are 12 oxygen atoms, so they have the same mass, and II is true. III is false: 6 molecules is not the same amount as 4 molecules. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is also true. Both samples are made of the same 12 oxygen atoms, so their masses match.",
+   "Statement III is false. Box I has 6 molecules and box II has only 4.",
+   "Statement I is true. Count the atoms: each box holds 12 O atoms."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "Samples of different masses of one oxide of sulfur were analyzed. The graph shows the mass of oxygen in each sample against the mass of the sample. What is the formula of the oxide?",
+  "c": [
+   "SO<sub>3</sub>",
+   "SO<sub>2</sub>",
+   "S<sub>2</sub>O<sub>3</sub>",
+   "SO"
+  ],
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Mass of sample (g)",
+     "min": 0,
+     "max": 10,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+     ]
+    },
+    "y": {
+     "label": "Mass of oxygen (g)",
+     "min": 0,
+     "max": 7,
+     "ticks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0
+       ],
+       [
+        2,
+        1.199
+       ],
+       [
+        4,
+        2.398
+       ],
+       [
+        6,
+        3.598
+       ],
+       [
+        8,
+        4.797
+       ],
+       [
+        10,
+        5.996
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "h": "The slope of the line is the mass fraction of oxygen. Compare it with the mass percent of O in each formula.",
+  "w": "The line passes through (10.0 g, 6.0 g), so the oxide is 60% O by mass. SO<sub>3</sub>: 48.00/80.06 = 60.0% O. SO<sub>2</sub> is 50.0% O, S<sub>2</sub>O<sub>3</sub> 42.8% and SO 33.3%. The oxide is <b>SO<sub>3</sub></b>.",
+  "x": [
+   "",
+   "SO₂ is 50% oxygen by mass. Read the oxygen mass at 10 g on the graph again.",
+   "S₂O₃ is under 43% oxygen by mass, below what the line shows.",
+   "SO is only about one third oxygen by mass, far below the line."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "The graph shows the mass of samples of a pure gas against the number of molecules in each sample. Which gas is it?",
+  "c": [
+   "SO<sub>2</sub>",
+   "CO<sub>2</sub>",
+   "Cl<sub>2</sub>",
+   "O<sub>2</sub>"
+  ],
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Number of molecules (× 10<sup>22</sup>)",
+     "min": 0,
+     "max": 8,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8
+     ]
+    },
+    "y": {
+     "label": "Mass (g)",
+     "min": 0,
+     "max": 10,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0
+       ],
+       [
+        2,
+        2.128
+       ],
+       [
+        4,
+        4.255
+       ],
+       [
+        6,
+        6.383
+       ],
+       [
+        8,
+        8.51
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "h": "Read one point, convert the number of molecules to moles with Avogadro's number, then divide mass by moles.",
+  "w": "At 6.0 × 10<sup>22</sup> molecules the mass is 6.4 g. Moles = 6.0 × 10<sup>22</sup> / 6.022 × 10<sup>23</sup> = 0.0996 mol, so M = 6.4 g / 0.0996 mol ≈ 64 g mol<sup>−1</sup>, which is <b>SO<sub>2</sub></b> (64.06). CO<sub>2</sub> (44.01) and O<sub>2</sub> (32.00) would give lower lines, and Cl<sub>2</sub> (70.90) a higher one.",
+  "x": [
+   "",
+   "CO₂ is 44 g per mole, so its line would reach only about 4.4 g at 6 × 10²² molecules.",
+   "Cl₂ is about 71 g per mole, so its line would sit above this one.",
+   "O₂ is 32 g per mole, half of what this line gives."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "Urea, drawn below, is a common nitrogen fertilizer. What mass of nitrogen is in a 25.0 kg bag of pure urea?",
+  "c": [
+   "11.7 kg",
+   "5.83 kg",
+   "6.25 kg",
+   "13.3 kg"
+  ],
+  "s": [
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "N",
+      1,
+      1,
+      1,
+      0,
+      ""
+     ],
+     [
+      "C",
+      2,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      2,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "N",
+      3,
+      1,
+      1,
+      0,
+      ""
+     ],
+     [
+      "H",
+      4,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      3,
+      2,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      1
+     ],
+     [
+      3,
+      4,
+      2
+     ],
+     [
+      3,
+      5,
+      1
+     ],
+     [
+      5,
+      6,
+      1
+     ],
+     [
+      5,
+      7,
+      1
+     ]
+    ],
+    "cap": "urea"
+   }
+  ],
+  "h": "Read the formula from the drawing, find the mass fraction of N (count every N atom), and multiply by the mass of the bag.",
+  "w": "Urea is CH<sub>4</sub>N<sub>2</sub>O, 60.06 g mol<sup>−1</sup>, with 2 × 14.01 = 28.02 g N per mole. Mass of N = 25.0 kg × 28.02/60.06 = <b>11.7 kg</b>. 5.83 kg counts only one N atom, 6.25 kg uses the fraction of atoms (2 of 8), and 13.3 kg is the mass of everything except nitrogen.",
+  "x": [
+   "",
+   "This counts one N atom. The drawing shows two NH₂ groups.",
+   "This uses 2 N out of 8 atoms. Mass percent must use atomic masses, not atom counts.",
+   "This is the mass of the C, H and O in the bag, the part that is not nitrogen."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "Three samples of chromium were heated in oxygen until each was completely converted to the same chromium oxide. The results are in the table. What is the empirical formula of the oxide?",
+  "c": [
+   "Cr<sub>2</sub>O<sub>3</sub>",
+   "CrO",
+   "CrO<sub>2</sub>",
+   "Cr<sub>3</sub>O<sub>2</sub>"
+  ],
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Trial",
+     "Mass of Cr (g)",
+     "Mass of oxide (g)"
+    ],
+    "rows": [
+     [
+      "1",
+      "1.300",
+      "1.900"
+     ],
+     [
+      "2",
+      "2.600",
+      "3.800"
+     ],
+     [
+      "3",
+      "3.900",
+      "5.700"
+     ]
+    ]
+   }
+  ],
+  "h": "The mass of oxygen is the oxide mass minus the chromium mass. Convert both to moles and find the whole number ratio.",
+  "w": "Trial 2: O = 3.800 − 2.600 = 1.200 g. Cr: 2.600/52.00 = 0.05000 mol. O: 1.200/16.00 = 0.07500 mol. The ratio O:Cr = 1.500, so multiply by 2: <b>Cr<sub>2</sub>O<sub>3</sub></b>. Every trial gives the same ratio. A ratio of 1.5 cannot be rounded to 1 (CrO) or 2 (CrO<sub>2</sub>), and Cr<sub>3</sub>O<sub>2</sub> inverts it.",
+  "x": [
+   "",
+   "This rounds an O to Cr ratio of 1.5 down to 1. A ratio of 1.5 must be multiplied to get whole numbers.",
+   "This rounds an O to Cr ratio of 1.5 up to 2. Multiply by a small whole number instead of rounding.",
+   "This inverts the ratio. There are more moles of O than moles of Cr."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "Vitamin C (ascorbic acid) has the mass composition shown in the table. What is its empirical formula?",
+  "c": [
+   "C<sub>3</sub>H<sub>4</sub>O<sub>3</sub>",
+   "CHO",
+   "C<sub>2</sub>H<sub>3</sub>O<sub>2</sub>",
+   "C<sub>6</sub>H<sub>8</sub>O<sub>6</sub>"
+  ],
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Element",
+     "Mass percent"
+    ],
+    "rows": [
+     [
+      "C",
+      "40.92%"
+     ],
+     [
+      "H",
+      "4.58%"
+     ],
+     [
+      "O",
+      "54.50%"
+     ]
+    ]
+   }
+  ],
+  "h": "Assume a 100 g sample, convert each mass to moles, and divide by the smallest. If a ratio ends in .33 or .67, multiply everything by 3.",
+  "w": "In 100 g: C 40.92/12.01 = 3.407 mol, H 4.58/1.008 = 4.54 mol, O 54.50/16.00 = 3.406 mol. Dividing by 3.406 gives C 1.000 : H 1.333 : O 1.000. Multiplying by 3 gives <b>C<sub>3</sub>H<sub>4</sub>O<sub>3</sub></b>. CHO rounds 1.33 to 1, and C<sub>6</sub>H<sub>8</sub>O<sub>6</sub> is the molecular formula, which is twice the empirical one.",
+  "x": [
+   "",
+   "This rounds an H ratio of 1.33 down to 1. That ratio is too far from a whole number to round.",
+   "Doubling gives 2 : 2.67 : 2, which is still not whole numbers. Try a different multiplier.",
+   "This is the molecular formula of vitamin C. Its subscripts can still be divided by a common factor."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "Ammonium dichromate, (NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>, is used in the classic \"volcano\" demonstration. What is its molar mass?",
+  "c": [
+   "252.08 g mol<sup>−1</sup>",
+   "234.04 g mol<sup>−1</sup>",
+   "200.08 g mol<sup>−1</sup>",
+   "156.08 g mol<sup>−1</sup>"
+  ],
+  "h": "The subscript after the parentheses multiplies every atom inside them. Count N, H, Cr and O separately.",
+  "w": "One formula unit holds 2 N, 8 H, 2 Cr and 7 O: 2(14.01) + 8(1.008) + 2(52.00) + 7(16.00) = <b>252.08 g mol<sup>−1</sup></b>. 234.04 counts only one NH<sub>4</sub>, 200.08 counts only one Cr, and 156.08 counts only one O.",
+  "x": [
+   "",
+   "This counts one NH₄ group. The subscript 2 outside the parentheses doubles the N and the H.",
+   "This counts one Cr atom. The formula has Cr₂.",
+   "This counts one O atom. The formula has seven."
+  ],
+  "k": 1,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "A flask holds 8.00 g of methane, CH<sub>4</sub>. What mass of oxygen gas, O<sub>2</sub>, contains the same number of molecules?",
+  "c": [
+   "16.0 g",
+   "8.00 g",
+   "39.9 g",
+   "4.01 g"
+  ],
+  "h": "Equal numbers of molecules means equal moles. Find the moles of CH<sub>4</sub>, then the mass of that many moles of O<sub>2</sub>.",
+  "w": "8.00 g / 16.04 g mol<sup>−1</sup> = 0.499 mol CH<sub>4</sub>. The same number of O<sub>2</sub> molecules is 0.499 mol × 32.00 g mol<sup>−1</sup> = <b>16.0 g</b>. 8.00 g would be equal masses, not equal molecules, and 39.9 g would match the number of atoms.",
+  "x": [
+   "",
+   "Equal masses of different substances contain different numbers of molecules.",
+   "This matches the number of atoms (5 per CH₄, 2 per O₂), not the number of molecules.",
+   "This inverts the molar mass ratio. An O₂ molecule is heavier than a CH₄ molecule."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "Rank these sulfur compounds by mass percent of sulfur, from lowest to highest.<br>I. FeS<sub>2</sub> (pyrite)<br>II. SO<sub>2</sub><br>III. CuS",
+  "c": [
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III",
+   "I &lt; II &lt; III",
+   "III &lt; I &lt; II"
+  ],
+  "h": "Work out mass of S divided by molar mass for each. The number of S atoms in the formula matters, and so does how heavy the partner atoms are.",
+  "w": "FeS<sub>2</sub>: 64.12/119.97 = 53.4% S. SO<sub>2</sub>: 32.06/64.06 = 50.0% S. CuS: 32.06/95.61 = 33.5% S. So <b>III &lt; II &lt; I</b>. SO<sub>2</sub> and FeS<sub>2</sub> are close, so each must be calculated.",
+  "x": [
+   "",
+   "CuS does not have the highest percent sulfur, because copper is much heavier than sulfur.",
+   "This is the reverse order. Calculate the mass percent of S for each formula.",
+   "FeS₂ has two S atoms per formula, which lifts it above SO₂."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "Which compound has the empirical formula CH<sub>2</sub>O?",
+  "c": [
+   "acetic acid",
+   "ethanol",
+   "acetone",
+   "formic acid"
+  ],
+  "cs": [
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      1,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      2,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      2,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      3,
+      1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "H",
+      4,
+      1,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      1,
+      3,
+      1
+     ],
+     [
+      1,
+      4,
+      1
+     ],
+     [
+      4,
+      5,
+      2
+     ],
+     [
+      4,
+      6,
+      1
+     ],
+     [
+      6,
+      7,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      1,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      2,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      2,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      2,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      3,
+      1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "H",
+      4,
+      1,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      1,
+      3,
+      1
+     ],
+     [
+      1,
+      4,
+      1
+     ],
+     [
+      4,
+      5,
+      1
+     ],
+     [
+      4,
+      6,
+      1
+     ],
+     [
+      4,
+      7,
+      1
+     ],
+     [
+      7,
+      8,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      1,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      1,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      2,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      2,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "C",
+      3,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      3,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      4,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      3,
+      0,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      1,
+      3,
+      1
+     ],
+     [
+      1,
+      4,
+      1
+     ],
+     [
+      4,
+      5,
+      2
+     ],
+     [
+      4,
+      6,
+      1
+     ],
+     [
+      6,
+      7,
+      1
+     ],
+     [
+      6,
+      8,
+      1
+     ],
+     [
+      6,
+      9,
+      1
+     ]
+    ]
+   },
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      1,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "O",
+      2,
+      1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "H",
+      3,
+      1,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      2
+     ],
+     [
+      1,
+      3,
+      1
+     ],
+     [
+      3,
+      4,
+      1
+     ]
+    ]
+   }
+  ],
+  "h": "Count the atoms in each structure to get its molecular formula, then reduce it to the simplest whole number ratio.",
+  "w": "Acetic acid has 2 C, 4 H and 2 O: C<sub>2</sub>H<sub>4</sub>O<sub>2</sub>, which reduces to CH<sub>2</sub>O, so the answer is <b>acetic acid</b>. Ethanol is C<sub>2</sub>H<sub>6</sub>O, acetone is C<sub>3</sub>H<sub>6</sub>O and formic acid is CH<sub>2</sub>O<sub>2</sub>. None of these reduce to CH<sub>2</sub>O.",
+  "x": [
+   "",
+   "This structure has 2 C, 6 H and 1 O. That ratio does not reduce to CH₂O.",
+   "This structure has 3 C but only 1 O, so C and O are not 1 to 1.",
+   "This structure has one C and two O atoms, so C and O are not 1 to 1."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "Ethylene glycol, the main ingredient in antifreeze, is drawn below. Which statements are true?<br>I. Its empirical formula is CH<sub>3</sub>O.<br>II. One mole of it contains 6.022 × 10<sup>23</sup> oxygen atoms.<br>III. Its mass percent of carbon equals that of methanol, CH<sub>3</sub>OH.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "s": [
+   {
+    "a": [
+     [
+      "H",
+      0,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "C",
+      2,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      2,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      2,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "C",
+      3,
+      1,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      3,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "H",
+      3,
+      2,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      4,
+      1,
+      2,
+      0,
+      ""
+     ],
+     [
+      "H",
+      5,
+      1,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      1
+     ],
+     [
+      2,
+      4,
+      1
+     ],
+     [
+      2,
+      5,
+      1
+     ],
+     [
+      5,
+      6,
+      1
+     ],
+     [
+      5,
+      7,
+      1
+     ],
+     [
+      5,
+      8,
+      1
+     ],
+     [
+      8,
+      9,
+      1
+     ]
+    ],
+    "cap": "ethylene glycol"
+   }
+  ],
+  "h": "Get the molecular formula from the drawing. Two compounds have the same mass percents only if they share an empirical formula.",
+  "w": "The drawing shows C<sub>2</sub>H<sub>6</sub>O<sub>2</sub>. I is true: it reduces to CH<sub>3</sub>O. II is false: each molecule has 2 O atoms, so a mole has 1.204 × 10<sup>24</sup> O atoms. III is false: ethylene glycol is 38.7% C, but methanol (CH<sub>4</sub>O, a different empirical formula) is 37.5% C. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false. Each molecule has two O atoms, so one mole has twice Avogadro's number of O atoms.",
+   "Statement III is false. Methanol is CH₄O, which is not the same empirical formula, so its percent carbon differs.",
+   "Statement II is false. Each molecule carries two O atoms, not one."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "Glucose, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, has a molar mass of 180.16 g mol<sup>−1</sup>. What is the mass of a single glucose molecule?",
+  "c": [
+   "2.992 × 10<sup>−22</sup> g",
+   "1.085 × 10<sup>26</sup> g",
+   "180.16 g",
+   "1.661 × 10<sup>−24</sup> g"
+  ],
+  "h": "One mole is 6.022 × 10<sup>23</sup> molecules. Divide the mass of a mole by the number of molecules in it.",
+  "w": "Mass of one molecule = 180.16 g / 6.022 × 10<sup>23</sup> = <b>2.992 × 10<sup>−22</sup> g</b>. Multiplying instead of dividing gives 1.085 × 10<sup>26</sup> g, which is far too large for one molecule, and 1.661 × 10<sup>−24</sup> g is the mass of 1 atomic mass unit.",
+  "x": [
+   "",
+   "This multiplies by Avogadro's number. One molecule must weigh far less than a mole of molecules.",
+   "This is the mass of a whole mole of glucose molecules.",
+   "This is the mass of one atomic mass unit. A glucose molecule is 180 u."
+  ],
+  "k": 1,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "The first box holds 2 molecules of oxygen, O<sub>2</sub>. Boxes I–IV hold helium atoms. Which helium box has the same mass as the O<sub>2</sub> box?",
+  "c": [
+   "Box IV",
+   "Box I",
+   "Box II",
+   "Box III"
+  ],
+  "f": [
+   {
+    "type": "particles",
+    "seed": 4,
+    "key": {
+     "O": {
+      "c": "#e0675a",
+      "n": "O"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "O₂ sample",
+      "mols": [
+       [
+        "O",
+        "O"
+       ],
+       [
+        "O",
+        "O"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "particles",
+    "seed": 9,
+    "key": {
+     "X": {
+      "c": "#f2c14e",
+      "n": "He",
+      "r": 8
+     }
+    },
+    "boxes": [
+     {
+      "cap": "I",
+      "mols": [
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     },
+     {
+      "cap": "II",
+      "mols": [
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     },
+     {
+      "cap": "III",
+      "mols": [
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     },
+     {
+      "cap": "IV",
+      "mols": [
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "Find the mass of the O<sub>2</sub> box in atomic mass units, then work out how many He atoms (4.00 u each) have that mass.",
+  "w": "Two O<sub>2</sub> molecules weigh 2 × 32.00 = 64.00 u. Each He atom is 4.00 u, so 64.00/4.00 = 16 He atoms are needed, which is <b>box IV</b>. Box I has the same number of particles, box II the same number of atoms, and box III uses 16 u for each O<sub>2</sub> molecule instead of 32 u.",
+  "x": [
+   "",
+   "This box has the same number of particles. Each O₂ molecule is eight times heavier than a He atom.",
+   "This box matches the number of atoms, but an O atom is four times as heavy as a He atom.",
+   "This treats each O₂ molecule as 16 u. An O₂ molecule has two O atoms, so it is 32 u."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "composition",
+  "q": "The box shows the ions in a sample of solid aluminum sulfate, Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> (342.14 g mol<sup>−1</sup>). Each drawn ion stands for 0.0100 mol of that ion. What is the mass of the sample?",
+  "c": [
+   "6.84 g",
+   "34.2 g",
+   "13.7 g",
+   "3.42 g"
+  ],
+  "f": [
+   {
+    "type": "particles",
+    "seed": 21,
+    "key": {
+     "A": {
+      "c": "#9b7fd1",
+      "n": "Al³⁺",
+      "q": "+"
+     },
+     "S": {
+      "c": "#f2c14e",
+      "n": "SO₄²⁻",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "mols": [
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ],
+       [
+        "S"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "Find the moles of Al<sup>3+</sup> from the drawing. Each formula unit of Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> releases two Al<sup>3+</sup> ions.",
+  "w": "There are 4 Al<sup>3+</sup> (0.0400 mol) and 6 SO<sub>4</sub><sup>2−</sup> (0.0600 mol). Each formula unit has 2 Al<sup>3+</sup> and 3 SO<sub>4</sub><sup>2−</sup>, so there are 0.0200 mol Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>. Mass = 0.0200 × 342.14 = <b>6.84 g</b>. 34.2 g treats all 10 ions as formula units, and 13.7 g treats each Al<sup>3+</sup> as a formula unit.",
+  "x": [
+   "",
+   "This treats all 10 ions as 10 formula units. Five ions make up one formula unit.",
+   "This treats each Al³⁺ ion as a whole formula unit. Each unit holds two Al³⁺ ions.",
+   "This counts only 0.0100 mol of compound. Use the ion counts to find how many formula units there are."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-gc-modeled"
+ }
+]

@@ -1,0 +1,1851 @@
+[
+ {
+  "t": "imf",
+  "q": "Structures of methanol (I), dimethyl ether (II) and acetone (III) are shown. Which of these molecules can accept a hydrogen bond from a water molecule but CANNOT form hydrogen bonds with other molecules of its own kind?",
+  "c": [
+   "II and III only",
+   "I only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "A hydrogen bond needs an H on N, O or F in one molecule and a lone pair on N, O or F in the other.",
+  "w": "All three have an oxygen with lone pairs, so all three can accept a hydrogen bond from water. I: methanol also has an O–H hydrogen, so methanol molecules hydrogen bond to one another, and I does not fit. II: dimethyl ether has no H on O, so it cannot hydrogen bond with itself; it fits. III: acetone's hydrogens are all on carbon, so it also fits. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Methanol has an OH hydrogen, so methanol molecules do hydrogen bond with each other. Look again at the molecules with no OH hydrogen.",
+   "Molecule I has an OH hydrogen, so it can hydrogen bond with other methanol molecules and does not fit the description.",
+   "Methanol fails the second condition. Its OH hydrogen lets methanol molecules hydrogen bond to one another."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CO",
+    "cap": "I"
+   },
+   {
+    "smi": "COC",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(C)=O",
+    "cap": "III"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "imf",
+  "q": "Structures of 1-butanol (I), pentane (II) and glycerol (III) are shown. Their molar masses are 74, 72 and 92 g mol<sup>−1</sup>. Which lists them in order of INCREASING solubility in water?",
+  "c": [
+   "II &lt; I &lt; III",
+   "I &lt; II &lt; III",
+   "II &lt; III &lt; I",
+   "III &lt; I &lt; II"
+  ],
+  "h": "Count the OH groups that can hydrogen bond with water, and compare them with the size of the nonpolar hydrocarbon part.",
+  "w": "Pentane (II) has no OH group and only dispersion forces, so it barely dissolves. 1-Butanol (I) has one OH group but a four-carbon chain, so it is only partly soluble. Glycerol (III) has three OH groups on three carbons and mixes with water in all proportions. The order is <b>II &lt; I &lt; III</b>.",
+  "x": [
+   "",
+   "Pentane has no OH group at all, so it cannot hydrogen bond with water and is the least soluble.",
+   "Glycerol has three OH groups on a short chain, so it hydrogen bonds with water far better than 1‑butanol.",
+   "This order is backward. More OH groups per carbon make a compound more soluble in water, not less."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCCCO",
+    "cap": "I"
+   },
+   {
+    "smi": "CCCCC",
+    "cap": "II"
+   },
+   {
+    "smi": "OCC(O)CO",
+    "cap": "III"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "imf",
+  "q": "The dodecanoate ion, a soap anion, is drawn. It has a long nonpolar hydrocarbon tail and a charged carboxylate head (–CO<sub>2</sub><sup>−</sup>). In water, many of these ions gather into spherical clusters called micelles that hold grease inside. How are the ions arranged in a micelle?",
+  "c": [
+   "The charged heads face the water and the tails point into the center.",
+   "The tails face the water and the charged heads point into the center.",
+   "Each ion lies flat on the surface with both ends touching the water.",
+   "The ions pair head to head so that their charges cancel inside."
+  ],
+  "h": "Ask which part of the ion is attracted to water by ion–dipole forces and which part is attracted to grease by dispersion forces.",
+  "w": "The –CO<sub>2</sub><sup>−</sup> head is ionic and is held by ion–dipole attractions to water, while the hydrocarbon tail is nonpolar and mixes with grease through dispersion forces. So <b>the heads face the water and the tails point into the center</b>, where grease dissolves. Tails facing the water would break water's hydrogen bonds with nothing to replace them, and like charges repel, so heads do not pair up inside.",
+  "x": [
+   "",
+   "The tail is nonpolar and cannot hydrogen bond with water, so it is pushed away from the water, not toward it.",
+   "A long nonpolar tail lying in contact with water is unfavorable. The tails cluster together away from the water.",
+   "All the heads carry the same negative charge, so they repel each other rather than pairing."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CCCCCCCCCCCC(=O)[O-]",
+    "cap": "dodecanoate ion"
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "The graph shows the solubilities of KNO<sub>3</sub>, NaCl and Ce<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> in water. Which statements are true?<br>I. At 10 °C, NaCl is more soluble than KNO<sub>3</sub>.<br>II. Cooling a saturated Ce<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> solution from 60 °C to 20 °C makes crystals form.<br>III. A solution of 50 g of KNO<sub>3</sub> in 100 g of water at 40 °C is unsaturated.",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Read each curve at the temperature named. For II, notice which way the Ce<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> curve slopes.",
+  "w": "I is true: at 10 °C NaCl dissolves to about 36 g per 100 g water and KNO<sub>3</sub> to only about 21 g. II is false: the Ce<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> curve falls as temperature rises, so cooling makes it MORE soluble and nothing crystallizes. III is true: KNO<sub>3</sub> can dissolve to about 64 g per 100 g water at 40 °C, so 50 g is below the limit. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is true as well. At 40 °C the KNO₃ curve is well above 50 g per 100 g of water.",
+   "Statement I is true. Read both curves at 10 °C and compare their heights.",
+   "Statement II is false. The Ce₂(SO₄)₃ curve slopes down, so its solubility rises as the solution cools."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Temperature (°C)",
+     "min": 0,
+     "max": 80,
+     "ticks": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80
+     ]
+    },
+    "y": {
+     "label": "Solubility (g per 100 g water)",
+     "min": 0,
+     "max": 180,
+     "ticks": [
+      0,
+      20,
+      40,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      180
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        13
+       ],
+       [
+        10,
+        21
+       ],
+       [
+        20,
+        32
+       ],
+       [
+        30,
+        46
+       ],
+       [
+        40,
+        64
+       ],
+       [
+        50,
+        85
+       ],
+       [
+        60,
+        110
+       ],
+       [
+        70,
+        138
+       ],
+       [
+        80,
+        169
+       ]
+      ],
+      "label": "KNO₃",
+      "labelAt": 7,
+      "dx": -30,
+      "dy": -10
+     },
+     {
+      "pts": [
+       [
+        0,
+        35.7
+       ],
+       [
+        10,
+        35.8
+       ],
+       [
+        20,
+        36.0
+       ],
+       [
+        30,
+        36.3
+       ],
+       [
+        40,
+        36.6
+       ],
+       [
+        50,
+        37.0
+       ],
+       [
+        60,
+        37.3
+       ],
+       [
+        70,
+        37.8
+       ],
+       [
+        80,
+        38.4
+       ]
+      ],
+      "label": "NaCl",
+      "labelAt": 7,
+      "dx": -10,
+      "dy": -26
+     },
+     {
+      "pts": [
+       [
+        0,
+        21
+       ],
+       [
+        10,
+        15
+       ],
+       [
+        20,
+        10
+       ],
+       [
+        30,
+        8
+       ],
+       [
+        40,
+        6
+       ],
+       [
+        50,
+        5
+       ],
+       [
+        60,
+        4
+       ],
+       [
+        70,
+        3.5
+       ],
+       [
+        80,
+        3
+       ]
+      ],
+      "label": "Ce₂(SO₄)₃",
+      "labelAt": 6,
+      "dx": 6,
+      "dy": -16
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "The graph shows the solubility of CO<sub>2</sub> in water at 25 °C as a function of the partial pressure of CO<sub>2</sub>. A 0.500 L bottle of soda is sealed under 3.0 atm of CO<sub>2</sub> at 25 °C. After it is opened and goes flat in air (P<sub>CO<sub>2</sub></sub> ≈ 0.0004 atm), about what mass of CO<sub>2</sub> has escaped? (CO<sub>2</sub>: 44.01 g mol<sup>−1</sup>)",
+  "c": [
+   "2.2 g",
+   "4.5 g",
+   "0.75 g",
+   "0.051 g"
+  ],
+  "h": "Read the solubility at 3.0 atm from the line. The amount still dissolved in air is tiny.",
+  "w": "At 3.0 atm the line gives about 0.10 M (0.102 M). In 0.500 L that is 0.051 mol of CO<sub>2</sub>, or 0.051 × 44.01 ≈ <b>2.2 g</b>. At 0.0004 atm almost none stays dissolved, so nearly all of it escapes. 4.5 g is the amount in a full liter, and 0.051 g stops at moles.",
+  "x": [
+   "",
+   "That is the CO₂ in 1 L of soda. This bottle holds only 0.500 L.",
+   "That uses the solubility at 1 atm. The soda was sealed under 3.0 atm.",
+   "0.051 is the number of moles. Multiply by the molar mass to get grams."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Partial pressure of CO₂ (atm)",
+     "min": 0,
+     "max": 4,
+     "ticks": [
+      0,
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4
+     ]
+    },
+    "y": {
+     "label": "Solubility of CO₂ (M)",
+     "min": 0,
+     "max": 0.14,
+     "ticks": [
+      0,
+      0.02,
+      0.04,
+      0.06,
+      0.08,
+      0.1,
+      0.12,
+      0.14
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0.136
+       ]
+      ]
+     }
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "The box shows all the ions formed when three formula units of an ionic compound dissolve in water (water molecules not shown). Yellow circles are cations and green circles are anions. Which compound was dissolved?",
+  "c": [
+   "CaCl<sub>2</sub>",
+   "Na<sub>2</sub>SO<sub>4</sub>",
+   "AlCl<sub>3</sub>",
+   "CaSO<sub>4</sub>"
+  ],
+  "h": "Count the cations and anions, then divide each by the three formula units.",
+  "w": "The box holds 3 cations and 6 anions, so each formula unit gives 1 cation and 2 anions (i = 3). That matches <b>CaCl<sub>2</sub></b> → Ca<sup>2+</sup> + 2 Cl<sup>−</sup>. Na<sub>2</sub>SO<sub>4</sub> would give two cations per anion, AlCl<sub>3</sub> three anions per cation, and CaSO<sub>4</sub> one of each.",
+  "x": [
+   "",
+   "Na₂SO₄ gives two cations for every anion. The drawing has twice as many anions as cations.",
+   "AlCl₃ would give 9 anions from three formula units. Count the green circles again.",
+   "CaSO₄ gives equal numbers of cations and anions. The drawing does not."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 21,
+    "key": {
+     "M": {
+      "c": "#f2c14e",
+      "n": "cation",
+      "q": "+"
+     },
+     "X": {
+      "c": "#5aa469",
+      "n": "anion",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "solution",
+      "water": true,
+      "mols": [
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ],
+       [
+        "M"
+       ],
+       [
+        "X"
+       ],
+       [
+        "X"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "The box shows a small region of a 0.200 m aqueous solution of a weak acid, HA (water not shown). It contains 6 HA molecules, 2 H<sup>+</sup> ions and 2 A<sup>−</sup> ions. Using the drawing to find the van 't Hoff factor, what is the freezing point of the solution? (K<sub>f</sub> for water = 1.86 °C kg mol<sup>−1</sup>)",
+  "c": [
+   "−0.47 °C",
+   "−0.37 °C",
+   "−0.74 °C",
+   "−0.62 °C"
+  ],
+  "h": "First work out how many HA units were dissolved to begin with, then count all the separate particles now present.",
+  "w": "Each H<sup>+</sup>/A<sup>−</sup> pair came from one HA, so 6 + 2 = 8 HA units were dissolved. They now form 6 + 2 + 2 = 10 particles, so i = 10/8 = 1.25. ΔT<sub>f</sub> = iK<sub>f</sub>m = 1.25 × 1.86 × 0.200 = 0.465 °C, so the freezing point is <b>−0.47 °C</b>. −0.37 °C treats HA as a nonelectrolyte (i = 1) and −0.74 °C treats it as fully ionized (i = 2).",
+  "x": [
+   "",
+   "This uses i = 1. Some of the HA has ionized, so there are more particles than HA units dissolved.",
+   "This uses i = 2, as if every HA ionized. Most of the HA molecules in the box are still intact.",
+   "This divides the 10 particles by the 6 intact molecules. The original number of HA units was 8."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "particles",
+    "seed": 8,
+    "key": {
+     "A": {
+      "c": "#9b7fd1",
+      "n": "A (in HA)"
+     },
+     "H": {
+      "c": "#e8edf1",
+      "n": "H (in HA)",
+      "r": 7
+     },
+     "P": {
+      "c": "#f2c14e",
+      "n": "H⁺",
+      "q": "+",
+      "r": 8
+     },
+     "M": {
+      "c": "#9b7fd1",
+      "n": "A⁻",
+      "q": "−"
+     }
+    },
+    "boxes": [
+     {
+      "cap": "0.200 m HA",
+      "water": true,
+      "mols": [
+       [
+        "A",
+        "H"
+       ],
+       [
+        "A",
+        "H"
+       ],
+       [
+        "A",
+        "H"
+       ],
+       [
+        "A",
+        "H"
+       ],
+       [
+        "A",
+        "H"
+       ],
+       [
+        "A",
+        "H"
+       ],
+       [
+        "P"
+       ],
+       [
+        "P"
+       ],
+       [
+        "M"
+       ],
+       [
+        "M"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "The graph shows the vapor pressure of a pure solvent and of a solution made by dissolving 12.0 g of a nonvolatile nonelectrolyte in 100. g of that solvent. Points A and B mark where each curve reaches 760 torr. K<sub>b</sub> for the solvent is 3.00 °C kg mol<sup>−1</sup>. What is the molar mass of the solute?",
+  "c": [
+   "120 g mol<sup>−1</sup>",
+   "40 g mol<sup>−1</sup>",
+   "12 g mol<sup>−1</sup>",
+   "200 g mol<sup>−1</sup>"
+  ],
+  "h": "The normal boiling point is where the vapor pressure equals 760 torr. Use ΔT<sub>b</sub> = K<sub>b</sub>m to find the molality.",
+  "w": "The pure solvent reaches 760 torr at 60.0 °C (A) and the solution at 63.0 °C (B), so ΔT<sub>b</sub> = 3.0 °C. Then m = 3.0/3.00 = 1.0 mol kg<sup>−1</sup>, and 0.100 kg of solvent holds 0.100 mol of solute. Molar mass = 12.0 g ÷ 0.100 mol = <b>120 g mol<sup>−1</sup></b>. 40 g mol<sup>−1</sup> uses 0.300 mol, and 12 g mol<sup>−1</sup> treats the 100. g of solvent as 1 kg.",
+  "x": [
+   "",
+   "This uses 0.300 mol of solute. Find the molality from ΔTb ÷ Kb first, then multiply by 0.100 kg.",
+   "This treats the solvent as 1 kg. The solution has only 100. g, which is 0.100 kg of solvent.",
+   "This misreads the boiling points. Read where each curve meets 760 torr and subtract to get ΔTb."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Temperature (°C)",
+     "min": 54,
+     "max": 70,
+     "ticks": [
+      54,
+      56,
+      58,
+      60,
+      62,
+      64,
+      66,
+      68,
+      70
+     ]
+    },
+    "y": {
+     "label": "Vapor pressure (torr)",
+     "min": 500,
+     "max": 1200,
+     "ticks": [
+      500,
+      600,
+      700,
+      800,
+      900,
+      1000,
+      1100,
+      1200
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        54.0,
+        614.9
+       ],
+       [
+        54.5,
+        626.0
+       ],
+       [
+        55.0,
+        637.3
+       ],
+       [
+        55.5,
+        648.8
+       ],
+       [
+        56.0,
+        660.4
+       ],
+       [
+        56.5,
+        672.3
+       ],
+       [
+        57.0,
+        684.3
+       ],
+       [
+        57.5,
+        696.4
+       ],
+       [
+        58.0,
+        708.8
+       ],
+       [
+        58.5,
+        721.3
+       ],
+       [
+        59.0,
+        734.0
+       ],
+       [
+        59.5,
+        746.9
+       ],
+       [
+        60.0,
+        760.0
+       ],
+       [
+        60.5,
+        773.3
+       ],
+       [
+        61.0,
+        786.7
+       ],
+       [
+        61.5,
+        800.4
+       ],
+       [
+        62.0,
+        814.2
+       ],
+       [
+        62.5,
+        828.3
+       ],
+       [
+        63.0,
+        842.5
+       ],
+       [
+        63.5,
+        857.0
+       ],
+       [
+        64.0,
+        871.6
+       ],
+       [
+        64.5,
+        886.5
+       ],
+       [
+        65.0,
+        901.6
+       ],
+       [
+        65.5,
+        916.9
+       ],
+       [
+        66.0,
+        932.4
+       ],
+       [
+        66.5,
+        948.1
+       ],
+       [
+        67.0,
+        964.0
+       ],
+       [
+        67.5,
+        980.1
+       ],
+       [
+        68.0,
+        996.5
+       ],
+       [
+        68.5,
+        1013.1
+       ],
+       [
+        69.0,
+        1029.9
+       ],
+       [
+        69.5,
+        1046.9
+       ],
+       [
+        70.0,
+        1064.2
+       ]
+      ],
+      "label": "pure solvent",
+      "labelAt": 28,
+      "dx": -60,
+      "dy": -24
+     },
+     {
+      "pts": [
+       [
+        54.0,
+        554.6
+       ],
+       [
+        54.5,
+        564.7
+       ],
+       [
+        55.0,
+        574.9
+       ],
+       [
+        55.5,
+        585.2
+       ],
+       [
+        56.0,
+        595.7
+       ],
+       [
+        56.5,
+        606.4
+       ],
+       [
+        57.0,
+        617.2
+       ],
+       [
+        57.5,
+        628.2
+       ],
+       [
+        58.0,
+        639.3
+       ],
+       [
+        58.5,
+        650.6
+       ],
+       [
+        59.0,
+        662.1
+       ],
+       [
+        59.5,
+        673.7
+       ],
+       [
+        60.0,
+        685.5
+       ],
+       [
+        60.5,
+        697.5
+       ],
+       [
+        61.0,
+        709.7
+       ],
+       [
+        61.5,
+        722.0
+       ],
+       [
+        62.0,
+        734.5
+       ],
+       [
+        62.5,
+        747.1
+       ],
+       [
+        63.0,
+        760.0
+       ],
+       [
+        63.5,
+        773.0
+       ],
+       [
+        64.0,
+        786.3
+       ],
+       [
+        64.5,
+        799.7
+       ],
+       [
+        65.0,
+        813.3
+       ],
+       [
+        65.5,
+        827.0
+       ],
+       [
+        66.0,
+        841.0
+       ],
+       [
+        66.5,
+        855.2
+       ],
+       [
+        67.0,
+        869.5
+       ],
+       [
+        67.5,
+        884.1
+       ],
+       [
+        68.0,
+        898.9
+       ],
+       [
+        68.5,
+        913.8
+       ],
+       [
+        69.0,
+        929.0
+       ],
+       [
+        69.5,
+        944.4
+       ],
+       [
+        70.0,
+        960.0
+       ]
+      ],
+      "label": "solution",
+      "labelAt": 6,
+      "dx": 16,
+      "dy": 30
+     }
+    ],
+    "hlines": [
+     {
+      "y": 760,
+      "label": "760 torr"
+     }
+    ],
+    "points": [
+     [
+      60,
+      760,
+      "A",
+      -16,
+      -8
+     ],
+     [
+      63,
+      760,
+      "B",
+      8,
+      16
+     ]
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "An aquarium is open to the air at 20 °C. Which changes would INCREASE the equilibrium concentration of dissolved O<sub>2</sub> in the water?<br>I. Bubbling pure O<sub>2</sub> through the water instead of air.<br>II. Warming the water to 28 °C.<br>III. Adding more water at the same temperature.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Henry's law: dissolved gas concentration = k<sub>H</sub> × partial pressure. Think about what each change does to P<sub>O<sub>2</sub></sub> and to k<sub>H</sub>.",
+  "w": "I is true: pure O<sub>2</sub> has a partial pressure about five times that of O<sub>2</sub> in air, so the dissolved concentration rises about fivefold. II is false: gases are less soluble in warmer water. III is false: more water dissolves more O<sub>2</sub> in total, but the concentration set by k<sub>H</sub>P stays the same. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false. Gas solubility falls as water warms, which is why warm water holds less oxygen.",
+   "Statement III is false. Extra water holds more O₂ in total, but the concentration depends only on pressure and temperature.",
+   "Warming the water lowers gas solubility, so statement II cannot be true."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "Data for concentrated aqueous ammonia are given in the table. What is the molality of NH<sub>3</sub> in this solution?",
+  "c": [
+   "22.8 m",
+   "14.8 m",
+   "16.4 m",
+   "0.0228 m"
+  ],
+  "h": "Take 100.0 g of solution. Find the moles of NH<sub>3</sub> and the mass of water (in kg) separately.",
+  "w": "100.0 g of solution holds 28.0 g NH<sub>3</sub> = 28.0/17.03 = 1.644 mol and 72.0 g = 0.0720 kg of water. Molality = 1.644/0.0720 = <b>22.8 m</b>. 14.8 is the molarity (which needs the density), 16.4 divides by the whole 0.100 kg of solution, and 0.0228 leaves the water mass in grams.",
+  "x": [
+   "",
+   "14.8 is the molarity, moles per liter of solution. Molality uses kilograms of solvent and does not need the density.",
+   "This divides by the mass of the whole solution. Molality divides by the mass of the water only.",
+   "This uses the water mass in grams. Molality needs kilograms of solvent."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Solute",
+     "Mass percent",
+     "Density (g mL⁻¹)",
+     "Molar mass (g mol⁻¹)"
+    ],
+    "rows": [
+     [
+      "NH₃",
+      "28.0%",
+      "0.898",
+      "17.03"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "The graph shows the vapor pressure of pure water; the marked point is at 30 °C. A 5.00 m aqueous solution of urea, a nonvolatile nonelectrolyte, is held at 30 °C. Assuming ideal behavior, what is the vapor pressure of the solution? (H<sub>2</sub>O: 18.02 g mol<sup>−1</sup>)",
+  "c": [
+   "29 torr",
+   "2.6 torr",
+   "32 torr",
+   "27 torr"
+  ],
+  "h": "Find the mole fraction of water in a solution with 5.00 mol urea per 1.000 kg of water, then apply Raoult's law.",
+  "w": "1.000 kg of water is 55.5 mol, so χ<sub>water</sub> = 55.5/(55.5 + 5.00) = 0.917. The graph gives P° = 31.8 torr at 30 °C, so P = 0.917 × 31.8 = <b>29 torr</b>. 2.6 torr is the lowering, not the vapor pressure, and 27 torr counts urea as two particles.",
+  "x": [
+   "",
+   "2.6 torr is how much the vapor pressure drops. The question asks for the vapor pressure itself.",
+   "That is the vapor pressure of pure water. A dissolved nonvolatile solute lowers it.",
+   "This counts each urea as two particles. Urea is a nonelectrolyte, so each molecule is one particle."
+  ],
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Temperature (°C)",
+     "min": 0,
+     "max": 50,
+     "ticks": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50
+     ]
+    },
+    "y": {
+     "label": "Vapor pressure of water (torr)",
+     "min": 0,
+     "max": 100,
+     "ticks": [
+      0,
+      20,
+      40,
+      60,
+      80,
+      100
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        4.58
+       ],
+       [
+        5,
+        6.54
+       ],
+       [
+        10,
+        9.21
+       ],
+       [
+        15,
+        12.79
+       ],
+       [
+        20,
+        17.54
+       ],
+       [
+        25,
+        23.76
+       ],
+       [
+        30,
+        31.82
+       ],
+       [
+        35,
+        42.18
+       ],
+       [
+        40,
+        55.32
+       ],
+       [
+        45,
+        71.88
+       ],
+       [
+        50,
+        92.51
+       ]
+      ]
+     }
+    ],
+    "points": [
+     [
+      30,
+      31.82,
+      "31.8 torr",
+      -78,
+      -6
+     ]
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "The graph shows cooling curves for pure water and for an aqueous sugar solution, cooled at the same rate. While pure water freezes its temperature stays at 0 °C, but while the solution freezes its temperature keeps falling. Why?",
+  "c": [
+   "The ice is nearly pure water, so the remaining liquid keeps getting more concentrated.",
+   "The sugar freezes along with the water, and sugar crystals release less heat than ice.",
+   "No heat is released when a solution freezes, so nothing holds the temperature constant.",
+   "The dissolved sugar lowers the heat capacity of the water, so it cools faster at every stage."
+  ],
+  "h": "Think about what the solid that forms is made of, and what that does to the liquid left behind.",
+  "w": "When a dilute solution freezes, the crystals are nearly pure ice and the solute stays in the liquid. <b>The remaining solution becomes more concentrated, so its freezing point keeps falling</b>, and the curve slopes down instead of staying flat. Freezing still releases heat (that is why the slope is gentle), and the solute does not crystallize with the ice.",
+  "x": [
+   "",
+   "In a dilute solution the solid that forms is nearly pure ice. The sugar stays behind in the liquid.",
+   "Freezing always releases heat. That released heat is why the solution's curve falls slowly during freezing.",
+   "A heat capacity change cannot explain why the freezing part slopes. Think about the liquid left behind as ice forms."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Time (min)",
+     "min": 0,
+     "max": 20,
+     "ticks": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20
+     ]
+    },
+    "y": {
+     "label": "Temperature (°C)",
+     "min": -16,
+     "max": 10,
+     "ticks": [
+      -16,
+      -12,
+      -8,
+      -4,
+      0,
+      4,
+      8
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0.0,
+        10.0
+       ],
+       [
+        0.5,
+        8.75
+       ],
+       [
+        1.0,
+        7.5
+       ],
+       [
+        1.5,
+        6.25
+       ],
+       [
+        2.0,
+        5.0
+       ],
+       [
+        2.5,
+        3.75
+       ],
+       [
+        3.0,
+        2.5
+       ],
+       [
+        3.5,
+        1.25
+       ],
+       [
+        4.0,
+        0.0
+       ],
+       [
+        4.5,
+        0
+       ],
+       [
+        5.0,
+        0
+       ],
+       [
+        5.5,
+        0
+       ],
+       [
+        6.0,
+        0
+       ],
+       [
+        6.5,
+        0
+       ],
+       [
+        7.0,
+        0
+       ],
+       [
+        7.5,
+        0
+       ],
+       [
+        8.0,
+        0
+       ],
+       [
+        8.5,
+        0
+       ],
+       [
+        9.0,
+        0
+       ],
+       [
+        9.5,
+        0
+       ],
+       [
+        10.0,
+        0
+       ],
+       [
+        10.5,
+        0
+       ],
+       [
+        11.0,
+        0
+       ],
+       [
+        11.5,
+        0
+       ],
+       [
+        12.0,
+        0
+       ],
+       [
+        12.5,
+        0
+       ],
+       [
+        13.0,
+        0
+       ],
+       [
+        13.5,
+        0
+       ],
+       [
+        14.0,
+        0
+       ],
+       [
+        14.5,
+        -1.0
+       ],
+       [
+        15.0,
+        -2.0
+       ],
+       [
+        15.5,
+        -3.0
+       ],
+       [
+        16.0,
+        -4.0
+       ],
+       [
+        16.5,
+        -5.0
+       ],
+       [
+        17.0,
+        -6.0
+       ],
+       [
+        17.5,
+        -7.0
+       ],
+       [
+        18.0,
+        -8.0
+       ],
+       [
+        18.5,
+        -9.0
+       ],
+       [
+        19.0,
+        -10.0
+       ],
+       [
+        19.5,
+        -11.0
+       ],
+       [
+        20.0,
+        -12.0
+       ]
+      ],
+      "label": "pure water",
+      "labelAt": 18,
+      "dx": 10,
+      "dy": -18
+     },
+     {
+      "pts": [
+       [
+        0.0,
+        10.0
+       ],
+       [
+        0.5,
+        8.75
+       ],
+       [
+        1.0,
+        7.5
+       ],
+       [
+        1.5,
+        6.25
+       ],
+       [
+        2.0,
+        5.0
+       ],
+       [
+        2.5,
+        3.75
+       ],
+       [
+        3.0,
+        2.5
+       ],
+       [
+        3.5,
+        1.25
+       ],
+       [
+        4.0,
+        0.0
+       ],
+       [
+        4.5,
+        -1.25
+       ],
+       [
+        5.0,
+        -1.51
+       ],
+       [
+        5.5,
+        -1.55
+       ],
+       [
+        6.0,
+        -1.6
+       ],
+       [
+        6.5,
+        -1.65
+       ],
+       [
+        7.0,
+        -1.73
+       ],
+       [
+        7.5,
+        -1.8
+       ],
+       [
+        8.0,
+        -1.89
+       ],
+       [
+        8.5,
+        -1.99
+       ],
+       [
+        9.0,
+        -2.09
+       ],
+       [
+        9.5,
+        -2.21
+       ],
+       [
+        10.0,
+        -2.32
+       ],
+       [
+        10.5,
+        -2.45
+       ],
+       [
+        11.0,
+        -2.58
+       ],
+       [
+        11.5,
+        -2.72
+       ],
+       [
+        12.0,
+        -2.86
+       ],
+       [
+        12.5,
+        -3.01
+       ],
+       [
+        13.0,
+        -3.17
+       ],
+       [
+        13.5,
+        -3.33
+       ],
+       [
+        14.0,
+        -3.5
+       ],
+       [
+        14.5,
+        -4.5
+       ],
+       [
+        15.0,
+        -5.5
+       ],
+       [
+        15.5,
+        -6.5
+       ],
+       [
+        16.0,
+        -7.5
+       ],
+       [
+        16.5,
+        -8.5
+       ],
+       [
+        17.0,
+        -9.5
+       ],
+       [
+        17.5,
+        -10.5
+       ],
+       [
+        18.0,
+        -11.5
+       ],
+       [
+        18.5,
+        -12.5
+       ],
+       [
+        19.0,
+        -13.5
+       ],
+       [
+        19.5,
+        -14.5
+       ],
+       [
+        20.0,
+        -15.5
+       ]
+      ],
+      "label": "solution",
+      "labelAt": 22,
+      "dx": -20,
+      "dy": 28
+     }
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "A sample of one of the four cobalt(III) ammine chlorides below is dissolved in water, and the freezing point of the solution is measured (table). Assuming the compound dissociates completely into its ions, which compound was dissolved? (K<sub>f</sub> for water = 1.86 °C kg mol<sup>−1</sup>)",
+  "c": [
+   "[Co(NH<sub>3</sub>)<sub>5</sub>Cl]Cl<sub>2</sub>",
+   "[Co(NH<sub>3</sub>)<sub>6</sub>]Cl<sub>3</sub>",
+   "[Co(NH<sub>3</sub>)<sub>4</sub>Cl<sub>2</sub>]Cl",
+   "[Co(NH<sub>3</sub>)<sub>3</sub>Cl<sub>3</sub>]"
+  ],
+  "h": "Find i from ΔT<sub>f</sub> = iK<sub>f</sub>m, then count the ions each formula releases. Chloride inside the brackets stays bonded to cobalt.",
+  "w": "ΔT<sub>f</sub> = 0.279 °C, so i = 0.279/(1.86 × 0.0500) = 3.0. <b>[Co(NH<sub>3</sub>)<sub>5</sub>Cl]Cl<sub>2</sub></b> gives [Co(NH<sub>3</sub>)<sub>5</sub>Cl]<sup>2+</sup> + 2 Cl<sup>−</sup>, three ions. [Co(NH<sub>3</sub>)<sub>6</sub>]Cl<sub>3</sub> would give 4 ions and [Co(NH<sub>3</sub>)<sub>4</sub>Cl<sub>2</sub>]Cl 2 ions; the neutral [Co(NH<sub>3</sub>)<sub>3</sub>Cl<sub>3</sub>] gives 1 particle.",
+  "x": [
+   "",
+   "This compound releases four ions, so its freezing point lowering would be larger than measured.",
+   "This compound releases only two ions. The measured lowering points to more particles than that.",
+   "A neutral complex gives one particle per formula unit, so i would be 1. Check the measured i."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Solution",
+     "Molality (mol kg⁻¹)",
+     "Freezing point (°C)"
+    ],
+    "rows": [
+     [
+      "pure water",
+      "0",
+      "0.000"
+     ],
+     [
+      "cobalt compound",
+      "0.0500",
+      "−0.279"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "Three aqueous solutions are listed in the table, all at 25 °C. Assuming the ionic solutes dissociate completely, which lists them in order of INCREASING osmotic pressure?",
+  "c": [
+   "I &lt; III &lt; II",
+   "II &lt; III &lt; I",
+   "II &lt; I &lt; III",
+   "III &lt; I &lt; II"
+  ],
+  "h": "Osmotic pressure is Π = iMRT. Compare the particle concentration i × M of each solution.",
+  "w": "Particle concentrations: glucose 1 × 0.10 = 0.10 M, Na<sub>3</sub>PO<sub>4</sub> 4 × 0.040 = 0.16 M, KNO<sub>3</sub> 2 × 0.060 = 0.12 M. So the order is <b>I &lt; III &lt; II</b>. II &lt; III &lt; I ranks by formula concentration alone.",
+  "x": [
+   "",
+   "This ranks by the molarity of each solute. Ionic solutes give several particles per formula unit, so multiply by i.",
+   "Na₃PO₄ gives 3 Na⁺ and 1 PO₄³⁻, which is 4 particles, not 2.",
+   "KNO₃ splits into K⁺ and NO₃⁻, so it gives 2 particles per formula unit, not 1."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Solution",
+     "Solute",
+     "Concentration (M)"
+    ],
+    "rows": [
+     [
+      "I",
+      "glucose, C₆H₁₂O₆",
+      "0.10"
+     ],
+     [
+      "II",
+      "Na₃PO₄",
+      "0.040"
+     ],
+     [
+      "III",
+      "KNO₃",
+      "0.060"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "A 2.00 L sample of tap water (density 1.00 g mL<sup>−1</sup>) contains 0.050 mg of lead. The action level for lead in drinking water is 15 ppb (parts per billion by mass). What is the lead concentration, and how does it compare with the action level?",
+  "c": [
+   "25 ppb, above the action level",
+   "2.5 ppb, below the action level",
+   "25 ppm, far above the action level",
+   "0.025 ppb, below the action level"
+  ],
+  "h": "ppb = (mass of solute ÷ mass of sample) × 10<sup>9</sup>, with both masses in the same unit.",
+  "w": "The sample has a mass of 2000 g and contains 0.050 mg = 5.0×10<sup>−5</sup> g of Pb. (5.0×10<sup>−5</sup> ÷ 2000) × 10<sup>9</sup> = <b>25 ppb, above the 15 ppb action level</b>. 25 ppm would need a thousand times more lead.",
+  "x": [
+   "",
+   "Check the conversion from milligrams to grams before dividing by 2000 g.",
+   "Parts per million uses a factor of 10⁶, not 10⁹. That value would be a thousand times smaller in ppm.",
+   "This leaves the lead in milligrams while the water is in grams. Use the same unit for both masses."
+  ],
+  "k": 1,
+  "d": 1,
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "imf",
+  "q": "Ammonium nitrate dissolves readily in water, and the solution becomes cold, which is how instant cold packs work. Approximate enthalpy changes for the two steps of dissolving are given in the table. Which statements are true?<br>I. ΔH<sub>soln</sub> is about +26 kJ mol<sup>−1</sup>.<br>II. The ion–dipole attractions formed release more energy than is needed to separate the ions.<br>III. NH<sub>4</sub>NO<sub>3</sub> dissolves spontaneously because the increase in entropy makes ΔG negative.",
+  "c": [
+   "I and III only",
+   "I and II only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "Add the two steps to get ΔH<sub>soln</sub>. A positive ΔH can still give a negative ΔG = ΔH − TΔS.",
+  "w": "I is true: ΔH<sub>soln</sub> = +676 + (−650) = +26 kJ mol<sup>−1</sup>, so dissolving absorbs heat and the pack gets cold. II is false: hydration releases 650 kJ, less than the 676 kJ needed to pull the ions apart. III is true: the ions spread through the water, ΔS is positive, and TΔS outweighs the small positive ΔH. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement II is false. Hydration releases 650 kJ, which is less than the 676 kJ needed to separate the ions.",
+   "Statement I is true as well. Adding +676 and −650 kJ gives about +26 kJ per mole.",
+   "Statement II is false. If hydration released more energy than separation required, dissolving would warm the water."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Step",
+     "ΔH (kJ mol⁻¹)"
+    ],
+    "rows": [
+     [
+      "NH₄NO₃(s) → NH₄⁺(g) + NO₃⁻(g)",
+      "+676"
+     ],
+     [
+      "NH₄⁺(g) + NO₃⁻(g) → NH₄⁺(aq) + NO₃⁻(aq)",
+      "−650"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "The osmotic pressure of aqueous solutions of a purified protein was measured at 25 °C for several concentrations, given in grams of protein per liter of solution (graph). One point is labeled. What is the molar mass of the protein? (R = 0.08206 L atm mol<sup>−1</sup> K<sup>−1</sup>; 760 torr = 1 atm)",
+  "c": [
+   "5.0×10<sup>4</sup> g mol<sup>−1</sup>",
+   "66 g mol<sup>−1</sup>",
+   "4.2×10<sup>3</sup> g mol<sup>−1</sup>",
+   "5.0×10<sup>7</sup> g mol<sup>−1</sup>"
+  ],
+  "h": "Π = (c/M)RT, where c is in g L<sup>−1</sup>. Convert Π to atm and T to kelvin, then solve for M.",
+  "w": "At c = 20.0 g L<sup>−1</sup>, Π = 7.44 torr = 9.79×10<sup>−3</sup> atm. Molarity = Π/RT = 9.79×10<sup>−3</sup>/(0.08206 × 298.15) = 4.00×10<sup>−4</sup> M, so M = 20.0/4.00×10<sup>−4</sup> = <b>5.0×10<sup>4</sup> g mol<sup>−1</sup></b>. 66 g mol<sup>−1</sup> skips the torr-to-atm conversion and 4.2×10<sup>3</sup> uses 25 instead of 298 K.",
+  "x": [
+   "",
+   "This uses Π in torr with R in L atm. Convert 7.44 torr to atm first.",
+   "This uses 25 for the temperature. Gas law calculations need kelvin, 298 K.",
+   "This is a thousand times too large. The concentration is in grams per liter, which matches R in liters."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Protein concentration (g L⁻¹)",
+     "min": 0,
+     "max": 25,
+     "ticks": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25
+     ]
+    },
+    "y": {
+     "label": "Osmotic pressure (torr)",
+     "min": 0,
+     "max": 10,
+     "ticks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.0
+       ],
+       [
+        5,
+        1.859
+       ],
+       [
+        10,
+        3.719
+       ],
+       [
+        15,
+        5.578
+       ],
+       [
+        20,
+        7.437
+       ],
+       [
+        25,
+        9.297
+       ]
+      ],
+      "dots": true
+     }
+    ],
+    "points": [
+     [
+      20,
+      7.44,
+      "(20.0, 7.44)",
+      -96,
+      -10
+     ]
+    ],
+    "grid": true,
+    "mono": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ },
+ {
+  "t": "colligative",
+  "q": "Hexane and heptane form an ideal solution. The graph shows the partial pressure of each component and the total vapor pressure at 25 °C as a function of the mole fraction of hexane in the liquid. For a liquid with χ<sub>hexane</sub> = 0.30 (dashed line), what is the mole fraction of hexane in the vapor above it?",
+  "c": [
+   "0.58",
+   "0.30",
+   "0.42",
+   "0.77"
+  ],
+  "h": "Read each partial pressure at χ<sub>hexane</sub> = 0.30. In the vapor, the mole fraction of a component equals its partial pressure divided by the total pressure.",
+  "w": "At χ<sub>hexane</sub> = 0.30, P<sub>hexane</sub> = 0.30 × 151 = 45 torr and P<sub>heptane</sub> = 0.70 × 46 = 32 torr, so P<sub>total</sub> = 77 torr. The vapor mole fraction of hexane is 45/77 = <b>0.58</b>. The vapor is richer in the more volatile hexane than the liquid (0.30). 0.42 is heptane's vapor fraction, and 0.77 compares only the pure-liquid vapor pressures.",
+  "x": [
+   "",
+   "That is the liquid composition. The more volatile hexane makes up a larger share of the vapor.",
+   "0.42 is the mole fraction of heptane in the vapor. The question asks about hexane.",
+   "This compares only the pure liquid vapor pressures. Use the partial pressures at χ = 0.30."
+  ],
+  "k": 1,
+  "d": 3,
+  "f": [
+   {
+    "type": "plot",
+    "x": {
+     "label": "Mole fraction of hexane in the liquid",
+     "min": 0,
+     "max": 1,
+     "ticks": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+     ]
+    },
+    "y": {
+     "label": "Vapor pressure (torr)",
+     "min": 0,
+     "max": 160,
+     "ticks": [
+      0,
+      20,
+      40,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160
+     ]
+    },
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0
+       ],
+       [
+        0.75,
+        113.25
+       ],
+       [
+        1,
+        151.0
+       ]
+      ],
+      "label": "hexane",
+      "labelAt": 1,
+      "dx": 24,
+      "dy": 22
+     },
+     {
+      "pts": [
+       [
+        0,
+        46.0
+       ],
+       [
+        1,
+        0
+       ]
+      ],
+      "label": "heptane",
+      "labelAt": 1,
+      "dx": -64,
+      "dy": -14
+     },
+     {
+      "pts": [
+       [
+        0,
+        46.0
+       ],
+       [
+        0.6,
+        109.0
+       ],
+       [
+        1,
+        151.0
+       ]
+      ],
+      "label": "total",
+      "labelAt": 1,
+      "dx": -40,
+      "dy": -26
+     }
+    ],
+    "vlines": [
+     {
+      "x": 0.3,
+      "label": "0.30"
+     }
+    ],
+    "points": [
+     [
+      1,
+      151.0,
+      "151 torr",
+      -66,
+      18
+     ],
+     [
+      0,
+      46.0,
+      "46 torr",
+      8,
+      20
+     ]
+    ],
+    "grid": true
+   }
+  ],
+  "src": "acs-gc-modeled"
+ }
+]
