@@ -1,0 +1,4218 @@
+[
+ {
+  "id": "c5-001",
+  "sub": "ch05-mole",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "Which statement best describes a mole?",
+  "key": "A counting unit: 6.0221 &times; 1023 particles of anything",
+  "wrong": [
+   "The mass of 1 g of any substance",
+   "The number of atoms in 1 g of any element",
+   "The mass of one carbon-12 atom"
+  ],
+  "explanation": "A mole is a counting unit: 1 mol = 6.0221 &times; 1023 particles (Avogadro's number, NA). Its mass depends on what is being counted.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-002",
+  "sub": "ch05-mole",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "You have 1.00 mol of copper atoms and 1.00 mol of sucrose molecules. Which statement is true?",
+  "key": "They contain the same number of particles, but the sucrose has more mass.",
+  "wrong": [
+   "They have the same mass, because both are 1.00 mol.",
+   "The copper contains more particles, because copper atoms are smaller.",
+   "The sucrose contains more particles, because each molecule is bigger."
+  ],
+  "explanation": "Both samples contain the same number of particles (6.0221 &times; 1023). 1.00 mol of sucrose has a mass of 342.297 g; 1.00 mol of copper, 63.55 g.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-003",
+  "sub": "ch05-mole",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "Sodium chloride, NaCl, is an ionic compound. When you count out 1 mol of NaCl, what particles are you counting?",
+  "key": "6.0221 &times; 1023 NaCl formula units",
+  "wrong": [
+   "6.0221 &times; 1023 NaCl molecules",
+   "6.0221 &times; 1023 Cl2 molecules",
+   "6.0221 &times; 1023 grams of NaCl"
+  ],
+  "explanation": "1 mol NaCl = 6.0221 &times; 1023 formula units, each made of one Na+ ion and one Cl&minus; ion.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-004",
+  "sub": "ch05-mole",
+  "topic": "moles",
+  "d": 2,
+  "calc": 0,
+  "q": "Which phrase names the counted particles correctly?",
+  "key": "1 mol of CO2 molecules",
+  "wrong": [
+   "1 mol of NaCl molecules",
+   "1 mol of Fe molecules",
+   "1 mol of Mg2+ formula units"
+  ],
+  "explanation": "Metal elements: atoms. Molecular compounds: molecules. Ionic compounds: formula units. Ions: ions. Only 1 mol of CO2 molecules names the particle correctly.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-005",
+  "sub": "ch05-mole",
+  "topic": "moles",
+  "d": 1,
+  "calc": 1,
+  "q": "How many aluminum atoms are in 2.50 mol of aluminum?",
+  "key": "1.51 &times; 1024 Al atoms",
+  "wrong": [
+   "4.15 &times; 10&minus;24 Al atoms",
+   "2.41 &times; 1023 Al atoms",
+   "67.5 Al atoms"
+  ],
+  "explanation": "2.50 mol Al &times; (6.0221 &times; 1023 Al atoms / 1 mol Al) = 1.51 &times; 1024 Al atoms (3 significant figures, like 2.50).",
+  "has_figure": []
+ },
+ {
+  "id": "c5-006",
+  "sub": "ch05-mole",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "A silver ring contains 4.65 &times; 1022 silver atoms. How many moles of silver is that?",
+  "key": "0.0772 mol Ag",
+  "wrong": [
+   "2.80 &times; 1046 mol Ag",
+   "13.0 mol Ag",
+   "8.33 g Ag"
+  ],
+  "explanation": "4.65 &times; 1022 atoms &divide; 6.0221 &times; 1023 atoms/mol = 0.0772 mol Ag, a bit less than a tenth of a mole.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-007",
+  "sub": "ch05-mole",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "A single breath at rest (about half a liter of air) holds about 0.0196 mol of gas molecules. How many molecules is that?",
+  "key": "1.18 &times; 1022 molecules",
+  "wrong": [
+   "3.25 &times; 10&minus;26 molecules",
+   "3.07 &times; 1025 molecules",
+   "0.118 molecules"
+  ],
+  "explanation": "0.0196 mol &times; 6.0221 &times; 1023 molecules/mol = 1.18 &times; 1022 molecules. Respiratory therapists work with volumes, but every breath is a count of molecules.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-008",
+  "sub": "ch05-mole",
+  "topic": "moles",
+  "d": 2,
+  "calc": 0,
+  "q": "Which sample contains the greatest number of atoms?",
+  "key": "1.0 mol of CH4",
+  "wrong": [
+   "1.0 mol of H2O",
+   "1.0 mol of O2",
+   "1.0 mol of He"
+  ],
+  "explanation": "Same number of molecules (1.0 mol each), so count atoms per particle: CH4 5, H2O 3, O2 2, He 1. 1.0 mol of CH4 has the most atoms, 5.0 mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-009",
+  "sub": "ch05-mole",
+  "topic": "moles",
+  "d": 2,
+  "calc": 0,
+  "q": "A student calculates that 0.50 mol of water contains 8.3 &times; 10&minus;25 molecules. What went wrong?",
+  "key": "The student divided by Avogadro's number instead of multiplying.",
+  "wrong": [
+   "The student used the molar mass of water instead of Avogadro's number.",
+   "The student should have counted atoms, which would be 3 times larger.",
+   "Nothing; half a mole is a very small amount, so the number should be tiny."
+  ],
+  "explanation": "8.3 &times; 10&minus;25 is less than one molecule, which is impossible. It is 0.50 &divide; NA: the student divided instead of multiplying. The correct count is 3.0 &times; 1023 molecules.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-010",
+  "sub": "ch05-mole",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "A glass holds 1.20 &times; 1024 water molecules. How many moles of water is that?",
+  "key": "1.99 mol",
+  "wrong": [
+   "7.23 &times; 1047 mol",
+   "0.502 mol",
+   "35.9 g"
+  ],
+  "explanation": "1.20 &times; 1024 molecules &times; (1 mol / 6.0221 &times; 1023 molecules) = 1.99 mol of water.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-011",
+  "sub": "ch05-mole",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "What is Avogadro's number, as printed on the CHEM 3A yellow sheet?",
+  "key": "6.0221 &times; 1023 particles per mole",
+  "wrong": [
+   "6.0221 &times; 10&minus;23 particles per mole",
+   "12.011 particles per mole",
+   "1.6605 &times; 10&minus;24 particles per mole"
+  ],
+  "explanation": "NA = 6.0221 &times; 1023 particles per mole, named for Amedeo Avogadro.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-012",
+  "sub": "ch05-mole",
+  "topic": "moles",
+  "d": 3,
+  "calc": 0,
+  "q": "Which sample contains the greatest number of particles?",
+  "key": "0.80 mol of CO2 molecules",
+  "wrong": [
+   "3.0 &times; 1023 H2O molecules",
+   "0.25 mol of Fe atoms",
+   "4.2 &times; 1023 NaCl formula units"
+  ],
+  "explanation": "In moles: CO2 0.80; H2O 3.0 &times; 1023 &divide; NA = 0.50; Fe 0.25; NaCl 4.2 &times; 1023 &divide; NA = 0.70. 0.80 mol of CO2 has the most particles.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-013",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "Why is the molar mass of an element, in g/mol, the same number as its atomic mass in amu?",
+  "key": "Avogadro's number was chosen so that one mole of atoms has a mass in grams equal to the atomic mass in amu.",
+  "wrong": [
+   "One gram is defined as one amu.",
+   "Every atom has a mass of exactly 1 amu, so the numbers always match.",
+   "It is a coincidence that holds only for carbon."
+  ],
+  "explanation": "NA was chosen so that the mass of 1 mol in grams equals the mass of one particle in amu. So one carbon atom averages 12.011 amu and one mole of carbon has a mass of 12.011 g.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-014",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 1,
+  "calc": 1,
+  "q": "What is the molar mass of chlorine gas, Cl2? (Cl 35.45)",
+  "key": "70.90 g/mol",
+  "wrong": [
+   "35.45 g/mol",
+   "17 g/mol",
+   "34 g/mol"
+  ],
+  "explanation": "Cl2: 2(35.45) = 70.90 g/mol. The answer keeps 2 decimal places, like 35.45.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-015",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 1,
+  "calc": 1,
+  "q": "Ammonia, NH3, is used to make most of the nitrogen fertilizer applied in the Valley. What is its molar mass? (N 14.007, H 1.008)",
+  "key": "17.031 g/mol",
+  "wrong": [
+   "15.015 g/mol",
+   "45.045 g/mol",
+   "10 g/mol"
+  ],
+  "explanation": "NH3: 14.007 + 3(1.008) = 17.031 g/mol. So the molar mass is 17.031 g/mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-016",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Calcium chloride, CaCl2, is used in IV solutions and as a road and dust-control salt. What is its formula mass? (Ca 40.08, Cl 35.45)",
+  "key": "110.98 amu",
+  "wrong": [
+   "75.53 amu",
+   "54 amu",
+   "110.98 g"
+  ],
+  "explanation": "CaCl2: 40.08 + 2(35.45) = 110.98 amu per formula unit (and 110.98 g per mole).",
+  "has_figure": []
+ },
+ {
+  "id": "c5-017",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Milk of magnesia is a suspension of magnesium hydroxide, Mg(OH)2. What is its molar mass? (Mg 24.31, O 15.999, H 1.008)",
+  "key": "58.32 g/mol",
+  "wrong": [
+   "42.33 g/mol",
+   "41.32 g/mol",
+   "58.324 g/mol"
+  ],
+  "explanation": "Mg(OH)2: 1 Mg, 2 O, 2 H. 24.31 + 2(15.999) + 2(1.008) = 58.324 &rarr; 58.32 g/mol. So the molar mass is 58.32 g/mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-018",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Ammonium sulfate, (NH4)2SO4, is a common nitrogen fertilizer on Valley orchards. What is its molar mass? (N 14.007, H 1.008, S 32.06, O 15.999)",
+  "key": "132.13 g/mol",
+  "wrong": [
+   "114.10 g/mol",
+   "128.10 g/mol",
+   "132.134 g/mol"
+  ],
+  "explanation": "(NH4)2SO4: 2(14.007) + 8(1.008) + 32.06 + 4(15.999) = 132.134 &rarr; 132.13 g/mol. So the molar mass is 132.13 g/mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-019",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Bone mineral is largely calcium phosphate. What is the molar mass of Ca3(PO4)2? (Ca 40.08, P 30.97, O 15.999)",
+  "key": "310.17 g/mol",
+  "wrong": [
+   "215.21 g/mol",
+   "246.18 g/mol",
+   "154 g/mol"
+  ],
+  "explanation": "Ca3(PO4)2: 3(40.08) + 2(30.97) + 8(15.999) = 310.172 &rarr; 310.17 g/mol. So the molar mass is 310.17 g/mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-020",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "Glucose, C6H12O6, has a molar mass of 180.156 g/mol. Which statement is correct?",
+  "key": "One glucose molecule has a mass of 180.156 amu, and one mole of glucose has a mass of 180.156 g.",
+  "wrong": [
+   "One glucose molecule has a mass of 180.156 g.",
+   "One mole of glucose has a mass of 180.156 amu.",
+   "One glucose molecule has a mass of 180.156 g/mol."
+  ],
+  "explanation": "One molecule: 180.156 amu. One mole: 180.156 g. Molar mass, 180.156 g/mol, links the two.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-021",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Gypsum, calcium sulfate dihydrate (CaSO4&middot;2H2O), is the raw material for the plaster and dental stone used to pour dental models. What is its molar mass? (Ca 40.08, S 32.06, O 15.999, H 1.008)",
+  "key": "172.17 g/mol",
+  "wrong": [
+   "136.14 g/mol",
+   "308.30 g/mol",
+   "154.15 g/mol"
+  ],
+  "explanation": "CaSO4&middot;2H2O: 40.08 + 32.06 + 4(15.999) + 2(18.015) = 136.136 + 36.030 = 172.166 &rarr; 172.17 g/mol (2 decimal places, from Ca and S).",
+  "has_figure": []
+ },
+ {
+  "id": "c5-022",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "Reusable hand-warmer packs contain sodium acetate trihydrate, NaC2H3O2&middot;3H2O. What is its molar mass? (Na 22.99, C 12.011, H 1.008, O 15.999)",
+  "key": "136.08 g/mol",
+  "wrong": [
+   "82.03 g/mol",
+   "300.15 g/mol",
+   "100.05 g/mol"
+  ],
+  "explanation": "NaC2H3O2&middot;3H2O: 22.99 + 2(12.011) + 3(1.008) + 2(15.999) = 82.034; plus 3(18.015) = 54.045; total 136.079 &rarr; 136.08 g/mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-023",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Aspirin is C9H8O4. What is its molar mass? (C 12.011, H 1.008, O 15.999)",
+  "key": "180.159 g/mol",
+  "wrong": [
+   "94 g/mol",
+   "244.155 g/mol",
+   "180.16 g/mol"
+  ],
+  "explanation": "C9H8O4: 9(12.011) + 8(1.008) + 4(15.999) = 180.159 g/mol. So the molar mass is 180.159 g/mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-024",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 1,
+  "calc": 1,
+  "q": "Potassium chloride, KCl, is used in salt substitutes and potassium supplements. What is its molar mass? (K 39.10, Cl 35.45)",
+  "key": "74.55 g/mol",
+  "wrong": [
+   "36 g/mol",
+   "110.00 g/mol",
+   "39.10 g/mol"
+  ],
+  "explanation": "KCl: 39.10 + 35.45 = 74.55 g/mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-025",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Ibuprofen is C13H18O2. What is its molar mass? (C 12.011, H 1.008, O 15.999)",
+  "key": "206.285 g/mol",
+  "wrong": [
+   "190.286 g/mol",
+   "112 g/mol",
+   "206.29 g/mol"
+  ],
+  "explanation": "C13H18O2: 13(12.011) + 18(1.008) + 2(15.999) = 206.285 g/mol. So the molar mass is 206.285 g/mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-026",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "Iron(III) sulfate is Fe2(SO4)3. What is its molar mass? (Fe 55.85, S 32.06, O 15.999)",
+  "key": "399.87 g/mol",
+  "wrong": [
+   "271.88 g/mol",
+   "207.76 g/mol",
+   "399.868 g/mol"
+  ],
+  "explanation": "Fe2(SO4)3: 2(55.85) + 3(32.06) + 12(15.999) = 399.868 &rarr; 399.87 g/mol. So the molar mass is 399.87 g/mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-027",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 2,
+  "calc": 0,
+  "q": "A student finds the molar mass of sodium carbonate, Na2CO3, as 2(22.99) + 12.011 + 3(15.999) = 105.988. How should the molar mass be reported?",
+  "key": "105.99 g/mol",
+  "wrong": [
+   "105.988 g/mol",
+   "106.0 g/mol",
+   "106 g/mol"
+  ],
+  "explanation": "Addition rule: fewest decimal places among 22.99 (2), 12.011 (3), 15.999 (3), so 2 places: 105.99 g/mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-028",
+  "sub": "ch05-molarmass",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "The table sets up the molar mass of calcium dihydrogen phosphate, Ca(H2PO4)2, a phosphorus fertilizer. What is the molar mass?",
+  "key": "234.04 g/mol",
+  "wrong": [
+   "137.06 g/mol",
+   "362.04 g/mol",
+   "234.044 g/mol"
+  ],
+  "explanation": "O: 2 &times; 4 = 8 atoms, 8(15.999) = 127.992. Sum = 234.044, rounded to 2 decimal places = 234.04 g/mol.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c5-029",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 1,
+  "calc": 1,
+  "q": "A saline-solution recipe calls for 12.5 g of sodium chloride (58.44 g/mol). How many moles is that?",
+  "key": "0.214 mol",
+  "wrong": [
+   "731 mol",
+   "4.68 mol",
+   "0.446 mol"
+  ],
+  "explanation": "12.5 g NaCl &times; (1 mol NaCl / 58.44 g NaCl) = 0.214 mol (3 significant figures, like 12.5).",
+  "has_figure": []
+ },
+ {
+  "id": "c5-030",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 1,
+  "calc": 1,
+  "q": "Calcium carbonate, CaCO3 (100.09 g/mol), is the active ingredient in many antacids. What is the mass of 0.475 mol of it?",
+  "key": "47.5 g",
+  "wrong": [
+   "0.00475 g",
+   "211 g",
+   "23.8 g"
+  ],
+  "explanation": "0.475 mol &times; (100.09 g / 1 mol) = 47.5 g of CaCO3.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-031",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "A fasting blood glucose is reported as 126 mg/dL. Glucose, C6H12O6, has a molar mass of 180.156 g/mol. What is this value in mmol/L?",
+  "key": "6.99 mmol/L",
+  "wrong": [
+   "0.699 mmol/L",
+   "0.00699 mmol/L",
+   "2.27 &times; 105 mmol/L"
+  ],
+  "explanation": "126 mg/dL &times; 10 dL/L = 1260 mg/L; 1260 mg/L &divide; 180.156 mg/mmol = 6.99 mmol/L. (Context only; use the units on the facility's meter.)",
+  "has_figure": []
+ },
+ {
+  "id": "c5-032",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "A regular-strength aspirin tablet contains 325 mg of aspirin, C9H8O4 (180.159 g/mol). How many millimoles of aspirin is that?",
+  "key": "1.80 mmol",
+  "wrong": [
+   "0.00180 mmol",
+   "5.86 &times; 104 mmol",
+   "1.80 &times; 103 mmol"
+  ],
+  "explanation": "325 mg &times; (1 mmol / 180.159 mg) = 1.80 mmol of aspirin. (Context only; this is not dosing guidance.)",
+  "has_figure": []
+ },
+ {
+  "id": "c5-033",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "How many ammonia molecules are in 3.50 g of NH3 (17.031 g/mol)?",
+  "key": "1.24 &times; 1023 molecules",
+  "wrong": [
+   "0.206 molecules",
+   "2.11 &times; 1024 molecules",
+   "3.59 &times; 1025 molecules"
+  ],
+  "explanation": "3.50 g &times; (1 mol / 17.031 g) &times; (6.0221 &times; 1023 molecules / 1 mol) = 1.24 &times; 1023 molecules.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-034",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "A cup of coffee holds about 2.85 &times; 1020 molecules of caffeine, C8H10N4O2 (194.194 g/mol). What mass of caffeine is that, in grams?",
+  "key": "0.0919 g",
+  "wrong": [
+   "4.73 &times; 10&minus;4 mol",
+   "2.44 &times; 10&minus;6 g",
+   "5.53 &times; 1022 g"
+  ],
+  "explanation": "2.85 &times; 1020 &divide; 6.0221 &times; 1023 = 4.733 &times; 10&minus;4 mol; &times; 194.194 g/mol = 0.0919 g of caffeine (about 92 mg).",
+  "has_figure": []
+ },
+ {
+  "id": "c5-035",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "On the mole road map, how do you get from grams of a substance to the number of molecules?",
+  "key": "Two steps: divide by molar mass to get moles, then multiply by Avogadro's number.",
+  "wrong": [
+   "One step: multiply grams by Avogadro's number.",
+   "One step: divide grams by the molar mass.",
+   "Two steps: multiply by molar mass, then divide by Avogadro's number."
+  ],
+  "explanation": "grams &rarr; (&divide; molar mass) &rarr; moles &rarr; (&times; 6.0221 &times; 1023) &rarr; molecules: two steps, through moles.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-036",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Nitrous oxide, N2O (44.013 g/mol), is the &ldquo;laughing gas&rdquo; used for sedation in some dental offices. What is the mass of one N2O molecule?",
+  "key": "7.3086 &times; 10&minus;23 g",
+  "wrong": [
+   "2.6505 &times; 1025 g",
+   "1.3683 &times; 1022 g",
+   "44.013 g"
+  ],
+  "explanation": "44.013 g/mol &divide; 6.0221 &times; 1023 molecules/mol = 7.3086 &times; 10&minus;23 g per molecule (5 significant figures, since 44.013 and 6.0221 both have 5).",
+  "has_figure": []
+ },
+ {
+  "id": "c5-037",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "An oral potassium supplement provides 8.00 mmol of potassium chloride, KCl (74.55 g/mol). What mass of KCl is that, in milligrams?",
+  "key": "596 mg",
+  "wrong": [
+   "0.107 mg",
+   "0.596 mg",
+   "313 mg"
+  ],
+  "explanation": "8.00 mmol &times; (74.55 mg / 1 mmol) = 596 mg of KCl. (Context only; follow the order and the label.)",
+  "has_figure": []
+ },
+ {
+  "id": "c5-038",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "What is the mass of 2.75 &times; 1023 iron atoms? (Fe 55.85)",
+  "key": "25.5 g",
+  "wrong": [
+   "0.457 mol",
+   "11.9 g",
+   "0.00818 g"
+  ],
+  "explanation": "2.75 &times; 1023 atoms &divide; 6.0221 &times; 1023 atoms/mol = 0.4567 mol; &times; 55.85 g/mol = 25.5 g Fe.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-039",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 2,
+  "calc": 0,
+  "q": "You have 10.0 g of each of these gases. Which sample contains the most molecules?",
+  "key": "CH4 (16.043 g/mol)",
+  "wrong": [
+   "H2O (18.015 g/mol)",
+   "NH3 (17.031 g/mol)",
+   "CO2 (44.009 g/mol)"
+  ],
+  "explanation": "moles = grams &divide; molar mass, so equal masses give the most moles for the smallest molar mass: CH4 (0.623 mol, versus 0.587 NH3, 0.555 H2O, 0.227 CO2).",
+  "has_figure": []
+ },
+ {
+  "id": "c5-040",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "Thyroxine, C15H11I4NO4 (776.86 g/mol), is the main hormone made by the thyroid gland. A daily thyroid-replacement dose is on the order of 0.150 mg. How many thyroxine molecules are in 0.150 mg?",
+  "key": "1.16 &times; 1017 molecules",
+  "wrong": [
+   "1.16 &times; 1020 molecules",
+   "1.93 &times; 10&minus;7 mol",
+   "7.02 &times; 1022 molecules"
+  ],
+  "explanation": "1.50 &times; 10&minus;4 g &times; (1 mol / 776.86 g) &times; (6.0221 &times; 1023 / 1 mol) = 1.16 &times; 1017 molecules. Even a tiny tablet dose is an enormous number of molecules.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-041",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "Which conversion factor changes grams of NaCl into moles of NaCl?",
+  "key": "1 mol NaCl / 58.44 g NaCl",
+  "wrong": [
+   "58.44 g NaCl / 1 mol NaCl",
+   "6.0221 &times; 1023 formula units / 1 mol NaCl",
+   "1 mol NaCl / 6.0221 &times; 1023 formula units"
+  ],
+  "explanation": "g NaCl &times; (1 mol NaCl / 58.44 g NaCl) = mol NaCl.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-042",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "A vial contains 1.00 g of calcium gluconate, C12H22CaO14 (430.37 g/mol). How many millimoles of calcium gluconate is that?",
+  "key": "2.32 mmol",
+  "wrong": [
+   "0.00232 mmol",
+   "430. mmol",
+   "25.0 mmol"
+  ],
+  "explanation": "1.00 g &times; (1 mol / 430.37 g) = 2.324 &times; 10&minus;3 mol = 2.32 mmol. (Context only; not dosing guidance.)",
+  "has_figure": []
+ },
+ {
+  "id": "c5-043",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "Complete the road-map table for ethanol, C2H5OH. How many molecules are in 11.5 g?",
+  "key": "1.50 &times; 1023 molecules",
+  "wrong": [
+   "0.250 molecules",
+   "6.93 &times; 1024 molecules",
+   "3.19 &times; 1026 molecules"
+  ],
+  "explanation": "Moles: 11.5 &divide; 46.069 = 0.2496 mol. Molecules: 0.2496 &times; 6.0221 &times; 1023 = 1.50 &times; 1023 molecules.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c5-044",
+  "sub": "ch05-convert",
+  "topic": "moles",
+  "d": 3,
+  "calc": 0,
+  "q": "Which sample has the greatest mass? Use the molar masses H2O 18.015, CO2 44.009, NH3 17.031, and C6H12O6 180.156 g/mol.",
+  "key": "0.10 mol of C6H12O6",
+  "wrong": [
+   "0.50 mol of H2O",
+   "0.20 mol of CO2",
+   "3.0 &times; 1023 NH3 molecules"
+  ],
+  "explanation": "Masses: C6H12O6 18 g, H2O 9.0 g, CO2 8.8 g, NH3 8.5 g. 0.10 mol of glucose has the greatest mass: the most moles is not always the most grams.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-045",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "How many moles of oxygen atoms are in 1 mol of sulfuric acid, H2SO4?",
+  "key": "4 mol O",
+  "wrong": [
+   "1 mol O",
+   "2 mol O",
+   "7 mol O"
+  ],
+  "explanation": "1 mol H2SO4 &times; (4 mol O / 1 mol H2SO4) = 4 mol O.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-046",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "Which conversion factor gives moles of hydrogen atoms from moles of glucose, C6H12O6?",
+  "key": "12 mol H / 1 mol C6H12O6",
+  "wrong": [
+   "1 mol C6H12O6 / 12 mol H",
+   "6 mol H / 1 mol C6H12O6",
+   "24 mol H / 1 mol C6H12O6"
+  ],
+  "explanation": "12 mol H / 1 mol C6H12O6. This exact ratio never limits significant figures.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-047",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "How many moles of oxygen atoms are in 0.350 mol of calcium nitrate, Ca(NO3)2?",
+  "key": "2.10 mol O",
+  "wrong": [
+   "1.05 mol O",
+   "0.350 mol O",
+   "0.0583 mol O"
+  ],
+  "explanation": "0.350 mol Ca(NO3)2 &times; (6 mol O / 1 mol Ca(NO3)2) = 2.10 mol O.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-048",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "How many hydrogen atoms are in 0.125 mol of ammonia, NH3?",
+  "key": "2.26 &times; 1023 H atoms",
+  "wrong": [
+   "7.53 &times; 1022 H atoms",
+   "0.375 mol H",
+   "2.51 &times; 1022 H atoms"
+  ],
+  "explanation": "0.125 &times; 3 = 0.375 mol H; 0.375 &times; 6.0221 &times; 1023 = 2.26 &times; 1023 H atoms.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-049",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Calcium chloride, CaCl2, dissolves into Ca2+ and Cl&minus; ions. How many ions in total are released by 0.0450 mol of CaCl2?",
+  "key": "8.13 &times; 1022 ions",
+  "wrong": [
+   "5.42 &times; 1022 ions",
+   "2.71 &times; 1022 ions",
+   "1.08 &times; 1023 ions"
+  ],
+  "explanation": "1 Ca2+ + 2 Cl&minus; = 3 ions per formula unit. 0.0450 mol &times; 3 = 0.135 mol ions = 8.13 &times; 1022 ions.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-050",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Rust is mostly iron(III) oxide, Fe2O3. What mass of iron is in 0.400 mol of Fe2O3? (Fe 55.85, O 15.999)",
+  "key": "44.7 g Fe",
+  "wrong": [
+   "22.3 g Fe",
+   "63.9 g Fe",
+   "0.0143 g Fe"
+  ],
+  "explanation": "0.400 mol &times; (2 mol Fe / 1 mol Fe2O3) &times; (55.85 g Fe / 1 mol Fe) = 44.7 g Fe.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-051",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "An iron supplement tablet contains 325 mg of ferrous fumarate, FeC4H2O4 (169.91 g/mol). How many milligrams of elemental iron does it provide? (Fe 55.85)",
+  "key": "107 mg Fe",
+  "wrong": [
+   "1.91 mg Fe",
+   "989 mg Fe",
+   "49.7 mg Fe"
+  ],
+  "explanation": "325 mg &times; (1 mmol / 169.91 mg) &times; (1 mmol Fe / 1 mmol) &times; (55.85 mg / 1 mmol Fe) = 107 mg Fe, about a third of the tablet's mass. (Context only; follow the label.)",
+  "has_figure": []
+ },
+ {
+  "id": "c5-052",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "A calcium supplement tablet contains 1.25 g of calcium carbonate, CaCO3 (100.09 g/mol). What mass of calcium does it provide? (Ca 40.08)",
+  "key": "0.501 g Ca",
+  "wrong": [
+   "1.25 g Ca",
+   "0.0125 mol Ca",
+   "3.12 g Ca"
+  ],
+  "explanation": "1.25 g &times; (1 mol / 100.09 g) &times; (1 mol Ca / 1 mol) &times; (40.08 g / 1 mol Ca) = 0.501 g Ca (about 500 mg). (Context only; follow the label.)",
+  "has_figure": []
+ },
+ {
+  "id": "c5-053",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "A children's fluoride supplement tablet contains 2.21 mg of sodium fluoride, NaF (41.99 g/mol). How many milligrams of fluoride does it provide? (F 18.998)",
+  "key": "1.00 mg F",
+  "wrong": [
+   "2.21 mg F",
+   "4.88 mg F",
+   "0.0526 mg F"
+  ],
+  "explanation": "2.21 mg &times; (1 mmol / 41.99 mg) &times; (1 mmol F / 1 mmol NaF) &times; (18.998 mg / 1 mmol F) = 1.00 mg F. (Context only; supplements are prescribed by a dentist or physician.)",
+  "has_figure": []
+ },
+ {
+  "id": "c5-054",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "A CT contrast dose contains 32.4 g of iohexol, C19H26I3N3O9 (821.13 g/mol). What mass of iodine does it contain? (I 126.90)",
+  "key": "15.0 g I",
+  "wrong": [
+   "5.01 g I",
+   "6.27 g I",
+   "0.118 mol I"
+  ],
+  "explanation": "32.4 g &times; (1 mol / 821.13 g) &times; (3 mol I / 1 mol) &times; (126.90 g / 1 mol I) = 15.0 g I, almost half the mass of the drug.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-055",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Urea, CO(NH2)2 (60.056 g/mol), is a high-nitrogen fertilizer. What mass of nitrogen is in 125 g of urea? (N 14.007)",
+  "key": "58.3 g N",
+  "wrong": [
+   "29.2 g N",
+   "268 g N",
+   "117 g N"
+  ],
+  "explanation": "125 g &times; (1 mol / 60.056 g) &times; (2 mol N / 1 mol) &times; (14.007 g / 1 mol N) = 58.3 g N, about 46.6% of the urea, matching its 46-0-0 grade.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-056",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 2,
+  "calc": 0,
+  "q": "To find the grams of oxygen in 2.00 mol of CO2, which molar mass should you use for oxygen in the last step?",
+  "key": "15.999 g/mol, because the formula counts O atoms",
+  "wrong": [
+   "31.998 g/mol, because oxygen is diatomic",
+   "44.009 g/mol, the molar mass of CO2",
+   "8 g/mol, oxygen's atomic number"
+  ],
+  "explanation": "2.00 mol CO2 &times; 2 = 4.00 mol O atoms; &times; 15.999 g/mol = 64.0 g O.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-057",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "Ammonium phosphate, (NH4)3PO4, is a fertilizer. How many moles of hydrogen atoms are in 0.150 mol of it?",
+  "key": "1.80 mol H",
+  "wrong": [
+   "0.600 mol H",
+   "0.450 mol H",
+   "0.0125 mol H"
+  ],
+  "explanation": "0.150 mol &times; (12 mol H / 1 mol (NH4)3PO4) = 1.80 mol H.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-058",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "A sample of aluminum sulfate, Al2(SO4)3, contains 0.900 mol of oxygen atoms. How many moles of Al2(SO4)3 is that?",
+  "key": "0.0750 mol",
+  "wrong": [
+   "10.8 mol",
+   "0.225 mol",
+   "0.300 mol"
+  ],
+  "explanation": "0.900 mol O &times; (1 mol Al2(SO4)3 / 12 mol O) = 0.0750 mol Al2(SO4)3.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-059",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "How many sodium ions are in 1.00 g of sodium chloride, NaCl (58.44 g/mol)?",
+  "key": "1.03 &times; 1022 Na+ ions",
+  "wrong": [
+   "2.06 &times; 1022 Na+ ions",
+   "0.0171 mol Na+",
+   "2.62 &times; 1022 Na+ ions"
+  ],
+  "explanation": "1.00 g &times; (1 mol / 58.44 g) &times; (1 mol Na+ / 1 mol NaCl) &times; 6.0221 &times; 1023 = 1.03 &times; 1022 Na+ ions.",
+  "has_figure": []
+ },
+ {
+  "id": "c5-060",
+  "sub": "ch05-formula",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "The table uses the subscripts of calcium phosphate, Ca3(PO4)2, to find moles of each element in 0.200 mol of the compound. What belongs in the cell marked ?",
+  "key": "1.60 mol O",
+  "wrong": [
+   "0.800 mol O",
+   "1.20 mol O",
+   "0.0250 mol O"
+  ],
+  "explanation": "O atoms per formula unit = 2 &times; 4 = 8, so 0.200 mol &times; 8 = 1.60 mol O.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c6-001",
+  "sub": "ch06-ionic",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "When sodium reacts with chlorine to form sodium chloride, what happens to sodium's single valence electron?",
+  "key": "It transfers to chlorine, forming Na+ and Cl&minus; ions.",
+  "wrong": [
+   "It is shared equally between Na and Cl in a covalent bond.",
+   "Chlorine gives an electron to sodium, forming Na&minus; and Cl+ ions.",
+   "It leaves sodium, but chlorine stays neutral, so only Na+ forms."
+  ],
+  "explanation": "Na &middot; + Cl (7 dots) &rarr; Na+ + Cl&minus; (8 dots). The electron transfers from Na to Cl, and the attraction between the ions is the ionic bond.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-002",
+  "sub": "ch06-ionic",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "Which pair of elements is most likely to form an ionic bond?",
+  "key": "Mg and O",
+  "wrong": [
+   "C and O",
+   "N and H",
+   "Cu and Zn"
+  ],
+  "explanation": "Metal + nonmetal means electron transfer: Mg and O form the ionic compound MgO. (Their electronegativity difference, 3.5 &minus; 1.2 = 2.3, is also above 2.0.)",
+  "has_figure": []
+ },
+ {
+  "id": "c6-003",
+  "sub": "ch06-ionic",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "When calcium and oxygen form calcium oxide, CaO, how many electrons does each calcium atom lose, and how many does each oxygen atom gain?",
+  "key": "Ca loses 2; O gains 2",
+  "wrong": [
+   "Ca loses 1; O gains 1",
+   "Ca gains 2; O loses 2",
+   "Ca loses 2; O gains 6"
+  ],
+  "explanation": "Ca (group 2) &rarr; Ca2+ by losing 2; O (6 valence electrons) &rarr; O2&minus; by gaining 2. Ca loses 2, O gains 2: electrons lost = electrons gained, CaO.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-004",
+  "sub": "ch06-ionic",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Aluminum and fluorine form an ionic compound. How many fluorine atoms are needed to accept the electrons from one aluminum atom?",
+  "key": "3",
+  "wrong": [
+   "1",
+   "2",
+   "7"
+  ],
+  "explanation": "Al &rarr; Al3+ + 3 e&minus;; each F + 1 e&minus; &rarr; F&minus;. Electrons lost (3) = electrons gained (3 &times; 1), so 3 F atoms: AlF3.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-005",
+  "sub": "ch06-ionic",
+  "topic": "bonding",
+  "d": 3,
+  "calc": 0,
+  "q": "In the magnesium-oxide lab (Section 6.7), some magnesium reacts with nitrogen in the air to form magnesium nitride. Each Mg atom loses 2 electrons and each N atom gains 3. Which formula makes electrons lost equal electrons gained?",
+  "key": "Mg3N2",
+  "wrong": [
+   "Mg2N3",
+   "MgN",
+   "Mg3N"
+  ],
+  "explanation": "6 electrons: 3 Mg &times; 2 lost = 2 N &times; 3 gained. Formula Mg3N2, the same one swap-drop gives from Mg2+ and N3&minus;.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-006",
+  "sub": "ch06-ionic",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "Which compound is a base (a metal hydroxide)?",
+  "key": "KOH",
+  "wrong": [
+   "KCl",
+   "K2O",
+   "CH3OH"
+  ],
+  "explanation": "Salts, bases, and metal oxides are the three ionic types. KOH (K+ and OH&minus;) is the base; KCl is a salt, K2O a metal oxide, and CH3OH a molecular compound.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-007",
+  "sub": "ch06-ionic",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Quicklime, CaO, reacts with water to form slaked lime: CaO + H2O &rarr; Ca(OH)2. How are CaO and Ca(OH)2 classified?",
+  "key": "CaO is a metal oxide; Ca(OH)2 is a base.",
+  "wrong": [
+   "Both are salts.",
+   "CaO is a base; Ca(OH)2 is a metal oxide.",
+   "CaO is a salt; Ca(OH)2 is a metal oxide."
+  ],
+  "explanation": "CaO (Ca2+, O2&minus;) is a metal oxide; Ca(OH)2 (Ca2+, 2 OH&minus;) is a base.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-008",
+  "sub": "ch06-ionic",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "Which property is typical of an ionic compound such as sodium chloride?",
+  "key": "A hard, brittle solid with a high melting point",
+  "wrong": [
+   "A soft solid that melts below 100 &deg;C",
+   "A solid that conducts electricity well",
+   "A substance made of separate NaCl molecules"
+  ],
+  "explanation": "Ionic solids are lattices of cations and anions: hard, brittle, high-melting, and conducting only when melted or dissolved.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-009",
+  "sub": "ch06-ionic",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Which sample conducts electricity?",
+  "key": "Calcium chloride melted at high temperature",
+  "wrong": [
+   "Solid calcium chloride crystals",
+   "Solid table sugar",
+   "Sugar dissolved in pure water"
+  ],
+  "explanation": "Only an ionic compound that is melted or dissolved has moving ions. Melted calcium chloride conducts; the solid does not, and sugar (molecular) never forms ions.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-010",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "How many valence electrons are in phosphorus trichloride, PCl3?",
+  "key": "26",
+  "wrong": [
+   "12",
+   "32",
+   "66"
+  ],
+  "explanation": "P: 5; Cl: 3 &times; 7 = 21. Total = 26 valence electrons.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-011",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "How many valence electrons are in the hydronium ion, H3O+?",
+  "key": "8",
+  "wrong": [
+   "9",
+   "10",
+   "14"
+  ],
+  "explanation": "6 + 3(1) &minus; 1 = 8 valence electrons for H3O+.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-012",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "How many valence electrons are in the phosphate ion, PO43&minus;?",
+  "key": "32",
+  "wrong": [
+   "29",
+   "26",
+   "14"
+  ],
+  "explanation": "5 + 4(6) + 3 = 32 valence electrons for PO43&minus;.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-013",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "Which atom is the central atom in oxygen difluoride, OF2?",
+  "key": "O, because it appears once and is less electronegative than F",
+  "wrong": [
+   "F, because it appears twice",
+   "F, because it is the most electronegative element",
+   "Either atom; the skeleton does not matter for a three-atom molecule"
+  ],
+  "explanation": "O is central: F&ndash;O&ndash;F, with two lone pairs on O and three on each F (20 electrons).",
+  "has_figure": []
+ },
+ {
+  "id": "c6-014",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "The Lewis structure of PCl3 has P in the center with three P&ndash;Cl bonds. How many lone pairs does the whole molecule have?",
+  "key": "10",
+  "wrong": [
+   "1",
+   "9",
+   "13"
+  ],
+  "explanation": "26 &minus; 3(2) = 20 nonbonding electrons = 10 lone pairs (P: 1; each Cl: 3). Check: 3 &times; 2 + 10 &times; 2 = 26.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-015",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Hydrofluoric acid gel is used to etch porcelain veneers in dental offices. Which describes the Lewis structure of hydrogen fluoride, HF?",
+  "key": "H&ndash;F, with three lone pairs on F",
+  "wrong": [
+   "H&ndash;F, with three lone pairs on F and one lone pair on H",
+   "H=F, with two lone pairs on F",
+   "H&ndash;F, with four lone pairs on F"
+  ],
+  "explanation": "1 + 7 = 8 electrons: H&ndash;F with three lone pairs on F. (Context only; HF is extremely hazardous to skin.)",
+  "has_figure": []
+ },
+ {
+  "id": "c6-016",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Which describes the Lewis structure of nitrogen gas, N2, which makes up 78% of air?",
+  "key": "N&equiv;N, with one lone pair on each N",
+  "wrong": [
+   "N=N, with two lone pairs on each N",
+   "N&ndash;N, with three lone pairs on each N",
+   "N&equiv;N, with no lone pairs"
+  ],
+  "explanation": "2 &times; 5 = 10 electrons. A single bond leaves N short, so lone pairs move into bonds until N&equiv;N with one lone pair on each N (6 + 2 + 2 = 10).",
+  "has_figure": []
+ },
+ {
+  "id": "c6-017",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Acetylene (ethyne), the fuel in welding torches, is H&ndash;C&equiv;C&ndash;H. How many bonds does each carbon atom form, counting a triple bond as three?",
+  "key": "4",
+  "wrong": [
+   "2",
+   "3",
+   "5"
+  ],
+  "explanation": "Each C: 1 (C&ndash;H) + 3 (C&equiv;C) = 4 bonds, 8 electrons, no lone pairs. Total 5 bonding pairs = 10 electrons = 2(4) + 2(1).",
+  "has_figure": []
+ },
+ {
+  "id": "c6-018",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Methanol, CH3OH, has 14 valence electrons. Which structure is correct?",
+  "key": "H3C&ndash;O&ndash;H, with two lone pairs on O",
+  "wrong": [
+   "H3C&ndash;H&ndash;O, with three lone pairs on O",
+   "H3C&ndash;O&ndash;H, with no lone pairs",
+   "H3C&ndash;O&ndash;H, with three lone pairs on O"
+  ],
+  "explanation": "4 + 4(1) + 6 = 14 electrons: H3C&ndash;O&ndash;H with two lone pairs on O. Check: 5 &times; 2 + 2 &times; 2 = 14.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-019",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 3,
+  "calc": 0,
+  "q": "Phosgene, COCl2, has C as the central atom and 24 valence electrons. Which Lewis structure is correct?",
+  "key": "C single-bonded to each Cl and double-bonded to O; 2 lone pairs on O and 3 on each Cl",
+  "wrong": [
+   "C single-bonded to O and to each Cl; 3 lone pairs on O and 3 on each Cl",
+   "C double-bonded to O and to one Cl, single-bonded to the other Cl; 2 lone pairs on O, 2 on the double-bonded Cl, 3 on the other Cl",
+   "C single-bonded to O and to each Cl; 1 lone pair on C, 3 on O, and 3 on each Cl"
+  ],
+  "explanation": "Single bonds use 6, lone pairs on O and Cl use 18 (24 total), but C has only 6. One O lone pair moves into a bond: C=O with two C&ndash;Cl bonds. O forms 2 bonds (HONC), Cl forms 1.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-020",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Which describes the Lewis structure of the ammonium ion, NH4+?",
+  "key": "N bonded to four H atoms, no lone pairs, in brackets with a 1+ charge",
+  "wrong": [
+   "N bonded to four H atoms, one lone pair on N, in brackets with a 1+ charge",
+   "N bonded to three H atoms, one lone pair on N, and the fourth H bonded to another H",
+   "N bonded to four H atoms, no lone pairs, in brackets with a 1&minus; charge"
+  ],
+  "explanation": "NH4+: 5 + 4(1) &minus; 1 = 8 electrons = four N&ndash;H bonds and no lone pairs, drawn as [NH4]+.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-021",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 3,
+  "calc": 0,
+  "q": "Ethylene, C2H4, is the gas that ripens fruit in packing-house ripening rooms. It has 12 valence electrons. After you draw a C&ndash;C single bond and four C&ndash;H bonds, how many electrons are left, and what do you do with them?",
+  "key": "2 are left; they become a second C&ndash;C bond, making C=C",
+  "wrong": [
+   "2 are left; add 2 more electrons so each C can have a lone pair",
+   "None are left; the structure with single bonds is finished",
+   "7 are left; place them as lone pairs on the carbons"
+  ],
+  "explanation": "12 &minus; 5(2) = 2 left. With single bonds each C has 6 electrons, so the last pair becomes a second C&ndash;C bond: H2C=CH2, 6 bonding pairs = 12 electrons.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-022",
+  "sub": "ch06-lewis",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "How many electrons are shared in the triple bond of N2?",
+  "key": "6",
+  "wrong": [
+   "3",
+   "2",
+   "10"
+  ],
+  "explanation": "N&equiv;N: 3 lines &times; 2 = 6 electrons shared. The more pairs shared, the shorter and stronger the bond.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-023",
+  "sub": "ch06-vsepr",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "In formaldehyde, CH2O, carbon has two C&ndash;H bonds and one C=O double bond. How many electron groups surround the carbon?",
+  "key": "3",
+  "wrong": [
+   "4",
+   "5",
+   "6"
+  ],
+  "explanation": "C: two C&ndash;H bonds + one C=O = 3 groups, no lone pairs: trigonal planar, 120&deg;.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-024",
+  "sub": "ch06-vsepr",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "A central atom has 3 electron groups, and 1 of them is a lone pair. What is the molecular shape?",
+  "key": "bent, about 120&deg;",
+  "wrong": [
+   "trigonal planar, 120&deg;",
+   "trigonal pyramidal, about 109.5&deg;",
+   "linear, 180&deg;"
+  ],
+  "explanation": "3 groups, 1 lone pair: bent, about 120&deg; (electron geometry trigonal planar).",
+  "has_figure": []
+ },
+ {
+  "id": "c6-025",
+  "sub": "ch06-vsepr",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Phosphine, PH3, is a fumigant gas used on stored grain and nuts. P has three P&ndash;H bonds and one lone pair. What is its shape?",
+  "key": "trigonal pyramidal",
+  "wrong": [
+   "tetrahedral",
+   "trigonal planar",
+   "bent"
+  ],
+  "explanation": "4 groups, 1 lone pair: trigonal pyramidal, about 109.5&deg;. (Context only; phosphine is highly toxic.)",
+  "has_figure": []
+ },
+ {
+  "id": "c6-026",
+  "sub": "ch06-vsepr",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Water, H2O, has two O&ndash;H bonds and two lone pairs on O. What are its electron-group geometry and its molecular shape?",
+  "key": "tetrahedral electron geometry; bent shape",
+  "wrong": [
+   "bent electron geometry; tetrahedral shape",
+   "linear electron geometry; linear shape",
+   "trigonal planar electron geometry; bent shape"
+  ],
+  "explanation": "O: 2 bonds + 2 lone pairs = 4 groups: tetrahedral electron geometry, bent shape (about 109.5&deg;; measured 104.5&deg;).",
+  "has_figure": []
+ },
+ {
+  "id": "c6-027",
+  "sub": "ch06-vsepr",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Ground-level ozone, O3, is the main summer smog pollutant in the San Joaquin Valley. Its central O atom has one double bond, one single bond, and one lone pair. What is the shape of O3?",
+  "key": "bent, about 120&deg;",
+  "wrong": [
+   "bent, about 109.5&deg;",
+   "linear, 180&deg;",
+   "trigonal planar, 120&deg;"
+  ],
+  "explanation": "Central O: 1 double + 1 single + 1 lone pair = 3 groups, 1 lone pair: bent, about 120&deg;.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-028",
+  "sub": "ch06-vsepr",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "Methane, CH4, the main component of natural gas and of biogas from dairy digesters, has four C&ndash;H bonds and no lone pairs. What is the H&ndash;C&ndash;H bond angle?",
+  "key": "109.5&deg;",
+  "wrong": [
+   "90&deg;",
+   "120&deg;",
+   "180&deg;"
+  ],
+  "explanation": "4 groups, 0 lone pairs: tetrahedral, 109.5&deg;.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-029",
+  "sub": "ch06-vsepr",
+  "topic": "bonding",
+  "d": 3,
+  "calc": 0,
+  "q": "In acetylene, H&ndash;C&equiv;C&ndash;H, what is the shape around each carbon atom?",
+  "key": "linear, 180&deg;",
+  "wrong": [
+   "tetrahedral, 109.5&deg;",
+   "trigonal planar, 120&deg;",
+   "bent, about 120&deg;"
+  ],
+  "explanation": "Each C: 1 single + 1 triple = 2 groups, no lone pairs: linear, 180&deg;. The whole molecule is a straight line.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-030",
+  "sub": "ch06-vsepr",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "In carbon tetrachloride, CCl4, each Cl has three lone pairs. How many electron groups are on the central carbon?",
+  "key": "4",
+  "wrong": [
+   "16",
+   "12",
+   "8"
+  ],
+  "explanation": "C: 4 bonds, 0 lone pairs = 4 groups; tetrahedral, 109.5&deg;. Lone pairs on outer atoms do not change the shape.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-031",
+  "sub": "ch06-vsepr",
+  "topic": "bonding",
+  "d": 3,
+  "calc": 0,
+  "q": "Complete the row for sulfur dichloride, SCl2, whose S atom has two S&ndash;Cl bonds and two lone pairs.",
+  "key": "4 / 2: bent, about 109.5&deg;",
+  "wrong": [
+   "2 / 0: linear, 180&deg;",
+   "4 / 2: tetrahedral, 109.5&deg;",
+   "3 / 1: bent, about 120&deg;"
+  ],
+  "explanation": "SCl2: 4 groups / 2 lone pairs: bent, about 109.5&deg;, the same pattern as H2O.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c6-032",
+  "sub": "ch06-vsepr",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Which molecule is trigonal planar?",
+  "key": "CH2O",
+  "wrong": [
+   "NH3",
+   "PCl3",
+   "O3"
+  ],
+  "explanation": "Only CH2O has 3 groups and 0 lone pairs. NH3 and PCl3 are trigonal pyramidal (4 groups, 1 lone pair); O3 is bent.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-033",
+  "sub": "ch06-vsepr",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "Why do CH4 and NH3 have different shapes, even though both central atoms have four electron groups?",
+  "key": "The shape names only atom positions; N has a lone pair in place of a fourth atom.",
+  "wrong": [
+   "N has fewer electron groups than C.",
+   "Lone pairs do not take up any space around the central atom.",
+   "C is larger than N, so its bonds spread out more."
+  ],
+  "explanation": "Both have 4 groups (tetrahedral electron geometry), but the shape names only atoms: CH4 tetrahedral; NH3 (1 lone pair) trigonal pyramidal.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-034",
+  "sub": "ch06-vsepr",
+  "topic": "bonding",
+  "d": 3,
+  "calc": 0,
+  "q": "The hydronium ion, H3O+, has three O&ndash;H bonds and one lone pair on O. What is its shape?",
+  "key": "trigonal pyramidal",
+  "wrong": [
+   "trigonal planar",
+   "tetrahedral",
+   "bent"
+  ],
+  "explanation": "H3O+: 4 groups, 1 lone pair: trigonal pyramidal, about 109.5&deg;.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-035",
+  "sub": "ch06-polarity",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "Which of these elements is the most electronegative? (Yellow-sheet values are in the feedback.)",
+  "key": "O",
+  "wrong": [
+   "N",
+   "Cl",
+   "S"
+  ],
+  "explanation": "O 3.5 &gt; N 3.0 = Cl 3.0 &gt; S 2.5. O is the most electronegative of these.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-036",
+  "sub": "ch06-polarity",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "Which statement describes the periodic trend in electronegativity?",
+  "key": "It increases across a period and decreases down a group.",
+  "wrong": [
+   "It decreases across a period and increases down a group.",
+   "It increases across a period and increases down a group.",
+   "It is about the same for every element in a group."
+  ],
+  "explanation": "Electronegativity increases across a period and decreases down a group; fluorine (4.0) is highest.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-037",
+  "sub": "ch06-polarity",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Nitrogen dioxide from vehicle exhaust helps form the Valley's summer ozone. What is &Delta;EN for an N&ndash;O bond, and what kind of bond is it? (N 3.0, O 3.5)",
+  "key": "&Delta;EN = 0.5, polar covalent",
+  "wrong": [
+   "&Delta;EN = 6.5, ionic",
+   "&Delta;EN = 0.5, nonpolar covalent",
+   "&Delta;EN = &minus;0.5, nonpolar covalent"
+  ],
+  "explanation": "&Delta;EN = 3.5 &minus; 3.0 = 0.5, polar covalent; O carries &delta;&minus;.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-038",
+  "sub": "ch06-polarity",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Classify the C&ndash;H bond using the yellow-sheet values (C 2.5, H 2.1).",
+  "key": "nonpolar covalent (&Delta;EN = 0.4)",
+  "wrong": [
+   "polar covalent (&Delta;EN = 0.4)",
+   "ionic (&Delta;EN = 0.4)",
+   "polar covalent (&Delta;EN = 4.6)"
+  ],
+  "explanation": "&Delta;EN = 2.5 &minus; 2.1 = 0.4: nonpolar covalent. Remember from lecture: C&ndash;H is essentially nonpolar.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-039",
+  "sub": "ch06-polarity",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "In fluorapatite, the fluoride-strengthened mineral of tooth enamel, fluoride ions sit next to calcium ions. Classify the Ca&ndash;F bond. (Ca 1.0, F 4.0)",
+  "key": "ionic (&Delta;EN = 3.0)",
+  "wrong": [
+   "polar covalent (&Delta;EN = 3.0)",
+   "ionic (&Delta;EN = 5.0)",
+   "polar covalent (&Delta;EN = 1.0)"
+  ],
+  "explanation": "&Delta;EN = 4.0 &minus; 1.0 = 3.0, ionic: fluorapatite is an ionic crystal of Ca2+, PO43&minus;, and F&minus;.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-040",
+  "sub": "ch06-polarity",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "In an O&ndash;H bond, which atom carries the partial negative charge (&delta;&minus;), and which way does the dipole arrow point? (O 3.5, H 2.1)",
+  "key": "O is &delta;&minus;; the arrow points toward O",
+  "wrong": [
+   "H is &delta;&minus;; the arrow points toward H",
+   "O is &delta;&minus;; the arrow points toward H",
+   "Neither; the O&ndash;H bond is nonpolar"
+  ],
+  "explanation": "O&ndash;H: &Delta;EN = 1.4, polar covalent. O is &delta;&minus;, and the dipole arrow points toward O (cross at H).",
+  "has_figure": []
+ },
+ {
+  "id": "c6-041",
+  "sub": "ch06-polarity",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Which bond is the most polar? (H 2.1, C 2.5, N 3.0, O 3.5, Cl 3.0)",
+  "key": "O&ndash;H",
+  "wrong": [
+   "C&ndash;Cl",
+   "N&ndash;H",
+   "C&ndash;O"
+  ],
+  "explanation": "C&ndash;Cl 0.5 &lt; N&ndash;H 0.9 &lt; C&ndash;O 1.0 &lt; O&ndash;H 1.4. O&ndash;H is the most polar.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-042",
+  "sub": "ch06-polarity",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Carbon dioxide, O=C=O, has polar C=O bonds. Is the CO2 molecule polar or nonpolar?",
+  "key": "Nonpolar: it is linear, and the two equal bond dipoles point in opposite directions and cancel.",
+  "wrong": [
+   "Polar, because each C=O bond is polar.",
+   "Polar, because oxygen is more electronegative than carbon.",
+   "Nonpolar, because &Delta;EN for C=O is 0.4 or less."
+  ],
+  "explanation": "C has 2 groups and no lone pairs: linear. Equal C=O dipoles (&Delta;EN 1.0) point opposite ways and cancel: CO2 is nonpolar.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-043",
+  "sub": "ch06-polarity",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Which molecule is polar?",
+  "key": "CH3Cl",
+  "wrong": [
+   "CCl4",
+   "CH4",
+   "Cl2"
+  ],
+  "explanation": "CH3Cl is asymmetrical (one Cl, three H), so it is polar. CCl4 and CH4 are symmetrical; Cl2 has no polar bond.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-044",
+  "sub": "ch06-polarity",
+  "topic": "bonding",
+  "d": 3,
+  "calc": 0,
+  "q": "In the lungs, O2 and CO2 cross the thin, fatty membranes of the alveoli and capillaries very quickly. Which statement explains this?",
+  "key": "Both are small, nonpolar molecules.",
+  "wrong": [
+   "Both are polar molecules, like water.",
+   "CO2 is polar and O2 is nonpolar.",
+   "Both are ionic compounds that dissolve in the membrane."
+  ],
+  "explanation": "Both are small nonpolar molecules, so they slip through the nonpolar membrane; ions such as Na+ need protein channels.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-045",
+  "sub": "ch06-polarity",
+  "topic": "bonding",
+  "d": 3,
+  "calc": 0,
+  "q": "Which molecule is nonpolar even though its bonds are polar?",
+  "key": "CF4",
+  "wrong": [
+   "NF3",
+   "CH2F2",
+   "HF"
+  ],
+  "explanation": "CF4: polar C&ndash;F bonds (&Delta;EN 1.5), but the symmetrical tetrahedral shape cancels them.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-046",
+  "sub": "ch06-polarity",
+  "topic": "bonding",
+  "d": 3,
+  "calc": 0,
+  "q": "Water is bent. Suppose instead it were linear, H&ndash;O&ndash;H in a straight line. What would be true?",
+  "key": "It would be nonpolar, because the two equal O&ndash;H dipoles would cancel.",
+  "wrong": [
+   "It would still be polar, because the O&ndash;H bonds are polar.",
+   "It would become an ionic compound.",
+   "It would be nonpolar, because the O&ndash;H bonds would stop being polar."
+  ],
+  "explanation": "A linear H&ndash;O&ndash;H would be nonpolar (dipoles cancel). Because real water is bent, the dipoles add and water is polar.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-047",
+  "sub": "ch06-percent",
+  "topic": "moles",
+  "d": 1,
+  "calc": 1,
+  "q": "Food labels list sodium, not salt. What is the mass percent of sodium in sodium chloride, NaCl (58.44 g/mol)? (Na 22.99)",
+  "key": "39.34%",
+  "wrong": [
+   "64.85%",
+   "60.66%",
+   "254.2%"
+  ],
+  "explanation": "%Na = 22.99 &divide; 58.44 &times; 100% = 39.34%. Check: %Cl = 60.66%; together 100.00%.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-048",
+  "sub": "ch06-percent",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Ammonium sulfate, (NH4)2SO4 (132.13 g/mol), is a nitrogen fertilizer used on Valley orchards. What is its mass percent of nitrogen? (N 14.007)",
+  "key": "21.20%",
+  "wrong": [
+   "10.60%",
+   "27.30%",
+   "24.55%"
+  ],
+  "explanation": "%N = 2(14.007) &divide; 132.13 &times; 100% = 28.014 &divide; 132.13 &times; 100% = 21.20% (fertilizer grade 21-0-0).",
+  "has_figure": []
+ },
+ {
+  "id": "c6-049",
+  "sub": "ch06-percent",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Bone mineral is largely calcium phosphate, Ca3(PO4)2 (310.17 g/mol). What is its mass percent of calcium? (Ca 40.08)",
+  "key": "38.77%",
+  "wrong": [
+   "12.92%",
+   "19.97%",
+   "55.87%"
+  ],
+  "explanation": "%Ca = 3(40.08) &divide; 310.17 &times; 100% = 38.77%.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-050",
+  "sub": "ch06-percent",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Ethanol, C2H5OH (46.069 g/mol), is the alcohol in hand sanitizer. What is its mass percent of carbon? (C 12.011)",
+  "key": "52.14%",
+  "wrong": [
+   "26.07%",
+   "22.22%",
+   "34.73%"
+  ],
+  "explanation": "%C = 2(12.011) &divide; 46.069 &times; 100% = 52.14%.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-051",
+  "sub": "ch06-percent",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "Iron tablets often contain ferrous sulfate heptahydrate, FeSO4&middot;7H2O (278.01 g/mol). What percent of this compound's mass is iron? (Fe 55.85)",
+  "key": "20.09%",
+  "wrong": [
+   "36.77%",
+   "32.87%",
+   "497.8%"
+  ],
+  "explanation": "%Fe = 55.85 &divide; 278.01 &times; 100% = 20.09%. A 325 mg tablet of this hydrate holds about 65 mg of iron. (Context only.)",
+  "has_figure": []
+ },
+ {
+  "id": "c6-052",
+  "sub": "ch06-percent",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "One sample of pure sodium chloride comes from sea salt, and another is mined rock salt from a different continent. What does the law of constant composition say about them?",
+  "key": "Both have the same mass percent of sodium.",
+  "wrong": [
+   "The larger sample has the higher mass percent of sodium.",
+   "Their percents differ, because they come from different places.",
+   "Both are 50% sodium, because NaCl has one Na and one Cl."
+  ],
+  "explanation": "Law of constant composition (definite proportions): every pure sample of NaCl has the same mass percent of sodium.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-053",
+  "sub": "ch06-percent",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "A student heats 1.308 g of zinc powder with excess sulfur. The zinc sulfide product has a mass of 1.950 g. What is the mass percent of zinc in the product?",
+  "key": "67.08%",
+  "wrong": [
+   "32.9%",
+   "204%",
+   "40.15%"
+  ],
+  "explanation": "%Zn = 1.308 &divide; 1.950 &times; 100% = 67.08%; %S = 0.642 &divide; 1.950 &times; 100% = 32.9%.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-054",
+  "sub": "ch06-percent",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Heating 1.200 g of copper in air produces 1.502 g of a black copper oxide. What is the mass percent of oxygen in the oxide?",
+  "key": "20.1%",
+  "wrong": [
+   "25.2%",
+   "79.89%",
+   "11.2%"
+  ],
+  "explanation": "O = 1.502 g &minus; 1.200 g = 0.302 g; %O = 0.302 &divide; 1.502 &times; 100% = 20.1% (CuO is 20.11% O).",
+  "has_figure": []
+ },
+ {
+  "id": "c6-055",
+  "sub": "ch06-percent",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "The table shows a student's data from the magnesium-oxide lab (Experiment 5a). What is the mass percent of magnesium in the product?",
+  "key": "60.1%",
+  "wrong": [
+   "1.12%",
+   "39.9%",
+   "151%"
+  ],
+  "explanation": "Mg 0.289 g, oxide 0.481 g: %Mg = 0.289 &divide; 0.481 &times; 100% = 60.1%.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c6-056",
+  "sub": "ch06-percent",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "A compound of carbon, hydrogen, and oxygen is 54.53% C and 9.15% H by mass, and the rest is oxygen. What is its mass percent of oxygen?",
+  "key": "36.32%",
+  "wrong": [
+   "45.47%",
+   "90.85%",
+   "63.68%"
+  ],
+  "explanation": "%O = 100% &minus; 54.53% &minus; 9.15% = 36.32% (2 decimal places, from the subtraction).",
+  "has_figure": []
+ },
+ {
+  "id": "c6-057",
+  "sub": "ch06-empirical",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "Butane, C4H10, is lighter fluid. What is its empirical formula?",
+  "key": "C2H5",
+  "wrong": [
+   "C4H10",
+   "CH2",
+   "C8H20"
+  ],
+  "explanation": "C4H10 &divide; 2 = C2H5.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-058",
+  "sub": "ch06-empirical",
+  "topic": "moles",
+  "d": 1,
+  "calc": 0,
+  "q": "Which two compounds have the same empirical formula?",
+  "key": "C2H2 and C6H6",
+  "wrong": [
+   "C2H4 and C2H6",
+   "CO and CO2",
+   "H2O and H2O2"
+  ],
+  "explanation": "C2H2 (acetylene) and C6H6 (benzene) are both CH.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-059",
+  "sub": "ch06-empirical",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "In a lab, 1.020 g of aluminum reacts with oxygen to form 1.927 g of aluminum oxide. What is the empirical formula of the oxide? (Al 26.98, O 15.999)",
+  "key": "Al2O3",
+  "wrong": [
+   "AlO2",
+   "AlO",
+   "Al3O2"
+  ],
+  "explanation": "Al 0.03781 mol : O 0.05669 mol = 1 : 1.499; &times; 2 = 2 : 3. Al2O3, as Al3+ and O2&minus; predict.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-060",
+  "sub": "ch06-empirical",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "An oxide of sulfur is 50.05% S and 49.95% O by mass. What is its empirical formula? (S 32.06, O 15.999)",
+  "key": "SO2",
+  "wrong": [
+   "SO",
+   "S2O",
+   "SO3"
+  ],
+  "explanation": "S 1.561 mol : O 3.122 mol = 1 : 2.000: SO2.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-061",
+  "sub": "ch06-empirical",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "Magnetite, a magnetic iron ore, is 72.36% Fe and 27.64% O by mass. What is its empirical formula? (Fe 55.85, O 15.999)",
+  "key": "Fe3O4",
+  "wrong": [
+   "FeO",
+   "Fe2O3",
+   "Fe4O3"
+  ],
+  "explanation": "Fe 1.2956 : O 1.7276 = 1 : 1.333; &times; 3 = Fe3O4.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-062",
+  "sub": "ch06-empirical",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Lactic acid, which muscle cells make (as lactate) during hard exercise, has the empirical formula CH2O and a molar mass of 90.08 g/mol. What is its molecular formula? (C 12.011, H 1.008, O 15.999)",
+  "key": "C3H6O3",
+  "wrong": [
+   "CH2O",
+   "C2H4O2",
+   "C6H12O6"
+  ],
+  "explanation": "n = 90.08 &divide; 30.026 = 3.000: C3H6O3. Check: 90.078 g/mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-063",
+  "sub": "ch06-empirical",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "The table gives the mass percent composition of caffeine, whose molar mass is 194.19 g/mol. What is its molecular formula? (C 12.011, H 1.008, N 14.007, O 15.999)",
+  "key": "C8H10N4O2",
+  "wrong": [
+   "C4H5N2O",
+   "C16H20N8O4",
+   "C12H15N6O3"
+  ],
+  "explanation": "Empirical formula C4H5N2O, 97.097 g/mol; n = 194.19 &divide; 97.097 = 2.000: C8H10N4O2.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c6-064",
+  "sub": "ch06-empirical",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Epsom salt is magnesium sulfate hydrate, MgSO4&middot;xH2O. Heating 3.000 g of it leaves 1.465 g of anhydrous MgSO4 (120.37 g/mol). What is x? (H2O 18.015 g/mol)",
+  "key": "7",
+  "wrong": [
+   "1",
+   "3",
+   "14"
+  ],
+  "explanation": "1.535 g &divide; 18.015 g/mol = 0.08521 mol H2O; 1.465 g &divide; 120.37 g/mol = 0.01217 mol MgSO4; ratio 7.00: x = 7, MgSO4&middot;7H2O.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-065",
+  "sub": "ch06-empirical",
+  "topic": "moles",
+  "d": 3,
+  "calc": 1,
+  "q": "A phosphorus oxide is 43.64% P and 56.36% O by mass. What is its empirical formula? (P 30.97, O 15.999)",
+  "key": "P2O5",
+  "wrong": [
+   "PO2",
+   "PO3",
+   "P5O2"
+  ],
+  "explanation": "P 1.409 : O 3.523 = 1 : 2.500; &times; 2 = P2O5.",
+  "has_figure": []
+ },
+ {
+  "id": "c6-066",
+  "sub": "ch06-empirical",
+  "topic": "moles",
+  "d": 2,
+  "calc": 1,
+  "q": "Copper wire (2.538 g) is heated with sulfur until all the copper has reacted, giving 3.178 g of a copper sulfide. What is its empirical formula? (Cu 63.55, S 32.06)",
+  "key": "Cu2S",
+  "wrong": [
+   "Cu4S",
+   "CuS2",
+   "CuS"
+  ],
+  "explanation": "Cu 0.03994 mol : S 0.01996 mol = 2.001 : 1: Cu2S (copper(I) sulfide).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-001",
+  "sub": "ch07-equations",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Which observation is the best evidence that a chemical reaction has occurred?",
+  "key": "Two clear, colorless solutions are mixed, and a cloudy yellow solid forms.",
+  "wrong": [
+   "A pot of water on the stove forms bubbles as it heats.",
+   "A spoonful of sugar disappears when it is stirred into hot tea.",
+   "An ice cube melts into a puddle on the counter."
+  ],
+  "explanation": "A new solid appearing from clear solutions is a precipitate, one of the four signs of reaction (gas, precipitate, color change, energy change).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-002",
+  "sub": "ch07-equations",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Each of these fizzes. Which one is a physical change, not a chemical reaction?",
+  "key": "A bottle of soda is opened, and dissolved carbon dioxide escapes as bubbles.",
+  "wrong": [
+   "An antacid tablet containing calcium carbonate is dropped into hydrochloric acid.",
+   "Hydrogen peroxide is poured on a cut, where the enzyme catalase breaks it into water and oxygen gas.",
+   "Baking soda is stirred into vinegar."
+  ],
+  "explanation": "Opening a soda only releases gas that was already dissolved; the other three make new substances, including a new gas.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-003",
+  "sub": "ch07-equations",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Barium chloride solution is mixed with magnesium sulfate (Epsom salt) solution: BaCl2(aq) + MgSO4(aq) &rarr; BaSO4(s) + MgCl2(aq). What does the label (s) after BaSO4 tell you?",
+  "key": "BaSO4 forms as a solid, a precipitate.",
+  "wrong": [
+   "BaSO4 stays dissolved in the water.",
+   "BaSO4 is formed as a gas.",
+   "Only a single unit of BaSO4 forms."
+  ],
+  "explanation": "(s) = solid, (l) = liquid, (g) = gas, (aq) = dissolved in water. BaSO4(s) is a solid precipitate; MgCl2(aq) stays dissolved.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-004",
+  "sub": "ch07-equations",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "How many oxygen atoms are represented by 2 Al2(SO4)3?",
+  "key": "24",
+  "wrong": [
+   "12",
+   "8",
+   "9"
+  ],
+  "explanation": "2 &times; 3 &times; 4 = 24 O atoms.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-005",
+  "sub": "ch07-equations",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 1,
+  "q": "In a sealed flask, 2.43 g of magnesium reacts completely with 1.60 g of oxygen gas: 2 Mg(s) + O2(g) &rarr; 2 MgO(s). What mass of magnesium oxide forms?",
+  "key": "4.03 g",
+  "wrong": [
+   "0.83 g",
+   "2.43 g",
+   "8.06 g"
+  ],
+  "explanation": "2.43 g + 1.60 g = 4.03 g MgO.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-006",
+  "sub": "ch07-equations",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 1,
+  "q": "A student heats baking soda, NaHCO3, in an open crucible: 2 NaHCO3(s) &rarr; Na2CO3(s) + H2O(g) + CO2(g). Using the data in the table, what total mass of water vapor and carbon dioxide escaped?",
+  "key": "3.10 g",
+  "wrong": [
+   "60.14 g",
+   "28.52 g",
+   "0 g, because mass is conserved"
+  ],
+  "explanation": "Gases escaped = 31.62 g &minus; 28.52 g = 3.10 g. In a sealed container the total mass would not change.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c7-007",
+  "sub": "ch07-equations",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Sulfur dioxide from burning sulfur-containing fuel reacts with oxygen in the air to form sulfur trioxide, a step toward acid rain. Which is the correctly balanced equation?",
+  "key": "2 SO2(g) + O2(g) &rarr; 2 SO3(g)",
+  "wrong": [
+   "SO2(g) + O2(g) &rarr; SO4(g)",
+   "4 SO2(g) + 2 O2(g) &rarr; 4 SO3(g)",
+   "SO2(g) + O2(g) &rarr; 2 SO3(g)"
+  ],
+  "explanation": "O: 2 + 2 = 4 on the left vs 3 on the right; 2 SO3 needs 2 SO2 and one O2. 2 SO2(g) + O2(g) &rarr; 2 SO3(g)",
+  "has_figure": []
+ },
+ {
+  "id": "c7-008",
+  "sub": "ch07-equations",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Balance the equation: Al2(SO4)3(aq) + KOH(aq) &rarr; Al(OH)3(s) + K2SO4(aq). What are the coefficients, in order?",
+  "key": "1, 6, 2, 3",
+  "wrong": [
+   "2, 12, 4, 6",
+   "1, 3, 2, 3",
+   "1, 6, 1, 3"
+  ],
+  "explanation": "1, 6, 2, 3: Al2(SO4)3(aq) + 6 KOH(aq) &rarr; 2 Al(OH)3(s) + 3 K2SO4(aq). Al 2 = 2; SO4 3 = 3; K 6 = 6; OH 6 = 6.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-009",
+  "sub": "ch07-equations",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "Lighter fluid is butane, C4H10. In the balanced equation for its complete combustion, C4H10(g) + O2(g) &rarr; CO2(g) + H2O(g), what is the lowest whole-number coefficient of O2?",
+  "key": "13",
+  "wrong": [
+   "6.5",
+   "26",
+   "9"
+  ],
+  "explanation": "2 C4H10(g) + 13 O2(g) &rarr; 8 CO2(g) + 10 H2O(g): O 26 = 16 + 10. The coefficient of O2 is 13.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-010",
+  "sub": "ch07-equations",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "A student balances H2(g) + Cl2(g) &rarr; HCl(g) by changing it to H2(g) + Cl2(g) &rarr; H2Cl2(g). What is wrong?",
+  "key": "Changing a subscript makes a different substance; a coefficient of 2 in front of HCl is the fix.",
+  "wrong": [
+   "Nothing is wrong, because the atoms now balance.",
+   "The reactants should be written as single atoms, H and Cl, so that HCl balances.",
+   "The fix should be a coefficient of 2 in front of H2 instead."
+  ],
+  "explanation": "Never change subscripts. H2(g) + Cl2(g) &rarr; 2 HCl(g): H 2 = 2, Cl 2 = 2.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-011",
+  "sub": "ch07-equations",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Aluminum metal burns in chlorine gas to form solid aluminum chloride. Which balanced equation uses the lowest whole-number coefficients?",
+  "key": "2 Al(s) + 3 Cl2(g) &rarr; 2 AlCl3(s)",
+  "wrong": [
+   "4 Al(s) + 6 Cl2(g) &rarr; 4 AlCl3(s)",
+   "Al(s) + 1.5 Cl2(g) &rarr; AlCl3(s)",
+   "Al(s) + Cl3(g) &rarr; AlCl3(s)"
+  ],
+  "explanation": "Al + Cl2 &rarr; AlCl3: Cl needs a common multiple of 2 and 3, so 3 Cl2 and 2 AlCl3, then 2 Al. 2 Al(s) + 3 Cl2(g) &rarr; 2 AlCl3(s)",
+  "has_figure": []
+ },
+ {
+  "id": "c7-012",
+  "sub": "ch07-equations",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "In a blast furnace, solid iron(III) oxide reacts with carbon monoxide gas to form solid iron and carbon dioxide gas. Which equation is correct, balanced, and labeled?",
+  "key": "Fe2O3(s) + 3 CO(g) &rarr; 2 Fe(s) + 3 CO2(g)",
+  "wrong": [
+   "Fe2O3(s) + CO(g) &rarr; 2 Fe(s) + CO2(g)",
+   "Fe2O3(s) + 3 CO(g) &rarr; 2 Fe(s) + 3 CO2(aq)",
+   "FeO3(s) + 3 CO(g) &rarr; Fe(s) + 3 CO2(g)"
+  ],
+  "explanation": "Fe2O3(s) + 3 CO(g) &rarr; 2 Fe(s) + 3 CO2(g). Check: Fe 2 = 2, C 3 = 3, O 6 = 6.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-013",
+  "sub": "ch07-types",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Heating mercury(II) oxide releases oxygen gas: 2 HgO(s) &rarr; 2 Hg(l) + O2(g). What type of reaction is this?",
+  "key": "Decomposition",
+  "wrong": [
+   "Combination",
+   "Single displacement",
+   "Combustion"
+  ],
+  "explanation": "One reactant, two products: decomposition, AB &rarr; A + B.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-014",
+  "sub": "ch07-types",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Nickel wire is placed in silver nitrate solution: Ni(s) + 2 AgNO3(aq) &rarr; Ni(NO3)2(aq) + 2 Ag(s). What type of reaction is this?",
+  "key": "Single displacement",
+  "wrong": [
+   "Double displacement",
+   "Combination",
+   "Decomposition"
+  ],
+  "explanation": "Element + compound &rarr; new compound + new element: single displacement.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-015",
+  "sub": "ch07-types",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "What type of reaction is AgNO3(aq) + KBr(aq) &rarr; AgBr(s) + KNO3(aq)?",
+  "key": "Double displacement",
+  "wrong": [
+   "Single displacement",
+   "Combination",
+   "Decomposition"
+  ],
+  "explanation": "The cations trade anions: double displacement (a precipitation, since AgBr is insoluble).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-016",
+  "sub": "ch07-types",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Which reaction is a combination reaction?",
+  "key": "2 Ca(s) + O2(g) &rarr; 2 CaO(s)",
+  "wrong": [
+   "2 C2H2(g) + 5 O2(g) &rarr; 4 CO2(g) + 2 H2O(g)",
+   "2 NaN3(s) &rarr; 2 Na(s) + 3 N2(g)",
+   "Mg(s) + 2 AgNO3(aq) &rarr; Mg(NO3)2(aq) + 2 Ag(s)"
+  ],
+  "explanation": "Only 2 Ca + O2 &rarr; 2 CaO makes a single product from two reactants.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-017",
+  "sub": "ch07-types",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Calcium metal heated in nitrogen gas forms calcium nitride. Which equation correctly predicts and balances the product?",
+  "key": "3 Ca(s) + N2(g) &rarr; Ca3N2(s)",
+  "wrong": [
+   "Ca(s) + N2(g) &rarr; CaN2(s)",
+   "3 Ca(s) + 2 N2(g) &rarr; Ca3N2(s)",
+   "6 Ca(s) + 2 N2(g) &rarr; 2 Ca3N2(s)"
+  ],
+  "explanation": "Ca2+ + N3&minus; &rarr; Ca3N2; 3 Ca(s) + N2(g) &rarr; Ca3N2(s).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-018",
+  "sub": "ch07-types",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Strontium carbonate is heated strongly, the way limestone is heated to make lime. Which equation shows the decomposition?",
+  "key": "SrCO3(s) &rarr; SrO(s) + CO2(g)",
+  "wrong": [
+   "SrCO3(s) &rarr; Sr(s) + CO3(g)",
+   "2 SrCO3(s) &rarr; 2 Sr(s) + 2 CO2(g) + O2(g)",
+   "SrCO3(s) &rarr; SrC(s) + O3(g)"
+  ],
+  "explanation": "SrCO3(s) &rarr; SrO(s) + CO2(g). Sr 1 = 1; C 1 = 1; O 3 = 1 + 2.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-019",
+  "sub": "ch07-types",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Aluminum sulfate solution (used to clarify drinking water) is mixed with barium nitrate solution. Which gives the correct formulas of the two products?",
+  "key": "Al(NO3)3 and BaSO4",
+  "wrong": [
+   "Al2(NO3)3 and Ba(SO4)3",
+   "Al(NO3)2 and BaSO4",
+   "AlNO3 and BaSO4"
+  ],
+  "explanation": "Al(NO3)3 and BaSO4: Al2(SO4)3(aq) + 3 Ba(NO3)2(aq) &rarr; 2 Al(NO3)3(aq) + 3 BaSO4(s).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-020",
+  "sub": "ch07-types",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "A propane space heater run in a closed garage gets too little oxygen and makes carbon monoxide, a poison that binds hemoglobin. Which balanced equation shows this incomplete combustion of propane, C3H8?",
+  "key": "2 C3H8(g) + 7 O2(g) &rarr; 6 CO(g) + 8 H2O(g)",
+  "wrong": [
+   "C3H8(g) + 5 O2(g) &rarr; 3 CO2(g) + 4 H2O(g)",
+   "C3H8(g) + 2 O2(g) &rarr; 3 CO(g) + 4 H2O(g)",
+   "2 C3H8(g) + 7 O2(g) &rarr; 6 CO2(g) + 8 H2O(g)"
+  ],
+  "explanation": "C3H8 &rarr; 3 CO + 4 H2O needs 7 O = 3.5 O2; double: 2 C3H8(g) + 7 O2(g) &rarr; 6 CO(g) + 8 H2O(g).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-021",
+  "sub": "ch07-types",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "Rubbing alcohol (isopropyl alcohol, C3H8O) is flammable, which is why it is kept away from oxygen equipment in hospitals. In the balanced equation for its complete combustion, C3H8O(l) + O2(g) &rarr; CO2(g) + H2O(g), what is the lowest whole-number coefficient of O2?",
+  "key": "9",
+  "wrong": [
+   "10",
+   "4.5",
+   "18"
+  ],
+  "explanation": "2 C3H8O(l) + 9 O2(g) &rarr; 6 CO2(g) + 8 H2O(g): O 2 + 18 = 20 = 12 + 8. Coefficient of O2: 9.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-022",
+  "sub": "ch07-types",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Which reaction is a single-displacement reaction?",
+  "key": "Fe(s) + Pb(NO3)2(aq) &rarr; Fe(NO3)2(aq) + Pb(s)",
+  "wrong": [
+   "Na2CO3(aq) + 2 HCl(aq) &rarr; 2 NaCl(aq) + H2O(l) + CO2(g)",
+   "2 H2O(l) &rarr; 2 H2(g) + O2(g)",
+   "H2(g) + Cl2(g) &rarr; 2 HCl(g)"
+  ],
+  "explanation": "Fe + Pb(NO3)2 &rarr; Fe(NO3)2 + Pb fits A + BC &rarr; AC + B.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-023",
+  "sub": "ch07-solubility",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Which substance is a nonelectrolyte when dissolved in water?",
+  "key": "C6H12O6",
+  "wrong": [
+   "KCl",
+   "HNO3",
+   "NH3"
+  ],
+  "explanation": "Glucose, C6H12O6, dissolves without forming ions: a nonelectrolyte. It travels in blood as whole molecules.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-024",
+  "sub": "ch07-solubility",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "A conductivity tester is dipped into four solutions, all at the same concentration. The table shows how brightly its bulb glows. Solution B is most likely which substance?",
+  "key": "Acetic acid, HC2H3O2",
+  "wrong": [
+   "Potassium chloride, KCl",
+   "Sucrose, C12H22O11",
+   "Hydrochloric acid, HCl"
+  ],
+  "explanation": "Dim glow = weak electrolyte = acetic acid. A could be KCl or HCl; C could be sucrose.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c7-025",
+  "sub": "ch07-solubility",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Calcium nitrate is a fertilizer used on Valley crops. Which equation shows what happens when it dissolves in water?",
+  "key": "Ca(NO3)2(s) &rarr; Ca2+(aq) + 2 NO3&minus;(aq)",
+  "wrong": [
+   "Ca(NO3)2(s) &rarr; Ca2+(aq) + NO3&minus;(aq)",
+   "Ca(NO3)2(s) &rarr; Ca2+(aq) + 2 N5+(aq) + 6 O2&minus;(aq)",
+   "Ca(NO3)2(s) &rarr; Ca2+(aq) + (NO3)22&minus;(aq)"
+  ],
+  "explanation": "Ca(NO3)2(s) &rarr; Ca2+(aq) + 2 NO3&minus;(aq)",
+  "has_figure": []
+ },
+ {
+  "id": "c7-026",
+  "sub": "ch07-solubility",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "How many ions in total are released when one formula unit of Al2(SO4)3 dissolves completely?",
+  "key": "5",
+  "wrong": [
+   "2",
+   "17",
+   "6"
+  ],
+  "explanation": "Al2(SO4)3(s) &rarr; 2 Al3+(aq) + 3 SO42&minus;(aq): 2 + 3 = 5 ions.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-027",
+  "sub": "ch07-solubility",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Use the solubility rules. Which compound is insoluble in water?",
+  "key": "AgI",
+  "wrong": [
+   "NaI",
+   "Mg(C2H3O2)2",
+   "(NH4)2CO3"
+  ],
+  "explanation": "AgI: iodide with Ag+ is an exception, so AgI is insoluble.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-028",
+  "sub": "ch07-solubility",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Kidney stones and the scale in kettles are insoluble salts. Which of these compounds is soluble in water?",
+  "key": "K2CO3",
+  "wrong": [
+   "BaCO3",
+   "CaC2O4",
+   "Ag2SO4"
+  ],
+  "explanation": "Only K2CO3 has a Group 1 cation; the other three are on the insoluble side of their rows.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-029",
+  "sub": "ch07-solubility",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "A barium contrast agent must be insoluble, so that almost no toxic Ba2+ dissolves and is absorbed. By the solubility rules, which barium compound is insoluble?",
+  "key": "BaSO4",
+  "wrong": [
+   "BaCl2",
+   "Ba(NO3)2",
+   "BaS"
+  ],
+  "explanation": "BaSO4 is insoluble (sulfate with Ba2+), which is why it is used for X-ray contrast. (Context only.)",
+  "has_figure": []
+ },
+ {
+  "id": "c7-030",
+  "sub": "ch07-solubility",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "Which sulfide is insoluble in water?",
+  "key": "ZnS",
+  "wrong": [
+   "CaS",
+   "Na2S",
+   "(NH4)2S"
+  ],
+  "explanation": "ZnS is insoluble; Zn2+ is not on the exception list.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-031",
+  "sub": "ch07-solubility",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Which pair contains two insoluble compounds?",
+  "key": "PbI2 and Hg2Cl2",
+  "wrong": [
+   "PbI2 and ZnCl2",
+   "AgNO3 and AgCl",
+   "CaF2 and NaF"
+  ],
+  "explanation": "Pb2+ and Hg22+ are halide exceptions, so PbI2 and Hg2Cl2 are both insoluble.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-032",
+  "sub": "ch07-solubility",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "Which statement about strontium fluoride and strontium chloride is correct?",
+  "key": "SrF2 is insoluble; SrCl2 is soluble.",
+  "wrong": [
+   "SrF2 is soluble; SrCl2 is insoluble.",
+   "SrF2 is soluble; SrCl2 is soluble.",
+   "SrF2 is insoluble; SrCl2 is insoluble."
+  ],
+  "explanation": "SrF2 is insoluble; SrCl2 is soluble.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-033",
+  "sub": "ch07-netionic",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Copper(II) sulfate solution is mixed with sodium hydroxide solution. Which product is the precipitate?",
+  "key": "Cu(OH)2",
+  "wrong": [
+   "Na2SO4",
+   "CuOH",
+   "No precipitate forms."
+  ],
+  "explanation": "CuSO4(aq) + 2 NaOH(aq) &rarr; Cu(OH)2(s) + Na2SO4(aq): the blue precipitate is Cu(OH)2.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-034",
+  "sub": "ch07-netionic",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Calcium nitrate solution is mixed with potassium chloride solution. What precipitate forms?",
+  "key": "No precipitate forms.",
+  "wrong": [
+   "CaCl2",
+   "KNO3",
+   "Both CaCl2 and KNO3"
+  ],
+  "explanation": "Both CaCl2 and KNO3 are soluble, so every ion is a spectator: no precipitate (no reaction).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-035",
+  "sub": "ch07-netionic",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Hard-water scale is calcium carbonate. It forms the same way it does when calcium nitrate solution is mixed with potassium carbonate solution. What is the net ionic equation?",
+  "key": "Ca2+(aq) + CO32&minus;(aq) &rarr; CaCO3(s)",
+  "wrong": [
+   "Ca(NO3)2(aq) + K2CO3(aq) &rarr; CaCO3(s) + 2 KNO3(aq)",
+   "2 K+(aq) + 2 NO3&minus;(aq) &rarr; 2 KNO3(aq)",
+   "Ca2+(aq) + CO32&minus;(aq) &rarr; Ca2+(aq) + CO32&minus;(aq)"
+  ],
+  "explanation": "Complete ionic: Ca2+ + 2 NO3&minus; + 2 K+ + CO32&minus; &rarr; CaCO3(s) + 2 K+ + 2 NO3&minus;. Net: Ca2+(aq) + CO32&minus;(aq) &rarr; CaCO3(s).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-036",
+  "sub": "ch07-netionic",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "Zinc chloride solution is mixed with potassium sulfide solution, forming a white precipitate. What is the complete ionic equation?",
+  "key": "Zn2+(aq) + 2 Cl&minus;(aq) + 2 K+(aq) + S2&minus;(aq) &rarr; ZnS(s) + 2 K+(aq) + 2 Cl&minus;(aq)",
+  "wrong": [
+   "Zn2+(aq) + 2 Cl&minus;(aq) + 2 K+(aq) + S2&minus;(aq) &rarr; Zn2+(aq) + S2&minus;(aq) + 2 K+(aq) + 2 Cl&minus;(aq)",
+   "Zn2+(aq) + Cl&minus;(aq) + K+(aq) + S2&minus;(aq) &rarr; ZnS(s) + K+(aq) + Cl&minus;(aq)",
+   "Zn2+(aq) + Cl22&minus;(aq) + K22+(aq) + S2&minus;(aq) &rarr; ZnS(s) + K22+(aq) + Cl22&minus;(aq)"
+  ],
+  "explanation": "Zn2+(aq) + 2 Cl&minus;(aq) + 2 K+(aq) + S2&minus;(aq) &rarr; ZnS(s) + 2 K+(aq) + 2 Cl&minus;(aq)",
+  "has_figure": []
+ },
+ {
+  "id": "c7-037",
+  "sub": "ch07-netionic",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Lead(II) acetate solution is mixed with potassium iodide solution, and yellow lead(II) iodide precipitates. What are the spectator ions?",
+  "key": "K+ and C2H3O2&minus;",
+  "wrong": [
+   "Pb2+ and I&minus;",
+   "K+ only",
+   "There are none; all four ions react."
+  ],
+  "explanation": "Net ionic: Pb2+(aq) + 2 I&minus;(aq) &rarr; PbI2(s). Spectators: K+ and C2H3O2&minus;.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-038",
+  "sub": "ch07-netionic",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Aluminum hydroxide, an ingredient in some antacids, can be made by mixing aluminum nitrate solution with potassium hydroxide solution. What is the net ionic equation?",
+  "key": "Al3+(aq) + 3 OH&minus;(aq) &rarr; Al(OH)3(s)",
+  "wrong": [
+   "Al3+(aq) + OH&minus;(aq) &rarr; AlOH(s)",
+   "K+(aq) + NO3&minus;(aq) &rarr; KNO3(s)",
+   "Al3+(aq) + 3 OH&minus;(aq) &rarr; Al3+(aq) + 3 OH&minus;(aq)"
+  ],
+  "explanation": "Al3+(aq) + 3 OH&minus;(aq) &rarr; Al(OH)3(s); K+ and NO3&minus; are spectators.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-039",
+  "sub": "ch07-netionic",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Which pair of solutions gives no reaction when mixed?",
+  "key": "KNO3 and MgCl2",
+  "wrong": [
+   "KOH and MgCl2",
+   "K3PO4 and MgCl2",
+   "AgNO3 and MgCl2"
+  ],
+  "explanation": "2 KNO3 + MgCl2 &rarr; 2 KCl(aq) + Mg(NO3)2(aq): all ions are spectators, so KNO3 and MgCl2 give no reaction.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-040",
+  "sub": "ch07-netionic",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "Struvite kidney stones contain magnesium and phosphate ions. In the lab, magnesium phosphate precipitates when magnesium chloride solution is mixed with sodium phosphate solution. What is the net ionic equation?",
+  "key": "3 Mg2+(aq) + 2 PO43&minus;(aq) &rarr; Mg3(PO4)2(s)",
+  "wrong": [
+   "Mg2+(aq) + PO43&minus;(aq) &rarr; MgPO4(s)",
+   "3 Mg2+(aq) + 2 PO43&minus;(aq) + 6 Na+(aq) + 6 Cl&minus;(aq) &rarr; Mg3(PO4)2(s) + 6 Na+(aq) + 6 Cl&minus;(aq)",
+   "3 Mg2+(aq) + 2 PO43&minus;(aq) &rarr; Mg3(PO4)2(aq)"
+  ],
+  "explanation": "3 MgCl2(aq) + 2 Na3PO4(aq) &rarr; Mg3(PO4)2(s) + 6 NaCl(aq); net: 3 Mg2+(aq) + 2 PO43&minus;(aq) &rarr; Mg3(PO4)2(s).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-041",
+  "sub": "ch07-netionic",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "The complete ionic equation for mixing silver nitrate and sodium carbonate solutions is 2 Ag+(aq) + 2 NO3&minus;(aq) + 2 Na+(aq) + CO32&minus;(aq) &rarr; Ag2CO3(s) + 2 Na+(aq) + 2 NO3&minus;(aq). What is the net ionic equation?",
+  "key": "2 Ag+(aq) + CO32&minus;(aq) &rarr; Ag2CO3(s)",
+  "wrong": [
+   "Ag+(aq) + CO32&minus;(aq) &rarr; Ag2CO3(s)",
+   "2 Ag+(aq) + 2 NO3&minus;(aq) + CO32&minus;(aq) &rarr; Ag2CO3(s) + 2 NO3&minus;(aq)",
+   "Ag22+(aq) + CO32&minus;(aq) &rarr; Ag2CO3(s)"
+  ],
+  "explanation": "2 Ag+(aq) + CO32&minus;(aq) &rarr; Ag2CO3(s)",
+  "has_figure": []
+ },
+ {
+  "id": "c7-042",
+  "sub": "ch07-netionic",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Sodium sulfide solution is mixed with copper(II) nitrate solution, and a black solid forms. What is the net ionic equation?",
+  "key": "Cu2+(aq) + S2&minus;(aq) &rarr; CuS(s)",
+  "wrong": [
+   "Cu2+(aq) + S2&minus;(aq) &rarr; CuS(aq)",
+   "Cu2+(aq) + 2 NO3&minus;(aq) &rarr; Cu(NO3)2(s)",
+   "Na+(aq) + NO3&minus;(aq) &rarr; NaNO3(s)"
+  ],
+  "explanation": "Na2S(aq) + Cu(NO3)2(aq) &rarr; CuS(s) + 2 NaNO3(aq); net: Cu2+(aq) + S2&minus;(aq) &rarr; CuS(s).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-043",
+  "sub": "ch07-acidgas",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "What is the balanced molecular equation for hydrobromic acid reacting with potassium hydroxide?",
+  "key": "HBr(aq) + KOH(aq) &rarr; H2O(l) + KBr(aq)",
+  "wrong": [
+   "HBr(aq) + KOH(aq) &rarr; H2O(l) + KBr(s)",
+   "HBr(aq) + KOH(aq) &rarr; KOBr(aq) + H2(g)",
+   "HBr(aq) + KOH(aq) &rarr; KH(aq) + BrOH(aq)"
+  ],
+  "explanation": "HBr(aq) + KOH(aq) &rarr; H2O(l) + KBr(aq)",
+  "has_figure": []
+ },
+ {
+  "id": "c7-044",
+  "sub": "ch07-acidgas",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Sulfuric acid is neutralized by lithium hydroxide: H2SO4(aq) + 2 LiOH(aq) &rarr; 2 H2O(l) + Li2SO4(aq). What is the net ionic equation?",
+  "key": "H+(aq) + OH&minus;(aq) &rarr; H2O(l)",
+  "wrong": [
+   "2 H+(aq) + 2 OH&minus;(aq) &rarr; 2 H2O(l)",
+   "H2SO4(aq) + 2 OH&minus;(aq) &rarr; 2 H2O(l) + SO42&minus;(aq)",
+   "2 Li+(aq) + SO42&minus;(aq) &rarr; Li2SO4(s)"
+  ],
+  "explanation": "H+(aq) + OH&minus;(aq) &rarr; H2O(l), the same for every strong acid + strong base.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-045",
+  "sub": "ch07-acidgas",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "Milk of magnesia is a suspension of solid magnesium hydroxide that neutralizes stomach acid (HCl). What is the net ionic equation?",
+  "key": "Mg(OH)2(s) + 2 H+(aq) &rarr; Mg2+(aq) + 2 H2O(l)",
+  "wrong": [
+   "H+(aq) + OH&minus;(aq) &rarr; H2O(l)",
+   "Mg(OH)2(s) + 2 HCl(aq) &rarr; MgCl2(aq) + 2 H2O(l)",
+   "Mg(OH)2(s) + H+(aq) &rarr; Mg2+(aq) + H2O(l)"
+  ],
+  "explanation": "Complete ionic: Mg(OH)2(s) + 2 H+ + 2 Cl&minus; &rarr; Mg2+ + 2 Cl&minus; + 2 H2O. Net: Mg(OH)2(s) + 2 H+(aq) &rarr; Mg2+(aq) + 2 H2O(l). (Context only.)",
+  "has_figure": []
+ },
+ {
+  "id": "c7-046",
+  "sub": "ch07-acidgas",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "Vinegar (acetic acid, a weak acid) reacts with sodium hydroxide solution. What is the net ionic equation?",
+  "key": "HC2H3O2(aq) + OH&minus;(aq) &rarr; H2O(l) + C2H3O2&minus;(aq)",
+  "wrong": [
+   "H+(aq) + OH&minus;(aq) &rarr; H2O(l)",
+   "Na+(aq) + C2H3O2&minus;(aq) &rarr; NaC2H3O2(s)",
+   "HC2H3O2(aq) + NaOH(aq) &rarr; H2O(l) + NaC2H3O2(aq)"
+  ],
+  "explanation": "Complete ionic: HC2H3O2 + Na+ + OH&minus; &rarr; H2O + Na+ + C2H3O2&minus;. Net: HC2H3O2(aq) + OH&minus;(aq) &rarr; H2O(l) + C2H3O2&minus;(aq).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-047",
+  "sub": "ch07-acidgas",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "After swapping partners for potassium carbonate + nitric acid, a student writes carbonic acid, H2CO3(aq), as a product. What should it be replaced with?",
+  "key": "CO2(g) + H2O(l)",
+  "wrong": [
+   "CO(g) + H2O2(l)",
+   "H2(g) + CO3(g)",
+   "Nothing; H2CO3(aq) is the final product."
+  ],
+  "explanation": "H2CO3 &rarr; CO2(g) + H2O(l): K2CO3(aq) + 2 HNO3(aq) &rarr; 2 KNO3(aq) + H2O(l) + CO2(g).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-048",
+  "sub": "ch07-acidgas",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Sodium bisulfite (NaHSO3) is a preservative in dried fruit such as golden raisins and apricots. When it reacts with hydrochloric acid, which gas is released?",
+  "key": "SO2",
+  "wrong": [
+   "H2S",
+   "SO3",
+   "H2"
+  ],
+  "explanation": "NaHSO3(aq) + HCl(aq) &rarr; NaCl(aq) + H2O(l) + SO2(g): the gas is sulfur dioxide, SO2, the sharp smell of the preservative.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-049",
+  "sub": "ch07-acidgas",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Spreading an ammonium fertilizer together with a strong base wastes nitrogen as ammonia gas. Which equation correctly shows ammonium sulfate reacting with potassium hydroxide?",
+  "key": "(NH4)2SO4(aq) + 2 KOH(aq) &rarr; K2SO4(aq) + 2 H2O(l) + 2 NH3(g)",
+  "wrong": [
+   "(NH4)2SO4(aq) + 2 KOH(aq) &rarr; K2SO4(aq) + 2 NH4OH(aq)",
+   "(NH4)2SO4(aq) + KOH(aq) &rarr; K2SO4(aq) + H2O(l) + NH3(g)",
+   "(NH4)2SO4(aq) + 2 KOH(aq) &rarr; K2SO4(s) + 2 H2O(l) + 2 NH3(g)"
+  ],
+  "explanation": "(NH4)2SO4(aq) + 2 KOH(aq) &rarr; K2SO4(aq) + 2 H2O(l) + 2 NH3(g)",
+  "has_figure": []
+ },
+ {
+  "id": "c7-050",
+  "sub": "ch07-acidgas",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "Solid iron(II) sulfide reacts with hydrochloric acid and gives off a rotten-egg smell. Which is the balanced equation?",
+  "key": "FeS(s) + 2 HCl(aq) &rarr; FeCl2(aq) + H2S(g)",
+  "wrong": [
+   "FeS(s) + 2 HCl(aq) &rarr; FeCl2(aq) + H2O(l) + SO2(g)",
+   "FeS(s) + 2 HCl(aq) &rarr; FeCl2(aq) + H2(g) + S(s)",
+   "FeS(s) + 2 HCl(aq) &rarr; FeCl2(s) + H2S(g)"
+  ],
+  "explanation": "FeS(s) + 2 HCl(aq) &rarr; FeCl2(aq) + H2S(g)",
+  "has_figure": []
+ },
+ {
+  "id": "c7-051",
+  "sub": "ch07-acidgas",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Which of these solutions gives no reaction when it is mixed with nitric acid, HNO3(aq)?",
+  "key": "KCl",
+  "wrong": [
+   "KOH",
+   "K2CO3",
+   "K2SO3"
+  ],
+  "explanation": "KCl: HNO3(aq) + KCl(aq) would give only HCl(aq) and KNO3(aq), so all four ions are spectators and there is no reaction.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-052",
+  "sub": "ch07-redox",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "In Mg(s) + Cl2(g) &rarr; MgCl2(s), what happens to magnesium?",
+  "key": "It loses 2 electrons and is oxidized.",
+  "wrong": [
+   "It gains 2 electrons and is reduced.",
+   "It loses 2 electrons and is reduced.",
+   "It gains 2 electrons and is oxidized."
+  ],
+  "explanation": "Mg: 0 &rarr; +2, so it loses 2 electrons and is oxidized; each Cl: 0 &rarr; &minus;1, reduced.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-053",
+  "sub": "ch07-redox",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Ground-level ozone, O3, is a Valley air pollutant. What is the oxidation number of oxygen in O3?",
+  "key": "0",
+  "wrong": [
+   "&minus;2",
+   "&minus;6",
+   "+2"
+  ],
+  "explanation": "O3 is a form of the element oxygen, so each O is 0.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-054",
+  "sub": "ch07-redox",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Nitrate, NO3&minus;, is a fertilizer ion that can reach well water. What is the oxidation number of nitrogen in NO3&minus;?",
+  "key": "+5",
+  "wrong": [
+   "+6",
+   "+7",
+   "&minus;1"
+  ],
+  "explanation": "N + 3(&minus;2) = &minus;1 &rarr; N = +5.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-055",
+  "sub": "ch07-redox",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "What is the oxidation number of chromium in potassium chromate, K2CrO4?",
+  "key": "+6",
+  "wrong": [
+   "+8",
+   "+7",
+   "&minus;2"
+  ],
+  "explanation": "2(+1) + Cr + 4(&minus;2) = 0 &rarr; Cr = +6.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-056",
+  "sub": "ch07-redox",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "What is the oxidation number of oxygen in oxygen difluoride, OF2?",
+  "key": "+2",
+  "wrong": [
+   "&minus;2",
+   "&minus;1",
+   "0"
+  ],
+  "explanation": "F = &minus;1 (rule 4, before oxygen's rule); O + 2(&minus;1) = 0 &rarr; O = +2.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-057",
+  "sub": "ch07-redox",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "In Ni(s) + 2 Ag+(aq) &rarr; Ni2+(aq) + 2 Ag(s), which reactant is oxidized?",
+  "key": "Ni",
+  "wrong": [
+   "Ag+",
+   "Ni2+",
+   "Ag"
+  ],
+  "explanation": "Ni: 0 &rarr; +2 (oxidized); Ag: +1 &rarr; 0 (reduced). Ni is oxidized.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-058",
+  "sub": "ch07-redox",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "The thermite reaction welds railroad rails: 2 Al(s) + Fe2O3(s) &rarr; Al2O3(s) + 2 Fe(s). What is the oxidizing agent?",
+  "key": "Fe2O3",
+  "wrong": [
+   "Al",
+   "Al2O3",
+   "Fe"
+  ],
+  "explanation": "Al: 0 &rarr; +3 (oxidized; reducing agent). Fe: +3 &rarr; 0 (reduced). Oxidizing agent: Fe2O3.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-059",
+  "sub": "ch07-redox",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "A welding torch burns acetylene: 2 C2H2(g) + 5 O2(g) &rarr; 4 CO2(g) + 2 H2O(g). What is the reducing agent?",
+  "key": "C2H2",
+  "wrong": [
+   "O2",
+   "CO2",
+   "H2O"
+  ],
+  "explanation": "C: &minus;1 &rarr; +4 (oxidized); O: 0 &rarr; &minus;2 (reduced); H stays +1. Reducing agent: C2H2.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-060",
+  "sub": "ch07-redox",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "How many electrons are transferred in 2 Al(s) + 3 Sn2+(aq) &rarr; 2 Al3+(aq) + 3 Sn(s) as written?",
+  "key": "6",
+  "wrong": [
+   "3",
+   "2",
+   "12"
+  ],
+  "explanation": "2 Al &rarr; 2 Al3+ + 6 e&minus;; 3 Sn2+ + 6 e&minus; &rarr; 3 Sn. 6 electrons.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-061",
+  "sub": "ch07-redox",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Stainless-steel implants resist corrosion because the chromium in the steel forms a thin protective layer. Where chromium is oxidized, it forms Cr3+. Which is the oxidation half-reaction?",
+  "key": "Cr(s) &rarr; Cr3+(aq) + 3 e&minus;",
+  "wrong": [
+   "Cr(s) + 3 e&minus; &rarr; Cr3+(aq)",
+   "Cr3+(aq) + 3 e&minus; &rarr; Cr(s)",
+   "Cr(s) &rarr; Cr3+(aq) + e&minus;"
+  ],
+  "explanation": "Cr(s) &rarr; Cr3+(aq) + 3 e&minus;",
+  "has_figure": []
+ },
+ {
+  "id": "c7-062",
+  "sub": "ch07-redox",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "Use the half-reactions Al(s) &rarr; Al3+(aq) + 3 e&minus; and Ag+(aq) + e&minus; &rarr; Ag(s). What is the balanced net equation?",
+  "key": "Al(s) + 3 Ag+(aq) &rarr; Al3+(aq) + 3 Ag(s)",
+  "wrong": [
+   "Al(s) + Ag+(aq) &rarr; Al3+(aq) + Ag(s)",
+   "Al(s) + 3 Ag+(aq) + 3 e&minus; &rarr; Al3+(aq) + 3 Ag(s)",
+   "3 Al(s) + Ag+(aq) &rarr; 3 Al3+(aq) + Ag(s)"
+  ],
+  "explanation": "Al &rarr; Al3+ + 3 e&minus;; 3 Ag+ + 3 e&minus; &rarr; 3 Ag. Sum: Al(s) + 3 Ag+(aq) &rarr; Al3+(aq) + 3 Ag(s).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-063",
+  "sub": "ch07-redox",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Which reaction is not a redox reaction?",
+  "key": "BaCl2(aq) + K2SO4(aq) &rarr; BaSO4(s) + 2 KCl(aq)",
+  "wrong": [
+   "2 Cu(s) + O2(g) &rarr; 2 CuO(s)",
+   "Fe(s) + NiSO4(aq) &rarr; FeSO4(aq) + Ni(s)",
+   "N2(g) + 3 H2(g) &rarr; 2 NH3(g)"
+  ],
+  "explanation": "Only BaCl2 + K2SO4 &rarr; BaSO4 + 2 KCl keeps every oxidation number; double displacement is never redox.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-064",
+  "sub": "ch07-activity",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Copper(II) sulfate solution is sprayed on Valley orchards as a fungicide, and it corrodes iron sprayer tanks. Activity series (most active first): Mg, Al, Zn, Fe, Ni, Sn, Pb, H2, Cu, Ag. Does iron react with copper(II) sulfate solution?",
+  "key": "Yes: Fe(s) + CuSO4(aq) &rarr; FeSO4(aq) + Cu(s)",
+  "wrong": [
+   "No reaction, because iron is below copper in the series.",
+   "Yes: Fe(s) + CuSO4(aq) &rarr; FeSO4(s) + Cu(s)",
+   "Yes: Cu(s) + FeSO4(aq) &rarr; CuSO4(aq) + Fe(s)"
+  ],
+  "explanation": "Fe is above Cu: Fe(s) + CuSO4(aq) &rarr; FeSO4(aq) + Cu(s).",
+  "has_figure": []
+ },
+ {
+  "id": "c7-065",
+  "sub": "ch07-activity",
+  "topic": "reactions",
+  "d": 1,
+  "calc": 0,
+  "q": "Activity series (most active first): Mg, Al, Zn, Fe, Ni, Sn, Pb, H2, Cu, Ag, Au. Which metal will not react with hydrochloric acid?",
+  "key": "Cu",
+  "wrong": [
+   "Zn",
+   "Mg",
+   "Sn"
+  ],
+  "explanation": "Cu is below H2: no reaction with HCl.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-066",
+  "sub": "ch07-activity",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Activity series (most active first): Zn, Fe, Ni, Sn, Pb, H2, Cu, Ag, Au. Which metal could recover lead from a solution of lead(II) nitrate?",
+  "key": "Zn",
+  "wrong": [
+   "Cu",
+   "Ag",
+   "Au"
+  ],
+  "explanation": "Only Zn is above Pb on the list.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-067",
+  "sub": "ch07-activity",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Activity series (most active first): Mg, Al, Zn, Fe, Ni, Sn, Pb. Does lead metal react with zinc chloride solution?",
+  "key": "No reaction: lead is below zinc.",
+  "wrong": [
+   "Yes: Pb(s) + ZnCl2(aq) &rarr; PbCl2(s) + Zn(s)",
+   "Yes: Pb(s) + ZnCl2(aq) &rarr; PbCl2(aq) + Zn(s)",
+   "Yes: Pb(s) + 2 ZnCl2(aq) &rarr; PbCl4(aq) + 2 Zn(s)"
+  ],
+  "explanation": "Pb is below Zn: no reaction.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-068",
+  "sub": "ch07-activity",
+  "topic": "reactions",
+  "d": 2,
+  "calc": 0,
+  "q": "Activity series (most active first): Mg, Al, Zn, Fe, Ni, Sn, Pb, H2, Cu. Which equation correctly shows aluminum reacting with hydrochloric acid?",
+  "key": "2 Al(s) + 6 HCl(aq) &rarr; 2 AlCl3(aq) + 3 H2(g)",
+  "wrong": [
+   "Al(s) + 3 HCl(aq) &rarr; AlCl3(aq) + 3 H(g)",
+   "Al(s) + 2 HCl(aq) &rarr; AlCl2(aq) + H2(g)",
+   "4 Al(s) + 12 HCl(aq) &rarr; 4 AlCl3(aq) + 6 H2(g)"
+  ],
+  "explanation": "2 Al(s) + 6 HCl(aq) &rarr; 2 AlCl3(aq) + 3 H2(g)",
+  "has_figure": []
+ },
+ {
+  "id": "c7-069",
+  "sub": "ch07-activity",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "Activity series (most active first): Mg, Al, Zn, Fe, Ni, Sn, Pb, H2, Cu. A metal reacts with nickel(II) nitrate solution but not with zinc nitrate solution. Which metal could it be?",
+  "key": "Fe",
+  "wrong": [
+   "Mg",
+   "Sn",
+   "Cu"
+  ],
+  "explanation": "Between Zn and Ni there is only Fe.",
+  "has_figure": []
+ },
+ {
+  "id": "c7-070",
+  "sub": "ch07-activity",
+  "topic": "reactions",
+  "d": 3,
+  "calc": 0,
+  "q": "Galvanized steel irrigation pipe is coated with zinc, which corrodes in place of the iron. Activity series (most active first): Mg, Al, Zn, Fe, Ni. Which net ionic equation shows zinc reacting with Fe2+ ions?",
+  "key": "Zn(s) + Fe2+(aq) &rarr; Zn2+(aq) + Fe(s)",
+  "wrong": [
+   "Fe(s) + Zn2+(aq) &rarr; Fe2+(aq) + Zn(s)",
+   "Zn(s) + 2 Fe2+(aq) &rarr; Zn2+(aq) + 2 Fe(s)",
+   "Zn(s) + Fe2+(aq) &rarr; Zn2+(aq) + Fe(s) + 2 e&minus;"
+  ],
+  "explanation": "Zn(s) + Fe2+(aq) &rarr; Zn2+(aq) + Fe(s)",
+  "has_figure": []
+ },
+ {
+  "id": "c8-001",
+  "sub": "ch08-moleratio",
+  "topic": "stoich",
+  "d": 1,
+  "calc": 0,
+  "q": "In the balanced equation 2 H2(g) + O2(g) &rarr; 2 H2O(l), what do the coefficients tell you?",
+  "key": "2 mol of H2 react with 1 mol of O2 to make 2 mol of H2O.",
+  "wrong": [
+   "2 g of H2 react with 1 g of O2 to make 2 g of H2O.",
+   "2 molecules of H2 and 1 molecule of O2 make 3 molecules of H2O.",
+   "Each H2O molecule has 2 H atoms and 1 O atom, so the coefficients repeat the subscripts."
+  ],
+  "explanation": "Coefficients are mole ratios: 2 mol H2 react with 1 mol O2 to make 2 mol H2O.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-002",
+  "sub": "ch08-moleratio",
+  "topic": "stoich",
+  "d": 1,
+  "calc": 0,
+  "q": "For the combustion of propane, C3H8(g) + 5 O2(g) &rarr; 3 CO2(g) + 4 H2O(l), which conversion factor turns moles of O2 into moles of CO2?",
+  "key": "3 mol CO2 / 5 mol O2",
+  "wrong": [
+   "5 mol O2 / 3 mol CO2",
+   "2 mol CO2 / 2 mol O2",
+   "3 mol CO2 / 1 mol C3H8"
+  ],
+  "explanation": "mol O2 &times; (3 mol CO2 / 5 mol O2) = mol CO2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-003",
+  "sub": "ch08-moleratio",
+  "topic": "stoich",
+  "d": 1,
+  "calc": 1,
+  "q": "Nitric acid for fertilizer is made from ammonia. The first step is 4 NH3(g) + 5 O2(g) &rarr; 4 NO(g) + 6 H2O(g). How many moles of O2 react with 3.60 mol of NH3?",
+  "key": "4.50 mol O2",
+  "wrong": [
+   "2.88 mol O2",
+   "3.60 mol O2",
+   "5.40 mol O2"
+  ],
+  "explanation": "3.60 mol NH3 &times; (5 mol O2 / 4 mol NH3) = 4.50 mol O2. The mole ratio is exact, so the answer keeps the 3 significant figures of 3.60.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-004",
+  "sub": "ch08-moleratio",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "In cellular respiration, C6H12O6 + 6 O2 &rarr; 6 CO2 + 6 H2O. How many moles of glucose are used when your cells produce 0.480 mol of CO2?",
+  "key": "0.0800 mol C6H12O6",
+  "wrong": [
+   "2.88 mol C6H12O6",
+   "0.480 mol C6H12O6",
+   "14.4 g C6H12O6"
+  ],
+  "explanation": "0.480 mol CO2 &times; (1 mol C6H12O6 / 6 mol CO2) = 0.0800 mol C6H12O6.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-005",
+  "sub": "ch08-moleratio",
+  "topic": "stoich",
+  "d": 1,
+  "calc": 1,
+  "q": "Hydrogen peroxide foams on a cut because an enzyme in blood (catalase) speeds up 2 H2O2(aq) &rarr; 2 H2O(l) + O2(g). How many moles of O2 form from 0.856 mol of H2O2?",
+  "key": "0.428 mol O2",
+  "wrong": [
+   "1.71 mol O2",
+   "0.856 mol O2",
+   "13.7 g O2"
+  ],
+  "explanation": "0.856 mol H2O2 &times; (1 mol O2 / 2 mol H2O2) = 0.428 mol O2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-006",
+  "sub": "ch08-moleratio",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 0,
+  "q": "For 2 Mg(s) + O2(g) &rarr; 2 MgO(s), a student says, &ldquo;2 g of Mg react with 1 g of O2.&rdquo; Which statement corrects the student?",
+  "key": "2 mol of Mg (48.62 g) react with 1 mol of O2 (31.998 g); coefficients are mole ratios, not mass ratios.",
+  "wrong": [
+   "The student is right; coefficients give the ratio of grams.",
+   "2 g of Mg react with 2 g of O2, because the product has 2 MgO.",
+   "1 g of Mg reacts with 2 g of O2, because O2 has two atoms."
+  ],
+  "explanation": "The equation means 2 mol Mg (2 &times; 24.31 = 48.62 g) react with 1 mol O2 (31.998 g). Coefficients are mole ratios; to compare masses, use molar masses.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-007",
+  "sub": "ch08-moleratio",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 0,
+  "q": "In N2(g) + 3 H2(g) &rarr; 2 NH3(g), 4 mol of reactant molecules make only 2 mol of product. What is conserved in this reaction?",
+  "key": "The number of each kind of atom, and so the total mass",
+  "wrong": [
+   "The total number of moles of molecules",
+   "The number of molecules of each substance",
+   "Nothing; 2 mol of product weighs less than 4 mol of reactants"
+  ],
+  "explanation": "Atoms are rearranged, not created or destroyed, so atoms and mass are conserved; moles of molecules are not (4 mol &rarr; 2 mol).",
+  "has_figure": []
+ },
+ {
+  "id": "c8-008",
+  "sub": "ch08-moleratio",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "In a blast furnace, iron ore is reduced by carbon monoxide: Fe2O3(s) + 3 CO(g) &rarr; 2 Fe(l) + 3 CO2(g). How many moles of CO are needed to produce 1.25 mol of Fe?",
+  "key": "1.88 mol CO",
+  "wrong": [
+   "0.833 mol CO",
+   "1.25 mol CO",
+   "0.625 mol CO"
+  ],
+  "explanation": "1.25 mol Fe &times; (3 mol CO / 2 mol Fe) = 1.88 mol CO.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-009",
+  "sub": "ch08-moleratio",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "A propane camp stove burns fuel by C3H8(g) + 5 O2(g) &rarr; 3 CO2(g) + 4 H2O(l). How many moles of O2 were used if 2.46 mol of H2O formed?",
+  "key": "3.08 mol O2",
+  "wrong": [
+   "1.97 mol O2",
+   "0.615 mol O2",
+   "2.46 mol O2"
+  ],
+  "explanation": "2.46 mol H2O &times; (5 mol O2 / 4 mol H2O) = 3.08 mol O2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-010",
+  "sub": "ch08-moleratio",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "The table follows the mole ratio of 4 Al(s) + 3 O2(g) &rarr; 2 Al2O3(s), which forms the thin oxide layer that protects aluminum. What belongs in the cell marked ?",
+  "key": "0.60 mol O2",
+  "wrong": [
+   "1.1 mol O2",
+   "0.40 mol O2",
+   "0.80 mol O2"
+  ],
+  "explanation": "mol O2 = mol Al &times; 3/4, so 0.80 &times; 3/4 = 0.60 mol O2.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c8-011",
+  "sub": "ch08-moleratio",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 0,
+  "q": "For octane in gasoline, 2 C8H18(l) + 25 O2(g) &rarr; 16 CO2(g) + 18 H2O(g). A student converts 0.3150 mol O2 to moles of CO2 with the factor 16 mol CO2 / 25 mol O2. How many significant figures should the answer have?",
+  "key": "4, set by 0.3150; the mole ratio is exact",
+  "wrong": [
+   "2, set by the 16 and the 25 in the ratio",
+   "1, because 16/25 is less than 1",
+   "5, because the ratio has 5 digits in total"
+  ],
+  "explanation": "Mole ratios are exact, so 4 significant figures, like 0.3150: 0.3150 &times; 16/25 = 0.2016 mol CO2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-012",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "Yeast ferment grape sugar into wine: C6H12O6(aq) &rarr; 2 C2H5OH(aq) + 2 CO2(g). What mass of ethanol can form from 75.0 g of glucose? (C6H12O6 180.156 g/mol; C2H5OH 46.069 g/mol)",
+  "key": "38.4 g C2H5OH",
+  "wrong": [
+   "19.2 g C2H5OH",
+   "76.7 g C2H5OH",
+   "0.833 mol C2H5OH"
+  ],
+  "explanation": "75.0 g &times; (1 mol / 180.156 g) &times; (2 mol C2H5OH / 1 mol C6H12O6) &times; (46.069 g / 1 mol) = 38.4 g C2H5OH.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-013",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "An antacid tablet contains 0.750 g of calcium carbonate, which neutralizes stomach acid: CaCO3(s) + 2 HCl(aq) &rarr; CaCl2(aq) + H2O(l) + CO2(g). What mass of HCl can it neutralize? (CaCO3 100.09 g/mol; HCl 36.46 g/mol)",
+  "key": "0.546 g HCl",
+  "wrong": [
+   "0.273 g HCl",
+   "0.137 g HCl",
+   "1.50 g HCl"
+  ],
+  "explanation": "0.750 g CaCO3 &times; (1 mol / 100.09 g) &times; (2 mol HCl / 1 mol CaCO3) &times; (36.46 g / 1 mol) = 0.546 g HCl. (Context only; follow the label.)",
+  "has_figure": []
+ },
+ {
+  "id": "c8-014",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "Valley farms rely on ammonia fertilizer made by N2(g) + 3 H2(g) &rarr; 2 NH3(g). What mass of H2 is needed to make 85.0 g of NH3? (NH3 17.031 g/mol; H2 2.016 g/mol)",
+  "key": "15.1 g H2",
+  "wrong": [
+   "10.1 g H2",
+   "6.71 g H2",
+   "7.55 g H2"
+  ],
+  "explanation": "85.0 g NH3 &times; (1 mol / 17.031 g) &times; (3 mol H2 / 2 mol NH3) &times; (2.016 g / 1 mol) = 15.1 g H2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-015",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "What mass of O2 must you breathe in to fully oxidize 16.5 g of glucose? C6H12O6 + 6 O2 &rarr; 6 CO2 + 6 H2O (C6H12O6 180.156 g/mol; O2 31.998 g/mol)",
+  "key": "17.6 g O2",
+  "wrong": [
+   "2.93 g O2",
+   "8.79 g O2",
+   "0.488 g O2"
+  ],
+  "explanation": "16.5 g &times; (1 mol / 180.156 g) &times; (6 mol O2 / 1 mol C6H12O6) &times; (31.998 g / 1 mol) = 17.6 g O2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-016",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 1,
+  "calc": 1,
+  "q": "Magnesium ribbon burns with a bright white flame: 2 Mg(s) + O2(g) &rarr; 2 MgO(s). What mass of MgO forms from 3.65 g of Mg? (Mg 24.31 g/mol; MgO 40.31 g/mol)",
+  "key": "6.05 g MgO",
+  "wrong": [
+   "3.65 g MgO",
+   "12.1 g MgO",
+   "0.150 mol MgO"
+  ],
+  "explanation": "3.65 g Mg &times; (1 mol / 24.31 g) &times; (2 mol MgO / 2 mol Mg) &times; (40.31 g / 1 mol) = 6.05 g MgO.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-017",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "Many rural Valley homes heat with propane: C3H8(g) + 5 O2(g) &rarr; 3 CO2(g) + 4 H2O(l). What mass of CO2 forms when 26.5 g of propane burns? (C3H8 44.097 g/mol; CO2 44.009 g/mol)",
+  "key": "79.3 g CO2",
+  "wrong": [
+   "26.4 g CO2",
+   "8.82 g CO2",
+   "238 g CO2"
+  ],
+  "explanation": "26.5 g C3H8 &times; (1 mol / 44.097 g) &times; (3 mol CO2 / 1 mol C3H8) &times; (44.009 g / 1 mol) = 79.3 g CO2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-018",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "Iron rusts by 4 Fe(s) + 3 O2(g) &rarr; 2 Fe2O3(s). What mass of O2 is used when 8.40 g of iron rusts completely? (Fe 55.85 g/mol; O2 31.998 g/mol)",
+  "key": "3.61 g O2",
+  "wrong": [
+   "6.42 g O2",
+   "1.80 g O2",
+   "4.81 g O2"
+  ],
+  "explanation": "8.40 g Fe &times; (1 mol / 55.85 g) &times; (3 mol O2 / 4 mol Fe) &times; (31.998 g / 1 mol) = 3.61 g O2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-019",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 1,
+  "calc": 0,
+  "q": "Which order of steps converts grams of a reactant A into grams of a product B?",
+  "key": "g A &rarr; mol A &rarr; mol B &rarr; g B",
+  "wrong": [
+   "g A &rarr; g B, using the coefficients",
+   "g A &rarr; mol B &rarr; mol A &rarr; g B",
+   "mol A &rarr; g A &rarr; g B &rarr; mol B"
+  ],
+  "explanation": "The road map: g A &rarr; mol A &rarr; mol B &rarr; g B (molar mass of A, mole ratio, molar mass of B).",
+  "has_figure": []
+ },
+ {
+  "id": "c8-020",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 0,
+  "q": "A student finds the mass of water made from 5.5 g of H2 with 2 H2(g) + O2(g) &rarr; 2 H2O(l) as 5.5 g H2 &times; (2 mol H2O / 2 mol H2) = 5.5 g H2O. What went wrong?",
+  "key": "The grams of H2 were never converted to moles, so the mole ratio was used on grams.",
+  "wrong": [
+   "The mole ratio is upside down.",
+   "The equation is not balanced.",
+   "Nothing; the ratio is 1 : 1, so the masses are equal."
+  ],
+  "explanation": "The student skipped the conversion to moles. 5.5 g &times; (1 mol / 2.016 g) &times; (2 mol H2O / 2 mol H2) &times; (18.015 g / 1 mol) = 49 g H2O.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-021",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "Aspirin is made by C7H6O3 + C4H6O3 &rarr; C9H8O4 + C2H4O2 (salicylic acid + acetic anhydride &rarr; aspirin + acetic acid). What mass of acetic anhydride reacts exactly with 3.45 g of salicylic acid? (C7H6O3 138.122 g/mol; C4H6O3 102.089 g/mol)",
+  "key": "2.55 g C4H6O3",
+  "wrong": [
+   "3.45 g C4H6O3",
+   "4.67 g C4H6O3",
+   "0.0250 mol C4H6O3"
+  ],
+  "explanation": "3.45 g C7H6O3 &times; (1 mol / 138.122 g) &times; (1 mol C4H6O3 / 1 mol C7H6O3) &times; (102.089 g / 1 mol) = 2.55 g C4H6O3.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-022",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "Baking soda releases CO2 when heated in an oven: 2 NaHCO3(s) &rarr; Na2CO3(s) + H2O(g) + CO2(g). What mass of CO2 forms from 3.36 g of NaHCO3? (NaHCO3 84.01 g/mol; CO2 44.009 g/mol)",
+  "key": "0.880 g CO2",
+  "wrong": [
+   "1.76 g CO2",
+   "3.52 g CO2",
+   "0.440 g CO2"
+  ],
+  "explanation": "3.36 g NaHCO3 &times; (1 mol / 84.01 g) &times; (1 mol CO2 / 2 mol NaHCO3) &times; (44.009 g / 1 mol) = 0.880 g CO2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-023",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "Bread dough rises as yeast ferment sugar: C6H12O6 &rarr; 2 C2H5OH + 2 CO2. The table follows the road map for 30.0 g of glucose. What mass of CO2 goes in the last row?",
+  "key": "14.7 g CO2",
+  "wrong": [
+   "7.33 g CO2",
+   "29.3 g CO2",
+   "0.333 g CO2"
+  ],
+  "explanation": "0.3330 mol CO2 &times; 44.009 g/mol = 14.7 g CO2. Each row is one step of the road map.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c8-024",
+  "sub": "ch08-massmass",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "The thermite reaction welds railroad rails: Fe2O3(s) + 2 Al(s) &rarr; Al2O3(s) + 2 Fe(l). What mass of Al reacts exactly with 12.5 g of Fe2O3? (Fe2O3 159.70 g/mol; Al 26.98 g/mol)",
+  "key": "4.22 g Al",
+  "wrong": [
+   "2.11 g Al",
+   "1.06 g Al",
+   "8.45 g Al"
+  ],
+  "explanation": "12.5 g Fe2O3 &times; (1 mol / 159.70 g) &times; (2 mol Al / 1 mol Fe2O3) &times; (26.98 g / 1 mol) = 4.22 g Al.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-025",
+  "sub": "ch08-solgas",
+  "topic": "stoich",
+  "d": 1,
+  "calc": 1,
+  "q": "How many moles of HCl are in 35.0 mL of 0.150 M HCl?",
+  "key": "0.00525 mol HCl",
+  "wrong": [
+   "5.25 mol HCl",
+   "0.233 mol HCl",
+   "0.00429 mol HCl"
+  ],
+  "explanation": "35.0 mL &times; (1 L / 1000 mL) &times; (0.150 mol / 1 L) = 0.00525 mol HCl.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-026",
+  "sub": "ch08-solgas",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "Baking soda can neutralize acid: NaHCO3(s) + HCl(aq) &rarr; NaCl(aq) + H2O(l) + CO2(g). What volume of 0.125 M HCl reacts with 0.315 g of NaHCO3? (NaHCO3 84.01 g/mol)",
+  "key": "30.0 mL",
+  "wrong": [
+   "0.0300 mL",
+   "0.469 mL",
+   "0.00375 mol"
+  ],
+  "explanation": "0.315 g &times; (1 mol / 84.01 g) &times; (1 mol HCl / 1 mol NaHCO3) &times; (1 L / 0.125 mol) = 0.0300 L = 30.0 mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-027",
+  "sub": "ch08-solgas",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "A 3% hydrogen peroxide solution decomposes: 2 H2O2(aq) &rarr; 2 H2O(l) + O2(g). What volume of O2 at STP forms from 0.346 mol of H2O2?",
+  "key": "3.88 L O2",
+  "wrong": [
+   "7.75 L O2",
+   "15.5 L O2",
+   "0.173 mol O2"
+  ],
+  "explanation": "0.346 mol H2O2 &times; (1 mol O2 / 2 mol H2O2) &times; (22.4 L / 1 mol) = 3.88 L O2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-028",
+  "sub": "ch08-solgas",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "Heating limestone in a kiln makes lime for cement and for treating farm soil: CaCO3(s) &rarr; CaO(s) + CO2(g). What volume of CO2 at STP forms from 15.0 g of CaCO3? (CaCO3 100.09 g/mol)",
+  "key": "3.36 L CO2",
+  "wrong": [
+   "336 L CO2",
+   "0.150 mol CO2",
+   "0.00669 L CO2"
+  ],
+  "explanation": "15.0 g &times; (1 mol / 100.09 g) &times; (1 mol CO2 / 1 mol CaCO3) &times; (22.4 L / 1 mol) = 3.36 L CO2 at STP.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-029",
+  "sub": "ch08-solgas",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "In a gas-production lab, magnesium ribbon reacts with acid: Mg(s) + 2 HCl(aq) &rarr; MgCl2(aq) + H2(g). What volume of H2, in mL at STP, forms from 0.0425 g of Mg? (Mg 24.31 g/mol)",
+  "key": "39.2 mL H2",
+  "wrong": [
+   "78.3 mL H2",
+   "0.0392 mL H2",
+   "0.00175 mol H2"
+  ],
+  "explanation": "0.0425 g Mg &times; (1 mol / 24.31 g) &times; (1 mol H2 / 1 mol Mg) &times; (22.4 L / 1 mol) = 0.03916 L = 39.2 mL H2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-030",
+  "sub": "ch08-solgas",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "A winemaker ferments grapes at 25 &deg;C and 1 atm, where 1 mol of gas occupies 24.5 L: C6H12O6(aq) &rarr; 2 C2H5OH(aq) + 2 CO2(g). What volume of CO2 forms from 12.6 g of glucose? (C6H12O6 180.156 g/mol)",
+  "key": "3.43 L CO2",
+  "wrong": [
+   "3.13 L CO2",
+   "1.71 L CO2",
+   "0.140 mol CO2"
+  ],
+  "explanation": "12.6 g &times; (1 mol / 180.156 g) &times; (2 mol CO2 / 1 mol glucose) &times; (24.5 L / 1 mol) = 3.43 L CO2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-031",
+  "sub": "ch08-solgas",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "In a titration, H2SO4(aq) + 2 NaOH(aq) &rarr; Na2SO4(aq) + 2 H2O(l). What volume of 0.250 M NaOH neutralizes 15.0 mL of 0.180 M H2SO4?",
+  "key": "21.6 mL NaOH",
+  "wrong": [
+   "5.40 mL NaOH",
+   "10.8 mL NaOH",
+   "0.0216 mL NaOH"
+  ],
+  "explanation": "0.0150 L &times; (0.180 mol / 1 L) &times; (2 mol NaOH / 1 mol H2SO4) &times; (1 L / 0.250 mol) = 0.0216 L = 21.6 mL NaOH.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-032",
+  "sub": "ch08-solgas",
+  "topic": "stoich",
+  "d": 1,
+  "calc": 0,
+  "q": "For which gas sample can you use 22.4 L/mol to convert volume to moles?",
+  "key": "Nitrogen at 0 &deg;C and 1 atm",
+  "wrong": [
+   "Exhaled air at body temperature, 37 &deg;C, and 1 atm",
+   "Helium in a balloon at 25 &deg;C and 1 atm",
+   "Oxygen in a compressed tank at 0 &deg;C and 150 atm"
+  ],
+  "explanation": "22.4 L/mol holds only at STP, 0 &deg;C and 1 atm. Chapter 10 handles other conditions.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-033",
+  "sub": "ch08-solgas",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 0,
+  "q": "A student finds the moles of NaOH in 25.0 mL of 0.150 M NaOH as 25.0 &times; 0.150 = 3.75 mol. What went wrong?",
+  "key": "The volume was not converted to liters; the answer should be 0.00375 mol.",
+  "wrong": [
+   "The student should have divided: 25.0 &divide; 0.150.",
+   "Molarity is mol per mL, so the answer is right.",
+   "The student needed the molar mass of NaOH."
+  ],
+  "explanation": "mL was not converted to L: 25.0 mL = 0.0250 L, and 0.0250 L &times; 0.150 mol/L = 0.00375 mol NaOH.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-034",
+  "sub": "ch08-solgas",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "Zinc dissolves in hydrochloric acid: Zn(s) + 2 HCl(aq) &rarr; ZnCl2(aq) + H2(g). What mass of Zn reacts with 40.0 mL of 0.600 M HCl? (Zn 65.39 g/mol)",
+  "key": "0.785 g Zn",
+  "wrong": [
+   "1.57 g Zn",
+   "785 g Zn",
+   "3.14 g Zn"
+  ],
+  "explanation": "0.0400 L &times; (0.600 mol / 1 L) &times; (1 mol Zn / 2 mol HCl) &times; (65.39 g / 1 mol) = 0.785 g Zn.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-035",
+  "sub": "ch08-limiting",
+  "topic": "stoich",
+  "d": 1,
+  "calc": 0,
+  "q": "What is the limiting reactant in a reaction?",
+  "key": "The reactant that is used up first, which sets the most product that can form",
+  "wrong": [
+   "The reactant present in the smallest mass",
+   "The reactant with the smallest coefficient in the balanced equation",
+   "The reactant that is left over when the reaction stops"
+  ],
+  "explanation": "The limiting reactant is used up first and sets the maximum amount of product; the other reactant is in excess and some is left over.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-036",
+  "sub": "ch08-limiting",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "For N2(g) + 3 H2(g) &rarr; 2 NH3(g), 1.80 mol of N2 and 4.80 mol of H2 react. What is the maximum amount of NH3 that can form?",
+  "key": "3.20 mol NH3",
+  "wrong": [
+   "3.60 mol NH3",
+   "6.80 mol NH3",
+   "9.60 mol NH3"
+  ],
+  "explanation": "N2 &rarr; 3.60 mol NH3; H2 &rarr; 3.20 mol NH3. H2 is limiting: 3.20 mol NH3.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-037",
+  "sub": "ch08-limiting",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 0,
+  "q": "6.20 g of Na and 7.10 g of Cl2 react: 2 Na(s) + Cl2(g) &rarr; 2 NaCl(s). Which is the limiting reactant? (Na 22.99 g/mol; Cl2 70.90 g/mol)",
+  "key": "Cl2, because it can make less NaCl",
+  "wrong": [
+   "Na, because its mass is smaller",
+   "Na, because the equation needs 2 Na for every Cl2",
+   "Neither; the two react completely"
+  ],
+  "explanation": "Na &rarr; 0.2697 mol NaCl; Cl2 &rarr; 0.2003 mol NaCl. Cl2 is limiting, even though its mass is larger.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-038",
+  "sub": "ch08-limiting",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "14.0 g of N2 and 3.60 g of H2 react: N2(g) + 3 H2(g) &rarr; 2 NH3(g). What is the maximum mass of NH3 that can form? (N2 28.014 g/mol; H2 2.016 g/mol; NH3 17.031 g/mol)",
+  "key": "17.0 g NH3",
+  "wrong": [
+   "20.3 g NH3",
+   "17.6 g NH3",
+   "8.51 g NH3"
+  ],
+  "explanation": "N2 makes 0.9995 mol NH3, H2 1.190 mol, so N2 limits: 0.9995 mol &times; 17.031 g/mol = 17.0 g NH3.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-039",
+  "sub": "ch08-limiting",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "A catalytic converter removes CO by 2 CO(g) + O2(g) &rarr; 2 CO2(g). A mixture of 3.40 mol CO and 2.10 mol O2 reacts. How much of the excess reactant is left over?",
+  "key": "0.40 mol O2",
+  "wrong": [
+   "1.70 mol O2",
+   "1.30 mol CO",
+   "None; both are used up"
+  ],
+  "explanation": "CO is limiting; it uses 1.70 mol O2. Left over: 2.10 &minus; 1.70 = 0.40 mol O2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-040",
+  "sub": "ch08-limiting",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "6.50 g of iron and 4.25 g of sulfur are heated: Fe(s) + S(s) &rarr; FeS(s). What mass of the excess reactant is left? (Fe 55.85 g/mol; S 32.06 g/mol)",
+  "key": "0.52 g S",
+  "wrong": [
+   "3.73 g S",
+   "2.25 g",
+   "0.52 g Fe"
+  ],
+  "explanation": "Fe is limiting. S used: 0.1164 mol &times; 32.06 g/mol = 3.73 g. Left: 4.25 g &minus; 3.73 g = 0.52 g S.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-041",
+  "sub": "ch08-limiting",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 0,
+  "q": "The box shows the molecules before N2(g) + 3 H2(g) &rarr; 2 NH3(g) runs. What is the most NH3 that can form, and which reactant is limiting?",
+  "key": "4 NH3 molecules; H2 is limiting",
+  "wrong": [
+   "6 NH3 molecules; N2 is limiting",
+   "3 NH3 molecules; N2 is limiting",
+   "9 NH3 molecules; neither is limiting"
+  ],
+  "explanation": "H2: 6 &times; 2/3 = 4 NH3; N2: 3 &times; 2 = 6 NH3. H2 limits: 4 NH3, and 1 N2 is left.",
+  "has_figure": [
+   "particles"
+  ]
+ },
+ {
+  "id": "c8-042",
+  "sub": "ch08-limiting",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "6.60 g of propane and 20.0 g of O2 react: C3H8(g) + 5 O2(g) &rarr; 3 CO2(g) + 4 H2O(l). What is the maximum mass of CO2? (C3H8 44.097 g/mol; O2 31.998 g/mol; CO2 44.009 g/mol)",
+  "key": "16.5 g CO2",
+  "wrong": [
+   "19.8 g CO2",
+   "26.6 g CO2",
+   "82.5 g CO2"
+  ],
+  "explanation": "O2 &rarr; 0.3750 mol CO2 (less than 0.4490 from propane), so O2 limits: 0.3750 &times; 44.009 = 16.5 g CO2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-043",
+  "sub": "ch08-limiting",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 0,
+  "q": "For 2 H2(g) + O2(g) &rarr; 2 H2O(g), a student has 3.4 mol of H2 and 2.0 mol of O2 and says, &ldquo;O2 is limiting because there are fewer moles of it.&rdquo; What is wrong with this reasoning?",
+  "key": "Moles can be compared directly only when the coefficients are equal; here H2 is limiting.",
+  "wrong": [
+   "Nothing; the reactant with fewer moles is always limiting.",
+   "The student should compare grams instead of moles.",
+   "O2 is limiting, but only because it has the larger molar mass."
+  ],
+  "explanation": "H2 &rarr; 3.4 mol H2O; O2 &rarr; 4.0 mol H2O. H2 is limiting; compare moles only through the mole ratio.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-044",
+  "sub": "ch08-limiting",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "Ammonium sulfate fertilizer forms by 2 NH3(aq) + H2SO4(aq) &rarr; (NH4)2SO4(aq). 3.40 g of NH3 and 12.5 g of H2SO4 react. What mass of (NH4)2SO4 can form? (NH3 17.031 g/mol; H2SO4 98.07 g/mol; (NH4)2SO4 132.13 g/mol)",
+  "key": "13.2 g (NH4)2SO4",
+  "wrong": [
+   "16.8 g (NH4)2SO4",
+   "26.4 g (NH4)2SO4",
+   "15.9 g (NH4)2SO4"
+  ],
+  "explanation": "NH3 &rarr; 0.09982 mol; H2SO4 &rarr; 0.1275 mol. NH3 limits: 0.09982 &times; 132.13 = 13.2 g (NH4)2SO4.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-045",
+  "sub": "ch08-limiting",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "5.75 g of Na and 8.15 g of Cl2 react: 2 Na(s) + Cl2(g) &rarr; 2 NaCl(s). What mass of the excess reactant remains? (Na 22.99 g/mol; Cl2 70.90 g/mol)",
+  "key": "0.46 g Na",
+  "wrong": [
+   "5.29 g Na",
+   "2.40 g",
+   "3.11 g Na"
+  ],
+  "explanation": "Cl2 is limiting; it uses 5.29 g Na. Left: 5.75 &minus; 5.29 = 0.46 g Na.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-046",
+  "sub": "ch08-limiting",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 0,
+  "q": "For 2 SO2(g) + O2(g) &rarr; 2 SO3(g), which mixture in the table reacts with nothing left over?",
+  "key": "Mixture B",
+  "wrong": [
+   "Mixture A",
+   "Mixture C",
+   "Mixture D"
+  ],
+  "explanation": "Only Mixture B (3.0 mol SO2 : 1.5 mol O2) is in the exact 2 : 1 ratio.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c8-047",
+  "sub": "ch08-yield",
+  "topic": "stoich",
+  "d": 1,
+  "calc": 1,
+  "q": "A reaction has a theoretical yield of 18.6 g, and a student collects 15.9 g of product. What is the percent yield?",
+  "key": "85.5%",
+  "wrong": [
+   "117%",
+   "14.5%",
+   "2.7%"
+  ],
+  "explanation": "15.9 g &divide; 18.6 g &times; 100% = 85.5%.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-048",
+  "sub": "ch08-yield",
+  "topic": "stoich",
+  "d": 1,
+  "calc": 0,
+  "q": "What is the theoretical yield of a reaction?",
+  "key": "The most product that stoichiometry predicts from the limiting reactant",
+  "wrong": [
+   "The mass of product you weigh at the end of the lab",
+   "The total mass of all the reactants",
+   "The product predicted from the excess reactant"
+  ],
+  "explanation": "Theoretical yield = the maximum product calculated from the limiting reactant.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-049",
+  "sub": "ch08-yield",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "Burning 1.20 g of Mg, 2 Mg(s) + O2(g) &rarr; 2 MgO(s), gives 1.79 g of MgO. What is the percent yield? (Mg 24.31 g/mol; MgO 40.31 g/mol)",
+  "key": "90.0%",
+  "wrong": [
+   "111%",
+   "149%",
+   "45.0%"
+  ],
+  "explanation": "Theoretical = 1.990 g MgO; 1.79 g &divide; 1.990 g &times; 100% = 90.0%.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-050",
+  "sub": "ch08-yield",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "In a lab, aspirin is made from salicylic acid and excess acetic anhydride: C7H6O3 + C4H6O3 &rarr; C9H8O4 + C2H4O2. What is the theoretical yield of aspirin from 1.38 g of salicylic acid? (C7H6O3 138.122 g/mol; C9H8O4 180.159 g/mol)",
+  "key": "1.80 g C9H8O4",
+  "wrong": [
+   "1.38 g C9H8O4",
+   "1.06 g C9H8O4",
+   "0.00999 mol C9H8O4"
+  ],
+  "explanation": "1.38 g &times; (1 mol / 138.122 g) &times; (1 mol C9H8O4 / 1 mol C7H6O3) &times; (180.159 g / 1 mol) = 1.80 g C9H8O4.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-051",
+  "sub": "ch08-yield",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "A student mixes 2.76 g of salicylic acid with 3.06 g of acetic anhydride, C7H6O3 + C4H6O3 &rarr; C9H8O4 + C2H4O2, and collects 2.95 g of aspirin. What is the percent yield? (C7H6O3 138.122 g/mol; C4H6O3 102.089 g/mol; C9H8O4 180.159 g/mol)",
+  "key": "81.9%",
+  "wrong": [
+   "54.6%",
+   "122%",
+   "107%"
+  ],
+  "explanation": "Salicylic acid limits; theoretical = 3.600 g aspirin. 2.95 &divide; 3.600 &times; 100% = 81.9%.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-052",
+  "sub": "ch08-yield",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 0,
+  "q": "A student filters alum crystals and weighs them right away, reporting a 106% yield. What is the most likely reason?",
+  "key": "The crystals are still wet, so their mass includes water.",
+  "wrong": [
+   "The reaction made more product than the limiting reactant allows.",
+   "Some crystals were lost in the filtrate.",
+   "The student used the limiting reactant to find the theoretical yield."
+  ],
+  "explanation": "A yield above 100% points to extra mass: here, water left in the crystals.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-053",
+  "sub": "ch08-yield",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 0,
+  "q": "Which question does a percent yield answer?",
+  "key": "How much of the possible product did I collect?",
+  "wrong": [
+   "How close is my measurement to the accepted value?",
+   "How much of the excess reactant is left?",
+   "How fast did the reaction go?"
+  ],
+  "explanation": "Percent yield asks how much of the possible product you collected; percent error asks how close a measurement is to the accepted value.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-054",
+  "sub": "ch08-yield",
+  "topic": "stoich",
+  "d": 2,
+  "calc": 1,
+  "q": "A reaction has a theoretical yield of 42.5 g. If the percent yield is 76.0%, what mass of product is collected?",
+  "key": "32.3 g",
+  "wrong": [
+   "55.9 g",
+   "3.23 &times; 103 g",
+   "10.2 g"
+  ],
+  "explanation": "Actual = 0.760 &times; 42.5 g = 32.3 g.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-055",
+  "sub": "ch08-yield",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "Ethanol for fuel is made by fermenting corn sugar: C6H12O6 &rarr; 2 C2H5OH + 2 CO2. From 64.0 g of glucose at an 82.0% yield, what mass of ethanol is collected? (C6H12O6 180.156 g/mol; C2H5OH 46.069 g/mol)",
+  "key": "26.8 g C2H5OH",
+  "wrong": [
+   "32.7 g C2H5OH",
+   "39.9 g C2H5OH",
+   "13.4 g C2H5OH"
+  ],
+  "explanation": "Theoretical 32.73 g &times; 0.820 = 26.8 g C2H5OH.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-056",
+  "sub": "ch08-yield",
+  "topic": "stoich",
+  "d": 3,
+  "calc": 1,
+  "q": "In the alum synthesis lab, each Al atom ends up in one formula unit of alum, KAl(SO4)2&middot;12H2O. A student starts with 0.825 g of Al and collects 12.9 g of dry alum. What is the percent yield? (Al 26.98 g/mol; KAl(SO4)2&middot;12H2O 474.37 g/mol; KAl(SO4)2 258.19 g/mol)",
+  "key": "88.9%",
+  "wrong": [
+   "112%",
+   "163%",
+   "0.889%"
+  ],
+  "explanation": "Theoretical = 0.03058 mol &times; 474.37 g/mol = 14.51 g; 12.9 &divide; 14.51 &times; 100% = 88.9%.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-057",
+  "sub": "ch08-enthalpy",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "Hydrogen fuel cells run on 2 H2(g) + O2(g) &rarr; 2 H2O(l), &Delta;H = &minus;571.6 kJ. Which describes this reaction?",
+  "key": "Exothermic: heat is released and the surroundings warm up",
+  "wrong": [
+   "Endothermic: heat is absorbed and the surroundings cool down",
+   "Exothermic: heat is absorbed from the surroundings",
+   "Endothermic, because &Delta;H is a large number"
+  ],
+  "explanation": "&Delta;H &lt; 0, so the reaction is exothermic: 571.6 kJ is released per 2 mol H2.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-058",
+  "sub": "ch08-enthalpy",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "An instant cold pack gets cold when ammonium nitrate dissolves in water. Which statement is true about this process?",
+  "key": "It is endothermic, &Delta;H &gt; 0: it absorbs heat from your skin.",
+  "wrong": [
+   "It is exothermic, &Delta;H &lt; 0: it absorbs heat.",
+   "It is exothermic, &Delta;H &lt; 0: cold is released into the pack.",
+   "It is endothermic, &Delta;H &lt; 0."
+  ],
+  "explanation": "The cold pack absorbs heat: endothermic, &Delta;H &gt; 0.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-059",
+  "sub": "ch08-enthalpy",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "Heating limestone is endothermic: CaCO3(s) &rarr; CaO(s) + CO2(g), &Delta;H = +178 kJ. What is &Delta;H for the reverse reaction, CaO(s) + CO2(g) &rarr; CaCO3(s)?",
+  "key": "&minus;178 kJ",
+  "wrong": [
+   "+178 kJ",
+   "&minus;356 kJ",
+   "+89 kJ"
+  ],
+  "explanation": "Reverse reaction: &Delta;H = &minus;178 kJ (exothermic).",
+  "has_figure": []
+ },
+ {
+  "id": "c8-060",
+  "sub": "ch08-enthalpy",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "Given 2 H2(g) + O2(g) &rarr; 2 H2O(l), &Delta;H = &minus;571.6 kJ, what is &Delta;H for 4 H2(g) + 2 O2(g) &rarr; 4 H2O(l)?",
+  "key": "&minus;1143.2 kJ",
+  "wrong": [
+   "&minus;571.6 kJ",
+   "+1143.2 kJ",
+   "&minus;285.8 kJ"
+  ],
+  "explanation": "2 &times; (&minus;571.6 kJ) = &minus;1143.2 kJ.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-061",
+  "sub": "ch08-enthalpy",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "For 2 H2(g) + O2(g) &rarr; 2 H2O(l), &Delta;H = &minus;571.6 kJ, how much heat is released when 1.35 mol of O2 reacts?",
+  "key": "772 kJ released",
+  "wrong": [
+   "386 kJ released",
+   "1.54 &times; 103 kJ released",
+   "772 kJ absorbed"
+  ],
+  "explanation": "1.35 mol O2 &times; (571.6 kJ / 1 mol O2) = 772 kJ released.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-062",
+  "sub": "ch08-enthalpy",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "A propane camp stove burns fuel by C3H8(g) + 5 O2(g) &rarr; 3 CO2(g) + 4 H2O(l), &Delta;H = &minus;2.220 &times; 103 kJ. How much heat is released when 5.00 g of propane burns? (C3H8 44.097 g/mol)",
+  "key": "252 kJ released",
+  "wrong": [
+   "1.11 &times; 104 kJ released",
+   "50.3 kJ released",
+   "252 kJ absorbed"
+  ],
+  "explanation": "5.00 g &times; (1 mol / 44.097 g) &times; (2.220 &times; 103 kJ / 1 mol C3H8) = 252 kJ released.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-063",
+  "sub": "ch08-enthalpy",
+  "topic": "energy",
+  "d": 3,
+  "calc": 1,
+  "q": "A Valley dairy digester burns captured methane, CH4(g) + 2 O2(g) &rarr; CO2(g) + 2 H2O(l), &Delta;H = &minus;890.3 kJ. What mass of methane must burn to release 3.60 &times; 104 kJ? (CH4 16.043 g/mol)",
+  "key": "649 g CH4",
+  "wrong": [
+   "40.4 mol CH4",
+   "2.52 g CH4",
+   "324 g CH4"
+  ],
+  "explanation": "3.60 &times; 104 kJ &times; (1 mol CH4 / 890.3 kJ) &times; (16.043 g / 1 mol) = 649 g CH4.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-064",
+  "sub": "ch08-enthalpy",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "Your cells oxidize glucose: C6H12O6 + 6 O2 &rarr; 6 CO2 + 6 H2O, &Delta;H = &minus;2803 kJ. How much heat is released by 5.40 g of glucose? (C6H12O6 180.156 g/mol)",
+  "key": "84.0 kJ released",
+  "wrong": [
+   "1.51 &times; 104 kJ released",
+   "14.0 kJ released",
+   "20.1 kJ released"
+  ],
+  "explanation": "5.40 g &times; (1 mol / 180.156 g) &times; (2803 kJ / 1 mol) = 84.0 kJ released.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-065",
+  "sub": "ch08-enthalpy",
+  "topic": "energy",
+  "d": 3,
+  "calc": 1,
+  "q": "A food label counts the energy in carbohydrates in Calories (1 Cal = 4.184 kJ). Using C6H12O6 + 6 O2 &rarr; 6 CO2 + 6 H2O, &Delta;H = &minus;2803 kJ, how many Calories does 12.0 g of glucose release? (C6H12O6 180.156 g/mol)",
+  "key": "44.6 Cal",
+  "wrong": [
+   "187 Cal",
+   "781 Cal",
+   "7.44 Cal"
+  ],
+  "explanation": "12.0 g &times; (1 mol / 180.156 g) &times; (2803 kJ / 1 mol) &times; (1 Cal / 4.184 kJ) = 44.6 Cal, about 3.7 Cal per gram.",
+  "has_figure": []
+ },
+ {
+  "id": "c8-066",
+  "sub": "ch08-enthalpy",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "Decomposing limestone absorbs heat: CaCO3(s) &rarr; CaO(s) + CO2(g), &Delta;H = +178 kJ. How much heat is needed to decompose 35.0 g of CaCO3? (CaCO3 100.09 g/mol)",
+  "key": "62.2 kJ absorbed",
+  "wrong": [
+   "62.2 kJ released",
+   "6.23 &times; 103 kJ absorbed",
+   "0.350 mol CaCO3"
+  ],
+  "explanation": "35.0 g &times; (1 mol / 100.09 g) &times; (178 kJ / 1 mol) = 62.2 kJ absorbed.",
+  "has_figure": []
+ }
+]

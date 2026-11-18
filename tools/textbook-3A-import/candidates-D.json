@@ -1,0 +1,3494 @@
+[
+ {
+  "id": "c12-001",
+  "sub": "ch12-props",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "A drop of an unknown solution turns blue litmus paper red. What does this tell you?",
+  "key": "The solution is acidic.",
+  "wrong": [
+   "The solution is basic.",
+   "The solution is neutral.",
+   "The solution is a strong acid with a pH below 2."
+  ],
+  "explanation": "Blue litmus turned red, so the solution is acidic. (Litmus does not tell how acidic.)",
+  "has_figure": []
+ },
+ {
+  "id": "c12-002",
+  "sub": "ch12-props",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "A few drops of phenolphthalein are added to a clear solution, and it stays colorless. What can you conclude?",
+  "key": "The solution is acidic or neutral.",
+  "wrong": [
+   "The solution is basic.",
+   "The solution must be acidic.",
+   "The solution must be pure water."
+  ],
+  "explanation": "Colorless rules out only a base: the solution is acidic or neutral.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-003",
+  "sub": "ch12-props",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "Use the table of red cabbage indicator colors. A sample of seltzer (carbonated water) turns the indicator pink. What are its approximate pH and type?",
+  "key": "pH 3&ndash;4, acidic",
+  "wrong": [
+   "pH 1&ndash;2, strongly acidic",
+   "pH 8, slightly basic",
+   "pH 9&ndash;11, basic"
+  ],
+  "explanation": "Pink = pH 3&ndash;4, acidic.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c12-004",
+  "sub": "ch12-props",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "A student tests a sample of an unknown cleaner. Which single result proves that the cleaner is basic?",
+  "key": "Red litmus paper turns blue.",
+  "wrong": [
+   "Blue litmus paper turns red.",
+   "Phenolphthalein stays colorless.",
+   "A magnesium ribbon fizzes and gives off hydrogen gas."
+  ],
+  "explanation": "Red litmus turns blue in a base.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-005",
+  "sub": "ch12-props",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Iron filings are dropped into hydrochloric acid, and bubbles form as the iron dissolves. Iron forms Fe2+ ions. What are the products?",
+  "key": "FeCl2(aq) and H2(g)",
+  "wrong": [
+   "FeCl2(aq) and H2O(l)",
+   "FeCl2(aq), H2O(l), and CO2(g)",
+   "Fe(OH)2(s) and Cl2(g)"
+  ],
+  "explanation": "Fe(s) + 2 HCl(aq) &rarr; FeCl2(aq) + H2(g): the bubbles are hydrogen gas, and the salt is FeCl2.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-006",
+  "sub": "ch12-props",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "In buttermilk pancakes, baking soda (NaHCO3) reacts with the lactic acid (HC3H5O3) in the buttermilk, and the batter puffs up. Which set of products is correct?",
+  "key": "NaC3H5O3(aq), H2O(l), and CO2(g)",
+  "wrong": [
+   "NaC3H5O3(aq) and H2CO3(aq)",
+   "NaC3H5O3(aq) and H2(g)",
+   "NaOH(aq) and CO2(g)"
+  ],
+  "explanation": "NaHCO3(s) + HC3H5O3(aq) &rarr; NaC3H5O3(aq) + H2O(l) + CO2(g): sodium lactate, H2O, and CO2 (the gas that puffs the batter).",
+  "has_figure": []
+ },
+ {
+  "id": "c12-007",
+  "sub": "ch12-props",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Hydrobromic acid is neutralized by lithium hydroxide. What is the net ionic equation?",
+  "key": "H+(aq) + OH&minus;(aq) &rarr; H2O(l)",
+  "wrong": [
+   "HBr(aq) + LiOH(aq) &rarr; LiBr(aq) + H2O(l)",
+   "Li+(aq) + Br&minus;(aq) &rarr; LiBr(aq)",
+   "H+(aq) + Br&minus;(aq) &rarr; HBr(aq)"
+  ],
+  "explanation": "Spectators Li+ and Br&minus; drop out: H+(aq) + OH&minus;(aq) &rarr; H2O(l).",
+  "has_figure": []
+ },
+ {
+  "id": "c12-008",
+  "sub": "ch12-props",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "Pure water barely conducts electricity, but hydrochloric acid conducts well. Why?",
+  "key": "HCl forms ions (H3O+ and Cl&minus;) that carry charge through the solution.",
+  "wrong": [
+   "HCl molecules are polar, and polar molecules carry current.",
+   "HCl contains hydrogen, which conducts like a metal.",
+   "HCl releases free electrons into the water."
+  ],
+  "explanation": "HCl ionizes into H3O+ and Cl&minus; ions, which carry charge.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-009",
+  "sub": "ch12-props",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "Acid rain slowly dissolves marble statues, which are made of calcium carbonate, CaCO3. Which gas is released as the marble reacts with the acid?",
+  "key": "Carbon dioxide, CO2",
+  "wrong": [
+   "Hydrogen, H2",
+   "Oxygen, O2",
+   "Sulfur dioxide, SO2"
+  ],
+  "explanation": "Acid + carbonate gives a salt, water, and carbon dioxide.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-010",
+  "sub": "ch12-props",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Milk of magnesia, Mg(OH)2, neutralizes stomach acid (HCl). In the balanced equation, how many water molecules form for each Mg(OH)2?",
+  "key": "2",
+  "wrong": [
+   "1",
+   "4",
+   "0"
+  ],
+  "explanation": "Mg(OH)2(s) + 2 HCl(aq) &rarr; MgCl2(aq) + 2 H2O(l): 2 waters.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-011",
+  "sub": "ch12-bl",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "According to the Arrhenius definition, a base is a substance that",
+  "key": "produces OH&minus; ions when it dissolves in water.",
+  "wrong": [
+   "donates H+ ions in water.",
+   "produces H+ ions when it dissolves in water.",
+   "contains hydrogen atoms that it can release."
+  ],
+  "explanation": "An Arrhenius base produces OH&minus; in water.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-012",
+  "sub": "ch12-bl",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "A Br&oslash;nsted&ndash;Lowry acid is best described as a",
+  "key": "proton (H+) donor",
+  "wrong": [
+   "proton (H+) acceptor",
+   "substance that produces OH&minus; in water",
+   "substance that tastes bitter"
+  ],
+  "explanation": "A Br&oslash;nsted&ndash;Lowry acid is a proton donor.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-013",
+  "sub": "ch12-bl",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Ammonia, NH3, neutralizes acids, yet it contains no hydroxide ion. Which definition explains why NH3 is a base?",
+  "key": "Br&oslash;nsted&ndash;Lowry: NH3 accepts a proton and becomes NH4+.",
+  "wrong": [
+   "Arrhenius: NH3 releases OH&minus; from its formula.",
+   "Br&oslash;nsted&ndash;Lowry: NH3 donates one of its three H atoms.",
+   "Arrhenius: NH3 releases H+ in water."
+  ],
+  "explanation": "NH3 gains H+ to form NH4+: a Br&oslash;nsted&ndash;Lowry base (proton acceptor).",
+  "has_figure": []
+ },
+ {
+  "id": "c12-014",
+  "sub": "ch12-bl",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "What is the hydronium ion, and how does it form?",
+  "key": "H3O+; an H+ ion attaches to a lone pair on a water molecule.",
+  "wrong": [
+   "OH&minus;; a water molecule loses an H+.",
+   "H2O+; a water molecule loses an electron.",
+   "H3O&minus;; a water molecule gains a hydride ion."
+  ],
+  "explanation": "H3O+, formed when H+ bonds to a water molecule.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-015",
+  "sub": "ch12-bl",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "In the reaction below, which reactant is the Br&oslash;nsted&ndash;Lowry base?HC2H3O2(aq) + NH3(aq) &rlarr; NH4+(aq) + C2H3O2&minus;(aq)",
+  "key": "NH3",
+  "wrong": [
+   "HC2H3O2",
+   "NH4+",
+   "C2H3O2&minus;"
+  ],
+  "explanation": "NH3 becomes NH4+: NH3 accepts the proton.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-016",
+  "sub": "ch12-bl",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "In the reaction below, what is the conjugate base of HCO3&minus;?HCO3&minus;(aq) + OH&minus;(aq) &rlarr; CO32&minus;(aq) + H2O(l)",
+  "key": "CO32&minus;",
+  "wrong": [
+   "H2O",
+   "H2CO3",
+   "OH&minus;"
+  ],
+  "explanation": "HCO3&minus; &minus; H+ = CO32&minus;.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-017",
+  "sub": "ch12-bl",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Dihydrogen phosphate reacts with water as shown. Which choice lists one of its two conjugate acid&ndash;base pairs?H2PO4&minus;(aq) + H2O(l) &rlarr; HPO42&minus;(aq) + H3O+(aq)",
+  "key": "H2PO4&minus; and HPO42&minus;",
+  "wrong": [
+   "H2PO4&minus; and H2O",
+   "H2O and HPO42&minus;",
+   "H3O+ and HPO42&minus;"
+  ],
+  "explanation": "H2PO4&minus; loses H+ to become HPO42&minus;: H2PO4&minus;/HPO42&minus; (the other pair is H2O/H3O+).",
+  "has_figure": []
+ },
+ {
+  "id": "c12-018",
+  "sub": "ch12-bl",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "What is the conjugate base of phosphoric acid, H3PO4?",
+  "key": "H2PO4&minus;",
+  "wrong": [
+   "H2PO4",
+   "H4PO4+",
+   "PO43&minus;"
+  ],
+  "explanation": "H3PO4 &minus; H+ = H2PO4&minus;.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-019",
+  "sub": "ch12-bl",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "What is the conjugate acid of the hydrogen sulfide ion, HS&minus;?",
+  "key": "H2S",
+  "wrong": [
+   "S2&minus;",
+   "H2S&minus;",
+   "H3S+"
+  ],
+  "explanation": "HS&minus; + H+ = H2S.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-020",
+  "sub": "ch12-bl",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "What is the conjugate acid of the carbonate ion, CO32&minus;?",
+  "key": "HCO3&minus;",
+  "wrong": [
+   "H2CO3",
+   "HCO32&minus;",
+   "CO3&minus;"
+  ],
+  "explanation": "CO32&minus; + H+ = HCO3&minus;.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-021",
+  "sub": "ch12-bl",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "In which reaction does water act as a Br&oslash;nsted&ndash;Lowry acid?",
+  "key": "CN&minus;(aq) + H2O(l) &rlarr; HCN(aq) + OH&minus;(aq)",
+  "wrong": [
+   "HI(aq) + H2O(l) &rarr; H3O+(aq) + I&minus;(aq)",
+   "HClO4(aq) + H2O(l) &rarr; H3O+(aq) + ClO4&minus;(aq)",
+   "HNO2(aq) + H2O(l) &rlarr; H3O+(aq) + NO2&minus;(aq)"
+  ],
+  "explanation": "Only in the cyanide reaction does water lose H+ (to become OH&minus;): CN&minus;(aq) + H2O(l) &rlarr; HCN(aq) + OH&minus;(aq).",
+  "has_figure": []
+ },
+ {
+  "id": "c12-022",
+  "sub": "ch12-bl",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Which species is amphoteric, able to act as either an acid or a base?",
+  "key": "HCO3&minus;",
+  "wrong": [
+   "CO32&minus;",
+   "Cl&minus;",
+   "Na+"
+  ],
+  "explanation": "HCO3&minus; can donate or accept a proton.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-023",
+  "sub": "ch12-strength",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "Which acid is a strong acid?",
+  "key": "HI",
+  "wrong": [
+   "HNO2",
+   "HC3H5O3",
+   "H2CO3"
+  ],
+  "explanation": "HI is on the strong-acid list; the others are weak.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-024",
+  "sub": "ch12-strength",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "Which acid is a weak acid?",
+  "key": "HF",
+  "wrong": [
+   "HCl",
+   "HBr",
+   "HNO3"
+  ],
+  "explanation": "HF is weak; HCl, HBr, and HNO3 are strong.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-025",
+  "sub": "ch12-strength",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "Which compound is a strong base?",
+  "key": "Ca(OH)2",
+  "wrong": [
+   "NH3",
+   "Mg(OH)2",
+   "CH3OH"
+  ],
+  "explanation": "Ca(OH)2 is on the strong-base list.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-026",
+  "sub": "ch12-strength",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Nitrous acid, HNO2, is a weak acid. Which equation correctly shows it ionizing in water?",
+  "key": "HNO2(aq) + H2O(l) &rlarr; H3O+(aq) + NO2&minus;(aq)",
+  "wrong": [
+   "HNO2(aq) + H2O(l) &rarr; H3O+(aq) + NO2&minus;(aq)",
+   "HNO2(aq) + H2O(l) &rlarr; H2NO2+(aq) + OH&minus;(aq)",
+   "HNO2(aq) &rarr; H+(aq) + NO2&minus;(aq)"
+  ],
+  "explanation": "HNO2(aq) + H2O(l) &rlarr; H3O+(aq) + NO2&minus;(aq) (double arrow for a weak acid).",
+  "has_figure": []
+ },
+ {
+  "id": "c12-027",
+  "sub": "ch12-strength",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Acetic acid, HC2H3O2, is dissolved in water. Which description fits the solution (water molecules not counted)?",
+  "key": "Mostly intact HC2H3O2 molecules, with a few H3O+ and C2H3O2&minus; ions",
+  "wrong": [
+   "Only H3O+ and C2H3O2&minus; ions, with no intact molecules",
+   "Only intact HC2H3O2 molecules, with no ions at all",
+   "Mostly H3O+ ions and intact molecules, but no acetate ions"
+  ],
+  "explanation": "Weak acid: mostly intact molecules, a few ions.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-028",
+  "sub": "ch12-strength",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Solution A is 0.0020 M HNO3; solution B is 3.0 M HC2H3O2. Which statement is true?",
+  "key": "A is a dilute solution of a strong acid; B is a concentrated solution of a weak acid.",
+  "wrong": [
+   "A is a weak acid because it is dilute; B is a strong acid because it is concentrated.",
+   "Both are strong acids, because both ionize completely.",
+   "Both are weak acids, because both contain intact acid molecules."
+  ],
+  "explanation": "HNO3 is strong (but dilute here); acetic acid is weak (but concentrated here): A dilute strong acid, B concentrated weak acid.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-029",
+  "sub": "ch12-strength",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "Which compound is a salt?",
+  "key": "CaBr2",
+  "wrong": [
+   "HBr",
+   "Ca(OH)2",
+   "C2H5OH"
+  ],
+  "explanation": "CaBr2 (Ca2+ from Ca(OH)2, Br&minus; from HBr) is a salt.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-030",
+  "sub": "ch12-strength",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Isopropyl alcohol (rubbing alcohol), C3H7OH, contains an OH group. How is it classified?",
+  "key": "Neither an acid nor a base",
+  "wrong": [
+   "A strong base",
+   "A weak base",
+   "A weak acid"
+  ],
+  "explanation": "An alcohol's OH is not OH&minus;: neither an acid nor a base.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-031",
+  "sub": "ch12-strength",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "Which compound is a base?",
+  "key": "NaHCO3 (baking soda)",
+  "wrong": [
+   "NaCl (table salt)",
+   "HC2H3O2 (acetic acid)",
+   "C6H12O6 (glucose)"
+  ],
+  "explanation": "NaHCO3: bicarbonate is a proton acceptor.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-032",
+  "sub": "ch12-strength",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Hydroiodic acid neutralizes barium hydroxide. What salt forms?",
+  "key": "BaI2",
+  "wrong": [
+   "BaI",
+   "Ba2I",
+   "BaH2"
+  ],
+  "explanation": "2 HI(aq) + Ba(OH)2(aq) &rarr; BaI2(aq) + 2 H2O(l): BaI2.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-033",
+  "sub": "ch12-strength",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "Potassium hydroxide neutralizes hydroiodic acid. What are the products?",
+  "key": "KI(aq) and H2O(l)",
+  "wrong": [
+   "KI(aq) and H2(g)",
+   "K2O(s) and I2(s)",
+   "No products; KOH and HI do not react."
+  ],
+  "explanation": "HI(aq) + KOH(aq) &rarr; KI(aq) + H2O(l): KI and water.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-034",
+  "sub": "ch12-strength",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Calcium hydroxide dissolves in water. How many OH&minus; ions does each formula unit release, and which arrow belongs in its equation?",
+  "key": "2 OH&minus;; a single arrow (&rarr;)",
+  "wrong": [
+   "2 OH&minus;; a double arrow (&rlarr;)",
+   "1 OH&minus;; a single arrow (&rarr;)",
+   "1 OH&minus;; a double arrow (&rlarr;)"
+  ],
+  "explanation": "Ca(OH)2(aq) &rarr; Ca2+(aq) + 2 OH&minus;(aq): 2 OH&minus;, single arrow.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-035",
+  "sub": "ch12-water",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "Which equation shows the autoionization of water?",
+  "key": "H2O(l) + H2O(l) &rlarr; H3O+(aq) + OH&minus;(aq)",
+  "wrong": [
+   "2 H2O(l) &rarr; 2 H2(g) + O2(g)",
+   "H2O(l) + H2O(l) &rarr; H3O+(aq) + OH&minus;(aq)",
+   "H2O(l) + H2O(l) &rlarr; H2O2(aq) + H2(g)"
+  ],
+  "explanation": "H2O(l) + H2O(l) &rlarr; H3O+(aq) + OH&minus;(aq).",
+  "has_figure": []
+ },
+ {
+  "id": "c12-036",
+  "sub": "ch12-water",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "Pure water at 25 °C has pH 7.00. What is its [OH&minus;]?",
+  "key": "1.0 &times; 10&minus;7 M",
+  "wrong": [
+   "1.0 &times; 10&minus;14 M",
+   "7.00 M",
+   "0 M, because pure water contains no hydroxide"
+  ],
+  "explanation": "&radic;(1.0 &times; 10&minus;14) = 1.0 &times; 10&minus;7 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-037",
+  "sub": "ch12-water",
+  "topic": "acids",
+  "d": 2,
+  "calc": 1,
+  "q": "A sample of tomato juice has [H3O+] = 7.9 &times; 10&minus;5 M at 25 °C. What is [OH&minus;]?",
+  "key": "1.3 &times; 10&minus;10 M",
+  "wrong": [
+   "7.9 &times; 10&minus;19 M",
+   "7.9 &times; 109 M",
+   "1.0 &times; 10&minus;7 M"
+  ],
+  "explanation": "[OH&minus;] = 1.0 &times; 10&minus;14 / 7.9 &times; 10&minus;5 = 1.3 &times; 10&minus;10 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-038",
+  "sub": "ch12-water",
+  "topic": "acids",
+  "d": 2,
+  "calc": 1,
+  "q": "A dilute soap solution has [OH&minus;] = 5.5 &times; 10&minus;3 M at 25 °C. What is [H3O+]?",
+  "key": "1.8 &times; 10&minus;12 M",
+  "wrong": [
+   "5.5 &times; 10&minus;17 M",
+   "5.5 &times; 1011 M",
+   "1.8 &times; 102 M"
+  ],
+  "explanation": "1.0 &times; 10&minus;14 / 5.5 &times; 10&minus;3 = 1.8 &times; 10&minus;12 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-039",
+  "sub": "ch12-water",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "A solution has [H3O+] = 3.8 &times; 10&minus;9 M at 25 °C. How is it classified?",
+  "key": "Basic",
+  "wrong": [
+   "Acidic",
+   "Neutral",
+   "It cannot be classified without [OH&minus;]."
+  ],
+  "explanation": "[H3O+] is below 1.0 &times; 10&minus;7 M: basic.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-040",
+  "sub": "ch12-water",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "A solution has [OH&minus;] = 2.7 &times; 10&minus;11 M at 25 °C. How is it classified?",
+  "key": "Acidic",
+  "wrong": [
+   "Basic",
+   "Neutral",
+   "Neither, because [OH&minus;] is too small to measure"
+  ],
+  "explanation": "[OH&minus;] &lt; 1.0 &times; 10&minus;7 M, so [H3O+] &gt; 1.0 &times; 10&minus;7 M: acidic.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-041",
+  "sub": "ch12-water",
+  "topic": "acids",
+  "d": 3,
+  "calc": 0,
+  "q": "Use the table (all at 25 °C). Which solution is the most acidic?",
+  "key": "Solution D",
+  "wrong": [
+   "Solution A",
+   "Solution B",
+   "Solution C"
+  ],
+  "explanation": "A 4.1 &times; 10&minus;5, B 1.3 &times; 10&minus;12, C 9.0 &times; 10&minus;9, D 3.0 &times; 10&minus;3 M [H3O+]: Solution D.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c12-042",
+  "sub": "ch12-water",
+  "topic": "acids",
+  "d": 2,
+  "calc": 1,
+  "q": "What is [OH&minus;] in 0.045 M HBr at 25 °C?",
+  "key": "2.2 &times; 10&minus;13 M",
+  "wrong": [
+   "0.045 M",
+   "4.5 &times; 10&minus;16 M",
+   "1.1 &times; 10&minus;13 M"
+  ],
+  "explanation": "[H3O+] = 0.045 M; [OH&minus;] = 1.0 &times; 10&minus;14 / 0.045 = 2.2 &times; 10&minus;13 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-043",
+  "sub": "ch12-water",
+  "topic": "acids",
+  "d": 2,
+  "calc": 1,
+  "q": "What is [OH&minus;] in 0.0045 M Ba(OH)2?",
+  "key": "0.0090 M",
+  "wrong": [
+   "0.0045 M",
+   "1.1 &times; 10&minus;12 M",
+   "2.2 &times; 10&minus;12 M"
+  ],
+  "explanation": "[OH&minus;] = 2 &times; 0.0045 M = 0.0090 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-044",
+  "sub": "ch12-water",
+  "topic": "acids",
+  "d": 3,
+  "calc": 1,
+  "q": "What is [H3O+] in 0.0012 M Ca(OH)2 at 25 °C?",
+  "key": "4.2 &times; 10&minus;12 M",
+  "wrong": [
+   "8.3 &times; 10&minus;12 M",
+   "0.0024 M",
+   "2.4 &times; 10&minus;17 M"
+  ],
+  "explanation": "[OH&minus;] = 0.0024 M; [H3O+] = 1.0 &times; 10&minus;14 / 0.0024 = 4.2 &times; 10&minus;12 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-045",
+  "sub": "ch12-water",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "A few drops of acid are added to pure water at 25 °C, and [H3O+] rises. What happens to [OH&minus;]?",
+  "key": "It falls, so that [H3O+][OH&minus;] stays 1.0 &times; 10&minus;14.",
+  "wrong": [
+   "It rises along with [H3O+].",
+   "It stays at 1.0 &times; 10&minus;7 M.",
+   "It drops to zero, because an acidic solution has no OH&minus;."
+  ],
+  "explanation": "Kw is constant: [OH&minus;] falls.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-046",
+  "sub": "ch12-water",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "The relationship Kw = [H3O+][OH&minus;] = 1.0 &times; 10&minus;14 applies to which solutions at 25 °C?",
+  "key": "Every water solution: acidic, basic, or neutral",
+  "wrong": [
+   "Only pure water",
+   "Only neutral solutions",
+   "Only solutions of strong acids and bases"
+  ],
+  "explanation": "Kw applies to every water solution at 25 °C.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-047",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 2,
+  "calc": 1,
+  "q": "What is the pH of 0.0072 M HBr?",
+  "key": "2.14",
+  "wrong": [
+   "&minus;2.14",
+   "11.86",
+   "2.1"
+  ],
+  "explanation": "pH = &minus;log(0.0072) = 2.14.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-048",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 2,
+  "calc": 1,
+  "q": "What is the pH of 2.85 &times; 10&minus;3 M HCl?",
+  "key": "2.545",
+  "wrong": [
+   "&minus;2.545",
+   "2.55",
+   "11.455"
+  ],
+  "explanation": "pH = &minus;log(2.85 &times; 10&minus;3) = 2.545.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-049",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 2,
+  "calc": 1,
+  "q": "What is the pH of 0.0039 M NaOH at 25 °C?",
+  "key": "11.59",
+  "wrong": [
+   "2.41",
+   "11.89",
+   "11.6"
+  ],
+  "explanation": "pOH = 2.41; pH = 14.00 &minus; 2.41 = 11.59.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-050",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 3,
+  "calc": 1,
+  "q": "What is the pH of 0.0033 M Ba(OH)2 at 25 °C?",
+  "key": "11.82",
+  "wrong": [
+   "11.52",
+   "2.18",
+   "11.8"
+  ],
+  "explanation": "[OH&minus;] = 0.0066 M; pOH = 2.18; pH = 11.82.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-051",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 3,
+  "calc": 1,
+  "q": "Limewater is a solution of Ca(OH)2. What is the pH of 3.3 &times; 10&minus;4 M Ca(OH)2 at 25 °C?",
+  "key": "10.82",
+  "wrong": [
+   "10.52",
+   "3.18",
+   "&minus;10.82"
+  ],
+  "explanation": "[OH&minus;] = 6.6 &times; 10&minus;4 M; pOH = 3.18; pH = 10.82.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-052",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 2,
+  "calc": 1,
+  "q": "A glass of orange juice has pH 3.37. What is its [H3O+]?",
+  "key": "4.3 &times; 10&minus;4 M",
+  "wrong": [
+   "2.3 &times; 10&minus;11 M",
+   "2.3 &times; 103 M",
+   "4.27 &times; 10&minus;4 M"
+  ],
+  "explanation": "10&minus;3.37 = 4.3 &times; 10&minus;4 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-053",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 3,
+  "calc": 1,
+  "q": "A hand soap solution has pH 9.62 at 25 °C. What is its [OH&minus;]?",
+  "key": "4.2 &times; 10&minus;5 M",
+  "wrong": [
+   "2.4 &times; 10&minus;10 M",
+   "4.38 M",
+   "2.4 &times; 104 M"
+  ],
+  "explanation": "pOH = 4.38; [OH&minus;] = 10&minus;4.38 = 4.2 &times; 10&minus;5 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-054",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 2,
+  "calc": 1,
+  "q": "What is the pH of a solution with [H3O+] = 7.94 &times; 10&minus;6 M?",
+  "key": "5.100",
+  "wrong": [
+   "5.10",
+   "&minus;5.100",
+   "8.900"
+  ],
+  "explanation": "&minus;log(7.94 &times; 10&minus;6) = 5.100.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-055",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 1,
+  "calc": 1,
+  "q": "A solution has pOH 3.85 at 25 °C. What is its pH?",
+  "key": "10.15",
+  "wrong": [
+   "3.85",
+   "17.85",
+   "1.4 &times; 10&minus;4 M"
+  ],
+  "explanation": "pH = 14.00 &minus; 3.85 = 10.15 (basic).",
+  "has_figure": []
+ },
+ {
+  "id": "c12-056",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Use the table of typical pH values. Which item has about 1000 times the [H3O+] of black coffee?",
+  "key": "Lemon juice",
+  "wrong": [
+   "Vinegar",
+   "Cola",
+   "Milk"
+  ],
+  "explanation": "1000 = 103: 3 pH units below coffee's 5, so pH 2: lemon juice.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c12-057",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Four solutions have pH 8.3, 2.5, 6.5, and 11.5. Which list puts them in order of increasing acidity (least acidic first)?",
+  "key": "11.5, 8.3, 6.5, 2.5",
+  "wrong": [
+   "2.5, 6.5, 8.3, 11.5",
+   "6.5, 8.3, 2.5, 11.5",
+   "8.3, 11.5, 2.5, 6.5"
+  ],
+  "explanation": "Least acidic (highest pH) to most acidic: 11.5, 8.3, 6.5, 2.5.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-058",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Solution X has pH 3.0 and solution Y has pH 6.0. How does [H3O+] in X compare with Y?",
+  "key": "X has 1000 times the [H3O+] of Y.",
+  "wrong": [
+   "X has 2 times the [H3O+] of Y.",
+   "X has 30 times the [H3O+] of Y.",
+   "Y has 1000 times the [H3O+] of X."
+  ],
+  "explanation": "106.0 &minus; 3.0 = 103: X has 1000 times the [H3O+] of Y.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-059",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "A patient's arterial blood gas shows pH 7.52. How is this described?",
+  "key": "Alkalosis (above the normal 7.35&ndash;7.45)",
+  "wrong": [
+   "Acidosis (below the normal range)",
+   "Normal (within 7.35&ndash;7.45)",
+   "Neutral, because it is close to 7"
+  ],
+  "explanation": "7.52 &gt; 7.45: alkalosis.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-060",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 2,
+  "calc": 1,
+  "q": "By the next morning, after treatment has opened Mateo's airways, his arterial pH is 7.38. What is his [H3O+] now?",
+  "key": "4.2 &times; 10&minus;8 M",
+  "wrong": [
+   "2.4 &times; 107 M",
+   "4.17 &times; 10&minus;8 M",
+   "2.4 &times; 10&minus;7 M"
+  ],
+  "explanation": "10&minus;7.38 = 4.2 &times; 10&minus;8 M, within the normal range.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-061",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 2,
+  "calc": 1,
+  "q": "A solution has [H3O+] = 6.10 &times; 10&minus;9 M. Which pH is reported correctly?",
+  "key": "8.215",
+  "wrong": [
+   "8.21",
+   "8.2147",
+   "8.2"
+  ],
+  "explanation": "3 significant figures &rarr; 3 decimal places: pH = 8.215.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-062",
+  "sub": "ch12-ph",
+  "topic": "acids",
+  "d": 2,
+  "calc": 1,
+  "q": "A 0.012 M HNO3 solution is diluted tenfold, to 0.0012 M. What is the new pH?",
+  "key": "2.92",
+  "wrong": [
+   "0.92",
+   "1.92",
+   "19.2"
+  ],
+  "explanation": "&minus;log(0.0012) = 2.92, one unit higher than 1.92.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-063",
+  "sub": "ch12-buffers",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "What is a buffer?",
+  "key": "A solution that resists changes in pH when small amounts of acid or base are added",
+  "wrong": [
+   "A solution whose pH is exactly 7.00",
+   "A mixture of a strong acid and a strong base",
+   "A solution whose pH never changes, no matter how much acid is added"
+  ],
+  "explanation": "A buffer resists pH change when small amounts of acid or base are added.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-064",
+  "sub": "ch12-buffers",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Which mixture is a buffer?",
+  "key": "HClO and NaClO",
+  "wrong": [
+   "HClO4 and NaClO4",
+   "HClO and NaCl",
+   "NaOH and NaClO"
+  ],
+  "explanation": "HClO/ClO&minus; differ by one H+, and HClO is weak: HClO and NaClO.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-065",
+  "sub": "ch12-buffers",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "Which mixture is not a buffer?",
+  "key": "HI and NaI",
+  "wrong": [
+   "HF and KF",
+   "NH3 and NH4Br",
+   "NaH2PO4 and Na2HPO4"
+  ],
+  "explanation": "HI is on the strong-acid list: HI and NaI is not a buffer.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-066",
+  "sub": "ch12-buffers",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "A buffer contains HNO2 and NaNO2. Which species reacts with a small amount of added H3O+?",
+  "key": "NO2&minus;",
+  "wrong": [
+   "HNO2",
+   "Na+",
+   "H2O"
+  ],
+  "explanation": "NO2&minus;(aq) + H3O+(aq) &rarr; HNO2(aq) + H2O(l): NO2&minus;.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-067",
+  "sub": "ch12-buffers",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "A buffer contains HF and F&minus;. Which equation shows it neutralizing a small amount of added OH&minus;?",
+  "key": "HF(aq) + OH&minus;(aq) &rarr; F&minus;(aq) + H2O(l)",
+  "wrong": [
+   "F&minus;(aq) + H3O+(aq) &rarr; HF(aq) + H2O(l)",
+   "H3O+(aq) + OH&minus;(aq) &rarr; 2 H2O(l)",
+   "HF(aq) + H2O(l) &rlarr; H3O+(aq) + F&minus;(aq)"
+  ],
+  "explanation": "HF(aq) + OH&minus;(aq) &rarr; F&minus;(aq) + H2O(l).",
+  "has_figure": []
+ },
+ {
+  "id": "c12-068",
+  "sub": "ch12-buffers",
+  "topic": "acids",
+  "d": 1,
+  "calc": 0,
+  "q": "Which pair makes up the main buffer in blood?",
+  "key": "H2CO3 and HCO3&minus;",
+  "wrong": [
+   "HCl and Cl&minus;",
+   "H2CO3 and CO32&minus;",
+   "NaOH and Na+"
+  ],
+  "explanation": "H2CO3/HCO3&minus;, the bicarbonate buffer.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-069",
+  "sub": "ch12-buffers",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "The body can adjust both partners of the bicarbonate buffer. Which organ controls the blood's HCO3&minus; level, and how fast?",
+  "key": "The kidneys, over hours to days",
+  "wrong": [
+   "The lungs, within minutes",
+   "The kidneys, within seconds",
+   "The stomach, by secreting HCl"
+  ],
+  "explanation": "The kidneys, over hours to days (the lungs adjust CO2 in minutes).",
+  "has_figure": []
+ },
+ {
+  "id": "c12-070",
+  "sub": "ch12-buffers",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "In the blood, CO2 + H2O &rlarr; H2CO3 &rlarr; H+ + HCO3&minus;. Which change, by itself, lowers blood pH?",
+  "key": "A rise in blood CO2",
+  "wrong": [
+   "A drop in blood CO2",
+   "Faster, deeper breathing",
+   "The kidneys keeping more HCO3&minus;"
+  ],
+  "explanation": "CO2 up, then H2CO3 up, then H+ up: a rise in blood CO2 lowers the pH.",
+  "has_figure": []
+ },
+ {
+  "id": "c12-071",
+  "sub": "ch12-buffers",
+  "topic": "acids",
+  "d": 2,
+  "calc": 0,
+  "q": "A hiker who climbs quickly to high altitude breathes faster and deeper than usual and blows off extra CO2. What happens to the blood pH?",
+  "key": "It rises, because less H2CO3 forms and less H+ is released (respiratory alkalosis).",
+  "wrong": [
+   "It falls, because the buffer runs out of bicarbonate (respiratory acidosis).",
+   "It falls, because removing CO2 releases more H+.",
+   "It does not change, because the buffer keeps the pH exactly constant."
+  ],
+  "explanation": "CO2 down &rarr; H2CO3 down &rarr; H+ down: pH rises (respiratory alkalosis).",
+  "has_figure": []
+ },
+ {
+  "id": "c12-072",
+  "sub": "ch12-buffers",
+  "topic": "acids",
+  "d": 3,
+  "calc": 0,
+  "q": "A buffer is made with 0.10 mol of a weak acid, HA, and 0.10 mol of its conjugate base, A&minus;. Then 0.20 mol of HCl is added. What happens?",
+  "key": "The A&minus; is used up after 0.10 mol of HCl, and the extra acid makes the pH drop sharply.",
+  "wrong": [
+   "The pH stays nearly constant, because buffers absorb any amount of acid.",
+   "The HA neutralizes the added HCl, so the pH rises.",
+   "The pH stays nearly constant, because HCl is a weak acid in a buffer."
+  ],
+  "explanation": "0.20 mol HCl &gt; 0.10 mol A&minus;: the capacity is exceeded, and the pH drops sharply.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-001",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 1,
+  "calc": 0,
+  "q": "According to collision theory, which two things must be true of a collision for it to form products?",
+  "key": "The particles must hit with the right orientation and with at least the activation energy.",
+  "wrong": [
+   "The particles must hit with the right orientation; any amount of energy is enough.",
+   "The particles must hit with at least the activation energy; the direction they hit from does not matter.",
+   "The particles only need to collide; every collision forms products."
+  ],
+  "explanation": "An effective collision has the right orientation and at least Ea.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-002",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "Two molecules collide with more than enough energy to react, yet no products form. What is the most likely reason?",
+  "key": "They hit with the wrong orientation, so the bonds that needed to break were not in contact.",
+  "wrong": [
+   "The activation energy was too low for the reaction to happen.",
+   "The reaction had reached equilibrium, so all reactions had stopped.",
+   "High-energy collisions always bounce apart without reacting."
+  ],
+  "explanation": "Enough energy but no reaction: wrong orientation.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-003",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 1,
+  "q": "Use the energy diagram. What is the activation energy of the forward reaction?",
+  "key": "83 kJ",
+  "wrong": [
+   "46 kJ",
+   "118 kJ",
+   "37 kJ"
+  ],
+  "explanation": "Ea = top &minus; reactants = 118 kJ &minus; 35 kJ = 83 kJ.",
+  "has_figure": [
+   "plot"
+  ]
+ },
+ {
+  "id": "c13-004",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 1,
+  "q": "A reaction's energy diagram shows the reactants at 88 kJ, the products at 23 kJ, and the peak of the hill at 142 kJ. What is &Delta;H, and is the reaction exothermic or endothermic?",
+  "key": "&minus;65 kJ, exothermic",
+  "wrong": [
+   "+65 kJ, endothermic",
+   "+54 kJ, endothermic",
+   "&minus;119 kJ, exothermic"
+  ],
+  "explanation": "&Delta;H = 23 kJ &minus; 88 kJ = &minus;65 kJ, exothermic.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-005",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "How does adding a catalyst change the energy diagram of a reaction?",
+  "key": "It lowers the top of the hill, but the reactant and product energies stay the same.",
+  "wrong": [
+   "It lowers the energy of the products, so &Delta;H becomes more negative.",
+   "It raises the top of the hill, so fewer collisions succeed.",
+   "It lowers the hill and the reactant energy by the same amount."
+  ],
+  "explanation": "A lower hill (smaller Ea), the same &Delta;H.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-006",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 1,
+  "calc": 0,
+  "q": "Full-strength household bleach removes a coffee stain from a white shirt much faster than bleach diluted with water. Why?",
+  "key": "The full-strength bleach has more hypochlorite ions in each milliliter, so they collide with the stain molecules more often.",
+  "wrong": [
+   "Water is a catalyst that slows the reaction down.",
+   "Diluting bleach raises the activation energy of the reaction.",
+   "Full-strength bleach is hotter than diluted bleach."
+  ],
+  "explanation": "Higher concentration &rarr; more collisions per second &rarr; faster stain removal.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-007",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 1,
+  "calc": 0,
+  "q": "Why does storing leftovers in a refrigerator at 4 °C slow down spoilage?",
+  "key": "At low temperature, molecules collide less often and fewer collisions have at least the activation energy, so the bacteria's reactions slow down.",
+  "wrong": [
+   "Cold kills the bacteria, so no spoilage reactions can happen.",
+   "Cold raises the activation energy of the spoilage reactions.",
+   "Cold removes the oxygen from the food, so the reactions stop."
+  ],
+  "explanation": "Colder &rarr; fewer, weaker collisions &rarr; slower reactions. The bacteria are slowed, not killed.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-008",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "After a cardiac arrest, some patients' body temperature is lowered by a few degrees on purpose for a time (targeted temperature management), partly to lower the brain's need for oxygen. Which collision-theory idea explains why cooling lowers the oxygen need?",
+  "key": "At a lower temperature, molecules collide less often and fewer collisions have at least the activation energy, so the cells' enzyme reactions run more slowly.",
+  "wrong": [
+   "At a lower temperature, molecules collide less often, but the fraction of collisions with enough energy stays the same.",
+   "Cooling raises the activation energy of the cells' reactions.",
+   "Cooling destroys the enzymes, so the cells' reactions stop."
+  ],
+  "explanation": "Cooler: fewer collisions, and fewer of them with at least Ea, so metabolism slows.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-009",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 1,
+  "calc": 0,
+  "q": "A steel nail held in a flame only glows, but a pad of fine steel wool of the same mass burns with bright sparks. Why?",
+  "key": "The thin fibers of steel wool have much more surface area, so many more iron atoms can collide with O2.",
+  "wrong": [
+   "Steel wool is made of a different element than the nail.",
+   "The flame is hotter around steel wool than around a nail.",
+   "Steel wool contains a catalyst that the nail lacks."
+  ],
+  "explanation": "Fine fibers = more surface area = more collisions with O2.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-010",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 1,
+  "calc": 0,
+  "q": "Which statement about a catalyst is true?",
+  "key": "It speeds up a reaction by providing a path with a lower activation energy, and it is not used up.",
+  "wrong": [
+   "It speeds up a reaction by raising the temperature of the mixture.",
+   "It is used up as the reaction runs, so more must keep being added.",
+   "It makes a reaction release more heat (a more negative &Delta;H)."
+  ],
+  "explanation": "A lower Ea, and not used up; &Delta;H is unchanged.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-011",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "People who are lactose intolerant make too little of the enzyme lactase, so lactose from milk is broken down too slowly in the small intestine. How does lactase speed up this breakdown?",
+  "key": "It binds lactose in the right orientation and gives a reaction path with a lower activation energy.",
+  "wrong": [
+   "It raises the temperature of the small intestine.",
+   "It is used up as it breaks down each lactose molecule.",
+   "It changes &Delta;H so the reaction releases more energy."
+  ],
+  "explanation": "Lactase is a catalyst: the right orientation and a lower Ea.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-012",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "The table shows the relative rate of a reaction catalyzed by a human enzyme at several temperatures. Why does the rate fall above 37 °C?",
+  "key": "The enzyme begins to change shape (denature), so it catalyzes the reaction less well.",
+  "wrong": [
+   "Higher temperatures always make reactions slower.",
+   "Above 37 °C the molecules collide less often.",
+   "The activation energy of every reaction rises above 37 °C."
+  ],
+  "explanation": "The rate peaks at 37 °C (1.00), then falls: the enzyme denatures.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c13-013",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "Magnesium ribbon reacts with hydrochloric acid:Mg(s) + 2 HCl(aq) &rarr; MgCl2(aq) + H2(g)Which change would make the reaction faster?",
+  "key": "Cutting the ribbon into small pieces",
+  "wrong": [
+   "Diluting the acid with water",
+   "Cooling the acid in an ice bath",
+   "Using one single thick strip of the same mass"
+  ],
+  "explanation": "More surface area: cutting the ribbon into small pieces speeds the reaction.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-014",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "At the same temperature, reaction A has Ea = 24 kJ and reaction B has Ea = 96 kJ. Which statement is correct?",
+  "key": "Reaction A is faster, because a larger fraction of its collisions have at least its activation energy.",
+  "wrong": [
+   "Reaction B is faster, because a higher activation energy releases more energy.",
+   "They have the same rate, because the temperature is the same.",
+   "Reaction B is faster, because its molecules have more energy."
+  ],
+  "explanation": "Lower Ea (24 kJ) &rarr; reaction A is faster.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-015",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 1,
+  "calc": 0,
+  "q": "A match does not light while it sits in the box, but it bursts into flame when it is struck against the strip. What does striking it supply?",
+  "key": "Energy from friction, so some collisions reach the activation energy",
+  "wrong": [
+   "A catalyst that is used up as the match burns",
+   "Oxygen, which is not otherwise in contact with the match head",
+   "A change in &Delta;H that makes the reaction exothermic"
+  ],
+  "explanation": "Striking supplies the activation energy.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-016",
+  "sub": "ch13-rates",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "A blood sample is cooled from 37 °C to 27 °C. Using the rule of thumb that many reaction rates about double for every 10 °C rise, about how fast do the sample's enzyme-catalyzed reactions run at 27 °C compared with 37 °C?",
+  "key": "About half as fast",
+  "wrong": [
+   "About twice as fast",
+   "About the same",
+   "About one-tenth as fast"
+  ],
+  "explanation": "One 10 °C step cooler &rarr; about half as fast.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-017",
+  "sub": "ch13-dynamic",
+  "topic": "equilibrium",
+  "d": 1,
+  "calc": 0,
+  "q": "For a reaction at chemical equilibrium, how does the rate of the forward reaction compare with the rate of the reverse reaction?",
+  "key": "The two rates are equal, and neither one is zero.",
+  "wrong": [
+   "Both rates are zero, because the reaction has stopped.",
+   "The forward rate is larger, because products are still forming.",
+   "The reverse rate is larger, because products are breaking down."
+  ],
+  "explanation": "At equilibrium the rates are equal, and not zero.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-018",
+  "sub": "ch13-dynamic",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "A sealed flask holds a reaction at a constant temperature. [A] stays at 0.32 M and [B] stays at 0.68 M for hours. A student says the system cannot be at equilibrium because the concentrations are not equal. Which response is correct?",
+  "key": "It is at equilibrium: the concentrations are constant, and they do not have to be equal.",
+  "wrong": [
+   "The student is right: at equilibrium the two concentrations must be equal.",
+   "It is at equilibrium only because the reactions have stopped.",
+   "The student is right: equilibrium is reached only when both reactions stop."
+  ],
+  "explanation": "Constant, not equal: it is at equilibrium.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-019",
+  "sub": "ch13-dynamic",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "The graph shows [A] and [B] over time for the reaction A &rlarr; B in a sealed flask that started with only A. When is equilibrium first reached?",
+  "key": "At about 50 s, when both curves become flat",
+  "wrong": [
+   "At about 22 s, where the two curves cross",
+   "At 0 s, when the reaction starts",
+   "At 100 s, when the reactions stop"
+  ],
+  "explanation": "Both lines are flat from about 50 s on: equilibrium at about 50 s.",
+  "has_figure": [
+   "plot"
+  ]
+ },
+ {
+  "id": "c13-020",
+  "sub": "ch13-dynamic",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "Phosgene forms in a sealed flask:CO(g) + Cl2(g) &rlarr; COCl2(g)The [COCl2] readings were 0 M at 0 min, 0.0140 M at 5 min, 0.0215 M at 10 min, 0.0238 M at 15 min, 0.0238 M at 20 min, and 0.0238 M at 25 min. By which reading had the system reached equilibrium?",
+  "key": "15 min",
+  "wrong": [
+   "10 min",
+   "25 min",
+   "0 min"
+  ],
+  "explanation": "[COCl2] is 0.0238 M from 15 min on: by 15 min.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-021",
+  "sub": "ch13-dynamic",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "A sealed flask starts with only H2 and Br2, which react:H2(g) + Br2(g) &rlarr; 2 HBr(g)What happens to the forward and reverse rates as the system approaches equilibrium?",
+  "key": "The forward rate falls and the reverse rate rises until they are equal.",
+  "wrong": [
+   "The forward rate rises and the reverse rate falls until they are equal.",
+   "Both rates fall until they reach zero.",
+   "Both rates stay the same the whole time."
+  ],
+  "explanation": "Forward falls, reverse rises, until they are equal.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-022",
+  "sub": "ch13-dynamic",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "A sealed flask at a fixed temperature starts with only COCl2 gas. What happens?CO(g) + Cl2(g) &rlarr; COCl2(g)",
+  "key": "Some COCl2 breaks down until the forward and reverse rates are equal, giving a mixture of all three gases.",
+  "wrong": [
+   "Nothing happens, because equilibrium can be reached only by starting from the reactants.",
+   "All of the COCl2 breaks down into CO and Cl2.",
+   "It reaches a mixture that has a different K than a mixture made from CO and Cl2."
+  ],
+  "explanation": "Partial breakdown to an equilibrium mixture of all three gases, with the same K.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-023",
+  "sub": "ch13-dynamic",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "Why does an open glass of soda go flat instead of reaching an equilibrium between dissolved and gaseous CO2?CO2(aq) &rlarr; CO2(g)",
+  "key": "CO2 gas escapes from the open glass, so the reverse process cannot keep up; equilibrium needs a closed system.",
+  "wrong": [
+   "Gases cannot take part in an equilibrium.",
+   "The forward and reverse rates are equal, so all of the CO2 leaves.",
+   "Dissolving CO2 is not a reversible process."
+  ],
+  "explanation": "The gas escapes: equilibrium needs a closed system.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-024",
+  "sub": "ch13-dynamic",
+  "topic": "equilibrium",
+  "d": 3,
+  "calc": 0,
+  "q": "A chemist swaps a tiny fraction of the CO in an equilibrium mixture for CO made with carbon-14, keeping [CO] the same.CO(g) + Cl2(g) &rlarr; COCl2(g)Later, carbon-14 shows up in COCl2 molecules, but no concentration ever changes. What does this show?",
+  "key": "Both reactions are still running at equal rates, so labeled carbon atoms move into COCl2 and back out.",
+  "wrong": [
+   "The reaction had stopped, and adding the labeled CO restarted it in the forward direction only.",
+   "The forward rate is faster than the reverse rate at equilibrium.",
+   "Carbon-14 is a catalyst that makes new COCl2."
+  ],
+  "explanation": "The label spreads with no net change: both reactions run at equal rates.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-025",
+  "sub": "ch13-dynamic",
+  "topic": "equilibrium",
+  "d": 1,
+  "calc": 0,
+  "q": "Which situation is most like a dynamic equilibrium?",
+  "key": "A parking garage where cars enter and leave at the same rate, so the number inside stays the same",
+  "wrong": [
+   "A parking garage that has closed for the night, so no cars move at all",
+   "A parking garage that keeps filling up all morning",
+   "A parking garage with exactly as many cars inside as on the street outside"
+  ],
+  "explanation": "Cars entering and leaving at the same rate.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-026",
+  "sub": "ch13-dynamic",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "Write the reverse reaction for2 H2S(g) &rlarr; 2 H2(g) + S2(g)",
+  "key": "2 H2(g) + S2(g) &rarr; 2 H2S(g)",
+  "wrong": [
+   "2 H2S(g) &rarr; 2 H2(g) + S2(g)",
+   "4 H2(g) + 2 S2(g) &rarr; 4 H2S(g)",
+   "2 H2(g) + S2(s) &rarr; 2 H2S(g)"
+  ],
+  "explanation": "Reverse: 2 H2(g) + S2(g) &rarr; 2 H2S(g).",
+  "has_figure": []
+ },
+ {
+  "id": "c13-027",
+  "sub": "ch13-dynamic",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "A student writes, &ldquo;At equilibrium, the forward and reverse rates are both zero.&rdquo; What is wrong with this statement?",
+  "key": "Both reactions keep running; the rates are equal, not zero.",
+  "wrong": [
+   "Nothing; at equilibrium the reactions stop, so both rates are zero.",
+   "Only the reverse rate is zero at equilibrium.",
+   "Only the forward rate is zero at equilibrium."
+  ],
+  "explanation": "The rates are equal, not zero.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-028",
+  "sub": "ch13-dynamic",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "At equilibrium, a reaction mixture contains far more product than reactant. Which statement is true?",
+  "key": "The forward and reverse rates are equal; the equilibrium mixture of this reaction simply favors products.",
+  "wrong": [
+   "The forward rate is faster than the reverse rate, which is why there is more product.",
+   "The reverse reaction has stopped, so product builds up.",
+   "The system will not be at equilibrium until the amounts become equal."
+  ],
+  "explanation": "Equal rates; this reaction just favors products.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-029",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "Write the equilibrium constant expression for2 NO(g) + O2(g) &rlarr; 2 NO2(g)",
+  "key": "K = [NO2]2 / ([NO]2[O2])",
+  "wrong": [
+   "K = [NO]2[O2] / [NO2]2",
+   "K = 2[NO2] / (2[NO][O2])",
+   "K = [NO2] / ([NO][O2])"
+  ],
+  "explanation": "K = [NO2]2 / ([NO]2[O2])",
+  "has_figure": []
+ },
+ {
+  "id": "c13-030",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 3,
+  "calc": 0,
+  "q": "Ammonia burns in oxygen:4 NH3(g) + 3 O2(g) &rlarr; 2 N2(g) + 6 H2O(g)Write the equilibrium constant expression.",
+  "key": "K = [N2]2[H2O]6 / ([NH3]4[O2]3)",
+  "wrong": [
+   "K = [N2]2 / ([NH3]4[O2]3)",
+   "K = [NH3]4[O2]3 / ([N2]2[H2O]6)",
+   "K = [N2][H2O] / ([NH3][O2])"
+  ],
+  "explanation": "Water is a gas, so it stays: K = [N2]2[H2O]6 / ([NH3]4[O2]3)",
+  "has_figure": []
+ },
+ {
+  "id": "c13-031",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 3,
+  "calc": 0,
+  "q": "Ammonium carbonate, the solid in old-fashioned smelling salts, breaks down in a sealed jar:(NH4)2CO3(s) &rlarr; 2 NH3(g) + CO2(g) + H2O(g)Write the equilibrium constant expression.",
+  "key": "K = [NH3]2[CO2][H2O]",
+  "wrong": [
+   "K = [NH3]2[CO2][H2O] / [(NH4)2CO3]",
+   "K = [NH3]2[CO2]",
+   "K = 2[NH3][CO2][H2O]"
+  ],
+  "explanation": "Leave out the solid: K = [NH3]2[CO2][H2O]",
+  "has_figure": []
+ },
+ {
+  "id": "c13-032",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 3,
+  "calc": 0,
+  "q": "Write the equilibrium constant expression for2 H2(g) + O2(g) &rlarr; 2 H2O(l)",
+  "key": "K = 1 / ([H2]2[O2])",
+  "wrong": [
+   "K = [H2O]2 / ([H2]2[O2])",
+   "K = [H2]2[O2]",
+   "K = 1 / ([H2][O2])"
+  ],
+  "explanation": "K = 1 / ([H2]2[O2])",
+  "has_figure": []
+ },
+ {
+  "id": "c13-033",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "Tin ore is reduced with hydrogen in a closed furnace:SnO2(s) + 2 H2(g) &rlarr; Sn(s) + 2 H2O(g)Write the equilibrium constant expression.",
+  "key": "K = [H2O]2 / [H2]2",
+  "wrong": [
+   "K = [Sn][H2O]2 / ([SnO2][H2]2)",
+   "K = [H2]2 / [H2O]2",
+   "K = 1 / [H2]2"
+  ],
+  "explanation": "K = [H2O]2 / [H2]2",
+  "has_figure": []
+ },
+ {
+  "id": "c13-034",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 3,
+  "calc": 0,
+  "q": "Which reaction has the equilibrium constant expression K = [CO2]?",
+  "key": "MgCO3(s) &rlarr; MgO(s) + CO2(g)",
+  "wrong": [
+   "C(s) + CO2(g) &rlarr; 2 CO(g)",
+   "CO2(aq) + H2O(l) &rlarr; H2CO3(aq)",
+   "MgO(s) + CO2(g) &rlarr; MgCO3(s)"
+  ],
+  "explanation": "Only the CO2 is not a solid, and it is a product: MgCO3(s) &rlarr; MgO(s) + CO2(g).",
+  "has_figure": []
+ },
+ {
+  "id": "c13-035",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "Each hemoglobin molecule can carry four O2 molecules:Hb(aq) + 4 O2(aq) &rlarr; Hb(O2)4(aq)Write the equilibrium constant expression.",
+  "key": "K = [Hb(O2)4] / ([Hb][O2]4)",
+  "wrong": [
+   "K = [Hb][O2]4 / [Hb(O2)4]",
+   "K = [Hb(O2)4] / (4[O2][Hb])",
+   "K = [Hb(O2)4] / ([Hb][O2])"
+  ],
+  "explanation": "K = [Hb(O2)4] / ([Hb][O2]4)",
+  "has_figure": []
+ },
+ {
+  "id": "c13-036",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 3,
+  "calc": 1,
+  "q": "Nitrosyl chloride breaks down:2 NOCl(g) &rlarr; 2 NO(g) + Cl2(g)At equilibrium, [NOCl] = 0.344 M, [NO] = 0.0613 M, and [Cl2] = 0.0307 M. Calculate K.",
+  "key": "9.75 &times; 10&minus;4",
+  "wrong": [
+   "1.03 &times; 103",
+   "0.00547",
+   "0.267"
+  ],
+  "explanation": "K = (0.0613)2(0.0307) / (0.344)2 = 9.75 &times; 10&minus;4. K &lt; 1, so reactants are favored.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-037",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 1,
+  "q": "Use the table of equilibrium concentrations to calculate K forH2(g) + Br2(g) &rlarr; 2 HBr(g)",
+  "key": "478",
+  "wrong": [
+   "0.00209",
+   "668",
+   "1.34 &times; 103"
+  ],
+  "explanation": "K = (0.715)2 / [(0.0269)(0.0398)] = 478. K &gt; 1, so HBr is favored.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c13-038",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 3,
+  "calc": 1,
+  "q": "Bromine monochloride partly breaks down:2 BrCl(g) &rlarr; Br2(g) + Cl2(g)At equilibrium, [BrCl] = 0.0846 M, [Br2] = 0.0213 M, and [Cl2] = 0.0220 M. Calculate K.",
+  "key": "0.0655",
+  "wrong": [
+   "15.3",
+   "0.00554",
+   "0.512"
+  ],
+  "explanation": "K = (0.0213)(0.0220) / (0.0846)2 = 0.0655. K &lt; 1, so BrCl is favored.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-039",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 1,
+  "q": "An equilibrium mixture forCO(g) + Cl2(g) &rlarr; COCl2(g)contains [CO] = 0.0155 M, [Cl2] = 0.0241 M, and [COCl2] = 0.145 M. Calculate K.",
+  "key": "388",
+  "wrong": [
+   "0.00258",
+   "3.66",
+   "5.42 &times; 10&minus;5"
+  ],
+  "explanation": "K = 0.145 / [(0.0155)(0.0241)] = 388. K &gt; 1, so COCl2 is favored.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-040",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 3,
+  "calc": 1,
+  "q": "Hot charcoal reacts with carbon dioxide in a closed vessel:C(s) + CO2(g) &rlarr; 2 CO(g)At equilibrium, [CO2] = 0.0371 M and [CO] = 0.115 M. Calculate K.",
+  "key": "0.356",
+  "wrong": [
+   "2.81",
+   "3.10",
+   "6.20"
+  ],
+  "explanation": "K = (0.115)2 / 0.0371 = 0.356.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-041",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 1,
+  "q": "At a certain temperature, K = 0.0384 for2 NO2(g) &rlarr; 2 NO(g) + O2(g)What is K for the reverse reaction,2 NO(g) + O2(g) &rlarr; 2 NO2(g)at the same temperature?",
+  "key": "26.0",
+  "wrong": [
+   "0.0384",
+   "&minus;0.0384",
+   "0.962"
+  ],
+  "explanation": "Kreverse = 1 / 0.0384 = 26.0.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-042",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 1,
+  "calc": 0,
+  "q": "At 25 °C, a reaction has K = 3.7 &times; 108. What does the equilibrium mixture contain?",
+  "key": "Mostly products, with very little reactant left",
+  "wrong": [
+   "Mostly reactants, with very little product formed",
+   "Sizable amounts of both reactants and products",
+   "Equal concentrations of reactants and products"
+  ],
+  "explanation": "K &#8811; 1: mostly products.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-043",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "The burning of glucose,C6H12O6(s) + 6 O2(g) &rlarr; 6 CO2(g) + 6 H2O(l)has an enormous K at room temperature, yet sugar sits in a bowl in air for years without burning. How can both be true?",
+  "key": "K tells how far a reaction goes, not how fast; the activation energy is high, so at room temperature the reaction is extremely slow.",
+  "wrong": [
+   "A large K means a fast reaction, so the sugar must be burning without anyone noticing.",
+   "Air does not contain enough oxygen for the reaction to start.",
+   "A large K means the mixture is already at equilibrium, so nothing can happen."
+  ],
+  "explanation": "Large K = how far, not how fast; a high Ea keeps the reaction slow.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-044",
+  "sub": "ch13-k",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "Four reactions have these K values at the same temperature. Which equilibrium mixture contains the largest share of reactants?",
+  "key": "K = 4.3 &times; 10&minus;7",
+  "wrong": [
+   "K = 0.019",
+   "K = 1.2",
+   "K = 6.8 &times; 105"
+  ],
+  "explanation": "Smallest K: K = 4.3 &times; 10&minus;7.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-045",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 1,
+  "calc": 0,
+  "q": "More O2 is added to this mixture at equilibrium:2 NO(g) + O2(g) &rlarr; 2 NO2(g)Which way does the equilibrium shift?",
+  "key": "Shifts right, away from the added O2",
+  "wrong": [
+   "Shifts left, toward the added O2",
+   "No shift, because K does not change",
+   "Shifts right, and K increases"
+  ],
+  "explanation": "O2 is a reactant: shifts right, away from it. K is unchanged.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-046",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "In a hydrogen plant, CO2 is removed from this equilibrium mixture by absorbing it into a solution:CO(g) + H2O(g) &rlarr; CO2(g) + H2(g)Which way does the equilibrium shift?",
+  "key": "Shifts right, toward the removed CO2",
+  "wrong": [
+   "Shifts left, away from the removed CO2",
+   "No shift, because CO2 is a product",
+   "Shifts left, and K decreases"
+  ],
+  "explanation": "CO2 is removed: shifts right, toward it, making more H2.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-047",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "Extra steam, H2O(g), is added to this mixture at equilibrium:4 NH3(g) + 5 O2(g) &rlarr; 4 NO(g) + 6 H2O(g)What happens?",
+  "key": "Shifts left, and [NH3] increases",
+  "wrong": [
+   "Shifts right, and [NH3] decreases",
+   "No shift, because water is never part of K",
+   "Shifts left, and [NH3] decreases"
+  ],
+  "explanation": "Steam is a gaseous product: shifts left, and [NH3] increases.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-048",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "Some Cl2 is removed from this mixture at equilibrium:CO(g) + Cl2(g) &rlarr; COCl2(g)What happens to [COCl2]?",
+  "key": "Shifts left, and [COCl2] decreases",
+  "wrong": [
+   "Shifts right, and [COCl2] increases",
+   "No shift, and [COCl2] does not change",
+   "Shifts left, and [COCl2] increases"
+  ],
+  "explanation": "Shifts left; [COCl2] decreases.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-049",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 3,
+  "calc": 0,
+  "q": "Some NO2 is added to this mixture at equilibrium:2 NO(g) + O2(g) &rlarr; 2 NO2(g)Once the new equilibrium is reached, what has happened to [O2]?",
+  "key": "[O2] increases",
+  "wrong": [
+   "[O2] decreases",
+   "[O2] does not change",
+   "[O2] increases, and K decreases"
+  ],
+  "explanation": "Add &rarr; away: shift left, so [O2] increases.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-050",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "More powdered carbon is added to this mixture at equilibrium:C(s) + CO2(g) &rlarr; 2 CO(g)Which way does the equilibrium shift?",
+  "key": "No shift, because a pure solid does not appear in K",
+  "wrong": [
+   "Shifts right, away from the added carbon",
+   "Shifts left, toward the added carbon",
+   "Shifts right, and K increases"
+  ],
+  "explanation": "Solid carbon is not in K: no shift.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-051",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "In this equilibrium, Cu(H2O)42+ is pale blue and Cu(NH3)42+ is deep blue:Cu(H2O)42+(aq) + 4 NH3(aq) &rlarr; Cu(NH3)42+(aq) + 4 H2O(l)More ammonia solution is added, raising [NH3]. What happens?",
+  "key": "Shifts right, and the solution turns a deeper blue",
+  "wrong": [
+   "Shifts left, and the solution turns paler blue",
+   "No shift, because water is a product",
+   "Shifts right, and the solution turns paler blue"
+  ],
+  "explanation": "Add NH3 &rarr; shifts right, deeper blue.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-052",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "For this reaction, &Delta;H = &minus;41.2 kJ:CO(g) + H2O(g) &rlarr; CO2(g) + H2(g)The mixture is heated. Which describes the shift and K?",
+  "key": "Shifts left, and K decreases",
+  "wrong": [
+   "Shifts right, and K increases",
+   "Shifts left, and K does not change",
+   "No shift, and K decreases"
+  ],
+  "explanation": "Exothermic: heat is a product. Heating &rarr; shifts left, K decreases.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-053",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "For this reaction, &Delta;H = +172.5 kJ:C(s) + CO2(g) &rlarr; 2 CO(g)The temperature is lowered. Which describes the shift and K?",
+  "key": "Shifts left, and K decreases",
+  "wrong": [
+   "Shifts right, and K increases",
+   "Shifts left, and K does not change",
+   "Shifts right, and K decreases"
+  ],
+  "explanation": "Heat is a reactant; cooling &rarr; shifts left, K decreases.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-054",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "A sealed glass vial holds liquid bromine and its brown vapor at equilibrium. Evaporating bromine is endothermic:Br2(l) &rlarr; Br2(g)The vial is placed in warm water. What happens?",
+  "key": "Shifts right, and K increases",
+  "wrong": [
+   "Shifts left, and K decreases",
+   "No shift, because a pure liquid is left out of K",
+   "Shifts right, and K does not change"
+  ],
+  "explanation": "Heat is a reactant: shifts right, K increases (more brown vapor).",
+  "has_figure": []
+ },
+ {
+  "id": "c13-055",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "ForCO(g) + H2O(g) &rlarr; CO2(g) + H2(g)&Delta;H = &minus;41.2 kJ. Which change alters the value of K?",
+  "key": "Raising the temperature",
+  "wrong": [
+   "Adding more CO",
+   "Decreasing the volume",
+   "Adding a catalyst"
+  ],
+  "explanation": "Only temperature changes K: raising the temperature.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-056",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 1,
+  "calc": 0,
+  "q": "ForH2O(l) &rlarr; H2O(g)&Delta;H = +44.0 kJ. How is heat written into this equation?",
+  "key": "heat + H2O(l) &rlarr; H2O(g), with heat as a reactant",
+  "wrong": [
+   "H2O(l) &rlarr; H2O(g) + heat, with heat as a product",
+   "Heat appears on both sides, because &Delta;H is the same in both directions",
+   "No heat term, because only exothermic changes have one"
+  ],
+  "explanation": "Endothermic: heat is a reactant.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-057",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "The volume of the container is decreased (the pressure is increased) for this mixture at equilibrium:4 NH3(g) + 5 O2(g) &rlarr; 4 NO(g) + 6 H2O(g)Which way does the equilibrium shift?",
+  "key": "Shifts left, toward the side with fewer moles of gas",
+  "wrong": [
+   "Shifts right, toward the side with more moles of gas",
+   "No shift, because the total number of atoms is the same on both sides",
+   "Shifts left, and K increases"
+  ],
+  "explanation": "9 mol vs 10 mol of gas: shifts left.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-058",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "The volume of the container is decreased for this mixture at equilibrium:H2(g) + Br2(g) &rlarr; 2 HBr(g)Which way does the equilibrium shift?",
+  "key": "No shift, because both sides have 2 moles of gas",
+  "wrong": [
+   "Shifts right, toward HBr",
+   "Shifts left, toward H2 and Br2",
+   "Shifts right, and K increases"
+  ],
+  "explanation": "2 mol = 2 mol of gas: no shift.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-059",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "The volume of the container is increased for this mixture at equilibrium:2 NO(g) + O2(g) &rlarr; 2 NO2(g)Which way does the equilibrium shift?",
+  "key": "Shifts left, toward the side with more moles of gas",
+  "wrong": [
+   "Shifts right, toward the side with fewer moles of gas",
+   "No shift, because only temperature changes an equilibrium",
+   "Shifts right, and K decreases"
+  ],
+  "explanation": "3 mol vs 2 mol of gas: shifts left.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-060",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 3,
+  "calc": 0,
+  "q": "The volume of the sealed container is decreased for this mixture at equilibrium:2 NaHCO3(s) &rlarr; Na2CO3(s) + H2O(g) + CO2(g)Which way does the equilibrium shift?",
+  "key": "Shifts left, because the right side has 2 moles of gas and the left side has none",
+  "wrong": [
+   "Shifts right, because the right side has more moles of substances in all",
+   "No shift, because the reaction contains solids",
+   "Shifts right, toward the side with more moles of gas"
+  ],
+  "explanation": "0 vs 2 mol of gas: shifts left.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-061",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "Argon gas is added to this mixture at equilibrium in a rigid container (constant volume):CO(g) + Cl2(g) &rlarr; COCl2(g)What happens?",
+  "key": "No shift, because the concentrations of CO, Cl2, and COCl2 do not change",
+  "wrong": [
+   "Shifts right, because the total pressure increased",
+   "Shifts left, because argon reacts with Cl2",
+   "Shifts right, toward the side with fewer moles of gas"
+  ],
+  "explanation": "Inert gas, constant volume: no shift.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-062",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "A chemist adds a platinum catalyst to a sealed vessel in which this mixture is at equilibrium:4 NH3(g) + 5 O2(g) &rlarr; 4 NO(g) + 6 H2O(g)What happens to the equilibrium?",
+  "key": "No shift: [NO] does not change, though a new mixture would reach equilibrium sooner",
+  "wrong": [
+   "Shifts right, and [NO] increases",
+   "Shifts left, and [NO] decreases",
+   "No shift, but K increases"
+  ],
+  "explanation": "No shift; a catalyst only gets a system to equilibrium faster.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-063",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "In the alveoli of the lungs, the O2 concentration is high. What happens to this equilibrium in the red blood cells passing through the lung capillaries?Hb(aq) + O2(aq) &rlarr; HbO2(aq)",
+  "key": "Shifts right, and hemoglobin loads O2 as HbO2",
+  "wrong": [
+   "Shifts left, and HbO2 releases O2 in the lungs",
+   "No shift, because hemoglobin is a catalyst",
+   "Shifts right, and [Hb] increases"
+  ],
+  "explanation": "O2 is high: shifts right, and hemoglobin loads O2.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-064",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "A family runs a gasoline generator in a closed garage, and the carbon monoxide in the air rises. What happens to this equilibrium in their blood?Hb(aq) + CO(aq) &rlarr; HbCO(aq)",
+  "key": "Shifts right, and [Hb] decreases, leaving less hemoglobin free to carry O2",
+  "wrong": [
+   "Shifts left, and [HbCO] decreases",
+   "No shift, because CO does not bind hemoglobin",
+   "Shifts right, and K increases"
+  ],
+  "explanation": "Add CO &rarr; shifts right; less free Hb is left for O2.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-065",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "During a panic attack, a patient breathes much faster than her body needs and blows off CO2. What happens to this equilibrium in her blood?CO2(aq) + H2O(l) &rlarr; H2CO3(aq) &rlarr; H+(aq) + HCO3&minus;(aq)",
+  "key": "Shifts left, [H+] decreases, and blood pH rises",
+  "wrong": [
+   "Shifts right, [H+] increases, and blood pH falls",
+   "Shifts left, [H+] decreases, and blood pH falls",
+   "No shift, because the kidneys keep [H+] fixed"
+  ],
+  "explanation": "Remove CO2 &rarr; shifts left, less H+, pH rises.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-066",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "A patient with severe COPD (chronic obstructive pulmonary disease) cannot breathe out CO2 fast enough, and his PaCO2 rises. What happens to this equilibrium in his blood?CO2(aq) + H2O(l) &rlarr; H2CO3(aq) &rlarr; H+(aq) + HCO3&minus;(aq)",
+  "key": "Shifts right, [H+] increases, and blood pH falls",
+  "wrong": [
+   "Shifts left, [H+] decreases, and blood pH rises",
+   "Shifts right, [H+] increases, and blood pH rises",
+   "No shift, because CO2 is a gas"
+  ],
+  "explanation": "CO2 builds up &rarr; shifts right, more H+, pH falls.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-067",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "A toothpaste supplies extra Ca2+ and phosphate ions to the tooth surface. What happens to the enamel equilibrium?Ca5(PO4)3OH(s) &rlarr; 5 Ca2+(aq) + 3 PO43&minus;(aq) + OH&minus;(aq)",
+  "key": "Shifts left, and enamel re-forms (remineralization)",
+  "wrong": [
+   "Shifts right, and enamel dissolves (demineralization)",
+   "No shift, because enamel is a solid",
+   "Shifts right, and [OH&minus;] increases"
+  ],
+  "explanation": "Add products &rarr; shifts left: remineralization.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-068",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 2,
+  "calc": 0,
+  "q": "A dental hygienist applies fluoride varnish, which raises [F&minus;] at the tooth surface. What happens to this equilibrium?Ca5(PO4)3OH(s) + F&minus;(aq) &rlarr; Ca5(PO4)3F(s) + OH&minus;(aq)",
+  "key": "Shifts right, and more acid-resistant fluorapatite forms",
+  "wrong": [
+   "Shifts left, and more hydroxyapatite forms",
+   "No shift, because both minerals are solids",
+   "Shifts right, and [OH&minus;] decreases"
+  ],
+  "explanation": "Add F&minus; &rarr; shifts right: more fluorapatite.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-069",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 3,
+  "calc": 0,
+  "q": "Which change shifts this enamel equilibrium toward demineralization (dissolving)?Ca5(PO4)3OH(s) &rlarr; 5 Ca2+(aq) + 3 PO43&minus;(aq) + OH&minus;(aq)",
+  "key": "Acid from plaque bacteria removing OH&minus; ions",
+  "wrong": [
+   "Saliva adding Ca2+ ions",
+   "Saliva adding phosphate ions",
+   "A remineralizing paste adding Ca2+ and phosphate ions"
+  ],
+  "explanation": "Removing a product shifts right: acid removing OH&minus;.",
+  "has_figure": []
+ },
+ {
+  "id": "c13-070",
+  "sub": "ch13-lechat",
+  "topic": "equilibrium",
+  "d": 3,
+  "calc": 0,
+  "q": "Ammonia plants run the exothermic Haber process,N2(g) + 3 H2(g) &rlarr; 2 NH3(g)at about 400&ndash;450 °C, even though a lower temperature would give more NH3 at equilibrium. Why?",
+  "key": "At a low temperature the reaction is far too slow, so a higher temperature is used to make NH3 at a useful rate",
+  "wrong": [
+   "A low temperature would lower K and give less NH3",
+   "A high temperature shifts the equilibrium toward NH3",
+   "A high temperature lets the iron catalyst shift the equilibrium toward NH3"
+  ],
+  "explanation": "Equilibrium favors low T, but the rate would be far too slow; plants compromise.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-001",
+  "sub": "ch14-radiation",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "R&ouml;ntgen's X-rays (1895) came from a glowing vacuum tube. What was new about the rays Henri Becquerel found in 1896?",
+  "key": "They came from a uranium salt by itself, with no tube and no electricity",
+  "wrong": [
+   "They could pass through black paper",
+   "They could be seen as a faint glow",
+   "They were stopped completely by paper"
+  ],
+  "explanation": "The uranium gave off rays on its own, with no tube and no electricity.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-002",
+  "sub": "ch14-radiation",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "Which pair of elements did Marie and Pierre Curie discover while studying radioactive ores?",
+  "key": "Polonium and radium",
+  "wrong": [
+   "Uranium and thorium",
+   "Radon and plutonium",
+   "Technetium and iodine"
+  ],
+  "explanation": "Marie Curie received her 1911 Nobel Prize in Chemistry for discovering polonium and radium.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-003",
+  "sub": "ch14-radiation",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "Strontium-90 is a radioisotope found in nuclear fallout. How many protons and neutrons are in one strontium-90 nucleus?",
+  "key": "38 protons and 52 neutrons",
+  "wrong": [
+   "52 protons and 38 neutrons",
+   "38 protons and 90 neutrons",
+   "90 protons and 38 neutrons"
+  ],
+  "explanation": "9038Sr: Z = 38 protons; 90 &minus; 38 = 52 neutrons.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-004",
+  "sub": "ch14-radiation",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "A vial of a radioactive tracer is labeled with its activity. Which unit could appear on that label?",
+  "key": "Becquerel (Bq), one decay per second",
+  "wrong": [
+   "Gray (Gy), joules absorbed per kilogram",
+   "Sievert (Sv), the biological dose",
+   "Rem, the older unit of biological dose"
+  ],
+  "explanation": "Activity of a source: becquerels (or curies).",
+  "has_figure": []
+ },
+ {
+  "id": "c14-005",
+  "sub": "ch14-radiation",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "A radiation therapy plan prescribes 2 Gy to a tumor in each session. What does a dose in grays describe?",
+  "key": "The energy absorbed per kilogram of tumor tissue (1 Gy = 1 J/kg)",
+  "wrong": [
+   "How many nuclei in the source decay each second",
+   "The absorbed dose adjusted for how harmful each kind of radiation is",
+   "How long each treatment session lasts"
+  ],
+  "explanation": "Absorbed dose: 1 Gy = 1 J of energy per kg of tissue.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-006",
+  "sub": "ch14-radiation",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "An indium-111 dose has an activity of 18.0 mCi. What is its activity in becquerels? (1 Ci = 3.7 &times; 1010 Bq, exact)",
+  "key": "6.66 &times; 108 Bq",
+  "wrong": [
+   "6.66 &times; 1011 Bq",
+   "4.86 &times; 10&minus;13 Bq",
+   "6.66 &times; 1014 Bq"
+  ],
+  "explanation": "18.0 mCi &times; (1 Ci / 1000 mCi) &times; (3.7 &times; 1010 Bq / 1 Ci) = 6.66 &times; 108 Bq.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-007",
+  "sub": "ch14-radiation",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "A radiation worker's dosimeter report from an older lab lists a dose of 0.250 rem. What is this dose in millisieverts? (1 Sv = 100 rem)",
+  "key": "2.50 mSv",
+  "wrong": [
+   "25.0 mSv",
+   "0.00250 mSv",
+   "250. mSv"
+  ],
+  "explanation": "0.250 rem = 0.00250 Sv = 2.50 mSv.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-008",
+  "sub": "ch14-radiation",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "How does a Geiger counter detect radiation?",
+  "key": "Radiation ionizes the gas in a sealed tube, and each burst of ions lets a pulse of current flow, counted as a click.",
+  "wrong": [
+   "Radiation makes a crystal give off flashes of light, which a light detector counts.",
+   "Radiation darkens a strip of photographic film over a month of use.",
+   "The counter measures the heat given off by the radioactive sample."
+  ],
+  "explanation": "A Geiger counter counts the current pulses made when radiation ionizes the gas in its tube.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-009",
+  "sub": "ch14-radiation",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "In a scintillation counter, what does the light detector actually count?",
+  "key": "Tiny flashes of light given off when radiation strikes a crystal such as sodium iodide",
+  "wrong": [
+   "Pulses of current from ions made in a gas-filled tube",
+   "Dark spots on a developed photographic film",
+   "The heat given off by the radioactive sample"
+  ],
+  "explanation": "A scintillation counter counts flashes of light from a crystal.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-010",
+  "sub": "ch14-radiation",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "A dental hygienist wears a dosimeter badge at the collar. What does the badge record?",
+  "key": "The total radiation dose the hygienist receives over weeks or months",
+  "wrong": [
+   "The activity of the X-ray machine in becquerels",
+   "Each X-ray image as it is taken, with a click",
+   "Which patients received the most radiation"
+  ],
+  "explanation": "A dosimeter records the wearer's total dose over time, reported in millisieverts.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-011",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "Which symbol represents a beta particle?",
+  "key": "0&minus;1e",
+  "wrong": [
+   "0+1e",
+   "42He",
+   "00&gamma;"
+  ],
+  "explanation": "Beta particle = electron = 0&minus;1e.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-012",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "What happens to the mass number (A) and atomic number (Z) of a nucleus that gives off an alpha particle?",
+  "key": "A decreases by 4, and Z decreases by 2",
+  "wrong": [
+   "A decreases by 2, and Z decreases by 2",
+   "A decreases by 4, and Z decreases by 1",
+   "A stays the same, and Z increases by 1"
+  ],
+  "explanation": "Alpha decay: A &minus; 4, Z &minus; 2.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-013",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Polonium-218, the first decay product of radon-222 in indoor air, is an alpha emitter. What is the missing product? 21884Po &rarr; ? + 42He",
+  "key": "21482Pb (lead-214)",
+  "wrong": [
+   "21483Bi (bismuth-214)",
+   "21682Pb (lead-216)",
+   "21484Po (polonium-214)"
+  ],
+  "explanation": "A: 218 = ? + 4, so 214. Z: 84 = ? + 2, so 82 (lead): 21482Pb.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-014",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Yttrium-90, used in tiny beads that treat liver tumors, is a beta emitter. What is the missing product? 9039Y &rarr; ? + 0&minus;1e",
+  "key": "9040Zr (zirconium-90)",
+  "wrong": [
+   "9038Sr (strontium-90)",
+   "8939Y (yttrium-89)",
+   "8940Zr (zirconium-89)"
+  ],
+  "explanation": "A: 90. Z: 39 + 1 = 40 (zirconium): 9040Zr. Beta decay moves one place to the right.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-015",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Sodium-22 is used as a small source to check PET scanners. Identify the missing particle: 2211Na &rarr; 2210Ne + ?",
+  "key": "0+1e, a positron",
+  "wrong": [
+   "0&minus;1e, a beta particle",
+   "42He, an alpha particle",
+   "00&gamma;, a gamma ray"
+  ],
+  "explanation": "A: 22 = 22 + 0. Z: 11 = 10 + 1. The particle is a positron, 0+1e.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-016",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 3,
+  "calc": 0,
+  "q": "Iodine-123, used for thyroid imaging, decays by electron capture. What is the product? 12353I + 0&minus;1e &rarr; ?",
+  "key": "12352Te (tellurium-123)",
+  "wrong": [
+   "12354Xe (xenon-123)",
+   "12252Te (tellurium-122)",
+   "12353I (iodine-123, unchanged)"
+  ],
+  "explanation": "A: 123 + 0 = 123. Z: 53 &minus; 1 = 52 (tellurium): 12352Te.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-017",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Krypton-81m, a gas used in some lung ventilation images, gives off a gamma ray. What is the missing product? 81m36Kr &rarr; ? + 00&gamma;",
+  "key": "8136Kr (krypton-81)",
+  "wrong": [
+   "8135Br (bromine-81)",
+   "8137Rb (rubidium-81)",
+   "7736Kr (krypton-77)"
+  ],
+  "explanation": "A and Z stay the same; only the extra energy leaves: 8136Kr.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-018",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 3,
+  "calc": 0,
+  "q": "Iodine-123 is made in a cyclotron by hitting tellurium-124 with protons; two neutrons come out. Complete the equation: 12452Te + 11H &rarr; ? + 2 10n",
+  "key": "12353I (iodine-123)",
+  "wrong": [
+   "12453I (iodine-124)",
+   "12553I (iodine-125)",
+   "12352Te (tellurium-123)"
+  ],
+  "explanation": "A: 124 + 1 = 125 = ? + 2, so 123. Z: 52 + 1 = 53 = ? + 0, so 53: 12353I.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-019",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 3,
+  "calc": 0,
+  "q": "In 1919, Ernest Rutherford made the first artificial transmutation by hitting nitrogen-14 with alpha particles. Complete the equation: 147N + 42He &rarr; ? + 11H",
+  "key": "178O (oxygen-17)",
+  "wrong": [
+   "188O (oxygen-18)",
+   "189F (fluorine-18)",
+   "177N (nitrogen-17)"
+  ],
+  "explanation": "A: 14 + 4 = 18 = ? + 1, so 17. Z: 7 + 2 = 9 = ? + 1, so 8: 178O.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-020",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "Chlorine-36 helps date very old groundwater. What kind of decay is this? 3617Cl &rarr; 3618Ar + 0&minus;1e",
+  "key": "Beta decay",
+  "wrong": [
+   "Positron emission",
+   "Alpha decay",
+   "Electron capture"
+  ],
+  "explanation": "The product 0&minus;1e and Z + 1 with A unchanged: beta decay.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-021",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Uranium-234 is an alpha emitter found in groundwater in parts of the Central Valley. Which nuclear equation is balanced?",
+  "key": "23492U &rarr; 23090Th + 42He",
+  "wrong": [
+   "23492U &rarr; 23290Th + 42He",
+   "23492U &rarr; 23091Pa + 42He",
+   "23492U &rarr; 23088Ra + 42He"
+  ],
+  "explanation": "Only 23492U &rarr; 23090Th + 42He balances: 230 + 4 = 234 and 90 + 2 = 92.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-022",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 3,
+  "calc": 0,
+  "q": "Radium-224 forms when a parent nucleus gives off an alpha particle. What is the parent? ? &rarr; 22488Ra + 42He",
+  "key": "22890Th (thorium-228)",
+  "wrong": [
+   "22086Rn (radon-220)",
+   "22889Ac (actinium-228)",
+   "22888Ra (radium-228)"
+  ],
+  "explanation": "A: 224 + 4 = 228. Z: 88 + 2 = 90 (thorium): 22890Th.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-023",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Xenon-133, a gas used in some lung ventilation scans, is a beta emitter. What is the product? 13354Xe &rarr; ? + 0&minus;1e",
+  "key": "13355Cs (cesium-133)",
+  "wrong": [
+   "13353I (iodine-133)",
+   "13354Xe (xenon-133, unchanged)",
+   "12952Te (tellurium-129)"
+  ],
+  "explanation": "A: 133. Z: 54 + 1 = 55 (cesium): 13355Cs.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-024",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "Which kind of radiation is the most penetrating?",
+  "key": "Gamma rays",
+  "wrong": [
+   "Alpha particles",
+   "Beta particles",
+   "All three penetrate equally"
+  ],
+  "explanation": "Penetrating power: gamma &gt; beta &gt; alpha. Gamma rays.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-025",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "A kind of radiation makes the most ions per centimeter of its path through tissue, but a sheet of paper stops it. Which radiation is it?",
+  "key": "Alpha particles",
+  "wrong": [
+   "Gamma rays",
+   "Beta particles",
+   "X-rays"
+  ],
+  "explanation": "Most ionizing, stopped by paper: alpha particles.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-026",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 3,
+  "calc": 0,
+  "q": "A student places different shields between a sealed radioactive source and a Geiger counter (table). Which kind of radiation does the source give off?",
+  "key": "Beta particles only",
+  "wrong": [
+   "Alpha particles only",
+   "Gamma rays only",
+   "Alpha particles and gamma rays"
+  ],
+  "explanation": "No drop with paper, a drop to background with aluminum: beta particles.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c14-027",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Which statement describes what happens inside the nucleus during positron emission?",
+  "key": "A proton changes into a neutron, so Z decreases by 1 and A stays the same.",
+  "wrong": [
+   "A neutron changes into a proton, so Z increases by 1 and A stays the same.",
+   "The nucleus captures an inner electron, so A decreases by 1.",
+   "The nucleus releases only energy, so A and Z stay the same."
+  ],
+  "explanation": "Positron emission: proton &rarr; neutron + positron; Z &minus; 1, A unchanged.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-028",
+  "sub": "ch14-decay",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Outside the body, which kind of radiation is the biggest concern for a nuclear medicine technologist, and why?",
+  "key": "Gamma rays, because they pass through the body and reach internal organs",
+  "wrong": [
+   "Alpha particles, because they are the most ionizing",
+   "Beta particles, because they are the most penetrating",
+   "Alpha particles, because they are the most penetrating"
+  ],
+  "explanation": "Outside the body: gamma rays, the most penetrating.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-029",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "What is the half-life of a radioisotope?",
+  "key": "The time it takes for half of the radioactive nuclei in a sample to decay",
+  "wrong": [
+   "Half of the time it takes for a sample to decay completely",
+   "The time it takes for a sample to lose half of its mass number",
+   "The age at which a radioisotope becomes stable"
+  ],
+  "explanation": "Half-life = the time for half of the radioactive nuclei to decay.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-030",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "The half-life of cobalt-60 is known very precisely (5.27 years). Why can no one predict the moment one particular cobalt-60 nucleus will decay?",
+  "key": "Each nucleus decays at a random moment; the half-life describes what a very large number of nuclei do.",
+  "wrong": [
+   "Each nucleus decays exactly 5.27 years after it forms, but no one knows when it formed.",
+   "A single nucleus decays faster than a large sample does.",
+   "The half-life changes with the temperature of the source."
+  ],
+  "explanation": "Decay is random for each nucleus; half-life is a property of large numbers of nuclei.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-031",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 1,
+  "q": "What percent of a radioisotope sample remains after 3 half-lives?",
+  "key": "12.5%",
+  "wrong": [
+   "16.7%",
+   "6.25%",
+   "87.5%"
+  ],
+  "explanation": "100 &times; (1/2)3 = 12.5%.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-032",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "Sodium-24 (half-life 15.0 h) is used to trace leaks in water pipes. A sample contains 6.40 mg of sodium-24. How much remains after 45.0 h?",
+  "key": "0.800 mg",
+  "wrong": [
+   "1.07 mg",
+   "9.60 mg",
+   "0.400 mg"
+  ],
+  "explanation": "n = 3: 6.40 &rarr; 3.20 &rarr; 1.60 &rarr; 0.800 mg = 0.800 mg.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-033",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "Iodine-131 (half-life 8.0 days) is used to treat an overactive thyroid. A capsule contains 9.60 mCi of iodine-131. What activity remains after 32 days?",
+  "key": "0.600 mCi",
+  "wrong": [
+   "0.300 mCi",
+   "1.20 mCi",
+   "19.2 mCi"
+  ],
+  "explanation": "n = 4: 9.60 &rarr; 4.80 &rarr; 2.40 &rarr; 1.20 &rarr; 0.600 mCi = 0.600 mCi.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-034",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "Samarium-153 (half-life 46.3 h) relieves bone pain from cancer that has spread to bone. A dose has an activity of 2.40 GBq. What is its activity 138.9 h later?",
+  "key": "0.300 GBq",
+  "wrong": [
+   "0.600 GBq",
+   "0.150 GBq",
+   "0.400 GBq"
+  ],
+  "explanation": "n = 3: 2.40 &rarr; 1.20 &rarr; 0.600 &rarr; 0.300 GBq = 0.300 GBq.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-035",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "Phosphorus-32 (half-life 14.3 days) labels DNA in biology research. How long does it take for a 24.0 &mu;Ci sample to decay to 3.00 &mu;Ci?",
+  "key": "42.9 days",
+  "wrong": [
+   "57.2 days",
+   "114 days",
+   "4.77 days"
+  ],
+  "explanation": "3 half-lives &times; 14.3 days = 42.9 days.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-036",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 3,
+  "calc": 1,
+  "q": "A dose of fluorine-18 FDG (half-life 110 min) has an activity of 14.0 mCi when it leaves the cyclotron. What is its activity 5.5 h later?",
+  "key": "1.75 mCi",
+  "wrong": [
+   "13.5 mCi",
+   "0.875 mCi",
+   "2.33 mCi"
+  ],
+  "explanation": "330 min &divide; 110 min = 3: 14.0 &rarr; 7.00 &rarr; 3.50 &rarr; 1.75 mCi = 1.75 mCi.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-037",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "The table shows the mass of an unknown radioisotope in a sample over time. What is its half-life?",
+  "key": "11.5 h",
+  "wrong": [
+   "34.5 h",
+   "23.0 h",
+   "5.75 h"
+  ],
+  "explanation": "64.0 mg &rarr; 32.0 mg takes 11.5 h (and each later interval of 11.5 h halves it again).",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c14-038",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "A 9.60 mg sample of a radioisotope decays to 1.20 mg in 21.6 days. What is the half-life?",
+  "key": "7.20 days",
+  "wrong": [
+   "21.6 days",
+   "5.40 days",
+   "2.70 days"
+  ],
+  "explanation": "n = 3: 21.6 &divide; 3 = 7.20 days.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-039",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 3,
+  "calc": 1,
+  "q": "Gallium-67 (half-life 3.26 days) is used to image infections. A patient's dose is measured 9.78 days after it was made, and 0.650 mCi remains. What was the activity when it was made?",
+  "key": "5.20 mCi",
+  "wrong": [
+   "2.60 mCi",
+   "10.4 mCi",
+   "1.95 mCi"
+  ],
+  "explanation": "n = 3: 0.650 &times; 8 = 5.20 mCi.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-040",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "Cobalt-60 (half-life 5.27 years) is used to sterilize medical supplies. What percent of a cobalt-60 source remains after 10.54 years?",
+  "key": "25%",
+  "wrong": [
+   "50%",
+   "12.5%",
+   "75%"
+  ],
+  "explanation": "n = 2: 100% &rarr; 50% &rarr; 25%.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-041",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "Why must a PET center use fluorine-18 FDG within a few hours of making it?",
+  "key": "Its half-life is only 110 min, so most of it decays within a few hours.",
+  "wrong": [
+   "Its activity rises over time, so a later dose would be too strong.",
+   "Its half-life gets shorter as the sample gets older.",
+   "It loses its fluorine atoms to the air, even though its nuclei do not decay."
+  ],
+  "explanation": "Fluorine-18's 110 min half-life is short.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-042",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "How many hours after a technetium-99m dose is prepared does only 1/8 of its activity remain? (half-life 6.0 h)",
+  "key": "18 h",
+  "wrong": [
+   "48 h",
+   "24 h",
+   "2.0 h"
+  ],
+  "explanation": "n = 3: 3 &times; 6.0 h = 18 h.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-043",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "The graph shows the activity of a radioactive sample over time. What is the half-life of this isotope?",
+  "key": "5 h",
+  "wrong": [
+   "10 h",
+   "20 h",
+   "40 h"
+  ],
+  "explanation": "80 mCi &rarr; 40 mCi at 5 h.",
+  "has_figure": [
+   "plot"
+  ]
+ },
+ {
+  "id": "c14-044",
+  "sub": "ch14-halflife",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "A student says: &ldquo;After two half-lives a 6.0 mg sample is completely gone, because half of it decays each half-life.&rdquo; What is wrong with this reasoning?",
+  "key": "Each half-life halves the amount that is left, so 1.5 mg remains after two half-lives.",
+  "wrong": [
+   "Nothing is wrong; 3.0 mg decays in each half-life, so none is left.",
+   "The half-life gets shorter as the sample gets smaller, so the sample is gone even sooner.",
+   "Half of the sample decays only in the first half-life; after that it stops decaying."
+  ],
+  "explanation": "6.0 &rarr; 3.0 &rarr; 1.5 mg after two half-lives.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-045",
+  "sub": "ch14-dating",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "How is carbon-14 made in the upper atmosphere?",
+  "key": "Neutrons from cosmic rays hit nitrogen-14 nuclei: 147N + 10n &rarr; 146C + 11H",
+  "wrong": [
+   "Carbon-12 atoms absorb two neutrons from sunlight: 126C + 2 10n &rarr; 146C",
+   "Carbon-14 is left over from when Earth formed and has not decayed yet",
+   "Plants make carbon-14 during photosynthesis"
+  ],
+  "explanation": "147N + 10n &rarr; 146C + 11H, driven by cosmic-ray neutrons.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-046",
+  "sub": "ch14-dating",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Why does the carbon in your own body have about the same carbon-14 to carbon-12 ratio as the CO2 in the air?",
+  "key": "Your food chain starts with plants that take in CO2 from the air, and you keep replacing your body's carbon as you eat.",
+  "wrong": [
+   "Your lungs absorb carbon-14 from the air and store it in your bones.",
+   "Your cells make carbon-14 from the nitrogen you breathe.",
+   "Carbon-14 does not decay inside a living body."
+  ],
+  "explanation": "Food chains start with photosynthesis, and eating keeps replacing your carbon.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-047",
+  "sub": "ch14-dating",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "An animal dies. What happens to the ratio of carbon-14 to carbon-12 in its bones over the next several thousand years?",
+  "key": "It decreases, because carbon-14 decays and is no longer replaced",
+  "wrong": [
+   "It increases, because carbon-14 builds up after death",
+   "It stays the same, because the bones keep exchanging carbon with the air",
+   "It drops to zero right away, because carbon-14 decays at death"
+  ],
+  "explanation": "Carbon-14 decays and is not replaced: the ratio decreases.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-048",
+  "sub": "ch14-dating",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "About what fraction of the carbon atoms in the atmosphere's CO2 are carbon-14?",
+  "key": "About one in a trillion",
+  "wrong": [
+   "About one in two",
+   "About one in a hundred",
+   "None; carbon-14 forms only after an organism dies"
+  ],
+  "explanation": "About one in a trillion.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-049",
+  "sub": "ch14-dating",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "Carbon from living plants gives 13.6 decays per minute per gram of carbon. Charcoal from an ancient campfire gives 3.40 decays per minute per gram. Estimate the charcoal's age. (carbon-14 half-life 5730 years)",
+  "key": "1.15 &times; 104 years",
+  "wrong": [
+   "2.29 &times; 104 years",
+   "1.43 &times; 103 years",
+   "1.72 &times; 104 years"
+  ],
+  "explanation": "n = 2: age = 2 &times; 5730 = 1.15 &times; 104 years.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-050",
+  "sub": "ch14-dating",
+  "topic": "nuclear",
+  "d": 3,
+  "calc": 1,
+  "q": "On one detector, carbon from living plants gives 12.8 counts per minute per gram of carbon, and carbon from a burned seed at an archaeological site gives 0.200 counts per minute per gram. Estimate the seed's age. (carbon-14 half-life 5730 years)",
+  "key": "3.44 &times; 104 years",
+  "wrong": [
+   "3.67 &times; 105 years",
+   "4.01 &times; 104 years",
+   "89.5 years"
+  ],
+  "explanation": "n = 6: 6 &times; 5730 = 3.44 &times; 104 years.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-051",
+  "sub": "ch14-dating",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "A cave painting has black lines drawn with charcoal and red areas painted with red ochre, a mineral (iron oxide). Which part can be dated with carbon-14?",
+  "key": "Only the charcoal lines, because charcoal is once-living wood",
+  "wrong": [
+   "Only the red ochre, because iron oxide holds carbon-14 from the air",
+   "Both, because everything in a cave has the same carbon-14 ratio",
+   "Neither, because pigments cannot contain carbon"
+  ],
+  "explanation": "Only once-living material can be dated: the charcoal.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-052",
+  "sub": "ch14-dating",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Why can radiocarbon dating not be used on a bone thought to be about 200,000 years old?",
+  "key": "After about 35 half-lives, far too little carbon-14 is left to measure.",
+  "wrong": [
+   "Bones contain no carbon.",
+   "Carbon-14 stops decaying after 50,000 years.",
+   "The half-life of carbon-14 is longer than 200,000 years."
+  ],
+  "explanation": "About 35 half-lives: too little carbon-14 remains to measure.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-053",
+  "sub": "ch14-dating",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "A geologist wants the age of a layer of volcanic rock thought to be about 2 million years old. Which isotope is the best choice?",
+  "key": "Potassium-40 (half-life 1.25 &times; 109 years)",
+  "wrong": [
+   "Carbon-14 (half-life 5730 years)",
+   "Hydrogen-3, tritium (half-life 12.3 years)",
+   "Iodine-131 (half-life 8.0 days)"
+  ],
+  "explanation": "Volcanic rock, millions of years: potassium-40.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-054",
+  "sub": "ch14-dating",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "Tritium (hydrogen-3, half-life 12.3 years) can check the age of a wine. A bottle has 1/4 of the tritium found in wine made this year (assume new wine has always had the same tritium level). About how old is the wine?",
+  "key": "24.6 years",
+  "wrong": [
+   "49.2 years",
+   "36.9 years",
+   "12.3 years"
+  ],
+  "explanation": "n = 2: 2 &times; 12.3 = 24.6 years.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-055",
+  "sub": "ch14-fission",
+  "topic": "nuclear",
+  "d": 3,
+  "calc": 0,
+  "q": "Complete this fission of uranium-235: 10n + 23592U &rarr; 14456Ba + ? + 3 10n",
+  "key": "8936Kr (krypton-89)",
+  "wrong": [
+   "9136Kr (krypton-91)",
+   "8836Kr (krypton-88)",
+   "8938Sr (strontium-89)"
+  ],
+  "explanation": "A: 236 &minus; 144 &minus; 3 = 89. Z: 92 &minus; 56 = 36: 8936Kr.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-056",
+  "sub": "ch14-fission",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "How many neutrons are released in this fission? 10n + 23592U &rarr; 14054Xe + 9438Sr + x 10n",
+  "key": "2",
+  "wrong": [
+   "3",
+   "1",
+   "4"
+  ],
+  "explanation": "236 &minus; 234 = 2 neutrons.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-057",
+  "sub": "ch14-fission",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "What makes a fission chain reaction possible?",
+  "key": "Each fission releases 2 or 3 neutrons, which can cause more fissions.",
+  "wrong": [
+   "Each fission releases a gamma ray, which splits the next nucleus.",
+   "Each fission joins two light nuclei, which then split again.",
+   "The control rods give off neutrons that keep the reaction going."
+  ],
+  "explanation": "Each fission releases more neutrons than it uses.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-058",
+  "sub": "ch14-fission",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "What is the critical mass of a fissionable material?",
+  "key": "The smallest amount that can keep a chain reaction going",
+  "wrong": [
+   "The mass of fuel used up by a reactor in one year",
+   "The mass lost and turned into energy in one fission",
+   "The largest amount that can be stored safely in one place"
+  ],
+  "explanation": "Critical mass = the least fuel that keeps a chain reaction going.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-059",
+  "sub": "ch14-fission",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Which material are a reactor's control rods made of, and why?",
+  "key": "Boron or cadmium, which absorb neutrons",
+  "wrong": [
+   "Uranium oxide, which supplies the fuel",
+   "Water, which slows the neutrons down",
+   "Lead, which stops gamma rays"
+  ],
+  "explanation": "Control rods: boron or cadmium, neutron absorbers.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-060",
+  "sub": "ch14-fission",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Why must spent fuel rods from a nuclear plant be stored for a very long time?",
+  "key": "They contain fission products, such as strontium-90 and cesium-137, and plutonium that stay radioactive for a long time.",
+  "wrong": [
+   "They contain carbon dioxide from burning uranium.",
+   "The uranium in them is still in a chain reaction.",
+   "They give off fusion products that are toxic."
+  ],
+  "explanation": "Long-lived radioactive fission products (and plutonium).",
+  "has_figure": []
+ },
+ {
+  "id": "c14-061",
+  "sub": "ch14-fission",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Per gram of fuel, how does the energy released by fusion compare with the energy released by fission?",
+  "key": "Fusion releases even more energy than fission",
+  "wrong": [
+   "Fusion releases less energy than fission",
+   "Fusion and fission release the same energy",
+   "Fusion absorbs energy instead of releasing it"
+  ],
+  "explanation": "Fusion releases even more energy per gram.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-062",
+  "sub": "ch14-fission",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Classify this reaction, which fusion researchers study: 21H + 32He &rarr; 42He + 11H",
+  "key": "Fusion",
+  "wrong": [
+   "Fission",
+   "Alpha decay",
+   "Electron capture"
+  ],
+  "explanation": "Two light nuclei join: fusion.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-063",
+  "sub": "ch14-health",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "How does ionizing radiation most often damage DNA inside a cell?",
+  "key": "It ionizes water, making free radicals such as &middot;OH that break bonds in DNA.",
+  "wrong": [
+   "It makes the cell radioactive, so the cell decays.",
+   "It heats the cell until its DNA melts.",
+   "It changes the carbon atoms in DNA into nitrogen atoms."
+  ],
+  "explanation": "Ionized water makes free radicals that break DNA.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-064",
+  "sub": "ch14-medicine",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Why can radiation be used to treat cancer?",
+  "key": "Cancer cells divide rapidly, so their damaged DNA is copied before it can be repaired.",
+  "wrong": [
+   "Radiation makes cancer cells radioactive, so they decay away.",
+   "Only cancer cells absorb radiation; healthy cells let it pass through.",
+   "Radiation heats a tumor until it melts."
+  ],
+  "explanation": "Cancer cells divide rapidly, so radiation damage hits them hardest.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-065",
+  "sub": "ch14-health",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Radon-222 seeps from the soil into a home's basement. In which part of the body does it do most of its damage, and why?",
+  "key": "The lungs: inhaled radon and its decay products give off alpha particles right next to living lung cells.",
+  "wrong": [
+   "The skin: its alpha particles are stopped there.",
+   "The bones: radon is taken up like calcium.",
+   "Every organ equally: radon gives off mostly gamma rays."
+  ],
+  "explanation": "The lungs: alpha particles are delivered right to lung cells.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-066",
+  "sub": "ch14-health",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "A patient who just received a tracer gives a dose rate of 48 &mu;Sv/h at 1.0 m. A technologist steps back to 4.0 m. What dose rate does she receive there?",
+  "key": "3.0 &mu;Sv/h",
+  "wrong": [
+   "12 &mu;Sv/h",
+   "6.0 &mu;Sv/h",
+   "24 &mu;Sv/h"
+  ],
+  "explanation": "48 &times; (1.0/4.0)2 = 48 &divide; 16 = 3.0 &mu;Sv/h.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-067",
+  "sub": "ch14-health",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "A nuclear medicine technologist steps back from a patient, works faster, and draws up doses behind a lead-glass shield. What principle is she following?",
+  "key": "ALARA: keep doses as low as reasonably achievable with time, distance, and shielding",
+  "wrong": [
+   "Critical mass: keep the amount of tracer below the critical mass",
+   "Half-life: wait 10 half-lives before going near any patient",
+   "Inverse ionization: stand closer so the radiation spreads out"
+  ],
+  "explanation": "ALARA, using time, distance, and shielding.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-068",
+  "sub": "ch14-medicine",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Why is fluorine-18 FDG useful in PET scans?",
+  "key": "Cells take it up like glucose, and each positron it gives off makes two gamma rays that the scanner detects.",
+  "wrong": [
+   "Its alpha particles leave the body and are detected by the scanner.",
+   "It has a half-life of several years, so one dose can be used for many scans.",
+   "It gives off X-rays from its nucleus."
+  ],
+  "explanation": "Taken up like glucose; positron &rarr; two gamma rays.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-069",
+  "sub": "ch14-medicine",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "Mateo Herrera's V/Q lung scan uses technetium-99m. Which pair of properties makes technetium-99m a good imaging tracer?",
+  "key": "It gives off gamma rays that leave the body, and its half-life is only 6.0 h.",
+  "wrong": [
+   "It gives off alpha particles that make sharp images, and its half-life is 6.0 days.",
+   "It gives off beta particles that stay in the lungs, and its half-life is many years.",
+   "It is not radioactive, so it is completely safe."
+  ],
+  "explanation": "Gamma rays out of the body, and a 6.0 h half-life.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-070",
+  "sub": "ch14-medicine",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Why is iodine-131 used to treat an overactive thyroid (Graves' disease)?",
+  "key": "The thyroid collects iodide to make its hormones, so iodine-131 concentrates there and its beta particles destroy nearby thyroid tissue.",
+  "wrong": [
+   "Iodine-131 gives off only gamma rays, which are absorbed only by the thyroid.",
+   "Iodine-131 is an alpha emitter that travels through the whole body.",
+   "Iodine-131 has a half-life of a few seconds, so it acts instantly."
+  ],
+  "explanation": "The thyroid concentrates iodine-131, and its beta particles act locally.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-071",
+  "sub": "ch14-medicine",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "Why are boxed, sealed surgical gloves sterilized with gamma rays rather than beta particles?",
+  "key": "Gamma rays penetrate the sealed boxes; beta particles would be stopped near the surface.",
+  "wrong": [
+   "Beta particles would make the gloves radioactive.",
+   "Gamma rays are more ionizing than beta particles.",
+   "Beta particles cannot damage bacterial DNA."
+  ],
+  "explanation": "Gamma rays penetrate the packaging.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-072",
+  "sub": "ch14-medicine",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 0,
+  "q": "How do X-rays differ from gamma rays?",
+  "key": "X-rays are made outside the nucleus, in an X-ray tube that can be switched off; gamma rays come from nuclei during decay.",
+  "wrong": [
+   "X-rays come from radioactive nuclei; gamma rays come from machines.",
+   "X-rays are particles with mass; gamma rays are light.",
+   "X-rays are not ionizing; gamma rays are."
+  ],
+  "explanation": "X-rays from a tube (outside the nucleus); gamma rays from decaying nuclei.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-073",
+  "sub": "ch14-health",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "For most people in the United States, which source gives the largest share of natural background radiation?",
+  "key": "Radon gas from uranium in rocks and soil, breathed into the lungs",
+  "wrong": [
+   "Nuclear power plants",
+   "Cosmic rays from space",
+   "Potassium-40 in food"
+  ],
+  "explanation": "Radon is the largest natural source of background radiation.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-074",
+  "sub": "ch14-health",
+  "topic": "nuclear",
+  "d": 2,
+  "calc": 1,
+  "q": "During a bone scan, a technologist stands 2.0 m from the patient, where the dose rate is 54 &mu;Sv/h. If she moves to 6.0 m, what dose rate does she receive?",
+  "key": "6.0 &mu;Sv/h",
+  "wrong": [
+   "18 &mu;Sv/h",
+   "27 &mu;Sv/h",
+   "9.0 &mu;Sv/h"
+  ],
+  "explanation": "54 &times; (2.0/6.0)2 = 54 &divide; 9 = 6.0 &mu;Sv/h.",
+  "has_figure": []
+ },
+ {
+  "id": "c14-075",
+  "sub": "ch14-health",
+  "topic": "nuclear",
+  "d": 1,
+  "calc": 0,
+  "q": "Which tissue is most sensitive to radiation damage?",
+  "key": "Bone marrow, because its cells divide rapidly to make blood cells",
+  "wrong": [
+   "Adult nerve cells in the brain",
+   "Adult muscle",
+   "Tooth enamel"
+  ],
+  "explanation": "Bone marrow: its rapidly dividing cells are the most sensitive.",
+  "has_figure": []
+ }
+]

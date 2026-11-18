@@ -1,0 +1,3448 @@
+[
+ {
+  "id": "c9-001",
+  "sub": "ch09-energy",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "Which of these is mainly kinetic energy?",
+  "key": "Blood flowing through an artery",
+  "wrong": [
+   "Glycogen stored in a liver cell",
+   "A fully charged defibrillator battery",
+   "Water held in Millerton Lake behind Friant Dam"
+  ],
+  "explanation": "Kinetic energy is energy of motion: flowing blood. The other three are stored (potential) energy.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-002",
+  "sub": "ch09-energy",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "An IV bag of dextrose (glucose) solution supplies energy to a patient. Before cells use the glucose, what kind of energy does it hold?",
+  "key": "Chemical potential energy, stored in the arrangement of its atoms and bonds",
+  "wrong": [
+   "Kinetic energy, because glucose molecules are always moving",
+   "Heat, because the bag is at room temperature",
+   "No energy until it reacts; the reaction creates the energy"
+  ],
+  "explanation": "Glucose holds chemical potential energy; respiration in cells releases it.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-003",
+  "sub": "ch09-energy",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "An air-activated hand warmer gets hot as iron powder inside reacts with oxygen. Which statement agrees with the law of conservation of energy?",
+  "key": "Chemical potential energy of the reactants becomes heat; the total energy stays the same.",
+  "wrong": [
+   "The reaction creates new energy, which is why the packet gets hot.",
+   "When the packet cools, its energy is destroyed.",
+   "The heat comes from the air, which loses all of its energy to the packet."
+  ],
+  "explanation": "The chemical potential energy becomes heat; total energy is conserved.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-004",
+  "sub": "ch09-energy",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "A cyclist eats a banana, then rides to the top of a hill and stops. Which sequence best describes the main energy changes?",
+  "key": "Chemical potential energy (food) &rarr; kinetic energy of motion &rarr; potential energy of position at the top, plus heat",
+  "wrong": [
+   "Kinetic energy (food) &rarr; chemical potential energy &rarr; kinetic energy at the top",
+   "Chemical potential energy (food) is used up and disappears as the cyclist climbs",
+   "Potential energy of position &rarr; chemical potential energy &rarr; heat"
+  ],
+  "explanation": "Chemical PE &rarr; kinetic energy &rarr; PE of position (+ heat). The total is conserved at every step.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-005",
+  "sub": "ch09-energy",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "One basin of water is at 15.0 °C and another is at 45.0 °C. Which statement is true?",
+  "key": "The water molecules at 45.0 °C have the higher average kinetic energy.",
+  "wrong": [
+   "The water molecules at 15.0 °C have the higher average kinetic energy.",
+   "Both have the same average kinetic energy, because both are water.",
+   "The molecules at 45.0 °C are larger, so they hold more energy."
+  ],
+  "explanation": "Higher temperature = higher average kinetic energy: the 45.0 °C water.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-006",
+  "sub": "ch09-energy",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "Ice melts at 0 °C. While it melts, the temperature stays at 0 °C even though heat keeps flowing in. What happens to the energy of the water molecules?",
+  "key": "Their potential energy rises as they move apart; their average kinetic energy stays the same.",
+  "wrong": [
+   "Their average kinetic energy rises, so they move faster.",
+   "Their potential energy falls as they move closer together.",
+   "The heat is destroyed, which is why the temperature does not change."
+  ],
+  "explanation": "On a plateau, heat raises potential energy (molecules move apart); kinetic energy and temperature stay constant.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-007",
+  "sub": "ch09-energy",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "A large pot of soup and a teaspoon of the same soup are both at 70 °C. Which statement is correct?",
+  "key": "They have the same average kinetic energy of particles, but the pot holds far more thermal energy and can release more heat.",
+  "wrong": [
+   "The pot has the higher temperature because it holds more soup.",
+   "The teaspoon's particles have the higher average kinetic energy because there are fewer of them.",
+   "They hold the same amount of thermal energy because they are at the same temperature."
+  ],
+  "explanation": "Same temperature, same average KE; the pot has more particles, so more total thermal energy.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-008",
+  "sub": "ch09-temp",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "A patient's temperature is 38.9 °C. What is it in degrees Fahrenheit?",
+  "key": "102.0 °F",
+  "wrong": [
+   "127.6 °F",
+   "53.6 °F",
+   "312.1 °F"
+  ],
+  "explanation": "°F = 1.8(38.9) + 32 = 102.0 °F, a fever. The 1.8 and 32 are exact; 1.8 &times; 38.9 = 70.0 (3 significant figures, 1 decimal place), and adding 32 keeps 1 decimal place.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-009",
+  "sub": "ch09-temp",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "A newborn's axillary (underarm) temperature reads 96.8 °F. What is it in degrees Celsius?",
+  "key": "36.0 °C",
+  "wrong": [
+   "79.0 °C",
+   "117 °C",
+   "71.6 °C"
+  ],
+  "explanation": "(96.8 &minus; 32) &divide; 1.8 = 64.8 &divide; 1.8 = 36.0 °C, a little below normal, so the baby is kept warm. (Context only.)",
+  "has_figure": []
+ },
+ {
+  "id": "c9-010",
+  "sub": "ch09-temp",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "Many blood and tissue samples are stored in a freezer at &minus;80.0 °C. What is this temperature in kelvins?",
+  "key": "193.2 K",
+  "wrong": [
+   "353.2 K",
+   "&minus;353.2 K",
+   "&minus;193.2 K"
+  ],
+  "explanation": "K = &minus;80.0 + 273.15 = 193.2 K. The answer keeps 1 decimal place, like &minus;80.0.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-011",
+  "sub": "ch09-temp",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "The liquid helium that cools an MRI scanner's magnet boils at about 4.22 K. What is this temperature in degrees Celsius?",
+  "key": "&minus;268.93 °C",
+  "wrong": [
+   "277.37 °C",
+   "268.93 °C",
+   "39.6 °C"
+  ],
+  "explanation": "4.22 &minus; 273.15 = &minus;268.93 °C, kept to 2 decimal places like 4.22.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-012",
+  "sub": "ch09-temp",
+  "topic": "energy",
+  "d": 3,
+  "calc": 1,
+  "q": "A hiker rescued from a cold river has a core temperature of 93.2 °F, a sign of hypothermia. What is this in kelvins?",
+  "key": "307.2 K",
+  "wrong": [
+   "348.6 K",
+   "34.0 K",
+   "334.4 K"
+  ],
+  "explanation": "(93.2 &minus; 32) &divide; 1.8 = 34.0 °C; 34.0 + 273.15 = 307.2 K. (Context only.)",
+  "has_figure": []
+ },
+ {
+  "id": "c9-013",
+  "sub": "ch09-temp",
+  "topic": "energy",
+  "d": 3,
+  "calc": 1,
+  "q": "Liquid oxygen, used in some home and hospital oxygen supplies, boils at 90.19 K. What is this temperature in degrees Fahrenheit?",
+  "key": "&minus;297.33 °F",
+  "wrong": [
+   "194.34 °F",
+   "&minus;182.96 °F",
+   "686.01 °F"
+  ],
+  "explanation": "90.19 &minus; 273.15 = &minus;182.96 °C; 1.8(&minus;182.96) + 32 = &minus;297.33 °F, kept to 2 decimal places like the measurement.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-014",
+  "sub": "ch09-temp",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "Which statement about absolute zero is correct?",
+  "key": "It is 0 K, or &minus;273.15 °C, the lowest possible temperature; Kelvin temperatures are never negative.",
+  "wrong": [
+   "It is 0 °C, the temperature at which water freezes.",
+   "It is &minus;273.15 K, the coldest temperature ever measured.",
+   "It is 0 °F, so very cold objects can have negative Kelvin temperatures."
+  ],
+  "explanation": "Absolute zero = 0 K = &minus;273.15 °C, the lowest possible temperature.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-015",
+  "sub": "ch09-temp",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "During an infection, a patient's temperature rises by 2.4 °C. By how many kelvins and how many Fahrenheit degrees did it rise?",
+  "key": "2.4 K and 4.3 °F",
+  "wrong": [
+   "275.6 K and 36.3 °F",
+   "2.4 K and 2.4 °F",
+   "2.4 K and 1.3 °F"
+  ],
+  "explanation": "Change in K = change in °C = 2.4 K; change in °F = 1.8 &times; 2.4 = 4.3 °F.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-016",
+  "sub": "ch09-temp",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "A room thermometer reads 25 °C. What is the temperature in kelvins, with correct significant figures?",
+  "key": "298 K",
+  "wrong": [
+   "298.15 K",
+   "298.2 K",
+   "3.0 &times; 102 K"
+  ],
+  "explanation": "25 + 273.15 = 298.15, rounded to the ones place like 25: 298 K.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-017",
+  "sub": "ch09-temp",
+  "topic": "energy",
+  "d": 3,
+  "calc": 1,
+  "q": "Four temperatures were recorded for four patients on different devices. Which is the highest temperature?",
+  "key": "101.1 °F",
+  "wrong": [
+   "38.1 °C",
+   "311.4 K",
+   "100.6 °F"
+  ],
+  "explanation": "In °C: 101.1 °F = 38.4, 38.1 °C, 311.4 K = 38.3, 100.6 °F = 38.1. Highest: 101.1 °F.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-018",
+  "sub": "ch09-units",
+  "topic": "energy",
+  "d": 1,
+  "calc": 1,
+  "q": "A large apple provides about 116 Cal (food Calories). How many kilojoules is this? (1 Cal = 4.184 kJ)",
+  "key": "485 kJ",
+  "wrong": [
+   "4.85 &times; 105 kJ",
+   "27.7 kJ",
+   "0.485 kJ"
+  ],
+  "explanation": "116 Cal &times; (4.184 kJ / 1 Cal) = 485 kJ. 4.184 is exact, so the 3 significant figures of 116 set the answer.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-019",
+  "sub": "ch09-units",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "Dissolving a sample of calcium chloride in a hot pack releases 8.50 &times; 103 J. How many calories is this?",
+  "key": "2.03 &times; 103 cal",
+  "wrong": [
+   "3.56 &times; 104 cal",
+   "2.03 cal",
+   "8.50 cal"
+  ],
+  "explanation": "8.50 &times; 103 J &times; (1 cal / 4.184 J) = 2.03 &times; 103 cal.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-020",
+  "sub": "ch09-units",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "A half-hour brisk walk uses about 6.70 &times; 102 kJ for one adult. How many food Calories is this?",
+  "key": "160. Cal",
+  "wrong": [
+   "2.80 &times; 103 Cal",
+   "0.160 Cal",
+   "1.60 &times; 105 Cal"
+  ],
+  "explanation": "6.70 &times; 102 kJ &times; (1 Cal / 4.184 kJ) = 160. Cal.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-021",
+  "sub": "ch09-units",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "A sample of water absorbs 3.25 kcal of heat. How many joules is this?",
+  "key": "1.36 &times; 104 J",
+  "wrong": [
+   "13.6 J",
+   "777 J",
+   "1.36 &times; 107 J"
+  ],
+  "explanation": "3.25 kcal &times; (4184 J / 1 kcal) = 1.36 &times; 104 J.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-022",
+  "sub": "ch09-units",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "Sweat evaporates from a runner's skin. Taking the sweat as the system, which statement is correct?",
+  "key": "Evaporation is endothermic: the sweat absorbs heat from the skin, q &gt; 0, and the skin cools.",
+  "wrong": [
+   "Evaporation is exothermic: q &lt; 0, because the skin feels cooler.",
+   "Evaporation is endothermic, so q &lt; 0 for the sweat.",
+   "Evaporation is exothermic: the sweat releases heat, q &gt; 0."
+  ],
+  "explanation": "Heat flows into the sweat: endothermic, q &gt; 0; the skin (surroundings) cools.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-023",
+  "sub": "ch09-units",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "In the calorimetry lab, a student dissolves a solid in water in a foam cup, and the water's temperature drops from 22.4 °C to 18.9 °C. Which statement is correct?",
+  "key": "Dissolving is endothermic: the solid (system) absorbs heat from the water, so q &gt; 0 for the dissolving.",
+  "wrong": [
+   "Dissolving is exothermic, because the temperature changed.",
+   "The water is the system, and it absorbed heat.",
+   "Dissolving is endothermic, so q &lt; 0 for the dissolving."
+  ],
+  "explanation": "The water lost heat to the dissolving: endothermic, q &gt; 0 for the system.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-024",
+  "sub": "ch09-units",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "An instant hot pack warms a patient's hands when a salt dissolves inside it. Which describes the dissolving process (the system)?",
+  "key": "Exothermic: q &lt; 0, and heat flows from the pack into the hands",
+  "wrong": [
+   "Endothermic: q &gt; 0, and heat flows into the pack",
+   "Exothermic: q &gt; 0, because heat is produced",
+   "Endothermic: q &lt; 0, because the hands warm up"
+  ],
+  "explanation": "Exothermic, q &lt; 0: the pack releases heat to the hands. (Context only; wrap packs and follow directions.)",
+  "has_figure": []
+ },
+ {
+  "id": "c9-025",
+  "sub": "ch09-units",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "Which of these changes is exothermic?",
+  "key": "Frost forming directly from water vapor on a windshield",
+  "wrong": [
+   "Ice melting on a sprained ankle",
+   "Dry ice turning into gas",
+   "Rubbing alcohol evaporating from the skin"
+  ],
+  "explanation": "Deposition (frost forming) releases heat; the other three absorb it.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-026",
+  "sub": "ch09-specheat",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "A hot-water bottle holds 955 g of water. How much heat does it release to a patient's feet as it cools from 52.5 °C to 37.0 °C? (c for water = 4.184 J/(g·°C))",
+  "key": "q = &minus;6.19 &times; 104 J",
+  "wrong": [
+   "q = +6.19 &times; 104 J",
+   "q = &minus;61.9 J",
+   "q = +1.48 &times; 105 J"
+  ],
+  "explanation": "q = (955 g)(4.184 J/(g·°C))(&minus;15.5 °C) = &minus;6.19 &times; 104 J; about 61.9 kJ is released. (Context only; follow device directions.)",
+  "has_figure": []
+ },
+ {
+  "id": "c9-027",
+  "sub": "ch09-specheat",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "A 250.0 g aluminum pan is heated from 21.0 °C to 175.0 °C. How much heat does it absorb? (c for aluminum = 0.903 J/(g·°C))",
+  "key": "3.48 &times; 104 J",
+  "wrong": [
+   "1.611 &times; 105 J",
+   "&minus;3.48 &times; 104 J",
+   "3.95 &times; 104 J"
+  ],
+  "explanation": "q = (250.0 g)(0.903 J/(g·°C))(154.0 °C) = 3.48 &times; 104 J.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-028",
+  "sub": "ch09-specheat",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "A 65.0 g silver bracelet absorbs 412 J of heat from the sun. By how much does its temperature rise? (c for silver = 0.235 J/(g·°C))",
+  "key": "27.0 °C",
+  "wrong": [
+   "6.29 &times; 103 °C",
+   "1.49 °C",
+   "1.51 °C"
+  ],
+  "explanation": "&Delta;T = 412 J &divide; (65.0 g &times; 0.235 J/(g·°C)) = 27.0 °C.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-029",
+  "sub": "ch09-specheat",
+  "topic": "energy",
+  "d": 3,
+  "calc": 1,
+  "q": "A 312 g copper pot at 24.5 °C absorbs 5.60 kJ of heat. What is its final temperature? (c for copper = 0.385 J/(g·°C))",
+  "key": "71.1 °C",
+  "wrong": [
+   "46.6 °C",
+   "&minus;22.1 °C",
+   "28.8 °C"
+  ],
+  "explanation": "&Delta;T = 5600 J &divide; (312 g &times; 0.385) = 46.6 °C; Tf = 24.5 + 46.6 = 71.1 °C.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-030",
+  "sub": "ch09-specheat",
+  "topic": "energy",
+  "d": 3,
+  "calc": 1,
+  "q": "A fluid warmer supplies 7.75 kJ of heat to warm a bag of saline from 18.5 °C to 37.0 °C. Treating the saline as water, what is its mass? (c = 4.184 J/(g·°C))",
+  "key": "100. g",
+  "wrong": [
+   "0.100 g",
+   "1.75 &times; 103 g",
+   "50.1 g"
+  ],
+  "explanation": "m = 7750 J &divide; (4.184 &times; 18.5 °C) = 100. g. (Context only.)",
+  "has_figure": []
+ },
+ {
+  "id": "c9-031",
+  "sub": "ch09-specheat",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "A 75.0 g sample of a metal absorbs 863 J as it warms from 19.8 °C to 49.7 °C. What is its specific heat?",
+  "key": "0.385 J/(g·°C)",
+  "wrong": [
+   "0.232 J/(g·°C)",
+   "2.60 J/(g·°C)",
+   "344 J/(g·°C)"
+  ],
+  "explanation": "c = 863 J &divide; (75.0 g &times; 29.9 °C) = 0.385 J/(g·°C), the value for copper.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-032",
+  "sub": "ch09-specheat",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "A 52.4 g piece of jewelry absorbs 312 J as it warms from 22.6 °C to 47.9 °C. Use the table to identify the metal.",
+  "key": "Silver",
+  "wrong": [
+   "Copper",
+   "Iron",
+   "Aluminum"
+  ],
+  "explanation": "c = 312 J &divide; (52.4 g &times; 25.3 °C) = 0.235 J/(g·°C): silver.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c9-033",
+  "sub": "ch09-specheat",
+  "topic": "energy",
+  "d": 3,
+  "calc": 1,
+  "q": "A 65.0 g piece of iron at 99.2 °C is dropped into 45.0 g of water at 21.0 °C in a calorimeter. Both end at 31.5 °C. How much heat did the iron release? (c for water = 4.184 J/(g·°C))",
+  "key": "qiron = &minus;1.98 &times; 103 J",
+  "wrong": [
+   "qiron = +1.98 &times; 103 J",
+   "qiron = &minus;2.86 &times; 103 J",
+   "qiron = &minus;5.93 &times; 103 J"
+  ],
+  "explanation": "qwater = (45.0 g)(4.184)(10.5 °C) = 1.98 &times; 103 J, so qiron = &minus;1.98 &times; 103 J.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-034",
+  "sub": "ch09-specheat",
+  "topic": "energy",
+  "d": 3,
+  "calc": 1,
+  "q": "An 85.0 g metal block at 99.5 °C is placed in 45.0 g of water at 22.5 °C in a calorimeter. The final temperature of both is 33.9 °C. What is the specific heat of the metal? (c for water = 4.184 J/(g·°C))",
+  "key": "0.385 J/(g·°C)",
+  "wrong": [
+   "0.745 J/(g·°C)",
+   "0.727 J/(g·°C)",
+   "2.22 J/(g·°C)"
+  ],
+  "explanation": "c = &minus;(2.15 &times; 103 J) &divide; (85.0 g &times; &minus;65.6 °C) = 0.385 J/(g·°C), copper.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-035",
+  "sub": "ch09-specheat",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "The same amount of heat is added to 50.0 g of aluminum (c = 0.903 J/(g·°C)) and to 50.0 g of gold (c = 0.128 J/(g·°C)). Which one has the larger temperature increase?",
+  "key": "Gold, because its specific heat is lower",
+  "wrong": [
+   "Aluminum, because its specific heat is higher",
+   "Both rise by the same amount, because the masses and heats are equal",
+   "Gold, because its specific heat is higher"
+  ],
+  "explanation": "&Delta;T = q/(mc): the lower c gives the larger rise, so gold warms about 7 times as much.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-036",
+  "sub": "ch09-specheat",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "Before a predicted freeze, Valley citrus growers often irrigate their orchards. How does water's high specific heat help?",
+  "key": "Moist soil absorbs and stores more heat by day and releases it at night, keeping the air near the trees slightly warmer.",
+  "wrong": [
+   "Water has a low specific heat, so it warms the trees quickly.",
+   "The water makes the air colder, which protects the fruit.",
+   "Specific heat does not matter; water simply blocks the cold."
+  ],
+  "explanation": "High specific heat: moist soil stores more heat by day and releases it at night.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-037",
+  "sub": "ch09-phase",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "How much heat is needed to melt 42.5 g of ice at 0 °C? (H2O 18.015 g/mol; &Delta;Hfus = 6.02 kJ/mol)",
+  "key": "q = +14.2 kJ",
+  "wrong": [
+   "q = +256 kJ",
+   "q = +96.0 kJ",
+   "q = &minus;14.2 kJ"
+  ],
+  "explanation": "q = (42.5 g &divide; 18.015 g/mol)(6.02 kJ/mol) = +14.2 kJ.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-038",
+  "sub": "ch09-phase",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "How much heat is needed to boil away 36.5 g of water at 100 °C? (H2O 18.015 g/mol; &Delta;Hvap = 40.7 kJ/mol)",
+  "key": "q = +82.5 kJ",
+  "wrong": [
+   "q = +1.49 &times; 103 kJ",
+   "q = +12.2 kJ",
+   "q = &minus;82.5 kJ"
+  ],
+  "explanation": "q = (36.5 &divide; 18.015 mol)(40.7 kJ/mol) = +82.5 kJ.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-039",
+  "sub": "ch09-phase",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "A puff of steam condenses on a cook's arm: 8.75 g of steam at 100 °C becomes liquid water at 100 °C. What is q for the steam? (H2O 18.015 g/mol; &Delta;Hvap = 40.7 kJ/mol)",
+  "key": "q = &minus;19.8 kJ",
+  "wrong": [
+   "q = +19.8 kJ",
+   "q = &minus;2.92 kJ",
+   "q = &minus;356 kJ"
+  ],
+  "explanation": "q = &minus;(8.75 &divide; 18.015 mol)(40.7 kJ/mol) = &minus;19.8 kJ, released into the skin before the water even starts to cool.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-040",
+  "sub": "ch09-phase",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "An ice tray holds 125 g of liquid water at 0 °C. What is q when all of it freezes? (H2O 18.015 g/mol; &Delta;Hfus = 6.02 kJ/mol)",
+  "key": "q = &minus;41.8 kJ",
+  "wrong": [
+   "q = +41.8 kJ",
+   "q = &minus;282 kJ",
+   "q = &minus;753 kJ"
+  ],
+  "explanation": "q = &minus;(125 &divide; 18.015 mol)(6.02 kJ/mol) = &minus;41.8 kJ.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-041",
+  "sub": "ch09-phase",
+  "topic": "energy",
+  "d": 2,
+  "calc": 1,
+  "q": "After a tooth extraction, a patient holds a bag of ice to the cheek. How much heat does 18.6 g of ice absorb as it melts at 0 °C? (&Delta;Hfus = 334 J/g)",
+  "key": "6.21 &times; 103 J",
+  "wrong": [
+   "345 J",
+   "0.0557 J",
+   "6.21 J"
+  ],
+  "explanation": "q = 18.6 g &times; 334 J/g = 6.21 &times; 103 J absorbed while the ice stays at 0 °C. (Context only; follow post-operative instructions.)",
+  "has_figure": []
+ },
+ {
+  "id": "c9-042",
+  "sub": "ch09-phase",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "The heating curve shows ice at &minus;20 °C heated to steam at 120 °C. In which segment is the heat calculated with q = n&Delta;Hvap?",
+  "key": "Segment D",
+  "wrong": [
+   "Segment B",
+   "Segment C",
+   "Segment E"
+  ],
+  "explanation": "Segment D, the boiling plateau at 100 °C, uses q = n&Delta;Hvap. B (melting) uses &Delta;Hfus; A, C, and E use mc&Delta;T.",
+  "has_figure": [
+   "plot"
+  ]
+ },
+ {
+  "id": "c9-043",
+  "sub": "ch09-phase",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "On the sloped segment of a heating curve where liquid water warms from 0 °C to 100 °C, which statement is correct?",
+  "key": "The molecules speed up (kinetic energy rises), and q = mc&Delta;T with c = 4.184 J/(g·°C).",
+  "wrong": [
+   "The molecules move apart at constant temperature, and q = n&Delta;H.",
+   "The molecules speed up, and q = mc&Delta;T with c = 2.09 J/(g·°C).",
+   "No heat is absorbed, because the water does not change state."
+  ],
+  "explanation": "Slope: KE rises; q = mc&Delta;T with liquid water's c, 4.184 J/(g·°C).",
+  "has_figure": []
+ },
+ {
+  "id": "c9-044",
+  "sub": "ch09-phase",
+  "topic": "energy",
+  "d": 3,
+  "calc": 1,
+  "q": "How much heat is needed to take 30.5 g of water at 64.0 °C to steam at 100 °C? (c for water = 4.184 J/(g·°C); &Delta;Hvap = 40.7 kJ/mol; H2O 18.015 g/mol)",
+  "key": "73.5 kJ",
+  "wrong": [
+   "68.9 kJ",
+   "14.8 kJ",
+   "1.24 &times; 103 kJ"
+  ],
+  "explanation": "q1 = 4.59 kJ; q2 = 68.9 kJ; total = 73.5 kJ.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-045",
+  "sub": "ch09-phase",
+  "topic": "energy",
+  "d": 3,
+  "calc": 1,
+  "q": "How much heat is needed to turn 16.5 g of ice at &minus;12.5 °C into liquid water at 35.0 °C? (cice = 2.09 J/(g·°C); cwater = 4.184 J/(g·°C); &Delta;Hfus = 6.02 kJ/mol; H2O 18.015 g/mol)",
+  "key": "8.36 kJ",
+  "wrong": [
+   "7.93 kJ",
+   "2.85 kJ",
+   "8.79 kJ"
+  ],
+  "explanation": "q = 0.431 + 5.51 + 2.42 = 8.36 kJ.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-046",
+  "sub": "ch09-phase",
+  "topic": "energy",
+  "d": 3,
+  "calc": 1,
+  "q": "A 10.0 g ice cube at 0 °C absorbs 1.50 kJ of heat. What happens? (H2O 18.015 g/mol; &Delta;Hfus = 6.02 kJ/mol; cwater = 4.184 J/(g·°C); cice = 2.09 J/(g·°C))",
+  "key": "Only part of the ice melts, and the temperature stays at 0 °C.",
+  "wrong": [
+   "All of the ice melts, and the water warms to 35.9 °C.",
+   "The ice warms to 71.8 °C without melting.",
+   "All of the ice melts, and the liquid water stays at 0 °C."
+  ],
+  "explanation": "Melting needs 3.34 kJ &gt; 1.50 kJ, so only part melts and the temperature stays at 0 °C.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-047",
+  "sub": "ch09-imf",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Chloroform, CHCl3, was once used as an anesthetic. It is a polar tetrahedral molecule. Which intermolecular forces act between chloroform molecules?",
+  "key": "Dispersion and dipole&ndash;dipole",
+  "wrong": [
+   "Dispersion only",
+   "Dispersion, dipole&ndash;dipole, and hydrogen bonding",
+   "Dipole&ndash;dipole only"
+  ],
+  "explanation": "CHCl3: dispersion and dipole&ndash;dipole (no H on N, O, or F).",
+  "has_figure": []
+ },
+ {
+  "id": "c9-048",
+  "sub": "ch09-imf",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "What is the strongest intermolecular force between molecules of methylamine, CH3NH2?",
+  "key": "Hydrogen bonding",
+  "wrong": [
+   "Dipole&ndash;dipole",
+   "Dispersion",
+   "Ion&ndash;dipole"
+  ],
+  "explanation": "The N&ndash;H bonds give hydrogen bonding, the strongest force here.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-049",
+  "sub": "ch09-imf",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Which of these can hydrogen bond with itself?",
+  "key": "CH3CH2OH (ethanol)",
+  "wrong": [
+   "CH3OCH3 (dimethyl ether)",
+   "CH2O (formaldehyde)",
+   "CHF3 (fluoroform)"
+  ],
+  "explanation": "Only ethanol has an H on O (O&ndash;H).",
+  "has_figure": []
+ },
+ {
+  "id": "c9-050",
+  "sub": "ch09-imf",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Carbon tetrachloride, CCl4, has polar C&ndash;Cl bonds and a symmetric tetrahedral shape. What is its strongest intermolecular force?",
+  "key": "Dispersion",
+  "wrong": [
+   "Dipole&ndash;dipole",
+   "Hydrogen bonding",
+   "Ion&ndash;dipole"
+  ],
+  "explanation": "CCl4 is nonpolar: dispersion only.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-051",
+  "sub": "ch09-imf",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "These hydrocarbons are all nonpolar. Which has the strongest dispersion forces?",
+  "key": "C4H10 (butane)",
+  "wrong": [
+   "CH4 (methane)",
+   "C2H6 (ethane)",
+   "C3H8 (propane)"
+  ],
+  "explanation": "More electrons, more polarizable: butane has the strongest dispersion forces (and the highest boiling point of the four).",
+  "has_figure": []
+ },
+ {
+  "id": "c9-052",
+  "sub": "ch09-imf",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Xenon (Xe) boils at a much higher temperature than neon (Ne), although both are nonpolar atoms. Why?",
+  "key": "Xe has many more electrons in a larger cloud that is easier to distort, so its dispersion forces are stronger.",
+  "wrong": [
+   "Xe is polar, so it has dipole&ndash;dipole forces.",
+   "Xe atoms form hydrogen bonds with each other.",
+   "Xe forms covalent bonds with its neighbors in the liquid."
+  ],
+  "explanation": "Bigger electron cloud, more polarizable: stronger dispersion forces in Xe.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-053",
+  "sub": "ch09-imf",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Potassium chloride, KCl, is added to many IV fluids. When it dissolves, which force holds water molecules around each K+ ion?",
+  "key": "Ion&ndash;dipole, with the &delta;&minus; oxygen ends of water pointing toward K+",
+  "wrong": [
+   "Ion&ndash;dipole, with the &delta;+ hydrogen ends of water pointing toward K+",
+   "Hydrogen bonding between K+ and the H atoms of water",
+   "An ionic bond between K+ and the O of water"
+  ],
+  "explanation": "Ion&ndash;dipole: water's &delta;&minus; O ends surround K+; the &delta;+ H ends surround Cl&minus;.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-054",
+  "sub": "ch09-imf",
+  "topic": "bonding",
+  "d": 1,
+  "calc": 0,
+  "q": "When ethanol boils, what is overcome?",
+  "key": "The intermolecular forces between ethanol molecules; each molecule stays intact",
+  "wrong": [
+   "The covalent C&ndash;H bonds inside each molecule",
+   "The O&ndash;H covalent bonds, which break to release hydrogen gas",
+   "All the bonds, so the molecules split into separate atoms"
+  ],
+  "explanation": "Boiling overcomes intermolecular forces (hydrogen bonds, dipole&ndash;dipole, dispersion); the molecules stay whole.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-055",
+  "sub": "ch09-imf",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "The two strands of DNA are held together by attractions between base pairs (A with T, G with C). What are these attractions, and why do they matter?",
+  "key": "Hydrogen bonds between N&ndash;H groups and N or O atoms; each is weak, so the strands can unzip for copying",
+  "wrong": [
+   "Covalent bonds between the bases; they are very strong, so the strands never separate",
+   "Ionic bonds between the bases, formed by transferring electrons",
+   "Dispersion forces only, because the bases are nonpolar"
+  ],
+  "explanation": "Hydrogen bonds hold base pairs together: weak one at a time, strong in total.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-056",
+  "sub": "ch09-imf",
+  "topic": "bonding",
+  "d": 2,
+  "calc": 0,
+  "q": "Which pair of atoms describes a hydrogen bond?",
+  "key": "The H of one water molecule and the O of a neighboring water molecule",
+  "wrong": [
+   "The H and the O within one water molecule",
+   "The H of one CH4 molecule and the C of a neighboring CH4 molecule",
+   "The H of one CH3F molecule and the F of a neighboring CH3F molecule"
+  ],
+  "explanation": "H on one water molecule &middot;&middot;&middot; O of another.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-057",
+  "sub": "ch09-solids",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "Which of these liquids has the highest surface tension?",
+  "key": "Water, H2O",
+  "wrong": [
+   "Acetone, CH3COCH3",
+   "Pentane, C5H12",
+   "Dichloromethane, CH2Cl2"
+  ],
+  "explanation": "Water: hydrogen bonding gives the strongest pull at the surface.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-058",
+  "sub": "ch09-solids",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "Ethylene glycol, HOCH2CH2OH, is much more viscous than ethanol, CH3CH2OH. What is the best explanation?",
+  "key": "Each ethylene glycol molecule has two O&ndash;H groups, so it forms more hydrogen bonds with its neighbors.",
+  "wrong": [
+   "Ethylene glycol is nonpolar, so its molecules slide past each other slowly.",
+   "Ethanol has stronger hydrogen bonding, which makes it flow faster.",
+   "Viscosity depends only on molar mass, and ethylene glycol is heavier."
+  ],
+  "explanation": "Two O&ndash;H groups per molecule, more hydrogen bonds, higher viscosity.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-059",
+  "sub": "ch09-solids",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "During a finger-stick blood test, blood rises on its own into a thin glass capillary tube. Why?",
+  "key": "The attraction of the blood to the glass (adhesion) is stronger than its attraction to itself (cohesion).",
+  "wrong": [
+   "The blood's cohesion is stronger than its adhesion to the glass.",
+   "Blood has a high vapor pressure, so it moves up the tube.",
+   "Gravity pulls the blood up the narrow tube."
+  ],
+  "explanation": "Adhesion &gt; cohesion, so the blood climbs the tube (capillary action).",
+  "has_figure": []
+ },
+ {
+  "id": "c9-060",
+  "sub": "ch09-solids",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "Silicon carbide, SiC, used in grinding wheels and sandpaper, is extremely hard and does not melt even at 2000 °C. What type of solid is it?",
+  "key": "Covalent network",
+  "wrong": [
+   "Molecular",
+   "Ionic",
+   "Metallic"
+  ],
+  "explanation": "Covalent network, like diamond and quartz: covalent bonds throughout.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-061",
+  "sub": "ch09-solids",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "Diamond and graphite are both pure carbon, and both have very high melting points. What type of solid are they?",
+  "key": "Covalent network: every carbon atom is joined to its neighbors by covalent bonds, which must break for the solid to melt",
+  "wrong": [
+   "Molecular: carbon is a nonmetal, so its atoms are held by dispersion forces",
+   "Metallic: graphite conducts electricity, so it must be a metal",
+   "Ionic: the carbon atoms carry positive and negative charges"
+  ],
+  "explanation": "Covalent network: covalent bonds throughout, so very high melting points.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-062",
+  "sub": "ch09-solids",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "Which statement about solid sodium chloride (table salt) is correct?",
+  "key": "It has a high melting point and is brittle, and it does not conduct electricity until it is melted or dissolved.",
+  "wrong": [
+   "It conducts electricity as a solid, because it is made of ions.",
+   "It has a low melting point, because its particles are held by intermolecular forces.",
+   "It bends without breaking, like a metal."
+  ],
+  "explanation": "Ionic solids: high melting point, brittle, conduct only when melted or dissolved.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-063",
+  "sub": "ch09-solids",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "A gray solid is shiny, bends into wire without breaking, and conducts electricity as a solid. What type of solid is it most likely to be?",
+  "key": "Metallic",
+  "wrong": [
+   "Ionic",
+   "Covalent network",
+   "Molecular"
+  ],
+  "explanation": "Shiny, malleable, conducts as a solid: metallic.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-064",
+  "sub": "ch09-vapor",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "At 25 °C, which of these liquids has the highest vapor pressure?",
+  "key": "Pentane, C5H12",
+  "wrong": [
+   "1-Propanol, CH3CH2CH2OH",
+   "Water, H2O",
+   "Acetic acid, CH3COOH"
+  ],
+  "explanation": "Pentane: the only liquid here without hydrogen bonding, so the highest vapor pressure (most volatile).",
+  "has_figure": []
+ },
+ {
+  "id": "c9-065",
+  "sub": "ch09-vapor",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "Water sits in a sealed container. As it warms from 25 °C to 50 °C, what happens to its vapor pressure?",
+  "key": "It increases, because more molecules have enough energy to escape the liquid.",
+  "wrong": [
+   "It decreases, because warm water holds its molecules more tightly.",
+   "It stays the same, because the container is sealed.",
+   "It stays the same, because vapor pressure depends only on the amount of liquid."
+  ],
+  "explanation": "Vapor pressure rises with temperature.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-066",
+  "sub": "ch09-vapor",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "At a high Sierra Nevada campsite, water boils below 100 °C. Why?",
+  "key": "The air pressure is lower, so water's vapor pressure reaches the outside pressure at a lower temperature.",
+  "wrong": [
+   "The air pressure is higher, which lowers the boiling point.",
+   "Mountain water has fewer hydrogen bonds.",
+   "Boiling point does not depend on pressure; the thermometer is cold."
+  ],
+  "explanation": "Lower outside pressure, so water boils at a lower temperature, and food cooks more slowly.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-067",
+  "sub": "ch09-vapor",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "An autoclave sterilizes surgical instruments with steam at about 121 °C. How can the water reach 121 °C?",
+  "key": "The autoclave raises the pressure, which raises water's boiling point above 100 °C.",
+  "wrong": [
+   "The autoclave lowers the pressure, which raises the boiling point.",
+   "Steam always has a temperature of 121 °C.",
+   "The autoclave adds heat faster than water can boil, so the boiling point rises."
+  ],
+  "explanation": "Higher pressure, higher boiling point: steam at 121 °C kills even heat-resistant spores.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-068",
+  "sub": "ch09-vapor",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "To freeze-dry (lyophilize) a vaccine, the frozen sample is placed under very low pressure until the ice is gone. How is the ice removed?",
+  "key": "By sublimation: the ice turns directly into water vapor, absorbing heat",
+  "wrong": [
+   "By deposition: the ice turns directly into vapor, releasing heat",
+   "By melting the ice and then boiling the liquid",
+   "By condensation of the ice into vapor"
+  ],
+  "explanation": "Sublimation (endothermic) removes the ice and leaves a dry product.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-069",
+  "sub": "ch09-vapor",
+  "topic": "energy",
+  "d": 1,
+  "calc": 0,
+  "q": "On a cold, clear night in the Valley, frost forms on a car windshield directly from water vapor in the air. What is this change, and what happens to heat?",
+  "key": "Deposition; heat is released",
+  "wrong": [
+   "Sublimation; heat is absorbed",
+   "Freezing; heat is absorbed",
+   "Condensation; heat is absorbed"
+  ],
+  "explanation": "Deposition, exothermic: heat is released as the frost forms.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-070",
+  "sub": "ch09-vapor",
+  "topic": "energy",
+  "d": 3,
+  "calc": 0,
+  "q": "The three substances in the table have nearly the same molar mass. Rank them from lowest to highest boiling point.",
+  "key": "butane &lt; acetone &lt; 1-propanol",
+  "wrong": [
+   "acetone &lt; butane &lt; 1-propanol",
+   "1-propanol &lt; acetone &lt; butane",
+   "butane &lt; 1-propanol &lt; acetone"
+  ],
+  "explanation": "Dispersion &lt; dipole&ndash;dipole &lt; hydrogen bond: butane &lt; acetone &lt; 1-propanol (about 0 °C, 56 °C, and 97 °C).",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c9-071",
+  "sub": "ch09-vapor",
+  "topic": "energy",
+  "d": 3,
+  "calc": 0,
+  "q": "Rank from lowest to highest melting point: F2, HF, NaF, SiO2 (quartz).",
+  "key": "F2 &lt; HF &lt; NaF &lt; SiO2",
+  "wrong": [
+   "HF &lt; F2 &lt; NaF &lt; SiO2",
+   "F2 &lt; SiO2 &lt; HF &lt; NaF",
+   "F2 &lt; NaF &lt; HF &lt; SiO2"
+  ],
+  "explanation": "F2 &lt; HF &lt; NaF &lt; SiO2: molecular (dispersion) &lt; molecular (H bonds) &lt; ionic &lt; covalent network.",
+  "has_figure": []
+ },
+ {
+  "id": "c9-072",
+  "sub": "ch09-vapor",
+  "topic": "energy",
+  "d": 2,
+  "calc": 0,
+  "q": "Use the normal boiling points in the table. Which liquid has the highest vapor pressure at 25 °C?",
+  "key": "Dichloromethane",
+  "wrong": [
+   "Acetone",
+   "Methanol",
+   "Water"
+  ],
+  "explanation": "Lowest boiling point, highest vapor pressure: dichloromethane.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c10-001",
+  "sub": "ch10-kmt",
+  "topic": "gases",
+  "d": 1,
+  "calc": 0,
+  "q": "Which property of gases shows most directly that a gas is mostly empty space?",
+  "key": "A gas can be compressed into a much smaller volume.",
+  "wrong": [
+   "A gas has a definite shape.",
+   "A gas is denser than the liquid it comes from.",
+   "Gas particles attract each other strongly."
+  ],
+  "explanation": "Compressibility shows the empty space: a gas can be squeezed into a much smaller volume.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-002",
+  "sub": "ch10-kmt",
+  "topic": "gases",
+  "d": 1,
+  "calc": 0,
+  "q": "According to kinetic molecular theory, what causes the pressure a gas exerts on its container?",
+  "key": "Gas particles colliding with the container walls",
+  "wrong": [
+   "Gas particles attracting the walls of the container",
+   "The weight of the gas particles resting on the bottom of the container",
+   "Gas particles growing larger as they are heated"
+  ],
+  "explanation": "Pressure comes from particles colliding with the walls: more or harder hits, higher pressure.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-003",
+  "sub": "ch10-kmt",
+  "topic": "gases",
+  "d": 2,
+  "calc": 0,
+  "q": "A cylinder of carbon dioxide (CO2, 44.009 g/mol) and a cylinder of nitrogen (N2, 28.014 g/mol) stand side by side in a hospital supply room at 22 °C. How do the average kinetic energies of their molecules compare?",
+  "key": "They are the same, because both gases are at the same temperature.",
+  "wrong": [
+   "The CO2 molecules have more, because they are heavier.",
+   "The N2 molecules have more, because they move faster.",
+   "It cannot be compared without knowing the pressure in each cylinder."
+  ],
+  "explanation": "Same temperature, so the same average kinetic energy; the lighter N2 molecules simply move faster.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-004",
+  "sub": "ch10-kmt",
+  "topic": "gases",
+  "d": 1,
+  "calc": 0,
+  "q": "At the same temperature, which atoms move fastest on average?",
+  "key": "He (4.003 g/mol)",
+  "wrong": [
+   "Ar (39.95 g/mol)",
+   "Kr (83.80 g/mol)",
+   "Xe (131.29 g/mol)"
+  ],
+  "explanation": "Same kinetic energy, so the lightest moves fastest: He.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-005",
+  "sub": "ch10-kmt",
+  "topic": "gases",
+  "d": 3,
+  "calc": 0,
+  "q": "Cotton swabs soaked in ammonia (NH3, 17.031 g/mol) and hydrochloric acid (HCl, 36.46 g/mol) are placed at opposite ends of a long glass tube at the same time. A white ring of NH4Cl forms where the two gases meet. Where does the ring form?",
+  "key": "Closer to the HCl end, because NH3 molecules move faster",
+  "wrong": [
+   "Closer to the NH3 end, because NH3 molecules move faster",
+   "Exactly in the middle, because both gases have the same average kinetic energy",
+   "Closer to the HCl end, because HCl molecules move faster"
+  ],
+  "explanation": "NH3 is lighter and diffuses faster, so it travels farther: the ring forms closer to the HCl end.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-006",
+  "sub": "ch10-kmt",
+  "topic": "gases",
+  "d": 2,
+  "calc": 0,
+  "q": "The Kelvin temperature of a gas sample is doubled. According to kinetic molecular theory, what happens to the average kinetic energy of its particles?",
+  "key": "It doubles.",
+  "wrong": [
+   "It is cut in half.",
+   "It stays the same, because the number of particles does not change.",
+   "It doubles, because each particle doubles in size."
+  ],
+  "explanation": "Average kinetic energy is proportional to the Kelvin temperature: it doubles.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-007",
+  "sub": "ch10-kmt",
+  "topic": "gases",
+  "d": 2,
+  "calc": 0,
+  "q": "A sample of carbon dioxide gas starts at room temperature and 1 atm. Which change makes it depart more from ideal-gas behavior?",
+  "key": "Cooling it toward the temperature where it condenses",
+  "wrong": [
+   "Heating it to a higher temperature",
+   "Lowering its pressure",
+   "Letting it expand into a larger container"
+  ],
+  "explanation": "Real gases depart from ideal behavior at low temperature and high pressure: cooling it toward condensation.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-008",
+  "sub": "ch10-kmt",
+  "topic": "gases",
+  "d": 1,
+  "calc": 0,
+  "q": "A liter of air has a mass of only about 1.2 g, while a liter of water has a mass of about a kilogram. Which idea of kinetic molecular theory explains this?",
+  "key": "Gas particles are tiny compared with the distances between them, so a gas is mostly empty space.",
+  "wrong": [
+   "Gas particles are much lighter than water molecules.",
+   "Gas particles attract each other weakly, so they float.",
+   "Gas particles lose energy in collisions and settle out."
+  ],
+  "explanation": "A gas is mostly empty space, so a liter holds far fewer particles than a liter of liquid.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-009",
+  "sub": "ch10-kmt",
+  "topic": "gases",
+  "d": 2,
+  "calc": 0,
+  "q": "The tip of a syringe is sealed, and the plunger is pushed in at constant temperature. Why does the pressure of the trapped air rise?",
+  "key": "The same number of particles hit a smaller wall area more often.",
+  "wrong": [
+   "The particles move faster because they have less room.",
+   "The particles become larger when they are squeezed.",
+   "Squeezing the air makes the particles attract each other."
+  ],
+  "explanation": "Same particles, less room: more frequent collisions with the walls, so higher pressure.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-010",
+  "sub": "ch10-pressure",
+  "topic": "gases",
+  "d": 1,
+  "calc": 0,
+  "q": "A person wearing narrow high heels sinks into a soft lawn, but the same person in flat shoes does not. Why?",
+  "key": "The same force is spread over a smaller area, so the pressure is greater.",
+  "wrong": [
+   "The person weighs more in high heels.",
+   "Pressure depends only on force, so the heels must push harder.",
+   "A smaller area gives a smaller pressure, so the lawn is softer under heels."
+  ],
+  "explanation": "Same force, smaller area: greater pressure (P = F/A).",
+  "has_figure": []
+ },
+ {
+  "id": "c10-011",
+  "sub": "ch10-pressure",
+  "topic": "gases",
+  "d": 2,
+  "calc": 0,
+  "q": "In a mercury barometer, what holds up the column of mercury in the closed glass tube?",
+  "key": "The atmosphere pushing down on the mercury in the open dish",
+  "wrong": [
+   "Suction from the vacuum at the top of the tube",
+   "The mercury sticking to the glass walls",
+   "The weight of the mercury in the dish pushing up"
+  ],
+  "explanation": "Atmospheric pressure on the dish pushes the mercury up the tube until the column's weight balances it.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-012",
+  "sub": "ch10-pressure",
+  "topic": "gases",
+  "d": 2,
+  "calc": 0,
+  "q": "A hiker drinks from a plastic water bottle on the summit of Mount Whitney (14,505 ft), caps it tightly, and hikes down to Lone Pine (3,727 ft). The empty bottle is crumpled. Why?",
+  "key": "The air pressure outside is greater at the lower elevation, so the outside air pushes the bottle in.",
+  "wrong": [
+   "The air inside the bottle escaped through the cap on the way down.",
+   "The air pressure outside is lower at the lower elevation, so the bottle collapses.",
+   "The air inside the bottle got heavier at the lower elevation."
+  ],
+  "explanation": "Lower elevation, more air above, higher outside pressure, which crushes the bottle sealed at the summit.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-013",
+  "sub": "ch10-pressure",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A barometer in a Clovis classroom reads 742 mmHg. What is the pressure in atmospheres?",
+  "key": "0.976 atm",
+  "wrong": [
+   "5.64 &times; 105 atm",
+   "7.32 atm",
+   "50.5 atm"
+  ],
+  "explanation": "742 mmHg &times; (1 atm / 760 mmHg) = 0.976 atm.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-014",
+  "sub": "ch10-pressure",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A hyperbaric oxygen chamber is pressurized to 2.40 atm. What is this pressure in kilopascals?",
+  "key": "243 kPa",
+  "wrong": [
+   "2.43 &times; 105 kPa",
+   "0.0237 kPa",
+   "1.82 &times; 103 kPa"
+  ],
+  "explanation": "2.40 atm &times; (101.325 kPa / 1 atm) = 243 kPa.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-015",
+  "sub": "ch10-pressure",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A road bike tire is inflated to 85.5 psi. What is this pressure in atmospheres?",
+  "key": "5.82 atm",
+  "wrong": [
+   "1.26 &times; 103 atm",
+   "0.113 atm",
+   "0.844 atm"
+  ],
+  "explanation": "85.5 psi &times; (1 atm / 14.7 psi) = 5.82 atm.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-016",
+  "sub": "ch10-pressure",
+  "topic": "gases",
+  "d": 3,
+  "calc": 1,
+  "q": "Some hospitals report blood gases in kilopascals. A patient's arterial carbon dioxide pressure is 41.5 mmHg. What is it in kPa?",
+  "key": "5.53 kPa",
+  "wrong": [
+   "4.20 &times; 103 kPa",
+   "0.410 kPa",
+   "311 kPa"
+  ],
+  "explanation": "41.5 mmHg &times; (101.325 kPa / 760 mmHg) = 5.53 kPa.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-017",
+  "sub": "ch10-pressure",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A laboratory vacuum pump lowers the pressure in a flask to 18.6 torr. What is this pressure in atmospheres?",
+  "key": "0.0245 atm",
+  "wrong": [
+   "1.41 &times; 104 atm",
+   "0.184 atm",
+   "1.27 atm"
+  ],
+  "explanation": "18.6 torr &times; (1 atm / 760 torr) = 0.0245 atm.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-018",
+  "sub": "ch10-pressure",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A weather report gives the air pressure in Fresno as 101.9 kPa. What is this in mmHg?",
+  "key": "764.3 mmHg",
+  "wrong": [
+   "7.744 &times; 104 mmHg",
+   "0.1341 mmHg",
+   "13.59 mmHg"
+  ],
+  "explanation": "101.9 kPa &times; (760 mmHg / 101.325 kPa) = 764.3 mmHg.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-019",
+  "sub": "ch10-pressure",
+  "topic": "gases",
+  "d": 1,
+  "calc": 1,
+  "q": "A patient's blood pressure is recorded as 124/82 mmHg. Express the systolic value, 124 mmHg, in atmospheres.",
+  "key": "0.163 atm",
+  "wrong": [
+   "9.42 &times; 104 atm",
+   "1.22 atm",
+   "8.44 atm"
+  ],
+  "explanation": "124 mmHg &times; (1 atm / 760 mmHg) = 0.163 atm.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-020",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 1,
+  "calc": 0,
+  "q": "In Gay-Lussac's law, which two variables are held constant?",
+  "key": "Volume and amount of gas (moles)",
+  "wrong": [
+   "Pressure and amount of gas (moles)",
+   "Temperature and amount of gas (moles)",
+   "Pressure and temperature"
+  ],
+  "explanation": "Gay-Lussac (P1/T1 = P2/T2) holds volume and moles constant.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-021",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 1,
+  "calc": 0,
+  "q": "An air-filled balloon is moved from a warm room into a freezer. The pressure and the amount of air stay the same. What happens to the balloon's volume?",
+  "key": "It decreases, because volume and Kelvin temperature are directly related.",
+  "wrong": [
+   "It increases, because volume and temperature are inversely related.",
+   "It stays the same, because the amount of air does not change.",
+   "It decreases, because the pressure on the balloon increases."
+  ],
+  "explanation": "Charles's law, direct: lower temperature, smaller volume.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-022",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 3,
+  "calc": 0,
+  "q": "A rigid tank of gas (constant volume) has its amount of gas doubled, and at the same time its Kelvin temperature is doubled. What happens to the pressure?",
+  "key": "It increases four times.",
+  "wrong": [
+   "It doubles.",
+   "It stays the same.",
+   "It is cut in half."
+  ],
+  "explanation": "&times;2 for the moles and &times;2 for the temperature: 4 times the pressure.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-023",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "An air bubble released by a scuba diver has a volume of 1.60 mL where the pressure is 3.45 atm. What is its volume just below the surface, where the pressure is 1.05 atm? (Assume constant temperature.)",
+  "key": "5.26 mL",
+  "wrong": [
+   "0.487 mL",
+   "5.52 mL",
+   "2.26 mL"
+  ],
+  "explanation": "V2 = (3.45 atm)(1.60 mL) / 1.05 atm = 5.26 mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-024",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A gas in a cylinder with a movable piston occupies 4.25 L at 0.955 atm. It is compressed at constant temperature to 1.65 L. What is the new pressure?",
+  "key": "2.46 atm",
+  "wrong": [
+   "0.371 atm",
+   "4.06 atm",
+   "7.34 atm"
+  ],
+  "explanation": "P2 = (0.955 atm)(4.25 L) / 1.65 L = 2.46 atm.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-025",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "As the diaphragm contracts, the volume of a person's lungs increases from 2.40 L to 2.52 L at constant temperature, before any air flows in. If the pressure in the lungs started at 760. mmHg, what is it at 2.52 L?",
+  "key": "724 mmHg",
+  "wrong": [
+   "798 mmHg",
+   "1.82 &times; 103 mmHg",
+   "0.952 mmHg"
+  ],
+  "explanation": "P2 = (760. mmHg)(2.40 L) / 2.52 L = 724 mmHg, a little below atmospheric pressure, so air flows in.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-026",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A 1.85 L balloon at 24.5 °C is put in a freezer at &minus;18.5 °C. Assuming the pressure stays constant, what is its new volume?",
+  "key": "1.58 L",
+  "wrong": [
+   "&minus;1.40 L",
+   "2.16 L",
+   "19.2 L"
+  ],
+  "explanation": "T1 = 24.5 + 273.15 = 297.7 K; T2 = &minus;18.5 + 273.15 = 254.7 K. V2 = 1.85 L &times; 254.7 K / 297.7 K = 1.58 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-027",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A gas-tight syringe holds 45.0 mL of air at 20.5 °C. It is warmed at constant pressure until the volume is 49.5 mL. What is the final temperature in kelvins?",
+  "key": "323 K",
+  "wrong": [
+   "22.6 K",
+   "267 K",
+   "323 °C"
+  ],
+  "explanation": "T1 = 20.5 + 273.15 = 293.7 K. T2 = 293.7 K &times; 49.5 mL / 45.0 mL = 323 K.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-028",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "An aerosol can contains gas at 1.85 atm at 21.5 °C. If it is thrown into a fire and heated to 425 °C, what pressure would the gas reach (if the can did not burst)?",
+  "key": "4.38 atm",
+  "wrong": [
+   "36.6 atm",
+   "0.781 atm",
+   "2.67 atm"
+  ],
+  "explanation": "T1 = 21.5 + 273.15 = 294.7 K; T2 = 425 + 273.15 = 698 K. P2 = 1.85 atm &times; 698 K / 294.7 K = 4.38 atm.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-029",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "The air in a tire is at 2.25 atm at 15.5 °C. After a drive the pressure is 2.48 atm. Assuming the volume of the tire does not change, what is the temperature of the air in kelvins?",
+  "key": "318 K",
+  "wrong": [
+   "17.1 K",
+   "262 K",
+   "318 °C"
+  ],
+  "explanation": "T1 = 15.5 + 273.15 = 288.7 K. T2 = 288.7 K &times; 2.48 atm / 2.25 atm = 318 K.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-030",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A balloon holds 0.245 mol of helium and has a volume of 5.80 L. Helium leaks out until 0.185 mol remains, at the same temperature and pressure. What is the new volume?",
+  "key": "4.38 L",
+  "wrong": [
+   "7.68 L",
+   "1.42 L",
+   "0.755 L"
+  ],
+  "explanation": "V2 = 5.80 L &times; 0.185 mol / 0.245 mol = 4.38 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-031",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 3,
+  "calc": 1,
+  "q": "A sample of nitrogen occupies 2.65 L at 1.12 atm and 18.5 °C. What volume does it occupy at 0.875 atm and 37.5 °C?",
+  "key": "3.61 L",
+  "wrong": [
+   "6.88 L",
+   "2.21 L",
+   "3.18 L"
+  ],
+  "explanation": "T1 = 18.5 + 273.15 = 291.7 K; T2 = 37.5 + 273.15 = 310.7 K. V2 = 2.65 L &times; (1.12 / 0.875) &times; (310.7 K / 291.7 K) = 3.61 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-032",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 3,
+  "calc": 1,
+  "q": "A helium balloon holds 11.5 L at 1.01 atm and 23.5 °C. It rises to where its volume is 18.4 L and the temperature is &minus;8.5 °C. What is the pressure there?",
+  "key": "0.563 atm",
+  "wrong": [
+   "&minus;0.228 atm",
+   "1.44 atm",
+   "0.708 atm"
+  ],
+  "explanation": "T1 = 23.5 + 273.15 = 296.7 K; T2 = &minus;8.5 + 273.15 = 264.7 K. P2 = 1.01 atm &times; (11.5 / 18.4) &times; (264.7 K / 296.7 K) = 0.563 atm.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-033",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 1,
+  "calc": 1,
+  "q": "Before using Charles's law, a student must convert &minus;12.5 °C to kelvins. What is the correct value?",
+  "key": "260.7 K",
+  "wrong": [
+   "285.7 K",
+   "&minus;285.7 K",
+   "260.65 K"
+  ],
+  "explanation": "&minus;12.5 + 273.15 = 260.7 K.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-034",
+  "sub": "ch10-laws",
+  "topic": "gases",
+  "d": 2,
+  "calc": 0,
+  "q": "The table shows data for a gas sample at constant temperature. Which relationship do the data show?",
+  "key": "An inverse relationship: P &times; V stays the same (Boyle's law)",
+  "wrong": [
+   "A direct relationship: P/V stays the same (Charles's law)",
+   "A direct relationship between pressure and temperature (Gay-Lussac's law)",
+   "No relationship: the volume changes randomly"
+  ],
+  "explanation": "P &times; V = 6.00 atm&middot;L in every row, so P and V are inversely related (Boyle's law).",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c10-035",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A 3.75 L tank of helium is at 8.65 atm and 22.5 °C. How many moles of helium does it contain?",
+  "key": "1.34 mol",
+  "wrong": [
+   "17.6 mol",
+   "0.167 mol",
+   "0.748 mol"
+  ],
+  "explanation": "T = 22.5 + 273.15 = 295.7 K. n = (8.65 atm)(3.75 L) / [(0.082058)(295.7 K)] = 1.34 mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-036",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "What volume does 0.685 mol of CO2 occupy at 1.15 atm and 31.5 °C?",
+  "key": "14.9 L",
+  "wrong": [
+   "1.54 L",
+   "15.3 L",
+   "17.1 L"
+  ],
+  "explanation": "T = 31.5 + 273.15 = 304.7 K. V = (0.685 mol)(0.082058)(304.7 K) / 1.15 atm = 14.9 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-037",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A 1.25 L container holds 0.0425 mol of nitrous oxide (N2O) at 24.0 °C. Using R = 62.36 L&middot;torr/(mol&middot;K), what is the pressure in torr?",
+  "key": "630. torr",
+  "wrong": [
+   "0.829 torr",
+   "50.9 torr",
+   "0.00109 torr"
+  ],
+  "explanation": "T = 24.0 + 273.15 = 297.2 K. P = (0.0425 mol)(62.36)(297.2 K) / 1.25 L = 630. torr.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-038",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A 5.25 L cylinder contains 0.415 mol of argon at 2.05 atm. What is the temperature of the gas in kelvins?",
+  "key": "316 K",
+  "wrong": [
+   "0.00316 K",
+   "0.416 K",
+   "316 °C"
+  ],
+  "explanation": "T = (2.05 atm)(5.25 L) / [(0.415 mol)(0.082058)] = 316 K.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-039",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 1,
+  "calc": 0,
+  "q": "A student will use PV = nRT with the pressure in mmHg and the volume in liters, without converting units. Which value of R must be used?",
+  "key": "62.36 L&middot;torr/(mol&middot;K)",
+  "wrong": [
+   "0.082058 L&middot;atm/(mol&middot;K)",
+   "8.3144 J/(mol&middot;K)",
+   "22.4 L/mol"
+  ],
+  "explanation": "mmHg = torr, so use R = 62.36 L&middot;torr/(mol&middot;K).",
+  "has_figure": []
+ },
+ {
+  "id": "c10-040",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 2,
+  "calc": 0,
+  "q": "A student plugs 455 mL, 735 mmHg, and 25.0 °C directly into PV = nRT with R = 0.082058 L&middot;atm/(mol&middot;K). Which conversions are needed first?",
+  "key": "mL to L, mmHg to atm, and °C to K",
+  "wrong": [
+   "Only °C to K",
+   "mL to L and °C to K only",
+   "mmHg to atm and grams to moles"
+  ],
+  "explanation": "R needs L, atm, and K: convert mL to L, mmHg to atm, and °C to K.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-041",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 3,
+  "calc": 1,
+  "q": "A 285 mL flask holds argon at 738 mmHg and 21.5 °C. How many moles of argon are in the flask?",
+  "key": "0.0114 mol",
+  "wrong": [
+   "8.70 mol",
+   "11.4 mol",
+   "0.157 mol"
+  ],
+  "explanation": "P = 0.9711 atm, V = 0.285 L, T = 21.5 + 273.15 = 294.7 K. n = PV/RT = 0.0114 mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-042",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 1,
+  "calc": 1,
+  "q": "What volume does 0.365 mol of O2 occupy at STP?",
+  "key": "8.18 L",
+  "wrong": [
+   "0.0163 L",
+   "61.4 L",
+   "8.93 L"
+  ],
+  "explanation": "0.365 mol &times; 22.4 L/mol = 8.18 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-043",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "What volume does 7.25 g of methane, CH4 (16.043 g/mol), occupy at STP?",
+  "key": "10.1 L",
+  "wrong": [
+   "162 L",
+   "0.324 L",
+   "0.0202 L"
+  ],
+  "explanation": "7.25 g &divide; 16.043 g/mol = 0.4519 mol; &times; 22.4 L/mol = 10.1 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-044",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 3,
+  "calc": 0,
+  "q": "A student uses 22.4 L/mol to find the volume of 1.00 mol of gas at 37 °C and 1 atm. How does the student's answer compare with the true volume?",
+  "key": "It is too small, because a gas at 37 °C occupies more than 22.4 L per mole.",
+  "wrong": [
+   "It is too large, because a gas at 37 °C occupies less than 22.4 L per mole.",
+   "It is correct, because 22.4 L/mol works for any gas.",
+   "It is correct, because the pressure is 1 atm."
+  ],
+  "explanation": "At 37 °C, 1 mol occupies about 25.5 L, so 22.4 L is too small.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-045",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 3,
+  "calc": 1,
+  "q": "A 1.45 g sample of an unknown gas occupies 0.825 L at 1.05 atm and 27.5 °C. What is its molar mass?",
+  "key": "41.3 g/mol",
+  "wrong": [
+   "3.78 g/mol",
+   "0.0242 g/mol",
+   "1.76 g/mol"
+  ],
+  "explanation": "T = 27.5 + 273.15 = 300.7 K. n = (1.05)(0.825) / [(0.082058)(300.7)] = 0.03511 mol; M = 1.45 g &divide; 0.03511 mol = 41.3 g/mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-046",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 1,
+  "calc": 1,
+  "q": "A 0.842 g sample of a gas fills a 625 mL flask. What is the density of the gas in g/L?",
+  "key": "1.35 g/L",
+  "wrong": [
+   "0.00135 g/L",
+   "0.742 g/L",
+   "0.526 g/L"
+  ],
+  "explanation": "d = 0.842 g &divide; 0.625 L = 1.35 g/L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-047",
+  "sub": "ch10-ideal",
+  "topic": "gases",
+  "d": 2,
+  "calc": 0,
+  "q": "Which problem is solved most directly with PV = nRT rather than the combined gas law?",
+  "key": "Finding how many moles of oxygen are in a tank of known volume, pressure, and temperature",
+  "wrong": [
+   "Finding the new volume of a balloon after it is warmed and rises to a lower pressure",
+   "Finding the new pressure in a rigid can after it is heated",
+   "Finding the new volume of a gas after it is compressed at constant temperature"
+  ],
+  "explanation": "One set of conditions and an unknown amount: finding moles in a tank uses PV = nRT.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-048",
+  "sub": "ch10-stoich",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "Hydrogen peroxide decomposes: 2 H2O2(aq) &rarr; 2 H2O(l) + O2(g). What volume of O2 at STP forms from 8.50 g of H2O2 (34.014 g/mol)?",
+  "key": "2.80 L",
+  "wrong": [
+   "5.60 L",
+   "11.2 L",
+   "95.2 L"
+  ],
+  "explanation": "8.50 g &divide; 34.014 g/mol = 0.2499 mol H2O2; &times; &frac12; = 0.1249 mol O2; &times; 22.4 L/mol = 2.80 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-049",
+  "sub": "ch10-stoich",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "In the reaction N2(g) + 3 H2(g) &rarr; 2 NH3(g), what mass of ammonia (NH3, 17.031 g/mol) forms from 6.72 L of N2 at STP with excess H2?",
+  "key": "10.2 g",
+  "wrong": [
+   "5.11 g",
+   "2.55 g",
+   "229 g"
+  ],
+  "explanation": "6.72 L &divide; 22.4 L/mol = 0.3000 mol N2; &times; 2 = 0.6000 mol NH3; &times; 17.031 g/mol = 10.2 g.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-050",
+  "sub": "ch10-stoich",
+  "topic": "gases",
+  "d": 3,
+  "calc": 1,
+  "q": "Propane burns in a camp stove: C3H8(g) + 5 O2(g) &rarr; 3 CO2(g) + 4 H2O(g). What volume of CO2 at 0.975 atm and 27.5 °C forms from 3.65 g of C3H8 (44.097 g/mol)?",
+  "key": "6.28 L",
+  "wrong": [
+   "5.56 L",
+   "2.09 L",
+   "0.575 L"
+  ],
+  "explanation": "3.65 g &divide; 44.097 = 0.08277 mol C3H8; &times; 3 = 0.2483 mol CO2. T = 27.5 + 273.15 = 300.7 K. V = (0.2483)(0.082058)(300.7) / 0.975 = 6.28 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-051",
+  "sub": "ch10-stoich",
+  "topic": "gases",
+  "d": 3,
+  "calc": 1,
+  "q": "Zinc reacts with hydrochloric acid: Zn(s) + 2 HCl(aq) &rarr; ZnCl2(aq) + H2(g). What mass of zinc (65.39 g/mol) is needed to make 0.385 L of H2 at 0.982 atm and 23.5 °C?",
+  "key": "1.02 g",
+  "wrong": [
+   "12.8 g",
+   "1.12 g",
+   "2.03 g"
+  ],
+  "explanation": "T = 23.5 + 273.15 = 296.7 K. n = (0.982)(0.385) / [(0.082058)(296.7)] = 0.01553 mol H2 = mol Zn; &times; 65.39 g/mol = 1.02 g.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-052",
+  "sub": "ch10-stoich",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "Ethane burns: 2 C2H6(g) + 7 O2(g) &rarr; 4 CO2(g) + 6 H2O(g). What volume of water vapor forms when 3.20 L of C2H6 burns, with both gases measured at the same temperature and pressure?",
+  "key": "9.60 L",
+  "wrong": [
+   "1.07 L",
+   "3.20 L",
+   "19.2 L"
+  ],
+  "explanation": "3.20 L &times; 6/2 = 9.60 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-053",
+  "sub": "ch10-stoich",
+  "topic": "gases",
+  "d": 2,
+  "calc": 0,
+  "q": "For 2 H2(g) + O2(g) &rarr; 2 H2O(l), a student says, &ldquo;4.0 L of H2 makes 4.0 L of water, because the coefficients are 2 : 2.&rdquo; What is wrong?",
+  "key": "Volume ratios apply only to gases; the water here is a liquid.",
+  "wrong": [
+   "Nothing; coefficients always give volume ratios.",
+   "The ratio should be 2 : 1, so 4.0 L of H2 makes 2.0 L of water.",
+   "Volume ratios apply only at STP."
+  ],
+  "explanation": "Volume ratios come from Avogadro's law, which is about gases: liquid water does not follow it.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-054",
+  "sub": "ch10-stoich",
+  "topic": "gases",
+  "d": 3,
+  "calc": 1,
+  "q": "Heating potassium chlorate releases oxygen: 2 KClO3(s) &rarr; 2 KCl(s) + 3 O2(g). What volume of O2 at 1.02 atm and 22.5 °C forms from 4.25 g of KClO3 (122.55 g/mol)?",
+  "key": "1.24 L",
+  "wrong": [
+   "0.825 L",
+   "0.550 L",
+   "0.0942 L"
+  ],
+  "explanation": "4.25 g &divide; 122.55 = 0.03468 mol; &times; 3/2 = 0.05202 mol O2. T = 22.5 + 273.15 = 295.7 K. V = 1.24 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-055",
+  "sub": "ch10-stoich",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "Yeast ferments glucose: C6H12O6(aq) &rarr; 2 C2H5OH(aq) + 2 CO2(g). What volume of CO2, measured at STP, comes from 15.5 g of glucose (180.156 g/mol)?",
+  "key": "3.85 L",
+  "wrong": [
+   "1.93 L",
+   "694 L",
+   "0.00768 L"
+  ],
+  "explanation": "15.5 &divide; 180.156 = 0.08604 mol; &times; 2 = 0.1721 mol CO2; &times; 22.4 = 3.85 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-056",
+  "sub": "ch10-stoich",
+  "topic": "gases",
+  "d": 1,
+  "calc": 1,
+  "q": "Hot nitrous oxide decomposes: 2 N2O(g) &rarr; 2 N2(g) + O2(g). What volume of O2 forms from 0.575 L of N2O, with both gases measured at the same temperature and pressure?",
+  "key": "0.288 L",
+  "wrong": [
+   "1.15 L",
+   "0.575 L",
+   "0.0128 L"
+  ],
+  "explanation": "0.575 L &times; 1/2 = 0.288 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-057",
+  "sub": "ch10-stoich",
+  "topic": "gases",
+  "d": 3,
+  "calc": 1,
+  "q": "An antacid tablet neutralizes stomach acid: CaCO3(s) + 2 HCl(aq) &rarr; CaCl2(aq) + H2O(l) + CO2(g). What volume of CO2 at 0.988 atm and 37.0 °C forms from 0.750 g of CaCO3 (100.09 g/mol)?",
+  "key": "0.193 L",
+  "wrong": [
+   "0.168 L",
+   "0.0230 L",
+   "0.386 L"
+  ],
+  "explanation": "0.750 &divide; 100.09 = 0.007493 mol CO2. T = 37.0 + 273.15 = 310.2 K. V = (0.007493)(0.082058)(310.2) / 0.988 = 0.193 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-058",
+  "sub": "ch10-stoich",
+  "topic": "gases",
+  "d": 3,
+  "calc": 1,
+  "q": "Methane burns: CH4(g) + 2 O2(g) &rarr; CO2(g) + 2 H2O(g). What mass of CH4 (16.043 g/mol) uses up 5.35 L of O2 measured at 1.10 atm and 19.5 °C?",
+  "key": "1.97 g",
+  "wrong": [
+   "3.93 g",
+   "7.86 g",
+   "1.92 g"
+  ],
+  "explanation": "T = 19.5 + 273.15 = 292.7 K. n O2 = (1.10)(5.35) / [(0.082058)(292.7)] = 0.2451 mol; &divide; 2 = 0.1225 mol CH4; &times; 16.043 = 1.97 g.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-059",
+  "sub": "ch10-dalton",
+  "topic": "gases",
+  "d": 1,
+  "calc": 1,
+  "q": "A scuba tank holds a nitrox mixture in which the partial pressure of O2 is 6.82 atm and that of N2 is 13.9 atm. What is the total pressure?",
+  "key": "20.7 atm",
+  "wrong": [
+   "7.1 atm",
+   "10.4 atm",
+   "20.72 atm"
+  ],
+  "explanation": "6.82 + 13.9 = 20.7 atm.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-060",
+  "sub": "ch10-dalton",
+  "topic": "gases",
+  "d": 1,
+  "calc": 1,
+  "q": "A tank contains only helium and oxygen at a total pressure of 2.65 atm. The partial pressure of helium is 1.95 atm. What is the partial pressure of oxygen?",
+  "key": "0.70 atm",
+  "wrong": [
+   "4.60 atm",
+   "0.736 atm",
+   "1.33 atm"
+  ],
+  "explanation": "2.65 &minus; 1.95 = 0.70 atm.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-061",
+  "sub": "ch10-dalton",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A gas mixture contains 0.385 mol N2, 0.125 mol O2, and 0.0400 mol CO2. What is the mole fraction of O2?",
+  "key": "0.227",
+  "wrong": [
+   "0.125",
+   "0.325",
+   "4.40"
+  ],
+  "explanation": "ntotal = 0.550 mol; XO2 = 0.125 / 0.550 = 0.227.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-062",
+  "sub": "ch10-dalton",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "During dental sedation, a nitrous oxide&ndash;oxygen mixture is delivered at a total pressure of 1.02 atm. The mole fraction of N2O is 0.650. What is the partial pressure of N2O?",
+  "key": "0.663 atm",
+  "wrong": [
+   "0.637 atm",
+   "1.57 atm",
+   "0.357 atm"
+  ],
+  "explanation": "0.650 &times; 1.02 atm = 0.663 atm.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-063",
+  "sub": "ch10-dalton",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "Dry air is 78.1% N2 by moles. What is the partial pressure of N2 when the barometer reads 749 mmHg?",
+  "key": "585 mmHg",
+  "wrong": [
+   "5.85 &times; 104 mmHg",
+   "959 mmHg",
+   "671 mmHg"
+  ],
+  "explanation": "PN2 = 0.781 &times; 749 mmHg = 585 mmHg.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-064",
+  "sub": "ch10-dalton",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A diving cylinder holds 4.45 mol of helium and 1.15 mol of oxygen at a total pressure of 165 atm. What is the partial pressure of oxygen?",
+  "key": "33.9 atm",
+  "wrong": [
+   "42.6 atm",
+   "131 atm",
+   "190. atm"
+  ],
+  "explanation": "ntotal = 5.60 mol; XO2 = 0.2054; PO2 = 0.2054 &times; 165 = 33.9 atm.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-065",
+  "sub": "ch10-dalton",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "A student collects oxygen over water at 30.0 °C when the room pressure is 751 mmHg. Use the table. What is the partial pressure of the oxygen?",
+  "key": "719 mmHg",
+  "wrong": [
+   "727 mmHg",
+   "783 mmHg",
+   "751 mmHg"
+  ],
+  "explanation": "751 &minus; 31.8 = 719 mmHg.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c10-066",
+  "sub": "ch10-dalton",
+  "topic": "gases",
+  "d": 3,
+  "calc": 1,
+  "q": "A student collects 48.5 mL of oxygen over water at 20.0 °C. The room pressure is 746 mmHg, and water's vapor pressure at 20.0 °C is 17.5 mmHg. How many moles of O2 were collected?",
+  "key": "0.00193 mol",
+  "wrong": [
+   "0.00198 mol",
+   "1.47 mol",
+   "0.00203 mol"
+  ],
+  "explanation": "PO2 = 729 mmHg = 0.9592 atm; T = 20.0 + 273.15 = 293.2 K. n = (0.9592)(0.0485) / [(0.082058)(293.2)] = 0.00193 mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-067",
+  "sub": "ch10-dalton",
+  "topic": "gases",
+  "d": 2,
+  "calc": 1,
+  "q": "On the summit of Mount Whitney the air pressure is about 438 mmHg. Use the composition of dry air in the table. What is the partial pressure of oxygen on the summit?",
+  "key": "91.8 mmHg",
+  "wrong": [
+   "9.18 &times; 103 mmHg",
+   "159 mmHg",
+   "2.09 &times; 103 mmHg"
+  ],
+  "explanation": "0.2095 &times; 438 mmHg = 91.8 mmHg, much lower than at sea level, which is why breathing is harder at altitude.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c10-068",
+  "sub": "ch10-dalton",
+  "topic": "gases",
+  "d": 1,
+  "calc": 0,
+  "q": "Why must water's vapor pressure be subtracted from the room pressure when a gas is collected over water?",
+  "key": "The gas in the tube is a mixture of the collected gas and water vapor, and together they balance the room pressure.",
+  "wrong": [
+   "Water vapor is heavier than the collected gas, so it pushes down on the tube.",
+   "The water absorbs some of the gas, lowering its pressure.",
+   "The room pressure must be converted to the pressure of liquid water."
+  ],
+  "explanation": "The tube holds gas plus water vapor; Dalton's law says their pressures add to Patm.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-069",
+  "sub": "ch10-dalton",
+  "topic": "gases",
+  "d": 2,
+  "calc": 0,
+  "q": "Helium is pumped into a rigid tank that already contains oxygen, at constant temperature. What happens to the partial pressure of the oxygen?",
+  "key": "It stays the same, while the total pressure increases.",
+  "wrong": [
+   "It decreases, because the helium pushes the oxygen aside.",
+   "It increases, because the total pressure increases.",
+   "It decreases, because the mole fraction of oxygen decreases while the total pressure stays the same."
+  ],
+  "explanation": "Oxygen's moles, V, and T are unchanged, so its partial pressure stays the same; the total rises.",
+  "has_figure": []
+ },
+ {
+  "id": "c10-070",
+  "sub": "ch10-dalton",
+  "topic": "gases",
+  "d": 3,
+  "calc": 1,
+  "q": "Mateo Herrera, who has asthma, is on supplemental oxygen, and the air he breathes in has an O2 mole fraction of about 0.285. In his airways it is warmed to 37.0 °C and saturated with water vapor (47.1 mmHg). If the air pressure is 758 mmHg, what is the partial pressure of O2 in the humidified air?",
+  "key": "203 mmHg",
+  "wrong": [
+   "216 mmHg",
+   "229 mmHg",
+   "508 mmHg"
+  ],
+  "explanation": "758 &minus; 47.1 = 711 mmHg; 0.285 &times; 711 = 203 mmHg.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-001",
+  "sub": "ch11-dissolve",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "A hand sanitizer gel is 62% ethanol and 38% water by volume. Which component is the solvent?",
+  "key": "Ethanol, because it is present in the larger amount",
+  "wrong": [
+   "Water, because water is always the solvent",
+   "The gelling agent, because it holds the mixture together",
+   "Neither; a gel cannot contain a solution"
+  ],
+  "explanation": "62% is more than 38%, so ethanol is the solvent and water is the solute.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-002",
+  "sub": "ch11-dissolve",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "Which substance is most soluble in water?",
+  "key": "Urea, CH4N2O, which has N&ndash;H groups and an oxygen atom",
+  "wrong": [
+   "Pentane, C5H12",
+   "Carbon disulfide, CS2",
+   "Nitrogen, N2"
+  ],
+  "explanation": "Urea hydrogen bonds with water: urea is the most soluble (like dissolves like).",
+  "has_figure": []
+ },
+ {
+  "id": "c11-003",
+  "sub": "ch11-dissolve",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "Which pair of liquids is immiscible (forms two layers)?",
+  "key": "Water and hexane (C6H14)",
+  "wrong": [
+   "Water and ethanol (C2H5OH)",
+   "Water and acetone (C3H6O)",
+   "Hexane and octane (C8H18)"
+  ],
+  "explanation": "Polar water and nonpolar hexane do not mix: water and hexane.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-004",
+  "sub": "ch11-dissolve",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 0,
+  "q": "When NaCl dissolves in water, how are the water molecules arranged around the ions?",
+  "key": "The &delta;&minus; oxygen ends face Na+, and the &delta;+ hydrogen ends face Cl&minus;.",
+  "wrong": [
+   "The &delta;+ hydrogen ends face Na+, and the &delta;&minus; oxygen ends face Cl&minus;.",
+   "Water molecules form covalent bonds to Na+ and Cl&minus;.",
+   "Water molecules stay away from the ions, because water molecules have no charge."
+  ],
+  "explanation": "Ion&ndash;dipole attractions: oxygen ends toward Na+, hydrogen ends toward Cl&minus;.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-005",
+  "sub": "ch11-dissolve",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "Which aqueous solution conducts electricity well?",
+  "key": "NH4Cl(aq)",
+  "wrong": [
+   "sucrose, C12H22O11(aq)",
+   "glycerol, C3H8O3(aq)",
+   "acetone, C3H6O(aq)"
+  ],
+  "explanation": "Only the ionic compound makes ions: NH4Cl(aq) is a strong electrolyte.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-006",
+  "sub": "ch11-dissolve",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "A glucose solution does not conduct electricity. Why?",
+  "key": "Glucose dissolves as whole molecules, so the solution contains no ions.",
+  "wrong": [
+   "Glucose does not dissolve in water.",
+   "Glucose breaks apart into C, H, and O atoms, which are neutral.",
+   "Glucose forms ions, but its ions are too large to move."
+  ],
+  "explanation": "No ions: glucose dissolves as whole molecules, so it is a nonelectrolyte.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-007",
+  "sub": "ch11-dissolve",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "The solubility of NH4Cl is 37.2 g per 100 g of water at 20 °C. A student stirs 30.5 g of NH4Cl into 100. g of water at 20 °C, and it all dissolves. How is the solution described?",
+  "key": "Unsaturated",
+  "wrong": [
+   "Saturated",
+   "Supersaturated",
+   "Immiscible"
+  ],
+  "explanation": "30.5 g &lt; 37.2 g per 100 g of water: unsaturated.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-008",
+  "sub": "ch11-dissolve",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 0,
+  "q": "The solubility of sucrose is 204 g per 100 g of water at 20 °C. A candy maker dissolves 110. g of sucrose in 50.0 g of hot water, then cools it carefully to 20 °C without any crystals forming. How is the solution described at 20 °C?",
+  "key": "Supersaturated",
+  "wrong": [
+   "Unsaturated",
+   "Saturated",
+   "Not a solution, because there is more sugar than water"
+  ],
+  "explanation": "Capacity at 20 °C: 204 g &times; 50.0/100 = 102 g. 110. g &gt; 102 g: supersaturated.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-009",
+  "sub": "ch11-dissolve",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "A crystal of sugar is dropped into a saturated sugar solution at constant temperature. What happens?",
+  "key": "The crystal stays undissolved, and the amount dissolved does not change.",
+  "wrong": [
+   "The crystal dissolves, because sugar is soluble in water.",
+   "Extra sugar crystallizes out of the solution onto the crystal.",
+   "The solution becomes supersaturated."
+  ],
+  "explanation": "Saturated: the crystal stays undissolved.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-010",
+  "sub": "ch11-dissolve",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 0,
+  "q": "Vitamin D is a large molecule made mostly of carbon and hydrogen, with only one O&ndash;H group. Where in the body does it dissolve best?",
+  "key": "In fat (adipose) tissue, because both are mostly nonpolar",
+  "wrong": [
+   "In blood plasma, because plasma is mostly water",
+   "In urine, because the kidneys filter it out",
+   "In stomach acid, because acids dissolve all molecules"
+  ],
+  "explanation": "Mostly nonpolar, so it dissolves in fat (a fat-soluble vitamin).",
+  "has_figure": []
+ },
+ {
+  "id": "c11-011",
+  "sub": "ch11-solubility",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "Use the table. A saturated solution of NH4Cl made with 100. g of water at 60.0 °C is cooled to 20.0 °C. What mass of NH4Cl crystallizes?",
+  "key": "18.1 g",
+  "wrong": [
+   "55.3 g",
+   "37.2 g",
+   "92.5 g"
+  ],
+  "explanation": "55.3 g &minus; 37.2 g = 18.1 g crystallizes.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c11-012",
+  "sub": "ch11-solubility",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 0,
+  "q": "The graph shows the solubility of NH4Cl and NaCl in water. Which statement does it support?",
+  "key": "Warming from 20 °C to 80 °C raises the solubility of NH4Cl far more than that of NaCl.",
+  "wrong": [
+   "Both salts become less soluble as the temperature rises.",
+   "NaCl is more soluble than NH4Cl at every temperature shown.",
+   "The solubility of NaCl rises more steeply with temperature than that of NH4Cl."
+  ],
+  "explanation": "NH4Cl gains about 28 g per 100 g of water from 20 °C to 80 °C; NaCl gains about 2 g. NH4Cl changes far more.",
+  "has_figure": [
+   "plot"
+  ]
+ },
+ {
+  "id": "c11-013",
+  "sub": "ch11-solubility",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "Which water sample can hold the most dissolved oxygen? (The air above each is the same.)",
+  "key": "A mountain stream at 5 °C",
+  "wrong": [
+   "A pond at 15 °C",
+   "A river at 25 °C",
+   "Water near a warm discharge at 35 °C"
+  ],
+  "explanation": "Gas solubility falls as temperature rises: the 5 °C stream holds the most O2.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-014",
+  "sub": "ch11-solubility",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "At 20.0 °C, 1.69 g of CO2 dissolves in 1.00 L of water when the CO2 pressure is 1.00 atm. A soda is bottled at 20.0 °C under a CO2 pressure of 3.45 atm. What is the solubility of CO2 in it?",
+  "key": "5.83 g/L",
+  "wrong": [
+   "0.490 g/L",
+   "2.04 g/L",
+   "1.69 g/L"
+  ],
+  "explanation": "S2 = 1.69 g/L &times; 3.45 atm / 1.00 atm = 5.83 g/L.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-015",
+  "sub": "ch11-solubility",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "Plasma dissolves about 4.35 mg of O2 per liter when the O2 partial pressure in the alveoli is 0.132 atm. In a hyperbaric chamber the O2 partial pressure is raised to 2.45 atm at the same body temperature. What dissolved O2 concentration does Henry's law predict?",
+  "key": "80.7 mg/L",
+  "wrong": [
+   "0.234 mg/L",
+   "10.7 mg/L",
+   "4.35 mg/L"
+  ],
+  "explanation": "S2 = 4.35 mg/L &times; 2.45 atm / 0.132 atm = 80.7 mg/L.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-016",
+  "sub": "ch11-solubility",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 0,
+  "q": "A scuba diver rises to the surface too quickly. Why can nitrogen bubbles form in the diver's blood?",
+  "key": "The pressure drops, so less N2 can stay dissolved, and the extra comes out of solution as bubbles.",
+  "wrong": [
+   "The pressure drops, so more N2 dissolves until the blood is supersaturated with it.",
+   "The water near the surface is warmer, which makes N2 more soluble in blood.",
+   "N2 reacts with the blood at low pressure to form a new gas."
+  ],
+  "explanation": "Less pressure, less dissolved gas: N2 comes out of solution as bubbles.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-017",
+  "sub": "ch11-solubility",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "The solubility of KBr is 94.9 g per 100. g of water at 80.0 °C and 65.3 g per 100. g at 20.0 °C. A saturated solution made with 75.0 g of water at 80.0 °C is cooled to 20.0 °C. What mass of KBr crystallizes?",
+  "key": "22.2 g",
+  "wrong": [
+   "29.6 g",
+   "71.2 g",
+   "49.0 g"
+  ],
+  "explanation": "(94.9 &minus; 65.3) g per 100. g &times; 75.0 g/100. g = 22.2 g.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-018",
+  "sub": "ch11-solubility",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "Why do soda makers chill the drink and seal it under high CO2 pressure?",
+  "key": "Low temperature and high CO2 pressure both make CO2 more soluble.",
+  "wrong": [
+   "Low temperature makes CO2 less soluble, so high pressure is needed to make up for it.",
+   "High pressure keeps the sugar dissolved; the CO2 does not depend on pressure.",
+   "Cold soda is denser, so it traps gas no matter what the pressure is."
+  ],
+  "explanation": "Cold and high pressure both raise the solubility of CO2.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-019",
+  "sub": "ch11-solubility",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 0,
+  "q": "A sealed solution of NaCl in water is put under 5 atm of pressure at constant temperature. What happens to the solubility of the NaCl?",
+  "key": "Almost nothing; pressure affects the solubility of gases, not solids.",
+  "wrong": [
+   "It rises five times, by Henry's law.",
+   "It falls, because the pressure squeezes ions out of solution.",
+   "It rises, because pressure works like heating."
+  ],
+  "explanation": "Pressure matters only for gases: NaCl's solubility hardly changes.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-020",
+  "sub": "ch11-solubility",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 0,
+  "q": "A glass of cold tap water is left on the counter. As it warms to room temperature, tiny bubbles form on the inside of the glass. What are they, and why do they form?",
+  "key": "Dissolved air coming out of solution, because gases are less soluble in warmer water",
+  "wrong": [
+   "Water vapor, because the water is starting to boil",
+   "Dissolved air coming out of solution, because gases are more soluble in warmer water",
+   "Dissolved minerals crystallizing, because solids are less soluble in warmer water"
+  ],
+  "explanation": "Warmer water holds less gas: the bubbles are dissolved air leaving solution.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-021",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "A student dissolves 4.50 g of NaCl in 85.5 g of water. What is the mass percent of NaCl?",
+  "key": "5.00%",
+  "wrong": [
+   "5.26%",
+   "95.0%",
+   "0.0500%"
+  ],
+  "explanation": "4.50 g + 85.5 g = 90.0 g of solution; 4.50/90.0 &times; 100% = 5.00%.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-022",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 1,
+  "q": "A pharmacy dissolves 16.8 g of sodium bicarbonate (NaHCO3) in water to make 200.0 mL of solution. What is the concentration in %(m/v)?",
+  "key": "8.40%",
+  "wrong": [
+   "0.0840%",
+   "1.19 &times; 103%",
+   "8.40 &times; 103%"
+  ],
+  "explanation": "16.8 g / 200.0 mL &times; 100% = 8.40%.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-023",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "How many grams of NaCl are in a 250. mL bag of 3.00% (m/v) NaCl, a hypertonic saline?",
+  "key": "7.50 g",
+  "wrong": [
+   "750. g",
+   "0.750 g",
+   "83.3 g"
+  ],
+  "explanation": "250. mL &times; (3.00 g / 100 mL) = 7.50 g.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-024",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 1,
+  "q": "A lab technician mixes 35.0 mL of ethanol with enough water to make 50.0 mL of solution. What is the %(v/v) of ethanol?",
+  "key": "70.0%",
+  "wrong": [
+   "143%",
+   "0.700%",
+   "41.2%"
+  ],
+  "explanation": "35.0 mL / 50.0 mL &times; 100% = 70.0%.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-025",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "A tap-water sample contains 0.845 mg of fluoride in 1.25 L. What is the fluoride concentration in ppm?",
+  "key": "0.676 ppm",
+  "wrong": [
+   "676 ppm",
+   "1.48 ppm",
+   "0.845 ppm"
+  ],
+  "explanation": "0.845 mg / 1.25 L = 0.676 mg/L = 0.676 ppm.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-026",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "A rural Valley well contains 0.00865 mg of arsenic per liter. What is this concentration in ppb?",
+  "key": "8.65 ppb",
+  "wrong": [
+   "8.65 &times; 103 ppb",
+   "8.65 &times; 10&minus;6 ppb",
+   "0.00865 ppb"
+  ],
+  "explanation": "0.00865 mg/L &times; 1000 &mu;g/mg = 8.65 &mu;g/L = 8.65 ppb.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-027",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "A Valley well contains 0.00000715 mg/L of 1,2,3-trichloropropane (1,2,3-TCP). What is this concentration in ppt (parts per trillion)?",
+  "key": "7.15 ppt",
+  "wrong": [
+   "0.00715 ppt",
+   "7.15 &times; 10&minus;6 ppt",
+   "7.15 &times; 103 ppt"
+  ],
+  "explanation": "0.00000715 mg/L &times; 106 ng/mg = 7.15 ppt, above the 5 ppt limit.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-028",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "A 125.0 g sample of canned tuna contains 0.0410 mg of mercury. What is the mercury concentration in ppm by mass?",
+  "key": "0.328 ppm",
+  "wrong": [
+   "328 ppm",
+   "3.28 &times; 10&minus;4 ppm",
+   "3.05 &times; 103 ppm"
+  ],
+  "explanation": "0.0410 mg / 0.1250 kg = 0.328 ppm.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-029",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "What is the molarity of a solution that contains 2.45 g of KBr (119.00 g/mol) in 75.0 mL of solution?",
+  "key": "0.275 M",
+  "wrong": [
+   "2.75 &times; 10&minus;4 M",
+   "32.7 M",
+   "3.64 M"
+  ],
+  "explanation": "2.45 g / 119.00 g/mol = 0.02059 mol; 0.02059 mol / 0.0750 L = 0.275 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-030",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "A cell-culture lab dissolves 9.70 g of glucose (C6H12O6, 180.156 g/mol) in water to make 200.0 mL of solution. What is the molarity of glucose?",
+  "key": "0.269 M",
+  "wrong": [
+   "2.69 &times; 10&minus;4 M",
+   "48.5 M",
+   "0.0538 M"
+  ],
+  "explanation": "0.05384 mol / 0.2000 L = 0.269 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-031",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "A household bleach is 6.00% (m/m) sodium hypochlorite, NaOCl (74.44 g/mol), and has a density of 1.08 g/mL. What is the molarity of NaOCl?",
+  "key": "0.870 M",
+  "wrong": [
+   "0.806 M",
+   "0.746 M",
+   "64.8 M"
+  ],
+  "explanation": "0.08060 mol / 0.09259 L = 0.870 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-032",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "Concentrated hydrochloric acid is 37.2% (m/m) HCl (36.46 g/mol) with a density of 1.19 g/mL. What is its molarity?",
+  "key": "12.1 M",
+  "wrong": [
+   "10.2 M",
+   "8.57 M",
+   "443 M"
+  ],
+  "explanation": "1.020 mol / 0.08403 L = 12.1 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-033",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "An IV bag is labeled 0.9% (m/v) NaCl. What does the label mean?",
+  "key": "0.9 g of NaCl in every 100 mL of solution",
+  "wrong": [
+   "0.9 g of NaCl in every 100 g of water",
+   "0.9 g of NaCl added to every 100 mL of water",
+   "0.9 mol of NaCl in every liter of solution"
+  ],
+  "explanation": "0.9 g NaCl per 100 mL of solution.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-034",
+  "sub": "ch11-conc",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 0,
+  "q": "A student adds 0.175 mol of KCl to 1.000 L of water and stirs until it dissolves. Why is the molarity not exactly 0.175 M?",
+  "key": "Molarity uses liters of solution, and the solution's volume is not exactly 1.000 L.",
+  "wrong": [
+   "Molarity uses kilograms of solvent, not liters.",
+   "KCl separates into two ions, so the molarity doubles.",
+   "The moles of KCl decrease as it dissolves."
+  ],
+  "explanation": "M = mol / L of solution, and the solution is not exactly 1.000 L.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-035",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 1,
+  "q": "How many moles of NaOH are in 36.5 mL of 0.225 M NaOH?",
+  "key": "0.00821 mol",
+  "wrong": [
+   "8.21 mol",
+   "0.162 mol",
+   "6.16 mol"
+  ],
+  "explanation": "0.0365 L &times; 0.225 mol/L = 0.00821 mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-036",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "What mass of CaCl2 (110.98 g/mol) is needed to prepare 200.0 mL of 0.325 M CaCl2?",
+  "key": "7.21 g",
+  "wrong": [
+   "7.21 &times; 103 g",
+   "0.0650 g",
+   "5.86 &times; 10&minus;4 g"
+  ],
+  "explanation": "0.06500 mol &times; 110.98 g/mol = 7.21 g.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-037",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "What volume of 0.125 M HCl contains 2.85 &times; 10&minus;3 mol of HCl? Give the answer in mL.",
+  "key": "22.8 mL",
+  "wrong": [
+   "0.0228 mL",
+   "0.356 mL",
+   "43.9 mL"
+  ],
+  "explanation": "0.0228 L = 22.8 mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-038",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "A 12.0 mL portion of 2.40 M HCl is mixed with 36.0 mL of water. What is the molarity of the diluted HCl?",
+  "key": "0.600 M",
+  "wrong": [
+   "0.800 M",
+   "9.60 M",
+   "28.8 M"
+  ],
+  "explanation": "V2 = 48.0 mL; M2 = (2.40 M)(12.0 mL) / 48.0 mL = 0.600 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-039",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "How many milliliters of 1.25 M stock are needed to prepare 50.00 mL of 35.0 mM solution?",
+  "key": "1.40 mL",
+  "wrong": [
+   "1.40 &times; 103 mL",
+   "1.79 &times; 103 mL",
+   "8.75 &times; 10&minus;4 mL"
+  ],
+  "explanation": "(0.0350 M)(50.00 mL) / 1.25 M = 1.40 mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-040",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "A 2.00 mL sample of 0.180 M glucose is diluted to a total volume of 50.0 mL. What is the new concentration in millimolar (mM)?",
+  "key": "7.20 mM",
+  "wrong": [
+   "0.00720 mM",
+   "4.50 &times; 103 mM",
+   "7.20 &times; 10&minus;6 mM"
+  ],
+  "explanation": "0.00720 M &times; 1000 mM/M = 7.20 mM.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-041",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "A 16.0 mL sample of 0.880 M KCl is to be diluted to 0.275 M. How much water must be added?",
+  "key": "35.2 mL",
+  "wrong": [
+   "51.2 mL",
+   "5.00 mL",
+   "67.2 mL"
+  ],
+  "explanation": "V2 = (0.880)(16.0) / 0.275 = 51.2 mL; water = 51.2 &minus; 16.0 = 35.2 mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-042",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "A urine culture has about 4.2 &times; 106 bacteria per mL. A technician adds 0.50 mL of it to 4.5 mL of sterile saline and mixes, then adds 0.50 mL of that tube to another 4.5 mL of saline (two dilutions in all). What is the concentration in the second tube?",
+  "key": "4.2 &times; 104 bacteria/mL",
+  "wrong": [
+   "5.2 &times; 104 bacteria/mL",
+   "4.2 &times; 105 bacteria/mL",
+   "2.1 &times; 105 bacteria/mL"
+  ],
+  "explanation": "4.2 &times; 106 &divide; 100 = 4.2 &times; 104 bacteria/mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-043",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "How many milliliters of 70.0% (v/v) isopropyl alcohol are needed to make 400.0 mL of 45.0% (v/v) isopropyl alcohol?",
+  "key": "257 mL",
+  "wrong": [
+   "622 mL",
+   "143 mL",
+   "7.88 mL"
+  ],
+  "explanation": "V1 = (45.0)(400.0) / 70.0 = 257 mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-044",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "When a solution is diluted with water, which quantity stays the same?",
+  "key": "The moles of solute",
+  "wrong": [
+   "The molarity",
+   "The volume of solution",
+   "The mass of the solution"
+  ],
+  "explanation": "Moles of solute are unchanged by dilution.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-045",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "What volume of 0.355 M NaCl (58.44 g/mol) contains 2.40 g of NaCl? Give the answer in mL.",
+  "key": "116 mL",
+  "wrong": [
+   "6.76 &times; 103 mL",
+   "14.6 mL",
+   "0.116 mL"
+  ],
+  "explanation": "0.04107 mol &divide; 0.355 M = 0.116 L = 116 mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-046",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "A 5.00 mL blood sample has a glucose concentration of 5.6 mM. How many moles of glucose does it contain?",
+  "key": "2.8 &times; 10&minus;5 mol",
+  "wrong": [
+   "0.028 mol",
+   "28 mol",
+   "2.8 &times; 10&minus;8 mol"
+  ],
+  "explanation": "(0.0056 mol/L)(0.00500 L) = 2.8 &times; 10&minus;5 mol.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-047",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "A technician pipets 4.00 mL of a stock solution into a flask and dilutes it to a total of 50.0 mL. The diluted solution is 0.0328 M. What was the molarity of the stock?",
+  "key": "0.410 M",
+  "wrong": [
+   "0.00262 M",
+   "1.64 M",
+   "0.0328 M"
+  ],
+  "explanation": "M1 = (0.0328 M)(50.0 mL) / 4.00 mL = 0.410 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-048",
+  "sub": "ch11-dilution",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "Which is the correct way to prepare 100.0 mL of a dilute solution from a stock solution with a 100-mL volumetric flask?",
+  "key": "Pipet the calculated volume of stock into the flask, then add water up to the line and mix.",
+  "wrong": [
+   "Pipet the calculated volume of stock into the flask, then add 100.0 mL of water.",
+   "Fill the flask to the line with water, then pipet in the stock.",
+   "Pipet 100.0 mL of stock into the flask, then add the calculated volume of water."
+  ],
+  "explanation": "Stock in first, then water to the line, so the total is exactly 100.0 mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-049",
+  "sub": "ch11-titration",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "What volume of 0.185 M KI reacts completely with 21.5 mL of 0.135 M Pb(NO3)2? Pb(NO3)2(aq) + 2 KI(aq) &rarr; PbI2(s) + 2 KNO3(aq)",
+  "key": "31.4 mL",
+  "wrong": [
+   "15.7 mL",
+   "7.84 mL",
+   "1.07 mL"
+  ],
+  "explanation": "0.002903 mol &times; 2 = 0.005805 mol KI; &divide; 0.185 M = 31.4 mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-050",
+  "sub": "ch11-titration",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "Calcium carbonate, the scale that builds up in Valley pipes with hard water, can be made by precipitation. What mass of CaCO3 (100.09 g/mol) forms when 35.0 mL of 0.0860 M CaCl2 reacts with excess Na2CO3? CaCl2(aq) + Na2CO3(aq) &rarr; CaCO3(s) + 2 NaCl(aq)",
+  "key": "0.301 g",
+  "wrong": [
+   "301 g",
+   "0.00301 g",
+   "3.01 &times; 10&minus;5 g"
+  ],
+  "explanation": "0.003010 mol &times; 100.09 g/mol = 0.301 g.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-051",
+  "sub": "ch11-titration",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "A 15.00 mL sample of HNO3 is titrated with 0.1125 M NaOH to a phenolphthalein endpoint. Use the buret readings in the table. What is the molarity of the HNO3? HNO3(aq) + NaOH(aq) &rarr; NaNO3(aq) + H2O(l)",
+  "key": "0.1680 M",
+  "wrong": [
+   "0.1774 M",
+   "0.07533 M",
+   "0.1125 M"
+  ],
+  "explanation": "22.40 mL NaOH; 0.002520 mol; 0.002520 mol / 0.01500 L = 0.1680 M.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c11-052",
+  "sub": "ch11-titration",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "To standardize a NaOH solution, a student dissolves 0.1715 g of oxalic acid, H2C2O4 (90.034 g/mol), in water and titrates it with the NaOH. The endpoint takes 27.33 mL. What is the molarity of the NaOH? H2C2O4(aq) + 2 NaOH(aq) &rarr; Na2C2O4(aq) + 2 H2O(l)",
+  "key": "0.1394 M",
+  "wrong": [
+   "0.06970 M",
+   "0.03485 M",
+   "12.55 M"
+  ],
+  "explanation": "0.003810 mol NaOH / 0.02733 L = 0.1394 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-053",
+  "sub": "ch11-titration",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "What volume of 0.105 M NaOH neutralizes 12.5 mL of 0.0840 M H2SO4? H2SO4(aq) + 2 NaOH(aq) &rarr; Na2SO4(aq) + 2 H2O(l)",
+  "key": "20.0 mL",
+  "wrong": [
+   "10.0 mL",
+   "5.00 mL",
+   "25.0 mL"
+  ],
+  "explanation": "0.002100 mol NaOH &divide; 0.105 M = 20.0 mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-054",
+  "sub": "ch11-titration",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "A 0.4250 g sample of a crushed aspirin tablet is dissolved and titrated with 0.1185 M NaOH; the endpoint takes 18.54 mL. Aspirin, C9H8O4 (180.159 g/mol), reacts 1 : 1 with NaOH. What is the mass percent of aspirin in the sample? C9H8O4(aq) + NaOH(aq) &rarr; NaC9H7O4(aq) + H2O(l)",
+  "key": "93.13%",
+  "wrong": [
+   "0.5169%",
+   "0.3958 g",
+   "107.4%"
+  ],
+  "explanation": "0.3958 g / 0.4250 g &times; 100% = 93.13%.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-055",
+  "sub": "ch11-titration",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 1,
+  "q": "A buret reads 0.85 mL before a titration and 17.40 mL at the endpoint. What volume of titrant was used?",
+  "key": "16.55 mL",
+  "wrong": [
+   "17.40 mL",
+   "18.25 mL",
+   "0.85 mL"
+  ],
+  "explanation": "17.40 &minus; 0.85 = 16.55 mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-056",
+  "sub": "ch11-titration",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 0,
+  "q": "A student titrating HCl with NaOH, using phenolphthalein, looks up and finds the flask a deep, dark pink. What does this mean?",
+  "key": "The endpoint was passed: more NaOH was added than the acid needed.",
+  "wrong": [
+   "The endpoint has not been reached yet; more NaOH is needed.",
+   "The flask still contains more acid than base.",
+   "The reading is exactly at the endpoint, so the final volume is correct."
+  ],
+  "explanation": "Deep pink = excess base: the endpoint was overshot.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-057",
+  "sub": "ch11-titration",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 0,
+  "q": "Halfway through a titration, a student uses a wash bottle to rinse drops of the acid solution from the flask's walls down into the solution, adding about 15 mL of distilled water. How does this change the volume of NaOH needed to reach the endpoint?",
+  "key": "It does not change; the moles of acid are the same.",
+  "wrong": [
+   "Less NaOH is needed, because the acid is now more dilute.",
+   "More NaOH is needed, because there is more liquid in the flask.",
+   "It doubles, because the volume in the flask went up."
+  ],
+  "explanation": "Same moles of acid, same volume of NaOH.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-058",
+  "sub": "ch11-titration",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "A 35.0 mL sample of lemon-lime soda needs 9.85 mL of 0.0950 M NaOH to reach the endpoint. Assume all the acid is citric acid. What is the molarity of the citric acid? H3C6H5O7(aq) + 3 NaOH(aq) &rarr; Na3C6H5O7(aq) + 3 H2O(l)",
+  "key": "0.00891 M",
+  "wrong": [
+   "0.0267 M",
+   "0.0802 M",
+   "0.0317 M"
+  ],
+  "explanation": "3.119 &times; 10&minus;4 mol &divide; 0.0350 L = 0.00891 M.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-059",
+  "sub": "ch11-titration",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "A chewable antacid tablet contains 0.610 g of calcium carbonate, CaCO3 (100.09 g/mol). What volume of 0.105 M HCl, about the strength of stomach acid, can it neutralize? CaCO3(s) + 2 HCl(aq) &rarr; CaCl2(aq) + H2O(l) + CO2(g)",
+  "key": "116 mL",
+  "wrong": [
+   "58.0 mL",
+   "1.16 &times; 104 mL",
+   "29.0 mL"
+  ],
+  "explanation": "0.01219 mol HCl &divide; 0.105 M = 116 mL.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-060",
+  "sub": "ch11-titration",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 0,
+  "q": "Equal volumes of 0.10 M HCl and 0.10 M H2SO4 are each titrated with the same NaOH solution. How do the volumes of NaOH compare?",
+  "key": "The H2SO4 needs twice as much NaOH as the HCl.",
+  "wrong": [
+   "Both need the same volume of NaOH.",
+   "The HCl needs twice as much NaOH as the H2SO4.",
+   "The H2SO4 needs half as much NaOH, because it is a stronger acid."
+  ],
+  "explanation": "Same moles of acid; H2SO4 reacts 1 : 2 with NaOH: twice as much NaOH.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-061",
+  "sub": "ch11-colligative",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "A sweet tea is made by dissolving 16.3 g of sucrose (C12H22O11, 342.297 g/mol) in 195.0 g of water. What is the molality of the sucrose?",
+  "key": "0.244 m",
+  "wrong": [
+   "2.44 &times; 10&minus;4 m",
+   "83.6 m",
+   "0.225 m"
+  ],
+  "explanation": "0.04762 mol / 0.1950 kg = 0.244 m.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-062",
+  "sub": "ch11-colligative",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 0,
+  "q": "Which solute has a van 't Hoff factor of i = 3 in water (assuming complete dissociation)?",
+  "key": "Na2SO4",
+  "wrong": [
+   "KBr",
+   "AlCl3",
+   "glucose, C6H12O6"
+  ],
+  "explanation": "Na2SO4 gives 2 Na+ + 1 SO42&minus; = 3 particles.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-063",
+  "sub": "ch11-colligative",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "What is the osmolality of a 0.155 m CaCl2 solution, assuming complete dissociation? Give the answer in mOsm/kg.",
+  "key": "465 mOsm/kg",
+  "wrong": [
+   "155 mOsm/kg",
+   "310. mOsm/kg",
+   "0.465 mOsm/kg"
+  ],
+  "explanation": "3 &times; 0.155 = 0.465 Osm/kg = 465 mOsm/kg.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-064",
+  "sub": "ch11-colligative",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "What is the freezing point of a 0.425 m KBr solution in water? (Kf = 1.86 °C/m)",
+  "key": "&minus;1.58 °C",
+  "wrong": [
+   "1.58 °C",
+   "&minus;0.79 °C",
+   "&minus;0.44 °C"
+  ],
+  "explanation": "&Delta;Tf = 1.58 °C; Tf = &minus;1.58 °C.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-065",
+  "sub": "ch11-colligative",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 1,
+  "q": "Antifreeze is a solution of ethylene glycol (C2H6O2), a nonelectrolyte, in water. What is the boiling point of a 2.35 m ethylene glycol solution at 1 atm? (Kb = 0.512 °C/m)",
+  "key": "101.20 °C",
+  "wrong": [
+   "104.37 °C",
+   "98.80 °C",
+   "102.41 °C"
+  ],
+  "explanation": "&Delta;Tb = 1.20 °C; Tb = 101.20 °C.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-066",
+  "sub": "ch11-colligative",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 0,
+  "q": "Use the table. Which aqueous solution freezes closest to 0 °C (has the highest freezing point)?",
+  "key": "glucose",
+  "wrong": [
+   "AlCl3",
+   "NaCl",
+   "CaCl2"
+  ],
+  "explanation": "i &times; m: 0.20 (glucose) &lt; 0.30 (NaCl) &lt; 0.32 (AlCl3) &lt; 0.36 (CaCl2): glucose freezes closest to 0 °C.",
+  "has_figure": [
+   "table"
+  ]
+ },
+ {
+  "id": "c11-067",
+  "sub": "ch11-colligative",
+  "topic": "solutions",
+  "d": 2,
+  "calc": 0,
+  "q": "Why is molality, not molarity, used for freezing point and boiling point calculations?",
+  "key": "Molality uses the mass of solvent, which does not change with temperature; volumes expand and contract.",
+  "wrong": [
+   "Molality counts the ions, while molarity counts formula units.",
+   "Molality is always larger than molarity, which makes the changes easier to measure.",
+   "Molarity cannot be used for aqueous solutions."
+  ],
+  "explanation": "Mass does not change with temperature, but volume does.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-068",
+  "sub": "ch11-colligative",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "A membrane that lets only water pass separates 5% glucose (side A) from 10% glucose (side B). Which way does water flow by osmosis?",
+  "key": "From side A to side B, toward the higher solute concentration",
+  "wrong": [
+   "From side B to side A, toward the lower solute concentration",
+   "Glucose moves from side B to side A until both are 7.5%",
+   "No water moves, because both sides contain glucose"
+  ],
+  "explanation": "Water moves toward the more concentrated side: from A to B.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-069",
+  "sub": "ch11-colligative",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "In the emergency department, Mateo Herrera, who has asthma, receives 0.9% NaCl (normal saline) by IV. Relative to his red blood cells, how is this fluid described?",
+  "key": "Isotonic: no net water flow, so the cells keep their shape",
+  "wrong": [
+   "Hypotonic: water flows into the cells, and they swell",
+   "Hypertonic: water flows out of the cells, and they shrink",
+   "Hypertonic: water flows into the cells, and they burst"
+  ],
+  "explanation": "0.9% NaCl is isotonic: no net water flow.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-070",
+  "sub": "ch11-colligative",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "A solution is made by dissolving 1.45 g of MgCl2 (95.21 g/mol) in 125.0 g of water. What is its osmolality in mOsm/kg, assuming complete dissociation?",
+  "key": "366 mOsm/kg",
+  "wrong": [
+   "122 mOsm/kg",
+   "244 mOsm/kg",
+   "0.366 mOsm/kg"
+  ],
+  "explanation": "m = 0.122 m; 3 &times; 0.122 = 366 mOsm/kg.",
+  "has_figure": []
+ },
+ {
+  "id": "c11-071",
+  "sub": "ch11-colligative",
+  "topic": "solutions",
+  "d": 1,
+  "calc": 0,
+  "q": "Red blood cells are placed in seawater, which is about 1000 mOsm/kg. What happens to them?",
+  "key": "Water flows out of the cells, and they shrink (crenation).",
+  "wrong": [
+   "Water flows into the cells, and they burst (hemolysis).",
+   "Nothing; seawater is isotonic with blood.",
+   "Salt flows into the cells until they burst."
+  ],
+  "explanation": "Hypertonic: water leaves, and the cells shrink (crenation).",
+  "has_figure": []
+ },
+ {
+  "id": "c11-072",
+  "sub": "ch11-colligative",
+  "topic": "solutions",
+  "d": 3,
+  "calc": 1,
+  "q": "Highway crews spread NaCl on the road to Shaver Lake. What molality of NaCl solution freezes at &minus;5.00 °C, assuming complete dissociation? (Kf = 1.86 °C/m)",
+  "key": "1.34 m",
+  "wrong": [
+   "2.69 m",
+   "4.88 m",
+   "18.6 m"
+  ],
+  "explanation": "m = 5.00 / (2 &times; 1.86) = 1.34 m.",
+  "has_figure": []
+ }
+]
