@@ -1,0 +1,16 @@
+[
+ {
+  "id": "1B-738",
+  "field": "x[2]",
+  "old": "Radioactive decay is exponential, so the time is not simply proportional to the fraction decayed.",
+  "new": "This multiplies the half-life by the lead-to-uranium ratio, 4/16. Decay is exponential, so use ln(N₀/N) = kt with N₀ = 20 and N = 16.",
+  "why": "1.12e9 = 0.25 × 4.47e9; a truly linear model would give 1.79e9, so 'not proportional to fraction decayed' misdescribes the error"
+ },
+ {
+  "id": "1B-738",
+  "field": "w",
+  "old": "The box has 16 U and 4 Pb atoms, so the crystal began with 20 U atoms and 16/20 = 0.800 remain. k = 0.693/(4.47×10<sup>9</sup> yr) = 1.55×10<sup>−10</sup> yr<sup>−1</sup>; t = ln(20/16)/k = 0.223/1.55×10<sup>−10</sup> = <b>1.44×10<sup>9</sup> yr</b> (1.439e+9). 1.86×10<sup>9</sup> yr takes 75% (12 of 16) as the fraction left, 1.12×10<sup>9</sup> yr treats decay as linear, and 8.94×10<sup>9</sup> yr is two half-lives.",
+  "new": "The box has 16 U and 4 Pb atoms, so the crystal began with 20 U atoms and 16/20 = 0.800 remain. k = 0.693/(4.47×10<sup>9</sup> yr) = 1.55×10<sup>−10</sup> yr<sup>−1</sup>; t = ln(20/16)/k = 0.223/1.55×10<sup>−10</sup> = <b>1.44×10<sup>9</sup> yr</b>. 1.86×10<sup>9</sup> yr takes 75% (12 of 16) as the fraction left, 1.12×10<sup>9</sup> yr multiplies the half-life by the Pb : U ratio (4/16), and 8.94×10<sup>9</sup> yr is two half-lives.",
+  "why": "removes code artifact '(1.439e+9)' and correctly diagnoses the 1.12e9 distractor"
+ }
+]

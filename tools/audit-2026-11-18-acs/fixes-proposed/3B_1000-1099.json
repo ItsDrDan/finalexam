@@ -1,0 +1,44 @@
+[
+ {
+  "id": "3B-1041",
+  "field": "x[1]",
+  "old": "This is the structure before step 5, with only single bonds and three lone pairs on N. Carbon would have just 4 electrons, so two of those lone pairs must become shared pairs.",
+  "new": "This is the structure with only single bonds (H–C–N) and three lone pairs on N. Carbon would have just 4 electrons, so two of those lone pairs must become shared pairs.",
+  "why": "'before step 5' refers to a drawing procedure students never see in this item"
+ },
+ {
+  "id": "3B-1042",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":2",
+  "why": "Counting O2 valence electrons is the same skill as 3B-1039/1044 (d=2)"
+ },
+ {
+  "id": "3B-1045",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":2",
+  "why": "OH- lone pairs is a one-step count; 3B-1038 (NH4+) is d=1"
+ },
+ {
+  "id": "3B-1086",
+  "field": "x[1]",
+  "old": "Ketones are not oxidized by mild oxidizing agents (Chapter 5). The ketose has to rearrange into an aldose before anything reacts.",
+  "new": "Ketones are not oxidized by mild oxidizing agents. The ketose has to rearrange into an aldose before anything reacts.",
+  "why": "Remove '(Chapter 5)' book-chapter reference that may not match the student's text"
+ },
+ {
+  "id": "3B-1099",
+  "field": "q",
+  "old": "Ten of the 20 amino acids are called <b>essential</b>. What does this term mean?",
+  "new": "Some of the 20 amino acids are called <b>essential</b>. What does this term mean?",
+  "why": "Adults have nine essential amino acids (arginine conditionally); the definition question does not need a disputed count"
+ },
+ {
+  "id": "3B-1099",
+  "field": "x[1]",
+  "old": "Human proteins use all 20 amino acids. The nonessential ten are just as necessary; the body makes them itself.",
+  "new": "Human proteins use all 20 amino acids. The nonessential ones are just as necessary; the body makes them itself.",
+  "why": "Matches stem change (no fixed count)"
+ }
+]

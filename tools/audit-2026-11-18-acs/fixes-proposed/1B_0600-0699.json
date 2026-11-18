@@ -1,0 +1,30 @@
+[
+ {
+  "id": "1B-618",
+  "field": "x[3]",
+  "old": "This leaves the lead in milligrams while the water is in grams. Use the same unit for both masses.",
+  "new": "0.025 is the lead concentration in milligrams per liter, which is ppm, not ppb. Multiply by 1000 to convert ppm to ppb.",
+  "why": "0.050 mg / 2.00 L = 0.025 mg/L = 0.025 ppm; leaving Pb in mg over water in g would give 2.5×10⁴, not 0.025"
+ },
+ {
+  "id": "1B-668",
+  "field": "w",
+  "old": "Removing H<sup>+</sup> from HCO<sub>3</sub><sup>−</sup> leaves <b>CO<sub>3</sub><sup>2−</sup></b>: the same C and three O atoms, no H, and a 2− charge (two O atoms carry −1). H<sub>2</sub>CO<sub>3</sub> is the conjugate acid, CO<sub>2</sub> has lost an O and an OH, and formate (HCO<sub>2</sub><sup>−</sup>) has lost an O atom rather than an H<sup>+</sup>.",
+  "new": "Removing H<sup>+</sup> from HCO<sub>3</sub><sup>−</sup> leaves <b>CO<sub>3</sub><sup>2−</sup></b>: the same C and three O atoms, no H, and a 2− charge (two O atoms carry −1). H<sub>2</sub>CO<sub>3</sub> is the conjugate acid, CO<sub>2</sub> has lost a whole OH<sup>−</sup> (an O as well as the H), and formate (HCO<sub>2</sub><sup>−</sup>) has lost an O atom rather than an H<sup>+</sup>.",
+  "why": "HCO3- -> CO2 + OH- removes one O and one H, not 'an O and an OH'"
+ },
+ {
+  "id": "1B-678",
+  "field": "w",
+  "old": "Ag<sub>2</sub>CrO<sub>4</sub> begins when [Ag<sup>+</sup>]<sup>2</sup>(0.010) = 1.1×10<sup>−12</sup>, so [Ag<sup>+</sup>] = 1.0×10<sup>−5</sup> M. At that [Ag<sup>+</sup>], [Cl<sup>−</sup>] = 1.8×10<sup>−10</sup> / 1.0×10<sup>−5</sup> = <b>1.7×10<sup>−5</sup> M</b>, so over 99.8% of the chloride has already precipitated. 1.0×10<sup>−5</sup> M is [Ag<sup>+</sup>], not [Cl<sup>−</sup>].",
+  "new": "Ag<sub>2</sub>CrO<sub>4</sub> begins when [Ag<sup>+</sup>]<sup>2</sup>(0.010) = 1.1×10<sup>−12</sup>, so [Ag<sup>+</sup>] = 1.05×10<sup>−5</sup> M. At that [Ag<sup>+</sup>], [Cl<sup>−</sup>] = 1.8×10<sup>−10</sup> / 1.05×10<sup>−5</sup> = <b>1.7×10<sup>−5</sup> M</b>, so over 99.8% of the chloride has already precipitated. 1.0×10<sup>−5</sup> M is [Ag<sup>+</sup>], not [Cl<sup>−</sup>].",
+  "why": "sqrt(1.1e-10)=1.05e-5; 1.8e-10/1.05e-5=1.7e-5, whereas the shown 1.8e-10/1.0e-5 = 1.8e-5"
+ },
+ {
+  "id": "1B-682",
+  "field": "x[3]",
+  "old": "This uses Ksp divided by Kf. Adding the two reactions means the constants are multiplied.",
+  "new": "This takes the square root of Ksp divided by Kf. Adding the two reactions means the constants are multiplied, not divided.",
+  "why": "sqrt(5.0e-13/1.7e7)=1.7e-10; Ksp/Kf alone is 2.9e-20"
+ }
+]

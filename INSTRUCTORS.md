@@ -25,6 +25,8 @@ To open Topic Training on one topic (or a chapter's topics together), add `&mode
 - Modes: Boss Battle (timed practice final, Practice or Exam Day style), Topic Training, Weak Spots, Quick 10, Blitz, and a Daily 5.
 - The CHEM 1A and 1B Boss Battles (70 questions, 110 minutes) weight topics by the chapter outline of the ACS Exams Institute's Official Guide for General Chemistry (first term: Toolbox and chapters 1–8; second term: chapters 9–16). The guide gives no percentages, so each chapter counts in proportion to its study and practice questions. CHEM 1B Colligative Properties is practice-only and never appears in a Boss Battle.
 - The CHEM 28A and 28B Boss Battles weight topics by the chapter outline of the ACS Exams Institute's Official Guide for Organic Chemistry (28A: first-term chapters 1–10; 28B: all chapters 1–16, like the ACS full-year exam, with first-term chapters drawn from the 28A bank), in proportion to each chapter's length. Topics follow the Fresno City College course outlines.
+- Every Boss Battle has the same number of questions per topic (set by the weights above) **and the same mix of difficulty levels**, so two students' practice finals are equally hard. Near-identical questions (same molecule or figure, same idea) never appear together in one Boss Battle.
+- Each question was checked one by one in the November 2026 audit (answer key, every wrong choice, explanation, hint, figure, course fit); the item-level record is in `tools/audit-2026-11-18-acs/`. This is independent practice, not an ACS product: it is not affiliated with, endorsed by or psychometrically equated to any ACS exam.
 - Built-in periodic table, data sheet and a TI-36X Pro style practice calculator.
 
 ## Using it in Canvas

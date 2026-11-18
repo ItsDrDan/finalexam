@@ -1,0 +1,30 @@
+[
+ {
+  "id": "1B-210",
+  "field": "x[3]",
+  "old": "Recheck: Ea = R ln(k₂/k₁) ÷ (1/T₁ − 1/T₂).",
+  "new": "5.3 comes from stopping at the slope, E<sub>a</sub>/R = 5.27×10³ K. Multiply by R = 8.314 J/(mol·K) to get E<sub>a</sub>.",
+  "why": "1.881/3.571e-4 = 5268 K = Ea/R; 'Recheck' did not diagnose the error"
+ },
+ {
+  "id": "1B-249",
+  "field": "x[3]",
+  "old": "This is the solubility in pure water.",
+  "new": "This is (K<sub>sp</sub>/27)<sup>1/4</sup>, the formula for Fe(OH)<sub>3</sub> dissolving with no OH⁻ already present. At pH 3.00, [OH⁻] is fixed at 1.0×10⁻¹¹ M, so use K<sub>sp</sub>/[OH⁻]³.",
+  "why": "In real pure water [OH-] = 1e-7 M dominates, so 2.0e-10 M is not the actual pure-water solubility (~4e-17 M); relabel the distractor by the formula it uses"
+ },
+ {
+  "id": "1B-249",
+  "field": "w",
+  "old": "pOH = 11.00, [OH<sup>−</sup>] = 1.0×10<sup>−11</sup> M. [Fe<sup>3+</sup>] = 4.0×10<sup>−38</sup>/(1.0×10<sup>−11</sup>)<sup>3</sup> = <b>4.0×10<sup>−5</sup> M</b>. 4.0×10<sup>−29</sup> M plugs in [H<sup>+</sup>] instead of [OH<sup>−</sup>]; 2.0×10<sup>−10</sup> M is the molar solubility in pure water.",
+  "new": "pOH = 11.00, [OH<sup>−</sup>] = 1.0×10<sup>−11</sup> M. [Fe<sup>3+</sup>] = 4.0×10<sup>−38</sup>/(1.0×10<sup>−11</sup>)<sup>3</sup> = <b>4.0×10<sup>−5</sup> M</b>. 4.0×10<sup>−29</sup> M plugs in [H<sup>+</sup>] instead of [OH<sup>−</sup>]; 2.0×10<sup>−10</sup> M is (K<sub>sp</sub>/27)<sup>1/4</sup>, which ignores the fixed [OH<sup>−</sup>].",
+  "why": "Same science correction as x[3]"
+ },
+ {
+  "id": "1B-253",
+  "field": "x[3]",
+  "old": "Recheck: T = ΔH ÷ ΔS, with both in J.",
+  "new": "This divides ΔS by ΔH (93.0 ÷ 30.9). Use T = ΔH ÷ ΔS, with both in J.",
+  "why": "93.0/30.9 = 3.01; feedback now names the inversion"
+ }
+]

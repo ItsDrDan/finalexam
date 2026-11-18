@@ -1,0 +1,30 @@
+[
+ {
+  "id": "28A-900",
+  "field": "raw",
+  "old": "\"t\":\"nomenclature\"",
+  "new": "\"t\":\"structure\"",
+  "why": "Item counts 3° carbons in menthol (carbon classification), not naming."
+ },
+ {
+  "id": "28A-963",
+  "field": "x[1]",
+  "old": "A six-membered ring (thiane) needs five CH<sub>2</sub> groups between the two C–Br carbons plus S; 1,4-dibromobutane has only four carbons, so the ring formed has one S and four C.",
+  "new": "A six-membered ring (thiane) has one S and five CH<sub>2</sub> groups, so it would need a five-carbon chain such as 1,5-dibromopentane; 1,4-dibromobutane has only four carbons, so the ring formed has one S and four C.",
+  "why": "Old wording ('five CH2 groups between the two C–Br carbons') implies a seven-carbon chain."
+ },
+ {
+  "id": "28A-965",
+  "field": "w",
+  "old": "The <b>diphenylmethyl (benzhydryl) cation</b> delocalizes the + charge into two benzene rings (seven resonance forms place + on ring carbons), and it is a secondary carbon. Each other cation has at most one π system to share the charge.",
+  "new": "The <b>diphenylmethyl (benzhydryl) cation</b> delocalizes the + charge into two benzene rings (seven resonance forms in all, six of them placing + on ortho and para ring carbons), and it is a secondary carbon. Each other cation has at most one π system to share the charge.",
+  "why": "Benzhydryl cation: 1 contributor with + on the central C plus 3 per ring = 7; only 6 put + on ring carbons."
+ },
+ {
+  "id": "28A-970",
+  "field": "w",
+  "old": "The bulky <i>tert</i>-butyl group stays equatorial, so in the cis isomer Br is axial and in the trans isomer Br is equatorial. For an axial C–Br, the backside lies along the equatorial direction, which is open, and the product forms directly with SPh equatorial. For an equatorial C–Br, the backside path runs across the ring and is blocked by the axial hydrogens on C3 and C5. So <b>the cis isomer (axial Br) reacts faster</b>, and both give trans product with inversion.",
+  "new": "The bulky <i>tert</i>-butyl group stays equatorial, so in the cis isomer Br is axial and in the trans isomer Br is equatorial. For an axial C–Br, the backside lies along the equatorial direction, which is open, and the product forms directly with SPh equatorial. For an equatorial C–Br, the backside path runs across the ring and is blocked by the axial hydrogens on C3 and C5. So <b>the cis isomer (axial Br) reacts faster</b>, and each reacts with inversion: the cis bromide gives the trans sulfide, and the trans bromide gives the cis sulfide.",
+  "why": "Inversion of trans-1-bromo-4-tert-butylcyclohexane gives the cis product, so 'both give trans product' is false."
+ }
+]

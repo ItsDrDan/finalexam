@@ -1,0 +1,44 @@
+[
+ {
+  "id": "3A-108",
+  "field": "x[3]",
+  "old": "488 mL is the water you add (500. − 12.5 mL), not the volume of concentrated acid. Solve M₁V₁ = M₂V₂ for V₁.",
+  "new": "488 mL is close to the total volume: it is the water you would add, not the volume of concentrated acid. Solve M₁V₁ = M₂V₂ for V₁, the acid you measure out.",
+  "why": "no keyed value in feedback shown before the retry"
+ },
+ {
+  "id": "3A-198",
+  "field": "x[3]",
+  "old": "185 mL is the water you add (200. − 15.0 mL), not the final volume. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution.",
+  "new": "185 mL is the water you would add to the 15.0 mL of stock, not the final volume. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution.",
+  "why": "no keyed value in feedback shown before the retry"
+ },
+ {
+  "id": "3A-495",
+  "field": "x[1]",
+  "old": "This drop does give off light, but the levels get closer together as n increases, so the gap from n = 4 to n = 2 is much smaller than the gap from n = 3 to n = 1.",
+  "new": "This drop does give off light, but hydrogen’s levels get closer together as n increases, so the gap between n = 4 and n = 2 is small compared with a drop that ends at n = 1.",
+  "why": "no key named in feedback shown before the retry"
+ },
+ {
+  "id": "3A-495",
+  "field": "x[2]",
+  "old": "This jump has the same size gap as n = 3 to n = 1, but it goes up. Moving up absorbs a photon; it does not give one off.",
+  "new": "Moving up from n = 1 to n = 3 needs energy: the atom absorbs a photon here; it does not give one off.",
+  "why": "no key named in feedback shown before the retry"
+ },
+ {
+  "id": "1A-701",
+  "field": "h",
+  "old": "Use ΔE = 2.18 × 10<sup>−18</sup> J (1 − 1/n<sup>2</sup>) for the drop from n = 4, then λ = hc/ΔE. A bigger drop releases more energy and gives a shorter wavelength.",
+  "new": "Find ΔE for the drop from n = 4 to n = 1, then λ = hc/ΔE. A bigger drop releases more energy and gives a shorter wavelength.",
+  "why": "hint under 30 words; formula is in the stem"
+ },
+ {
+  "id": "28A-843",
+  "field": "h",
+  "old": "Number of carbons ≈ (M+1 intensity ÷ M<sup>+</sup> intensity) ÷ 0.011. If the estimate falls between two whole numbers, check which carbon count can fit M = 114 for a ketone.",
+  "new": "Carbons ≈ (M+1 ÷ M<sup>+</sup>) ÷ 0.011. If that lands between two whole numbers, check which carbon count can still fit M = 114 for a ketone.",
+  "why": "hint under 30 words"
+ }
+]

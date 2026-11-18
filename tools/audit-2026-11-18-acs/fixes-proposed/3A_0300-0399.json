@@ -1,0 +1,16 @@
+[
+ {
+  "id": "3A-321",
+  "field": "w",
+  "old": "The thyroid takes up iodide to make its hormones, so I-131 collects there. Its beta particles travel only a few millimeters in tissue, so <b>the dose is delivered mainly to the thyroid</b>. Radioactive decay does not depend on location in the body.",
+  "new": "The thyroid takes up iodide to make its hormones, so I-131 collects there. Its beta particles travel only about a millimeter or two in tissue, so <b>the dose is delivered mainly to the thyroid</b>. Radioactive decay does not depend on location in the body.",
+  "why": "I-131 beta particles have a mean tissue range of about 0.5 mm and a maximum of about 2 mm; \"a few millimeters\" overstates it."
+ },
+ {
+  "id": "3A-373",
+  "field": "w",
+  "old": "[H<sub>3</sub>O<sup>+</sup>] = 1 × 10<sup>−8</sup> M means pH = 8, the <b>bile</b> bar. Saliva (pH 6.5) has about 3 × 10<sup>−7</sup> M and blood (pH 7.4) about 4 × 10<sup>−8</sup> M, which is more acidic than 10<sup>−8</sup> M, not less: the exponent 8 belongs to pH 8 exactly.",
+  "new": "[H<sub>3</sub>O<sup>+</sup>] = 1 × 10<sup>−8</sup> M means pH = 8, the <b>bile</b> bar. Saliva (pH 6.5) has about 3 × 10<sup>−7</sup> M and blood (pH 7.4) about 4 × 10<sup>−8</sup> M; both have more H<sub>3</sub>O<sup>+</sup> than 1 × 10<sup>−8</sup> M, and stomach fluid (pH 1.5) has far more.",
+  "why": "Current EXPL calls a concentration \"more acidic than 10^-8 M, not less\" and ends with the unclear \"the exponent 8 belongs to pH 8 exactly\"."
+ }
+]

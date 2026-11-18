@@ -1,0 +1,9 @@
+[
+ {
+  "id": "28B-53",
+  "field": "x[3]",
+  "old": "Methylketene would require losing water, not CO<sub>2</sub>, and has the wrong connectivity.",
+  "new": "Methylketene (C<sub>3</sub>H<sub>4</sub>O) has two H fewer than acetoacetic acid minus CO<sub>2</sub> (C<sub>3</sub>H<sub>6</sub>O), and its oxygen is on an end carbon; loss of CO<sub>2</sub> leaves the oxygen on the middle carbon.",
+  "why": "stored feedback says methylketene needs loss of water; false: C4H6O3 - H2O = C4H4O2, while CC=C=O is C3H4O (loss of CO2 + H2)"
+ }
+]

@@ -1,0 +1,30 @@
+[
+ {
+  "id": "1A-473",
+  "field": "w",
+  "old": "Gaps: A = 9.0, B = 7.0, C = 13.5, D = 4.5 (×10<sup>−19</sup> J). The largest gap, <b>C</b> (n = 1 → n = 3), needs the highest-frequency photon. D skips two levels just like C but spans only 4.5 units because the upper levels crowd together; A is the biggest single-step jump but still smaller than C.",
+  "new": "Gaps: A = 9.0, B = 7.0, C = 13.5, D = 4.5 (×10<sup>−19</sup> J). The largest gap, <b>C</b> (n = 1 → n = 3), needs the highest-frequency photon. D also climbs two levels, just like C, but spans only 4.5 units because the upper levels crowd together; A is the biggest single-step jump but still smaller than C.",
+  "why": "C (n=1->3) and D (n=3->5) each rise two levels; neither skips two. Matches the hint wording about levels."
+ },
+ {
+  "id": "1A-482",
+  "field": "raw",
+  "old": "\"H\":[2,17]",
+  "new": "\"J\":[2,17]",
+  "why": "Fluorine-position label H makes choice read H⁻ (hydride ion, 2 e⁻). Relabel to J."
+ },
+ {
+  "id": "1A-482",
+  "field": "c[2]",
+  "old": "H<sup>−</sup>",
+  "new": "J<sup>−</sup>",
+  "why": "Matches relabeled figure; avoids hydride-ion reading."
+ },
+ {
+  "id": "1A-482",
+  "field": "x[2]",
+  "old": "H⁻ has 9 protons, more than G²⁻'s 8.",
+  "new": "J⁻ has 9 protons, more than G²⁻'s 8.",
+  "why": "Matches relabeled figure."
+ }
+]

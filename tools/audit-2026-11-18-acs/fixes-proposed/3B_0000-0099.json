@@ -1,0 +1,37 @@
+[
+ {
+  "id": "3B-58",
+  "field": "x[3]",
+  "old": "CH3CH2OCH3 has only one oxygen, but two methanol molecules were used. Each methanol adds its own –OCH3 group to the former carbonyl carbon.",
+  "new": "CH<sub>3</sub>CH<sub>2</sub>OCH<sub>3</sub> has only one oxygen, but two methanol molecules were used. Each methanol adds its own –OCH<sub>3</sub> group to the former carbonyl carbon.",
+  "why": "formulas stored without <sub> tags"
+ },
+ {
+  "id": "3B-26",
+  "field": "h",
+  "old": "A C=C uses 1 H<sub>2</sub>; a C≡C uses 2 H<sub>2</sub>.",
+  "new": "Each H<sub>2</sub> adds across one pi bond. How many pi bonds are in a C=C, and how many in a C≡C?",
+  "why": "old hint gave the H2 count for each bond type"
+ },
+ {
+  "id": "3B-37",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":2",
+  "why": "one-step recall item; d=3 overstates difficulty"
+ },
+ {
+  "id": "3B-91",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":2",
+  "why": "one-step recall item; d=3 overstates difficulty"
+ },
+ {
+  "id": "3B-97",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":2",
+  "why": "one-step recall item; d=3 overstates difficulty"
+ }
+]

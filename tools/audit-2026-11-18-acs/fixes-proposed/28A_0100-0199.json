@@ -1,0 +1,16 @@
+[
+ {
+  "id": "28A-149",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":1",
+  "why": "Pure recall of a refinery process definition; d=1 fits."
+ },
+ {
+  "id": "28A-195",
+  "field": "w",
+  "old": "Loss of water gives a 2° cation next to the cyclobutane. A ring C–C bond migrates to the cation carbon, expanding the ring to a less strained cyclopentyl cation; that carbon now carries the CH<sub>3</sub>. A hydride shift (or direct loss of the H on the methyl-bearing carbon) then gives the trisubstituted ring alkene <b>1-methylcyclopentene</b>.",
+  "new": "Loss of water gives a 2° cation next to the cyclobutane. A ring C–C bond migrates to the cation carbon, expanding the ring to a less strained cyclopentyl cation: the former cation carbon (with its CH<sub>3</sub>) is now a ring carbon, and the positive charge sits on the neighboring former ring CH. A hydride shift (or direct loss of the H on the methyl-bearing carbon) then gives the trisubstituted ring alkene <b>1-methylcyclopentene</b>.",
+  "why": "Old wording implied the expanded cation sits on the methyl-bearing carbon; after the shift the charge is on the adjacent former ring carbon, which the following hydride-shift sentence already assumes."
+ }
+]

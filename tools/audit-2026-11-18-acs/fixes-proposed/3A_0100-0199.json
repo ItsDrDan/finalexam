@@ -1,0 +1,37 @@
+[
+ {
+  "id": "3A-108",
+  "field": "x[3]",
+  "old": "This is not the volume of concentrated acid. A concentrated stock is used in a small amount, so solve M₁V₁ = M₂V₂ for V₁.",
+  "new": "488 mL is the water you add (500. − 12.5 mL), not the volume of concentrated acid. Solve M₁V₁ = M₂V₂ for V₁.",
+  "why": "Old feedback never said where 488 comes from; 500. − 12.5 = 487.5 → 488 mL, the water added"
+ },
+ {
+  "id": "3A-112",
+  "field": "x[3]",
+  "old": "Check the volume: 0.90 g per 100 mL is 9.0 g per liter.",
+  "new": "This divides by 0.0100 L, as if 100 mL were 10 mL. 100 mL is 0.100 L, so 0.90 g per 100 mL is 9.0 g per liter.",
+  "why": "1.5 M = (0.90/58.44 mol)/0.0100 L; old text ('Check the volume') did not name the error"
+ },
+ {
+  "id": "3A-165",
+  "field": "w",
+  "old": "The 2 counts. The zero right after it is sandwiched between the 2 and the decimal-point zeros, and the two trailing zeros count because a decimal point is shown, so there are <b>4</b>. Picking 1 or 2 means you dropped zeros that the decimal point makes significant.",
+  "new": "The 2 counts. The two zeros after the decimal point count because a decimal point is shown, and the zero between the 2 and the decimal point counts because it sits between significant digits, so there are <b>4</b>. Picking 1 or 2 means you dropped zeros that the decimal point makes significant.",
+  "why": "Old wording ('sandwiched between the 2 and the decimal-point zeros') is confusing; new wording states each zero's rule"
+ },
+ {
+  "id": "3A-197",
+  "field": "w",
+  "old": "Molar mass Na<sub>2</sub>SO<sub>4</sub> = 142.04 g mol⁻¹, so 3.55 g = 0.0250 mol; ÷ 0.250 L = 0.100 M Na<sub>2</sub>SO<sub>4</sub>. Each unit gives 2 Na<sup>+</sup>, so [Na<sup>+</sup>] = <b>0.200 M</b>. 0.100 M is the salt concentration (off by the factor of 2), and 0.0250 M forgets to divide by the volume.",
+  "new": "Molar mass Na<sub>2</sub>SO<sub>4</sub> = 142.05 g mol⁻¹, so 3.55 g = 0.0250 mol; ÷ 0.250 L = 0.100 M Na<sub>2</sub>SO<sub>4</sub>. Each unit gives 2 Na<sup>+</sup>, so [Na<sup>+</sup>] = <b>0.200 M</b>. 0.100 M is the salt concentration (off by the factor of 2), and 0.0250 M forgets to divide by the volume.",
+  "why": "2(22.99) + 32.07 + 4(16.00) = 142.05 with the game's masses"
+ },
+ {
+  "id": "3A-198",
+  "field": "x[3]",
+  "old": "This is not the final volume of the solution. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution.",
+  "new": "185 mL is the water you add (200. − 15.0 mL), not the final volume. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution.",
+  "why": "Old feedback did not name the error; 200. − 15.0 = 185 mL of water added"
+ }
+]

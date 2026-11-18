@@ -1,0 +1,23 @@
+[
+ {
+  "id": "28A-27",
+  "field": "q",
+  "old": "Which species is the strongest acid? (Use the hybridization of the atom that bears the proton's lone pair in each conjugate base.)",
+  "new": "Which species is the strongest acid? (Remove the proton from each and compare the hybridization of the atom that held it.)",
+  "why": "Original parenthetical ('atom that bears the proton's lone pair in each conjugate base') is garbled; the conjugate bases are the neutral species."
+ },
+ {
+  "id": "28A-29",
+  "field": "h",
+  "old": "Recall the pK<sub>a</sub> values: NH<sub>3</sub> ≈ 38, H<sub>2</sub>O 15.7, NH<sub>4</sub><sup>+</sup> 9.2, H<sub>3</sub>O<sup>+</sup> −1.7.",
+  "new": "Two trends work together: O–H bonds are more acidic than N–H bonds (electronegativity), and a positively charged acid gives up H<sup>+</sup> far more easily than its neutral form.",
+  "why": "Original hint listed all four pKa values, reducing the ranking to a sort."
+ },
+ {
+  "id": "28A-54",
+  "field": "x[3]",
+  "old": "Ring expansion would give a secondary cycloheptyl cation, no better than the starting cation; the one-step hydride shift reaches a tertiary cation.",
+  "new": "1-Bromo-1-methylcycloheptane would need a ring expansion (which gives only a secondary cycloheptyl cation, no gain) and then a second shift; the single 1,2-hydride shift to the tertiary 1-ethylcyclohexyl cation is faster.",
+  "why": "Old text described ring expansion to a secondary cycloheptyl cation, which would give 1-bromo-2-methylcycloheptane, not the drawn 1-bromo-1-methylcycloheptane."
+ }
+]

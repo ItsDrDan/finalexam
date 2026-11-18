@@ -1,0 +1,23 @@
+[
+ {
+  "id": "28B-700",
+  "field": "x[1]",
+  "old": "This puts the ester above the amide correctly but ranks ethyl acetate below the amide. Amides are the least reactive derivatives because N donates strongly and amide ion is a very poor leaving group.",
+  "new": "This correctly makes the phenyl ester the most reactive but ranks ethyl acetate below the amide. Amides are the least reactive derivatives because N donates strongly and amide ion is a very poor leaving group.",
+  "why": "c1 is II < III < I; the old text said it 'puts the ester above the amide correctly' and then that it ranks the ester below the amide (self-contradictory)."
+ },
+ {
+  "id": "28B-729",
+  "field": "x[1]",
+  "old": "Losing a 43 u radical from m/z 100 gives m/z 57, not 58; that cleavage accounts for the separate m/z 57 and 43 peaks.",
+  "new": "Any α-cleavage loses a radical and gives an odd-mass ion: losing 43 u from m/z 100 would give m/z 57, not 58. Cleavage on either side of the C=O gives the separate m/z 43 and 57 peaks.",
+  "why": "Old x1 endorsed loss of a propyl radical, which B (no propyl on the C=O) cannot do; m/z 43 is CH3CO+ and 57 is C4H9+ from cleavage of the C(O)-isobutyl bond."
+ },
+ {
+  "id": "28B-792",
+  "field": "x[1]",
+  "old": "A terminal alkyne C–H (pK<sub>a</sub> ≈ 25) is acidic because of sp character, but the aromatic cyclopentadienyl anion is about a million times more stable.",
+  "new": "A terminal alkyne C–H (pK<sub>a</sub> ≈ 25) is acidic because of sp character, but the C–H at <i>b</i> (pK<sub>a</sub> ≈ 16–18) is about 10<sup>7</sup>–10<sup>9</sup> times more acidic, because its conjugate base is the aromatic cyclopentadienyl anion.",
+  "why": "pKa 25 vs 16-18 is 7-9 units (10^7-10^9), not 'about a million'; compare acidity, not anion stability."
+ }
+]

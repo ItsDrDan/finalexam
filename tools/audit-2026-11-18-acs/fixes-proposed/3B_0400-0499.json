@@ -1,0 +1,9 @@
+[
+ {
+  "id": "3B-467",
+  "field": "x[2]",
+  "old": "36 is an older total that uses 3 ATP per NADH and 2 per FADH2 but counts each glycolysis NADH as only 2 ATP. Use 2.5 and 1.5 from the table for every carrier.",
+  "new": "36 is an older total that uses 3 ATP per NADH and 2 per FADH<sub>2</sub> but counts each glycolysis NADH as only 2 ATP. Use 2.5 and 1.5 from the table for every carrier.",
+  "why": "FADH2 written without <sub> tag; every other field uses FADH<sub>2</sub>."
+ }
+]

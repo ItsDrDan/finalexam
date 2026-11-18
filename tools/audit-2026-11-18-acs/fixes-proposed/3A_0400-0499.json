@@ -1,0 +1,37 @@
+[
+ {
+  "id": "3A-438",
+  "field": "h",
+  "old": "Under this book's rule, 1,800 shows only 2 significant figures. In scientific notation, every digit in A counts.",
+  "new": "Written as 1,800 with no decimal point, the number shows only 2 significant figures. In scientific notation, every digit in A counts.",
+  "why": "hint refers to 'this book', which the game player does not have"
+ },
+ {
+  "id": "3A-464",
+  "field": "h",
+  "old": "Use the charge rules from Chapter 1: opposite charges attract, like charges repel.",
+  "new": "Recall the charge rules: opposite charges attract, like charges repel.",
+  "why": "'Chapter 1' cross-reference is meaningless in the game"
+ },
+ {
+  "id": "3A-467",
+  "field": "w",
+  "old": "Isotopes (Section 2.5) have the same number of protons but different numbers of neutrons, so <b>atoms of the same element do not all have the same mass</b>. Dalton's other main ideas have held up.",
+  "new": "Isotopes have the same number of protons but different numbers of neutrons, so <b>atoms of the same element do not all have the same mass</b>. Dalton's other main ideas have held up.",
+  "why": "remove textbook section cross-reference"
+ },
+ {
+  "id": "3A-468",
+  "field": "x[2]",
+  "old": "Protons plus neutrons is the mass number (A), which you will use in Section 2.5.",
+  "new": "Protons plus neutrons is the mass number (A), not the atomic number.",
+  "why": "remove textbook section cross-reference"
+ },
+ {
+  "id": "3A-489",
+  "field": "q",
+  "old": "Newborn jaundice is often treated with phototherapy, blue light that the baby's skin absorbs. One phototherapy lamp uses LEDs that give off light at 455 nm. What is the energy of one photon of this light?",
+  "new": "Newborn jaundice is often treated with phototherapy, blue light that the baby's skin absorbs. One phototherapy lamp uses LEDs that give off light at 455 nm. What is the energy of one photon of this light? (h = 6.626 &times; 10<sup>&minus;34</sup> J&middot;s; c = 3.00 &times; 10<sup>8</sup> m/s)",
+  "why": "h and c are needed but not supplied; 3A data sheet has only the periodic table. Values match the EXPL."
+ }
+]

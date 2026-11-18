@@ -1,0 +1,808 @@
+{
+ "3A:final": {
+  "n": 50,
+  "minutes": 60,
+  "dMean": {
+   "mean": 1.89,
+   "sd": 0.01,
+   "p5": 1.88,
+   "p95": 1.9
+  },
+  "d1": {
+   "mean": 15,
+   "sd": 0,
+   "p5": 15,
+   "p95": 15
+  },
+  "d3": {
+   "mean": 9.51,
+   "sd": 0.5,
+   "p5": 9,
+   "p95": 10
+  },
+  "calc": {
+   "mean": 13.11,
+   "sd": 2.37,
+   "p5": 9,
+   "p95": 17
+  },
+  "roman": {
+   "mean": 0.54,
+   "sd": 0.69,
+   "p5": 0,
+   "p95": 2
+  },
+  "figs": {
+   "mean": 11.99,
+   "sd": 2.95,
+   "p5": 7,
+   "p95": 17
+  },
+  "estMinutes": {
+   "mean": 70.13,
+   "sd": 1.48,
+   "p5": 67.75,
+   "p95": 72.5875
+  },
+  "topics": {
+   "measure": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "atoms": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "electrons": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "matter": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "naming": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "moles": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "bonding": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "energy": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "gases": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "solutions": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "reactions": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "stoich": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "acids": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "equilibrium": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "nuclear": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   }
+  }
+ },
+ "3B:mid": {
+  "n": 50,
+  "minutes": 60,
+  "dMean": {
+   "mean": 1.85,
+   "sd": 0.01,
+   "p5": 1.84,
+   "p95": 1.86
+  },
+  "d1": {
+   "mean": 17,
+   "sd": 0.02,
+   "p5": 17,
+   "p95": 17
+  },
+  "d3": {
+   "mean": 9.38,
+   "sd": 0.49,
+   "p5": 9,
+   "p95": 10
+  },
+  "calc": {
+   "mean": 1.48,
+   "sd": 0.92,
+   "p5": 0,
+   "p95": 3
+  },
+  "roman": {
+   "mean": 0.36,
+   "sd": 0.57,
+   "p5": 0,
+   "p95": 1
+  },
+  "figs": {
+   "mean": 24.49,
+   "sd": 3.22,
+   "p5": 19,
+   "p95": 30
+  },
+  "estMinutes": {
+   "mean": 66.37,
+   "sd": 1.01,
+   "p5": 64.75,
+   "p95": 68.08333333333333
+  },
+  "topics": {
+   "structure": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "hydrocarbons": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "isomers": {
+    "mean": 7,
+    "min": 7,
+    "max": 7
+   },
+   "properties": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "aromatic": {
+    "mean": 7,
+    "min": 7,
+    "max": 7
+   },
+   "alcohols": {
+    "mean": 6,
+    "min": 6,
+    "max": 6
+   },
+   "carbonyls": {
+    "mean": 6,
+    "min": 6,
+    "max": 6
+   },
+   "chirality": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "acids_esters": {
+    "mean": 6,
+    "min": 6,
+    "max": 6
+   },
+   "amines": {
+    "mean": 6,
+    "min": 6,
+    "max": 6
+   }
+  }
+ },
+ "3B:final": {
+  "n": 50,
+  "minutes": 60,
+  "dMean": {
+   "mean": 1.86,
+   "sd": 0,
+   "p5": 1.86,
+   "p95": 1.86
+  },
+  "d1": {
+   "mean": 16,
+   "sd": 0,
+   "p5": 16,
+   "p95": 16
+  },
+  "d3": {
+   "mean": 9,
+   "sd": 0,
+   "p5": 9,
+   "p95": 9
+  },
+  "calc": {
+   "mean": 5.61,
+   "sd": 1.97,
+   "p5": 3,
+   "p95": 9
+  },
+  "roman": {
+   "mean": 0.63,
+   "sd": 0.73,
+   "p5": 0,
+   "p95": 2
+  },
+  "figs": {
+   "mean": 17.61,
+   "sd": 3.15,
+   "p5": 12,
+   "p95": 23
+  },
+  "estMinutes": {
+   "mean": 67,
+   "sd": 1.39,
+   "p5": 64.75625,
+   "p95": 69.25
+  },
+  "topics": {
+   "carbs": {
+    "mean": 7,
+    "min": 7,
+    "max": 7
+   },
+   "lipids": {
+    "mean": 7,
+    "min": 7,
+    "max": 7
+   },
+   "proteins": {
+    "mean": 7,
+    "min": 7,
+    "max": 7
+   },
+   "enzymes": {
+    "mean": 6,
+    "min": 6,
+    "max": 6
+   },
+   "nucleic": {
+    "mean": 6,
+    "min": 6,
+    "max": 6
+   },
+   "metabolism": {
+    "mean": 17,
+    "min": 17,
+    "max": 17
+   }
+  }
+ },
+ "1A:final": {
+  "n": 70,
+  "minutes": 110,
+  "dMean": {
+   "mean": 1.88,
+   "sd": 0.01,
+   "p5": 1.8571428571428572,
+   "p95": 1.8857142857142857
+  },
+  "d1": {
+   "mean": 23.26,
+   "sd": 0.44,
+   "p5": 23,
+   "p95": 24
+  },
+  "d3": {
+   "mean": 14.74,
+   "sd": 0.44,
+   "p5": 14,
+   "p95": 15
+  },
+  "calc": {
+   "mean": 24.41,
+   "sd": 3.04,
+   "p5": 20,
+   "p95": 29
+  },
+  "roman": {
+   "mean": 6.36,
+   "sd": 2.35,
+   "p5": 3,
+   "p95": 10
+  },
+  "figs": {
+   "mean": 32.95,
+   "sd": 3.86,
+   "p5": 27,
+   "p95": 39
+  },
+  "estMinutes": {
+   "mean": 105.37,
+   "sd": 1.95,
+   "p5": 102.21041666666666,
+   "p95": 108.5
+  },
+  "topics": {
+   "measure": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   },
+   "atoms": {
+    "mean": 8,
+    "min": 8,
+    "max": 8
+   },
+   "composition": {
+    "mean": 8,
+    "min": 8,
+    "max": 8
+   },
+   "reactions": {
+    "mean": 12,
+    "min": 12,
+    "max": 12
+   },
+   "thermo": {
+    "mean": 8,
+    "min": 8,
+    "max": 8
+   },
+   "quantum": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "periodic": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "bonding": {
+    "mean": 6,
+    "min": 6,
+    "max": 6
+   },
+   "advanced": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "gases": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "liquids": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "solutions": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   }
+  }
+ },
+ "1B:final": {
+  "n": 70,
+  "minutes": 110,
+  "dMean": {
+   "mean": 1.9,
+   "sd": 0.01,
+   "p5": 1.8857142857142857,
+   "p95": 1.9
+  },
+  "d1": {
+   "mean": 21.25,
+   "sd": 0.44,
+   "p5": 21,
+   "p95": 22
+  },
+  "d3": {
+   "mean": 14,
+   "sd": 0,
+   "p5": 14,
+   "p95": 14
+  },
+  "calc": {
+   "mean": 30.29,
+   "sd": 3.41,
+   "p5": 25,
+   "p95": 36
+  },
+  "roman": {
+   "mean": 7.26,
+   "sd": 2.32,
+   "p5": 4,
+   "p95": 11
+  },
+  "figs": {
+   "mean": 39.32,
+   "sd": 3.82,
+   "p5": 33,
+   "p95": 46
+  },
+  "estMinutes": {
+   "mean": 110.88,
+   "sd": 1.98,
+   "p5": 107.66041666666666,
+   "p95": 114.13958333333333
+  },
+  "topics": {
+   "kinetics": {
+    "mean": 11,
+    "min": 11,
+    "max": 11
+   },
+   "equilibrium": {
+    "mean": 10,
+    "min": 10,
+    "max": 10
+   },
+   "acidbase": {
+    "mean": 7,
+    "min": 7,
+    "max": 7
+   },
+   "buffers": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "solubility": {
+    "mean": 8,
+    "min": 8,
+    "max": 8
+   },
+   "thermo": {
+    "mean": 10,
+    "min": 10,
+    "max": 10
+   },
+   "electro": {
+    "mean": 10,
+    "min": 10,
+    "max": 10
+   },
+   "coordination": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "imf": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "nuclear": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   }
+  }
+ },
+ "28A:final": {
+  "n": 70,
+  "minutes": 110,
+  "dMean": {
+   "mean": 2.09,
+   "sd": 0,
+   "p5": 2.085714285714286,
+   "p95": 2.085714285714286
+  },
+  "d1": {
+   "mean": 14,
+   "sd": 0,
+   "p5": 14,
+   "p95": 14
+  },
+  "d3": {
+   "mean": 20,
+   "sd": 0,
+   "p5": 20,
+   "p95": 20
+  },
+  "calc": {
+   "mean": 1.95,
+   "sd": 1.28,
+   "p5": 0,
+   "p95": 4
+  },
+  "roman": {
+   "mean": 3.76,
+   "sd": 1.84,
+   "p5": 1,
+   "p95": 7
+  },
+  "figs": {
+   "mean": 60.04,
+   "sd": 2.76,
+   "p5": 55,
+   "p95": 64
+  },
+  "estMinutes": {
+   "mean": 108.5,
+   "sd": 0.88,
+   "p5": 107.05208333333333,
+   "p95": 109.95416666666667
+  },
+  "topics": {
+   "structure": {
+    "mean": 6,
+    "min": 6,
+    "max": 6
+   },
+   "nomenclature": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   },
+   "acidbase": {
+    "mean": 6,
+    "min": 6,
+    "max": 6
+   },
+   "conform": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "stereo": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "mechanism": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "subst": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   },
+   "elim": {
+    "mean": 6,
+    "min": 6,
+    "max": 6
+   },
+   "addition": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   },
+   "alkynes": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "alcohols": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   },
+   "ethers": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "radical": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "synthesis": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "irms": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "nmr": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   }
+  }
+ },
+ "28B:final": {
+  "n": 70,
+  "minutes": 110,
+  "dMean": {
+   "mean": 2.09,
+   "sd": 0,
+   "p5": 2.085714285714286,
+   "p95": 2.085714285714286
+  },
+  "d1": {
+   "mean": 14,
+   "sd": 0,
+   "p5": 14,
+   "p95": 14
+  },
+  "d3": {
+   "mean": 20,
+   "sd": 0,
+   "p5": 20,
+   "p95": 20
+  },
+  "calc": {
+   "mean": 1.39,
+   "sd": 1.13,
+   "p5": 0,
+   "p95": 3
+  },
+  "roman": {
+   "mean": 3.21,
+   "sd": 1.67,
+   "p5": 1,
+   "p95": 6
+  },
+  "figs": {
+   "mean": 59.93,
+   "sd": 2.8,
+   "p5": 55,
+   "p95": 64
+  },
+  "estMinutes": {
+   "mean": 108.22,
+   "sd": 0.9,
+   "p5": 106.71875,
+   "p95": 109.72916666666667
+  },
+  "topics": {
+   "alcohols": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "ethers": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "conjugated": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "aromatic": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "eas": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   },
+   "carbonyl": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "acidderiv": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "enolates": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "amines": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "spectro": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "synthesis": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "biomol": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "28A:structure": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "28A:nomenclature": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "28A:acidbase": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "28A:conform": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "28A:stereo": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "28A:mechanism": {
+    "mean": 1,
+    "min": 1,
+    "max": 1
+   },
+   "28A:subst": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "28A:elim": {
+    "mean": 4,
+    "min": 4,
+    "max": 4
+   },
+   "28A:addition": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "28A:alkynes": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "28A:radical": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "28A:irms": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "28A:nmr": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   }
+  }
+ }
+}

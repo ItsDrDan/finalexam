@@ -1,0 +1,16 @@
+[
+ {
+  "id": "28A-401",
+  "field": "c[0]",
+  "old": "The chain-end radical takes an H from five carbons back on its own chain, and the new mid-chain radical adds ethylene.",
+  "new": "The chain-end radical takes an H from the fifth carbon of its own chain (1,5-H shift), and the new mid-chain radical adds ethylene.",
+  "why": "With the radical carbon as C1 the abstracted H is on C5 (four carbons back); 'five carbons back' miscounts"
+ },
+ {
+  "id": "28A-401",
+  "field": "w",
+  "old": "This is intramolecular chain transfer (\"backbiting\"). The 1° chain-end radical reaches back through a six-membered cyclic transition state and abstracts an H from the CH<sub>2</sub> five carbons away (a 1,5-H shift), giving a more stable 2° radical within the chain. Ethylene then adds at that site, so the four carbons past it become a <b>butyl branch</b>. Intermolecular H transfer between chains gives the long branches.",
+  "new": "This is intramolecular chain transfer (\"backbiting\"). The 1° chain-end radical reaches back through a six-membered cyclic transition state and abstracts an H from C5 (counting the radical carbon as C1; a 1,5-H shift), giving a more stable 2° radical within the chain. Ethylene then adds at that site, so the four carbons past it (C1–C4) become a <b>butyl branch</b>. Intermolecular H transfer between chains gives the long branches.",
+  "why": "'five carbons away' is four bonds/carbons from the radical; state the C1/C5 numbering explicitly so the butyl count is clear"
+ }
+]

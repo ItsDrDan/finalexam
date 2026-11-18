@@ -1,0 +1,9 @@
+[
+ {
+  "id": "28B-107",
+  "field": "x[2]",
+  "old": "A ketone flanked by two intact cyclopentyl groups would need a hydride shift, but neither carbinol carbon has a hydrogen.",
+  "new": "Dicyclopentyl ketone has 11 carbons, but the diol has only 10; a rearrangement cannot add a carbon. The real product keeps all ten carbons, with one ring expanded from five to six.",
+  "why": "choice C (O=C(C1CCCC1)C1CCCC1) is C11H18O vs diol C10H18O2 (RDKit); stored feedback gives a wrong reason"
+ }
+]

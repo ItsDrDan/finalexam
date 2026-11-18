@@ -1,0 +1,37 @@
+[
+ {
+  "id": "1A-701",
+  "field": "h",
+  "old": "A bigger drop releases more energy and so gives a shorter wavelength. The drops from n = 2, 3, 4 and 5 grow in that order.",
+  "new": "Use ΔE = 2.18 × 10<sup>−18</sup> J (1 − 1/n<sup>2</sup>) for the drop from n = 4, then λ = hc/ΔE. A bigger drop releases more energy and gives a shorter wavelength.",
+  "why": "current hint lists the drops from n = 2, 3, 4, 5 in increasing order; with four lines on the figure it identifies the answer (the third line) without any work"
+ },
+ {
+  "id": "1A-718",
+  "field": "x[3]",
+  "old": "The C to O ratio in the drawing is 1 to 1, and CH₂O also has the wrong H count.",
+  "new": "CH₂O has the right 1 to 1 ratio of C to O, but it has 2 H per C. The drawing has 6 H for 4 C, only 1.5 H per C.",
+  "why": "CH2O also has a 1:1 C:O ratio, so the old feedback's first clause does not rule it out; the real error is the H count"
+ },
+ {
+  "id": "1A-727",
+  "field": "w",
+  "old": "FeS<sub>2</sub>: 64.12/119.97 = 53.4% S. SO<sub>2</sub>: 32.06/64.06 = 50.0% S. CuS: 32.06/95.61 = 33.5% S. So <b>III &lt; II &lt; I</b>. SO<sub>2</sub> and FeS<sub>2</sub> are close, so each must be calculated.",
+  "new": "FeS<sub>2</sub>: 64.14/119.99 = 53.5% S. SO<sub>2</sub>: 32.07/64.07 = 50.1% S. CuS: 32.07/95.62 = 33.5% S. So <b>III &lt; II &lt; I</b>. SO<sub>2</sub> and FeS<sub>2</sub> are close, so each must be calculated.",
+  "why": "recomputed with the game's masses (S 32.07, Fe 55.85, Cu 63.55, O 16.00): 53.45%, 50.05%, 33.54%; old EXPL used S 32.06 and printed 53.4/50.0"
+ },
+ {
+  "id": "1A-738",
+  "field": "w",
+  "old": "The mass of ZnS stops rising at about 0.98 g of S (2.00 g Zn / 65.38 g mol<sup>−1</sup> = 0.0306 mol needs 0.0306 mol × 32.06 = 0.98 g S). At point B, 1.50 g of S was added, so <b>Zn is limiting and about 0.52 g of S is left</b> (1.50 − 0.98). S is the limiting reactant only on the rising part, such as point A.",
+  "new": "The mass of ZnS stops rising at about 0.98 g of S (2.00 g Zn / 65.39 g mol<sup>−1</sup> = 0.0306 mol needs 0.0306 mol × 32.07 = 0.98 g S). At point B, 1.50 g of S was added, so <b>Zn is limiting and about 0.52 g of S is left</b> (1.50 − 0.98). S is the limiting reactant only on the rising part, such as point A.",
+  "why": "game masses are Zn 65.39 and S 32.07; 2.00/65.39 × 32.07 = 0.981 g S, result unchanged"
+ },
+ {
+  "id": "1A-746",
+  "field": "x[3]",
+  "old": "Check the subtraction. The water lost is the hydrate mass minus the residue mass.",
+  "new": "4 does not fit the data. Convert the water lost (1.080 g) and the CoCl₂ left (1.300 g) to moles, then divide.",
+  "why": "no identifiable subtraction error gives 4 (correct work gives 5.99); old feedback did not diagnose the choice"
+ }
+]

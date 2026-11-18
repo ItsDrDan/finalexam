@@ -495,7 +495,7 @@ const CONSTANTS=['R = 8.314 J·mol⁻¹·K⁻¹','R = 0.0821 L·atm·mol⁻¹·K
 const PT=[[1,"H","1.008"],[2,"He","4.003"],[3,"Li","6.941"],[4,"Be","9.012"],[5,"B","10.81"],[6,"C","12.01"],[7,"N","14.01"],[8,"O","16.00"],[9,"F","19.00"],[10,"Ne","20.18"],[11,"Na","22.99"],[12,"Mg","24.31"],[13,"Al","26.98"],[14,"Si","28.09"],[15,"P","30.97"],[16,"S","32.07"],[17,"Cl","35.45"],[18,"Ar","39.95"],[19,"K","39.10"],[20,"Ca","40.08"],[21,"Sc","44.96"],[22,"Ti","47.88"],[23,"V","50.94"],[24,"Cr","52.00"],[25,"Mn","54.94"],[26,"Fe","55.85"],[27,"Co","58.93"],[28,"Ni","58.69"],[29,"Cu","63.55"],[30,"Zn","65.39"],[31,"Ga","69.72"],[32,"Ge","72.61"],[33,"As","74.92"],[34,"Se","78.96"],[35,"Br","79.90"],[36,"Kr","83.80"],[37,"Rb","85.47"],[38,"Sr","87.62"],[39,"Y","88.91"],[40,"Zr","91.22"],[41,"Nb","92.91"],[42,"Mo","95.94"],[43,"Tc",""],[44,"Ru","101.1"],[45,"Rh","102.9"],[46,"Pd","106.4"],[47,"Ag","107.9"],[48,"Cd","112.4"],[49,"In","114.8"],[50,"Sn","118.7"],[51,"Sb","121.8"],[52,"Te","127.6"],[53,"I","126.9"],[54,"Xe","131.3"],[55,"Cs","132.9"],[56,"Ba","137.3"],[57,"La","138.9"],[58,"Ce","140.1"],[59,"Pr","140.9"],[60,"Nd","144.2"],[61,"Pm",""],[62,"Sm","150.4"],[63,"Eu","152.0"],[64,"Gd","157.3"],[65,"Tb","158.9"],[66,"Dy","162.5"],[67,"Ho","164.9"],[68,"Er","167.3"],[69,"Tm","168.9"],[70,"Yb","173.0"],[71,"Lu","175.0"],[72,"Hf","178.5"],[73,"Ta","180.9"],[74,"W","183.8"],[75,"Re","186.2"],[76,"Os","190.2"],[77,"Ir","192.2"],[78,"Pt","195.1"],[79,"Au","197.0"],[80,"Hg","200.6"],[81,"Tl","204.4"],[82,"Pb","207.2"],[83,"Bi","209.0"],[84,"Po",""],[85,"At",""],[86,"Rn",""],[87,"Fr",""],[88,"Ra",""],[89,"Ac",""],[90,"Th","232.0"],[91,"Pa","231.0"],[92,"U","238.0"],[93,"Np",""],[94,"Pu",""],[95,"Am",""],[96,"Cm",""],[97,"Bk",""],[98,"Cf",""],[99,"Es",""],[100,"Fm",""],[101,"Md",""],[102,"No",""],[103,"Lr",""],[104,"Rf",""],[105,"Db",""],[106,"Sg",""],[107,"Bh",""],[108,"Hs",""],[109,"Mt",""],[110,"Ds",""],[111,"Rg",""],[112,"Cn",""],[113,"Nh",""],[114,"Fl",""],[115,"Mc",""],[116,"Lv",""],[117,"Ts",""],[118,"Og",""]];
 const BANK={},BANK_DATA={},BYID_T={};
 /* question banks: data/bank-<course>.json, one file per course; BANK_V holds each file's version stamp (written by tools/bankio.js) */
-const BANK_V={"3A":"16ff80db28","3B":"44cfc58372","1A":"78440a6e7f","1B":"36bbd21034","28A":"2fb307bd27","28B":"95e508e87f"};
+const BANK_V={"3A":"d95fd4b3f5","3B":"d779c2be0c","1A":"279f0058a9","1B":"8a2d4fc1bb","28A":"aa1897636d","28B":"f449bc1d11"};
 const BANK_JSON={},bankURL=c=>'data/bank-'+c+'.json?v='+(BANK_V[c]||'0');
 /* the course's own bank is fetched before drawing; a borrowed bank (28B's Boss Battle uses 28A topics) is fetched right after, in the background; anything still missing falls back to a synchronous load in loadCourse */
 const bankNeeds=c=>{const n=[c],m=COURSES[c]&&COURSES[c].mix;if(m)n.push(m.from);return n};
@@ -692,7 +692,7 @@ const state={mode:MODES.some(m=>m.id===ui.mode)?ui.mode:'boss',course:COURSES[ur
 /* per-question record: R[id]={r,w,last} (first-try results) */
 let R=LS.get('-rec',{})||{};let holdSave=0;const saveR=()=>{if(!holdSave)LS.set('-rec',R)};
 function qver(q){let h=2166136261>>>0;const t=String(q.q)+'|'+q.c.join('|');for(const ch of t){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)>>>0}return h.toString(36)}
-function record(q,ok,pick){const s=R[q.id]||(R[q.id]={r:0,w:0,last:0});ok?s.r++:s.w++;s.last=ok?1:0;s.t=Date.now();saveR();
+function record(q,ok,pick){const s=R[q.id]||(R[q.id]={r:0,w:0,last:0});ok?s.r++:s.w++;s.last=ok?1:0;s.t=Date.now();/* fx: right answers since the last miss (Weak Spots keeps a missed question until it is right twice) */if(ok){if(s.fx!=null)s.fx++}else s.fx=0;saveR();
  try{window.ddTrack&&ddTrack({game:'finalboss',course:'CHEM '+q.course,mode:MODES.find(m=>m.id===state.mode)?.title||state.mode,topic:topicName(q.course,q.t),correct:ok,item:q.id,pick:pick==null?'':pick,key:0,ver:qver(q)})}catch(e){}}
 const topicName=(c,t)=>(COURSES[c].topics.find(x=>x[0]===t)||[t,t])[1];
 const topicIcon=(c,t)=>(COURSES[c].topics.find(x=>x[0]===t)||[0,0,'📘'])[2];
@@ -772,13 +772,15 @@ function topicChips(){const c=state.course,cfg=C(),mixOk=state.topic.startsWith(
 /* draw without repeats until a deck runs out */
 function draw(pool,key){if(!pool.length)return null;let d=state.deck[key];const ids=new Set(pool.map(q=>q.id));if(!d||!d.length||d.some(id=>!ids.has(id)))d=state.deck[key]=shuf(pool.map(q=>q.id));
  let id=d.pop();if(id===state.lastId&&d.length){d.unshift(id);id=d.pop()}return BYID[id]}
-function weakPool(){const c=state.course,missed=BANK[c].filter(q=>R[q.id]&&R[q.id].last===0);
+/* a missed question stays until it has been answered right twice since the miss (one lucky right answer is not mastery); records from before v62 have no fx and count as fixed once right */
+const stillWeak=s=>!!s&&(s.last===0||(s.fx!=null&&s.fx<2));
+function weakPool(){const c=state.course,missed=BANK[c].filter(q=>stillWeak(R[q.id]));
  const weakT=C().topics.map(t=>t[0]).filter(t=>{const a=topicAcc(c,t);return a.n>=3&&a.p<.7});
- const extra=BANK[c].filter(q=>weakT.includes(q.t)&&!(R[q.id]&&R[q.id].last===1));return {missed,extra,weakT}}
+ const extra=BANK[c].filter(q=>weakT.includes(q.t)&&!(R[q.id]&&R[q.id].last===1)&&!stillWeak(R[q.id]));return {missed,extra,weakT}}
 /* ---------- practice question ---------- */
 function next(){const c=state.course;let q=null;state.sel=null;state.done=false;state.tries=0;state.assisted=false;$('hintBox').className='hintbox';fb('','');
  if(state.mode==='topic'){const g=state.topic.startsWith('grp:')?examDef(c,state.topic.slice(4)).topics:state.topic.startsWith('mix:')?state.topic.slice(4).split(','):null;const pool=state.topic==='all'?BANK[c]:BANK[c].filter(x=>g?g.includes(x.t):x.t===state.topic);q=draw(pool,c+':'+state.topic)}
- else if(state.mode==='weak'){const w=weakPool();if(!w.missed.length&&!w.extra.length){$('qArea').innerHTML=`<div class="fb info" style="margin-top:14px">🎉 <b>No weak spots yet for ${C().name}.</b><br>Play a <b>Boss Battle</b> or <b>Quick 10</b> first. Anything you miss shows up here until you get it right.</div>`;
+ else if(state.mode==='weak'){const w=weakPool();if(!w.missed.length&&!w.extra.length){$('qArea').innerHTML=`<div class="fb info" style="margin-top:14px">🎉 <b>No weak spots yet for ${C().name}.</b><br>Play a <b>Boss Battle</b> or <b>Quick 10</b> first. Anything you miss shows up here until you get it right twice.</div>`;
    $('btnRow').classList.add('hidden');return}$('btnRow').classList.remove('hidden');
   q=(w.missed.length&&(Math.random()<.75||!w.extra.length))?draw(w.missed,c+':missed'):draw(w.extra,c+':weakT');
   $('topicRow').innerHTML=`<p class="tip" style="margin-top:10px">🩹 ${w.missed.length} missed question${w.missed.length===1?'':'s'} to fix${w.weakT.length?` • weak topics: ${w.weakT.map(t=>esc(topicName(c,t))).join(', ')}`:''}</p>`}
@@ -1638,9 +1640,24 @@ function buildExam(len){const c=state.course,cfg=C(),ed=examDef(c,curExam()),n=l
  const TW=TOPIC_W[c]||{},wt=U.reduce((p,u)=>p+(TW[u.t]??1),0);let alloc=U.map(u=>({t:u.t,pool:u.pool,k:u.pool.length,x:n*(TW[u.t]??1)/wt}));alloc.forEach(a=>a.n=Math.min(a.k,Math.floor(a.x)));
  let left=n-alloc.reduce((s,a)=>s+a.n,0);alloc.slice().sort((a,b)=>(b.x-Math.floor(b.x))-(a.x-Math.floor(a.x))).forEach(a=>{if(left>0&&a.n<a.k){a.n++;left--}});
  while(left>0){const a=alloc.filter(a=>a.n<a.k).sort((p,q)=>(p.n/p.k)-(q.n/q.k))[0];if(!a)break;a.n++;left--}
- const qids=[];alloc.forEach(a=>{const pool=a.pool,main=pool.filter(q=>!q.lo),lo=pool.filter(q=>q.lo);const order=p=>shuf(p.filter(q=>!R[q.id])).concat(shuf(p.filter(q=>R[q.id])));
-  /* low-priority items (e.g. colligative properties) fill in only after the rest of the topic, at most one per exam */
-  const pickLo=lo.length&&a.n>=3&&Math.random()<0.5?order(lo).slice(0,1):[];qids.push(...pickLo.concat(order(main)).concat(order(lo).slice(pickLo.length)).slice(0,a.n).map(q=>q.id))});
+ /* low-priority items (lo) fill in only after the rest of the topic, at most one per topic. Unseen questions come first. */
+ const order=p=>shuf(p.filter(q=>!R[q.id])).concat(shuf(p.filter(q=>R[q.id])));
+ const plan=alloc.map(a=>{const main=a.pool.filter(q=>!q.lo),lo=order(a.pool.filter(q=>q.lo)),pickLo=lo.length&&a.n>=3&&Math.random()<0.5?lo.splice(0,1):[];return {a,list:order(main),lo,got:pickLo}});
+ /* Difficulty balance (2026-11-18 audit): every exam gets the d = 1/2/3 mix its topic pools give on average, so two
+    students' exams are equally hard. Slots are filled one at a time from the topic with the most left, at the level
+    furthest below that target. Topic counts are unchanged. */
+ const want={1:0,2:0,3:0},have={1:0,2:0,3:0};
+ plan.forEach(p=>{const m=p.list.length||1;[1,2,3].forEach(d=>want[d]+=(p.a.n-p.got.length)*p.list.filter(q=>q.d===d).length/m);p.got.forEach(q=>have[q.d]=(have[q.d]||0)+1)});
+ const usedG=new Set();plan.forEach(p=>p.got.forEach(q=>q.g&&usedG.add(q.g)));
+ let open=plan.filter(p=>p.got.length<p.a.n);
+ while(open.length){const p=shuf(open).sort((x,y)=>(y.a.n-y.got.length)-(x.a.n-x.got.length))[0];
+  const lv=[1,2,3].filter(d=>p.list.some(q=>q.d===d)).sort((x,y)=>(want[y]-have[y])-(want[x]-have[x]));
+  /* q.g marks near-twin questions (same idea, same answer): at most one of a group per exam */
+  const fresh=q=>!q.g||!usedG.has(q.g),pick=L=>{let i=p.list.findIndex(q=>q.d===L&&fresh(q));if(i<0)i=p.list.findIndex(q=>q.d===L);return p.list.splice(i,1)[0]};
+  const q=lv.length?pick(lv[0]):p.lo.shift();
+  if(q){p.got.push(q);have[q.d]=(have[q.d]||0)+1;if(q.g)usedG.add(q.g)}else p.a.n=p.got.length;
+  open=plan.filter(p=>p.got.length<p.a.n)}
+ const qids=[];plan.forEach(p=>qids.push(...p.got.map(q=>q.id)));
  const ord={};qids.forEach(id=>ord[id]=shuf([0,1,2,3]));
  return {course:c,exam:ed.id,len,qids,ord,ans:{},flag:{},i:0,used:0,dur:(len==='full'?cfg.min:Math.round(cfg.min/2))*60,done:false,date:Date.now()}}
 function bossStart(){const ex=LS.get(EK(),null),ok=ex&&ex.qids.every(id=>BYID[id]);if(ok&&!ex.done)return bossRun(ex);bossSetup(ok?ex:null)}

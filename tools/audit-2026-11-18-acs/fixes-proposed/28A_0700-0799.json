@@ -1,0 +1,37 @@
+[
+ {
+  "id": "28A-723",
+  "field": "x[3]",
+  "old": "Acetylide would make acetylene (25) from methane (50). Acetylene is the stronger acid, so the reactants are favored.",
+  "new": "Propynide would make propyne (pK<sub>a</sub> about 25, like acetylene) from methane (50). The alkyne is the stronger acid, so the reactants are favored.",
+  "why": "Choice D is drawn as propynide + methane ([C-]#CC.[H]C), not acetylide/acetylene."
+ },
+ {
+  "id": "28A-759",
+  "field": "raw",
+  "old": "[[\"C\",2.597,0,0,0],[\"C\",2.598,1.5,0,0],[\"O\",3.898,2.249,0,-1],[\"NH\",1.3,2.251,0,1]",
+  "new": "[[\"C\",3.898,2.247,0,0],[\"C\",2.598,1.5,0,0],[\"O\",2.595,0,0,-1],[\"NH\",1.3,2.251,0,1]",
+  "why": "Key resonance form drew O and the acetyl CH3 swapped relative to stem structure I (O down, syn to N-CH3). Resonance forms keep atom positions; restore I's layout."
+ },
+ {
+  "id": "28A-759",
+  "field": "raw",
+  "old": "[[\"C\",2.597,0,0,0],[\"C\",2.598,1.5,0,0],[\"OH\",3.898,2.249,0,0]",
+  "new": "[[\"C\",3.898,2.247,0,0],[\"C\",2.598,1.5,0,0],[\"OH\",2.595,0,0,0]",
+  "why": "Same layout fix for choice C so all four choices share structure I's atom positions."
+ },
+ {
+  "id": "28A-759",
+  "field": "raw",
+  "old": "[[\"C\",2.597,0,0,0],[\"C\",2.598,1.5,0,0],[\"O\",3.898,2.249,0,-1],[\"N\",1.3,2.251,0,0]",
+  "new": "[[\"C\",3.898,2.247,0,0],[\"C\",2.598,1.5,0,0],[\"O\",2.595,0,0,-1],[\"N\",1.3,2.251,0,0]",
+  "why": "Same layout fix for choice D."
+ },
+ {
+  "id": "28A-789",
+  "field": "w",
+  "old": "I is staggered with the CH<sub>3</sub> groups 180° apart (anti): lowest energy. II is staggered with the CH<sub>3</sub> groups 60° apart (gauche): about 3.8 kJ/mol higher, from steric strain. III is eclipsed (one CH<sub>3</sub>/H and two H/H eclipsing interactions): about 16 kJ/mol above anti, because eclipsing adds torsional strain that any staggered form avoids. <br>Answer: <b>I &lt; II &lt; III</b>.",
+  "new": "I is staggered with the CH<sub>3</sub> groups 180° apart (anti): lowest energy. II is staggered with the CH<sub>3</sub> groups 60° apart (gauche): about 3.8 kJ/mol higher, from steric strain. III is eclipsed (two CH<sub>3</sub>/H and one H/H eclipsing interactions): about 16 kJ/mol above anti, because eclipsing adds torsional strain that any staggered form avoids. <br>Answer: <b>I &lt; II &lt; III</b>.",
+  "why": "Newman III (rot 0) has back H on front CH3, back CH3 on front H, and H/H: two CH3/H + one H/H = 6+6+4 = 16 kJ/mol, matching the stated energy."
+ }
+]

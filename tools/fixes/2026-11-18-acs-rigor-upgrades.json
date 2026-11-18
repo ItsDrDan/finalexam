@@ -1,0 +1,226 @@
+[
+ {
+  "id": "3A-495",
+  "field": "q",
+  "old": "In a hydrogen atom, which electron jump gives off a photon of light?",
+  "new": "In a hydrogen atom, which electron jump gives off the photon with the <b>most</b> energy?",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR)."
+ },
+ {
+  "id": "3A-495",
+  "field": "c[0]",
+  "old": "n = 4 to n = 2",
+  "new": "n = 3 to n = 1",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR)."
+ },
+ {
+  "id": "3A-495",
+  "field": "c[1]",
+  "old": "n = 1 to n = 3",
+  "new": "n = 4 to n = 2",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR)."
+ },
+ {
+  "id": "3A-495",
+  "field": "c[2]",
+  "old": "n = 2 to n = 5",
+  "new": "n = 1 to n = 3",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR)."
+ },
+ {
+  "id": "3A-495",
+  "field": "c[3]",
+  "old": "n = 2 to n = 2",
+  "new": "n = 5 to n = 3",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR)."
+ },
+ {
+  "id": "3A-495",
+  "field": "x[1]",
+  "old": "Moving up from n = 1 to n = 3 needs energy; the atom absorbs a photon instead of giving one off.",
+  "new": "This drop does give off light, but the levels get closer together as n increases, so the gap from n = 4 to n = 2 is much smaller than the gap from n = 3 to n = 1.",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR)."
+ },
+ {
+  "id": "3A-495",
+  "field": "x[2]",
+  "old": "Moving up from n = 2 to n = 5 needs energy, so it is absorption, not emission.",
+  "new": "This jump has the same size gap as n = 3 to n = 1, but it goes up. Moving up absorbs a photon; it does not give one off.",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR)."
+ },
+ {
+  "id": "3A-495",
+  "field": "x[3]",
+  "old": "Staying in the same level involves no energy change, so no photon is given off.",
+  "new": "This drop gives off light, but n = 3 and n = 5 are high levels that sit close together, so this is the smallest gap of the three drops.",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR)."
+ },
+ {
+  "id": "3A-495",
+  "field": "h",
+  "old": "Up arrows absorb energy; down arrows give off light.",
+  "new": "Light is given off only when the electron drops to a lower level. Then compare the gaps: hydrogen’s levels get closer together as n gets larger.",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR)."
+ },
+ {
+  "id": "3A-495",
+  "field": "w",
+  "old": "Emission happens when an electron <b>drops to a lower level</b>: n = 4 to n = 2 releases the energy difference as a photon (hydrogen's 486 nm blue-green line). Upward jumps absorb energy.",
+  "new": "A photon is given off only when the electron <b>drops</b> (n = 1 to n = 3 is a jump up, so it absorbs light). Among the three drops, the photon energy equals the gap between the levels, and hydrogen’s levels crowd together as n increases: the gap from n = 3 to n = 1 is about 0.89 of the full ionization energy, n = 4 to n = 2 about 0.19, and n = 5 to n = 3 about 0.07. So <b>n = 3 to n = 1</b> gives the most energetic photon (an ultraviolet line); n = 4 to n = 2 gives hydrogen’s blue-green visible line.",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR)."
+ },
+ {
+  "id": "3A-495",
+  "field": "raw",
+  "old": "\"d\":1",
+  "new": "\"d\":2",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR)."
+ },
+ {
+  "id": "1B-440",
+  "field": "q",
+  "old": "A solution of calcium oxalate, CaC<sub>2</sub>O<sub>4</sub>, is unsaturated. Which relationship between the ion product Q and K<sub>sp</sub> holds?",
+  "new": "At 25 °C a solution contains 2.0×10<sup>−5</sup> M Ca<sup>2+</sup> and 3.0×10<sup>−5</sup> M C<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>. For calcium oxalate, CaC<sub>2</sub>O<sub>4</sub>, K<sub>sp</sub> = 2.3×10<sup>−9</sup>. Which statement is correct?",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it."
+ },
+ {
+  "id": "1B-440",
+  "field": "c[0]",
+  "old": "Q &lt; K<sub>sp</sub>",
+  "new": "Q &lt; K<sub>sp</sub>: the solution is unsaturated, so added CaC<sub>2</sub>O<sub>4</sub> would dissolve",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it."
+ },
+ {
+  "id": "1B-440",
+  "field": "c[1]",
+  "old": "Q = K<sub>sp</sub>",
+  "new": "Q &gt; K<sub>sp</sub>: CaC<sub>2</sub>O<sub>4</sub> precipitates until Q falls to K<sub>sp</sub>",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it."
+ },
+ {
+  "id": "1B-440",
+  "field": "c[2]",
+  "old": "Q &gt; K<sub>sp</sub>",
+  "new": "Q &lt; K<sub>sp</sub>: the solution is supersaturated, so a seed crystal starts precipitation",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it."
+ },
+ {
+  "id": "1B-440",
+  "field": "c[3]",
+  "old": "K<sub>sp</sub> &lt; Q &lt; 1",
+  "new": "Q = K<sub>sp</sub>: the solution is saturated, with ions at equilibrium with solid",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it."
+ },
+ {
+  "id": "1B-440",
+  "field": "x[1]",
+  "old": "Q = Ksp is a saturated solution.",
+  "new": "Q = (2.0×10<sup>−5</sup>)(3.0×10<sup>−5</sup>) = 6.0×10<sup>−10</sup>, which is below 2.3×10<sup>−9</sup>. Precipitation needs Q above K<sub>sp</sub>.",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it."
+ },
+ {
+  "id": "1B-440",
+  "field": "x[2]",
+  "old": "Q greater than Ksp means a precipitate forms.",
+  "new": "The comparison Q &lt; K<sub>sp</sub> is right, but that means unsaturated. Supersaturated means Q &gt; K<sub>sp</sub> while no solid has formed yet.",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it."
+ },
+ {
+  "id": "1B-440",
+  "field": "x[3]",
+  "old": "An unsaturated solution has Q less than Ksp.",
+  "new": "Saturation needs Q = 2.3×10<sup>−9</sup>. Here Q = 6.0×10<sup>−10</sup>, only about a quarter of K<sub>sp</sub>.",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it."
+ },
+ {
+  "id": "1B-440",
+  "field": "h",
+  "old": "Unsaturated means more solid could still dissolve. Does that mean the ion product is below or above the maximum allowed?",
+  "new": "Write Q with the same form as K<sub>sp</sub>, using the concentrations you are given, then compare Q with K<sub>sp</sub>.",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it."
+ },
+ {
+  "id": "1B-440",
+  "field": "w",
+  "old": "In an unsaturated solution the ion concentrations are below their saturation values, so <b>Q = [Ca<sup>2+</sup><span class=\"nw\">][C<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>]</span> &lt; K<sub>sp</sub></b> and additional solid dissolves. Q = K<sub>sp</sub> is a saturated solution at equilibrium; Q &gt; K<sub>sp</sub> means a precipitate forms.",
+  "new": "Q = [Ca<sup>2+</sup>][C<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>] = (2.0×10<sup>−5</sup>)(3.0×10<sup>−5</sup>) = 6.0×10<sup>−10</sup>. Because Q &lt; K<sub>sp</sub> (2.3×10<sup>−9</sup>), the ions are below their saturation level: the solution is <b>unsaturated, and more CaC<sub>2</sub>O<sub>4</sub> would dissolve</b> until Q rises to K<sub>sp</sub>. Q = K<sub>sp</sub> would be saturated; Q &gt; K<sub>sp</sub> means precipitation (or a supersaturated solution if no solid has formed yet).",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it."
+ },
+ {
+  "id": "1B-440",
+  "field": "raw",
+  "old": "\"k\":0",
+  "new": "\"k\":1",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it."
+ },
+ {
+  "id": "3B-979",
+  "field": "q",
+  "old": "Dopamine, norepinephrine, serotonin and histamine are all neurotransmitters. Which functional group do all four contain, which is protonated (–NH<sub>3</sub><sup>+</sup>) at body pH?",
+  "new": "Dopamine, norepinephrine, serotonin and histamine are neurotransmitters made from amino acids. Each carries a positive charge in body fluids (pH about 7.4). Which functional group do all four share, and why is it charged?",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH."
+ },
+ {
+  "id": "3B-979",
+  "field": "c[0]",
+  "old": "an amine",
+  "new": "An amine, which accepts H<sup>+</sup> at pH 7.4",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH."
+ },
+ {
+  "id": "3B-979",
+  "field": "c[1]",
+  "old": "an amide",
+  "new": "An amide, which accepts H<sup>+</sup> at pH 7.4",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH."
+ },
+ {
+  "id": "3B-979",
+  "field": "c[2]",
+  "old": "a carboxylic acid",
+  "new": "An amine, which gives up H<sup>+</sup> at pH 7.4",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH."
+ },
+ {
+  "id": "3B-979",
+  "field": "c[3]",
+  "old": "an ester",
+  "new": "A carboxylic acid, which gives up H<sup>+</sup> at pH 7.4",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH."
+ },
+ {
+  "id": "3B-979",
+  "field": "x[1]",
+  "old": "An amide has N bonded to a C=O. These neurotransmitters have N bonded only to carbon and hydrogen atoms.",
+  "new": "An amide N is bonded to a C=O, which pulls its lone pair into resonance, so amides are neutral, not basic. These four molecules have N bonded only to C and H.",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH."
+ },
+ {
+  "id": "3B-979",
+  "field": "x[2]",
+  "old": "These compounds are made by removing the –COOH group from an amino acid, so they have no carboxylic acid left.",
+  "new": "The group is an amine, but amines are weak bases: they gain H<sup>+</sup> (becoming –NH<sub>3</sub><sup>+</sup>), which is what makes them positive. Losing H<sup>+</sup> would not give a positive charge.",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH."
+ },
+ {
+  "id": "3B-979",
+  "field": "x[3]",
+  "old": "An ester is a C=O bonded to an –OR group. Acetylcholine is an ester, but these four neurotransmitters are amines.",
+  "new": "A carboxylic acid that gives up H<sup>+</sup> becomes –COO<sup>−</sup>, a negative charge. These molecules are made by removing the –COOH group, and they are positive.",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH."
+ },
+ {
+  "id": "3B-979",
+  "field": "h",
+  "old": "These compounds are made from amino acids by removing the –COOH group. Which group is left?",
+  "new": "They are made from amino acids by removing the –COOH group. Which group is left, and is it an acid or a base?",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH."
+ },
+ {
+  "id": "3B-979",
+  "field": "w",
+  "old": "All four contain an <b>amine</b> group. Like other amines, it is a weak base and is mostly protonated in body fluids, so these neurotransmitters carry a positive charge.",
+  "new": "All four keep the <b>amine</b> nitrogen of their parent amino acid (the –COOH is removed). Amines are weak bases, so at pH 7.4 the nitrogen <b>accepts H<sup>+</sup></b> and becomes –NH<sub>3</sub><sup>+</sup> (or –NH<sub>2</sub><sup>+</sup>–), giving the positive charge. Amides are not basic, and a group that gives up H<sup>+</sup> (like –COOH) becomes negative.",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH."
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "id": "1B-322",
+  "field": "x[2]",
+  "old": "Recheck: O₂ needs 4 electrons each.",
+  "new": "This treats each mole of electrons as a mole of O₂ (1 e⁻ per O₂). Each O₂ needs 4 electrons, so divide mol e⁻ by 4.",
+  "why": "0.1119 mol e- x 22.4 L/mol = 2.51 L"
+ },
+ {
+  "id": "1B-359",
+  "field": "x[3]",
+  "old": "Recheck: moles of NaOH ÷ 0.0400 L.",
+  "new": "This uses 10.0 mL, the half-equivalence volume. Moles of NaOH come from the equivalence volume at the steep rise, 20.0 mL.",
+  "why": "0.150 M x 0.0100 L / 0.0400 L = 0.0375 M"
+ }
+]

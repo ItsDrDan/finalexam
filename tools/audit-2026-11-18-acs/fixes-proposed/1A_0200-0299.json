@@ -1,0 +1,23 @@
+[
+ {
+  "id": "1A-232",
+  "field": "q",
+  "old": "What mass of propane must burn by the reaction shown to heat 2.00 kg of water from 20.0 °C to 80.0 °C? Assume all of the heat goes into the water.",
+  "new": "What mass of propane must burn by the reaction shown to heat 2.00 kg of water from 20.0 °C to 80.0 °C? Assume all of the heat goes into the water. (c(water) = 4.184 J g⁻¹ °C⁻¹)",
+  "why": "Answer requires water's specific heat, which is not given in the stem or the 1A data list (1A-266 states it the same way)."
+ },
+ {
+  "id": "1A-260",
+  "field": "w",
+  "old": "V₂ = 5.00 L × (1.00/0.500) × (243 K/298 K) = <b>8.16 L</b>. 10.0 L ignores the cooling; 12.3 L flips the temperature ratio; °C gives a negative volume.",
+  "new": "V₂ = 5.00 L × (1.00/0.500) × (243.15 K/298.15 K) = <b>8.16 L</b>. 10.0 L ignores the cooling; 12.3 L flips the temperature ratio; °C gives a negative volume.",
+  "why": "5.00×2×243/298 = 8.154 → 8.15, contradicting the keyed 8.16; with 243.15/298.15 it is 8.155 → 8.16."
+ },
+ {
+  "id": "1A-275",
+  "field": "q",
+  "old": "Four water solutions sit at 25 °C. If the ionic solutes dissociate fully, which solution gives off the greatest vapor pressure above it?",
+  "new": "Four water solutions sit at 25 °C. If the ionic solutes dissociate fully, which solution has the highest vapor pressure?",
+  "why": "Wording fix: a solution does not 'give off' a pressure."
+ }
+]

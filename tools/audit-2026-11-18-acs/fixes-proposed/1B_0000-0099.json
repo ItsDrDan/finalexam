@@ -1,0 +1,16 @@
+[
+ {
+  "id": "1B-52",
+  "field": "x[1]",
+  "old": "This leaves the 0.25 M concentration out of the square root. Find [H₃O⁺] from both Ka and the concentration first.",
+  "new": "1.3% is √Ka × 100: it leaves the 0.25 M out of the square root and never divides by it. Find [H₃O⁺] = √(Ka × 0.25) first, then divide by 0.25 M.",
+  "why": "sqrt(1.8e-4)=0.0134 -> 1.3% only if 0.25 is also never divided by; leaving 0.25 out of the root alone gives 5.4%"
+ },
+ {
+  "id": "1B-80",
+  "field": "x[3]",
+  "old": "Recompute: moles NaOH = 2 × moles H₂SO₄.",
+  "new": "26.7 mL comes from 20.0 mL × 0.200 M ÷ 0.150 M, which swaps the two molarities and skips the 2:1 ratio. Use mol H₂SO₄ = 0.0200 L × 0.150 M, double it for two H⁺, then divide by 0.200 M.",
+  "why": "20.0x0.200/0.150=26.7; old feedback did not diagnose the choice"
+ }
+]

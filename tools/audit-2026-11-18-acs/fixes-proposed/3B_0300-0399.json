@@ -1,0 +1,51 @@
+[
+ {
+  "id": "3B-317",
+  "field": "x[3]",
+  "old": "197 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH2. Use the values in the table.",
+  "new": "197 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH<sub>2</sub>. Use the values in the table.",
+  "why": "FADH2 shown without subscript markup; every other occurrence in the item uses <sub>2</sub>"
+ },
+ {
+  "id": "3B-375",
+  "field": "x[2]",
+  "old": "In 2-methyl-1-butanol the branch is on C2, right next to the CH2OH carbon. In this ester two CH2 groups sit between the O and the branch.",
+  "new": "In 2-methyl-1-butanol the branch is on C2, right next to the CH<sub>2</sub>OH carbon. In this ester two CH<sub>2</sub> groups sit between the O and the branch.",
+  "why": "CH2 shown without subscript markup"
+ },
+ {
+  "id": "3B-394",
+  "field": "c[2]",
+  "old": "C<sub>6</sub>H<sub>10</sub> (cyclohexene)",
+  "new": "CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>2</sub>CH=CH<sub>2</sub>",
+  "why": "choice printed its own formula C6H10, a giveaway; 1,5-hexadiene (C6H10) makes the student count H and recognize two C=C"
+ },
+ {
+  "id": "3B-394",
+  "field": "x[2]",
+  "old": "Cyclohexene is C<sub>6</sub>H<sub>10</sub>: it has a ring and a C=C, so it has two H fewer than cyclohexane.",
+  "new": "This diene has two C=C bonds, so it is C<sub>6</sub>H<sub>10</sub>, two H fewer than cyclohexane. Each C=C or ring removes 2 H.",
+  "why": "matches new c[2]"
+ },
+ {
+  "id": "3B-394",
+  "field": "c[3]",
+  "old": "C<sub>6</sub>H<sub>6</sub> (benzene)",
+  "new": "HC≡CCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
+  "why": "choice printed its own formula C6H6, a giveaway; 1-hexyne (C6H10) tests that a triple bond removes 4 H"
+ },
+ {
+  "id": "3B-394",
+  "field": "x[3]",
+  "old": "Benzene is C<sub>6</sub>H<sub>6</sub>, far fewer H than cyclohexane. Isomers need exactly the same formula.",
+  "new": "A C≡C triple bond removes 4 H, so 1-hexyne is C<sub>6</sub>H<sub>10</sub>, two H fewer than cyclohexane. Isomers need exactly the same formula.",
+  "why": "matches new c[3]"
+ },
+ {
+  "id": "3B-394",
+  "field": "w",
+  "old": "A ring and a C=C each remove 2 H from the alkane formula, so an open-chain alkene has the same formula as a cycloalkane. <b>1-Hexene</b> is C<sub>6</sub>H<sub>12</sub>; hexane is C<sub>6</sub>H<sub>14</sub>, cyclohexene C<sub>6</sub>H<sub>10</sub> and benzene C<sub>6</sub>H<sub>6</sub>.",
+  "new": "A ring and a C=C each remove 2 H from the alkane formula, so an open-chain alkene with one C=C has the same formula as a cycloalkane. <b>1-Hexene</b> is C<sub>6</sub>H<sub>12</sub>; hexane is C<sub>6</sub>H<sub>14</sub>, and 1,5-hexadiene (two C=C) and 1-hexyne (one C≡C) are both C<sub>6</sub>H<sub>10</sub>.",
+  "why": "matches new c[2], c[3]"
+ }
+]

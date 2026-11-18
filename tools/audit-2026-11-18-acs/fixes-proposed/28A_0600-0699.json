@@ -1,0 +1,9 @@
+[
+ {
+  "id": "28A-647",
+  "field": "x[2]",
+  "old": "A ketone flanked by two intact cyclopentyl groups would need a hydride shift, but neither carbinol carbon has a hydrogen.",
+  "new": "This ketone has 11 carbons, but the diol has only 10, so it cannot come from this reaction. In the pinacol shift a ring C–C bond migrates instead, and one ring grows from five to six members.",
+  "why": "c2 O=C(C1CCCC1)C1CCCC1 is C11H18O; the diol is C10H18O2. The old feedback blamed a missing hydride shift, which is not the real error."
+ }
+]

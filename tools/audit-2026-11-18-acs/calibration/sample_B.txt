@@ -1,0 +1,1185 @@
+=== 1B-32 | topic=equilibrium | d=1 | calc=0
+Q: For the equilibrium shown (FeSCN<sup>2+</sup> is blood-red), a few drops of concentrated KSCN are added. What happens?
+  FIG: {"type":"eq","text":"Fe<sup>3+</sup>(aq) + SCN<sup>−</sup>(aq) ⇌ FeSCN<sup>2+</sup>(aq)"}
+KEY c0: The equilibrium shifts right and the red color deepens.
+c1  c1: The equilibrium shifts left and the red color fades.
+      why-wrong x1: Adding a reactant shifts the reaction right, not left.
+c2  c2: K increases, so more FeSCN<sup>2+</sup> forms.
+      why-wrong x2: K doesn't change. Only the position shifts.
+c3  c3: Nothing changes because K is constant.
+      why-wrong x3: The position shifts even though K stays the same.
+HINT: Le Châtelier: adding a reactant pushes the system to use some of it up.
+EXPL: Extra SCN<sup>−</sup> makes Q &lt; K, so the system <b>shifts right</b>, forming more red FeSCN<sup>2+</sup>. K stays the same; only the position shifts.
+=== 1B-55 | topic=acidbase | d=2 | calc=1
+Q: What is the pH of 0.10 M sodium acetate, NaCH<sub>3</sub>COO? (K<sub>a</sub> of CH<sub>3</sub>COOH = 1.8×10<sup>−5</sup>)
+KEY c0: 8.87
+c1  c1: 5.13
+      why-wrong x1: 5.13 is the pOH, from the [OH⁻] that acetate makes. Acetate is a weak base, so the pH must be above 7: subtract the pOH from 14.00.
+c2  c2: 7.00
+      why-wrong x2: The salt of a weak acid and a strong base is basic.
+c3  c3: 2.87
+      why-wrong x3: 2.87 is the pH of acetic acid, not acetate.
+HINT: Acetate is a weak base. Find K<sub>b</sub> = K<sub>w</sub>/K<sub>a</sub>, then treat it like any weak base.
+EXPL: K<sub>b</sub> = 5.6×10<sup>−10</sup>; [OH<sup>−</sup>] = √(K<sub>b</sub>·0.10) = 7.5×10<sup>−6</sup> M; pOH = 5.13, pH = <b>8.87</b>. The salt of a weak acid and a strong base is basic, not neutral.
+=== 1B-79 | topic=buffers | d=3 | calc=1
+Q: 25.0 mL of 0.100 M CH<sub>3</sub>COOH is titrated with 0.100 M NaOH. What is the pH at the equivalence point? (K<sub>a</sub> = 1.8×10<sup>−5</sup>)
+KEY c0: 8.72
+c1  c1: 7.00
+      why-wrong x1: The acetate ion makes the solution basic, so it isn't 7.
+c2  c2: 8.87
+      why-wrong x2: This ignores dilution. The volume doubled to 50.0 mL.
+c3  c3: 5.28
+      why-wrong x3: 5.28 is the pOH, from the [OH⁻] that acetate makes. A weak acid titrated with a strong base gives a basic equivalence point: subtract from 14.00.
+HINT: At equivalence you have only acetate. Find its concentration in the TOTAL volume, then treat it as a weak base (K<sub>b</sub> = K<sub>w</sub>/K<sub>a</sub>).
+EXPL: 2.50 mmol acetate in 50.0 mL = 0.0500 M; K<sub>b</sub> = 5.6×10<sup>−10</sup>; [OH<sup>−</sup>] = √(K<sub>b</sub>·0.0500) = 5.3×10<sup>−6</sup> M; pOH = 5.28; pH = <b>8.72</b>. Using 0.100 M (ignoring dilution) gives 8.87.
+=== 1B-122 | topic=thermo | d=2 | calc=0
+Q: Ice melts at 0 °C and 1 atm. For H<sub>2</sub>O(s) → H<sub>2</sub>O(l) at exactly 0 °C, which set of signs is correct?
+KEY c0: ΔH > 0, ΔS > 0, ΔG = 0
+c1  c1: ΔH > 0, ΔS > 0, ΔG &lt; 0
+      why-wrong x1: At the melting point, the phases are at equilibrium, so ΔG = 0.
+c2  c2: ΔH &lt; 0, ΔS > 0, ΔG = 0
+      why-wrong x2: Melting absorbs heat, so ΔH > 0.
+c3  c3: ΔH > 0, ΔS &lt; 0, ΔG > 0
+      why-wrong x3: Melting increases disorder, so ΔS > 0.
+HINT: At the normal melting point, solid and liquid coexist in equilibrium.
+EXPL: Melting absorbs heat (ΔH > 0) and increases disorder (ΔS > 0). At the melting point the phases are at equilibrium, so <b>ΔG = 0</b>.
+=== 1B-203 | topic=coordination | d=1 | calc=0
+Q: The octahedral ion [Cr(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> gives chromium(III) salts their violet color in water. How many of its d electrons are unpaired?
+KEY c0: 3
+c1  c1: 6
+      why-wrong x1: This counts the ligands, not the electrons.
+c2  c2: 0
+      why-wrong x2: d³ electrons go singly into three orbitals.
+c3  c3: 1
+      why-wrong x3: Cr³⁺ is d³, and Hund's rule puts each electron in its own t₂g orbital before any pairing. Ending with only one unpaired electron would require pairing that a d³ ion never needs.
+HINT: Find the d-electron count of Cr<sup>3+</sup> first; then fill the three lower t<sub>2g</sub> orbitals one electron at a time.
+EXPL: Cr is [Ar]3d<sup>5</sup>4s<sup>1</sup>; Cr<sup>3+</sup> is d<sup>3</sup>. Three electrons go singly into the three t<sub>2g</sub> orbitals, so there are <b>3</b> unpaired electrons (no high/low-spin choice exists for d<sup>3</sup>). 6 counts the ligands, not electrons.
+=== 1B-217 | topic=equilibrium | d=2 | calc=1
+Q: Bromine vapor dissociates slightly inside a hot furnace, as shown, with K<sub>c</sub> = 1.1×10<sup>−5</sup>. Starting from pure Br<sub>2</sub> at 0.40 M, find the equilibrium concentration of Br atoms.
+  FIG: {"type":"eq","text":"Br<sub>2</sub>(g) ⇌ 2 Br(g)"}
+KEY c0: 2.1×10<sup>−3</sup> M
+c1  c1: 1.0×10<sup>−3</sup> M
+      why-wrong x1: This is x, which is half of [Br].
+c2  c2: 5.2×10<sup>−4</sup> M
+      why-wrong x2: This divides x by 2 instead of doubling it.
+c3  c3: 4.4×10<sup>−6</sup> M
+      why-wrong x3: 4.4×10⁻⁶ is [Br]². Take the square root.
+HINT: K is tiny, so [Br<sub>2</sub>] stays ≈ 0.40 M. Is x small?
+EXPL: [Br]<sup>2</sup> = K<sub>c</sub>[Br<sub>2</sub>] = (1.1×10<sup>−5</sup>)(0.40) = 4.4×10<sup>−6</sup>, so [Br] = <b>2.1×10<sup>−3</sup> M</b> (≪ 5% of 0.40 M, so the approximation holds). 1.0×10<sup>−3</sup> M is x, which is only half of [Br]; 5.2×10<sup>−4</sup> M divides x by 2 instead of doubling it.
+=== 1B-222 | topic=equilibrium | d=2 | calc=1
+Q: 0.500 mol SO<sub>2</sub>Cl<sub>2</sub> is placed in a 2.00 L flask and reacts as shown. At equilibrium the flask contains 0.100 mol Cl<sub>2</sub>. What is K<sub>c</sub>?
+  FIG: {"type":"eq","text":"SO<sub>2</sub>Cl<sub>2</sub>(g) ⇌ SO<sub>2</sub>(g) + Cl<sub>2</sub>(g)"}
+KEY c0: 0.0125
+c1  c1: 0.0250
+      why-wrong x1: This uses moles instead of molarity.
+c2  c2: 0.0100
+      why-wrong x2: This forgets to subtract the SO₂Cl₂ that reacted.
+c3  c3: 80.0
+      why-wrong x3: This is the inverted ratio, with SO₂Cl₂ on top. K<sub>c</sub> puts the products, [SO₂][Cl₂], in the numerator and the reactant SO₂Cl₂ in the denominator.
+HINT: Convert moles to molarity first, then use an ICE table.
+EXPL: [Cl<sub>2</sub>] = [SO<sub>2</sub>] = 0.100/2.00 = 0.0500 M; [SO<sub>2</sub>Cl<sub>2</sub>] = (0.500 − 0.100)/2.00 = 0.200 M. K<sub>c</sub> = (0.0500)(0.0500)/0.200 = <b>0.0125</b>. Using moles instead of molarity gives 0.0250.
+=== 1B-229 | topic=acidbase | d=3 | calc=1
+Q: A chemist measures pH 11.65 for a 0.40 M aqueous solution of an unknown amine, B. From this reading, calculate K<sub>b</sub> of the amine.
+KEY c0: 5.0×10<sup>−5</sup>
+c1  c1: 2.0×10<sup>−5</sup>
+      why-wrong x1: This forgets to divide by [B].
+c2  c2: 1.1×10<sup>−2</sup>
+      why-wrong x2: This forgets to square [OH⁻].
+c3  c3: 1.3×10<sup>−23</sup>
+      why-wrong x3: This uses [H₃O⁺] instead of [OH⁻].
+HINT: Get pOH and [OH<sup>−</sup>] first; K<sub>b</sub> = [OH<sup>−</sup>]<sup>2</sup>/[B].
+EXPL: pOH = 2.35, [OH<sup>−</sup>] = 4.47×10<sup>−3</sup> M; K<sub>b</sub> = (4.47×10<sup>−3</sup>)<sup>2</sup>/(0.40 − 0.0045) = <b>5.0×10<sup>−5</sup></b>. 2.0×10<sup>−5</sup> forgets to divide by [B]; 1.3×10<sup>−23</sup> uses [H<sub>3</sub>O<sup>+</sup>] in place of [OH<sup>−</sup>].
+=== 1B-247 | topic=solubility | d=2 | calc=1
+Q: Equal 100.0-mL volumes of 0.0030 M lead(II) nitrate and 0.0030 M potassium iodide are poured together. Given K<sub>sp</sub>(PbI<sub>2</sub>) = 9.8×10<sup>−9</sup>, does PbI<sub>2</sub> precipitate?
+KEY c0: No; Q = 3.4×10<sup>−9</sup>, which is less than K<sub>sp</sub>.
+c1  c1: Yes; Q = 2.7×10<sup>−8</sup>, which exceeds K<sub>sp</sub>.
+      why-wrong x1: This forgets that mixing halves each concentration.
+c2  c2: Yes; Q = 1.4×10<sup>−8</sup>, which exceeds K<sub>sp</sub>.
+      why-wrong x2: This dilutes Pb²⁺ but not I⁻.
+c3  c3: Yes; Q = 2.3×10<sup>−6</sup>, which exceeds K<sub>sp</sub>.
+      why-wrong x3: This forgets to square [I⁻].
+HINT: Mixing equal volumes halves each concentration. Then Q = [Pb<sup>2+</sup>][I<sup>−</sup>]<sup>2</sup>.
+EXPL: After mixing, [Pb<sup>2+</sup>] = [I<sup>−</sup>] = 0.0015 M. Q = (0.0015)(0.0015)<sup>2</sup> = 3.4×10<sup>−9</sup> &lt; K<sub>sp</sub>, so <b>no precipitate</b>. 2.7×10<sup>−8</sup> forgets the dilution on mixing.
+=== 1B-273 | topic=nuclear | d=2 | calc=1
+Q: A hospital pharmacy prepares a technetium-99m dose (half-life 6.01 h) at 6 a.m. What percentage of its activity is left at 6 a.m. the next day?
+KEY c0: 6.3%
+c1  c1: 12.5%
+      why-wrong x1: This counts only 3 half-lives.
+c2  c2: 25.0%
+      why-wrong x2: This counts only 2 half-lives.
+c3  c3: 1.6%
+      why-wrong x3: This counts 6 half-lives. Divide the 24 h elapsed by the 6.01 h half-life.
+HINT: Radioactive decay is first order: fraction left = (1/2)<sup>t/t<sub>1/2</sub></sup>.
+EXPL: t/t<sub>1/2</sub> = 24.0/6.01 = 3.99; (1/2)<sup>3.99</sup> = 0.0628 → <b>6.3%</b>. 12.5% counts only 3 half-lives; 25.0% treats 24 h as 2 half-lives.
+=== 1B-277 | topic=kinetics | d=2 | calc=0
+Q: For the reaction A → products, the plot shows [A] versus time. Based on how the half-life changes, what is the order of the reaction in A?
+  FIG: {"type":"plot","x":{"label":"Time (s)","min":0,"max":160,"ticks":[0,20,40,60,80,100,120,140,160]},"y":{"label":"[A] (M)","min":0,"max":0.8,"ticks":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8]},"series":[{"pts":[[0.0,0.8],[2.0,0.7273],[4.0,0.6667],[6.0,0.6154],[8.0,0.5714],[10.0,0.5333],[12.0,0.5],[14.0,0.4706],[16.0,0.4444],[18.0,0.4211],[20.0,0.4],[22.0,0.381],[24.0,0.3636],[26.0,0.3478],[28.0,0.3333],[30.0,0.32],[32.0,0.3077],[34.0,0.2963],[36.0,0.2857],[38.0,0.2759],[40.0,0.2667],[42.0,0.2581],[44.0,0.25],[46.0,0.2424],[48.0,0.2353],[50.0,0.2286],[52.0,0.2222],[54.0,0.2162],[56.0,0.2105],[58.0,0.2051],[60.0,0.2],[62.0,0.1951],[64.0,0.1905],[66.0,0.186],[68.0,0.1818],[70.0,0.1778],[72.0,0.1739],[74.0,0.1702],[76.0,0.1667],[78.0,0.1633],[80.0,0.16],[82.0,0.1569],[84.0,0.1538],[86.0,0.1509],[88.0,0.1481],[90.0,0.1455],[92.0,0.1429],[94.0,0.1404],[96.0,0.1379],[98.0,0.1356],[100.0,0.1333],[102.0,0.1311],[104.0,0.129],[106.0,0.127],[108.0,0.125],[110.0,0.1231],[112.0,0.1212],[114.0,0.1194],[116.0,0.1176],[118.0,0.1159],[120.0,0.1143],[122.0,0.1127],[124.0,0.1111],[126.0,0.1096],[128.0,0.1081],[130.0,0.1067],[132.0,0.1053],[134.0,0.1039],[136.0,0.1026],[138.0,0.1013],[140.0,0.1],[142.0,0.0988],[144.0,0.0976],[146.0,0.0964],[148.0,0.0952],[150.0,0.0941],[152.0,0.093],[154.0,0.092],[156.0,0.0909],[158.0,0.0899],[160.0,0.0889]]}],"mono":true,"grid":true}
+KEY c0: second order
+c1  c1: first order
+      why-wrong x1: First order gives a constant half-life.
+c2  c2: zero order
+      why-wrong x2: Zero order gives half-lives that get shorter.
+c3  c3: third order
+      why-wrong x3: Doubling half-lives point to a lower order.
+HINT: Read the time for [A] to halve from 0.80 to 0.40 M, then from 0.40 to 0.20 M. Compare.
+EXPL: [A] halves 0.80 → 0.40 M in 20 s, 0.40 → 0.20 M in the next 40 s, and 0.20 → 0.10 M in the next 80 s. Each half-life doubles as [A] halves (t<sub>1/2</sub> = 1/k[A]<sub>0</sub>), which is <b>second order</b>. First order would give a constant half-life; zero order would give half-lives that get shorter.
+=== 1B-283 | topic=equilibrium | d=2 | calc=1
+Q: The picture shows a 1.0 L container at equilibrium for the reaction shown. What is K<sub>c</sub>?
+  FIG: {"type":"eq","text":"A<sub>2</sub>(g) + B<sub>2</sub>(g) ⇌ 2 AB(g)"}
+  FIG: {"type":"particles","key":{"A":{"c":"#e0675a","n":"A"},"B":{"c":"#3b82b4","n":"B"}},"boxes":[{"cap":"At equilibrium","mols":[["A","A"],["A","A"],["B","B"],["B","B"],["A","B"],["A","B"],["A","B"],["A","B"],["A","B"],["A","B"]]}]}
+KEY c0: 9.0
+c1  c1: 1.5
+      why-wrong x1: This forgets to square [AB].
+c2  c2: 3.0
+      why-wrong x2: Recheck: K = [AB]² ÷ ([A₂][B₂]).
+c3  c3: 0.11
+      why-wrong x3: This is 4/36, reactants over products. K<sub>c</sub> puts the product AB (squared) on top and A₂ × B₂ on the bottom.
+HINT: Write K<sub>c</sub> = [AB]<sup>2</sup>/([A<sub>2</sub>][B<sub>2</sub>]) and count each kind of molecule. Do the volume terms cancel here?
+EXPL: There are 6 AB, 2 A<sub>2</sub> and 2 B<sub>2</sub>. Moles of gas are the same on both sides, so the volume cancels: K<sub>c</sub> = 6<sup>2</sup>/(2 × 2) = <b>9.0</b>. 1.5 forgets to square [AB] (the coefficient 2); 0.11 is the inverse.
+=== 1B-338 | topic=coordination | d=3 | calc=1
+Q: The octahedral ion [Ti(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> absorbs light most strongly at 498 nm, which promotes its single d electron from t<sub>2g</sub> to e<sub>g</sub>. What is Δ<sub>o</sub> in kJ mol⁻¹?
+KEY c0: 240 kJ mol⁻¹
+c1  c1: 2.40×10<sup>5</sup> kJ mol⁻¹
+      why-wrong x1: This is the value in J, not kJ.
+c2  c2: 3.99×10<sup>−19</sup> kJ mol⁻¹
+      why-wrong x2: This is the energy of one photon in joules. A mole of ions needs Avogadro's number, and the answer must be in kJ.
+c3  c3: 2.40×10<sup>−7</sup> kJ mol⁻¹
+      why-wrong x3: This plugs in λ = 498 instead of 498×10⁻⁹ m, so the energy comes out 10⁹ times too small. Convert nm to meters before using E = hc/λ.
+HINT: E = hc/λ gives the energy per ion (λ in meters). Multiply by Avogadro's number and convert J to kJ.
+EXPL: E = (6.626×10<sup>−34</sup> J·s)(2.998×10<sup>8</sup> m s⁻¹) ÷ (498×10<sup>−9</sup> m) = 3.99×10<sup>−19</sup> J per ion; × 6.022×10<sup>23</sup> mol<sup>−1</sup> = 2.40×10<sup>5</sup> J mol⁻¹ = <b>240 kJ mol⁻¹</b>. 2.40×10<sup>5</sup> is the value in J, not kJ; 3.99×10<sup>−19</sup> skips Avogadro's number; 2.40×10<sup>−7</sup> leaves λ in nm.
+=== 1B-345 | topic=nuclear | d=1 | calc=0
+Q: Which nuclide is most likely to decay by alpha emission?
+KEY c0: <span class="nw"><span class="ss pre"><sup>239</sup><sub>94</sub></span>Pu</span>
+c1  c1: <span class="nw"><span class="ss pre"><sup>131</sup><sub>53</sub></span>I</span>
+      why-wrong x1: I-131 is neutron-rich, a β⁻ emitter.
+c2  c2: <span class="nw"><span class="ss pre"><sup>15</sup><sub>8</sub></span>O</span>
+      why-wrong x2: O-15 is neutron-poor, a positron emitter.
+c3  c3: <span class="nw"><span class="ss pre"><sup>60</sup><sub>27</sub></span>Co</span>
+      why-wrong x3: Co-60 is neutron-rich, a β⁻ emitter.
+HINT: Alpha decay is typical of very heavy nuclei, those beyond bismuth (Z = 83).
+EXPL: Nuclei with Z &gt; 83 are too large to be stable and usually shed mass as alpha particles: <b>plutonium-239</b>. I-131 and Co-60 are neutron-rich (β<sup>−</sup> emitters); O-15 is neutron-poor (positron emitter).
+=== 1B-382 | topic=kinetics | d=2 | calc=1
+Q: When ln[A] is plotted against time for the decomposition of A, the data fall on the straight line shown. How long does it take for half of A to react?
+  FIG: {"type":"plot","x":{"label":"Time (min)","min":0,"max":60,"ticks":[0,10,20,30,40,50,60]},"y":{"label":"ln[A]","min":-1.6,"max":0.2,"ticks":[-1.6,-1.2,-0.8,-0.4,0]},"series":[{"pts":[[0,-0.0],[10,-0.231],[20,-0.462],[30,-0.693],[40,-0.924],[50,-1.155],[60,-1.386]],"dots":true}],"mono":true,"grid":true,"points":[[60,-1.386,"(60, −1.39)",-84,22]]}
+KEY c0: 30.0 min
+c1  c1: 43.3 min
+      why-wrong x1: This is 1/k, not the half-life.
+c2  c2: 60.0 min
+      why-wrong x2: 60.0 min is two half-lives.
+c3  c3: 20.8 min
+      why-wrong x3: Recheck k. Find the slope from two points far apart on the line, then use t½ = 0.693/k.
+HINT: A linear ln[A] vs t plot means first order with k = −slope. For first order, t<sub>1/2</sub> = 0.693/k.
+EXPL: The line falls from 0 to −1.386 over 60.0 min, so k = −slope = 1.386/60.0 = 0.0231 min<sup>−1</sup>, and t<sub>1/2</sub> = 0.693/0.0231 = <b>30.0 min</b>. (Check: ln[A] = −0.693 = ln(1/2) at 30 min.) 43.3 min is 1/k, which is not a half-life; 60.0 min is where ln[A] reaches −1.386 = ln(1/4), two half-lives.
+=== 1B-420 | topic=equilibrium | d=1 | calc=0
+Q: At a certain temperature the reaction shown has K = 2.1×10<sup>9</sup>. Which quantity can NOT be determined from this value?
+  FIG: {"type":"eq","text":"2 H<sub>2</sub>(g) + O<sub>2</sub>(g) ⇌ 2 H<sub>2</sub>O(g)"}
+KEY c0: How long the mixture takes to reach equilibrium
+c1  c1: Whether products or reactants dominate at equilibrium
+      why-wrong x1: K shows which side dominates. That can be read from it.
+c2  c2: The direction the reaction proceeds from a given set of concentrations
+      why-wrong x2: Compare Q with K to find the direction. That can be done.
+c3  c3: The equilibrium constant for the reverse reaction
+      why-wrong x3: The reverse K is 1/K. That can be found.
+HINT: K is a thermodynamic quantity. Which of these is a question about kinetics instead?
+EXPL: K tells you the extent (K ≫ 1 means mostly products), the direction when compared with Q, and K for the reverse reaction (1/K). <b>It says nothing about speed</b>: a huge K can belong to a reaction that takes years because of a high activation energy. Students often assume a large K means a fast reaction.
+=== 1B-469 | topic=electro | d=2 | calc=0
+Q: The reaction shown has E° = +0.76 V. A cell runs this reaction with [Zn<sup>2+</sup>] = 1.0 M and P<sub>H2</sub> = 1.0 atm. If sodium hydroxide is added to the acid compartment, what happens to the cell potential?
+  FIG: {"type":"eq","text":"Zn(s) + 2 H<sup>+</sup>(aq) → Zn<sup>2+</sup>(aq) + H<sub>2</sub>(g)"}
+KEY c0: It falls below 0.76 V, because lowering [H<sup>+</sup>] increases Q
+c1  c1: It rises above 0.76 V, because the solution becomes more basic
+      why-wrong x1: Adding base lowers [H⁺] and raises Q.
+c2  c2: It stays at 0.76 V, because E° does not depend on pH
+      why-wrong x2: E depends on pH, even though E° doesn't.
+c3  c3: It stays at 0.76 V, because H<sup>+</sup> is not part of Q
+      why-wrong x3: H⁺ is a reactant in solution, so it appears in Q, squared: Q = [Zn²⁺]P<sub>H₂</sub>/[H⁺]². Adding NaOH changes [H⁺], so it changes Q and the cell potential.
+HINT: Write Q for the reaction: H<sup>+</sup> is a reactant, so it appears in the denominator of Q. Then use E = E° − (0.0592/n) log Q.
+EXPL: Q = [Zn<sup>2+</sup>]P<sub>H2</sub>/[H<sup>+</sup>]<sup>2</sup>. Adding base lowers [H<sup>+</sup>], which makes Q larger, log Q positive, and <b>E = E° − (0.0592/2) log Q smaller than 0.76 V</b>. E° is indeed independent of pH, but E is not; the question asks about the actual potential. Each pH unit lowers E by about 0.059 V here.
+=== 1B-478 | topic=imf | d=1 | calc=0
+Q: Each picture shows two neighboring water molecules in liquid water. In which picture does the dotted line represent a correct hydrogen bond?
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN [H]O[H].[H]O[H] {dotted line H...O}
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN [H]O[H].[H]O[H] {dotted line H...H}
+      why-wrong x1: This joins two H atoms. Both are δ+, so they repel.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN [H]O[H].[H]O[H] {dotted line O...O}
+      why-wrong x2: This joins two O atoms. Both are δ−, so they repel.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN [H]O[H]O([H])[H] {valence problem: Explicit valence for atom # 2 H, 2, is greater than permitted}
+      why-wrong x3: A hydrogen bond isn't a covalent bond. It's drawn dotted.
+HINT: A hydrogen bond runs from an H that is covalently bonded to O toward a lone pair on the O of a neighboring molecule.
+EXPL: A hydrogen bond is the attraction between the δ+ <b>H of one O–H bond and the δ− O (a lone pair) of another water molecule</b>, so the dotted line must go H···O. H···H joins two δ+ atoms (they repel), O···O joins two δ− atoms, and the solid-line picture is the common mistake of drawing the hydrogen bond as a covalent bond: it is an intermolecular attraction about 1/20 as strong as the O–H bond, not a shared pair.
+=== 1B-491 | topic=kinetics | d=1 | calc=0
+Q: A piece of zinc reacts with hydrochloric acid:<br>Zn(s) + 2 HCl(aq) → ZnCl<sub>2</sub>(aq) + H<sub>2</sub>(g)<br>Which changes would increase the initial rate of H<sub>2</sub> production?<br>I. Using powdered zinc instead of a single lump of the same mass<br>II. Using 2.0 M HCl instead of 1.0 M HCl<br>III. Using a larger volume of the same 1.0 M HCl
+KEY c0: I and II only
+c1  c1: II and III only
+      why-wrong x1: Statement I is misjudged. Powdered zinc exposes much more surface to the acid, so more collisions happen each second.
+c2  c2: II only
+      why-wrong x2: Statement I is also true. Breaking the zinc into powder exposes much more surface for collisions.
+c3  c3: I, II and III
+      why-wrong x3: Statement III is false. More acid at the same concentration lasts longer but does not make the reaction faster at the start.
+HINT: The rate depends on how often H<sup>+</sup> ions hit the zinc surface. Think about what each change does to the surface area and to the concentration of acid.
+EXPL: <b>I and II only.</b> Powdered zinc has much more surface area, so more collisions with H<sup>+</sup> happen each second (I true). Doubling [HCl] doubles the concentration of H<sup>+</sup> at the surface (II true). Adding more acid of the same concentration does not change the concentration at the zinc surface, so the initial rate stays the same (III false).
+=== 1B-493 | topic=equilibrium | d=3 | calc=0
+Q: For the reaction 2 SO<sub>2</sub>(g) + O<sub>2</sub>(g) ⇌ 2 SO<sub>3</sub>(g), the equilibrium constant is K<sub>c</sub>. Which statements are true at the same temperature?<br>I. For SO<sub>3</sub>(g) ⇌ SO<sub>2</sub>(g) + ½ O<sub>2</sub>(g), the equilibrium constant is 1/(2K<sub>c</sub>).<br>II. For 4 SO<sub>2</sub>(g) + 2 O<sub>2</sub>(g) ⇌ 4 SO<sub>3</sub>(g), the equilibrium constant is K<sub>c</sub><sup>2</sup>.<br>III. K<sub>p</sub> = K<sub>c</sub> for the original reaction.
+KEY c0: II only
+c1  c1: I and II only
+      why-wrong x1: Statement I is false. Halving the coefficients takes the square root of K. It does not divide K by 2.
+c2  c2: II and III only
+      why-wrong x2: Statement III is false. The moles of gas drop from 3 to 2, so Kp and Kc differ by a factor of (RT)⁻¹.
+c3  c3: I only
+      why-wrong x3: Statement I is false. Multiplying an equation by ½ means taking the square root of K, and reversing it means taking the reciprocal.
+HINT: Reversing an equation inverts K, and multiplying it by a factor raises K to that power. K<sub>p</sub> and K<sub>c</sub> are equal only when the moles of gas do not change.
+EXPL: <b>II only.</b> Doubling the coefficients squares the equilibrium constant, so the new constant is K<sub>c</sub><sup>2</sup> (II true). Reversing the reaction and halving it gives (1/K<sub>c</sub>)<sup>1/2</sup>, not 1/(2K<sub>c</sub>) (I false). Here Δn<sub>gas</sub> = 2 − 3 = −1, so K<sub>p</sub> = K<sub>c</sub>(RT)<sup>−1</sup>, which is not equal to K<sub>c</sub> (III false).
+=== 1B-552 | topic=colligative | d=2 | calc=0
+Q: A nonvolatile solute is dissolved in water. On the phase diagram of the solution compared with pure water, how do the liquid–vapor and solid–liquid lines shift at 1 atm?
+KEY c0: The liquid–vapor line shifts to higher temperature and the solid–liquid line shifts to lower temperature.
+c1  c1: Both lines shift to higher temperature.
+      why-wrong x1: A solute does not move both lines in the same direction. Think about the boiling point and the freezing point separately.
+c2  c2: Both lines shift to lower temperature.
+      why-wrong x2: A solute does not move both lines in the same direction. Does a lower vapor pressure make boiling easier or harder?
+c3  c3: The liquid–vapor line shifts to lower temperature and the solid–liquid line shifts to higher temperature.
+      why-wrong x3: Check the boiling point first. With a lower vapor pressure, does the solution need more or less heating to reach 1 atm?
+HINT: A solute lowers the vapor pressure of the liquid. Think about what that does to the boiling point and to the freezing point.
+EXPL: With a lower vapor pressure, the solution must be heated to a higher temperature to reach 1 atm, so the boiling point rises. The liquid is also stabilized relative to the solid, so the freezing point falls. The <b>liquid–vapor line moves to higher temperature and the solid–liquid line moves to lower temperature</b>, widening the liquid range.
+=== 1B-560 | topic=equilibrium | d=1 | calc=0
+Q: The system N<sub>2</sub>O<sub>4</sub>(g) ⇌ 2 NO<sub>2</sub>(g), ΔH° = +57 kJ, is at equilibrium in a closed container. Which changes would shift the equilibrium toward more NO<sub>2</sub>?<br>I. Increasing the volume of the container<br>II. Raising the temperature<br>III. Adding more N<sub>2</sub>O<sub>4</sub>(g)
+KEY c0: I, II and III
+c1  c1: II and III only
+      why-wrong x1: Statement I is true. Expanding the container favors the side with more moles of gas.
+c2  c2: I and II only
+      why-wrong x2: Statement III is true. Adding a reactant uses up some of it by making more product.
+c3  c3: III only
+      why-wrong x3: Statement II is true. The forward reaction absorbs heat, so adding heat drives it forward.
+HINT: Apply Le Châtelier's principle to each change. Count moles of gas on each side, and treat heat as a reactant in an endothermic reaction.
+EXPL: <b>I, II and III.</b> A larger volume lowers the pressure, and the system shifts toward the side with more moles of gas, 2 NO<sub>2</sub> (I true). The forward reaction is endothermic, so heating shifts it forward (II true). Adding a reactant shifts the equilibrium toward products (III true).
+=== 1B-579 | topic=thermo | d=2 | calc=0
+Q: Which statements about entropy and spontaneity are true?<br>I. For every spontaneous process, the entropy of the universe increases.<br>II. A process in which the entropy of the system decreases can never be spontaneous.<br>III. An exothermic process increases the entropy of the surroundings.
+KEY c0: I and III only
+c1  c1: I only
+      why-wrong x1: Statement III is true. Heat released by the system flows into the surroundings and raises their entropy.
+c2  c2: II and III only
+      why-wrong x2: Statement II is false. Water freezes spontaneously below 0 °C even though its entropy decreases.
+c3  c3: I, II and III
+      why-wrong x3: Statement II is false. A drop in system entropy can be outweighed by a larger gain in the entropy of the surroundings.
+HINT: The second law is about the universe, not just the system. Think about where the heat from an exothermic process goes.
+EXPL: <b>I and III only.</b> The second law says ΔS<sub>univ</sub> &gt; 0 for any spontaneous process (I true). Heat released by the system flows into the surroundings and raises their entropy, since ΔS<sub>surr</sub> = −ΔH/T (III true). II is false: water freezing below 0 °C has ΔS<sub>sys</sub> &lt; 0 yet is spontaneous, because the entropy gain of the surroundings is larger.
+=== 1B-595 | topic=nuclear | d=1 | calc=0
+Q: Which nuclear equations are balanced in both mass number and atomic number?<br>I. <sup>18</sup><sub>9</sub>F → <sup>18</sup><sub>10</sub>Ne + <sup>0</sup><sub>+1</sub>e<br>II. <sup>238</sup><sub>92</sub>U → <sup>234</sup><sub>90</sub>Th + <sup>4</sup><sub>2</sub>He<br>III. <sup>14</sup><sub>6</sub>C → <sup>14</sup><sub>7</sub>N + <sup>0</sup><sub>−1</sub>e
+KEY c0: II and III only
+c1  c1: II only
+      why-wrong x1: Statement III is balanced. Check the atomic numbers: 7 plus (−1) gives 6.
+c2  c2: I and III only
+      why-wrong x2: Statement I is unbalanced. The atomic numbers on the right add to 11, not 9.
+c3  c3: I, II and III
+      why-wrong x3: Statement I is unbalanced. Positron emission lowers the atomic number, it does not raise it.
+HINT: Add the mass numbers (top) and the atomic numbers (bottom) on each side. Both sums must match.
+EXPL: <b>II and III only.</b> In II, 238 = 234 + 4 and 92 = 90 + 2 (balanced). In III, 14 = 14 + 0 and 6 = 7 + (−1) (balanced). In I the mass numbers match, but the atomic numbers do not: 9 ≠ 10 + 1. Positron emission lowers Z by 1, so fluorine-18 actually gives <sup>18</sup><sub>8</sub>O (I false).
+=== 1B-604 | topic=imf | d=2 | calc=0
+Q: Structures of methanol (I), dimethyl ether (II) and acetone (III) are shown. Which of these molecules can accept a hydrogen bond from a water molecule but CANNOT form hydrogen bonds with other molecules of its own kind?
+  STEM-STRUCT: SMI CO
+  STEM-STRUCT: SMI COC
+  STEM-STRUCT: SMI CC(C)=O
+KEY c0: II and III only
+c1  c1: I only
+      why-wrong x1: Methanol has an OH hydrogen, so methanol molecules do hydrogen bond with each other. Look again at the molecules with no OH hydrogen.
+c2  c2: I and II only
+      why-wrong x2: Molecule I has an OH hydrogen, so it can hydrogen bond with other methanol molecules and does not fit the description.
+c3  c3: I, II and III
+      why-wrong x3: Methanol fails the second condition. Its OH hydrogen lets methanol molecules hydrogen bond to one another.
+HINT: A hydrogen bond needs an H on N, O or F in one molecule and a lone pair on N, O or F in the other.
+EXPL: All three have an oxygen with lone pairs, so all three can accept a hydrogen bond from water. I: methanol also has an O–H hydrogen, so methanol molecules hydrogen bond to one another, and I does not fit. II: dimethyl ether has no H on O, so it cannot hydrogen bond with itself; it fits. III: acetone's hydrogens are all on carbon, so it also fits. The answer is <b>II and III only</b>.
+=== 1B-621 | topic=colligative | d=3 | calc=1
+Q: Hexane and heptane form an ideal solution. The graph shows the partial pressure of each component and the total vapor pressure at 25 °C as a function of the mole fraction of hexane in the liquid. For a liquid with χ<sub>hexane</sub> = 0.30 (dashed line), what is the mole fraction of hexane in the vapor above it?
+  FIG: {"type":"plot","x":{"label":"Mole fraction of hexane in the liquid","min":0,"max":1,"ticks":[0,0.2,0.4,0.6,0.8,1]},"y":{"label":"Vapor pressure (torr)","min":0,"max":160,"ticks":[0,20,40,60,80,100,120,140,160]},"series":[{"pts":[[0,0],[0.75,113.25],[1,151]],"label":"hexane","labelAt":1,"dx":24,"dy":22},{"pts":[[0,46],[1,0]],"label":"heptane","labelAt":1,"dx":-64,"dy":-14},{"pts":[[0,46],[0.6,109],[1,151]],"label":"total","labelAt":1,"dx":-40,"dy":-26}],"vlines":[{"x":0.3,"label":"0.30"}],"points":[[1,151,"151 torr",-66,18],[0,46,"46 torr",8,20]],"grid":true}
+KEY c0: 0.58
+c1  c1: 0.30
+      why-wrong x1: That is the liquid composition. The more volatile hexane makes up a larger share of the vapor.
+c2  c2: 0.42
+      why-wrong x2: 0.42 is the mole fraction of heptane in the vapor. The question asks about hexane.
+c3  c3: 0.77
+      why-wrong x3: This compares only the pure liquid vapor pressures. Use the partial pressures at χ = 0.30.
+HINT: Read each partial pressure at χ<sub>hexane</sub> = 0.30. In the vapor, the mole fraction of a component equals its partial pressure divided by the total pressure.
+EXPL: At χ<sub>hexane</sub> = 0.30, P<sub>hexane</sub> = 0.30 × 151 = 45 torr and P<sub>heptane</sub> = 0.70 × 46 = 32 torr, so P<sub>total</sub> = 77 torr. The vapor mole fraction of hexane is 45/77 = <b>0.58</b>. The vapor is richer in the more volatile hexane than the liquid (0.30). 0.42 is heptane's vapor fraction, and 0.77 compares only the pure-liquid vapor pressures.
+=== 1B-652 | topic=equilibrium | d=2 | calc=1
+Q: Nitrosyl bromide decomposes as shown, with K<sub>p</sub> = 0.15 at 350 K (pressures in atm). What is K<sub>c</sub> at 350 K?
+  FIG: {"type":"eq","text":"2 NOBr(g) ⇌ 2 NO(g) + Br<sub>2</sub>(g)   K<sub>p</sub> = 0.15 at 350 K"}
+KEY c0: 5.2×10<sup>−3</sup>
+c1  c1: 4.3
+      why-wrong x1: This multiplies by RT. Solve Kp = Kc(RT)^Δn for Kc, which divides by RT when Δn is positive.
+c2  c2: 0.15
+      why-wrong x2: Kp equals Kc only when the moles of gas are the same on both sides. Here they are not.
+c3  c3: 5.2×10<sup>−5</sup>
+      why-wrong x3: This uses R = 8.314 J mol⁻¹ K⁻¹. With pressures in atm and concentrations in mol/L, R must be 0.08206.
+HINT: Use K<sub>p</sub> = K<sub>c</sub>(RT)<sup>Δn</sup>, with Δn = moles of gaseous products − moles of gaseous reactants and R = 0.08206 L atm mol<sup>−1</sup> K<sup>−1</sup>.
+EXPL: Δn = (2 + 1) − 2 = +1, so K<sub>c</sub> = K<sub>p</sub>/(RT) = 0.15/(0.08206 × 350) = <b>5.2×10<sup>−3</sup></b>. Multiplying by RT instead gives 4.3, and using R = 8.314 gives the wrong units.
+=== 1B-668 | topic=acidbase | d=1 | calc=0
+Q: Which Lewis structure shows the conjugate base of the hydrogen carbonate ion, HCO<sub>3</sub><sup>−</sup>?
+KEY c0: CO<sub>3</sub><sup>2−</sup>
+      DRAWN-CHOICE: DRAWN O=C([O-])[O-] LEWIS[C0:lp0 O1:lp2 O2:lp3/ch-1 O3:lp3/ch-1]
+c1  c1: H<sub>2</sub>CO<sub>3</sub>
+      DRAWN-CHOICE: DRAWN O=C(O)O LEWIS[C0:lp0 O1:lp2 O2:lp2 O3:lp2]
+      why-wrong x1: This structure has one more H than HCO₃⁻, which makes it the conjugate acid.
+c2  c2: CO<sub>2</sub>
+      DRAWN-CHOICE: DRAWN O=C=O LEWIS[O0:lp2 C1:lp0 O2:lp2]
+      why-wrong x2: This structure has lost an O atom and a charge as well. A conjugate pair differs by one H⁺ only.
+c3  c3: HCO<sub>2</sub><sup>−</sup>
+      DRAWN-CHOICE: DRAWN O=C[O-] LEWIS[C0:lp0 O2:lp2 O3:lp3/ch-1]
+      why-wrong x3: This ion has lost an O atom while keeping the H. A conjugate pair differs by exactly one H⁺.
+HINT: A conjugate base has one fewer H<sup>+</sup> than the acid: one H gone and the charge one unit more negative, with every other atom the same.
+EXPL: Removing H<sup>+</sup> from HCO<sub>3</sub><sup>−</sup> leaves <b>CO<sub>3</sub><sup>2−</sup></b>: the same C and three O atoms, no H, and a 2− charge (two O atoms carry −1). H<sub>2</sub>CO<sub>3</sub> is the conjugate acid, CO<sub>2</sub> has lost an O and an OH, and formate (HCO<sub>2</sub><sup>−</sup>) has lost an O atom rather than an H<sup>+</sup>.
+=== 1B-684 | topic=solubility | d=2 | calc=1
+Q: Two slightly soluble salts have the same K<sub>sp</sub> at 25 °C, as listed in the table. How do their molar solubilities in pure water compare?
+  FIG: {"type":"table","head":["Salt","Ions formed","K<sub>sp</sub>"],"rows":[["MY","M<sup>2+</sup> + Y<sup>2−</sup>","4.0×10<sup>−12</sup>"],["NZ<sub>2</sub>","N<sup>2+</sup> + 2 Z<sup>−</sup>","4.0×10<sup>−12</sup>"]]}
+KEY c0: NZ<sub>2</sub> is about 50 times more soluble than MY.
+c1  c1: They are equally soluble because their K<sub>sp</sub> values are equal.
+      why-wrong x1: Equal Ksp gives equal solubility only for salts with the same ion ratio. These two differ.
+c2  c2: MY is about 50 times more soluble than NZ<sub>2</sub>.
+      why-wrong x2: Check the direction. A cube root of a tiny number is much larger than a square root of a similar number.
+c3  c3: NZ<sub>2</sub> is about 2 times more soluble than MY.
+      why-wrong x3: The ratio is not just the 2 in the formula. Calculate each s from its own Ksp expression.
+HINT: Solve s<sup>2</sup> = K<sub>sp</sub> for MY and 4s<sup>3</sup> = K<sub>sp</sub> for NZ<sub>2</sub>.
+EXPL: MY: s = √(4.0×10<sup>−12</sup>) = 2.0×10<sup>−6</sup> M. NZ<sub>2</sub>: 4s<sup>3</sup> = 4.0×10<sup>−12</sup>, s = 1.0×10<sup>−4</sup> M. So <b>NZ<sub>2</sub> is about 50 times more soluble</b>. Equal K<sub>sp</sub> values mean equal solubility only when the ion ratios match.
+=== 1B-729 | topic=coordination | d=3 | calc=1
+Q: The graph shows the visible absorption spectra of two octahedral cobalt(III) complexes, X and Y, that differ only in their ligands. Which complex has the larger crystal-field splitting Δ<sub>o</sub>, and what is that Δ<sub>o</sub>? (h = 6.626×10<sup>−34</sup> J s; c = 2.998×10<sup>8</sup> m s<sup>−1</sup>; N<sub>A</sub> = 6.022×10<sup>23</sup> mol<sup>−1</sup>)
+  FIG: {"type":"plot","x":{"label":"Wavelength (nm)","min":380,"max":720,"ticks":[400,450,500,550,600,650,700]},"y":{"label":"Absorbance","min":0,"max":1,"ticks":[0,0.2,0.4,0.6,0.8,1]},"series":[{"pts":[[380,0.0312],[390,0.0624],[400,0.115],[410,0.1956],[420,0.3064],[430,0.4424],[440,0.5887],[450,0.722],[460,0.816],[470,0.85],[480,0.816],[490,0.722],[500,0.5887],[510,0.4424],[520,0.3064],[530,0.1956],[540,0.115],[550,0.0624],[560,0.0312],[570,0.0143],[580,0.0061],[590,0.0024],[600,0.0009],[610,0.0003],[620,0.0001],[630,0],[640,0],[650,0],[660,0],[670,0],[680,0],[690,0],[700,0],[710,0],[720,0]]},{"pts":[[380,0],[390,0],[400,0],[410,0],[420,0.0001],[430,0.0002],[440,0.0006],[450,0.0014],[460,0.0033],[470,0.0072],[480,0.0148],[490,0.0286],[500,0.0517],[510,0.088],[520,0.1406],[530,0.211],[540,0.2976],[550,0.3942],[560,0.4906],[570,0.5736],[580,0.63],[590,0.65],[600,0.63],[610,0.5736],[620,0.4906],[630,0.3942],[640,0.2976],[650,0.211],[660,0.1406],[670,0.088],[680,0.0517],[690,0.0286],[700,0.0148],[710,0.0072],[720,0.0033]]}],"points":[[470,0.85,"X",-4,-8],[590,0.65,"Y",-4,-8]],"vlines":[{"x":470,"label":"470 nm"},{"x":590,"label":"590 nm"}],"grid":true}
+KEY c0: X; 255 kJ mol<sup>−1</sup>
+c1  c1: Y; 203 kJ mol<sup>−1</sup>
+      why-wrong x1: Y absorbs at the longer wavelength, which is the lower energy, so its splitting is the smaller one.
+c2  c2: X; 203 kJ mol<sup>−1</sup>
+      why-wrong x2: The complex is right, but 203 kJ/mol comes from the 590 nm peak. Use the wavelength X absorbs.
+c3  c3: Y; 255 kJ mol<sup>−1</sup>
+      why-wrong x3: The energy is right for X’s peak, but the complex that absorbs there is not Y.
+HINT: Δ<sub>o</sub> equals the energy of the light absorbed. Shorter wavelength means higher energy: E = hc/λ per ion, times N<sub>A</sub> per mole.
+EXPL: X absorbs at the shorter wavelength (470 nm), so its photons carry more energy and X has the larger Δ<sub>o</sub>. Δ<sub>o</sub> = hcN<sub>A</sub>/λ = (6.626×10<sup>−34</sup>)(2.998×10<sup>8</sup>)(6.022×10<sup>23</sup>)/(470×10<sup>−9</sup> m) = 254522 J mol<sup>−1</sup>, so <b>X; 255 kJ mol<sup>−1</sup></b>. 203 kJ mol<sup>−1</sup> is the value for Y’s 590 nm peak, the smaller splitting.
+=== 28A-0 | topic=acidbase | d=1 | calc=0
+Q: Which compound is the strongest Brønsted acid?
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CS
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CO
+      why-wrong x1: Methanol (pK<sub>a</sub> ≈ 15.5) is the most acidic of the second-row compounds, but sulfur is below oxygen and size wins down a group, so methanethiol is about 10<sup>5</sup> times more acidic.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN CN
+      why-wrong x2: Nitrogen is less electronegative than oxygen, so CH<sub>3</sub>NH<sup>−</sup> is much less stable than CH<sub>3</sub>O<sup>−</sup>; methylamine (pK<sub>a</sub> ≈ 40) is a very weak acid.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CC
+      why-wrong x3: Ethane (pK<sub>a</sub> ≈ 50) puts the negative charge on carbon, the least electronegative atom here, so it is the weakest acid of the four.
+HINT: All four acidic hydrogens sit on atoms in the same molecule type (CH<sub>3</sub>–X–H). Compare the atoms X: across a row, then down a group.
+EXPL: Going down a group, atom <b>size</b> outweighs electronegativity: the S–H bond is longer and weaker, and the negative charge of CH<sub>3</sub>S<sup>−</sup> is spread over a larger, more polarizable atom. <b>CH<sub>3</sub>SH (pK<sub>a</sub> ≈ 10)</b> is therefore more acidic than CH<sub>3</sub>OH (≈ 15.5). Across the second row, acidity follows electronegativity: O–H > N–H (CH<sub>3</sub>NH<sub>2</sub>, ≈ 40) > C–H (ethane, ≈ 50).
+=== 28A-158 | topic=conform | d=2 | calc=0
+Q: The A-value of Br (about 2.0 kJ/mol) is much smaller than that of CH<sub>3</sub> (7.3 kJ/mol). Which explanation is best?
+KEY c0: The C–Br bond is much longer than a C–C bond, so an axial Br sits farther from the 3- and 5-axial H atoms
+c1  c1: Br is more electronegative than C, so it pulls electron density away from the axial H atoms and reduces their repulsion
+      why-wrong x1: Electronegativity does not reduce steric repulsion; Cl and Br have nearly equal A-values despite different electronegativities, because the larger Br atom is offset by its longer bond.
+c2  c2: An axial Br forms weak hydrogen bonds to the 3- and 5-axial H atoms, which offsets its steric strain
+      why-wrong x2: C–H bonds in cyclohexane are not hydrogen-bond donors; there is no hydrogen bonding between axial H and Br.
+c3  c3: Br is so polarizable that its 1,3-diaxial interactions are attractive, so axial Br is preferred
+      why-wrong x3: Br still prefers the equatorial position (its A-value is positive), so axial Br is not favored.
+HINT: A-values measure 1,3-diaxial crowding. Compare the C–Br bond length (about 1.94 Å) with a C–C bond (1.54 Å).
+EXPL: Steric strain depends on distance. The <b>longer C–Br bond places an axial Br farther from the axial H atoms</b> on C3 and C5, so the 1,3-diaxial interactions are weak even though the Br atom is large. A CH<sub>3</sub> on a short C–C bond also carries three H atoms that crowd the ring.
+=== 28A-179 | topic=elim | d=3 | calc=0
+Q: The Newman projection shows 2-bromo-3-phenylbutane viewed along C2–C3 (C2 in front) in the conformation that reacts. What is the product of E2 elimination with NaOCH<sub>2</sub>CH<sub>3</sub>?
+  FIG: {"type":"newman","front":["Br","CH<sub>3</sub>","H"],"back":["H","CH<sub>3</sub>","C<sub>6</sub>H<sub>5</sub>"],"rot":180}
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN C/C=C(/C)c1ccccc1
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN C/C=C(\C)c1ccccc1
+      why-wrong x1: The <i>E</i> isomer would need the front CH<sub>3</sub> and the phenyl on opposite sides; in the anti-periplanar conformation they are gauche, so they end up cis.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN C=C[C@H](C)c1ccccc1 {CIP S}
+      why-wrong x2: 3-Phenyl-1-butene would need removal of a C1 hydrogen, but the drawn anti-periplanar H is on C3, and the conjugated trisubstituted alkene is strongly favored.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN C=C(CC)c1ccccc1
+      why-wrong x3: 2-Phenyl-1-butene needs a C=C between the phenyl-bearing carbon and its methyl group; neither carbon carries the Br, so E2 cannot form it.
+HINT: Br and the back H are anti. Groups that are gauche (60°) to each other in this conformation end up cis on the alkene.
+EXPL: In the drawn conformation the back-carbon H is anti to Br, so E2 removes it and the C=C forms between C2 and C3. The remaining groups keep their sides: the front CH<sub>3</sub> (lower left) is next to the back C<sub>6</sub>H<sub>5</sub> (upper left), and the front H is next to the back CH<sub>3</sub>. So CH<sub>3</sub> on C2 and C<sub>6</sub>H<sub>5</sub> on C3 are cis. Priorities: CH<sub>3</sub> > H on C2; C<sub>6</sub>H<sub>5</sub> > CH<sub>3</sub> on C3, so the product is <b>(<i>Z</i>)-2-phenyl-2-butene</b>.
+=== 28A-209 | topic=elim | d=1 | calc=0
+Q: What is the major product when 2-bromo-2-methylpropane is treated with NaOCH<sub>3</sub> in methanol?
+  STEM-STRUCT: DRAWN CC(C)(C)Br
+  STEM-STRUCT: --[NaOCH<sub>3</sub> / CH<sub>3</sub>OH]-->
+  STEM-STRUCT: "?"
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN C=C(C)C
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN COC(C)(C)C
+      why-wrong x1: tert-Butyl methyl ether would need S<sub>N</sub>2 at a 3° carbon (blocked) or S<sub>N</sub>1 solvolysis, which is far slower than E2 with a strong base present.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN COCC(C)C
+      why-wrong x2: Isobutyl methyl ether has the oxygen on a different carbon; nothing here moves the reaction site.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CC(C)(C)O
+      why-wrong x3: No water is present, so tert-butyl alcohol cannot form.
+HINT: Tertiary substrate plus a strong base: which mechanisms are possible?
+EXPL: A 3° carbon cannot undergo S<sub>N</sub>2, and methoxide is a strong base, so E2 dominates: <b>2-methylpropene</b>.
+=== 28A-242 | topic=irms | d=1 | calc=0
+Q: The ≡C–H stretch of a terminal alkyne (about 3300 cm<sup>−1</sup>) is higher than the =C–H stretch of an alkene (about 3080 cm<sup>−1</sup>) or the C–H stretch of an alkane (about 2900 cm<sup>−1</sup>). Why?
+KEY c0: Greater s character in the sp carbon orbital makes the C–H bond shorter and stiffer
+c1  c1: The ≡C–H hydrogen forms hydrogen bonds, which raise its stretching wavenumber
+      why-wrong x1: Hydrogen bonding weakens the X–H bond and lowers its stretching wavenumber, and alkyne C–H is only a very weak hydrogen-bond donor anyway.
+c2  c2: The sp carbon is lighter than an sp<sup>3</sup> carbon, which lowers the reduced mass
+      why-wrong x2: Hybridization does not change an atom's mass; the reduced mass of every C–H bond is the same.
+c3  c3: The ≡C–H bond is the weakest of the three, so it vibrates fastest
+      why-wrong x3: The ≡C–H bond is the strongest of the three, and a weaker bond (smaller k) vibrates at lower, not higher, wavenumber.
+HINT: All three bonds join the same two atoms, so the reduced mass is the same. What about the force constant?
+EXPL: Wavenumber depends on the force constant and the reduced mass. The masses are identical (C and H), so the difference comes from <i>k</i>. An sp orbital has 50% s character (sp<sup>2</sup> 33%, sp<sup>3</sup> 25%), so the ≡C–H bond is shorter and stronger, with a larger force constant. The answer is <b>greater s character gives a stiffer bond</b>.
+=== 28A-279 | topic=mechanism | d=1 | calc=0
+Q: A reaction can give two products, P and Q. At low temperature and short reaction time it gives mostly P; after long heating it gives mostly Q. Which statement is correct?
+KEY c0: P forms through the lower-energy transition state, and Q is the more stable product
+c1  c1: P is the more stable product, and Q forms through the lower-energy transition state
+      why-wrong x1: This reverses the two kinds of control: the product formed at low temperature is the kinetic (faster) one.
+c2  c2: P and Q form through the same transition state but differ in stability
+      why-wrong x2: Different products form through different transition states; that difference is what allows kinetic control.
+c3  c3: Q forms faster, and P is the more stable product
+      why-wrong x3: Q dominates only after equilibration; it is the more stable product, while P is the one formed faster.
+HINT: Under kinetic control the product ratio reflects relative rates; under thermodynamic control it reflects relative product stabilities.
+EXPL: At low temperature the products cannot revert, so the faster-forming product (lower ΔG<sup>‡</sup>) dominates: kinetic control favors P. With heating and time, the reactions become reversible and the mixture equilibrates to the more stable product: thermodynamic control favors Q. <b>P has the lower-energy transition state; Q is the more stable product.</b>
+=== 28A-305 | topic=nmr | d=3 | calc=0
+Q: In which compound are the two hydrogens on the tagged carbon <i>a</i> <b>diastereotopic</b>?
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN C[C@@H](Br)[CH2:1]C labels=a (atom map :1=a, :2=b, :3=c ... marks the labeled atom) {CIP R}
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CCC[CH2:1]Br labels=a (atom map :1=a, :2=b, :3=c ... marks the labeled atom)
+      why-wrong x1: In 1-bromobutane, replacing either H on C1 gives the two enantiomers of BrCHX–CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>, so these H are enantiotopic (equivalent in NMR).
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN C[CH2:1]C labels=a (atom map :1=a, :2=b, :3=c ... marks the labeled atom)
+      why-wrong x2: In propane, replacing either H on C2 gives the same 2-X-propane (no stereocenter), so these H are homotopic.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CCC(=O)[CH2:1]C labels=a (atom map :1=a, :2=b, :3=c ... marks the labeled atom)
+      why-wrong x3: In 3-pentanone, replacing either H on C2 creates one new stereocenter and no other, so the products are enantiomers: the H are enantiotopic.
+HINT: Use the substitution test: replace one H, then the other, by X. Identical products = homotopic, enantiomers = enantiotopic, diastereomers = diastereotopic.
+EXPL: Only in 2-bromobutane does C3 sit next to an existing stereocenter (C2). Replacing either C3 H by X creates a second stereocenter, so the two products are diastereomers: the C3 hydrogens are <b>diastereotopic</b> and can give separate signals. In the other compounds the products are identical or enantiomers.
+=== 28A-320 | topic=nmr | d=3 | calc=0
+Q: A compound C<sub>4</sub>H<sub>8</sub>O gives the <sup>1</sup>H NMR spectrum shown. Which structure is it?
+  FIG: {"type":"nmr","nuc":"1H","peaks":[{"ppm":9.62,"mult":"d","int":1},{"ppm":2.44,"mult":"m","int":1},{"ppm":1.12,"mult":"d","int":6}]}
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CC(C)C=O
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CCCC=O
+      why-wrong x1: Butanal also has a CHO, but its α carbon is CH<sub>2</sub>: the CHO is a triplet, and the spectrum shows 4 signals including a 3H triplet.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN CCC(C)=O
+      why-wrong x2: 2-Butanone has no H above 3 ppm; its signals are a 2H quartet, a 3H singlet and a 3H triplet.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN C=CCCO
+      why-wrong x3: 3-Buten-1-ol has vinyl H at 5–6 ppm (3H total), an OCH<sub>2</sub> near 3.7 and an OH; nothing near 9.6 ppm.
+HINT: DBE first. Then: what does a 1H signal near 9.6 ppm mean, and why is it a doublet rather than a triplet?
+EXPL: DBE = 1. The 1H signal at 9.62 ppm is an aldehyde H; it is a doublet, so the α carbon carries one H. A 6H doublet plus a 1H multiplet (that α-CH) is an isopropyl group. (CH<sub>3</sub>)<sub>2</sub>CH–CHO, <b>2-methylpropanal</b>.
+=== 28A-360 | topic=nomenclature | d=1 | calc=0
+Q: Which of these names is a correct IUPAC name?
+KEY c0: 2,3-dimethylpentane
+c1  c1: 2-ethylbutane
+      why-wrong x1: An ethyl on C2 extends the chain: the compound is 3-methylpentane.
+c2  c2: 3-methyl-4-ethylhexane
+      why-wrong x2: Prefixes must be alphabetical: 3-ethyl-4-methylhexane.
+c3  c3: 1,2-dimethylpropane
+      why-wrong x3: A methyl on C1 lengthens the chain: the compound is 2-methylbutane.
+HINT: Draw each one. Check for a longer chain hiding in a branch, then check numbering and alphabetical order.
+EXPL: <b>2,3-Dimethylpentane</b> uses the longest chain (five carbons), the lowest locants ({2,3} beats {3,4}) and a single kind of prefix. Each of the others breaks a rule.
+=== 28A-431 | topic=stereo | d=2 | calc=0
+Q: Which Fischer projection represents a meso compound?
+  FIG: {"type":"fischer","items":[{"top":"CO<sub>2</sub>H","rows":[["H","OH"],["HO","H"]],"bottom":"CO<sub>2</sub>H","cap":"I"},{"top":"CHO","rows":[["H","OH"],["H","OH"]],"bottom":"CH<sub>2</sub>OH","cap":"II"},{"top":"CO<sub>2</sub>H","rows":[["H","OH"],["H","OH"]],"bottom":"CO<sub>2</sub>H","cap":"III"},{"top":"CH<sub>3</sub>","rows":[["H","OH"],["H","Cl"]],"bottom":"CH<sub>3</sub>","cap":"IV"}]}
+KEY c0: III
+c1  c1: I
+      why-wrong x1: I has the same ends as III, but the OH groups are on opposite sides, so there is no internal mirror line; it is one enantiomer of chiral tartaric acid.
+c2  c2: II
+      why-wrong x2: II has OH groups on the same side but different ends (CHO and CH<sub>2</sub>OH), so the halves are not equivalent and the compound is chiral.
+c3  c3: IV
+      why-wrong x3: IV has identical ends, but OH and Cl make the two centers different, so no internal mirror plane is possible.
+HINT: A meso compound needs identical top and bottom halves and a horizontal mirror line through the middle of the projection.
+EXPL: In III (tartaric acid) the top and bottom halves are the same, and the two OH groups are on the same side, so a horizontal mirror line maps the top half onto the bottom. It has two chirality centers but is achiral: <b>III is meso</b>.
+=== 28A-460 | topic=stereo | d=2 | calc=0
+Q: Racemic 2-phenylpropanoic acid is treated with one equivalent of enantiopure (<i>S</i>)-1-phenylethylamine. Which statement about the product is correct?
+KEY c0: It is a mixture of two diastereomeric salts, which can be separated by crystallization
+c1  c1: It is a mixture of two enantiomeric salts, which cannot be separated by crystallization
+      why-wrong x1: The two salts share the same (S)-amine, so they are not mirror images; enantiomeric salts would need the (R)-amine as well.
+c2  c2: It is a single salt, because the (S)-amine reacts with only the (S)-acid
+      why-wrong x2: An acid–base reaction is not selective enough to leave one enantiomer untouched; with one equivalent, both acid enantiomers form salts.
+c3  c3: It is a racemic salt, which must be separated by chiral chromatography
+      why-wrong x3: Diastereomeric salts are separable by ordinary methods; chiral chromatography is not required.
+HINT: Write the two salts as (R)-acid·(S)-amine and (S)-acid·(S)-amine. What is their relationship?
+EXPL: The amine deprotonates both acid enantiomers, giving (R)-acid·(S)-amine and (S)-acid·(S)-amine salts. These are not mirror images (the mirror of the first would be (S)-acid·(R)-amine), so they are <b>diastereomers</b>, with different solubilities that allow separation by fractional crystallization.
+=== 28A-491 | topic=structure | d=2 | calc=0
+Q: Based on resonance, which tagged carbons of pent-3-en-2-one carry a partial positive charge?
+  STEM-STRUCT: DRAWN C[C:1](=O)/[CH:2]=[CH:3]/C labels=a,b,c (atom map :1=a, :2=b, :3=c ... marks the labeled atom)
+KEY c0: <i>a</i> and <i>c</i>
+c1  c1: <i>a</i> only
+      why-wrong x1: The β-carbon <i>c</i> also gets a + in a contributor; this is the basis of conjugate (1,4-) addition.
+c2  c2: <i>a</i> and <i>b</i>
+      why-wrong x2: The α-carbon <i>b</i> never carries the + charge; charge alternates and skips it.
+c3  c3: <i>b</i> and <i>c</i>
+      why-wrong x3: Carbon <i>a</i>, the carbonyl carbon, is δ+, and <i>b</i> is not.
+HINT: Draw the contributor with C<sup>+</sup>–O<sup>−</sup>, then move the C=C π bond toward the cation.
+EXPL: Polarizing the C=O gives + on the carbonyl carbon <i>a</i>. The adjacent C=C π electrons can shift to form a C=C between <i>a</i> and <i>b</i>, leaving + on the β-carbon <i>c</i>. So both <b><i>a</i> and <i>c</i></b> are electrophilic, which is why α,β-unsaturated carbonyls accept nucleophiles at the β-carbon (conjugate addition).
+=== 28A-505 | topic=structure | d=3 | calc=0
+Q: Acetic acid (60 g/mol) boils at 118 °C, while propan-1-ol (60 g/mol) boils at 97 °C. What is the best explanation?
+  STEM-STRUCT: DRAWN CC(=O)O cap=acetic acid
+  STEM-STRUCT: DRAWN CCCO cap=propan-1-ol
+KEY c0: Acetic acid forms cyclic dimers held by two strong hydrogen bonds
+c1  c1: Acetic acid has more hydrogen-bond donors per molecule than propan-1-ol
+      why-wrong x1: Each molecule has exactly one O–H donor, so the difference is not the number of donors but the strength and pairing of the H bonds.
+c2  c2: Propan-1-ol is nonpolar because its O–H dipole is canceled by the alkyl chain
+      why-wrong x2: Propan-1-ol is polar and hydrogen-bonds to itself; that is why it boils far above propane or butane of similar mass.
+c3  c3: Acetic acid is ionized in the pure liquid, so ion–ion forces raise its boiling point
+      why-wrong x3: Pure acetic acid is a weak acid and is almost entirely un-ionized; the liquid is held together by hydrogen bonds, not ions.
+HINT: Count donors and acceptors in a carboxylic acid, and picture two molecules facing each other.
+EXPL: Both compounds have one O–H donor. A carboxylic acid also has a C=O oxygen that is a strong acceptor, so two molecules can line up head-to-head and form a <b>cyclic dimer held by two hydrogen bonds</b>. The resonance in the COOH group makes its O–H more polarized and its C=O oxygen more electron-rich, so these H bonds are stronger than an alcohol's. More energy is needed to separate the molecules, so acetic acid boils higher.
+=== 28A-570 | topic=synthesis | d=2 | calc=0
+Q: Which sequence moves the double bond of 2-methyl-2-butene to the end of the chain, giving 3-methyl-1-butene as the major product?
+  STEM-STRUCT: DRAWN CC=C(C)C
+  STEM-STRUCT: --[?]-->
+  STEM-STRUCT: DRAWN C=CC(C)C
+KEY c0: 1. HBr, ROOR  2. t-BuOK, t-BuOH, heat
+c1  c1: 1. HBr  2. t-BuOK, t-BuOH, heat
+      why-wrong x1: Without peroxide HBr adds Markovnikov, giving 2-bromo-2-methylbutane; Hofmann elimination of that gives 2-methyl-1-butene, the wrong skeleton position.
+c2  c2: 1. HBr, ROOR  2. NaOEt, EtOH, heat
+      why-wrong x2: The bromide is correct, but ethoxide is a small base and gives the Zaitsev (more substituted) alkene, which is 2-methyl-2-butene, the starting material.
+c3  c3: 1. BH<sub>3</sub>·THF  2. H<sub>2</sub>O<sub>2</sub>, NaOH  3. H<sub>2</sub>SO<sub>4</sub>, heat
+      why-wrong x3: Hydroboration gives 3-methyl-2-butanol, but E1 dehydration goes through a secondary cation that undergoes a hydride shift to the tertiary cation and gives 2-methyl-2-butene again.
+HINT: First put a leaving group on the carbon that must become C2 of the new alkene, then choose a base that removes the less hindered β-H.
+EXPL: Radical HBr addition (ROOR) puts Br on the less substituted alkene carbon, giving 2-bromo-3-methylbutane. That bromide has β-H on C1 (CH<sub>3</sub>) and C3 (one tertiary H). The bulky base t-BuOK removes the more accessible CH<sub>3</sub> hydrogen (Hofmann product), giving 3-methyl-1-butene: <b>1. HBr, ROOR 2. t-BuOK, heat</b>. A small base gives the Zaitsev product, which is just the starting alkene again.
+=== 28A-627 | topic=alcohols | d=1 | calc=0
+Q: Which is a suitable solvent for preparing and using a Grignard reagent?
+KEY c0: Tetrahydrofuran (THF)
+c1  c1: Ethanol (EtOH)
+      why-wrong x1: Ethanol's O–H protonates RMgX at once, converting it to the alkane R–H.
+c2  c2: Acetone (propanone)
+      why-wrong x2: Acetone's carbonyl is an electrophile; the Grignard would add to the solvent to give a tertiary alcohol.
+c3  c3: Ethyl acetate (EtOAc)
+      why-wrong x3: Ethyl acetate's ester carbonyl reacts with Grignard reagents (two equivalents each), consuming the reagent.
+HINT: The solvent must not protonate the reagent and must not be attacked by it.
+EXPL: A Grignard reagent is both a strong base and a strong nucleophile. Ethers such as diethyl ether and <b>THF</b> have no acidic hydrogen and no electrophilic carbonyl, and their oxygen lone pairs coordinate and stabilize magnesium.
+=== 28A-665 | topic=ethers | d=2 | calc=0
+Q: What is the main product when this bromo alcohol is treated with NaH in THF?
+  STEM-STRUCT: DRAWN OCCCCCBr
+  STEM-STRUCT: --[NaH / THF]-->
+  STEM-STRUCT: "?"
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN C1CCOCC1
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN C1CCOC1
+      why-wrong x1: Oxolane has only four carbons; the ring here includes all five chain carbons plus the oxygen.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN C1CCCOCC1
+      why-wrong x2: Oxepane is a seven-membered ring (six carbons); the chain has only five carbons.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN C=CCCCO
+      why-wrong x3: E2 on a primary bromide with an alkoxide is minor; the fast intramolecular S<sub>N</sub>2 that forms a six-membered ring wins.
+HINT: NaH makes the alkoxide. Count the atoms that will end up in the ring, including O.
+EXPL: NaH deprotonates the OH. The alkoxide then attacks the primary C–Br carbon in the same molecule (intramolecular Williamson, S<sub>N</sub>2). The new ring holds O plus C1–C5: a six-membered ring, <b>oxane (tetrahydropyran)</b>. Five- and six-membered rings form quickly because the chain ends meet easily and there is little ring strain.
+=== 28A-724 | topic=acidbase | d=3 | calc=0
+Q: A student plans to make sodium hexynide by adding NaNH<sub>2</sub> to 1-hexyne in water. The reaction between amide and the solvent is shown. Why does the plan fail?
+  STEM-STRUCT: DRAWN [H]O[H].[NH2-]
+KEY c0: Amide is converted essentially completely to hydroxide by water, and hydroxide is too weak a base to deprotonate the alkyne
+c1  c1: The drawn reaction lies to the left, because ammonia is a stronger acid than water, so amide is never formed in water
+      why-wrong x1: The pK<sub>a</sub> order is reversed: water (15.7) is the stronger acid, not ammonia (38), so the drawn reaction lies far to the right.
+c2  c2: Water adds to the triple bond faster than any deprotonation can occur
+      why-wrong x2: Water does not add to an alkyne without an acid and Hg<sup>2+</sup> catalyst. The problem is acid–base: the base is destroyed by the solvent.
+c3  c3: Amide deprotonates the alkyne, but the acetylide then attacks water's oxygen to give an ether
+      why-wrong x3: An acetylide protonated by water gives back the alkyne and hydroxide. Carbanions take a proton from water much faster than they attack oxygen, and C–O bond formation this way does not occur.
+HINT: Compare the pK<sub>a</sub> of water with that of NH<sub>3</sub>, and then compare the base left over with the alkyne's pK<sub>a</sub>.
+EXPL: Water (pK<sub>a</sub> 15.7) is about 22 units more acidic than ammonia (38), so the drawn proton transfer goes essentially to completion. This is the leveling effect: no base stronger than HO<sup>−</sup> survives in water. Hydroxide can only remove protons with pK<sub>a</sub> below about 15.7, and the alkyne's is about 25. So <b>NaNH<sub>2</sub> is leveled to hydroxide, which cannot form the acetylide</b>. Even acetylide that did form would be protonated by water. Use liquid NH<sub>3</sub> or an aprotic solvent instead.
+=== 28A-727 | topic=elim | d=1 | calc=0
+Q: When 2-iodo-2-methylbutane is warmed in methanol, the E1 reaction begins with the step drawn. What does this step produce?
+  STEM-STRUCT: DRAWN CCC(C)(C)I
+  STEM-STRUCT: --[CH<sub>3</sub>OH / step 1]-->
+  STEM-STRUCT: "?"
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CC[C+](C)C.[I-]
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CC[C](C)C.[I]
+      why-wrong x1: Splitting the bond one electron to each atom (homolysis) gives radicals; that would be drawn with two fishhook arrows, not one full arrow.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN CC[C-](C)C.[I+]
+      why-wrong x2: This puts both electrons on carbon and leaves iodine electron-poor, the reverse of what the arrow shows. Iodine is the more electronegative atom and the better leaving group.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CC=C(C)C.I
+      why-wrong x3: The alkene and HI form only after a later step (a base removes a β-H from the carbocation). E1 is stepwise; ionization alone cannot make the C=C bond.
+HINT: A full-headed arrow moves two electrons. Where do both electrons of the C–I bond end up?
+EXPL: The full-headed arrow carries both C–I bonding electrons onto iodine (heterolysis). Iodine leaves as iodide, I<sup>−</sup>, and the carbon that lost the bond is left with only three bonds and a positive charge. Step 1 gives the <b>tertiary 2-methyl-2-butyl carbocation and iodide</b>; this slow ionization is the rate-determining step of E1.
+=== 28A-751 | topic=radical | d=2 | calc=0
+Q: In the first propagation step of the light-initiated bromination of 2-methylpropane, a bromine atom removes the tertiary hydrogen to give the <i>tert</i>-butyl radical and HBr. Which set of curved arrows correctly shows this step?
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN [Br].[H]C(C)(C)C
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN [Br].[H]C(C)(C)C
+      why-wrong x1: Full arrows describe a polar step: a bromine lone pair attacks H and the C–H pair goes to carbon, giving a carbanion and a cationic bromine species. A radical abstraction moves single electrons.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN [Br].[H]C(C)(C)C
+      why-wrong x2: Here Br• attacks carbon and breaks a C–CH<sub>3</sub> bond. Radicals abstract hydrogen atoms from alkanes; substitution at a crowded sp<sup>3</sup> carbon by Br• does not happen.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN [Br].[H]C(C)(C)C
+      why-wrong x3: The first arrow starts at the hydrogen atom, which has no unpaired electron, and points toward Br•; arrows must start where electrons are. With only two arrows the new H–Br bond also gets just one electron.
+HINT: Hydrogen-atom abstraction makes one new bond (H–Br) and breaks one (C–H). Each of those two-electron bonds needs one electron from each partner.
+EXPL: H-atom abstraction is a radical step, so every arrow is a fishhook. The unpaired electron of Br• moves toward H, one electron of the C–H bond moves toward H to pair with it (forming H–Br), and the other C–H electron stays on carbon as the unpaired electron of the 3° radical. That is <b>three fishhooks: Br• → H, C–H bond → H, C–H bond → C</b>. Bromine abstracts the 3° H because it gives the most stable radical and bromination is highly selective.
+=== 28A-778 | topic=structure | d=2 | calc=0
+Q: Which statements are correct?<br>I. The C2–C3 single bond of buta-1,3-diene is shorter than the C–C bond of ethane.<br>II. The C–H bond of ethyne is longer than a C–H bond of ethane.<br>III. (<i>E</i>)-1,2-Dichloroethene has a larger dipole moment than (<i>Z</i>)-1,2-dichloroethene.
+KEY c0: I only
+c1  c1: I and II only
+      why-wrong x1: II is false. More s character puts the bonding electrons closer to carbon, so the sp C–H bond of ethyne is shorter than the sp<sup>3</sup> C–H bond of ethane.
+c2  c2: I and III only
+      why-wrong x2: III is false. The two C–Cl bond dipoles of the <i>E</i> isomer are antiparallel and cancel; the <i>Z</i> isomer is the polar one.
+c3  c3: II only
+      why-wrong x3: I is true and II is false. The sp<sup>2</sup>–sp<sup>2</sup> C2–C3 bond of butadiene (about 148 pm) is shorter than the ethane C–C bond, while sp C–H bonds are shorter than sp<sup>3</sup> C–H bonds.
+HINT: More s character in the hybrid orbitals makes a bond shorter. For dipoles, add the bond dipoles as vectors.
+EXPL: I is true: the C2–C3 bond of butadiene joins two sp<sup>2</sup> carbons (and has a little conjugation), so it is about 148 pm long, compared with 154 pm for the sp<sup>3</sup>–sp<sup>3</sup> bond of ethane. <br>II is false: the ethyne C–H bond uses an sp orbital (50% s), which holds electrons closer to carbon. It is shorter (about 106 pm) and stronger than the sp<sup>3</sup> C–H of ethane (about 110 pm). <br>III is false: in the <i>E</i> isomer the two C–Cl bond dipoles point in opposite directions and cancel, so its dipole moment is zero. The <i>Z</i> isomer, with both Cl on one side, has a net dipole of about 1.9 D. <br>Answer: <b>I only</b>.
+=== 28A-806 | topic=subst | d=1 | calc=0
+Q: Which of these are <b>better</b> leaving groups than chloride ion in an S<sub>N</sub>2 reaction?<br>I. HO<sup>−</sup><br>II. TsO<sup>−</sup> (tosylate)<br>III. I<sup>−</sup>
+KEY c0: II and III only
+c1  c1: II only
+      why-wrong x1: III is also true: iodide is a weaker base than chloride and the C–I bond is the weakest carbon–halogen bond.
+c2  c2: III only
+      why-wrong x2: II is also true: tosylate is resonance-stabilized and is one of the best common leaving groups.
+c3  c3: I, II, and III
+      why-wrong x3: I is false: hydroxide is a strong base and a very poor leaving group.
+HINT: Good leaving groups are weak bases. Compare the pK<sub>a</sub> of each conjugate acid with that of HCl.
+EXPL: A leaving group is better the weaker it is as a base. I is false: HO<sup>−</sup> is a strong base (H<sub>2</sub>O, pK<sub>a</sub> 15.7), which is why alcohols must be activated before substitution. II is true: tosylate is the conjugate base of a strong sulfonic acid (pK<sub>a</sub> about −3) and its charge is spread over three oxygens. III is true: HI (pK<sub>a</sub> about −10) is stronger than HCl, and the large, polarizable I<sup>−</sup> leaves from a weak C–I bond. <b>II and III only</b>.
+=== 28A-816 | topic=alkynes | d=3 | calc=0
+Q: Hex-3-yne is converted to an alkene, and the alkene is then treated as shown. Which sequences give a <b>racemic</b> product?<br>I. 1. Na, NH<sub>3</sub>(l)  2. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub><br>II. 1. H<sub>2</sub>, Lindlar catalyst  2. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub><br>III. 1. Na, NH<sub>3</sub>(l)  2. OsO<sub>4</sub>, then NaHSO<sub>3</sub>, H<sub>2</sub>O
+  STEM-STRUCT: DRAWN CCC#CCC
+  STEM-STRUCT: --[?]-->
+  STEM-STRUCT: "?"
+KEY c0: II and III only
+c1  c1: II only
+      why-wrong x1: III is also racemic: syn dihydroxylation of the trans alkene gives the chiral (<i>R</i>,<i>R</i>)/(<i>S</i>,<i>S</i>) diol pair.
+c2  c2: III only
+      why-wrong x2: II is also racemic: anti addition of Br<sub>2</sub> to the cis alkene gives the chiral dibromide pair.
+c3  c3: I, II, and III
+      why-wrong x3: I is false: anti addition of Br<sub>2</sub> to the trans alkene gives the meso dibromide.
+HINT: First decide which alkene each reduction gives (cis or trans), then whether the second step is syn or anti.
+EXPL: Na/NH<sub>3</sub> gives (<i>E</i>)-hex-3-ene; Lindlar gives (<i>Z</i>)-hex-3-ene. Br<sub>2</sub> adds anti; OsO<sub>4</sub> adds syn. I is false: trans + anti gives (3<i>R</i>,4<i>S</i>)-3,4-dibromohexane, a meso compound. II is true: cis + anti gives the chiral (3<i>R</i>,4<i>R</i>)/(3<i>S</i>,4<i>S</i>) dibromide as a racemate. III is true: trans + syn gives (3<i>R</i>,4<i>R</i>)/(3<i>S</i>,4<i>S</i>)-hexane-3,4-diol as a racemate. <b>II and III only</b>.
+=== 28A-854 | topic=nmr | d=3 | calc=0
+Q: A compound C<sub>6</sub>H<sub>12</sub>O shows a strong IR band at 1715 cm<sup>−1</sup> and the <sup>1</sup>H NMR spectrum shown. Which structure is it?
+  FIG: {"type":"ir","bands":[{"cm":2960,"str":"s"},{"cm":1715,"str":"s"},{"cm":1365,"str":"s"},{"cm":1170,"str":"s"}]}
+  FIG: {"type":"nmr","nuc":"1H","peaks":[{"ppm":2.3,"mult":"d","int":2},{"ppm":2.14,"mult":"m","int":1},{"ppm":2.12,"mult":"s","int":3},{"ppm":0.92,"mult":"d","int":6}]}
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CC(=O)CC(C)C
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CC(=O)C(C)(C)C
+      why-wrong x1: 3,3-Dimethyl-2-butanone gives just two singlets (3H and 9H); there is no CH<sub>2</sub> doublet or 6H doublet.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN CCCCC(C)=O
+      why-wrong x2: 2-Hexanone has a straight chain: its α-CH<sub>2</sub> is a triplet, and the chain ends in a 3H triplet, not a 6H doublet.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CCC(C)C(C)=O
+      why-wrong x3: 3-Methyl-2-pentanone has a 1H α-CH next to the C=O, a 3H doublet and a 3H triplet; it has no 6H doublet.
+HINT: The 3H singlet near 2.1 ppm is a methyl ketone. Then find what the 2H doublet and 6H doublet together tell you about the rest of the chain.
+EXPL: DBE = 1, and 1715 cm<sup>−1</sup> with no aldehyde H is a ketone C=O. The 3H singlet at 2.12 ppm is CH<sub>3</sub>–C=O, so it is a methyl ketone. The 2H doublet at 2.30 ppm is a CH<sub>2</sub> next to the C=O (deshielded) with one neighboring H, and the 6H doublet is two CH<sub>3</sub> groups on a CH; that CH (1H multiplet) links them. The chain is CH<sub>3</sub>CO–CH<sub>2</sub>–CH(CH<sub>3</sub>)<sub>2</sub>, <b>4-methyl-2-pentanone</b>.
+=== 28A-946 | topic=acidbase | d=2 | calc=0
+Q: Nitromethane, CH<sub>3</sub>NO<sub>2</sub> (p<i>K</i><sub>a</sub> about 10), is far more acidic than methane (p<i>K</i><sub>a</sub> about 50). What is the main reason?
+  STEM-STRUCT: DRAWN C[N+](=O)[O-]
+KEY c0: The negative charge of the conjugate base is delocalized by resonance onto the two oxygen atoms
+c1  c1: The carbon of nitromethane is sp hybridized, so its C–H bond has more s character
+      why-wrong x1: The CH<sub>3</sub> carbon of nitromethane is sp<sup>3</sup> (four single bonds), the same as in methane.
+c2  c2: The C–H bond of nitromethane is longer because nitrogen is a large atom
+      why-wrong x2: Bond length to a neighboring atom does not set acidity here; the key is the stability of the anion formed.
+c3  c3: The conjugate base carries its negative charge on nitrogen, which is more electronegative than carbon
+      why-wrong x3: In the nitro group, nitrogen already carries a formal + charge; the extra negative charge goes onto carbon and, through resonance, onto the oxygens.
+HINT: Draw the conjugate base and look for resonance contributors.
+EXPL: Removing a proton from CH<sub>3</sub>NO<sub>2</sub> gives <sup>−</sup>CH<sub>2</sub>–NO<sub>2</sub>. The carbon lone pair can form a C=N π bond while an N=O π bond moves onto oxygen, so the negative charge is shared by the two electronegative oxygens. This resonance stabilization of the conjugate base (with some help from the inductive pull of N<sup>+</sup>) is the <b>main reason</b> for the large acidity. Methane’s conjugate base has no such stabilization.
+=== 28A-962 | topic=subst | d=2 | calc=0
+Q: 1-Chloro-1-methylcyclohexane slowly reacts with ethanol (S<sub>N</sub>1 solvolysis) to give 1-ethoxy-1-methylcyclohexane. The free-energy diagram for the complete reaction is shown. Which numbered point is the protonated ether (oxonium ion) intermediate?
+  STEM-STRUCT: DRAWN CC1(Cl)CCCCC1
+  STEM-STRUCT: --[CH<sub>3</sub>CH<sub>2</sub>OH]-->
+  STEM-STRUCT: DRAWN CCOC1(C)CCCCC1
+  FIG: {"type":"energy","levels":[0,22,9,12,3,5,-4],"tags":["","1","2","3","4","5",""],"labels":["reactants","","","","","","products"]}
+KEY c0: point 4
+c1  c1: point 2
+      why-wrong x1: Point 2 is the first intermediate, the 3° carbocation formed when chloride leaves. Ethanol has not yet bonded to it, so it is not an oxonium ion.
+c2  c2: point 3
+      why-wrong x2: Point 3 is an energy maximum: the transition state in which the C–O bond to ethanol is only partly formed. Intermediates sit in minima.
+c3  c3: point 5
+      why-wrong x3: Point 5 is also a maximum: the transition state for removing H<sup>+</sup> from the oxonium ion. The minimum just before it is the oxonium ion itself.
+HINT: List the steps in order: ionization, attack by ethanol, loss of H<sup>+</sup>. Minima between steps are intermediates; maxima are transition states.
+EXPL: The reaction has three steps, so the diagram has three maxima (transition states) and two minima between them (intermediates). Point 1 is the transition state for ionization of the C–Cl bond, the highest barrier and the rate-determining step. Point 2 is the 3° carbocation. Point 3 is the transition state for ethanol's oxygen bonding to the cation. Point 4 is the resulting oxonium ion, R–O<sup>+</sup>(H)CH<sub>2</sub>CH<sub>3</sub>, lower in energy than the carbocation because every atom now has an octet. Point 5 is the transition state for proton transfer to a solvent molecule, which gives the neutral ether. Answer: <b>point 4</b>.
+=== 28A-963 | topic=subst | d=2 | calc=0
+Q: 1,4-Dibromobutane is stirred with one equivalent of Na<sub>2</sub>S in ethanol. What is the major organic product?
+  STEM-STRUCT: DRAWN BrCCCCBr
+  STEM-STRUCT: --[Na<sub>2</sub>S (1 equiv) / ethanol]-->
+  STEM-STRUCT: "?"
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN C1CCSC1
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN C1CCSCC1
+      why-wrong x1: A six-membered ring (thiane) needs five CH<sub>2</sub> groups between the two C–Br carbons plus S; 1,4-dibromobutane has only four carbons, so the ring formed has one S and four C.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN SCCCCBr
+      why-wrong x2: The intermediate is a thiolate, not a neutral thiol, and it cyclizes rapidly; it is not isolated after the first substitution.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN SCCCCS
+      why-wrong x3: Butane-1,4-dithiol would need two separate sulfur nucleophiles. With one S<sup>2−</sup>, the single sulfur bonds to both ends of the chain.
+HINT: After the first S<sub>N</sub>2, the sulfur still carries a negative charge. Where is the nearest electrophilic carbon?
+EXPL: S<sup>2−</sup> is an excellent nucleophile. The first S<sub>N</sub>2 gives <sup>−</sup>S–CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>Br. The thiolate end then attacks the C–Br carbon four atoms away in an intramolecular S<sub>N</sub>2; this forms a five-membered ring, which closes much faster than another intermolecular reaction. The product is <b>thiolane (tetrahydrothiophene)</b>.
+=== 28A-1005 | topic=alkynes | d=2 | calc=0
+Q: Which reagents convert ethynylcyclohexane into 2-cyclohexylacetaldehyde?
+  STEM-STRUCT: DRAWN C#CC1CCCCC1
+  STEM-STRUCT: --[?]-->
+  STEM-STRUCT: DRAWN O=CCC1CCCCC1
+KEY c0: 1. (sia)<sub>2</sub>BH; 2. H<sub>2</sub>O<sub>2</sub>, NaOH
+c1  c1: H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>, HgSO<sub>4</sub>
+      why-wrong x1: Mercury-catalyzed hydration is Markovnikov: OH goes to the internal carbon and the enol tautomerizes to the methyl ketone, 1-cyclohexylethan-1-one.
+c2  c2: 1. H<sub>2</sub>, Lindlar catalyst; 2. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>
+      why-wrong x2: Lindlar reduction gives vinylcyclohexane, and acid hydration of that gives an alcohol (rearranged to 1-ethylcyclohexanol), not an aldehyde.
+c3  c3: 1. O<sub>3</sub>; 2. H<sub>2</sub>O
+      why-wrong x3: Ozonolysis cleaves the triple bond: the product is cyclohexanecarboxylic acid (plus CO<sub>2</sub> from the terminal carbon), which has lost a carbon.
+HINT: The oxygen must end up on the terminal carbon. Which alkyne hydration is anti-Markovnikov?
+EXPL: Hydroboration of a terminal alkyne with a bulky dialkylborane such as disiamylborane, (sia)<sub>2</sub>BH, puts boron on the terminal carbon and stops after one addition. Oxidation gives an enol with OH on the terminal carbon, which tautomerizes to the aldehyde: <b>1. (sia)<sub>2</sub>BH; 2. H<sub>2</sub>O<sub>2</sub>, NaOH</b>.
+=== 28A-1024 | topic=alcohols | d=1 | calc=0
+Q: What is the product of methyl 5-oxohexanoate with excess LiAlH<sub>4</sub> in ether, followed by aqueous acid workup?
+  STEM-STRUCT: DRAWN COC(=O)CCCC(C)=O
+  STEM-STRUCT: --[1. LiAlH<sub>4</sub>, ether / 2. H<sub>3</sub>O<sup>+</sup>]-->
+  STEM-STRUCT: "?"
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CC(O)CCCCO
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN COC(=O)CCCC(C)O
+      why-wrong x1: Reducing only the ketone is what NaBH<sub>4</sub> does. LiAlH<sub>4</sub> also reduces the ester.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN CC(=O)CCCCO
+      why-wrong x2: LiAlH<sub>4</sub> does not leave a ketone untouched; ketones are more reactive than esters toward hydride.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CC(O)CCCC=O
+      why-wrong x3: The aldehyde formed from the ester is more reactive than the ester and is reduced at once by LiAlH<sub>4</sub>.
+HINT: LiAlH<sub>4</sub> is the strong hydride reagent. Which carbonyl groups can it reduce, and how far?
+EXPL: LiAlH<sub>4</sub> reduces both the ketone (to a secondary alcohol) and the ester (through the aldehyde to a primary alcohol, with loss of methanol). Product: <b>hexane-1,5-diol</b>.
+=== 28A-1032 | topic=ethers | d=2 | calc=0
+Q: Which routes give 1-methoxy-1-methylcyclopentane as the major product?<br>I. 1-chloro-1-methylcyclopentane + NaOCH<sub>3</sub><br>II. 1-methylcyclopentene; 1. Hg(OAc)<sub>2</sub>, CH<sub>3</sub>OH; 2. NaBH<sub>4</sub><br>III. 1-methylcyclopentan-1-ol; 1. NaH; 2. CH<sub>3</sub>I
+  STEM-STRUCT: DRAWN COC1(C)CCCC1 cap=target
+KEY c0: II and III only
+c1  c1: I and II only
+      why-wrong x1: This accepts I. A tertiary halide with a strong base eliminates; the Williamson synthesis needs the alkyl halide part to be methyl or primary.
+c2  c2: III only
+      why-wrong x2: This misses II. Alkoxymercuration–demercuration is a reliable Markovnikov route to ethers from alkenes.
+c3  c3: I, II, and III
+      why-wrong x3: This accepts I. Methoxide is a strong base, and with a tertiary chloride E2 dominates.
+HINT: For each route, identify the electrophilic carbon. Can a strong base do S<sub>N</sub>2 at a tertiary carbon?
+EXPL: I fails: methoxide with a tertiary chloride gives E2 elimination (methylcyclopentenes), because backside attack at a tertiary carbon is blocked. II works: alkoxymercuration adds CH<sub>3</sub>O to the more substituted carbon (Markovnikov) without rearrangement, and NaBH<sub>4</sub> replaces Hg with H. III works: the tertiary alkoxide attacks CH<sub>3</sub>I by S<sub>N</sub>2 at the unhindered methyl carbon. Answer: <b>II and III only</b>.
+=== 28A-1046 | topic=nmr | d=2 | calc=0
+Q: A compound C<sub>4</sub>H<sub>6</sub>O gives these data. Which structure fits?
+  FIG: {"type":"table","head":["Method","Data"],"rows":[["IR (cm<sup>−1</sup>)","3290 (strong, sharp), 2120 (weak), 1100 (strong); no broad band 3200–3600"],["<sup>1</sup>H NMR, δ","4.13 (d, <i>J</i> = 2.4 Hz, 2H); 3.39 (s, 3H); 2.43 (t, <i>J</i> = 2.4 Hz, 1H)"]]}
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN C#CCOC
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CC#CCO
+      why-wrong x1: 2-Butyn-1-ol has an O–H (broad band near 3350) and no ≡C–H; its CH<sub>3</sub> would be near 1.8, not an OCH<sub>3</sub> singlet at 3.39.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN C#CCCO
+      why-wrong x2: 3-Butyn-1-ol has an O–H band and two CH<sub>2</sub> groups, with no OCH<sub>3</sub> singlet.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CC#COC
+      why-wrong x3: 1-Methoxyprop-1-yne is an internal alkyne with no ≡C–H, so it would have no 3290 band and no 1H signal; it gives two 3H singlets.
+HINT: The sharp 3290 band and the 1H triplet go together. A small (2–3 Hz) coupling can pass through a C≡C.
+EXPL: The strong, sharp 3290 cm<sup>−1</sup> band with a weak 2120 band is a terminal alkyne (≡C–H and C≡C). No broad O–H band and a strong 1100 C–O band mean an ether. In the <sup>1</sup>H NMR, the 3H singlet at 3.39 is OCH<sub>3</sub>; the 2H doublet at 4.13 is an O–CH<sub>2</sub> next to the alkyne; the 1H triplet at 2.43 is the ≡C–H. The CH<sub>2</sub> and ≡C–H split each other through the triple bond (long-range coupling, <i>J</i> ≈ 2.4 Hz). <b>3-Methoxyprop-1-yne</b> (methyl propargyl ether).
+=== 28B-35 | topic=acidderiv | d=3 | calc=0
+Q: Which ester and Grignard reagent (excess, then H<sub>3</sub>O<sup>+</sup>) give the alcohol shown?
+  STEM-STRUCT: DRAWN CCC(O)(CC)c1ccccc1
+KEY c0: methyl benzoate + CH<sub>3</sub>CH<sub>2</sub>MgBr
+c1  c1: ethyl propanoate + C<sub>6</sub>H<sub>5</sub>MgBr
+      why-wrong x1: Ethyl propanoate + excess PhMgBr gives two phenyls and one ethyl on the carbinol carbon (1,1-diphenylpropan-1-ol).
+c2  c2: methyl propanoate + CH<sub>3</sub>CH<sub>2</sub>MgBr
+      why-wrong x2: Methyl propanoate + excess EtMgBr gives three ethyls (3-ethylpentan-3-ol); there is no phenyl.
+c3  c3: ethyl acetate + C<sub>6</sub>H<sub>5</sub>MgBr
+      why-wrong x3: Ethyl acetate + excess PhMgBr gives 1,1-diphenylethanol (two phenyls and one methyl).
+HINT: An ester + excess RMgBr makes a 3° alcohol with two identical R groups from the Grignard. Which two groups on the carbinol carbon match?
+EXPL: The carbinol carbon carries Ph, CH<sub>2</sub>CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub>. The two identical groups (two ethyls) come from the Grignard reagent; the different one (phenyl) comes from the ester's acyl group. So <b>methyl benzoate + excess CH<sub>3</sub>CH<sub>2</sub>MgBr</b> gives 3-phenylpentan-3-ol.
+=== 28B-131 | topic=amines | d=2 | calc=0
+Q: Pyridine and pyrrole both contain a ring nitrogen, yet the conjugate acid of pyridine has pK<sub>a</sub> 5.2 and protonated pyrrole about −3.8. What best explains the difference?
+  STEM-STRUCT: DRAWN c1ccncc1 cap=pyridine
+  STEM-STRUCT: DRAWN c1cc[nH]c1 cap=pyrrole
+KEY c0: Pyrrole’s N lone pair is part of its aromatic sextet, so protonating N destroys aromaticity; pyridine’s lone pair is in the ring plane, outside the π system
+c1  c1: Pyrrole's nitrogen is sp hybridized, so its lone pair has more s character and is held more tightly than pyridine's sp<sup>2</sup> lone pair
+      why-wrong x1: Pyrrole's N is sp<sup>2</sup> hybridized with its lone pair in a p orbital; it is not sp.
+c2  c2: Pyridine’s nitrogen bears a partial negative charge from resonance with the ring, while pyrrole’s nitrogen bears a partial positive charge from induction alone
+      why-wrong x2: Pyrrole's nitrogen actually donates electron density into the ring by resonance; the difference is about whether the lone pair belongs to the aromatic sextet, not partial charges.
+c3  c3: Pyrrole is antiaromatic with 4 π electrons, and protonation at nitrogen would relieve the antiaromaticity only partly
+      why-wrong x3: Pyrrole is aromatic (4n + 2 = 6 π electrons), not antiaromatic.
+HINT: Count the π electrons in each ring and ask where the N lone pair must be for the ring to have six.
+EXPL: Pyrrole has four π electrons from its two C=C bonds; the N lone pair, in a p orbital, supplies the other two for the aromatic sextet. Using it to bond H<sup>+</sup> removes it from the π system, so the cation is not aromatic (pyrrole actually protonates on C2). Pyridine already has six π electrons from three C=C/C=N bonds; its lone pair is in an sp<sup>2</sup> orbital in the ring plane, perpendicular to the π system, and can bond H<sup>+</sup> without affecting aromaticity. Answer: <b>pyrrole's lone pair is part of the aromatic sextet</b>.
+=== 28B-151 | topic=amines | d=2 | calc=0
+Q: What is the major product when N-methylaniline is treated with NaNO<sub>2</sub> and aqueous HCl at 0 °C?
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CN(N=O)c1ccccc1
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CNc1ccc(N=O)cc1
+      why-wrong x1: Ring C-nitrosation at the para position is typical of 3° arylamines such as N,N-dimethylaniline, which have no N–H.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN N#[N+]c1ccccc1
+      why-wrong x2: Forming a diazonium ion requires a 1° amine; this nitrogen would have to lose its methyl group.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CN(c1ccccc1)[N+](=O)[O-]
+      why-wrong x3: Nitrous acid nitrosates (adds N=O); it does not deliver an NO<sub>2</sub> group to nitrogen.
+HINT: A 2° amine has only one N–H. After NO<sup>+</sup> bonds to nitrogen, can it lose water to form N≡N?
+EXPL: The secondary nitrogen attacks NO<sup>+</sup> and loses its single N–H proton, giving an <b>N-nitrosamine</b>, Ar(CH<sub>3</sub>)N–N=O. With no second N–H, it cannot tautomerize and lose water, so no diazonium ion forms; the N-nitrosamine is the stable product (and such compounds are potent carcinogens).
+=== 28B-191 | topic=aromatic | d=1 | calc=0
+Q: Which structure is <i>p</i>-nitroanisole (1-methoxy-4-nitrobenzene)?
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN COc1ccc([N+](=O)[O-])cc1
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN COc1cccc([N+](=O)[O-])c1
+      why-wrong x1: This is the 1,3 (<i>meta</i>) isomer, <i>m</i>-nitroanisole.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN COc1ccccc1[N+](=O)[O-]
+      why-wrong x2: This is the 1,2 (<i>ortho</i>) isomer, <i>o</i>-nitroanisole.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN O=[N+]([O-])c1ccc(O)cc1
+      why-wrong x3: This has OH instead of OCH<sub>3</sub>: it is <i>p</i>-nitrophenol, not an anisole.
+HINT: Anisole is methoxybenzene. <i>Para</i> means the 1,4 positions.
+EXPL: Anisole is C<sub>6</sub>H<sub>5</sub>OCH<sub>3</sub>; <i>para</i> places the NO<sub>2</sub> group on the carbon directly across the ring (1,4) from OCH<sub>3</sub>. The answer is the <b>1,4-disubstituted methoxy/nitro benzene</b>.
+=== 28B-221 | topic=biomol | d=1 | calc=0
+Q: Which reagent oxidizes D-glucose to D-gluconic acid but leaves D-fructose unchanged, and so can tell the two sugars apart?
+KEY c0: Br<sub>2</sub>, H<sub>2</sub>O (buffered, pH about 6)
+c1  c1: Tollens reagent (Ag<sup>+</sup>, NH<sub>3</sub>)
+      why-wrong x1: Tollens reagent is basic, so fructose isomerizes through an enediol to aldoses and also reduces Ag<sup>+</sup>.
+c2  c2: Benedict's reagent (Cu<sup>2+</sup>, citrate, base)
+      why-wrong x2: Benedict's reagent is basic too, and fructose is a reducing sugar toward it.
+c3  c3: NaBH<sub>4</sub>, then H<sub>2</sub>O
+      why-wrong x3: NaBH<sub>4</sub> is a reducing agent. It reduces both sugars (to alditols) rather than oxidizing either one.
+HINT: Ketoses are oxidized by the basic reagents only because base converts them to aldoses. Which oxidant works without base?
+EXPL: <b>Bromine water</b> is a mild oxidant used near neutral pH. It oxidizes the aldehyde of an aldose to a carboxylic acid (an aldonic acid) and does not touch ketoses, because without base a ketose cannot isomerize to an aldose. Tollens and Benedict's reagents are basic, so fructose enolizes to aldoses and also tests positive.
+=== 28B-250 | topic=biomol | d=2 | calc=0
+Q: How many stereocenters does cholesterol (shown) have, and what is the maximum number of stereoisomers with this constitution?
+  STEM-STRUCT: DRAWN CC(C)CCC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C {CIP R,R,S,R,S,S,R,S}
+KEY c0: 8 stereocenters; 256 stereoisomers
+c1  c1: 6 stereocenters; 64 stereoisomers
+      why-wrong x1: Six misses the two quaternary ring-fusion carbons, C10 and C13. A quaternary carbon is a stereocenter when its four groups differ.
+c2  c2: 7 stereocenters; 128 stereoisomers
+      why-wrong x2: Seven usually misses C20 in the side chain, which carries H, CH<sub>3</sub>, the ring and the C<sub>5</sub> chain.
+c3  c3: 8 stereocenters; 16 stereoisomers
+      why-wrong x3: 2 × 8 = 16 confuses addition with powers. Each stereocenter doubles the count, so it is 2<sup><i>n</i></sup>.
+HINT: Check every sp<sup>3</sup> ring-fusion carbon, including the two quaternary ones that carry methyl groups, and the side chain.
+EXPL: The stereocenters are C3 (OH), C8, C9, C14 (ring-fusion CH), C10 and C13 (quaternary ring-fusion carbons bearing the angular methyls), C17 (side-chain attachment) and C20 (in the side chain). That is <b>8</b>, so the maximum is 2<sup>8</sup> = <b>256</b> stereoisomers (no meso forms are possible). Nature makes only one.
+=== 28B-265 | topic=carbonyl | d=2 | calc=0
+Q: Cyanohydrins are usually made from an aldehyde with NaCN (or KCN) and a controlled amount of acid, rather than with pure HCN. Why?
+KEY c0: HCN is a weak acid, so free CN<sup>−</sup> (the real nucleophile) is needed; the acid then protonates the alkoxide
+c1  c1: Pure HCN protonates the carbonyl oxygen so strongly that the aldehyde polymerizes instead of adding cyanide
+      why-wrong x1: HCN is too weak an acid to protonate a carbonyl significantly; the problem is the lack of cyanide ion, not polymerization.
+c2  c2: CN<sup>−</sup> is a poor nucleophile, so the acid must first convert it into the more nucleophilic HCN
+      why-wrong x2: This is backwards: the anion CN<sup>−</sup> is the nucleophile, while neutral HCN is a far weaker one.
+c3  c3: Acid is needed afterward to dehydrate the cyanohydrin to an α,β-unsaturated nitrile
+      why-wrong x3: Cyanohydrins are the desired products and are not dehydrated under these mild conditions.
+HINT: Which species actually attacks the carbonyl carbon, and how much of it is present in pure HCN (pK<sub>a</sub> ≈ 9)?
+EXPL: The nucleophile is cyanide ion, and HCN (pK<sub>a</sub> ≈ 9.2) is barely ionized on its own, so the reaction with pure HCN is very slow. Supplying CN<sup>−</sup> from NaCN gives a good nucleophile; the alkoxide formed then takes a proton from HCN or the added acid, regenerating CN<sup>−</sup>. <b>CN<sup>−</sup> is the nucleophile, and acid protonates the alkoxide.</b>
+=== 28B-268 | topic=carbonyl | d=2 | calc=0
+Q: Which species is an intermediate in the <b>base-catalyzed</b> (OH<sup>−</sup>) hydration of acetone?
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CC(C)([O-])O
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CC(C)=[OH+]
+      why-wrong x1: The protonated carbonyl is the activated electrophile in the <i>acid</i>-catalyzed path; there is no strong acid in basic solution.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN CC(C)(O)[OH2+]
+      why-wrong x2: A protonated gem-diol (oxonium) is an acid-catalyzed intermediate, not one formed in hydroxide solution.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN C=C(C)O
+      why-wrong x3: The enol forms by tautomerization, a different process; it is not on the path to the hydrate.
+HINT: Under base, the strong nucleophile attacks first. What does hydroxide add to, and what is formed directly?
+EXPL: In base, hydroxide attacks the neutral carbonyl carbon directly, giving the <b>tetrahedral alkoxide (CH<sub>3</sub>)<sub>2</sub>C(OH)O<sup>−</sup></b>, which is then protonated by water to give the hydrate and regenerate OH<sup>−</sup>.
+=== 28B-269 | topic=carbonyl | d=2 | calc=0
+Q: Cyclohexanone gives a high yield of cyanohydrin with HCN/CN<sup>−</sup>, but 2,2,6-trimethylcyclohexanone gives almost none. What is the best explanation?
+  STEM-STRUCT: DRAWN O=C1CCCCC1 cap=good yield
+  STEM-STRUCT: DRAWN CC1CCCC(C)(C)C1=O cap=almost none
+KEY c0: The three α-methyl groups crowd the tetrahedral adduct, so the reversible equilibrium favors the ketone
+c1  c1: The methyl groups make the ketone so acidic that CN<sup>−</sup> deprotonates it at the α-carbon instead of adding to C=O
+      why-wrong x1: α-Methyl groups do not make the ketone notably more acidic, and cyanide is too weak a base to enolize it significantly.
+c2  c2: The trimethyl ketone has no α-hydrogens left, so it cannot form a cyanohydrin by any path
+      why-wrong x2: C6 still bears one α-hydrogen, and cyanohydrin formation does not need α-hydrogens anyway (benzaldehyde has none).
+c3  c3: The methyl groups withdraw electron density, making the carbonyl carbon less electrophilic
+      why-wrong x3: Alkyl groups are weakly electron-<i>donating</i>; their electronic effect is small here compared with the steric strain.
+HINT: Cyanohydrin formation is reversible. What happens to steric strain when the carbonyl carbon goes from sp<sup>2</sup> (120°) to sp<sup>3</sup> (109.5°)?
+EXPL: Cyanohydrin formation is an equilibrium. On going from sp<sup>2</sup> to sp<sup>3</sup>, the new OH and CN groups are pressed against the three neighboring α-methyl groups; that strain makes the adduct much less stable, so <b>the equilibrium lies toward the hindered ketone</b>.
+=== 28B-279 | topic=carbonyl | d=2 | calc=0
+Q: What is the main organic product of this reaction?
+  STEM-STRUCT: DRAWN O=C1CCCCC1
+  STEM-STRUCT: "+"
+  STEM-STRUCT: DRAWN C1CCNC1
+  STEM-STRUCT: --[TsOH (cat.) / − H<sub>2</sub>O]-->
+  STEM-STRUCT: "?"
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN C1=C(N2CCCC2)CCCC1
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN C1CCC(=[N+]2CCCC2)CC1
+      why-wrong x1: The iminium ion is an intermediate; it is a cation and loses an α-proton to give the neutral enamine.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN OC1(N2CCCC2)CCCCC1
+      why-wrong x2: The carbinolamine is the tetrahedral intermediate; with acid and water removal it dehydrates and does not accumulate.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN C1CCC(N2CCCC2)CC1
+      why-wrong x3: This saturated amine is a reductive-amination product; no reducing agent is present.
+HINT: Pyrrolidine is a secondary amine. After loss of water, the iminium nitrogen carries no H. Where must a proton be lost from instead?
+EXPL: Pyrrolidine adds to the C=O, water is lost, and the iminium ion that results has no N–H. A proton is removed from the α-carbon instead, giving the neutral <b>enamine, 1-(cyclohex-1-en-1-yl)pyrrolidine</b>.
+=== 28B-348 | topic=conjugated | d=2 | calc=0
+Q: In the Diels–Alder reaction of 1,3-butadiene with ethylene, how many π bonds are broken and how many new σ bonds are formed?
+KEY c0: 3 π bonds broken; 2 new C–C σ bonds and 1 new π bond formed
+c1  c1: 2 π bonds broken; 2 new C–C σ bonds formed
+      why-wrong x1: Butadiene's two π bonds and ethylene's one π bond are all broken, which is three, not two.
+c2  c2: 3 π bonds broken; 3 new C–C σ bonds formed
+      why-wrong x2: Only two σ bonds are needed to close the six-membered ring; the third electron pair becomes the new π bond.
+c3  c3: 2 π bonds broken; 1 new C–C σ bond and 1 new π bond formed
+      why-wrong x3: Two σ bonds form, not one; the ring has two new connections, C1–C6 and C4–C5.
+HINT: Count all π bonds in the reactants and all π bonds in cyclohexene.
+EXPL: The reactants have three π bonds (two in butadiene, one in ethylene). The product cyclohexene has one new π bond (between the old diene C2 and C3) and two new C–C σ bonds that close the ring. So <b>three π bonds are broken, and two σ bonds plus one new π bond are formed</b>. Trading two π bonds for two stronger σ bonds is why the reaction is exothermic.
+=== 28B-399 | topic=eas | d=2 | calc=0
+Q: Friedel–Crafts alkylation of benzene often gives di- and trialkylated products, but Friedel–Crafts acylation stops cleanly after one substitution. Why?
+KEY c0: An alkyl group activates the ring, so the product reacts faster than benzene; an acyl group deactivates it, so it reacts slower
+c1  c1: Acylium ions are too bulky to approach a ring that already has a substituent, while carbocations are small
+      why-wrong x1: Steric bulk is not the reason; para positions are open in both products. The electronic effect of the new group decides.
+c2  c2: AlCl<sub>3</sub> is consumed in alkylation but regenerated in acylation, so acylation runs out of electrophile
+      why-wrong x2: It is the reverse: AlCl<sub>3</sub> is catalytic in alkylation, but in acylation it stays bound to the product ketone, so a full equivalent is needed.
+c3  c3: An acyl group activates the ring but blocks the ortho and para positions sterically, so no further substitution is possible on the ring
+      why-wrong x3: An acyl group is a deactivator (δ+ carbonyl carbon on the ring), not an activator.
+HINT: Compare how an alkyl group and a C=O group change the electron density of the product ring.
+EXPL: The alkylbenzene product carries an <b>electron-donating alkyl group</b>, so it is more reactive than the starting benzene and competes for the electrophile: polyalkylation. The aryl ketone product carries an <b>electron-withdrawing C=O</b>, so it is less reactive than the starting material, and acylation stops after one group. (In acylation the ketone also ties up a full equivalent of AlCl<sub>3</sub>.)
+=== 28B-406 | topic=eas | d=1 | calc=0
+Q: Which reagent does <b>not</b> reduce nitrobenzene to aniline?
+KEY c0: NaBH<sub>4</sub>, ethanol
+c1  c1: Sn, HCl; then NaOH
+      why-wrong x1: Tin in HCl is the classic nitro-to-amine reduction; NaOH frees the amine from the anilinium salt.
+c2  c2: H<sub>2</sub>, Pd/C
+      why-wrong x2: Catalytic hydrogenation reduces NO<sub>2</sub> to NH<sub>2</sub> cleanly (it would also reduce alkenes if present).
+c3  c3: Fe, HCl; then NaOH
+      why-wrong x3: Iron in acid is the cheap industrial method for reducing nitroarenes.
+HINT: Three of these are standard nitro reductions: a dissolving metal in acid, or catalytic hydrogenation.
+EXPL: Aryl nitro groups are reduced to amines by <b>metals in acid</b> (Sn/HCl, Fe/HCl, Zn/HCl; then base to free the amine from its ammonium salt) or by <b>catalytic hydrogenation</b> (H<sub>2</sub>, Pd/C or Pt). <b>NaBH<sub>4</sub></b> is a mild hydride donor for aldehydes and ketones; it does not reduce an aryl nitro group under ordinary conditions.
+=== 28B-442 | topic=enolates | d=2 | calc=0
+Q: Which pair, treated with NaOH, gives one major crossed aldol product rather than a mixture?
+KEY c0: Benzaldehyde with propanal (propanal added slowly)
+c1  c1: Ethanal with propanal (mixed in equal amounts)
+      why-wrong x1: Both aldehydes have α-H's and both are good electrophiles, so two enolates add to two carbonyls: up to four aldol products.
+c2  c2: Propanal with butanal (mixed in equal amounts)
+      why-wrong x2: Both partners are enolizable aldehydes of similar reactivity; the mixture gives four products.
+c3  c3: Benzaldehyde with 2,2-dimethylpropanal (mixed in equal amounts)
+      why-wrong x3: Neither aldehyde has an α-H (the tert-butyl carbon and the ring carbon carry none), so no enolate forms and no aldol reaction occurs.
+HINT: A clean crossed aldol needs exactly one partner that can form an enolate, and the other partner must be a good electrophile.
+EXPL: A crossed aldol is selective when one partner cannot enolize. <b>Benzaldehyde has no α-H</b>, so it can act only as the electrophile; adding propanal slowly keeps its concentration low, so its enolate meets mostly benzaldehyde rather than another propanal. When both partners have α-H's, four aldol products are possible.
+=== 28B-475 | topic=enolates | d=3 | calc=0
+Q: What is the major product of this one-pot sequence (ignore stereochemistry)?
+  STEM-STRUCT: DRAWN O=C1C=CCCC1
+  STEM-STRUCT: --[1. (CH<sub>3</sub>)<sub>2</sub>CuLi, THF / 2. CH<sub>3</sub>I]-->
+  STEM-STRUCT: "?"
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CC1CCCC(=O)C1C
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CC1CCCC(=O)C1
+      why-wrong x1: 3-Methylcyclohexanone forms if the enolate is protonated (aqueous workup) instead of being alkylated; here CH<sub>3</sub>I traps it.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN CC1CCC(C)C(=O)C1
+      why-wrong x2: Methylation at C6 would need the other enolate. Conjugate addition generates the enolate regiospecifically toward C2, and it does not equilibrate at low temperature with no proton source.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CC1(O)C=CCCC1
+      why-wrong x3: This tertiary allylic alcohol is the 1,2-adduct formed by CH<sub>3</sub>MgBr or CH<sub>3</sub>Li, not by a cuprate.
+HINT: Conjugate addition leaves an enolate. Which carbon of that enolate is nucleophilic, and is anything there to protonate it before CH<sub>3</sub>I is added?
+EXPL: The cuprate adds CH<sub>3</sub> to C3 (1,4-addition), generating a specific lithium enolate with its C=C between C1 and <b>C2</b>. No proton source is present, so this enolate is trapped by CH<sub>3</sub>I at C2, the carbon between the carbonyl and the new methyl. The product is <b>2,3-dimethylcyclohexanone</b> (mainly trans).
+=== 28B-529 | topic=spectro | d=3 | calc=0
+Q: Which <sup>1</sup>H NMR data (CDCl<sub>3</sub>) belong to the <i>major</i> product of this reaction?
+  STEM-STRUCT: DRAWN COc1ccccc1
+  STEM-STRUCT: --[CH<sub>3</sub>COCl / AlCl<sub>3</sub>]-->
+  STEM-STRUCT: "?"
+KEY c0: δ 7.93 (d, 2H), 6.93 (d, 2H), 3.87 (s, 3H), 2.55 (s, 3H)
+c1  c1: δ 7.73 (dd, 1H), 7.45 (td, 1H), 7.00 (t, 1H), 6.96 (d, 1H), 3.90 (s, 3H), 2.61 (s, 3H)
+      why-wrong x1: Four separate 1H aromatic signals with ortho couplings fit the ortho product (2-methoxyacetophenone), which is the minor isomer.
+c2  c2: δ 7.53 (m, 2H), 7.36 (t, 1H), 7.10 (dd, 1H), 3.85 (s, 3H), 2.59 (s, 3H)
+      why-wrong x2: Four aromatic H with a 1H triplet and a dd fit the meta product (3-methoxyacetophenone), which an o/p director like OCH<sub>3</sub> barely forms.
+c3  c3: δ 7.10 (d, 2H), 6.80 (d, 2H), 3.78 (s, 3H), 2.29 (s, 3H)
+      why-wrong x3: A CH<sub>3</sub> at δ 2.29 is an aryl methyl, as in 4-methylanisole. Acylation adds CH<sub>3</sub>C=O, whose CH<sub>3</sub> appears near δ 2.5–2.6.
+HINT: OCH<sub>3</sub> is an o/p director, and the bulky acylium ion prefers the less hindered position. What is added: an acetyl or a methyl?
+EXPL: Friedel–Crafts acylation puts an acetyl group on the ring. OCH<sub>3</sub> directs ortho/para, and para wins on sterics, giving 4-methoxyacetophenone. Its spectrum: two 2H doublets (para), OCH<sub>3</sub> at δ 3.87 and the acetyl CH<sub>3</sub> at δ 2.55, deshielded by the C=O: <b>δ 7.93 (d, 2H), 6.93 (d, 2H), 3.87 (s, 3H), 2.55 (s, 3H)</b>. The doublet at 7.93 is ortho to the electron-withdrawing C=O; the one at 6.93 is ortho to the donating OCH<sub>3</sub>.
+=== 28B-559 | topic=spectro | d=3 | calc=0
+Q: A compound C<sub>10</sub>H<sub>12</sub>O<sub>2</sub> gives the IR, <sup>1</sup>H and <sup>13</sup>C NMR spectra shown. Which structure fits?
+  FIG: {"type":"ir","bands":[{"cm":2960,"str":"m"},{"cm":2835,"str":"w"},{"cm":1715,"str":"s"},{"cm":1612,"str":"m"},{"cm":1513,"str":"s"},{"cm":1250,"str":"s"}]}
+  FIG: {"type":"nmr","nuc":"1H","peaks":[{"ppm":7.12,"mult":"d","int":2},{"ppm":6.87,"mult":"d","int":2},{"ppm":3.79,"mult":"s","int":3},{"ppm":3.63,"mult":"s","int":2},{"ppm":2.14,"mult":"s","int":3}]}
+  FIG: {"type":"nmr","nuc":"13C","peaks":[{"ppm":206.9},{"ppm":158.7},{"ppm":130.4},{"ppm":126.3},{"ppm":114.2},{"ppm":55.2},{"ppm":50.1},{"ppm":29.1}]}
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN COc1ccc(CC(C)=O)cc1
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CCC(=O)c1ccc(OC)cc1
+      why-wrong x1: 1-(4-Methoxyphenyl)propan-1-one is a conjugated ketone (C=O near 1675 cm<sup>−1</sup>, 13C near δ 200) with an ethyl quartet/triplet, not two singlets.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN COC(=O)Cc1ccc(C)cc1
+      why-wrong x2: Methyl 2-(4-methylphenyl)acetate has three similar singlets, but it is an ester: 13C C=O near δ 172, IR near 1740 cm<sup>−1</sup>, and no carbon near δ 207.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CCOc1ccc(C(C)=O)cc1
+      why-wrong x3: 1-(4-Ethoxyphenyl)ethan-1-one has an OCH<sub>2</sub> quartet near δ 4.1 and a triplet near δ 1.4, and its conjugated ketone has 13C near δ 197 and IR near 1675 cm<sup>−1</sup>.
+HINT: Start with the carbonyl carbon in the 13C spectrum and the C=O stretch: which carbonyl class and is it conjugated? Then place the three singlets.
+EXPL: The 13C signal at δ 206.9 and the IR band at 1715 cm<sup>−1</sup> fit an <i>unconjugated</i> ketone (an ester would be near 170, a conjugated ketone near 197 and 1680 cm<sup>−1</sup>). The 3H singlet at δ 2.14 (13C 29.1) is CH<sub>3</sub>C=O, the 2H singlet at δ 3.63 (13C 50.1) is ArCH<sub>2</sub>C=O, and the 3H singlet at δ 3.79 (13C 55.2) with the strong 1250 cm<sup>−1</sup> band is an aryl OCH<sub>3</sub>. Two 2H doublets mean para. The compound is <b>1-(4-methoxyphenyl)propan-2-one</b>.
+=== 28B-603 | topic=carbonyl | d=3 | calc=0
+Q: Cyclohexanone and dimethylamine (a secondary amine) form the iminium ion shown. Because nitrogen has no H to lose, water removes a proton to give the enamine. Which set of arrows correctly converts the iminium ion into the enamine?
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN O.[H]C1CCCCC1=[N+](C)C
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN O.[H]C1CCCCC1=[N+](C)C
+      why-wrong x1: Water adding to the iminium carbon gives back the carbinolamine; that is a real step, but it is the reverse of the dehydration (hydrolysis), not the step that forms the enamine.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN O.[H]C1CCCCC1=[N+](C)C
+      why-wrong x2: The new C=C forms but the C=N π bond does not break, so the former carbonyl carbon would carry five bonds; the C=N π electrons must move onto nitrogen.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN O.[H]C1CCCCC1=[N+](C)C
+      why-wrong x3: The C–H electrons are sent to nitrogen, an atom not bonded to that carbon; this would make a three-membered ring and give nitrogen five bonds. Electrons move only to an adjacent atom or bond.
+HINT: An enamine has its C=C between the former carbonyl carbon and an α carbon. Which H must be removed, and where do the C=N π electrons go?
+EXPL: Water removes a proton from the <b>α carbon</b>; the C–H bond electrons become the new C=C π bond, and the C=N<sup>+</sup> π electrons move onto nitrogen, which becomes neutral with a lone pair. Three arrows: <b>H<sub>2</sub>O lone pair → α H, C–H bond → C–C bond, C=N π bond → N</b>. Every carbon keeps four bonds and the product is 1-(dimethylamino)cyclohexene.
+=== 28B-620 | topic=acidderiv | d=3 | calc=0
+Q: A student drew the one-step mechanism shown for Fischer esterification of acetic acid with methanol (H<sub>2</sub>SO<sub>4</sub> catalyst). Which statement best describes what is wrong?
+  STEM-STRUCT: DRAWN CC(=O)O.CO
+KEY c0: It skips protonating the C=O and has OH<sup>−</sup> leave directly; methanol must add to the protonated C=O, then water leaves
+c1  c1: Methanol should attack the carbonyl oxygen, not the carbonyl carbon, because that oxygen is the atom protonated first
+      why-wrong x1: The electrophilic site is the carbonyl carbon; attacking oxygen would make an O–O bond.
+c2  c2: Nothing is wrong except that the methanol O–H proton should be shown leaving before the new C–O bond forms
+      why-wrong x2: The main errors are the direct displacement and the hydroxide leaving group; reordering one proton transfer does not fix them.
+c3  c3: The arrows are backwards: the acid’s OH oxygen should attack the methanol carbon and displace water from it
+      why-wrong x3: Attack by the acid's oxygen on the methanol carbon would be an S<sub>N</sub>2 at a methyl carbon with hydroxide (or water) leaving; labeling shows the ester's alkoxy oxygen comes from methanol, so this is not the pathway.
+HINT: Compare the drawing with the addition–elimination pattern of acyl substitution under acid. What is the leaving group, and is the carbonyl activated?
+EXPL: The drawing makes two classic errors. It shows an S<sub>N</sub>2-like direct displacement at a trigonal acyl carbon, and its leaving group is hydroxide in strongly acidic solution. In the accepted mechanism the carbonyl oxygen is protonated first, methanol adds to give a tetrahedral intermediate, a proton shift puts H<sup>+</sup> on an OH, and <b>water (not hydroxide) leaves as the C=O re-forms</b>. Isotope labeling confirms this pathway: the ester oxygen comes from methanol and the water oxygen from the acid.
+=== 28B-662 | topic=ethers | d=1 | calc=0
+Q: Anisole is heated with concentrated HBr. After the ether oxygen is protonated, the curved arrows shown describe the next step. What are the products of this step?
+  STEM-STRUCT: DRAWN C[OH+]c1ccccc1.[Br-]
+KEY c0: phenol and bromomethane
+c1  c1: bromobenzene and methanol
+      why-wrong x1: This would need bromide to attack the ring carbon. The arrow goes to the methyl carbon, and aryl carbons do not undergo S<sub>N</sub>2 or S<sub>N</sub>1.
+c2  c2: anisole and HBr (a proton transfer only)
+      why-wrong x2: The arrows form a new C–Br bond and break a C–O bond; a proton transfer would move an H, which none of these arrows touches.
+c3  c3: methyl cation, phenol and Br<sup>−</sup>
+      why-wrong x3: Bromide's arrow forms the C–Br bond as the C–O bond breaks, so the step is concerted S<sub>N</sub>2. A free methyl cation never forms.
+HINT: Follow each arrow: which atom gains a bond to bromine, and which bond's electrons end up on oxygen?
+EXPL: Bromide's lone pair forms a bond to the methyl carbon, and the CH<sub>3</sub>–O bond breaks with its electrons moving onto oxygen. This S<sub>N</sub>2 step gives <b>phenol and bromomethane</b>. Aryl–O bonds are not cleaved: an sp<sup>2</sup> carbon cannot be attacked from the back side, and a phenyl cation is far too unstable for S<sub>N</sub>1.
+=== 28B-685 | topic=conjugated | d=3 | calc=0
+Q: (2<i>E</i>,4<i>Z</i>,6<i>E</i>)-Octa-2,4,6-triene (shown) undergoes 6π electrocyclic ring closure. Which statements are correct?<br>I. The thermal ring closure is disrotatory.<br>II. The thermal product is <i>trans</i>-5,6-dimethylcyclohexa-1,3-diene.<br>III. The photochemical ring closure is conrotatory.
+  STEM-STRUCT: DRAWN C/C=C/C=C\C=C\C
+KEY c0: I and III only
+c1  c1: I only
+      why-wrong x1: This misjudges III: in the excited state the HOMO is ψ<sub>4</sub>, which has opposite end-lobe symmetry, so the photochemical closure is conrotatory.
+c2  c2: III only
+      why-wrong x2: This misjudges I: a thermal 6π electrocyclization is disrotatory, not conrotatory (conrotatory is the thermal mode for 4π systems).
+c3  c3: I, II, and III
+      why-wrong x3: This misjudges II: disrotatory closure of the E,Z,E triene gives the <i>cis</i>-dimethyl ring; the <i>trans</i> isomer is the photochemical product.
+HINT: Find the HOMO of a hexatriene in the ground state (ψ<sub>3</sub>) and in the excited state (ψ<sub>4</sub>), and look at the phases of the end lobes.
+EXPL: I: true. A 6π (4n + 2) system closes thermally from its ground-state HOMO, ψ<sub>3</sub>, whose terminal lobes have the same phase on the same face, so the ends rotate disrotatory. II: false. With E,Z,E geometry both terminal methyls point outward; disrotatory closure turns both outward groups the same way, putting them on the same face: <i>cis</i>-5,6-dimethylcyclohexa-1,3-diene. III: true. Light promotes an electron to ψ<sub>4</sub>, whose terminal lobes are out of phase, so the photochemical closure is conrotatory (and would give the <i>trans</i> product). Answer: <b>I and III only</b>.
+=== 28B-690 | topic=aromatic | d=3 | calc=0
+Q: Consider Birch reduction (Na, NH<sub>3</sub>(l), CH<sub>3</sub>CH<sub>2</sub>OH). Which statements are correct?<br>I. Benzene gives cyclohexa-1,4-diene.<br>II. Anisole (shown first) gives a diene in which the OCH<sub>3</sub> group is on an sp<sup>3</sup> carbon.<br>III. Benzoic acid (shown second) gives a diene in which the CO<sub>2</sub>H group is on an sp<sup>3</sup> carbon.
+  STEM-STRUCT: DRAWN COc1ccccc1
+  STEM-STRUCT: DRAWN O=C(O)c1ccccc1
+KEY c0: I and III only
+c1  c1: I only
+      why-wrong x1: This misjudges III: an electron-withdrawing group ends up on a reduced (sp<sup>3</sup>) carbon, because it stabilizes the radical anion and carbanion there.
+c2  c2: III only
+      why-wrong x2: This misjudges I: Birch reduction of benzene gives the 1,4-diene, not a conjugated diene and not cyclohexane.
+c3  c3: I, II, and III
+      why-wrong x3: This misjudges II: an electron-donating group like OCH<sub>3</sub> stays on a C=C after Birch reduction.
+HINT: Birch reduction adds electrons to the ring. Does an electron-donating group sit on a reduced carbon or stay on a C=C? What about an electron-withdrawing group?
+EXPL: I: true. Birch reduction adds two electrons and two protons to para positions, leaving the nonconjugated cyclohexa-1,4-diene. II: false. An electron-donating group avoids the carbons that pick up negative charge, so it stays on a ring double bond: anisole gives 1-methoxycyclohexa-1,4-diene, with OCH<sub>3</sub> on an sp<sup>2</sup> carbon. III: true. An electron-withdrawing group stabilizes the negative charge, so its carbon is reduced: benzoic acid gives cyclohexa-2,5-diene-1-carboxylic acid, with CO<sub>2</sub>H on the sp<sup>3</sup> carbon. Answer: <b>I and III only</b>.
+=== 28B-721 | topic=biomol | d=1 | calc=0
+Q: Rank these triacylglycerols from <i>lowest</i> to <i>highest</i> melting point.<br>I. tristearin (three C<sub>18</sub> saturated chains)<br>II. triolein (three C<sub>18</sub> chains, each with one <i>cis</i> C=C)<br>III. tripalmitin (three C<sub>16</sub> saturated chains)
+KEY c0: II &lt; III &lt; I
+c1  c1: III &lt; I &lt; II
+      why-wrong x1: This puts triolein highest. Cis double bonds kink the chains and prevent close packing, so triolein has the lowest melting point.
+c2  c2: II &lt; I &lt; III
+      why-wrong x2: This puts tristearin below tripalmitin. Longer saturated chains have more London-force contact, so C<sub>18</sub> tristearin melts higher than C<sub>16</sub> tripalmitin.
+c3  c3: III &lt; II &lt; I
+      why-wrong x3: This puts tripalmitin below the unsaturated fat. Any cis double bond lowers the melting point much more than removing two CH<sub>2</sub> units from each chain.
+HINT: Melting point rises with stronger London forces, which need long chains that pack closely. What does a cis double bond do to packing?
+EXPL: II (triolein) melts lowest (it is the main component of olive oil, a liquid): each cis C=C puts a kink in the chain, so the chains cannot pack tightly and London forces are weak. III (tripalmitin) and I (tristearin) are both saturated, straight-chain fats that pack well; tristearin's longer C<sub>18</sub> chains give more surface contact and a higher melting point than tripalmitin's C<sub>16</sub> chains. Lowest to highest: <b>II &lt; III &lt; I</b>.
+=== 28B-761 | topic=spectro | d=1 | calc=0
+Q: A compound C<sub>5</sub>H<sub>10</sub>O gives the IR spectrum shown. Which structure fits?
+  FIG: {"type":"ir","bands":[{"cm":2970,"str":"s"},{"cm":2885,"str":"m"},{"cm":2810,"str":"m"},{"cm":2715,"str":"m"},{"cm":1728,"str":"s"},{"cm":1465,"str":"w"}]}
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CCCCC=O
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CCCC(C)=O
+      why-wrong x1: Pentan-2-one has a C=O near 1715 cm<sup>−1</sup> but no aldehyde C–H, so the 2810/2715 cm<sup>−1</sup> pair would be missing.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN OC1CCCC1
+      why-wrong x2: Cyclopentanol has no C=O; it would show a strong, broad O–H band near 3350 cm<sup>−1</sup> and a C–O band near 1050 cm<sup>−1</sup>.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN C=CCCCO
+      why-wrong x3: Pent-4-en-1-ol has no C=O; it would show a broad O–H near 3330 cm<sup>−1</sup>, =C–H above 3000 cm<sup>−1</sup> and a weak C=C near 1640 cm<sup>−1</sup>.
+HINT: Look for two bands just to the right of the sp<sup>3</sup> C–H region, near 2810 and 2715 cm<sup>−1</sup>. Which functional group gives those plus a C=O?
+EXPL: There is a strong C=O at 1728 cm<sup>−1</sup> and no O–H band. The pair of bands at 2810 and 2715 cm<sup>−1</sup> is the aldehyde C–H stretch (a Fermi doublet), which ketones lack. A saturated aldehyde C=O is near 1730 cm<sup>−1</sup>, slightly above a ketone's 1715. The compound is <b>pentanal</b>.
+=== 28B-762 | topic=spectro | d=2 | calc=0
+Q: A compound C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> gives the IR and <sup>1</sup>H NMR spectra shown (the δ 11.8 signal disappears after shaking with D<sub>2</sub>O). Which structure fits?
+  FIG: {"type":"ir","bands":[{"cm":3000,"shape":"broad","str":"s"},{"cm":2965,"str":"m"},{"cm":1715,"str":"s"},{"cm":1285,"str":"s"},{"cm":935,"shape":"broad","str":"s"}]}
+  FIG: {"type":"nmr","nuc":"1H","peaks":[{"ppm":11.8,"mult":"br s","int":1},{"ppm":2.35,"mult":"t","int":2},{"ppm":1.68,"mult":"sext","int":2},{"ppm":0.98,"mult":"t","int":3}]}
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CCCC(=O)O
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CC(C)C(=O)O
+      why-wrong x1: 2-Methylpropanoic acid would show a 1H septet near δ 2.58 and a 6H doublet near δ 1.20, not a triplet–sextet–triplet propyl pattern.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN CCOC(C)=O
+      why-wrong x2: Ethyl acetate has no O–H: its ester C=O is near 1740 cm<sup>−1</sup>, and its NMR is a 2H quartet near δ 4.1, a 3H singlet near δ 2.0 and a 3H triplet.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CCC(=O)CO
+      why-wrong x3: 1-Hydroxybutan-2-one has an alcohol O–H (a narrower band near 3450 cm<sup>−1</sup>, signal near δ 3), a 2H singlet near δ 4.25 and an ethyl quartet/triplet.
+HINT: A very broad O–H band (3300–2500 cm<sup>−1</sup>) plus a C=O near 1710 cm<sup>−1</sup> points to one functional group. Then use the splitting to build the chain.
+EXPL: The extremely broad O–H (3300–2500 cm<sup>−1</sup>, from hydrogen-bonded dimers), the C=O at 1715 cm<sup>−1</sup> and the exchangeable 1H at δ 11.8 identify a carboxylic acid. The rest is a propyl chain: CH<sub>3</sub> triplet (δ 0.98), CH<sub>2</sub> sextet (δ 1.68, five neighbors) and CH<sub>2</sub> triplet next to C=O (δ 2.35). The compound is <b>butanoic acid</b>.
+=== 28B-771 | topic=acidderiv | d=2 | calc=0
+Q: Benzoyl chloride is treated as shown. The product gives the IR and <sup>1</sup>H NMR spectra shown. What is the product?
+  STEM-STRUCT: DRAWN O=C(Cl)c1ccccc1
+  STEM-STRUCT: --[CH<sub>3</sub>CH<sub>2</sub>OH / pyridine]-->
+  STEM-STRUCT: "?"
+  FIG: {"type":"ir","bands":[{"cm":3065,"str":"w"},{"cm":2990,"str":"m"},{"cm":1725,"str":"s"},{"cm":1610,"str":"m"},{"cm":1270,"str":"s"},{"cm":1105,"str":"s"},{"cm":710,"str":"s"}]}
+  FIG: {"type":"nmr","nuc":"1H","peaks":[{"ppm":8.05,"mult":"d","int":2},{"ppm":7.55,"mult":"t","int":1},{"ppm":7.44,"mult":"t","int":2},{"ppm":4.38,"mult":"q","int":2},{"ppm":1.39,"mult":"t","int":3}]}
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CCOC(=O)c1ccccc1
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CCC(=O)c1ccccc1
+      why-wrong x1: Propiophenone also has an ethyl quartet and triplet, but its CH<sub>2</sub> is on carbon next to C=O (δ ≈ 2.98, not 4.38) and its conjugated ketone C=O is near 1688 cm<sup>−1</sup>.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN O=C(O)c1ccccc1
+      why-wrong x2: Benzoic acid (from hydrolysis by water) would show a very broad O–H from 3300 to 2500 cm<sup>−1</sup> and a δ 12 singlet, and it has no ethyl group.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CCC(=O)Oc1ccccc1
+      why-wrong x3: Phenyl propanoate has the C=O on the ethyl side: its CH<sub>2</sub> quartet is near δ 2.6, its phenyl ester C=O is near 1760 cm<sup>−1</sup>, and the ring H are not deshielded to δ 8.05.
+HINT: Both an O–CH<sub>2</sub> and a C(=O)–CH<sub>2</sub> give quartets. Where does each appear, and which C=O wavenumber matches an aryl ester versus an aryl ketone?
+EXPL: Ethanol attacks the acid chloride (nucleophilic acyl substitution), Cl<sup>−</sup> leaves and pyridine takes up the HCl: the product is <b>ethyl benzoate</b>. The C=O drops from about 1775 cm<sup>−1</sup> (acid chloride) to 1725 cm<sup>−1</sup> (conjugated ester), with strong C–O bands at 1270 and 1105 cm<sup>−1</sup>. The CH<sub>2</sub> quartet at δ 4.38 is on oxygen (an O–CH<sub>2</sub> of an ester), and the 2H doublet at δ 8.05 shows ring H ortho to a C=O.
+=== 28B-815 | topic=carbonyl | d=1 | calc=0
+Q: Pentan-3-one is treated with hydroxylamine (NH<sub>2</sub>OH) in a weakly acidic buffer (pH ≈ 4.5). What is the major organic product?
+  STEM-STRUCT: DRAWN CCC(=O)CC
+  STEM-STRUCT: --[NH<sub>2</sub>OH / pH ≈ 4.5]-->
+  STEM-STRUCT: "?"
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CCC(CC)=NO
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CCC(O)(CC)NO
+      why-wrong x1: This carbinolamine is the tetrahedral intermediate. At pH 4.5 it loses water to give the C=N product, which is the compound isolated.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN CCC(=N)CC
+      why-wrong x2: The N–O bond is not cleaved in oxime formation. The OH stays on nitrogen, so the product is C=N–OH, not C=NH.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN C/C=C(\CC)NO
+      why-wrong x3: A C=C–N (enamine-type) product forms only when nitrogen has no second H to lose, as with a secondary amine. NH<sub>2</sub>OH has two N–H bonds, so the C=N oxime forms.
+HINT: Hydroxylamine carries an NH<sub>2</sub> group. Ask what a primary-amine-type nitrogen does with a ketone under mild acid.
+EXPL: Hydroxylamine reacts like a primary amine. Its nitrogen adds to the carbonyl carbon, proton transfers give a carbinolamine, and acid-promoted loss of water gives C=N. Because the nitrogen started with two N–H bonds, the last step removes an N–H proton and leaves a neutral C=N–OH group: <b>the oxime of pentan-3-one, (CH<sub>3</sub>CH<sub>2</sub>)<sub>2</sub>C=N–OH</b>. The N–O bond is not broken at any stage.
+=== 28B-847 | topic=enolates | d=1 | calc=0
+Q: Diethyl malonate is converted almost completely into its enolate by sodium ethoxide in ethanol, but ethyl acetate is not. What is the main reason?
+  STEM-STRUCT: DRAWN CCOC(=O)CC(=O)OCC cap=diethyl malonate
+  STEM-STRUCT: DRAWN CCOC(C)=O cap=ethyl acetate
+KEY c0: The malonate CH<sub>2</sub> (pK<sub>a</sub> ≈ 13) is more acidic than ethanol (pK<sub>a</sub> ≈ 16); ethyl acetate (pK<sub>a</sub> ≈ 25) is much less acidic.
+c1  c1: Ethoxide is too hindered to reach the α-hydrogens of ethyl acetate, but it can reach those of diethyl malonate.
+      why-wrong x1: Ethoxide is a small base and reaches α-hydrogens easily. The difference is thermodynamic (pK<sub>a</sub>), not steric.
+c2  c2: Ethyl acetate reacts with ethoxide by transesterification, which uses up the base before any enolate forms.
+      why-wrong x2: Transesterification of an ethyl ester with ethoxide simply regenerates the same ethyl ester and ethoxide, so no base is consumed.
+c3  c3: The malonate enolate is stabilized by a hydrogen bond to ethoxide, which ethyl acetate's enolate cannot form.
+      why-wrong x3: The extra stability of the malonate enolate comes from delocalizing the charge onto two carbonyl oxygens, not from hydrogen bonding to ethoxide.
+HINT: An acid–base equilibrium favors the side with the weaker acid. Compare each α-C–H with ethanol, the conjugate acid of ethoxide.
+EXPL: Deprotonation goes essentially to completion only when the C–H acid is stronger than the conjugate acid of the base. The CH<sub>2</sub> of diethyl malonate lies between two carbonyl groups, so its anion is delocalized onto two oxygens (pK<sub>a</sub> ≈ 13). That is more acidic than ethanol (pK<sub>a</sub> ≈ 16), so K<sub>eq</sub> > 1. Ethyl acetate's α-H (pK<sub>a</sub> ≈ 25) is about 10<sup>9</sup> times weaker than ethanol, so only a trace of enolate forms. <b>The malonate C–H is more acidic than ethanol; the acetate C–H is far less acidic.</b>
+=== 28B-880 | topic=acidderiv | d=1 | calc=0
+Q: Which polymers are made by step-growth (condensation) polymerization?<br>I. polystyrene, from styrene (C<sub>6</sub>H<sub>5</sub>CH=CH<sub>2</sub>) with a radical initiator<br>II. a polyamide from ethane-1,2-diamine and decanedioyl dichloride, releasing HCl<br>III. poly(ethylene terephthalate), from dimethyl terephthalate and ethane-1,2-diol, releasing CH<sub>3</sub>OH
+KEY c0: II and III only
+c1  c1: III only
+      why-wrong x1: This leaves out II. Amide formation from an acid chloride is a condensation that releases HCl at every link.
+c2  c2: I and II only
+      why-wrong x2: This includes polystyrene, a chain-growth (addition) polymer with no by-product, and leaves out PET.
+c3  c3: I, II, and III
+      why-wrong x3: Polystyrene is not a condensation polymer; radical addition across C=C is chain growth.
+HINT: Step-growth polymers link two different functional groups and usually lose a small molecule; chain-growth polymers add monomers across C=C bonds.
+EXPL: I is false: styrene adds across its C=C in a radical chain reaction (chain growth), and nothing is lost. II is true: amine + acid chloride links form amides and release HCl. III is true: transesterification forms ester links and releases methanol. <b>II and III only</b>.
+=== 28B-890 | topic=biomol | d=2 | calc=0
+Q: What is the nucleotide shown?
+  STEM-STRUCT: DRAWN Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)O)O2)c(=O)[nH]c1=O {CIP R,S,R}
+KEY c0: 2′-deoxythymidine 5′-monophosphate (dTMP), a DNA nucleotide
+c1  c1: uridine 5′-monophosphate (UMP), an RNA nucleotide
+      why-wrong x1: Uridine has no methyl group on the base, and its ribose has an OH at C2′; this sugar is 2′-deoxy.
+c2  c2: 2′-deoxycytidine 5′-monophosphate (dCMP), a DNA nucleotide
+      why-wrong x2: Cytosine has an NH<sub>2</sub> at C4 and only one C=O; this base has two C=O groups and a C5 methyl.
+c3  c3: 2′-deoxythymidine 3′-monophosphate, a DNA nucleotide
+      why-wrong x3: The phosphate is attached through the exocyclic CH<sub>2</sub>O, which is C5′. C3′ (on the ring) carries the free OH.
+HINT: Identify three parts: the base (look at C5 and the C4 substituent), the sugar (OH at C2′?) and which carbon carries the phosphate.
+EXPL: The base is a pyrimidine with two C=O groups and a CH<sub>3</sub> at C5: thymine. The sugar has only a CH<sub>2</sub> at C2′, so it is 2′-deoxyribose. The phosphate is on the CH<sub>2</sub>O (C5′), while C3′ carries a free OH. <b>2′-Deoxythymidine 5′-monophosphate (dTMP)</b>.

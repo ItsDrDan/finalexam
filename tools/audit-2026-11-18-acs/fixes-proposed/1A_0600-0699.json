@@ -1,0 +1,37 @@
+[
+ {
+  "id": "1A-629",
+  "field": "raw",
+  "old": "\"k\":1,\"d\":3,",
+  "new": "\"k\":1,\"d\":2,",
+  "why": "Three routine unit conversions with a calculator; d=3 overstates difficulty"
+ },
+ {
+  "id": "1A-635",
+  "field": "w",
+  "old": "NH<sub>4</sub>NO<sub>3</sub>: 28.01/80.04 = 35.0% N. N<sub>2</sub>O: 28.01/44.01 = 63.6% N. NH<sub>3</sub>: 14.01/17.03 = 82.2% N. The order is <b>III &lt; I &lt; II</b>. Counting N atoms alone misleads: NH<sub>4</sub>NO<sub>3</sub> has two N atoms but a large molar mass.",
+  "new": "NH<sub>4</sub>NO<sub>3</sub>: 28.02/80.05 = 35.0% N. N<sub>2</sub>O: 28.02/44.02 = 63.7% N. NH<sub>3</sub>: 14.01/17.03 = 82.2% N. The order is <b>III &lt; I &lt; II</b>. Counting N atoms alone misleads: NH<sub>4</sub>NO<sub>3</sub> has two N atoms but a large molar mass.",
+  "why": "Game masses: 2 × 14.01 = 28.02, NH4NO3 = 80.05, N2O = 44.02 g/mol; 28.02/44.02 = 63.65% -> 63.7%"
+ },
+ {
+  "id": "1A-635",
+  "field": "x[1]",
+  "old": "N₂O is 63.6% N, which is more than NH₄NO₃ at 35.0% N.",
+  "new": "N₂O is 63.7% N, which is more than NH₄NO₃ at 35.0% N.",
+  "why": "Same: N2O is 63.7% N with the game masses"
+ },
+ {
+  "id": "1A-699",
+  "field": "raw",
+  "old": "[{\"y\":-16,\"label\":\"−16.0\"},{\"y\":-9,\"label\":\"−9.0\"},{\"y\":-6,\"label\":\"−6.0\"},{\"y\":-4.5,\"label\":\"−4.5\"}]",
+  "new": "[{\"y\":-16,\"label\":\"−16.00\"},{\"y\":-9,\"label\":\"−9.00\"},{\"y\":-6,\"label\":\"−6.00\"},{\"y\":-4.5,\"label\":\"−4.50\"}]",
+  "why": "Labels -16.0 and -9.0 give a 2-sig-fig gap (7.0e-19 J) so 284 nm has too many sig figs; two-decimal labels make 7.00e-19 J and 284 nm consistent"
+ },
+ {
+  "id": "1A-699",
+  "field": "w",
+  "old": "The arrow drops from −9.0 to −16.0 × 10<sup>−19</sup> J, so E<sub>photon</sub> = 7.0 × 10<sup>−19</sup> J. λ = hc/E = (6.626 × 10<sup>−34</sup>)(2.998 × 10<sup>8</sup>) ÷ (7.0 × 10<sup>−19</sup>) = 2.84 × 10<sup>−7</sup> m = <b>284 nm</b>. 221 nm uses the upper level's energy alone, 124 nm uses the lower level's energy alone, and 79.5 nm adds the two energies.",
+  "new": "The arrow drops from −9.00 to −16.00 × 10<sup>−19</sup> J, so E<sub>photon</sub> = 7.00 × 10<sup>−19</sup> J. λ = hc/E = (6.626 × 10<sup>−34</sup>)(2.998 × 10<sup>8</sup>) ÷ (7.00 × 10<sup>−19</sup>) = 2.84 × 10<sup>−7</sup> m = <b>284 nm</b>. 221 nm uses the upper level's energy alone, 124 nm uses the lower level's energy alone, and 79.5 nm adds the two energies.",
+  "why": "Match the relabeled levels; 3 sig figs support 284 nm"
+ }
+]

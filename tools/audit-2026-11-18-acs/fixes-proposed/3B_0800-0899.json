@@ -1,0 +1,23 @@
+[
+ {
+  "id": "3B-853",
+  "field": "raw",
+  "old": "\"k\":1,",
+  "new": "\"k\":0,",
+  "why": "no arithmetic in this item; calculator chip cues a calculation that does not exist"
+ },
+ {
+  "id": "3B-859",
+  "field": "raw",
+  "old": "\"k\":1,",
+  "new": "\"k\":0,",
+  "why": "no arithmetic in this item; calculator chip cues a calculation that does not exist"
+ },
+ {
+  "id": "3B-861",
+  "field": "w",
+  "old": "From the curve, saturation is about 98% at 100 mmHg (lungs) and about 76% at 40 mmHg (tissue). The difference, roughly 98 − 76 ≈ 22%, or about <b>20%</b>, is the fraction of sites that released O<sub>2</sub>. \"75%\" is the saturation remaining in the tissue, not the amount unloaded; the sigmoid shape means most of the O<sub>2</sub> stays bound until the pressure falls further, as in exercising muscle.",
+  "new": "From the curve, saturation is about 98% at 100 mmHg (lungs) and about 77% at 40 mmHg (tissue). The difference, roughly 98 − 77 ≈ 21%, or about <b>20%</b>, is the fraction of sites that released O<sub>2</sub>. \"75%\" is the saturation remaining in the tissue, not the amount unloaded; the sigmoid shape means most of the O<sub>2</sub> stays bound until the pressure falls further, as in exercising muscle.",
+  "why": "plotted curve: 97.75% at 100 mmHg, 76.96% at 40 mmHg; difference 20.8%"
+ }
+]

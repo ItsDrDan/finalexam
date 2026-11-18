@@ -1,0 +1,93 @@
+[
+ {
+  "id": "3A-669",
+  "field": "q",
+  "old": "A 65.0 g piece of iron at 99.2 °C is dropped into 45.0 g of water at 21.0 °C in a calorimeter. Both end at 31.5 °C. How much heat did the iron release? (c for water = 4.184 J/(g·°C))",
+  "new": "A 65.0 g piece of iron at 99.2 °C is dropped into 45.0 g of water at 21.0 °C in a calorimeter. Both end at 31.5 °C. What is q for the iron, the heat it gained or lost? (c for water = 4.184 J/(g·°C))",
+  "why": "Stem asks for heat released (a positive amount) while the key is the signed q_iron = -1.98e3 J; asking for q removes the sign ambiguity."
+ },
+ {
+  "id": "3A-633",
+  "field": "c[3]",
+  "old": "0.00375 mol",
+  "new": "3.75 mL",
+  "why": "c3 had units of mol for a volume question (eliminated by units). 3.75 mL = moles of HCl (0.00375) written as mL x1000, a real stop-early error."
+ },
+ {
+  "id": "3A-633",
+  "field": "x[3]",
+  "old": "This stops at moles of HCl; dividing by the molarity gives the volume.",
+  "new": "This stops at moles of HCl (0.00375 mol) and relabels it as a volume; divide moles by molarity to get liters.",
+  "why": "Matches the new c3."
+ },
+ {
+  "id": "1A-47",
+  "field": "x[3]",
+  "old": "8 comes from the permanganate half-reaction alone, not the combined equation.",
+  "new": "8 OH⁻ comes from doubling the permanganate half-reaction, where the OH⁻ are products. In the combined equation most OH⁻ cancel, leaving 2 on the product side.",
+  "why": "Old x3 blamed the permanganate half-reaction, but there the 8 OH⁻ are on the product side, not the reactant side."
+ },
+ {
+  "id": "1A-713",
+  "field": "c[0]",
+  "old": "1875 nm and 102.5 nm",
+  "new": "1875 nm and 102.6 nm",
+  "why": "With E_n = -2.179e-18/n^2: 3->1 = 102.56 nm, 2->1 = 121.55 nm, 5->3 = 1282.0 nm; values were truncated, not rounded."
+ },
+ {
+  "id": "1A-713",
+  "field": "c[1]",
+  "old": "656 nm and 121.5 nm",
+  "new": "656 nm and 121.6 nm",
+  "why": "With E_n = -2.179e-18/n^2: 3->1 = 102.56 nm, 2->1 = 121.55 nm, 5->3 = 1282.0 nm; values were truncated, not rounded."
+ },
+ {
+  "id": "1A-713",
+  "field": "c[2]",
+  "old": "434 nm and 121.5 nm",
+  "new": "434 nm and 121.6 nm",
+  "why": "With E_n = -2.179e-18/n^2: 3->1 = 102.56 nm, 2->1 = 121.55 nm, 5->3 = 1282.0 nm; values were truncated, not rounded."
+ },
+ {
+  "id": "1A-713",
+  "field": "c[3]",
+  "old": "1281 nm and 102.5 nm",
+  "new": "1282 nm and 102.6 nm",
+  "why": "With E_n = -2.179e-18/n^2: 3->1 = 102.56 nm, 2->1 = 121.55 nm, 5->3 = 1282.0 nm; values were truncated, not rounded."
+ },
+ {
+  "id": "1A-713",
+  "field": "w",
+  "old": "With two photons, the electron goes 4 → 3 → 1 or 4 → 2 → 1. The 4 → 3 drop gives 1875 nm and the 3 → 1 drop gives 102.5 nm, so <b>1875 nm and 102.5 nm</b> works. 656 + 121.5 nm is the path 3 → 2 → 1, which starts at n = 3. 434 + 121.5 nm is 5 → 2 → 1, and 1281 + 102.5 nm is 5 → 3 → 1, both starting at n = 5.",
+  "new": "With two photons, the electron goes 4 → 3 → 1 or 4 → 2 → 1. The 4 → 3 drop gives 1875 nm and the 3 → 1 drop gives 102.6 nm, so <b>1875 nm and 102.6 nm</b> works. 656 + 121.6 nm is the path 3 → 2 → 1, which starts at n = 3. 434 + 121.6 nm is 5 → 2 → 1, and 1282 + 102.6 nm is 5 → 3 → 1, both starting at n = 5.",
+  "why": "Same rounding correction in the explanation."
+ },
+ {
+  "id": "1A-713",
+  "field": "x[3]",
+  "old": "1281 nm is the 5 → 3 drop, so this path starts at n = 5, not n = 4.",
+  "new": "1282 nm is the 5 → 3 drop, so this path starts at n = 5, not n = 4.",
+  "why": "Same rounding correction."
+ },
+ {
+  "id": "3B-979",
+  "field": "q",
+  "old": "Dopamine, norepinephrine, serotonin and histamine are all neurotransmitters. Which functional group do all four contain, which is protonated (–NH<sub>3</sub><sup>+</sup>) at body pH?",
+  "new": "Dopamine, norepinephrine, serotonin and histamine are all neurotransmitters. Which functional group do all four contain, the group that gives each of them a positive charge at body pH?",
+  "why": "The stem's '(–NH3+)' names the amine and gives away the key."
+ },
+ {
+  "id": "3B-853",
+  "field": "raw",
+  "old": "\"k\":1",
+  "new": "\"k\":0",
+  "why": "No arithmetic in this item; calc chip should be off."
+ },
+ {
+  "id": "1A-747",
+  "field": "raw",
+  "old": "\"d\":1",
+  "new": "\"d\":2",
+  "why": "Two-reactant limiting-reagent comparison is d=2, not recall."
+ }
+]

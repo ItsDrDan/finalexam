@@ -1,0 +1,1053 @@
+=== 3A-2 | topic=measure | d=2 | calc=1
+Q: What is the sum 12.35 mL + 4.1 mL + 0.256 mL, reported to the correct number of significant figures?
+KEY c0: 16.7 mL
+c1  c1: 16.706 mL
+      why-wrong x1: 16.706 is the unrounded sum. When you add, round to the fewest decimal places.
+c2  c2: 16.71 mL
+      why-wrong x2: 16.71 keeps two decimal places, but 4.1 mL is only known to the tenths place.
+c3  c3: 17 mL
+      why-wrong x3: 17 uses the multiplication rule (fewest sig figs). Adding uses the decimal-place rule.
+HINT: For addition and subtraction, round to the fewest decimal places, not the fewest significant figures.
+EXPL: The sum is 16.706 mL. 4.1 has only one decimal place, so the answer is rounded to the tenths place: <b>16.7 mL</b>. 16.71 would keep two decimal places, more than 4.1 allows.
+=== 3A-12 | topic=measure | d=2 | calc=1
+Q: Aluminum has a density of 2.70 g cm⁻³. What is the mass of a solid aluminum cube that is 2.0 cm on each edge?
+KEY c0: 22 g
+c1  c1: 5.4 g
+      why-wrong x1: This uses the edge length (2.0 cm) as if it were the volume. A cube's volume is edge³.
+c2  c2: 11 g
+      why-wrong x2: This squares the edge (an area, 4.0 cm²) instead of cubing it.
+c3  c3: 3.0 g
+      why-wrong x3: This divides volume by density (upside down). Mass = density × volume.
+HINT: Find the cube's volume (edge × edge × edge), then use mass = density × volume.
+EXPL: V = (2.0 cm)<sup>3</sup> = 8.0 cm<sup>3</sup>. m = 2.70 g cm⁻³ × 8.0 cm<sup>3</sup> = 21.6 g → <b>22 g</b> (2 sig figs). 5.4 g uses the edge length as if it were the volume.
+=== 3A-13 | topic=atoms | d=1 | calc=0
+Q: How many protons, neutrons and electrons are in the ion <sup>56</sup>Fe<sup>3+</sup>?
+KEY c0: 26 p, 30 n, 23 e
+c1  c1: 26 p, 30 n, 29 e
+      why-wrong x1: This adds 3 electrons. A 3+ ion has lost 3 electrons.
+c2  c2: 26 p, 56 n, 23 e
+      why-wrong x2: 56 is the mass number (protons + neutrons). Subtract the protons to get neutrons.
+c3  c3: 30 p, 26 n, 23 e
+      why-wrong x3: This swaps the protons and neutrons. Iron's atomic number, 26, is the number of protons.
+HINT: Atomic number gives protons; mass number minus protons gives neutrons; a positive charge means electrons were lost.
+EXPL: Fe has Z = 26, so 26 protons. Neutrons = 56 − 26 = 30. A 3+ charge means 3 electrons lost: 26 − 3 = 23. <b>26 p, 30 n, 23 e</b>. Adding 3 electrons (29) treats a cation as if it gained electrons.
+=== 3A-59 | topic=moles | d=2 | calc=1
+Q: A sugar has the empirical formula CH<sub>2</sub>O and a molar mass of 180 g mol⁻¹. What is its molecular formula?
+KEY c0: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>
+c1  c1: C<sub>5</sub>H<sub>10</sub>O<sub>5</sub>
+      why-wrong x1: This multiplies by 5, giving 150 g/mol, not 180 g/mol.
+c2  c2: C<sub>3</sub>H<sub>6</sub>O<sub>3</sub>
+      why-wrong x2: This multiplies by 3, giving 90 g/mol.
+c3  c3: CH<sub>2</sub>O
+      why-wrong x3: This is only the empirical formula (30 g/mol). Multiply it to reach 180 g/mol.
+HINT: Find the empirical formula mass, then divide the molar mass by it to get the multiplier.
+EXPL: CH<sub>2</sub>O = 12.01 + 2.016 + 16.00 ≈ 30.03 g mol⁻¹. 180 / 30.03 ≈ 6, so multiply every subscript by 6: <b>C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></b> (glucose).
+=== 3A-64 | topic=moles | d=3 | calc=1
+Q: How many grams of nitrogen are in 50.0 g of the fertilizer ammonium sulfate, (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>?
+KEY c0: 10.6 g
+c1  c1: 5.30 g
+      why-wrong x1: This counts only one N. (NH₄)₂ has two.
+c2  c2: 6.14 g
+      why-wrong x2: This drops the subscript 2 outside the parentheses when finding the molar mass.
+c3  c3: 0.757 g
+      why-wrong x3: 0.757 is the moles of N, not the mass. Convert moles of N to grams.
+HINT: Find the molar mass and the mass fraction of N (count both N atoms), then multiply by the sample mass.
+EXPL: M = 132.15 g mol⁻¹, with 2 × 14.01 = 28.02 g N per mole. 50.0 g × (28.02/132.15) = <b>10.6 g N</b>. 5.30 g counts only one N; 6.14 g drops the subscript 2 outside the parentheses (uses NH<sub>4</sub>SO<sub>4</sub>, 114.12 g mol⁻¹); 0.757 g is moles of N, not grams.
+=== 3A-85 | topic=energy | d=2 | calc=0
+Q: Which substance forms a molecular solid?
+KEY c0: ice, H<sub>2</sub>O(s)
+c1  c1: quartz, SiO<sub>2</sub>(s)
+      why-wrong x1: Quartz is a covalent network solid. Every atom is bonded into one giant network.
+c2  c2: table salt, NaCl(s)
+      why-wrong x2: NaCl is an ionic solid, made of ions.
+c3  c3: copper, Cu(s)
+      why-wrong x3: Copper is a metallic solid.
+HINT: Molecular solids are made of discrete molecules held together by intermolecular forces.
+EXPL: <b>Ice</b> is made of separate H<sub>2</sub>O molecules held together by hydrogen bonds. Quartz is a covalent network solid, NaCl is ionic and copper is metallic.
+=== 3A-89 | topic=gases | d=2 | calc=1
+Q: During inhalation, a person's lung volume increases from 5.00 L to 5.25 L at constant temperature. If the initial pressure in the lungs was 760 mmHg, what is the new pressure?
+KEY c0: 724 mmHg
+c1  c1: 798 mmHg
+      why-wrong x1: This flips the volume ratio. A larger volume gives a lower pressure (Boyle's law).
+c2  c2: 760 mmHg
+      why-wrong x2: When the volume changes at constant temperature, the pressure has to change too.
+c3  c3: 2.00×10<sup>4</sup> mmHg
+      why-wrong x3: This multiplies by both volumes. Use P₂ = P₁V₁ ÷ V₂.
+HINT: Boyle's law: P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>. If volume goes up, pressure must go down.
+EXPL: P<sub>2</sub> = (760 mmHg)(5.00 L)/(5.25 L) = <b>724 mmHg</b>. The lower pressure in the lungs is what lets air flow in. 798 mmHg inverts the volume ratio.
+=== 3A-148 | topic=acids | d=3 | calc=0
+Q: Blood is buffered by H<sub>2</sub>CO<sub>3</sub> and <span class="nw">HCO<span class="ss"><sup>−</sup><sub>3</sub></span>.</span> When a small amount of acid (H<sub>3</sub>O<sup>+</sup>) enters the blood, which reaction keeps the pH nearly constant?
+KEY c0: <span class="nw">HCO<span class="ss"><sup>−</sup><sub>3</sub></span></span> + H<sub>3</sub>O<sup>+</sup> → H<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O
+c1  c1: H<sub>2</sub>CO<sub>3</sub> + H<sub>3</sub>O<sup>+</sup> → <span class="nw">H<sub>3</sub>CO<span class="ss"><sup>+</sup><sub>3</sub></span></span> + H<sub>2</sub>O
+      why-wrong x1: H₂CO₃ is the acid of the pair. It doesn't take up extra H₃O⁺.
+c2  c2: H<sub>2</sub>CO<sub>3</sub> + OH<sup>−</sup> → <span class="nw">HCO<span class="ss"><sup>−</sup><sub>3</sub></span></span> + H<sub>2</sub>O
+      why-wrong x2: This is how the buffer handles added base, not added acid.
+c3  c3: <span class="nw">HCO<span class="ss"><sup>−</sup><sub>3</sub></span></span> + H<sub>2</sub>O → <span class="nw">CO<span class="ss"><sup>2−</sup><sub>3</sub></span></span> + H<sub>3</sub>O<sup>+</sup>
+      why-wrong x3: This reaction makes more H₃O⁺, which would lower the pH.
+HINT: Added acid must be removed by the base component of the buffer.
+EXPL: The conjugate base <b><span class="nw">HCO<span class="ss"><sup>−</sup><sub>3</sub></span></span> reacts with the added H<sub>3</sub>O<sup>+</sup></b>, converting the strong acid into weak H<sub>2</sub>CO<sub>3</sub>. The reaction of H<sub>2</sub>CO<sub>3</sub> with OH<sup>−</sup> is how the buffer handles added base.
+=== 3A-191 | topic=stoich | d=2 | calc=1
+Q: Consider the reaction below. How many grams of O<sub>2</sub> are needed to react completely with 2.50 mol of magnesium?
+  FIG: {"type":"eq","text":"2 Mg + O<sub>2</sub> → 2 MgO"}
+KEY c0: 40.0 g
+c1  c1: 80.0 g
+      why-wrong x1: This skips the 2:1 ratio (2 Mg per O₂).
+c2  c2: 20.0 g
+      why-wrong x2: This uses 16.00 g/mol, one O atom. O₂ is 32.00 g/mol.
+c3  c3: 160. g
+      why-wrong x3: This flips the ratio (multiplies by 2 instead of ½).
+HINT: Moles Mg → moles O<sub>2</sub> with the 2 : 1 ratio, then moles O<sub>2</sub> → grams using 32.00 g mol⁻¹.
+EXPL: 2.50 mol Mg × (1 mol O<sub>2</sub> / 2 mol Mg) × (32.00 g / 1 mol O<sub>2</sub>) = <b>40.0 g</b>. 80.0 g skips the 2 : 1 ratio, and 20.0 g uses 16.00 g mol⁻¹ (an O atom) instead of 32.00 g mol⁻¹ for O<sub>2</sub>.
+=== 3A-200 | topic=acids | d=2 | calc=1
+Q: A sample of seawater has [H<sub>3</sub>O<sup>+</sup>] = 4.5 × 10<sup>−9</sup> M. Calculate its pH.
+KEY c0: 8.35
+c1  c1: 5.65
+      why-wrong x1: 5.65 is the pOH. pH = −log[H₃O⁺].
+c2  c2: 19.22
+      why-wrong x2: This uses ln instead of log. A pH of 19 is off the usual scale.
+c3  c3: −8.35
+      why-wrong x3: This drops the minus sign in pH = −log[H₃O⁺].
+HINT: pH = −log[H<sub>3</sub>O<sup>+</sup>]. Use the log key, not ln, and check that the answer is between 0 and 14.
+EXPL: pH = −log(4.5 × 10<sup>−9</sup>) = <b>8.35</b> (two sig figs in 4.5 → two decimal places). 19.22 comes from pressing ln instead of log (and is off the pH scale), −8.35 forgets the negative sign, and 5.65 is the pOH.
+=== 3A-206 | topic=measure | d=2 | calc=0
+Q: The graduated cylinder shown has divisions every 0.2 mL. Which reading is correct?
+  FIG: {"type":"cylinder","lo":4,"hi":8,"minor":0.2,"major":1,"level":6.3,"unit":"mL"}
+KEY c0: 6.30 mL
+c1  c1: 6.3 mL
+      why-wrong x1: With 0.2 mL marks, estimate to the hundredths place.
+c2  c2: 6.15 mL
+      why-wrong x2: This treats each small mark as 0.1 mL. These marks are 0.2 mL apart.
+c3  c3: 6.300 mL
+      why-wrong x3: This adds a digit the scale can't support.
+HINT: Each small mark is 0.2 mL, not 0.1 mL. Estimate one digit past the place of the smallest division.
+EXPL: The marks are 0.2 mL apart, so the reading is estimated to the hundredths place. The meniscus is halfway between 6.2 and 6.4 mL: <b>6.30 mL</b>. "6.15 mL" comes from treating each small mark as 0.1 mL.
+=== 3A-208 | topic=measure | d=2 | calc=1
+Q: A student titrating an antacid solution starts with the buret at 0.62 mL. The final reading is shown. What volume of titrant was delivered?
+  FIG: {"type":"buret","lo":14,"hi":17,"minor":0.1,"major":1,"level":15.38,"unit":"mL"}
+KEY c0: 14.76 mL
+c1  c1: 16.00 mL
+      why-wrong x1: This adds the two readings. Volume delivered = final − initial.
+c2  c2: 14.8 mL
+      why-wrong x2: This rounds to one decimal place. Buret readings keep two.
+c3  c3: 15.38 mL
+      why-wrong x3: 15.38 mL is the final reading. Subtract the starting 0.62 mL.
+HINT: Read the final volume to 0.01 mL (buret numbers increase downward), then subtract the initial reading.
+EXPL: Final reading = 15.38 mL. Volume delivered = final − initial = 15.38 mL − 0.62 mL = <b>14.76 mL</b>. "16.00 mL" adds the readings, and "15.38 mL" forgets the starting volume.
+=== 3A-256 | topic=atoms | d=2 | calc=1
+Q: Natural magnesium is a mix of the three isotopes in the table. Calculate the atomic mass that should appear for Mg on the periodic table.
+  FIG: {"type":"table","head":["Isotope","Mass (amu)","Abundance (%)"],"rows":[["Mg-24","23.99","78.99"],["Mg-25","24.99","10.00"],["Mg-26","25.98","11.01"]]}
+KEY c0: 24.31 amu
+c1  c1: 24.99 amu
+      why-wrong x1: This is the simple average. It ignores that Mg-24 is far more abundant.
+c2  c2: 23.99 amu
+      why-wrong x2: This is only the mass of the most common isotope.
+c3  c3: 2431 amu
+      why-wrong x3: This forgets to change the percents to decimals (÷ 100).
+HINT: Weighted average: change each percent to a decimal, multiply by that isotope's mass, then add.
+EXPL: (23.99)(0.7899) + (24.99)(0.1000) + (25.98)(0.1101) = 18.95 + 2.50 + 2.86 = <b>24.31 amu</b>. 24.99 amu is the simple average, which ignores that Mg-24 is far more abundant; 2431 forgets to divide the percents by 100.
+=== 3A-281 | topic=moles | d=2 | calc=1
+Q: Muscles produce lactic acid during hard exercise. Its percent composition is 40.0% carbon, 6.71% hydrogen and 53.3% oxygen. Which is the simplest whole-number formula?
+KEY c0: CH<sub>2</sub>O
+c1  c1: C<sub>3</sub>H<sub>6</sub>O<sub>3</sub>
+      why-wrong x1: C₃H₆O₃ is lactic acid's molecular formula, but it isn't the simplest ratio.
+c2  c2: C<sub>2</sub>H<sub>4</sub>O
+      why-wrong x2: Carbon and oxygen have equal moles, so the ratio can't be 2:1.
+c3  c3: CH<sub>2</sub>O<sub>2</sub>
+      why-wrong x3: O has the same moles as C, not twice as many.
+HINT: Assume 100 g, convert each mass to moles, then divide every mole value by the smallest one.
+EXPL: In 100 g: C 40.0/12.01 = 3.33 mol, H 6.71/1.008 = 6.66 mol, O 53.3/16.00 = 3.33 mol. Dividing by 3.33 gives 1 : 2 : 1, so <b>CH<sub>2</sub>O</b>. C<sub>3</sub>H<sub>6</sub>O<sub>3</sub> is the molecular formula of lactic acid, but it is not the simplest ratio.
+=== 3A-285 | topic=moles | d=2 | calc=0
+Q: Hospitals use helium, oxygen, carbon dioxide and nitrous oxide gases. Which 10.0 g sample contains the greatest number of particles (atoms or molecules)?
+KEY c0: 10.0 g of He
+c1  c1: 10.0 g of O<sub>2</sub>
+      why-wrong x1: O₂ (32 g/mol) is heavier than He, so 10.0 g holds fewer particles.
+c2  c2: 10.0 g of CO<sub>2</sub>
+      why-wrong x2: CO₂ (44 g/mol) is heavy, so 10.0 g holds fewer particles.
+c3  c3: 10.0 g of N<sub>2</sub>O
+      why-wrong x3: N₂O (44 g/mol) is heavy, so 10.0 g holds fewer particles.
+HINT: Particles are proportional to moles. For the same mass, which substance has the smallest molar mass?
+EXPL: moles = mass ÷ molar mass, so the smallest molar mass gives the most moles and particles: He (4.003 g mol⁻¹) gives 2.50 mol, versus 0.313 mol O<sub>2</sub> and about 0.227 mol of CO<sub>2</sub> or N<sub>2</sub>O: <b>10.0 g of He</b>. A heavier molecule means FEWER particles per gram.
+=== 3A-309 | topic=equilibrium | d=2 | calc=0
+Q: Use the energy diagram for a reaction. What is the activation energy of the forward reaction?
+  FIG: {"type":"plot","x":{"label":"Reaction progress","min":0,"max":10,"ticks":[]},"y":{"label":"Potential energy (kJ)","min":0,"max":140,"ticks":[0,20,40,60,80,100,120,140]},"series":[{"pts":[[0.0,40.0],[0.167,40.0],[0.333,40.0],[0.5,40.0],[0.667,40.0],[0.833,40.0],[1.0,40.0],[1.167,40.0],[1.333,40.0],[1.5,40.0],[1.667,40.0],[1.833,40.0],[2.0,40.0],[2.167,40.874],[2.333,43.458],[2.5,47.639],[2.667,53.235],[2.833,60.0],[3.0,67.639],[3.167,75.819],[3.333,84.181],[3.5,92.361],[3.667,100.0],[3.833,106.765],[4.0,112.361],[4.167,116.542],[4.333,119.126],[4.5,120.0],[4.667,119.24],[4.833,116.985],[5.0,113.301],[5.167,108.302],[5.333,102.139],[5.5,95.0],[5.667,87.101],[5.833,78.682],[6.0,70.0],[6.167,61.318],[6.333,52.899],[6.5,45.0],[6.667,37.861],[6.833,31.698],[7.0,26.699],[7.167,23.015],[7.333,20.76],[7.5,20.0],[7.667,20.0],[7.833,20.0],[8.0,20.0],[8.167,20.0],[8.333,20.0],[8.5,20.0],[8.667,20.0],[8.833,20.0],[9.0,20.0],[9.167,20.0],[9.333,20.0],[9.5,20.0],[9.667,20.0],[9.833,20.0],[10.0,20.0]]}],"mono":true,"grid":true,"marks":[[1,47,"Reactants"],[9,27,"Products"]]}
+KEY c0: 80 kJ
+c1  c1: 100 kJ
+      why-wrong x1: 100 kJ is measured from the products. That's the reverse activation energy.
+c2  c2: 120 kJ
+      why-wrong x2: 120 kJ is the height of the peak, not the climb from the reactants.
+c3  c3: 20 kJ
+      why-wrong x3: 20 kJ is the size of ΔH, not the activation energy.
+HINT: Activation energy is the climb from the reactants' energy up to the top of the hill.
+EXPL: Reactants are at 40 kJ and the peak is at 120 kJ: E<sub>a</sub> = 120 − 40 = <b>80 kJ</b>. 100 kJ is measured from the products (that is the reverse E<sub>a</sub>); 120 kJ is the peak height, not the climb.
+=== 3A-316 | topic=nuclear | d=1 | calc=0
+Q: The graph shows the mass of a radioisotope in a sample used for a medical scan. What is the half-life of the isotope?
+  FIG: {"type":"plot","x":{"label":"Time (h)","min":0,"max":30,"ticks":[0,3,6,9,12,15,18,21,24,27,30]},"y":{"label":"Mass of isotope (mg)","min":0,"max":80,"ticks":[0,10,20,30,40,50,60,70,80]},"series":[{"pts":[[0.0,80.0],[0.75,73.36],[1.5,67.272],[2.25,61.688],[3.0,56.569],[3.75,51.874],[4.5,47.568],[5.25,43.62],[6.0,40.0],[6.75,36.68],[7.5,33.636],[8.25,30.844],[9.0,28.284],[9.75,25.937],[10.5,23.784],[11.25,21.81],[12.0,20.0],[12.75,18.34],[13.5,16.818],[14.25,15.422],[15.0,14.142],[15.75,12.968],[16.5,11.892],[17.25,10.905],[18.0,10.0],[18.75,9.17],[19.5,8.409],[20.25,7.711],[21.0,7.071],[21.75,6.484],[22.5,5.946],[23.25,5.453],[24.0,5.0],[24.75,4.585],[25.5,4.204],[26.25,3.856],[27.0,3.536],[27.75,3.242],[28.5,2.973],[29.25,2.726],[30.0,2.5]]}],"mono":true,"grid":true}
+KEY c0: 6 h
+c1  c1: 3 h
+      why-wrong x1: At 3 h, the mass hasn't dropped to half yet.
+c2  c2: 12 h
+      why-wrong x2: 12 h is when it reaches one-fourth.
+c3  c3: 24 h
+      why-wrong x3: 24 h is when it reaches one-sixteenth.
+HINT: Read the starting mass, find half of it on the vertical axis, then read the time on the curve.
+EXPL: The mass starts at 80 mg and falls to 40 mg at <b>6 h</b>; it is 20 mg at 12 h and 10 mg at 18 h, so every 6 h it halves. 12 h is the time to reach one-fourth, and 24 h is the time to reach one-sixteenth.
+=== 3A-341 | topic=naming | d=1 | calc=0
+Q: Metal J reacts with nonmetal X (positions shown). What is the formula of the ionic compound that forms?
+  FIG: {"type":"ptgrid","periods":5,"cells":{"J":[3,2],"X":[3,17]}}
+KEY c0: JX<sub>2</sub>
+c1  c1: JX
+      why-wrong x1: JX assumes the two ions have equal charges.
+c2  c2: J<sub>2</sub>X
+      why-wrong x2: This reverses the ratio by putting the subscript on the wrong ion. J is in group 2 (J²⁺) and X is in group 17 (X⁻), so the charges balance only with two X for each J.
+c3  c3: JX<sub>3</sub>
+      why-wrong x3: JX₃ would need J to be 3+.
+HINT: Use group numbers to get the ion charges (group 2 → 2+, group 17 → 1−), then combine so the charges cancel.
+EXPL: J is in group 2 (magnesium), forming J<sup>2+</sup>; X is in group 17 (chlorine), forming X<sup>−</sup>. Two X<sup>−</sup> balance one J<sup>2+</sup>: <b>JX<sub>2</sub></b>. J<sub>2</sub>X reverses the ratio, the error of putting the subscript on the wrong ion.
+=== 3A-378 | topic=moles | d=2 | calc=1
+Q: The table gives four samples with their molar masses. Which two samples contain the same number of molecules?
+  FIG: {"type":"table","head":["Sample","Formula","Molar mass","Mass (g)"],"rows":[["I","H<sub>2</sub>O","18.02","18.0"],["II","CO<sub>2</sub>","44.01","44.0"],["III","O<sub>2</sub>","32.00","16.0"],["IV","NH<sub>3</sub>","17.03","34.1"]],"cap":"Molar masses in g mol<sup>−1</sup>"}
+KEY c0: I and II
+c1  c1: I and III
+      why-wrong x1: Similar masses don't mean similar molecule counts. Compare moles.
+c2  c2: II and III
+      why-wrong x2: II has 1.00 mol and III has 0.500 mol.
+c3  c3: III and IV
+      why-wrong x3: III has 0.500 mol and IV has 2.00 mol.
+HINT: Equal numbers of molecules means equal numbers of moles. Divide each mass by its molar mass and compare.
+EXPL: I: 18.0/18.02 = 0.999 mol; II: 44.0/44.01 = 1.00 mol; III: 16.0/32.00 = 0.500 mol; IV: 34.1/17.03 = 2.00 mol. Samples <b>I and II</b> each contain 1.00 mol, about 6.02 × 10<sup>23</sup> molecules. Similar masses (I and III) do not mean similar molecule counts.
+=== 3A-400 | topic=equilibrium | d=1 | calc=0
+Q: Which statements are true for any chemical reaction at equilibrium?<br>I. The forward and reverse reactions occur at equal rates.<br>II. The concentrations of reactants and products are equal.<br>III. The forward and reverse reactions have both stopped.
+KEY c0: I only
+c1  c1: I and II only
+      why-wrong x1: Statement II is false. Concentrations stay constant at equilibrium, but they need not be equal.
+c2  c2: I and III only
+      why-wrong x2: Statement III is false. Equilibrium is dynamic, so both reactions keep happening.
+c3  c3: II and III only
+      why-wrong x3: Statement I is true. Equal forward and reverse rates are what define equilibrium.
+HINT: Equilibrium is dynamic. Ask what stays the same and what is still happening.
+EXPL: I is true: at equilibrium the forward and reverse rates are equal, so the amounts stop changing. II is false: the concentrations stay constant, but they are usually not equal to each other. III is false: both reactions keep going (dynamic equilibrium) at the same rate. The answer is <b>I only</b>.
+=== 3A-450 | topic=measure | d=3 | calc=1
+Q: <b>Math practice only; always follow the order and facility policy.</b> An IV pump delivers a drug at 0.80 mg/min. The pharmacy record lists the rate in micrograms per hour (mcg/h; mcg is the health-care symbol for &micro;g). What is the rate in mcg/h?
+KEY c0: 4.8 &times; 10<sup>4</sup> mcg/h
+c1  c1: 13 mcg/h
+      why-wrong x1: The time factor is upside down (dividing by 60). A pump delivers more in an hour than in a minute.
+c2  c2: 0.048 mcg/h
+      why-wrong x2: The mass factor went the wrong way (dividing by 1000). A microgram is smaller than a milligram, so there are more of them.
+c3  c3: 8.0 &times; 10<sup>2</sup> mcg/h
+      why-wrong x3: Only the top unit was converted: 800 mcg is the amount per <i>minute</i>. The bottom (min &rarr; h) must change too.
+HINT: Top: mg &rarr; g &rarr; mcg. Bottom: min &rarr; h, with minutes on top of that factor.
+EXPL: 0.80 mg/min &times; (1 g / 1000 mg) &times; (10<sup>6</sup> mcg / 1 g) &times; (60 min / 1 h) = 48,000 mcg/h = <b>4.8 &times; 10<sup>4</sup> mcg/h</b>. Scientific notation shows the 2 significant figures of 0.80. Check: 800 mcg each minute for 60 minutes is about 50,000 mcg.
+=== 3A-471 | topic=atoms | d=2 | calc=0
+Q: The atomic mass unit (amu) is defined as
+KEY c0: one-twelfth of the mass of a carbon-12 atom
+c1  c1: the mass of one electron
+      why-wrong x1: An electron is about 0.00055 amu, far smaller than the unit.
+c2  c2: the mass of one hydrogen molecule, H<sub>2</sub>
+      why-wrong x2: A hydrogen molecule (H<sub>2</sub>) has a mass of about 2 amu, not 1.
+c3  c3: exactly 1 gram
+      why-wrong x3: A gram is enormous on the atomic scale: 1 amu is only about 1.6605 &times; 10<sup>&minus;24</sup> g.
+HINT: The unit is tied to one particular isotope of carbon.
+EXPL: 1 amu = <b>1/12 of the mass of a carbon-12 atom</b> = 1.6605 &times; 10<sup>&minus;24</sup> g. On this scale protons and neutrons are each about 1 amu.
+=== 3A-579 | topic=bonding | d=1 | calc=0
+Q: Which statement describes the periodic trend in electronegativity?
+KEY c0: It increases across a period and decreases down a group.
+c1  c1: It decreases across a period and increases down a group.
+      why-wrong x1: This reverses both directions. F (upper right) is the most electronegative element.
+c2  c2: It increases across a period and increases down a group.
+      why-wrong x2: Down a group, the valence electrons are farther from the nucleus, so the pull on shared electrons decreases (F 4.0, Cl 3.0).
+c3  c3: It is about the same for every element in a group.
+      why-wrong x3: Values change down a group: F 4.0, Cl 3.0, Br 2.8, I 2.5.
+HINT: Where is fluorine on the periodic table?
+EXPL: Electronegativity <b>increases across a period and decreases down a group</b>; fluorine (4.0) is highest.
+=== 3A-619 | topic=reactions | d=2 | calc=0
+Q: How many electrons are transferred in 2 Al(s) + 3 Sn<sup>2+</sup>(aq) &rarr; 2 Al<sup>3+</sup>(aq) + 3 Sn(s) as written?
+KEY c0: 6
+c1  c1: 3
+      why-wrong x1: 3 is the number lost by one Al atom. There are two Al atoms.
+c2  c2: 2
+      why-wrong x2: 2 is the number gained by one Sn<sup>2+</sup> ion. There are three.
+c3  c3: 12
+      why-wrong x3: This adds the electrons lost and gained. They are the same 6 electrons, counted once.
+HINT: Electrons transferred = electrons lost = electrons gained.
+EXPL: 2 Al &rarr; 2 Al<sup>3+</sup> + 6 e<sup>&minus;</sup>; 3 Sn<sup>2+</sup> + 6 e<sup>&minus;</sup> &rarr; 3 Sn. <b>6</b> electrons.
+=== 3A-633 | topic=stoich | d=2 | calc=1
+Q: Baking soda can neutralize acid: NaHCO<sub>3</sub>(s) + HCl(aq) &rarr; NaCl(aq) + H<sub>2</sub>O(l) + CO<sub>2</sub>(g). What volume of 0.125 M HCl reacts with 0.315 g of NaHCO<sub>3</sub>? (NaHCO<sub>3</sub> 84.01 g/mol)
+KEY c0: 30.0 mL
+c1  c1: 0.0300 mL
+      why-wrong x1: This is the volume in liters with a mL label; multiply liters by 1000 mL/L.
+c2  c2: 0.469 mL
+      why-wrong x2: This multiplies moles by molarity. To get liters, divide moles by molarity (L = mol &divide; M).
+c3  c3: 0.00375 mol
+      why-wrong x3: This stops at moles of HCl; dividing by the molarity gives the volume.
+HINT: liters = moles &divide; molarity.
+EXPL: 0.315 g &times; (1 mol / 84.01 g) &times; (1 mol HCl / 1 mol NaHCO<sub>3</sub>) &times; (1 L / 0.125 mol) = 0.0300 L = <b>30.0 mL</b>.
+=== 3A-648 | topic=stoich | d=2 | calc=1
+Q: A reaction has a theoretical yield of 42.5 g. If the percent yield is 76.0%, what mass of product is collected?
+KEY c0: 32.3 g
+c1  c1: 55.9 g
+      why-wrong x1: This divides by 0.760, which gives more than the theoretical yield.
+c2  c2: 3.23 &times; 10<sup>3</sup> g
+      why-wrong x2: This multiplies by 76.0 without dividing by 100.
+c3  c3: 10.2 g
+      why-wrong x3: This is the mass that was not collected (24.0% of 42.5 g).
+HINT: Rearrange: actual = (percent &divide; 100) &times; theoretical.
+EXPL: Percent yield = (actual &divide; theoretical) &times; 100, so actual = 0.760 &times; 42.5 g = <b>32.3 g</b>. The actual yield is always smaller than the theoretical yield when the percent is under 100%, so dividing by 0.760 (55.9 g) cannot be right.
+=== 3A-669 | topic=energy | d=3 | calc=1
+Q: A 65.0 g piece of iron at 99.2 °C is dropped into 45.0 g of water at 21.0 °C in a calorimeter. Both end at 31.5 °C. How much heat did the iron release? (c for water = 4.184 J/(g·°C))
+KEY c0: q<sub>iron</sub> = &minus;1.98 &times; 10<sup>3</sup> J
+c1  c1: q<sub>iron</sub> = +1.98 &times; 10<sup>3</sup> J
+      why-wrong x1: This is the water's q. The iron released that heat, so &minus;q<sub>iron</sub> = q<sub>water</sub>: the iron's q is negative.
+c2  c2: q<sub>iron</sub> = &minus;2.86 &times; 10<sup>3</sup> J
+      why-wrong x2: This uses the iron's mass (65.0 g) with water's specific heat. Use the water's own mass, 45.0 g.
+c3  c3: q<sub>iron</sub> = &minus;5.93 &times; 10<sup>3</sup> J
+      why-wrong x3: This uses the final temperature, 31.5 °C, as the water's &Delta;T. The water warmed by 10.5 °C.
+HINT: Find the water's heat with q = mc&Delta;T, then use &minus;q<sub>hot</sub> = q<sub>cold</sub>.
+EXPL: q<sub>water</sub> = (45.0 g)(4.184)(10.5 °C) = 1.98 &times; 10<sup>3</sup> J, so <b>q<sub>iron</sub> = &minus;1.98 &times; 10<sup>3</sup> J</b>.
+=== 3A-670 | topic=energy | d=3 | calc=1
+Q: An 85.0 g metal block at 99.5 °C is placed in 45.0 g of water at 22.5 °C in a calorimeter. The final temperature of both is 33.9 °C. What is the specific heat of the metal? (c for water = 4.184 J/(g·°C))
+KEY c0: 0.385 J/(g·°C)
+c1  c1: 0.745 J/(g·°C)
+      why-wrong x1: This uses the final temperature, 33.9 °C, as the metal's &Delta;T.
+c2  c2: 0.727 J/(g·°C)
+      why-wrong x2: This uses the water's mass for the metal. Use the metal's own mass, 85.0 g, with its own &Delta;T.
+c3  c3: 2.22 J/(g·°C)
+      why-wrong x3: This uses the water's &Delta;T (11.4 °C) for the metal. The metal cooled by 65.6 °C.
+HINT: Heat lost by the metal = heat gained by the water. Each one gets its own m and &Delta;T.
+EXPL: c = &minus;(2.15 &times; 10<sup>3</sup> J) &divide; (85.0 g &times; &minus;65.6 °C) = <b>0.385 J/(g·°C)</b>, copper.
+=== 3A-729 | topic=solutions | d=2 | calc=1
+Q: A rural Valley well contains 0.00865 mg of arsenic per liter. What is this concentration in ppb?
+KEY c0: 8.65 ppb
+c1  c1: 8.65 &times; 10<sup>3</sup> ppb
+      why-wrong x1: This multiplies by 10<sup>6</sup>, which converts mg to ng and gives ppt, not ppb.
+c2  c2: 8.65 &times; 10<sup>&minus;6</sup> ppb
+      why-wrong x2: This divides by 1000; going from mg to the smaller &mu;g makes the number larger.
+c3  c3: 0.00865 ppb
+      why-wrong x3: 0.00865 mg/L is the value in ppm. ppb needs &mu;g/L.
+HINT: Convert mg/L to &mu;g/L.
+EXPL: In dilute water, 1 ppb &asymp; 1 &mu;g per liter. Convert mg to &mu;g (1 mg = 1000 &mu;g): 0.00865 mg/L &times; 1000 &mu;g/mg = 8.65 &mu;g/L = <b>8.65 ppb</b>.
+=== 3A-786 | topic=equilibrium | d=2 | calc=0
+Q: A blood sample is cooled from 37 °C to 27 °C. Using the rule of thumb that many reaction rates about double for every 10 °C rise, about how fast do the sample's enzyme-catalyzed reactions run at 27 °C compared with 37 °C?
+KEY c0: About half as fast
+c1  c1: About twice as fast
+      why-wrong x1: Cooling slows reactions down; twice as fast would be for 10 °C warmer.
+c2  c2: About the same
+      why-wrong x2: A 10 °C change has a large effect on most reaction rates.
+c3  c3: About one-tenth as fast
+      why-wrong x3: The rule of thumb is a factor of about 2 for each 10 °C, not a factor of 10.
+HINT: Is the sample warmer or cooler, and by how many 10 °C steps?
+EXPL: By the rule of thumb, each 10 °C change doubles or halves the rate. Cooling from 37 °C to 27 °C is one 10 °C step down, so the reactions run <b>about half as fast</b>.
+=== 3B-149 | topic=nucleic | d=2 | calc=0
+Q: A point mutation changes the codon UGG (tryptophan) to UGA (a stop codon). What is the most likely result?
+KEY c0: The protein is shorter because translation stops early.
+c1  c1: Tryptophan is replaced by another amino acid.
+      why-wrong x1: Replacing tryptophan with another amino acid is a missense mutation. UGA does not code for an amino acid.
+c2  c2: The protein is longer than normal.
+      why-wrong x2: A stop codon ends translation; it cannot add amino acids. The protein would not be longer.
+c3  c3: There is no effect because the codon still starts with UG.
+      why-wrong x3: The whole codon matters, not just the first two letters. UGA has a very different meaning from UGG.
+HINT: What does a stop codon tell the ribosome to do?
+EXPL: A new stop codon ends translation early (a nonsense mutation), giving a <b>shortened, usually nonfunctional protein</b>. A swap of one amino acid would be a missense mutation.
+=== 3B-210 | topic=isomers | d=2 | calc=0
+Q: How many constitutional isomers have the formula C<sub>4</sub>H<sub>9</sub>Cl?
+KEY c0: 4
+c1  c1: 2
+      why-wrong x1: This uses only the straight butane skeleton. C<sub>4</sub>H<sub>10</sub> also has a branched skeleton.
+c2  c2: 3
+      why-wrong x2: One isomer is missing. On the branched skeleton, the Cl can go on an end CH<sub>3</sub> carbon or on the central carbon.
+c3  c3: 5
+      why-wrong x3: One of these is a repeat. 3-Chlorobutane, for example, is just 2-chlorobutane numbered from the other end.
+HINT: C<sub>4</sub>H<sub>10</sub> has two skeletons (butane and isobutane). How many different carbons can the Cl replace an H on in each?
+EXPL: Butane skeleton: 1-chlorobutane, 2-chlorobutane. Isobutane skeleton: 1-chloro-2-methylpropane (isobutyl chloride) and 2-chloro-2-methylpropane (tert-butyl chloride). Total <b>4</b>. Choosing 2 forgets the branched skeleton.
+=== 3B-231 | topic=properties | d=1 | calc=0
+Q: Acetic acid reacts with methylamine as shown below. Which statement is correct?
+  FIG: {"type":"eq","text":"CH<sub>3</sub>COOH + CH<sub>3</sub>NH<sub>2</sub> → CH<sub>3</sub>COO<sup>−</sup> + <span class=\"nw\">CH<sub>3</sub>NH<span class=\"ss\"><sup>+</sup><sub>3</sub></span></span>"}
+KEY c0: CH<sub>3</sub>COOH is the acid; CH<sub>3</sub>NH<sub>2</sub> is the base.
+c1  c1: CH<sub>3</sub>NH<sub>2</sub> is the acid; CH<sub>3</sub>COOH is the base.
+      why-wrong x1: This is reversed. Follow the H<sup>+</sup>: the carboxylic acid loses it and the amine gains it.
+c2  c2: Both CH<sub>3</sub>COOH and CH<sub>3</sub>NH<sub>2</sub> act as acids.
+      why-wrong x2: If both donated H<sup>+</sup>, nothing would accept it. In an acid–base reaction one partner donates and the other accepts.
+c3  c3: Both CH<sub>3</sub>COOH and CH<sub>3</sub>NH<sub>2</sub> act as bases.
+      why-wrong x3: If both accepted H<sup>+</sup>, nothing would donate it. One partner must give up an H<sup>+</sup>.
+HINT: Follow the H<sup>+</sup>: the acid donates it, the base accepts it.
+EXPL: Acetic acid loses H<sup>+</sup> (becoming acetate), and methylamine gains it (becoming methylammonium). <b>Carboxylic acid = acid, amine = base.</b>
+=== 3B-249 | topic=chirality | d=3 | calc=0
+Q: How many chiral carbons are in (CH<sub>3</sub>)<sub>2</sub>CHCH(OH)CH<sub>2</sub>CH(CH<sub>3</sub>)<sub>2</sub>?
+KEY c0: 1
+c1  c1: 2
+      why-wrong x1: That count likely includes one of the CH(CH<sub>3</sub>)<sub>2</sub> carbons. Each of those carries two identical CH<sub>3</sub> groups, so it is not chiral.
+c2  c2: 3
+      why-wrong x2: That counts both CH(CH<sub>3</sub>)<sub>2</sub> carbons, but each one has two identical CH<sub>3</sub> groups. Check which CH carbon has four truly different groups.
+c3  c3: 0
+      why-wrong x3: Look at the carbon bearing –OH. Compare the two carbon groups on each side of it: are they identical or different?
+HINT: A CH bonded to two CH<sub>3</sub> groups cannot be chiral. Check the carbon bearing –OH carefully.
+EXPL: Only the C–OH carbon has four different groups (H, OH, isopropyl, isobutyl): <b>1</b>. Each CH(CH<sub>3</sub>)<sub>2</sub> carbon carries two identical methyl groups, so it is not chiral, which is the trap behind 3.
+=== 3B-260 | topic=carbs | d=3 | calc=0
+Q: Maltose is two glucose units joined by an α(1→4) linkage. Which statement correctly describes carbon 1 of each glucose unit in maltose?
+KEY c0: The linked C1 is an acetal; the other C1 is a hemiacetal
+c1  c1: Both C1 carbons are acetals, so maltose is not reducing
+      why-wrong x1: Only one C1 is used in the α(1→4) bond. The second glucose's C1 keeps its –OH, so maltose is a reducing sugar.
+c2  c2: Both C1 carbons are hemiacetals, held by an ester bond
+      why-wrong x2: A glycosidic bond is an ether-type C–O–C link, not an ester. Also, the C1 in the glycosidic bond carries two –OR groups, not one.
+c3  c3: The linked C1 is a hemiacetal; the other C1 is an acetal
+      why-wrong x3: This has the two C1 carbons reversed. The C1 in the glycosidic bond carries two –OR groups; which C1 still has a free –OH?
+HINT: A hemiacetal carbon has one –OH and one –OR; an acetal carbon has two –OR groups. Which C1 is tied up in the glycosidic bond?
+EXPL: C1 of the first glucose bears the ring O and the glycosidic O (two –OR groups): an <b>acetal</b>. C1 of the second glucose still has a free –OH and the ring O: a <b>hemiacetal</b>, which can open to an aldehyde, so maltose is a reducing sugar.
+=== 3B-266 | topic=lipids | d=2 | calc=0
+Q: During β-oxidation, a fatty acyl chain is oxidized at its β carbon. Counting the carboxyl carbon as C1, which carbon is the β carbon?
+KEY c0: C3, two carbons away from the carboxyl carbon
+c1  c1: C2, the carbon right next to the carboxyl carbon
+      why-wrong x1: C2, next to the carboxyl carbon, is the α carbon. β is the next letter after α.
+c2  c2: C1, the carboxyl (acyl) carbon itself
+      why-wrong x2: The carboxyl carbon itself gets no Greek letter; lettering starts on the carbon attached to it.
+c3  c3: the CH<sub>3</sub> carbon at the far end of the chain
+      why-wrong x3: The CH<sub>3</sub> carbon at the far end is the ω (omega) carbon, the last letter, not β.
+HINT: Greek letters start with the carbon attached to the carboxyl carbon: α first, then β.
+EXPL: The α carbon is C2 (attached to the carboxyl carbon) and the <b>β carbon is C3</b>. The CH<sub>3</sub> carbon at the far end is the ω (omega) carbon, used to name omega-3 and omega-6 fatty acids.
+=== 3B-377 | topic=acids_esters | d=2 | calc=0
+Q: Saponification of ethyl propanoate, CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>2</sub>CH<sub>3</sub>, with NaOH yields which two products?
+KEY c0: sodium propanoate and ethanol
+c1  c1: propanoic acid and ethanol
+      why-wrong x1: Propanoic acid forms in acid hydrolysis. In NaOH, the acid is neutralized as soon as it forms.
+c2  c2: sodium ethanoate and 1-propanol
+      why-wrong x2: This swaps the sides. The C=O side, CH<sub>3</sub>CH<sub>2</sub>CO–, has three carbons; the group on the single-bonded O has two.
+c3  c3: propanoic acid and sodium ethoxide
+      why-wrong x3: An acid and sodium ethoxide cannot exist together in water; the base would take the acid's H<sup>+</sup>. Which fragment carries the Na<sup>+</sup>?
+HINT: In base hydrolysis (saponification), the acid part comes out as a salt. Which side of the ester is the acid part?
+EXPL: Saponification splits the ester at the C–O next to the C=O. The C=O side becomes the carboxylate salt CH<sub>3</sub>CH<sub>2</sub>COO<sup>−</sup>Na<sup>+</sup> and the O–alkyl side becomes CH<sub>3</sub>CH<sub>2</sub>OH: <b>sodium propanoate and ethanol</b>. Propanoic acid itself would be the acid-hydrolysis product.
+=== 3B-407 | topic=structure | d=3 | calc=0
+Q: Lidocaine, a local anesthetic used in dentistry, is (CH<sub>3</sub>)<sub>2</sub>C<sub>6</sub>H<sub>3</sub>–NH–CO–CH<sub>2</sub>–N(CH<sub>2</sub>CH<sub>3</sub>)<sub>2</sub>. Which two nitrogen-containing groups does it have?
+KEY c0: an amide and a 3° amine
+c1  c1: an amide and a 2° amine
+      why-wrong x1: The –NH– is bonded to a C=O carbon, which makes it an amide, not an amine. Then count carbons on the other N.
+c2  c2: an ester and a 3° amine
+      why-wrong x2: An ester needs –COO–, a C=O next to an oxygen. The C=O here is bonded to nitrogen.
+c3  c3: a 1° amine and a ketone
+      why-wrong x3: There is no –NH<sub>2</sub>, so no 1° amine. The C=O carbon is bonded to N, so it is not a ketone either.
+HINT: Is each N bonded to a C=O carbon? If not, count the carbons on that N.
+EXPL: The –NH– is bonded to a C=O carbon, so it is an <b>amide</b> (not a 2° amine). The other N carries three carbons (CH<sub>2</sub> and two ethyls) with no C=O: a <b>3° amine</b>. There is no –COO–, so no ester.
+=== 3B-474 | topic=metabolism | d=1 | calc=0
+Q: When a sprinter's leg muscles contract, the energy released by ATP hydrolysis is converted mainly into which form of energy?
+KEY c0: mechanical energy
+c1  c1: nuclear energy
+      why-wrong x1: Nuclear energy comes from changes in atomic nuclei, as in a power plant. Muscle contraction involves no nuclear reactions.
+c2  c2: light energy
+      why-wrong x2: Some organisms such as fireflies turn ATP energy into light, but muscles do not. Think about what muscles do.
+c3  c3: chemical energy stored as glucose
+      why-wrong x3: Making glucose would store energy, not use it. A contracting muscle is doing work.
+HINT: Muscle contraction makes the body move. What type of energy is associated with motion?
+EXPL: Muscle proteins use the chemical energy of ATP hydrolysis to slide past each other, producing movement: chemical energy becomes <b>mechanical energy</b> (with some lost as heat).
+=== 3B-492 | topic=metabolism | d=2 | calc=0
+Q: In the electron transport chain shown, electrons from FADH<sub>2</sub> enter through complex II and go directly to coenzyme Q. Why does each FADH<sub>2</sub> give fewer ATP (1.5) than each NADH (2.5)?
+  FIG: {"type":"path","title":"Electron transport","nodes":["NADH","Complex I","Coenzyme Q","Complex III","Cytochrome c","Complex IV","O₂ → H₂O"],"ins":[[],["FADH₂ (complex II)"],[],[],[],[]],"outs":[[],["H⁺ pumped"],[],["H⁺ pumped"],[],["H⁺ pumped"]],"step":46}
+KEY c0: Its electrons bypass complex I, so fewer H<sup>+</sup> are pumped
+c1  c1: Its electrons go to O<sub>2</sub> without passing complex IV
+      why-wrong x1: Electrons from FADH<sub>2</sub> still pass through complex IV on their way to O<sub>2</sub>. Look at where they enter the chain instead.
+c2  c2: FADH<sub>2</sub> carries only one electron instead of two
+      why-wrong x2: FADH<sub>2</sub> and NADH each deliver 2 electrons. The difference is in how many H<sup>+</sup> pumping complexes those electrons pass through.
+c3  c3: FADH<sub>2</sub> makes ATP only by substrate-level phosphorylation
+      why-wrong x3: FADH<sub>2</sub> feeds the electron transport chain, so its ATP comes from oxidative phosphorylation. Substrate-level phosphorylation does not use FADH<sub>2</sub>.
+HINT: Count the H<sup>+</sup> pumping steps each type of electron passes through on the way to O<sub>2</sub>.
+EXPL: NADH electrons pass all three pumping sites (complexes I, III and IV). FADH<sub>2</sub> electrons enter at coenzyme Q, <b>skipping complex I</b>, so fewer H<sup>+</sup> are pumped and ATP synthase makes less ATP. Both carriers deliver 2 electrons, and both still pass through complex IV to O<sub>2</sub>.
+=== 3B-501 | topic=hydrocarbons | d=2 | calc=0
+Q: 2-Methyl-2-butene, shown, reacts with HBr. What is the <b>major</b> product?
+  STEM-STRUCT: DRAWN CC=C(C)C
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN CCC(C)(C)Br
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN CC(C)C(C)Br
+      why-wrong x1: This puts Br on the double-bond carbon that had an H: the anti-Markovnikov product. Br goes to the carbon with fewer H atoms.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN CC(Br)C(C)(C)Br
+      why-wrong x2: This has two Br atoms, which would require Br<sub>2</sub>. HBr adds one H and one Br.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN CCC(C)(C)O
+      why-wrong x3: This has an OH group, which would come from water. HBr adds an H and a Br.
+HINT: Markovnikov's rule: the H goes to the double-bond carbon that already has more H atoms.
+EXPL: The C=C carbons are C2 (no H) and C3 (one H). H adds to C3 and Br adds to the more substituted C2: <b>2-bromo-2-methylbutane</b>. Br on C3 is the anti-Markovnikov product. Two Br atoms would need Br<sub>2</sub>, and an OH would need water.
+=== 3B-529 | topic=alcohols | d=1 | calc=0
+Q: Which of the alcohols shown is a <b>tertiary (3°)</b> alcohol?
+  STEM-STRUCT: DRAWN CC(C)CO cap=I
+  STEM-STRUCT: DRAWN CC1(O)CCCC1 cap=II
+  STEM-STRUCT: DRAWN CC1CCCC1O cap=III
+  STEM-STRUCT: DRAWN CCC(C)O cap=IV
+KEY c0: II
+c1  c1: I
+      why-wrong x1: In I the C–OH carbon is a CH<sub>2</sub> bonded to only one carbon, so it is primary. The branch is one carbon away.
+c2  c2: III
+      why-wrong x2: In III the C–OH carbon is bonded to two ring carbons and still has an H, so it is secondary. The methyl is on the neighboring carbon.
+c3  c3: IV
+      why-wrong x3: In IV the C–OH carbon is bonded to two carbons (a CH<sub>3</sub> and a CH<sub>2</sub>), so it is secondary.
+HINT: Go to the carbon that holds the OH and count how many carbons are bonded to it.
+EXPL: In II the C–OH carbon is bonded to three carbons (the methyl and two ring carbons), so <b>II is 3°</b>. I is 1° (the OH carbon has one carbon neighbor, even though the chain is branched), and III and IV are 2°. Branching elsewhere in the molecule does not matter; only the C–OH carbon counts.
+=== 3B-558 | topic=structure | d=2 | calc=0
+Q: Diethyl ether was one of the first surgical anesthetics. What is the approximate C–O–C bond angle at oxygen <b>a</b>?
+  STEM-STRUCT: DRAWN CC[O:1]CC labels=a (atom map :1=a, :2=b, :3=c ... marks the labeled atom)
+KEY c0: about 109.5° (bent)
+c1  c1: about 120° (bent)
+      why-wrong x1: 120° goes with three electron groups. Oxygen <b>a</b> has two bonds plus two lone pairs, so count those too.
+c2  c2: about 180° (linear)
+      why-wrong x2: 180° counts only the two bonds and ignores the two lone pairs on oxygen. Lone pairs push the bonds closer together.
+c3  c3: about 90° (bent)
+      why-wrong x3: 90° is not a normal angle around oxygen. Count all of oxygen's electron groups, bonds and lone pairs.
+HINT: Oxygen has two bonds and two lone pairs. Count all four groups, not just the bonds.
+EXPL: Oxygen a has two bonds and two lone pairs, four groups arranged roughly tetrahedrally, so the C–O–C angle is <b>about 109.5°</b> (bent; the real value is a bit larger). Choosing 180° counts only the two bonds and ignores the lone pairs.
+=== 3B-564 | topic=isomers | d=3 | calc=0
+Q: How are compounds I and II related?
+  STEM-STRUCT: DRAWN CCCC(C)CC cap=I
+  STEM-STRUCT: DRAWN CCCC(C)CC cap=II
+KEY c0: the same compound drawn two ways
+c1  c1: constitutional isomers
+      why-wrong x1: Find the longest chain in II: it turns the corner through the ethyl branch. Then compare the names.
+c2  c2: different compounds, not isomers
+      why-wrong x2: Count the carbons: both are C<sub>7</sub>H<sub>16</sub>. Ask whether the connections really differ.
+c3  c3: cis–trans isomers
+      why-wrong x3: Cis–trans isomers need a C=C or a ring. These are open-chain alkanes.
+HINT: Find the longest continuous carbon chain in each drawing, even if it turns a corner at a branch.
+EXPL: In II the longest chain runs through the "ethyl" branch: it is six carbons with a CH<sub>3</sub> on C3, exactly like I. Both are 3-methylhexane, so they are <b>the same compound drawn two ways</b>. Students who only compare how the drawings look call them constitutional isomers.
+=== 3B-566 | topic=isomers | d=2 | calc=0
+Q: How are compounds I and II related?
+  STEM-STRUCT: DRAWN C1CCCCC1 cap=I
+  STEM-STRUCT: DRAWN C=CCCCC cap=II
+KEY c0: constitutional isomers
+c1  c1: the same compound drawn two ways
+      why-wrong x1: I is a ring and II is an open chain with a C=C. Different connections cannot be the same compound.
+c2  c2: different compounds, not isomers
+      why-wrong x2: Count the H: a ring and a C=C each remove two H from the alkane formula, so both are C<sub>6</sub>H<sub>12</sub>.
+c3  c3: cis–trans isomers
+      why-wrong x3: Cis–trans isomers need the same connections. A ring and an open chain are connected differently. Also, a C=C at the end of a chain has no cis or trans form.
+HINT: A ring and a double bond each remove two H atoms from the alkane formula. Compare the molecular formulas.
+EXPL: Cyclohexane (I) and 1-hexene (II) are both C<sub>6</sub>H<sub>12</sub>, but one has a ring and the other a C=C: <b>constitutional isomers</b>. Students who think a ring compound can only be an isomer of another ring miss this.
+=== 3B-582 | topic=structure | d=2 | calc=1
+Q: Acetaminophen (Tylenol) is shown. Using the atomic masses in the table, what is its molar mass?
+  STEM-STRUCT: DRAWN CC(=O)Nc1ccc(O)cc1
+  FIG: {"type":"table","head":["Element","Atomic mass"],"rows":[["H","1.008"],["C","12.01"],["N","14.01"],["O","16.00"]]}
+KEY c0: 151.16 g mol⁻¹
+c1  c1: 144.11 g mol⁻¹
+      why-wrong x1: That total uses only the H atoms written on O or N. Add the hidden H atoms on the carbons too, enough to give each carbon four bonds.
+c2  c2: 139.15 g mol⁻¹
+      why-wrong x2: That total is one carbon short. Every corner and line end is a carbon, including ring corners and the ends of short branches.
+c3  c3: 80.00 g mol⁻¹
+      why-wrong x3: That is what you get by adding atomic numbers. Use the atomic masses from the table, multiplied by the number of each atom.
+HINT: Every corner and line end is a carbon. Fill in enough hidden H atoms to give each carbon four bonds, then add the masses.
+EXPL: Counting every carbon and every hidden H gives C<sub>8</sub>H<sub>9</sub>NO<sub>2</sub>: 8(12.01) + 9(1.008) + 1(14.01) + 2(16.00) = <b>151.16 g mol⁻¹</b>. 144.11 g mol⁻¹ counts only the H atoms written on O or N and forgets the H atoms hidden on the carbons (the most common mistake); 139.15 g mol⁻¹ misses one carbon (count every corner and line end); 80 g mol⁻¹ adds atomic numbers instead of atomic masses.
+=== 3B-606 | topic=properties | d=3 | calc=0
+Q: Water and N,N-dimethylethylamine (a 3° amine) are shown with a dotted line between them. Is the dotted line a hydrogen bond?
+  STEM-STRUCT: DRAWN CCN(C)C.[H]O[H] {dotted line H...N}
+KEY c0: Yes. The H on oxygen points at the lone pair on the nitrogen.
+c1  c1: No. A 3° amine has no N–H, so it cannot take part in hydrogen bonding.
+      why-wrong x1: A 3° amine cannot donate, but its N still has a lone pair that can accept an H from water.
+c2  c2: No. Hydrogen bonds can form only between two oxygen atoms.
+      why-wrong x2: Hydrogen bonds can involve N and F as well as O, as donors or as acceptors.
+c3  c3: Yes. The N is bonded to three carbons, which makes it δ+.
+      why-wrong x3: Nitrogen is more electronegative than carbon, so it is δ−, not δ+. It is the N lone pair that matters here.
+HINT: A 3° amine cannot donate an H. Can it still accept one?
+EXPL: Water supplies the δ+ H, and the amine nitrogen still has a <b>lone pair to accept it</b>, so this is a hydrogen bond. The tempting "no" mixes up donating and accepting: a 3° amine cannot hydrogen bond to <i>itself</i>, but it does hydrogen bond with water, which is why small 3° amines are water-soluble.
+=== 3B-647 | topic=chirality | d=3 | calc=0
+Q: Carvone, shown, gives spearmint its smell; its mirror image smells like caraway. Which labeled carbon is the chiral carbon?
+  STEM-STRUCT: DRAWN C=[C:2](C)[CH:3]1CC=[C:1](C)C(=O)[CH2:4]1 labels=a,c,b,d (atom map :1=a, :2=b, :3=c ... marks the labeled atom)
+KEY c0: carbon <i>c</i>
+c1  c1: carbon <i>a</i>
+      why-wrong x1: Carbon <i>a</i> is part of the ring C=C double bond, so it has only three groups attached.
+c2  c2: carbon <i>b</i>
+      why-wrong x2: Carbon <i>b</i> is part of the side-chain C=C double bond, so it has only three groups attached.
+c3  c3: carbon <i>d</i>
+      why-wrong x3: Carbon <i>d</i> is a ring CH<sub>2</sub>. Its two identical H atoms mean it cannot have four different groups.
+HINT: In a ring, compare the two paths around the ring from each carbon. Are they the same?
+EXPL: Carbon <i>c</i> has H, the isopropenyl group and two <i>different</i> ring paths (one toward the C=O, one toward the C=C), so it is <b>chiral</b>. Carbon <i>d</i> is a CH<sub>2</sub> (two identical H atoms). Carbon <i>a</i> (ring C=C) and carbon <i>b</i> (the C=C of the side chain) each have a double bond, so neither has four groups.
+=== 3B-711 | topic=amines | d=3 | calc=0
+Q: What is the product of the reaction of ethylenediamine (1,2-ethanediamine) shown?
+  STEM-STRUCT: DRAWN NCCN
+  STEM-STRUCT: --[excess HCl]-->
+KEY c0: §A
+      DRAWN-CHOICE: DRAWN [Cl-].[Cl-].[NH3+]CC[NH3+]
+c1  c1: §B
+      DRAWN-CHOICE: DRAWN NCC[NH3+].[Cl-]
+      why-wrong x1: This protonates only one –NH<sub>2</sub>, which is what one equivalent of HCl would do. With excess acid, check the other nitrogen too.
+c2  c2: §C
+      DRAWN-CHOICE: DRAWN ClNCCNCl
+      why-wrong x2: This drawing bonds Cl to each N. HCl gives H<sup>+</sup> to the nitrogen; chloride stays a separate ion.
+c3  c3: §D
+      DRAWN-CHOICE: DRAWN NCCCl.[Cl-].[NH4+]
+      why-wrong x3: This drawing replaces an –NH<sub>2</sub> with Cl and releases NH<sub>4</sub><sup>+</sup>. HCl does not break C–N bonds; it is an acid–base reaction.
+HINT: Each amine group is a base. With excess acid, how many N atoms are protonated?
+EXPL: Both –NH<sub>2</sub> groups accept H<sup>+</sup>, so with excess HCl the product is <b>ethylenediammonium chloride</b>, with two –<span class="nw">NH<span class="ss"><sup>+</sup><sub>3</sub></span></span> groups and two Cl<sup>−</sup> ions. Protonating only one N would be the product with just one HCl. HCl does not make N–Cl or C–Cl bonds.
+=== 3B-729 | topic=carbs | d=3 | calc=0
+Q: How many chiral carbons are in the ring form of glucose shown?
+  FIG: {"type":"haworth","sugar":"glucose","anomer":"b","nums":true}
+KEY c0: 5
+c1  c1: 4
+      why-wrong x1: 4 is the count for open-chain glucose. In the ring, C1 now has four different groups (ring O, OH, H and C2).
+c2  c2: 6
+      why-wrong x2: 6 counts C6 as well, but C6 is a –CH<sub>2</sub>OH with two H atoms, so it is not chiral.
+c3  c3: 3
+      why-wrong x3: 3 misses some ring carbons. Check C1 through C5 one at a time for four different groups.
+HINT: Ring closure makes C1 a new chiral carbon. Check C1 through C5; C6 is a CH<sub>2</sub>OH.
+EXPL: In the open chain, glucose has 4 chiral carbons (C2–C5). Closing the ring turns C1 into the anomeric carbon with four different groups (ring O, OH, H, C2), so the ring form has <b>5</b>. C6 (CH<sub>2</sub>OH) is not chiral.
+=== 3B-744 | topic=carbs | d=2 | calc=0
+Q: Which Haworth projection shows <b>α-D-galactopyranose</b>?
+  FIG: {"type":"haworth","items":[{"sugar":"mannose","anomer":"a","cap":"I"},{"sugar":"galactose","anomer":"a","cap":"II"},{"sugar":"galactose","anomer":"b","cap":"III"},{"sugar":"glucose","anomer":"a","cap":"IV"}]}
+KEY c0: II
+c1  c1: III
+      why-wrong x1: Structure III has its C1 –OH pointing up, which is β for a D-sugar.
+c2  c2: IV
+      why-wrong x2: Structure IV has its C4 –OH pointing down, as in glucose. Galactose differs from glucose at C4.
+c3  c3: I
+      why-wrong x3: Structure I has its C2 –OH pointing up, which makes it mannose. Galactose differs from glucose at C4, not C2.
+HINT: α: C1 –OH down. Galactose differs from glucose only at C4 (–OH up).
+EXPL: α-D-galactopyranose has its anomeric (C1) –OH <b>down</b> and its C4 –OH <b>up</b>: structure <b>II</b>. The β form has C1 –OH up, α-glucose has C4 –OH down, and α-mannose differs at C2.
+=== 3B-756 | topic=proteins | d=3 | calc=0
+Q: Aspartic acid is shown in its uncharged form. What is its net charge in a strongly basic solution, at a pH far above its pI?
+  STEM-STRUCT: DRAWN NC(CC(=O)O)C(=O)O
+KEY c0: −2
+c1  c1: −1
+      why-wrong x1: −1 counts only one carboxylate. Aspartic acid has a second –COOH in its side chain.
+c2  c2: 0
+      why-wrong x2: 0 balances one + and one − charge, as near the pI. Far above the pI the amino group is neutral –NH<sub>2</sub>.
+c3  c3: +1
+      why-wrong x3: A positive charge needs –NH<sub>3</sub><sup>+</sup>, which is lost at high pH. In strong base the groups lose H<sup>+</sup>.
+HINT: Far above the pI every –COOH loses H<sup>+</sup> and every –<span class="nw">NH<span class="ss"><sup>+</sup><sub>3</sub></span></span> loses H<sup>+</sup> (becomes neutral –NH<sub>2</sub>).
+EXPL: Far above the pI both carboxyl groups become –COO<sup>−</sup> and the amino group is neutral –NH<sub>2</sub>: net charge <b>−2</b>. Answering −1 forgets the side-chain carboxyl.
+=== 3B-782 | topic=chirality | d=3 | calc=0
+Q: What is the relationship between molecules I and II?
+  STEM-STRUCT: DRAWN C[C@@H](O)[C@@H](C)Cl cap=I {CIP R,R}
+  STEM-STRUCT: DRAWN C[C@@H](O)[C@@H](C)Cl cap=II {CIP R,R}
+KEY c0: identical (same compound)
+c1  c1: enantiomers
+      why-wrong x1: II looks reversed left to right, but every wedge has also become a dash. A true mirror image keeps the wedges; ask what flipping I over would look like.
+c2  c2: diastereomers
+      why-wrong x2: Diastereomers differ at only some chiral carbons. Try turning I over like a pancake and compare it with II at both carbons.
+c3  c3: constitutional isomers
+      why-wrong x3: Constitutional isomers have atoms connected in a different order. I and II have the same atoms bonded the same way; only wedges and dashes differ.
+HINT: Flipping a molecule over like a pancake reverses left–right AND turns every wedge into a dash. Does II match I after a flip?
+EXPL: II looks like a mirror image because left and right are reversed, but every wedge has also become a dash. That is exactly what you see after turning the molecule over (a 180° turn out of the page), so I and II are <b>identical (same compound)</b>. A true mirror image would reverse the layout but keep the wedges.
+=== 3B-823 | topic=enzymes | d=1 | calc=0
+Q: The table lists four enzymes and the helper each one needs to be active. Which two helpers are coenzymes made from vitamins?
+  FIG: {"type":"table","head":["Enzyme","Required helper"],"rows":[["carbonic anhydrase","Zn<sup>2+</sup>"],["lactate dehydrogenase","NAD<sup>+</sup>"],["pyruvate carboxylase","biotin"],["hexokinase","Mg<sup>2+</sup>"]]}
+KEY c0: NAD<sup>+</sup> and biotin
+c1  c1: Zn<sup>2+</sup> and Mg<sup>2+</sup>
+      why-wrong x1: Zn<sup>2+</sup> and Mg<sup>2+</sup> are metal ions. Inorganic cofactors come from minerals, not vitamins.
+c2  c2: Zn<sup>2+</sup> and NAD<sup>+</sup>
+      why-wrong x2: NAD<sup>+</sup> is a vitamin-derived coenzyme, but Zn<sup>2+</sup> is an inorganic metal ion from minerals.
+c3  c3: Mg<sup>2+</sup> and biotin
+      why-wrong x3: Biotin is a vitamin-derived coenzyme, but Mg<sup>2+</sup> is an inorganic metal ion from minerals.
+HINT: Cofactors can be metal ions or small organic molecules. Only the organic ones (coenzymes) come from vitamins.
+EXPL: <b>NAD<sup>+</sup></b> (from niacin) and <b>biotin</b> (vitamin B<sub>7</sub>) are small organic molecules, so they are coenzymes derived from vitamins. Zn<sup>2+</sup> and Mg<sup>2+</sup> are inorganic metal-ion cofactors that come from minerals in the diet, not vitamins.
+=== 3B-853 | topic=proteins | d=2 | calc=1
+Q: Glutamic acid (side chain –CH<sub>2</sub>CH<sub>2</sub>COOH) has a pI of 3.2. One sample is placed in an electrophoresis buffer at a pH equal to its pI, and another in a buffer at physiological pH (7.4). How does it move in each?
+KEY c0: At the pI it does not move; at pH 7.4 it moves toward the + electrode
+c1  c1: At the pI it moves toward the − electrode; at pH 7.4 it does not move
+      why-wrong x1: At pH = pI the net charge is zero, so the amino acid does not move. And pH 7.4 is far from its pI of 3.2.
+c2  c2: It moves toward the + electrode in both of the two buffers
+      why-wrong x2: At the pI the net charge is zero, so there is no movement in that buffer.
+c3  c3: At the pI it does not move; at pH 7.4 it moves toward the − electrode
+      why-wrong x3: The first part is right, but check the second. pH 7.4 is above the pI, so think about whether the net charge is positive or negative.
+HINT: At pH = pI the net charge is zero. When the pH is above the pI, is the net charge positive or negative?
+EXPL: At its pI the amino acid has <b>zero net charge</b>, so it does not move. pH 7.4 is above the pI, so glutamate is net negative (two –COO<sup>−</sup> and one –<span class="nw">NH<span class="ss"><sup>+</sup><sub>3</sub></span></span>, net −1) and moves <b>toward the positive electrode</b>.
+=== 3B-893 | topic=properties | d=1 | calc=0
+Q: One of the following acids ionizes completely in water (a <b>strong</b> acid). Which one?
+KEY c0: HBr
+c1  c1: CH<sub>3</sub>CH<sub>2</sub>COOH
+      why-wrong x1: Propanoic acid is a carboxylic acid. Carboxylic acids ionize only slightly in water, so they are weak.
+c2  c2: HF
+      why-wrong x2: HF is a hydrogen halide, but unlike HCl, HBr and HI it ionizes only partly: it is a weak acid.
+c3  c3: C<sub>6</sub>H<sub>5</sub>COOH
+      why-wrong x3: C<sub>6</sub>H<sub>5</sub>COOH (benzoic acid) is a carboxylic acid, and carboxylic acids are weak acids.
+HINT: Only a short list of inorganic acids ionize completely. Carboxylic acids never do.
+EXPL: <b>HBr</b> (like HCl, HI, HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>, HClO<sub>4</sub>) ionizes essentially 100% in water, so it is strong. Propanoic acid and benzoic acid are carboxylic acids: carboxylic acids are weak. HF is the tempting one: it is a hydrogen halide, but it is a <i>weak</i> acid, unlike HCl, HBr and HI.
+=== 3B-943 | topic=enzymes | d=1 | calc=0
+Q: Four digestive enzymes are matched in the table with the bond each one hydrolyzes and the nutrient it digests. Which enzyme replaces the question mark?
+  FIG: {"type":"table","head":["Enzyme","Bond hydrolyzed (nutrient)"],"rows":[["Amylase","α(1→4) glycosidic (starch)"],["Lipase","ester (triacylglycerols)"],["?","peptide, amide (proteins)"],["Nuclease","phosphodiester (DNA, RNA)"]]}
+KEY c0: Protease
+c1  c1: Lipase
+      why-wrong x1: Lipases hydrolyze ester bonds in fats; that row already has an enzyme. The blank row hydrolyzes peptide bonds.
+c2  c2: Amylase
+      why-wrong x2: Amylase hydrolyzes glycosidic bonds in starch. The blank row hydrolyzes peptide (amide) bonds.
+c3  c3: Nuclease
+      why-wrong x3: Nucleases hydrolyze phosphodiester bonds in DNA and RNA. The blank row hydrolyzes the bonds in proteins.
+HINT: Match the name to the substrate: -ase added to the thing it works on, or a name based on protein, fat, starch or nucleic acid.
+EXPL: Peptide (amide) bonds between amino acids are hydrolyzed by <b>proteases</b> such as pepsin, trypsin and chymotrypsin. Lipases hydrolyze the ester bonds of fats, amylase hydrolyzes the α(1→4) bonds of starch, and nucleases hydrolyze the phosphodiester bonds of DNA and RNA.
+=== 3B-979 | topic=amines | d=1 | calc=0
+Q: Dopamine, norepinephrine, serotonin and histamine are all neurotransmitters. Which functional group do all four contain, which is protonated (–NH<sub>3</sub><sup>+</sup>) at body pH?
+KEY c0: an amine
+c1  c1: an amide
+      why-wrong x1: An amide has N bonded to a C=O. These neurotransmitters have N bonded only to carbon and hydrogen atoms.
+c2  c2: a carboxylic acid
+      why-wrong x2: These compounds are made by removing the –COOH group from an amino acid, so they have no carboxylic acid left.
+c3  c3: an ester
+      why-wrong x3: An ester is a C=O bonded to an –OR group. Acetylcholine is an ester, but these four neurotransmitters are amines.
+HINT: These compounds are made from amino acids by removing the –COOH group. Which group is left?
+EXPL: All four contain an <b>amine</b> group. Like other amines, it is a weak base and is mostly protonated in body fluids, so these neurotransmitters carry a positive charge.
+=== 3B-1001 | topic=hydrocarbons | d=2 | calc=0
+Q: How many secondary (2°) carbons are in 3-methylhexane, CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>?
+KEY c0: 3
+c1  c1: 2
+      why-wrong x1: Two misses one of the CH<sub>2</sub> groups. There are CH<sub>2</sub> groups at C2, C4 and C5.
+c2  c2: 4
+      why-wrong x2: Four counts C3 as secondary, but C3 is bonded to C2, C4 and the CH<sub>3</sub> branch: three carbons, so it is tertiary.
+c3  c3: 1
+      why-wrong x3: One counts only a single CH<sub>2</sub>. Every CH<sub>2</sub> inside the chain is bonded to two carbons.
+HINT: A secondary carbon is bonded to exactly two other carbons. In an alkane, that is every CH<sub>2</sub> in the chain.
+EXPL: Classify each carbon: the three CH<sub>3</sub> groups are 1°, the CH carrying the branch (C3) is 3°, and the three CH<sub>2</sub> groups (C2, C4, C5) are 2°. There are <b>3</b> secondary carbons.
+=== 3B-1063 | topic=hydrocarbons | d=3 | calc=0
+Q: What is the IUPAC name of CH<sub>3</sub>CH(CH<sub>3</sub>)CH(CH<sub>3</sub>)CH(CH<sub>2</sub>CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>?
+KEY c0: 4-ethyl-2,3-dimethylheptane
+c1  c1: 2,3-dimethyl-4-ethylheptane
+      why-wrong x1: The numbers are right, but substituents are listed in alphabetical order, not number order. The prefix di- is ignored, so ethyl (e) comes before methyl (m).
+c2  c2: 4-ethyl-5,6-dimethylheptane
+      why-wrong x2: This numbers the chain from the right end. Numbering from the left gives 2, 3, 4, which is lower than 4, 5, 6.
+c3  c3: 4-ethyl-2,3-methylheptane
+      why-wrong x3: Two methyl groups need the prefix di-. Two numbers followed by plain "methyl" is not a complete name.
+HINT: After you number the chain, put the substituent names in alphabetical order. Do prefixes such as di- and tri- count when you alphabetize?
+EXPL: The longest chain has seven carbons. Numbering from the left gives branches at 2, 3 and 4. Ethyl comes before methyl in the alphabet (the di- is ignored), so the name is <b>4-ethyl-2,3-dimethylheptane</b>.
+=== 1A-21 | topic=atoms | d=1 | calc=0
+Q: Which ion is selenium most likely to form?
+KEY c0: Se<sup>2−</sup>
+c1  c1: Se<sup>2+</sup>
+      why-wrong x1: Group 16 nonmetals gain electrons. They don't lose them.
+c2  c2: Se<sup>6+</sup>
+      why-wrong x2: Losing all 6 valence electrons doesn't happen for a simple Se ion.
+c3  c3: Se<sup>−</sup>
+      why-wrong x3: Group 16 atoms gain 2 electrons, not 1.
+HINT: Selenium is in group 16. How many electrons does it need to reach a noble-gas configuration?
+EXPL: Group 16 atoms gain 2 electrons to match the next noble gas (Kr): <b>Se<sup>2−</sup></b>, like O²⁻ and S²⁻.
+=== 1A-47 | topic=reactions | d=3 | calc=0
+Q: The reaction below is balanced in BASIC solution using the smallest whole-number coefficients. What appears in the balanced equation?
+  FIG: {"type":"eq","text":"<span class=\"nw\">MnO<span class=\"ss\"><sup>−</sup><sub>4</sub></span>(aq)</span> + <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>3</sub></span>(aq)</span> → MnO<sub>2</sub>(s) + <span class=\"nw\">SO<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>(aq)</span>"}
+KEY c0: 2 OH<sup>−</sup> on the product side
+c1  c1: 2 OH<sup>−</sup> on the reactant side
+      why-wrong x1: Water ends up on the reactant side, and OH⁻ on the product side.
+c2  c2: 4 OH<sup>−</sup> on the product side
+      why-wrong x2: Count again. Only 2 H⁺ needed neutralizing.
+c3  c3: 8 OH<sup>−</sup> on the reactant side
+      why-wrong x3: 8 comes from the permanganate half-reaction alone, not the combined equation.
+HINT: Balance as if acidic (H₂O and H⁺), then add OH⁻ to both sides to neutralize every H⁺.
+EXPL: Mn gains 3 e⁻, S loses 2 e⁻ → 2 MnO₄⁻ : 3 SO₃²⁻. Acidic: 2 MnO₄⁻ + 3 SO₃²⁻ + 2 H⁺ → 2 MnO₂ + 3 SO₄²⁻ + H₂O. Adding 2 OH⁻ to both sides: 2 MnO₄⁻ + 3 SO₃²⁻ + H₂O → 2 MnO₂ + 3 SO₄²⁻ + <b>2 OH⁻ (products)</b>.
+=== 1A-65 | topic=thermo | d=2 | calc=1
+Q: Use the data in the table to find ΔH for the formation of carbon monoxide shown below.
+  FIG: {"type":"eq","text":"C(s) + ½ O<sub>2</sub>(g) → CO(g)"}
+  FIG: {"type":"table","head":["Reaction","ΔH (kJ)"],"rows":[["C(s) + O<sub>2</sub>(g) → CO<sub>2</sub>(g)","−393.5"],["CO(g) + ½ O<sub>2</sub>(g) → CO<sub>2</sub>(g)","−283.0"]]}
+KEY c0: −110.5 kJ
+c1  c1: −676.5 kJ
+      why-wrong x1: This adds the equations without reversing the second one.
+c2  c2: +110.5 kJ
+      why-wrong x2: This has the wrong sign. Reverse only the second equation.
+c3  c3: −393.5 kJ
+      why-wrong x3: This uses only the first equation.
+HINT: Hess's law: keep the first equation, reverse the second (change its sign), and add.
+EXPL: −393.5 kJ + (+283.0 kJ) = <b>−110.5 kJ</b>. Adding the equations without reversing the second gives −676.5 kJ.
+=== 1A-106 | topic=bonding | d=2 | calc=0
+Q: Which species has an odd number of valence electrons (is a free radical)?
+KEY c0: NO<sub>2</sub>
+c1  c1: CO<sub>2</sub>
+      why-wrong x1: CO₂ has 16 valence electrons, an even number.
+c2  c2: N<sub>2</sub>O<sub>4</sub>
+      why-wrong x2: N₂O₄ has 34 valence electrons, an even number.
+c3  c3: SO<sub>2</sub>
+      why-wrong x3: SO₂ has 18 valence electrons, an even number.
+HINT: Add up the valence electrons for each species.
+EXPL: NO₂: 5 + 2(6) = <b>17</b> (odd). CO₂ = 16, N₂O₄ = 34, SO₂ = 18. Two NO₂ radicals pair up to form N₂O₄.
+=== 1A-110 | topic=bonding | d=3 | calc=0
+Q: What is the molecular geometry of ClF<sub>3</sub>?
+KEY c0: T-shaped
+c1  c1: trigonal planar
+      why-wrong x1: Trigonal planar would need no lone pairs. Cl has 2.
+c2  c2: trigonal pyramidal
+      why-wrong x2: Trigonal pyramidal has 4 electron groups. Cl has 5.
+c3  c3: seesaw
+      why-wrong x3: Seesaw is 4 bonds and 1 lone pair. ClF₃ has 3 bonds and 2.
+HINT: Cl has 7 valence electrons; three are used in bonds. Count the lone pairs.
+EXPL: 3 bonds + 2 lone pairs = 5 electron groups (trigonal bipyramidal); both lone pairs equatorial → <b>T-shaped</b>. Trigonal planar would need 0 lone pairs.
+=== 1A-131 | topic=gases | d=3 | calc=1
+Q: Oxygen gas is collected over water at 25 °C. The volume is 250. mL and the total pressure is 752 torr. The vapor pressure of water at 25 °C is 23.8 torr. How many moles of O<sub>2</sub> were collected?
+KEY c0: 0.00979 mol
+c1  c1: 0.0101 mol
+      why-wrong x1: This uses the total pressure. Subtract water's vapor pressure first.
+c2  c2: 0.0104 mol
+      why-wrong x2: This adds the water vapor pressure. Subtract it.
+c3  c3: 9.79 mol
+      why-wrong x3: This uses 250 L. It's 250. mL = 0.250 L.
+HINT: Dalton's law: P_O₂ = P_total − P_water. Then use PV = nRT.
+EXPL: P_O₂ = 752 − 23.8 = 728.2 torr = 0.9582 atm. n = (0.9582)(0.250 L) ÷ [(0.08206)(298.15)] = <b>0.00979 mol</b>. Using the total pressure overestimates O₂ because water vapor is also in the flask.
+=== 1A-178 | topic=thermo | d=1 | calc=0
+Q: A reaction releases heat to its surroundings (ΔH &lt; 0). Which statement about bond energies explains this?
+KEY c0: More energy is released forming product bonds than is absorbed breaking reactant bonds.
+c1  c1: Breaking the bonds in the reactants releases energy to the surroundings.
+      why-wrong x1: Breaking bonds always absorbs energy.
+c2  c2: The products have a higher enthalpy than the reactants.
+      why-wrong x2: In an exothermic reaction, the products are lower in enthalpy.
+c3  c3: Forming new bonds absorbs energy, so the surroundings get colder.
+      why-wrong x3: Forming bonds releases energy.
+HINT: Bond breaking always costs energy; bond forming always releases it. Which one wins when ΔH &lt; 0?
+EXPL: ΔH ≈ (energy to break bonds) − (energy released forming bonds). When ΔH is negative, <b>bond formation releases more than bond breaking absorbs</b>. Breaking bonds never releases energy, and exothermic products sit LOWER in enthalpy.
+=== 1A-182 | topic=quantum | d=2 | calc=0
+Q: A hypothetical atom has only the four energy levels listed in the table. Which transition EMITS light of the longest wavelength?
+  FIG: {"type":"table","head":["Level","Energy (×10<sup>−19</sup> J)"],"rows":[["n = 1","−10.0"],["n = 2","−6.0"],["n = 3","−4.0"],["n = 4","−3.0"]]}
+KEY c0: n = 4 → n = 3
+c1  c1: n = 2 → n = 1
+      why-wrong x1: 2 → 1 is a big gap, so it gives a short wavelength.
+c2  c2: n = 4 → n = 1
+      why-wrong x2: 4 → 1 is the biggest gap, so it gives the shortest wavelength.
+c3  c3: n = 1 → n = 2
+      why-wrong x3: 1 → 2 goes up in energy, so it absorbs light instead of emitting it.
+HINT: Emission means dropping to a lower level. Longest wavelength means smallest energy gap (E = hc/λ).
+EXPL: Downward gaps: 4→3 = 1.0, 3→2 = 2.0, 4→2 = 3.0, 2→1 = 4.0, 4→1 = 7.0 (×10<sup>−19</sup> J). The smallest gap gives the longest λ: <b>n = 4 → n = 3</b>. n = 1 → n = 2 is an absorption, not an emission.
+=== 1A-201 | topic=gases | d=2 | calc=0
+Q: A rigid, sealed steel tank contains N<sub>2</sub> at 1.0 atm. Argon is pumped in until the total pressure is 3.0 atm, with the temperature kept constant. Which statement is correct?
+KEY c0: The total pressure tripled, but the partial pressure of N<sub>2</sub> is still 1.0 atm.
+c1  c1: The partial pressure of N<sub>2</sub> fell to 0.33 atm because its mole fraction decreased.
+      why-wrong x1: N₂'s mole fraction does drop to 1/3, but 1/3 of 3.0 atm is still 1.0 atm.
+c2  c2: The partial pressure of N<sub>2</sub> rose to 3.0 atm along with the total pressure.
+      why-wrong x2: N₂'s moles, volume and temperature didn't change, so its partial pressure didn't either.
+c3  c3: The N<sub>2</sub> molecules now move more slowly because of collisions with argon.
+      why-wrong x3: The temperature is constant, so the N₂ molecules move at the same average speed.
+HINT: Partial pressure depends on the moles of THAT gas, the volume and the temperature. Which of these changed for N<sub>2</sub>?
+EXPL: In a rigid tank at constant T, N<sub>2</sub> has the same moles and volume, so P<sub>N2</sub> = nRT/V stays <b>1.0 atm</b>; argon contributes the other 2.0 atm. The mole fraction of N<sub>2</sub> does drop to 1/3, but 1/3 × 3.0 atm is still 1.0 atm.
+=== 1A-218 | topic=atoms | d=2 | calc=1
+Q: A 1.00-carat diamond has a mass of 0.200 g and is essentially pure carbon. About how many carbon atoms does it contain?
+KEY c0: 1.00×10<sup>22</sup> atoms
+c1  c1: 1.20×10<sup>23</sup> atoms
+      why-wrong x1: This skips the molar mass step.
+c2  c2: 1.45×10<sup>24</sup> atoms
+      why-wrong x2: This multiplies by 12.01 instead of dividing.
+c3  c3: 5.01×10<sup>22</sup> atoms
+      why-wrong x3: This treats 1.00 carat as 1.00 g. It's 0.200 g.
+HINT: Grams → moles with the molar mass of C, then moles → atoms with Avogadro's number.
+EXPL: 0.200 g ÷ 12.01 g mol⁻¹ = 0.01665 mol; × 6.022×10²³ = <b>1.00×10²² atoms</b>. 1.20×10²³ skips the molar mass; 1.45×10²⁴ multiplies by 12.01 instead of dividing. 5.01×10<sup>22</sup> treats 1.00 carat as 1.00 g.
+=== 1A-286 | topic=advanced | d=2 | calc=0
+Q: Acetaldehyde, drawn below, forms in the liver when ethanol is broken down. Which orbitals overlap to form the σ bond between atoms <b>a</b> and <b>b</b>?
+  STEM-STRUCT: DRAWN O=[CH:2][CH3:1] LEWIS[O1:lp2 C3:lp0 C4:lp0] labels=a,b (atom map :1=a, :2=b, :3=c ... marks the labeled atom)
+KEY c0: sp<sup>3</sup> on a and sp<sup>2</sup> on b
+c1  c1: sp<sup>3</sup> on a and sp<sup>3</sup> on b
+      why-wrong x1: Atom b has a double bond (3 domains), so it's sp².
+c2  c2: sp<sup>2</sup> on a and sp<sup>2</sup> on b
+      why-wrong x2: Atom a has 4 single bonds, so it's sp³.
+c3  c3: sp<sup>3</sup> on a and p on b
+      why-wrong x3: The p orbitals form the C=O π bond, not this C–C σ bond.
+HINT: Find the hybridization of each carbon first. A σ bond forms from end-on overlap of the hybrid orbitals of the two atoms.
+EXPL: a has 4 single bonds (sp<sup>3</sup>); b has a C=O, C–H and C–C (3 domains, sp<sup>2</sup>). The a–b σ bond is <b>sp<sup>3</sup> on a and sp<sup>2</sup> on b</b>. Unhybridized p orbitals form the π bond of C=O, not the C–C σ bond.
+=== 1A-289 | topic=advanced | d=1 | calc=0
+Q: The molecule drawn below is a small model of one end of the pain reliever acetaminophen. What is the hybridization of carbon atoms <b>a</b>, <b>b</b> and <b>c</b>?
+  STEM-STRUCT: DRAWN O=[C:2](N[CH3:3])[CH3:1] LEWIS[O1:lp2 C4:lp0 C5:lp0 N6:lp1 C7:lp0] labels=a,b,c (atom map :1=a, :2=b, :3=c ... marks the labeled atom)
+KEY c0: a: sp<sup>3</sup>, b: sp<sup>2</sup>, c: sp<sup>3</sup>
+c1  c1: a: sp<sup>3</sup>, b: sp<sup>3</sup>, c: sp<sup>3</sup>
+      why-wrong x1: Atom b has a C=O, so it's sp².
+c2  c2: a: sp<sup>2</sup>, b: sp<sup>2</sup>, c: sp<sup>2</sup>
+      why-wrong x2: Atoms a and c have 4 single bonds, so they're sp³.
+c3  c3: a: sp<sup>3</sup>, b: sp<sup>2</sup>, c: sp<sup>2</sup>
+      why-wrong x3: Atom c has 4 single bonds. Being bonded to N doesn't change that.
+HINT: For each labeled carbon, count the atoms bonded to it (a double bond counts once). Carbon has no lone pairs here.
+EXPL: a and c each have 4 single bonds → sp<sup>3</sup>. b has C=O, C–C and C–N (3 domains) → sp<sup>2</sup>. <b>a: sp<sup>3</sup>, b: sp<sup>2</sup>, c: sp<sup>3</sup></b>. Atom c is bonded to N, but that does not change its 4 single bonds.
+=== 1A-328 | topic=advanced | d=3 | calc=1
+Q: The MO diagram shows the valence electrons of a diatomic species. Which species is it, and what is its bond order?
+  FIG: {"type":"modiag","order":"O2","e":11}
+KEY c0: <span class="nw">O<span class="ss"><sup>+</sup><sub>2</sub></span>,</span> bond order 2.5
+c1  c1: <span class="nw">O<span class="ss"><sup>−</sup><sub>2</sub></span>,</span> bond order 1.5
+      why-wrong x1: O₂⁻ would show 13 electrons.
+c2  c2: O<sub>2</sub>, bond order 2
+      why-wrong x2: O₂ has 12 electrons. Count again.
+c3  c3: <span class="nw">F<span class="ss"><sup>+</sup><sub>2</sub></span>,</span> bond order 1.5
+      why-wrong x3: F₂⁺ would show 13 electrons.
+HINT: Count the arrows to get the number of valence electrons, then match it to a species. O has 6 valence electrons, F has 7.
+EXPL: There are 11 valence electrons: O<sub>2</sub> has 12, so this is <b><span class="nw">O<span class="ss"><sup>+</sup><sub>2</sub></span></span></b>. Bonding = 2 + 2 + 4 = 8, antibonding = 2 + 1 = 3, bond order = ½(8 − 3) = <b>2.5</b>. <span class="nw">O<span class="ss"><sup>−</sup><sub>2</sub></span></span> and <span class="nw">F<span class="ss"><sup>+</sup><sub>2</sub></span></span> would both show 13 electrons.
+=== 1A-382 | topic=bonding | d=3 | calc=0
+Q: Lewis structures of three carbon–oxygen species are drawn below. Rank their C–O bond lengths from LONGEST to SHORTEST.
+  STEM-STRUCT: DRAWN O=C[O-] LEWIS[C1:lp0 O2:lp2 O3:lp3/ch-1] cap=HCOO⁻
+  STEM-STRUCT: DRAWN O=C=O LEWIS[O0:lp2 C1:lp0 O2:lp2] cap=CO₂
+  STEM-STRUCT: DRAWN O=C([O-])[O-] LEWIS[C0:lp0 O1:lp2 O2:lp3/ch-1 O3:lp3/ch-1] cap=CO₃²⁻
+KEY c0: <span class="nw">CO<span class="ss"><sup>2−</sup><sub>3</sub></span></span> > HCOO<sup>−</sup> > CO<sub>2</sub>
+c1  c1: CO<sub>2</sub> > HCOO<sup>−</sup> > <span class="nw">CO<span class="ss"><sup>2−</sup><sub>3</sub></span></span>
+      why-wrong x1: This ranks bond strength, not length. It's reversed.
+c2  c2: HCOO<sup>−</sup> > <span class="nw">CO<span class="ss"><sup>2−</sup><sub>3</sub></span></span> > CO<sub>2</sub>
+      why-wrong x2: Formate (1.5) has a higher bond order than carbonate (1.33), so it's shorter.
+c3  c3: <span class="nw">CO<span class="ss"><sup>2−</sup><sub>3</sub></span></span> > CO<sub>2</sub> > HCOO<sup>−</sup>
+      why-wrong x3: CO₂ has true double bonds, so its bonds are the shortest.
+HINT: Average each C–O bond order over the resonance structures. A lower bond order means a longer bond.
+EXPL: Average C–O bond orders: <span class="nw">CO<span class="ss"><sup>2−</sup><sub>3</sub></span></span> 4 ÷ 3 = 1.33 (one double bond shared by three O), HCOO<sup>−</sup> 3 ÷ 2 = 1.5 (shared by two O), CO<sub>2</sub> 2 (no resonance). Lower bond order means a longer bond: <b><span class="nw">CO<span class="ss"><sup>2−</sup><sub>3</sub></span></span> > HCOO<sup>−</sup> > CO<sub>2</sub></b>. The reversed order ranks bond strength, not length.
+=== 1A-388 | topic=quantum | d=1 | calc=0
+Q: Compared with photons of red light (700 nm), photons of violet light (400 nm) have
+KEY c0: higher frequency and higher energy
+c1  c1: higher frequency and lower energy
+      why-wrong x1: Higher frequency also means higher energy (E = hν).
+c2  c2: lower frequency and higher energy
+      why-wrong x2: Violet light has the higher frequency.
+c3  c3: a higher speed in a vacuum
+      why-wrong x3: All light travels at the same speed in a vacuum.
+HINT: Shorter wavelength means more waves pass per second. Photon energy is E = hν.
+EXPL: λν = c, so the shorter-wavelength violet light has the <b>higher frequency</b>, and E = hν gives it the <b>higher energy</b>. All light travels at the same speed, c, in a vacuum.
+=== 1A-462 | topic=thermo | d=2 | calc=0
+Q: The heating curve shows 1 mol of water heated at a steady rate from −20 °C to 120 °C. About how much heat does it take to boil the water at 100 °C?
+  FIG: {"type":"plot","x":{"label":"Heat added (kJ)","min":0,"max":60,"ticks":[0,10,20,30,40,50,60]},"y":{"label":"Temperature (°C)","min":-20,"max":120,"ticks":[-20,0,20,40,60,80,100,120]},"series":[{"pts":[[0.0,-20.0],[0.753,0.0],[6.763,0.0],[14.303,100.0],[55.003,100.0],[55.727,120.0]]}],"mono":true,"grid":true}
+KEY c0: about 41 kJ
+c1  c1: about 55 kJ
+      why-wrong x1: 55 kJ is the total heat added by the end of boiling.
+c2  c2: about 14 kJ
+      why-wrong x2: 14 kJ is where boiling starts. Measure the plateau width.
+c3  c3: about 6 kJ
+      why-wrong x3: About 6 kJ is the melting plateau.
+HINT: Boiling happens on the flat segment at 100 °C. Read the heat added where that segment starts and where it ends.
+EXPL: The 100 °C plateau runs from about 14 kJ to about 55 kJ: 55 − 14 ≈ <b>41 kJ</b> (ΔH<sub>vap</sub> = 40.7 kJ mol⁻¹). 55 kJ is the total heat added by the end of boiling, 14 kJ is where boiling starts, and about 6 kJ is the melting plateau.
+=== 1A-465 | topic=quantum | d=2 | calc=0
+Q: Arrangements I–IV each hold the eight electrons of an oxygen atom. Which arrangement is forbidden by the Pauli exclusion principle?
+  FIG: {"type":"orbitals","items":[{"subs":[{"name":"1s","boxes":["ud"]},{"name":"2s","boxes":["ud"]},{"name":"2p","boxes":["ud","u","u"]}],"cap":"I"},{"subs":[{"name":"1s","boxes":["ud"]},{"name":"2s","boxes":["ud"]},{"name":"2p","boxes":["ud","ud",""]}],"cap":"II"}]}
+  FIG: {"type":"orbitals","items":[{"subs":[{"name":"1s","boxes":["ud"]},{"name":"2s","boxes":["uu"]},{"name":"2p","boxes":["ud","u","u"]}],"cap":"III"},{"subs":[{"name":"1s","boxes":["ud"]},{"name":"2s","boxes":["u"]},{"name":"2p","boxes":["ud","ud","u"]}],"cap":"IV"}]}
+KEY c0: III
+c1  c1: II
+      why-wrong x1: II breaks Hund's rule, but it's still allowed (just higher in energy).
+c2  c2: IV
+      why-wrong x2: IV is an allowed excited state.
+c3  c3: I
+      why-wrong x3: I is the ground state: it follows Aufbau order, Hund's rule and the Pauli principle. The forbidden arrangement puts two electrons with the same spin in one orbital.
+HINT: Pauli: no two electrons in the same orbital can have the same spin. Look for a box with two arrows pointing the same way.
+EXPL: Diagram <b>III</b> puts two electrons with the same spin in the single 2s orbital, so they would have identical quantum numbers (n, l, m<sub>l</sub>, m<sub>s</sub>) — forbidden. II breaks Hund's rule (pairing in 2p while one 2p box is empty), which is a higher-energy state but not impossible; IV is an allowed excited state; I is the ground state.
+=== 1A-545 | topic=composition | d=1 | calc=0
+Q: Each of these samples contains Avogadro's number of particles. Which one weighs the most?
+KEY c0: 1 mol of CO<sub>2</sub>
+c1  c1: 1 mol of Ar
+      why-wrong x1: Ar (39.95 g/mol) is lighter than CO₂ (44.01 g/mol).
+c2  c2: 1 mol of H<sub>2</sub>O
+      why-wrong x2: A mole of H₂O is only 18.02 g; it has three atoms, but they are light. With the same number of particles, the heaviest mole is the one with the largest molar mass.
+c3  c3: 1 mol of He
+      why-wrong x3: Helium has the smallest molar mass here, only 4.003 g/mol. Equal moles means equal particles, so the sample with the largest molar mass weighs the most.
+HINT: Equal numbers of particles: compare molar masses. A molecule's mass is the sum of its atoms' masses.
+EXPL: Molar masses: CO<sub>2</sub> 44.01, Ar 39.95, H<sub>2</sub>O 18.02, He 4.003 g mol⁻¹. One mole of <b>CO<sub>2</sub></b> weighs the most. Argon is tempting because a single Ar atom is heavier than any atom in CO<sub>2</sub>, but each CO<sub>2</sub> molecule totals 44 u.
+=== 1A-553 | topic=composition | d=2 | calc=1
+Q: Analysis shows that a cylinder of propane, C<sub>3</sub>H<sub>8</sub>, holds 4.032 g of hydrogen. How many moles of carbon atoms are in the cylinder?
+KEY c0: 1.500 mol
+c1  c1: 4.000 mol
+      why-wrong x1: 4.000 mol is the moles of H, not C.
+c2  c2: 0.5000 mol
+      why-wrong x2: This divides by 8 but forgets to multiply by 3.
+c3  c3: 10.67 mol
+      why-wrong x3: This flips the C:H ratio.
+HINT: Convert the hydrogen mass to moles of H atoms, then use the 3 C : 8 H ratio in the formula.
+EXPL: 4.032 g H ÷ 1.008 g mol⁻¹ = 4.000 mol H; × (3 mol C / 8 mol H) = <b>1.500 mol C</b>. 4.000 mol is the moles of H itself; 0.5000 mol divides by 8 but forgets to multiply by 3; 10.67 mol inverts the ratio.
+=== 1A-561 | topic=solutions | d=1 | calc=0
+Q: An open beaker of 1.0 M KCl solution is left on the bench for a week and some of the water evaporates. Which statement describes the solution afterward?
+KEY c0: The moles of KCl are unchanged and the molarity has increased.
+c1  c1: The moles of KCl have decreased and the molarity has decreased.
+      why-wrong x1: KCl is a nonvolatile ionic solid, so it can't evaporate; only water leaves. With the same moles in less volume, the molarity can't go down.
+c2  c2: The moles of KCl are unchanged and the molarity is still 1.0 M.
+      why-wrong x2: The volume shrank, so the molarity went up.
+c3  c3: The moles of KCl have increased and the molarity has increased.
+      why-wrong x3: Nothing added KCl to the beaker; evaporation removes only water, so the moles of solute stay fixed. The molarity rises only because the volume shrinks.
+HINT: Only water (solvent) leaves. Molarity = moles of solute ÷ liters of solution.
+EXPL: Evaporation removes solvent only, so the <b>moles of KCl stay the same while the volume shrinks, raising the molarity</b>. Solute cannot leave or appear; the molarity changes because the denominator changes.
+=== 1A-610 | topic=liquids | d=2 | calc=0
+Q: Which statements about phase diagrams are true?<br>I. At the triple point, the solid, liquid and gas phases can all exist together at equilibrium.<br>II. Above its critical temperature, a substance cannot be turned into a liquid by raising the pressure.<br>III. Because the solid–liquid line of water slopes to the left, squeezing ice that is just below 0 °C can melt it.
+KEY c0: I, II and III
+c1  c1: I and II only
+      why-wrong x1: Statement III is also true: liquid water is denser than ice, so pressure favors the liquid and lowers the melting point.
+c2  c2: I only
+      why-wrong x2: Statement II is also true: beyond the critical point, raising the pressure never produces a separate liquid phase.
+c3  c3: I and III only
+      why-wrong x3: Statement II is also true: above the critical temperature the gas and liquid merge, so pressure alone cannot form a separate liquid.
+HINT: Recall what the triple point and the critical point mark, and which unusual feature water's phase diagram has.
+EXPL: The triple point is the one temperature and pressure where all three phases coexist (I true). Above the critical temperature the liquid and gas can no longer be told apart, so no pressure produces a separate liquid (II true). Water's melting line has a negative slope because liquid water is denser than ice, so higher pressure lowers the melting point and can melt ice just below 0 °C (III true). The answer is <b>I, II and III</b>.
+=== 1A-620 | topic=liquids | d=2 | calc=0
+Q: Three sealed flasks at the SAME temperature each contain a different pure liquid, A, B or C, in equilibrium with its vapor. Each box shows the vapor molecules in an equal volume of the space above the liquid. Which ranks the liquids from WEAKEST to STRONGEST intermolecular forces?
+  FIG: {"type":"particles","seed":107,"key":{"A":{"c":"#e0675a","n":"A molecule"},"B":{"c":"#3b82b4","n":"B molecule"},"C":{"c":"#5aa469","n":"C molecule"}},"boxes":[{"mols":[["A"],["A"],["A"],["A"],["A"],["A"],["A"],["A"]],"cap":"Vapor above A"},{"mols":[["B"],["B"],["B"]],"cap":"Vapor above B"},{"mols":[["C"],["C"],["C"],["C"],["C"]],"cap":"Vapor above C"}]}
+KEY c0: A &lt; C &lt; B
+c1  c1: B &lt; C &lt; A
+      why-wrong x1: This is reversed. Many molecules in the vapor means the liquid holds its molecules weakly.
+c2  c2: A &lt; B &lt; C
+      why-wrong x2: Recount the vapor molecules above B and C.
+c3  c3: C &lt; A &lt; B
+      why-wrong x3: Recount the vapor molecules above A and C.
+HINT: More molecules in the same volume of vapor means a higher vapor pressure. How does vapor pressure depend on the forces holding molecules in the liquid?
+EXPL: The vapor boxes hold 8 (A), 3 (B) and 5 (C) molecules, so vapor pressure is A &gt; C &gt; B. Molecules escape most easily from the liquid with the weakest attractions, so the IMF order is <b>A &lt; C &lt; B</b>. Reversing this treats a high vapor pressure as a sign of strong forces.
+=== 1A-660 | topic=advanced | d=3 | calc=0
+Q: According to molecular orbital theory, which of these diatomic species are paramagnetic?<br>I. N<sub>2</sub><br>II. B<sub>2</sub><br>III. C<sub>2</sub>
+KEY c0: II only
+c1  c1: I and II only
+      why-wrong x1: Statement I is wrong. N₂ fills the π2p and σ2p orbitals completely, so all its electrons are paired.
+c2  c2: II and III only
+      why-wrong x2: Statement III is wrong. In C₂ the four π2p electrons exactly fill both π2p orbitals, so none are unpaired.
+c3  c3: I, II and III
+      why-wrong x3: N₂ has all of its electrons paired, so it is diamagnetic.
+HINT: For B<sub>2</sub>, C<sub>2</sub> and N<sub>2</sub>, the π<sub>2p</sub> orbitals lie below σ<sub>2p</sub>. Fill the valence electrons and look for unpaired ones.
+EXPL: B<sub>2</sub> has 6 valence electrons: (σ<sub>2s</sub>)<sup>2</sup>(σ*<sub>2s</sub>)<sup>2</sup>(π<sub>2p</sub>)<sup>2</sup>, with the two π electrons in separate orbitals, so it is paramagnetic. C<sub>2</sub> has 8: the two π<sub>2p</sub> orbitals are completely filled, so it is diamagnetic. N<sub>2</sub> has 10: π<sub>2p</sub> and σ<sub>2p</sub> are both filled, so it is diamagnetic. The answer is <b>II only</b>.
+=== 1A-689 | topic=atoms | d=2 | calc=1
+Q: The box shows a representative sample of magnesium atoms, with the three natural isotopes drawn in different colors. Based on this sample, what is the average atomic mass of magnesium?
+  FIG: {"type":"particles","seed":52,"key":{"A":{"c":"#5aa469","n":"²⁴Mg (23.985 u)"},"B":{"c":"#f2c14e","n":"²⁵Mg (24.986 u)"},"C":{"c":"#e0675a","n":"²⁶Mg (25.983 u)"}},"boxes":[{"mols":[["A"],["A"],["A"],["A"],["A"],["A"],["A"],["A"],["A"],["A"],["A"],["A"],["A"],["A"],["A"],["A"],["B"],["B"],["C"],["C"]]}]}
+KEY c0: 24.28 u
+c1  c1: 24.98 u
+      why-wrong x1: This is a simple average of the three masses. The isotopes are not equally common in the box.
+c2  c2: 25.68 u
+      why-wrong x2: This gives the largest weight to the heaviest isotope. Recount which color is most common.
+c3  c3: 23.99 u
+      why-wrong x3: This uses only the most common isotope. The other two also add to the average.
+HINT: Count the atoms of each isotope, turn each count into a fraction of the total, and take the weighted average of the masses.
+EXPL: The box has 20 atoms: 16 <sup>24</sup>Mg, 2 <sup>25</sup>Mg and 2 <sup>26</sup>Mg. Average = (16 × 23.985 + 2 × 24.986 + 2 × 25.983) ÷ 20 = <b>24.28 u</b>. 24.98 u is a simple average of the three masses, 25.68 u gives the 16 atoms to the heaviest isotope, and 23.99 u ignores the minor isotopes.
+=== 1A-713 | topic=quantum | d=3 | calc=1
+Q: A ground-state hydrogen atom absorbs a 97.2 nm photon, which raises its electron to n = 4. The atom then returns to n = 1 by emitting exactly two photons. Which pair of wavelengths could those two photons have? The diagram shows levels n = 2 to 4. The n = 1 level, at −21.8 × 10<sup>−19</sup> J, is far below the graph.
+  FIG: {"type":"plot","x":{"label":"","min":0,"max":5,"ticks":[]},"y":{"label":"Energy (×10⁻¹⁹ J)","min":-6,"max":0,"ticks":[-6,-5,-4,-3,-2,-1,0]},"hlines":[{"y":-5.45,"label":"n = 2"},{"y":-2.422,"label":"n = 3"},{"y":-1.363,"label":"n = 4"}],"series":[],"mono":true}
+KEY c0: 1875 nm and 102.5 nm
+c1  c1: 656 nm and 121.5 nm
+      why-wrong x1: 656 nm is the 3 → 2 drop, so this path starts at n = 3, not n = 4.
+c2  c2: 434 nm and 121.5 nm
+      why-wrong x2: 434 nm is the 5 → 2 drop, so this path starts at n = 5, not n = 4.
+c3  c3: 1281 nm and 102.5 nm
+      why-wrong x3: 1281 nm is the 5 → 3 drop, so this path starts at n = 5, not n = 4.
+HINT: The two emitted photon energies must add up to the energy absorbed. The path must go 4 → some level → 1.
+EXPL: With two photons, the electron goes 4 → 3 → 1 or 4 → 2 → 1. The 4 → 3 drop gives 1875 nm and the 3 → 1 drop gives 102.5 nm, so <b>1875 nm and 102.5 nm</b> works. 656 + 121.5 nm is the path 3 → 2 → 1, which starts at n = 3. 434 + 121.5 nm is 5 → 2 → 1, and 1281 + 102.5 nm is 5 → 3 → 1, both starting at n = 5.
+=== 1A-747 | topic=reactions | d=1 | calc=1
+Q: A mixture of 2.00 mol of Fe<sub>2</sub>O<sub>3</sub> and 5.40 mol of carbon reacts as shown. What is the theoretical yield of iron?
+  FIG: {"type":"eq","text":"Fe<sub>2</sub>O<sub>3</sub>(s) + 3 C(s) → 2 Fe(l) + 3 CO(g)"}
+KEY c0: 3.60 mol
+c1  c1: 4.00 mol
+      why-wrong x1: This is what Fe₂O₃ alone could make, but there is not enough carbon for all of it.
+c2  c2: 5.40 mol
+      why-wrong x2: This uses a 1 to 1 ratio of C to Fe. The coefficients are 3 and 2.
+c3  c3: 8.10 mol
+      why-wrong x3: This turns the C to Fe ratio upside down. Three C atoms give two Fe atoms.
+HINT: Find how much Fe each reactant could make on its own. The smaller amount is the theoretical yield.
+EXPL: From Fe<sub>2</sub>O<sub>3</sub>: 2.00 × 2 = 4.00 mol Fe. From C: 5.40 × 2/3 = 3.60 mol Fe. Carbon is limiting, so the theoretical yield is <b>3.60 mol</b>. 4.00 mol would need 6.00 mol C, which is not available.
+=== 1A-752 | topic=reactions | d=3 | calc=1
+Q: Substances A and B react to form a single product, C. In each trial in the table the reaction goes until one reactant is used up. Which equation fits the data?
+  FIG: {"type":"table","head":["Trial","A at start (mol)","B at start (mol)","C formed (mol)"],"rows":[["1","1.00","5.00","0.500"],["2","4.00","1.50","0.500"],["3","2.00","3.00","1.00"]]}
+KEY c0: 2 A + 3 B → C
+c1  c1: 3 A + 2 B → C
+      why-wrong x1: These coefficients are swapped. In trial 2, find how many moles of B make 0.500 mol C.
+c2  c2: 2 A + 10 B → C
+      why-wrong x2: This assumes all 5.00 mol of B reacts in trial 1. Test it on trial 2, where it predicts far less C.
+c3  c3: A + B → C
+      why-wrong x3: With a 1 to 1 to 1 ratio, trial 1 would give 1.00 mol C. Compare that with the table.
+HINT: In trial 1, B is plentiful, so A must run out. In trial 2, A is plentiful, so B must run out. Each tells you one coefficient.
+EXPL: Trial 1: if A limits, 1.00 mol A gives 0.500 mol C, so 2 A per C. Trial 2: if B limits, 1.50 mol B gives 0.500 mol C, so 3 B per C. Trial 3 checks it: 2.00 mol A and 3.00 mol B are used up exactly and give 1.00 mol C. The equation is <b>2 A + 3 B → C</b>. 2 A + 10 B → C assumes all of B reacts in trial 1, but then trial 2 could make only 0.15 mol C.
+=== 1A-753 | topic=reactions | d=2 | calc=0
+Q: Solutions of MgCl<sub>2</sub> and NaOH were mixed, and Mg(OH)<sub>2</sub>(s) formed by the reaction shown. The box shows everything present after the reaction stopped (water not shown). Each cluster of one Mg<sup>2+</sup> with two OH<sup>−</sup> is one unit of the solid. How many formula units of each reactant were mixed?
+  FIG: {"type":"eq","text":"MgCl<sub>2</sub>(aq) + 2 NaOH(aq) → Mg(OH)<sub>2</sub>(s) + 2 NaCl(aq)"}
+  FIG: {"type":"particles","seed":21,"key":{"Mg":{"c":"#5aa469","n":"Mg²⁺","q":"+"},"OH":{"c":"#9b7fd1","n":"OH⁻","q":"−"},"Na":{"c":"#3b82b4","n":"Na⁺","q":"+","r":9},"Cl":{"c":"#f2c14e","n":"Cl⁻","q":"−"}},"boxes":[{"cap":"After reaction","water":true,"mols":[["Mg","OH","OH"],["Mg","OH","OH"],["Mg","OH","OH"],["Mg"],["Na"],["Na"],["Na"],["Na"],["Na"],["Na"],["Cl"],["Cl"],["Cl"],["Cl"],["Cl"],["Cl"],["Cl"],["Cl"]]}]}
+KEY c0: 4 MgCl<sub>2</sub> and 6 NaOH
+c1  c1: 3 MgCl<sub>2</sub> and 6 NaOH
+      why-wrong x1: This counts only the Mg²⁺ in the solid. One Mg²⁺ ion is still dissolved, and it came from the reactants too.
+c2  c2: 4 MgCl<sub>2</sub> and 8 NaOH
+      why-wrong x2: The number of NaOH units equals the number of Na⁺ ions, not the number of Cl⁻ ions. Count the Na⁺ again.
+c3  c3: 4 MgCl<sub>2</sub> and 3 NaOH
+      why-wrong x3: Each Mg(OH)₂ unit contains two OH⁻ ions, and each OH⁻ came from one NaOH.
+HINT: Atoms and ions are conserved. Count every Mg²⁺, Cl⁻, Na⁺ and OH⁻ in the box, both in the solid and dissolved.
+EXPL: The box holds 3 Mg(OH)<sub>2</sub> units plus 1 dissolved Mg<sup>2+</sup>, 6 Na<sup>+</sup> and 8 Cl<sup>−</sup>. Total Mg<sup>2+</sup> = 4 and Cl<sup>−</sup> = 8, which is 4 MgCl<sub>2</sub>. Total OH<sup>−</sup> = 6 (all in the solid) and Na<sup>+</sup> = 6, which is 6 NaOH. So <b>4 MgCl<sub>2</sub> and 6 NaOH</b> were mixed, and MgCl<sub>2</sub> was in excess (1 Mg<sup>2+</sup> is left over). Answers with 3 MgCl<sub>2</sub> miss the leftover Mg<sup>2+</sup>, and 8 NaOH would need 8 Na<sup>+</sup>.
+=== 1A-795 | topic=advanced | d=3 | calc=0
+Q: The shape of iodine pentafluoride, IF<sub>5</sub>, is drawn below, including the lone pair on iodine. What is the electron-group geometry around iodine, and what is the approximate angle between the top F and each of the four lower F atoms?
+  FIG: {"type":"vsepr","shape":"square pyramidal","center":"I","lig":"F","cap":"IF₅"}
+KEY c0: octahedral, just under 90°
+c1  c1: trigonal bipyramidal, 90° and 120°
+      why-wrong x1: That is the geometry for five electron groups. The lone pair on iodine is a sixth group.
+c2  c2: square pyramidal, 109.5°
+      why-wrong x2: Square pyramidal is the molecular shape, not the electron-group geometry, and 109.5° belongs to a tetrahedron.
+c3  c3: octahedral, 180°
+      why-wrong x3: The position 180° from the top F holds the lone pair, not a fluorine atom.
+HINT: Count the electron groups on iodine, including the lone pair. Where does the lone pair push the four base fluorines?
+EXPL: Iodine has 5 bonds and 1 lone pair, 6 electron groups, so the electron-group geometry is octahedral and the molecular shape is square pyramidal. The top F is at 90° to the four base F atoms, and the lone pair below squeezes them up slightly, so the angle is <b>slightly less than 90°</b> (about 82°). Trigonal bipyramidal is for 5 groups, 109.5° is the tetrahedral angle, and 180° is the angle to the lone-pair position, which holds no atom.
+=== 1A-820 | topic=liquids | d=3 | calc=1
+Q: A 50.0 g sample of a pure solid is heated, and its temperature is plotted against the total heat added (graph below). What is the specific heat of the substance in its LIQUID state?
+  FIG: {"type":"plot","x":{"label":"Heat added (kJ)","min":0,"max":39,"ticks":[0,3,6,9,12,15,18,21,24,27,30,33,36,39]},"y":{"label":"Temperature (°C)","min":-20,"max":100,"ticks":[-20,0,20,40,60,80,100]},"series":[{"pts":[[0,-20],[3,10],[9,10],[15,60],[36,60],[39,90]]}],"grid":true,"mono":true}
+KEY c0: 2.4 J g<sup>−1</sup> °C<sup>−1</sup>
+c1  c1: 2.0 J g<sup>−1</sup> °C<sup>−1</sup>
+      why-wrong x1: This uses the first sloped segment, where the solid warms from −20 °C to 10 °C.
+c2  c2: 4.8 J g<sup>−1</sup> °C<sup>−1</sup>
+      why-wrong x2: This includes the melting step. Heat absorbed on a flat step does not raise the temperature.
+c3  c3: 0.0024 J g<sup>−1</sup> °C<sup>−1</sup>
+      why-wrong x3: The heat was left in kilojoules. Convert to joules first.
+HINT: The liquid warms on the sloped segment between the two flat steps. Read the heat added and the temperature change on that segment only.
+EXPL: The liquid segment runs from 9 kJ to 15 kJ while the temperature rises from 10 °C to 60 °C. <i>c</i> = <i>q</i>/(<i>m</i>Δ<i>T</i>) = 6000 J/(50.0 g × 50 °C) = <b>2.4 J g<sup>−1</sup> °C<sup>−1</sup></b>. 2.0 is the solid's value (first segment), 4.8 wrongly includes the 6 kJ used to melt the solid, and 0.0024 leaves the heat in kJ.

@@ -1,0 +1,44 @@
+[
+ {
+  "id": "3B-177",
+  "field": "x[3]",
+  "old": "129 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH2. Use the values in the table.",
+  "new": "129 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH<sub>2</sub>. Use the values in the table.",
+  "why": "FADH2 stored without <sub> tag"
+ },
+ {
+  "id": "3B-114",
+  "field": "x[1]",
+  "old": "Cholesterol is made only by animals; hydrogenation adds H<sub>2</sub>, not cholesterol, to plant oils.",
+  "new": "Plant oils contain essentially no cholesterol, and hydrogenation adds only H<sub>2</sub> to C=C bonds; it does not add cholesterol.",
+  "why": "plants make trace cholesterol; 'made only by animals' is an overstatement"
+ },
+ {
+  "id": "3B-155",
+  "field": "h",
+  "old": "Alanine loses its –NH<sub>2</sub> and gets a C=O in its place; α-ketoglutarate gains the –NH<sub>2</sub>. Which 3-carbon keto acid has the formula CH<sub>3</sub>–CO–COOH?",
+  "new": "Rewrite each reactant after the swap: put a C=O where alanine's –NH<sub>2</sub> was, and an –NH<sub>2</sub> where α-ketoglutarate's keto C=O was. Then name both new compounds.",
+  "why": "old hint supplied the pyruvate formula"
+ },
+ {
+  "id": "3B-162",
+  "field": "h",
+  "old": "Gluconeogenesis starts from pyruvate or a glycolysis intermediate. Which molecule is formed only after pyruvate has irreversibly lost a CO<sub>2</sub>?",
+  "new": "Gluconeogenesis can start only from pyruvate or a glycolysis intermediate. Trace each choice: which one cannot get back to either?",
+  "why": "old hint pointed straight to acetyl CoA"
+ },
+ {
+  "id": "3B-178",
+  "field": "h",
+  "old": "Each cycle cuts off 2 carbons and makes 1 NADH and 1 FADH<sub>2</sub>. The last cycle splits a 4-carbon unit into two acetyl CoA.",
+  "new": "Each cycle cuts off 2 carbons and makes 1 NADH and 1 FADH<sub>2</sub>. How many cuts does it take to divide a 12-carbon chain into 2-carbon pieces?",
+  "why": "old hint stated the n − 1 insight directly"
+ },
+ {
+  "id": "3B-135",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":2",
+  "why": "one-step recall item; d=3 overstates difficulty"
+ }
+]

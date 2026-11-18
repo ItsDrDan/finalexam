@@ -5,9 +5,9 @@ Practice for standardized multiple-choice chemistry finals in **CHEM 3A, 3B, 1A,
 **Play:** https://itsdrdan.github.io/finalexam/ (add `?course=3A`, `3B`, `1A`, `1B`, `28A` or `28B`)
 
 - 👾 **Living boss logo:** eight pieces of glassware (flask, beaker, test tube, Erlenmeyer, cylinder, volumetric flask, sep funnel, buret) with 12 rotating liquids; the boss takes a hit and loses HP on every correct answer, taunts on misses, gets worried when low, and KOs then respawns stronger.
-- ⏱️ **Boss Battle:** timed practice exam. Practice style (Boss HP, pace meter) or 🎓 Exam Day style (directions, bubble sheet, data sheet only).
+- ⏱️ **Boss Battle:** timed practice exam. Every exam has the same topic counts and the same mix of easy, medium and hard questions, and never two near-identical questions. Practice style (Boss HP, pace meter) or 🎓 Exam Day style (directions, bubble sheet, data sheet only).
 - 🎯 **Topic Training:** pick a topic; hints and step-by-step explanations.
-- 🩹 **Weak Spots:** brings back what you missed.
+- 🩹 **Weak Spots:** brings back what you missed until you get it right twice.
 - ⚡ **Quick 10:** ten mixed questions.
 - 💥 **Blitz:** beat the clock (90, 60 or 30 s per question), 3 lives, speed bonus and streak multiplier. After each answer the clock stops and shows why your pick is right or wrong, the explanation, and why the other choices are wrong.
 - 🧮 **Practice calculator:** TI-36X Pro style, for practicing the keystrokes you'll use on exam day.
@@ -21,6 +21,6 @@ Practice for standardized multiple-choice chemistry finals in **CHEM 3A, 3B, 1A,
 
 All questions are original. Not affiliated with or endorsed by any exam publisher.
 
-Current version: v60
+Current version: v62
 
 For editors: the question banks live in `data/`. The tools in `tools/` (append_questions.js, apply_fixes.js, validate_bank.js, organic/install_banks.js) read and write them through `tools/bankio.js`, which also refreshes the version stamps in index.html so browsers and the offline cache fetch updated files.

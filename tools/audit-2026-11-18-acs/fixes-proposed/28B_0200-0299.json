@@ -1,0 +1,16 @@
+[
+ {
+  "id": "28B-223",
+  "field": "x[1]",
+  "old": "D-Xylose (right, left, right) would require old C2 to keep its configuration as the new C2. Old C2 becomes the aldehyde carbon and loses its stereocenter.",
+  "new": "D-Xylose (right, left, right) does not match the surviving centers. Old C2 becomes the aldehyde carbon, and old C3, C4 and C5 read left, left, right.",
+  "why": "Old x1 claimed xylose = galactose with old C2 kept, but galactose old C2,C3,C4 read right, left, left, not xylose's right, left, right."
+ },
+ {
+  "id": "28B-252",
+  "field": "w",
+  "old": "Like simple amides and 2-pyridone, thymine strongly prefers the <b>lactam</b> (diketo) tautomer A, with two C=O groups and two N–H groups. The C=O bond and amide resonance make it far more stable than the lactim (enol-like) forms. In the A·T pair, thymine N3–H donates to adenine N1, and thymine C4=O accepts from adenine's 6-NH<sub>2</sub>. The rare enol tautomers change the donor/acceptor pattern and can cause mispairing (with G).",
+  "new": "Like simple amides and 2-pyridone, thymine strongly prefers the <b>lactam</b> (diketo) tautomer, with two C=O groups and two N–H groups. The C=O bond and amide resonance make it far more stable than the lactim (enol-like) forms. In the A·T pair, thymine N3–H donates to adenine N1, and thymine C4=O accepts from adenine's 6-NH<sub>2</sub>. The rare enol tautomers change the donor/acceptor pattern and can cause mispairing (with G).",
+  "why": "EXPL cites tautomer A. Structure-only choices render without letters and are shuffled, so the letter points at nothing."
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {
+  "id": "28B-800",
+  "field": "w",
+  "old": "Addition–elimination is fastest at a carbon ortho or para to NO<sub>2</sub>, because the Meisenheimer anion can put its charge on the nitro oxygens. F is ortho to NO<sub>2</sub>; Br is meta to it, so the bromine is not activated. Fluoride is also the best S<sub>N</sub>Ar leaving group because its electronegativity speeds the rate-determining addition step. The product is <b><i>N</i>,<i>N</i>-dimethyl-4-bromo-2-nitroaniline</b>.",
+  "new": "Addition–elimination is fastest at a carbon ortho or para to NO<sub>2</sub>, because the Meisenheimer anion can put its charge on the nitro oxygens. F is ortho to NO<sub>2</sub>; Br is meta to it, so the bromine is not activated. Fluoride is also the best S<sub>N</sub>Ar leaving group because its electronegativity speeds the rate-determining addition step. The product is <b>4-bromo-<i>N</i>,<i>N</i>-dimethyl-2-nitroaniline</b>.",
+  "why": "IUPAC alphabetical order: bromo before dimethyl (N,N-dimethyl alphabetized under m)"
+ },
+ {
+  "id": "28B-812",
+  "field": "x[3]",
+  "old": "6 would fit an ortho or meta isomer with partial symmetry; the para isomer has two equivalent pairs, giving 5.",
+  "new": "6 treats only one pair of ring CH carbons as equivalent. In the para isomer the mirror plane makes both pairs (C2/C6 and C3/C5) equivalent, giving 5; the ortho and meta isomers have no symmetry and give 7.",
+  "why": "Old text claimed ortho/meta isomers with partial symmetry give 6; both have 7 distinct carbons"
+ },
+ {
+  "id": "28B-865",
+  "field": "w",
+  "old": "The Diels–Alder reaction gives methyl cyclohex-3-ene-1-carboxylate: the ester carbon is C1 and the new C=C is C3=C4. Ozonolysis with a reductive workup cuts C3=C4 into two CHO groups and opens the ring. C1 is then joined to C2–C3 (CH<sub>2</sub>CHO) on one side and C6–C5–C4 (CH<sub>2</sub>CH<sub>2</sub>CHO) on the other: <b>methyl 2-(2-oxoethyl)-5-oxopentanoate</b>.",
+  "new": "The Diels–Alder reaction gives methyl cyclohex-3-ene-1-carboxylate: the ester carbon is C1 and the new C=C is C3=C4. Ozonolysis with a reductive workup cuts C3=C4 into two CHO groups and opens the ring. C1 is then joined to C2–C3 (CH<sub>2</sub>CHO) on one side and C6–C5–C4 (CH<sub>2</sub>CH<sub>2</sub>CHO) on the other: <b>methyl 5-oxo-2-(2-oxoethyl)pentanoate</b>.",
+  "why": "Substituent prefixes alphabetized: oxo before oxoethyl"
+ },
+ {
+  "id": "28B-876",
+  "field": "x[1]",
+  "old": "This swaps II and III. The bromide route loses the heavier by-product share (49% vs 55%), so it is the lowest.",
+  "new": "This swaps II and III. The bromide route has the lower atom economy (49% vs 55%) because the heavy Br atom leaves in NaBr, so it is the lowest.",
+  "why": "49%/55% are atom economies, not by-product shares"
+ },
+ {
+  "id": "28B-882",
+  "field": "w",
+  "old": "Cyclization uses the C5 OH, so C2–C5 keep their configurations: in D-allose all four are <i>R</i> in the open chain, and in the pyranose C2, C3 and C5 are <i>R</i> while C4 is <i>S</i>. The β anomer has the C1 OH cis to the C5 CH<sub>2</sub>OH (C1 is <i>R</i>). The correct structure has C1 <i>R</i>, C2 <i>R</i>, C3 <i>R</i>, C4 <i>S</i>, C5 <i>R</i>: <b>β-D-allopyranose</b>. In a Haworth drawing, all four ring OH groups and the CH<sub>2</sub>OH point up.",
+  "new": "Cyclization uses the C5 OH, so C2–C5 keep their configurations: in D-allose all four are <i>R</i> in the open chain, and in the pyranose C2, C3 and C5 are <i>R</i> while C4 is labeled <i>S</i> (ring closure changes its priorities, not its geometry). The β anomer has the C1 OH cis to the C5 CH<sub>2</sub>OH (C1 is <i>R</i>). The correct structure has C1 <i>R</i>, C2 <i>R</i>, C3 <i>R</i>, C4 <i>S</i>, C5 <i>R</i>: <b>β-D-allopyranose</b>. In a Haworth drawing, the C1 OH and the CH<sub>2</sub>OH point up, while the C2, C3 and C4 OH groups (all on the right in the Fischer projection) point down.",
+  "why": "Fischer right-side OH = Haworth down; beta-D-allopyranose has C2–C4 OH down. Also clarify C4 R->S is a CIP priority change"
+ }
+]

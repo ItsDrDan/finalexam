@@ -1,0 +1,149 @@
+[
+ {
+  "id": "3B-570",
+  "field": "x[1]",
+  "old": "Turn §B around: the branch is on the second carbon from the right end, so it is 2-methylpentane again, the same compound.",
+  "new": "Turn this drawing around: the branch is on the second carbon from the left end, so it is 2-methylpentane again, the same compound.",
+  "why": "Literal \"§B\" placeholder renders as text in the why-wrong list (whyHTML prints q.x verbatim beside the drawing; the game shuffles choices so letters are meaningless). Also the drawing (cs[1]) has the branch on the second carbon from the LEFT end (atoms 0-1 at left, branch on atom 1), contradicting \"right end\"; the EXPL already says left."
+ },
+ {
+  "id": "3B-570",
+  "field": "x[2]",
+  "old": "§C has only five carbons (2-methylbutane, C<sub>5</sub>H<sub>12</sub>). Isomers must have the same formula, C<sub>6</sub>H<sub>14</sub>.",
+  "new": "This drawing has only five carbons (2-methylbutane, C<sub>5</sub>H<sub>12</sub>). Isomers must have the same formula, C<sub>6</sub>H<sub>14</sub>.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-570",
+  "field": "x[3]",
+  "old": "§D contains a C=C, so it is C<sub>6</sub>H<sub>12</sub>, two H fewer than 2-methylpentane.",
+  "new": "This drawing contains a C=C, so it is C<sub>6</sub>H<sub>12</sub>, two H fewer than 2-methylpentane.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-571",
+  "field": "x[1]",
+  "old": "§B is butanal, C<sub>4</sub>H<sub>8</sub>O: it has one O fewer than ethyl acetate.",
+  "new": "This drawing is butanal, C<sub>4</sub>H<sub>8</sub>O: it has one O fewer than ethyl acetate.",
+  "why": "Literal \"§B\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-571",
+  "field": "x[2]",
+  "old": "§C is ethyl propanoate, C<sub>5</sub>H<sub>10</sub>O<sub>2</sub>: it has one more CH<sub>2</sub> than ethyl acetate.",
+  "new": "This drawing is ethyl propanoate, C<sub>5</sub>H<sub>10</sub>O<sub>2</sub>: it has one more CH<sub>2</sub> than ethyl acetate.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-571",
+  "field": "x[3]",
+  "old": "§D is 1-butanol, C<sub>4</sub>H<sub>10</sub>O: it has one O fewer and two H more than ethyl acetate.",
+  "new": "This drawing is 1-butanol, C<sub>4</sub>H<sub>10</sub>O: it has one O fewer and two H more than ethyl acetate.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-572",
+  "field": "x[1]",
+  "old": "§B is cyclopentene. It has a ring and a C=C, so it is C<sub>5</sub>H<sub>8</sub>, two H fewer than cyclopentane.",
+  "new": "This drawing is cyclopentene. It has a ring and a C=C, so it is C<sub>5</sub>H<sub>8</sub>, two H fewer than cyclopentane.",
+  "why": "Literal \"§B\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-572",
+  "field": "x[2]",
+  "old": "§C is pentane, C<sub>5</sub>H<sub>12</sub>. With no ring and no C=C it has two more H than cyclopentane.",
+  "new": "This drawing is pentane, C<sub>5</sub>H<sub>12</sub>. With no ring and no C=C it has two more H than cyclopentane.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-572",
+  "field": "x[3]",
+  "old": "§D is methylcyclopentane, which has six carbons. Isomers need the same number of each atom.",
+  "new": "This drawing is methylcyclopentane, which has six carbons. Isomers need the same number of each atom.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-573",
+  "field": "x[1]",
+  "old": "§B is the zig-zag with the CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub> on opposite sides of the C=C, which is the trans form.",
+  "new": "This drawing is the zig-zag with the CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub> on opposite sides of the C=C, which is the trans form.",
+  "why": "Literal \"§B\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-573",
+  "field": "x[2]",
+  "old": "§C is 1-pentene. Its end carbon holds two H, so it cannot be cis or trans.",
+  "new": "This drawing is 1-pentene. Its end carbon holds two H, so it cannot be cis or trans.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-573",
+  "field": "x[3]",
+  "old": "§D is 2-methyl-2-butene. One C=C carbon holds two CH<sub>3</sub> groups, so it cannot be cis or trans.",
+  "new": "This drawing is 2-methyl-2-butene. One C=C carbon holds two CH<sub>3</sub> groups, so it cannot be cis or trans.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-574",
+  "field": "x[1]",
+  "old": "In §B the CH<sub>3</sub> on C2 and the isopropyl group on C3 are on the same side of the C=C. That is the cis form.",
+  "new": "In this drawing the CH<sub>3</sub> on C2 and the isopropyl group on C3 are on the same side of the C=C. That is the cis form.",
+  "why": "Literal \"§B\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-574",
+  "field": "x[2]",
+  "old": "§C has the C=C at the end of the chain (4-methyl-1-pentene). Its end carbon holds two H, so it has no trans form.",
+  "new": "This drawing has the C=C at the end of the chain (4-methyl-1-pentene). Its end carbon holds two H, so it has no trans form.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-574",
+  "field": "x[3]",
+  "old": "§D has the C=C at the branched carbon, which holds two CH<sub>3</sub> groups. That alkene has no cis or trans form.",
+  "new": "This drawing has the C=C at the branched carbon, which holds two CH<sub>3</sub> groups. That alkene has no cis or trans form.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-577",
+  "field": "x[1]",
+  "old": "§B is 2-pentene. Each C=C carbon holds an H and a different carbon group, so cis and trans forms exist.",
+  "new": "This drawing is 2-pentene. Each C=C carbon holds an H and a different carbon group, so cis and trans forms exist.",
+  "why": "Literal \"§B\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-577",
+  "field": "x[2]",
+  "old": "§C is 3-hexene. Each C=C carbon holds an H and an ethyl group, so cis and trans forms exist.",
+  "new": "This drawing is 3-hexene. Each C=C carbon holds an H and an ethyl group, so cis and trans forms exist.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-577",
+  "field": "x[3]",
+  "old": "§D is 2-butene. Each C=C carbon holds an H and a CH<sub>3</sub>, so cis and trans forms exist.",
+  "new": "This drawing is 2-butene. Each C=C carbon holds an H and a CH<sub>3</sub>, so cis and trans forms exist.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-578",
+  "field": "x[1]",
+  "old": "§B is 2-butene. Each C=C carbon holds an H and a CH<sub>3</sub>, so it does have cis and trans forms.",
+  "new": "This drawing is 2-butene. Each C=C carbon holds an H and a CH<sub>3</sub>, so it does have cis and trans forms.",
+  "why": "Literal \"§B\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-578",
+  "field": "x[2]",
+  "old": "§C is 2-hexene. Each C=C carbon holds two different groups, so it does have cis and trans forms.",
+  "new": "This drawing is 2-hexene. Each C=C carbon holds two different groups, so it does have cis and trans forms.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ },
+ {
+  "id": "3B-578",
+  "field": "x[3]",
+  "old": "§D is 3-methyl-2-pentene. The branch does not prevent cis–trans isomerism: each C=C carbon still holds two different groups.",
+  "new": "This drawing is 3-methyl-2-pentene. The branch does not prevent cis–trans isomerism: each C=C carbon still holds two different groups.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless)."
+ }
+]

@@ -1,0 +1,9 @@
+[
+ {
+  "id": "1B-400",
+  "field": "w",
+  "old": "pH 9.00 → pOH 5.00 → [OH<sup>−</sup>] = 1.0×10<sup>−5</sup> M, so Q = (0.010)(1.0×10<sup>−5</sup>)<sup>2</sup> = 1.0×10<sup>−12</sup> for every metal. Only <b>Mn(OH)<sub>2</sub></b> (K<sub>sp</sub> = 1.9×10<sup>−13</sup>) has K<sub>sp</sub> &lt; Q and precipitates. Mg(OH)<sub>2</sub> (5.6×10<sup>−12</sup>) is the near miss: Q is still below its K<sub>sp</sub>. Forgetting to square [OH<sup>−</sup>] gives Q = 1.0×10<sup>−7</sup>, which would wrongly precipitate Mg(OH)2 as well.",
+  "new": "pH 9.00 → pOH 5.00 → [OH<sup>−</sup>] = 1.0×10<sup>−5</sup> M, so Q = (0.010)(1.0×10<sup>−5</sup>)<sup>2</sup> = 1.0×10<sup>−12</sup> for every metal. Only <b>Mn(OH)<sub>2</sub></b> (K<sub>sp</sub> = 1.9×10<sup>−13</sup>) has K<sub>sp</sub> &lt; Q and precipitates. Mg(OH)<sub>2</sub> (5.6×10<sup>−12</sup>) is the near miss: Q is still below its K<sub>sp</sub>. Forgetting to square [OH<sup>−</sup>] gives Q = 1.0×10<sup>−7</sup>, which would wrongly precipitate Mg(OH)<sub>2</sub> as well.",
+  "why": "Missing <sub> on the 2 in Mg(OH)2 in the explanation; every other formula in the item is subscripted"
+ }
+]

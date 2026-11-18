@@ -1,0 +1,30 @@
+[
+ {
+  "id": "28A-300",
+  "field": "x[3]",
+  "old": "Six counts each carbon as its own signal. Equivalent carbons (the two isopropyl CH<sub>3</sub>) give one signal, and the ethyl and OCH carbons each carry one set.",
+  "new": "Six is more signals than there are carbons bearing H (five). The two isopropyl CH<sub>3</sub> groups are equivalent, so there are only four sets of H.",
+  "why": "Ethyl isopropyl ether has 5 carbons, so \"six counts each carbon\" is false"
+ },
+ {
+  "id": "28A-303",
+  "field": "x[3]",
+  "old": "Six counts carbons, not sets of equivalent hydrogens; the two methyls are one set.",
+  "new": "Six is more signals than the molecule has carbons (five). The two CH<sub>3</sub> groups on the same CH are one set, so there are only four sets of H.",
+  "why": "1-Bromo-3-methylbutane has 5 carbons, so \"six counts carbons\" is false"
+ },
+ {
+  "id": "28A-344",
+  "field": "x[2]",
+  "old": "This treats Cl as if it did not count. A halogen takes the place of an H, so it is subtracted like H.",
+  "new": "This adds the Cl to the allowed H count instead of subtracting it. A halogen takes the place of an H, so it is subtracted like H.",
+  "why": "Ignoring Cl gives (18+2+1-10)/2 = 5.5, not 6; adding Cl gives (18+2+1-10+1)/2 = 6"
+ },
+ {
+  "id": "28A-381",
+  "field": "x[3]",
+  "old": "The odd electron of a vinylic radical sits in an sp<sup>2</sup> orbital in the plane of the π bond, so it is not delocalized; vinylic radicals are very unstable.",
+  "new": "The odd electron of a vinylic radical sits in an sp<sup>2</sup> orbital perpendicular to the π orbitals, so it is not delocalized; vinylic radicals are very unstable.",
+  "why": "The sp2 orbital lies in the nodal plane of the π bond, orthogonal to it; \"in the plane of the π bond\" is misleading"
+ }
+]

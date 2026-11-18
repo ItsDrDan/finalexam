@@ -1,0 +1,2386 @@
+[
+ {
+  "id": "3A-495",
+  "field": "q",
+  "old": "In a hydrogen atom, which electron jump gives off a photon of light?",
+  "new": "In a hydrogen atom, which electron jump gives off the photon with the <b>most</b> energy?",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR).",
+  "src": "rigor"
+ },
+ {
+  "id": "3A-495",
+  "field": "c[0]",
+  "old": "n = 4 to n = 2",
+  "new": "n = 3 to n = 1",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR).",
+  "src": "rigor"
+ },
+ {
+  "id": "3A-495",
+  "field": "c[1]",
+  "old": "n = 1 to n = 3",
+  "new": "n = 4 to n = 2",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR).",
+  "src": "rigor"
+ },
+ {
+  "id": "3A-495",
+  "field": "c[2]",
+  "old": "n = 2 to n = 5",
+  "new": "n = 1 to n = 3",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR).",
+  "src": "rigor"
+ },
+ {
+  "id": "3A-495",
+  "field": "c[3]",
+  "old": "n = 2 to n = 2",
+  "new": "n = 5 to n = 3",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR).",
+  "src": "rigor"
+ },
+ {
+  "id": "3A-495",
+  "field": "x[1]",
+  "old": "Moving up from n = 1 to n = 3 needs energy; the atom absorbs a photon instead of giving one off.",
+  "new": "This drop does give off light, but the levels get closer together as n increases, so the gap from n = 4 to n = 2 is much smaller than the gap from n = 3 to n = 1.",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR).",
+  "src": "rigor"
+ },
+ {
+  "id": "3A-495",
+  "field": "x[2]",
+  "old": "Moving up from n = 2 to n = 5 needs energy, so it is absorption, not emission.",
+  "new": "This jump has the same size gap as n = 3 to n = 1, but it goes up. Moving up absorbs a photon; it does not give one off.",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR).",
+  "src": "rigor"
+ },
+ {
+  "id": "3A-495",
+  "field": "x[3]",
+  "old": "Staying in the same level involves no energy change, so no photon is given off.",
+  "new": "This drop gives off light, but n = 3 and n = 5 are high levels that sit close together, so this is the smallest gap of the three drops.",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR).",
+  "src": "rigor"
+ },
+ {
+  "id": "3A-495",
+  "field": "h",
+  "old": "Up arrows absorb energy; down arrows give off light.",
+  "new": "Light is given off only when the electron drops to a lower level. Then compare the gaps: hydrogen’s levels get closer together as n gets larger.",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR).",
+  "src": "rigor"
+ },
+ {
+  "id": "3A-495",
+  "field": "w",
+  "old": "Emission happens when an electron <b>drops to a lower level</b>: n = 4 to n = 2 releases the energy difference as a photon (hydrogen's 486 nm blue-green line). Upward jumps absorb energy.",
+  "new": "A photon is given off only when the electron <b>drops</b> (n = 1 to n = 3 is a jump up, so it absorbs light). Among the three drops, the photon energy equals the gap between the levels, and hydrogen’s levels crowd together as n increases: the gap from n = 3 to n = 1 is about 0.89 of the full ionization energy, n = 4 to n = 2 about 0.19, and n = 5 to n = 3 about 0.07. So <b>n = 3 to n = 1</b> gives the most energetic photon (an ultraviolet line); n = 4 to n = 2 gives hydrogen’s blue-green visible line.",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR).",
+  "src": "rigor"
+ },
+ {
+  "id": "3A-495",
+  "field": "raw",
+  "old": "\"d\":1",
+  "new": "\"d\":2",
+  "why": "Rigor upgrade (2026-11-18 audit): recall item with a giveaway choice (n = 2 to n = 2) rebuilt to test both emission direction and the narrowing spacing of hydrogen levels (Bohr model, in the 3A COR).",
+  "src": "rigor"
+ },
+ {
+  "id": "1B-440",
+  "field": "q",
+  "old": "A solution of calcium oxalate, CaC<sub>2</sub>O<sub>4</sub>, is unsaturated. Which relationship between the ion product Q and K<sub>sp</sub> holds?",
+  "new": "At 25 °C a solution contains 2.0×10<sup>−5</sup> M Ca<sup>2+</sup> and 3.0×10<sup>−5</sup> M C<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>. For calcium oxalate, CaC<sub>2</sub>O<sub>4</sub>, K<sub>sp</sub> = 2.3×10<sup>−9</sup>. Which statement is correct?",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it.",
+  "src": "rigor"
+ },
+ {
+  "id": "1B-440",
+  "field": "c[0]",
+  "old": "Q &lt; K<sub>sp</sub>",
+  "new": "Q &lt; K<sub>sp</sub>: the solution is unsaturated, so added CaC<sub>2</sub>O<sub>4</sub> would dissolve",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it.",
+  "src": "rigor"
+ },
+ {
+  "id": "1B-440",
+  "field": "c[1]",
+  "old": "Q = K<sub>sp</sub>",
+  "new": "Q &gt; K<sub>sp</sub>: CaC<sub>2</sub>O<sub>4</sub> precipitates until Q falls to K<sub>sp</sub>",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it.",
+  "src": "rigor"
+ },
+ {
+  "id": "1B-440",
+  "field": "c[2]",
+  "old": "Q &gt; K<sub>sp</sub>",
+  "new": "Q &lt; K<sub>sp</sub>: the solution is supersaturated, so a seed crystal starts precipitation",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it.",
+  "src": "rigor"
+ },
+ {
+  "id": "1B-440",
+  "field": "c[3]",
+  "old": "K<sub>sp</sub> &lt; Q &lt; 1",
+  "new": "Q = K<sub>sp</sub>: the solution is saturated, with ions at equilibrium with solid",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it.",
+  "src": "rigor"
+ },
+ {
+  "id": "1B-440",
+  "field": "x[1]",
+  "old": "Q = Ksp is a saturated solution.",
+  "new": "Q = (2.0×10<sup>−5</sup>)(3.0×10<sup>−5</sup>) = 6.0×10<sup>−10</sup>, which is below 2.3×10<sup>−9</sup>. Precipitation needs Q above K<sub>sp</sub>.",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it.",
+  "src": "rigor"
+ },
+ {
+  "id": "1B-440",
+  "field": "x[2]",
+  "old": "Q greater than Ksp means a precipitate forms.",
+  "new": "The comparison Q &lt; K<sub>sp</sub> is right, but that means unsaturated. Supersaturated means Q &gt; K<sub>sp</sub> while no solid has formed yet.",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it.",
+  "src": "rigor"
+ },
+ {
+  "id": "1B-440",
+  "field": "x[3]",
+  "old": "An unsaturated solution has Q less than Ksp.",
+  "new": "Saturation needs Q = 2.3×10<sup>−9</sup>. Here Q = 6.0×10<sup>−10</sup>, only about a quarter of K<sub>sp</sub>.",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it.",
+  "src": "rigor"
+ },
+ {
+  "id": "1B-440",
+  "field": "h",
+  "old": "Unsaturated means more solid could still dissolve. Does that mean the ion product is below or above the maximum allowed?",
+  "new": "Write Q with the same form as K<sub>sp</sub>, using the concentrations you are given, then compare Q with K<sub>sp</sub>.",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it.",
+  "src": "rigor"
+ },
+ {
+  "id": "1B-440",
+  "field": "w",
+  "old": "In an unsaturated solution the ion concentrations are below their saturation values, so <b>Q = [Ca<sup>2+</sup><span class=\"nw\">][C<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>]</span> &lt; K<sub>sp</sub></b> and additional solid dissolves. Q = K<sub>sp</sub> is a saturated solution at equilibrium; Q &gt; K<sub>sp</sub> means a precipitate forms.",
+  "new": "Q = [Ca<sup>2+</sup>][C<sub>2</sub>O<span class=\"ss\"><sup>2−</sup><sub>4</sub></span>] = (2.0×10<sup>−5</sup>)(3.0×10<sup>−5</sup>) = 6.0×10<sup>−10</sup>. Because Q &lt; K<sub>sp</sub> (2.3×10<sup>−9</sup>), the ions are below their saturation level: the solution is <b>unsaturated, and more CaC<sub>2</sub>O<sub>4</sub> would dissolve</b> until Q rises to K<sub>sp</sub>. Q = K<sub>sp</sub> would be saturated; Q &gt; K<sub>sp</sub> means precipitation (or a supersaturated solution if no solid has formed yet).",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it.",
+  "src": "rigor"
+ },
+ {
+  "id": "1B-440",
+  "field": "raw",
+  "old": "\"k\":0",
+  "new": "\"k\":1",
+  "why": "Rigor upgrade (2026-11-18 audit): definition recall with a giveaway choice (\"Ksp < Q < 1\") rebuilt so students compute Q from data and interpret it.",
+  "src": "rigor"
+ },
+ {
+  "id": "3B-979",
+  "field": "q",
+  "old": "Dopamine, norepinephrine, serotonin and histamine are all neurotransmitters. Which functional group do all four contain, which is protonated (–NH<sub>3</sub><sup>+</sup>) at body pH?",
+  "new": "Dopamine, norepinephrine, serotonin and histamine are neurotransmitters made from amino acids. Each carries a positive charge in body fluids (pH about 7.4). Which functional group do all four share, and why is it charged?",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH.",
+  "src": "rigor"
+ },
+ {
+  "id": "3B-979",
+  "field": "c[0]",
+  "old": "an amine",
+  "new": "An amine, which accepts H<sup>+</sup> at pH 7.4",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH.",
+  "src": "rigor"
+ },
+ {
+  "id": "3B-979",
+  "field": "c[1]",
+  "old": "an amide",
+  "new": "An amide, which accepts H<sup>+</sup> at pH 7.4",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH.",
+  "src": "rigor"
+ },
+ {
+  "id": "3B-979",
+  "field": "c[2]",
+  "old": "a carboxylic acid",
+  "new": "An amine, which gives up H<sup>+</sup> at pH 7.4",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH.",
+  "src": "rigor"
+ },
+ {
+  "id": "3B-979",
+  "field": "c[3]",
+  "old": "an ester",
+  "new": "A carboxylic acid, which gives up H<sup>+</sup> at pH 7.4",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH.",
+  "src": "rigor"
+ },
+ {
+  "id": "3B-979",
+  "field": "x[1]",
+  "old": "An amide has N bonded to a C=O. These neurotransmitters have N bonded only to carbon and hydrogen atoms.",
+  "new": "An amide N is bonded to a C=O, which pulls its lone pair into resonance, so amides are neutral, not basic. These four molecules have N bonded only to C and H.",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH.",
+  "src": "rigor"
+ },
+ {
+  "id": "3B-979",
+  "field": "x[2]",
+  "old": "These compounds are made by removing the –COOH group from an amino acid, so they have no carboxylic acid left.",
+  "new": "The group is an amine, but amines are weak bases: they gain H<sup>+</sup> (becoming –NH<sub>3</sub><sup>+</sup>), which is what makes them positive. Losing H<sup>+</sup> would not give a positive charge.",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH.",
+  "src": "rigor"
+ },
+ {
+  "id": "3B-979",
+  "field": "x[3]",
+  "old": "An ester is a C=O bonded to an –OR group. Acetylcholine is an ester, but these four neurotransmitters are amines.",
+  "new": "A carboxylic acid that gives up H<sup>+</sup> becomes –COO<sup>−</sup>, a negative charge. These molecules are made by removing the –COOH group, and they are positive.",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH.",
+  "src": "rigor"
+ },
+ {
+  "id": "3B-979",
+  "field": "h",
+  "old": "These compounds are made from amino acids by removing the –COOH group. Which group is left?",
+  "new": "They are made from amino acids by removing the –COOH group. Which group is left, and is it an acid or a base?",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH.",
+  "src": "rigor"
+ },
+ {
+  "id": "3B-979",
+  "field": "w",
+  "old": "All four contain an <b>amine</b> group. Like other amines, it is a weak base and is mostly protonated in body fluids, so these neurotransmitters carry a positive charge.",
+  "new": "All four keep the <b>amine</b> nitrogen of their parent amino acid (the –COOH is removed). Amines are weak bases, so at pH 7.4 the nitrogen <b>accepts H<sup>+</sup></b> and becomes –NH<sub>3</sub><sup>+</sup> (or –NH<sub>2</sub><sup>+</sup>–), giving the positive charge. Amides are not basic, and a group that gives up H<sup>+</sup> (like –COOH) becomes negative.",
+  "why": "Rigor upgrade (2026-11-18 audit): the stem printed –NH3+, which named the answer; now students must link the group to its acid-base behavior at body pH.",
+  "src": "rigor"
+ },
+ {
+  "id": "1A-7",
+  "field": "raw",
+  "old": "\"t\":\"measure\"",
+  "new": "\"t\":\"atoms\"",
+  "why": "Law of multiple proportions is atomic theory (OpenStax Ch 2); sibling 1A-8 (definite composition) is tagged atoms",
+  "src": "first"
+ },
+ {
+  "id": "1A-57",
+  "field": "c[3]",
+  "old": "15.7 kJ",
+  "new": "15.8 kJ",
+  "why": "Leaving out c: 250.0 g x 63.0 °C = 15750 J = 15.75 kJ, which rounds to 15.8 kJ",
+  "src": "first"
+ },
+ {
+  "id": "1A-104",
+  "field": "x[3]",
+  "old": "Three double bonds would put 10 electrons around N. A period 2 atom like N cannot hold more than 8.",
+  "new": "Three double bonds would put 12 electrons around N. A period 2 atom like N cannot hold more than 8.",
+  "why": "Three N=O double bonds = 6 bonding pairs = 12 electrons, not 10",
+  "src": "first"
+ },
+ {
+  "id": "1A-130",
+  "field": "w",
+  "old": "5.00 g ÷ 65.38 = 0.0765 mol H₂. V = (0.0765)(0.08206)(298.15) ÷ (755/760 atm) = <b>1.88 L</b>. 1.71 L uses the STP molar volume, but the gas is not at STP. 0.158 L uses 25.0 instead of 298.15 K; 0.00248 L uses 755 torr as if it were atm.",
+  "new": "5.00 g ÷ 65.39 = 0.0765 mol H₂. V = (0.0765)(0.08206)(298.15) ÷ (755/760 atm) = <b>1.88 L</b>. 1.71 L uses the STP molar volume, but the gas is not at STP. 0.158 L uses 25.0 instead of 298.15 K; 0.00248 L uses 755 torr as if it were atm.",
+  "why": "Game periodic table lists Zn = 65.39; result unchanged",
+  "src": "first"
+ },
+ {
+  "id": "1A-170",
+  "field": "w",
+  "old": "S = 1.502 − 0.540 = 0.962 g → 0.962/32.06 = 0.03001 mol S; Al = 0.540/26.98 = 0.02001 mol. Ratio S:Al = 1.50:1 = 3:2 → <b>Al<sub>2</sub>S<sub>3</sub></b>. Al<sub>3</sub>S<sub>2</sub> inverts the ratio.",
+  "new": "S = 1.502 − 0.540 = 0.962 g → 0.962/32.07 = 0.02999 mol S; Al = 0.540/26.98 = 0.02001 mol. Ratio S:Al = 1.50:1 = 3:2 → <b>Al<sub>2</sub>S<sub>3</sub></b>. Al<sub>3</sub>S<sub>2</sub> inverts the ratio.",
+  "why": "Game periodic table lists S = 32.07; ratio 1.50 and key unchanged",
+  "src": "first"
+ },
+ {
+  "id": "1A-194",
+  "field": "raw",
+  "old": "\"k\":0,\"d\":1",
+  "new": "\"k\":0,\"d\":2",
+  "why": "Ranking four O2 species by MO bond order is not recall; parallel 1A-120 is d=2",
+  "src": "first"
+ },
+ {
+  "id": "1A-232",
+  "field": "q",
+  "old": "What mass of propane must burn by the reaction shown to heat 2.00 kg of water from 20.0 °C to 80.0 °C? Assume all of the heat goes into the water.",
+  "new": "What mass of propane must burn by the reaction shown to heat 2.00 kg of water from 20.0 °C to 80.0 °C? Assume all of the heat goes into the water. (c(water) = 4.184 J g⁻¹ °C⁻¹)",
+  "why": "Answer requires water's specific heat, which is not given in the stem or the 1A data list (1A-266 states it the same way).",
+  "src": "first"
+ },
+ {
+  "id": "1A-260",
+  "field": "w",
+  "old": "V₂ = 5.00 L × (1.00/0.500) × (243 K/298 K) = <b>8.16 L</b>. 10.0 L ignores the cooling; 12.3 L flips the temperature ratio; °C gives a negative volume.",
+  "new": "V₂ = 5.00 L × (1.00/0.500) × (243.15 K/298.15 K) = <b>8.16 L</b>. 10.0 L ignores the cooling; 12.3 L flips the temperature ratio; °C gives a negative volume.",
+  "why": "5.00×2×243/298 = 8.154 → 8.15, contradicting the keyed 8.16; with 243.15/298.15 it is 8.155 → 8.16.",
+  "src": "first"
+ },
+ {
+  "id": "1A-275",
+  "field": "q",
+  "old": "Four water solutions sit at 25 °C. If the ionic solutes dissociate fully, which solution gives off the greatest vapor pressure above it?",
+  "new": "Four water solutions sit at 25 °C. If the ionic solutes dissociate fully, which solution has the highest vapor pressure?",
+  "why": "Wording fix: a solution does not 'give off' a pressure.",
+  "src": "first"
+ },
+ {
+  "id": "1A-473",
+  "field": "w",
+  "old": "Gaps: A = 9.0, B = 7.0, C = 13.5, D = 4.5 (×10<sup>−19</sup> J). The largest gap, <b>C</b> (n = 1 → n = 3), needs the highest-frequency photon. D skips two levels just like C but spans only 4.5 units because the upper levels crowd together; A is the biggest single-step jump but still smaller than C.",
+  "new": "Gaps: A = 9.0, B = 7.0, C = 13.5, D = 4.5 (×10<sup>−19</sup> J). The largest gap, <b>C</b> (n = 1 → n = 3), needs the highest-frequency photon. D also climbs two levels, just like C, but spans only 4.5 units because the upper levels crowd together; A is the biggest single-step jump but still smaller than C.",
+  "why": "C (n=1->3) and D (n=3->5) each rise two levels; neither skips two. Matches the hint wording about levels.",
+  "src": "first"
+ },
+ {
+  "id": "1A-482",
+  "field": "raw",
+  "old": "\"H\":[2,17]",
+  "new": "\"J\":[2,17]",
+  "why": "Fluorine-position label H makes choice read H⁻ (hydride ion, 2 e⁻). Relabel to J.",
+  "src": "first"
+ },
+ {
+  "id": "1A-482",
+  "field": "c[2]",
+  "old": "H<sup>−</sup>",
+  "new": "J<sup>−</sup>",
+  "why": "Matches relabeled figure; avoids hydride-ion reading.",
+  "src": "first"
+ },
+ {
+  "id": "1A-482",
+  "field": "x[2]",
+  "old": "H⁻ has 9 protons, more than G²⁻'s 8.",
+  "new": "J⁻ has 9 protons, more than G²⁻'s 8.",
+  "why": "Matches relabeled figure.",
+  "src": "first"
+ },
+ {
+  "id": "1A-549",
+  "field": "w",
+  "old": "3.01×10<sup>21</sup> ÷ 6.022×10<sup>23</sup> = 5.00×10<sup>−3</sup> mol; 0.730 g ÷ 5.00×10<sup>−3</sup> mol = 146 g mol⁻¹. (146 − 32.06)/19.00 = 6.0, so <b><i>n</i> = 6</b> (SF<sub>6</sub>). SF<sub>4</sub> would have a molar mass of 108 g mol⁻¹, giving only 0.540 g for this many molecules.",
+  "new": "3.01×10<sup>21</sup> ÷ 6.022×10<sup>23</sup> = 5.00×10<sup>−3</sup> mol; 0.730 g ÷ 5.00×10<sup>−3</sup> mol = 146 g mol⁻¹. (146 − 32.07)/19.00 = 6.0, so <b><i>n</i> = 6</b> (SF<sub>6</sub>). SF<sub>4</sub> would have a molar mass of 108 g mol⁻¹, giving only 0.540 g for this many molecules.",
+  "why": "Game periodic table lists S = 32.07.",
+  "src": "first"
+ },
+ {
+  "id": "1A-549",
+  "field": "x[3]",
+  "old": "SF₂ would be 70.06 g/mol, so 5.00×10⁻³ mol would weigh only 0.350 g, not 0.730 g. Find the molar mass (g ÷ mol) and solve for <i>n</i>.",
+  "new": "SF₂ would be 70.07 g/mol, so 5.00×10⁻³ mol would weigh only 0.350 g, not 0.730 g. Find the molar mass (g ÷ mol) and solve for <i>n</i>.",
+  "why": "S = 32.07 in the game table, so SF2 = 70.07 g/mol (0.350 g unchanged).",
+  "src": "first"
+ },
+ {
+  "id": "1A-550",
+  "field": "x[3]",
+  "old": "SO₂ is only 50.0% O by mass, because the sulfur atom (32.06 g) weighs as much as both oxygens. More O atoms don't help when the partner atom is heavy.",
+  "new": "SO₂ is only 50.0% O by mass, because the sulfur atom (32.07 g) weighs as much as both oxygens. More O atoms don't help when the partner atom is heavy.",
+  "why": "Game periodic table lists S = 32.07.",
+  "src": "first"
+ },
+ {
+  "id": "1A-629",
+  "field": "raw",
+  "old": "\"k\":1,\"d\":3,",
+  "new": "\"k\":1,\"d\":2,",
+  "why": "Three routine unit conversions with a calculator; d=3 overstates difficulty",
+  "src": "first"
+ },
+ {
+  "id": "1A-635",
+  "field": "w",
+  "old": "NH<sub>4</sub>NO<sub>3</sub>: 28.01/80.04 = 35.0% N. N<sub>2</sub>O: 28.01/44.01 = 63.6% N. NH<sub>3</sub>: 14.01/17.03 = 82.2% N. The order is <b>III &lt; I &lt; II</b>. Counting N atoms alone misleads: NH<sub>4</sub>NO<sub>3</sub> has two N atoms but a large molar mass.",
+  "new": "NH<sub>4</sub>NO<sub>3</sub>: 28.02/80.05 = 35.0% N. N<sub>2</sub>O: 28.02/44.02 = 63.7% N. NH<sub>3</sub>: 14.01/17.03 = 82.2% N. The order is <b>III &lt; I &lt; II</b>. Counting N atoms alone misleads: NH<sub>4</sub>NO<sub>3</sub> has two N atoms but a large molar mass.",
+  "why": "Game masses: 2 × 14.01 = 28.02, NH4NO3 = 80.05, N2O = 44.02 g/mol; 28.02/44.02 = 63.65% -> 63.7%",
+  "src": "first"
+ },
+ {
+  "id": "1A-635",
+  "field": "x[1]",
+  "old": "N₂O is 63.6% N, which is more than NH₄NO₃ at 35.0% N.",
+  "new": "N₂O is 63.7% N, which is more than NH₄NO₃ at 35.0% N.",
+  "why": "Same: N2O is 63.7% N with the game masses",
+  "src": "first"
+ },
+ {
+  "id": "1A-699",
+  "field": "raw",
+  "old": "[{\"y\":-16,\"label\":\"−16.0\"},{\"y\":-9,\"label\":\"−9.0\"},{\"y\":-6,\"label\":\"−6.0\"},{\"y\":-4.5,\"label\":\"−4.5\"}]",
+  "new": "[{\"y\":-16,\"label\":\"−16.00\"},{\"y\":-9,\"label\":\"−9.00\"},{\"y\":-6,\"label\":\"−6.00\"},{\"y\":-4.5,\"label\":\"−4.50\"}]",
+  "why": "Labels -16.0 and -9.0 give a 2-sig-fig gap (7.0e-19 J) so 284 nm has too many sig figs; two-decimal labels make 7.00e-19 J and 284 nm consistent",
+  "src": "first"
+ },
+ {
+  "id": "1A-699",
+  "field": "w",
+  "old": "The arrow drops from −9.0 to −16.0 × 10<sup>−19</sup> J, so E<sub>photon</sub> = 7.0 × 10<sup>−19</sup> J. λ = hc/E = (6.626 × 10<sup>−34</sup>)(2.998 × 10<sup>8</sup>) ÷ (7.0 × 10<sup>−19</sup>) = 2.84 × 10<sup>−7</sup> m = <b>284 nm</b>. 221 nm uses the upper level's energy alone, 124 nm uses the lower level's energy alone, and 79.5 nm adds the two energies.",
+  "new": "The arrow drops from −9.00 to −16.00 × 10<sup>−19</sup> J, so E<sub>photon</sub> = 7.00 × 10<sup>−19</sup> J. λ = hc/E = (6.626 × 10<sup>−34</sup>)(2.998 × 10<sup>8</sup>) ÷ (7.00 × 10<sup>−19</sup>) = 2.84 × 10<sup>−7</sup> m = <b>284 nm</b>. 221 nm uses the upper level's energy alone, 124 nm uses the lower level's energy alone, and 79.5 nm adds the two energies.",
+  "why": "Match the relabeled levels; 3 sig figs support 284 nm",
+  "src": "first"
+ },
+ {
+  "id": "1A-701",
+  "field": "h",
+  "old": "A bigger drop releases more energy and so gives a shorter wavelength. The drops from n = 2, 3, 4 and 5 grow in that order.",
+  "new": "Use ΔE = 2.18 × 10<sup>−18</sup> J (1 − 1/n<sup>2</sup>) for the drop from n = 4, then λ = hc/ΔE. A bigger drop releases more energy and gives a shorter wavelength.",
+  "why": "current hint lists the drops from n = 2, 3, 4, 5 in increasing order; with four lines on the figure it identifies the answer (the third line) without any work",
+  "src": "first"
+ },
+ {
+  "id": "1A-718",
+  "field": "x[3]",
+  "old": "The C to O ratio in the drawing is 1 to 1, and CH₂O also has the wrong H count.",
+  "new": "CH₂O has the right 1 to 1 ratio of C to O, but it has 2 H per C. The drawing has 6 H for 4 C, only 1.5 H per C.",
+  "why": "CH2O also has a 1:1 C:O ratio, so the old feedback's first clause does not rule it out; the real error is the H count",
+  "src": "first"
+ },
+ {
+  "id": "1A-727",
+  "field": "w",
+  "old": "FeS<sub>2</sub>: 64.12/119.97 = 53.4% S. SO<sub>2</sub>: 32.06/64.06 = 50.0% S. CuS: 32.06/95.61 = 33.5% S. So <b>III &lt; II &lt; I</b>. SO<sub>2</sub> and FeS<sub>2</sub> are close, so each must be calculated.",
+  "new": "FeS<sub>2</sub>: 64.14/119.99 = 53.5% S. SO<sub>2</sub>: 32.07/64.07 = 50.1% S. CuS: 32.07/95.62 = 33.5% S. So <b>III &lt; II &lt; I</b>. SO<sub>2</sub> and FeS<sub>2</sub> are close, so each must be calculated.",
+  "why": "recomputed with the game's masses (S 32.07, Fe 55.85, Cu 63.55, O 16.00): 53.45%, 50.05%, 33.54%; old EXPL used S 32.06 and printed 53.4/50.0",
+  "src": "first"
+ },
+ {
+  "id": "1A-738",
+  "field": "w",
+  "old": "The mass of ZnS stops rising at about 0.98 g of S (2.00 g Zn / 65.38 g mol<sup>−1</sup> = 0.0306 mol needs 0.0306 mol × 32.06 = 0.98 g S). At point B, 1.50 g of S was added, so <b>Zn is limiting and about 0.52 g of S is left</b> (1.50 − 0.98). S is the limiting reactant only on the rising part, such as point A.",
+  "new": "The mass of ZnS stops rising at about 0.98 g of S (2.00 g Zn / 65.39 g mol<sup>−1</sup> = 0.0306 mol needs 0.0306 mol × 32.07 = 0.98 g S). At point B, 1.50 g of S was added, so <b>Zn is limiting and about 0.52 g of S is left</b> (1.50 − 0.98). S is the limiting reactant only on the rising part, such as point A.",
+  "why": "game masses are Zn 65.39 and S 32.07; 2.00/65.39 × 32.07 = 0.981 g S, result unchanged",
+  "src": "first"
+ },
+ {
+  "id": "1A-746",
+  "field": "x[3]",
+  "old": "Check the subtraction. The water lost is the hydrate mass minus the residue mass.",
+  "new": "4 does not fit the data. Convert the water lost (1.080 g) and the CoCl₂ left (1.300 g) to moles, then divide.",
+  "why": "no identifiable subtraction error gives 4 (correct work gives 5.99); old feedback did not diagnose the choice",
+  "src": "first"
+ },
+ {
+  "id": "1B-52",
+  "field": "x[1]",
+  "old": "This leaves the 0.25 M concentration out of the square root. Find [H₃O⁺] from both Ka and the concentration first.",
+  "new": "1.3% is √Ka × 100: it leaves the 0.25 M out of the square root and never divides by it. Find [H₃O⁺] = √(Ka × 0.25) first, then divide by 0.25 M.",
+  "why": "sqrt(1.8e-4)=0.0134 -> 1.3% only if 0.25 is also never divided by; leaving 0.25 out of the root alone gives 5.4%",
+  "src": "first"
+ },
+ {
+  "id": "1B-80",
+  "field": "x[3]",
+  "old": "Recompute: moles NaOH = 2 × moles H₂SO₄.",
+  "new": "26.7 mL comes from 20.0 mL × 0.200 M ÷ 0.150 M, which swaps the two molarities and skips the 2:1 ratio. Use mol H₂SO₄ = 0.0200 L × 0.150 M, double it for two H⁺, then divide by 0.200 M.",
+  "why": "20.0x0.200/0.150=26.7; old feedback did not diagnose the choice",
+  "src": "first"
+ },
+ {
+  "id": "1B-210",
+  "field": "x[3]",
+  "old": "Recheck: Ea = R ln(k₂/k₁) ÷ (1/T₁ − 1/T₂).",
+  "new": "5.3 comes from stopping at the slope, E<sub>a</sub>/R = 5.27×10³ K. Multiply by R = 8.314 J/(mol·K) to get E<sub>a</sub>.",
+  "why": "1.881/3.571e-4 = 5268 K = Ea/R; 'Recheck' did not diagnose the error",
+  "src": "first"
+ },
+ {
+  "id": "1B-249",
+  "field": "x[3]",
+  "old": "This is the solubility in pure water.",
+  "new": "This is (K<sub>sp</sub>/27)<sup>1/4</sup>, the formula for Fe(OH)<sub>3</sub> dissolving with no OH⁻ already present. At pH 3.00, [OH⁻] is fixed at 1.0×10⁻¹¹ M, so use K<sub>sp</sub>/[OH⁻]³.",
+  "why": "In real pure water [OH-] = 1e-7 M dominates, so 2.0e-10 M is not the actual pure-water solubility (~4e-17 M); relabel the distractor by the formula it uses",
+  "src": "first"
+ },
+ {
+  "id": "1B-249",
+  "field": "w",
+  "old": "pOH = 11.00, [OH<sup>−</sup>] = 1.0×10<sup>−11</sup> M. [Fe<sup>3+</sup>] = 4.0×10<sup>−38</sup>/(1.0×10<sup>−11</sup>)<sup>3</sup> = <b>4.0×10<sup>−5</sup> M</b>. 4.0×10<sup>−29</sup> M plugs in [H<sup>+</sup>] instead of [OH<sup>−</sup>]; 2.0×10<sup>−10</sup> M is the molar solubility in pure water.",
+  "new": "pOH = 11.00, [OH<sup>−</sup>] = 1.0×10<sup>−11</sup> M. [Fe<sup>3+</sup>] = 4.0×10<sup>−38</sup>/(1.0×10<sup>−11</sup>)<sup>3</sup> = <b>4.0×10<sup>−5</sup> M</b>. 4.0×10<sup>−29</sup> M plugs in [H<sup>+</sup>] instead of [OH<sup>−</sup>]; 2.0×10<sup>−10</sup> M is (K<sub>sp</sub>/27)<sup>1/4</sup>, which ignores the fixed [OH<sup>−</sup>].",
+  "why": "Same science correction as x[3]",
+  "src": "first"
+ },
+ {
+  "id": "1B-253",
+  "field": "x[3]",
+  "old": "Recheck: T = ΔH ÷ ΔS, with both in J.",
+  "new": "This divides ΔS by ΔH (93.0 ÷ 30.9). Use T = ΔH ÷ ΔS, with both in J.",
+  "why": "93.0/30.9 = 3.01; feedback now names the inversion",
+  "src": "first"
+ },
+ {
+  "id": "1B-322",
+  "field": "x[2]",
+  "old": "Recheck: O₂ needs 4 electrons each.",
+  "new": "This treats each mole of electrons as a mole of O₂ (1 e⁻ per O₂). Each O₂ needs 4 electrons, so divide mol e⁻ by 4.",
+  "why": "0.1119 mol e- x 22.4 L/mol = 2.51 L",
+  "src": "first"
+ },
+ {
+  "id": "1B-359",
+  "field": "x[3]",
+  "old": "Recheck: moles of NaOH ÷ 0.0400 L.",
+  "new": "This uses 10.0 mL, the half-equivalence volume. Moles of NaOH come from the equivalence volume at the steep rise, 20.0 mL.",
+  "why": "0.150 M x 0.0100 L / 0.0400 L = 0.0375 M",
+  "src": "first"
+ },
+ {
+  "id": "1B-400",
+  "field": "w",
+  "old": "pH 9.00 → pOH 5.00 → [OH<sup>−</sup>] = 1.0×10<sup>−5</sup> M, so Q = (0.010)(1.0×10<sup>−5</sup>)<sup>2</sup> = 1.0×10<sup>−12</sup> for every metal. Only <b>Mn(OH)<sub>2</sub></b> (K<sub>sp</sub> = 1.9×10<sup>−13</sup>) has K<sub>sp</sub> &lt; Q and precipitates. Mg(OH)<sub>2</sub> (5.6×10<sup>−12</sup>) is the near miss: Q is still below its K<sub>sp</sub>. Forgetting to square [OH<sup>−</sup>] gives Q = 1.0×10<sup>−7</sup>, which would wrongly precipitate Mg(OH)2 as well.",
+  "new": "pH 9.00 → pOH 5.00 → [OH<sup>−</sup>] = 1.0×10<sup>−5</sup> M, so Q = (0.010)(1.0×10<sup>−5</sup>)<sup>2</sup> = 1.0×10<sup>−12</sup> for every metal. Only <b>Mn(OH)<sub>2</sub></b> (K<sub>sp</sub> = 1.9×10<sup>−13</sup>) has K<sub>sp</sub> &lt; Q and precipitates. Mg(OH)<sub>2</sub> (5.6×10<sup>−12</sup>) is the near miss: Q is still below its K<sub>sp</sub>. Forgetting to square [OH<sup>−</sup>] gives Q = 1.0×10<sup>−7</sup>, which would wrongly precipitate Mg(OH)<sub>2</sub> as well.",
+  "why": "Missing <sub> on the 2 in Mg(OH)2 in the explanation; every other formula in the item is subscripted",
+  "src": "first"
+ },
+ {
+  "id": "1B-618",
+  "field": "x[3]",
+  "old": "This leaves the lead in milligrams while the water is in grams. Use the same unit for both masses.",
+  "new": "0.025 is the lead concentration in milligrams per liter, which is ppm, not ppb. Multiply by 1000 to convert ppm to ppb.",
+  "why": "0.050 mg / 2.00 L = 0.025 mg/L = 0.025 ppm; leaving Pb in mg over water in g would give 2.5×10⁴, not 0.025",
+  "src": "first"
+ },
+ {
+  "id": "1B-668",
+  "field": "w",
+  "old": "Removing H<sup>+</sup> from HCO<sub>3</sub><sup>−</sup> leaves <b>CO<sub>3</sub><sup>2−</sup></b>: the same C and three O atoms, no H, and a 2− charge (two O atoms carry −1). H<sub>2</sub>CO<sub>3</sub> is the conjugate acid, CO<sub>2</sub> has lost an O and an OH, and formate (HCO<sub>2</sub><sup>−</sup>) has lost an O atom rather than an H<sup>+</sup>.",
+  "new": "Removing H<sup>+</sup> from HCO<sub>3</sub><sup>−</sup> leaves <b>CO<sub>3</sub><sup>2−</sup></b>: the same C and three O atoms, no H, and a 2− charge (two O atoms carry −1). H<sub>2</sub>CO<sub>3</sub> is the conjugate acid, CO<sub>2</sub> has lost a whole OH<sup>−</sup> (an O as well as the H), and formate (HCO<sub>2</sub><sup>−</sup>) has lost an O atom rather than an H<sup>+</sup>.",
+  "why": "HCO3- -> CO2 + OH- removes one O and one H, not 'an O and an OH'",
+  "src": "first"
+ },
+ {
+  "id": "1B-678",
+  "field": "w",
+  "old": "Ag<sub>2</sub>CrO<sub>4</sub> begins when [Ag<sup>+</sup>]<sup>2</sup>(0.010) = 1.1×10<sup>−12</sup>, so [Ag<sup>+</sup>] = 1.0×10<sup>−5</sup> M. At that [Ag<sup>+</sup>], [Cl<sup>−</sup>] = 1.8×10<sup>−10</sup> / 1.0×10<sup>−5</sup> = <b>1.7×10<sup>−5</sup> M</b>, so over 99.8% of the chloride has already precipitated. 1.0×10<sup>−5</sup> M is [Ag<sup>+</sup>], not [Cl<sup>−</sup>].",
+  "new": "Ag<sub>2</sub>CrO<sub>4</sub> begins when [Ag<sup>+</sup>]<sup>2</sup>(0.010) = 1.1×10<sup>−12</sup>, so [Ag<sup>+</sup>] = 1.05×10<sup>−5</sup> M. At that [Ag<sup>+</sup>], [Cl<sup>−</sup>] = 1.8×10<sup>−10</sup> / 1.05×10<sup>−5</sup> = <b>1.7×10<sup>−5</sup> M</b>, so over 99.8% of the chloride has already precipitated. 1.0×10<sup>−5</sup> M is [Ag<sup>+</sup>], not [Cl<sup>−</sup>].",
+  "why": "sqrt(1.1e-10)=1.05e-5; 1.8e-10/1.05e-5=1.7e-5, whereas the shown 1.8e-10/1.0e-5 = 1.8e-5",
+  "src": "first"
+ },
+ {
+  "id": "1B-682",
+  "field": "x[3]",
+  "old": "This uses Ksp divided by Kf. Adding the two reactions means the constants are multiplied.",
+  "new": "This takes the square root of Ksp divided by Kf. Adding the two reactions means the constants are multiplied, not divided.",
+  "why": "sqrt(5.0e-13/1.7e7)=1.7e-10; Ksp/Kf alone is 2.9e-20",
+  "src": "first"
+ },
+ {
+  "id": "1B-738",
+  "field": "x[2]",
+  "old": "Radioactive decay is exponential, so the time is not simply proportional to the fraction decayed.",
+  "new": "This multiplies the half-life by the lead-to-uranium ratio, 4/16. Decay is exponential, so use ln(N₀/N) = kt with N₀ = 20 and N = 16.",
+  "why": "1.12e9 = 0.25 × 4.47e9; a truly linear model would give 1.79e9, so 'not proportional to fraction decayed' misdescribes the error",
+  "src": "first"
+ },
+ {
+  "id": "1B-738",
+  "field": "w",
+  "old": "The box has 16 U and 4 Pb atoms, so the crystal began with 20 U atoms and 16/20 = 0.800 remain. k = 0.693/(4.47×10<sup>9</sup> yr) = 1.55×10<sup>−10</sup> yr<sup>−1</sup>; t = ln(20/16)/k = 0.223/1.55×10<sup>−10</sup> = <b>1.44×10<sup>9</sup> yr</b> (1.439e+9). 1.86×10<sup>9</sup> yr takes 75% (12 of 16) as the fraction left, 1.12×10<sup>9</sup> yr treats decay as linear, and 8.94×10<sup>9</sup> yr is two half-lives.",
+  "new": "The box has 16 U and 4 Pb atoms, so the crystal began with 20 U atoms and 16/20 = 0.800 remain. k = 0.693/(4.47×10<sup>9</sup> yr) = 1.55×10<sup>−10</sup> yr<sup>−1</sup>; t = ln(20/16)/k = 0.223/1.55×10<sup>−10</sup> = <b>1.44×10<sup>9</sup> yr</b>. 1.86×10<sup>9</sup> yr takes 75% (12 of 16) as the fraction left, 1.12×10<sup>9</sup> yr multiplies the half-life by the Pb : U ratio (4/16), and 8.94×10<sup>9</sup> yr is two half-lives.",
+  "why": "removes code artifact '(1.439e+9)' and correctly diagnoses the 1.12e9 distractor",
+  "src": "first"
+ },
+ {
+  "id": "28A-27",
+  "field": "q",
+  "old": "Which species is the strongest acid? (Use the hybridization of the atom that bears the proton's lone pair in each conjugate base.)",
+  "new": "Which species is the strongest acid? (Remove the proton from each and compare the hybridization of the atom that held it.)",
+  "why": "Original parenthetical ('atom that bears the proton's lone pair in each conjugate base') is garbled; the conjugate bases are the neutral species.",
+  "src": "first"
+ },
+ {
+  "id": "28A-29",
+  "field": "h",
+  "old": "Recall the pK<sub>a</sub> values: NH<sub>3</sub> ≈ 38, H<sub>2</sub>O 15.7, NH<sub>4</sub><sup>+</sup> 9.2, H<sub>3</sub>O<sup>+</sup> −1.7.",
+  "new": "Two trends work together: O–H bonds are more acidic than N–H bonds (electronegativity), and a positively charged acid gives up H<sup>+</sup> far more easily than its neutral form.",
+  "why": "Original hint listed all four pKa values, reducing the ranking to a sort.",
+  "src": "first"
+ },
+ {
+  "id": "28A-54",
+  "field": "x[3]",
+  "old": "Ring expansion would give a secondary cycloheptyl cation, no better than the starting cation; the one-step hydride shift reaches a tertiary cation.",
+  "new": "1-Bromo-1-methylcycloheptane would need a ring expansion (which gives only a secondary cycloheptyl cation, no gain) and then a second shift; the single 1,2-hydride shift to the tertiary 1-ethylcyclohexyl cation is faster.",
+  "why": "Old text described ring expansion to a secondary cycloheptyl cation, which would give 1-bromo-2-methylcycloheptane, not the drawn 1-bromo-1-methylcycloheptane.",
+  "src": "first"
+ },
+ {
+  "id": "28A-149",
+  "field": "raw",
+  "old": "\"d\":2",
+  "new": "\"d\":1",
+  "why": "Pure recall of a refinery process definition; d=1 fits.",
+  "src": "first"
+ },
+ {
+  "id": "28A-195",
+  "field": "w",
+  "old": "Loss of water gives a 2° cation next to the cyclobutane. A ring C–C bond migrates to the cation carbon, expanding the ring to a less strained cyclopentyl cation; that carbon now carries the CH<sub>3</sub>. A hydride shift (or direct loss of the H on the methyl-bearing carbon) then gives the trisubstituted ring alkene <b>1-methylcyclopentene</b>.",
+  "new": "Loss of water gives a 2° cation next to the cyclobutane. A ring C–C bond migrates to the cation carbon, expanding the ring to a less strained cyclopentyl cation: the former cation carbon (with its CH<sub>3</sub>) is now a ring carbon, and the positive charge sits on the neighboring former ring CH. A hydride shift (or direct loss of the H on the methyl-bearing carbon) then gives the trisubstituted ring alkene <b>1-methylcyclopentene</b>.",
+  "why": "Old wording implied the expanded cation sits on the methyl-bearing carbon; after the shift the charge is on the adjacent former ring carbon, which the following hydride-shift sentence already assumes.",
+  "src": "first"
+ },
+ {
+  "id": "28A-274",
+  "field": "w",
+  "old": "More alkyl groups give more hyperconjugation, so 3° (I) &gt; 2° (II) &gt; 1° (III). The vinyl cation (IV) puts the charge on an sp carbon, which holds electrons tightly (50% s character), and the empty p orbital lies in the plane of the π bond, so the π bond cannot donate into it. Vinyl cations are even less stable than primary cations. <b>I &gt; II &gt; III &gt; IV</b>.",
+  "new": "More alkyl groups give more hyperconjugation, so 3° (I) &gt; 2° (II) &gt; 1° (III). The vinyl cation (IV) puts the charge on an sp carbon, which holds electrons tightly (50% s character), and the empty p orbital lies in the molecular plane, perpendicular to the π orbitals, so the π bond cannot donate into it. Vinyl cations are even less stable than primary cations. <b>I &gt; II &gt; III &gt; IV</b>.",
+  "why": "Vinyl cation empty p orbital is orthogonal to the π system (in its nodal plane), as x1 states; EXPL said it lies in the plane of the π bond",
+  "src": "first"
+ },
+ {
+  "id": "28A-300",
+  "field": "x[3]",
+  "old": "Six counts each carbon as its own signal. Equivalent carbons (the two isopropyl CH<sub>3</sub>) give one signal, and the ethyl and OCH carbons each carry one set.",
+  "new": "Six is more signals than there are carbons bearing H (five). The two isopropyl CH<sub>3</sub> groups are equivalent, so there are only four sets of H.",
+  "why": "Ethyl isopropyl ether has 5 carbons, so \"six counts each carbon\" is false",
+  "src": "first"
+ },
+ {
+  "id": "28A-303",
+  "field": "x[3]",
+  "old": "Six counts carbons, not sets of equivalent hydrogens; the two methyls are one set.",
+  "new": "Six is more signals than the molecule has carbons (five). The two CH<sub>3</sub> groups on the same CH are one set, so there are only four sets of H.",
+  "why": "1-Bromo-3-methylbutane has 5 carbons, so \"six counts carbons\" is false",
+  "src": "first"
+ },
+ {
+  "id": "28A-344",
+  "field": "x[2]",
+  "old": "This treats Cl as if it did not count. A halogen takes the place of an H, so it is subtracted like H.",
+  "new": "This adds the Cl to the allowed H count instead of subtracting it. A halogen takes the place of an H, so it is subtracted like H.",
+  "why": "Ignoring Cl gives (18+2+1-10)/2 = 5.5, not 6; adding Cl gives (18+2+1-10+1)/2 = 6",
+  "src": "first"
+ },
+ {
+  "id": "28A-381",
+  "field": "x[3]",
+  "old": "The odd electron of a vinylic radical sits in an sp<sup>2</sup> orbital in the plane of the π bond, so it is not delocalized; vinylic radicals are very unstable.",
+  "new": "The odd electron of a vinylic radical sits in an sp<sup>2</sup> orbital perpendicular to the π orbitals, so it is not delocalized; vinylic radicals are very unstable.",
+  "why": "The sp2 orbital lies in the nodal plane of the π bond, orthogonal to it; \"in the plane of the π bond\" is misleading",
+  "src": "first"
+ },
+ {
+  "id": "28A-401",
+  "field": "c[0]",
+  "old": "The chain-end radical takes an H from five carbons back on its own chain, and the new mid-chain radical adds ethylene.",
+  "new": "The chain-end radical takes an H from the fifth carbon of its own chain (1,5-H shift), and the new mid-chain radical adds ethylene.",
+  "why": "With the radical carbon as C1 the abstracted H is on C5 (four carbons back); 'five carbons back' miscounts",
+  "src": "first"
+ },
+ {
+  "id": "28A-401",
+  "field": "w",
+  "old": "This is intramolecular chain transfer (\"backbiting\"). The 1° chain-end radical reaches back through a six-membered cyclic transition state and abstracts an H from the CH<sub>2</sub> five carbons away (a 1,5-H shift), giving a more stable 2° radical within the chain. Ethylene then adds at that site, so the four carbons past it become a <b>butyl branch</b>. Intermolecular H transfer between chains gives the long branches.",
+  "new": "This is intramolecular chain transfer (\"backbiting\"). The 1° chain-end radical reaches back through a six-membered cyclic transition state and abstracts an H from C5 (counting the radical carbon as C1; a 1,5-H shift), giving a more stable 2° radical within the chain. Ethylene then adds at that site, so the four carbons past it (C1–C4) become a <b>butyl branch</b>. Intermolecular H transfer between chains gives the long branches.",
+  "why": "'five carbons away' is four bonds/carbons from the radical; state the C1/C5 numbering explicitly so the butyl count is clear",
+  "src": "first"
+ },
+ {
+  "id": "28A-647",
+  "field": "x[2]",
+  "old": "A ketone flanked by two intact cyclopentyl groups would need a hydride shift, but neither carbinol carbon has a hydrogen.",
+  "new": "This ketone has 11 carbons, but the diol has only 10, so it cannot come from this reaction. In the pinacol shift a ring C–C bond migrates instead, and one ring grows from five to six members.",
+  "why": "c2 O=C(C1CCCC1)C1CCCC1 is C11H18O; the diol is C10H18O2. The old feedback blamed a missing hydride shift, which is not the real error.",
+  "src": "first"
+ },
+ {
+  "id": "28A-723",
+  "field": "x[3]",
+  "old": "Acetylide would make acetylene (25) from methane (50). Acetylene is the stronger acid, so the reactants are favored.",
+  "new": "Propynide would make propyne (pK<sub>a</sub> about 25, like acetylene) from methane (50). The alkyne is the stronger acid, so the reactants are favored.",
+  "why": "Choice D is drawn as propynide + methane ([C-]#CC.[H]C), not acetylide/acetylene.",
+  "src": "first"
+ },
+ {
+  "id": "28A-759",
+  "field": "raw",
+  "old": "[[\"C\",2.597,0,0,0],[\"C\",2.598,1.5,0,0],[\"O\",3.898,2.249,0,-1],[\"NH\",1.3,2.251,0,1]",
+  "new": "[[\"C\",3.898,2.247,0,0],[\"C\",2.598,1.5,0,0],[\"O\",2.595,0,0,-1],[\"NH\",1.3,2.251,0,1]",
+  "why": "Key resonance form drew O and the acetyl CH3 swapped relative to stem structure I (O down, syn to N-CH3). Resonance forms keep atom positions; restore I's layout.",
+  "src": "first"
+ },
+ {
+  "id": "28A-759",
+  "field": "raw",
+  "old": "[[\"C\",2.597,0,0,0],[\"C\",2.598,1.5,0,0],[\"OH\",3.898,2.249,0,0]",
+  "new": "[[\"C\",3.898,2.247,0,0],[\"C\",2.598,1.5,0,0],[\"OH\",2.595,0,0,0]",
+  "why": "Same layout fix for choice C so all four choices share structure I's atom positions.",
+  "src": "first"
+ },
+ {
+  "id": "28A-759",
+  "field": "raw",
+  "old": "[[\"C\",2.597,0,0,0],[\"C\",2.598,1.5,0,0],[\"O\",3.898,2.249,0,-1],[\"N\",1.3,2.251,0,0]",
+  "new": "[[\"C\",3.898,2.247,0,0],[\"C\",2.598,1.5,0,0],[\"O\",2.595,0,0,-1],[\"N\",1.3,2.251,0,0]",
+  "why": "Same layout fix for choice D.",
+  "src": "first"
+ },
+ {
+  "id": "28A-789",
+  "field": "w",
+  "old": "I is staggered with the CH<sub>3</sub> groups 180° apart (anti): lowest energy. II is staggered with the CH<sub>3</sub> groups 60° apart (gauche): about 3.8 kJ/mol higher, from steric strain. III is eclipsed (one CH<sub>3</sub>/H and two H/H eclipsing interactions): about 16 kJ/mol above anti, because eclipsing adds torsional strain that any staggered form avoids. <br>Answer: <b>I &lt; II &lt; III</b>.",
+  "new": "I is staggered with the CH<sub>3</sub> groups 180° apart (anti): lowest energy. II is staggered with the CH<sub>3</sub> groups 60° apart (gauche): about 3.8 kJ/mol higher, from steric strain. III is eclipsed (two CH<sub>3</sub>/H and one H/H eclipsing interactions): about 16 kJ/mol above anti, because eclipsing adds torsional strain that any staggered form avoids. <br>Answer: <b>I &lt; II &lt; III</b>.",
+  "why": "Newman III (rot 0) has back H on front CH3, back CH3 on front H, and H/H: two CH3/H + one H/H = 6+6+4 = 16 kJ/mol, matching the stated energy.",
+  "src": "first"
+ },
+ {
+  "id": "28A-809",
+  "field": "h",
+  "old": "Elimination makes more molecules (higher ΔS), is favored by bulky bases, and wins when the carbon is too crowded for backside attack.",
+  "new": "Treat each change separately: does it help the base reach a β H, or the nucleophile reach the carbon? And which pathway gains more from heating?",
+  "why": "Old hint stated the three governing facts, one per statement, so it judged I–III for the student.",
+  "src": "first"
+ },
+ {
+  "id": "28A-843",
+  "field": "h",
+  "old": "Number of carbons ≈ (M+1 intensity ÷ M<sup>+</sup> intensity) ÷ 0.011.",
+  "new": "Number of carbons ≈ (M+1 intensity ÷ M<sup>+</sup> intensity) ÷ 0.011. If the estimate falls between two whole numbers, check which carbon count can fit M = 114 for a ketone.",
+  "why": "Ratio gives 7.6 (closer to 8); the key depends on the formula check, which the hint should point to.",
+  "src": "first"
+ },
+ {
+  "id": "28A-900",
+  "field": "raw",
+  "old": "\"t\":\"nomenclature\"",
+  "new": "\"t\":\"structure\"",
+  "why": "Item counts 3° carbons in menthol (carbon classification), not naming.",
+  "src": "first"
+ },
+ {
+  "id": "28A-963",
+  "field": "x[1]",
+  "old": "A six-membered ring (thiane) needs five CH<sub>2</sub> groups between the two C–Br carbons plus S; 1,4-dibromobutane has only four carbons, so the ring formed has one S and four C.",
+  "new": "A six-membered ring (thiane) has one S and five CH<sub>2</sub> groups, so it would need a five-carbon chain such as 1,5-dibromopentane; 1,4-dibromobutane has only four carbons, so the ring formed has one S and four C.",
+  "why": "Old wording ('five CH2 groups between the two C–Br carbons') implies a seven-carbon chain.",
+  "src": "first"
+ },
+ {
+  "id": "28A-965",
+  "field": "w",
+  "old": "The <b>diphenylmethyl (benzhydryl) cation</b> delocalizes the + charge into two benzene rings (seven resonance forms place + on ring carbons), and it is a secondary carbon. Each other cation has at most one π system to share the charge.",
+  "new": "The <b>diphenylmethyl (benzhydryl) cation</b> delocalizes the + charge into two benzene rings (seven resonance forms in all, six of them placing + on ortho and para ring carbons), and it is a secondary carbon. Each other cation has at most one π system to share the charge.",
+  "why": "Benzhydryl cation: 1 contributor with + on the central C plus 3 per ring = 7; only 6 put + on ring carbons.",
+  "src": "first"
+ },
+ {
+  "id": "28A-970",
+  "field": "w",
+  "old": "The bulky <i>tert</i>-butyl group stays equatorial, so in the cis isomer Br is axial and in the trans isomer Br is equatorial. For an axial C–Br, the backside lies along the equatorial direction, which is open, and the product forms directly with SPh equatorial. For an equatorial C–Br, the backside path runs across the ring and is blocked by the axial hydrogens on C3 and C5. So <b>the cis isomer (axial Br) reacts faster</b>, and both give trans product with inversion.",
+  "new": "The bulky <i>tert</i>-butyl group stays equatorial, so in the cis isomer Br is axial and in the trans isomer Br is equatorial. For an axial C–Br, the backside lies along the equatorial direction, which is open, and the product forms directly with SPh equatorial. For an equatorial C–Br, the backside path runs across the ring and is blocked by the axial hydrogens on C3 and C5. So <b>the cis isomer (axial Br) reacts faster</b>, and each reacts with inversion: the cis bromide gives the trans sulfide, and the trans bromide gives the cis sulfide.",
+  "why": "Inversion of trans-1-bromo-4-tert-butylcyclohexane gives the cis product, so 'both give trans product' is false.",
+  "src": "first"
+ },
+ {
+  "id": "28A-1042",
+  "field": "h",
+  "old": "There is no CH<sub>3</sub> peak, and there are two CH<sub>2</sub> peaks. Which choice has no methyl group?",
+  "new": "Use the DEPT labels: how many aromatic carbons (and so what ring pattern), and what kinds of sp<sup>3</sup> carbon are present? Which sp<sup>3</sup> carbon is bonded to O (50–80 ppm)?",
+  "why": "Old hint names the single discriminating feature and asks which choice lacks a methyl; only the key does, so the hint gives the answer away.",
+  "src": "first"
+ },
+ {
+  "id": "28B-53",
+  "field": "x[3]",
+  "old": "Methylketene would require losing water, not CO<sub>2</sub>, and has the wrong connectivity.",
+  "new": "Methylketene (C<sub>3</sub>H<sub>4</sub>O) has two H fewer than acetoacetic acid minus CO<sub>2</sub> (C<sub>3</sub>H<sub>6</sub>O), and its oxygen is on an end carbon; loss of CO<sub>2</sub> leaves the oxygen on the middle carbon.",
+  "why": "stored feedback says methylketene needs loss of water; false: C4H6O3 - H2O = C4H4O2, while CC=C=O is C3H4O (loss of CO2 + H2)",
+  "src": "first"
+ },
+ {
+  "id": "28B-107",
+  "field": "x[2]",
+  "old": "A ketone flanked by two intact cyclopentyl groups would need a hydride shift, but neither carbinol carbon has a hydrogen.",
+  "new": "Dicyclopentyl ketone has 11 carbons, but the diol has only 10; a rearrangement cannot add a carbon. The real product keeps all ten carbons, with one ring expanded from five to six.",
+  "why": "choice C (O=C(C1CCCC1)C1CCCC1) is C11H18O vs diol C10H18O2 (RDKit); stored feedback gives a wrong reason",
+  "src": "first"
+ },
+ {
+  "id": "28B-223",
+  "field": "x[1]",
+  "old": "D-Xylose (right, left, right) would require old C2 to keep its configuration as the new C2. Old C2 becomes the aldehyde carbon and loses its stereocenter.",
+  "new": "D-Xylose (right, left, right) does not match the surviving centers. Old C2 becomes the aldehyde carbon, and old C3, C4 and C5 read left, left, right.",
+  "why": "Old x1 claimed xylose = galactose with old C2 kept, but galactose old C2,C3,C4 read right, left, left, not xylose's right, left, right.",
+  "src": "first"
+ },
+ {
+  "id": "28B-252",
+  "field": "w",
+  "old": "Like simple amides and 2-pyridone, thymine strongly prefers the <b>lactam</b> (diketo) tautomer A, with two C=O groups and two N–H groups. The C=O bond and amide resonance make it far more stable than the lactim (enol-like) forms. In the A·T pair, thymine N3–H donates to adenine N1, and thymine C4=O accepts from adenine's 6-NH<sub>2</sub>. The rare enol tautomers change the donor/acceptor pattern and can cause mispairing (with G).",
+  "new": "Like simple amides and 2-pyridone, thymine strongly prefers the <b>lactam</b> (diketo) tautomer, with two C=O groups and two N–H groups. The C=O bond and amide resonance make it far more stable than the lactim (enol-like) forms. In the A·T pair, thymine N3–H donates to adenine N1, and thymine C4=O accepts from adenine's 6-NH<sub>2</sub>. The rare enol tautomers change the donor/acceptor pattern and can cause mispairing (with G).",
+  "why": "EXPL cites tautomer A. Structure-only choices render without letters and are shuffled, so the letter points at nothing.",
+  "src": "first"
+ },
+ {
+  "id": "28B-375",
+  "field": "x[1]",
+  "old": "B (para attack, cation two carbons away from the nitro-bearing carbon) is an ordinary contributor with the charge on a C–H carbon; it is not what makes para attack bad.",
+  "new": "This form (para attack, cation two carbons away from the nitro-bearing carbon) is an ordinary contributor with the charge on a C–H carbon; it is not what makes para attack bad.",
+  "why": "x1 opens with letter B. Structure-only choices render without letters and are shuffled, so the letter points at nothing.",
+  "src": "first"
+ },
+ {
+  "id": "28B-375",
+  "field": "x[2]",
+  "old": "C belongs to the meta σ complex (the favored pathway). The cation is next to, not on, the carbon bearing NO<sub>2</sub>, so it lacks the adjacent-positive-charge clash.",
+  "new": "This form belongs to the meta σ complex (the favored pathway). The cation is next to, not on, the carbon bearing NO<sub>2</sub>, so it lacks the adjacent-positive-charge clash.",
+  "why": "x2 opens with letter C. Structure-only choices render without letters and are shuffled, so the letter points at nothing.",
+  "src": "first"
+ },
+ {
+  "id": "28B-375",
+  "field": "x[3]",
+  "old": "D belongs to the ortho σ complex, but its cation is far from the nitro group; the bad form of the ortho complex is the one with the charge on the nitro-bearing carbon.",
+  "new": "This form belongs to the ortho σ complex, but its cation is far from the nitro group; the bad form of the ortho complex is the one with the charge on the nitro-bearing carbon.",
+  "why": "x3 opens with letter D. Structure-only choices render without letters and are shuffled, so the letter points at nothing.",
+  "src": "first"
+ },
+ {
+  "id": "28B-395",
+  "field": "w",
+  "old": "AlCl<sub>3</sub> pulls Cl<sup>−</sup> from 1-chloropropane. The developing primary cation undergoes a <b>1,2-hydride shift</b> to the more stable secondary isopropyl cation, which alkylates the ring: <b>isopropylbenzene (cumene, A)</b> is the major product. Using excess benzene keeps polyalkylation low.",
+  "new": "AlCl<sub>3</sub> pulls Cl<sup>−</sup> from 1-chloropropane. The developing primary cation undergoes a <b>1,2-hydride shift</b> to the more stable secondary isopropyl cation, which alkylates the ring: <b>isopropylbenzene (cumene)</b> is the major product. Using excess benzene keeps polyalkylation low.",
+  "why": "EXPL cites choice A. Structure-only choices render without letters and are shuffled, so the letter points at nothing.",
+  "src": "first"
+ },
+ {
+  "id": "28B-396",
+  "field": "w",
+  "old": "Ionization gives a primary (neopentyl) cation. The adjacent carbon is quaternary, so no hydride can shift, but a <b>1,2-methyl shift</b> gives the tertiary 2-methylbutan-2-yl cation, (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>CH<sub>2</sub>CH<sub>3</sub>. That cation alkylates benzene to give <b>(2-methylbutan-2-yl)benzene (<i>tert</i>-pentylbenzene, A)</b>.",
+  "new": "Ionization gives a primary (neopentyl) cation. The adjacent carbon is quaternary, so no hydride can shift, but a <b>1,2-methyl shift</b> gives the tertiary 2-methylbutan-2-yl cation, (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>CH<sub>2</sub>CH<sub>3</sub>. That cation alkylates benzene to give <b>(2-methylbutan-2-yl)benzene (<i>tert</i>-pentylbenzene)</b>.",
+  "why": "EXPL cites choice A. Structure-only choices render without letters and are shuffled, so the letter points at nothing.",
+  "src": "first"
+ },
+ {
+  "id": "28B-370",
+  "field": "w",
+  "old": "Para attack puts the positive charge on the two carbons ortho to the new sp<sup>3</sup> carbon and on the carbon bearing OCH<sub>3</sub> . From that form, an oxygen lone pair forms a C=O<sup>+</sup> π bond, giving <b>the oxonium form, in which every atom has a complete octet</b>. A form with all octets outweighs any form with an electron-deficient carbon, even the tertiary-like cation on the OCH<sub>3</sub> carbon. This extra contributor is why OCH<sub>3</sub> activates the ring and directs ortho/para.",
+  "new": "Para attack puts the positive charge on the two carbons ortho to the new sp<sup>3</sup> carbon and on the carbon bearing OCH<sub>3</sub>. From that form, an oxygen lone pair forms a C=O<sup>+</sup> π bond, giving <b>the oxonium form, in which every atom has a complete octet</b>. A form with all octets outweighs any form with an electron-deficient carbon, even the tertiary-like cation on the OCH<sub>3</sub> carbon. This extra contributor is why OCH<sub>3</sub> activates the ring and directs ortho/para.",
+  "why": "stray space before period (cosmetic, safe)",
+  "src": "first"
+ },
+ {
+  "id": "28B-466",
+  "field": "w",
+  "old": "The cyclohexanone enolate adds 1,4 to MVK, giving 2-(3-oxobutyl)cyclohexanone. The enolate of the side-chain CH<sub>3</sub> then attacks the ring C=O, closing a new six-membered ring (intramolecular aldol). With heat the β-hydroxy ketone dehydrates (E1cB) so that the new C=C is <b>conjugated with the C=O</b>: <b>the bicyclic enone A</b> (C<sub>10</sub>H<sub>14</sub>O, octahydronaphthalen-2-one).",
+  "new": "The cyclohexanone enolate adds 1,4 to MVK, giving 2-(3-oxobutyl)cyclohexanone. The enolate of the side-chain CH<sub>3</sub> then attacks the ring C=O, closing a new six-membered ring (intramolecular aldol). With heat the β-hydroxy ketone dehydrates (E1cB) so that the new C=C is <b>conjugated with the C=O</b>: <b>the bicyclic enone A</b> (C<sub>10</sub>H<sub>14</sub>O, 4,4a,5,6,7,8-hexahydronaphthalen-2(3H)-one).",
+  "why": "'octahydronaphthalen-2-one' implies C10H16O (no C=C); the drawn conjugated enone C10H14O is 4,4a,5,6,7,8-hexahydronaphthalen-2(3H)-one",
+  "src": "first"
+ },
+ {
+  "id": "28B-700",
+  "field": "x[1]",
+  "old": "This puts the ester above the amide correctly but ranks ethyl acetate below the amide. Amides are the least reactive derivatives because N donates strongly and amide ion is a very poor leaving group.",
+  "new": "This correctly makes the phenyl ester the most reactive but ranks ethyl acetate below the amide. Amides are the least reactive derivatives because N donates strongly and amide ion is a very poor leaving group.",
+  "why": "c1 is II < III < I; the old text said it 'puts the ester above the amide correctly' and then that it ranks the ester below the amide (self-contradictory).",
+  "src": "first"
+ },
+ {
+  "id": "28B-729",
+  "field": "x[1]",
+  "old": "Losing a 43 u radical from m/z 100 gives m/z 57, not 58; that cleavage accounts for the separate m/z 57 and 43 peaks.",
+  "new": "Any α-cleavage loses a radical and gives an odd-mass ion: losing 43 u from m/z 100 would give m/z 57, not 58. Cleavage on either side of the C=O gives the separate m/z 43 and 57 peaks.",
+  "why": "Old x1 endorsed loss of a propyl radical, which B (no propyl on the C=O) cannot do; m/z 43 is CH3CO+ and 57 is C4H9+ from cleavage of the C(O)-isobutyl bond.",
+  "src": "first"
+ },
+ {
+  "id": "28B-792",
+  "field": "x[1]",
+  "old": "A terminal alkyne C–H (pK<sub>a</sub> ≈ 25) is acidic because of sp character, but the aromatic cyclopentadienyl anion is about a million times more stable.",
+  "new": "A terminal alkyne C–H (pK<sub>a</sub> ≈ 25) is acidic because of sp character, but the C–H at <i>b</i> (pK<sub>a</sub> ≈ 16–18) is about 10<sup>7</sup>–10<sup>9</sup> times more acidic, because its conjugate base is the aromatic cyclopentadienyl anion.",
+  "why": "pKa 25 vs 16-18 is 7-9 units (10^7-10^9), not 'about a million'; compare acidity, not anion stability.",
+  "src": "first"
+ },
+ {
+  "id": "28B-800",
+  "field": "w",
+  "old": "Addition–elimination is fastest at a carbon ortho or para to NO<sub>2</sub>, because the Meisenheimer anion can put its charge on the nitro oxygens. F is ortho to NO<sub>2</sub>; Br is meta to it, so the bromine is not activated. Fluoride is also the best S<sub>N</sub>Ar leaving group because its electronegativity speeds the rate-determining addition step. The product is <b><i>N</i>,<i>N</i>-dimethyl-4-bromo-2-nitroaniline</b>.",
+  "new": "Addition–elimination is fastest at a carbon ortho or para to NO<sub>2</sub>, because the Meisenheimer anion can put its charge on the nitro oxygens. F is ortho to NO<sub>2</sub>; Br is meta to it, so the bromine is not activated. Fluoride is also the best S<sub>N</sub>Ar leaving group because its electronegativity speeds the rate-determining addition step. The product is <b>4-bromo-<i>N</i>,<i>N</i>-dimethyl-2-nitroaniline</b>.",
+  "why": "IUPAC alphabetical order: bromo before dimethyl (N,N-dimethyl alphabetized under m)",
+  "src": "first"
+ },
+ {
+  "id": "28B-812",
+  "field": "x[3]",
+  "old": "6 would fit an ortho or meta isomer with partial symmetry; the para isomer has two equivalent pairs, giving 5.",
+  "new": "6 treats only one pair of ring CH carbons as equivalent. In the para isomer the mirror plane makes both pairs (C2/C6 and C3/C5) equivalent, giving 5; the ortho and meta isomers have no symmetry and give 7.",
+  "why": "Old text claimed ortho/meta isomers with partial symmetry give 6; both have 7 distinct carbons",
+  "src": "first"
+ },
+ {
+  "id": "28B-865",
+  "field": "w",
+  "old": "The Diels–Alder reaction gives methyl cyclohex-3-ene-1-carboxylate: the ester carbon is C1 and the new C=C is C3=C4. Ozonolysis with a reductive workup cuts C3=C4 into two CHO groups and opens the ring. C1 is then joined to C2–C3 (CH<sub>2</sub>CHO) on one side and C6–C5–C4 (CH<sub>2</sub>CH<sub>2</sub>CHO) on the other: <b>methyl 2-(2-oxoethyl)-5-oxopentanoate</b>.",
+  "new": "The Diels–Alder reaction gives methyl cyclohex-3-ene-1-carboxylate: the ester carbon is C1 and the new C=C is C3=C4. Ozonolysis with a reductive workup cuts C3=C4 into two CHO groups and opens the ring. C1 is then joined to C2–C3 (CH<sub>2</sub>CHO) on one side and C6–C5–C4 (CH<sub>2</sub>CH<sub>2</sub>CHO) on the other: <b>methyl 5-oxo-2-(2-oxoethyl)pentanoate</b>.",
+  "why": "Substituent prefixes alphabetized: oxo before oxoethyl",
+  "src": "first"
+ },
+ {
+  "id": "28B-876",
+  "field": "x[1]",
+  "old": "This swaps II and III. The bromide route loses the heavier by-product share (49% vs 55%), so it is the lowest.",
+  "new": "This swaps II and III. The bromide route has the lower atom economy (49% vs 55%) because the heavy Br atom leaves in NaBr, so it is the lowest.",
+  "why": "49%/55% are atom economies, not by-product shares",
+  "src": "first"
+ },
+ {
+  "id": "28B-882",
+  "field": "w",
+  "old": "Cyclization uses the C5 OH, so C2–C5 keep their configurations: in D-allose all four are <i>R</i> in the open chain, and in the pyranose C2, C3 and C5 are <i>R</i> while C4 is <i>S</i>. The β anomer has the C1 OH cis to the C5 CH<sub>2</sub>OH (C1 is <i>R</i>). The correct structure has C1 <i>R</i>, C2 <i>R</i>, C3 <i>R</i>, C4 <i>S</i>, C5 <i>R</i>: <b>β-D-allopyranose</b>. In a Haworth drawing, all four ring OH groups and the CH<sub>2</sub>OH point up.",
+  "new": "Cyclization uses the C5 OH, so C2–C5 keep their configurations: in D-allose all four are <i>R</i> in the open chain, and in the pyranose C2, C3 and C5 are <i>R</i> while C4 is labeled <i>S</i> (ring closure changes its priorities, not its geometry). The β anomer has the C1 OH cis to the C5 CH<sub>2</sub>OH (C1 is <i>R</i>). The correct structure has C1 <i>R</i>, C2 <i>R</i>, C3 <i>R</i>, C4 <i>S</i>, C5 <i>R</i>: <b>β-D-allopyranose</b>. In a Haworth drawing, the C1 OH and the CH<sub>2</sub>OH point up, while the C2, C3 and C4 OH groups (all on the right in the Fischer projection) point down.",
+  "why": "Fischer right-side OH = Haworth down; beta-D-allopyranose has C2–C4 OH down. Also clarify C4 R->S is a CIP priority change",
+  "src": "first"
+ },
+ {
+  "id": "3A-108",
+  "field": "x[3]",
+  "old": "This is not the volume of concentrated acid. A concentrated stock is used in a small amount, so solve M₁V₁ = M₂V₂ for V₁.",
+  "new": "488 mL is the water you add (500. − 12.5 mL), not the volume of concentrated acid. Solve M₁V₁ = M₂V₂ for V₁.",
+  "why": "Old feedback never said where 488 comes from; 500. − 12.5 = 487.5 → 488 mL, the water added",
+  "src": "first"
+ },
+ {
+  "id": "3A-112",
+  "field": "x[3]",
+  "old": "Check the volume: 0.90 g per 100 mL is 9.0 g per liter.",
+  "new": "This divides by 0.0100 L, as if 100 mL were 10 mL. 100 mL is 0.100 L, so 0.90 g per 100 mL is 9.0 g per liter.",
+  "why": "1.5 M = (0.90/58.44 mol)/0.0100 L; old text ('Check the volume') did not name the error",
+  "src": "first"
+ },
+ {
+  "id": "3A-165",
+  "field": "w",
+  "old": "The 2 counts. The zero right after it is sandwiched between the 2 and the decimal-point zeros, and the two trailing zeros count because a decimal point is shown, so there are <b>4</b>. Picking 1 or 2 means you dropped zeros that the decimal point makes significant.",
+  "new": "The 2 counts. The two zeros after the decimal point count because a decimal point is shown, and the zero between the 2 and the decimal point counts because it sits between significant digits, so there are <b>4</b>. Picking 1 or 2 means you dropped zeros that the decimal point makes significant.",
+  "why": "Old wording ('sandwiched between the 2 and the decimal-point zeros') is confusing; new wording states each zero's rule",
+  "src": "first"
+ },
+ {
+  "id": "3A-197",
+  "field": "w",
+  "old": "Molar mass Na<sub>2</sub>SO<sub>4</sub> = 142.04 g mol⁻¹, so 3.55 g = 0.0250 mol; ÷ 0.250 L = 0.100 M Na<sub>2</sub>SO<sub>4</sub>. Each unit gives 2 Na<sup>+</sup>, so [Na<sup>+</sup>] = <b>0.200 M</b>. 0.100 M is the salt concentration (off by the factor of 2), and 0.0250 M forgets to divide by the volume.",
+  "new": "Molar mass Na<sub>2</sub>SO<sub>4</sub> = 142.05 g mol⁻¹, so 3.55 g = 0.0250 mol; ÷ 0.250 L = 0.100 M Na<sub>2</sub>SO<sub>4</sub>. Each unit gives 2 Na<sup>+</sup>, so [Na<sup>+</sup>] = <b>0.200 M</b>. 0.100 M is the salt concentration (off by the factor of 2), and 0.0250 M forgets to divide by the volume.",
+  "why": "2(22.99) + 32.07 + 4(16.00) = 142.05 with the game's masses",
+  "src": "first"
+ },
+ {
+  "id": "3A-198",
+  "field": "x[3]",
+  "old": "This is not the final volume of the solution. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution.",
+  "new": "185 mL is the water you add (200. − 15.0 mL), not the final volume. Solve M₁V₁ = M₂V₂ for V₂, the total volume after dilution.",
+  "why": "Old feedback did not name the error; 200. − 15.0 = 185 mL of water added",
+  "src": "first"
+ },
+ {
+  "id": "3A-251",
+  "field": "raw",
+  "old": "[{\"a\":[[\"C\",1,1,1,-1,\"\"],[\"O\",1,0,3,-1,\"\"],[\"O\",0,1,3,-1,\"\"],[\"O\",2,1,3,-1,\"\"]],\"b\":[[0,1,1],[0,2,1],[0,3,1]],\"br\":\"4−\"},{\"a\":[[\"C\",1,1,0,0,\"\"],[\"O\",1,0,2,0,\"\"],[\"O\",0,1,3,-1,\"\"],[\"O\",2,1,3,-1,\"\"]],\"b\":[[0,1,2],[0,2,1],[0,3,1]],\"br\":\"2−\"},{\"a\":[[\"C\",1,1,0,0,\"\"],[\"O\",1,0,3,-1,\"\"],[\"O\",0,1,2,0,\"\"],[\"O\",2,1,3,-1,\"\"]],\"b\":[[0,1,1],[0,2,2],[0,3,1]],\"br\":\"2−\"},{\"a\":[[\"C\",1,1,0,0,\"\"],[\"O\",1,0,3,-1,\"\"],[\"O\",0,1,3,-1,\"\"],[\"O\",2,1,2,0,\"\"]],\"b\":[[0,1,1],[0,2,1],[0,3,2]],\"br\":\"2−\"}]",
+  "new": "[{\"a\":[[\"C\",1,1,1,-1,\"\"],[\"O\",1,0,3,-1,\"\"],[\"O\",0,1,3,-1,\"\"],[\"O\",2,1,3,-1,\"\"]],\"b\":[[0,1,1],[0,2,1],[0,3,1]]},{\"a\":[[\"C\",1,1,0,0,\"\"],[\"O\",1,0,2,0,\"\"],[\"O\",0,1,3,-1,\"\"],[\"O\",2,1,3,-1,\"\"]],\"b\":[[0,1,2],[0,2,1],[0,3,1]]},{\"a\":[[\"C\",1,1,0,0,\"\"],[\"O\",1,0,3,-1,\"\"],[\"O\",0,1,2,0,\"\"],[\"O\",2,1,3,-1,\"\"]],\"b\":[[0,1,1],[0,2,2],[0,3,1]]},{\"a\":[[\"C\",1,1,0,0,\"\"],[\"O\",1,0,3,-1,\"\"],[\"O\",0,1,3,-1,\"\"],[\"O\",2,1,2,0,\"\"]],\"b\":[[0,1,1],[0,2,1],[0,3,2]]}]",
+  "why": "Key drawing is bracketed \"4−\" while distractors are bracketed \"2−\" under a stem naming CO3 2−, so the label gives the key away. Removing all four bracket labels keeps the drawn formal charges/lone pairs, so students must count electrons as the hint and EXPL intend.",
+  "src": "first"
+ },
+ {
+  "id": "3A-321",
+  "field": "w",
+  "old": "The thyroid takes up iodide to make its hormones, so I-131 collects there. Its beta particles travel only a few millimeters in tissue, so <b>the dose is delivered mainly to the thyroid</b>. Radioactive decay does not depend on location in the body.",
+  "new": "The thyroid takes up iodide to make its hormones, so I-131 collects there. Its beta particles travel only about a millimeter or two in tissue, so <b>the dose is delivered mainly to the thyroid</b>. Radioactive decay does not depend on location in the body.",
+  "why": "I-131 beta particles have a mean tissue range of about 0.5 mm and a maximum of about 2 mm; \"a few millimeters\" overstates it.",
+  "src": "first"
+ },
+ {
+  "id": "3A-373",
+  "field": "w",
+  "old": "[H<sub>3</sub>O<sup>+</sup>] = 1 × 10<sup>−8</sup> M means pH = 8, the <b>bile</b> bar. Saliva (pH 6.5) has about 3 × 10<sup>−7</sup> M and blood (pH 7.4) about 4 × 10<sup>−8</sup> M, which is more acidic than 10<sup>−8</sup> M, not less: the exponent 8 belongs to pH 8 exactly.",
+  "new": "[H<sub>3</sub>O<sup>+</sup>] = 1 × 10<sup>−8</sup> M means pH = 8, the <b>bile</b> bar. Saliva (pH 6.5) has about 3 × 10<sup>−7</sup> M and blood (pH 7.4) about 4 × 10<sup>−8</sup> M; both have more H<sub>3</sub>O<sup>+</sup> than 1 × 10<sup>−8</sup> M, and stomach fluid (pH 1.5) has far more.",
+  "why": "Current EXPL calls a concentration \"more acidic than 10^-8 M, not less\" and ends with the unclear \"the exponent 8 belongs to pH 8 exactly\".",
+  "src": "first"
+ },
+ {
+  "id": "3A-438",
+  "field": "h",
+  "old": "Under this book's rule, 1,800 shows only 2 significant figures. In scientific notation, every digit in A counts.",
+  "new": "Written as 1,800 with no decimal point, the number shows only 2 significant figures. In scientific notation, every digit in A counts.",
+  "why": "hint refers to 'this book', which the game player does not have",
+  "src": "first"
+ },
+ {
+  "id": "3A-464",
+  "field": "h",
+  "old": "Use the charge rules from Chapter 1: opposite charges attract, like charges repel.",
+  "new": "Recall the charge rules: opposite charges attract, like charges repel.",
+  "why": "'Chapter 1' cross-reference is meaningless in the game",
+  "src": "first"
+ },
+ {
+  "id": "3A-467",
+  "field": "w",
+  "old": "Isotopes (Section 2.5) have the same number of protons but different numbers of neutrons, so <b>atoms of the same element do not all have the same mass</b>. Dalton's other main ideas have held up.",
+  "new": "Isotopes have the same number of protons but different numbers of neutrons, so <b>atoms of the same element do not all have the same mass</b>. Dalton's other main ideas have held up.",
+  "why": "remove textbook section cross-reference",
+  "src": "first"
+ },
+ {
+  "id": "3A-468",
+  "field": "x[2]",
+  "old": "Protons plus neutrons is the mass number (A), which you will use in Section 2.5.",
+  "new": "Protons plus neutrons is the mass number (A), not the atomic number.",
+  "why": "remove textbook section cross-reference",
+  "src": "first"
+ },
+ {
+  "id": "3A-489",
+  "field": "q",
+  "old": "Newborn jaundice is often treated with phototherapy, blue light that the baby's skin absorbs. One phototherapy lamp uses LEDs that give off light at 455 nm. What is the energy of one photon of this light?",
+  "new": "Newborn jaundice is often treated with phototherapy, blue light that the baby's skin absorbs. One phototherapy lamp uses LEDs that give off light at 455 nm. What is the energy of one photon of this light? (h = 6.626 &times; 10<sup>&minus;34</sup> J&middot;s; c = 3.00 &times; 10<sup>8</sup> m/s)",
+  "why": "h and c are needed but not supplied; 3A data sheet has only the periodic table. Values match the EXPL.",
+  "src": "first"
+ },
+ {
+  "id": "3A-527",
+  "field": "w",
+  "old": "Ca<sup>2+</sup> + oxalate = 0, so oxalate is <b>2&minus;</b>: C<sub>2</sub>O<sub>4</sub><sup>2&minus;</sup>, as on the green sheet.",
+  "new": "Ca<sup>2+</sup> + oxalate = 0, so oxalate is <b>2&minus;</b>: C<sub>2</sub>O<sub>4</sub><sup>2&minus;</sup>, as on the polyatomic ion list.",
+  "why": "'green sheet' is not defined anywhere in the game (only use in bank-3A)",
+  "src": "first"
+ },
+ {
+  "id": "3A-550",
+  "field": "h",
+  "old": "What do we call the smallest repeating unit of an ionic compound (Section 4.1)?",
+  "new": "What do we call the smallest repeating unit of an ionic compound?",
+  "why": "remove textbook section cross-reference",
+  "src": "first"
+ },
+ {
+  "id": "3A-612",
+  "field": "x[2]",
+  "old": "CO<sub>3</sub> is the carbonate ion, not a gas; carbonic acid does not release H<sub>2</sub>.",
+  "new": "Neutral CO<sub>3</sub> is not a real compound (carbonate is the CO<sub>3</sub><sup>2&minus;</sup> ion), and carbonic acid does not release H<sub>2</sub>.",
+  "why": "Feedback mislabels neutral CO3 as the carbonate ion; carbonate carries a 2- charge.",
+  "src": "first"
+ },
+ {
+  "id": "3A-747",
+  "field": "w",
+  "old": "Molality: 1.45 g &divide; 95.21 g/mol = 0.01523 mol; 0.01523 mol &divide; 0.1250 kg = 0.1218 m. MgCl<sub>2</sub> gives 3 ions (Mg<sup>2+</sup> + 2 Cl<sup>&minus;</sup>): 3 &times; 0.1218 = 0.366 Osm/kg = <b>366 mOsm/kg</b>.",
+  "new": "Molality: 1.45 g &divide; 95.21 g/mol = 0.01523 mol; 0.01523 mol &divide; 0.1250 kg = 0.12184 m. MgCl<sub>2</sub> gives 3 ions (Mg<sup>2+</sup> + 2 Cl<sup>&minus;</sup>): 3 &times; 0.12184 = 0.3655 Osm/kg = <b>366 mOsm/kg</b>.",
+  "why": "Shown arithmetic 3 x 0.1218 = 0.366 is wrong (0.3654); carrying one more digit gives 0.3655 -> 366.",
+  "src": "first"
+ },
+ {
+  "id": "3A-818",
+  "field": "h",
+  "old": "Look up fluorine-18 in the half-life table.",
+  "new": "Is the half-life of fluorine-18 long or short? How much is left after a few half-lives?",
+  "why": "Hint refers to a half-life table that the item does not show; rewrite so it guides without data the student lacks and without giving the answer.",
+  "src": "first"
+ },
+ {
+  "id": "3B-58",
+  "field": "x[3]",
+  "old": "CH3CH2OCH3 has only one oxygen, but two methanol molecules were used. Each methanol adds its own –OCH3 group to the former carbonyl carbon.",
+  "new": "CH<sub>3</sub>CH<sub>2</sub>OCH<sub>3</sub> has only one oxygen, but two methanol molecules were used. Each methanol adds its own –OCH<sub>3</sub> group to the former carbonyl carbon.",
+  "why": "formulas stored without <sub> tags",
+  "src": "first"
+ },
+ {
+  "id": "3B-26",
+  "field": "h",
+  "old": "A C=C uses 1 H<sub>2</sub>; a C≡C uses 2 H<sub>2</sub>.",
+  "new": "Each H<sub>2</sub> adds across one pi bond. How many pi bonds are in a C=C, and how many in a C≡C?",
+  "why": "old hint gave the H2 count for each bond type",
+  "src": "first"
+ },
+ {
+  "id": "3B-37",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":2",
+  "why": "one-step recall item; d=3 overstates difficulty",
+  "src": "first"
+ },
+ {
+  "id": "3B-91",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":2",
+  "why": "one-step recall item; d=3 overstates difficulty",
+  "src": "first"
+ },
+ {
+  "id": "3B-97",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":2",
+  "why": "one-step recall item; d=3 overstates difficulty",
+  "src": "first"
+ },
+ {
+  "id": "3B-177",
+  "field": "x[3]",
+  "old": "129 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH2. Use the values in the table.",
+  "new": "129 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH<sub>2</sub>. Use the values in the table.",
+  "why": "FADH2 stored without <sub> tag",
+  "src": "first"
+ },
+ {
+  "id": "3B-114",
+  "field": "x[1]",
+  "old": "Cholesterol is made only by animals; hydrogenation adds H<sub>2</sub>, not cholesterol, to plant oils.",
+  "new": "Plant oils contain essentially no cholesterol, and hydrogenation adds only H<sub>2</sub> to C=C bonds; it does not add cholesterol.",
+  "why": "plants make trace cholesterol; 'made only by animals' is an overstatement",
+  "src": "first"
+ },
+ {
+  "id": "3B-155",
+  "field": "h",
+  "old": "Alanine loses its –NH<sub>2</sub> and gets a C=O in its place; α-ketoglutarate gains the –NH<sub>2</sub>. Which 3-carbon keto acid has the formula CH<sub>3</sub>–CO–COOH?",
+  "new": "Rewrite each reactant after the swap: put a C=O where alanine's –NH<sub>2</sub> was, and an –NH<sub>2</sub> where α-ketoglutarate's keto C=O was. Then name both new compounds.",
+  "why": "old hint supplied the pyruvate formula",
+  "src": "first"
+ },
+ {
+  "id": "3B-162",
+  "field": "h",
+  "old": "Gluconeogenesis starts from pyruvate or a glycolysis intermediate. Which molecule is formed only after pyruvate has irreversibly lost a CO<sub>2</sub>?",
+  "new": "Gluconeogenesis can start only from pyruvate or a glycolysis intermediate. Trace each choice: which one cannot get back to either?",
+  "why": "old hint pointed straight to acetyl CoA",
+  "src": "first"
+ },
+ {
+  "id": "3B-178",
+  "field": "h",
+  "old": "Each cycle cuts off 2 carbons and makes 1 NADH and 1 FADH<sub>2</sub>. The last cycle splits a 4-carbon unit into two acetyl CoA.",
+  "new": "Each cycle cuts off 2 carbons and makes 1 NADH and 1 FADH<sub>2</sub>. How many cuts does it take to divide a 12-carbon chain into 2-carbon pieces?",
+  "why": "old hint stated the n − 1 insight directly",
+  "src": "first"
+ },
+ {
+  "id": "3B-135",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":2",
+  "why": "one-step recall item; d=3 overstates difficulty",
+  "src": "first"
+ },
+ {
+  "id": "3B-317",
+  "field": "x[3]",
+  "old": "197 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH2. Use the values in the table.",
+  "new": "197 uses the older values of 12 ATP per acetyl CoA, 3 per NADH and 2 per FADH<sub>2</sub>. Use the values in the table.",
+  "why": "FADH2 shown without subscript markup; every other occurrence in the item uses <sub>2</sub>",
+  "src": "first"
+ },
+ {
+  "id": "3B-375",
+  "field": "x[2]",
+  "old": "In 2-methyl-1-butanol the branch is on C2, right next to the CH2OH carbon. In this ester two CH2 groups sit between the O and the branch.",
+  "new": "In 2-methyl-1-butanol the branch is on C2, right next to the CH<sub>2</sub>OH carbon. In this ester two CH<sub>2</sub> groups sit between the O and the branch.",
+  "why": "CH2 shown without subscript markup",
+  "src": "first"
+ },
+ {
+  "id": "3B-394",
+  "field": "c[2]",
+  "old": "C<sub>6</sub>H<sub>10</sub> (cyclohexene)",
+  "new": "CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>2</sub>CH=CH<sub>2</sub>",
+  "why": "choice printed its own formula C6H10, a giveaway; 1,5-hexadiene (C6H10) makes the student count H and recognize two C=C",
+  "src": "first"
+ },
+ {
+  "id": "3B-394",
+  "field": "x[2]",
+  "old": "Cyclohexene is C<sub>6</sub>H<sub>10</sub>: it has a ring and a C=C, so it has two H fewer than cyclohexane.",
+  "new": "This diene has two C=C bonds, so it is C<sub>6</sub>H<sub>10</sub>, two H fewer than cyclohexane. Each C=C or ring removes 2 H.",
+  "why": "matches new c[2]",
+  "src": "first"
+ },
+ {
+  "id": "3B-394",
+  "field": "c[3]",
+  "old": "C<sub>6</sub>H<sub>6</sub> (benzene)",
+  "new": "HC≡CCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
+  "why": "choice printed its own formula C6H6, a giveaway; 1-hexyne (C6H10) tests that a triple bond removes 4 H",
+  "src": "first"
+ },
+ {
+  "id": "3B-394",
+  "field": "x[3]",
+  "old": "Benzene is C<sub>6</sub>H<sub>6</sub>, far fewer H than cyclohexane. Isomers need exactly the same formula.",
+  "new": "A C≡C triple bond removes 4 H, so 1-hexyne is C<sub>6</sub>H<sub>10</sub>, two H fewer than cyclohexane. Isomers need exactly the same formula.",
+  "why": "matches new c[3]",
+  "src": "first"
+ },
+ {
+  "id": "3B-394",
+  "field": "w",
+  "old": "A ring and a C=C each remove 2 H from the alkane formula, so an open-chain alkene has the same formula as a cycloalkane. <b>1-Hexene</b> is C<sub>6</sub>H<sub>12</sub>; hexane is C<sub>6</sub>H<sub>14</sub>, cyclohexene C<sub>6</sub>H<sub>10</sub> and benzene C<sub>6</sub>H<sub>6</sub>.",
+  "new": "A ring and a C=C each remove 2 H from the alkane formula, so an open-chain alkene with one C=C has the same formula as a cycloalkane. <b>1-Hexene</b> is C<sub>6</sub>H<sub>12</sub>; hexane is C<sub>6</sub>H<sub>14</sub>, and 1,5-hexadiene (two C=C) and 1-hexyne (one C≡C) are both C<sub>6</sub>H<sub>10</sub>.",
+  "why": "matches new c[2], c[3]",
+  "src": "first"
+ },
+ {
+  "id": "3B-467",
+  "field": "x[2]",
+  "old": "36 is an older total that uses 3 ATP per NADH and 2 per FADH2 but counts each glycolysis NADH as only 2 ATP. Use 2.5 and 1.5 from the table for every carrier.",
+  "new": "36 is an older total that uses 3 ATP per NADH and 2 per FADH<sub>2</sub> but counts each glycolysis NADH as only 2 ATP. Use 2.5 and 1.5 from the table for every carrier.",
+  "why": "FADH2 written without <sub> tag; every other field uses FADH<sub>2</sub>.",
+  "src": "first"
+ },
+ {
+  "id": "3B-570",
+  "field": "x[1]",
+  "old": "Turn §B around: the branch is on the second carbon from the right end, so it is 2-methylpentane again, the same compound.",
+  "new": "Turn this drawing around: the branch is on the second carbon from the left end, so it is 2-methylpentane again, the same compound.",
+  "why": "Literal \"§B\" placeholder renders as text in the why-wrong list (whyHTML prints q.x verbatim beside the drawing; the game shuffles choices so letters are meaningless). Also the drawing (cs[1]) has the branch on the second carbon from the LEFT end (atoms 0-1 at left, branch on atom 1), contradicting \"right end\"; the EXPL already says left.",
+  "src": "first"
+ },
+ {
+  "id": "3B-570",
+  "field": "x[2]",
+  "old": "§C has only five carbons (2-methylbutane, C<sub>5</sub>H<sub>12</sub>). Isomers must have the same formula, C<sub>6</sub>H<sub>14</sub>.",
+  "new": "This drawing has only five carbons (2-methylbutane, C<sub>5</sub>H<sub>12</sub>). Isomers must have the same formula, C<sub>6</sub>H<sub>14</sub>.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-570",
+  "field": "x[3]",
+  "old": "§D contains a C=C, so it is C<sub>6</sub>H<sub>12</sub>, two H fewer than 2-methylpentane.",
+  "new": "This drawing contains a C=C, so it is C<sub>6</sub>H<sub>12</sub>, two H fewer than 2-methylpentane.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-571",
+  "field": "x[1]",
+  "old": "§B is butanal, C<sub>4</sub>H<sub>8</sub>O: it has one O fewer than ethyl acetate.",
+  "new": "This drawing is butanal, C<sub>4</sub>H<sub>8</sub>O: it has one O fewer than ethyl acetate.",
+  "why": "Literal \"§B\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-571",
+  "field": "x[2]",
+  "old": "§C is ethyl propanoate, C<sub>5</sub>H<sub>10</sub>O<sub>2</sub>: it has one more CH<sub>2</sub> than ethyl acetate.",
+  "new": "This drawing is ethyl propanoate, C<sub>5</sub>H<sub>10</sub>O<sub>2</sub>: it has one more CH<sub>2</sub> than ethyl acetate.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-571",
+  "field": "x[3]",
+  "old": "§D is 1-butanol, C<sub>4</sub>H<sub>10</sub>O: it has one O fewer and two H more than ethyl acetate.",
+  "new": "This drawing is 1-butanol, C<sub>4</sub>H<sub>10</sub>O: it has one O fewer and two H more than ethyl acetate.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-572",
+  "field": "x[1]",
+  "old": "§B is cyclopentene. It has a ring and a C=C, so it is C<sub>5</sub>H<sub>8</sub>, two H fewer than cyclopentane.",
+  "new": "This drawing is cyclopentene. It has a ring and a C=C, so it is C<sub>5</sub>H<sub>8</sub>, two H fewer than cyclopentane.",
+  "why": "Literal \"§B\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-572",
+  "field": "x[2]",
+  "old": "§C is pentane, C<sub>5</sub>H<sub>12</sub>. With no ring and no C=C it has two more H than cyclopentane.",
+  "new": "This drawing is pentane, C<sub>5</sub>H<sub>12</sub>. With no ring and no C=C it has two more H than cyclopentane.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-572",
+  "field": "x[3]",
+  "old": "§D is methylcyclopentane, which has six carbons. Isomers need the same number of each atom.",
+  "new": "This drawing is methylcyclopentane, which has six carbons. Isomers need the same number of each atom.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-573",
+  "field": "x[1]",
+  "old": "§B is the zig-zag with the CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub> on opposite sides of the C=C, which is the trans form.",
+  "new": "This drawing is the zig-zag with the CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub> on opposite sides of the C=C, which is the trans form.",
+  "why": "Literal \"§B\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-573",
+  "field": "x[2]",
+  "old": "§C is 1-pentene. Its end carbon holds two H, so it cannot be cis or trans.",
+  "new": "This drawing is 1-pentene. Its end carbon holds two H, so it cannot be cis or trans.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-573",
+  "field": "x[3]",
+  "old": "§D is 2-methyl-2-butene. One C=C carbon holds two CH<sub>3</sub> groups, so it cannot be cis or trans.",
+  "new": "This drawing is 2-methyl-2-butene. One C=C carbon holds two CH<sub>3</sub> groups, so it cannot be cis or trans.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-574",
+  "field": "x[1]",
+  "old": "In §B the CH<sub>3</sub> on C2 and the isopropyl group on C3 are on the same side of the C=C. That is the cis form.",
+  "new": "In this drawing the CH<sub>3</sub> on C2 and the isopropyl group on C3 are on the same side of the C=C. That is the cis form.",
+  "why": "Literal \"§B\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-574",
+  "field": "x[2]",
+  "old": "§C has the C=C at the end of the chain (4-methyl-1-pentene). Its end carbon holds two H, so it has no trans form.",
+  "new": "This drawing has the C=C at the end of the chain (4-methyl-1-pentene). Its end carbon holds two H, so it has no trans form.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-574",
+  "field": "x[3]",
+  "old": "§D has the C=C at the branched carbon, which holds two CH<sub>3</sub> groups. That alkene has no cis or trans form.",
+  "new": "This drawing has the C=C at the branched carbon, which holds two CH<sub>3</sub> groups. That alkene has no cis or trans form.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-577",
+  "field": "x[1]",
+  "old": "§B is 2-pentene. Each C=C carbon holds an H and a different carbon group, so cis and trans forms exist.",
+  "new": "This drawing is 2-pentene. Each C=C carbon holds an H and a different carbon group, so cis and trans forms exist.",
+  "why": "Literal \"§B\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-577",
+  "field": "x[2]",
+  "old": "§C is 3-hexene. Each C=C carbon holds an H and an ethyl group, so cis and trans forms exist.",
+  "new": "This drawing is 3-hexene. Each C=C carbon holds an H and an ethyl group, so cis and trans forms exist.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-577",
+  "field": "x[3]",
+  "old": "§D is 2-butene. Each C=C carbon holds an H and a CH<sub>3</sub>, so cis and trans forms exist.",
+  "new": "This drawing is 2-butene. Each C=C carbon holds an H and a CH<sub>3</sub>, so cis and trans forms exist.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-578",
+  "field": "x[1]",
+  "old": "§B is 2-butene. Each C=C carbon holds an H and a CH<sub>3</sub>, so it does have cis and trans forms.",
+  "new": "This drawing is 2-butene. Each C=C carbon holds an H and a CH<sub>3</sub>, so it does have cis and trans forms.",
+  "why": "Literal \"§B\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-578",
+  "field": "x[2]",
+  "old": "§C is 2-hexene. Each C=C carbon holds two different groups, so it does have cis and trans forms.",
+  "new": "This drawing is 2-hexene. Each C=C carbon holds two different groups, so it does have cis and trans forms.",
+  "why": "Literal \"§C\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-578",
+  "field": "x[3]",
+  "old": "§D is 3-methyl-2-pentene. The branch does not prevent cis–trans isomerism: each C=C carbon still holds two different groups.",
+  "new": "This drawing is 3-methyl-2-pentene. The branch does not prevent cis–trans isomerism: each C=C carbon still holds two different groups.",
+  "why": "Literal \"§D\" placeholder renders as raw text in the why-wrong list (whyHTML prints q.x verbatim next to the drawing; choices are shuffled, so a letter reference is meaningless).",
+  "src": "first"
+ },
+ {
+  "id": "3B-750",
+  "field": "x[1]",
+  "old": "§B's side chain is –CH<sub>2</sub>OH. The –OH group makes it polar.",
+  "new": "This side chain is –CH<sub>2</sub>OH. The –OH group makes it polar.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-750",
+  "field": "x[2]",
+  "old": "§C's side chain ends in –COO<sup>−</sup>, a negatively charged acidic group.",
+  "new": "This side chain ends in –COO<sup>−</sup>, a negatively charged acidic group.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-750",
+  "field": "x[3]",
+  "old": "§D's side chain ends in –NH<sub>3</sub><sup>+</sup>, a positively charged basic group.",
+  "new": "This side chain ends in –NH<sub>3</sub><sup>+</sup>, a positively charged basic group.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-752",
+  "field": "x[1]",
+  "old": "§B is the reversed dipeptide: alanine's C=O is bonded to glycine's N. That would come from alanine's –COOH reacting with glycine's –NH<sub>2</sub>.",
+  "new": "This is the reversed dipeptide: alanine's C=O is bonded to glycine's N. That would come from alanine's –COOH reacting with glycine's –NH<sub>2</sub>.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-752",
+  "field": "x[2]",
+  "old": "§C joins two C=O groups through an O, a C(=O)–O–C(=O) anhydride link. A peptide bond needs a nitrogen.",
+  "new": "This structure joins two C=O groups through an O, a C(=O)–O–C(=O) anhydride link. A peptide bond needs a nitrogen.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-752",
+  "field": "x[3]",
+  "old": "§D links the two residues through N–CH<sub>2</sub> with no C=O next to the N. That is an amine, not an amide (peptide) bond.",
+  "new": "This structure links the two residues through N–CH<sub>2</sub> with no C=O next to the N. That is an amine, not an amide (peptide) bond.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-753",
+  "field": "x[1]",
+  "old": "§B is the uncharged form, with –NH<sub>2</sub> and –COOH. In water this form is almost never present.",
+  "new": "This is the uncharged form, with –NH<sub>2</sub> and –COOH. In water this form is almost never present.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-753",
+  "field": "x[2]",
+  "old": "§C has –COOH and –NH<sub>3</sub><sup>+</sup>, net +1. That is the main form at low pH, far below the pI.",
+  "new": "This form has –COOH and –NH<sub>3</sub><sup>+</sup>, net +1. That is the main form at low pH, far below the pI.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-753",
+  "field": "x[3]",
+  "old": "§D has –NH<sub>2</sub> and –COO<sup>−</sup>, net −1. That is the main form at high pH, far above the pI.",
+  "new": "This form has –NH<sub>2</sub> and –COO<sup>−</sup>, net −1. That is the main form at high pH, far above the pI.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-754",
+  "field": "x[1]",
+  "old": "§B is the zwitterion (–NH<sub>3</sub><sup>+</sup> and –COO<sup>−</sup>), the main form near the pI. Far below the pI there is extra H<sup>+</sup> to pick up.",
+  "new": "This is the zwitterion (–NH<sub>3</sub><sup>+</sup> and –COO<sup>−</sup>), the main form near the pI. Far below the pI there is extra H<sup>+</sup> to pick up.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-754",
+  "field": "x[2]",
+  "old": "§C has –NH<sub>2</sub> and –COO<sup>−</sup>, net −1. That form is found far above the pI, in basic solution.",
+  "new": "This form has –NH<sub>2</sub> and –COO<sup>−</sup>, net −1. That form is found far above the pI, in basic solution.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-754",
+  "field": "x[3]",
+  "old": "§D is the uncharged form, which is almost never present in water. In strong acid, think about what extra H<sup>+</sup> does.",
+  "new": "This is the uncharged form, which is almost never present in water. In strong acid, think about what extra H<sup>+</sup> does.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-757",
+  "field": "x[1]",
+  "old": "§B has sulfur, but as a thioether (–CH<sub>2</sub>–S–CH<sub>3</sub>) with no S–H bond. Without an –SH group it cannot form a disulfide.",
+  "new": "This amino acid has sulfur, but as a thioether (–CH<sub>2</sub>–S–CH<sub>3</sub>) with no S–H bond. Without an –SH group it cannot form a disulfide.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-757",
+  "field": "x[2]",
+  "old": "§C's side chain is –CH<sub>2</sub>OH. It has an –OH group and no sulfur, so it cannot form –S–S– bridges.",
+  "new": "This side chain is –CH<sub>2</sub>OH. It has an –OH group and no sulfur, so it cannot form –S–S– bridges.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-757",
+  "field": "x[3]",
+  "old": "§D's side chain is –CH(OH)CH<sub>3</sub>. It contains oxygen, not sulfur, so no disulfide is possible.",
+  "new": "This side chain is –CH(OH)CH<sub>3</sub>. It contains oxygen, not sulfur, so no disulfide is possible.",
+  "why": "Literal '§' choice token shown to students in why-wrong text; choices are shuffled so the letter is meaningless",
+  "src": "first"
+ },
+ {
+  "id": "3B-741",
+  "field": "x[2]",
+  "old": "Not every ketose disaccharide is reducing; the question is whether an anomeric carbon still has a free –OH. Here fructose C2 is in the glycosidic bond.",
+  "new": "Free fructose is a reducing sugar, but only because its anomeric C2 has a free –OH that lets the ring open. In sucrose, fructose C2 is tied up in the glycosidic bond.",
+  "why": "Old feedback rebutted 'every ketose disaccharide', which the choice does not say; free ketoses such as fructose do give positive Benedict's tests, so the real reason must be the blocked anomeric C2",
+  "src": "first"
+ },
+ {
+  "id": "3B-853",
+  "field": "raw",
+  "old": "\"k\":1,",
+  "new": "\"k\":0,",
+  "why": "no arithmetic in this item; calculator chip cues a calculation that does not exist",
+  "src": "first"
+ },
+ {
+  "id": "3B-859",
+  "field": "raw",
+  "old": "\"k\":1,",
+  "new": "\"k\":0,",
+  "why": "no arithmetic in this item; calculator chip cues a calculation that does not exist",
+  "src": "first"
+ },
+ {
+  "id": "3B-861",
+  "field": "w",
+  "old": "From the curve, saturation is about 98% at 100 mmHg (lungs) and about 76% at 40 mmHg (tissue). The difference, roughly 98 − 76 ≈ 22%, or about <b>20%</b>, is the fraction of sites that released O<sub>2</sub>. \"75%\" is the saturation remaining in the tissue, not the amount unloaded; the sigmoid shape means most of the O<sub>2</sub> stays bound until the pressure falls further, as in exercising muscle.",
+  "new": "From the curve, saturation is about 98% at 100 mmHg (lungs) and about 77% at 40 mmHg (tissue). The difference, roughly 98 − 77 ≈ 21%, or about <b>20%</b>, is the fraction of sites that released O<sub>2</sub>. \"75%\" is the saturation remaining in the tissue, not the amount unloaded; the sigmoid shape means most of the O<sub>2</sub> stays bound until the pressure falls further, as in exercising muscle.",
+  "why": "plotted curve: 97.75% at 100 mmHg, 76.96% at 40 mmHg; difference 20.8%",
+  "src": "first"
+ },
+ {
+  "id": "3B-924",
+  "field": "x[1]",
+  "old": "§B has an –OH and a –COOH (a hydroxy acid) but no nitrogen, so it has no amino group.",
+  "new": "This structure has an –OH and a –COOH (a hydroxy acid) but no nitrogen, so it has no amino group.",
+  "why": "literal '§' letter shown to students in feedback (q.x rendered raw); letters do not match shuffled positions",
+  "src": "first"
+ },
+ {
+  "id": "3B-924",
+  "field": "x[2]",
+  "old": "§C has an amine and an alcohol, but no carboxylic acid group.",
+  "new": "This structure has an amine and an alcohol, but no carboxylic acid group.",
+  "why": "literal '§' letter shown to students in feedback (q.x rendered raw); letters do not match shuffled positions",
+  "src": "first"
+ },
+ {
+  "id": "3B-924",
+  "field": "x[3]",
+  "old": "§D has a C=O bonded to –NH<sub>2</sub>, which is an amide. It has neither a free amino group nor a carboxylic acid.",
+  "new": "This structure has a C=O bonded to –NH<sub>2</sub>, which is an amide. It has neither a free amino group nor a carboxylic acid.",
+  "why": "literal '§' letter shown to students in feedback (q.x rendered raw); letters do not match shuffled positions",
+  "src": "first"
+ },
+ {
+  "id": "3B-940",
+  "field": "x[1]",
+  "old": "§B is the zwitterion (–NH<sub>3</sub><sup>+</sup> and –COO<sup>−</sup>), the main form at the pI. In strong base OH<sup>−</sup> removes another H<sup>+</sup>.",
+  "new": "This is the zwitterion (–NH<sub>3</sub><sup>+</sup> and –COO<sup>−</sup>), the main form at the pI. In strong base OH<sup>−</sup> removes another H<sup>+</sup>.",
+  "why": "literal '§' letter shown to students in feedback (q.x rendered raw); letters do not match shuffled positions",
+  "src": "first"
+ },
+ {
+  "id": "3B-940",
+  "field": "x[2]",
+  "old": "§C has –COOH and –NH<sub>3</sub><sup>+</sup>, net +1. That is the main form in strong acid, far below the pI.",
+  "new": "This form has –COOH and –NH<sub>3</sub><sup>+</sup>, net +1. That is the main form in strong acid, far below the pI.",
+  "why": "literal '§' letter shown to students in feedback (q.x rendered raw); letters do not match shuffled positions",
+  "src": "first"
+ },
+ {
+  "id": "3B-940",
+  "field": "x[3]",
+  "old": "§D is the uncharged form, which is not the major form at any pH in water.",
+  "new": "This is the uncharged form, which is not the major form at any pH in water.",
+  "why": "literal '§' letter shown to students in feedback (q.x rendered raw); letters do not match shuffled positions",
+  "src": "first"
+ },
+ {
+  "id": "3B-1041",
+  "field": "x[1]",
+  "old": "This is the structure before step 5, with only single bonds and three lone pairs on N. Carbon would have just 4 electrons, so two of those lone pairs must become shared pairs.",
+  "new": "This is the structure with only single bonds (H–C–N) and three lone pairs on N. Carbon would have just 4 electrons, so two of those lone pairs must become shared pairs.",
+  "why": "'before step 5' refers to a drawing procedure students never see in this item",
+  "src": "first"
+ },
+ {
+  "id": "3B-1042",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":2",
+  "why": "Counting O2 valence electrons is the same skill as 3B-1039/1044 (d=2)",
+  "src": "first"
+ },
+ {
+  "id": "3B-1045",
+  "field": "raw",
+  "old": "\"d\":3",
+  "new": "\"d\":2",
+  "why": "OH- lone pairs is a one-step count; 3B-1038 (NH4+) is d=1",
+  "src": "first"
+ },
+ {
+  "id": "3B-1086",
+  "field": "x[1]",
+  "old": "Ketones are not oxidized by mild oxidizing agents (Chapter 5). The ketose has to rearrange into an aldose before anything reacts.",
+  "new": "Ketones are not oxidized by mild oxidizing agents. The ketose has to rearrange into an aldose before anything reacts.",
+  "why": "Remove '(Chapter 5)' book-chapter reference that may not match the student's text",
+  "src": "first"
+ },
+ {
+  "id": "3B-1099",
+  "field": "q",
+  "old": "Ten of the 20 amino acids are called <b>essential</b>. What does this term mean?",
+  "new": "Some of the 20 amino acids are called <b>essential</b>. What does this term mean?",
+  "why": "Adults have nine essential amino acids (arginine conditionally); the definition question does not need a disputed count",
+  "src": "first"
+ },
+ {
+  "id": "3B-1099",
+  "field": "x[1]",
+  "old": "Human proteins use all 20 amino acids. The nonessential ten are just as necessary; the body makes them itself.",
+  "new": "Human proteins use all 20 amino acids. The nonessential ones are just as necessary; the body makes them itself.",
+  "why": "Matches stem change (no fixed count)",
+  "src": "first"
+ },
+ {
+  "id": "3A-669",
+  "field": "q",
+  "old": "A 65.0 g piece of iron at 99.2 °C is dropped into 45.0 g of water at 21.0 °C in a calorimeter. Both end at 31.5 °C. How much heat did the iron release? (c for water = 4.184 J/(g·°C))",
+  "new": "A 65.0 g piece of iron at 99.2 °C is dropped into 45.0 g of water at 21.0 °C in a calorimeter. Both end at 31.5 °C. What is q for the iron, the heat it gained or lost? (c for water = 4.184 J/(g·°C))",
+  "why": "Stem asks for heat released (a positive amount) while the key is the signed q_iron = -1.98e3 J; asking for q removes the sign ambiguity.",
+  "src": "calib"
+ },
+ {
+  "id": "3A-633",
+  "field": "c[3]",
+  "old": "0.00375 mol",
+  "new": "3.75 mL",
+  "why": "c3 had units of mol for a volume question (eliminated by units). 3.75 mL = moles of HCl (0.00375) written as mL x1000, a real stop-early error.",
+  "src": "calib"
+ },
+ {
+  "id": "3A-633",
+  "field": "x[3]",
+  "old": "This stops at moles of HCl; dividing by the molarity gives the volume.",
+  "new": "This stops at moles of HCl (0.00375 mol) and relabels it as a volume; divide moles by molarity to get liters.",
+  "why": "Matches the new c3.",
+  "src": "calib"
+ },
+ {
+  "id": "1A-47",
+  "field": "x[3]",
+  "old": "8 comes from the permanganate half-reaction alone, not the combined equation.",
+  "new": "8 OH⁻ comes from doubling the permanganate half-reaction, where the OH⁻ are products. In the combined equation most OH⁻ cancel, leaving 2 on the product side.",
+  "why": "Old x3 blamed the permanganate half-reaction, but there the 8 OH⁻ are on the product side, not the reactant side.",
+  "src": "calib"
+ },
+ {
+  "id": "1A-713",
+  "field": "c[0]",
+  "old": "1875 nm and 102.5 nm",
+  "new": "1875 nm and 102.6 nm",
+  "why": "With E_n = -2.179e-18/n^2: 3->1 = 102.56 nm, 2->1 = 121.55 nm, 5->3 = 1282.0 nm; values were truncated, not rounded.",
+  "src": "calib"
+ },
+ {
+  "id": "1A-713",
+  "field": "c[1]",
+  "old": "656 nm and 121.5 nm",
+  "new": "656 nm and 121.6 nm",
+  "why": "With E_n = -2.179e-18/n^2: 3->1 = 102.56 nm, 2->1 = 121.55 nm, 5->3 = 1282.0 nm; values were truncated, not rounded.",
+  "src": "calib"
+ },
+ {
+  "id": "1A-713",
+  "field": "c[2]",
+  "old": "434 nm and 121.5 nm",
+  "new": "434 nm and 121.6 nm",
+  "why": "With E_n = -2.179e-18/n^2: 3->1 = 102.56 nm, 2->1 = 121.55 nm, 5->3 = 1282.0 nm; values were truncated, not rounded.",
+  "src": "calib"
+ },
+ {
+  "id": "1A-713",
+  "field": "c[3]",
+  "old": "1281 nm and 102.5 nm",
+  "new": "1282 nm and 102.6 nm",
+  "why": "With E_n = -2.179e-18/n^2: 3->1 = 102.56 nm, 2->1 = 121.55 nm, 5->3 = 1282.0 nm; values were truncated, not rounded.",
+  "src": "calib"
+ },
+ {
+  "id": "1A-713",
+  "field": "w",
+  "old": "With two photons, the electron goes 4 → 3 → 1 or 4 → 2 → 1. The 4 → 3 drop gives 1875 nm and the 3 → 1 drop gives 102.5 nm, so <b>1875 nm and 102.5 nm</b> works. 656 + 121.5 nm is the path 3 → 2 → 1, which starts at n = 3. 434 + 121.5 nm is 5 → 2 → 1, and 1281 + 102.5 nm is 5 → 3 → 1, both starting at n = 5.",
+  "new": "With two photons, the electron goes 4 → 3 → 1 or 4 → 2 → 1. The 4 → 3 drop gives 1875 nm and the 3 → 1 drop gives 102.6 nm, so <b>1875 nm and 102.6 nm</b> works. 656 + 121.6 nm is the path 3 → 2 → 1, which starts at n = 3. 434 + 121.6 nm is 5 → 2 → 1, and 1282 + 102.6 nm is 5 → 3 → 1, both starting at n = 5.",
+  "why": "Same rounding correction in the explanation.",
+  "src": "calib"
+ },
+ {
+  "id": "1A-713",
+  "field": "x[3]",
+  "old": "1281 nm is the 5 → 3 drop, so this path starts at n = 5, not n = 4.",
+  "new": "1282 nm is the 5 → 3 drop, so this path starts at n = 5, not n = 4.",
+  "why": "Same rounding correction.",
+  "src": "calib"
+ },
+ {
+  "id": "3B-853",
+  "field": "raw",
+  "old": "\"k\":1",
+  "new": "\"k\":0",
+  "why": "No arithmetic in this item; calc chip should be off.",
+  "src": "calib"
+ },
+ {
+  "id": "1A-747",
+  "field": "raw",
+  "old": "\"d\":1",
+  "new": "\"d\":2",
+  "why": "Two-reactant limiting-reagent comparison is d=2, not recall.",
+  "src": "calib"
+ },
+ {
+  "id": "1B-668",
+  "field": "x[2]",
+  "old": "This structure has lost an O atom and a charge as well. A conjugate pair differs by one H⁺ only.",
+  "new": "This structure has lost a whole OH⁻ (an O atom, the H and the charge). A conjugate pair differs by one H⁺ only.",
+  "why": "CO2 = HCO3- minus OH-; the original omits that the H is gone too",
+  "src": "calib"
+ },
+ {
+  "id": "28A-320",
+  "field": "x[1]",
+  "old": "Butanal also has a CHO, but its α carbon is CH<sub>2</sub>: the CHO is a triplet, and the spectrum shows 4 signals including a 3H triplet.",
+  "new": "Butanal also has a CHO, but its α carbon is CH<sub>2</sub>: its CHO would be a triplet, and it would give 4 signals including a 3H triplet.",
+  "why": "The given spectrum has 3 signals; the sentence describes butanal's expected spectrum but reads as describing the one shown",
+  "src": "calib"
+ },
+ {
+  "id": "28B-65",
+  "field": "raw",
+  "old": "{\"t\":\"alcohols\",\"q\":\"What is the major organic product of this reaction?\",\"c\":[\"§A\",\"§B\",\"§C\",\"§D\"],\"h\":\"Which carbonyl is more electrophilic, the ketone or the ester? How strong a hydride donor is NaBH<sub>4</sub>?\",\"w\":\"NaBH<sub>4</sub> is a mild hydride donor. It reduces aldehydes and ketones quickly but leaves esters essentially untouched, because the ester carbonyl is stabilized by donation from the OCH<sub>3</sub> oxygen. Only the ketone becomes a secondary alcohol: <b>methyl 4-(1-hydroxyethyl)benzoate</b> (racemic).\",\"x\":[\"\",\"Reducing both groups needs LiAlH<sub>4</sub>; NaBH<sub>4</sub> in methanol does not reduce the ester at a useful rate.\",\"This reverses the selectivity: the ester is the less reactive carbonyl, so it cannot be reduced while the ketone survives.\",\"Removing the oxygen completely (C=O → CH<sub>2</sub>) requires Clemmensen or Wolff–Kishner conditions, not a hydride reagent.\"],\"k\":0,\"d\":2,\"s\":[{\"skel\":true,\"a\":[[\"C\",7.797,6.745,0,0],[\"O\",6.498,5.996,0,0],[\"C\",6.497,4.496,0,0],[\"O\",7.795,3.745,0,0],[\"C\",5.197,3.747,0,0],[\"C\",5.196,2.247,0,0],[\"C\",3.896,1.498,0,0],[\"C\",2.598,2.249,0,0],[\"C\",1.298,1.5,0,0],[\"C\",0,2.251,0,0],[\"O\",1.297,0,0,0],[\"C\",2.599,3.749,0,0],[\"C\",3.899,4.498,0,0]],\"b\":[[0,1,1],[1,2,1],[2,3,2],[2,4,1],[4,5,2],[5,6,1],[6,7,2],[7,8,1],[8,9,1],[8,10,2],[7,11,1],[11,12,2],[12,4,1]]},{\"arrow\":\"NaBH<sub>4</sub>\",\"below\":\"CH<sub>3</sub>OH, 0 °C\"},\"?\"],\"cs\":[{\"skel\":true,\"a\":[[\"C\",0,1.491,0,0],[\"O\",1.296,2.246,0,0],[\"C\",2.598,1.5,0,0],[\"O\",2.603,0,0,0],[\"C\",3.894,2.255,0,0],[\"C\",5.196,1.509,0,0],[\"C\",6.492,2.264,0,0],[\"C\",6.487,3.764,0,0],[\"C\",7.783,4.519,0,0],[\"C\",7.778,6.019,0,0],[\"OH\",9.085,3.773,0,0],[\"C\",5.185,4.509,0,0],[\"C\",3.889,3.755,0,0]],\"b\":[[0,1,1],[1,2,1],[2,3,2],[2,4,1],[4,5,2],[5,6,1],[6,7,2],[7,8,1],[8,9,1],[8,10,1],[7,11,1],[11,12,2],[12,4,1]]},{\"skel\":true,\"a\":[[\"OH\",6.498,0,0,0],[\"C\",6.497,1.5,0,0],[\"C\",5.197,2.249,0,0],[\"C\",3.899,1.498,0,0],[\"C\",2.599,2.247,0,0],[\"C\",2.598,3.747,0,0],[\"C\",1.298,4.496,0,0],[\"C\",1.297,5.996,0,0],[\"OH\",0,3.745,0,0],[\"C\",3.896,4.498,0,0],[\"C\",5.196,3.749,0,0]],\"b\":[[0,1,1],[1,2,1],[2,3,2],[3,4,1],[4,5,2],[5,6,1],[6,7,1],[6,8,1],[5,9,1],[9,10,2],[10,2,1]]},{\"skel\":true,\"a\":[[\"OH\",6.498,0,0,0],[\"C\",6.497,1.5,0,0],[\"C\",5.197,2.249,0,0],[\"C\",3.899,1.498,0,0],[\"C\",2.599,2.247,0,0],[\"C\",2.598,3.747,0,0],[\"C\",1.298,4.496,0,0],[\"C\",1.297,5.996,0,0],[\"O\",0,3.745,0,0],[\"C\",3.896,4.498,0,0],[\"C\",5.196,3.749,0,0]],\"b\":[[0,1,1],[1,2,1],[2,3,2],[3,4,1],[4,5,2],[5,6,1],[6,7,1],[6,8,2],[5,9,1],[9,10,2],[10,2,1]]},{\"skel\":true,\"a\":[[\"C\",9.085,1.491,0,0],[\"O\",7.789,2.245,0,0],[\"C\",6.487,1.5,0,0],[\"O\",6.482,0,0,0],[\"C\",5.191,2.255,0,0],[\"C\",3.889,1.509,0,0],[\"C\",2.593,2.264,0,0],[\"C\",2.598,3.764,0,0],[\"C\",1.302,4.519,0,0],[\"C\",0,3.773,0,0],[\"C\",3.9,4.509,0,0],[\"C\",5.196,3.755,0,0]],\"b\":[[0,1,1],[1,2,1],[2,3,2],[2,4,1],[4,5,2],[5,6,1],[6,7,2],[7,8,1],[8,9,1],[7,10,1],[10,11,2],[11,4,1]]}]}",
+  "new": "{\"t\":\"alcohols\",\"q\":\"Ethyl 4-oxocyclohexane-1-carboxylate is treated with NaBH<sub>4</sub> in CH<sub>3</sub>OH at 0 °C, then with water. What is the major organic product?\",\"c\":[\"ethyl 4-hydroxycyclohexane-1-carboxylate\",\"4-(hydroxymethyl)cyclohexan-1-one\",\"4-(hydroxymethyl)cyclohexan-1-ol\",\"4-oxocyclohexane-1-carboxylic acid\"],\"h\":\"NaBH<sub>4</sub> is a mild hydride donor. Which carbonyl is more electrophilic, the ring ketone or the ester?\",\"w\":\"NaBH<sub>4</sub> reduces ketones quickly but esters only very slowly, because the ester C=O is stabilized by donation from its OR oxygen. Only the ring C=O becomes CH–OH and the ester survives: <b>ethyl 4-hydroxycyclohexane-1-carboxylate</b> (a cis/trans mixture). Reducing the ester instead requires protecting the ketone and using LiAlH<sub>4</sub>.\",\"x\":[\"\",\"This reverses the selectivity: the ester is the less reactive carbonyl, so NaBH<sub>4</sub> cannot reduce it while leaving the ketone.\",\"Reducing both carbonyls is the LiAlH<sub>4</sub> result; NaBH<sub>4</sub> does not reduce the ester at a useful rate.\",\"NaBH<sub>4</sub> is a reducing agent; it does not hydrolyze the ester, and the ketone would not survive it.\"],\"k\":0,\"d\":2}",
+  "why": "Exact duplicate of another item (exact duplicate of 28B-44: same reaction/question and same four choices (only stem wording/topic tag differ); both could appear in one exam); replaced by a new question on a different compound, checked by hand",
+  "src": "rewrite"
+ },
+ {
+  "id": "28B-68",
+  "field": "raw",
+  "old": "{\"t\":\"alcohols\",\"q\":\"What is the major organic product?\",\"c\":[\"§A\",\"§B\",\"§C\",\"§D\"],\"h\":\"A lactone is a cyclic ester. What does LiAlH<sub>4</sub> do to both the acyl carbon and the alkoxy oxygen of an ester?\",\"w\":\"LiAlH<sub>4</sub> reduces an ester to two alcohols: the acyl carbon becomes a CH<sub>2</sub>OH and the alkoxy oxygen becomes a second OH. In a lactone both pieces are in the same molecule, so the ring opens to one diol: <b>butane-1,4-diol</b>.\",\"x\":[\"\",\"The aldehyde formed after the first hydride is more reactive than the ester and is reduced at once; LiAlH<sub>4</sub> does not stop at the aldehyde.\",\"Tetrahydrofuran would need the carbonyl oxygen removed while the ring stays closed; hydride reduction instead opens the ring at the C–O bond to give a diol.\",\"The ring oxygen is not lost: it becomes an O–H after workup, so the product keeps both oxygens.\"],\"k\":0,\"d\":2,\"s\":[{\"skel\":true,\"a\":[[\"O\",0,0,0,0],[\"C\",1.3,0.748,0,0],[\"C\",1.458,2.24,0,0],[\"C\",2.926,2.55,0,0],[\"C\",3.674,1.25,0,0],[\"O\",2.67,0.137,0,0]],\"b\":[[0,1,2],[1,2,1],[2,3,1],[3,4,1],[4,5,1],[5,1,1]]},{\"arrow\":\"1. LiAlH<sub>4</sub>, ether\",\"below\":\"2. H<sub>3</sub>O<sup>+</sup>\"},\"?\"],\"cs\":[{\"skel\":true,\"a\":[[\"OH\",6.496,0.004,0,0],[\"C\",5.196,0.753,0,0],[\"C\",3.898,0.002,0,0],[\"C\",2.598,0.751,0,0],[\"C\",1.3,0,0,0],[\"OH\",0,0.749,0,0]],\"b\":[[0,1,1],[1,2,1],[2,3,1],[3,4,1],[4,5,1]]},{\"skel\":true,\"a\":[[\"O\",6.496,0.004,0,0],[\"C\",5.196,0.753,0,0],[\"C\",3.898,0.002,0,0],[\"C\",2.598,0.751,0,0],[\"C\",1.3,0,0,0],[\"OH\",0,0.749,0,0]],\"b\":[[0,1,2],[1,2,1],[2,3,1],[3,4,1],[4,5,1]]},{\"skel\":true,\"a\":[[\"C\",1.109,0,0,0],[\"C\",0,1.01,0,0],[\"C\",0.617,2.377,0,0],[\"O\",2.108,2.212,0,0],[\"C\",2.412,0.743,0,0]],\"b\":[[0,1,1],[1,2,1],[2,3,1],[3,4,1],[4,0,1]]},{\"skel\":true,\"a\":[[\"C\",0,0.749,0,0],[\"C\",1.3,0,0,0],[\"C\",2.598,0.751,0,0],[\"C\",3.898,0.002,0,0],[\"OH\",5.196,0.753,0,0]],\"b\":[[0,1,1],[1,2,1],[2,3,1],[3,4,1]]}]}",
+  "new": "{\"t\":\"alcohols\",\"q\":\"δ-Valerolactone (oxan-2-one, a six-membered lactone) is treated with 1 equivalent of DIBAL-H in toluene at −78 °C, then with water. What is the main product isolated?\",\"c\":[\"oxan-2-ol (a cyclic hemiacetal)\",\"pentane-1,5-diol (an open diol)\",\"oxane (a cyclic ether)\",\"5-hydroxypentanoic acid\"],\"h\":\"At −78 °C DIBAL-H delivers one hydride to an ester, and the intermediate collapses only at workup. What does that give when the ester is a ring?\",\"w\":\"One hydride adds to the lactone C=O; at −78 °C the aluminum-bound tetrahedral intermediate does not collapse. Workup releases 5-hydroxypentanal, whose OH adds to its own aldehyde to form the favored six-membered cyclic hemiacetal: <b>oxan-2-ol (a lactol)</b>. Excess LiAlH<sub>4</sub> would instead give pentane-1,5-diol.\",\"x\":[\"\",\"The diol needs a second hydride, as with LiAlH<sub>4</sub>; one equivalent of DIBAL-H at −78 °C stops at the aldehyde oxidation level.\",\"Hydride reagents do not remove the carbonyl oxygen completely to leave a cyclic ether.\",\"DIBAL-H is a reducing agent; opening the ring to the hydroxy acid would need aqueous base or acid, not hydride.\"],\"k\":0,\"d\":3}",
+  "why": "Exact duplicate of another item (exact duplicate of 28B-33: same reaction/question and same four choices (only stem wording/topic tag differ); both could appear in one exam); replaced by a new question on a different compound, checked by hand",
+  "src": "rewrite"
+ },
+ {
+  "id": "28B-76",
+  "field": "raw",
+  "old": "{\"t\":\"alcohols\",\"q\":\"What is the major organic product?\",\"c\":[\"§A\",\"§B\",\"§C\",\"§D\"],\"h\":\"After the first addition, methoxide leaves. What carbonyl is left, and is it more or less reactive than the ester?\",\"w\":\"The first CH<sub>3</sub>MgBr adds to the ester carbonyl; the tetrahedral intermediate expels CH<sub>3</sub>O<sup>−</sup> to give acetophenone. The ketone is more electrophilic than the ester, so it captures a second CH<sub>3</sub>MgBr at once. Workup gives the tertiary alcohol <b>2-phenylpropan-2-ol</b>, with two identical methyl groups that both came from the Grignard.\",\"x\":[\"\",\"The ketone intermediate is more reactive than the starting ester, so it cannot be isolated with excess Grignard; it is converted to the tertiary alcohol.\",\"A secondary alcohol would require a hydride as the second nucleophile; here both nucleophiles are methyl groups.\",\"Grignard reagents add C–C bonds; they do not hydrolyze the ester to benzoic acid.\"],\"k\":0,\"d\":2,\"s\":[{\"skel\":true,\"a\":[[\"C\",2.61,0,0,0],[\"O\",2.607,1.5,0,0],[\"C\",1.306,2.247,0,0],[\"O\",0.009,1.495,0,0],[\"C\",1.303,3.747,0,0],[\"C\",0.003,4.495,0,0],[\"C\",0,5.995,0,0],[\"C\",1.297,6.747,0,0],[\"C\",2.598,6,0,0],[\"C\",2.601,4.5,0,0]],\"b\":[[0,1,1],[1,2,1],[2,3,2],[2,4,1],[4,5,2],[5,6,1],[6,7,2],[7,8,1],[8,9,2],[9,4,1]]},{\"arrow\":\"1. CH<sub>3</sub>MgBr (excess), ether\",\"below\":\"2. H<sub>3</sub>O<sup>+</sup>\"},\"?\"],\"cs\":[{\"skel\":true,\"a\":[[\"C\",0.557,4.311,0,0],[\"C\",1.302,3.009,0,0],[\"C\",0,2.264,0,0],[\"OH\",2.057,4.306,0,0],[\"C\",2.598,2.255,0,0],[\"C\",3.9,3,0,0],[\"C\",5.196,2.245,0,0],[\"C\",5.191,0.745,0,0],[\"C\",3.889,0,0,0],[\"C\",2.593,0.755,0,0]],\"b\":[[0,1,1],[1,2,1],[1,3,1],[1,4,1],[4,5,2],[5,6,1],[6,7,2],[7,8,1],[8,9,2],[9,4,1]]},{\"skel\":true,\"a\":[[\"C\",0,2.251,0,0],[\"C\",1.298,1.5,0,0],[\"O\",1.297,0,0,0],[\"C\",2.598,2.249,0,0],[\"C\",2.599,3.749,0,0],[\"C\",3.899,4.498,0,0],[\"C\",5.197,3.747,0,0],[\"C\",5.196,2.247,0,0],[\"C\",3.896,1.498,0,0]],\"b\":[[0,1,1],[1,2,2],[1,3,1],[3,4,2],[4,5,1],[5,6,2],[6,7,1],[7,8,2],[8,3,1]]},{\"skel\":true,\"a\":[[\"C\",0,2.251,0,0],[\"C\",1.298,1.5,0,0],[\"OH\",1.297,0,0,0],[\"C\",2.598,2.249,0,0],[\"C\",2.599,3.749,0,0],[\"C\",3.899,4.498,0,0],[\"C\",5.197,3.747,0,0],[\"C\",5.196,2.247,0,0],[\"C\",3.896,1.498,0,0]],\"b\":[[0,1,1],[1,2,1],[1,3,1],[3,4,2],[4,5,1],[5,6,2],[6,7,1],[7,8,2],[8,3,1]]},{\"skel\":true,\"a\":[[\"OH\",0,0.005,0,0],[\"C\",1.3,0.753,0,0],[\"O\",2.598,0,0,0],[\"C\",1.303,2.253,0,0],[\"C\",2.604,3,0,0],[\"C\",2.607,4.5,0,0],[\"C\",1.309,5.252,0,0],[\"C\",0.009,4.505,0,0],[\"C\",0.006,3.005,0,0]],\"b\":[[0,1,1],[1,2,2],[1,3,1],[3,4,2],[4,5,1],[5,6,2],[6,7,1],[7,8,2],[8,3,1]]}]}",
+  "new": "{\"t\":\"alcohols\",\"q\":\"Diethyl carbonate, (CH<sub>3</sub>CH<sub>2</sub>O)<sub>2</sub>C=O, is treated with excess C<sub>6</sub>H<sub>5</sub>MgBr in ether, then H<sub>3</sub>O<sup>+</sup>. What is the main organic product besides ethanol?\",\"c\":[\"triphenylmethanol, (C<sub>6</sub>H<sub>5</sub>)<sub>3</sub>COH\",\"benzophenone, (C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>C=O\",\"ethyl benzoate, C<sub>6</sub>H<sub>5</sub>CO<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>\",\"diphenylmethanol, (C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>CHOH\"],\"h\":\"A carbonate carbon carries two OR leaving groups. How many times can a Grignard add before no leaving group is left?\",\"w\":\"The first PhMgBr adds and expels ethoxide, giving ethyl benzoate. The ester is more reactive than the carbonate, so it adds a second PhMgBr and expels ethoxide again, giving benzophenone. The ketone is more reactive still and adds a third. Workup gives <b>triphenylmethanol</b>, a 3° alcohol whose three phenyl groups all came from the Grignard.\",\"x\":[\"\",\"Benzophenone is an intermediate; it is more electrophilic than the carbonate and the ester, so excess PhMgBr adds to it.\",\"Ethyl benzoate is the first intermediate; with excess Grignard it reacts twice more.\",\"A secondary alcohol needs an H on the carbinol carbon (from a formate ester or a hydride); every group added here is phenyl.\"],\"k\":0,\"d\":3}",
+  "why": "Exact duplicate of another item (exact duplicate of 28B-34: same reaction/question and same four choices (only stem wording/topic tag differ); both could appear in one exam); replaced by a new question on a different compound, checked by hand",
+  "src": "rewrite"
+ },
+ {
+  "id": "28B-145",
+  "field": "raw",
+  "old": "{\"t\":\"amines\",\"q\":\"Treating 4-aminophenol with one equivalent of acetic anhydride gives which compound as the main product?\",\"c\":[\"§A\",\"§B\",\"§C\",\"§D\"],\"h\":\"Two nucleophiles compete for one acylating agent. Which is more nucleophilic, a neutral aryl NH<sub>2</sub> or a neutral phenol OH?\",\"w\":\"Nitrogen is less electronegative than oxygen, so the neutral NH<sub>2</sub> lone pair is more available and the amine is the better nucleophile. With one equivalent of anhydride, <b>N-acetylation</b> wins and gives N-(4-hydroxyphenyl)acetamide (acetaminophen); the amide formed is also no longer nucleophilic, so the reaction stops there.\",\"x\":[\"\",\"O-Acylation needs a phenoxide or a large excess of acylating agent; the neutral amine reacts faster.\",\"Acetylating both groups would need two equivalents of anhydride.\",\"Ring acylation is a Friedel–Crafts reaction requiring an acyl chloride and AlCl<sub>3</sub>; acetic anhydride alone acylates the heteroatom.\"],\"k\":0,\"d\":2,\"cs\":[{\"skel\":true,\"a\":[[\"C\",0,3.028,0,0],[\"C\",1.296,2.273,0,0],[\"O\",1.291,0.773,0,0],[\"NH\",2.598,3.019,0,0],[\"C\",3.894,2.264,0,0],[\"C\",5.196,3.009,0,0],[\"C\",6.492,2.255,0,0],[\"C\",6.487,0.755,0,0],[\"OH\",7.783,0,0,0],[\"C\",5.185,0.009,0,0],[\"C\",3.889,0.764,0,0]],\"b\":[[0,1,1],[1,2,2],[1,3,1],[3,4,1],[4,5,2],[5,6,1],[6,7,2],[7,8,1],[7,9,1],[9,10,2],[10,4,1]]},{\"skel\":true,\"a\":[[\"C\",0,3.028,0,0],[\"C\",1.296,2.273,0,0],[\"O\",1.291,0.773,0,0],[\"O\",2.598,3.019,0,0],[\"C\",3.894,2.264,0,0],[\"C\",5.196,3.009,0,0],[\"C\",6.492,2.255,0,0],[\"C\",6.487,0.755,0,0],[\"NH2\",7.783,0,0,0],[\"C\",5.185,0.009,0,0],[\"C\",3.889,0.764,0,0]],\"b\":[[0,1,1],[1,2,2],[1,3,1],[3,4,1],[4,5,2],[5,6,1],[6,7,2],[7,8,1],[7,9,1],[9,10,2],[10,4,1]]},{\"skel\":true,\"a\":[[\"C\",0,7.496,0,0],[\"C\",1.3,6.747,0,0],[\"O\",2.598,7.498,0,0],[\"NH\",1.301,5.247,0,0],[\"C\",2.6,4.498,0,0],[\"C\",2.602,2.998,0,0],[\"C\",3.901,2.249,0,0],[\"C\",5.2,3,0,0],[\"O\",6.499,2.251,0,0],[\"C\",6.5,0.751,0,0],[\"C\",7.8,0.002,0,0],[\"O\",5.202,0,0,0],[\"C\",5.198,4.5,0,0],[\"C\",3.899,5.249,0,0]],\"b\":[[0,1,1],[1,2,2],[1,3,1],[3,4,1],[4,5,2],[5,6,1],[6,7,2],[7,8,1],[8,9,1],[9,10,1],[9,11,2],[7,12,1],[12,13,2],[13,4,1]]},{\"skel\":true,\"a\":[[\"C\",6.494,2.251,0,0],[\"C\",5.196,1.5,0,0],[\"O\",5.197,0,0,0],[\"C\",3.896,2.249,0,0],[\"C\",2.598,1.498,0,0],[\"C\",1.298,2.247,0,0],[\"NH2\",0,1.496,0,0],[\"C\",1.297,3.747,0,0],[\"C\",2.596,4.498,0,0],[\"C\",3.895,3.749,0,0],[\"OH\",5.194,4.5,0,0]],\"b\":[[0,1,1],[1,2,2],[1,3,1],[3,4,2],[4,5,1],[5,6,1],[5,7,2],[7,8,1],[8,9,2],[9,10,1],[9,3,1]]}]}",
+  "new": "{\"t\":\"amines\",\"q\":\"2-Aminoethan-1-ol (HOCH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub>) is treated with one equivalent of acetic anhydride at room temperature. What is the main product?\",\"c\":[\"<i>N</i>-(2-hydroxyethyl)acetamide, CH<sub>3</sub>CONHCH<sub>2</sub>CH<sub>2</sub>OH\",\"2-aminoethyl acetate, CH<sub>3</sub>CO<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub>\",\"2-acetamidoethyl acetate, CH<sub>3</sub>CONHCH<sub>2</sub>CH<sub>2</sub>O<sub>2</sub>CCH<sub>3</sub>\",\"ethane-1,2-diol and acetamide\"],\"h\":\"Two nucleophiles compete for one acylating agent. Which is more nucleophilic: a neutral NH<sub>2</sub> or a neutral OH?\",\"w\":\"Nitrogen is less electronegative than oxygen, so the amine lone pair is more available and NH<sub>2</sub> is acylated much faster than OH. With one equivalent of anhydride the amide forms: <b><i>N</i>-(2-hydroxyethyl)acetamide</b>. The amide nitrogen is no longer nucleophilic, and the OH needs more anhydride (or a catalyst) to react.\",\"x\":[\"\",\"O-Acylation is slower because a neutral OH is a weaker nucleophile than NH<sub>2</sub>; the ester is not the main product with one equivalent.\",\"Acylating both groups would need at least two equivalents of anhydride.\",\"An anhydride acylates N or O; it does not break the C–N bond or move the nitrogen onto the acyl group.\"],\"k\":0,\"d\":2}",
+  "why": "Exact duplicate of another item (exact duplicate of 28B-29: same reaction/question and same four choices (only stem wording/topic tag differ); both could appear in one exam); replaced by a new question on a different compound, checked by hand",
+  "src": "rewrite"
+ },
+ {
+  "id": "28B-182",
+  "field": "raw",
+  "old": "{\"t\":\"aromatic\",\"q\":\"4-(Dimethylamino)pyridine (DMAP) is about 10<sup>4</sup> times more basic than pyridine. Which nitrogen is protonated first, and why?\",\"c\":[\"<i>a</i>; NMe<sub>2</sub> donates into the ring, raising electron density on <i>a</i> and spreading the + charge over both N\",\"<i>b</i>; it is a trialkyl-type sp<sup>3</sup> amine, and amines are always more basic than pyridines\",\"<i>b</i>; the lone pair on <i>a</i> is part of the aromatic sextet, so it cannot be protonated at all\",\"<i>a</i>; it is sp<sup>3</sup> hybridized, so its lone pair is held less tightly than the lone pair of <i>b</i>\"],\"h\":\"Draw a resonance form in which the NMe<sub>2</sub> lone pair pushes into the ring. Where does the negative charge end up?\",\"w\":\"N<i>b</i> is an aniline-type nitrogen: its lone pair is conjugated with the ring (it is nearly planar, sp<sup>2</sup>-like), so it is not very basic. That donation pushes electron density onto the para ring nitrogen <i>a</i>. After <i>a</i> is protonated, the positive charge is shared with <i>b</i> through an amidinium-like resonance form (C=N<sup>+</sup>Me<sub>2</sub>). So <b>a is protonated</b>, and DMAP (conjugate acid pK<sub>a</sub> ≈ 9.6) is much more basic than pyridine (5.2).\",\"x\":[\"\",\"N<i>b</i> is attached to an aromatic ring, so its lone pair is delocalized into the ring like aniline's; protonating it would destroy that conjugation and give no charge sharing.\",\"Ring nitrogen <i>a</i> is pyridine-like: its lone pair is in the ring plane, outside the sextet, and is available for protonation.\",\"Ring nitrogen <i>a</i> is sp<sup>2</sup>, not sp<sup>3</sup>; the extra basicity comes from resonance donation by the NMe<sub>2</sub> group, not hybridization.\"],\"k\":0,\"d\":3,\"s\":[{\"skel\":true,\"a\":[[\"C\",0,5.247,0,0],[\"N\",1.3,4.5,0,0,\"b\"],[\"C\",2.598,5.252,0,0],[\"C\",1.303,3,0,0],[\"C\",2.604,2.252,0,0],[\"C\",2.607,0.752,0,0],[\"N\",1.309,0,0,0,\"a\"],[\"C\",0.009,0.747,0,0],[\"C\",0.006,2.247,0,0]],\"b\":[[0,1,1],[1,2,1],[1,3,1],[3,4,2],[4,5,1],[5,6,2],[6,7,1],[7,8,2],[8,3,1]]}]}",
+  "new": "{\"t\":\"aromatic\",\"q\":\"Which pyridine is the <b>strongest</b> base?\",\"c\":[\"4-(dimethylamino)pyridine (DMAP)\",\"4-methoxypyridine\",\"pyridine\",\"4-cyanopyridine\"],\"h\":\"A para substituent that donates electrons by resonance can share the positive charge of the pyridinium ion. Which donor does that best?\",\"w\":\"Each compound is protonated at the ring nitrogen. A 4-substituent that donates by resonance gives the pyridinium ion an extra resonance form (C=X<sup>+</sup>) that spreads the charge, and nitrogen is a better π donor than oxygen. Conjugate-acid pK<sub>a</sub> values: DMAP 9.6 > 4-methoxypyridine 6.6 > pyridine 5.2 > 4-cyanopyridine 1.9. The strongest base is <b>DMAP</b>.\",\"x\":[\"\",\"OCH<sub>3</sub> also donates by resonance, but oxygen is more electronegative than nitrogen and shares its lone pair less well (pK<sub>a</sub>H 6.6 vs 9.6).\",\"Pyridine has no donor group to share the positive charge (pK<sub>a</sub>H 5.2).\",\"CN withdraws electrons by induction and resonance, making 4-cyanopyridine the weakest base here (pK<sub>a</sub>H 1.9).\"],\"k\":0,\"d\":2}",
+  "why": "Exact duplicate of another item (exact duplicate of 28B-162: same reaction/question and same four choices (only stem wording/topic tag differ); both could appear in one exam); replaced by a new question on a different compound, checked by hand",
+  "src": "rewrite"
+ },
+ {
+  "id": "28A-220",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw1\",\"t\":\"",
+  "why": "Near-twin of 28A-343: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-343",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw1\",\"t\":\"",
+  "why": "Near-twin of 28A-220: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-284",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw2\",\"t\":\"",
+  "why": "Near-twin of 28A-383: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-383",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw2\",\"t\":\"",
+  "why": "Near-twin of 28A-284: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-830",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw3\",\"t\":\"",
+  "why": "Near-twin of 28A-831: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-831",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw3\",\"t\":\"",
+  "why": "Near-twin of 28A-830: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "1A-122",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw4\",\"t\":\"",
+  "why": "Near-twin of 1A-194: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "1A-194",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw4\",\"t\":\"",
+  "why": "Near-twin of 1A-122: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "1A-358",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw5\",\"t\":\"",
+  "why": "Near-twin of 1A-359: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "1A-359",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw5\",\"t\":\"",
+  "why": "Near-twin of 1A-358: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "1A-822",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw6\",\"t\":\"",
+  "why": "Near-twin of 1A-823: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "1A-823",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw6\",\"t\":\"",
+  "why": "Near-twin of 1A-822: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "1B-297",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw7\",\"t\":\"",
+  "why": "Near-twin of 1B-358: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "1B-358",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw7\",\"t\":\"",
+  "why": "Near-twin of 1B-297: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3A-350",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw8\",\"t\":\"",
+  "why": "Near-twin of 3A-351: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3A-351",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw8\",\"t\":\"",
+  "why": "Near-twin of 3A-350: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-36",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw9\",\"t\":\"",
+  "why": "Near-twin of 3B-46: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-46",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw9\",\"t\":\"",
+  "why": "Near-twin of 3B-36: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-780",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw10\",\"t\":\"",
+  "why": "Near-twin of 3B-793: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-793",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw10\",\"t\":\"",
+  "why": "Near-twin of 3B-780: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-784",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw11\",\"t\":\"",
+  "why": "Near-twin of 3B-795: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-795",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw11\",\"t\":\"",
+  "why": "Near-twin of 3B-784: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-787",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw12\",\"t\":\"",
+  "why": "Near-twin of 3B-797: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-797",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw12\",\"t\":\"",
+  "why": "Near-twin of 3B-787: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-790",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw13\",\"t\":\"",
+  "why": "Near-twin of 3B-796: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-796",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw13\",\"t\":\"",
+  "why": "Near-twin of 3B-790: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-791",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw14\",\"t\":\"",
+  "why": "Near-twin of 3B-798: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-798",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw14\",\"t\":\"",
+  "why": "Near-twin of 3B-791: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-792",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw15\",\"t\":\"",
+  "why": "Near-twin of 3B-799: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-799",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw15\",\"t\":\"",
+  "why": "Near-twin of 3B-792: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-782",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw16\",\"t\":\"",
+  "why": "Near-twin of 3B-794: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "3B-794",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw16\",\"t\":\"",
+  "why": "Near-twin of 3B-782: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-308",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw17\",\"t\":\"",
+  "why": "Near-twin of 28B-382: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-382",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw17\",\"t\":\"",
+  "why": "Near-twin of 28B-308: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-405",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw18\",\"t\":\"",
+  "why": "Near-twin of 28B-570: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-570",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw18\",\"t\":\"",
+  "why": "Near-twin of 28B-405: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-449",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw19\",\"t\":\"",
+  "why": "Near-twin of 28B-579: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-579",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw19\",\"t\":\"",
+  "why": "Near-twin of 28B-449: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-467",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw20\",\"t\":\"",
+  "why": "Near-twin of 28B-565: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-565",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw20\",\"t\":\"",
+  "why": "Near-twin of 28B-467: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-476",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw21\",\"t\":\"",
+  "why": "Near-twin of 28B-598: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-598",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw21\",\"t\":\"",
+  "why": "Near-twin of 28B-476: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-455",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw22\",\"t\":\"",
+  "why": "Near-twin of 28B-578: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-578",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw22\",\"t\":\"",
+  "why": "Near-twin of 28B-455: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-276",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw23\",\"t\":\"",
+  "why": "Near-twin of 28B-314: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-314",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw23\",\"t\":\"",
+  "why": "Near-twin of 28B-276: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-722",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw24\",\"t\":\"",
+  "why": "Near-twin of 28B-734, 28B-771: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-734",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw24\",\"t\":\"",
+  "why": "Near-twin of 28B-722, 28B-771: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-771",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw24\",\"t\":\"",
+  "why": "Near-twin of 28B-722, 28B-734: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-723",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw25\",\"t\":\"",
+  "why": "Near-twin of 28B-748: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-748",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw25\",\"t\":\"",
+  "why": "Near-twin of 28B-723: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-735",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw26\",\"t\":\"",
+  "why": "Near-twin of 28B-772: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-772",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw26\",\"t\":\"",
+  "why": "Near-twin of 28B-735: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-739",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw27\",\"t\":\"",
+  "why": "Near-twin of 28B-774: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28B-774",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw27\",\"t\":\"",
+  "why": "Near-twin of 28B-739: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-840",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw28\",\"t\":\"",
+  "why": "Near-twin of 28A-841, 28A-842: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-841",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw28\",\"t\":\"",
+  "why": "Near-twin of 28A-840, 28A-842: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-842",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw28\",\"t\":\"",
+  "why": "Near-twin of 28A-840, 28A-841: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-843",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw29\",\"t\":\"",
+  "why": "Near-twin of 28A-844, 28A-845: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-844",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw29\",\"t\":\"",
+  "why": "Near-twin of 28A-843, 28A-845: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-845",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw29\",\"t\":\"",
+  "why": "Near-twin of 28A-843, 28A-844: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-856",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw30\",\"t\":\"",
+  "why": "Near-twin of 28A-857, 28A-858: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-857",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw30\",\"t\":\"",
+  "why": "Near-twin of 28A-856, 28A-858: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-858",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw30\",\"t\":\"",
+  "why": "Near-twin of 28A-856, 28A-857: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-859",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw31\",\"t\":\"",
+  "why": "Near-twin of 28A-860, 28A-861: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-860",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw31\",\"t\":\"",
+  "why": "Near-twin of 28A-859, 28A-861: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-861",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw31\",\"t\":\"",
+  "why": "Near-twin of 28A-859, 28A-860: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-995",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw32\",\"t\":\"",
+  "why": "Near-twin of 28A-996: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-996",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw32\",\"t\":\"",
+  "why": "Near-twin of 28A-995: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-622",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw33\",\"t\":\"",
+  "why": "Near-twin of 28A-684: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-684",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw33\",\"t\":\"",
+  "why": "Near-twin of 28A-622: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-715",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw34\",\"t\":\"",
+  "why": "Near-twin of 28A-774: at most one per Boss Battle",
+  "src": "twins"
+ },
+ {
+  "id": "28A-774",
+  "field": "raw",
+  "old": "{\"t\":\"",
+  "new": "{\"g\":\"tw34\",\"t\":\"",
+  "why": "Near-twin of 28A-715: at most one per Boss Battle",
+  "src": "twins"
+ }
+]

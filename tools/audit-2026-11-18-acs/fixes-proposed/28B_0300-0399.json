@@ -1,0 +1,44 @@
+[
+ {
+  "id": "28B-375",
+  "field": "x[1]",
+  "old": "B (para attack, cation two carbons away from the nitro-bearing carbon) is an ordinary contributor with the charge on a C–H carbon; it is not what makes para attack bad.",
+  "new": "This form (para attack, cation two carbons away from the nitro-bearing carbon) is an ordinary contributor with the charge on a C–H carbon; it is not what makes para attack bad.",
+  "why": "x1 opens with letter B. Structure-only choices render without letters and are shuffled, so the letter points at nothing."
+ },
+ {
+  "id": "28B-375",
+  "field": "x[2]",
+  "old": "C belongs to the meta σ complex (the favored pathway). The cation is next to, not on, the carbon bearing NO<sub>2</sub>, so it lacks the adjacent-positive-charge clash.",
+  "new": "This form belongs to the meta σ complex (the favored pathway). The cation is next to, not on, the carbon bearing NO<sub>2</sub>, so it lacks the adjacent-positive-charge clash.",
+  "why": "x2 opens with letter C. Structure-only choices render without letters and are shuffled, so the letter points at nothing."
+ },
+ {
+  "id": "28B-375",
+  "field": "x[3]",
+  "old": "D belongs to the ortho σ complex, but its cation is far from the nitro group; the bad form of the ortho complex is the one with the charge on the nitro-bearing carbon.",
+  "new": "This form belongs to the ortho σ complex, but its cation is far from the nitro group; the bad form of the ortho complex is the one with the charge on the nitro-bearing carbon.",
+  "why": "x3 opens with letter D. Structure-only choices render without letters and are shuffled, so the letter points at nothing."
+ },
+ {
+  "id": "28B-395",
+  "field": "w",
+  "old": "AlCl<sub>3</sub> pulls Cl<sup>−</sup> from 1-chloropropane. The developing primary cation undergoes a <b>1,2-hydride shift</b> to the more stable secondary isopropyl cation, which alkylates the ring: <b>isopropylbenzene (cumene, A)</b> is the major product. Using excess benzene keeps polyalkylation low.",
+  "new": "AlCl<sub>3</sub> pulls Cl<sup>−</sup> from 1-chloropropane. The developing primary cation undergoes a <b>1,2-hydride shift</b> to the more stable secondary isopropyl cation, which alkylates the ring: <b>isopropylbenzene (cumene)</b> is the major product. Using excess benzene keeps polyalkylation low.",
+  "why": "EXPL cites choice A. Structure-only choices render without letters and are shuffled, so the letter points at nothing."
+ },
+ {
+  "id": "28B-396",
+  "field": "w",
+  "old": "Ionization gives a primary (neopentyl) cation. The adjacent carbon is quaternary, so no hydride can shift, but a <b>1,2-methyl shift</b> gives the tertiary 2-methylbutan-2-yl cation, (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>CH<sub>2</sub>CH<sub>3</sub>. That cation alkylates benzene to give <b>(2-methylbutan-2-yl)benzene (<i>tert</i>-pentylbenzene, A)</b>.",
+  "new": "Ionization gives a primary (neopentyl) cation. The adjacent carbon is quaternary, so no hydride can shift, but a <b>1,2-methyl shift</b> gives the tertiary 2-methylbutan-2-yl cation, (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>CH<sub>2</sub>CH<sub>3</sub>. That cation alkylates benzene to give <b>(2-methylbutan-2-yl)benzene (<i>tert</i>-pentylbenzene)</b>.",
+  "why": "EXPL cites choice A. Structure-only choices render without letters and are shuffled, so the letter points at nothing."
+ },
+ {
+  "id": "28B-370",
+  "field": "w",
+  "old": "Para attack puts the positive charge on the two carbons ortho to the new sp<sup>3</sup> carbon and on the carbon bearing OCH<sub>3</sub> . From that form, an oxygen lone pair forms a C=O<sup>+</sup> π bond, giving <b>the oxonium form, in which every atom has a complete octet</b>. A form with all octets outweighs any form with an electron-deficient carbon, even the tertiary-like cation on the OCH<sub>3</sub> carbon. This extra contributor is why OCH<sub>3</sub> activates the ring and directs ortho/para.",
+  "new": "Para attack puts the positive charge on the two carbons ortho to the new sp<sup>3</sup> carbon and on the carbon bearing OCH<sub>3</sub>. From that form, an oxygen lone pair forms a C=O<sup>+</sup> π bond, giving <b>the oxonium form, in which every atom has a complete octet</b>. A form with all octets outweighs any form with an electron-deficient carbon, even the tertiary-like cation on the OCH<sub>3</sub> carbon. This extra contributor is why OCH<sub>3</sub> activates the ring and directs ortho/para.",
+  "why": "stray space before period (cosmetic, safe)"
+ }
+]

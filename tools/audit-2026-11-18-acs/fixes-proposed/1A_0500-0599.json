@@ -1,0 +1,23 @@
+[
+ {
+  "id": "1A-549",
+  "field": "w",
+  "old": "3.01×10<sup>21</sup> ÷ 6.022×10<sup>23</sup> = 5.00×10<sup>−3</sup> mol; 0.730 g ÷ 5.00×10<sup>−3</sup> mol = 146 g mol⁻¹. (146 − 32.06)/19.00 = 6.0, so <b><i>n</i> = 6</b> (SF<sub>6</sub>). SF<sub>4</sub> would have a molar mass of 108 g mol⁻¹, giving only 0.540 g for this many molecules.",
+  "new": "3.01×10<sup>21</sup> ÷ 6.022×10<sup>23</sup> = 5.00×10<sup>−3</sup> mol; 0.730 g ÷ 5.00×10<sup>−3</sup> mol = 146 g mol⁻¹. (146 − 32.07)/19.00 = 6.0, so <b><i>n</i> = 6</b> (SF<sub>6</sub>). SF<sub>4</sub> would have a molar mass of 108 g mol⁻¹, giving only 0.540 g for this many molecules.",
+  "why": "Game periodic table lists S = 32.07."
+ },
+ {
+  "id": "1A-549",
+  "field": "x[3]",
+  "old": "SF₂ would be 70.06 g/mol, so 5.00×10⁻³ mol would weigh only 0.350 g, not 0.730 g. Find the molar mass (g ÷ mol) and solve for <i>n</i>.",
+  "new": "SF₂ would be 70.07 g/mol, so 5.00×10⁻³ mol would weigh only 0.350 g, not 0.730 g. Find the molar mass (g ÷ mol) and solve for <i>n</i>.",
+  "why": "S = 32.07 in the game table, so SF2 = 70.07 g/mol (0.350 g unchanged)."
+ },
+ {
+  "id": "1A-550",
+  "field": "x[3]",
+  "old": "SO₂ is only 50.0% O by mass, because the sulfur atom (32.06 g) weighs as much as both oxygens. More O atoms don't help when the partner atom is heavy.",
+  "new": "SO₂ is only 50.0% O by mass, because the sulfur atom (32.07 g) weighs as much as both oxygens. More O atoms don't help when the partner atom is heavy.",
+  "why": "Game periodic table lists S = 32.07."
+ }
+]

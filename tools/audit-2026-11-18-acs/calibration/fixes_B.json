@@ -1,0 +1,30 @@
+[
+ {
+  "id": "1B-668",
+  "field": "w",
+  "old": "Removing H<sup>+</sup> from HCO<sub>3</sub><sup>−</sup> leaves <b>CO<sub>3</sub><sup>2−</sup></b>: the same C and three O atoms, no H, and a 2− charge (two O atoms carry −1). H<sub>2</sub>CO<sub>3</sub> is the conjugate acid, CO<sub>2</sub> has lost an O and an OH, and formate (HCO<sub>2</sub><sup>−</sup>) has lost an O atom rather than an H<sup>+</sup>.",
+  "new": "Removing H<sup>+</sup> from HCO<sub>3</sub><sup>−</sup> leaves <b>CO<sub>3</sub><sup>2−</sup></b>: the same C and three O atoms, no H, and a 2− charge (two O atoms carry −1). H<sub>2</sub>CO<sub>3</sub> is the conjugate acid, CO<sub>2</sub> has lost a whole OH<sup>−</sup> (an O, the H and the charge), and formate (HCO<sub>2</sub><sup>−</sup>) has lost an O atom rather than an H<sup>+</sup>.",
+  "why": "HCO3- (1 H, 3 O) minus CO2 (0 H, 2 O) = OH-; 'an O and an OH' would remove two O atoms"
+ },
+ {
+  "id": "1B-668",
+  "field": "x[2]",
+  "old": "This structure has lost an O atom and a charge as well. A conjugate pair differs by one H⁺ only.",
+  "new": "This structure has lost a whole OH⁻ (an O atom, the H and the charge). A conjugate pair differs by one H⁺ only.",
+  "why": "CO2 = HCO3- minus OH-; the original omits that the H is gone too"
+ },
+ {
+  "id": "28A-320",
+  "field": "x[1]",
+  "old": "Butanal also has a CHO, but its α carbon is CH<sub>2</sub>: the CHO is a triplet, and the spectrum shows 4 signals including a 3H triplet.",
+  "new": "Butanal also has a CHO, but its α carbon is CH<sub>2</sub>: its CHO would be a triplet, and it would give 4 signals including a 3H triplet.",
+  "why": "The given spectrum has 3 signals; the sentence describes butanal's expected spectrum but reads as describing the one shown"
+ },
+ {
+  "id": "28A-963",
+  "field": "x[1]",
+  "old": "A six-membered ring (thiane) needs five CH<sub>2</sub> groups between the two C–Br carbons plus S; 1,4-dibromobutane has only four carbons, so the ring formed has one S and four C.",
+  "new": "A six-membered ring (thiane) needs a five-carbon chain (1,5-dibromopentane) plus S; 1,4-dibromobutane has only four carbons, so the ring formed has one S and four C.",
+  "why": "Thiane = S + 5 CH2; a 1,5-dibromide has three CH2 between the two C–Br carbons, not five"
+ }
+]
