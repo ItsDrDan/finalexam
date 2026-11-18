@@ -110,3 +110,9 @@ function ddItemsResponse_(e) {
   if (e.parameter.rows) body.rows = ddItemRows_(game, days); else body.items = ddItemSummary_(game, days);
   return ContentService.createTextOutput(JSON.stringify(body)).setMimeType(ContentService.MimeType.JSON);
 }
+
+/* INSTALLED 2026-11-18 as version 7 of "ItsDrDan Game Stats Receiver" (itsdrdantv account, same /exec URL).
+   The live project keeps everything in one Code.gs with its own names (logItems_, itemsResponse_, itemsSheet_),
+   so the same four changes were made there in place instead of pasting this file:
+   ITEMS_HEADERS gained 'ex','sec'; itemsSheet_ upgrades an older header row; logItems_ stores ex and sec;
+   itemsResponse_ hands ?rows=1 to a new itemRowsResponse_ that returns [item, ver, pick, correct, mode, session, ex, sec]. */

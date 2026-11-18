@@ -1,6 +1,6 @@
-# Final Boss item analysis (365 days, generated 2026-11-18T08:51:36.082Z)
+# Final Boss item analysis (30 days, generated 2026-11-18T17:57:57.066Z)
 
-Questions with data: 50 · judged (≥15 answers, current wording): 0 · flagged: 0 · answers to older wording (skipped): 3 · IDs no longer in the bank: 0
+Questions with data: 52 · judged (≥15 answers, current wording): 0 · flagged: 0 · answers to older wording (skipped): 3 · IDs no longer in the bank: 0
 
 ## Most-missed questions (reteach these)
 
@@ -8,3 +8,7 @@ Questions with data: 50 · judged (≥15 answers, current wording): 0 · flagged
 
 | Question | Answers | Correct | Stem | Why flagged |
 |---|---|---|---|---|
+
+## Exam statistics (Boss Battles)
+
+No complete Boss Battles with exam codes yet (0 codes seen).
