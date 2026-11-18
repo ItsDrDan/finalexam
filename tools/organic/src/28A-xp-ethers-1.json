@@ -1,0 +1,714 @@
+[
+ {
+  "id": "eth-01",
+  "d": 1,
+  "q": "What is the IUPAC name of the ether shown?",
+  "s": [
+   {
+    "smi": "CCOC(C)CC"
+   }
+  ],
+  "c": [
+   "2-ethoxybutane",
+   "1-ethoxybutane",
+   "2-butoxyethane",
+   "1-ethoxy-1-methylpropane"
+  ],
+  "h": "Name an ether as an alkoxy substituent on the larger alkyl group, then find the longest chain of that group.",
+  "w": "The larger alkyl group (four carbons) is the parent alkane and the smaller group becomes the alkoxy substituent: CH<sub>3</sub>CH<sub>2</sub>O– is ethoxy. The four-carbon chain is numbered so the ethoxy carbon gets the lowest number, C2. The name is <b>2-ethoxybutane</b> (common name: <i>sec</i>-butyl ethyl ether).",
+  "x": [
+   "",
+   "1-Ethoxybutane has the oxygen on the end carbon of an unbranched butyl group; here the O is on C2 of the four-carbon chain.",
+   "The parent should be the larger alkyl group (butane), with the smaller ethyl group named as ethoxy.",
+   "Calling the chain \"propane\" with a methyl branch misses the longest chain; the C1 methyl plus three more carbons make a butane chain."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-02",
+  "d": 1,
+  "q": "What is the IUPAC name of the compound shown?",
+  "s": [
+   {
+    "smi": "CC1CO1"
+   }
+  ],
+  "c": [
+   "2-methyloxirane",
+   "2-methyloxetane",
+   "3-methyloxirane",
+   "1,2-epoxybutane"
+  ],
+  "h": "Count the ring atoms (including O) and remember that the ring oxygen is position 1.",
+  "w": "A three-membered ring with one oxygen is an <i>oxirane</i> (epoxide). Numbering starts at the oxygen (O1), so the substituted carbon is C2: <b>2-methyloxirane</b> (also called propylene oxide or 1,2-epoxypropane).",
+  "x": [
+   "",
+   "Oxetane is the four-membered cyclic ether; this ring has only two carbons and one oxygen.",
+   "The ring oxygen is O1 and numbering goes the short way to the substituent, so the methyl carbon is C2, not C3.",
+   "The molecule has three carbons in all, so as an epoxy-alkane it is 1,2-epoxypropane, not epoxybutane."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-03",
+  "d": 2,
+  "q": "Which pair of reagents gives the best yield of the ether shown by a Williamson synthesis?",
+  "s": [
+   {
+    "smi": "CCOC(C)(C)C"
+   }
+  ],
+  "c": [
+   "(CH<sub>3</sub>)<sub>3</sub>CO<sup>−</sup> K<sup>+</sup> + CH<sub>3</sub>CH<sub>2</sub>Br",
+   "CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> Na<sup>+</sup> + (CH<sub>3</sub>)<sub>3</sub>CBr",
+   "CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> Na<sup>+</sup> + (CH<sub>3</sub>)<sub>3</sub>COH",
+   "(CH<sub>3</sub>)<sub>3</sub>CO<sup>−</sup> K<sup>+</sup> + CH<sub>3</sub>CH<sub>2</sub>OH"
+  ],
+  "h": "The Williamson synthesis is an S<sub>N</sub>2 reaction. Which carbon can be attacked from the back side?",
+  "w": "A Williamson ether synthesis is S<sub>N</sub>2: the alkoxide attacks an alkyl halide with a good leaving group. Put the hindered group on the alkoxide and the unhindered group on the halide. <b>tert-Butoxide + bromoethane</b> works because the primary C–Br carbon is open to back-side attack.",
+  "x": [
+   "",
+   "A tertiary halide cannot undergo S<sub>N</sub>2; ethoxide acts as a base and the main product is 2-methylpropene by E2.",
+   "An alcohol has no leaving group (OH<sup>−</sup> is a poor leaving group), so ethoxide only does an acid–base exchange with it.",
+   "Ethanol has no leaving group, so tert-butoxide simply deprotonates it (an acid–base equilibrium), not a substitution."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-04",
+  "d": 2,
+  "q": "What is the major organic product of this reaction?",
+  "s": [
+   {
+    "smi": "CC[O-].[Na+]"
+   },
+   "+",
+   {
+    "smi": "CC(C)(C)Br"
+   },
+   {
+    "arrow": "CH<sub>3</sub>CH<sub>2</sub>OH",
+    "below": "55 °C"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=C(C)C"
+   },
+   {
+    "smi": "CCOC(C)(C)C"
+   },
+   {
+    "smi": "CC(C)(C)O"
+   },
+   {
+    "smi": "CC(C)(C)OC(C)(C)C"
+   }
+  ],
+  "h": "Can a strong base reach the back side of a tertiary carbon? If not, what else can it do?",
+  "w": "Ethoxide is a strong base and a good nucleophile, but a tertiary carbon is too hindered for S<sub>N</sub>2. With a strong base and a 3° halide, E2 wins: ethoxide removes a β-H and bromide leaves, giving <b>2-methylpropene</b>. This is why a Williamson synthesis must use a methyl or primary halide.",
+  "x": [
+   "",
+   "This ether would need S<sub>N</sub>2 at a tertiary carbon, which is blocked; it is made instead from tert-butoxide and a primary ethyl halide.",
+   "There is no water or hydroxide as a nucleophile, and the strong base favors E2 over the slow S<sub>N</sub>1 path.",
+   "Forming this ether would need tert-butoxide and a tertiary electrophile; neither is present, and such a hindered ether is not made by S<sub>N</sub>2."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-05",
+  "d": 2,
+  "q": "Which reagents give the best preparation of the aryl ether shown?",
+  "s": [
+   {
+    "smi": "CCOc1ccccc1"
+   }
+  ],
+  "c": [
+   "C<sub>6</sub>H<sub>5</sub>O<sup>−</sup> Na<sup>+</sup> + CH<sub>3</sub>CH<sub>2</sub>I",
+   "CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> Na<sup>+</sup> + C<sub>6</sub>H<sub>5</sub>Br",
+   "CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup> Na<sup>+</sup> + C<sub>6</sub>H<sub>5</sub>OH",
+   "C<sub>6</sub>H<sub>5</sub>O<sup>−</sup> Na<sup>+</sup> + CH<sub>3</sub>CH<sub>2</sub>OH"
+  ],
+  "h": "One of the two carbons on oxygen is sp<sup>2</sup>. Can that carbon be the S<sub>N</sub>2 electrophile?",
+  "w": "The Williamson synthesis needs back-side attack on an sp<sup>3</sup> carbon. The aryl carbon cannot be the electrophile, so the aryl group must be on the nucleophile: phenoxide (easily made because phenol has pK<sub>a</sub> ≈ 10) attacks iodoethane by S<sub>N</sub>2. <b>Sodium phenoxide + iodoethane</b> is the best choice.",
+  "x": [
+   "",
+   "Aryl halides do not do S<sub>N</sub>2: the ring blocks back-side attack and the C(sp<sup>2</sup>)–Br bond is strong. No ether forms with an unactivated bromobenzene.",
+   "Ethoxide (conjugate acid pK<sub>a</sub> ≈ 16) just deprotonates phenol (pK<sub>a</sub> ≈ 10) to give phenoxide and ethanol; no C–O bond forms.",
+   "Ethanol has no leaving group, so phenoxide cannot displace anything from it."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-06",
+  "d": 2,
+  "q": "What is the main product when this bromo alcohol is treated with NaH in THF?",
+  "s": [
+   {
+    "smi": "OCCCCCBr"
+   },
+   {
+    "arrow": "NaH",
+    "below": "THF"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1CCOCC1"
+   },
+   {
+    "smi": "C1CCOC1"
+   },
+   {
+    "smi": "C1CCCOCC1"
+   },
+   {
+    "smi": "C=CCCCO"
+   }
+  ],
+  "h": "NaH makes the alkoxide. Count the atoms that will end up in the ring, including O.",
+  "w": "NaH deprotonates the OH. The alkoxide then attacks the primary C–Br carbon in the same molecule (intramolecular Williamson, S<sub>N</sub>2). The new ring holds O plus C1–C5: a six-membered ring, <b>oxane (tetrahydropyran)</b>. Five- and six-membered rings form quickly because the chain ends meet easily and there is little ring strain.",
+  "x": [
+   "",
+   "Oxolane has only four carbons; the ring here includes all five chain carbons plus the oxygen.",
+   "Oxepane is a seven-membered ring (six carbons); the chain has only five carbons.",
+   "E2 on a primary bromide with an alkoxide is minor; the fast intramolecular S<sub>N</sub>2 that forms a six-membered ring wins."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-07",
+  "d": 3,
+  "q": "(<i>S</i>)-4-Bromopentan-1-ol is treated with NaH in THF. What is the main product?",
+  "s": [
+   {
+    "smi": "C[C@H](Br)CCCO"
+   },
+   {
+    "arrow": "NaH",
+    "below": "THF"
+   },
+   "?"
+  ],
+  "c": [
+   "(<i>R</i>)-2-methyloxolane",
+   "(<i>S</i>)-2-methyloxolane",
+   "racemic 2-methyloxolane",
+   "(<i>E</i>)-pent-3-en-1-ol"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@@H]1CCCO1"
+   },
+   {
+    "smi": "C[C@H]1CCCO1"
+   },
+   null,
+   {
+    "smi": "C/C=C/CCO"
+   }
+  ],
+  "h": "The ring closes by S<sub>N</sub>2 at the carbon bearing Br. What does S<sub>N</sub>2 do to that stereocenter?",
+  "w": "NaH forms the alkoxide, which attacks C4 from the back side (intramolecular S<sub>N</sub>2), making a five-membered ring (O + 4 C). Back-side attack inverts C4. The oxygen takes the place of Br as the top-priority group, so the descriptor changes from <i>S</i> to <b>(<i>R</i>)-2-methyloxolane</b> (confirmed with CIP ranking: O > ring CH<sub>2</sub> > CH<sub>3</sub> > H).",
+  "x": [
+   "",
+   "Retention would need front-side attack; S<sub>N</sub>2 ring closure inverts the carbon that loses bromide.",
+   "Racemization needs a carbocation (S<sub>N</sub>1). A secondary bromide with a strong internal nucleophile reacts by S<sub>N</sub>2 with clean inversion.",
+   "E2 can compete at a secondary bromide, but 5-membered ring closure is intramolecular and fast, so the cyclic ether is the main product."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-08",
+  "d": 1,
+  "q": "What is the major product of this alkoxymercuration–demercuration?",
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "1. Hg(OAc)<sub>2</sub>, CH<sub>3</sub>OH",
+    "below": "2. NaBH<sub>4</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COC1(C)CCCCC1"
+   },
+   {
+    "smi": "COC1CCCCC1C"
+   },
+   {
+    "smi": "CC1(O)CCCCC1"
+   },
+   {
+    "smi": "COC1CCCC(C)C1"
+   }
+  ],
+  "h": "Methanol adds to the alkene carbon that can best carry positive charge in the mercurinium ion.",
+  "w": "Alkoxymercuration adds RO and H across C=C with Markovnikov regiochemistry and no rearrangement. Methanol opens the mercurinium ion at the more substituted carbon (the one with more partial positive charge), and NaBH<sub>4</sub> replaces Hg with H. The product is <b>1-methoxy-1-methylcyclohexane</b>.",
+  "x": [
+   "",
+   "This is the anti-Markovnikov ether; methanol adds to the more substituted (tertiary) carbon, not the secondary one.",
+   "The solvent is methanol, not water, so the nucleophile that adds is CH<sub>3</sub>OH and an ether forms, not an alcohol.",
+   "Mercurinium ions do not rearrange, so the methoxy group cannot move to C3."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-09",
+  "d": 2,
+  "q": "What is the major product?",
+  "s": [
+   {
+    "smi": "C=CC(C)(C)C"
+   },
+   {
+    "arrow": "1. Hg(OAc)<sub>2</sub>, CH<sub>3</sub>CH<sub>2</sub>OH",
+    "below": "2. NaBH<sub>4</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(C)C(C)(C)C"
+   },
+   {
+    "smi": "CCOC(C)(C)C(C)C"
+   },
+   {
+    "smi": "CCOCCC(C)(C)C"
+   },
+   {
+    "smi": "CC(O)C(C)(C)C"
+   }
+  ],
+  "h": "Does a bridged mercurinium ion allow a methyl shift the way a free carbocation would?",
+  "w": "Ethanol opens the mercurinium ion at the more substituted carbon (C2), and NaBH<sub>4</sub> replaces Hg by H. Because the mercurinium ion is bridged, there is no free carbocation and no methyl shift. The product is <b>2-ethoxy-3,3-dimethylbutane</b>. (Acid-catalyzed addition of ethanol would instead give the rearranged 2-ethoxy-2,3-dimethylbutane.)",
+  "x": [
+   "",
+   "This rearranged ether forms only through a free 2° carbocation and a 1,2-methyl shift, which the bridged mercurinium ion avoids.",
+   "This is anti-Markovnikov addition; the alcohol attacks the more substituted carbon of the mercurinium ion.",
+   "An alcohol would form with water as solvent (oxymercuration); in ethanol the nucleophile is ethanol, giving an ether."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-10",
+  "d": 1,
+  "q": "Methoxybenzene (anisole) is heated with excess HI. What are the products?",
+  "s": [
+   {
+    "smi": "COc1ccccc1"
+   },
+   {
+    "arrow": "HI (excess)",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "phenol + iodomethane",
+   "iodobenzene + methanol",
+   "iodobenzene + iodomethane",
+   "phenol + methanol"
+  ],
+  "h": "After protonation, iodide must do an S<sub>N</sub>2 attack. Which carbon on oxygen can it attack?",
+  "w": "HI protonates the ether oxygen. Iodide then attacks by S<sub>N</sub>2, and it can only attack the sp<sup>3</sup> methyl carbon; aryl carbons do not undergo S<sub>N</sub>2 or S<sub>N</sub>1. So the aryl C–O bond stays and the products are <b>phenol + iodomethane</b>. Phenol is not converted further, because its C–O bond cannot be broken this way.",
+  "x": [
+   "",
+   "Cleaving the aryl C–O bond would need S<sub>N</sub>2 or S<sub>N</sub>1 at an sp<sup>2</sup> ring carbon, which does not happen.",
+   "Phenol cannot be converted to iodobenzene by HI; only the alkyl side of the ether is cleaved.",
+   "With excess HI the methyl group leaves as iodomethane (I<sup>−</sup> attacks the methyl carbon directly), not as methanol."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-11",
+  "d": 2,
+  "q": "Tetrahydrofuran (oxolane) is heated with excess concentrated HBr. What is the final organic product?",
+  "s": [
+   {
+    "smi": "C1CCOC1"
+   },
+   {
+    "arrow": "HBr (excess)",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "BrCCCCBr"
+   },
+   {
+    "smi": "OCCCCBr"
+   },
+   {
+    "smi": "CCCCBr"
+   },
+   {
+    "smi": "OCCCCO"
+   }
+  ],
+  "h": "The first cleavage opens the ring. What happens to the new OH group with more HBr?",
+  "w": "Protonation of O and S<sub>N</sub>2 attack by Br<sup>−</sup> at a primary carbon opens the ring to 4-bromobutan-1-ol. With excess HBr and heat, that primary alcohol is protonated and displaced by a second bromide. The final product is <b>1,4-dibromobutane</b>.",
+  "x": [
+   "",
+   "4-Bromobutan-1-ol is the intermediate after one equivalent; excess HBr converts its OH to Br as well.",
+   "HBr does not reduce C–O to C–H; one carbon end would have to lose its oxygen without gaining bromine.",
+   "Water is not the nucleophile here; bromide attacks the protonated ether, and diols are converted to dibromides by excess HBr."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-12",
+  "d": 2,
+  "q": "<i>tert</i>-Butyl methyl ether is treated with <b>one</b> equivalent of HI. Which products form?",
+  "s": [
+   {
+    "smi": "COC(C)(C)C"
+   },
+   {
+    "arrow": "HI (1 equiv)"
+   },
+   "?"
+  ],
+  "c": [
+   "2-iodo-2-methylpropane + methanol",
+   "iodomethane + 2-methylpropan-2-ol",
+   "iodomethane + 2-iodo-2-methylpropane",
+   "iodomethane + 2-methylpropene"
+  ],
+  "h": "After protonation, one C–O bond can break without any nucleophile. Which one gives the more stable cation?",
+  "w": "Protonation makes a good leaving group. The tertiary C–O bond ionizes (S<sub>N</sub>1) to the stable <i>tert</i>-butyl cation and methanol leaves; iodide then traps the cation. Products: <b>2-iodo-2-methylpropane + methanol</b>. The methyl C–O bond would need an S<sub>N</sub>2 attack, which is slower than ionization here.",
+  "x": [
+   "",
+   "This would be S<sub>N</sub>2 at the methyl group. For ethers with a tertiary group, S<sub>N</sub>1 cleavage at the 3° carbon is faster.",
+   "Converting both groups to iodides needs a second equivalent of HI; with one equivalent the methanol remains.",
+   "The methyl group leaves as methanol, not iodomethane; and E1 (2-methylpropene) would pair with methanol, not iodomethane."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-13",
+  "d": 3,
+  "q": "The diether shown is heated with excess HBr. Which set of products forms?",
+  "s": [
+   {
+    "smi": "COCCCOc1ccccc1"
+   },
+   {
+    "arrow": "HBr (excess)",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "phenol, 1,3-dibromopropane and bromomethane",
+   "bromobenzene, 1,3-dibromopropane and bromomethane",
+   "phenol, propane-1,3-diol and methanol",
+   "bromobenzene, 3-bromopropan-1-ol and bromomethane"
+  ],
+  "h": "Treat each C–O bond separately: which ones have an sp<sup>3</sup> carbon that bromide can attack?",
+  "w": "Each protonated ether is cleaved by S<sub>N</sub>2 attack of Br<sup>−</sup> on an sp<sup>3</sup> carbon. The Ar–O bond cannot break, so the aryl side gives <b>phenol</b>. The CH<sub>3</sub>–O and both CH<sub>2</sub>–O bonds can be attacked; with excess HBr every alkyl alcohol formed is also converted to its bromide, giving <b>1,3-dibromopropane and bromomethane</b>.",
+  "x": [
+   "",
+   "Bromobenzene cannot form: the aryl C–O bond is not cleaved because aryl carbons do not do S<sub>N</sub>1 or S<sub>N</sub>2.",
+   "HBr cleavage makes alkyl bromides, not alcohols, once excess acid and heat convert the alkyl OH groups.",
+   "The aryl C–O bond stays intact, and with excess HBr the 3-bromopropanol OH is also replaced by Br."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-14",
+  "d": 1,
+  "q": "The crown ether shown (18-crown-6) binds which cation most strongly?",
+  "s": [
+   {
+    "smi": "C1COCCOCCOCCOCCOCCO1"
+   }
+  ],
+  "c": [
+   "K<sup>+</sup>",
+   "Li<sup>+</sup>",
+   "Na<sup>+</sup>",
+   "Mg<sup>2+</sup>"
+  ],
+  "h": "Match the size of the cavity to the size of the ion.",
+  "w": "Crown ethers bind cations whose diameter fits the ring cavity, with all oxygen lone pairs pointing inward. The 18-membered ring with six oxygens fits <b>K<sup>+</sup></b> best. (15-crown-5 fits Na<sup>+</sup>, 12-crown-4 fits Li<sup>+</sup>.)",
+  "x": [
+   "",
+   "Li<sup>+</sup> is too small for the 18-crown-6 cavity; 12-crown-4 is the better size match.",
+   "Na<sup>+</sup> is somewhat small for 18-crown-6; 15-crown-5 fits it better.",
+   "Mg<sup>2+</sup> is small and very strongly hydrated, and it does not fit the 18-crown-6 cavity well."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-15",
+  "d": 2,
+  "q": "KF barely reacts with 1-bromooctane in acetonitrile, but adding a little 18-crown-6 gives 1-fluorooctane quickly. What is the best explanation?",
+  "c": [
+   "The crown ether binds K<sup>+</sup>, bringing KF into solution with a poorly solvated, highly reactive F<sup>−</sup>",
+   "The crown ether binds F<sup>−</sup> through its oxygens and delivers it to the carbon",
+   "The crown ether hydrogen-bonds to F<sup>−</sup>, making it a stronger base",
+   "The crown ether coordinates Br, making bromide a better leaving group"
+  ],
+  "h": "The oxygen lone pairs of a crown ether point into its cavity. Which ion do they attract?",
+  "w": "The ring oxygens are Lewis bases that wrap around K<sup>+</sup>. The large organic-coated complex dissolves in the organic solvent and drags F<sup>−</sup> with it. That fluoride has no tight cation partner and no hydrogen-bonding shell (\"naked\" fluoride), so it is a much stronger nucleophile and S<sub>N</sub>2 is fast. <b>The crown ether binds K<sup>+</sup></b>.",
+  "x": [
+   "",
+   "Oxygen lone pairs attract cations, not anions; the crown ether does not bind fluoride.",
+   "A crown ether has no O–H groups, so it cannot hydrogen-bond to fluoride; hydrogen bonding would also make F<sup>−</sup> less reactive.",
+   "The crown ether does not interact with the alkyl bromide; its role is to bind the potassium ion."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-16",
+  "d": 2,
+  "q": "(<i>Z</i>)-Hex-3-ene is treated with mCPBA. Which describes the product?",
+  "s": [
+   {
+    "smi": "CC/C=C\\CC"
+   },
+   {
+    "arrow": "mCPBA",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "a single meso <i>cis</i>-epoxide",
+   "a racemic mixture of <i>trans</i>-epoxides",
+   "a 1:1 mixture of <i>cis</i>- and <i>trans</i>-epoxides",
+   "a racemic mixture of <i>cis</i>-epoxides"
+  ],
+  "h": "Epoxidation is concerted: both C–O bonds form on the same face at the same time.",
+  "w": "Peroxyacid epoxidation is a concerted syn addition, so the alkene geometry is kept: a <i>Z</i> alkene gives a <i>cis</i>-epoxide. cis-2,3-Diethyloxirane has two stereocenters (<i>R</i>,<i>S</i>) and a mirror plane, so it is <b>a single meso compound</b>; attack on either face gives the same molecule.",
+  "x": [
+   "",
+   "<i>trans</i>-Epoxides come from <i>E</i> alkenes; the concerted reaction cannot rotate the C–C bond.",
+   "A mixture of cis and trans would need a stepwise path with a rotating intermediate; mCPBA epoxidation is stereospecific.",
+   "The cis-epoxide here has identical groups on both carbons and a mirror plane, so it is meso; there is no enantiomer pair."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-17",
+  "d": 3,
+  "q": "(<i>E</i>)-But-2-ene is treated with Br<sub>2</sub> in water, and the product is then treated with NaOH. What is the final product?",
+  "s": [
+   {
+    "smi": "C/C=C/C"
+   },
+   {
+    "arrow": "1. Br<sub>2</sub>, H<sub>2</sub>O",
+    "below": "2. NaOH"
+   },
+   "?"
+  ],
+  "c": [
+   "racemic <i>trans</i>-2,3-dimethyloxirane",
+   "meso <i>cis</i>-2,3-dimethyloxirane",
+   "meso butane-2,3-diol",
+   "racemic 3-bromobutan-2-ol only"
+  ],
+  "h": "Follow the stereochemistry of two anti steps: anti halohydrin formation, then back-side ring closure.",
+  "w": "Step 1 adds Br and OH <i>anti</i> (bromonium ion opened by water), giving the bromohydrin. In step 2 the alkoxide attacks the C–Br carbon from the back side (intramolecular S<sub>N</sub>2), which needs O<sup>−</sup> and Br anti. Anti addition followed by an anti (back-side) ring closure puts the oxygen on the same face overall, exactly as mCPBA would. The <i>E</i> alkene therefore gives <b>racemic <i>trans</i>-2,3-dimethyloxirane</b>.",
+  "x": [
+   "",
+   "A cis-epoxide comes from (<i>Z</i>)-but-2-ene; this two-step route keeps the alkene geometry just like mCPBA.",
+   "Hydroxide closes the halohydrin to an epoxide; opening it to the diol would need acid or much harsher conditions.",
+   "NaOH deprotonates the bromohydrin OH, and the alkoxide quickly displaces the anti bromide to close the epoxide."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-18",
+  "d": 2,
+  "q": "What is the major product when 2,2-dimethyloxirane reacts with methanol containing a catalytic amount of H<sub>2</sub>SO<sub>4</sub>?",
+  "s": [
+   {
+    "smi": "CC1(C)CO1"
+   },
+   {
+    "arrow": "CH<sub>3</sub>OH",
+    "below": "H<sub>2</sub>SO<sub>4</sub> (cat.)"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COC(C)(C)CO"
+   },
+   {
+    "smi": "COCC(C)(C)O"
+   },
+   {
+    "smi": "CC(C)(O)CO"
+   },
+   {
+    "smi": "COCC(C)(C)OC"
+   }
+  ],
+  "h": "In the protonated epoxide, which C–O bond is longer and carries more positive charge?",
+  "w": "Acid protonates the epoxide oxygen. The C–O bond to the tertiary carbon is weakened most, and that carbon carries most of the positive charge (S<sub>N</sub>1-like transition state), so methanol attacks the <b>more substituted</b> carbon. Product: <b>2-methoxy-2-methylpropan-1-ol</b>.",
+  "x": [
+   "",
+   "This is the base-catalyzed regiochemistry (attack at the less hindered CH<sub>2</sub>), which applies with CH<sub>3</sub>O<sup>−</sup>, not with acid.",
+   "Methanol, not water, is the solvent and nucleophile, so a methyl ether forms rather than the diol.",
+   "Only one equivalent of methanol adds; the new primary alcohol is not converted to a methyl ether under these mild conditions."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-19",
+  "d": 2,
+  "q": "2,2-Dimethyloxirane is treated with sodium ethanethiolate (CH<sub>3</sub>CH<sub>2</sub>SNa) in ethanol, followed by water. What is the major product?",
+  "s": [
+   {
+    "smi": "CC1(C)CO1"
+   },
+   {
+    "arrow": "1. CH<sub>3</sub>CH<sub>2</sub>SNa, CH<sub>3</sub>CH<sub>2</sub>OH",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCSCC(C)(C)O"
+   },
+   {
+    "smi": "CCSC(C)(C)CO"
+   },
+   {
+    "smi": "CC(C)(O)CO"
+   },
+   {
+    "smi": "CCOCC(C)(C)O"
+   }
+  ],
+  "h": "A strong, unprotonated nucleophile opens an epoxide by S<sub>N</sub>2. Which carbon is easier to reach?",
+  "w": "Thiolate is a strong nucleophile, so the epoxide opens by S<sub>N</sub>2 without acid. S<sub>N</sub>2 attack occurs at the <b>less hindered</b> CH<sub>2</sub> carbon, and the alkoxide is then protonated. Product: <b>1-(ethylsulfanyl)-2-methylpropan-2-ol</b>.",
+  "x": [
+   "",
+   "Attack at the tertiary carbon is the acid-catalyzed regiochemistry; under basic S<sub>N</sub>2 conditions the hindered carbon is avoided.",
+   "Water is added only to protonate the alkoxide after the ring has opened; the thiolate is the nucleophile.",
+   "Ethanol is a much weaker nucleophile than ethanethiolate, which is large, polarizable and anionic."
+  ],
+  "k": 0,
+  "t": "ethers"
+ },
+ {
+  "id": "eth-20",
+  "d": 3,
+  "q": "The racemic epoxide shown (one enantiomer drawn) is treated with CH<sub>3</sub>OH and a catalytic amount of H<sub>2</sub>SO<sub>4</sub>. Which structure is the major product (formed as a racemate; one enantiomer drawn)?",
+  "s": [
+   {
+    "smi": "C[C@]12CCCC[C@H]1O2"
+   },
+   {
+    "arrow": "CH<sub>3</sub>OH",
+    "below": "H<sub>2</sub>SO<sub>4</sub> (cat.)"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CO[C@]1(C)CCCC[C@H]1O"
+   },
+   {
+    "smi": "CO[C@@]1(C)CCCC[C@H]1O"
+   },
+   {
+    "smi": "CO[C@H]1CCCC[C@]1(C)O"
+   },
+   {
+    "smi": "O[C@]1(C)CCCC[C@H]1O"
+   }
+  ],
+  "h": "Decide two things: which carbon methanol attacks under acid, and from which face relative to the epoxide oxygen.",
+  "w": "Under acid the nucleophile attacks the <b>more substituted</b> (tertiary) carbon, which carries more positive charge in the protonated epoxide. The attack is still back-side, so OCH<sub>3</sub> ends up <i>trans</i> to the OH (anti opening; on the ring the product first forms with OCH<sub>3</sub> and OH trans-diaxial). Product: <b><i>trans</i>-2-methoxy-2-methylcyclohexan-1-ol</b>.",
+  "x": [
+   "",
+   "B has OCH<sub>3</sub> and OH cis; epoxide opening is back-side (anti), so the two groups must be trans.",
+   "C has methanol attacking the secondary carbon, the regiochemistry seen with methoxide (base), not with acid.",
+   "Methanol, not water, is the nucleophile, so a methyl ether forms rather than a diol."
+  ],
+  "k": 0,
+  "t": "ethers"
+ }
+]
