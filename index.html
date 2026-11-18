@@ -1426,7 +1426,7 @@ function fNewman(f){if(f.items)return fbMulti(f,fNewman);const b=fbBox(),R=26,L=
  return fbSvg(o,b,f.cap,attrEsc(aria))}
 /* Chair: f.subs=[[carbon 1-6,'up'|'down',label],...]; chair A (flip false) has axial UP at C1, C3, C5. f.flip draws the ring-flipped chair. f.nums labels carbons. */
 function chairAx(n,ud,flip){return ((ud==='up')===(n%2===1))!==!!flip}
-function fChair(f){if(f.items)return fbMulti(f,fChair);const b=fbBox(),S=60,e=11*deg,h=.27,flip=!!f.flip,B0=10;let o='';
+function fChair(f){if(f.items)return fbMulti(f,fChair);const b=fbBox(),S=60,e=15*deg,h=.27,flip=!!f.flip,B0=10;let o='';
  /* one fixed chair outline; the ring flip is drawn by moving the numbering one carbon, so C1's axial bond points the other way */
  const P=[],Z=[],TH=[];for(let i=0;i<6;i++){const th=(180-60*i+B0)*deg,z=(i%2===0?-1:1)*h;Z.push(z);TH.push(th);const x=Math.cos(th),y=Math.sin(th);P.push([x*S*1.15,-(z*Math.cos(e)+y*Math.sin(e))*S]);b.add(P[i][0],P[i][1])}
  const V=n=>(n-1+(flip?0:1))%6;
