@@ -1,0 +1,881 @@
+[
+ {
+  "id": "z14-01",
+  "t": "enolates",
+  "d": 2,
+  "k": 0,
+  "q": "4-Methylpentan-2-one (shown) is stirred in D<sub>2</sub>O containing NaOD until no further exchange occurs. How many hydrogens per molecule are replaced by deuterium?",
+  "s": [
+   {
+    "smi": "CC(=O)CC(C)C"
+   }
+  ],
+  "c": [
+   "5",
+   "2",
+   "3",
+   "6"
+  ],
+  "h": "Exchange happens only through the enolate. Which carbons are directly bonded to the carbonyl carbon, and how many H atoms do they carry?",
+  "w": "In NaOD/D<sub>2</sub>O, a hydrogen is exchanged only if removing it gives a resonance-stabilized enolate; the enolate then picks up D from D<sub>2</sub>O. Repeating this replaces every α-hydrogen. 4-Methylpentan-2-one has two α-carbons: C1 (CH<sub>3</sub>, 3 H) and C3 (CH<sub>2</sub>, 2 H). The C4–H is β to the carbonyl and is not acidic. Total: <b>5</b>.",
+  "x": [
+   "",
+   "2 counts only the CH<sub>2</sub>. The methyl group on the other side of the carbonyl (C1) is also α and also exchanges.",
+   "3 counts only the CH<sub>3</sub>. The CH<sub>2</sub> at C3 is also α to the carbonyl.",
+   "6 includes the C4–H, but C4 is β to the carbonyl. Its carbanion would not be stabilized by the C=O, so that H does not exchange."
+  ]
+ },
+ {
+  "id": "z14-02",
+  "t": "enolates",
+  "d": 2,
+  "k": 0,
+  "q": "Rank these compounds by the fraction present as the enol tautomer at equilibrium (neat liquid), from lowest to highest.",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(=O)CC(C)=O",
+    "cap": "II"
+   },
+   {
+    "smi": "CCOC(=O)CC(C)=O",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I < III < II",
+   "I < II < III",
+   "III < I < II",
+   "II < III < I"
+  ],
+  "h": "A simple ketone gains nothing by enolizing. A β-dicarbonyl enol gains conjugation and an internal hydrogen bond. Does an ester C=O gain as much from that as a ketone C=O?",
+  "w": "I. For a simple ketone the C=O bond is much stronger than the C=C bond of the enol, so cyclohexanone has only a trace of enol (about 10<sup>−4</sup>%). II. The enol of 2,4-pentanedione has a C=C conjugated with the remaining C=O and a six-membered intramolecular O–H···O hydrogen bond; it is about 80% enol. III. Ethyl acetoacetate also forms a conjugated, hydrogen-bonded enol. However, its ester C=O is already stabilized by resonance with the OEt lone pair, so it gains less, and the compound is only about 8% enol. Order: <b>I < III < II</b>.",
+  "x": [
+   "",
+   "This places the β-keto ester above the β-diketone. The ester oxygen's resonance donation already stabilizes the ester C=O, so ethyl acetoacetate gains less by enolizing (about 8% versus about 80%).",
+   "Cyclohexanone has far less enol (about 10<sup>−4</sup>%) than either β-dicarbonyl compound, which both gain conjugation and an intramolecular hydrogen bond.",
+   "This reverses the order. The simple ketone is almost entirely keto, and the β-diketone is mostly enol."
+  ]
+ },
+ {
+  "id": "z14-03",
+  "t": "enolates",
+  "d": 2,
+  "k": 0,
+  "q": "2-Methylpentan-3-one is treated with LDA in THF at −78 °C, and then allyl bromide is added. What is the major product?",
+  "s": [
+   {
+    "smi": "CCC(=O)C(C)C"
+   },
+   {
+    "arrow": "1. LDA, THF, −78 °C",
+    "below": "2. CH<sub>2</sub>=CHCH<sub>2</sub>Br"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CCC(C)C(=O)C(C)C"
+   },
+   {
+    "smi": "C=CCC(C)(C)C(=O)CC"
+   },
+   {
+    "smi": "C=CCOC(=CC)C(C)C"
+   },
+   {
+    "smi": "C=CCC(O)(CC)C(C)C"
+   }
+  ],
+  "h": "LDA is a bulky, very strong base used at low temperature. Which α-hydrogen can it reach fastest: the one on the CH<sub>2</sub> or the one on the CH?",
+  "w": "The two α-carbons are the CH<sub>2</sub> of the ethyl group and the CH of the isopropyl group. LDA at −78 °C removes a proton quickly and irreversibly, and the bulky base takes the more accessible CH<sub>2</sub> proton (kinetic enolate). The enolate carbon then displaces bromide from allyl bromide by S<sub>N</sub>2. Product: <b>2,4-dimethylhept-6-en-3-one</b>, CH<sub>2</sub>=CHCH<sub>2</sub>CH(CH<sub>3</sub>)C(=O)CH(CH<sub>3</sub>)<sub>2</sub> (formed as a racemate).",
+  "x": [
+   "",
+   "Alkylation at the more substituted α-carbon comes from the thermodynamic enolate, formed with a weaker base under equilibrating conditions. LDA at −78 °C removes the less hindered CH<sub>2</sub> proton.",
+   "Lithium enolates react with alkyl halides mainly at carbon (C-alkylation). The O-allyl enol ether is at most a minor product.",
+   "LDA is a hindered, non-nucleophilic base and does not add to C=O. The allyl group is attached by S<sub>N</sub>2 at the enolate carbon, not by addition to the carbonyl."
+  ]
+ },
+ {
+  "id": "z14-04",
+  "t": "enolates",
+  "d": 2,
+  "k": 0,
+  "q": "Cyclohexanone is heated with NaOH in aqueous ethanol. Two molecules undergo aldol addition, and the aldol product then loses water by E1cB. Which structure is the enone formed directly in that dehydration step?",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   {
+    "arrow": "NaOH, EtOH/H<sub>2</sub>O",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C1CCCCC1=C1CCCCC1"
+   },
+   {
+    "smi": "O=C1CCCCC1C1(O)CCCCC1"
+   },
+   {
+    "smi": "O=C1CCCC=C1C1CCCCC1"
+   },
+   {
+    "smi": "O=C1CCCCC1C1CCCCC1"
+   }
+  ],
+  "h": "One molecule supplies the enolate (α-carbon), the other the C=O. In E1cB the new C=C forms between the α-carbon and the carbon that carried the OH.",
+  "w": "The enolate of one cyclohexanone (at C2) adds to the carbonyl carbon of a second molecule, giving the β-hydroxy ketone 2-(1-hydroxycyclohexyl)cyclohexan-1-one. In E1cB dehydration, base removes the α-H between the C=O and the carbinol carbon, and the enolate then expels hydroxide. The new C=C therefore forms between that α-carbon and the former carbinol carbon, conjugated with the C=O: <b>2-cyclohexylidenecyclohexan-1-one</b>. (On longer heating this enone partly isomerizes to the β,γ isomer, but that is a later equilibration, not the dehydration step.)",
+  "x": [
+   "",
+   "This β-hydroxy ketone is the aldol addition product. With heat it loses water to give the conjugated enone.",
+   "This enone is conjugated, but its C=C lies inside the ketone ring between C2 and C3. E1cB forms the C=C between the α-carbon and the former carbinol carbon, which is in the other ring, so this isomer would need a later double-bond shift.",
+   "This saturated ketone would need a reduction after dehydration. Nothing in NaOH/ethanol supplies hydrogen."
+  ]
+ },
+ {
+  "id": "z14-05",
+  "t": "enolates",
+  "d": 3,
+  "k": 0,
+  "q": "Nonane-2,8-dione (shown) is heated with aqueous NaOH. What is the major product of the intramolecular aldol condensation?",
+  "s": [
+   {
+    "smi": "CC(=O)CCCCCC(C)=O"
+   },
+   {
+    "arrow": "NaOH, H<sub>2</sub>O",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)C1=C(C)CCCC1"
+   },
+   {
+    "smi": "O=C1C=C(C)CCCCC1"
+   },
+   {
+    "smi": "CC(=O)C1CCCCC1(C)O"
+   },
+   {
+    "smi": "CCC(=O)C1=C(C)CCC1"
+   }
+  ],
+  "h": "Number the chain C1–C9. List each possible enolate carbon (C1, C3, C7, C9) and count the ring size it would form by attacking the other carbonyl.",
+  "w": "There are two kinds of enolate. An enolate at C1 (or C9) attacking the far carbonyl would close an eight-membered ring, which forms slowly. An enolate at C3 (or C7) attacking C8 (or C2) closes a ring of C3–C4–C5–C6–C7–C8: six atoms, the most favorable size. The ring carbon C8 carries the methyl (C9) and the new OH; C3 carries the acetyl group. Dehydration gives a C3=C8 double bond conjugated with the acetyl C=O. Product: <b>1-(2-methylcyclohex-1-en-1-yl)ethan-1-one</b>.",
+  "x": [
+   "",
+   "This eight-membered enone (3-methylcyclooct-2-en-1-one) comes from the C1 enolate. An eight-membered ring forms far more slowly than the six-membered ring available from the C3 enolate.",
+   "This is the β-hydroxy ketone (aldol addition product). On heating with NaOH it dehydrates to the conjugated enone.",
+   "This miscounts the chain. A cyclopentene bearing a propanoyl group would come from nonane-2,7-dione (carbonyls five carbons apart); in nonane-2,8-dione the carbonyls are six carbons apart, which gives a six-membered ring."
+  ]
+ },
+ {
+  "id": "z14-06",
+  "t": "enolates",
+  "d": 2,
+  "k": 0,
+  "q": "Cyclohexanone is treated with ethyl formate (HCO<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>) and NaOEt in ethanol, and the mixture is then acidified. What is the main product (drawn in its keto form)?",
+  "s": [
+   {
+    "smi": "O=C1CCCCC1"
+   },
+   "+",
+   {
+    "smi": "CCOC=O"
+   },
+   {
+    "arrow": "1. NaOEt, EtOH",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=CC1CCCCC1=O"
+   },
+   {
+    "smi": "CCOC(=O)C1CCCCC1=O"
+   },
+   {
+    "smi": "O=CC1CCCC(=O)C1"
+   },
+   {
+    "smi": "CCOC=C1CCCCC1=O"
+   }
+  ],
+  "h": "Ethyl formate has no α-hydrogens, so it can only be the electrophile. What does its tetrahedral intermediate expel?",
+  "w": "This is a crossed Claisen condensation. The ketone α-H (pK<sub>a</sub> ≈ 20) is more acidic than an ester α-H, and ethyl formate has no α-H at all. The cyclohexanone enolate therefore adds to the formate C=O, and the tetrahedral intermediate expels ethoxide, transferring a formyl (CHO) group to C2. Ethoxide then removes the very acidic H between the two carbonyls, which drives the reaction; acid workup gives <b>2-oxocyclohexane-1-carbaldehyde</b> (a β-keto aldehyde, largely present as its enol, 2-(hydroxymethylene)cyclohexanone).",
+  "x": [
+   "",
+   "Transferring a CO<sub>2</sub>Et group requires diethyl carbonate. Ethyl formate transfers a CHO group, because ethoxide is the group that leaves.",
+   "Enolates form at α-carbons. C3 is β to the ketone and is not deprotonated, so the new bond is made at C2.",
+   "After the formate carbonyl is attacked, the tetrahedral intermediate expels ethoxide, so the OEt does not stay on the product."
+  ]
+ },
+ {
+  "id": "z14-07",
+  "t": "enolates",
+  "d": 3,
+  "k": 0,
+  "q": "2-Propylcyclohexan-1-one (shown) is to be made by (1) Dieckmann condensation with NaOEt, (2) alkylation of the resulting β-keto ester, and (3) hydrolysis and decarboxylation with H<sub>3</sub>O<sup>+</sup> and heat. Which diester and alkyl halide should be used?",
+  "s": [
+   {
+    "smi": "CCCC1CCCCC1=O"
+   }
+  ],
+  "c": [
+   "Diethyl heptanedioate and 1-bromopropane",
+   "Diethyl hexanedioate and 1-bromopropane",
+   "Diethyl heptanedioate and 1-bromobutane",
+   "Diethyl octanedioate and 1-bromopropane"
+  ],
+  "h": "In a Dieckmann condensation, the α-carbon of one ester attacks the other ester carbonyl. Count the ring atoms from the α-carbon to that carbonyl carbon.",
+  "w": "Diethyl heptanedioate, EtO<sub>2</sub>C(CH<sub>2</sub>)<sub>5</sub>CO<sub>2</sub>Et, has a seven-carbon chain. The enolate at C2 attacks the C7 ester carbonyl, closing a ring of C2–C7 (six atoms) and giving ethyl 2-oxocyclohexane-1-carboxylate. Its doubly activated C–H is removed by ethoxide, and the enolate is propylated with 1-bromopropane. Hot aqueous acid hydrolyzes the ester to a β-keto acid, which loses CO<sub>2</sub>, leaving the propyl group α to the ketone. Answer: <b>diethyl heptanedioate and 1-bromopropane</b>.",
+  "x": [
+   "",
+   "Diethyl hexanedioate (adipate) closes a five-membered ring, so this route gives 2-propylcyclopentan-1-one.",
+   "The alkyl halide supplies the whole side chain. 1-Bromobutane would give 2-butylcyclohexan-1-one.",
+   "Diethyl octanedioate would close a seven-membered ring (a cycloheptanone), and seven-membered Dieckmann rings also form poorly."
+  ]
+ },
+ {
+  "id": "z14-08",
+  "t": "enolates",
+  "d": 2,
+  "k": 0,
+  "q": "Cyclohex-2-en-1-one is treated with thiophenol (C<sub>6</sub>H<sub>5</sub>SH) and a catalytic amount of triethylamine. What is the major product?",
+  "s": [
+   {
+    "smi": "O=C1C=CCCC1"
+   },
+   {
+    "arrow": "C<sub>6</sub>H<sub>5</sub>SH",
+    "below": "Et<sub>3</sub>N (cat.)"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C1CCCC(Sc2ccccc2)C1"
+   },
+   {
+    "smi": "OC1(Sc2ccccc2)C=CCCC1"
+   },
+   {
+    "smi": "O=C1CCCCC1Sc1ccccc1"
+   },
+   {
+    "smi": "O=C1C=C(Sc2ccccc2)CCC1"
+   }
+  ],
+  "h": "Thiolate is a soft, weakly basic nucleophile. Which electrophilic carbon of an α,β-unsaturated ketone does it end up bonded to?",
+  "w": "Triethylamine forms a little thiolate, C<sub>6</sub>H<sub>5</sub>S<sup>−</sup>. This soft, weakly basic nucleophile adds to the β-carbon of the enone (conjugate, 1,4-addition), giving an enolate. The enolate takes a proton from another PhSH, which regenerates thiolate, so only a catalytic amount of base is needed. Any 1,2-addition is reversible, so the 1,4-product, which keeps the strong C=O bond, accumulates. Product: <b>3-(phenylsulfanyl)cyclohexan-1-one</b>.",
+  "x": [
+   "",
+   "1,2-Addition of a weakly basic nucleophile is reversible. The more stable 1,4-adduct, which keeps the C=O, accumulates instead.",
+   "The nucleophile bonds to the electrophilic β-carbon, not the α-carbon. The α-carbon is where the enolate forms and is then protonated.",
+   "Keeping the C=C would require a leaving group on the β-carbon (addition–elimination). Here the enolate intermediate is simply protonated, so the ring becomes saturated."
+  ]
+ },
+ {
+  "id": "z14-09",
+  "t": "enolates",
+  "d": 1,
+  "k": 0,
+  "q": "(E)-4-Phenylbut-3-en-2-one is treated with methyllithium in ether at −78 °C, followed by aqueous NH<sub>4</sub>Cl. What is the major product?",
+  "s": [
+   {
+    "smi": "CC(=O)/C=C/c1ccccc1"
+   },
+   {
+    "arrow": "1. CH<sub>3</sub>Li, ether, −78 °C",
+    "below": "2. NH<sub>4</sub>Cl, H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(O)/C=C/c1ccccc1"
+   },
+   {
+    "smi": "CC(=O)CC(C)c1ccccc1"
+   },
+   {
+    "smi": "CC(c1ccccc1)CC(C)(C)O"
+   },
+   {
+    "smi": "CC(=O)C(C)=Cc1ccccc1"
+   }
+  ],
+  "h": "Organolithium reagents are hard, very strongly basic nucleophiles. Do they react faster at the C=O carbon or at the β-carbon?",
+  "w": "Methyllithium adds rapidly and irreversibly to the most electrophilic site, the carbonyl carbon (1,2-addition). Once the alkoxide forms, it does not revert, so the conjugate-addition product does not have a chance to form. Workup gives the allylic tertiary alcohol <b>(E)-2-methyl-4-phenylbut-3-en-2-ol</b>. A Gilman reagent, (CH<sub>3</sub>)<sub>2</sub>CuLi, would instead add 1,4.",
+  "x": [
+   "",
+   "This 1,4-adduct is the product of a cuprate, (CH<sub>3</sub>)<sub>2</sub>CuLi. Methyllithium adds directly to the C=O.",
+   "This would need both a 1,4- and a 1,2-addition. After the fast 1,2-addition the C=O is gone, so there is no carbonyl left to activate the C=C.",
+   "Methylation at the α-carbon would need an enolate and an alkyl halide. Methyllithium is a nucleophile here and adds to the carbonyl carbon."
+  ]
+ },
+ {
+  "id": "z14-10",
+  "t": "enolates",
+  "d": 3,
+  "k": 0,
+  "q": "2-Methylpropanal and but-3-en-2-one (methyl vinyl ketone) are heated with KOH in ethanol. A Michael addition is followed by an intramolecular aldol condensation. What is the final product?",
+  "s": [
+   {
+    "smi": "CC(C)C=O"
+   },
+   "+",
+   {
+    "smi": "C=CC(C)=O"
+   },
+   {
+    "arrow": "KOH, EtOH",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1(C)C=CC(=O)CC1"
+   },
+   {
+    "smi": "CC(C)(C=O)CCC(C)=O"
+   },
+   {
+    "smi": "CC1(C)CC=CC(=O)C1"
+   },
+   {
+    "smi": "CC1(C)CCC(=O)CC1O"
+   }
+  ],
+  "h": "Step 1: the aldehyde’s only α-carbon adds to the β-carbon of methyl vinyl ketone. Step 2: which CH<sub>3</sub> or CH<sub>2</sub> can reach the CHO to close a six-membered ring?",
+  "w": "The enolate of 2-methylpropanal forms at its α-CH and adds to the β-carbon of methyl vinyl ketone. This gives the Michael adduct OHC–C(CH<sub>3</sub>)<sub>2</sub>–CH<sub>2</sub>CH<sub>2</sub>–C(=O)CH<sub>3</sub>. The enolate of the terminal CH<sub>3</sub> of the ketone then attacks the CHO carbon. The ring formed contains the CHO carbon, C(CH<sub>3</sub>)<sub>2</sub>, two CH<sub>2</sub> groups, the C=O, and the former CH<sub>3</sub>: six atoms. Dehydration puts the C=C between the former CHO carbon and the α-carbon, conjugated with the C=O. Product: <b>4,4-dimethylcyclohex-2-en-1-one</b>.",
+  "x": [
+   "",
+   "This keto aldehyde is the Michael adduct. Under KOH and heat, it goes on to the intramolecular aldol condensation.",
+   "This places the gem-dimethyl carbon at C5, which miscounts the ring. In the product the C(CH<sub>3</sub>)<sub>2</sub> is next to the former CHO carbon, which becomes C3 of the enone, so the gem-dimethyl is at C4.",
+   "This is the β-hydroxy ketone (aldol addition product). On heating with base it dehydrates to the conjugated enone."
+  ]
+ },
+ {
+  "id": "z14-11",
+  "t": "enolates",
+  "d": 2,
+  "k": 0,
+  "q": "In acid-catalyzed α-bromination of acetone, the enol reacts with Br<sub>2</sub>. Which drawing shows correct curved arrows for this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C:51]([OH:52])=[CH2:53].[Br:54][Br:55]",
+    "lp": [
+     52,
+     54,
+     55
+    ],
+    "arrows": [
+     {
+      "from": 52,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       51,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "C[C:51]([OH:52])=[CH2:53].[Br:54][Br:55]",
+    "lp": [
+     52,
+     54,
+     55
+    ],
+    "arrows": [
+     {
+      "from": 52,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "C[C:51]([OH:52])=[CH2:53].[Br:54][Br:55]",
+    "lp": [
+     52,
+     54,
+     55
+    ],
+    "arrows": [
+     {
+      "from": 54,
+      "to": 53
+     },
+     {
+      "from": [
+       51,
+       53
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "C[C:51]([OH:52])=[CH2:53].[Br:54][Br:55]",
+    "lp": [
+     52,
+     54,
+     55
+    ],
+    "arrows": [
+     {
+      "from": 52,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       51,
+       53
+      ],
+      "to": 54
+     }
+    ]
+   }
+  ],
+  "h": "The enol's C=C is the nucleophile, pushed by the OH lone pair, and Br<sub>2</sub> is the electrophile. Every bond that breaks needs its own arrow.",
+  "w": "An enol is an electron-rich alkene: the OH lone pair pushes into the C=C, which makes the α-carbon nucleophilic. Three arrows are needed: the O lone pair forms C=O<sup>+</sup>, the C=C π electrons attack one Br, and the Br–Br bond breaks to give bromide. The product is the O-protonated α-bromo ketone, which then loses H<sup>+</sup> to give bromoacetone. <b>Correct drawing: O lone pair → C–O bond; C=C π bond → Br; Br–Br bond → Br.</b>",
+  "x": [
+   "",
+   "Here oxygen attacks bromine. The enol reacts at its α-carbon, because the C=C π electrons are the nucleophile; an O–Br hypobromite is not formed.",
+   "These arrows start at bromine and push electrons into the nucleophilic carbon. Br<sub>2</sub> is the electrophile, so the electrons must flow from the enol to Br.",
+   "The Br–Br bond is never broken in this drawing, so the attacked bromine would end with two bonds. A third arrow is needed to send the Br–Br electrons to the other Br as bromide."
+  ]
+ },
+ {
+  "id": "z14-12",
+  "t": "enolates",
+  "d": 2,
+  "k": 0,
+  "q": "Ethyl butanoate is treated with one equivalent of NaOEt in ethanol, and the mixture is then acidified with cold dilute acid. What is the product?",
+  "s": [
+   {
+    "smi": "CCCC(=O)OCC"
+   },
+   {
+    "arrow": "1. NaOEt, EtOH",
+    "below": "2. H<sub>3</sub>O<sup>+</sup> (cold)"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCC(=O)C(CC)C(=O)OCC"
+   },
+   {
+    "smi": "CCCC(=O)CCCC(=O)OCC"
+   },
+   {
+    "smi": "CCCC(=O)CCC"
+   },
+   {
+    "smi": "CCCC(O)C(CC)C(=O)OCC"
+   }
+  ],
+  "h": "The α-carbon (C2) of one ester attacks the C=O of another, and ethoxide is expelled. Is any reducing agent or heat present?",
+  "w": "This is a Claisen condensation. Ethoxide forms a small amount of enolate at C2 of ethyl butanoate. The enolate attacks the C=O of a second molecule, and the tetrahedral intermediate expels ethoxide, giving a β-keto ester. Ethoxide then removes the acidic C–H between the two carbonyls, which drives the reaction; cold acid restores the neutral product. Product: <b>ethyl 2-ethyl-3-oxohexanoate</b>.",
+  "x": [
+   "",
+   "This links the terminal carbon of the butanoyl chain to the second ester. Only the α-carbon (C2) is deprotonated, so the new C–C bond is at C2.",
+   "Heptan-4-one forms only if the β-keto ester is hydrolyzed and decarboxylated, which needs hot aqueous acid. Cold dilute acid only neutralizes the enolate.",
+   "A β-hydroxy ester would be an aldol-type product. In a Claisen condensation the tetrahedral intermediate expels ethoxide, so the new carbonyl remains a C=O."
+  ]
+ },
+ {
+  "id": "z14-13",
+  "t": "enolates",
+  "d": 1,
+  "k": 0,
+  "q": "Diethyl malonate is converted almost completely into its enolate by sodium ethoxide in ethanol, but ethyl acetate is not. What is the main reason?",
+  "s": [
+   {
+    "smi": "CCOC(=O)CC(=O)OCC",
+    "cap": "diethyl malonate"
+   },
+   {
+    "smi": "CCOC(C)=O",
+    "cap": "ethyl acetate"
+   }
+  ],
+  "c": [
+   "The malonate CH<sub>2</sub> (pK<sub>a</sub> ≈ 13) is more acidic than ethanol (pK<sub>a</sub> ≈ 16); ethyl acetate (pK<sub>a</sub> ≈ 25) is much less acidic.",
+   "Ethoxide is too hindered to reach the α-hydrogens of ethyl acetate, but it can reach those of diethyl malonate.",
+   "Ethyl acetate reacts with ethoxide by transesterification, which uses up the base before any enolate forms.",
+   "The malonate enolate is stabilized by a hydrogen bond to ethoxide, which ethyl acetate's enolate cannot form."
+  ],
+  "h": "An acid–base equilibrium favors the side with the weaker acid. Compare each α-C–H with ethanol, the conjugate acid of ethoxide.",
+  "w": "Deprotonation goes essentially to completion only when the C–H acid is stronger than the conjugate acid of the base. The CH<sub>2</sub> of diethyl malonate lies between two carbonyl groups, so its anion is delocalized onto two oxygens (pK<sub>a</sub> ≈ 13). That is more acidic than ethanol (pK<sub>a</sub> ≈ 16), so K<sub>eq</sub> > 1. Ethyl acetate's α-H (pK<sub>a</sub> ≈ 25) is about 10<sup>9</sup> times weaker than ethanol, so only a trace of enolate forms. <b>The malonate C–H is more acidic than ethanol; the acetate C–H is far less acidic.</b>",
+  "x": [
+   "",
+   "Ethoxide is a small base and reaches α-hydrogens easily. The difference is thermodynamic (pK<sub>a</sub>), not steric.",
+   "Transesterification of an ethyl ester with ethoxide simply regenerates the same ethyl ester and ethoxide, so no base is consumed.",
+   "The extra stability of the malonate enolate comes from delocalizing the charge onto two carbonyl oxygens, not from hydrogen bonding to ethoxide."
+  ]
+ },
+ {
+  "id": "z14-14",
+  "t": "enolates",
+  "d": 3,
+  "k": 1,
+  "q": "The <sup>1</sup>H NMR spectrum of neat 2,4-pentanedione (shown) contains separate signals for the keto and enol tautomers, which interconvert slowly on the NMR time scale. The numbers on the peaks are relative integrals for the whole mixture, not H counts per molecule. What percentage of the molecules are present as the enol?",
+  "s": [
+   {
+    "smi": "CC(=O)CC(C)=O",
+    "cap": "keto"
+   },
+   "⇌",
+   {
+    "smi": "CC(=O)C=C(C)O",
+    "cap": "enol"
+   }
+  ],
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 15.5,
+      "mult": "br s",
+      "int": 2
+     },
+     {
+      "ppm": 5.5,
+      "mult": "s",
+      "int": 2
+     },
+     {
+      "ppm": 3.6,
+      "mult": "s",
+      "int": 1
+     },
+     {
+      "ppm": 2.24,
+      "mult": "s",
+      "int": 3
+     },
+     {
+      "ppm": 2.04,
+      "mult": "s",
+      "int": 12
+     }
+    ]
+   }
+  ],
+  "c": [
+   "80%",
+   "67%",
+   "40%",
+   "20%"
+  ],
+  "h": "Pick one signal unique to each tautomer, and divide its integral by the number of H atoms that signal represents in one molecule.",
+  "w": "Assign the signals. The enol has the O–H (δ 15.5), the vinyl C–H (δ 5.50, 1 H per molecule) and two CH<sub>3</sub> groups that are averaged by fast proton shuttling (δ 2.04, 6 H). The keto form has the CH<sub>2</sub> (δ 3.60, 2 H per molecule) and two CH<sub>3</sub> groups (δ 2.24, 6 H). Molecules of enol ∝ 2/1 = 2. Molecules of keto ∝ 1/2 = 0.5. Enol fraction = 2 / (2 + 0.5) = 0.80. The methyl signals agree: 12/6 = 2 and 3/6 = 0.5. Answer: <b>80%</b>.",
+  "x": [
+   "",
+   "67% compares the raw integrals of the vinyl CH (2) and the keto CH<sub>2</sub> (1) without dividing the CH<sub>2</sub> integral by 2 H.",
+   "40% compares the enol vinyl CH integral (2) with the keto CH<sub>3</sub> integral (3) without correcting for the 1 H versus 6 H they represent.",
+   "20% is the keto fraction, not the enol fraction."
+  ]
+ },
+ {
+  "id": "z14-15",
+  "t": "enolates",
+  "d": 2,
+  "k": 0,
+  "q": "Ethyl acetate is treated with LDA in THF at −78 °C, then benzaldehyde is added, and the mixture is quenched with aqueous NH<sub>4</sub>Cl. What is the main product?",
+  "s": [
+   {
+    "smi": "CCOC(C)=O"
+   },
+   {
+    "arrow": "1. LDA, THF, −78 °C",
+    "below": "2. PhCHO  3. NH<sub>4</sub>Cl, H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(=O)CC(O)c1ccccc1"
+   },
+   {
+    "smi": "CCOC(=O)/C=C/c1ccccc1"
+   },
+   {
+    "smi": "CCOC(=O)CC(C)=O"
+   },
+   {
+    "smi": "CCOC(=O)CC(=O)c1ccccc1"
+   }
+  ],
+  "h": "LDA converts all of the ester to its enolate before the aldehyde is added. What does an enolate do to an aldehyde C=O at low temperature?",
+  "w": "LDA (pK<sub>a</sub> of diisopropylamine ≈ 36) deprotonates ethyl acetate completely and irreversibly at −78 °C. No neutral ester remains, so the ester cannot condense with itself. When benzaldehyde is added, the enolate adds to its C=O (a directed aldol addition), and the mild NH<sub>4</sub>Cl quench protonates the alkoxide. Product: <b>ethyl 3-hydroxy-3-phenylpropanoate</b> (racemic).",
+  "x": [
+   "",
+   "Dehydration to the cinnamate needs heat or acid or base for E1cB. At −78 °C with a mild NH<sub>4</sub>Cl quench, the β-hydroxy ester is isolated.",
+   "Ethyl acetoacetate is the self-Claisen product. With LDA all the ester is already enolate before the aldehyde is added, so no neutral ester is left to act as the electrophile.",
+   "A β-keto ester would form if the enolate attacked an ester such as ethyl benzoate. An aldehyde has no leaving group, so its addition product keeps an OH."
+  ]
+ },
+ {
+  "id": "z14-16",
+  "t": "enolates",
+  "d": 1,
+  "k": 0,
+  "q": "Optically active (R)-2-phenylpropanal (shown) slowly loses its optical activity in dilute aqueous NaOH. Which species is responsible?",
+  "s": [
+   {
+    "smi": "C[C@@H](C=O)c1ccccc1"
+   }
+  ],
+  "c": [
+   "The planar, achiral enolate formed by removing the α-hydrogen",
+   "The hydrate formed by adding hydroxide to the C=O",
+   "A carbocation formed by loss of hydroxide from the hydrate",
+   "An aldol dimer formed from two molecules of the aldehyde"
+  ],
+  "h": "The stereocenter is the α-carbon. What does hydroxide do to the C–H on that carbon?",
+  "w": "The stereocenter carries the α-hydrogen. Hydroxide removes it to give an enolate, in which the former stereocenter is a planar sp<sup>2</sup> carbon. Water reprotonates that carbon equally from either face, giving equal amounts of R and S. Repeating this racemizes the sample. Answer: <b>the planar, achiral enolate</b>.",
+  "x": [
+   "",
+   "Forming the hydrate changes the carbonyl carbon, not the α-carbon. The stereocenter is untouched, so the hydrate does not cause racemization.",
+   "Carbocations do not form in basic solution. Hydroxide is a poor leaving group, and the stereocenter is not involved.",
+   "An aldol reaction consumes the aldehyde rather than racemizing it. Loss of optical activity in the recovered aldehyde comes from reversible enolization."
+  ]
+ },
+ {
+  "id": "z14-17",
+  "t": "enolates",
+  "d": 2,
+  "k": 0,
+  "q": "Which statements about the Claisen condensation of ethyl propanoate with NaOEt in ethanol are correct?<br>I. The overall reaction is driven by deprotonation of the β-keto ester product (pK<sub>a</sub> ≈ 11) by ethoxide.<br>II. A catalytic amount of NaOEt (about 5 mol %) is enough to give a high yield.<br>III. The ester must have at least two α-hydrogens, so that the β-keto ester product still has an acidic H to lose.",
+  "s": [
+   {
+    "smi": "CCC(=O)OCC"
+   }
+  ],
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "The addition and elimination steps of a Claisen condensation are uphill or close to even. What makes the last step favorable, and how much base does that step use up?",
+  "w": "I. True: the β-keto ester has a C–H between two carbonyls (pK<sub>a</sub> ≈ 11), much more acidic than ethanol (pK<sub>a</sub> ≈ 16). Its essentially complete deprotonation pulls the earlier unfavorable equilibria forward. II. False: that final deprotonation consumes a full equivalent of ethoxide, so a stoichiometric amount of base is required; acid workup restores the neutral product. III. True: one α-H is used to form the enolate. A second α-H must remain on the carbon between the carbonyls of the product for the driving deprotonation; esters with only one α-H, such as ethyl 2-methylpropanoate, condense poorly with NaOEt. Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "This misjudges III. With only one α-H, the product has no acidic H between the carbonyls, the driving deprotonation cannot occur, and the reaction does not go to completion with NaOEt.",
+   "This misjudges I. Deprotonation of the β-keto ester product is the step that drives the reaction.",
+   "This misjudges II. The driving deprotonation consumes ethoxide, so a full equivalent of base is needed, not a catalytic amount."
+  ]
+ },
+ {
+  "id": "z14-18",
+  "t": "enolates",
+  "d": 2,
+  "k": 0,
+  "q": "Which ketone, treated with excess I<sub>2</sub> in aqueous NaOH and then acidified, gives 2,2-dimethylpropanoic acid (shown) as the organic acid product?",
+  "s": [
+   {
+    "smi": "CC(C)(C)C(=O)O"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)C(C)(C)C"
+   },
+   {
+    "smi": "CCC(=O)C(C)(C)C"
+   },
+   {
+    "smi": "CC(C)(C)CC(C)=O"
+   },
+   {
+    "smi": "CC(C)C(C)=O"
+   }
+  ],
+  "h": "In the haloform reaction, which group of the ketone is lost as CHI<sub>3</sub>, and which group stays attached to the new CO<sub>2</sub>H?",
+  "w": "The haloform reaction works on methyl ketones, RC(=O)CH<sub>3</sub>. In base the CH<sub>3</sub> is iodinated three times, hydroxide adds to the C=O, and CI<sub>3</sub><sup>−</sup> leaves, giving RCO<sub>2</sub><sup>−</sup> and iodoform. Acidification gives RCO<sub>2</sub>H. The R group is unchanged, so R must be tert-butyl: <b>3,3-dimethylbutan-2-one (pinacolone)</b>.",
+  "x": [
+   "",
+   "This ketone has no CH<sub>3</sub>C=O group. Its α-CH<sub>2</sub> can be iodinated, but no CI<sub>3</sub> group forms, so it does not undergo the haloform cleavage.",
+   "This methyl ketone does react, but its R group is (CH<sub>3</sub>)<sub>3</sub>CCH<sub>2</sub>–, so the product is 3,3-dimethylbutanoic acid.",
+   "This methyl ketone does react, but its R group is isopropyl, so the product is 2-methylpropanoic acid."
+  ]
+ },
+ {
+  "id": "z14-19",
+  "t": "enolates",
+  "d": 3,
+  "k": 0,
+  "q": "Diethyl malonate is treated with 2 equivalents of NaOEt and 1 equivalent of 1,3-dibromopropane. The product is then heated in aqueous H<sub>2</sub>SO<sub>4</sub>. What is the final organic product?",
+  "s": [
+   {
+    "smi": "CCOC(=O)CC(=O)OCC"
+   },
+   {
+    "arrow": "1. NaOEt (2 equiv), BrCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>Br",
+    "below": "2. H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC(=O)C1CCC1"
+   },
+   {
+    "smi": "CCOC(=O)C1(C(=O)OCC)CCC1"
+   },
+   {
+    "smi": "OC(=O)CCCCBr"
+   },
+   {
+    "smi": "OC(=O)C1(C(=O)O)CCC1"
+   }
+  ],
+  "h": "The first enolate alkylates one end of the dibromide. The product still has an acidic C–H, and base remains. Then recall what hot aqueous acid does to a malonate.",
+  "w": "The malonate enolate displaces one bromide (S<sub>N</sub>2). The monoalkylated malonate still has an acidic C–H, and the second equivalent of ethoxide removes it. That enolate displaces the other bromide intramolecularly, closing a ring of the malonate carbon plus three CH<sub>2</sub> groups: diethyl cyclobutane-1,1-dicarboxylate. Hot aqueous acid hydrolyzes both esters; the 1,1-diacid has a CO<sub>2</sub>H β to a C=O and loses CO<sub>2</sub>. Product: <b>cyclobutanecarboxylic acid</b>.",
+  "x": [
+   "",
+   "This diester is the intermediate before step 2. Hot aqueous acid hydrolyzes the esters and decarboxylates the malonic acid.",
+   "This assumes the second bromide never reacts. With a second equivalent of base, the monoalkylated malonate is deprotonated again and closes the ring intramolecularly.",
+   "A 1,1-dicarboxylic acid (a malonic acid) loses CO<sub>2</sub> readily on heating, through a cyclic transition state, so it does not survive step 2."
+  ]
+ },
+ {
+  "id": "z14-20",
+  "t": "enolates",
+  "d": 1,
+  "k": 0,
+  "q": "In the base-catalyzed aldol addition of propanal (carbons labeled <i>a</i>–<i>c</i>), which two carbons are joined by the new C–C bond?",
+  "s": [
+   {
+    "smi": "[CH3:3][CH2:2][CH:1]=O"
+   }
+  ],
+  "c": [
+   "Carbon <i>b</i> of one molecule and carbon <i>a</i> of another",
+   "Carbon <i>a</i> of one molecule and carbon <i>a</i> of another",
+   "Carbon <i>b</i> of one molecule and carbon <i>b</i> of another",
+   "Carbon <i>c</i> of one molecule and carbon <i>a</i> of another"
+  ],
+  "h": "One molecule acts as the nucleophile through its enolate. The other acts as the electrophile through its carbonyl carbon.",
+  "w": "Hydroxide removes an α-hydrogen from carbon <i>b</i>, the carbon next to the C=O, to form the enolate. The nucleophilic α-carbon of that enolate attacks the electrophilic carbonyl carbon <i>a</i> of a second propanal molecule. Protonation gives 3-hydroxy-2-methylpentanal. Answer: <b>carbon <i>b</i> of one molecule and carbon <i>a</i> of another</b>.",
+  "x": [
+   "",
+   "Two carbonyl carbons are both electrophiles, and neither has electrons to donate, so they cannot bond to each other.",
+   "Joining two α-carbons would need both to act as nucleophiles. One partner must provide the electrophilic C=O carbon.",
+   "Carbon <i>c</i> is β to the carbonyl. Its hydrogens are not acidic, so no nucleophile forms there."
+  ]
+ }
+]

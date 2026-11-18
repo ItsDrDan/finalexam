@@ -1,0 +1,601 @@
+[
+ {
+  "id": "zz2c1-01",
+  "t": "structure",
+  "d": 1,
+  "k": 0,
+  "q": "Which bond-line formula represents CH<sub>3</sub>CH<sub>2</sub>C(CH<sub>3</sub>)<sub>2</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(C)(C)CC(C)O"
+   },
+   {
+    "smi": "CCC(C)(C)C(C)O"
+   },
+   {
+    "smi": "CC(C)(C)CCC(C)O"
+   },
+   {
+    "smi": "CCC(C)CC(C)O"
+   }
+  ],
+  "h": "Read the condensed formula left to right. A group in parentheses with a subscript hangs off the atom just before it; count every carbon in the main chain.",
+  "w": "Walk along the formula: CH<sub>3</sub>CH<sub>2</sub>– is an ethyl end, C(CH<sub>3</sub>)<sub>2</sub> is a chain carbon carrying two methyl groups, then one CH<sub>2</sub>, then CH(OH), then a terminal CH<sub>3</sub>. That is a six-carbon chain with OH on C2 and two methyls on C4 (4,4-dimethylhexan-2-ol), C<sub>8</sub>H<sub>18</sub>O. <b>The structure with the gem-dimethyl carbon flanked by an ethyl group and a CH<sub>2</sub>–CH(OH)–CH<sub>3</sub> unit</b> is the match.",
+  "x": [
+   "",
+   "This chain has no CH<sub>2</sub> between the quaternary carbon and the CH(OH) carbon, so one carbon of the formula is missing (C<sub>7</sub>H<sub>16</sub>O).",
+   "Here the quaternary carbon carries three methyls (a tert-butyl group) and two CH<sub>2</sub> groups follow it. The formula has an ethyl group, not a methyl, on that carbon and only one CH<sub>2</sub> after it.",
+   "(CH<sub>3</sub>)<sub>2</sub> means two methyl groups; this structure shows only one, so the carbon is CH instead of a quaternary C."
+  ]
+ },
+ {
+  "id": "zz2c1-02",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "Which bond-line formula represents C<sub>6</sub>H<sub>11</sub>CH<sub>2</sub>COCH(CH<sub>3</sub>)<sub>2</sub>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C(CC1CCCCC1)C(C)C"
+   },
+   {
+    "smi": "O=C(Cc1ccccc1)C(C)C"
+   },
+   {
+    "smi": "OC(CC1CCCCC1)C(C)C"
+   },
+   {
+    "smi": "O=C(C1CCCCC1)CC(C)C"
+   }
+  ],
+  "h": "C<sub>6</sub>H<sub>11</sub>– and C<sub>6</sub>H<sub>5</sub>– are different rings. In a condensed formula, CO with no H written after it is a carbonyl.",
+  "w": "C<sub>6</sub>H<sub>11</sub>– is a cyclohexyl group (a saturated six-membered ring with one H removed); C<sub>6</sub>H<sub>5</sub>– would be phenyl. Next comes CH<sub>2</sub>, then CO, which is a ketone C=O because no H follows the O, then an isopropyl group CH(CH<sub>3</sub>)<sub>2</sub>. So the answer is <b>cyclohexyl–CH<sub>2</sub>–C(=O)–CH(CH<sub>3</sub>)<sub>2</sub></b> (1-cyclohexyl-3-methylbutan-2-one).",
+  "x": [
+   "",
+   "This ring is a benzene ring (phenyl, C<sub>6</sub>H<sub>5</sub>), which has six fewer hydrogens than the cyclohexyl group C<sub>6</sub>H<sub>11</sub>.",
+   "This is an alcohol, CH(OH). In a condensed formula CO with nothing after the O is a carbonyl; an alcohol would be written CH(OH).",
+   "The CH<sub>2</sub> has moved to the other side of the carbonyl: this is C<sub>6</sub>H<sub>11</sub>COCH<sub>2</sub>CH(CH<sub>3</sub>)<sub>2</sub>, a constitutional isomer."
+  ]
+ },
+ {
+  "id": "zz2c1-03",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "What is the condensed structural formula of the compound shown?",
+  "s": [
+   {
+    "smi": "CC(C)CC(Br)CC(C)=O"
+   }
+  ],
+  "c": [
+   "(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CHBrCH<sub>2</sub>COCH<sub>3</sub>",
+   "(CH<sub>3</sub>)<sub>2</sub>CHCHBrCH<sub>2</sub>CH<sub>2</sub>COCH<sub>3</sub>",
+   "(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CHBrCH<sub>2</sub>CH<sub>2</sub>COCH<sub>3</sub>",
+   "CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CHBrCH<sub>2</sub>COCH<sub>3</sub>"
+  ],
+  "h": "Start at the branched end, count the vertices between the branch point, the C–Br carbon and the C=O carbon, and add the hydrogens each carbon needs to make four bonds.",
+  "w": "From the left: an isopropyl end, (CH<sub>3</sub>)<sub>2</sub>CH–; one CH<sub>2</sub>; the carbon bearing Br, CHBr; one CH<sub>2</sub>; the carbonyl carbon, CO; and a terminal CH<sub>3</sub>. That gives <b>(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CHBrCH<sub>2</sub>COCH<sub>3</sub></b> (4-bromo-6-methylheptan-2-one, C<sub>8</sub>H<sub>15</sub>BrO).",
+  "x": [
+   "",
+   "This puts Br on the carbon right next to the isopropyl CH. The drawing has a CH<sub>2</sub> between the branch point and the C–Br carbon.",
+   "This formula has two CH<sub>2</sub> groups between CHBr and C=O; the drawing has only one.",
+   "This formula branches at the wrong carbon: it describes a sec-butyl group, not an isopropyl group followed by CH<sub>2</sub>."
+  ]
+ },
+ {
+  "id": "zz2c1-04",
+  "t": "structure",
+  "d": 1,
+  "k": 0,
+  "q": "How many hydrogen atoms are bonded to each of the tagged carbons <i>a</i>, <i>b</i> and <i>c</i>?",
+  "s": [
+   {
+    "smi": "CC(=O)[CH2:1]C1=[CH:2]CC[C:3](Cl)(C)C1"
+   }
+  ],
+  "c": [
+   "<i>a</i> 2, <i>b</i> 1, <i>c</i> 0",
+   "<i>a</i> 2, <i>b</i> 2, <i>c</i> 1",
+   "<i>a</i> 1, <i>b</i> 1, <i>c</i> 0",
+   "<i>a</i> 2, <i>b</i> 1, <i>c</i> 1"
+  ],
+  "h": "A neutral carbon makes four bonds. Count the bonds you can see (a double bond counts twice); hydrogens fill the rest.",
+  "w": "Bond-line drawings hide the H atoms on carbon, so count bonds to non-hydrogen atoms and subtract from 4. Carbon <i>a</i> is bonded to the C=O carbon and to a ring carbon: 2 bonds, so 2 H. Carbon <i>b</i> has a double bond (2) to a ring carbon and a single bond to a CH<sub>2</sub>: 3 bonds, so 1 H. Carbon <i>c</i> is bonded to two ring carbons, Cl and a CH<sub>3</sub>: 4 bonds, so 0 H. Answer: <b><i>a</i> 2, <i>b</i> 1, <i>c</i> 0</b>.",
+  "x": [
+   "",
+   "Carbon <i>b</i> is an alkene carbon: its double bond uses two of its four bonds, leaving room for only one H. Carbon <i>c</i> already has four bonds (two ring C, Cl, CH<sub>3</sub>).",
+   "Carbon <i>a</i> has only two bonds to carbon (C=O carbon and ring carbon), so it carries two hydrogens, not one.",
+   "The chlorine counts as one of carbon <i>c</i>'s four bonds; with two ring bonds and a methyl, no H is left."
+  ]
+ },
+ {
+  "id": "zz2c1-05",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "Which structure is the same compound as the one shown (only redrawn in a different orientation)?",
+  "s": [
+   {
+    "smi": "O[C@@H]1CC[C@@H](C)C1",
+    "rot": 150
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@H]1C[C@H](O)CC1",
+    "flip": true
+   },
+   {
+    "smi": "C[C@@H]1C[C@@H](O)CC1"
+   },
+   {
+    "smi": "C[C@H]1C[C@@H](O)CC1"
+   },
+   {
+    "smi": "C[C@H]1CCC[C@@H]1O"
+   }
+  ],
+  "h": "Are the groups 1,2 or 1,3 on the ring? Do OH and CH<sub>3</sub> share a face (cis) or not (trans)? Then use R/S to rule out the mirror image.",
+  "w": "The given compound is trans-3-methylcyclopentan-1-ol with both stereocenters R, (1<i>R</i>,3<i>R</i>). Turning or flipping a drawing over in the plane changes how it looks, but not the connectivity or the configuration of each stereocenter. <b>The structure that is (1<i>R</i>,3<i>R</i>) with the groups 1,3 and trans</b> is the same compound. Of the others, one is trans but (1<i>S</i>,3<i>S</i>) (the enantiomer), one is cis (a diastereomer) and one has the groups 1,2 (a constitutional isomer).",
+  "x": [
+   "",
+   "This is trans and 1,3, but both centers are S: it is the mirror image (enantiomer) of the compound shown, not the same compound.",
+   "Here the OH and CH<sub>3</sub> are on the same face of the ring (cis), so this is a diastereomer.",
+   "The methyl is on the carbon next to the C–OH carbon (a 1,2 pattern), so this is a constitutional isomer, 2-methylcyclopentan-1-ol."
+  ]
+ },
+ {
+  "id": "zz2c1-06",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "In the imine shown, the tagged nitrogen <i>a</i> is sp<sup>2</sup> hybridized. How are its five valence electrons distributed among its orbitals?",
+  "s": [
+   {
+    "smi": "CC(C)=[N:1]C"
+   }
+  ],
+  "c": [
+   "three sp<sup>2</sup> orbitals hold 2, 1 and 1 electrons; the unhybridized 2p orbital holds 1",
+   "three sp<sup>2</sup> orbitals hold 1, 1 and 1 electrons; the unhybridized 2p orbital holds 2",
+   "four sp<sup>3</sup> orbitals hold 2, 1, 1 and 1 electrons",
+   "two sp orbitals hold 2 and 1 electrons; two unhybridized 2p orbitals hold 1 each"
+  ],
+  "h": "Decide which orbital forms the π bond to carbon and which orbital holds the lone pair. A π bond needs a p orbital with one electron.",
+  "w": "An imine N has three electron domains (the σ bond to C, the σ bond to CH<sub>3</sub> and a lone pair), so it is sp<sup>2</sup>. Its 2s and two 2p orbitals mix into three sp<sup>2</sup> orbitals; one 2p orbital is left over. The two σ bonds each need one electron in an sp<sup>2</sup> orbital, the lone pair sits in the third sp<sup>2</sup> orbital, and the remaining 2p orbital holds one electron to form the C=N π bond. So: <b>sp<sup>2</sup> orbitals with 2, 1, 1 electrons and the 2p with 1</b>. This is why the imine lone pair lies in the molecular plane and is not part of the π system.",
+  "x": [
+   "",
+   "With the pair in the p orbital, no singly occupied p orbital is left to make the C=N π bond. A lone pair in p is the situation in amides or pyrrole, not in an imine.",
+   "Four sp<sup>3</sup> orbitals leave no p orbital, so nitrogen could not form the C=N π bond. That is the picture for an amine nitrogen.",
+   "sp hybridization fits a nitrogen with two electron domains, such as the N of a nitrile. The imine N has three (two σ bonds and a lone pair)."
+  ]
+ },
+ {
+  "id": "zz2c1-07",
+  "t": "structure",
+  "d": 3,
+  "k": 0,
+  "q": "The allyl radical, CH<sub>2</sub>=CH–CH<sub>2</sub>•, has three π molecular orbitals (ψ<sub>1</sub>, ψ<sub>2</sub>, ψ<sub>3</sub>, in order of increasing energy). Which orbital holds the unpaired electron, and what is its node pattern?",
+  "s": [
+   {
+    "smi": "C=C[CH2]"
+   }
+  ],
+  "c": [
+   "ψ<sub>2</sub>, which has one node passing through the central carbon",
+   "ψ<sub>1</sub>, which has no nodes between the carbons",
+   "ψ<sub>3</sub>, which has two nodes, one between each pair of carbons",
+   "ψ<sub>2</sub>, which has one node between C1 and C2 only"
+  ],
+  "h": "Three p orbitals give three MOs with 0, 1 and 2 nodes. Fill three π electrons from the bottom, and place each node symmetrically about the central carbon.",
+  "w": "Three overlapping p orbitals combine into ψ<sub>1</sub> (0 nodes, bonding), ψ<sub>2</sub> (1 node, nonbonding) and ψ<sub>3</sub> (2 nodes, antibonding). The radical has three π electrons: two fill ψ<sub>1</sub> and the third goes into ψ<sub>2</sub>. Because the molecule is symmetric, the single node of ψ<sub>2</sub> must lie at the center, so ψ<sub>2</sub> has zero coefficient on C2. The answer is <b>ψ<sub>2</sub>, with its node through the central carbon</b>. That explains why the unpaired electron (and the reactivity) of the allyl radical is found on the two end carbons, matching the two resonance forms.",
+  "x": [
+   "",
+   "ψ<sub>1</sub> holds two paired electrons. The third electron cannot enter it (Pauli principle), so it goes into ψ<sub>2</sub>.",
+   "ψ<sub>3</sub> is the antibonding orbital and is empty in the radical; it is filled only after ψ<sub>1</sub> and ψ<sub>2</sub>.",
+   "A node between C1 and C2 only would make the orbital lopsided. In the symmetric allyl system the one node of ψ<sub>2</sub> passes through C2, leaving equal lobes on C1 and C3."
+  ]
+ },
+ {
+  "id": "zz2c1-08",
+  "t": "structure",
+  "d": 3,
+  "k": 0,
+  "q": "What is the hybridization of the tagged atoms <i>a</i>, <i>b</i> and <i>c</i>?",
+  "s": [
+   {
+    "smi": "C=[C:1]=CCC(=O)[NH:2]CC[NH:3]C"
+   }
+  ],
+  "c": [
+   "<i>a</i> sp, <i>b</i> sp<sup>2</sup>, <i>c</i> sp<sup>3</sup>",
+   "<i>a</i> sp<sup>2</sup>, <i>b</i> sp<sup>2</sup>, <i>c</i> sp<sup>3</sup>",
+   "<i>a</i> sp, <i>b</i> sp<sup>3</sup>, <i>c</i> sp<sup>3</sup>",
+   "<i>a</i> sp, <i>b</i> sp<sup>2</sup>, <i>c</i> sp<sup>2</sup>"
+  ],
+  "h": "Count σ bonds plus lone pairs for each atom, but first ask whether a lone pair next to a C=O is delocalized into the π system.",
+  "w": "Atom <i>a</i> is the central carbon of an allene (C=C=C): it has two σ bonds and two π bonds at right angles, so it is <b>sp</b>. Atom <i>b</i> is an amide nitrogen; its lone pair is delocalized onto the carbonyl oxygen by resonance, so the N is planar and <b>sp<sup>2</sup></b>, with the lone pair in a p orbital. Atom <i>c</i> is an ordinary amine nitrogen (three σ bonds and a localized lone pair), so it is <b>sp<sup>3</sup></b>. Answer: <b><i>a</i> sp, <i>b</i> sp<sup>2</sup>, <i>c</i> sp<sup>3</sup></b>.",
+  "x": [
+   "",
+   "The central allene carbon makes two double bonds, so it needs two unhybridized p orbitals: it is sp, not sp<sup>2</sup>.",
+   "Counting the amide N as 3 σ bonds + 1 lone pair = sp<sup>3</sup> ignores resonance. The N lone pair is conjugated with C=O, which makes the nitrogen sp<sup>2</sup> and planar.",
+   "Nitrogen <i>c</i> is not next to any π bond, so its lone pair is localized and the N is sp<sup>3</sup> (trigonal pyramidal)."
+  ]
+ },
+ {
+  "id": "zz2c1-09",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "What are the molecular geometries (VSEPR shapes) at the tagged atoms <i>a</i>, <i>b</i> and <i>c</i>?",
+  "s": [
+   {
+    "smi": "N#[C:1]CC[O:2]CC[N:3](C)C"
+   }
+  ],
+  "c": [
+   "<i>a</i> linear, <i>b</i> bent, <i>c</i> trigonal pyramidal",
+   "<i>a</i> linear, <i>b</i> tetrahedral, <i>c</i> trigonal planar",
+   "<i>a</i> trigonal planar, <i>b</i> bent, <i>c</i> trigonal pyramidal",
+   "<i>a</i> linear, <i>b</i> linear, <i>c</i> tetrahedral"
+  ],
+  "h": "Count electron domains (σ bonds and lone pairs; a multiple bond counts once) to get the electron geometry, then name the shape from the atoms only.",
+  "w": "Atom <i>a</i> is a nitrile carbon: two domains (C≡N and C–C), so it is linear. Atom <i>b</i> is an ether oxygen: two bonds and two lone pairs make four domains (tetrahedral electron geometry), but the shape described by the atoms is bent. Atom <i>c</i> is an amine nitrogen: three bonds and one lone pair, so it is trigonal pyramidal. Answer: <b>linear, bent, trigonal pyramidal</b>.",
+  "x": [
+   "",
+   "VSEPR shapes name only atom positions. The ether O has two lone pairs, so its shape is bent, and the amine N has a lone pair, so it is pyramidal, not planar.",
+   "The nitrile carbon has only two electron domains (a triple bond counts as one domain), so it is linear, not trigonal planar.",
+   "The ether oxygen has two lone pairs as well as two bonds; four domains give a bent shape. The amine N, with one lone pair, is pyramidal, not tetrahedral."
+  ]
+ },
+ {
+  "id": "zz2c1-10",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "Which of the compounds shown have a net molecular dipole moment?",
+  "s": [
+   {
+    "smi": "Br/C=C/Br",
+    "cap": "I"
+   },
+   {
+    "smi": "C=C(Br)Br",
+    "cap": "II"
+   },
+   {
+    "smi": "Clc1cccc(Cl)c1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "II and III only",
+   "II only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "Draw each C–X bond dipole as an arrow and add them as vectors. Only a molecule whose bond dipoles exactly cancel has no net dipole.",
+  "w": "I is false: in (<i>E</i>)-1,2-dibromoethene the two C–Br dipoles point in exactly opposite directions and cancel, so the net dipole is zero. II is true: in 1,1-dibromoethene both C–Br dipoles point toward the same end of the molecule and add. III is true: in 1,3-dichlorobenzene the two C–Cl dipoles are 120° apart; they partly cancel, but a resultant along the line bisecting them remains. Answer: <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement III is misjudged: meta C–Cl dipoles are 120° apart, not 180°, so they do not cancel. Only para-dichlorobenzene has zero dipole.",
+   "Statement II is misjudged: both C–Br bonds of 1,1-dibromoethene point toward the CBr<sub>2</sub> end, so their dipoles add.",
+   "Statement I is misjudged: the trans isomer has a center of symmetry, so its two C–Br dipoles cancel exactly."
+  ]
+ },
+ {
+  "id": "zz2c1-11",
+  "t": "structure",
+  "d": 3,
+  "k": 0,
+  "q": "Which structure is NOT a resonance contributor of the cation shown?",
+  "s": [
+   {
+    "smi": "C[O+]=CC=CC=C"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COCC=CC=[CH+]"
+   },
+   {
+    "smi": "CO[CH+]C=CC=C"
+   },
+   {
+    "smi": "COC=C[CH+]C=C"
+   },
+   {
+    "smi": "COC=CC=C[CH2+]"
+   }
+  ],
+  "h": "Resonance forms keep every atom (and every H) in place and move only π electrons and lone pairs. Compare where the hydrogens are in each structure.",
+  "w": "Moving the O=C π electrons onto oxygen puts + on C1; then each C=C can shift toward the electron-poor carbon, placing + on C3 and then on C5. All of those keep the same atoms and hydrogens, so they are true contributors. <b>The structure with a CH<sub>2</sub> next to oxygen and a terminal =CH<sup>+</sup> vinyl cation</b> has moved a hydrogen from C5 to C1. That is a different compound (a constitutional isomer), not a resonance form.",
+  "x": [
+   "",
+   "This is the form made by moving the O=C π bond onto oxygen: the positive charge sits on C1, next to the OCH<sub>3</sub>. Same atoms, same H positions, so it is a contributor.",
+   "Shifting the C2=C3 π bond toward C1 puts the + on C3. No atom moves, so this is a contributor.",
+   "Shifting the C4=C5 π bond as well places + on the terminal CH<sub>2</sub> (C5). This is a contributor."
+  ]
+ },
+ {
+  "id": "zz2c1-12",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "The acetyl cation (acylium ion) can be drawn as structures I and II. Which is the major contributor, and why?",
+  "s": [
+   {
+    "smi": "C[C+]=O",
+    "cap": "I"
+   },
+   {
+    "smi": "CC#[O+]",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "II, because every atom in II has a complete octet",
+   "I, because the positive charge is on the less electronegative atom",
+   "Neither; I and II contribute equally because they differ only in charge location",
+   "II, because oxygen is more electronegative and stabilizes a positive charge better than carbon"
+  ],
+  "h": "Rank the rules for major contributors: first complete octets, then charge placement by electronegativity.",
+  "w": "The most important rule for judging contributors is that more atoms with full octets (and more bonds) win. In I the cationic carbon has only six electrons. In II the extra C≡O π bond gives every carbon and oxygen an octet, even though the + now sits on oxygen. So <b>II is the major contributor because every atom has a complete octet</b>. This is why acylium ions are linear and relatively stable, and why they form in Friedel–Crafts acylation.",
+  "x": [
+   "",
+   "Putting + on the less electronegative atom is only a tiebreaker. A full octet on every atom outranks it, so I is the minor form.",
+   "Contributors are equal only when they are equally stable. II has one more bond and no electron-deficient atom, so it contributes more.",
+   "II is the major form, but not for this reason: a positive charge is less stable on the more electronegative oxygen. II wins in spite of that, because of its complete octets."
+  ]
+ },
+ {
+  "id": "zz2c1-13",
+  "t": "structure",
+  "d": 3,
+  "k": 0,
+  "q": "Rank these carbocations from least stable to most stable.",
+  "s": [
+   {
+    "smi": "[CH+]1CCCCC1",
+    "cap": "I"
+   },
+   {
+    "smi": "[C+]1=CCCCC1",
+    "cap": "II"
+   },
+   {
+    "smi": "C[C+]1CCCCC1",
+    "cap": "III"
+   },
+   {
+    "smi": "CC1=C[CH+]CCC1",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "II &lt; I &lt; III &lt; IV",
+   "I &lt; II &lt; III &lt; IV",
+   "II &lt; I &lt; IV &lt; III",
+   "I &lt; III &lt; II &lt; IV"
+  ],
+  "h": "Classify each cation (vinyl, 2°, 3°) and then ask which ones are also allylic. In an allylic cation, look at both resonance forms.",
+  "w": "II is a vinyl cation: the + is on an sp-like carbon with the empty orbital in the plane, not overlapping any π bond, so it is the least stable. I is a simple secondary cation (hyperconjugation from two alkyl groups). III is tertiary, so it is more stable than I. IV is allylic: its resonance form puts the + on the ring carbon that carries the methyl, so the charge is shared between a 2° and a 3° carbon. Resonance plus a tertiary contributor makes IV the most stable. Ranking: <b>II &lt; I &lt; III &lt; IV</b>.",
+  "x": [
+   "",
+   "A vinyl cation is less stable than an ordinary secondary cation, so II belongs below I.",
+   "IV is allylic and one of its contributors is tertiary; resonance delocalization makes it more stable than the simple tertiary cation III.",
+   "The vinyl cation II is the least stable of all; it does not rank above the secondary and tertiary cations."
+  ]
+ },
+ {
+  "id": "zz2c1-14",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "Rank these radicals from least stable to most stable.",
+  "s": [
+   {
+    "smi": "[c]1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "[CH]1CCCCC1",
+    "cap": "II"
+   },
+   {
+    "smi": "[CH2]c1ccccc1",
+    "cap": "III"
+   },
+   {
+    "smi": "C[C](C)c1ccccc1",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III &lt; IV",
+   "II &lt; I &lt; III &lt; IV",
+   "I &lt; II &lt; IV &lt; III",
+   "II &lt; III &lt; I &lt; IV"
+  ],
+  "h": "Where is the unpaired electron: in an sp<sup>2</sup> orbital in the ring plane, or in a p orbital that can overlap the ring π system? Then count alkyl groups.",
+  "w": "I is the phenyl radical: the odd electron is in an sp<sup>2</sup> orbital in the plane of the ring, perpendicular to the π system, so it gets no resonance help and is the least stable (the aryl C–H bond is about 113 kcal/mol). II is a secondary alkyl radical, helped only by hyperconjugation. III is benzylic: the odd electron is delocalized into the ring by resonance. IV is benzylic and also tertiary, so it is the most stable. Ranking: <b>I &lt; II &lt; III &lt; IV</b>.",
+  "x": [
+   "",
+   "The phenyl radical is not stabilized by the ring; its odd electron is in an in-plane sp<sup>2</sup> orbital. A secondary alkyl radical is more stable.",
+   "IV is benzylic and tertiary; the two methyl groups add hyperconjugation to the benzylic resonance, so IV is more stable than primary benzylic III.",
+   "Phenyl radical I is less stable than the alkyl radical II, not more stable than the benzylic radical III."
+  ]
+ },
+ {
+  "id": "zz2c1-15",
+  "t": "structure",
+  "d": 3,
+  "k": 0,
+  "q": "The 4-nitrobenzyl anion is shown. On which of the tagged atoms does the negative charge appear in at least one resonance contributor?",
+  "s": [
+   {
+    "smi": "[CH2-:1]c1[cH:2][cH:3]c(cc1)[N+](=[O:4])[O-]"
+   }
+  ],
+  "c": [
+   "<i>a</i>, <i>b</i> and <i>d</i>",
+   "<i>a</i>, <i>b</i> and <i>c</i>",
+   "<i>a</i> and <i>c</i> only",
+   "<i>a</i> and <i>b</i> only"
+  ],
+  "h": "Push the CH<sub>2</sub><sup>−</sup> lone pair into the ring one arrow at a time; each arrow moves the charge two atoms. At the C–NO<sub>2</sub> carbon, can N=O accept it?",
+  "w": "The charge starts on the benzylic carbon <i>a</i>. Forming a C=C to the ring pushes the charge to the ortho carbon <i>b</i>, then to the other ortho carbon and to the para carbon (the one bearing NO<sub>2</sub>). From the para carbon a C=N bond can form while the N=O π electrons move onto oxygen, so the charge reaches oxygen <i>d</i>. The meta carbon <i>c</i> is never charged, because the charge alternates positions. Answer: <b><i>a</i>, <i>b</i> and <i>d</i></b>. The extra delocalization onto the nitro oxygen is why 4-nitrotoluene is far more acidic at CH<sub>3</sub> than toluene.",
+  "x": [
+   "",
+   "The charge alternates around the ring (ortho, para), so the meta carbon <i>c</i> never carries it.",
+   "Carbon <i>c</i> is meta to the CH<sub>2</sub>; the charge skips it. The ortho carbon <i>b</i> and the nitro oxygen <i>d</i> are the charged positions.",
+   "This stops at the ring. From the para carbon the charge continues onto the nitro oxygen <i>d</i>, through the C=N / N–O<sup>−</sup> contributor."
+  ]
+ },
+ {
+  "id": "zz2c1-16",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "In which species is the tagged central atom trigonal planar?<br>I. the nitrogen of nitromethane, CH<sub>3</sub>NO<sub>2</sub><br>II. the boron of trimethyl borate, B(OCH<sub>3</sub>)<sub>3</sub><br>III. the negatively charged carbon of the tert-butyl anion, (CH<sub>3</sub>)<sub>3</sub>C<sup>−</sup>",
+  "c": [
+   "I and II only",
+   "II only",
+   "I only",
+   "I, II, and III"
+  ],
+  "h": "Count electron domains on each central atom, including any lone pair. Three domains and no lone pair give a trigonal planar shape.",
+  "w": "I is true: the nitro nitrogen bonds to C and two O atoms (one N=O, one N–O<sup>−</sup> in each contributor) and has no lone pair, so it has three domains and is trigonal planar (sp<sup>2</sup>). II is true: boron has three B–O bonds and no lone pair (only six valence electrons), so it is trigonal planar. III is false: the carbanion carbon has three bonds and a lone pair, four domains, so it is trigonal pyramidal like an amine N. Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement I is misjudged: the nitro N has no lone pair (it carries the formal + charge), so its three bonds make it trigonal planar.",
+   "Statement II is misjudged: boron in B(OCH<sub>3</sub>)<sub>3</sub> has only six valence electrons and no lone pair, so its three B–O bonds make it trigonal planar.",
+   "Statement III is false: with four electron domains, the tert-butyl anion carbon is pyramidal, not planar."
+  ]
+ },
+ {
+  "id": "zz2c1-17",
+  "t": "structure",
+  "d": 1,
+  "k": 0,
+  "q": "What is the approximate C–O–C bond angle in dimethyl ether, CH<sub>3</sub>OCH<sub>3</sub>?",
+  "s": [
+   {
+    "smi": "COC"
+   }
+  ],
+  "c": [
+   "about 110°",
+   "about 120°",
+   "about 180°",
+   "about 90°"
+  ],
+  "h": "Count the electron domains on oxygen, including lone pairs.",
+  "w": "The ether oxygen has two bonds and two lone pairs: four electron domains, tetrahedral electron geometry, sp<sup>3</sup>. The bond angle is therefore near the tetrahedral 109.5°. (The real value is about 112°, slightly wider than in water because the two methyl groups are bulky.) Answer: <b>about 110°</b>; the shape is bent.",
+  "x": [
+   "",
+   "120° fits three electron domains, as in a carbonyl carbon. Oxygen here has four (two bonds, two lone pairs).",
+   "A 180° angle would need only two electron domains and no lone pairs on oxygen. Its two lone pairs make the molecule bent.",
+   "90° would mean bonding through pure, unhybridized p orbitals; the sp<sup>3</sup> oxygen of an ether is close to tetrahedral."
+  ]
+ },
+ {
+  "id": "zz2c1-18",
+  "t": "structure",
+  "d": 1,
+  "k": 0,
+  "q": "Dimethyl sulfoxide (DMSO) is often drawn with an S–O single bond so that sulfur keeps an octet, as shown. What are the formal charges on sulfur and oxygen in this structure?",
+  "s": [
+   {
+    "smi": "C[S+](C)[O-]",
+    "lp": true
+   }
+  ],
+  "c": [
+   "S +1, O −1",
+   "S −1, O +1",
+   "S 0, O 0",
+   "S +2, O −2"
+  ],
+  "h": "Formal charge = valence electrons − (nonbonding electrons + ½ bonding electrons). Sulfur and oxygen both have 6 valence electrons.",
+  "w": "Sulfur has three bonds (6 bonding electrons) and one lone pair: 6 − (2 + 3) = <b>+1</b>. Oxygen has one bond and three lone pairs: 6 − (6 + 1) = <b>−1</b>. The charges sum to zero, matching the neutral molecule. Answer: <b>S +1, O −1</b>. This charge separation is why the S–O bond of DMSO is so polar and why DMSO is a strong H-bond acceptor at oxygen.",
+  "x": [
+   "",
+   "These signs are reversed. Oxygen with three lone pairs and one bond owns 7 electrons, one more than its 6 valence electrons, so it is −1.",
+   "Zero charges would need an S=O double bond (sulfur with 10 electrons). In the single-bond octet structure shown, each atom carries a formal charge.",
+   "This counts each atom's full share of the shared electrons. Formal charge gives each atom only half of its bonding electrons."
+  ]
+ },
+ {
+  "id": "zz2c1-19",
+  "t": "structure",
+  "d": 3,
+  "k": 0,
+  "q": "Which statements about the allyl cation, CH<sub>2</sub>=CH–CH<sub>2</sub><sup>+</sup>, are correct?<br>I. Its two carbon–carbon bonds have the same length.<br>II. One of its resonance contributors places the positive charge on the central carbon.<br>III. Most of the positive charge is located on the central carbon.",
+  "s": [
+   {
+    "smi": "C=C[CH2+]"
+   }
+  ],
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II, and III"
+  ],
+  "h": "Draw the second contributor by moving the π bond toward the empty orbital. Which carbons carry + in the two forms?",
+  "w": "I is true: the two contributors are mirror images (C1=C2–C3<sup>+</sup> and <sup>+</sup>C1–C2=C3), so each C–C bond is an average of single and double and both are the same length. II is false: moving the π bond only shifts the + between the two end carbons; no octet-obeying contributor puts it on C2. III is false: the positive charge is shared by the terminal carbons; the central carbon carries little of it (the LUMO, ψ<sub>2</sub>, has a node there). Answer: <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false. Shifting the C=C π bond moves the + from one end carbon to the other; the central carbon is never the cationic carbon in a resonance form.",
+   "Statement III is false. Both contributors put the + on an end carbon, so the charge sits on C1 and C3, not C2.",
+   "Statements II and III are both false; only the equal bond lengths (I) follow from the two equivalent contributors."
+  ]
+ },
+ {
+  "id": "zz2c1-20",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "Which statements about the reactive intermediates derived from 2-methylpropane are correct?<br>I. In the tert-butyl cation, the central carbon and the three carbons bonded to it lie in one plane.<br>II. In the tert-butyl anion, the lone pair is in an unhybridized p orbital and the carbon is planar.<br>III. The tert-butyl radical is nearly planar, with the unpaired electron in an orbital that is mostly p in character.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I, II, and III",
+   "III only"
+  ],
+  "h": "Count domains: an empty orbital does not count, a lone pair does, and a single electron behaves between those two cases.",
+  "w": "I is true: the cation has three σ bonds and an empty p orbital, so it is sp<sup>2</sup> and planar. II is false: a carbanion's lone pair is a full electron domain, so the carbon is sp<sup>3</sup> and trigonal pyramidal (like NH<sub>3</sub>). III is true: alkyl radicals are flat or very shallow pyramids; the single electron sits in a nearly pure p orbital, which is why radical reactions at a stereocenter give racemic products. Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true: alkyl radicals such as tert-butyl are nearly planar, with the odd electron in a p-type orbital.",
+   "Statement II is false: the anion has four electron domains (three bonds and a lone pair) and is pyramidal, not planar.",
+   "Statement I is also true: the cation has three σ bonds and an empty p orbital, so it is sp<sup>2</sup> and planar."
+  ]
+ }
+]

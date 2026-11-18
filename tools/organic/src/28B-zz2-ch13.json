@@ -1,0 +1,893 @@
+[
+ {
+  "id": "z13-01",
+  "t": "carbonyl",
+  "d": 1,
+  "k": 0,
+  "q": "Pentan-3-one is treated with hydroxylamine (NH<sub>2</sub>OH) in a weakly acidic buffer (pH ≈ 4.5). What is the major organic product?",
+  "s": [
+   {
+    "smi": "CCC(=O)CC"
+   },
+   {
+    "arrow": "NH<sub>2</sub>OH",
+    "below": "pH ≈ 4.5"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(=NO)CC"
+   },
+   {
+    "smi": "CCC(O)(NO)CC"
+   },
+   {
+    "smi": "CCC(=N)CC"
+   },
+   {
+    "smi": "CC=C(CC)NO"
+   }
+  ],
+  "h": "Hydroxylamine carries an NH<sub>2</sub> group. Ask what a primary-amine-type nitrogen does with a ketone under mild acid.",
+  "w": "Hydroxylamine reacts like a primary amine. Its nitrogen adds to the carbonyl carbon, proton transfers give a carbinolamine, and acid-promoted loss of water gives C=N. Because the nitrogen started with two N–H bonds, the last step removes an N–H proton and leaves a neutral C=N–OH group: <b>the oxime of pentan-3-one, (CH<sub>3</sub>CH<sub>2</sub>)<sub>2</sub>C=N–OH</b>. The N–O bond is not broken at any stage.",
+  "x": [
+   "",
+   "This carbinolamine is the tetrahedral intermediate. At pH 4.5 it loses water to give the C=N product, which is the compound isolated.",
+   "The N–O bond is not cleaved in oxime formation. The OH stays on nitrogen, so the product is C=N–OH, not C=NH.",
+   "A C=C–N (enamine-type) product forms only when nitrogen has no second H to lose, as with a secondary amine. NH<sub>2</sub>OH has two N–H bonds, so the C=N oxime forms."
+  ]
+ },
+ {
+  "id": "z13-02",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "1-Phenylpropan-1-one is treated with propane-1,3-dithiol and BF<sub>3</sub>·OEt<sub>2</sub>, with removal of water. What is the product?",
+  "s": [
+   {
+    "smi": "CCC(=O)c1ccccc1"
+   },
+   "+",
+   {
+    "smi": "SCCCS"
+   },
+   {
+    "arrow": "BF<sub>3</sub>·OEt<sub>2</sub>",
+    "below": "− H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC1(c2ccccc2)SCCCS1"
+   },
+   {
+    "smi": "CCC(O)(SCCCS)c1ccccc1"
+   },
+   {
+    "smi": "CC=C(SCCCS)c1ccccc1"
+   },
+   {
+    "smi": "CCC1(c2ccccc2)OCCCS1"
+   }
+  ],
+  "h": "Thiols add to a C=O the way alcohols do, and a dithiol can close a ring. Which atom leaves the carbonyl carbon, and what replaces it?",
+  "w": "The Lewis acid activates the C=O, and one SH group adds to give a hemithioacetal. Loss of water gives a sulfur-stabilized cation, and the second SH of the same molecule closes a six-membered ring. The carbonyl oxygen leaves as water, and the carbon ends up bonded to two sulfurs: the cyclic thioacetal <b>2-ethyl-2-phenyl-1,3-dithiane</b>. Thioacetals are stable to aqueous acid, and Raney nickel later converts the C(SR)<sub>2</sub> group to CH<sub>2</sub>.",
+  "x": [
+   "",
+   "This hemithioacetal is the first intermediate. With a Lewis acid and water removal it loses OH and closes the ring to the dithiane.",
+   "Losing H<sup>+</sup> from the cation would give this vinyl sulfide, but the second SH group of the same molecule is right there and captures the cation to form a six-membered ring.",
+   "This ring contains an oxygen bonded to CH<sub>2</sub>, but the dithiol supplies only sulfur. The carbonyl oxygen leaves as water, so the ring must contain two sulfurs."
+  ]
+ },
+ {
+  "id": "z13-03",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "Acetophenone (shown) is heated with each reagent below and a catalytic amount of acid, with removal of water. Which reagents give an isolated product that contains a C=N double bond?<br>I. CH<sub>3</sub>NH<sub>2</sub><br>II. (CH<sub>3</sub>)<sub>2</sub>NH<br>III. H<sub>2</sub>NNHC(=O)NH<sub>2</sub> (semicarbazide)",
+  "s": [
+   {
+    "smi": "CC(=O)c1ccccc1"
+   }
+  ],
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "Sort the nitrogen reagents by how many H atoms the attacking nitrogen carries.",
+  "w": "A nitrogen with two H atoms (a primary-amine-type NH<sub>2</sub>) ends as C=N, because the last proton lost comes from nitrogen. A secondary amine has only one N–H, which is used up when the carbinolamine forms. Its iminium ion must lose an α C–H instead, giving an enamine (C=C–N). I. Methylamine is primary and gives the N-methyl imine, which has a C=N: true. II. Dimethylamine is secondary and gives an enamine, which has no C=N: false. III. The hydrazine-end NH<sub>2</sub> of semicarbazide is a primary-amine-type nitrogen and gives a C=N semicarbazone: true. Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "This misjudges III. The hydrazine-end NH<sub>2</sub> of semicarbazide has two H atoms, so it gives a C=N semicarbazone.",
+   "This misjudges I. Methylamine is a primary amine and gives the N-methyl imine, which contains C=N.",
+   "This misjudges II. Dimethylamine is secondary: its iminium ion cannot lose an N–H proton, so it loses an α C–H, and the isolated product is an enamine (C=C–N)."
+  ]
+ },
+ {
+  "id": "z13-04",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "Which sequence converts ethyl 4-oxocyclohexane-1-carboxylate into ethyl cyclohexanecarboxylate (ketone C=O → CH<sub>2</sub>) and leaves the ester intact?",
+  "s": [
+   {
+    "smi": "CCOC(=O)C1CCC(=O)CC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCOC(=O)C1CCCCC1"
+   }
+  ],
+  "c": [
+   "1. HSCH<sub>2</sub>CH<sub>2</sub>SH, BF<sub>3</sub>  2. H<sub>2</sub>, Raney Ni",
+   "H<sub>2</sub>NNH<sub>2</sub>, KOH, diethylene glycol, 200 °C",
+   "1. NaBH<sub>4</sub>, CH<sub>3</sub>OH  2. H<sub>3</sub>O<sup>+</sup>",
+   "1. LiAlH<sub>4</sub>, ether  2. H<sub>3</sub>O<sup>+</sup>"
+  ],
+  "h": "Two classic deoxygenations use hot strong base or hot strong acid. Look for a route that runs under neutral conditions.",
+  "w": "Ethane-1,2-dithiol with a Lewis acid converts the ketone into a cyclic thioacetal (a 1,3-dithiolane). Esters do not form thioacetals, so only the ketone reacts. Raney nickel (H<sub>2</sub>) then breaks both C–S bonds and replaces them with C–H bonds, turning the former carbonyl carbon into CH<sub>2</sub>. Neither step is strongly basic or acidic, so the ethyl ester survives. Answer: <b>1. HSCH<sub>2</sub>CH<sub>2</sub>SH, BF<sub>3</sub>; 2. H<sub>2</sub>, Raney Ni</b>.",
+  "x": [
+   "",
+   "The Wolff–Kishner reduction does convert the ketone to CH<sub>2</sub>, but hot KOH also saponifies the ethyl ester to a carboxylate.",
+   "NaBH<sub>4</sub> reduces the ketone only to a secondary alcohol (CH–OH), not to CH<sub>2</sub>.",
+   "LiAlH<sub>4</sub> reduces the ketone to CH–OH and the ester to CH<sub>2</sub>OH. Neither becomes CH<sub>2</sub>, and the ester is destroyed."
+  ]
+ },
+ {
+  "id": "z13-05",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Methyl benzoate is treated with excess LiAlD<sub>4</sub> in ether, and the reaction is then worked up with ordinary H<sub>2</sub>O. What is the aromatic product?",
+  "s": [
+   {
+    "smi": "COC(=O)c1ccccc1"
+   },
+   {
+    "arrow": "1. LiAlD<sub>4</sub> (excess), ether",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[2H]C([2H])(O)c1ccccc1"
+   },
+   {
+    "smi": "[2H]C(O)c1ccccc1"
+   },
+   {
+    "smi": "[2H]OC([2H])([2H])c1ccccc1"
+   },
+   {
+    "smi": "[2H]OCc1ccccc1"
+   }
+  ],
+  "h": "Count how many deuteride ions the ester carbon receives. Then ask where the O–H hydrogen comes from.",
+  "w": "An ester takes two hydride (here deuteride) ions. The first D<sup>−</sup> adds to the C=O; the tetrahedral intermediate expels CH<sub>3</sub>O<sup>−</sup> to give PhCDO. That aldehyde is more reactive than the ester and takes a second D<sup>−</sup>, giving the alkoxide PhCD<sub>2</sub>O<sup>−</sup>. Workup with H<sub>2</sub>O protonates the oxygen with ordinary H. Product: <b>PhCD<sub>2</sub>OH</b> (plus CH<sub>3</sub>OH).",
+  "x": [
+   "",
+   "One deuterium on carbon would mean the reduction stopped at the aldehyde. With excess LiAlD<sub>4</sub>, the aldehyde is reduced again, so the carbon carries two D atoms.",
+   "The O–H hydrogen comes from the workup water, not from LiAlD<sub>4</sub>. Because the workup uses H<sub>2</sub>O, the oxygen carries H, not D.",
+   "This structure has no deuterium on carbon. The deuterides are the nucleophiles that bond to the carbonyl carbon, and the workup supplies only the O–H hydrogen."
+  ]
+ },
+ {
+  "id": "z13-06",
+  "t": "carbonyl",
+  "d": 3,
+  "k": 0,
+  "q": "Which combinations, each followed by aqueous acid workup, give 2-methyl-1-phenylpropan-2-ol (shown) as the main product?<br>I. C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>MgBr + acetone<br>II. C<sub>6</sub>H<sub>5</sub>MgBr + 2,2-dimethyloxirane<br>III. C<sub>6</sub>H<sub>5</sub>MgBr + 2-methylpropanal",
+  "s": [
+   {
+    "smi": "CC(C)(O)Cc1ccccc1"
+   }
+  ],
+  "c": [
+   "I and II only",
+   "I only",
+   "II only",
+   "I, II, and III"
+  ],
+  "h": "For each pair, find which carbon of the Grignard reagent bonds to which carbon of the electrophile. For the epoxide, ask which ring carbon a strong nucleophile attacks.",
+  "w": "The target is C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>–C(OH)(CH<sub>3</sub>)<sub>2</sub>. I. The benzylic CH<sub>2</sub> of the Grignard reagent adds to acetone's carbonyl carbon, giving C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>C(CH<sub>3</sub>)<sub>2</sub>O<sup>−</sup>: true. II. Under basic conditions a Grignard reagent opens an epoxide by S<sub>N</sub>2 at the less substituted carbon. Phenyl bonds to the CH<sub>2</sub>, and the oxygen stays on the C(CH<sub>3</sub>)<sub>2</sub> carbon, which gives the same alkoxide: true. III. Phenyl adds to the aldehyde carbon, giving C<sub>6</sub>H<sub>5</sub>CH(OH)CH(CH<sub>3</sub>)<sub>2</sub>, a secondary alcohol that is an isomer of the target: false. Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "This misjudges II. The Grignard reagent attacks the less hindered CH<sub>2</sub> of the epoxide, so phenyl ends up on the CH<sub>2</sub> next to C(CH<sub>3</sub>)<sub>2</sub>O<sup>−</sup>, which is the target skeleton.",
+   "This misjudges I. Benzylmagnesium bromide adds its CH<sub>2</sub> carbon to acetone's carbonyl and builds exactly the C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>–C(OH)(CH<sub>3</sub>)<sub>2</sub> skeleton.",
+   "This misjudges III. Phenyl adds to the aldehyde carbon, giving the secondary alcohol C<sub>6</sub>H<sub>5</sub>CH(OH)CH(CH<sub>3</sub>)<sub>2</sub>, not the tertiary target."
+  ]
+ },
+ {
+  "id": "z13-07",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Benzoic acid is treated with 2 equivalents of ethyllithium in ether. Which species is present in the flask <i>before</i> aqueous workup? (Li<sup>+</sup> counterions are omitted.)",
+  "s": [
+   {
+    "smi": "OC(=O)c1ccccc1"
+   },
+   {
+    "arrow": "CH<sub>3</sub>CH<sub>2</sub>Li (2 equiv)",
+    "below": "ether"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC([O-])([O-])c1ccccc1"
+   },
+   {
+    "smi": "CCC(=O)c1ccccc1"
+   },
+   {
+    "smi": "CCC([O-])(CC)c1ccccc1"
+   },
+   {
+    "smi": "[O-]C(=O)c1ccccc1"
+   }
+  ],
+  "h": "The first equivalent of ethyllithium does an acid–base reaction. Ask what the second equivalent does to the carboxylate, and whether the product has a leaving group it can expel.",
+  "w": "The first equivalent of CH<sub>3</sub>CH<sub>2</sub>Li removes the acidic O–H and gives lithium benzoate. Organolithium reagents are reactive enough to add to a carboxylate (Grignard reagents are not), so the second equivalent adds to the carboxylate carbon. This gives <b>the dianion PhC(O<sup>−</sup>)<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></b>. The dianion cannot collapse to a ketone because O<sup>2−</sup> is not a leaving group. No ketone exists while ethyllithium is present, so no tertiary alcohol forms. Aqueous workup gives the hydrate, which loses water to give propiophenone.",
+  "x": [
+   "",
+   "The ketone forms only after workup, when the dianion is protonated to a hydrate that loses water. If the ketone formed in the flask, it would react with more ethyllithium.",
+   "A tertiary alkoxide would need the ketone to exist in the presence of ethyllithium. The dianion cannot expel O<sup>2−</sup>, so a second addition never happens.",
+   "The lithium carboxylate forms after the first equivalent. Ethyllithium, unlike a Grignard reagent, is reactive enough for the second equivalent to add to it."
+  ]
+ },
+ {
+  "id": "z13-08",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "3-Methylbutanoyl chloride is treated with lithium tri-<i>tert</i>-butoxyaluminum hydride, LiAlH(O<i>t</i>-Bu)<sub>3</sub>, at −78 °C, followed by water. What is the main product?",
+  "s": [
+   {
+    "smi": "CC(C)CC(=O)Cl"
+   },
+   {
+    "arrow": "1. LiAlH(O<i>t</i>-Bu)<sub>3</sub>, −78 °C",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)CC=O"
+   },
+   {
+    "smi": "CC(C)CCO"
+   },
+   {
+    "smi": "CC(C)CC(=O)OC(C)(C)C"
+   },
+   {
+    "smi": "CC(C)CC(=O)O"
+   }
+  ],
+  "h": "This hydride reagent is a deliberately weakened LiAlH<sub>4</sub>. Which carbonyl is reactive enough to react with it at −78 °C, and which is not?",
+  "w": "Three bulky tert-butoxy groups make LiAlH(O<i>t</i>-Bu)<sub>3</sub> a mild reagent that delivers one hydride. The acid chloride is the most reactive carbonyl compound: hydride adds, chloride is expelled, and an aldehyde forms. At −78 °C the aldehyde reacts much more slowly with this hindered reagent than the acid chloride does, so the reduction stops there. Product: <b>3-methylbutanal</b>.",
+  "x": [
+   "",
+   "Reduction all the way to the primary alcohol is what LiAlH<sub>4</sub> does. The hindered, milder LiAlH(O<i>t</i>-Bu)<sub>3</sub> at −78 °C stops at the aldehyde.",
+   "The reagent delivers hydride, not tert-butoxide. The tert-butoxy groups stay on aluminum.",
+   "Simple hydrolysis by the workup water would give the acid, but the acid chloride is reduced at −78 °C before any water is added."
+  ]
+ },
+ {
+  "id": "z13-09",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Glutaric anhydride (shown) is stirred at room temperature with 2 equivalents of benzylamine, and the mixture is then acidified with dilute HCl. What is the main organic product?",
+  "s": [
+   {
+    "smi": "O=C1CCCC(=O)O1"
+   },
+   {
+    "arrow": "1. C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>NH<sub>2</sub> (2 equiv)",
+    "below": "2. dilute HCl"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C(O)CCCC(=O)NCc1ccccc1"
+   },
+   {
+    "smi": "O=C(CCCC(=O)NCc1ccccc1)NCc1ccccc1"
+   },
+   {
+    "smi": "O=C1CCCC(=O)N1Cc1ccccc1"
+   },
+   {
+    "smi": "OCCCCC(=O)NCc1ccccc1"
+   }
+  ],
+  "h": "When a nucleophile opens a cyclic anhydride, the carboxylate leaving group stays attached to the same molecule. What job does the second equivalent of amine do?",
+  "w": "Benzylamine adds to one C=O of the anhydride. The tetrahedral intermediate expels the carboxylate, which opens the ring but stays on the chain. The second equivalent of amine acts as a base and neutralizes the new carboxylic acid as an ammonium carboxylate. A carboxylate is the least reactive acyl group and does not react with an amine at room temperature. Acidification gives <b>5-(benzylamino)-5-oxopentanoic acid, the amide–acid</b>.",
+  "x": [
+   "",
+   "A diamide would need the carboxylate to undergo a second acyl substitution. A carboxylate does not react with an amine at room temperature, and the second equivalent of amine is used up as a base.",
+   "The cyclic imide (N-benzylglutarimide) forms only on strong heating with loss of water, not under these mild conditions.",
+   "Nothing in this sequence reduces a carbonyl group. This hydroxy amide would require a hydride reagent."
+  ]
+ },
+ {
+  "id": "z13-10",
+  "t": "acidderiv",
+  "d": 1,
+  "k": 0,
+  "q": "Methyl butanoate is heated in a large excess of ethanol containing a catalytic amount of H<sub>2</sub>SO<sub>4</sub>. What are the main products?",
+  "s": [
+   {
+    "smi": "CCCC(=O)OC"
+   },
+   {
+    "arrow": "CH<sub>3</sub>CH<sub>2</sub>OH (excess)",
+    "below": "H<sub>2</sub>SO<sub>4</sub> (cat.), heat"
+   },
+   "?"
+  ],
+  "c": [
+   "Ethyl butanoate and methanol",
+   "Butanoic acid and ethyl methyl ether",
+   "Ethyl butanoate and water",
+   "1,1-Diethoxybutane and methanol"
+  ],
+  "h": "The mechanism is the same as Fischer esterification, but the nucleophile is ethanol and the starting acyl group already carries OCH<sub>3</sub>.",
+  "w": "This is acid-catalyzed transesterification. The C=O is protonated, ethanol adds to the carbonyl carbon, a proton transfer makes the OCH<sub>3</sub> group a good leaving group, and methanol leaves as the C=O re-forms. Each step is reversible; the large excess of ethanol drives the equilibrium toward the ethyl ester. Products: <b>ethyl butanoate and methanol</b>.",
+  "x": [
+   "",
+   "The bond that breaks is the acyl C–OCH<sub>3</sub> bond, not the O–CH<sub>3</sub> bond. No acid forms, because the nucleophile is ethanol, not water.",
+   "Water is the by-product when a carboxylic acid is esterified. Here the leaving group is methanol, because the acyl carbon already carries OCH<sub>3</sub>.",
+   "After ethanol adds, the tetrahedral intermediate still has a leaving group (OCH<sub>3</sub>), so it expels methanol and regains the C=O. An ester carbon does not end at an acetal oxidation state."
+  ]
+ },
+ {
+  "id": "z13-11",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "Propanal (shown) is treated with each reagent below. For which reagents can the adduct readily return to propanal, because the addition to C=O is reversible?<br>I. H<sub>2</sub>O (hydrate formation)<br>II. CH<sub>3</sub>MgBr in ether, then aqueous NH<sub>4</sub>Cl<br>III. aqueous NaHSO<sub>3</sub> (bisulfite addition)",
+  "s": [
+   {
+    "smi": "CCC=O"
+   }
+  ],
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "An adduct can fall apart only if the group that added can leave again as a fairly stable species. Compare water, a carbanion and sulfite as leaving groups.",
+  "w": "I. The hydrate (gem-diol) is in equilibrium with the aldehyde: water or hydroxide leaves easily, so hydrate formation is reversible: true. II. The Grignard reagent adds a methyl carbanion; CH<sub>3</sub><sup>−</sup> (conjugate base of CH<sub>4</sub>, pK<sub>a</sub> ≈ 50) is never expelled, so butan-2-ol forms irreversibly: false. III. The bisulfite adduct is a crystalline salt, but sulfite is a weak base and a good leaving group; adding dilute acid or base regenerates the aldehyde (a classic way to purify aldehydes): true. Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "This misjudges III. Bisulfite adducts revert to the aldehyde when treated with dilute acid or base, because sulfite is a good leaving group.",
+   "This misjudges I. Hydration of an aldehyde is a rapid equilibrium; the hydrate loses water to re-form propanal.",
+   "This misjudges II. A methyl carbanion is far too strong a base to leave, so Grignard addition is irreversible."
+  ]
+ },
+ {
+  "id": "z13-12",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "In acid-catalyzed hydrolysis of the imine formed from acetone and methylamine, water adds to the N-protonated imine (an iminium ion). Which drawing shows correct curved arrows for this addition step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH2:51].C[C:52](C)=[NH+:53]C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].C[C:52](C)=[NH+:53]C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].C[C:52](C)=[NH+:53]C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:51].C[C:52](C)=[NH+:53]C",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 51
+     }
+    ]
+   }
+  ],
+  "h": "Water is the nucleophile. Find the electrophilic atom of the iminium ion, then decide where the C=N π electrons must go so that carbon keeps four bonds.",
+  "w": "The iminium carbon is the electrophile, because the positive charge is shared with it (C=N<sup>+</sup> ↔ C<sup>+</sup>–N). A water lone pair attacks that carbon, and the C=N π electrons move onto nitrogen, which neutralizes it. The product is the O-protonated carbinolamine, which later loses methylamine to give acetone. <b>Correct drawing: water lone pair → carbon; C=N π bond → nitrogen.</b>",
+  "x": [
+   "",
+   "With only the attack arrow, carbon would form a fifth bond. The C=N π bond must shift onto nitrogen.",
+   "Nitrogen is not the electrophile. It already has four bonds and a positive charge, so water adding to it would give an impossible pentavalent nitrogen. Water adds to carbon.",
+   "This arrow runs backward: it sends the C=N π electrons to water's oxygen. Water is the nucleophile, so the electrons must flow from its oxygen lone pair to the carbon."
+  ]
+ },
+ {
+  "id": "z13-13",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "Benzaldehyde is treated with the stabilized ylide Ph<sub>3</sub>P=CHCO<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>. What is the major organic product (besides Ph<sub>3</sub>P=O)?",
+  "s": [
+   {
+    "smi": "O=Cc1ccccc1"
+   },
+   {
+    "arrow": "Ph<sub>3</sub>P=CHCO<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>, 25 °C"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCOC(=O)/C=C/c1ccccc1"
+   },
+   {
+    "smi": "CCOC(=O)/C=C\\c1ccccc1"
+   },
+   {
+    "smi": "CCOC(=O)CC(O)c1ccccc1"
+   },
+   {
+    "smi": "CCOC(=O)C1OC1c1ccccc1"
+   }
+  ],
+  "h": "A Wittig reaction puts a C=C where the C=O was. For the geometry, ask whether the ylide carbanion is stabilized by resonance with the ester.",
+  "w": "The ylide carbon bonds to the carbonyl carbon. The oxaphosphetane then collapses to the alkene and Ph<sub>3</sub>P=O. When the ylide carbanion is conjugated with an ester (a stabilized ylide), the addition is reversible and the more stable trans intermediate wins, so the (E)-alkene is the major product. Simple alkyl ylides tend to give the (Z)-alkene instead. Product: <b>ethyl (E)-3-phenylprop-2-enoate (ethyl (E)-cinnamate)</b>.",
+  "x": [
+   "",
+   "The (Z)-alkene is the usual major product of unstabilized (alkyl) ylides. An ester-stabilized ylide gives mainly the (E)-alkene.",
+   "A β-hydroxy ester is an aldol-type product. In a Wittig reaction the carbonyl oxygen ends on phosphorus as Ph<sub>3</sub>P=O, not as an OH group.",
+   "Epoxides come from sulfur ylides or the Darzens reaction. Phosphorus ylides give alkenes, because forming the strong P=O bond drives the reaction."
+  ]
+ },
+ {
+  "id": "z13-14",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "Each bromide below is to be converted into a Grignard reagent (Mg, ether) and then added to cyclohexanone. Which can be used directly, without first protecting or changing another functional group?",
+  "s": [
+   {
+    "smi": "BrCCCC1OCCO1",
+    "cap": "I"
+   },
+   {
+    "smi": "OCCCBr",
+    "cap": "II"
+   },
+   {
+    "smi": "N#Cc1ccc(Br)cc1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II, and III"
+  ],
+  "h": "A Grignard reagent is a strong base and a strong nucleophile. Check each molecule for an acidic hydrogen or an electrophilic group.",
+  "w": "I. The cyclic acetal is an ether-type group with no acidic H and no electrophilic carbon, so it is inert to Grignard reagents (that is why acetals are used to protect aldehydes): usable. II. The O–H (pK<sub>a</sub> ≈ 16) is vastly more acidic than the C–H of an alkane (pK<sub>a</sub> ≈ 50), so the Grignard reagent is protonated as soon as it forms: not usable without protection. III. The C≡N group is an electrophile that Grignard reagents attack, so the aryl Grignard would react with the nitrile of other molecules: not usable. Answer: <b>I only</b>.",
+  "x": [
+   "",
+   "This misjudges II. The alcohol O–H protonates the Grignard reagent and destroys it, so the OH must first be protected, for example as a silyl ether.",
+   "This misjudges III. Grignard reagents add to nitriles (that is how nitriles are turned into ketones), so this reagent would attack the C≡N of neighboring molecules.",
+   "This misjudges both II and III. Only the acetal is inert to a strongly basic, nucleophilic Grignard reagent."
+  ]
+ },
+ {
+  "id": "z13-15",
+  "t": "carbonyl",
+  "d": 3,
+  "k": 0,
+  "q": "A compound C<sub>5</sub>H<sub>10</sub>O shows a strong IR band at 1728 cm<sup>−1</sup> and two weaker bands at 2820 and 2720 cm<sup>−1</sup>. Its <sup>1</sup>H NMR spectrum is shown. What is the compound?",
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2960,
+      "str": "s"
+     },
+     {
+      "cm": 2820,
+      "str": "w"
+     },
+     {
+      "cm": 2720,
+      "str": "w"
+     },
+     {
+      "cm": 1728,
+      "str": "s"
+     },
+     {
+      "cm": 1465,
+      "str": "m"
+     }
+    ]
+   },
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 9.76,
+      "mult": "t",
+      "int": 1
+     },
+     {
+      "ppm": 2.31,
+      "mult": "dd",
+      "int": 2
+     },
+     {
+      "ppm": 2.21,
+      "mult": "m",
+      "int": 1
+     },
+     {
+      "ppm": 0.98,
+      "mult": "d",
+      "int": 6
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)CC=O"
+   },
+   {
+    "smi": "CCCCC=O"
+   },
+   {
+    "smi": "CCC(C)C=O"
+   },
+   {
+    "smi": "CC(C)C(C)=O"
+   }
+  ],
+  "h": "The IR bands identify the functional group. Then use the splitting of the δ 9.76 signal and the 6H signal to place the neighbors.",
+  "w": "A C=O stretch near 1730 cm<sup>−1</sup> together with the two aldehyde C–H bands at 2820 and 2720 cm<sup>−1</sup> means an aldehyde, and the 1H signal at δ 9.76 is the CHO proton. That signal is a triplet, so the CHO is attached to a CH<sub>2</sub> (δ 2.31, 2H). The 6H doublet at δ 0.98 is two equivalent CH<sub>3</sub> groups on one CH (δ 2.21, 1H): an isopropyl group. Joining the pieces gives (CH<sub>3</sub>)<sub>2</sub>CH–CH<sub>2</sub>–CHO, <b>3-methylbutanal</b>.",
+  "x": [
+   "",
+   "Pentanal would show a 3H triplet near δ 0.9 for its single CH<sub>3</sub>, not a 6H doublet, and it has no 1H methine signal.",
+   "In 2-methylbutanal the CHO is attached to a CH, so its signal would be a doublet. The spectrum would also show a 3H doublet and a 3H triplet rather than one 6H doublet.",
+   "A ketone has no CHO signal near δ 9.8 and no C–H bands at 2820/2720 cm<sup>−1</sup>. Its CH<sub>3</sub>C=O would appear as a 3H singlet near δ 2.1."
+  ]
+ },
+ {
+  "id": "z13-16",
+  "t": "acidderiv",
+  "d": 2,
+  "k": 0,
+  "q": "Methyl 4-(chlorocarbonyl)benzoate (shown) is treated with 2 equivalents of diethylamine in CH<sub>2</sub>Cl<sub>2</sub> at 0 °C. What is the main organic product?",
+  "s": [
+   {
+    "smi": "COC(=O)c1ccc(C(=O)Cl)cc1"
+   },
+   {
+    "arrow": "(CH<sub>3</sub>CH<sub>2</sub>)<sub>2</sub>NH (2 equiv)",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>, 0 °C"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCN(CC)C(=O)c1ccc(C(=O)OC)cc1"
+   },
+   {
+    "smi": "CCN(CC)C(=O)c1ccc(C(=O)N(CC)CC)cc1"
+   },
+   {
+    "smi": "CCN(CC)C(=O)c1ccc(C(=O)Cl)cc1"
+   },
+   {
+    "smi": "COC(=O)c1ccc(C(=O)O)cc1"
+   }
+  ],
+  "h": "Two acyl groups compete for the amine. Recall the reactivity order of carboxylic acid derivatives, and what the second equivalent of amine is for.",
+  "w": "Acid chlorides are far more reactive toward nucleophilic acyl substitution than esters, because chloride is a much better leaving group than methoxide and Cl donates little electron density to the C=O by resonance. At 0 °C diethylamine reacts only at the COCl group. The second equivalent of amine traps the HCl as (CH<sub>3</sub>CH<sub>2</sub>)<sub>2</sub>NH<sub>2</sub><sup>+</sup> Cl<sup>−</sup>. The methyl ester is untouched. Product: <b>methyl 4-(diethylcarbamoyl)benzoate</b>.",
+  "x": [
+   "",
+   "A diamide is not formed. One equivalent of amine is used up neutralizing HCl, and an ester reacts with an amine far too slowly at 0 °C.",
+   "This product would need the ester to react while the acid chloride survives, which is the reverse of the reactivity order (acid chloride ≫ ester).",
+   "No water is present to hydrolyze the acid chloride. The amine is the nucleophile, so an amide forms."
+  ]
+ },
+ {
+  "id": "z13-17",
+  "t": "acidderiv",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence converts cyclohexanecarboxylic acid into 2-cyclohexylbutan-2-ol (shown)?",
+  "s": [
+   {
+    "smi": "OC(=O)C1CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "CCC(C)(O)C1CCCCC1"
+   }
+  ],
+  "c": [
+   "1. SOCl<sub>2</sub>  2. (CH<sub>3</sub>)<sub>2</sub>CuLi  3. CH<sub>3</sub>CH<sub>2</sub>MgBr  4. H<sub>3</sub>O<sup>+</sup>",
+   "1. SOCl<sub>2</sub>  2. CH<sub>3</sub>MgBr (excess)  3. H<sub>3</sub>O<sup>+</sup>",
+   "1. CH<sub>3</sub>CH<sub>2</sub>MgBr  2. CH<sub>3</sub>MgBr  3. H<sub>3</sub>O<sup>+</sup>",
+   "1. SOCl<sub>2</sub>  2. CH<sub>3</sub>CH<sub>2</sub>OH, pyridine  3. CH<sub>3</sub>CH<sub>2</sub>MgBr (excess)  4. H<sub>3</sub>O<sup>+</sup>"
+  ],
+  "h": "The carbinol carbon of the target carries two different new groups (CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub>). That means the route must stop at a ketone before the second group is added.",
+  "w": "The target is a tertiary alcohol whose carbinol carbon holds the cyclohexyl group, a CH<sub>3</sub>, and a CH<sub>2</sub>CH<sub>3</sub>. The two different groups must be added one at a time, through a ketone. SOCl<sub>2</sub> makes the acid chloride. The Gilman reagent (CH<sub>3</sub>)<sub>2</sub>CuLi adds one methyl and stops at cyclohexyl methyl ketone, because cuprates react with acid chlorides but not with ketones. Ethylmagnesium bromide then adds to the ketone, and workup gives the alcohol. Answer: <b>1. SOCl<sub>2</sub> 2. (CH<sub>3</sub>)<sub>2</sub>CuLi 3. CH<sub>3</sub>CH<sub>2</sub>MgBr 4. H<sub>3</sub>O<sup>+</sup></b>.",
+  "x": [
+   "",
+   "Excess Grignard reagent adds twice to an acid chloride, so both new groups are methyl. The product is 2-cyclohexylpropan-2-ol.",
+   "A Grignard reagent only deprotonates a carboxylic acid. The magnesium carboxylate does not react further, so the acid is recovered after workup.",
+   "Excess ethylmagnesium bromide adds twice to the ethyl ester, giving two ethyl groups (3-cyclohexylpentan-3-ol). This route never adds a methyl group."
+  ]
+ },
+ {
+  "id": "z13-18",
+  "t": "carbonyl",
+  "d": 1,
+  "k": 0,
+  "q": "Cyclopentylmagnesium bromide is added to formaldehyde (H<sub>2</sub>C=O), and the mixture is worked up with aqueous acid. What is the product?",
+  "s": [
+   {
+    "smi": "Br[Mg]C1CCCC1"
+   },
+   "+",
+   {
+    "smi": "C=O"
+   },
+   {
+    "arrow": "1. ether",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OCC1CCCC1"
+   },
+   {
+    "smi": "OC1CCCC1"
+   },
+   {
+    "smi": "CC1(O)CCCC1"
+   },
+   {
+    "smi": "O=CC1CCCC1"
+   }
+  ],
+  "h": "The Grignard carbon bonds to the carbonyl carbon. How many carbons does formaldehyde bring, and how many R groups end up on the carbinol carbon?",
+  "w": "The nucleophilic carbon of the Grignard reagent adds to the carbonyl carbon of formaldehyde, forming a new C–C bond. The alkoxide C<sub>5</sub>H<sub>9</sub>CH<sub>2</sub>O<sup>−</sup> is protonated on workup. Formaldehyde has no R groups, so the product is a primary alcohol with one more carbon: <b>cyclopentylmethanol</b>.",
+  "x": [
+   "",
+   "Cyclopentanol has no new carbon. Grignard addition always forms a new C–C bond, so the product gains the CH<sub>2</sub> from formaldehyde.",
+   "1-Methylcyclopentanol is the product of CH<sub>3</sub>MgBr with cyclopentanone. Formaldehyde with a Grignard reagent gives a primary alcohol.",
+   "Grignard addition gives an alcohol after workup, not an aldehyde. No oxidizing agent is present."
+  ]
+ },
+ {
+  "id": "z13-19",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "Phenylacetaldehyde is heated with morpholine (a secondary amine) and a catalytic amount of TsOH, with removal of water. What is the major product?",
+  "s": [
+   {
+    "smi": "O=CCc1ccccc1"
+   },
+   "+",
+   {
+    "smi": "C1COCCN1"
+   },
+   {
+    "arrow": "TsOH (cat.)",
+    "below": "− H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C(=CN1CCOCC1)c1ccccc1"
+   },
+   {
+    "smi": "OC(Cc1ccccc1)N1CCOCC1"
+   },
+   {
+    "smi": "O=C(Cc1ccccc1)N1CCOCC1"
+   },
+   {
+    "smi": "C(CN1CCOCC1)c1ccccc1"
+   }
+  ],
+  "h": "Morpholine's nitrogen has only one H. After the iminium ion forms, which proton can be lost to give a neutral product?",
+  "w": "The secondary amine adds to the aldehyde, and the carbinolamine loses water to give an iminium ion. Nitrogen has no H left to lose, so a proton is removed from the α-carbon (the benzylic CH<sub>2</sub>) instead. This gives an enamine whose C=C is conjugated with the benzene ring: <b>4-(2-phenylethenyl)morpholine</b>.",
+  "x": [
+   "",
+   "This carbinolamine is an intermediate. With acid catalysis and removal of water, it dehydrates.",
+   "An amide would require oxidation of the aldehyde carbon, and no oxidant is present.",
+   "The saturated tertiary amine forms only if a reducing agent (such as NaBH<sub>3</sub>CN) is present to reduce the iminium ion, as in reductive amination."
+  ]
+ },
+ {
+  "id": "z13-20",
+  "t": "carbonyl",
+  "d": 2,
+  "k": 0,
+  "q": "Butanal is converted to its cyanohydrin with NaCN and HCl, and the cyanohydrin is then heated in aqueous H<sub>2</sub>SO<sub>4</sub>. What is the final organic product?",
+  "s": [
+   {
+    "smi": "CCCC=O"
+   },
+   {
+    "arrow": "1. NaCN, HCl",
+    "below": "2. H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCC(O)C(=O)O"
+   },
+   {
+    "smi": "CCCC(O)CN"
+   },
+   {
+    "smi": "CCCCC(=O)O"
+   },
+   {
+    "smi": "CCCC(O)C(N)=O"
+   }
+  ],
+  "h": "Step 1 adds a carbon. Step 2 is the usual fate of a nitrile in hot aqueous acid. Does anything remove the OH?",
+  "w": "Cyanide adds to the aldehyde, and protonation gives the cyanohydrin CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH(OH)C≡N. Hot aqueous acid hydrolyzes the nitrile, first to the amide and then to the carboxylic acid (with NH<sub>4</sub><sup>+</sup>). The OH on the neighboring carbon is not affected. Product: <b>2-hydroxypentanoic acid</b> (racemic), an α-hydroxy acid.",
+  "x": [
+   "",
+   "The amino alcohol (C–CH<sub>2</sub>NH<sub>2</sub>) is what LiAlH<sub>4</sub> gives from a cyanohydrin. Hot aqueous acid hydrolyzes the nitrile instead of reducing it.",
+   "Hydrolysis of the nitrile does not remove the OH. The hydroxyl from cyanohydrin formation stays on the same carbon.",
+   "The amide is an intermediate of nitrile hydrolysis. Prolonged heating in aqueous acid converts it to the carboxylic acid."
+  ]
+ }
+]

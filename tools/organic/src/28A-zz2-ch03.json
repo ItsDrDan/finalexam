@@ -1,0 +1,698 @@
+[
+ {
+  "id": "z2c3-01",
+  "t": "nomenclature",
+  "d": 1,
+  "k": 0,
+  "q": "What is the IUPAC name of this alkene?",
+  "s": [
+   {
+    "smi": "Cl/C=C(\\CC)C"
+   }
+  ],
+  "c": [
+   "(<i>Z</i>)-1-chloro-2-methylbut-1-ene",
+   "(<i>E</i>)-1-chloro-2-methylbut-1-ene",
+   "(<i>Z</i>)-1-chloro-2-ethylprop-1-ene",
+   "(<i>Z</i>)-4-chloro-3-methylbut-3-ene"
+  ],
+  "h": "Find the longest chain that contains both alkene carbons, number from the end nearer the C=C, then compare the higher-priority group on each alkene carbon.",
+  "w": "The longest chain through the C=C has four carbons, numbered from the Cl end so the alkene starts at C1: 1-chloro-2-methylbut-1-ene. On C1, Cl outranks H. On C2, the ethyl group (C,H,H) outranks the methyl group (H,H,H) at the first point of difference. Cl and the ethyl group are on the same side, so the name is <b>(<i>Z</i>)-1-chloro-2-methylbut-1-ene</b>.",
+  "x": [
+   "",
+   "Cl and the methyl group are on opposite sides, but the methyl is the lower-priority group on C2; E/Z compares Cl with the ethyl group, which is on the same side as Cl.",
+   "The parent chain must be the longest chain containing the C=C; a four-carbon chain (butene) is available, so \"2-ethylprop-1-ene\" is not allowed.",
+   "Numbering must give the C=C the lowest locant; numbering from the Cl end puts it at C1, not C3."
+  ]
+ },
+ {
+  "id": "z2c3-02",
+  "t": "nomenclature",
+  "d": 2,
+  "k": 0,
+  "q": "Which structure is (2<i>E</i>,4<i>Z</i>)-hexa-2,4-dien-1-ol?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC/C=C/C=C\\C"
+   },
+   {
+    "smi": "OC/C=C\\C=C\\C"
+   },
+   {
+    "smi": "OC/C=C/C=C/C"
+   },
+   {
+    "smi": "OC/C=C\\C=C/C"
+   }
+  ],
+  "h": "Number from the CH<sub>2</sub>OH carbon (C1). For each C=C, ask whether the two chain carbons attached to it are on the same side (Z) or opposite sides (E).",
+  "w": "C1 is the CH<sub>2</sub>OH carbon, so the double bonds are C2=C3 and C4=C5. In each C=C here the higher-priority group on each carbon is the chain carbon (the other group is H). The required compound has the chain trans across C2=C3 (E) and cis across C4=C5 (Z): <b>HOCH<sub>2</sub>–CH=CH–CH=CH–CH<sub>3</sub> drawn trans at C2=C3 and cis at C4=C5</b>.",
+  "x": [
+   "",
+   "This is the (2<i>Z</i>,4<i>E</i>) isomer: the geometries are swapped, cis at C2=C3 and trans at C4=C5.",
+   "This is the (2<i>E</i>,4<i>E</i>) isomer: the chain is trans across both double bonds.",
+   "This is the (2<i>Z</i>,4<i>Z</i>) isomer: the chain is cis across both double bonds."
+  ]
+ },
+ {
+  "id": "z2c3-03",
+  "t": "nomenclature",
+  "d": 2,
+  "k": 0,
+  "q": "What is the configuration of the C=C bond in this alkene, and which comparison decides it?",
+  "s": [
+   {
+    "smi": "C/C=C(/CO)C(C)C"
+   }
+  ],
+  "c": [
+   "<i>E</i>; on the substituted carbon, –CH<sub>2</sub>OH outranks –CH(CH<sub>3</sub>)<sub>2</sub>",
+   "<i>Z</i>; on the substituted carbon, –CH(CH<sub>3</sub>)<sub>2</sub> outranks –CH<sub>2</sub>OH",
+   "<i>Z</i>; on the substituted carbon, –CH<sub>2</sub>OH outranks –CH(CH<sub>3</sub>)<sub>2</sub>",
+   "<i>E</i>; on the substituted carbon, –CH(CH<sub>3</sub>)<sub>2</sub> outranks –CH<sub>2</sub>OH"
+  ],
+  "h": "Compare the two groups on the fully substituted alkene carbon atom by atom: list the three atoms attached to each first carbon and compare the highest atom first.",
+  "w": "On the CH end, CH<sub>3</sub> outranks H. On the other alkene carbon, both groups are attached through carbon, so look at the next atoms: –CH<sub>2</sub>OH has (O,H,H) and –CH(CH<sub>3</sub>)<sub>2</sub> has (C,C,H). The first point of difference is O versus C, so <b>–CH<sub>2</sub>OH wins even though the isopropyl group is larger</b>. In the drawing the CH<sub>3</sub> and the CH<sub>2</sub>OH are on opposite sides, so the alkene is <b><i>E</i></b>.",
+  "x": [
+   "",
+   "CIP rules compare the highest atom first, not the number of carbons: O in (O,H,H) beats C in (C,C,H), so the isopropyl group is the lower-priority group.",
+   "The priority is right, but CH<sub>3</sub> and CH<sub>2</sub>OH are drawn on opposite sides of the C=C, which is E.",
+   "Size does not set priority; with isopropyl wrongly ranked first, the CH<sub>3</sub>/isopropyl pair would be cis and give Z, so this choice is inconsistent as well as wrong."
+  ]
+ },
+ {
+  "id": "z2c3-04",
+  "t": "nomenclature",
+  "d": 1,
+  "k": 0,
+  "q": "Which alkene can exist as a pair of <i>E</i>/<i>Z</i> isomers?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC=C(C)CC"
+   },
+   {
+    "smi": "CC=C(C)C"
+   },
+   {
+    "smi": "C=CCC"
+   },
+   {
+    "smi": "CCC(C)=C(C)C"
+   }
+  ],
+  "h": "E/Z isomers need two different groups on each alkene carbon.",
+  "w": "3-Methylpent-2-ene has H and CH<sub>3</sub> on C2, and CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub> on C3. Both alkene carbons carry two different groups, so <b>3-methylpent-2-ene</b> exists as E and Z isomers.",
+  "x": [
+   "",
+   "In 2-methylbut-2-ene one alkene carbon carries two CH<sub>3</sub> groups, so swapping them gives the same molecule.",
+   "In but-1-ene C1 carries two H atoms, so there is no E/Z isomerism.",
+   "In 2,3-dimethylpent-2-ene, C2 carries two CH<sub>3</sub> groups, so there is no E/Z isomerism."
+  ]
+ },
+ {
+  "id": "z2c3-05",
+  "t": "stereo",
+  "d": 3,
+  "k": 0,
+  "q": "The Newman projection shows a stereoisomer of 3-aminobutan-2-ol viewed along the C2–C3 bond, with C2 (the carbon bearing OH) in front. What are the configurations of C2 and C3?",
+  "f": [
+   {
+    "type": "newman",
+    "front": [
+     "OH",
+     "CH<sub>3</sub>",
+     "H"
+    ],
+    "back": [
+     "NH<sub>2</sub>",
+     "H",
+     "CH<sub>3</sub>"
+    ],
+    "rot": 60
+   }
+  ],
+  "c": [
+   "(2<i>S</i>,3<i>S</i>)",
+   "(2<i>R</i>,3<i>R</i>)",
+   "(2<i>R</i>,3<i>S</i>)",
+   "(2<i>S</i>,3<i>R</i>)"
+  ],
+  "h": "Treat each carbon separately. The C2–C3 bond is one of its four groups: it points straight back for the front carbon and toward you for the back carbon.",
+  "w": "A reliable method for a Newman projection: on each carbon, the bond to the other carbon lies along the viewing axis, so mentally swap it with the H, read the sense of priorities 1 → 2 → 3, then reverse once for the swap. C2 (front; OH &gt; C3 &gt; CH<sub>3</sub> &gt; H): after the swap H points straight back, and OH → C3 (now lower right) → CH<sub>3</sub> runs clockwise, <i>R</i>; undoing the swap gives <i>S</i>. C3 (back; NH<sub>2</sub> &gt; C2 &gt; CH<sub>3</sub> &gt; H): after the swap H points straight at you, and NH<sub>2</sub> → C2 (now upper left) → CH<sub>3</sub> runs counterclockwise, which with H toward you means <i>R</i>; undoing the swap gives <i>S</i>. The drawing is <b>(2<i>S</i>,3<i>S</i>)-3-aminobutan-2-ol</b>.",
+  "x": [
+   "",
+   "This is the enantiomer; it comes from reading each center as drawn without accounting for the group that lies along the viewing axis.",
+   "C2 is S, not R: with OH &gt; C3 &gt; CH<sub>3</sub> &gt; H, the C3 bond (priority 2) points straight back, so the drawn sense cannot be read directly.",
+   "C3 is S: on the back carbon the C3–C2 bond (priority 2) points at the viewer, so the drawn NH<sub>2</sub> → CH<sub>3</sub> sense cannot be read directly."
+  ]
+ },
+ {
+  "id": "z2c3-06",
+  "t": "stereo",
+  "d": 3,
+  "k": 0,
+  "q": "How are the compound in the Newman projection (viewed along C2–C3, C2 in front) and compound II related?",
+  "f": [
+   {
+    "type": "newman",
+    "front": [
+     "Br",
+     "CH<sub>3</sub>",
+     "H"
+    ],
+    "back": [
+     "CH<sub>3</sub>",
+     "CH<sub>2</sub>CH<sub>3</sub>",
+     "H"
+    ],
+    "rot": 60,
+    "cap": "I"
+   }
+  ],
+  "s": [
+   {
+    "smi": "CC[C@H](C)[C@H](C)Br",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "diastereomers",
+   "enantiomers",
+   "identical",
+   "constitutional isomers"
+  ],
+  "h": "Both are 2-bromo-3-methylpentane. Assign R/S at C2 and C3 in each drawing and compare.",
+  "w": "Both drawings have the same connectivity (2-bromo-3-methylpentane), so they are stereoisomers or identical. In the Newman projection, C2 (Br &gt; C3 &gt; CH<sub>3</sub> &gt; H) is <i>S</i> and C3 (C2 &gt; CH<sub>2</sub>CH<sub>3</sub> &gt; CH<sub>3</sub> &gt; H) is <i>R</i>: (2<i>S</i>,3<i>R</i>). Structure II is (2<i>S</i>,3<i>S</i>). One center matches and one differs, so they are <b>diastereomers</b>.",
+  "x": [
+   "",
+   "Enantiomers differ at every stereocenter; here C2 is S in both.",
+   "Identical compounds have the same configuration at every center; C3 is R in the Newman projection but S in II.",
+   "Constitutional isomers differ in connectivity; both are 2-bromo-3-methylpentane."
+  ]
+ },
+ {
+  "id": "z2c3-07",
+  "t": "stereo",
+  "d": 2,
+  "k": 0,
+  "q": "What is the IUPAC name of the compound in this Fischer projection?",
+  "f": [
+   {
+    "type": "fischer",
+    "top": "CH<sub>2</sub>CH<sub>3</sub>",
+    "rows": [
+     [
+      "H",
+      "Cl"
+     ]
+    ],
+    "bottom": "CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>"
+   }
+  ],
+  "c": [
+   "(<i>S</i>)-3-chlorohexane",
+   "(<i>R</i>)-3-chlorohexane",
+   "(<i>S</i>)-4-chlorohexane",
+   "(<i>R</i>)-4-chlorohexane"
+  ],
+  "h": "Horizontal bonds in a Fischer projection point toward you. If the lowest-priority group is horizontal, reverse the direction you read.",
+  "w": "The chain has six carbons, numbered from the ethyl end so Cl gets locant 3. Priorities: Cl &gt; CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> &gt; CH<sub>2</sub>CH<sub>3</sub> &gt; H (propyl beats ethyl at the second carbon). Cl (right) → propyl (bottom) → ethyl (top) runs clockwise, but H is on a horizontal bond pointing toward the viewer, so reverse it: <b>(<i>S</i>)-3-chlorohexane</b>.",
+  "x": [
+   "",
+   "The clockwise reading must be reversed because the lowest-priority H is on a horizontal bond, toward the viewer.",
+   "Numbering must give Cl the lowest locant; from the ethyl end it is C3, not C4.",
+   "Both the locant (should be 3) and the configuration (should be S) are wrong."
+  ]
+ },
+ {
+  "id": "z2c3-08",
+  "t": "stereo",
+  "d": 2,
+  "k": 0,
+  "q": "How many chirality centers does this terpene alcohol have?",
+  "s": [
+   {
+    "smi": "C[C@@H]1CC[C@@H](C[C@H]1O)C(C)=C"
+   }
+  ],
+  "c": [
+   "3",
+   "2",
+   "4",
+   "1"
+  ],
+  "h": "Check each sp<sup>3</sup> carbon for four different groups. For ring carbons, compare the two ring paths away from the carbon.",
+  "w": "The carbon bearing OH (H, OH, two different ring paths), the carbon bearing CH<sub>3</sub> (one path reaches the CHOH next door, the other a CH<sub>2</sub>), and the carbon bearing the isopropenyl group (one path reaches CHOH in two bonds, the other only CH<sub>2</sub> groups) each have four different groups. The ring CH<sub>2</sub> carbons, the CH<sub>3</sub> carbons and the sp<sup>2</sup> carbons do not qualify. There are <b>3</b> chirality centers.",
+  "x": [
+   "",
+   "The ring carbon bearing the isopropenyl group is easy to miss: its two ring paths differ (one meets the CHOH carbon after two bonds), so it is a chirality center too.",
+   "Only three carbons qualify; the sp<sup>2</sup> carbon of the isopropenyl group has only three groups and cannot be a chirality center.",
+   "The CHOH carbon is not the only one; the ring carbons bearing CH<sub>3</sub> and the isopropenyl group also have four different groups."
+  ]
+ },
+ {
+  "id": "z2c3-09",
+  "t": "stereo",
+  "d": 2,
+  "k": 0,
+  "q": "Which tagged carbon(s) in this compound (terpinen-4-ol) is/are a chirality center?",
+  "s": [
+   {
+    "smi": "CC1=CC[C:1](O)(CC1)[CH:2](C)C"
+   }
+  ],
+  "c": [
+   "<i>a</i> only",
+   "<i>a</i> and <i>b</i>",
+   "<i>b</i> only",
+   "neither <i>a</i> nor <i>b</i>"
+  ],
+  "h": "For a ring carbon, walk both ways around the ring and see whether the two paths ever differ.",
+  "w": "Carbon <i>a</i> carries OH, an isopropyl group and two ring paths. One path reaches the C=C after one CH<sub>2</sub>; the other passes two CH<sub>2</sub> groups before reaching the methyl-bearing alkene carbon. The paths differ, so <i>a</i> has four different groups. Carbon <i>b</i> carries two identical CH<sub>3</sub> groups. The answer is <b><i>a</i> only</b>.",
+  "x": [
+   "",
+   "Carbon <i>b</i> is the isopropyl CH, which has two identical CH<sub>3</sub> groups, so it cannot be a chirality center.",
+   "Carbon <i>b</i> has two identical CH<sub>3</sub> groups; the chirality center is <i>a</i>.",
+   "The ring paths from <i>a</i> are not equivalent, because the C=C is not placed symmetrically, so <i>a</i> is a chirality center."
+  ]
+ },
+ {
+  "id": "z2c3-10",
+  "t": "stereo",
+  "d": 2,
+  "k": 0,
+  "q": "Which of compounds I–III would be optically active as pure samples?",
+  "s": [
+   {
+    "smi": "C[C@H]1CCC=CC1",
+    "cap": "I"
+   },
+   {
+    "smi": "O[C@H]1CCC[C@H]1O",
+    "cap": "II"
+   },
+   {
+    "smi": "CCC(C)CC",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I only",
+   "I and II only",
+   "II only",
+   "I and III only"
+  ],
+  "h": "Look for a chirality center first, then ask whether the molecule has an internal mirror plane.",
+  "w": "I (4-methylcyclohexene): C4 carries H, CH<sub>3</sub> and two different ring paths (one reaches the C=C after one CH<sub>2</sub>, the other after two), so it is chiral and optically active. II (cis-cyclopentane-1,2-diol): two chirality centers but a mirror plane between them, so it is meso and inactive. III (3-methylpentane): C3 carries two identical ethyl groups, so it is achiral. <b>I only</b>.",
+  "x": [
+   "",
+   "II is meso: the cis diol has a mirror plane through C4 and the midpoint of the C1–C2 bond, so its rotations cancel within each molecule.",
+   "II is the meso cis diol and is optically inactive, while I is chiral.",
+   "III has no chirality center; C3 carries two identical ethyl groups."
+  ]
+ },
+ {
+  "id": "z2c3-11",
+  "t": "stereo",
+  "d": 3,
+  "k": 0,
+  "q": "Which C<sub>3</sub>H<sub>2</sub>Cl<sub>2</sub> isomer is chiral?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "ClC=C=CCl"
+   },
+   {
+    "smi": "C=C=C(Cl)Cl"
+   },
+   {
+    "smi": "ClC#CCCl"
+   },
+   {
+    "smi": "C#CC(Cl)Cl"
+   }
+  ],
+  "h": "None of these has an sp<sup>3</sup> carbon with four different groups. Think about the geometry of an allene: the two CH= ends lie in perpendicular planes.",
+  "w": "In an allene (C=C=C), the groups on one end lie in a plane perpendicular to the groups on the other end. 1,3-Dichloropropadiene has two different groups (H, Cl) on <i>each</i> end, so the molecule has no mirror plane and is <b>chiral (axial chirality), with no chirality center</b>. It exists as a pair of enantiomers.",
+  "x": [
+   "",
+   "1,1-Dichloropropadiene has two identical H atoms on one end, so the plane containing the C=C=C axis and both Cl atoms is a mirror plane: achiral.",
+   "In 1,3-dichloropropyne the CH<sub>2</sub>Cl carbon has two identical H atoms and the alkyne is linear, so the molecule has a mirror plane and no chirality center.",
+   "3,3-Dichloropropyne has two Cl atoms on the same carbon, so it has a mirror plane and no chirality center."
+  ]
+ },
+ {
+  "id": "z2c3-12",
+  "t": "stereo",
+  "d": 2,
+  "k": 0,
+  "q": "Which description fits (1<i>R</i>,2<i>S</i>)-2-methylcyclohexan-1-ol?",
+  "s": [
+   {
+    "smi": "O[C@@H]1CCCC[C@@H]1C"
+   }
+  ],
+  "c": [
+   "cis isomer; its enantiomer is (1<i>S</i>,2<i>R</i>)",
+   "trans isomer; its enantiomer is (1<i>S</i>,2<i>R</i>)",
+   "cis isomer; its enantiomer is (1<i>S</i>,2<i>S</i>)",
+   "trans isomer; its enantiomer is (1<i>R</i>,2<i>R</i>)"
+  ],
+  "h": "Read cis/trans from the drawing (same face or opposite faces). The enantiomer inverts every chirality center.",
+  "w": "In the drawing the OH and the CH<sub>3</sub> are on the same face of the ring, so the compound is the <b>cis</b> isomer. Its mirror image inverts both centers: <b>(1<i>S</i>,2<i>R</i>)</b>. (1<i>S</i>,2<i>S</i>) and (1<i>R</i>,2<i>R</i>) are the trans pair, diastereomers of this compound.",
+  "x": [
+   "",
+   "The OH and CH<sub>3</sub> are drawn on the same face of the ring, so this is cis; the enantiomer part is right.",
+   "Inverting only one center gives a diastereomer, not the enantiomer; the enantiomer of (1R,2S) is (1S,2R).",
+   "(1R,2R) differs at only one center, so it is a diastereomer (the trans compound), and the drawn compound is cis."
+  ]
+ },
+ {
+  "id": "z2c3-13",
+  "t": "conform",
+  "d": 3,
+  "k": 0,
+  "q": "Which chair is the most stable conformation of <i>trans</i>-1-isopropyl-2-methylcyclohexane?",
+  "f": [
+   {
+    "type": "chair",
+    "items": [
+     {
+      "subs": [
+       [
+        1,
+        "up",
+        "CH(CH<sub>3</sub>)<sub>2</sub>"
+       ],
+       [
+        2,
+        "down",
+        "CH<sub>3</sub>"
+       ]
+      ],
+      "flip": false,
+      "nums": true,
+      "cap": "I"
+     },
+     {
+      "subs": [
+       [
+        1,
+        "up",
+        "CH(CH<sub>3</sub>)<sub>2</sub>"
+       ],
+       [
+        2,
+        "down",
+        "CH<sub>3</sub>"
+       ]
+      ],
+      "flip": true,
+      "nums": true,
+      "cap": "II"
+     },
+     {
+      "subs": [
+       [
+        1,
+        "up",
+        "CH(CH<sub>3</sub>)<sub>2</sub>"
+       ],
+       [
+        2,
+        "up",
+        "CH<sub>3</sub>"
+       ]
+      ],
+      "flip": false,
+      "nums": true,
+      "cap": "III"
+     },
+     {
+      "subs": [
+       [
+        1,
+        "up",
+        "CH(CH<sub>3</sub>)<sub>2</sub>"
+       ],
+       [
+        2,
+        "up",
+        "CH<sub>3</sub>"
+       ]
+      ],
+      "flip": true,
+      "nums": true,
+      "cap": "IV"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "II",
+   "I",
+   "III",
+   "IV"
+  ],
+  "h": "First keep only the chairs that are trans (one group up, one down). Then pick the one with no large axial group.",
+  "w": "Chairs III and IV have both groups up, so they are the cis isomer and are ruled out. Chairs I and II are the two ring-flip conformers of the trans isomer: in I both groups are axial; in II both are equatorial. The diequatorial chair has no 1,3-diaxial interactions (only one gauche interaction between the adjacent groups), so <b>II</b> is the most stable.",
+  "x": [
+   "",
+   "Chair I is the trans isomer, but both groups are axial, giving four 1,3-diaxial interactions; it is the less stable chair.",
+   "Chair III has both groups up, so it is a conformer of the cis isomer, not the trans compound.",
+   "Chair IV puts the isopropyl group equatorial, but both groups are up, so it is the cis isomer."
+  ]
+ },
+ {
+  "id": "z2c3-14",
+  "t": "conform",
+  "d": 2,
+  "k": 0,
+  "q": "In its most stable chair conformation, which compound has its chlorine axial?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Cl[C@H]1CC[C@@H](C(C)(C)C)CC1",
+    "cap": "cis"
+   },
+   {
+    "smi": "Cl[C@H]1CC[C@H](C(C)(C)C)CC1",
+    "cap": "trans"
+   },
+   {
+    "smi": "Cl[C@H]1CCC[C@@H](C(C)(C)C)C1",
+    "cap": "cis"
+   },
+   {
+    "smi": "Cl[C@H]1CCCC[C@@H]1C(C)(C)C",
+    "cap": "trans"
+   }
+  ],
+  "h": "A <i>tert</i>-butyl group is far too large to sit axial, so put it equatorial first. Then ask where cis or trans forces the chlorine to go.",
+  "w": "A <i>tert</i>-butyl group costs about 20 kJ/mol when axial, so it locks the ring with <i>tert</i>-butyl equatorial; chlorine's preference (about 2 kJ/mol) cannot override it. On a chair, cis-1,4 and trans-1,3 pairs are one axial and one equatorial, while trans-1,4, cis-1,3 and trans-1,2 pairs can both be equatorial. So only <b>cis-1-<i>tert</i>-butyl-4-chlorocyclohexane</b> must place Cl axial.",
+  "x": [
+   "",
+   "trans-1,4 substituents can both be equatorial (one up, one down), so Cl is equatorial along with the <i>tert</i>-butyl group.",
+   "cis-1,3 substituents can both be equatorial on the same face, so Cl is equatorial.",
+   "trans-1,2 substituents can both be equatorial, so Cl is equatorial next to the equatorial <i>tert</i>-butyl group."
+  ]
+ },
+ {
+  "id": "z2c3-15",
+  "t": "conform",
+  "d": 1,
+  "k": 0,
+  "q": "These C<sub>5</sub>H<sub>10</sub> isomers are each burned completely to CO<sub>2</sub> and H<sub>2</sub>O. Which releases the least heat per mole?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1CCCC1"
+   },
+   {
+    "smi": "CC1CCC1"
+   },
+   {
+    "smi": "CCC1CC1"
+   },
+   {
+    "smi": "C[C@@H]1C[C@@H]1C"
+   }
+  ],
+  "h": "Isomers give the same combustion products, so the difference in heat released comes only from how much strain energy each starts with.",
+  "w": "All four give 5 CO<sub>2</sub> + 5 H<sub>2</sub>O, so the most stable (least strained) isomer releases the least heat. Cyclopentane has only modest strain (about 26 kJ/mol), cyclobutanes about 110 kJ/mol and cyclopropanes about 115 kJ/mol. <b>Cyclopentane</b> releases the least heat.",
+  "x": [
+   "",
+   "Methylcyclobutane has a strained four-membered ring (about 110 kJ/mol of ring strain), so it releases more heat than cyclopentane.",
+   "Ethylcyclopropane contains the highly strained three-membered ring and releases more heat.",
+   "cis-1,2-Dimethylcyclopropane has the three-membered ring strain plus eclipsed cis CH<sub>3</sub> groups; so it releases more heat than unstrained cyclopentane."
+  ]
+ },
+ {
+  "id": "z2c3-16",
+  "t": "conform",
+  "d": 2,
+  "k": 0,
+  "q": "Which statements about ring strain are correct?<br>I. Cyclopropane has both angle strain (60° C–C–C angles) and torsional strain (all C–H bonds on adjacent carbons eclipsed).<br>II. In chair cyclohexane, the C–H bonds on adjacent carbons are eclipsed.<br>III. Cyclopentane puckers into an envelope mainly to relieve torsional strain, even though this slightly changes its C–C–C angles.",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "Decide separately for each ring whether its bonds are staggered or eclipsed and whether its angles are near 109.5°.",
+  "w": "I is true: a planar three-membered ring forces 60° angles and eclipses every pair of adjacent C–H bonds. II is false: in the chair every C–C bond is perfectly staggered and the angles are about 111°, so it is nearly strain-free. III is true: a flat pentagon would have ideal-looking 108° angles but ten eclipsed C–H pairs; folding one carbon out of the plane relieves much of that torsional strain. <b>I and III only</b>.",
+  "x": [
+   "",
+   "III is also true: the envelope relieves eclipsing (torsional) strain at a small cost in angle strain.",
+   "II is false: all bonds in chair cyclohexane are staggered; eclipsing occurs in the boat, not the chair.",
+   "II is false: the chair has no eclipsed bonds."
+  ]
+ },
+ {
+  "id": "z2c3-17",
+  "t": "stereo",
+  "d": 2,
+  "k": 0,
+  "q": "Which structure is (2<i>R</i>,3<i>S</i>)-3-methylhexan-2-ol?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC[C@H](C)[C@@H](C)O"
+   },
+   {
+    "smi": "CCC[C@@H](C)[C@@H](C)O"
+   },
+   {
+    "smi": "CCC[C@@H](C)[C@H](C)O"
+   },
+   {
+    "smi": "CCC[C@H](C)[C@H](C)O"
+   }
+  ],
+  "h": "Rank the groups at each center (at C3 the CH(OH)CH<sub>3</sub> branch beats propyl because of the O), then check each drawing one center at a time.",
+  "w": "C2: OH &gt; C3 &gt; CH<sub>3</sub> &gt; H. C3: CH(OH)CH<sub>3</sub> (O,C,H) &gt; CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> (C,H,H) &gt; CH<sub>3</sub> &gt; H. Assigning each drawing gives A = (2<i>R</i>,3<i>S</i>), B = (2<i>R</i>,3<i>R</i>), C = (2<i>S</i>,3<i>R</i>), D = (2<i>S</i>,3<i>S</i>). The answer is <b>A</b>.",
+  "x": [
+   "",
+   "This is (2R,3R): C2 is right, but C3 is inverted.",
+   "This is (2S,3R), the enantiomer of the target: both centers are inverted.",
+   "This is (2S,3S): C3 is right but C2 is inverted."
+  ]
+ },
+ {
+  "id": "z2c3-18",
+  "t": "stereo",
+  "d": 3,
+  "k": 0,
+  "q": "How are drawings I and II related?",
+  "s": [
+   {
+    "smi": "C[C@@H]1CCC[C@H](O)C1",
+    "cap": "I"
+   },
+   {
+    "smi": "C[C@@H]1CCC[C@H](O)C1",
+    "cap": "II",
+    "flip": true,
+    "rot": 60
+   }
+  ],
+  "c": [
+   "identical",
+   "enantiomers",
+   "diastereomers",
+   "constitutional isomers"
+  ],
+  "h": "Do not compare the pictures by eye. Assign R/S to each chirality center in both drawings, or check whether the two groups are cis or trans in each.",
+  "w": "Both drawings are 3-methylcyclohexan-1-ol with the OH and CH<sub>3</sub> cis. Assigning the centers gives the same result in both: (1<i>S</i>,3<i>R</i>) in I and in II. Drawing II is the same molecule turned over and rotated, which does not change any configuration. They are <b>identical</b>.",
+  "x": [
+   "",
+   "A mirror-image drawing would invert both centers; here both centers have the same descriptors in I and II.",
+   "Diastereomers would differ at one center (cis vs trans); both drawings are cis.",
+   "The connectivity is the same: both are 3-methylcyclohexan-1-ol."
+  ]
+ },
+ {
+  "id": "z2c3-19",
+  "t": "stereo",
+  "d": 2,
+  "k": 0,
+  "q": "Compound I is (2<i>R</i>,3<i>R</i>)-hexane-2,3-diol and compound II is (2<i>R</i>,3<i>S</i>)-hexane-2,3-diol. Which terms correctly describe the pair?<br>I. diastereomers<br>II. epimers<br>III. enantiomers",
+  "s": [
+   {
+    "smi": "C[C@@H](O)[C@H](O)CCC",
+    "cap": "I"
+   },
+   {
+    "smi": "C[C@@H](O)[C@@H](O)CCC",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "I and II only",
+   "I only",
+   "III only",
+   "II and III only"
+  ],
+  "h": "Count how many of the chirality centers differ between the two compounds.",
+  "w": "The compounds have the same constitution and differ at C3 only. Stereoisomers that are not mirror images are diastereomers (statement I true). Diastereomers that differ at exactly one of several chirality centers are also called epimers (statement II true). Enantiomers would differ at both centers, (2<i>S</i>,3<i>S</i>) for compound I, so statement III is false. <b>I and II only</b>.",
+  "x": [
+   "",
+   "Epimers is also correct: the pair differs at exactly one of its two chirality centers.",
+   "Enantiomers must have every center inverted; here C2 is R in both.",
+   "Epimers are a kind of diastereomer, not of enantiomer; the pair differs at only one center, so III is false and I is true."
+  ]
+ },
+ {
+  "id": "z2c3-20",
+  "t": "conform",
+  "d": 1,
+  "k": 0,
+  "q": "Why is the chair conformation of cyclohexane nearly free of strain?",
+  "c": [
+   "Its C–C–C angles are close to the tetrahedral angle and every C–C bond is staggered",
+   "Its ring is planar, so all six carbons have 120° angles",
+   "Its axial hydrogens point away from each other, which removes all steric strain but leaves the bonds eclipsed",
+   "Its carbons are sp<sup>2</sup> hybridized, which matches the hexagonal shape"
+  ],
+  "h": "Think about the two kinds of strain a ring can have: bond-angle strain and eclipsing (torsional) strain.",
+  "w": "In the chair the C–C–C angles are about 111°, close to 109.5°, so there is almost no angle strain, and looking down any C–C bond shows a staggered arrangement, so there is no torsional strain. Hence <b>angles near tetrahedral and all bonds staggered</b>.",
+  "x": [
+   "",
+   "A planar hexagon would have 120° angles (too large for sp<sup>3</sup> carbon) and twelve eclipsed C–H pairs; cyclohexane is not planar.",
+   "The chair has no eclipsed bonds; the eclipsed boat is a higher-energy conformation.",
+   "The ring carbons are sp<sup>3</sup>, not sp<sup>2</sup>; the hexagon in a line drawing does not mean the ring is flat."
+  ]
+ }
+]

@@ -1,0 +1,188 @@
+[
+{
+"id": "zz2-09-01", "t": "irms", "d": 3, "k": 0,
+"q": "A ketone C<sub>8</sub>H<sub>16</sub>O gives the mass spectrum shown: M<sup>+</sup> at m/z 128, base peak at m/z 57, and strong peaks at m/z 99 and 72. Which ketone is it?",
+"f": [{"type": "ms", "peaks": [[128, 8], [99, 30], [72, 24], [57, 100], [43, 18], [29, 45]], "labels": {"128": "M<sup>+</sup>"}}],
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "CCC(=O)CCCCC"}, {"smi": "CCCC(=O)CCCC"}, {"smi": "CC(=O)CCCCCC"}, {"smi": "CCCC(=O)C(C)(C)C"}],
+"h": "α-Cleavage on each side of the C=O gives two acylium ions. A McLafferty rearrangement gives an even-mass ion. Predict all three for each choice.",
+"w": "For a ketone R–CO–R′, α-cleavage gives R–C≡O<sup>+</sup> and R′–C≡O<sup>+</sup>, and a γ-hydrogen gives a McLafferty ion at even m/z. 3-Octanone (ethyl pentyl ketone): losing the pentyl radical (71) gives CH<sub>3</sub>CH<sub>2</sub>C≡O<sup>+</sup> at m/z 57; losing the ethyl radical (29) gives C<sub>5</sub>H<sub>11</sub>C≡O<sup>+</sup> at m/z 99; and the γ-H on the pentyl side lets 1-butene (56) leave, giving the enol radical cation at m/z 72. All three match: <b>3-octanone</b>.",
+"x": ["", "4-Octanone gives acylium ions at m/z 71 (C<sub>3</sub>H<sub>7</sub>CO<sup>+</sup>) and 85 (C<sub>4</sub>H<sub>9</sub>CO<sup>+</sup>) and McLafferty ions at 86 and 100, not 57, 99 and 72.", "2-Octanone (a methyl ketone) gives CH<sub>3</sub>CO<sup>+</sup> at m/z 43 as the base peak, C<sub>6</sub>H<sub>13</sub>CO<sup>+</sup> at 113, and a McLafferty ion at 58.", "This ketone gives a strong m/z 57 (the <i>tert</i>-butyl cation), but its acylium ions are at 85 and 71 and its McLafferty ion is at 100; it cannot give 99 or 72."]
+},
+{
+"id": "zz2-09-02", "t": "nmr", "d": 2, "k": 0,
+"q": "How many signals appear in the <sup>1</sup>H NMR spectrum of 4′-isopropylacetophenone (shown)?",
+"s": [{"smi": "CC(=O)c1ccc(C(C)C)cc1"}],
+"c": ["5", "4", "6", "7"],
+"h": "Use the mirror plane through C1 and C4 of the ring. How many kinds of ring H, and are the two isopropyl methyls equivalent?",
+"w": "The molecule has a mirror plane through the two ring carbons that carry substituents. Signals: the acetyl CH<sub>3</sub> (singlet, 3H); two kinds of aromatic H (2H each, the pair next to C=O and the pair next to the isopropyl); the isopropyl CH (septet, 1H); and the two isopropyl CH<sub>3</sub> groups, which are equivalent (doublet, 6H). Total: <b>5</b>.",
+"x": ["", "Four misses one set: the ring H next to the acetyl group and those next to the isopropyl group are in different environments.", "Six counts the two isopropyl methyls separately; they are swapped by the mirror plane and give one 6H doublet.", "Seven treats all four ring H as different; the mirror plane makes them two pairs."]
+},
+{
+"id": "zz2-09-03", "t": "nmr", "d": 2, "k": 0,
+"q": "Which C<sub>6</sub>H<sub>14</sub>O ether gives exactly three signals in its broadband-decoupled <sup>13</sup>C NMR spectrum?",
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "CCCOCCC"}, {"smi": "CC(C)OC(C)C"}, {"smi": "CCOC(C)(C)C"}, {"smi": "CCCCCOC"}],
+"h": "Look for symmetry that makes the two sides of the oxygen the same, then count carbons on one side.",
+"w": "Dipropyl ether is symmetric about the oxygen, so the two propyl groups are equivalent and each gives three kinds of carbon: OCH<sub>2</sub>, CH<sub>2</sub>, CH<sub>3</sub>. <b>Dipropyl ether</b> shows three <sup>13</sup>C signals.",
+"x": ["", "Diisopropyl ether is also symmetric, but each isopropyl has only two kinds of carbon (CH and the two equivalent CH<sub>3</sub>), so it gives two signals.", "<i>tert</i>-Butyl ethyl ether has four kinds of carbon: OCH<sub>2</sub>, CH<sub>3</sub> of ethyl, the quaternary C and the three equivalent CH<sub>3</sub>.", "1-Methoxypentane has no symmetry; all six carbons are different."]
+},
+{
+"id": "zz2-09-04", "t": "nmr", "d": 2, "k": 0,
+"q": "The <sup>13</sup>C NMR spectrum of 4-methoxy-2-butanone (shown) has peaks at δ 207.0, 67.9, 58.8, 43.6 and 30.4. Which set gives the shifts of the tagged carbons <i>a</i>, <i>b</i>, <i>c</i> and <i>d</i>, in that order?",
+"s": [{"smi": "[CH3:1][C:2](=O)[CH2:3]CO[CH3:4]"}],
+"c": ["a 30.4, b 207.0, c 43.6, d 58.8", "a 30.4, b 207.0, c 58.8, d 43.6", "a 58.8, b 207.0, c 43.6, d 30.4", "a 43.6, b 207.0, c 30.4, d 67.9"],
+"h": "Ketone C=O near 200+; sp<sup>3</sup> carbons bonded to O at 50–70; sp<sup>3</sup> carbons next to C=O at 30–45.",
+"w": "The ketone carbon <i>b</i> is the peak at 207.0. The two carbons bonded to O are 67.9 (the OCH<sub>2</sub>, untagged) and 58.8 (the OCH<sub>3</sub>, <i>d</i>). Of the carbons next to the C=O, the CH<sub>2</sub> <i>c</i> (43.6) is farther downfield than the CH<sub>3</sub> <i>a</i> (30.4), because it has an extra carbon attached and is also β to oxygen. <b>a 30.4, b 207.0, c 43.6, d 58.8.</b>",
+"x": ["", "This swaps c and d: the OCH<sub>3</sub> is bonded directly to oxygen and belongs in the 50–70 region, while the CH<sub>2</sub> next to the C=O is near 44.", "A methyl next to a C=O is not bonded to oxygen, so it is not at 58.8; that shift belongs to the OCH<sub>3</sub> (d).", "Carbon d is the methoxy CH<sub>3</sub> (58.8); 67.9 is the OCH<sub>2</sub>, which is not tagged. And the CH<sub>3</sub> (a) is the most upfield carbon, 30.4."]
+},
+{
+"id": "zz2-09-05", "t": "nmr", "d": 2, "k": 0,
+"q": "Which compounds give a <sup>1</sup>H NMR spectrum consisting of only one triplet and one quartet (no other signals)?",
+"s": [{"smi": "CCC(=O)CC", "cap": "I"}, {"smi": "CCC(=O)OCC", "cap": "II"}, {"smi": "CCOC(=O)OCC", "cap": "III"}],
+"c": ["I and III only", "I only", "I, II, and III", "II and III only"],
+"h": "A triplet plus a quartet is one ethyl group. Only one signal pair means every ethyl group must be equivalent.",
+"w": "A CH<sub>3</sub>CH<sub>2</sub>– group gives a 3H triplet and a 2H quartet. I (3-pentanone) has two ethyl groups made equivalent by symmetry: one triplet, one quartet. II (ethyl propanoate) has two different ethyl groups, the acyl CH<sub>2</sub> near 2.3 and the OCH<sub>2</sub> near 4.1, so it shows two triplets and two quartets. III (diethyl carbonate) is symmetric: one OCH<sub>2</sub> quartet and one CH<sub>3</sub> triplet. <b>I and III only.</b>",
+"x": ["", "III also qualifies: the two ethoxy groups of diethyl carbonate are equivalent, giving one triplet and one quartet.", "II does not qualify: its two ethyl groups are on different sides of the ester and give four signals.", "I qualifies (its two ethyls are equivalent), and II does not (four signals)."]
+},
+{
+"id": "zz2-09-06", "t": "nmr", "d": 2, "k": 0,
+"q": "Rank the <sup>1</sup>H NMR signals of the hydrogens on the tagged carbons of 3-chloropropanal from <b>lowest</b> to <b>highest</b> chemical shift.",
+"s": [{"smi": "Cl[CH2:3][CH2:2][CH:1]=O"}],
+"c": ["b < c < a", "c < b < a", "a < c < b", "b < a < c"],
+"h": "Recall the typical ranges: H next to C=O about 2–3 ppm, H on a carbon bearing Cl about 3.5–4, aldehyde H about 9.5–10.",
+"w": "The aldehyde H on <i>a</i> is strongly deshielded by the C=O anisotropy and electronegativity (δ ≈ 9.8). The CH<sub>2</sub> bonded to Cl, <i>c</i>, appears near 3.8. The CH<sub>2</sub> next to the carbonyl, <i>b</i>, appears near 2.9. Lowest to highest: <b>b < c < a</b>.",
+"x": ["", "Cl is bonded directly to c, which deshields it more than the C=O deshields the α-CH<sub>2</sub> b, so c lies downfield of b.", "This is the reverse order; the aldehyde H is the most downfield signal, not the most upfield.", "The aldehyde H (about 9.8) lies far downfield of the CH<sub>2</sub>Cl (about 3.8)."]
+},
+{
+"id": "zz2-09-07", "t": "nmr", "d": 3, "k": 0,
+"q": "A compound C<sub>9</sub>H<sub>11</sub>NO<sub>2</sub> gives the <sup>1</sup>H NMR spectrum shown (the 2H signal at δ 4.05 is broad and disappears when D<sub>2</sub>O is added). Which structure is it?",
+"f": [{"type": "nmr", "nuc": "1H", "peaks": [{"ppm": 7.86, "mult": "d", "int": 2}, {"ppm": 6.64, "mult": "d", "int": 2}, {"ppm": 4.32, "mult": "q", "int": 2}, {"ppm": 4.05, "mult": "br s", "int": 2}, {"ppm": 1.36, "mult": "t", "int": 3}]}],
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "CCOC(=O)c1ccc(N)cc1"}, {"smi": "CCOC(=O)c1ccccc1N"}, {"smi": "CCNc1ccc(C(=O)O)cc1"}, {"smi": "COC(=O)c1ccc(NC)cc1"}],
+"h": "Two 2H doublets in the aromatic region point to one substitution pattern. Then decide where the ethyl group is attached from the shift of its quartet.",
+"w": "Two aromatic doublets of 2H each mean a para-disubstituted ring. The 2H quartet at 4.32 with a 3H triplet at 1.36 is an ethyl group on an ester oxygen (OCH<sub>2</sub>, deshielded by O and C=O). The exchangeable 2H broad singlet is an NH<sub>2</sub>. The doublet at 6.64 is ortho to the electron-donating NH<sub>2</sub> (shielded) and the one at 7.86 is ortho to the ester C=O. This is <b>ethyl 4-aminobenzoate</b> (benzocaine).",
+"x": ["", "An ortho-disubstituted ring has four different aromatic H (1H each), not two 2H doublets.", "An N-ethyl group's CH<sub>2</sub> appears near 3.2, not 4.3; the acid would also show a COOH near 12 ppm and the NH would be 1H, not 2H.", "This compound has two methyl singlets (OCH<sub>3</sub> and NCH<sub>3</sub>) and no ethyl quartet or triplet."]
+},
+{
+"id": "zz2-09-08", "t": "nmr", "d": 2, "k": 0,
+"q": "A compound C<sub>8</sub>H<sub>10</sub>O gives the <sup>13</sup>C NMR spectrum shown; the DEPT result (C, CH, CH<sub>2</sub> or CH<sub>3</sub>) is written over each peak. Which structure is it?",
+"f": [{"type": "nmr", "nuc": "13C", "peaks": [{"ppm": 138.6, "lab": "C"}, {"ppm": 129.0, "lab": "CH"}, {"ppm": 128.5, "lab": "CH"}, {"ppm": 126.4, "lab": "CH"}, {"ppm": 63.7, "lab": "CH<sub>2</sub>"}, {"ppm": 39.2, "lab": "CH<sub>2</sub>"}]}],
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "OCCc1ccccc1"}, {"smi": "CC(O)c1ccccc1"}, {"smi": "COCc1ccccc1"}, {"smi": "CCc1ccc(O)cc1"}],
+"h": "There is no CH<sub>3</sub> peak, and there are two CH<sub>2</sub> peaks. Which choice has no methyl group?",
+"w": "Four aromatic peaks (one C and three CH) mean a monosubstituted benzene ring. The sp<sup>3</sup> region has two CH<sub>2</sub> carbons and no CH<sub>3</sub>: one at 63.7 (bonded to O) and one at 39.2 (benzylic, not bonded to O). That is Ph–CH<sub>2</sub>–CH<sub>2</sub>–OH, <b>2-phenylethanol</b>.",
+"x": ["", "1-Phenylethanol would show a CH (bonded to O, near 70) and a CH<sub>3</sub> (near 25), not two CH<sub>2</sub> peaks.", "Benzyl methyl ether would show a CH<sub>3</sub> (OCH<sub>3</sub> near 58) and only one CH<sub>2</sub> (near 75).", "4-Ethylphenol has a CH<sub>3</sub> and a para-disubstituted ring (two aromatic C peaks, one near 153 for C–OH, and only two CH peaks)."]
+},
+{
+"id": "zz2-09-09", "t": "irms", "d": 2, "k": 0,
+"q": "An alcohol C<sub>4</sub>H<sub>10</sub>O shows a broad IR band at 3350 cm<sup>−1</sup>. With chromic acid (Jones reagent) the orange solution turns green, and the isolated product shows a strong IR band at 1715 cm<sup>−1</sup> and no O–H band. Which alcohol was it?",
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "CCC(C)O"}, {"smi": "CC(C)(C)O"}, {"smi": "CCCCO"}, {"smi": "CCOCC"}],
+"h": "Which kinds of alcohol does chromic acid oxidize, and what does each give? Does the product still have an O–H?",
+"w": "Chromic acid (Cr(VI), orange) is reduced to Cr(III) (green) when it oxidizes an alcohol that has an H on the carbinol carbon. A secondary alcohol gives a ketone (C=O near 1715, no O–H), while a primary alcohol is oxidized all the way to a carboxylic acid (C=O plus a very broad O–H at 2500–3300). The product here is a ketone, 2-butanone, so the alcohol was <b>2-butanol</b>.",
+"x": ["", "<i>tert</i>-Butyl alcohol has no H on the carbinol carbon, so it does not react with chromic acid (the solution stays orange).", "1-Butanol is oxidized by aqueous chromic acid to butanoic acid, which still shows a very broad O–H band.", "Diethyl ether has no O–H band to begin with and is not oxidized by chromic acid."]
+},
+{
+"id": "zz2-09-10", "t": "irms", "d": 1, "k": 0,
+"q": "Which compound gives the IR spectrum shown? (There is no absorption above 3000 cm<sup>−1</sup>.)",
+"f": [{"type": "ir", "bands": [{"cm": 2940, "str": "m"}, {"cm": 2250, "str": "m"}, {"cm": 1715, "str": "s"}, {"cm": 1360, "str": "m"}, {"cm": 1165, "str": "m"}]}],
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "CC(=O)CCCC#N"}, {"smi": "CC(=O)CCC#C"}, {"smi": "N#CCCCCCO"}, {"smi": "CC(=O)OCCC#N"}],
+"h": "Identify the band near 2250 and the band near 1715. Then rule out any choice that would add a band the spectrum lacks.",
+"w": "The sharp medium band at 2250 cm<sup>−1</sup> is a C≡N stretch, and the strong band at 1715 cm<sup>−1</sup> is a ketone C=O. Nothing appears above 3000 cm<sup>−1</sup>, so there is no O–H and no ≡C–H. <b>5-Oxohexanenitrile</b> (a ketone and a nitrile) fits.",
+"x": ["", "A terminal alkyne shows a strong, sharp ≡C–H stretch near 3300 cm<sup>−1</sup> and a weak C≡C near 2120, not a band at 2250 with nothing above 3000.", "An alcohol would give a broad O–H band near 3350 cm<sup>−1</sup>, and this compound has no C=O for the 1715 band.", "An ester C=O appears near 1740 cm<sup>−1</sup>, with a strong C–O band near 1240; the spectrum's C=O is at 1715."]
+},
+{
+"id": "zz2-09-11", "t": "irms", "d": 3, "k": 0,
+"q": "A compound gives the mass spectrum and IR spectrum shown. MS: m/z 154 and 156 (3 : 1), base peak 139 with a partner at 141 (3 : 1), and 111/113 (3 : 1). IR: strong band at 1685 cm<sup>−1</sup>, weak band at 3060 cm<sup>−1</sup>, nothing near 3300 cm<sup>−1</sup>. Which structure fits?",
+"f": [{"type": "ms", "peaks": [[154, 32], [156, 10], [139, 100], [141, 33], [111, 38], [113, 12], [75, 20], [43, 15]], "labels": {"154": "M<sup>+</sup>"}}, {"type": "ir", "bands": [{"cm": 3060, "str": "w"}, {"cm": 1685, "str": "s"}, {"cm": 1590, "str": "m"}, {"cm": 1265, "str": "s"}, {"cm": 1090, "str": "m"}]}],
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "CC(=O)c1ccc(Cl)cc1"}, {"smi": "O=C(CCl)c1ccccc1"}, {"smi": "O=Cc1ccc(Cl)cc1"}, {"smi": "CC(O)c1ccc(Cl)cc1"}],
+"h": "Each 3 : 1 pair contains one Cl. Which fragment keeps the Cl, and what was lost to make the base peak?",
+"w": "The 3 : 1 pairs show one chlorine, and the molecular ion is at 154. The 1685 cm<sup>−1</sup> band is a conjugated (aryl) ketone C=O, and 3060 is aromatic C–H. The base peak at 139/141 is M − 15: loss of CH<sub>3</sub>• by α-cleavage, giving ClC<sub>6</sub>H<sub>4</sub>–C≡O<sup>+</sup>, which still has Cl. Losing CO from it gives ClC<sub>6</sub>H<sub>4</sub><sup>+</sup> at 111/113. This is <b>4′-chloroacetophenone</b>.",
+"x": ["", "2-Chloroacetophenone also has M = 154/156, but α-cleavage loses •CH<sub>2</sub>Cl and gives PhC≡O<sup>+</sup> at m/z 105 with no chlorine partner; the base peak would not be a 139/141 pair.", "4-Chlorobenzaldehyde has M = 140/142, not 154/156.", "1-(4-Chlorophenyl)ethanol has M = 156/158 and an O–H band near 3350 cm<sup>−1</sup>, and it has no C=O to absorb at 1685."]
+},
+{
+"id": "zz2-09-12", "t": "nmr", "d": 2, "k": 0,
+"q": "A compound C<sub>4</sub>H<sub>6</sub>O gives these data. Which structure fits?",
+"f": [{"type": "table", "head": ["Method", "Data"], "rows": [["IR (cm<sup>−1</sup>)", "3290 (strong, sharp), 2120 (weak), 1100 (strong); no broad band 3200–3600"], ["<sup>1</sup>H NMR, δ", "4.13 (d, <i>J</i> = 2.4 Hz, 2H); 3.39 (s, 3H); 2.43 (t, <i>J</i> = 2.4 Hz, 1H)"]]}],
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "C#CCOC"}, {"smi": "CC#CCO"}, {"smi": "C#CCCO"}, {"smi": "CC#COC"}],
+"h": "The sharp 3290 band and the 1H triplet go together. A small (2–3 Hz) coupling can pass through a C≡C.",
+"w": "The strong, sharp 3290 cm<sup>−1</sup> band with a weak 2120 band is a terminal alkyne (≡C–H and C≡C). No broad O–H band and a strong 1100 C–O band mean an ether. In the <sup>1</sup>H NMR, the 3H singlet at 3.39 is OCH<sub>3</sub>; the 2H doublet at 4.13 is an O–CH<sub>2</sub> next to the alkyne; the 1H triplet at 2.43 is the ≡C–H. The CH<sub>2</sub> and ≡C–H split each other through the triple bond (long-range coupling, <i>J</i> ≈ 2.4 Hz). <b>3-Methoxyprop-1-yne</b> (methyl propargyl ether).",
+"x": ["", "2-Butyn-1-ol has an O–H (broad band near 3350) and no ≡C–H; its CH<sub>3</sub> would be near 1.8, not an OCH<sub>3</sub> singlet at 3.39.", "3-Butyn-1-ol has an O–H band and two CH<sub>2</sub> groups, with no OCH<sub>3</sub> singlet.", "1-Methoxyprop-1-yne is an internal alkyne with no ≡C–H, so it would have no 3290 band and no 1H signal; it gives two 3H singlets."]
+},
+{
+"id": "zz2-09-13", "t": "irms", "d": 2, "k": 1,
+"q": "A compound that contains only C, H and O shows M<sup>+</sup> at m/z 88. Combustion analysis gives 54.5% carbon by mass. What is its molecular formula?",
+"c": ["C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>", "C<sub>5</sub>H<sub>12</sub>O", "C<sub>3</sub>H<sub>4</sub>O<sub>3</sub>", "C<sub>7</sub>H<sub>4</sub>"],
+"h": "Multiply the molar mass by the mass fraction of carbon to find the mass of carbon in one mole, then divide by 12.",
+"w": "Mass of C per mole = 0.545 × 88 = 48 g, which is 48/12 = 4 carbons. The remaining 40 mass units must be H and O: 2 O (32) + 8 H (8) = 40. The formula is <b>C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></b> (DBE 1, for example an ester or a carboxylic acid). Check: 48.04/88.11 = 54.5% C.",
+"x": ["", "C<sub>5</sub>H<sub>12</sub>O also has M = 88, but it is 60/88 = 68.1% carbon.", "C<sub>3</sub>H<sub>4</sub>O<sub>3</sub> also has M = 88, but it is 36/88 = 40.9% carbon.", "C<sub>7</sub>H<sub>4</sub> has M = 88 but is 95.4% carbon and contains no oxygen; it is also an unlikely highly unsaturated formula."]
+},
+{
+"id": "zz2-09-14", "t": "irms", "d": 2, "k": 0,
+"q": "Hexanal (M = 100) shows a prominent peak at m/z 44 in its mass spectrum, formed by a McLafferty rearrangement. Which ion is it, and what neutral molecule is lost?",
+"s": [{"smi": "O=[CH:1][CH2:2][CH2:3][CH2:4]CC"}],
+"c": ["CH<sub>2</sub>=CH–OH<sup>•+</sup>; 1-butene (56) is lost", "CH<sub>3</sub>–CH=O<sup>•+</sup>; 1-butene (56) is lost", "CH<sub>2</sub>=CH–OH<sup>•+</sup>; butane (58) is lost", "O=C=CH<sub>2</sub><sup>•+</sup>; butane (58) is lost"],
+"h": "The C=O oxygen takes the H on the γ-carbon (tag d), and the bond between the α- and β-carbons (b–c) breaks.",
+"w": "In a McLafferty rearrangement, the carbonyl O removes a γ-hydrogen (on carbon <i>d</i>) through a six-membered transition state, and the bond between the α-carbon (<i>b</i>) and β-carbon (<i>c</i>) breaks. The β- and γ-carbons and the rest of the chain leave as an alkene, CH<sub>2</sub>=CH–CH<sub>2</sub>CH<sub>3</sub> (1-butene, 56), and the ion kept is the enol radical cation of acetaldehyde: <b>CH<sub>2</sub>=CH–OH<sup>•+</sup>, m/z 44, with loss of 1-butene</b>. 100 − 56 = 44.",
+"x": ["", "The H moves to oxygen, so the ion is first formed as the enol, CH<sub>2</sub>=CH–OH<sup>•+</sup>, not as the keto form.", "The neutral fragment is an alkene (C<sub>4</sub>H<sub>8</sub>, 56), not an alkane; 100 − 58 would give m/z 42, not 44.", "This ion has lost an H from the wrong place and has m/z 42; the McLafferty ion keeps all the H it started with plus the transferred H."]
+},
+{
+"id": "zz2-09-15", "t": "irms", "d": 1, "k": 0,
+"q": "Which compound shows two N–H stretching bands of medium intensity near 3300 and 3380 cm<sup>−1</sup>?",
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "NC1CCCCC1"}, {"smi": "CNC1CCCCC1"}, {"smi": "CN(C)C1CCCCC1"}, {"smi": "OC1CCCCC1"}],
+"h": "Count the H atoms on nitrogen. Two N–H bonds can stretch in phase and out of phase.",
+"w": "A primary amine, R–NH<sub>2</sub>, has two N–H bonds that stretch together in a symmetric and an asymmetric mode, giving <b>two</b> bands near 3300 and 3380 cm<sup>−1</sup>. <b>Cyclohexylamine</b> is the primary amine.",
+"x": ["", "A secondary amine has only one N–H, so it shows a single weak band.", "A tertiary amine has no N–H bond and no band in this region.", "An alcohol gives one broad, strong O–H band near 3350 cm<sup>−1</sup>, not two medium N–H bands."]
+},
+{
+"id": "zz2-09-16", "t": "nmr", "d": 3, "k": 0,
+"q": "A compound C<sub>5</sub>H<sub>8</sub>O<sub>2</sub> shows strong IR bands at 1720 and 1160 cm<sup>−1</sup> and a medium band at 1638 cm<sup>−1</sup>. Its <sup>1</sup>H NMR spectrum is shown (the two vinyl singlets are each 1H, from two different =CH<sub>2</sub> hydrogens). Which structure is it?",
+"f": [{"type": "nmr", "nuc": "1H", "peaks": [{"ppm": 6.1, "mult": "s", "int": 1}, {"ppm": 5.56, "mult": "s", "int": 1}, {"ppm": 3.75, "mult": "s", "int": 3}, {"ppm": 1.95, "mult": "s", "int": 3}]}],
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "C=C(C)C(=O)OC"}, {"smi": "C/C=C/C(=O)OC"}, {"smi": "C=CC(=O)OCC"}, {"smi": "C=CCOC(C)=O"}],
+"h": "DBE 2: one C=O and one C=C. All four signals are singlets, so no hydrogen-bearing carbons are neighbors.",
+"w": "DBE = 2. The 1720 band is a C=O, 1638 a C=C, and 1160 a C–O, so this is an unsaturated ester. Every signal is a singlet: OCH<sub>3</sub> (3.75), a CH<sub>3</sub> on an alkene carbon (1.95), and two separate vinyl H (6.10 and 5.56) that are on the same carbon, a =CH<sub>2</sub> with no H on the neighboring carbon. That is CH<sub>2</sub>=C(CH<sub>3</sub>)CO<sub>2</sub>CH<sub>3</sub>, <b>methyl methacrylate</b>. The C=O at 1720 rather than about 1740 fits conjugation with the C=C.",
+"x": ["", "Methyl (<i>E</i>)-but-2-enoate has two vinyl H on adjacent carbons; they split each other (large trans <i>J</i>) and are split by the CH<sub>3</sub>, so they are not singlets, and its CH<sub>3</sub> would be a doublet of doublets, not a singlet.", "Ethyl acrylate would show an OCH<sub>2</sub> quartet and a CH<sub>3</sub> triplet, and three vinyl H that split each other.", "Allyl acetate has a CH<sub>3</sub>C=O singlet near 2.1 but an OCH<sub>2</sub> doublet near 4.6 and three coupled vinyl H; its non-conjugated ester C=O would be near 1740."]
+},
+{
+"id": "zz2-09-17", "t": "irms", "d": 3, "k": 0,
+"q": "A compound containing only C, H and N shows M<sup>+</sup> at m/z 69. Its IR spectrum has a sharp, medium band at 2250 cm<sup>−1</sup> and nothing above 3000 cm<sup>−1</sup>. Its <sup>13</sup>C NMR spectrum shows four signals: δ 119.8, 19.3, 19.1 and 13.4. Which structure fits?",
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "CCCC#N"}, {"smi": "CC(C)C#N"}, {"smi": "NCCC#C"}, {"smi": "CC#CCN"}],
+"h": "An odd molecular mass means an odd number of N atoms. Then use the IR band and the number of <sup>13</sup>C signals.",
+"w": "By the nitrogen rule, an odd M<sup>+</sup> (69) means an odd number of nitrogens, so C<sub>4</sub>H<sub>7</sub>N with one N. The 2250 cm<sup>−1</sup> band is a C≡N stretch, and there is no N–H or ≡C–H band above 3000. The <sup>13</sup>C peak at 119.8 is the nitrile carbon, and three more signals below 20 ppm mean three different sp<sup>3</sup> carbons. <b>Butanenitrile</b>, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>C≡N, fits.",
+"x": ["", "2-Methylpropanenitrile is also C<sub>4</sub>H<sub>7</sub>N with a C≡N, but its two CH<sub>3</sub> groups are equivalent, so it gives only three <sup>13</sup>C signals.", "But-3-yn-1-amine has N–H stretches and a strong ≡C–H band near 3300, and its alkyne carbons appear near 70–85 ppm, not 120.", "2-Butyn-1-amine has N–H bands above 3000 cm<sup>−1</sup>, and its internal alkyne carbons appear near 75–80 ppm; there is no 120 ppm nitrile carbon."]
+},
+{
+"id": "zz2-09-18", "t": "nmr", "d": 1, "k": 0,
+"q": "Which compound gives a <sup>1</sup>H NMR spectrum of exactly two singlets with integrals in a 3 : 1 ratio?",
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "COC(C)(C)C"}, {"smi": "COC(C)=O"}, {"smi": "COC(C)(C)OC"}, {"smi": "CC(C)(C)CCl"}],
+"h": "Count the H in each set and reduce the ratio.",
+"w": "<i>tert</i>-Butyl methyl ether has nine equivalent H on the <i>tert</i>-butyl group and three on the OCH<sub>3</sub>. Neither group has H on a neighboring carbon, so both signals are singlets, in a 9 : 3 = 3 : 1 ratio. <b><i>tert</i>-Butyl methyl ether.</b>",
+"x": ["", "Methyl acetate gives two 3H singlets, a 1 : 1 ratio.", "2,2-Dimethoxypropane gives two 6H singlets, a 1 : 1 ratio.", "1-Chloro-2,2-dimethylpropane gives a 9H singlet and a 2H singlet, a 4.5 : 1 ratio."]
+},
+{
+"id": "zz2-09-19", "t": "nmr", "d": 1, "k": 0,
+"q": "A chlorotoluene shows two doublets of 2H each in the aromatic region of its <sup>1</sup>H NMR spectrum, plus a 3H singlet near 2.3 ppm. Which isomer is it?",
+"c": ["§A", "§B", "§C", "§D"],
+"cs": [{"smi": "Cc1ccc(Cl)cc1"}, {"smi": "Cc1ccccc1Cl"}, {"smi": "Cc1cccc(Cl)c1"}, {"smi": "ClCc1ccccc1"}],
+"h": "Which substitution pattern makes the four ring H into two equivalent pairs?",
+"w": "In a para-disubstituted ring with two different groups, a mirror plane makes the four ring H into two pairs. Each H is split by its one ortho neighbor, giving two 2H doublets. <b>4-Chlorotoluene</b> (para) fits.",
+"x": ["", "2-Chlorotoluene (ortho) has four different ring H, giving a more complex pattern of 1H signals.", "3-Chlorotoluene (meta) also has four different ring H, including an isolated H between the two groups.", "Benzyl chloride is C<sub>7</sub>H<sub>7</sub>Cl too, but it has five ring H and a CH<sub>2</sub>Cl singlet near 4.6, not a CH<sub>3</sub> at 2.3."]
+},
+{
+"id": "zz2-09-20", "t": "nmr", "d": 1, "k": 0,
+"q": "How many signals appear in the broadband-decoupled <sup>13</sup>C NMR spectrum of 4-<i>tert</i>-butylcyclohexanone (shown)?",
+"s": [{"smi": "CC(C)(C)C1CCC(=O)CC1"}],
+"c": ["6", "5", "7", "10"],
+"h": "A mirror plane runs through C1, C4 and the <i>tert</i>-butyl group. Count carbons on one side of it.",
+"w": "The mirror plane through C=O (C1), C4 and the <i>tert</i>-butyl group makes C2 and C6 equivalent and C3 and C5 equivalent. Signals: C=O, C2/C6, C3/C5, C4, the quaternary C of <i>tert</i>-butyl, and the three equivalent CH<sub>3</sub>. Total <b>6</b>.",
+"x": ["", "Five misses one environment, usually by merging the quaternary <i>tert</i>-butyl carbon with the CH<sub>3</sub> groups or with C4.", "Seven treats the three <i>tert</i>-butyl methyls as two kinds; they are equivalent.", "Ten counts every carbon separately and ignores the symmetry."]
+}
+]

@@ -1,0 +1,858 @@
+[
+ {
+  "id": "z8-01",
+  "t": "alcohols",
+  "d": 1,
+  "k": 0,
+  "q": "What is the product when methyl 4-formylbenzoate is treated with NaBH<sub>4</sub> in ethanol, followed by aqueous workup?",
+  "s": [
+   {
+    "smi": "O=Cc1ccc(cc1)C(=O)OC"
+   },
+   {
+    "arrow": "NaBH<sub>4</sub>",
+    "below": "EtOH"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OCc1ccc(cc1)C(=O)OC"
+   },
+   {
+    "smi": "OCc1ccc(CO)cc1"
+   },
+   {
+    "smi": "O=Cc1ccc(CO)cc1"
+   },
+   {
+    "smi": "OCc1ccc(cc1)C(=O)O"
+   }
+  ],
+  "h": "NaBH<sub>4</sub> is a mild hydride donor. Which of the two carbonyl groups is reactive enough for it?",
+  "w": "NaBH<sub>4</sub> reduces aldehydes and ketones but reacts only very slowly with esters at room temperature, because the ester carbonyl is stabilized by donation from the OR oxygen. The aldehyde becomes a CH<sub>2</sub>OH group and the ester is untouched: <b>methyl 4-(hydroxymethyl)benzoate</b>.",
+  "x": [
+   "",
+   "Reducing both groups to the diol needs a stronger hydride donor such as LiAlH<sub>4</sub>.",
+   "This reduces the ester and leaves the aldehyde, the reverse of the real selectivity: aldehydes are far more reactive than esters toward hydride.",
+   "NaBH<sub>4</sub> in ethanol does not hydrolyze the ester; ester hydrolysis needs aqueous acid or base with heating."
+  ]
+ },
+ {
+  "id": "z8-02",
+  "t": "alcohols",
+  "d": 2,
+  "k": 0,
+  "q": "Ethyl 3-phenylpropanoate is treated with one equivalent of DIBAL-H in toluene at −78 °C, then with water. What is the major organic product (besides ethanol)?",
+  "s": [
+   {
+    "smi": "CCOC(=O)CCc1ccccc1"
+   },
+   {
+    "arrow": "1. DIBAL-H, −78 °C",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=CCCc1ccccc1"
+   },
+   {
+    "smi": "OCCCc1ccccc1"
+   },
+   {
+    "smi": "CCOC(O)CCc1ccccc1"
+   },
+   {
+    "smi": "OC(=O)CCc1ccccc1"
+   }
+  ],
+  "h": "At −78 °C the first tetrahedral intermediate does not collapse until water is added. What does it give on workup?",
+  "w": "DIBAL-H delivers one hydride to the ester carbonyl. At −78 °C the aluminum-bound tetrahedral intermediate is stable, so no aldehyde is present to be reduced again. On aqueous workup it collapses, expelling ethanol, to give the aldehyde: <b>3-phenylpropanal</b>.",
+  "x": [
+   "",
+   "The primary alcohol forms with LiAlH<sub>4</sub>, or with excess DIBAL-H at higher temperature, where the aldehyde is released in the flask and reduced again.",
+   "This hemiacetal is the hydrolyzed tetrahedral intermediate. It is unstable and loses ethanol to give the aldehyde.",
+   "DIBAL-H is a reducing agent. Hydrolysis of the ester to the acid would need aqueous acid or base, not a hydride."
+  ]
+ },
+ {
+  "id": "z8-03",
+  "t": "alcohols",
+  "d": 2,
+  "k": 0,
+  "q": "Which statements about hydride reducing agents are correct?<br>I. NaBH<sub>4</sub> in methanol reduces a ketone but leaves an ester in the same molecule largely unchanged.<br>II. LiAlH<sub>4</sub>, followed by aqueous acid workup, reduces a carboxylic acid to a primary alcohol.<br>III. One equivalent of DIBAL-H at −78 °C reduces an ester to an aldehyde.",
+  "c": [
+   "I, II, and III",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Rank the reagents by strength and recall which carbonyl groups each one can reach.",
+  "w": "I is true: NaBH<sub>4</sub> is mild and reduces aldehydes and ketones, not esters. II is true: LiAlH<sub>4</sub> first deprotonates the acid, then reduces the carboxylate to the primary alcohol. III is true: at −78 °C DIBAL-H stops at a stable tetrahedral intermediate that gives the aldehyde on workup. Answer: <b>I, II, and III</b>.",
+  "x": [
+   "",
+   "This rejects III, but low-temperature DIBAL-H is the standard way to reduce an ester only to the aldehyde.",
+   "This rejects II, but LiAlH<sub>4</sub> is strong enough to reduce carboxylic acids (via the carboxylate) to primary alcohols.",
+   "This rejects I, but NaBH<sub>4</sub>'s selectivity for ketones and aldehydes over esters is its main use."
+  ]
+ },
+ {
+  "id": "z8-04",
+  "t": "alcohols",
+  "d": 2,
+  "k": 0,
+  "q": "What is the product of 3-methylbutane-1,3-diol with PCC in CH<sub>2</sub>Cl<sub>2</sub>?",
+  "s": [
+   {
+    "smi": "OCCC(C)(C)O"
+   },
+   {
+    "arrow": "PCC",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=CCC(C)(C)O"
+   },
+   {
+    "smi": "OC(=O)CC(C)(C)O"
+   },
+   {
+    "smi": "OCC=C(C)C"
+   },
+   {
+    "smi": "OCCC(C)(C)O"
+   }
+  ],
+  "h": "Classify each OH (1°, 2°, 3°) and recall how far PCC oxidizes each kind in the absence of water.",
+  "w": "PCC in anhydrous CH<sub>2</sub>Cl<sub>2</sub> oxidizes a primary alcohol only to the aldehyde, because no water is present to form the hydrate that would be oxidized further. The tertiary OH has no H on its carbon, so it cannot be oxidized. Product: <b>3-hydroxy-3-methylbutanal</b>.",
+  "x": [
+   "",
+   "Oxidation to the carboxylic acid needs aqueous chromic acid (Jones reagent). PCC stops at the aldehyde.",
+   "PCC is not a dehydrating reagent, and this structure still contains the primary OH that PCC oxidizes.",
+   "The primary OH does react with PCC. Only the tertiary OH is untouched."
+  ]
+ },
+ {
+  "id": "z8-05",
+  "t": "alcohols",
+  "d": 2,
+  "k": 0,
+  "q": "Which reagents convert hexan-1-ol into hexanal in good yield?<br>I. PCC, CH<sub>2</sub>Cl<sub>2</sub><br>II. CrO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O, acetone (Jones reagent)<br>III. Dess–Martin periodinane, CH<sub>2</sub>Cl<sub>2</sub>",
+  "s": [
+   {
+    "smi": "OCCCCCC"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "O=CCCCCC"
+   }
+  ],
+  "c": [
+   "I and III only",
+   "I only",
+   "II only",
+   "I, II, and III"
+  ],
+  "h": "Which oxidations happen in water? An aldehyde in water forms a hydrate, which can be oxidized again.",
+  "w": "I works: PCC in dry CH<sub>2</sub>Cl<sub>2</sub> stops at the aldehyde. II does not: aqueous chromic acid oxidizes the aldehyde (through its hydrate) on to hexanoic acid. III works: Dess–Martin periodinane is a mild, anhydrous oxidant that stops at the aldehyde. Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "This misses III. Dess–Martin periodinane, like PCC, is anhydrous and stops at the aldehyde.",
+   "Jones reagent is the one that fails: in water the aldehyde hydrate is oxidized to the carboxylic acid.",
+   "This accepts II. Aqueous chromic acid takes a primary alcohol all the way to the carboxylic acid."
+  ]
+ },
+ {
+  "id": "z8-06",
+  "t": "alcohols",
+  "d": 2,
+  "k": 0,
+  "q": "cis-4-Methylcyclohexan-1-ol is treated with SOCl<sub>2</sub> in pyridine. Assuming the substitution occurs by backside (S<sub>N</sub>2) attack of chloride, which product forms?",
+  "s": [
+   {
+    "smi": "C[C@H]1CC[C@@H](O)CC1",
+    "cap": "cis"
+   },
+   {
+    "arrow": "SOCl<sub>2</sub>",
+    "below": "pyridine"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@H]1CC[C@H](Cl)CC1"
+   },
+   {
+    "smi": "C[C@H]1CC[C@@H](Cl)CC1"
+   },
+   {
+    "smi": "CC1CC=CCC1"
+   },
+   {
+    "smi": "C[C@H]1CC[C@@H](OS(Cl)=O)CC1"
+   }
+  ],
+  "h": "First the OH becomes a chlorosulfite leaving group (C–O bond untouched). Then chloride attacks the carbon from which side?",
+  "w": "SOCl<sub>2</sub> turns the OH into a chlorosulfite (–OS(O)Cl) without breaking the C–O bond, so the configuration is kept at that stage. In pyridine, chloride then displaces the chlorosulfite by backside attack, inverting the carbon. The cis alcohol therefore gives <b>trans-1-chloro-4-methylcyclohexane</b>.",
+  "x": [
+   "",
+   "The cis chloride would mean retention, which is not the outcome when chloride attacks from the back as stated.",
+   "Elimination is a side reaction at best here; pyridine is a weak base and chloride substitution is the main path.",
+   "The chlorosulfite is an intermediate. With chloride present it is displaced, releasing SO<sub>2</sub> and Cl<sup>−</sup>."
+  ]
+ },
+ {
+  "id": "z8-07",
+  "t": "alcohols",
+  "d": 3,
+  "k": 0,
+  "q": "trans-2-Methylcyclopentan-1-ol is treated with TsCl in pyridine, and the product is heated with NaN<sub>3</sub> in DMSO. Which structure shows the major product?",
+  "s": [
+   {
+    "smi": "C[C@H]1CCC[C@@H]1O",
+    "cap": "trans (racemic)"
+   },
+   {
+    "arrow": "1. TsCl, pyridine",
+    "below": "2. NaN<sub>3</sub>, DMSO"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@H]1CCC[C@H]1N=[N+]=[N-]",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "C[C@H]1CCC[C@@H]1N=[N+]=[N-]",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "CC1(N=[N+]=[N-])CCCC1"
+   },
+   {
+    "smi": "C[C@H]1CCC[C@@H]1[1*]",
+    "ab": [
+     "OTs"
+    ],
+    "cap": "+ enantiomer"
+   }
+  ],
+  "h": "Count the inversions: does making the tosylate touch the C–O bond? What does azide do to the carbon bearing OTs?",
+  "w": "Tosylation forms an O–S bond; the C–O bond is not broken, so the tosylate keeps the trans configuration. Azide is an excellent nucleophile and weak base, and in DMSO it displaces tosylate by S<sub>N</sub>2 with inversion. One inversion turns trans into cis: <b>cis-1-azido-2-methylcyclopentane</b> (racemic, since the starting alcohol was racemic).",
+  "x": [
+   "",
+   "The trans azide would require two inversions or none. Tosylation goes with retention and the S<sub>N</sub>2 step inverts once.",
+   "Azide on the methyl-bearing carbon would need a carbocation and a hydride shift. A secondary tosylate with a strong nucleophile in DMSO reacts by S<sub>N</sub>2, without a cation.",
+   "The tosylate is only the intermediate after step 1. Heating with azide, an excellent nucleophile, displaces the tosylate group."
+  ]
+ },
+ {
+  "id": "z8-08",
+  "t": "alcohols",
+  "d": 3,
+  "k": 0,
+  "q": "What is the final product of this sequence starting from 4-bromobutan-1-ol?",
+  "s": [
+   {
+    "smi": "OCCCCBr"
+   },
+   {
+    "arrow": "1. TBSCl, imidazole",
+    "below": "2. Mg, ether"
+   },
+   {
+    "arrow": "3. acetone; then H<sub>3</sub>O<sup>+</sup>",
+    "below": "4. Bu<sub>4</sub>N<sup>+</sup> F<sup>−</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OCCCCC(C)(C)O"
+   },
+   {
+    "smi": "OCCCC"
+   },
+   {
+    "smi": "CC(C)(O)CCCCO[Si](C)(C)C(C)(C)C"
+   },
+   {
+    "smi": "CCCCC(C)(C)O"
+   }
+  ],
+  "h": "Follow the protecting group: why is it needed for step 2, and what does fluoride do at the end?",
+  "w": "A Grignard reagent is destroyed by an O–H proton, so the alcohol is first protected as a TBS (tert-butyldimethylsilyl) ether. The protected bromide then forms a Grignard reagent, which adds to acetone to give a tertiary alkoxide (protonated on workup). Fluoride (TBAF) cleaves the strong Si–O bond and frees the primary OH. Product: <b>2-methylhexane-2,6-diol</b>.",
+  "x": [
+   "",
+   "Butan-1-ol is what results without protection: the Grignard reagent is protonated by an OH group before it can add to acetone.",
+   "This structure still carries the TBS group. Step 4, fluoride, removes it because the Si–F bond is stronger than Si–O.",
+   "Fluoride removes the silyl group, not the oxygen. The C–O bond of the protected alcohol survives, so the primary OH returns."
+  ]
+ },
+ {
+  "id": "z8-09",
+  "t": "alcohols",
+  "d": 2,
+  "k": 0,
+  "q": "Cyclohexylmethanol was treated with one reagent. The product's IR spectrum is shown (no absorption from 3200 to 3600 cm<sup>−1</sup>). Which reagent was used?",
+  "s": [
+   {
+    "smi": "OCC1CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   "product"
+  ],
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2930,
+      "str": "s"
+     },
+     {
+      "cm": 2855,
+      "str": "m"
+     },
+     {
+      "cm": 2815,
+      "str": "w"
+     },
+     {
+      "cm": 2715,
+      "str": "w"
+     },
+     {
+      "cm": 1728,
+      "str": "s"
+     },
+     {
+      "cm": 1450,
+      "str": "m"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "PCC, CH<sub>2</sub>Cl<sub>2</sub>",
+   "CrO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>, H<sub>2</sub>O",
+   "NaBH<sub>4</sub>, CH<sub>3</sub>OH",
+   "concentrated H<sub>2</sub>SO<sub>4</sub>, heat"
+  ],
+  "h": "Read the bands at 2815 and 2715 cm<sup>−1</sup> together with the band at 1728 cm<sup>−1</sup>. What functional group shows all three?",
+  "w": "The strong band at 1728 cm<sup>−1</sup> is a C=O stretch, and the pair of weak bands near 2815 and 2715 cm<sup>−1</sup> is the aldehyde C–H stretch. There is no O–H band. The product is cyclohexanecarbaldehyde, so the reagent oxidized the primary alcohol and stopped at the aldehyde: <b>PCC in CH<sub>2</sub>Cl<sub>2</sub></b>.",
+  "x": [
+   "",
+   "Jones reagent gives cyclohexanecarboxylic acid, whose spectrum shows a very broad O–H band from about 2500 to 3300 cm<sup>−1</sup>.",
+   "NaBH<sub>4</sub> does not react with an alcohol; the spectrum would still show the broad O–H band near 3350 cm<sup>−1</sup> and no C=O.",
+   "Acid and heat dehydrate the alcohol to an alkene (C=C near 1650 cm<sup>−1</sup>, =C–H above 3000 cm<sup>−1</sup>), with no C=O band."
+  ]
+ },
+ {
+  "id": "z8-10",
+  "t": "alcohols",
+  "d": 1,
+  "k": 0,
+  "q": "What is the product of methyl 5-oxohexanoate with excess LiAlH<sub>4</sub> in ether, followed by aqueous acid workup?",
+  "s": [
+   {
+    "smi": "CC(=O)CCCC(=O)OC"
+   },
+   {
+    "arrow": "1. LiAlH<sub>4</sub>, ether",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(O)CCCCO"
+   },
+   {
+    "smi": "CC(O)CCCC(=O)OC"
+   },
+   {
+    "smi": "CC(=O)CCCCO"
+   },
+   {
+    "smi": "CC(O)CCCC=O"
+   }
+  ],
+  "h": "LiAlH<sub>4</sub> is the strong hydride reagent. Which carbonyl groups can it reduce, and how far?",
+  "w": "LiAlH<sub>4</sub> reduces both the ketone (to a secondary alcohol) and the ester (through the aldehyde to a primary alcohol, with loss of methanol). Product: <b>hexane-1,5-diol</b>.",
+  "x": [
+   "",
+   "Reducing only the ketone is what NaBH<sub>4</sub> does. LiAlH<sub>4</sub> also reduces the ester.",
+   "LiAlH<sub>4</sub> does not leave a ketone untouched; ketones are more reactive than esters toward hydride.",
+   "The aldehyde formed from the ester is more reactive than the ester and is reduced at once by LiAlH<sub>4</sub>."
+  ]
+ },
+ {
+  "id": "z8-11",
+  "t": "alcohols",
+  "d": 1,
+  "k": 0,
+  "q": "To prepare sodium ethoxide for a Williamson ether synthesis, which base converts ethanol (pK<sub>a</sub> ≈ 16) <b>essentially completely</b> into its conjugate base?",
+  "s": [
+   {
+    "smi": "CCO"
+   },
+   {
+    "arrow": "base"
+   },
+   {
+    "smi": "CC[O-].[Na+]"
+   }
+  ],
+  "c": [
+   "NaH (conjugate acid H<sub>2</sub>, pK<sub>a</sub> ≈ 35)",
+   "NaOH (conjugate acid H<sub>2</sub>O, pK<sub>a</sub> ≈ 15.7)",
+   "NaHCO<sub>3</sub> (conjugate acid H<sub>2</sub>CO<sub>3</sub>, pK<sub>a</sub> ≈ 6.4)",
+   "CH<sub>3</sub>CO<sub>2</sub>Na (conjugate acid CH<sub>3</sub>CO<sub>2</sub>H, pK<sub>a</sub> ≈ 4.8)"
+  ],
+  "h": "An acid–base equilibrium favors the side with the weaker acid. Compare each conjugate acid's pK<sub>a</sub> with 16.",
+  "w": "Deprotonation is complete when the conjugate acid of the base is much weaker than ethanol. H<sub>2</sub> (pK<sub>a</sub> ≈ 35) is about 10<sup>19</sup> times weaker, and it leaves as a gas, so <b>NaH</b> converts ethanol fully to sodium ethoxide.",
+  "x": [
+   "",
+   "Water (15.7) and ethanol (≈16) are about equally acidic, so NaOH gives an equilibrium mixture with much ethanol and hydroxide left.",
+   "Carbonic acid (6.4) is a far stronger acid than ethanol; the equilibrium lies almost entirely on the ethanol side.",
+   "Acetic acid (4.8) is a much stronger acid than ethanol, so acetate cannot deprotonate ethanol to any useful extent."
+  ]
+ },
+ {
+  "id": "z8-12",
+  "t": "alcohols",
+  "d": 3,
+  "k": 0,
+  "q": "2-Methyl-1,1-diphenylpropane-1,2-diol is warmed with H<sub>2</sub>SO<sub>4</sub> (pinacol rearrangement). What is the major product?",
+  "s": [
+   {
+    "smi": "CC(C)(O)C(O)(c1ccccc1)c1ccccc1"
+   },
+   {
+    "arrow": "H<sub>2</sub>SO<sub>4</sub>",
+    "below": "warm"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(=O)C(C)(c1ccccc1)c1ccccc1"
+   },
+   {
+    "smi": "CC(C)(c1ccccc1)C(=O)c1ccccc1"
+   },
+   {
+    "smi": "C=C(C)C(O)(c1ccccc1)c1ccccc1"
+   },
+   {
+    "smi": "CC1(C)OC1(c1ccccc1)c1ccccc1"
+   }
+  ],
+  "h": "Both OH groups are tertiary. Which one leaves to give the more stable carbocation? Then decide which group on the neighbouring carbon shifts to it.",
+  "w": "Water leaves from the carbon that carries two phenyl groups, because that tertiary cation is also stabilized by resonance into both rings; the (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup> alternative has no resonance. A methyl group on the neighbouring C(OH)(CH<sub>3</sub>)<sub>2</sub> carbon then shifts to the cationic carbon, leaving a cation on the carbon bearing OH, which is really a protonated ketone. Loss of H<sup>+</sup> gives <b>3,3-diphenylbutan-2-one</b>, (C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>C(CH<sub>3</sub>)COCH<sub>3</sub>.",
+  "x": [
+   "",
+   "This ketone would form if the OH on the dimethyl carbon left first and a phenyl shifted. That route starts from the less stable carbocation, which has no resonance.",
+   "This allylic alcohol needs the (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup> cation to lose a methyl H. That cation is not the one formed, and in a 1,2-diol a 1,2-shift to a protonated ketone wins.",
+   "Acid does not close a diol to a strained epoxide; acid opens epoxides. The carbocation instead rearranges to the carbonyl compound."
+  ]
+ },
+ {
+  "id": "z8-13",
+  "t": "ethers",
+  "d": 1,
+  "k": 0,
+  "q": "Which combination gives the best yield of methoxycyclohexane?",
+  "s": [
+   {
+    "smi": "COC1CCCCC1",
+    "cap": "methoxycyclohexane"
+   }
+  ],
+  "c": [
+   "sodium cyclohexoxide + CH<sub>3</sub>I",
+   "bromocyclohexane + NaOCH<sub>3</sub>",
+   "cyclohexanol + CH<sub>3</sub>I (no base)",
+   "cyclohexanol + CH<sub>3</sub>OH, H<sub>2</sub>SO<sub>4</sub>, heat"
+  ],
+  "h": "The Williamson synthesis is S<sub>N</sub>2. Which carbon should carry the leaving group?",
+  "w": "In a Williamson synthesis the alkoxide attacks an alkyl halide by S<sub>N</sub>2, so the halide should be on the less hindered carbon. Methyl iodide is ideal (no β-H, no hindrance), and the bulky secondary part is supplied as the nucleophile: <b>sodium cyclohexoxide + CH<sub>3</sub>I</b>.",
+  "x": [
+   "",
+   "Methoxide with a secondary bromide gives mostly cyclohexene by E2, because methoxide is a strong base and the secondary carbon is hindered.",
+   "A neutral alcohol is a poor nucleophile; without a base to make the alkoxide, the reaction is very slow.",
+   "Acid-catalyzed condensation of two different alcohols gives a mixture of three ethers plus cyclohexene from dehydration of the secondary alcohol."
+  ]
+ },
+ {
+  "id": "z8-14",
+  "t": "ethers",
+  "d": 2,
+  "k": 0,
+  "q": "2,2-Dimethyloxirane reacts with sodium methoxide in methanol. Which drawing shows the ring-opening step correctly?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[O-:51].[CH2:52]1[C:53](C)(C)[O:54]1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "C[O-:51].[CH2:52]1[C:53](C)(C)[O:54]1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "C[O-:51].[CH2:52]1[C:53](C)(C)[O:54]1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "C[O-:51].[CH2:52]1[C:53](C)(C)[O:54]1",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   }
+  ],
+  "h": "Under basic conditions the epoxide is not protonated, so the reaction is a plain S<sub>N</sub>2. Which carbon is easier to reach?",
+  "w": "A strong nucleophile opens an unprotonated epoxide by S<sub>N</sub>2 at the less hindered carbon, here the CH<sub>2</sub>. The C–O bond to that same carbon breaks and the ring oxygen becomes an alkoxide: <b>CH<sub>3</sub>O<sup>−</sup> → CH<sub>2</sub>; CH<sub>2</sub>–O bond → O</b>. Protonation by methanol gives 1-methoxy-2-methylpropan-2-ol.",
+  "x": [
+   "",
+   "Attack at the tertiary carbon is the acid-catalyzed regiochemistry. Without acid, S<sub>N</sub>2 at the crowded tertiary carbon is much slower.",
+   "Methoxide does not bond to the epoxide oxygen; an O–O bond would form and no ring strain would be released.",
+   "Methoxide attacks the CH<sub>2</sub> but the bond broken is the other C–O bond, leaving CH<sub>2</sub> with five bonds and the tertiary carbon with three."
+  ]
+ },
+ {
+  "id": "z8-15",
+  "t": "ethers",
+  "d": 3,
+  "k": 0,
+  "q": "1-Methyl-7-oxabicyclo[4.1.0]heptane (1-methylcyclohexene oxide) is treated with CH<sub>3</sub>OH and a catalytic amount of H<sub>2</sub>SO<sub>4</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "CC12CCCCC1O2"
+   },
+   {
+    "arrow": "CH<sub>3</sub>OH",
+    "below": "H<sub>2</sub>SO<sub>4</sub> (cat.)"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@]1(OC)CCCC[C@@H]1O",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "C[C@@]1(OC)CCCC[C@@H]1O",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "C[C@]1(O)CCCC[C@@H]1OC",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "C[C@@]1(O)CCCC[C@@H]1OC",
+    "cap": "+ enantiomer"
+   }
+  ],
+  "h": "Protonation of the epoxide gives the tertiary carbon substantial positive character. Where does methanol attack, and from which face?",
+  "w": "In acid the epoxide oxygen is protonated first. The C–O bond to the tertiary carbon is weakened most and that carbon carries the most δ+, so methanol attacks it, from the face opposite the oxygen (backside, anti). Product: <b>trans-2-methoxy-2-methylcyclohexan-1-ol</b> (OCH<sub>3</sub> on the methyl-bearing carbon, OH on the neighbouring carbon, trans), as a racemate.",
+  "x": [
+   "",
+   "Correct regiochemistry, but OCH<sub>3</sub> and OH are cis. Epoxide opening is backside attack, so the two oxygens end up trans.",
+   "This is the base-catalyzed regiochemistry (attack at the less hindered secondary carbon). In acid the tertiary carbon is attacked.",
+   "This has the base-type regiochemistry and syn stereochemistry; both differ from acid-catalyzed opening."
+  ]
+ },
+ {
+  "id": "z8-16",
+  "t": "ethers",
+  "d": 3,
+  "k": 0,
+  "q": "(R)-2-Methyloxirane is treated with sodium propynide (CH<sub>3</sub>C≡C<sup>−</sup> Na<sup>+</sup>) in THF, followed by aqueous NH<sub>4</sub>Cl. What is the product?",
+  "s": [
+   {
+    "smi": "C[C@@H]1CO1",
+    "cap": "(R)"
+   },
+   {
+    "arrow": "1. CH<sub>3</sub>C≡CNa, THF",
+    "below": "2. NH<sub>4</sub>Cl, H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "(R)-hex-4-yn-2-ol",
+   "(S)-hex-4-yn-2-ol",
+   "racemic hex-4-yn-2-ol",
+   "(R)-2-methylpent-3-yn-1-ol"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@@H](O)CC#CC"
+   },
+   {
+    "smi": "C[C@H](O)CC#CC"
+   },
+   null,
+   {
+    "smi": "C[C@H](C#CC)CO"
+   }
+  ],
+  "h": "Find the carbon the acetylide attacks. Are any bonds to the stereocenter made or broken?",
+  "w": "The acetylide is a strong nucleophile, so it opens the unprotonated epoxide by S<sub>N</sub>2 at the less hindered CH<sub>2</sub>. No bond to the stereocenter is broken, so its spatial arrangement is kept. The CIP priorities also keep the same order (O > CH<sub>2</sub> > CH<sub>3</sub> > H), so the descriptor stays R: <b>(R)-hex-4-yn-2-ol</b>.",
+  "x": [
+   "",
+   "Inversion happens only at the carbon that is attacked. The CH<sub>2</sub> is attacked; the stereocenter is not touched.",
+   "No carbocation forms and the stereocenter is never broken, so its configuration is not scrambled.",
+   "Attack at the substituted carbon is the acid-catalyzed regiochemistry. A basic carbon nucleophile attacks the less hindered CH<sub>2</sub>."
+  ]
+ },
+ {
+  "id": "z8-17",
+  "t": "ethers",
+  "d": 2,
+  "k": 0,
+  "q": "2-Ethoxy-2-methylpropane (tert-butyl ethyl ether) is treated with one equivalent of concentrated HI. Which products form?",
+  "s": [
+   {
+    "smi": "CCOC(C)(C)C"
+   },
+   {
+    "arrow": "HI (1 equiv)"
+   },
+   "?"
+  ],
+  "c": [
+   "(CH<sub>3</sub>)<sub>3</sub>CI + CH<sub>3</sub>CH<sub>2</sub>OH",
+   "(CH<sub>3</sub>)<sub>3</sub>COH + CH<sub>3</sub>CH<sub>2</sub>I",
+   "(CH<sub>3</sub>)<sub>3</sub>CI + CH<sub>3</sub>CH<sub>2</sub>I",
+   "(CH<sub>3</sub>)<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>I"
+  ],
+  "h": "After protonation of the ether oxygen, which C–O bond breaks? Think about which fragment can leave as a stable carbocation.",
+  "w": "HI protonates the ether oxygen. The C–O bond to the tertiary carbon breaks on its own (S<sub>N</sub>1), because it gives a stable tertiary carbocation and neutral ethanol leaves. Iodide traps the cation. Products: <b>tert-butyl iodide and ethanol</b>.",
+  "x": [
+   "",
+   "This is the S<sub>N</sub>2 pattern (iodide attacks the less hindered ethyl group). With a tertiary group present the S<sub>N</sub>1 cleavage at the tertiary carbon is much faster.",
+   "Converting ethanol to ethyl iodide needs a second equivalent of HI and heating; with one equivalent the alcohol remains.",
+   "HI cleaves a C–O bond; it does not substitute a C–H bond on the ethyl group."
+  ]
+ },
+ {
+  "id": "z8-18",
+  "t": "ethers",
+  "d": 2,
+  "k": 0,
+  "q": "Which routes give 1-methoxy-1-methylcyclopentane as the major product?<br>I. 1-chloro-1-methylcyclopentane + NaOCH<sub>3</sub><br>II. 1-methylcyclopentene; 1. Hg(OAc)<sub>2</sub>, CH<sub>3</sub>OH; 2. NaBH<sub>4</sub><br>III. 1-methylcyclopentan-1-ol; 1. NaH; 2. CH<sub>3</sub>I",
+  "s": [
+   {
+    "smi": "COC1(C)CCCC1",
+    "cap": "target"
+   }
+  ],
+  "c": [
+   "II and III only",
+   "I and II only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "For each route, identify the electrophilic carbon. Can a strong base do S<sub>N</sub>2 at a tertiary carbon?",
+  "w": "I fails: methoxide with a tertiary chloride gives E2 elimination (methylcyclopentenes), because backside attack at a tertiary carbon is blocked. II works: alkoxymercuration adds CH<sub>3</sub>O to the more substituted carbon (Markovnikov) without rearrangement, and NaBH<sub>4</sub> replaces Hg with H. III works: the tertiary alkoxide attacks CH<sub>3</sub>I by S<sub>N</sub>2 at the unhindered methyl carbon. Answer: <b>II and III only</b>.",
+  "x": [
+   "",
+   "This accepts I. A tertiary halide with a strong base eliminates; the Williamson synthesis needs the alkyl halide part to be methyl or primary.",
+   "This misses II. Alkoxymercuration–demercuration is a reliable Markovnikov route to ethers from alkenes.",
+   "This accepts I. Methoxide is a strong base, and with a tertiary chloride E2 dominates."
+  ]
+ },
+ {
+  "id": "z8-19",
+  "t": "ethers",
+  "d": 3,
+  "k": 0,
+  "q": "(Z)-But-2-ene is converted to an epoxide in two steps: 1. Br<sub>2</sub>, H<sub>2</sub>O; 2. NaOH. Which statements are correct?<br>I. Step 1 adds Br and OH anti to each other.<br>II. The epoxide formed is trans-2,3-dimethyloxirane.<br>III. In step 2 the alkoxide displaces bromide with inversion at the carbon that held Br.",
+  "s": [
+   {
+    "smi": "C/C=C\\C",
+    "cap": "(Z)"
+   },
+   {
+    "arrow": "1. Br<sub>2</sub>, H<sub>2</sub>O",
+    "below": "2. NaOH"
+   },
+   "epoxide"
+  ],
+  "c": [
+   "I and III only",
+   "I and II only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "Two stereospecific steps: an anti addition, then a backside intramolecular S<sub>N</sub>2. What is the net result relative to the alkene geometry?",
+  "w": "I is true: water opens the bromonium ion from the back, so Br and OH add anti. III is true: NaOH deprotonates the OH, and the alkoxide displaces bromide intramolecularly by backside attack, which needs O and Br anti and inverts that carbon. II is false: anti addition followed by one inversion is net syn, so the cis relationship of the methyls is kept and the product is cis-2,3-dimethyloxirane (meso), the same as from <i>m</i>CPBA. Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "This accepts II. Anti addition plus an inversion cancel out, so the Z alkene gives the cis epoxide.",
+   "This rejects I, but halohydrin formation is an anti addition via the bridged bromonium ion.",
+   "This accepts II. The two stereochemical steps cancel, so the epoxide keeps the cis geometry of the alkene."
+  ]
+ },
+ {
+  "id": "z8-20",
+  "t": "ethers",
+  "d": 3,
+  "k": 0,
+  "q": "1-Methyl-4-vinylcyclohex-1-ene is treated with <b>one</b> equivalent of <i>m</i>CPBA in CH<sub>2</sub>Cl<sub>2</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "CC1=CCC(C=C)CC1"
+   },
+   {
+    "arrow": "<i>m</i>CPBA (1 equiv)",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC12OC1CC(C=C)CC2"
+   },
+   {
+    "smi": "CC1=CCC(C2CO2)CC1"
+   },
+   {
+    "smi": "CC12OC1CC(C1CO1)CC2"
+   },
+   {
+    "smi": "CC1(O)CCC(C=C)CC1O"
+   }
+  ],
+  "h": "A peroxyacid is an electrophile. Which π bond is more electron-rich?",
+  "w": "Epoxidation by a peroxyacid is an electrophilic addition: the alkene's π electrons attack the electrophilic peroxide oxygen. Alkyl groups donate electron density, so a trisubstituted alkene reacts much faster than a monosubstituted one. With one equivalent the ring alkene is epoxidized and the vinyl group survives: <b>the ring epoxide (1-methyl-7-oxabicyclo[4.1.0]heptane bearing the vinyl group)</b>.",
+  "x": [
+   "",
+   "The monosubstituted vinyl group is the less electron-rich alkene, so it reacts more slowly with the electrophilic peroxyacid.",
+   "The diepoxide would need two equivalents of <i>m</i>CPBA; with one equivalent the faster-reacting ring alkene consumes it.",
+   "The trans diol forms only if the epoxide is opened by aqueous acid. <i>m</i>CPBA in CH<sub>2</sub>Cl<sub>2</sub> stops at the epoxide."
+  ]
+ }
+]

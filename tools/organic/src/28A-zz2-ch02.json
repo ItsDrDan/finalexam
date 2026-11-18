@@ -1,0 +1,570 @@
+[
+ {
+  "id": "zz2c2-01",
+  "t": "nomenclature",
+  "d": 3,
+  "k": 0,
+  "q": "Which structure is 4-ethyl-2,2,5-trimethylheptane?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(C)CC(CC)C(C)CC"
+   },
+   {
+    "smi": "CC(C)(C)CC(C)C(CC)CC"
+   },
+   {
+    "smi": "CCC(C)(C)C(CC)C(C)CC"
+   },
+   {
+    "smi": "CC(C)(C)CC(CC)C(C)C"
+   }
+  ],
+  "h": "Draw a seven-carbon chain, number it, and place the groups. Then check each choice: find its longest chain and number it from the end nearer the first branch.",
+  "w": "Heptane is a seven-carbon chain. C2 carries two methyls, C4 an ethyl and C5 a methyl. In <b>the structure with a tert-butyl end, one CH<sub>2</sub>, then CH(CH<sub>2</sub>CH<sub>3</sub>), then CH(CH<sub>3</sub>) followed by an ethyl end</b>, the longest chain has seven carbons, and numbering from the tert-butyl end gives locants 2,2,4,5 (the other direction gives 3,4,6,6). Of the others, one swaps the ethyl and methyl positions, one moves the gem-dimethyl to C3, and one has only a six-carbon parent chain.",
+  "x": [
+   "",
+   "Here the methyl is on C4 and the ethyl on C5: this is 5-ethyl-2,2,4-trimethylheptane.",
+   "The two methyls sit on C3, not C2. Numbered properly this is 4-ethyl-3,3,5-trimethylheptane.",
+   "The chain ends in an isopropyl group, so the longest chain has only six carbons: 4-ethyl-2,2,5-trimethylhexane."
+  ]
+ },
+ {
+  "id": "zz2c2-02",
+  "t": "nomenclature",
+  "d": 1,
+  "k": 0,
+  "q": "Which condensed formula is 2-bromo-4-methylhexane?",
+  "c": [
+   "CH<sub>3</sub>CHBrCH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CHBrCH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CH<sub>2</sub>CHBrCH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub>",
+   "CH<sub>3</sub>CHBrCH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>"
+  ],
+  "h": "Write a six-carbon chain and number it. Put Br on C2 and CH<sub>3</sub> on C4, then name each choice yourself, numbering from the end nearer the first substituent.",
+  "w": "Hexane is a six-carbon chain; the halogen is named as a prefix (bromo) and listed alphabetically with the alkyl group. Placing Br on C2 and a methyl on C4 gives CH<sub>3</sub>–CHBr–CH<sub>2</sub>–CH(CH<sub>3</sub>)–CH<sub>2</sub>–CH<sub>3</sub>. Numbered from the other end the locants would be 3 and 5, so 2,4 is the correct numbering: <b>CH<sub>3</sub>CHBrCH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub></b>.",
+  "x": [
+   "",
+   "Here the methyl is on C2 and Br on C4 (numbering from the end nearer the first substituent): 4-bromo-2-methylhexane. The two substituents have traded places.",
+   "Br and CH<sub>3</sub> are on adjacent carbons C3 and C4: 3-bromo-4-methylhexane.",
+   "Br and CH<sub>3</sub> are on adjacent carbons C2 and C3: 2-bromo-3-methylhexane. The methyl must be two carbons away from the C–Br carbon."
+  ]
+ },
+ {
+  "id": "zz2c2-03",
+  "t": "nomenclature",
+  "d": 2,
+  "k": 0,
+  "q": "Which structure is 4-chloro-1-methylcyclohexene?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1=CCC(Cl)CC1"
+   },
+   {
+    "smi": "CC1=CC(Cl)CCC1"
+   },
+   {
+    "smi": "CC1=CCCC(Cl)C1"
+   },
+   {
+    "smi": "ClC1=CCC(C)CC1"
+   }
+  ],
+  "h": "In a cycloalkene, C1 and C2 are the alkene carbons. Number through the double bond in the direction that gives the substituents the lowest locants.",
+  "w": "The double bond is between C1 and C2, and C1 carries the methyl. Continue around the ring from C2: C3, then C4 carries Cl. <b>The ring with the methyl on an alkene carbon and Cl on the carbon directly across the ring from it (1,4)</b> is the answer. Of the others, one has Cl at C3 (3-chloro-1-methylcyclohexene), one is 5-chloro-1-methylcyclohexene, and one swaps Cl and CH<sub>3</sub> (1-chloro-4-methylcyclohexene).",
+  "x": [
+   "",
+   "Here Cl is on the sp<sup>3</sup> carbon right next to the alkene: 3-chloro-1-methylcyclohexene.",
+   "Numbering through the double bond from the methyl carbon, Cl lands on C5 (the other direction gives 2,4, which loses at the first locant). This is 5-chloro-1-methylcyclohexene.",
+   "The chlorine is on the alkene carbon and the methyl is at C4: this is 1-chloro-4-methylcyclohexene."
+  ]
+ },
+ {
+  "id": "zz2c2-04",
+  "t": "nomenclature",
+  "d": 3,
+  "k": 0,
+  "q": "Haloperidol, an antipsychotic drug, is shown. Which choice correctly describes its functional groups?",
+  "s": [
+   {
+    "smi": "O=C(CCCN1CCC(O)(CC1)c1ccc(Cl)cc1)c1ccc(F)cc1"
+   }
+  ],
+  "c": [
+   "a ketone, a tertiary alcohol, a tertiary amine and two aryl halides",
+   "a ketone, a secondary alcohol, a tertiary amine and two aryl halides",
+   "a ketone, a tertiary alcohol, a secondary amine and two aryl halides",
+   "a ketone, a tertiary alcohol, a tertiary amine and two tertiary alkyl halides"
+  ],
+  "h": "Classify an alcohol by the carbons on the C–OH carbon, an amine by the carbons on N, and a halide by the kind of carbon bearing it.",
+  "w": "The C=O carbon is bonded to two carbons (the aryl ring and a CH<sub>2</sub>), so it is a ketone. The OH carbon in the piperidine ring is bonded to three carbons (two ring CH<sub>2</sub> groups and the aryl ring), so the alcohol is tertiary. The ring nitrogen is bonded to three carbons (two ring carbons and the side chain), so the amine is tertiary. F and Cl are bonded directly to benzene carbons, so they are aryl halides. Answer: <b>a ketone, a tertiary alcohol, a tertiary amine and two aryl halides</b>.",
+  "x": [
+   "",
+   "The C–OH carbon has no H: it is bonded to two ring carbons and the chlorophenyl ring, which makes the alcohol tertiary.",
+   "The piperidine N has no N–H; its three bonds all go to carbon, so the amine is tertiary.",
+   "Both halogens are on sp<sup>2</sup> benzene carbons, which makes them aryl halides; a tertiary alkyl halide has X on an sp<sup>3</sup> carbon bonded to three carbons."
+  ]
+ },
+ {
+  "id": "zz2c2-05",
+  "t": "nomenclature",
+  "d": 2,
+  "k": 0,
+  "q": "Which compound contains both a lactone and a tertiary amine?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C1CCC(CN(C)C)O1"
+   },
+   {
+    "smi": "O=C1CCC(CNC)O1"
+   },
+   {
+    "smi": "CN(C)CC1CCC(=O)N1"
+   },
+   {
+    "smi": "CN(C)CC1CCC(=O)CO1"
+   }
+  ],
+  "h": "A lactone is a cyclic ester: the ring contains O bonded to a C=O. A tertiary amine N carries three carbons and no H.",
+  "w": "<b>The five-membered ring with O–C(=O) in the ring and a CH<sub>2</sub>N(CH<sub>3</sub>)<sub>2</sub> side chain</b> has both: the ring oxygen bonded to the carbonyl carbon makes a cyclic ester (lactone), and the N bonded to three carbons is a tertiary amine. One distractor has a secondary amine (N–H), one has an N–H in the ring next to C=O (a lactam, a cyclic amide), and one has a ring ether with a ketone carbon that is not bonded to the ring oxygen.",
+  "x": [
+   "",
+   "The lactone is right, but the side-chain N carries an H and only two carbons, so it is a secondary amine.",
+   "The ring contains N–C(=O), which is a lactam (cyclic amide), not a lactone.",
+   "In this ring the C=O carbon is bonded to two carbons, so it is a ketone; the ring oxygen is an ether, not part of an ester."
+  ]
+ },
+ {
+  "id": "zz2c2-06",
+  "t": "nomenclature",
+  "d": 3,
+  "k": 0,
+  "q": "Menthol, the cooling compound in mint, is shown. How many tertiary (3°) carbons does it contain? (A tertiary carbon is bonded to exactly three other carbons.)",
+  "s": [
+   {
+    "smi": "CC(C)[C@@H]1CC[C@@H](C)C[C@H]1O"
+   }
+  ],
+  "c": [
+   "3",
+   "2",
+   "4",
+   "1"
+  ],
+  "h": "Go carbon by carbon and count carbon neighbors only; the O of the OH does not count.",
+  "w": "Count C–C bonds at each branch point. The isopropyl CH is bonded to two methyls and a ring carbon (3°). The ring carbon carrying the isopropyl group is bonded to two ring carbons and the isopropyl carbon (3°). The ring carbon carrying the methyl is bonded to two ring carbons and the methyl (3°). The C–OH carbon is bonded to only two carbons (plus O), so it is secondary. Answer: <b>3</b>.",
+  "x": [
+   "",
+   "This misses the isopropyl CH, which is bonded to two CH<sub>3</sub> groups and to the ring: three carbons.",
+   "This counts the C–OH carbon. It is bonded to only two carbons; the oxygen does not make it tertiary.",
+   "Each branching ring carbon also counts; only one of the three tertiary carbons is in the isopropyl group."
+  ]
+ },
+ {
+  "id": "zz2c2-07",
+  "t": "nomenclature",
+  "d": 1,
+  "k": 0,
+  "q": "The artificial sweetener aspartame is shown. Which functional group is NOT present?",
+  "s": [
+   {
+    "smi": "COC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](N)CC(=O)O"
+   }
+  ],
+  "c": [
+   "ketone",
+   "ester",
+   "amide",
+   "carboxylic acid"
+  ],
+  "h": "Look at every C=O and name it by what is bonded to the carbonyl carbon.",
+  "w": "Aspartame has three C=O groups. One carbonyl carbon is bonded to OCH<sub>3</sub> (a methyl ester), one is bonded to N–H (an amide, the peptide bond), and one is bonded to OH (a carboxylic acid). It also has a primary amine and a benzene ring. No carbonyl carbon is bonded to two carbons, so there is <b>no ketone</b>.",
+  "x": [
+   "",
+   "The C(=O)OCH<sub>3</sub> group at the phenylalanine end is a methyl ester.",
+   "The C(=O)–NH linking the two amino acids is an amide (peptide bond).",
+   "The CH<sub>2</sub>C(=O)OH side chain is a carboxylic acid."
+  ]
+ },
+ {
+  "id": "zz2c2-08",
+  "t": "nomenclature",
+  "d": 2,
+  "k": 0,
+  "q": "What is the IUPAC name of the compound shown?",
+  "s": [
+   {
+    "smi": "CC(O)CC(Cl)C=C"
+   }
+  ],
+  "c": [
+   "4-chlorohex-5-en-2-ol",
+   "3-chlorohex-1-en-5-ol",
+   "3-chloro-5-hydroxyhex-1-ene",
+   "3-chlorohex-5-en-2-ol"
+  ],
+  "h": "The OH is the principal group: it gets the suffix and the lowest possible locant, even if that gives the C=C a higher number.",
+  "w": "The six-carbon chain contains the OH, the C=C and the Cl. The alcohol is the highest-priority group, so it is named with the suffix -ol and must get the lowest locant. Numbering from the CH<sub>3</sub> end puts OH on C2 (from the other end it would be C5). Then Cl is on C4 and the double bond starts at C5. Name: <b>4-chlorohex-5-en-2-ol</b>.",
+  "x": [
+   "",
+   "This numbers from the alkene end. The OH outranks the C=C, so the OH (not the alkene) gets the lower locant.",
+   "When an alcohol is present, it must be the suffix (-ol); using the prefix hydroxy- here breaks the principal-group rule.",
+   "Counting from the CH<sub>3</sub> end, the Cl carbon is C4 (C2 carries OH, C3 is CH<sub>2</sub>), not C3."
+  ]
+ },
+ {
+  "id": "zz2c2-09",
+  "t": "nomenclature",
+  "d": 2,
+  "k": 0,
+  "q": "What is the IUPAC name of the compound shown (ignore stereochemistry)?",
+  "s": [
+   {
+    "smi": "OC1CCC(C)CC1C"
+   }
+  ],
+  "c": [
+   "2,4-dimethylcyclohexan-1-ol",
+   "4,6-dimethylcyclohexan-1-ol",
+   "1-hydroxy-2,4-dimethylcyclohexane",
+   "3,5-dimethylcyclohexan-1-ol"
+  ],
+  "h": "The carbon bearing OH is C1. Go around the ring in the direction that reaches a methyl soonest.",
+  "w": "The OH carbon is C1. Going toward the adjacent methyl puts the methyls at C2 and C4; the other direction gives C4 and C6. The set {2,4} is lower, so the name is <b>2,4-dimethylcyclohexan-1-ol</b>.",
+  "x": [
+   "",
+   "This goes around the ring the wrong way; {2,4} is lower than {4,6} at the first point of difference.",
+   "An OH principal group is named as the suffix -ol on the parent (cyclohexanol), not as a hydroxy prefix.",
+   "3,5-Dimethylcyclohexan-1-ol would have no methyl on a carbon next to C1. Here one methyl sits on the carbon directly beside the C–OH carbon, so the locants are 2 and 4."
+  ]
+ },
+ {
+  "id": "zz2c2-10",
+  "t": "nomenclature",
+  "d": 2,
+  "k": 0,
+  "q": "Which structure is <i>N</i>,2-dimethylbutan-1-amine?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CNCC(C)CC"
+   },
+   {
+    "smi": "CNCCC(C)C"
+   },
+   {
+    "smi": "CCCCN(C)C"
+   },
+   {
+    "smi": "NCC(C)(C)CC"
+   }
+  ],
+  "h": "The locant N means the group is on nitrogen; a number means it is on that carbon of the chain. C1 is the carbon bonded to N.",
+  "w": "Butan-1-amine has N on C1 of a four-carbon chain. 2-Methyl places a methyl on C2, and <i>N</i>-methyl places a methyl on the nitrogen. The compound <b>CH<sub>3</sub>NH–CH<sub>2</sub>–CH(CH<sub>3</sub>)–CH<sub>2</sub>CH<sub>3</sub></b> fits. The others put the carbon methyl on C3, put both methyls on nitrogen, or put both methyls on C2 with no N-methyl.",
+  "x": [
+   "",
+   "Here the C-methyl is on C3 (third carbon from N): <i>N</i>,3-dimethylbutan-1-amine.",
+   "Both methyls are on nitrogen: <i>N</i>,<i>N</i>-dimethylbutan-1-amine, a tertiary amine.",
+   "This is a primary amine with two methyls on C2: 2,2-dimethylbutan-1-amine; it has no <i>N</i>-methyl group."
+  ]
+ },
+ {
+  "id": "zz2c2-11",
+  "t": "nomenclature",
+  "d": 2,
+  "k": 0,
+  "q": "Which statements about the compound shown are correct?<br>I. The alcohol is secondary.<br>II. The amine is secondary.<br>III. The chlorine is bonded to a primary carbon.",
+  "s": [
+   {
+    "smi": "CC(O)CN(C)CCCl"
+   }
+  ],
+  "c": [
+   "I and III only",
+   "I only",
+   "I, II, and III",
+   "III only"
+  ],
+  "h": "Alcohols and halides are classified by the carbon that bears the OH or X; amines by how many carbons are bonded to N.",
+  "w": "I is true: the C–OH carbon is bonded to two carbons (CH<sub>3</sub> and CH<sub>2</sub>), so the alcohol is secondary. II is false: the nitrogen is bonded to three carbons (the CH<sub>2</sub> on each side and a CH<sub>3</sub>) and has no N–H, so it is a tertiary amine. III is true: the C–Cl carbon is bonded to only one other carbon, so it is a primary alkyl chloride. Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true: the CH<sub>2</sub>Cl carbon is attached to just one carbon, so it is primary.",
+   "Statement II is false: amines are classified by the number of carbons on nitrogen, and this N has three, so it is tertiary.",
+   "Statement I is also true: the carbinol carbon carries a CH<sub>3</sub> and a CH<sub>2</sub>, two carbons, so the alcohol is secondary."
+  ]
+ },
+ {
+  "id": "zz2c2-12",
+  "t": "structure",
+  "d": 1,
+  "k": 0,
+  "q": "Which intermolecular forces act between molecules in pure liquid triethylamine, (CH<sub>3</sub>CH<sub>2</sub>)<sub>3</sub>N?",
+  "s": [
+   {
+    "smi": "CCN(CC)CC"
+   }
+  ],
+  "c": [
+   "dispersion and dipole–dipole forces only",
+   "dispersion forces only",
+   "dispersion, dipole–dipole forces and hydrogen bonding",
+   "hydrogen bonding and dispersion forces only"
+  ],
+  "h": "To donate a hydrogen bond, a molecule needs H bonded directly to N, O or F.",
+  "w": "All molecules have dispersion forces. Triethylamine is a pyramidal molecule with polar C–N bonds and a lone pair, so it has a net dipole and shows dipole–dipole attractions. It has no N–H bond, so its molecules cannot hydrogen-bond to each other (the N can only accept an H bond from a donor such as water). Answer: <b>dispersion and dipole–dipole forces only</b>.",
+  "x": [
+   "",
+   "The pyramidal N with a lone pair gives triethylamine a net dipole moment, so dipole–dipole forces are also present.",
+   "Hydrogen bonding between molecules of the pure amine needs an N–H donor; a tertiary amine has none.",
+   "A tertiary amine has no N–H, so there is no hydrogen bonding in the pure liquid; its permanent dipole gives dipole–dipole forces instead."
+  ]
+ },
+ {
+  "id": "zz2c2-13",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "Which of these compounds can form hydrogen bonds between molecules of the same compound in the pure liquid?<br>I. ethyl acetate, CH<sub>3</sub>CO<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub><br>II. propanamide, CH<sub>3</sub>CH<sub>2</sub>CONH<sub>2</sub><br>III. methylamine, CH<sub>3</sub>NH<sub>2</sub>",
+  "c": [
+   "II and III only",
+   "II only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "A pure liquid can hydrogen-bond to itself only if its molecules have both an acceptor (lone pair on N, O, F) and a donor (H on N, O or F).",
+  "w": "I is false: ethyl acetate has O acceptors but every H is on carbon, so it has no donor. II is true: the amide NH<sub>2</sub> donates and the C=O oxygen accepts, so amides hydrogen-bond strongly. III is true: methylamine has N–H donors and an N lone pair acceptor. Answer: <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement III is misjudged: methylamine has two N–H bonds and a lone pair, so it is both donor and acceptor.",
+   "Statement II is misjudged: the NH<sub>2</sub> of a primary amide is a good donor and the C=O is a good acceptor.",
+   "Statement I is misjudged: an ester can accept hydrogen bonds (from water, for example) but has no O–H or N–H to donate, so it cannot hydrogen-bond to itself."
+  ]
+ },
+ {
+  "id": "zz2c2-14",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "These three isomeric amines (C<sub>3</sub>H<sub>9</sub>N) have the same molar mass. Rank them from lowest to highest boiling point.",
+  "s": [
+   {
+    "smi": "CCCN",
+    "cap": "I"
+   },
+   {
+    "smi": "CCNC",
+    "cap": "II"
+   },
+   {
+    "smi": "CN(C)C",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "III &lt; II &lt; I",
+   "I &lt; II &lt; III",
+   "II &lt; III &lt; I",
+   "III &lt; I &lt; II"
+  ],
+  "h": "Count N–H bonds in each isomer, then consider how compact each molecule is.",
+  "w": "Primary amine I (propan-1-amine) has two N–H donors and the most surface area, so it boils highest (48 °C). Secondary amine II (<i>N</i>-methylethanamine) has one N–H, so it forms fewer hydrogen bonds (36 °C). Tertiary amine III (trimethylamine) has no N–H and cannot hydrogen-bond to itself; it is also the most compact, so it boils far lower (3 °C). Ranking: <b>III &lt; II &lt; I</b>.",
+  "x": [
+   "",
+   "This is the reverse order. More N–H bonds mean more hydrogen bonding and a higher boiling point, so the primary amine is highest.",
+   "Trimethylamine has no N–H and cannot hydrogen-bond to itself, so it must have the lowest boiling point, not a middle one.",
+   "The primary amine has two N–H donors versus one for II, so I boils higher than II."
+  ]
+ },
+ {
+  "id": "zz2c2-15",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "Which compound has the highest boiling point?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OCC(O)CO"
+   },
+   {
+    "smi": "CCCCCCO"
+   },
+   {
+    "smi": "CCCCCCC"
+   },
+   {
+    "smi": "OCCO"
+   }
+  ],
+  "h": "Molar mass matters, but the number of O–H groups per molecule matters more when the masses are similar.",
+  "w": "<b>Propane-1,2,3-triol (glycerol)</b> (92 g/mol) has three O–H groups, so each molecule forms a dense network of hydrogen bonds; it boils near 290 °C. Ethane-1,2-diol (62 g/mol, two OH) boils at 197 °C, hexan-1-ol (102 g/mol, one OH) at 157 °C, and heptane (100 g/mol, dispersion forces only) at 98 °C.",
+  "x": [
+   "",
+   "Hexan-1-ol is the heaviest alcohol here, but with only one O–H it forms far fewer hydrogen bonds than glycerol (157 °C vs about 290 °C).",
+   "Heptane has the largest molar mass but only dispersion forces, so it boils lowest of the four.",
+   "Ethane-1,2-diol has two O–H groups and boils high (197 °C), but glycerol has three and a larger mass."
+  ]
+ },
+ {
+  "id": "zz2c2-16",
+  "t": "structure",
+  "d": 1,
+  "k": 0,
+  "q": "Which compound is least soluble in hexane?",
+  "c": [
+   "ethane-1,2-diol (HOCH<sub>2</sub>CH<sub>2</sub>OH)",
+   "diethyl ether",
+   "toluene",
+   "1-chlorobutane"
+  ],
+  "h": "Like dissolves like: hexane offers only dispersion forces.",
+  "w": "Hexane is nonpolar and attracts solutes only by dispersion forces. To dissolve in it, a compound must give up its own attractions. <b>Ethane-1,2-diol</b> is held together by strong hydrogen bonds from two OH groups per molecule, and hexane cannot replace them, so the two liquids are nearly immiscible. Diethyl ether, toluene and 1-chlorobutane are mostly hydrocarbon and mix freely with hexane.",
+  "x": [
+   "",
+   "Diethyl ether has a small dipole and no O–H; its two ethyl groups make it fully miscible with hexane.",
+   "Toluene is a nonpolar hydrocarbon held together by dispersion forces, just like hexane, so it mixes freely.",
+   "1-Chlorobutane is only weakly polar and has no hydrogen bonding, so it dissolves readily in hexane."
+  ]
+ },
+ {
+  "id": "zz2c2-17",
+  "t": "structure",
+  "d": 2,
+  "k": 0,
+  "q": "Dodecan-1-amine, CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub>NH<sub>2</sub>, is insoluble in water but dissolves in dilute aqueous HCl. What is the best explanation?",
+  "c": [
+   "HCl converts it to an alkylammonium chloride, whose ions are held in water by ion–dipole forces",
+   "HCl breaks the hydrogen bonds between amine molecules, freeing them to hydrogen-bond with water",
+   "HCl adds Cl to the alkyl chain, making the chain polar enough to dissolve",
+   "HCl converts the amine into an amide, which hydrogen-bonds strongly to water"
+  ],
+  "h": "What does an amine do with a strong acid? Compare a neutral molecule and an ion in water.",
+  "w": "An amine is a base. HCl protonates the nitrogen to give CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub>NH<sub>3</sub><sup>+</sup> Cl<sup>−</sup>, an ionic salt. Water molecules orient their partial charges around the ions; these ion–dipole attractions are much stronger than the hydrogen bonds the neutral amine can make, and they pull the long chain into solution. Answer: <b>it becomes an alkylammonium chloride held in water by ion–dipole forces</b>. Basifying the solution with NaOH would bring the neutral amine back out.",
+  "x": [
+   "",
+   "The neutral amine already can hydrogen-bond with water through its NH<sub>2</sub>; the C<sub>12</sub> chain is what keeps it insoluble. Only forming an ion changes that.",
+   "HCl does not react with a saturated alkyl chain; it reacts with the basic nitrogen lone pair.",
+   "An amide needs a carbonyl group; HCl only protonates the amine, giving an ammonium salt."
+  ]
+ },
+ {
+  "id": "zz2c2-18",
+  "t": "structure",
+  "d": 3,
+  "k": 0,
+  "q": "These three compounds have nearly the same molar mass (72–74 g/mol). Rank them from least to most soluble in water.",
+  "s": [
+   {
+    "smi": "CCCCC",
+    "cap": "I"
+   },
+   {
+    "smi": "CCOCC",
+    "cap": "II"
+   },
+   {
+    "smi": "C1CCOC1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III",
+   "I &lt; III &lt; II",
+   "II &lt; I &lt; III",
+   "III &lt; II &lt; I"
+  ],
+  "h": "Neither ether can donate a hydrogen bond, but both can accept one from water. Which oxygen is easier for water to reach?",
+  "w": "Pentane (I) has no polar group and is almost insoluble (about 0.04 g/L). Diethyl ether (II) can accept hydrogen bonds from water at its oxygen, so it dissolves moderately (about 69 g/L). Tetrahydrofuran (III) has the same C<sub>4</sub>O composition, but its alkyl groups are tied back into a ring, so the oxygen lone pairs are exposed and less shielded by flexible ethyl groups; THF is miscible with water in all proportions. Ranking: <b>I &lt; II &lt; III</b>.",
+  "x": [
+   "",
+   "THF is more soluble than diethyl ether: tying the carbons into a ring leaves its oxygen more exposed for hydrogen bonds from water.",
+   "Pentane has no way to interact with water except weak dispersion forces, so it is the least soluble, below diethyl ether.",
+   "This is the reverse order; the hydrocarbon is least soluble and the cyclic ether is most soluble."
+  ]
+ },
+ {
+  "id": "zz2c2-19",
+  "t": "structure",
+  "d": 3,
+  "k": 0,
+  "q": "2-Nitrophenol boils at about 216 °C, while its isomer 4-nitrophenol boils at about 279 °C. What is the best explanation?",
+  "s": [
+   {
+    "smi": "Oc1ccccc1[N+](=O)[O-]",
+    "cap": "2-nitrophenol"
+   },
+   {
+    "smi": "Oc1ccc(cc1)[N+](=O)[O-]",
+    "cap": "4-nitrophenol"
+   }
+  ],
+  "c": [
+   "The O–H of 2-nitrophenol hydrogen-bonds to its own nitro group, so it forms fewer hydrogen bonds to other molecules",
+   "4-Nitrophenol has a larger molar mass, so its dispersion forces are stronger",
+   "2-Nitrophenol has no net dipole moment because its two groups are next to each other",
+   "The nitro group of 4-nitrophenol makes its O–H a weaker acid, so it hydrogen-bonds more strongly"
+  ],
+  "h": "The two isomers have the same atoms and the same groups. Look at how close the OH is to the nitro oxygens in each.",
+  "w": "In 2-nitrophenol the OH and NO<sub>2</sub> are on adjacent carbons, so the O–H forms an intramolecular hydrogen bond to a nitro oxygen (a six-membered ring). That H is then mostly unavailable for hydrogen bonds to neighboring molecules. In 4-nitrophenol the groups are too far apart, so each O–H hydrogen-bonds to other molecules, which raises the boiling point. Answer: <b>2-nitrophenol forms an intramolecular hydrogen bond, leaving fewer intermolecular hydrogen bonds</b>. (The same effect lets 2-nitrophenol be separated from the 4-isomer by steam distillation.)",
+  "x": [
+   "",
+   "They are isomers (both C<sub>6</sub>H<sub>5</sub>NO<sub>3</sub>, 139 g/mol), so molar mass cannot explain the difference.",
+   "Ortho-disubstituted benzenes with polar groups do have net dipoles; the OH and NO<sub>2</sub> dipoles do not cancel.",
+   "A para nitro group makes the phenol more acidic, not less; and acidity is not what sets the boiling point here."
+  ]
+ },
+ {
+  "id": "zz2c2-20",
+  "t": "nomenclature",
+  "d": 2,
+  "k": 0,
+  "q": "What is the IUPAC name of the compound shown?",
+  "s": [
+   {
+    "smi": "C=CC(C)C=C(C)C"
+   }
+  ],
+  "c": [
+   "3,5-dimethylhexa-1,4-diene",
+   "2,4-dimethylhexa-2,5-diene",
+   "4-ethenyl-2-methylpent-2-ene",
+   "3,5-dimethylhepta-1,4-diene"
+  ],
+  "h": "Choose a parent chain that contains both C=C bonds, then number to give the double bonds the lowest locants.",
+  "w": "The longest chain that includes both double bonds has six carbons (it runs from the =CH<sub>2</sub> to one of the methyls on the far alkene carbon). Numbering from the =CH<sub>2</sub> end gives the double bonds locants 1 and 4 (the other direction gives 2 and 5). The methyls are then on C3 and C5: <b>3,5-dimethylhexa-1,4-diene</b>.",
+  "x": [
+   "",
+   "This numbers from the wrong end. The double bonds must get the lowest locants: {1,4} beats {2,5}.",
+   "The parent chain must contain both double bonds when possible. Treating the vinyl group as a substituent leaves one alkene out of the chain.",
+   "The chain has six carbons, not seven: the far alkene carbon carries two methyls, and only one of them is part of the chain."
+  ]
+ }
+]
