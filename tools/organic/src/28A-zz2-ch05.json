@@ -1,0 +1,828 @@
+[
+ {
+  "id": "zz2-05-01",
+  "d": 3,
+  "k": 1,
+  "q": "A sample of (<i>R</i>)-2-bromopentane with 80% ee is treated with NaSH in DMF, and the substitution goes cleanly by S<sub>N</sub>2. Enantiopure (<i>R</i>)-pentane-2-thiol has [α]<sub>D</sub> = −14.0. What is the specific rotation of the thiol product?",
+  "s": [
+   {
+    "smi": "CCC[C@@H](C)Br",
+    "cap": "(<i>R</i>), 80% ee"
+   },
+   {
+    "arrow": "NaSH",
+    "below": "DMF"
+   },
+   {
+    "smi": "CCCC(C)S"
+   }
+  ],
+  "c": [
+   "+11.2",
+   "−11.2",
+   "+14.0",
+   "0"
+  ],
+  "h": "Decide the configuration of the major thiol enantiomer first, then scale the rotation by the ee.",
+  "w": "S<sub>N</sub>2 inverts the stereocenter. SH outranks the other groups just as Br did, so inversion changes the label: the major enantiomer of the bromide (<i>R</i>) gives the (<i>S</i>)-thiol. Each molecule reacts with inversion, so the product keeps the starting 80% ee, now with (<i>S</i>) in excess. (<i>S</i>)-thiol rotates +14.0, so the product shows 0.80 × (+14.0) = <b>+11.2</b>.",
+  "x": [
+   "",
+   "−11.2 is the right size but the sign of the (<i>R</i>)-thiol; it assumes retention. S<sub>N</sub>2 gives the (<i>S</i>)-thiol here.",
+   "+14.0 is the rotation of pure (<i>S</i>)-thiol. The starting bromide was only 80% ee, and S<sub>N</sub>2 passes that ee through unchanged.",
+   "Zero would mean racemization, which needs a carbocation (S<sub>N</sub>1). HS<sup>−</sup> in DMF on a 2° bromide reacts by S<sub>N</sub>2."
+  ],
+  "t": "subst"
+ },
+ {
+  "id": "zz2-05-02",
+  "d": 3,
+  "q": "Ethyl (<i>S</i>)-2-bromopropanoate reacts with NaCN in DMSO by S<sub>N</sub>2. What is the product?",
+  "s": [
+   {
+    "smi": "CCOC(=O)[C@H](C)Br",
+    "cap": "(<i>S</i>)"
+   },
+   {
+    "arrow": "NaCN",
+    "below": "DMSO"
+   },
+   "?"
+  ],
+  "c": [
+   "Ethyl (<i>S</i>)-2-cyanopropanoate, formed with inversion",
+   "Ethyl (<i>R</i>)-2-cyanopropanoate, formed with inversion",
+   "Ethyl (<i>S</i>)-2-cyanopropanoate, formed with retention",
+   "Racemic ethyl 2-cyanopropanoate"
+  ],
+  "h": "Inversion is a change in 3D arrangement. Whether the R/S label changes depends on the new priority order.",
+  "w": "S<sub>N</sub>2 always inverts the 3D arrangement: CN<sup>−</sup> enters opposite Br. The label is a separate question. In the bromide the priorities are Br &gt; CO<sub>2</sub>Et &gt; CH<sub>3</sub> &gt; H. In the nitrile the ester carbon (O,O,O) outranks the nitrile carbon (N,N,N), so the order is CO<sub>2</sub>Et &gt; CN &gt; CH<sub>3</sub> &gt; H. The top-priority group moved from the new position (old Br) to the ester, and that swap cancels the inversion: the product is <b>ethyl (<i>S</i>)-2-cyanopropanoate, formed with inversion</b>.",
+  "x": [
+   "",
+   "Inversion does not always flip the label. Here the incoming CN ranks second, not first, so the descriptor stays (<i>S</i>).",
+   "The label is (<i>S</i>), but the mechanism is not retention. S<sub>N</sub>2 is backside attack, and the same (<i>S</i>) label arises only because the priorities changed.",
+   "A 2° α-bromo ester with cyanide in DMSO reacts by S<sub>N</sub>2; the carbonyl destabilizes a carbocation, so there is no S<sub>N</sub>1 racemization."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-03",
+  "d": 2,
+  "q": "Which bromide gives essentially no substitution product either on heating in aqueous ethanol (S<sub>N</sub>1 conditions) or with NaI in acetone (S<sub>N</sub>2 conditions)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "BrC12CCC(CC1)CC2"
+   },
+   {
+    "smi": "CC1(Br)CCCCC1"
+   },
+   {
+    "smi": "BrC1CCCCC1"
+   },
+   {
+    "smi": "BrC1CCCC=C1"
+   }
+  ],
+  "h": "Think about the backside of the C–Br bond, and whether the carbocation could become planar.",
+  "w": "<b>1-Bromobicyclo[2.2.2]octane</b> has Br at a bridgehead. S<sub>N</sub>2 needs the nucleophile to approach from directly behind C–Br, but that direction points into the cage of the bicyclic ring. S<sub>N</sub>1 needs a planar (sp<sup>2</sup>) carbocation, and a bridgehead carbon held in the cage cannot flatten, so the cation is very high in energy. Both pathways shut down.",
+  "x": [
+   "",
+   "1-Bromo-1-methylcyclohexane is 3°: it is blocked for S<sub>N</sub>2 but ionizes readily to a planar 3° cation, so S<sub>N</sub>1 in aqueous ethanol works well.",
+   "Bromocyclohexane is 2°: slow, but it does react with NaI in acetone on heating, and it can solvolyze slowly. Its ring carbon can flatten and has an open backside.",
+   "3-Bromocyclohexene is allylic: it ionizes fast to a resonance-stabilized cation and also does S<sub>N</sub>2 quickly. It is the most reactive choice, not the least."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-04",
+  "d": 2,
+  "q": "(<i>E</i>)-1-Chloro-2-butene is warmed in ethanol and gives a mixture of two ethers by S<sub>N</sub>1. Which other chloride gives essentially the same ether mixture under the same conditions?",
+  "s": [
+   {
+    "smi": "C/C=C/CCl"
+   },
+   {
+    "arrow": "CH<sub>3</sub>CH<sub>2</sub>OH",
+    "below": "warm"
+   },
+   "two ethers"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CC(C)Cl"
+   },
+   {
+    "smi": "C=CCCCl"
+   },
+   {
+    "smi": "C=C(C)CCl"
+   },
+   {
+    "smi": "C/C=C(/C)Cl"
+   }
+  ],
+  "h": "Draw the carbocation from the starting chloride and both of its resonance forms. Which other chloride would ionize to that cation?",
+  "w": "Ionization of (<i>E</i>)-1-chloro-2-butene gives an allylic cation with + charge shared between C1 and C3 (CH<sub>3</sub>CH=CH–CH<sub>2</sub><sup>+</sup> ↔ CH<sub>3</sub>CH<sup>+</sup>–CH=CH<sub>2</sub>). Ethanol attacks either end, giving 1-ethoxy-2-butene and 3-ethoxy-1-butene. <b>3-Chloro-1-butene</b> loses Cl<sup>−</sup> from C3 and forms the same allylic cation, so it gives the same two ethers.",
+  "x": [
+   "",
+   "4-Chloro-1-butene is a 1° chloride whose C=C is one carbon too far away; ionization would give a non-allylic 1° cation, which does not form in ethanol.",
+   "3-Chloro-2-methylpropene is allylic, but its cation (CH<sub>2</sub>=C(CH<sub>3</sub>)CH<sub>2</sub><sup>+</sup>) is a different, symmetric ion, and it gives only one ether, 3-ethoxy-2-methylpropene.",
+   "2-Chloro-2-butene is a vinylic chloride. Loss of Cl<sup>−</sup> would give a vinyl cation, which is far too unstable to form under solvolysis conditions."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-05",
+  "d": 3,
+  "q": "1-Cyclobutylpropan-1-ol is heated with concentrated HBr. What is the major alkyl bromide? Assume the carbocation rearranges whenever a shift gives a more stable cation.",
+  "s": [
+   {
+    "smi": "CCC(O)C1CCC1"
+   },
+   {
+    "arrow": "HBr",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC1(Br)CCCC1"
+   },
+   {
+    "smi": "CCC(Br)C1CCC1"
+   },
+   {
+    "smi": "CCC1CCCC1Br"
+   },
+   {
+    "smi": "CCCC1(Br)CCC1"
+   }
+  ],
+  "h": "The first carbocation sits next to a strained four-membered ring. What does a 1,2-shift of a ring bond do, and is the cation then as stable as it could be?",
+  "w": "Protonation and loss of water give a 2° cation next to the cyclobutane. A ring C–C bond shifts to that carbon (ring expansion), relieving most of the cyclobutane strain and giving a cyclopentyl cation; it is 2° and sits next to the carbon carrying the ethyl group. A 1,2-hydride shift then makes the 3° cation on the ethyl-bearing ring carbon, and bromide traps it: <b>1-bromo-1-ethylcyclopentane</b>.",
+  "x": [
+   "",
+   "This is the unrearranged product. A 2° cation beside a cyclobutane expands the ring (strain relief plus a later 3° cation) before bromide traps it.",
+   "This product (1-bromo-2-ethylcyclopentane) stops after the ring expansion and traps the 2° cation. A 1,2-hydride shift to the 3° position is faster than capture by bromide.",
+   "1-Bromo-1-propylcyclobutane comes from a 1,2-hydride shift from the ring CH, giving a 3° cyclobutyl cation. That cation keeps the four-membered ring strain; ring expansion relieves the strain and still reaches a 3° cation, so it wins."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-06",
+  "d": 2,
+  "q": "Rank these benzylic chlorides from slowest to fastest S<sub>N</sub>1 solvolysis in 80% aqueous ethanol.",
+  "s": [
+   {
+    "smi": "CC(Cl)c1ccc(cc1)[N+](=O)[O-]",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(Cl)c1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(Cl)c1ccc(C)cc1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III",
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III",
+   "I &lt; III &lt; II"
+  ],
+  "h": "The rate-determining step forms a benzylic cation. How does each para group change the stability of a positive charge delocalized onto the ring?",
+  "w": "S<sub>N</sub>1 rate follows carbocation stability. In a 1-arylethyl cation the + charge is delocalized onto the ortho and para ring carbons. A para CH<sub>3</sub> donates electron density (hyperconjugation and induction) to the carbon bearing + in one resonance form, so III is fastest. A para NO<sub>2</sub> withdraws electron density and puts + next to + in one resonance form, so I is slowest: <b>I &lt; II &lt; III</b>.",
+  "x": [
+   "",
+   "This reverses the trend. Electron-withdrawing NO<sub>2</sub> destabilizes the cation, so the nitro compound is slowest, not fastest.",
+   "NO<sub>2</sub> slows the ionization compared with H; it does not speed it up.",
+   "CH<sub>3</sub> is electron-donating and stabilizes the benzylic cation, so III must be faster than the unsubstituted II."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-07",
+  "d": 1,
+  "q": "Which reagent completes this transformation?",
+  "s": [
+   {
+    "smi": "BrCC1CCCC1"
+   },
+   {
+    "arrow": "?",
+    "below": "DMSO"
+   },
+   {
+    "smi": "N#CCC1CCCC1"
+   }
+  ],
+  "c": [
+   "NaCN",
+   "HCN",
+   "CH<sub>3</sub>CN",
+   "BrCN"
+  ],
+  "h": "Bromide is replaced by a carbon that brings its own C≡N. Which reagent actually supplies a nucleophilic cyanide carbon?",
+  "w": "The 1° bromide undergoes S<sub>N</sub>2 with cyanide ion; the cyanide carbon bonds to CH<sub>2</sub> and Br<sup>−</sup> leaves. The reagent must deliver free CN<sup>−</sup>, so it is an ionic salt: <b>NaCN</b> (Na<sup>+</sup> is a spectator).",
+  "x": [
+   "",
+   "HCN is a weak acid (pK<sub>a</sub> ≈ 9) and is mostly un-ionized, so it provides very little CN<sup>−</sup>; neutral HCN is a poor nucleophile.",
+   "Acetonitrile has no nucleophilic carbon; the nitrile carbon is electrophilic. It is commonly used as a solvent.",
+   "In BrCN the cyanide carbon is bonded to bromine and is electrophilic, not nucleophilic. It cannot displace bromide from the alkyl bromide."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-08",
+  "t": "subst",
+  "d": 2,
+  "k": 0,
+  "q": "1-Chloro-1-methylcyclohexane slowly reacts with ethanol (S<sub>N</sub>1 solvolysis) to give 1-ethoxy-1-methylcyclohexane. The free-energy diagram for the complete reaction is shown. Which numbered point is the protonated ether (oxonium ion) intermediate?",
+  "s": [
+   {
+    "smi": "CC1(Cl)CCCCC1"
+   },
+   {
+    "arrow": "CH<sub>3</sub>CH<sub>2</sub>OH"
+   },
+   {
+    "smi": "CCOC1(C)CCCCC1"
+   }
+  ],
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     22,
+     9,
+     12,
+     3,
+     5,
+     -4
+    ],
+    "tags": [
+     "",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     ""
+    ],
+    "labels": [
+     "reactants",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "products"
+    ]
+   }
+  ],
+  "c": [
+   "point 4",
+   "point 2",
+   "point 3",
+   "point 5"
+  ],
+  "h": "List the steps in order: ionization, attack by ethanol, loss of H<sup>+</sup>. Minima between steps are intermediates; maxima are transition states.",
+  "w": "The reaction has three steps, so the diagram has three maxima (transition states) and two minima between them (intermediates). Point 1 is the transition state for ionization of the C–Cl bond, the highest barrier and the rate-determining step. Point 2 is the 3° carbocation. Point 3 is the transition state for ethanol's oxygen bonding to the cation. Point 4 is the resulting oxonium ion, R–O<sup>+</sup>(H)CH<sub>2</sub>CH<sub>3</sub>, lower in energy than the carbocation because every atom now has an octet. Point 5 is the transition state for proton transfer to a solvent molecule, which gives the neutral ether. Answer: <b>point 4</b>.",
+  "x": [
+   "",
+   "Point 2 is the first intermediate, the 3° carbocation formed when chloride leaves. Ethanol has not yet bonded to it, so it is not an oxonium ion.",
+   "Point 3 is an energy maximum: the transition state in which the C–O bond to ethanol is only partly formed. Intermediates sit in minima.",
+   "Point 5 is also a maximum: the transition state for removing H<sup>+</sup> from the oxonium ion. The minimum just before it is the oxonium ion itself."
+  ]
+ },
+ {
+  "id": "zz2-05-09",
+  "d": 2,
+  "q": "1,4-Dibromobutane is stirred with one equivalent of Na<sub>2</sub>S in ethanol. What is the major organic product?",
+  "s": [
+   {
+    "smi": "BrCCCCBr"
+   },
+   {
+    "arrow": "Na<sub>2</sub>S (1 equiv)",
+    "below": "ethanol"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1CCSC1"
+   },
+   {
+    "smi": "C1CCSCC1"
+   },
+   {
+    "smi": "SCCCCBr"
+   },
+   {
+    "smi": "SCCCCS"
+   }
+  ],
+  "h": "After the first S<sub>N</sub>2, the sulfur still carries a negative charge. Where is the nearest electrophilic carbon?",
+  "w": "S<sup>2−</sup> is an excellent nucleophile. The first S<sub>N</sub>2 gives <sup>−</sup>S–CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>Br. The thiolate end then attacks the C–Br carbon four atoms away in an intramolecular S<sub>N</sub>2; this forms a five-membered ring, which closes much faster than another intermolecular reaction. The product is <b>thiolane (tetrahydrothiophene)</b>.",
+  "x": [
+   "",
+   "A six-membered ring (thiane) needs five CH<sub>2</sub> groups between the two C–Br carbons plus S; 1,4-dibromobutane has only four carbons, so the ring formed has one S and four C.",
+   "The intermediate is a thiolate, not a neutral thiol, and it cyclizes rapidly; it is not isolated after the first substitution.",
+   "Butane-1,4-dithiol would need two separate sulfur nucleophiles. With one S<sup>2−</sup>, the single sulfur bonds to both ends of the chain."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-10",
+  "d": 2,
+  "q": "Rank the alkyl bromides from slowest to fastest S<sub>N</sub>2 reaction with NaN<sub>3</sub> in DMF.",
+  "s": [
+   {
+    "smi": "CC(C)(C)CBr",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(C)CBr",
+    "cap": "II"
+   },
+   {
+    "smi": "CCCCBr",
+    "cap": "III"
+   },
+   {
+    "smi": "CBr",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III &lt; IV",
+   "II &lt; I &lt; III &lt; IV",
+   "IV &lt; III &lt; II &lt; I",
+   "I &lt; III &lt; II &lt; IV"
+  ],
+  "h": "All except IV are primary. Count the branches on the carbon next to the C–Br carbon (the β carbon).",
+  "w": "S<sub>N</sub>2 rate drops as the backside of the C–Br carbon becomes crowded. Bromomethane (IV) is least hindered. All three others are 1°, so the difference comes from branching at the β carbon: none in 1-bromobutane (III), one methyl in 1-bromo-2-methylpropane (II), and two in 1-bromo-2,2-dimethylpropane (I, neopentyl), where a methyl group sits in the path of the nucleophile and S<sub>N</sub>2 is extremely slow. Order: <b>I &lt; II &lt; III &lt; IV</b>.",
+  "x": [
+   "",
+   "Neopentyl bromide (I) has two β methyls and is far slower than isobutyl bromide (II); it is the slowest of the set.",
+   "This is the order for S<sub>N</sub>1 trends, not S<sub>N</sub>2; methyl and 1° halides react fastest by S<sub>N</sub>2.",
+   "β-Branching slows S<sub>N</sub>2: the unbranched 1-bromobutane (III) reacts faster than the β-branched II."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-11",
+  "d": 1,
+  "q": "Which carbocation is the most stable?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH+](c1ccccc1)c1ccccc1"
+   },
+   {
+    "smi": "[CH2+]c1ccccc1"
+   },
+   {
+    "smi": "C=C[CH2+]"
+   },
+   {
+    "smi": "CC[CH+]C"
+   }
+  ],
+  "h": "Count how many π systems share the positive charge, and how substituted the cationic carbon is.",
+  "w": "The <b>diphenylmethyl (benzhydryl) cation</b> delocalizes the + charge into two benzene rings (seven resonance forms place + on ring carbons), and it is a secondary carbon. Each other cation has at most one π system to share the charge.",
+  "x": [
+   "",
+   "The benzyl cation is resonance-stabilized by one ring only, and it is primary. Adding a second phenyl, as in the diphenylmethyl cation, doubles the delocalization.",
+   "The allyl cation spreads + over two carbons only, both primary. It is less stabilized than a benzylic cation with several resonance forms.",
+   "The sec-butyl cation is a simple 2° alkyl cation, stabilized only by hyperconjugation and induction; it has no resonance."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-12",
+  "d": 1,
+  "q": "Lucas reagent (ZnCl<sub>2</sub> in concentrated HCl) converts alcohols into alkyl chlorides, which make the solution cloudy. Which alcohol turns the reagent cloudy fastest at room temperature?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(C)(C)O"
+   },
+   {
+    "smi": "CCCC(C)O"
+   },
+   {
+    "smi": "CCCCCO"
+   },
+   {
+    "smi": "CC(C)(C)CO"
+   }
+  ],
+  "h": "The Lucas test runs through a carbocation once the OH is converted into a leaving group.",
+  "w": "ZnCl<sub>2</sub> (a Lewis acid) and HCl convert OH into a good leaving group; the C–O bond then breaks to give a carbocation, which chloride traps. The rate follows carbocation stability, 3° &gt; 2° ≫ 1°. <b>2-Methylbutan-2-ol</b> is the only 3° alcohol here and reacts almost at once.",
+  "x": [
+   "",
+   "Pentan-2-ol is 2°; its cation forms more slowly, so cloudiness takes several minutes.",
+   "Pentan-1-ol is 1°; it would need a 1° cation and gives little or no cloudiness at room temperature.",
+   "2,2-Dimethylpropan-1-ol is 1° and also badly hindered for S<sub>N</sub>2, so it is among the slowest, not the fastest."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-13",
+  "d": 2,
+  "q": "1-Bromohexane is heated with NaCN in DMSO. The product shows the IR spectrum below. Which compound is the product?",
+  "s": [
+   {
+    "smi": "CCCCCCBr"
+   },
+   {
+    "arrow": "NaCN",
+    "below": "DMSO"
+   },
+   "?"
+  ],
+  "f": [
+   {
+    "type": "ir",
+    "bands": [
+     {
+      "cm": 2932,
+      "str": "s"
+     },
+     {
+      "cm": 2860,
+      "str": "m"
+     },
+     {
+      "cm": 2247,
+      "str": "m"
+     },
+     {
+      "cm": 1466,
+      "str": "m"
+     },
+     {
+      "cm": 1380,
+      "str": "w"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "Heptanenitrile",
+   "Hexan-1-ol",
+   "Hex-1-ene",
+   "1-Isocyanohexane"
+  ],
+  "h": "Find the one band outside the usual C–H region, then match it to a triple bond.",
+  "w": "Cyanide attacks through carbon in an S<sub>N</sub>2 reaction, giving a nitrile with one more carbon: CH<sub>3</sub>(CH<sub>2</sub>)<sub>5</sub>C≡N. The spectrum fits: sp<sup>3</sup> C–H just below 3000 cm<sup>−1</sup> and a medium, sharp C≡N stretch at 2247 cm<sup>−1</sup>, with no O–H or =C–H band. The product is <b>heptanenitrile</b>.",
+  "x": [
+   "",
+   "Hexan-1-ol would show a strong, broad O–H band near 3300 cm<sup>−1</sup>, which is absent.",
+   "Hex-1-ene would show =C–H above 3000 cm<sup>−1</sup> and C=C near 1640 cm<sup>−1</sup>, and no band at 2247 cm<sup>−1</sup>. A 1° bromide with cyanide in DMSO gives substitution, not elimination.",
+   "An isocyanide (R–N≡C) would form by attack through nitrogen and absorbs near 2140 cm<sup>−1</sup>. Cyanide ion reacts through its carbon with alkyl halides."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-14",
+  "d": 2,
+  "q": "Butan-1-ol reacts with concentrated HBr. After the OH group is protonated, bromide ion displaces water in one step. Which set of curved arrows correctly shows that step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[Br-:51].CCC[CH2:52][OH2+:53]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[Br-:51].CCC[CH2:52][OH2+:53]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[Br-:51].CCC[CH2:52][OH2+:53]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[Br-:51].CCC[CH2:52][OH2+:53]",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "A 1° oxonium ion reacts by S<sub>N</sub>2. One arrow makes the new bond; one breaks the old bond, and the leaving group takes the electrons.",
+  "w": "1° alkyloxonium ions do not ionize (a 1° cation is too unstable), so bromide displaces water by S<sub>N</sub>2. <b>One arrow runs from a bromide lone pair to the CH<sub>2</sub> carbon, and a second runs from the C–O bond onto oxygen</b>, which leaves as neutral H<sub>2</sub>O. Carbon keeps four bonds throughout.",
+  "x": [
+   "",
+   "The C–O bond electrons are sent to carbon here. The leaving group must take the bonding pair, otherwise water cannot leave as a neutral molecule and carbon gets too many electrons.",
+   "Bromide is drawn attacking oxygen. The electrophilic atom is the carbon bonded to O<sup>+</sup>; bromide does not bond to oxygen.",
+   "With only the bromide arrow, carbon would form a fifth bond. The C–O bond must break in the same step."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-15",
+  "d": 1,
+  "q": "Triethylamine is mixed with iodomethane in acetonitrile, and a white solid forms. What is the solid?",
+  "s": [
+   {
+    "smi": "CCN(CC)CC"
+   },
+   "+",
+   {
+    "smi": "CI"
+   },
+   {
+    "arrow": "CH<sub>3</sub>CN"
+   },
+   "?"
+  ],
+  "c": [
+   "Triethylmethylammonium iodide, a quaternary ammonium salt",
+   "Triethylammonium iodide, from E2 elimination",
+   "N,N-Diethylmethylamine and iodoethane",
+   "Tetraethylammonium iodide"
+  ],
+  "h": "The amine nitrogen has a lone pair, and iodomethane is an excellent S<sub>N</sub>2 substrate.",
+  "w": "The nitrogen lone pair attacks the CH<sub>3</sub> carbon and iodide leaves (S<sub>N</sub>2). Nitrogen ends with four C–N bonds and a + charge, paired with I<sup>−</sup>: <b>triethylmethylammonium iodide</b>, (CH<sub>3</sub>CH<sub>2</sub>)<sub>3</sub>N<sup>+</sup>CH<sub>3</sub> I<sup>−</sup>, an ionic solid that precipitates.",
+  "x": [
+   "",
+   "Iodomethane has no β carbon and so no β hydrogen; it cannot undergo E2. Triethylamine acts as a nucleophile here.",
+   "Nothing breaks an N–ethyl bond. The new bond is N–CH<sub>3</sub>, and all three ethyl groups stay on nitrogen.",
+   "Tetraethylammonium iodide would need iodoethane. The carbon added comes from iodomethane, so the new group is methyl."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-16",
+  "d": 3,
+  "q": "The two stereoisomers of 1-bromo-4-<i>tert</i>-butylcyclohexane are shown in their preferred chairs. Each is treated with NaSC<sub>6</sub>H<sub>5</sub> in DMF. Which statement is correct?",
+  "f": [
+   {
+    "type": "chair",
+    "items": [
+     {
+      "subs": [
+       [
+        1,
+        "up",
+        "Br"
+       ],
+       [
+        4,
+        "up",
+        "C(CH<sub>3</sub>)<sub>3</sub>"
+       ]
+      ],
+      "flip": false,
+      "nums": true,
+      "cap": "cis"
+     },
+     {
+      "subs": [
+       [
+        1,
+        "up",
+        "Br"
+       ],
+       [
+        4,
+        "down",
+        "C(CH<sub>3</sub>)<sub>3</sub>"
+       ]
+      ],
+      "flip": true,
+      "nums": true,
+      "cap": "trans"
+     }
+    ]
+   }
+  ],
+  "c": [
+   "The cis isomer reacts faster: its Br is axial, so the nucleophile can approach along the open equatorial direction",
+   "The trans isomer reacts faster: its equatorial Br is less hindered, so it leaves more easily",
+   "Both react at the same rate because S<sub>N</sub>2 depends only on the leaving group and the nucleophile",
+   "Neither can react by S<sub>N</sub>2, so both give only the S<sub>N</sub>1 product"
+  ],
+  "h": "The <i>tert</i>-butyl group locks each chair. For S<sub>N</sub>2 the nucleophile must approach 180° from C–Br. Where does that path point for axial versus equatorial Br?",
+  "w": "The bulky <i>tert</i>-butyl group stays equatorial, so in the cis isomer Br is axial and in the trans isomer Br is equatorial. For an axial C–Br, the backside lies along the equatorial direction, which is open, and the product forms directly with SPh equatorial. For an equatorial C–Br, the backside path runs across the ring and is blocked by the axial hydrogens on C3 and C5. So <b>the cis isomer (axial Br) reacts faster</b>, and both give trans product with inversion.",
+  "x": [
+   "",
+   "An equatorial leaving group is not easier to displace. The nucleophile must reach the backside, and for an equatorial Br that path is blocked by the axial H atoms on C3 and C5.",
+   "S<sub>N</sub>2 is very sensitive to steric access at the backside, and that access differs between the two locked chairs.",
+   "Both are 2° bromides with a strong, weakly basic nucleophile (PhS<sup>−</sup>) in a polar aprotic solvent: classic S<sub>N</sub>2 conditions. No carbocation forms."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-17",
+  "d": 2,
+  "q": "Which nucleophile reacts fastest with 1-bromobutane by S<sub>N</sub>2 in ethanol?",
+  "c": [
+   "CH<sub>3</sub>CH<sub>2</sub>S<sup>−</sup>",
+   "CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup>",
+   "(CH<sub>3</sub>)<sub>3</sub>CO<sup>−</sup>",
+   "CH<sub>3</sub>CO<sub>2</sub><sup>−</sup>"
+  ],
+  "h": "In a protic solvent, the larger, more polarizable nucleophilic atom is less tightly solvated.",
+  "w": "Going down a group, nucleophilicity in protic solvents rises: sulfur is larger and more polarizable than oxygen, and the thiolate is held less tightly by hydrogen bonds from ethanol. <b>Ethanethiolate</b> is therefore the fastest, even though it is a weaker base than ethoxide.",
+  "x": [
+   "",
+   "Ethoxide is the strongest base among the oxygen nucleophiles, but in ethanol it is strongly hydrogen-bonded and is less nucleophilic than the larger sulfur anion.",
+   "<i>tert</i>-Butoxide is a strong base but a poor nucleophile; its three methyl groups block its approach to carbon.",
+   "Acetate is resonance-stabilized; its charge is spread over two oxygens, which makes it a weak base and a weak nucleophile."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-18",
+  "d": 2,
+  "q": "Which statements about nucleophilic substitution are correct?<br>I. The rate of the reaction of 2-bromobutane with NaN<sub>3</sub> in DMSO depends on the azide concentration.<br>II. Changing the solvent from water to acetone speeds up the S<sub>N</sub>1 solvolysis of a 3° alkyl chloride.<br>III. S<sub>N</sub>1 substitution of an enantiopure 3° alkyl bromide gives a product that is mostly racemic.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "I, II, and III"
+  ],
+  "h": "Judge each statement separately: which step is rate-determining, what does the solvent stabilize, and what geometry does the intermediate have?",
+  "w": "I is true: azide in DMSO with a 2° bromide is S<sub>N</sub>2, and its rate = <i>k</i>[RBr][N<sub>3</sub><sup>−</sup>]. II is false: the S<sub>N</sub>1 transition state builds up charge separation, and a polar protic solvent like water stabilizes it (and the departing halide) by hydrogen bonding; acetone is much less able to do this, so the reaction slows. III is true: the planar carbocation is attacked from both faces, so the product is largely racemic (often with a slight excess of inversion). Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "This misses III. A planar carbocation is attacked on both faces, so S<sub>N</sub>1 gives mostly racemic product.",
+   "II is false: removing the polar protic solvent destabilizes the ionization transition state and slows S<sub>N</sub>1. It also leaves out true statement III.",
+   "II is false: water, not acetone, speeds S<sub>N</sub>1 ionization."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-19",
+  "d": 3,
+  "q": "Which combination is the best way to prepare (<i>S</i>)-2-methoxybutane in high yield?",
+  "s": [
+   {
+    "smi": "CC[C@H](C)OC",
+    "cap": "(<i>S</i>)-2-methoxybutane"
+   }
+  ],
+  "c": [
+   "(<i>S</i>)-Butan-2-ol + NaH, then CH<sub>3</sub>I",
+   "(<i>R</i>)-2-Bromobutane + NaOCH<sub>3</sub> in CH<sub>3</sub>OH",
+   "(<i>S</i>)-2-Bromobutane + NaOCH<sub>3</sub> in CH<sub>3</sub>OH",
+   "(<i>S</i>)-Butan-2-ol + CH<sub>3</sub>OH, H<sub>2</sub>SO<sub>4</sub>, heat"
+  ],
+  "h": "Two questions: does any bond to the stereocenter break, and does the alkyl halide used invite E2?",
+  "w": "With NaH, (<i>S</i>)-butan-2-ol becomes its alkoxide; no bond to the stereocenter is touched. The alkoxide then attacks CH<sub>3</sub>I by S<sub>N</sub>2, which is fast and cannot eliminate (CH<sub>3</sub>I has no β H). The O–CH<sub>3</sub> bond forms at oxygen, so the configuration is kept: <b>(<i>S</i>)-butan-2-ol + NaH, then CH<sub>3</sub>I</b>.",
+  "x": [
+   "",
+   "S<sub>N</sub>2 inversion of (<i>R</i>)-2-bromobutane would give the (<i>S</i>) ether, so the stereochemistry is right. But a 2° bromide with the strong, unhindered base methoxide gives mostly E2 (butenes), so the yield is poor.",
+   "(<i>S</i>)-2-Bromobutane gives the (<i>R</i>) ether by inversion, and it also suffers from extensive E2.",
+   "Strong acid and heat with a 2° alcohol give a carbocation (and butenes); any ether formed is racemic, so this cannot give pure (<i>S</i>) product."
+  ],
+  "t": "subst",
+  "k": 0
+ },
+ {
+  "id": "zz2-05-20",
+  "d": 2,
+  "q": "Rank the solvents from slowest to fastest for the S<sub>N</sub>2 reaction of NaN<sub>3</sub> with 1-bromobutane.",
+  "s": [
+   {
+    "smi": "CCCCBr"
+   },
+   "+",
+   "NaN<sub>3</sub>",
+   {
+    "arrow": "solvent"
+   },
+   {
+    "smi": "CCCCN=[N+]=[N-]"
+   }
+  ],
+  "c": [
+   "hexane &lt; methanol &lt; DMF",
+   "methanol &lt; hexane &lt; DMF",
+   "DMF &lt; methanol &lt; hexane",
+   "hexane &lt; DMF &lt; methanol"
+  ],
+  "h": "The salt must dissolve before it can react; after that, ask what the solvent does to the azide anion.",
+  "w": "Hexane is nonpolar and cannot dissolve NaN<sub>3</sub>, so essentially no reaction occurs. Methanol dissolves the salt but surrounds N<sub>3</sub><sup>−</sup> with hydrogen bonds, lowering its energy and its nucleophilicity. DMF is polar aprotic: it solvates Na<sup>+</sup> well but leaves the anion poorly solvated and highly reactive. Order: <b>hexane &lt; methanol &lt; DMF</b>.",
+  "x": [
+   "",
+   "Hydrogen bonding in methanol slows S<sub>N</sub>2 with an anion, but hexane is worse: the ionic NaN<sub>3</sub> does not dissolve in it at all.",
+   "This reverses the order. Polar aprotic DMF gives the fastest S<sub>N</sub>2 with an anionic nucleophile.",
+   "A protic solvent (methanol) hydrogen-bonds to azide and makes it less reactive than in polar aprotic DMF."
+  ],
+  "t": "subst",
+  "k": 0
+ }
+]

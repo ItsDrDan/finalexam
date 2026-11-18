@@ -1,0 +1,957 @@
+[
+ {
+  "id": "z7-01",
+  "t": "addition",
+  "d": 1,
+  "k": 0,
+  "q": "The free-energy diagram below is for the acid-catalyzed hydration of methylenecyclopentane (H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>) to 1-methylcyclopentan-1-ol. Which labeled point corresponds to the tertiary carbocation?",
+  "s": [
+   {
+    "smi": "C=C1CCCC1"
+   },
+   {
+    "arrow": "H<sub>2</sub>O",
+    "below": "H<sub>2</sub>SO<sub>4</sub>"
+   },
+   {
+    "smi": "CC1(O)CCCC1"
+   }
+  ],
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     20,
+     9,
+     12,
+     2,
+     5,
+     -6
+    ],
+    "tags": [
+     "",
+     "A",
+     "B",
+     "C",
+     "D",
+     "E",
+     ""
+    ],
+    "labels": [
+     "alkene + H<sub>3</sub>O<sup>+</sup>",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "alcohol + H<sub>3</sub>O<sup>+</sup>"
+    ]
+   }
+  ],
+  "c": [
+   "Point B",
+   "Point A",
+   "Point D",
+   "Point C"
+  ],
+  "h": "Intermediates sit in energy wells (local minima); transition states sit on peaks. Which well comes first?",
+  "w": "Hydration takes three steps: (1) the π bond takes a proton from H<sub>3</sub>O<sup>+</sup> to give the tertiary carbocation, (2) water adds to the cation to give an alkyloxonium ion, (3) water removes a proton to give the alcohol. Peaks A, C and E are the three transition states; wells B and D are the two intermediates. The first intermediate formed is the carbocation, so it is <b>point B</b>. It sits high because a carbocation is a reactive, electron-poor species.",
+  "x": [
+   "",
+   "Point A is a peak: it is the transition state for protonation of the alkene, not an intermediate that can be drawn as a discrete species.",
+   "Point D is the second intermediate, the protonated alcohol (alkyloxonium ion) formed after water bonds to the carbocation.",
+   "Point C is a peak: the transition state for water attacking the carbocation, partway between B and D."
+  ]
+ },
+ {
+  "id": "z7-02",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "Use the free-energy diagram for the acid-catalyzed hydration of methylenecyclopentane. Which statements are correct?<br>I. The step from the alkene to point B is the rate-determining step.<br>II. Point B is a transition state.<br>III. The carbocation is found at point C.",
+  "s": [
+   {
+    "smi": "C=C1CCCC1"
+   },
+   {
+    "arrow": "H<sub>2</sub>O",
+    "below": "H<sub>2</sub>SO<sub>4</sub>"
+   },
+   {
+    "smi": "CC1(O)CCCC1"
+   }
+  ],
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     20,
+     9,
+     12,
+     2,
+     5,
+     -6
+    ],
+    "tags": [
+     "",
+     "A",
+     "B",
+     "C",
+     "D",
+     "E",
+     ""
+    ],
+    "labels": [
+     "alkene + H<sub>3</sub>O<sup>+</sup>",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "alcohol + H<sub>3</sub>O<sup>+</sup>"
+    ]
+   }
+  ],
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "The rate-determining step has the highest transition state. Then sort every point into peak (transition state) or well (intermediate).",
+  "w": "I is true: peak A is the highest point on the curve, so protonation of the alkene to form the carbocation has the largest barrier and is rate-determining. II is false: B is a well, a local minimum, so it is an intermediate (the carbocation), not a transition state. III is false: C is a peak, the transition state for water adding to the cation; the carbocation itself is at B. Answer: <b>I only</b>.",
+  "x": [
+   "",
+   "This accepts II, but B is a local minimum. Transition states are maxima (A, C, E); B is an intermediate.",
+   "This accepts III, but C is a peak. The carbocation is the first intermediate, the well at B.",
+   "This rejects I, but A is the highest barrier on the diagram, so step 1 is rate-determining; and II and III both mislabel peaks and wells."
+  ]
+ },
+ {
+  "id": "z7-03",
+  "t": "addition",
+  "d": 3,
+  "k": 0,
+  "q": "What is the major product when 1-methylcyclohexene reacts with Br<sub>2</sub> in methanol as the solvent?",
+  "s": [
+   {
+    "smi": "CC1=CCCCC1"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "CH<sub>3</sub>OH"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@]1(OC)CCCC[C@@H]1Br",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "C[C@@]1(OC)CCCC[C@@H]1Br",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "C[C@@]1(Br)CCCC[C@H]1OC",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "C[C@@]1(Br)CCCC[C@H]1Br",
+    "cap": "+ enantiomer"
+   }
+  ],
+  "h": "Methanol is present in huge excess, so it, not bromide, opens the bromonium ion. Decide where it attacks and from which face.",
+  "w": "Br<sub>2</sub> forms a bridged bromonium ion on one face of the ring. Methanol (the solvent, far more abundant than Br<sup>−</sup>) opens it from the opposite face. In the bridged ion the C–Br bond to the tertiary carbon is longer and that carbon carries more δ+, so methanol bonds to the methyl-bearing carbon. The result is <b>trans-2-bromo-1-methoxy-1-methylcyclohexane (OCH<sub>3</sub> on C1, Br on C2, anti to each other), formed as a racemate</b>.",
+  "x": [
+   "",
+   "This has the right regiochemistry but OCH<sub>3</sub> and Br on the same face. Opening of the bromonium ion is backside (anti), so syn addition does not occur.",
+   "Here Br ends up on the tertiary carbon and OCH<sub>3</sub> on the secondary one. The nucleophile attacks the more substituted carbon of the bromonium ion, which carries more positive charge.",
+   "The dibromide forms in an inert solvent such as CH<sub>2</sub>Cl<sub>2</sub>. In methanol the solvent outcompetes the small amount of Br<sup>−</sup> for the bromonium ion."
+  ]
+ },
+ {
+  "id": "z7-04",
+  "t": "addition",
+  "d": 1,
+  "k": 0,
+  "q": "What is the major product of methylenecyclopentane with Cl<sub>2</sub> in water?",
+  "s": [
+   {
+    "smi": "C=C1CCCC1"
+   },
+   {
+    "arrow": "Cl<sub>2</sub>",
+    "below": "H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "OC1(CCl)CCCC1"
+   },
+   {
+    "smi": "ClC1(CO)CCCC1"
+   },
+   {
+    "smi": "ClCC1(Cl)CCCC1"
+   },
+   {
+    "smi": "OCC1(O)CCCC1"
+   }
+  ],
+  "h": "Water opens the chloronium ion. Which carbon of the three-membered ring can best carry partial positive charge?",
+  "w": "Cl<sub>2</sub> gives a chloronium ion. Water (the solvent) opens it at the more substituted ring carbon, which carries more δ+ charge. Cl stays on the CH<sub>2</sub> and OH ends up on the ring carbon: <b>1-(chloromethyl)cyclopentan-1-ol</b>. This is Markovnikov-type regiochemistry with Cl acting as the electrophile.",
+  "x": [
+   "",
+   "This puts OH on the CH<sub>2</sub> carbon. Water attacks the more substituted carbon of the chloronium ion, not the less hindered one.",
+   "The vicinal dichloride is the product in an inert solvent. With water as the solvent, water captures the chloronium ion.",
+   "A diol needs an oxidant such as OsO<sub>4</sub> or epoxidation then hydrolysis. Cl<sub>2</sub>/H<sub>2</sub>O adds one Cl and one OH."
+  ]
+ },
+ {
+  "id": "z7-05",
+  "t": "addition",
+  "d": 1,
+  "k": 0,
+  "q": "Which structure shows the product of cyclopentene with Br<sub>2</sub> in water?",
+  "s": [
+   {
+    "smi": "C1=CCCC1"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O[C@@H]1CCC[C@H]1Br",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "O[C@@H]1CCC[C@@H]1Br",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "Br[C@@H]1CCC[C@H]1Br",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "O[C@@H]1CCC[C@@H]1O"
+   }
+  ],
+  "h": "Halohydrin formation goes through a bridged bromonium ion. From which face does water attack?",
+  "w": "Br<sub>2</sub> forms a bromonium ion on one face of the ring; water attacks the other face (backside). Br and OH end up on opposite faces: <b>trans-2-bromocyclopentan-1-ol, as a racemic mixture</b>. Both enantiomers form because the bromonium ion forms equally on either face of the flat alkene.",
+  "x": [
+   "",
+   "Br and OH on the same face would require syn addition. The bridging Br blocks that face, so water must attack from the back.",
+   "trans-1,2-Dibromocyclopentane is the product in an inert solvent. In water, water is the nucleophile that opens the bromonium ion.",
+   "cis-Cyclopentane-1,2-diol comes from OsO<sub>4</sub> (syn dihydroxylation). Br<sub>2</sub>/H<sub>2</sub>O installs one Br and one OH."
+  ]
+ },
+ {
+  "id": "z7-06",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "(Z)-Hex-3-ene is treated with CH<sub>2</sub>I<sub>2</sub> and Zn(Cu) (Simmons–Smith reaction). Which structure is the product?",
+  "s": [
+   {
+    "smi": "CC/C=C\\CC"
+   },
+   {
+    "arrow": "CH<sub>2</sub>I<sub>2</sub>",
+    "below": "Zn(Cu), ether"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC[C@@H]1C[C@@H]1CC"
+   },
+   {
+    "smi": "CC[C@@H]1C[C@H]1CC",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "CCC1(CC)CC1"
+   },
+   {
+    "smi": "CC/C(I)=C\\CC"
+   }
+  ],
+  "h": "The carbenoid delivers CH<sub>2</sub> to both alkene carbons at once, from one face. What does that do to the cis relationship of the ethyl groups?",
+  "w": "The Simmons–Smith carbenoid (ICH<sub>2</sub>ZnI) adds a CH<sub>2</sub> group to both carbons of the π bond in one concerted, syn step, so the alkene geometry is preserved. A cis alkene gives a cis-disubstituted cyclopropane: <b>cis-1,2-diethylcyclopropane</b>. It has a mirror plane through the CH<sub>2</sub> carbon, so it is a meso compound and no enantiomer forms.",
+  "x": [
+   "",
+   "trans-1,2-Diethylcyclopropane would come from (E)-hex-3-ene. The reaction is stereospecific: the ethyl groups keep their cis relationship.",
+   "1,1-Diethylcyclopropane has both ethyl groups on one carbon. The CH<sub>2</sub> is added across the C=C; no ethyl group moves.",
+   "A vinyl iodide would require substitution of an alkene C–H. The carbenoid adds CH<sub>2</sub> across the π bond and the iodine leaves with zinc."
+  ]
+ },
+ {
+  "id": "z7-07",
+  "t": "addition",
+  "d": 3,
+  "k": 0,
+  "q": "1-Methylcyclopentene is treated with BD<sub>3</sub>·THF, then with H<sub>2</sub>O<sub>2</sub> and NaOH. Which structure shows the product (D = deuterium)?",
+  "s": [
+   {
+    "smi": "CC1=CCCC1"
+   },
+   {
+    "arrow": "1. BD<sub>3</sub>·THF",
+    "below": "2. H<sub>2</sub>O<sub>2</sub>, NaOH"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[C@@]1([2H])CCC[C@@H]1O",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "C[C@]1([2H])CCC[C@@H]1O",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "C[C@@]1(O)CCC[C@@H]1[2H]",
+    "cap": "+ enantiomer"
+   },
+   {
+    "smi": "C[C@@H]1CCC[C@]1([2H])O",
+    "cap": "+ enantiomer"
+   }
+  ],
+  "h": "Find where boron goes (regiochemistry) and remember that D and B add to the same face. Oxidation then replaces B with OH with retention.",
+  "w": "Hydroboration is a concerted syn addition: boron bonds to the less substituted alkene carbon (C2) and D bonds to the more substituted one (C1), both from the same face. Oxidation with H<sub>2</sub>O<sub>2</sub>/NaOH replaces C–B with C–OH with retention. So D (on C1) and OH (on C2) are cis, which leaves the methyl trans to OH: <b>D and OH cis on adjacent carbons, CH<sub>3</sub> trans to OH (racemic)</b>.",
+  "x": [
+   "",
+   "Here D and OH are on opposite faces, the result of anti addition. B and D are delivered to the same face in a four-center transition state.",
+   "This puts OH on the methyl-bearing carbon (Markovnikov). Boron, and therefore OH, goes to the less substituted carbon.",
+   "Here D and OH sit on the same carbon. In hydroboration D and B bond to the two different alkene carbons, so D must end up on the methyl-bearing carbon, next to the OH."
+  ]
+ },
+ {
+  "id": "z7-08",
+  "t": "addition",
+  "d": 3,
+  "k": 0,
+  "q": "What is the major product of vinylcyclohexane with dilute H<sub>2</sub>SO<sub>4</sub> in water? Assume the carbocation rearranges whenever a shift gives a more stable cation.",
+  "s": [
+   {
+    "smi": "C=CC1CCCCC1"
+   },
+   {
+    "arrow": "H<sub>2</sub>O",
+    "below": "H<sub>2</sub>SO<sub>4</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC1(O)CCCCC1"
+   },
+   {
+    "smi": "CC(O)C1CCCCC1"
+   },
+   {
+    "smi": "OCCC1CCCCC1"
+   },
+   {
+    "smi": "CC1CCCCCC1O"
+   }
+  ],
+  "h": "Protonate the alkene to give the more stable cation, then check whether a neighbouring hydrogen can shift to make an even more stable one.",
+  "w": "Protonation of the CH<sub>2</sub> end gives a secondary carbocation next to the ring CH. A 1,2-hydride shift from that ring carbon gives a tertiary carbocation in the ring, which water traps. After loss of H<sup>+</sup> the product is <b>1-ethylcyclohexan-1-ol</b>. To avoid the rearrangement and get 1-cyclohexylethanol, use oxymercuration–demercuration.",
+  "x": [
+   "",
+   "1-Cyclohexylethanol is the unrearranged Markovnikov product. The secondary cation next to a tertiary C–H undergoes a hydride shift before water adds.",
+   "2-Cyclohexylethanol is the anti-Markovnikov product from hydroboration–oxidation, not from acid-catalyzed hydration.",
+   "Ring expansion is an alkyl shift. Here a hydride shift is available and already gives a tertiary cation; the expanded ring would only be secondary."
+  ]
+ },
+ {
+  "id": "z7-09",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "2-Methylpent-1-ene is heated with concentrated KMnO<sub>4</sub> in aqueous NaOH, then acidified. What are the products?",
+  "s": [
+   {
+    "smi": "C=C(C)CCC"
+   },
+   {
+    "arrow": "1. KMnO<sub>4</sub>, NaOH, heat",
+    "below": "2. H<sub>3</sub>O<sup>+</sup>"
+   },
+   "?"
+  ],
+  "c": [
+   "pentan-2-one and CO<sub>2</sub>",
+   "pentan-2-one and formaldehyde",
+   "pentan-2-one and formic acid",
+   "2-methylpentane-1,2-diol"
+  ],
+  "h": "Hot permanganate cleaves the C=C and oxidizes each piece as far as it can go. How far can a =CH<sub>2</sub> carbon be oxidized?",
+  "w": "Hot, concentrated KMnO<sub>4</sub> cleaves the double bond. A disubstituted alkene carbon (C2, bearing CH<sub>3</sub> and propyl) becomes a ketone, which resists further oxidation. A =CH<sub>2</sub> carbon is oxidized all the way: formaldehyde → formic acid → CO<sub>2</sub>. Products: <b>pentan-2-one and CO<sub>2</sub></b>.",
+  "x": [
+   "",
+   "Formaldehyde is what ozonolysis with a reductive workup gives from a =CH<sub>2</sub> group. Hot KMnO<sub>4</sub> does not stop at an aldehyde.",
+   "Formic acid is still oxidizable under hot permanganate; the terminal carbon ends as CO<sub>2</sub>.",
+   "The 1,2-diol is the product of cold, dilute KMnO<sub>4</sub>. With heat the diol is cleaved."
+  ]
+ },
+ {
+  "id": "z7-10",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "Ozonolysis (1. O<sub>3</sub>; 2. (CH<sub>3</sub>)<sub>2</sub>S) of an unknown alkene gives octane-2,7-dione as the only organic product. Which alkene was it?",
+  "s": [
+   {
+    "smi": "CC(=O)CCCCC(C)=O",
+    "cap": "octane-2,7-dione"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1=C(C)CCCC1"
+   },
+   {
+    "smi": "CC1=CCCCC1C"
+   },
+   {
+    "smi": "CCC1=CCCCC1"
+   },
+   {
+    "smi": "C=C(C)CCCCC(C)=C"
+   }
+  ],
+  "h": "Turn each C=O of the product back into one end of a C=C. If both carbonyls came from the same double bond, the starting alkene was a ring.",
+  "w": "One product containing two ketones means one C=C was cleaved inside a ring, so the ring opened into a chain. Rejoining the two carbonyl carbons (C2 and C7) with a double bond gives a six-membered ring with a methyl on each alkene carbon: <b>1,2-dimethylcyclohexene</b>. Each alkene carbon carries a methyl group, so each becomes a methyl ketone.",
+  "x": [
+   "",
+   "1,6-Dimethylcyclohexene has an alkene C–H, so it gives an aldehyde: 2-methyl-6-oxoheptanal, not a diketone.",
+   "1-Ethylcyclohexene also has an alkene C–H; it gives 6-oxooctanal (an aldehyde and an ethyl ketone).",
+   "This diene does give octane-2,7-dione, but each =CH<sub>2</sub> end also gives formaldehyde, so the dione would not be the only organic product."
+  ]
+ },
+ {
+  "id": "z7-11",
+  "t": "alkynes",
+  "d": 2,
+  "k": 0,
+  "q": "Which reagents convert ethynylcyclohexane into 2-cyclohexylacetaldehyde?",
+  "s": [
+   {
+    "smi": "C#CC1CCCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "O=CCC1CCCCC1"
+   }
+  ],
+  "c": [
+   "1. (sia)<sub>2</sub>BH; 2. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>, HgSO<sub>4</sub>",
+   "1. H<sub>2</sub>, Lindlar catalyst; 2. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>",
+   "1. O<sub>3</sub>; 2. H<sub>2</sub>O"
+  ],
+  "h": "The oxygen must end up on the terminal carbon. Which alkyne hydration is anti-Markovnikov?",
+  "w": "Hydroboration of a terminal alkyne with a bulky dialkylborane such as disiamylborane, (sia)<sub>2</sub>BH, puts boron on the terminal carbon and stops after one addition. Oxidation gives an enol with OH on the terminal carbon, which tautomerizes to the aldehyde: <b>1. (sia)<sub>2</sub>BH; 2. H<sub>2</sub>O<sub>2</sub>, NaOH</b>.",
+  "x": [
+   "",
+   "Mercury-catalyzed hydration is Markovnikov: OH goes to the internal carbon and the enol tautomerizes to the methyl ketone, 1-cyclohexylethan-1-one.",
+   "Lindlar reduction gives vinylcyclohexane, and acid hydration of that gives an alcohol (rearranged to 1-ethylcyclohexanol), not an aldehyde.",
+   "Ozonolysis cleaves the triple bond: the product is cyclohexanecarboxylic acid (plus CO<sub>2</sub> from the terminal carbon), which has lost a carbon."
+  ]
+ },
+ {
+  "id": "z7-12",
+  "t": "alkynes",
+  "d": 2,
+  "k": 0,
+  "q": "Which alkynes give a <b>single</b> ketone (no isomeric ketone) on hydration with H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub> and HgSO<sub>4</sub>?",
+  "s": [
+   {
+    "smi": "CC#CCCC",
+    "cap": "I"
+   },
+   {
+    "smi": "CCC#CCC",
+    "cap": "II"
+   },
+   {
+    "smi": "C#CCCCC",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "II and III only",
+   "II only",
+   "I and II only",
+   "I, II, and III"
+  ],
+  "h": "For each alkyne ask: can water add to either alkyne carbon, and would the two choices give different ketones?",
+  "w": "I (hex-2-yne) is unsymmetrical internal: the two alkyne carbons are similar (methyl vs propyl side), so water adds to both and a mixture of hexan-2-one and hexan-3-one forms. II (hex-3-yne) is symmetrical: either orientation gives hexan-3-one only. III (hex-1-yne) is terminal: Markovnikov addition puts OH on C2 only, giving hexan-2-one only. Answer: <b>II and III only</b>.",
+  "x": [
+   "",
+   "This misses III. A terminal alkyne is strongly Markovnikov under Hg<sup>2+</sup> catalysis and gives only the methyl ketone.",
+   "This accepts I. Hex-2-yne has a methyl on one side and a propyl on the other; both carbons are internal, so both ketones form.",
+   "This accepts I, whose two alkyne carbons both have alkyl groups, so hydration gives a mixture of two ketones."
+  ]
+ },
+ {
+  "id": "z7-13",
+  "t": "alkynes",
+  "d": 2,
+  "k": 0,
+  "q": "In the HgSO<sub>4</sub>-catalyzed hydration of an alkyne, the enol formed tautomerizes in acid to the ketone. For cyclohex-1-en-1-ol and H<sub>3</sub>O<sup>+</sup>, which drawing shows the first step of that tautomerization (the step that makes the new C–H bond)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH:51][C:52]1=[CH:53]CCCC1.[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[OH:51][C:52]1=[CH:53]CCCC1.[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[OH:51][C:52]1=[CH:53]CCCC1.[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[OH:51][C:52]1=[CH:53]CCCC1.[H:54][OH2+:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 54
+     }
+    ]
+   }
+  ],
+  "h": "The new C–H bond forms at the carbon that is not bonded to oxygen. Which electrons reach out to the proton?",
+  "w": "In acid, the enol C=C π electrons attack a proton of H<sub>3</sub>O<sup>+</sup>, forming the new C–H bond at the β carbon; the H–O bond electrons go to water's oxygen. This gives the resonance-stabilized oxocarbenium ion (protonated ketone), which loses the O–H proton to give cyclohexanone. Correct arrows: <b>C=C π bond → H, H–O bond → O of water</b>.",
+  "x": [
+   "",
+   "Protonating the enol oxygen gives an oxonium ion, but it forms no C–H bond and leads back to the enol or to loss of water, not to the ketone.",
+   "The π electrons are drawn going to oxygen, and the H–O bond is never broken. Carbon must bond to the proton, and water leaves as the H–O electrons return to oxygen.",
+   "The π electrons reach the proton, but the H–O bond is never broken, so hydrogen would end up with two bonds. Water must leave with the H–O bond electrons."
+  ]
+ },
+ {
+  "id": "z7-14",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "Each alkene is hydrogenated with H<sub>2</sub> over Pd/C. Which one gives a meso compound?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1=C(C)CCC1"
+   },
+   {
+    "smi": "C/C(c1ccccc1)=C(/C)c1ccccc1",
+    "cap": "(E)"
+   },
+   {
+    "smi": "CCCC1=C(C)CCC1"
+   },
+   {
+    "smi": "CC(C)=C(C)C"
+   }
+  ],
+  "h": "Both H atoms add to the same face (syn). Draw each product, find its stereocenters, then look for an internal mirror plane.",
+  "w": "Catalytic hydrogenation delivers both H atoms to one face of the alkene. 1,2-Dimethylcyclopentene therefore gives cis-1,2-dimethylcyclopentane, (1<i>R</i>,2<i>S</i>). It has two stereocenters with identical sets of groups and a mirror plane through C4 and the middle of the C1–C2 bond, so it is achiral: <b>a meso compound, from 1,2-dimethylcyclopentene</b>.",
+  "x": [
+   "",
+   "Syn addition to the <i>E</i> alkene gives (2<i>R</i>,3<i>R</i>)- and (2<i>S</i>,3<i>S</i>)-2,3-diphenylbutane in equal amounts, a racemic mixture. Only the <i>Z</i> isomer would give the meso compound.",
+   "The product, cis-1-methyl-2-propylcyclopentane, has two stereocenters with different groups, so no mirror plane is possible; it is chiral and forms as a racemate.",
+   "2,3-Dimethylbutane has no stereocenter. It is achiral, but a meso compound must contain stereocenters."
+  ]
+ },
+ {
+  "id": "z7-15",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "In the reaction of methylenecyclohexane with Br<sub>2</sub> in water, water opens the bromonium ion. Which drawing shows that step correctly?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[OH2:55].[Br+:53]1[CH2:52][C:51]12CCCCC2",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 55,
+      "to": 51
+     },
+     {
+      "from": [
+       51,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:55].[Br+:53]1[CH2:52][C:51]12CCCCC2",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 55,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:55].[Br+:53]1[CH2:52][C:51]12CCCCC2",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 55,
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "[OH2:55].[Br+:53]1[CH2:52][C:51]12CCCCC2",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 55,
+      "to": 51
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "The nucleophile attacks the ring carbon whose bond to Br is weakest and which carries more positive charge; the bond that breaks must be to the carbon attacked.",
+  "w": "In the bromonium ion the tertiary ring carbon carries more δ+ and has the weaker, longer C–Br bond. Water's lone pair attacks that carbon from the back, and the C–Br bond to the same carbon breaks with its electrons going to Br. Correct: <b>O lone pair → tertiary carbon; C(tertiary)–Br bond → Br</b>. Deprotonation then gives 1-(bromomethyl)cyclohexan-1-ol.",
+  "x": [
+   "",
+   "Attack at the CH<sub>2</sub> carbon would put OH on the primary carbon. Opening of a halonium ion occurs at the more substituted carbon.",
+   "Water bonds to carbon, not to bromine. Attack at Br would give a species with no new C–O bond and Br with too many bonds.",
+   "Water attacks the tertiary carbon but the bond broken is the CH<sub>2</sub>–Br bond, so the tertiary carbon would have five bonds and the CH<sub>2</sub> only three."
+  ]
+ },
+ {
+  "id": "z7-16",
+  "t": "addition",
+  "d": 3,
+  "k": 0,
+  "q": "Adding HBr to vinylcyclohexane gives first the secondary carbocation shown, which rearranges before bromide adds. Which arrow shows the rearrangement to the more stable cation?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C[CH+:51][C:52]1([H:54])[CH2:55]CCCC1",
+    "arrows": [
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "C[CH+:51][C:52]1([H:54])[CH2:55]CCCC1",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "C[CH+:51][C:52]1([H:54])[CH2:55]CCCC1",
+    "arrows": [
+     {
+      "from": [
+       52,
+       55
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "C[CH+:51][C:52]1([H:54])[CH2:55]CCCC1",
+    "arrows": [
+     {
+      "from": [
+       52,
+       54
+      ],
+      "to": 52
+     }
+    ]
+   }
+  ],
+  "h": "A 1,2-shift moves a group with its bonding electron pair to the cationic carbon. Which neighbour shift gives a tertiary cation?",
+  "w": "In a 1,2-hydride shift the C–H bond electrons on the ring carbon move, with the hydrogen, to the adjacent cationic carbon. The positive charge moves to the ring carbon, now tertiary (three carbon neighbours). The arrow starts at the C–H bond and ends at the cationic carbon: <b>ring C–H bond → C<sup>+</sup></b>. Bromide then adds to give 1-bromo-1-ethylcyclohexane.",
+  "x": [
+   "",
+   "The arrow starts at the positive carbon, which has no electrons to give. Arrows show electrons moving toward the electron-poor carbon.",
+   "This shifts a ring C–C bond (ring expansion), giving a secondary cycloheptyl cation. That is no more stable than the starting cation; the hydride shift gives a tertiary one.",
+   "This arrow puts the C–H electrons on the ring carbon as a lone pair, making a carbanion next to a cation. No group moves to the cationic center."
+  ]
+ },
+ {
+  "id": "z7-17",
+  "t": "alkynes",
+  "d": 1,
+  "k": 0,
+  "q": "What is the major product when but-2-yne reacts with <b>one</b> equivalent of Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub>?",
+  "s": [
+   {
+    "smi": "CC#CC"
+   },
+   {
+    "arrow": "Br<sub>2</sub> (1 equiv)",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C/C(Br)=C(Br)/C"
+   },
+   {
+    "smi": "C/C(Br)=C(Br)\\C"
+   },
+   {
+    "smi": "CC(Br)(Br)C(C)(Br)Br"
+   },
+   {
+    "smi": "C/C=C(Br)/C"
+   }
+  ],
+  "h": "With one equivalent, one Br<sub>2</sub> adds across the triple bond. Is the addition syn or anti?",
+  "w": "Like alkenes, alkynes add Br<sub>2</sub> through a bridged bromonium ion that bromide opens from the opposite side, so the two Br atoms add anti. One equivalent gives the dibromoalkene with Br atoms trans: <b>(E)-2,3-dibromobut-2-ene</b>.",
+  "x": [
+   "",
+   "The Z isomer would require syn addition. Anti opening of the bridged bromonium ion places the bromines on opposite sides.",
+   "The tetrabromide needs two equivalents of Br<sub>2</sub>. With one equivalent the reaction stops at the dibromoalkene.",
+   "2-Bromobut-2-ene is an HBr addition product. Br<sub>2</sub> adds two bromine atoms and no hydrogen."
+  ]
+ },
+ {
+  "id": "z7-18",
+  "t": "alkynes",
+  "d": 2,
+  "k": 0,
+  "q": "Which sequence converts 4-phenylbut-1-ene into 4-phenylbut-1-yne?",
+  "s": [
+   {
+    "smi": "C=CCCc1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C#CCCc1ccccc1"
+   }
+  ],
+  "c": [
+   "1. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub>  2. NaNH<sub>2</sub> (3 equiv), NH<sub>3</sub>  3. H<sub>2</sub>O",
+   "1. HBr  2. NaNH<sub>2</sub> (3 equiv), NH<sub>3</sub>  3. H<sub>2</sub>O",
+   "1. Br<sub>2</sub>, H<sub>2</sub>O  2. NaNH<sub>2</sub> (3 equiv), NH<sub>3</sub>  3. H<sub>2</sub>O",
+   "1. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub>  2. NaOH (1 equiv), H<sub>2</sub>O"
+  ],
+  "h": "A triple bond needs two eliminations, so both alkene carbons must first carry a leaving group. Then count what the base has to do.",
+  "w": "Br<sub>2</sub> adds across the C=C to give the vicinal dibromide, 1,2-dibromo-4-phenylbutane. Two E2 eliminations with the very strong base NaNH<sub>2</sub> form the triple bond (the second one, from a vinyl bromide, needs a base this strong). The third equivalent deprotonates the terminal alkyne (pK<sub>a</sub> ≈ 25) to its acetylide, and water reprotonates it: <b>1. Br<sub>2</sub>, CH<sub>2</sub>Cl<sub>2</sub>  2. NaNH<sub>2</sub> (3 equiv), NH<sub>3</sub>  3. H<sub>2</sub>O</b>.",
+  "x": [
+   "",
+   "HBr puts only one bromine on the chain. One elimination simply regenerates an alkene; there is no second leaving group to form the triple bond.",
+   "Br<sub>2</sub> in water gives a bromohydrin (Br and OH). OH<sup>−</sup> is not a leaving group, so base closes the bromohydrin to an epoxide instead of making an alkyne.",
+   "One equivalent of hydroxide can remove at most one HBr, giving a vinyl bromide. The second elimination needs a much stronger base such as NaNH<sub>2</sub>."
+  ]
+ },
+ {
+  "id": "z7-19",
+  "t": "addition",
+  "d": 3,
+  "k": 0,
+  "q": "3-Methylpent-1-ene is treated separately with each reagent set. Which give a product whose carbon skeleton or functional-group position shows a carbocation rearrangement?<br>I. HBr<br>II. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub><br>III. 1. Hg(OAc)<sub>2</sub>, H<sub>2</sub>O; 2. NaBH<sub>4</sub>",
+  "s": [
+   {
+    "smi": "C=CC(C)CC",
+    "cap": "3-methylpent-1-ene"
+   }
+  ],
+  "c": [
+   "I and II only",
+   "II only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "Which reagent sets go through a free carbocation? For those, look for a hydride on the carbon next to the first cation.",
+  "w": "Protonation gives a secondary cation at C2, next to C3, which bears a hydrogen and two alkyl groups. A 1,2-hydride shift gives a more stable tertiary cation at C3. I is true: HBr traps the tertiary cation (3-bromo-3-methylpentane). II is true: acid hydration also goes through the free cation and gives 3-methylpentan-3-ol. III is false: oxymercuration goes through a bridged mercurinium ion, not a free carbocation, so it gives unrearranged 3-methylpentan-2-ol. Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "This leaves out I. HBr addition (no peroxides) also goes through the secondary carbocation, which undergoes the hydride shift.",
+   "This reverses the logic: oxymercuration is the one method that avoids rearrangement, because the mercurinium ion is bridged.",
+   "This accepts III. The mercurinium ion never becomes a free carbocation, so no hydride shift occurs."
+  ]
+ },
+ {
+  "id": "z7-20",
+  "t": "addition",
+  "d": 2,
+  "k": 0,
+  "q": "Which reactions of cyclohexene give a <b>meso</b> product?<br>I. Br<sub>2</sub> in CH<sub>2</sub>Cl<sub>2</sub><br>II. OsO<sub>4</sub>, then NaHSO<sub>3</sub>, H<sub>2</sub>O<br>III. <i>m</i>CPBA, then H<sub>3</sub>O<sup>+</sup>",
+  "s": [
+   {
+    "smi": "C1=CCCCC1"
+   }
+  ],
+  "c": [
+   "II only",
+   "I and III only",
+   "I only",
+   "I, II, and III"
+  ],
+  "h": "Decide syn or anti addition for each, then ask whether a cis- or trans-1,2-disubstituted cyclohexane with two identical groups has a mirror plane.",
+  "w": "I gives trans-1,2-dibromocyclohexane (anti addition); with two identical groups on opposite faces it has no mirror plane and forms as a racemate. II gives cis-cyclohexane-1,2-diol (syn addition); its mirror plane makes it meso. III: the epoxide is opened by water from the back, giving trans-cyclohexane-1,2-diol, which is chiral and racemic. Answer: <b>II only</b>.",
+  "x": [
+   "",
+   "This picks the two anti additions. trans-1,2-Disubstituted cyclohexanes with identical groups are chiral (C<sub>2</sub>-symmetric), so they form as racemates, not meso compounds.",
+   "Anti addition of Br<sub>2</sub> gives the trans dibromide, which is chiral. It forms as a racemic mixture.",
+   "Only the syn addition gives the cis, meso product. Both anti routes give a chiral trans product."
+  ]
+ }
+]

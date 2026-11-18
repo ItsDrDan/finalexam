@@ -1,0 +1,721 @@
+[
+ {
+  "id": "zz2-11-01",
+  "t": "conjugated",
+  "d": 2,
+  "q": "Which carbocation is the most stable?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC=C[C+](C)C"
+   },
+   {
+    "smi": "C=CC[C+](C)C"
+   },
+   {
+    "smi": "C=C[CH+]CCC"
+   },
+   {
+    "smi": "C/C=C/C[CH+]C"
+   }
+  ],
+  "h": "First ask whether the empty p orbital is next to a C=C. Then compare the carbons that share the charge in each resonance form.",
+  "w": "An allylic cation spreads its charge over two carbons, and each alkyl group on those carbons adds more stabilization. In <b>the 2-methylpent-3-en-2-yl cation</b> the charge is shared by a tertiary carbon (C2) and a secondary carbon (C4), so both resonance forms are good ones. The other ions are either not conjugated or have their charge partly on a primary carbon.",
+  "x": [
+   "",
+   "This cation is tertiary, but the C=C is two carbons away (not allylic), so the charge cannot be delocalized; one resonance form only.",
+   "This cation is allylic, but its second resonance form puts the charge on a primary CH<sub>2</sub>, so the hybrid is a 2°/1° mix, weaker than a 3°/2° mix.",
+   "The C=C is separated from the cationic carbon by a CH<sub>2</sub>, so this is a plain secondary cation with no resonance stabilization."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-02",
+  "t": "conjugated",
+  "d": 3,
+  "q": "Rank these benzylic chlorides from slowest to fastest S<sub>N</sub>1 solvolysis in aqueous ethanol.",
+  "s": [
+   {
+    "smi": "ClCc1ccc([N+](=O)[O-])cc1",
+    "cap": "I"
+   },
+   {
+    "smi": "ClCc1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "ClC(c1ccccc1)c1ccccc1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III",
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III",
+   "I &lt; III &lt; II"
+  ],
+  "h": "The rate-determining step makes the carbocation. Ask how each group changes the stability of that cation.",
+  "w": "S<sub>N</sub>1 rate follows carbocation stability. The benzyl cation from II is delocalized into one ring. In III the cation is shared over two rings (diphenylmethyl cation), so it forms much faster. In I the para nitro group withdraws electron density by induction and resonance, and one resonance form would put positive charge next to the positive nitro nitrogen, so that cation is destabilized and forms slowest. Order: <b>I &lt; II &lt; III</b>.",
+  "x": [
+   "",
+   "This is the reverse order; it treats the nitro group as stabilizing and the second ring as destabilizing.",
+   "This puts I ahead of II, but an electron-withdrawing nitro group slows cation formation compared with the unsubstituted benzyl chloride.",
+   "This misplaces III: a cation delocalized over two benzene rings is more stable than the simple benzyl cation, so III is fastest."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-03",
+  "t": "conjugated",
+  "d": 1,
+  "q": "Which chloride reacts fastest with NaI in acetone (an S<sub>N</sub>2 reaction)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CCCl"
+   },
+   {
+    "smi": "CCCCl"
+   },
+   {
+    "smi": "C/C=C/Cl"
+   },
+   {
+    "smi": "CC(C)Cl"
+   }
+  ],
+  "h": "In the S<sub>N</sub>2 transition state the carbon under attack has a p-like orbital. What could overlap with it?",
+  "w": "<b>3-Chloropropene (allyl chloride)</b> is a primary halide whose S<sub>N</sub>2 transition state is lowered by overlap of the adjacent π bond with the partly formed and partly broken bonds, so allylic halides react much faster than ordinary primary halides.",
+  "x": [
+   "",
+   "1-Chloropropane is primary and unhindered, but it has no π bond to stabilize the transition state, so it is slower than allyl chloride.",
+   "A vinylic chloride does not undergo S<sub>N</sub>2: backside attack is blocked by the π system and the C–Cl bond is stronger.",
+   "2-Chloropropane is secondary, so backside attack is more hindered than at a primary allylic carbon."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-04",
+  "t": "conjugated",
+  "d": 2,
+  "q": "What is the major product of this dehydration?",
+  "s": [
+   {
+    "smi": "CC(O)Cc1ccccc1"
+   },
+   {
+    "arrow": "H<sub>2</sub>SO<sub>4</sub>",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C/C=C/c1ccccc1"
+   },
+   {
+    "smi": "C/C=C\\c1ccccc1"
+   },
+   {
+    "smi": "C=CCc1ccccc1"
+   },
+   {
+    "smi": "C=C(C)c1ccccc1"
+   }
+  ],
+  "h": "E1 gives the most stable alkene. Which possible C=C can also be conjugated with the ring?",
+  "w": "Protonation and loss of water give a secondary cation at C2. Losing a proton from the benzylic CH<sub>2</sub> forms a C=C conjugated with the benzene ring, which is the most stable alkene available; the <i>E</i> isomer avoids the phenyl–methyl clash. The major product is <b>(<i>E</i>)-1-phenylprop-1-ene</b>.",
+  "x": [
+   "",
+   "The <i>Z</i> isomer is conjugated too, but the phenyl and methyl groups crowd each other on the same side, so the <i>E</i> isomer is favored under equilibrating E1 conditions.",
+   "Allylbenzene comes from removing a CH<sub>3</sub> proton; its C=C is monosubstituted and not conjugated with the ring, so it is a minor product.",
+   "2-Phenylpropene would need the phenyl to end up on C2, which this cation cannot reach without an unfavorable shift; it is not formed here."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-05",
+  "t": "conjugated",
+  "d": 2,
+  "q": "2,3-Dimethyl-1,3-butadiene reacts with one equivalent of Br<sub>2</sub> at 40 °C, conditions where the products equilibrate. What is the major product? (The 1,4-adduct is drawn as its <i>E</i> isomer.)",
+  "s": [
+   {
+    "smi": "C=C(C)C(C)=C"
+   },
+   {
+    "arrow": "Br<sub>2</sub> (1 equiv)",
+    "below": "CH<sub>2</sub>Cl<sub>2</sub>, 40 °C"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "BrC/C(C)=C(C)/CBr"
+   },
+   {
+    "smi": "C=C(C)C(C)(Br)CBr"
+   },
+   {
+    "smi": "BrCC(C)(Br)C(C)(Br)CBr"
+   },
+   {
+    "smi": "C=C(C)C(=C)CBr"
+   }
+  ],
+  "h": "Br<sup>+</sup> adds to a terminal carbon; the intermediate is allylic. Under equilibrium control, which product has the more substituted C=C?",
+  "w": "Bromine adds at C1, giving an allylic cation (or bromonium ion) whose charge is shared by C2 and C4. Bromide can attack C2 (1,2-addition) or C4 (1,4-addition). At 40 °C the products equilibrate, so the more stable one dominates: the 1,4-adduct has a <b>tetrasubstituted C=C (1,4-dibromo-2,3-dimethylbut-2-ene)</b>, while the 1,2-adduct keeps only a 1,1-disubstituted C=C.",
+  "x": [
+   "",
+   "This 1,2-adduct is favored at low temperature (kinetic control) but is less stable, so at 40 °C it converts to the 1,4-adduct.",
+   "The tetrabromide needs a second equivalent of Br<sub>2</sub>; with one equivalent the diene adds only once.",
+   "This allylic substitution product comes from radical bromination (NBS, light), not from Br<sub>2</sub> addition in CH<sub>2</sub>Cl<sub>2</sub>."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-06",
+  "t": "conjugated",
+  "d": 3,
+  "q": "(<i>E</i>)-Penta-1,3-diene reacts with one equivalent of HBr at −78 °C. What is the major product? (Ignore stereochemistry.)",
+  "s": [
+   {
+    "smi": "C/C=C/C=C"
+   },
+   {
+    "arrow": "HBr (1 equiv)",
+    "below": "−78 °C"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC=CC(C)Br"
+   },
+   {
+    "smi": "C=CC(Br)CC"
+   },
+   {
+    "smi": "BrCC=CCC"
+   },
+   {
+    "smi": "C=CCC(C)Br"
+   }
+  ],
+  "h": "Find the protonation site that gives the best allylic cation, then add Br<sup>−</sup> at each carbon that shares the charge. Compare the two products carefully.",
+  "w": "Protonation at terminal C1 gives an allylic cation shared by C2 and C4, and both of these carbons are secondary, so this is the best cation. Bromide attack at C2 (1,2-addition) gives CH<sub>3</sub>CHBr–CH=CH–CH<sub>3</sub>; attack at C4 (1,4-addition) gives CH<sub>3</sub>CH=CH–CHBr–CH<sub>3</sub>, which is the same compound. So the kinetic and thermodynamic paths both give <b>4-bromopent-2-ene</b>.",
+  "x": [
+   "",
+   "3-Bromopent-1-ene comes from protonating C4, which gives an allylic cation shared by a secondary and a primary carbon; that cation is less stable.",
+   "1-Bromopent-2-ene is the 1,4-product of the same less stable cation (protonation at C4), with bromide on the primary carbon.",
+   "4-Bromopent-1-ene comes from protonating C3, giving a secondary cation that is not allylic; the diene reacts through the conjugated cation instead."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-07",
+  "t": "aromatic",
+  "d": 2,
+  "q": "Which of these species are aromatic? (Assume each ring can be planar.)",
+  "s": [
+   {
+    "smi": "c1cc[nH]n1",
+    "cap": "I"
+   },
+   {
+    "smi": "C1C=COC=C1",
+    "cap": "II"
+   },
+   {
+    "smi": "[CH-]1C=CC=CC=CC=C1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II, and III"
+  ],
+  "h": "For each ring check two things: does every ring atom have a p orbital, and is the π-electron count 4<i>n</i>+2?",
+  "w": "I, pyrazole: every ring atom is sp<sup>2</sup>; the N–H nitrogen gives its lone pair to the π system and the other N gives one electron from its C=N bond, for 6 π electrons: aromatic (true). II, 4<i>H</i>-pyran: the CH<sub>2</sub> carbon is sp<sup>3</sup>, so the cycle of p orbitals is broken: nonaromatic (false). III, the cyclononatetraenyl anion: four C=C bonds (8 electrons) plus the carbanion lone pair give 10 π electrons in a ring of nine p orbitals, a 4<i>n</i>+2 number (<i>n</i> = 2): aromatic (true). Answer: <b>I and III only</b>.",
+  "x": [
+   "",
+   "This misjudges III: the anion has 10 π electrons (four C=C plus the lone pair), a Hückel number, so it is aromatic.",
+   "This misjudges I: pyrazole has 6 π electrons in a planar ring of five p orbitals, the same count as pyrrole.",
+   "This misjudges II: the sp<sup>3</sup> CH<sub>2</sub> interrupts the ring of p orbitals, so 4<i>H</i>-pyran cannot be aromatic."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-08",
+  "t": "aromatic",
+  "d": 2,
+  "q": "Purine (shown) is the parent ring system of adenine and guanine. How many electrons are in its delocalized π system?",
+  "s": [
+   {
+    "smi": "c1ncc2[nH]cnc2n1"
+   }
+  ],
+  "c": [
+   "10",
+   "8",
+   "12",
+   "16"
+  ],
+  "h": "Count two electrons for each ring C=C or C=N. Then decide which nitrogen lone pairs are in p orbitals and which lie in the ring plane.",
+  "w": "Purine has four double bonds in the fused rings (8 π electrons). The N–H nitrogen of the five-membered ring is pyrrole-like: its lone pair sits in a p orbital and adds 2 more. The other three nitrogens are pyridine-like: each is already in a C=N bond and its lone pair lies in an sp<sup>2</sup> orbital in the ring plane. Total: <b>10 π electrons</b>, a 4<i>n</i>+2 number, so purine is aromatic.",
+  "x": [
+   "",
+   "8 counts only the double bonds and leaves out the N–H lone pair, which lies in a p orbital and is part of the π system.",
+   "12 adds a lone pair from a pyridine-like nitrogen as well; those lone pairs are sp<sup>2</sup> and lie in the ring plane, outside the π system.",
+   "16 counts every nitrogen lone pair; only the N–H nitrogen's lone pair is in a p orbital."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-09",
+  "t": "conjugated",
+  "d": 2,
+  "q": "For the heptatrienyl anion shown (7 conjugated carbons), which π molecular orbital is the HOMO, and what kind of orbital is it?",
+  "s": [
+   {
+    "smi": "C=CC=CC=C[CH2-]"
+   }
+  ],
+  "c": [
+   "ψ<sub>4</sub>, a nonbonding MO",
+   "ψ<sub>3</sub>, a bonding MO",
+   "ψ<sub>5</sub>, an antibonding MO",
+   "ψ<sub>4</sub>, an antibonding MO"
+  ],
+  "h": "Seven p orbitals give seven π MOs. With an odd number, the middle one is special. Then count the π electrons.",
+  "w": "Seven p orbitals combine into seven π MOs: ψ<sub>1</sub>–ψ<sub>3</sub> bonding, ψ<sub>4</sub> nonbonding (the middle MO of an odd system), and ψ<sub>5</sub>–ψ<sub>7</sub> antibonding. The anion has 8 π electrons (three C=C plus the lone pair), which fill ψ<sub>1</sub> through ψ<sub>4</sub>. So the HOMO is <b>ψ<sub>4</sub>, a nonbonding MO</b>.",
+  "x": [
+   "",
+   "ψ<sub>3</sub> would be the HOMO of the 6-electron cation; the anion has two more electrons, which go into ψ<sub>4</sub>.",
+   "ψ<sub>5</sub> is the LUMO of the anion; it is empty in the ground state.",
+   "ψ<sub>4</sub> is the HOMO, but in an odd-numbered chain the middle MO is nonbonding, not antibonding."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-10",
+  "t": "aromatic",
+  "d": 3,
+  "q": "Use a Frost circle (inscribed polygon) for the planar cyclopropenyl anion, C<sub>3</sub>H<sub>3</sub><sup>−</sup>. Which description of its π electrons is correct?",
+  "s": [
+   {
+    "smi": "[CH-]1C=C1"
+   }
+  ],
+  "c": [
+   "Two electrons fill the single bonding MO, and the other two occupy a degenerate pair of antibonding MOs, one electron in each, so it is antiaromatic",
+   "Four electrons fill two degenerate bonding MOs, so it is aromatic",
+   "Two electrons fill the bonding MO and two fill a nonbonding MO, so it is nonaromatic like the allyl anion",
+   "Two electrons fill the bonding MO and two are paired in one antibonding MO, so it is aromatic"
+  ],
+  "h": "Put a vertex of the triangle at the bottom of the circle. Where do the other two vertices fall relative to the center line?",
+  "w": "With one vertex down, the triangle gives one MO below the center (bonding) and a degenerate pair above the center (antibonding); there is no nonbonding level. The anion has 4 π electrons (one C=C plus the lone pair). Two fill the bonding MO; the last two go into the degenerate antibonding pair, one in each by Hund's rule. A 4<i>n</i> count with unpaired electrons in antibonding orbitals means <b>the planar anion is antiaromatic</b>, which is why the cyclopropenyl anion is very hard to form.",
+  "x": [
+   "",
+   "A triangle has only one MO below the center line; the degenerate pair lies above it, so they are antibonding, not bonding.",
+   "A three-membered ring has no nonbonding level on its Frost circle; the open-chain allyl anion does, but the cyclic ion does not.",
+   "The two antibonding MOs are degenerate, so Hund's rule puts one electron in each; and 4 π electrons in a cyclic system is antiaromatic, not aromatic."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-11",
+  "t": "aromatic",
+  "d": 2,
+  "q": "Rank these phenols from weakest to strongest acid.",
+  "s": [
+   {
+    "smi": "Oc1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "Oc1cccc([N+](=O)[O-])c1",
+    "cap": "II"
+   },
+   {
+    "smi": "Oc1ccc([N+](=O)[O-])cc1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III",
+   "II &lt; I &lt; III",
+   "I &lt; III &lt; II",
+   "III &lt; II &lt; I"
+  ],
+  "h": "Draw the resonance forms of each phenoxide. Can the negative charge reach the carbon bearing the nitro group?",
+  "w": "A nitro group stabilizes the phenoxide. From the meta position (II) it works only by induction, so 3-nitrophenol (pK<sub>a</sub> ≈ 8.4) is more acidic than phenol (≈ 10.0). From the para position (III) the ring carbon bearing NO<sub>2</sub> carries negative charge in one resonance form, so the charge can move onto the nitro oxygens; 4-nitrophenol (≈ 7.2) is the strongest acid. Order: <b>I &lt; II &lt; III</b>.",
+  "x": [
+   "",
+   "This makes 3-nitrophenol weaker than phenol, but the electron-withdrawing nitro group stabilizes the phenoxide even from the meta position.",
+   "This swaps II and III: only a para (or ortho) nitro group can accept the negative charge by resonance, so the para isomer is more acidic.",
+   "This is the reverse order; electron-withdrawing groups increase phenol acidity."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-12",
+  "t": "conjugated",
+  "d": 2,
+  "q": "1,3-Butadiene is heated with dimethyl maleate (the <i>Z</i> diester shown). Which description of the Diels–Alder product is correct?",
+  "s": [
+   {
+    "smi": "C=CC=C"
+   },
+   "+",
+   {
+    "smi": "COC(=O)/C=C\\C(=O)OC"
+   },
+   {
+    "arrow": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "The two ester groups are cis, and the product is a meso compound (optically inactive)",
+   "The two ester groups are trans, and the product forms as a racemic mixture",
+   "The two ester groups are cis, and the product forms as a racemic mixture of two enantiomers",
+   "A 1:1 mixture of cis and trans products forms because the cycloaddition is stepwise"
+  ],
+  "h": "Dienophile geometry is kept in the product. Then check whether the cis product has an internal mirror plane.",
+  "w": "The Diels–Alder reaction is concerted and suprafacial on the dienophile, so the two groups that were cis on the alkene end up cis on the new ring: dimethyl <i>cis</i>-cyclohex-4-ene-1,2-dicarboxylate. Its two stereocenters are <i>R</i> and <i>S</i>, and a mirror plane passes between them, so <b>the cis product is meso and optically inactive</b>.",
+  "x": [
+   "",
+   "Trans esters would come from dimethyl fumarate, the <i>E</i> isomer; the cis geometry of maleate is kept.",
+   "The cis diester has a mirror plane (<i>R</i>,<i>S</i>), so it is a single meso compound, not a pair of enantiomers.",
+   "The reaction is concerted, so there is no intermediate that could rotate and scramble the geometry."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-13",
+  "t": "conjugated",
+  "d": 2,
+  "q": "The allylic cation I is converted to its resonance form II. Which curved arrow correctly shows this?",
+  "s": [
+   {
+    "smi": "C=C[CH+]C",
+    "cap": "I"
+   },
+   "↔",
+   {
+    "smi": "[CH2+]C=CC",
+    "cap": "II"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH2:51]=[CH:52][CH+:53]C",
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:51]=[CH:52][CH+:53]C",
+    "arrows": [
+     {
+      "from": 53,
+      "to": [
+       52,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:51]=[CH:52][CH+:53]C",
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:51]=[CH:52][CH+:53]C",
+    "arrows": [
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": [
+       51,
+       52
+      ]
+     }
+    ]
+   }
+  ],
+  "h": "Arrows start where electrons are (a bond or lone pair) and move toward the electron-poor atom. A positive carbon has no electrons to give.",
+  "w": "The π electrons of C1=C2 shift to become a π bond between C2 and C3, the empty p orbital. C3 becomes neutral and C1 is left with the positive charge, giving II. So <b>one arrow from the C1=C2 π bond to the C2–C3 bond</b> is correct.",
+  "x": [
+   "",
+   "This arrow starts at the positive carbon, which has no electrons to move; arrows must begin at a bond or lone pair.",
+   "Moving the π electrons onto C1 would make C1 a carbanion, not move the positive charge; it does not give II.",
+   "This moves the C2–C3 σ bond; resonance forms move only π electrons and lone pairs, never σ bonds."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-14",
+  "t": "aromatic",
+  "d": 1,
+  "q": "What is the hybridization of the nitrogen in pyrrole, and where is its lone pair?",
+  "s": [
+   {
+    "smi": "c1cc[nH]c1"
+   }
+  ],
+  "c": [
+   "sp<sup>2</sup>; the lone pair is in a p orbital",
+   "sp<sup>3</sup>; the lone pair is in an sp<sup>3</sup> orbital",
+   "sp<sup>2</sup>; the lone pair is in an sp<sup>2</sup> orbital",
+   "sp; the lone pair is in a p orbital"
+  ],
+  "h": "Pyrrole is aromatic with 6 π electrons, but it has only two C=C bonds.",
+  "w": "Pyrrole needs the nitrogen lone pair to complete its 6 π electrons (two C=C bonds give 4). For the lone pair to overlap with the ring p orbitals, nitrogen is <b>sp<sup>2</sup> with its lone pair in a p orbital</b>; its three sp<sup>2</sup> orbitals form the bonds to two carbons and H.",
+  "x": [
+   "",
+   "An sp<sup>3</sup> nitrogen would break the ring of p orbitals; pyrrole is planar and aromatic, so N is sp<sup>2</sup>.",
+   "This describes pyridine's nitrogen, whose lone pair lies in the ring plane; pyrrole's N–H uses all three sp<sup>2</sup> orbitals for σ bonds.",
+   "An sp nitrogen would be linear; the nitrogen in a five-membered ring is trigonal planar."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-15",
+  "t": "conjugated",
+  "d": 1,
+  "q": "Which compound contains a conjugated π system?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CC(C)=O"
+   },
+   {
+    "smi": "C=CCC(C)=O"
+   },
+   {
+    "smi": "C=C=CC"
+   },
+   {
+    "smi": "C1=CCC=CC1"
+   }
+  ],
+  "h": "Conjugated π bonds are separated by exactly one single bond, so their p orbitals line up side by side.",
+  "w": "In <b>but-3-en-2-one</b> the C=C and C=O are joined by one single bond, so four p orbitals overlap in a row: a conjugated system.",
+  "x": [
+   "",
+   "The CH<sub>2</sub> between the C=C and C=O is sp<sup>3</sup>, so the two π bonds are isolated.",
+   "In an allene the two π bonds share a carbon and are perpendicular (cumulated), so they do not overlap with each other.",
+   "In cyclohexa-1,4-diene each pair of C=C bonds is separated by an sp<sup>3</sup> CH<sub>2</sub>, so they are isolated."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-16",
+  "t": "conjugated",
+  "d": 1,
+  "q": "Which statements about the s-cis and s-trans conformations of 1,3-butadiene are correct?<br>I. The s-trans conformation is lower in energy.<br>II. The two interconvert by rotation about the C2–C3 single bond.<br>III. They are separate isomers that can be isolated at room temperature.",
+  "s": [
+   {
+    "smi": "C=CC=C"
+   }
+  ],
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "These are conformations, not configurations. How large is the barrier to rotation about the central bond?",
+  "w": "I is true: in s-cis the inner hydrogens on C1 and C4 crowd each other, so s-trans is more stable. II is true: the 's' means rotation about the single (σ) bond C2–C3. III is false: the barrier is only about 25 kJ/mol, so they interconvert rapidly at room temperature and cannot be separated. Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "This rejects II, but s-cis and s-trans differ only by rotation about the C2–C3 σ bond.",
+   "This rejects I and accepts III; s-trans is lower in energy, and the low rotation barrier means the forms cannot be isolated.",
+   "This accepts III, but conformers with a small rotation barrier interconvert many times per second at room temperature."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-17",
+  "t": "aromatic",
+  "d": 3,
+  "q": "Rank these amines from least basic to most basic.",
+  "s": [
+   {
+    "smi": "Nc1ccc([N+](=O)[O-])cc1",
+    "cap": "I"
+   },
+   {
+    "smi": "Nc1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "Cc1ccc(N)cc1",
+    "cap": "III"
+   },
+   {
+    "smi": "NC1CCCCC1",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III &lt; IV",
+   "II &lt; I &lt; III &lt; IV",
+   "I &lt; II &lt; IV &lt; III",
+   "IV &lt; III &lt; II &lt; I"
+  ],
+  "h": "Basicity depends on how available the nitrogen lone pair is. Is it delocalized into a ring, and does the para group push or pull?",
+  "w": "IV, cyclohexylamine, has a localized sp<sup>3</sup> lone pair (conjugate acid pK<sub>a</sub> ≈ 10.6): most basic. In the anilines the lone pair is delocalized into the ring. The para methyl group of III donates a little density (pK<sub>a</sub> ≈ 5.1), so III is slightly more basic than aniline II (≈ 4.6). In I the para nitro group pulls the lone pair onto its oxygens by resonance (≈ 1.0), so I is least basic. Order: <b>I &lt; II &lt; III &lt; IV</b>.",
+  "x": [
+   "",
+   "This makes 4-nitroaniline more basic than aniline, but the nitro group withdraws the lone pair by resonance, making it much less available.",
+   "This puts p-toluidine above cyclohexylamine; any aryl amine is far weaker as a base than an alkylamine because its lone pair is delocalized.",
+   "This is the reverse order; delocalizing the lone pair (and adding an electron-withdrawing group) lowers basicity."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-18",
+  "t": "aromatic",
+  "d": 3,
+  "q": "Which labeled hydrogen-bearing carbon is the most acidic site in this compound?",
+  "s": [
+   {
+    "smi": "[CH:1]#C[CH2:3][CH:2]1C=CC=C1"
+   }
+  ],
+  "c": [
+   "Carbon <i>b</i>",
+   "Carbon <i>a</i>",
+   "Carbon <i>c</i>",
+   "All three are about equally acidic"
+  ],
+  "h": "Draw each conjugate base. Which one becomes aromatic?",
+  "w": "Removing H from carbon <i>b</i>, the sp<sup>3</sup> carbon of the cyclopentadiene ring, gives a cyclopentadienyl anion: a planar ring with 6 π electrons, which is aromatic. This makes that C–H unusually acidic (pK<sub>a</sub> about 16–18). The terminal alkyne C–H on <i>a</i> has pK<sub>a</sub> ≈ 25, and the CH<sub>2</sub> on <i>c</i> is far less acidic. So <b>carbon <i>b</i></b> is the most acidic site.",
+  "x": [
+   "",
+   "A terminal alkyne C–H (pK<sub>a</sub> ≈ 25) is acidic because of sp character, but the aromatic cyclopentadienyl anion is about a million times more stable.",
+   "The CH<sub>2</sub> carbon is next to the alkyne and the ring, but its anion is not aromatic, so it is much less acidic than <i>b</i>.",
+   "The three sites differ by many pK<sub>a</sub> units because only the anion at <i>b</i> is aromatic."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-19",
+  "t": "conjugated",
+  "d": 2,
+  "q": "(<i>E</i>)-1-Chlorobut-2-ene is warmed in ethanol (S<sub>N</sub>1 conditions). Which statement best describes the substitution products?",
+  "s": [
+   {
+    "smi": "C/C=C/CCl"
+   },
+   {
+    "arrow": "CH<sub>3</sub>CH<sub>2</sub>OH",
+    "below": "warm"
+   },
+   "?"
+  ],
+  "c": [
+   "A mixture of 1-ethoxybut-2-ene and 3-ethoxybut-1-ene forms",
+   "Only 1-ethoxybut-2-ene forms, because ethanol attacks the carbon that lost the chloride",
+   "Only 3-ethoxybut-1-ene forms, because the C=C cannot move",
+   "Only 2-ethoxybutane forms, after the C=C is protonated"
+  ],
+  "h": "Draw the cation formed when Cl<sup>−</sup> leaves, and then draw its resonance form.",
+  "w": "Ionization gives an allylic cation whose positive charge is shared by C1 and C3. Ethanol can trap either carbon: at C1 it gives 1-ethoxybut-2-ene, at C3 it gives 3-ethoxybut-1-ene (an \"allylic rearrangement\" product). So <b>a mixture of both ethers forms</b>.",
+  "x": [
+   "",
+   "The S<sub>N</sub>1 intermediate is a delocalized cation, so the nucleophile is not limited to the carbon that held the chlorine.",
+   "The C=C does move in the resonance form; attack at C3 gives this product, but attack at C1 gives the other ether too.",
+   "No HCl adds to the C=C here; the reaction goes through the allylic cation and keeps a C=C in each product."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-11-20",
+  "t": "aromatic",
+  "d": 3,
+  "q": "Oxepin (shown) has a seven-membered ring with three C=C bonds and an oxygen. It is not planar, and it reacts as an ordinary triene. What is the best explanation?",
+  "s": [
+   {
+    "smi": "C1=CC=COC=C1"
+   }
+  ],
+  "c": [
+   "If it were planar with an oxygen lone pair in the π system, it would have 8 π electrons and be antiaromatic, so the ring puckers to avoid this",
+   "It has 6 π electrons and would be aromatic, but ring strain in a seven-membered ring prevents planarity",
+   "The oxygen is sp<sup>3</sup> in any geometry, so the ring can never have a continuous set of p orbitals",
+   "It would have 10 π electrons if planar, but oxygen is too electronegative to share both lone pairs"
+  ],
+  "h": "Count the π electrons if one oxygen lone pair joined the three C=C bonds in a planar ring.",
+  "w": "Three C=C bonds give 6 π electrons; if the ring were planar, one oxygen lone pair would overlap with them, for 8 π electrons in a cyclic array: a 4<i>n</i> count, which would be antiaromatic. A flexible seven-membered ring can avoid this by bending into a boat, which breaks the cyclic overlap, so <b>oxepin puckers to escape antiaromaticity</b> and behaves as a nonaromatic triene.",
+  "x": [
+   "",
+   "With the oxygen lone pair included the count is 8, not 6; and seven-membered rings (as in the tropylium ion) can be planar when that is favorable.",
+   "An ether oxygen next to a C=C can rehybridize to sp<sup>2</sup>, as it does in furan; geometry, not a fixed sp<sup>3</sup> oxygen, is what decides.",
+   "Only one oxygen lone pair can lie in a p orbital, so the count would be 8, not 10."
+  ],
+  "k": 0
+ }
+]

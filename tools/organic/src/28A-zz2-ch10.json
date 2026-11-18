@@ -1,0 +1,749 @@
+[
+ {
+  "id": "zz2-10-01",
+  "t": "radical",
+  "d": 2,
+  "k": 0,
+  "q": "Methylcyclohexane reacts with Br<sub>2</sub> under light to give mainly 1-bromo-1-methylcyclohexane. Which step of the chain mechanism decides that bromine ends up on the tertiary carbon?",
+  "s": [
+   {
+    "smi": "CC1CCCCC1"
+   },
+   {
+    "arrow": "Br<sub>2</sub>",
+    "below": "hν"
+   },
+   {
+    "smi": "CC1(Br)CCCCC1"
+   }
+  ],
+  "c": [
+   "Br• removing a hydrogen atom from the alkane, since the weakest C–H bond gives the most stable radical",
+   "The alkyl radical removing a Br atom from Br<sub>2</sub>, since that is the step that forms the C–Br bond",
+   "Light splitting Br<sub>2</sub> into two Br• atoms, since this step starts every chain in the reaction",
+   "Two radicals combining at the end of a chain, since the most stable radicals survive the longest"
+  ],
+  "h": "The product's regiochemistry is fixed as soon as one particular carbon becomes a radical. Which step first creates a carbon radical?",
+  "w": "Initiation (Br<sub>2</sub> → 2 Br•) involves no carbon at all. In the first propagation step Br• abstracts a hydrogen atom, and whichever C–H breaks decides where Br will end up. The tertiary C–H is the weakest, and because H abstraction by Br• is endothermic its transition state is late and radical-like (Hammond postulate), so the tertiary radical forms much faster. The second propagation step only transfers Br to the radical already formed, and termination is too rare to make much product. Answer: <b>H-atom abstraction by Br•</b>.",
+  "x": [
+   "",
+   "This step only caps the radical that already exists; the carbon that gets the Br was chosen when the radical was formed.",
+   "Initiation makes Br• atoms from Br<sub>2</sub> and involves no C–H bond, so it cannot distinguish tertiary from secondary carbons.",
+   "Termination steps are rare compared with propagation (each initiation drives many cycles), so they make only traces of product and do not set the regiochemistry."
+  ]
+ },
+ {
+  "id": "zz2-10-02",
+  "t": "radical",
+  "d": 1,
+  "k": 0,
+  "q": "Which best describes the <i>tert</i>-butyl radical, (CH<sub>3</sub>)<sub>3</sub>C•, at the radical carbon?",
+  "s": [
+   {
+    "smi": "C[C](C)C"
+   }
+  ],
+  "c": [
+   "About sp<sup>2</sup> and nearly planar; the unpaired electron is in a p orbital",
+   "sp<sup>3</sup> and tetrahedral; the unpaired electron is in an sp<sup>3</sup> orbital",
+   "sp and linear; the unpaired electron is in a p orbital",
+   "sp<sup>2</sup> and planar; the unpaired electron is in an sp<sup>2</sup> orbital"
+  ],
+  "h": "Compare it with the carbocation that has the same three groups. Where does the extra electron go?",
+  "w": "An alkyl radical has three σ bonds and one nonbonding electron. Like a carbocation, the carbon is close to sp<sup>2</sup> and trigonal planar (alkyl radicals are only very slightly pyramidal, and they invert rapidly), and the single electron sits in the unhybridized p orbital perpendicular to the plane. That p orbital is what lets adjacent C–H bonds stabilize the radical by hyperconjugation. <b>About sp<sup>2</sup>, nearly planar, electron in a p orbital.</b>",
+  "x": [
+   "",
+   "A tetrahedral carbon would need a fourth σ bond or a lone pair (a carbanion); one electron is not enough to enforce sp<sup>3</sup> geometry.",
+   "sp, linear geometry needs only two σ bonds; this carbon has three.",
+   "The three sp<sup>2</sup> orbitals are used for the three C–C σ bonds; the odd electron is in the leftover p orbital."
+  ]
+ },
+ {
+  "id": "zz2-10-03",
+  "t": "radical",
+  "d": 3,
+  "k": 0,
+  "q": "2-Methylpentane is monochlorinated with Cl<sub>2</sub> and light. Counting stereoisomers as separate products, how many C<sub>6</sub>H<sub>13</sub>Cl products can form?",
+  "s": [
+   {
+    "smi": "CC(C)CCC"
+   },
+   {
+    "arrow": "Cl<sub>2</sub>",
+    "below": "hν"
+   },
+   "C<sub>6</sub>H<sub>13</sub>Cl"
+  ],
+  "c": [
+   "8",
+   "5",
+   "6",
+   "10"
+  ],
+  "h": "First find the different kinds of hydrogen (constitutional products). Then ask which of those products has a new stereocenter.",
+  "w": "2-Methylpentane has five kinds of H (the two C1 methyls are equivalent), so there are five constitutional isomers: 1-chloro-2-methylpentane (new stereocenter at C2), 2-chloro-2-methylpentane (achiral), 3-chloro-2-methylpentane (stereocenter at C3), 2-chloro-4-methylpentane (stereocenter at C2 of that name) and 1-chloro-4-methylpentane (achiral). Each chiral product forms as a racemic pair through the planar radical, so 3 × 2 + 2 = <b>8</b> products.",
+  "x": [
+   "",
+   "Five is the number of constitutional isomers; three of them are chiral and form as two enantiomers each.",
+   "Six counts only one of the chiral products as an enantiomer pair.",
+   "Ten counts every product as a pair of enantiomers; 2-chloro-2-methylpentane and 1-chloro-4-methylpentane have no stereocenter."
+  ]
+ },
+ {
+  "id": "zz2-10-04",
+  "t": "radical",
+  "d": 2,
+  "k": 0,
+  "q": "Rank the C–H bonds on the tagged carbons of 4-methyl-1-pentene from <b>weakest</b> to <b>strongest</b> (lowest to highest bond dissociation energy).",
+  "s": [
+   {
+    "smi": "C=[CH:1][CH2:2][CH:3](C)[CH3:4]"
+   }
+  ],
+  "c": [
+   "b < c < d < a",
+   "c < b < d < a",
+   "a < b < c < d",
+   "b < c < a < d"
+  ],
+  "h": "A weak C–H bond gives a stable radical. Which radical is resonance-stabilized, and which one sits in an sp<sup>2</sup> orbital?",
+  "w": "The bond is weaker when the radical it leaves is more stable. Removing H from <i>b</i> (allylic) gives a resonance-delocalized allylic radical, the most stable, so b is weakest (about 360 kJ/mol). Next is the tertiary C–H at <i>c</i> (about 400), then the primary CH<sub>3</sub> at <i>d</i> (about 420). The vinylic C–H at <i>a</i> is strongest (about 460) because the radical would sit in an sp<sup>2</sup> orbital with no resonance help. <b>b < c < d < a</b>.",
+  "x": [
+   "",
+   "A tertiary radical is less stable than an allylic radical, whose electron is spread over two carbons; b is weaker than c.",
+   "This is backwards for the vinylic bond: a vinyl radical is very unstable, so the vinylic C–H is the strongest, not the weakest.",
+   "The vinylic C–H (a) is stronger than a primary C–H (d); a vinyl radical is less stable than a primary alkyl radical."
+  ]
+ },
+ {
+  "id": "zz2-10-05",
+  "t": "radical",
+  "d": 2,
+  "k": 0,
+  "q": "4-Isopropyltoluene is treated with 1 equivalent of NBS and light (CCl<sub>4</sub>). What is the major product?",
+  "s": [
+   {
+    "smi": "CC(C)c1ccc(C)cc1"
+   },
+   {
+    "arrow": "NBS (1 equiv)",
+    "below": "hν, CCl<sub>4</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(Br)c1ccc(C)cc1"
+   },
+   {
+    "smi": "CC(C)c1ccc(CBr)cc1"
+   },
+   {
+    "smi": "CC(CBr)c1ccc(C)cc1"
+   },
+   {
+    "smi": "CC(C)c1ccc(C)c(Br)c1"
+   }
+  ],
+  "h": "NBS with light abstracts the H that gives the most stable radical. Compare the two benzylic positions.",
+  "w": "NBS/hν brominates by H-atom abstraction followed by Br transfer, so it goes where the C–H bond is weakest. Both the ring CH<sub>3</sub> and the isopropyl CH are benzylic, but removing the isopropyl H gives a <i>tertiary</i> benzylic radical (resonance with the ring plus two methyl groups), which is more stable than the primary benzylic radical from the CH<sub>3</sub>. The major product is <b>2-bromo-2-(4-methylphenyl)propane</b>.",
+  "x": [
+   "",
+   "Bromination of the ring methyl goes through a primary benzylic radical, less stable than the tertiary benzylic one.",
+   "The isopropyl CH<sub>3</sub> hydrogens are not benzylic; that primary radical has no resonance stabilization.",
+   "Ring bromination is electrophilic aromatic substitution and needs Br<sub>2</sub>/FeBr<sub>3</sub>; NBS with light reacts at benzylic C–H bonds."
+  ]
+ },
+ {
+  "id": "zz2-10-06",
+  "t": "radical",
+  "d": 3,
+  "k": 0,
+  "q": "Which sequence converts methylcyclopentane into racemic <i>trans</i>-2-methylcyclopentanol as the major product?",
+  "s": [
+   {
+    "smi": "CC1CCCC1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "C[C@@H]1CCC[C@H]1O"
+   },
+   "(racemic)"
+  ],
+  "c": [
+   "1. Br<sub>2</sub>, hν  2. NaOCH<sub>2</sub>CH<sub>3</sub>, ethanol, heat  3. BH<sub>3</sub>·THF  4. H<sub>2</sub>O<sub>2</sub>, NaOH",
+   "1. Br<sub>2</sub>, hν  2. NaOCH<sub>2</sub>CH<sub>3</sub>, ethanol, heat  3. H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub>",
+   "1. Br<sub>2</sub>, hν  2. NaOH, H<sub>2</sub>O",
+   "1. Cl<sub>2</sub>, hν  2. NaOCH<sub>2</sub>CH<sub>3</sub>, ethanol, heat  3. BH<sub>3</sub>·THF  4. H<sub>2</sub>O<sub>2</sub>, NaOH"
+  ],
+  "h": "The OH ends up next to the old tertiary C–H, trans to the methyl. Which step targets the tertiary carbon, and which addition is anti-Markovnikov and syn?",
+  "w": "Radical bromination is highly selective for the tertiary C–H, giving 1-bromo-1-methylcyclopentane. Ethoxide with heat does E2 toward the more substituted alkene (Zaitsev), 1-methylcyclopentene. Hydroboration–oxidation then adds H and OH syn and anti-Markovnikov: OH goes to the less substituted alkene carbon, and the H added to C1 is on the same face as the OH, so the methyl ends up trans to the OH. Product: <b>racemic <i>trans</i>-2-methylcyclopentanol</b> via Br<sub>2</sub>/hν, NaOEt, then BH<sub>3</sub>·THF and H<sub>2</sub>O<sub>2</sub>/NaOH.",
+  "x": [
+   "",
+   "Acid-catalyzed hydration is Markovnikov: water adds to the tertiary carbon and gives 1-methylcyclopentanol.",
+   "Hydroxide in water substitutes (S<sub>N</sub>1) or eliminates at the tertiary bromide; any alcohol formed is 1-methylcyclopentanol, with OH on the tertiary carbon.",
+   "Chlorination is not selective (about 1 : 3.8 : 5 per H), so step 1 gives a mixture of chlorides and the later steps give a mixture of alcohols."
+  ]
+ },
+ {
+  "id": "zz2-10-07",
+  "t": "radical",
+  "d": 3,
+  "k": 0,
+  "q": "(<i>E</i>)-1-Phenylprop-1-ene is treated with HBr in the presence of a peroxide (ROOR). What is the major product?",
+  "s": [
+   {
+    "smi": "C/C=C/c1ccccc1"
+   },
+   {
+    "arrow": "HBr",
+    "below": "ROOR, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(Br)Cc1ccccc1"
+   },
+   {
+    "smi": "CCC(Br)c1ccccc1"
+   },
+   {
+    "smi": "BrCCCc1ccccc1"
+   },
+   {
+    "smi": "BrC/C=C/c1ccccc1"
+   }
+  ],
+  "h": "With peroxide, Br• adds first. It adds to the alkene carbon that leaves the most stable radical on the other carbon.",
+  "w": "In the peroxide (radical chain) mechanism, Br• adds to the C=C first. Adding to C2 leaves the radical on C1, which is benzylic and resonance-stabilized by the ring; adding to C1 would leave a less stable secondary alkyl radical on C2. The benzylic radical then takes H from HBr. Br ends up on C2: <b>2-bromo-1-phenylpropane</b> (formed racemic). Note that this is not simply 'Br on the less substituted carbon': both alkene carbons carry one substituent, and radical stability decides.",
+  "x": [
+   "",
+   "Br on the benzylic carbon is the ionic (no peroxide) product, formed through the benzylic cation; with peroxide Br• adds first and ends up on C2.",
+   "Br cannot reach C3, which was never part of the alkene; the H and Br add across C1 and C2.",
+   "An allylic bromide with the alkene kept is the NBS/hν result (allylic substitution), not HBr addition."
+  ]
+ },
+ {
+  "id": "zz2-10-08",
+  "t": "radical",
+  "d": 2,
+  "k": 0,
+  "q": "AIBN, (CH<sub>3</sub>)<sub>2</sub>C(CN)–N=N–C(CN)(CH<sub>3</sub>)<sub>2</sub>, is a common radical initiator. What happens when it is heated to about 70 °C?",
+  "s": [
+   {
+    "smi": "CC(C)(C#N)N=NC(C)(C)C#N"
+   }
+  ],
+  "c": [
+   "Both C–N bonds break, releasing N<sub>2</sub> and two (CH<sub>3</sub>)<sub>2</sub>C•(CN) radicals",
+   "The N=N π bond breaks homolytically, giving a diradical that keeps both C–N bonds",
+   "A C≡N bond breaks to give two cyano radicals, •CN",
+   "Heterolysis gives (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>(CN) and an N<sub>2</sub>C(CN)(CH<sub>3</sub>)<sub>2</sub><sup>−</sup> anion"
+  ],
+  "h": "Which very stable small molecule can leave, and which radical left behind is stabilized?",
+  "w": "Azo initiators decompose because loss of N<sub>2</sub> (very strong N≡N bond, and a gas, so ΔS is favorable) makes the process strongly downhill. Both C–N bonds break homolytically to give N<sub>2</sub> and two tertiary 2-cyano-2-propyl radicals, which are stabilized by the two methyl groups and by resonance with the C≡N. <b>Two (CH<sub>3</sub>)<sub>2</sub>C•(CN) radicals + N<sub>2</sub>.</b> These radicals then start the chain, for example by adding to a monomer or abstracting H from Bu<sub>3</sub>SnH.",
+  "x": [
+   "",
+   "Breaking only the π bond gives no driving force; the reaction is driven by forming N<sub>2</sub>, which requires cleaving the C–N bonds.",
+   "C≡N triple bonds are very strong and do not break at 70 °C; •CN is also a poorly stabilized radical.",
+   "Initiators work by homolysis in nonpolar media, not by forming ions; a tertiary cation next to an electron-withdrawing CN is very unstable."
+  ]
+ },
+ {
+  "id": "zz2-10-09",
+  "t": "radical",
+  "d": 2,
+  "k": 0,
+  "q": "The energy diagram shows the two propagation steps of the chlorination of methane: Cl• + CH<sub>4</sub> → •CH<sub>3</sub> + HCl, then •CH<sub>3</sub> + Cl<sub>2</sub> → CH<sub>3</sub>Cl + Cl•. Which statement is correct?",
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     17,
+     8,
+     12,
+     -101
+    ],
+    "tags": [
+     "",
+     "A",
+     "B",
+     "C",
+     ""
+    ],
+    "labels": [
+     "Cl• + CH<sub>4</sub>",
+     "",
+     "•CH<sub>3</sub> + HCl",
+     "",
+     "CH<sub>3</sub>Cl + Cl•"
+    ]
+   }
+  ],
+  "c": [
+   "The hydrogen-abstraction step is rate-determining because A is the highest point on the path",
+   "B is a transition state in which the C–H bond is half broken",
+   "The second step is rate-determining because it releases the most energy",
+   "The overall propagation sequence is endothermic because the first step is uphill"
+  ],
+  "h": "Maxima are transition states; minima are intermediates. The step whose transition state is highest controls the rate.",
+  "w": "On an energy diagram the rate-determining step is the one with the highest-energy transition state. A (the H-abstraction TS) is the highest point, so <b>H abstraction by Cl• is rate-determining</b>. B is a minimum, the methyl radical intermediate plus HCl. The second step has a small barrier (C) and is strongly exothermic, so the overall sequence is downhill even though the first step is slightly uphill.",
+  "x": [
+   "",
+   "B is an energy minimum, so it is an intermediate (•CH<sub>3</sub> + HCl), not a transition state.",
+   "How exothermic a step is does not set the rate; the second step has the lower barrier and is fast.",
+   "The products lie far below the reactants, so the sum of the two steps is exothermic despite the small uphill first step."
+  ]
+ },
+ {
+  "id": "zz2-10-10",
+  "t": "radical",
+  "d": 3,
+  "k": 1,
+  "q": "2,3-Dimethylbutane is monochlorinated with Cl<sub>2</sub> and light at 25 °C. Using relative rates per hydrogen of 1° : 3° = 1 : 5, about what percentage of the monochloride is 2-chloro-2,3-dimethylbutane?",
+  "s": [
+   {
+    "smi": "CC(C)C(C)C"
+   },
+   {
+    "arrow": "Cl<sub>2</sub>",
+    "below": "hν, 25 °C"
+   },
+   {
+    "smi": "CC(C)C(C)(C)Cl"
+   },
+   "+",
+   {
+    "smi": "ClCC(C)C(C)C"
+   }
+  ],
+  "c": [
+   "45%",
+   "14%",
+   "55%",
+   "83%"
+  ],
+  "h": "Multiply the number of each kind of H by its relative rate, then take the fraction.",
+  "w": "2,3-Dimethylbutane has 12 primary H (four CH<sub>3</sub>) and 2 tertiary H. Relative amounts: primary 12 × 1 = 12; tertiary 2 × 5 = 10. Fraction tertiary = 10/(12 + 10) = 0.45, so about <b>45%</b> is 2-chloro-2,3-dimethylbutane and 55% is 1-chloro-2,3-dimethylbutane. Chlorination's low selectivity means the many primary H win on numbers.",
+  "x": [
+   "",
+   "14% (2 of 14 H) is the purely statistical value; it ignores that a tertiary H reacts five times faster.",
+   "55% is the share of the primary product, 1-chloro-2,3-dimethylbutane.",
+   "83% (5/6) compares one tertiary H with one primary H and ignores that there are six times as many primary H."
+  ]
+ },
+ {
+  "id": "zz2-10-11",
+  "t": "radical",
+  "d": 1,
+  "k": 0,
+  "q": "To make chlorocyclohexane by radical chlorination, a chemist uses a large excess of cyclohexane relative to Cl<sub>2</sub>. Why?",
+  "s": [
+   {
+    "smi": "C1CCCCC1"
+   },
+   {
+    "arrow": "Cl<sub>2</sub> (limiting)",
+    "below": "hν"
+   },
+   {
+    "smi": "ClC1CCCCC1"
+   }
+  ],
+  "c": [
+   "Cl• then mostly meets cyclohexane, so further chlorination of the product to dichlorocyclohexanes is minimized",
+   "Excess alkane speeds up the initiation step",
+   "Excess alkane makes chlorination selective for one kind of C–H bond",
+   "Excess alkane traps Cl• in termination steps and stops side reactions"
+  ],
+  "h": "The product still has C–H bonds. What else could Cl• attack once some product has formed?",
+  "w": "Chlorocyclohexane still has C–H bonds and can be chlorinated again to dichlorides and beyond. If cyclohexane is in large excess, a Cl• radical is far more likely to hit an unreacted cyclohexane molecule than a product molecule, so <b>polychlorination is suppressed</b>. The unreacted cyclohexane is easy to recover by distillation.",
+  "x": [
+   "",
+   "Initiation is homolysis of Cl<sub>2</sub> by light; the amount of alkane does not change it.",
+   "All twelve H of cyclohexane are equivalent anyway, and the amount of alkane does not change chlorine's intrinsic selectivity.",
+   "Alkane molecules are not radicals, so they cannot take part in termination; they react with Cl• in propagation."
+  ]
+ },
+ {
+  "id": "zz2-10-12",
+  "t": "radical",
+  "d": 2,
+  "k": 0,
+  "q": "The copolymer SAN, used in kitchen containers, has the repeat unit –[CH<sub>2</sub>–CH(C<sub>6</sub>H<sub>5</sub>)–CH<sub>2</sub>–CH(CN)]<sub>n</sub>– and is made by radical polymerization. Which pair of monomers is used?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=Cc1ccccc1.C=CC#N"
+   },
+   {
+    "smi": "CCc1ccccc1.CCC#N"
+   },
+   {
+    "smi": "C=CCc1ccccc1.CC#N"
+   },
+   {
+    "smi": "C=CC=Cc1ccccc1.C#N"
+   }
+  ],
+  "h": "Cut the backbone into two-carbon pieces. Each piece came from a C=C of one monomer.",
+  "w": "In radical addition polymerization, each monomer's C=C becomes two backbone carbons. Splitting the four-carbon repeat into two-carbon pieces gives CH<sub>2</sub>–CH(C<sub>6</sub>H<sub>5</sub>), from styrene (CH<sub>2</sub>=CHC<sub>6</sub>H<sub>5</sub>), and CH<sub>2</sub>–CH(CN), from acrylonitrile (CH<sub>2</sub>=CHCN). <b>Styrene and acrylonitrile.</b>",
+  "x": [
+   "",
+   "Ethylbenzene and propanenitrile have no C=C, so they cannot undergo addition polymerization.",
+   "Allylbenzene puts a CH<sub>2</sub> between the ring and the backbone, and acetonitrile has no C=C to join the chain.",
+   "A diene plus HCN is not a radical chain growth; HCN does not polymerize, and the diene would put a C=C in the backbone."
+  ]
+ },
+ {
+  "id": "zz2-10-13",
+  "t": "radical",
+  "d": 2,
+  "k": 0,
+  "q": "A synthetic rubber has the repeat unit –[CH<sub>2</sub>–C(CH<sub>3</sub>)=CH–CH<sub>2</sub>]<sub>n</sub>–, formed by 1,4-addition of a single monomer. Which monomer is it?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CC(C)=C"
+   },
+   {
+    "smi": "CC=C(C)C"
+   },
+   {
+    "smi": "C=C(C)CC"
+   },
+   {
+    "smi": "C=CC=CC"
+   }
+  ],
+  "h": "In 1,4-addition of a diene, the two end carbons form the new backbone bonds and a C=C appears between C2 and C3.",
+  "w": "When a conjugated diene polymerizes by 1,4-addition, the radical adds to C1, the resulting allylic radical reacts at C4, and a new C=C forms between C2 and C3. Working backward, the repeat CH<sub>2</sub>–C(CH<sub>3</sub>)=CH–CH<sub>2</sub> comes from CH<sub>2</sub>=C(CH<sub>3</sub>)–CH=CH<sub>2</sub>, <b>2-methyl-1,3-butadiene (isoprene)</b>, with the methyl on C2.",
+  "x": [
+   "",
+   "2-Methyl-2-butene has only one C=C; its polymer would have no C=C in the backbone and would carry methyls on both backbone carbons of each unit.",
+   "2-Methyl-1-butene has one C=C; its polymer would be saturated, with a methyl and an ethyl on alternate backbone carbons.",
+   "1,3-Pentadiene by 1,4-addition gives –CH<sub>2</sub>–CH=CH–CH(CH<sub>3</sub>)–, with the methyl on an sp<sup>3</sup> backbone carbon, not on the C=C."
+  ]
+ },
+ {
+  "id": "zz2-10-14",
+  "t": "radical",
+  "d": 1,
+  "k": 0,
+  "q": "Radical polymerization of methyl methacrylate gives poly(methyl methacrylate), used as acrylic glass. Which repeat unit forms (head-to-tail)?",
+  "s": [
+   {
+    "smi": "C=C(C)C(=O)OC"
+   }
+  ],
+  "c": [
+   "–[CH<sub>2</sub>–C(CH<sub>3</sub>)(CO<sub>2</sub>CH<sub>3</sub>)]<sub>n</sub>–",
+   "–[CH(CH<sub>3</sub>)–CH(CO<sub>2</sub>CH<sub>3</sub>)]<sub>n</sub>–",
+   "–[CH<sub>2</sub>–C(CH<sub>3</sub>)=C(OCH<sub>3</sub>)–O]<sub>n</sub>–",
+   "–[CH<sub>2</sub>–CH<sub>2</sub>–C(=O)–O]<sub>n</sub>–"
+  ],
+  "h": "Only the C=C reacts. Its two carbons become the backbone, and everything attached to them hangs off as side groups.",
+  "w": "In addition polymerization only the C=C opens; the CH<sub>2</sub> and the substituted carbon become a two-carbon backbone unit. The growing radical adds to the CH<sub>2</sub> end, giving a tertiary radical stabilized by the ester (head-to-tail). The methyl and the CO<sub>2</sub>CH<sub>3</sub> both stay on the same backbone carbon: <b>–[CH<sub>2</sub>–C(CH<sub>3</sub>)(CO<sub>2</sub>CH<sub>3</sub>)]<sub>n</sub>–</b>.",
+  "x": [
+   "",
+   "This moves the methyl to the other carbon; that repeat unit would come from methyl crotonate (CH<sub>3</sub>CH=CHCO<sub>2</sub>CH<sub>3</sub>), not methyl methacrylate.",
+   "The C=O does not join the chain in radical polymerization, and there is no C=C left in the backbone.",
+   "This is a polyester from a condensation or ring-opening; it has lost the methyl and OCH<sub>3</sub> groups of the monomer."
+  ]
+ },
+ {
+  "id": "zz2-10-15",
+  "t": "radical",
+  "d": 2,
+  "k": 0,
+  "q": "BHT (2,6-di-<i>tert</i>-butyl-4-methylphenol) is added to foods and plastics to slow radical oxidation. How does it work?",
+  "s": [
+   {
+    "smi": "Cc1cc(C(C)(C)C)c(O)c(C(C)(C)C)c1"
+   }
+  ],
+  "c": [
+   "It gives an H atom to chain-carrying radicals and leaves a stable, hindered aryloxy radical",
+   "It absorbs the ultraviolet light that would break bonds and start radical chains",
+   "It reacts with O<sub>2</sub> to form a peroxide that starts only harmless chains",
+   "Its acidic O–H protonates the chain-carrying radicals and turns them into cations"
+  ],
+  "h": "A chain stops when a reactive radical is replaced by one that cannot carry the chain.",
+  "w": "Radical oxidation (autoxidation) is a chain carried by peroxyl radicals ROO•. The phenol O–H in BHT is weak because the aryloxy radical left behind is delocalized into the ring, so ROO• takes that H (ROO• + ArOH → ROOH + ArO•). ArO• is resonance-stabilized and shielded by the two bulky <i>tert</i>-butyl groups, so it does not abstract H from the food or polymer; the chain stops. <b>BHT donates an H atom and forms an unreactive aryloxy radical.</b>",
+  "x": [
+   "",
+   "BHT is a radical scavenger, not a UV filter; it acts after radicals have formed.",
+   "An antioxidant that made peroxides would start more chains, not stop them.",
+   "Radicals are neutral and are not quenched by protonation; the key step is H-atom (not proton) transfer."
+  ]
+ },
+ {
+  "id": "zz2-10-16",
+  "t": "radical",
+  "d": 2,
+  "k": 0,
+  "q": "Each radical below forms when one C–H bond of its parent hydrocarbon breaks homolytically. Which radical comes from the weakest C–H bond (the lowest bond dissociation energy)?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=C[C](C)C"
+   },
+   {
+    "smi": "C=C[CH2]"
+   },
+   {
+    "smi": "CC[C](C)C"
+   },
+   {
+    "smi": "CC=[CH]"
+   }
+  ],
+  "h": "A C–H bond is weak when the radical left behind is stabilized. Look for resonance first, then count alkyl groups on the radical carbons.",
+  "w": "The more stable the radical, the less energy it takes to break the C–H bond that forms it. Resonance delocalization is the larger effect, and alkyl groups add more. The 1,1-dimethylallyl radical is allylic (spread over two carbons) and tertiary at one end, so its C–H bond (in 3-methylbut-1-ene) is the weakest: <b>the tertiary allylic radical</b>. The allyl radical has resonance but no alkyl groups; the <i>tert</i>-pentyl radical is tertiary but has no resonance; the vinyl radical is the least stable, so its C–H bond is the strongest.",
+  "x": [
+   "",
+   "Propene's allylic C–H is weak because of resonance, but with no alkyl groups on the radical carbons the allyl radical is less stable than the tertiary allylic one.",
+   "A tertiary C–H bond is weaker than a primary or secondary one, but hyperconjugation alone stabilizes the radical less than allylic resonance does.",
+   "A vinylic C–H bond is the strongest here: the odd electron sits in an sp<sup>2</sup> orbital with no resonance."
+  ]
+ },
+ {
+  "id": "zz2-10-17",
+  "t": "radical",
+  "d": 3,
+  "k": 0,
+  "q": "(<i>S</i>)-2-Bromobutane is monochlorinated with Cl<sub>2</sub> and light. Which statements are true?<br>I. Chlorination at C2 gives 2-bromo-2-chlorobutane as a racemic mixture.<br>II. Chlorination at C3 gives 2-bromo-3-chlorobutane as two diastereomers in unequal amounts.<br>III. Chlorination at C4 gives 3-bromo-1-chlorobutane as a racemic mixture.",
+  "s": [
+   {
+    "smi": "C[C@H](Br)CC"
+   },
+   {
+    "arrow": "Cl<sub>2</sub>",
+    "below": "hν"
+   },
+   "?"
+  ],
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "A planar radical loses the configuration only at the carbon where it forms. Is C2 touched in each case?",
+  "w": "I is true: H abstraction at C2 makes a planar radical at the stereocenter, and Cl adds to either face equally, so the product is racemic. II is true: the radical forms at C3 while C2 keeps its (<i>S</i>) configuration; the existing stereocenter makes the two faces of the C3 radical different, so the two diastereomers form in unequal amounts. III is false: reaction at C4 does not touch C2, so 3-bromo-1-chlorobutane keeps the original configuration and is optically active. <b>I and II only.</b>",
+  "x": [
+   "",
+   "II is also true: a nearby stereocenter makes the two faces of the C3 radical diastereotopic, giving unequal amounts of two diastereomers.",
+   "I is true (C2 radical is planar, racemic product) and III is false (C2 is not touched at C4).",
+   "III is false: when the reaction occurs at C4, the C2 stereocenter is never involved and keeps its configuration."
+  ]
+ },
+ {
+  "id": "zz2-10-18",
+  "t": "radical",
+  "d": 2,
+  "k": 0,
+  "q": "Peroxides make HBr add to alkenes anti-Markovnikov, but they have no such effect on HCl or HI. Which statement best explains this?",
+  "s": [
+   {
+    "smi": "CC=C"
+   },
+   {
+    "arrow": "HBr",
+    "below": "ROOR"
+   },
+   {
+    "smi": "CCCBr"
+   }
+  ],
+  "c": [
+   "Only for HBr are both propagation steps (X• adding to C=C, then the carbon radical taking H from HX) exothermic",
+   "Only HBr can be protonated by the peroxide to start the chain",
+   "Cl• and I• are too stable to add to an alkene",
+   "HCl and HI react with peroxides by termination steps before they reach the alkene"
+  ],
+  "h": "Use bond strengths: compare H–X bond strength with the C–X bond made when X• adds.",
+  "w": "A radical chain runs well only if both propagation steps are energetically downhill (or nearly so). For HBr, Br• adding to C=C and C• taking H from the fairly weak H–Br bond are both exothermic. For HCl, the strong H–Cl bond makes the H-transfer step endothermic. For HI, the C–I bond formed is so weak that I• adding to the alkene is endothermic. So <b>only HBr has two exothermic propagation steps</b>.",
+  "x": [
+   "",
+   "The chain is started by homolysis of the O–O bond, not by protonation; any HX could be involved in that.",
+   "Cl• is a very reactive radical, not a stable one; for HCl the problem is the second step, breaking the strong H–Cl bond.",
+   "This is not the reason; the failing step for each acid is an endothermic propagation step."
+  ]
+ },
+ {
+  "id": "zz2-10-19",
+  "t": "radical",
+  "d": 2,
+  "k": 0,
+  "q": "During radical polymerization of vinyl chloride, the growing chain radical adds to a new monomer to give the more stable radical. Which drawing shows the correct arrows for this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC[CH:51]Cl.[CH2:52]=[CH:53]Cl",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     }
+    ]
+   },
+   {
+    "smi": "CC[CH:51]Cl.[CH2:52]=[CH:53]Cl",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   },
+   {
+    "smi": "CC[CH:51]Cl.[CH2:52]=[CH:53]Cl",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 52,
+      "half": true
+     }
+    ]
+   },
+   {
+    "smi": "CC[CH:51]Cl.[CH2:52]=[CH:53]Cl",
+    "arrows": [
+     {
+      "from": 51,
+      "to": 52,
+      "half": true
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53,
+      "half": true
+     }
+    ]
+   }
+  ],
+  "h": "Radical steps move single electrons (fishhooks). A new σ bond needs one electron from each partner, and the radical should end up on the carbon that carries Cl.",
+  "w": "Radical addition uses three fishhook (one-electron) arrows: one from the chain radical toward the CH<sub>2</sub> end of the monomer, one electron of the π bond also to that CH<sub>2</sub> (the two together make the new C–C σ bond), and the other π electron moves onto the CHCl carbon, which becomes the new chain-end radical. Adding at CH<sub>2</sub> gives the more stable, secondary radical stabilized by Cl and keeps the head-to-tail pattern. <b>The drawing with three fishhooks attacking the CH<sub>2</sub></b> is correct.",
+  "x": [
+   "",
+   "Full (two-electron) arrows describe polar steps; the radical has only one electron to give, so fishhooks are needed.",
+   "Attack at the CHCl carbon would put the new radical on the unsubstituted CH<sub>2</sub>, a primary radical; it also gives head-to-head linkage.",
+   "A new σ bond needs two electrons. With only the radical's electron moving toward CH<sub>2</sub>, the second electron from the π bond is missing."
+  ]
+ },
+ {
+  "id": "zz2-10-20",
+  "t": "radical",
+  "d": 2,
+  "k": 0,
+  "q": "Which C<sub>8</sub>H<sub>18</sub> isomer gives only one monochlorination product with Cl<sub>2</sub> and light?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(C)C(C)(C)C"
+   },
+   {
+    "smi": "CC(C)C(C)C(C)C"
+   },
+   {
+    "smi": "CC(C)CC(C)(C)C"
+   },
+   {
+    "smi": "CCCCCCCC"
+   }
+  ],
+  "h": "Chlorination is not selective, so the only way to get one product is to have only one kind of hydrogen.",
+  "w": "Because Cl• attacks every kind of C–H bond, a single monochloride forms only if all H are equivalent. In <b>2,2,3,3-tetramethylbutane</b> all 18 H are on six equivalent CH<sub>3</sub> groups, so only (CH<sub>3</sub>)<sub>3</sub>C–C(CH<sub>3</sub>)<sub>2</sub>CH<sub>2</sub>Cl can form.",
+  "x": [
+   "",
+   "2,3,4-Trimethylpentane has four kinds of H (two kinds of CH<sub>3</sub> and two kinds of CH), so it gives several chlorides.",
+   "2,2,4-Trimethylpentane has four kinds of H (two kinds of CH<sub>3</sub>, a CH<sub>2</sub> and a CH).",
+   "Octane has four kinds of H (C1, C2, C3, C4 positions), giving four constitutional monochlorides."
+  ]
+ }
+]

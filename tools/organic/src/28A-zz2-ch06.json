@@ -1,0 +1,895 @@
+[
+ {
+  "id": "zz2-06-01",
+  "d": 2,
+  "q": "3-Bromo-2-methylhexane is heated with NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol. Counting <i>E</i> and <i>Z</i> isomers separately, how many different alkenes can form by E2?",
+  "s": [
+   {
+    "smi": "CCCC(Br)C(C)C"
+   },
+   {
+    "arrow": "NaOCH<sub>2</sub>CH<sub>3</sub>",
+    "below": "ethanol, heat"
+   },
+   "alkenes"
+  ],
+  "c": [
+   "3",
+   "2",
+   "4",
+   "5"
+  ],
+  "h": "Find every β carbon that carries an H. For each new C=C, check whether both alkene carbons have two different groups.",
+  "w": "Br is on C3. Its β carbons are C2 (one H) and C4 (two H). Removing the C2 H gives 2-methylhex-2-ene, (CH<sub>3</sub>)<sub>2</sub>C=CHCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>; C2 carries two identical CH<sub>3</sub> groups, so it has no <i>E</i>/<i>Z</i> isomers. Removing a C4 H gives 2-methylhex-3-ene, (CH<sub>3</sub>)<sub>2</sub>CHCH=CHCH<sub>2</sub>CH<sub>3</sub>, which exists as <i>E</i> and <i>Z</i>. Total: <b>3</b>.",
+  "x": [
+   "",
+   "Two counts the constitutional isomers only. 2-Methylhex-3-ene has two different groups on each alkene carbon, so its <i>E</i> and <i>Z</i> forms are separate products.",
+   "Four would give 2-methylhex-2-ene <i>E</i> and <i>Z</i> forms too, but its C2 carries two methyl groups, so there is only one.",
+   "Five would include an alkene toward one of the methyl carbons on C2. Those carbons are γ to Br, not β, so they cannot form a C=C with C3."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-02",
+  "d": 2,
+  "q": "What is the major product when 2-bromo-1-phenylbutane is heated with NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol?",
+  "s": [
+   {
+    "smi": "CCC(Br)Cc1ccccc1"
+   },
+   {
+    "arrow": "NaOCH<sub>2</sub>CH<sub>3</sub>",
+    "below": "ethanol, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC/C=C/c1ccccc1"
+   },
+   {
+    "smi": "C/C=C/Cc1ccccc1"
+   },
+   {
+    "smi": "CC/C=C\\c1ccccc1"
+   },
+   {
+    "smi": "CCOC(CC)Cc1ccccc1"
+   }
+  ],
+  "h": "Both possible C=C positions give disubstituted alkenes. What extra stabilization can one of them have?",
+  "w": "E2 can remove an H from C1 (benzylic) or from C3. Both alkenes are disubstituted, so substitution does not decide. Removing the benzylic H puts the C=C in conjugation with the benzene ring, which lowers the energy of the alkene and of the E2 transition state leading to it; that H is also the more acidic one. The <i>E</i> isomer avoids the phenyl/ethyl steric clash, so the major product is <b>(<i>E</i>)-1-phenylbut-1-ene</b>.",
+  "x": [
+   "",
+   "(<i>E</i>)-1-Phenylbut-2-ene is also disubstituted, but its C=C is isolated from the ring; it lacks conjugation, so it is the minor E2 product.",
+   "The <i>Z</i> isomer is conjugated but puts the phenyl and ethyl groups on the same side; the <i>E</i> isomer is more stable and forms faster.",
+   "Ethoxide with a 2° bromide on heating gives mainly E2; this S<sub>N</sub>2 ether is a minor product."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-03",
+  "d": 2,
+  "q": "An alkyl chloride is warmed in ethanol with no added base, and the two products shown are formed. Which compound was the starting material?",
+  "s": [
+   {
+    "arrow": "CH<sub>3</sub>CH<sub>2</sub>OH",
+    "below": "warm"
+   },
+   {
+    "smi": "CCOC1(C)CCCC1"
+   },
+   "+",
+   {
+    "smi": "CC1=CCCC1"
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1(Cl)CCCC1"
+   },
+   {
+    "smi": "ClCC1CCCC1"
+   },
+   {
+    "smi": "CC1=C(Cl)CCC1"
+   },
+   {
+    "smi": "CC1(O)CCCC1"
+   }
+  ],
+  "h": "The ether shows where the leaving group was; the alkene shows that a carbocation lost a β proton. Which substrate ionizes easily in ethanol?",
+  "w": "Both products come from the same 3° carbocation, 1-methylcyclopentyl. Ethanol traps it to give the ether (S<sub>N</sub>1) or removes a β proton to give 1-methylcyclopentene (E1). The ethoxy group sits on the ring carbon that bears the methyl, so the leaving group was there: the substrate is <b>1-chloro-1-methylcyclopentane</b>, a 3° chloride that ionizes readily in a polar protic solvent.",
+  "x": [
+   "",
+   "(Chloromethyl)cyclopentane is 1°. It does not ionize in warm ethanol, and slow S<sub>N</sub>2 with ethanol would put OEt on the CH<sub>2</sub>, not on the ring.",
+   "This is a vinylic chloride; loss of Cl<sup>−</sup> would give a vinyl cation, which does not form under these conditions.",
+   "1-Methylcyclopentanol has no leaving group without acid: HO<sup>−</sup> is a very poor leaving group, so nothing happens in neutral ethanol."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-04",
+  "d": 3,
+  "q": "3-Methylbutan-1-ol is heated with concentrated H<sub>2</sub>SO<sub>4</sub>. What is the major alkene? Assume the carbocation rearranges whenever a shift gives a more stable cation.",
+  "s": [
+   {
+    "smi": "CC(C)CCO"
+   },
+   {
+    "arrow": "H<sub>2</sub>SO<sub>4</sub>",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC=C(C)C"
+   },
+   {
+    "smi": "C=CCC(C)C"
+   },
+   {
+    "smi": "C=C(C)CC"
+   },
+   {
+    "smi": "CC(C)CCOCCC(C)C"
+   }
+  ],
+  "h": "A 1° alkyloxonium ion does not ionize to a free 1° cation. But the first alkene formed can be protonated again by the hot acid. Where does that lead?",
+  "w": "Protonated 3-methylbutan-1-ol loses water with a β H in a concerted E2-like step (a 1° cation is too unstable), giving 3-methylbut-1-ene. In hot concentrated acid this alkene is reprotonated (Markovnikov) to a 2° cation, which undergoes a 1,2-hydride shift to the 3° cation (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>CH<sub>2</sub>CH<sub>3</sub>. Loss of a β H gives the most substituted alkene, <b>2-methylbut-2-ene</b> (trisubstituted), as the major product.",
+  "x": [
+   "",
+   "3-Methylbut-1-ene is the first-formed, monosubstituted alkene. Under strongly acidic, hot conditions it isomerizes through carbocations to the more stable trisubstituted alkene.",
+   "2-Methylbut-1-ene comes from the same 3° cation, but it is disubstituted; Zaitsev loss of the CH<sub>2</sub> hydrogen gives the trisubstituted alkene instead.",
+   "Diisopentyl ether forms from 1° alcohols at lower temperatures (S<sub>N</sub>2 of one alcohol on another's oxonium ion); with heat, elimination dominates."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-05",
+  "d": 3,
+  "q": "The stereoisomer of 1,2,3,4,5,6-hexachlorocyclohexane in which every Cl is trans to both neighbors is shown in its all-equatorial chair. It undergoes E2 with NaOH thousands of times more slowly than the other stereoisomers. What is the best explanation?",
+  "f": [
+   {
+    "type": "chair",
+    "subs": [
+     [
+      1,
+      "up",
+      "Cl"
+     ],
+     [
+      2,
+      "down",
+      "Cl"
+     ],
+     [
+      3,
+      "up",
+      "Cl"
+     ],
+     [
+      4,
+      "down",
+      "Cl"
+     ],
+     [
+      5,
+      "up",
+      "Cl"
+     ],
+     [
+      6,
+      "down",
+      "Cl"
+     ]
+    ],
+    "flip": true,
+    "nums": true
+   }
+  ],
+  "c": [
+   "In either chair, no Cl has an H on a neighboring carbon that is anti-periplanar (trans-diaxial) to it",
+   "It has no hydrogens on carbons β to any chlorine",
+   "The ring is locked with every Cl equatorial and cannot flip to a diaxial chair",
+   "Equatorial C–Cl bonds are stronger than axial C–Cl bonds"
+  ],
+  "h": "E2 on a cyclohexane needs the leaving group axial and a β H axial on the opposite face. Flip this chair and look at what sits on the neighboring carbons.",
+  "w": "E2 in a cyclohexane needs Cl and a β H trans-diaxial. In the drawn chair every Cl is equatorial, so none can leave. The ring can flip, and then every Cl is axial; but each neighboring carbon's axial position, on the opposite face, is also occupied by its own Cl, because adjacent Cl atoms are trans. So every β H is cis to the Cl and equatorial. <b>In neither chair is any Cl anti-periplanar to a neighboring H</b>, so the normal E2 path is blocked.",
+  "x": [
+   "",
+   "Every carbon carries one H, and each is β to the Cl on the next carbon; the problem is the geometry of those H atoms, not their absence.",
+   "The ring is not locked; it can flip to the all-axial chair. Even in that chair the β hydrogens are equatorial, so flipping does not help.",
+   "Equatorial and axial C–Cl bonds have essentially the same strength. The rate difference comes from the anti-periplanar requirement of E2."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-06",
+  "d": 2,
+  "q": "Cyclohexanol reacts with POCl<sub>3</sub> to give a dichlorophosphate ester, and pyridine then removes a β hydrogen in a single E2 step to form cyclohexene. Which set of curved arrows correctly shows this E2 step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[n:51]1ccccc1.[H:54][CH:52]1CCCC[CH:53]1[O:55]P(=O)(Cl)Cl",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[n:51]1ccccc1.[H:54][CH:52]1CCCC[CH:53]1[O:55]P(=O)(Cl)Cl",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     }
+    ]
+   },
+   {
+    "smi": "[n:51]1ccccc1.[H:54][CH:52]1CCCC[CH:53]1[O:55]P(=O)(Cl)Cl",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[n:51]1ccccc1.[H:54][CH:52]1CCCC[CH:53]1[O:55]P(=O)(Cl)Cl",
+    "lp": [
+     51
+    ],
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "E2 makes one bond and breaks two in one step; each change needs its own arrow, and electrons always move toward the atom that ends up holding them.",
+  "w": "POCl<sub>3</sub> converts OH into –OPOCl<sub>2</sub>, a good leaving group, without forming a carbocation. In the E2 step <b>the pyridine N lone pair takes the β H, the C–H bond electrons form the C=C π bond, and the C–O bond electrons leave with oxygen</b> as the dichlorophosphate anion. Three arrows, all in one step.",
+  "x": [
+   "",
+   "No arrow breaks the C–O bond, so the carbon bearing oxygen would gain the π bond while keeping four other bonds: five bonds to carbon.",
+   "These arrows describe S<sub>N</sub>2 attack of pyridine on carbon, which would give a pyridinium salt rather than cyclohexene; pyridine acts as a base here, and no C–H bond is broken in this drawing.",
+   "The C–O bond electrons are sent to carbon. The leaving group must take the bonding pair; carbon is already gaining the π bond."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-07",
+  "d": 1,
+  "q": "Which reagent best converts 1-bromooctane into oct-1-ene with little substitution product?",
+  "c": [
+   "KOC(CH<sub>3</sub>)<sub>3</sub> in (CH<sub>3</sub>)<sub>3</sub>COH",
+   "NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol",
+   "NaOH in water",
+   "NaI in acetone"
+  ],
+  "h": "A 1° bromide strongly prefers S<sub>N</sub>2. What kind of base can still remove a β H but cannot easily reach the carbon?",
+  "w": "Unhindered 1° bromides undergo S<sub>N</sub>2 with most nucleophiles. A strong but bulky base, <b>potassium <i>tert</i>-butoxide</b>, cannot easily reach the backside of the C–Br carbon, but it can still take a β H from the end of the chain, so E2 gives oct-1-ene as the main product.",
+  "x": [
+   "",
+   "Ethoxide is a strong, unhindered nucleophile; with a 1° bromide it mainly gives the S<sub>N</sub>2 product, 1-ethoxyoctane.",
+   "Hydroxide in water mainly gives octan-1-ol by S<sub>N</sub>2 (and the alkyl bromide is poorly soluble in water).",
+   "Iodide is a good nucleophile and a very weak base; it gives 1-iodooctane by S<sub>N</sub>2, not an alkene."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-08",
+  "d": 3,
+  "q": "2-Fluorohexane and 2-iodohexane are each heated with NaOCH<sub>3</sub> in methanol. Which statement correctly describes the alkene products?",
+  "s": [
+   {
+    "smi": "CCCCC(C)F",
+    "cap": "2-fluorohexane"
+   },
+   {
+    "smi": "CCCCC(C)I",
+    "cap": "2-iodohexane"
+   }
+  ],
+  "c": [
+   "The iodide gives mainly hex-2-ene, but the fluoride gives mainly hex-1-ene",
+   "Both give mainly hex-2-ene, since methoxide is an unhindered base",
+   "Both give mainly hex-1-ene, since C2 is a secondary carbon",
+   "The fluoride gives mainly hex-2-ene, but the iodide gives mainly hex-1-ene"
+  ],
+  "h": "Fluoride leaves poorly. If C–H breaking runs ahead of C–X breaking in the E2 transition state, what charge builds on carbon, and which H is then easiest to remove?",
+  "w": "With a good leaving group (I), C–I and C–H break together, the transition state has much double-bond character, and the more substituted (Zaitsev) hex-2-ene is favored. With fluoride, the C–F bond breaks late; the transition state has carbanion character on the β carbon. A primary carbanion-like carbon (C1) is more stable than a secondary one (C3), and the C1 hydrogens are also more numerous and accessible. So <b>the iodide gives mainly hex-2-ene, but the fluoride gives mainly hex-1-ene</b> (Hofmann product), even with an unhindered base.",
+  "x": [
+   "",
+   "Base size is not the only factor. A poor leaving group such as F shifts E2 toward the less substituted alkene.",
+   "2-Iodohexane follows Zaitsev with methoxide; only the poor leaving group F reverses the regiochemistry.",
+   "This reverses the two substrates. The good leaving group (I) gives Zaitsev; the poor one (F) gives Hofmann."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-09",
+  "d": 3,
+  "q": "2-Bromo-2,4,4-trimethylpentane is heated with potassium <i>tert</i>-butoxide in <i>tert</i>-butyl alcohol. What is the major product?",
+  "s": [
+   {
+    "smi": "CC(C)(Br)CC(C)(C)C"
+   },
+   {
+    "arrow": "KOC(CH<sub>3</sub>)<sub>3</sub>",
+    "below": "(CH<sub>3</sub>)<sub>3</sub>COH, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=C(C)CC(C)(C)C"
+   },
+   {
+    "smi": "CC(C)=CC(C)(C)C"
+   },
+   {
+    "smi": "CC(C)(C)OC(C)(C)CC(C)(C)C"
+   },
+   {
+    "smi": "CC(C)=C(C)C(C)C"
+   }
+  ],
+  "h": "A bulky base removes the most accessible β hydrogen. Compare the exposed CH<sub>3</sub> hydrogens on C2 with the CH<sub>2</sub> hydrogens tucked beside the <i>tert</i>-butyl group.",
+  "w": "A 3° bromide with a strong, bulky base reacts by E2. Two kinds of β H are available: nine on the CH<sub>3</sub> groups of C2 and two on C3, which sits between C2 and the large <i>tert</i>-butyl group. <i>tert</i>-Butoxide is too bulky to reach the crowded C3 hydrogens, so it removes a methyl hydrogen (Hofmann orientation). The Zaitsev alkene would also be strained, with the <i>tert</i>-butyl group cis to a methyl on the double bond. Major product: <b>2,4,4-trimethylpent-1-ene</b>.",
+  "x": [
+   "",
+   "2,4,4-Trimethylpent-2-ene is the Zaitsev (more substituted) alkene, but forming it requires the bulky base to reach the hindered C3 hydrogens beside the <i>tert</i>-butyl group.",
+   "S<sub>N</sub>2 cannot occur at a 3° carbon, and <i>tert</i>-butoxide is a hindered, poor nucleophile; this di-<i>tert</i>-alkyl ether does not form.",
+   "This tetrasubstituted alkene needs a methyl shift, which requires a carbocation. E2 with <i>tert</i>-butoxide is concerted and gives no rearranged products."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-10",
+  "d": 3,
+  "q": "3-Bromo-3-ethylpentane reacts slowly in pure ethanol to give a mixture of an ether and an alkene. The experiment is repeated with 1 M NaOCH<sub>2</sub>CH<sub>3</sub> added. Which statements are correct?<br>I. The bromide is consumed faster in the presence of ethoxide.<br>II. The ratio of alkene to ether increases.<br>III. The alkene formed with ethoxide is a different constitutional isomer from the one formed in pure ethanol.",
+  "s": [
+   {
+    "smi": "CCC(Br)(CC)CC"
+   }
+  ],
+  "c": [
+   "I and II only",
+   "II only",
+   "I only",
+   "I, II, and III"
+  ],
+  "h": "Without base, the reaction goes through a carbocation (S<sub>N</sub>1/E1). What new pathway does 1 M ethoxide open, and how many different alkenes can this substrate give at all?",
+  "w": "I is true: in pure ethanol the slow step is ionization, but 1 M ethoxide, a strong base, adds a bimolecular E2 path (rate = <i>k</i>[RBr][EtO<sup>−</sup>]) that is much faster. II is true: E2 gives only alkene, and ethoxide cannot do S<sub>N</sub>2 at a 3° carbon, so the share of ether falls. III is false: all three β carbons are equivalent CH<sub>2</sub> groups, so E1 and E2 both give the same alkene, 3-ethylpent-2-ene. Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "I is also true. A strong base adds a fast bimolecular E2 pathway, so the bromide disappears faster than by ionization alone.",
+   "II is also true. The added E2 pathway gives only alkene, so the alkene-to-ether ratio rises.",
+   "III is false: the three ethyl groups are identical, so every β H gives 3-ethylpent-2-ene by either mechanism."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-11",
+  "d": 2,
+  "q": "2-Chloro-2-methylpentane is heated with KOC(CH<sub>3</sub>)<sub>3</sub> in <i>tert</i>-butyl alcohol. The major product gives the <sup>1</sup>H NMR spectrum below (the two =CH<sub>2</sub> protons overlap). Which compound is it?",
+  "f": [
+   {
+    "type": "nmr",
+    "nuc": "1H",
+    "peaks": [
+     {
+      "ppm": 4.68,
+      "mult": "s",
+      "int": 2
+     },
+     {
+      "ppm": 2.0,
+      "mult": "t",
+      "int": 2
+     },
+     {
+      "ppm": 1.71,
+      "mult": "s",
+      "int": 3
+     },
+     {
+      "ppm": 1.46,
+      "mult": "sext",
+      "int": 2
+     },
+     {
+      "ppm": 0.91,
+      "mult": "t",
+      "int": 3
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=C(C)CCC"
+   },
+   {
+    "smi": "CCC=C(C)C"
+   },
+   {
+    "smi": "C/C=C/C(C)C"
+   },
+   {
+    "smi": "CCCC(C)(C)OC(C)(C)C"
+   }
+  ],
+  "h": "Look at the vinyl region (4.5–5.5 ppm): how many H appear there, and are they split?",
+  "w": "The signal at 4.68 ppm integrates to 2H and is unsplit: a terminal =CH<sub>2</sub> on a carbon with no H. The 1.71 ppm singlet (3H) is a CH<sub>3</sub> on the alkene carbon, and the triplet/sextet/triplet set is a propyl chain (CH<sub>2</sub> at 2.00 next to the alkene). This is <b>2-methylpent-1-ene</b>, the Hofmann product expected with the bulky <i>tert</i>-butoxide base.",
+  "x": [
+   "",
+   "2-Methylpent-2-ene has one vinyl H (1H, a triplet near 5.1 ppm) and two different CH<sub>3</sub> singlets on the alkene carbon, not a 2H singlet at 4.7 ppm.",
+   "(<i>E</i>)-4-Methylpent-2-ene has two vinyl H that couple to each other and to neighbors, plus an isopropyl doublet (6H); it also cannot form from this substrate.",
+   "The ether would show no vinyl signal at all and a 9H singlet near 1.2 ppm for the <i>tert</i>-butyl group; a 3° chloride with <i>tert</i>-butoxide eliminates instead."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-12",
+  "d": 1,
+  "q": "3-Bromocyclohexene is treated with KOC(CH<sub>3</sub>)<sub>3</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "BrC1CCCC=C1"
+   },
+   {
+    "arrow": "KOC(CH<sub>3</sub>)<sub>3</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C1=CC=CCC1"
+   },
+   {
+    "smi": "C1=CCC=CC1"
+   },
+   {
+    "smi": "CC(C)(C)OC1CCCC=C1"
+   },
+   {
+    "smi": "c1ccccc1"
+   }
+  ],
+  "h": "Find the β carbon that has sp<sup>3</sup> hydrogens, and place the new C=C between it and the carbon bearing Br.",
+  "w": "The carbon bearing Br (C3) has two neighbors: C2, an alkene carbon, and C4, a CH<sub>2</sub>. The bulky base removes a C4 hydrogen, and the new C=C forms between C3 and C4, next to the existing C1=C2 bond. The product is the conjugated diene <b>cyclohexa-1,3-diene</b>.",
+  "x": [
+   "",
+   "Cyclohexa-1,4-diene would need the new C=C between C4 and C5, which is not bonded to the carbon carrying Br. E2 always forms the π bond between the α and β carbons.",
+   "A bulky, strong base like <i>tert</i>-butoxide gives elimination, not S<sub>N</sub>2 substitution, especially at a 2° carbon.",
+   "Benzene would need the loss of two more hydrogens (an oxidation). One E2 removes only one HBr."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-13",
+  "d": 2,
+  "q": "Each C<sub>6</sub>H<sub>12</sub> alkene is burned completely to CO<sub>2</sub> and H<sub>2</sub>O. Which releases the most heat per mole?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C=CCCCC"
+   },
+   {
+    "smi": "CCC/C=C/C"
+   },
+   {
+    "smi": "CCC=C(C)C"
+   },
+   {
+    "smi": "CC(C)=C(C)C"
+   }
+  ],
+  "h": "All four are isomers and give the same combustion products. How does the heat released relate to the stability of the starting alkene?",
+  "w": "Isomers burn to the same products, so the one that starts highest in energy (least stable) releases the most heat. Alkene stability increases with the number of alkyl groups on the C=C (and with branching): monosubstituted &lt; disubstituted <i>E</i> &lt; trisubstituted &lt; tetrasubstituted. The least stable is the monosubstituted <b>hex-1-ene</b>, so it has the largest heat of combustion.",
+  "x": [
+   "",
+   "(<i>E</i>)-Hex-2-ene is disubstituted and more stable than hex-1-ene, so it releases less heat.",
+   "2-Methylpent-2-ene is trisubstituted and more stable, so it releases less heat.",
+   "2,3-Dimethylbut-2-ene is tetrasubstituted, the most stable of the four, so it releases the least heat, not the most."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-14",
+  "d": 2,
+  "q": "Which reaction does this reaction-coordinate diagram (reactants on the left, products on the right) best describe?",
+  "f": [
+   {
+    "type": "energy",
+    "levels": [
+     0,
+     22,
+     -6
+    ],
+    "tags": [
+     "",
+     "",
+     ""
+    ],
+    "labels": [
+     "reactants",
+     "",
+     "products"
+    ]
+   }
+  ],
+  "c": [
+   "2-Bromo-2-methylpropane + NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol → 2-methylpropene",
+   "2-Bromo-2-methylpropane heated in ethanol alone → 2-methylpropene",
+   "2-Methylpropan-2-ol + H<sub>2</sub>SO<sub>4</sub>, heat → 2-methylpropene",
+   "2-Bromo-2-methylpropane in methanol → 2-methoxy-2-methylpropane"
+  ],
+  "h": "Count the maxima and the dips between them. Which mechanism has no intermediate?",
+  "w": "The diagram has one maximum and no intermediate (no energy well between reactants and products), so the reaction is a single concerted step. Of the choices, only <b>E2 of 2-bromo-2-methylpropane with ethoxide</b> is one step: the base removes a β H as Br<sup>−</sup> leaves.",
+  "x": [
+   "",
+   "With no strong base, the 3° bromide reacts by E1: ionization to a carbocation and then deprotonation, two transition states with an intermediate between them.",
+   "Acid-catalyzed dehydration has three steps (protonation, loss of water, deprotonation) and two intermediates.",
+   "S<sub>N</sub>1 methanolysis passes through a carbocation and an oxonium ion, so its diagram has three maxima."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-15",
+  "d": 3,
+  "q": "2,2-Dimethylcyclopentan-1-ol is heated with H<sub>3</sub>PO<sub>4</sub>. What is the major alkene?",
+  "s": [
+   {
+    "smi": "CC1(C)CCCC1O"
+   },
+   {
+    "arrow": "H<sub>3</sub>PO<sub>4</sub>",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1=C(C)CCC1"
+   },
+   {
+    "smi": "CC1(C)CCC=C1"
+   },
+   {
+    "smi": "C=C1CCCC1C"
+   },
+   {
+    "smi": "CC1CCC=C1C"
+   }
+  ],
+  "h": "The first cation is secondary and sits next to a carbon bearing two methyl groups. What shift is available, and then which β H gives the most substituted alkene?",
+  "w": "Loss of water gives a 2° cation at C1. A methyl group on C2 shifts to C1, giving a 3° cation at C2 (which keeps one methyl). Of its β hydrogens, removing the one on C1 gives a C=C with four alkyl substituents: <b>1,2-dimethylcyclopentene</b>, the Zaitsev product.",
+  "x": [
+   "",
+   "3,3-Dimethylcyclopentene is the unrearranged product. A 1,2-methyl shift to a 3° cation is faster than loss of a proton from the 2° cation.",
+   "1-Methyl-2-methylidenecyclopentane comes from the 3° cation, but by loss of a methyl H; the exocyclic C=C is only disubstituted.",
+   "1,5-Dimethylcyclopentene is trisubstituted (from loss of a ring CH<sub>2</sub> hydrogen); the tetrasubstituted alkene is more stable."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-16",
+  "d": 2,
+  "q": "Which alkyl bromide gives the same single alkene whether the base is NaOCH<sub>2</sub>CH<sub>3</sub> or KOC(CH<sub>3</sub>)<sub>3</sub>?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC(C)(C)C(C)(C)Br"
+   },
+   {
+    "smi": "CC(C)C(C)(C)Br"
+   },
+   {
+    "smi": "CCCC(C)(C)Br"
+   },
+   {
+    "smi": "CC(C)CC(C)Br"
+   }
+  ],
+  "h": "The base matters only when there are different kinds of β hydrogens. Look for a substrate whose only β hydrogens are all equivalent.",
+  "w": "In 2-bromo-2,3,3-trimethylbutane the carbon bearing Br has three neighbors: two equivalent CH<sub>3</sub> groups and a quaternary C(CH<sub>3</sub>)<sub>3</sub> carbon with no H. Every β H is on a methyl, so any base gives only <b>2,3,3-trimethylbut-1-ene</b>; Zaitsev and Hofmann give the same answer.",
+  "x": [
+   "",
+   "2-Bromo-2,3-dimethylbutane has a β CH on C3 and β methyl groups; ethoxide gives mainly the tetrasubstituted 2,3-dimethylbut-2-ene, and <i>tert</i>-butoxide mainly the 1-ene.",
+   "2-Bromo-2-methylpentane has β CH<sub>3</sub> and β CH<sub>2</sub> hydrogens, giving 2-methylpent-2-ene (ethoxide) or 2-methylpent-1-ene (<i>tert</i>-butoxide).",
+   "2-Bromo-4-methylpentane can lose an H from C1 or C3, giving 4-methylpent-1-ene and the <i>E</i>/<i>Z</i> 4-methylpent-2-enes in base-dependent ratios."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-17",
+  "d": 1,
+  "q": "Rank the alkyl bromides from slowest to fastest E2 reaction with NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol.",
+  "s": [
+   {
+    "smi": "CC(C)(C)Br",
+    "cap": "I"
+   },
+   {
+    "smi": "CCCBr",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(C)Br",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "II &lt; III &lt; I",
+   "I &lt; III &lt; II",
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III"
+  ],
+  "h": "The E2 transition state already has partial C=C character. Which substrate leads to the most substituted alkene, and has the most β H?",
+  "w": "E2 rates rise from 1° to 2° to 3° halides: the developing C=C is more substituted (and more stable) in the transition state, and the number of β hydrogens grows (2, 6 and 9 here). Steric crowding, which slows S<sub>N</sub>2, does not hinder removal of an outer β H. Order: <b>II &lt; III &lt; I</b>.",
+  "x": [
+   "",
+   "This is the S<sub>N</sub>2 order. For E2 the trend is reversed: 3° halides eliminate fastest.",
+   "1-Bromopropane is the slowest E2 substrate here; it gives the least substituted alkene and has only two β H.",
+   "2-Bromo-2-methylpropane (3°) is faster than 2-bromopropane (2°) in E2; it forms a more substituted alkene and has more β hydrogens."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-18",
+  "d": 2,
+  "q": "1-Phenylpropan-2-ol is heated with concentrated H<sub>2</sub>SO<sub>4</sub>. What is the major alkene?",
+  "s": [
+   {
+    "smi": "CC(O)Cc1ccccc1"
+   },
+   {
+    "arrow": "H<sub>2</sub>SO<sub>4</sub>",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "C/C=C/c1ccccc1"
+   },
+   {
+    "smi": "C=CCc1ccccc1"
+   },
+   {
+    "smi": "C/C=C\\c1ccccc1"
+   },
+   {
+    "smi": "C=C(C)c1ccccc1"
+   }
+  ],
+  "h": "E1 gives the most stable alkene available. Which position of the C=C gains conjugation with the ring?",
+  "w": "The 2° cation at C2 can lose a proton from C1 or C3. Loss from C1 puts the C=C in conjugation with the benzene ring, which makes the alkene clearly more stable (and E1 favors the most stable alkene). The <i>E</i> isomer keeps phenyl and methyl apart: <b>(<i>E</i>)-1-phenylprop-1-ene</b>.",
+  "x": [
+   "",
+   "Allylbenzene (3-phenylprop-1-ene) is monosubstituted and not conjugated; it is a minor product.",
+   "The <i>Z</i> isomer is conjugated but places phenyl and methyl on the same side; the <i>E</i> isomer is more stable and predominates.",
+   "2-Phenylpropene would need the phenyl group to migrate to C2, which is not the favorable path here; loss of a proton from the cation is fast and gives the conjugated product directly."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-19",
+  "d": 2,
+  "q": "2-Bromopentane is stirred with sodium acetate (CH<sub>3</sub>CO<sub>2</sub>Na) in DMF at room temperature. What is the major organic product?",
+  "s": [
+   {
+    "smi": "CCCC(C)Br"
+   },
+   {
+    "arrow": "CH<sub>3</sub>CO<sub>2</sub>Na",
+    "below": "DMF, 25 °C"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCCC(C)OC(C)=O"
+   },
+   {
+    "smi": "CC/C=C/C"
+   },
+   {
+    "smi": "C=CCCC"
+   },
+   {
+    "smi": "CCCC(C)O"
+   }
+  ],
+  "h": "Classify acetate: how strong a base is it (compare pK<sub>a</sub> of acetic acid), and how good a nucleophile in a polar aprotic solvent?",
+  "w": "Acetate is a weak base (acetic acid pK<sub>a</sub> ≈ 4.8) but a decent nucleophile, and DMF leaves it poorly solvated. With a 2° bromide, a weakly basic nucleophile in a polar aprotic solvent gives S<sub>N</sub>2: <b>pentan-2-yl acetate</b> (formed with inversion).",
+  "x": [
+   "",
+   "(<i>E</i>)-Pent-2-ene would need a strong base for E2. Acetate is far too weak a base to compete with substitution at room temperature.",
+   "Pent-1-ene would need a bulky strong base (Hofmann E2); acetate is neither.",
+   "The alcohol would require hydroxide or water as the nucleophile. Here the oxygen that attacks belongs to acetate, so an ester forms."
+  ],
+  "t": "elim",
+  "k": 0
+ },
+ {
+  "id": "zz2-06-20",
+  "d": 3,
+  "q": "3-Bromo-2,2-dimethylpentane is treated in two ways: (I) NaOCH<sub>2</sub>CH<sub>3</sub> in ethanol, heat; (II) ethanol alone, heat. What is the major alkene in each case?",
+  "s": [
+   {
+    "smi": "CCC(Br)C(C)(C)C"
+   }
+  ],
+  "c": [
+   "I: (<i>E</i>)-4,4-dimethylpent-2-ene; II: 2,3-dimethylpent-2-ene",
+   "I: 2,3-dimethylpent-2-ene; II: 2,3-dimethylpent-2-ene",
+   "I: (<i>E</i>)-4,4-dimethylpent-2-ene; II: (<i>E</i>)-4,4-dimethylpent-2-ene",
+   "I: 2,3-dimethylpent-2-ene; II: (<i>E</i>)-4,4-dimethylpent-2-ene"
+  ],
+  "h": "Which conditions make a carbocation, and which do not? A concerted E2 cannot rearrange.",
+  "w": "(I) Ethoxide is a strong base, so the 2° bromide reacts by E2. The β carbon on one side (C2) is quaternary and has no H, so only a C4 hydrogen can be removed, giving 4,4-dimethylpent-2-ene, mainly <i>E</i>. (II) Without base, the bromide ionizes (E1). The 2° cation next to a quaternary carbon undergoes a 1,2-methyl shift to a 3° cation, which loses a proton to give the tetrasubstituted alkene 2,3-dimethylpent-2-ene. Answer: <b>I: (<i>E</i>)-4,4-dimethylpent-2-ene; II: 2,3-dimethylpent-2-ene</b>.",
+  "x": [
+   "",
+   "E2 with ethoxide is concerted and has no carbocation, so the methyl shift needed for 2,3-dimethylpent-2-ene cannot happen in (I).",
+   "In (II) the reaction goes through a carbocation, and the 2° cation next to a quaternary carbon rearranges to a 3° cation before losing a proton.",
+   "This swaps the two mechanisms: the rearranged alkene comes from the carbocation path (II), not from the base (I)."
+  ],
+  "t": "elim",
+  "k": 0
+ }
+]

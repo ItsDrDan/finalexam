@@ -1,0 +1,712 @@
+[
+ {
+  "id": "z2c4-01",
+  "t": "acidbase",
+  "d": 1,
+  "k": 0,
+  "q": "In this equilibrium, which species act as Brønsted–Lowry acids?",
+  "s": [
+   {
+    "smi": "CC#C",
+    "cap": "I"
+   },
+   "+",
+   {
+    "smi": "[NH2-]",
+    "cap": "II"
+   },
+   "⇌",
+   {
+    "smi": "CC#[C-]",
+    "cap": "III"
+   },
+   "+",
+   {
+    "smi": "N",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "I and IV",
+   "I and III",
+   "II and III",
+   "II and IV"
+  ],
+  "h": "A Brønsted–Lowry acid donates H<sup>+</sup>. Find the proton donor on each side of the equilibrium.",
+  "w": "In the forward direction propyne (I) gives its terminal H<sup>+</sup> to the amide ion (II), so I is the acid and II the base. In the reverse direction ammonia (IV) gives H<sup>+</sup> back to the propynide ion (III), so IV is the acid and III the base. The Brønsted acids are <b>I and IV</b>.",
+  "x": [
+   "",
+   "III is the conjugate base of I (it has lost the proton); it accepts H<sup>+</sup> in the reverse reaction.",
+   "II and III are the two bases: each accepts a proton in one direction.",
+   "II is the base in the forward reaction (it accepts the proton from propyne); IV is the acid on the right side."
+  ]
+ },
+ {
+  "id": "z2c4-02",
+  "t": "acidbase",
+  "d": 2,
+  "k": 0,
+  "q": "Which species can act as a Lewis acid?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C=O"
+   },
+   {
+    "smi": "CN(C)C"
+   },
+   {
+    "smi": "COC"
+   },
+   {
+    "smi": "C=C"
+   }
+  ],
+  "h": "A Lewis acid accepts an electron pair. Look for an electron-poor atom, even one with an octet: can a π bond shift its electrons onto a more electronegative atom?",
+  "w": "Every atom in CO<sub>2</sub> has an octet, but the carbon is bonded to two electronegative oxygens and a resonance contributor puts a positive charge on carbon (O<sup>−</sup>–C<sup>+</sup>=O). An electron pair from a base (for example OH<sup>−</sup> or a carbanion) can add to that carbon while a C=O π bond moves onto oxygen. <b>CO<sub>2</sub></b> is the Lewis acid.",
+  "x": [
+   "",
+   "Trimethylamine has a lone pair on N and no low-lying empty orbital; it is a Lewis base.",
+   "Dimethyl ether donates an oxygen lone pair (for example to BF<sub>3</sub>); it is a Lewis base.",
+   "The π bond of ethene is electron-rich; ethene reacts with electrophiles as an electron-pair donor, not as an acceptor."
+  ]
+ },
+ {
+  "id": "z2c4-03",
+  "t": "mechanism",
+  "d": 2,
+  "k": 0,
+  "q": "Cyanide ion adds to acetone to form a new C–C bond. Which tagged atom is the electrophilic site that accepts the new bond?",
+  "s": [
+   {
+    "smi": "[C-:1]#N"
+   },
+   "+",
+   {
+    "smi": "[CH3:2][C:3](=[O:4])C"
+   }
+  ],
+  "c": [
+   "carbon <i>c</i>",
+   "carbon <i>a</i>",
+   "oxygen <i>d</i>",
+   "carbon <i>b</i>"
+  ],
+  "h": "The nucleophile brings the electron pair. Which atom of acetone carries a partial positive charge and can let a π bond move away from it?",
+  "w": "The C=O bond is polarized toward oxygen, so the carbonyl carbon <i>c</i> is δ+. The lone pair on the cyanide carbon (<i>a</i>, the nucleophile) attacks carbon <i>c</i>, and the C=O π electrons move onto oxygen to give an alkoxide. The electrophilic site is <b>carbon <i>c</i></b>.",
+  "x": [
+   "",
+   "Carbon <i>a</i> is the nucleophilic atom: it carries the lone pair and the negative charge that form the new bond.",
+   "Oxygen <i>d</i> is δ− and receives the π electrons; it is where the negative charge ends up, not the electrophile.",
+   "Methyl carbon <i>b</i> has no leaving group or π bond to accept electrons, so it is not electrophilic."
+  ]
+ },
+ {
+  "id": "z2c4-04",
+  "t": "acidbase",
+  "d": 3,
+  "k": 0,
+  "q": "4-Hydroxybenzoic acid has p<i>K</i><sub>a</sub> values of 4.5 (CO<sub>2</sub>H) and 9.3 (phenol OH). Which form is the major species in water buffered at pH 8.0?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[O-]C(=O)c1ccc(O)cc1"
+   },
+   {
+    "smi": "OC(=O)c1ccc(O)cc1"
+   },
+   {
+    "smi": "OC(=O)c1ccc([O-])cc1"
+   },
+   {
+    "smi": "[O-]C(=O)c1ccc([O-])cc1"
+   }
+  ],
+  "h": "Compare the pH with each p<i>K</i><sub>a</sub>: a group is mostly deprotonated when pH &gt; p<i>K</i><sub>a</sub> and mostly protonated when pH &lt; p<i>K</i><sub>a</sub>.",
+  "w": "pH 8.0 is 3.5 units above the carboxylic acid p<i>K</i><sub>a</sub>, so the CO<sub>2</sub>H is almost entirely CO<sub>2</sub><sup>−</sup>. pH 8.0 is 1.3 units below the phenol p<i>K</i><sub>a</sub>, so the phenol stays mostly protonated (about 95%). The major species is the <b>monoanion with CO<sub>2</sub><sup>−</sup> and a phenol OH</b>.",
+  "x": [
+   "",
+   "The neutral acid dominates only below pH 4.5; at pH 8.0 the carboxylic acid is about 3000 times more ionized than not.",
+   "The phenol (p<i>K</i><sub>a</sub> 9.3) is the weaker acid; it would not lose its proton while the much more acidic CO<sub>2</sub>H keeps its own.",
+   "The dianion needs pH above 9.3; at pH 8.0 the phenol is still mostly protonated."
+  ]
+ },
+ {
+  "id": "z2c4-05",
+  "t": "acidbase",
+  "d": 2,
+  "k": 0,
+  "q": "Benzoic acid (p<i>K</i><sub>a</sub> 4.2) is dissolved in a buffer at pH 6.2. What is the approximate ratio of benzoate ion to benzoic acid?",
+  "c": [
+   "100 : 1",
+   "1 : 100",
+   "2 : 1",
+   "10 : 1"
+  ],
+  "h": "Use log([A<sup>−</sup>]/[HA]) = pH − p<i>K</i><sub>a</sub>.",
+  "w": "pH − p<i>K</i><sub>a</sub> = 6.2 − 4.2 = 2.0, so [A<sup>−</sup>]/[HA] = 10<sup>2.0</sup> = <b>100 : 1</b>. Each pH unit above the p<i>K</i><sub>a</sub> multiplies the ratio of conjugate base to acid by 10.",
+  "x": [
+   "",
+   "This is inverted: above the p<i>K</i><sub>a</sub> the deprotonated form (benzoate) dominates.",
+   "The ratio depends on 10 raised to the pH difference, not on the difference itself.",
+   "A one-unit difference gives 10 : 1; here the pH is two units above the p<i>K</i><sub>a</sub>."
+  ]
+ },
+ {
+  "id": "z2c4-06",
+  "t": "acidbase",
+  "d": 3,
+  "k": 0,
+  "q": "Rank these nitrogen compounds from <b>weakest to strongest</b> base.",
+  "s": [
+   {
+    "smi": "N#Cc1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "c1ccncc1",
+    "cap": "II"
+   },
+   {
+    "smi": "CN1CCCCC1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III",
+   "II &lt; I &lt; III",
+   "III &lt; II &lt; I",
+   "I &lt; III &lt; II"
+  ],
+  "h": "In each compound the basic lone pair is on nitrogen. Identify the hybridization of the orbital holding that lone pair.",
+  "w": "The more s character in the lone-pair orbital, the closer the electrons are held to the nucleus and the weaker the base. Benzonitrile (I) holds its lone pair in an sp orbital (conjugate acid p<i>K</i><sub>a</sub> about −10); pyridine (II) in an sp<sup>2</sup> orbital (about 5.2); N-methylpiperidine (III) in an sp<sup>3</sup> orbital (about 10). Order: <b>I &lt; II &lt; III</b>.",
+  "x": [
+   "",
+   "The sp nitrogen of the nitrile (50% s character) is the weakest base, weaker than the sp<sup>2</sup> nitrogen of pyridine.",
+   "This is the reverse order; the sp<sup>3</sup> amine is the strongest base, not the weakest.",
+   "Pyridine (sp<sup>2</sup>) is a weaker base than the sp<sup>3</sup> amine; the pyridine lone pair is not part of the aromatic sextet, but it still sits in an orbital with more s character."
+  ]
+ },
+ {
+  "id": "z2c4-07",
+  "t": "acidbase",
+  "d": 2,
+  "k": 0,
+  "q": "Which side of this equilibrium is favored, and why?<br>CH<sub>3</sub>CH<sub>2</sub>S<sup>−</sup> + CH<sub>3</sub>CH<sub>2</sub>OH ⇌ CH<sub>3</sub>CH<sub>2</sub>SH + CH<sub>3</sub>CH<sub>2</sub>O<sup>−</sup>",
+  "c": [
+   "The left side; ethanethiolate is the weaker base because the charge is spread over the larger S atom",
+   "The right side; ethoxide is the weaker base because O is more electronegative than S",
+   "The left side; ethoxide is the weaker base because O is more electronegative than S",
+   "The right side; ethanethiol is the weaker acid because the S–H bond is weaker than O–H"
+  ],
+  "h": "Equilibrium favors the side with the weaker acid and weaker base. When the acidic atoms are in the same group, size matters more than electronegativity.",
+  "w": "S and O are in the same group, so the size of the atom bearing the charge decides: the negative charge on the larger S is spread over a bigger volume, so CH<sub>3</sub>CH<sub>2</sub>S<sup>−</sup> is the weaker base and CH<sub>3</sub>CH<sub>2</sub>SH (p<i>K</i><sub>a</sub> about 10.6) the stronger acid than ethanol (about 16). The equilibrium lies on the <b>left, with the weaker base ethanethiolate</b> (K about 10<sup>−5</sup>).",
+  "x": [
+   "",
+   "Electronegativity decides only within a row; down a group, size wins and the thiolate is the more stable (weaker) base.",
+   "The side is right, but ethoxide is the stronger base, not the weaker one; the reason must explain why the left side is lower in energy.",
+   "A weaker S–H bond makes ethanethiol a stronger acid, not a weaker one; the stronger acid is on the right, so the right side is disfavored."
+  ]
+ },
+ {
+  "id": "z2c4-08",
+  "t": "acidbase",
+  "d": 2,
+  "k": 0,
+  "q": "Rank these carboxylic acids from <b>weakest to strongest</b> acid.",
+  "s": [
+   {
+    "smi": "CCCC(=O)O",
+    "cap": "I"
+   },
+   {
+    "smi": "FCCCC(=O)O",
+    "cap": "II"
+   },
+   {
+    "smi": "CCC(F)C(=O)O",
+    "cap": "III"
+   },
+   {
+    "smi": "CCC(F)(F)C(=O)O",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "I &lt; II &lt; III &lt; IV",
+   "IV &lt; III &lt; II &lt; I",
+   "I &lt; III &lt; II &lt; IV",
+   "II &lt; I &lt; III &lt; IV"
+  ],
+  "h": "Electronegative atoms stabilize the carboxylate by induction. The effect grows with the number of such atoms and falls off quickly with distance from the CO<sub>2</sub><sup>−</sup>.",
+  "w": "All four conjugate bases are resonance-stabilized carboxylates, so induction decides. Butanoic acid (I) has no fluorine. In II the F is on C4, three bonds from the carboxyl carbon, so its pull is small. In III one F sits on C2, next to the carboxyl, giving a large effect, and in IV two F atoms on C2 give the largest. Order: <b>I &lt; II &lt; III &lt; IV</b>.",
+  "x": [
+   "",
+   "This is the reverse order: more fluorine closer to the CO<sub>2</sub>H gives a stronger acid, so IV is the strongest.",
+   "The F on C4 (II) is much farther from the carboxylate than the F on C2 (III), so II is the weaker acid of the two.",
+   "Any electron-withdrawing F increases acidity; II is still a stronger acid than unsubstituted butanoic acid."
+  ]
+ },
+ {
+  "id": "z2c4-09",
+  "t": "mechanism",
+  "d": 2,
+  "k": 0,
+  "q": "The curved arrows show one step of an ester-forming reaction. What are the products of this step?",
+  "s": [
+   {
+    "smi": "[O-:51][C:52](C)(OC)[Cl:53]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": [
+       51,
+       52
+      ]
+     },
+     {
+      "from": [
+       52,
+       53
+      ],
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COC(C)=O.[Cl-]"
+   },
+   {
+    "smi": "CC(Cl)=O.C[O-]"
+   },
+   {
+    "smi": "CC(=O)[O-].CCl"
+   },
+   {
+    "smi": "COC(C)=O.[Cl]"
+   }
+  ],
+  "h": "Follow each arrow: where a new π bond forms, and which bond breaks. A full arrow moves two electrons, and they go to the atom at the arrowhead.",
+  "w": "The first arrow moves an oxygen lone pair into the O–C bond, making a C=O π bond. To keep carbon at four bonds, the second arrow breaks the C–Cl bond, and both electrons go to chlorine. The products are <b>methyl acetate and chloride ion</b>; the negative charge has moved from oxygen to chlorine.",
+  "x": [
+   "",
+   "This would require breaking the C–OCH<sub>3</sub> bond, but the arrow is drawn from the C–Cl bond.",
+   "No arrow touches the O–CH<sub>3</sub> bond, so the CH<sub>3</sub> cannot move to chlorine in this step.",
+   "A full (double-barbed) arrow gives both bonding electrons to Cl, making chloride ion, not a neutral chlorine atom; the overall −1 charge must be conserved."
+  ]
+ },
+ {
+  "id": "z2c4-10",
+  "t": "acidbase",
+  "d": 2,
+  "k": 0,
+  "q": "Which hydrogen in this compound is the most acidic?",
+  "s": [
+   {
+    "smi": "[SH:1]CC[CH:4]([OH:3])C#[CH:2]"
+   }
+  ],
+  "c": [
+   "the H on sulfur <i>a</i>",
+   "the H on carbon <i>b</i>",
+   "the H on oxygen <i>c</i>",
+   "the H on carbon <i>d</i>"
+  ],
+  "h": "Compare the stability of each conjugate base. When the atoms are in the same group, atom size outweighs electronegativity.",
+  "w": "Removing H from S gives a thiolate, with the charge on the large, polarizable sulfur (thiol p<i>K</i><sub>a</sub> about 10–11). The alcohol O–H (about 16) and the terminal alkyne C–H (about 25) are weaker acids, and the sp<sup>3</sup> C–H at <i>d</i> (about 50) is weakest. The most acidic H is <b>on sulfur <i>a</i></b>.",
+  "x": [
+   "",
+   "The sp C–H of the terminal alkyne (p<i>K</i><sub>a</sub> about 25) is acidic for a C–H, but far less acidic than S–H or O–H.",
+   "O is more electronegative than S, but within a group size dominates: the thiol (about 10–11) is more acidic than the alcohol (about 16).",
+   "The sp<sup>3</sup> C–H at <i>d</i> gives an unstabilized carbanion (p<i>K</i><sub>a</sub> about 50); it is the least acidic of these."
+  ]
+ },
+ {
+  "id": "z2c4-11",
+  "t": "acidbase",
+  "d": 1,
+  "k": 0,
+  "q": "What are the conjugate acid and the conjugate base of methylamine, CH<sub>3</sub>NH<sub>2</sub>?",
+  "c": [
+   "conjugate acid CH<sub>3</sub>NH<sub>3</sub><sup>+</sup>; conjugate base CH<sub>3</sub>NH<sup>−</sup>",
+   "conjugate acid CH<sub>3</sub>NH<sup>−</sup>; conjugate base CH<sub>3</sub>NH<sub>3</sub><sup>+</sup>",
+   "conjugate acid CH<sub>3</sub>NH<sub>3</sub><sup>+</sup>; conjugate base <sup>−</sup>CH<sub>2</sub>NH<sub>2</sub>",
+   "conjugate acid CH<sub>4</sub>; conjugate base NH<sub>2</sub><sup>−</sup>"
+  ],
+  "h": "A conjugate acid has one more H<sup>+</sup>; a conjugate base has one fewer H<sup>+</sup>. Which H on methylamine is the most acidic?",
+  "w": "Adding H<sup>+</sup> to the nitrogen lone pair gives the methylammonium ion, CH<sub>3</sub>NH<sub>3</sub><sup>+</sup> (the conjugate acid). Removing H<sup>+</sup> from the N–H (p<i>K</i><sub>a</sub> about 40, more acidic than the C–H bonds) gives CH<sub>3</sub>NH<sup>−</sup> (the conjugate base). <b>CH<sub>3</sub>NH<sub>3</sub><sup>+</sup> and CH<sub>3</sub>NH<sup>−</sup></b>.",
+  "x": [
+   "",
+   "The labels are swapped: gaining H<sup>+</sup> gives the conjugate acid, and losing H<sup>+</sup> gives the conjugate base.",
+   "Removing a C–H proton is far harder than removing the N–H proton, because N is more electronegative than C; the conjugate base is CH<sub>3</sub>NH<sup>−</sup>.",
+   "Breaking the C–N bond is not an acid–base reaction; conjugate pairs differ by exactly one H<sup>+</sup>."
+  ]
+ },
+ {
+  "id": "z2c4-12",
+  "t": "acidbase",
+  "d": 2,
+  "k": 0,
+  "q": "Nitromethane, CH<sub>3</sub>NO<sub>2</sub> (p<i>K</i><sub>a</sub> about 10), is far more acidic than methane (p<i>K</i><sub>a</sub> about 50). What is the main reason?",
+  "s": [
+   {
+    "smi": "C[N+](=O)[O-]"
+   }
+  ],
+  "c": [
+   "The negative charge of the conjugate base is delocalized by resonance onto the two oxygen atoms",
+   "The carbon of nitromethane is sp hybridized, so its C–H bond has more s character",
+   "The C–H bond of nitromethane is longer because nitrogen is a large atom",
+   "The conjugate base carries its negative charge on nitrogen, which is more electronegative than carbon"
+  ],
+  "h": "Draw the conjugate base and look for resonance contributors.",
+  "w": "Removing a proton from CH<sub>3</sub>NO<sub>2</sub> gives <sup>−</sup>CH<sub>2</sub>–NO<sub>2</sub>. The carbon lone pair can form a C=N π bond while an N=O π bond moves onto oxygen, so the negative charge is shared by the two electronegative oxygens. This resonance stabilization of the conjugate base (with some help from the inductive pull of N<sup>+</sup>) is the <b>main reason</b> for the large acidity. Methane’s conjugate base has no such stabilization.",
+  "x": [
+   "",
+   "The CH<sub>3</sub> carbon of nitromethane is sp<sup>3</sup> (four single bonds), the same as in methane.",
+   "Bond length to a neighboring atom does not set acidity here; the key is the stability of the anion formed.",
+   "In the nitro group, nitrogen already carries a formal + charge; the extra negative charge goes onto carbon and, through resonance, onto the oxygens."
+  ]
+ },
+ {
+  "id": "z2c4-13",
+  "t": "mechanism",
+  "d": 1,
+  "k": 0,
+  "q": "Which statements about curved-arrow notation are correct?<br>I. A curved arrow starts at the electrons that move: a lone pair or a bond.<br>II. In a proton transfer, the arrow is drawn from the H atom to the base.<br>III. A single-barbed (fishhook) arrow shows the movement of one electron.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "h": "Arrows always follow electrons, never atoms or positive charges.",
+  "w": "I is true: every curved arrow begins at an electron source (a lone pair or a bond). II is false: in a proton transfer, the arrow goes from the base’s lone pair <i>to</i> the H, and a second arrow moves the old H–A bond onto A. III is true: a fishhook arrow moves a single electron, as in radical reactions. <b>I and III only</b>.",
+  "x": [
+   "",
+   "III is also true: single-barbed arrows show one-electron movement in radical steps.",
+   "II is false: drawing the arrow from H to the base shows the proton moving, but arrows track electrons, which flow from the base to H.",
+   "II is false (arrows go from the base to H), and I is true."
+  ]
+ },
+ {
+  "id": "z2c4-14",
+  "t": "acidbase",
+  "d": 3,
+  "k": 0,
+  "q": "The curved arrows show amide ion removing a proton from 2-methylcyclohexanone. What is the organic product of this step?",
+  "s": [
+   {
+    "smi": "[NH2-:51].[H:54][CH:52]1CCCC(C)[C:53]1=[O:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": 51,
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       52
+      ],
+      "to": [
+       52,
+       53
+      ]
+     },
+     {
+      "from": [
+       53,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   }
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CC1CCCC=C1[O-]"
+   },
+   {
+    "smi": "CC1=C([O-])CCCC1"
+   },
+   {
+    "smi": "CC1CCCCC1([O-])N"
+   },
+   {
+    "smi": "CC1CCCC=C1O"
+   }
+  ],
+  "h": "Track which C–H bond breaks, where the new C=C π bond forms, and where the C=O π electrons end up.",
+  "w": "The amide lone pair takes the H drawn on C6 (the CH<sub>2</sub> on the side away from the methyl). The C6–H electrons become a C6=C1 π bond, and the C=O π electrons move onto oxygen. The product is the <b>enolate with the C=C toward the unsubstituted side and the negative charge on oxygen</b> (the kinetic enolate, with NH<sub>3</sub> as the other product).",
+  "x": [
+   "",
+   "The arrows remove the H from C6, the CH<sub>2</sub> drawn with the H; this enolate would require deprotonating the methyl-bearing C2.",
+   "No arrow goes from the amide ion to the carbonyl carbon; the base removes a proton rather than adding to C=O.",
+   "The C=O π electrons end up on oxygen as a lone pair (an alkoxide-type O<sup>−</sup>); nothing protonates oxygen in this step."
+  ]
+ },
+ {
+  "id": "z2c4-15",
+  "t": "acidbase",
+  "d": 2,
+  "k": 0,
+  "q": "Which statements are correct?<br>I. H<sub>2</sub>S is a stronger acid than H<sub>2</sub>O.<br>II. NH<sub>3</sub> is a stronger acid than H<sub>2</sub>O.<br>III. HF is a stronger acid than HCl.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Within a row, compare electronegativity of the atom that keeps the electrons. Within a group, compare size.",
+  "w": "I is true: S is below O, and the larger S stabilizes the negative charge of HS<sup>−</sup> better (p<i>K</i><sub>a</sub> 7.0 vs 15.7). II is false: N is less electronegative than O in the same row, so NH<sub>2</sub><sup>−</sup> is less stable and NH<sub>3</sub> (p<i>K</i><sub>a</sub> about 38) is a much weaker acid than water. III is false: Cl is larger than F, so HCl (about −7) is far stronger than HF (3.2). <b>I only</b>.",
+  "x": [
+   "",
+   "II is false: across a row acidity increases with electronegativity, so H<sub>2</sub>O is more acidic than NH<sub>3</sub>.",
+   "III is false: down a group size wins over electronegativity, so HCl is the stronger acid.",
+   "Both II and III are false, and I (true) is left out."
+  ]
+ },
+ {
+  "id": "z2c4-16",
+  "t": "mechanism",
+  "d": 2,
+  "k": 0,
+  "q": "In the first step of the addition of HBr to propene, the alkene is protonated to give a carbocation and bromide ion. Which drawing shows correct curved arrows for this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH2:51]=[CH:52]C.[H:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 54
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 55
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:51]=[CH:52]C.[H:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 54
+     },
+     {
+      "from": 55,
+      "to": 52
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:51]=[CH:52]C.[H:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[CH2:51]=[CH:52]C.[H:54][Br:55]",
+    "lp": true,
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 55
+     },
+     {
+      "from": [
+       54,
+       55
+      ],
+      "to": 54
+     }
+    ]
+   }
+  ],
+  "h": "The π bond is the electron source (the Lewis base). Every arrow must start at electrons, and H can never have two bonds.",
+  "w": "The π electrons of propene (the nucleophile) move to the H of HBr, forming the new C–H bond, and the H–Br bonding electrons move onto Br to give Br<sup>−</sup>. <b>The correct drawing has one arrow from the C=C π bond to H and one from the H–Br bond onto Br</b>; the H goes to the CH<sub>2</sub> end so the positive charge ends up on the secondary carbon.",
+  "x": [
+   "",
+   "The Br lone pair attacks carbon while Br is still bonded to H, and the H–Br bond is never broken: Br would end up with two bonds and H with two bonds. Bromide attacks only after it has formed, in the second step.",
+   "The H–Br bond is never broken, so the H would end up with two bonds.",
+   "The π electrons attack Br and the H–Br electrons move onto H: this makes H<sup>−</sup> and a C–Br bond, the reverse of the polarity of H<sup>δ+</sup>–Br<sup>δ−</sup>."
+  ]
+ },
+ {
+  "id": "z2c4-17",
+  "t": "acidbase",
+  "d": 2,
+  "k": 0,
+  "q": "Acetamide, CH<sub>3</sub>CONH<sub>2</sub> (conjugate acid p<i>K</i><sub>a</sub> about −0.5), is a far weaker base than ethylamine, CH<sub>3</sub>CH<sub>2</sub>NH<sub>2</sub> (conjugate acid p<i>K</i><sub>a</sub> about 10.7). What is the main reason?",
+  "s": [
+   {
+    "smi": "CC(N)=O",
+    "cap": "acetamide"
+   },
+   {
+    "smi": "CCN",
+    "cap": "ethylamine"
+   }
+  ],
+  "c": [
+   "The nitrogen lone pair of acetamide is delocalized onto the carbonyl oxygen by resonance",
+   "The nitrogen of acetamide has no lone pair because it is bonded to a carbonyl carbon",
+   "Acetamide is more sterically hindered around nitrogen than ethylamine",
+   "The nitrogen of acetamide is sp hybridized, while the nitrogen of ethylamine is sp<sup>3</sup>"
+  ],
+  "h": "Draw a resonance contributor of acetamide that moves the nitrogen lone pair.",
+  "w": "In acetamide the N lone pair overlaps with the C=O π bond: a contributor with C=N<sup>+</sup> and O<sup>−</sup> shows that the pair is shared with oxygen. Protonating N would remove this stabilization, so the lone pair is much less available. In ethylamine the lone pair is localized on an sp<sup>3</sup> nitrogen. The main reason is <b>resonance delocalization of the amide lone pair</b>. (Amides that are protonated at all are protonated on O.)",
+  "x": [
+   "",
+   "The amide nitrogen still has a lone pair; it is delocalized into the carbonyl, not missing.",
+   "The NH<sub>2</sub> of acetamide is no more crowded than that of ethylamine; steric effects cannot explain a difference of about 11 p<i>K</i><sub>a</sub> units.",
+   "The amide nitrogen is nearly planar (sp<sup>2</sup>-like because of resonance), not sp; it forms no triple bond."
+  ]
+ },
+ {
+  "id": "z2c4-18",
+  "t": "acidbase",
+  "d": 3,
+  "k": 0,
+  "q": "Rank these anions from <b>weakest to strongest</b> base.",
+  "s": [
+   {
+    "smi": "C[O-]",
+    "cap": "I"
+   },
+   {
+    "smi": "CC(=O)[O-]",
+    "cap": "II"
+   },
+   {
+    "smi": "[O-]c1ccccc1",
+    "cap": "III"
+   },
+   {
+    "smi": "FC(F)(F)C[O-]",
+    "cap": "IV"
+   }
+  ],
+  "c": [
+   "II &lt; III &lt; IV &lt; I",
+   "III &lt; II &lt; IV &lt; I",
+   "II &lt; IV &lt; III &lt; I",
+   "I &lt; IV &lt; III &lt; II"
+  ],
+  "h": "The weakest base has the strongest conjugate acid. Ask how much each oxygen anion is stabilized by resonance (onto O or onto C) or by induction.",
+  "w": "The conjugate acids are acetic acid (p<i>K</i><sub>a</sub> 4.8), phenol (10), 2,2,2-trifluoroethanol (12.4) and methanol (15.5). Acetate (II) spreads its charge over two oxygens by resonance; phenoxide (III) spreads it onto ring carbons, which is less effective; trifluoroethoxide (IV) has only an inductive effect from three F atoms two bonds away; methoxide (I) has no stabilization. Weakest to strongest base: <b>II &lt; III &lt; IV &lt; I</b>.",
+  "x": [
+   "",
+   "Phenoxide is a stronger base than acetate: resonance onto carbon atoms stabilizes the charge less than resonance onto a second oxygen.",
+   "Trifluoroethoxide has only an inductive effect, which is weaker than phenoxide's resonance, so IV is the stronger base of the two.",
+   "This is the order from strongest to weakest; methoxide is the strongest base, not the weakest."
+  ]
+ },
+ {
+  "id": "z2c4-19",
+  "t": "acidbase",
+  "d": 1,
+  "k": 0,
+  "q": "When acetone is dissolved in concentrated H<sub>2</sub>SO<sub>4</sub>, its carbonyl oxygen is protonated. What role does acetone play in this reaction?",
+  "s": [
+   {
+    "smi": "CC(C)=O"
+   },
+   {
+    "arrow": "H<sub>2</sub>SO<sub>4</sub>"
+   },
+   {
+    "smi": "CC(C)=[OH+]"
+   }
+  ],
+  "c": [
+   "Brønsted–Lowry base",
+   "Brønsted–Lowry acid",
+   "Lewis acid",
+   "electrophile"
+  ],
+  "h": "Which species gives up H<sup>+</sup>, and which accepts it?",
+  "w": "A lone pair on the carbonyl oxygen accepts H<sup>+</sup> from sulfuric acid, so acetone is the proton acceptor: a <b>Brønsted–Lowry base</b> (and, equivalently, a Lewis base). The protonated ketone that forms is a strong acid (p<i>K</i><sub>a</sub> about −7).",
+  "x": [
+   "",
+   "Acetone does not donate a proton here; H<sub>2</sub>SO<sub>4</sub> is the acid.",
+   "A Lewis acid accepts an electron pair; acetone donates its oxygen lone pair to H<sup>+</sup>.",
+   "In this step acetone uses its lone pair to form a bond, so it acts as the electron donor; the protonated ketone formed is what becomes a strong electrophile."
+  ]
+ },
+ {
+  "id": "z2c4-20",
+  "t": "acidbase",
+  "d": 3,
+  "k": 0,
+  "q": "Phenol (p<i>K</i><sub>a</sub> 10) is a much stronger acid than cyclohexanol (about 16) but a much weaker acid than acetic acid (4.8). Which explanation accounts for both comparisons?",
+  "c": [
+   "The phenoxide charge is delocalized by resonance onto ring carbons; acetate delocalizes its charge onto a second, more electronegative oxygen",
+   "The phenol O–H is attached to an sp<sup>2</sup> carbon, while the acetic acid O–H is attached to an sp carbon",
+   "Phenoxide is stabilized only by induction from the ring, while acetate is stabilized by resonance",
+   "Phenol is more acidic than cyclohexanol because its O–H bond is shorter, and less acidic than acetic acid because it is larger"
+  ],
+  "h": "Draw the conjugate base of each acid and ask where resonance can put the negative charge.",
+  "w": "Cyclohexoxide has its charge localized on one oxygen. Phenoxide has resonance contributors with the charge on the ortho and para ring carbons, so it is more stable and phenol is more acidic. Acetate has two equivalent contributors with the charge on two oxygens; oxygen holds negative charge far better than carbon, so acetate is more stable than phenoxide and acetic acid is the stronger acid. Hence <b>resonance onto carbon (phenoxide) helps, but resonance onto a second oxygen (acetate) helps more</b>.",
+  "x": [
+   "",
+   "The carboxyl carbon of acetic acid is sp<sup>2</sup>, not sp; hybridization of the attached carbon is not the main factor.",
+   "Phenoxide is stabilized mainly by resonance into the ring, not just by induction; the difference from acetate is where the charge goes, not whether resonance occurs.",
+   "O–H bond lengths are nearly the same in all three; the size of the molecule is not what sets acidity. The conjugate-base stability is the key."
+  ]
+ }
+]

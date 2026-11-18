@@ -1,0 +1,816 @@
+[
+ {
+  "id": "zz2-12-01",
+  "t": "eas",
+  "d": 1,
+  "q": "Which reagents convert benzene into chlorobenzene?",
+  "s": [
+   {
+    "smi": "c1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "Clc1ccccc1"
+   }
+  ],
+  "c": [
+   "Cl<sub>2</sub>, FeCl<sub>3</sub>",
+   "Cl<sub>2</sub>, hν",
+   "HCl, H<sub>2</sub>O",
+   "NaCl, CH<sub>3</sub>OH"
+  ],
+  "h": "Benzene is a weak nucleophile. What makes chlorine electrophilic enough to attack the ring?",
+  "w": "Electrophilic aromatic chlorination needs a Lewis acid. FeCl<sub>3</sub> binds Cl<sub>2</sub> and polarizes it so the terminal Cl is strongly electrophilic; the ring attacks, the arenium ion loses H<sup>+</sup>, and aromaticity is restored. <b>Cl<sub>2</sub>/FeCl<sub>3</sub></b> is the reagent.",
+  "x": [
+   "",
+   "Light makes chlorine radicals; with benzene this leads to radical addition across the ring (hexachlorocyclohexane), not substitution.",
+   "HCl does not add to benzene: adding H<sup>+</sup> and Cl<sup>−</sup> would destroy the aromatic ring, and there is no electrophilic chlorine.",
+   "Chloride is a nucleophile, and the electron-rich benzene ring does not react with nucleophiles."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-02",
+  "t": "eas",
+  "d": 3,
+  "q": "Excess benzene is treated with 1-chloro-3-methylbutane and AlCl<sub>3</sub>. What is the major monoalkylation product?",
+  "s": [
+   {
+    "smi": "c1ccccc1"
+   },
+   "+",
+   {
+    "smi": "ClCCC(C)C"
+   },
+   {
+    "arrow": "AlCl<sub>3</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CCC(C)(C)c1ccccc1"
+   },
+   {
+    "smi": "CC(C)CCc1ccccc1"
+   },
+   {
+    "smi": "CC(C)C(C)c1ccccc1"
+   },
+   {
+    "smi": "CCC(C)Cc1ccccc1"
+   }
+  ],
+  "h": "A primary halide with AlCl<sub>3</sub> behaves like a primary carbocation. Follow hydride shifts until the cation cannot get more stable.",
+  "w": "The AlCl<sub>3</sub> complex of the primary chloride rearranges by a 1,2-hydride shift to the secondary cation at C2, and a second 1,2-hydride shift moves the charge to C3, which carries two methyls (a tertiary cation). Benzene traps this tertiary cation, so the major product is <b>(2-methylbutan-2-yl)benzene (<i>tert</i>-pentylbenzene)</b>.",
+  "x": [
+   "",
+   "This keeps the original primary carbon skeleton; Friedel–Crafts alkylation with a primary halide rearranges before the ring attacks.",
+   "This product comes from stopping at the secondary cation; one more hydride shift gives a more stable tertiary cation.",
+   "(2-Methylbutyl)benzene would need a methyl shift that still leaves a primary carbon on the ring; the hydride shifts lead to a tertiary cation instead."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-03",
+  "t": "eas",
+  "d": 2,
+  "q": "4'-Methoxyacetophenone is nitrated with one equivalent of HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "COc1ccc(C(C)=O)cc1"
+   },
+   {
+    "arrow": "HNO<sub>3</sub>",
+    "below": "H<sub>2</sub>SO<sub>4</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "COc1ccc(C(C)=O)cc1[N+](=O)[O-]"
+   },
+   {
+    "smi": "COc1ccc(C(C)=O)c([N+](=O)[O-])c1"
+   },
+   {
+    "smi": "COc1c([N+](=O)[O-])cc(C(C)=O)cc1[N+](=O)[O-]"
+   },
+   {
+    "smi": "COc1ccc(C(=O)C[N+](=O)[O-])cc1"
+   }
+  ],
+  "h": "Find the positions ortho to OCH<sub>3</sub> and the positions meta to the acetyl group. Do the two groups agree?",
+  "w": "OCH<sub>3</sub> is a strong activating ortho/para director; its para position is taken, so it directs ortho. The acetyl group is a deactivating meta director, and its meta positions are the same carbons ortho to OCH<sub>3</sub>. The effects reinforce, giving <b>1-(4-methoxy-3-nitrophenyl)ethanone</b>.",
+  "x": [
+   "",
+   "Ortho to the acetyl group is meta to OCH<sub>3</sub>; both groups disfavor this position.",
+   "With one equivalent of HNO<sub>3</sub>, and with the first nitro group deactivating the ring, the second nitration does not occur under these conditions.",
+   "Nitronium ion attacks the aromatic π system, not the CH<sub>3</sub> of the ketone; there is no α-nitration under EAS conditions."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-04",
+  "t": "aromatic",
+  "d": 2,
+  "q": "How many constitutional isomers are possible for a benzene ring carrying one Br, one Cl and one NO<sub>2</sub> group (C<sub>6</sub>H<sub>3</sub>BrClNO<sub>2</sub>)?",
+  "c": [
+   "10",
+   "6",
+   "3",
+   "12"
+  ],
+  "h": "Sort them by pattern: 1,2,3-, 1,2,4- and 1,3,5-. In each pattern, how many different ways can three different groups be placed?",
+  "w": "With three different groups: in the 1,2,3 pattern any of the three can be in the middle (3 isomers). In the 1,2,4 pattern any of the three can be at the isolated position 4, and the other two can be swapped between positions 1 and 2 (3 × 2 = 6 isomers). In the 1,3,5 pattern all arrangements are the same (1 isomer). Total: 3 + 6 + 1 = <b>10</b>.",
+  "x": [
+   "",
+   "6 is the count when two of the groups are the same (e.g., C<sub>6</sub>H<sub>3</sub>Cl<sub>2</sub>Br); with three different groups the 1,2,4 pattern gives twice as many.",
+   "3 counts only the substitution patterns (1,2,3-, 1,2,4-, 1,3,5-), not the different ways the groups are placed in each one.",
+   "12 overcounts: rotating or flipping the ring can make some arrangements identical, especially in the 1,2,3 and 1,3,5 patterns."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-05",
+  "t": "eas",
+  "d": 1,
+  "q": "Benzenesulfonic acid is heated in dilute aqueous H<sub>2</sub>SO<sub>4</sub> with steam. What is the main organic product?",
+  "s": [
+   {
+    "smi": "OS(=O)(=O)c1ccccc1"
+   },
+   {
+    "arrow": "H<sub>2</sub>O, H<sub>2</sub>SO<sub>4</sub> (dilute)",
+    "below": "heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "c1ccccc1"
+   },
+   {
+    "smi": "Oc1ccccc1"
+   },
+   {
+    "smi": "O=S(=O)(O)c1cccc(S(=O)(=O)O)c1"
+   },
+   {
+    "smi": "O=S(=O)(c1ccccc1)c1ccccc1"
+   }
+  ],
+  "h": "Sulfonation is reversible. Which direction is favored with lots of water and little SO<sub>3</sub>?",
+  "w": "Sulfonation is an equilibrium. In concentrated or fuming H<sub>2</sub>SO<sub>4</sub> (high SO<sub>3</sub>) the sulfonic acid forms; in hot dilute acid, H<sup>+</sup> adds to the ring carbon bearing SO<sub>3</sub>H and SO<sub>3</sub> leaves (protodesulfonation), giving <b>benzene</b>. This is why SO<sub>3</sub>H works as a removable blocking group.",
+  "x": [
+   "",
+   "Phenol is made from sulfonates only by fusion with NaOH at very high temperature, not with dilute aqueous acid.",
+   "A second sulfonation needs high SO<sub>3</sub> concentration (fuming acid); dilute aqueous acid drives sulfonation backward.",
+   "Diphenyl sulfone is a by-product of sulfonation in concentrated acid; it does not form in dilute aqueous acid."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-06",
+  "t": "eas",
+  "d": 3,
+  "q": "4-Bromo-1-fluoro-2-nitrobenzene is stirred with excess dimethylamine in ethanol at 25 °C. What is the major product?",
+  "s": [
+   {
+    "smi": "Fc1ccc(Br)cc1[N+](=O)[O-]"
+   },
+   {
+    "arrow": "(CH<sub>3</sub>)<sub>2</sub>NH",
+    "below": "EtOH, 25 °C"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "CN(C)c1ccc(Br)cc1[N+](=O)[O-]"
+   },
+   {
+    "smi": "CN(C)c1ccc(F)c([N+](=O)[O-])c1"
+   },
+   {
+    "smi": "CN(C)c1cc(Br)ccc1F"
+   },
+   {
+    "smi": "CN(C)c1ccc(N(C)C)cc1[N+](=O)[O-]"
+   }
+  ],
+  "h": "S<sub>N</sub>Ar needs the leaving group ortho or para to a nitro group. Check where each halogen is relative to NO<sub>2</sub>, and recall which halide is best for S<sub>N</sub>Ar.",
+  "w": "Addition–elimination is fastest at a carbon ortho or para to NO<sub>2</sub>, because the Meisenheimer anion can put its charge on the nitro oxygens. F is ortho to NO<sub>2</sub>; Br is meta to it, so the bromine is not activated. Fluoride is also the best S<sub>N</sub>Ar leaving group because its electronegativity speeds the rate-determining addition step. The product is <b><i>N</i>,<i>N</i>-dimethyl-4-bromo-2-nitroaniline</b>.",
+  "x": [
+   "",
+   "Bromine is meta to the nitro group, so the anion from attack there cannot be delocalized onto NO<sub>2</sub>; that carbon is not activated.",
+   "Nitrite is rarely displaced when an activated fluoride is present; the C–F carbon ortho to NO<sub>2</sub> reacts instead.",
+   "Only the fluorine is activated; the meta bromine stays even with excess amine at room temperature."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-07",
+  "t": "eas",
+  "d": 3,
+  "q": "1-Bromo-3-(trifluoromethyl)benzene is treated with NaNH<sub>2</sub> in liquid NH<sub>3</sub>. What is the major product?",
+  "s": [
+   {
+    "smi": "FC(F)(F)c1cccc(Br)c1"
+   },
+   {
+    "arrow": "NaNH<sub>2</sub>",
+    "below": "NH<sub>3</sub>(l)"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Nc1cccc(C(F)(F)F)c1"
+   },
+   {
+    "smi": "Nc1ccc(C(F)(F)F)cc1"
+   },
+   {
+    "smi": "Nc1ccccc1C(F)(F)F"
+   },
+   {
+    "smi": "Nc1c(Br)cccc1C(F)(F)F"
+   }
+  ],
+  "h": "Nothing activates S<sub>N</sub>Ar here, so think benzyne. Which ortho H is most acidic, and which way does NH<sub>2</sub><sup>−</sup> add so the carbanion sits next to CF<sub>3</sub>?",
+  "w": "Amide removes the most acidic ortho proton, the one on C2 between Br and the inductively withdrawing CF<sub>3</sub>; loss of Br<sup>−</sup> gives a benzyne between C1 and C2. NH<sub>2</sub><sup>−</sup> then adds to C1 so that the aryl anion forms on C2, right next to CF<sub>3</sub>, where induction stabilizes it best. Protonation gives <b>3-(trifluoromethyl)aniline</b>.",
+  "x": [
+   "",
+   "The para isomer would need a benzyne between C1 and C6 with attack at C6; that route uses a less acidic proton and is minor.",
+   "Here NH<sub>2</sub> ends up next to CF<sub>3</sub>, which means the anion formed on the carbon away from CF<sub>3</sub>; that is the less stabilized anion.",
+   "Amide does not add to a ring that has no activating group while keeping the bromine; the reaction goes through elimination of HBr first."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-08",
+  "t": "eas",
+  "d": 2,
+  "q": "What is the final organic product of this sequence?",
+  "s": [
+   {
+    "smi": "Cc1ccc(N)cc1"
+   },
+   {
+    "arrow": "1. NaNO<sub>2</sub>, HCl, 0 °C<br>2. CuCN",
+    "below": "3. H<sub>3</sub>O<sup>+</sup>, heat"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Cc1ccc(C(=O)O)cc1"
+   },
+   {
+    "smi": "Cc1ccc(C#N)cc1"
+   },
+   {
+    "smi": "Cc1ccc(O)cc1"
+   },
+   {
+    "smi": "Nc1ccc(C(=O)O)cc1"
+   }
+  ],
+  "h": "Follow each step: diazotization, then a Sandmeyer reaction, then what does hot aqueous acid do to the new group?",
+  "w": "Step 1 converts the ArNH<sub>2</sub> into the arenediazonium salt ArN<sub>2</sub><sup>+</sup>. Step 2, the Sandmeyer reaction with CuCN, replaces N<sub>2</sub> with C≡N to give 4-methylbenzonitrile. Step 3 hydrolyzes the nitrile to a carboxylic acid, giving <b>4-methylbenzoic acid</b>.",
+  "x": [
+   "",
+   "This is the product after step 2; hot aqueous acid in step 3 hydrolyzes the nitrile to COOH.",
+   "Phenols form when a diazonium salt is warmed in water without CuCN; here the cyanide is introduced first.",
+   "Nothing in the sequence oxidizes the methyl group, and the amino group is replaced in steps 1–2, not kept."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-09",
+  "t": "eas",
+  "d": 3,
+  "q": "Which sequence converts 4-methylaniline into 1,3-dibromo-5-methylbenzene (3,5-dibromotoluene)?",
+  "s": [
+   {
+    "smi": "Cc1ccc(N)cc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "Cc1cc(Br)cc(Br)c1"
+   }
+  ],
+  "c": [
+   "1. Br<sub>2</sub> (2 equiv), CH<sub>3</sub>COOH  2. NaNO<sub>2</sub>, HCl, 0 °C  3. H<sub>3</sub>PO<sub>2</sub>",
+   "1. NaNO<sub>2</sub>, HCl, 0 °C  2. H<sub>3</sub>PO<sub>2</sub>  3. Br<sub>2</sub> (2 equiv), FeBr<sub>3</sub>",
+   "1. Br<sub>2</sub> (2 equiv), CH<sub>3</sub>COOH  2. NaNO<sub>2</sub>, HCl, 0 °C  3. CuBr",
+   "1. Br<sub>2</sub> (2 equiv), CH<sub>3</sub>COOH  2. NaNO<sub>2</sub>, HCl, 0 °C  3. H<sub>2</sub>O, heat"
+  ],
+  "h": "The two bromines must end up meta to CH<sub>3</sub>. Which group in the starting material directs there, and how can you remove it afterward?",
+  "w": "NH<sub>2</sub> is the strongest director present; its para position is blocked by CH<sub>3</sub>, so Br<sub>2</sub> goes to both positions ortho to NH<sub>2</sub>, which are meta to CH<sub>3</sub>. Diazotization and H<sub>3</sub>PO<sub>2</sub> then replace N<sub>2</sub><sup>+</sup> with H, removing the directing group. The sequence <b>Br<sub>2</sub>; NaNO<sub>2</sub>/HCl; H<sub>3</sub>PO<sub>2</sub></b> gives 3,5-dibromotoluene.",
+  "x": [
+   "",
+   "Removing NH<sub>2</sub> first gives toluene, whose CH<sub>3</sub> directs bromine ortho/para, giving 2,4-dibromotoluene rather than the 3,5-isomer.",
+   "CuBr replaces the diazonium group with a third Br, giving 1,2,3-tribromo-5-methylbenzene instead of removing it.",
+   "Warming the diazonium salt in water replaces N<sub>2</sub><sup>+</sup> with OH, giving 2,6-dibromo-4-methylphenol."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-10",
+  "t": "eas",
+  "d": 2,
+  "q": "Which of these compounds are nitrated mainly at the meta position?",
+  "s": [
+   {
+    "smi": "OS(=O)(=O)c1ccccc1",
+    "cap": "I"
+   },
+   {
+    "smi": "CNC(=O)c1ccccc1",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(=O)Nc1ccccc1",
+    "cap": "III"
+   }
+  ],
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II, and III"
+  ],
+  "h": "Look at the atom bonded directly to the ring. Does it carry a lone pair it can donate, or is it attached to electronegative atoms by multiple bonds?",
+  "w": "I: the ring is bonded to sulfur of SO<sub>3</sub>H, which carries a strong partial positive charge and has no lone pair to donate: meta director (true). II: the ring is bonded to the carbonyl carbon of an amide (C(=O)NHCH<sub>3</sub>), which withdraws by resonance like any acyl group: meta director (true). III: the ring is bonded to the nitrogen of an acetamido group; its lone pair donates into the ring (less than in NH<sub>2</sub>), so it is an ortho/para director (false). Answer: <b>I and II only</b>.",
+  "x": [
+   "",
+   "This misjudges II: an amide attached through its carbonyl carbon is an electron-withdrawing acyl group and directs meta.",
+   "This confuses II and III: III is attached through nitrogen (donor, o/p), while I is a meta director.",
+   "This misjudges III: an –NHCOCH<sub>3</sub> group donates its nitrogen lone pair into the ring and directs ortho/para."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-11",
+  "t": "eas",
+  "d": 1,
+  "q": "The arenium ion (σ complex) formed when NO<sub>2</sub><sup>+</sup> attacks benzene is shown with one resonance form. Which labeled carbons share the positive charge in the resonance hybrid?",
+  "s": [
+   {
+    "smi": "O=[N+]([O-])C1[CH:1]=[CH:2][CH+:3][CH:4]=[CH:5]1"
+   }
+  ],
+  "c": [
+   "<i>a</i>, <i>c</i>, and <i>e</i>",
+   "<i>b</i> and <i>d</i> only",
+   "<i>c</i> only",
+   "<i>a</i>, <i>b</i>, <i>c</i>, <i>d</i>, and <i>e</i>"
+  ],
+  "h": "Push the π electrons of each C=C toward the positive carbon and see where the charge moves.",
+  "w": "Moving the C<i>a</i>=C<i>b</i> π bond toward C<i>c</i> puts the charge on <i>a</i>; moving C<i>d</i>=C<i>e</i> toward C<i>c</i> puts it on <i>e</i>. The positive charge is shared by <b><i>a</i>, <i>c</i>, and <i>e</i></b>, the carbons ortho and para to the sp<sup>3</sup> carbon. This is why groups already on the ring at those positions can stabilize or destabilize the σ complex.",
+  "x": [
+   "",
+   "The carbons meta to the sp<sup>3</sup> carbon never carry the charge in any resonance form.",
+   "The drawn form shows the charge on <i>c</i>, but two more resonance forms place it on <i>a</i> and <i>e</i>.",
+   "Only alternating carbons carry the charge; <i>b</i> and <i>d</i> do not."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-12",
+  "t": "eas",
+  "d": 3,
+  "q": "Which sequence gives 2-chloro-4-nitrobenzoic acid from toluene?",
+  "s": [
+   {
+    "smi": "Cc1ccccc1"
+   },
+   {
+    "arrow": "?"
+   },
+   {
+    "smi": "OC(=O)c1ccc([N+](=O)[O-])cc1Cl"
+   }
+  ],
+  "c": [
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> (separate para)  2. Cl<sub>2</sub>, FeCl<sub>3</sub>  3. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>",
+   "1. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  3. Cl<sub>2</sub>, FeCl<sub>3</sub>",
+   "1. Cl<sub>2</sub>, FeCl<sub>3</sub> (separate para)  2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub>  3. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>",
+   "1. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub> (separate para)  2. KMnO<sub>4</sub>, heat; then H<sub>3</sub>O<sup>+</sup>  3. Cl<sub>2</sub>, FeCl<sub>3</sub>"
+  ],
+  "h": "In the target, NO<sub>2</sub> is para and Cl is ortho to the carbon that was CH<sub>3</sub>. Which steps need the ortho/para-directing CH<sub>3</sub> still in place?",
+  "w": "Nitrating toluene puts NO<sub>2</sub> para to CH<sub>3</sub>. In 4-nitrotoluene, CH<sub>3</sub> directs ortho to itself and NO<sub>2</sub> directs meta to itself, and these are the same carbon, so chlorination gives 2-chloro-4-nitrotoluene. KMnO<sub>4</sub> then oxidizes CH<sub>3</sub> to COOH. The correct order is <b>nitrate, chlorinate, then oxidize</b>.",
+  "x": [
+   "",
+   "Oxidizing first gives benzoic acid, a meta director, so nitration puts NO<sub>2</sub> meta to COOH, not para.",
+   "In 4-chlorotoluene, nitration goes ortho to CH<sub>3</sub> (the stronger director), giving 4-chloro-2-nitrotoluene and then 4-chloro-2-nitrobenzoic acid, the wrong isomer.",
+   "In 4-nitrobenzoic acid both groups are meta directors; chlorination goes meta to COOH (ortho to NO<sub>2</sub>), giving 3-chloro-4-nitrobenzoic acid."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-13",
+  "t": "eas",
+  "d": 2,
+  "q": "In aromatic sulfonation, benzene attacks SO<sub>3</sub> to form the σ complex. Which set of curved arrows correctly shows this step?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "[CH:51]1=[CH:52]C=CC=C1.[S:53](=[O:54])(=O)=O",
+    "lp": [
+     54
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 53
+     },
+     {
+      "from": [
+       53,
+       54
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[CH:51]1=[CH:52]C=CC=C1.[S:53](=[O:54])(=O)=O",
+    "lp": [
+     54
+    ],
+    "arrows": [
+     {
+      "from": 54,
+      "to": 51
+     }
+    ]
+   },
+   {
+    "smi": "[CH:51]1=[CH:52]C=CC=C1.[S:53](=[O:54])(=O)=O",
+    "lp": [
+     54
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 54
+     }
+    ]
+   },
+   {
+    "smi": "[CH:51]1=[CH:52]C=CC=C1.[S:53](=[O:54])(=O)=O",
+    "lp": [
+     54
+    ],
+    "arrows": [
+     {
+      "from": [
+       51,
+       52
+      ],
+      "to": 53
+     },
+     {
+      "from": 54,
+      "to": 53
+     }
+    ]
+   }
+  ],
+  "h": "The ring π bond is the nucleophile. Sulfur is the electrophilic atom. When a new bond forms to sulfur, which bond must break?",
+  "w": "A ring π bond (C1=C2) attacks the electron-poor sulfur, and at the same time one S=O π bond moves onto oxygen as a lone pair, giving the σ complex with an –SO<sub>3</sub><sup>−</sup> group and a positive charge in the ring. So the correct drawing is <b>ring π bond → S, and S=O π bond → O</b>.",
+  "x": [
+   "",
+   "This shows oxygen attacking the ring. The aromatic ring is the nucleophile here and sulfur is the electrophile, not the reverse.",
+   "This attacks oxygen instead of sulfur; the electron-poor atom of SO<sub>3</sub> is sulfur, and the new C–S bond is what forms.",
+   "This pushes an oxygen lone pair toward sulfur while the ring also attacks it, adding electrons to sulfur twice; an S=O π bond must instead move onto oxygen."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-14",
+  "t": "eas",
+  "d": 2,
+  "q": "Furan reacts with acetic anhydride and BF<sub>3</sub> to give one main acetylfuran. Where does substitution occur, and why?",
+  "s": [
+   {
+    "smi": "c1ccoc1"
+   },
+   {
+    "arrow": "(CH<sub>3</sub>CO)<sub>2</sub>O",
+    "below": "BF<sub>3</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "At C2, because the σ complex from C2 attack has three resonance forms, including one with the charge on oxygen",
+   "At C3, because attack there keeps the positive charge away from the electronegative oxygen",
+   "At C2, because C2 is the most electron-poor carbon of the ring",
+   "At oxygen, because its lone pairs are the most nucleophilic site"
+  ],
+  "h": "Draw the σ complex for attack at C2 and at C3. How many resonance forms can you draw for each, and can oxygen share the charge?",
+  "w": "Attack at C2 gives a cation delocalized over C3, C5 and the ring oxygen (three resonance forms; the oxonium form has every atom with an octet). Attack at C3 gives a cation shared only by C2 and the oxygen (two forms). The more delocalized intermediate forms faster, so furan, like pyrrole and thiophene, reacts <b>at C2, through the σ complex with three resonance forms</b>, giving 2-acetylfuran.",
+  "x": [
+   "",
+   "Placing positive charge on oxygen is actually stabilizing here, because the oxonium form gives every atom an octet; C3 attack has fewer resonance forms and is slower.",
+   "C2 is the most nucleophilic carbon of furan, not the most electron-poor; electrophiles attack where the ring is electron-rich.",
+   "Furan's oxygen lone pair is part of the aromatic sextet; acylation at oxygen would destroy aromaticity and is not observed."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-15",
+  "t": "eas",
+  "d": 2,
+  "q": "Which aryl chloride reacts fastest with NaOCH<sub>3</sub> in hot methanol by addition–elimination?",
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "Clc1ccncc1"
+   },
+   {
+    "smi": "Clc1cccnc1"
+   },
+   {
+    "smi": "Clc1ccccc1"
+   },
+   {
+    "smi": "Cc1ccc(Cl)cc1"
+   }
+  ],
+  "h": "In S<sub>N</sub>Ar the anionic intermediate needs somewhere to put its charge. Can a ring atom accept it?",
+  "w": "Addition of methoxide to the C–Cl carbon makes an anionic intermediate whose charge sits on the carbons ortho and para to the site of attack. In <b>4-chloropyridine</b> the ring nitrogen is para to that carbon, so one resonance form puts the negative charge on the electronegative nitrogen, much like a para nitro group; it reacts readily.",
+  "x": [
+   "",
+   "In 3-chloropyridine the nitrogen is meta to the C–Cl carbon, so the anion cannot place its charge on nitrogen; it reacts far more slowly.",
+   "Chlorobenzene has no group to stabilize the anionic intermediate and does not undergo addition–elimination under these conditions.",
+   "The methyl group donates electron density and makes the anion even less stable; 4-chlorotoluene is unreactive."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-16",
+  "t": "eas",
+  "d": 3,
+  "q": "What is the final product of this sequence?",
+  "s": [
+   {
+    "smi": "Nc1ccccc1"
+   },
+   {
+    "arrow": "1. (CH<sub>3</sub>CO)<sub>2</sub>O<br>2. HNO<sub>3</sub>, H<sub>2</sub>SO<sub>4</sub><br>3. H<sub>3</sub>O<sup>+</sup>, heat",
+    "below": "4. NaNO<sub>2</sub>, HCl, 0 °C<br>5. CuBr"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=[N+]([O-])c1ccc(Br)cc1"
+   },
+   {
+    "smi": "O=[N+]([O-])c1cccc(Br)c1"
+   },
+   {
+    "smi": "Nc1ccc([N+](=O)[O-])cc1"
+   },
+   {
+    "smi": "O=[N+]([O-])c1ccc(O)cc1"
+   }
+  ],
+  "h": "Acetylation tames the amine. Where does the acetamido group direct the nitro group? Then follow the nitrogen through the diazonium step.",
+  "w": "Acetylation gives acetanilide, whose NHCOCH<sub>3</sub> is a moderate ortho/para director and is bulky, so nitration goes mainly para. Acid hydrolysis frees the amine (4-nitroaniline). Diazotization and the Sandmeyer reaction with CuBr replace N<sub>2</sub><sup>+</sup> with Br, giving <b>1-bromo-4-nitrobenzene</b>.",
+  "x": [
+   "",
+   "The meta product forms when free aniline is nitrated in strong acid (as the anilinium ion); acetylation prevents this and gives the para isomer.",
+   "This is the product after step 3; steps 4 and 5 convert the NH<sub>2</sub> to a diazonium salt and then to Br.",
+   "A phenol forms when the diazonium salt is heated in water; CuBr instead delivers bromide."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-17",
+  "t": "eas",
+  "d": 2,
+  "q": "Benzene reacts with succinic anhydride and AlCl<sub>3</sub>, followed by aqueous workup. What is the product?",
+  "s": [
+   {
+    "smi": "c1ccccc1"
+   },
+   "+",
+   {
+    "smi": "O=C1CCC(=O)O1"
+   },
+   {
+    "arrow": "1. AlCl<sub>3</sub>",
+    "below": "2. H<sub>2</sub>O"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "O=C(O)CCC(=O)c1ccccc1"
+   },
+   {
+    "smi": "O=C(O)CCCc1ccccc1"
+   },
+   {
+    "smi": "O=C1CCc2ccccc21"
+   },
+   {
+    "smi": "O=C(CCC(=O)c1ccccc1)c1ccccc1"
+   }
+  ],
+  "h": "An anhydride is an acylating agent. After one carbonyl acylates the ring, what happens to the other end of the anhydride?",
+  "w": "AlCl<sub>3</sub> opens the cyclic anhydride to an acylium ion. Benzene attacks it (Friedel–Crafts acylation), and the other carbonyl ends up as a carboxylate that is protonated on workup. The product is the keto acid <b>4-oxo-4-phenylbutanoic acid</b>. The new ketone deactivates the ring, so it reacts only once.",
+  "x": [
+   "",
+   "Nothing reduces the ketone; a separate Clemmensen or Wolff–Kishner step would be needed to make 4-phenylbutanoic acid.",
+   "1-Indanone has only a two-carbon chain between the ring and the ketone and no carboxylic acid; the four-carbon anhydride acylates once and leaves the acid end free.",
+   "The second carbonyl ends up as a carboxylic acid, which does not acylate benzene under these conditions."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-18",
+  "t": "eas",
+  "d": 1,
+  "q": "Toluene is sulfonated with SO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub>, and the para product is isolated. How many signals does its <sup>13</sup>C NMR spectrum show?",
+  "s": [
+   {
+    "smi": "Cc1ccccc1"
+   },
+   {
+    "arrow": "SO<sub>3</sub>",
+    "below": "H<sub>2</sub>SO<sub>4</sub>"
+   },
+   {
+    "smi": "Cc1ccc(S(=O)(=O)O)cc1"
+   }
+  ],
+  "c": [
+   "5",
+   "7",
+   "4",
+   "6"
+  ],
+  "h": "Use the mirror plane through the CH<sub>3</sub> carbon and the C–S carbon.",
+  "w": "4-Methylbenzenesulfonic acid has a mirror plane through C1 and C4. The two carbons ortho to CH<sub>3</sub> are equivalent, and so are the two ortho to SO<sub>3</sub>H. Signals: CH<sub>3</sub>, C1, C2/C6, C3/C5 and C4: <b>5 signals</b>.",
+  "x": [
+   "",
+   "7 counts every carbon separately; symmetry makes the two pairs of ring CH carbons equivalent.",
+   "4 leaves out one carbon type; the two ipso carbons (bearing CH<sub>3</sub> and SO<sub>3</sub>H) are different from each other.",
+   "6 would fit an ortho or meta isomer with partial symmetry; the para isomer has two equivalent pairs, giving 5."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-19",
+  "t": "eas",
+  "d": 2,
+  "q": "Dichloromethane is added to a large excess of benzene containing AlCl<sub>3</sub>. What is the main organic product?",
+  "s": [
+   {
+    "smi": "c1ccccc1"
+   },
+   "+",
+   {
+    "smi": "ClCCl"
+   },
+   {
+    "arrow": "AlCl<sub>3</sub>"
+   },
+   "?"
+  ],
+  "c": [
+   "§A",
+   "§B",
+   "§C",
+   "§D"
+  ],
+  "cs": [
+   {
+    "smi": "c1ccc(Cc2ccccc2)cc1"
+   },
+   {
+    "smi": "ClCc1ccccc1"
+   },
+   {
+    "smi": "Clc1ccccc1"
+   },
+   {
+    "smi": "c1ccc(C(c2ccccc2)c2ccccc2)cc1"
+   }
+  ],
+  "h": "Each C–Cl bond can alkylate a ring. Is the first product, a benzyl chloride, still a Friedel–Crafts alkylating agent?",
+  "w": "The first alkylation gives benzyl chloride. A benzylic chloride ionizes even more easily with AlCl<sub>3</sub> (resonance-stabilized benzyl cation), so it alkylates a second benzene. With excess benzene the product is <b>diphenylmethane</b>, Ph–CH<sub>2</sub>–Ph.",
+  "x": [
+   "",
+   "Benzyl chloride forms first, but it is a better alkylating agent than CH<sub>2</sub>Cl<sub>2</sub> and reacts again with the excess benzene.",
+   "AlCl<sub>3</sub> does not transfer chlorine to the ring from CH<sub>2</sub>Cl<sub>2</sub>; the carbon, not chlorine, becomes the electrophile.",
+   "CH<sub>2</sub>Cl<sub>2</sub> has only two C–Cl bonds, so it can join only two rings; triphenylmethane would require CHCl<sub>3</sub>."
+  ],
+  "k": 0
+ },
+ {
+  "id": "zz2-12-20",
+  "t": "eas",
+  "d": 2,
+  "q": "Acetanilide reacts with Br<sub>2</sub> much more slowly than aniline does, although both are ortho/para directors. What is the best explanation?",
+  "s": [
+   {
+    "smi": "CC(=O)Nc1ccccc1",
+    "cap": "acetanilide"
+   },
+   {
+    "smi": "Nc1ccccc1",
+    "cap": "aniline"
+   }
+  ],
+  "c": [
+   "The nitrogen lone pair of acetanilide is also delocalized onto the carbonyl oxygen, so less of it is available to donate into the ring",
+   "The nitrogen of acetanilide is sp<sup>3</sup>, so its lone pair cannot overlap with the ring",
+   "The acetyl group makes the nitrogen a meta director, which competes with ortho/para attack",
+   "The acetyl group removes the nitrogen lone pair, so the ring is activated only by induction"
+  ],
+  "h": "Draw the amide resonance form. Where else can the nitrogen lone pair go?",
+  "w": "In an amide, the nitrogen lone pair is shared with the adjacent C=O (amide resonance). In acetanilide the lone pair is pulled two ways, toward the carbonyl and toward the ring, so it donates less to the ring than the lone pair of aniline. The group is still an ortho/para director, but only a moderate activator. <b>Competition from amide resonance</b> is the reason.",
+  "x": [
+   "",
+   "Amide nitrogens are sp<sup>2</sup> and planar; the lone pair is in a p orbital that overlaps both the carbonyl and the ring.",
+   "The –NHCOCH<sub>3</sub> group still directs ortho/para through its nitrogen lone pair; it does not become a meta director.",
+   "The nitrogen keeps its lone pair; it is shared with the carbonyl, not removed, and it still donates into the ring by resonance."
+  ],
+  "k": 0
+ }
+]
