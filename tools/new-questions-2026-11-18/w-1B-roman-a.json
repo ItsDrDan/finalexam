@@ -1,0 +1,527 @@
+[
+ {
+  "t": "kinetics",
+  "q": "A reaction occurs in a single step and is exothermic. Which statements are true?<br>I. The activation energy of the reverse reaction is larger than that of the forward reaction.<br>II. Raising the temperature increases the rate constant of the forward reaction but not of the reverse reaction.<br>III. The transition state is higher in energy than both the reactants and the products.",
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "Sketch the energy diagram: products lower than reactants, one hump between them. Measure each activation energy from its own starting point.",
+  "w": "<b>I and III only.</b> The products lie below the reactants, so the climb from the products up to the transition state is longer: E<sub>a</sub>(reverse) = E<sub>a</sub>(forward) − ΔH, which is larger when ΔH is negative (I true). The transition state is the top of the hump, above both reactants and products (III true). Raising the temperature increases the fraction of energetic collisions in both directions, so both rate constants increase (II false).",
+  "x": [
+   "",
+   "Statement III is true. The transition state is the highest point on the path, so it lies above both reactants and products.",
+   "Statement I is true. Products of an exothermic reaction sit lower, so they need a bigger climb to reach the same transition state.",
+   "Statement II is false. A higher temperature gives more energetic collisions for the reverse reaction too, so its rate constant also rises."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "kinetics",
+  "q": "The decomposition A → products is first order with a half-life of 20 min. Which statements are true?<br>I. The half-life is the same whether the initial [A] is 0.10 M or 0.50 M.<br>II. After 60 min, 12.5% of the original A remains.<br>III. A plot of 1/[A] versus time is a straight line.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "For a first-order reaction, t<sub>1/2</sub> = 0.693/k. Count how many half-lives fit into 60 min.",
+  "w": "<b>I and II only.</b> For a first-order reaction t<sub>1/2</sub> = 0.693/k, which does not contain [A]<sub>0</sub> (I true). 60 min is three half-lives, so (½)<sup>3</sup> = 1/8 = 12.5% remains (II true). A first-order reaction gives a straight line for ln[A] versus time, while 1/[A] versus time is linear for a second-order reaction (III false).",
+  "x": [
+   "",
+   "Statement II is true. 60 min is three half-lives, and halving three times leaves one eighth of the A.",
+   "Statement I is true. The first-order half-life depends only on k, not on the starting concentration.",
+   "Statement III is false. A straight line for 1/[A] versus time is the sign of a second-order reaction."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "kinetics",
+  "q": "The mechanism below is proposed for 2 NO(g) + Br<sub>2</sub>(g) → 2 NOBr(g).<br>Step 1 (fast, reversible): NO + Br<sub>2</sub> ⇌ NOBr<sub>2</sub><br>Step 2 (slow): NOBr<sub>2</sub> + NO → 2 NOBr<br>Which statements are true?<br>I. NOBr<sub>2</sub> is a reaction intermediate.<br>II. The rate law predicted by this mechanism is rate = k[NO][Br<sub>2</sub>].<br>III. The fast first step determines the overall rate.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "An intermediate is made in one step and used up later. The slowest step sets the rate, and intermediates cannot appear in the final rate law.",
+  "w": "<b>I only.</b> NOBr<sub>2</sub> is made in step 1 and used in step 2, so it is an intermediate (I true). The slow step 2 gives rate = k<sub>2</sub>[NOBr<sub>2</sub>][NO]; using the fast equilibrium of step 1, [NOBr<sub>2</sub>] = K[NO][Br<sub>2</sub>], so rate = k[NO]<sup>2</sup>[Br<sub>2</sub>], not k[NO][Br<sub>2</sub>] (II false). The slowest step, not the fast one, limits the overall rate (III false).",
+  "x": [
+   "",
+   "Statement II is false. The slow step uses NOBr₂ and NO, and replacing NOBr₂ with the step 1 equilibrium puts a second power on [NO].",
+   "Statement III is false. The overall rate is limited by the slowest step, like the slowest worker on an assembly line.",
+   "Statement II is false. The rate law comes from the slow step, and once the intermediate is replaced, NO appears to the second power."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "kinetics",
+  "q": "Which changes would increase the value of the rate constant, k, for a reaction?<br>I. Increasing the concentration of a reactant<br>II. Raising the temperature<br>III. Adding a catalyst",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "II only",
+   "I, II and III"
+  ],
+  "h": "The rate constant is the number in front of the concentrations in the rate law. Ask which changes alter E<sub>a</sub> or the fraction of collisions that clear it.",
+  "w": "<b>II and III only.</b> By the Arrhenius equation, k = Ae<sup>−Ea/RT</sup>, so a higher temperature increases k (II true). A catalyst gives a new pathway with a lower E<sub>a</sub>, which increases k (III true). Raising a concentration speeds up the rate through the concentration terms in the rate law, but k itself does not change (I false).",
+  "x": [
+   "",
+   "Statement I is false. A higher concentration raises the rate through the concentration term, but k stays the same.",
+   "Statement III is true. A catalyst lowers the activation energy, and k grows when Ea gets smaller.",
+   "Statement I is false. Concentration appears separately in the rate law, so changing it leaves k unchanged."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "kinetics",
+  "q": "For the reaction 2 A + B → C, the rate law is rate = k[A]<sup>2</sup>[B]. Three mixtures are prepared at the same temperature:<br>I. [A] = 0.10 M, [B] = 0.10 M<br>II. [A] = 0.20 M, [B] = 0.020 M<br>III. [A] = 0.050 M, [B] = 0.30 M<br>Which ranks the initial rates from SLOWEST to FASTEST?",
+  "c": [
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III",
+   "I &lt; II &lt; III",
+   "III &lt; I &lt; II"
+  ],
+  "h": "Since k is the same for all three, compare [A]<sup>2</sup>[B] for each mixture. Remember to square [A].",
+  "w": "<b>III &lt; II &lt; I.</b> The values of [A]<sup>2</sup>[B] are I: (0.10)<sup>2</sup>(0.10) = 1.0×10<sup>−3</sup>; II: (0.20)<sup>2</sup>(0.020) = 8.0×10<sup>−4</sup>; III: (0.050)<sup>2</sup>(0.30) = 7.5×10<sup>−4</sup>. Forgetting to square [A] gives the products 0.010, 0.0040 and 0.015, which leads to the wrong order II &lt; I &lt; III.",
+  "x": [
+   "",
+   "This order treats the reaction as first order in A. Square [A] before multiplying by [B].",
+   "Compute [A]²[B] for each mixture. Mixture I does not have the smallest value.",
+   "Mixture II has the largest [A], but its small [B] matters too. Compute [A]²[B] for each mixture and compare."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "equilibrium",
+  "q": "A reaction has K = 1×10<sup>−5</sup> at 25 °C. Which statements are true at 25 °C?<br>I. At equilibrium, reactants are favored over products.<br>II. ΔG° for the reaction is positive.<br>III. Adding more reactant increases the value of K.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "K &lt; 1 means the numerator (products) is small at equilibrium. Recall ΔG° = −RT ln K, and what changes the value of K.",
+  "w": "<b>I and II only.</b> K is much smaller than 1, so at equilibrium the reactants predominate (I true). ΔG° = −RT ln K, and ln(1×10<sup>−5</sup>) is negative, so ΔG° is positive (II true). Adding reactant shifts the position of equilibrium, but at constant temperature K does not change (III false).",
+  "x": [
+   "",
+   "Statement II is true. With K below 1, ln K is negative, so ΔG° = −RT ln K comes out positive.",
+   "Statement III is false. Adding a reactant moves the system toward products, but the value of K stays fixed at a given temperature.",
+   "Statement III is false. Only a change in temperature changes the value of K."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "equilibrium",
+  "q": "The system N<sub>2</sub>O<sub>4</sub>(g) ⇌ 2 NO<sub>2</sub>(g), ΔH° = +57 kJ, is at equilibrium in a closed container. Which changes would shift the equilibrium toward more NO<sub>2</sub>?<br>I. Increasing the volume of the container<br>II. Raising the temperature<br>III. Adding more N<sub>2</sub>O<sub>4</sub>(g)",
+  "c": [
+   "I, II and III",
+   "II and III only",
+   "I and II only",
+   "III only"
+  ],
+  "h": "Apply Le Châtelier's principle to each change. Count moles of gas on each side, and treat heat as a reactant in an endothermic reaction.",
+  "w": "<b>I, II and III.</b> A larger volume lowers the pressure, and the system shifts toward the side with more moles of gas, 2 NO<sub>2</sub> (I true). The forward reaction is endothermic, so heating shifts it forward (II true). Adding a reactant shifts the equilibrium toward products (III true).",
+  "x": [
+   "",
+   "Statement I is true. Expanding the container favors the side with more moles of gas.",
+   "Statement III is true. Adding a reactant uses up some of it by making more product.",
+   "Statement II is true. The forward reaction absorbs heat, so adding heat drives it forward."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "equilibrium",
+  "q": "For H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2 HI(g), K<sub>c</sub> = 50 at a certain temperature. A mixture at that temperature has [H<sub>2</sub>] = 0.10 M, [I<sub>2</sub>] = 0.10 M and [HI] = 0.50 M. Which statements are true?<br>I. The reaction quotient Q<sub>c</sub> is 25.<br>II. The net reaction will proceed to form more H<sub>2</sub> and I<sub>2</sub>.<br>III. [HI] will increase as the mixture approaches equilibrium.",
+  "c": [
+   "I and III only",
+   "I and II only",
+   "III only",
+   "II only"
+  ],
+  "h": "Calculate Q<sub>c</sub> the same way as K<sub>c</sub>, then compare. If Q &lt; K, which side must grow?",
+  "w": "<b>I and III only.</b> Q<sub>c</sub> = (0.50)<sup>2</sup>/[(0.10)(0.10)] = 0.25/0.010 = 25 (I true). Since Q<sub>c</sub> = 25 is less than K<sub>c</sub> = 50, there are too few products, so the net reaction goes forward and [HI] increases (III true) while H<sub>2</sub> and I<sub>2</sub> are used up (II false).",
+  "x": [
+   "",
+   "Statement II is false. Q is less than K here, so the mixture needs more product, not more reactant.",
+   "Statement I is true. Square [HI] because its coefficient is 2, then divide by [H₂][I₂].",
+   "Statement II is false. When Q is smaller than K, the reaction runs forward, not in reverse."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "equilibrium",
+  "q": "The endothermic system CaCO<sub>3</sub>(s) ⇌ CaO(s) + CO<sub>2</sub>(g) is at equilibrium in a closed container. Which changes would increase the equilibrium pressure of CO<sub>2</sub>?<br>I. Adding more CaCO<sub>3</sub>(s)<br>II. Raising the temperature<br>III. Removing some of the CaO(s)",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Write K<sub>p</sub> for this reaction. Pure solids do not appear in it. What does change K?",
+  "w": "<b>II only.</b> K<sub>p</sub> = P<sub>CO2</sub>, because pure solids are left out of the expression. Adding or removing a solid does not change Q or K, so it has no effect on P<sub>CO2</sub> (I and III false). The reaction is endothermic, so raising the temperature increases K<sub>p</sub>, and the equilibrium CO<sub>2</sub> pressure rises (II true).",
+  "x": [
+   "",
+   "Statement I is false. A pure solid does not appear in Kp, so adding more of it does not shift the equilibrium.",
+   "Statement III is false. As long as some CaO remains, its amount does not enter the equilibrium expression.",
+   "Statement III is false. Changing the amount of a pure solid leaves Q unchanged, so the CO₂ pressure does not shift."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "equilibrium",
+  "q": "Which statements about a reaction mixture at chemical equilibrium are true?<br>I. The rates of the forward and reverse reactions are equal.<br>II. The concentrations of the reactants equal the concentrations of the products.<br>III. The forward and reverse reactions have both stopped.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Equilibrium is dynamic. Think about what stays constant and what keeps happening.",
+  "w": "<b>I only.</b> At equilibrium the forward and reverse rates are equal, so the concentrations stop changing (I true). Constant does not mean equal: the amounts of reactants and products are set by K and are usually different (II false). Both reactions keep running at the same rate, so equilibrium is dynamic, not stopped (III false).",
+  "x": [
+   "",
+   "Statement II is false. Concentrations at equilibrium are constant, but they are rarely equal to each other.",
+   "Statement III is false. Molecules keep reacting in both directions at equilibrium, just at equal rates.",
+   "Statement III is false. Equilibrium is dynamic, so both reactions are still running."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "acidbase",
+  "q": "Which species can act as both a Brønsted–Lowry acid and a Brønsted–Lowry base in water?<br>I. HCO<sub>3</sub><sup>−</sup><br>II. CO<sub>3</sub><sup>2−</sup><br>III. HPO<sub>4</sub><sup>2−</sup>",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "An amphiprotic species must have an H<sup>+</sup> it can give away and also be able to accept an H<sup>+</sup>.",
+  "w": "<b>I and III only.</b> HCO<sub>3</sub><sup>−</sup> can donate H<sup>+</sup> (to form CO<sub>3</sub><sup>2−</sup>) or accept H<sup>+</sup> (to form H<sub>2</sub>CO<sub>3</sub>) (I true). HPO<sub>4</sub><sup>2−</sup> can donate H<sup>+</sup> (to form PO<sub>4</sub><sup>3−</sup>) or accept H<sup>+</sup> (to form H<sub>2</sub>PO<sub>4</sub><sup>−</sup>) (III true). CO<sub>3</sub><sup>2−</sup> has no H to donate, so it can act only as a base (II false).",
+  "x": [
+   "",
+   "Statement III is true. HPO₄²⁻ still has one H to donate and can also accept an H⁺.",
+   "Statement II is false. CO₃²⁻ has no hydrogen to give away, so it cannot act as an acid.",
+   "Statement II is false. A species needs a removable H⁺ to act as an acid, and CO₃²⁻ has none."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "acidbase",
+  "q": "Consider three hypohalous acids:<br>I. HBrO<br>II. HIO<br>III. HClO<br>Which ranks them from WEAKEST to STRONGEST acid?",
+  "c": [
+   "II &lt; I &lt; III",
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III",
+   "III &lt; II &lt; I"
+  ],
+  "h": "All three have the structure H–O–X. A more electronegative X pulls electron density away from the O–H bond.",
+  "w": "<b>HIO &lt; HBrO &lt; HClO (II &lt; I &lt; III).</b> In H–O–X acids, a more electronegative halogen pulls electron density from the O–H bond and stabilizes the conjugate base XO<sup>−</sup>, so the acid is stronger. Electronegativity increases I &lt; Br &lt; Cl, so acid strength follows the same order. The reverse order comes from applying the binary-acid trend (HI &gt; HBr &gt; HCl), which is based on bond length and does not apply here.",
+  "x": [
+   "",
+   "This is the binary acid trend, where H bonds directly to the halogen. Here H is bonded to O, so the electronegativity of X controls the strength.",
+   "Compare the electronegativities of Br, I and Cl. The acid with the most electronegative halogen is the strongest.",
+   "Br sits between Cl and I in electronegativity, so HBrO cannot be at either end of the order."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "acidbase",
+  "q": "A solution at 25 °C has pH = 4.00. Which statements are true?<br>I. [OH<sup>−</sup>] = 1.0×10<sup>−4</sup> M<br>II. [H<sub>3</sub>O<sup>+</sup>] = 1.0×10<sup>−4</sup> M<br>III. pOH = 4.00",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Use [H<sub>3</sub>O<sup>+</sup>] = 10<sup>−pH</sup> and pH + pOH = 14.00 at 25 °C.",
+  "w": "<b>II only.</b> [H<sub>3</sub>O<sup>+</sup>] = 10<sup>−4.00</sup> = 1.0×10<sup>−4</sup> M (II true). pOH = 14.00 − 4.00 = 10.00, not 4.00 (III false), so [OH<sup>−</sup>] = 1.0×10<sup>−10</sup> M, not 1.0×10<sup>−4</sup> M (I false).",
+  "x": [
+   "",
+   "Statement I is false. [H₃O⁺][OH⁻] = 1.0×10⁻¹⁴, so [OH⁻] must be much smaller than [H₃O⁺] in an acidic solution.",
+   "Statement III is false. At 25 °C, pH + pOH = 14.00, so pOH is not equal to the pH here.",
+   "Statement I is false. An acidic solution has far less OH⁻ than H₃O⁺, so the two concentrations cannot be equal."
+  ],
+  "k": 1,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "acidbase",
+  "q": "Which species can act as Lewis acids?<br>I. NH<sub>3</sub><br>II. BF<sub>3</sub><br>III. Al<sup>3+</sup>",
+  "c": [
+   "II and III only",
+   "II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "A Lewis acid accepts an electron pair. Look for an empty orbital or an incomplete octet, not a lone pair.",
+  "w": "<b>II and III only.</b> Boron in BF<sub>3</sub> has only six valence electrons, so it accepts an electron pair (II true). Al<sup>3+</sup> is a small, highly charged cation with empty orbitals and accepts electron pairs from water or other ligands (III true). NH<sub>3</sub> has a lone pair to donate, so it is a Lewis base (I false).",
+  "x": [
+   "",
+   "Statement III is true. Metal cations like Al³⁺ accept electron pairs from water molecules and other ligands.",
+   "Statement I is false. NH₃ donates its lone pair, which makes it a Lewis base.",
+   "Statement I is false. A lone pair makes a species an electron pair donor, so NH₃ is a Lewis base."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "acidbase",
+  "q": "At 25 °C, K<sub>a</sub>(HF) = 6.8×10<sup>−4</sup> and K<sub>a</sub>(HCN) = 6.2×10<sup>−10</sup>. Which statements are true?<br>I. HF is the stronger acid.<br>II. CN<sup>−</sup> is a stronger base than F<sup>−</sup>.<br>III. A 0.10 M HCN solution has a lower pH than a 0.10 M HF solution.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "A larger K<sub>a</sub> means a stronger acid. For a conjugate pair, K<sub>a</sub> × K<sub>b</sub> = K<sub>w</sub>.",
+  "w": "<b>I and II only.</b> HF has the larger K<sub>a</sub>, so it is the stronger acid (I true). Because K<sub>b</sub> = K<sub>w</sub>/K<sub>a</sub>, the weaker acid HCN has the stronger conjugate base, CN<sup>−</sup> (II true). The weaker acid ionizes less at the same concentration, so 0.10 M HCN has the HIGHER pH (III false).",
+  "x": [
+   "",
+   "Statement II is true. Kb = Kw/Ka, so the acid with the smaller Ka has the stronger conjugate base.",
+   "Statement I is true. The acid with the larger Ka ionizes more and is the stronger acid.",
+   "Statement III is false. HCN ionizes less than HF at the same concentration, so it makes less H₃O⁺."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "buffers",
+  "q": "A buffer contains 0.20 M HF and 0.20 M NaF (pK<sub>a</sub> of HF = 3.17). Which statements are true?<br>I. Diluting the buffer tenfold with water raises its pH by 1 unit.<br>II. The pH of the buffer is 3.17.<br>III. Adding a small amount of NaOH converts some F<sup>−</sup> into HF.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Use the Henderson–Hasselbalch equation. Which buffer component reacts with an added base?",
+  "w": "<b>II only.</b> With equal [HF] and [F<sup>−</sup>], pH = pK<sub>a</sub> + log(1) = 3.17 (II true). Dilution lowers both concentrations by the same factor, so their ratio, and the pH, stay about the same (I false). Added OH<sup>−</sup> reacts with the acid: HF + OH<sup>−</sup> → F<sup>−</sup> + H<sub>2</sub>O, which converts HF into F<sup>−</sup>, not the other way (III false).",
+  "x": [
+   "",
+   "Statement I is false. Dilution changes both concentrations by the same factor, so the ratio [F⁻]/[HF] does not change.",
+   "Statement III is false. A base reacts with the acid part of the buffer, so OH⁻ uses up HF and makes more F⁻.",
+   "Statement III is false. OH⁻ reacts with HF, so it makes F⁻ rather than using it up."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "buffers",
+  "q": "Three buffers are made from the same weak acid HA (pK<sub>a</sub> = 5.00) and its sodium salt NaA:<br>Buffer X: 0.10 M HA and 0.10 M A<sup>−</sup><br>Buffer Y: 1.0 M HA and 1.0 M A<sup>−</sup><br>Buffer Z: 0.50 M HA and 0.050 M A<sup>−</sup><br>Which statements are true?<br>I. Buffer Z has the highest pH.<br>II. Buffers X and Y have the same pH.<br>III. Buffer Y can absorb the most added strong base before its pH changes greatly.",
+  "c": [
+   "II and III only",
+   "II only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "pH depends on the ratio [A<sup>−</sup>]/[HA]. Buffer capacity depends on how much of each component is present.",
+  "w": "<b>II and III only.</b> X and Y both have [A<sup>−</sup>]/[HA] = 1, so both have pH = 5.00 (II true). Y has ten times more HA than X and twice as much as Z, so it can neutralize the most OH<sup>−</sup> (III true). Z has [A<sup>−</sup>]/[HA] = 0.10, so pH = 5.00 − 1 = 4.00, the LOWEST of the three (I false).",
+  "x": [
+   "",
+   "Statement III is true. Added OH⁻ is consumed by HA, and Buffer Y holds the most HA.",
+   "Statement I is false. Buffer Z has much more HA than A⁻, so its pH is below the pKa.",
+   "Statement I is false. In Buffer Z the ratio [A⁻]/[HA] is 0.10, which puts its pH one unit below the pKa."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "buffers",
+  "q": "Each pair is mixed in equal moles in water. Which pairs give a buffer with a pH near 9?<br>I. CH<sub>3</sub>COOH and NaCH<sub>3</sub>COO (K<sub>a</sub> = 1.8×10<sup>−5</sup>)<br>II. HNO<sub>2</sub> and NaNO<sub>2</sub> (K<sub>a</sub> = 4.5×10<sup>−4</sup>)<br>III. HCN and NaCN (K<sub>a</sub> = 6.2×10<sup>−10</sup>)",
+  "c": [
+   "III only",
+   "I only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "With equal moles of acid and conjugate base, pH = pK<sub>a</sub>. Convert each K<sub>a</sub> to pK<sub>a</sub>.",
+  "w": "<b>III only.</b> With equal moles of the pair, pH = pK<sub>a</sub>. pK<sub>a</sub>(HCN) = −log(6.2×10<sup>−10</sup>) = 9.21, so the HCN/CN<sup>−</sup> buffer is near pH 9 (III true). Acetic acid has pK<sub>a</sub> = 4.74 and nitrous acid has pK<sub>a</sub> = 3.35, so those buffers are acidic (I and II false).",
+  "x": [
+   "",
+   "Statement I is false. The pKa of acetic acid is 4.74, so an equal-mole acetate buffer has a pH near 4.7.",
+   "Statement I is false. Convert Ka = 1.8×10⁻⁵ to pKa, and the result is far from 9.",
+   "Statement II is false. HNO₂ has pKa = 3.35, so its buffer is quite acidic."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "buffers",
+  "q": "A solution of aqueous NH<sub>3</sub> is titrated with HCl (pK<sub>a</sub> of NH<sub>4</sub><sup>+</sup> = 9.25). Which statements are true?<br>I. The pH at the equivalence point is below 7.<br>II. At the half-equivalence point, pH = 9.25.<br>III. Phenolphthalein (color change at pH 8.2 to 10) is a good indicator for this titration.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "At the equivalence point, all the NH<sub>3</sub> has become NH<sub>4</sub><sup>+</sup>. At the half-equivalence point, [NH<sub>3</sub>] = [NH<sub>4</sub><sup>+</sup>].",
+  "w": "<b>I and II only.</b> At the equivalence point the solution holds NH<sub>4</sub><sup>+</sup>, a weak acid, so the pH is below 7 (I true). At the half-equivalence point [NH<sub>3</sub>] = [NH<sub>4</sub><sup>+</sup>], so pH = pK<sub>a</sub> of NH<sub>4</sub><sup>+</sup> = 9.25 (II true). Phenolphthalein changes color between pH 8.2 and 10, in the buffer region well before the acidic equivalence point, so it would signal the endpoint far too early (III false).",
+  "x": [
+   "",
+   "Statement II is true. Halfway to equivalence, NH₃ and NH₄⁺ are equal, so the pH equals the pKa of NH₄⁺.",
+   "Statement I is true. At equivalence, all the base has become NH₄⁺, which is a weak acid.",
+   "Statement III is false. The equivalence point is acidic, so an indicator that changes near pH 9 changes much too early."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "buffers",
+  "q": "A 1.00 L buffer contains 0.200 mol CH<sub>3</sub>COOH and 0.200 mol NaCH<sub>3</sub>COO (pK<sub>a</sub> = 4.74). Then 0.050 mol HCl is added (assume no volume change). Which statements are true after the reaction?<br>I. The pH is about 1.30, the same as 0.050 M HCl in pure water.<br>II. The solution contains 0.250 mol CH<sub>3</sub>COO<sup>−</sup>.<br>III. The pH is about 4.52.",
+  "c": [
+   "III only",
+   "II and III only",
+   "I only",
+   "I and II only"
+  ],
+  "h": "Added H<sup>+</sup> reacts completely with the buffer's base. Update the moles of each component, then use Henderson–Hasselbalch.",
+  "w": "<b>III only.</b> The HCl reacts with acetate: CH<sub>3</sub>COO<sup>−</sup> + H<sup>+</sup> → CH<sub>3</sub>COOH, leaving 0.150 mol CH<sub>3</sub>COO<sup>−</sup> and 0.250 mol CH<sub>3</sub>COOH (II false). pH = 4.74 + log(0.150/0.250) = 4.74 − 0.22 = 4.52 (III true). The buffer absorbs the H<sup>+</sup>, so the pH does not fall to 1.30 (I false).",
+  "x": [
+   "",
+   "Statement II is false. Added H⁺ consumes acetate, so the amount of CH₃COO⁻ goes down, not up.",
+   "Statement I is false. The acetate in the buffer reacts with the added H⁺, so the pH does not drop to that of HCl alone.",
+   "Statement II is false. The added H⁺ turns some acetate into acetic acid, so acetate decreases."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "solubility",
+  "q": "Consider three silver salts at 25 °C:<br>I. AgCl, K<sub>sp</sub> = 1.8×10<sup>−10</sup><br>II. Ag<sub>2</sub>CrO<sub>4</sub>, K<sub>sp</sub> = 1.1×10<sup>−12</sup><br>III. AgBr, K<sub>sp</sub> = 5.0×10<sup>−13</sup><br>Which ranks them from LOWEST to HIGHEST molar solubility in pure water?",
+  "c": [
+   "III &lt; I &lt; II",
+   "III &lt; II &lt; I",
+   "II &lt; III &lt; I",
+   "I &lt; III &lt; II"
+  ],
+  "h": "K<sub>sp</sub> values can be compared directly only for salts with the same ion ratio. For Ag<sub>2</sub>CrO<sub>4</sub>, K<sub>sp</sub> = (2s)<sup>2</sup>(s) = 4s<sup>3</sup>.",
+  "w": "<b>III &lt; I &lt; II.</b> For AgBr and AgCl, s = √K<sub>sp</sub>: 7.1×10<sup>−7</sup> M and 1.3×10<sup>−5</sup> M. For Ag<sub>2</sub>CrO<sub>4</sub>, 4s<sup>3</sup> = 1.1×10<sup>−12</sup>, so s = 6.5×10<sup>−5</sup> M, the highest even though its K<sub>sp</sub> is not the largest. Ranking by K<sub>sp</sub> alone gives the wrong order III &lt; II &lt; I.",
+  "x": [
+   "",
+   "This ranks by Ksp value alone. Ag₂CrO₄ makes three ions, so solve 4s³ = Ksp to find its molar solubility.",
+   "Ag₂CrO₄ does not have the lowest solubility. Solve 4s³ = Ksp for it and compare with √Ksp for the 1:1 salts.",
+   "AgCl has a larger Ksp than AgBr and the same 1:1 formula, so AgCl cannot be the least soluble."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "solubility",
+  "q": "Which salts are more soluble in an acidic solution than in pure water?<br>I. Mg(OH)<sub>2</sub><br>II. AgBr<br>III. CaCO<sub>3</sub>",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Acid increases solubility when the salt's anion is a base that H<sup>+</sup> can remove from solution.",
+  "w": "<b>I and III only.</b> H<sup>+</sup> removes OH<sup>−</sup> (forming water), which pulls Mg(OH)<sub>2</sub> dissolution forward (I true). H<sup>+</sup> also reacts with CO<sub>3</sub><sup>2−</sup> (forming HCO<sub>3</sub><sup>−</sup> and then CO<sub>2</sub> and water), so CaCO<sub>3</sub> dissolves more (III true). Br<sup>−</sup> is the conjugate base of a strong acid and does not react with H<sup>+</sup>, so the solubility of AgBr is not affected (II false).",
+  "x": [
+   "",
+   "Statement III is true. Carbonate is a base, and H⁺ turns it into HCO₃⁻ and CO₂, pulling more CaCO₃ into solution.",
+   "Statement II is false. Br⁻ comes from the strong acid HBr, so it does not combine with H⁺.",
+   "Statement II is false. Only salts with basic anions dissolve better in acid, and Br⁻ is not basic."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "solubility",
+  "q": "Solutions are mixed. The concentrations shown are just after mixing, before any precipitate forms. K<sub>sp</sub>: AgCl 1.8×10<sup>−10</sup>, CaSO<sub>4</sub> 4.9×10<sup>−5</sup>, PbI<sub>2</sub> 9.8×10<sup>−9</sup>. In which mixtures does a precipitate form?<br>I. [Ag<sup>+</sup>] = 1.0×10<sup>−4</sup> M and [Cl<sup>−</sup>] = 1.0×10<sup>−4</sup> M<br>II. [Ca<sup>2+</sup>] = 1.0×10<sup>−3</sup> M and [SO<sub>4</sub><sup>2−</sup>] = 1.0×10<sup>−3</sup> M<br>III. [Pb<sup>2+</sup>] = 1.0×10<sup>−3</sup> M and [I<sup>−</sup>] = 1.0×10<sup>−3</sup> M",
+  "c": [
+   "I only",
+   "I and III only",
+   "I and II only",
+   "II and III only"
+  ],
+  "h": "Compute Q for each mixture with the same form as K<sub>sp</sub>, including any exponents. A precipitate forms when Q &gt; K<sub>sp</sub>.",
+  "w": "<b>I only.</b> I: Q = (1.0×10<sup>−4</sup>)<sup>2</sup> = 1.0×10<sup>−8</sup> &gt; 1.8×10<sup>−10</sup>, so AgCl precipitates. II: Q = (1.0×10<sup>−3</sup>)<sup>2</sup> = 1.0×10<sup>−6</sup> &lt; 4.9×10<sup>−5</sup>, so no CaSO<sub>4</sub> forms. III: Q = [Pb<sup>2+</sup>][I<sup>−</sup>]<sup>2</sup> = (1.0×10<sup>−3</sup>)(1.0×10<sup>−3</sup>)<sup>2</sup> = 1.0×10<sup>−9</sup> &lt; 9.8×10<sup>−9</sup>, so no PbI<sub>2</sub> forms.",
+  "x": [
+   "",
+   "Mixture III does not precipitate. In Q for PbI₂ the iodide concentration is squared, which makes Q smaller than Ksp.",
+   "Mixture II does not precipitate. Q for CaSO₄ is 1.0×10⁻⁶, which is below its Ksp.",
+   "Mixture III does not precipitate. The Q expression for PbI₂ uses [I⁻] squared, which keeps Q below its Ksp."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "solubility",
+  "q": "A solution contains 0.010 M Ba<sup>2+</sup> and 0.010 M Ca<sup>2+</sup>. Solid Na<sub>2</sub>SO<sub>4</sub> is added slowly. K<sub>sp</sub>(BaSO<sub>4</sub>) = 1.1×10<sup>−10</sup> and K<sub>sp</sub>(CaSO<sub>4</sub>) = 4.9×10<sup>−5</sup>. Which statements are true?<br>I. BaSO<sub>4</sub> begins to precipitate first.<br>II. BaSO<sub>4</sub> begins to precipitate when [SO<sub>4</sub><sup>2−</sup>] exceeds 1.1×10<sup>−8</sup> M.<br>III. CaSO<sub>4</sub> begins to precipitate when [SO<sub>4</sub><sup>2−</sup>] exceeds 4.9×10<sup>−3</sup> M.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "I only",
+   "II and III only"
+  ],
+  "h": "For each salt, find the [SO<sub>4</sub><sup>2−</sup>] that makes Q = K<sub>sp</sub>: divide K<sub>sp</sub> by the metal ion concentration.",
+  "w": "<b>I, II and III.</b> BaSO<sub>4</sub> starts to form when [SO<sub>4</sub><sup>2−</sup>] = 1.1×10<sup>−10</sup>/0.010 = 1.1×10<sup>−8</sup> M (II true). CaSO<sub>4</sub> starts when [SO<sub>4</sub><sup>2−</sup>] = 4.9×10<sup>−5</sup>/0.010 = 4.9×10<sup>−3</sup> M (III true). Since BaSO<sub>4</sub> needs far less sulfate, it precipitates first (I true), which lets the two ions be separated.",
+  "x": [
+   "",
+   "Statement III is true. Dividing the CaSO₄ Ksp by 0.010 M gives the sulfate level where Q reaches Ksp.",
+   "Statements II and III are true. Divide each Ksp by 0.010 M to find the sulfate level where each salt starts to form.",
+   "Statement I is true. The salt that needs less sulfate to reach its Ksp forms first."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "solubility",
+  "q": "Excess solid CaF<sub>2</sub> is in equilibrium with its saturated solution at constant temperature. Which statements are true?<br>I. Adding more solid CaF<sub>2</sub> increases [Ca<sup>2+</sup>] in the solution.<br>II. Adding NaF(s) decreases [Ca<sup>2+</sup>] in the solution.<br>III. CaF<sub>2</sub> is still dissolving, at the same rate that it precipitates.",
+  "c": [
+   "II and III only",
+   "II only",
+   "I and II only",
+   "I and III only"
+  ],
+  "h": "A saturated solution already holds the maximum dissolved amount. Think about the common-ion effect and about what dynamic equilibrium means.",
+  "w": "<b>II and III only.</b> Adding F<sup>−</sup> from NaF raises Q above K<sub>sp</sub>, so some CaF<sub>2</sub> precipitates and [Ca<sup>2+</sup>] drops (II true). At equilibrium, dissolving and precipitation continue at equal rates (III true). The solution is already saturated, so extra solid simply sits at the bottom and [Ca<sup>2+</sup>] stays the same (I false).",
+  "x": [
+   "",
+   "Statement III is true. Saturation is a dynamic equilibrium, so dissolving and precipitating keep happening at equal rates.",
+   "Statement I is false. A saturated solution cannot hold more dissolved CaF₂, so the extra solid does not change [Ca²⁺].",
+   "Statement I is false. Adding more of the solid to a saturated solution does not raise the ion concentrations."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ }
+]

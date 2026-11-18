@@ -1,0 +1,573 @@
+[
+ {
+  "t": "thermo",
+  "q": "Which statements about entropy and spontaneity are true?<br>I. For every spontaneous process, the entropy of the universe increases.<br>II. A process in which the entropy of the system decreases can never be spontaneous.<br>III. An exothermic process increases the entropy of the surroundings.",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "The second law is about the universe, not just the system. Think about where the heat from an exothermic process goes.",
+  "w": "<b>I and III only.</b> The second law says ΔS<sub>univ</sub> &gt; 0 for any spontaneous process (I true). Heat released by the system flows into the surroundings and raises their entropy, since ΔS<sub>surr</sub> = −ΔH/T (III true). II is false: water freezing below 0 °C has ΔS<sub>sys</sub> &lt; 0 yet is spontaneous, because the entropy gain of the surroundings is larger.",
+  "x": [
+   "",
+   "Statement III is true. Heat released by the system flows into the surroundings and raises their entropy.",
+   "Statement II is false. Water freezes spontaneously below 0 °C even though its entropy decreases.",
+   "Statement II is false. A drop in system entropy can be outweighed by a larger gain in the entropy of the surroundings."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "thermo",
+  "q": "For a certain reaction at 298 K, ΔG° = +15 kJ. Which statements are true?<br>I. The equilibrium constant K is greater than 1.<br>II. When the reaction mixture reaches equilibrium, ΔG° becomes zero.<br>III. If only reactants are mixed at the start, some products will form spontaneously.",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I and II only"
+  ],
+  "h": "Connect ΔG° to K with ΔG° = −RT ln K, and remember that ΔG, not ΔG°, depends on the composition of the mixture.",
+  "w": "<b>III only.</b> Since ΔG° = −RT ln K, a positive ΔG° makes ln K negative, so K &lt; 1 (I false). At equilibrium it is ΔG, not ΔG°, that equals zero; ΔG° is a fixed value for the reaction at a given temperature (II false). With only reactants present, Q = 0, so ΔG = ΔG° + RT ln Q is very negative and the reaction moves forward until Q = K (III true).",
+  "x": [
+   "",
+   "Statement I is false. A positive ΔG° makes ln K negative.",
+   "Statement II is false. ΔG° is a fixed value for the reaction at a given temperature, so it does not become zero at equilibrium.",
+   "Statement I is false. A positive ΔG° means K is less than 1."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "thermo",
+  "q": "Arrange these substances in order of INCREASING standard molar entropy, S°, at 25 °C.<br>I. Br<sub>2</sub>(l)<br>II. Br<sub>2</sub>(g)<br>III. Cl<sub>2</sub>(g)",
+  "c": [
+   "I &lt; III &lt; II",
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III",
+   "III &lt; II &lt; I"
+  ],
+  "h": "Phase matters most: gases have far more entropy than liquids. Among similar gases, heavier molecules have more entropy.",
+  "w": "<b>I &lt; III &lt; II.</b> The liquid, Br<sub>2</sub>(l), has the least freedom of motion, so it is lowest (S° = 152 J mol<sup>−1</sup> K<sup>−1</sup>). Both gases are higher, and the heavier Br<sub>2</sub>(g) (245 J mol<sup>−1</sup> K<sup>−1</sup>) has more entropy than Cl<sub>2</sub>(g) (223 J mol<sup>−1</sup> K<sup>−1</sup>). Ranking by molar mass alone misplaces the liquid, and ranking by phase alone cannot order the two gases.",
+  "x": [
+   "",
+   "Br₂(l) is a liquid, so it should not rank above a gas, even a lighter one.",
+   "The two gases are out of order. The heavier gas has more entropy.",
+   "This puts the liquid highest. A liquid has less entropy than a gas."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "thermo",
+  "q": "For the reaction 2 NO(g) + O<sub>2</sub>(g) → 2 NO<sub>2</sub>(g), ΔH° = −114.1 kJ and ΔS° = −146.5 J K<sup>−1</sup>. Assume both are independent of temperature. Which statements are true?<br>I. The reaction is spontaneous under standard conditions at 298 K.<br>II. Raising the temperature makes ΔG° more negative.<br>III. Raising the temperature decreases the equilibrium constant K.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "h": "Write ΔG° = ΔH° − TΔS° and ask what the −TΔS° term does as T rises when ΔS° is negative.",
+  "w": "<b>I and III only.</b> At 298 K, ΔG° = −114.1 kJ − (298 K)(−0.1465 kJ K<sup>−1</sup>) = −70.4 kJ, so the reaction is spontaneous (I true). Because ΔS° &lt; 0, the −TΔS° term is positive and grows with T, so ΔG° becomes less negative, not more (II false). A less negative ΔG° means a smaller K, as Le Châtelier's principle predicts for heating an exothermic reaction (III true).",
+  "x": [
+   "",
+   "Statement III is true. A less negative ΔG° gives a smaller K, as expected when an exothermic reaction is heated.",
+   "Statement II is false. With ΔS° negative, the −TΔS° term is positive and grows as T rises.",
+   "Statement I is misjudged. At 298 K the large negative ΔH° outweighs the −TΔS° term."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "electro",
+  "q": "A galvanic cell is built from a Zn electrode in 1 M Zn(NO<sub>3</sub>)<sub>2</sub> and a Ag electrode in 1 M AgNO<sub>3</sub>, joined by a wire and a KNO<sub>3</sub> salt bridge. Use the standard reduction potentials in the table. Which statements are true?<br>I. Electrons flow through the wire from the zinc electrode to the silver electrode.<br>II. The mass of the silver electrode decreases as the cell operates.<br>III. NO<sub>3</sub><sup>−</sup> ions from the salt bridge move toward the silver compartment.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "The metal with the more negative reduction potential is oxidized at the anode. Anions in the salt bridge move to balance the positive ions building up in the anode compartment.",
+  "w": "<b>I only.</b> Zn (E° = −0.76 V) is oxidized at the anode and Ag<sup>+</sup> (E° = +0.80 V) is reduced at the cathode, so electrons travel through the wire from Zn to Ag (I true). Silver metal plates out on the cathode, so its mass increases (II false). Zn<sup>2+</sup> ions build up in the anode compartment, so NO<sub>3</sub><sup>−</sup> ions move toward the zinc compartment, not the silver one (III false).",
+  "x": [
+   "",
+   "Statement II is false. Ag⁺ ions are reduced to silver metal, which deposits on the silver electrode.",
+   "Statement III is false. Anions migrate toward the compartment where positive ions are being produced.",
+   "Statement II is false. The silver electrode is where Ag⁺ is reduced, so silver metal is added to it."
+  ],
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Half-reaction",
+     "E° (V)"
+    ],
+    "rows": [
+     [
+      "Ag<sup>+</sup>(aq) + e<sup>−</sup> → Ag(s)",
+      "+0.80"
+     ],
+     [
+      "Zn<sup>2+</sup>(aq) + 2 e<sup>−</sup> → Zn(s)",
+      "−0.76"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "electro",
+  "q": "A redox reaction has a positive standard cell potential, E°<sub>cell</sub> &gt; 0. Which statements must be true?<br>I. ΔG° for the reaction is negative.<br>II. The equilibrium constant K is greater than 1.<br>III. The reaction proceeds rapidly once the reactants are mixed.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Use ΔG° = −nFE° and ΔG° = −RT ln K. Does either equation contain any information about speed?",
+  "w": "<b>I and II only.</b> ΔG° = −nFE°, so a positive E° gives a negative ΔG° (I true). Then ln K = −ΔG°/RT is positive, so K &gt; 1 (II true). E° and ΔG° are thermodynamic quantities that say nothing about rate; a spontaneous reaction can be very slow (III false).",
+  "x": [
+   "",
+   "Statement II is true. A negative ΔG° makes ln K greater than zero.",
+   "Statement III is false. Cell potential tells whether a reaction is favorable, not how fast it goes.",
+   "Statement III is false. Thermodynamic quantities like E° carry no information about reaction rate."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "electro",
+  "q": "The same current passes for the same time through three electrolytic cells connected in series. The cells contain AgNO<sub>3</sub>(aq), CuSO<sub>4</sub>(aq) and AuCl<sub>3</sub>(aq), and each deposits its metal at the cathode. Which statements are true? (Molar masses: Ag 107.9, Cu 63.55, Au 197.0 g mol<sup>−1</sup>)<br>I. The moles of Ag deposited are twice the moles of Cu deposited.<br>II. The mass of Cu deposited is greater than the mass of Ag deposited.<br>III. The moles of Au deposited are one-third the moles of Ag deposited.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "h": "In series, every cell receives the same number of moles of electrons. Count how many electrons each metal ion needs.",
+  "w": "<b>I and III only.</b> Each cell receives the same moles of electrons. Ag<sup>+</sup> needs 1 e<sup>−</sup>, Cu<sup>2+</sup> needs 2 and Au<sup>3+</sup> needs 3, so 6 mol e<sup>−</sup> deposits 6 mol Ag, 3 mol Cu and 2 mol Au. Moles of Ag are twice those of Cu (I true), and moles of Au are one-third those of Ag (III true). By mass, 3 mol Cu is 191 g while 6 mol Ag is 647 g, so less copper is deposited (II false).",
+  "x": [
+   "",
+   "Statement III is true. Au³⁺ needs three electrons for each atom, while Ag⁺ needs only one.",
+   "Statement II is false. Fewer moles of Cu form, and each mole of Cu is lighter than a mole of Ag.",
+   "Statement II is false. Copper forms half as many moles as silver, and copper has the smaller molar mass."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "electro",
+  "q": "A galvanic cell runs on the reaction<br>Ni(s) + 2 Ag<sup>+</sup>(aq) → Ni<sup>2+</sup>(aq) + 2 Ag(s)<br>Which changes would INCREASE the cell voltage?<br>I. Adding solid NaCl to the silver compartment, which precipitates AgCl.<br>II. Diluting the Ni<sup>2+</sup> solution with water.<br>III. Replacing the silver electrode with a larger silver electrode.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "Use the Nernst equation, E = E° − (0.0592 V/n) log Q, and write Q for this reaction. Solids do not appear in Q.",
+  "w": "<b>II only.</b> Q = [Ni<sup>2+</sup>]/[Ag<sup>+</sup>]<sup>2</sup>, and E rises as Q falls. Precipitating AgCl lowers [Ag<sup>+</sup>], which raises Q and lowers E (I false). Diluting the Ni<sup>2+</sup> solution lowers [Ni<sup>2+</sup>], which lowers Q and raises E (II true). The size of a solid electrode does not appear in Q, so it does not change the voltage (III false).",
+  "x": [
+   "",
+   "Statement I is false. Removing Ag⁺, a reactant, raises Q and lowers the voltage.",
+   "Statement III is false. A solid electrode does not appear in Q, so its size does not change E.",
+   "Statement I is false. A lower [Ag⁺] makes Q larger, which reduces the voltage."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "electro",
+  "q": "Use the standard reduction potentials in the table. Which species can oxidize Fe<sup>2+</sup> to Fe<sup>3+</sup> under standard conditions?<br>I. I<sub>2</sub><br>II. Cl<sub>2</sub><br>III. Br<sub>2</sub>",
+  "c": [
+   "II and III only",
+   "II only",
+   "I, II and III",
+   "I and II only"
+  ],
+  "h": "An oxidizing agent can take electrons from Fe<sup>2+</sup> only if its own reduction potential is higher than that of Fe<sup>3+</sup>/Fe<sup>2+</sup>.",
+  "w": "<b>II and III only.</b> For X + Fe<sup>2+</sup> → Fe<sup>3+</sup>, E°<sub>cell</sub> = E°(X) − 0.77 V. Cl<sub>2</sub> gives 1.36 − 0.77 = +0.59 V (II true) and Br<sub>2</sub> gives 1.07 − 0.77 = +0.30 V (III true), so both reactions are spontaneous. I<sub>2</sub> gives 0.54 − 0.77 = −0.23 V, so it cannot oxidize Fe<sup>2+</sup>; in fact Fe<sup>3+</sup> oxidizes I<sup>−</sup> (I false).",
+  "x": [
+   "",
+   "Statement III is misjudged. Br₂ has a higher reduction potential than Fe³⁺, so it can take electrons from Fe²⁺.",
+   "Statement I is false. I₂ has a lower reduction potential than Fe³⁺, so that cell potential would be negative.",
+   "Statement I is false. The reduction potential of I₂ is below that of Fe³⁺."
+  ],
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Half-reaction",
+     "E° (V)"
+    ],
+    "rows": [
+     [
+      "Cl<sub>2</sub>(g) + 2 e<sup>−</sup> → 2 Cl<sup>−</sup>(aq)",
+      "+1.36"
+     ],
+     [
+      "Br<sub>2</sub>(l) + 2 e<sup>−</sup> → 2 Br<sup>−</sup>(aq)",
+      "+1.07"
+     ],
+     [
+      "Fe<sup>3+</sup>(aq) + e<sup>−</sup> → Fe<sup>2+</sup>(aq)",
+      "+0.77"
+     ],
+     [
+      "I<sub>2</sub>(s) + 2 e<sup>−</sup> → 2 I<sup>−</sup>(aq)",
+      "+0.54"
+     ]
+    ]
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "coordination",
+  "q": "Consider the coordination compound [Co(en)<sub>2</sub>Cl<sub>2</sub>]Cl, where en is the neutral bidentate ligand ethylenediamine. Which statements are true?<br>I. The coordination number of cobalt is 6.<br>II. The oxidation state of cobalt is +3.<br>III. One mole of the compound dissolved in water gives 3 moles of ions.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Each en binds through two N atoms. Only the ions outside the square brackets separate from the complex ion in water.",
+  "w": "<b>I and II only.</b> Two bidentate en ligands supply 4 donor atoms and the two Cl<sup>−</sup> ligands supply 2 more, so the coordination number is 6 (I true). With one Cl<sup>−</sup> outside the brackets, the complex ion is [Co(en)<sub>2</sub>Cl<sub>2</sub>]<sup>+</sup>; en is neutral, so Co + 2(−1) = +1 and Co is +3 (II true). In water the compound gives one [Co(en)<sub>2</sub>Cl<sub>2</sub>]<sup>+</sup> and one Cl<sup>−</sup>, only 2 moles of ions (III false).",
+  "x": [
+   "",
+   "Statement II is true. The complex ion has a 1+ charge and holds two Cl⁻ ligands, so cobalt must be +3.",
+   "Statement I is misjudged. Each en ligand binds through two nitrogen atoms, so count donor atoms, not ligands.",
+   "Statement III is false. The Cl⁻ ligands inside the brackets stay bound to cobalt and are not free ions."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "coordination",
+  "q": "Which complexes can exist as geometric (cis and trans) isomers?<br>I. Tetrahedral [Zn(NH<sub>3</sub>)<sub>2</sub>Cl<sub>2</sub>]<br>II. Square planar [Pt(NH<sub>3</sub>)<sub>2</sub>Cl<sub>2</sub>]<br>III. Octahedral [Co(NH<sub>3</sub>)<sub>5</sub>Cl]<sup>2+</sup>",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Cis/trans isomers need two different relationships between like ligands: next to each other or directly across. Check whether each shape allows both.",
+  "w": "<b>II only.</b> In a square planar complex the two Cl<sup>−</sup> ligands can be adjacent (cis) or opposite (trans), so [Pt(NH<sub>3</sub>)<sub>2</sub>Cl<sub>2</sub>] has geometric isomers (II true). In a tetrahedron every corner is adjacent to every other corner, so there is only one arrangement (I false). [Co(NH<sub>3</sub>)<sub>5</sub>Cl]<sup>2+</sup> has only one Cl, and every position for it is equivalent, so it has no cis/trans isomers (III false).",
+  "x": [
+   "",
+   "Statement I is false. In a tetrahedron all four positions are adjacent to one another, so there is no trans arrangement.",
+   "Statement III is false. With only one Cl ligand, every position on the octahedron gives the same complex.",
+   "Statement I is false. A tetrahedral complex with two pairs of like ligands has only one arrangement."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "coordination",
+  "q": "Which statements about octahedral transition-metal complexes are true?<br>I. Replacing H<sub>2</sub>O ligands with CN<sup>−</sup> ligands decreases the crystal-field splitting energy, Δ<sub>o</sub>.<br>II. A d<sup>3</sup> metal ion has the same number of unpaired electrons whether its complex is high-spin or low-spin.<br>III. A complex with a larger Δ<sub>o</sub> absorbs light of longer wavelength.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I and III only"
+  ],
+  "h": "Recall the spectrochemical series, fill the t<sub>2g</sub> orbitals first, and connect Δ<sub>o</sub> to photon energy with E = hc/λ.",
+  "w": "<b>II only.</b> CN<sup>−</sup> is a strong-field ligand, high in the spectrochemical series, so it increases Δ<sub>o</sub> (I false). In a d<sup>3</sup> ion the three electrons go one each into the three t<sub>2g</sub> orbitals whether Δ<sub>o</sub> is large or small, so there are always 3 unpaired electrons (II true). A larger Δ<sub>o</sub> needs a higher-energy photon, which has a shorter wavelength (III false).",
+  "x": [
+   "",
+   "Statement I is false. CN⁻ is a strong field ligand that makes the splitting larger than H₂O does.",
+   "Statement III is false. A larger energy gap absorbs higher energy light, which has a shorter wavelength.",
+   "Statement I is false. CN⁻ sits above H₂O in the spectrochemical series."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "coordination",
+  "q": "Arrange these octahedral complex ions in order of INCREASING number of unpaired electrons.<br>I. [Co(NH<sub>3</sub>)<sub>6</sub>]<sup>3+</sup> (low-spin)<br>II. [Mn(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> (high-spin)<br>III. [Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>",
+  "c": [
+   "I &lt; III &lt; II",
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III",
+   "II &lt; III &lt; I"
+  ],
+  "h": "Find each metal's oxidation state and d-electron count first, then fill t<sub>2g</sub> and e<sub>g</sub> as the spin label tells you.",
+  "w": "<b>I &lt; III &lt; II.</b> Co<sup>3+</sup> is d<sup>6</sup>; low-spin puts all six electrons in the t<sub>2g</sub> set, so 0 are unpaired. Ni<sup>2+</sup> is d<sup>8</sup>, t<sub>2g</sub><sup>6</sup>e<sub>g</sub><sup>2</sup>, so 2 are unpaired in either spin state. Mn<sup>2+</sup> is d<sup>5</sup>; high-spin puts one electron in each of the five d orbitals, so 5 are unpaired.",
+  "x": [
+   "",
+   "Recount the low spin d⁶ ion. With all six electrons in the lower t₂g set, how many are unpaired?",
+   "The Ni²⁺ complex is misplaced. A d⁸ ion has a filled t₂g set, so count only its eg electrons.",
+   "This order is reversed. A high spin d⁵ ion has one electron in every d orbital."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "nuclear",
+  "q": "Which statements about beta (β<sup>−</sup>) decay are true?<br>I. It increases the atomic number of the nucleus by 1.<br>II. It decreases the mass number of the nucleus by 1.<br>III. It is the usual decay mode for nuclides that have too few neutrons for stability.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Write β<sup>−</sup> decay as a neutron changing into a proton plus an electron, and track what happens to Z, A and the neutron-to-proton ratio.",
+  "w": "<b>I only.</b> In β<sup>−</sup> decay a neutron becomes a proton and an electron is emitted, so Z rises by 1 (I true). The total number of nucleons does not change, so the mass number stays the same (II false). Turning a neutron into a proton lowers the n/p ratio, which helps nuclides with too MANY neutrons; nuclides with too few neutrons undergo positron emission or electron capture instead (III false).",
+  "x": [
+   "",
+   "Statement II is false. A neutron turns into a proton, so the total number of nucleons stays the same.",
+   "Statement III is false. Beta decay lowers the neutron to proton ratio, which helps nuclides with too many neutrons.",
+   "Statement II is false. The emitted electron is not a nucleon, so the mass number does not change."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "nuclear",
+  "q": "A radioactive isotope has a half-life of 6.0 h. Which statements are true?<br>I. After 18 h, one-eighth of the original radioactive nuclei remain.<br>II. Heating the sample would shorten its half-life.<br>III. The activity of the sample is proportional to the number of radioactive nuclei present.",
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "Radioactive decay is first order. Ask whether a nuclear process depends on temperature the way chemical reactions do.",
+  "w": "<b>I and III only.</b> 18 h is three half-lives, so (1/2)<sup>3</sup> = 1/8 of the nuclei remain (I true). Nuclear decay rates are essentially unaffected by temperature, pressure or chemical form, so heating does not change the half-life (II false). Decay is first order, so the activity, kN, is proportional to the number of radioactive nuclei N (III true).",
+  "x": [
+   "",
+   "Statement III is true. Decay is first order, so the rate depends directly on how many radioactive nuclei are left.",
+   "Statement I is true. 18 h is three half-lives.",
+   "Statement II is false. Nuclear decay rates do not depend on temperature."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "nuclear",
+  "q": "Which statements about nuclear fission and fusion are true?<br>I. Both the fission of uranium-235 and the fusion of hydrogen nuclei release energy because the products have a higher binding energy per nucleon than the reactants.<br>II. Fusion requires extremely high temperatures so that nuclei can overcome their electrostatic repulsion.<br>III. In both processes, the total mass of the products equals the total mass of the reactants.",
+  "c": [
+   "I and II only",
+   "II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Picture the curve of binding energy per nucleon, which peaks near iron, and recall E = mc<sup>2</sup>.",
+  "w": "<b>I and II only.</b> Binding energy per nucleon peaks near iron-56, so splitting a heavy nucleus or joining light nuclei both give more tightly bound products and release energy (I true). Positively charged nuclei repel strongly, so fusion needs temperatures of millions of kelvins (II true). The energy released comes from a loss of mass, ΔE = Δmc<sup>2</sup>, so the products have less mass than the reactants (III false).",
+  "x": [
+   "",
+   "Statement I is true. Both processes move nuclei toward the peak of the binding energy curve near iron.",
+   "Statement III is false. The energy released comes from a measurable loss of mass.",
+   "Statement III is false. Nuclear reactions convert some mass into energy, so the products have less mass."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "nuclear",
+  "q": "Which nuclear equations are balanced in both mass number and atomic number?<br>I. <sup>18</sup><sub>9</sub>F → <sup>18</sup><sub>10</sub>Ne + <sup>0</sup><sub>+1</sub>e<br>II. <sup>238</sup><sub>92</sub>U → <sup>234</sup><sub>90</sub>Th + <sup>4</sup><sub>2</sub>He<br>III. <sup>14</sup><sub>6</sub>C → <sup>14</sup><sub>7</sub>N + <sup>0</sup><sub>−1</sub>e",
+  "c": [
+   "II and III only",
+   "II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Add the mass numbers (top) and the atomic numbers (bottom) on each side. Both sums must match.",
+  "w": "<b>II and III only.</b> In II, 238 = 234 + 4 and 92 = 90 + 2 (balanced). In III, 14 = 14 + 0 and 6 = 7 + (−1) (balanced). In I the mass numbers match, but the atomic numbers do not: 9 ≠ 10 + 1. Positron emission lowers Z by 1, so fluorine-18 actually gives <sup>18</sup><sub>8</sub>O (I false).",
+  "x": [
+   "",
+   "Statement III is balanced. Check the atomic numbers: 7 plus (−1) gives 6.",
+   "Statement I is unbalanced. The atomic numbers on the right add to 11, not 9.",
+   "Statement I is unbalanced. Positron emission lowers the atomic number, it does not raise it."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "These compounds have similar molar masses. Arrange them in order of INCREASING normal boiling point.<br>I. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH (1-propanol, 60 g mol<sup>−1</sup>)<br>II. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> (butane, 58 g mol<sup>−1</sup>)<br>III. CH<sub>3</sub>CH<sub>2</sub>CHO (propanal, 58 g mol<sup>−1</sup>)",
+  "c": [
+   "II &lt; III &lt; I",
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III",
+   "I &lt; III &lt; II"
+  ],
+  "h": "When molar masses are about equal, dispersion forces are similar, so compare the other kinds of intermolecular force each molecule can use.",
+  "w": "<b>II &lt; III &lt; I.</b> With nearly equal molar masses, the dispersion forces are similar, so the other forces decide. Butane is nonpolar and has only dispersion forces (bp about −1 °C). Propanal has a polar C=O group, which adds dipole–dipole forces (bp about 48 °C). 1-Propanol has an O–H group and forms hydrogen bonds, the strongest of the three (bp about 97 °C).",
+  "x": [
+   "",
+   "Propanal is polar because of its C=O group, so it should not be below nonpolar butane.",
+   "Propanal has no H on oxygen, so it cannot hydrogen bond with itself and should not rank above the alcohol.",
+   "This order is reversed. Hydrogen bonding raises the boiling point, it does not lower it."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Which pure substances have hydrogen bonding between their own molecules?<br>I. CH<sub>3</sub>OCH<sub>3</sub> (dimethyl ether)<br>II. CH<sub>3</sub>NH<sub>2</sub> (methylamine)<br>III. HF",
+  "c": [
+   "II and III only",
+   "III only",
+   "I, II and III",
+   "I and III only"
+  ],
+  "h": "Look for an H atom bonded directly to N, O or F in each molecule.",
+  "w": "<b>II and III only.</b> Hydrogen bonding between like molecules needs an H bonded directly to N, O or F. Methylamine has N–H bonds (II true) and HF has an H–F bond (III true). In dimethyl ether every H is bonded to carbon; its O can accept a hydrogen bond from water, but pure ether molecules cannot hydrogen-bond to one another (I false).",
+  "x": [
+   "",
+   "Statement II is true. Methylamine has H atoms bonded directly to nitrogen.",
+   "Statement I is false. In dimethyl ether every hydrogen is bonded to carbon.",
+   "Statement I is false. Having an oxygen atom is not enough if no hydrogen is bonded to it."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Water (H<sub>2</sub>O, 18 g mol<sup>−1</sup>) boils at 100 °C, but hydrogen sulfide (H<sub>2</sub>S, 34 g mol<sup>−1</sup>) boils at −60 °C. Which statements help explain this difference?<br>I. Water molecules form hydrogen bonds with one another, but H<sub>2</sub>S molecules do not form significant hydrogen bonds.<br>II. Water molecules have more electrons, so they have stronger dispersion forces.<br>III. Boiling water breaks O–H covalent bonds, which are stronger than S–H bonds.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Count the electrons in each molecule, and remember what boiling does and does not break.",
+  "w": "<b>I only.</b> O is small and very electronegative, so water forms strong hydrogen bonds; S is less electronegative, and H<sub>2</sub>S does not hydrogen-bond significantly (I true). H<sub>2</sub>S has 18 electrons and water only 10, so H<sub>2</sub>S actually has the stronger dispersion forces (II false). Boiling separates whole molecules; it does not break the covalent bonds inside them (III false).",
+  "x": [
+   "",
+   "Statement II is false. H₂S has more electrons than H₂O, so its dispersion forces are stronger.",
+   "Statement III is false. Boiling separates whole molecules and leaves covalent bonds intact.",
+   "Statement II is false. Water has fewer electrons than H₂S."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "imf",
+  "q": "Which statements about water are true?<br>I. Ice is less dense than liquid water because hydrogen bonds hold the molecules in an open hexagonal network.<br>II. Liquid water has its greatest density at about 4 °C.<br>III. Water's unusually high specific heat comes partly from the energy needed to disrupt hydrogen bonds as it warms.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "I and III only",
+   "II only"
+  ],
+  "h": "Hydrogen bonding explains several of water's unusual properties. Judge each statement on its own.",
+  "w": "<b>I, II and III.</b> In ice each molecule hydrogen-bonds to four neighbors in an open hexagonal network, so ice is less dense than the liquid and floats (I true). When ice melts the network partly collapses, and liquid water keeps getting denser as it warms from 0 °C to about 4 °C, then expands like a normal liquid (II true). Some of the heat added to water goes into breaking hydrogen bonds rather than raising the molecules' kinetic energy, which gives water its high specific heat (III true).",
+  "x": [
+   "",
+   "Statement III is true. Some of the heat added to water goes into breaking hydrogen bonds instead of raising the temperature.",
+   "Statement II is true. Liquid water is densest near 4 °C.",
+   "Statement I is true. The open hydrogen bonded network in ice takes up more space than the liquid does."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "Assume ideal behavior. Which aqueous solutions have a LOWER freezing point than 0.20 m glucose?<br>I. 0.10 m KBr<br>II. 0.10 m CaCl<sub>2</sub><br>III. 0.25 m sucrose",
+  "c": [
+   "II and III only",
+   "II only",
+   "I, II and III",
+   "I and II only"
+  ],
+  "h": "Multiply each molality by the number of particles the solute forms (i). The more particles, the lower the freezing point.",
+  "w": "<b>II and III only.</b> ΔT<sub>f</sub> = iK<sub>f</sub>m, so compare particle concentrations; glucose gives 0.20 m particles. KBr gives 2 × 0.10 = 0.20 m, the same, so its freezing point is the same, not lower (I false). CaCl<sub>2</sub> gives 3 × 0.10 = 0.30 m (II true), and sucrose, a nonelectrolyte, gives 0.25 m (III true).",
+  "x": [
+   "",
+   "Statement III is misjudged. Sucrose does not ionize, but 0.25 m is still more particles than 0.20 m.",
+   "Statement I is false. KBr gives two ions, so 0.10 m KBr has the same particle concentration as 0.20 m glucose.",
+   "Statement I is false. 0.10 m KBr has the same total particle concentration as the glucose solution."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "A student finds the molar mass of an unknown solute from the freezing-point depression of its solution, assuming the solute is a nonelectrolyte. Which errors would make the calculated molar mass too LOW?<br>I. Some of the weighed solute stays undissolved at the bottom of the flask.<br>II. The thermometer reads the solution's freezing point too high (too close to that of the pure solvent).<br>III. The solute actually dissociates partly into ions.",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "Write molar mass = grams/moles and find moles from ΔT<sub>f</sub>. Decide whether each error makes the measured ΔT<sub>f</sub> larger or smaller than it should be.",
+  "w": "<b>III only.</b> The student uses molar mass = (mass of solute)/(moles), with moles = (ΔT<sub>f</sub>/K<sub>f</sub>) × (kg solvent). An error that makes ΔT<sub>f</sub> too large makes the moles too large and the molar mass too low. Partial dissociation gives more particles than assumed, so ΔT<sub>f</sub> is larger and the result is too low (III true). Undissolved solute puts fewer particles in solution while its mass is still counted, so ΔT<sub>f</sub> is too small and the result is too high (I false). A freezing point read too high also makes ΔT<sub>f</sub> too small and the result too high (II false).",
+  "x": [
+   "",
+   "Statement I is false. Undissolved solute makes the freezing point drop too small, so the moles found are too few.",
+   "Statement II is false. A freezing point read too high makes the measured depression too small.",
+   "Statement I is false. Solute that never dissolves still counts in the mass but not in the depression, which pushes the result up."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "Which statements about osmotic pressure are true? (Assume ideal behavior.)<br>I. At the same temperature, 0.30 M glucose and 0.15 M NaCl have about the same osmotic pressure.<br>II. In reverse osmosis, fresh water is obtained from seawater by applying a pressure greater than the seawater's osmotic pressure.<br>III. Osmotic pressure is often used instead of freezing-point depression to find the molar mass of a protein, because it gives a measurable effect at very low concentrations.",
+  "c": [
+   "I, II and III",
+   "I and III only",
+   "II and III only",
+   "I and II only"
+  ],
+  "h": "Use Π = iMRT for each statement, and compare how large Π and ΔT<sub>f</sub> are for a very dilute solution.",
+  "w": "<b>I, II and III.</b> Π = iMRT: glucose gives 1 × 0.30 = 0.30 M particles and NaCl gives 2 × 0.15 = 0.30 M, so the osmotic pressures match (I true). Pushing on the seawater with more than its osmotic pressure forces water through the membrane in the reverse direction, leaving the salts behind (II true). A dilute protein solution may lower the freezing point by less than 0.001 °C, yet its osmotic pressure is several torr, which is easy to measure (III true).",
+  "x": [
+   "",
+   "Statement II is true. Pushing on the seawater with more than its osmotic pressure reverses the flow of water.",
+   "Statement I is true. Count the particles, since NaCl gives two ions per formula unit.",
+   "Statement III is true. For dilute solutions of large molecules, osmotic pressure is much easier to measure than a tiny freezing point change."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "colligative",
+  "q": "Benzene and toluene form a nearly ideal solution. At 25 °C the vapor pressure of pure benzene is 95 torr and that of pure toluene is 28 torr. For a liquid mixture with equal moles of the two, which statements are true?<br>I. The total vapor pressure above the mixture is 123 torr.<br>II. The vapor has the same composition as the liquid, 50 mol % benzene.<br>III. The vapor is richer in benzene than the liquid is.",
+  "c": [
+   "III only",
+   "I and III only",
+   "II only",
+   "I and II only"
+  ],
+  "h": "Each component contributes its mole fraction times its pure vapor pressure. Then compare each partial pressure with the total.",
+  "w": "<b>III only.</b> By Raoult's law, P<sub>benzene</sub> = 0.50 × 95 = 47.5 torr and P<sub>toluene</sub> = 0.50 × 28 = 14 torr, so P<sub>total</sub> = 61.5 torr, not 123 torr (I false). The mole fraction of benzene in the vapor is 47.5/61.5 = 0.77, so the vapor is not 50% benzene (II false); it is richer in benzene, the more volatile component (III true).",
+  "x": [
+   "",
+   "Statement I is false. Each pure vapor pressure must be multiplied by that component's mole fraction before adding.",
+   "Statement II is false. The more volatile component makes up a larger share of the vapor.",
+   "Statement I is false. Raoult's law scales each pure vapor pressure by its mole fraction, 0.50 here."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ }
+]

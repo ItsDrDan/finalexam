@@ -1,0 +1,527 @@
+[
+ {
+  "t": "measure",
+  "q": "Which statements about exact numbers and significant figures are true?<br>I. The measurement 0.00450 g has five significant figures.<br>II. A count of 32 students in a classroom is an exact number.<br>III. The relation 1 in = 2.54 cm is exact, so it does not limit the significant figures in a conversion.",
+  "c": [
+   "II and III only",
+   "III only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "Leading zeros only locate the decimal point. Counted numbers and defined relations are exact.",
+  "w": "Statement I is false: leading zeros are not significant, so 0.00450 g has three significant figures (4, 5 and the trailing 0). Statement II is true because a count of objects has no uncertainty. Statement III is true because the inch is defined as exactly 2.54 cm. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement II was judged false. Counting whole objects such as students gives an exact number with no uncertainty.",
+   "Statement I was judged true. Leading zeros only place the decimal point, so they are not significant.",
+   "Statement I was judged true. Count only the digits from the first nonzero digit onward."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "measure",
+  "q": "A piece of copper is cut in half. Which properties are intensive (the same for each half as for the whole piece)?<br>I. Temperature<br>II. Volume<br>III. Heat released when the piece cools by 10 °C",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "An intensive property does not depend on how much of the sample you have.",
+  "w": "Temperature does not change when the piece is divided, so I is intensive. Volume (II) is halved, and the heat released on cooling by 10 °C (III) is also halved because q = mcΔT depends on mass. Both are extensive, so the answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II was judged intensive, but each half has half the volume of the whole piece.",
+   "Statement III was judged intensive, but q = mcΔT, so half the mass releases half the heat.",
+   "Statement I was judged extensive, but each half has the same temperature as the whole piece."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "measure",
+  "q": "A metal cube is 2.00 cm on each edge and has a mass of 21.6 g. Which statements are true?<br>I. The density of the metal is 2.70 g cm<sup>−3</sup>.<br>II. The cube sinks in water (density 1.00 g cm<sup>−3</sup>).<br>III. A 5.40 g piece of the same metal has a volume of 0.500 cm<sup>3</sup>.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Find the cube's volume from its edge length first, then use d = m/V for every statement.",
+  "w": "The volume is (2.00 cm)<sup>3</sup> = 8.00 cm<sup>3</sup>, so d = 21.6 g ÷ 8.00 cm<sup>3</sup> = 2.70 g cm<sup>−3</sup> (I true). The metal is denser than water, so the cube sinks (II true). A 5.40 g piece has V = 5.40 g ÷ 2.70 g cm<sup>−3</sup> = 2.00 cm<sup>3</sup>, not 0.500 cm<sup>3</sup> (III false: 0.500 comes from dividing density by mass). The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II was judged false. An object denser than water sinks in it.",
+   "Statement I was judged false. The volume of a cube is the edge length cubed, 8.00 cm³ here.",
+   "Statement III was judged true. Volume is mass divided by density, not density divided by mass."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "measure",
+  "q": "Rank these temperatures from lowest to highest.<br>I. 300 K<br>II. 25 °C<br>III. 80 °F",
+  "c": [
+   "II &lt; III &lt; I",
+   "III &lt; II &lt; I",
+   "I &lt; II &lt; III",
+   "II &lt; I &lt; III"
+  ],
+  "h": "Convert all three to the same scale. K = °C + 273.15 and °C = (°F − 32) × 5/9.",
+  "w": "25 °C = 298.15 K. 80 °F = (80 − 32) × 5/9 = 26.7 °C = 299.8 K. 300 K is 26.85 °C, the warmest of the three. So the order is <b>II &lt; III &lt; I</b>. Comparing the raw numbers without converting gives the wrong order.",
+  "x": [
+   "",
+   "80 °F is 26.7 °C, which is warmer than 25 °C.",
+   "The numbers cannot be compared until they are on the same scale. Convert each one to kelvins.",
+   "300 K is 26.85 °C, which is slightly warmer than 80 °F (26.7 °C)."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "atoms",
+  "q": "Which statements correctly describe what early experiments showed about atoms?<br>I. Thomson's cathode-ray experiments showed that atoms contain small, negatively charged particles (electrons).<br>II. Rutherford's gold-foil experiment showed that an atom's positive charge and most of its mass are in a tiny nucleus.<br>III. Millikan's oil-drop experiment showed that electrons move in orbits of fixed energy.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Match each scientist to what the experiment measured. One of them measured a charge, not an energy.",
+  "w": "I is true: cathode rays are streams of electrons, negative particles present in all atoms. II is true: the rare large-angle deflections showed a small, dense, positive nucleus. III is false: Millikan measured the charge of the electron. Fixed electron energy levels came from Bohr's model of hydrogen. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II was judged false. The few alpha particles that bounced back showed a tiny, dense, positive nucleus.",
+   "Statement I was judged false. Thomson showed that cathode rays are negative particles present in all atoms.",
+   "Statement III was judged true. Millikan measured the charge on the electron, and fixed energy levels came from Bohr's model."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "atoms",
+  "q": "Which species are isoelectronic with a neon atom (have 10 electrons)?<br>I. O<sup>2−</sup><br>II. K<sup>+</sup><br>III. Al<sup>3+</sup>",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Count electrons as the atomic number minus the charge.",
+  "w": "O<sup>2−</sup> has 8 + 2 = 10 electrons and Al<sup>3+</sup> has 13 − 3 = 10 electrons, so I and III are isoelectronic with Ne. K<sup>+</sup> has 19 − 1 = 18 electrons, like argon. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III was judged false. Al has 13 electrons, and Al³⁺ has lost 3 of them.",
+   "Statement I was judged false. O has 8 electrons, and O²⁻ has gained 2 more.",
+   "Statement II was judged true. K has 19 electrons, so K⁺ has 18, the same as argon."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "atoms",
+  "q": "Chlorine has two naturally occurring isotopes, <sup>35</sup>Cl and <sup>37</sup>Cl, and its average atomic mass is 35.45 u. Which statements are true?<br>I. The two isotopes have the same number of neutrons.<br>II. Neutral atoms of both isotopes have 17 electrons.<br>III. <sup>37</sup>Cl is more abundant in nature than <sup>35</sup>Cl.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "III only"
+  ],
+  "h": "Isotopes share an atomic number. The average atomic mass lies closer to the mass of the more abundant isotope.",
+  "w": "I is false: <sup>35</sup>Cl has 18 neutrons and <sup>37</sup>Cl has 20. II is true: both have 17 protons, so their neutral atoms have 17 electrons. III is false: 35.45 u is much closer to 35 than to 37, so <sup>35</sup>Cl is more abundant (about 76%). The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Statement I was judged true. Neutrons equal the mass number minus 17, so the two isotopes differ in neutron count.",
+   "Statement III was judged true. The average mass, 35.45 u, sits much closer to 35 than to 37.",
+   "Statement II was judged false. Both isotopes are chlorine with 17 protons, so neutral atoms have 17 electrons."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "atoms",
+  "q": "Which formula–name pairs are correct?<br>I. Cu<sub>2</sub>O, copper(II) oxide<br>II. FeCl<sub>3</sub>, iron(III) chloride<br>III. Na<sub>2</sub>SO<sub>3</sub>, sodium sulfate",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Work out the metal's charge from the anion's charge, and recall that the −ite and −ate anions differ by one oxygen.",
+  "w": "I is wrong: in Cu<sub>2</sub>O, two Cu ions balance one O<sup>2−</sup>, so each copper is +1 and the name is copper(I) oxide. II is right: three Cl<sup>−</sup> ions require Fe<sup>3+</sup>. III is wrong: SO<sub>3</sub><sup>2−</sup> is sulfite, so Na<sub>2</sub>SO<sub>3</sub> is sodium sulfite (sulfate is SO<sub>4</sub><sup>2−</sup>). The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Pair I was judged correct. Two Cu ions balance one O²⁻, so each copper is +1, not +2.",
+   "Pair III was judged correct. SO₃²⁻ is sulfite, the ion with one fewer oxygen than sulfate.",
+   "Pair I was judged correct. In Cu₂O each copper must be +1 to balance a single O²⁻."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "composition",
+  "q": "Consider a 1.00 mol sample of H<sub>2</sub>O and a 1.00 mol sample of CO<sub>2</sub>. Which statements are true?<br>I. The two samples contain the same number of molecules.<br>II. The two samples have the same mass.<br>III. The two samples contain the same number of oxygen atoms.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "A mole is a fixed number of particles, but each kind of molecule has its own molar mass and its own atom count.",
+  "w": "I is true: each sample has 6.022 × 10<sup>23</sup> molecules. II is false: 1.00 mol H<sub>2</sub>O is 18.0 g but 1.00 mol CO<sub>2</sub> is 44.0 g. III is false: each CO<sub>2</sub> has two O atoms, so the CO<sub>2</sub> sample holds 2.00 mol O and the H<sub>2</sub>O sample holds 1.00 mol O. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II was judged true. Equal moles have equal mass only when the molar masses match, and 18.0 g/mol differs from 44.0 g/mol.",
+   "Statement III was judged true. Each CO₂ molecule carries two O atoms but each H₂O carries only one.",
+   "Statement I was judged false. One mole of any substance contains 6.022 × 10²³ particles."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "composition",
+  "q": "Rank these compounds by mass percent of nitrogen, from lowest to highest.<br>I. N<sub>2</sub>O<br>II. NH<sub>3</sub><br>III. NH<sub>4</sub>NO<sub>3</sub>",
+  "c": [
+   "III &lt; I &lt; II",
+   "I &lt; III &lt; II",
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III"
+  ],
+  "h": "Mass percent N = (mass of N in one formula unit ÷ molar mass) × 100%.",
+  "w": "NH<sub>4</sub>NO<sub>3</sub>: 28.01/80.04 = 35.0% N. N<sub>2</sub>O: 28.01/44.01 = 63.6% N. NH<sub>3</sub>: 14.01/17.03 = 82.2% N. The order is <b>III &lt; I &lt; II</b>. Counting N atoms alone misleads: NH<sub>4</sub>NO<sub>3</sub> has two N atoms but a large molar mass.",
+  "x": [
+   "",
+   "N₂O is 63.6% N, which is more than NH₄NO₃ at 35.0% N.",
+   "NH₃ has only one N atom, but its small molar mass makes its mass percent of N the largest of the three.",
+   "Ranking by the number of N atoms ignores molar mass. Compute each percent."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "composition",
+  "q": "A compound has the empirical formula CH<sub>2</sub>O and a molar mass of 180.2 g mol<sup>−1</sup>. Which statements are true?<br>I. Its molecular formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>.<br>II. Its mass percent of carbon equals that of formaldehyde, CH<sub>2</sub>O.<br>III. Hydrogen makes up a larger mass percent of the compound than oxygen does, because there are more H atoms than O atoms.",
+  "c": [
+   "I and II only",
+   "I only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Divide the molar mass by the empirical-formula mass. Mass percent depends on mass, not on atom count.",
+  "w": "CH<sub>2</sub>O has a formula mass of 30.03 g mol<sup>−1</sup>, and 180.2/30.03 = 6, so the formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (I true). A molecular formula is a whole-number multiple of the empirical formula, so its percent composition is identical: 40.0% C (II true). III is false: H is only 6.7% by mass and O is 53.3%, because each O atom (16.00 u) is much heavier than an H atom (1.008 u). The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II was judged false. Multiplying every subscript by the same number leaves the percent composition unchanged.",
+   "Statement III was judged true. Each O atom is about 16 times heavier than an H atom, so O makes up more of the mass.",
+   "Statement I was judged false. 180.2 divided by 30.03 is 6, so multiply each subscript by 6."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "composition",
+  "q": "A student prepares 250.0 mL of 0.200 M Na<sub>2</sub>SO<sub>4</sub>(aq). Which statements are true?<br>I. The solution contains 0.0500 mol Na<sub>2</sub>SO<sub>4</sub>.<br>II. The concentration of Na<sup>+</sup> ions is 0.200 M.<br>III. Diluting the solution with water to 500.0 mL gives 0.100 M Na<sub>2</sub>SO<sub>4</sub>.",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Moles = molarity × volume in liters. Each formula unit of Na<sub>2</sub>SO<sub>4</sub> releases two Na<sup>+</sup> ions.",
+  "w": "I: 0.2500 L × 0.200 mol L<sup>−1</sup> = 0.0500 mol (true). II is false: each Na<sub>2</sub>SO<sub>4</sub> gives 2 Na<sup>+</sup>, so [Na<sup>+</sup>] = 0.400 M. III: M<sub>1</sub>V<sub>1</sub> = M<sub>2</sub>V<sub>2</sub> gives (0.200 M)(250.0 mL)/(500.0 mL) = 0.100 M (true). The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III was judged false. Doubling the volume with water halves the concentration.",
+   "Statement I was judged false. Moles equal molarity times volume in liters, 0.2500 L here.",
+   "Statement II was judged true. Each Na₂SO₄ releases two Na⁺ ions, so [Na⁺] is twice the salt concentration."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "reactions",
+  "q": "Which substances are strong electrolytes when dissolved in water?<br>I. HNO<sub>3</sub><br>II. NH<sub>3</sub><br>III. CH<sub>3</sub>COOH (acetic acid)",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "A strong electrolyte breaks apart completely into ions. Only a few acids, the strong acids, do this.",
+  "w": "HNO<sub>3</sub> is a strong acid that ionizes completely (I true). NH<sub>3</sub> is a weak base and acetic acid is a weak acid. Each forms only a few ions, so II and III are weak electrolytes. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II was judged strong. NH₃ is a weak base that makes only a few ions in water.",
+   "Statement III was judged strong. Acetic acid is a weak acid, mostly present as whole molecules in water.",
+   "Statement III was judged strong. Acetic acid ionizes only slightly, so its solution conducts weakly."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "reactions",
+  "q": "For the reaction Mg(s) + 2 Ag<sup>+</sup>(aq) → Mg<sup>2+</sup>(aq) + 2 Ag(s), which statements are true?<br>I. Mg is oxidized.<br>II. Ag<sup>+</sup> is the reducing agent.<br>III. Two electrons are transferred in the equation as written.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "h": "Track oxidation numbers. The species that is reduced is the oxidizing agent.",
+  "w": "Mg goes from 0 to +2, so it is oxidized (I true) and loses 2 electrons. Each Ag<sup>+</sup> gains one electron, so the two Ag<sup>+</sup> ions gain the 2 electrons that Mg lost (III true). Ag<sup>+</sup> is reduced, which makes it the oxidizing agent, not the reducing agent (II false). The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III was judged false. One Mg atom loses 2 electrons, and the two Ag⁺ ions gain them.",
+   "Statement II was judged true. Ag⁺ gains electrons, so it is reduced and acts as the oxidizing agent.",
+   "Statement I was judged false. Mg goes from 0 to +2, so it loses electrons."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "reactions",
+  "q": "In which species does sulfur have an oxidation number of +6?<br>I. SO<sub>2</sub><br>II. Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub><br>III. SO<sub>3</sub>",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "II only"
+  ],
+  "h": "Give O −2 and Na +1, then solve for sulfur so the charges sum to zero.",
+  "w": "SO<sub>2</sub>: S + 2(−2) = 0, so S = +4. Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>: 2(+1) + 2S + 3(−2) = 0, so each S = +2. SO<sub>3</sub>: S + 3(−2) = 0, so S = +6. The answer is <b>III only</b>.",
+  "x": [
+   "",
+   "Statement I was judged +6. Two O atoms at −2 each give −4, so S in SO₂ is +4.",
+   "Statement II was judged +6. Two S atoms share the charge, so solve 2(+1) + 2x + 3(−2) = 0.",
+   "Statement III was judged not +6. In SO₃, three O atoms at −2 give −6, which S must balance."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "reactions",
+  "q": "Which reactions are oxidation–reduction (redox) reactions?<br>I. HCl(aq) + NaOH(aq) → NaCl(aq) + H<sub>2</sub>O(l)<br>II. CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g)<br>III. Zn(s) + 2 HCl(aq) → ZnCl<sub>2</sub>(aq) + H<sub>2</sub>(g)",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "Assign oxidation numbers to every element on both sides. In a redox reaction at least one element's oxidation number changes.",
+  "w": "In I (neutralization) and II (decomposition of a carbonate), every element keeps its oxidation number (H +1, Cl −1, Na +1, O −2, Ca +2, C +4). In III, Zn goes from 0 to +2 and H goes from +1 to 0, so III is a redox reaction. The answer is <b>III only</b>.",
+  "x": [
+   "",
+   "Statement I was judged redox. In a neutralization, H, O, Na and Cl all keep their oxidation numbers.",
+   "Statement II was judged redox. Ca stays +2, C stays +4 and O stays −2 when CaCO₃ decomposes.",
+   "Statement III was judged not redox. Zn starts as the element (0) and ends as Zn²⁺."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "reactions",
+  "q": "A 25.0 mL sample of 0.100 M H<sub>2</sub>SO<sub>4</sub> is titrated to the equivalence point with 0.200 M NaOH. Which statements are true?<br>I. 25.0 mL of the NaOH solution is needed.<br>II. The salt in the flask at the equivalence point is Na<sub>2</sub>SO<sub>4</sub>.<br>III. The moles of NaOH added equal twice the moles of H<sub>2</sub>SO<sub>4</sub>.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "II and III only",
+   "II only"
+  ],
+  "h": "Write the balanced equation first. Sulfuric acid has two acidic hydrogens.",
+  "w": "H<sub>2</sub>SO<sub>4</sub> + 2 NaOH → Na<sub>2</sub>SO<sub>4</sub> + 2 H<sub>2</sub>O. Moles of acid = 0.0250 L × 0.100 M = 0.00250 mol, so 0.00500 mol NaOH is needed, twice the moles of acid (III true). That is 0.00500 mol ÷ 0.200 M = 0.0250 L = 25.0 mL (I true). The salt formed is Na<sub>2</sub>SO<sub>4</sub> (II true). The answer is <b>I, II and III</b>.",
+  "x": [
+   "",
+   "Statement III was judged false. Each H₂SO₄ gives two H⁺, so it needs two OH⁻.",
+   "Statement I was judged false. Use the 1 : 2 mole ratio before dividing by the NaOH molarity.",
+   "Statement I was judged false. The acid needs 0.00500 mol NaOH, so find the volume of 0.200 M NaOH that holds that amount."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "thermo",
+  "q": "Samples of 100.0 g of water (c = 4.184 J g<sup>−1</sup> °C<sup>−1</sup>) and 100.0 g of iron (c = 0.449 J g<sup>−1</sup> °C<sup>−1</sup>) each absorb 1.00 kJ of heat. Which statements are true?<br>I. The temperature of the iron rises more than that of the water.<br>II. The temperature of the water rises by about 2.4 °C.<br>III. Because both absorb the same heat, both have the same temperature change.",
+  "c": [
+   "I and II only",
+   "II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Use q = mcΔT and solve for ΔT for each sample.",
+  "w": "ΔT = q/(mc). Water: 1000 J ÷ (100.0 g × 4.184 J g<sup>−1</sup> °C<sup>−1</sup>) = 2.39 °C (II true). Iron: 1000 J ÷ (100.0 g × 0.449 J g<sup>−1</sup> °C<sup>−1</sup>) = 22.3 °C, so iron warms much more (I true). III is false: equal heat gives equal ΔT only if m × c is the same, and iron's specific heat is much smaller. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement I was judged false. A smaller specific heat means a larger temperature change for the same heat.",
+   "Statement III was judged true. ΔT depends on the specific heat, which differs a lot here.",
+   "Statement I was judged false. Compute ΔT for iron with c = 0.449 J/(g·°C)."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "thermo",
+  "q": "Which of these are state functions?<br>I. The heat, q, absorbed by a system<br>II. The work, w, done on a system<br>III. The enthalpy, H, of a system",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "A state function depends only on the present state of the system, not on the path taken to reach it.",
+  "w": "Enthalpy depends only on the state of the system, so ΔH is the same for any path (III true). The amounts of heat and work exchanged depend on how the change is carried out, so q and w are path functions (I and II false). Only their sum, ΔE = q + w, is a state function. The answer is <b>III only</b>.",
+  "x": [
+   "",
+   "Statement I was judged a state function. The heat exchanged depends on the path, even when the start and end are the same.",
+   "Statement II was judged a state function. Work depends on how the change is carried out.",
+   "Statement I was judged a state function. Heat is energy in transit along a particular path."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "thermo",
+  "q": "50.0 mL of 1.00 M HCl and 50.0 mL of 1.00 M NaOH are mixed in a foam coffee-cup calorimeter, and the temperature rises by 6.7 °C. Which changes would give a LARGER temperature rise?<br>I. Using 100.0 mL of each solution instead of 50.0 mL<br>II. Using 2.00 M HCl and 2.00 M NaOH (still 50.0 mL of each)<br>III. Using a metal cup instead of a foam cup",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "ΔT = q/(mc). Ask how each change affects both the heat released and the mass of solution that must be warmed.",
+  "w": "Doubling both concentrations doubles the moles that react in the same 100 mL of solution, so twice the heat warms the same mass and ΔT is about 13 °C (II true). Doubling both volumes doubles the heat but also doubles the mass of solution to warm, so ΔT stays about 6.7 °C (I false). A metal cup conducts heat away to the room, so ΔT would be smaller (III false). The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Statement I was judged to raise ΔT. Twice the volume releases twice the heat but also has twice the mass to warm.",
+   "Statement III was judged to raise ΔT. A metal cup lets heat escape to the room.",
+   "Statement I was judged to raise ΔT. The heat per gram of solution stays the same when both volumes double."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "thermo",
+  "q": "Which processes are endothermic?<br>I. Liquid water freezing<br>II. Liquid ethanol evaporating<br>III. Breaking the Cl–Cl bond in Cl<sub>2</sub>(g) to form two Cl atoms",
+  "c": [
+   "II and III only",
+   "II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Melting, evaporating and breaking bonds all need energy. Their reverse processes release it.",
+  "w": "Freezing releases heat (it is the reverse of melting), so I is exothermic. Evaporation needs energy to separate the molecules (II endothermic), and breaking any chemical bond requires energy (III endothermic). The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement III was judged exothermic. Energy must always be added to break a chemical bond.",
+   "Statement I was judged endothermic. Water releases heat as it freezes.",
+   "Statement I was judged endothermic. Freezing is the reverse of melting, so heat flows out."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "quantum",
+  "q": "Compare red light with violet light. Which statements about red light are true?<br>I. Each photon of red light has more energy than a photon of violet light.<br>II. Red light has a longer wavelength than violet light.<br>III. In a vacuum, red light travels at the same speed as violet light.",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "II only",
+   "I, II and III"
+  ],
+  "h": "All light moves at the same speed c in a vacuum. Photon energy is E = hc/λ.",
+  "w": "Red light (about 700 nm) has a longer wavelength than violet light (about 400 nm), so II is true. Since E = hc/λ, the longer wavelength means LESS energy per photon, so I is false. All electromagnetic radiation travels at c = 3.00 × 10<sup>8</sup> m s<sup>−1</sup> in a vacuum (III true). The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement I was judged true. A longer wavelength means a lower frequency and less energy per photon.",
+   "Statement III was judged false. Every color of light travels at the same speed c in a vacuum.",
+   "Statement I was judged true. Photon energy falls as wavelength grows, E = hc/λ."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "quantum",
+  "q": "Which sets of quantum numbers (n, ℓ, m<sub>ℓ</sub>) describe an allowed orbital?<br>I. (3, 3, 0)<br>II. (3, 2, −2)<br>III. (4, 0, 0)",
+  "c": [
+   "II and III only",
+   "II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "ℓ can be any whole number from 0 up to n − 1, and m<sub>ℓ</sub> any whole number from −ℓ to +ℓ.",
+  "w": "I is not allowed because ℓ must be less than n (for n = 3, ℓ = 0, 1 or 2). II is a 3d orbital: ℓ = 2 allows m<sub>ℓ</sub> = −2 through +2. III is the 4s orbital (ℓ = 0, m<sub>ℓ</sub> = 0). The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement III was judged not allowed. ℓ = 0 is allowed for any n, and then mℓ must be 0.",
+   "Statement I was judged allowed. ℓ can go only up to n − 1.",
+   "Statement I was judged allowed. For n = 3 the largest ℓ is 2."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "quantum",
+  "q": "Which statements about a 4f subshell are true?<br>I. Its orbitals have ℓ = 3.<br>II. It contains seven orbitals.<br>III. It can hold up to 14 electrons.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "II and III only",
+   "I and III only"
+  ],
+  "h": "For an f subshell, find ℓ, then count the allowed m<sub>ℓ</sub> values and allow two electrons per orbital.",
+  "w": "The letter f means ℓ = 3 (I true). m<sub>ℓ</sub> runs from −3 to +3, giving 2ℓ + 1 = 7 orbitals (II true). Each orbital holds two electrons, so the subshell holds 14 (III true). The answer is <b>I, II and III</b>.",
+  "x": [
+   "",
+   "Statement III was judged false. Seven orbitals with two electrons each hold 14 electrons.",
+   "Statement I was judged false. The letters s, p, d and f stand for ℓ = 0, 1, 2 and 3.",
+   "Statement II was judged false. The mℓ values −3 through +3 make seven orbitals."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "quantum",
+  "q": "Rank these kinds of electromagnetic radiation by the energy of one photon, from lowest to highest.<br>I. Visible light<br>II. X-rays<br>III. Microwaves",
+  "c": [
+   "III &lt; I &lt; II",
+   "II &lt; I &lt; III",
+   "I &lt; III &lt; II",
+   "III &lt; II &lt; I"
+  ],
+  "h": "Photon energy rises as frequency rises and as wavelength gets shorter.",
+  "w": "Microwaves have wavelengths of centimeters, visible light about 400 to 700 nm and X-rays about 0.01 to 10 nm. Shorter wavelength means more energy per photon (E = hc/λ), so the order is <b>III &lt; I &lt; II</b>.",
+  "x": [
+   "",
+   "This is the order of wavelength from shortest to longest. Energy runs the opposite way.",
+   "Microwaves have much longer wavelengths than visible light, so their photons carry less energy.",
+   "X-rays have the shortest wavelength of the three, so their photons have the most energy."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ }
+]

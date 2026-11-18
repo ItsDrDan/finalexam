@@ -1,0 +1,224 @@
+[
+ {
+  "t": "bonding",
+  "q": "The Lewis structures of CO<sub>2</sub> (I) and H<sub>2</sub>O (II) are both drawn in a straight line. Which statement about the real molecules is correct?",
+  "c": [
+   "I is nonpolar; II is polar",
+   "I is polar; II is nonpolar",
+   "I and II are nonpolar",
+   "I and II are polar"
+  ],
+  "h": "Find the real shape from the electron groups on the central atom; then ask whether the bond dipoles cancel.",
+  "w": "C in CO<sub>2</sub> has 2 electron groups and no lone pairs, so CO<sub>2</sub> really is linear (180°) and its two C=O dipoles cancel: <b>nonpolar</b>. O in H<sub>2</sub>O has 2 lone pairs, so the molecule is bent (~104.5°), the O–H dipoles do not cancel: <b>polar</b>. Both have polar bonds; shape decides.",
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "a": [
+     [
+      "O",
+      0,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "C",
+      1,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      2,
+      0,
+      2,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      1,
+      2,
+      2
+     ]
+    ],
+    "cap": "I"
+   },
+   {
+    "a": [
+     [
+      "H",
+      0,
+      0,
+      0,
+      0,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      2,
+      0,
+      ""
+     ],
+     [
+      "H",
+      2,
+      0,
+      0,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      1,
+      2,
+      1
+     ]
+    ],
+    "cap": "II"
+   }
+  ],
+  "src": "drawn",
+  "x": [
+   "",
+   "This is reversed. Linear CO₂'s dipoles cancel, but bent H₂O's don't.",
+   "H₂O is bent, so its dipoles don't cancel. It's polar.",
+   "CO₂ is linear, so its two dipoles cancel. It's nonpolar."
+  ]
+ },
+ {
+  "t": "atoms",
+  "q": "The table gives the subatomic particle counts of four neutral atoms. Which two atoms are isotopes of the same element?",
+  "c": [
+   "I and II",
+   "II and III",
+   "I and III",
+   "III and IV"
+  ],
+  "h": "Isotopes have the same number of protons but different numbers of neutrons. The mass number can be the same for different elements.",
+  "w": "Atoms <b>I and II</b> both have 6 protons (carbon) with 6 and 8 neutrons: carbon-12 and carbon-14. II and III both have mass number 14, but different proton counts make them different elements (carbon and nitrogen), not isotopes.",
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Atom",
+     "p<sup>+</sup>",
+     "n<sup>0</sup>",
+     "e<sup>−</sup>"
+    ],
+    "rows": [
+     [
+      "I",
+      "6",
+      "6",
+      "6"
+     ],
+     [
+      "II",
+      "6",
+      "8",
+      "6"
+     ],
+     [
+      "III",
+      "7",
+      "7",
+      "7"
+     ],
+     [
+      "IV",
+      "8",
+      "9",
+      "8"
+     ]
+    ]
+   }
+  ],
+  "src": "figs",
+  "x": [
+   "",
+   "Same mass number but different protons means different elements, not isotopes.",
+   "Different proton counts mean different elements.",
+   "Isotopes have the same number of protons. Check the proton counts."
+  ]
+ },
+ {
+  "t": "moles",
+  "q": "The table gives four samples with their molar masses. Which two samples contain the same number of molecules?",
+  "c": [
+   "I and II",
+   "I and III",
+   "II and III",
+   "III and IV"
+  ],
+  "h": "Equal numbers of molecules means equal numbers of moles. Divide each mass by its molar mass and compare.",
+  "w": "I: 18.0/18.02 = 0.999 mol; II: 44.0/44.01 = 1.00 mol; III: 16.0/32.00 = 0.500 mol; IV: 34.1/17.03 = 2.00 mol. Samples <b>I and II</b> each contain 1.00 mol, about 6.02 × 10<sup>23</sup> molecules. Similar masses (I and III) do not mean similar molecule counts.",
+  "k": 1,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Sample",
+     "Formula",
+     "Molar mass",
+     "Mass (g)"
+    ],
+    "rows": [
+     [
+      "I",
+      "H<sub>2</sub>O",
+      "18.02",
+      "18.0"
+     ],
+     [
+      "II",
+      "CO<sub>2</sub>",
+      "44.01",
+      "44.0"
+     ],
+     [
+      "III",
+      "O<sub>2</sub>",
+      "32.00",
+      "16.0"
+     ],
+     [
+      "IV",
+      "NH<sub>3</sub>",
+      "17.03",
+      "34.1"
+     ]
+    ],
+    "cap": "Molar masses in g mol<sup>−1</sup>"
+   }
+  ],
+  "src": "figs",
+  "x": [
+   "",
+   "Similar masses don't mean similar molecule counts. Compare moles.",
+   "II has 1.00 mol and III has 0.500 mol.",
+   "III has 0.500 mol and IV has 2.00 mol."
+  ]
+ }
+]
