@@ -1,0 +1,422 @@
+[
+ {
+  "t": "measure",
+  "q": "Which measurements contain exactly three significant figures?<br>I. 0.0045 g<br>II. 2.050 mL<br>III. 3.00 × 10<sup>2</sup> cm",
+  "c": [
+   "III only",
+   "I only",
+   "II and III only",
+   "I and III only"
+  ],
+  "h": "Leading zeros never count. Zeros at the end of a number count when there is a decimal point.",
+  "w": "I: 0.0045 has 2 significant figures (the leading zeros only place the decimal point). II: 2.050 has 4 (the zero between 2 and 5 and the final zero after the decimal point both count). III: 3.00 × 10<sup>2</sup> has 3 (every digit in 3.00 counts). Only <b>III</b> has exactly three.",
+  "x": [
+   "",
+   "Statement I has only 2 significant figures. The zeros before the 4 are placeholders and do not count.",
+   "Statement II has 4 significant figures. The zero between 2 and 5 and the final zero after the decimal point both count.",
+   "Statement I has only 2 significant figures. Leading zeros never count."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "measure",
+  "q": "Which statements about density are true?<br>I. A density of 2.7 g/mL is the same as 2.7 g/cm<sup>3</sup>.<br>II. If a metal block is cut in half, each half has half the density of the whole block.<br>III. An object with a density of 0.80 g/mL sinks in water.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "1 mL equals 1 cm³. Density is mass divided by volume, and an object floats when it is less dense than water (1.0 g/mL).",
+  "w": "I is true: 1 mL = 1 cm<sup>3</sup>, so the number is the same. II is false: cutting the block halves both the mass and the volume, so the density does not change. III is false: 0.80 g/mL is less than water's 1.0 g/mL, so the object floats. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false. Cutting the block halves both the mass and the volume, so their ratio stays the same.",
+   "Statement III is false. An object that is less dense than water (1.0 g/mL) floats.",
+   "Statement I is true. One milliliter is exactly one cubic centimeter."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "atoms",
+  "q": "Which statements about the atoms carbon-14 (<sup>14</sup>C) and nitrogen-14 (<sup>14</sup>N) are true?<br>I. They are isotopes of each other.<br>II. They have the same mass number.<br>III. They have the same number of neutrons.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "Carbon has 6 protons and nitrogen has 7. Neutrons = mass number − protons.",
+  "w": "I is false: isotopes have the same number of protons, and C (6) and N (7) do not. II is true: both have mass number 14. III is false: <sup>14</sup>C has 14 − 6 = 8 neutrons, and <sup>14</sup>N has 14 − 7 = 7. The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Statement I is false. Isotopes must have the same number of protons, and carbon and nitrogen do not.",
+   "Statement III is false. Subtract the protons from 14 for each atom and compare.",
+   "Statement I is false. Atoms of two different elements cannot be isotopes of each other."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "electrons",
+  "q": "Which electron configurations describe an atom in its ground state?<br>I. 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>1</sup><br>II. 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>5</sup> 3s<sup>1</sup><br>III. 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup>",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "In the ground state, each sublevel fills before electrons go into the next one. 4s fills before 3d.",
+  "w": "I (sodium) fills 1s, 2s and 2p before 3s: a ground state. II puts an electron in 3s while 2p holds only 5, so it is an excited state of neon. III (potassium) fills 3p and then 4s, which comes before 3d: a ground state. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is a ground state. After 3p, the next sublevel to fill is 4s, not 3d.",
+   "Statement II is not a ground state. The 2p sublevel is not full, yet an electron sits in 3s.",
+   "Statement II is not a ground state. An electron moved up to 3s before 2p was full."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "matter",
+  "q": "Which are chemical changes?<br>I. Ice melting on a warm day<br>II. An iron nail rusting<br>III. A log burning in a fireplace",
+  "c": [
+   "II and III only",
+   "II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "A chemical change makes a new substance. A change of state keeps the same substance.",
+  "w": "I is a physical change: melted ice is still H<sub>2</sub>O. II is a chemical change: iron reacts with oxygen to form a new substance, rust. III is a chemical change: burning turns wood into CO<sub>2</sub>, water and ash. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also a chemical change. Burning makes new substances such as carbon dioxide and ash.",
+   "Statement I is a physical change. Melted ice is still water.",
+   "Statement I is a physical change. A change of state does not make a new substance."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "naming",
+  "q": "Which formulas are paired with their correct names?<br>I. FeCl<sub>3</sub>, iron(III) chloride<br>II. N<sub>2</sub>O<sub>4</sub>, dinitrogen tetroxide<br>III. CaCl<sub>2</sub>, calcium dichloride",
+  "c": [
+   "I and II only",
+   "II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Prefixes such as di- and tetra- are used only for compounds of two nonmetals. A metal that can form more than one ion gets a Roman numeral.",
+  "w": "I is correct: iron forms more than one ion, and three Cl<sup>−</sup> ions balance Fe<sup>3+</sup>, so the name is iron(III) chloride. II is correct: N<sub>2</sub>O<sub>4</sub> contains two nonmetals, so prefixes are used. III is wrong: CaCl<sub>2</sub> is ionic and is named calcium chloride, with no prefix. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement I is correct. Three Cl⁻ ions balance one Fe³⁺ ion, and iron needs a Roman numeral.",
+   "Statement III is wrong. Ionic compounds such as CaCl₂ do not use prefixes.",
+   "Statement III is wrong. Calcium compounds are ionic, so the name has no di prefix."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "moles",
+  "q": "Which statements about 1.00 mol of water, H<sub>2</sub>O (18.02 g/mol), are true?<br>I. It contains 6.02 × 10<sup>23</sup> hydrogen atoms.<br>II. It has a mass of 18.02 g.<br>III. It contains 6.02 × 10<sup>23</sup> molecules.",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "One mole of molecules is 6.02 × 10²³ molecules. Each H₂O molecule has two H atoms.",
+  "w": "I is false: each molecule has 2 H atoms, so there are 2 × 6.02 × 10<sup>23</sup> = 1.20 × 10<sup>24</sup> H atoms. II is true: the mass of 1 mol in grams equals the molar mass. III is true: 1 mol of anything is 6.02 × 10<sup>23</sup> units. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement I is false. Each water molecule has two hydrogen atoms, so the number of H atoms is doubled.",
+   "Statement II is true. The mass of one mole in grams equals the molar mass.",
+   "Statement I is false. Count the hydrogen atoms in one H₂O molecule."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "moles",
+  "q": "Three samples each have a mass of 10.0 g. Rank them from fewest moles to most moles.<br>I. H<sub>2</sub> (2.02 g/mol)<br>II. O<sub>2</sub> (32.00 g/mol)<br>III. H<sub>2</sub>O (18.02 g/mol)",
+  "c": [
+   "II &lt; III &lt; I",
+   "I &lt; III &lt; II",
+   "III &lt; II &lt; I",
+   "I &lt; II &lt; III"
+  ],
+  "h": "Moles = mass ÷ molar mass. With equal masses, a larger molar mass gives fewer moles.",
+  "w": "I: 10.0 ÷ 2.02 = 4.95 mol. II: 10.0 ÷ 32.00 = 0.313 mol. III: 10.0 ÷ 18.02 = 0.555 mol. From fewest to most: <b>II &lt; III &lt; I</b>. For the same mass, the heaviest molecule gives the fewest moles.",
+  "x": [
+   "",
+   "This order is reversed. Equal masses of a light gas such as H₂ give many more moles than a heavy one.",
+   "Sample III has more moles than sample II. Divide 10.0 g by each molar mass and compare.",
+   "This order follows molar mass upward. A larger molar mass gives fewer moles, not more."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "bonding",
+  "q": "Which molecules are polar?<br>I. HCl<br>II. CCl<sub>4</sub><br>III. CH<sub>4</sub>",
+  "c": [
+   "I only",
+   "I and II only",
+   "II only",
+   "I and III only"
+  ],
+  "h": "A molecule is polar when it has polar bonds whose dipoles do not cancel. A tetrahedral molecule with four identical atoms around the center is symmetric.",
+  "w": "I is polar: H–Cl is a polar bond, and there is no other bond to cancel it. II is nonpolar: the four C–Cl dipoles point to the corners of a tetrahedron and cancel. III is nonpolar: C–H bonds are nearly nonpolar, and the shape is symmetric. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is nonpolar. Its four C–Cl dipoles are arranged symmetrically and cancel.",
+   "Statement II has polar bonds, but its tetrahedral shape makes the bond dipoles cancel.",
+   "Statement III is nonpolar. C–H bonds are nearly nonpolar, and the molecule is symmetric."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "bonding",
+  "q": "Which molecules contain a triple bond in their Lewis structure?<br>I. N<sub>2</sub><br>II. HCN<br>III. C<sub>2</sub>H<sub>2</sub>",
+  "c": [
+   "I, II and III",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "h": "Draw each Lewis structure. Each C needs four bonds, and each N needs three bonds plus one lone pair.",
+  "w": "I: N≡N gives each N an octet. II: H–C≡N gives C four bonds and N an octet. III: H–C≡C–H gives each C four bonds. All three, <b>I, II and III</b>, need a triple bond.",
+  "x": [
+   "",
+   "Statement II also has a triple bond. Carbon needs four bonds, and only one of them goes to H.",
+   "Statement III also has a triple bond. Each C in C₂H₂ has one H, so it needs three bonds to the other C.",
+   "Statement I also has a triple bond. Each N needs three shared pairs to complete its octet."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "energy",
+  "q": "Which processes are exothermic (release heat)?<br>I. Liquid water freezing<br>II. Ice melting<br>III. Methane burning in a gas stove",
+  "c": [
+   "I and III only",
+   "III only",
+   "II and III only",
+   "I and II only"
+  ],
+  "h": "Forming attractions between particles, as when a liquid freezes, releases energy. Pulling particles apart, as in melting, absorbs energy.",
+  "w": "I is exothermic: water releases heat to its surroundings as it freezes. II is endothermic: melting ice absorbs heat. III is exothermic: combustion releases heat, which is why we burn fuel. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement I is exothermic too. Water gives off heat to its surroundings as it freezes.",
+   "Statement II is endothermic. Ice must absorb heat to melt.",
+   "Statement II is endothermic. Melting takes in heat."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "gases",
+  "q": "A balloon holds a fixed amount of gas. Which changes would increase its volume?<br>I. Raising the temperature at constant pressure<br>II. Raising the pressure at constant temperature<br>III. Lowering the pressure at constant temperature",
+  "c": [
+   "I and III only",
+   "I only",
+   "II and III only",
+   "I and II only"
+  ],
+  "h": "Volume is directly proportional to Kelvin temperature (Charles's law) and inversely proportional to pressure (Boyle's law).",
+  "w": "I is true: by Charles's law, the volume increases as the temperature increases. II is false: by Boyle's law, a higher pressure squeezes the gas into a smaller volume. III is true: a lower pressure lets the gas expand. The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III also increases the volume. Pressure and volume are inversely related.",
+   "Statement I also increases the volume. Heating a gas at constant pressure makes it expand.",
+   "Statement II decreases the volume. Pressure and volume are inversely related."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "gases",
+  "q": "According to the kinetic molecular theory, which statements about gases are true?<br>I. Gas particles stop moving at 0 °C.<br>II. Gas particles are far apart compared with their own size.<br>III. The average kinetic energy of gas particles increases as the temperature increases.",
+  "c": [
+   "II and III only",
+   "III only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "0 °C is 273 K, far above absolute zero. Temperature measures the average kinetic energy of the particles.",
+  "w": "I is false: 0 °C is 273 K, and particles keep moving at any temperature above absolute zero (0 K). II is true: most of a gas's volume is empty space. III is true: average kinetic energy is proportional to the Kelvin temperature. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement II is true. Gas particles are tiny compared with the empty space between them.",
+   "Statement I is false. 0 °C is 273 K, and gas particles are still moving.",
+   "Statement I is false. Particles keep moving at 0 °C because it is well above absolute zero."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "solutions",
+  "q": "Which substances are strong electrolytes when dissolved in water?<br>I. Glucose, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub><br>II. Potassium bromide, KBr<br>III. Ethanol, C<sub>2</sub>H<sub>5</sub>OH",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Soluble ionic compounds break apart into ions. Molecular compounds such as sugars and alcohols dissolve as whole molecules.",
+  "w": "I is a nonelectrolyte: glucose dissolves as molecules, not ions. II is a strong electrolyte: KBr is a soluble ionic compound that separates completely into K<sup>+</sup> and Br<sup>−</sup>. III is a nonelectrolyte: ethanol dissolves as molecules, and its OH group does not break off as OH<sup>−</sup>. The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Statement I is a nonelectrolyte. Glucose dissolves as whole molecules and makes no ions.",
+   "Statement III is a nonelectrolyte. The OH in ethanol is not a hydroxide ion and does not break off.",
+   "Statement I is a nonelectrolyte. A sugar dissolves as molecules, not ions."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "reactions",
+  "q": "Which pairs of aqueous solutions form a precipitate when mixed?<br>I. KNO<sub>3</sub> and NaCl<br>II. Na<sub>2</sub>CO<sub>3</sub> and KCl<br>III. AgNO<sub>3</sub> and NaCl",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "II only"
+  ],
+  "h": "Swap the partners and check each new compound against the solubility rules. Compounds of Na⁺, K⁺ and NO₃⁻ are always soluble.",
+  "w": "I: swapping gives KCl and NaNO<sub>3</sub>, both soluble, so no precipitate forms. II: swapping gives NaCl and K<sub>2</sub>CO<sub>3</sub>, both soluble (carbonates of Na<sup>+</sup> and K<sup>+</sup> dissolve). III: swapping gives insoluble AgCl plus NaNO<sub>3</sub>. Only <b>III</b> forms a precipitate.",
+  "x": [
+   "",
+   "Statement I forms no precipitate. KCl and NaNO₃ are both soluble.",
+   "Statement II forms no precipitate. Carbonates of sodium and potassium are soluble.",
+   "Statement II forms no precipitate. NaCl and K₂CO₃ both dissolve."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "stoich",
+  "q": "For the reaction 2 H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2 H<sub>2</sub>O(l), which statements are true?<br>I. 2 mol of H<sub>2</sub> react with 1 mol of O<sub>2</sub>.<br>II. 1 mol of O<sub>2</sub> produces 2 mol of H<sub>2</sub>O.<br>III. 2 g of H<sub>2</sub> react with 1 g of O<sub>2</sub>.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Coefficients give mole ratios, not mass ratios. To compare grams, convert with molar masses.",
+  "w": "I is true: the coefficients 2 and 1 give the mole ratio of H<sub>2</sub> to O<sub>2</sub>. II is true: the mole ratio of O<sub>2</sub> to H<sub>2</sub>O is 1 : 2. III is false: 2 g of H<sub>2</sub> is about 1 mol, which needs about 0.5 mol (16 g) of O<sub>2</sub>, not 1 g. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is true. The coefficients show that 1 mol of O₂ gives 2 mol of H₂O.",
+   "Statement III is false. Coefficients are mole ratios, and H₂ and O₂ have very different molar masses.",
+   "Statement III is false. Coefficients compare moles, not grams."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "acids",
+  "q": "Consider the reaction HCl(aq) + H<sub>2</sub>O(l) → H<sub>3</sub>O<sup>+</sup>(aq) + Cl<sup>−</sup>(aq). Which statements are true?<br>I. HCl acts as a Brønsted–Lowry acid.<br>II. H<sub>2</sub>O acts as a Brønsted–Lowry base.<br>III. Cl<sup>−</sup> is the conjugate base of HCl.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "I only",
+   "I and III only"
+  ],
+  "h": "An acid donates H⁺ and a base accepts it. A conjugate base is what is left after an acid loses H⁺.",
+  "w": "I is true: HCl donates H<sup>+</sup>. II is true: H<sub>2</sub>O accepts that H<sup>+</sup> and becomes H<sub>3</sub>O<sup>+</sup>. III is true: removing H<sup>+</sup> from HCl leaves Cl<sup>−</sup>, its conjugate base. The answer is <b>I, II and III</b>.",
+  "x": [
+   "",
+   "Statement III is true. HCl minus one H⁺ is Cl⁻, which makes Cl⁻ its conjugate base.",
+   "Statement II is true. Water accepts an H⁺ and becomes H₃O⁺.",
+   "Statement II is true. Accepting H⁺ makes water the base in this reaction."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "acids",
+  "q": "Rank these solutions at 25 °C from lowest pH to highest pH.<br>I. A solution with [H<sub>3</sub>O<sup>+</sup>] = 0.001 M<br>II. A solution with [OH<sup>−</sup>] = 0.001 M<br>III. Pure water",
+  "c": [
+   "I &lt; III &lt; II",
+   "II &lt; III &lt; I",
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III"
+  ],
+  "h": "A higher [H₃O⁺] means a lower pH. Pure water at 25 °C has pH 7, and pH + pOH = 14.",
+  "w": "I: [H<sub>3</sub>O<sup>+</sup>] = 0.001 M, so pH = 3 (acidic). II: [OH<sup>−</sup>] = 0.001 M, so pOH = 3 and pH = 14 − 3 = 11 (basic). III: pure water has pH 7. Lowest to highest: <b>I &lt; III &lt; II</b>.",
+  "x": [
+   "",
+   "This order is reversed. A high [H₃O⁺] gives a low pH, so the acidic solution has the lowest pH.",
+   "Pure water (pH 7) is not the most acidic. A solution with extra H₃O⁺ has a lower pH than water.",
+   "Solution II is basic, not neutral. Extra OH⁻ makes its pH greater than 7."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "equilibrium",
+  "q": "Which statements are true for any chemical reaction at equilibrium?<br>I. The forward and reverse reactions occur at equal rates.<br>II. The concentrations of reactants and products are equal.<br>III. The forward and reverse reactions have both stopped.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Equilibrium is dynamic. Ask what stays the same and what is still happening.",
+  "w": "I is true: at equilibrium the forward and reverse rates are equal, so the amounts stop changing. II is false: the concentrations stay constant, but they are usually not equal to each other. III is false: both reactions keep going (dynamic equilibrium) at the same rate. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false. Concentrations stay constant at equilibrium, but they need not be equal.",
+   "Statement III is false. Equilibrium is dynamic, so both reactions keep happening.",
+   "Statement I is true. Equal forward and reverse rates are what define equilibrium."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "nuclear",
+  "q": "A 40 mg sample of a radioisotope has a half-life of 6 hours. Which statements are true?<br>I. After 12 hours, none of the isotope remains.<br>II. Heating the sample shortens its half-life.<br>III. After 18 hours, 5 mg of the isotope remains.",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "Each half-life cuts the amount in half. Radioactive decay is not affected by temperature.",
+  "w": "I is false: 12 hours is 2 half-lives, so 40 → 20 → 10 mg remains. II is false: a half-life does not depend on temperature. III is true: 18 hours is 3 half-lives, so 40 → 20 → 10 → 5 mg remains. The answer is <b>III only</b>.",
+  "x": [
+   "",
+   "Statement I is false. Two half-lives leave one quarter of the sample, not zero.",
+   "Statement II is false. Temperature does not change how fast a nucleus decays.",
+   "Statement I is false. Each half-life halves the amount, so the sample does not drop to zero."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ }
+]

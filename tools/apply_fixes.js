@@ -9,7 +9,8 @@
 const fs = require('fs'), path = require('path');
 const fixFile = process.argv[2], dry = process.argv.includes('--dry');
 const file = path.join(__dirname, '..', 'index.html');
-let html = fs.readFileSync(file, 'utf8');
+const bankio = require('./bankio');
+let html = bankio.loadVirtual();   /* index.html with the data/bank-*.json files attached as the old bank blocks */
 const fixes = JSON.parse(fs.readFileSync(fixFile, 'utf8'));
 const enc = s => JSON.stringify(s);
 
@@ -70,4 +71,4 @@ for (const c of Object.keys(byCourse)) {
 }
 console.log((dry ? '[dry run] ' : '') + applied + ' applied, ' + skipped + ' already in place, ' + failed + ' failed');
 if (failed) process.exit(1);
-if (!dry) fs.writeFileSync(file, html);
+if (!dry) bankio.saveVirtual(html);

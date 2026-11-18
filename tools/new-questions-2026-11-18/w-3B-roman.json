@@ -1,0 +1,527 @@
+[
+ {
+  "t": "structure",
+  "q": "Allyl alcohol, CH<sub>2</sub>=CHCH<sub>2</sub>OH, is shown. Which statements about it are true?<br>I. It contains a hydroxyl (–OH) group.<br>II. All three carbon atoms have tetrahedral (109.5°) geometry.<br>III. Its molecular formula is C<sub>3</sub>H<sub>6</sub>O.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "h": "Count the electron groups around each carbon, then count every H, including the one on oxygen.",
+  "w": "<b>I and III only</b>. I is true: the –OH on the end carbon is a hydroxyl group, so this is an alcohol. II is false: the two C=C carbons each have three electron groups and are trigonal planar (about 120°); only the CH<sub>2</sub>OH carbon is tetrahedral. III is true: there are 3 C, 6 H (2 + 1 + 2 on carbon and 1 on oxygen) and 1 O.",
+  "x": [
+   "",
+   "Statement III is true. Count the H atoms: 2 + 1 + 2 on the carbons plus 1 on the oxygen gives six.",
+   "Statement II is false. Each carbon of the C=C double bond has three electron groups, so it is trigonal planar, not tetrahedral.",
+   "Statement I is true. The –OH on the end carbon is a hydroxyl group, which makes this compound an alcohol."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "C=CCO",
+    "cap": "allyl alcohol"
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "hydrocarbons",
+  "q": "Which statements about the alkene shown are true?<br>I. Its IUPAC name is 2-methyl-2-butene.<br>II. It can exist as cis and trans isomers.<br>III. Its molecular formula is C<sub>5</sub>H<sub>12</sub>.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "For cis–trans isomers, each C=C carbon needs two different groups. An alkene has two fewer H atoms than the alkane with the same number of carbons.",
+  "w": "<b>I only</b>. I is true: the longest chain with the C=C has four carbons, numbered so the double bond starts at C2, and the methyl group is on C2. II is false: one C=C carbon holds two identical CH<sub>3</sub> groups, so cis and trans forms cannot exist. III is false: a five-carbon alkene with one C=C is C<sub>5</sub>H<sub>10</sub>; C<sub>5</sub>H<sub>12</sub> is the formula of the saturated alkanes.",
+  "x": [
+   "",
+   "Statement II is false. One carbon of the double bond carries two identical CH₃ groups, so swapping sides gives the same molecule.",
+   "Statement III is false. C₅H₁₂ is the formula of a saturated alkane. The C=C double bond means two fewer H atoms.",
+   "Statement II is false. A C=C carbon with two identical groups cannot give cis and trans forms."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CC=C(C)C"
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "aromatic",
+  "q": "Which of compounds I–III are aromatic?",
+  "c": [
+   "II only",
+   "II and III only",
+   "I, II and III",
+   "I and III only"
+  ],
+  "h": "At this level, an aromatic compound contains a benzene ring: six ring carbons joined by three alternating double bonds.",
+  "w": "<b>II only</b>. Toluene (II) is a benzene ring with a methyl group, so it is aromatic. Cyclohexene (I) has one C=C, and 1,3-cyclohexadiene (III) has two C=C bonds plus a CH<sub>2</sub> in the ring, so neither has the benzene ring of three alternating double bonds. I and III react like ordinary alkenes.",
+  "x": [
+   "",
+   "Compound III has two C=C bonds in a six-membered ring, but one ring carbon is a CH₂, so the ring is not a benzene ring.",
+   "Compound I is a cycloalkene. One C=C double bond in a ring does not make a benzene ring.",
+   "Compound III is not aromatic. A ring needs three alternating double bonds, and III has only two."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C1=CCCCC1",
+    "cap": "I"
+   },
+   {
+    "smi": "CC1=CC=CC=C1",
+    "cap": "II"
+   },
+   {
+    "smi": "C1=CC=CCC1",
+    "cap": "III"
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "alcohols",
+  "q": "Which of alcohols I–III are secondary (2°)?",
+  "c": [
+   "II and III only",
+   "III only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "Find the carbon that holds the –OH, then count how many other carbons are bonded directly to that carbon.",
+  "w": "<b>II and III only</b>. In cyclohexanol (II) the –OH carbon is bonded to two ring carbons, and in 2-butanol (III) it is bonded to a CH<sub>3</sub> and a CH<sub>2</sub>, so both are 2°. In 2-methyl-2-propanol (I) the –OH carbon is bonded to three CH<sub>3</sub> groups, so it is tertiary (3°).",
+  "x": [
+   "",
+   "Alcohol II is also secondary. The ring carbon that holds the –OH is bonded to two other ring carbons.",
+   "Alcohol I is tertiary. Its –OH carbon is bonded to three other carbons.",
+   "Alcohol I is not secondary. Count the carbons bonded to its –OH carbon and you get three."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CC(C)(C)O",
+    "cap": "I"
+   },
+   {
+    "smi": "OC1CCCCC1",
+    "cap": "II"
+   },
+   {
+    "smi": "CCC(C)O",
+    "cap": "III"
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "carbonyls",
+  "q": "Which statements about aldehydes and ketones are true?<br>I. In a ketone, the C=O carbon is at the end of the carbon chain.<br>II. Propanal boils at a higher temperature than 1-propanol because aldehyde molecules hydrogen bond to each other.<br>III. Reducing propanone (adding H<sub>2</sub>) gives 2-propanol.",
+  "c": [
+   "III only",
+   "II and III only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Recall where the C=O sits in an aldehyde versus a ketone, and which group lets molecules hydrogen bond to each other.",
+  "w": "<b>III only</b>. I is false: the C=O carbon of a ketone is bonded to two carbons, so it sits inside the chain; an end-of-chain C=O bonded to H is an aldehyde. II is false: propanal has no O–H, so its molecules cannot hydrogen bond to each other, and it boils lower (48 °C) than 1-propanol (97 °C). III is true: reducing a ketone gives a secondary alcohol, and propanone gives 2-propanol.",
+  "x": [
+   "",
+   "Statement II is false. An aldehyde has no H on oxygen, so its molecules cannot hydrogen bond to each other, and 1-propanol boils higher.",
+   "Statement I is false. A C=O at the end of a chain, bonded to an H, is an aldehyde. A ketone's C=O carbon is bonded to two carbons.",
+   "Statement II is false. Without an O–H, aldehyde molecules cannot hydrogen bond to each other."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "chirality",
+  "q": "Glycerol (I), 2-bromobutane (II) and alanine (III) are shown. Which of them contain a chiral carbon?",
+  "c": [
+   "II and III only",
+   "I, II and III",
+   "III only",
+   "I and III only"
+  ],
+  "h": "A chiral carbon has four different groups attached. Check carefully whether two groups on a carbon are really the same.",
+  "w": "<b>II and III only</b>. In 2-bromobutane (II), C2 bears H, Br, CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub>; in alanine (III), the α carbon bears H, NH<sub>2</sub>, CH<sub>3</sub> and COOH. Glycerol (I) has no chiral carbon: its middle carbon bears H, OH and two identical CH<sub>2</sub>OH groups, and each end carbon has two H atoms.",
+  "x": [
+   "",
+   "Glycerol (I) is not chiral. Its middle carbon carries two identical –CH₂OH groups.",
+   "Molecule II also has a chiral carbon. C2 holds H, Br, CH₃ and CH₂CH₃, four different groups.",
+   "Glycerol (I) has no carbon with four different groups. The middle carbon has two identical CH₂OH groups."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "OCC(O)CO",
+    "cap": "I"
+   },
+   {
+    "smi": "CCC(C)Br",
+    "cap": "II"
+   },
+   {
+    "smi": "CC(N)C(=O)O",
+    "cap": "III"
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "acids_esters",
+  "q": "Acetic acid and methyl acetate are shown. Which statements are true?<br>I. Acetic acid is a weak acid that is only partly ionized in water.<br>II. At the body's pH of 7.4, acetic acid exists mainly as un-ionized CH<sub>3</sub>COOH.<br>III. Acetic acid boils at a higher temperature than methyl acetate because acetic acid molecules hydrogen bond to each other.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "II and III only"
+  ],
+  "h": "Carboxylic acids lose H<sup>+</sup> in solutions that are much less acidic than the acid itself. Esters have no O–H.",
+  "w": "<b>I and III only</b>. I is true: acetic acid is a weak acid, so only a small fraction of its molecules ionize in water. II is false: pH 7.4 is far less acidic than acetic acid's pK<sub>a</sub> (about 4.8), so nearly all of it is present as the acetate ion, CH<sub>3</sub>COO<sup>−</sup>. III is true: acetic acid (118 °C) has an O–H and hydrogen bonds to itself, while methyl acetate (57 °C) has no O–H.",
+  "x": [
+   "",
+   "Statement III is true. Acetic acid has an O–H and hydrogen bonds to itself, while methyl acetate has no O–H.",
+   "Statement II is false. At pH 7.4, well above acetic acid's pKa of about 4.8, nearly all of it is ionized as acetate.",
+   "Statement II is false. In the near-neutral pH of the body a carboxylic acid loses its H⁺ and exists mainly as the carboxylate ion."
+  ],
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "smi": "CC(=O)O",
+    "cap": "acetic acid"
+   },
+   {
+    "smi": "CC(=O)OC",
+    "cap": "methyl acetate"
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "amines",
+  "q": "Which of amines I–III are secondary (2°)?",
+  "c": [
+   "II only",
+   "II and III only",
+   "I and II only",
+   "III only"
+  ],
+  "h": "For amines, count the carbon groups bonded directly to the nitrogen (not to a carbon, as you do for alcohols).",
+  "w": "<b>II only</b>. Amines are classified by the number of carbon groups on N. Propylamine (I) has one (1°), ethylmethylamine (II) has two (2°) and trimethylamine (III) has three (3°). Only II is secondary.",
+  "x": [
+   "",
+   "Amine III is tertiary. Its nitrogen is bonded to three carbon groups and has no N–H.",
+   "Amine I is primary. Its nitrogen is bonded to only one carbon, the end of the propyl chain.",
+   "Amine III is tertiary, not secondary. Count the carbon groups on its nitrogen and you get three."
+  ],
+  "k": 0,
+  "d": 1,
+  "s": [
+   {
+    "smi": "CCCN",
+    "cap": "I"
+   },
+   {
+    "smi": "CCNC",
+    "cap": "II"
+   },
+   {
+    "smi": "CN(C)C",
+    "cap": "III"
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "carbs",
+  "q": "Which statements about monosaccharides and disaccharides are true?<br>I. Glucose and galactose differ only in the orientation of the –OH on one carbon (C4).<br>II. Sucrose is a reducing sugar.<br>III. Fructose is an aldohexose.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Ask which sugars have a free anomeric carbon that can open to a C=O, and where the C=O sits in open-chain fructose.",
+  "w": "<b>I only</b>. I is true: glucose and galactose are both aldohexoses that differ only at C4. II is false: sucrose joins glucose C1 to fructose C2, so neither ring can open, and sucrose does not react with Benedict's reagent. III is false: fructose has its C=O at C2, a ketone, so it is a ketohexose.",
+  "x": [
+   "",
+   "Statement II is false. In sucrose both anomeric carbons are tied up in the glycosidic bond, so it cannot open and reduce Benedict's reagent.",
+   "Statement III is false. Fructose has a ketone group at C2, so it is a ketohexose.",
+   "Statement I is true. Glucose and galactose are both aldohexoses that differ only at C4."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "carbs",
+  "q": "Which statements about polysaccharides are true?<br>I. Amylose and cellulose are both polymers of glucose.<br>II. Humans can digest cellulose because its glucose units are joined by α(1→4) glycosidic bonds.<br>III. Glycogen is more highly branched than amylopectin.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "h": "Compare the type of glycosidic link (α or β) in starch and cellulose, and how often each storage polymer branches.",
+  "w": "<b>I and III only</b>. I is true: amylose and cellulose are both unbranched chains of glucose. II is false: cellulose's glucose units are joined by β(1→4) links, which human enzymes cannot hydrolyze, so cellulose passes through as fiber. III is true: glycogen branches about every 8–12 glucose units, more often than amylopectin (about every 24–30).",
+  "x": [
+   "",
+   "Statement III is true. Glycogen branches about every 8 to 12 glucose units, more often than amylopectin does.",
+   "Statement II is false. Cellulose has β(1→4) links, and human enzymes cannot break them.",
+   "Statement II is false. Humans lack an enzyme for the β(1→4) links in cellulose, so cellulose passes through as fiber."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "lipids",
+  "q": "Which statements about fats and oils are true?<br>I. Vegetable oils are liquid at room temperature mainly because cis double bonds put kinks in their fatty acid chains.<br>II. Hydrogenating an oil adds H<sub>2</sub> to C=C bonds and raises its melting point.<br>III. Cholesterol is a triacylglycerol.",
+  "c": [
+   "I and II only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "h": "Think about how chain shape affects how closely molecules pack, and what a triacylglycerol is built from.",
+  "w": "<b>I and II only</b>. I is true: cis double bonds bend the chains, so oil molecules pack loosely and melt below room temperature. II is true: hydrogenation removes C=C bonds, the straighter chains pack better, and the melting point rises (oil becomes a soft solid such as margarine). III is false: cholesterol is a steroid with four fused rings, not glycerol esterified to three fatty acids.",
+  "x": [
+   "",
+   "Statement II is true. Adding H₂ removes C=C bonds, the straighter chains pack better, and the fat melts at a higher temperature.",
+   "Statement III is false. Cholesterol is a steroid with four fused rings, not glycerol joined to three fatty acids.",
+   "Statement III is false. Cholesterol has a fused four-ring steroid skeleton, not a glycerol backbone with fatty acids."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "lipids",
+  "q": "Rank the fatty acids from lowest to highest melting point.<br>I. stearic acid: 18 carbons, saturated<br>II. oleic acid: 18 carbons, one cis C=C<br>III. palmitic acid: 16 carbons, saturated",
+  "c": [
+   "II &lt; III &lt; I",
+   "III &lt; I &lt; II",
+   "II &lt; I &lt; III",
+   "III &lt; II &lt; I"
+  ],
+  "h": "A cis double bond kinks the chain and spoils packing. Among saturated chains, a longer chain has more dispersion forces.",
+  "w": "<b>II &lt; III &lt; I</b>. Oleic acid (II) melts lowest (about 13 °C) because its cis double bond kinks the chain and prevents close packing. Of the two saturated acids, the longer stearic acid (I, about 69 °C) has more dispersion forces and melts higher than palmitic acid (III, about 63 °C).",
+  "x": [
+   "",
+   "This order puts oleic acid highest. A cis C=C bends the chain, so the molecules pack poorly and melt at a lower temperature, not a higher one.",
+   "Palmitic acid is placed above stearic acid here. Among saturated fatty acids, the longer chain has more dispersion forces and melts higher.",
+   "Palmitic acid is placed below oleic acid here. The cis kink lowers the melting point much more than removing two carbons does."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "proteins",
+  "q": "Which statements about protein structure are true?<br>I. Primary structure is the sequence of amino acids joined by peptide bonds.<br>II. The α-helix and β-pleated sheet are held mainly by hydrogen bonds between backbone C=O and N–H groups.<br>III. Heating a protein until it denatures breaks its peptide bonds.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Denaturation unfolds a protein. Ask which levels of structure depend on weak attractions and which on covalent bonds.",
+  "w": "<b>I and II only</b>. I is true: the order of amino acids linked by peptide (amide) bonds is the primary structure. II is true: secondary structures form when backbone C=O groups hydrogen bond to backbone N–H groups. III is false: heat disrupts hydrogen bonds and other attractions that hold the folded shape, but the covalent peptide bonds stay intact, so the primary structure survives.",
+  "x": [
+   "",
+   "Statement II is true. The C=O of one amino acid hydrogen bonds to the N–H of another along the backbone in both helices and sheets.",
+   "Statement I is true. The order of amino acids, linked by peptide bonds, is the primary structure.",
+   "Statement III is false. Heat disrupts hydrogen bonds and other attractions, but the covalent peptide bonds stay intact."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "enzymes",
+  "q": "A human enzyme catalyzes a reaction at 37 °C when the substrate concentration is low. Which changes would increase the reaction rate?<br>I. Heating the mixture to 80 °C<br>II. Adding more enzyme<br>III. Adding more substrate",
+  "c": [
+   "II and III only",
+   "III only",
+   "I, II and III",
+   "I and III only"
+  ],
+  "h": "At low substrate concentration many active sites are empty. Think about what very high temperature does to a protein's shape.",
+  "w": "<b>II and III only</b>. I is false: at 80 °C a human enzyme denatures, its active site loses its shape, and the rate drops. II is true: more enzyme means more active sites working at once. III is true: at low substrate concentration the active sites are not saturated, so more substrate means more enzyme–substrate complexes per second.",
+  "x": [
+   "",
+   "Change II also raises the rate. More enzyme molecules means more active sites working at once.",
+   "Change I does not raise the rate. A human enzyme denatures well below 80 °C and its active site loses its shape.",
+   "Change I lowers the rate. At 80 °C a human enzyme denatures."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "nucleic",
+  "q": "Which statements about nucleic acids are true?<br>I. DNA contains the sugar deoxyribose, while RNA contains ribose.<br>II. A G–C base pair is held by three hydrogen bonds, while an A–T pair is held by two.<br>III. Each nucleotide contains a nitrogen base, a five-carbon sugar and a phosphate group.",
+  "c": [
+   "I, II and III",
+   "I and III only",
+   "II and III only",
+   "I only"
+  ],
+  "h": "Recall the three parts of a nucleotide, how the two sugars differ, and how many hydrogen bonds each base pair forms.",
+  "w": "<b>I, II and III</b>. I is true: RNA's ribose has an –OH on C2′, where DNA's deoxyribose has only H. II is true: G and C share three hydrogen bonds and A and T share two, so G–C rich DNA is harder to separate. III is true: a nucleotide is a base joined to a pentose sugar that carries a phosphate group.",
+  "x": [
+   "",
+   "Statement II is true. G and C are joined by three hydrogen bonds and A and T by two.",
+   "Statement I is true. RNA's ribose has an –OH on C2′ where DNA's deoxyribose has only an H.",
+   "Statement III is true. A nucleotide is a nitrogen base, a five-carbon sugar and a phosphate joined together."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "metabolism",
+  "q": "Which statements about glycolysis are true?<br>I. Glycolysis requires O<sub>2</sub>.<br>II. Glycolysis takes place in the mitochondrial matrix.<br>III. Glycolysis converts one glucose into two pyruvate with a net gain of 2 ATP.",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Glycolysis is the first stage of glucose breakdown and also runs in cells working without enough oxygen.",
+  "w": "<b>III only</b>. I is false: glycolysis is anaerobic and runs with or without O<sub>2</sub>, which is why muscles can make lactate during hard exercise. II is false: glycolysis happens in the cytoplasm; the citric acid cycle is the stage in the mitochondrial matrix. III is true: one six-carbon glucose gives two three-carbon pyruvate, with 4 ATP made and 2 used, a net of 2 ATP (plus 2 NADH).",
+  "x": [
+   "",
+   "Statement I is false. Glycolysis runs with or without oxygen, which is why muscles can make lactate during hard exercise.",
+   "Statement II is false. Glycolysis happens in the cytoplasm. The citric acid cycle is the stage in the mitochondrial matrix.",
+   "Statement I is false. Glycolysis does not use O₂ at any step."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "metabolism",
+  "q": "Rank by the number of ATP produced when each is fully oxidized through the citric acid cycle and electron transport chain, from fewest to most.<br>I. one NADH<br>II. one FADH<sub>2</sub><br>III. one acetyl CoA",
+  "c": [
+   "II &lt; I &lt; III",
+   "I &lt; II &lt; III",
+   "II &lt; III &lt; I",
+   "III &lt; I &lt; II"
+  ],
+  "h": "FADH<sub>2</sub> passes its electrons in after complex I. One turn of the citric acid cycle makes several reduced coenzymes.",
+  "w": "<b>II &lt; I &lt; III</b>. Using about 2.5 ATP per NADH and 1.5 per FADH<sub>2</sub>, FADH<sub>2</sub> (II) gives fewer ATP than NADH (I) because its electrons enter at coenzyme Q and skip complex I's proton pumping. One acetyl CoA (III) gives 3 NADH, 1 FADH<sub>2</sub> and 1 GTP in the citric acid cycle: 3(2.5) + 1.5 + 1 = 10 ATP.",
+  "x": [
+   "",
+   "This puts FADH₂ above NADH. FADH₂ passes its electrons in after complex I, so fewer H⁺ are pumped and fewer ATP form.",
+   "This puts one NADH above a whole acetyl CoA. One turn of the citric acid cycle makes 3 NADH, 1 FADH₂ and 1 GTP, far more than one NADH.",
+   "This puts acetyl CoA lowest. Each acetyl CoA feeds several NADH and an FADH₂ into the chain, so it yields the most ATP."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "properties",
+  "q": "Compounds I–III all have a molar mass of about 74 g/mol. Rank them from lowest to highest boiling point.",
+  "c": [
+   "III &lt; II &lt; I",
+   "II &lt; III &lt; I",
+   "III &lt; I &lt; II",
+   "I &lt; II &lt; III"
+  ],
+  "h": "With similar masses, compare the attractions between molecules: which have no O–H, one O–H, or an O–H plus a C=O?",
+  "w": "<b>III &lt; II &lt; I</b>. Diethyl ether (III, 35 °C) has no O–H, so its molecules cannot hydrogen bond to each other. 1-Butanol (II, 118 °C) hydrogen bonds through its O–H. Propanoic acid (I, 141 °C) boils highest because pairs of acid molecules hold together by two hydrogen bonds (C=O to O–H both ways).",
+  "x": [
+   "",
+   "Diethyl ether is placed above 1-butanol here. The ether has no O–H, so its molecules cannot hydrogen bond to each other.",
+   "1-Butanol is placed above propanoic acid here. Carboxylic acid molecules pair up through two hydrogen bonds, so the acid boils above an alcohol of the same mass.",
+   "This order is reversed. The ether has the weakest attractions between its molecules, so it boils lowest."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "CCC(=O)O",
+    "cap": "I"
+   },
+   {
+    "smi": "CCCCO",
+    "cap": "II"
+   },
+   {
+    "smi": "CCOCC",
+    "cap": "III"
+   }
+  ],
+  "src": "acs-style"
+ },
+ {
+  "t": "properties",
+  "q": "Which statements about solubility in water are true?<br>I. 1-Pentanol is less soluble in water than ethanol.<br>II. Hexane does not dissolve in water because it cannot hydrogen bond with water.<br>III. Acetone dissolves in water because water's O–H hydrogen bonds to acetone's C=O oxygen.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Compare the polar part and the nonpolar part of each molecule, and ask whether it can hydrogen bond with water.",
+  "w": "<b>I, II and III</b>. I is true: 1-pentanol's longer nonpolar chain outweighs its one –OH, while ethanol mixes with water in all proportions. II is true: hexane has only C–H bonds, cannot hydrogen bond with water and forms a separate layer. III is true: acetone has no O–H of its own, but the lone pairs on its C=O oxygen accept hydrogen bonds from water.",
+  "x": [
+   "",
+   "Statement III is true. Acetone's C=O oxygen has lone pairs that accept hydrogen bonds from water.",
+   "Statement II is true. Hexane has only C–H bonds, so it cannot hydrogen bond with water and stays as a separate layer.",
+   "Statement I is true. The longer nonpolar chain of 1-pentanol makes it less soluble than ethanol, which mixes with water in all proportions."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "isomers",
+  "q": "Which of alkenes I–III can exist as cis and trans isomers?",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Look at each carbon of the C=C. Cis–trans isomers need two different groups on both of those carbons.",
+  "w": "<b>III only</b>. In 2-pentene (III), one C=C carbon holds H and CH<sub>3</sub> and the other holds H and CH<sub>2</sub>CH<sub>3</sub>, so cis and trans forms exist. 1-Butene (I) has a CH<sub>2</sub>= end carbon with two identical H atoms. 2-Methylpropene (II) has two H on one C=C carbon and two CH<sub>3</sub> on the other.",
+  "x": [
+   "",
+   "Compound I cannot. Its end carbon is CH₂=, with two identical H atoms.",
+   "Compound II cannot. Each carbon of its double bond has two identical groups.",
+   "Compound II cannot. One carbon of its C=C holds two CH₃ groups, so swapping sides gives the same molecule."
+  ],
+  "k": 0,
+  "d": 2,
+  "s": [
+   {
+    "smi": "C=CCC",
+    "cap": "I"
+   },
+   {
+    "smi": "C=C(C)C",
+    "cap": "II"
+   },
+   {
+    "smi": "CC=CCC",
+    "cap": "III"
+   }
+  ],
+  "src": "acs-style"
+ }
+]

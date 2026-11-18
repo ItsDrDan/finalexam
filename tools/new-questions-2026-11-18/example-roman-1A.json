@@ -1,0 +1,269 @@
+[
+ {
+  "t": "bonding",
+  "q": "Three Lewis structures for dinitrogen monoxide (laughing gas, N<sub>2</sub>O) are drawn below. Which of them are resonance structures of one another?",
+  "c": [
+   "I and II only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Resonance structures keep every atom in the same position and differ only in where the electrons (lone pairs and multiple bonds) are placed.",
+  "w": "I and II both have the N–N–O arrangement and differ only in electron placement, so <b>I and II only</b> are resonance structures. III has N–O–N connectivity, a different arrangement of atoms, so it is not a resonance form of the others.",
+  "k": 0,
+  "d": 3,
+  "s": [
+   {
+    "a": [
+     [
+      "N",
+      0,
+      0,
+      2,
+      -1,
+      ""
+     ],
+     [
+      "N",
+      1,
+      0,
+      0,
+      1,
+      ""
+     ],
+     [
+      "O",
+      2,
+      0,
+      2,
+      0,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      1,
+      2,
+      2
+     ]
+    ],
+    "cap": "I"
+   },
+   {
+    "a": [
+     [
+      "N",
+      0,
+      0,
+      1,
+      0,
+      ""
+     ],
+     [
+      "N",
+      1,
+      0,
+      0,
+      1,
+      ""
+     ],
+     [
+      "O",
+      2,
+      0,
+      3,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      1,
+      2,
+      1
+     ]
+    ],
+    "cap": "II"
+   },
+   {
+    "a": [
+     [
+      "N",
+      0,
+      0,
+      2,
+      -1,
+      ""
+     ],
+     [
+      "O",
+      1,
+      0,
+      0,
+      2,
+      ""
+     ],
+     [
+      "N",
+      2,
+      0,
+      2,
+      -1,
+      ""
+     ]
+    ],
+    "b": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      1,
+      2,
+      2
+     ]
+    ],
+    "cap": "III"
+   }
+  ],
+  "src": "drawn",
+  "x": [
+   "",
+   "III has the atoms in a different order (N–O–N), so it isn't a resonance form.",
+   "III has a different arrangement of atoms.",
+   "III has a different arrangement of atoms."
+  ]
+ },
+ {
+  "t": "quantum",
+  "q": "The table lists the quantum numbers of four electrons in the same atom. Which two electrons occupy the SAME orbital?",
+  "c": [
+   "I and II",
+   "I and III",
+   "III and IV",
+   "II and IV"
+  ],
+  "h": "An orbital is fixed by n, ℓ and m<sub>ℓ</sub>. Two electrons share an orbital only if those three match and their spins differ.",
+  "w": "Electrons <b>I and II</b> both have (n, ℓ, m<sub>ℓ</sub>) = (2, 1, 0) — the same 2p orbital — and opposite spins, as Pauli requires. I and III are both 2p electrons but in different 2p orbitals (m<sub>ℓ</sub> = 0 vs 1); IV is in the 2s orbital (ℓ = 0). 'Same subshell' is not the same as 'same orbital'.",
+  "k": 0,
+  "d": 2,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Electron",
+     "n",
+     "ℓ",
+     "m<sub>ℓ</sub>",
+     "m<sub>s</sub>"
+    ],
+    "rows": [
+     [
+      "I",
+      "2",
+      "1",
+      "0",
+      "+½"
+     ],
+     [
+      "II",
+      "2",
+      "1",
+      "0",
+      "−½"
+     ],
+     [
+      "III",
+      "2",
+      "1",
+      "1",
+      "+½"
+     ],
+     [
+      "IV",
+      "2",
+      "0",
+      "0",
+      "+½"
+     ]
+    ]
+   }
+  ],
+  "src": "figs",
+  "x": [
+   "",
+   "I and III are in different 2p orbitals (m_ℓ = 0 vs 1).",
+   "IV is in the 2s orbital (ℓ = 0), while III is a 2p electron (ℓ = 1). Electrons in the same orbital must match in n, ℓ and m<sub>ℓ</sub>, differing only in spin.",
+   "II and IV are in different subshells."
+  ]
+ },
+ {
+  "t": "atoms",
+  "q": "Protons, neutrons and electrons are tabulated for species I–IV. Which pair of entries are ISOTOPES of one element?",
+  "c": [
+   "I and II",
+   "II and III",
+   "III and IV",
+   "I and IV"
+  ],
+  "h": "Isotopes have the same number of protons but different numbers of neutrons. Electron count does not matter for this.",
+  "w": "Species <b>I and II</b> both have 17 protons (chlorine) with 18 and 20 neutrons: Cl-35 and Cl-37 (II happens to be the Cl<sup>−</sup> ion, which does not change the element). II and III have the same MASS NUMBER (37) but different elements; III and IV share 18 electrons (isoelectronic), not the same element; I and IV differ in protons.",
+  "k": 0,
+  "d": 1,
+  "f": [
+   {
+    "type": "table",
+    "head": [
+     "Species",
+     "p<sup>+</sup>",
+     "n<sup>0</sup>",
+     "e<sup>−</sup>"
+    ],
+    "rows": [
+     [
+      "I",
+      "17",
+      "18",
+      "17"
+     ],
+     [
+      "II",
+      "17",
+      "20",
+      "18"
+     ],
+     [
+      "III",
+      "18",
+      "19",
+      "18"
+     ],
+     [
+      "IV",
+      "16",
+      "18",
+      "18"
+     ]
+    ]
+   }
+  ],
+  "src": "figs",
+  "x": [
+   "",
+   "II and III have the same mass number but are different elements.",
+   "III and IV have the same electrons but different elements.",
+   "I and IV have different numbers of protons."
+  ]
+ }
+]

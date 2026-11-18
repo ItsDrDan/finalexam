@@ -1,0 +1,527 @@
+[
+ {
+  "t": "periodic",
+  "q": "Which comparisons of size are correct?<br>I. Fe<sup>3+</sup> is smaller than Fe<sup>2+</sup>.<br>II. Se<sup>2−</sup> is larger than Br<sup>−</sup>.<br>III. A magnesium atom is larger than a sodium atom.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "For ions of one element, compare how many electrons the same nucleus holds. For isoelectronic species and for atoms in one period, compare the nuclear charges.",
+  "w": "I is true: Fe<sup>3+</sup> has one fewer electron than Fe<sup>2+</sup> held by the same 26 protons, so it is pulled in more tightly. II is true: Se<sup>2−</sup> and Br<sup>−</sup> both have 36 electrons, but Se has only 34 protons to Br's 35, so Se<sup>2−</sup> is larger. III is false: Mg has one more proton than Na in the same n = 3 shell, so Mg is smaller. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is also true. Se²⁻ and Br⁻ have the same 36 electrons, and Se has fewer protons to hold them.",
+   "Statement III is false. Mg has a larger nuclear charge than Na with its valence electrons in the same shell, so Mg is smaller.",
+   "Statement III is false. Atoms get smaller from left to right across a period, so Mg is smaller than Na."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "periodic",
+  "q": "Arrange these atoms in order of increasing first ionization energy.<br>I. N<br>II. F<br>III. O",
+  "c": [
+   "III &lt; I &lt; II",
+   "I &lt; III &lt; II",
+   "II &lt; I &lt; III",
+   "III &lt; II &lt; I"
+  ],
+  "h": "Ionization energy generally rises across period 2, but there is one well-known exception among these three. Think about a half-filled versus a paired 2p subshell.",
+  "w": "First ionization energy rises across period 2 as the nuclear charge grows, so F is highest (1681 kJ/mol). Oxygen (1314 kJ/mol) is lower than nitrogen (1402 kJ/mol) because O's fourth 2p electron is paired, and repulsion within that orbital makes it easier to remove. The order is O &lt; N &lt; F, which is <b>III &lt; I &lt; II</b>.",
+  "x": [
+   "",
+   "This follows the general trend but misses the exception. Oxygen's paired 2p electron is easier to remove than any of nitrogen's half-filled 2p electrons.",
+   "Fluorine has the largest nuclear charge of the three in the same shell, so its ionization energy is the highest, not the lowest.",
+   "Fluorine holds its electrons most strongly of the three, so it cannot come in the middle of the order."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "periodic",
+  "q": "Which statements are true?<br>I. Removing an electron from a gaseous Cl<sup>−</sup> ion takes more energy than removing an electron from a gaseous Cl atom.<br>II. Argon has the most negative (most exothermic) electron affinity of the period 3 elements.<br>III. The first ionization energy of potassium is lower than that of sodium.",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Removing an electron from Cl<sup>−</sup> is the reverse of adding one to Cl. For argon, ask where an added electron would have to go.",
+  "w": "I is false: removing the electron from Cl<sup>−</sup> takes only 349 kJ/mol (the reverse of chlorine's electron affinity), far less than the 1251 kJ/mol needed for a neutral Cl atom, because the extra electron is repelled by the others. II is false: an electron added to argon must enter the 4s orbital, far from the nucleus, so argon's electron affinity is not negative. Chlorine has the most negative value in period 3. III is true: potassium's valence electron is in n = 4, farther from the nucleus than sodium's n = 3 electron. The answer is <b>III only</b>.",
+  "x": [
+   "",
+   "Statement I is false. An anion holds its extra electron loosely because of electron repulsion, so removing it takes much less energy than ionizing the neutral atom.",
+   "Statement II is false. Argon has a full n = 3 shell, so an added electron would sit in a new, higher shell and is not held.",
+   "Statement II is false. A noble gas does not release energy when it gains an electron."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "periodic",
+  "q": "Which statements correctly explain periodic trends in atomic radius?<br>I. Atoms get larger across a period because each element has more electrons than the one before it.<br>II. Atoms get larger down a group because the valence electrons are in shells with larger n.<br>III. Atoms get smaller across a period because the added protons are only partly shielded by the electrons added to the same shell.",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "First decide which direction each trend actually goes. Then ask whether the stated reason is the real cause.",
+  "w": "I is false: atoms get smaller, not larger, across a period. Electrons added to the same shell shield each other poorly, so the rising effective nuclear charge pulls the shell inward (III true). II is true: each step down a group adds a new principal shell, so the valence electrons are farther from the nucleus. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement I is false. Atomic radius decreases across a period even though electrons are added.",
+   "Statement II is true. A larger n means the valence electrons are on average farther from the nucleus.",
+   "Statement I is false. Across a period the atoms shrink, so it cannot be explained by atoms getting larger."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "bonding",
+  "q": "Which molecules are polar?<br>I. BF<sub>3</sub><br>II. NF<sub>3</sub><br>III. SO<sub>2</sub>",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "Draw each Lewis structure and check for lone pairs on the central atom. Polar bonds only make a polar molecule when the shape keeps the bond dipoles from canceling.",
+  "w": "BF<sub>3</sub> is trigonal planar with no lone pair on boron, so its three B–F dipoles cancel and it is nonpolar (I false). NF<sub>3</sub> is trigonal pyramidal because of the lone pair on N, so its dipoles do not cancel (II polar). SO<sub>2</sub> is bent because of the lone pair on S, so it is polar (III polar). The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "BF₃ is the one to recheck. Boron has no lone pair, so the molecule is flat and symmetric and its bond dipoles cancel.",
+   "NF₃ is polar too. Nitrogen has a lone pair, so the molecule is a pyramid and the N to F dipoles do not cancel.",
+   "BF₃ is nonpolar. Its three equal bond dipoles point 120° apart in a plane and add to zero."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "bonding",
+  "q": "In which species does the central atom have MORE than eight valence electrons around it in the Lewis structure?<br>I. ICl<sub>4</sub><sup>−</sup><br>II. NH<sub>4</sub><sup>+</sup><br>III. BCl<sub>3</sub>",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Count the bonding pairs and lone pairs on each central atom. Only atoms in period 3 and below can go beyond an octet.",
+  "w": "In ICl<sub>4</sub><sup>−</sup>, iodine has four bonds and two lone pairs, 12 electrons, an expanded octet (I yes). In NH<sub>4</sub><sup>+</sup>, nitrogen has four bonds and no lone pairs, exactly 8 electrons (II no). In BCl<sub>3</sub>, boron has three bonds and only 6 electrons, fewer than an octet (III no). The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Recheck NH₄⁺. Nitrogen has four bonding pairs and no lone pairs, which is exactly eight electrons.",
+   "Recheck BCl₃. Boron has only three bonding pairs, which is fewer than eight electrons, not more.",
+   "Recheck ICl₄⁻. Iodine has four bonds plus two lone pairs, which is more than eight electrons."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "bonding",
+  "q": "Which statements about molecular shapes are true?<br>I. XeF<sub>2</sub> is linear.<br>II. SF<sub>4</sub> is tetrahedral.<br>III. ClF<sub>3</sub> is T-shaped.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I, II and III",
+   "II and III only"
+  ],
+  "h": "Count all electron groups (bonds and lone pairs) on the central atom first. Lone pairs in a trigonal bipyramid go to the equatorial positions.",
+  "w": "XeF<sub>2</sub> has 5 electron groups (2 bonds, 3 lone pairs); the three lone pairs fill the equatorial positions, leaving a linear molecule (I true). SF<sub>4</sub> has 5 electron groups (4 bonds, 1 lone pair), so it is seesaw, not tetrahedral (II false). ClF<sub>3</sub> has 5 electron groups (3 bonds, 2 lone pairs), so it is T-shaped (III true). The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true. ClF₃ has three bonds and two equatorial lone pairs, which gives a T shape.",
+   "Statement II is false. Sulfur in SF₄ also has a lone pair, so there are five electron groups and the shape is a seesaw.",
+   "Statement I is true. The three lone pairs on Xe sit around the equator, so the two F atoms are 180° apart."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "bonding",
+  "q": "Arrange the carbon–oxygen bonds in these species from SHORTEST to LONGEST.<br>I. CO<sub>3</sub><sup>2−</sup><br>II. CO<br>III. CO<sub>2</sub>",
+  "c": [
+   "II &lt; III &lt; I",
+   "I &lt; III &lt; II",
+   "III &lt; II &lt; I",
+   "II &lt; I &lt; III"
+  ],
+  "h": "Find the C–O bond order in each species, averaging over resonance structures where needed. Higher bond order means a shorter bond.",
+  "w": "CO has a triple bond (bond order 3). Each C=O in CO<sub>2</sub> is a double bond (bond order 2). The three equivalent bonds in carbonate each have bond order 1⅓ from resonance. Higher bond order gives a shorter bond, so CO &lt; CO<sub>2</sub> &lt; CO<sub>3</sub><sup>2−</sup>, which is <b>II &lt; III &lt; I</b>.",
+  "x": [
+   "",
+   "This is the order from longest to shortest. A higher bond order makes a shorter bond.",
+   "CO has a triple bond, which is shorter than the double bonds in CO₂.",
+   "The bonds in carbonate are partial double bonds (order 1⅓), so they are longer than the full double bonds in CO₂."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "bonding",
+  "q": "Which statements about covalent bonds are true?<br>I. A C=C double bond is stronger than a C–C single bond, but less than twice as strong.<br>II. The H–F bond is more polar than the H–Cl bond.<br>III. For bonds between the same kinds of atoms, a longer bond is generally a stronger bond.",
+  "c": [
+   "I and II only",
+   "II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "Think about what a π bond adds compared with a σ bond. Compare electronegativity differences, and how bond order affects both length and strength.",
+  "w": "I is true: C=C is about 614 kJ/mol and C–C about 348 kJ/mol; the π bond adds less than a σ bond does, so the double bond is less than twice as strong. II is true: F is more electronegative than Cl, so the H–F bond has the larger electronegativity difference. III is false: for the same pair of atoms, higher bond order gives a shorter and stronger bond, so a longer bond is weaker. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement I is true. The π bond in C=C is weaker than the σ bond, so the double bond is stronger than a single bond but not twice as strong.",
+   "Statement III is false. Going from single to double to triple, bonds get shorter and stronger together.",
+   "Statement III is false. A longer bond between the same two atoms is a weaker bond."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "advanced",
+  "q": "According to molecular orbital theory, which of these diatomic species are paramagnetic?<br>I. N<sub>2</sub><br>II. B<sub>2</sub><br>III. C<sub>2</sub>",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "For B<sub>2</sub>, C<sub>2</sub> and N<sub>2</sub>, the π<sub>2p</sub> orbitals lie below σ<sub>2p</sub>. Fill the valence electrons and look for unpaired ones.",
+  "w": "B<sub>2</sub> has 6 valence electrons: (σ<sub>2s</sub>)<sup>2</sup>(σ*<sub>2s</sub>)<sup>2</sup>(π<sub>2p</sub>)<sup>2</sup>, with the two π electrons in separate orbitals, so it is paramagnetic. C<sub>2</sub> has 8: the two π<sub>2p</sub> orbitals are completely filled, so it is diamagnetic. N<sub>2</sub> has 10: π<sub>2p</sub> and σ<sub>2p</sub> are both filled, so it is diamagnetic. The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Statement I is wrong. N₂ fills the π2p and σ2p orbitals completely, so all its electrons are paired.",
+   "Statement III is wrong. In C₂ the four π2p electrons exactly fill both π2p orbitals, so none are unpaired.",
+   "N₂ has all of its electrons paired, so it is diamagnetic."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "advanced",
+  "q": "Which statements about ethene (ethylene), H<sub>2</sub>C=CH<sub>2</sub>, are true?<br>I. Each carbon atom is sp<sup>2</sup> hybridized.<br>II. The π bond forms from the overlap of two sp<sup>2</sup> hybrid orbitals.<br>III. The molecule has five σ bonds and one π bond.",
+  "c": [
+   "I and III only",
+   "I only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "Each carbon has three electron groups. Ask which orbitals are left over after the hybrids are made, and count every bond, including the C–H bonds.",
+  "w": "Each carbon has three electron groups (two C–H and one C=C), so it is sp<sup>2</sup> (I true). The σ bonds come from sp<sup>2</sup> hybrids, but the π bond comes from side-by-side overlap of the unhybridized 2p orbitals (II false). There are four C–H σ bonds plus one C–C σ bond, five σ in all, and one π bond (III true). The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true. Count the four C to H bonds plus the σ part of the double bond.",
+   "Statement II is false. The π bond uses the unhybridized p orbital left on each carbon, not hybrid orbitals.",
+   "Statement II is false. Hybrid orbitals point along the bond axis and form σ bonds. π bonds come from leftover p orbitals."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "advanced",
+  "q": "In which species is the central atom sp<sup>3</sup> hybridized?<br>I. BF<sub>3</sub><br>II. CO<sub>3</sub><sup>2−</sup><br>III. H<sub>3</sub>O<sup>+</sup>",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Count electron groups (bonds plus lone pairs) on the central atom. A double bond counts as one group.",
+  "w": "BF<sub>3</sub>: boron has 3 bonds and no lone pair, 3 groups, so sp<sup>2</sup>. CO<sub>3</sub><sup>2−</sup>: carbon has 3 groups (one double bond counts once), so sp<sup>2</sup>. H<sub>3</sub>O<sup>+</sup>: oxygen has 3 bonds and 1 lone pair, 4 groups, so sp<sup>3</sup>. The answer is <b>III only</b>.",
+  "x": [
+   "",
+   "Statement I is misjudged. Boron in BF₃ has only three electron groups and no lone pair, so it is sp².",
+   "Statement II is misjudged. The C=O double bond counts as one electron group, so carbon has three groups and is sp².",
+   "Recheck BF₃. Three electron groups means sp², not sp³."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "advanced",
+  "q": "Which statements are correct according to molecular orbital theory?<br>I. The peroxide ion, O<sub>2</sub><sup>2−</sup>, has a bond order of 2.<br>II. F<sub>2</sub> has a bond order of 1.<br>III. Adding an electron to O<sub>2</sub> to form O<sub>2</sub><sup>−</sup> makes the O–O bond longer.",
+  "c": [
+   "II and III only",
+   "II only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "For O<sub>2</sub> and F<sub>2</sub>, extra electrons go into the π*<sub>2p</sub> antibonding orbitals. Bond order = ½(bonding − antibonding electrons).",
+  "w": "O<sub>2</sub> (12 valence electrons) has bond order 2. Each added electron enters π*<sub>2p</sub>, so O<sub>2</sub><sup>−</sup> has bond order 1.5 and a longer bond (III true), and O<sub>2</sub><sup>2−</sup> has bond order 1 (I false). F<sub>2</sub> (14 valence electrons) has 8 bonding and 6 antibonding, bond order 1 (II true). The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement III is also true. The added electron goes into an antibonding orbital, which lowers the bond order and lengthens the bond.",
+   "Statement I is false. Peroxide has two more antibonding electrons than O₂, which lowers the bond order below 2.",
+   "Statement I is false. O₂²⁻ has 8 bonding and 6 antibonding valence electrons."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "gases",
+  "q": "A sample of an ideal gas is at 1.0 atm and 27 °C. Which changes, each made with the amount of gas held constant, would DOUBLE its volume?<br>I. Heating the gas from 27 °C to 54 °C at constant pressure.<br>II. Lowering the pressure to 0.50 atm at constant temperature.<br>III. Doubling both the pressure and the Kelvin temperature.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Use V = nRT/P with T in kelvins. Convert both Celsius temperatures before comparing them.",
+  "w": "I: 27 °C is 300 K and 54 °C is 327 K, so V rises only by 327/300, about 9% (does not double). II: halving P at constant T doubles V (Boyle's law). III: doubling both P and T leaves T/P, and so V, unchanged. The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Statement I does not double the volume. Gas laws use kelvins, and 300 K to 327 K is only about a 9% increase.",
+   "Statement III does not change the volume. Doubling P halves V and doubling T doubles V, so the effects cancel.",
+   "Statement I does not double the volume. Doubling a Celsius temperature does not double the Kelvin temperature."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "gases",
+  "q": "A rigid container holds equal numbers of moles of He and CH<sub>4</sub> at 25 °C. Which statements are true?<br>I. Helium atoms effuse through a tiny hole twice as fast as CH<sub>4</sub> molecules.<br>II. The CH<sub>4</sub> molecules have a greater average kinetic energy than the He atoms.<br>III. The partial pressure of CH<sub>4</sub> is four times the partial pressure of He.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Graham's law compares effusion rates using the square root of the molar masses. Average kinetic energy and partial pressure depend on different things than mass.",
+  "w": "I is true: rate(He)/rate(CH<sub>4</sub>) = √(16.04/4.00) = 2.00. II is false: average kinetic energy depends only on temperature, so both gases have the same value at 25 °C. III is false: partial pressure depends on the number of moles, not the mass, so equal moles give equal partial pressures. The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false. At the same temperature every gas has the same average kinetic energy. Heavier molecules just move more slowly.",
+   "Statement III is false. Partial pressure is set by moles, and the moles of the two gases are equal.",
+   "Statement I is true. √(16/4) = 2, so helium effuses twice as fast."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "gases",
+  "q": "Which statements help explain why real gases do not behave exactly like ideal gases?<br>I. Gas molecules take up some volume of their own, which matters when the gas is compressed to high pressure.<br>II. Attractions between molecules make the measured pressure lower than the ideal-gas value.<br>III. Deviations from ideal behavior are largest at high pressure and low temperature.",
+  "c": [
+   "I, II and III",
+   "I and II only",
+   "I and III only",
+   "II only"
+  ],
+  "h": "The van der Waals equation corrects the ideal gas law for two things the kinetic molecular theory ignores. Think about when molecules are crowded together and moving slowly.",
+  "w": "I is true: molecular volume is ignored by the ideal model and becomes significant when molecules are crowded at high pressure (the b term). II is true: attractions pull molecules back as they approach the wall, so they hit it less hard and the pressure is lower than ideal (the a term). III is true: high pressure crowds the molecules and low temperature lets attractions matter more, so deviations are largest there. The answer is <b>I, II and III</b>.",
+  "x": [
+   "",
+   "Statement III is true as well. Crowding at high pressure and slow motion at low temperature both make the ideal model fail.",
+   "Statement II is true as well. Attractions between molecules soften their collisions with the wall and lower the pressure.",
+   "Statement I is true as well. At high pressure the molecules' own volume is no longer a tiny part of the container volume."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "gases",
+  "q": "Three 1.0 L flasks at 25 °C each contain 2.0 g of a different gas. Arrange the flasks in order of INCREASING pressure.<br>I. H<sub>2</sub><br>II. He<br>III. CH<sub>4</sub>",
+  "c": [
+   "III &lt; II &lt; I",
+   "I &lt; II &lt; III",
+   "II &lt; I &lt; III",
+   "III &lt; I &lt; II"
+  ],
+  "h": "At the same V and T, pressure is proportional to moles. Convert each 2.0 g to moles.",
+  "w": "Moles: H<sub>2</sub> 2.0/2.02 ≈ 0.99 mol, He 2.0/4.00 = 0.50 mol, CH<sub>4</sub> 2.0/16.04 ≈ 0.12 mol. At equal V and T, P is proportional to n, so the order of increasing pressure is CH<sub>4</sub> &lt; He &lt; H<sub>2</sub>, which is <b>III &lt; II &lt; I</b>.",
+  "x": [
+   "",
+   "This is the order of molar mass. Equal masses of a lighter gas mean more moles, and more moles mean more pressure.",
+   "Helium has the higher molar mass of these two (4.00 vs 2.02 g/mol), so 2.0 g of it is fewer moles than 2.0 g of H₂.",
+   "H₂ has the smallest molar mass, so 2.0 g of it is the most moles of the three."
+  ],
+  "k": 1,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "liquids",
+  "q": "In which pure liquids do the molecules hydrogen bond to one another?<br>I. methanol, CH<sub>3</sub>OH<br>II. dimethyl ether, CH<sub>3</sub>OCH<sub>3</sub><br>III. hydrogen fluoride, HF",
+  "c": [
+   "I and III only",
+   "III only",
+   "I and II only",
+   "I, II and III"
+  ],
+  "h": "A molecule can hydrogen bond to its own kind only if it has an H atom bonded directly to N, O or F.",
+  "w": "Methanol has an O–H group, so its molecules hydrogen bond to each other (I yes). HF has H bonded directly to F (III yes). Dimethyl ether has an O atom, but all of its H atoms are bonded to carbon, so it has no H to donate and cannot hydrogen bond to itself (II no). The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Recheck methanol. Its O to H group can donate a hydrogen bond to the O of a neighboring molecule.",
+   "Recheck dimethyl ether. Its H atoms are all on carbon, so it has no H to donate to a neighbor.",
+   "Dimethyl ether is the one to recheck. An O atom alone is not enough, the H must be bonded to N, O or F."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "liquids",
+  "q": "Which statements about boiling are true?<br>I. A liquid always boils when its vapor pressure reaches 760 torr, no matter what the external pressure is.<br>II. Water boils below 100 °C on a high mountain.<br>III. Of two liquids, the one with stronger intermolecular forces usually has the higher normal boiling point.",
+  "c": [
+   "II and III only",
+   "I and II only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "Boiling happens when the vapor pressure of the liquid matches the pressure pushing down on it.",
+  "w": "I is false: a liquid boils when its vapor pressure equals the external pressure, which is 760 torr only at sea level. II is true: on a mountain the air pressure is lower, so water's vapor pressure reaches it at a lower temperature. III is true: stronger intermolecular forces lower the vapor pressure, so a higher temperature is needed to reach 1 atm. The answer is <b>II and III only</b>.",
+  "x": [
+   "",
+   "Statement I is false. The boiling point depends on the external pressure, and 760 torr is only the pressure at sea level.",
+   "Statement II is true. Lower air pressure on a mountain means water boils at a lower temperature.",
+   "Statement I is false. A liquid boils when its vapor pressure equals whatever the external pressure is."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "liquids",
+  "q": "Heat is added at a steady rate to a sample of ice at −20 °C until it becomes steam at 120 °C. Which statements are true?<br>I. The temperature stays constant while the ice melts.<br>II. Melting the ice takes longer than boiling the water.<br>III. While the water is boiling, the added energy raises the average kinetic energy of the molecules.",
+  "c": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "I, II and III"
+  ],
+  "h": "On a heating curve, flat sections are phase changes. Compare ΔH<sub>fus</sub> (6.01 kJ/mol) with ΔH<sub>vap</sub> (40.7 kJ/mol) for water.",
+  "w": "I is true: during melting the added heat breaks intermolecular attractions, so the temperature stays at 0 °C. II is false: ΔH<sub>vap</sub> (40.7 kJ/mol) is almost seven times ΔH<sub>fus</sub> (6.01 kJ/mol), so at a steady heating rate boiling takes much longer. III is false: during boiling the temperature, and so the average kinetic energy, stays constant; the energy goes into separating molecules (raising potential energy). The answer is <b>I only</b>.",
+  "x": [
+   "",
+   "Statement II is false. Vaporizing water takes far more energy per mole than melting ice, so the boiling plateau is longer.",
+   "Statement III is false. Temperature does not change during boiling, so the average kinetic energy does not change either.",
+   "Statement II is false. ΔHvap is much larger than ΔHfus, so boiling takes longer than melting."
+  ],
+  "k": 0,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "liquids",
+  "q": "Which statements about solids are true?<br>I. Diamond is a molecular solid held together by dispersion forces.<br>II. Solid NaCl does not conduct electricity, but molten NaCl does.<br>III. Metals conduct electricity because they contain anions that are free to move.",
+  "c": [
+   "II only",
+   "I and II only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Match each solid with the particles it is made of and the forces between them. Conduction needs charged particles that can move.",
+  "w": "I is false: diamond is a covalent network solid, with every carbon joined to four others by covalent bonds, which is why it is so hard and melts so high. II is true: the ions in solid NaCl are locked in the lattice, but in the melt they can move and carry current. III is false: metals conduct because their valence electrons are delocalized and mobile, not because of moving anions. The answer is <b>II only</b>.",
+  "x": [
+   "",
+   "Statement I is false. Diamond is a network of covalent bonds, not separate molecules held by dispersion forces.",
+   "Statement III is false. In a metal the charge carriers are delocalized electrons, and there are no anions.",
+   "Statement I is false. Diamond's extreme hardness comes from a continuous network of covalent bonds."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "solutions",
+  "q": "Which changes would increase the solubility of CO<sub>2</sub> gas in water?<br>I. Warming the water.<br>II. Stirring the water faster.<br>III. Raising the partial pressure of CO<sub>2</sub> above the water.",
+  "c": [
+   "III only",
+   "I and III only",
+   "II and III only",
+   "I, II and III"
+  ],
+  "h": "Solubility is how much dissolves at equilibrium, not how fast it dissolves. Think about Henry's law and why warm soda goes flat.",
+  "w": "I: gases become less soluble in water as temperature rises, so warming lowers the solubility. II: stirring only speeds up how fast the gas dissolves; it does not change how much can dissolve at equilibrium. III: by Henry's law, the solubility of a gas is proportional to its partial pressure, so raising P(CO<sub>2</sub>) increases it. The answer is <b>III only</b>.",
+  "x": [
+   "",
+   "Statement I is misjudged. Gas solubility in water decreases when the water is warmed, which is why warm soda goes flat.",
+   "Statement II is misjudged. Stirring changes the rate of dissolving, not the amount that can dissolve at equilibrium.",
+   "Warming the water does the opposite. Gases are less soluble in warmer water."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ },
+ {
+  "t": "solutions",
+  "q": "Which statements about dissolving an ionic solid in water are true?<br>I. Water molecules around a cation point their oxygen atoms toward it.<br>II. A salt with a positive (endothermic) enthalpy of solution can still dissolve on its own.<br>III. Dissolving an ionic solid in water is always exothermic.",
+  "c": [
+   "I and II only",
+   "I only",
+   "II only",
+   "I, II and III"
+  ],
+  "h": "Think about which end of a water molecule carries the partial negative charge. Remember that a cold pack works by dissolving a salt.",
+  "w": "I is true: oxygen carries the partial negative charge of water, so it faces the positive cation. II is true: salts such as NH<sub>4</sub>NO<sub>3</sub> dissolve endothermically (the basis of cold packs); the increase in dispersal (entropy) of the ions drives the process. III is false: the enthalpy of solution is the balance of lattice energy and hydration energy and can be either positive or negative. The answer is <b>I and II only</b>.",
+  "x": [
+   "",
+   "Statement II is also true. Cold packs dissolve a salt that absorbs heat, and it still dissolves on its own.",
+   "Statement I is also true. The partially negative O end of water is attracted to a positive ion.",
+   "Statement III is false. Some salts, like NH₄NO₃, absorb heat when they dissolve."
+  ],
+  "k": 0,
+  "d": 2,
+  "src": "acs-style"
+ },
+ {
+  "t": "solutions",
+  "q": "Which aqueous solutions have a LOWER freezing point than 0.20 m glucose? Assume the ionic solutes dissociate completely.<br>I. 0.15 m NaCl<br>II. 0.050 m CaCl<sub>2</sub><br>III. 0.10 m Na<sub>2</sub>SO<sub>4</sub>",
+  "c": [
+   "I and III only",
+   "I only",
+   "III only",
+   "I, II and III"
+  ],
+  "h": "Freezing-point depression depends on the total molality of dissolved particles, i × m. Compare each with glucose's 0.20 m of particles.",
+  "w": "Particle molality (i × m): glucose 1 × 0.20 = 0.20 m. NaCl 2 × 0.15 = 0.30 m (I lower freezing point). CaCl<sub>2</sub> 3 × 0.050 = 0.15 m, which is less than 0.20 m, so its freezing point is higher than glucose's (II no). Na<sub>2</sub>SO<sub>4</sub> 3 × 0.10 = 0.30 m (III lower freezing point). The answer is <b>I and III only</b>.",
+  "x": [
+   "",
+   "Recheck Na₂SO₄. It gives 3 ions per formula unit, so 0.10 m makes 0.30 m of particles.",
+   "Recheck NaCl. It gives 2 ions per formula unit, so 0.15 m makes 0.30 m of particles.",
+   "Recheck CaCl₂. Its 3 ions times 0.050 m is only 0.15 m of particles, fewer than glucose's 0.20 m."
+  ],
+  "k": 1,
+  "d": 3,
+  "src": "acs-style"
+ },
+ {
+  "t": "solutions",
+  "q": "Which pairs of liquids mix completely (are miscible) in all proportions?<br>I. ethanol, CH<sub>3</sub>CH<sub>2</sub>OH, and water<br>II. hexane, C<sub>6</sub>H<sub>14</sub>, and octane, C<sub>8</sub>H<sub>18</sub><br>III. acetone, (CH<sub>3</sub>)<sub>2</sub>CO, and water",
+  "c": [
+   "I, II and III",
+   "I only",
+   "I and III only",
+   "II and III only"
+  ],
+  "h": "Like dissolves like: liquids mix well when the attractions between unlike molecules are similar to the attractions within each liquid.",
+  "w": "I: ethanol and water both hydrogen bond, so they mix in all proportions. II: hexane and octane are both nonpolar and held by dispersion forces only, so they mix in all proportions. III: acetone is small and polar and its C=O oxygen accepts hydrogen bonds from water, so it mixes with water in all proportions. The answer is <b>I, II and III</b>.",
+  "x": [
+   "",
+   "Statement II is true as well. Two nonpolar hydrocarbons have the same kind of forces, so they mix freely.",
+   "Statement II is true as well. Hexane and octane are both nonpolar, so like dissolves like.",
+   "Statement I is true as well. Ethanol's O to H group hydrogen bonds with water."
+  ],
+  "k": 0,
+  "d": 1,
+  "src": "acs-style"
+ }
+]

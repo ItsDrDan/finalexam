@@ -14,7 +14,8 @@ const pairs = args.filter(a => a !== '--dry');
 if (!pairs.length || pairs.length % 2) { console.error('usage: append_questions.js COURSE file.json [COURSE file.json ...] [--dry]'); process.exit(1); }
 
 const TOPICS = {};
-const html0 = fs.readFileSync(FILE, 'utf8');
+const bankio = require('./bankio');
+const html0 = bankio.loadVirtual();   /* index.html with the data/bank-*.json files attached as the old bank blocks */
 for (const c of ['3A', '3B', '1A', '1B', '28A', '28B']) {
   const m = html0.match(new RegExp(`'${c}':\\{name:[\\s\\S]*?topics:\\[(\\[[\\s\\S]*?\\])\\]\\}`));
   TOPICS[c] = m ? [...m[1].matchAll(/\['([a-z_]+)'/g)].map(x => x[1]) : null;
@@ -58,5 +59,5 @@ for (const c of ['3A', '3B', '1A', '1B', '28A', '28B']) {
 }
 const outside = s => s.replace(/<script type="application\/json" id="bank-[^"]+">[\s\S]*?<\/script>/g, '');
 if (outside(html0) !== outside(html)) throw new Error('text outside the banks changed');
-if (!dry) fs.writeFileSync(FILE, html);
+if (!dry) bankio.saveVirtual(html);
 console.log(dry ? 'dry run: nothing written' : 'written');

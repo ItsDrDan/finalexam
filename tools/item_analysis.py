@@ -48,11 +48,9 @@ def qver(q):
             return out
 
 
-html = (ROOT / "index.html").read_text(encoding="utf-8")
 bank = {}
-for c in ("3A", "3B", "1A", "1B"):
-    m = re.search(rf'<script type="application/json" id="bank-{c}">(.*?)</script>', html, re.S)
-    for i, q in enumerate(json.loads(m.group(1))):
+for c in ("3A", "3B", "1A", "1B", "28A", "28B"):
+    for i, q in enumerate(json.loads((ROOT / "data" / f"bank-{c}.json").read_text(encoding="utf-8"))):
         bank[f"{c}-{i}"] = q
 
 if args.file:

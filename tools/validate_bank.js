@@ -9,7 +9,7 @@ const fs = require('fs'), path = require('path');
 const args = process.argv.slice(2);
 const file = args.find(a => !a.startsWith('--') && a.endsWith('.html')) || path.join(__dirname, '..', 'index.html');
 const jsonOut = args.includes('--json') ? args[args.indexOf('--json') + 1] : null;
-const html = fs.readFileSync(file, 'utf8');
+const html = require('./bankio').loadVirtual();   /* index.html with the data/bank-*.json files attached */
 
 const TOPICS = {
   '3A': ['measure','atoms','electrons','matter','naming','moles','bonding','energy','gases','solutions','reactions','stoich','acids','equilibrium','nuclear'],
@@ -264,6 +264,14 @@ for (const c of Object.keys(bank)) {
     [['s', q.s], ['cs', q.cs]].forEach(([nm, arr]) => (arr || []).forEach((o, j) => {
       if (o === null || typeof o === 'string' || (o && o.arrow !== undefined)) return;
       stats.struct++;
+      if (o.smi !== undefined && !o.a) {   /* SMILES drawn by the game's own parser (3B): it reads [..] atoms, ( ) branches, = # bonds, ring digits; no lowercase aromatic atoms */
+        const t = String(o.smi), bad = [];
+        if (/[cnos](?![lr])/.test(t.replace(/\[[^\]]*\]/g, '').replace(/Cl|Br/g, ''))) bad.push('lowercase aromatic atom (the game parser needs Kekulé form, e.g. C1=CC=CC=C1)');
+        let d = 0; for (const ch of t) { if (ch === '(') d++; if (ch === ')') d--; if (d < 0) break; } if (d !== 0) bad.push('unbalanced parentheses');
+        const rings = (t.replace(/\[[^\]]*\]/g, '').match(/\d/g) || []).reduce((m, x) => (m[x] = (m[x] || 0) + 1, m), {}); if (Object.values(rings).some(n => n % 2)) bad.push('unclosed ring number');
+        bad.forEach(p => flag('ERR', id, 'structure', nm + '[' + j + '] SMILES ' + t + ': ' + p));
+        return;
+      }
       if (o.a.some(a => /^(Pt|Co|Cr|Fe|Ni|Cu|Zn|Ag)$/.test(a[0]))) return;          /* coordination complexes: ligand bond counts differ */
       structInfo(o).problems.forEach(p => flag('WARN', id, 'structure', nm + '[' + j + ']: ' + p));
     }));
