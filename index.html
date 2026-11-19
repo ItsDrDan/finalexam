@@ -54,6 +54,7 @@ button,input,select{font:inherit;color:inherit}.hidden{display:none!important}
 .fbmini{flex:0 0 clamp(124px,14vw,220px);width:clamp(124px,14vw,220px);text-align:center;padding-top:2px}.fbmini.hidden{display:none}.fbrow.empty{margin-top:14px}
 @media(max-width:700px){.fbmini{flex-basis:92px;width:92px}.fbrow{gap:8px}}
 @media(max-width:480px){.fbrow{flex-direction:column;align-items:stretch}.fbmini{flex:0 0 auto;width:auto;display:flex;align-items:center;gap:10px;text-align:left;padding-top:0}.fbmini svg{flex:0 0 60px;width:60px}.fb .nw,.hintbox .nw{white-space:normal}}
+.report{margin-top:10px;text-align:left;font-size:14px}.report summary{cursor:pointer;color:#666;font-weight:700}.report .qidtag{font-weight:800;color:#444;margin-right:6px}.report fieldset{border:0;margin:6px 0;padding:0}.report legend{font-weight:800;padding:0}.report label{display:block;margin:4px 0}.report .rnote textarea{display:block;width:100%;box-sizing:border-box;font:inherit;font-size:16px;margin-top:4px}.report .btn{margin-top:6px;min-height:44px;padding:8px 16px}.report .rdone{font-weight:700}
 .fb,.hintbox{overflow-wrap:break-word}.fbnext{margin-top:14px}.fbnext .btn{width:100%}
 @media(max-width:560px){.ddfb-float{width:42px!important;height:42px!important;opacity:.6}.ddfb-float svg{width:19px;height:19px}body.fb-reading .ddfb-float{opacity:0!important;pointer-events:none!important}}.opt>span:last-child{min-width:0;overflow-wrap:anywhere}
 @media(max-width:360px){.ftab{display:block;max-width:100%;overflow-x:auto}.prompt .nw,.opt .nw{white-space:normal}}body.calc-open .ddfb-float{display:none!important}
@@ -752,7 +753,21 @@ function buildModes(){$('modes').innerHTML=MODES.map(m=>`<button class="mode ${m
  $('modes').querySelectorAll('.mode').forEach(b=>b.onclick=()=>{state.mode=b.dataset.m;ui.mode=state.mode;saveUI();buildModes();start();if(innerWidth<1000)$('practice').scrollIntoView({behavior:'smooth',block:'start'})})}
 function stats(){[['nCorrect',state.correct],['nStreak',state.streak],['nAssist',state.assist]].forEach(([id,v])=>{const e=$(id);if(e.textContent!==String(v)){e.textContent=v;const p=e.parentElement;p.classList.remove('pop');void p.offsetWidth;p.classList.add('pop')}})}
 /* why each wrong choice is wrong: q.x is parallel to q.c (x[0] is the right answer, left blank) */
-function whyHTML(q,mine){if(!q.x||!q.x.some(Boolean))return'';return `<details class="why"${mine!=null&&mine>0?' open':''}><summary>Why the other choices are wrong</summary><ul>`+[1,2,3].map(k=>q.x[k]?`<li${k===mine?' class="mine"':''}><b>${optHTML(q,k)||'This choice'}:</b> ${q.x[k]}${k===mine?' <i>(your pick)</i>':''}</li>`:'').join('')+'</ul></details>'}
+function whyHTML(q,mine){return whyList(q,mine)+reportHTML(q)}
+/* Question ID + "Report a problem" under every explanation, so students and instructors can name a question.
+   Sent as {type:"report"} to the stats script, which saves it to the "Question reports" tab (same tab as TEAS and MCAT).
+   Only the question ID, the reason, the optional note and the wording fingerprint are sent; never a name. Live site only. */
+const REPORT_URL='https://script.google.com/macros/s/AKfycbylSKoW9GE6AkN4HiC1uts3Y5Z4oUPHY7OQ88vXrjpcanooloYRTIGW9cS5n0dulp4vQg/exec';
+const REASONS=['The answer key looks wrong','The question or explanation is unclear','More than one answer seems right','Typo, figure or formatting problem','Something else'];let repN=0;
+function reportHTML(q){if(!q||!q.id)return'';const n='rr'+(++repN);return `<details class="report" data-rq="${q.id}"><summary><span class="qidtag">Question ${q.id}</span> ⚑ Report a problem</summary><div class="rbody"><p class="tip">Dr. Dan reads every report. No name or personal information is sent.</p><fieldset><legend>What looks wrong?</legend>${REASONS.map((r,i)=>`<label><input type="radio" name="${n}" value="${i}"> ${r}</label>`).join('')}</fieldset><label class="rnote">Details (optional)<textarea maxlength="600" rows="2"></textarea></label><button class="btn" type="button" data-rsend>Send report</button> <span class="rdone" role="status"></span></div></details>`}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-rsend]');if(!b)return;const box=b.closest('.report'),q=BYID[box.dataset.rq],done=box.querySelector('.rdone');if(!q)return;
+ const pick=box.querySelector('input[type=radio]:checked'),reason=REASONS[pick?+pick.value:4],note=box.querySelector('textarea').value.trim().slice(0,600);
+ if(!/\.github\.io$/.test(location.hostname)){done.textContent='Reports are sent from the live site only.';return}
+ b.disabled=true;const payload={type:'report',game:'finalboss',qid:q.id,reason,note:`${note?note+' | ':''}CHEM ${q.course}: ${topicName(q.course,q.t)}; ${MODES.find(m=>m.id===state.mode)?.title||state.mode}; wording ${qver(q)}`};
+ fetch(REPORT_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)})
+  .then(()=>{done.textContent='Report sent. Thank you!';box.querySelectorAll('input,textarea').forEach(x=>x.disabled=true)})
+  .catch(()=>{b.disabled=false;done.textContent="That didn't send. Check your connection and tap Send again."})});
+function whyList(q,mine){if(!q.x||!q.x.some(Boolean))return'';return `<details class="why"${mine!=null&&mine>0?' open':''}><summary>Why the other choices are wrong</summary><ul>`+[1,2,3].map(k=>q.x[k]?`<li${k===mine?' class="mine"':''}><b>${optHTML(q,k)||'This choice'}:</b> ${q.x[k]}${k===mine?' <i>(your pick)</i>':''}</li>`:'').join('')+'</ul></details>'}
 function fb(k,h){$('fb').className='fb '+k;$('fb').innerHTML=noWrapChem(h)}
 function practiceChrome(on){$('statRow').classList.toggle('hidden',!on);$('btnRow').classList.toggle('hidden',!on);if(!on){$('hintBox').className='hintbox';fb('','')}}
 function start(){clearInterval(boss.tick);clearInterval(blitz.tick);document.body.classList.remove('examday');$('topicRow').innerHTML='';const m=MODES.find(x=>x.id===state.mode);$('modeTitle').textContent=m.icon+' '+m.title;
@@ -1639,6 +1654,13 @@ const examPool=c=>{if(!COURSES[c].exams)return BANK[c];const t=examDef(c,curExam
 const setExam=e=>{boss.exam[state.course]=e;LS.set('-examsel',boss.exam)};
 const examPick=cls=>{const cfg=C();if(!cfg.exams)return '';const ed=examDef(state.course,curExam());return `<p class="tip" style="font-weight:900;margin:10px 0 0">Which exam?</p><div class="setup two" style="margin-top:6px">${cfg.exams.map(e=>`<button class="lenbtn ${cls} ${e.id===ed.id?'on':''}" data-e="${e.id}"><b>${e.icon} ${e.name}</b><span>${e.short}</span></button>`).join('')}</div>`};
 const EK=()=>'-exam-'+state.course+'-'+curExam();
+/* Instructor links preselect the Boss Battle setup for this visit only: &exam=mid|final (CHEM 3B), &len=half|full, &style=examday|practice.
+   Any of them alone also opens the Boss Battle. Saved choices are not overwritten until the student changes a button. */
+(()=>{const P=new URLSearchParams(location.search),g=k=>(P.get(k)||'').toLowerCase().replace(/[^a-z]/g,''),e=g('exam'),l=g('len'),st=g('style'),cfg=COURSES[state.course];let hit=0;
+ if(e&&cfg.exams){const x=cfg.exams.find(x=>x.id===e||x.name.toLowerCase().replace(/[^a-z]/g,'').includes(e));if(x){boss.exam[state.course]=x.id;hit=1}}
+ if(l==='half'||l==='full'){boss.len=l;hit=1}
+ if(['examday','exam','strict'].includes(st)){boss.strict=true;hit=1}else if(st==='practice'){boss.strict=false;hit=1}
+ if(hit&&!P.get('mode')){state.mode='boss';state.deepScroll=1}})();
 /* Exam blueprint: each Study Hub chapter gets equal weight on the mock final; a chapter shared by two topics splits its weight.
    1A and 1B follow the chapter outline of the ACS Exams Institute's Official Guide (General Chemistry, 2nd ed., 2018): first term = Toolbox + chapters 1-8,
    second term = chapters 9-16. The guide gives no percentages, so each chapter is weighted by its number of study + practice questions
