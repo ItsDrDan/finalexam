@@ -237,6 +237,6 @@ No logins and no names. Progress stays in the student's own browser. Practice st
 
 ## Reuse
 
-Free to play, to link, and to embed the live page in your course site as shown above. Copying, hosting, modifying or adapting it needs Dr. Dan's written permission (see the LICENSE in https://github.com/ItsDrDan/finalexam). Ask through https://github.com/ItsDrDan.
+Free to play, to link, and to embed the live page in your course site as shown above; the LICENSE says so too. Copying, hosting, modifying or adapting it needs Dr. Dan's written permission (see the LICENSE in https://github.com/ItsDrDan/finalexam). Ask through https://github.com/ItsDrDan.
 
 Questions or spotted an error? Use **⚑ Report a problem** under any explanation, or contact Dr. Dan (ItsDrDan).
