@@ -1848,7 +1848,7 @@ addEventListener('keydown',e=>{const m=$('ptModal');if(m.classList.contains('hid
 document.addEventListener('keydown',e=>{if(e.ctrlKey||e.metaKey||e.altKey||/INPUT|SELECT|TEXTAREA/.test(document.activeElement?.tagName)||document.activeElement?.closest?.('#calcDock,.chip.calc'))return;const opts=[...$('qArea').querySelectorAll('.opt:not([disabled])')];
  if(/^[1-4]$/.test(e.key)&&opts[+e.key-1]){opts[+e.key-1].click();e.preventDefault()}
  else if(/^[a-dA-D]$/.test(e.key)&&opts[e.key.toUpperCase().charCodeAt(0)-65]){opts[e.key.toUpperCase().charCodeAt(0)-65].click();e.preventDefault()}
- else if(e.key==='Enter'&&['topic','weak','quick'].includes(state.mode)){const b=state.done?$('newBtn'):$('checkBtn');if(b&&!b.disabled&&!b.closest('.hidden')){b.click();e.preventDefault()}}});
+ else if(e.key==='Enter'&&['topic','weak','quick'].includes(state.mode)){const f=document.activeElement;/* Enter on any other focused control (Hint, links, disclosures) must activate that control */if(f?.closest?.('button,a[href],summary,[role="button"]')&&!f.closest('.opt,#checkBtn,#newBtn'))return;const b=state.done?$('newBtn'):$('checkBtn');if(b&&!b.disabled&&!b.closest('.hidden')){b.click();e.preventDefault()}}});
 /* ---------- practice calculator (from Algebra Trainer) ---------- */
 let calcMounted=false;
 function openCalc(){const d=$('calcDock');if(!calcMounted){Calc.mount($('calcMount'),null);calcMounted=true}d.hidden=false;document.body.classList.add('calc-open');if(EMB())d.style.top=nearTap(d.offsetHeight||560,120)+'px';const b=d.querySelector('[data-k="7"]');if(b)b.focus({preventScroll:true})}
